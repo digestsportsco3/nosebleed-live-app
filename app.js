@@ -4,10 +4,18 @@ const API_CONFIG = {
   boxscore: "/api/boxscore",
   polymarket: "/api/polymarket",
   picks: "/api/picks",
+  picksRecord: "/api/picks/record",
   news: "/api/news",
+  leagues: "/api/leagues",
 };
 
-const leagues = ["All", "MLB", "NBA", "NFL", "NHL", "WNBA"];
+let leagues = ["All", "MLB", "NBA", "NFL", "NHL", "WNBA"];
+let leagueConfigs = leagues.map((key, priority) => ({
+  key,
+  label: key === "All" ? "Top Events" : key,
+  accent: key === "All" ? "#b11226" : "#b11226",
+  priority,
+}));
 
 const games = [
   {
@@ -527,10 +535,26 @@ const state = {
   externalOddsMeta: null,
   scoresLoading: false,
   oddsLoading: false,
+  picks: [],
+  picksRecord: null,
   pulse: 0,
 };
 
 const $ = (selector) => document.querySelector(selector);
+
+async function fetchWithMeta(url) {
+  const response = await fetch(url, { headers: { Accept: "application/json" } });
+  const payload = await response.json().catch(() => ({}));
+  return {
+    payload,
+    meta: {
+      ok: response.ok,
+      cache: response.headers.get("x-cache") || "MISS",
+      stale: response.headers.get("x-cache") === "STALE" || Boolean(payload.meta?.stale),
+      status: response.status,
+    },
+  };
+}
 
 function activeGames() {
   return state.syncedGames.length ? state.syncedGames : games;
@@ -560,7 +584,7 @@ function getPeriods(game) {
 }
 
 function leagueLabel(league) {
-  return league === "All" ? "Top Events" : league;
+  return leagueConfig(league)?.label || (league === "All" ? "Top Events" : league);
 }
 
 function leagueBadge(league) {
@@ -571,8 +595,22 @@ function leagueBadge(league) {
     NFL: "NFL",
     NHL: "NHL",
     WNBA: "W",
+    NCAAF: "CFB",
+    NCAAB: "CBB",
+    SOCCER: "SOC",
+    GOLF: "G",
+    TENNIS: "T",
+    F1: "F1",
   };
   return badges[league] || league.slice(0, 3).toUpperCase();
+}
+
+function leagueConfig(league) {
+  return leagueConfigs.find((item) => item.key === league) || null;
+}
+
+function leagueAccent(league) {
+  return leagueConfig(league)?.accent || "#b11226";
 }
 
 function renderLeagueTabs() {
@@ -603,6 +641,20 @@ function renderLeagueTabs() {
 
 function renderScoreStrip() {
   const list = visibleGames();
+  if (state.scoresLoading && !state.syncedGames.length) {
+    $("#scoreStrip").innerHTML = `
+      <section class="score-section">
+        <div class="score-section-head">
+          <h2>Loading Scores</h2>
+        </div>
+        <div class="score-list">
+          ${Array.from({ length: 4 }, () => `<div class="score-row skeleton"></div>`).join("")}
+        </div>
+      </section>
+    `;
+    return;
+  }
+
   if (!list.some((game) => game.id === state.selectedGameId)) {
     state.selectedGameId = list[0]?.id || games[0].id;
   }
@@ -634,10 +686,13 @@ function renderScoreStrip() {
         })()
       : [{ title: state.league, league: state.league, games: list }];
 
-  $("#scoreStrip").innerHTML = sections
-    .filter((section) => section.games.length)
-    .map((section) => renderScoreSection(section))
-    .join("");
+  const delayedBadge = state.scoresMeta?.stale ? `<div class="pill-delayed">DELAYED</div>` : "";
+  $("#scoreStrip").innerHTML =
+    delayedBadge +
+    sections
+      .filter((section) => section.games.length)
+      .map((section) => renderScoreSection(section))
+      .join("");
 }
 
 function renderScoreSection(section) {
@@ -658,29 +713,34 @@ function renderScoreGame(game) {
   const awayScore = Number(game.away.score);
   const homeScore = Number(game.home.score);
   const hasNumericScore = Number.isFinite(awayScore) && Number.isFinite(homeScore);
-  const awayWinner = hasNumericScore && awayScore > homeScore;
-  const homeWinner = hasNumericScore && homeScore > awayScore;
+  const isFinal = game.statusType === "final";
+  const isLive = game.statusType === "live";
+  const awayWinner = isFinal && hasNumericScore && awayScore > homeScore;
+  const homeWinner = isFinal && hasNumericScore && homeScore > awayScore;
+  const awayLoser = isFinal && hasNumericScore && awayScore < homeScore;
+  const homeLoser = isFinal && hasNumericScore && homeScore < awayScore;
+  const livePulse = isLive ? `<span class="pulse-live" aria-hidden="true"></span>` : "";
 
   return `
-    <button class="score-card ${game.id === state.selectedGameId ? "is-selected" : ""}" type="button" data-game-id="${game.id}">
+    <button class="score-card ${statusClass(game)} ${game.id === state.selectedGameId ? "is-selected" : ""}" type="button" data-game-id="${game.id}">
       <div class="score-teams">
-        ${scoreRow(game.away, awayWinner)}
-        ${scoreRow(game.home, homeWinner)}
+        ${scoreRow(game.away, awayWinner, awayLoser, isFinal, isLive)}
+        ${scoreRow(game.home, homeWinner, homeLoser, isFinal, isLive)}
       </div>
       <div class="score-game-meta">
-        <span class="score-status ${statusClass(game)}">${game.statusType === "final" ? "Final" : game.clock}</span>
+        <span class="score-status ${statusClass(game)}">${livePulse}${game.statusType === "final" ? "Final" : game.clock}</span>
         <span class="score-action">${game.statusType === "soon" ? game.clock || formatStartTime(game.commenceTime) : "Gamecast"}</span>
       </div>
     </button>
   `;
 }
 
-function scoreRow(team, winner = false) {
+function scoreRow(team, winner = false, loser = false, isFinal = false, isLive = false) {
   return `
-    <div class="score-row ${winner ? "is-winner" : ""}">
+    <div class="score-row ${isFinal ? "final" : ""} ${isLive ? "live" : ""}">
       <span class="team-mark" style="--team-color:${team.color}">${team.abbr}</span>
-      <span class="team-label">${team.name}</span>
-      <span class="score-value">${team.score}</span>
+      <span class="team-label ${winner ? "winner" : ""} ${loser ? "loser" : ""}">${team.name}</span>
+      <span class="score-value ${winner ? "winner" : ""} ${loser ? "loser" : ""}">${team.score}</span>
     </div>
   `;
 }
@@ -1010,6 +1070,13 @@ function renderSelectedOdds(game) {
   `;
 }
 
+function lineMoveHtml(event, marketType) {
+  const market = event.markets?.find((item) => item.market === marketType);
+  const move = market ? event.movement?.[market.id] : null;
+  if (!move || move.dir === "flat") return "";
+  return `<span class="line-move ${move.dir}" title="Line movement">${move.dir === "up" ? "▲" : "▼"}</span>`;
+}
+
 function renderPolymarketCard(game) {
   if (game.polymarket?.outcomes?.length) {
     const outcomes = game.polymarket.outcomes
@@ -1055,7 +1122,8 @@ function renderPolymarketCard(game) {
 }
 
 function renderSelectedPicks(game) {
-  const matching = picks.filter((pick) => pick.gameId === game.id);
+  const sourcePicks = state.picks.length ? state.picks : picks;
+  const matching = sourcePicks.filter((pick) => pick.gameId === game.id);
   if (!matching.length) return `<p class="empty-state">No tracked picks for this matchup yet.</p>`;
 
   return `
@@ -1065,8 +1133,8 @@ function renderSelectedPicks(game) {
           (pick) => `
             <article class="selected-pick">
               <span>${pick.expert}</span>
-              <strong>${pick.pick}</strong>
-              <small>${pick.price} | ${pick.confidence}% confidence | ${pick.result}</small>
+              <strong>${pick.pick || pick.title}</strong>
+              <small>${pick.price} | ${pick.confidence}% confidence | ${normalizePickStatus(pick.status || pick.result)}</small>
             </article>
           `,
         )
@@ -1124,11 +1192,11 @@ function renderOddsBoard() {
               <span>${formatStartTime(event.commenceTime)}</span>
             </div>
             <div class="odd-row">
-              <span>${event.display.spread}</span>
-              <span>${event.display.total}</span>
+              <span>${event.display.spread}${lineMoveHtml(event, "spread")}</span>
+              <span>${event.display.total}${lineMoveHtml(event, "total")}</span>
             </div>
             <div class="odd-row">
-              <span>${event.display.moneyline}</span>
+              <span>${event.display.moneyline}${lineMoveHtml(event, "moneyline")}</span>
               <span>${event.bookmakerCount} books</span>
             </div>
           </article>
@@ -1169,20 +1237,34 @@ function formatStartTime(value) {
 }
 
 function renderPicks() {
-  const wins = picks.filter((pick) => pick.result === "Win").length;
-  const losses = picks.filter((pick) => pick.result === "Loss").length;
+  const sourcePicks = state.picks.length ? state.picks : picks;
+  const wins = sourcePicks.filter((pick) => ["Win", "won"].includes(pick.result || pick.status)).length;
+  const losses = sourcePicks.filter((pick) => ["Loss", "lost"].includes(pick.result || pick.status)).length;
   $("#picksRecord").textContent = `${wins}-${losses}`;
-  $("#picksList").innerHTML = picks
+  const record = state.picksRecord;
+  const recordBar = record
+    ? `
+      <div class="pick-record">
+        <strong>${record.won}-${record.lost}-${record.push}</strong>
+        <span>${record.winPct === null ? "No graded decisions" : `${record.winPct}% win rate`} | ${record.pending} pending</span>
+      </div>
+    `
+    : "";
+
+  $("#picksList").innerHTML =
+    recordBar +
+    sourcePicks
     .map(
       (pick) => {
-        const game = games.find((item) => item.id === pick.gameId);
+        const game = activeGames().find((item) => item.id === pick.gameId) || games.find((item) => item.id === pick.gameId) || games[0];
+        const status = normalizePickStatus(pick.status || pick.result);
         return `
-          <article class="pick-card">
+          <article class="pick-card pick-${status}">
             <div class="pick-meta">
               <span>${pick.expert}</span>
-              <span>${pick.result}</span>
+              <span>${status}</span>
             </div>
-            <strong>${pick.pick} <span>${pick.price}</span></strong>
+            <strong>${pick.pick || pick.title} <span>${pick.price}</span></strong>
             <div class="pick-meta">
               <span>${game.away.abbr} at ${game.home.abbr}</span>
               <span>${pick.confidence}%</span>
@@ -1195,6 +1277,14 @@ function renderPicks() {
       },
     )
     .join("");
+}
+
+function normalizePickStatus(value) {
+  const status = String(value || "").toLowerCase();
+  if (["win", "won"].includes(status)) return "won";
+  if (["loss", "lost"].includes(status)) return "lost";
+  if (status === "push") return "push";
+  return "pending";
 }
 
 function renderWatchList() {
@@ -1267,6 +1357,7 @@ function renderAll() {
 
 function setLeague(league) {
   state.league = league;
+  document.documentElement.style.setProperty("--league-accent", leagueAccent(league));
   const list = visibleGames();
   if (!list.find((game) => game.id === state.selectedGameId)) {
     state.selectedGameId = list[0]?.id || games[0].id;
@@ -1640,14 +1731,14 @@ async function loadProviderBoxscore(game) {
 async function loadExternalScores() {
   state.scoresLoading = true;
   try {
-    const response = await fetch(API_CONFIG.scores, { headers: { Accept: "application/json" } });
-    if (!response.ok) return false;
+    const { payload, meta } = await fetchWithMeta(API_CONFIG.scores);
+    if (!meta.ok) return false;
 
-    const payload = await response.json();
     state.externalScores = Array.isArray(payload.games) ? payload.games : [];
-    state.scoresMeta = payload.meta || null;
+    state.scoresMeta = { ...(payload.meta || {}), stale: meta.stale };
     return state.externalScores.length > 0;
   } catch {
+    state.scoresMeta = { ...(state.scoresMeta || {}), stale: true };
     return false;
   } finally {
     state.scoresLoading = false;
@@ -1661,8 +1752,11 @@ async function loadExternalOdds({ showSuccess = false, render = true } = {}) {
     if (!response.ok) return false;
 
     const payload = await response.json();
-    state.externalOdds = Array.isArray(payload.events) ? payload.events : [];
-    state.externalOddsMeta = payload.meta || null;
+    state.externalOdds = (Array.isArray(payload.events) ? payload.events : []).map((event) => ({
+      ...event,
+      movement: payload.movement || {},
+    }));
+    state.externalOddsMeta = { ...(payload.meta || {}), movement: payload.movement || {} };
     if (render) renderOddsBoard();
 
     if (showSuccess && state.externalOdds.length) {
@@ -1676,6 +1770,41 @@ async function loadExternalOdds({ showSuccess = false, render = true } = {}) {
   }
 }
 
+async function loadPicksData() {
+  try {
+    const [picksResponse, recordResponse] = await Promise.all([
+      fetch(API_CONFIG.picks, { headers: { Accept: "application/json" } }),
+      fetch(API_CONFIG.picksRecord, { headers: { Accept: "application/json" } }),
+    ]);
+    if (picksResponse.ok) {
+      const payload = await picksResponse.json();
+      state.picks = Array.isArray(payload.picks) ? payload.picks : [];
+    }
+    if (recordResponse.ok) {
+      const payload = await recordResponse.json();
+      state.picksRecord = payload.record || null;
+    }
+  } catch {
+    state.picks = [];
+    state.picksRecord = null;
+  }
+}
+
+async function loadLeagues() {
+  try {
+    const response = await fetch(API_CONFIG.leagues, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const payload = await response.json();
+    const items = Array.isArray(payload.leagues) ? payload.leagues : [];
+    if (!items.length) return;
+    leagueConfigs = items;
+    leagues = items.map((item) => item.key);
+    document.documentElement.style.setProperty("--league-accent", leagueAccent(state.league));
+  } catch {
+    document.documentElement.style.setProperty("--league-accent", leagueAccent(state.league));
+  }
+}
+
 async function refreshData(manual = false) {
   const synced = await syncProviderData();
   if (manual) showToast(synced ? "Scores and odds synced" : "Live feed unavailable; showing demo data");
@@ -1683,6 +1812,7 @@ async function refreshData(manual = false) {
 
 async function syncProviderData() {
   const [scoresUpdated, oddsUpdated] = await Promise.all([loadExternalScores(), loadExternalOdds({ render: false })]);
+  await loadPicksData();
   rebuildSyncedGames();
   renderAll();
   return scoresUpdated || oddsUpdated;
@@ -1718,6 +1848,8 @@ function wireEvents() {
 async function boot() {
   await Promise.resolve(API_CONFIG);
   wireEvents();
+  await loadLeagues();
+  await loadPicksData();
   renderAll();
   syncProviderData();
   setInterval(() => {

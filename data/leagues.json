@@ -1,0 +1,14 @@
+[
+  { "key": "All", "label": "Top Events", "accent": "#b11226", "priority": 0 },
+  { "key": "NFL", "label": "NFL", "accent": "#0b2347", "priority": 1, "sportKey": "americanfootball_nfl" },
+  { "key": "NCAAF", "label": "NCAAF", "accent": "#7a2d12", "priority": 2, "sportKey": "americanfootball_ncaaf" },
+  { "key": "MLB", "label": "MLB", "accent": "#0a5c93", "priority": 3, "sportKey": "baseball_mlb" },
+  { "key": "NBA", "label": "NBA", "accent": "#c85a13", "priority": 4, "sportKey": "basketball_nba" },
+  { "key": "NCAAB", "label": "NCAAB", "accent": "#5b2da0", "priority": 5, "sportKey": "basketball_ncaab" },
+  { "key": "NHL", "label": "NHL", "accent": "#163b75", "priority": 6, "sportKey": "icehockey_nhl" },
+  { "key": "SOCCER", "label": "Soccer", "accent": "#087c55", "priority": 7 },
+  { "key": "GOLF", "label": "Golf", "accent": "#106b3a", "priority": 8 },
+  { "key": "TENNIS", "label": "Tennis", "accent": "#93a51a", "priority": 9 },
+  { "key": "F1", "label": "F1", "accent": "#e10600", "priority": 10 },
+  { "key": "WNBA", "label": "WNBA", "accent": "#c75b12", "priority": 11, "sportKey": "basketball_wnba" }
+]

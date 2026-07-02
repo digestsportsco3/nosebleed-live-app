@@ -2,6 +2,9 @@ const fs = require("node:fs");
 const path = require("node:path");
 const http = require("node:http");
 const { URL } = require("node:url");
+const grade = require("./lib/grade");
+const snapshots = require("./lib/snapshots");
+const picks = require("./providers/picks");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -11,6 +14,7 @@ const ESPN_SITE_API_BASE = "https://site.api.espn.com/apis/site/v2/sports";
 const ESPN_WEB_API_BASE = "https://site.web.api.espn.com/apis/site/v2/sports";
 const POLYMARKET_GAMMA_BASE = "https://gamma-api.polymarket.com";
 const CACHE_TTL_MS = Number(process.env.ODDS_CACHE_TTL_MS || 60000);
+const LEAGUES_FILE = path.join(ROOT, "data", "leagues.json");
 
 const SPORT_KEYS = {
   MLB: "baseball_mlb",
@@ -96,7 +100,7 @@ async function proxyOdds(url, res) {
   const key = cacheKey(url);
   const cached = readCache(key);
   if (cached) {
-    sendJson(res, 200, cached, { "x-cache": "HIT" });
+    sendJson(res, 200, attachOddsMovement(cached, false), { "x-cache": "HIT" });
     return;
   }
 
@@ -146,6 +150,7 @@ async function proxyOdds(url, res) {
       .sort((a, b) => new Date(a.commenceTime).getTime() - new Date(b.commenceTime).getTime()),
     meta: {
       provider: "The Odds API",
+      source: "live",
       fetchedAt: new Date().toISOString(),
       regions,
       markets,
@@ -154,8 +159,9 @@ async function proxyOdds(url, res) {
     },
   };
 
-  writeCache(key, payload);
-  sendJson(res, 200, payload, { "x-cache": "MISS" });
+  const response = attachOddsMovement(payload, true);
+  writeCache(key, response);
+  sendJson(res, 200, response, { "x-cache": "MISS" });
 }
 
 async function proxyScores(url, res) {
@@ -176,6 +182,7 @@ async function proxyScores(url, res) {
   const key = cacheKey(url);
   const cached = readCache(key);
   if (cached) {
+    gradeScoreFinals(cached.games);
     sendJson(res, 200, cached, { "x-cache": "HIT" });
     return;
   }
@@ -226,8 +233,68 @@ async function proxyScores(url, res) {
     },
   };
 
+  gradeScoreFinals(payload.games);
   writeCache(key, payload);
   sendJson(res, 200, payload, { "x-cache": "MISS" });
+}
+
+function gradeScoreFinals(games) {
+  try {
+    if ((Array.isArray(games) ? games : []).some((game) => game.completed || game.status === "final")) {
+      grade.gradeFinals(picks.getPicks(), games);
+    }
+  } catch (error) {
+    console.warn("[grade] gradeFinals failed:", error.message);
+  }
+}
+
+function attachOddsMovement(payload, shouldRecord) {
+  const markets = flattenOddsMarkets(payload.events || []);
+
+  try {
+    if (shouldRecord && payload.meta?.source === "live") {
+      snapshots.record(markets);
+    }
+  } catch (error) {
+    console.warn("[snapshots] record failed:", error.message);
+  }
+
+  return {
+    ...payload,
+    markets,
+    movement: snapshots.movementMap(markets.map((market) => market.id)),
+  };
+}
+
+function flattenOddsMarkets(events) {
+  return (Array.isArray(events) ? events : []).flatMap((event) =>
+    (event.markets || []).map((market) => ({
+      ...market,
+      eventId: event.id,
+      league: event.league,
+      matchup: `${event.awayTeam} at ${event.homeTeam}`,
+    })),
+  );
+}
+
+function readLeagues() {
+  try {
+    const parsed = JSON.parse(fs.readFileSync(LEAGUES_FILE, "utf8"));
+    return (Array.isArray(parsed) ? parsed : [])
+      .slice()
+      .sort((a, b) => Number(a.priority || 999) - Number(b.priority || 999))
+      .map(({ key, label, accent }) => ({ key, label, accent }));
+  } catch (error) {
+    console.warn("[leagues] unable to load leagues:", error.message);
+    return [
+      { key: "All", label: "Top Events", accent: "#b11226" },
+      { key: "MLB", label: "MLB", accent: "#0a5c93" },
+      { key: "NBA", label: "NBA", accent: "#c85a13" },
+      { key: "NFL", label: "NFL", accent: "#0b2347" },
+      { key: "NHL", label: "NHL", accent: "#163b75" },
+      { key: "WNBA", label: "WNBA", accent: "#c75b12" },
+    ];
+  }
 }
 
 async function proxyBoxscore(url, res) {
@@ -569,6 +636,27 @@ function normalizeOddsEvent(event, league) {
           ? `ML ${formatPrice(awayH2h.price)} / ${formatPrice(homeH2h.price)}`
           : "ML N/A",
     },
+    markets: [
+      marketSnapshot(event.id, "spread", event.away_team, awaySpread),
+      marketSnapshot(event.id, "total", "Over", totalOver),
+      marketSnapshot(event.id, "moneyline", event.away_team, awayH2h),
+      marketSnapshot(event.id, "moneyline", event.home_team, homeH2h),
+    ].filter(Boolean),
+  };
+}
+
+function marketSnapshot(eventId, market, name, outcome) {
+  if (!outcome) return null;
+  const value = Number(outcome.price ?? outcome.point);
+  if (!Number.isFinite(value)) return null;
+  return {
+    id: `${eventId}:${market}:${name}`,
+    market,
+    name,
+    label: `${name} ${market}`,
+    value,
+    point: typeof outcome.point === "number" ? outcome.point : null,
+    price: typeof outcome.price === "number" ? outcome.price : null,
   };
 }
 
@@ -649,6 +737,39 @@ const server = http.createServer(async (req, res) => {
       oddsConfigured: Boolean(ODDS_API_KEY),
       provider: "The Odds API",
       cacheTtlMs: CACHE_TTL_MS,
+    });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/leagues") {
+    sendJson(res, 200, {
+      leagues: readLeagues(),
+      meta: {
+        provider: "Nosebleed league config",
+        fetchedAt: new Date().toISOString(),
+      },
+    });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/picks/record") {
+    sendJson(res, 200, {
+      record: grade.record(picks.getPicks()),
+      meta: {
+        provider: "Nosebleed picks tracker",
+        fetchedAt: new Date().toISOString(),
+      },
+    });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/picks") {
+    sendJson(res, 200, {
+      picks: picks.getPicks(),
+      meta: {
+        provider: "Nosebleed picks tracker",
+        fetchedAt: new Date().toISOString(),
+      },
     });
     return;
   }

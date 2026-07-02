@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pick-mlb-nyy-bos-ml",
+    "gameId": "mlb-nyy-bos",
+    "league": "MLB",
+    "expert": "Ross Sutton",
+    "title": "Yankees ML",
+    "price": "-126",
+    "confidence": 73,
+    "status": "pending",
+    "rationale": "Quant edge on late bullpen leverage and road moneyline value."
+  },
+  {
+    "id": "pick-wnba-nyl-lva-spread",
+    "gameId": "wnba-nyl-lva",
+    "league": "WNBA",
+    "expert": "Nosebleed Model",
+    "title": "Liberty -2.5",
+    "price": "-108",
+    "confidence": 69,
+    "status": "pending",
+    "rationale": "Model grades New York's half-court offense above market."
+  },
+  {
+    "id": "pick-nfl-dal-phi-total",
+    "gameId": "nfl-dal-phi",
+    "league": "NFL",
+    "expert": "Market Desk",
+    "title": "DAL/PHI OVER 47.5",
+    "price": "-112",
+    "confidence": 64,
+    "status": "pending",
+    "rationale": "Weather and pace profiles support the over."
+  },
+  {
+    "id": "pick-nba-bkn-nyk-spread",
+    "gameId": "nba-bkn-nyk",
+    "league": "NBA",
+    "expert": "Ross Sutton",
+    "title": "Knicks -4.5",
+    "price": "-110",
+    "confidence": 61,
+    "status": "won",
+    "rationale": "Closed as a winning archived pick for MVP record display."
+  },
+  {
+    "id": "pick-nhl-nyr-bos-ml",
+    "gameId": "nhl-nyr-bos",
+    "league": "NHL",
+    "expert": "Nosebleed Model",
+    "title": "Rangers ML",
+    "price": "+112",
+    "confidence": 57,
+    "status": "won",
+    "rationale": "Archived value pick used for demo grading."
+  }
+]

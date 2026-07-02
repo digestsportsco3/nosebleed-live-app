@@ -73,3 +73,20 @@ Recommended future production endpoints:
 - Treat odds as timestamped snapshots so the picks tracker can grade against the price users actually took.
 - Use the same game ID across odds, picks, scores, news, and box score systems.
 - Never ship provider keys in frontend JavaScript; keep them in server environment variables or a secret manager.
+
+## Licensed Data Spike — SportsDataIO vs Sportradar
+
+Nosebleed Live currently uses The Odds API for scores/odds, Polymarket for public prediction-market prices, and ESPN public/undocumented endpoints as an MVP-only box-score fallback. That is acceptable for a private showcase, but it is not a production data-rights strategy.
+
+Decision criteria for the first licensed provider:
+
+- Budget target: less than $250/month for the first production MVP.
+- Coverage: NFL, MLB, NBA, NHL, soccer, golf, tennis, F1, NCAA basketball, and NCAA football.
+- Required data: schedules, live scores, finals, team/player box scores, standings, injuries when available, and stable game/team/player IDs.
+- Integration shape: keep provider adapters server-side so the frontend continues to consume normalized Nosebleed data.
+
+SportsDataIO is the likely first spike because it is usually more accessible for startups and can be adopted league by league. It should be tested first for NFL/NBA/MLB/NHL/NCAA coverage, box-score depth, update speed, and monthly cost at the target usage level.
+
+Sportradar is the enterprise-grade path for deeper rights, richer feeds, and stronger commercial reliability, but it is likely above the early MVP budget. Treat Sportradar as the later partner/investor-ready option unless pricing comes in under the current budget.
+
+MVP rule: do not build UI directly against ESPN, SportsDataIO, Sportradar, The Odds API, or Polymarket response shapes. All providers should normalize through server adapters, with stale-data and provider-failure fallbacks that do not crash the app.
