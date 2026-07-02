@@ -1,0 +1,9 @@
+{
+  "name": "Nosebleed Live",
+  "short_name": "Nosebleed",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#eef1f4",
+  "theme_color": "#b11226",
+  "description": "Live scores, sports news, odds, picks, and box scores for Nosebleed Sports."
+}

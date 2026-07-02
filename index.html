@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nosebleed Live sports scores, news, odds, picks, and box scores."
+    />
+    <title>Nosebleed Live</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="Nosebleed Live home">
+          <img
+            src="./assets/nosebleed-sports-logo.png"
+            alt="Nosebleed Sports"
+          />
+          <span>
+            <strong>Nosebleed</strong>
+            <small>Sports Media</small>
+          </span>
+        </a>
+
+        <div class="topbar-title" aria-hidden="true">Scores</div>
+
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="nav-pill" data-anchor="news">Home</button>
+          <button class="nav-pill is-active" data-anchor="scores">Scores</button>
+          <button class="nav-pill" data-anchor="livePanel">Watch</button>
+          <button class="nav-pill" data-anchor="picks">Picks</button>
+          <button class="nav-pill" data-anchor="odds">Odds</button>
+          <button class="nav-pill" data-anchor="watchlist">More</button>
+        </nav>
+
+        <div class="topbar-actions">
+          <div class="signal-chip" aria-label="Live markets connected">
+            <span></span>
+            Live
+          </div>
+          <button class="ghost-button" id="refreshBtn" type="button">Refresh</button>
+          <button class="profile-button" type="button" aria-label="Account">NS</button>
+        </div>
+      </header>
+
+      <section class="score-dock" id="scores" aria-label="Live scoreboard">
+        <div class="scorebar-head">
+          <strong>Scoreboard</strong>
+          <span>Live scores, odds movement, and tracked picks</span>
+        </div>
+        <div class="league-tabs" id="leagueTabs"></div>
+        <div class="score-strip" id="scoreStrip"></div>
+      </section>
+
+      <main class="workspace">
+        <aside class="left-rail" aria-label="Sports and watchlist">
+          <section class="panel rail-panel">
+            <div class="section-head">
+              <h2>Sports</h2>
+            </div>
+            <div class="league-list" id="leagueList"></div>
+          </section>
+
+          <section class="panel rail-panel" id="watchlist">
+            <div class="section-head">
+              <h2>Watchlist</h2>
+              <span class="count-pill" id="watchCount">0</span>
+            </div>
+            <div class="watch-list" id="watchList"></div>
+          </section>
+
+          <section class="panel rail-panel compact-panel">
+            <div class="section-head">
+              <h2>Alerts</h2>
+            </div>
+            <div class="alert-list" id="alertList"></div>
+          </section>
+        </aside>
+
+        <section class="main-column">
+          <section class="panel live-panel" id="livePanel" aria-live="polite">
+            <div class="live-header">
+              <div>
+                <span class="kicker" id="liveKicker">Live Game</span>
+                <h1 id="liveTitle">Loading matchup</h1>
+              </div>
+              <button class="follow-button" id="followBtn" type="button">Follow</button>
+            </div>
+
+            <div class="matchup-grid">
+              <article class="team-card" id="awayTeam"></article>
+              <div class="game-state">
+                <div class="status-stack">
+                  <span class="live-dot"></span>
+                  <strong id="gameClock">Live</strong>
+                  <small id="gameVenue">Venue</small>
+                </div>
+                <div class="win-probability">
+                  <div class="probability-label">
+                    <span id="awayProbLabel">Away 50%</span>
+                    <span id="homeProbLabel">Home 50%</span>
+                  </div>
+                  <div class="probability-bar">
+                    <span id="awayProbBar"></span>
+                  </div>
+                </div>
+                <div class="game-visual" id="gameVisual"></div>
+              </div>
+              <article class="team-card" id="homeTeam"></article>
+            </div>
+
+            <div class="meta-grid" id="gameMeta"></div>
+
+            <div class="detail-tabs" id="detailTabs" role="tablist" aria-label="Game details">
+              <button class="detail-tab is-active" type="button" data-tab="gamecast">Gamecast</button>
+              <button class="detail-tab" type="button" data-tab="box">Box Score</button>
+              <button class="detail-tab" type="button" data-tab="odds">Odds</button>
+              <button class="detail-tab" type="button" data-tab="picks">Picks</button>
+            </div>
+            <div class="detail-panel" id="detailPanel"></div>
+          </section>
+
+          <section class="news-section" id="news">
+            <div class="section-head roomy">
+              <div>
+                <span class="kicker">Latest</span>
+                <h2>Top Headlines</h2>
+              </div>
+              <button class="ghost-button" id="newsFilterBtn" type="button">All Sports</button>
+            </div>
+            <div class="news-grid" id="newsGrid"></div>
+          </section>
+        </section>
+
+        <aside class="right-rail" aria-label="Odds and picks">
+          <section class="panel odds-panel" id="odds">
+            <div class="section-head">
+              <div>
+                <span class="kicker">Markets</span>
+                <h2>Odds Board</h2>
+              </div>
+            </div>
+            <div class="odds-list" id="oddsBoard"></div>
+          </section>
+
+          <section class="panel picks-panel" id="picks">
+            <div class="section-head">
+              <div>
+                <span class="kicker">Tracker</span>
+                <h2>Nosebleed Picks</h2>
+              </div>
+              <span class="record-pill" id="picksRecord">0-0</span>
+            </div>
+            <div class="picks-list" id="picksList"></div>
+          </section>
+
+          <section class="panel standings-panel">
+            <div class="section-head">
+              <div>
+                <span class="kicker">Pulse</span>
+                <h2>Fan Heat</h2>
+              </div>
+            </div>
+            <div class="heat-list" id="heatList"></div>
+          </section>
+        </aside>
+      </main>
+
+      <nav class="mobile-nav" aria-label="Mobile">
+        <button type="button" data-anchor="news">
+          <span class="nav-icon home-icon" aria-hidden="true"></span>
+          <span>Home</span>
+        </button>
+        <button type="button" data-anchor="scores" class="is-active">
+          <span class="nav-icon scores-icon" aria-hidden="true"></span>
+          <span>Scores</span>
+        </button>
+        <button type="button" data-anchor="livePanel">
+          <span class="nav-icon watch-icon" aria-hidden="true"></span>
+          <span>Watch</span>
+        </button>
+        <button type="button" data-anchor="picks">
+          <span class="nav-icon picks-icon" aria-hidden="true"></span>
+          <span>Picks</span>
+        </button>
+        <button type="button" data-anchor="odds">
+          <span class="nav-icon more-icon" aria-hidden="true"></span>
+          <span>More</span>
+        </button>
+      </nav>
+
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
