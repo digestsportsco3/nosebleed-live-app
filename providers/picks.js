@@ -2,7 +2,15 @@ const fs = require("node:fs");
 const path = require("node:path");
 const grade = require("../lib/grade");
 
-const PICKS_FILE = path.join(__dirname, "..", "data", "picks.json");
+const SEED_PICKS_FILE = path.join(__dirname, "..", "data", "picks.json");
+
+function picksFile() {
+  if (process.env.DATA_DIR) {
+    const dataFile = path.join(process.env.DATA_DIR, "picks.json");
+    if (fs.existsSync(dataFile)) return dataFile;
+  }
+  return SEED_PICKS_FILE;
+}
 
 function getPicks() {
   const store = grade.load();
@@ -32,8 +40,9 @@ function makePick(raw, index) {
 
 function readPicks() {
   try {
-    if (!fs.existsSync(PICKS_FILE)) return [];
-    const parsed = JSON.parse(fs.readFileSync(PICKS_FILE, "utf8"));
+    const file = picksFile();
+    if (!fs.existsSync(file)) return [];
+    const parsed = JSON.parse(fs.readFileSync(file, "utf8"));
     return Array.isArray(parsed) ? parsed : parsed.picks || [];
   } catch (error) {
     console.warn("[picks] unable to load picks:", error.message);

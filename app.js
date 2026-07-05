@@ -534,6 +534,7 @@ const state = {
   scoresMeta: null,
   externalOddsMeta: null,
   scoresLoading: false,
+  scoresFetched: false,
   oddsLoading: false,
   picks: [],
   picksRecord: null,
@@ -686,8 +687,13 @@ function renderScoreStrip() {
         })()
       : [{ title: state.league, league: state.league, games: list }];
 
+  const demoBadge =
+    state.scoresFetched && !state.syncedGames.length
+      ? `<div class="pill-delayed">DEMO DATA — LIVE FEED UNAVAILABLE</div>`
+      : "";
   const delayedBadge = state.scoresMeta?.stale ? `<div class="pill-delayed">DELAYED</div>` : "";
   $("#scoreStrip").innerHTML =
+    demoBadge +
     delayedBadge +
     sections
       .filter((section) => section.games.length)
@@ -1742,6 +1748,7 @@ async function loadExternalScores() {
     return false;
   } finally {
     state.scoresLoading = false;
+    state.scoresFetched = true;
   }
 }
 
