@@ -538,6 +538,7 @@ const state = {
   oddsLoading: false,
   picks: [],
   picksRecord: null,
+  newsItems: [],
   pulse: 0,
 };
 
@@ -1149,8 +1150,31 @@ function renderSelectedPicks(game) {
   `;
 }
 
+function formatRelativeTime(published) {
+  const time = new Date(published || 0).getTime();
+  if (!Number.isFinite(time) || !time) return "now";
+  const minutes = Math.max(1, Math.round((Date.now() - time) / 60000));
+  if (minutes < 60) return `${minutes} min`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 24) return `${hours} hr`;
+  return `${Math.round(hours / 24)} d`;
+}
+
+function activeNews() {
+  if (!state.newsItems.length) return news;
+  return state.newsItems.map((item) => ({
+    league: item.league,
+    tag: item.type || "News",
+    time: formatRelativeTime(item.published),
+    title: item.headline,
+    summary: item.description,
+    link: item.link,
+  }));
+}
+
 function renderNews() {
-  const filtered = state.league === "All" ? news : news.filter((item) => item.league === state.league);
+  const list = activeNews();
+  const filtered = state.league === "All" ? list : list.filter((item) => item.league === state.league);
   $("#newsFilterBtn").textContent = state.league === "All" ? "All Sports" : state.league;
 
   if (!filtered.length) {
@@ -1161,13 +1185,14 @@ function renderNews() {
   $("#newsGrid").innerHTML = `
     <div class="headline-list">
       ${filtered
+        .slice(0, 12)
         .map(
           (item) => `
-            <article class="headline-row">
+            <article class="headline-row" ${item.link ? `data-news-link="${escapeAttribute(item.link)}" style="cursor:pointer"` : ""}>
               <span class="headline-mark" aria-hidden="true"></span>
               <div>
-                <h3>${item.title}</h3>
-                <p>${item.league} | ${item.tag} | ${item.time}</p>
+                <h3>${escapeHtml(item.title)}</h3>
+                <p>${escapeHtml(item.league)} | ${escapeHtml(item.tag)} | ${escapeHtml(item.time)}</p>
               </div>
             </article>
           `,
@@ -1175,6 +1200,26 @@ function renderNews() {
         .join("")}
     </div>
   `;
+}
+
+function escapeHtml(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value);
+}
+
+async function loadNews() {
+  try {
+    const response = await fetch(API_CONFIG.news, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const payload = await response.json();
+    const items = Array.isArray(payload.items) ? payload.items : [];
+    if (items.length) state.newsItems = items;
+  } catch {
+    /* keep hardcoded fallback headlines */
+  }
 }
 
 function visibleExternalOdds() {
@@ -1818,7 +1863,11 @@ async function refreshData(manual = false) {
 }
 
 async function syncProviderData() {
-  const [scoresUpdated, oddsUpdated] = await Promise.all([loadExternalScores(), loadExternalOdds({ render: false })]);
+  const [scoresUpdated, oddsUpdated] = await Promise.all([
+    loadExternalScores(),
+    loadExternalOdds({ render: false }),
+    loadNews(),
+  ]);
   await loadPicksData();
   rebuildSyncedGames();
   renderAll();
@@ -1839,6 +1888,9 @@ function wireEvents() {
       renderDetailTabs();
       renderDetailPanel();
     }
+
+    const newsRow = event.target.closest("[data-news-link]");
+    if (newsRow) window.open(newsRow.dataset.newsLink, "_blank", "noopener");
 
     const anchorButton = event.target.closest("[data-anchor]");
     if (anchorButton) {

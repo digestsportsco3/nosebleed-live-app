@@ -6,6 +6,7 @@ const { URL } = require("node:url");
 const grade = require("./lib/grade");
 const snapshots = require("./lib/snapshots");
 const picks = require("./providers/picks");
+const news = require("./providers/news");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -911,6 +912,15 @@ const server = http.createServer(async (req, res) => {
         fetchedAt: new Date().toISOString(),
       },
     });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/news") {
+    try {
+      sendJson(res, 200, await news.getNews());
+    } catch (error) {
+      sendJson(res, 200, { items: [], meta: { provider: "ESPN public news JSON", errors: [{ message: error.message }] } });
+    }
     return;
   }
 
