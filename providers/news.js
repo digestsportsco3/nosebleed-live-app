@@ -2,11 +2,18 @@ const ESPN_SITE_API_BASE = "https://site.api.espn.com/apis/site/v2/sports";
 const CACHE_TTL_MS = Number(process.env.NEWS_CACHE_TTL_MS || 5 * 60 * 1000);
 
 const ESPN_NEWS_PATHS = {
-  MLB: "baseball/mlb",
-  NBA: "basketball/nba",
-  NFL: "football/nfl",
-  NHL: "hockey/nhl",
-  WNBA: "basketball/wnba",
+  MLB: ["baseball/mlb"],
+  NBA: ["basketball/nba"],
+  NFL: ["football/nfl"],
+  NHL: ["hockey/nhl"],
+  WNBA: ["basketball/wnba"],
+  NCAAF: ["football/college-football"],
+  NCAAB: ["basketball/mens-college-basketball"],
+  WNCAAB: ["basketball/womens-college-basketball"],
+  SOCCER: ["soccer/eng.1", "soccer/usa.1"],
+  GOLF: ["golf/pga"],
+  TENNIS: ["tennis/atp", "tennis/wta"],
+  MMA: ["mma/ufc"],
 };
 
 let cache = null;
@@ -20,9 +27,9 @@ async function getNews() {
   const errors = [];
 
   await Promise.all(
-    Object.entries(ESPN_NEWS_PATHS).map(async ([league, sportPath]) => {
+    Object.entries(ESPN_NEWS_PATHS).flatMap(([league, sportPaths]) => sportPaths.map(async (sportPath) => {
       try {
-        const endpoint = `${ESPN_SITE_API_BASE}/${sportPath}/news?limit=10`;
+        const endpoint = `${ESPN_SITE_API_BASE}/${sportPath}/news?limit=8`;
         const upstream = await fetch(endpoint, { headers: { accept: "application/json" } });
         if (!upstream.ok) {
           errors.push({ league, status: upstream.status, message: `ESPN news returned ${upstream.status}` });
@@ -37,7 +44,7 @@ async function getNews() {
       } catch (error) {
         errors.push({ league, message: error.message });
       }
-    }),
+    })),
   );
 
   items.sort((a, b) => new Date(b.published || 0).getTime() - new Date(a.published || 0).getTime());

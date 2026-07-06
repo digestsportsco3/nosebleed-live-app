@@ -6,9 +6,13 @@
   { "key": "NBA", "label": "NBA", "accent": "#c85a13", "priority": 4, "sportKey": "basketball_nba" },
   { "key": "NCAAB", "label": "NCAAB", "accent": "#5b2da0", "priority": 5, "sportKey": "basketball_ncaab" },
   { "key": "NHL", "label": "NHL", "accent": "#163b75", "priority": 6, "sportKey": "icehockey_nhl" },
-  { "key": "SOCCER", "label": "Soccer", "accent": "#087c55", "priority": 7 },
-  { "key": "GOLF", "label": "Golf", "accent": "#106b3a", "priority": 8 },
-  { "key": "TENNIS", "label": "Tennis", "accent": "#93a51a", "priority": 9 },
-  { "key": "F1", "label": "F1", "accent": "#e10600", "priority": 10 },
-  { "key": "WNBA", "label": "WNBA", "accent": "#c75b12", "priority": 11, "sportKey": "basketball_wnba" }
+  { "key": "WNBA", "label": "WNBA", "accent": "#c75b12", "priority": 7, "sportKey": "basketball_wnba" },
+  { "key": "SOCCER", "label": "Soccer", "accent": "#087c55", "priority": 8 },
+  { "key": "MMA", "label": "MMA", "accent": "#8a1538", "priority": 9, "sportKey": "mma_mixed_martial_arts" },
+  { "key": "BOXING", "label": "Boxing", "accent": "#4a3b8f", "priority": 10, "sportKey": "boxing_boxing" },
+  { "key": "TENNIS", "label": "Tennis", "accent": "#93a51a", "priority": 11 },
+  { "key": "GOLF", "label": "Golf", "accent": "#106b3a", "priority": 12 },
+  { "key": "CFL", "label": "CFL", "accent": "#a02b2b", "priority": 13, "sportKey": "americanfootball_cfl" },
+  { "key": "WNCAAB", "label": "WNCAAB", "accent": "#7d3a9b", "priority": 14, "sportKey": "basketball_wncaab" },
+  { "key": "EUROLEAGUE", "label": "EuroLeague", "accent": "#b06f10", "priority": 15, "sportKey": "basketball_euroleague" }
 ]

@@ -599,10 +599,14 @@ function leagueBadge(league) {
     WNBA: "W",
     NCAAF: "CFB",
     NCAAB: "CBB",
+    WNCAAB: "WCB",
+    CFL: "CFL",
+    EUROLEAGUE: "EL",
     SOCCER: "SOC",
+    MMA: "MMA",
+    BOXING: "BOX",
     GOLF: "G",
     TENNIS: "T",
-    F1: "F1",
   };
   return badges[league] || league.slice(0, 3).toUpperCase();
 }
@@ -1239,7 +1243,7 @@ function renderOddsBoard() {
               <span class="movement up">Live</span>
             </div>
             <div class="odd-row">
-              <strong>${event.awayTeam} at ${event.homeTeam}</strong>
+              <strong>${event.homeTeam ? `${event.awayTeam} at ${event.homeTeam}` : escapeHtml(event.title || "Futures")}</strong>
               <span>${formatStartTime(event.commenceTime)}</span>
             </div>
             <div class="odd-row">

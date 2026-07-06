@@ -18,12 +18,33 @@ const POLYMARKET_GAMMA_BASE = "https://gamma-api.polymarket.com";
 const CACHE_TTL_MS = Number(process.env.ODDS_CACHE_TTL_MS || 60000);
 const LEAGUES_FILE = path.join(ROOT, "data", "leagues.json");
 
-const SPORT_KEYS = {
-  MLB: "baseball_mlb",
-  NBA: "basketball_nba",
-  NFL: "americanfootball_nfl",
-  NHL: "icehockey_nhl",
-  WNBA: "basketball_wnba",
+const LEAGUE_SPORTS = {
+  MLB: { keys: ["baseball_mlb"] },
+  NBA: { keys: ["basketball_nba"] },
+  NFL: { keys: ["americanfootball_nfl"] },
+  NHL: { keys: ["icehockey_nhl"] },
+  WNBA: { keys: ["basketball_wnba"] },
+  NCAAF: { keys: ["americanfootball_ncaaf"] },
+  NCAAB: { keys: ["basketball_ncaab"] },
+  WNCAAB: { keys: ["basketball_wncaab"] },
+  CFL: { keys: ["americanfootball_cfl"] },
+  EUROLEAGUE: { keys: ["basketball_euroleague"] },
+  SOCCER: {
+    keys: [
+      "soccer_epl",
+      "soccer_usa_mls",
+      "soccer_uefa_champs_league",
+      "soccer_spain_la_liga",
+      "soccer_germany_bundesliga",
+      "soccer_italy_serie_a",
+      "soccer_france_ligue_one",
+      "soccer_fifa_world_cup",
+    ],
+  },
+  TENNIS: { prefix: "tennis_" },
+  MMA: { keys: ["mma_mixed_martial_arts"] },
+  BOXING: { keys: ["boxing_boxing"] },
+  GOLF: { prefix: "golf_", outrights: true },
 };
 
 const ESPN_SPORT_PATHS = {
@@ -32,6 +53,9 @@ const ESPN_SPORT_PATHS = {
   NFL: "football/nfl",
   NHL: "hockey/nhl",
   WNBA: "basketball/wnba",
+  NCAAF: "football/college-football",
+  NCAAB: "basketball/mens-college-basketball",
+  WNCAAB: "basketball/womens-college-basketball",
 };
 
 const MIME_TYPES = {
@@ -56,14 +80,58 @@ function sendJson(res, status, payload, extraHeaders = {}) {
   res.end(JSON.stringify(payload));
 }
 
-function getSportsFromQuery(searchParams) {
-  const sport = (searchParams.get("sport") || "All").toUpperCase();
-  if (sport === "ALL") {
-    return Object.entries(SPORT_KEYS).map(([league, key]) => ({ league, key }));
+const SPORTS_CATALOG_TTL_MS = 60 * 60 * 1000;
+let sportsCatalog = { fetchedAt: 0, sports: null };
+
+// The /v4/sports list is free (no quota cost) and only returns in-season sports,
+// so it doubles as an "is this league active right now" filter.
+async function getSportsCatalog() {
+  if (!ODDS_API_KEY) return null;
+  if (sportsCatalog.sports && Date.now() - sportsCatalog.fetchedAt < SPORTS_CATALOG_TTL_MS) {
+    return sportsCatalog.sports;
   }
 
-  const key = SPORT_KEYS[sport];
-  return key ? [{ league: sport, key }] : [];
+  try {
+    const endpoint = new URL(`${ODDS_API_BASE}/sports`);
+    endpoint.searchParams.set("apiKey", ODDS_API_KEY);
+    const upstream = await fetch(endpoint, { headers: { accept: "application/json" } });
+    if (!upstream.ok) return sportsCatalog.sports;
+    const data = await upstream.json();
+    if (Array.isArray(data) && data.length) {
+      sportsCatalog = { fetchedAt: Date.now(), sports: data };
+    }
+    return sportsCatalog.sports;
+  } catch {
+    return sportsCatalog.sports;
+  }
+}
+
+function resolveLeagueSports(league, catalog) {
+  const config = LEAGUE_SPORTS[league];
+  if (!config) return [];
+
+  if (config.prefix) {
+    // Prefix leagues (tennis tournaments, golf events) rotate through the season,
+    // so enumerate them from the live catalog rather than a hardcoded list.
+    if (!catalog) return [];
+    return catalog
+      .filter((sport) => sport.key.startsWith(config.prefix) && sport.active !== false)
+      .map((sport) => ({ league, key: sport.key, outrights: Boolean(config.outrights || sport.has_outrights) }));
+  }
+
+  const keys = catalog ? config.keys.filter((key) => catalog.some((sport) => sport.key === key)) : config.keys;
+  return keys.map((key) => ({ league, key, outrights: Boolean(config.outrights) }));
+}
+
+// Returns null for an unknown league (caller sends 400); an empty array just
+// means nothing is in season right now.
+async function getSportsFromQuery(searchParams) {
+  const sport = (searchParams.get("sport") || "All").toUpperCase();
+  if (sport !== "ALL" && !LEAGUE_SPORTS[sport]) return null;
+
+  const catalog = await getSportsCatalog();
+  const leagues = sport === "ALL" ? Object.keys(LEAGUE_SPORTS) : [sport];
+  return leagues.flatMap((league) => resolveLeagueSports(league, catalog));
 }
 
 function cacheKey(url) {
@@ -93,8 +161,8 @@ async function proxyOdds(url, res) {
     return;
   }
 
-  const sports = getSportsFromQuery(url.searchParams);
-  if (!sports.length) {
+  const sports = await getSportsFromQuery(url.searchParams);
+  if (!sports) {
     sendJson(res, 400, { error: "Unsupported sport.", events: [] });
     return;
   }
@@ -117,7 +185,7 @@ async function proxyOdds(url, res) {
       const endpoint = new URL(`${ODDS_API_BASE}/sports/${sport.key}/odds`);
       endpoint.searchParams.set("apiKey", ODDS_API_KEY);
       endpoint.searchParams.set("regions", regions);
-      endpoint.searchParams.set("markets", markets);
+      endpoint.searchParams.set("markets", sport.outrights ? "outrights" : markets);
       endpoint.searchParams.set("oddsFormat", "american");
       endpoint.searchParams.set("dateFormat", "iso");
 
@@ -139,7 +207,11 @@ async function proxyOdds(url, res) {
         }
 
         const data = await upstream.json();
-        events.push(...data.map((event) => normalizeOddsEvent(event, sport.league)));
+        events.push(
+          ...data.map((event) =>
+            sport.outrights ? normalizeOutrightEvent(event, sport.league) : normalizeOddsEvent(event, sport.league),
+          ),
+        );
       } catch (error) {
         errors.push({ league: sport.league, message: error.message });
       }
@@ -175,11 +247,13 @@ async function proxyScores(url, res) {
     return;
   }
 
-  const sports = getSportsFromQuery(url.searchParams);
-  if (!sports.length) {
+  const allSports = await getSportsFromQuery(url.searchParams);
+  if (!allSports) {
     sendJson(res, 400, { error: "Unsupported sport.", games: [] });
     return;
   }
+  // Outright/futures sports (golf) have no game scores to fetch.
+  const sports = allSports.filter((sport) => !sport.outrights);
 
   const key = cacheKey(url);
   const cached = readCache(key);
@@ -279,12 +353,17 @@ function flattenOddsMarkets(events) {
   );
 }
 
+function leaguePriority(league) {
+  const value = Number(league?.priority);
+  return Number.isFinite(value) ? value : 999;
+}
+
 function readLeagues() {
   try {
     const parsed = JSON.parse(fs.readFileSync(LEAGUES_FILE, "utf8"));
     return (Array.isArray(parsed) ? parsed : [])
       .slice()
-      .sort((a, b) => Number(a.priority || 999) - Number(b.priority || 999))
+      .sort((a, b) => leaguePriority(a) - leaguePriority(b))
       .map(({ key, label, accent }) => ({ key, label, accent }));
   } catch (error) {
     console.warn("[leagues] unable to load leagues:", error.message);
@@ -608,6 +687,37 @@ function inferEspnStatGroupName(league, labels, index) {
   if (league === "NFL") return ["Passing", "Rushing", "Receiving", "Defense", "Kicking"][index] || "Player Stats";
   if (league === "NHL") return labels.includes("TOI") ? "Skaters" : "Goalies";
   return index === 0 ? "Player Stats" : `Player Stats ${index + 1}`;
+}
+
+function normalizeOutrightEvent(event, league) {
+  const bookmaker = pickBookmaker(event.bookmakers || []);
+  const outrightMarket = findMarket(bookmaker, "outrights");
+  const favorites = (outrightMarket?.outcomes || [])
+    .filter((outcome) => typeof outcome.price === "number")
+    .sort((a, b) => a.price - b.price)
+    .slice(0, 5)
+    .map((outcome) => ({ name: outcome.name, price: outcome.price }));
+
+  return {
+    id: event.id,
+    league,
+    sportKey: event.sport_key,
+    commenceTime: event.commence_time,
+    homeTeam: null,
+    awayTeam: null,
+    outright: true,
+    title: event.sport_title || "Tournament Winner",
+    bookmaker: bookmaker?.title || "Market",
+    bookmakerCount: event.bookmakers?.length || 0,
+    updatedAt: bookmaker?.last_update || null,
+    display: {
+      spread: "Futures",
+      total: favorites[1] ? `${favorites[1].name} ${formatPrice(favorites[1].price)}` : "",
+      moneyline: favorites[0] ? `${favorites[0].name} ${formatPrice(favorites[0].price)}` : "Odds N/A",
+    },
+    favorites,
+    markets: [],
+  };
 }
 
 function normalizeOddsEvent(event, league) {
