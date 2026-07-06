@@ -1,6 +1,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const http = require("node:http");
+const crypto = require("node:crypto");
 const { URL } = require("node:url");
 const grade = require("./lib/grade");
 const snapshots = require("./lib/snapshots");
@@ -697,8 +698,140 @@ function formatPrice(value) {
   return value > 0 ? `+${value}` : `${value}`;
 }
 
+function checkAdminAuth(req, res) {
+  const password = process.env.ADMIN_PASSWORD;
+  if (!password) {
+    sendJson(res, 503, {
+      error: "ADMIN_PASSWORD is not configured on the server. Set it in Railway Variables to enable the admin panel.",
+    });
+    return false;
+  }
+
+  const provided = Buffer.from(String(req.headers["x-admin-key"] || ""));
+  const expected = Buffer.from(password);
+  const valid = provided.length === expected.length && crypto.timingSafeEqual(provided, expected);
+  if (!valid) {
+    sendJson(res, 401, { error: "Invalid admin key." });
+    return false;
+  }
+
+  return true;
+}
+
+function readRequestBody(req, limit = 100000) {
+  return new Promise((resolve, reject) => {
+    const chunks = [];
+    let size = 0;
+    req.on("data", (chunk) => {
+      size += chunk.length;
+      if (size > limit) {
+        reject(new Error("Request body too large."));
+        req.destroy();
+        return;
+      }
+      chunks.push(chunk);
+    });
+    req.on("end", () => resolve(Buffer.concat(chunks).toString("utf8")));
+    req.on("error", reject);
+  });
+}
+
+async function parseJsonBody(req) {
+  const raw = await readRequestBody(req);
+  if (!raw.trim()) return {};
+  return JSON.parse(raw);
+}
+
+const PICK_FIELDS = ["gameId", "league", "expert", "title", "market", "price", "confidence", "rationale", "status"];
+
+function sanitizePickInput(input, existing = {}) {
+  const pick = { ...existing };
+  for (const field of PICK_FIELDS) {
+    if (input[field] === undefined) continue;
+    pick[field] = field === "confidence" ? Number(input[field]) || 0 : String(input[field]);
+  }
+  if (input.pick !== undefined && input.title === undefined) pick.title = String(input.pick);
+  return pick;
+}
+
+async function handleAdminPicks(req, res, reqUrl) {
+  if (!checkAdminAuth(req, res)) return;
+
+  const match = reqUrl.pathname.match(/^\/api\/admin\/picks(?:\/([^/]+))?$/);
+  if (!match) {
+    sendJson(res, 404, { error: "Unknown API route." });
+    return;
+  }
+
+  const id = match[1] ? decodeURIComponent(match[1]) : null;
+
+  let body = {};
+  if (req.method === "POST" || req.method === "PUT") {
+    try {
+      body = await parseJsonBody(req);
+    } catch (error) {
+      sendJson(res, 400, { error: `Invalid JSON body: ${error.message}` });
+      return;
+    }
+  }
+
+  try {
+    if (!id && req.method === "GET") {
+      sendJson(res, 200, { picks: picks.readRawPicks() });
+      return;
+    }
+
+    if (!id && req.method === "POST") {
+      const title = String(body.title || body.pick || "").trim();
+      if (!title) {
+        sendJson(res, 400, { error: "A pick needs at least a title (the pick text)." });
+        return;
+      }
+      const list = picks.readRawPicks();
+      const newPick = sanitizePickInput(body, { status: "pending" });
+      newPick.title = title;
+      newPick.id = `pick-${Date.now().toString(36)}-${crypto.randomBytes(3).toString("hex")}`;
+      newPick.postedAt = new Date().toISOString();
+      list.push(newPick);
+      picks.writeRawPicks(list);
+      sendJson(res, 201, { pick: newPick });
+      return;
+    }
+
+    if (id && req.method === "PUT") {
+      const list = picks.readRawPicks();
+      const index = list.findIndex((pick) => pick.id === id);
+      if (index === -1) {
+        sendJson(res, 404, { error: `No pick with id "${id}".` });
+        return;
+      }
+      list[index] = { ...sanitizePickInput(body, list[index]), id };
+      picks.writeRawPicks(list);
+      sendJson(res, 200, { pick: list[index] });
+      return;
+    }
+
+    if (id && req.method === "DELETE") {
+      const list = picks.readRawPicks();
+      const remaining = list.filter((pick) => pick.id !== id);
+      if (remaining.length === list.length) {
+        sendJson(res, 404, { error: `No pick with id "${id}".` });
+        return;
+      }
+      picks.writeRawPicks(remaining);
+      sendJson(res, 200, { deleted: id });
+      return;
+    }
+
+    sendJson(res, 405, { error: "Method not allowed on this admin route." });
+  } catch (error) {
+    sendJson(res, 500, { error: `Admin picks operation failed: ${error.message}` });
+  }
+}
+
 function serveStatic(reqUrl, res) {
-  const requestedPath = decodeURIComponent(reqUrl.pathname === "/" ? "/index.html" : reqUrl.pathname);
+  const rawPath = reqUrl.pathname === "/" ? "/index.html" : reqUrl.pathname === "/admin" ? "/admin.html" : reqUrl.pathname;
+  const requestedPath = decodeURIComponent(rawPath);
   const absolutePath = path.normalize(path.join(ROOT, requestedPath));
 
   if (!absolutePath.startsWith(ROOT)) {
@@ -726,8 +859,15 @@ function serveStatic(reqUrl, res) {
 const server = http.createServer(async (req, res) => {
   const reqUrl = new URL(req.url, `http://${req.headers.host || "localhost"}`);
 
-  if (req.method !== "GET") {
+  const isAdminApi = reqUrl.pathname.startsWith("/api/admin/");
+  const allowedMethods = isAdminApi ? ["GET", "POST", "PUT", "DELETE"] : ["GET"];
+  if (!allowedMethods.includes(req.method)) {
     sendJson(res, 405, { error: "Method not allowed." });
+    return;
+  }
+
+  if (isAdminApi) {
+    await handleAdminPicks(req, res, reqUrl);
     return;
   }
 

@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Nosebleed Admin — Picks</title>
+    <style>
+      :root {
+        --bg: #0d0d0f;
+        --panel: #17171b;
+        --panel-soft: #1f1f25;
+        --line: #2c2c34;
+        --ink: #f2f2f4;
+        --muted: #9a9aa4;
+        --red: #b11226;
+        --green: #1fa971;
+        --amber: #d98a1f;
+        font-family: Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--ink); }
+      header {
+        position: sticky; top: 0; z-index: 5;
+        display: flex; align-items: center; gap: 10px;
+        padding: 14px 16px; background: #000; border-bottom: 2px solid var(--red);
+      }
+      header h1 { margin: 0; font-size: 1rem; letter-spacing: 0.04em; text-transform: uppercase; }
+      header .tag { font-size: 0.7rem; color: var(--muted); margin-left: auto; }
+      main { max-width: 760px; margin: 0 auto; padding: 16px; }
+      .notice {
+        display: none; margin: 0 0 14px; padding: 10px 12px; border-radius: 8px;
+        background: #3a1215; border: 1px solid var(--red); font-size: 0.85rem;
+      }
+      .notice.is-visible { display: block; }
+      form {
+        background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+        padding: 14px; margin-bottom: 18px;
+      }
+      form h2 { margin: 0 0 12px; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); }
+      .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+      .grid .full { grid-column: 1 / -1; }
+      label { display: block; font-size: 0.72rem; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+      input, select, textarea {
+        width: 100%; padding: 9px 10px; border-radius: 7px; border: 1px solid var(--line);
+        background: var(--panel-soft); color: var(--ink); font-size: 0.9rem; font-family: inherit;
+      }
+      textarea { min-height: 64px; resize: vertical; }
+      .actions { display: flex; gap: 10px; margin-top: 12px; }
+      button {
+        padding: 10px 16px; border: 0; border-radius: 8px; font-weight: 700; cursor: pointer;
+        background: var(--red); color: #fff; font-size: 0.85rem;
+      }
+      button.secondary { background: var(--panel-soft); color: var(--ink); border: 1px solid var(--line); }
+      button.danger { background: transparent; color: #e05a6a; border: 1px solid #5a2229; }
+      .pick-card {
+        background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+        padding: 12px 14px; margin-bottom: 10px;
+      }
+      .pick-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+      .pick-title { font-weight: 700; font-size: 0.95rem; }
+      .badge {
+        font-size: 0.66rem; font-weight: 800; text-transform: uppercase;
+        padding: 3px 8px; border-radius: 999px; background: var(--panel-soft); color: var(--muted);
+      }
+      .badge.status-won { background: #113325; color: var(--green); }
+      .badge.status-lost { background: #3a1215; color: #e05a6a; }
+      .badge.status-push { background: #33270f; color: var(--amber); }
+      .pick-meta { color: var(--muted); font-size: 0.78rem; margin: 6px 0; }
+      .pick-rationale { font-size: 0.84rem; color: #cfcfd6; margin: 4px 0 10px; }
+      .pick-actions { display: flex; gap: 8px; }
+      .pick-actions button { padding: 7px 12px; font-size: 0.78rem; }
+      .empty { color: var(--muted); text-align: center; padding: 30px 0; font-size: 0.9rem; }
+      @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Nosebleed Admin</h1>
+      <span class="tag">Picks Editor</span>
+    </header>
+    <main>
+      <div class="notice" id="notice"></div>
+
+      <form id="pickForm">
+        <h2 id="formTitle">Add Pick</h2>
+        <input type="hidden" id="pickId" />
+        <div class="grid">
+          <div>
+            <label for="league">League</label>
+            <input id="league" list="leagueOptions" placeholder="NBA" />
+            <datalist id="leagueOptions">
+              <option>MLB</option><option>NBA</option><option>NFL</option><option>NHL</option><option>WNBA</option>
+            </datalist>
+          </div>
+          <div>
+            <label for="gameId">Game ID (optional)</label>
+            <input id="gameId" placeholder="from /api/scores" />
+          </div>
+          <div>
+            <label for="expert">Expert</label>
+            <input id="expert" placeholder="Nosebleed Model" />
+          </div>
+          <div>
+            <label for="market">Market</label>
+            <select id="market">
+              <option value="moneyline">Moneyline</option>
+              <option value="spread">Spread</option>
+              <option value="total">Total</option>
+              <option value="market">Other</option>
+            </select>
+          </div>
+          <div class="full">
+            <label for="title">Pick text (e.g. "Knicks -4.5", "Yankees ML", "DAL/PHI OVER 47.5")</label>
+            <input id="title" required placeholder="Knicks -4.5" />
+          </div>
+          <div>
+            <label for="price">Price / odds</label>
+            <input id="price" placeholder="-110" />
+          </div>
+          <div>
+            <label for="confidence">Confidence (0–100)</label>
+            <input id="confidence" type="number" min="0" max="100" placeholder="65" />
+          </div>
+          <div>
+            <label for="status">Status</label>
+            <select id="status">
+              <option value="pending">Pending</option>
+              <option value="won">Won</option>
+              <option value="lost">Lost</option>
+              <option value="push">Push</option>
+            </select>
+          </div>
+          <div class="full">
+            <label for="rationale">Rationale</label>
+            <textarea id="rationale" placeholder="Why this pick?"></textarea>
+          </div>
+        </div>
+        <div class="actions">
+          <button type="submit" id="saveBtn">Save Pick</button>
+          <button type="button" class="secondary" id="cancelBtn" hidden>Cancel Edit</button>
+        </div>
+      </form>
+
+      <div id="pickList"><p class="empty">Loading picks…</p></div>
+    </main>
+
+    <script>
+      const KEY_STORAGE = "nosebleed-admin-key";
+      const $ = (sel) => document.querySelector(sel);
+      const FIELDS = ["league", "gameId", "expert", "market", "title", "price", "confidence", "rationale", "status"];
+      let picks = [];
+
+      function adminKey() {
+        let key = sessionStorage.getItem(KEY_STORAGE);
+        if (!key) {
+          key = window.prompt("Enter the admin password:") || "";
+          if (key) sessionStorage.setItem(KEY_STORAGE, key);
+        }
+        return key;
+      }
+
+      function showNotice(message) {
+        const el = $("#notice");
+        el.textContent = message;
+        el.classList.add("is-visible");
+      }
+
+      function clearNotice() {
+        $("#notice").classList.remove("is-visible");
+      }
+
+      async function api(path, options = {}) {
+        const key = adminKey();
+        const response = await fetch(path, {
+          ...options,
+          headers: {
+            "Content-Type": "application/json",
+            "X-Admin-Key": key,
+            ...(options.headers || {}),
+          },
+        });
+        const payload = await response.json().catch(() => ({}));
+        if (response.status === 401) {
+          sessionStorage.removeItem(KEY_STORAGE);
+          showNotice("Wrong password. Reload the page to try again.");
+          throw new Error("unauthorized");
+        }
+        if (!response.ok) {
+          showNotice(payload.error || ("Request failed (" + response.status + ")."));
+          throw new Error(payload.error || "request failed");
+        }
+        clearNotice();
+        return payload;
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+          "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+        })[ch]);
+      }
+
+      function renderPicks() {
+        const list = $("#pickList");
+        if (!picks.length) {
+          list.innerHTML = '<p class="empty">No picks yet. Add one above.</p>';
+          return;
+        }
+        list.innerHTML = picks.map((pick) => `
+          <div class="pick-card">
+            <div class="pick-top">
+              <span class="pick-title">${escapeHtml(pick.title || pick.pick)}</span>
+              <span class="badge">${escapeHtml(pick.league || "—")}</span>
+              <span class="badge">${escapeHtml(pick.market || "market")}</span>
+              <span class="badge status-${escapeHtml(pick.status || "pending")}">${escapeHtml(pick.status || "pending")}</span>
+            </div>
+            <div class="pick-meta">
+              ${escapeHtml(pick.expert || "—")} · ${escapeHtml(pick.price || "no price")} · confidence ${escapeHtml(pick.confidence ?? "—")}
+              ${pick.gameId ? " · game " + escapeHtml(pick.gameId) : ""}
+            </div>
+            ${pick.rationale ? `<div class="pick-rationale">${escapeHtml(pick.rationale)}</div>` : ""}
+            <div class="pick-actions">
+              <button type="button" class="secondary" data-edit="${escapeHtml(pick.id)}">Edit</button>
+              <button type="button" class="danger" data-delete="${escapeHtml(pick.id)}">Delete</button>
+            </div>
+          </div>
+        `).join("");
+      }
+
+      function fillForm(pick) {
+        $("#pickId").value = pick?.id || "";
+        for (const field of FIELDS) {
+          $("#" + field).value = pick?.[field] ?? (field === "status" ? "pending" : field === "market" ? "moneyline" : "");
+        }
+        $("#formTitle").textContent = pick ? "Edit Pick" : "Add Pick";
+        $("#saveBtn").textContent = pick ? "Update Pick" : "Save Pick";
+        $("#cancelBtn").hidden = !pick;
+      }
+
+      async function loadPicks() {
+        try {
+          const payload = await api("/api/admin/picks");
+          picks = Array.isArray(payload.picks) ? payload.picks : [];
+          renderPicks();
+        } catch {
+          $("#pickList").innerHTML = '<p class="empty">Could not load picks.</p>';
+        }
+      }
+
+      $("#pickForm").addEventListener("submit", async (event) => {
+        event.preventDefault();
+        const id = $("#pickId").value;
+        const body = {};
+        for (const field of FIELDS) body[field] = $("#" + field).value;
+        body.confidence = Number(body.confidence) || 0;
+        try {
+          if (id) await api("/api/admin/picks/" + encodeURIComponent(id), { method: "PUT", body: JSON.stringify(body) });
+          else await api("/api/admin/picks", { method: "POST", body: JSON.stringify(body) });
+          fillForm(null);
+          await loadPicks();
+        } catch { /* notice already shown */ }
+      });
+
+      $("#cancelBtn").addEventListener("click", () => fillForm(null));
+
+      $("#pickList").addEventListener("click", async (event) => {
+        const editId = event.target.closest("[data-edit]")?.dataset.edit;
+        if (editId) {
+          const pick = picks.find((item) => item.id === editId);
+          if (pick) {
+            fillForm(pick);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }
+          return;
+        }
+        const deleteId = event.target.closest("[data-delete]")?.dataset.delete;
+        if (deleteId && window.confirm("Delete this pick?")) {
+          try {
+            await api("/api/admin/picks/" + encodeURIComponent(deleteId), { method: "DELETE" });
+            await loadPicks();
+          } catch { /* notice already shown */ }
+        }
+      });
+
+      fillForm(null);
+      loadPicks();
+    </script>
+  </body>
+</html>

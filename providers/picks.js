@@ -3,6 +3,8 @@ const path = require("node:path");
 const grade = require("../lib/grade");
 
 const SEED_PICKS_FILE = path.join(__dirname, "..", "data", "picks.json");
+const WRITE_DIR = process.env.DATA_DIR || path.join(__dirname, "..", "data");
+const WRITE_PICKS_FILE = path.join(WRITE_DIR, "picks.json");
 
 function picksFile() {
   if (process.env.DATA_DIR) {
@@ -66,4 +68,15 @@ function inferMarket(value) {
   return "market";
 }
 
-module.exports = { getPicks };
+function readRawPicks() {
+  return readPicks();
+}
+
+function writeRawPicks(picks) {
+  const list = Array.isArray(picks) ? picks : [];
+  fs.mkdirSync(WRITE_DIR, { recursive: true });
+  fs.writeFileSync(WRITE_PICKS_FILE, `${JSON.stringify(list, null, 2)}\n`);
+  return list;
+}
+
+module.exports = { getPicks, readRawPicks, writeRawPicks };
