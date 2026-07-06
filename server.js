@@ -7,6 +7,7 @@ const grade = require("./lib/grade");
 const snapshots = require("./lib/snapshots");
 const picks = require("./providers/picks");
 const news = require("./providers/news");
+const logos = require("./providers/logos");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -1022,6 +1023,15 @@ const server = http.createServer(async (req, res) => {
         fetchedAt: new Date().toISOString(),
       },
     });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/logos") {
+    try {
+      sendJson(res, 200, await logos.getLogos(), { "cache-control": "public, max-age=3600" });
+    } catch (error) {
+      sendJson(res, 200, { leagues: {}, meta: { provider: "ESPN public team directories", errors: [{ message: error.message }] } });
+    }
     return;
   }
 

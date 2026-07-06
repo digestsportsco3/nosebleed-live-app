@@ -7,6 +7,7 @@ const API_CONFIG = {
   picksRecord: "/api/picks/record",
   news: "/api/news",
   leagues: "/api/leagues",
+  logos: "/api/logos",
 };
 
 let leagues = ["All", "MLB", "NBA", "NFL", "NHL", "WNBA"];
@@ -539,6 +540,7 @@ const state = {
   picks: [],
   picksRecord: null,
   newsItems: [],
+  logos: null,
   pulse: 0,
 };
 
@@ -755,10 +757,15 @@ function renderScoreGame(game) {
   `;
 }
 
+function teamMarkImg(team) {
+  if (!team.logo) return "";
+  return `<img class="mark-img" src="${escapeAttribute(team.logo)}" alt="" loading="lazy" onerror="this.remove()">`;
+}
+
 function scoreRow(team, winner = false, loser = false, isFinal = false, isLive = false) {
   return `
     <div class="score-row ${isFinal ? "final" : ""} ${isLive ? "live" : ""}">
-      <span class="team-mark" style="--team-color:${team.color}">${team.abbr}</span>
+      <span class="team-mark" style="--team-color:${team.color}">${team.abbr}${teamMarkImg(team)}</span>
       <span class="team-label ${winner ? "winner" : ""} ${loser ? "loser" : ""}">${team.name}</span>
       <span class="score-value ${winner ? "winner" : ""} ${loser ? "loser" : ""}">${team.score}</span>
     </div>
@@ -796,7 +803,7 @@ function teamTemplate(team) {
   return `
     <div>
       <div class="team-identity">
-        <span class="team-logo" style="background:${team.color}">${team.abbr}</span>
+        <span class="team-logo" style="background:${team.color}">${team.abbr}${teamMarkImg(team)}</span>
         <div class="team-name">
           <strong>${team.name}</strong>
           <span>${team.record}</span>
@@ -1551,7 +1558,8 @@ function scoreGameToUiGame(scoreGame) {
     isProviderSynced: true,
     lastUpdateLabel,
     away: {
-      abbr: teamAbbr(scoreGame.awayTeam),
+      abbr: teamLogoEntry(scoreGame.league, scoreGame.awayTeam)?.a || teamAbbr(scoreGame.awayTeam),
+      logo: teamLogoEntry(scoreGame.league, scoreGame.awayTeam)?.l || null,
       name: scoreGame.awayTeam,
       record: scoreGame.completed ? "Final" : started ? "Live" : "Scheduled",
       score: awayScore ?? "-",
@@ -1563,7 +1571,8 @@ function scoreGameToUiGame(scoreGame) {
       ],
     },
     home: {
-      abbr: teamAbbr(scoreGame.homeTeam),
+      abbr: teamLogoEntry(scoreGame.league, scoreGame.homeTeam)?.a || teamAbbr(scoreGame.homeTeam),
+      logo: teamLogoEntry(scoreGame.league, scoreGame.homeTeam)?.l || null,
       name: scoreGame.homeTeam,
       record: scoreGame.completed ? "Final" : started ? "Live" : "Scheduled",
       score: homeScore ?? "-",
@@ -1644,6 +1653,54 @@ function visualForLeague(league) {
   if (league === "NFL") return "field";
   if (league === "NHL") return "rink";
   return "court";
+}
+
+const teamLogoCache = new Map();
+
+function normalizeTeamKey(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function teamLogoEntry(league, teamName) {
+  const table = state.logos?.[league];
+  if (!table) return null;
+
+  const cacheKey = `${league}|${teamName}`;
+  if (teamLogoCache.has(cacheKey)) return teamLogoCache.get(cacheKey);
+
+  const key = normalizeTeamKey(teamName);
+  let entry = table[key] || null;
+  if (!entry && key.length >= 4) {
+    for (const [candidate, value] of Object.entries(table)) {
+      if (candidate.length >= 4 && (candidate.includes(key) || key.includes(candidate))) {
+        entry = value;
+        break;
+      }
+    }
+  }
+
+  teamLogoCache.set(cacheKey, entry);
+  return entry;
+}
+
+async function loadLogos() {
+  try {
+    const response = await fetch(API_CONFIG.logos, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const payload = await response.json();
+    if (payload.leagues && Object.keys(payload.leagues).length) {
+      state.logos = payload.leagues;
+      teamLogoCache.clear();
+      rebuildSyncedGames();
+      renderAll();
+    }
+  } catch {
+    /* letter marks remain as fallback */
+  }
 }
 
 function teamAbbr(teamName) {
@@ -1943,6 +2000,7 @@ async function boot() {
   await Promise.resolve(API_CONFIG);
   registerServiceWorker();
   wireEvents();
+  loadLogos();
   await loadLeagues();
   await loadPicksData();
   renderAll();
