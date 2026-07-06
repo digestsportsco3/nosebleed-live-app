@@ -673,8 +673,17 @@ function renderScoreStrip() {
   const sections =
     state.league === "All"
       ? (() => {
-          const followedTop = list.filter((game) => state.following.has(game.id)).slice(0, 3);
-          const topGames = followedTop.length ? followedTop : list.slice(0, 4);
+          // The provider feed includes the full future schedule (games months out);
+          // the home view should read like today's slate.
+          const nearWindowMs = 48 * 60 * 60 * 1000;
+          const nearList = list.filter(
+            (game) =>
+              game.statusType !== "soon" ||
+              new Date(game.commenceTime || 0).getTime() - Date.now() <= nearWindowMs,
+          );
+          const homeList = nearList.length ? nearList : list;
+          const followedTop = homeList.filter((game) => state.following.has(game.id)).slice(0, 3);
+          const topGames = followedTop.length ? followedTop : homeList.slice(0, 4);
           const topGameIds = new Set(topGames.map((game) => game.id));
           return [
             {
@@ -686,7 +695,7 @@ function renderScoreStrip() {
               .map((league) => ({
                 title: league,
                 league,
-                games: list.filter((game) => game.league === league && !topGameIds.has(game.id)).slice(0, 6),
+                games: homeList.filter((game) => game.league === league && !topGameIds.has(game.id)).slice(0, 6),
               })),
           ];
         })()
@@ -1206,10 +1215,6 @@ function renderNews() {
   `;
 }
 
-function escapeHtml(value) {
-  return String(value ?? "").replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch]);
-}
-
 function escapeAttribute(value) {
   return escapeHtml(value);
 }
@@ -1502,16 +1507,35 @@ function compareSyncedGames(a, b) {
   return aTime - bTime;
 }
 
+function hasGameStarted(scoreGame) {
+  const startMs = new Date(scoreGame.commenceTime || 0).getTime();
+  return Number.isFinite(startMs) && startMs > 0 && startMs <= Date.now();
+}
+
+function formatStartLabel(value) {
+  const date = new Date(value || 0);
+  if (Number.isNaN(date.getTime())) return "TBD";
+  if (date.toDateString() === new Date().toDateString()) return formatStartTime(value);
+  return date.toLocaleDateString([], { month: "short", day: "numeric" });
+}
+
+function matchupWord(league) {
+  return ["TENNIS", "MMA", "BOXING"].includes(league) ? "vs" : "at";
+}
+
 function scoreGameToUiGame(scoreGame) {
   const matchingOdds = findOddsForScore(scoreGame);
   const awayScore = getTeamScore(scoreGame, scoreGame.awayTeam);
   const homeScore = getTeamScore(scoreGame, scoreGame.homeTeam);
   const hasScore = awayScore !== null || homeScore !== null;
-  const statusType = scoreGame.completed ? "final" : hasScore ? "live" : "soon";
-  const startTime = formatStartTime(scoreGame.commenceTime);
+  // "Has a score" is not enough: providers send placeholder 0-0 before kickoff,
+  // and can lag on live games — the start time decides live vs upcoming.
+  const started = hasGameStarted(scoreGame);
+  const statusType = scoreGame.completed ? "final" : started ? "live" : "soon";
+  const startTime = formatStartLabel(scoreGame.commenceTime);
   const lastUpdateLabel = scoreGame.lastUpdate ? formatAbsoluteTime(scoreGame.lastUpdate) : "Awaiting update";
-  const status = scoreGame.completed ? "FINAL" : hasScore ? "LIVE" : startTime;
-  const clock = scoreGame.completed ? "Final" : hasScore ? "Live" : startTime;
+  const status = scoreGame.completed ? "FINAL" : started ? "LIVE" : startTime;
+  const clock = scoreGame.completed ? "Final" : started ? "Live" : startTime;
   const total = Number(awayScore || 0) + Number(homeScore || 0);
 
   return {
@@ -1522,14 +1546,14 @@ function scoreGameToUiGame(scoreGame) {
     statusType,
     clock,
     venue: matchingOdds?.bookmaker ? `${matchingOdds.bookmaker} market` : "Provider synced",
-    headline: `${scoreGame.awayTeam} at ${scoreGame.homeTeam}`,
+    headline: `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam}`,
     visual: visualForLeague(scoreGame.league),
     isProviderSynced: true,
     lastUpdateLabel,
     away: {
       abbr: teamAbbr(scoreGame.awayTeam),
       name: scoreGame.awayTeam,
-      record: scoreGame.completed ? "Final" : hasScore ? "Live" : "Scheduled",
+      record: scoreGame.completed ? "Final" : started ? "Live" : "Scheduled",
       score: awayScore ?? "-",
       color: colorForTeam(scoreGame.awayTeam),
       line: [],
@@ -1541,7 +1565,7 @@ function scoreGameToUiGame(scoreGame) {
     home: {
       abbr: teamAbbr(scoreGame.homeTeam),
       name: scoreGame.homeTeam,
-      record: scoreGame.completed ? "Final" : hasScore ? "Live" : "Scheduled",
+      record: scoreGame.completed ? "Final" : started ? "Live" : "Scheduled",
       score: homeScore ?? "-",
       color: colorForTeam(scoreGame.homeTeam),
       line: [],
@@ -1552,7 +1576,7 @@ function scoreGameToUiGame(scoreGame) {
     },
     probability: impliedProbabilityFromOdds(matchingOdds),
     meta: [
-      ["Score Sync", scoreGame.completed ? "Final score" : hasScore ? "Live/provider score" : "Pregame"],
+      ["Score Sync", scoreGame.completed ? "Final score" : started ? "Live/provider score" : "Pregame"],
       ["Last Update", lastUpdateLabel],
       ["Start", formatStartDateTime(scoreGame.commenceTime)],
       ["Books", matchingOdds ? `${matchingOdds.bookmakerCount} tracked` : "Odds pending"],
@@ -1577,7 +1601,7 @@ function providerEvents(scoreGame, status, lastUpdateLabel, matchingOdds) {
     [
       status,
       scoreGame.league,
-      `${scoreGame.awayTeam} at ${scoreGame.homeTeam} synced from The Odds API scores feed.`,
+      `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam} synced from The Odds API scores feed.`,
       "Score",
     ],
   ];
