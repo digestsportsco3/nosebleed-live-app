@@ -1904,8 +1904,16 @@ function wireEvents() {
   $("#newsFilterBtn").addEventListener("click", () => setLeague("All"));
 }
 
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) return;
+  navigator.serviceWorker.register("/sw.js").catch(() => {
+    /* PWA is optional; the app works without it */
+  });
+}
+
 async function boot() {
   await Promise.resolve(API_CONFIG);
+  registerServiceWorker();
   wireEvents();
   await loadLeagues();
   await loadPicksData();
