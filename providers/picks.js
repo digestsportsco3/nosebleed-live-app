@@ -3,12 +3,13 @@ const path = require("node:path");
 const grade = require("../lib/grade");
 
 const SEED_PICKS_FILE = path.join(__dirname, "..", "data", "picks.json");
-const WRITE_DIR = process.env.DATA_DIR || path.join(__dirname, "..", "data");
+const VOLUME_DIR = process.env.DATA_DIR || process.env.RAILWAY_VOLUME_MOUNT_PATH || "";
+const WRITE_DIR = VOLUME_DIR || path.join(__dirname, "..", "data");
 const WRITE_PICKS_FILE = path.join(WRITE_DIR, "picks.json");
 
 function picksFile() {
-  if (process.env.DATA_DIR) {
-    const dataFile = path.join(process.env.DATA_DIR, "picks.json");
+  if (VOLUME_DIR) {
+    const dataFile = path.join(VOLUME_DIR, "picks.json");
     if (fs.existsSync(dataFile)) return dataFile;
   }
   return SEED_PICKS_FILE;
