@@ -11,6 +11,7 @@ const logos = require("./providers/logos");
 const linescores = require("./providers/linescores");
 const headshots = require("./providers/headshots");
 const kalshi = require("./providers/kalshi");
+const newsletter = require("./providers/newsletter");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -1113,9 +1114,20 @@ const server = http.createServer(async (req, res) => {
 
   if (reqUrl.pathname === "/api/news") {
     try {
-      sendJson(res, 200, await news.getNews());
+      const [house, wire] = await Promise.all([
+        newsletter.getNewsletter().catch((error) => ({ items: [], meta: { errors: [{ message: error.message }] } })),
+        news.getNews(),
+      ]);
+      // House newsletters lead; the wire follows.
+      sendJson(res, 200, {
+        items: [...house.items, ...wire.items],
+        meta: {
+          providers: [house.meta, wire.meta],
+          fetchedAt: new Date().toISOString(),
+        },
+      });
     } catch (error) {
-      sendJson(res, 200, { items: [], meta: { provider: "ESPN public news JSON", errors: [{ message: error.message }] } });
+      sendJson(res, 200, { items: [], meta: { errors: [{ message: error.message }] } });
     }
     return;
   }

@@ -1475,7 +1475,7 @@ function renderNews() {
         .slice(0, 12)
         .map(
           (item) => `
-            <article class="headline-row" ${item.link ? `data-news-link="${escapeAttribute(item.link)}" style="cursor:pointer"` : ""}>
+            <article class="headline-row ${item.league === "NOSEBLEED" ? "is-house" : ""}" ${item.link ? `data-news-link="${escapeAttribute(item.link)}" style="cursor:pointer"` : ""}>
               ${
                 item.image
                   ? `<img class="headline-thumb" src="${escapeAttribute(item.image)}" alt="" loading="lazy" onerror="this.remove()">`
