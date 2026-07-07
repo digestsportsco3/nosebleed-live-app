@@ -1873,3 +1873,18 @@ tbody tr:last-child td {
   position: relative;
   overflow: hidden;
 }
+
+.book-chip {
+  position: relative;
+  overflow: hidden;
+}
+
+.pred-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}

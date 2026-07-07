@@ -914,6 +914,9 @@ function renderDetailPanel() {
     if (game.isProviderSynced && !game.polymarket && game.polymarketStatus !== "loading" && game.polymarketStatus !== "error") {
       loadProviderPolymarket(game);
     }
+    if (game.isProviderSynced && !game.kalshi && game.kalshiStatus !== "loading" && game.kalshiStatus !== "error") {
+      loadProviderKalshi(game);
+    }
     return;
   }
 
@@ -1150,11 +1153,21 @@ function renderPlayerTable(title, columns, rows) {
 }
 
 function renderSelectedOdds(game) {
-  const bookNote = game.odds.bookmaker ? `via ${game.odds.bookmaker}` : "Best available";
+  const books = game.odds.books || [];
+  // The featured book doesn't always post every market - fall back to the
+  // first book that actually has a line, and credit it.
+  const pickLine = (field, fallback, fallbackNote) => {
+    const withLine = books.find((book) => book[field] && book[field] !== "-");
+    if (withLine) return { value: withLine[field], note: `via ${withLine.title}` };
+    return { value: fallback, note: fallbackNote };
+  };
+  const spread = pickLine("spread", game.odds.spread, "No line posted yet");
+  const total = pickLine("total", game.odds.total, game.odds.movement);
+  const moneyline = pickLine("moneyline", game.odds.moneyline, "American price");
   const markets = [
-    ["Sportsbook Spread", game.odds.spread, bookNote],
-    ["Sportsbook Total", game.odds.total, game.odds.movement],
-    ["Sportsbook ML", game.odds.moneyline, "American price"],
+    ["Sportsbook Spread", spread.value, spread.note],
+    ["Sportsbook Total", total.value, total.note],
+    ["Sportsbook ML", moneyline.value, moneyline.note],
   ];
   return `
     <div class="markets-grid">
@@ -1170,6 +1183,7 @@ function renderSelectedOdds(game) {
         )
         .join("")}
       ${renderPolymarketCard(game)}
+      ${renderKalshiCard(game)}
     </div>
     ${renderBookComparison(game)}
   `;
@@ -1208,9 +1222,21 @@ const BOOK_LINKS = {
   lowvig: "https://www.lowvig.ag",
 };
 
+function brandChipHtml(mark, color, domain) {
+  const logo = domain
+    ? `<img class="mark-img" src="https://www.google.com/s2/favicons?domain=${escapeAttribute(domain)}&sz=64" alt="" loading="lazy" onerror="this.remove()">`
+    : "";
+  return `<span class="book-chip" style="--book-color:${color}">${escapeHtml(mark)}${logo}</span>`;
+}
+
+function bookDomain(key) {
+  const link = BOOK_LINKS[key];
+  return link ? link.replace(/^https:\/\/(www\.)?/, "").split("/")[0] : null;
+}
+
 function bookChip(book) {
   const brand = BOOK_BRANDS[book.key] || { mark: book.title.slice(0, 3).toUpperCase(), color: "#11100d" };
-  const chip = `<span class="book-chip" style="--book-color:${brand.color}">${escapeHtml(brand.mark)}</span>`;
+  const chip = brandChipHtml(brand.mark, brand.color, bookDomain(book.key));
   const link = BOOK_LINKS[book.key];
   const name = link
     ? `<a class="book-link" href="${escapeAttribute(link)}" target="_blank" rel="noopener noreferrer sponsored"><strong>${escapeHtml(book.title)}</strong></a>`
@@ -1259,6 +1285,10 @@ function lineMoveHtml(event, marketType) {
   return `<span class="line-move ${move.dir}" title="Line movement">${move.dir === "up" ? "▲" : "▼"}</span>`;
 }
 
+function predictionKicker(name, domain) {
+  return `<span class="pred-kicker">${brandChipHtml(name.slice(0, 2).toUpperCase(), "#11100d", domain)}${escapeHtml(name)}</span>`;
+}
+
 function renderPolymarketCard(game) {
   if (game.polymarket?.outcomes?.length) {
     const outcomes = game.polymarket.outcomes
@@ -1267,19 +1297,9 @@ function renderPolymarketCard(game) {
     const status = game.polymarket.closed ? "Closed" : game.polymarket.acceptingOrders ? "Trading" : "Open";
     return `
       <article class="market-card prediction-card">
-        <span>Polymarket ML</span>
+        ${predictionKicker("Polymarket", "polymarket.com")}
         <strong>${outcomes}</strong>
         <small>${status} | Vol ${formatCompactNumber(game.polymarket.volume)} | <a href="${escapeHtml(game.polymarket.url)}" target="_blank" rel="noreferrer">Market</a></small>
-      </article>
-    `;
-  }
-
-  if (game.polymarketStatus === "loading") {
-    return `
-      <article class="market-card prediction-card">
-        <span>Polymarket ML</span>
-        <strong>Loading</strong>
-        <small>Searching matching prediction market</small>
       </article>
     `;
   }
@@ -1287,20 +1307,77 @@ function renderPolymarketCard(game) {
   if (game.polymarketStatus === "error") {
     return `
       <article class="market-card prediction-card">
-        <span>Polymarket ML</span>
+        ${predictionKicker("Polymarket", "polymarket.com")}
         <strong>No Match</strong>
-        <small>No matching market found for this game</small>
+        <small>No market listed for this matchup</small>
       </article>
     `;
   }
 
   return `
     <article class="market-card prediction-card">
-      <span>Polymarket ML</span>
-      <strong>Queued</strong>
-      <small>Open this tab to fetch prediction-market pricing</small>
+      ${predictionKicker("Polymarket", "polymarket.com")}
+      <strong>Loading</strong>
+      <small>Checking prediction-market pricing</small>
     </article>
   `;
+}
+
+function renderKalshiCard(game) {
+  if (game.kalshi?.outcomes?.length) {
+    const outcomes = game.kalshi.outcomes
+      .map((outcome) => `${escapeHtml(teamAbbr(outcome.name))} ${outcome.percent ?? "-"}%`)
+      .join(" | ");
+    return `
+      <article class="market-card prediction-card">
+        ${predictionKicker("Kalshi", "kalshi.com")}
+        <strong>${outcomes}</strong>
+        <small>Trading | <a href="${escapeHtml(game.kalshi.url)}" target="_blank" rel="noreferrer">Market</a></small>
+      </article>
+    `;
+  }
+
+  if (game.kalshiStatus === "error") {
+    return `
+      <article class="market-card prediction-card">
+        ${predictionKicker("Kalshi", "kalshi.com")}
+        <strong>No Match</strong>
+        <small>No market listed for this matchup</small>
+      </article>
+    `;
+  }
+
+  return `
+    <article class="market-card prediction-card">
+      ${predictionKicker("Kalshi", "kalshi.com")}
+      <strong>Loading</strong>
+      <small>Checking prediction-market pricing</small>
+    </article>
+  `;
+}
+
+async function loadProviderKalshi(game) {
+  game.kalshiStatus = "loading";
+
+  const url = new URL("/api/kalshi", window.location.origin);
+  url.searchParams.set("league", game.league);
+  url.searchParams.set("homeTeam", game.home.name);
+  url.searchParams.set("awayTeam", game.away.name);
+
+  try {
+    const response = await fetch(url, { headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error(`Kalshi request failed: ${response.status}`);
+    const payload = await response.json();
+    if (!payload.market?.outcomes?.length) throw new Error("No matching Kalshi market");
+    game.kalshi = payload.market;
+    game.kalshiStatus = "loaded";
+  } catch {
+    game.kalshiStatus = "error";
+  }
+
+  if (selectedGame().id === game.id && state.detailTab === "odds") {
+    renderDetailPanel();
+  }
 }
 
 function activePicks() {

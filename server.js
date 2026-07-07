@@ -10,6 +10,7 @@ const news = require("./providers/news");
 const logos = require("./providers/logos");
 const linescores = require("./providers/linescores");
 const headshots = require("./providers/headshots");
+const kalshi = require("./providers/kalshi");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -1136,6 +1137,26 @@ const server = http.createServer(async (req, res) => {
 
   if (reqUrl.pathname === "/api/polymarket") {
     await proxyPolymarket(reqUrl, res);
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/kalshi") {
+    const league = (reqUrl.searchParams.get("league") || "").toUpperCase();
+    const homeTeam = reqUrl.searchParams.get("homeTeam") || "";
+    const awayTeam = reqUrl.searchParams.get("awayTeam") || "";
+    if (!homeTeam || !awayTeam) {
+      sendJson(res, 400, { error: "homeTeam and awayTeam are required.", market: null });
+      return;
+    }
+    try {
+      const result = await kalshi.findMarket({ league, homeTeam, awayTeam });
+      sendJson(res, 200, {
+        market: result.market,
+        meta: { provider: "Kalshi public API", fetchedAt: new Date().toISOString(), errors: result.errors },
+      });
+    } catch (error) {
+      sendJson(res, 200, { market: null, meta: { errors: [{ message: error.message }] } });
+    }
     return;
   }
 
