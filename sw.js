@@ -1,4 +1,4 @@
-const CACHE_VERSION = "nosebleed-static-v4";
+const CACHE_VERSION = "nosebleed-static-v5";
 const STATIC_ASSETS = [
   "/",
   "/index.html",

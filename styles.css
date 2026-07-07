@@ -1,36 +1,45 @@
 :root {
+  /* Design tokens extracted from nosebleedsportsmedia.com */
   color-scheme: light;
-  --ink: #111111;
-  --muted: #666b73;
-  --subtle: #8d9299;
-  --line: #dedede;
-  --line-strong: #c9c9c9;
-  --surface: #ffffff;
-  --surface-soft: #f7f7f7;
-  --canvas: #f1f1f1;
-  --black: #000000;
-  --black-soft: #171717;
-  --red: #b11226;
-  --red-dark: #7d0c19;
-  --red-soft: #fff0f2;
-  --league-accent: #b11226;
-  --green: #0b7b58;
-  --amber: #b46300;
-  --blue: #2c67a8;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
-  font-family: Arial, Helvetica, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+  --paper: #f7f2e8;
+  --paper-strong: #fffaf1;
+  --ink: #11100d;
+  --muted: #5d5850;
+  --subtle: #8f887e;
+  --line: #ded7ca;
+  --line-strong: #cfc5b6;
+  --surface: #fffaf1;
+  --surface-soft: #efe6d7;
+  --canvas: #f7f2e8;
+  --black: #11100d;
+  --black-soft: #201e19;
+  --red: #b11318;
+  --red-dark: #8f0f14;
+  --red-soft: #f7e5e2;
+  --league-accent: #b11318;
+  --green: #0b6b4f;
+  --amber: #a46634;
+  --blue: #1e3a5f;
+  --shadow: 0 1px 2px rgba(17, 16, 13, 0.06);
+  --font-body: "Inter", Arial, Helvetica, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --font-display: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  font-family: var(--font-body);
 }
 
 .pill-delayed {
   justify-self: start;
   margin: 0 14px 2px;
   padding: 6px 10px;
-  border-radius: 999px;
-  background: #fff4e6;
-  color: #8a4b00;
-  font-size: 0.72rem;
-  font-weight: 900;
+  border: 1px solid var(--red);
+  border-radius: 3px;
+  background: var(--red-soft);
+  color: var(--red-dark);
+  font-family: var(--font-display);
+  font-size: 0.76rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -61,7 +70,7 @@
   min-height: 36px;
   overflow: hidden;
   border-radius: 7px;
-  background: linear-gradient(90deg, #eeeeee 0%, #f8f8f8 45%, #eeeeee 90%);
+  background: linear-gradient(90deg, #efe6d7 0%, #f8f3e9 45%, #efe6d7 90%);
   background-size: 220% 100%;
   animation: shimmer 1.25s linear infinite;
 }
@@ -78,7 +87,7 @@
   padding: 10px 12px;
   border: 1px solid var(--line);
   border-radius: 7px;
-  background: #fafafa;
+  background: var(--surface-soft);
 }
 
 .pick-record strong {
@@ -143,12 +152,12 @@
 }
 
 .score-row.final .winner {
-  color: #000;
+  color: var(--ink);
   font-weight: 900;
 }
 
 .score-row.final .loser {
-  color: #8a8f96;
+  color: var(--subtle);
   font-weight: 800;
 }
 
@@ -193,9 +202,9 @@ button {
   align-items: center;
   min-height: 58px;
   padding: 0 clamp(14px, 3vw, 28px);
-  background: var(--black);
-  color: #fff;
-  border-bottom: 1px solid #202020;
+  background: var(--paper-strong);
+  color: var(--ink);
+  border-bottom: 1px solid var(--line-strong);
 }
 
 .brand {
@@ -203,7 +212,7 @@ button {
   align-items: center;
   gap: 10px;
   min-width: 190px;
-  color: #fff;
+  color: var(--ink);
   text-decoration: none;
 }
 
@@ -221,23 +230,30 @@ button {
 }
 
 .brand strong {
-  font-size: 0.95rem;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .brand small {
-  color: #b8b8b8;
+  color: var(--red);
+  font-family: var(--font-display);
   font-size: 0.72rem;
-  font-weight: 800;
+  font-weight: 400;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .topbar-title {
   display: none;
-  color: #fff;
-  font-size: 1.05rem;
-  font-weight: 900;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -271,16 +287,18 @@ button {
 .nav-pill {
   height: 58px;
   padding: 0 16px;
-  color: #c8c8c8;
-  font-size: 0.84rem;
-  font-weight: 800;
+  color: var(--muted);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   border-bottom: 3px solid transparent;
 }
 
 .nav-pill:hover,
 .nav-pill.is-active {
-  color: #fff;
+  color: var(--ink);
   border-bottom-color: var(--red);
 }
 
@@ -293,43 +311,52 @@ button {
 .follow-button {
   min-height: 34px;
   padding: 7px 12px;
-  border: 1px solid var(--line-strong);
-  border-radius: 999px;
-  background: #fff;
+  border: 1px solid var(--ink);
+  border-radius: 3px;
+  background: var(--paper-strong);
   color: var(--ink);
-  font-size: 0.82rem;
-  font-weight: 800;
+  font-family: var(--font-display);
+  font-size: 0.84rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .topbar .ghost-button {
-  border-color: #3a3a3a;
-  background: #151515;
-  color: #fff;
+  border-color: var(--ink);
+  background: transparent;
+  color: var(--ink);
 }
 
 .ghost-button:hover,
 .follow-button:hover,
 .league-tab:hover,
 .detail-tab:hover {
-  background: #f4f4f4;
+  background: var(--surface-soft);
+}
+
+.ghost-button:hover,
+.follow-button:hover {
+  border-color: var(--red);
+  color: var(--red);
 }
 
 .topbar .ghost-button:hover {
-  background: #232323;
+  background: var(--surface-soft);
 }
 
 .follow-button.is-following {
   border-color: var(--red);
   background: var(--red);
-  color: #fff;
+  color: var(--paper-strong);
 }
 
 .profile-button {
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: #fff;
-  color: var(--black);
+  background: var(--ink);
+  color: var(--paper-strong);
   font-size: 0.78rem;
   font-weight: 900;
 }
@@ -340,12 +367,14 @@ button {
   gap: 7px;
   min-height: 34px;
   padding: 7px 10px;
-  border: 1px solid #333;
-  border-radius: 999px;
-  background: #111;
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 900;
+  border: 1px solid var(--line-strong);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -403,11 +432,14 @@ button {
   min-height: 38px;
   padding: 6px 14px 6px 8px;
   border: 1px solid var(--line-strong);
-  border-radius: 999px;
-  background: #fff;
-  color: #333;
-  font-size: 0.86rem;
-  font-weight: 900;
+  border-radius: 4px;
+  background: var(--paper-strong);
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
@@ -426,14 +458,14 @@ button {
 }
 
 .league-tab.is-active {
-  border-color: var(--black);
-  background: var(--black);
-  color: #fff;
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--paper-strong);
 }
 
 .league-tab.is-active .league-tab-icon {
-  background: #fff;
-  color: var(--black);
+  background: var(--paper-strong);
+  color: var(--ink);
 }
 
 .score-strip {
@@ -489,16 +521,22 @@ button {
 .score-section-head h2,
 .section-head h2 {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-size: 1.08rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .score-section-head button {
   border: 0;
   background: transparent;
-  color: #444;
-  font-size: 0.82rem;
-  font-weight: 800;
+  color: var(--red);
+  font-family: var(--font-display);
+  font-size: 0.84rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .score-list {
@@ -516,14 +554,14 @@ button {
   border-top: 1px solid var(--line);
   border-left: 3px solid transparent;
   border-radius: 0;
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
   text-align: left;
 }
 
 .score-card:hover,
 .score-card.is-selected {
-  background: #fafafa;
+  background: var(--paper);
   border-left-color: var(--red);
 }
 
@@ -539,13 +577,13 @@ button {
   align-items: center;
   gap: 10px;
   min-height: 30px;
-  color: #787878;
+  color: var(--muted);
 }
 
 .score-row.is-winner,
 .score-row.is-winner .team-label,
 .score-row.is-winner .score-value {
-  color: #000;
+  color: var(--ink);
   font-weight: 900;
 }
 
@@ -556,7 +594,7 @@ button {
   width: 28px;
   height: 28px;
   border-radius: 5px;
-  background: var(--team-color, #333);
+  background: var(--team-color, #201e19);
   color: #fff;
   font-size: 0.62rem;
   font-weight: 900;
@@ -572,9 +610,10 @@ button {
 }
 
 .score-value {
-  color: #555;
+  color: var(--ink);
   font-size: 1.15rem;
   font-weight: 900;
+  font-variant-numeric: tabular-nums;
 }
 
 .score-game-meta {
@@ -611,14 +650,14 @@ button {
 
 .score-status.final,
 .status-chip.final {
-  background: #eeeeee;
-  color: #333;
+  background: var(--surface-soft);
+  color: var(--muted);
 }
 
 .score-status.soon,
 .status-chip.soon {
-  background: #eaf1f8;
-  color: #174f8f;
+  background: #e9edf3;
+  color: var(--blue);
 }
 
 .score-action {
@@ -628,11 +667,14 @@ button {
   min-width: 92px;
   min-height: 30px;
   padding: 5px 12px;
-  border: 1px solid var(--blue);
-  border-radius: 999px;
-  color: var(--blue);
-  font-size: 0.82rem;
-  font-weight: 800;
+  border: 1px solid var(--ink);
+  border-radius: 3px;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-size: 0.84rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .workspace {
@@ -676,8 +718,10 @@ button {
   display: block;
   margin-bottom: 4px;
   color: var(--red);
-  font-size: 0.7rem;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -700,7 +744,7 @@ button {
   padding: 8px 2px;
   border: 0;
   border-bottom: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
   font-weight: 800;
   text-align: left;
@@ -723,7 +767,7 @@ button {
 .heat-card {
   border: 1px solid var(--line);
   border-radius: 7px;
-  background: #fff;
+  background: var(--surface);
 }
 
 .watch-item,
@@ -763,9 +807,12 @@ button {
 
 .live-header h1 {
   margin: 0;
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
   line-height: 1.12;
+  text-transform: uppercase;
 }
 
 .matchup-grid {
@@ -784,7 +831,7 @@ button {
   min-height: 0;
   padding: 8px;
   border: 0;
-  background: #fff;
+  background: var(--surface);
   text-align: center;
 }
 
@@ -826,10 +873,12 @@ button {
 
 .team-score {
   margin-top: 12px;
-  color: #111;
+  color: var(--ink);
+  font-family: var(--font-display);
   font-size: 3.7rem;
-  font-weight: 900;
+  font-weight: 400;
   line-height: 0.95;
+  font-variant-numeric: tabular-nums;
 }
 
 .leader-list {
@@ -856,7 +905,7 @@ button {
   gap: 12px;
   min-width: 0;
   padding: 8px 4px;
-  background: #fff;
+  background: var(--surface);
   color: var(--ink);
   text-align: center;
 }
@@ -899,7 +948,7 @@ button {
   height: 8px;
   overflow: hidden;
   border-radius: 999px;
-  background: #ededed;
+  background: #eee6da;
 }
 
 .probability-bar span {
@@ -926,7 +975,7 @@ button {
   min-height: 62px;
   padding: 10px;
   border-top: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface);
 }
 
 .meta-item strong {
@@ -940,7 +989,7 @@ button {
   overflow-x: auto;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background: #fff;
+  background: var(--surface);
 }
 
 .detail-tab {
@@ -948,8 +997,11 @@ button {
   padding: 10px 14px;
   border-bottom: 3px solid transparent;
   color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 900;
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .detail-tab.is-active {
@@ -999,7 +1051,7 @@ button {
   min-width: 62px;
   padding: 5px 8px;
   border-radius: 999px;
-  background: #ecf7f2;
+  background: #e8efe2;
   color: var(--green);
   font-size: 0.74rem;
   font-weight: 900;
@@ -1026,7 +1078,7 @@ table {
   width: 100%;
   min-width: 560px;
   border-collapse: collapse;
-  background: #fff;
+  background: var(--surface);
 }
 
 th,
@@ -1043,8 +1095,8 @@ td:first-child {
 }
 
 thead th {
-  color: #333;
-  background: #f3f3f3;
+  color: var(--muted);
+  background: var(--surface-soft);
   font-size: 0.72rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -1076,7 +1128,7 @@ tbody tr:last-child td {
   padding: 12px;
   border: 1px solid var(--line);
   border-radius: 7px;
-  background: #fff;
+  background: var(--surface);
 }
 
 .market-card span,
@@ -1106,8 +1158,8 @@ tbody tr:last-child td {
 }
 
 .prediction-card {
-  border-color: #b9c9dd;
-  background: #f7fbff;
+  border-color: #c9d2de;
+  background: #eef1f5;
 }
 
 .news-section {
@@ -1150,7 +1202,7 @@ tbody tr:last-child td {
   width: 14px;
   height: 2px;
   border-radius: 2px;
-  background: #9a9a9a;
+  background: var(--line-strong);
 }
 
 .headline-mark::before {
@@ -1163,9 +1215,10 @@ tbody tr:last-child td {
 
 .headline-row h3 {
   margin: 0;
-  font-size: 1.03rem;
-  font-weight: 900;
-  line-height: 1.25;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
 .headline-row p {
@@ -1179,12 +1232,12 @@ tbody tr:last-child td {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 7px;
-  background: #fff;
+  background: var(--surface);
 }
 
 .news-thumb {
   min-height: 120px;
-  background: #d8d8d8;
+  background: #e5dccb;
 }
 
 .news-body {
@@ -1224,17 +1277,17 @@ tbody tr:last-child td {
 }
 
 .market-chip {
-  background: #eef5fd;
+  background: #e9edf3;
   color: var(--blue);
 }
 
 .movement.up {
-  background: #eaf6ef;
+  background: #e8efe2;
   color: var(--green);
 }
 
 .movement.down {
-  background: #fff4e6;
+  background: #f3e4d7;
   color: var(--amber);
 }
 
@@ -1270,7 +1323,7 @@ tbody tr:last-child td {
   height: 8px;
   overflow: hidden;
   border-radius: 999px;
-  background: #edf1f4;
+  background: #eee6da;
 }
 
 .confidence span {
@@ -1281,7 +1334,7 @@ tbody tr:last-child td {
 
 .record-pill,
 .count-pill {
-  background: #f0f0f0;
+  background: var(--surface-soft);
   color: var(--muted);
 }
 
@@ -1294,7 +1347,7 @@ tbody tr:last-child td {
   height: 8px;
   overflow: hidden;
   border-radius: 999px;
-  background: #edf1f4;
+  background: #eee6da;
 }
 
 .heat-meter span {
@@ -1311,9 +1364,9 @@ tbody tr:last-child td {
   max-width: min(340px, calc(100vw - 36px));
   padding: 12px 14px;
   border-radius: 8px;
-  background: var(--black);
-  color: #fff;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  background: var(--ink);
+  color: var(--paper-strong);
+  box-shadow: 0 8px 24px rgba(17, 16, 13, 0.22);
   opacity: 0;
   transform: translateY(12px);
   transition:
@@ -1338,8 +1391,8 @@ tbody tr:last-child td {
   height: 66px;
   padding: 6px 8px 7px;
   border-top: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.98);
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+  background: rgba(255, 250, 241, 0.98);
+  box-shadow: 0 -2px 10px rgba(17, 16, 13, 0.08);
 }
 
 .bottom-nav,
@@ -1353,14 +1406,14 @@ tbody tr:last-child td {
   align-content: center;
   gap: 4px;
   min-width: 58px;
-  color: #8b8f96;
+  color: var(--subtle);
   font-size: 0.7rem;
   font-weight: 800;
 }
 
 .mobile-nav button.is-active,
 .mobile-nav button:hover {
-  color: #111;
+  color: var(--ink);
 }
 
 .nav-icon {
@@ -1543,7 +1596,7 @@ tbody tr:last-child td {
 
   .league-tabs {
     padding: 10px 12px;
-    background: #fff;
+    background: var(--surface);
     border-bottom: 1px solid var(--line);
   }
 
@@ -1711,6 +1764,6 @@ tbody tr:last-child td {
   object-fit: contain;
   padding: 2px;
   box-sizing: border-box;
-  background: #fff;
+  background: var(--surface);
   border-radius: inherit;
 }

@@ -5,39 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
     <title>Nosebleed Admin — Picks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+    />
     <style>
       :root {
-        --bg: #0d0d0f;
-        --panel: #17171b;
-        --panel-soft: #1f1f25;
-        --line: #2c2c34;
-        --ink: #f2f2f4;
-        --muted: #9a9aa4;
-        --red: #b11226;
-        --green: #1fa971;
-        --amber: #d98a1f;
-        font-family: Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
+        --bg: #f7f2e8;
+        --panel: #fffaf1;
+        --panel-soft: #efe6d7;
+        --line: #ded7ca;
+        --ink: #11100d;
+        --muted: #5d5850;
+        --red: #b11318;
+        --green: #0b6b4f;
+        --amber: #a46634;
+        --font-display: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        font-family: "Inter", Arial, Helvetica, ui-sans-serif, system-ui, sans-serif;
       }
       * { box-sizing: border-box; }
       body { margin: 0; background: var(--bg); color: var(--ink); }
       header {
         position: sticky; top: 0; z-index: 5;
         display: flex; align-items: center; gap: 10px;
-        padding: 14px 16px; background: #000; border-bottom: 2px solid var(--red);
+        padding: 14px 16px; background: var(--panel); border-bottom: 2px solid var(--red);
       }
-      header h1 { margin: 0; font-size: 1rem; letter-spacing: 0.04em; text-transform: uppercase; }
-      header .tag { font-size: 0.7rem; color: var(--muted); margin-left: auto; }
+      header h1 { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: 1.1rem; letter-spacing: 0.04em; text-transform: uppercase; }
+      header .tag { font-family: var(--font-display); font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--red); margin-left: auto; }
       main { max-width: 760px; margin: 0 auto; padding: 16px; }
       .notice {
-        display: none; margin: 0 0 14px; padding: 10px 12px; border-radius: 8px;
-        background: #3a1215; border: 1px solid var(--red); font-size: 0.85rem;
+        display: none; margin: 0 0 14px; padding: 10px 12px; border-radius: 6px;
+        background: #f7e5e2; border: 1px solid var(--red); color: #8f0f14; font-size: 0.85rem;
       }
       .notice.is-visible { display: block; }
       form {
         background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
         padding: 14px; margin-bottom: 18px;
       }
-      form h2 { margin: 0 0 12px; font-size: 0.85rem; text-transform: uppercase; color: var(--muted); }
+      form h2 { margin: 0 0 12px; font-family: var(--font-display); font-weight: 400; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--red); }
       .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
       .grid .full { grid-column: 1 / -1; }
       label { display: block; font-size: 0.72rem; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
@@ -48,11 +55,15 @@
       textarea { min-height: 64px; resize: vertical; }
       .actions { display: flex; gap: 10px; margin-top: 12px; }
       button {
-        padding: 10px 16px; border: 0; border-radius: 8px; font-weight: 700; cursor: pointer;
-        background: var(--red); color: #fff; font-size: 0.85rem;
+        padding: 10px 16px; border: 0; border-radius: 3px; cursor: pointer;
+        background: var(--ink); color: var(--panel); font-family: var(--font-display); font-weight: 400;
+        letter-spacing: 0.04em; text-transform: uppercase; font-size: 0.9rem;
       }
-      button.secondary { background: var(--panel-soft); color: var(--ink); border: 1px solid var(--line); }
-      button.danger { background: transparent; color: #e05a6a; border: 1px solid #5a2229; }
+      button:hover { background: var(--red); }
+      button.secondary { background: var(--panel); color: var(--ink); border: 1px solid var(--ink); }
+      button.secondary:hover { background: var(--panel-soft); color: var(--red); border-color: var(--red); }
+      button.danger { background: transparent; color: var(--red); border: 1px solid var(--red); }
+      button.danger:hover { background: #f7e5e2; }
       .pick-card {
         background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
         padding: 12px 14px; margin-bottom: 10px;
@@ -63,11 +74,11 @@
         font-size: 0.66rem; font-weight: 800; text-transform: uppercase;
         padding: 3px 8px; border-radius: 999px; background: var(--panel-soft); color: var(--muted);
       }
-      .badge.status-won { background: #113325; color: var(--green); }
-      .badge.status-lost { background: #3a1215; color: #e05a6a; }
-      .badge.status-push { background: #33270f; color: var(--amber); }
+      .badge.status-won { background: #e8efe2; color: var(--green); }
+      .badge.status-lost { background: #f7e5e2; color: var(--red); }
+      .badge.status-push { background: #f3e4d7; color: var(--amber); }
       .pick-meta { color: var(--muted); font-size: 0.78rem; margin: 6px 0; }
-      .pick-rationale { font-size: 0.84rem; color: #cfcfd6; margin: 4px 0 10px; }
+      .pick-rationale { font-size: 0.84rem; color: var(--muted); margin: 4px 0 10px; }
       .pick-actions { display: flex; gap: 8px; }
       .pick-actions button { padding: 7px 12px; font-size: 0.78rem; }
       .empty { color: var(--muted); text-align: center; padding: 30px 0; font-size: 0.9rem; }
