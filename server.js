@@ -8,6 +8,7 @@ const snapshots = require("./lib/snapshots");
 const picks = require("./providers/picks");
 const news = require("./providers/news");
 const logos = require("./providers/logos");
+const linescores = require("./providers/linescores");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -1023,6 +1024,15 @@ const server = http.createServer(async (req, res) => {
         fetchedAt: new Date().toISOString(),
       },
     });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/linescores") {
+    try {
+      sendJson(res, 200, await linescores.getLineScores());
+    } catch (error) {
+      sendJson(res, 200, { games: [], meta: { provider: "ESPN public scoreboards", errors: [{ message: error.message }] } });
+    }
     return;
   }
 

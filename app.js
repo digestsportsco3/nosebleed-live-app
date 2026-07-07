@@ -8,6 +8,7 @@ const API_CONFIG = {
   news: "/api/news",
   leagues: "/api/leagues",
   logos: "/api/logos",
+  linescores: "/api/linescores",
 };
 
 let leagues = ["All", "MLB", "NBA", "NFL", "NHL", "WNBA"];
@@ -541,6 +542,7 @@ const state = {
   picksRecord: null,
   newsItems: [],
   logos: null,
+  lineScores: [],
   pulse: 0,
 };
 
@@ -582,9 +584,10 @@ function statusClass(game) {
 }
 
 function getPeriods(game) {
-  if (game.league === "MLB") return ["1", "2", "3", "4", "5", "6", "7", "8", "9"];
-  if (game.league === "NHL") return ["1", "2", "3", "OT"];
-  return ["1", "2", "3", "4"];
+  if (game.league === "MLB") return ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+  if (game.league === "NHL") return ["1", "2", "3", "OT", "SO"];
+  if (game.league === "SOCCER") return ["1H", "2H", "ET"];
+  return ["1", "2", "3", "4", "OT", "2OT"];
 }
 
 function leagueLabel(league) {
@@ -1532,17 +1535,26 @@ function matchupWord(league) {
 
 function scoreGameToUiGame(scoreGame) {
   const matchingOdds = findOddsForScore(scoreGame);
-  const awayScore = getTeamScore(scoreGame, scoreGame.awayTeam);
-  const homeScore = getTeamScore(scoreGame, scoreGame.homeTeam);
-  const hasScore = awayScore !== null || homeScore !== null;
+  const lineScore = findLineScore(scoreGame);
+  let awayScore = getTeamScore(scoreGame, scoreGame.awayTeam);
+  let homeScore = getTeamScore(scoreGame, scoreGame.homeTeam);
   // "Has a score" is not enough: providers send placeholder 0-0 before kickoff,
   // and can lag on live games — the start time decides live vs upcoming.
   const started = hasGameStarted(scoreGame);
   const statusType = scoreGame.completed ? "final" : started ? "live" : "soon";
+
+  // ESPN updates live scores faster than the odds feed - prefer it in-game.
+  if (lineScore && lineScore.state === "in" && !scoreGame.completed) {
+    if (lineScore.awayScore !== null && lineScore.awayScore !== "") awayScore = lineScore.awayScore;
+    if (lineScore.homeScore !== null && lineScore.homeScore !== "") homeScore = lineScore.homeScore;
+  }
+  const hasScore = awayScore !== null || homeScore !== null;
+
   const startTime = formatStartLabel(scoreGame.commenceTime);
   const lastUpdateLabel = scoreGame.lastUpdate ? formatAbsoluteTime(scoreGame.lastUpdate) : "Awaiting update";
+  const liveDetail = started && !scoreGame.completed && lineScore?.state === "in" && lineScore.detail ? lineScore.detail : "";
   const status = scoreGame.completed ? "FINAL" : started ? "LIVE" : startTime;
-  const clock = scoreGame.completed ? "Final" : started ? "Live" : startTime;
+  const clock = scoreGame.completed ? "Final" : started ? liveDetail || "Live" : startTime;
   const total = Number(awayScore || 0) + Number(homeScore || 0);
 
   return {
@@ -1552,7 +1564,7 @@ function scoreGameToUiGame(scoreGame) {
     status,
     statusType,
     clock,
-    venue: matchingOdds?.bookmaker ? `${matchingOdds.bookmaker} market` : "Provider synced",
+    venue: lineScore?.venue || (matchingOdds?.bookmaker ? `${matchingOdds.bookmaker} market` : "Provider synced"),
     headline: `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam}`,
     visual: visualForLeague(scoreGame.league),
     isProviderSynced: true,
@@ -1561,10 +1573,10 @@ function scoreGameToUiGame(scoreGame) {
       abbr: teamLogoEntry(scoreGame.league, scoreGame.awayTeam)?.a || teamAbbr(scoreGame.awayTeam),
       logo: teamLogoEntry(scoreGame.league, scoreGame.awayTeam)?.l || null,
       name: scoreGame.awayTeam,
-      record: scoreGame.completed ? "Final" : started ? "Live" : "Scheduled",
+      record: lineScore?.awayRecord || (scoreGame.completed ? "Final" : started ? "Live" : "Scheduled"),
       score: awayScore ?? "-",
       color: colorForTeam(scoreGame.awayTeam),
-      line: [],
+      line: lineScore?.awayLine || [],
       leaders: [
         ["Score source", "The Odds API"],
         ["Updated", lastUpdateLabel],
@@ -1574,10 +1586,10 @@ function scoreGameToUiGame(scoreGame) {
       abbr: teamLogoEntry(scoreGame.league, scoreGame.homeTeam)?.a || teamAbbr(scoreGame.homeTeam),
       logo: teamLogoEntry(scoreGame.league, scoreGame.homeTeam)?.l || null,
       name: scoreGame.homeTeam,
-      record: scoreGame.completed ? "Final" : started ? "Live" : "Scheduled",
+      record: lineScore?.homeRecord || (scoreGame.completed ? "Final" : started ? "Live" : "Scheduled"),
       score: homeScore ?? "-",
       color: colorForTeam(scoreGame.homeTeam),
-      line: [],
+      line: lineScore?.homeLine || [],
       leaders: [
         ["Score source", "The Odds API"],
         ["Updated", lastUpdateLabel],
@@ -1685,6 +1697,53 @@ function teamLogoEntry(league, teamName) {
 
   teamLogoCache.set(cacheKey, entry);
   return entry;
+}
+
+async function loadLineScores() {
+  try {
+    const response = await fetch(API_CONFIG.linescores, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const payload = await response.json();
+    if (Array.isArray(payload.games) && payload.games.length) {
+      state.lineScores = payload.games;
+    }
+  } catch {
+    /* line scores are an enrichment; games render without them */
+  }
+}
+
+const TEAM_KEY_ALIASES = { usa: "unitedstates", usmnt: "unitedstates", uswnt: "unitedstates" };
+
+function canonicalTeamKey(name) {
+  const key = normalizeTeamKey(name);
+  return TEAM_KEY_ALIASES[key] || key;
+}
+
+function findLineScore(scoreGame) {
+  const awayKey = canonicalTeamKey(scoreGame.awayTeam);
+  const homeKey = canonicalTeamKey(scoreGame.homeTeam);
+  const gameTime = new Date(scoreGame.commenceTime || 0).getTime();
+
+  const exact = [];
+  const fuzzy = [];
+  for (const entry of state.lineScores) {
+    if (entry.league !== scoreGame.league) continue;
+    const entryAway = canonicalTeamKey(entry.awayTeam);
+    const entryHome = canonicalTeamKey(entry.homeTeam);
+    if (entryAway === awayKey && entryHome === homeKey) exact.push(entry);
+    else if (teamKeysOverlap(entryAway, awayKey) && teamKeysOverlap(entryHome, homeKey)) fuzzy.push(entry);
+  }
+
+  // Doubleheaders list the same two teams twice in a day - pick the closest start.
+  const byTime = (a, b) =>
+    Math.abs(new Date(a.startTime || 0).getTime() - gameTime) - Math.abs(new Date(b.startTime || 0).getTime() - gameTime);
+  if (exact.length) return exact.sort(byTime)[0];
+  if (fuzzy.length) return fuzzy.sort(byTime)[0];
+  return null;
+}
+
+function teamKeysOverlap(a, b) {
+  return Boolean(a && b && a.length >= 4 && b.length >= 4 && (a.includes(b) || b.includes(a)));
 }
 
 async function loadLogos() {
@@ -1952,6 +2011,7 @@ async function syncProviderData() {
     loadExternalScores(),
     loadExternalOdds({ render: false }),
     loadNews(),
+    loadLineScores(),
   ]);
   await loadPicksData();
   rebuildSyncedGames();
