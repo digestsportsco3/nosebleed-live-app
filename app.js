@@ -518,13 +518,6 @@ const picks = [
   },
 ];
 
-const heat = [
-  ["Yankees", "Deadline anxiety", 82],
-  ["Nets", "Contract debate", 74],
-  ["Liberty", "Title pace", 68],
-  ["Eagles", "Public side", 62],
-];
-
 const state = {
   league: "All",
   selectedGameId: "mlb-nyy-bos",
@@ -869,6 +862,35 @@ function renderDetailPanel() {
     return;
   }
 
+  if (game.isProviderSynced) {
+    const plays = game.providerBoxscore?.plays || [];
+    if (plays.length) {
+      panel.innerHTML = `
+        <div class="gamecast-list">
+          ${plays
+            .map(
+              (play) => `
+                <article class="play-item">
+                  <span class="play-time">${escapeHtml(play.clock || play.period || "—")}</span>
+                  <div class="play-body">
+                    <strong>${escapeHtml(play.period || play.type || "Play")}</strong>
+                    <span>${escapeHtml(play.text)}</span>
+                  </div>
+                  <span class="impact-badge">${play.scoring ? `SCORE ${escapeHtml(play.score)}` : escapeHtml(play.score || "Play")}</span>
+                </article>
+              `,
+            )
+            .join("")}
+        </div>
+      `;
+      return;
+    }
+
+    if (!game.providerBoxscore && game.boxscoreStatus !== "loading" && game.boxscoreStatus !== "error") {
+      loadProviderBoxscore(game);
+    }
+  }
+
   panel.innerHTML = `
     <div class="gamecast-list">
       ${game.events
@@ -902,11 +924,20 @@ function renderProviderBoxScore(game) {
     `;
   }
 
+  if (game.providerBoxscore && !game.providerBoxscore.teams?.length) {
+    return `
+      <div class="box-grid">
+        ${renderProviderScoreSummary(game)}
+        <p class="empty-state">Player box score isn't available for this matchup yet.</p>
+      </div>
+    `;
+  }
+
   if (game.boxscoreStatus === "loading") {
     return `
       <div class="box-grid">
         ${renderProviderScoreSummary(game)}
-        <p class="empty-state">Loading ESPN player box score...</p>
+        <p class="empty-state">Loading player box score...</p>
       </div>
     `;
   }
@@ -1096,12 +1127,35 @@ const BOOK_BRANDS = {
   bovada: { mark: "BOV", color: "#b3282d" },
   mybookieag: { mark: "MB", color: "#0a2e63" },
   betonlineag: { mark: "BOL", color: "#22354a" },
+  betus: { mark: "BUS", color: "#5f2a83" },
   lowvig: { mark: "LV", color: "#5d5850" },
+};
+
+// Swap these for affiliate/sponsor URLs when deals are in place.
+const BOOK_LINKS = {
+  draftkings: "https://sportsbook.draftkings.com",
+  fanduel: "https://sportsbook.fanduel.com",
+  betmgm: "https://sports.betmgm.com",
+  williamhill_us: "https://sportsbook.caesars.com",
+  caesars: "https://sportsbook.caesars.com",
+  espnbet: "https://espnbet.com",
+  betrivers: "https://betrivers.com",
+  fanatics: "https://sportsbook.fanatics.com",
+  bovada: "https://www.bovada.lv",
+  mybookieag: "https://www.mybookie.ag",
+  betonlineag: "https://www.betonline.ag",
+  betus: "https://www.betus.com.pa",
+  lowvig: "https://www.lowvig.ag",
 };
 
 function bookChip(book) {
   const brand = BOOK_BRANDS[book.key] || { mark: book.title.slice(0, 3).toUpperCase(), color: "#11100d" };
-  return `<span class="book-chip" style="--book-color:${brand.color}">${escapeHtml(brand.mark)}</span><strong>${escapeHtml(book.title)}</strong>`;
+  const chip = `<span class="book-chip" style="--book-color:${brand.color}">${escapeHtml(brand.mark)}</span>`;
+  const link = BOOK_LINKS[book.key];
+  const name = link
+    ? `<a class="book-link" href="${escapeAttribute(link)}" target="_blank" rel="noopener noreferrer sponsored"><strong>${escapeHtml(book.title)}</strong></a>`
+    : `<strong>${escapeHtml(book.title)}</strong>`;
+  return chip + name;
 }
 
 function renderBookComparison(game) {
@@ -1422,43 +1476,6 @@ function renderWatchList() {
     : `<p class="empty-state">Follow a matchup to keep it here.</p>`;
 }
 
-function renderAlerts() {
-  const liveCount = activeGames().filter((game) => game.statusType === "live").length;
-  $("#alertList").innerHTML = [
-    ["Live games", `${liveCount} active`],
-    ["Biggest odds move", "Total up in DAL-PHI"],
-    ["New story", "Liberty-Aces notebook"],
-  ]
-    .map(
-      ([title, detail]) => `
-        <article class="alert-item">
-          <strong>${title}</strong>
-          <small>${detail}</small>
-        </article>
-      `,
-    )
-    .join("");
-}
-
-function renderHeat() {
-  $("#heatList").innerHTML = heat
-    .map(
-      ([team, label, score]) => `
-        <article class="heat-card">
-          <div class="heat-row">
-            <strong>${team}</strong>
-            <span>${score}</span>
-          </div>
-          <small>${label}</small>
-          <div class="heat-meter" aria-label="${team} fan heat ${score}">
-            <span style="width:${score}%"></span>
-          </div>
-        </article>
-      `,
-    )
-    .join("");
-}
-
 function renderAll() {
   renderLeagueTabs();
   renderScoreStrip();
@@ -1469,8 +1486,6 @@ function renderAll() {
   renderOddsBoard();
   renderPicks();
   renderWatchList();
-  renderAlerts();
-  renderHeat();
 }
 
 function setLeague(league) {
@@ -1960,7 +1975,9 @@ async function loadProviderBoxscore(game) {
     if (!response.ok) throw new Error(`Box score request failed: ${response.status}`);
 
     const payload = await response.json();
-    if (!payload.boxscore?.teams?.length) throw new Error("No player box score rows returned");
+    if (!payload.boxscore?.teams?.length && !payload.boxscore?.plays?.length) {
+      throw new Error("No player box score rows returned");
+    }
 
     game.providerBoxscore = payload.boxscore;
     game.boxscoreStatus = "loaded";
@@ -1968,7 +1985,7 @@ async function loadProviderBoxscore(game) {
     game.boxscoreStatus = "error";
   }
 
-  if (selectedGame().id === game.id && state.detailTab === "box") {
+  if (selectedGame().id === game.id && ["box", "gamecast"].includes(state.detailTab)) {
     renderDetailPanel();
   }
 }

@@ -660,6 +660,7 @@ function normalizeEspnSummary(summary, league, eventId) {
     name: summary.header?.name || summary.header?.shortName || "",
     status: event.status?.type?.description || summary.header?.competitions?.[0]?.status?.type?.description || "",
     source: "ESPN undocumented JSON",
+    plays: normalizeEspnPlays(summary.plays),
     teams: (boxscore.players || []).map((teamEntry) => ({
       team: teamEntry.team?.displayName || teamEntry.team?.name || "Team",
       abbreviation: teamEntry.team?.abbreviation || "",
@@ -668,6 +669,30 @@ function normalizeEspnSummary(summary, league, eventId) {
         .map((group, index) => normalizeEspnStatGroup(group, league, index)),
     })),
   };
+}
+
+function normalizeEspnPlays(plays) {
+  return (Array.isArray(plays) ? plays : [])
+    .filter((play) => {
+      const text = String(play.text || "").trim();
+      if (!text) return false;
+      // Skip pitch-by-pitch noise; keep at-bat results and scoring plays.
+      if (/^Pitch \d+\s*:/.test(text)) return false;
+      return true;
+    })
+    .slice(-14)
+    .reverse()
+    .map((play) => ({
+      text: play.text,
+      type: play.type?.text || "",
+      period: [play.period?.type, play.period?.displayValue].filter(Boolean).join(" "),
+      clock: play.clock?.displayValue || "",
+      scoring: Boolean(play.scoringPlay),
+      score:
+        play.awayScore !== undefined && play.homeScore !== undefined
+          ? `${play.awayScore}-${play.homeScore}`
+          : "",
+    }));
 }
 
 function normalizeEspnStatGroup(group, league, index) {

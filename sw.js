@@ -1,4 +1,4 @@
-const CACHE_VERSION = "nosebleed-static-v7";
+const CACHE_VERSION = "nosebleed-static-v8";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -6,6 +6,8 @@ const STATIC_ASSETS = [
   "/styles.css",
   "/manifest.json",
   "/assets/nosebleed-sports-logo.png",
+  "/assets/icon-192.png",
+  "/assets/icon-512.png",
 ];
 
 self.addEventListener("install", (event) => {

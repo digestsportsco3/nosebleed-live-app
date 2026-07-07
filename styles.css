@@ -1812,3 +1812,12 @@ tbody tr:last-child td {
   font-size: 0.66rem;
   letter-spacing: 0.05em;
 }
+
+.book-link {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.book-link:hover {
+  color: var(--red);
+}
