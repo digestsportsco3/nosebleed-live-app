@@ -9,6 +9,7 @@ const picks = require("./providers/picks");
 const news = require("./providers/news");
 const logos = require("./providers/logos");
 const linescores = require("./providers/linescores");
+const headshots = require("./providers/headshots");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -1079,6 +1080,15 @@ const server = http.createServer(async (req, res) => {
         fetchedAt: new Date().toISOString(),
       },
     });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/headshots") {
+    try {
+      sendJson(res, 200, await headshots.getHeadshots(), { "cache-control": "public, max-age=3600" });
+    } catch (error) {
+      sendJson(res, 200, { athletes: [], meta: { provider: "ESPN public scoreboards", errors: [{ message: error.message }] } });
+    }
     return;
   }
 

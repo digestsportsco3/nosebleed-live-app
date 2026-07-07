@@ -9,6 +9,7 @@ const API_CONFIG = {
   leagues: "/api/leagues",
   logos: "/api/logos",
   linescores: "/api/linescores",
+  headshots: "/api/headshots",
 };
 
 let leagues = ["All", "MLB", "NBA", "NFL", "NHL", "WNBA"];
@@ -537,6 +538,7 @@ const state = {
   newsItems: [],
   logos: null,
   lineScores: [],
+  headshots: [],
   pulse: 0,
 };
 
@@ -811,7 +813,10 @@ function renderScoreGame(game) {
 
 function teamMarkImg(team) {
   if (!team.logo) return "";
-  return `<img class="mark-img" src="${escapeAttribute(team.logo)}" alt="" loading="lazy" onerror="this.remove()">`;
+  const flagFallback = team.flag
+    ? ` data-flag="${escapeAttribute(team.flag)}" onerror="if(this.dataset.flag){this.src=this.dataset.flag;this.removeAttribute('data-flag')}else{this.remove()}"`
+    : ` onerror="this.remove()"`;
+  return `<img class="mark-img" src="${escapeAttribute(team.logo)}" alt="" loading="lazy"${flagFallback}>`;
 }
 
 function scoreRow(team, winner = false, loser = false, isFinal = false, isLive = false) {
@@ -1694,7 +1699,11 @@ function scoreGameToUiGame(scoreGame) {
     lastUpdateLabel,
     away: {
       abbr: teamLogoEntry(scoreGame.league, scoreGame.awayTeam)?.a || teamAbbr(scoreGame.awayTeam),
-      logo: teamLogoEntry(scoreGame.league, scoreGame.awayTeam)?.l || null,
+      logo:
+        teamLogoEntry(scoreGame.league, scoreGame.awayTeam)?.l ||
+        headshotEntry(scoreGame.league, scoreGame.awayTeam)?.img ||
+        null,
+      flag: headshotEntry(scoreGame.league, scoreGame.awayTeam)?.flag || null,
       name: scoreGame.awayTeam,
       record: lineScore?.awayRecord || (scoreGame.completed ? "Final" : started ? "Live" : "Scheduled"),
       score: awayScore ?? "-",
@@ -1707,7 +1716,11 @@ function scoreGameToUiGame(scoreGame) {
     },
     home: {
       abbr: teamLogoEntry(scoreGame.league, scoreGame.homeTeam)?.a || teamAbbr(scoreGame.homeTeam),
-      logo: teamLogoEntry(scoreGame.league, scoreGame.homeTeam)?.l || null,
+      logo:
+        teamLogoEntry(scoreGame.league, scoreGame.homeTeam)?.l ||
+        headshotEntry(scoreGame.league, scoreGame.homeTeam)?.img ||
+        null,
+      flag: headshotEntry(scoreGame.league, scoreGame.homeTeam)?.flag || null,
       name: scoreGame.homeTeam,
       record: lineScore?.homeRecord || (scoreGame.completed ? "Final" : started ? "Live" : "Scheduled"),
       score: homeScore ?? "-",
@@ -1869,6 +1882,55 @@ function findLineScore(scoreGame) {
 
 function teamKeysOverlap(a, b) {
   return Boolean(a && b && a.length >= 4 && b.length >= 4 && (a.includes(b) || b.includes(a)));
+}
+
+const INDIVIDUAL_LEAGUES = ["TENNIS", "MMA", "BOXING"];
+
+async function loadHeadshots() {
+  try {
+    const response = await fetch(API_CONFIG.headshots, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const payload = await response.json();
+    if (Array.isArray(payload.athletes) && payload.athletes.length) {
+      state.headshots = payload.athletes;
+      rebuildSyncedGames();
+      renderAll();
+    }
+  } catch {
+    /* lettered marks remain as fallback */
+  }
+}
+
+function nameTokens(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z\s]/g, "")
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
+// "Ian Garry" and "Ian Machado Garry" are the same fighter: first and last
+// name agreeing is a solid match for athletes within one sport.
+function sameAthleteName(a, b) {
+  const ta = nameTokens(a);
+  const tb = nameTokens(b);
+  if (ta.length < 2 || tb.length < 2) return false;
+  return ta[0] === tb[0] && ta[ta.length - 1] === tb[tb.length - 1];
+}
+
+function headshotEntry(league, name) {
+  if (!INDIVIDUAL_LEAGUES.includes(league) || !state.headshots.length) return null;
+  const key = normalizeTeamKey(name);
+  return (
+    state.headshots.find((athlete) => athlete.league === league && normalizeTeamKey(athlete.name) === key) ||
+    state.headshots.find(
+      (athlete) => athlete.league === league && teamKeysOverlap(normalizeTeamKey(athlete.name), key),
+    ) ||
+    state.headshots.find((athlete) => athlete.league === league && sameAthleteName(athlete.name, name)) ||
+    null
+  );
 }
 
 async function loadLogos() {
@@ -2206,6 +2268,7 @@ async function boot() {
     year: "numeric",
   });
   loadLogos();
+  loadHeadshots();
   await loadLeagues();
   await loadPicksData();
   renderAll();
