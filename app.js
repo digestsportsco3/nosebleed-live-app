@@ -2107,8 +2107,12 @@ function wireEvents() {
 
     const anchorButton = event.target.closest("[data-anchor]");
     if (anchorButton) {
-      const target = $(`#${anchorButton.dataset.anchor}`);
-      if (target) target.scrollIntoView({ block: "start", behavior: "smooth" });
+      if (anchorButton.dataset.anchor === "top") {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        const target = $(`#${anchorButton.dataset.anchor}`);
+        if (target) target.scrollIntoView({ block: "start", behavior: "smooth" });
+      }
     }
   });
 
