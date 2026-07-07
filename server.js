@@ -741,6 +741,7 @@ function normalizeOddsEvent(event, league) {
     awayTeam: event.away_team,
     bookmaker: bookmaker?.title || "Market",
     bookmakerCount: event.bookmakers?.length || 0,
+    books: normalizeBookLines(event),
     updatedAt: bookmaker?.last_update || null,
     display: {
       spread: awaySpread ? `${formatPoint(awaySpread.point)} (${formatPrice(awaySpread.price)})` : "Spread N/A",
@@ -788,9 +789,38 @@ function normalizeScoreGame(game, league) {
   };
 }
 
+const PREFERRED_BOOKS = ["draftkings", "fanduel", "betmgm", "caesars", "espnbet", "betrivers", "fanatics"];
+
 function pickBookmaker(bookmakers) {
-  const preferred = ["draftkings", "fanduel", "betmgm", "caesars", "espnbet", "betrivers", "fanatics"];
-  return preferred.map((key) => bookmakers.find((book) => book.key === key)).find(Boolean) || bookmakers[0] || null;
+  return PREFERRED_BOOKS.map((key) => bookmakers.find((book) => book.key === key)).find(Boolean) || bookmakers[0] || null;
+}
+
+function bookRank(book) {
+  const index = PREFERRED_BOOKS.indexOf(book.key);
+  return index === -1 ? PREFERRED_BOOKS.length : index;
+}
+
+function normalizeBookLines(event) {
+  return (event.bookmakers || [])
+    .slice()
+    .sort((a, b) => bookRank(a) - bookRank(b))
+    .slice(0, 8)
+    .map((book) => {
+      const h2h = findMarket(book, "h2h");
+      const spreads = findMarket(book, "spreads");
+      const totals = findMarket(book, "totals");
+      const awaySpread = findOutcome(spreads, event.away_team);
+      const totalOver = findOutcome(totals, "Over");
+      const awayH2h = findOutcome(h2h, event.away_team);
+      const homeH2h = findOutcome(h2h, event.home_team);
+      return {
+        key: book.key,
+        title: book.title,
+        spread: awaySpread ? `${formatPoint(awaySpread.point)} (${formatPrice(awaySpread.price)})` : "-",
+        total: totalOver ? `O ${totalOver.point} (${formatPrice(totalOver.price)})` : "-",
+        moneyline: awayH2h && homeH2h ? `${formatPrice(awayH2h.price)} / ${formatPrice(homeH2h.price)}` : "-",
+      };
+    });
 }
 
 function findMarket(bookmaker, key) {

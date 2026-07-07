@@ -894,7 +894,7 @@ function renderProviderBoxScore(game) {
       <div class="box-grid">
         <div class="line-score-head">
           <h3>Player Box Score</h3>
-          <span class="table-note">${escapeHtml(game.providerBoxscore.source)} | ${escapeHtml(game.providerBoxscore.status || game.status)}</span>
+          <span class="table-note">${escapeHtml(game.providerBoxscore.status || game.status)}</span>
         </div>
         ${game.providerBoxscore.teams.map((team) => renderProviderTeamBox(team)).join("")}
       </div>
@@ -914,7 +914,7 @@ function renderProviderBoxScore(game) {
     return `
       <div class="box-grid">
         ${renderProviderScoreSummary(game)}
-        <p class="empty-state">Player box score was unavailable for this matchup. Team score sync is still active.</p>
+        <p class="empty-state">Player box score isn't available for this matchup.</p>
       </div>
     `;
   }
@@ -982,25 +982,6 @@ function renderProviderScoreSummary(game) {
   return `
     <div class="box-grid">
       ${renderLineScore(game)}
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Source</th>
-              <th>Status</th>
-              <th>Last Update</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>The Odds API Scores</strong></td>
-              <td>${game.status}</td>
-              <td>${game.lastUpdateLabel}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="empty-state">Accurate team scores are synced. Player box scores require a dedicated stats provider.</p>
     </div>
   `;
 }
@@ -1014,7 +995,7 @@ function renderLineScore(game) {
         <h3>Line Score</h3>
         <span class="table-note">${game.venue}</span>
       </div>
-      <div class="table-wrap">
+      <div class="table-wrap compact-table">
         <table>
           <thead>
             <tr>
@@ -1077,8 +1058,9 @@ function renderPlayerTable(title, columns, rows) {
 }
 
 function renderSelectedOdds(game) {
+  const bookNote = game.odds.bookmaker ? `via ${game.odds.bookmaker}` : "Best available";
   const markets = [
-    ["Sportsbook Spread", game.odds.spread, "DraftKings-first book preference"],
+    ["Sportsbook Spread", game.odds.spread, bookNote],
     ["Sportsbook Total", game.odds.total, game.odds.movement],
     ["Sportsbook ML", game.odds.moneyline, "American price"],
   ];
@@ -1096,6 +1078,61 @@ function renderSelectedOdds(game) {
         )
         .join("")}
       ${renderPolymarketCard(game)}
+    </div>
+    ${renderBookComparison(game)}
+  `;
+}
+
+const BOOK_BRANDS = {
+  draftkings: { mark: "DK", color: "#0f7a44" },
+  fanduel: { mark: "FD", color: "#1381e0" },
+  betmgm: { mark: "MGM", color: "#8d783f" },
+  williamhill_us: { mark: "CZR", color: "#0b4536" },
+  caesars: { mark: "CZR", color: "#0b4536" },
+  espnbet: { mark: "EB", color: "#11100d" },
+  betrivers: { mark: "BR", color: "#1a4e8a" },
+  fanatics: { mark: "FAN", color: "#1f1f1f" },
+  bovada: { mark: "BOV", color: "#b3282d" },
+  mybookieag: { mark: "MB", color: "#0a2e63" },
+  betonlineag: { mark: "BOL", color: "#22354a" },
+  lowvig: { mark: "LV", color: "#5d5850" },
+};
+
+function bookChip(book) {
+  const brand = BOOK_BRANDS[book.key] || { mark: book.title.slice(0, 3).toUpperCase(), color: "#11100d" };
+  return `<span class="book-chip" style="--book-color:${brand.color}">${escapeHtml(brand.mark)}</span><strong>${escapeHtml(book.title)}</strong>`;
+}
+
+function renderBookComparison(game) {
+  const books = game.odds.books || [];
+  if (!books.length) return "";
+  return `
+    <div class="book-compare">
+      <div class="line-score-head">
+        <h3>Compare Books</h3>
+        <span class="table-note">Away spread | Over | ML away/home</span>
+      </div>
+      <div class="table-wrap compact-table">
+        <table>
+          <thead>
+            <tr><th>Book</th><th>Spread</th><th>Total</th><th>ML</th></tr>
+          </thead>
+          <tbody>
+            ${books
+              .map(
+                (book) => `
+                  <tr>
+                    <td class="book-cell">${bookChip(book)}</td>
+                    <td>${escapeHtml(book.spread)}</td>
+                    <td>${escapeHtml(book.total)}</td>
+                    <td>${escapeHtml(book.moneyline)}</td>
+                  </tr>
+                `,
+              )
+              .join("")}
+          </tbody>
+        </table>
+      </div>
     </div>
   `;
 }
@@ -1578,8 +1615,8 @@ function scoreGameToUiGame(scoreGame) {
       color: colorForTeam(scoreGame.awayTeam),
       line: lineScore?.awayLine || [],
       leaders: [
-        ["Score source", "The Odds API"],
         ["Updated", lastUpdateLabel],
+        ["Start", formatStartDateTime(scoreGame.commenceTime)],
       ],
     },
     home: {
@@ -1591,13 +1628,13 @@ function scoreGameToUiGame(scoreGame) {
       color: colorForTeam(scoreGame.homeTeam),
       line: lineScore?.homeLine || [],
       leaders: [
-        ["Score source", "The Odds API"],
         ["Updated", lastUpdateLabel],
+        ["Start", formatStartDateTime(scoreGame.commenceTime)],
       ],
     },
     probability: impliedProbabilityFromOdds(matchingOdds),
     meta: [
-      ["Score Sync", scoreGame.completed ? "Final score" : started ? "Live/provider score" : "Pregame"],
+      ["Status", scoreGame.completed ? "Final" : started ? "Live" : "Pregame"],
       ["Last Update", lastUpdateLabel],
       ["Start", formatStartDateTime(scoreGame.commenceTime)],
       ["Books", matchingOdds ? `${matchingOdds.bookmakerCount} tracked` : "Odds pending"],
@@ -1607,6 +1644,8 @@ function scoreGameToUiGame(scoreGame) {
       total: matchingOdds?.display.total || (hasScore ? `Total ${total}` : "Total N/A"),
       moneyline: matchingOdds?.display.moneyline || "ML N/A",
       movement: matchingOdds?.updatedAt ? `Updated ${formatAbsoluteTime(matchingOdds.updatedAt)}` : "Awaiting market",
+      bookmaker: matchingOdds?.bookmaker || "",
+      books: matchingOdds?.books || [],
     },
     boxColumns: ["Score", "Status", "Updated"],
     box: {
@@ -1622,7 +1661,7 @@ function providerEvents(scoreGame, status, lastUpdateLabel, matchingOdds) {
     [
       status,
       scoreGame.league,
-      `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam} synced from The Odds API scores feed.`,
+      `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam} — live score tracking is on.`,
       "Score",
     ],
   ];

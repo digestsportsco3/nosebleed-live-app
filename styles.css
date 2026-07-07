@@ -1060,7 +1060,14 @@ button {
 
 .box-grid {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 14px;
+  min-width: 0;
+}
+
+.box-grid > * {
+  min-width: 0;
+  max-width: 100%;
 }
 
 .provider-team-box {
@@ -1766,4 +1773,42 @@ tbody tr:last-child td {
   box-sizing: border-box;
   background: var(--surface);
   border-radius: inherit;
+}
+
+.compact-table table {
+  min-width: 0;
+  width: 100%;
+}
+
+.compact-table th,
+.compact-table td {
+  padding: 8px 7px;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.book-compare {
+  margin-top: 16px;
+}
+
+.book-cell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.book-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  min-width: 30px;
+  height: 22px;
+  padding: 0 5px;
+  border-radius: 4px;
+  background: var(--book-color, var(--ink));
+  color: #fffaf1;
+  font-family: var(--font-display);
+  font-size: 0.66rem;
+  letter-spacing: 0.05em;
 }
