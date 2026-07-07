@@ -539,6 +539,7 @@ const state = {
   scoresFetched: false,
   oddsLoading: false,
   picks: [],
+  picksFetched: false,
   picksRecord: null,
   newsItems: [],
   logos: null,
@@ -1188,8 +1189,13 @@ function renderPolymarketCard(game) {
   `;
 }
 
+function activePicks() {
+  if (state.picks.length) return state.picks;
+  return state.picksFetched ? [] : picks;
+}
+
 function renderSelectedPicks(game) {
-  const sourcePicks = state.picks.length ? state.picks : picks;
+  const sourcePicks = activePicks();
   const matching = sourcePicks.filter((pick) => pick.gameId === game.id);
   if (!matching.length) return `<p class="empty-state">No tracked picks for this matchup yet.</p>`;
 
@@ -1344,7 +1350,7 @@ function formatStartTime(value) {
 }
 
 function renderPicks() {
-  const sourcePicks = state.picks.length ? state.picks : picks;
+  const sourcePicks = activePicks();
   const wins = sourcePicks.filter((pick) => ["Win", "won"].includes(pick.result || pick.status)).length;
   const losses = sourcePicks.filter((pick) => ["Loss", "lost"].includes(pick.result || pick.status)).length;
   $("#picksRecord").textContent = `${wins}-${losses}`;
@@ -1358,12 +1364,17 @@ function renderPicks() {
     `
     : "";
 
+  if (!sourcePicks.length) {
+    $("#picksList").innerHTML = recordBar + `<p class="empty-state">No picks posted yet. Add picks from the admin desk.</p>`;
+    return;
+  }
+
   $("#picksList").innerHTML =
     recordBar +
     sourcePicks
     .map(
       (pick) => {
-        const game = activeGames().find((item) => item.id === pick.gameId) || games.find((item) => item.id === pick.gameId) || games[0];
+        const game = pick.gameId ? activeGames().find((item) => item.id === pick.gameId) || null : null;
         const status = normalizePickStatus(pick.status || pick.result);
         return `
           <article class="pick-card pick-${status}">
@@ -1373,7 +1384,7 @@ function renderPicks() {
             </div>
             <strong>${pick.pick || pick.title} <span>${pick.price}</span></strong>
             <div class="pick-meta">
-              <span>${game.away.abbr} at ${game.home.abbr}</span>
+              <span>${game ? `${game.away.abbr} ${matchupWord(game.league)} ${game.home.abbr}` : pick.league || "General"}</span>
               <span>${pick.confidence}%</span>
             </div>
             <div class="confidence" aria-label="${pick.confidence}% confidence">
@@ -2014,6 +2025,7 @@ async function loadPicksData() {
     if (picksResponse.ok) {
       const payload = await picksResponse.json();
       state.picks = Array.isArray(payload.picks) ? payload.picks : [];
+      state.picksFetched = true;
     }
     if (recordResponse.ok) {
       const payload = await recordResponse.json();
