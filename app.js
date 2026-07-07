@@ -610,6 +610,25 @@ function leagueBadge(league) {
   return badges[league] || league.slice(0, 3).toUpperCase();
 }
 
+const LEAGUE_LOGOS = {
+  NFL: "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
+  MLB: "https://a.espncdn.com/i/teamlogos/leagues/500/mlb.png",
+  NBA: "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
+  NHL: "https://a.espncdn.com/i/teamlogos/leagues/500/nhl.png",
+  WNBA: "https://a.espncdn.com/i/teamlogos/leagues/500/wnba.png",
+  NCAAF: "https://a.espncdn.com/i/espn/misc_logos/500/ncaa.png",
+  NCAAB: "https://a.espncdn.com/i/espn/misc_logos/500/ncaa.png",
+  WNCAAB: "https://a.espncdn.com/i/espn/misc_logos/500/ncaa.png",
+  MMA: "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+  SOCCER: "https://a.espncdn.com/i/teamlogos/leagues/500/fifa.png",
+};
+
+function leagueIconHtml(league) {
+  const logo = LEAGUE_LOGOS[league];
+  if (!logo) return leagueBadge(league);
+  return `${leagueBadge(league)}<img class="mark-img" src="${logo}" alt="" loading="lazy" onerror="this.remove()">`;
+}
+
 function leagueConfig(league) {
   return leagueConfigs.find((item) => item.key === league) || null;
 }
@@ -623,7 +642,7 @@ function renderLeagueTabs() {
     .map(
       (league) => `
         <button class="league-tab ${state.league === league ? "is-active" : ""}" type="button" data-league="${league}">
-          <span class="league-tab-icon">${leagueBadge(league)}</span>
+          <span class="league-tab-icon">${leagueIconHtml(league)}</span>
           <span>${leagueLabel(league)}</span>
         </button>
       `,
@@ -636,7 +655,7 @@ function renderLeagueTabs() {
       const count = league === "All" ? list.length : list.filter((game) => game.league === league).length;
       return `
         <button class="${state.league === league ? "is-active" : ""}" type="button" data-league="${league}">
-          <span><span class="league-list-icon">${leagueBadge(league)}</span>${leagueLabel(league)}</span>
+          <span><span class="league-list-icon">${leagueIconHtml(league)}</span>${leagueLabel(league)}</span>
           <small>${count}</small>
         </button>
       `;

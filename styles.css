@@ -1867,3 +1867,9 @@ tbody tr:last-child td {
   margin: 0 14px 18px;
   background: var(--surface);
 }
+
+.league-tab-icon,
+.league-list-icon {
+  position: relative;
+  overflow: hidden;
+}
