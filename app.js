@@ -665,7 +665,7 @@ function renderScoreStrip() {
   }
 
   if (!list.length) {
-    $("#scoreStrip").innerHTML = `<p class="empty-state">No games found for this league.</p>`;
+    $("#scoreStrip").innerHTML = `<p class="empty-state">Nothing on the board for this league right now.</p>`;
     return;
   }
 
@@ -681,10 +681,13 @@ function renderScoreStrip() {
               new Date(game.commenceTime || 0).getTime() - Date.now() <= nearWindowMs,
           );
           const homeList = nearList.length ? nearList : list;
-          const followedTop = homeList.filter((game) => state.following.has(game.id)).slice(0, 3);
-          const topGames = followedTop.length ? followedTop : homeList.slice(0, 4);
+          const hero = homeList.find((game) => game.statusType === "live") || homeList[0] || null;
+          const remaining = hero ? homeList.filter((game) => game.id !== hero.id) : homeList;
+          const followedTop = remaining.filter((game) => state.following.has(game.id)).slice(0, 3);
+          const topGames = followedTop.length ? followedTop : remaining.slice(0, 4);
           const topGameIds = new Set(topGames.map((game) => game.id));
           return [
+            { hero },
             {
               title: followedTop.length ? "Favorites" : "Top Events",
               games: topGames,
@@ -709,9 +712,42 @@ function renderScoreStrip() {
     demoBadge +
     delayedBadge +
     sections
-      .filter((section) => section.games.length)
-      .map((section) => renderScoreSection(section))
+      .filter((section) => section.hero || section.games?.length)
+      .map((section) => (section.hero ? renderHeroGame(section.hero) : renderScoreSection(section)))
       .join("");
+}
+
+function renderHeroGame(game) {
+  const isLive = game.statusType === "live";
+  const isFinal = game.statusType === "final";
+  const statusChip = isLive
+    ? `<span class="score-status live"><span class="pulse-live" aria-hidden="true"></span>${game.clock}</span>`
+    : isFinal
+      ? `<span class="score-status final">Final</span>`
+      : `<span class="score-status soon">${game.clock}</span>`;
+  const heroRow = (team) => `
+    <div class="hero-row">
+      <span class="team-mark hero-mark" style="--team-color:${team.color}">${team.abbr}${teamMarkImg(team)}</span>
+      <span class="hero-name">${escapeHtml(team.name)}<small>${escapeHtml(team.record || "")}</small></span>
+      <span class="hero-score">${team.score}</span>
+    </div>
+  `;
+  return `
+    <section class="score-section hero-card">
+      <button class="hero-button" type="button" data-game-id="${game.id}">
+        <div class="hero-head">
+          <span class="hero-kicker">${isLive ? "Live Now" : isFinal ? "Just Finished" : "Up Next"} — ${escapeHtml(game.league)}</span>
+          ${statusChip}
+        </div>
+        ${heroRow(game.away)}
+        ${heroRow(game.home)}
+        <div class="hero-foot">
+          <span>${escapeHtml(game.venue || "")}</span>
+          <span class="hero-cta">Gamecast</span>
+        </div>
+      </button>
+    </section>
+  `;
 }
 
 function renderScoreSection(section) {
@@ -1289,6 +1325,7 @@ function activeNews() {
     title: item.headline,
     summary: item.description,
     link: item.link,
+    image: item.image,
   }));
 }
 
@@ -1298,7 +1335,7 @@ function renderNews() {
   $("#newsFilterBtn").textContent = state.league === "All" ? "All Sports" : state.league;
 
   if (!filtered.length) {
-    $("#newsGrid").innerHTML = `<p class="empty-state">No headlines available for this league.</p>`;
+    $("#newsGrid").innerHTML = `<p class="empty-state">The desk hasn't filed anything for this league yet.</p>`;
     return;
   }
 
@@ -1309,7 +1346,11 @@ function renderNews() {
         .map(
           (item) => `
             <article class="headline-row" ${item.link ? `data-news-link="${escapeAttribute(item.link)}" style="cursor:pointer"` : ""}>
-              <span class="headline-mark" aria-hidden="true"></span>
+              ${
+                item.image
+                  ? `<img class="headline-thumb" src="${escapeAttribute(item.image)}" alt="" loading="lazy" onerror="this.remove()">`
+                  : `<span class="headline-mark" aria-hidden="true"></span>`
+              }
               <div>
                 <h3>${escapeHtml(item.title)}</h3>
                 <p>${escapeHtml(item.league)} | ${escapeHtml(item.tag)} | ${escapeHtml(item.time)}</p>
@@ -1419,7 +1460,7 @@ function renderPicks() {
     : "";
 
   if (!sourcePicks.length) {
-    $("#picksList").innerHTML = recordBar + `<p class="empty-state">No picks posted yet. Add picks from the admin desk.</p>`;
+    $("#picksList").innerHTML = recordBar + `<p class="empty-state">The picks desk hasn't posted today's card yet.</p>`;
     return;
   }
 
@@ -1627,7 +1668,7 @@ function scoreGameToUiGame(scoreGame) {
     status,
     statusType,
     clock,
-    venue: lineScore?.venue || (matchingOdds?.bookmaker ? `${matchingOdds.bookmaker} market` : "Provider synced"),
+    venue: lineScore?.venue || (matchingOdds?.bookmaker ? `${matchingOdds.bookmaker} line` : ""),
     headline: `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam}`,
     visual: visualForLeague(scoreGame.league),
     isProviderSynced: true,
@@ -1669,7 +1710,7 @@ function scoreGameToUiGame(scoreGame) {
       spread: matchingOdds?.display.spread || "Spread N/A",
       total: matchingOdds?.display.total || (hasScore ? `Total ${total}` : "Total N/A"),
       moneyline: matchingOdds?.display.moneyline || "ML N/A",
-      movement: matchingOdds?.updatedAt ? `Updated ${formatAbsoluteTime(matchingOdds.updatedAt)}` : "Awaiting market",
+      movement: matchingOdds?.updatedAt ? `Updated ${formatAbsoluteTime(matchingOdds.updatedAt)}` : "Line pending",
       bookmaker: matchingOdds?.bookmaker || "",
       books: matchingOdds?.books || [],
     },
@@ -1687,7 +1728,7 @@ function providerEvents(scoreGame, status, lastUpdateLabel, matchingOdds) {
     [
       status,
       scoreGame.league,
-      `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam} — live score tracking is on.`,
+      `${scoreGame.awayTeam} ${matchupWord(scoreGame.league)} ${scoreGame.homeTeam} — every score, straight from the desk.`,
       "Score",
     ],
   ];
@@ -2139,6 +2180,12 @@ async function boot() {
   await Promise.resolve(API_CONFIG);
   registerServiceWorker();
   wireEvents();
+  $("#dateline").textContent = new Date().toLocaleDateString([], {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
   loadLogos();
   await loadLeagues();
   await loadPicksData();
