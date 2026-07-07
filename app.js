@@ -612,6 +612,30 @@ function leagueBadge(league) {
   return badges[league] || league.slice(0, 3).toUpperCase();
 }
 
+// Leagues with no official mark on the public CDNs get hand-drawn sport
+// glyphs, inlined as data URIs so they can never fail to load.
+function sportGlyph(svgBody) {
+  return `data:image/svg+xml,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">${svgBody}</svg>`)}`;
+}
+
+const SPORT_GLYPHS = {
+  TENNIS: sportGlyph(
+    '<circle cx="12" cy="12" r="9" fill="#cddc2e"/><path d="M5 5.5c3.5 3 3.5 10 0 13M19 5.5c-3.5 3-3.5 10 0 13" fill="none" stroke="#fffaf1" stroke-width="1.6"/>',
+  ),
+  GOLF: sportGlyph(
+    '<path d="M8 3v13" stroke="#11100d" stroke-width="1.6"/><path d="M8 3l8 2.6L8 8.4z" fill="#b11318"/><ellipse cx="11" cy="19" rx="7" ry="2.4" fill="none" stroke="#11100d" stroke-width="1.4"/><circle cx="14.5" cy="16.6" r="1.6" fill="#11100d"/>',
+  ),
+  BOXING: sportGlyph(
+    '<path d="M6.5 5.5A3.5 3.5 0 0 1 10 2h5a5 5 0 0 1 5 5v4a5.5 5.5 0 0 1-5.5 5.5H10L6.5 14z" fill="#b11318"/><path d="M6.5 8.5C4.6 8.5 4 10 4.6 11.4L6.5 14" fill="none" stroke="#b11318" stroke-width="2.6" stroke-linecap="round"/><rect x="9" y="17.5" width="9" height="4.5" rx="1.6" fill="#8f0f14"/>',
+  ),
+  CFL: sportGlyph(
+    '<ellipse cx="12" cy="12" rx="10" ry="6.2" fill="#7a3b1e" transform="rotate(-32 12 12)"/><path d="M8.2 14.6l7.4-5.4" stroke="#fffaf1" stroke-width="1.4"/><path d="M9.4 12.4l1.4 1.9M11.2 11.1l1.4 1.9M13 9.8l1.4 1.9" stroke="#fffaf1" stroke-width="1.2"/>',
+  ),
+  EUROLEAGUE: sportGlyph(
+    '<circle cx="12" cy="12" r="9.4" fill="#c2571d"/><path d="M12 2.6v18.8M2.6 12h18.8M5.2 5.2c3.6 3.6 3.6 10 0 13.6M18.8 5.2c-3.6 3.6-3.6 10 0 13.6" fill="none" stroke="#11100d" stroke-width="1.2"/>',
+  ),
+};
+
 const LEAGUE_LOGOS = {
   NFL: "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
   MLB: "https://a.espncdn.com/i/teamlogos/leagues/500/mlb.png",
@@ -623,6 +647,11 @@ const LEAGUE_LOGOS = {
   WNCAAB: "https://a.espncdn.com/i/espn/misc_logos/500/ncaa.png",
   MMA: "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
   SOCCER: "https://a.espncdn.com/i/teamlogos/leagues/500/fifa.png",
+  TENNIS: SPORT_GLYPHS.TENNIS,
+  GOLF: SPORT_GLYPHS.GOLF,
+  BOXING: SPORT_GLYPHS.BOXING,
+  CFL: SPORT_GLYPHS.CFL,
+  EUROLEAGUE: SPORT_GLYPHS.EUROLEAGUE,
 };
 
 function leagueIconHtml(league) {
