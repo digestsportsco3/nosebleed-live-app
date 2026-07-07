@@ -1,4 +1,4 @@
-const CACHE_VERSION = "nosebleed-static-v9";
+const CACHE_VERSION = "nosebleed-static-v10";
 const STATIC_ASSETS = [
   "/",
   "/index.html",
@@ -36,16 +36,22 @@ self.addEventListener("fetch", (event) => {
   // Live data must never come from cache.
   if (url.pathname.startsWith("/api/")) return;
 
+  // Network-first for the app shell: users always get the latest deploy on a
+  // single refresh; the cache is the offline fallback.
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(event.request).then((response) => {
+    fetch(event.request)
+      .then((response) => {
         if (response.ok && STATIC_ASSETS.includes(url.pathname)) {
           const copy = response.clone();
           caches.open(CACHE_VERSION).then((cache) => cache.put(event.request, copy));
         }
         return response;
-      });
-    }),
+      })
+      .catch(() =>
+        caches.match(event.request).then((cached) => {
+          if (cached) return cached;
+          throw new Error("Offline and not cached");
+        }),
+      ),
   );
 });

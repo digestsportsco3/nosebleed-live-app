@@ -2107,12 +2107,19 @@ function wireEvents() {
 
     const anchorButton = event.target.closest("[data-anchor]");
     if (anchorButton) {
-      if (anchorButton.dataset.anchor === "top") {
+      const anchor = anchorButton.dataset.anchor;
+      if (anchor === "top") {
         window.scrollTo({ top: 0, behavior: "smooth" });
       } else {
-        const target = $(`#${anchorButton.dataset.anchor}`);
+        const target = $(`#${anchor}`);
         if (target) target.scrollIntoView({ block: "start", behavior: "smooth" });
       }
+
+      document.querySelectorAll(".nav-pill[data-anchor], .mobile-nav [data-anchor]").forEach((button) => {
+        button.classList.toggle("is-active", button.dataset.anchor === anchor);
+      });
+      const title = anchorButton.textContent.trim();
+      if (title) $(".topbar-title").textContent = title;
     }
   });
 
