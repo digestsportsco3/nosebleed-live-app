@@ -1614,7 +1614,7 @@ function renderModelCard() {
   const lockedCount = card.locked?.length || 0;
   const lockedCard = lockedCount
     ? `
-      <a class="pick-card pick-locked" href="https://nosebleedsportsmedia.com/membership" target="_blank" rel="noopener">
+      <a class="pick-card pick-locked" href="https://nosebleedsport.com/#offers" target="_blank" rel="noopener">
         <div class="pick-meta">
           <span class="lock-tag">Members Only</span>
           <span>${lockedCount} more pick${lockedCount === 1 ? "" : "s"}</span>
