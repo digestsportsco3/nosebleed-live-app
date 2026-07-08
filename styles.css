@@ -430,15 +430,23 @@ button {
 
 .league-tabs {
   gap: 10px;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  overflow-x: visible;
   max-width: 1280px;
+  width: min(1280px, 100%);
   margin: 0 auto;
   padding: 8px clamp(14px, 3vw, 28px) 12px;
-  scrollbar-width: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
 }
 
 .league-tabs::-webkit-scrollbar {
-  display: none;
+  height: 6px;
+}
+
+.league-tabs::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: var(--line-strong);
 }
 
 .league-tab {
@@ -1712,9 +1720,16 @@ tbody tr:last-child td {
   }
 
   .league-tabs {
-    padding: 10px 12px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    padding: 10px 12px 12px;
     background: var(--surface);
     border-bottom: 1px solid var(--line);
+    overscroll-behavior-x: contain;
+    scroll-padding-inline: 12px;
+    -webkit-overflow-scrolling: touch;
   }
 
   .league-tab {
