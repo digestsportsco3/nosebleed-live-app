@@ -644,7 +644,10 @@ const SPORT_GLYPHS = {
   ),
 };
 
+const NOSEBLEED_LOGO = "./assets/nosebleed-sports-logo.png";
+
 const LEAGUE_LOGOS = {
+  All: NOSEBLEED_LOGO,
   NFL: "https://a.espncdn.com/i/teamlogos/leagues/500/nfl.png",
   MLB: "https://a.espncdn.com/i/teamlogos/leagues/500/mlb.png",
   NBA: "https://a.espncdn.com/i/teamlogos/leagues/500/nba.png",
@@ -665,7 +668,14 @@ const LEAGUE_LOGOS = {
 function leagueIconHtml(league) {
   const logo = LEAGUE_LOGOS[league];
   if (!logo) return leagueBadge(league);
+  if (league === "All") {
+    return `<img class="mark-img brand-mark-img" src="${logo}" alt="" loading="lazy">`;
+  }
   return `${leagueBadge(league)}<img class="mark-img" src="${logo}" alt="" loading="lazy" onerror="this.remove()">`;
+}
+
+function leagueIconClass(league) {
+  return league === "All" ? " is-brand" : "";
 }
 
 function leagueConfig(league) {
@@ -681,7 +691,7 @@ function renderLeagueTabs() {
     .map(
       (league) => `
         <button class="league-tab ${state.league === league ? "is-active" : ""}" type="button" data-league="${league}">
-          <span class="league-tab-icon">${leagueIconHtml(league)}</span>
+          <span class="league-tab-icon${leagueIconClass(league)}">${leagueIconHtml(league)}</span>
           <span>${leagueLabel(league)}</span>
         </button>
       `,
@@ -694,7 +704,7 @@ function renderLeagueTabs() {
       const count = league === "All" ? list.length : list.filter((game) => game.league === league).length;
       return `
         <button class="${state.league === league ? "is-active" : ""}" type="button" data-league="${league}">
-          <span><span class="league-list-icon">${leagueIconHtml(league)}</span>${leagueLabel(league)}</span>
+          <span><span class="league-list-icon${leagueIconClass(league)}">${leagueIconHtml(league)}</span>${leagueLabel(league)}</span>
           <small>${count}</small>
         </button>
       `;
