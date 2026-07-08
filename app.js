@@ -1706,7 +1706,7 @@ function renderModelCard() {
     ? `
       <article class="pick-card pick-free">
         <div class="pick-meta">
-          <span class="free-tag">Free Pick — ${escapeHtml(free.sport)}</span>
+          <span class="free-tag">Free Pick &mdash; ${escapeHtml(free.sport)}</span>
           <span>${free.confidence !== null ? `${escapeHtml(String(free.confidence))}/10` : ""}</span>
         </div>
         <strong>${escapeHtml(free.pick)} <span>${escapeHtml(free.odds)}</span></strong>
