@@ -1113,19 +1113,10 @@ const server = http.createServer(async (req, res) => {
   }
 
   if (reqUrl.pathname === "/api/news") {
+    // House newsletters only. To bring the ESPN wire back, merge
+    // news.getNews() items after the newsletter items here.
     try {
-      const [house, wire] = await Promise.all([
-        newsletter.getNewsletter().catch((error) => ({ items: [], meta: { errors: [{ message: error.message }] } })),
-        news.getNews(),
-      ]);
-      // House newsletters lead; the wire follows.
-      sendJson(res, 200, {
-        items: [...house.items, ...wire.items],
-        meta: {
-          providers: [house.meta, wire.meta],
-          fetchedAt: new Date().toISOString(),
-        },
-      });
+      sendJson(res, 200, await newsletter.getNewsletter());
     } catch (error) {
       sendJson(res, 200, { items: [], meta: { errors: [{ message: error.message }] } });
     }

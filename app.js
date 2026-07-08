@@ -536,6 +536,7 @@ const state = {
   picksFetched: false,
   picksRecord: null,
   newsItems: [],
+  newsFetched: false,
   logos: null,
   lineScores: [],
   headshots: [],
@@ -1447,7 +1448,7 @@ function formatRelativeTime(published) {
 }
 
 function activeNews() {
-  if (!state.newsItems.length) return news;
+  if (!state.newsItems.length) return state.newsFetched ? [] : news;
   return state.newsItems.map((item) => ({
     league: item.league,
     tag: item.type || "News",
@@ -1503,6 +1504,7 @@ async function loadNews() {
     if (!response.ok) return;
     const payload = await response.json();
     const items = Array.isArray(payload.items) ? payload.items : [];
+    state.newsFetched = true;
     if (items.length) state.newsItems = items;
   } catch {
     /* keep hardcoded fallback headlines */
