@@ -21,8 +21,9 @@ The integration seam is `API_CONFIG` near the top of `app.js`:
 
 ```js
 const API_CONFIG = {
-  scores: "/api/scores?sport=All",
+  scores: "/api/scores?sport=All&daysFrom=3",
   odds: "/api/odds?sport=All",
+  history: "/api/history",
   picks: "/api/picks",
   news: "/api/news",
 };
@@ -35,13 +36,22 @@ Implemented local proxy endpoints:
 - `GET /api/scores?sport=MLB` returns normalized score/game status data from The Odds API.
 - `GET /api/boxscore?league=MLB&awayTeam=Chicago%20White%20Sox&homeTeam=Baltimore%20Orioles&commenceTime=...` returns normalized player box-score groups from ESPN's undocumented JSON summary endpoint for MVP testing.
 - `GET /api/polymarket?league=MLB&awayTeam=Pittsburgh%20Pirates&homeTeam=Philadelphia%20Phillies&commenceTime=...` returns a matching Polymarket moneyline-style prediction market from the public Gamma API.
+- `GET /api/history?league=MLB&days=10&limit=18` returns previous games and recent stat leaders from a server-side ESPN JSON scoreboard adapter.
 
 Score sync behavior:
 
-- The frontend calls `GET /api/scores?sport=All&daysFrom=1` and `GET /api/odds?sport=All`.
+- The frontend calls `GET /api/scores?sport=All&daysFrom=3` and `GET /api/odds?sport=All`.
 - Synced games are sorted live first, upcoming second, recent finals last.
 - The app refreshes provider score/odds data every 30 seconds while open.
 - The Odds API score feed provides team scores/status, not full ESPN-style player box scores, clock detail, or play-by-play.
+
+History/stats behavior:
+
+- The Previous Games panel calls `GET /api/history` server-side and never scrapes from the browser.
+- ESPN JSON scoreboards are used as an MVP fallback for recent finals and scoreboard-level stat leaders across MLB, NBA, NFL, NHL, WNBA, NCAAF, NCAAB, soccer, golf, tennis, and F1 where ESPN returns data.
+- Sports Reference is not enabled by default. If used later, it should be low-rate, attributed, cached daily, and limited to specific historical stat tables rather than copied into a republished database.
+- StatMuse scraping is intentionally blocked. Use it only through an approved/licensed route.
+- Production launch should replace the ESPN fallback with a licensed provider for historical game IDs, player stats, box scores, and commercial usage rights.
 
 Box-score behavior:
 

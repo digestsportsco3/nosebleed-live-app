@@ -1,5 +1,5 @@
 const API_CONFIG = {
-  scores: "/api/scores?sport=All&daysFrom=1",
+  scores: "/api/scores?sport=All&daysFrom=3",
   odds: "/api/odds?sport=All",
   boxscore: "/api/boxscore",
   polymarket: "/api/polymarket",
@@ -10,6 +10,7 @@ const API_CONFIG = {
   logos: "/api/logos",
   linescores: "/api/linescores",
   headshots: "/api/headshots",
+  history: "/api/history",
 };
 
 let leagues = ["All", "MLB", "NBA", "NFL", "NHL", "WNBA"];
@@ -532,6 +533,11 @@ const state = {
   scoresLoading: false,
   scoresFetched: false,
   oddsLoading: false,
+  historyGames: [],
+  historyLeaders: [],
+  historyMeta: null,
+  historyLoading: false,
+  historyLeague: null,
   picks: [],
   picksFetched: false,
   picksRecord: null,
@@ -1570,11 +1576,92 @@ function renderOddsBoard() {
     .join("");
 }
 
+function renderHistoryPanel() {
+  const board = $("#historyBoard");
+  if (!board) return;
+
+  const source = $("#historySource");
+  if (source) {
+    const cache = state.historyMeta?.cache === "HIT" ? "Cached" : "ESPN";
+    source.textContent = state.historyMeta?.stale ? "Delayed" : cache;
+  }
+
+  if (state.historyLoading && !state.historyGames.length) {
+    board.innerHTML = Array.from({ length: 3 }, () => `<div class="history-card skeleton"></div>`).join("");
+    return;
+  }
+
+  if (!state.historyGames.length) {
+    board.innerHTML = `<p class="empty-state">Previous games and leaders are unavailable for this league right now.</p>`;
+    return;
+  }
+
+  const leaders = state.historyLeaders.slice(0, 5);
+  board.innerHTML = `
+    ${
+      leaders.length
+        ? `
+          <div class="history-leaders" aria-label="Recent stat leaders">
+            ${leaders.map((leader) => renderHistoryLeader(leader)).join("")}
+          </div>
+        `
+        : ""
+    }
+    <div class="history-games">
+      ${state.historyGames.slice(0, 8).map((game) => renderHistoryGame(game)).join("")}
+    </div>
+    <p class="history-source-note">Recent finals from ESPN JSON. Historical stat scraping stays server-side and replaceable by a licensed provider.</p>
+  `;
+}
+
+function renderHistoryLeader(leader) {
+  return `
+    <article class="history-leader">
+      <span>${escapeHtml(leader.league)} | ${escapeHtml(leader.team)}</span>
+      <strong>${escapeHtml(leader.player)}</strong>
+      <small>${escapeHtml(leader.stat)}: ${escapeHtml(leader.value)}</small>
+    </article>
+  `;
+}
+
+function renderHistoryGame(game) {
+  return `
+    <article class="history-game" data-history-game="${escapeHtml(game.id)}">
+      <div class="history-game-head">
+        <span>${escapeHtml(game.league)}</span>
+        <strong>${escapeHtml(game.status || "Final")}</strong>
+      </div>
+      ${historyTeamRow(game.away)}
+      ${historyTeamRow(game.home)}
+      <div class="history-game-foot">
+        <span>${escapeHtml(formatStartDate(game.date))}</span>
+        <span>${escapeHtml(game.venue || "ESPN")}</span>
+      </div>
+    </article>
+  `;
+}
+
+function historyTeamRow(team) {
+  return `
+    <div class="history-team ${team.winner ? "winner" : ""}">
+      <span>${escapeHtml(team.abbreviation || team.shortName || team.name)}</span>
+      <strong>${escapeHtml(team.name)}</strong>
+      <b>${escapeHtml(team.score)}</b>
+    </div>
+  `;
+}
+
 function formatStartTime(value) {
   if (!value) return "TBD";
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return "TBD";
   return date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+}
+
+function formatStartDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "TBD";
+  return date.toLocaleDateString([], { month: "short", day: "numeric" });
 }
 
 function renderModelCard() {
@@ -1709,6 +1796,7 @@ function renderAll() {
   renderDetailPanel();
   renderNews();
   renderOddsBoard();
+  renderHistoryPanel();
   renderPicks();
   renderWatchList();
 }
@@ -1721,6 +1809,7 @@ function setLeague(league) {
     state.selectedGameId = list[0]?.id || games[0].id;
   }
   renderAll();
+  loadHistoryData();
 }
 
 function selectGame(gameId) {
@@ -2362,9 +2451,50 @@ async function loadLeagues() {
   }
 }
 
+async function loadHistoryData({ force = false, render = true } = {}) {
+  const league = state.league;
+  if (!force && state.historyLeague === league && (state.historyGames.length || state.historyMeta)) {
+    if (render) renderHistoryPanel();
+    return true;
+  }
+
+  state.historyLoading = true;
+  if (render) renderHistoryPanel();
+
+  const url = new URL(API_CONFIG.history, window.location.origin);
+  url.searchParams.set("league", league);
+  url.searchParams.set("days", "10");
+  url.searchParams.set("limit", league === "All" ? "24" : "18");
+
+  try {
+    const { payload, meta } = await fetchWithMeta(url);
+    if (!meta.ok) throw new Error(`History request failed: ${meta.status}`);
+    if (state.league !== league) return false;
+
+    state.historyGames = Array.isArray(payload.games) ? payload.games : [];
+    state.historyLeaders = Array.isArray(payload.leaders) ? payload.leaders : [];
+    state.historyMeta = { ...(payload.meta || {}), stale: meta.stale, cache: meta.cache };
+    state.historyLeague = league;
+    return state.historyGames.length > 0;
+  } catch {
+    if (state.league === league) {
+      state.historyGames = [];
+      state.historyLeaders = [];
+      state.historyMeta = { provider: "ESPN JSON scoreboard adapter", stale: true };
+      state.historyLeague = league;
+    }
+    return false;
+  } finally {
+    if (state.league === league) {
+      state.historyLoading = false;
+      if (render) renderHistoryPanel();
+    }
+  }
+}
+
 async function refreshData(manual = false) {
-  const synced = await syncProviderData();
-  if (manual) showToast(synced ? "Scores and odds synced" : "Live feed unavailable; showing demo data");
+  const [synced, historySynced] = await Promise.all([syncProviderData(), loadHistoryData({ force: manual })]);
+  if (manual) showToast(synced || historySynced ? "Scores, odds, and history synced" : "Live feed unavailable; showing demo data");
 }
 
 async function syncProviderData() {
@@ -2444,6 +2574,7 @@ async function boot() {
   await loadLeagues();
   await loadPicksData();
   renderAll();
+  loadHistoryData();
   syncProviderData();
   setInterval(() => {
     if (state.syncedGames.length) {

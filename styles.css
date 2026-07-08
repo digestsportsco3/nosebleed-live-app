@@ -637,6 +637,7 @@ button {
 .market-chip,
 .count-pill,
 .record-pill,
+.source-pill,
 .tag,
 .movement {
   display: inline-flex;
@@ -705,6 +706,7 @@ button {
 
 .rail-panel,
 .odds-panel,
+.history-panel,
 .picks-panel,
 .standings-panel {
   padding: 14px;
@@ -737,6 +739,7 @@ button {
 .watch-list,
 .alert-list,
 .odds-list,
+.history-list,
 .picks-list,
 .heat-list {
   display: grid;
@@ -771,6 +774,9 @@ button {
 .watch-item,
 .alert-item,
 .odds-card,
+.history-card,
+.history-game,
+.history-leader,
 .pick-card,
 .heat-card {
   border: 1px solid var(--line);
@@ -1272,6 +1278,9 @@ tbody tr:last-child td {
 }
 
 .odds-card,
+.history-card,
+.history-game,
+.history-leader,
 .pick-card,
 .heat-card {
   min-width: 0;
@@ -1289,6 +1298,123 @@ tbody tr:last-child td {
   max-width: 100%;
   min-width: 0;
   width: 100%;
+}
+
+.source-pill {
+  background: #f3f3f3;
+  color: #555;
+}
+
+.history-list {
+  gap: 10px;
+}
+
+.history-leaders {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.history-leader {
+  display: grid;
+  gap: 5px;
+  border-color: #e3e7ec;
+  background: #fbfcfd;
+}
+
+.history-leader span,
+.history-game-head span,
+.history-game-foot,
+.history-source-note {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.history-leader strong {
+  overflow: hidden;
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-leader small {
+  color: #333;
+  font-size: 0.78rem;
+}
+
+.history-games {
+  display: grid;
+  gap: 8px;
+}
+
+.history-game {
+  display: grid;
+  gap: 7px;
+}
+
+.history-game-head,
+.history-game-foot,
+.history-team {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.history-game-head {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.history-game-head strong {
+  color: #555;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.history-team {
+  color: #777;
+}
+
+.history-team.winner {
+  color: #000;
+  font-weight: 900;
+}
+
+.history-team span {
+  width: 38px;
+  color: inherit;
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.history-team strong {
+  overflow: hidden;
+  font-size: 0.9rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-team b {
+  font-size: 1rem;
+}
+
+.history-game-foot {
+  grid-template-columns: auto minmax(0, 1fr);
+  padding-top: 3px;
+}
+
+.history-game-foot span:last-child {
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.history-source-note {
+  margin: 0;
+  line-height: 1.35;
 }
 
 .market-chip {

@@ -14,6 +14,7 @@ const headshots = require("./providers/headshots");
 const kalshi = require("./providers/kalshi");
 const newsletter = require("./providers/newsletter");
 const modelpicks = require("./providers/modelpicks");
+const history = require("./providers/history");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -300,7 +301,7 @@ async function proxyScores(url, res) {
     sports.map(async (sport) => {
       const endpoint = new URL(`${ODDS_API_BASE}/sports/${sport.key}/scores`);
       endpoint.searchParams.set("apiKey", ODDS_API_KEY);
-      endpoint.searchParams.set("daysFrom", url.searchParams.get("daysFrom") || "1");
+      endpoint.searchParams.set("daysFrom", url.searchParams.get("daysFrom") || "3");
       endpoint.searchParams.set("dateFormat", "iso");
 
       try {
@@ -523,6 +524,32 @@ async function proxyPolymarket(url, res) {
     sendJson(res, 200, response, { "x-cache": "MISS" });
   } catch (error) {
     sendJson(res, 502, { error: error.message, market: null });
+  }
+}
+
+async function proxyHistory(url, res) {
+  try {
+    const payload = await history.getHistory({
+      league: url.searchParams.get("league") || url.searchParams.get("sport") || "All",
+      days: url.searchParams.get("days") || "10",
+      limit: url.searchParams.get("limit") || "24",
+      includeScheduled: url.searchParams.get("includeScheduled") === "1",
+    });
+
+    sendJson(res, 200, payload, { "x-cache": payload.meta?.cache || "MISS" });
+  } catch (error) {
+    console.warn("[history] provider failed:", error.message);
+    sendJson(res, 502, {
+      error: error.message,
+      games: [],
+      leaders: [],
+      meta: {
+        provider: "ESPN JSON scoreboard adapter",
+        source: "mvp-fallback",
+        fetchedAt: new Date().toISOString(),
+        stale: true,
+      },
+    });
   }
 }
 
@@ -1083,6 +1110,7 @@ const server = http.createServer(async (req, res) => {
       ok: true,
       oddsConfigured: Boolean(ODDS_API_KEY),
       provider: "The Odds API",
+      historyProvider: "ESPN JSON scoreboard adapter",
       cacheTtlMs: CACHE_TTL_MS,
     });
     return;
@@ -1205,6 +1233,11 @@ const server = http.createServer(async (req, res) => {
     } catch (error) {
       sendJson(res, 200, { market: null, meta: { errors: [{ message: error.message }] } });
     }
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/history") {
+    await proxyHistory(reqUrl, res);
     return;
   }
 
