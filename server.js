@@ -12,6 +12,7 @@ const linescores = require("./providers/linescores");
 const headshots = require("./providers/headshots");
 const kalshi = require("./providers/kalshi");
 const newsletter = require("./providers/newsletter");
+const modelpicks = require("./providers/modelpicks");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 4173);
@@ -1060,6 +1061,15 @@ const server = http.createServer(async (req, res) => {
         fetchedAt: new Date().toISOString(),
       },
     });
+    return;
+  }
+
+  if (reqUrl.pathname === "/api/model-picks") {
+    try {
+      sendJson(res, 200, await modelpicks.getModelCard());
+    } catch (error) {
+      sendJson(res, 200, { record: null, freePick: null, locked: [], meta: { errors: [{ message: error.message }] } });
+    }
     return;
   }
 

@@ -132,4 +132,4 @@ async function getNewsletter() {
   return payload;
 }
 
-module.exports = { getNewsletter };
+module.exports = { getNewsletter, fetchThroughHandshake };

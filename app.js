@@ -535,6 +535,7 @@ const state = {
   picks: [],
   picksFetched: false,
   picksRecord: null,
+  modelCard: null,
   newsItems: [],
   newsFetched: false,
   logos: null,
@@ -1576,28 +1577,79 @@ function formatStartTime(value) {
   return date.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
 }
 
-function renderPicks() {
-  const sourcePicks = activePicks();
-  const wins = sourcePicks.filter((pick) => ["Win", "won"].includes(pick.result || pick.status)).length;
-  const losses = sourcePicks.filter((pick) => ["Loss", "lost"].includes(pick.result || pick.status)).length;
-  $("#picksRecord").textContent = `${wins}-${losses}`;
-  const record = state.picksRecord;
+function renderModelCard() {
+  const card = state.modelCard;
+  if (!card) return "";
+
+  const record = card.record;
+  const decided = record ? record.wins + record.losses : 0;
   const recordBar = record
     ? `
       <div class="pick-record">
-        <strong>${record.won}-${record.lost}-${record.push}</strong>
-        <span>${record.winPct === null ? "No graded decisions" : `${record.winPct}% win rate`} | ${record.pending} pending</span>
+        <strong>${record.wins}-${record.losses}${record.pushes ? `-${record.pushes}` : ""} <span class="units-chip">${record.units >= 0 ? "+" : ""}${record.units}u</span></strong>
+        <span>${decided ? `${Math.round((record.wins / decided) * 1000) / 10}% win rate` : "Verified record"} | verified by the model desk</span>
       </div>
     `
     : "";
 
+  const free = card.freePick;
+  const freeCard = free
+    ? `
+      <article class="pick-card pick-free">
+        <div class="pick-meta">
+          <span class="free-tag">Free Pick — ${escapeHtml(free.sport)}</span>
+          <span>${free.confidence !== null ? `${escapeHtml(String(free.confidence))}/10` : ""}</span>
+        </div>
+        <strong>${escapeHtml(free.pick)} <span>${escapeHtml(free.odds)}</span></strong>
+        <div class="pick-meta">
+          <span>${escapeHtml(free.game)}</span>
+          <span>${free.units !== null ? `${escapeHtml(String(free.units))}u` : ""}</span>
+        </div>
+        ${free.analysis ? `<p class="pick-analysis">${escapeHtml(free.analysis)}</p>` : ""}
+        ${free.confidence !== null ? `<div class="confidence" aria-label="model confidence"><span style="width:${Math.min(100, Number(free.confidence) * 10)}%"></span></div>` : ""}
+      </article>
+    `
+    : "";
+
+  const lockedCount = card.locked?.length || 0;
+  const lockedCard = lockedCount
+    ? `
+      <a class="pick-card pick-locked" href="https://nosebleedsportsmedia.com/membership" target="_blank" rel="noopener">
+        <div class="pick-meta">
+          <span class="lock-tag">Members Only</span>
+          <span>${lockedCount} more pick${lockedCount === 1 ? "" : "s"}</span>
+        </div>
+        <strong>Today's full card is live</strong>
+        <div class="locked-games">${card.locked
+          .slice(0, 4)
+          .map((pick) => `<span>${escapeHtml(pick.game)}</span>`)
+          .join("")}</div>
+        <span class="unlock-cta">Unlock the Warroom &rarr;</span>
+      </a>
+    `
+    : "";
+
+  return recordBar + freeCard + lockedCard;
+}
+
+function renderPicks() {
+  const sourcePicks = activePicks();
+  const model = state.modelCard;
+  const siteRecord = model?.record;
+  $("#picksRecord").textContent = siteRecord
+    ? `${siteRecord.wins}-${siteRecord.losses}`
+    : `${sourcePicks.filter((pick) => ["Win", "won"].includes(pick.result || pick.status)).length}-${sourcePicks.filter((pick) => ["Loss", "lost"].includes(pick.result || pick.status)).length}`;
+
+  const modelHtml = renderModelCard();
+
   if (!sourcePicks.length) {
-    $("#picksList").innerHTML = recordBar + `<p class="empty-state">The picks desk hasn't posted today's card yet.</p>`;
+    $("#picksList").innerHTML =
+      modelHtml || `<p class="empty-state">The picks desk hasn't posted today's card yet.</p>`;
     return;
   }
 
   $("#picksList").innerHTML =
-    recordBar +
+    modelHtml +
     sourcePicks
     .map(
       (pick) => {
@@ -2263,6 +2315,17 @@ async function loadExternalOdds({ showSuccess = false, render = true } = {}) {
   }
 }
 
+async function loadModelCard() {
+  try {
+    const response = await fetch("/api/model-picks", { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const payload = await response.json();
+    if (payload.record || payload.freePick) state.modelCard = payload;
+  } catch {
+    /* picks tab falls back to manual picks only */
+  }
+}
+
 async function loadPicksData() {
   try {
     const [picksResponse, recordResponse] = await Promise.all([
@@ -2310,6 +2373,7 @@ async function syncProviderData() {
     loadExternalOdds({ render: false }),
     loadNews(),
     loadLineScores(),
+    loadModelCard(),
   ]);
   await loadPicksData();
   rebuildSyncedGames();
