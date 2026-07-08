@@ -678,6 +678,18 @@ function leagueIconClass(league) {
   return league === "All" ? " is-brand" : "";
 }
 
+function marketChipHtml(league) {
+  const label = leagueBadge(league);
+  const logo = LEAGUE_LOGOS[league];
+  if (!logo) return `<span class="market-chip">${escapeHtml(label)}</span>`;
+
+  return `
+    <span class="market-chip market-chip-logo" title="${escapeAttribute(leagueLabel(league))}">
+      <img src="${escapeAttribute(logo)}" alt="${escapeAttribute(leagueLabel(league))}" loading="lazy" onerror="this.remove()">
+    </span>
+  `;
+}
+
 function leagueConfig(league) {
   return leagueConfigs.find((item) => item.key === league) || null;
 }
@@ -1541,7 +1553,7 @@ function renderOddsBoard() {
         (event) => `
           <article class="odds-card">
             <div class="odd-row">
-              <span class="market-chip">${event.league}</span>
+              ${marketChipHtml(event.league)}
               <span class="movement up">Live</span>
             </div>
             <div class="odd-row">
@@ -1569,7 +1581,7 @@ function renderOddsBoard() {
       (game, index) => `
         <article class="odds-card">
           <div class="odd-row">
-            <span class="market-chip">${game.league}</span>
+            ${marketChipHtml(game.league)}
             <span class="movement ${index % 2 ? "down" : "up"}">${index % 2 ? "Watch" : "Move"}</span>
           </div>
           <div class="odd-row">

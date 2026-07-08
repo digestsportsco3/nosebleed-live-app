@@ -1474,6 +1474,20 @@ tbody tr:last-child td {
   color: var(--blue);
 }
 
+.market-chip-logo {
+  min-width: 44px;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  background: var(--surface-soft);
+}
+
+.market-chip-logo img {
+  display: block;
+  max-width: 30px;
+  max-height: 17px;
+  object-fit: contain;
+}
+
 .movement.up {
   background: #e8efe2;
   color: var(--green);
