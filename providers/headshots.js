@@ -61,6 +61,17 @@ async function getHeadshots() {
     }),
   );
 
+  // Tennis draws list the same player in singles and doubles - dedupe.
+  const seen = new Set();
+  const unique = athletes.filter((athlete) => {
+    const key = `${athlete.league}|${athlete.name}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  athletes.length = 0;
+  athletes.push(...unique);
+
   if (!athletes.length && cache) {
     return { ...cache.payload, meta: { ...cache.payload.meta, stale: true, errors } };
   }

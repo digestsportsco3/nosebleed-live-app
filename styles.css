@@ -1964,3 +1964,17 @@ tbody tr:last-child td {
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
+
+.app-footer {
+  margin-top: 8px;
+  padding: 18px 16px 22px;
+  border-top: 3px double var(--line-strong);
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.app-footer p {
+  margin: 0 0 4px;
+}

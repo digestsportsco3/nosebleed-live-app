@@ -2,6 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 const http = require("node:http");
 const crypto = require("node:crypto");
+const zlib = require("node:zlib");
 const { URL } = require("node:url");
 const grade = require("./lib/grade");
 const snapshots = require("./lib/snapshots");
@@ -77,13 +78,35 @@ const MIME_TYPES = {
 
 const responseCache = new Map();
 
+const SECURITY_HEADERS = {
+  "x-content-type-options": "nosniff",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "x-frame-options": "DENY",
+  "permissions-policy": "camera=(), microphone=(), geolocation=()",
+};
+
+function acceptsGzip(res) {
+  return String(res.req?.headers["accept-encoding"] || "").includes("gzip");
+}
+
 function sendJson(res, status, payload, extraHeaders = {}) {
-  res.writeHead(status, {
+  const body = JSON.stringify(payload);
+  const headers = {
     "content-type": "application/json; charset=utf-8",
     "cache-control": "no-store",
+    ...SECURITY_HEADERS,
     ...extraHeaders,
-  });
-  res.end(JSON.stringify(payload));
+  };
+
+  if (body.length > 1024 && acceptsGzip(res)) {
+    headers["content-encoding"] = "gzip";
+    res.writeHead(status, headers);
+    res.end(zlib.gzipSync(body));
+    return;
+  }
+
+  res.writeHead(status, headers);
+  res.end(body);
 }
 
 const SPORTS_CATALOG_TTL_MS = 60 * 60 * 1000;
@@ -1019,11 +1042,23 @@ function serveStatic(reqUrl, res) {
       return;
     }
 
-    const contentType = MIME_TYPES[path.extname(absolutePath).toLowerCase()] || "application/octet-stream";
-    res.writeHead(200, {
+    const extension = path.extname(absolutePath).toLowerCase();
+    const contentType = MIME_TYPES[extension] || "application/octet-stream";
+    const compressible = [".html", ".css", ".js", ".json", ".svg", ".md"].includes(extension);
+    const headers = {
       "content-type": contentType,
       "cache-control": "no-cache",
-    });
+      ...SECURITY_HEADERS,
+    };
+
+    if (compressible && acceptsGzip(res)) {
+      headers["content-encoding"] = "gzip";
+      res.writeHead(200, headers);
+      fs.createReadStream(absolutePath).pipe(zlib.createGzip()).pipe(res);
+      return;
+    }
+
+    res.writeHead(200, headers);
     fs.createReadStream(absolutePath).pipe(res);
   });
 }
