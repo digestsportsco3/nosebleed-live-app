@@ -1,9 +1,13 @@
 # Nosebleed Stat Desk (Big League Digest)
 
-Every morning: pull live numbers from the MLB Stats API, scan for anomalies,
-milestones and heat checks, and write a ranked list of 10 post ideas to
-`statdesk/briefs/YYYY-MM-DD-statdesk.md`. Nothing is verified or rendered at
-this stage; Nick picks, then verifies in Stathead.
+Every morning: a ranked list of 10 Hembo-style stat post ideas, statistically
+true, sourced, framed as questions for Nick to verify. Sources in priority
+order: Stathead (primary, through Nick's signed-in Chrome), ESPN and StatMuse
+(cross-check), MLB Stats API (automated bonus, no key or approval needed).
+
+The hub is a Claude Code session on Nick's main computer started with
+`claude --chrome`. Start here: `statdesk/SETUP-LOCAL.md`. Operating rules for
+that session: `statdesk/STATDESK.md`.
 
 ## Run it on demand
 

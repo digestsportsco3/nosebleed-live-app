@@ -18,6 +18,12 @@ const briefsDir = path.join(root, "briefs");
 
 (async () => {
   const adapter = require(`./sports/${sportKey}/adapter`);
+  if ("stathead-list" in args) {
+    const list = (adapter.rules.discovery || (() => []))(season);
+    console.log(`Stathead discovery queries for ${season} (${list.length}). Run each in Nick's signed-in browser; save provenance per STATDESK.md.\n`);
+    list.forEach((q, i) => console.log(`${String(i + 1).padStart(2)}. [${q.key}] ${q.query}`));
+    return;
+  }
   const log = new CallLog(dataDir, runDate);
   const summary = [];
   console.log(`[statdesk] ${adapter.sport} run for ${runDate} (season ${season}) started ${new Date().toISOString()}`);

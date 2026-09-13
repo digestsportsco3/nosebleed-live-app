@@ -168,3 +168,25 @@ const heat = [
 ];
 
 module.exports = { anomalies, milestones, heat };
+
+// Preset Stathead DISCOVERY queries (current season only). Printed by
+// `node statdesk/run.js --stathead-list`; the local session runs them in Nick's browser.
+const discovery = (season) => [
+  { key: "hr_low_avg", query: `Season Finder → Batting → Season = ${season} → filters: HR >= 25 AND BA <= .220 AND PA >= 350 → sort BA ascending` },
+  { key: "avg_no_walks", query: `Season Finder → Batting → Season = ${season} → filters: BA >= .295 AND PA >= 400 → sort BB ascending → keep rows with BB/PA <= 4.5%` },
+  { key: "sb_low_obp", query: `Season Finder → Batting → Season = ${season} → filters: SB >= 25 AND OBP <= .300 AND PA >= 350 → sort OBP ascending` },
+  { key: "era_low_k", query: `Season Finder → Pitching → Season = ${season} → filters: ERA <= 3.10 AND SO/9 <= 6.5 AND IP >= 100 AND GS >= 15 → sort SO/9 ascending` },
+  { key: "rbi_low_ops", query: `Season Finder → Batting → Season = ${season} → filters: RBI >= 80 AND OPS <= .700 AND PA >= 400 → sort OPS ascending` },
+  { key: "hits_few_runs", query: `Season Finder → Batting → Season = ${season} → filters: H >= 150 AND R <= 60 → sort R ascending` },
+  { key: "young_power", query: `Season Finder → Batting → Season = ${season} → filters: HR >= 25 AND Age <= 22 → sort HR descending` },
+  { key: "old_bat", query: `Season Finder → Batting → Season = ${season} → filters: OPS >= .850 AND Age >= 36 AND PA >= 350 → sort OPS descending` },
+  { key: "old_arm", query: `Season Finder → Pitching → Season = ${season} → filters: ERA <= 3.25 AND Age >= 37 AND IP >= 100 → sort ERA ascending` },
+  { key: "k_no_wins", query: `Season Finder → Pitching → Season = ${season} → filters: SO >= 190 AND W <= 8 AND GS >= 20 → sort W ascending` },
+  { key: "saves_bad_era", query: `Season Finder → Pitching → Season = ${season} → filters: SV >= 28 AND ERA >= 4.50 → sort ERA descending` },
+  { key: "hr_no_doubles", query: `Season Finder → Batting → Season = ${season} → filters: HR >= 28 AND 2B <= 14 AND PA >= 400 → sort 2B ascending` },
+  { key: "workhorse_low_k", query: `Season Finder → Pitching → Season = ${season} → filters: IP >= 170 AND SO <= 120 AND GS >= 20 → sort SO ascending` },
+  { key: "obp_no_power", query: `Season Finder → Batting → Season = ${season} → filters: OBP >= .380 AND HR <= 5 AND PA >= 400 → sort OBP descending` },
+  { key: "milestones", query: `Player pages (Baseball Reference) for any name surfaced above: career HR / RBI / R / SB / H (hitters), SO / IP / W (pitchers); flag within 10 HR, 25 RBI or R, 5 SB or W, 50 K, 50 IP, 50 H of a round number` },
+  { key: "heat", query: `Span Finder → Batting → last 15 and last 30 days ending yesterday → sort OPS descending, then HR descending; Span Finder → Pitching → last 30 days → sort ERA ascending. State the exact dates of every window.` },
+];
+module.exports.discovery = discovery;
