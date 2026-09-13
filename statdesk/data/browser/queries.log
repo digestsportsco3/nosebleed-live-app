@@ -1,0 +1,12 @@
+2026-09-13T14:16:59-04:00	Q001	stathead	batting-season-finder	SB>=46 OPS<=.535 PA>=450 1871-2026	rows=4	Nunez Q1
+2026-09-13T14:23:50-04:00	Q002	stathead	batting-season-finder	SB>=40 HR<=1 PA>=450 1871-2026	rows=171	Nunez Q2
+2026-09-13T14:25:11-04:00	Q003	stathead	pitching-season-finder	SO>=191 W<=5 1871-2026	rows=1	Detmers Q1
+2026-09-13T14:26:02-04:00	Q004	stathead	pitching-season-finder	SO>=191 W<=8 1871-2026	rows=23	Detmers Q1 widened
+2026-09-13T14:27:32-04:00	Q005	stathead	pitching-game-finder	2026 GS nodec IP>=6 ER<=1 count by player	rows=124	Detmers Q2
+2026-09-13T14:29:01-04:00	Q006	stathead	pitching-game-finder	1898-2026 GS nodec IP>=6 ER<=1 count by player-season	rows=200 (p1 of more; complete for Count>=6)	Detmers Q2 widened
+2026-09-13T14:29:42-04:00	Q007	stathead	pitching-season-finder	qual ERA<=2.93 SO9<=5.31 2000-2026	rows=4	Martinez Q1
+2026-09-13T14:30:40-04:00	Q008	stathead	pitching-season-finder	qual SO9<=5.5 BB9<=1.5 ERA<=3.00 1990-2026 (1871-2026 version capped at 200, not used)	rows=6	Martinez Q2
+2026-09-13T14:32:26-04:00	Q009	stathead	batting-season-finder	HR>=30 age<=22 1871-2026 (Q2 = rows HR>=31)	rows=53	Stewart Q1+Q2
+2026-09-13T14:33:09-04:00	Q010	stathead	pitching-season-finder	ERA<=2.18 IP>=150 age>=37 1871-2026	rows=14	Sale Q1
+2026-09-13T14:34:27-04:00	Q011	stathead	pitching-season-finder	SO>=190 age>=37 1871-2026	rows=33	Sale Q2 part 1
+2026-09-13T14:35:35-04:00	Q012	stathead	pitching-season-finder (combined/career)	career SO>=2700 1871-2026	rows=27	Sale Q2 part 2
