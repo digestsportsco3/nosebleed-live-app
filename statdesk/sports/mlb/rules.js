@@ -20,7 +20,7 @@ const anomalies = [
     key: "avg_no_walks", title: "High average, no walks", group: "hitting", weight: 38,
     qualify: (p) => p.season.PA >= 400, test: (p) => p.season.AVG >= 0.295 && pct(p.season.BB, p.season.PA) <= 4.5,
     describe: (p) => `${f3(p.season.AVG)} AVG, ${p.season.BB} BB in ${p.season.PA} PA (${pct(p.season.BB, p.season.PA)}% walk rate), ${p.seasonYear} in progress`,
-    why: () => `Hitting near .300 while almost never walking: a swing-at-everything profile.`,
+    why: () => `Hitting near .300 while rarely walking: a swing-at-everything profile.`,
     stathead: (p) => `Season Finder → Batting → filters: BA >= ${f3(p.season.AVG)} AND BB <= ${p.season.BB} AND PA >= ${p.season.PA} → all seasons → sort BB ascending. Who else is on the list, and how many rows since 2000?`,
     kicker: (p) => `DRAFT: ${p.name} is hitting ${f3(p.season.AVG)} with ${p.season.BB} walks.`,
   },
