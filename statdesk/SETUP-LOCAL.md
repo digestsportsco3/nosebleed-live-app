@@ -30,8 +30,9 @@ In Terminal (Mac) or PowerShell (Windows):
 
 Press Enter on the one-time Chrome dialog. Then paste this as your first message:
 
-    Read statdesk/STATDESK.md and follow it. Install Node.js if it is missing.
-    Run the morning formula now and show me today's 10.
+    Read statdesk/HANDOFF.md, then statdesk/STATDESK.md, and follow them.
+    Install Node.js if it is missing. Run the morning formula now and show me
+    today's 10. Push after every commit.
 
 Approve the "Claude in Chrome wants to..." prompt for stathead.com the first
 time, choosing "allow all actions on this site for the session."
@@ -43,3 +44,11 @@ Ask the session: "install the 7 AM scheduler." It runs
 schedule the API pull and brief. Caveat: the computer must be on at 7:00 AM.
 The Stathead discovery and verification steps need a running Claude session
 with Chrome, so those happen when you open the hub session in the morning.
+
+## 6. Before you close a session (every time)
+
+Say: "hand off". The session updates `statdesk/HANDOFF.md`, runs
+`statdesk/handoff.sh` (or `handoff.cmd`), and tells you the pushed commit.
+If you see "HANDOFF NOT PUSHED", do not close the terminal until it is fixed.
+If the session has no browser tools, this is also the first step before
+restarting with `claude --chrome`.

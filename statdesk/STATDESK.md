@@ -5,6 +5,11 @@ with the Chrome extension connected (`claude --chrome`). That session is the hub
 Nothing here overrides the rule above all rules: NEVER FABRICATE. Not numbers,
 not claims. Nothing beats a guess.
 
+## Before anything else: read `statdesk/HANDOFF.md`
+
+It holds the current state, the verified picks, the open questions, and what
+the last session left unfinished. Do not redo work that it says is done.
+
 ## Sources, in priority order
 
 1. STATHEAD (Baseball Reference) — PRIMARY. Nick's subscription, already signed
@@ -67,6 +72,11 @@ Every 2026 line is "2026 in progress" until the regular season ends.
    historical hook first, generic hot streaks last. Six lines per idea.
 5. STOP. Nick picks. Verification runs in the browser on his picks only.
    Graphics render only for verified picks, per the nosebleed-brand skill.
+6. HAND OFF. Update the "Current state" block of `statdesk/HANDOFF.md`, then
+   run `./statdesk/handoff.sh` (Windows: `statdesk\handoff.cmd`). It commits
+   and PUSHES. Report the pushed commit hash. Do this after every commit, and
+   always before the session closes, restarts, or switches to `--chrome`. A
+   commit that is not pushed does not exist to the next session.
 
 ## Attribution on anything published
 
