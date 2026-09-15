@@ -67,7 +67,12 @@ async function pull({ log, runDate, season, summary }) {
     for (const person of r.json.people || []) {
       for (const key of [`${person.id}:hitting`, `${person.id}:pitching`]) {
         const p = players.get(key); if (!p) continue;
-        p.age = num(person.currentAge); p.birthDate = person.birthDate || null; p.pos = person.primaryPosition ? person.primaryPosition.abbreviation : p.pos;
+        p.currentAge = num(person.currentAge); p.birthDate = person.birthDate || null; p.pos = person.primaryPosition ? person.primaryPosition.abbreviation : p.pos;
+        // Season age (June 30), NOT currentAge — see seasonAge() above.
+        p.age = seasonAge(p.birthDate, season);
+        if (p.age == null) p.age = p.seasonAgeFromSplit;
+        if (p.age == null) p.age = p.currentAge;
+        p.ageBasis = p.age == null ? null : `season age on June 30, ${season} (born ${p.birthDate || "unknown"}; age today ${p.currentAge == null ? "?" : p.currentAge})`;
         for (const block of person.stats || []) {
           const g = block.group && block.group.displayName; const t = block.type && block.type.displayName;
           if (t !== "career" || g !== p.group) continue;
@@ -148,7 +153,23 @@ function upsert(players, sp, group, stats, callId) {
   if (!sp.player) return;
   const key = `${sp.player.id}:${group}`;
   players.set(key, { id: sp.player.id, key, name: sp.player.fullName, team: sp.team ? sp.team.name : null, teamId: sp.team ? sp.team.id : null,
-    teamAbbr: sp.team ? teamAbbr(sp.team.name) : null, pos: sp.position ? sp.position.abbreviation : null, age: null, group, season: stats, career: null, windows: {}, sources: [callId] });
+    teamAbbr: sp.team ? teamAbbr(sp.team.name) : null, pos: sp.position ? sp.position.abbreviation : null, age: null, currentAge: null,
+    seasonAgeFromSplit: num(sp.stat && sp.stat.age), group, season: stats, career: null, windows: {}, sources: [callId] });
+}
+
+// Baseball Reference (and therefore Stathead) ages a season by how old the player
+// was on June 30 of that season. The MLB API's people endpoint returns currentAge,
+// the age TODAY, which is a year higher for anyone with a July–December birthday.
+// Filtering Stathead on currentAge returns zero rows. Always use season age.
+function seasonAge(birthDate, season) {
+  if (!birthDate) return null;
+  const b = new Date(`${birthDate}T12:00:00Z`);
+  if (isNaN(b)) return null;
+  const cutoff = new Date(`${season}-06-30T12:00:00Z`);
+  let age = cutoff.getUTCFullYear() - b.getUTCFullYear();
+  const md = (d) => d.getUTCMonth() * 100 + d.getUTCDate();
+  if (md(cutoff) < md(b)) age -= 1;
+  return age;
 }
 const ABBR = { "Arizona Diamondbacks": "ARI", "Atlanta Braves": "ATL", "Baltimore Orioles": "BAL", "Boston Red Sox": "BOS", "Chicago Cubs": "CHC", "Chicago White Sox": "CWS", "Cincinnati Reds": "CIN", "Cleveland Guardians": "CLE", "Colorado Rockies": "COL", "Detroit Tigers": "DET", "Houston Astros": "HOU", "Kansas City Royals": "KC", "Los Angeles Angels": "LAA", "Los Angeles Dodgers": "LAD", "Miami Marlins": "MIA", "Milwaukee Brewers": "MIL", "Minnesota Twins": "MIN", "New York Mets": "NYM", "New York Yankees": "NYY", "Athletics": "ATH", "Oakland Athletics": "OAK", "Philadelphia Phillies": "PHI", "Pittsburgh Pirates": "PIT", "San Diego Padres": "SD", "San Francisco Giants": "SF", "Seattle Mariners": "SEA", "St. Louis Cardinals": "STL", "Tampa Bay Rays": "TB", "Texas Rangers": "TEX", "Toronto Blue Jays": "TOR", "Washington Nationals": "WSH" };
 function teamAbbr(name) { return ABBR[name] || name; }
