@@ -23,7 +23,15 @@ Last updated: 2026-09-15, from the cloud session, reconstructed from the
   - c82ddd9 — fresh 10 for 2026-09-14 (`statdesk/briefs/2026-09-14-fresh10.md`),
     18 more Stathead records, and a wording fix in `statdesk/sports/mlb/rules.js`
     ("almost never" → "rarely" so the brief linter passes)
-- TO RECOVER: on that computer run `git push -u origin stats-research-pipeline`.
+- TO RECOVER: on that computer, open PowerShell and run BOTH lines. The `cd`
+  is required; running git from `C:\Users\Administrator` gives
+  "fatal: not a git repository".
+
+      cd C:\Users\Administrator\nosebleed-live-app
+      git push -u origin stats-research-pipeline
+
+  If that folder does not exist, find it with:
+  `Get-ChildItem -Path C:\Users -Filter nosebleed-live-app -Recurse -Directory -ErrorAction SilentlyContinue | Select-Object FullName`
   Then merge that branch into whatever branch is current, and merge this file
   with the local `session-handoff.md` (this file wins; delete the other).
 
