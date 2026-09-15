@@ -28,3 +28,23 @@
 2026-09-14T12:40:57-04:00	Q016	stathead	batting-game-finder combined	Aug30-Sep13 PA>=45 OPS>=1.000 (164 rows without floor)	rows=17	discovery heat 15d
 2026-09-14T12:40:57-04:00	Q017	stathead	batting-game-finder combined	Aug15-Sep13 PA>=90 HR>=10	rows=2	discovery heat 30d HR
 2026-09-14T12:40:57-04:00	Q018	stathead	pitching-game-finder combined	Aug15-Sep13 IP>=30 ERA<=1.50	rows=6	discovery heat 30d pitching
+2026-09-15T19:50:00-04:00	Q001	stathead	batting-season-finder	2026 HR>=25 BA<=.220 PA>=350	rows=2	discovery hr_low_avg
+2026-09-15T19:51:00-04:00	Q002	stathead	batting-season-finder	2026 BA>=.295 PA>=400 sort BB asc	rows=11	discovery avg_no_walks
+2026-09-15T19:52:00-04:00	Q003	stathead	batting-season-finder	2026 SB>=25 OBP<=.300 PA>=350	rows=2	discovery sb_low_obp
+2026-09-15T19:53:00-04:00	Q004	stathead	pitching-season-finder	2026 ERA<=3.10 SO9<=6.5 IP>=100 GS>=15	rows=1	discovery era_low_k
+2026-09-15T19:54:00-04:00	Q005	stathead	batting-season-finder	2026 RBI>=80 OPS<=.700 PA>=400	rows=2	discovery rbi_low_ops
+2026-09-15T19:55:00-04:00	Q006	stathead	batting-season-finder	2026 H>=150 R<=60	rows=2	discovery hits_few_runs
+2026-09-15T19:56:00-04:00	Q007	stathead	batting-season-finder	2026 HR>=25 Age<=22	rows=2	discovery young_power; AGE FIX VERIFIED
+2026-09-15T19:57:00-04:00	Q008	stathead	batting-season-finder	2026 OPS>=.850 Age>=36 PA>=350	rows=0	discovery old_bat
+2026-09-15T19:58:00-04:00	Q009	stathead	pitching-season-finder	2026 ERA<=3.25 Age>=37 IP>=100	rows=1	discovery old_arm
+2026-09-15T19:59:00-04:00	Q010	stathead	pitching-season-finder	2026 SO>=190 W<=8 GS>=20	rows=1	discovery k_no_wins
+2026-09-15T20:00:00-04:00	Q011	stathead	pitching-season-finder	2026 SV>=28 ERA>=4.50	rows=0	discovery saves_bad_era
+2026-09-15T20:01:00-04:00	Q012	stathead	batting-season-finder	2026 HR>=28 2B<=14 PA>=400	rows=1	discovery hr_no_doubles
+2026-09-15T20:02:00-04:00	Q013	stathead	pitching-season-finder	2026 IP>=170 SO<=120 GS>=20	rows=0	discovery workhorse_low_k
+2026-09-15T20:03:00-04:00	Q014	stathead	batting-season-finder	2026 OBP>=.380 HR<=5 PA>=400	rows=0	discovery obp_no_power
+2026-09-15T20:05:00-04:00	Q015	stathead	batting-game-finder combined	Aug31-Sep14 PA>=45 OPS>=1.000	rows=23	discovery heat 15d
+2026-09-15T20:06:00-04:00	Q016	stathead	batting-game-finder combined	Aug16-Sep14 PA>=90 HR>=10	rows=3	discovery heat 30d HR
+2026-09-15T20:07:00-04:00	Q017	stathead	pitching-game-finder combined	Aug16-Sep14 IP>=30 ERA<=1.50	rows=5	discovery heat 30d pitching
+2026-09-15T20:09:00-04:00	Q018	baseball-reference	player page detmere01	career pitching row, 6 Yrs	rows=1	milestone Detmers 697 K
+2026-09-15T20:11:00-04:00	Q019	baseball-reference	player page crowape01	career batting row, 4 Yrs	rows=1	milestone Crow-Armstrong 398 H
+2026-09-15T20:13:00-04:00	Q020	baseball-reference	player page adelljo01	career batting row, 7 Yrs	rows=1	milestone Adell 96 HR (API says 97)
