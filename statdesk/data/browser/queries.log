@@ -1,0 +1,30 @@
+2026-09-13T14:16:59-04:00	Q001	stathead	batting-season-finder	SB>=46 OPS<=.535 PA>=450 1871-2026	rows=4	Nunez Q1
+2026-09-13T14:23:50-04:00	Q002	stathead	batting-season-finder	SB>=40 HR<=1 PA>=450 1871-2026	rows=171	Nunez Q2
+2026-09-13T14:25:11-04:00	Q003	stathead	pitching-season-finder	SO>=191 W<=5 1871-2026	rows=1	Detmers Q1
+2026-09-13T14:26:02-04:00	Q004	stathead	pitching-season-finder	SO>=191 W<=8 1871-2026	rows=23	Detmers Q1 widened
+2026-09-13T14:27:32-04:00	Q005	stathead	pitching-game-finder	2026 GS nodec IP>=6 ER<=1 count by player	rows=124	Detmers Q2
+2026-09-13T14:29:01-04:00	Q006	stathead	pitching-game-finder	1898-2026 GS nodec IP>=6 ER<=1 count by player-season	rows=200 (p1 of more; complete for Count>=6)	Detmers Q2 widened
+2026-09-13T14:29:42-04:00	Q007	stathead	pitching-season-finder	qual ERA<=2.93 SO9<=5.31 2000-2026	rows=4	Martinez Q1
+2026-09-13T14:30:40-04:00	Q008	stathead	pitching-season-finder	qual SO9<=5.5 BB9<=1.5 ERA<=3.00 1990-2026 (1871-2026 version capped at 200, not used)	rows=6	Martinez Q2
+2026-09-13T14:32:26-04:00	Q009	stathead	batting-season-finder	HR>=30 age<=22 1871-2026 (Q2 = rows HR>=31)	rows=53	Stewart Q1+Q2
+2026-09-13T14:33:09-04:00	Q010	stathead	pitching-season-finder	ERA<=2.18 IP>=150 age>=37 1871-2026	rows=14	Sale Q1
+2026-09-13T14:34:27-04:00	Q011	stathead	pitching-season-finder	SO>=190 age>=37 1871-2026	rows=33	Sale Q2 part 1
+2026-09-13T14:35:35-04:00	Q012	stathead	pitching-season-finder (combined/career)	career SO>=2700 1871-2026	rows=27	Sale Q2 part 2
+2026-09-14T12:35:02-04:00	Q001	stathead	batting-season-finder	2026 HR>=25 BA<=.220 PA>=350	rows=2	discovery hr_low_avg
+2026-09-14T12:35:02-04:00	Q002	stathead	batting-season-finder	2026 BA>=.295 PA>=400 sort BB	rows=10	discovery avg_no_walks
+2026-09-14T12:35:52-04:00	Q003	stathead	batting-season-finder	2026 SB>=25 OBP<=.300 PA>=350	rows=3	discovery sb_low_obp
+2026-09-14T12:35:52-04:00	Q004	stathead	pitching-season-finder	2026 ERA<=3.10 SO9<=6.5 IP>=100 GS>=15	rows=1	discovery era_low_k
+2026-09-14T12:36:46-04:00	Q005	stathead	batting-season-finder	2026 RBI>=80 OPS<=.700 PA>=400	rows=2	discovery rbi_low_ops
+2026-09-14T12:36:46-04:00	Q006	stathead	batting-season-finder	2026 H>=150 R<=60	rows=1	discovery hits_few_runs
+2026-09-14T12:36:46-04:00	Q007	stathead	batting-season-finder	2026 HR>=25 age<=22	rows=2	discovery young_power
+2026-09-14T12:38:18-04:00	Q008	stathead	batting-season-finder	2026 OPS>=.850 age>=36 PA>=350	rows=0	discovery old_bat
+2026-09-14T12:38:18-04:00	Q009	stathead	pitching-season-finder	2026 ERA<=3.25 age>=37 IP>=100	rows=1	discovery old_arm
+2026-09-14T12:38:18-04:00	Q010	stathead	pitching-season-finder	2026 SO>=190 W<=8 GS>=20	rows=1	discovery k_no_wins
+2026-09-14T12:38:18-04:00	Q011	stathead	batting-season-finder	2026 OPS>=.800 age>=35 PA>=350	rows=2	Muncy age check
+2026-09-14T12:38:18-04:00	Q012	stathead	pitching-season-finder	2026 SV>=28 ERA>=4.50	rows=0	discovery saves_bad_era
+2026-09-14T12:39:17-04:00	Q013	stathead	batting-season-finder	2026 HR>=28 2B<=14 PA>=400	rows=1	discovery hr_no_doubles
+2026-09-14T12:39:17-04:00	Q014	stathead	pitching-season-finder	2026 IP>=170 SO<=120 GS>=20	rows=0	discovery workhorse_low_k
+2026-09-14T12:39:17-04:00	Q015	stathead	batting-season-finder	2026 OBP>=.380 HR<=5 PA>=400	rows=0	discovery obp_no_power
+2026-09-14T12:40:57-04:00	Q016	stathead	batting-game-finder combined	Aug30-Sep13 PA>=45 OPS>=1.000 (164 rows without floor)	rows=17	discovery heat 15d
+2026-09-14T12:40:57-04:00	Q017	stathead	batting-game-finder combined	Aug15-Sep13 PA>=90 HR>=10	rows=2	discovery heat 30d HR
+2026-09-14T12:40:57-04:00	Q018	stathead	pitching-game-finder combined	Aug15-Sep13 IP>=30 ERA<=1.50	rows=6	discovery heat 30d pitching
