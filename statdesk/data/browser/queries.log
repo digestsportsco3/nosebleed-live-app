@@ -48,3 +48,4 @@
 2026-09-15T20:09:00-04:00	Q018	baseball-reference	player page detmere01	career pitching row, 6 Yrs	rows=1	milestone Detmers 697 K
 2026-09-15T20:11:00-04:00	Q019	baseball-reference	player page crowape01	career batting row, 4 Yrs	rows=1	milestone Crow-Armstrong 398 H
 2026-09-15T20:13:00-04:00	Q020	baseball-reference	player page adelljo01	career batting row, 7 Yrs	rows=1	milestone Adell 96 HR (API says 97)
+2026-09-15T20:16:00-04:00	Q021	stathead	batting-season-finder	2026 HR>=30 SB>=25	rows=2	follow-up 40-40 watch PCA 42/37
