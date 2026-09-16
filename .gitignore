@@ -10,3 +10,7 @@ pnpm-debug.log*
 Thumbs.db
 data/grades.json
 data/snapshots.json
+
+# Contract records: never commit operator PII to this public repo
+contracts/private/
+contracts/**/*.pdf
