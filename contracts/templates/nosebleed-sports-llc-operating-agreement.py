@@ -181,9 +181,9 @@ defs = [
                                  % fmt(AUTHORIZED_UNITS)),
     ("Good Leaver", "a Member whose Service ends other than as a Bad Leaver."),
     ("JGN", "JGN Media LLC, a separate limited liability company whose ownership is shown for context on Schedule E."),
-    ("JGN Advances", "approximately $2,000 of documented July 2026 AI and development expenses, primarily OpenAI and "
-                     "Anthropic/Claude development expenses, paid by JGN on the Company's behalf before formation, together with "
-                     "any further such advances recorded by the Chief Executive Officer. JGN Advances are obligations of the Company "
+    ("JGN Advances", "approximately $5,000 of documented AI, development and operating expenses, primarily OpenAI and "
+                     "Anthropic/Claude development expenses, paid by JGN on the Company's behalf before and after formation through "
+                     "the Effective Date, together with any further such advances recorded by the Chief Executive Officer. JGN Advances are obligations of the Company "
                      "to JGN under Section 3.8. They are not Capital Contributions, are not founder advances, and do not entitle "
                      "JGN or any Member to Units."),
     ("JGN Retained Assets", "the JGN assets listed on Schedule D, including legacy social accounts, historical content, legacy media "
@@ -309,11 +309,11 @@ s.append(P("<b>3.7 Capital Contributions and Capital Accounts.</b> Capital Contr
            "Account will be maintained for each Member in accordance with Treasury Regulation Section 1.704-1(b)(2)(iv), and the "
            "Members may adjust Capital Accounts as that Regulation permits, including on any issuance of Units in consideration of "
            "services."))
-s.append(P("<b>3.8 JGN Advances.</b> The Members acknowledge the JGN Advances, being approximately $2,000 of documented July 2026 "
-           "AI and development expenses paid by JGN on the Company's behalf, to be reconciled and recorded by the Chief Executive "
+s.append(P("<b>3.8 JGN Advances.</b> The Members acknowledge the JGN Advances, being approximately $5,000 of documented AI, development "
+           "and operating expenses paid by JGN on the Company's behalf through the Effective Date, to be reconciled and recorded by the Chief Executive "
            "Officer. The JGN Advances are unsecured, non-interest-bearing obligations of the Company to JGN, repayable when the "
            "Members determine that cash is reasonably available. They are not Capital Contributions, are not founder advances, and "
-           "do not entitle JGN or any Member to any Units or other interest in the Company."))
+           "do not entitle JGN or any Member to any Units or other interest in the Company. The Members acknowledge that JGN has funded the Company's development and operating costs to date and intends, without obligation and in its discretion, to continue bearing those costs until the Company generates cash flow sufficient to fund its own operations; that each further amount JGN pays on the Company's behalf is a JGN Advance on the same terms; that the Class A allocation on Schedule A was set with that funding understanding in view; and that no JGN funding, past or future, creates any Capital Contribution, Unit, ownership, voting, information or approval right in favor of JGN or any Member."))
 s.append(P("<b>3.9 Member admission; joinder.</b> Each Person listed on Schedule A is admitted as a Member as of the Effective Date "
            "upon notation on Schedule A. Additional Class A Members may be admitted only with Supermajority Approval. Class B "
            "Members are admitted upon issuance under Section 3.4 and execution of a joinder in the form of Schedule G. Every new "

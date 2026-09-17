@@ -35,8 +35,7 @@ JGN_MODE = BRAND_KIT_OWNER == "JGN"
 WORKDIR          = os.path.dirname(os.path.abspath(__file__))
 
 JGN_NAME         = "JGN Media LLC"
-# JGN's state of formation is NOT confirmed in any document in the record. "New York" is the
-# working assumption used in every other JGN contract. See INTERCOMPANY_MEMO.md, open items.
+# JGN's state of formation: New York, confirmed by Nicholas Restivo 2026-09-17.
 JGN_STATE        = "New York"
 JGN_ADDRESS      = "105 Broadway, Rockville Centre, New York 11570"
 JGN_SIGNER       = "Nicholas Restivo"
@@ -44,7 +43,7 @@ JGN_SIGNER_TITLE = "Chief Executive Officer"
 JGN_MEMBERS      = ["Nicholas Restivo", "[JGN member]", "[JGN member]", "[JGN member]", "[JGN member]"]  # fill from the private record
 JGN_MEMBER_PCT   = "__%"
 JGN_THRESHOLD    = "eighty percent (80%)"
-JGN_ADVANCES     = "approximately $2,000"
+JGN_ADVANCES     = "approximately $5,000"
 
 COMPANY_NAME     = "Nosebleed Sports LLC"
 COMPANY_SHORT    = "the Company"

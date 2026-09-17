@@ -159,8 +159,8 @@ s.append(P("<b>5.3 Remittance of Company revenue.</b> There is no Company revenu
            "receipts, deductions and net amount. JGN will not apply Company receipts against the "
            "JGN Advances described in Section 5.4 or against any other obligation without the "
            "Company's written approval."))
-s.append(P("<b>5.4 JGN Advances are separate.</b> JGN paid " + JGN_ADVANCES + " of documented July "
-           "2026 development expenses on the Company's behalf before formation. Those amounts are "
+s.append(P("<b>5.4 JGN Advances are separate.</b> JGN paid " + JGN_ADVANCES + " of documented "
+           "development and operating expenses on the Company's behalf through the Effective Date, and may continue to advance such costs. Those amounts are "
            "an unsecured, non-interest-bearing obligation of the Company to JGN under Section 3.8 "
            "of the " + T_OA + ", repayable when the Company's Members determine cash is reasonably "
            "available. They are not capital contributions, not equity and not consideration for "

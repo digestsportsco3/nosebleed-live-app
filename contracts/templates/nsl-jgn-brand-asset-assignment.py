@@ -143,7 +143,9 @@ if JGN_MODE:
                "and its successors. Where a waiver is not permitted, each of them agrees instead not "
                "to assert those rights against JGN, its licensees or its successors. " + CTO_NAME +
                "'s PIIA contains a corresponding waiver in favor of the Company, the benefit of which "
-               "is assigned to JGN under Section 2.1."))
+               "is assigned to JGN under Section 2.1. No separate signature of " + CTO_NAME + " is required on this "
+               "Assignment: his PIIA and his execution of the " + T_OA + ", which approves this Assignment and recites the "
+               "chain of title, are sufficient."))
 
     s.append(H("5. Representations; No Assumption of Liabilities"))
     s.append(P("<b>5.1 Company.</b> The Company represents that it has the power and authority to make "
@@ -194,10 +196,6 @@ if JGN_MODE:
                "Effective Date."))
     sigblock_pair(s, ("ASSIGNOR", COMPANY_NAME, CEO_NAME, CEO_TITLE),
                      ("ASSIGNEE", JGN_NAME, JGN_SIGNER, JGN_SIGNER_TITLE))
-    s.append(Spacer(1, 6))
-    s.append(P("Acknowledged, as to the chain of title recited in Recital A and the waiver in Section "
-               "4: &nbsp; Signature: ____________________________ &nbsp; Name: " + CTO_NAME +
-               " &nbsp; Date: __________________", sig_style))
 
     build(s, OUT, T_ASSIGN + " " + DASH + " " + COMPANY_NAME + " to " + JGN_NAME)
 

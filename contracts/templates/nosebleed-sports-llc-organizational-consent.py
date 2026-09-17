@@ -288,13 +288,14 @@ s.append(P("RESOLVED FURTHER, that the Members confirm that JGN retains the JGN 
 
 # ---------------------------------------------------------------- 14
 s.append(H("14. JGN Advances"))
-s.append(P("RESOLVED, that the Members acknowledge that JGN paid approximately <b>$2,000</b> of documented July 2026 AI and "
-           "development expenses, primarily OpenAI and Anthropic/Claude development expenses, on the Company's behalf before "
-           "formation; that those amounts, together with any further such advances recorded by the Chief Executive Officer, are "
+s.append(P("RESOLVED, that the Members acknowledge that JGN paid approximately <b>$5,000</b> of documented AI, development and "
+           "operating expenses, primarily OpenAI and Anthropic/Claude development expenses, on the Company's behalf before and after "
+           "formation through the Effective Date; that those amounts, together with any further such advances recorded by the Chief Executive Officer, are "
            "unsecured, non-interest-bearing obligations of the Company to JGN repayable when the Members determine cash is "
            "reasonably available, all as provided in Section 3.8 of the LLC Agreement; and that they are not Capital "
            "Contributions, are not founder advances, are not consideration for any Unit, and do not entitle JGN or any Member to "
            "any Units or other interest in the Company."))
+s.append(P("RESOLVED FURTHER, that the Members acknowledge that JGN has funded the Company's development and operating costs to date and intends, without obligation and in its discretion, to continue bearing those costs until the Company generates cash flow sufficient to fund its own operations; that each further amount JGN pays on the Company's behalf is a JGN Advance on the same terms; that the Class A allocation on Schedule A was set with that funding understanding in view; and that no JGN funding, past or future, creates any Capital Contribution, Unit, ownership, voting, information or approval right in favor of JGN or any Member."))
 
 # ---------------------------------------------------------------- 15
 s.append(H("15. JGN Intercompany Agreements"))

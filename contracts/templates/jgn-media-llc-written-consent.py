@@ -207,8 +207,8 @@ s.append(P("RESOLVED, that JGN is authorized and directed to file an application
 # ---------------------------------------------------------------- 10
 s.append(H("10. JGN Advances"))
 s.append(P("RESOLVED, that the members acknowledge that JGN paid " + JGN_ADVANCES + " of documented "
-           "July 2026 AI and development expenses, primarily OpenAI and Anthropic development "
-           "expenses, on the Company's behalf before the Company was formed; that those amounts, "
+           "AI, development and operating expenses, primarily OpenAI and Anthropic development "
+           "expenses, on the Company's behalf before and after the Company was formed, through the Effective Date; that those amounts, "
            "together with any further such advances the Company's " + CEO_TITLE + " records, are an "
            "unsecured, non-interest-bearing obligation of the Company to JGN, repayable when the "
            "Company's members determine cash is reasonably available, as provided in Section 3.8 of "
@@ -216,6 +216,11 @@ s.append(P("RESOLVED, that the members acknowledge that JGN paid " + JGN_ADVANCE
            "<b>not</b> equity, <b>not</b> consideration for any unit or other interest in the "
            "Company, and give JGN no ownership, voting, information or approval right in the "
            "Company."))
+s.append(P("RESOLVED FURTHER, that JGN intends, without obligation and in its discretion, to continue bearing the "
+           "Company's development and operating costs until the Company generates cash flow sufficient to fund its own "
+           "operations, as mutually understood among the members of both entities; that each further amount JGN pays on the "
+           "Company's behalf is an advance on the same terms; and that no such funding, past or future, gives JGN any "
+           "capital, unit, ownership, voting, information or approval right in the Company."))
 s.append(P("RESOLVED FURTHER, that JGN is authorized to accept repayment when offered, to record the "
            "obligation on its books as a receivable, and that " + JGN_SIGNER + " will reconcile the "
            "advances to documentation and record the final amount with the Company's " + CEO_TITLE +
