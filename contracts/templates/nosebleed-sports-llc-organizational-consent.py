@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# TEMPLATE — public repository copy. Names, EIN and JGN ownership are placeholders; fill from the
+# private master record before generating a signing copy. Never commit a filled copy.
 """Initial Member and Organizational Written Consent of Nosebleed Sports LLC (Delaware) - merged rev. 3.
 
 Merges the prior "Version 2.0" binder organizational consent (organizational actions, officers,
@@ -23,10 +25,9 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable)
 
-OUT = os.environ.get("OUT_PDF", "nosebleed-sports-llc-organizational-consent.pdf")
+OUT = os.environ.get("OUT_PDF", "/tmp/claude-0/-home-user-nosebleed-live-app/ecc18d17-e4d3-528c-9888-bab4914ffe2f/scratchpad/Nosebleed_Sports_LLC_Organizational_Consent.pdf")
 
 # =============================== FILL-INS ===============================
-# PUBLIC TEMPLATE: member names, JGN ownership, EIN and emails are placeholders. Fill from the private master record.
 COMPANY_NAME     = "Nosebleed Sports LLC"
 EFFECTIVE_DATE   = "____________, 2026"
 FORMATION_DATE   = "August 7, 2026"
@@ -43,6 +44,20 @@ SPEND_THRESHOLD  = "$3,000"
 DEBT_THRESHOLD   = "$25,000"
 AFFILIATE_ROLLING = "ten thousand dollars"
 BROCK_SA         = "Talent, Handicapping, and Content Services Agreement among JGN Media LLC, the Company, and [Class B Member]"
+
+# ---- BRAND SWITCH (shared with the JGN intercompany generators; see nbs_style.py) ----
+# "JGN" (default, recommended): the whole brand sits in JGN. The Company assigns the new brand kit to
+#       JGN under the Brand Asset Assignment and takes it back under the Master Brand and Trademark
+#       License. "NSL" (fallback): the Company keeps the brand kit and licenses it to JGN.
+BRAND_KIT_OWNER  = os.environ.get("BRAND_KIT_OWNER", "JGN").upper()
+assert BRAND_KIT_OWNER in ("JGN", "NSL"), "BRAND_KIT_OWNER must be 'JGN' or 'NSL'"
+JGN_MODE         = BRAND_KIT_OWNER == "JGN"
+T_MASTER         = "Master Brand and Trademark License"
+T_ASSIGN         = "Brand Asset Assignment"
+T_LOGO           = "Logo and Visual Identity License"
+T_MKTG           = "Marketing and Audience License"
+T_TSA            = "Transition Services Agreement"
+T_SECOND         = T_ASSIGN if JGN_MODE else T_LOGO
 
 MEMBERS = [("Nicholas Restivo", 2_000_000), ("[Founder B]", 2_000_000), ("[Founder C]", 1_300_000),
            ("[Founder D]", 1_300_000), ("[Founder E]", 1_300_000), ("[Founder F]", 1_100_000)]
@@ -181,7 +196,7 @@ s.append(P("RESOLVED FURTHER, that for purposes of Section 3.4 of the LLC Agreem
 
 # ---------------------------------------------------------------- 7
 s.append(H("7. Former Participants"))
-s.append(P("RESOLVED, that the Members confirm that [former participant 1] and [former participant 2] are not Members of the Company, hold no "
+s.append(P("RESOLVED, that the Members confirm that Jacob Skonieczny and Louis Stathis are not Members of the Company, hold no "
            "Units and no right to acquire Units, hold no office and have no title, are not parties to any equity, vesting, "
            "assignment or other document of the Company, and have no economic, voting, information or approval rights of any kind; "
            "and that any prior draft naming either of them in any such capacity is superseded and of no force or effect. Nothing "
@@ -255,12 +270,17 @@ s.append(P("RESOLVED, that the Company is authorized to receive, and the Chief E
            "listed on Schedule C to the LLC Agreement, including the identified product repositories, the domains "
            "nosebleedsport.com and nosebleedsportsmedia.com and their subdomains, the Nosebleed Discord server and its "
            "integrations and member data, the confirmed infrastructure and product service accounts (Vercel, Supabase, Clerk, "
-           "Whop, Resend, PostHog and Google Workspace), the product-specific logo, design and brand-kit assets, and the website, "
+           "Whop, Resend, PostHog and Google Workspace), %s and the website, "
            "app, backend, APIs, databases, picks systems, prediction models, AI systems and product-specific content created for "
            "the Nosebleed Sports product business, in each case subject to third-party platform terms and to completion of "
-           "post-closing operational transfer steps."))
+           "post-closing operational transfer steps."
+           % ("no part of the master NOSEBLEED SPORTS brand, trademark or brand kit (Schedule C assigns neither, and the brand "
+              "kit reaches the Company under [Founder B]'s PIIA and is assigned on to JGN as provided in Section 16),"
+              if JGN_MODE else
+              "the product-specific logo, design and brand-kit assets,")))
 s.append(P("RESOLVED FURTHER, that the Members confirm that JGN retains the JGN Retained Assets listed on Schedule D to the LLC "
-           "Agreement, including the master NOSEBLEED SPORTS name, brand and trademark and the historical goodwill in it, the "
+           "Agreement, including the master NOSEBLEED SPORTS name, brand and trademark and the historical goodwill in it%s, the "
+           % (" and the brand kit acquired from the Company under the %s" % T_ASSIGN if JGN_MODE else "") +
            "legacy social media accounts, legacy media assets, historical content, historical sponsorship, advertising and "
            "affiliate agreements, historical revenue, and JGN's Apple Developer, Stripe, payment and AI-history accounts; and "
            "that the Company receives only the assignment, license or transition rights expressly granted in the JGN agreements "
@@ -278,24 +298,50 @@ s.append(P("RESOLVED, that the Members acknowledge that JGN paid approximately <
 
 # ---------------------------------------------------------------- 15
 s.append(H("15. JGN Intercompany Agreements"))
-s.append(P("RESOLVED, that the Company is authorized to enter into the following three separate agreements with JGN, which are "
+s.append(P("RESOLVED, that the Company is authorized to enter into the following %s agreements with JGN, which are "
            "distinct and are not to be consolidated, and that the Chief Executive Officer is authorized to execute and deliver "
-           "them on the Company's behalf:"))
-s.append(BUL("<b>(a) Master Brand and Trademark License</b> from JGN to the Company, granting the Company the exclusive right to "
-             "use the NOSEBLEED SPORTS name, master brand and trademark in the field of the Company's app, website, Discord, "
-             "subscription and premium offerings and related technology products, and surviving a bona fide Change of Control of "
-             "the Company subject to reasonable successor and quality-control terms;"))
-s.append(BUL("<b>(b) Logo and Visual Identity License</b> from the Company to JGN, permitting JGN to use the Company-owned logo, "
-             "design and visual-identity assets on JGN's retained media properties; and"))
-s.append(BUL("<b>(c) Marketing and Audience License</b> from JGN to the Company, granting the Company a nonexclusive, "
-             "royalty-free license to distribute Company content and offers through JGN's legacy social media properties."))
+           % ("separate" if JGN_MODE else "three separate") +
+           "them on the Company's behalf. For this purpose the \"Product Field\" means digital products and services offered "
+           "under the NOSEBLEED SPORTS brand, including mobile and web applications, websites, community platforms (including "
+           "Discord), premium picks and subscription offerings, in-product commerce, and successor products of any of the "
+           "foregoing; and the "
+           "\"Media Field\", which JGN retains, means social media accounts and content, editorial and media publishing, "
+           "sponsorships and brand deals on JGN properties, and advertising."))
+s.append(BUL("<b>(a) %s</b> from JGN to the Company, granting the Company the exclusive, royalty-free, perpetual right to use "
+             "the NOSEBLEED SPORTS name, master brand and trademark%s in the Product Field, sublicensable to the Company's "
+             "contractors, surviving a bona fide Change of Control of the Company automatically and for the benefit of the "
+             "successor, and terminable by JGN only for the Company's uncured material breach of reasonable quality-control "
+             "standards after sixty (60) days' notice and opportunity to cure;"
+             % (T_MASTER, " and the brand kit" if JGN_MODE else "")))
+s.append(BUL(("<b>(b) %s</b> from the Company to JGN, under which the Company assigns to JGN the logo artwork and source files, "
+              "logo variations, visual identity, design system and product-brand design assets it receives under "
+              "[Founder B]'s PIIA, so that the whole of the brand is held in one entity, in consideration of the license in paragraph "
+              "(a) and for no cash consideration;" % T_ASSIGN)
+             if JGN_MODE else
+             ("<b>(b) %s</b> from the Company to JGN, permitting JGN to use the Company-owned logo, design and visual-identity "
+              "assets in the Media Field on JGN's retained media properties;" % T_LOGO)))
+s.append(BUL("<b>(c) %s</b> from JGN to the Company, granting the Company a nonexclusive, royalty-free license to distribute "
+             "Company content and offers through JGN's legacy social media properties, terminable on thirty (30) days' notice "
+             "and not transferring to a purchaser of the Company standing alone; and" % T_MKTG))
+if JGN_MODE:
+    s.append(BUL("<b>(d) %s</b> between JGN and the Company, under which the Company may use JGN's Apple Developer, Stripe and "
+                 "other retained infrastructure temporarily where platform rules permit, until the Company's own accounts are "
+                 "live, for no service fee, reimbursing documented third-party costs only, with JGN remitting any Company "
+                 "revenue it receives every two weeks." % T_TSA))
 s.append(Spacer(1, 4))
-s.append(P("RESOLVED FURTHER, that a transition services arrangement with JGN for temporary use of JGN infrastructure is approved "
-           "in principle, subject to Apple Developer, Stripe, app-store and payment-processor terms; that these agreements remain "
-           "subject to JGN's own separate required approval under its governing documents; and that, the undersigned being aware "
-           "that several Members are also members of JGN, this approval by all Class A Members satisfies Section 5.11 of the LLC "
-           "Agreement for these agreements, for the JGN Advances and for the Brock Service Agreement and the issuances within the "
-           "Brock Reserve, so that no further related-party approval is required for them."))
+if not JGN_MODE:
+    s.append(P("RESOLVED FURTHER, that the <b>%s</b> with JGN for temporary use of JGN infrastructure is approved, subject to "
+               "Apple Developer, Stripe, app-store and payment-processor terms, on the basis that no service fee is payable, "
+               "that the Company reimburses documented third-party costs only, and that JGN remits any Company revenue it "
+               "receives every two weeks." % T_TSA))
+s.append(P("RESOLVED FURTHER, that the <b>%s</b> of the Company is adopted as the record of the target owner and current status "
+           "of each Company account and system, and the Chief Executive Officer is directed to keep it current; that the "
+           "agreements above are subject to Apple Developer, Stripe, app-store and payment-processor terms and remain subject to "
+           "JGN's own separate required approval under its governing documents, which JGN gives by the written consent of its "
+           "members; and that, the undersigned being aware that several Members are also members of JGN, this approval by all "
+           "Class A Members satisfies Section 5.11 of the LLC Agreement for these agreements, for the JGN Advances and for the "
+           "Brock Service Agreement and the issuances within the Brock Reserve, so that no further related-party approval is "
+           "required for them." % "Company Account and Infrastructure Schedule"))
 
 # ---------------------------------------------------------------- 16
 s.append(H("16. Proprietary Information and Inventions Assignment Agreements"))
@@ -303,9 +349,18 @@ s.append(P("RESOLVED, that each Class A Member will execute a Proprietary Inform
            "Data Security and Non-Solicitation Agreement in the Company's standard form as a condition of holding Units; that "
            "[Founder B]'s agreement will expressly assign to the Company, to the extent personally owned, the current "
            "Nosebleed logo artwork and source files, logo variations, current visual identity, new design system, product-brand "
-           "design assets and derivative works; that all such assignments run to the Company and not to JGN, whose use of "
-           "Company-owned logo and design assets is governed solely by the Logo and Visual Identity License; and that the "
-           "intellectual property and confidentiality obligations of [Class B Member] are governed by the Brock Service Agreement."))
+           "design assets and derivative works (the \"Brand Kit\"); that every such assignment runs to the Company and not to "
+           "JGN; %s and that the intellectual property and confidentiality obligations of [Class B Member] are governed by the Brock "
+           "Service Agreement."
+           % ("that the Brand Kit then follows a single chain of title, being [Founder B] to the Company under his agreement "
+              "and the Company to JGN under the %s approved in Section 15, in consideration of the %s under which the Company "
+              "holds an exclusive, royalty-free, perpetual license to use the Brand Kit and the master brand together in the "
+              "Product Field; that the Company's continuing use of the Brand Kit is under that license; and that the Chief "
+              "Executive Officer is authorized to execute that assignment and to deliver the brand source and design files to "
+              "JGN, the Company retaining working copies;" % (T_ASSIGN, T_MASTER)
+              if JGN_MODE else
+              "that the Company owns the Brand Kit and JGN's use of Company-owned logo and design assets is governed solely by "
+              "the %s;" % T_LOGO)))
 
 # ---------------------------------------------------------------- 17
 s.append(H("17. Disinterested Signature Authority"))
@@ -345,7 +400,7 @@ s.append(P("RESOLVED, that the \"Version 2.0 Master Change Log, Interim Institut
            "materials, instructions or control logs under Section 83 of the Internal Revenue Code and any Form 15620 materials, "
            "any founder unit purchase agreements or payment instructions, closing statements, payment ledgers or payment receipts, "
            "and any capitalization, vesting, officer or signature schedule that recites a per-Unit or aggregate valuation, lists "
-           "[former participant 1] or [former participant 2] as a holder, officer or party, or reflects issuance of one hundred percent (100%%) "
+           "Jacob Skonieczny or Louis Stathis as a holder, officer or party, or reflects issuance of one hundred percent (100%%) "
            "of the authorized Units; and that such materials may be retained only as historical records clearly marked "
            "\"SUPERSEDED %s NOT OPERATIVE.\"" % (DASH, DASH)))
 
