@@ -227,8 +227,12 @@ full 1% so the ladder's cumulative percentages are unchanged.
   forfeit if terminated before cure. *Written notice is what keeps this enforceable rather
   than illusory; in-arrears payment is what makes withholding mechanically clean.*
 - **§5 — Equity is a contractual right to issuance subject to NSL's Operating Agreement.**
-  Non-voting, dilutable, may be profits interests. Initial Units due within 30 days of the
-  Effective Date, so **the OA work is now a signing-time item, not a someday item.**
+  Non-voting, dilutable, may be profits interests. **NSL has no OA yet**, so §5.6 locks the
+  0.5% economically as of the Effective Date (anti-dilution through the gap), obligates NSL
+  to use commercially reasonable efforts to adopt an OA with a non-voting class within
+  **120 days**, and issues within 30 days of adoption. Vesting/forfeiture run from the
+  Effective Date regardless. *Issuing under NY LLC Law default rules with no OA would hand
+  him full member rights — voting, information, per-capita defaults. Never do that.*
 - **§2.5 — Handicapping compliance.** Own work; disclaimers + responsible gambling; no
   "locks"; accurate records; no sportsbook/affiliate promotion without approval; disclose
   all sportsbook/picks-service relationships.
@@ -247,11 +251,12 @@ full 1% so the ladder's cumulative percentages are unchanged.
   four-tier liquidated damages, confidentiality, indemnity + LoL with negligence carve-down).
 
 > **OPEN ITEMS — must resolve before or at signing:**
-> - **NSL Operating Agreement.** Issuing the 0.5% at signing requires: a non-voting (or
->   profits-interest) class; forfeiture/repurchase mechanics matching §5.4; drag-along;
->   transfer restrictions. If NSL is single-member, adding him makes it a partnership for
->   tax (K-1s). **Structure as a profits interest** so the up-front grant isn't taxable
->   income to him at issuance; he should file an **83(b) within 30 days**. Attorney + CPA.
+> - **NSL Operating Agreement — does not exist yet; 120-day clock from signing.** Draft it
+>   with the non-voting (profits-interest) class, §5.4 forfeiture/repurchase mechanics,
+>   drag-along, and transfer restrictions built in from day one — far easier than amending
+>   later. If NSL is single-member, adding him makes it a partnership for tax (K-1s).
+>   **Structure as a profits interest** so the grant isn't taxable income at issuance; he
+>   files an **83(b) within 30 days of actual issuance**. Attorney + CPA.
 > - **Confirm NSL's state of organization and address** — drafted as New York, 105 Broadway.
 > - **Confirm Nick's title at NSL** — signature block says CEO for both entities.
 > - **Worker classification.** Contractor is **Tennessee-based**, so TN law governs the

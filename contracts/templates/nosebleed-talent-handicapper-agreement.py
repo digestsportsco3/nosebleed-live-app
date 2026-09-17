@@ -251,12 +251,14 @@ story.append(P(
 # 5
 story.append(P("5. Equity in Nosebleed Sports LLC", heading_style))
 story.append(P(
-    "<b>5.1 Initial Units.</b> Effective as of the Effective Date and subject to Section 5.6, NSL will issue "
-    "to the Contractor non-voting membership interests in NSL representing <b>one-half of one percent "
-    "(0.50%)</b> of NSL's fully diluted membership interests as of the Effective Date (the \"Initial "
-    "Units\"). The Initial Units are granted in advance of the first Milestone in recognition of the "
-    "Contractor's commitment to the role, and are <b>subject to forfeiture under Section 5.4 until they "
-    "vest</b>."))
+    "<b>5.1 Initial Units.</b> Effective as of the Effective Date, the Contractor is granted the right to "
+    "receive, and NSL will issue in accordance with Section 5.6, non-voting membership interests in NSL "
+    "representing <b>one-half of one percent (0.50%)</b> of NSL's fully diluted membership interests as "
+    "of the Effective Date (the \"Initial Units\"). The Initial Units' percentage is fixed as of the "
+    "Effective Date and will not be reduced by any issuance of interests by NSL between the Effective Date "
+    "and the date the Initial Units are actually issued. The Initial Units are granted in advance of the "
+    "first Milestone in recognition of the Contractor's commitment to the role, and are <b>subject to "
+    "forfeiture under Section 5.4 until they vest</b>."))
 story.append(P(
     "<b>5.2 Milestone Units.</b> Subject to this Section 5, when Cumulative Qualifying Revenue first reaches "
     "each threshold in the table below while the Contractor is actively performing the Services in good "
@@ -317,20 +319,27 @@ story.append(P(
     "deficiency is cured to the Company's reasonable satisfaction; if this Agreement terminates before "
     "cure, the deferred Milestone is forfeited."))
 story.append(P(
-    "<b>5.6 Issuance mechanics.</b> The Initial Units will be issued within thirty (30) days after the "
-    "Effective Date, and Milestone Units within sixty (60) days after the applicable Milestone is reached, "
-    "in each case conditioned on the Contractor's execution of a joinder to NSL's operating agreement (as "
-    "amended from time to time, the \"Operating Agreement\") and such other customary documents as NSL "
-    "reasonably requires, and on compliance with applicable securities laws. NSL may structure the Initial "
-    "Units and Milestone Units as profits interests or another class of non-voting economic interest in "
-    "its reasonable discretion."))
+    "<b>5.6 Issuance mechanics.</b> The Contractor acknowledges that NSL has not yet adopted an operating "
+    "agreement. NSL will use commercially reasonable efforts to adopt an operating agreement providing for "
+    "a class of non-voting membership interests (as amended from time to time, the \"Operating "
+    "Agreement\") within one hundred twenty (120) days after the Effective Date, and will issue the "
+    "Initial Units within thirty (30) days after the Operating Agreement is adopted. Milestone Units will "
+    "be issued within sixty (60) days after the applicable Milestone is reached or, if later, within "
+    "thirty (30) days after the Operating Agreement is adopted. Each issuance is conditioned on the "
+    "Contractor's execution of a joinder to the Operating Agreement and such other customary documents as "
+    "NSL reasonably requires, and on compliance with applicable securities laws. The vesting and "
+    "forfeiture provisions of Section 5.4 apply from the Effective Date regardless of when the Initial "
+    "Units are issued; if the Initial Units have vested before they are issued, they will be issued as "
+    "vested units. NSL may structure the Initial Units and Milestone Units as profits interests or another "
+    "class of non-voting economic interest in its reasonable discretion."))
 story.append(P(
     "<b>5.7 Nature of units.</b> Initial Units and Milestone Units are non-voting and carry no management, "
     "consent, approval, or information rights other than those the Operating Agreement expressly grants to "
     "holders of that class. They are subject in all respects to the Operating Agreement, including transfer "
     "restrictions, drag-along and tag-along provisions, and any repurchase rights, and to the rights of any "
     "senior classes of interests. Until units are actually issued, the Contractor has no rights as a member "
-    "of NSL. Nothing in this Agreement grants the Contractor any interest of any kind in JGN or the Brand."))
+    "of NSL, but the Contractor's contractual rights under this Section 5 are binding on NSL. Nothing in "
+    "this Agreement grants the Contractor any interest of any kind in JGN or the Brand."))
 story.append(P(
     "<b>5.8 Tax matters.</b> The Contractor is solely responsible for all tax consequences of the Initial "
     "Units and Milestone Units, may make an election under Section 83(b) of the Internal Revenue Code at "
