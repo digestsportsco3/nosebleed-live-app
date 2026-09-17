@@ -9,6 +9,12 @@ The hub is a Claude Code session on Nick's main computer started with
 `claude --chrome`. Start here: `statdesk/SETUP-LOCAL.md`. Operating rules for
 that session: `statdesk/STATDESK.md`.
 
+## Run it from a claude.ai chat (no terminal)
+
+One setting change makes the daily pull work from a cloud chat, so Nick can ask
+for the 10 and get them back in the chat. See `statdesk/CLOUD-ACCESS.md`. The
+Stathead half still needs his own browser; that is by design, not a gap.
+
 ## Run it on demand
 
 macOS / Linux:  `./statdesk/run.sh`

@@ -91,6 +91,15 @@ and say which source.
   Baseball Reference game logs", never "ever".
 - Stewart: the history angle did not hold. Drop him or post plain numbers.
 
+### Blocking Nick daily: the cloud chat cannot reach the MLB API
+
+He does not want to open PowerShell every morning. The only thing stopping a
+claude.ai chat from running the pull is the cloud environment's network
+allowlist: `statsapi.mlb.com` is not on it, so every cloud pull 403s. Fix and
+its exact limits: `statdesk/CLOUD-ACCESS.md`. Until that setting changes, a
+cloud session can only write a STOPPED brief, and the run has to happen on his
+machine.
+
 ## Session-architecture facts (so the restart problem does not repeat)
 
 - Chrome tools only load when a session STARTS with `claude --chrome`. They
