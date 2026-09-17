@@ -341,11 +341,12 @@ story.append(P(
     "of NSL, but the Contractor's contractual rights under this Section 5 are binding on NSL. Nothing in "
     "this Agreement grants the Contractor any interest of any kind in JGN or the Brand."))
 story.append(P(
-    "<b>5.8 Tax matters.</b> The Contractor is solely responsible for all tax consequences of the Initial "
-    "Units and Milestone Units, may make an election under Section 83(b) of the Internal Revenue Code at "
-    "the Contractor's own discretion and expense (and is encouraged to consult a tax advisor regarding such "
-    "an election within thirty (30) days after the issuance of the Initial Units), and acknowledges that "
-    "neither Company Party makes any representation regarding tax treatment."))
+    "<b>5.8 Tax matters.</b> NSL intends the Initial Units and Milestone Units to be profits interests "
+    "within the meaning of Revenue Procedures 93-27 and 2001-43, and from the date of each issuance NSL and "
+    "the Contractor will treat the Contractor as the holder of the issued units for all federal and state "
+    "income tax purposes, including the allocation of the Contractor's distributive share. The Contractor "
+    "is solely responsible for all tax consequences of the Initial Units and Milestone Units and "
+    "acknowledges that neither Company Party makes any representation regarding tax treatment."))
 story.append(P(
     "<b>5.9 Termination and change of control.</b> On termination of this Agreement for any reason: "
     "(a) vested Initial Units and issued Milestone Units are retained by the Contractor, subject to the "

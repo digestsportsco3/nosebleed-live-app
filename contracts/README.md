@@ -251,12 +251,14 @@ full 1% so the ladder's cumulative percentages are unchanged.
   four-tier liquidated damages, confidentiality, indemnity + LoL with negligence carve-down).
 
 > **OPEN ITEMS — must resolve before or at signing:**
-> - **NSL Operating Agreement — does not exist yet; 120-day clock from signing.** Draft it
->   with the non-voting (profits-interest) class, §5.4 forfeiture/repurchase mechanics,
->   drag-along, and transfer restrictions built in from day one — far easier than amending
->   later. If NSL is single-member, adding him makes it a partnership for tax (K-1s).
->   **Structure as a profits interest** so the grant isn't taxable income at issuance; he
->   files an **83(b) within 30 days of actual issuance**. Attorney + CPA.
+> - **NSL Operating Agreement — does not exist yet; 120-day clock from signing.** Drafted
+>   in-house (no outside counsel, by decision). Must contain: a non-voting Class B
+>   profits-interest class, §5.4 forfeiture/repurchase mechanics, drag-along, transfer
+>   restrictions, and treatment of the holder as a member from issuance. If NSL is
+>   single-member, adding him makes it a partnership for tax (K-1s).
+>   **Profits-interest structure (Rev. Proc. 93-27 / 2001-43); no 83(b), by decision** —
+>   §5.8 has the parties treat him as holder from issuance, which is what the safe harbor
+>   relies on in place of the election.
 > - **Confirm NSL's state of organization and address** — drafted as New York, 105 Broadway.
 > - **Confirm Nick's title at NSL** — signature block says CEO for both entities.
 > - **Worker classification.** Contractor is **Tennessee-based**, so TN law governs the
