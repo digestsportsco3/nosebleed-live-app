@@ -254,9 +254,11 @@ full 1% so the ladder's cumulative percentages are unchanged.
 >   income to him at issuance; he should file an **83(b) within 30 days**. Attorney + CPA.
 > - **Confirm NSL's state of organization and address** — drafted as New York, 105 Broadway.
 > - **Confirm Nick's title at NSL** — signature block says CEO for both entities.
-> - **Worker classification** remains the biggest exposure — see the classification note in
->   the drafting history. The contract is now as IC-postured as drafting allows; practice
->   must match.
+> - **Worker classification.** Contractor is **Tennessee-based**, so TN law governs the
+>   employment-status question regardless of the NY choice-of-law clause. TN applies the
+>   **IRS 20-factor common-law test** (not ABC) and has **no state minimum wage** (federal
+>   $7.25 applies) — materially better posture than NY/CA. Not W-2. No LLC required; §10.3
+>   is permissive. The contract is as IC-postured as drafting allows; practice must match.
 > - Exhibit A blanks: address/phone/email, effective date, both account handles.
 > - The written offer listed different accounts (Nosebleed Golf TikTok, Baseball Bros IG) and
 >   2 posts/day; contract follows the later instruction (Nosebleed Sports TikTok + IG, 3/day).
