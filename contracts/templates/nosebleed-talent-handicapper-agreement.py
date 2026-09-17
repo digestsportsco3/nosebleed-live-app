@@ -67,7 +67,7 @@ story.append(P('This Talent, Handicapping, and Content Services Agreement (this 
                'into as of the Effective Date set forth on Exhibit A by and among:'))
 story.append(B('<bullet>&bull;</bullet><b>JGN Media LLC</b>, a New York limited liability company with a mailing '
                'address of 105 Broadway, Rockville Centre, New York 11570 ("JGN");'))
-story.append(B('<bullet>&bull;</bullet><b>Nosebleed Sports LLC</b>, a New York limited liability company with a '
+story.append(B('<bullet>&bull;</bullet><b>Nosebleed Sports LLC</b>, a Delaware limited liability company with a '
                'mailing address of 105 Broadway, Rockville Centre, New York 11570 ("NSL" and, together with JGN, '
                'the "Company," each a "Company Party"); and'))
 story.append(B('<bullet>&bull;</bullet>the individual identified as the Contractor on Exhibit A (the "Contractor").'))

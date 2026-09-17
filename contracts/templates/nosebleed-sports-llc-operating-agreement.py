@@ -26,7 +26,7 @@ REG_OFFICE       = "611 South DuPont Highway, Suite 102, Dover, Delaware 19901"
 REG_AGENT        = "ZenBusiness Inc."
 EFFECTIVE_DATE   = "____________, 2026"       # date all Class A Members sign
 PRINCIPAL_OFFICE = "105 Broadway, Rockville Centre, New York 11570"
-EIN              = "__-_______"  # from the IRS CP575B letter; kept out of the public repo
+EIN = "__-_______"  # from the IRS CP575B letter; kept out of the public repo
 MANAGER_NAME     = "Nicholas Restivo"
 MANAGER_TITLE    = "Chief Executive Officer"
 AUTHORIZED_UNITS = 10_000_000
@@ -36,10 +36,10 @@ BROCK_RESERVE    = 450_000                     # Class B reserved for the Brock 
 
 # ("Name", "Class", units, "Notice email")  -- Class A = founders (voting); Class B = service providers (non-voting)
 MEMBERS = [
-    # ("Name", "A"|"B", units, "notice email")  -- fill from the private master record
+    # fill from the private master record: ("Name", units) or ("Name", "A"|"B", units, "email")
 ]
 OFFICERS = [
-    # ("Name", "Title")  -- fill from the private master record
+    # fill from the private master record: ("Name", "Title")
 ]
 BROCK_SERVICE_AGREEMENT = "Talent, Handicapping, and Content Services Agreement among JGN Media LLC, the Company, and Brock Smith"
 # ========================================================================
@@ -336,7 +336,7 @@ s.append(P("<b>8.5 Confidentiality.</b> Each Member will keep confidential all n
 s.append(ART("ARTICLE 9 &mdash; INTELLECTUAL PROPERTY AND FOUNDER COVENANTS"))
 s.append(P("<b>9.1 Assignment agreements.</b> Each Class A Member will execute, as a condition of holding Units, a Proprietary Information and "
            "Inventions Assignment Agreement in the Company's standard form, assigning to the Company all intellectual property created in "
-           "the course of Service or relating to the Company's business, including (for Christian Clark) the current Nosebleed logo artwork, "
+           "the course of Service or relating to the Company's business, including (for the designer-founder) the current Nosebleed logo artwork, "
            "source files, variations, visual identity, design system, and derivative works to the extent personally owned. Such assignments "
            "run to the Company and not to JGN; JGN's use of Company-owned design assets is governed solely by the license agreements "
            "described in Section 1.7."))
@@ -423,7 +423,7 @@ s.append(P("Voting Units outstanding (Class A): <b>%s</b>. Majority Approval req
            "requires at least %s Class A Units. Class B Units (%s) and unissued Units (%s) do not vote." %
            (fmt(VOTING), fmt(VOTING // 2), fmt(-(-VOTING * 2 // 3)), fmt(ISSUED - VOTING), fmt(UNISSUED))))
 s.append(P("Reconciliation: %s issued + %s unissued = %s authorized. Issued Units represent %s of authorized Units; unissued Units "
-           "represent %s and are not allocated to any person. No Units are held by Jacob Skonieczny or Louis Stathis." %
+           "represent %s and are not allocated to any person. No Units are held by any former participant named in superseded drafts." %
            (fmt(ISSUED), fmt(UNISSUED), fmt(AUTHORIZED_UNITS), pct(ISSUED, AUTHORIZED_UNITS), pct(UNISSUED, AUTHORIZED_UNITS))))
 
 # ---------------- SCHEDULE B ----------------

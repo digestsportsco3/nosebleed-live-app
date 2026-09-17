@@ -183,7 +183,7 @@ talent + handicapper seat; reusable for similar roles.
 Two entities, both parties to the agreement, together "the Company":
 
 - **JGN Media LLC** — owns the Nosebleed Sports **brand and social media accounts**.
-- **Nosebleed Sports LLC ("NSL")** — owns the **app, website, Discord, and premium picks
+- **Nosebleed Sports LLC ("NSL")** — a **Delaware** LLC; owns the **app, website, Discord, and premium picks
   offering** (the "Platform"). **All equity is in NSL.** Nothing grants any interest in JGN.
 
 Work Product is assigned to whichever entity the Company designates; absent designation,
@@ -259,7 +259,7 @@ full 1% so the ladder's cumulative percentages are unchanged.
 >   **Profits-interest structure (Rev. Proc. 93-27 / 2001-43); no 83(b), by decision** —
 >   §5.8 has the parties treat him as holder from issuance, which is what the safe harbor
 >   relies on in place of the election.
-> - **Confirm NSL's state of organization and address** — drafted as New York, 105 Broadway.
+> - NSL confirmed **Delaware** (File No. 10727267); rev. 4 of the talent agreement fixes the recital and states 50,000 Class B Units of 10,000,000 authorized.
 > - **Confirm Nick's title at NSL** — signature block says CEO for both entities.
 > - **Worker classification.** Contractor is **Tennessee-based**, so TN law governs the
 >   employment-status question regardless of the NY choice-of-law clause. TN applies the
@@ -273,39 +273,39 @@ full 1% so the ladder's cumulative percentages are unchanged.
 
 ---
 
-## 4. Nosebleed Sports LLC — Operating Agreement
+## 4. Nosebleed Sports LLC — Limited Liability Company Agreement (Delaware)
 
-Generator: `templates/nosebleed-sports-llc-operating-agreement.py`. **No OA existed** before
-2026-09-17 (repo and Drive both searched). Drafted in-house, by decision — no outside counsel.
+Generators: `templates/nosebleed-sports-llc-operating-agreement.py` (the LLC Agreement) and
+`templates/nosebleed-sports-llc-organizational-consent.py` (the consent that adopts it, issues
+units, and approves the Brock agreement). **No OA existed** before 2026-09-17. Drafted in-house
+by decision. Member names, percentages, and the EIN live in the private master record, not here.
 
-**Entity facts (from the IRS EIN letter):** New York address; responsible party Nicholas
-Restivo, Member; IRS assigned a **Form 1065** filing obligation → NSL is **multi-member and
-taxed as a partnership** from the start. Issuing units to a service provider does not change
-its tax status. The EIN itself is kept in the private record, not here.
+**Entity facts (public record):** Delaware LLC, Certificate of Formation filed August 7, 2026,
+File No. 10727267; registered agent ZenBusiness Inc., Dover DE; principal office Rockville
+Centre NY. IRS assigned a Form 1065 obligation → multi-member partnership from formation.
 
-**Structure — built to fit §5 of the talent agreement:**
+**Capital structure:** 10,000,000 authorized Common Units. 9,050,000 issued (six voting Class A
+founders + one non-voting Class B service provider at 50,000 units = 0.50% of authorized).
+950,000 unissued, of which 450,000 is the **Brock Reserve** pre-approved for his milestone
+ladder and 500,000 is unallocated. Two former participants hold nothing, confirmed by consent.
 
 | Element | Term |
 |---|---|
-| Management | Manager-managed; Nicholas Restivo as Manager with the title CEO (so signature blocks across all contracts match) |
-| Class A | Voting founders' units; full economics; issued only as a Major Decision |
-| Class B | **Non-voting profits interests** for service providers; **10% pool** issuable by the Manager alone; each series gets a **Threshold Value** = FMV at issuance so it has $0 liquidation value at grant (Rev. Proc. 93-27 / 2001-43); holder treated as owner from issuance (the no-83(b) approach); vesting/forfeiture per the holder's Service Agreement; forfeited units auto-cancel for $0 with a power of attorney to record it |
-| Major Decisions | Sale of the Company, Class A issuance, Class B above pool, amendments, dissolution, debt > $25K, affiliate deals > $10K, tax classification change, bankruptcy — Class A majority |
-| Distributions | Manager's discretion, pro rata by Percentage Interest subject to Threshold Values; **tax distributions** by April 10 (so K-1 income doesn't leave a Class B holder with a bill and no cash); liquidation waterfall returns Class A capital first |
-| Transfers | Class B non-transferable except to the Company; Class A subject to ROFR (Company, then other Class A); **drag-along** binds Class B on a Sale of the Company; tag-along on a >50% Class A transfer |
-| Repurchase | On termination of a Class B holder's Service Agreement, Company may repurchase vested units within 180 days at **FMV** — or at the **lesser of FMV or capital contributed (≈$0)** if terminated for breach/cause/uncured performance notice. Note payable over up to 24 months |
-| Tax | Partnership; Manager = partnership representative; K-1s within 90 days; §754 at Manager's discretion |
-| Amendments | Class A majority; Manager alone may update Schedule A and make tax/statutory-compliance fixes; a Class B holder's *vested* economics can't be cut disproportionately without consent |
-| Law | New York; negotiation → mediation → NY courts, matching every other document |
-| Schedule B | Form of joinder — the one-page document a Class B recipient signs at issuance (what talent-agreement §5.6 requires) |
+| Management | Manager-managed; Nicholas Restivo as Manager, title CEO (matches every contract's signature block) |
+| Class A | Voting founders' units; 50% vested at Effective Date, 50% monthly over 48 months, no cliff, Service condition, $0 Original Cost repurchase (= forfeiture), full acceleration on Change of Control and death/disability |
+| Class B | Non-voting; vests/forfeits solely per the holder's Service Agreement |
+| Tax structure | **All service-issued units are profits interests** (Rev. Proc. 93-27/2001-43) with Threshold Value = aggregate Capital Accounts at issuance ($0 today). *This is why no 83(b) is needed: a profits interest has $0 liquidation value at grant, and the safe harbor treats the holder as a partner from issuance. No valuation memo required.* |
+| Voting | Majority = >50% of outstanding Class A; Supermajority = ≥66⅔%. Class B and unissued units never vote |
+| Reserved Matters (Supermajority) | Any unit/option/SAFE/pool issuance except the Brock Reserve; Change of Control; amendments; new Class A member; dissolution; tax classification; remove Manager; bankruptcy; core-IP transfer |
+| Major Decisions (Majority) | Debt >$25K; affiliate deals >$10K (JGN licenses pre-approved by consent); budget |
+| Brand / IP | JGN owns master brand + legacy socials; NSL owns app/site/Discord/tech/product IP incl. the designer-founder's logo IP via PIIA. JGN ~$2K advance is a non-equity obligation. Three JGN↔NSL licenses approved by consent, **not yet drafted** |
+| Transfers / exit | Class B non-transferable except to Company; ROFR on Class A; drag-along binds Class B; tag-along >50%; Class B repurchase at FMV (good leaver) or ≤Original Cost (bad leaver) |
+| Law / forum | Delaware law (mandatory for internal affairs); NY courts or Delaware Chancery; negotiation → mediation first |
 
-> **OPEN — Schedule A cannot be completed without:** every Class A member's name and
-> percentage, any capital contributions, the Articles of Organization filing date, and
-> confirmation that NY is the formation state and Nick is sole Manager. Internal docs on
-> Drive name other decision-makers; if they hold equity they belong on Schedule A.
-> **NY LLC Law §206 publication** (two newspapers within 120 days of formation + Certificate
-> of Publication) — confirm it was done; if not, the LLC's authority to do business is
-> suspended until it is.
+> **OPEN:** Effective Date on OA and consent (fill at signing); founders' notice emails on
+> Schedule A; **six PIIAs** (the designer-founder's with the logo assignment); **three
+> intercompany licenses**; NY foreign qualification + publication (consent §9 directs it);
+> Delaware annual tax via registered agent; Brock signs the Schedule B joinder at issuance.
 
 ---
 
@@ -394,3 +394,6 @@ exposure, which drafting cannot fix.
     control-of-work, assistants, and perform-through-entity clauses for classification posture.
 11. Operating Agreement of Nosebleed Sports LLC drafted from scratch (none existed) with a
     Class A / Class B profits-interest structure matching the talent agreement's §5.
+12. NSL confirmed Delaware from the filing evidence; OA rebuilt as a Delaware LLC Agreement with the
+    real cap table (six Class A founders, Brock Class B, 950,000 reserved), founder vesting, officers,
+    Reserved Matters; organizational consent drafted; talent agreement rev. 4.
