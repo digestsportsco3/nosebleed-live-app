@@ -9,8 +9,10 @@ perpetual right to use the brand in the Product Field, surviving a bona fide Cha
 of NSL for the successor.
 
 Generated in both brand modes (see nbs_style.BRAND_KIT_OWNER):
-  * "JGN"  - the Licensed Brand also includes the new brand kit, which NSL assigns to JGN under
-             the Brand Asset Assignment; that assignment is the consideration for this License.
+  * "JGN"  - the Licensed Brand also includes the Brand Kit, which the Company's officers
+             developed for the brand as part of their roles and which is therefore JGN brand
+             property. The Company confirms that in Section 3.5; there is no separate assignment
+             document.
   * "NSL"  - the Licensed Brand is the word mark, common-law rights, goodwill and legacy media
              identity only; NSL keeps the brand kit and licenses it to JGN under the Logo and
              Visual Identity License.
@@ -20,8 +22,8 @@ import os
 from nbs_style import (  # fill-in constants and style helpers
     JGN_MODE, BRAND_KIT_OWNER, WORKDIR, JGN_NAME, JGN_STATE, JGN_ADDRESS, JGN_SIGNER,
     JGN_SIGNER_TITLE, COMPANY_NAME, COMPANY_STATE, FORMATION_DATE, DE_FILE_NUMBER,
-    PRINCIPAL_OFFICE, EIN, CEO_NAME, CEO_TITLE, CTO_NAME, EFFECTIVE_DATE, MARK, GOVERNING_LAW,
-    VENUE, T_MASTER, T_ASSIGN, T_LOGO, T_SECOND, T_MKTG, T_TSA, T_OA, T_PIIA, T_BROCK,
+    PRINCIPAL_OFFICE, EIN, CEO_NAME, CEO_TITLE, EFFECTIVE_DATE, MARK, GOVERNING_LAW,
+    VENUE, T_MASTER, T_LOGO, T_SECOND, T_MKTG, T_TSA, T_OA, T_BROCK,
     PRODUCT_FIELD, MEDIA_FIELD, BRAND_KIT_DESC, LEGACY_ACCOUNTS, DASH,
     Spacer, HRFlowable, colors, P, H, BUL, masthead, sigblock, build, sig_style)
 
@@ -57,22 +59,20 @@ s.append(P("<b>B.</b> The Company was formed as a " + COMPANY_STATE + " limited 
            "Number " + EIN + ", and operates the Nosebleed Sports application, website, Discord "
            "community, subscription and premium picks offerings and related technology."))
 if JGN_MODE:
-    s.append(P("<b>C.</b> " + CTO_NAME + ", the Company's Chief Technology Officer, created " +
-               BRAND_KIT_DESC + " (the \"Brand Kit\"), and assigned it to the Company under his " +
-               T_PIIA + " (his \"PIIA\"). Concurrently with this License, the Company assigns the "
-               "Brand Kit to JGN under the " + T_ASSIGN + " of even date between the Parties (the "
-               "\"" + T_ASSIGN + "\"), so that the entire brand is held in a single entity. This "
-               "License is the consideration for that assignment."))
+    s.append(P("<b>C.</b> The Company's officers developed " + BRAND_KIT_DESC + " (the \"Brand Kit\") "
+               "for the " + MARK + " brand as part of their roles. The Brand Kit is brand property: it "
+               "is the visual expression of the " + MARK + " brand that JGN owns, and it forms part of "
+               "the Licensed Brand licensed to the Company under this License. Section 3.5 records the "
+               "Company's confirmation of that."))
     s.append(P("<b>D.</b> The Parties intend that JGN own the whole of the brand and that the Company "
                "hold, permanently and exclusively, every right in the brand that the Company's product "
                "business needs, including after a sale of the Company."))
 else:
-    s.append(P("<b>C.</b> " + CTO_NAME + ", the Company's Chief Technology Officer, created " +
-               BRAND_KIT_DESC + " (the \"Brand Kit\"), and assigned it to the Company under his " +
-               T_PIIA + " (his \"PIIA\"). The Company retains ownership of the Brand Kit and licenses "
-               "it to JGN for JGN's retained media properties under the " + T_LOGO + " of even date "
-               "between the Parties. The Brand Kit is not licensed to the Company under this License, "
-               "because the Company already owns it."))
+    s.append(P("<b>C.</b> " + BRAND_KIT_DESC[0].upper() + BRAND_KIT_DESC[1:] + " (the \"Brand Kit\") "
+               "was developed by the Company's officers as part of their roles. The Company owns the "
+               "Brand Kit and licenses it to JGN for JGN's retained media properties under the " +
+               T_LOGO + " of even date between the Parties. The Brand Kit is not licensed to the "
+               "Company under this License, because the Company already owns it."))
     s.append(P("<b>D.</b> The Parties intend that the Company hold, permanently and exclusively, every "
                "right in JGN's " + MARK + " name and master brand that the Company's product business "
                "needs, including after a sale of the Company."))
@@ -87,8 +87,9 @@ s.append(BUL("<b>\"Brand\"</b> means the " + MARK + " name and master brand as a
              "word mark, the common-law trademark rights and goodwill in it, trade dress, and all "
              "names, marks, logos and identity elements used to identify the Nosebleed Sports business."))
 if JGN_MODE:
-    s.append(BUL("<b>\"Brand Kit\"</b> means " + BRAND_KIT_DESC + ", assigned by the Company to JGN "
-                 "under the " + T_ASSIGN + "."))
+    s.append(BUL("<b>\"Brand Kit\"</b> means " + BRAND_KIT_DESC + ", developed for the Nosebleed "
+                 "Sports brand by the Company's officers as part of their roles. The Brand Kit is "
+                 "brand property owned by JGN as owner of the Brand, as confirmed in Section 3.5."))
     s.append(BUL("<b>\"Licensed Brand\"</b> means, collectively, the Licensed Marks and the Brand Kit, "
                  "together with all goodwill in them and all modifications, updates and derivative "
                  "works of them created by either Party during the Term."))
@@ -148,8 +149,9 @@ s.append(P("<b>2.4 Reservation of rights; Media Field.</b> JGN reserves all righ
            "only under the " + T_MKTG + "."))
 s.append(P("<b>2.5 No royalty.</b> No royalty, license fee, revenue share or other payment is or will "
            "become payable by the Company for the rights granted under this License. " +
-           ("The consideration for this License is the Company's assignment of the Brand Kit under "
-            "the " + T_ASSIGN + ", the sufficiency of which each Party acknowledges."
+           ("The consideration for this License is the mutual covenants in this License and the "
+            "Company's confirmation in Section 3.5, the sufficiency of which each Party "
+            "acknowledges."
             if JGN_MODE else
             "The consideration for this License is the mutual covenants in this License and in the " +
             T_LOGO + " and the " + T_MKTG + ", the sufficiency of which each Party acknowledges.")))
@@ -176,6 +178,19 @@ s.append(P("<b>3.4 Company property.</b> The Company owns its application, websi
            "community, technology, source code, data, subscriber relationships and product content, "
            "none of which is part of the Licensed Brand. Nothing in this License gives JGN any "
            "interest in them."))
+if JGN_MODE:
+    s.append(P("<b>3.5 Brand Kit.</b> The Brand Kit was developed for the " + MARK + " brand by the "
+               "Company's officers as part of their roles. The Company confirms that the Brand Kit is "
+               "brand property forming part of the Licensed Brand owned by JGN, and, to the extent "
+               "the Company holds any right, title or interest in it, the Company assigns that right, "
+               "title and interest to JGN, which JGN licenses back to the Company under Section 2. "
+               "The Company will deliver to JGN, or give JGN administrative access to, the source and "
+               "design files, brand documentation and design repositories comprising the Brand Kit, "
+               "and may keep and use working copies of them for the Product Field under this License. "
+               "JGN may register the elements of the Brand Kit, including copyrights, design rights "
+               "and trade dress, in JGN's name, and the Company will sign any confirmatory instrument "
+               "JGN reasonably requests for that purpose, at JGN's expense. No separate assignment "
+               "document is required, and no payment is due from either Party for this confirmation."))
 
 # ---------------------------------------------------------------- 4
 s.append(H("4. Quality Control and Brand Standards"))
@@ -293,8 +308,8 @@ s.append(P("<b>8.5 Effect of termination.</b> On termination, the Company's lice
            "Sections 3, 9, 10, 11.4, 12 and 13 survive termination, as do accrued obligations. "
            "Termination of this License does not affect the Company's ownership of its application, "
            "technology, data, subscriber relationships or product content" +
-           (", and does not undo or give the Company any right to unwind the " + T_ASSIGN + "."
-            if JGN_MODE else ".")))
+           (", and does not give the Company any right in the Brand Kit, which remains JGN brand "
+            "property." if JGN_MODE else ".")))
 
 # ---------------------------------------------------------------- 9
 s.append(H("9. Combined Sale; Allocation Protections"))
@@ -338,7 +353,7 @@ s.append(H("11. Representations; Disclaimer; Indemnity"))
 s.append(P("<b>11.1 JGN representations.</b> JGN represents that it has the power and authority to "
            "enter into this License and to grant the rights granted here; that its members have "
            "approved this License by written consent; that it owns the Licensed Brand" +
-           (", including the Brand Kit acquired under the " + T_ASSIGN if JGN_MODE else "") +
+           (", including the Brand Kit as confirmed in Section 3.5" if JGN_MODE else "") +
            "; that it has not granted and will not grant any conflicting right in the Product Field; "
            "and that it is not aware of any claim that use of the Licensed Marks in the Product Field "
            "infringes a third party's rights."))
@@ -378,8 +393,8 @@ s.append(P("The Parties will attempt in good faith to resolve any dispute under 
 s.append(H("13. General"))
 s.append(P("<b>13.1 Governing law.</b> This License is governed by the laws of the " + GOVERNING_LAW +
            ", without regard to conflict-of-law principles."))
-s.append(P("<b>13.2 Entire agreement.</b> This License, together with the " + T_SECOND + ", the " +
-           T_MKTG + " and the " + T_TSA + ", is the entire "
+s.append(P("<b>13.2 Entire agreement.</b> This License, together with the " +
+           (T_SECOND + ", the " if T_SECOND else "") + T_MKTG + " and the " + T_TSA + ", is the entire "
            "agreement between the Parties regarding the Licensed Brand and supersedes all prior "
            "understandings and drafts on that subject, including the pre-formation binder documents. "
            "Each of those agreements is separate and is not to be consolidated with the others."))

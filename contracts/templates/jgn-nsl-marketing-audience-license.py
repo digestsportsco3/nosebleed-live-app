@@ -164,7 +164,8 @@ s.append(P("<b>5.5 Acquisition rule.</b> This license does not automatically tra
            "license with JGN. The Parties' strategic intention to market both entities together to "
            "a future acquirer is not a binding obligation to sell them together."))
 s.append(P("<b>5.6 This is not the brand license.</b> This Agreement is separate from the " +
-           T_MASTER + ", the " + T_SECOND + " and the " + T_TSA + " and is not to be consolidated "
+           T_MASTER + (", the " + T_SECOND if T_SECOND else "") + " and the " + T_TSA +
+           " and is not to be consolidated "
            "with any of them. Termination or expiration of this Agreement does not terminate, "
            "suspend or impair the " + T_MASTER + ", which is perpetual in the Product Field and "
            "survives a bona fide Change of Control of the Company, and no notice given under this "
@@ -207,7 +208,8 @@ s.append(P("<b>7.1 Governing law; disputes.</b> This Agreement is governed by th
            "to mediate, either Party may bring it in " + VENUE + ", and each Party consents to that "
            "jurisdiction and venue."))
 s.append(P("<b>7.2 Entire agreement; amendment; notices; counterparts.</b> This Agreement, with the " +
-           T_MASTER + ", the " + T_SECOND + " and the " + T_TSA + ", is the entire agreement between "
+           T_MASTER + (", the " + T_SECOND if T_SECOND else "") + " and the " + T_TSA +
+           ", is the entire agreement between "
            "the Parties on its subject and supersedes all prior understandings and drafts, "
            "including the pre-formation binder documents. It may be amended only by a written "
            "instrument signed by both Parties and approved by each Party under its own governing "

@@ -22,9 +22,11 @@ from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, Tab
                                 HRFlowable, PageBreak)
 
 # ============================= THE BRAND SWITCH =============================
-# "JGN"  (default, recommended): the entire brand sits in JGN. NSL assigns the new brand kit
-#         to JGN under the Brand Asset Assignment; JGN licenses the whole brand back to NSL
-#         under the Master Brand and Trademark License. Two intercompany licenses.
+# "JGN"  (default, recommended): the entire brand sits in JGN. The Brand Kit was developed for
+#         the NOSEBLEED SPORTS brand by the Company's officers as part of their roles, so it is
+#         brand property and part of the Licensed Brand under the Master Brand and Trademark
+#         License, which the Company confirms in Section 3.5 of that License. There is no
+#         second brand document in this mode.
 # "NSL"  (fallback): NSL keeps the brand kit and licenses it to JGN under the Logo and Visual
 #         Identity License. JGN still owns the word mark, goodwill and legacy accounts.
 BRAND_KIT_OWNER = os.environ.get("BRAND_KIT_OWNER", "JGN").upper()
@@ -66,7 +68,7 @@ VENUE            = "the state or federal courts located in Nassau County, New Yo
 # These strings are the single source of truth for how each document is named in every other
 # document. Do not inline a variant spelling anywhere.
 T_MASTER  = "Master Brand and Trademark License"
-T_ASSIGN  = "Brand Asset Assignment"
+T_ASSIGN  = "Brand Asset Assignment"   # retained for reference only; not used in any output
 T_LOGO    = "Logo and Visual Identity License"
 T_MKTG    = "Marketing and Audience License"
 T_TSA     = "Transition Services Agreement"
@@ -77,8 +79,10 @@ T_PIIA    = ("Proprietary Information, Inventions Assignment, Confidentiality, D
 T_BROCK   = ("Talent, Handicapping, and Content Services Agreement among JGN Media LLC, the "
              "Company, and [Class B Member]")
 
-# The second brand document differs by mode; the first, third and fourth do not.
-T_SECOND  = T_ASSIGN if JGN_MODE else T_LOGO
+# The second brand document exists only in "NSL" mode. In "JGN" mode the brand kit is JGN brand
+# property under the Master Brand and Trademark License and there is no second brand document, so
+# T_SECOND is None and every consumer must handle that.
+T_SECOND  = T_LOGO if not JGN_MODE else None
 
 # --------------------------- FIELD DEFINITIONS ---------------------------
 # Identical text in every license. Verified string-for-string by verify_intercompany.py.
@@ -90,8 +94,8 @@ MEDIA_FIELD = ("social media accounts and content, editorial and media publishin
                "brand deals on JGN properties, and advertising")
 
 BRAND_KIT_DESC = ("the logo artwork and source files, logo variations, visual identity, design "
-                  "system and product-brand design assets created by " + CTO_NAME + " and used by "
-                  "the Nosebleed Sports business, together with all derivative works of them")
+                  "system and product-brand design assets used by the Nosebleed Sports business, "
+                  "together with all derivative works of them")
 LEGACY_ACCOUNTS = ("the legacy X account, the TikTok account @NosebleedSportsMedia, the Instagram "
                    "account @NosebleedSportsMedia and JGN's other legacy social media accounts")
 

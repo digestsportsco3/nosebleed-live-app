@@ -20,8 +20,7 @@ import re
 from nbs_style import (  # fill-in constants and style helpers
     JGN_MODE, BRAND_KIT_OWNER, WORKDIR, JGN_NAME, COMPANY_NAME, COMPANY_STATE, FORMATION_DATE,
     DE_FILE_NUMBER, REG_AGENT, PRINCIPAL_OFFICE, EIN, CEO_NAME, CEO_TITLE, CTO_NAME,
-    EFFECTIVE_DATE, MARK, T_OA, T_PIIA, T_MASTER, T_ASSIGN, T_LOGO, BRAND_KIT_DESC,
-    PRODUCT_FIELD, DASH, body_style, heading_style, bullet_style, sig_style, title_style,
+    EFFECTIVE_DATE, MARK, T_OA, T_PIIA, DASH, body_style, heading_style, bullet_style, sig_style, title_style,
     subtitle_style, Spacer, HRFlowable, PageBreak, colors, P, H, BUL, masthead, build)
 
 # =============================== FILL-INS ===============================
@@ -84,22 +83,12 @@ COVERED_WORK_PRODUCT = [
     "Accounts, improvements, transition deliverables and future Company work product.",
 ]
 
-BRAND_KIT_ITEMS = [
-    "The logo artwork and its editable source files, and all logo variations, lockups, icons, "
-    "application icons and favicon assets.",
-    "The visual identity: the color system, typography, iconography, illustration and photographic "
-    "treatment, layout grids and motion treatments.",
-    "The design system: components, tokens, templates, style definitions and the design files in "
-    "which they are maintained.",
-    "Product-brand design assets: application-store artwork and screenshots, website and Discord "
-    "visual assets, and social and marketing templates and graphics.",
-    "All derivative works, revisions and work-in-progress files of the foregoing, and all "
-    "copyrights, design rights and trade dress rights in them in every jurisdiction, together with "
-    "all rights to recover for past, present and future infringement.",
-]
-
 # Founder-specific confirmatory sentence for the generic form.
 TAILORED = {
+    "christian": "product, design and technology work, including application source code, website "
+                 "and Discord work, backend, databases, APIs, deployment configuration, "
+                 "infrastructure, designs, graphics, AI workflows and documentation prepared for "
+                 "the Nosebleed Sports business",
     "gabriel": "operations documentation, workflows and processes, community and subscriber "
                "operations materials, vendor and platform setup work and related records prepared "
                "for the Nosebleed Sports business",
@@ -116,9 +105,9 @@ TAILORED = {
 
 
 # ======================================================================
-#  Section engine: numbers are assigned at render time, so inserting the
-#  Brand Kit section into the CTO's agreement renumbers everything and
-#  every cross-reference {{key}} follows automatically.
+#  Section engine: numbers are assigned at render time and every
+#  cross-reference {{key}} follows automatically. Every founder's
+#  agreement has the same sections in the same order.
 # ======================================================================
 def render(sections, story):
     numbers = {}
@@ -264,15 +253,6 @@ def build_sections(name, officer, key):
              "Sports product remain Founder's property, are listed on Schedule A, and are licensed "
              "to the Company on the terms stated there; this Section does not sweep unrelated "
              "personal software of Founder into the assignment."))
-    elif key == "christian":
-        assign_body.append(
-            ("Confirmatory assignment.",
-             "Founder's confirmatory assignment under Section {{assign}}.3 expressly covers, to the "
-             "extent personally owned, the application source code, website work, Discord work, "
-             "backend, databases, APIs, deployment configuration, infrastructure, graphics, AI "
-             "workflows, documentation, improvements and derivative works created for the Nosebleed "
-             "Sports business before the Effective Date. The Brand Kit is separately and expressly "
-             "assigned under Section {{brand}}."))
     else:
         assign_body.append(
             ("Confirmatory assignment.",
@@ -305,72 +285,6 @@ def build_sections(name, officer, key):
 
     S.append(dict(key="assign", title="Inventions Assignment", body=assign_body))
 
-    # ------------------------------------------------ Brand Kit (CTO only)
-    if key == "christian":
-        brand_body = [
-            ("Present assignment of the Brand Kit.",
-             "Founder hereby irrevocably assigns, transfers and conveys to the Company, effective "
-             "as of the Effective Date, all right, title and interest Founder owns, throughout the "
-             "world and in perpetuity, in and to " + BRAND_KIT_DESC + " (the \"Brand Kit\"). This "
-             "is the assignment contemplated by Section 9.2 of the LLC Agreement."),
-            ("Scope.", "The Brand Kit includes:"),
-        ]
-        for it in BRAND_KIT_ITEMS:
-            brand_body.append(("BUL", it))
-        brand_body.append(
-            ("Excluded.",
-             "The Brand Kit does not include the " + MARK + " word mark, the common-law rights or "
-             "the historical goodwill in it, or JGN's legacy social media accounts and legacy media "
-             "assets, all of which JGN owns and none of which this Agreement purports to transfer."))
-        brand_body.append(
-            ("Moral rights in the Brand Kit.",
-             "To the maximum extent permitted by applicable law, Founder waives, and agrees never "
-             "to assert, all moral rights and all rights of paternity, integrity, disclosure, "
-             "withdrawal, attribution and reputation in the Brand Kit, in every jurisdiction, in "
-             "favor of the Company and its successors, assigns and licensees. Where such a waiver "
-             "is not permitted, Founder irrevocably covenants not to assert those rights against "
-             "the Company or against its successors, assigns or licensees, or against anyone acting "
-             "with their authority, in connection with any use, reproduction, modification, "
-             "adaptation, combination, distribution, display or other exploitation of the Brand "
-             "Kit."))
-        brand_body.append(
-            ("Delivery of source files.",
-             "Founder will deliver to the Company, or give the Company administrative access to, "
-             "the editable source and design files, layered artwork, fonts and transferable font "
-             "licenses, tokens, libraries, export settings and brand documentation comprising the "
-             "Brand Kit, in their native formats, promptly on the Company's request and in any "
-             "event within " + RETURN_DAYS + " days after request. Founder will not retain the "
-             "Brand Kit source files outside Company-approved storage except for a personal "
-             "portfolio copy used solely to display Founder's own work and not to create competing "
-             "assets."))
-        if JGN_MODE:
-            brand_body.append(
-                ("Onward assignment to JGN; consent.",
-                 "Founder acknowledges that the Company will assign the Brand Kit onward to JGN "
-                 "under the " + T_ASSIGN + " between the Company and JGN, in consideration of the "
-                 "grant to the Company of the " + T_MASTER + ", under which the Company holds an "
-                 "exclusive, royalty-free, perpetual license to use the Brand Kit together with the "
-                 "master brand in the Product Field, meaning " + PRODUCT_FIELD + ". Founder "
-                 "consents to that onward assignment and to the Company's exercise of every right "
-                 "assigned under this Section {{brand}}, consents to JGN's application for, "
-                 "registration of and maintenance of the " + MARK + " mark and of copyrights, "
-                 "design rights and other registrations in the Brand Kit in JGN's name, and agrees "
-                 "that the waivers, covenants and further assurances in this Agreement run in favor "
-                 "of JGN as an assignee and successor as fully as they run in favor of the Company. "
-                 "Founder will provide to JGN the same further assurances Section {{further}} "
-                 "requires Founder to provide to the Company, at JGN's expense. No separate "
-                 "signature of Founder is required on the " + T_ASSIGN + "; this Agreement and "
-                 "Founder's execution of the LLC Agreement are sufficient."))
-        else:
-            brand_body.append(
-                ("Company retains the Brand Kit.",
-                 "Founder acknowledges that the Company retains ownership of the Brand Kit and "
-                 "licenses it to JGN for the Media Field under the " + T_LOGO + " between the "
-                 "Company and JGN, that the Company may grant, amend and terminate that license "
-                 "without further consent from Founder, and that the waivers, covenants and further "
-                 "assurances in this Agreement run in favor of the Company's licensees, including "
-                 "JGN, as fully as they run in favor of the Company."))
-        S.append(dict(key="brand", title="Brand Kit", body=brand_body))
 
     # ------------------------------------------------ Moral rights
     S.append(dict(key="moral", title="Moral Rights", body=[
@@ -626,9 +540,7 @@ def build_sections(name, officer, key):
 
     # ------------------------------------------------ Survival
     S.append(dict(key="surv", title="Survival", body=[
-        "The assignment of intellectual property under Section {{assign}}" +
-        (" and Section {{brand}}" if key == "christian" else "") +
-        " is permanent and survives the end of Officer Service, the transfer of Founder's Units and "
+        "The assignment of intellectual property under Section {{assign}} is permanent and survives the end of Officer Service, the transfer of Founder's Units and "
         "the termination of this Agreement. The waivers and covenants in Section {{moral}} are "
         "permanent. Section {{further}} survives as long as reasonably necessary to perfect and "
         "enforce the assigned rights. Section {{conf}} survives according to the nature of the "

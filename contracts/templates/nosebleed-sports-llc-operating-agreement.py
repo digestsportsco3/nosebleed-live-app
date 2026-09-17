@@ -49,20 +49,20 @@ AFFILIATE_ROLLING = "ten thousand dollars"     # rolling 12-month related-party 
 BROCK_RESERVE    = 450_000                     # Class B reserved for the [Class B Member] Service Agreement milestones
 
 # ---- BRAND SWITCH (shared with the JGN intercompany generators; see nbs_style.py) ----
-# "JGN" (default, recommended): the whole brand sits in JGN. The Company assigns the new brand kit
-#       to JGN under the Brand Asset Assignment and takes it back under the Master Brand and
-#       Trademark License. Two intercompany licenses plus the assignment.
+# "JGN" (default, recommended): the whole brand sits in JGN. The Brand Kit was developed for the
+#       NOSEBLEED SPORTS brand by the Company's officers as part of their roles, so it is brand
+#       property forming part of the Licensed Brand under the Master Brand and Trademark License.
+#       No separate brand document.
 # "NSL" (fallback): the Company keeps the brand kit and licenses it to JGN under the Logo and
 #       Visual Identity License. Three intercompany licenses, as in the prior draft.
 BRAND_KIT_OWNER  = os.environ.get("BRAND_KIT_OWNER", "JGN").upper()
 assert BRAND_KIT_OWNER in ("JGN", "NSL"), "BRAND_KIT_OWNER must be 'JGN' or 'NSL'"
 JGN_MODE         = BRAND_KIT_OWNER == "JGN"
 T_MASTER         = "Master Brand and Trademark License"
-T_ASSIGN         = "Brand Asset Assignment"
 T_LOGO           = "Logo and Visual Identity License"
 T_MKTG           = "Marketing and Audience License"
 T_TSA            = "Transition Services Agreement"
-T_SECOND         = T_ASSIGN if JGN_MODE else T_LOGO
+T_SECOND         = T_LOGO if not JGN_MODE else None
 
 # ("Name", "Class", units, "Notice email")  -- Class A = founders (voting); Class B = service providers (non-voting)
 MEMBERS = [
@@ -188,7 +188,7 @@ defs = [
                      "JGN or any Member to Units."),
     ("JGN Retained Assets", "the JGN assets listed on Schedule D, including legacy social accounts, historical content, legacy media "
                             "IP, the master NOSEBLEED SPORTS brand%s, existing Apple Developer accounts and existing Stripe "
-                            "accounts." % (" and the brand kit acquired from the Company under the %s" % T_ASSIGN if JGN_MODE else "")),
+                            "accounts." % (", including the Brand Kit as part of the brand" if JGN_MODE else "")),
     ("Majority Approval", "approval by Members holding more than fifty percent (50%) of the outstanding Class A Units. Class B Units "
                           "and authorized but unissued Units do not vote and are disregarded."),
     ("Material Related-Party Transaction", "any related-party transaction over %s individually or over %s in aggregate during a "
@@ -585,23 +585,24 @@ s.append(P("<b>8.4 No forced rewrite.</b> No mediator, arbitrator or deadlock pr
 s.append(ART("ARTICLE 9 %s INTELLECTUAL PROPERTY; DATA; ACCOUNTS" % DASH))
 s.append(P("<b>9.1 Company ownership.</b> All Company IP and post-formation work product created by Members, officers, contractors "
            "or other service providers within the scope of Company activities belongs exclusively to the Company%s."
-           % (", except for the brand-kit assets the Company assigns to JGN under the %s described in Section 11.2(b), which the "
-              "Company holds back under the %s described in Section 11.2(a)" % (T_ASSIGN, T_MASTER) if JGN_MODE else "")))
+           % (", except that the logo artwork and source files, logo variations, visual identity, design system and product-brand "
+              "design assets used by the Nosebleed Sports business (the \"Brand Kit\") were developed for the NOSEBLEED SPORTS "
+              "brand as part of the officers' roles and are brand property of JGN as owner of that brand, forming part of the "
+              "brand licensed to the Company under the %s described in Section 11.2(a)" % T_MASTER if JGN_MODE else "")))
 s.append(P("<b>9.2 Member PIIA.</b> Each Class A Member must sign a Proprietary Information, Inventions Assignment, "
-           "Confidentiality, Data Security and Non-Solicitation Agreement (a \"PIIA\") containing direct confirmatory present "
-           "assignments of any residual personally held pre-formation Company-related rights. [Founder B]'s PIIA expressly "
-           "assigns to the Company, to the extent personally owned, the current Nosebleed logo artwork and source files, logo "
-           "variations, current visual identity, new design system, product-brand design assets and derivative works (the \"Brand "
-           "Kit\"). Every PIIA assignment runs to the Company and not to JGN. %s A Class B Member's intellectual property and "
+           "Confidentiality, Data Security and Non-Solicitation Agreement (a \"PIIA\") in the same form, containing direct "
+           "confirmatory present assignments of any residual personally held pre-formation Company-related rights. Every PIIA "
+           "assignment runs to the Company and not to JGN. %s A Class B Member's intellectual property and "
            "confidentiality obligations are governed by that Member's Service Agreement."
-           % ("The Brand Kit then follows a single chain of title: [Founder B] to the Company under his PIIA, and the Company "
-              "to JGN under the %s described in Section 11.2(b), in consideration of the %s described in Section 11.2(a), under "
-              "which the Company holds an exclusive, royalty-free, perpetual license to use the Brand Kit and the master brand "
-              "together in the Product Field. The Company's continuing use of the Brand Kit is under that license."
-              % (T_ASSIGN, T_MASTER)
+           % ("No PIIA assigns the Brand Kit, which is brand property of JGN as owner of the master brand; the Company's use of "
+              "the Brand Kit is under the %s described in Section 11.2(a), which gives the Company an exclusive, royalty-free, "
+              "perpetual license to use the Brand Kit and the master brand together in the Product Field."
+              % T_MASTER
               if JGN_MODE else
-              "The Company owns the Brand Kit, and JGN's use of Company-owned logo and design assets is governed solely by the %s "
-              "described in Section 11.2(b)." % T_LOGO)))
+              "The Company owns the logo artwork and source files, logo variations, visual identity, design system and "
+              "product-brand design assets used by the Nosebleed Sports business (the \"Brand Kit\"), which were developed by its "
+              "officers as part of their roles, and JGN's use of Company-owned logo and design assets is governed solely by the "
+              "%s described in Section 11.2(b)." % T_LOGO)))
 s.append(P("<b>9.3 Asset assignment.</b> The Company shall receive assignments of the JGN-owned Assigned Assets listed on Schedule "
            "C, subject to third-party platform terms. Domain, repository, database, Discord and account transfers must be "
            "completed as post-closing operational steps where third-party platforms require separate action."))
@@ -645,8 +646,8 @@ s.append(P("<b>11.1 Separate entities.</b> The Company and JGN remain separate l
            "capitalization, approvals and records. JGN's ownership is shown for approval context on Schedule E. Nothing in this "
            "Agreement transfers any interest in JGN to the Company or any interest in the Company to JGN."))
 s.append(P("<b>11.2 Intercompany agreements.</b> The relationship between the Company and JGN with respect to brand, identity and "
-           "audience is governed by the %s separate written agreements, which are distinct and are not to be consolidated. "
-           % ("following" if JGN_MODE else "following three") +
+           "audience is governed by the following three separate written agreements, which are distinct and are not to be "
+           "consolidated. " +
            "For this purpose the <b>\"Product Field\"</b> means digital products and services offered under the NOSEBLEED SPORTS brand, including "
            "mobile and web applications, websites, community platforms (including Discord), premium picks and subscription "
            "offerings, in-product commerce, and successor products of any of the foregoing; and the <b>\"Media Field\"</b>, which "
@@ -658,21 +659,17 @@ s.append(BUL("<b>(a) %s (JGN to the Company).</b> JGN owns the master NOSEBLEED 
              "Change of Control of the Company automatically and for the benefit of the successor, is sublicensable by the Company "
              "to its contractors within the Product Field, and is terminable by JGN only for the Company's uncured material breach "
              "of reasonable quality-control standards after sixty (60) days' notice and opportunity to cure."
-             % (T_MASTER, ", and under the agreement described in paragraph (b) also owns the Brand Kit" if JGN_MODE else "")))
-s.append(BUL(("<b>(b) %s (the Company to JGN).</b> The Company assigns the Brand Kit to JGN, so that the whole of the brand is "
-              "held in one entity, in consideration of the license described in paragraph (a), under which the Company takes the "
-              "Brand Kit back for the Product Field. No cash consideration is paid by either entity."
-              % T_ASSIGN)
-             if JGN_MODE else
-             ("<b>(b) %s (the Company to JGN).</b> The Company owns the product logo, design and visual-identity assets, including "
-              "those assigned under Section 9.2, and licenses to JGN the nonexclusive right to use them in the Media Field on "
-              "JGN's retained media properties." % T_LOGO)))
-s.append(BUL("<b>(c) %s (JGN to the Company).</b> JGN retains ownership of the legacy social media accounts and legacy media "
+             % (T_MASTER, ", and the Brand Kit, which is brand property forming part of the licensed brand" if JGN_MODE else "")))
+if not JGN_MODE:
+    s.append(BUL("<b>(b) %s (the Company to JGN).</b> The Company owns the product logo, design and visual-identity assets, "
+                 "including the Brand Kit described in Section 9.2, and licenses to JGN the nonexclusive right to use them in the "
+                 "Media Field on JGN's retained media properties." % T_LOGO))
+s.append(BUL("<b>(%s) %s (JGN to the Company).</b> JGN retains ownership of the legacy social media accounts and legacy media "
              "assets and grants the Company a nonexclusive, royalty-free license to distribute Company content and offers through "
              "those social properties. That license is terminable on notice and does not travel with a sale of the Company "
-             "standing alone." % T_MKTG))
+             "standing alone." % ("b" if JGN_MODE else "c", T_MKTG)))
 if JGN_MODE:
-    s.append(BUL("<b>(d) %s (JGN and the Company).</b> JGN permits the Company temporary use of JGN's Apple Developer, Stripe "
+    s.append(BUL("<b>(c) %s (JGN and the Company).</b> JGN permits the Company temporary use of JGN's Apple Developer, Stripe "
                  "and other retained infrastructure, where platform rules permit, until the Company's own accounts are live, for "
                  "no service fee and with reimbursement of documented third-party costs only. It is temporary and does not "
                  "transfer any account." % T_TSA))
@@ -857,9 +854,9 @@ for item in [
     "Confirmed infrastructure and product services where account or project transfer is legally and contractually permitted: "
     "Vercel, Supabase, Clerk, Whop, Resend, PostHog and Google Workspace",
     ("The master NOSEBLEED SPORTS name, brand and trademark and the common-law rights and goodwill in it are NOT assigned; they "
-     "are retained by JGN under Schedule D and licensed to the Company under Section 11.2(a). The Brand Kit is likewise not a "
-     "JGN asset assigned here: it reaches the Company through [Founder B]'s PIIA and is then assigned on to JGN under "
-     "Section 11.2(b) and licensed back to the Company under Section 11.2(a)"
+     "are retained by JGN under Schedule D and licensed to the Company under Section 11.2(a). The Brand Kit is not assigned "
+     "here either: it is brand property of JGN as owner of that brand, forms part of the brand licensed to the Company under "
+     "Section 11.2(a), and the Company uses it under that license"
      if JGN_MODE else
      "Product-specific logo, design and brand-kit assets and logo source files used for the Nosebleed Sports product business, "
      "excluding the master NOSEBLEED SPORTS brand and trademark retained by JGN under Schedule D and licensed under Section "
@@ -878,8 +875,8 @@ for item in [
     "to the Company under Section 11.2(a), together with any United States trademark application or registration for it filed in "
     "JGN's name",
     ("The Brand Kit " + DASH + " the logo artwork and source files, logo variations, visual identity, design system and "
-     "product-brand design assets " + DASH + " assigned to JGN by the Company under the " + T_ASSIGN + " described in Section "
-     "11.2(b) and licensed back to the Company for the Product Field under Section 11.2(a)"
+     "product-brand design assets " + DASH + " as brand property forming part of the brand JGN owns, licensed to the Company for "
+     "the Product Field under the " + T_MASTER + " described in Section 11.2(a)"
      if JGN_MODE else
      "The Brand Kit remains owned by the Company and is not a JGN Retained Asset; JGN's use of it in the Media Field is licensed "
      "under the " + T_LOGO + " described in Section 11.2(b)"),

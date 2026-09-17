@@ -300,7 +300,7 @@ ladder, 500,000 unallocated. Two former participants hold nothing, confirmed by 
 | Voting | Majority = >50% of outstanding Class A; Supermajority = ≥66⅔%. Class B and unissued units never vote |
 | Reserved Matters (Supermajority) | Any unit/option/SAFE/pool issuance except the Brock Reserve; Change of Control and drag-along; amendments; new Class A member; dissolution; tax classification; debt/guarantees >$25K; related-party deals >$3K single or >$10K rolling 12 months (JGN licenses and advances pre-approved by consent); bankruptcy |
 | Controls | $3,000 spending/contract threshold outside approved budgets; five named banking signers; deadlock article (30-day negotiation → mediation → Chancery; no forced rewrite of ownership) |
-| Brand / IP | JGN owns the **entire** NOSEBLEED SPORTS brand — word mark, goodwill, legacy socials, media assets, Apple Developer and Stripe accounts (Schedule D) **and, in the default `BRAND_KIT_OWNER = "JGN"` mode, the new brand kit** (chain: designer-founder → Company via PIIA → JGN via Brand Asset Assignment). Company owns app/site/Discord/tech/product IP and assets assigned from JGN (Schedule C: repos, domains, Discord, Vercel/Supabase/Clerk/Whop/Resend/PostHog/Workspace) and holds the whole brand under an exclusive, perpetual, royalty-free Product-Field license. The four intercompany agreements are in §9 below. JGN ~$5K advance (and JGN's discretionary ongoing funding until the Company has cash flow) = Company obligation, not capital, not equity |
+| Brand / IP | JGN owns the **entire** NOSEBLEED SPORTS brand — word mark, goodwill, legacy socials, media assets, Apple Developer and Stripe accounts (Schedule D) **and the brand kit**, which is brand property because it was made for the brand as part of the officers' roles (no individual assignment, no chain of title — Master License §3.5 records the Company's confirmation). Company owns app/site/Discord/tech/product IP and assets assigned from JGN (Schedule C: repos, domains, Discord, Vercel/Supabase/Clerk/Whop/Resend/PostHog/Workspace) and holds the whole brand under an exclusive, perpetual, royalty-free Product-Field license. The three intercompany agreements are in §9 below. JGN ~$5K advance (and JGN's discretionary ongoing funding until the Company has cash flow) = Company obligation, not capital, not equity |
 | Covenants | Confidentiality; 12-month post-service non-solicit; **no general non-compete**; acquisition cooperation; combined-sale allocation protection because JGN and NSL have different owners |
 | Law / forum | Delaware law; Chancery for fiduciary/equitable/books-and-records; negotiation → mediation first |
 | Schedules | A Members & Capitalization · B Officers · C Assigned Assets · D JGN Retained Assets · E JGN Ownership Context · F Class A Vesting Ledger · G Form of Joinder |
@@ -312,10 +312,10 @@ ladder, 500,000 unallocated. Two former participants hold nothing, confirmed by 
 > Company's CoC-surviving license gives a buyer everything the product needs. The split-brand
 > fallback (Company keeps the kit, licenses it to JGN) is preserved behind the switch. (2) JGN's
 > members consent — the JGN Written Consent (§9) is drafted for all five members to sign.
+> (3) **Simplified same day at the owner's instruction:** no founder signs anything over. The
+> designer-founder's PIIA is the generic form; the separate Brand Asset Assignment was deleted.
 >
-> **OPEN:** Effective Date on both documents; five founders' notice emails; **six PIIAs** (the
-> designer-founder's must assign the brand kit with a moral-rights waiver — the whole chain of
-> title runs through it); NY foreign qualification + publication (consent directs it);
+> **OPEN:** Effective Date on both documents; five founders' notice emails; NY foreign qualification + publication (consent directs it);
 > nosebleedsport.com registrar; reconcile the JGN advance; Delaware annual tax; Brock signs the
 > Schedule G joinder at issuance.
 
@@ -332,16 +332,18 @@ read the same switch. Supersedes prior-binder docs 17–20.
 | Document | Generator | pp | What it does |
 |---|---|---|---|
 | Master Brand and Trademark License (JGN → NSL) | `jgn-nsl-master-brand-trademark-license.py` | 8 | Exclusive (even as to JGN), royalty-free, fully paid-up, worldwide, **perpetual** license to the whole brand in the **Product Field** (app, web, Discord, picks/subscriptions, in-product commerce). JGN keeps the **Media Field** (socials, publishing, sponsorships, advertising). Sublicensable to NSL's contractors (Brock named). Quality control bounded: existing uses deemed approved, samples ≤ quarterly, 30 days' notice of new standards, no standard may materially impair the product. JGN's **only** termination right is uncured breach of brand standards after 60-day cure, suspended while disputed. **Survives a bona fide Change of Control of NSL automatically for the successor at no royalty.** JGN covenants: no third-party Product-Field license, **file and maintain a USPTO application in JGN's name**, no abandonment, mark assignable only to someone who assumes the license. NSL step-in enforcement after 60 days. Combined-sale cooperation + OA §11.4 allocation protection. NY law, Nassau County |
-| Brand Asset Assignment (NSL → JGN) — JGN mode | `nsl-jgn-brand-asset-assignment.py` | 3 | NSL assigns the brand kit (logo files, visual identity, design system, product-brand assets, derivatives) to JGN. Sole consideration = the Master Brand License; **each is a condition of the other** — if the license is not signed concurrently the assignment is void. Moral-rights waiver / covenant not to assert. Only the two entities sign; the designer-founder's PIIA plus his signature on the LLC Agreement carry the chain of title |
-| Logo and Visual Identity License (NSL → JGN) — NSL mode only | same generator | 4 | Fallback: NSL keeps the kit, licenses it nonexclusively to JGN for the Media Field |
+| Logo and Visual Identity License (NSL → JGN) — NSL mode only | `nsl-jgn-logo-visual-identity-license.py` | 4 | Fallback only: NSL keeps the kit, licenses it nonexclusively to JGN for the Media Field. In JGN mode this generator emits nothing — the brand kit is JGN brand property under Master License §3.5 and no separate document exists |
 | Marketing and Audience License (JGN → NSL) | `jgn-nsl-marketing-audience-license.py` | 4 | Nonexclusive distribution of NSL content through JGN's socials; no minimums, no account transfer, JGN may promote competitors; 30-day convenience termination; **does not survive an NSL sale** (buyer must buy JGN or renegotiate); its termination never touches the Master Brand License |
 | Transition Services Agreement | `jgn-nsl-transition-services-agreement.py` | 5 | NSL uses JGN's Apple Developer / Stripe until its own accounts are live. **No fee**, documented third-party costs only; biweekly remittance of NSL revenue JGN receives, no set-off against the advances; 60-day migration target, 12-month outside date; JGN not merchant of record beyond what a platform requires |
 | Company Account and Infrastructure Schedule | `nsl-account-infrastructure-schedule.py` | 4 | Control Standard stated once; every account tabulated with owner-of-record and target owner; open items collected in §9 |
-| JGN Media LLC Written Consent | `jgn-media-llc-written-consent.py` | 5 | All five JGN members (80% threshold; overlap with NSL disclosed). Approves the Schedule C assignment for no cash and no NSL equity, confirms Schedule D, approves all four agreements, the Brock talent agreement (JGN co-party; no JGN equity to Brock), directs the USPTO filing, treats the ~$5K advances and JGN's discretionary ongoing funding as a non-equity NSL obligation, authorizes the CEO to sign both sides with that disclosed, fixes the signing order |
+| JGN Media LLC Written Consent | `jgn-media-llc-written-consent.py` | 5 | All five JGN members (80% threshold; overlap with NSL disclosed). Approves the Schedule C assignment for no cash and no NSL equity, confirms Schedule D, accepts the brand-kit confirmation, approves all three agreements, the Brock talent agreement (JGN co-party; no JGN equity to Brock), directs the USPTO filing, treats the ~$5K advances and JGN's discretionary ongoing funding as a non-equity NSL obligation, authorizes the CEO to sign both sides with that disclosed, fixes the signing order |
 
-**Signing order:** JGN Written Consent → NSL LLC Agreement + organizational consent + six
-PIIAs → Master Brand License **and** Brand Asset Assignment together, same day → Marketing
-License → TSA and the operational transfers. Brock's agreement any time after step 2.
+**Signing order** (`templates/nosebleed-signature-packet.py`, 4 pp, replaces prior binder doc 62):
+JGN Written Consent → NSL LLC Agreement → organizational consent → six PIIAs → Master Brand
+License → Marketing License → TSA → ledgers confirmed (profits interests: no payment, no valuation)
+→ Brock's agreement + joinder → platform transfers → NY qualification. One Effective Date on
+every document. The packet carries the founder and Company/JGN signature matrices and an optional
+blank spousal consent.
 
 ### Founder PIIAs
 
@@ -360,16 +362,15 @@ Exhibit 2 (generic — founders' home states not asserted); Delaware law matchin
   (assigned to the extent incorporated into or necessary for any Nosebleed product; unrelated
   portions retained on Schedule A with a perpetual royalty-free license back). Counter-signed for
   the Company by the CTO, since the CEO cannot sign both sides.
-- **Designer-founder's PIIA:** standalone Brand Kit section — present assignment of the kit,
-  kit-specific moral-rights waiver, source-file delivery within five business days, and in JGN
-  mode consent to the onward assignment to JGN. This is why he signs nothing extra on the Brand
-  Asset Assignment. Sign it before or with that Assignment.
-- Other four: generic confirmatory paragraph tailored to their area; Schedule A none.
+- Other five (including the designer-founder): the same generic form, with one tailored
+  sentence each for their area; Schedule A none. **Nobody signs anything over individually** —
+  the generic work-product clause every founder signs already covers brand assets and graphics
+  made in the role.
 
 **Open on this package:** USPTO classes/basis/specimens/fees unsettled; Effective Date
-blank everywhere; the designer-founder holds 20% of NSL and 0% of JGN, so the kit moves to an
-entity he has no stake in — disclosed in the documents and defensible because the license back
-is exclusive, perpetual and survives a sale, but **tell him plainly before he signs**.
+blank everywhere; the designer-founder holds 20% of NSL and 0% of JGN while the brand he
+designed for sits in JGN — the owner confirms this is mutually understood by all partners and
+reflected in his NSL percentage.
 
 ---
 
@@ -472,3 +473,7 @@ exposure, which drafting cannot fix.
 15. JGN confirmed New York; advance raised to ~$5,000 with JGN's discretionary ongoing funding written
     in as non-equity; designer-founder's signature dropped from the Assignment. Six founder PIIAs
     drafted from the prior binder form (Opus agent), 12 builds verified.
+16. Owner's instruction: no founder signs anything over; the brand kit is brand property by role.
+    Brand Asset Assignment deleted, designer-founder's PIIA returned to the generic form, chain-of-
+    title recitals removed from every document, Master License §3.5 added. Signature packet drafted
+    (replaces prior binder doc 62). All verifiers pass in both modes.

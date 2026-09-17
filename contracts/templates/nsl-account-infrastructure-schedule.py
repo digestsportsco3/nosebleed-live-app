@@ -19,7 +19,7 @@ import os
 from nbs_style import (  # fill-in constants and style helpers
     JGN_MODE, BRAND_KIT_OWNER, WORKDIR, JGN_NAME, COMPANY_NAME, COMPANY_STATE, FORMATION_DATE,
     DE_FILE_NUMBER, REG_AGENT, PRINCIPAL_OFFICE, EIN, CEO_NAME, CEO_TITLE, EFFECTIVE_DATE, MARK,
-    T_MASTER, T_SECOND, T_ASSIGN, T_MKTG, T_TSA, T_OA, T_INFRA, DASH,
+    T_MASTER, T_SECOND, T_MKTG, T_TSA, T_OA, T_INFRA, DASH,
     Spacer, Table, TableStyle, HRFlowable, PageBreak, colors, inch, P, H, BUL, GRID,
     masthead, build, sig_style, body_style, Paragraph)
 
@@ -121,9 +121,9 @@ if JGN_MODE:
          "be filed and maintained in JGN's name under Section 5.2 of the " + T_MASTER),
         ("Brand kit " + DASH + " logo artwork and source files, logo variations, visual identity, "
          "design system and product-brand design assets", JGN,
-         "Assigned by the Company to JGN under the " + T_ASSIGN + " and licensed back to the Company "
-         "in the Product Field under the " + T_MASTER + ". Source and design files to be delivered "
-         "to JGN; the Company retains working copies"),
+         "JGN-owned as brand property under the " + T_MASTER + ", forming part of the Licensed Brand "
+         "and licensed to the Company in the Product Field under that license. Source and design "
+         "files to be delivered to JGN; the Company retains working copies"),
         ("Design and brand file storage holding the brand kit", JGN,
          TBD + ": JGN to hold the master files; the Company to hold working copies. Administrative "
          "access arrangements not yet implemented"),
@@ -139,8 +139,8 @@ else:
          "be filed and maintained in JGN's name under Section 5.2 of the " + T_MASTER),
         ("Brand kit " + DASH + " logo artwork and source files, logo variations, visual identity, "
          "design system and product-brand design assets", NSL,
-         "Company-owned through [Founder B]'s assignment agreement and licensed to JGN for the "
-         "Media Field under the " + T_SECOND),
+         "Company-owned, developed by the Company's officers as part of their roles, and licensed to "
+         "JGN for the Media Field under the " + T_SECOND),
         ("Design and brand file storage holding the brand kit", NSL,
          TBD + ": the Company to hold the master files and give JGN access for Media Field use. "
          "Administrative access arrangements not yet implemented"),
@@ -171,7 +171,8 @@ s.append(P("This Schedule records, for each account and system the Company's bus
            "who is intended to own it and what its status is today. It is a factual record adopted "
            "under Section 9.5 of the " + T_OA + " (the \"" + T_OA + "\"). It does not itself transfer "
            "anything: assignments are governed by Schedule C to the " + T_OA + ", retained assets by "
-           "Schedule D, brand rights by the " + T_MASTER + " and the " + T_SECOND + ", audience "
+           "Schedule D, brand rights by the " + T_MASTER +
+           (" and the " + T_SECOND if T_SECOND else "") + ", audience "
            "rights by the " + T_MKTG + ", and temporary use of JGN infrastructure by the " + T_TSA +
            ". Where a status reads " + TBD + ", the status is genuinely unknown or the step is "
            "genuinely not done; it is not a placeholder for a term that has been agreed."))

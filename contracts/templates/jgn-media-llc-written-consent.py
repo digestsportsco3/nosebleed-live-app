@@ -8,8 +8,9 @@ Nicholas Restivo can sign anything for JGN. All five members hold 20% each; JGN'
 documents may require 80% approval, so all five sign and the consent recites that threshold.
 
 Approves, by name: the Schedule C asset assignment to Nosebleed Sports LLC, the Master Brand and
-Trademark License, the second brand document (the Brand Asset Assignment in "JGN" mode, the Logo
-and Visual Identity License in "NSL" mode), the Marketing and Audience License, the Transition
+Trademark License (in "JGN" mode Section 5 records JGN's acceptance of the Company's brand-kit
+confirmation in that license; in "NSL" mode Section 5 approves the Logo and Visual Identity
+License instead), the Marketing and Audience License, the Transition
 Services Agreement, the [Class B Member] Talent Agreement to which JGN is a co-party, the treatment of
 JGN's pre-formation advances as a Company obligation rather than equity, the USPTO filing, and
 Nicholas Restivo's authority to sign.
@@ -23,8 +24,8 @@ from nbs_style import (  # fill-in constants and style helpers
     JGN_MODE, BRAND_KIT_OWNER, WORKDIR, JGN_NAME, JGN_STATE, JGN_ADDRESS, JGN_SIGNER,
     JGN_SIGNER_TITLE, JGN_MEMBERS, JGN_MEMBER_PCT, JGN_THRESHOLD, JGN_ADVANCES,
     COMPANY_NAME, COMPANY_STATE, FORMATION_DATE, DE_FILE_NUMBER, PRINCIPAL_OFFICE, EIN,
-    CEO_NAME, CEO_TITLE, CTO_NAME, EFFECTIVE_DATE, MARK,
-    T_MASTER, T_ASSIGN, T_LOGO, T_SECOND, T_MKTG, T_TSA, T_INFRA, T_OA, T_BROCK, DASH,
+    CEO_NAME, CEO_TITLE, EFFECTIVE_DATE, MARK,
+    T_MASTER, T_LOGO, T_SECOND, T_MKTG, T_TSA, T_INFRA, T_OA, T_BROCK, DASH,
     Spacer, Table, TableStyle, HRFlowable, colors, inch, P, H, BUL, GRID, build,
     sig_style, title_style, subtitle_style, Paragraph)
 
@@ -64,12 +65,12 @@ s.append(P("RESOLVED, that JGN's governing documents may require the approval of
            "unanimity, is satisfied; and that this consent is the JGN approval required by Schedule "
            "E to the " + COMPANY_NAME + " " + T_OA + " (the \"" + T_OA + "\") and by the resolutions "
            "of " + COMPANY_NAME + " approving the same agreements."))
-s.append(P("RESOLVED FURTHER, that the members acknowledge that each of them other than " + CTO_NAME +
-           ", who holds no interest in JGN, is also a Class A Member of " + COMPANY_NAME +
+s.append(P("RESOLVED FURTHER, that the members acknowledge that each of them is also a Class A Member of " + COMPANY_NAME +
            " (the \"Company\"), a " + COMPANY_STATE + " limited liability company formed on " +
            FORMATION_DATE + " under file number " + DE_FILE_NUMBER + " holding Employer "
            "Identification Number " + EIN + " with its principal office at " + PRINCIPAL_OFFICE +
-           "; that every approval below is given with that overlap fully disclosed and after "
+           "; that the Company has one further Class A Member who holds no interest in JGN; "
+           "that every approval below is given with that overlap fully disclosed and after "
            "consideration of it; and that no member is disqualified from voting on it."))
 
 # ---------------------------------------------------------------- 2
@@ -98,8 +99,8 @@ s.append(P("RESOLVED, that JGN confirms it retains, and does not assign, the JGN
            "media accounts, the legacy media assets and historical content, the historical "
            "sponsorship, advertising and affiliate agreements, historical revenue, and JGN's Apple "
            "Developer, Stripe, payment and AI-history accounts" +
-           (", together with the brand kit acquired under the " + T_ASSIGN + " approved in Section 5"
-            if JGN_MODE else "") +
+           (", together with the brand kit, which is JGN brand property confirmed under the " +
+            T_MASTER + " as provided in Section 5" if JGN_MODE else "") +
            "; and that the Company receives only the assignment, license and transition rights "
            "expressly granted in the agreements approved in this consent."))
 
@@ -120,19 +121,20 @@ s.append(P("RESOLVED, that the <b>" + T_MASTER + "</b> from JGN to the Company i
            "Product Field while the license is in effect and not to abandon the mark."))
 
 # ---------------------------------------------------------------- 5
-s.append(H("5. " + T_SECOND))
+s.append(H("5. " + (T_SECOND if T_SECOND else "Brand Kit")))
 if JGN_MODE:
-    s.append(P("RESOLVED, that JGN <b>accepts</b> the <b>" + T_ASSIGN + "</b> from the Company to "
-               "JGN in the form presented, under which the Company assigns to JGN the logo artwork "
-               "and source files, logo variations, visual identity, design system and product-brand "
-               "design assets created by " + CTO_NAME + " and assigned to the Company under his "
-               "assignment agreement, together with all copyrights, design rights and goodwill in "
-               "them; that the sole consideration given by JGN is the grant of the " + T_MASTER +
-               ", and no cash, note or equity is paid or issued by either party; that JGN takes the "
-               "assigned assets subject to the " + T_MASTER + "; that JGN assumes no liability or "
-               "contract of the Company by reason of the assignment; and that the chain of title "
-               "runs " + CTO_NAME + " to the Company under his assignment agreement, and the "
-               "Company to JGN under the " + T_ASSIGN + "."))
+    s.append(P("RESOLVED, that JGN <b>accepts</b> the Company's confirmation in Section 3.5 of the "
+               "<b>" + T_MASTER + "</b> that the brand kit " + DASH + " the logo artwork and source "
+               "files, logo variations, visual identity, design system and product-brand design "
+               "assets used by the Nosebleed Sports business, together with all derivative works of "
+               "them " + DASH + " was developed for the " + MARK + " brand by the Company's officers "
+               "as part of their roles, is brand property forming part of the Licensed Brand owned "
+               "by JGN, and, to the extent the Company holds any right in it, is assigned to JGN and "
+               "licensed back to the Company under Section 2 of that license; that no cash, note or "
+               "equity is paid or issued by either party for it; that JGN assumes no liability or "
+               "contract of the Company by reason of that confirmation; and that JGN is authorized "
+               "to receive the brand source and design files and to register the elements of the "
+               "brand kit in JGN's name."))
     s.append(P("RESOLVED FURTHER, that the members determine that holding the entire brand " + DASH +
                " the word mark, the common-law rights and goodwill, the legacy accounts and the "
                "brand kit " + DASH + " in a single entity is in JGN's interest, because it allows a "
@@ -142,8 +144,8 @@ else:
     s.append(P("RESOLVED, that the <b>" + T_LOGO + "</b> from the Company to JGN is approved in the "
                "form presented, under which the Company, which owns the logo artwork and source "
                "files, logo variations, visual identity, design system and product-brand design "
-               "assets created by " + CTO_NAME + " and assigned to it under his assignment "
-               "agreement, grants JGN a nonexclusive, royalty-free, worldwide license to use those "
+               "assets developed by its officers as part of their roles, "
+               "grants JGN a nonexclusive, royalty-free, worldwide license to use those "
                "assets in the Media Field on JGN's retained media properties, sublicensable to JGN's "
                "contractors, talent, agencies and sponsors; that JGN will not challenge the "
                "Company's ownership of those assets and the Company will not challenge JGN's "
@@ -230,7 +232,8 @@ s.append(P("RESOLVED FURTHER, that JGN is authorized to accept repayment when of
 s.append(H("11. Authority to Sign"))
 s.append(P("RESOLVED, that <b>" + JGN_SIGNER + "</b> is authorized, as " + JGN_SIGNER_TITLE +
            " of JGN, to execute and deliver on JGN's behalf each agreement approved in this consent, "
-           "namely the assignment of the Assigned Assets, the " + T_MASTER + ", the " + T_SECOND +
+           "namely the assignment of the Assigned Assets, the " + T_MASTER +
+           (", the " + T_SECOND if T_SECOND else "") +
            ", the " + T_MKTG + ", the " + T_TSA + " and the " + T_BROCK + ", together with the "
            "assignments, transfer requests, platform forms, trademark filings, confirmatory "
            "instruments and further-assurance documents needed to carry them out; and that all "
@@ -247,8 +250,9 @@ s.append(P("RESOLVED FURTHER, that he may agree non-material drafting changes to
 s.append(H("12. Sequence and Effectiveness"))
 s.append(P("RESOLVED, that the correct order of execution is: (a) this consent, signed by all five "
            "JGN members; (b) the Company's Initial Member and Organizational Written Consent and its " +
-           T_OA + ", signed by the Company's Class A Members; (c) the " + T_MASTER + " and the " +
-           T_SECOND + ", which are delivered together, and the " + T_MKTG + "; and (d) the " + T_TSA +
+           T_OA + ", signed by the Company's Class A Members; (c) the " + T_MASTER +
+           (" and the " + T_SECOND + ", which are delivered together, and the " if T_SECOND
+            else " and the ") + T_MKTG + "; and (d) the " + T_TSA +
            " and the operational transfer steps; and that " + JGN_SIGNER + " will not sign a "
            "definitive agreement for JGN before this consent is signed."))
 s.append(P("RESOLVED FURTHER, that these resolutions take effect on the Effective Date; that this "

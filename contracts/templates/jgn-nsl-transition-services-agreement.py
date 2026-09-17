@@ -201,8 +201,9 @@ s.append(P("<b>7.3 Effect of termination.</b> On termination JGN's obligation to
            "Party will promptly deliver to the other the records, exports and reconciliations the "
            "other needs to close out. JGN will remit Company revenue it holds within thirty (30) "
            "days. Sections 3, 4, 5.2 through 5.5, 8 and 9 and accrued obligations survive."))
-s.append(P("<b>7.4 Independence.</b> This Agreement is separate from the " + T_MASTER + ", the " +
-           T_SECOND + " and the " + T_MKTG + " and is not to be consolidated with any of them. "
+s.append(P("<b>7.4 Independence.</b> This Agreement is separate from the " + T_MASTER +
+           (", the " + T_SECOND if T_SECOND else "") + " and the " + T_MKTG +
+           " and is not to be consolidated with any of them. "
            "Termination or expiration of this Agreement does not affect any of them, and in "
            "particular does not affect the " + T_MASTER + ", which is perpetual in the Product "
            "Field."))
@@ -248,7 +249,7 @@ s.append(P("<b>9.3 Governing law; disputes.</b> This Agreement is governed by th
            "dispute remains unresolved thirty (30) days after mediation begins, either Party may "
            "bring it in " + VENUE + ", and each Party consents to that jurisdiction and venue."))
 s.append(P("<b>9.4 Entire agreement; amendment; notices; counterparts.</b> This Agreement, with the " +
-           T_MASTER + ", the " + T_SECOND + ", the " + T_MKTG + " and the " + T_INFRA + ", is the "
+           T_MASTER + (", the " + T_SECOND if T_SECOND else "") + ", the " + T_MKTG + " and the " + T_INFRA + ", is the "
            "entire agreement between the Parties on its subject and supersedes all prior "
            "understandings and drafts, including the pre-formation binder documents. It may be "
            "amended only by a written instrument signed by both Parties and approved by each Party "
