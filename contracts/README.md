@@ -176,9 +176,19 @@ LLC, nothing otherwise stops a stranger being put on the accounts.
 ## 3. Talent, Handicapping & Content Services Agreement (Brock Smith)
 
 Generator: `templates/nosebleed-talent-handicapper-agreement.py`. Built for the on-camera
-talent + handicapper seat; reusable for similar roles. Contracting entity is **JGN Media LLC
-d/b/a Nosebleed Sports** (the instruction said "Nosebleed Sports LLC" — confirmed as shorthand;
-the equity clause makes the entity choice consequential).
+talent + handicapper seat; reusable for similar roles.
+
+### Entity structure (important)
+
+Two entities, both parties to the agreement, together "the Company":
+
+- **JGN Media LLC** — owns the Nosebleed Sports **brand and social media accounts**.
+- **Nosebleed Sports LLC ("NSL")** — owns the **app, website, Discord, and premium picks
+  offering** (the "Platform"). **All equity is in NSL.** Nothing grants any interest in JGN.
+
+Work Product is assigned to whichever entity the Company designates; absent designation,
+brand/social content → JGN, picks/Platform content → NSL. Payment obligations are
+obligations of both; either may give notice for the Company. Nick signs for both.
 
 ### Business deal (verbally agreed; supersedes the four written "paths")
 
@@ -186,60 +196,70 @@ the equity clause makes the entity choice consequential).
 |---|---|
 | Monthly Fee | **00/month, paid in arrears** within 10 days of month end, conditioned on performance (§6) |
 | Brand deal share | **50%** of deals the Contractor **sourced** OR that **directly involve his work** (he creates, appears in, or delivers). Company-sourced deals he doesn't perform: 0% |
-| Premium picks subs | **No revenue share** — counts only toward equity milestones (the written paths all had one; the verbal deal did not — deliberate, flagged) |
-| Milestone equity | Non-voting units: **1% at 5K → 2.5% at 0K → 3.75% at 10K → 5% at 75K** cumulative Qualifying Revenue. No time limit; must be active and in good standing when crossed |
+| Premium picks subs | **No revenue share** — counts only toward equity milestones (deliberate; the written paths all had one) |
+| **Initial Units** | **0.50% of NSL issued up front**, non-voting, **forfeitable until vested** (§5.1, §5.4) |
+| Milestone Units | Ladder rebuilt so the up-front 0.5% is an advance on the first tranche: **+0.5% at 5K → 1.0%; +1.5% at 0K → 2.5%; +1.25% at 10K → 3.75%; +1.25% at 75K → 5.0%.** Same 5% cap as the original offer |
 | Qualifying Revenue | Any revenue he directly generated: brand deals, events he drove, premium subs attributed via tracking link/code, other documented attribution. Counted gross, once |
-| Duties (Monthly Deliverables) | Nosebleed Sports TikTok + Instagram at 3 posts/day **each**; daily picks + write-ups; 30-min live before every NFL Sunday 1pm slate; lives for major events; ad hooks + on-camera in ads; weekly sync; daily Discord; 1-business-day response on team strategy |
+| Duties (Monthly Deliverables) | Nosebleed Sports TikTok + Instagram at 3 posts/day **each**; daily picks + write-ups; 30-min live before every NFL Sunday 1pm slate; lives for major events; ad hooks + on-camera in ads; weekly sync; daily Discord presence; 1-business-day response on team strategy |
 | Termination | **Company: at will, effective immediately.** Contractor: 14 days' notice |
-| Quarterly review | §3.2 — mandatory quarterly review of performance, scope, comp, equity; changes only by signed amendment |
+| Quarterly review | §3.2 — mandatory; may produce a **Value Notice** (§5.4); changes only by signed amendment |
 | Governing law | New York |
+
+### How the Initial Units forfeiture works (§5.4)
+
+The 0.5% is issued at signing but is **unvested**. It vests (becomes his for keeps) on the
+**earlier of** reaching the 5K milestone or **12 consecutive months** without an uncured
+Shortfall Notice or Value Notice. **Before vesting it is forfeited for /bin/bash** if: (i) the
+Company terminates following a Shortfall Notice, for material breach, or for prohibited
+conduct; (ii) he quits; or (iii) a quarterly review produces a written **Value Notice**
+("deliverables and overall contribution are not meeting expectations," with the
+deficiencies identified) and he fails to cure within 30 days. If the Company terminates
+before vesting *without* one of those grounds, the units vest — that tracks the stated
+intent ("taken away if deliverables and value are not met"), not "taken away for any
+reason," and keeps the grant from being illusory. If forfeited, the 5K tranche becomes a
+full 1% so the ladder's cumulative percentages are unchanged.
 
 ### Key provisions and why
 
 - **§6 — Performance is a condition of payment and equity.** Monthly Fee earned only on
-  substantial performance of Monthly Deliverables. Company may reduce pro rata or withhold
-  entirely for material shortfalls via a written **Shortfall Notice**; milestones defer while
-  under an uncured notice and forfeit if terminated before cure. *The written notice
-  requirement is what keeps this enforceable rather than illusory — pure "we decide you
-  didn't perform" would fail. In-arrears payment is what makes withholding mechanically clean.*
-- **§5 — Milestone equity is a contractual right to future issuance, not a present grant.**
-  Non-voting, subject to the Operating Agreement, dilutable, may be structured as profits
-  interests. Percentages measured at issuance date. Unreached milestones lapse on termination
-  or change of control. **The services contract cannot itself issue LLC units** — see open items.
-- **§2.5 — Handicapping compliance.** Own genuine work; standard disclaimers + responsible
-  gambling; no "locks"/guarantees; accurate records; no sportsbook/affiliate promotion without
-  approval; disclose all sportsbook/picks-service relationships.
-- **§2.6 — During-term conflicts (not a non-compete).** No selling picks through another paid
-  service and no being the face of a competing sports media/picks/betting brand during the
-  Term. Expressly no post-term restriction. Includes a rep that performing doesn't breach any
-  prior agreement (he's leaving a prior picks/sportsbook relationship — this protects the
-  Company from that counterparty).
-- **§7 — Likeness license.** During-term license; post-term the Company keeps using everything
-  created during the term including in paid ads, but creates nothing new. Fallback if he
-  pushes back: limit post-term *paid* use to 12 months.
-- **§13.4 — 60-day tail.** Deals contracted before termination keep paying his share and count
-  toward milestones for 60 days. *Exists so at-will termination can't be used to dodge a
-  check that's already in flight — that fact pattern invites a claim.*
+  substantial performance; written **Shortfall Notice** → pro-rata reduction or full
+  withholding for material misses. Milestones defer while under an uncured notice and
+  forfeit if terminated before cure. *Written notice is what keeps this enforceable rather
+  than illusory; in-arrears payment is what makes withholding mechanically clean.*
+- **§5 — Equity is a contractual right to issuance subject to NSL's Operating Agreement.**
+  Non-voting, dilutable, may be profits interests. Initial Units due within 30 days of the
+  Effective Date, so **the OA work is now a signing-time item, not a someday item.**
+- **§2.5 — Handicapping compliance.** Own work; disclaimers + responsible gambling; no
+  "locks"; accurate records; no sportsbook/affiliate promotion without approval; disclose
+  all sportsbook/picks-service relationships.
+- **§2.6 — During-term conflicts only.** No selling picks elsewhere or fronting a competing
+  brand during the Term; nothing post-term. Rep that signing breaches no prior agreement.
+- **§7 — Likeness license.** During-term; post-term the Company keeps using everything made
+  during the term including paid ads. Fallback if he pushes back: 12-month cap on paid use.
+- **§13.4 — 60-day tail** on deals contracted before termination.
+- **Classification-posture clauses (added rev. 2):** §10.2 states outright that the
+  Contractor controls manner/means/hours/location and the Company does not set a schedule
+  beyond the agreed time-bound deliverables; §2.7 lets him hire his own assistants for
+  editing/research (right-to-hire-helpers is an IC factor) with no account access; §10.3
+  lets him perform through his own LLC while staying personally bound on the key
+  covenants. §2.1(e) reframed Discord as "active presence as a Brand ambassador."
 - §§8, 9, 11, 12 mirror the operator template (assignment-first IP, account security with
   four-tier liquidated damages, confidentiality, indemnity + LoL with negligence carve-down).
 
 > **OPEN ITEMS — must resolve before or at signing:**
-> - **Equity mechanics need the Operating Agreement.** If JGN Media LLC is single-member,
->   issuing units to Brock converts it to a partnership for tax (K-1s, possible phantom
->   income). Needs an attorney/CPA: amend the OA, create a non-voting/profits-interest class,
->   add repurchase rights on departure, paper the 83(b). §5 is drafted to survive that work,
->   not replace it.
-> - **Worker classification is the biggest risk on this deal.** The role as pitched
->   ("full-time seat," 6–7 days/yr-round, daily presence, fixed Sunday schedule, at-will
->   termination, face of the company) is a strong employee fact pattern. The contract frames
->   everything as deliverables and avoids "full-time" language, but practice must match:
->   don't direct hours, don't require daily check-ins beyond the deliverables, keep the
->   quarterly review about outputs. If he's in NY, common-law test applies; another state
->   may use ABC.
-> - Exhibit A is blank for his address/phone/email/effective date and the two account handles.
+> - **NSL Operating Agreement.** Issuing the 0.5% at signing requires: a non-voting (or
+>   profits-interest) class; forfeiture/repurchase mechanics matching §5.4; drag-along;
+>   transfer restrictions. If NSL is single-member, adding him makes it a partnership for
+>   tax (K-1s). **Structure as a profits interest** so the up-front grant isn't taxable
+>   income to him at issuance; he should file an **83(b) within 30 days**. Attorney + CPA.
+> - **Confirm NSL's state of organization and address** — drafted as New York, 105 Broadway.
+> - **Confirm Nick's title at NSL** — signature block says CEO for both entities.
+> - **Worker classification** remains the biggest exposure — see the classification note in
+>   the drafting history. The contract is now as IC-postured as drafting allows; practice
+>   must match.
+> - Exhibit A blanks: address/phone/email, effective date, both account handles.
 > - The written offer listed different accounts (Nosebleed Golf TikTok, Baseball Bros IG) and
->   2 posts/day; the instruction for the contract said Nosebleed Sports TikTok + IG at
->   3/day. Contract follows the instruction — confirm.
+>   2 posts/day; contract follows the later instruction (Nosebleed Sports TikTok + IG, 3/day).
 
 ---
 
@@ -323,3 +343,6 @@ exposure, which drafting cannot fix.
 9. Talent/handicapper agreement for the Nosebleed Sports face-of-brand seat: monthly fee
    conditioned on deliverables, 50% brand-deal share, milestone equity ladder, at-will
    termination, quarterly review.
+10. Rev. 2 of the talent agreement: Nosebleed Sports LLC added as co-party and equity issuer;
+    0.5% up-front grant with vesting/forfeiture; ladder rebuilt to the same 5% cap; explicit
+    control-of-work, assistants, and perform-through-entity clauses for classification posture.
