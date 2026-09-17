@@ -1,7 +1,7 @@
 # JGN Media LLC — Contract Records
 
 Master log for JGN Media LLC contracting. Keyed by X handle, **no operator PII**
-(see `../CLAUDE.md` — this repo is public). Last updated 2026-09-16.
+(see `../CLAUDE.md` — this repo is public). Last updated 2026-09-17.
 
 - **Company:** JGN Media LLC, a New York limited liability company
 - **Business address:** 105 Broadway, Rockville Centre, NY 11570
@@ -173,7 +173,77 @@ LLC, nothing otherwise stops a stranger being put on the accounts.
 
 ---
 
-## 3. Mutual Termination and Release
+## 3. Talent, Handicapping & Content Services Agreement (Brock Smith)
+
+Generator: `templates/nosebleed-talent-handicapper-agreement.py`. Built for the on-camera
+talent + handicapper seat; reusable for similar roles. Contracting entity is **JGN Media LLC
+d/b/a Nosebleed Sports** (the instruction said "Nosebleed Sports LLC" — confirmed as shorthand;
+the equity clause makes the entity choice consequential).
+
+### Business deal (verbally agreed; supersedes the four written "paths")
+
+| Term | Value |
+|---|---|
+| Monthly Fee | **00/month, paid in arrears** within 10 days of month end, conditioned on performance (§6) |
+| Brand deal share | **50%** of deals the Contractor **sourced** OR that **directly involve his work** (he creates, appears in, or delivers). Company-sourced deals he doesn't perform: 0% |
+| Premium picks subs | **No revenue share** — counts only toward equity milestones (the written paths all had one; the verbal deal did not — deliberate, flagged) |
+| Milestone equity | Non-voting units: **1% at 5K → 2.5% at 0K → 3.75% at 10K → 5% at 75K** cumulative Qualifying Revenue. No time limit; must be active and in good standing when crossed |
+| Qualifying Revenue | Any revenue he directly generated: brand deals, events he drove, premium subs attributed via tracking link/code, other documented attribution. Counted gross, once |
+| Duties (Monthly Deliverables) | Nosebleed Sports TikTok + Instagram at 3 posts/day **each**; daily picks + write-ups; 30-min live before every NFL Sunday 1pm slate; lives for major events; ad hooks + on-camera in ads; weekly sync; daily Discord; 1-business-day response on team strategy |
+| Termination | **Company: at will, effective immediately.** Contractor: 14 days' notice |
+| Quarterly review | §3.2 — mandatory quarterly review of performance, scope, comp, equity; changes only by signed amendment |
+| Governing law | New York |
+
+### Key provisions and why
+
+- **§6 — Performance is a condition of payment and equity.** Monthly Fee earned only on
+  substantial performance of Monthly Deliverables. Company may reduce pro rata or withhold
+  entirely for material shortfalls via a written **Shortfall Notice**; milestones defer while
+  under an uncured notice and forfeit if terminated before cure. *The written notice
+  requirement is what keeps this enforceable rather than illusory — pure "we decide you
+  didn't perform" would fail. In-arrears payment is what makes withholding mechanically clean.*
+- **§5 — Milestone equity is a contractual right to future issuance, not a present grant.**
+  Non-voting, subject to the Operating Agreement, dilutable, may be structured as profits
+  interests. Percentages measured at issuance date. Unreached milestones lapse on termination
+  or change of control. **The services contract cannot itself issue LLC units** — see open items.
+- **§2.5 — Handicapping compliance.** Own genuine work; standard disclaimers + responsible
+  gambling; no "locks"/guarantees; accurate records; no sportsbook/affiliate promotion without
+  approval; disclose all sportsbook/picks-service relationships.
+- **§2.6 — During-term conflicts (not a non-compete).** No selling picks through another paid
+  service and no being the face of a competing sports media/picks/betting brand during the
+  Term. Expressly no post-term restriction. Includes a rep that performing doesn't breach any
+  prior agreement (he's leaving a prior picks/sportsbook relationship — this protects the
+  Company from that counterparty).
+- **§7 — Likeness license.** During-term license; post-term the Company keeps using everything
+  created during the term including in paid ads, but creates nothing new. Fallback if he
+  pushes back: limit post-term *paid* use to 12 months.
+- **§13.4 — 60-day tail.** Deals contracted before termination keep paying his share and count
+  toward milestones for 60 days. *Exists so at-will termination can't be used to dodge a
+  check that's already in flight — that fact pattern invites a claim.*
+- §§8, 9, 11, 12 mirror the operator template (assignment-first IP, account security with
+  four-tier liquidated damages, confidentiality, indemnity + LoL with negligence carve-down).
+
+> **OPEN ITEMS — must resolve before or at signing:**
+> - **Equity mechanics need the Operating Agreement.** If JGN Media LLC is single-member,
+>   issuing units to Brock converts it to a partnership for tax (K-1s, possible phantom
+>   income). Needs an attorney/CPA: amend the OA, create a non-voting/profits-interest class,
+>   add repurchase rights on departure, paper the 83(b). §5 is drafted to survive that work,
+>   not replace it.
+> - **Worker classification is the biggest risk on this deal.** The role as pitched
+>   ("full-time seat," 6–7 days/yr-round, daily presence, fixed Sunday schedule, at-will
+>   termination, face of the company) is a strong employee fact pattern. The contract frames
+>   everything as deliverables and avoids "full-time" language, but practice must match:
+>   don't direct hours, don't require daily check-ins beyond the deliverables, keep the
+>   quarterly review about outputs. If he's in NY, common-law test applies; another state
+>   may use ABC.
+> - Exhibit A is blank for his address/phone/email/effective date and the two account handles.
+> - The written offer listed different accounts (Nosebleed Golf TikTok, Baseball Bros IG) and
+>   2 posts/day; the instruction for the contract said Nosebleed Sports TikTok + IG at
+>   3/day. Contract follows the instruction — confirm.
+
+---
+
+## 4. Mutual Termination and Release
 
 Used when a signed operator exits. Two pages. Generator was built ad hoc — rebuild
 from the @CasualWisconsin precedent. Structure:
@@ -193,7 +263,7 @@ from the @CasualWisconsin precedent. Structure:
 
 ---
 
-## 4. Per-operator signing checklist
+## 5. Per-operator signing checklist
 
 1. Fill Exhibit A completely — effective date, legal name, mailing address, phone,
    email, handle, school, posting minimum, payment method.
@@ -207,7 +277,7 @@ from the @CasualWisconsin precedent. Structure:
 
 ---
 
-## 5. Risks no contract can solve
+## 6. Risks no contract can solve
 
 Operational, not contractual. These sit with JGN regardless of what operators sign,
 because JGN owns the accounts the letters get sent to.
@@ -225,7 +295,7 @@ because JGN owns the accounts the letters get sent to.
 
 ---
 
-## 6. Drafting history
+## 7. Drafting history
 
 Built and hardened across several audit rounds, including adversarial review:
 
@@ -250,3 +320,6 @@ Built and hardened across several audit rounds, including adversarial review:
 **Standing caveat:** these are strong drafts, not legal advice. A licensed attorney
 should review before scaling further — particularly on the trademark and clip-licensing
 exposure, which drafting cannot fix.
+9. Talent/handicapper agreement for the Nosebleed Sports face-of-brand seat: monthly fee
+   conditioned on deliverables, 50% brand-deal share, milestone equity ladder, at-will
+   termination, quarterly review.
