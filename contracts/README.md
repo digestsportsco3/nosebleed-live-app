@@ -343,6 +343,29 @@ read the same switch. Supersedes prior-binder docs 17–20.
 PIIAs → Master Brand License **and** Brand Asset Assignment together, same day → Marketing
 License → TSA and the operational transfers. Brock's agreement any time after step 2.
 
+### Founder PIIAs
+
+Generator `templates/nosebleed-founder-piia.py` (imports `nbs_style.py`; `FOUNDER=<key>` builds
+one, no arg builds all six; 7 pp each). Built on the founders' prior pre-formation form with every
+section kept and the summary boilerplate written out in full. Consideration = Class A admission,
+units and office under the LLC Agreement; present assignment of post-formation work product in the
+four prior categories plus a confirmatory pre-formation assignment that never undercuts JGN's
+ownership; moral-rights waiver running to successors, assigns and licensees; narrow ministerial
+IP-perfection appointment (no general power); data-security and account return; open-source and
+AI-assisted-development terms; **12-month non-solicit, no general non-compete**; whistleblower
+protection with the DTSA §1833(b) notice as Exhibit 1; state invention-assignment carve-outs as
+Exhibit 2 (generic — founders' home states not asserted); Delaware law matching the LLC Agreement.
+
+- **CEO's PIIA:** resolves the prior open chain-of-title item on a pre-formation model runner
+  (assigned to the extent incorporated into or necessary for any Nosebleed product; unrelated
+  portions retained on Schedule A with a perpetual royalty-free license back). Counter-signed for
+  the Company by the CTO, since the CEO cannot sign both sides.
+- **Designer-founder's PIIA:** standalone Brand Kit section — present assignment of the kit,
+  kit-specific moral-rights waiver, source-file delivery within five business days, and in JGN
+  mode consent to the onward assignment to JGN. This is why he signs nothing extra on the Brand
+  Asset Assignment. Sign it before or with that Assignment.
+- Other four: generic confirmatory paragraph tailored to their area; Schedule A none.
+
 **Open on this package:** USPTO classes/basis/specimens/fees unsettled; Effective Date
 blank everywhere; the designer-founder holds 20% of NSL and 0% of JGN, so the kit moves to an
 entity he has no stake in — disclosed in the documents and defensible because the license back
@@ -446,3 +469,6 @@ exposure, which drafting cannot fix.
     JGN member consent given. Opus agent drafted the intercompany package (§9): Master Brand License,
     Brand Asset Assignment (Logo License fallback), Marketing License, TSA, Infrastructure Schedule,
     JGN Written Consent; OA/consent updated behind the `BRAND_KIT_OWNER` switch; 16 builds verified.
+15. JGN confirmed New York; advance raised to ~$5,000 with JGN's discretionary ongoing funding written
+    in as non-equity; designer-founder's signature dropped from the Assignment. Six founder PIIAs
+    drafted from the prior binder form (Opus agent), 12 builds verified.
