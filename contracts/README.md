@@ -273,7 +273,43 @@ full 1% so the ladder's cumulative percentages are unchanged.
 
 ---
 
-## 4. Mutual Termination and Release
+## 4. Nosebleed Sports LLC — Operating Agreement
+
+Generator: `templates/nosebleed-sports-llc-operating-agreement.py`. **No OA existed** before
+2026-09-17 (repo and Drive both searched). Drafted in-house, by decision — no outside counsel.
+
+**Entity facts (from the IRS EIN letter):** New York address; responsible party Nicholas
+Restivo, Member; IRS assigned a **Form 1065** filing obligation → NSL is **multi-member and
+taxed as a partnership** from the start. Issuing units to a service provider does not change
+its tax status. The EIN itself is kept in the private record, not here.
+
+**Structure — built to fit §5 of the talent agreement:**
+
+| Element | Term |
+|---|---|
+| Management | Manager-managed; Nicholas Restivo as Manager with the title CEO (so signature blocks across all contracts match) |
+| Class A | Voting founders' units; full economics; issued only as a Major Decision |
+| Class B | **Non-voting profits interests** for service providers; **10% pool** issuable by the Manager alone; each series gets a **Threshold Value** = FMV at issuance so it has $0 liquidation value at grant (Rev. Proc. 93-27 / 2001-43); holder treated as owner from issuance (the no-83(b) approach); vesting/forfeiture per the holder's Service Agreement; forfeited units auto-cancel for $0 with a power of attorney to record it |
+| Major Decisions | Sale of the Company, Class A issuance, Class B above pool, amendments, dissolution, debt > $25K, affiliate deals > $10K, tax classification change, bankruptcy — Class A majority |
+| Distributions | Manager's discretion, pro rata by Percentage Interest subject to Threshold Values; **tax distributions** by April 10 (so K-1 income doesn't leave a Class B holder with a bill and no cash); liquidation waterfall returns Class A capital first |
+| Transfers | Class B non-transferable except to the Company; Class A subject to ROFR (Company, then other Class A); **drag-along** binds Class B on a Sale of the Company; tag-along on a >50% Class A transfer |
+| Repurchase | On termination of a Class B holder's Service Agreement, Company may repurchase vested units within 180 days at **FMV** — or at the **lesser of FMV or capital contributed (≈$0)** if terminated for breach/cause/uncured performance notice. Note payable over up to 24 months |
+| Tax | Partnership; Manager = partnership representative; K-1s within 90 days; §754 at Manager's discretion |
+| Amendments | Class A majority; Manager alone may update Schedule A and make tax/statutory-compliance fixes; a Class B holder's *vested* economics can't be cut disproportionately without consent |
+| Law | New York; negotiation → mediation → NY courts, matching every other document |
+| Schedule B | Form of joinder — the one-page document a Class B recipient signs at issuance (what talent-agreement §5.6 requires) |
+
+> **OPEN — Schedule A cannot be completed without:** every Class A member's name and
+> percentage, any capital contributions, the Articles of Organization filing date, and
+> confirmation that NY is the formation state and Nick is sole Manager. Internal docs on
+> Drive name other decision-makers; if they hold equity they belong on Schedule A.
+> **NY LLC Law §206 publication** (two newspapers within 120 days of formation + Certificate
+> of Publication) — confirm it was done; if not, the LLC's authority to do business is
+> suspended until it is.
+
+---
+
+## 5. Mutual Termination and Release
 
 Used when a signed operator exits. Two pages. Generator was built ad hoc — rebuild
 from the @CasualWisconsin precedent. Structure:
@@ -293,7 +329,7 @@ from the @CasualWisconsin precedent. Structure:
 
 ---
 
-## 5. Per-operator signing checklist
+## 6. Per-operator signing checklist
 
 1. Fill Exhibit A completely — effective date, legal name, mailing address, phone,
    email, handle, school, posting minimum, payment method.
@@ -307,7 +343,7 @@ from the @CasualWisconsin precedent. Structure:
 
 ---
 
-## 6. Risks no contract can solve
+## 7. Risks no contract can solve
 
 Operational, not contractual. These sit with JGN regardless of what operators sign,
 because JGN owns the accounts the letters get sent to.
@@ -325,7 +361,7 @@ because JGN owns the accounts the letters get sent to.
 
 ---
 
-## 7. Drafting history
+## 8. Drafting history
 
 Built and hardened across several audit rounds, including adversarial review:
 
@@ -356,3 +392,5 @@ exposure, which drafting cannot fix.
 10. Rev. 2 of the talent agreement: Nosebleed Sports LLC added as co-party and equity issuer;
     0.5% up-front grant with vesting/forfeiture; ladder rebuilt to the same 5% cap; explicit
     control-of-work, assistants, and perform-through-entity clauses for classification posture.
+11. Operating Agreement of Nosebleed Sports LLC drafted from scratch (none existed) with a
+    Class A / Class B profits-interest structure matching the talent agreement's §5.
