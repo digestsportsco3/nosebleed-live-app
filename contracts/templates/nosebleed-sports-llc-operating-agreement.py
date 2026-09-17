@@ -66,8 +66,7 @@ OFFICERS = [
     ("[Founder F]",     "Business Development Officer"),
 ]
 BANK_SIGNERS = ["Nicholas Restivo", "[Founder B]", "[Founder E]", "[Founder C]", "[Founder D]"]
-JGN_OWNERSHIP = [("Nicholas Restivo", "__%"), ("[JGN member]", "__%"), ("[JGN member]", "__%"), ("[JGN member]", "__%"), ("[JGN member]", "__%")]  # fill from the private record", "20%"), ("[Founder E]", "20%"),
-                 ("[Founder F]", "20%"), ("[Founder D]", "20%")]
+JGN_OWNERSHIP = [("Nicholas Restivo", "__%"), ("[JGN member]", "__%"), ("[JGN member]", "__%"), ("[JGN member]", "__%"), ("[JGN member]", "__%")]  # fill from the private record
 BROCK_SERVICE_AGREEMENT = "Talent, Handicapping, and Content Services Agreement among JGN Media LLC, the Company, and [Class B Member]"
 # ========================================================================
 
