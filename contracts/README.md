@@ -275,10 +275,12 @@ full 1% so the ladder's cumulative percentages are unchanged.
 
 ## 4. Nosebleed Sports LLC — Limited Liability Company Agreement (Delaware)
 
-Generators: `templates/nosebleed-sports-llc-operating-agreement.py` (the LLC Agreement) and
-`templates/nosebleed-sports-llc-organizational-consent.py` (the consent that adopts it, issues
-units, and approves the Brock agreement). **No OA existed** before 2026-09-17. Drafted in-house
-by decision. Member names, percentages, and the EIN live in the private master record, not here.
+Generators: `templates/nosebleed-sports-llc-operating-agreement.py` (LLC Agreement, 25 pp) and
+`templates/nosebleed-sports-llc-organizational-consent.py` (consent, 8 pp). **Rev. 3 is a merge**
+of the founders' prior "Version 2.0" pre-formation binder with the superseding deal terms —
+the prior binder is the backbone (its article numbering, definitions, and every provision not
+overridden), the superseding changes are layered in. Drafted in-house by decision. Member
+names, percentages, JGN's ownership, and the EIN live in the private master record, not here.
 
 **Entity facts (public record):** Delaware LLC, Certificate of Formation filed August 7, 2026,
 File No. 10727267; registered agent ZenBusiness Inc., Dover DE; principal office Rockville
@@ -286,26 +288,33 @@ Centre NY. IRS assigned a Form 1065 obligation → multi-member partnership from
 
 **Capital structure:** 10,000,000 authorized Common Units. 9,050,000 issued (six voting Class A
 founders + one non-voting Class B service provider at 50,000 units = 0.50% of authorized).
-950,000 unissued, of which 450,000 is the **Brock Reserve** pre-approved for his milestone
-ladder and 500,000 is unallocated. Two former participants hold nothing, confirmed by consent.
+950,000 unissued: 450,000 **Brock Reserve** pre-approved for the talent agreement's milestone
+ladder, 500,000 unallocated. Two former participants hold nothing, confirmed by consent.
 
 | Element | Term |
 |---|---|
-| Management | Manager-managed; Nicholas Restivo as Manager, title CEO (matches every contract's signature block) |
-| Class A | Voting founders' units; 50% vested at Effective Date, 50% monthly over 48 months, no cliff, Service condition, $0 Original Cost repurchase (= forfeiture), full acceleration on Change of Control and death/disability |
+| Governance | **Member-managed with officers** (the founders' prior-agreed structure; a manager-managed draft was tried and discarded). CEO = Nicholas Restivo with contract-signing authority and delegation, so every contract's signature block still reads "Chief Executive Officer". Officer removal by Majority. Fiduciary duties **kept** — no Delaware §18-1101(c) waiver |
+| Class A | Voting founders' units; 50% vested at Effective Date, 50% monthly over 48 months, no cliff, Officer Service condition; **option-based repurchase** of unvested units at Original Cost within 90 days of actual knowledge, no automatic cancellation — and Original Cost is $0 for service-issued units, so it operates as forfeiture; full acceleration on Change of Control and death/Permanent Disability; Good/Bad Leaver definitions |
 | Class B | Non-voting; vests/forfeits solely per the holder's Service Agreement |
-| Tax structure | **All service-issued units are profits interests** (Rev. Proc. 93-27/2001-43) with Threshold Value = aggregate Capital Accounts at issuance ($0 today). *This is why no 83(b) is needed: a profits interest has $0 liquidation value at grant, and the safe harbor treats the holder as a partner from issuance. No valuation memo required.* |
+| Tax structure | **All service-issued units are profits interests** (Rev. Proc. 93-27/2001-43), Threshold Value = aggregate Capital Accounts at issuance ($0 today). *Replaces the prior binder's cash-purchase / per-unit-FMV / 83(b) structure entirely; no valuation memo, no election, no wire conditions* |
 | Voting | Majority = >50% of outstanding Class A; Supermajority = ≥66⅔%. Class B and unissued units never vote |
-| Reserved Matters (Supermajority) | Any unit/option/SAFE/pool issuance except the Brock Reserve; Change of Control; amendments; new Class A member; dissolution; tax classification; remove Manager; bankruptcy; core-IP transfer |
-| Major Decisions (Majority) | Debt >$25K; affiliate deals >$10K (JGN licenses pre-approved by consent); budget |
-| Brand / IP | JGN owns master brand + legacy socials; NSL owns app/site/Discord/tech/product IP incl. the designer-founder's logo IP via PIIA. JGN ~$2K advance is a non-equity obligation. Three JGN↔NSL licenses approved by consent, **not yet drafted** |
-| Transfers / exit | Class B non-transferable except to Company; ROFR on Class A; drag-along binds Class B; tag-along >50%; Class B repurchase at FMV (good leaver) or ≤Original Cost (bad leaver) |
-| Law / forum | Delaware law (mandatory for internal affairs); NY courts or Delaware Chancery; negotiation → mediation first |
+| Reserved Matters (Supermajority) | Any unit/option/SAFE/pool issuance except the Brock Reserve; Change of Control and drag-along; amendments; new Class A member; dissolution; tax classification; debt/guarantees >$25K; related-party deals >$3K single or >$10K rolling 12 months (JGN licenses and advances pre-approved by consent); bankruptcy |
+| Controls | $3,000 spending/contract threshold outside approved budgets; five named banking signers; deadlock article (30-day negotiation → mediation → Chancery; no forced rewrite of ownership) |
+| Brand / IP | JGN retains the master NOSEBLEED SPORTS brand, legacy socials, media assets, Apple Developer and Stripe accounts (Schedule D). Company owns app/site/Discord/tech/product IP and assets assigned from JGN (Schedule C: repos, domains, Discord, Vercel/Supabase/Clerk/Whop/Resend/PostHog/Workspace) plus the designer-founder's logo IP via PIIA. Three JGN↔NSL licenses referenced in §11.2, **not yet drafted**. JGN ~$2K advance = Company obligation, not capital, not equity |
+| Covenants | Confidentiality; 12-month post-service non-solicit; **no general non-compete**; acquisition cooperation; combined-sale allocation protection because JGN and NSL have different owners |
+| Law / forum | Delaware law; Chancery for fiduciary/equitable/books-and-records; negotiation → mediation first |
+| Schedules | A Members & Capitalization · B Officers · C Assigned Assets · D JGN Retained Assets · E JGN Ownership Context · F Class A Vesting Ledger · G Form of Joinder |
 
-> **OPEN:** Effective Date on OA and consent (fill at signing); founders' notice emails on
-> Schedule A; **six PIIAs** (the designer-founder's with the logo assignment); **three
-> intercompany licenses**; NY foreign qualification + publication (consent §9 directs it);
-> Delaware annual tax via registered agent; Brock signs the Schedule B joinder at issuance.
+> **DECISIONS SURFACED BY THE MERGE:** (1) the prior binder assigned JGN's common-law
+> NOSEBLEED SPORTS trademark *to the Company*; the superseding instruction keeps it at JGN under
+> license — the merge follows the superseding instruction, but **founders must confirm** since it
+> changes what the Company owns in a sale. (2) JGN's own member approval of the assignments and
+> licenses has not been obtained.
+>
+> **OPEN:** Effective Date on both documents; five founders' notice emails; **six PIIAs**; **three
+> intercompany licenses**; NY foreign qualification + publication (consent directs it);
+> nosebleedsport.com registrar; reconcile the JGN advance; Delaware annual tax; Brock signs the
+> Schedule G joinder at issuance.
 
 ---
 
@@ -397,3 +406,7 @@ exposure, which drafting cannot fix.
 12. NSL confirmed Delaware from the filing evidence; OA rebuilt as a Delaware LLC Agreement with the
     real cap table (six Class A founders, Brock Class B, 950,000 reserved), founder vesting, officers,
     Reserved Matters; organizational consent drafted; talent agreement rev. 4.
+13. Prior v2.0 binder surfaced (index, formation form, LLC Agreement, consent, ledger). Opus agent merged
+    it with the superseding terms: member-managed restored, fiduciary duties kept, option-based repurchase,
+    deadlock, non-solicit, JGN separation article, Schedules A–G; profits-interest structure retained.
+    Reconciliation memo written. Talent agreement unaffected.
