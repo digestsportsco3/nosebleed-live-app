@@ -110,9 +110,10 @@ story.append(B("<bullet>(e)</bullet><b>Team and community.</b> Attend one (1) we
                "active daily presence in the Discord community as a Brand ambassador, engaging with members; "
                "and respond to and engage with team communications regarding strategy, growth, and marketing "
                "within one (1) business day."))
-story.append(B("<bullet>(f)</bullet><b>Brand representation.</b> Identify Nosebleed Sports in the "
-               "Contractor's personal social media bios during the Term and represent the Brand "
-               "professionally in public."))
+story.append(B("<bullet>(f)</bullet><b>Brand representation.</b> Throughout the Term, identify Nosebleed "
+               "Sports in the Contractor's personal social media bios and display the corresponding Managed "
+               "Account handle identified on Exhibit A in the Contractor's personal TikTok bio and personal "
+               "Instagram bio, respectively; and represent the Brand professionally in public."))
 story.append(P(
     "<b>2.2 Standard of performance.</b> The Contractor will perform the Services professionally, diligently, "
     "and in good faith, using commercially reasonable efforts and skill consistent with generally accepted "

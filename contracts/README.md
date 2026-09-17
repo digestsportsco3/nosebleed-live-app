@@ -200,7 +200,7 @@ obligations of both; either may give notice for the Company. Nick signs for both
 | **Initial Units** | **0.50% of NSL issued up front**, non-voting, **forfeitable until vested** (§5.1, §5.4) |
 | Milestone Units | Ladder rebuilt so the up-front 0.5% is an advance on the first tranche: **+0.5% at 5K → 1.0%; +1.5% at 0K → 2.5%; +1.25% at 10K → 3.75%; +1.25% at 75K → 5.0%.** Same 5% cap as the original offer |
 | Qualifying Revenue | Any revenue he directly generated: brand deals, events he drove, premium subs attributed via tracking link/code, other documented attribution. Counted gross, once |
-| Duties (Monthly Deliverables) | Nosebleed Sports TikTok + Instagram at 3 posts/day **each**; daily picks + write-ups; 30-min live before every NFL Sunday 1pm slate; lives for major events; ad hooks + on-camera in ads; weekly sync; daily Discord presence; 1-business-day response on team strategy |
+| Duties (Monthly Deliverables) | Nosebleed Sports TikTok + Instagram at 3 posts/day **each**; daily picks + write-ups; 30-min live before every NFL Sunday 1pm slate; lives for major events; ad hooks + on-camera in ads; weekly sync; daily Discord presence; 1-business-day response on team strategy; Managed Account handles displayed in his personal TT/IG bios |
 | Termination | **Company: at will, effective immediately.** Contractor: 14 days' notice |
 | Quarterly review | §3.2 — mandatory; may produce a **Value Notice** (§5.4); changes only by signed amendment |
 | Governing law | New York |
@@ -259,7 +259,8 @@ full 1% so the ladder's cumulative percentages are unchanged.
 >   **IRS 20-factor common-law test** (not ABC) and has **no state minimum wage** (federal
 >   $7.25 applies) — materially better posture than NY/CA. Not W-2. No LLC required; §10.3
 >   is permissive. The contract is as IC-postured as drafting allows; practice must match.
-> - Exhibit A blanks: address/phone/email, effective date, both account handles.
+> - Exhibit A: only the **effective date** remains blank — fill at signing; the 30-day equity
+>   issuance and 12-month vesting clocks both run from it.
 > - The written offer listed different accounts (Nosebleed Golf TikTok, Baseball Bros IG) and
 >   2 posts/day; contract follows the later instruction (Nosebleed Sports TikTok + IG, 3/day).
 
