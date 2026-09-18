@@ -14,6 +14,7 @@ last two pages of each PDF (signature pages) so they can be eyeballed.
 Usage:  python3 qa_pdf.py [file.pdf ...]      exit 1 if anything is flagged.
 """
 import glob
+import re
 import os
 import sys
 
@@ -53,11 +54,26 @@ def page_issues(page):
             if small > 0 and inter.get_area() / small > 0.35:
                 issues.append("overlapping text: %r / %r" % (wi, wj))
     # orphan underscore lines
+    lines = []
     for block in page.get_text("dict")["blocks"]:
         for line in block.get("lines", []):
             txt = "".join(sp["text"] for sp in line["spans"]).strip()
+            lines.append((line["bbox"][1], txt))
             if txt and set(txt) <= set("_ ") and len(txt) >= 4:
                 issues.append("orphan underscore line (a signature/date line wrapped): %r" % txt[:20])
+    # signature block split across a page break: a party label near the bottom of the page
+    # with no signature or By: line after it on the same page
+    lines.sort()
+    LABEL = re.compile(r"^(?:[A-Z][A-Z .,'&/-]{3,40})(?:\s*[-—]\s*\d+%)?$")
+    for idx, (y, txt) in enumerate(lines):
+        if not txt or not LABEL.match(txt):
+            continue
+        if txt.startswith("IN WITNESS") or txt.startswith("EXHIBIT") or txt.startswith("SCHEDULE"):
+            continue
+        rest = " ".join(t for _, t in lines[idx + 1:])
+        if "Signature" not in rest and "By:" not in rest and y > H * 0.62:
+            issues.append("signature block split across pages: %r has no signature line after it" % txt[:38])
+            break
     # de-duplicate, keep order
     seen, out = set(), []
     for it in issues:

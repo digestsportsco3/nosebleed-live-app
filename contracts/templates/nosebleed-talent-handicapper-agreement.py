@@ -15,7 +15,7 @@ from reportlab.lib.enums import TA_CENTER
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (
-    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable, PageBreak
+    SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable, PageBreak, KeepTogether
 )
 
 OUT = os.environ.get("OUT_PDF", "Nosebleed_Talent_Handicapper_Agreement.pdf")
@@ -656,6 +656,19 @@ story.append(P(
     "date is shared under Section 4.2 and counts as Qualifying Revenue. No share is owed on Brand Deals "
     "contracted after the termination date or on revenue received after the Tail Period."))
 story.append(P(
+    "<b>Unreferred opportunities.</b> If a Nosebleed Opportunity was actually offered to or received by "
+    "the Contractor during the Term, the Contractor did not refer it to the Company as Section 4.3 "
+    "requires, and the Contractor enters into it during the Tail Period, the Contractor will pay the "
+    "Company the amount the Company would have retained under Section 4.2 had that opportunity been "
+    "referred and contracted through a Company Party. The Company bears the burden of showing that the "
+    "opportunity was offered to or received by the Contractor during the Term. This paragraph does not "
+    "apply to an opportunity that first arises after the termination date, including a new opportunity "
+    "from a counterparty the Contractor dealt with during the Term, and does not apply to an opportunity "
+    "the Contractor referred that the Company declined or did not respond to within the period stated in "
+    "Section 4.3. The Contractor remains free to enter into the opportunity; this paragraph creates a "
+    "payment obligation only, imposes no restriction on the Contractor after the Term, and is the "
+    "Company's sole remedy for the failure to refer."))
+story.append(P(
     "<b>13.5 Transition assistance.</b> For up to thirty (30) days after termination, the Contractor will "
     "provide reasonable incidental cooperation to facilitate an orderly handover, limited to returning or "
     "transferring drafts, scheduled content, picks records, Company files, and outstanding campaign "
@@ -726,7 +739,9 @@ def sigblock(compact=False):
                            ("RIGHTPADDING", (0, 0), (-1, -1), 8)]))
     return t
 
-story.append(sigblock())
+# keep the witness line and the signature columns on one page
+_sig_tail = [story.pop(), story.pop(), story.pop()][::-1]  # rule, witness paragraph, spacer
+story.append(KeepTogether(_sig_tail + [sigblock()]))
 
 # Exhibit A
 story.append(PageBreak())
@@ -765,8 +780,7 @@ story.append(P("This Exhibit A is incorporated into and forms part of the Talent
                "Services Agreement among JGN Media LLC, Nosebleed Sports LLC, and the Contractor named above. In "
                "the event of a conflict between this Exhibit and the body of the Agreement, the body of the "
                "Agreement controls."))
-story.append(Spacer(1, 14))
-story.append(sigblock(compact=True))
+story.append(KeepTogether([Spacer(1, 14), sigblock(compact=True)]))
 
 doc = SimpleDocTemplate(OUT, pagesize=letter, leftMargin=0.9 * inch, rightMargin=0.9 * inch,
                         topMargin=0.8 * inch, bottomMargin=0.8 * inch,

@@ -18,7 +18,7 @@ from reportlab.lib.units import inch
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle,
+from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, KeepTogether,
                                 HRFlowable, PageBreak)
 
 # ============================= THE BRAND SWITCH =============================

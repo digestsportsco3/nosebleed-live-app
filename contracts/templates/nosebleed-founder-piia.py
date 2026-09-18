@@ -17,7 +17,8 @@ notices the prior form only pointed at added as Exhibits 1 and 2.
 import os
 import re
 
-from nbs_style import (  # fill-in constants and style helpers
+from nbs_style import (
+    KeepTogether,  # fill-in constants and style helpers
     JGN_MODE, BRAND_KIT_OWNER, WORKDIR, JGN_NAME, COMPANY_NAME, COMPANY_STATE, FORMATION_DATE,
     DE_FILE_NUMBER, REG_AGENT, PRINCIPAL_OFFICE, EIN, CEO_NAME, CEO_TITLE, CTO_NAME,
     EFFECTIVE_DATE, MARK, T_OA, T_PIIA, DASH, body_style, heading_style, bullet_style, sig_style, title_style,
@@ -603,29 +604,31 @@ def make(name, officer, key):
     render(build_sections(name, officer, key), s)
 
     # ---------------- Signatures
-    s.append(Spacer(1, 6))
-    s.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#999999"), spaceAfter=7))
-    s.append(P("IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective "
+    _sig = []
+    _sig.append(Spacer(1, 6))
+    _sig.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#999999"), spaceAfter=7))
+    _sig.append(P("IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective "
                "Date."))
 
     # Nick signs for the Company everywhere else, so his own PIIA is countersigned by the CTO.
     co_name, co_title = (CTO_NAME, "Chief Technology Officer") if key == "nick" else (CEO_NAME, CEO_TITLE)
 
-    s.append(Spacer(1, 4))
-    s.append(P("<b>COMPANY</b>", sig_style))
-    s.append(P(COMPANY_NAME, sig_style))
-    s.append(P("By: _________________________________________", sig_style))
-    s.append(P("Name: " + co_name, sig_style))
-    s.append(P("Title: " + co_title, sig_style))
-    s.append(P("Date signed: __________________________________", sig_style))
+    _sig.append(Spacer(1, 4))
+    _sig.append(P("<b>COMPANY</b>", sig_style))
+    _sig.append(P(COMPANY_NAME, sig_style))
+    _sig.append(P("By: _________________________________________", sig_style))
+    _sig.append(P("Name: " + co_name, sig_style))
+    _sig.append(P("Title: " + co_title, sig_style))
+    _sig.append(P("Date signed: __________________________________", sig_style))
 
-    s.append(Spacer(1, 8))
-    s.append(P("<b>FOUNDER</b>", sig_style))
-    s.append(P("Signature: ____________________________________", sig_style))
-    s.append(P("Name: " + name, sig_style))
-    s.append(P("Capacity: Founder, Class A Member and " + officer, sig_style))
-    s.append(P("Date signed: __________________________________", sig_style))
-    s.append(P("Notice email: ______________________________", sig_style))
+    _sig.append(Spacer(1, 8))
+    _sig.append(P("<b>FOUNDER</b>", sig_style))
+    _sig.append(P("Signature: ____________________________________", sig_style))
+    _sig.append(P("Name: " + name, sig_style))
+    _sig.append(P("Capacity: Founder, Class A Member and " + officer, sig_style))
+    _sig.append(P("Date signed: __________________________________", sig_style))
+    _sig.append(P("Notice email: ______________________________", sig_style))
+    s.append(KeepTogether(_sig))
 
     # ---------------- Schedule A
     s.append(PageBreak())
