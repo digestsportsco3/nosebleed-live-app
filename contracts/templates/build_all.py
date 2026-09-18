@@ -27,8 +27,9 @@ GENERATORS = [
     "make_nsl_account_infra_schedule.py", "make_jgn_written_consent.py",
     "make_nsl_operating_agreement.py", "make_nsl_org_consent.py",
     "make_founder_piia.py", "make_signature_packet.py", "make_brock_smith.py",
+    "make_anthony_alberto.py",
 ]
-VERIFIERS = ["verify_intercompany.py", "verify_piia.py", "verify_packet.py"]
+VERIFIERS = ["verify_intercompany.py", "verify_piia.py", "verify_packet.py", "verify_alberto.py"]
 NOT_IN_JGN_MODE = ["NSL_JGN_Logo_and_Visual_Identity_License.pdf", "NSL_JGN_Brand_Asset_Assignment.pdf"]
 REVIEW_SET = [
     "Nosebleed_Sports_LLC_Signature_Packet_and_Execution_Order.pdf",

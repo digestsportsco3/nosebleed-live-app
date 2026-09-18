@@ -275,6 +275,29 @@ full 1% so the ladder's cumulative percentages are unchanged.
 
 ---
 
+## 3A. Podcast, Handicapping & Content Services Agreement (Nosebleed Gambling podcast host)
+
+Generator: `templates/nosebleed-podcast-talent-agreement.py` (14 pp). Built on the talent
+agreement in §3 with the same two Company Parties, the same Nosebleed Opportunity mechanics,
+the same IP, likeness, account, liquidated-damages, classification, confidentiality, indemnity
+and termination architecture, and the same anti-sandbagging paragraph in the Tail Period.
+
+| Term | Value |
+|---|---|
+| Role | Nosebleed Gambling podcast host and on-call handicapper. Monthly Deliverables: ≥2 podcast episodes/week on Company feeds and channels; join Company live streams on Discord/YouTube/TikTok/Instagram/X on reasonable notice; picks for the Premium Offering when requested; sponsored gambling streams only under an approved Brand Deal; daily Discord presence with 1-business-day response; brand in personal bios |
+| Pay | **Pure 50/50 revenue share. No monthly fee, no equity, no minimum.** 50% of **Shared Revenue** = (a) Brand Deals the Contractor sourced, (b) **Podcast Revenue** (sponsorship, ads, host-reads, platform ad-share, paid subscriptions attributable to the podcast and podcast live streams he hosts), (c) Nosebleed Opportunities he referred and the Company contracted. Premium Offering subscriptions not shared |
+| `SHARE_PERFORMED_DEALS` switch | Default **False** per the owner's words ("deals he brings in"): a Company-sourced deal he merely performs outside the podcast is not shared. `True` adds the §3 rule (shared if he personally performs it). One line |
+| Performance condition | No fee to reduce, so a Shortfall Notice lets the Company withhold the Podcast Revenue share pro rata to episodes missed, stop scheduling him, or terminate. Sourced-deal share untouched except for a deal he failed to perform |
+| **§2.9 Sponsored gambling streams** | The clause that matters most in this role: only Operators approved in writing and lawfully offered where the stream targets; Company may refuse or withdraw any Operator; each platform's gambling policy; stop on Company or platform instruction; age/geo gating; responsible-gambling messaging; FTC-grade disclosure of sponsorship, bonuses, promo codes, affiliate links and play money; no "gambling makes money", no guarantees, no chasing losses, no minors; no Company funds wagered; disclose every dollar/credit an Operator provides; his own wagering and its tax are his; immediate suspension right that is not a shortfall. Matching indemnity limb |
+| Existing relationships | Exhibit A row; blank = none (the §2.6 representation) |
+| Everything else | As §3: at-will both ways, NY law, Nassau/NY courts, tiered LD keyed to the podcast channels and Nosebleed Gambling accounts, 60-day Tail Period incl. unreferred-opportunity payment, no invoice required |
+
+> **OPEN:** contractor address/phone/email/state; the three Nosebleed Gambling handles and the
+> podcast feed/YouTube channel; Effective Date; the `SHARE_PERFORMED_DEALS` decision; any existing
+> relationships to list; the agreed weekly podcast slot.
+
+---
+
 ## 4. Nosebleed Sports LLC — Limited Liability Company Agreement (Delaware)
 
 Generators: `templates/nosebleed-sports-llc-operating-agreement.py` (LLC Agreement, 26 pp) and
@@ -480,6 +503,9 @@ exposure, which drafting cannot fix.
     (replaces prior binder doc 62). All verifiers pass in both modes.
 17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
     reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
+22. Podcast host agreement drafted from the talent agreement backbone (Opus agent): pure revenue
+    share, no fee, no equity, Podcast Revenue limb, gambling-stream compliance section, fairness
+    switch for Company-sourced deals he performs. Verified, visually checked, template scrubbed.
 21. Anti-sandbagging paragraph added to the talent agreement's tail period, drafted as a payment
     obligation with the burden on the company and no post-term restriction. Visual checker gained a
     split-signature-block test, which then caught the same defect in two founder agreements.
