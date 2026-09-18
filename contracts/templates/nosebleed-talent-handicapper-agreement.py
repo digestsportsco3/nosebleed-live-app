@@ -135,8 +135,9 @@ story.append(P(
     "third party's copyright, trademark, or other intellectual-property or publicity rights; (c) post "
     "illegal, defamatory, or knowingly false material; (d) impersonate any person or entity or claim "
     "affiliation with or endorsement by any league, team, or rights holder without the Company's written "
-    "authorization; (e) make endorsements or run paid or sponsored promotions except through a Brand Deal "
-    "approved under Section 4.3, or violate FTC endorsement and disclosure rules; (f) violate platform "
+    "authorization; (e) make endorsements or run paid or sponsored promotions on any Company Account, or in "
+    "any content featuring the Brand or the Platform, except through a Brand Deal approved under Section "
+    "4.3, or violate FTC endorsement and disclosure rules; (f) violate platform "
     "terms of service in a manner that places any Company Account at risk; or (g) engage in conduct "
     "reasonably likely to bring the Brand, the Platform, or the Company into public disrepute, recognizing "
     "that the Contractor is a public face of the Brand."))
@@ -155,14 +156,26 @@ story.append(P(
     "betting operator, or picks service; and (g) not engage in any conduct relating to wagering or sports "
     "integrity that violates applicable law or league or platform rules."))
 story.append(P(
-    "<b>2.6 Conflicts; existing obligations.</b> During the Term, the Contractor will not, without the "
-    "Company's prior written consent: (a) sell, publish, or provide handicapping picks or analysis through "
-    "any paid picks service other than the Premium Offering; or (b) serve as on-camera talent, ambassador, "
-    "or spokesperson for any other sports media, picks, or sports betting brand. The Contractor represents "
-    "that entering into and performing this Agreement does not breach any agreement with, or obligation to, "
-    "any third party, and that the Contractor has disclosed to the Company all existing agreements and "
-    "relationships with any sportsbook, betting operator, picks service, or sports media company. Nothing "
-    "in this Agreement restricts the Contractor's activities after the Term."))
+    "<b>2.6 Category exclusivity; no other restriction on the Contractor.</b> During the Term, the "
+    "Contractor will not, without the Company's prior written consent: (a) sell, publish, or provide "
+    "handicapping picks or analysis through any paid picks service other than the Premium Offering; or "
+    "(b) serve as on-camera talent, ambassador, or spokesperson for any other sports media, picks, or "
+    "sports betting brand."))
+story.append(P(
+    "Apart from clauses (a) and (b) above and the referral obligation for Nosebleed Opportunities in "
+    "Section 4.3, this Agreement does not restrict the Contractor's personal activities, personal social "
+    "media accounts, personal content, outside work, or other sources of income, whether or not paid, and "
+    "the Contractor may pursue them without notice to or approval from the Company. The Company claims no "
+    "interest in them."))
+story.append(P(
+    "<b>No existing obligations.</b> The Contractor represents that entering into and performing this "
+    "Agreement does not breach any agreement with, or obligation to, any third party, and that as of the "
+    "Effective Date the Contractor has no sponsorship, endorsement, affiliate, ambassador, paid-promotion, "
+    "or paid picks agreement in effect with any third party. No agreement, relationship, or opportunity of "
+    "the Contractor entered into or arising before the Effective Date is a Brand Deal or a Nosebleed "
+    "Opportunity, generates Brand Deal Revenue or Qualifying Revenue, or is otherwise subject to this "
+    "Agreement, and the Company claims no interest in any of them. Nothing in this Agreement restricts the "
+    "Contractor's activities after the Term."))
 story.append(P(
     "<b>2.7 Personal performance; assistants.</b> The on-camera, live-session, handicapping, and community "
     "elements of the Services are personal to the Contractor and will be performed by the Contractor "
@@ -206,8 +219,10 @@ story.append(P(
     "of Brand Deal Revenue. \"Brand Deal Revenue\" means amounts actually received by either Company Party "
     "from third-party sponsorship, advertising, brand partnership, or paid collaboration agreements "
     "approved and contracted by a Company Party (each, a \"Brand Deal\") that either (a) the Contractor "
-    "sourced and introduced to the Company, or (b) directly involve the Contractor's work, meaning the "
-    "Contractor personally creates, appears in, or delivers the sponsored content or appearance. Brand "
+    "sourced and introduced to the Company, (b) directly involve the Contractor's work, meaning the "
+    "Contractor personally creates, appears in, or delivers the sponsored content or appearance, or "
+    "(c) arise from a Nosebleed Opportunity referred by the Contractor and contracted by a Company Party "
+    "under Section 4.3. Brand "
     "Deals that the Contractor neither sourced nor personally performs are not shared. Where a Brand Deal "
     "includes elements beyond the Contractor's work or spans multiple Brand accounts or Company properties, "
     "the Company will allocate the revenue &mdash; and any related refund, reversal, clawback, or "
@@ -215,10 +230,32 @@ story.append(P(
     "practicable (such as contracted deliverables, impressions, or element-specific pricing). The "
     "allocation will be shown on the statement under Section 4.4 and is binding absent manifest error."))
 story.append(P(
-    "<b>4.3 Brand Deals through the Company.</b> All Brand Deals are contracted through a Company Party. "
-    "The Contractor will refer all sponsorship and partnership inquiries to the Company and will not enter "
-    "into, or post content under, any sponsorship or paid promotion without the Company's prior written "
-    "approval. The Contractor has no authority to bind either Company Party to any Brand Deal."))
+    "<b>4.3 Nosebleed Opportunities; Brand Deals through the Company.</b> A <b>\"Nosebleed Opportunity\"</b> "
+    "is any sponsorship, endorsement, affiliate, advertising, brand-partnership, appearance, or other paid "
+    "opportunity offered to or obtained by the Contractor that arises from the Contractor's association "
+    "with the Brand or the Platform. An opportunity is a Nosebleed Opportunity if any of the following is "
+    "true: (a) it is offered to the Contractor in the Contractor's capacity as Nosebleed Sports talent or "
+    "handicapper, or the counterparty identifies the Brand, the Platform, or the Contractor's role with "
+    "them as a reason for the offer; (b) it reaches the Contractor through a Company Account, a Company "
+    "channel, the Company's audience, or an introduction by a Company Party; (c) its deliverables include "
+    "content posted to a Company Account, content featuring the Brand or the Platform, or the Contractor's "
+    "Nosebleed picks, Nosebleed persona, or Nosebleed handicapping record; or (d) the counterparty is a "
+    "sportsbook, betting operator, daily-fantasy operator, odds or picks service, or sports media company, "
+    "and the opportunity is directed to the Contractor by reason of the Contractor's handicapping profile "
+    "or sports audience. An opportunity that meets none of (a) through (d) is the Contractor's own, is not "
+    "subject to this Agreement, and the Company claims no interest in it or in any amount the Contractor "
+    "receives from it."))
+story.append(P(
+    "<b>Referral; Company election.</b> The Contractor will promptly refer each Nosebleed Opportunity to "
+    "the Company and will not enter into it, or post content under it, without the Company's prior written "
+    "approval. Each Nosebleed Opportunity the Company elects to pursue is contracted through a Company "
+    "Party, is a Brand Deal, and is shared with the Contractor under Section 4.2. The Company will respond "
+    "to a referral within <b>ten (10) business days</b>. If the Company declines a Nosebleed Opportunity or "
+    "does not respond within that period, the Contractor may pursue it individually and keep all amounts "
+    "from it; it is not a Brand Deal and generates no Brand Deal Revenue or Qualifying Revenue, provided "
+    "that the Contractor complies with Sections 2.4, 2.5 and 2.6 and does not use any Company Account, "
+    "Company credential, or Company property to perform it. The Contractor has no authority to bind either "
+    "Company Party to any Brand Deal."))
 story.append(P(
     "<b>4.4 Collection; payment; statements.</b> All Brand Deal Revenue and Qualifying Revenue is collected "
     "exclusively into accounts owned and controlled by a Company Party. Within fifteen (15) days after the "

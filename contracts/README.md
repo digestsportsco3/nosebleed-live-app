@@ -195,7 +195,9 @@ obligations of both; either may give notice for the Company. Nick signs for both
 | Term | Value |
 |---|---|
 | Monthly Fee | **00/month, paid in arrears** within 10 days of month end, conditioned on performance (§6) |
-| Brand deal share | **50%** of deals the Contractor **sourced** OR that **directly involve his work** (he creates, appears in, or delivers). Company-sourced deals he doesn't perform: 0% |
+| Brand deal share | **50%** of deals the Contractor **sourced**, that **directly involve his work** (he creates, appears in, or delivers), or that arise from a **Nosebleed Opportunity** he referred under §4.3. Company-sourced deals he doesn't perform: 0% |
+| Nosebleed Opportunity (§4.3) | Any paid opportunity that comes to him **because of** the brand: offered to him as Nosebleed talent; reaching him through a Company account, channel or audience; deliverables touching the Brand/Platform or his Nosebleed picks or persona; or a sportsbook/betting/DFS/odds/picks/sports-media counterparty approaching him for his handicapping profile. He refers it; the Company has **10 business days** to elect. If the Company declines or goes silent, **he keeps 100%** and it is not a Brand Deal |
+| What is NOT touched | Anything failing all four Nosebleed-Opportunity tests is his alone — personal accounts, personal content, outside work, other income — no notice, no approval, no share (§2.6). Nothing predating the Effective Date is covered at all; he represents he has **no** existing sponsorship/endorsement/affiliate/ambassador/paid-picks agreement |
 | Premium picks subs | **No revenue share** — counts only toward equity milestones (deliberate; the written paths all had one) |
 | **Initial Units** | **0.50% of NSL issued up front**, non-voting, **forfeitable until vested** (§5.1, §5.4) |
 | Milestone Units | Ladder rebuilt so the up-front 0.5% is an advance on the first tranche: **+0.5% at 5K → 1.0%; +1.5% at 0K → 2.5%; +1.25% at 10K → 3.75%; +1.25% at 75K → 5.0%.** Same 5% cap as the original offer |
@@ -478,6 +480,10 @@ exposure, which drafting cannot fix.
     (replaces prior binder doc 62). All verifiers pass in both modes.
 17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
     reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
+19. Talent agreement brand-deal scope narrowed to what the brand actually generates: "Nosebleed
+    Opportunity" defined with four objective tests, a 10-business-day Company election and a clean
+    walk-away for him; express statement that nothing else about his personal life is restricted and
+    that nothing predating the Effective Date is covered. Deliberately non-predatory.
 18. **Owner correction:** the prior binder's "JGN Advances repayable when cash is available" was never
     the deal. Replaced everywhere with "JGN Funding": JGN's own cost, nothing owed back, not a loan,
     not capital, not equity (OA §3.8, org consent §14, JGN consent §10, TSA §5.4).
