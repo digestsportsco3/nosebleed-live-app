@@ -147,8 +147,8 @@ Big Ten schools not yet papered: Michigan, Penn State, Indiana, Maryland, Washin
 
 Generator: `templates/nosebleed-content-agreement.py`.
 
-Originally **Robert Gispert** individually (Aug 10, 2026), now **Amended and Restated**
-with **Click Culture LLC** as Contractor, Rob signing as Authorized Signatory.
+Originally with **the contractor individually** (Aug 10, 2026), now **Amended and Restated**
+with **Click Culture LLC** as Contractor, its principal signing as Authorized Signatory.
 
 | Term | Value |
 |---|---|
@@ -160,9 +160,9 @@ with **Click Culture LLC** as Contractor, Rob signing as Authorized Signatory.
 | Restatement date | September 2, 2026 |
 
 **Structure notes:** the restatement supersedes the original agreement, Click Culture
-assumes the prior obligations, and prior services/payments are credited. Rob was
+assumes the prior obligations, and prior services/payments are credited. The individual was
 **not** released from the original agreement — deliberate. A key-person clause
-requires the Services be performed **personally by Robert Gispert**, with no
+requires the Services be performed **personally by that individual**, with no
 assignment, subcontracting, or delegation — added because once the counterparty is an
 LLC, nothing otherwise stops a stranger being put on the accounts.
 
@@ -173,7 +173,7 @@ LLC, nothing otherwise stops a stranger being put on the accounts.
 
 ---
 
-## 3. Talent, Handicapping & Content Services Agreement (Brock Smith)
+## 3. Talent, Handicapping & Content Services Agreement (on-camera talent / handicapper seat)
 
 Generator: `templates/nosebleed-talent-handicapper-agreement.py`. Built for the on-camera
 talent + handicapper seat; reusable for similar roles.

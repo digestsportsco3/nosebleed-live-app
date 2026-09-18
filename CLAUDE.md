@@ -22,6 +22,11 @@ Never commit operator personally identifiable information to this repo:
 - personal email addresses
 - signed or filled contract PDFs
 - per-operator generator scripts (they contain the above)
+- the names of operators, contractors, founders and former participants: the public
+  copies use placeholders, and `contracts/README.md` describes people by role or X
+  handle. Only JGN's own CEO name is committed, because it appears on every executed
+  contract. `contracts/templates/../scrub_templates.py` enforces this and fails the
+  copy if a real name survives.
 
 `contracts/README.md` is keyed by **X handle only**, deliberately. Full contact
 records are kept privately by Nicholas Restivo outside this repository.

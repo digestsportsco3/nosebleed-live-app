@@ -17,7 +17,7 @@ signature block - and the content is rewritten to the closing set that actually 
     post-closing filings
   * units are issued for services as profits interests under the LLC Agreement, so the prior
     form's payment, collection and valuation steps are gone
-  * only the six Class A founders appear; Jacob Skonieczny and Louis Stathis hold no interest
+  * only the six Class A founders appear; [former participant 1] and [former participant 2] hold no interest
 """
 
 import os
@@ -51,7 +51,7 @@ FOUNDERS = [
 ]
 
 # Named in the prior form's matrix but holding no interest in the Company.
-NO_INTEREST = ["Jacob Skonieczny", "Louis Stathis"]
+NO_INTEREST = ["[former participant 1]", "[former participant 2]"]
 
 # Class B Member, admitted by the Schedule G joinder when his Class B Units are issued.
 CLASS_B_NAME = "[Class B Member]"

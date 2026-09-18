@@ -207,7 +207,7 @@ s.append(P("RESOLVED FURTHER, that for purposes of Section 3.4 of the LLC Agreem
 
 # ---------------------------------------------------------------- 7
 s.append(H("7. Former Participants"))
-s.append(P("RESOLVED, that the Members confirm that Jacob Skonieczny and Louis Stathis are not Members of the Company, hold no "
+s.append(P("RESOLVED, that the Members confirm that [former participant 1] and [former participant 2] are not Members of the Company, hold no "
            "Units and no right to acquire Units, hold no office and have no title, are not parties to any equity, vesting, "
            "assignment or other document of the Company, and have no economic, voting, information or approval rights of any kind; "
            "and that any prior draft naming either of them in any such capacity is superseded and of no force or effect. Nothing "
@@ -407,7 +407,7 @@ s.append(P("RESOLVED, that the \"Version 2.0 Master Change Log, Interim Institut
            "materials, instructions or control logs under Section 83 of the Internal Revenue Code and any Form 15620 materials, "
            "any founder unit purchase agreements or payment instructions, closing statements, payment ledgers or payment receipts, "
            "and any capitalization, vesting, officer or signature schedule that recites a per-Unit or aggregate valuation, lists "
-           "Jacob Skonieczny or Louis Stathis as a holder, officer or party, or reflects issuance of one hundred percent (100%%) "
+           "[former participant 1] or [former participant 2] as a holder, officer or party, or reflects issuance of one hundred percent (100%%) "
            "of the authorized Units; and that such materials may be retained only as historical records clearly marked "
            "\"SUPERSEDED %s NOT OPERATIVE.\"" % (DASH, DASH)))
 
