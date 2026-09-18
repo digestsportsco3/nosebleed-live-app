@@ -477,3 +477,5 @@ exposure, which drafting cannot fix.
     Brand Asset Assignment deleted, designer-founder's PIIA returned to the generic form, chain-of-
     title recitals removed from every document, Master License §3.5 added. Signature packet drafted
     (replaces prior binder doc 62). All verifiers pass in both modes.
+17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
+    reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
