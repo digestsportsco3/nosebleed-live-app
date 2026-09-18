@@ -25,13 +25,14 @@ OUT = os.environ.get("OUT_PDF", os.path.join(os.path.dirname(os.path.abspath(__f
 # ---------------------------------------------------------------------------
 # FAIRNESS SWITCH
 #
-# False (the owner's stated deal): the Contractor shares only in (i) Brand Deals he sourced or
+# False: the Contractor shares only in (i) Brand Deals he sourced or
 #   referred and (ii) Podcast Revenue.  A Brand Deal the COMPANY sold that he merely performs is
 #   NOT Shared Revenue unless the money is Podcast Revenue.
-# True: adds Brock's limb (d) - any Brand Deal he personally creates, appears in, or delivers is
-#   shared, however it was sourced.
+# True (THE DEAL, set 2026-09-18): adds limb (d) - any Brand Deal he personally creates, appears
+#   in, or delivers is shared, however it was sourced. A casino stream the Company sells and hands
+#   him to host is part of the 50/50.
 # ---------------------------------------------------------------------------
-SHARE_PERFORMED_DEALS = False
+SHARE_PERFORMED_DEALS = True
 if os.environ.get("SHARE_PERFORMED_DEALS"):
     SHARE_PERFORMED_DEALS = os.environ["SHARE_PERFORMED_DEALS"].strip().lower() in ("1", "true", "yes", "on")
 
@@ -41,14 +42,13 @@ CONTRACTOR_NAME        = ""
 CONTRACTOR_ADDRESS     = ""
 CONTRACTOR_PHONE       = ""
 CONTRACTOR_EMAIL       = ""
-PODCAST_FEED           = "Nosebleed Gambling podcast feed/RSS and YouTube channel"
-TIKTOK_HANDLE          = "Nosebleed Gambling TikTok  (@__________)"
-INSTAGRAM_HANDLE       = "Nosebleed Gambling Instagram  (@__________)"
-X_HANDLE               = "Nosebleed Gambling X  (@__________)"
+MANAGED_ACCOUNTS       = ("The Nosebleed Gambling podcast, its feeds, show listings, channels and "
+                          "social media accounts on every platform, and any other account, channel, "
+                          "feed, profile or destination the Company designates for the podcast or "
+                          "for the Contractor's streams from time to time")
 PODCAST_MINIMUM        = "two (2) episodes per calendar week"
 REV_SHARE              = "fifty percent (50%)"
 REV_SHARE_SUMMARY      = "50% of Shared Revenue (Section 4.1)"
-EXISTING_RELATIONSHIPS = ""
 LIQUIDATED_DAMAGES     = "$_________ (blank = Section 8.5 tiers apply)"
 PAYMENT_METHOD         = "Zelle, wire transfer, or PayPal"
 
@@ -113,11 +113,16 @@ story.append(P(
     "Items (a) through (f) are the \"Monthly Deliverables\" for each calendar month during the Term:"))
 story.append(B("<bullet>(a)</bullet><b>Podcast.</b> Produce and appear on at least <b>two (2) episodes per "
                "calendar week</b> of the Nosebleed Gambling podcast, published on the Company's podcast "
-               "feed, the Company's YouTube channel, and the Nosebleed Gambling TikTok, Instagram, and X "
-               "accounts identified on Exhibit A (collectively, the \"Managed Accounts\"), on the Company's "
-               "schedule and in the Company's format."))
+               "feeds and show listings, the Company's video and audio channels, and the Nosebleed Gambling "
+               "social media accounts, on the Company's schedule and in the Company's format. The "
+               "<b>\"Managed Accounts\"</b> are all of the foregoing feeds, listings, channels and accounts on "
+               "every platform, together with any other account, channel, feed, profile or destination the "
+               "Company designates for the podcast or for the Contractor's streams from time to time. The "
+               "Company may add, move, rename, consolidate or retire any of them at any time, and the "
+               "Contractor's obligations follow the podcast to wherever the Company publishes it."))
 story.append(B("<bullet>(b)</bullet><b>Live streams.</b> Join the Company's live streams on Discord, "
-               "YouTube, TikTok, Instagram, and X as reasonably scheduled by the Company with reasonable "
+               "YouTube, TikTok, Instagram, X, or any other platform or destination the Company uses or "
+               "designates from time to time, as reasonably scheduled by the Company with reasonable "
                "advance notice."))
 story.append(B("<bullet>(c)</bullet><b>Handicapping on call.</b> When the Company requests, deliver picks "
                "with accompanying research write-ups, in the Company's system and format and on the "
@@ -189,8 +194,9 @@ story.append(P(
     "<b>No existing obligations.</b> The Contractor represents that entering into and performing this "
     "Agreement does not breach any agreement with, or obligation to, any third party, and that as of the "
     "Effective Date the Contractor has no sponsorship, endorsement, affiliate, ambassador, paid-promotion, "
-    "or paid picks agreement in effect with any third party other than any relationship listed on "
-    "Exhibit A. No agreement, relationship, or opportunity of the Contractor entered into or arising before "
+    "or paid picks agreement in effect with any third party under which the Contractor receives, or is "
+    "entitled to receive, any payment or other consideration. No agreement, relationship, or opportunity "
+    "of the Contractor entered into or arising before "
     "the Effective Date is a Brand Deal or a Nosebleed Opportunity (each as defined in Section 4), generates "
     "Shared Revenue, or is otherwise subject to this Agreement, and the Company claims no interest in any of "
     "them. Nothing in this Agreement restricts the Contractor's activities after the Term."))
@@ -517,7 +523,7 @@ story.append(P(
     "<b>8.6 Return of Company property.</b> Upon termination of this Agreement, or upon the Company's "
     "earlier request, the Contractor will cease using the Company Accounts; confirm that no credentials or "
     "settings have been changed; and promptly return to the Company, or at the Company's election "
-    "permanently delete and confirm deletion of, all Company property and Confidential Information in the "
+    "permanently delete and confirm deletion of, all Company property and Confidential Information (Section 10.1) in the "
     "Contractor's possession or control, including credentials, media assets, raw and edited audio and "
     "video, drafts and unpublished content, picks records, analytics exports, subscriber data, and internal "
     "documents."))
@@ -745,13 +751,9 @@ rows = [
     ["Contractor mailing address", CONTRACTOR_ADDRESS],
     ["Contractor phone", CONTRACTOR_PHONE],
     ["Contractor email", CONTRACTOR_EMAIL],
-    ["Managed Accounts &mdash; podcast", PODCAST_FEED],
-    ["Managed Account &mdash; TikTok", TIKTOK_HANDLE],
-    ["Managed Account &mdash; Instagram", INSTAGRAM_HANDLE],
-    ["Managed Account &mdash; X", X_HANDLE],
+    ["Managed Accounts (Section 2.1(a))", MANAGED_ACCOUNTS],
     ["Minimum podcast volume", PODCAST_MINIMUM],
     ["Revenue share", REV_SHARE_SUMMARY],
-    ["Existing sponsorship, affiliate or endorsement relationships disclosed", EXISTING_RELATIONSHIPS],
     ["Liquidated damages amount (Section 8.5)", LIQUIDATED_DAMAGES],
     ["Payment method", PAYMENT_METHOD],
 ]
@@ -767,9 +769,7 @@ ex.setStyle(TableStyle([
     ("TOPPADDING", (0, 0), (-1, -1), 6), ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
 ]))
 story.append(ex); story.append(Spacer(1, 8))
-story.append(P("Rows left blank above are completed by hand at signing and initialed by all Parties; if the "
-               "row \"Existing sponsorship, affiliate or endorsement relationships disclosed\" is left "
-               "blank, the Contractor represents that there are none, as stated in Section 2.6. This "
+story.append(P("Rows left blank above are completed by hand at signing and initialed by all Parties. This "
                "Exhibit A is incorporated into and forms part of the Podcast, Handicapping, and Content "
                "Services Agreement among JGN Media LLC, Nosebleed Sports LLC, and the Contractor named "
                "above. If this Exhibit and the body of the Agreement conflict, the body of the Agreement "

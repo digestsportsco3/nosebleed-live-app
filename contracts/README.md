@@ -285,16 +285,16 @@ and termination architecture, and the same anti-sandbagging paragraph in the Tai
 | Term | Value |
 |---|---|
 | Role | Nosebleed Gambling podcast host and on-call handicapper. Monthly Deliverables: ≥2 podcast episodes/week on Company feeds and channels; join Company live streams on Discord/YouTube/TikTok/Instagram/X on reasonable notice; picks for the Premium Offering when requested; sponsored gambling streams only under an approved Brand Deal; daily Discord presence with 1-business-day response; brand in personal bios |
-| Pay | **Pure 50/50 revenue share. No monthly fee, no equity, no minimum.** 50% of **Shared Revenue** = (a) Brand Deals the Contractor sourced, (b) **Podcast Revenue** (sponsorship, ads, host-reads, platform ad-share, paid subscriptions attributable to the podcast and podcast live streams he hosts), (c) Nosebleed Opportunities he referred and the Company contracted. Premium Offering subscriptions not shared |
-| `SHARE_PERFORMED_DEALS` switch | Default **False** per the owner's words ("deals he brings in"): a Company-sourced deal he merely performs outside the podcast is not shared. `True` adds the §3 rule (shared if he personally performs it). One line |
+| Pay | **Pure 50/50 revenue share. No monthly fee, no equity, no minimum.** 50% of **Shared Revenue** = (a) Brand Deals the Contractor sourced, (b) **Podcast Revenue** (sponsorship, ads, host-reads, platform ad-share, paid subscriptions attributable to the podcast and podcast live streams he hosts), (c) Nosebleed Opportunities he referred and the Company contracted, **(d) Brand Deals he personally creates, appears in or delivers, however sourced** — so a Company-sold casino stream he hosts is in the 50/50. Premium Offering subscriptions not shared |
+| Accounts and platforms | Stated **broadly on purpose** — stream locations change. Managed Accounts are the podcast's feeds, show listings, channels and social accounts on every platform plus anything the Company later designates, and the obligations follow the podcast wherever it is published. No handles are named. Live streams and sponsored streams cover any platform the Company designates |
+| `SHARE_PERFORMED_DEALS` switch | Set **True** (the deal). `False` would drop limb (d) and share only sourced, referred and podcast revenue |
 | Performance condition | No fee to reduce, so a Shortfall Notice lets the Company withhold the Podcast Revenue share pro rata to episodes missed, stop scheduling him, or terminate. Sourced-deal share untouched except for a deal he failed to perform |
 | **§2.9 Sponsored gambling streams** | The clause that matters most in this role: only Operators approved in writing and lawfully offered where the stream targets; Company may refuse or withdraw any Operator; each platform's gambling policy; stop on Company or platform instruction; age/geo gating; responsible-gambling messaging; FTC-grade disclosure of sponsorship, bonuses, promo codes, affiliate links and play money; no "gambling makes money", no guarantees, no chasing losses, no minors; no Company funds wagered; disclose every dollar/credit an Operator provides; his own wagering and its tax are his; immediate suspension right that is not a shortfall. Matching indemnity limb |
-| Existing relationships | Exhibit A row; blank = none (the §2.6 representation) |
+| Existing relationships | He has none. §2.6 states affirmatively that no paying sponsorship, endorsement, affiliate, ambassador, paid-promotion or paid-picks agreement is in effect, and nothing predating the Effective Date is covered |
 | Everything else | As §3: at-will both ways, NY law, Nassau/NY courts, tiered LD keyed to the podcast channels and Nosebleed Gambling accounts, 60-day Tail Period incl. unreferred-opportunity payment, no invoice required |
 
-> **OPEN:** contractor address/phone/email/state; the three Nosebleed Gambling handles and the
-> podcast feed/YouTube channel; Effective Date; the `SHARE_PERFORMED_DEALS` decision; any existing
-> relationships to list; the agreed weekly podcast slot.
+> **OPEN:** contractor address/phone/email/state; Effective Date; confirm the payment method; agree
+> the weekly podcast slot in writing so "substantially performs" in §5.1 has a benchmark.
 
 ---
 
@@ -503,6 +503,10 @@ exposure, which drafting cannot fix.
     (replaces prior binder doc 62). All verifiers pass in both modes.
 17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
     reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
+23. Podcast agreement finalized: Company-sourced deals he performs are shared (limb (d)); accounts
+    and platforms stated broadly so stream locations can change; no existing paying deals, so the
+    disclosure row is gone and the representation is affirmative. Both talent agreements gained a
+    signpost where confidential information is used before its definition.
 22. Podcast host agreement drafted from the talent agreement backbone (Opus agent): pure revenue
     share, no fee, no equity, Podcast Revenue limb, gambling-stream compliance section, fairness
     switch for Company-sourced deals he performs. Verified, visually checked, template scrubbed.

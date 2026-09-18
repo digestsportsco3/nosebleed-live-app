@@ -532,7 +532,7 @@ story.append(P(
     "<b>9.6 Return of Company property.</b> Upon termination of this Agreement, or upon the Company's "
     "earlier request, the Contractor will cease using the Company Accounts; confirm that no credentials or "
     "settings have been changed; and promptly return to the Company, or at the Company's election "
-    "permanently delete and confirm deletion of, all Company property and Confidential Information in the "
+    "permanently delete and confirm deletion of, all Company property and Confidential Information (Section 11.1) in the "
     "Contractor's possession or control, including credentials, media assets, drafts and unpublished "
     "content, picks records, analytics exports, subscriber data, and internal documents."))
 
