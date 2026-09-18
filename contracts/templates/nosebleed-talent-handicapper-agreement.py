@@ -135,7 +135,7 @@ story.append(P(
     "third party's copyright, trademark, or other intellectual-property or publicity rights; (c) post "
     "illegal, defamatory, or knowingly false material; (d) impersonate any person or entity or claim "
     "affiliation with or endorsement by any league, team, or rights holder without the Company's written "
-    "authorization; (e) make endorsements or run paid or sponsored promotions on any Company Account, or in "
+    "authorization; (e) make endorsements or run paid or sponsored promotions on any Company Account (Section 9.1), or in "
     "any content featuring the Brand or the Platform, except through a Brand Deal approved under Section "
     "4.3, or violate FTC endorsement and disclosure rules; (f) violate platform "
     "terms of service in a manner that places any Company Account at risk; or (g) engage in conduct "
@@ -173,7 +173,7 @@ story.append(P(
     "Effective Date the Contractor has no sponsorship, endorsement, affiliate, ambassador, paid-promotion, "
     "or paid picks agreement in effect with any third party. No agreement, relationship, or opportunity of "
     "the Contractor entered into or arising before the Effective Date is a Brand Deal or a Nosebleed "
-    "Opportunity, generates Brand Deal Revenue or Qualifying Revenue, or is otherwise subject to this "
+    "Opportunity (each as defined in Section 4), generates Brand Deal Revenue or Qualifying Revenue, or is otherwise subject to this "
     "Agreement, and the Company claims no interest in any of them. Nothing in this Agreement restricts the "
     "Contractor's activities after the Term."))
 story.append(P(
@@ -336,7 +336,7 @@ story.append(P(
     "subject to forfeiture under this Section, on the earlier of: (a) the date the $25,000 Milestone is "
     "reached in accordance with Section 5.5; and (b) the date on which the Contractor has completed twelve "
     "(12) consecutive months of performance of the Services from the Effective Date without an uncured "
-    "Shortfall Notice or an uncured Value Notice. <b>Before vesting, all Initial Units are automatically "
+    "Shortfall Notice (Section 6.2) or an uncured Value Notice (defined below in this Section 5.4). <b>Before vesting, all Initial Units are automatically "
     "forfeited and cancelled for no consideration if:</b> (i) the Company terminates this Agreement "
     "following a Shortfall Notice, for the Contractor's material breach, or for conduct described in "
     "Section 2.4; (ii) the Contractor terminates this Agreement; or (iii) following a quarterly review, the "

@@ -480,6 +480,9 @@ exposure, which drafting cannot fix.
     (replaces prior binder doc 62). All verifiers pass in both modes.
 17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
     reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
+20. Talent agreement final audit before issue: numbering, cross-references, defined terms and all
+    14 pages checked. Three terms signposted at first use. One open edge case left undrafted by
+    choice (an opportunity arising in-term but contracted after termination is not captured).
 19. Talent agreement brand-deal scope narrowed to what the brand actually generates: "Nosebleed
     Opportunity" defined with four objective tests, a 10-business-day Company election and a clean
     walk-away for him; express statement that nothing else about his personal life is restricted and
