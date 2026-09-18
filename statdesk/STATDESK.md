@@ -23,6 +23,18 @@ the last session left unfinished. Do not redo work that it says is done.
    pulls every active player's line and writes the ranked brief. If the host is
    unreachable, the run stops and says so; Stathead discovery below still works.
 
+## Two ways to reach Stathead
+
+HEADLESS (preferred, works from any device): `node statdesk/run.js --stathead`
+logs in with `STATHEAD_USER` / `STATHEAD_PASS`, builds the Season Finder URLs,
+reads the result tables and writes the same provenance records. Setup:
+`statdesk/CLOUD-ACCESS.md`. Everything in this file about complete result sets,
+row-by-row checks and never republishing applies to it unchanged.
+
+BROWSER (fallback): Nick's signed-in Chrome, per the rules below. Use it when
+the headless path is blocked by Cloudflare or a CAPTCHA, or when the
+environment has no credentials stored.
+
 ## Browser rules (apply to Stathead, ESPN, StatMuse)
 
 - Use Nick's existing signed-in tab. If a login page or CAPTCHA appears, stop

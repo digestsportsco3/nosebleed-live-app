@@ -1,57 +1,78 @@
-# Let the cloud chat run the pull (one time, about a minute)
+# One setup, then Stat Desk works from any device. Do this once.
 
-The goal: Nick asks "give me today's 10" in a claude.ai chat and gets them back
-in the chat. No PowerShell, no terminal, no local session.
+Goal: Nick opens a chat on his phone, laptop, anything, types "give me today's
+10", and gets them back in the chat. No PowerShell. No local session. No
+Chrome. Stathead included, because he pays for it.
 
-The only thing blocking that is one setting. Cloud sessions run behind a network
-allowlist, and `statsapi.mlb.com` is not on the default list, so the pull fails
-with a 403 on the CONNECT tunnel every time. It is not an outage and not a bug
-in this pipeline; the same code runs fine on Nick's machine.
+Everything needed for that is now in this repo. The pipeline logs into Stathead
+directly (`statdesk/lib/stathead.js`) and builds the Season Finder URLs itself
+(`statdesk/lib/finder.js`), so no browser is involved anywhere.
 
-## The fix
+There is exactly ONE thing Claude cannot do from inside a session, because it
+is a setting on Nick's Claude account: opening the network and storing the
+Stathead login. It takes about two minutes and never has to be done again.
+
+## The two-minute setup
 
 1. Go to claude.ai/code.
-2. In the row just above the message box, click the cloud icon showing the
-   environment name (probably "Default"). There is no settings URL for this;
-   it only opens from that button.
-3. Hover the environment in the list and click the gear icon on its right.
-4. Set **Network access** to **Custom**.
-5. In **Allowed domains**, one per line:
+2. Click the cloud icon showing the environment name, in the row just above the
+   message box. There is no settings URL; it only opens from that button.
+3. Hover the environment, click the gear on its right.
+4. **Network access** → **Custom**.
+5. **Allowed domains**, one per line:
 
        statsapi.mlb.com
-       *.mlb.com
+       stathead.com
+       *.stathead.com
+       www.sports-reference.com
+       *.sports-reference.com
+       www.baseball-reference.com
+       *.baseball-reference.com
 
-6. Tick **Also include default list of common package managers**, or the
-   session loses npm, GitHub and everything else it needs.
-7. Save. New sessions pick it up; an already-running session needs a new one.
+6. Tick **Also include default list of common package managers**. Without it
+   the session loses GitHub and npm.
+7. **Environment variables**, in .env format:
 
-## What this does and does not buy
+       STATHEAD_USER=<the Stathead login email>
+       STATHEAD_PASS=<the Stathead password>
 
-WORKS from the cloud chat afterwards — the whole API half:
-- The full 25-call pull, all cached and logged exactly as it is locally.
-- The generated brief with the ranked 10 (`YYYY-MM-DD-statdesk.md`), every
-  anomaly rule, every milestone watch, every heat window.
-- The Stathead query written out per idea, ready to run.
-- Commit and push, so the local machine and the chat never diverge.
+8. Save. New sessions pick this up; a session already running does not.
 
-STILL NEEDS Nick's computer — the browser half:
-- Stathead and Baseball Reference sit behind Nick's login in Nick's Chrome.
-  A cloud session has no access to that browser and never will. Anthropic's
-  network does not carry his session cookies, and it should not.
-- So: historical hooks stay QUESTIONS in a cloud-run brief, exactly as
-  STATDESK.md already requires. Verification runs on picks only, locally.
+A note on step 7, so it is a real choice and not a surprise: environment
+variables are visible to anyone who uses that environment, and to any session
+running in it. If that is not acceptable, skip step 7 and the API half still
+works from chat while the Stathead half stays local. Use a password unique to
+Stathead either way.
 
-That split is the existing design, not a downgrade. The morning formula says
-pull, discover, draft, rank, STOP, and Nick picks. Steps 1, 3 and 4 are the
-API. A cloud chat can do those daily. Step 2 (Stathead discovery) makes the 10
-richer but is not required to produce them; step 5 verification was always
-local and always on picks only.
+## What runs after that
 
-## Honest limits
+    node statdesk/run.js --stathead      # API pull + Stathead discovery + brief
+    node statdesk/run.js --stathead-only # Stathead discovery alone
+    ./statdesk/handoff.sh                # commit and push
 
-- The cloud brief will lean on API numbers, so more lines carry "not yet
-  confirmed on Baseball Reference" than a local run's would.
-- Stathead runs about a game behind the API. A cloud-only brief cannot see
-  that gap, so any number published off it should be re-read on the page.
-- If the pull ever fails from the cloud again, the brief says STOPPED and
-  lists the attempted call. It never guesses.
+All of it runs in a cloud session, so "give me today's 10" in any chat is
+enough. The daily run can also be a Routine that fires at 7am and pushes, so
+the brief is already waiting.
+
+## Guardrails that did not change
+
+- Provenance is still written per query to `statdesk/data/browser/<date>/`,
+  same format the browser sessions wrote by hand: URL, timestamp, filters, row
+  count, the full table, and the row-by-row check.
+- A truncated result page is detected and marked CAPPED, and no complete-set
+  claim ("only", "first", "most") may be made from a capped query.
+- Superlatives stay questions until checked against every row. The brief
+  linter still enforces it.
+- Queries are throttled to one per four seconds, and a Cloudflare block stops
+  the run rather than retrying in a loop. Read numbers to verify them; never
+  mirror Stathead's tables and never build a database from them. That is the
+  line their terms draw and it has not moved.
+- Any failure writes STOPPED and says why. Nothing is ever estimated.
+
+## If it does not work
+
+- `login failed` → check the two variables, and confirm the account does not
+  need a CAPTCHA cleared by signing in once in a normal browser.
+- `Blocked by Cloudflare` → Sports Reference refused a datacenter IP. Run that
+  query locally instead; do not retry in a loop.
+- `403 CONNECT tunnel` → a domain is missing from step 5.

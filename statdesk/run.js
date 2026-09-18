@@ -1,11 +1,16 @@
 #!/usr/bin/env node
 // Stat Desk orchestrator: PULL → DETECT → DRAFT → RANK → write brief → STOP.
 // Usage: node statdesk/run.js [--sport mlb] [--date YYYY-MM-DD] [--season 2026]
+//                             [--stathead] run discovery queries headlessly too
+//                             [--stathead-only] discovery only, skip the API pull
+//                             [--stathead-list] print the queries for a human
 "use strict";
 const path = require("path");
 const { CallLog } = require("./lib/http");
 const { scanAnomalies, scanMilestones, scanHeat, rank } = require("./lib/scanner");
 const { writeBrief, writeFailureBrief } = require("./lib/brief");
+const { Stathead } = require("./lib/stathead");
+const { seasonFinder, DISCOVERY } = require("./lib/finder");
 
 const args = Object.fromEntries(process.argv.slice(2).map((a, i, arr) => (a.startsWith("--") ? [a.slice(2), arr[i + 1]] : null)).filter(Boolean));
 const sportKey = (args.sport || "mlb").toLowerCase();
@@ -24,6 +29,34 @@ const briefsDir = path.join(root, "briefs");
     list.forEach((q, i) => console.log(`${String(i + 1).padStart(2)}. [${q.key}] ${q.query}`));
     return;
   }
+  // --stathead: run the discovery queries headlessly with Nick's subscription
+  // and save provenance, no browser needed. Runs on its own or after the pull.
+  if ("stathead" in args || "stathead-only" in args) {
+    const sh = new Stathead({ dataDir: path.join(root, "data", "browser"), runDate });
+    const rules = DISCOVERY(season);
+    const results = [];
+    let failed = 0;
+    for (const r of rules) {
+      const url = seasonFinder(r.spec);
+      try {
+        const rec = await sh.query(url, { label: r.label, note: `discovery rule ${r.key}` });
+        results.push({ key: r.key, rows: rec.rowCount, capped: rec.capped, id: rec.id });
+        console.log(`[stathead] ${rec.id} ${r.key}: ${rec.rowCount} rows${rec.capped ? " (CAPPED)" : ""}`);
+      } catch (e) {
+        failed += 1;
+        results.push({ key: r.key, error: String(e.message || e) });
+        console.error(`[stathead] ${r.key} FAILED: ${e.message}`);
+        if (/login failed|not set|Cloudflare/i.test(String(e.message))) {
+          console.error("[stathead] stopping: this failure affects every remaining query.");
+          break;
+        }
+      }
+    }
+    console.log(`[stathead] ${results.length - failed} of ${rules.length} queries ok; provenance in statdesk/data/browser/${runDate}/`);
+    if (failed) process.exitCode = 3;
+    if ("stathead-only" in args) return;
+  }
+
   const log = new CallLog(dataDir, runDate);
   const summary = [];
   console.log(`[statdesk] ${adapter.sport} run for ${runDate} (season ${season}) started ${new Date().toISOString()}`);
