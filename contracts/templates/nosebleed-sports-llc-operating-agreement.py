@@ -29,7 +29,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable, PageBreak)
 
-OUT = os.environ.get("OUT_PDF", "/tmp/claude-0/-home-user-nosebleed-live-app/ecc18d17-e4d3-528c-9888-bab4914ffe2f/scratchpad/Nosebleed_Sports_LLC_Operating_Agreement.pdf")
+OUT = os.environ.get("OUT_PDF", os.path.join(os.path.dirname(os.path.abspath(__file__)), "Nosebleed_Sports_LLC_Operating_Agreement.pdf"))
 
 # =============================== FILL-INS ===============================
 COMPANY_NAME     = "Nosebleed Sports LLC"
@@ -773,8 +773,12 @@ for i in range(0, len(cols), 2):
     t.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0)]))
     s.append(t)
 s.append(Spacer(1, 6))
-s.append(P("<b>ACKNOWLEDGED AND AGREED by the Company:</b> &nbsp; %s &nbsp; By: _______________________________ &nbsp; %s, %s"
-           % (COMPANY_NAME, CEO_NAME, CEO_TITLE)))
+s.append(Spacer(1, 6))
+s.append(P("<b>ACKNOWLEDGED AND AGREED by the Company:</b>", sig_style))
+s.append(P("%s" % COMPANY_NAME, sig_style))
+s.append(P("By: _________________________________________", sig_style))
+s.append(P("Name: %s &nbsp;&nbsp; Title: %s &nbsp;&nbsp; Date: __________________" % (CEO_NAME, CEO_TITLE), sig_style))
+s.append(Spacer(1, 6))
 s.append(P("<b>Class B Member</b> (joins by executing the Schedule G joinder on issuance): [Class B Member] %s %s"
            % (DASH, BROCK_SERVICE_AGREEMENT)))
 
@@ -783,20 +787,36 @@ s.append(PageBreak())
 s.append(P("SCHEDULE A", title_style))
 s.append(P("Members and Capitalization %s Membership Interest Ledger as of %s" % (DASH, EFFECTIVE_DATE), subtitle_style))
 s.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor("#999999"), spaceAfter=12))
-rows = [["Member", "Class", "Units", "Percentage\nInterest\n(% of outstanding)", "Fully Diluted\nPercentage\n(% of authorized)",
-         "Cash Capital\nContribution", "Original\nCost", "Threshold\nValue", "Notice email"]]
+
+_cs = {}
+def _wrap_rows(rows, size, bold_rows=()):
+    """Wrap every cell in a Paragraph so long values wrap inside the column instead of overflowing."""
+    out = []
+    for i, r in enumerate(rows):
+        bold = (i == 0) or (i in bold_rows)
+        key = (size, bold)
+        if key not in _cs:
+            _cs[key] = ParagraphStyle("c%s%s" % key, parent=body_style, fontName="Helvetica-Bold" if bold else "Helvetica",
+                                      fontSize=size, leading=size + 2.5, spaceAfter=0)
+        out.append([c if not isinstance(c, str) else Paragraph(c.replace("\n", "<br/>"), _cs[key]) for c in r])
+    return out
+rows = [["Member", "Class", "Units", "Percentage\nInterest\n(% of\noutstanding)", "Fully Diluted\nPercentage\n(% of\nauthorized)",
+         "Cash Capital\nContribution", "Original\nCost", "Threshold\nValue"]]
 for name, cls, units, email in MEMBERS:
-    rows.append([name, cls, fmt(units), pct(units, ISSUED), pct(units, AUTHORIZED_UNITS), "$0", "$0", "$0 (Sec. 3.5)", email])
-rows.append(["TOTAL ISSUED AND OUTSTANDING", "", fmt(ISSUED), "100.00%", pct(ISSUED, AUTHORIZED_UNITS), "$0", "", "", ""])
-rows.append(["Authorized but unissued (not owned; no vote)", "", fmt(UNISSUED), "n/a", pct(UNISSUED, AUTHORIZED_UNITS), "", "", "", ""])
-rows.append(["  of which Brock Reserve (Sec. 3.4)", "B", fmt(BROCK_RESERVE), "n/a", pct(BROCK_RESERVE, AUTHORIZED_UNITS), "", "", "", ""])
-rows.append(["  of which unallocated", "", fmt(UNISSUED - BROCK_RESERVE), "n/a", pct(UNISSUED - BROCK_RESERVE, AUTHORIZED_UNITS), "", "", "", ""])
-rows.append(["TOTAL AUTHORIZED", "", fmt(AUTHORIZED_UNITS), "", "100.00%", "", "", "", ""])
-ta = Table(rows, colWidths=[1.5 * inch, 0.4 * inch, 0.72 * inch, 1.0 * inch, 0.95 * inch, 0.7 * inch, 0.48 * inch, 0.62 * inch, 1.15 * inch], repeatRows=1)
+    rows.append([name, cls, fmt(units), pct(units, ISSUED), pct(units, AUTHORIZED_UNITS), "$0", "$0", "$0 (Sec. 3.5)"])
+rows.append(["TOTAL ISSUED AND OUTSTANDING", "", fmt(ISSUED), "100.00%", pct(ISSUED, AUTHORIZED_UNITS), "$0", "", ""])
+rows.append(["Authorized but unissued (not owned; no vote)", "", fmt(UNISSUED), "n/a", pct(UNISSUED, AUTHORIZED_UNITS), "", "", ""])
+rows.append(["  of which Brock Reserve (Sec. 3.4)", "B", fmt(BROCK_RESERVE), "n/a", pct(BROCK_RESERVE, AUTHORIZED_UNITS), "", "", ""])
+rows.append(["  of which unallocated", "", fmt(UNISSUED - BROCK_RESERVE), "n/a", pct(UNISSUED - BROCK_RESERVE, AUTHORIZED_UNITS), "", "", ""])
+rows.append(["TOTAL AUTHORIZED", "", fmt(AUTHORIZED_UNITS), "", "100.00%", "", "", ""])
+ta = Table(_wrap_rows(rows, 8, bold_rows=(len(MEMBERS) + 1, len(rows) - 1)),
+           colWidths=[1.4 * inch, 0.45 * inch, 0.78 * inch, 0.88 * inch, 0.88 * inch, 0.87 * inch, 0.62 * inch, 0.74 * inch], repeatRows=1)
 ta.setStyle(GRID)
-ta.setStyle(TableStyle([("FONTNAME", (0, len(MEMBERS) + 1), (-1, len(MEMBERS) + 1), "Helvetica-Bold"),
-                        ("FONTNAME", (0, -1), (-1, -1), "Helvetica-Bold"), ("FONTSIZE", (0, 0), (-1, -1), 7.4)]))
 s.append(ta); s.append(Spacer(1, 8))
+erows = [["Member", "Notice email (Section 13.7)"]] + [[name, email if email.strip("_ ") else "to be provided at signing"]
+                                                        for name, cls, units, email in MEMBERS]
+te_ = Table(_wrap_rows(erows, 8.5), colWidths=[2.4 * inch, 4.4 * inch]); te_.setStyle(GRID)
+s.append(te_); s.append(Spacer(1, 8))
 s.append(P("<b>Reconciliation.</b> %s issued and outstanding + %s authorized but unissued = %s authorized. Issued Units represent "
            "<b>%s</b> of authorized Units; authorized but unissued Units represent <b>%s</b>, of which the Brock Reserve is %s "
            "Class B Units (Section 3.4) and %s Units are unallocated. The capitalization is deliberately not forced to one hundred "
@@ -910,7 +930,7 @@ for name, cls, units, _ in MEMBERS:
     if cls != "A": continue
     vrows.append([name, fmt(units), fmt(units // 2), fmt(units - units // 2), fmt(round(units / 2 / 48)),
                   "48th month-end after Effective Date"])
-tv = Table(vrows, colWidths=[1.5 * inch, 0.9 * inch, 1.15 * inch, 1.15 * inch, 1.0 * inch, 1.6 * inch])
+tv = Table(_wrap_rows(vrows, 8.5), colWidths=[1.45 * inch, 0.85 * inch, 1.05 * inch, 1.05 * inch, 0.95 * inch, 1.45 * inch])
 tv.setStyle(GRID); s.append(tv)
 s.append(Spacer(1, 8))
 s.append(P("Terms: no cliff; vesting conditioned on continued Officer Service (Section 4.2); full acceleration on a Change of "

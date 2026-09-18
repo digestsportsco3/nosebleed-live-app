@@ -20,6 +20,7 @@ in the signing sequence, and the reference to a final "tax-structured transfer d
 """
 
 import os
+from reportlab.platypus import KeepTogether
 from nbs_style import (  # fill-in constants and style helpers
     JGN_MODE, BRAND_KIT_OWNER, WORKDIR, JGN_NAME, JGN_STATE, JGN_ADDRESS, JGN_SIGNER,
     JGN_SIGNER_TITLE, JGN_MEMBERS, JGN_MEMBER_PCT, JGN_THRESHOLD, JGN_ADVANCES,
@@ -270,6 +271,7 @@ def memcol(n):
             Spacer(1, 6)]
 
 
+sig_tables = []
 cols = [memcol(n) for n in JGN_MEMBERS]
 for i in range(0, len(cols), 2):
     pair = cols[i:i + 2]
@@ -279,12 +281,13 @@ for i in range(0, len(cols), 2):
     tt = Table(rws, colWidths=[3.15 * inch, 3.15 * inch])
     tt.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"),
                             ("LEFTPADDING", (0, 0), (-1, -1), 0)]))
-    s.append(tt)
+    sig_tables.append(tt)
 
-s.append(Spacer(1, 4))
-s.append(P("<b>ACKNOWLEDGED by " + JGN_NAME + ":</b>", sig_style))
-s.append(P("By: _________________________________________ &nbsp;&nbsp; Name: " + JGN_SIGNER +
-           " &nbsp;&nbsp; Title: " + JGN_SIGNER_TITLE + " &nbsp;&nbsp; Date: ______________",
-           sig_style))
+sig_tables += [Spacer(1, 6), P("<b>ACKNOWLEDGED by " + JGN_NAME + ":</b>", sig_style), P(JGN_NAME, sig_style),
+               P("By: _________________________________________", sig_style),
+               P("Name: " + JGN_SIGNER + " &nbsp;&nbsp; Title: " + JGN_SIGNER_TITLE + " &nbsp;&nbsp; Date: __________________", sig_style)]
+# keep the whole signature section on one page
+tail = [s.pop(), s.pop()][::-1]  # the IN WITNESS paragraph and its spacer
+s.append(KeepTogether(tail + sig_tables))
 
 build(s, OUT, CONSENT_TITLE)

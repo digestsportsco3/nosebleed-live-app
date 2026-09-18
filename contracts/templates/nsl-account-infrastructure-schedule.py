@@ -28,7 +28,7 @@ OUT = os.environ.get("OUT_PDF", os.path.join(
     WORKDIR, "NSL_Company_Account_and_Infrastructure_Schedule.pdf"))
 NSL = COMPANY_NAME
 JGN = JGN_NAME
-TBD = "TBD"
+TBD = "Open"
 CONFIRMED = "Confirmed"
 PENDING = "Not yet opened"
 TRANSFER = "Transfer pending"
@@ -216,7 +216,7 @@ for heading, rows in SECTIONS:
 s.append(H("8. Negative Confirmations"))
 s.append(P("There is no Beehiiv account and no Substack account. This Schedule does not assert "
            "ownership or control of any platform or account beyond those expressly listed. No "
-           "account listed as JGN-retained is a Company asset, and no account listed with a " + TBD +
+           "account listed as JGN-retained is a Company asset, and no account listed with an " + TBD +
            " status is represented as transferred, opened or migrated. The Company has no employees; "
            "persons with administrative access are Members, officers or independent contractors."))
 

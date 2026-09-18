@@ -30,6 +30,18 @@ records are kept privately by Nicholas Restivo outside this repository.
 JGN Media LLC's own business details (company name, business address, CEO name) are
 fine to commit; they appear on every executed contract.
 
+### HARD RULE — VISUAL QA BEFORE ANY PDF IS DELIVERED
+
+Every generated PDF must pass `contracts/templates/qa_pdf.py` (text outside the margins,
+overlapping text, wrapped signature lines, clipped words, near-empty pages) AND the
+signature pages, exhibits and every table must be rendered to PNG and looked at before the
+file is sent. In the working session the single entry point is `build_all.py` (kept beside the
+generators): it runs the content verifiers, rebuilds the default set, checks for leftover
+placeholders, runs the visual QA and only then zips. If it fails, nothing is sent. Table cells
+must always be Paragraphs (never bare strings) so long values wrap instead of overflowing, and
+signature lines must be sized to their column. A test-run of a public template must never write
+into the working directory: generator output paths are relative to the generator's own folder.
+
 ## Session continuity
 
 This file loads automatically at the start of every Claude Code session in this repo,

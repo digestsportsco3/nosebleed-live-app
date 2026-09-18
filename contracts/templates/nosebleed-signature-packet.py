@@ -23,6 +23,7 @@ signature block - and the content is rewritten to the closing set that actually 
 import os
 
 from reportlab.platypus import KeepTogether
+from reportlab.lib.styles import ParagraphStyle
 
 from nbs_style import (  # fill-in constants and style helpers
     JGN_MODE, BRAND_KIT_OWNER, WORKDIR, JGN_NAME, JGN_MEMBERS, COMPANY_NAME, COMPANY_STATE,
@@ -100,7 +101,13 @@ def NUM(n, t):
     return Paragraph(t, bullet_style, bulletText="(%d)" % n)
 
 
+cell_style = ParagraphStyle("cell", parent=sig_style, fontSize=8.8, leading=11.5, spaceAfter=0)
+head_style = ParagraphStyle("cellh", parent=cell_style, fontName="Helvetica-Bold")
+
+
 def matrix(rows, widths):
+    rows = [[Paragraph(c, head_style if i == 0 else cell_style) if isinstance(c, str) else c for c in r]
+            for i, r in enumerate(rows)]
     t = Table(rows, colWidths=widths, repeatRows=1)
     t.setStyle(GRID)
     return t
@@ -221,7 +228,7 @@ for name, title in FOUNDERS:
     else:
         docs = "The " + T_OA + "; the " + CONSENT_TITLE + "; his own PIIA as Founder."
     rows.append([name, title, Paragraph(docs, sig_style)])
-s.append(matrix(rows, [1.25 * inch, 1.35 * inch, 4.2 * inch]))
+s.append(matrix(rows, [1.3 * inch, 1.65 * inch, 3.85 * inch]))
 s.append(Spacer(1, 5))
 s.append(P(NO_INTEREST[0] + " and " + NO_INTEREST[1] + " are not in this matrix and sign nothing in "
            "this closing, because neither holds any Unit or other interest in the Company, as the " +

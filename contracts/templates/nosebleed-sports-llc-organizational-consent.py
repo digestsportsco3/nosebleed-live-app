@@ -25,7 +25,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable)
 
-OUT = os.environ.get("OUT_PDF", "/tmp/claude-0/-home-user-nosebleed-live-app/ecc18d17-e4d3-528c-9888-bab4914ffe2f/scratchpad/Nosebleed_Sports_LLC_Organizational_Consent.pdf")
+OUT = os.environ.get("OUT_PDF", os.path.join(os.path.dirname(os.path.abspath(__file__)), "Nosebleed_Sports_LLC_Organizational_Consent.pdf"))
 
 # =============================== FILL-INS ===============================
 COMPANY_NAME     = "Nosebleed Sports LLC"
@@ -134,10 +134,21 @@ rows.append(["[Class B Member] (Class B, non-voting)", "None", fmt(BROCK_UNITS),
              pct(BROCK_UNITS, AUTHORIZED_UNITS), "Per Service Agreement"])
 rows.append(["TOTAL ISSUED AND OUTSTANDING", "", fmt(ISSUED), "100.00%", pct(ISSUED, AUTHORIZED_UNITS), ""])
 rows.append(["Authorized but unissued", "", fmt(UNISSUED), "n/a", pct(UNISSUED, AUTHORIZED_UNITS), ""])
-t = Table(rows, colWidths=[1.85 * inch, 1.5 * inch, 0.85 * inch, 0.8 * inch, 0.85 * inch, 0.95 * inch])
+
+_cs = {}
+def _wrap_rows(rows, size, bold_rows=()):
+    """Wrap every cell in a Paragraph so long values wrap inside the column instead of overflowing."""
+    out = []
+    for i, r in enumerate(rows):
+        bold = (i == 0) or (i in bold_rows)
+        key = (size, bold)
+        if key not in _cs:
+            _cs[key] = ParagraphStyle("c%s%s" % key, parent=body_style, fontName="Helvetica-Bold" if bold else "Helvetica",
+                                      fontSize=size, leading=size + 2.5, spaceAfter=0)
+        out.append([c if not isinstance(c, str) else Paragraph(c.replace("\n", "<br/>"), _cs[key]) for c in r])
+    return out
+t = Table(_wrap_rows(rows, 8.0, bold_rows=(len(MEMBERS) + 2,)), colWidths=[1.85 * inch, 1.55 * inch, 0.8 * inch, 0.8 * inch, 0.85 * inch, 0.95 * inch])
 t.setStyle(GRID)
-t.setStyle(TableStyle([("FONTNAME", (0, len(MEMBERS) + 2), (-1, len(MEMBERS) + 2), "Helvetica-Bold"),
-                       ("FONTSIZE", (0, 0), (-1, -1), 8.0)]))
 s.append(t); s.append(Spacer(1, 6))
 s.append(P("RESOLVED FURTHER, that the Company's capitalization reconciles as <b>%s issued and outstanding + %s authorized but "
            "unissued = %s authorized</b>, being <b>%s</b> issued and <b>%s</b> unissued; that of the unissued Units, <b>%s</b> "
@@ -423,8 +434,12 @@ for i in range(0, len(cols), 2):
     rows = [[c[j] if j < len(c) else "" for c in pair] for j in range(n)]
     t = Table(rows, colWidths=[3.15 * inch, 3.15 * inch])
     t.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0)])); s.append(t)
-s.append(P("<b>ACKNOWLEDGED by the Company:</b> &nbsp; %s &nbsp; By: _______________________________ &nbsp; %s, %s &nbsp; "
-           "Date: ______________" % (COMPANY_NAME, CEO_NAME, CEO_TITLE)))
+s.append(Spacer(1, 6))
+s.append(P("<b>ACKNOWLEDGED by the Company:</b>", sig_style))
+s.append(P("%s" % COMPANY_NAME, sig_style))
+s.append(P("By: _________________________________________", sig_style))
+s.append(P("Name: %s &nbsp;&nbsp; Title: %s &nbsp;&nbsp; Date: __________________" % (CEO_NAME, CEO_TITLE), sig_style))
+s.append(Spacer(1, 6))
 
 doc = SimpleDocTemplate(OUT, pagesize=letter, leftMargin=0.85 * inch, rightMargin=0.85 * inch, topMargin=0.8 * inch, bottomMargin=0.8 * inch,
                         title="Initial Member and Organizational Written Consent of %s" % COMPANY_NAME, author=COMPANY_NAME)

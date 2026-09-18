@@ -673,11 +673,11 @@ def sigblock(compact=False):
     gap = 24 if compact else 28
     def col(entity, name, title):
         rows = [Paragraph("<b>%s</b>" % entity, sig_style), Spacer(1, gap),
-                Paragraph("Signature: ____________________________", sig_style), Spacer(1, 10),
+                Paragraph("Signature: _________________", sig_style), Spacer(1, 10),
                 Paragraph("Name: %s" % name, sig_style)]
         if not compact:
             rows += [Spacer(1, 10), Paragraph("Title: %s" % title, sig_style), Spacer(1, 10),
-                     Paragraph("Date: _______________________", sig_style)]
+                     Paragraph("Date: ___________________", sig_style)]
         return rows
     cols = [col("JGN MEDIA LLC", "Nicholas Restivo", "Chief Executive Officer"),
             col("NOSEBLEED SPORTS LLC", "Nicholas Restivo", "Chief Executive Officer"),
@@ -712,12 +712,16 @@ rows = [
     ["Liquidated damages amount (Section 9.5)", LIQUIDATED_DAMAGES],
     ["Payment method", PAYMENT_METHOD],
 ]
-ex = Table(rows, colWidths=[2.9 * inch, 3.4 * inch], rowHeights=[0.40 * inch] * len(rows))
+cell_k = ParagraphStyle("CK", parent=body_style, fontName="Helvetica-Bold", fontSize=9.5, leading=12, spaceAfter=0)
+cell_v = ParagraphStyle("CV", parent=body_style, fontSize=9.5, leading=12, spaceAfter=0)
+rows = [[Paragraph(k, cell_k), Paragraph(v, cell_v)] for k, v in rows]
+ex = Table(rows, colWidths=[2.6 * inch, 4.1 * inch])
 ex.setStyle(TableStyle([
     ("FONTNAME", (0, 0), (0, -1), "Helvetica-Bold"), ("FONTNAME", (1, 0), (1, -1), "Helvetica"),
     ("FONTSIZE", (0, 0), (-1, -1), 9.5), ("BACKGROUND", (0, 0), (0, -1), colors.HexColor("#EFEFEF")),
     ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#BBBBBB")), ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
-    ("LEFTPADDING", (0, 0), (-1, -1), 8),
+    ("LEFTPADDING", (0, 0), (-1, -1), 8), ("RIGHTPADDING", (0, 0), (-1, -1), 8),
+    ("TOPPADDING", (0, 0), (-1, -1), 7), ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
 ]))
 story.append(ex); story.append(Spacer(1, 10))
 story.append(P("This Exhibit A is incorporated into and forms part of the Talent, Handicapping, and Content "
