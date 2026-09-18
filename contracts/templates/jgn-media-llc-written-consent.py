@@ -12,7 +12,7 @@ Trademark License (in "JGN" mode Section 5 records JGN's acceptance of the Compa
 confirmation in that license; in "NSL" mode Section 5 approves the Logo and Visual Identity
 License instead), the Marketing and Audience License, the Transition
 Services Agreement, the [Class B Member] Talent Agreement to which JGN is a co-party, the treatment of
-JGN's pre-formation advances as a Company obligation rather than equity, the USPTO filing, and
+JGN's funding of the Company as JGN's own cost, not a loan and not equity, the USPTO filing, and
 Nicholas Restivo's authority to sign.
 
 Removed from the prior draft: the pre-formation TBD banner, the CPA/tax-counsel confirmation step
@@ -207,26 +207,19 @@ s.append(P("RESOLVED, that JGN is authorized and directed to file an application
            "under that license."))
 
 # ---------------------------------------------------------------- 10
-s.append(H("10. JGN Advances"))
-s.append(P("RESOLVED, that the members acknowledge that JGN paid " + JGN_ADVANCES + " of documented "
-           "AI, development and operating expenses, primarily OpenAI and Anthropic development "
-           "expenses, on the Company's behalf before and after the Company was formed, through the Effective Date; that those amounts, "
-           "together with any further such advances the Company's " + CEO_TITLE + " records, are an "
-           "unsecured, non-interest-bearing obligation of the Company to JGN, repayable when the "
-           "Company's members determine cash is reasonably available, as provided in Section 3.8 of "
-           "the " + T_OA + "; and that they are <b>not</b> a capital contribution to the Company, "
-           "<b>not</b> equity, <b>not</b> consideration for any unit or other interest in the "
-           "Company, and give JGN no ownership, voting, information or approval right in the "
-           "Company."))
-s.append(P("RESOLVED FURTHER, that JGN intends, without obligation and in its discretion, to continue bearing the "
-           "Company's development and operating costs until the Company generates cash flow sufficient to fund its own "
-           "operations, as mutually understood among the members of both entities; that each further amount JGN pays on the "
-           "Company's behalf is an advance on the same terms; and that no such funding, past or future, gives JGN any "
-           "capital, unit, ownership, voting, information or approval right in the Company."))
-s.append(P("RESOLVED FURTHER, that JGN is authorized to accept repayment when offered, to record the "
-           "obligation on its books as a receivable, and that " + JGN_SIGNER + " will reconcile the "
-           "advances to documentation and record the final amount with the Company's " + CEO_TITLE +
-           "."))
+s.append(H("10. JGN Funding"))
+s.append(P("RESOLVED, that the members acknowledge that JGN has paid " + JGN_ADVANCES + " of the Company's "
+           "AI, development and operating expenses, primarily OpenAI and Anthropic development expenses, before and "
+           "after the Company was formed, through the Effective Date; that JGN intends, in its discretion and without "
+           "obligation, to continue paying the Company's development and operating costs until the Company generates "
+           "cash flow sufficient to fund its own operations, as mutually understood among the members of both entities; "
+           "and that all such amounts are JGN's own costs, borne by JGN as the owner of the Nosebleed Sports brand and the "
+           "principal beneficiary of the Company's success under the " + T_MASTER + "."))
+s.append(P("RESOLVED FURTHER, that the Company owes JGN <b>nothing</b> for that funding, past or future: it is <b>not</b> a "
+           "loan, is <b>not</b> repayable, bears no interest, is <b>not</b> a capital contribution to the Company, is "
+           "<b>not</b> equity, is <b>not</b> consideration for any unit or other interest in the Company, and gives JGN no "
+           "ownership, voting, information or approval right in the Company, as provided in Section 3.8 of the " + T_OA + "; "
+           "and that JGN will record the funding on its own books as its own expense."))
 
 # ---------------------------------------------------------------- 11
 s.append(H("11. Authority to Sign"))

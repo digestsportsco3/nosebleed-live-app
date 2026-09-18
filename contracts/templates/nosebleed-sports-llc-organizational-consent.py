@@ -287,15 +287,16 @@ s.append(P("RESOLVED FURTHER, that the Members confirm that JGN retains the JGN 
            "approved in Section 15 of this consent."))
 
 # ---------------------------------------------------------------- 14
-s.append(H("14. JGN Advances"))
-s.append(P("RESOLVED, that the Members acknowledge that JGN paid approximately <b>$5,000</b> of documented AI, development and "
-           "operating expenses, primarily OpenAI and Anthropic/Claude development expenses, on the Company's behalf before and after "
-           "formation through the Effective Date; that those amounts, together with any further such advances recorded by the Chief Executive Officer, are "
-           "unsecured, non-interest-bearing obligations of the Company to JGN repayable when the Members determine cash is "
-           "reasonably available, all as provided in Section 3.8 of the LLC Agreement; and that they are not Capital "
-           "Contributions, are not founder advances, are not consideration for any Unit, and do not entitle JGN or any Member to "
-           "any Units or other interest in the Company."))
-s.append(P("RESOLVED FURTHER, that the Members acknowledge that JGN has funded the Company's development and operating costs to date and intends, without obligation and in its discretion, to continue bearing those costs until the Company generates cash flow sufficient to fund its own operations; that each further amount JGN pays on the Company's behalf is a JGN Advance on the same terms; that the Class A allocation on Schedule A was set with that funding understanding in view; and that no JGN funding, past or future, creates any Capital Contribution, Unit, ownership, voting, information or approval right in favor of JGN or any Member."))
+s.append(H("14. JGN Funding"))
+s.append(P("RESOLVED, that the Members acknowledge that JGN has paid approximately <b>$5,000</b> of the Company's AI, development "
+           "and operating expenses, primarily OpenAI and Anthropic/Claude development expenses, before and after formation through "
+           "the Effective Date, and intends in its discretion and without obligation to continue paying the Company's development "
+           "and operating costs until the Company generates cash flow sufficient to fund its own operations, as mutually understood "
+           "among the Members; that those amounts are JGN's own costs and the Company owes JGN nothing for them: they are not a "
+           "loan, are not repayable, bear no interest, are not Capital Contributions, are not founder advances, are not consideration "
+           "for any Unit, and create no ownership, voting, information or approval right in favor of JGN or any Member, all as "
+           "provided in Section 3.8 of the LLC Agreement; and that the Class A allocation on Schedule A was set with that funding "
+           "understanding in view."))
 
 # ---------------------------------------------------------------- 15
 s.append(H("15. JGN Intercompany Agreements"))
@@ -337,7 +338,7 @@ s.append(P("RESOLVED FURTHER, that the <b>%s</b> of the Company is adopted as th
            "agreements above are subject to Apple Developer, Stripe, app-store and payment-processor terms and remain subject to "
            "JGN's own separate required approval under its governing documents, which JGN gives by the written consent of its "
            "members; and that, the undersigned being aware that several Members are also members of JGN, this approval by all "
-           "Class A Members satisfies Section 5.11 of the LLC Agreement for these agreements, for the JGN Advances and for the "
+           "Class A Members satisfies Section 5.11 of the LLC Agreement for these agreements, for the JGN Funding and for the "
            "Brock Service Agreement and the issuances within the Brock Reserve, so that no further related-party approval is "
            "required for them." % "Company Account and Infrastructure Schedule"))
 

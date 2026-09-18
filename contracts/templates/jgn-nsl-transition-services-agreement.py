@@ -157,14 +157,13 @@ s.append(P("<b>5.3 Remittance of Company revenue.</b> There is no Company revenu
            "attributable to those receipts, and amounts the Company has approved in writing. With "
            "each remittance JGN will provide records sufficient to identify and reconcile the "
            "receipts, deductions and net amount. JGN will not apply Company receipts against the "
-           "JGN Advances described in Section 5.4 or against any other obligation without the "
+           "JGN Funding described in Section 5.4 or against any other amount without the "
            "Company's written approval."))
-s.append(P("<b>5.4 JGN Advances are separate.</b> JGN paid " + JGN_ADVANCES + " of documented "
-           "development and operating expenses on the Company's behalf through the Effective Date, and may continue to advance such costs. Those amounts are "
-           "an unsecured, non-interest-bearing obligation of the Company to JGN under Section 3.8 "
-           "of the " + T_OA + ", repayable when the Company's Members determine cash is reasonably "
-           "available. They are not capital contributions, not equity and not consideration for "
-           "anything under this Agreement, and they are not transition service fees."))
+s.append(P("<b>5.4 JGN Funding is separate.</b> JGN has paid " + JGN_ADVANCES + " of the Company's "
+           "development and operating costs through the Effective Date and may continue to pay such costs in its "
+           "discretion. Those amounts are JGN's own costs under Section 3.8 of the " + T_OA + ": the Company "
+           "owes nothing for them, they are not a loan, not repayable, not capital contributions, not equity, "
+           "not consideration for anything under this Agreement, and not transition service fees."))
 s.append(P("<b>5.5 Audit of records.</b> On reasonable notice, and not more than twice in any "
            "twelve-month period, each Party may review the other Party's records relating to "
            "amounts payable or remittable under this Agreement. The reviewing Party bears the cost "

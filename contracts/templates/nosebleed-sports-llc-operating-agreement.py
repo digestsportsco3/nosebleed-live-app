@@ -181,11 +181,9 @@ defs = [
                                  % fmt(AUTHORIZED_UNITS)),
     ("Good Leaver", "a Member whose Service ends other than as a Bad Leaver."),
     ("JGN", "JGN Media LLC, a separate limited liability company whose ownership is shown for context on Schedule E."),
-    ("JGN Advances", "approximately $5,000 of documented AI, development and operating expenses, primarily OpenAI and "
-                     "Anthropic/Claude development expenses, paid by JGN on the Company's behalf before and after formation through "
-                     "the Effective Date, together with any further such advances recorded by the Chief Executive Officer. JGN Advances are obligations of the Company "
-                     "to JGN under Section 3.8. They are not Capital Contributions, are not founder advances, and do not entitle "
-                     "JGN or any Member to Units."),
+    ("JGN Funding", "the development and operating costs of the Company that JGN pays as its own costs, as described in "
+                    "Section 3.8. The Company owes nothing for them; they are not a loan, not Capital Contributions and not "
+                    "consideration for any Unit."),
     ("JGN Retained Assets", "the JGN assets listed on Schedule D, including legacy social accounts, historical content, legacy media "
                             "IP, the master NOSEBLEED SPORTS brand%s, existing Apple Developer accounts and existing Stripe "
                             "accounts." % (", including the Brand Kit as part of the brand" if JGN_MODE else "")),
@@ -309,11 +307,7 @@ s.append(P("<b>3.7 Capital Contributions and Capital Accounts.</b> Capital Contr
            "Account will be maintained for each Member in accordance with Treasury Regulation Section 1.704-1(b)(2)(iv), and the "
            "Members may adjust Capital Accounts as that Regulation permits, including on any issuance of Units in consideration of "
            "services."))
-s.append(P("<b>3.8 JGN Advances.</b> The Members acknowledge the JGN Advances, being approximately $5,000 of documented AI, development "
-           "and operating expenses paid by JGN on the Company's behalf through the Effective Date, to be reconciled and recorded by the Chief Executive "
-           "Officer. The JGN Advances are unsecured, non-interest-bearing obligations of the Company to JGN, repayable when the "
-           "Members determine that cash is reasonably available. They are not Capital Contributions, are not founder advances, and "
-           "do not entitle JGN or any Member to any Units or other interest in the Company. The Members acknowledge that JGN has funded the Company's development and operating costs to date and intends, without obligation and in its discretion, to continue bearing those costs until the Company generates cash flow sufficient to fund its own operations; that each further amount JGN pays on the Company's behalf is a JGN Advance on the same terms; that the Class A allocation on Schedule A was set with that funding understanding in view; and that no JGN funding, past or future, creates any Capital Contribution, Unit, ownership, voting, information or approval right in favor of JGN or any Member."))
+s.append(P("<b>3.8 JGN Funding.</b> The Members acknowledge that JGN has paid, and intends in its discretion and without obligation to continue paying, the Company's development and operating costs until the Company generates cash flow sufficient to fund its own operations, as mutually understood among the Members. Amounts JGN pays for that purpose (the \"JGN Funding\") are JGN's own costs. The Company owes JGN nothing for them: they are not a loan, are not repayable, bear no interest, are not Capital Contributions, are not founder advances, are not consideration for any Unit, and create no ownership, voting, information or approval right in favor of JGN or any Member. The Class A allocation on Schedule A was set with this funding understanding in view. The Chief Executive Officer will keep a record of the JGN Funding for information only."))
 s.append(P("<b>3.9 Member admission; joinder.</b> Each Person listed on Schedule A is admitted as a Member as of the Effective Date "
            "upon notation on Schedule A. Additional Class A Members may be admitted only with Supermajority Approval. Class B "
            "Members are admitted upon issuance under Section 3.4 and execution of a joinder in the form of Schedule G. Every new "
@@ -443,7 +437,7 @@ s.append(P("<b>5.10 Spending limits and anti-circumvention.</b> Any expenditure,
 s.append(P("<b>5.11 Related-party transactions.</b> Material Related-Party Transactions require Supermajority Approval unless "
            "already specifically approved through an approved budget, an approved agreement or prior Member approval. The Members "
            "acknowledge that several Members are also members of JGN. The intercompany license agreements described in Section "
-           "11.2, the JGN Advances under Section 3.8, and the Service Agreement of [Class B Member] and the issuances within the Brock "
+           "11.2, the JGN Funding under Section 3.8, and the Service Agreement of [Class B Member] and the issuances within the Brock "
            "Reserve, have each been specifically approved by the Members in the Company's organizational written consent and do "
            "not require further approval under this Section."))
 s.append(P("<b>5.12 Delegation by the Chief Executive Officer.</b> The Chief Executive Officer may appoint subordinate non-member "
@@ -510,7 +504,7 @@ s.append(P("<b>6.8 Regulatory allocations.</b> The allocations in this Article a
            "necessary to comply with the Code, including allocations that preserve the intended treatment of Units issued in "
            "consideration of services under Section 3.5."))
 s.append(P("<b>6.9 Distributions on a Change of Control or liquidation.</b> Net proceeds of a Change of Control or of liquidation, "
-           "after payment of liabilities (including the JGN Advances under Section 3.8) and reasonable reserves, are distributed "
+           "after payment of liabilities and reasonable reserves, are distributed "
            "(a) first, to the Members in proportion to, and to the extent of, their unreturned cash Capital Contributions, if any; "
            "and (b) then to all Members in proportion to their Percentage Interests, subject to the Threshold Value limitation in "
            "Section 6.1."))
