@@ -290,6 +290,7 @@ and termination architecture, and the same anti-sandbagging paragraph in the Tai
 | `SHARE_PERFORMED_DEALS` switch | Set **True** (the deal). `False` would drop limb (d) and share only sourced, referred and podcast revenue |
 | Performance condition | No fee to reduce, so a Shortfall Notice lets the Company withhold the Podcast Revenue share pro rata to episodes missed, stop scheduling him, or terminate. Sourced-deal share untouched except for a deal he failed to perform |
 | **§2.9 Sponsored gambling streams** | The clause that matters most in this role: only Operators approved in writing and lawfully offered where the stream targets; Company may refuse or withdraw any Operator; each platform's gambling policy; stop on Company or platform instruction; age/geo gating; responsible-gambling messaging; FTC-grade disclosure of sponsorship, bonuses, promo codes, affiliate links and play money; no "gambling makes money", no guarantees, no chasing losses, no minors; no Company funds wagered; disclose every dollar/credit an Operator provides; his own wagering and its tax are his; immediate suspension right that is not a shortfall. Matching indemnity limb |
+| **§2.10 Guests** | Any person he invites onto a podcast, live stream, sponsored stream, or any Company event or Company-branded activity is a **direct extension of him**: he is liable to the Company for their acts, statements and content as if his own, and a Guest's conduct that would breach the conduct, handicapping, gambling, IP or confidentiality sections is his breach. Advance notice; a recorded-consent and likeness release from each Guest (Company form or equivalent, produced on request); Guest told the rules; 18+ and of gambling age for sponsored streams; Company may decline or remove any Guest or their content (not a shortfall); no credentials to Guests; no Guest is a Company contractor or agent; anything he promises a Guest is on him. Matching indemnity limb |
 | Existing relationships | He has none. §2.6 states affirmatively that no paying sponsorship, endorsement, affiliate, ambassador, paid-promotion or paid-picks agreement is in effect, and nothing predating the Effective Date is covered |
 | Everything else | As §3: at-will both ways, NY law, Nassau/NY courts, tiered LD keyed to the podcast channels and Nosebleed Gambling accounts, 60-day Tail Period incl. unreferred-opportunity payment, no invoice required |
 
@@ -503,6 +504,10 @@ exposure, which drafting cannot fix.
     (replaces prior binder doc 62). All verifiers pass in both modes.
 17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
     reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
+24. Guest clause added to the podcast agreement at the owner's request; indemnity and the
+    personal-bind list extended to match. Contractor is New York City based: the agreement's
+    written-contract, itemized-services and 30-day payment terms satisfy the city and state
+    Freelance Isn't Free Acts.
 23. Podcast agreement finalized: Company-sourced deals he performs are shared (limb (d)); accounts
     and platforms stated broadly so stream locations can change; no existing paying deals, so the
     disclosure row is gone and the representation is affirmative. Both talent agreements gained a

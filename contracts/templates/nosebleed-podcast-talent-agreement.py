@@ -270,6 +270,29 @@ story.append(P(
     "under this Section is not a shortfall under Section 5, does not reduce any amount otherwise payable to "
     "the Contractor for work already performed, and does not by itself terminate this Agreement. Nothing in "
     "this Agreement requires the Contractor to wager the Contractor's own funds."))
+story.append(P(
+    "<b>2.10 Guests.</b> A <b>\"Guest\"</b> is any person the Contractor invites, brings, books, or arranges to "
+    "appear on or take part in a podcast episode, live stream, Sponsored Gambling Stream, or any Company event, "
+    "meetup, watch party, appearance, or other Company-branded content or activity (each, a \"Company Event\"), "
+    "including a co-host, panelist, caller, or on-air contributor. Every Guest is a direct extension of the "
+    "Contractor for purposes of this Agreement. The Contractor is responsible and liable to the Company for the "
+    "acts, omissions, statements, and content of each Guest in connection with Company content and Company "
+    "Events as if they were the Contractor's own, and conduct by a Guest that would breach Section 2.4, 2.5, "
+    "2.9, 7, or 10 if done by the Contractor is treated as the Contractor's breach."))
+story.append(P(
+    "Before a Guest appears, the Contractor will: (a) give the Company reasonable advance notice of the Guest; "
+    "(b) obtain the Guest's consent to being recorded and to the Company's use of the resulting content and "
+    "of the Guest's name, image, likeness, and voice in it, in the form the Company provides or a form "
+    "reasonably equivalent to it, and provide that consent to the Company on request; (c) inform the Guest of "
+    "the content, disclosure, and gambling-compliance rules that apply to the appearance; and (d) confirm "
+    "that the Guest is at least eighteen (18) years of age and, for a Sponsored Gambling Stream, of legal "
+    "gambling age in the applicable jurisdiction. The Company may decline any proposed Guest in advance, and "
+    "may remove a Guest from any content or Company Event, or remove or edit any content featuring a Guest, "
+    "at any time in its reasonable discretion; a removal under this Section is not a shortfall under Section "
+    "5. The Contractor will not give any Guest access to any Company Account or Company credential. No Guest "
+    "is a contractor, agent, or representative of either Company Party, and the Company owes no Guest any "
+    "payment or other consideration; any fee, expense, or other consideration the Contractor promises a Guest "
+    "is the Contractor's own obligation."))
 
 # ---------------------------------------------------------------- 3
 story.append(P("3. Term; Quarterly Review", heading_style))
@@ -550,7 +573,7 @@ story.append(P(
     "<b>9.3 Performance through an entity.</b> On written notice to the Company, the Contractor may "
     "perform this Agreement through a limited liability company or other entity wholly owned by the "
     "Contractor, in which case the Company will pay the revenue share to that entity, the entity will be "
-    "bound by this Agreement, and the Contractor will remain personally bound by Sections 2.4 through 2.9, "
+    "bound by this Agreement, and the Contractor will remain personally bound by Sections 2.4 through 2.10, "
     "6, 7, 8, and 10 and will personally perform the Services. Nothing in this Agreement requires the "
     "Contractor to form any entity."))
 story.append(P(
@@ -598,8 +621,10 @@ story.append(P(
     "misstatement of the Contractor's picks record; (d) any breach of the representations in Section 2.6; "
     "(e) the Contractor's breach of Section 2.9, or the Contractor's own wagering or gambling activity, "
     "including any claim relating to a Sponsored Gambling Stream conducted otherwise than in compliance "
-    "with Section 2.9; (f) the Contractor's material breach of this Agreement; or (g) the Contractor's "
-    "negligence or willful misconduct. This Section does not apply to content created and posted solely by "
+    "with Section 2.9; (f) the acts, omissions, statements, or content of any Guest (Section 2.10), or the "
+    "Contractor's failure to obtain a consent Section 2.10 requires; (g) the Contractor's material breach of "
+    "this Agreement; or (h) the Contractor's negligence or willful misconduct. This Section does not apply "
+    "to content created and posted solely by "
     "the Company, or to content the Contractor posts at the Company's specific written direction without "
     "material deviation."))
 story.append(P(
