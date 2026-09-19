@@ -59,7 +59,8 @@ subtitle_style = ParagraphStyle("S", parent=styles["Normal"], fontName="Helvetic
                                 leading=14, alignment=TA_CENTER, textColor=colors.HexColor("#444444"), spaceAfter=10)
 heading_style = ParagraphStyle("H", parent=styles["Heading2"], fontName="Helvetica-Bold", fontSize=11.5,
                                leading=15, spaceBefore=13, spaceAfter=5, textColor=colors.HexColor("#111111"))
-body_style = ParagraphStyle("B", parent=styles["Normal"], fontName="Helvetica", fontSize=10, leading=14.5, spaceAfter=7)
+body_style = ParagraphStyle("B", parent=styles["Normal"], fontName="Helvetica", fontSize=10, leading=14.5, spaceAfter=7,
+                            allowWidows=0, allowOrphans=0)
 list_style = ParagraphStyle("L", parent=body_style, leftIndent=22, bulletIndent=8, spaceAfter=5)
 sig_style = ParagraphStyle("Sig", parent=body_style, spaceAfter=2)
 
@@ -574,7 +575,7 @@ story.append(P(
     "perform this Agreement through a limited liability company or other entity wholly owned by the "
     "Contractor, in which case the Company will pay the revenue share to that entity, the entity will be "
     "bound by this Agreement, and the Contractor will remain personally bound by Sections 2.4 through 2.10, "
-    "6, 7, 8, and 10 and will personally perform the Services. Nothing in this Agreement requires the "
+    "6, 7, 8, 10, and 11 and will personally perform the Services. Nothing in this Agreement requires the "
     "Contractor to form any entity."))
 story.append(P(
     "<b>9.4 No authority to bind.</b> Neither Party may bind the other except as expressly set out in this "

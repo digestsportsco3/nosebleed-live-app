@@ -504,6 +504,9 @@ exposure, which drafting cannot fix.
     (replaces prior binder doc 62). All verifiers pass in both modes.
 17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
     reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
+25. Podcast agreement final pass before issue: numbering, 29 cross-references, 30 defined terms,
+    drafting-defect scan and all 14 pages read. Widow lines disabled on body text; the indemnity
+    added to the obligations that stay personal if the contractor performs through an entity.
 24. Guest clause added to the podcast agreement at the owner's request; indemnity and the
     personal-bind list extended to match. Contractor is New York City based: the agreement's
     written-contract, itemized-services and 30-day payment terms satisfy the city and state
