@@ -1,58 +1,34 @@
-# One setup, then Stat Desk works from any device. Do this once.
+# How Stat Desk runs — read SELF-HOSTED.md first
 
-Goal: Nick opens a chat on his phone, laptop, anything, types "give me today's
-10", and gets them back in the chat. No PowerShell. No local session. No
-Chrome. Stathead included, because he pays for it.
+**The current answer is `statdesk/SELF-HOSTED.md`.** A self-hosted GitHub runner
+on Nick's machine, with a signed-in Chrome profile. One ten-minute setup, then
+the whole pipeline is automatic from any device with no homework: MLB API,
+ESPN cross-check, and Stathead history, all unattended.
 
-Everything needed for that is now in this repo. The pipeline logs into Stathead
-directly (`statdesk/lib/stathead.js`) and builds the Season Finder URLs itself
-(`statdesk/lib/finder.js`), so no browser is involved anywhere.
+Everything below is kept as the record of what was tried and why it did not
+work, so nobody spends another day rediscovering it.
 
-There is exactly ONE thing Claude cannot do from inside a session, because it
-is a setting on Nick's Claude account: opening the network and storing the
-Stathead login. It takes about two minutes and never has to be done again.
+## Dead end 1: run it in the cloud Claude session
 
-## The two-minute setup
+Needs the environment's network allowlist opened through a settings dialog, and
+stores the Stathead password where anyone using that environment can read it.
+The dialog was hard to find and the password exposure was never acceptable.
 
-1. Go to claude.ai/code.
-2. Click the cloud icon showing the environment name, in the row just above the
-   message box. There is no settings URL; it only opens from that button.
-3. Hover the environment, click the gear on its right.
-4. **Network access** → **Custom**.
-5. **Allowed domains**, one per line:
+## Dead end 2: run it on a GitHub-hosted runner
 
-       statsapi.mlb.com
-       stathead.com
-       *.stathead.com
-       www.sports-reference.com
-       *.sports-reference.com
-       www.baseball-reference.com
-       *.baseball-reference.com
+The MLB API half works perfectly here and still does; that is the `runner=github`
+fallback. The Stathead half cannot work: Sports Reference serves datacenter IPs
+a 403. Observed directly — the login page returned 200 from a GitHub runner
+early on and 403 after a handful of runs in the same half hour. Before that, a
+plain HTTP login failed for two further reasons worth recording: the login URL
+301-redirects, so a POST to it is followed as a GET and the credentials are
+silently dropped; and even with a session, finder pages come back carrying
+"Log in for full results" with an empty table, which a naive parser reads as a
+legitimate zero-row result. That last one is the dangerous failure, because it
+turns "we were not logged in" into "no players matched".
 
-6. Tick **Also include default list of common package managers**. Without it
-   the session loses GitHub and npm.
-7. **Environment variables**, in .env format:
-
-       STATHEAD_USER=<the Stathead login email>
-       STATHEAD_PASS=<the Stathead password>
-
-8. Save. New sessions pick this up; a session already running does not.
-
-A note on step 7, so it is a real choice and not a surprise: environment
-variables are visible to anyone who uses that environment, and to any session
-running in it. If that is not acceptable, skip step 7 and the API half still
-works from chat while the Stathead half stays local. Use a password unique to
-Stathead either way.
-
-## What runs after that
-
-    node statdesk/run.js --stathead      # API pull + Stathead discovery + brief
-    node statdesk/run.js --stathead-only # Stathead discovery alone
-    ./statdesk/handoff.sh                # commit and push
-
-All of it runs in a cloud session, so "give me today's 10" in any chat is
-enough. The daily run can also be a Routine that fires at 7am and pushes, so
-the brief is already waiting.
+`statdesk/lib/stathead.js` keeps that HTTP client, fixed, behind
+`--stathead-http`. It is not the default and should not be.
 
 ## Guardrails that did not change
 

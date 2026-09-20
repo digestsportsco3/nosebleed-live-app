@@ -15,10 +15,14 @@
 #   schedule:
 #     - cron: "0 11 * * *"   # 07:00 America/New_York during EDT
 #
-# Secrets it reads (repo Settings > Secrets and variables > Actions):
-#   STATHEAD_USER, STATHEAD_PASS
-# Without them the MLB half still runs and the Stathead half reports why it
-# stopped. Nothing is ever estimated.
+# WHERE IT RUNS. Sports Reference serves datacenter IPs a 403, so Stathead
+# cannot be reached from a GitHub-hosted runner. The fix is a self-hosted
+# runner on Nick's own machine: residential IP, signed-in Chrome profile, and
+# it runs unattended. Set up once, per statdesk/SELF-HOSTED.md. Pick
+# runner=github to force the API-only path when that machine is off.
+#
+# No credentials are needed here. The browser profile holds the session, so
+# there is no password in this workflow and none in the process.
 name: Stat Desk
 
 on:
@@ -29,10 +33,16 @@ on:
         required: false
         default: ""
       stathead:
-        description: "Also run the Stathead discovery queries"
+        description: "Also run Stathead verification"
         type: boolean
         required: false
         default: true
+      runner:
+        description: "Where to run: self-hosted (Stathead works) or github (API only)"
+        type: choice
+        required: false
+        default: self-hosted
+        options: [self-hosted, github]
 
 permissions:
   contents: write
@@ -43,7 +53,10 @@ concurrency:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    # self-hosted is Nick's own machine: a residential IP Sports Reference does
+    # not block, with a signed-in Chrome profile. That is what makes the
+    # Stathead half work unattended. github runners still do the MLB API half.
+    runs-on: ${{ inputs.runner == 'github' && 'ubuntu-latest' || 'self-hosted' }}
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -58,8 +71,6 @@ jobs:
       - name: Run Stat Desk
         id: run
         env:
-          STATHEAD_USER: ${{ secrets.STATHEAD_USER }}
-          STATHEAD_PASS: ${{ secrets.STATHEAD_PASS }}
           RUN_DATE: ${{ inputs.date }}
           WANT_STATHEAD: ${{ inputs.stathead }}
         run: |

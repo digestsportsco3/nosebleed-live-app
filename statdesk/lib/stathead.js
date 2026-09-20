@@ -20,6 +20,10 @@ const { sleep } = require("./http");
 const LOGIN_URL = "https://stathead.com/users/login.cgi";
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36";
 const MIN_GAP_MS = 4000; // one query per 4s, floor. Do not lower.
+// Stathead serves the results table with an empty body and this line when the
+// request is not authenticated. It is the difference between "no rows matched"
+// and "we were not logged in", so it must never be read as an empty result.
+const PAYWALL = /Log in for full results|Already a paid subscriber|subscribe to Stathead/i;
 
 class Stathead {
   constructor({ user = process.env.STATHEAD_USER, pass = process.env.STATHEAD_PASS, dataDir, runDate } = {}) {
@@ -78,12 +82,16 @@ class Stathead {
     return { status: res.status, ok: res.status >= 200 && res.status < 300, url: current, text, trail };
   }
 
-  // True when the jar carries a working subscription session.
+  // True only when a finder page renders results rather than the paywall.
+  // Checking "my account" looked logged in while every query came back gated,
+  // so the probe is now the real thing the pipeline depends on.
   async verify() {
-    const probe = "https://stathead.com/users/my_account.cgi";
+    const probe = "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi"
+      + "?request=1&match=player_season&year_min=2026&year_max=2026&comp_type=reg"
+      + "&order_by=b_hr&order_by_asc=0&ccomp[1]=gt&cval[1]=45&cstat[1]=b_hr";
     const r = await this.hop(probe);
-    if (/log ?out|my account|subscription/i.test(r.text) && !/name=["']password["']/i.test(r.text)) return true;
-    return false;
+    if (PAYWALL.test(r.text)) return false;
+    return /data-stat=/.test(r.text);
   }
 
   async login() {
@@ -125,7 +133,11 @@ class Stathead {
     for (const k of ["password", "pass"]) body.set(k, this.pass);
     body.set("remember", "1");
 
-    const res = await this.hop(loginUrl, { method: "POST", body, referer: loginUrl });
+    // Post to the URL the form actually resolved to. Posting to a address that
+    // 301s means the redirect is followed as a GET and the credentials are
+    // silently dropped, which is exactly what was happening.
+    const target = form.url;
+    const res = await this.hop(target, { method: "POST", body, referer: target });
     const snippet = res.text.slice(0, 600).replace(/\s+/g, " ");
     if (/incorrect|invalid|not match|try again/i.test(res.text.slice(0, 5000))) {
       throw new Error(`credentials rejected (${res.trail.join(" -> ")})`);
@@ -147,14 +159,19 @@ class Stathead {
       throw new Error(`Blocked by Cloudflare on ${url}. Stop and run this query in Nick's browser instead; do not retry in a loop.`);
     }
     if (!res.ok) throw new Error(`HTTP ${res.status} for ${url} (hops: ${res.trail.join(" -> ")})`);
-    if (/log ?in|subscribe/i.test(html) && !/data-stat=/.test(html)) {
+    if (PAYWALL.test(html)) {
       this.loggedIn = false;
-      throw new Error(`Stathead returned a login/paywall page for ${url}. The session expired. Nothing was read.`);
+      throw new Error(`Stathead withheld results for ${url}: the page carries "Log in for full results", so the session is not authenticated. This is NOT an empty result and must never be reported as one.`);
     }
-    const { headers, rows, capped } = parseTable(html);
+    const { headers, rows, capped, reported } = parseTable(html);
     this.n += 1;
     const id = `Q${String(this.n).padStart(3, "0")}`;
-    const rec = { id, ts: new Date().toISOString(), url, label, headers, rows, rowCount: rows.length, capped, note };
+    // Keep the raw page whenever the parse looks wrong, so a failure can be
+    // diagnosed from the artifact instead of guessed at across runs.
+    if (this.dir && rows.length < 2) {
+      try { fs.writeFileSync(path.join(this.dir, `${id}.raw.html`), html); } catch (e) { /* diagnostics only */ }
+    }
+    const rec = { id, ts: new Date().toISOString(), url, label, headers, rows, rowCount: rows.length, capped, reported, note };
     if (this.dir) this.save(rec);
     return rec;
   }
