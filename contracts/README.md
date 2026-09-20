@@ -521,6 +521,22 @@ exposure, which drafting cannot fix.
     stated figure for accounts that have no follower count. Every fix pinned by a new verifier
     assertion, including negative assertions that fail if the old language returns.
 
+30. **Final check: 0 blockers.** Seven rounds in, the count went 27, 19, 31, 19, 3, 6, then 1
+    serious and 1 minor. Both fixed. The serious one mattered: the competitor protection in the
+    declined-opportunity provisos was a condition subsequent that only operated if the *contractor*
+    chose to give notice, so on company silence he could sign a rival sportsbook's ambassadorship
+    and keep all of it, with no mechanism to assert the conflict. He must now give written notice of
+    intent and wait ten business days before entering. The minor: the non-accrual sentence in the
+    Freelance Isn't Free Act section was unscoped and read as saying every Brand Deal share was not
+    contracted compensation, which is the over-reach a court would strike as a void waiver under
+    NYC Admin Code 20-935 -- weakening the podcast protection with it.
+
+    Confirmed clean and needing no change: the per-opportunity deemed consent does not open a hole
+    in the Premium Offering (Section 7.1 ownership and Section 10 are not disapplied, and a
+    Nosebleed Opportunity must be a *paid* opportunity, so free posting cannot be routed through
+    it); the republication licence is bounded and does not survive the Term; and the stream-decline
+    right cannot be used to decline everything, since Section 9.2 requires a genuine conflict.
+
 29. **Closure audit — the real process defect.** Every round fixed all blockers and the serious
     findings judged important; the rest were dropped with nothing tracking them. Each time the owner
     asked a probing question, another unapplied finding from round 1 surfaced and looked like a new
