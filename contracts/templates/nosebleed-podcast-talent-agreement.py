@@ -213,7 +213,7 @@ story.append(P(
     "Company Account, other than (i) promotional excerpts the Company approves in writing and "
     "(ii) picks published after the same picks have been released to Premium Offering subscribers."))
 story.append(P(
-    "Apart from clauses (a) and (b) above, the referral obligation for Nosebleed Opportunities in "
+    "Apart from clauses (a), (b) and (c) above, the referral obligation for Nosebleed Opportunities in "
     "Section 4.2, the bio requirement in Section 2.1(f), and the conduct and content rules in Sections "
     "2.4, 2.5, 2.8 and 2.9 (which apply to the Contractor wherever they state that they do), this "
     "Agreement does not restrict the Contractor's personal activities, personal social "
