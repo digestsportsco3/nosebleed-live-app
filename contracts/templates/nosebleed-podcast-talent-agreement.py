@@ -873,8 +873,9 @@ story.append(P(
     "solely from the Contractor's ordinary negligence &mdash; and not from the Contractor's fraud, gross "
     "negligence, or knowing, intentional, or reckless conduct, or any knowing or reckless breach of "
     "Section 2.9, Section 8.3, or Section 10 &mdash; will not exceed twenty-five thousand dollars "
-    "($25,000.00). The Parties intend the monetary limitations in this Section to apply equally and "
-    "reciprocally to each of them, and have set them at the same amount for that reason."))
+    "($25,000.00). The Parties have set the monetary limitation applicable to each of them at the same "
+    "amount. The exclusions from those limitations differ because the obligations each Party "
+    "undertakes differ, and not because of any difference in bargaining position."))
 
 # ---------------------------------------------------------------- 12
 story.append(P("12. Termination", heading_style))
