@@ -15,6 +15,15 @@
 #   schedule:
 #     - cron: "0 11 * * *"   # 07:00 America/New_York during EDT
 #
+# STATHEAD IS OFF BY DEFAULT, ON PURPOSE. Sports Reference blocks datacenter
+# IPs: the login page returned 200 from this runner early on and 403 after a
+# handful of runs in the same half hour. Retrying from cloud IPs risks the
+# subscription for no gain, so the flag defaults to false and must be turned on
+# deliberately. Historical verification belongs in a browser signed in as Nick.
+# What the API pull gives is already verifiable: league-wide ranks and counts
+# computed across the complete 2026 pull are facts, not guesses, and every
+# kicker should be written from those.
+#
 # Secrets it reads (repo Settings > Secrets and variables > Actions):
 #   STATHEAD_USER, STATHEAD_PASS
 # Without them the MLB half still runs and the Stathead half reports why it
@@ -29,10 +38,10 @@ on:
         required: false
         default: ""
       stathead:
-        description: "Also run the Stathead discovery queries"
+        description: "Also run Stathead (OFF by default: runners are IP-blocked, see note)"
         type: boolean
         required: false
-        default: true
+        default: false
 
 permissions:
   contents: write
