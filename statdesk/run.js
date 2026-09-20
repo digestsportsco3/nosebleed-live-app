@@ -4,12 +4,14 @@
 //                             [--stathead] run discovery queries headlessly too
 //                             [--stathead-only] discovery only, skip the API pull
 //                             [--stathead-list] print the queries for a human
+//                             [--stathead-http] force the HTTP client instead of the browser
 "use strict";
 const path = require("path");
 const { CallLog } = require("./lib/http");
 const { scanAnomalies, scanMilestones, scanHeat, rank } = require("./lib/scanner");
 const { writeBrief, writeFailureBrief } = require("./lib/brief");
 const { Stathead } = require("./lib/stathead");
+const { StatheadBrowser } = require("./lib/stathead-browser");
 const { seasonFinder, DISCOVERY } = require("./lib/finder");
 const fs = require("fs");
 
@@ -47,7 +49,14 @@ const briefsDir = path.join(root, "briefs");
   // --stathead: run the discovery queries headlessly with Nick's subscription
   // and save provenance, no browser needed. Runs on its own or after the pull.
   if ("stathead" in args || "stathead-only" in args) {
-    const sh = new Stathead({ dataDir: path.join(root, "data", "browser"), runDate });
+    // Prefer the real browser with a saved login: it is the only path Sports
+    // Reference does not block, and it needs no password in this process.
+    // Fall back to the HTTP client only when explicitly asked.
+    const dataDir = path.join(root, "data", "browser");
+    const useHttp = "stathead-http" in args;
+    const sh = useHttp ? new Stathead({ dataDir, runDate })
+                       : new StatheadBrowser({ dataDir, runDate });
+    console.log(`[stathead] client: ${useHttp ? "http (blocked from datacenter IPs)" : "browser profile"}`);
     const rules = DISCOVERY(season);
     const results = [];
     let failed = 0;
@@ -67,6 +76,7 @@ const briefsDir = path.join(root, "briefs");
         }
       }
     }
+    if (sh.close) await sh.close();
     console.log(`[stathead] ${results.length - failed} of ${rules.length} queries ok; provenance in statdesk/data/browser/${runDate}/`);
     if (failed) process.exitCode = 3;
     if ("stathead-only" in args) return;
