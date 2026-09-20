@@ -521,6 +521,27 @@ exposure, which drafting cannot fix.
     stated figure for accounts that have no follower count. Every fix pinned by a new verifier
     assertion, including negative assertions that fail if the old language returns.
 
+28. Podcast agreement round 5 — the first round with **zero blockers**, and the clearance to sign.
+    It confirmed all 25 of round 4's fixes landed correctly and that no route lets the company's
+    liability exceed $10,000 other than paying the contractor his share, the company's own fraud or
+    gross negligence, and the non-waivable freelance-payment statute. Three places where the
+    contract protected the company less than it appeared, all fixed: round 4's actual-loss sentence
+    had re-opened the liquidated-damages-plus-actual-damages election that an earlier round removed,
+    which is what makes a liquidated sum a penalty and would have voided the whole account-theft
+    remedy; the unreferred-opportunity payment triggered only if the contractor signed during the
+    tail period, so taking a concealed deal mid-term — the likelier case — carried no money remedy
+    at all; and "regular on-air hosts" was undefined, so a recurring handicapper appearing on every
+    episode would silently have cut the contractor's share from 50% to a third, with nothing in the
+    document to settle the argument. Two cheap fallbacks added: a returned default payment now has a
+    cure path (a missed payment date is the one uncapped exposure), and the damages tier has a
+    third evidence source for when the breach itself destroys the first two.
+
+    **Standing rule that came out of this:** never call a contract sign-ready on your own judgment.
+    Rounds 2, 3 and 4 each introduced blockers while fixing the previous round's. Self-review caught
+    none of them. The rule is now in CLAUDE.md, along with the practice that made the reviews
+    usable — hand the reviewer pre-extracted plain text, verify every finding against the built
+    document before acting on it, and pin each fix with a negative assertion so it cannot regress.
+
 27. Podcast agreement round 4, run specifically to find what round 3 broke — every prior round's
     fixes had introduced new defects, including one that destroyed the company's own liability cap.
     It found six more blockers, four of them created by round 3 itself: the mutual
