@@ -52,44 +52,97 @@ class Stathead {
     this.lastCall = Date.now();
   }
 
+  // Follows redirects by hand so cookies set on each hop land in the jar.
+  // node's fetch drops Set-Cookie visibility across automatic redirects.
+  async hop(url, { method = "GET", body = null, referer = null, max = 6 } = {}) {
+    let current = url;
+    let res = null;
+    const trail = [];
+    for (let i = 0; i <= max; i += 1) {
+      await this.throttle();
+      const headers = { "User-Agent": UA, Accept: "text/html,application/xhtml+xml" };
+      if (this.jar.size) headers.Cookie = this.cookieHeader();
+      if (referer) headers.Referer = referer;
+      if (body && i === 0) headers["Content-Type"] = "application/x-www-form-urlencoded";
+      res = await fetch(current, { method: i === 0 ? method : "GET", body: i === 0 ? body : undefined, redirect: "manual", headers });
+      this.absorb(res);
+      trail.push(`${res.status} ${current}`);
+      const loc = res.headers.get("location");
+      if (res.status >= 300 && res.status < 400 && loc) {
+        current = new URL(loc, current).toString();
+        continue;
+      }
+      break;
+    }
+    const text = await res.text().catch(() => "");
+    return { status: res.status, url: current, text, trail };
+  }
+
+  // True when the jar carries a working subscription session.
+  async verify() {
+    const probe = "https://stathead.com/users/my_account.cgi";
+    const r = await this.hop(probe);
+    if (/log ?out|my account|subscription/i.test(r.text) && !/name=["']password["']/i.test(r.text)) return true;
+    return false;
+  }
+
   async login() {
     if (this.loggedIn) return;
     if (!this.user || !this.pass) {
-      throw new Error("STATHEAD_USER and STATHEAD_PASS are not set. Add them to the cloud environment's variables (or export them locally). Nothing was queried.");
+      throw new Error("STATHEAD_USER and STATHEAD_PASS are not set. Nothing was queried.");
     }
-    await this.throttle();
-    // Prime cookies from the login page first; the form posts a hidden token.
-    const page = await fetch(LOGIN_URL, { headers: { "User-Agent": UA } });
-    this.absorb(page);
-    const html = await page.text();
-    const token = (html.match(/name=["']csrf_token["'][^>]*value=["']([^"']+)["']/i) || [])[1];
-
-    const body = new URLSearchParams({ username: this.user, password: this.pass, remember: "1" });
-    if (token) body.set("csrf_token", token);
-
-    await this.throttle();
-    const res = await fetch(LOGIN_URL, {
-      method: "POST",
-      redirect: "manual",
-      headers: { "User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded", Cookie: this.cookieHeader(), Referer: LOGIN_URL },
-      body,
-    });
-    this.absorb(res);
-    const after = await res.text().catch(() => "");
-    const ok = this.jar.size > 0 && (res.status === 302 || res.status === 303 || /logout|my account/i.test(after));
-    if (!ok || /invalid|incorrect|try again/i.test(after.slice(0, 4000))) {
-      throw new Error(`Stathead login failed (HTTP ${res.status}). Check STATHEAD_USER/STATHEAD_PASS, or the account may need a CAPTCHA solved in a real browser. Nothing was queried.`);
+    const endpoints = [
+      "https://stathead.com/users/login.cgi",
+      "https://www.sports-reference.com/users/login.cgi",
+      "https://www.baseball-reference.com/users/login.cgi",
+    ];
+    const tried = [];
+    for (const url of endpoints) {
+      try {
+        await this.attempt(url);
+        this.loggedIn = true;
+        return;
+      } catch (e) {
+        tried.push(`  ${url}\n    ${String(e.message || e).replace(/\n/g, "\n    ")}`);
+      }
     }
-    this.loggedIn = true;
+    throw new Error(`Stathead login failed on every endpoint. Nothing was queried.\n${tried.join("\n")}`);
+  }
+
+  async attempt(loginUrl) {
+    // Load the form and carry every hidden field, not just a guessed token name.
+    const form = await this.hop(loginUrl);
+    if (form.status !== 200) throw new Error(`login page returned ${form.status} (${form.trail.join(" -> ")})`);
+    const body = new URLSearchParams();
+    for (const m of form.text.matchAll(/<input[^>]*type=["']hidden["'][^>]*>/gi)) {
+      const tag = m[0];
+      const name = (tag.match(/name=["']([^"']+)["']/i) || [])[1];
+      const value = (tag.match(/value=["']([^"']*)["']/i) || [])[1] || "";
+      if (name) body.set(name, value);
+    }
+    // Field names differ across their login forms; send the common spellings.
+    for (const k of ["username", "email", "user"]) body.set(k, this.user);
+    for (const k of ["password", "pass"]) body.set(k, this.pass);
+    body.set("remember", "1");
+
+    const res = await this.hop(loginUrl, { method: "POST", body, referer: loginUrl });
+    const snippet = res.text.slice(0, 600).replace(/\s+/g, " ");
+    if (/incorrect|invalid|not match|try again/i.test(res.text.slice(0, 5000))) {
+      throw new Error(`credentials rejected (${res.trail.join(" -> ")})`);
+    }
+    if (/captcha|recaptcha|hcaptcha|cf-turnstile/i.test(res.text)) {
+      throw new Error(`a CAPTCHA is in the way; sign in once in a real browser, then retry (${res.trail.join(" -> ")})`);
+    }
+    if (!(await this.verify())) {
+      throw new Error(`no session after POST. hops: ${res.trail.join(" -> ")}; cookies: ${[...this.jar.keys()].join(",") || "none"}; page began: ${snippet}`);
+    }
   }
 
   // Runs one finder URL and returns { id, rows, headers, rowCount, url, html }.
   async query(url, { label = "", note = "" } = {}) {
     await this.login();
-    await this.throttle();
-    const res = await fetch(url, { headers: { "User-Agent": UA, Cookie: this.cookieHeader(), Referer: "https://stathead.com/" } });
-    this.absorb(res);
-    const html = await res.text();
+    const res = await this.hop(url, { referer: "https://stathead.com/" });
+    const html = res.text;
     if (res.status === 403 || /cf-browser-verification|Just a moment/i.test(html.slice(0, 2000))) {
       throw new Error(`Blocked by Cloudflare on ${url}. Stop and run this query in Nick's browser instead; do not retry in a loop.`);
     }
