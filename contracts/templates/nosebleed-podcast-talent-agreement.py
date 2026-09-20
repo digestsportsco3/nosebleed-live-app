@@ -859,7 +859,7 @@ story.append(P(
     "willful misconduct, and except for any remedy available to the Contractor under the statutes "
     "referenced in Section 4.7, the Company Parties' aggregate "
     "liability arising out of or relating to this Agreement, including under Section 11.2, "
-    "will not exceed ten thousand dollars ($10,000.00), and the Company Parties' aggregate obligation "
+    "will not exceed twenty-five thousand dollars ($25,000.00), and the Company Parties' aggregate obligation "
     "under Section 11.2 is included within and subject to that amount. Neither Party will be liable to "
     "the other for indirect, incidental, "
     "special, consequential, or exemplary damages or for lost profits or opportunities, except for that "
@@ -872,9 +872,9 @@ story.append(P(
     "arising out of or relating to this Agreement, including indemnified claims, to the extent arising "
     "solely from the Contractor's ordinary negligence &mdash; and not from the Contractor's fraud, gross "
     "negligence, or knowing, intentional, or reckless conduct, or any knowing or reckless breach of "
-    "Section 2.9, Section 8.3, or Section 10 &mdash; will not exceed the greater of (i) the total amounts "
-    "paid and payable to the Contractor under this Agreement in the twelve (12) months preceding the "
-    "event giving rise to the claim and (ii) twenty-five thousand dollars ($25,000.00)."))
+    "Section 2.9, Section 8.3, or Section 10 &mdash; will not exceed twenty-five thousand dollars "
+    "($25,000.00). The Parties intend the monetary limitations in this Section to apply equally and "
+    "reciprocally to each of them, and have set them at the same amount for that reason."))
 
 # ---------------------------------------------------------------- 12
 story.append(P("12. Termination", heading_style))

@@ -521,6 +521,24 @@ exposure, which drafting cannot fix.
     stated figure for accounts that have no follower count. Every fix pinned by a new verifier
     assertion, including negative assertions that fail if the old language returns.
 
+31. **Liability caps made symmetric at $25,000 (owner's call).** Previously $10,000 for the company
+    and a $25,000 floor for the contractor. The asymmetry was the single biggest threat to the whole
+    limitation clause: an unrepresented individual capped far tighter than the drafter is the
+    textbook unconscionability pattern, and because the severability clause tells a court to
+    *modify* rather than void, a judge who found it unfair would rewrite the company's cap upward
+    to whatever seemed fair -- potentially well above $25,000. Symmetry removes the invitation.
+
+    The real cost is small: everything the company would realistically owe is already outside the
+    cap (his revenue share under Section 4, the company's own fraud or gross negligence, and the
+    non-waivable freelance-payment statute), so the cap governs a thin residual. A mutuality recital
+    was added -- the parties state they intend the limitations to apply equally and set them at the
+    same amount for that reason -- which is cheap evidence against the unconscionability attack.
+    The contractor's twelve-month upside limb was dropped so both figures are flat and identical;
+    that limb had little real value against an uninsured individual.
+
+    **This reverses the earlier "no risk higher than $10,000" instruction, at the owner's request.**
+    Maximum company exposure in that residual category is now $25,000.
+
 30. **Final check: 0 blockers.** Seven rounds in, the count went 27, 19, 31, 19, 3, 6, then 1
     serious and 1 minor. Both fixed. The serious one mattered: the competitor protection in the
     declined-opportunity provisos was a condition subsequent that only operated if the *contractor*
