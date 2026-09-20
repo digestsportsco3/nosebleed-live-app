@@ -31,10 +31,21 @@ ALLOWED = [
     re.compile(r"Rockville Centre", re.I),
     re.compile(r"Dover,\s*Delaware", re.I),
     re.compile(r"nosebleedsportsmedia\.com", re.I),
+    # 555-0100..555-0199 is the reserved fictional range (NANP), never a real number.
+    # This is what lets the examples in this file's own comments be written out in full.
+    re.compile(r"\b555[-.\s]?01\d{2}\b"),
 ]
 
 PII = [
-    ("phone number", re.compile(r"\(?\b\d{3}\)?[-.\s]\d{3}[-.\s]\d{4}\b")),
+    # A bare "NNN NNN NNNN" is how a stats table reads (".305 573 2026" = BA, PA, season),
+    # so require punctuation or a country code -- which is how a phone is actually written,
+    # and how the number that leaked was written. Examples below use the reserved 555-01xx
+    # fictional range on purpose: a real number in this file would be the very leak it exists
+    # to stop, and the checker does flag itself if you put one here.
+    ("phone number", re.compile(
+        r"\+\s?1[-.\s]+\(?\d{3}\)?[-.\s]*\d{3}[-.\s]*\d{4}\b"   # +1 212 555 0100
+        r"|\(\d{3}\)\s*\d{3}[-.\s]?\d{4}\b"                      # (212) 555-0100
+        r"|\b\d{3}[-.]\d{3}[-.]\d{4}\b")),                       # 212-555-0100 / 212.555.0100
     ("street address", re.compile(
         r"\b\d{1,5}\s+(?:[NSEW]\.?\s+)?[A-Z0-9][A-Za-z0-9.]*\s+"
         r"(?:Street|St\.?|Road|Rd\.?|Drive|Dr\.?|Court|Ct\.?|Lane|Ln\.?|Terrace|Ave\.?|"
