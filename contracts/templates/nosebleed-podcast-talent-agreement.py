@@ -52,7 +52,11 @@ PODCAST_MINIMUM        = "two (2) episodes per calendar week"
 REV_SHARE              = "fifty percent (50%)"
 REV_SHARE_SUMMARY      = "50% of Shared Revenue (Section 4.1)"
 LIQUIDATED_DAMAGES     = "$_________ (blank = Section 8.5 tiers apply)"
-PAYMENT_METHOD         = "Zelle, wire transfer, or PayPal"
+COMPANY_NOTICE_EMAIL   = "______________________"
+PAYMENT_METHOD         = ("Select one at signing and initial:  [ ] Zelle   [ ] wire transfer   "
+                          "[ ] PayPal.  Account, handle or routing details: ______________________ "
+                          "(or such other method as the Parties agree in writing). If no box is checked, "
+                          "payment is made by Zelle to the Contractor email stated above")
 
 styles = getSampleStyleSheet()
 title_style = ParagraphStyle("T", parent=styles["Title"], fontName="Helvetica-Bold",
@@ -170,7 +174,11 @@ story.append(P(
     "approved under Section 4.2, or violate FTC endorsement and disclosure rules; (f) violate platform "
     "terms of service in a manner that places any Company Account at risk; or (g) engage in conduct "
     "reasonably likely to bring the Brand, the Platform, or the Company into public disrepute, recognizing "
-    "that the Contractor is a public face of the Brand."))
+    "that the Contractor is a public face of the Brand. Clauses (a) through (f) apply to the Contractor's "
+    "activity on Company Accounts and to any content that features or references the Brand or the "
+    "Platform. Clause (g) applies to the Contractor's conduct in public generally, and is limited to "
+    "conduct that is criminal, violent, dishonest, or of a nature that would reasonably be expected to "
+    "cause a sponsor or platform to terminate its relationship with the Company."))
 story.append(P(
     "<b>2.5 Handicapping standards and compliance.</b> In connection with the Premium Offering and all "
     "picks content, the Contractor will: (a) provide picks and analysis that are the Contractor's own "
@@ -192,8 +200,10 @@ story.append(P(
     "(b) serve as on-camera talent, podcast host, ambassador, or spokesperson for any other sports media, "
     "picks, or sports betting brand."))
 story.append(P(
-    "Apart from clauses (a) and (b) above and the referral obligation for Nosebleed Opportunities in "
-    "Section 4.2, this Agreement does not restrict the Contractor's personal activities, personal social "
+    "Apart from clauses (a) and (b) above, the referral obligation for Nosebleed Opportunities in "
+    "Section 4.2, the bio requirement in Section 2.1(f), and the conduct and content rules in Sections "
+    "2.4, 2.5, 2.8 and 2.9 (which apply to the Contractor wherever they state that they do), this "
+    "Agreement does not restrict the Contractor's personal activities, personal social "
     "media accounts, personal content, outside work, or other sources of income, whether or not paid, and "
     "the Contractor may pursue them without notice to or approval from the Company. The Company claims no "
     "interest in them."))
@@ -206,7 +216,9 @@ story.append(P(
     "of the Contractor entered into or arising before "
     "the Effective Date is a Brand Deal or a Nosebleed Opportunity (each as defined in Section 4), generates "
     "Shared Revenue, or is otherwise subject to this Agreement, and the Company claims no interest in any of "
-    "them. Nothing in this Agreement restricts the Contractor's activities after the Term."))
+    "them. Except for Sections 6, 7, 10, 12.4 and 12.5, which apply according to their terms, nothing in "
+    "this Agreement restricts the Contractor from providing services to, working for, or accepting "
+    "engagements from any person after the Term."))
 story.append(P(
     "<b>2.7 Personal performance; assistants.</b> The podcast, live-stream, on-camera, handicapping, and "
     "community elements of the Services are personal to the Contractor and will be performed by the "
@@ -235,7 +247,10 @@ story.append(B("<bullet>(a)</bullet>feature only Operators the Company has <b>ap
                "only Operators that are licensed or otherwise lawfully offered in each jurisdiction the "
                "stream targets; the Company may refuse approval of any Operator, and may withdraw approval "
                "of any previously approved Operator, at any time and in its sole discretion, effective on "
-               "notice to the Contractor;"))
+               "notice to the Contractor; except that the Contractor is not in breach of this clause (a) "
+               "as to an Operator the Company has approved in writing for the jurisdiction in question "
+               "where the Contractor conducted the stream in accordance with the Company's written "
+               "instructions;"))
 story.append(B("<bullet>(b)</bullet>conduct the Sponsored Gambling Stream only under a Brand Deal approved "
                "and contracted under Section 4.2, and not promote, advertise, or provide an affiliate or "
                "referral link for any Operator through the Brand or the Platform outside such an approved "
@@ -274,7 +289,10 @@ story.append(B("<bullet>(j)</bullet>remit to the Company, within ten (10) days o
                "affiliate commission, or other monetary consideration an Operator pays directly to the "
                "Contractor in connection with a Sponsored Gambling Stream or the Brand, which will be "
                "treated as Shared Revenue received by a Company Party under Section 4.1 and shared with "
-               "the Contractor accordingly."))
+               "the Contractor accordingly. This clause survives termination of this Agreement as to any "
+               "consideration paid at any time in connection with a Sponsored Gambling Stream conducted, "
+               "or a Brand Deal performed, during the Term, whether the Contractor receives it during the "
+               "Term, during the Tail Period, or afterwards."))
 story.append(P(
     "<b>Suspension.</b> If the Company reasonably believes that a Sponsored Gambling Stream, a particular "
     "Operator, or the Contractor's conduct on a stream creates legal, regulatory, platform, or reputational "
@@ -287,7 +305,8 @@ story.append(P(
     "<b>2.10 Guests.</b> A <b>\"Guest\"</b> is any person the Contractor invites, brings, books, or arranges to "
     "appear on or take part in a podcast episode, live stream, Sponsored Gambling Stream, or any Company event, "
     "meetup, watch party, appearance, or other Company-branded content or activity (each, a \"Company Event\"), "
-    "including a co-host, panelist, caller, or on-air contributor. Every Guest is a direct extension of the "
+    "including a co-host, panelist, caller, or on-air contributor. Subject to the following paragraph as to "
+    "unscreened live callers and audience participants, every Guest is a direct extension of the "
     "Contractor for purposes of this Agreement. The Contractor is responsible and liable to the Company for the "
     "acts, omissions, statements, and content of each Guest in connection with Company content and Company "
     "Events as if they were the Contractor's own, and conduct by a Guest that would breach Section 2.4, 2.5, "
@@ -299,7 +318,7 @@ story.append(P(
     "reasonably equivalent to it, and provide that consent to the Company on request; (c) inform the Guest of "
     "the content, disclosure, and gambling-compliance rules that apply to the appearance; and (d) confirm "
     "that the Guest is at least eighteen (18) years of age and, for a Sponsored Gambling Stream, of legal "
-    "gambling age in the applicable jurisdiction. Clauses (a) and (b) do not apply to an unscreened live "
+    "gambling age in the applicable jurisdiction. Clauses (a) through (d) do not apply to an unscreened live "
     "caller or audience participant. For such a person, the Contractor's obligation is to use reasonable "
     "efforts to moderate, to mute or remove the participant promptly on becoming aware of non-compliant "
     "conduct, and to notify the Company; the Contractor is not liable under this Agreement for conduct of "
@@ -366,7 +385,14 @@ story.append(P(
     "paid-subscription revenue attributable to episodes of the Nosebleed Gambling podcast, and to podcast "
     "live streams, that the Contractor hosts or appears on, excluding in all cases subscription revenue "
     "from the Premium Offering even where the Premium Offering includes podcast episodes or bonus "
-    "content. " + _share_exclusion +
+    "content. Where the Contractor is one of two or more on-air participants on an episode or podcast "
+    "live stream, the Company will first allocate the revenue for that episode or stream among the "
+    "participants reasonably and in good faith under the allocation paragraph below, and Podcast Revenue "
+    "as to the Contractor means only the portion so allocated to the Contractor. Absent the Contractor's "
+    "written agreement to a different split, revenue for an episode or podcast live stream is allocated "
+    "equally among the regular on-air hosts of that episode or stream; non-recurring Guests, unscreened "
+    "callers, and members, officers and employees of either Company Party are not participants for this "
+    "purpose and receive no allocation. " + _share_exclusion +
     "Subscription revenue from the Premium Offering is neither a Brand Deal the Contractor sourced nor "
     "Podcast Revenue and is not Shared Revenue, including as to picks the Contractor delivers under "
     "Section 2.1(c). Shared Revenue is counted once, without duplication where an amount falls within "
@@ -411,7 +437,8 @@ story.append(P(
     "and 2.9(j) do not apply to, an opportunity the Company has declined or has not responded to within "
     "that period, and the Contractor keeps all amounts from it, provided the Contractor performs it off "
     "the Company Accounts, without use of the Brand, the Platform, or any Company credential or Company "
-    "property, and in compliance with Sections 2.4, 2.5 and 2.9(c) through (i). The Contractor has no "
+    "property, and in compliance with Sections 2.4 and 2.5 and, as if the opportunity were a Sponsored "
+    "Gambling Stream, Sections 2.9(c) through (i). The Contractor has no "
     "authority to bind either Company Party to any "
     "Brand Deal."))
 story.append(P(
@@ -475,12 +502,16 @@ story.append(P(
     "schedule the Contractor for live streams, Sponsored Gambling Streams, or handicapping assignments; "
     "and/or (c) terminate this Agreement under Section 12.1. Withholding under clause (a) applies only to "
     "a shortfall in the podcast deliverable in Section 2.1(a). Shortfalls include missed or late episodes, "
-    "missed scheduled live streams, missed or late picks deliveries after a request under Section 2.1(c), "
+    "missed scheduled live streams (other than a live stream the Contractor declines under Section 9.2), "
+    "missed or late picks deliveries after a request under Section 2.1(c), "
     "and sustained inactivity in the Discord community. The Contractor's share of Shared Revenue from Brand "
     "Deals the Contractor sourced or referred is not affected by a Shortfall Notice. Where the Contractor "
     "fails to deliver the contracted elements of a specific Brand Deal, the Company may withhold the "
     "Contractor's share of that Brand Deal in proportion to the undelivered elements, and that, together "
-    "with clause (a), is the Company's only reduction of Shared Revenue."))
+    "with clause (a), is the Company's only reduction of Shared Revenue for a shortfall in performance. "
+    "This sentence does not affect the netting, allocation, refund, chargeback, reversal and clawback "
+    "provisions of Sections 4.1 and 4.3, which determine the amount of Shared Revenue before any "
+    "reduction under this Section."))
 story.append(P(
     "<b>5.3 Excused non-performance.</b> Documented illness, family emergency, or time off approved in "
     "advance in writing by the Company will not be treated as a shortfall, and the Parties will reasonably "
@@ -497,8 +528,10 @@ story.append(P(
     "biographical information (collectively, \"Likeness\") in and in connection with the Content (as "
     "defined in Section 7.1), the "
     "Brand, the Platform, and the Company's advertising, marketing, and promotion, in all media now known "
-    "or later developed, during the Term. The compensation in Section 4 fully compensates the Contractor "
-    "for this license."))
+    "or later developed, during the Term and, as to Content and advertising created or committed during "
+    "the Term, irrevocably and perpetually thereafter on the terms of Section 6.2. This license is a "
+    "written consent for purposes of New York Civil Rights Law Sections 50 and 51 and is not revocable. "
+    "The compensation in Section 4 fully compensates the Contractor for this license."))
 story.append(P(
     "<b>6.2 Post-Term use.</b> After the Term, the Company may continue to use, display, distribute, and "
     "exploit all Content and advertising created during the Term that incorporates the Contractor's "
@@ -584,20 +617,33 @@ story.append(P(
     "within seven (7) days of notice, or an account is lost, transferred, or destroyed as a result "
     "of such a breach, the Contractor will pay the Company, as liquidated damages for each affected "
     "account, the amount specified on Exhibit A or, if none is specified, the amount determined by the "
-    "account's follower or subscriber count as of the Effective Date or, for an account first designated "
-    "after the Effective Date, as of the date of designation: <b>$2,500.00</b> if fewer than 1,000 "
+    "account's follower or subscriber count on the day immediately preceding the first act constituting "
+    "the breach, as evidenced by a dated screenshot or platform analytics export the Company provides "
+    "with its notice or, if that count cannot be established, the count on the date the Company gives "
+    "notice under this Section: "
+    "<b>$2,500.00</b> if fewer than 1,000 "
     "followers or subscribers; <b>$10,000.00</b> if at least 1,000 but fewer than 10,000; <b>$25,000.00</b> "
     "if at least 10,000 but fewer than 50,000; and <b>$50,000.00</b> if 50,000 or more. No amount is "
-    "payable under this Section if full access and control are restored within that period and no "
-    "monetization loss, follower loss, or platform penalty results. The "
-    "aggregate of all amounts payable under this Section, for all accounts and all breaches, will not "
-    "exceed one hundred thousand dollars ($100,000.00). For a Company Account that has no follower or "
-    "subscriber count, the amount is <b>$25,000.00</b>, and the Company may instead elect to recover its "
-    "actual damages for that account in lieu of liquidated damages. This Section states the Company's "
-    "sole monetary remedy for the Contractor's breach of Section 8.3 as to the Company's own direct loss "
-    "of the affected account, and does not limit the Company's rights under Section 11.1 as to third-party "
-    "claims, its rights under Section 10, or its right to injunctive or other "
-    "equitable relief to recover an account. Any Exhibit A "
+    "payable under this Section if full access and control are restored within that period and the "
+    "affected account suffers no material monetization loss, no loss of more than two percent (2%) of "
+    "its followers or subscribers, and no platform penalty. Whenever no liquidated-damages amount is "
+    "payable under this Section for a breach of Section 8.3, the Company may recover its actual "
+    "documented loss from that breach, and the sole-remedy sentence below does not bar that recovery. The "
+    "aggregate of all amounts payable under this Section for any single breach or series of related "
+    "breaches will not exceed one hundred thousand dollars ($100,000.00); breaches are related if they "
+    "arise from the same act, the same course of conduct, or the same Company Account, and each "
+    "unrelated breach is subject to a separate application of this Section and of that cap. For a "
+    "Company Account that has no follower or subscriber count, the amount is <b>$25,000.00</b>. Subject "
+    "only to the following, this Section states the Company's sole monetary remedy for the Contractor's "
+    "breach of Section 8.3 as to the Company's own direct loss of the affected account: it does not "
+    "limit (i) the Company's rights under Section 11.1 as to third-party claims, (ii) its rights under "
+    "Section 10 as to Confidential Information other than the credentials of the affected account and "
+    "other than for the Company's loss of that account, (iii) its right to injunctive or other equitable "
+    "relief to recover an account, or "
+    "(iv) the Company's right to recover actual damages where the breach of Section 8.3 involved the "
+    "Contractor's fraud or willful misconduct, in which case this Section does not apply. Section 12.3 "
+    "is subject to this Section as to a breach of Section 8.3 not involving fraud or willful misconduct. "
+    "Any Exhibit A "
     "amount may be changed only by mutual written agreement before any breach. The Parties agree the "
     "applicable amount is a genuine and reasonable pre-estimate of the Company's minimum probable loss, "
     "scaled to objective characteristics of the account existing before the breach, and is not a penalty. "
@@ -626,9 +672,11 @@ story.append(P(
 story.append(P(
     "<b>9.2 Control of the work.</b> The Contractor controls the manner, means, and methods of performing "
     "the Services. Other than agreed delivery deadlines, the publication schedule and format for episodes, "
-    "and mutually scheduled appearances and streams &mdash; each of which relates to the results of the "
-    "engagement &mdash; the Company does not control the manner, means, hours, or location of the "
-    "Contractor's work. "
+    "and appearances and streams scheduled by the Company on reasonable advance notice, which the "
+    "Contractor may decline for a genuine scheduling conflict on prompt notice to the Company, the "
+    "Parties using good faith to find an alternative time &mdash; each of which relates to the results "
+    "of the engagement &mdash; the Company does not control the manner, "
+    "means, hours, or location of the Contractor's work. "
     "The Contractor furnishes the Contractor's own equipment, workspace, and tools, and bears the "
     "Contractor's own business expenses. Subject to Section 2.6, the Contractor is free to provide services "
     "to others and to operate the Contractor's own business and personal brand."))
@@ -650,7 +698,8 @@ story.append(P(
 story.append(P("10. Confidentiality", heading_style))
 story.append(P(
     "<b>10.1 Definition.</b> \"Confidential Information\" means all non-public information disclosed by or "
-    "on behalf of one Party to another in connection with this Agreement, including, in the case of the "
+    "on behalf of one Party to another, or otherwise learned, accessed, observed, generated, or derived "
+    "by a Party, in connection with this Agreement, including, in the case of the "
     "Company: credentials; business and strategic plans; sponsorship, advertising, and partnership "
     "relationships and terms; contractor and talent relationships and compensation terms; unpublished "
     "campaigns, episodes, and content; picks methodology and unpublished picks; subscriber and customer "
@@ -667,7 +716,24 @@ story.append(P(
     "reasonable care. A Party may disclose Confidential Information to the extent required by law or court "
     "order, with prompt notice to the disclosing Party where legally permitted. These obligations survive "
     "for three (3) years after this Agreement ends, except that obligations with respect to credentials, "
-    "subscriber data, and trade secrets survive for as long as the information remains protected."))
+    "subscriber data, and trade secrets survive (i) as to trade secrets, for so long as the information "
+    "remains a trade secret under applicable law, and (ii) as to credentials and subscriber data, for so "
+    "long as the Company maintains it as confidential, each limb applying independently. A Party may "
+    "also disclose Confidential Information to its attorneys, "
+    "accountants, and tax advisors who are bound by professional or written confidentiality "
+    "obligations."))
+story.append(P(
+    "<b>10.3 Immunity notice.</b> The following notice is required by 18 U.S.C. Section 1833(b) and is "
+    "quoted from that statute; it does not create or imply an employment relationship, and Section 9.1 "
+    "governs the Parties' relationship. Under 18 U.S.C. Section 1833(b), an individual is not held criminally "
+    "or civilly liable under any federal or state trade secret law for disclosure of a trade secret that "
+    "is made (i) in confidence to a federal, state, or local government official, either directly or "
+    "indirectly, or to an attorney, and solely for the purpose of reporting or investigating a suspected "
+    "violation of law, or (ii) in a complaint or other document filed under seal in a lawsuit or other "
+    "proceeding. An individual suing an employer for retaliation for reporting a suspected violation of "
+    "law may disclose the trade secret to the individual's attorney and use the trade secret information "
+    "in the court proceeding, if the individual files any document containing the trade secret under "
+    "seal and does not disclose the trade secret except pursuant to court order."))
 
 # ---------------------------------------------------------------- 11
 story.append(P("11. Indemnification; Limitation of Liability", heading_style))
@@ -681,12 +747,15 @@ story.append(P(
     "rights by content the Contractor creates, selects, reposts, edits, or publishes; (b) unlawful, "
     "defamatory, or knowingly false content posted by the Contractor; (c) the Contractor's violation of "
     "FTC endorsement or disclosure rules, gambling-related advertising laws, or platform policies, or any "
-    "misstatement of the Contractor's picks record; (d) any breach of the representations in Section 2.6; "
+    "misstatement of the Contractor's picks record; (d) any breach of the Contractor's representations in "
+    "Section 2.6, including those in the paragraph of Section 2.6 captioned \"No existing obligations\"; "
     "(e) the Contractor's breach of Section 2.9, or the Contractor's own wagering or gambling activity, "
     "including any claim relating to a Sponsored Gambling Stream conducted otherwise than in compliance "
     "with Section 2.9; (f) the acts, omissions, statements, or content of any Guest (Section 2.10), or the "
     "Contractor's failure to obtain a consent Section 2.10 requires, other than as to an unscreened live "
-    "caller or audience participant; (g) the Contractor's material breach of "
+    "caller or audience participant whose conduct the Contractor could not reasonably have anticipated "
+    "and could not have addressed more promptly, as provided in Section 2.10; (g) the Contractor's "
+    "material breach of "
     "this Agreement; or (h) the Contractor's negligence or willful misconduct. This Section does not apply "
     "to a claim arising from an Operator's licensure or lawfulness in a jurisdiction where the Company "
     "approved that Operator in writing and the Contractor conducted the stream in accordance with the "
@@ -696,32 +765,46 @@ story.append(P(
     "material deviation."))
 story.append(P(
     "<b>11.2 By the Company.</b> The Company will indemnify and hold harmless the Contractor from and "
-    "against third-party claims, and resulting losses, damages, and reasonable legal fees, to the extent "
-    "arising solely from materials provided by the Company or content posted at the Company's specific "
-    "written direction."))
+    "against third-party claims, and resulting losses, damages, judgments, settlements, and reasonable "
+    "legal fees and defense costs, to the extent arising from materials provided by the Company or "
+    "content posted at the Company's specific written direction and not materially altered by the "
+    "Contractor."))
 story.append(P(
-    "<b>11.3 Procedure.</b> The indemnified Party will give prompt notice of any claim, reasonable "
-    "cooperation, and control of the defense and settlement to the indemnifying Party; no settlement "
-    "imposing obligations on the indemnified Party may be made without its consent, not to be unreasonably "
-    "withheld."))
+    "<b>11.3 Procedure.</b> The indemnified Party will give the indemnifying Party prompt written notice of "
+    "any claim and reasonable cooperation; failure to give prompt notice relieves the indemnifying Party "
+    "only to the extent it is materially prejudiced. The indemnifying Party may assume control of the "
+    "defense and settlement on written acknowledgment of its indemnity obligation and with counsel "
+    "reasonably acceptable to the indemnified Party, and the indemnified Party may participate with its "
+    "own counsel at its own expense. If the indemnifying Party does not assume the defense within "
+    "fifteen (15) days, fails to defend diligently, or a conflict of interest exists, the indemnified "
+    "Party may assume the defense at the indemnifying Party's reasonable expense and settle the claim "
+    "with the indemnifying Party's prior written consent, not to be unreasonably withheld, conditioned "
+    "or delayed, without prejudice to indemnification. No settlement that imposes any obligation or "
+    "liability on the "
+    "indemnified Party, includes any admission of fault, or grants injunctive or other non-monetary "
+    "relief may be made without the indemnified Party's prior written consent."))
 story.append(P(
     "<b>11.4 Limitation of liability.</b> Except for the Company's payment obligations under Section 4 and "
-    "its indemnity under Section 11.2, and except for the Company Parties' own fraud, gross negligence, or "
+    "except for the Company Parties' own fraud, gross negligence, or "
     "willful misconduct, and except for any remedy available to the Contractor under the statutes "
     "referenced in Section 4.7, the Company Parties' aggregate "
-    "liability arising out of or relating to this Agreement "
-    "will not exceed the greater of (i) the total amounts paid and payable to the Contractor under this "
-    "Agreement in the twelve (12) months preceding the event giving rise to the claim and (ii) ten "
-    "thousand dollars ($10,000.00), and neither Company Party will be liable for indirect, incidental, "
-    "special, consequential, or exemplary damages or for lost profits or opportunities. This Section does "
-    "not limit the Contractor's obligations or liability under Section 8.5, Section 10, or Section 11.1, or "
+    "liability arising out of or relating to this Agreement, including under Section 11.2, "
+    "will not exceed ten thousand dollars ($10,000.00), and the Company Parties' aggregate obligation "
+    "under Section 11.2 is included within and subject to that amount. Neither Party will be liable to "
+    "the other for indirect, incidental, "
+    "special, consequential, or exemplary damages or for lost profits or opportunities, except for that "
+    "Party's own fraud, gross negligence, or willful misconduct and except for any remedy available to "
+    "the Contractor under the statutes referenced in Section 4.7. This Section does "
+    "not limit the Contractor's obligations or liability under Section 2.9(j), Section 8.5, Section 10, "
+    "Section 11.1, or the payment obligation in Section 12.4, or "
     "the Contractor's liability for fraud, willful misconduct, or misappropriation of any Company Account, "
-    "the Brand, or the Platform. Notwithstanding the foregoing, the Contractor's aggregate liability for "
-    "indemnified claims arising solely from the Contractor's ordinary negligence &mdash; and not from the "
-    "Contractor's fraud, gross negligence, or knowing, intentional, or willful conduct, or a breach of Section 2.9, Section 8.3, or "
-    "Section 10 &mdash; will not exceed the greater of (i) the total amounts paid and payable to the "
-    "Contractor under this Agreement in the twelve (12) months preceding the claim and (ii) twenty-five "
-    "thousand dollars ($25,000.00)."))
+    "the Brand, or the Platform. Notwithstanding the foregoing, the Contractor's aggregate liability "
+    "arising out of or relating to this Agreement, including indemnified claims, to the extent arising "
+    "solely from the Contractor's ordinary negligence &mdash; and not from the Contractor's fraud, gross "
+    "negligence, or knowing, intentional, or reckless conduct, or any knowing or reckless breach of "
+    "Section 2.9, Section 8.3, or Section 10 &mdash; will not exceed the greater of (i) the total amounts "
+    "paid and payable to the Contractor under this Agreement in the twelve (12) months preceding the "
+    "event giving rise to the claim and (ii) twenty-five thousand dollars ($25,000.00)."))
 
 # ---------------------------------------------------------------- 12
 story.append(P("12. Termination", heading_style))
@@ -735,25 +818,32 @@ story.append(P(
 story.append(P(
     "<b>12.3 Effect of termination.</b> Upon termination: (a) the Company will pay the Contractor's share "
     "of Shared Revenue on amounts received through the termination date and during the Tail Period, on the "
-    "normal schedule; Section 5 applies only to Monthly Deliverables for months ending on or before the "
-    "termination date, and no reduction is made under Section 5 for any period after the termination date; "
+    "normal schedule; Section 5 applies to Monthly Deliverables for months ending on or before the "
+    "termination date and, as to the calendar month in which the termination date falls, to the portion "
+    "of that month through the termination date, with the podcast deliverable in Section 2.1(a) prorated "
+    "to two (2) episodes for each full seven-day period elapsed in that month through the termination "
+    "date, and with any withholding under Section 5.2(a) applied only to the portion of that month's "
+    "Podcast Revenue share attributable to episodes published in that month through the termination "
+    "date; no reduction is made under Section 5 for any period after the termination date; "
     "(b) the Contractor will comply with Section 8.6; and "
     "(c) Section 6.2 governs use of the Contractor's Likeness. If the Company terminates following a "
     "Shortfall Notice or for the Contractor's material breach, the Company retains all other rights and "
-    "remedies available under this Agreement and applicable law."))
+    "remedies available under this Agreement and applicable law, subject in each case to the exclusive "
+    "remedies stated in Sections 5.1, 8.5 and 12.4."))
 story.append(P(
     "<b>12.4 Tail Period.</b> The \"Tail Period\" is the sixty (60) days following the termination date. "
     "Shared Revenue received during the Tail Period from Brand Deals contracted before the termination "
     "date, and Podcast Revenue received during the Tail Period that is attributable to episodes published "
     "before the termination date, is shared under Section 4.1. No share is owed on Brand Deals contracted "
     "after the termination date, on episodes published after the termination date, or on revenue received "
-    "after the Tail Period."))
+    "after the Tail Period, other than amounts treated as Shared Revenue under Section 2.9(j)."))
 story.append(P(
     "<b>Unreferred opportunities.</b> If a Nosebleed Opportunity was actually offered to or received by "
     "the Contractor during the Term, the Contractor did not refer it to the Company as Section 4.2 "
     "requires, and the Contractor enters into it during the Tail Period, the Contractor will pay the "
-    "Company the amount the Company would have retained under Section 4.1 had that opportunity been "
-    "referred and contracted through a Company Party. The Company bears the burden of showing that the "
+    "Company an amount equal to fifty percent (50%) of the gross consideration the Contractor actually "
+    "receives under that opportunity, without deduction, within thirty (30) days of each receipt. The "
+    "Company bears the burden of showing that the "
     "opportunity was offered to or received by the Contractor during the Term. This paragraph does not "
     "apply to an opportunity that first arises after the termination date, including a new opportunity "
     "from a counterparty the Contractor dealt with during the Term, and does not apply to an opportunity "
@@ -767,10 +857,15 @@ story.append(P(
     "transferring drafts, recorded but unpublished episodes, scheduled content, picks records, Company "
     "files, and outstanding campaign information; answering reasonable questions; and confirming account "
     "settings. This does not require continued content creation, podcasting, or handicapping after "
-    "termination."))
+    "termination. The Contractor's obligations under this Section are included in, and fully compensated "
+    "by, the consideration payable under Section 4."))
 story.append(P(
-    "<b>12.6 Survival.</b> Sections 4.1 and 4.3 (in each case as to Shared Revenue received through the end "
-    "of the Tail Period), 4.4 through 4.7, 5 (as to months ending on or before the termination date), 6, 7, "
+    "<b>12.6 Survival.</b> Sections 2.9(j), 2.10 (as to Guest appearances during the Term), 4.1 and 4.3 "
+    "(in each case as to Shared Revenue received through the end of the Tail Period and as to any amount "
+    "treated as Shared Revenue under Section 2.9(j), whenever received), 4.4 (for two (2) years after "
+    "the end of the Tail Period), 4.5 through 4.7, "
+    "5 (as to months ending on or before the termination date and the portion of the termination month "
+    "through the termination date), 6, 7, "
     "8.1, 8.2, 8.3, 8.5, 8.6, 9.1, 10, 11, 12.3 through 12.6, and 13 survive termination."))
 
 # ---------------------------------------------------------------- 13
@@ -786,7 +881,7 @@ story.append(P(
     "refuses to mediate), any Party may bring the dispute exclusively in the state or federal courts "
     "located in the State of New York, and each Party consents to the personal jurisdiction and venue of "
     "those courts. Nothing in this Section prevents any Party from seeking urgent injunctive relief in "
-    "those courts at any time (including under Sections 6, 7, and 8)."))
+    "those courts at any time (including under Sections 6, 7, 8 and 10)."))
 story.append(P(
     "<b>13.3 Entire agreement; amendments.</b> This Agreement (including Exhibit A) is the entire agreement "
     "among the Parties regarding its subject matter and supersedes all prior discussions, proposals, and "
@@ -798,8 +893,12 @@ story.append(P(
     "consent to the other Company Party, to an affiliate, or to a successor in connection with a merger, "
     "acquisition, or sale of all or substantially all of its assets."))
 story.append(P(
-    "<b>13.5 Notices.</b> Notices may be given by email to the addresses the Parties customarily use to "
-    "communicate with each other, and are effective when sent absent a bounce or error message."))
+    "<b>13.5 Notices.</b> Notices are given in writing by email to the addresses stated on Exhibit A, or to "
+    "any address a Party designates by notice given under this Section, and are effective when sent "
+    "absent a bounce or error message. A notice under Section 8.5, 12.1 or 12.2 must be sent to the "
+    "email address for the recipient stated on Exhibit A. As a courtesy the sender will also copy any "
+    "other email address the recipient has used to communicate with the sender in the preceding sixty "
+    "(60) days; failure to send a courtesy copy does not affect the effectiveness of the notice."))
 story.append(P(
     "<b>13.6 Severability; waiver.</b> If any provision of this Agreement is held unenforceable, it will be "
     "modified to the minimum extent necessary to make it enforceable, and the remainder will remain in "
@@ -860,6 +959,7 @@ rows = [
     ["Contractor mailing address", CONTRACTOR_ADDRESS],
     ["Contractor phone", CONTRACTOR_PHONE],
     ["Contractor email", CONTRACTOR_EMAIL],
+    ["Company notice email (JGN Media LLC and Nosebleed Sports LLC)", COMPANY_NOTICE_EMAIL],
     ["Managed Accounts (Section 2.1(a))", MANAGED_ACCOUNTS],
     ["Minimum podcast volume", PODCAST_MINIMUM],
     ["Revenue share", REV_SHARE_SUMMARY],

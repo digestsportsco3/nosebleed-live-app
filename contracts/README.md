@@ -521,6 +521,28 @@ exposure, which drafting cannot fix.
     stated figure for accounts that have no follower count. Every fix pinned by a new verifier
     assertion, including negative assertions that fail if the old language returns.
 
+27. Podcast agreement round 4, run specifically to find what round 3 broke — every prior round's
+    fixes had introduced new defects, including one that destroyed the company's own liability cap.
+    It found six more blockers, four of them created by round 3 itself: the mutual
+    consequential-damages waiver barred the only remedy for a concealed opportunity (a lost profit
+    by definition); the survival list still named no part of Section 2, contradicting the
+    remittance-survives sentence round 3 had just added, and would have made the contractor remit
+    late operator money in full with nothing owed back; notices were routed to a company address
+    that did not exist on the exhibit, and the courtesy copy was drafted as a condition of the
+    company's own liquidated-damages notice, so one missed address would stop the clock; and the
+    proportionate safe harbour left a gap where an account restored in six days but losing 3% of
+    its followers recovered nothing at all, because the trigger failed, the safe harbour failed,
+    and the sole-remedy sentence barred actual damages. Also fixed: measuring the damages tier at
+    the notice date let the company wait for an account to cross a tier, which is the classic
+    penalty signature, so it now measures the day before the breach.
+
+    **Liability cap settled at a flat $10,000 on the owner's instruction** ("no risk higher than
+    10,000"), and the company's indemnity brought inside it. The literal "lesser of twelve months
+    or $10,000" he asked for was not used: it reads $0 before the first payment, and a zero cap on
+    an unrepresented individual is what gets the clause struck, leaving the company uncapped —
+    the opposite of the instruction. Gross negligence stays carved out because New York will not
+    enforce an exculpatory clause against it, and pretending otherwise risks the whole section.
+
 25. Podcast agreement final pass before issue: numbering, 29 cross-references, 30 defined terms,
     drafting-defect scan and all 14 pages read. Widow lines disabled on body text; the indemnity
     added to the obligations that stay personal if the contractor performs through an entity.
