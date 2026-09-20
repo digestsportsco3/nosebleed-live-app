@@ -521,6 +521,28 @@ exposure, which drafting cannot fix.
     stated figure for accounts that have no follower count. Every fix pinned by a new verifier
     assertion, including negative assertions that fail if the old language returns.
 
+29. **Closure audit — the real process defect.** Every round fixed all blockers and the serious
+    findings judged important; the rest were dropped with nothing tracking them. Each time the owner
+    asked a probing question, another unapplied finding from round 1 surfaced and looked like a new
+    discovery. Ten were still open at this point, two of them business-significant: a declined
+    opportunity gave permanent unbounded consent, so one unanswered email could hand a competitor a
+    standing ambassadorship; and category exclusivity barred only *paid* picks services, so the
+    contractor could publish his full card free on his own channels, collapse the Premium Offering,
+    and bear none of the loss because Premium revenue is not shared. Both closed, along with the
+    classification items (picks requests capped at five a week with a right to decline, individual
+    live streams declinable subject to an 80% monthly floor, the "Title" line removed from the
+    contractor's signature block) and the remaining drafting defects.
+
+    **The fix is the audit itself:** all 49 findings raised across five rounds are now enumerated
+    with a proof string and checked against the built document, so closure is verified rather than
+    remembered. Run that sweep before calling any agreement done.
+
+    **On misclassification:** no label avoids it. The IRS and NYS DOL disregard what the parties call
+    the relationship; *Bynog v. Cipriani Group*, 1 N.Y.3d 193, looks at control. Pure contingent
+    revenue share with no floor is itself a strong contractor indicator (real risk of profit and
+    loss). What decides an audit is operational: never set hours, honour the decline rights, 1099-NEC
+    only, no company email or org chart, no company-purchased equipment.
+
 28. Podcast agreement round 5 — the first round with **zero blockers**, and the clearance to sign.
     It confirmed all 25 of round 4's fixes landed correctly and that no route lets the company's
     liability exceed $10,000 other than paying the contractor his share, the company's own fraud or

@@ -138,10 +138,15 @@ story.append(B("<bullet>(a)</bullet><b>Podcast.</b> Produce and appear on at lea
 story.append(B("<bullet>(b)</bullet><b>Live streams.</b> Join the Company's live streams on Discord, "
                "YouTube, TikTok, Instagram, X, or any other platform or destination the Company uses or "
                "designates from time to time, as reasonably scheduled by the Company with reasonable "
-               "advance notice."))
+               "advance notice. The Contractor may decline any individual live stream without the "
+               "declined stream being a shortfall under Section 5, provided the Contractor joins at "
+               "least eighty percent (80%) of the streams scheduled in a calendar month."))
 story.append(B("<bullet>(c)</bullet><b>Handicapping on call.</b> When the Company requests, deliver picks "
                "with accompanying research write-ups, in the Company's system and format and on the "
-               "Company's delivery schedule, for use in the Premium Offering, subject to Section 2.5."))
+               "Company's delivery schedule, for use in the Premium Offering, subject to Section 2.5. "
+               "The Company will not request more than five (5) pick sets in any calendar week and will "
+               "give at least twenty-four (24) hours' notice; the Contractor may decline any individual "
+               "request without the declined request being a shortfall under Section 5."))
 story.append(B("<bullet>(d)</bullet><b>Sponsored gambling streams.</b> Host live streams featuring casino "
                "or sportsbook operators on Discord or any other platform the Company designates, in each "
                "case only under a Brand Deal approved and contracted under Section 4.2 and subject to "
@@ -201,9 +206,12 @@ story.append(P(
 story.append(P(
     "<b>2.6 Category exclusivity; no other restriction on the Contractor.</b> During the Term, the "
     "Contractor will not, without the Company's prior written consent: (a) sell, publish, or provide "
-    "handicapping picks or analysis through any paid picks service other than the Premium Offering; or "
+    "handicapping picks or analysis through any paid picks service other than the Premium Offering; "
     "(b) serve as on-camera talent, podcast host, ambassador, or spokesperson for any other sports media, "
-    "picks, or sports betting brand."))
+    "picks, or sports betting brand; or (c) publish, post, or distribute handicapping picks, betting "
+    "selections, or wagering analysis for any game or event on any account or destination that is not a "
+    "Company Account, other than (i) promotional excerpts the Company approves in writing and "
+    "(ii) picks published after the same picks have been released to Premium Offering subscribers."))
 story.append(P(
     "Apart from clauses (a) and (b) above, the referral obligation for Nosebleed Opportunities in "
     "Section 4.2, the bio requirement in Section 2.1(f), and the conduct and content rules in Sections "
@@ -454,7 +462,13 @@ story.append(P(
     "from it; it is not a Brand Deal and generates no Shared Revenue. For the avoidance of doubt, the "
     "Company's consent under Section 2.6 is deemed given for, and Sections 2.6(a), 2.6(b), 2.9(a), 2.9(b) "
     "and 2.9(j) do not apply to, an opportunity the Company has declined or has not responded to within "
-    "that period, and the Contractor keeps all amounts from it, provided the Contractor performs it off "
+    "that period, and the Contractor keeps all amounts from it, provided that (i) the deemed consent "
+    "extends only to the specific opportunity as described in the Contractor's referral, and not to any "
+    "extension, renewal, expansion, or successor arrangement; (ii) the deemed consent lapses if the "
+    "Contractor has not entered into the opportunity within ninety (90) days; (iii) no consent is deemed "
+    "given under Section 2.6(b) where the Company's written response states that it declined because the "
+    "counterparty competes or conflicts with an existing or actively negotiated Company Brand Deal, in "
+    "which case Section 2.6(b) continues to apply; and (iv) the Contractor performs it off "
     "the Company Accounts, without use of the Brand, the Platform, or any Company credential or Company "
     "property, and in compliance with Sections 2.4 and 2.5 and, as if the opportunity were a Sponsored "
     "Gambling Stream, Sections 2.9(c) through (i). The Contractor has no "
@@ -583,8 +597,11 @@ story.append(P(
     "Company Party as such. The Contractor will execute any documents reasonably requested by the Company "
     "to confirm the foregoing. Work Product does not include content the Contractor creates and publishes "
     "on the Contractor's own accounts that is not a Monthly Deliverable, is not created at the Company's "
-    "request or direction, and does not incorporate Company Confidential Information; identifying the "
-    "Brand in the Contractor's bios under Section 2.1(f) does not make such content Work Product."))
+    "request or direction, and does not incorporate Confidential Information (Section 10.1) of either "
+    "Company Party; identifying the "
+    "Brand in the Contractor's bios under Section 2.1(f) does not make such content Work Product. This "
+    "exclusion does not apply to content that reproduces, excerpts, or is derived from Work Product, or "
+    "to picks or analysis prepared for or delivered to the Premium Offering."))
 story.append(P(
     "<b>7.2 Background materials.</b> The Contractor retains ownership of pre-existing know-how, skills, "
     "general experience, and handicapping methods of general applicability developed outside of and not "
@@ -711,7 +728,9 @@ story.append(P(
     "perform this Agreement through a limited liability company or other entity wholly owned by the "
     "Contractor, in which case the Company will pay the revenue share to that entity, the entity will be "
     "bound by this Agreement, and the Contractor will remain personally bound by Sections 2.4 through 2.10, "
-    "6, 7, 8, 10, and 11 and will personally perform the Services. Nothing in this Agreement requires the "
+    "6, 7, 8, 10, and 11 and will personally perform the Services, provided that the entity first "
+    "executes a joinder to this Agreement in the form the Company provides and the Contractor executes "
+    "a personal guaranty of the entity's obligations. Nothing in this Agreement requires the "
     "Contractor to form any entity."))
 story.append(P(
     "<b>9.4 No authority to bind.</b> Neither Party may bind the other except as expressly set out in this "
@@ -769,8 +788,9 @@ story.append(P(
     "against third-party claims, demands, proceedings, and investigations, and resulting losses, damages, "
     "judgments, settlements, and reasonable legal fees and defense costs, to the extent arising from: "
     "(a) infringement or misappropriation of any third party's copyright (including in broadcasts, game "
-    "footage, photographs, graphics, or music), trademark, publicity, likeness, privacy, or NIL-related "
-    "rights by content the Contractor creates, selects, reposts, edits, or publishes; (b) unlawful, "
+    "footage, photographs, graphics, or music), trademark, publicity, likeness, privacy, or name, image, "
+    "and likeness (NIL) rights by content the Contractor creates, selects, reposts, edits, or publishes; "
+    "(b) unlawful, "
     "defamatory, or knowingly false content posted by the Contractor; (c) the Contractor's violation of "
     "FTC endorsement or disclosure rules, gambling-related advertising laws, or platform policies, or any "
     "misstatement of the Contractor's picks record; (d) any breach of the Contractor's representations in "
@@ -843,7 +863,8 @@ story.append(P(
     "(14) days' written notice."))
 story.append(P(
     "<b>12.3 Effect of termination.</b> Upon termination: (a) the Company will pay the Contractor's share "
-    "of Shared Revenue on amounts received through the termination date and during the Tail Period, on the "
+    "of Shared Revenue on amounts received through the termination date and during the Tail Period (as "
+    "defined in Section 12.4), subject to Section 12.4, on the "
     "normal schedule; Section 5 applies to Monthly Deliverables for months ending on or before the "
     "termination date and, as to the calendar month in which the termination date falls, to the portion "
     "of that month through the termination date, with the podcast deliverable in Section 2.1(a) prorated "
@@ -961,12 +982,13 @@ def sigblock(compact=False):
                 Paragraph("Signature: _________________", sig_style), Spacer(1, 10),
                 Paragraph("Name: %s" % name, sig_style)]
         if not compact:
-            rows += [Spacer(1, 10), Paragraph("Title: %s" % title, sig_style), Spacer(1, 10),
-                     Paragraph("Date: ___________________", sig_style)]
+            if title:
+                rows += [Spacer(1, 10), Paragraph("Title: %s" % title, sig_style)]
+            rows += [Spacer(1, 10), Paragraph("Date: ___________________", sig_style)]
         return rows
     cols = [col("JGN MEDIA LLC", "Nicholas Restivo", "Chief Executive Officer"),
             col("NOSEBLEED SPORTS LLC", "Nicholas Restivo", "Chief Executive Officer"),
-            col("CONTRACTOR", CONTRACTOR_NAME, "Independent Contractor")]
+            col("CONTRACTOR", CONTRACTOR_NAME, None)]
     n = max(len(c) for c in cols)
     rows = [[c[i] if i < len(c) else "" for c in cols] for i in range(n)]
     t = Table(rows, colWidths=[2.15 * inch] * 3)
