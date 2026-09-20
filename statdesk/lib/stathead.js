@@ -75,7 +75,7 @@ class Stathead {
       break;
     }
     const text = await res.text().catch(() => "");
-    return { status: res.status, url: current, text, trail };
+    return { status: res.status, ok: res.status >= 200 && res.status < 300, url: current, text, trail };
   }
 
   // True when the jar carries a working subscription session.
@@ -146,7 +146,7 @@ class Stathead {
     if (res.status === 403 || /cf-browser-verification|Just a moment/i.test(html.slice(0, 2000))) {
       throw new Error(`Blocked by Cloudflare on ${url}. Stop and run this query in Nick's browser instead; do not retry in a loop.`);
     }
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url} (hops: ${res.trail.join(" -> ")})`);
     if (/log ?in|subscribe/i.test(html) && !/data-stat=/.test(html)) {
       this.loggedIn = false;
       throw new Error(`Stathead returned a login/paywall page for ${url}. The session expired. Nothing was read.`);
