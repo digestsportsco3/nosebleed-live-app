@@ -289,7 +289,16 @@ story.append(B("<bullet>(h)</bullet>not wager funds of either Company Party, and
                "Brand Deal;"))
 story.append(B("<bullet>(i)</bullet>remain solely responsible for the Contractor's own personal wagering, "
                "for any losses the Contractor incurs, and for all taxes on the Contractor's own winnings, "
-               "none of which is an expense, obligation, or liability of either Company Party; and"))
+               "none of which is an expense, obligation, or liability of either Company Party;"))
+story.append(B("<bullet>(k)</bullet>not enter into, and not accept payment under, any revenue-share, "
+               "cost-per-acquisition, or other affiliate arrangement with an Operator unless the "
+               "Contractor and the arrangement are registered or licensed as required in each "
+               "jurisdiction the arrangement targets, and provide evidence of that registration to the "
+               "Company on request; and"))
+story.append(B("<bullet>(l)</bullet>not place, and not direct any person to place, any wager contrary to "
+               "a pick the Contractor has published on a Company Account or delivered for the Premium "
+               "Offering, and not wager on any event before the Contractor's pick on that event has been "
+               "released to Premium Offering subscribers."))
 story.append(B("<bullet>(j)</bullet>remit to the Company, within ten (10) days of receipt, any cash, "
                "affiliate commission, or other monetary consideration an Operator pays directly to the "
                "Contractor in connection with a Sponsored Gambling Stream or the Brand, which will be "
@@ -506,11 +515,13 @@ story.append(P(
 story.append(P(
     "<b>5.2 Shortfall.</b> If the Contractor fails to substantially perform the Monthly Deliverables in any "
     "month, the Company may, on written notice identifying the shortfall (a \"Shortfall Notice\") and in "
-    "its reasonable discretion: (a) withhold the Contractor's share of Podcast Revenue for a month in which "
-    "the Contractor did not substantially perform the podcast deliverable in Section 2.1(a), in proportion "
-    "to the number of required episodes the Contractor did not produce or appear on; (b) decline to "
+    "its reasonable discretion: (a) treat the Contractor's share of Podcast Revenue for a month in which the "
+    "Contractor did not substantially perform the podcast deliverable in Section 2.1(a) as accruing, and "
+    "becoming earned compensation, only in the proportion that the episodes the Contractor produced and "
+    "appeared on bears to the episodes required for that month; any portion that does not so accrue is "
+    "not earned compensation and is not withheld; (b) decline to "
     "schedule the Contractor for live streams, Sponsored Gambling Streams, or handicapping assignments; "
-    "and/or (c) terminate this Agreement under Section 12.1. Withholding under clause (a) applies only to "
+    "and/or (c) terminate this Agreement under Section 12.1. Clause (a) applies only to "
     "a shortfall in the podcast deliverable in Section 2.1(a). Shortfalls include missed or late episodes, "
     "missed scheduled live streams (other than a live stream the Contractor declines under Section 9.2), "
     "missed or late picks deliveries after a request under Section 2.1(c), "
@@ -837,7 +848,7 @@ story.append(P(
     "termination date and, as to the calendar month in which the termination date falls, to the portion "
     "of that month through the termination date, with the podcast deliverable in Section 2.1(a) prorated "
     "to two (2) episodes for each full seven-day period elapsed in that month through the termination "
-    "date, and with any withholding under Section 5.2(a) applied only to the portion of that month's "
+    "date, and with any reduction under Section 5.2(a) applied only to the portion of that month's "
     "Podcast Revenue share attributable to episodes published in that month through the termination "
     "date; no reduction is made under Section 5 for any period after the termination date; "
     "(b) the Contractor will comply with Section 8.6; and "
