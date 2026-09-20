@@ -76,3 +76,49 @@ the brief is already waiting.
 - `Blocked by Cloudflare` → Sports Reference refused a datacenter IP. Run that
   query locally instead; do not retry in a loop.
 - `403 CONNECT tunnel` → a domain is missing from step 5.
+
+---
+
+# The simpler path: run it on GitHub, not in the chat sandbox
+
+Everything above needs a settings dialog in claude.ai that proved hard to find,
+and it stores the Stathead password as an environment variable visible to
+anyone using that environment. There is a better route, and it is now the
+recommended one.
+
+`.github/workflows/statdesk.yml` runs the whole pipeline on a GitHub runner.
+Runners have plain internet access, so nothing is blocked, and GitHub Secrets
+are encrypted rather than displayed in a settings box. The run commits the
+brief straight back to this repo, so any Claude session on any device reads it
+with a git pull. Nick asks in chat, Claude dispatches the workflow and reports
+back.
+
+## Setup: two secrets, one page
+
+1. Open:
+   https://github.com/digestsportsco3/nosebleed-live-app/settings/secrets/actions
+2. **New repository secret**. Name `STATHEAD_USER`, value the Stathead login
+   email. Add.
+3. **New repository secret** again. Name `STATHEAD_PASS`, value the password.
+   Add.
+
+That is all. Secrets are write-only once saved; nobody, Claude included, can
+read them back. If the secrets are absent the MLB half still runs and the
+Stathead half reports exactly why it stopped.
+
+## Running it
+
+- In chat: "run stat desk" or "give me today's 10". Claude dispatches the
+  workflow, waits, pulls, and posts the list.
+- By hand: the repo's Actions tab, "Stat Desk", **Run workflow**. Optional
+  inputs are a date and whether to include the Stathead queries.
+- The run summary on the Actions page prints the brief inline, so it is
+  readable from a phone without opening the repo.
+
+## Deliberately on demand only
+
+The workflow has no `schedule:` trigger. It runs when a person or Claude asks,
+never on its own. Turning it into a 7am daily job is a two-line addition
+documented at the top of the workflow file, and it requires merging to the
+default branch, because GitHub only runs cron from there. That is a decision
+for Nick to make on purpose, not something to switch on quietly.
