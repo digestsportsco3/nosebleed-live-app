@@ -151,10 +151,15 @@ class Stathead {
       this.loggedIn = false;
       throw new Error(`Stathead returned a login/paywall page for ${url}. The session expired. Nothing was read.`);
     }
-    const { headers, rows, capped } = parseTable(html);
+    const { headers, rows, capped, reported } = parseTable(html);
     this.n += 1;
     const id = `Q${String(this.n).padStart(3, "0")}`;
-    const rec = { id, ts: new Date().toISOString(), url, label, headers, rows, rowCount: rows.length, capped, note };
+    // Keep the raw page whenever the parse looks wrong, so a failure can be
+    // diagnosed from the artifact instead of guessed at across runs.
+    if (this.dir && rows.length < 2) {
+      try { fs.writeFileSync(path.join(this.dir, `${id}.raw.html`), html); } catch (e) { /* diagnostics only */ }
+    }
+    const rec = { id, ts: new Date().toISOString(), url, label, headers, rows, rowCount: rows.length, capped, reported, note };
     if (this.dir) this.save(rec);
     return rec;
   }
