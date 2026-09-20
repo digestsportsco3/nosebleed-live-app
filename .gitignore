@@ -14,3 +14,9 @@ data/snapshots.json
 # Contract records: never commit operator PII to this public repo
 contracts/private/
 contracts/**/*.pdf
+# Private working tools: these must reference real names and per-operator
+# generators to do their job, so they live beside the generators, not in here.
+contracts/**/scrub_templates.py
+contracts/**/build_all.py
+contracts/**/make_*.py
+contracts/**/verify_*.py

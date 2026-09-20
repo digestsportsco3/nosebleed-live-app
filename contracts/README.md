@@ -504,6 +504,23 @@ exposure, which drafting cannot fix.
     (replaces prior binder doc 62). All verifiers pass in both modes.
 17. Talent agreement §5.6 aligned with the adopted LLC Agreement (Class B units and the milestone
     reserve exist; 120-day adoption window kept only as a backstop; joinder = the LLC Agreement's form).
+26. Podcast agreement rounds 2 and 3 of independent adversarial review, after the first "sign-ready"
+    call was wrong. Round 2 found seven blockers, all verified against the built PDF before fixing:
+    two different cure windows in the liquidated-damages clause (seven days in the trigger, 48 hours
+    in the tail); a limitation of liability that carved out "either Party's" gross negligence inside
+    a sentence capping only the Company, so the contractor's own negligence destroyed the company's
+    cap; an aggregate liquidated-damages cap set below the top per-account tier, making that tier
+    dead letter; a survival clause that dropped the account-security duties the liquidated-damages
+    clause exists to enforce; an unranked sole-remedy clause; and a declined-opportunity carve-out
+    that still required compliance with the very sections it disapplied. Twelve lesser findings
+    fixed in the same pass, including force majeure that could excuse *paying* the contractor, an
+    unquantified withholding right, work-product language reaching into personal accounts the
+    agreement had just carved out, an allocation dispute with no tiebreaker (so the amount owed was
+    indeterminate), and strict liability for unscreened live callers who cannot sign a release.
+    **Aggregate liquidated-damages cap raised $25,000 → $100,000** on the owner's delegation, with a
+    stated figure for accounts that have no follower count. Every fix pinned by a new verifier
+    assertion, including negative assertions that fail if the old language returns.
+
 25. Podcast agreement final pass before issue: numbering, 29 cross-references, 30 defined terms,
     drafting-defect scan and all 14 pages read. Widow lines disabled on body text; the indemnity
     added to the obligations that stay personal if the contractor performs through an entity.

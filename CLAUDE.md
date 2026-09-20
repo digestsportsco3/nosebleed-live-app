@@ -25,8 +25,16 @@ Never commit operator personally identifiable information to this repo:
 - the names of operators, contractors, founders and former participants: the public
   copies use placeholders, and `contracts/README.md` describes people by role or X
   handle. Only JGN's own CEO name is committed, because it appears on every executed
-  contract. `contracts/templates/../scrub_templates.py` enforces this and fails the
-  copy if a real name survives.
+  contract. `scrub_templates.py` enforces this and fails the copy if a real name
+  survives.
+
+**The private working tools are never committed.** `scrub_templates.py`, `build_all.py`,
+the `make_*.py` generators and the `verify_*.py` checkers all have to reference real
+names and per-operator scripts to do their job, so they live beside the generators in
+the working session, outside this repository. `.gitignore` blocks them. Only the
+scrubbed `nosebleed-*.py` / `jgn-*.py` templates and the generic `qa_pdf.py` belong
+here. This rule exists because all four were committed once, which put ten real names,
+the EIN and a personal email address into a public repo.
 
 `contracts/README.md` is keyed by **X handle only**, deliberately. Full contact
 records are kept privately by Nicholas Restivo outside this repository.
@@ -41,8 +49,8 @@ Every generated PDF must pass `contracts/templates/qa_pdf.py` (text outside the 
 overlapping text, wrapped signature lines, clipped words, near-empty pages) AND the
 signature pages, exhibits and every table must be rendered to PNG and looked at before the
 file is sent. In the working session the single entry point is `build_all.py` (kept beside the
-generators): it runs the content verifiers, rebuilds the default set, checks for leftover
-placeholders, runs the visual QA and only then zips. If it fails, nothing is sent. Table cells
+generators, outside this repo): it runs the content verifiers, rebuilds the default set, checks
+for leftover placeholders, runs the visual QA and only then zips. If it fails, nothing is sent. Table cells
 must always be Paragraphs (never bare strings) so long values wrap instead of overflowing, and
 signature lines must be sized to their column. A test-run of a public template must never write
 into the working directory: generator output paths are relative to the generator's own folder.
