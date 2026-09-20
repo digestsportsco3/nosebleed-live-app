@@ -10,3 +10,7 @@ pnpm-debug.log*
 Thumbs.db
 data/grades.json
 data/snapshots.json
+
+# Raw Stathead/Baseball Reference pages are captured only to diagnose a broken
+# parse. They are their content, not ours: never commit or republish them.
+statdesk/data/browser/**/*.raw.html
