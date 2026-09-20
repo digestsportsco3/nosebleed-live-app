@@ -49,3 +49,12 @@
 2026-09-15T20:11:00-04:00	Q019	baseball-reference	player page crowape01	career batting row, 4 Yrs	rows=1	milestone Crow-Armstrong 398 H
 2026-09-15T20:13:00-04:00	Q020	baseball-reference	player page adelljo01	career batting row, 7 Yrs	rows=1	milestone Adell 96 HR (API says 97)
 2026-09-15T20:16:00-04:00	Q021	stathead	batting-season-finder	2026 HR>=30 SB>=25	rows=2	follow-up 40-40 watch PCA 42/37
+2026-09-20T16:18:34.210Z	Q001	stathead	Discovery [hr_low_avg] power with no average	rows=1
+2026-09-20T16:18:38.125Z	Q002	stathead	Discovery [avg_no_walks] high average, no walks	rows=1
+2026-09-20T16:18:42.307Z	Q003	stathead	Discovery [sb_low_obp] steals without getting on	rows=1
+2026-09-20T16:19:14.320Z	Q004	stathead	Discovery [rbi_low_ops] RBI on a bad bat	rows=1
+2026-09-20T16:19:17.612Z	Q005	stathead	Discovery [hits_few_runs] hits without runs	rows=1
+2026-09-20T16:19:22.249Z	Q006	stathead	Discovery [young_power] power at 22 or under	rows=1
+2026-09-20T16:19:54.186Z	Q007	stathead	Discovery [old_arm] elite arm at 37 or older	rows=1
+2026-09-20T16:20:54.339Z	Q008	stathead	Discovery [hr_no_doubles] homers but no doubles	rows=1
+2026-09-20T16:20:58.556Z	Q009	stathead	Discovery [workhorse_low_k] innings without strikeouts	rows=11
