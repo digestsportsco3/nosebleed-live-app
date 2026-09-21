@@ -68,66 +68,12 @@ jobs:
         with:
           node-version: "22"
 
+      # One Node call, no shell dependency. Windows runners have no bash on
+      # PATH and default to PowerShell; Ubuntu defaults to bash. Node is on
+      # both, so the whole job lives in statdesk/ci.js.
       - name: Run Stat Desk
-        id: run
-        shell: bash
         env:
           RUN_DATE: ${{ inputs.date }}
           WANT_STATHEAD: ${{ inputs.stathead }}
-          # Where the signed-in Chrome profile lives on the self-hosted machine.
-          # Set here rather than as a machine environment variable so no
-          # administrator rights are needed to set this up.
           STATHEAD_PROFILE: ${{ inputs.runner == 'github' && '' || 'C:\statdesk-chrome' }}
-        run: |
-          set +e
-          ARGS=""
-          if [ -n "$RUN_DATE" ]; then ARGS="$ARGS --date $RUN_DATE"; fi
-          if [ "$WANT_STATHEAD" != "false" ]; then ARGS="$ARGS --stathead"; fi
-          echo "running: node statdesk/run.js $ARGS"
-          node statdesk/run.js $ARGS 2>&1 | tee /tmp/statdesk.log
-          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
-
-      - name: Commit whatever the run produced
-        shell: bash
-        env:
-          RUN_DATE: ${{ inputs.date }}
-        run: |
-          git config user.name "statdesk-bot"
-          git config user.email "noreply@anthropic.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "Nothing to commit."
-            exit 0
-          fi
-          D="$RUN_DATE"
-          [ -n "$D" ] || D="$(TZ=America/New_York date +%F)"
-          git commit -m "Stat Desk $D: run from GitHub Actions"
-          for i in 1 2 3; do
-            git pull --rebase origin "${{ github.ref_name }}" \
-              && git push origin "HEAD:${{ github.ref_name }}" && exit 0
-            sleep $((i * 5))
-          done
-          echo "Could not push after 3 attempts." >&2
-          exit 1
-
-      - name: Report
-        if: always()
-        shell: bash
-        env:
-          RUN_DATE: ${{ inputs.date }}
-        run: |
-          D="$RUN_DATE"
-          [ -n "$D" ] || D="$(TZ=America/New_York date +%F)"
-          {
-            echo "## Stat Desk — $D"
-            for f in "statdesk/briefs/$D-statdesk.md" "statdesk/briefs/$D-fresh10.md"; do
-              if [ -f "$f" ]; then echo; cat "$f"; fi
-            done
-            if [ "${{ steps.run.outputs.code }}" != "0" ]; then
-              echo
-              echo "Run exited ${{ steps.run.outputs.code }}. Last lines of the log:"
-              echo '```'
-              tail -40 /tmp/statdesk.log 2>/dev/null || echo "(no log)"
-              echo '```'
-            fi
-          } >> "$GITHUB_STEP_SUMMARY"
+        run: node statdesk/ci.js
