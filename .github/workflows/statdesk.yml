@@ -52,32 +52,51 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  run:
-    # self-hosted is Nick's own machine: a residential IP Sports Reference does
-    # not block, with a signed-in Chrome profile. That is what makes the
-    # Stathead half work unattended. github runners still do the MLB API half.
-    runs-on: ${{ inputs.runner == 'github' && 'ubuntu-latest' || 'self-hosted' }}
+  # Two jobs, not one with a conditional shell: GitHub evaluates `shell:`
+  # before any expression context exists, so it cannot be computed. Exactly one
+  # of these runs, chosen by the `runner` input.
+
+  # Nick's own machine. Residential IP that Sports Reference does not block,
+  # plus a signed-in Chrome profile, so the Stathead half works unattended.
+  # cmd, not PowerShell: that machine has script execution disabled, which
+  # blocks the .ps1 the runner writes for a run: block.
+  local:
+    if: inputs.runner != 'github'
+    runs-on: self-hosted
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-
-      # One Node call, no shell dependency. Windows runners have no bash on
-      # PATH and default to PowerShell; Ubuntu defaults to bash. Node is on
-      # both, so the whole job lives in statdesk/ci.js.
       - name: Run Stat Desk
-        # cmd on Windows, bash on the cloud fallback. NOT PowerShell: this
-        # machine has script execution disabled, so the .ps1 the runner writes
-        # for a `run:` block is refused before node is ever reached.
-        shell: ${{ github.event.inputs.runner == 'github' && 'bash' || 'cmd' }}
+        shell: cmd
         env:
           RUN_DATE: ${{ inputs.date }}
           WANT_STATHEAD: ${{ inputs.stathead }}
-          STATHEAD_PROFILE: ${{ inputs.runner == 'github' && '' || 'C:\statdesk-chrome' }}
+          STATHEAD_PROFILE: C:\statdesk-chrome
+        run: node statdesk/ci.js
+
+  # Fallback for when that machine is off. MLB API and ESPN still work; the
+  # Stathead history queries are skipped and the brief says so.
+  cloud:
+    if: inputs.runner == 'github'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run Stat Desk
+        shell: bash
+        env:
+          RUN_DATE: ${{ inputs.date }}
+          WANT_STATHEAD: "false"
         run: node statdesk/ci.js
