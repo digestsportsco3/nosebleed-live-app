@@ -29,8 +29,25 @@ In PowerShell, in the repo folder:
     npm install playwright
     npx playwright install chromium
 
-## Step 2 — sign in to Stathead once, by hand
+## Step 2 — put the browser profile where the service can read it
 
+The runner service runs as a limited Windows account, not as you. It cannot
+read anything inside `C:\Users\<you>\`, which is where the profile would land
+by default. So point it at a top-level folder first.
+
+Open PowerShell **as Administrator** (right-click PowerShell, Run as
+administrator) and run:
+
+    [Environment]::SetEnvironmentVariable("STATHEAD_PROFILE","C:\statdesk-chrome","Machine")
+
+Close that window. Every new PowerShell, and the runner service, will now use
+`C:\statdesk-chrome`.
+
+## Step 3 — sign in to Stathead once, by hand
+
+In a NEW normal PowerShell window (so it picks up the variable above):
+
+    cd C:\Users\Administrator\nosebleed-live-app
     node statdesk/login.js
 
 A Chrome window opens on the Stathead login page. Sign in the way you normally
@@ -41,7 +58,7 @@ Your password is never read, typed or stored by any code here. You type it into
 a real browser. The saved session lives in a Chrome profile on your machine and
 nowhere else.
 
-## Step 3 — install the runner service (once)
+## Step 4 — install the runner service (once)
 
 This is the piece that lets Claude start jobs on your machine without you.
 
