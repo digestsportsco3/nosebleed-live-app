@@ -72,6 +72,10 @@ jobs:
       # PATH and default to PowerShell; Ubuntu defaults to bash. Node is on
       # both, so the whole job lives in statdesk/ci.js.
       - name: Run Stat Desk
+        # cmd on Windows, bash on the cloud fallback. NOT PowerShell: this
+        # machine has script execution disabled, so the .ps1 the runner writes
+        # for a `run:` block is refused before node is ever reached.
+        shell: ${{ inputs.runner == 'github' && 'bash' || 'cmd' }}
         env:
           RUN_DATE: ${{ inputs.date }}
           WANT_STATHEAD: ${{ inputs.stathead }}
