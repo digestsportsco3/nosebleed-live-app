@@ -17,7 +17,12 @@
 const fs = require("fs");
 const path = require("path");
 
-const PAYWALL = /Log in for full results|Already a paid subscriber|subscribe to Stathead/i;
+// ONLY these two phrases mean the results were withheld. "Subscribe to
+// Stathead" was in this list and is a generic nav link present on every page
+// INCLUDING when signed in, so it rejected perfectly good pages: a verified
+// capture showed "Welcome Nicholas", real result rows, and neither real
+// paywall phrase. Do not widen this again without a captured page proving it.
+const PAYWALL = /Log in for full results|Already a paid subscriber/i;
 const MIN_GAP_MS = 4000; // one query per 4s, floor. Do not lower.
 
 class StatheadBrowser {
