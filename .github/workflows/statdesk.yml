@@ -72,6 +72,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      # The runner checks out into its own _work folder, not the clone where
+      # playwright was installed by hand, so install it here. The downloaded
+      # browser itself lives per-user and is already present.
+      - name: Install dependencies
+        shell: cmd
+        run: npm install --no-audit --no-fund
+
       - name: Run Stat Desk
         shell: cmd
         env:
