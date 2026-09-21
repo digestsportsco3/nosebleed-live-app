@@ -21,10 +21,15 @@ const PAYWALL = /Log in for full results|Already a paid subscriber|subscribe to 
 const MIN_GAP_MS = 4000; // one query per 4s, floor. Do not lower.
 
 class StatheadBrowser {
-  constructor({ profileDir, dataDir, runDate, headless = true } = {}) {
+  // headless defaults ON, but Sports Reference appears to serve the paywall to
+  // headless Chrome even with a valid session: the identical probe passes in a
+  // headed browser (login.js) and fails headless. Set STATHEAD_HEADLESS=false
+  // to run visibly, which is what the self-hosted runner does.
+  constructor({ profileDir, dataDir, runDate, headless } = {}) {
     this.profileDir = profileDir || process.env.STATHEAD_PROFILE
       || path.join(process.env.HOME || process.env.USERPROFILE || ".", ".statdesk-chrome");
-    this.headless = headless;
+    this.headless = headless !== undefined ? headless
+      : String(process.env.STATHEAD_HEADLESS || "true") !== "false";
     this.runDate = runDate;
     this.dir = dataDir ? path.join(dataDir, runDate) : null;
     if (this.dir) fs.mkdirSync(this.dir, { recursive: true });
@@ -54,8 +59,14 @@ class StatheadBrowser {
     // Confirm the saved session still works before running anything.
     const ok = await this.verify();
     if (!ok) {
+      // Keep the page that failed, so "not logged in" can be told apart from
+      // "served the paywall because we look like a bot".
+      if (this.dir) {
+        try { fs.writeFileSync(path.join(this.dir, "verify-failed.html"), await this.page.content()); } catch (e) { /* diagnostics only */ }
+      }
+      const mode = this.headless ? "headless" : "headed";
       await this.close();
-      throw new Error("The saved Stathead session is not logged in any more. Run `node statdesk/login.js` on this machine to sign in again. Nothing was queried, and no result was guessed.");
+      throw new Error(`Stathead did not serve results to the saved session (${mode} browser, profile ${this.profileDir}). Either the login expired, in which case run \`node statdesk/login.js\` on this machine, or the page was withheld from an automated browser. The failing page was saved as verify-failed.html. Nothing was queried and no result was guessed.`);
     }
   }
 

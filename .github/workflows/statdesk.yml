@@ -85,6 +85,10 @@ jobs:
           RUN_DATE: ${{ inputs.date }}
           WANT_STATHEAD: ${{ inputs.stathead }}
           STATHEAD_PROFILE: C:\statdesk-chrome
+          # Visible browser. The same probe passes headed and fails headless,
+          # so Sports Reference appears to withhold results from headless
+          # Chrome regardless of the session.
+          STATHEAD_HEADLESS: "false"
         run: node statdesk/ci.js
 
   # Fallback for when that machine is off. MLB API and ESPN still work; the
