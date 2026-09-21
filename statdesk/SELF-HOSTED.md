@@ -49,13 +49,13 @@ This is the piece that lets Claude start jobs on your machine without you.
    **Actions** → **Runners** → **New self-hosted runner** → **Windows**.
 2. GitHub shows a short list of commands with a token baked in. Copy and run
    them exactly, in PowerShell, from a folder like `C:\actions-runner`.
-3. At the end, instead of `./run.cmd`, install it as a service so it starts with
-   Windows and needs no window open:
+3. When `.\config.cmd` asks **"Would you like to run the runner as service?"**
+   answer **Y**. That is the step that makes it start with Windows and keep
+   running with no window open. Accept the defaults for every other question by
+   pressing Enter, and let it run as NT AUTHORITY\SYSTEM.
 
-       ./svc.sh install
-       ./svc.sh start
-
-   On Windows the config script offers "Run as service" — answer Y.
+   (`svc.sh` is the macOS and Linux equivalent. On Windows the service is
+   installed by answering Y above; you do not run svc.sh.)
 
 Confirm it worked: the Runners page shows your machine as **Idle**, green.
 
@@ -81,7 +81,9 @@ provenance, commits, and Claude reads it back and hands you the brief.
 - **"The saved Stathead session is not logged in any more"** → run
   `node statdesk/login.js` again. Sessions expire every few months.
 - **Job queued and never starts** → the runner is offline. Check the machine is
-  awake, and that the service is running (`./svc.sh status`).
+  awake and the service is running: open **Services** in Windows and look for
+  one named `actions.runner.*`, or run `.\run.cmd` in the runner folder to see
+  it connect live.
 - **Need an answer while the machine is off** → Claude re-runs with
   `runner=github`. The MLB and ESPN halves still work; only the history queries
   are skipped, and the brief says so rather than guessing.
