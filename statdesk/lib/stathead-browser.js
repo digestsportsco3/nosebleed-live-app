@@ -109,8 +109,14 @@ class StatheadBrowser {
 
     // Read the rendered table via the DOM rather than regex over HTML.
     const data = await this.page.evaluate(() => {
+      const body = document.body.innerText || "";
+      // A finder page that simply matched nothing still carries the search
+      // form and usually says so in words.
+      const isFinderPage = /Finder/i.test(document.title || "")
+        && (/no (?:results|matching|players|matches)|0 results|did not match|criteria/i.test(body)
+            || !!document.querySelector("form#finder, form[action*='finder'], #results, .search_results"));
       const t = document.querySelector("table#stats") || document.querySelector("table.stats_table");
-      if (!t) return { headers: [], rows: [], missing: true };
+      if (!t) return { headers: [], rows: [], missing: true, isFinderPage };
       const headers = [...t.querySelectorAll("thead th[data-stat]")]
         .map((th) => ({ key: th.getAttribute("data-stat"), label: (th.getAttribute("aria-label") || th.textContent || "").trim() }));
       const rows = [];
@@ -122,18 +128,30 @@ class StatheadBrowser {
         }
         if (Object.keys(cells).length >= 2) rows.push(cells);
       }
-      const body = document.body.innerText || "";
       const m = body.match(/Showing\s+([\d,]+)\s+of\s+([\d,]+)/i);
       const n = (x) => Number(String(x).replace(/,/g, ""));
-      return { headers, rows, missing: false,
+      return { headers, rows, missing: false, isFinderPage: true,
                reported: m ? n(m[2]) : null,
                capped: m ? n(m[1]) < n(m[2]) : /limited to the first/i.test(body) };
     });
-    if (data.missing) throw new Error(`No results table on ${url}. The page shape changed; stopping rather than reporting zero rows.`);
+    // Stathead renders no table at all when nothing matches, which is a real
+    // answer, not a breakage. Only treat it as an error if the page does not
+    // look like a finder result page at all.
+    if (data.missing) {
+      if (!data.isFinderPage) {
+        if (this.dir) {
+          try { fs.writeFileSync(path.join(this.dir, `${this.n + 1}-no-table.html`), html); } catch (e) { /* diagnostics only */ }
+        }
+        throw new Error(`No results table on ${url} and the page does not look like a finder result. The page shape may have changed; stopping rather than reporting zero rows. The page was saved for inspection.`);
+      }
+      data.rows = [];
+      data.headers = [];
+      data.emptyResult = true;
+    }
 
     this.n += 1;
     const id = `Q${String(this.n).padStart(3, "0")}`;
-    const rec = { id, ts: new Date().toISOString(), url, label, note,
+    const rec = { id, ts: new Date().toISOString(), url, label, note, emptyResult: !!data.emptyResult,
                   headers: data.headers, rows: data.rows, rowCount: data.rows.length,
                   reported: data.reported, capped: data.capped };
     if (this.dir) this.save(rec);
@@ -156,7 +174,9 @@ class StatheadBrowser {
       "```", ``, `## Claim check`, ``,
       rec.capped
         ? `- INCOMPLETE. Tighten the filter and re-run before any "only" or "first" claim.`
-        : `- Complete set: all ${rec.rowCount} rows read. A superlative may be asserted only if it holds across every row above.`,
+        : rec.rowCount === 0
+          ? `- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.`
+          : `- Complete set: all ${rec.rowCount} rows read. A superlative may be asserted only if it holds across every row above.`,
       ``,
     ].filter((x) => x !== null).join("\n");
     fs.writeFileSync(path.join(this.dir, `${rec.id}.md`), md);

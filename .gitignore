@@ -15,3 +15,4 @@ data/snapshots.json
 # parse. They are their content, not ours: never commit or republish them.
 statdesk/data/browser/**/*.raw.html
 statdesk/data/browser/**/verify-failed.html
+statdesk/data/browser/**/*-no-table.html

@@ -6,21 +6,27 @@
 
 const BASE = "https://www.sports-reference.com/stathead/baseball";
 
-// Stathead's internal stat names. Left side is what the rules use.
-const STAT = {
+// Stathead's internal stat names, split by group. They are NOT shared: a
+// pitcher's strikeouts are p_so and a batter's are b_so, so a single lookup
+// table silently filtered a pitching query on the batting column.
+const BAT = {
   HR: "b_hr", BA: "b_batting_avg", PA: "b_pa", AB: "b_ab", H: "b_h", R: "b_r",
   RBI: "b_rbi", SB: "b_sb", BB: "b_bb", SO: "b_so", OBP: "b_onbase_perc",
   SLG: "b_slugging_perc", OPS: "b_onbase_plus_slugging", "2B": "b_doubles",
-  "3B": "b_triples", G: "b_games",
-  ERA: "p_earned_run_avg", IP: "p_ip", pSO: "p_so", W: "p_w", L: "p_l",
-  SV: "p_sv", GS: "p_gs", WHIP: "p_whip", SO9: "p_strikeouts_per_nine",
-  BB9: "p_bases_on_balls_per_nine", pBB: "p_bb", ERAplus: "p_earned_run_avg_plus",
+  "3B": "b_triples", G: "b_games", OPSplus: "b_onbase_plus_slugging_plus",
 };
+const PITCH = {
+  ERA: "p_earned_run_avg", IP: "p_ip", SO: "p_so", BB: "p_bb", W: "p_w",
+  L: "p_l", SV: "p_sv", GS: "p_gs", G: "p_g", WHIP: "p_whip",
+  SO9: "p_strikeouts_per_nine", BB9: "p_bases_on_balls_per_nine",
+  H: "p_h", HR: "p_hr", ERAplus: "p_earned_run_avg_plus",
+};
+const STAT = BAT; // kept for callers that import it
 
 function statName(k, group) {
-  if (STAT[k]) return STAT[k];
-  if (group === "pitching" && STAT["p" + k]) return STAT["p" + k];
-  throw new Error(`Unknown Stathead stat "${k}". Add it to STAT in statdesk/lib/finder.js rather than guessing.`);
+  const table = group === "pitching" ? PITCH : BAT;
+  if (table[k]) return table[k];
+  throw new Error(`Unknown Stathead stat "${k}" for ${group}. Add it to ${group === "pitching" ? "PITCH" : "BAT"} in statdesk/lib/finder.js rather than guessing a column.`);
 }
 
 // spec: { group:'batting'|'pitching', season, filters:[[stat,'gte'|'lte',value]],
@@ -83,4 +89,4 @@ function playerPage(brId) {
   return `https://www.baseball-reference.com/players/${brId[0]}/${brId}.shtml`;
 }
 
-module.exports = { seasonFinder, playerPage, DISCOVERY, STAT };
+module.exports = { seasonFinder, playerPage, DISCOVERY, STAT, BAT, PITCH };
