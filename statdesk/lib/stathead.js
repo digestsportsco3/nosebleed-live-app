@@ -23,7 +23,12 @@ const MIN_GAP_MS = 4000; // one query per 4s, floor. Do not lower.
 // Stathead serves the results table with an empty body and this line when the
 // request is not authenticated. It is the difference between "no rows matched"
 // and "we were not logged in", so it must never be read as an empty result.
-const PAYWALL = /Log in for full results|Already a paid subscriber|subscribe to Stathead/i;
+// ONLY these two phrases mean the results were withheld. "Subscribe to
+// Stathead" was in this list and is a generic nav link present on every page
+// INCLUDING when signed in, so it rejected perfectly good pages: a verified
+// capture showed "Welcome Nicholas", real result rows, and neither real
+// paywall phrase. Do not widen this again without a captured page proving it.
+const PAYWALL = /Log in for full results|Already a paid subscriber/i;
 
 class Stathead {
   constructor({ user = process.env.STATHEAD_USER, pass = process.env.STATHEAD_PASS, dataDir, runDate } = {}) {

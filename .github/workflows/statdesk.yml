@@ -52,75 +52,62 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  run:
-    # self-hosted is Nick's own machine: a residential IP Sports Reference does
-    # not block, with a signed-in Chrome profile. That is what makes the
-    # Stathead half work unattended. github runners still do the MLB API half.
-    runs-on: ${{ inputs.runner == 'github' && 'ubuntu-latest' || 'self-hosted' }}
+  # Two jobs, not one with a conditional shell: GitHub evaluates `shell:`
+  # before any expression context exists, so it cannot be computed. Exactly one
+  # of these runs, chosen by the `runner` input.
+
+  # Nick's own machine. Residential IP that Sports Reference does not block,
+  # plus a signed-in Chrome profile, so the Stathead half works unattended.
+  # cmd, not PowerShell: that machine has script execution disabled, which
+  # blocks the .ps1 the runner writes for a run: block.
+  local:
+    if: inputs.runner != 'github'
+    runs-on: self-hosted
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
-
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
+      # The runner checks out into its own _work folder, not the clone where
+      # playwright was installed by hand, so install it here. The downloaded
+      # browser itself lives per-user and is already present.
+      - name: Install dependencies
+        shell: cmd
+        run: npm install --no-audit --no-fund
 
       - name: Run Stat Desk
-        id: run
+        shell: cmd
         env:
           RUN_DATE: ${{ inputs.date }}
           WANT_STATHEAD: ${{ inputs.stathead }}
-        run: |
-          set +e
-          ARGS=""
-          if [ -n "$RUN_DATE" ]; then ARGS="$ARGS --date $RUN_DATE"; fi
-          if [ "$WANT_STATHEAD" != "false" ]; then ARGS="$ARGS --stathead"; fi
-          echo "running: node statdesk/run.js $ARGS"
-          node statdesk/run.js $ARGS 2>&1 | tee /tmp/statdesk.log
-          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          STATHEAD_PROFILE: C:\statdesk-chrome
+          # Visible browser. The same probe passes headed and fails headless,
+          # so Sports Reference appears to withhold results from headless
+          # Chrome regardless of the session.
+          STATHEAD_HEADLESS: "false"
+        run: node statdesk/ci.js
 
-      - name: Commit whatever the run produced
+  # Fallback for when that machine is off. MLB API and ESPN still work; the
+  # Stathead history queries are skipped and the brief says so.
+  cloud:
+    if: inputs.runner == 'github'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run Stat Desk
+        shell: bash
         env:
           RUN_DATE: ${{ inputs.date }}
-        run: |
-          git config user.name "statdesk-bot"
-          git config user.email "noreply@anthropic.com"
-          git add -A
-          if git diff --cached --quiet; then
-            echo "Nothing to commit."
-            exit 0
-          fi
-          D="$RUN_DATE"
-          [ -n "$D" ] || D="$(TZ=America/New_York date +%F)"
-          git commit -m "Stat Desk $D: run from GitHub Actions"
-          for i in 1 2 3; do
-            git pull --rebase origin "${{ github.ref_name }}" \
-              && git push origin "HEAD:${{ github.ref_name }}" && exit 0
-            sleep $((i * 5))
-          done
-          echo "Could not push after 3 attempts." >&2
-          exit 1
-
-      - name: Report
-        if: always()
-        env:
-          RUN_DATE: ${{ inputs.date }}
-        run: |
-          D="$RUN_DATE"
-          [ -n "$D" ] || D="$(TZ=America/New_York date +%F)"
-          {
-            echo "## Stat Desk — $D"
-            for f in "statdesk/briefs/$D-statdesk.md" "statdesk/briefs/$D-fresh10.md"; do
-              if [ -f "$f" ]; then echo; cat "$f"; fi
-            done
-            if [ "${{ steps.run.outputs.code }}" != "0" ]; then
-              echo
-              echo "Run exited ${{ steps.run.outputs.code }}. Last lines of the log:"
-              echo '```'
-              tail -40 /tmp/statdesk.log 2>/dev/null || echo "(no log)"
-              echo '```'
-            fi
-          } >> "$GITHUB_STEP_SUMMARY"
+          WANT_STATHEAD: "false"
+        run: node statdesk/ci.js

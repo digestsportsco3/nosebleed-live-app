@@ -29,25 +29,17 @@ In PowerShell, in the repo folder:
     npm install playwright
     npx playwright install chromium
 
-## Step 2 — put the browser profile where the service can read it
+## Step 2 — sign in to Stathead once, by hand
 
-The runner service runs as a limited Windows account, not as you. It cannot
-read anything inside `C:\Users\<you>\`, which is where the profile would land
-by default. So point it at a top-level folder first.
+The profile goes in `C:\statdesk-chrome`, not in your user folder: the runner
+service runs as a limited account that cannot read anything under
+`C:\Users\<you>\`. The workflow points at that same path, so no administrator
+rights and no system settings are involved.
 
-Open PowerShell **as Administrator** (right-click PowerShell, Run as
-administrator) and run:
-
-    [Environment]::SetEnvironmentVariable("STATHEAD_PROFILE","C:\statdesk-chrome","Machine")
-
-Close that window. Every new PowerShell, and the runner service, will now use
-`C:\statdesk-chrome`.
-
-## Step 3 — sign in to Stathead once, by hand
-
-In a NEW normal PowerShell window (so it picks up the variable above):
+In a normal PowerShell window:
 
     cd C:\Users\Administrator\nosebleed-live-app
+    $env:STATHEAD_PROFILE="C:\statdesk-chrome"
     node statdesk/login.js
 
 A Chrome window opens on the Stathead login page. Sign in the way you normally
@@ -58,23 +50,35 @@ Your password is never read, typed or stored by any code here. You type it into
 a real browser. The saved session lives in a Chrome profile on your machine and
 nowhere else.
 
-## Step 4 — install the runner service (once)
+## Step 3 — register the runner and start it at logon (once)
 
-This is the piece that lets Claude start jobs on your machine without you.
-
-1. Open: `github.com/digestsportsco3/nosebleed-live-app` → **Settings** →
-   **Actions** → **Runners** → **New self-hosted runner** → **Windows**.
+1. Open: `github.com/digestsportsco3/nosebleed-live-app` -> **Settings** ->
+   **Actions** -> **Runners** -> **New self-hosted runner** -> **Windows**.
 2. GitHub shows a short list of commands with a token baked in. Copy and run
-   them exactly, in PowerShell, from a folder like `C:\actions-runner`.
-3. When `.\config.cmd` asks **"Would you like to run the runner as service?"**
-   answer **Y**. That is the step that makes it start with Windows and keep
-   running with no window open. Accept the defaults for every other question by
-   pressing Enter, and let it run as NT AUTHORITY\SYSTEM.
+   them in PowerShell. They create a folder (the default is
+   `C:\Users\<you>\actions-runner`), download the runner, and run
+   `.\config.cmd`. Press Enter through every question.
+3. When it asks **"Would you like to run the runner as service?"** answer
+   **N**. Then make it start at logon instead:
 
-   (`svc.sh` is the macOS and Linux equivalent. On Windows the service is
-   installed by answering Y above; you do not run svc.sh.)
+       schtasks /create /tn "Stat Desk Runner" /tr "C:\Users\Administrator\actions-runner\run.cmd" /sc onlogon
 
-Confirm it worked: the Runners page shows your machine as **Idle**, green.
+   Start it now without rebooting:
+
+       Start-Process -FilePath "C:\Users\Administrator\actions-runner\run.cmd" -WindowStyle Minimized
+
+### Why a logon task and NOT a Windows service
+
+A service runs in session 0, which has no desktop. The Stathead step drives a
+VISIBLE Chrome window, because Sports Reference refuses the headless one even
+with a valid session. A service could not display that window, so installing
+one would break the half of the pipeline that needs it. The logon task runs in
+the real desktop session, where the browser can appear.
+
+The practical consequence: the machine has to be logged in, not merely powered
+on. If it is a machine that reboots to a lock screen, log in after a reboot.
+
+Confirm it worked: the Runners page shows the machine as **Idle**, green.
 
 ## That is the whole setup
 
@@ -98,9 +102,9 @@ provenance, commits, and Claude reads it back and hands you the brief.
 - **"The saved Stathead session is not logged in any more"** → run
   `node statdesk/login.js` again. Sessions expire every few months.
 - **Job queued and never starts** → the runner is offline. Check the machine is
-  awake and the service is running: open **Services** in Windows and look for
-  one named `actions.runner.*`, or run `.\run.cmd` in the runner folder to see
-  it connect live.
+  awake AND logged in, and that the runner is up: run
+  `Get-Process Runner.Listener` in PowerShell. To start it by hand, run
+  `.\run.cmd` in `C:\Users\Administrator\actions-runner`.
 - **Need an answer while the machine is off** → Claude re-runs with
   `runner=github`. The MLB and ESPN halves still work; only the history queries
   are skipped, and the brief says so rather than guessing.
