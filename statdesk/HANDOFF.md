@@ -7,89 +7,56 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-15 evening, local session on Nick's PC with `--chrome`.
-Full morning formula ran end to end. Everything is pushed.
+Last updated: 2026-09-23. THE PIPELINE IS BUILT AND WORKING END TO END.
 
-### What this session did
+### How it runs now
 
-All six steps of the morning formula, for 2026-09-15:
+Nick asks in any chat on any device. Claude dispatches the GitHub Actions
+workflow `Stat Desk`, it runs on the self-hosted runner on his machine, pulls
+the MLB API, runs all 14 Stathead discovery queries in a signed-in Chrome, saves
+provenance, commits and pushes. Claude reads the repo back and writes the brief.
+Setup is `statdesk/SELF-HOSTED.md` and is already done.
 
-1. PULL — ran locally, 25/25 API calls ok. **statsapi.mlb.com is reachable from
-   Nick's machine.** The Sep 15 cloud session's "blocked host" was a cloud
-   network problem, not an outage. Run the pull locally.
-2. DISCOVER — 16 preset Stathead queries plus 5 follow-ups, Q001–Q021.
-3. DRAFT + 4. RANK — `statdesk/briefs/2026-09-15-fresh10.md`.
-5. STOP — waiting on Nick's picks.
-6. HAND OFF — this block.
+Dispatch it with the `statdesk.yml` workflow, inputs `runner: self-hosted` and
+`stathead: true`. If the runner is offline the job sits queued: cancel it and
+re-dispatch with `runner: github` for the API-only path, and say so in the brief.
 
-### Where the work is
+### What Nick wants from a brief
 
-Everything is on GitHub on `stats-research-pipeline`. Read these files rather
-than a summary of them:
+- Ten ideas, each a claim that is ALREADY VERIFIED. Never "check before
+  posting". If it cannot be verified it does not go in the brief.
+- NO REPEATS. A player already sent does not come back unless their number
+  actually moved. He said this explicitly. Prefer fresh names and new
+  categories over re-serving the same leaderboard.
+- A PDF in the Nosebleed brand, plus the table in chat.
+- Every claim computed across the COMPLETE pull (all ~747 hitters, all
+  pitchers), not a sample. State the check count.
 
-- `statdesk/briefs/2026-09-15-fresh10.md` — **today's Fresh 10**, ranked, with a
-  STATHEAD Q line per idea, alternates, flags, and the four rules that returned
-  zero rows.
-- `statdesk/briefs/2026-09-15-statdesk.md` — the generated API brief (204
-  findings scanned, top 10).
-- `statdesk/data/browser/2026-09-15/Q001–Q021.md` — provenance for today's 21
-  searches (URL, filters, row count, full table, row-by-row claim check),
-  indexed in `statdesk/data/browser/queries.log`.
-- `statdesk/data/mlb/2026-09-15/` — 25 cached API responses, indexed in
-  `calls.log`.
-- Earlier work: `2026-09-13-picks.md` (verified picks),
-  `2026-09-14-fresh10.md` (superseded by today's — its age lines predate the
-  age fix, do not reuse them).
+### Posted and permanently excluded
 
-### Next action for Nick
+Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
+`statdesk/posted.json`, which the pipeline filters on automatically. Add a name
+the day it goes out.
 
-Pick from the Fresh 10 in `statdesk/briefs/2026-09-15-fresh10.md` (reply with
-numbers). Verification runs in the browser on picks only, about 5 minutes each,
-using each idea's STATHEAD Q line. If picking on a later date, re-run the pull
-first so the numbers are current.
+### Sent but not yet confirmed posted
 
-Idea 1 (Crow-Armstrong, 3 steals from 40-40, 2 hits from 400) and idea 2
-(Detmers, 3 strikeouts from 700) are both time-sensitive. Both could resolve in
-a single game.
+Crow-Armstrong, Misiorowski, Schwarber, Arraez, Alvarez, Caminero, Simpson,
+Montgomery, Machado, Adell, Alonso, Jensen, and as of Sep 23 the fresh ten:
+Burleson, Rice, Sánchez, Miller, Otto Lopez, Carroll, Reynolds, Herrera,
+Fluharty. Treat these as used; do not re-serve without a real change.
 
-### CLOSED Sep 15: the season-age bug is verified fixed
+### Live watch items
 
-The `seasonAge()` June 30 helper in `statdesk/sports/mlb/adapter.js` now agrees
-with Stathead. Q007 shows Caminero and Stewart at age 22 on the page, exactly
-matching the adapter's output. Age-based rules are trustworthy again, and the
-Sep 14 "re-check Caminero" item is closed — he is 22, with 40 homers.
+- Pete Crow-Armstrong: 45 HR, 39 SB. ONE steal from 40-40. Also leads MLB in
+  runs with 119. Could land any night.
+- Ben Rice: 39 HR, one from becoming the seventh player to reach 40.
 
-Background, in case it recurs: the adapter used to take age from the API's
-`currentAge` (age today). Baseball Reference and Stathead age a season by how
-old the player was on JUNE 30. That is what made the Sep 14 Max Muncy query
-return 0 rows, and it silently hit every age-based rule. It was never two
-players being merged — 571970 (Dodgers, born 1990-08-25) and 691777
-(Athletics, born 2002-08-25) are two real players with the same name and
-birthday, pulled separately and correctly.
+### Known source behaviour
 
-### KNOWN Sep 15: Stathead runs about one game behind the MLB API
-
-Seen three times today: Murakami 501 PA on Stathead vs 503 from the API (Q001),
-Simpson 573 vs 574 (Q002), Adell 96 career HR vs 97 (Q020). Neither source is
-wrong and neither needs fixing. It means a milestone distance can differ by one
-depending on the source. Publish the Stathead number with the Stathead date,
-and say which source.
-
-### Open items
-
-- Career totals confirmed on Baseball Reference this run: Detmers 697 K (Q018),
-  Crow-Armstrong 398 H (Q019), Adell 96 HR (Q020). Still API-only and NOT
-  confirmed: Betts (311 HR / 198 SB / 1,875 H), Caminero (92 HR), Sale
-  (2,769 K).
-- Crow-Armstrong's career HR (83) and career SB (101) were behind a page ad on
-  his Baseball Reference page and were not read. Re-read before publishing
-  either. His career hits (398) WERE read and confirmed.
-- Nuñez: pre-1898 stolen bases may have been scored under a different rule.
-  That came from general knowledge, not Stathead. Lead with the OPS+ hook, not
-  the 1888 hook.
-- Detmers: only 2 pre-1960 seasons appeared in the game-log search. Say "in
-  Baseball Reference game logs", never "ever".
-- Stewart: the history angle did not hold. Drop him or post plain numbers.
+- Stathead runs about one game behind the MLB API. Publish a Stathead figure
+  with the Stathead date.
+- Sports Reference refuses headless Chrome and blocks datacenter IPs. Hence the
+  visible browser on Nick's machine. Do not try to move it back to the cloud.
 
 ### Blocking Nick daily: the cloud chat cannot reach the MLB API
 

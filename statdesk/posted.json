@@ -2,10 +2,35 @@
   "_comment": "Players already posted. The pipeline drops these from every brief so the same name is never pitched twice. Add a name the day it goes out. Matching is on the exact fullName the MLB Stats API returns, case-insensitive, accents ignored.",
   "_howto": "Add an entry: {\"name\": \"Player Name\", \"posted\": \"YYYY-MM-DD\", \"where\": \"X\", \"note\": \"optional\"}",
   "posted": [
-    { "name": "Chris Sale", "posted": "2026-09-20", "where": "X" },
-    { "name": "Sal Stewart", "posted": "2026-09-20", "where": "X" },
-    { "name": "Nasim Nuñez", "posted": "2026-09-20", "where": "X" },
-    { "name": "Reid Detmers", "posted": "2026-09-20", "where": "X" },
-    { "name": "Nick Martinez", "posted": "2026-09-20", "where": "X" }
+    {
+      "name": "Chris Sale",
+      "posted": "2026-09-20",
+      "where": "X"
+    },
+    {
+      "name": "Sal Stewart",
+      "posted": "2026-09-20",
+      "where": "X"
+    },
+    {
+      "name": "Nasim Nu\u00f1ez",
+      "posted": "2026-09-20",
+      "where": "X"
+    },
+    {
+      "name": "Reid Detmers",
+      "posted": "2026-09-20",
+      "where": "X"
+    },
+    {
+      "name": "Nick Martinez",
+      "posted": "2026-09-20",
+      "where": "X"
+    },
+    {
+      "name": "Munetaka Murakami",
+      "posted": "2026-09-23",
+      "where": "X"
+    }
   ]
 }
