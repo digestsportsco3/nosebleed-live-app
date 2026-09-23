@@ -167,15 +167,16 @@ story.append(P(
     "accept any new subscriber through it; provided that the Contractor does not promote it through the "
     "Brand, the Platform, or any Company Account, and that picks the Contractor delivers for the Premium "
     "Offering are released to Premium Offering subscribers no later than to subscribers of the "
-    "Disclosed Relationship. The Company grants the Contractor a non-exclusive, royalty-free licence "
+    "Disclosed Relationship. The Company grants the Contractor a non-exclusive, royalty-free license "
     "during the Term to deliver through the Disclosed Relationship the picks (selection, line, and stake) "
     "the Contractor delivers for the Premium Offering, and delivery in accordance with this Section 2.6 "
-    "is not a breach of Section 8 or Section 11; the licence does not extend to write-ups, analysis, or "
+    "is not a breach of Section 8 or Section 11; the license does not extend to write-ups, analysis, or "
     "other Content prepared for the Premium Offering. Revenue from the Disclosed Relationship is the "
     "Contractor's own and is neither Brand Deal Revenue nor Qualifying Revenue."))
 story.append(P(
-    "Apart from clauses (a) and (b) above and the referral obligation for Nosebleed Opportunities in "
-    "Section 4.3, this Agreement does not restrict the Contractor's personal activities, personal social "
+    "Apart from clauses (a) and (b) above (including the conditions on the Disclosed Relationship), "
+    "the referral obligation for Nosebleed Opportunities in Section 4.3, and Sections 2.1(f), 2.4, "
+    "2.5, 8.3, 9 and 11, this Agreement does not restrict the Contractor's personal activities, personal social "
     "media accounts, personal content, outside work, or other sources of income, whether or not paid, and "
     "the Contractor may pursue them without notice to or approval from the Company. The Company claims no "
     "interest in them."))
@@ -259,7 +260,9 @@ story.append(P(
     "receipt, reasonably determined by the Company in good faith and shown on the statement; where the "
     "Brand Deal states a value for non-cash consideration, that stated value is its fair market value. "
     "Consideration the counterparty delivers directly to the Contractor is credited at that value "
-    "against, and not in addition to, the Contractor's share of that Brand Deal. The Contractor's share "
+    "against, and not in addition to, the Contractor's share of that Brand Deal; any excess of that "
+    "value over the Contractor's share may be deducted from later payments to the Contractor under "
+    "Section 4. The Contractor's share "
     "may otherwise be satisfied by delivering the Contractor's proportionate part of the consideration "
     "in kind where it is divisible, and otherwise in cash. <b>Ad-Driven Revenue.</b> Where the Company "
     "runs paid advertising using an advertisement the Contractor created or appears in (a "
@@ -270,7 +273,9 @@ story.append(P(
     "payments for twelve (12) months after that subscriber's first payment, exceeds the documented "
     "advertising spend on that Contractor Ad (<b>\"Ad-Driven Revenue\"</b>). The calculation is "
     "cumulative for each Contractor Ad: each month's payment is fifty percent (50%) of the cumulative "
-    "excess for that Contractor Ad less amounts previously paid for it. A shortfall on one Contractor Ad "
+    "excess for that Contractor Ad less amounts previously paid for it; if that result is zero or "
+    "negative, nothing is paid for that month, and no amount previously paid is repayable or "
+    "deductible. A shortfall on one Contractor Ad "
     "is not offset against any other and is never payable by the Contractor. Ad-Driven Revenue is "
     "reported and paid on the statement under Section 4.4 like Brand Deal Revenue. A subscription "
     "attributed both to a Contractor Ad and to the Contractor under Section 5.3(c) is treated as "
@@ -375,8 +380,8 @@ story.append(P(
     "revenue from the Premium Offering attributable to subscribers the Contractor specifically drove, as "
     "tracked through a Company-provided referral link, promo code, or other documented attribution method, "
     "other than revenue counted under clause (d); "
-    "(d) Premium Offering subscription revenue attributed to a Contractor Ad (Section 4.2), measured "
-    "before deduction of advertising spend; "
+    "(d) Premium Offering subscription revenue attributed to a Contractor Ad under Section 4.2, "
+    "within the twelve-month period stated there, measured before deduction of advertising spend; "
     "(e) creator, monetization, and advertising-revenue-share payouts the platforms pay to the Company "
     "on the Managed Accounts, which count toward Qualifying Revenue but are not shared with the "
     "Contractor; and (f) any other revenue the Contractor demonstrably brought to the Company, as "
@@ -708,8 +713,12 @@ story.append(P(
 story.append(P(
     "<b>13.4 Tail Period.</b> The \"Tail Period\" is the sixty (60) days following the termination date. "
     "Brand Deal Revenue received during the Tail Period from Brand Deals contracted before the termination "
-    "date, and Ad-Driven Revenue received during the Tail Period from Contractor Ads run before the "
-    "termination date, are shared under Section 4.2 and count as Qualifying Revenue. No share is owed on Brand Deals "
+    "date is shared under Section 4.2 and counts as Qualifying Revenue, and the Contractor's share of "
+    "Ad-Driven Revenue, calculated under Section 4.2 on Premium Offering subscription revenue "
+    "received during the Tail Period that is attributed to advertising served on or before the "
+    "termination date and disregarding advertising spend incurred after the termination date, is paid "
+    "under Section 4.2, with that subscription revenue counting as Qualifying Revenue under Section "
+    "5.3(d). No share is owed on Brand Deals "
     "contracted after the termination date or on revenue received after the Tail Period."))
 story.append(P(
     "<b>Unreferred opportunities.</b> If a Nosebleed Opportunity was actually offered to or received by "
@@ -731,8 +740,10 @@ story.append(P(
     "information; answering reasonable questions; and confirming account settings. This does not require "
     "continued content creation or handicapping after termination."))
 story.append(P(
-    "<b>13.6 Survival.</b> Sections 5.4 and 5.7 through 5.10, 7, 8, 9.5, 9.6, 11, 12, 13.3 through 13.6, "
-    "and 14 survive termination."))
+    "<b>13.6 Survival.</b> Sections 2.6 (solely the statement that delivery in accordance with Section 2.6 is not a breach "
+    "of Section 8 or Section 11, as to picks delivered during the Term, and the final sentence of "
+    "Section 2.6), 5.4 and 5.7 through 5.10, 7, 8, 9.5, 9.6, 11, 12, 13.3 through 13.6, and 14 "
+    "survive termination."))
 
 # 14
 story.append(P("14. General", heading_style))

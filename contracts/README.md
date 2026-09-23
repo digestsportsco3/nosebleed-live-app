@@ -542,6 +542,14 @@ exposure, which drafting cannot fix.
     things it owns; the brand and the revenue sit in the operating LLC where his equity is). The 0.5%
     initial grant already vested on the earlier of $25K or twelve clean months, so no change there.
 
+    Two independent review rounds on the revision (1 blocker + 4 serious + 4 minor, then 0 blockers +
+    1 serious + 6 minor), all closed: the exclusivity carve-out needed an express license or it was
+    illusory against the ownership and confidentiality sections; the "no other restriction" sentence
+    had to admit the rules that do bind him (the same defect fixed twice in the podcast agreement); the
+    ad-driven formula had to be determinate, cumulative per ad, never negative, and bounded at the tail
+    by ads served on or before termination; and a wrapper bug that dropped the space at line-joins
+    ("restrictthe") was caught by the proof-string check before anything was sent.
+
     Also fixed while issuing the replacement copy: the unqualified "nothing restricts the Contractor
     after the Term" sentence that cancelled confidentiality survival (same defect found in the podcast
     agreement), and the "Title" line under the contractor's signature. **Reviewer's assumptions to
