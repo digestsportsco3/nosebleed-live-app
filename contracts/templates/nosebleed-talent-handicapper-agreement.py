@@ -279,7 +279,14 @@ story.append(P(
     "is not offset against any other and is never payable by the Contractor. Ad-Driven Revenue is "
     "reported and paid on the statement under Section 4.4 like Brand Deal Revenue. A subscription "
     "attributed both to a Contractor Ad and to the Contractor under Section 5.3(c) is treated as "
-    "Ad-Driven Revenue and counts toward Qualifying Revenue once, under Section 5.3(d)."))
+    "Ad-Driven Revenue and counts toward Qualifying Revenue once, under Section 5.3(d). <b>Platform "
+    "Revenue.</b> The Company will pay the Contractor <b>fifty percent (50%)</b> of Platform Revenue. "
+    "<b>\"Platform Revenue\"</b> means creator-program, monetization, and advertising-revenue-share "
+    "payouts a platform pays to a Company Party in respect of a Managed Account for any period during "
+    "which the Contractor is managing that Managed Account under Section 2.1(a), net of platform and "
+    "payment-processing fees, refunds, and chargebacks, and excluding Brand Deal Revenue and "
+    "Ad-Driven Revenue. Platform Revenue is reported and paid on the statement under Section 4.4 like "
+    "Brand Deal Revenue."))
 story.append(P(
     "<b>4.3 Nosebleed Opportunities; Brand Deals through the Company.</b> A <b>\"Nosebleed Opportunity\"</b> "
     "is any sponsorship, endorsement, affiliate, advertising, brand-partnership, appearance, or other paid "
@@ -330,7 +337,8 @@ story.append(P(
     "before making payments."))
 story.append(P(
     "<b>4.7 Sole compensation.</b> The Monthly Fee, the view bonuses under Section 4.1, the Brand Deal "
-    "Revenue share and the share of Ad-Driven Revenue under Section 4.2, and the equity described "
+    "Revenue share and the shares of Ad-Driven Revenue and Platform Revenue under Section 4.2, and "
+    "the equity described "
     "in Section 5 are the Contractor's sole compensation under this Agreement. No base salary, benefits, "
     "minimum payment, or expense reimbursement is owed unless separately agreed in writing or required by "
     "applicable law. Revenue from Premium Offering subscriptions, events, or other sources is not shared "
@@ -382,9 +390,7 @@ story.append(P(
     "other than revenue counted under clause (d); "
     "(d) Premium Offering subscription revenue attributed to a Contractor Ad under Section 4.2, "
     "within the twelve-month period stated there, measured before deduction of advertising spend; "
-    "(e) creator, monetization, and advertising-revenue-share payouts the platforms pay to the Company "
-    "on the Managed Accounts, which count toward Qualifying Revenue but are not shared with the "
-    "Contractor; and (f) any other revenue the Contractor demonstrably brought to the Company, as "
+    "(e) Platform Revenue (Section 4.2), measured before deduction of the Contractor's share; and (f) any other revenue the Contractor demonstrably brought to the Company, as "
     "reasonably determined by the Company in good faith based on documented attribution. Non-cash "
     "consideration counts at its fair market value under Section 4.2. Qualifying Revenue is counted once, "
     "before deduction of the Contractor's share under Section 4.2, and accumulates across the Term (the "
@@ -704,8 +710,8 @@ story.append(P(
 story.append(P(
     "<b>13.3 Effect of termination.</b> Upon termination: (a) the Company will pay the Monthly Fee earned "
     "and prorated through the termination date, subject to Section 6; (b) the Company will pay the Brand "
-    "Deal Revenue share, the share of Ad-Driven Revenue, and view bonuses on amounts received or "
-    "thresholds first reached through the termination date and during the Tail Period, on "
+    "Deal Revenue share, the shares of Ad-Driven Revenue and Platform Revenue, and view bonuses on "
+    "amounts received or thresholds first reached through the termination date and during the Tail Period, on "
     "the normal schedule; (c) equity is governed by Sections 5.4 and 5.9; (d) the Contractor will comply "
     "with Section 9.6; and (e) Section 7.2 governs use of the Contractor's Likeness. If the Company "
     "terminates following a Shortfall Notice or Value Notice or for the Contractor's material breach, the "
@@ -717,8 +723,10 @@ story.append(P(
     "Ad-Driven Revenue, calculated under Section 4.2 on Premium Offering subscription revenue "
     "received during the Tail Period that is attributed to advertising served on or before the "
     "termination date and disregarding advertising spend incurred after the termination date, is paid "
-    "under Section 4.2, with that subscription revenue counting as Qualifying Revenue under Section "
-    "5.3(d). No share is owed on Brand Deals "
+    "under Section 4.2, with that subscription revenue counting as Qualifying Revenue under Section 5.3(d). Platform "
+    "Revenue received during the Tail Period that is attributable to the period through the "
+    "termination date is shared under Section 4.2 and counts as Qualifying Revenue. No share is owed "
+    "on Brand Deals "
     "contracted after the termination date or on revenue received after the Tail Period."))
 story.append(P(
     "<b>Unreferred opportunities.</b> If a Nosebleed Opportunity was actually offered to or received by "
@@ -828,6 +836,7 @@ rows = [
                                "counts once (Section 2.1(a))"],
     ["Monthly Fee", MONTHLY_FEE],
     ["Brand Deal Revenue share", BRAND_DEAL_SHARE],
+    ["Platform Revenue share", "50% of creator and monetization payouts on the Managed Accounts (Section 4.2)"],
     ["Initial Units", INITIAL_UNITS],
     ["Milestone Units", EQUITY_SUMMARY],
     ["Liquidated damages amount (Section 9.5)", LIQUIDATED_DAMAGES],
