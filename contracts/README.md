@@ -521,6 +521,33 @@ exposure, which drafting cannot fix.
     stated figure for accounts that have no follower count. Every fix pinned by a new verifier
     assertion, including negative assertions that fail if the old language returns.
 
+32. **Talent/handicapper agreement revised after the contractor's five qualifying questions** (2026-09-23,
+    owner's decisions). His questions exposed three real gaps, all closed: non-cash consideration
+    (tickets, product, travel) now counts as Brand Deal Revenue at fair market value, credited against
+    his share where delivered to him directly; platform creator payouts on the Managed Accounts now
+    count toward Qualifying Revenue but are not shared; and his pre-existing paid picks platform is a
+    **Disclosed Relationship** on Exhibit A — existing subscribers as of the Effective Date only, no
+    promotion through the brand, Premium subscribers get his picks no later than that platform's, and
+    an express licence so delivering the same pick there is not a breach of the ownership or
+    confidentiality sections (without which the carve-out was illusory — a reviewer caught that). The
+    "no existing obligations" representation now excepts it, so it is true when he signs.
+
+    Owner's calls implemented: posting minimum is three quality posts a day across both accounts
+    combined, cross-posting counts once, quality over volume (was three per account); view bonuses of
+    $10 / $25 / $100 at 250K / 500K / 1M views per video, once per video across platforms, paid with the
+    statement and not subject to shortfall withholding; **Ad-Driven Revenue** — 50% of Premium
+    subscription revenue attributed to a paid ad using his creative, net of that ad's documented spend,
+    cumulative per ad, never negative, no cross-ad offset, twelve-month attribution window, counted
+    gross toward the equity ladder; no equity in the parent company (the accounts are two of many
+    things it owns; the brand and the revenue sit in the operating LLC where his equity is). The 0.5%
+    initial grant already vested on the earlier of $25K or twelve clean months, so no change there.
+
+    Also fixed while issuing the replacement copy: the unqualified "nothing restricts the Contractor
+    after the Term" sentence that cancelled confidentiality survival (same defect found in the podcast
+    agreement), and the "Title" line under the contractor's signature. **Reviewer's assumptions to
+    confirm with the owner:** the twelve-month attribution window; the Effective Date still reads the
+    original September 18 date.
+
 31. **Liability caps made symmetric at $25,000 (owner's call).** Previously $10,000 for the company
     and a $25,000 floor for the contractor. The asymmetry was the single biggest threat to the whole
     limitation clause: an unrepresented individual capped far tighter than the drafter is the

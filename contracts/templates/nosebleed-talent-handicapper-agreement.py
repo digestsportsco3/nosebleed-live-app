@@ -1,12 +1,7 @@
 #!/usr/bin/env python3
-"""Blank master template: Talent, Handicapping, and Content Services Agreement.
-
-Co-parties: JGN Media LLC (brand + social accounts) and Nosebleed Sports LLC (app, website, Discord,
-premium picks; issues the equity). For on-camera talent / handicapper roles with a monthly fee, brand-deal
-revenue share, an up-front forfeitable equity grant, and a milestone ladder.
-Fill the Exhibit A constants per contractor. NEVER commit a filled copy - this repo is public.
-See ../README.md for terms, rationale, and the open legal items.
-"""
+# TEMPLATE — public repository copy. Names, EIN and JGN ownership are placeholders; fill from the
+# private master record before generating a signing copy. Never commit a filled copy.
+"""Talent, Handicapping, and Content Services Agreement - JGN Media LLC + Nosebleed Sports LLC (Delaware) / [Class B Member] (rev. 4)."""
 
 import os
 from reportlab.lib.pagesizes import letter
@@ -18,7 +13,7 @@ from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, HRFlowable, PageBreak, KeepTogether
 )
 
-OUT = os.environ.get("OUT_PDF", "Nosebleed_Talent_Handicapper_Agreement.pdf")
+OUT = os.environ.get("OUT_PDF", os.path.join(os.path.dirname(os.path.abspath(__file__)), "Nosebleed_Talent_Handicapper_Agreement.pdf"))
 
 # ---- Exhibit A values ----
 EFFECTIVE_DATE     = ""
@@ -26,14 +21,15 @@ CONTRACTOR_NAME    = ""
 CONTRACTOR_ADDRESS = ""
 CONTRACTOR_PHONE   = ""
 CONTRACTOR_EMAIL   = ""
-TIKTOK_HANDLE      = "Nosebleed Sports TikTok  (@__________)"
-INSTAGRAM_HANDLE   = "Nosebleed Sports Instagram  (@__________)"
+TIKTOK_HANDLE      = "Nosebleed Sports TikTok  (@NosebleedSportsMedia)"
+INSTAGRAM_HANDLE   = "Nosebleed Sports Instagram  (@NosebleedSportsMedia)"
 MONTHLY_FEE        = "$800.00 per month, in arrears (Section 4.1)"
 BRAND_DEAL_SHARE   = "50% of Brand Deal Revenue (Section 4.2)"
-INITIAL_UNITS      = "0.50% of Nosebleed Sports LLC, forfeitable until vested (Section 5.1, 5.4)"
-EQUITY_SUMMARY     = "to 1% / 2.5% / 3.75% / 5% at $25K / $60K / $110K / $175K (Section 5.2)"
+INITIAL_UNITS      = "50,000 Class B Common Units of NSL = 0.50% of 10,000,000 authorized; forfeitable until vested (5.1, 5.4)"
+EQUITY_SUMMARY     = "to 100,000 / 250,000 / 375,000 / 500,000 units (1% / 2.5% / 3.75% / 5%) at $25K / $60K / $110K / $175K"
 LIQUIDATED_DAMAGES = "$_________ (blank = Section 9.5 tiers apply)"
 PAYMENT_METHOD     = "Zelle, wire transfer, or PayPal"
+DISCLOSED_RELATIONSHIP = ""  # e.g. an existing paid picks platform, existing subscribers only
 
 styles = getSampleStyleSheet()
 title_style = ParagraphStyle("T", parent=styles["Title"], fontName="Helvetica-Bold",
@@ -70,7 +66,7 @@ story.append(B('<bullet>&bull;</bullet><b>JGN Media LLC</b>, a New York limited 
 story.append(B('<bullet>&bull;</bullet><b>Nosebleed Sports LLC</b>, a Delaware limited liability company with a '
                'mailing address of 105 Broadway, Rockville Centre, New York 11570 ("NSL" and, together with JGN, '
                'the "Company," each a "Company Party"); and'))
-story.append(B('<bullet>&bull;</bullet>the individual identified as the Contractor on Exhibit A (the "Contractor").'))
+story.append(B('<bullet>&bull;</bullet><b>[Class B Member]</b>, the individual identified on Exhibit A (the "Contractor").'))
 story.append(P('The Company and the Contractor may each be referred to as a "Party" and together as the "Parties." '
                'Obligations of "the Company" under this Agreement are obligations of both Company Parties; the '
                'Company Parties may designate between themselves which of them performs any payment or other '
@@ -94,7 +90,11 @@ story.append(P(
     "Items (a) through (f) are the \"Monthly Deliverables\" for each calendar month during the Term:"))
 story.append(B("<bullet>(a)</bullet><b>Managed Accounts.</b> Manage the Nosebleed Sports TikTok account and "
                "the Nosebleed Sports Instagram account identified on Exhibit A (the \"Managed Accounts\"), "
-               "publishing a minimum of three (3) original posts per day on each Managed Account."))
+               "publishing a minimum of three (3) original posts per day across the Managed Accounts in "
+               "aggregate. A post published to both Managed Accounts counts once toward that minimum, "
+               "and cross-posting between them is expected. The Parties value quality over volume: the "
+               "minimum is a floor, not a target, and a post counts toward it only if it meets the standard "
+               "in Section 2.2."))
 story.append(B("<bullet>(b)</bullet><b>Handicapping.</b> Deliver daily picks with accompanying research "
                "write-ups, in the Company's system and format and on the Company's delivery schedule, for use "
                "in the Premium Offering."))
@@ -160,7 +160,19 @@ story.append(P(
     "Contractor will not, without the Company's prior written consent: (a) sell, publish, or provide "
     "handicapping picks or analysis through any paid picks service other than the Premium Offering; or "
     "(b) serve as on-camera talent, ambassador, or spokesperson for any other sports media, picks, or "
-    "sports betting brand."))
+    "sports betting brand. Clause (a) does not apply to the existing relationship disclosed on "
+    "Exhibit A (the <b>\"Disclosed Relationship\"</b>): the Contractor may continue to deliver picks "
+    "through it to persons who were paying subscribers of the Contractor on that platform on the "
+    "Effective Date, for so long as each remains a continuous paying subscriber, and will not solicit or "
+    "accept any new subscriber through it; provided that the Contractor does not promote it through the "
+    "Brand, the Platform, or any Company Account, and that picks the Contractor delivers for the Premium "
+    "Offering are released to Premium Offering subscribers no later than to subscribers of the "
+    "Disclosed Relationship. The Company grants the Contractor a non-exclusive, royalty-free licence "
+    "during the Term to deliver through the Disclosed Relationship the picks (selection, line, and stake) "
+    "the Contractor delivers for the Premium Offering, and delivery in accordance with this Section 2.6 "
+    "is not a breach of Section 8 or Section 11; the licence does not extend to write-ups, analysis, or "
+    "other Content prepared for the Premium Offering. Revenue from the Disclosed Relationship is the "
+    "Contractor's own and is neither Brand Deal Revenue nor Qualifying Revenue."))
 story.append(P(
     "Apart from clauses (a) and (b) above and the referral obligation for Nosebleed Opportunities in "
     "Section 4.3, this Agreement does not restrict the Contractor's personal activities, personal social "
@@ -171,11 +183,14 @@ story.append(P(
     "<b>No existing obligations.</b> The Contractor represents that entering into and performing this "
     "Agreement does not breach any agreement with, or obligation to, any third party, and that as of the "
     "Effective Date the Contractor has no sponsorship, endorsement, affiliate, ambassador, paid-promotion, "
-    "or paid picks agreement in effect with any third party. No agreement, relationship, or opportunity of "
+    "or paid picks agreement in effect with any third party other than the Disclosed Relationship. No "
+    "agreement, relationship, or opportunity of "
     "the Contractor entered into or arising before the Effective Date is a Brand Deal or a Nosebleed "
     "Opportunity (each as defined in Section 4), generates Brand Deal Revenue or Qualifying Revenue, or is otherwise subject to this "
-    "Agreement, and the Company claims no interest in any of them. Nothing in this Agreement restricts the "
-    "Contractor's activities after the Term."))
+    "Agreement (except that the Disclosed Relationship is subject to the conditions in this Section 2.6), "
+    "and the Company claims no interest in any of them. Except for Sections 7, 8, 11, 13.4 and 13.5, "
+    "which apply according to their terms, nothing in this Agreement restricts the Contractor from "
+    "providing services to, working for, or accepting engagements from any person after the Term."))
 story.append(P(
     "<b>2.7 Personal performance; assistants.</b> The on-camera, live-session, handicapping, and community "
     "elements of the Services are personal to the Contractor and will be performed by the Contractor "
@@ -213,7 +228,17 @@ story.append(P(
     "<b>4.1 Monthly Fee.</b> Subject to Section 6, the Company will pay the Contractor <b>eight hundred "
     "dollars ($800.00)</b> per calendar month (the \"Monthly Fee\"), payable in arrears within ten (10) "
     "days after the end of each calendar month for which it is earned. The Monthly Fee for any partial "
-    "month is prorated."))
+    "month is prorated. <b>View bonuses.</b> For each video the Contractor creates or appears in that is "
+    "published on a Managed Account during the Term, the Company will pay the Contractor a one-time bonus "
+    "of <b>$10.00</b> when the video first reaches 250,000 views, a further <b>$15.00</b> when it first "
+    "reaches 500,000 views (<b>$25.00</b> in total), and a further <b>$75.00</b> when it first reaches "
+    "1,000,000 views (<b>$100.00</b> in total), in each case as reported by the platform's own analytics "
+    "for that Managed Account. A video published to both Managed Accounts earns each bonus once, when "
+    "its views on either Managed Account first reach the threshold. A bonus is earned in the month the "
+    "threshold is first reached and is paid on the statement for that month under Section 4.4, whether or "
+    "not a Monthly Fee is then payable; view bonuses are not subject to reduction or withholding under "
+    "Section 6.2. No bonus is owed for a video whose "
+    "views the Company reasonably determines were artificially generated in breach of Section 2.4(a)."))
 story.append(P(
     "<b>4.2 Brand Deal Revenue share.</b> The Company will pay the Contractor <b>fifty percent (50%)</b> "
     "of Brand Deal Revenue. \"Brand Deal Revenue\" means amounts actually received by either Company Party "
@@ -228,7 +253,28 @@ story.append(P(
     "the Company will allocate the revenue &mdash; and any related refund, reversal, clawback, or "
     "chargeback &mdash; among the elements reasonably and in good faith using objective factors where "
     "practicable (such as contracted deliverables, impressions, or element-specific pricing). The "
-    "allocation will be shown on the statement under Section 4.4 and is binding absent manifest error."))
+    "allocation will be shown on the statement under Section 4.4 and is binding absent manifest error. "
+    "Where a Brand Deal is paid in whole or in part in goods, services, tickets, travel, or other "
+    "non-cash consideration, that consideration is Brand Deal Revenue at its fair market value as of "
+    "receipt, reasonably determined by the Company in good faith and shown on the statement; where the "
+    "Brand Deal states a value for non-cash consideration, that stated value is its fair market value. "
+    "Consideration the counterparty delivers directly to the Contractor is credited at that value "
+    "against, and not in addition to, the Contractor's share of that Brand Deal. The Contractor's share "
+    "may otherwise be satisfied by delivering the Contractor's proportionate part of the consideration "
+    "in kind where it is divisible, and otherwise in cash. <b>Ad-Driven Revenue.</b> Where the Company "
+    "runs paid advertising using an advertisement the Contractor created or appears in (a "
+    "<b>\"Contractor Ad\"</b>), including the Contractor's existing portfolio of advertising videos and "
+    "any new user-generated-style advertisements, the Company will pay the Contractor <b>fifty percent "
+    "(50%)</b> of the amount, if any, by which Premium Offering subscription revenue actually received "
+    "that the Company's campaign tracking attributes to that Contractor Ad, counting each subscriber's "
+    "payments for twelve (12) months after that subscriber's first payment, exceeds the documented "
+    "advertising spend on that Contractor Ad (<b>\"Ad-Driven Revenue\"</b>). The calculation is "
+    "cumulative for each Contractor Ad: each month's payment is fifty percent (50%) of the cumulative "
+    "excess for that Contractor Ad less amounts previously paid for it. A shortfall on one Contractor Ad "
+    "is not offset against any other and is never payable by the Contractor. Ad-Driven Revenue is "
+    "reported and paid on the statement under Section 4.4 like Brand Deal Revenue. A subscription "
+    "attributed both to a Contractor Ad and to the Contractor under Section 5.3(c) is treated as "
+    "Ad-Driven Revenue and counts toward Qualifying Revenue once, under Section 5.3(d)."))
 story.append(P(
     "<b>4.3 Nosebleed Opportunities; Brand Deals through the Company.</b> A <b>\"Nosebleed Opportunity\"</b> "
     "is any sponsorship, endorsement, affiliate, advertising, brand-partnership, appearance, or other paid "
@@ -278,7 +324,8 @@ story.append(P(
     "amounts paid or equity issued under this Agreement. The Company may require a completed IRS Form W-9 "
     "before making payments."))
 story.append(P(
-    "<b>4.7 Sole compensation.</b> The Monthly Fee, the Brand Deal Revenue share, and the equity described "
+    "<b>4.7 Sole compensation.</b> The Monthly Fee, the view bonuses under Section 4.1, the Brand Deal "
+    "Revenue share and the share of Ad-Driven Revenue under Section 4.2, and the equity described "
     "in Section 5 are the Contractor's sole compensation under this Agreement. No base salary, benefits, "
     "minimum payment, or expense reimbursement is owed unless separately agreed in writing or required by "
     "applicable law. Revenue from Premium Offering subscriptions, events, or other sources is not shared "
@@ -291,7 +338,8 @@ story.append(P(
     "<b>5.1 Initial Units.</b> Effective as of the Effective Date, the Contractor is granted the right to "
     "receive, and NSL will issue in accordance with Section 5.6, non-voting membership interests in NSL "
     "representing <b>one-half of one percent (0.50%)</b> of NSL's fully diluted membership interests as "
-    "of the Effective Date (the \"Initial Units\"). The Initial Units' percentage is fixed as of the "
+    "of the Effective Date, being 50,000 Class B Common Units of the 10,000,000 Common Units NSL is "
+    "authorized to issue (the \"Initial Units\"). The Initial Units' percentage is fixed as of the "
     "Effective Date and will not be reduced by any issuance of interests by NSL between the Effective Date "
     "and the date the Initial Units are actually issued. The Initial Units are granted in advance of the "
     "first Milestone in recognition of the Contractor's commitment to the role, and are <b>subject to "
@@ -325,9 +373,15 @@ story.append(P(
     "Contractor directly generated, consisting of: (a) all Brand Deal Revenue; (b) revenue from events "
     "that the Contractor sourced or for which the Contractor was the principal driver; (c) subscription "
     "revenue from the Premium Offering attributable to subscribers the Contractor specifically drove, as "
-    "tracked through a Company-provided referral link, promo code, or other documented attribution method; "
-    "and (d) any other revenue the Contractor demonstrably brought to the Company, as reasonably determined "
-    "by the Company in good faith based on documented attribution. Qualifying Revenue is counted once, "
+    "tracked through a Company-provided referral link, promo code, or other documented attribution method, "
+    "other than revenue counted under clause (d); "
+    "(d) Premium Offering subscription revenue attributed to a Contractor Ad (Section 4.2), measured "
+    "before deduction of advertising spend; "
+    "(e) creator, monetization, and advertising-revenue-share payouts the platforms pay to the Company "
+    "on the Managed Accounts, which count toward Qualifying Revenue but are not shared with the "
+    "Contractor; and (f) any other revenue the Contractor demonstrably brought to the Company, as "
+    "reasonably determined by the Company in good faith based on documented attribution. Non-cash "
+    "consideration counts at its fair market value under Section 4.2. Qualifying Revenue is counted once, "
     "before deduction of the Contractor's share under Section 4.2, and accumulates across the Term (the "
     "running total, \"Cumulative Qualifying Revenue\"). The Company will report Cumulative Qualifying "
     "Revenue on the monthly statement under Section 4.4, and that report is binding absent manifest error."))
@@ -645,7 +699,8 @@ story.append(P(
 story.append(P(
     "<b>13.3 Effect of termination.</b> Upon termination: (a) the Company will pay the Monthly Fee earned "
     "and prorated through the termination date, subject to Section 6; (b) the Company will pay the Brand "
-    "Deal Revenue share on amounts received through the termination date and during the Tail Period, on "
+    "Deal Revenue share, the share of Ad-Driven Revenue, and view bonuses on amounts received or "
+    "thresholds first reached through the termination date and during the Tail Period, on "
     "the normal schedule; (c) equity is governed by Sections 5.4 and 5.9; (d) the Contractor will comply "
     "with Section 9.6; and (e) Section 7.2 governs use of the Contractor's Likeness. If the Company "
     "terminates following a Shortfall Notice or Value Notice or for the Contractor's material breach, the "
@@ -653,7 +708,8 @@ story.append(P(
 story.append(P(
     "<b>13.4 Tail Period.</b> The \"Tail Period\" is the sixty (60) days following the termination date. "
     "Brand Deal Revenue received during the Tail Period from Brand Deals contracted before the termination "
-    "date is shared under Section 4.2 and counts as Qualifying Revenue. No share is owed on Brand Deals "
+    "date, and Ad-Driven Revenue received during the Tail Period from Contractor Ads run before the "
+    "termination date, are shared under Section 4.2 and count as Qualifying Revenue. No share is owed on Brand Deals "
     "contracted after the termination date or on revenue received after the Tail Period."))
 story.append(P(
     "<b>Unreferred opportunities.</b> If a Nosebleed Opportunity was actually offered to or received by "
@@ -726,12 +782,13 @@ def sigblock(compact=False):
                 Paragraph("Signature: _________________", sig_style), Spacer(1, 10),
                 Paragraph("Name: %s" % name, sig_style)]
         if not compact:
-            rows += [Spacer(1, 10), Paragraph("Title: %s" % title, sig_style), Spacer(1, 10),
-                     Paragraph("Date: ___________________", sig_style)]
+            if title:
+                rows += [Spacer(1, 10), Paragraph("Title: %s" % title, sig_style)]
+            rows += [Spacer(1, 10), Paragraph("Date: ___________________", sig_style)]
         return rows
     cols = [col("JGN MEDIA LLC", "Nicholas Restivo", "Chief Executive Officer"),
             col("NOSEBLEED SPORTS LLC", "Nicholas Restivo", "Chief Executive Officer"),
-            col("CONTRACTOR", CONTRACTOR_NAME or "____________________________", "Independent Contractor")]
+            col("CONTRACTOR", CONTRACTOR_NAME, None)]
     n = max(len(c) for c in cols)
     rows = [[c[i] if i < len(c) else "" for c in cols] for i in range(n)]
     t = Table(rows, colWidths=[2.15 * inch] * 3)
@@ -756,13 +813,15 @@ rows = [
     ["Contractor email", CONTRACTOR_EMAIL],
     ["Managed Account 1", TIKTOK_HANDLE],
     ["Managed Account 2", INSTAGRAM_HANDLE],
-    ["Minimum posting volume", "3 original posts per day on each Managed Account"],
+    ["Minimum posting volume", "3 original posts per day across the Managed Accounts; cross-posting "
+                               "counts once (Section 2.1(a))"],
     ["Monthly Fee", MONTHLY_FEE],
     ["Brand Deal Revenue share", BRAND_DEAL_SHARE],
     ["Initial Units", INITIAL_UNITS],
     ["Milestone Units", EQUITY_SUMMARY],
     ["Liquidated damages amount (Section 9.5)", LIQUIDATED_DAMAGES],
     ["Payment method", PAYMENT_METHOD],
+    ["Disclosed Relationship (Section 2.6)", DISCLOSED_RELATIONSHIP],
 ]
 cell_k = ParagraphStyle("CK", parent=body_style, fontName="Helvetica-Bold", fontSize=9.5, leading=12, spaceAfter=0)
 cell_v = ParagraphStyle("CV", parent=body_style, fontSize=9.5, leading=12, spaceAfter=0)
@@ -784,7 +843,7 @@ story.append(KeepTogether([Spacer(1, 14), sigblock(compact=True)]))
 
 doc = SimpleDocTemplate(OUT, pagesize=letter, leftMargin=0.9 * inch, rightMargin=0.9 * inch,
                         topMargin=0.8 * inch, bottomMargin=0.8 * inch,
-                        title="Talent, Handicapping, and Content Services Agreement — JGN Media LLC & Nosebleed Sports LLC",
+                        title="Talent, Handicapping, and Content Services Agreement — JGN Media LLC, Nosebleed Sports LLC & [Class B Member]",
                         author="JGN Media LLC")
 doc.build(story)
 print("Wrote", OUT)
