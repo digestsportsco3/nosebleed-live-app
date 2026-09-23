@@ -280,12 +280,16 @@ story.append(P(
     "reported and paid on the statement under Section 4.4 like Brand Deal Revenue. A subscription "
     "attributed both to a Contractor Ad and to the Contractor under Section 5.3(c) is treated as "
     "Ad-Driven Revenue and counts toward Qualifying Revenue once, under Section 5.3(d). <b>Platform "
-    "Revenue.</b> The Company will pay the Contractor <b>fifty percent (50%)</b> of Platform Revenue. "
-    "<b>\"Platform Revenue\"</b> means creator-program, monetization, and advertising-revenue-share "
-    "payouts a platform pays to a Company Party in respect of a Managed Account for any period during "
-    "which the Contractor is managing that Managed Account under Section 2.1(a), net of platform and "
+    "Revenue.</b> The Company will pay the Contractor <b>fifty percent (50%)</b> of Account Payout Revenue. "
+    "<b>\"Account Payout Revenue\"</b> means creator-program, monetization, and advertising-revenue-share "
+    "payouts a platform pays to a Company Party, or to any person on a Company Party's behalf, in "
+    "respect of a Managed Account, attributable to any period during the Term (including any "
+    "suspension under Section 9.4 not caused by the Contractor's breach, but excluding any period of "
+    "suspension caused by the Contractor's breach), with any payout covering a longer period "
+    "allocated by day using the platform's own analytics or, where unavailable, pro rata by days, net "
+    "of platform and "
     "payment-processing fees, refunds, and chargebacks, and excluding Brand Deal Revenue and "
-    "Ad-Driven Revenue. Platform Revenue is reported and paid on the statement under Section 4.4 like "
+    "Ad-Driven Revenue. Account Payout Revenue is reported and paid on the statement under Section 4.4 like "
     "Brand Deal Revenue."))
 story.append(P(
     "<b>4.3 Nosebleed Opportunities; Brand Deals through the Company.</b> A <b>\"Nosebleed Opportunity\"</b> "
@@ -337,7 +341,7 @@ story.append(P(
     "before making payments."))
 story.append(P(
     "<b>4.7 Sole compensation.</b> The Monthly Fee, the view bonuses under Section 4.1, the Brand Deal "
-    "Revenue share and the shares of Ad-Driven Revenue and Platform Revenue under Section 4.2, and "
+    "Revenue share and the shares of Ad-Driven Revenue and Account Payout Revenue under Section 4.2, and "
     "the equity described "
     "in Section 5 are the Contractor's sole compensation under this Agreement. No base salary, benefits, "
     "minimum payment, or expense reimbursement is owed unless separately agreed in writing or required by "
@@ -390,7 +394,7 @@ story.append(P(
     "other than revenue counted under clause (d); "
     "(d) Premium Offering subscription revenue attributed to a Contractor Ad under Section 4.2, "
     "within the twelve-month period stated there, measured before deduction of advertising spend; "
-    "(e) Platform Revenue (Section 4.2), measured before deduction of the Contractor's share; and (f) any other revenue the Contractor demonstrably brought to the Company, as "
+    "(e) Account Payout Revenue (Section 4.2), measured before deduction of the Contractor's share; and (f) any other revenue the Contractor demonstrably brought to the Company, as "
     "reasonably determined by the Company in good faith based on documented attribution. Non-cash "
     "consideration counts at its fair market value under Section 4.2. Qualifying Revenue is counted once, "
     "before deduction of the Contractor's share under Section 4.2, and accumulates across the Term (the "
@@ -605,8 +609,8 @@ story.append(P(
 story.append(P("10. Independent Contractor", heading_style))
 story.append(P(
     "<b>10.1 Relationship.</b> The Contractor is an independent contractor, not an employee, partner, joint "
-    "venturer, or agent of either Company Party. The Brand Deal Revenue share and the equity in Section 5 "
-    "are compensation mechanisms and, except for units actually issued under Section 5, create no "
+    "venturer, or agent of either Company Party. The Brand Deal Revenue share, the shares of Ad-Driven Revenue and Account Payout Revenue, and "
+    "the equity in Section 5 are compensation mechanisms and, except for units actually issued under Section 5, create no "
     "partnership, ownership, or profit interest in either Company Party, the Brand, or the Platform. The "
     "Contractor is not entitled to employee benefits from either Company Party."))
 story.append(P(
@@ -622,8 +626,7 @@ story.append(P(
 story.append(P(
     "<b>10.3 Performance through an entity.</b> On written notice to the Company, the Contractor may "
     "perform this Agreement through a limited liability company or other entity wholly owned by the "
-    "Contractor, in which case the Company will pay the Monthly Fee and Brand Deal Revenue share to that "
-    "entity, the entity will be bound by this Agreement, and the Contractor will remain personally bound by "
+    "Contractor, in which case the Company will pay all compensation under Section 4 to that entity, the entity will be bound by this Agreement, and the Contractor will remain personally bound by "
     "Sections 2.4 through 2.8, 5, 7, 8, 9, and 11 and will personally perform the Services. Units under "
     "Section 5 will be issued to the Contractor individually or to such entity as NSL and the Contractor "
     "agree, consistent with the Operating Agreement."))
@@ -710,7 +713,7 @@ story.append(P(
 story.append(P(
     "<b>13.3 Effect of termination.</b> Upon termination: (a) the Company will pay the Monthly Fee earned "
     "and prorated through the termination date, subject to Section 6; (b) the Company will pay the Brand "
-    "Deal Revenue share, the shares of Ad-Driven Revenue and Platform Revenue, and view bonuses on "
+    "Deal Revenue share, the shares of Ad-Driven Revenue and Account Payout Revenue, and view bonuses on "
     "amounts received or thresholds first reached through the termination date and during the Tail Period, on "
     "the normal schedule; (c) equity is governed by Sections 5.4 and 5.9; (d) the Contractor will comply "
     "with Section 9.6; and (e) Section 7.2 governs use of the Contractor's Likeness. If the Company "
@@ -836,7 +839,7 @@ rows = [
                                "counts once (Section 2.1(a))"],
     ["Monthly Fee", MONTHLY_FEE],
     ["Brand Deal Revenue share", BRAND_DEAL_SHARE],
-    ["Platform Revenue share", "50% of creator and monetization payouts on the Managed Accounts (Section 4.2)"],
+    ["Account Payout Revenue share", "50% of creator and monetization payouts on the Managed Accounts (Section 4.2)"],
     ["Initial Units", INITIAL_UNITS],
     ["Milestone Units", EQUITY_SUMMARY],
     ["Liquidated damages amount (Section 9.5)", LIQUIDATED_DAMAGES],
