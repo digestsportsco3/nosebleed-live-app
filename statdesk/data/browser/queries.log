@@ -132,3 +132,17 @@
 2026-09-22T23:21:54.302Z	Q012	stathead-browser	Discovery [hr_no_doubles] homers but no doubles	rows=1
 2026-09-22T23:21:57.937Z	Q013	stathead-browser	Discovery [workhorse_low_k] innings without strikeouts	rows=1
 2026-09-22T23:22:01.998Z	Q014	stathead-browser	Discovery [obp_no_power] on base with no power	rows=0
+2026-09-24T14:34:59.496Z	Q001	stathead-browser	Discovery [hr_low_avg] power with no average	rows=4
+2026-09-24T14:35:03.455Z	Q002	stathead-browser	Discovery [avg_no_walks] high average, no walks	rows=9
+2026-09-24T14:35:07.391Z	Q003	stathead-browser	Discovery [sb_low_obp] steals without getting on	rows=3
+2026-09-24T14:35:11.329Z	Q004	stathead-browser	Discovery [era_low_k] low ERA, low strikeouts	rows=0
+2026-09-24T14:35:15.472Z	Q005	stathead-browser	Discovery [rbi_low_ops] RBI on a bad bat	rows=1
+2026-09-24T14:35:19.347Z	Q006	stathead-browser	Discovery [hits_few_runs] hits without runs	rows=2
+2026-09-24T14:35:23.287Z	Q007	stathead-browser	Discovery [young_power] power at 22 or under	rows=3
+2026-09-24T14:35:27.510Z	Q008	stathead-browser	Discovery [old_bat] elite bat at 36 or older	rows=0
+2026-09-24T14:35:31.388Z	Q009	stathead-browser	Discovery [old_arm] elite arm at 37 or older	rows=1
+2026-09-24T14:35:35.450Z	Q010	stathead-browser	Discovery [k_no_wins] strikeouts, no wins	rows=1
+2026-09-24T14:35:39.370Z	Q011	stathead-browser	Discovery [saves_bad_era] saves with a bad ERA	rows=0
+2026-09-24T14:35:43.558Z	Q012	stathead-browser	Discovery [hr_no_doubles] homers but no doubles	rows=0
+2026-09-24T14:35:47.550Z	Q013	stathead-browser	Discovery [workhorse_low_k] innings without strikeouts	rows=1
+2026-09-24T14:35:51.450Z	Q014	stathead-browser	Discovery [obp_no_power] on base with no power	rows=0

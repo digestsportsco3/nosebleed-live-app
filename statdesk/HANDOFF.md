@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-23. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-09-24. THE PIPELINE IS BUILT AND WORKING END TO END.
 
 ### How it runs now
 
@@ -41,15 +41,48 @@ the day it goes out.
 ### Sent but not yet confirmed posted
 
 Crow-Armstrong, Misiorowski, Schwarber, Arraez, Alvarez, Caminero, Simpson,
-Montgomery, Machado, Adell, Alonso, Jensen, and as of Sep 23 the fresh ten:
-Burleson, Rice, Sánchez, Miller, Otto Lopez, Carroll, Reynolds, Herrera,
-Fluharty. Treat these as used; do not re-serve without a real change.
+Montgomery, Machado, Adell, Alonso, Jensen, Naylor, Clement, Caballero, Olson,
+Abrams, Burleson, Rice, Sánchez, Miller, Otto Lopez, Carroll, Reynolds,
+Herrera, Fluharty, and as of Sep 24 the fresh ten: Ben Rice (re-served, see
+below), Elly De La Cruz, Cal Raleigh, Cam Schlittler, Sandy Alcantara,
+Fernando Tatis Jr., Sonny Gray, Miguel Vargas, Randy Arozarena, and the
+Baz/Bibee/Singer 15-loss trio. Treat these as used; do not re-serve without a
+real change.
+
+Ben Rice appeared on Sep 23 at 39 HR and again on Sep 24 at 41. That is the
+ONLY legitimate kind of repeat: the number moved and the move was the story.
 
 ### Live watch items
 
-- Pete Crow-Armstrong: 45 HR, 39 SB. ONE steal from 40-40. Also leads MLB in
-  runs with 119. Could land any night.
-- Ben Rice: 39 HR, one from becoming the seventh player to reach 40.
+- Pete Crow-Armstrong: 45 HR, 39 SB as of Sep 24, UNCHANGED from Sep 23. ONE
+  steal from 40-40. Also leads MLB in runs with 119. Held out of the Sep 24
+  brief precisely because nothing moved; the moment he steals it he leads the
+  next one.
+- Elly De La Cruz: 29 HR / 29 SB. One of each from 30-30, which would make him
+  the third this season after Crow-Armstrong and CJ Abrams.
+- MLB wins lead: Sonny Gray reached 18 on Sep 24 and TIED Cristopher Sánchez.
+  The Sep 23 brief said Sánchez led alone, which was true that day. Either man
+  can take it outright in the final week.
+- Ben Rice: reached 40 and is now at 41. Milestone landed Sep 24.
+
+### What went out on Sep 24 (verification notes)
+
+All ten claims recomputed across the complete pull. Two verification passes
+were run; the first caught four bad claims, which is why the pass is not
+optional:
+
+- 30-30 club already contains Crow-Armstrong and CJ Abrams — a "first/only"
+  framing for De La Cruz would have been wrong. He is pitched as the THIRD.
+- Lowest average is Cal Raleigh .180, not Matt McLain (.187, second).
+- Most batter strikeouts is Colson Montgomery 222, not Neto.
+- Walks leader is Yordan Alvarez 107, not Harper.
+- Sonny Gray ties Sánchez at 18 wins; Sánchez no longer leads alone.
+
+Brand PDF note: the Google Fonts <link> does NOT load in the cloud renderer —
+Chromium there has no CA bundle and the TLS handshake fails, so Oswald silently
+falls back and the brief renders off-brand. Fetch the font CSS with curl (the
+proxy works), download the TTFs, and inline them as base64 @font-face. The
+Sep 24 build does this and is the template to copy.
 
 ### Known source behaviour
 
@@ -97,6 +130,9 @@ machine.
   5 stranded commits first (c82ddd9..4f9b349), then pull (db7634a), 21
   provenance records (589c3f5), Fresh 10 (03b08c5). API reachable from Nick's
   machine; age fix verified against Stathead.
+- 2026-09-24: fresh ten delivered (PDF + chat table). Workflow run
+  36013755425 succeeded, all 14 Stathead queries returned, 364 hitter lines
+  changed. Ben Rice reached 41 HR making seven 40-homer hitters.
 - 2026-09-15 AM: Nick's computer unreachable from remote control; cloud session
   could not see any of the above. This file, `handoff.sh`, and the push rule
   in `CLAUDE.md` added so it cannot happen again.
