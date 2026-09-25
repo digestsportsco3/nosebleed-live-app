@@ -29,6 +29,31 @@ and never started. Cancelling the queued local run released it instantly. With
 the runner in the key the fallback can always start, while two runs of the same
 kind still serialise. Do not collapse the key back to a single group.
 
+### Historical framing: statdesk/history.js
+
+The 14 DISCOVERY rules are all single-season. They find who is weird THIS year
+and can never answer "how rare is this", which is the framing that turns a
+milestone into a post. `statdesk/history.js` asks the multi-season question
+through the same signed-in browser (40-40, 30-30, 40/30 at 24 or under). It
+runs as a workflow step BEFORE ci.js, because ci.js is what commits.
+
+It exits non-zero rather than letting a failed or capped query pass as an empty
+list: "nobody has ever done this" and "the query broke" must never look alike.
+The step is continue-on-error, so a history failure costs the framing, not the
+brief.
+
+RECORDS ARE NAMESPACED BY PREFIX. history.js passes idPrefix "H"; the discovery
+pass uses the default "Q". On the first run they both numbered from Q001 into
+the same dated folder and the discovery pass overwrote all three history
+records seconds after they were written. The step reported success, because it
+had succeeded — only the output was gone. The append-only queries.log was the
+sole surviving evidence and the only reason it was caught. Any new caller
+writing into that folder must pass its own prefix.
+
+Verified 2026-09-25: 7 forty-forty seasons since 1901 (Ohtani 2024, Soriano
+2006, Crow-Armstrong 2026, Bonds 1996, Canseco 1988, Rodriguez 1998, Acuña
+2023) and 81 thirty-thirty seasons. Both complete, neither capped.
+
 ### RUN THE ACTIVE CHECK BEFORE EVERY BRIEF
 
     node statdesk/active-check.js <date> "Name" "Name" ...
@@ -70,10 +95,11 @@ Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
 `statdesk/posted.json`, which the pipeline filters on automatically. Add a name
 the day it goes out.
 
-### What went out on Sep 25 (API + ESPN only, no Stathead)
+### What went out on Sep 25
 
-The machine was offline, so the brief carried an explicit limit line and made
-NO historical claims. Crow-Armstrong and De La Cruz returned legitimately:
+First build ran API + ESPN only with the machine offline and carried an
+explicit limit line. The machine came up later; the final version is
+Stathead-verified and items 1 and 2 carry real historical framing. Crow-Armstrong and De La Cruz returned legitimately:
 both numbers moved overnight and the move was the story.
 
 1 Crow-Armstrong 45 HR / 40 SB — stole his 40th, the ONLY 40-40 player this
