@@ -30,7 +30,14 @@ class StatheadBrowser {
   // headless Chrome even with a valid session: the identical probe passes in a
   // headed browser (login.js) and fails headless. Set STATHEAD_HEADLESS=false
   // to run visibly, which is what the self-hosted runner does.
-  constructor({ profileDir, dataDir, runDate, headless } = {}) {
+  // idPrefix namespaces the saved records. Two callers writing into the same
+  // dated folder both numbered from Q001, so the discovery pass silently
+  // overwrote every history record on 2026-09-25 — the queries ran, returned,
+  // and their results were destroyed seconds later. The append-only
+  // queries.log was the only surviving evidence. Any new caller must pass its
+  // own prefix.
+  constructor({ profileDir, dataDir, runDate, headless, idPrefix } = {}) {
+    this.idPrefix = idPrefix || "Q";
     this.profileDir = profileDir || process.env.STATHEAD_PROFILE
       || path.join(process.env.HOME || process.env.USERPROFILE || ".", ".statdesk-chrome");
     this.headless = headless !== undefined ? headless
@@ -150,7 +157,7 @@ class StatheadBrowser {
     }
 
     this.n += 1;
-    const id = `Q${String(this.n).padStart(3, "0")}`;
+    const id = `${this.idPrefix}${String(this.n).padStart(3, "0")}`;
     const rec = { id, ts: new Date().toISOString(), url, label, note, emptyResult: !!data.emptyResult,
                   headers: data.headers, rows: data.rows, rowCount: data.rows.length,
                   reported: data.reported, capped: data.capped };

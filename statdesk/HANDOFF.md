@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-24. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-09-25. THE PIPELINE IS BUILT AND WORKING END TO END.
 
 ### How it runs now
 
@@ -20,6 +20,63 @@ Setup is `statdesk/SELF-HOSTED.md` and is already done.
 Dispatch it with the `statdesk.yml` workflow, inputs `runner: self-hosted` and
 `stathead: true`. If the runner is offline the job sits queued: cancel it and
 re-dispatch with `runner: github` for the API-only path, and say so in the brief.
+
+CONCURRENCY, fixed 2026-09-25: the group key now includes the runner choice.
+Before the fix both jobs shared `statdesk-<ref>`, so a self-hosted run sitting
+queued against a sleeping machine held the lock and the cloud fallback — whose
+entire purpose is to work when that machine is off — queued behind it forever
+and never started. Cancelling the queued local run released it instantly. With
+the runner in the key the fallback can always start, while two runs of the same
+kind still serialise. Do not collapse the key back to a single group.
+
+### Historical framing: statdesk/history.js
+
+The 14 DISCOVERY rules are all single-season. They find who is weird THIS year
+and can never answer "how rare is this", which is the framing that turns a
+milestone into a post. `statdesk/history.js` asks the multi-season question
+through the same signed-in browser (40-40, 30-30, 40/30 at 24 or under). It
+runs as a workflow step BEFORE ci.js, because ci.js is what commits.
+
+It exits non-zero rather than letting a failed or capped query pass as an empty
+list: "nobody has ever done this" and "the query broke" must never look alike.
+The step is continue-on-error, so a history failure costs the framing, not the
+brief.
+
+RECORDS ARE NAMESPACED BY PREFIX. history.js passes idPrefix "H"; the discovery
+pass uses the default "Q". On the first run they both numbered from Q001 into
+the same dated folder and the discovery pass overwrote all three history
+records seconds after they were written. The step reported success, because it
+had succeeded — only the output was gone. The append-only queries.log was the
+sole surviving evidence and the only reason it was caught. Any new caller
+writing into that folder must pass its own prefix.
+
+Verified 2026-09-25: 7 forty-forty seasons since 1901 (Ohtani 2024, Soriano
+2006, Crow-Armstrong 2026, Bonds 1996, Canseco 1988, Rodriguez 1998, Acuña
+2023) and 81 thirty-thirty seasons. Both complete, neither capped.
+
+### RUN THE ACTIVE CHECK BEFORE EVERY BRIEF
+
+    node statdesk/active-check.js <date> "Name" "Name" ...
+
+Every name in the brief, no exceptions. Exit code 1 means do not publish a
+"right now" claim about the flagged player.
+
+Why it exists: on 2026-09-25 the brief led an item with Rafael Devers at a
+1.360 OPS over the last 30 days — the highest in baseball, correctly computed
+across the complete pull, and wrong to publish. He had not taken a plate
+appearance in FOURTEEN days. The 30-day window was carrying a hot stretch that
+ended before the window closed. Nick caught it, which is precisely the homework
+this pipeline is supposed to abolish. Replaced with Nolan Arenado, .455 over
+the last ten days and playing daily.
+
+The lesson generalises: A TRAILING-WINDOW STAT IS A HISTORICAL STAT FOR AN
+INJURED PLAYER. Verifying a number is true is not the same as verifying it is
+current. Season totals are safe; any "last 30 days", "since the break", "over
+his last N" framing is not, unless the player is still on the field.
+
+Thresholds are role-aware. A flat 3-game floor flagged Gavin Williams, who had
+thrown 7 shutout innings four days earlier — starters make one or two turns in
+ten days. Starters need 1+, everyday players and relievers 3+.
 
 ### What Nick wants from a brief
 
@@ -38,6 +95,27 @@ Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
 `statdesk/posted.json`, which the pipeline filters on automatically. Add a name
 the day it goes out.
 
+### What went out on Sep 25
+
+First build ran API + ESPN only with the machine offline and carried an
+explicit limit line. The machine came up later; the final version is
+Stathead-verified and items 1 and 2 carry real historical framing. Crow-Armstrong and De La Cruz returned legitimately:
+both numbers moved overnight and the move was the story.
+
+1 Crow-Armstrong 45 HR / 40 SB — stole his 40th, the ONLY 40-40 player this
+season (all-time framing deliberately not asserted). 2 De La Cruz 30 HR / 29 SB,
+one steal from 30-30. 3 Nolan Arenado .455 over the last 10 days (REPLACED Rafael Devers, who led
+the first draft on a 30-day number while two weeks into an injury — see the
+active check above). 4 Cade Smith 41 SV.
+5 Gavin Williams 244 K. 6 Brewers 100-59. 7 Jake McCarthy 30/13/32.
+8 Jordan Walker 100 RBI at 24. 9 Tyler Rogers 32 holds at 35.
+10 Sam Antonacci 28 HBP.
+
+Passes corrected four claims. The activity failure (Devers) plus three number
+errors: Walker is NOT the youngest with
+100 RBI (Sal Stewart, 22, is); Rogers is TIED at 32 holds with Kelly and
+Gaddis, not alone; Rogers is not the appearances leader (Fluharty, 81 G).
+
 ### Sent but not yet confirmed posted
 
 Crow-Armstrong, Misiorowski, Schwarber, Arraez, Alvarez, Caminero, Simpson,
@@ -54,12 +132,14 @@ ONLY legitimate kind of repeat: the number moved and the move was the story.
 
 ### Live watch items
 
-- Pete Crow-Armstrong: 45 HR, 39 SB as of Sep 24, UNCHANGED from Sep 23. ONE
-  steal from 40-40. Also leads MLB in runs with 119. Held out of the Sep 24
-  brief precisely because nothing moved; the moment he steals it he leads the
-  next one.
-- Elly De La Cruz: 29 HR / 29 SB. One of each from 30-30, which would make him
-  the third this season after Crow-Armstrong and CJ Abrams.
+- Pete Crow-Armstrong: DONE. Stole his 40th overnight into Sep 25. 45 HR /
+  40 SB, the only 40-40 player this season. Held out of Sep 24 for not moving,
+  led Sep 25 the moment he did — the no-repeat rule working as intended.
+- Elly De La Cruz: 30 HR / 29 SB. ONE steal from 30-30 (was one of each on
+  Sep 24). Would be the third 30-30 man this season after Crow-Armstrong and
+  CJ Abrams.
+- Strikeout title undecided: Misiorowski 247, Gavin Williams 244, Cease 239,
+  Schlittler 239, with a weekend to play.
 - MLB wins lead: Sonny Gray reached 18 on Sep 24 and TIED Cristopher Sánchez.
   The Sep 23 brief said Sánchez led alone, which was true that day. Either man
   can take it outright in the final week.

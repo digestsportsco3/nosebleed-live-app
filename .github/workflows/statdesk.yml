@@ -47,8 +47,15 @@ on:
 permissions:
   contents: write
 
+# The runner choice is PART OF THE GROUP KEY, deliberately. With a single
+# shared group, a self-hosted run that sits queued because Nick's machine is
+# asleep holds the lock indefinitely, and the cloud fallback — the entire point
+# of which is to work when that machine is off — queues behind it and never
+# starts. That happened on 2026-09-25 and cost the morning's brief. Keyed this
+# way, the fallback can always run, while two runs of the SAME kind still
+# serialise so they cannot race each other's commit.
 concurrency:
-  group: statdesk-${{ github.ref }}
+  group: statdesk-${{ github.ref }}-${{ inputs.runner }}
   cancel-in-progress: false
 
 jobs:
@@ -78,6 +85,28 @@ jobs:
       - name: Install dependencies
         shell: cmd
         run: npm install --no-audit --no-fund
+
+      # Multi-season "how rare is this" queries. Separate from the discovery
+      # set, which only ever asks about the current season and so cannot frame
+      # a milestone. Runs BEFORE ci.js because ci.js is what commits; a step
+      # after it would write provenance that never gets pushed.
+      #
+      # continue-on-error: a failed history query must not cost us the brief.
+      # history.js exits non-zero rather than reporting an empty list as an
+      # answer, and the brief simply makes no historical claim that day.
+      - name: Stathead history queries
+        if: inputs.stathead
+        continue-on-error: true
+        shell: cmd
+        env:
+          # RUN_DATE may be blank, meaning "today, US Eastern". history.js
+          # resolves that the same way ci.js does, so both halves of a run
+          # write into one dated folder. Passing it through the environment
+          # rather than as an argument avoids an empty argv slot.
+          RUN_DATE: ${{ inputs.date }}
+          STATHEAD_PROFILE: C:\statdesk-chrome
+          STATHEAD_HEADLESS: "false"
+        run: node statdesk/history.js
 
       - name: Run Stat Desk
         shell: cmd
