@@ -47,8 +47,15 @@ on:
 permissions:
   contents: write
 
+# The runner choice is PART OF THE GROUP KEY, deliberately. With a single
+# shared group, a self-hosted run that sits queued because Nick's machine is
+# asleep holds the lock indefinitely, and the cloud fallback — the entire point
+# of which is to work when that machine is off — queues behind it and never
+# starts. That happened on 2026-09-25 and cost the morning's brief. Keyed this
+# way, the fallback can always run, while two runs of the SAME kind still
+# serialise so they cannot race each other's commit.
 concurrency:
-  group: statdesk-${{ github.ref }}
+  group: statdesk-${{ github.ref }}-${{ inputs.runner }}
   cancel-in-progress: false
 
 jobs:
