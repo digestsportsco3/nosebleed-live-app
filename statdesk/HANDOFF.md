@@ -29,6 +29,30 @@ and never started. Cancelling the queued local run released it instantly. With
 the runner in the key the fallback can always start, while two runs of the same
 kind still serialise. Do not collapse the key back to a single group.
 
+### RUN THE ACTIVE CHECK BEFORE EVERY BRIEF
+
+    node statdesk/active-check.js <date> "Name" "Name" ...
+
+Every name in the brief, no exceptions. Exit code 1 means do not publish a
+"right now" claim about the flagged player.
+
+Why it exists: on 2026-09-25 the brief led an item with Rafael Devers at a
+1.360 OPS over the last 30 days — the highest in baseball, correctly computed
+across the complete pull, and wrong to publish. He had not taken a plate
+appearance in FOURTEEN days. The 30-day window was carrying a hot stretch that
+ended before the window closed. Nick caught it, which is precisely the homework
+this pipeline is supposed to abolish. Replaced with Nolan Arenado, .455 over
+the last ten days and playing daily.
+
+The lesson generalises: A TRAILING-WINDOW STAT IS A HISTORICAL STAT FOR AN
+INJURED PLAYER. Verifying a number is true is not the same as verifying it is
+current. Season totals are safe; any "last 30 days", "since the break", "over
+his last N" framing is not, unless the player is still on the field.
+
+Thresholds are role-aware. A flat 3-game floor flagged Gavin Williams, who had
+thrown 7 shutout innings four days earlier — starters make one or two turns in
+ten days. Starters need 1+, everyday players and relievers 3+.
+
 ### What Nick wants from a brief
 
 - Ten ideas, each a claim that is ALREADY VERIFIED. Never "check before
@@ -54,12 +78,15 @@ both numbers moved overnight and the move was the story.
 
 1 Crow-Armstrong 45 HR / 40 SB — stole his 40th, the ONLY 40-40 player this
 season (all-time framing deliberately not asserted). 2 De La Cruz 30 HR / 29 SB,
-one steal from 30-30. 3 Rafael Devers 1.360 OPS last 30d. 4 Cade Smith 41 SV.
+one steal from 30-30. 3 Nolan Arenado .455 over the last 10 days (REPLACED Rafael Devers, who led
+the first draft on a 30-day number while two weeks into an injury — see the
+active check above). 4 Cade Smith 41 SV.
 5 Gavin Williams 244 K. 6 Brewers 100-59. 7 Jake McCarthy 30/13/32.
 8 Jordan Walker 100 RBI at 24. 9 Tyler Rogers 32 holds at 35.
 10 Sam Antonacci 28 HBP.
 
-Second pass corrected three first-pass claims: Walker is NOT the youngest with
+Passes corrected four claims. The activity failure (Devers) plus three number
+errors: Walker is NOT the youngest with
 100 RBI (Sal Stewart, 22, is); Rogers is TIED at 32 holds with Kelly and
 Gaddis, not alone; Rogers is not the appearances leader (Fluharty, 81 G).
 
