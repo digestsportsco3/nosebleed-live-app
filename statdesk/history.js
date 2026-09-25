@@ -60,7 +60,9 @@ async function main() {
   const season = Number(date.slice(0, 4));
   console.log(`History queries for ${date} (season ${season}).`);
   const dataDir = path.join(__dirname, "data", "browser");
-  const sh = new StatheadBrowser({ dataDir, runDate: date });
+  // "H" so these records cannot collide with the discovery pass, which writes
+  // Q001.. into this same folder. Without it the later run overwrites these.
+  const sh = new StatheadBrowser({ dataDir, runDate: date, idPrefix: "H" });
 
   let queries = QUERIES(season);
   if (only) {
