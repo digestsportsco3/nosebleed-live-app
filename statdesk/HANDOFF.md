@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-25. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-09-26. THE PIPELINE IS BUILT AND WORKING END TO END.
 
 ### How it runs now
 
@@ -54,6 +54,20 @@ Verified 2026-09-25: 7 forty-forty seasons since 1901 (Ohtani 2024, Soriano
 2006, Crow-Armstrong 2026, Bonds 1996, Canseco 1988, Rodriguez 1998, Acuña
 2023) and 81 thirty-thirty seasons. Both complete, neither capped.
 
+### NAMES ARE NOT UNIQUE — resolve by player id
+
+There are two Max Muncys in the league (Dodgers id 571970, 29 HR; Athletics id
+691777, 9 HR). A day-over-day diff keyed on fullName reported one of them
+gaining twenty home runs overnight on 2026-09-26. The data was fine; the
+comparison was wrong. Anything that joins players across two pulls must key on
+`player.id`, never the name.
+
+active-check.js had the same hazard in a worse place: it took the max games
+across same-named players, so asking about an injured player would find his
+healthy namesake and wave him through — a false pass in the one guard built to
+catch a player who has stopped appearing. It now reports AMBIGUOUS and fails
+rather than guessing.
+
 ### RUN THE ACTIVE CHECK BEFORE EVERY BRIEF
 
     node statdesk/active-check.js <date> "Name" "Name" ...
@@ -94,6 +108,23 @@ ten days. Starters need 1+, everyday players and relievers 3+.
 Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
 `statdesk/posted.json`, which the pipeline filters on automatically. Add a name
 the day it goes out.
+
+### What went out on Sep 26
+
+1 De La Cruz 30-30 landed (82nd in history per Stathead's 81 prior, third of
+2026) 2 Chase Burns 15-3 best win pct 3 Kevin McGonigle 95 BB at 21 4 James
+Wood 30/20/100 only 5 Hunter Goodman 39 HR 6 Dylan Cease 239 K 7 Jeffrey
+Springs 4-14 6.18 8 Mike Trout 106 BB 9 Oneil Cruz 20/30 in 96 G 10 Gabriel
+Moreno .311 catcher. Nine fresh; De La Cruz returned on the milestone.
+
+The active check pulled Michael Lorenzen before print: worst ERA in baseball
+(7.21) but no appearance in ten days, so the item was stale. Replaced with
+Springs, who is still starting. Second save by that check in two days.
+
+STATHEAD LAG CONFIRMED: its 30-30 table had 81 rows and did NOT include De La
+Cruz's same-day steal, and listed Crow-Armstrong at 40 SB and Abrams at 33
+while the live API had 41 and 34. About one day behind. That is why his is the
+82nd rather than one of the 81.
 
 ### What went out on Sep 25
 
