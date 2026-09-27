@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-26. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-09-27. THE PIPELINE IS BUILT AND WORKING END TO END.
 
 ### How it runs now
 
@@ -108,6 +108,49 @@ ten days. Starters need 1+, everyday players and relievers 3+.
 Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
 `statdesk/posted.json`, which the pipeline filters on automatically. Add a name
 the day it goes out.
+
+### THE REGULAR SEASON ENDED 2026-09-27 — read this before the next run
+
+Sept 27 was game 162: every club had played 161 with 15 games scheduled. The
+daily fresh-ten format has now run out of regular season, and roughly 60
+players have been used (see the sent list). Do NOT dispatch a routine daily
+pull tomorrow expecting new leaderboard movement; there will be none until the
+postseason generates it.
+
+What to ask Nick before the next brief:
+- Postseason coverage instead of a daily ten? Different shape: series previews,
+  matchup splits, bullpen usage.
+- Season-in-review / awards briefs? The data for these is already pulled and
+  the exclusion list stops mattering, because the frame changes from "who is
+  new" to "who was best".
+- Final standings and league leaders as a one-off wrap?
+
+The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
+decision. Nothing in the pipeline has to change to support any of the above.
+
+### Unresolved as of the final morning (check the results before reusing)
+
+These were live when the Sept 27 brief went out and are now settled. Anything
+reusing them must re-pull, not copy the brief:
+- HR title TIED: Crow-Armstrong 45, Schwarber 45
+- Strikeout title: Gavin Williams 248, Misiorowski 247 (one apart)
+- Saves TIED: Cade Smith 41, Bryan Baker 41
+- Wins TIED: Sonny Gray 18, Cristopher Sánchez 18
+- Brice Turang on 99 RBI, one short of 100
+
+### What went out on Sep 27
+
+1 HR title tied 45-45 2 Hunter Goodman 41 (hit two, joined the 40 club, now
+eight deep) 3 K title one apart 4 Saves tied 5 Ohtani two-way: 30 HR/.890 OPS
+and 8-2/1.79/95K 6 Juan Soto .919 OPS in 110 G 7 Bobby Witt Jr. 45 SB + 33 2B
+8 Yamamoto 0.87 WHIP 9 Paul Skenes 200 K with a losing record 10 Brice Turang
+99 RBI. Six fresh; the four race items reused sent names deliberately because
+on the final day the race IS the story, not the player.
+
+Ohtani had never been used and is the strongest single item: he pitched 85.2
+innings at a 1.79 ERA while hitting 30 homers. Worth remembering that the
+pitching file must be checked for two-way players — scanning only the hitting
+file hides half of him.
 
 ### What went out on Sep 26
 
