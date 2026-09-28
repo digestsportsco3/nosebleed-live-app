@@ -2637,6 +2637,181 @@
   },
   {
    "n": 29,
+   "rule": "young_avg",
+   "group": "H",
+   "decade": 1940,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.33
+     ]
+    ],
+    "seasonMin": 1940,
+    "seasonMax": 1949
+   },
+   "evidence": [
+    {
+     "season": 1941,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 22,
+     "PA": 604,
+     "AVG": 0.406,
+     "OBP": 0.551,
+     "SLG": 0.735,
+     "OPS": 1.286,
+     "HR": 37,
+     "RBI": 120,
+     "R": 135,
+     "H": 185,
+     "2B": 33,
+     "3B": 3,
+     "SB": 2,
+     "CS": 4,
+     "BB": 145,
+     "SO": 27,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1943,
+     "id": 119602,
+     "name": "Stan Musial",
+     "team": "St. Louis Cardinals",
+     "age": 22,
+     "PA": 701,
+     "AVG": 0.357,
+     "OBP": 0.425,
+     "SLG": 0.562,
+     "OPS": 0.987,
+     "HR": 13,
+     "RBI": 81,
+     "R": 108,
+     "H": 220,
+     "2B": 48,
+     "3B": 20,
+     "SB": 9,
+     "CS": null,
+     "BB": 72,
+     "SO": 18,
+     "HBP": 2,
+     "GIDP": 17
+    },
+    {
+     "season": 1940,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 21,
+     "PA": 661,
+     "AVG": 0.344,
+     "OBP": 0.442,
+     "SLG": 0.594,
+     "OPS": 1.036,
+     "HR": 23,
+     "RBI": 113,
+     "R": 134,
+     "H": 193,
+     "2B": 43,
+     "3B": 14,
+     "SB": 4,
+     "CS": 4,
+     "BB": 96,
+     "SO": 54,
+     "HBP": 3,
+     "GIDP": 13
+    },
+    {
+     "season": 1941,
+     "id": 121050,
+     "name": "Pete Reiser",
+     "team": "Brooklyn Dodgers",
+     "age": 22,
+     "PA": 601,
+     "AVG": 0.343,
+     "OBP": 0.406,
+     "SLG": 0.558,
+     "OPS": 0.964,
+     "HR": 14,
+     "RBI": 76,
+     "R": 117,
+     "H": 184,
+     "2B": 39,
+     "3B": 17,
+     "SB": 4,
+     "CS": null,
+     "BB": 46,
+     "SO": 71,
+     "HBP": 11,
+     "GIDP": 6
+    },
+    {
+     "season": 1948,
+     "id": 110349,
+     "name": "Richie Ashburn",
+     "team": "Philadelphia Phillies",
+     "age": 21,
+     "PA": 530,
+     "AVG": 0.333,
+     "OBP": 0.41,
+     "SLG": 0.4,
+     "OPS": 0.81,
+     "HR": 2,
+     "RBI": 40,
+     "R": 78,
+     "H": 154,
+     "2B": 17,
+     "3B": 4,
+     "SB": 32,
+     "CS": null,
+     "BB": 60,
+     "SO": 22,
+     "HBP": 1,
+     "GIDP": 1
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.465,
+   "players": [
+    {
+     "id": 124341,
+     "name": "Ted Williams"
+    },
+    {
+     "id": 119602,
+     "name": "Stan Musial"
+    },
+    {
+     "id": 121050,
+     "name": "Pete Reiser"
+    },
+    {
+     "id": 110349,
+     "name": "Richie Ashburn"
+    }
+   ],
+   "seasons": [
+    1941,
+    1943,
+    1940,
+    1941,
+    1948
+   ],
+   "text": "Just four hitters of the 1940s batted .330 at age 22 or younger (500+ PA): Ted Williams (2×, best 1941: .406 at 22); Stan Musial (1943: .357 at 22); Pete Reiser (1941: .343 at 22); Richie Ashburn (1948: .333 at 21)."
+  },
+  {
+   "n": 30,
    "rule": "relief_wins",
    "group": "P",
    "decade": 1940,
@@ -2742,7 +2917,7 @@
    "text": "Just three pitchers of the 1940s won 12+ games without a start: Earl Caldwell (1946: 13-4, 0 GS); Joe Page (1949: 13-8, 0 GS); Johnny Murphy (1943: 12-4, 0 GS)."
   },
   {
-   "n": 30,
+   "n": 31,
    "rule": "shutouts",
    "group": "P",
    "decade": 1940,
@@ -2855,7 +3030,367 @@
    "text": "Just four pitchers of the 1940s threw 8+ shutouts: Mort Cooper (1942: 10 SHO); Bob Feller (1946: 10 SHO); Bob Lemon (1948: 10 SHO); Hal Newhouser (1945: 8 SHO)."
   },
   {
-   "n": 31,
+   "n": 32,
+   "rule": "k_per_9",
+   "group": "P",
+   "decade": 1940,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "SO9",
+      "gte",
+      6.5
+     ]
+    ],
+    "seasonMin": 1940,
+    "seasonMax": 1949
+   },
+   "evidence": [
+    {
+     "season": 1946,
+     "id": 119739,
+     "name": "Hal Newhouser",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "W": 26,
+     "L": 9,
+     "ERA": 1.94,
+     "IP": "292.2",
+     "SO": 275,
+     "BB": 98,
+     "SV": 1,
+     "GS": 34,
+     "CG": 29,
+     "SHO": 6,
+     "HRA": 10,
+     "WHIP": 1.07
+    },
+    {
+     "season": 1946,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "W": 26,
+     "L": 15,
+     "ERA": 2.18,
+     "IP": "371.1",
+     "SO": 348,
+     "BB": 153,
+     "SV": 4,
+     "GS": 42,
+     "CG": 36,
+     "SHO": 10,
+     "HRA": 11,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1941,
+     "id": 123638,
+     "name": "Johnny Vander Meer",
+     "team": "Cincinnati Reds",
+     "age": 26,
+     "W": 16,
+     "L": 13,
+     "ERA": 2.82,
+     "IP": "226.1",
+     "SO": 202,
+     "BB": 126,
+     "SV": 0,
+     "GS": 32,
+     "CG": 18,
+     "SHO": 6,
+     "HRA": 8,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1940,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 21,
+     "W": 27,
+     "L": 11,
+     "ERA": 2.61,
+     "IP": "320.1",
+     "SO": 261,
+     "BB": 118,
+     "SV": 4,
+     "GS": 37,
+     "CG": 31,
+     "SHO": 4,
+     "HRA": 13,
+     "WHIP": 1.13
+    },
+    {
+     "season": 1942,
+     "id": 123638,
+     "name": "Johnny Vander Meer",
+     "team": "Cincinnati Reds",
+     "age": 27,
+     "W": 18,
+     "L": 12,
+     "ERA": 2.43,
+     "IP": "244.0",
+     "SO": 186,
+     "BB": 102,
+     "SV": 0,
+     "GS": 33,
+     "CG": 21,
+     "SHO": 4,
+     "HRA": 6,
+     "WHIP": 1.19
+    },
+    {
+     "season": 1943,
+     "id": 121100,
+     "name": "Allie Reynolds",
+     "team": "Cleveland Indians",
+     "age": 26,
+     "W": 11,
+     "L": 12,
+     "ERA": 2.99,
+     "IP": "198.2",
+     "SO": 151,
+     "BB": 109,
+     "SV": 3,
+     "GS": 21,
+     "CG": 11,
+     "SHO": 3,
+     "HRA": 3,
+     "WHIP": 1.25
+    },
+    {
+     "season": 1941,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 22,
+     "W": 25,
+     "L": 13,
+     "ERA": 3.15,
+     "IP": "343.0",
+     "SO": 260,
+     "BB": 194,
+     "SV": 2,
+     "GS": 40,
+     "CG": 28,
+     "SHO": 6,
+     "HRA": 15,
+     "WHIP": 1.39
+    },
+    {
+     "season": 1943,
+     "id": 119739,
+     "name": "Hal Newhouser",
+     "team": "Detroit Tigers",
+     "age": 22,
+     "W": 8,
+     "L": 17,
+     "ERA": 3.04,
+     "IP": "195.2",
+     "SO": 144,
+     "BB": 111,
+     "SV": 1,
+     "GS": 25,
+     "CG": 10,
+     "SHO": 1,
+     "HRA": 3,
+     "WHIP": 1.4
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 6.211417995444191,
+   "players": [
+    {
+     "id": 119739,
+     "name": "Hal Newhouser"
+    },
+    {
+     "id": 114055,
+     "name": "Bob Feller"
+    },
+    {
+     "id": 123638,
+     "name": "Johnny Vander Meer"
+    },
+    {
+     "id": 121100,
+     "name": "Allie Reynolds"
+    }
+   ],
+   "seasons": [
+    1946,
+    1946,
+    1941,
+    1940,
+    1942,
+    1943,
+    1941,
+    1943
+   ],
+   "text": "Just four pitchers of the 1940s struck out 6.5+ per nine innings (162+ IP): Hal Newhouser (2×, best 1946: 8.5 K/9, 275 K); Bob Feller (3×, best 1946: 8.4 K/9, 348 K); Johnny Vander Meer (2×, best 1941: 8.0 K/9, 202 K); Allie Reynolds (1943: 6.8 K/9, 151 K)."
+  },
+  {
+   "n": 33,
+   "rule": "sub_two",
+   "group": "P",
+   "decade": 1940,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      1.99
+     ]
+    ],
+    "seasonMin": 1940,
+    "seasonMax": 1949
+   },
+   "evidence": [
+    {
+     "season": 1943,
+     "id": 112187,
+     "name": "Spud Chandler",
+     "team": "New York Yankees",
+     "age": 35,
+     "W": 20,
+     "L": 4,
+     "ERA": 1.64,
+     "IP": "253.0",
+     "SO": 134,
+     "BB": 54,
+     "SV": 0,
+     "GS": 30,
+     "CG": 20,
+     "SHO": 5,
+     "HRA": 5,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1942,
+     "id": 112657,
+     "name": "Mort Cooper",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "W": 22,
+     "L": 7,
+     "ERA": 1.78,
+     "IP": "278.2",
+     "SO": 152,
+     "BB": 68,
+     "SV": 0,
+     "GS": 35,
+     "CG": 22,
+     "SHO": 10,
+     "HRA": 9,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1945,
+     "id": 119739,
+     "name": "Hal Newhouser",
+     "team": "Detroit Tigers",
+     "age": 24,
+     "W": 25,
+     "L": 9,
+     "ERA": 1.81,
+     "IP": "313.1",
+     "SO": 212,
+     "BB": 110,
+     "SV": 2,
+     "GS": 36,
+     "CG": 29,
+     "SHO": 8,
+     "HRA": 5,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1943,
+     "id": 117482,
+     "name": "Max Lanier",
+     "team": "St. Louis Cardinals",
+     "age": 27,
+     "W": 15,
+     "L": 7,
+     "ERA": 1.94,
+     "IP": "213.1",
+     "SO": 123,
+     "BB": 75,
+     "SV": 3,
+     "GS": 25,
+     "CG": 14,
+     "SHO": 2,
+     "HRA": 3,
+     "WHIP": 1.27
+    },
+    {
+     "season": 1946,
+     "id": 119739,
+     "name": "Hal Newhouser",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "W": 26,
+     "L": 9,
+     "ERA": 1.94,
+     "IP": "292.2",
+     "SO": 275,
+     "BB": 98,
+     "SV": 1,
+     "GS": 34,
+     "CG": 29,
+     "SHO": 6,
+     "HRA": 10,
+     "WHIP": 1.07
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.041,
+   "players": [
+    {
+     "id": 112187,
+     "name": "Spud Chandler"
+    },
+    {
+     "id": 112657,
+     "name": "Mort Cooper"
+    },
+    {
+     "id": 119739,
+     "name": "Hal Newhouser"
+    },
+    {
+     "id": 117482,
+     "name": "Max Lanier"
+    }
+   ],
+   "seasons": [
+    1943,
+    1942,
+    1945,
+    1943,
+    1946
+   ],
+   "text": "Just four pitchers of the 1940s posted an ERA under 2.00 (162+ IP): Spud Chandler (1943: 1.64 ERA in 253.0 IP); Mort Cooper (1942: 1.78 ERA in 278.2 IP); Hal Newhouser (2×, best 1945: 1.81 ERA in 313.1 IP); Max Lanier (1943: 1.94 ERA in 213.1 IP)."
+  },
+  {
+   "n": 34,
    "rule": "zero_hr_full",
    "group": "H",
    "decade": 1940,
@@ -3037,7 +3572,7 @@
    "text": "11 hitters played a full season without a single home run (600+ PA) in the 1940s (13 seasons). The most extreme: Johnny Pesky, 1947 — 0 HR in 719 PA."
   },
   {
-   "n": 32,
+   "n": 35,
    "kind": "extreme",
    "rule": "lowest_avg_100rbi",
    "group": "H",
@@ -3083,7 +3618,7 @@
    "text": "Lowest average by any 100-RBI hitter of the 1940s: Dolph Camilli, 1942 — .252 with 109 RBI."
   },
   {
-   "n": 33,
+   "n": 36,
    "kind": "extreme",
    "rule": "most_k_300hitter",
    "group": "H",
@@ -3129,7 +3664,7 @@
    "text": "Most strikeouts by a .300 hitter of the 1940s: Jimmie Foxx, 1941 — 103 K while batting .300."
   },
   {
-   "n": 34,
+   "n": 37,
    "kind": "extreme",
    "rule": "most_sb_30hr",
    "group": "H",
@@ -3175,7 +3710,7 @@
    "text": "Most steals by a 30-homer hitter of the 1940s: Joe Gordon, 1940 — 18 SB with 30 HR."
   },
   {
-   "n": 35,
+   "n": 38,
    "kind": "extreme",
    "rule": "most_hr_low_rbi",
    "group": "H",
@@ -3221,7 +3756,7 @@
    "text": "Most home runs per RBI of the 1940s: Ralph Kiner, 1949 — 54 HR but only 127 RBI."
   },
   {
-   "n": 36,
+   "n": 39,
    "kind": "extreme",
    "rule": "fewest_k_30hr",
    "group": "H",
@@ -3267,7 +3802,7 @@
    "text": "Fewest strikeouts by a 25-homer hitter of the 1940s: Tommy Holmes, 1945 — 9 K with 28 HR."
   },
   {
-   "n": 37,
+   "n": 40,
    "kind": "extreme",
    "rule": "highest_avg_low_hr",
    "group": "H",
@@ -3313,7 +3848,7 @@
    "text": "Highest average by a hitter with 3 homers or fewer: Harry Walker, 1947 — .363 with 1 HR."
   },
   {
-   "n": 38,
+   "n": 41,
    "kind": "extreme",
    "rule": "most_bb_low_avg",
    "group": "H",
@@ -3359,7 +3894,7 @@
    "text": "Most walks by a sub-.240 hitter of the 1940s: Roy Cullenbine, 1947 — 137 BB while batting .224."
   },
   {
-   "n": 39,
+   "n": 42,
    "kind": "extreme",
    "rule": "most_rbi_per_hr",
    "group": "H",
@@ -3405,7 +3940,7 @@
    "text": "Most RBI per home run among 100-RBI seasons: Billy Herman, 1943 — 100 RBI on 2 HR."
   },
   {
-   "n": 40,
+   "n": 43,
    "kind": "extreme",
    "rule": "most_wins_bad_era",
    "group": "P",
@@ -3446,7 +3981,7 @@
    "text": "Most wins by a pitcher with an ERA over 5.00: Elden Auker, 1941 — 14-15 with a 5.50 ERA."
   },
   {
-   "n": 41,
+   "n": 44,
    "kind": "extreme",
    "rule": "fewest_wins_low_era",
    "group": "P",
@@ -3487,7 +4022,7 @@
    "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Al Benton, 1942 — 7-13 despite a 2.90 ERA."
   },
   {
-   "n": 42,
+   "n": 45,
    "kind": "extreme",
    "rule": "most_k_losing",
    "group": "P",
@@ -3528,7 +4063,7 @@
    "text": "Most strikeouts by a pitcher with a losing record: Bobo Newsom, 1941 — 175 K, 12-20."
   },
   {
-   "n": 43,
+   "n": 46,
    "kind": "extreme",
    "rule": "most_losses_good_era",
    "group": "P",
@@ -3569,7 +4104,7 @@
    "text": "Most losses by a pitcher with an ERA under 3.50: Nate Andrews, 1943 — 14-20 with a 2.57 ERA."
   },
   {
-   "n": 44,
+   "n": 47,
    "kind": "extreme",
    "rule": "fewest_k_20w",
    "group": "P",
@@ -3610,7 +4145,7 @@
    "text": "Fewest strikeouts by a 20-game winner of the 1940s: Rip Sewell, 1943 — 65 K, 21-9."
   },
   {
-   "n": 45,
+   "n": 48,
    "kind": "extreme",
    "rule": "most_ip_no_cg",
    "group": "P",
@@ -3651,7 +4186,7 @@
    "text": "Most innings in a season without a complete game: Joe Page, 1947 — 141.1 IP, 0 CG."
   },
   {
-   "n": 46,
+   "n": 49,
    "kind": "extreme",
    "rule": "most_hra",
    "group": "P",
@@ -3692,7 +4227,7 @@
    "text": "Most home runs allowed in a season this decade: Murry Dickson, 1948 — 39 HR allowed, 12-16."
   },
   {
-   "n": 47,
+   "n": 50,
    "kind": "team",
    "rule": "100w",
    "group": "T",
@@ -3774,7 +4309,543 @@
    "text": "9 teams of the 1940s won 100 games; the best record was the 1942 Cardinals at 106-48."
   },
   {
-   "n": 48,
+   "n": 51,
+   "rule": "three_hundred_ip",
+   "group": "P",
+   "decade": 1940,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      300
+     ]
+    ],
+    "seasonMin": 1940,
+    "seasonMax": 1949
+   },
+   "evidence": [
+    {
+     "season": 1946,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "W": 26,
+     "L": 15,
+     "ERA": 2.18,
+     "IP": "371.1",
+     "SO": 348,
+     "BB": 153,
+     "SV": 4,
+     "GS": 42,
+     "CG": 36,
+     "SHO": 10,
+     "HRA": 11,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1944,
+     "id": 123479,
+     "name": "Dizzy Trout",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "W": 27,
+     "L": 14,
+     "ERA": 2.12,
+     "IP": "352.1",
+     "SO": 144,
+     "BB": 83,
+     "SV": 0,
+     "GS": 40,
+     "CG": 33,
+     "SHO": 7,
+     "HRA": 9,
+     "WHIP": 1.13
+    },
+    {
+     "season": 1941,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 22,
+     "W": 25,
+     "L": 13,
+     "ERA": 3.15,
+     "IP": "343.0",
+     "SO": 260,
+     "BB": 194,
+     "SV": 2,
+     "GS": 40,
+     "CG": 28,
+     "SHO": 6,
+     "HRA": 15,
+     "WHIP": 1.39
+    },
+    {
+     "season": 1940,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 21,
+     "W": 27,
+     "L": 11,
+     "ERA": 2.61,
+     "IP": "320.1",
+     "SO": 261,
+     "BB": 118,
+     "SV": 4,
+     "GS": 37,
+     "CG": 31,
+     "SHO": 4,
+     "HRA": 13,
+     "WHIP": 1.13
+    },
+    {
+     "season": 1948,
+     "id": 121623,
+     "name": "Johnny Sain",
+     "team": "Boston Braves",
+     "age": 30,
+     "W": 24,
+     "L": 15,
+     "ERA": 2.6,
+     "IP": "314.2",
+     "SO": 137,
+     "BB": 83,
+     "SV": 1,
+     "GS": 39,
+     "CG": 28,
+     "SHO": 4,
+     "HRA": 19,
+     "WHIP": 1.21
+    },
+    {
+     "season": 1945,
+     "id": 119739,
+     "name": "Hal Newhouser",
+     "team": "Detroit Tigers",
+     "age": 24,
+     "W": 25,
+     "L": 9,
+     "ERA": 1.81,
+     "IP": "313.1",
+     "SO": 212,
+     "BB": 110,
+     "SV": 2,
+     "GS": 36,
+     "CG": 29,
+     "SHO": 8,
+     "HRA": 5,
+     "WHIP": 1.11
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 114055,
+     "name": "Bob Feller"
+    }
+   ],
+   "seasons": [
+    1946
+   ],
+   "text": "9 pitchers threw 300 innings in the 1940s (13 seasons). The most extreme: Bob Feller, 1946 — 371.1 IP."
+  },
+  {
+   "n": 52,
+   "rule": "walks_many",
+   "group": "P",
+   "decade": 1940,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      130
+     ]
+    ],
+    "seasonMin": 1940,
+    "seasonMax": 1949
+   },
+   "evidence": [
+    {
+     "season": 1941,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 22,
+     "W": 25,
+     "L": 13,
+     "ERA": 3.15,
+     "IP": "343.0",
+     "SO": 260,
+     "BB": 194,
+     "SV": 2,
+     "GS": 40,
+     "CG": 28,
+     "SHO": 6,
+     "HRA": 15,
+     "WHIP": 1.39
+    },
+    {
+     "season": 1949,
+     "id": 111842,
+     "name": "Tommy Byrne",
+     "team": "New York Yankees",
+     "age": 29,
+     "W": 15,
+     "L": 7,
+     "ERA": 3.72,
+     "IP": "196.0",
+     "SO": 129,
+     "BB": 179,
+     "SV": 0,
+     "GS": 30,
+     "CG": 12,
+     "SHO": 3,
+     "HRA": 11,
+     "WHIP": 1.55
+    },
+    {
+     "season": 1943,
+     "id": 123638,
+     "name": "Johnny Vander Meer",
+     "team": "Cincinnati Reds",
+     "age": 28,
+     "W": 15,
+     "L": 16,
+     "ERA": 2.87,
+     "IP": "289.0",
+     "SO": 174,
+     "BB": 162,
+     "SV": 0,
+     "GS": 36,
+     "CG": 21,
+     "SHO": 3,
+     "HRA": 5,
+     "WHIP": 1.35
+    },
+    {
+     "season": 1946,
+     "id": 114055,
+     "name": "Bob Feller",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "W": 26,
+     "L": 15,
+     "ERA": 2.18,
+     "IP": "371.1",
+     "SO": 348,
+     "BB": 153,
+     "SV": 4,
+     "GS": 42,
+     "CG": 36,
+     "SHO": 10,
+     "HRA": 11,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1940,
+     "id": 112217,
+     "name": "Ken Chase",
+     "team": "Washington Senators",
+     "age": 26,
+     "W": 15,
+     "L": 17,
+     "ERA": 3.23,
+     "IP": "261.2",
+     "SO": 129,
+     "BB": 143,
+     "SV": 0,
+     "GS": 34,
+     "CG": 20,
+     "SHO": 1,
+     "HRA": 14,
+     "WHIP": 1.54
+    },
+    {
+     "season": 1947,
+     "id": 118279,
+     "name": "Phil Marchildon",
+     "team": "Philadelphia Athletics",
+     "age": 33,
+     "W": 19,
+     "L": 9,
+     "ERA": 3.22,
+     "IP": "276.2",
+     "SO": 128,
+     "BB": 141,
+     "SV": 0,
+     "GS": 35,
+     "CG": 21,
+     "SHO": 2,
+     "HRA": 15,
+     "WHIP": 1.33
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 114055,
+     "name": "Bob Feller"
+    }
+   ],
+   "seasons": [
+    1941
+   ],
+   "text": "13 pitchers walked 130+ batters in the 1940s (16 seasons). The most extreme: Bob Feller, 1941 — 194 BB."
+  },
+  {
+   "n": 53,
+   "kind": "streak",
+   "rule": "HR30",
+   "group": "H",
+   "decade": 1940,
+   "score": 6,
+   "players": [
+    {
+     "id": 124341,
+     "name": "Ted Williams"
+    }
+   ],
+   "seasons": [
+    1946,
+    1947,
+    1948,
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1946,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 672,
+     "AVG": 0.342,
+     "OBP": 0.497,
+     "SLG": 0.667,
+     "OPS": 1.164,
+     "HR": 38,
+     "RBI": 123,
+     "R": 142,
+     "H": 176,
+     "2B": 37,
+     "3B": 8,
+     "SB": 0,
+     "CS": 0,
+     "BB": 156,
+     "SO": 44,
+     "HBP": 2,
+     "GIDP": 12
+    },
+    {
+     "season": 1947,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "PA": 693,
+     "AVG": 0.343,
+     "OBP": 0.499,
+     "SLG": 0.634,
+     "OPS": 1.133,
+     "HR": 32,
+     "RBI": 114,
+     "R": 125,
+     "H": 181,
+     "2B": 40,
+     "3B": 9,
+     "SB": 0,
+     "CS": 1,
+     "BB": 162,
+     "SO": 47,
+     "HBP": 2,
+     "GIDP": 10
+    },
+    {
+     "season": 1948,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 638,
+     "AVG": 0.369,
+     "OBP": 0.497,
+     "SLG": 0.615,
+     "OPS": 1.112,
+     "HR": 25,
+     "RBI": 127,
+     "R": 124,
+     "H": 188,
+     "2B": 44,
+     "3B": 3,
+     "SB": 4,
+     "CS": 0,
+     "BB": 126,
+     "SO": 41,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1949,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "PA": 730,
+     "AVG": 0.343,
+     "OBP": 0.49,
+     "SLG": 0.65,
+     "OPS": 1.14,
+     "HR": 43,
+     "RBI": 159,
+     "R": 150,
+     "H": 194,
+     "2B": 39,
+     "3B": 3,
+     "SB": 1,
+     "CS": 1,
+     "BB": 162,
+     "SO": 48,
+     "HBP": 2,
+     "GIDP": 22
+    }
+   ],
+   "text": "Ted Williams hit 25+ home runs in 4 straight seasons (1946-49), the longest run of the 1940s."
+  },
+  {
+   "n": 54,
+   "kind": "streak",
+   "rule": "RBI100",
+   "group": "H",
+   "decade": 1940,
+   "score": 6,
+   "players": [
+    {
+     "id": 124341,
+     "name": "Ted Williams"
+    }
+   ],
+   "seasons": [
+    1946,
+    1947,
+    1948,
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1946,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 672,
+     "AVG": 0.342,
+     "OBP": 0.497,
+     "SLG": 0.667,
+     "OPS": 1.164,
+     "HR": 38,
+     "RBI": 123,
+     "R": 142,
+     "H": 176,
+     "2B": 37,
+     "3B": 8,
+     "SB": 0,
+     "CS": 0,
+     "BB": 156,
+     "SO": 44,
+     "HBP": 2,
+     "GIDP": 12
+    },
+    {
+     "season": 1947,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "PA": 693,
+     "AVG": 0.343,
+     "OBP": 0.499,
+     "SLG": 0.634,
+     "OPS": 1.133,
+     "HR": 32,
+     "RBI": 114,
+     "R": 125,
+     "H": 181,
+     "2B": 40,
+     "3B": 9,
+     "SB": 0,
+     "CS": 1,
+     "BB": 162,
+     "SO": 47,
+     "HBP": 2,
+     "GIDP": 10
+    },
+    {
+     "season": 1948,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 638,
+     "AVG": 0.369,
+     "OBP": 0.497,
+     "SLG": 0.615,
+     "OPS": 1.112,
+     "HR": 25,
+     "RBI": 127,
+     "R": 124,
+     "H": 188,
+     "2B": 44,
+     "3B": 3,
+     "SB": 4,
+     "CS": 0,
+     "BB": 126,
+     "SO": 41,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1949,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "PA": 730,
+     "AVG": 0.343,
+     "OBP": 0.49,
+     "SLG": 0.65,
+     "OPS": 1.14,
+     "HR": 43,
+     "RBI": 159,
+     "R": 150,
+     "H": 194,
+     "2B": 39,
+     "3B": 3,
+     "SB": 1,
+     "CS": 1,
+     "BB": 162,
+     "SO": 48,
+     "HBP": 2,
+     "GIDP": 22
+    }
+   ],
+   "text": "Ted Williams drove in 100+ runs in 4 straight seasons (1946-49), the longest run of the 1940s."
+  },
+  {
+   "n": 55,
    "kind": "age",
    "rule": "age_30hr_old",
    "group": "H",
@@ -3819,7 +4890,7 @@
    "text": "Oldest player of the 1940s to hit 25 home runs: Hank Greenberg, age 36 in 1947 — 25 HR."
   },
   {
-   "n": 49,
+   "n": 56,
    "kind": "age",
    "rule": "age_330_old",
    "group": "H",
@@ -3864,7 +4935,7 @@
    "text": "Oldest player of the 1940s to bat .330 (500+ PA): Rip Radcliff, age 34 in 1940 — .342."
   },
   {
-   "n": 50,
+   "n": 57,
    "kind": "age",
    "rule": "age_100rbi_old",
    "group": "H",
@@ -3909,7 +4980,7 @@
    "text": "Oldest player of the 1940s to drive in 100 runs: Bob Johnson, age 38 in 1944 — 106 RBI."
   },
   {
-   "n": 51,
+   "n": 58,
    "kind": "age",
    "rule": "age_sb_young",
    "group": "H",
@@ -3954,7 +5025,7 @@
    "text": "Youngest player of the 1940s to steal 30 bases: Richie Ashburn, age 21 in 1948 — 32 SB."
   },
   {
-   "n": 52,
+   "n": 59,
    "kind": "age",
    "rule": "age_sb_old",
    "group": "H",
@@ -3999,7 +5070,7 @@
    "text": "Oldest player of the 1940s to steal 30 bases: Wally Moses, age 32 in 1943 — 56 SB."
   },
   {
-   "n": 53,
+   "n": 60,
    "kind": "age",
    "rule": "age_20w_old",
    "group": "P",
@@ -4039,7 +5110,7 @@
    "text": "Oldest player of the 1940s to win 20 games: Spud Chandler, age 38 in 1946 — 20-8."
   },
   {
-   "n": 54,
+   "n": 61,
    "kind": "age",
    "rule": "age_k_old",
    "group": "P",
@@ -4079,7 +5150,7 @@
    "text": "Oldest player of the 1940s to strike out 150: Whit Wyatt, age 33 in 1941 — 176 K."
   },
   {
-   "n": 55,
+   "n": 62,
    "kind": "age",
    "rule": "age_era_old",
    "group": "P",
@@ -4119,7 +5190,7 @@
    "text": "Oldest player of the 1940s to post a qualified ERA under 2.75: Ted Lyons, age 41 in 1942 — 2.10 ERA."
   },
   {
-   "n": 56,
+   "n": 63,
    "kind": "nearmiss",
    "rule": "HR29",
    "group": "H",
@@ -4246,7 +5317,7 @@
    "text": "4 hitter-seasons of the 1940s ended on exactly 29 home runs, one short of 30 — among them Vern Stephens (1948), Bill Nicholson (1943), Joe Gordon (1947)."
   },
   {
-   "n": 57,
+   "n": 64,
    "kind": "teammates",
    "rule": "hr_pair",
    "group": "H",
@@ -4347,7 +5418,7 @@
    "text": "7 teams of the 1940s had two players at 30+ home runs; the biggest pairing was the 1947 New York Giants — Johnny Mize 51, Willard Marshall 36, Walker Cooper 35."
   },
   {
-   "n": 58,
+   "n": 65,
    "kind": "total",
    "rule": "dec_hr_nolead",
    "group": "H",
@@ -4381,7 +5452,7 @@
    "text": "Most home runs in the 1940s by a hitter who never led the majors in a season: Joe Gordon, 181."
   },
   {
-   "n": 59,
+   "n": 66,
    "kind": "total",
    "rule": "dec_hits",
    "group": "H",
@@ -4415,7 +5486,7 @@
    "text": "Most hits of the 1940s: Lou Boudreau, 1578."
   },
   {
-   "n": 60,
+   "n": 67,
    "kind": "total",
    "rule": "dec_sb",
    "group": "H",
@@ -4449,7 +5520,7 @@
    "text": "Most stolen bases of the 1940s: George Case, 285."
   },
   {
-   "n": 61,
+   "n": 68,
    "kind": "total",
    "rule": "dec_k_hit",
    "group": "H",
@@ -4483,7 +5554,7 @@
    "text": "Most strikeouts by a hitter in the 1940s: Bill Nicholson, 708."
   },
   {
-   "n": 62,
+   "n": 69,
    "kind": "total",
    "rule": "dec_3b",
    "group": "H",
@@ -4517,7 +5588,7 @@
    "text": "Most triples of the 1940s: Stan Musial, 108."
   },
   {
-   "n": 63,
+   "n": 70,
    "kind": "total",
    "rule": "dec_rbi",
    "group": "H",
@@ -4551,7 +5622,7 @@
    "text": "Most RBI of the 1940s: Bob Elliott, 903."
   },
   {
-   "n": 64,
+   "n": 71,
    "kind": "total",
    "rule": "dec_l",
    "group": "P",
@@ -4583,7 +5654,7 @@
    "text": "Most losses of the 1940s: Dutch Leonard, 123 — and 122 wins."
   },
   {
-   "n": 65,
+   "n": 72,
    "kind": "season",
    "rule": "n_30hr_most",
    "group": "H",
@@ -4639,7 +5710,7 @@
    "text": "1948 had 14 25-homer hitters, the most of any season in the 1940s."
   },
   {
-   "n": 66,
+   "n": 73,
    "kind": "season",
    "rule": "n_30hr_least",
    "group": "H",
@@ -4695,7 +5766,7 @@
    "text": "1944 had just 2 25-homer hitters, the fewest of any season in the 1940s."
   },
   {
-   "n": 67,
+   "n": 74,
    "kind": "season",
    "rule": "n_300_most",
    "group": "H",
@@ -4751,7 +5822,7 @@
    "text": "1940 had 29 .300 hitters (500+ PA), the most of any season in the 1940s."
   },
   {
-   "n": 68,
+   "n": 75,
    "kind": "season",
    "rule": "n_300_least",
    "group": "H",
@@ -4807,7 +5878,7 @@
    "text": "1943 had just 11 .300 hitters (500+ PA), the fewest of any season in the 1940s."
   },
   {
-   "n": 69,
+   "n": 76,
    "kind": "season",
    "rule": "n_100rbi_most",
    "group": "H",
@@ -4863,7 +5934,7 @@
    "text": "1948 had 16 100-RBI hitters, the most of any season in the 1940s."
   },
   {
-   "n": 70,
+   "n": 77,
    "kind": "season",
    "rule": "n_100rbi_least",
    "group": "H",
@@ -4919,7 +5990,7 @@
    "text": "1943 had just 6 100-RBI hitters, the fewest of any season in the 1940s."
   },
   {
-   "n": 71,
+   "n": 78,
    "kind": "season",
    "rule": "n_sb_most",
    "group": "H",
@@ -4975,7 +6046,7 @@
    "text": "1945 had 3 30-steal players, the most of any season in the 1940s."
   },
   {
-   "n": 72,
+   "n": 79,
    "kind": "season",
    "rule": "n_sb_least",
    "group": "H",
@@ -5031,7 +6102,7 @@
    "text": "1940 had just 1 30-steal players, the fewest of any season in the 1940s."
   },
   {
-   "n": 73,
+   "n": 80,
    "kind": "season",
    "rule": "n_200h_most",
    "group": "H",
@@ -5087,7 +6158,7 @@
    "text": "1940 had 3 200-hit seasons, the most of any season in the 1940s."
   },
   {
-   "n": 74,
+   "n": 81,
    "kind": "season",
    "rule": "n_200h_least",
    "group": "H",
@@ -5143,7 +6214,7 @@
    "text": "1941 had just 1 200-hit seasons, the fewest of any season in the 1940s."
   },
   {
-   "n": 75,
+   "n": 82,
    "kind": "season",
    "rule": "n_20w_most",
    "group": "P",
@@ -5199,7 +6270,7 @@
    "text": "1946 had 7 20-game winners, the most of any season in the 1940s."
   },
   {
-   "n": 76,
+   "n": 83,
    "kind": "season",
    "rule": "n_20w_least",
    "group": "P",
@@ -5255,7 +6326,7 @@
    "text": "1941 had just 4 20-game winners, the fewest of any season in the 1940s."
   },
   {
-   "n": 77,
+   "n": 84,
    "kind": "season",
    "rule": "n_k_most",
    "group": "P",
@@ -5311,7 +6382,7 @@
    "text": "1946 had 5 150-strikeout pitchers, the most of any season in the 1940s."
   },
   {
-   "n": 78,
+   "n": 85,
    "kind": "season",
    "rule": "n_k_least",
    "group": "P",
@@ -5367,7 +6438,7 @@
    "text": "1945 had just 1 150-strikeout pitchers, the fewest of any season in the 1940s."
   },
   {
-   "n": 79,
+   "n": 86,
    "kind": "team",
    "rule": "100l",
    "group": "T",
@@ -5449,7 +6520,7 @@
    "text": "10 teams of the 1940s lost 100 games; the worst was the 1941 Phillies at 43-111."
   },
   {
-   "n": 80,
+   "n": 87,
    "kind": "team",
    "rule": "best_diff",
    "group": "T",
@@ -5476,7 +6547,7 @@
    "text": "Best run differential of the 1940s: the 1942 Yankees, +294 (801 scored, 507 allowed)."
   },
   {
-   "n": 81,
+   "n": 88,
    "kind": "nearmiss",
    "rule": "AVG299",
    "group": "H",
@@ -5579,7 +6650,7 @@
    "text": "3 hitter-seasons of the 1940s ended on a .299 average, one point short of .300 — among them Sid Gordon (1948), Mickey Vernon (1941), Bobby Estalella (1945)."
   },
   {
-   "n": 82,
+   "n": 89,
    "kind": "nearmiss",
    "rule": "RBI99",
    "group": "H",
@@ -5653,7 +6724,7 @@
    "text": "2 hitter-seasons of the 1940s ended on exactly 99 RBI, one short of 100 — among them Chet Laabs (1942), Hank Sauer (1949)."
   },
   {
-   "n": 83,
+   "n": 90,
    "kind": "nearmiss",
    "rule": "H199",
    "group": "H",
@@ -5727,7 +6798,7 @@
    "text": "2 hitter-seasons of the 1940s ended on exactly 199 hits, one short of 200 — among them Lou Boudreau (1948), Jeff Heath (1941)."
   },
   {
-   "n": 84,
+   "n": 91,
    "rule": "old_arm",
    "group": "P",
    "decade": 1940,
@@ -5876,7 +6947,7 @@
    "text": "8 pitchers won 15+ games at age 37 or older in the 1940s. The most extreme: Rip Sewell, 1944 — 21-12 at 37."
   },
   {
-   "n": 85,
+   "n": 92,
    "rule": "obp_no_power",
    "group": "H",
    "decade": 1940,
@@ -6063,7 +7134,7 @@
    "text": "12 hitters posted a .400 on-base with 5 homers or fewer (500+ PA) in the 1940s (20 seasons). The most extreme: Eddie Stanky, 1946 — .436 OBP, 0 HR."
   },
   {
-   "n": 86,
+   "n": 93,
    "kind": "team",
    "rule": "worst_diff",
    "group": "T",
@@ -6090,7 +7161,7 @@
    "text": "Worst run differential of the 1940s: the 1945 Phillies, -317 (548 scored, 865 allowed)."
   },
   {
-   "n": 87,
+   "n": 94,
    "rule": "walks_over_hits",
    "group": "H",
    "decade": 1940,
@@ -6256,7 +7327,7 @@
    "text": "6 hitters drew more walks than hits (400+ PA) in the 1940s (8 seasons). The most extreme: Roy Cullenbine, 1947 — 137 BB, 104 H."
   },
   {
-   "n": 88,
+   "n": 95,
    "rule": "twenty_losses",
    "group": "P",
    "decade": 1940,
@@ -6404,7 +7475,7 @@
    "text": "11 pitchers lost 20 games in the 1940s (12 seasons). The most extreme: Hugh Mulcahy, 1940 — 13-22."
   },
   {
-   "n": 89,
+   "n": 96,
    "rule": "triples_over_hr",
    "group": "H",
    "decade": 1940,
@@ -6570,7 +7641,7 @@
    "text": "34 hitters hit 12+ triples and more triples than homers in the 1940s (40 seasons). The most extreme: Dale Mitchell, 1949 — 23 3B, 3 HR."
   },
   {
-   "n": 90,
+   "n": 97,
    "rule": "hr_over_k",
    "group": "H",
    "decade": 1940,
@@ -6736,7 +7807,7 @@
    "text": "6 hitters hit 25+ homers with more homers than strikeouts in the 1940s (10 seasons). The most extreme: Tommy Holmes, 1945 — 28 HR, 9 K."
   },
   {
-   "n": 91,
+   "n": 98,
    "rule": "low_k_full",
    "group": "H",
    "decade": 1940,
@@ -6918,7 +7989,7 @@
    "text": "10 hitters struck out 15 times or fewer in a full season (600+ PA) in the 1940s (16 seasons). The most extreme: Tommy Holmes, 1945 — 9 K in 713 PA."
   },
   {
-   "n": 92,
+   "n": 99,
    "rule": "whip_under_1",
    "group": "P",
    "decade": 1940,
@@ -7071,7 +8142,7 @@
    "text": "8 pitchers posted a WHIP of 1.05 or lower (162+ IP) in the 1940s. The most extreme: Mort Cooper, 1942 — 0.99 WHIP in 278.2 IP."
   },
   {
-   "n": 93,
+   "n": 100,
    "rule": "walk_machine",
    "group": "H",
    "decade": 1940,
@@ -7247,77 +8318,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:31:03.282Z",
+ "generatedAt": "2026-09-28T03:33:45.764Z",
  "sources": [
   {
    "season": 1940,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1940&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1940&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1940&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:59.442Z"
+   "pulledAt": "2026-09-28T03:33:40.407Z"
   },
   {
    "season": 1941,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1941&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1941&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1941&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:59.806Z"
+   "pulledAt": "2026-09-28T03:33:41.087Z"
   },
   {
    "season": 1942,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1942&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1942&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1942&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:00.180Z"
+   "pulledAt": "2026-09-28T03:33:41.536Z"
   },
   {
    "season": 1943,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1943&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1943&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1943&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:00.548Z"
+   "pulledAt": "2026-09-28T03:33:42.021Z"
   },
   {
    "season": 1944,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1944&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1944&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1944&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:00.914Z"
+   "pulledAt": "2026-09-28T03:33:42.605Z"
   },
   {
    "season": 1945,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1945&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1945&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1945&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:01.281Z"
+   "pulledAt": "2026-09-28T03:33:43.143Z"
   },
   {
    "season": 1946,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1946&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1946&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1946&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:01.650Z"
+   "pulledAt": "2026-09-28T03:33:43.605Z"
   },
   {
    "season": 1947,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1947&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1947&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1947&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:02.028Z"
+   "pulledAt": "2026-09-28T03:33:44.093Z"
   },
   {
    "season": 1948,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1948&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1948&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1948&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:02.426Z"
+   "pulledAt": "2026-09-28T03:33:44.661Z"
   },
   {
    "season": 1949,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1949&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1949&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1949&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:02.803Z"
+   "pulledAt": "2026-09-28T03:33:45.134Z"
   }
  ]
 }
