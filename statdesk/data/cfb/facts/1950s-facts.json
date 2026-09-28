@@ -5177,7 +5177,7 @@
  "counts": {
   "stathead_queries": 93
  },
- "shortNote": null,
+ "shortNote": "Player statistics begin in 1956, so this page covers four seasons of player data (1956-59) and ten of team data. Nothing was padded.",
  "method": [
   "College football: each line is one Stathead (Sports Reference college football) Season Finder query over the decade, run in a signed-in subscriber session; result rows and stable ids are stored as provenance. Counts cover the database's major-college (today's FBS) programs, the scope of Sports Reference's college records.",
   "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier; college defensive statistics were long unofficial, so defensive lines count only the players whose figures the database holds. 'Freshman' follows the database's class label, which includes redshirt freshmen. Seasons include bowl games where the database counts them. The 1860s hold a single season (1869), too little to support a line."
