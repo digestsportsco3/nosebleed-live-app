@@ -994,7 +994,7 @@
      "season": 1998,
      "id": 116615,
      "name": "Randy Johnson",
-     "team": "Houston Astros",
+     "team": "2+ teams",
      "age": 34,
      "W": 19,
      "L": 11,
@@ -1750,7 +1750,7 @@
      "season": 1997,
      "id": 119812,
      "name": "Otis Nixon",
-     "team": "Los Angeles Dodgers",
+     "team": "2+ teams",
      "age": 38,
      "PA": 655,
      "AVG": 0.266,
@@ -2462,7 +2462,7 @@
      "season": 1990,
      "id": 122426,
      "name": "Lee Smith",
-     "team": "St. Louis Cardinals",
+     "team": "2+ teams",
      "age": 32,
      "W": 5,
      "L": 5,
@@ -2519,7 +2519,7 @@
      "season": 1993,
      "id": 122426,
      "name": "Lee Smith",
-     "team": "New York Yankees",
+     "team": "2+ teams",
      "age": 35,
      "W": 2,
      "L": 4,
@@ -3119,7 +3119,7 @@
      "season": 1999,
      "id": 116326,
      "name": "Brian L. Hunter",
-     "team": "Seattle Mariners",
+     "team": "2+ teams",
      "age": 28,
      "PA": 589,
      "AVG": 0.232,
@@ -4917,7 +4917,7 @@
      "season": 1996,
      "id": 124755,
      "name": "Todd Zeile",
-     "team": "Baltimore Orioles",
+     "team": "2+ teams",
      "age": 30,
      "PA": 704,
      "AVG": 0.263,
@@ -5013,7 +5013,7 @@
      "season": 1995,
      "id": 111199,
      "name": "Bobby Bonilla",
-     "team": "Baltimore Orioles",
+     "team": "2+ teams",
      "age": 32,
      "PA": 614,
      "AVG": 0.329,
@@ -5940,7 +5940,7 @@
      "season": 1990,
      "id": 118694,
      "name": "Willie McGee",
-     "team": "Oakland Athletics",
+     "team": "2+ teams",
      "age": 31,
      "PA": 665,
      "AVG": 0.324,
@@ -6086,111 +6086,10 @@
      "GIDP": 17
     }
    ],
-   "text": "8 teams of the 1990s had two players at 40+ home runs; the biggest pairing was the 1997 Colorado Rockies — Larry Walker 49, Andres Galarraga 41, Vinny Castilla 40."
+   "text": "7 teams of the 1990s had two players at 40+ home runs; the biggest pairing was the 1997 Colorado Rockies — Larry Walker 49, Andres Galarraga 41, Vinny Castilla 40."
   },
   {
    "n": 68,
-   "kind": "teammates",
-   "rule": "rbi_trio",
-   "group": "H",
-   "decade": 1990,
-   "score": 5,
-   "players": [
-    {
-     "id": 120903,
-     "name": "Manny Ramirez"
-    },
-    {
-     "id": 110183,
-     "name": "Roberto Alomar"
-    },
-    {
-     "id": 122027,
-     "name": "Richie Sexson"
-    }
-   ],
-   "seasons": [
-    1999
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1999,
-     "id": 120903,
-     "name": "Manny Ramirez",
-     "team": "Cleveland Indians",
-     "age": 27,
-     "PA": 640,
-     "AVG": 0.333,
-     "OBP": 0.442,
-     "SLG": 0.663,
-     "OPS": 1.105,
-     "HR": 44,
-     "RBI": 165,
-     "R": 131,
-     "H": 174,
-     "2B": 34,
-     "3B": 3,
-     "SB": 2,
-     "CS": 4,
-     "BB": 96,
-     "SO": 131,
-     "HBP": 13,
-     "GIDP": 12
-    },
-    {
-     "season": 1999,
-     "id": 110183,
-     "name": "Roberto Alomar",
-     "team": "Cleveland Indians",
-     "age": 31,
-     "PA": 694,
-     "AVG": 0.323,
-     "OBP": 0.422,
-     "SLG": 0.533,
-     "OPS": 0.955,
-     "HR": 24,
-     "RBI": 120,
-     "R": 138,
-     "H": 182,
-     "2B": 40,
-     "3B": 3,
-     "SB": 37,
-     "CS": 6,
-     "BB": 99,
-     "SO": 96,
-     "HBP": 7,
-     "GIDP": 13
-    },
-    {
-     "season": 1999,
-     "id": 122027,
-     "name": "Richie Sexson",
-     "team": "Cleveland Indians",
-     "age": 24,
-     "PA": 525,
-     "AVG": 0.255,
-     "OBP": 0.305,
-     "SLG": 0.514,
-     "OPS": 0.819,
-     "HR": 31,
-     "RBI": 116,
-     "R": 72,
-     "H": 122,
-     "2B": 17,
-     "3B": 7,
-     "SB": 3,
-     "CS": 3,
-     "BB": 34,
-     "SO": 117,
-     "HBP": 4,
-     "GIDP": 19
-    }
-   ],
-   "text": "33 teams of the 1990s had three players at 100+ RBI; the biggest pairing was the 1999 Cleveland Indians — Manny Ramirez 165, Roberto Alomar 120, Richie Sexson 116."
-  },
-  {
-   "n": 69,
    "kind": "teammates",
    "rule": "hits_pair",
    "group": "H",
@@ -6291,7 +6190,7 @@
    "text": "4 teams of the 1990s had two players at 200+ hits; the biggest pairing was the 1991 Texas Rangers — Rafael Palmeiro 203, Ruben Sierra 203, Julio Franco 201."
   },
   {
-   "n": 70,
+   "n": 69,
    "kind": "teammates",
    "rule": "sb_pair",
    "group": "H",
@@ -6389,10 +6288,10 @@
      "GIDP": 10
     }
    ],
-   "text": "12 teams of the 1990s had two players at 40+ steals; the biggest pairing was the 1990 Montreal Expos — Otis Nixon 50, Tim Raines Sr. 49, Delino DeShields 42."
+   "text": "10 teams of the 1990s had two players at 40+ steals; the biggest pairing was the 1990 Montreal Expos — Otis Nixon 50, Tim Raines Sr. 49, Delino DeShields 42."
   },
   {
-   "n": 71,
+   "n": 70,
    "kind": "teammates",
    "rule": "w20_pair",
    "group": "P",
@@ -6453,6 +6352,69 @@
     }
    ],
    "text": "4 teams of the 1990s had two players at 20 wins; the biggest pairing was the 1990 Oakland Athletics — Bob Welch 27, Dave Stewart 22."
+  },
+  {
+   "n": 71,
+   "kind": "teammates",
+   "rule": "k200_pair",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 112552,
+     "name": "David Cone"
+    },
+    {
+     "id": 114947,
+     "name": "Dwight Gooden"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 112552,
+     "name": "David Cone",
+     "team": "New York Mets",
+     "age": 27,
+     "W": 14,
+     "L": 10,
+     "ERA": 3.23,
+     "IP": "211.2",
+     "SO": 233,
+     "BB": 65,
+     "SV": 0,
+     "GS": 30,
+     "CG": 6,
+     "SHO": 2,
+     "HRA": 21,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1990,
+     "id": 114947,
+     "name": "Dwight Gooden",
+     "team": "New York Mets",
+     "age": 25,
+     "W": 19,
+     "L": 7,
+     "ERA": 3.83,
+     "IP": "232.2",
+     "SO": 223,
+     "BB": 70,
+     "SV": 0,
+     "GS": 34,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 10,
+     "WHIP": 1.29
+    }
+   ],
+   "text": "4 teams of the 1990s had two players at 200+ strikeouts; the biggest pairing was the 1990 New York Mets — David Cone 233, Dwight Gooden 223."
   },
   {
    "n": 72,
@@ -8113,77 +8075,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:31:22.378Z",
+ "generatedAt": "2026-09-28T03:41:51.266Z",
  "sources": [
   {
    "season": 1990,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1990&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1990&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1990&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:18.472Z"
+   "pulledAt": "2026-09-28T03:41:44.191Z"
   },
   {
    "season": 1991,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1991&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1991&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1991&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:18.839Z"
+   "pulledAt": "2026-09-28T03:41:44.847Z"
   },
   {
    "season": 1992,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1992&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1992&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1992&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:19.209Z"
+   "pulledAt": "2026-09-28T03:41:45.535Z"
   },
   {
    "season": 1993,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1993&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1993&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1993&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:19.581Z"
+   "pulledAt": "2026-09-28T03:41:46.162Z"
   },
   {
    "season": 1994,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1994&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1994&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1994&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:19.960Z"
+   "pulledAt": "2026-09-28T03:41:46.855Z"
   },
   {
    "season": 1995,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1995&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1995&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1995&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:20.331Z"
+   "pulledAt": "2026-09-28T03:41:47.501Z"
   },
   {
    "season": 1996,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1996&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1996&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1996&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:20.725Z"
+   "pulledAt": "2026-09-28T03:41:48.174Z"
   },
   {
    "season": 1997,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1997&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1997&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1997&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:21.108Z"
+   "pulledAt": "2026-09-28T03:41:48.839Z"
   },
   {
    "season": 1998,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1998&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1998&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1998&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:21.498Z"
+   "pulledAt": "2026-09-28T03:41:49.597Z"
   },
   {
    "season": 1999,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1999&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1999&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1999&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:21.880Z"
+   "pulledAt": "2026-09-28T03:41:50.425Z"
   }
  ]
 }

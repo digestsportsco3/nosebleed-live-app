@@ -867,7 +867,7 @@
      "season": 1969,
      "id": 115503,
      "name": "Ken Harrelson",
-     "team": "Cleveland Indians",
+     "team": "2+ teams",
      "age": 27,
      "PA": 672,
      "AVG": 0.221,
@@ -2843,7 +2843,7 @@
      "season": 1964,
      "id": 111495,
      "name": "Lou Brock",
-     "team": "St. Louis Cardinals",
+     "team": "2+ teams",
      "age": 25,
      "PA": 695,
      "AVG": 0.315,
@@ -6244,7 +6244,7 @@
      "GIDP": 5
     }
    ],
-   "text": "4 teams of the 1960s had two players at 200+ hits; the biggest pairing was the 1963 St. Louis Cardinals — Dick Groat 201, Bill White 200, Curt Flood 200."
+   "text": "3 teams of the 1960s had two players at 200+ hits; the biggest pairing was the 1963 St. Louis Cardinals — Dick Groat 201, Bill White 200, Curt Flood 200."
   },
   {
    "n": 71,
@@ -7844,77 +7844,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:31:10.807Z",
+ "generatedAt": "2026-09-28T03:41:30.910Z",
  "sources": [
   {
    "season": 1960,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1960&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1960&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1960&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:07.002Z"
+   "pulledAt": "2026-09-28T03:41:24.496Z"
   },
   {
    "season": 1961,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1961&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1961&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1961&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:07.365Z"
+   "pulledAt": "2026-09-28T03:41:25.111Z"
   },
   {
    "season": 1962,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1962&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1962&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1962&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:07.726Z"
+   "pulledAt": "2026-09-28T03:41:25.753Z"
   },
   {
    "season": 1963,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1963&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1963&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1963&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:08.115Z"
+   "pulledAt": "2026-09-28T03:41:26.392Z"
   },
   {
    "season": 1964,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1964&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1964&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1964&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:08.486Z"
+   "pulledAt": "2026-09-28T03:41:27.026Z"
   },
   {
    "season": 1965,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1965&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1965&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1965&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:08.853Z"
+   "pulledAt": "2026-09-28T03:41:27.645Z"
   },
   {
    "season": 1966,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1966&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1966&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1966&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:09.231Z"
+   "pulledAt": "2026-09-28T03:41:28.280Z"
   },
   {
    "season": 1967,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1967&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1967&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1967&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:09.603Z"
+   "pulledAt": "2026-09-28T03:41:28.918Z"
   },
   {
    "season": 1968,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1968&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1968&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1968&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:09.980Z"
+   "pulledAt": "2026-09-28T03:41:29.558Z"
   },
   {
    "season": 1969,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1969&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1969&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1969&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:10.356Z"
+   "pulledAt": "2026-09-28T03:41:30.197Z"
   }
  ]
 }

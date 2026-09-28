@@ -344,7 +344,7 @@
      "season": 1975,
      "id": 119258,
      "name": "Willie Montanez",
-     "team": "San Francisco Giants",
+     "team": "2+ teams",
      "age": 27,
      "PA": 667,
      "AVG": 0.302,
@@ -601,7 +601,7 @@
      "season": 1978,
      "id": 111189,
      "name": "Bobby Bonds",
-     "team": "Texas Rangers",
+     "team": "2+ teams",
      "age": 32,
      "PA": 657,
      "AVG": 0.267,
@@ -2298,7 +2298,7 @@
      "season": 1978,
      "id": 112071,
      "name": "Rico Carty",
-     "team": "Oakland Athletics",
+     "team": "2+ teams",
      "age": 38,
      "PA": 593,
      "AVG": 0.282,
@@ -2950,7 +2950,7 @@
      "season": 1974,
      "id": 116325,
      "name": "Ron Hunt",
-     "team": "St. Louis Cardinals",
+     "team": "2+ teams",
      "age": 33,
      "PA": 513,
      "AVG": 0.263,
@@ -3686,7 +3686,7 @@
      "season": 1979,
      "id": 123121,
      "name": "Frank Taveras",
-     "team": "New York Mets",
+     "team": "2+ teams",
      "age": 29,
      "PA": 725,
      "AVG": 0.262,
@@ -6715,7 +6715,7 @@
      "GIDP": 11
     }
    ],
-   "text": "9 teams of the 1970s had two players at 40+ steals; the biggest pairing was the 1976 Oakland Athletics — Bill North 75, Bert Campaneris 54, Don Baylor 52."
+   "text": "8 teams of the 1970s had two players at 40+ steals; the biggest pairing was the 1976 Oakland Athletics — Bill North 75, Bert Campaneris 54, Don Baylor 52."
   },
   {
    "n": 66,
@@ -9446,77 +9446,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:31:14.590Z",
+ "generatedAt": "2026-09-28T03:41:37.561Z",
  "sources": [
   {
    "season": 1970,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1970&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1970&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1970&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:10.810Z"
+   "pulledAt": "2026-09-28T03:41:30.913Z"
   },
   {
    "season": 1971,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1971&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1971&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1971&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:11.189Z"
+   "pulledAt": "2026-09-28T03:41:31.603Z"
   },
   {
    "season": 1972,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1972&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1972&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1972&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:11.555Z"
+   "pulledAt": "2026-09-28T03:41:32.255Z"
   },
   {
    "season": 1973,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1973&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1973&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1973&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:11.925Z"
+   "pulledAt": "2026-09-28T03:41:32.904Z"
   },
   {
    "season": 1974,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1974&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1974&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1974&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:12.286Z"
+   "pulledAt": "2026-09-28T03:41:33.527Z"
   },
   {
    "season": 1975,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1975&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1975&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1975&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:12.652Z"
+   "pulledAt": "2026-09-28T03:41:34.225Z"
   },
   {
    "season": 1976,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1976&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1976&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1976&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:13.019Z"
+   "pulledAt": "2026-09-28T03:41:34.894Z"
   },
   {
    "season": 1977,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1977&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1977&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1977&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:13.388Z"
+   "pulledAt": "2026-09-28T03:41:35.561Z"
   },
   {
    "season": 1978,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1978&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1978&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1978&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:13.755Z"
+   "pulledAt": "2026-09-28T03:41:36.192Z"
   },
   {
    "season": 1979,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1979&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1979&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1979&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:14.127Z"
+   "pulledAt": "2026-09-28T03:41:36.826Z"
   }
  ]
 }

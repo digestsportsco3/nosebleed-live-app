@@ -3783,7 +3783,7 @@
      "season": 1932,
      "id": 115291,
      "name": "Bump Hadley",
-     "team": "St. Louis Browns",
+     "team": "2+ teams",
      "age": 27,
      "W": 14,
      "L": 21,
@@ -3802,7 +3802,7 @@
      "season": 1937,
      "id": 119749,
      "name": "Bobo Newsom",
-     "team": "Boston Red Sox",
+     "team": "2+ teams",
      "age": 29,
      "W": 16,
      "L": 14,
@@ -4337,7 +4337,7 @@
      "season": 1933,
      "id": 113285,
      "name": "Paul Derringer",
-     "team": "Cincinnati Reds",
+     "team": "2+ teams",
      "age": 26,
      "W": 7,
      "L": 27,
@@ -4672,7 +4672,7 @@
      "season": 1936,
      "id": 120711,
      "name": "Jake Powell",
-     "team": "New York Yankees",
+     "team": "2+ teams",
      "age": 27,
      "PA": 595,
      "AVG": 0.299,
@@ -5718,7 +5718,7 @@
      "WHIP": 1.48
     }
    ],
-   "text": "5 teams of the 1930s had two players at 150+ strikeouts; the biggest pairing was the 1930 Philadelphia Athletics — Lefty Grove 209, George Earnshaw 193."
+   "text": "4 teams of the 1930s had two players at 150+ strikeouts; the biggest pairing was the 1930 Philadelphia Athletics — Lefty Grove 209, George Earnshaw 193."
   },
   {
    "n": 63,
@@ -7491,7 +7491,7 @@
      "season": 1936,
      "id": 112205,
      "name": "Ben Chapman",
-     "team": "Washington Senators",
+     "team": "2+ teams",
      "age": 27,
      "PA": 628,
      "AVG": 0.315,
@@ -8736,77 +8736,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:30:59.439Z",
+ "generatedAt": "2026-09-28T03:41:11.533Z",
  "sources": [
   {
    "season": 1930,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1930&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1930&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1930&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:55.641Z"
+   "pulledAt": "2026-09-28T03:41:04.732Z"
   },
   {
    "season": 1931,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1931&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1931&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1931&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:55.999Z"
+   "pulledAt": "2026-09-28T03:41:05.396Z"
   },
   {
    "season": 1932,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1932&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1932&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1932&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:56.366Z"
+   "pulledAt": "2026-09-28T03:41:06.022Z"
   },
   {
    "season": 1933,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1933&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1933&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1933&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:56.734Z"
+   "pulledAt": "2026-09-28T03:41:06.746Z"
   },
   {
    "season": 1934,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1934&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1934&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1934&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:57.102Z"
+   "pulledAt": "2026-09-28T03:41:07.356Z"
   },
   {
    "season": 1935,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1935&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1935&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1935&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:57.482Z"
+   "pulledAt": "2026-09-28T03:41:07.986Z"
   },
   {
    "season": 1936,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1936&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1936&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1936&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:57.870Z"
+   "pulledAt": "2026-09-28T03:41:08.697Z"
   },
   {
    "season": 1937,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1937&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1937&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1937&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:58.229Z"
+   "pulledAt": "2026-09-28T03:41:09.322Z"
   },
   {
    "season": 1938,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1938&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1938&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1938&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:58.592Z"
+   "pulledAt": "2026-09-28T03:41:09.983Z"
   },
   {
    "season": 1939,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1939&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1939&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1939&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:30:58.964Z"
+   "pulledAt": "2026-09-28T03:41:10.739Z"
   }
  ]
 }

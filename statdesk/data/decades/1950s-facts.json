@@ -3964,7 +3964,7 @@
      "season": 1951,
      "id": 111842,
      "name": "Tommy Byrne",
-     "team": "St. Louis Browns",
+     "team": "2+ teams",
      "age": 31,
      "W": 6,
      "L": 11,
@@ -5354,7 +5354,7 @@
      "season": 1951,
      "id": 119176,
      "name": "Minnie Minoso",
-     "team": "Chicago White Sox",
+     "team": "2+ teams",
      "age": 25,
      "PA": 622,
      "AVG": 0.326,
@@ -6987,7 +6987,7 @@
      "WHIP": 1.32
     }
    ],
-   "text": "8 teams of the 1950s had two players at 150+ strikeouts; the biggest pairing was the 1959 San Francisco Giants — Sam Jones 209, Johnny Antonelli 165, Mike McCormick 151."
+   "text": "7 teams of the 1950s had two players at 150+ strikeouts; the biggest pairing was the 1959 San Francisco Giants — Sam Jones 209, Johnny Antonelli 165, Mike McCormick 151."
   },
   {
    "n": 89,
@@ -8828,77 +8828,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:33:50.493Z",
+ "generatedAt": "2026-09-28T03:41:24.493Z",
  "sources": [
   {
    "season": 1950,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1950&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1950&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1950&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:45.767Z"
+   "pulledAt": "2026-09-28T03:41:18.265Z"
   },
   {
    "season": 1951,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1951&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1951&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1951&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:46.204Z"
+   "pulledAt": "2026-09-28T03:41:18.874Z"
   },
   {
    "season": 1952,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1952&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1952&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1952&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:46.807Z"
+   "pulledAt": "2026-09-28T03:41:19.472Z"
   },
   {
    "season": 1953,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1953&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1953&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1953&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:47.299Z"
+   "pulledAt": "2026-09-28T03:41:20.077Z"
   },
   {
    "season": 1954,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1954&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1954&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1954&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:47.733Z"
+   "pulledAt": "2026-09-28T03:41:20.678Z"
   },
   {
    "season": 1955,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1955&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1955&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1955&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:48.160Z"
+   "pulledAt": "2026-09-28T03:41:21.278Z"
   },
   {
    "season": 1956,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1956&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1956&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1956&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:48.599Z"
+   "pulledAt": "2026-09-28T03:41:21.920Z"
   },
   {
    "season": 1957,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1957&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1957&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1957&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:49.122Z"
+   "pulledAt": "2026-09-28T03:41:22.565Z"
   },
   {
    "season": 1958,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1958&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1958&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1958&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:49.550Z"
+   "pulledAt": "2026-09-28T03:41:23.161Z"
   },
   {
    "season": 1959,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1959&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1959&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1959&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:33:49.996Z"
+   "pulledAt": "2026-09-28T03:41:23.766Z"
   }
  ]
 }

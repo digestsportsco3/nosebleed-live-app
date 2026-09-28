@@ -501,7 +501,7 @@
      "season": 2014,
      "id": 502188,
      "name": "Jeff Samardzija",
-     "team": "Oakland Athletics",
+     "team": "2+ teams",
      "age": 29,
      "W": 7,
      "L": 13,
@@ -999,7 +999,7 @@
      "season": 2019,
      "id": 429665,
      "name": "Edwin Encarnación",
-     "team": "New York Yankees",
+     "team": "2+ teams",
      "age": 36,
      "PA": 486,
      "AVG": 0.244,
@@ -2979,7 +2979,7 @@
      "season": 2014,
      "id": 502188,
      "name": "Jeff Samardzija",
-     "team": "Oakland Athletics",
+     "team": "2+ teams",
      "age": 29,
      "W": 7,
      "L": 13,
@@ -3020,7 +3020,7 @@
      "season": 2019,
      "id": 545333,
      "name": "Trevor Bauer",
-     "team": "Cincinnati Reds",
+     "team": "2+ teams",
      "age": 28,
      "W": 11,
      "L": 13,
@@ -4382,7 +4382,7 @@
      "season": 2012,
      "id": 408236,
      "name": "Adrián González",
-     "team": "Los Angeles Dodgers",
+     "team": "2+ teams",
      "age": 30,
      "PA": 684,
      "AVG": 0.299,
@@ -5335,7 +5335,7 @@
      "GIDP": 17
     }
    ],
-   "text": "7 teams of the 2010s had three players at 100+ RBI; the biggest pairing was the 2016 Boston Red Sox — David Ortiz 127, Mookie Betts 113, Hanley Ramirez 111."
+   "text": "6 teams of the 2010s had three players at 100+ RBI; the biggest pairing was the 2016 Boston Red Sox — David Ortiz 127, Mookie Betts 113, Hanley Ramirez 111."
   },
   {
    "n": 65,
@@ -5481,7 +5481,7 @@
      "GIDP": 13
     }
    ],
-   "text": "4 teams of the 2010s had two players at 40+ steals; the biggest pairing was the 2010 Tampa Bay Rays — Carl Crawford 47, B.J. Upton 42."
+   "text": "3 teams of the 2010s had two players at 40+ steals; the biggest pairing was the 2010 Tampa Bay Rays — Carl Crawford 47, B.J. Upton 42."
   },
   {
    "n": 67,
@@ -5567,7 +5567,7 @@
      "WHIP": 1.09
     }
    ],
-   "text": "31 teams of the 2010s had two players at 200+ strikeouts; the biggest pairing was the 2018 Cleveland Indians — Carlos Carrasco 231, Corey Kluber 222, Trevor Bauer 221."
+   "text": "27 teams of the 2010s had two players at 200+ strikeouts; the biggest pairing was the 2018 Cleveland Indians — Carlos Carrasco 231, Corey Kluber 222, Trevor Bauer 221."
   },
   {
    "n": 68,
@@ -7531,77 +7531,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:31:30.495Z",
+ "generatedAt": "2026-09-28T03:42:06.718Z",
  "sources": [
   {
    "season": 2010,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2010&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2010&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2010&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:26.416Z"
+   "pulledAt": "2026-09-28T03:41:58.697Z"
   },
   {
    "season": 2011,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2011&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2011&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2011&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:26.808Z"
+   "pulledAt": "2026-09-28T03:41:59.400Z"
   },
   {
    "season": 2012,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2012&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2012&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2012&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:27.195Z"
+   "pulledAt": "2026-09-28T03:42:00.187Z"
   },
   {
    "season": 2013,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2013&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2013&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2013&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:27.590Z"
+   "pulledAt": "2026-09-28T03:42:00.951Z"
   },
   {
    "season": 2014,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2014&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2014&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2014&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:27.980Z"
+   "pulledAt": "2026-09-28T03:42:01.672Z"
   },
   {
    "season": 2015,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2015&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2015&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:28.379Z"
+   "pulledAt": "2026-09-28T03:42:02.473Z"
   },
   {
    "season": 2016,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2016&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2016&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:28.774Z"
+   "pulledAt": "2026-09-28T03:42:03.273Z"
   },
   {
    "season": 2017,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2017&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2017&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:29.166Z"
+   "pulledAt": "2026-09-28T03:42:04.126Z"
   },
   {
    "season": 2018,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2018&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2018&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:29.557Z"
+   "pulledAt": "2026-09-28T03:42:04.991Z"
   },
   {
    "season": 2019,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2019&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2019&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:29.953Z"
+   "pulledAt": "2026-09-28T03:42:05.817Z"
   }
  ]
 }

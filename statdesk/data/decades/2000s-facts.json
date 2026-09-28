@@ -2820,7 +2820,7 @@
      "season": 2006,
      "id": 110029,
      "name": "Bobby Abreu",
-     "team": "New York Yankees",
+     "team": "2+ teams",
      "age": 32,
      "PA": 686,
      "AVG": 0.297,
@@ -3780,6 +3780,79 @@
   },
   {
    "n": 31,
+   "kind": "teammates",
+   "rule": "sb_pair",
+   "group": "H",
+   "decade": 2000,
+   "score": 8,
+   "players": [
+    {
+     "id": 408307,
+     "name": "Carl Crawford"
+    },
+    {
+     "id": 425834,
+     "name": "B.J. Upton"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2009,
+     "id": 408307,
+     "name": "Carl Crawford",
+     "team": "Tampa Bay Rays",
+     "age": 27,
+     "PA": 672,
+     "AVG": 0.305,
+     "OBP": 0.364,
+     "SLG": 0.452,
+     "OPS": 0.816,
+     "HR": 15,
+     "RBI": 68,
+     "R": 96,
+     "H": 185,
+     "2B": 28,
+     "3B": 8,
+     "SB": 60,
+     "CS": 16,
+     "BB": 51,
+     "SO": 99,
+     "HBP": 8,
+     "GIDP": 7
+    },
+    {
+     "season": 2009,
+     "id": 425834,
+     "name": "B.J. Upton",
+     "team": "Tampa Bay Rays",
+     "age": 24,
+     "PA": 626,
+     "AVG": 0.241,
+     "OBP": 0.313,
+     "SLG": 0.373,
+     "OPS": 0.686,
+     "HR": 11,
+     "RBI": 55,
+     "R": 79,
+     "H": 135,
+     "2B": 33,
+     "3B": 4,
+     "SB": 42,
+     "CS": 14,
+     "BB": 57,
+     "SO": 152,
+     "HBP": 3,
+     "GIDP": 7
+    }
+   ],
+   "text": "The 2009 Tampa Bay Rays are the only team of the 2000s with two players at 40+ steals: Carl Crawford 60, B.J. Upton 42."
+  },
+  {
+   "n": 32,
    "rule": "seventy_sb",
    "group": "H",
    "decade": 2000,
@@ -3894,7 +3967,7 @@
    "text": "Just three hitters of the 2000s stole 70 bases: José Reyes (2007: 78 SB); Scott Podsednik (2004: 70 SB); Jacoby Ellsbury (2009: 70 SB)."
   },
   {
-   "n": 32,
+   "n": 33,
    "kind": "streak",
    "rule": "K200",
    "group": "P",
@@ -4014,7 +4087,7 @@
    "text": "Johan Santana struck out 200+ in 5 straight seasons (2004-08), the longest run of the 2000s."
   },
   {
-   "n": 33,
+   "n": 34,
    "rule": "low_k_full",
    "group": "H",
    "decade": 2000,
@@ -4163,7 +4236,7 @@
    "text": "Just four hitters of the 2000s struck out 30 times or fewer in a full season (600+ PA): Mark Grace (2000: 28 K in 621 PA); Juan Pierre (2001: 29 K in 683 PA); Jason Kendall (2002: 29 K in 605 PA); Placido Polanco (2007: 30 K in 641 PA)."
   },
   {
-   "n": 34,
+   "n": 35,
    "rule": "k_per_9",
    "group": "P",
    "decade": 2000,
@@ -4329,7 +4402,7 @@
    "text": "Just three pitchers of the 2000s struck out 11+ per nine innings (162+ IP): Randy Johnson (3×, best 2001: 13.4 K/9, 372 K); Pedro Martínez (2000: 11.8 K/9, 284 K); Kerry Wood (2×, best 2003: 11.3 K/9, 266 K)."
   },
   {
-   "n": 35,
+   "n": 36,
    "rule": "closer_100k",
    "group": "P",
    "decade": 2000,
@@ -4413,7 +4486,7 @@
      "season": 2004,
      "id": 136734,
      "name": "Octavio Dotel",
-     "team": "Oakland Athletics",
+     "team": "2+ teams",
      "age": 30,
      "W": 6,
      "L": 6,
@@ -4482,7 +4555,7 @@
    "text": "8 pitchers saved 35 games and struck out 100 in the 2000s (10 seasons). The most extreme: Eric Gagne, 2003 — 55 SV, 137 K in 82.1 IP."
   },
   {
-   "n": 36,
+   "n": 37,
    "kind": "extreme",
    "rule": "lowest_avg_100rbi",
    "group": "H",
@@ -4528,7 +4601,7 @@
    "text": "Lowest average by any 100-RBI hitter of the 2000s: Carlos Pena, 2009 — .227 with 100 RBI."
   },
   {
-   "n": 37,
+   "n": 38,
    "kind": "extreme",
    "rule": "most_k_300hitter",
    "group": "H",
@@ -4574,7 +4647,7 @@
    "text": "Most strikeouts by a .300 hitter of the 2000s: Ryan Howard, 2006 — 181 K while batting .313."
   },
   {
-   "n": 38,
+   "n": 39,
    "kind": "extreme",
    "rule": "most_sb_30hr",
    "group": "H",
@@ -4595,7 +4668,7 @@
      "season": 2004,
      "id": 136860,
      "name": "Carlos Beltrán",
-     "team": "Houston Astros",
+     "team": "2+ teams",
      "age": 27,
      "PA": 708,
      "AVG": 0.267,
@@ -4620,7 +4693,7 @@
    "text": "Most steals by a 30-homer hitter of the 2000s: Carlos Beltrán, 2004 — 42 SB with 38 HR."
   },
   {
-   "n": 39,
+   "n": 40,
    "kind": "extreme",
    "rule": "highest_avg_low_hr",
    "group": "H",
@@ -4666,7 +4739,7 @@
    "text": "Highest average by a hitter with 3 homers or fewer: Luis Castillo, 2000 — .334 with 2 HR."
   },
   {
-   "n": 40,
+   "n": 41,
    "kind": "extreme",
    "rule": "most_bb_low_avg",
    "group": "H",
@@ -4687,7 +4760,7 @@
      "season": 2008,
      "id": 276055,
      "name": "Adam Dunn",
-     "team": "Arizona Diamondbacks",
+     "team": "2+ teams",
      "age": 28,
      "PA": 651,
      "AVG": 0.236,
@@ -4712,7 +4785,7 @@
    "text": "Most walks by a sub-.240 hitter of the 2000s: Adam Dunn, 2008 — 122 BB while batting .236."
   },
   {
-   "n": 41,
+   "n": 42,
    "kind": "extreme",
    "rule": "most_rbi_per_hr",
    "group": "H",
@@ -4758,7 +4831,7 @@
    "text": "Most RBI per home run among 100-RBI seasons: Jeff Cirillo, 2000 — 115 RBI on 11 HR."
   },
   {
-   "n": 42,
+   "n": 43,
    "kind": "extreme",
    "rule": "most_wins_bad_era",
    "group": "P",
@@ -4799,7 +4872,7 @@
    "text": "Most wins by a pitcher with an ERA over 5.00: Bartolo Colon, 2004 — 18-12 with a 5.01 ERA."
   },
   {
-   "n": 43,
+   "n": 44,
    "kind": "extreme",
    "rule": "fewest_wins_low_era",
    "group": "P",
@@ -4840,7 +4913,7 @@
    "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Curt Schilling, 2003 — 8-9 despite a 2.95 ERA."
   },
   {
-   "n": 44,
+   "n": 45,
    "kind": "extreme",
    "rule": "most_k_losing",
    "group": "P",
@@ -4881,7 +4954,7 @@
    "text": "Most strikeouts by a pitcher with a losing record: Ben Sheets, 2004 — 264 K, 12-14."
   },
   {
-   "n": 45,
+   "n": 46,
    "kind": "extreme",
    "rule": "most_losses_good_era",
    "group": "P",
@@ -4922,7 +4995,7 @@
    "text": "Most losses by a pitcher with an ERA under 3.50: Randy Johnson, 2004 — 16-14 with a 2.60 ERA."
   },
   {
-   "n": 46,
+   "n": 47,
    "kind": "extreme",
    "rule": "fewest_k_20w",
    "group": "P",
@@ -4963,7 +5036,7 @@
    "text": "Fewest strikeouts by a 20-game winner of the 2000s: Jamie Moyer, 2001 — 119 K, 20-6."
   },
   {
-   "n": 47,
+   "n": 48,
    "kind": "extreme",
    "rule": "most_ip_no_cg",
    "group": "P",
@@ -5004,7 +5077,7 @@
    "text": "Most innings in a season without a complete game: Roy Oswalt, 2002 — 233.0 IP, 0 CG."
   },
   {
-   "n": 48,
+   "n": 49,
    "kind": "extreme",
    "rule": "most_hra",
    "group": "P",
@@ -5045,7 +5118,7 @@
    "text": "Most home runs allowed in a season this decade: Jose Lima, 2000 — 48 HR allowed, 7-16."
   },
   {
-   "n": 49,
+   "n": 50,
    "kind": "extreme",
    "rule": "most_bb_winner",
    "group": "P",
@@ -5086,7 +5159,7 @@
    "text": "Most walks by a 15-game winner: Chan Ho Park, 2000 — 124 BB, 18-10."
   },
   {
-   "n": 50,
+   "n": 51,
    "kind": "nearmiss",
    "rule": "HR29",
    "group": "H",
@@ -5261,7 +5334,7 @@
    "text": "32 hitter-seasons of the 2000s ended on exactly 29 home runs, one short of 30 — among them Carlos Beltrán (2002), Mike Sweeney (2000), Hanley Ramirez (2007)."
   },
   {
-   "n": 51,
+   "n": 52,
    "kind": "nearmiss",
    "rule": "AVG299",
    "group": "H",
@@ -5412,7 +5485,7 @@
      "season": 2003,
      "id": 114789,
      "name": "Brian Giles",
-     "team": "San Diego Padres",
+     "team": "2+ teams",
      "age": 32,
      "PA": 609,
      "AVG": 0.299,
@@ -5436,7 +5509,7 @@
    "text": "9 hitter-seasons of the 2000s ended on a .299 average, one point short of .300 — among them Prince Fielder (2009), Todd Walker (2002), Lew Ford (2004)."
   },
   {
-   "n": 52,
+   "n": 53,
    "kind": "nearmiss",
    "rule": "RBI99",
    "group": "H",
@@ -5611,7 +5684,7 @@
    "text": "18 hitter-seasons of the 2000s ended on exactly 99 RBI, one short of 100 — among them Michael Young (2004), Shawn Green (2000), Troy Tulowitzki (2007)."
   },
   {
-   "n": 53,
+   "n": 54,
    "kind": "nearmiss",
    "rule": "SV39",
    "group": "P",
@@ -5756,7 +5829,7 @@
    "text": "9 pitcher-seasons of the 2000s ended on exactly 39 saves, one short of 40 — among them Mariano Rivera (2008), Joe Nathan (2008), Derrick Turnbow (2005)."
   },
   {
-   "n": 54,
+   "n": 55,
    "kind": "team",
    "rule": "100w",
    "group": "T",
@@ -5838,7 +5911,7 @@
    "text": "13 teams of the 2000s won 100 games; the best record was the 2001 Mariners at 116-46."
   },
   {
-   "n": 55,
+   "n": 56,
    "kind": "age",
    "rule": "age_30hr_young",
    "group": "H",
@@ -5883,7 +5956,7 @@
    "text": "Youngest player of the 2000s to hit 30 home runs: Albert Pujols, age 21 in 2001 — 37 HR."
   },
   {
-   "n": 56,
+   "n": 57,
    "kind": "age",
    "rule": "age_330_young",
    "group": "H",
@@ -5928,7 +6001,7 @@
    "text": "Youngest player of the 2000s to bat .330 (500+ PA): Pablo Sandoval, age 22 in 2009 — .330."
   },
   {
-   "n": 57,
+   "n": 58,
    "kind": "age",
    "rule": "age_100rbi_young",
    "group": "H",
@@ -5973,7 +6046,7 @@
    "text": "Youngest player of the 2000s to drive in 100 runs: Albert Pujols, age 21 in 2001 — 130 RBI."
   },
   {
-   "n": 58,
+   "n": 59,
    "kind": "age",
    "rule": "age_100rbi_old",
    "group": "H",
@@ -6018,7 +6091,7 @@
    "text": "Oldest player of the 2000s to drive in 100 runs: Andres Galarraga, age 39 in 2000 — 100 RBI."
   },
   {
-   "n": 59,
+   "n": 60,
    "kind": "age",
    "rule": "age_sb_young",
    "group": "H",
@@ -6063,7 +6136,7 @@
    "text": "Youngest player of the 2000s to steal 40 bases: Carl Crawford, age 21 in 2003 — 55 SB."
   },
   {
-   "n": 60,
+   "n": 61,
    "kind": "age",
    "rule": "age_sb_old",
    "group": "H",
@@ -6108,7 +6181,7 @@
    "text": "Oldest player of the 2000s to steal 40 bases: Dave Roberts, age 34 in 2006 — 49 SB."
   },
   {
-   "n": 61,
+   "n": 62,
    "kind": "age",
    "rule": "age_20w_young",
    "group": "P",
@@ -6148,7 +6221,7 @@
    "text": "Youngest player of the 2000s to win 20 games: Mark Mulder, age 23 in 2001 — 21-8."
   },
   {
-   "n": 62,
+   "n": 63,
    "kind": "age",
    "rule": "age_20w_old",
    "group": "P",
@@ -6188,7 +6261,7 @@
    "text": "Oldest player of the 2000s to win 20 games: Jamie Moyer, age 40 in 2003 — 21-7."
   },
   {
-   "n": 63,
+   "n": 64,
    "kind": "age",
    "rule": "age_k_young",
    "group": "P",
@@ -6228,7 +6301,7 @@
    "text": "Youngest player of the 2000s to strike out 200: Mark Prior, age 22 in 2003 — 245 K."
   },
   {
-   "n": 64,
+   "n": 65,
    "kind": "age",
    "rule": "age_k_old",
    "group": "P",
@@ -6268,7 +6341,7 @@
    "text": "Oldest player of the 2000s to strike out 200: Roger Clemens, age 41 in 2004 — 218 K."
   },
   {
-   "n": 65,
+   "n": 66,
    "kind": "age",
    "rule": "age_era_young",
    "group": "P",
@@ -6308,7 +6381,7 @@
    "text": "Youngest player of the 2000s to post a qualified ERA under 2.75: Mark Prior, age 22 in 2003 — 2.43 ERA."
   },
   {
-   "n": 66,
+   "n": 67,
    "kind": "age",
    "rule": "age_era_old",
    "group": "P",
@@ -6348,7 +6421,7 @@
    "text": "Oldest player of the 2000s to post a qualified ERA under 2.75: Roger Clemens, age 42 in 2005 — 1.87 ERA."
   },
   {
-   "n": 67,
+   "n": 68,
    "rule": "thirty_thirty",
    "group": "H",
    "decade": 2000,
@@ -6422,7 +6495,7 @@
      "season": 2004,
      "id": 136860,
      "name": "Carlos Beltrán",
-     "team": "Houston Astros",
+     "team": "2+ teams",
      "age": 27,
      "PA": 708,
      "AVG": 0.267,
@@ -6530,7 +6603,7 @@
    "text": "12 hitters went 30-30 in the 2000s (17 seasons). The most extreme: Alfonso Soriano, 2006 — 46 HR, 41 SB."
   },
   {
-   "n": 68,
+   "n": 69,
    "rule": "five_tool",
    "group": "H",
    "decade": 2000,
@@ -6722,7 +6795,7 @@
    "text": "9 hitters batted .300 with 30 homers, 100 RBI and 20 steals in the 2000s (11 seasons). The most extreme: Alfonso Soriano, 2002 — .300, 39 HR, 102 RBI, 41 SB."
   },
   {
-   "n": 69,
+   "n": 70,
    "kind": "nearmiss",
    "rule": "H199",
    "group": "H",
@@ -6849,7 +6922,7 @@
    "text": "4 hitter-seasons of the 2000s ended on exactly 199 hits, one short of 200 — among them Andruw Jones (2000), Miguel Tejada (2005), Derrek Lee (2005)."
   },
   {
-   "n": 70,
+   "n": 71,
    "kind": "teammates",
    "rule": "rbi_trio",
    "group": "H",
@@ -6947,80 +7020,7 @@
      "GIDP": 10
     }
    ],
-   "text": "32 teams of the 2000s had three players at 100+ RBI; the biggest pairing was the 2003 Atlanta Braves — Gary Sheffield 132, Andruw Jones 116, Javy Lopez 109."
-  },
-  {
-   "n": 71,
-   "kind": "teammates",
-   "rule": "sb_pair",
-   "group": "H",
-   "decade": 2000,
-   "score": 5,
-   "players": [
-    {
-     "id": 408307,
-     "name": "Carl Crawford"
-    },
-    {
-     "id": 425834,
-     "name": "B.J. Upton"
-    }
-   ],
-   "seasons": [
-    2009
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2009,
-     "id": 408307,
-     "name": "Carl Crawford",
-     "team": "Tampa Bay Rays",
-     "age": 27,
-     "PA": 672,
-     "AVG": 0.305,
-     "OBP": 0.364,
-     "SLG": 0.452,
-     "OPS": 0.816,
-     "HR": 15,
-     "RBI": 68,
-     "R": 96,
-     "H": 185,
-     "2B": 28,
-     "3B": 8,
-     "SB": 60,
-     "CS": 16,
-     "BB": 51,
-     "SO": 99,
-     "HBP": 8,
-     "GIDP": 7
-    },
-    {
-     "season": 2009,
-     "id": 425834,
-     "name": "B.J. Upton",
-     "team": "Tampa Bay Rays",
-     "age": 24,
-     "PA": 626,
-     "AVG": 0.241,
-     "OBP": 0.313,
-     "SLG": 0.373,
-     "OPS": 0.686,
-     "HR": 11,
-     "RBI": 55,
-     "R": 79,
-     "H": 135,
-     "2B": 33,
-     "3B": 4,
-     "SB": 42,
-     "CS": 14,
-     "BB": 57,
-     "SO": 152,
-     "HBP": 3,
-     "GIDP": 7
-    }
-   ],
-   "text": "2 teams of the 2000s had two players at 40+ steals; the biggest pairing was the 2009 Tampa Bay Rays — Carl Crawford 60, B.J. Upton 42."
+   "text": "27 teams of the 2000s had three players at 100+ RBI; the biggest pairing was the 2003 Atlanta Braves — Gary Sheffield 132, Andruw Jones 116, Javy Lopez 109."
   },
   {
    "n": 72,
@@ -8721,77 +8721,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:31:26.413Z",
+ "generatedAt": "2026-09-28T03:41:58.693Z",
  "sources": [
   {
    "season": 2000,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2000&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2000&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2000&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:22.381Z"
+   "pulledAt": "2026-09-28T03:41:51.269Z"
   },
   {
    "season": 2001,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2001&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2001&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2001&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:22.765Z"
+   "pulledAt": "2026-09-28T03:41:52.018Z"
   },
   {
    "season": 2002,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2002&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2002&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2002&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:23.147Z"
+   "pulledAt": "2026-09-28T03:41:52.745Z"
   },
   {
    "season": 2003,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2003&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2003&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2003&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:23.533Z"
+   "pulledAt": "2026-09-28T03:41:53.442Z"
   },
   {
    "season": 2004,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2004&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2004&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2004&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:23.927Z"
+   "pulledAt": "2026-09-28T03:41:54.240Z"
   },
   {
    "season": 2005,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2005&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2005&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2005&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:24.317Z"
+   "pulledAt": "2026-09-28T03:41:54.927Z"
   },
   {
    "season": 2006,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2006&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2006&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2006&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:24.713Z"
+   "pulledAt": "2026-09-28T03:41:55.636Z"
   },
   {
    "season": 2007,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2007&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2007&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2007&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:25.113Z"
+   "pulledAt": "2026-09-28T03:41:56.375Z"
   },
   {
    "season": 2008,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2008&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2008&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2008&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:25.504Z"
+   "pulledAt": "2026-09-28T03:41:57.111Z"
   },
   {
    "season": 2009,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2009&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2009&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2009&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:25.903Z"
+   "pulledAt": "2026-09-28T03:41:57.846Z"
   }
  ]
 }

@@ -1809,7 +1809,7 @@
      "season": 1989,
      "id": 115749,
      "name": "Rickey Henderson",
-     "team": "Oakland Athletics",
+     "team": "2+ teams",
      "age": 30,
      "PA": 674,
      "AVG": 0.274,
@@ -5226,7 +5226,7 @@
      "season": 1989,
      "id": 117480,
      "name": "Mark Langston",
-     "team": "Montreal Expos",
+     "team": "2+ teams",
      "age": 28,
      "W": 16,
      "L": 14,
@@ -6447,7 +6447,7 @@
      "GIDP": 10
     }
    ],
-   "text": "18 teams of the 1980s had two players at 40+ steals; the biggest pairing was the 1988 St. Louis Cardinals — Vince Coleman 81, Ozzie Smith 57, Willie McGee 41."
+   "text": "15 teams of the 1980s had two players at 40+ steals; the biggest pairing was the 1988 St. Louis Cardinals — Vince Coleman 81, Ozzie Smith 57, Willie McGee 41."
   },
   {
    "n": 72,
@@ -7958,77 +7958,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:31:18.469Z",
+ "generatedAt": "2026-09-28T03:41:44.187Z",
  "sources": [
   {
    "season": 1980,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1980&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1980&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1980&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:14.593Z"
+   "pulledAt": "2026-09-28T03:41:37.564Z"
   },
   {
    "season": 1981,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1981&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1981&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1981&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:14.963Z"
+   "pulledAt": "2026-09-28T03:41:38.201Z"
   },
   {
    "season": 1982,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1982&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1982&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1982&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:15.332Z"
+   "pulledAt": "2026-09-28T03:41:38.847Z"
   },
   {
    "season": 1983,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1983&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1983&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1983&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:15.703Z"
+   "pulledAt": "2026-09-28T03:41:39.509Z"
   },
   {
    "season": 1984,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1984&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1984&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1984&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:16.101Z"
+   "pulledAt": "2026-09-28T03:41:40.142Z"
   },
   {
    "season": 1985,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1985&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1985&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1985&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:16.484Z"
+   "pulledAt": "2026-09-28T03:41:40.754Z"
   },
   {
    "season": 1986,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1986&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1986&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1986&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:16.856Z"
+   "pulledAt": "2026-09-28T03:41:41.419Z"
   },
   {
    "season": 1987,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1987&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1987&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1987&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:17.227Z"
+   "pulledAt": "2026-09-28T03:41:42.078Z"
   },
   {
    "season": 1988,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1988&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1988&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1988&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:17.606Z"
+   "pulledAt": "2026-09-28T03:41:42.745Z"
   },
   {
    "season": 1989,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1989&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1989&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1989&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:31:18.007Z"
+   "pulledAt": "2026-09-28T03:41:43.437Z"
   }
  ]
 }
