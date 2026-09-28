@@ -1,0 +1,36 @@
+# Measures which data sources each runner can reach and how far back they go.
+# Pulls nothing into the pipeline; records status and shape per source.
+name: Stat Desk Source Probe
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  cloud:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.ref_name }}", fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Probe
+        shell: bash
+        env: { RUNNER_KIND: cloud }
+        run: node statdesk/probe-sources.js --commit
+
+  local:
+    runs-on: self-hosted
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: "${{ github.ref_name }}", fetch-depth: 0 }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Probe
+        shell: cmd
+        env: { RUNNER_KIND: self-hosted }
+        run: node statdesk/probe-sources.js --commit
