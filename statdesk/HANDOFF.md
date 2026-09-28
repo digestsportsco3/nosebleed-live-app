@@ -125,11 +125,15 @@ decade to...", near-misses, contradictions. That is `statdesk/facts.js`:
   player, not two — that bug shipped once and was caught in review).
 - Rules made of plain comparisons carry a Stathead Season Finder spec.
   `verify-facts.js` re-runs a sample on Nick's machine and compares the
-  player-season SETS. Final run 2026-09-27: 50 checks, 49 exact, 1 is Jeff
-  Samardzija 2014 (7-13, 2.99 across CHC/OAK): the API's combined row vs
-  Stathead's finder splitting stints — unverifiable as filtered, not a
-  disagreement. Name-form differences (Hank/Henry Aaron, a middle initial)
-  are matched on surname + season.
+  player-season SETS. FINAL run on the final files (commit 0cc967d): 50
+  checks, 49 reproduced exactly (two only by name form: Tristram/Tris
+  Speaker, Hank/Henry Aaron), 0 disagreed, 1 unverifiable — Jeff Samardzija
+  2014 (7-13, 2.99 across CHC/OAK), which the API carries as one combined
+  row under his LAST club with numTeams=2 and Stathead's finder splits into
+  stints. That combined-row shape matters beyond verification: before the
+  fix a traded player's whole season was credited to his last club in the
+  team-mate rules; 14 team-mate lines changed on regeneration. `teams` now
+  follows the API's numTeams.
 - Selection: score-ranked with diversity caps, then fill passes so every
   decade reaches exactly 100. `render-decade-facts.js`: one landscape page
   per decade, four CSS-balanced columns (a count-based split overflowed),
