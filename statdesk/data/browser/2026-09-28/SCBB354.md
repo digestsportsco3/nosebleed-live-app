@@ -1,17 +1,37 @@
-# SCBB354 — College Basketball 2020s p:apg_hi
+# SCBB354 — College Basketball 2000s p:fg3_eff
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2021&year_max=2026&comp_id=NCAAM&display_type=totals&order_by=ast_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=10&cstat[2]=ast_per_g
-- Timestamp: 2026-09-28T07:58:38.824Z
-- Rows read: 1
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2001&year_max=2010&comp_id=NCAAM&display_type=totals&order_by=fg3_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=100&cstat[1]=fg3&ccomp[2]=gt&cval[2]=0.45&cstat[2]=fg3_pct
+- Timestamp: 2026-09-28T10:33:43.618Z
+- Rows read: 21
 
 ## Result table
 
 ```
-ranker | name_display | ast_per_g | games | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
-1 | Yuri Collins | 10.1 | 32 | 2022-23 | Saint Louis | 32 | 32 | 1122 | 129 | 292 | 114 | 245 | 15 | 47 | 86 | 117 | 11 | 96 | 107 | 324 | 42 | 3 | 115 | 69 | 359 | .442 | .465 | .319 | .735 | .516 | .467 | G | SR
+ranker | name_display | fg3_pct | fg3 | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
+1 | Salim Stoudamire | .504 | 120 | 2004-05 | Arizona | 36 | 33 | 1126 | 210 | 417 | 90 | 179 | 120 | 238 | 122 | 134 | 9 | 74 | 83 | 78 | 30 | 4 | 85 | 66 | 662 | .504 | .503 | .504 | .910 | .689 | .647 | G | SR
+2 | Jaycee Carroll | .498 | 114 | 2007-08 | Utah State | 35 | 35 | 1304 | 267 | 508 | 153 | 279 | 114 | 229 | 137 | 149 | 56 | 153 | 209 | 76 | 33 | 7 | 70 | 65 | 785 | .526 | .548 | .498 | .919 | .678 | .638 | G | SR
+3 | Stephen Sir | .490 | 124 | 2006-07 | Northern Arizona | 30 | 8 | 826 | 142 | 302 | 18 | 49 | 124 | 253 | 44 | 50 | 6 | 61 | 67 | 48 | 15 | 2 | 49 | 66 | 452 | .470 | .367 | .490 | .880 | .694 | .675 | G | SR
+4 | Kyle Korver | .480 | 129 | 2002-03 | Creighton | 34 | 34 | 1082 | 183 | 391 | 54 | 122 | 129 | 269 | 109 | 120 | 46 | 171 | 217 | 104 | 50 | 23 | 68 | 89 | 604 | .468 | .443 | .480 | .908 | .674 | .633 | F | SR
+5 | Cain Doliboa | .479 | 104 | 2001-02 | Wright State | 28 | 28 | 900 | 143 | 303 | 39 | 86 | 104 | 217 | 80 | 88 | 39 | 102 | 141 | 47 | 22 | 2 | 51 | 66 | 470 | .472 | .453 | .479 | .909 | .682 | .644 | F | SR
+6 | Darnell Harris | .479 | 123 | 2007-08 | La Salle | 32 | 32 | 1063 | 176 | 389 | 53 | 132 | 123 | 257 | 55 | 72 | 6 | 66 | 72 | 65 | 36 | 8 | 36 | 59 | 530 | .452 | .402 | .479 | .764 | .626 | .611 | G | SR
+7 | J. Robert Merritt | .476 | 120 | 2005-06 | Samford | 31 | 31 | 1159 | 180 | 386 | 60 | 134 | 120 | 252 | 65 | 80 | 29 | 131 | 160 | 53 | 33 | 2 | 58 | 49 | 545 | .466 | .448 | .476 | .813 | .643 | .622 | F | SR
+8 | Shan Foster | .469 | 134 | 2007-08 | Vanderbilt | 34 | 34 | 1147 | 242 | 463 | 108 | 177 | 134 | 286 | 73 | 96 | 39 | 128 | 167 | 56 | 36 | 8 | 58 | 66 | 691 | .523 | .610 | .469 | .760 | .679 | .667 | G | SR
+9 | Steve Novak | .467 | 121 | 2005-06 | Marquette | 31 | 31 | 1047 | 173 | 363 | 52 | 104 | 121 | 259 | 74 | 76 | 34 | 149 | 183 | 39 | 18 | 4 | 32 | 64 | 541 | .477 | .500 | .467 | .974 | .678 | .643 | F | SR
+10 | Jeff Boschee | .464 | 110 | 2001-02 | Kansas | 37 | 37 | 1161 | 168 | 358 | 58 | 121 | 110 | 237 | 48 | 61 | 25 | 72 | 97 | 89 | 49 | 5 | 37 | 77 | 494 | .469 | .479 | .464 | .787 | .638 | .623 | G | SR
+11 | Lee Humphrey | .459 | 113 | 2005-06 | Florida | 38 | 32 | 1138 | 142 | 299 | 29 | 53 | 113 | 246 | 18 | 30 | 10 | 61 | 71 | 72 | 28 | 0 | 39 | 43 | 415 | .475 | .547 | .459 | .600 | .662 | .664 | G | JR
+12 | Lee Humphrey | .459 | 113 | 2006-07 | Florida | 40 | 40 | 1214 | 145 | 305 | 32 | 59 | 113 | 246 | 9 | 13 | 12 | 39 | 51 | 50 | 19 | 0 | 45 | 53 | 412 | .475 | .542 | .459 | .692 | .662 | .661 | G | SR
+13 | Pete Campbell | .457 | 102 | 2007-08 | Butler | 31 | 9 | 713 | 126 | 265 | 24 | 42 | 102 | 223 | 8 | 12 | 25 | 62 | 87 | 17 | 15 | 4 | 19 | 51 | 362 | .475 | .571 | .457 | .667 | .669 | .668 | F | SR
+14 | Terrence Woods | .457 | 139 | 2002-03 | Florida A&M | 28 | 18 | 818 | 168 | 378 | 29 | 74 | 139 | 304 | 100 | 113 | 17 | 94 | 111 | 29 | 39 | 0 | 47 | 66 | 575 | .444 | .392 | .457 | .885 | .666 | .628 | G | JR
+15 | Dan Dickau | .457 | 117 | 2001-02 | Gonzaga | 32 | 32 | 1110 | 195 | 442 | 78 | 186 | 117 | 256 | 165 | 191 | 15 | 80 | 95 | 149 | 26 | 4 | 92 | 61 | 672 | .441 | .419 | .457 | .864 | .631 | .574 | G | SR
+16 | Martin Samarco | .457 | 100 | 2005-06 | Bowling Green | 29 | 29 | 1035 | 175 | 418 | 75 | 199 | 100 | 219 | 97 | 113 | 34 | 85 | 119 | 36 | 27 | 2 | 68 | 70 | 547 | .419 | .377 | .457 | .858 | .580 | .538 | F | JR
+17 | Brian Roberts | .455 | 100 | 2007-08 | Dayton | 34 | 34 | 1179 | 208 | 437 | 108 | 217 | 100 | 220 | 111 | 129 | 8 | 88 | 96 | 117 | 12 | 4 | 94 | 60 | 627 | .476 | .498 | .455 | .860 | .629 | .590 | G | SR
+18 | Jimmy Baron | .454 | 118 | 2008-09 | Rhode Island | 34 | 34 | 1106 | 200 | 430 | 82 | 170 | 118 | 260 | 74 | 83 | 33 | 58 | 91 | 65 | 23 | 4 | 44 | 52 | 592 | .465 | .482 | .454 | .892 | .631 | .602 | G | SR
+19 | Jack McClinton | .453 | 101 | 2008-09 | Miami (FL) | 32 | 31 | 1030 | 200 | 445 | 99 | 222 | 101 | 223 | 116 | 131 | 18 | 81 | 99 | 91 | 24 | 1 | 84 | 52 | 617 | .449 | .446 | .453 | .885 | .608 | .563 | G | SR
+20 | Kyle Korver | .452 | 100 | 2000-01 | Creighton | 32 | 32 | 941 | 148 | 315 | 48 | 94 | 100 | 221 | 72 | 83 | 48 | 138 | 186 | 63 | 56 | 14 | 57 | 82 | 468 | .470 | .511 | .452 | .867 | .660 | .629 | F | SO
+21 | Garrison Carr | .452 | 135 | 2007-08 | American | 33 | 32 | 1187 | 190 | 448 | 55 | 149 | 135 | 299 | 91 | 102 | 22 | 89 | 111 | 57 | 23 | 1 | 73 | 61 | 606 | .424 | .369 | .452 | .892 | .610 | .575 | G | JR
 ```
 
 ## Claim check
 
-- Complete set: all 1 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 21 rows read. A superlative may be asserted only if it holds across every row above.

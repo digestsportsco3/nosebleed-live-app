@@ -1,8 +1,8 @@
-# SCBB010 — College Basketball 1940s p:fta_hi
+# SCBB010 — College Basketball 1940s p:pts800
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1948&year_max=1950&comp_id=NCAAM&display_type=totals&order_by=fta&order_by_asc=0&ccomp[1]=gt&cval[1]=350&cstat[1]=fta
-- Timestamp: 2026-09-28T07:27:50.245Z
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1948&year_max=1950&comp_id=NCAAM&display_type=totals&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=750&cstat[1]=pts
+- Timestamp: 2026-09-28T10:06:49.123Z
 - Rows read: 0
 
 ## Result table

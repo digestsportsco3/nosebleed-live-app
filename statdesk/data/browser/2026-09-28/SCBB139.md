@@ -1,8 +1,8 @@
-# SCBB139 — College Basketball 1980s p:ft_hi
+# SCBB139 — College Basketball 1970s p:fta_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1981&year_max=1990&comp_id=NCAAM&display_type=totals&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=300&cstat[1]=ft
-- Timestamp: 2026-09-28T07:38:01.849Z
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1971&year_max=1980&comp_id=NCAAM&display_type=totals&order_by=fta&order_by_asc=0&ccomp[1]=gt&cval[1]=350&cstat[1]=fta
+- Timestamp: 2026-09-28T10:16:15.697Z
 - Rows read: 0
 
 ## Result table

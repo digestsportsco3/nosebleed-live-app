@@ -1,29 +1,21 @@
-# SCBB338 — College Basketball 2010s t:wins_hi
+# SCBB338 — College Basketball 2000s p:spg_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=2011&year_max=2020&comp_id=NCAAM&display_type=team_totals&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=35&cstat[1]=wins
-- Timestamp: 2026-09-28T07:57:26.031Z
-- Rows read: 13
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2001&year_max=2010&comp_id=NCAAM&display_type=totals&order_by=stl_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=4&cstat[2]=stl_per_g
+- Timestamp: 2026-09-28T10:32:14.518Z
+- Rows read: 5
 
 ## Result table
 
 ```
-header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | wins | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
- |  |  | 1 | 2014-15 | Kentucky | 38 | 39 | 38 | 1 | .974 | 7873 | 1006 | 2150 | 803 | 1568 | 203 | 582 | 685 | 943 | 491 | 991 | 1482 | 553 | 253 | 268 | 408 | 665 | 2900 | .468 | .512 | .349 | .726 | .558 | .515
- |  |  | 2 | 2011-12 | Kentucky | 38 | 40 | 38 | 2 | .950 | 8001 | 1096 | 2248 | 871 | 1653 | 225 | 595 | 678 | 938 | 472 | 973 | 1445 | 531 | 242 | 344 | 445 | 593 | 3095 | .488 | .527 | .378 | .723 | .575 | .538
- |  |  | 3 | 2016-17 | Gonzaga | 37 | 39 | 37 | 2 | .949 | 7800 | 1149 | 2280 | 863 | 1531 | 286 | 749 | 638 | 890 | 378 | 1209 | 1587 | 595 | 265 | 183 | 448 | 660 | 3222 | .504 | .564 | .382 | .717 | .596 | .567
- |  |  | 4 | 2017-18 | Villanova | 36 | 40 | 36 | 4 | .900 | 8075 | 1220 | 2440 | 756 | 1282 | 464 | 1158 | 559 | 718 | 385 | 1051 | 1436 | 655 | 259 | 162 | 426 | 645 | 3463 | .500 | .590 | .401 | .779 | .623 | .595
- |  |  | 5 | 2014-15 | Wisconsin | 36 | 40 | 36 | 4 | .900 | 8050 | 1014 | 2115 | 726 | 1325 | 288 | 790 | 584 | 765 | 383 | 955 | 1338 | 504 | 174 | 127 | 296 | 501 | 2900 | .479 | .548 | .365 | .763 | .585 | .548
- |  |  | 6 | 2013-14 | Florida | 36 | 39 | 36 | 3 | .923 | 7799 | 945 | 2056 | 690 | 1345 | 255 | 711 | 582 | 871 | 437 | 948 | 1385 | 509 | 274 | 118 | 418 | 611 | 2727 | .460 | .513 | .359 | .668 | .552 | .522
- |  |  | 7 | 2018-19 | Virginia | 35 | 38 | 35 | 3 | .921 | 7675 | 974 | 2056 | 653 | 1243 | 321 | 813 | 445 | 598 | 342 | 984 | 1326 | 544 | 211 | 149 | 342 | 542 | 2714 | .474 | .525 | .395 | .744 | .580 | .552
- |  |  | 8 | 2015-16 | Villanova | 35 | 40 | 35 | 5 | .875 | 8025 | 1086 | 2247 | 739 | 1288 | 347 | 959 | 599 | 766 | 351 | 1034 | 1385 | 637 | 282 | 136 | 440 | 681 | 3118 | .483 | .574 | .362 | .782 | .597 | .561
- |  |  | 9 | 2014-15 | Duke | 35 | 39 | 35 | 4 | .897 | 7850 | 1099 | 2191 | 816 | 1459 | 283 | 732 | 610 | 873 | 445 | 991 | 1436 | 588 | 278 | 149 | 421 | 607 | 3091 | .502 | .559 | .387 | .699 | .593 | .566
- |  |  | 10 | 2014-15 | Gonzaga | 35 | 38 | 35 | 3 | .921 | 7625 | 1084 | 2083 | 820 | 1423 | 264 | 660 | 557 | 806 | 391 | 1050 | 1441 | 620 | 226 | 126 | 397 | 637 | 2989 | .520 | .576 | .400 | .691 | .606 | .584
- |  |  | 11 | 2013-14 | Wichita St. | 35 | 36 | 35 | 1 | .972 | 7223 | 896 | 1942 | 646 | 1229 | 250 | 713 | 664 | 916 | 419 | 962 | 1381 | 491 | 247 | 184 | 374 | 611 | 2706 | .461 | .526 | .351 | .725 | .569 | .526
- |  |  | 12 | 2012-13 | Louisville | 35 | 40 | 35 | 5 | .875 | 8125 | 1048 | 2300 | 818 | 1609 | 230 | 691 | 652 | 920 | 531 | 854 | 1385 | 584 | 430 | 168 | 495 | 727 | 2978 | .456 | .508 | .333 | .709 | .544 | .506
- |  |  | 13 | 2010-11 | Kansas | 35 | 38 | 35 | 3 | .921 | 7625 | 1114 | 2193 | 843 | 1483 | 271 | 710 | 585 | 862 | 449 | 1026 | 1475 | 674 | 295 | 153 | 507 | 666 | 3084 | .508 | .568 | .382 | .679 | .593 | .570
+ranker | name_display | stl_per_g | games | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
+1 | Desmond Cambridge | 5.5 | 29 | 2001-02 | Alabama A&M | 29 | 29 | 856 | 175 | 496 | 95 | 232 | 80 | 264 | 170 | 220 | 35 | 70 | 105 | 166 | 160 | 10 | 119 | 81 | 600 | .353 | .409 | .303 | .773 | .500 | .433 | G | SR
+2 | John Linehan | 4.5 | 31 | 2001-02 | Providence | 31 | 30 | 1045 | 118 | 302 | 64 | 142 | 54 | 160 | 97 | 116 | 30 | 87 | 117 | 137 | 139 | 0 | 72 | 81 | 387 | .391 | .451 | .338 | .836 | .542 | .480 | G | SR
+3 | Greedy Daniels | 4.3 | 25 | 2000-01 | TCU | 25 | 20 | 720 | 130 | 319 | 64 | 142 | 66 | 177 | 91 | 121 | 22 | 52 | 74 | 144 | 108 | 5 | 89 | 83 | 417 | .408 | .451 | .373 | .752 | .554 | .511 | G | JR
+4 | Marques Green | 4.0 | 27 | 2003-04 | St. Bonaventure | 27 | 27 | 1063 | 172 | 468 | 74 | 193 | 98 | 275 | 83 | 108 | 20 | 70 | 90 | 140 | 107 | 2 | 106 | 70 | 525 | .368 | .383 | .356 | .769 | .505 | .472 | G | SR
+5 | Alexis McMillan | 4.0 | 22 | 2002-03 | Stetson | 22 | 22 | 660 | 103 | 240 | 77 | 154 | 26 | 86 | 57 | 72 | 32 | 68 | 100 | 72 | 87 | 22 | 52 | 53 | 289 | .429 | .500 | .302 | .792 | .527 | .483 | F | SR
 ```
 
 ## Claim check
 
-- Complete set: all 13 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 5 rows read. A superlative may be asserted only if it holds across every row above.

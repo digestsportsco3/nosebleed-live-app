@@ -1,39 +1,16 @@
-# SCBB255 — College Basketball 2000s p:fg3p_hi
+# SCBB255 — College Basketball 1990s p:ft_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2001&year_max=2010&comp_id=NCAAM&display_type=totals&order_by=fg3_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=100&cstat[1]=fg3a&ccomp[2]=gt&cval[2]=50&cstat[2]=fg3_pct
-- Timestamp: 2026-09-28T07:49:36.314Z
-- Rows read: 23
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1991&year_max=2000&comp_id=NCAAM&display_type=totals&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=300&cstat[1]=ft
+- Timestamp: 2026-09-28T10:25:21.761Z
+- Rows read: 0
 
 ## Result table
 
 ```
-ranker | name_display | fg3_pct | fg3a | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
-1 | Brian Conklin | .559 | 118 | 2003-04 | Nebraska | 31 | 14 | 632 | 81 | 152 | 15 | 34 | 66 | 118 | 20 | 22 | 30 | 89 | 119 | 37 | 14 | 10 | 31 | 50 | 248 | .533 | .441 | .559 | .909 | .763 | .750 | F | SR
-2 | T.J. Campbell | .531 | 143 | 2008-09 | Portland | 32 | 32 | 988 | 121 | 243 | 45 | 100 | 76 | 143 | 36 | 44 | 9 | 63 | 72 | 151 | 34 | 3 | 84 | 72 | 354 | .498 | .450 | .531 | .818 | .671 | .654 | G | JR
-3 | Harris Mansell | .530 | 132 | 2006-07 | Rider | 30 | 30 | 974 | 120 | 263 | 50 | 131 | 70 | 132 | 61 | 82 | 31 | 110 | 141 | 75 | 25 | 4 | 59 | 79 | 371 | .456 | .382 | .530 | .744 | .614 | .589 | G | SO
-4 | Darren Collison | .525 | 101 | 2007-08 | UCLA | 33 | 32 | 1144 | 161 | 335 | 108 | 234 | 53 | 101 | 102 | 117 | 17 | 69 | 86 | 124 | 61 | 3 | 74 | 44 | 477 | .481 | .462 | .525 | .872 | .611 | .560 | G | JR
-5 | Pete Campbell | .519 | 156 | 2006-07 | Butler | 35 | 0 | 511 | 105 | 202 | 24 | 46 | 81 | 156 | 27 | 31 | 14 | 41 | 55 | 14 | 4 | 0 | 10 | 43 | 318 | .520 | .522 | .519 | .871 | .734 | .720 | F | JR
-6 | Michael McDonald | .514 | 109 | 2000-01 | Stanford | 34 | 34 | 917 | 97 | 198 | 41 | 89 | 56 | 109 | 21 | 29 | 11 | 84 | 95 | 165 | 31 | 4 | 57 | 78 | 271 | .490 | .461 | .514 | .724 | .640 | .631 | G | SR
-7 | Tim Whitworth | .513 | 119 | 2003-04 | Drexel | 28 | 28 | 772 | 146 | 278 | 85 | 159 | 61 | 119 | 43 | 53 | 30 | 79 | 109 | 26 | 22 | 0 | 22 | 35 | 396 | .525 | .535 | .513 | .811 | .653 | .635 | G | SR
-8 | Shaun Green | .512 | 125 | 2006-07 | Utah | 30 | 28 | 916 | 118 | 223 | 54 | 98 | 64 | 125 | 34 | 45 | 50 | 133 | 183 | 78 | 36 | 16 | 53 | 78 | 334 | .529 | .551 | .512 | .756 | .683 | .673 | F | SO
-9 | Parfait Bitee | .512 | 127 | 2007-08 | Rhode Island | 33 | 33 | 979 | 128 | 258 | 63 | 131 | 65 | 127 | 69 | 87 | 13 | 68 | 81 | 156 | 26 | 6 | 81 | 67 | 390 | .496 | .481 | .512 | .793 | .651 | .622 | G | SR
-10 | Brad Lechtenberg | .511 | 139 | 2003-04 | San Diego | 23 | 15 | 643 | 81 | 170 | 10 | 31 | 71 | 139 | 10 | 12 | 17 | 31 | 48 | 42 | 17 | 1 | 36 | 34 | 243 | .476 | .323 | .511 | .833 | .692 | .685 | G | SR
-11 | Marquis Ford | .510 | 100 | 2006-07 | Saint Francis (PA) | 24 | 24 | 780 | 70 | 163 | 19 | 63 | 51 | 100 | 32 | 48 | 10 | 57 | 67 | 98 | 22 | 2 | 82 | 54 | 223 | .429 | .302 | .510 | .667 | .600 | .586 | G | SO
-12 | Mickey McConnell | .510 | 151 | 2009-10 | St. Mary's (CA) | 34 | 34 | 1229 | 159 | 313 | 82 | 162 | 77 | 151 | 74 | 88 | 15 | 66 | 81 | 174 | 50 | 8 | 74 | 71 | 469 | .508 | .506 | .510 | .841 | .661 | .631 | G | JR
-13 | Matt McCraw | .509 | 108 | 2004-05 | Air Force | 30 | 18 | 777 | 85 | 167 | 30 | 59 | 55 | 108 | 44 | 49 | 9 | 41 | 50 | 54 | 33 | 3 | 29 | 44 | 269 | .509 | .508 | .509 | .898 | .707 | .674 | G | SO
-14 | Kirk Hinrich | .505 | 109 | 2000-01 | Kansas | 33 | 33 | 1079 | 116 | 232 | 61 | 123 | 55 | 109 | 91 | 108 | 16 | 118 | 134 | 229 | 43 | 9 | 111 | 107 | 378 | .500 | .496 | .505 | .843 | .667 | .619 | G | SO
-15 | Steve Novak | .505 | 109 | 2002-03 | Marquette | 33 | 0 | 512 | 67 | 133 | 12 | 24 | 55 | 109 | 31 | 33 | 18 | 53 | 71 | 17 | 7 | 0 | 18 | 54 | 220 | .504 | .500 | .505 | .939 | .740 | .711 | F | FR
-16 | Salim Stoudamire | .504 | 238 | 2004-05 | Arizona | 36 | 33 | 1126 | 210 | 417 | 90 | 179 | 120 | 238 | 122 | 134 | 9 | 74 | 83 | 78 | 30 | 4 | 85 | 66 | 662 | .504 | .503 | .504 | .910 | .689 | .647 | G | SR
-17 | Brett Lauer | .504 | 125 | 2008-09 | UC Irvine | 31 | 24 | 758 | 80 | 161 | 17 | 36 | 63 | 125 | 42 | 50 | 10 | 53 | 63 | 43 | 13 | 3 | 36 | 77 | 265 | .497 | .472 | .504 | .840 | .717 | .693 | G | SR
-18 | Alan Voskuil | .500 | 134 | 2007-08 | Texas Tech | 31 | 25 | 1050 | 127 | 265 | 60 | 131 | 67 | 134 | 84 | 102 | 10 | 109 | 119 | 43 | 43 | 1 | 50 | 62 | 405 | .479 | .458 | .500 | .824 | .646 | .606 | G | JR
-19 | Anthony Lever | .500 | 106 | 2001-02 | Oregon | 35 | 0 | 556 | 71 | 161 | 18 | 55 | 53 | 106 | 24 | 30 | 16 | 35 | 51 | 31 | 23 | 5 | 26 | 49 | 219 | .441 | .327 | .500 | .800 | .625 | .606 | G | SR
-20 | Brian Green | .500 | 106 | 2009-10 | Utah State | 34 | 3 | 598 | 92 | 193 | 39 | 87 | 53 | 106 | 21 | 25 | 5 | 48 | 53 | 46 | 17 | 0 | 21 | 28 | 258 | .477 | .448 | .500 | .840 | .630 | .614 | G | JR
-21 | Jeremy Crouch | .500 | 166 | 2006-07 | Bradley | 27 | 22 | 815 | 120 | 266 | 37 | 100 | 83 | 166 | 50 | 59 | 7 | 54 | 61 | 62 | 39 | 2 | 39 | 58 | 373 | .451 | .370 | .500 | .847 | .634 | .607 | G | JR
-22 | Jonathan Schneiderman | .500 | 138 | 2002-03 | Illinois–Chicago | 30 | 13 | 819 | 93 | 191 | 24 | 53 | 69 | 138 | 48 | 55 | 3 | 54 | 57 | 67 | 23 | 2 | 36 | 56 | 303 | .487 | .453 | .500 | .873 | .698 | .668 | G | SR
-23 | Josh Carter | .500 | 172 | 2006-07 | Texas A&M | 34 | 34 | 995 | 130 | 264 | 44 | 92 | 86 | 172 | 56 | 72 | 29 | 107 | 136 | 81 | 24 | 16 | 37 | 68 | 402 | .492 | .478 | .500 | .778 | .674 | .655 | F | SO
+
 ```
 
 ## Claim check
 
-- Complete set: all 23 rows read. A superlative may be asserted only if it holds across every row above.
+- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.

@@ -1,22 +1,30 @@
-# SCBB073 — College Basketball 1960s p:fgp_hi
+# SCBB073 — College Basketball 1950s t:loss_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1961&year_max=1970&comp_id=NCAAM&display_type=totals&order_by=fg_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=fga&ccomp[2]=gt&cval[2]=65&cstat[2]=fg_pct
-- Timestamp: 2026-09-28T07:32:40.227Z
-- Rows read: 6
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=1951&year_max=1960&comp_id=NCAAM&display_type=team_totals&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=22&cstat[1]=losses
+- Timestamp: 2026-09-28T10:11:30.833Z
+- Rows read: 14
 
 ## Result table
 
 ```
-ranker | name_display | fg_pct | fga | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
-1 | Kareem Abdul-Jabbar | .667 | 519 | 1966-67 | UCLA | 30 |  |  | 346 | 519 | 346 | 519 |  |  | 178 | 274 |  |  | 466 |  |  |  |  | 66 | 870 | .667 | .667 |  | .650 | .670 | .667 | C | SO
-2 | Tim Kehoe | .660 | 209 | 1964-65 | Saint Peter's | 19 |  |  | 138 | 209 | 138 | 209 |  |  | 107 | 133 |  |  | 104 |  |  |  |  | 59 | 383 | .660 | .660 |  | .805 | .704 | .660 | F | SR
-3 | Julian Hammond | .659 | 261 | 1965-66 | Tulsa | 29 |  |  | 172 | 261 | 172 | 261 |  |  | 132 | 202 |  |  | 256 |  |  |  |  | 72 | 476 | .659 | .659 |  | .653 | .667 | .659 | F | SR
-4 | Lyle Harger | .656 | 294 | 1962-63 | Houston | 26 |  |  | 193 | 294 | 193 | 294 |  |  | 165 | 221 |  |  | 359 |  |  |  |  | 83 | 551 | .656 | .656 |  | .747 | .691 | .656 | C | SR
-5 | Joe Allen | .655 | 394 | 1967-68 | Bradley | 28 |  |  | 258 | 394 | 258 | 394 |  |  | 170 | 233 |  |  | 293 | 56 |  |  |  | 72 | 686 | .655 | .655 |  | .730 | .680 | .655 | C | SR
-6 | Henry Finkel | .651 | 450 | 1964-65 | Dayton | 29 |  |  | 293 | 450 | 293 | 450 |  |  | 147 | 209 |  |  | 431 |  |  |  |  | 93 | 733 | .651 | .651 |  | .703 | .667 | .651 | C | JR
+header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | losses | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
+ |  |  | 1 | 1952-53 | Washington St. | 27 | 34 | 7 | 27 | .206 |  | 698 |  | 698 |  |  |  | 530 | 943 |  |  |  |  |  |  |  | 726 | 1926 |  |  |  | .562 |  | 
+ |  |  | 2 | 1953-54 | Virginia Tech | 24 | 27 | 3 | 24 | .111 |  | 575 | 1845 | 575 | 1845 |  |  | 535 | 906 |  |  | 761 |  |  |  |  | 520 | 1685 | .312 | .312 |  | .591 | .370 | .312
+ |  |  | 3 | 1955-56 | Pepperdine | 23 | 25 | 2 | 23 | .080 |  | 581 | 1703 | 581 | 1703 |  |  | 450 | 702 |  |  | 1088 |  |  |  |  | 515 | 1612 | .341 | .341 |  | .641 | .396 | .341
+ |  |  | 4 | 1951-52 | Case Western Reserve | 23 | 24 | 1 | 23 | .042 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | 5 | 1951-52 | Northern Ariz. | 23 | 27 | 4 | 23 | .148 |  | 577 |  | 577 |  |  |  | 407 | 690 |  |  |  |  |  |  |  | 601 | 1561 |  |  |  | .590 |  | 
+ |  |  | 6 | 1950-51 | Dartmouth | 23 | 26 | 3 | 23 | .115 |  | 497 |  | 497 |  |  |  | 379 | 584 |  |  |  |  |  |  |  | 556 | 1364 |  |  |  | .649 |  | 
+ |  |  | 7 | 1958-59 | Arizona | 22 | 26 | 4 | 22 | .154 |  | 653 | 1783 | 653 | 1783 |  |  | 337 | 570 |  |  | 1035 |  |  |  |  | 513 | 1643 | .366 | .366 |  | .591 | .400 | .366
+ |  |  | 8 | 1958-59 | Wyoming | 22 | 26 | 4 | 22 | .154 |  | 619 | 1806 | 619 | 1806 |  |  | 438 | 656 |  |  | 1204 |  |  |  |  | 553 | 1676 | .343 | .343 |  | .668 | .396 | .343
+ |  |  | 9 | 1956-57 | VMI | 22 | 26 | 4 | 22 | .154 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | 10 | 1955-56 | Washington St. | 22 | 26 | 4 | 22 | .154 |  | 563 | 1603 | 563 | 1603 |  |  | 434 | 728 |  |  | 955 |  |  |  |  | 504 | 1560 | .351 | .351 |  | .596 | .400 | .351
+ |  |  | 11 | 1954-55 | Rutgers | 22 | 24 | 2 | 22 | .083 |  | 657 | 1905 | 657 | 1905 |  |  | 389 | 678 |  |  | 908 |  |  |  |  | 406 | 1703 | .345 | .345 |  | .574 | .382 | .345
+ |  |  | 12 | 1953-54 | Ga Tech | 22 | 24 | 2 | 22 | .083 |  | 506 | 1636 | 506 | 1636 |  |  | 448 | 792 |  |  |  |  |  |  |  | 553 | 1460 | .309 | .309 |  | .566 | .363 | .309
+ |  |  | 13 | 1951-52 | Georgia | 22 | 25 | 3 | 22 | .120 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  | 14 | 1950-51 | Utah St. | 22 | 34 | 12 | 22 | .353 |  | 677 | 1920 | 677 | 1920 |  |  | 555 | 842 |  |  |  |  |  |  |  | 628 | 1909 | .353 | .353 |  | .659 | .411 | .353
 ```
 
 ## Claim check
 
-- Complete set: all 6 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 14 rows read. A superlative may be asserted only if it holds across every row above.

@@ -1,51 +1,16 @@
-# SCBB074 — College Basketball 1960s p:ppg30
+# SCBB074 — College Basketball 1950s t:fgp_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1961&year_max=1970&comp_id=NCAAM&display_type=totals&order_by=pts_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=30&cstat[2]=pts_per_g
-- Timestamp: 2026-09-28T07:32:44.668Z
-- Rows read: 35
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=1951&year_max=1960&comp_id=NCAAM&display_type=team_totals&order_by=fg_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=0.53&cstat[2]=fg_pct
+- Timestamp: 2026-09-28T10:11:34.683Z
+- Rows read: 0
 
 ## Result table
 
 ```
-ranker | name_display | pts_per_g | games | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
-1 | Pete Maravich | 44.5 | 31 | 1969-70 | Louisiana State | 31 |  |  | 522 | 1168 | 522 | 1168 |  |  | 337 | 436 |  |  | 164 | 192 |  |  |  | 89 | 1381 | .447 | .447 |  | .773 | .502 | .447 | G | SR
-2 | Pete Maravich | 44.2 | 26 | 1968-69 | Louisiana State | 26 |  |  | 433 | 976 | 433 | 976 |  |  | 282 | 378 |  |  | 169 | 128 |  |  |  | 77 | 1148 | .444 | .444 |  | .746 | .497 | .444 | G | JR
-3 | Pete Maravich | 43.8 | 26 | 1967-68 | Louisiana State | 26 |  |  | 432 | 1022 | 432 | 1022 |  |  | 274 | 338 |  |  | 195 | 105 |  |  |  | 85 | 1138 | .423 | .423 |  | .811 | .481 | .423 | G | SO
-4 | Billy McGill | 38.8 | 26 | 1961-62 | Utah | 26 |  |  | 394 | 705 | 394 | 705 |  |  | 221 | 302 |  |  | 391 |  |  |  |  | 79 | 1009 | .559 | .559 |  | .732 | .595 | .559 | C | SR
-5 | Calvin Murphy | 38.2 | 24 | 1967-68 | Niagara | 24 |  |  | 337 | 772 | 337 | 772 |  |  | 242 | 288 |  |  | 118 |  |  |  |  | 92 | 916 | .437 | .437 |  | .840 | .504 | .437 | G | SO
-6 | Austin Carr | 38.1 | 29 | 1969-70 | Notre Dame | 29 |  |  | 444 | 799 | 444 | 799 |  |  | 218 | 264 |  |  | 240 |  |  |  |  | 41 | 1106 | .556 | .556 |  | .826 | .598 | .556 | G | JR
-7 | Rick Barry III | 37.4 | 26 | 1964-65 | Miami (FL) | 26 |  |  | 340 | 651 | 340 | 651 |  |  | 293 | 341 |  |  | 475 |  |  |  |  | 65 | 973 | .522 | .522 |  | .859 | .598 | .522 | F | SR
-8 | Elvin Hayes | 36.8 | 33 | 1967-68 | Houston | 33 |  | 1270 | 519 | 945 | 519 | 945 |  |  | 176 | 285 |  |  | 624 | 59 |  |  |  | 90 | 1214 | .549 | .549 |  | .618 | .562 | .549 | C | SR
-9 | Howie Komives | 36.7 | 23 | 1963-64 | Bowling Green | 23 |  |  | 292 | 672 | 292 | 672 |  |  | 260 | 303 |  |  | 109 |  |  |  |  | 73 | 844 | .435 | .435 |  | .858 | .517 | .435 | G | SR
-10 | Rick Mount | 35.4 | 20 | 1969-70 | Purdue | 20 |  |  | 285 | 582 | 285 | 582 |  |  | 138 | 166 |  |  | 54 |  |  |  |  | 41 | 708 | .490 | .490 |  | .831 | .536 | .490 | F | SR
-11 | Dan Issel | 33.9 | 28 | 1969-70 | Kentucky | 28 |  | 1044 | 369 | 667 | 369 | 667 |  |  | 210 | 275 |  |  | 363 | 39 |  |  |  | 81 | 948 | .553 | .553 |  | .764 | .594 | .553 | C | SR
-12 | Wayne Estes | 33.7 | 19 | 1964-65 | Utah State | 19 |  |  | 252 | 518 | 252 | 518 |  |  | 137 | 156 |  |  | 260 |  |  |  |  | 56 | 641 | .486 | .486 |  | .878 | .541 | .486 | F-C | SR
-13 | Jack Foley | 33.3 | 26 | 1961-62 | Holy Cross | 26 |  |  | 322 | 639 | 322 | 639 |  |  | 222 | 256 |  |  | 217 |  |  |  |  | 35 | 866 | .504 | .504 |  | .867 | .569 | .504 | F | SR
-14 | Rick Mount | 33.3 | 28 | 1968-69 | Purdue | 28 |  |  | 366 | 710 | 366 | 710 |  |  | 200 | 236 |  |  | 90 |  |  |  |  | 60 | 932 | .515 | .515 |  | .847 | .567 | .515 | F | JR
-15 | Nick Werkman | 33.2 | 25 | 1963-64 | Seton Hall | 25 |  | 970 | 320 | 734 | 320 | 734 |  |  | 190 | 308 |  |  | 345 | 53 |  |  |  | 78 | 830 | .436 | .436 |  | .617 | .471 | .436 | F | SR
-16 | Nick Werkman | 33.0 | 24 | 1961-62 | Seton Hall | 24 |  |  | 271 | 563 | 271 | 563 |  |  | 251 | 347 |  |  | 413 |  |  |  |  | 57 | 793 | .481 | .481 |  | .723 | .545 | .481 | F | SO
-17 | Manny Newsome | 32.7 | 20 | 1963-64 | Western Michigan | 20 |  |  | 262 | 534 | 262 | 534 |  |  | 129 | 149 |  |  | 77 |  |  |  |  | 39 | 653 | .491 | .491 |  | .866 | .540 | .491 | G | SR
-18 | Dave Schellhase | 32.5 | 24 | 1965-66 | Purdue | 24 |  |  | 284 | 611 | 284 | 611 |  |  | 213 | 276 |  |  | 255 |  |  |  |  | 76 | 781 | .465 | .465 |  | .772 | .526 | .465 | F | SR
-19 | Dave Wagnon | 32.5 | 26 | 1965-66 | Idaho State | 26 |  |  | 312 | 676 | 312 | 676 |  |  | 221 | 284 |  |  | 148 |  |  |  |  | 113 | 845 | .462 | .462 |  | .778 | .521 | .462 | G | SR
-20 | Calvin Murphy | 32.4 | 24 | 1968-69 | Niagara | 24 |  |  | 294 | 700 | 294 | 700 |  |  | 190 | 230 |  |  | 87 |  |  |  |  | 84 | 778 | .420 | .420 |  | .826 | .481 | .420 | G | JR
-21 | Frank Burgess | 32.4 | 26 | 1960-61 | Gonzaga | 26 |  |  | 304 | 704 | 304 | 704 |  |  | 234 | 286 |  |  | 203 |  |  |  |  |  | 842 | .432 | .432 |  | .818 | .501 | .432 | G | SR
-22 | Bill Bradley | 32.3 | 29 | 1963-64 | Princeton | 29 |  |  | 338 | 648 | 338 | 648 |  |  | 260 | 306 |  |  | 360 |  |  |  |  | 100 | 936 | .522 | .522 |  | .850 | .590 | .522 | F | JR
-23 | Rick Barry III | 32.2 | 27 | 1963-64 | Miami (FL) | 27 |  |  | 314 | 572 | 314 | 572 |  |  | 242 | 287 |  |  | 448 |  |  |  |  | 71 | 870 | .549 | .549 |  | .843 | .614 | .549 | F | JR
-24 | Spencer Haywood | 32.1 | 24 | 1968-69 | Detroit | 24 |  |  | 288 | 508 | 288 | 508 |  |  | 195 | 254 |  |  | 530 |  |  |  |  | 62 | 771 | .567 | .567 |  | .768 | .613 | .567 | F | SO
-25 | Tom Chilton | 32.1 | 24 | 1960-61 | East Tennessee State | 24 |  |  | 295 | 677 | 295 | 677 |  |  | 181 | 222 |  |  | 403 |  |  |  |  | 67 | 771 | .436 | .436 |  | .815 | .493 | .436 | F | SR
-26 | Cazzie Russell | 30.8 | 26 | 1965-66 | Michigan | 26 | 26 |  | 308 | 595 | 308 | 595 |  |  | 184 | 223 |  |  | 219 |  |  |  |  | 57 | 800 | .518 | .518 |  | .825 | .571 | .518 | F | SR
-27 | Gary Bradds | 30.6 | 24 | 1963-64 | Ohio State | 24 |  |  | 276 | 527 | 276 | 527 |  |  | 183 | 231 |  |  | 322 |  |  |  |  | 68 | 735 | .524 | .524 |  | .792 | .577 | .524 | C | SR
-28 | Willie Humes | 30.5 | 24 | 1969-70 | Idaho State | 24 |  |  | 278 | 620 | 278 | 620 |  |  | 177 | 237 |  |  | 151 |  |  |  |  | 99 | 733 | .448 | .448 |  | .747 | .500 | .448 | G | JR
-29 | Bill Bradley | 30.5 | 29 | 1964-65 | Princeton | 29 |  |  | 306 | 574 | 306 | 574 |  |  | 273 | 308 |  |  | 342 |  |  |  |  | 96 | 885 | .533 | .533 |  | .886 | .614 | .533 | F | SR
-30 | Jimmy Walker | 30.4 | 28 | 1966-67 | Providence | 28 |  | 1111 | 323 | 659 | 323 | 659 |  |  | 205 | 256 |  |  | 169 | 144 |  |  |  | 77 | 851 | .490 | .490 |  | .801 | .545 | .490 | G | SR
-31 | Terry Dischinger | 30.3 | 24 | 1961-62 | Purdue | 24 |  |  | 217 | 404 | 217 | 404 |  |  | 292 | 350 |  |  | 322 |  |  |  |  | 60 | 726 | .537 | .537 |  | .834 | .637 | .537 | C | SR
-32 | Rich Yunkus | 30.1 | 27 | 1969-70 | Georgia Tech | 27 |  |  | 317 | 568 | 317 | 568 |  |  | 180 | 217 |  |  | 323 | 60 |  |  |  | 77 | 814 | .558 | .558 |  | .829 | .606 | .558 | C | JR
-33 | Rudy Tomjanovich | 30.1 | 24 | 1969-70 | Michigan | 24 | 23 |  | 286 | 604 | 286 | 604 |  |  | 150 | 200 |  |  | 376 |  |  |  |  | 75 | 722 | .474 | .474 |  | .750 | .516 | .474 | F | SR
-34 | Len Chappell | 30.1 | 31 | 1961-62 | Wake Forest | 31 |  |  | 327 | 597 | 327 | 597 |  |  | 278 | 383 |  |  | 470 |  |  |  |  | 97 | 932 | .548 | .548 |  | .726 | .598 | .548 | F | SR
-35 | Steve Thomas | 30.0 | 26 | 1963-64 | Xavier | 26 |  |  | 302 | 637 | 302 | 637 |  |  | 175 | 214 |  |  | 95 |  |  |  |  | 81 | 779 | .474 | .474 |  | .818 | .527 | .474 | G | JR
+
 ```
 
 ## Claim check
 
-- Complete set: all 35 rows read. A superlative may be asserted only if it holds across every row above.
+- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.

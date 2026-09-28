@@ -1,18 +1,26 @@
-# SCBB393 — College Basketball 2020s t:fgp_hi
+# SCBB393 — College Basketball 2000s t:wins_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=2021&year_max=2026&comp_id=NCAAM&display_type=team_totals&order_by=fg_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=53&cstat[2]=fg_pct
-- Timestamp: 2026-09-28T08:01:52.022Z
-- Rows read: 2
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=2001&year_max=2010&comp_id=NCAAM&display_type=team_totals&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=35&cstat[1]=wins
+- Timestamp: 2026-09-28T10:37:14.167Z
+- Rows read: 10
 
 ## Result table
 
 ```
-header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | fg_pct | games | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
- |  |  | 1 | 2020-21 | Gonzaga | .549 | 32 | 32 | 31 | 1 | .969 | 6425 | 1079 | 1965 | 839 | 1313 | 240 | 652 | 513 | 703 | 289 | 900 | 1189 | 601 | 254 | 90 | 385 | 521 | 2911 | .549 | .639 | .368 | .730 | .633 | .610
- |  |  | 2 | 2023-24 | Wright St. | .530 | 32 | 32 | 18 | 14 | .563 | 6475 | 1033 | 1948 | 815 | 1379 | 218 | 569 | 483 | 638 | 290 | 821 | 1111 | 529 | 200 | 90 | 379 | 499 | 2767 | .530 | .591 | .383 | .757 | .615 | .586
+header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | wins | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
+ |  |  | 1 | 2007-08 | Memphis | 38 | 40 | 38 | 2 | .950 | 8050 | 1143 | 2454 | 841 | 1589 | 302 | 865 | 608 | 991 | 565 | 1055 | 1620 | 637 | 337 | 244 | 470 | 691 | 3196 | .466 | .529 | .349 | .614 | .546 | .527
+ |  |  | 2 | 2007-08 | Kansas | 37 | 40 | 37 | 3 | .925 | 8050 | 1176 | 2314 | 905 | 1631 | 271 | 683 | 598 | 852 | 482 | 1065 | 1547 | 721 | 356 | 235 | 529 | 706 | 3221 | .508 | .555 | .397 | .702 | .592 | .567
+ |  |  | 3 | 2004-05 | Illinois | 37 | 39 | 37 | 2 | .949 | 7850 | 1092 | 2258 | 748 | 1381 | 344 | 877 | 474 | 651 | 425 | 913 | 1338 | 727 | 300 | 123 | 428 | 611 | 3002 | .484 | .542 | .392 | .728 | .585 | .560
+ |  |  | 4 | 2007-08 | UNC | 36 | 39 | 36 | 3 | .923 | 7900 | 1250 | 2564 | 1034 | 1984 | 216 | 580 | 738 | 975 | 605 | 1090 | 1695 | 656 | 318 | 174 | 560 | 658 | 3454 | .488 | .521 | .372 | .757 | .571 | .530
+ |  |  | 5 | 2009-10 | Duke | 35 | 40 | 35 | 5 | .875 | 8000 | 1049 | 2375 | 748 | 1593 | 301 | 782 | 682 | 899 | 569 | 991 | 1560 | 555 | 266 | 162 | 429 | 722 | 3079 | .442 | .470 | .385 | .759 | .549 | .505
+ |  |  | 6 | 2009-10 | Kentucky | 35 | 38 | 35 | 3 | .921 | 7675 | 1066 | 2228 | 835 | 1531 | 231 | 697 | 649 | 971 | 538 | 1046 | 1584 | 573 | 279 | 273 | 538 | 641 | 3012 | .478 | .545 | .331 | .668 | .560 | .530
+ |  |  | 7 | 2007-08 | UCLA | 35 | 39 | 35 | 4 | .897 | 7825 | 1029 | 2164 | 815 | 1552 | 214 | 612 | 595 | 813 | 492 | 940 | 1432 | 562 | 285 | 167 | 491 | 569 | 2867 | .476 | .525 | .350 | .732 | .562 | .525
+ |  |  | 8 | 2006-07 | Florida | 35 | 40 | 35 | 5 | .875 | 8025 | 1125 | 2138 | 828 | 1411 | 297 | 727 | 646 | 936 | 447 | 1057 | 1504 | 614 | 266 | 194 | 565 | 626 | 3193 | .526 | .587 | .409 | .690 | .618 | .596
+ |  |  | 9 | 2006-07 | Ohio St. | 35 | 39 | 35 | 4 | .897 | 7825 | 1029 | 2178 | 742 | 1384 | 287 | 794 | 560 | 797 | 433 | 957 | 1390 | 583 | 265 | 218 | 443 | 534 | 2905 | .472 | .536 | .361 | .703 | .568 | .538
+ |  |  | 10 | 2000-01 | Duke | 35 | 39 | 35 | 4 | .897 | 7825 | 1217 | 2530 | 810 | 1473 | 407 | 1057 | 697 | 1002 | 538 | 967 | 1505 | 701 | 411 | 196 | 531 | 659 | 3538 | .481 | .550 | .385 | .696 | .588 | .561
 ```
 
 ## Claim check
 
-- Complete set: all 2 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 10 rows read. A superlative may be asserted only if it holds across every row above.

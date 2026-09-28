@@ -1,8 +1,8 @@
-# SCBB009 — College Basketball 1940s p:rpg25
+# SCBB009 — College Basketball 1940s p:ft250
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1948&year_max=1950&comp_id=NCAAM&display_type=totals&order_by=trb_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=22&cstat[2]=trb_per_g
-- Timestamp: 2026-09-28T07:27:45.757Z
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1948&year_max=1950&comp_id=NCAAM&display_type=totals&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=250&cstat[1]=ft
+- Timestamp: 2026-09-28T10:06:45.278Z
 - Rows read: 0
 
 ## Result table

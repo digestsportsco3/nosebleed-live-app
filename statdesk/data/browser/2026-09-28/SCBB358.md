@@ -1,21 +1,25 @@
-# SCBB358 — College Basketball 2020s p:ast_hi
+# SCBB358 — College Basketball 2000s p:fr_pts
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2021&year_max=2026&comp_id=NCAAM&display_type=totals&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=300&cstat[1]=ast
-- Timestamp: 2026-09-28T07:58:58.618Z
-- Rows read: 5
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2001&year_max=2010&comp_id=NCAAM&display_type=totals&class[]=fr&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=700&cstat[1]=pts
+- Timestamp: 2026-09-28T10:34:05.236Z
+- Rows read: 9
 
 ## Result table
 
 ```
-ranker | name_display | ast | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
-1 | Braden Smith | 345 | 2025-26 | Purdue | 39 | 39 | 1344 | 197 | 448 | 133 | 271 | 64 | 177 | 99 | 120 | 25 | 113 | 138 | 345 | 66 | 8 | 113 | 62 | 557 | .440 | .491 | .362 | .825 | .551 | .511 | G | SR
-2 | Ryan Nembhard | 344 | 2024-25 | Gonzaga | 35 | 35 | 1228 | 132 | 296 | 94 | 202 | 38 | 94 | 67 | 87 | 10 | 94 | 104 | 344 | 60 | 2 | 86 | 55 | 369 | .446 | .465 | .404 | .770 | .547 | .510 | G | SR
-3 | Jeremy Fears Jr. | 328 | 2025-26 | Michigan State | 35 | 35 | 1135 | 157 | 364 | 122 | 255 | 35 | 109 | 184 | 208 | 15 | 69 | 84 | 328 | 45 | 1 | 85 | 82 | 533 | .431 | .478 | .321 | .885 | .576 | .479 | G | JR
-4 | Yuri Collins | 324 | 2022-23 | Saint Louis | 32 | 32 | 1122 | 129 | 292 | 114 | 245 | 15 | 47 | 86 | 117 | 11 | 96 | 107 | 324 | 42 | 3 | 115 | 69 | 359 | .442 | .465 | .319 | .735 | .516 | .467 | G | SR
-5 | Braden Smith | 313 | 2024-25 | Purdue | 36 | 36 | 1333 | 202 | 472 | 119 | 254 | 83 | 218 | 80 | 96 | 14 | 148 | 162 | 313 | 78 | 7 | 109 | 61 | 567 | .428 | .469 | .381 | .833 | .548 | .516 | G | JR
+ranker | name_display | pts | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
+1 | Kevin Durant | 903 | 2006-07 | Texas | 35 | 35 | 1255 | 306 | 647 | 224 | 444 | 82 | 203 | 209 | 256 | 106 | 284 | 390 | 46 | 66 | 67 | 99 | 71 | 903 | .473 | .505 | .404 | .816 | .587 | .536 | F | FR
+2 | Michael Beasley | 866 | 2007-08 | Kansas State | 33 | 33 | 1041 | 307 | 577 | 271 | 482 | 36 | 95 | 216 | 279 | 131 | 277 | 408 | 38 | 42 | 54 | 95 | 85 | 866 | .532 | .562 | .379 | .774 | .610 | .563 | F | FR
+3 | Jason Conley | 820 | 2001-02 | VMI | 28 | 27 | 959 | 285 | 610 | 206 | 373 | 79 | 237 | 171 | 209 | 80 | 144 | 224 | 67 | 82 | 11 | 103 | 52 | 820 | .467 | .552 | .333 | .818 | .578 | .532 | G | FR
+4 | Carmelo Anthony | 778 | 2002-03 | Syracuse | 35 | 35 | 1274 | 277 | 612 | 221 | 446 | 56 | 166 | 168 | 238 | 101 | 248 | 349 | 77 | 55 | 30 | 77 | 77 | 778 | .453 | .496 | .337 | .706 | .537 | .498 | F | FR
+5 | Dajuan Wagner | 762 | 2001-02 | Memphis | 36 | 35 | 1146 | 265 | 647 | 199 | 439 | 66 | 208 | 166 | 230 | 18 | 71 | 89 | 128 | 43 | 20 | 105 | 101 | 762 | .410 | .453 | .317 | .722 | .504 | .461 | G | FR
+6 | Stephen Curry | 730 | 2006-07 | Davidson | 34 | 33 | 1049 | 242 | 523 | 120 | 224 | 122 | 299 | 124 | 145 | 32 | 125 | 157 | 95 | 62 | 6 | 95 | 87 | 730 | .463 | .536 | .408 | .855 | .617 | .579 | G | FR
+7 | Rodney Stuckey | 726 | 2005-06 | Eastern Washington | 30 | 30 | 990 | 250 | 510 | 195 | 362 | 55 | 148 | 171 | 225 | 32 | 112 | 144 | 123 | 66 | 8 | 107 | 75 | 726 | .490 | .539 | .372 | .760 | .588 | .544 | G | FR
+8 | Keydren Clark | 722 | 2002-03 | Saint Peter's | 29 | 29 | 1107 | 231 | 584 | 122 | 306 | 109 | 278 | 151 | 177 | 24 | 71 | 95 | 121 | 41 | 6 | 115 | 55 | 722 | .396 | .399 | .392 | .853 | .540 | .489 | G | FR
+9 | Seth Curry | 707 | 2008-09 | Liberty | 35 | 34 | 1277 | 243 | 583 | 141 | 289 | 102 | 294 | 119 | 143 | 24 | 129 | 153 | 79 | 48 | 9 | 79 | 53 | 707 | .417 | .488 | .347 | .832 | .543 | .504 | G | FR
 ```
 
 ## Claim check
 
-- Complete set: all 5 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 9 rows read. A superlative may be asserted only if it holds across every row above.

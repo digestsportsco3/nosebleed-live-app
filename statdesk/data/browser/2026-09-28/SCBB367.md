@@ -1,20 +1,19 @@
-# SCBB367 — College Basketball 2020s p:fr_fg3
+# SCBB367 — College Basketball 2000s p:fr_ppg
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2021&year_max=2026&comp_id=NCAAM&display_type=totals&class[]=fr&order_by=fg3&order_by_asc=0&ccomp[1]=gt&cval[1]=100&cstat[1]=fg3
-- Timestamp: 2026-09-28T07:59:39.834Z
-- Rows read: 4
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2001&year_max=2010&comp_id=NCAAM&display_type=totals&class[]=fr&order_by=pts_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=25&cstat[2]=pts_per_g
+- Timestamp: 2026-09-28T10:34:51.270Z
+- Rows read: 3
 
 ## Result table
 
 ```
-ranker | name_display | fg3 | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
-1 | Jake Hall | 117 | 2025-26 | New Mexico | 37 | 37 | 1147 | 202 | 422 | 85 | 155 | 117 | 267 | 84 | 105 | 23 | 97 | 120 | 60 | 30 | 1 | 39 | 63 | 605 | .479 | .548 | .438 | .800 | .641 | .617 | G | FR
-2 | Jason Roche | 110 | 2021-22 | The Citadel | 31 | 30 | 1121 | 124 | 309 | 14 | 32 | 110 | 277 | 50 | 55 | 23 | 100 | 123 | 21 | 21 | 7 | 32 | 58 | 408 | .401 | .438 | .397 | .909 | .609 | .579 | F | FR
-3 | Josh Hubbard | 108 | 2023-24 | Mississippi State | 35 | 16 | 971 | 184 | 478 | 76 | 174 | 108 | 304 | 122 | 143 | 9 | 67 | 76 | 61 | 24 | 4 | 42 | 48 | 598 | .385 | .437 | .355 | .853 | .548 | .498 | G | FR
-4 | Brandon Miller | 106 | 2022-23 | Alabama | 37 | 37 | 1208 | 222 | 516 | 116 | 240 | 106 | 276 | 146 | 170 | 76 | 229 | 305 | 77 | 33 | 32 | 81 | 87 | 696 | .430 | .483 | .384 | .859 | .583 | .533 | F | FR
+ranker | name_display | pts_per_g | games | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
+1 | Jason Conley | 29.3 | 28 | 2001-02 | VMI | 28 | 27 | 959 | 285 | 610 | 206 | 373 | 79 | 237 | 171 | 209 | 80 | 144 | 224 | 67 | 82 | 11 | 103 | 52 | 820 | .467 | .552 | .333 | .818 | .578 | .532 | G | FR
+2 | Michael Beasley | 26.2 | 33 | 2007-08 | Kansas State | 33 | 33 | 1041 | 307 | 577 | 271 | 482 | 36 | 95 | 216 | 279 | 131 | 277 | 408 | 38 | 42 | 54 | 95 | 85 | 866 | .532 | .562 | .379 | .774 | .610 | .563 | F | FR
+3 | Kevin Durant | 25.8 | 35 | 2006-07 | Texas | 35 | 35 | 1255 | 306 | 647 | 224 | 444 | 82 | 203 | 209 | 256 | 106 | 284 | 390 | 46 | 66 | 67 | 99 | 71 | 903 | .473 | .505 | .404 | .816 | .587 | .536 | F | FR
 ```
 
 ## Claim check
 
-- Complete set: all 4 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 3 rows read. A superlative may be asserted only if it holds across every row above.

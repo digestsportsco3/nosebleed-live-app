@@ -1,30 +1,22 @@
-# SCBB111 — College Basketball 1970s p:trb_hi
+# SCBB111 — College Basketball 1960s t:one_loss
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1971&year_max=1980&comp_id=NCAAM&display_type=totals&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=500&cstat[1]=trb
-- Timestamp: 2026-09-28T07:35:42.443Z
-- Rows read: 14
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=1961&year_max=1970&comp_id=NCAAM&display_type=team_totals&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=20&cstat[1]=games&ccomp[2]=lt&cval[2]=1&cstat[2]=losses&ccomp[3]=gt&cval[3]=1&cstat[3]=losses
+- Timestamp: 2026-09-28T10:14:14.491Z
+- Rows read: 6
 
 ## Result table
 
 ```
-ranker | name_display | trb | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
-1 | Marvin Webster | 740 | 1973-74 | Morgan State | 33 |  |  | 273 | 501 | 273 | 501 |  |  | 161 | 231 |  |  | 740 |  |  |  |  |  | 707 | .545 | .545 |  | .697 | .579 | .545 | C | JR
-2 | Marvin Webster | 650 | 1972-73 | Morgan State | 28 |  |  | 199 | 387 | 199 | 387 |  |  | 120 | 175 |  |  | 650 |  |  |  |  | 74 | 518 | .514 | .514 |  | .686 | .551 | .514 | C | SO
-3 | Artis Gilmore | 603 | 1970-71 | Jacksonville | 26 |  |  | 229 | 405 | 229 | 405 |  |  | 112 | 188 |  |  | 603 | 42 |  | 269 |  | 58 | 570 | .565 | .565 |  | .596 | .577 | .565 | C | SR
-4 | Marvin Barnes | 597 | 1973-74 | Providence | 32 |  | 1158 | 297 | 596 | 297 | 596 |  |  | 112 | 164 |  |  | 597 | 113 |  |  |  | 110 | 706 | .498 | .498 |  | .683 | .524 | .498 | F | SR
-5 | Marvin Barnes | 571 | 1972-73 | Providence | 30 |  | 1045 | 237 | 436 | 237 | 436 |  |  | 75 | 109 |  |  | 571 | 88 |  |  |  | 91 | 549 | .544 | .544 |  | .688 | .563 | .544 | F | JR
-6 | Julius Erving II | 527 | 1970-71 | Massachusetts | 27 |  | 1029 | 286 | 609 | 286 | 609 |  |  | 155 | 206 |  |  | 527 | 99 |  |  |  | 67 | 727 | .470 | .470 |  | .752 | .514 | .470 | F | JR
-7 | Kermit Washington | 512 | 1970-71 | American | 25 |  |  | 173 | 370 | 173 | 370 |  |  | 119 | 183 |  |  | 512 | 34 |  |  |  | 73 | 465 | .468 | .468 |  | .650 | .509 | .468 | F | SO
-8 | Kermit Washington | 511 | 1972-73 | American | 25 |  | 899 | 211 | 426 | 211 | 426 |  |  | 98 | 132 |  |  | 511 | 42 |  |  |  | 74 | 520 | .495 | .495 |  | .742 | .532 | .495 | F | SR
-9 | John Gianelli | 509 | 1970-71 | Pacific | 28 |  |  | 227 | 444 | 227 | 444 |  |  | 146 | 201 |  |  | 509 |  |  |  |  | 80 | 600 | .511 | .511 |  | .726 | .556 | .511 | F | JR
-10 | Bill Walton III | 506 | 1972-73 | UCLA | 30 |  |  | 277 | 426 | 277 | 426 |  |  | 58 | 102 |  |  | 506 |  |  |  |  | 70 | 612 | .650 | .650 |  | .569 | .645 | .650 | C | JR
-11 | Larry Bird | 505 | 1978-79 | Indiana State | 34 | 34 |  | 376 | 707 | 376 | 707 |  |  | 221 | 266 |  |  | 505 | 187 | 85 | 27 | 133 | 87 | 973 | .532 | .532 |  | .831 | .584 | .532 | F | SR
-12 | Robert Parish | 505 | 1972-73 | Centenary (LA) | 27 | 27 | 885 | 285 | 492 | 285 | 492 |  |  | 50 | 82 |  |  | 505 | 25 |  |  |  | 79 | 620 | .579 | .579 |  | .610 | .584 | .579 | C | FR
-13 | Howard Porter | 503 | 1970-71 | Villanova | 34 |  |  | 336 | 634 | 336 | 634 |  |  | 127 | 171 |  |  | 503 | 17 |  |  |  | 104 | 799 | .530 | .530 |  | .743 | .559 | .530 | F | SR
-14 | Larry Kenon | 501 | 1972-73 | Memphis State | 30 |  | 1097 | 273 | 520 | 273 | 520 |  |  | 57 | 100 |  |  | 501 |  |  |  |  | 88 | 603 | .525 | .525 |  | .570 | .531 | .525 | F | JR
+header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | wins | games | losses | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
+ |  |  | 1 | 1968-69 | UCLA | 29 | 30 | 1 | 30 | 29 | 1 | .967 |  | 1027 | 1999 | 1027 | 1999 |  |  | 486 | 752 |  |  | 1513 |  |  |  |  | 467 | 2540 | .514 | .514 |  | .646 | .539 | .514
+ |  |  | 2 | 1967-68 | UCLA | 29 | 30 | 1 | 30 | 29 | 1 | .967 |  | 1161 | 2321 | 1161 | 2321 |  |  | 480 | 700 |  |  | 1603 |  |  |  |  | 539 | 2802 | .500 | .500 |  | .686 | .528 | .500
+ |  |  | 3 | 1965-66 | UTEP | 28 | 29 | 1 | 29 | 28 | 1 | .966 |  | 864 | 1899 | 864 | 1899 |  |  | 568 | 812 |  |  | 1430 |  |  |  |  |  | 2260 | .455 | .455 |  | .700 | .495 | .455
+ |  |  | 4 | 1960-61 | Ohio St. | 27 | 28 | 1 | 28 | 27 | 1 | .964 |  | 939 | 1886 | 939 | 1886 |  |  | 505 | 671 |  |  | 1418 |  |  |  |  | 504 | 2383 | .498 | .498 |  | .753 | .540 | .498
+ |  |  | 5 | 1961-62 | Miss. St. | 24 | 25 | 1 | 25 | 24 | 1 | .960 |  | 711 | 1682 | 711 | 1682 |  |  | 498 | 664 |  |  | 1225 |  |  |  |  | 432 | 1920 | .423 | .423 |  | .750 | .481 | .423
+ |  |  | 6 | 1968-69 | La Salle | 23 | 24 | 1 | 24 | 23 | 1 | .958 |  | 869 | 1832 | 869 | 1832 |  |  | 397 | 570 |  |  | 1234 | 454 |  |  |  | 406 | 2135 | .474 | .474 |  | .696 | .508 | .474
 ```
 
 ## Claim check
 
-- Complete set: all 14 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 6 rows read. A superlative may be asserted only if it holds across every row above.

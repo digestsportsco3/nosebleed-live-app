@@ -1,16 +1,38 @@
-# SCBB364 — College Basketball 2020s p:blk_ast
+# SCBB364 — College Basketball 2000s p:usg_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2021&year_max=2026&comp_id=NCAAM&display_type=totals&order_by=blk&order_by_asc=0&ccomp[1]=gt&cval[1]=100&cstat[1]=blk&ccomp[2]=gt&cval[2]=100&cstat[2]=ast
-- Timestamp: 2026-09-28T07:59:28.339Z
-- Rows read: 0
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2001&year_max=2010&comp_id=NCAAM&display_type=totals&order_by=usg_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=20&cstat[1]=games&ccomp[2]=gt&cval[2]=0.35&cstat[2]=usg_pct
+- Timestamp: 2026-09-28T10:34:35.889Z
+- Rows read: 22
 
 ## Result table
 
 ```
-
+ranker | name_display | usg_pct | games | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
+1 | Ruben Douglas | 42.1 | 28 | 2002-03 | New Mexico | 28 | 28 | 982 | 218 | 549 | 124 | 311 | 94 | 238 | 253 | 301 | 52 | 133 | 185 | 58 | 35 | 8 | 108 | 75 | 783 | .397 | .399 | .395 | .841 | .566 | .483 | G | SR
+2 | Jermaine Taylor | 39.3 | 31 | 2008-09 | UCF | 31 | 31 | 989 | 291 | 606 | 199 | 361 | 92 | 245 | 138 | 170 | 59 | 102 | 161 | 58 | 39 | 24 | 87 | 55 | 812 | .480 | .551 | .376 | .812 | .591 | .556 | G | SR
+3 | Michael Watson | 38.7 | 29 | 2002-03 | Kansas City | 29 | 28 | 1124 | 247 | 656 | 129 | 319 | 118 | 337 | 128 | 170 | 23 | 85 | 108 | 109 | 41 | 6 | 106 | 70 | 740 | .377 | .404 | .350 | .753 | .502 | .466 | F | JR
+4 | Stephen Curry | 38.3 | 34 | 2008-09 | Davidson | 34 | 34 | 1145 | 312 | 687 | 182 | 351 | 130 | 336 | 220 | 251 | 21 | 130 | 151 | 189 | 86 | 8 | 126 | 81 | 974 | .454 | .519 | .387 | .876 | .604 | .549 | G | JR
+5 | Mike Helms | 37.9 | 30 | 2003-04 | Oakland | 30 | 25 | 920 | 224 | 556 | 145 | 328 | 79 | 228 | 168 | 224 | 25 | 84 | 109 | 71 | 45 | 16 | 81 | 96 | 695 | .403 | .442 | .346 | .750 | .525 | .474 | G | SR
+6 | J.J. Barea | 37.6 | 30 | 2004-05 | Northeastern | 30 | 30 | 996 | 233 | 556 | 165 | 344 | 68 | 212 | 131 | 167 | 20 | 109 | 129 | 218 | 53 | 0 | 134 | 74 | 665 | .419 | .480 | .321 | .784 | .523 | .480 | G | JR
+7 | Charron Fisher | 37.0 | 29 | 2007-08 | Niagara | 29 | 29 | 1084 | 256 | 645 | 187 | 428 | 69 | 217 | 219 | 284 | 92 | 183 | 275 | 34 | 49 | 18 | 89 | 75 | 800 | .397 | .437 | .318 | .771 | .513 | .450 | F | SR
+8 | Mike Helms | 36.9 | 28 | 2002-03 | Oakland | 28 | 28 | 966 | 241 | 533 | 167 | 338 | 74 | 195 | 196 | 263 | 35 | 76 | 111 | 56 | 40 | 7 | 105 | 88 | 752 | .452 | .494 | .379 | .745 | .571 | .522 | G | JR
+9 | J.J. Barea | 36.8 | 29 | 2005-06 | Northeastern | 29 | 29 | 974 | 209 | 522 | 143 | 295 | 66 | 227 | 126 | 165 | 31 | 98 | 129 | 244 | 37 | 0 | 136 | 81 | 610 | .400 | .485 | .291 | .764 | .508 | .464 | G | SR
+10 | Lester Hudson | 36.4 | 32 | 2008-09 | UT Martin | 32 | 32 | 1153 | 313 | 697 | 207 | 398 | 106 | 299 | 148 | 168 | 70 | 184 | 254 | 135 | 75 | 18 | 106 | 86 | 880 | .449 | .520 | .355 | .881 | .566 | .525 | G | SR
+11 | Mark MacDonald | 36.3 | 20 | 2007-08 | Brown | 20 | 15 | 240 | 50 | 112 | 47 | 91 | 3 | 21 | 24 | 37 | 10 | 26 | 36 | 27 | 8 | 7 | 22 | 32 | 127 | .446 | .516 | .143 | .649 | .490 | .460 | F | SR
+12 | Rodney Stuckey | 36.3 | 30 | 2005-06 | Eastern Washington | 30 | 30 | 990 | 250 | 510 | 195 | 362 | 55 | 148 | 171 | 225 | 32 | 112 | 144 | 123 | 66 | 8 | 107 | 75 | 726 | .490 | .539 | .372 | .760 | .588 | .544 | G | FR
+13 | Jamal Barney | 36.1 | 31 | 2008-09 | Loyola (MD) | 31 | 26 | 887 | 207 | 498 | 178 | 395 | 29 | 103 | 118 | 148 | 54 | 115 | 169 | 40 | 44 | 14 | 79 | 75 | 561 | .416 | .451 | .282 | .797 | .494 | .445 | G | SO
+14 | Roy Booker | 36.0 | 27 | 2005-06 | Southeast Missouri State | 27 | 27 | 964 | 178 | 504 | 105 | 271 | 73 | 233 | 165 | 200 | 49 | 80 | 129 | 47 | 17 | 1 | 77 | 67 | 594 | .353 | .387 | .313 | .825 | .496 | .426 | G | SR
+15 | Gary Neal | 35.9 | 32 | 2006-07 | Towson | 32 | 32 | 1167 | 267 | 599 | 174 | 321 | 93 | 278 | 183 | 219 | 28 | 107 | 135 | 111 | 46 | 5 | 74 | 66 | 810 | .446 | .542 | .335 | .836 | .576 | .523 | G | SR
+16 | Craig Brackins | 35.7 | 32 | 2008-09 | Iowa State | 32 | 31 | 1041 | 243 | 512 | 222 | 438 | 21 | 74 | 138 | 198 | 55 | 248 | 303 | 43 | 17 | 30 | 74 | 67 | 645 | .475 | .507 | .284 | .697 | .532 | .495 | F | SO
+17 | Gerald Brown | 35.6 | 29 | 2006-07 | Loyola (MD) | 29 | 26 | 1018 | 205 | 465 | 147 | 296 | 58 | 169 | 175 | 234 | 37 | 107 | 144 | 78 | 54 | 13 | 119 | 100 | 643 | .441 | .497 | .343 | .748 | .558 | .503 | G | JR
+18 | Devan Downey | 35.5 | 31 | 2009-10 | South Carolina | 31 | 31 | 1055 | 237 | 592 | 168 | 390 | 69 | 202 | 156 | 187 | 17 | 85 | 102 | 108 | 85 | 1 | 109 | 72 | 699 | .400 | .431 | .342 | .834 | .513 | .459 | G | SR
+19 | Luke Harangody | 35.1 | 34 | 2008-09 | Notre Dame | 34 | 34 | 1164 | 300 | 653 | 286 | 615 | 14 | 38 | 178 | 229 | 120 | 281 | 401 | 70 | 31 | 31 | 62 | 77 | 792 | .459 | .465 | .368 | .777 | .520 | .470 | F | JR
+20 | Charles Garcia | 35.0 | 31 | 2009-10 | Seattle | 31 | 23 | 806 | 190 | 401 | 177 | 354 | 13 | 47 | 187 | 304 | 80 | 176 | 256 | 32 | 14 | 24 | 124 | 100 | 580 | .474 | .500 | .277 | .615 | .532 | .490 | F | JR
+21 | Michael Beasley | 35.0 | 33 | 2007-08 | Kansas State | 33 | 33 | 1041 | 307 | 577 | 271 | 482 | 36 | 95 | 216 | 279 | 131 | 277 | 408 | 38 | 42 | 54 | 95 | 85 | 866 | .532 | .562 | .379 | .774 | .610 | .563 | F | FR
+22 | Aubrey Coleman | 35.0 | 35 | 2009-10 | Houston | 35 | 35 | 1293 | 305 | 717 | 254 | 556 | 51 | 161 | 235 | 319 | 85 | 174 | 259 | 90 | 93 | 6 | 81 | 76 | 896 | .425 | .457 | .317 | .737 | .516 | .461 | G | SR
 ```
 
 ## Claim check
 
-- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.
+- Complete set: all 22 rows read. A superlative may be asserted only if it holds across every row above.

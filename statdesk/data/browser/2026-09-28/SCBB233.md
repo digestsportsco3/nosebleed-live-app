@@ -1,20 +1,27 @@
-# SCBB233 — College Basketball 1990s t:loss_hi
+# SCBB233 — College Basketball 1980s t:rpg_team
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=1991&year_max=2000&comp_id=NCAAM&display_type=team_totals&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=27&cstat[1]=losses
-- Timestamp: 2026-09-28T07:47:39.315Z
-- Rows read: 4
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=1981&year_max=1990&comp_id=NCAAM&display_type=team_totals&order_by=trb_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=45&cstat[2]=trb_per_g
+- Timestamp: 2026-09-28T10:23:48.224Z
+- Rows read: 11
 
 ## Result table
 
 ```
-header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | losses | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
- |  |  | 1 | 1999-00 | Grambling | 30 | 31 | 1 | 30 | .032 | 6200 | 817 | 2006 | 637 | 1402 | 180 | 604 | 437 | 671 | 469 | 679 | 1148 | 405 | 268 | 62 | 594 | 746 | 2251 | .407 | .454 | .298 | .651 | .484 | .452
- |  |  | 2 | 1999-00 | Fla. Atlantic | 28 | 30 | 2 | 28 | .067 | 6000 | 625 | 1636 | 425 | 1031 | 200 | 605 | 383 | 539 | 339 | 572 | 911 | 345 | 241 | 65 | 593 | 535 | 1833 | .382 | .412 | .331 | .711 | .484 | .443
- |  |  | 3 | 1991-92 | Prairie View | 28 | 28 | 0 | 28 | .000 |  | 725 | 1907 | 625 | 1570 | 100 | 337 | 260 | 489 |  |  | 1087 | 283 | 230 | 68 | 564 | 668 | 1810 | .380 | .398 | .297 | .532 | .423 | .406
- |  |  | 4 | 1999-00 | Howard | 27 | 28 | 1 | 27 | .036 | 5625 | 681 | 1744 | 500 | 1212 | 181 | 532 | 282 | 442 | 338 | 589 | 927 | 325 | 207 | 49 | 482 | 519 | 1825 | .390 | .413 | .340 | .638 | .467 | .442
+header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | trb_per_g | games | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
+ |  |  | 1 | 1988-89 | Loyola Marymount | 48.0 | 31 | 31 | 20 | 11 | .645 |  | 1295 | 2692 | 1008 | 1899 | 287 | 793 | 609 | 900 |  |  | 1488 | 636 | 323 | 74 | 565 | 792 | 3486 | .481 | .531 | .362 | .677 | .559 | .534
+ |  |  | 2 | 1989-90 | Alcorn St. | 47.3 | 29 | 29 | 7 | 22 | .241 |  | 803 | 1988 | 697 | 1644 | 106 | 344 | 422 | 656 |  |  | 1373 | 312 | 179 | 97 | 544 | 618 | 2134 | .404 | .424 | .308 | .643 | .464 | .431
+ |  |  | 3 | 1980-81 | MVSU | 47.1 | 27 | 27 | 11 | 16 | .407 |  | 805 | 1804 | 805 | 1804 |  |  | 341 | 534 |  |  | 1272 |  |  |  |  | 536 | 1951 | .446 | .446 |  | .639 | .474 | .446
+ |  |  | 4 | 1989-90 | Loyola Marymount | 47.0 | 32 | 32 | 26 | 6 | .813 |  | 1456 | 2808 | 1158 | 2071 | 298 | 737 | 708 | 1008 |  |  | 1504 | 762 | 450 | 104 | 590 | 754 | 3918 | .519 | .559 | .404 | .702 | .596 | .572
+ |  |  | 5 | 1988-89 | U.S. Int'l | 46.7 | 28 | 28 | 11 | 17 | .393 |  | 928 | 2190 | 816 | 1788 | 112 | 402 | 525 | 860 |  |  | 1307 | 441 | 245 | 88 | 464 |  | 2500 | .424 | .456 | .279 | .610 | .481 | .449
+ |  |  | 6 | 1989-90 | Oklahoma | 46.3 | 32 | 32 | 27 | 5 | .844 |  | 1183 | 2509 | 975 | 1948 | 208 | 561 | 669 | 929 |  |  | 1481 | 647 | 371 | 157 | 440 | 691 | 3243 | .472 | .501 | .371 | .720 | .550 | .513
+ |  |  | 7 | 1989-90 | La Salle | 45.7 | 32 | 32 | 30 | 2 | .938 |  | 1033 | 2224 | 775 | 1504 | 258 | 720 | 430 | 622 | 443 | 1019 | 1462 | 592 | 343 | 113 | 388 | 570 | 2754 | .464 | .515 | .358 | .691 | .547 | .522
+ |  |  | 8 | 1989-90 | LSU | 45.5 | 32 | 32 | 23 | 9 | .719 |  | 1116 | 2194 | 963 | 1768 | 153 | 426 | 536 | 804 |  |  | 1457 | 526 | 255 | 225 | 514 | 661 | 2921 | .509 | .545 | .359 | .667 | .567 | .544
+ |  |  | 9 | 1986-87 | Georgia St. | 45.5 | 28 | 28 | 11 | 17 | .393 |  | 898 | 2010 | 822 | 1769 | 76 | 241 | 409 | 674 |  |  | 1273 | 371 | 217 | 70 | 444 | 647 | 2281 | .447 | .465 | .315 | .607 | .489 | .466
+ |  |  | 10 | 1989-90 | U.S. Int'l | 45.4 | 28 | 28 | 12 | 16 | .429 |  | 1009 | 2214 | 869 | 1800 | 140 | 414 | 580 | 845 |  |  | 1272 | 479 | 208 | 80 | 453 | 589 | 2738 | .456 | .483 | .338 | .686 | .523 | .487
+ |  |  | 11 | 1989-90 | Southern U. | 45.1 | 31 | 31 | 25 | 6 | .806 |  | 1123 | 2435 | 872 | 1751 | 251 | 684 | 581 | 884 |  |  | 1399 | 569 | 369 | 113 | 438 | 647 | 3078 | .461 | .498 | .367 | .657 | .539 | .513
 ```
 
 ## Claim check
 
-- Complete set: all 4 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 11 rows read. A superlative may be asserted only if it holds across every row above.

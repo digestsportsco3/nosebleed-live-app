@@ -1,22 +1,21 @@
-# SCBB178 — College Basketball 1980s t:ppg_hi
+# SCBB178 — College Basketball 1980s p:fgp_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?request=1&match=team_season&year_min=1981&year_max=1990&comp_id=NCAAM&display_type=team_totals&order_by=pts_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=100&cstat[2]=pts_per_g
-- Timestamp: 2026-09-28T07:42:01.931Z
-- Rows read: 6
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1981&year_max=1990&comp_id=NCAAM&display_type=totals&order_by=fg_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=fga&ccomp[2]=gt&cval[2]=0.7&cstat[2]=fg_pct
+- Timestamp: 2026-09-28T10:19:13.671Z
+- Rows read: 5
 
 ## Result table
 
 ```
-header_empty_0 | header_team_totals | header_team_shooting | ranker | year_id | team_name_abbr | pts_per_g | games | games | wins | losses | win_loss_pct | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct
- |  |  | 1 | 1989-90 | Loyola Marymount | 122.4 | 32 | 32 | 26 | 6 | .813 |  | 1456 | 2808 | 1158 | 2071 | 298 | 737 | 708 | 1008 |  |  | 1504 | 762 | 450 | 104 | 590 | 754 | 3918 | .519 | .559 | .404 | .702 | .596 | .572
- |  |  | 2 | 1988-89 | Loyola Marymount | 112.5 | 31 | 31 | 20 | 11 | .645 |  | 1295 | 2692 | 1008 | 1899 | 287 | 793 | 609 | 900 |  |  | 1488 | 636 | 323 | 74 | 565 | 792 | 3486 | .481 | .531 | .362 | .677 | .559 | .534
- |  |  | 3 | 1987-88 | Loyola Marymount | 110.3 | 32 | 32 | 28 | 4 | .875 |  | 1279 | 2618 | 1028 | 2020 | 251 | 598 | 719 | 1029 |  |  | 1335 | 631 | 360 | 81 | 466 | 690 | 3528 | .489 | .509 | .420 | .699 | .568 | .536
- |  |  | 4 | 1987-88 | Oklahoma | 102.9 | 39 | 39 | 35 | 4 | .897 | 7825 | 1533 | 3094 | 1234 | 2303 | 299 | 791 | 647 | 930 |  |  | 1658 | 862 | 486 | 201 | 529 | 799 | 4012 | .495 | .536 | .378 | .696 | .567 | .544
- |  |  | 5 | 1988-89 | Oklahoma | 102.2 | 36 | 36 | 30 | 6 | .833 |  | 1398 | 2850 | 1166 | 2232 | 232 | 618 | 652 | 951 |  |  | 1578 | 743 | 360 | 209 |  | 783 | 3680 | .491 | .522 | .375 | .686 | .557 | .531
- |  |  | 6 | 1989-90 | Oklahoma | 101.3 | 32 | 32 | 27 | 5 | .844 |  | 1183 | 2509 | 975 | 1948 | 208 | 561 | 669 | 929 |  |  | 1481 | 647 | 371 | 157 | 440 | 691 | 3243 | .472 | .501 | .371 | .720 | .550 | .513
+ranker | name_display | fg_pct | fga | year_id | teams_played_for | games | games_started | mp | fg | fga | fg2 | fg2a | fg3 | fg3a | ft | fta | orb | drb | trb | ast | stl | blk | tov | pf | pts | fg_pct | fg2_pct | fg3_pct | ft_pct | ts_pct | efg_pct | pos | class
+1 | Steve Johnson | .746 | 315 | 1980-81 | Oregon State | 28 |  | 716 | 235 | 315 | 235 | 315 |  |  | 119 | 174 |  |  | 215 | 50 | 10 | 41 | 67 | 110 | 589 | .746 | .746 |  | .684 | .741 | .746 | F | SR
+2 | Dwayne Davis | .722 | 248 | 1988-89 | Florida | 33 | 32 | 1098 | 179 | 248 | 179 | 247 | 0 | 1 | 81 | 142 |  |  | 309 | 30 | 48 | 41 | 70 | 91 | 439 | .722 | .725 | .000 | .570 | .696 | .722 | C | SO
+3 | Keith Walker | .713 | 216 | 1984-85 | Utica | 27 |  | 877 | 154 | 216 | 154 | 216 |  |  | 61 | 94 |  |  | 152 | 23 | 26 | 32 | 78 |  | 369 | .713 | .713 |  | .649 | .708 | .713 | F | SR
+4 | Alan Williams | .703 | 232 | 1986-87 | Princeton | 25 | 25 | 906 | 163 | 232 | 159 | 225 | 4 | 7 | 70 | 111 |  |  | 132 | 51 | 18 | 21 | 55 | 77 | 400 | .703 | .707 | .571 | .631 | .702 | .711 | C | SR
+5 | Mark McNamara | .702 | 329 | 1981-82 | California | 27 |  | 996 | 231 | 329 | 231 | 329 |  |  | 131 | 242 |  |  | 341 | 13 | 12 | 25 | 68 | 83 | 593 | .702 | .702 |  | .541 | .668 | .702 | F | SR
 ```
 
 ## Claim check
 
-- Complete set: all 6 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 5 rows read. A superlative may be asserted only if it holds across every row above.

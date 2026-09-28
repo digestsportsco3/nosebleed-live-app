@@ -1,8 +1,8 @@
-# SCBB303 — College Basketball 2010s p:bpg_hi
+# SCBB303 — College Basketball 1990s p:n_pts
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=2011&year_max=2020&comp_id=NCAAM&display_type=totals&order_by=blk_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=games&ccomp[2]=gt&cval[2]=5&cstat[2]=blk_per_g
-- Timestamp: 2026-09-28T07:54:01.273Z
+- Page URL: https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?request=1&match=player_season&year_min=1991&year_max=2000&comp_id=NCAAM&display_type=totals&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=990&cstat[1]=pts&ccomp[2]=lt&cval[2]=999&cstat[2]=pts
+- Timestamp: 2026-09-28T10:29:38.056Z
 - Rows read: 0
 
 ## Result table
