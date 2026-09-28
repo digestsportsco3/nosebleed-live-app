@@ -1,8 +1,8 @@
-# SNFL063 — NFL 1980s t_sacks
+# SNFL063 — NFL 1930s p:ypc_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=combined&year_min=1980&year_max=1989&comp_type=reg&comp_id=NFL&order_by=sacks&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=sacks
-- Timestamp: 2026-09-28T05:35:52.189Z
+- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1939&comp_type=reg&comp_id=NFL&order_by=rush_yds_per_att&order_by_asc=0&ccomp[1]=gt&cval[1]=150&cstat[1]=rush_att&ccomp[2]=gt&cval[2]=5.5&cstat[2]=rush_yds_per_att
+- Timestamp: 2026-09-28T05:46:25.380Z
 - Rows read: 0
 
 ## Result table

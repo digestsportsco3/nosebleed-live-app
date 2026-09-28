@@ -1,8 +1,8 @@
-# SNFL064 — NFL 1980s t_pts
+# SNFL064 — NFL 1930s p:scrim_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=combined&year_min=1980&year_max=1989&comp_type=reg&comp_id=NFL&order_by=scoring&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=scoring
-- Timestamp: 2026-09-28T05:35:55.661Z
+- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1939&comp_type=reg&comp_id=NFL&order_by=yds_from_scrimmage&order_by_asc=0&ccomp[1]=gt&cval[1]=1300&cstat[1]=yds_from_scrimmage
+- Timestamp: 2026-09-28T05:46:30.824Z
 - Rows read: 0
 
 ## Result table

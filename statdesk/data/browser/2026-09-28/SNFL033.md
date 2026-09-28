@@ -1,8 +1,8 @@
-# SNFL033 — NFL 1980s fg_perfect
+# SNFL033 — NFL 1920s p:x_dint
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&comp_id=NFL&order_by=fga&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=fga&ccomp[2]=gt&cval[2]=100&cstat[2]=fg_pct
-- Timestamp: 2026-09-28T05:33:48.451Z
+- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1929&comp_type=reg&comp_id=NFL&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=def_int
+- Timestamp: 2026-09-28T05:44:19.553Z
 - Rows read: 0
 
 ## Result table

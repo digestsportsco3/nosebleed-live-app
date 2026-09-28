@@ -1,0 +1,18 @@
+# SNFL176 — NFL 1950s p:alltd_hi
+
+- Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
+- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1950&year_max=1959&comp_type=reg&comp_id=NFL&order_by=all_td&order_by_asc=0&ccomp[1]=gt&cval[1]=16&cstat[1]=all_td
+- Timestamp: 2026-09-28T05:54:01.275Z
+- Rows read: 2
+
+## Result table
+
+```
+header_empty_0 | header_pat | header_fgtot | ranker | name_display | all_td | year_id | age | teams_played_for | games | games_started | all_td | xpm | xpa | xp_pct | fgm | fga | fg_pct | two_pt_md | safety_md | scoring | pos
+ |  |  | 1 | Jim Brown | 18 | 1958 | 22 | CLE | 12 | 12 | 18 | 0 | 0 |  | 0 | 0 |  |  | 0 | 108 | FB
+ |  |  | 2 | Elroy Hirsch | 17 | 1951 | 28 | RAM | 12 | 12 | 17 | 0 | 1 | 0.0 | 0 | 0 |  |  | 0 | 102 | RE
+```
+
+## Claim check
+
+- Complete set: all 2 rows read. A superlative may be asserted only if it holds across every row above.

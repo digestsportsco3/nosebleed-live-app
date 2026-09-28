@@ -1,33 +1,217 @@
-# SNFL039 — NFL 1980s fumbles_hi
+# SNFL039 — NFL 1920s p:x_car
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&comp_id=NFL&order_by=fumbles&order_by_asc=0&ccomp[1]=gt&cval[1]=14&cstat[1]=fumbles
-- Timestamp: 2026-09-28T05:34:12.339Z
-- Rows read: 17
+- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1929&comp_type=reg&comp_id=NFL&order_by=rush_att&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=rush_att
+- Timestamp: 2026-09-28T05:44:44.874Z
+- Rows read: 200
+- CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-header_empty_0 | header_fumbles | ranker | name_display | fumbles | year_id | age | teams_played_for | games | games_started | fumbles | fumbles_rec | fumbles_rec_yds | fumbles_rec_td | fumbles_forced | pos
- |  | 1 | Dave Krieg | 18 | 1989 | 31 | SEA | 15 | 14 | 18 | 9 | -20 | 0 | 0 | QB
- |  | 2 | Randall Cunningham | 17 | 1989 | 26 | PHI | 16 | 16 | 17 | 4 | -6 | 0 | 0 | QB
- |  | 3 | Warren Moon | 17 | 1984 | 28 | HOU | 16 | 16 | 17 | 7 | -1 | 0 | 0 | QB
- |  | 4 | Joe Cribbs | 16 | 1980 | 22 | BUF | 16 | 16 | 16 | 1 | -7 | 0 | 0 | RB
- |  | 5 | Steve Fuller | 16 | 1980 | 23 | KAN | 14 | 13 | 16 | 7 | -43 | 0 | 0 | QB
- |  | 6 | Paul McDonald | 16 | 1984 | 26 | CLE | 16 | 16 | 16 | 5 | -5 | 0 | 0 | QB
- |  | 7 | Phil Simms | 16 | 1985 | 30 | NYG | 16 | 16 | 16 | 5 | -22 | 0 | 0 | QB
- |  | 8 | Steve DeBerg | 15 | 1984 | 30 | TAM | 16 | 13 | 15 | 2 | -8 | 0 | 0 | QB
- |  | 9 | Don Majkowski | 15 | 1989 | 25 | GNB | 16 | 16 | 15 | 6 | -13 | 0 | 0 | QB
- |  | 10 | Marcus Allen | 14 | 1983 | 23 | RAI | 16 | 15 | 14 | 2 | 0 | 1 | 0 | RB
- |  | 11 | Eric Dickerson | 14 | 1984 | 24 | RAM | 16 | 16 | 14 | 4 | 15 | 0 | 0 | RB
- |  | 12 | John Elway | 14 | 1984 | 24 | DEN | 15 | 14 | 14 | 5 | -10 | 0 | 0 | QB
- |  | 13 | Eric Hipple | 14 | 1981 | 24 | DET | 16 | 10 | 14 | 4 | -10 | 0 | 0 | QB
- |  | 14 | Bernie Kosar | 14 | 1985 | 22 | CLE | 12 | 10 | 14 | 2 | -25 | 0 | 0 | QB
- |  | 15 | Ken O'Brien | 14 | 1985 | 25 | NYJ | 16 | 16 | 14 | 4 | 0 | 0 | 0 | QB
- |  | 16 | Mark Rypien | 14 | 1989 | 27 | WAS | 14 | 14 | 14 | 2 | 0 | 0 | 0 | QB
- |  | 17 | Danny White | 14 | 1981 | 29 | DAL | 16 | 15 | 14 | 8 | -34 | 0 | 0 | QB
+header_empty_0 | header_rush | ranker | name_display | rush_att | year_id | age | teams_played_for | games | games_started | rush_att | rush_yds | rush_yds_per_att | rush_td | rush_yds_per_g | rush_first_down | rush_success | pos
+ |  | 1 | Barney Wentz | 220 | 1926 | 25 | POT | 14 | 13 | 220 | 727 | 3.3 | 10 | 51.9 |  |  | FB
+ |  | 2 | Barney Wentz | 170 | 1925 | 24 | POT | 12 | 12 | 170 | 656 | 3.9 | 5 | 54.7 |  |  | FB
+ |  | 3 | Tony Latone | 166 | 1928 | 31 | POT | 10 | 9 | 166 | 490 | 3.0 | 3 | 49.0 |  |  | FB
+ |  | 4 | Tony Latone | 150 | 1925 | 28 | POT | 12 | 10 | 150 | 593 | 4.0 | 7 | 49.4 |  |  | WB
+ |  | 5 | Myrt Basing | 149 | 1925 | 25 | GNB | 13 | 10 | 149 | 430 | 2.9 | 4 | 33.1 |  |  | FB
+ |  | 6 | Frank Kirkleski | 146 | 1927 | 23 | POT | 12 | 9 | 146 | 350 | 2.4 | 1 | 29.2 |  |  | TB
+ |  | 7 | Hoot Flanagan | 144 | 1925 | 24 | POT | 10 | 9 | 144 | 525 | 3.6 | 5 | 52.5 |  |  | TB
+ |  | 8 | Tony Latone | 144 | 1926 | 29 | POT | 12 | 5 | 144 | 578 | 4.0 | 4 | 48.2 |  |  | WB
+ |  | 9 | Bo Molenda | 138 | 1929 | 24 | GNB | 12 | 9 | 138 | 401 | 2.9 | 3 | 33.4 |  |  | FB
+ |  | 10 | Tony Latone | 136 | 1927 | 30 | POT | 12 | 11 | 136 | 407 | 3.0 | 0 | 33.9 |  |  | WB
+ |  | 11 | Curly Lambeau | 133 | 1923 | 25 | GNB | 10 | 9 | 133 | 416 | 3.1 | 1 | 41.6 |  |  | TB
+ |  | 12 | Tex Hamer | 132 | 1925 | 24 | FRN | 19 | 15 | 132 | 400 | 3.0 | 5 | 21.1 |  |  | WB
+ |  | 13 | Curly Lambeau | 132 | 1924 | 26 | GNB | 11 | 11 | 132 | 457 | 3.5 | 0 | 41.5 |  |  | TB
+ |  | 14 | Red Grange | 130 | 1929 | 26 | CHI | 14 | 10 | 130 | 552 | 4.2 | 2 | 39.4 |  |  | 
+ |  | 15 | Wally Diehl | 129 | 1928 |  | FRN | 14 | 11 | 129 | 569 | 4.4 | 3 | 40.6 |  |  | FB
+ |  | 16 | Ernie Nevers | 126 | 1926 | 24 | DUL | 14 | 13 | 126 | 526 | 4.2 | 8 | 37.6 |  |  | FB
+ |  | 17 | Wally Diehl | 125 | 1929 |  | FRN | 18 | 16 | 125 | 538 | 4.3 | 6 | 29.9 |  |  | FB
+ |  | 18 | Charley Rogers | 120 | 1927 | 25 | FRN | 18 | 11 | 120 | 508 | 4.2 | 2 | 28.2 |  |  | WB
+ |  | 19 | Jesse Brown | 119 | 1926 | 24 | POT | 14 | 11 | 119 | 298 | 2.5 | 0 | 21.3 |  |  | TB
+ |  | 20 | Dutch Hendrian | 118 | 1924 | 28 | GNB | 11 | 11 | 118 | 315 | 2.7 | 3 | 28.6 |  |  | FB
+ |  | 21 | Ken Strong | 115 | 1929 | 23 | SIS | 10 | 10 | 115 | 527 | 4.6 | 4 | 52.7 |  |  | HB
+ |  | 22 | Barney Wentz | 113 | 1927 | 26 | POT | 12 | 8 | 113 | 330 | 2.9 | 2 | 27.5 |  |  | FB
+ |  | 23 | Hank Gillo | 111 | 1922 | 28 | RAC | 11 | 10 | 111 | 414 | 3.7 | 5 | 37.6 |  |  | FB
+ |  | 24 | Buck Gavin | 110 | 1923 | 32 | GNB | 9 | 9 | 110 | 331 | 3.0 | 0 | 36.8 |  |  | FB
+ |  | 25 | Hank Gillo | 106 | 1924 | 30 | RAC | 10 | 9 | 106 | 478 | 4.5 | 3 | 47.8 |  |  | FB
+ |  | 26 | Ed Halicki | 106 | 1929 | 24 | FRN | 17 | 8 | 106 | 387 | 3.7 | 3 | 22.8 |  |  | TB
+ |  | 27 | Verne Lewellen | 106 | 1928 | 27 | GNB | 13 | 13 | 106 | 349 | 3.3 | 6 | 26.8 |  |  | TB
+ |  | 28 | Johnny Blood | 104 | 1929 | 26 | GNB | 12 | 9 | 104 | 406 | 3.9 | 2 | 33.8 |  |  | HB
+ |  | 29 | Cully Lidberg | 104 | 1926 | 26 | GNB | 11 | 8 | 104 | 235 | 2.3 | 4 | 21.4 |  |  | FB
+ |  | 30 | Ken Mercer | 104 | 1927 | 24 | FRN | 17 | 11 | 104 | 368 | 3.5 | 3 | 21.6 |  |  | TB
+ |  | 31 | Tex Hamer | 103 | 1924 | 23 | FRN | 14 | 14 | 103 | 789 | 7.7 | 12 | 56.4 |  |  | FB
+ |  | 32 | Eddie Kotal | 102 | 1928 | 26 | GNB | 12 | 11 | 102 | 298 | 2.9 | 2 | 24.8 |  |  | HB
+ |  | 33 | Eddie Novak | 100 | 1925 | 28 | RII | 11 | 8 | 100 | 300 | 3.0 | 1 | 27.3 |  |  | FB
+ |  | 34 | Verne Lewellen | 98 | 1927 | 26 | GNB,NYY | 13 | 12 | 98 | 329 | 3.4 | 5 | 25.3 |  |  | HB
+ |  | 35 | Doug Wycoff | 98 | 1929 | 26 | SIS | 9 | 7 | 98 | 274 | 2.8 | 2 | 30.4 |  |  | BB
+ |  | 36 | Tex Hamer | 96 | 1926 | 25 | FRN | 17 | 11 | 96 | 433 | 4.5 | 2 | 25.5 |  |  | WB
+ |  | 37 | Marty Norton | 95 | 1925 | 20 | GNB | 10 | 7 | 95 | 244 | 2.6 | 1 | 24.4 |  |  | HB
+ |  | 38 | Wildcat Wilson | 94 | 1928 | 27 | PRV | 11 | 11 | 94 | 471 | 5.0 | 5 | 42.8 |  |  | TB
+ |  | 39 | Charley Rogers | 93 | 1928 | 26 | FRN | 13 | 8 | 93 | 437 | 4.7 | 1 | 33.6 |  |  | TB
+ |  | 40 | Ernie Nevers | 91 | 1929 | 27 | CRD | 11 | 10 | 91 | 378 | 4.2 | 12 | 34.4 |  |  | FB
+ |  | 41 | Jimmy Conzelman | 89 | 1922 | 24 | MIL,RII | 10 | 9 | 89 | 400 | 4.5 | 7 | 40.0 |  |  | 
+ |  | 42 | Roddy Lamb | 89 | 1925 | 26 | RII | 9 | 8 | 89 | 384 | 4.3 | 1 | 42.7 |  |  | TB
+ |  | 43 | Myrt Basing | 87 | 1924 | 24 | GNB | 11 | 8 | 87 | 229 | 2.6 | 0 | 20.8 |  |  | HB
+ |  | 44 | Benny Friedman | 87 | 1928 | 23 | DET | 10 | 10 | 87 | 575 | 6.6 | 6 | 57.5 |  |  | TB
+ |  | 45 | Lou Smyth | 87 | 1923 | 25 | CAN | 12 | 9 | 87 | 398 | 4.6 | 7 | 33.2 |  |  | TB
+ |  | 46 | Ben Jones | 86 | 1923 | 24 | CAN | 11 | 5 | 86 | 335 | 3.9 | 6 | 30.5 |  |  | FB
+ |  | 47 | Verne Lewellen | 86 | 1929 | 28 | GNB | 13 | 5 | 86 | 405 | 4.7 | 6 | 31.2 |  |  | TB
+ |  | 48 | Harry O'Boyle | 86 | 1928 | 24 | GNB | 10 | 8 | 86 | 270 | 3.1 | 1 | 27.0 |  |  | FB
+ |  | 49 | Al Elliott | 85 | 1922 | 28 | RAC | 11 | 9 | 85 | 419 | 4.9 | 2 | 38.1 |  |  | TB
+ |  | 50 | Myrt Basing | 84 | 1923 | 23 | GNB | 9 | 7 | 84 | 221 | 2.6 | 2 | 24.6 |  |  | HB
+ |  | 51 | Rex Enright | 84 | 1926 | 25 | GNB | 10 | 4 | 84 | 259 | 3.1 | 1 | 25.9 |  |  | 
+ |  | 52 | Verne Lewellen | 83 | 1926 | 25 | GNB | 13 | 9 | 83 | 275 | 3.3 | 3 | 21.2 |  |  | HB
+ |  | 53 | Ernie Nevers | 83 | 1927 | 25 | DUL | 9 | 9 | 83 | 306 | 3.7 | 4 | 34.0 |  |  | FB
+ |  | 54 | Cully Lidberg | 82 | 1929 | 29 | GNB | 10 | 4 | 82 | 213 | 2.6 | 2 | 21.3 |  |  | 
+ |  | 55 | Eddie Kotal | 81 | 1929 | 27 | GNB | 11 | 5 | 81 | 201 | 2.5 | 0 | 18.3 |  |  | TB
+ |  | 56 | Tony Latone | 81 | 1929 | 32 | BOS | 8 | 8 | 81 | 297 | 3.7 | 9 | 37.1 |  |  | FB
+ |  | 57 | Buck White | 81 | 1928 | 28 | CHI | 13 | 11 | 81 | 239 | 3.0 | 3 | 18.4 |  |  | FB
+ |  | 58 | Wildcat Wilson | 81 | 1927 | 26 | PRV | 14 | 12 | 81 | 273 | 3.4 | 4 | 19.5 |  |  | 
+ |  | 59 | Hank Gillo | 80 | 1923 | 29 | RAC | 10 | 10 | 80 | 313 | 3.9 | 2 | 31.3 |  |  | FB
+ |  | 60 | Bob Millman | 79 | 1926 | 23 | POT | 7 | 1 | 79 | 205 | 2.6 | 0 | 29.3 |  |  | 
+ |  | 61 | Tex Grigg | 78 | 1923 | 32 | CAN | 12 | 10 | 78 | 439 | 5.6 | 3 | 36.6 |  |  | WB
+ |  | 62 | Hap Moran | 78 | 1928 | 27 | NYG,POT | 11 | 8 | 78 | 207 | 2.7 | 0 | 18.8 |  |  | 
+ |  | 63 | Stan Mills | 77 | 1923 | 27 | GNB | 9 | 6 | 77 | 132 | 1.7 | 1 | 14.7 |  |  | HB
+ |  | 64 | Benny Friedman | 76 | 1929 | 24 | NYG | 15 | 14 | 76 | 422 | 5.6 | 2 | 28.1 |  |  | TB
+ |  | 65 | Rex Enright | 75 | 1927 | 26 | GNB | 9 | 6 | 75 | 164 | 2.2 | 2 | 18.2 |  |  | FB
+ |  | 66 | Harry Robb | 75 | 1923 | 26 | CAN | 11 | 10 | 75 | 389 | 5.2 | 1 | 35.4 |  |  | BB
+ |  | 67 | Jim Laird | 74 | 1925 | 28 | PRV | 11 | 8 | 74 | 212 | 2.9 | 3 | 19.3 |  |  | FB
+ |  | 68 | Curly Lambeau | 74 | 1925 | 27 | GNB | 11 | 7 | 74 | 224 | 3.0 | 0 | 20.4 |  |  | TB
+ |  | 69 | Verne Lewellen | 73 | 1925 | 24 | GNB | 10 | 9 | 73 | 211 | 2.9 | 1 | 21.1 |  |  | HB
+ |  | 70 | Joey Sternaman | 73 | 1925 | 25 | CHI | 17 | 17 | 73 | 232 | 3.2 | 5 | 13.6 |  |  | QB
+ |  | 71 | Laurie Walquist | 73 | 1925 | 27 | CHI | 16 | 13 | 73 | 294 | 4.0 | 2 | 18.4 |  |  | RH
+ |  | 72 | Paddy Driscoll | 72 | 1927 | 32 | CHI | 14 | 10 | 72 | 412 | 5.7 | 5 | 29.4 |  |  | LH
+ |  | 73 | Bo Molenda | 72 | 1928 | 23 | GNB,NYY | 12 | 8 | 72 | 222 | 3.1 | 0 | 18.5 |  |  | 
+ |  | 74 | Irv Langhoff | 71 | 1922 | 25 | RAC | 11 | 9 | 71 | 310 | 4.4 | 1 | 28.2 |  |  | WB
+ |  | 75 | Buck Gavin | 68 | 1922 | 31 | BUF,RII | 10 | 9 | 68 | 276 | 4.1 | 6 | 27.6 |  |  | 
+ |  | 76 | Al Hadden | 68 | 1928 | 29 | CHI,PRV | 10 | 7 | 68 | 168 | 2.5 | 0 | 16.8 |  |  | 
+ |  | 77 | Jack McBride | 68 | 1927 | 26 | NYG | 12 | 12 | 68 | 350 | 5.1 | 6 | 29.2 |  |  | FB
+ |  | 78 | Herdis McCrary | 67 | 1929 | 24 | GNB | 13 | 5 | 67 | 166 | 2.5 | 1 | 12.8 |  |  | HB
+ |  | 79 | Ken Mercer | 67 | 1929 | 26 | FRN | 13 | 7 | 67 | 222 | 3.3 | 0 | 17.1 |  |  | WB
+ |  | 80 | Cy Wentworth | 67 | 1925 | 21 | PRV | 12 | 12 | 67 | 272 | 4.1 | 2 | 22.7 |  |  | TB
+ |  | 81 | Frank Briante | 66 | 1929 | 24 | SIS | 9 | 7 | 66 | 141 | 2.1 | 1 | 15.7 |  |  | FB
+ |  | 82 | Hust Stockton | 66 | 1928 | 27 | FRN | 13 | 6 | 66 | 249 | 3.8 | 3 | 19.2 |  |  | FB
+ |  | 83 | Bob Fitzke | 65 | 1925 | 25 | FRN | 16 | 13 | 65 | 189 | 2.9 | 1 | 11.8 |  |  | WB
+ |  | 84 | Jerry Johnson | 65 | 1922 | 28 | RAC,RII | 8 | 6 | 65 | 170 | 2.6 | 1 | 21.3 |  |  | 
+ |  | 85 | Ben Jones | 65 | 1925 | 26 | CAN,FRN | 11 | 9 | 65 | 219 | 3.4 | 3 | 19.9 |  |  | TB
+ |  | 86 | Eddie Kotal | 65 | 1926 | 24 | GNB | 10 | 5 | 65 | 196 | 3.0 | 1 | 19.6 |  |  | HB
+ |  | 87 | Dutch Lauer | 65 | 1922 | 24 | GNB,RII | 9 | 6 | 65 | 167 | 2.6 | 4 | 18.6 |  |  | 
+ |  | 88 | Ken Mercer | 65 | 1928 | 25 | FRN | 14 | 11 | 65 | 259 | 4.0 | 5 | 18.5 |  |  | BB
+ |  | 89 | Heinie Benkert | 64 | 1926 | 25 | POT | 8 | 4 | 64 | 243 | 3.8 | 0 | 30.4 |  |  | 
+ |  | 90 | Curly Lambeau | 64 | 1927 | 29 | GNB | 10 | 5 | 64 | 231 | 3.6 | 2 | 23.1 |  |  | FB
+ |  | 91 | Hust Stockton | 64 | 1926 | 25 | FRN | 17 | 15 | 64 | 346 | 5.4 | 2 | 20.4 |  |  | FB
+ |  | 92 | Wildcat Wilson | 64 | 1929 | 28 | PRV | 12 | 12 | 64 | 382 | 6.0 | 1 | 31.8 |  |  | 
+ |  | 93 | Buck Gavin | 63 | 1925 | 34 | RII | 5 | 5 | 63 | 214 | 3.4 | 0 | 42.8 |  |  | FB
+ |  | 94 | Jack McBride | 63 | 1926 | 25 | NYG | 13 | 9 | 63 | 375 | 6.0 | 5 | 28.8 |  |  | FB
+ |  | 95 | Paddy Driscoll | 62 | 1926 | 31 | CHI | 16 | 16 | 62 | 229 | 3.7 | 4 | 14.3 |  |  | LH
+ |  | 96 | Jack Harris | 62 | 1925 | 23 | GNB | 11 | 7 | 62 | 147 | 2.4 | 1 | 13.4 |  |  | FB
+ |  | 97 | Harlan Carr | 61 | 1927 | 24 | BUF,POT | 10 | 9 | 61 | 158 | 2.6 | 2 | 15.8 |  |  | WB
+ |  | 98 | Walter French | 61 | 1925 | 26 | POT | 9 | 2 | 61 | 349 | 5.7 | 3 | 38.8 |  |  | 
+ |  | 99 | Les Haws | 61 | 1924 | 25 | FRN | 13 | 13 | 61 | 503 | 8.2 | 3 | 38.7 |  |  | BB
+ |  | 100 | Curly Lambeau | 60 | 1922 | 24 | GNB | 8 | 6 | 60 | 203 | 3.4 | 3 | 25.4 |  |  | TB
+ |  | 101 | Doc Elliott | 59 | 1922 | 22 | CAN | 7 | 7 | 59 | 202 | 3.4 | 2 | 28.9 |  |  | FB
+ |  | 102 | Doc Elliott | 59 | 1925 | 25 | CLE | 14 | 12 | 59 | 156 | 2.6 | 2 | 11.1 |  |  | FB
+ |  | 103 | George Sullivan | 59 | 1925 | 28 | FRN | 16 | 8 | 59 | 200 | 3.4 | 2 | 12.5 |  |  | TB
+ |  | 104 | George Wilson | 59 | 1929 | 24 | FRN | 18 | 4 | 59 | 197 | 3.3 | 0 | 10.9 |  |  | 
+ |  | 105 | Chuck Reichow | 58 | 1926 | 25 | RAC | 5 | 5 | 58 | 123 | 2.1 | 0 | 24.6 |  |  | FB
+ |  | 106 | Harry Robb | 58 | 1922 | 25 | CAN | 9 | 9 | 58 | 221 | 3.8 | 3 | 24.6 |  |  | TB
+ |  | 107 | Hinkey Haines | 57 | 1926 | 28 | NYG | 12 | 11 | 57 | 533 | 9.4 | 5 | 44.4 |  |  | TB
+ |  | 108 | Bill Pritchard | 57 | 1927 | 26 | PRV | 12 | 9 | 57 | 203 | 3.6 | 1 | 16.9 |  |  | FB
+ |  | 109 | Bill Senn | 57 | 1927 | 22 | CHI | 13 | 0 | 57 | 349 | 6.1 | 5 | 26.8 |  |  | 
+ |  | 110 | Dutch Sternaman | 57 | 1923 | 28 | CHI | 11 | 10 | 57 | 211 | 3.7 | 4 | 19.2 |  |  | LH
+ |  | 111 | Bill Giaver | 56 | 1924 | 27 | RAC | 10 | 6 | 56 | 101 | 1.8 | 0 | 10.1 |  |  | WB
+ |  | 112 | Johnny Mohardt | 56 | 1925 | 27 | CHI | 14 | 5 | 56 | 180 | 3.2 | 0 | 12.9 |  |  | LH
+ |  | 113 | Red Grange | 55 | 1925 | 22 | CHI | 5 | 5 | 55 | 203 | 3.7 | 2 | 40.6 |  |  | LH
+ |  | 114 | Hap Moran | 54 | 1926 | 25 | FRN | 14 | 6 | 54 | 264 | 4.9 | 4 | 18.9 |  |  | TB
+ |  | 115 | Dutch Sternaman | 54 | 1922 | 27 | CHI | 11 | 11 | 54 | 255 | 4.7 | 3 | 23.2 |  |  | LH
+ |  | 116 | Wooky Roberts | 53 | 1922 | 25 | CAN | 11 | 9 | 53 | 188 | 3.5 | 1 | 17.1 |  |  | BB
+ |  | 117 | Jack Storer | 53 | 1924 | 24 | FRN | 14 | 13 | 53 | 318 | 6.0 | 7 | 22.7 |  |  | TB
+ |  | 118 | Gibby Welch | 53 | 1928 | 24 | NYY | 13 | 12 | 53 | 237 | 4.5 | 1 | 18.2 |  |  | BB
+ |  | 119 | Ned Wilcox | 53 | 1927 | 23 | FRN | 14 | 13 | 53 | 179 | 3.4 | 2 | 12.8 |  |  | FB
+ |  | 120 | Bullet Baker | 52 | 1928 | 28 | GNB | 11 | 1 | 52 | 64 | 1.2 | 0 | 5.8 |  |  | 
+ |  | 121 | Jimmy Conzelman | 52 | 1923 | 25 | MIL | 12 | 12 | 52 | 181 | 3.5 | 3 | 15.1 |  |  | BB
+ |  | 122 | Doc Elliott | 52 | 1923 | 23 | CAN | 9 | 8 | 52 | 243 | 4.7 | 6 | 27.0 |  |  | FB
+ |  | 123 | Herb Joesting | 52 | 1929 | 24 | MIN | 10 | 10 | 52 | 210 | 4.0 | 2 | 21.0 |  |  | FB
+ |  | 124 | Verne Lewellen | 52 | 1924 | 23 | GNB | 8 | 3 | 52 | 121 | 2.3 | 2 | 15.1 |  |  | 
+ |  | 125 | Curly Oden | 52 | 1927 | 28 | PRV | 13 | 11 | 52 | 409 | 7.9 | 1 | 31.5 |  |  | BB
+ |  | 126 | Bob Phelan | 52 | 1923 | 25 | RII | 7 | 6 | 52 | 260 | 5.0 | 0 | 37.1 |  |  | FB
+ |  | 127 | Carl Waite | 52 | 1929 | 27 | TOR | 12 | 10 | 52 | 146 | 2.8 | 1 | 12.2 |  |  | FB
+ |  | 128 | Red Dunn | 51 | 1928 | 27 | GNB | 12 | 12 | 51 | 97 | 1.9 | 0 | 8.1 |  |  | QB
+ |  | 129 | Bob Koehler | 51 | 1925 | 31 | CRD | 12 | 11 | 51 | 128 | 2.5 | 4 | 10.7 |  |  | FB
+ |  | 130 | Johnny Bryan | 50 | 1923 | 26 | CHI | 12 | 12 | 50 | 221 | 4.4 | 4 | 18.4 |  |  | QB
+ |  | 131 | Paddy Driscoll | 50 | 1923 | 28 | CRD | 10 | 9 | 50 | 367 | 7.3 | 6 | 36.7 |  |  | LH
+ |  | 132 | Cowboy Hill | 50 | 1924 | 25 | KAN | 5 | 4 | 50 | 135 | 2.7 | 0 | 27.0 |  |  | 
+ |  | 133 | Roddy Lamb | 50 | 1926 | 27 | CRD | 10 | 6 | 50 | 248 | 5.0 | 1 | 24.8 |  |  | WB
+ |  | 134 | Hap Moran | 50 | 1927 | 26 | CRD,FRN | 10 | 8 | 50 | 151 | 3.0 | 2 | 15.1 |  |  | 
+ |  | 135 | Hust Stockton | 50 | 1925 | 24 | FRN | 14 | 13 | 50 | 173 | 3.5 | 0 | 12.4 |  |  | FB
+ |  | 136 | Hal Erickson | 49 | 1929 | 30 | MIN | 10 | 9 | 49 | 104 | 2.1 | 0 | 10.4 |  |  | TB
+ |  | 137 | Buck Gavin | 49 | 1924 | 33 | RII | 9 | 8 | 49 | 174 | 3.6 | 7 | 19.3 |  |  | FB
+ |  | 138 | Eddie Kotal | 49 | 1927 | 25 | GNB | 8 | 6 | 49 | 140 | 2.9 | 1 | 17.5 |  |  | TB
+ |  | 139 | Johnny Mohardt | 49 | 1924 | 26 | RAC | 8 | 6 | 49 | 144 | 2.9 | 0 | 18.0 |  |  | WB
+ |  | 140 | Paddy Driscoll | 48 | 1925 | 30 | CRD | 13 | 12 | 48 | 216 | 4.5 | 4 | 16.6 |  |  | TB
+ |  | 141 | Waddy Kuehl | 48 | 1923 | 30 | RII | 8 | 7 | 48 | 120 | 2.5 | 2 | 15.0 |  |  | WB
+ |  | 142 | Mule Wilson | 48 | 1928 | 27 | NYG | 13 | 12 | 48 | 180 | 3.8 | 1 | 13.8 |  |  | WB
+ |  | 143 | John Armstrong | 47 | 1923 | 26 | RII | 8 | 7 | 47 | 125 | 2.7 | 2 | 15.6 |  |  | BB
+ |  | 144 | Hal Erickson | 47 | 1925 | 26 | CRD | 14 | 14 | 47 | 154 | 3.3 | 2 | 11.0 |  |  | WB
+ |  | 145 | Frank Kirkleski | 47 | 1929 | 25 | TOR | 12 | 9 | 47 | 121 | 2.6 | 1 | 10.1 |  |  | TB
+ |  | 146 | Larry Marks | 47 | 1928 | 26 | GNB | 11 | 2 | 47 | 142 | 3.0 | 0 | 12.9 |  |  | 
+ |  | 147 | Eddie Usher | 47 | 1922 | 24 | GNB,RII | 10 | 8 | 47 | 168 | 3.6 | 2 | 16.8 |  |  | HB
+ |  | 148 | Fait Elkins | 46 | 1928 | 29 | FRN | 10 | 3 | 46 | 167 | 3.6 | 0 | 16.7 |  |  | 
+ |  | 149 | Bill Giaver | 46 | 1923 | 26 | RII | 7 | 5 | 46 | 306 | 6.7 | 4 | 43.7 |  |  | TB
+ |  | 150 | Dave Noble | 46 | 1925 | 25 | CLE | 13 | 13 | 46 | 233 | 5.1 | 3 | 17.9 |  |  | WB
+ |  | 151 | Pop Williams | 46 | 1929 | 23 | PRV | 12 | 8 | 46 | 204 | 4.4 | 6 | 17.0 |  |  | WB
+ |  | 152 | Rufe DeWitz | 45 | 1924 | 24 | KAN | 8 | 7 | 45 | 155 | 3.4 | 0 | 19.4 |  |  | WB
+ |  | 153 | Johnny Heimsch | 45 | 1926 | 24 | MIL | 9 | 9 | 45 | 142 | 3.2 | 3 | 15.8 |  |  | WB
+ |  | 154 | Charlie Way | 45 | 1924 | 27 | FRN | 13 | 8 | 45 | 471 | 10.5 | 4 | 36.2 |  |  | WB
+ |  | 155 | Wild Bill Kelly | 44 | 1929 | 24 | FRN | 17 | 8 | 44 | 133 | 3.0 | 1 | 7.8 |  |  | BB
+ |  | 156 | Curly Lambeau | 44 | 1926 | 28 | GNB | 12 | 7 | 44 | 112 | 2.5 | 0 | 9.3 |  |  | TB
+ |  | 157 | Joey Sternaman | 44 | 1924 | 24 | CHI | 11 | 9 | 44 | 256 | 5.8 | 4 | 23.3 |  |  | QB
+ |  | 158 | Johnny Blood | 43 | 1928 | 25 | POT | 10 | 8 | 43 | 153 | 3.6 | 0 | 15.3 |  |  | TB
+ |  | 159 | John Armstrong | 42 | 1925 | 28 | RII | 11 | 8 | 42 | 171 | 4.1 | 0 | 15.5 |  |  | BB
+ |  | 160 | Carl Cramer | 42 | 1922 | 26 | AKR | 10 | 10 | 42 | 204 | 4.9 | 6 | 20.4 |  |  | WB
+ |  | 161 | Chuck Dressen | 42 | 1922 | 28 | RAC | 7 | 7 | 42 | 223 | 5.3 | 2 | 31.9 |  |  | BB
+ |  | 162 | Red Dunn | 42 | 1927 | 26 | GNB | 10 | 6 | 42 | 149 | 3.5 | 0 | 14.9 |  |  | QB
+ |  | 163 | Al Elliott | 42 | 1923 | 29 | RAC | 10 | 8 | 42 | 92 | 2.2 | 0 | 9.2 |  |  | TB
+ |  | 164 | Jack McAuliffe | 42 | 1926 | 25 | GNB | 8 | 4 | 42 | 66 | 1.6 | 0 | 8.3 |  |  | 
+ |  | 165 | Ed Shaw | 42 | 1922 | 27 | CAN | 12 | 4 | 42 | 154 | 3.7 | 4 | 12.8 |  |  | 
+ |  | 166 | Johnny Blood | 41 | 1927 | 24 | DUL | 9 | 8 | 41 | 150 | 3.7 | 0 | 16.7 |  |  | TB
+ |  | 167 | Johnny Bryan | 41 | 1925 | 28 | CHI,MIL | 11 | 7 | 41 | 120 | 2.9 | 0 | 10.9 |  |  | 
+ |  | 168 | Hoot Flanagan | 41 | 1926 | 25 | POT | 8 | 6 | 41 | 104 | 2.5 | 0 | 13.0 |  |  | WB
+ |  | 169 | Oscar Knop | 41 | 1924 | 28 | CHI | 11 | 9 | 41 | 132 | 3.2 | 1 | 12.0 |  |  | FB
+ |  | 170 | Fritz Pollard | 41 | 1925 | 31 | AKR,HAM,PRV | 13 | 5 | 41 | 170 | 4.1 | 2 | 13.1 |  |  | TB
+ |  | 171 | Shorty Barr | 40 | 1923 | 26 | RAC | 10 | 9 | 40 | 124 | 3.1 | 1 | 12.4 |  |  | BB
+ |  | 172 | Paddy Driscoll | 40 | 1928 | 33 | CHI | 12 | 12 | 40 | 181 | 4.5 | 2 | 15.1 |  |  | LH
+ |  | 173 | Al Hadden | 40 | 1927 | 28 | PRV | 10 | 7 | 40 | 58 | 1.5 | 0 | 5.8 |  |  | WB
+ |  | 174 | Jack Harris | 40 | 1926 | 24 | GNB | 10 | 5 | 40 | 66 | 1.7 | 2 | 6.6 |  |  | RE
+ |  | 175 | Dick Hudson | 40 | 1923 | 25 | MIN | 3 | 3 | 40 | 98 | 2.5 | 0 | 32.7 |  |  | 
+ |  | 176 | Oscar Knop | 40 | 1926 | 30 | CHI | 13 | 12 | 40 | 99 | 2.5 | 1 | 7.6 |  |  | FB
+ |  | 177 | Mally Nydall | 40 | 1929 | 23 | MIN | 10 | 7 | 40 | 238 | 6.0 | 2 | 23.8 |  |  | BB
+ |  | 178 | Gibby Welch | 40 | 1929 | 25 | PRV | 12 | 10 | 40 | 227 | 5.7 | 2 | 18.9 |  |  | BB
+ |  | 179 | Johnny Blood | 39 | 1926 | 23 | DUL | 13 | 7 | 39 | 106 | 2.7 | 1 | 8.2 |  |  | TB
+ |  | 180 | George Bolan | 39 | 1923 | 26 | CHI | 10 | 7 | 39 | 111 | 2.8 | 0 | 11.1 |  |  | FB
+ |  | 181 | Jack Keefer | 39 | 1926 | 26 | PRV | 11 | 5 | 39 | 202 | 5.2 | 2 | 18.4 |  |  | TB
+ |  | 182 | Jim Laird | 39 | 1922 | 25 | BUF | 10 | 8 | 39 | 126 | 3.2 | 3 | 12.6 |  |  | FB
+ |  | 183 | Mickey MacDonnell | 39 | 1929 | 27 | CRD | 13 | 10 | 39 | 144 | 3.7 | 0 | 11.1 |  |  | WB
+ |  | 184 | Doc Bruder | 38 | 1926 | 25 | FRN | 13 | 8 | 38 | 251 | 6.6 | 2 | 19.3 |  |  | WB
+ |  | 185 | Jack Cronin | 38 | 1928 | 25 | PRV | 8 | 5 | 38 | 127 | 3.3 | 3 | 15.9 |  |  | 
+ |  | 186 | Les Haws | 38 | 1925 | 26 | FRN | 13 | 8 | 38 | 191 | 5.0 | 1 | 14.7 |  |  | BB
+ |  | 187 | Ben Jones | 38 | 1926 | 27 | FRN | 14 | 13 | 38 | 133 | 3.5 | 7 | 9.5 |  |  | BB
+ |  | 188 | Bill Senn | 38 | 1928 | 23 | CHI | 12 | 4 | 38 | 68 | 1.8 | 1 | 5.7 |  |  | 
+ |  | 189 | Dinger Doane | 37 | 1924 | 31 | MIL | 11 | 11 | 37 | 146 | 3.9 | 4 | 13.3 |  |  | FB
+ |  | 190 | Ave Kaplan | 37 | 1923 | 24 | MIN | 8 | 8 | 37 | 63 | 1.7 | 0 | 7.9 |  |  | BB
+ |  | 191 | Arnie Oehlrich | 37 | 1929 | 24 | FRN | 17 | 14 | 37 | 95 | 2.6 | 0 | 5.6 |  |  | WB
+ |  | 192 | Tony Plansky | 37 | 1929 | 29 | NYG | 11 | 9 | 37 | 236 | 6.4 | 8 | 21.5 |  |  | FB
+ |  | 193 | Bill Senn | 37 | 1926 | 21 | CHI | 15 | 0 | 37 | 427 | 11.5 | 7 | 28.5 |  |  | 
+ |  | 194 | Tommy Hughitt | 36 | 1922 | 30 | BUF | 10 | 10 | 36 | 143 | 4.0 | 2 | 14.3 |  |  | BB
+ |  | 195 | Lou Partlow | 36 | 1922 | 30 | DAY | 6 | 5 | 36 | 112 | 3.1 | 1 | 18.7 |  |  | TB
+ |  | 196 | Jim Thorpe | 36 | 1924 | 37 | RII | 9 | 9 | 36 | 96 | 2.7 | 0 | 10.7 |  |  | TB
+ |  | 197 | Buck White | 36 | 1927 | 27 | CHI | 13 | 6 | 36 | 111 | 3.1 | 2 | 8.5 |  |  | FB
+ |  | 198 | Joe Guyon | 35 | 1922 | 30 | OOR | 9 | 9 | 35 | 221 | 6.3 | 4 | 24.6 |  |  | TB
+ |  | 199 | Jack McBride | 35 | 1925 | 24 | NYG | 12 | 12 | 35 | 193 | 5.5 | 2 | 16.1 |  |  | FB
+ |  | 200 | Jack McBride | 35 | 1929 | 28 | PRV | 12 | 6 | 35 | 85 | 2.4 | 0 | 7.1 |  |  | FB
 ```
 
 ## Claim check
 
-- Complete set: all 17 rows read. A superlative may be asserted only if it holds across every row above.
+- INCOMPLETE. Tighten the filter and re-run before any "only" or "first" claim.
