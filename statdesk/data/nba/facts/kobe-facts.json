@@ -493,7 +493,7 @@
    "n": 14,
    "kind": "games",
    "text": "60-point regular-season games: 6 — 62 Dec 20, 2005 vs. Dallas; 81 Jan 22, 2006 vs. Toronto; 65 Mar 16, 2007 vs. Portland; 60 Mar 22, 2007 at Memphis; 61 Feb 2, 2009 at New York; 60 Apr 13, 2016 vs. Utah.",
-   "why": "Fifty-point games are the scorer's trophy case; the count is instantly comparable.",
+   "why": "Sixty-point games are so rare that every one gets remembered; the list does the work.",
    "evidence": [
     {
      "date": "Dec 20, 2005",
@@ -598,7 +598,7 @@
    "n": 15,
    "kind": "games",
    "text": "50-point playoff games: 1 — 50 May 4, 2006 vs. Phoenix.",
-   "why": "Fifty-point games are the scorer's trophy case; the count is instantly comparable.",
+   "why": "Playoff fifties are the rarest big-stage scoring feat.",
    "evidence": [
     {
      "date": "May 04, 2006",
@@ -728,7 +728,7 @@
    "n": 21,
    "kind": "era",
    "text": "Regular-season points from 1996-97 through 2015-16: Bryant led the league with 33,643; next Dirk Nowitzki, 29,491.",
-   "why": "Who owned his era, measured the simplest way.",
+   "why": "Across those seasons nobody topped him; Dirk Nowitzki came closest and still finished 4,152 behind, which invites Nowitzki fans to argue.",
    "evidence": [
     {
      "id": 977,
@@ -807,7 +807,7 @@
    "n": 22,
    "kind": "era",
    "text": "Regular-season field goals from 1996-97 through 2015-16: Bryant led the league with 11,719; next Dirk Nowitzki, 10,392.",
-   "why": "Who owned his era, measured the simplest way.",
+   "why": "Across those seasons nobody topped him; Dirk Nowitzki came closest and still finished 1,327 behind, which invites Nowitzki fans to argue.",
    "evidence": [
     {
      "id": 977,
@@ -886,7 +886,7 @@
    "n": 23,
    "kind": "era",
    "text": "Regular-season free throws made from 1996-97 through 2015-16: Bryant led the league with 8,378; next Dirk Nowitzki, 7,006.",
-   "why": "Who owned his era, measured the simplest way.",
+   "why": "Across those seasons nobody topped him; Dirk Nowitzki came closest and still finished 1,372 behind, which invites Nowitzki fans to argue.",
    "evidence": [
     {
      "id": 977,
@@ -965,7 +965,7 @@
    "n": 24,
    "kind": "era",
    "text": "Regular-season minutes from 1996-97 through 2015-16: Bryant led the league with 48,643; next Kevin Garnett, 48,119.",
-   "why": "Who owned his era, measured the simplest way.",
+   "why": "Across those seasons nobody topped him; Kevin Garnett came closest and still finished 524 behind, which invites Garnett fans to argue.",
    "evidence": [
     {
      "id": 977,
@@ -1044,7 +1044,7 @@
    "n": 25,
    "kind": "era",
    "text": "Playoff points from 1996-97 through 2015-16: Bryant led the league with 5,640; next LeBron James, 5,572.",
-   "why": "Who owned his era, measured the simplest way.",
+   "why": "Across those seasons nobody topped him; LeBron James came closest and still finished 68 behind, which invites James fans to argue.",
    "evidence": [
     {
      "id": 977,
@@ -1123,7 +1123,7 @@
    "n": 26,
    "kind": "era",
    "text": "Playoff field goals from 1996-97 through 2015-16: Bryant led the league with 2,014; next Tim Duncan, 1,975.",
-   "why": "Who owned his era, measured the simplest way.",
+   "why": "Across those seasons nobody topped him; Tim Duncan came closest and still finished 39 behind, which invites Duncan fans to argue.",
    "evidence": [
     {
      "id": 977,
@@ -1202,7 +1202,7 @@
    "n": 27,
    "kind": "era",
    "text": "Seasons averaging 30 from 1996-97 through 2015-16: Bryant 3 (2002-03, 2005-06, 2006-07); everyone else combined 11.",
-   "why": "\"Him vs. the league\" framing; the count against the field is the post.",
+   "why": "\"Him vs. the league\" framing; the count against the field is the post. 3 of 14 such seasons belonged to one player.",
    "evidence": [
     {
      "id": 947,
@@ -1655,7 +1655,7 @@
    "n": 28,
    "kind": "era",
    "text": "Seasons averaging 35 from 1996-97 through 2015-16: Bryant 1 (2005-06); everyone else combined 0.",
-   "why": "The rarest scoring air of his era.",
+   "why": "The rarest scoring air of his era. One player matching or beating the rest of the league combined is the hook.",
    "evidence": [
     {
      "id": 977,
@@ -1782,7 +1782,7 @@
    "n": 35,
    "kind": "milestone",
    "text": "Bryant reached 25,000 regular-season points in his 990th game, Jan 21, 2010 at Cleveland, at 31 years.",
-   "why": "Games-to-milestone lines are easy to compare against any player fans bring up.",
+   "why": "Getting there this young is the longevity-plus-production case in one line.",
    "evidence": [
     {
      "date": "Jan 21, 2010",
@@ -1832,7 +1832,7 @@
    "n": 37,
    "kind": "milestone",
    "text": "Bryant reached 33,000 regular-season points in his 1,310th game, Jan 7, 2016 at Sacramento, at 37 years.",
-   "why": "The 30K club is tiny; the date and game count make it trivia.",
+   "why": "The last big milestone of the career; farewell-season content.",
    "evidence": [
     {
      "date": "Jan 07, 2016",
@@ -2366,7 +2366,7 @@
    "n": 46,
    "kind": "era",
    "text": "2,400-point seasons from 1996-97 through 2015-16: Bryant 3 (2002-03, 2005-06, 2006-07); everyone else combined 5 (Michael Jordan, Tracy McGrady, LeBron James and Kevin Durant).",
-   "why": "Raw scoring volume across two decades of rivals.",
+   "why": "Raw scoring volume across two decades of rivals. 3 of 8 such seasons belonged to one player.",
    "evidence": [
     {
      "id": 893,
@@ -2671,7 +2671,7 @@
    "n": 47,
    "kind": "era",
    "text": "Postseasons of 10+ games averaging 30 from 1996-97 through 2015-16: Bryant 4 (2002-03, 2007-08, 2008-09, 2011-12); everyone else combined 12.",
-   "why": "Big-game scoring against his era's best.",
+   "why": "Big-game scoring against his era's best. 4 of 16 such seasons belonged to one player.",
    "evidence": [
     {
      "id": 893,
@@ -3124,7 +3124,7 @@
    "n": 48,
    "kind": "era",
    "text": "600-point postseasons from 1996-97 through 2015-16: Bryant 3 (2007-08, 2008-09, 2009-10); everyone else combined 7.",
-   "why": "Deep playoff runs with heavy scoring.",
+   "why": "Deep playoff runs with heavy scoring. 3 of 10 such seasons belonged to one player.",
    "evidence": [
     {
      "id": 893,
@@ -3833,7 +3833,7 @@
    "n": 58,
    "kind": "games",
    "text": "30-point regular-season games: 431 (32% of his regular-season games).",
-   "why": "A volume count fans compare against any other star.",
+   "why": "Thirty-point games show night-in, night-out scoring volume.",
    "evidence": [
     {
      "date": "Dec 14, 1997",
@@ -4034,7 +4034,7 @@
    "n": 59,
    "kind": "games",
    "text": "40-point regular-season games: 122 (9% of his regular-season games).",
-   "why": "A volume count fans compare against any other star.",
+   "why": "Forty-point nights are the modern benchmark fans compare stars by.",
    "evidence": [
     {
      "date": "Mar 12, 2000",
@@ -4235,7 +4235,7 @@
    "n": 60,
    "kind": "games",
    "text": "30-point playoff games: 88 (40% of his playoff games).",
-   "why": "A volume count fans compare against any other star.",
+   "why": "Thirty-point playoff nights measure big-game scoring.",
    "evidence": [
     {
      "date": "Apr 27, 2000",
@@ -4436,7 +4436,7 @@
    "n": 61,
    "kind": "games",
    "text": "40-point playoff games: 13 (6% of his playoff games).",
-   "why": "A volume count fans compare against any other star.",
+   "why": "Forty in a playoff game is a legacy moment; the count adds them all up.",
    "evidence": [
     {
      "date": "May 13, 2001",
@@ -5467,7 +5467,7 @@
    "n": 86,
    "kind": "milestone",
    "text": "Bryant reached 10,000 regular-season points in his 473rd game, Mar 5, 2003 vs. Indiana, at 24 years.",
-   "why": "Games-to-milestone lines are easy to compare against any player fans bring up.",
+   "why": "The first big milestone; compare the game count and age with today's young stars.",
    "evidence": [
     {
      "date": "Mar 05, 2003",
@@ -5492,7 +5492,7 @@
    "n": 87,
    "kind": "milestone",
    "text": "Bryant reached 15,000 regular-season points in his 657th game, Jan 6, 2006 vs. Philadelphia, at 27 years.",
-   "why": "Games-to-milestone lines are easy to compare against any player fans bring up.",
+   "why": "A mid-career pace check fans can measure anyone against.",
    "evidence": [
     {
      "date": "Jan 06, 2006",
@@ -5517,7 +5517,7 @@
    "n": 88,
    "kind": "milestone",
    "text": "Bryant reached 20,000 regular-season points in his 811th game, Dec 23, 2007 at New York, at 29 years.",
-   "why": "Games-to-milestone lines are easy to compare against any player fans bring up.",
+   "why": "The 20K club by games played is a classic \"who got there fastest\" argument.",
    "evidence": [
     {
      "date": "Dec 23, 2007",
@@ -5873,5 +5873,5 @@
   "Kobe Bryant: every line is computed from stats.nba.com — his career feed, every game he played, and every NBA player-season for league comparisons. Titles and Finals are derived from his playoff game logs. Nothing typed in from memory.",
   "Scoring titles use the rule of each season (70 games or 1,400 points through 2012-13; 58 games after). 'Why' notes are editorial: why the line should work as a post."
  ],
- "generatedAt": "2026-09-28T08:13:40.666Z"
+ "generatedAt": "2026-09-28T08:14:49.081Z"
 }

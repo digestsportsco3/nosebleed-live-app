@@ -86,7 +86,10 @@ function main() {
     for (const bar of lab === "playoff" ? [30, 40, 50] : [30, 40, 50, 60]) {
       const m = arr.filter((g) => g.PTS >= bar); if (!m.length) continue;
       add("games", `${bar}-point ${lab} games: ${m.length}${m.length <= 6 ? ` — ${m.map((g) => `${g.PTS} ${on(g)}`).join("; ")}` : ` (${Math.round((100 * m.length) / arr.length)}% of his ${lab} games)`}.`,
-        bar >= 50 ? `Fifty-point games are the scorer's trophy case; the count is instantly comparable.` : `A volume count fans compare against any other star.`, m.map(gEv), bar >= 50 ? 8 : 6);
+        ({ 30: lab === "playoff" ? `Thirty-point playoff nights measure big-game scoring.` : `Thirty-point games show night-in, night-out scoring volume.`,
+           40: lab === "playoff" ? `Forty in a playoff game is a legacy moment; the count adds them all up.` : `Forty-point nights are the modern benchmark fans compare stars by.`,
+           50: lab === "playoff" ? `Playoff fifties are the rarest big-stage scoring feat.` : `Fifty-point games are the scorer's trophy case; the count is instantly comparable.`,
+           60: `Sixty-point games are so rare that every one gets remembered; the list does the work.` })[bar], m.map(gEv), bar >= 50 ? 8 : 6);
     }
     const hi = [...arr].sort((a, b) => b.PTS - a.PTS)[0];
     add("games", `${lab[0].toUpperCase() + lab.slice(1)} career high: ${hi.PTS} points, ${on(hi)} (${box(hi)}, ${hi.WL}).`, hi.PTS >= 80 ? `One of the most famous box scores in the sport; every detail gets shared.` : `The ceiling game; the box score details are the post.`, gEv(hi), 10);
@@ -124,7 +127,9 @@ function main() {
   let cum = 0; let mi = 0; const marks = [10000, 15000, 20000, 25000, 30000, 33000];
   RS.forEach((g, i) => { cum += g.PTS; while (mi < marks.length && cum >= marks[mi]) {
     add("milestone", `${LAST} reached ${c(marks[mi])} regular-season points in his ${ordinal(i + 1)} game, ${on(g)}${ageOn(g.date) ? `, at ${ageOn(g.date).replace(/, \d+ days old/, "")}` : ""}.`,
-      marks[mi] >= 30000 ? `The 30K club is tiny; the date and game count make it trivia.` : `Games-to-milestone lines are easy to compare against any player fans bring up.`, gEv(g), marks[mi] >= 25000 ? 7 : 5); mi += 1; } });
+      ({ 10000: `The first big milestone; compare the game count and age with today's young stars.`, 15000: `A mid-career pace check fans can measure anyone against.`,
+         20000: `The 20K club by games played is a classic "who got there fastest" argument.`, 25000: `Getting there this young is the longevity-plus-production case in one line.`,
+         30000: `The 30K club is tiny; the date and game count make it trivia.`, 33000: `The last big milestone of the career; farewell-season content.` })[marks[mi]] || `A milestone fans can compare against anyone.`, gEv(g), marks[mi] >= 25000 ? 7 : 5); mi += 1; } });
   for (const bar of [30, 40, 50, 60]) { const i = RS.findIndex((g) => g.PTS >= bar); if (i < 0) continue; const g = RS[i];
     add("milestone", `His first ${bar}-point game came in his ${ordinal(i + 1)} NBA game: ${g.PTS}, ${on(g)}${ageOn(g.date) ? ` (${ageOn(g.date).replace(/, \d+ days old/, "")})` : ""}.`, `How long it took to arrive is a strong development story.`, gEv(g), 5); }
   // Calendar.
@@ -199,7 +204,8 @@ function main() {
   for (const [arr, lab, k, nm] of [[T, "regular-season", "PTS", "points"], [T, "regular-season", "FGM", "field goals"], [T, "regular-season", "FTM", "free throws made"], [T, "regular-season", "MIN", "minutes"], [TP, "playoff", "PTS", "points"], [TP, "playoff", "FGM", "field goals"]]) {
     const l = [...arr].sort((a, b) => b[k] - a[k]); const i = l.findIndex((r) => r.id === ID); if (i < 0 || i > 2) continue;
     add("era", `${lab[0].toUpperCase() + lab.slice(1)} ${nm} ${SPAN}: ${i === 0 ? `${LAST} led the league with ${c(l[0][k])}; next ${l[1].name}, ${c(l[1][k])}` : `${LAST} ranked ${ordinal(i + 1)} with ${c(l[i][k])}, behind ${andList(l.slice(0, i).map((r) => `${r.name} (${c(r[k])})`))}`}.`,
-      `Who owned his era, measured the simplest way.`, l.slice(0, 5), i === 0 ? 8 : 6);
+      i === 0 ? `Across those seasons nobody topped him; ${l[1].name} came closest and still finished ${c(l[0][k] - l[1][k])} behind, which invites ${l[1].name.split(" ").slice(-1)[0]} fans to argue.`
+        : `Ranks him among the era's very best; ${l[0].name}'s fans get the top spot to defend.`, l.slice(0, 5), i === 0 ? 8 : 6);
   }
   // Teammates: 20-point seasons alongside him.
   const mates = {};
@@ -211,7 +217,8 @@ function main() {
   const allRS = [], allPO = []; for (let y = Y0; y <= Y1; y += 1) { allRS.push(...season(y, "rs")); allPO.push(...season(y, "po")); }
   const vsField = (rows, f, what, why, score = 7) => { const m = rows.filter(f); const me = m.filter((r) => r.id === ID); const ot = m.filter((r) => r.id !== ID); if (!me.length) return;
     const names = [...new Set(ot.map((r) => r.name))];
-    add("era", `${what} ${SPAN}: ${LAST} ${me.length} (${me.map((r) => label(r.season)).join(", ")}); everyone else combined ${ot.length}${ot.length && names.length <= 4 ? ` (${andList(names)})` : ""}.`, why, m.slice(0, 12), score); };
+    add("era", `${what} ${SPAN}: ${LAST} ${me.length} (${me.map((r) => label(r.season)).join(", ")}); everyone else combined ${ot.length}${ot.length && names.length <= 4 ? ` (${andList(names)})` : ""}.`,
+      `${why} ${ot.length <= me.length ? `One player matching or beating the rest of the league combined is the hook.` : `${me.length} of ${m.length} such seasons belonged to one player.`}`, m.slice(0, 12), score); };
   vsField(allRS, (r) => r.q && r.PPG >= 30, "Seasons averaging 30", `"Him vs. the league" framing; the count against the field is the post.`, 8);
   vsField(allRS, (r) => r.PTS >= 2400, "2,400-point seasons", `Raw scoring volume across two decades of rivals.`, 7);
   vsField(allRS, (r) => r.q && r.PPG >= 35, "Seasons averaging 35", `The rarest scoring air of his era.`, 8);
