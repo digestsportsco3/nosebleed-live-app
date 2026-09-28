@@ -115,36 +115,38 @@ async function season(y, type, roster) {
   return list.length;
 }
 
-async function mj() {
-  const id = 893;
+// Any player: node statdesk/nba/pull.js player <PERSON_ID> <slug>
+// writes players/<slug>/{info,career,games-*}.json (same shapes as mj/).
+async function mj(id = 893, dir = "mj", tag = "MJ") {
   // Birthdate, so ages can be exact to the game date. The career feed's
   // PLAYER_AGE is a season label (he is "22" for all of 1984-85, though he
   // turned 22 that February), and "age 39 when he scored 51" would be wrong.
-  const info = rows(await get("commonplayerinfo", { PlayerID: String(id), LeagueID: "00" }, "MJ info"), "CommonPlayerInfo")[0] || {};
-  write("mj/info.json", { pulledAt: new Date().toISOString(), birthdate: info.BIRTHDATE, height: info.HEIGHT, school: info.SCHOOL, draftYear: info.DRAFT_YEAR, draftRound: info.DRAFT_ROUND, draftNumber: info.DRAFT_NUMBER, raw: info });
+  const info = rows(await get("commonplayerinfo", { PlayerID: String(id), LeagueID: "00" }, `${tag} info`), "CommonPlayerInfo")[0] || {};
+  write(`${dir}/info.json`, { pulledAt: new Date().toISOString(), birthdate: info.BIRTHDATE, height: info.HEIGHT, school: info.SCHOOL, draftYear: info.DRAFT_YEAR, draftRound: info.DRAFT_ROUND, draftNumber: info.DRAFT_NUMBER, raw: info });
   const c = await career(id);
   const sets = {};
   for (const rs of c.resultSets) sets[rs.name] = rows(c, rs.name);
-  write("mj/career.json", { pulledAt: new Date().toISOString(), source: `${BASE}/playercareerstats?PlayerID=${id}`, sets });
+  write(`${dir}/career.json`, { pulledAt: new Date().toISOString(), source: `${BASE}/playercareerstats?PlayerID=${id}`, sets });
   const seasons = [...new Set(sets.SeasonTotalsRegularSeason.map((r) => r.SEASON_ID))];
   const po = new Set(sets.SeasonTotalsPostSeason.map((r) => r.SEASON_ID));
   let n = 0;
   for (const s of seasons) {
     for (const [type, st] of [["rs", "Regular Season"], ["po", "Playoffs"]]) {
       if (type === "po" && !po.has(s)) continue;
-      const g = rows(await get("playergamelog", { PlayerID: String(id), Season: s, SeasonType: st, LeagueID: "00" }, `MJ games ${s} ${type}`));
-      write(`mj/games-${s}-${type}.json`, { season: s, type, count: g.length, games: g });
-      n += g.length; console.log(`MJ ${s} ${type}: ${g.length} games`);
+      const g = rows(await get("playergamelog", { PlayerID: String(id), Season: s, SeasonType: st, LeagueID: "00" }, `${tag} games ${s} ${type}`));
+      write(`${dir}/games-${s}-${type}.json`, { season: s, type, count: g.length, games: g });
+      n += g.length; console.log(`${tag} ${s} ${type}: ${g.length} games`);
     }
   }
-  console.log(`MJ total games: ${n}`);
+  console.log(`${tag} total games: ${n}`);
 }
 
 async function main() {
   const [cmd = "all", a, b] = process.argv.slice(2).filter((x) => !x.startsWith("--"));
   const lastSeason = new Date().getUTCMonth() >= 9 ? new Date().getUTCFullYear() : new Date().getUTCFullYear() - 1; // 2025 -> 2025-26
-  const from = Number(a) || 1946; const to = Number(b) || lastSeason;
+  const from = (cmd === "player" ? 0 : Number(a)) || 1946; const to = (cmd === "player" ? 0 : Number(b)) || lastSeason;
   if (cmd === "mj" || cmd === "all") await mj();
+  if (cmd === "player") { if (!Number(a) || !b) throw new Error("usage: player <PERSON_ID> <slug>"); await mj(Number(a), `players/${b}`, b); }
   if (cmd === "seasons" || cmd === "all") {
     const roster = await players();
     for (let y = from; y <= to; y += 1) { await season(y, "rs", roster); await season(y, "po", roster); }

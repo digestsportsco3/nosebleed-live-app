@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -64,6 +64,17 @@ jobs:
         run: node statdesk/sport-facts.js ${{ inputs.args }} --commit
       - name: NBA cross-check (Stathead)
         if: inputs.task == 'nba-crosscheck'
+        shell: cmd
+        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        run: node statdesk/nba/crosscheck.js --commit
+      # One job for a player pull plus the cross-check: a second queued dispatch
+      # would replace the first in the concurrency group's single pending slot.
+      - name: NBA player pull (args "<PERSON_ID> <slug>")
+        if: inputs.task == 'nba-extra'
+        shell: cmd
+        run: node statdesk/nba/pull.js player ${{ inputs.args }} --commit
+      - name: NBA cross-check after player pull
+        if: inputs.task == 'nba-extra'
         shell: cmd
         env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
         run: node statdesk/nba/crosscheck.js --commit
