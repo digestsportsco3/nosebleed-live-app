@@ -81,7 +81,9 @@ const lg = (sp) => (sp.league && sp.league.name) || "unknown";
 
 function who(entry) {
   const sp = entry.sp;
-  const team = sp.team && sp.team.name ? sp.team.name : (entry.teams > 1 ? "multiple teams" : "unknown team");
+  // The API omits the team on a traded player's combined row and says
+  // numTeams instead; that is the only case with no team name.
+  const team = sp.team && sp.team.name ? sp.team.name : ((entry.teams > 1 || (num(sp.numTeams) || 1) > 1) ? "multiple teams" : "unknown team");
   return { id: sp.player.id, name: pname(sp), team, league: lg(sp), teams: entry.teams };
 }
 

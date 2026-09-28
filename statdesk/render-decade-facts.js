@@ -44,7 +44,7 @@ function page(d) {
       // the stint-split case, whichever label the checker used at the time.
       const factByN = new Map(d.facts.map((f) => [f.n, f]));
       const isTraded = (r) => { const f = factByN.get(r.n); if (!f) return false;
-        const traded = new Set(f.evidence.filter((e) => /^(2\+ teams|multiple teams)$/.test(e.team)).map((e) => `${e.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z ]/g, "").replace(/\b(jr|sr|ii|iii|iv)\b/g, "").replace(/\s+/g, " ").trim()}|${e.season}`));
+        const traded = new Set(f.evidence.filter((e) => /^(2\+ teams|multiple teams|unknown team)$/.test(e.team)).map((e) => `${e.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z ]/g, "").replace(/\b(jr|sr|ii|iii|iv)\b/g, "").replace(/\s+/g, " ").trim()}|${e.season}`));
         const missing = (r.ours || []).filter((x) => !(r.stathead || []).includes(x));
         return missing.length > 0 && (r.stathead || []).every((x) => (r.ours || []).includes(x)) && missing.every((x) => traded.has(x)); };
       const ok = mine.filter((r) => /^AGREE/.test(r.verdict)).length;
@@ -110,7 +110,7 @@ if (verify) {
     if (/^UNVERIFIABLE/.test(r.verdict)) { unv += 1; continue; }
     if (r.verdict !== "DISAGREE") continue;
     const f = allFacts.get(`${r.decade}|${r.n}`);
-    const traded = new Set(f ? f.evidence.filter((e) => /^(2\+ teams|multiple teams)$/.test(e.team)).map((e) => `${nrm(e.name)}|${e.season}`) : []);
+    const traded = new Set(f ? f.evidence.filter((e) => /^(2\+ teams|multiple teams|unknown team)$/.test(e.team)).map((e) => `${nrm(e.name)}|${e.season}`) : []);
     const missing = (r.ours || []).filter((x) => !(r.stathead || []).includes(x));
     if (missing.length && (r.stathead || []).every((x) => (r.ours || []).includes(x)) && missing.every((x) => traded.has(x))) unv += 1; else dis += 1;
   }

@@ -73,7 +73,7 @@ async function main() {
                 // into either agree or disagree.
                 // The API's combined row for a traded player carries no team, so
                 // the stored label is "multiple teams"; older files say "2+ teams".
-                const traded = new Set(fact.evidence.filter((e) => /^(2\+ teams|multiple teams)$/.test(e.team)).map((e) => `${norm(e.name)}|${e.season}`));
+                const traded = new Set(fact.evidence.filter((e) => /^(2\+ teams|multiple teams|unknown team)$/.test(e.team)).map((e) => `${norm(e.name)}|${e.season}`));
                 if (!extra.length && missing.every((x) => traded.has(x))) { verdict = "UNVERIFIABLE (traded-player season; Stathead splits stints)"; note = missing.join(", "); }
                 else { verdict = "DISAGREE"; note = `${missing.length ? `not on Stathead: ${missing.join(", ")}` : ""}${missing.length && extra.length ? "; " : ""}${extra.length ? `Stathead also has: ${extra.join(", ")}` : ""}`; }
               }
