@@ -69,6 +69,8 @@ function main() {
   const on = (g) => `${fmtDate(g.date)} ${g.home ? "vs." : "at"} ${city(g.opp)}`;
   const gEv = (g) => ({ date: g.GAME_DATE, type: g.type, matchup: g.MATCHUP, WL: g.WL, PTS: g.PTS, REB: g.REB, AST: g.AST, STL: g.STL, BLK: g.BLK, FGM: g.FGM, FGA: g.FGA, FTM: g.FTM, FTA: g.FTA, MIN: g.MIN, game: g.Game_ID });
 
+  // Title seasons, derived: a playoff run that ends on a win ended with a title.
+  const TITLES = new Set(); for (const yy of new Set(PO.map((g) => g.y))) { const run = PO.filter((g) => g.y === yy); if (run[run.length - 1].W) TITLES.add(yy); }
   // ============================================ A. era leaderboards ==
   const T = { rs: totals("rs", ERA.from, ERA.to), po: totals("po", ERA.from, ERA.to) };
   const STAT = { PTS: "points", FGM: "field goals", FTM: "free throws made", STL: "steals", FGA: "field-goal attempts", FTA: "free-throw attempts", MIN: "minutes", AST: "assists" };
@@ -77,7 +79,13 @@ function main() {
       const list = [...T[type]].sort((a, b) => b[k] - a[k]); const i = list.findIndex((r) => r.id === MJID); if (i < 0) continue;
       const mj = list[i];
       if (i === 0) add("era", `Most ${lab} ${STAT[k]} in the NBA ${SPAN}: Jordan, ${c(mj[k])}. Next: ${list[1].name}, ${c(list[1][k])} — ${c(mj[k] - list[1][k])} behind.`,
-        k === "PTS" ? `Answers "who owned the era" with one number, and the gap to No. 2 is the hook.` : `A less-told leaderboard he topped; the margin over a named rival invites debate.`,
+        ({ PTS: `Answers "who owned the era" with one number, and the gap to No. 2 is the hook.`,
+           FGM: `Made baskets, not just shots: the volume answer to "he just shot a lot".`,
+           FGA: `Leans into the volume critique and owns it; sparks replies either way.`,
+           FTM: `Getting to the line was half his game; this is the number that shows it.`,
+           STL: type === "po" ? `Defense in the biggest games; his running mate is right behind him, which Pippen fans love.` : `The defensive half of the GOAT case.`,
+           MIN: type === "po" ? `Playoff minutes measure how deep his teams went, year after year.` : `Durability angle for load-management debates.`,
+           AST: `Playmaking credit that scoring headlines bury.` })[k] || `A leaderboard he topped; the margin over a named rival invites debate.`,
         list.slice(0, 5), k === "PTS" ? 9 : 7);
       else if (i < 5) add("era", `${lab[0].toUpperCase() + lab.slice(1)} ${STAT[k]} ${SPAN}: Jordan ranked ${ordinal(i + 1)} with ${c(mj[k])}, behind ${andList(list.slice(0, i).map((r) => `${r.name} (${c(r[k])})`))}.`,
         `Surprising that anyone beat him here; fans will want to know why (he played fewer games in two of these seasons).`, list.slice(0, 5), 5);
@@ -125,8 +133,12 @@ function main() {
     const q = rows.filter(qualTitle).sort((a, b) => b.PPG - a.PPG);
     const i = q.findIndex((r) => r.id === MJID);
     if (i === 0 && y !== 1986) {
+      const mg = Number(d1(q[0].PPG)) - Number(d1(q[1].PPG));
+      const titleYr = TITLES.has(y);
+      const why = mg < 1 ? `His closest scoring race; ${q[1].name} fans will say it could have gone the other way.`
+        : `${q[1].name} was the league's second-best scorer and still finished ${mg.toFixed(1)} a game back${titleYr ? " — in a year that ended with a championship" : ""}.`;
       add("season", `${label(y)} scoring title: Jordan ${d1(q[0].PPG)}, runner-up ${q[1].name} ${d1(q[1].PPG)} — a margin of ${(Number(d1(q[0].PPG)) - Number(d1(q[1].PPG))).toFixed(1)} a game.`,
-        `Names the runner-up; that player's fans engage, and the margin shows how far ahead he was that year.`, q.slice(0, 3), 6);
+        why, q.slice(0, 3), 6);
     } else if (i > 0 && y < 2001) {
       add("season", `${label(y)}: Jordan was ${ordinal(i + 1)} in scoring at ${d1(mj.PPG)}${i <= 3 ? `, behind ${andList(q.slice(0, i).map((r) => `${r.name} (${d1(r.PPG)})`))}` : ""}.`,
         y === 1984 ? `Rookie-year context: who was ahead of him before the run of titles began.` : `One of the few seasons he did not win the scoring title, and who did.`, q.slice(0, 5), 6);
@@ -143,7 +155,7 @@ function main() {
     if (mjp && y <= ERA.to) {
       const pl = [...po].sort((a, b) => b.PTS - a.PTS);
       if (pl[0].id === MJID) add("playoffs", `${label(y)} playoffs: most points of anyone, ${c(mjp.PTS)} in ${mjp.GP} games (${d1(mjp.PPG)}); next ${pl[1].name}, ${c(pl[1].PTS)}.`,
-        `Postseason scoring leader lines pair naturally with the title narrative for that year.`, pl.slice(0, 3), 6);
+        TITLES.has(y) ? `He led every scorer in a title run; post it on the anniversary of that championship.` : `He led all playoff scorers even in a year his team fell short, which undercuts "empty stats" claims.`, pl.slice(0, 3), 6);
     }
   }
   const LNAME = { STL: "total steals", FGM: "field goals made", FTM: "free throws made", MIN: "minutes played" };
@@ -182,7 +194,8 @@ function main() {
   let cum = 0; const marks = [10000, 15000, 20000, 25000, 30000, 32000]; let mi = 0;
   RS.forEach((g, idx) => { cum += g.PTS; while (mi < marks.length && cum >= marks[mi]) {
     add("games", `Jordan reached ${c(marks[mi])} regular-season points in his ${c(idx + 1)}${ordinal(idx + 1).replace(/^\d+/, "")} game, ${on(g)}.`,
-      marks[mi] === 30000 ? `Milestone-by-games-played is the fastest way to compare him with later scorers chasing the same mark.` : `Games-to-milestone lines are easy to compare against any player fans bring up.`, gEv(g), marks[mi] >= 25000 ? 7 : 6);
+      ({ 10000: `The first big milestone; compare the game count with today's young stars.`, 15000: `Mid-prime pace check fans can measure anyone against.`, 20000: `The 20K club by game count is a classic "who got there fastest" argument.`,
+         25000: `Reached in his second Bulls stint, after the baseball break; a comeback-chapter milestone.`, 30000: `Reached against the Bulls in a Wizards uniform; the irony makes it a story.`, 32000: `His final milestone, at 40; longevity content.` })[marks[mi]], gEv(g), marks[mi] >= 25000 ? 7 : 6);
     mi += 1; } });
   // Firsts.
   for (const bar of [30, 40, 50]) {
@@ -234,18 +247,25 @@ function main() {
     const s = series.filter((x) => x.opp === opp); if (!s.length) continue;
     const gs = s.flatMap((x) => x.g); const won = s.filter((x) => x.g[x.g.length - 1].W).length;
     add("opponents", `Playoffs vs. ${city(opp)}: ${s.length} series (${won}-${s.length - won}), ${gs.length} games, ${rec(gs)}, ${d1(avg(gs))} points a game.`,
-      opp === "DET" ? `The Bad Boys rivalry in numbers; Pistons and Bulls fans both engage.` : `Rivalry-specific numbers get shared by that fan base.`, gs.map(gEv).slice(0, 12), opp === "DET" ? 8 : 6);
+      opp === "DET" ? `The Bad Boys rivalry in numbers; Pistons and Bulls fans both engage.`
+        : won === s.length ? `${city(opp)} never beat him in a playoff series (${won}-0); that fan base's sore spot is guaranteed replies.`
+        : won === 0 ? `One of the few teams he never beat in a series, and he still averaged ${d1(avg(gs))}; the "stats vs. wins" debate in one line.`
+        : `A split rivalry (${won}-${s.length - won}) gives both fan bases something to claim.`, gs.map(gEv).slice(0, 12), opp === "DET" ? 8 : 6);
   }
   const clinch = series.filter((x) => x.g[x.g.length - 1].W).map((x) => x.g[x.g.length - 1]);
   add("playoffs", `In the ${clinch.length} games that clinched a playoff series he averaged ${d1(avg(clinch))} points.`, `Closer framing across every round, not just the Finals.`, clinch.map(gEv).slice(0, 12), 7);
   const g1 = series.map((x) => x.g[0]); add("playoffs", `In Game 1s he averaged ${d1(avg(g1))} points (${rec(g1)} in ${g1.length} series openers).`, `Set-the-tone angle for the first night of any playoff series.`, [], 5);
   const po40L = PO.filter((g) => g.PTS >= 40 && !g.W); add("playoffs", `Playoff games in which he scored 40+ and still lost: ${po40L.length}.`, `Even the losses were monster games; humanizes the legend.`, po40L.map(gEv), 5);
-  const po3 = [...PO].sort((a, b) => b.FG3M - a.FG3M)[0]; add("playoffs", `Most threes in a playoff game: ${po3.FG3M}, ${on(po3)} (${po3.PTS} points).`, `A three-point outlier from a player known for the mid-range; fans love the contrast.`, gEv(po3), 5);
+  const po3 = [...PO].sort((a, b) => b.FG3M - a.FG3M)[0];
+  const s3 = series.find((x) => x.g.includes(po3)); const runS = series.filter((x) => x.season === s3.season);
+  const finals = TITLES.has(po3.y) && runS[runS.length - 1] === s3;
+  const where3 = finals ? `Game ${s3.g.indexOf(po3) + 1} of the ${po3.y + 1} Finals` : `a ${po3.y + 1} playoff game`;
+  add("playoffs", `Most threes in a playoff game: ${po3.FG3M}, ${on(po3)} (${po3.PTS} points) — ${where3}.`, `A three-point outburst from a player known for the mid-range, on the biggest stage; fans love the contrast.`, gEv(po3), 6);
   for (const opp of ["DET", "BOS", "LAL", "CLE", "UTA", "PHX"]) {
     const gs = RS.filter((g) => g.opp === opp); if (gs.length < 15) continue;
     const hi = [...gs].sort((a, b) => b.PTS - a.PTS)[0];
     add("opponents", `Regular season vs. ${city(opp)}: ${gs.length} games, ${d1(avg(gs))} points a game, ${rec(gs)}; high ${hi.PTS} (${fmtDate(hi.date)}).`,
-      `Opponent-specific lines get shared by that fan base, whichever side of the rivalry they were on.`, [gEv(hi)], opp === "DET" || opp === "BOS" || opp === "LAL" ? 6 : 5);
+      gs.filter((g) => g.W).length < gs.length / 2 ? `A rare losing regular-season record against one team; surprises people and invites that fan base to gloat.` : `${city(opp)} fans remember the ${hi.PTS}-point night; the full head-to-head gives them the rest.`, [gEv(hi)], opp === "DET" || opp === "BOS" || opp === "LAL" ? 6 : 5);
   }
   const fgm20 = RS.filter((g) => g.FGM >= 20); add("games", `Games with 20+ made field goals: ${fgm20.length} in the regular season, ${PO.filter((g) => g.FGM >= 20).length} in the playoffs.`, `Twenty makes in a game is rare today; shows his shot-making volume.`, fgm20.slice(0, 12).map(gEv), 6);
   const ftm15 = RS.filter((g) => g.FTM >= 15); add("games", `Games with 15+ made free throws: ${ftm15.length} in the regular season.`, `Pressure on defenses in one number.`, ftm15.slice(0, 12).map(gEv), 5);

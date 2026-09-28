@@ -24,24 +24,32 @@ const RED = new Set(["only", "pair", "league", "finals"]);
 function fmt(text) { const t = esc(text); const i = t.indexOf(": "); return i > 0 && i < t.length - 2 ? `${t.slice(0, i + 2)}<b>${t.slice(i + 2)}</b>` : t; }
 const rel = (f) => path.relative(path.join(__dirname, ".."), path.resolve(f)).replace(/\\/g, "/");
 
+// With "why" notes a set takes two pages of 50 so every line stays legible.
 function page(d) {
-  const facts = (d.facts || []).slice(0, 100);
-  const kinds = {}; for (const f of facts) kinds[f.kind] = (kinds[f.kind] || 0) + 1;
+  const all = (d.facts || []).slice(0, 100);
+  if (all.some((f) => f.why)) {
+    const halves = [all.slice(0, 50), all.slice(50)].filter((h) => h.length);
+    return halves.map((h, i) => onePage(d, h, all, i, halves.length)).join("\n");
+  }
+  return onePage(d, all, all, 0, 1);
+}
+function onePage(d, facts, all, part, parts) {
+  const kinds = {}; for (const f of all) kinds[f.kind] = (kinds[f.kind] || 0) + 1;
   const mix = Object.entries(kinds).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${v} ${KIND[k] || k}`).join(" · ");
-  const title = d.subject ? `${esc(d.subject)}: ${facts.length} Things You Can Post` : `The ${esc(d.decade)}${sport ? ` ${esc(sport)}` : ""}: ${facts.length} Things You Can Post`;
+  const title = (d.subject ? `${esc(d.subject)}: ${all.length} Things You Can Post` : `The ${esc(d.decade)}${sport ? ` ${esc(sport)}` : ""}: ${all.length} Things You Can Post`) + (parts > 1 ? ` <span class="part">(${part + 1}/${parts})</span>` : "");
   const c = d.counts || {};
   const volume = d.subject
     ? `${(c.regularSeasonGames || 0).toLocaleString()} regular-season + ${(c.playoffGames || 0).toLocaleString()} playoff games`
     : Object.entries(c).map(([k, v]) => `${Number(v).toLocaleString()} ${k.replace(/([A-Z])/g, " $1").toLowerCase()}`).join(", ");
-  const short = facts.length < 100 ? `<div class="short"><b>${facts.length} lines, not 100.</b> ${esc(d.shortNote || "That is everything the record supports for these seasons: the categories that would produce more lines were not yet being kept. Nothing was padded.")}</div>` : "";
+  const short = part === 0 && all.length < 100 ? `<div class="short"><b>${all.length} lines, not 100.</b> ${esc(d.shortNote || "That is everything the record supports for these seasons: the categories that would produce more lines were not yet being kept. Nothing was padded.")}</div>` : "";
   return `
 <section class="page">
   <div class="mast">
     <div><div class="brand">Nosebleed Sports &nbsp;·&nbsp; Stat Desk</div><h1>${title}</h1></div>
-    <div class="meta"><div><b>${facts.length} verified</b> · ${esc(volume)}</div><div>${esc(mix)}</div></div>
+    <div class="meta"><div><b>${all.length} verified</b> · ${esc(volume)}</div><div>${esc(mix)}</div></div>
   </div>
   ${short}
-  <ol class="cols">${facts.map((f) => `<li class="${RED.has(f.kind) ? "red" : ""}"><span class="tag">${KIND[f.kind] || f.kind}</span>${fmt(f.text)}</li>`).join("")}</ol>
+  <ol class="cols${facts.some((f) => f.why) ? " whys" : ""}" start="${part * 50 + 1}">${facts.map((f) => `<li class="${RED.has(f.kind) ? "red" : ""}"><span class="tag">${KIND[f.kind] || f.kind}</span>${fmt(f.text)}${f.why ? `<span class="why"><b>Why post:</b> ${esc(f.why)}</span>` : ""}</li>`).join("")}</ol>
   <div class="foot"><b>Verified</b> — every line computed from complete official pulls; the rows behind each line are stored in <span class="mono">${esc(rel(d.file))}</span>. Full method on the last page.</div>
 </section>`;
 }
@@ -52,6 +60,7 @@ const methodPage = `
   <div class="mast"><div><div class="brand">Nosebleed Sports &nbsp;·&nbsp; Stat Desk</div><h1>How Every Line Was Verified</h1></div></div>
   <div class="mtext">
     ${method.map((m) => `<p>${esc(m)}</p>`).join("")}
+    <p>"Why post" notes are editorial: the reason a line should work as a post — the rivalry, the debate or the surprise it sets up. They add no numbers; every figure is in the line itself.</p>
     <p>"Only", "two" and "few" are exact counts of players across the complete pull — a player who did it twice is still the only player who did it, and is described that way. "Most" lines are the extreme among every season clearing the stated base. Where a line states a floor ("60% of games", "400+ FTA"), the floor is part of the claim.</p>
     <p>Pages with fewer than 100 lines are short because the record is: early seasons did not track the categories that produce more lines. Nothing was padded to reach a round number, and nothing was recalled from memory.</p>
   </div>
@@ -73,6 +82,10 @@ const css = `
   .short{ font-size:7pt; color:var(--muted); margin:0 0 5px; padding:3px 6px; border-left:3px solid var(--red); }
   .short b{ color:var(--ink); }
   ol.cols{ column-count:4; column-gap:10px; column-fill:balance; flex:1 1 auto; min-height:0; margin:0; padding:0 0 0 12px; font-size:5.8pt; line-height:1.18; }
+  ol.cols.whys{ column-count:3; font-size:6.2pt; line-height:1.17; }
+  .why{ display:block; font-style:italic; color:var(--muted); font-size:5.6pt; margin-top:0; }
+  .why b{ font-style:normal; font-family:Oswald,sans-serif; font-weight:600; letter-spacing:.06em; text-transform:uppercase; font-size:5.2pt; color:var(--red); }
+  .part{ font-size:11pt; color:var(--muted); }
   li{ margin:0 0 2px; padding-right:2px; break-inside:avoid; }
   li::marker{ font-family:Oswald,sans-serif; font-weight:600; color:var(--red); font-size:6pt; }
   li b{ font-weight:600; }
