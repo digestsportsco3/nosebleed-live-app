@@ -20,6 +20,7 @@
 const fs = require("fs");
 const path = require("path");
 const core = require("./lib/factcore");
+const { annotate } = require("./lib/why");
 const { StatheadBrowser } = require("./lib/stathead-browser");
 
 const SH = "https://www.sports-reference.com/stathead";
@@ -638,6 +639,7 @@ async function runSport(key, decades) {
         }
       }
       const facts = core.select(cands, 100);
+      const out0 = { facts, decade: decadeLabel }; annotate(out0);
       const out = { sport: S.name, decade: decadeLabel, source: "Stathead", queries, candidates: cands.length, facts,
         counts: { stathead_queries: queries }, shortNote: S.shortNote ? S.shortNote(d) : null, method: S.method, generatedAt: new Date().toISOString() };
       fs.writeFileSync(path.join(outDir, `${d}s-facts.json`), JSON.stringify(out, null, 1));
