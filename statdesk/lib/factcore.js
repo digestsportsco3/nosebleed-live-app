@@ -15,9 +15,9 @@ const PAST = { hit: "hit", bat: "batted", steal: "stole", drive: "drove", collec
   average: "averaged", shoot: "shot", make: "made", grab: "grabbed", block: "blocked", record: "recorded", commit: "committed",
   rush: "rushed", catch: "caught", pass: "passed", run: "ran", lead: "led", attempt: "attempted", take: "took", start: "started",
   appear: "appeared", dish: "dished", turn: "turned", foul: "fouled", pull: "pulled",
-  gain: "gained", force: "forced", defend: "defended", intercept: "intercepted", carry: "carried", return: "returned", fumble: "fumbled", kick: "kicked" };
+  gain: "gained", force: "forced", defend: "defended", intercept: "intercepted", carry: "carried", return: "returned", fumble: "fumbled", kick: "kicked", tie: "tied", recover: "recovered", hold: "held", give: "gave" };
 const VERB_RE = new RegExp(`\\b(${Object.keys(PAST).join("|")})\\b(?! (?:homers|runs|hits|games|bases|walks|innings|batters|saves|doubles|triples|pitches|steals|times|by|yards|passes|points|rebounds|assists|blocks|shots|attempts|threes|free))`, "g");
-function verb(head) { return head.replace(VERB_RE, (v, _w, off, str) => (/(playoff|postseason|scoring|home|a) $/.test(str.slice(Math.max(0, off - 11), off)) ? v : PAST[v] || v)); }
+function verb(head) { return head.replace(VERB_RE, (v, _w, off, str) => (/(playoff|postseason|scoring|home|a|pass) $/.test(str.slice(Math.max(0, off - 11), off)) ? v : PAST[v] || v)); }
 
 const yr = (r) => r.season;
 const pid = (r) => ({ id: r.id, name: r.name });
@@ -26,7 +26,7 @@ function bonus(mag, r) { const m = mag(r); return Number.isFinite(m) ? Math.min(
 // label(season) turns a start year into how the sport names a season
 // ("1986-87" for the NBA, "1986" for the NFL).
 function ruleFacts(rows, rules, ctx) {
-  const { decadeLabel, label = (s) => String(s), ev = (r) => r, who: defaultWho = "player" } = ctx;
+  const { decadeLabel, label = (s) => String(s), ev = (r) => r, who: defaultWho = "player", pron = "he" } = ctx;
   const out = [];
   for (const rule of rules) {
     const m = rows.filter((r) => { try { return rule.f(r); } catch (e) { return false; } });
@@ -45,7 +45,7 @@ function ruleFacts(rows, rules, ctx) {
       out.push({ ...base, kind: "only", score: 10 + bonus(rule.mag, r), players: [pid(r)], seasons: rs.map(yr),
         text: rs.length === 1
           ? `The only ${who} of the ${decadeLabel} to ${rule.head}${floor}: ${r.name}, ${label(yr(r))} — ${rule.say(r)}.`
-          : `The only ${who} of the ${decadeLabel} to ${rule.head}${floor} was ${r.name} — and he did it ${rs.length === 2 ? "twice" : `${rs.length} times`} (${rs.slice(0, 3).map((x) => `${label(yr(x))}: ${rule.say(x)}`).join("; ")}${rs.length > 3 ? "; …" : ""}).` });
+          : `The only ${who} of the ${decadeLabel} to ${rule.head}${floor} was ${r.name} — and ${pron} did it ${rs.length === 2 ? "twice" : `${rs.length} times`} (${rs.slice(0, 3).map((x) => `${label(yr(x))}: ${rule.say(x)}`).join("; ")}${rs.length > 3 ? "; …" : ""}).` });
     } else if (players.length === 2) {
       out.push({ ...base, kind: "pair", score: 8 + bonus(rule.mag, sorted[0]), players: players.map((rs) => pid(rs[0])), seasons: sorted.map(yr),
         text: `Only two ${who}s of the ${decadeLabel} ${verb(rule.head)}${floor}: ${players.map(line).join("; ")}.` });
