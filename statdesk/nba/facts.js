@@ -36,6 +36,10 @@ function loadSeason(y, type) {
 }
 
 // Derived per-game and rate fields; null whenever an input was not recorded.
+// Schedule length: the most games by a player who stayed with one team. A
+// traded player's combined row can exceed the schedule (games for two teams),
+// so it must not set the bar for "played every game".
+function scheduleGP(rows) { const one = rows.filter((r) => r.team !== "TOT"); return Math.max(0, ...(one.length ? one : rows).map((r) => r.GP || 0)); }
 function enrich(r, season, maxGP) {
   const g = r.GP || 0; const pg = (v) => (has(v) && g ? v / g : null);
   const pct = (m, a) => (has(m) && has(a) && a > 0 ? m / a : null);
@@ -118,7 +122,7 @@ function rules(e, b) {
   add({ key: "min_3300", head: "log 3,300 minutes in a season", floor: null,
     f: (r) => has(r.MIN) && r.MIN >= 3300, mag: (r) => r.MIN / 100, say: (r) => `${r.MIN.toLocaleString()} min` });
   add({ key: "iron", head: "play every game while averaging 38+ minutes", floor: null,
-    f: (r) => r.GP >= r.maxGP && has(r.MPG) && r.MPG >= 38, mag: (r) => r.MPG, say: (r) => `${r.GP} GP, ${d1(r.MPG)} mpg` });
+    f: () => false /* every-game: unprovable without team schedules */, mag: (r) => r.MPG, say: (r) => `${r.GP} GP, ${d1(r.MPG)} mpg` });
   add({ key: "pf_300", head: "commit 300 personal fouls in a season", floor: null,
     f: (r) => has(r.PF) && r.PF >= 300, mag: (r) => r.PF / 10, say: (r) => `${r.PF} PF` });
   add({ key: "tov_300", head: "commit 300 turnovers in a season", floor: null,
@@ -126,7 +130,7 @@ function rules(e, b) {
   add({ key: "score_tiny_min", head: "average 20 points in under 30 minutes a game", floor: "60% of games",
     f: (r) => r.q && r.PPG >= 20 && has(r.MPG) && r.MPG < 30, mag: (r) => r.PPG - r.MPG / 2, say: (r) => `${d1(r.PPG)} ppg in ${d1(r.MPG)} mpg` });
   add({ key: "play_all", head: "play every game of the season", floor: null,
-    f: (r) => r.GP >= r.maxGP && r.maxGP >= 60, mag: (r) => (r.MIN || r.PTS / 20) / 100, say: (r) => `${r.GP} games${has(r.MPG) ? `, ${d1(r.MPG)} mpg` : ""}` });
+    f: () => false /* every-game: unprovable without team schedules */, mag: (r) => (r.MIN || r.PTS / 20) / 100, say: (r) => `${r.GP} games${has(r.MPG) ? `, ${d1(r.MPG)} mpg` : ""}` });
   add({ key: "foul_trouble", head: "average 4.5+ personal fouls a game", floor: "60% of games",
     f: (r) => r.q && has(r.FPG) && r.FPG >= 4.5, mag: (r) => r.FPG * 5, say: (r) => `${d1(r.FPG)} PF a game` });
   add({ key: "volume_misses", head: `shoot under ${p3(b.fgLow + 0.02)} on 1,200+ attempts`, floor: null,
@@ -256,7 +260,7 @@ function streaks(e) {
     { key: "s_8apg", f: (r) => r.q && r.APG >= 8, what: "averaged 8+ assists" },
     { key: "s_2000", f: (r) => r.PTS >= 2000, what: "scored 2,000 points" },
     { key: "s_ft900", f: (r) => r.FTA >= 200 && r.FT >= 0.9, what: "shot .900 from the line (200+ FTA)" },
-    { key: "s_gp", f: (r) => r.GP >= r.maxGP, what: "played every game" },
+    { key: "s_gp", f: () => false /* every-game: unprovable */, what: "played every game" },
     { key: "s_20ppg", f: (r) => r.q && r.PPG >= 20, what: "averaged 20+ points" },
     { key: "s_fg500", f: (r) => r.FGA >= 800 && r.FG >= 0.5, what: "shot .500 from the field (800+ FGA)" },
   ];
@@ -284,17 +288,17 @@ function totals(e) {
 
 function seasonCounts(e, b) {
   const C = [
-    { key: "c_25", f: (r) => r.q && r.PPG >= 25, what: "25-point scorers" },
-    { key: "c_20_10", f: (r) => r.q && r.PPG >= 20 && r.RPG >= 10, what: "20-and-10 players" },
+    { key: "c_25", f: (r) => r.q && r.PPG >= 25, what: "players averaging 25 points (60% of games)" },
+    { key: "c_20_10", f: (r) => r.q && r.PPG >= 20 && r.RPG >= 10, what: "players averaging 20 points and 10 rebounds (60% of games)" },
     { key: "c_ft900", f: (r) => r.FTA >= 200 && r.FT >= 0.9, what: ".900 free-throw shooters (200+ FTA)" },
     { key: "c_10apg", f: (r) => r.q && r.APG >= 8, what: "8-assist players" },
-    { key: "c_20", f: (r) => r.q && r.PPG >= 20, what: "20-point scorers" },
-    { key: "c_all", f: (r) => r.GP >= r.maxGP, what: "players who appeared in every game" },
-    { key: "c_10rpg", f: (r) => r.q && has(r.RPG) && r.RPG >= 10, what: "double-digit rebounders" },
+    { key: "c_20", f: (r) => r.q && r.PPG >= 20, what: "players averaging 20 points (60% of games)" },
+    { key: "c_all", f: () => false /* every-game: unprovable */, what: "players who appeared in every game" },
+    { key: "c_10rpg", f: (r) => r.q && has(r.RPG) && r.RPG >= 10, what: "players averaging 10 rebounds (60% of games)" },
     { key: "c_30", f: (r) => r.q && r.PPG >= 30, what: "30-point scorers" },
   ];
   if (e <= 2) C.push({ key: "c_20rpg", f: (r) => r.q && has(r.RPG) && r.RPG >= 20, what: "20-rebound players" });
-  if (e >= 3) C.push({ key: "c_2spg", f: (r) => r.q && r.SPG >= 2, what: "2-steal players" }, { key: "c_2bpg", f: (r) => r.q && r.BPG >= 2, what: "2-block players" });
+  if (e >= 3) C.push({ key: "c_2spg", f: (r) => r.q && r.SPG >= 2, what: "players averaging 2 steals (60% of games)" }, { key: "c_2bpg", f: (r) => r.q && r.BPG >= 2, what: "players averaging 2 blocks (60% of games)" });
   if (e >= 4) C.push({ key: "c_150_3s", f: (r) => r.FG3M >= 150, what: "players with 150+ threes" });
   return C;
 }
@@ -304,9 +308,12 @@ function build(decade) {
   const current = new Date().getUTCMonth() >= 9 ? new Date().getUTCFullYear() : new Date().getUTCFullYear() - 1;
   for (let y = Math.max(decade, 1946); y < decade + 10 && y <= current; y += 1) {
     const s = loadSeason(y, "rs"); if (!s || !s.rows.length) continue;
-    const maxGP = Math.max(...s.rows.map((r) => r.GP || 0));
+    const maxGP = scheduleGP(s.rows);
     seasons.push(y);
-    for (const r of s.rows) rows.push(enrich(r, y, maxGP));
+    // Each team's schedule = the most games by one of its one-team players
+    // (early seasons had uneven schedules, so the league maximum is wrong).
+    const teamGP = {}; for (const r of s.rows) if (r.team !== "TOT") teamGP[r.team] = Math.max(teamGP[r.team] || 0, r.GP || 0);
+    for (const r of s.rows) rows.push({ ...enrich(r, y, maxGP), teamGP: r.team !== "TOT" ? teamGP[r.team] : null });
     const p = loadSeason(y, "po"); if (p) for (const r of p.rows) po.push(enrich(r, y, Math.max(...p.rows.map((x) => x.GP || 0))));
   }
   if (!seasons.length) return null;
@@ -371,4 +378,4 @@ function main() {
   }
 }
 if (require.main === module) main();
-module.exports = { build, label, enrich, era };
+module.exports = { build, label, enrich, era, scheduleGP };

@@ -23,7 +23,7 @@
   "2008-09",
   "2009-10"
  ],
- "candidates": 130,
+ "candidates": 125,
  "facts": [
   {
    "n": 1,
@@ -67,7 +67,8 @@
    "seasons": [
     2000
    ],
-   "text": "The only player of the 2000s to shoot .950 from the line in a single postseason (60+ FTA): Peja Stojakovic, 2000-01 — .968 on 62 FTA."
+   "text": "The only player of the 2000s to shoot .950 from the line in a single postseason (60+ FTA): Peja Stojakovic, 2000-01 — .968 on 62 FTA.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 2,
@@ -111,7 +112,8 @@
    "seasons": [
     2005
    ],
-   "text": "The only player of the 2000s to average 2 steals and 2 blocks (60% of games): Gerald Wallace, 2005-06 — 2.5 spg, 2.1 bpg."
+   "text": "The only player of the 2000s to average 2 steals and 2 blocks (60% of games): Gerald Wallace, 2005-06 — 2.5 spg, 2.1 bpg.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Steals are the defensive highlight stat."
   },
   {
    "n": 3,
@@ -251,7 +253,8 @@
     2009,
     2006
    ],
-   "text": "Only two players of the 2000s shot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Steve Nash (4×, best 2007-08: .504/.470/.906); Dirk Nowitzki (2006-07: .502/.416/.904)."
+   "text": "Only two players of the 2000s shot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Steve Nash (4×, best 2007-08: .504/.470/.906); Dirk Nowitzki (2006-07: .502/.416/.904).",
+   "why": "Two names invite the \"whose season was better?\" argument. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 4,
@@ -295,7 +298,8 @@
    "seasons": [
     2006
    ],
-   "text": "The only player of the 2000s to average a triple-double in a single postseason (8+ playoff games): Jason Kidd, 2006-07 — 14.6/10.9/10.9."
+   "text": "The only player of the 2000s to average a triple-double in a single postseason (8+ playoff games): Jason Kidd, 2006-07 — 14.6/10.9/10.9.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Do-everything stat lines get shared across fan bases."
   },
   {
    "n": 5,
@@ -339,7 +343,8 @@
    "seasons": [
     2005
    ],
-   "text": "The only player of the 2000s to attempt 2,000 field goals in a season: Kobe Bryant, 2005-06 — 2,173 FGA."
+   "text": "The only player of the 2000s to attempt 2,000 field goals in a season: Kobe Bryant, 2005-06 — 2,173 FGA.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 6,
@@ -406,7 +411,8 @@
     2008,
     2007
    ],
-   "text": "The only player of the 2000s to average 20 points and 10 assists (60% of games) was Chris Paul — and he did it twice (2008-09: 22.8 ppg, 11.0 apg; 2007-08: 21.1 ppg, 11.6 apg)."
+   "text": "The only player of the 2000s to average 20 points and 10 assists (60% of games) was Chris Paul — and he did it twice (2008-09: 22.8 ppg, 11.0 apg; 2007-08: 21.1 ppg, 11.6 apg).",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Assist averages crown the true point guards."
   },
   {
    "n": 7,
@@ -450,7 +456,8 @@
    "seasons": [
     2009
    ],
-   "text": "The only player of the 2000s to make 700 free throws in a season: Kevin Durant, 2009-10 — 756 FTM."
+   "text": "The only player of the 2000s to make 700 free throws in a season: Kevin Durant, 2009-10 — 756 FTM.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 8,
@@ -494,7 +501,8 @@
    "seasons": [
     2004
    ],
-   "text": "The only player of the 2000s to average 10 rebounds and 2 steals (60% of games): Shawn Marion, 2004-05 — 11.3 rpg, 2.0 spg."
+   "text": "The only player of the 2000s to average 10 rebounds and 2 steals (60% of games): Shawn Marion, 2004-05 — 11.3 rpg, 2.0 spg.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 9,
@@ -607,7 +615,8 @@
     2000,
     2004
    ],
-   "text": "The only player of the 2000s to average 30 points on under .450 shooting (60% of games) was Allen Iverson — and he did it 4 times (2001-02: 31.4 ppg, .398 FG; 2005-06: 33.0 ppg, .447 FG; 2000-01: 31.1 ppg, .420 FG; …)."
+   "text": "The only player of the 2000s to average 30 points on under .450 shooting (60% of games) was Allen Iverson — and he did it 4 times (2001-02: 31.4 ppg, .398 FG; 2005-06: 33.0 ppg, .447 FG; 2000-01: 31.1 ppg, .420 FG; …).",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 10,
@@ -651,7 +660,8 @@
    "seasons": [
     2008
    ],
-   "text": "The only player of the 2000s to grab more offensive rebounds than defensive (300+ reb): Jason Maxiell, 2008-09 — 169 off, 155 def."
+   "text": "The only player of the 2000s to grab more offensive rebounds than defensive (300+ reb): Jason Maxiell, 2008-09 — 169 off, 155 def.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 11,
@@ -791,7 +801,8 @@
     2004,
     2005
    ],
-   "text": "Only two players of the 2000s shot .600 from the field on 800+ attempts: Dwight Howard (2×, best 2009-10: .612 on 834 FGA); Shaquille O'Neal (3×, best 2008-09: .609 on 841 FGA)."
+   "text": "Only two players of the 2000s shot .600 from the field on 800+ attempts: Dwight Howard (2×, best 2009-10: .612 on 834 FGA); Shaquille O'Neal (3×, best 2008-09: .609 on 841 FGA).",
+   "why": "Two names invite the \"whose season was better?\" argument. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 12,
@@ -908,7 +919,8 @@
     2002,
     2001
    ],
-   "text": "Only two players of the 2000s averaged 20 points, 10 rebounds and 5 assists (60% of games): Kevin Garnett (3×, best 2002-03: 23.0/13.4/6.0); Chris Webber (2002-03: 23.0/10.5/5.4)."
+   "text": "Only two players of the 2000s averaged 20 points, 10 rebounds and 5 assists (60% of games): Kevin Garnett (3×, best 2002-03: 23.0/13.4/6.0); Chris Webber (2002-03: 23.0/10.5/5.4).",
+   "why": "A two-player club is a ready-made debate. Do-everything stat lines get shared across fan bases."
   },
   {
    "n": 13,
@@ -1158,7 +1170,8 @@
      "TOV": 140
     }
    ],
-   "text": "Tim Duncan averaged a double-digit rebounding figure in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s."
+   "text": "Tim Duncan averaged a double-digit rebounding figure in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 14,
@@ -1408,7 +1421,8 @@
      "TOV": 195
     }
    ],
-   "text": "Jason Kidd averaged 8+ assists in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s."
+   "text": "Jason Kidd averaged 8+ assists in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
    "n": 15,
@@ -1658,7 +1672,8 @@
      "TOV": 233
     }
    ],
-   "text": "Kobe Bryant averaged 20+ points in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s."
+   "text": "Kobe Bryant averaged 20+ points in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 16,
@@ -1752,7 +1767,8 @@
     2007,
     2008
    ],
-   "text": "Only two players of the 2000s recorded 200 steals in a season: Allen Iverson (2002-03: 225 stl); Chris Paul (2×, best 2007-08: 217 stl)."
+   "text": "Only two players of the 2000s recorded 200 steals in a season: Allen Iverson (2002-03: 225 stl); Chris Paul (2×, best 2007-08: 217 stl).",
+   "why": "A two-player club is a ready-made debate. Steals are the defensive highlight stat."
   },
   {
    "n": 17,
@@ -1969,7 +1985,8 @@
     2007,
     2008
    ],
-   "text": "Just four players of the 2000s shot .900 from the line on 400+ attempts: Kevin Durant (2009-10: .900 on 840 FTA); Dirk Nowitzki (3×, best 2009-10: .915 on 586 FTA); Chauncey Billups (3×, best 2009-10: .910 on 512 FTA); Peja Stojakovic (2003-04: .927 on 425 FTA)."
+   "text": "Just four players of the 2000s shot .900 from the line on 400+ attempts: Kevin Durant (2009-10: .900 on 840 FTA); Dirk Nowitzki (3×, best 2009-10: .915 on 586 FTA); Chauncey Billups (3×, best 2009-10: .910 on 512 FTA); Peja Stojakovic (2003-04: .927 on 425 FTA).",
+   "why": "A short list fans can recite; each name brings its own fan base. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 18,
@@ -2040,7 +2057,8 @@
     2003,
     2006
    ],
-   "text": "Only two players of the 2000s averaged 25 points while missing 40% of the season (20+ games): Allen Iverson (2003-04: 26.4 ppg in 48 games); Yao Ming (2006-07: 25.0 ppg in 48 games)."
+   "text": "Only two players of the 2000s averaged 25 points while missing 40% of the season (20+ games): Allen Iverson (2003-04: 26.4 ppg in 48 games); Yao Ming (2006-07: 25.0 ppg in 48 games).",
+   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 19,
@@ -2111,7 +2129,8 @@
     2001,
     2000
    ],
-   "text": "Only two players of the 2000s recorded more assists than points (60% of games, 300+ ast): Chris Childs (2001-02: 351 ast, 285 pts); Mark Jackson (2000-01: 661 ast, 631 pts)."
+   "text": "Only two players of the 2000s recorded more assists than points (60% of games, 300+ ast): Chris Childs (2001-02: 351 ast, 285 pts); Mark Jackson (2000-01: 661 ast, 631 pts).",
+   "why": "Two names invite the \"whose season was better?\" argument. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 20,
@@ -2397,7 +2416,8 @@
     2008,
     2006
    ],
-   "text": "Just four players of the 2000s shot .560 or better while averaging 20 points (60% of games): Shaquille O'Neal (6×, best 2000-01: .572 FG, 28.7 ppg); Amar'e Stoudemire (2×, best 2007-08: .590 FG, 25.2 ppg); Dwight Howard (2×, best 2007-08: .599 FG, 20.7 ppg); Carlos Boozer (2006-07: .561 FG, 20.9 ppg)."
+   "text": "Just four players of the 2000s shot .560 or better while averaging 20 points (60% of games): Shaquille O'Neal (6×, best 2000-01: .572 FG, 28.7 ppg); Amar'e Stoudemire (2×, best 2007-08: .590 FG, 25.2 ppg); Dwight Howard (2×, best 2007-08: .599 FG, 20.7 ppg); Carlos Boozer (2006-07: .561 FG, 20.9 ppg).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 21,
@@ -2555,7 +2575,8 @@
      "TOV": 233
     }
    ],
-   "text": "Kobe Bryant averaged 25+ points in 6 straight seasons (2004-05 to 2009-10), the longest run of the 2000s."
+   "text": "Kobe Bryant averaged 25+ points in 6 straight seasons (2004-05 to 2009-10), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 22,
@@ -2713,7 +2734,8 @@
      "TOV": 261
     }
    ],
-   "text": "LeBron James scored 2,000 points in 6 straight seasons (2004-05 to 2009-10), the longest run of the 2000s."
+   "text": "LeBron James scored 2,000 points in 6 straight seasons (2004-05 to 2009-10), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 23,
@@ -2871,7 +2893,8 @@
      "TOV": 168
     }
    ],
-   "text": "Shaquille O'Neal shot .500 from the field (800+ FGA) in 6 straight seasons (2000-01 to 2005-06), the longest run of the 2000s."
+   "text": "Shaquille O'Neal shot .500 from the field (800+ FGA) in 6 straight seasons (2000-01 to 2005-06), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 24,
@@ -3088,7 +3111,8 @@
     2004,
     2005
    ],
-   "text": "Just four players of the 2000s shot under .550 from the line on 300+ attempts: Shaquille O'Neal (5×, best 2000-01: .513 on 972 FTA); Ben Wallace (2004-05: .428 on 304 FTA); Antoine Walker (2004-05: .539 on 373 FTA); Jamaal Magloire (2005-06: .535 on 333 FTA)."
+   "text": "Just four players of the 2000s shot under .550 from the line on 300+ attempts: Shaquille O'Neal (5×, best 2000-01: .513 on 972 FTA); Ben Wallace (2004-05: .428 on 304 FTA); Antoine Walker (2004-05: .539 on 373 FTA); Jamaal Magloire (2005-06: .535 on 333 FTA).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shot volume invites the gunner debate."
   },
   {
    "n": 25,
@@ -3403,7 +3427,8 @@
     2009,
     2001
    ],
-   "text": "Just four players of the 2000s averaged 25 points, 5 rebounds and 5 assists (60% of games): LeBron James (6×, best 2009-10: 29.7/7.3/8.6); Tracy McGrady (4×, best 2002-03: 32.1/6.5/5.5); Kobe Bryant (6×, best 2002-03: 30.0/6.9/5.9); Dwyane Wade (2×, best 2008-09: 30.2/5.0/7.5)."
+   "text": "Just four players of the 2000s averaged 25 points, 5 rebounds and 5 assists (60% of games): LeBron James (6×, best 2009-10: 29.7/7.3/8.6); Tracy McGrady (4×, best 2002-03: 32.1/6.5/5.5); Kobe Bryant (6×, best 2002-03: 30.0/6.9/5.9); Dwyane Wade (2×, best 2008-09: 30.2/5.0/7.5).",
+   "why": "A short list fans can recite; each name brings its own fan base. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 26,
@@ -3538,145 +3563,11 @@
      "TOV": 129
     }
    ],
-   "text": "Ray Allen shot .900 from the line (200+ FTA) in 5 straight seasons (2005-06 to 2009-10), the longest run of the 2000s."
+   "text": "Ray Allen shot .900 from the line (200+ FTA) in 5 straight seasons (2005-06 to 2009-10), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 27,
-   "kind": "streak",
-   "rule": "s_gp",
-   "group": "P",
-   "decade": "2000s",
-   "score": 7,
-   "players": [
-    {
-     "id": 965,
-     "name": "Derek Fisher"
-    }
-   ],
-   "seasons": [
-    2005,
-    2006,
-    2007,
-    2008,
-    2009
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 965,
-     "name": "Derek Fisher",
-     "season": 2005,
-     "team": "GSW",
-     "GP": 82,
-     "PTS": 1089,
-     "PPG": 13.3,
-     "REB": 211,
-     "AST": 352,
-     "STL": 125,
-     "BLK": 8,
-     "FGM": 364,
-     "FGA": 887,
-     "FG3M": 117,
-     "FG3A": 295,
-     "FTM": 244,
-     "FTA": 293,
-     "MIN": 2589,
-     "PF": 237,
-     "TOV": 156
-    },
-    {
-     "id": 965,
-     "name": "Derek Fisher",
-     "season": 2006,
-     "team": "UTA",
-     "GP": 82,
-     "PTS": 826,
-     "PPG": 10.1,
-     "REB": 149,
-     "AST": 274,
-     "STL": 83,
-     "BLK": 6,
-     "FGM": 258,
-     "FGA": 675,
-     "FG3M": 48,
-     "FG3A": 156,
-     "FTM": 262,
-     "FTA": 307,
-     "MIN": 2287,
-     "PF": 234,
-     "TOV": 120
-    },
-    {
-     "id": 965,
-     "name": "Derek Fisher",
-     "season": 2007,
-     "team": "LAL",
-     "GP": 82,
-     "PTS": 956,
-     "PPG": 11.7,
-     "REB": 170,
-     "AST": 239,
-     "STL": 86,
-     "BLK": 3,
-     "FGM": 339,
-     "FGA": 777,
-     "FG3M": 112,
-     "FG3A": 276,
-     "FTM": 166,
-     "FTA": 188,
-     "MIN": 2249,
-     "PF": 188,
-     "TOV": 90
-    },
-    {
-     "id": 965,
-     "name": "Derek Fisher",
-     "season": 2008,
-     "team": "LAL",
-     "GP": 82,
-     "PTS": 814,
-     "PPG": 9.9,
-     "REB": 188,
-     "AST": 261,
-     "STL": 95,
-     "BLK": 6,
-     "FGM": 292,
-     "FGA": 688,
-     "FG3M": 120,
-     "FG3A": 302,
-     "FTM": 110,
-     "FTA": 130,
-     "MIN": 2441,
-     "PF": 187,
-     "TOV": 72
-    },
-    {
-     "id": 965,
-     "name": "Derek Fisher",
-     "season": 2009,
-     "team": "LAL",
-     "GP": 82,
-     "PTS": 615,
-     "PPG": 7.5,
-     "REB": 170,
-     "AST": 201,
-     "STL": 90,
-     "BLK": 9,
-     "FGM": 212,
-     "FGA": 558,
-     "FG3M": 78,
-     "FG3A": 224,
-     "FTM": 113,
-     "FTA": 132,
-     "MIN": 2227,
-     "PF": 202,
-     "TOV": 78
-    }
-   ],
-   "text": "Derek Fisher played every game in 5 straight seasons (2005-06 to 2009-10), the longest run of the 2000s."
-  },
-  {
-   "n": 28,
    "kind": "streak",
    "rule": "s_2bpg",
    "group": "P",
@@ -3808,10 +3699,11 @@
      "TOV": 118
     }
    ],
-   "text": "Marcus Camby averaged 2.5+ blocks in 5 straight seasons (2003-04 to 2007-08), the longest run of the 2000s."
+   "text": "Marcus Camby averaged 2.5+ blocks in 5 straight seasons (2003-04 to 2007-08), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 29,
+   "n": 28,
    "kind": "streak",
    "rule": "s_150_3s",
    "group": "P",
@@ -3943,10 +3835,11 @@
      "TOV": 134
     }
    ],
-   "text": "Ray Allen made 150+ threes in 5 straight seasons (2004-05 to 2008-09), the longest run of the 2000s."
+   "text": "Ray Allen made 150+ threes in 5 straight seasons (2004-05 to 2008-09), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Fifty-point games are the scorer's trophy case."
   },
   {
-   "n": 30,
+   "n": 29,
    "rule": "bpg_3",
    "group": "P",
    "decade": "2000s",
@@ -4229,10 +4122,11 @@
     2003,
     2004
    ],
-   "text": "Just four players of the 2000s averaged 3 blocks a game (60% of games): Theo Ratliff (3×, best 2000-01: 3.7 bpg); Marcus Camby (4×, best 2007-08: 3.6 bpg); Ben Wallace (3×, best 2001-02: 3.5 bpg); Andrei Kirilenko (2005-06: 3.2 bpg)."
+   "text": "Just four players of the 2000s averaged 3 blocks a game (60% of games): Theo Ratliff (3×, best 2000-01: 3.7 bpg); Marcus Camby (4×, best 2007-08: 3.6 bpg); Ben Wallace (3×, best 2001-02: 3.5 bpg); Andrei Kirilenko (2005-06: 3.2 bpg).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 31,
+   "n": 30,
    "rule": "po_pts",
    "group": "PO",
    "decade": "2000s",
@@ -4400,10 +4294,11 @@
     2007,
     2005
    ],
-   "text": "Just four players of the 2000s scored 600 points in one postseason: Allen Iverson (2000-01: 723 pts in 22 games); Kobe Bryant (3×, best 2008-09: 695 pts in 23 games); Dwyane Wade (2005-06: 654 pts in 23 games); Dirk Nowitzki (2005-06: 620 pts in 23 games)."
+   "text": "Just four players of the 2000s scored 600 points in one postseason: Allen Iverson (2000-01: 723 pts in 22 games); Kobe Bryant (3×, best 2008-09: 695 pts in 23 games); Dwyane Wade (2005-06: 654 pts in 23 games); Dirk Nowitzki (2005-06: 620 pts in 23 games).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 32,
+   "n": 31,
    "rule": "po_30",
    "group": "PO",
    "decade": "2000s",
@@ -4617,10 +4512,11 @@
     2008,
     2007
    ],
-   "text": "Just four players of the 2000s averaged 30 points in a single postseason (8+ playoff games): LeBron James (2×, best 2008-09: 35.3 ppg in 14 games); Allen Iverson (2×, best 2000-01: 32.9 ppg in 22 games); Kobe Bryant (3×, best 2002-03: 32.1 ppg in 12 games); Shaquille O'Neal (2000-01: 30.4 ppg in 16 games)."
+   "text": "Just four players of the 2000s averaged 30 points in a single postseason (8+ playoff games): LeBron James (2×, best 2008-09: 35.3 ppg in 14 games); Allen Iverson (2×, best 2000-01: 32.9 ppg in 22 games); Kobe Bryant (3×, best 2002-03: 32.1 ppg in 12 games); Shaquille O'Neal (2000-01: 30.4 ppg in 16 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. An average fans can hold up against any star's."
   },
   {
-   "n": 33,
+   "n": 32,
    "rule": "blk_250",
    "group": "P",
    "decade": "2000s",
@@ -4738,10 +4634,11 @@
     2001,
     2002
    ],
-   "text": "Just three players of the 2000s blocked 250 shots in a season: Theo Ratliff (2×, best 2003-04: 307 blk); Marcus Camby (2007-08: 285 blk); Ben Wallace (2001-02: 278 blk)."
+   "text": "Just three players of the 2000s blocked 250 shots in a season: Theo Ratliff (2×, best 2003-04: 307 blk); Marcus Camby (2007-08: 285 blk); Ben Wallace (2001-02: 278 blk).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 34,
+   "n": 33,
    "rule": "twenty_ten_no_pass",
    "group": "P",
    "decade": "2000s",
@@ -4859,10 +4756,11 @@
     2007,
     2005
    ],
-   "text": "Just three players of the 2000s averaged 20 points and 10 rebounds with under 1.5 assists (60% of games): Dwight Howard (2×, best 2007-08: 20.7/14.2/1.3); Al Jefferson (2007-08: 21.0/11.1/1.4); Yao Ming (2005-06: 22.3/10.2/1.5)."
+   "text": "Just three players of the 2000s averaged 20 points and 10 rebounds with under 1.5 assists (60% of games): Dwight Howard (2×, best 2007-08: 20.7/14.2/1.3); Al Jefferson (2007-08: 21.0/11.1/1.4); Yao Ming (2005-06: 22.3/10.2/1.5).",
+   "why": "A short list fans can recite; each name brings its own fan base. Do-everything stat lines get shared across fan bases."
   },
   {
-   "n": 35,
+   "n": 34,
    "kind": "extreme",
    "rule": "po_most_ast",
    "group": "P",
@@ -4902,11 +4800,12 @@
      "TOV": 72
     }
    ],
-   "among": 1922,
-   "text": "Most assists in a single postseason in the 2000s: Rajon Rondo, 2009-10 — 223 in 24 games."
+   "among": 1926,
+   "text": "Most assists in a single postseason in the 2000s: Rajon Rondo, 2009-10 — 223 in 24 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
   },
   {
-   "n": 36,
+   "n": 35,
    "kind": "extreme",
    "rule": "po_most_reb",
    "group": "P",
@@ -4946,11 +4845,12 @@
      "TOV": 76
     }
    ],
-   "among": 1922,
-   "text": "Most rebounds in a single postseason in the 2000s: Tim Duncan, 2002-03 — 369 in 24 games."
+   "among": 1926,
+   "text": "Most rebounds in a single postseason in the 2000s: Tim Duncan, 2002-03 — 369 in 24 games.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 37,
+   "n": 36,
    "kind": "extreme",
    "rule": "worst_fg_scorer",
    "group": "P",
@@ -4991,10 +4891,11 @@
     }
    ],
    "among": 243,
-   "text": "Lowest field-goal percentage by a 20-point scorer in the 2000s: Antoine Walker, 2002-03 — .388 while averaging 20.1."
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 2000s: Antoine Walker, 2002-03 — .388 while averaging 20.1.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot volume invites the gunner debate."
   },
   {
-   "n": 38,
+   "n": 37,
    "kind": "extreme",
    "rule": "best_ft_volume",
    "group": "P",
@@ -5035,10 +4936,11 @@
     }
    ],
    "among": 139,
-   "text": "Best free-throw percentage on 500+ attempts in the 2000s: Dirk Nowitzki, 2009-10 — .915 (536-586)."
+   "text": "Best free-throw percentage on 500+ attempts in the 2000s: Dirk Nowitzki, 2009-10 — .915 (536-586).",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 39,
+   "n": 38,
    "kind": "extreme",
    "rule": "ast_low_pts",
    "group": "P",
@@ -5079,10 +4981,11 @@
     }
    ],
    "among": 1650,
-   "text": "Most assists by a sub-10-point scorer in the 2000s: Jason Kidd, 2008-09 — 702 assists while averaging 9.0."
+   "text": "Most assists by a sub-10-point scorer in the 2000s: Jason Kidd, 2008-09 — 702 assists while averaging 9.0.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 40,
+   "n": 39,
    "kind": "extreme",
    "rule": "most_pf",
    "group": "P",
@@ -5122,11 +5025,12 @@
      "TOV": 138
     }
    ],
-   "among": 4467,
-   "text": "Most personal fouls in a season in the 2000s: Kurt Thomas, 2002-03 — 344."
+   "among": 4468,
+   "text": "Most personal fouls in a season in the 2000s: Kurt Thomas, 2002-03 — 344.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Foul-trouble seasons are an oddity fans love to share."
   },
   {
-   "n": 41,
+   "n": 40,
    "kind": "extreme",
    "rule": "most_ast",
    "group": "P",
@@ -5166,11 +5070,12 @@
      "TOV": 201
     }
    ],
-   "among": 4467,
-   "text": "Most assists in a season in the 2000s: Chris Paul, 2007-08 — 925 (11.6 a game)."
+   "among": 4468,
+   "text": "Most assists in a season in the 2000s: Chris Paul, 2007-08 — 925 (11.6 a game).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
   },
   {
-   "n": 42,
+   "n": 41,
    "kind": "extreme",
    "rule": "reb_low_pts",
    "group": "P",
@@ -5211,10 +5116,11 @@
     }
    ],
    "among": 1650,
-   "text": "Most rebounds by a sub-10-point scorer in the 2000s: Ben Wallace, 2002-03 — 1,126 rebounds while averaging 6.9."
+   "text": "Most rebounds by a sub-10-point scorer in the 2000s: Ben Wallace, 2002-03 — 1,126 rebounds while averaging 6.9.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 43,
+   "n": 42,
    "kind": "extreme",
    "rule": "top_apg",
    "group": "P",
@@ -5255,10 +5161,11 @@
     }
    ],
    "among": 2902,
-   "text": "Highest assist average of the 2000s: Steve Nash, 2006-07 — 11.6 a game."
+   "text": "Highest assist average of the 2000s: Steve Nash, 2006-07 — 11.6 a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
   },
   {
-   "n": 44,
+   "n": 43,
    "kind": "extreme",
    "rule": "best_ft_official",
    "group": "P",
@@ -5299,10 +5206,11 @@
     }
    ],
    "among": 1338,
-   "text": "Best free-throw percentage in a season (125+ made) in the 2000s: Jose Calderon, 2008-09 — .981."
+   "text": "Best free-throw percentage in a season (125+ made) in the 2000s: Jose Calderon, 2008-09 — .981.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 45,
+   "n": 44,
    "kind": "extreme",
    "rule": "most_ftm",
    "group": "P",
@@ -5342,11 +5250,12 @@
      "TOV": 271
     }
    ],
-   "among": 4467,
-   "text": "Most free throws made in a season in the 2000s: Kevin Durant, 2009-10 — 756 of 840."
+   "among": 4468,
+   "text": "Most free throws made in a season in the 2000s: Kevin Durant, 2009-10 — 756 of 840.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 46,
+   "n": 45,
    "kind": "extreme",
    "rule": "most_oreb",
    "group": "P",
@@ -5386,11 +5295,12 @@
      "TOV": 173
     }
    ],
-   "among": 4467,
-   "text": "Most offensive rebounds in a season in the 2000s: Elton Brand, 2001-02 — 396."
+   "among": 4468,
+   "text": "Most offensive rebounds in a season in the 2000s: Elton Brand, 2001-02 — 396.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 47,
+   "n": 46,
    "kind": "extreme",
    "rule": "most_blk",
    "group": "P",
@@ -5430,11 +5340,12 @@
      "TOV": 120
     }
    ],
-   "among": 4467,
-   "text": "Most blocked shots in a season in the 2000s: Theo Ratliff, 2003-04 — 307."
+   "among": 4468,
+   "text": "Most blocked shots in a season in the 2000s: Theo Ratliff, 2003-04 — 307.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 48,
+   "n": 47,
    "kind": "extreme",
    "rule": "most_3pa_bad",
    "group": "P",
@@ -5475,10 +5386,11 @@
     }
    ],
    "among": 123,
-   "text": "Most threes attempted while shooting under .330 from deep in the 2000s: Antoine Walker, 2002-03 — 582 attempts at .323."
+   "text": "Most threes attempted while shooting under .330 from deep in the 2000s: Antoine Walker, 2002-03 — 582 attempts at .323.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Three-point volume is the modern game's signature."
   },
   {
-   "n": 49,
+   "n": 48,
    "kind": "extreme",
    "rule": "best_3p_volume",
    "group": "P",
@@ -5519,10 +5431,11 @@
     }
    ],
    "among": 363,
-   "text": "Best three-point percentage on 300+ attempts in the 2000s: Joe Johnson, 2004-05 — .478 (177-370)."
+   "text": "Best three-point percentage on 300+ attempts in the 2000s: Joe Johnson, 2004-05 — .478 (177-370).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Three-point volume is the modern game's signature."
   },
   {
-   "n": 50,
+   "n": 49,
    "kind": "extreme",
    "rule": "most_3pm",
    "group": "P",
@@ -5562,11 +5475,12 @@
      "TOV": 188
     }
    ],
-   "among": 4467,
-   "text": "Most threes made in a season in the 2000s: Ray Allen, 2005-06 — 269."
+   "among": 4468,
+   "text": "Most threes made in a season in the 2000s: Ray Allen, 2005-06 — 269.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Three-point volume is the modern game's signature."
   },
   {
-   "n": 51,
+   "n": 50,
    "kind": "streak",
    "rule": "s_2spg",
    "group": "P",
@@ -5675,10 +5589,11 @@
      "TOV": 202
     }
    ],
-   "text": "Metta World Peace averaged 2+ steals in 4 straight seasons (2000-01 to 2003-04), the longest run of the 2000s."
+   "text": "Metta World Peace averaged 2+ steals in 4 straight seasons (2000-01 to 2003-04), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Steals are the defensive highlight stat."
   },
   {
-   "n": 52,
+   "n": 51,
    "kind": "extreme",
    "rule": "po_most_pts",
    "group": "P",
@@ -5718,11 +5633,12 @@
      "TOV": 63
     }
    ],
-   "among": 1922,
-   "text": "Most points in a single postseason in the 2000s: Allen Iverson, 2000-01 — 723 in 22 games."
+   "among": 1926,
+   "text": "Most points in a single postseason in the 2000s: Allen Iverson, 2000-01 — 723 in 22 games.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 53,
+   "n": 52,
    "kind": "extreme",
    "rule": "po_best_fg",
    "group": "P",
@@ -5763,10 +5679,11 @@
     }
    ],
    "among": 241,
-   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 2000s: Shaquille O'Neal, 2005-06 — .612."
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 2000s: Shaquille O'Neal, 2005-06 — .612.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
-   "n": 54,
+   "n": 53,
    "kind": "extreme",
    "rule": "most_reb",
    "group": "P",
@@ -5806,11 +5723,12 @@
      "TOV": 263
     }
    ],
-   "among": 4467,
-   "text": "Most rebounds in a season in the 2000s: Dwight Howard, 2007-08 — 1,161 (14.2 a game)."
+   "among": 4468,
+   "text": "Most rebounds in a season in the 2000s: Dwight Howard, 2007-08 — 1,161 (14.2 a game).",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 55,
+   "n": 54,
    "kind": "extreme",
    "rule": "top_rpg",
    "group": "P",
@@ -5851,10 +5769,11 @@
     }
    ],
    "among": 2902,
-   "text": "Highest rebounding average of the 2000s: Ben Wallace, 2002-03 — 15.4 a game."
+   "text": "Highest rebounding average of the 2000s: Ben Wallace, 2002-03 — 15.4 a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 56,
+   "n": 55,
    "kind": "nearmiss",
    "rule": "rpg99",
    "group": "P",
@@ -6014,10 +5933,11 @@
      "TOV": 122
     }
    ],
-   "text": "7 player-seasons of the 2000s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Dirk Nowitzki (2002-03), Shawn Marion (2001-02), Donyell Marshall (2003-04)."
+   "text": "7 player-seasons of the 2000s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Dirk Nowitzki (2002-03), Shawn Marion (2001-02), Donyell Marshall (2003-04).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 57,
+   "n": 56,
    "kind": "nearmiss",
    "rule": "tp399",
    "group": "P",
@@ -6177,10 +6097,11 @@
      "TOV": 86
     }
    ],
-   "text": "7 player-seasons of the 2000s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Dirk Nowitzki (2004-05), Derek Anderson (2000-01), Metta World Peace (2008-09)."
+   "text": "7 player-seasons of the 2000s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Dirk Nowitzki (2004-05), Derek Anderson (2000-01), Metta World Peace (2008-09).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
-   "n": 58,
+   "n": 57,
    "kind": "total",
    "rule": "t_reb",
    "group": "P",
@@ -6226,10 +6147,11 @@
      "seasons": 10
     }
    ],
-   "text": "Most rebounds of the 2000s: Tim Duncan, 8,869."
+   "text": "Most rebounds of the 2000s: Tim Duncan, 8,869.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 59,
+   "n": 58,
    "kind": "total",
    "rule": "t_ast",
    "group": "P",
@@ -6275,10 +6197,11 @@
      "seasons": 10
     }
    ],
-   "text": "Most assists of the 2000s: Steve Nash, 7,506."
+   "text": "Most assists of the 2000s: Steve Nash, 7,506.",
+   "why": "A decade-long view that settles consistency debates. Assist averages crown the true point guards."
   },
   {
-   "n": 60,
+   "n": 59,
    "kind": "total",
    "rule": "t_gp",
    "group": "P",
@@ -6324,10 +6247,11 @@
      "seasons": 10
     }
    ],
-   "text": "Most games played in the 2000s: Andre Miller, 815."
+   "text": "Most games played in the 2000s: Andre Miller, 815.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 61,
+   "n": 60,
    "kind": "total",
    "rule": "t_pf",
    "group": "P",
@@ -6373,10 +6297,11 @@
      "seasons": 10
     }
    ],
-   "text": "Most personal fouls committed in the 2000s: Kurt Thomas, 2,446."
+   "text": "Most personal fouls committed in the 2000s: Kurt Thomas, 2,446.",
+   "why": "A decade-long view that settles consistency debates. Foul-trouble seasons are an oddity fans love to share."
   },
   {
-   "n": 62,
+   "n": 61,
    "kind": "season",
    "rule": "c_25_most",
    "group": "P",
@@ -6429,10 +6354,11 @@
      "count": 7
     }
    ],
-   "text": "2005-06 had 10 25-point scorers, the most of any season in the 2000s."
+   "text": "2005-06 had 10 players averaging 25 points (60% of games), the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s."
   },
   {
-   "n": 63,
+   "n": 62,
    "kind": "season",
    "rule": "c_25_least",
    "group": "P",
@@ -6485,10 +6411,11 @@
      "count": 7
     }
    ],
-   "text": "2003-04 had just one 25-point scorer, the fewest of any season in the 2000s."
+   "text": "2003-04 had just one player averaging 25 points (60% of games), the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 64,
+   "n": 63,
    "kind": "season",
    "rule": "c_20_10_most",
    "group": "P",
@@ -6541,10 +6468,11 @@
      "count": 3
     }
    ],
-   "text": "2000-01 had 6 20-and-10 players, the most of any season in the 2000s."
+   "text": "2000-01 had 6 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s."
   },
   {
-   "n": 65,
+   "n": 64,
    "kind": "season",
    "rule": "c_20_10_least",
    "group": "P",
@@ -6597,10 +6525,11 @@
      "count": 3
     }
    ],
-   "text": "2004-05 had just 3 20-and-10 players, the fewest of any season in the 2000s."
+   "text": "2004-05 had just 3 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 66,
+   "n": 65,
    "kind": "season",
    "rule": "c_ft900_most",
    "group": "P",
@@ -6653,10 +6582,11 @@
      "count": 5
     }
    ],
-   "text": "2002-03 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2000s."
+   "text": "2002-03 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 67,
+   "n": 66,
    "kind": "season",
    "rule": "c_ft900_least",
    "group": "P",
@@ -6709,10 +6639,11 @@
      "count": 5
     }
    ],
-   "text": "2001-02 had just one .900 free-throw shooter (200+ FTA), the fewest of any season in the 2000s."
+   "text": "2001-02 had just one .900 free-throw shooter (200+ FTA), the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 68,
+   "n": 67,
    "kind": "season",
    "rule": "c_10apg_most",
    "group": "P",
@@ -6765,10 +6696,11 @@
      "count": 5
     }
    ],
-   "text": "2001-02 had 7 8-assist players, the most of any season in the 2000s."
+   "text": "2001-02 had 7 8-assist players, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Assist averages crown the true point guards."
   },
   {
-   "n": 69,
+   "n": 68,
    "kind": "season",
    "rule": "c_10apg_least",
    "group": "P",
@@ -6821,10 +6753,11 @@
      "count": 5
     }
    ],
-   "text": "2003-04 had just 3 8-assist players, the fewest of any season in the 2000s."
+   "text": "2003-04 had just 3 8-assist players, the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 70,
+   "n": 69,
    "kind": "season",
    "rule": "c_20_most",
    "group": "P",
@@ -6877,10 +6810,11 @@
      "count": 17
     }
    ],
-   "text": "2007-08 had 31 20-point scorers, the most of any season in the 2000s."
+   "text": "2007-08 had 31 players averaging 20 points (60% of games), the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s."
   },
   {
-   "n": 71,
+   "n": 70,
    "kind": "season",
    "rule": "c_20_least",
    "group": "P",
@@ -6933,122 +6867,11 @@
      "count": 17
     }
    ],
-   "text": "2009-10 had just 17 20-point scorers, the fewest of any season in the 2000s."
+   "text": "2009-10 had just 17 players averaging 20 points (60% of games), the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 72,
-   "kind": "season",
-   "rule": "c_all_most",
-   "group": "P",
-   "decade": "2000s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2007
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2000,
-     "count": 1
-    },
-    {
-     "season": 2001,
-     "count": 2
-    },
-    {
-     "season": 2002,
-     "count": 1
-    },
-    {
-     "season": 2003,
-     "count": 2
-    },
-    {
-     "season": 2004,
-     "count": 1
-    },
-    {
-     "season": 2005,
-     "count": 29
-    },
-    {
-     "season": 2006,
-     "count": 36
-    },
-    {
-     "season": 2007,
-     "count": 43
-    },
-    {
-     "season": 2008,
-     "count": 30
-    },
-    {
-     "season": 2009,
-     "count": 39
-    }
-   ],
-   "text": "2007-08 had 43 players who appeared in every game, the most of any season in the 2000s."
-  },
-  {
-   "n": 73,
-   "kind": "season",
-   "rule": "c_all_least",
-   "group": "P",
-   "decade": "2000s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2000
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2000,
-     "count": 1
-    },
-    {
-     "season": 2001,
-     "count": 2
-    },
-    {
-     "season": 2002,
-     "count": 1
-    },
-    {
-     "season": 2003,
-     "count": 2
-    },
-    {
-     "season": 2004,
-     "count": 1
-    },
-    {
-     "season": 2005,
-     "count": 29
-    },
-    {
-     "season": 2006,
-     "count": 36
-    },
-    {
-     "season": 2007,
-     "count": 43
-    },
-    {
-     "season": 2008,
-     "count": 30
-    },
-    {
-     "season": 2009,
-     "count": 39
-    }
-   ],
-   "text": "2000-01 had just one player who appeared in every game, the fewest of any season in the 2000s."
-  },
-  {
-   "n": 74,
+   "n": 71,
    "kind": "season",
    "rule": "c_10rpg_most",
    "group": "P",
@@ -7101,10 +6924,11 @@
      "count": 13
     }
    ],
-   "text": "2007-08 had 14 double-digit rebounders, the most of any season in the 2000s."
+   "text": "2007-08 had 14 players averaging 10 rebounds (60% of games), the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 75,
+   "n": 72,
    "kind": "season",
    "rule": "c_10rpg_least",
    "group": "P",
@@ -7157,206 +6981,11 @@
      "count": 13
     }
    ],
-   "text": "2001-02 had just 9 double-digit rebounders, the fewest of any season in the 2000s."
+   "text": "2001-02 had just 9 players averaging 10 rebounds (60% of games), the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 76,
-   "kind": "total",
-   "rule": "t_stl",
-   "group": "P",
-   "decade": "2000s",
-   "score": 5,
-   "players": [
-    {
-     "id": 467,
-     "name": "Jason Kidd"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 467,
-     "name": "Jason Kidd",
-     "total": 1483,
-     "seasons": 10
-    },
-    {
-     "id": 947,
-     "name": "Allen Iverson",
-     "total": 1396,
-     "seasons": 10
-    },
-    {
-     "id": 1890,
-     "name": "Shawn Marion",
-     "total": 1394,
-     "seasons": 10
-    },
-    {
-     "id": 1884,
-     "name": "Baron Davis",
-     "total": 1321,
-     "seasons": 10
-    },
-    {
-     "id": 977,
-     "name": "Kobe Bryant",
-     "total": 1253,
-     "seasons": 10
-    }
-   ],
-   "text": "Most steals of the 2000s: Jason Kidd, 1,483."
-  },
-  {
-   "n": 77,
-   "kind": "total",
-   "rule": "t_blk",
-   "group": "P",
-   "decade": "2000s",
-   "score": 5,
-   "players": [
-    {
-     "id": 1495,
-     "name": "Tim Duncan"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 1495,
-     "name": "Tim Duncan",
-     "total": 1738,
-     "seasons": 10
-    },
-    {
-     "id": 1112,
-     "name": "Ben Wallace",
-     "total": 1729,
-     "seasons": 10
-    },
-    {
-     "id": 948,
-     "name": "Marcus Camby",
-     "total": 1590,
-     "seasons": 10
-    },
-    {
-     "id": 979,
-     "name": "Jermaine O'Neal",
-     "total": 1476,
-     "seasons": 10
-    },
-    {
-     "id": 1905,
-     "name": "Andrei Kirilenko",
-     "total": 1306,
-     "seasons": 9
-    }
-   ],
-   "text": "Most blocked shots of the 2000s: Tim Duncan, 1,738."
-  },
-  {
-   "n": 78,
-   "kind": "total",
-   "rule": "t_3pm",
-   "group": "P",
-   "decade": "2000s",
-   "score": 5,
-   "players": [
-    {
-     "id": 951,
-     "name": "Ray Allen"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 951,
-     "name": "Ray Allen",
-     "total": 1947,
-     "seasons": 10
-    },
-    {
-     "id": 978,
-     "name": "Peja Stojakovic",
-     "total": 1546,
-     "seasons": 10
-    },
-    {
-     "id": 1740,
-     "name": "Rashard Lewis",
-     "total": 1546,
-     "seasons": 10
-    },
-    {
-     "id": 1891,
-     "name": "Jason Terry",
-     "total": 1477,
-     "seasons": 10
-    },
-    {
-     "id": 1497,
-     "name": "Chauncey Billups",
-     "total": 1390,
-     "seasons": 10
-    }
-   ],
-   "text": "Most threes of the 2000s: Ray Allen, 1,947."
-  },
-  {
-   "n": 79,
-   "kind": "total",
-   "rule": "t_tov",
-   "group": "P",
-   "decade": "2000s",
-   "score": 5,
-   "players": [
-    {
-     "id": 959,
-     "name": "Steve Nash"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 959,
-     "name": "Steve Nash",
-     "total": 2481,
-     "seasons": 10
-    },
-    {
-     "id": 977,
-     "name": "Kobe Bryant",
-     "total": 2377,
-     "seasons": 10
-    },
-    {
-     "id": 1718,
-     "name": "Paul Pierce",
-     "total": 2364,
-     "seasons": 10
-    },
-    {
-     "id": 467,
-     "name": "Jason Kidd",
-     "total": 2300,
-     "seasons": 10
-    },
-    {
-     "id": 947,
-     "name": "Allen Iverson",
-     "total": 2284,
-     "seasons": 10
-    }
-   ],
-   "text": "Most turnovers of the 2000s: Steve Nash, 2,481."
-  },
-  {
-   "n": 80,
+   "n": 73,
    "kind": "season",
    "rule": "c_30_most",
    "group": "P",
@@ -7409,10 +7038,11 @@
      "count": 1
     }
    ],
-   "text": "2005-06 had 3 30-point scorers, the most of any season in the 2000s."
+   "text": "2005-06 had 3 30-point scorers, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s."
   },
   {
-   "n": 81,
+   "n": 74,
    "kind": "season",
    "rule": "c_30_least",
    "group": "P",
@@ -7465,10 +7095,211 @@
      "count": 1
     }
    ],
-   "text": "2003-04 had no 30-point scorers at all — the only season of the 2000s without one."
+   "text": "2003-04 had no 30-point scorers at all — the only season of the 2000s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 82,
+   "n": 75,
+   "kind": "total",
+   "rule": "t_stl",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 467,
+     "name": "Jason Kidd"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "total": 1483,
+     "seasons": 10
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "total": 1396,
+     "seasons": 10
+    },
+    {
+     "id": 1890,
+     "name": "Shawn Marion",
+     "total": 1394,
+     "seasons": 10
+    },
+    {
+     "id": 1884,
+     "name": "Baron Davis",
+     "total": 1321,
+     "seasons": 10
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "total": 1253,
+     "seasons": 10
+    }
+   ],
+   "text": "Most steals of the 2000s: Jason Kidd, 1,483.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "t_blk",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "total": 1738,
+     "seasons": 10
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "total": 1729,
+     "seasons": 10
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "total": 1590,
+     "seasons": 10
+    },
+    {
+     "id": 979,
+     "name": "Jermaine O'Neal",
+     "total": 1476,
+     "seasons": 10
+    },
+    {
+     "id": 1905,
+     "name": "Andrei Kirilenko",
+     "total": 1306,
+     "seasons": 9
+    }
+   ],
+   "text": "Most blocked shots of the 2000s: Tim Duncan, 1,738.",
+   "why": "A decade-long view that settles consistency debates. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "t_3pm",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 951,
+     "name": "Ray Allen"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "total": 1947,
+     "seasons": 10
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "total": 1546,
+     "seasons": 10
+    },
+    {
+     "id": 1740,
+     "name": "Rashard Lewis",
+     "total": 1546,
+     "seasons": 10
+    },
+    {
+     "id": 1891,
+     "name": "Jason Terry",
+     "total": 1477,
+     "seasons": 10
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "total": 1390,
+     "seasons": 10
+    }
+   ],
+   "text": "Most threes of the 2000s: Ray Allen, 1,947.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "t_tov",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 959,
+     "name": "Steve Nash"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "total": 2481,
+     "seasons": 10
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "total": 2377,
+     "seasons": 10
+    },
+    {
+     "id": 1718,
+     "name": "Paul Pierce",
+     "total": 2364,
+     "seasons": 10
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "total": 2300,
+     "seasons": 10
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "total": 2284,
+     "seasons": 10
+    }
+   ],
+   "text": "Most turnovers of the 2000s: Steve Nash, 2,481.",
+   "why": "A decade-long view that settles consistency debates. Turnover totals are the stat fan bases never forget."
+  },
+  {
+   "n": 79,
    "kind": "season",
    "rule": "c_2spg_most",
    "group": "P",
@@ -7521,10 +7352,11 @@
      "count": 2
     }
    ],
-   "text": "2000-01 had 7 2-steal players, the most of any season in the 2000s."
+   "text": "2000-01 had 7 players averaging 2 steals (60% of games), the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Steals are the defensive highlight stat."
   },
   {
-   "n": 83,
+   "n": 80,
    "kind": "season",
    "rule": "c_2spg_least",
    "group": "P",
@@ -7577,10 +7409,125 @@
      "count": 2
     }
    ],
-   "text": "2008-09 had just 2 2-steal players, the fewest of any season in the 2000s."
+   "text": "2008-09 had just 2 players averaging 2 steals (60% of games), the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 84,
+   "n": 81,
+   "kind": "season",
+   "rule": "c_2bpg_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 12
+    },
+    {
+     "season": 2001,
+     "count": 11
+    },
+    {
+     "season": 2002,
+     "count": 9
+    },
+    {
+     "season": 2003,
+     "count": 12
+    },
+    {
+     "season": 2004,
+     "count": 10
+    },
+    {
+     "season": 2005,
+     "count": 12
+    },
+    {
+     "season": 2006,
+     "count": 10
+    },
+    {
+     "season": 2007,
+     "count": 7
+    },
+    {
+     "season": 2008,
+     "count": 5
+    },
+    {
+     "season": 2009,
+     "count": 4
+    }
+   ],
+   "text": "2000-01 had 12 players averaging 2 blocks (60% of games), the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_2bpg_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 12
+    },
+    {
+     "season": 2001,
+     "count": 11
+    },
+    {
+     "season": 2002,
+     "count": 9
+    },
+    {
+     "season": 2003,
+     "count": 12
+    },
+    {
+     "season": 2004,
+     "count": 10
+    },
+    {
+     "season": 2005,
+     "count": 12
+    },
+    {
+     "season": 2006,
+     "count": 10
+    },
+    {
+     "season": 2007,
+     "count": 7
+    },
+    {
+     "season": 2008,
+     "count": 5
+    },
+    {
+     "season": 2009,
+     "count": 4
+    }
+   ],
+   "text": "2009-10 had just 4 players averaging 2 blocks (60% of games), the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 83,
    "kind": "nearmiss",
    "rule": "fg499",
    "group": "P",
@@ -7674,10 +7621,11 @@
      "TOV": 204
     }
    ],
-   "text": "3 player-seasons of the 2000s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Kevin Garnett (2003-04), Tim Duncan (2000-01), Brook Lopez (2009-10)."
+   "text": "3 player-seasons of the 2000s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Kevin Garnett (2003-04), Tim Duncan (2000-01), Brook Lopez (2009-10).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 85,
+   "n": 84,
    "rule": "threes_good_volume",
    "group": "P",
    "decade": "2000s",
@@ -7828,10 +7776,11 @@
    "seasons": [
     2005
    ],
-   "text": "39 players made 150 threes at a .400 clip in the 2000s (60 seasons). The most extreme: Ray Allen, 2005-06 — 269 3PM, .412."
+   "text": "39 players made 150 threes at a .400 clip in the 2000s (60 seasons). The most extreme: Ray Allen, 2005-06 — 269 3PM, .412.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
   },
   {
-   "n": 86,
+   "n": 85,
    "rule": "reb_over_pts",
    "group": "P",
    "decade": "2000s",
@@ -7982,10 +7931,11 @@
    "seasons": [
     2002
    ],
-   "text": "29 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 2000s (61 seasons). The most extreme: Ben Wallace, 2002-03 — 1,126 reb, 506 pts."
+   "text": "29 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 2000s (61 seasons). The most extreme: Ben Wallace, 2002-03 — 1,126 reb, 506 pts.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 87,
+   "n": 86,
    "kind": "nearmiss",
    "rule": "ppg249",
    "group": "P",
@@ -8025,10 +7975,11 @@
      "TOV": 199
     }
    ],
-   "text": "Exactly one player of the 2000s finished a season with a 24.9 scoring average, a tenth short of 25: Antawn Jamison (2000-01)."
+   "text": "Exactly one player of the 2000s finished a season with a 24.9 scoring average, a tenth short of 25: Antawn Jamison (2000-01).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
-   "n": 88,
+   "n": 87,
    "kind": "nearmiss",
    "rule": "apg99",
    "group": "P",
@@ -8068,10 +8019,11 @@
      "TOV": 286
     }
    ],
-   "text": "Exactly one player of the 2000s finished a season with 9.9 assists a game, a tenth short of 10: Jason Kidd (2001-02)."
+   "text": "Exactly one player of the 2000s finished a season with 9.9 assists a game, a tenth short of 10: Jason Kidd (2001-02).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 89,
+   "n": 88,
    "rule": "threes_great",
    "group": "P",
    "decade": "2000s",
@@ -8222,10 +8174,11 @@
    "seasons": [
     2004
    ],
-   "text": "6 players shot .450 from three on 250+ attempts in the 2000s (8 seasons). The most extreme: Joe Johnson, 2004-05 — .478 on 370 3PA."
+   "text": "6 players shot .450 from three on 250+ attempts in the 2000s (8 seasons). The most extreme: Joe Johnson, 2004-05 — .478 on 370 3PA.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
   },
   {
-   "n": 90,
+   "n": 89,
    "rule": "reb_1000",
    "group": "P",
    "decade": "2000s",
@@ -8376,10 +8329,11 @@
    "seasons": [
     2007
    ],
-   "text": "6 players grabbed 1,000 rebounds in a season in the 2000s (16 seasons). The most extreme: Dwight Howard, 2007-08 — 1,161 reb."
+   "text": "6 players grabbed 1,000 rebounds in a season in the 2000s (16 seasons). The most extreme: Dwight Howard, 2007-08 — 1,161 reb.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 91,
+   "n": 90,
    "rule": "ast_800",
    "group": "P",
    "decade": "2000s",
@@ -8530,10 +8484,11 @@
    "seasons": [
     2007
    ],
-   "text": "5 players dished out 800 assists in a season in the 2000s (11 seasons). The most extreme: Chris Paul, 2007-08 — 925 ast."
+   "text": "5 players dished out 800 assists in a season in the 2000s (11 seasons). The most extreme: Chris Paul, 2007-08 — 925 ast.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
-   "n": 92,
+   "n": 91,
    "rule": "big_ast",
    "group": "P",
    "decade": "2000s",
@@ -8684,10 +8639,11 @@
    "seasons": [
     2006
    ],
-   "text": "6 players averaged 9+ assists (60% of games) in the 2000s (20 seasons). The most extreme: Steve Nash, 2006-07 — 11.6 apg."
+   "text": "6 players averaged 9+ assists (60% of games) in the 2000s (20 seasons). The most extreme: Steve Nash, 2006-07 — 11.6 apg.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Assist averages crown the true point guards."
   },
   {
-   "n": 93,
+   "n": 92,
    "rule": "apg_10",
    "group": "P",
    "decade": "2000s",
@@ -8838,10 +8794,11 @@
    "seasons": [
     2006
    ],
-   "text": "5 players averaged 10 assists a game (60% of games) in the 2000s (12 seasons). The most extreme: Steve Nash, 2006-07 — 11.6 apg."
+   "text": "5 players averaged 10 assists a game (60% of games) in the 2000s (12 seasons). The most extreme: Steve Nash, 2006-07 — 11.6 apg.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
-   "n": 94,
+   "n": 93,
    "rule": "pf_300",
    "group": "P",
    "decade": "2000s",
@@ -8992,10 +8949,11 @@
    "seasons": [
     2002
    ],
-   "text": "10 players committed 300 personal fouls in a season in the 2000s (12 seasons). The most extreme: Kurt Thomas, 2002-03 — 344 PF."
+   "text": "10 players committed 300 personal fouls in a season in the 2000s (12 seasons). The most extreme: Kurt Thomas, 2002-03 — 344 PF.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Foul-trouble seasons are an oddity fans love to share."
   },
   {
-   "n": 95,
+   "n": 94,
    "rule": "blk_over_ast",
    "group": "P",
    "decade": "2000s",
@@ -9146,10 +9104,11 @@
    "seasons": [
     2008
    ],
-   "text": "5 players blocked more shots than they assisted while averaging 20 points (60% of games) in the 2000s (11 seasons). The most extreme: Dwight Howard, 2008-09 — 231 blk, 112 ast."
+   "text": "5 players blocked more shots than they assisted while averaging 20 points (60% of games) in the 2000s (11 seasons). The most extreme: Dwight Howard, 2008-09 — 231 blk, 112 ast.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
-   "n": 96,
+   "n": 95,
    "rule": "guard_stocks",
    "group": "P",
    "decade": "2000s",
@@ -9300,7 +9259,163 @@
    "seasons": [
     2004
    ],
-   "text": "5 players averaged 2.5 steals a game (60% of games) in the 2000s (8 seasons). The most extreme: Larry Hughes, 2004-05 — 2.9 spg."
+   "text": "5 players averaged 2.5 steals a game (60% of games) in the 2000s (8 seasons). The most extreme: Larry Hughes, 2004-05 — 2.9 spg.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 96,
+   "rule": "threes_200",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2005,
+     "team": "SEA",
+     "GP": 78,
+     "PTS": 1955,
+     "PPG": 25.1,
+     "REB": 332,
+     "AST": 286,
+     "STL": 105,
+     "BLK": 16,
+     "FGM": 681,
+     "FGA": 1500,
+     "FG3M": 269,
+     "FG3A": 653,
+     "FTM": 324,
+     "FTA": 359,
+     "MIN": 3022,
+     "PF": 151,
+     "TOV": 188
+    },
+    {
+     "id": 2202,
+     "name": "Jason Richardson",
+     "season": 2007,
+     "team": "CHA",
+     "GP": 82,
+     "PTS": 1788,
+     "PPG": 21.8,
+     "REB": 441,
+     "AST": 258,
+     "STL": 116,
+     "BLK": 57,
+     "FGM": 648,
+     "FGA": 1468,
+     "FG3M": 243,
+     "FG3A": 599,
+     "FTM": 249,
+     "FTA": 331,
+     "MIN": 3149,
+     "PF": 241,
+     "TOV": 166
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "season": 2003,
+     "team": "SAC",
+     "GP": 81,
+     "PTS": 1964,
+     "PPG": 24.2,
+     "REB": 508,
+     "AST": 173,
+     "STL": 108,
+     "BLK": 14,
+     "FGM": 665,
+     "FGA": 1386,
+     "FG3M": 240,
+     "FG3A": 554,
+     "FTM": 394,
+     "FTA": 425,
+     "MIN": 3265,
+     "PF": 159,
+     "TOV": 153
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 77,
+     "PTS": 1263,
+     "PPG": 16.4,
+     "REB": 331,
+     "AST": 96,
+     "STL": 57,
+     "BLK": 10,
+     "FGM": 451,
+     "FGA": 1026,
+     "FG3M": 231,
+     "FG3A": 524,
+     "FTM": 130,
+     "FTA": 140,
+     "MIN": 2711,
+     "PF": 127,
+     "TOV": 61
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2001,
+     "team": "MIL",
+     "GP": 69,
+     "PTS": 1503,
+     "PPG": 21.8,
+     "REB": 312,
+     "AST": 271,
+     "STL": 88,
+     "BLK": 18,
+     "FGM": 530,
+     "FGA": 1148,
+     "FG3M": 229,
+     "FG3A": 528,
+     "FTM": 214,
+     "FTA": 245,
+     "MIN": 2525,
+     "PF": 157,
+     "TOV": 159
+    },
+    {
+     "id": 2047,
+     "name": "Quentin Richardson",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 79,
+     "PTS": 1176,
+     "PPG": 14.9,
+     "REB": 479,
+     "AST": 158,
+     "STL": 96,
+     "BLK": 27,
+     "FGM": 407,
+     "FGA": 1045,
+     "FG3M": 226,
+     "FG3A": 631,
+     "FTM": 136,
+     "FTA": 184,
+     "MIN": 2839,
+     "PF": 197,
+     "TOV": 102
+    }
+   ],
+   "seasonsMatched": 21,
+   "kind": "list",
+   "score": 3.6725,
+   "players": [
+    {
+     "id": 951,
+     "name": "Ray Allen"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "13 players made 200 threes in a season in the 2000s (21 seasons). The most extreme: Ray Allen, 2005-06 — 269 3PM.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
   },
   {
    "n": 97,
@@ -9454,7 +9569,8 @@
    "seasons": [
     2009
    ],
-   "text": "11 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 2000s (21 seasons). The most extreme: Amar'e Stoudemire, 2009-10 — 23.1 ppg, 1.0 apg."
+   "text": "11 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 2000s (21 seasons). The most extreme: Amar'e Stoudemire, 2009-10 — 23.1 ppg, 1.0 apg.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 98,
@@ -9608,7 +9724,8 @@
    "seasons": [
     2003
    ],
-   "text": "5 players made 150+ threes while shooting under .340 from deep in the 2000s (6 seasons). The most extreme: Baron Davis, 2003-04 — 187 3PM, .321."
+   "text": "5 players made 150+ threes while shooting under .340 from deep in the 2000s (6 seasons). The most extreme: Baron Davis, 2003-04 — 187 3PM, .321.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
   },
   {
    "n": 99,
@@ -9762,7 +9879,8 @@
    "seasons": [
     2005
    ],
-   "text": "12 players shot better from three than from two (250+ 3PA, 300+ 2PA) in the 2000s. The most extreme: Chauncey Billups, 2005-06 — .433 3P, .407 2P."
+   "text": "12 players shot better from three than from two (250+ 3PA, 300+ 2PA) in the 2000s. The most extreme: Chauncey Billups, 2005-06 — .433 3P, .407 2P.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Three-point volume is the modern game's signature."
   },
   {
    "n": 100,
@@ -9916,12 +10034,13 @@
    "seasons": [
     2000
    ],
-   "text": "45 players shot under .440 on 1,200+ attempts in the 2000s (78 seasons). The most extreme: Jerry Stackhouse, 2000-01 — .402 on 1,927 FGA."
+   "text": "45 players shot under .440 on 1,200+ attempts in the 2000s (78 seasons). The most extreme: Jerry Stackhouse, 2000-01 — .402 on 1,927 FGA.",
+   "why": "Leads with the most extreme case, which carries the post. Shot volume invites the gunner debate."
   }
  ],
  "counts": {
-  "playerSeasons": 4467,
-  "playoffPlayerSeasons": 1922
+  "playerSeasons": 4468,
+  "playoffPlayerSeasons": 1926
  },
  "method": [
   "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",

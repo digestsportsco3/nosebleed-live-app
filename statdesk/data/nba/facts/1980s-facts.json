@@ -23,7 +23,7 @@
   "1988-89",
   "1989-90"
  ],
- "candidates": 124,
+ "candidates": 119,
  "facts": [
   {
    "n": 1,
@@ -67,7 +67,8 @@
    "seasons": [
     1986
    ],
-   "text": "The only player of the 1980s to score 3,000 points in a season: Michael Jordan, 1986-87 — 3,041 pts."
+   "text": "The only player of the 1980s to score 3,000 points in a season: Michael Jordan, 1986-87 — 3,041 pts.",
+   "why": "A club of one in the 1980s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 2,
@@ -111,7 +112,8 @@
    "seasons": [
     1980
    ],
-   "text": "The only player of the 1980s to shoot .950 from the line in a single postseason (60+ FTA): Calvin Murphy, 1980-81 — .967 on 60 FTA."
+   "text": "The only player of the 1980s to shoot .950 from the line in a single postseason (60+ FTA): Calvin Murphy, 1980-81 — .967 on 60 FTA.",
+   "why": "Nobody else in the 1980s did it, and exclusivity is what gets a post shared. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 3,
@@ -201,7 +203,8 @@
     1988,
     1987
    ],
-   "text": "The only player of the 1980s to average 2 steals and 2 blocks (60% of games) was Hakeem Olajuwon — and he did it 3 times (1989-90: 2.1 spg, 4.6 bpg; 1988-89: 2.6 spg, 3.4 bpg; 1987-88: 2.1 spg, 2.7 bpg)."
+   "text": "The only player of the 1980s to average 2 steals and 2 blocks (60% of games) was Hakeem Olajuwon — and he did it 3 times (1989-90: 2.1 spg, 4.6 bpg; 1988-89: 2.6 spg, 3.4 bpg; 1987-88: 2.1 spg, 2.7 bpg).",
+   "why": "A club of one in the 1980s; \"name another\" posts draw replies. Steals are the defensive highlight stat."
   },
   {
    "n": 4,
@@ -245,7 +248,8 @@
    "seasons": [
     1988
    ],
-   "text": "The only player of the 1980s to shoot .450 from three on 250+ attempts: Dale Ellis, 1988-89 — .478 on 339 3PA."
+   "text": "The only player of the 1980s to shoot .450 from three on 250+ attempts: Dale Ellis, 1988-89 — .478 on 339 3PA.",
+   "why": "Nobody else in the 1980s did it, and exclusivity is what gets a post shared. Three-point volume is the modern game's signature."
   },
   {
    "n": 5,
@@ -381,7 +385,8 @@
     1981,
     1980
    ],
-   "text": "The only player of the 1980s to average 20 points, 10 rebounds and 5 assists (60% of games) was Larry Bird — and he did it 5 times (1984-85: 28.7/10.5/6.6; 1983-84: 24.2/10.1/6.6; 1982-83: 23.6/11.0/5.8; …)."
+   "text": "The only player of the 1980s to average 20 points, 10 rebounds and 5 assists (60% of games) was Larry Bird — and he did it 5 times (1984-85: 28.7/10.5/6.6; 1983-84: 24.2/10.1/6.6; 1982-83: 23.6/11.0/5.8; …).",
+   "why": "A club of one in the 1980s; \"name another\" posts draw replies. Do-everything stat lines get shared across fan bases."
   },
   {
    "n": 6,
@@ -425,7 +430,8 @@
    "seasons": [
     1980
    ],
-   "text": "The only player of the 1980s to average 42+ minutes a game (60% of games): Adrian Dantley, 1980-81 — 42.7 mpg."
+   "text": "The only player of the 1980s to average 42+ minutes a game (60% of games): Adrian Dantley, 1980-81 — 42.7 mpg.",
+   "why": "Nobody else in the 1980s did it, and exclusivity is what gets a post shared. Workload numbers from past eras astonish fans used to load management."
   },
   {
    "n": 7,
@@ -519,7 +525,8 @@
     1987,
     1986
    ],
-   "text": "Only two players of the 1980s shot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Mark Price (1988-89: .526/.441/.901); Larry Bird (2×, best 1987-88: .527/.414/.916)."
+   "text": "Only two players of the 1980s shot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Mark Price (1988-89: .526/.441/.901); Larry Bird (2×, best 1987-88: .527/.414/.916).",
+   "why": "Two names invite the \"whose season was better?\" argument. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 8,
@@ -563,7 +570,8 @@
    "seasons": [
     1986
    ],
-   "text": "The only player of the 1980s to attempt 2,000 field goals in a season: Michael Jordan, 1986-87 — 2,279 FGA."
+   "text": "The only player of the 1980s to attempt 2,000 field goals in a season: Michael Jordan, 1986-87 — 2,279 FGA.",
+   "why": "Nobody else in the 1980s did it, and exclusivity is what gets a post shared. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 9,
@@ -630,7 +638,8 @@
     1983,
     1986
    ],
-   "text": "The only player of the 1980s to score 600 points in one postseason was Larry Bird — and he did it twice (1983-84: 632 pts in 23 games; 1986-87: 622 pts in 23 games)."
+   "text": "The only player of the 1980s to score 600 points in one postseason was Larry Bird — and he did it twice (1983-84: 632 pts in 23 games; 1986-87: 622 pts in 23 games).",
+   "why": "A club of one in the 1980s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 10,
@@ -674,7 +683,8 @@
    "seasons": [
     1982
    ],
-   "text": "The only player of the 1980s to average 25 points while missing 40% of the season (20+ games): Adrian Dantley, 1982-83 — 30.7 ppg in 22 games."
+   "text": "The only player of the 1980s to average 25 points while missing 40% of the season (20+ games): Adrian Dantley, 1982-83 — 30.7 ppg in 22 games.",
+   "why": "Nobody else in the 1980s did it, and exclusivity is what gets a post shared. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 11,
@@ -768,7 +778,8 @@
     1987,
     1986
    ],
-   "text": "Only two players of the 1980s shot .900 from the line on 400+ attempts: Magic Johnson (1988-89: .911 on 563 FTA); Larry Bird (2×, best 1987-88: .916 on 453 FTA)."
+   "text": "Only two players of the 1980s shot .900 from the line on 400+ attempts: Magic Johnson (1988-89: .911 on 563 FTA); Larry Bird (2×, best 1987-88: .916 on 453 FTA).",
+   "why": "Two names invite the \"whose season was better?\" argument. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 12,
@@ -931,7 +942,8 @@
     1986,
     1987
    ],
-   "text": "Only two players of the 1980s shot .600 from the field on 800+ attempts: Artis Gilmore (4×, best 1980-81: .670 on 816 FGA); Kevin McHale (2×, best 1986-87: .604 on 1,307 FGA)."
+   "text": "Only two players of the 1980s shot .600 from the field on 800+ attempts: Artis Gilmore (4×, best 1980-81: .670 on 816 FGA); Kevin McHale (2×, best 1986-87: .604 on 1,307 FGA).",
+   "why": "A two-player club is a ready-made debate. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 13,
@@ -1002,7 +1014,8 @@
     1981,
     1989
    ],
-   "text": "Only two players of the 1980s averaged 30 points and 10 rebounds (60% of games): Moses Malone (1981-82: 31.1 ppg, 14.7 rpg); Karl Malone (1989-90: 31.0 ppg, 11.1 rpg)."
+   "text": "Only two players of the 1980s averaged 30 points and 10 rebounds (60% of games): Moses Malone (1981-82: 31.1 ppg, 14.7 rpg); Karl Malone (1989-90: 31.0 ppg, 11.1 rpg).",
+   "why": "Two names invite the \"whose season was better?\" argument. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 14,
@@ -1206,7 +1219,8 @@
      "TOV": 198
     }
    ],
-   "text": "Alex English averaged 25+ points in 8 straight seasons (1981-82 to 1988-89), the longest run of the 1980s."
+   "text": "Alex English averaged 25+ points in 8 straight seasons (1981-82 to 1988-89), the longest run of the 1980s.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 15,
@@ -1456,7 +1470,8 @@
      "TOV": 232
     }
    ],
-   "text": "Moses Malone averaged a double-digit rebounding figure in 10 straight seasons (1980-81 to 1989-90), the longest run of the 1980s."
+   "text": "Moses Malone averaged a double-digit rebounding figure in 10 straight seasons (1980-81 to 1989-90), the longest run of the 1980s.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 16,
@@ -1683,7 +1698,8 @@
      "TOV": 289
     }
    ],
-   "text": "Magic Johnson averaged 8+ assists in 9 straight seasons (1981-82 to 1989-90), the longest run of the 1980s."
+   "text": "Magic Johnson averaged 8+ assists in 9 straight seasons (1981-82 to 1989-90), the longest run of the 1980s.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
    "n": 17,
@@ -1887,7 +1903,8 @@
      "TOV": 198
     }
    ],
-   "text": "Alex English scored 2,000 points in 8 straight seasons (1981-82 to 1988-89), the longest run of the 1980s."
+   "text": "Alex English scored 2,000 points in 8 straight seasons (1981-82 to 1988-89), the longest run of the 1980s.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 18,
@@ -2114,7 +2131,8 @@
      "TOV": 245
     }
    ],
-   "text": "Moses Malone averaged 20+ points in 9 straight seasons (1980-81 to 1988-89), the longest run of the 1980s."
+   "text": "Moses Malone averaged 20+ points in 9 straight seasons (1980-81 to 1988-89), the longest run of the 1980s.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 19,
@@ -2341,7 +2359,8 @@
      "TOV": 183
     }
    ],
-   "text": "Kevin McHale shot .500 from the field (800+ FGA) in 9 straight seasons (1981-82 to 1989-90), the longest run of the 1980s."
+   "text": "Kevin McHale shot .500 from the field (800+ FGA) in 9 straight seasons (1981-82 to 1989-90), the longest run of the 1980s.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 20,
@@ -2545,7 +2564,8 @@
      "TOV": 160
     }
    ],
-   "text": "Maurice Cheeks averaged 2+ steals in 8 straight seasons (1980-81 to 1987-88), the longest run of the 1980s."
+   "text": "Maurice Cheeks averaged 2+ steals in 8 straight seasons (1980-81 to 1987-88), the longest run of the 1980s.",
+   "why": "Leads with the most extreme case, which carries the post. Steals are the defensive highlight stat."
   },
   {
    "n": 21,
@@ -2726,7 +2746,8 @@
      "TOV": 142
     }
    ],
-   "text": "Mark Eaton averaged 2.5+ blocks in 7 straight seasons (1982-83 to 1988-89), the longest run of the 1980s."
+   "text": "Mark Eaton averaged 2.5+ blocks in 7 straight seasons (1982-83 to 1988-89), the longest run of the 1980s.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 22,
@@ -2889,7 +2910,8 @@
     1988,
     1987
    ],
-   "text": "Only two players of the 1980s averaged 20 points and 10 rebounds with under 1.5 assists (60% of games): Moses Malone (5×, best 1982-83: 24.5/15.3/1.3); Hakeem Olajuwon (1984-85: 20.6/11.9/1.4)."
+   "text": "Only two players of the 1980s averaged 20 points and 10 rebounds with under 1.5 assists (60% of games): Moses Malone (5×, best 1982-83: 24.5/15.3/1.3); Hakeem Olajuwon (1984-85: 20.6/11.9/1.4).",
+   "why": "A two-player club is a ready-made debate. Do-everything stat lines get shared across fan bases."
   },
   {
    "n": 23,
@@ -3006,7 +3028,8 @@
     1985,
     1987
    ],
-   "text": "Only two players of the 1980s averaged 10 rebounds and 2 steals (60% of games): Hakeem Olajuwon (3×, best 1988-89: 13.5 rpg, 2.6 spg); Charles Barkley (1985-86: 12.8 rpg, 2.2 spg)."
+   "text": "Only two players of the 1980s averaged 10 rebounds and 2 steals (60% of games): Hakeem Olajuwon (3×, best 1988-89: 13.5 rpg, 2.6 spg); Charles Barkley (1985-86: 12.8 rpg, 2.2 spg).",
+   "why": "Two names invite the \"whose season was better?\" argument. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 24,
@@ -3077,7 +3100,8 @@
     1980,
     1989
    ],
-   "text": "Only two players of the 1980s grabbed more offensive rebounds than defensive (300+ reb): Vinnie Johnson (1980-81: 193 off, 173 def); Michael Ansley (1989-90: 187 off, 175 def)."
+   "text": "Only two players of the 1980s grabbed more offensive rebounds than defensive (300+ reb): Vinnie Johnson (1980-81: 193 off, 173 def); Michael Ansley (1989-90: 187 off, 175 def).",
+   "why": "A two-player club is a ready-made debate. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 25,
@@ -3175,7 +3199,8 @@
     1989,
     1989
    ],
-   "text": "Just three players of the 1980s made 150 threes at a .400 clip: Dale Ellis (1988-89: 162 3PM, .478); Reggie Miller (1989-90: 150 3PM, .414); Mark Price (1989-90: 152 3PM, .406)."
+   "text": "Just three players of the 1980s made 150 threes at a .400 clip: Dale Ellis (1988-89: 162 3PM, .478); Reggie Miller (1989-90: 150 3PM, .414); Mark Price (1989-90: 152 3PM, .406).",
+   "why": "A short list fans can recite; each name brings its own fan base. Three-point volume is the modern game's signature."
   },
   {
    "n": 26,
@@ -3411,7 +3436,8 @@
     1985,
     1986
    ],
-   "text": "Just three players of the 1980s averaged 20 points and 10 assists (60% of games): Magic Johnson (3×, best 1986-87: 23.9 ppg, 12.2 apg); Isiah Thomas (4×, best 1984-85: 21.2 ppg, 13.9 apg); Kevin Johnson (2×, best 1989-90: 22.5 ppg, 11.4 apg)."
+   "text": "Just three players of the 1980s averaged 20 points and 10 assists (60% of games): Magic Johnson (3×, best 1986-87: 23.9 ppg, 12.2 apg); Isiah Thomas (4×, best 1984-85: 21.2 ppg, 13.9 apg); Kevin Johnson (2×, best 1989-90: 22.5 ppg, 11.4 apg).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Assist averages crown the true point guards."
   },
   {
    "n": 27,
@@ -3509,7 +3535,8 @@
     1981,
     1987
    ],
-   "text": "Just three players of the 1980s log 3,300 minutes in a season: Adrian Dantley (1980-81: 3,417 min); Moses Malone (1981-82: 3,398 min); Michael Jordan (1987-88: 3,311 min)."
+   "text": "Just three players of the 1980s log 3,300 minutes in a season: Adrian Dantley (1980-81: 3,417 min); Moses Malone (1981-82: 3,398 min); Michael Jordan (1987-88: 3,311 min).",
+   "why": "A short list fans can recite; each name brings its own fan base. Workload numbers from past eras astonish fans used to load management."
   },
   {
    "n": 28,
@@ -3630,7 +3657,8 @@
     1982,
     1981
    ],
-   "text": "Just three players of the 1980s averaged 4.5+ personal fouls a game (60% of games): Steve Johnson (1981-82: 4.8 PF a game); Darryl Dawkins (2×, best 1983-84: 4.8 PF a game); James Edwards (1981-82: 4.5 PF a game)."
+   "text": "Just three players of the 1980s averaged 4.5+ personal fouls a game (60% of games): Steve Johnson (1981-82: 4.8 PF a game); Darryl Dawkins (2×, best 1983-84: 4.8 PF a game); James Edwards (1981-82: 4.5 PF a game).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Foul-trouble seasons are an oddity fans love to share."
   },
   {
    "n": 29,
@@ -3755,7 +3783,8 @@
     1984,
     1988
    ],
-   "text": "Just four players of the 1980s averaged 20 points in under 30 minutes a game (60% of games): Ricky Pierce (1989-90: 23.0 ppg in 29.0 mpg); Eddie Johnson (1988-89: 21.5 ppg in 29.2 mpg); George Gervin (1984-85: 21.2 ppg in 29.0 mpg); Xavier McDaniel (1988-89: 20.5 ppg in 29.1 mpg)."
+   "text": "Just four players of the 1980s averaged 20 points in under 30 minutes a game (60% of games): Ricky Pierce (1989-90: 23.0 ppg in 29.0 mpg); Eddie Johnson (1988-89: 21.5 ppg in 29.2 mpg); George Gervin (1984-85: 21.2 ppg in 29.0 mpg); Xavier McDaniel (1988-89: 20.5 ppg in 29.1 mpg).",
+   "why": "A short list fans can recite; each name brings its own fan base. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 30,
@@ -3880,7 +3909,8 @@
     1980,
     1988
    ],
-   "text": "Just four players of the 1980s shot under .550 from the line on 300+ attempts: Karl Malone (1985-86: .481 on 405 FTA); Greg Anderson (1988-89: .514 on 403 FTA); George McGinnis (1980-81: .538 on 385 FTA); Rony Seikaly (1988-89: .511 on 354 FTA)."
+   "text": "Just four players of the 1980s shot under .550 from the line on 300+ attempts: Karl Malone (1985-86: .481 on 405 FTA); Greg Anderson (1988-89: .514 on 403 FTA); George McGinnis (1980-81: .538 on 385 FTA); Rony Seikaly (1988-89: .511 on 354 FTA).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shot volume invites the gunner debate."
   },
   {
    "n": 31,
@@ -4034,7 +4064,8 @@
    "seasons": [
     1986
    ],
-   "text": "24 players scored 2,000 points in a season in the 1980s (59 seasons). The most extreme: Michael Jordan, 1986-87 — 3,041 pts."
+   "text": "24 players scored 2,000 points in a season in the 1980s (59 seasons). The most extreme: Michael Jordan, 1986-87 — 3,041 pts.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 32,
@@ -4077,8 +4108,9 @@
      "TOV": 26
     }
    ],
-   "among": 219,
-   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 1980s: James Worthy, 1984-85 — .622."
+   "among": 220,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 1980s: James Worthy, 1984-85 — .622.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 33,
@@ -4121,8 +4153,9 @@
      "TOV": 83
     }
    ],
-   "among": 1678,
-   "text": "Most assists in a single postseason in the 1980s: Magic Johnson, 1987-88 — 303 in 24 games."
+   "among": 1699,
+   "text": "Most assists in a single postseason in the 1980s: Magic Johnson, 1987-88 — 303 in 24 games.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Assist averages crown the true point guards."
   },
   {
    "n": 34,
@@ -4165,8 +4198,9 @@
      "TOV": 154
     }
    ],
-   "among": 241,
-   "text": "Lowest field-goal percentage by a 20-point scorer in the 1980s: World Free, 1983-84 — .445 while averaging 22.3."
+   "among": 242,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 1980s: World Free, 1983-84 — .445 while averaging 22.3.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot volume invites the gunner debate."
   },
   {
    "n": 35,
@@ -4209,8 +4243,9 @@
      "TOV": 197
     }
    ],
-   "among": 494,
-   "text": "Best field-goal percentage on 1,000+ attempts in the 1980s: Kevin McHale, 1986-87 — .604 (790-1,307)."
+   "among": 497,
+   "text": "Best field-goal percentage on 1,000+ attempts in the 1980s: Kevin McHale, 1986-87 — .604 (790-1,307).",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 36,
@@ -4254,7 +4289,8 @@
     }
    ],
    "among": 308,
-   "text": "Worst free-throw percentage on 400+ attempts in the 1980s: Karl Malone, 1985-86 — .481 (195-405)."
+   "text": "Worst free-throw percentage on 400+ attempts in the 1980s: Karl Malone, 1985-86 — .481 (195-405).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot volume invites the gunner debate."
   },
   {
    "n": 37,
@@ -4297,8 +4333,9 @@
      "TOV": 146
     }
    ],
-   "among": 1161,
-   "text": "Most assists by a sub-10-point scorer in the 1980s: Muggsy Bogues, 1989-90 — 867 assists while averaging 9.4."
+   "among": 1183,
+   "text": "Most assists by a sub-10-point scorer in the 1980s: Muggsy Bogues, 1989-90 — 867 assists while averaging 9.4.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 38,
@@ -4341,8 +4378,9 @@
      "TOV": 231
     }
    ],
-   "among": 3223,
-   "text": "Most personal fouls in a season in the 1980s: Darryl Dawkins, 1983-84 — 386."
+   "among": 3291,
+   "text": "Most personal fouls in a season in the 1980s: Darryl Dawkins, 1983-84 — 386.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Foul-trouble seasons are an oddity fans love to share."
   },
   {
    "n": 39,
@@ -4385,8 +4423,9 @@
      "TOV": 272
     }
    ],
-   "among": 3223,
-   "text": "Most assists in a season in the 1980s: John Stockton, 1989-90 — 1134 (14.5 a game)."
+   "among": 3291,
+   "text": "Most assists in a season in the 1980s: John Stockton, 1989-90 — 1134 (14.5 a game).",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Assist averages crown the true point guards."
   },
   {
    "n": 40,
@@ -4429,8 +4468,9 @@
      "TOV": 282
     }
    ],
-   "among": 3223,
-   "text": "Most minutes played in a season in the 1980s: Adrian Dantley, 1980-81 — 3,417 (42.7 a game)."
+   "among": 3291,
+   "text": "Most minutes played in a season in the 1980s: Adrian Dantley, 1980-81 — 3,417 (42.7 a game).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workload numbers from past eras astonish fans used to load management."
   },
   {
    "n": 41,
@@ -4473,8 +4513,9 @@
      "TOV": 146
     }
    ],
-   "among": 1161,
-   "text": "Most rebounds by a sub-10-point scorer in the 1980s: Larry Smith, 1980-81 — 994 rebounds while averaging 9.6."
+   "among": 1183,
+   "text": "Most rebounds by a sub-10-point scorer in the 1980s: Larry Smith, 1980-81 — 994 rebounds while averaging 9.6.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 42,
@@ -4517,8 +4558,9 @@
      "TOV": 272
     }
    ],
-   "among": 2323,
-   "text": "Highest assist average of the 1980s: John Stockton, 1989-90 — 14.5 a game."
+   "among": 2358,
+   "text": "Highest assist average of the 1980s: John Stockton, 1989-90 — 14.5 a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
   },
   {
    "n": 43,
@@ -4561,8 +4603,9 @@
      "TOV": 135
     }
    ],
-   "among": 522,
-   "text": "Most points by a player who appeared in fewer than 50 games in the 1980s: John Drew, 1982-83 — 932 in 44."
+   "among": 542,
+   "text": "Most points by a player who appeared in fewer than 50 games in the 1980s: John Drew, 1982-83 — 932 in 44.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 44,
@@ -4605,8 +4648,9 @@
      "TOV": 129
     }
    ],
-   "among": 1342,
-   "text": "Best free-throw percentage in a season (125+ made) in the 1980s: Calvin Murphy, 1980-81 — .958."
+   "among": 1356,
+   "text": "Best free-throw percentage in a season (125+ made) in the 1980s: Calvin Murphy, 1980-81 — .958.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 45,
@@ -4649,8 +4693,9 @@
      "TOV": 256
     }
    ],
-   "among": 3223,
-   "text": "Most steals in a season in the 1980s: Alvin Robertson, 1985-86 — 301."
+   "among": 3291,
+   "text": "Most steals in a season in the 1980s: Alvin Robertson, 1985-86 — 301.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Steals are the defensive highlight stat."
   },
   {
    "n": 46,
@@ -4693,8 +4738,9 @@
      "TOV": 206
     }
    ],
-   "among": 3223,
-   "text": "Most blocked shots in a season in the 1980s: Mark Eaton, 1984-85 — 456."
+   "among": 3291,
+   "text": "Most blocked shots in a season in the 1980s: Mark Eaton, 1984-85 — 456.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 47,
@@ -4738,7 +4784,8 @@
     }
    ],
    "among": 8,
-   "text": "Best three-point percentage on 300+ attempts in the 1980s: Dale Ellis, 1988-89 — .478 (162-339)."
+   "text": "Best three-point percentage on 300+ attempts in the 1980s: Dale Ellis, 1988-89 — .478 (162-339).",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Three-point volume is the modern game's signature."
   },
   {
    "n": 48,
@@ -4781,8 +4828,9 @@
      "TOV": 180
     }
    ],
-   "among": 3223,
-   "text": "Most threes made in a season in the 1980s: Michael Adams, 1988-89 — 166."
+   "among": 3291,
+   "text": "Most threes made in a season in the 1980s: Michael Adams, 1988-89 — 166.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Three-point volume is the modern game's signature."
   },
   {
    "n": 49,
@@ -4825,8 +4873,9 @@
      "TOV": 350
     }
    ],
-   "among": 3223,
-   "text": "Most turnovers in a season in the 1980s: Charles Barkley, 1985-86 — 350."
+   "among": 3291,
+   "text": "Most turnovers in a season in the 1980s: Charles Barkley, 1985-86 — 350.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Turnover totals are the stat fan bases never forget."
   },
   {
    "n": 50,
@@ -4989,122 +5038,11 @@
      "TOV": 192
     }
    ],
-   "text": "8 player-seasons of the 1980s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Jack Sikma (1983-84), Jerome Kersey (1987-88), Kevin Johnson (1989-90)."
+   "text": "8 player-seasons of the 1980s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Jack Sikma (1983-84), Jerome Kersey (1987-88), Kevin Johnson (1989-90).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
    "n": 51,
-   "kind": "streak",
-   "rule": "s_gp",
-   "group": "P",
-   "decade": "1980s",
-   "score": 6,
-   "players": [
-    {
-     "id": 76583,
-     "name": "James Donaldson"
-    }
-   ],
-   "seasons": [
-    1983,
-    1984,
-    1985,
-    1986
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 76583,
-     "name": "James Donaldson",
-     "season": 1983,
-     "team": "SDC",
-     "GP": 82,
-     "PTS": 969,
-     "PPG": 11.8,
-     "REB": 649,
-     "AST": 90,
-     "STL": 40,
-     "BLK": 139,
-     "FGM": 360,
-     "FGA": 604,
-     "FG3M": 0,
-     "FG3A": 0,
-     "FTM": 249,
-     "FTA": 327,
-     "MIN": 2525,
-     "PF": 214,
-     "TOV": 171
-    },
-    {
-     "id": 76583,
-     "name": "James Donaldson",
-     "season": 1984,
-     "team": "LAC",
-     "GP": 82,
-     "PTS": 929,
-     "PPG": 11.3,
-     "REB": 668,
-     "AST": 48,
-     "STL": 28,
-     "BLK": 130,
-     "FGM": 351,
-     "FGA": 551,
-     "FG3M": 0,
-     "FG3A": 0,
-     "FTM": 227,
-     "FTA": 303,
-     "MIN": 2392,
-     "PF": 217,
-     "TOV": 206
-    },
-    {
-     "id": 76583,
-     "name": "James Donaldson",
-     "season": 1985,
-     "team": "DAL",
-     "GP": 83,
-     "PTS": 716,
-     "PPG": 8.6,
-     "REB": 795,
-     "AST": 96,
-     "STL": 28,
-     "BLK": 139,
-     "FGM": 256,
-     "FGA": 459,
-     "FG3M": 0,
-     "FG3A": 0,
-     "FTM": 204,
-     "FTA": 254,
-     "MIN": 2682,
-     "PF": 189,
-     "TOV": 123
-    },
-    {
-     "id": 76583,
-     "name": "James Donaldson",
-     "season": 1986,
-     "team": "DAL",
-     "GP": 82,
-     "PTS": 889,
-     "PPG": 10.8,
-     "REB": 973,
-     "AST": 63,
-     "STL": 51,
-     "BLK": 136,
-     "FGM": 311,
-     "FGA": 531,
-     "FG3M": 0,
-     "FG3A": 0,
-     "FTM": 267,
-     "FTA": 329,
-     "MIN": 3028,
-     "PF": 191,
-     "TOV": 104
-    }
-   ],
-   "text": "James Donaldson played every game in 4 straight seasons (1983-84 to 1986-87), the longest run of the 1980s."
-  },
-  {
-   "n": 52,
    "kind": "extreme",
    "rule": "po_most_pts",
    "group": "P",
@@ -5144,11 +5082,12 @@
      "TOV": 87
     }
    ],
-   "among": 1678,
-   "text": "Most points in a single postseason in the 1980s: Larry Bird, 1983-84 — 632 in 23 games."
+   "among": 1703,
+   "text": "Most points in a single postseason in the 1980s: Larry Bird, 1983-84 — 632 in 23 games.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 53,
+   "n": 52,
    "kind": "extreme",
    "rule": "po_most_reb",
    "group": "P",
@@ -5188,11 +5127,12 @@
      "TOV": 59
     }
    ],
-   "among": 1678,
-   "text": "Most rebounds in a single postseason in the 1980s: Moses Malone, 1980-81 — 305 in 21 games."
+   "among": 1699,
+   "text": "Most rebounds in a single postseason in the 1980s: Moses Malone, 1980-81 — 305 in 21 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 54,
+   "n": 53,
    "kind": "extreme",
    "rule": "top_ppg",
    "group": "P",
@@ -5232,11 +5172,12 @@
      "TOV": 272
     }
    ],
-   "among": 2323,
-   "text": "Highest scoring average of the 1980s: Michael Jordan, 1986-87 — 37.1 points a game."
+   "among": 2358,
+   "text": "Highest scoring average of the 1980s: Michael Jordan, 1986-87 — 37.1 points a game.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 55,
+   "n": 54,
    "kind": "extreme",
    "rule": "best_ft_volume",
    "group": "P",
@@ -5277,10 +5218,11 @@
     }
    ],
    "among": 137,
-   "text": "Best free-throw percentage on 500+ attempts in the 1980s: Magic Johnson, 1988-89 — .911 (513-563)."
+   "text": "Best free-throw percentage on 500+ attempts in the 1980s: Magic Johnson, 1988-89 — .911 (513-563).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 56,
+   "n": 55,
    "kind": "extreme",
    "rule": "most_fga",
    "group": "P",
@@ -5320,8 +5262,54 @@
      "TOV": 272
     }
    ],
-   "among": 3223,
-   "text": "Most shots attempted in a season in the 1980s: Michael Jordan, 1986-87 — 2,279 FGA, .482."
+   "among": 3291,
+   "text": "Most shots attempted in a season in the 1980s: Michael Jordan, 1986-87 — 2,279 FGA, .482.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "most_reb",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1982,
+     "team": "PHL",
+     "GP": 78,
+     "PTS": 1908,
+     "PPG": 24.5,
+     "REB": 1194,
+     "AST": 101,
+     "STL": 89,
+     "BLK": 157,
+     "FGM": 654,
+     "FGA": 1305,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 600,
+     "FTA": 788,
+     "MIN": 2922,
+     "PF": 206,
+     "TOV": 264
+    }
+   ],
+   "among": 3291,
+   "text": "Most rebounds in a season in the 1980s: Moses Malone, 1982-83 — 1,194 (15.3 a game).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 57,
@@ -5475,7 +5463,8 @@
    "seasons": [
     1981
    ],
-   "text": "11 players shot .560 or better while averaging 20 points (60% of games) in the 1980s (25 seasons). The most extreme: Adrian Dantley, 1981-82 — .570 FG, 30.3 ppg."
+   "text": "11 players shot .560 or better while averaging 20 points (60% of games) in the 1980s (25 seasons). The most extreme: Adrian Dantley, 1981-82 — .570 FG, 30.3 ppg.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 58,
@@ -5524,7 +5513,8 @@
      "seasons": 8
     }
    ],
-   "text": "Most points of the 1980s: Alex English, 21,133 — 2,642 ahead of Moses Malone."
+   "text": "Most points of the 1980s: Alex English, 21,133 — 2,642 ahead of Moses Malone.",
+   "why": "A decade-long view that settles consistency debates. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 59,
@@ -5573,7 +5563,8 @@
      "seasons": 10
     }
    ],
-   "text": "Most games played in the 1980s: Bill Laimbeer, 815."
+   "text": "Most games played in the 1980s: Bill Laimbeer, 815.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workload numbers from past eras astonish fans used to load management."
   },
   {
    "n": 60,
@@ -5622,7 +5613,8 @@
      "seasons": 10
     }
    ],
-   "text": "Most personal fouls committed in the 1980s: Bill Laimbeer, 2,924."
+   "text": "Most personal fouls committed in the 1980s: Bill Laimbeer, 2,924.",
+   "why": "A decade-long view that settles consistency debates. Foul-trouble seasons are an oddity fans love to share."
   },
   {
    "n": 61,
@@ -5671,7 +5663,8 @@
      "seasons": 6
     }
    ],
-   "text": "Most steals of the 1980s: Maurice Cheeks, 1,709."
+   "text": "Most steals of the 1980s: Maurice Cheeks, 1,709.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Steals are the defensive highlight stat."
   },
   {
    "n": 62,
@@ -5720,7 +5713,8 @@
      "seasons": 10
     }
    ],
-   "text": "Most blocked shots of the 1980s: Mark Eaton, 2,592."
+   "text": "Most blocked shots of the 1980s: Mark Eaton, 2,592.",
+   "why": "A decade-long view that settles consistency debates. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 63,
@@ -5776,7 +5770,8 @@
      "count": 7
     }
    ],
-   "text": "1987-88 had 9 25-point scorers, the most of any season in the 1980s."
+   "text": "1987-88 had 9 players averaging 25 points (60% of games), the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s."
   },
   {
    "n": 64,
@@ -5832,7 +5827,8 @@
      "count": 7
     }
    ],
-   "text": "1981-82 had just 4 25-point scorers, the fewest of any season in the 1980s."
+   "text": "1981-82 had just 4 players averaging 25 points (60% of games), the fewest of any season in the 1980s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 65,
@@ -5888,7 +5884,8 @@
      "count": 5
     }
    ],
-   "text": "1987-88 had 5 20-and-10 players, the most of any season in the 1980s."
+   "text": "1987-88 had 5 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s."
   },
   {
    "n": 66,
@@ -5944,7 +5941,8 @@
      "count": 5
     }
    ],
-   "text": "1980-81 had just 3 20-and-10 players, the fewest of any season in the 1980s."
+   "text": "1980-81 had just 3 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1980s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 67,
@@ -6000,7 +5998,8 @@
      "count": 4
     }
    ],
-   "text": "1989-90 had 4 .900 free-throw shooters (200+ FTA), the most of any season in the 1980s."
+   "text": "1989-90 had 4 .900 free-throw shooters (200+ FTA), the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 68,
@@ -6056,7 +6055,8 @@
      "count": 4
     }
    ],
-   "text": "1981-82 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1980s without one."
+   "text": "1981-82 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1980s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 69,
@@ -6112,7 +6112,8 @@
      "count": 9
     }
    ],
-   "text": "1985-86 had 10 8-assist players, the most of any season in the 1980s."
+   "text": "1985-86 had 10 8-assist players, the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s. Assist averages crown the true point guards."
   },
   {
    "n": 70,
@@ -6168,7 +6169,8 @@
      "count": 9
     }
    ],
-   "text": "1980-81 had just 3 8-assist players, the fewest of any season in the 1980s."
+   "text": "1980-81 had just 3 8-assist players, the fewest of any season in the 1980s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 71,
@@ -6189,7 +6191,7 @@
     },
     {
      "season": 1981,
-     "count": 18
+     "count": 19
     },
     {
      "season": 1982,
@@ -6224,7 +6226,8 @@
      "count": 26
     }
    ],
-   "text": "1984-85 had 28 20-point scorers, the most of any season in the 1980s."
+   "text": "1984-85 had 28 players averaging 20 points (60% of games), the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s."
   },
   {
    "n": 72,
@@ -6235,7 +6238,7 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1981
+    1980
    ],
    "finder": null,
    "evidence": [
@@ -6245,7 +6248,7 @@
     },
     {
      "season": 1981,
-     "count": 18
+     "count": 19
     },
     {
      "season": 1982,
@@ -6280,122 +6283,11 @@
      "count": 26
     }
    ],
-   "text": "1981-82 had just 18 20-point scorers, the fewest of any season in the 1980s."
+   "text": "1980-81 had just 19 players averaging 20 points (60% of games), the fewest of any season in the 1980s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 73,
-   "kind": "season",
-   "rule": "c_all_most",
-   "group": "P",
-   "decade": "1980s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1989
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1980,
-     "count": 55
-    },
-    {
-     "season": 1981,
-     "count": 1
-    },
-    {
-     "season": 1982,
-     "count": 1
-    },
-    {
-     "season": 1983,
-     "count": 40
-    },
-    {
-     "season": 1984,
-     "count": 40
-    },
-    {
-     "season": 1985,
-     "count": 1
-    },
-    {
-     "season": 1986,
-     "count": 43
-    },
-    {
-     "season": 1987,
-     "count": 1
-    },
-    {
-     "season": 1988,
-     "count": 38
-    },
-    {
-     "season": 1989,
-     "count": 58
-    }
-   ],
-   "text": "1989-90 had 58 players who appeared in every game, the most of any season in the 1980s."
-  },
-  {
-   "n": 74,
-   "kind": "season",
-   "rule": "c_all_least",
-   "group": "P",
-   "decade": "1980s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1981
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1980,
-     "count": 55
-    },
-    {
-     "season": 1981,
-     "count": 1
-    },
-    {
-     "season": 1982,
-     "count": 1
-    },
-    {
-     "season": 1983,
-     "count": 40
-    },
-    {
-     "season": 1984,
-     "count": 40
-    },
-    {
-     "season": 1985,
-     "count": 1
-    },
-    {
-     "season": 1986,
-     "count": 43
-    },
-    {
-     "season": 1987,
-     "count": 1
-    },
-    {
-     "season": 1988,
-     "count": 38
-    },
-    {
-     "season": 1989,
-     "count": 58
-    }
-   ],
-   "text": "1981-82 had just one player who appeared in every game, the fewest of any season in the 1980s."
-  },
-  {
-   "n": 75,
    "kind": "season",
    "rule": "c_10rpg_most",
    "group": "P",
@@ -6448,10 +6340,11 @@
      "count": 11
     }
    ],
-   "text": "1982-83 had 13 double-digit rebounders, the most of any season in the 1980s."
+   "text": "1982-83 had 13 players averaging 10 rebounds (60% of games), the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 76,
+   "n": 74,
    "kind": "season",
    "rule": "c_10rpg_least",
    "group": "P",
@@ -6504,157 +6397,11 @@
      "count": 11
     }
    ],
-   "text": "1985-86 had just 7 double-digit rebounders, the fewest of any season in the 1980s."
+   "text": "1985-86 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 1980s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 77,
-   "kind": "total",
-   "rule": "t_ast",
-   "group": "P",
-   "decade": "1980s",
-   "score": 5,
-   "players": [
-    {
-     "id": 77142,
-     "name": "Magic Johnson"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 77142,
-     "name": "Magic Johnson",
-     "total": 8369,
-     "seasons": 10
-    },
-    {
-     "id": 78318,
-     "name": "Isiah Thomas",
-     "total": 6985,
-     "seasons": 9
-    },
-    {
-     "id": 76385,
-     "name": "Maurice Cheeks",
-     "total": 5678,
-     "seasons": 10
-    },
-    {
-     "id": 78310,
-     "name": "Reggie Theus",
-     "total": 5131,
-     "seasons": 10
-    },
-    {
-     "id": 304,
-     "name": "John Stockton",
-     "total": 5075,
-     "seasons": 6
-    }
-   ],
-   "text": "Most assists of the 1980s: Magic Johnson, 8,369."
-  },
-  {
-   "n": 78,
-   "kind": "total",
-   "rule": "t_min",
-   "group": "P",
-   "decade": "1980s",
-   "score": 5,
-   "players": [
-    {
-     "id": 76673,
-     "name": "Alex English"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 76673,
-     "name": "Alex English",
-     "total": 29018,
-     "seasons": 10
-    },
-    {
-     "id": 77449,
-     "name": "Moses Malone",
-     "total": 28634,
-     "seasons": 10
-    },
-    {
-     "id": 1449,
-     "name": "Larry Bird",
-     "total": 27549,
-     "seasons": 10
-    },
-    {
-     "id": 78149,
-     "name": "Jack Sikma",
-     "total": 27014,
-     "seasons": 10
-    },
-    {
-     "id": 100263,
-     "name": "Bill Laimbeer",
-     "total": 26873,
-     "seasons": 10
-    }
-   ],
-   "text": "Most minutes of the 1980s: Alex English, 29,018."
-  },
-  {
-   "n": 79,
-   "kind": "total",
-   "rule": "t_3pm",
-   "group": "P",
-   "decade": "1980s",
-   "score": 5,
-   "players": [
-    {
-     "id": 107,
-     "name": "Dale Ellis"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 107,
-     "name": "Dale Ellis",
-     "total": 568,
-     "seasons": 7
-    },
-    {
-     "id": 76017,
-     "name": "Danny Ainge",
-     "total": 514,
-     "seasons": 9
-    },
-    {
-     "id": 149,
-     "name": "Michael Adams",
-     "total": 491,
-     "seasons": 5
-    },
-    {
-     "id": 77034,
-     "name": "Craig Hodges",
-     "total": 483,
-     "seasons": 8
-    },
-    {
-     "id": 76890,
-     "name": "Darrell Griffith",
-     "total": 482,
-     "seasons": 9
-    }
-   ],
-   "text": "Most threes of the 1980s: Dale Ellis, 568."
-  },
-  {
-   "n": 80,
+   "n": 75,
    "kind": "season",
    "rule": "c_30_most",
    "group": "P",
@@ -6707,10 +6454,11 @@
      "count": 2
     }
    ],
-   "text": "1981-82 had 3 30-point scorers, the most of any season in the 1980s."
+   "text": "1981-82 had 3 30-point scorers, the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s."
   },
   {
-   "n": 81,
+   "n": 76,
    "kind": "season",
    "rule": "c_30_least",
    "group": "P",
@@ -6763,10 +6511,161 @@
      "count": 2
     }
    ],
-   "text": "1982-83 had no 30-point scorers at all — the only season of the 1980s without one."
+   "text": "1982-83 had no 30-point scorers at all — the only season of the 1980s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
-   "n": 82,
+   "n": 77,
+   "kind": "total",
+   "rule": "t_ast",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "total": 8369,
+     "seasons": 10
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "total": 6985,
+     "seasons": 9
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "total": 5678,
+     "seasons": 10
+    },
+    {
+     "id": 78310,
+     "name": "Reggie Theus",
+     "total": 5131,
+     "seasons": 10
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "total": 5075,
+     "seasons": 6
+    }
+   ],
+   "text": "Most assists of the 1980s: Magic Johnson, 8,369.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Assist averages crown the true point guards."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "t_min",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76673,
+     "name": "Alex English"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "total": 29018,
+     "seasons": 10
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "total": 28634,
+     "seasons": 10
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "total": 27549,
+     "seasons": 10
+    },
+    {
+     "id": 78149,
+     "name": "Jack Sikma",
+     "total": 27014,
+     "seasons": 10
+    },
+    {
+     "id": 100263,
+     "name": "Bill Laimbeer",
+     "total": 26873,
+     "seasons": 10
+    }
+   ],
+   "text": "Most minutes of the 1980s: Alex English, 29,018.",
+   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "t_3pm",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 107,
+     "name": "Dale Ellis"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 107,
+     "name": "Dale Ellis",
+     "total": 568,
+     "seasons": 7
+    },
+    {
+     "id": 76017,
+     "name": "Danny Ainge",
+     "total": 514,
+     "seasons": 9
+    },
+    {
+     "id": 149,
+     "name": "Michael Adams",
+     "total": 491,
+     "seasons": 5
+    },
+    {
+     "id": 77034,
+     "name": "Craig Hodges",
+     "total": 483,
+     "seasons": 8
+    },
+    {
+     "id": 76890,
+     "name": "Darrell Griffith",
+     "total": 482,
+     "seasons": 9
+    }
+   ],
+   "text": "Most threes of the 1980s: Dale Ellis, 568.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 80,
    "kind": "season",
    "rule": "c_2spg_most",
    "group": "P",
@@ -6819,10 +6718,11 @@
      "count": 11
     }
    ],
-   "text": "1988-89 had 15 2-steal players, the most of any season in the 1980s."
+   "text": "1988-89 had 15 players averaging 2 steals (60% of games), the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s. Steals are the defensive highlight stat."
   },
   {
-   "n": 83,
+   "n": 81,
    "kind": "season",
    "rule": "c_2spg_least",
    "group": "P",
@@ -6875,7 +6775,122 @@
      "count": 11
     }
    ],
-   "text": "1980-81 had just 7 2-steal players, the fewest of any season in the 1980s."
+   "text": "1980-81 had just 7 players averaging 2 steals (60% of games), the fewest of any season in the 1980s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_2bpg_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 9
+    },
+    {
+     "season": 1981,
+     "count": 7
+    },
+    {
+     "season": 1982,
+     "count": 10
+    },
+    {
+     "season": 1983,
+     "count": 5
+    },
+    {
+     "season": 1984,
+     "count": 12
+    },
+    {
+     "season": 1985,
+     "count": 9
+    },
+    {
+     "season": 1986,
+     "count": 11
+    },
+    {
+     "season": 1987,
+     "count": 7
+    },
+    {
+     "season": 1988,
+     "count": 9
+    },
+    {
+     "season": 1989,
+     "count": 10
+    }
+   ],
+   "text": "1984-85 had 12 players averaging 2 blocks (60% of games), the most of any season in the 1980s.",
+   "why": "Rewards staying power: the most such seasons in the 1980s. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_2bpg_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 9
+    },
+    {
+     "season": 1981,
+     "count": 7
+    },
+    {
+     "season": 1982,
+     "count": 10
+    },
+    {
+     "season": 1983,
+     "count": 5
+    },
+    {
+     "season": 1984,
+     "count": 12
+    },
+    {
+     "season": 1985,
+     "count": 9
+    },
+    {
+     "season": 1986,
+     "count": 11
+    },
+    {
+     "season": 1987,
+     "count": 7
+    },
+    {
+     "season": 1988,
+     "count": 9
+    },
+    {
+     "season": 1989,
+     "count": 10
+    }
+   ],
+   "text": "1983-84 had just 5 players averaging 2 blocks (60% of games), the fewest of any season in the 1980s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 84,
@@ -6972,7 +6987,8 @@
      "TOV": 161
     }
    ],
-   "text": "3 player-seasons of the 1980s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Kevin McHale (1986-87), Dan Roundfield (1983-84), David Greenwood (1986-87)."
+   "text": "3 player-seasons of the 1980s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Kevin McHale (1986-87), Dan Roundfield (1983-84), David Greenwood (1986-87).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
    "n": 85,
@@ -7042,7 +7058,8 @@
      "TOV": 123
     }
    ],
-   "text": "2 player-seasons of the 1980s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Trent Tucker (1988-89), Dana Barros (1989-90)."
+   "text": "2 player-seasons of the 1980s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Trent Tucker (1988-89), Dana Barros (1989-90).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
    "n": 86,
@@ -7196,7 +7213,8 @@
    "seasons": [
     1984
    ],
-   "text": "8 players averaged 3 blocks a game (60% of games) in the 1980s (23 seasons). The most extreme: Mark Eaton, 1984-85 — 5.6 bpg."
+   "text": "8 players averaged 3 blocks a game (60% of games) in the 1980s (23 seasons). The most extreme: Mark Eaton, 1984-85 — 5.6 bpg.",
+   "why": "Leads with the most extreme case, which carries the post. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 87,
@@ -7239,7 +7257,8 @@
      "TOV": 213
     }
    ],
-   "text": "Exactly one player of the 1980s finished a season with a 29.9 scoring average, a tenth short of 30: Larry Bird (1987-88)."
+   "text": "Exactly one player of the 1980s finished a season with a 29.9 scoring average, a tenth short of 30: Larry Bird (1987-88).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
    "n": 88,
@@ -7282,7 +7301,8 @@
      "TOV": 238
     }
    ],
-   "text": "Exactly one player of the 1980s finished a season with a 24.9 scoring average, a tenth short of 25: Dale Ellis (1986-87)."
+   "text": "Exactly one player of the 1980s finished a season with a 24.9 scoring average, a tenth short of 25: Dale Ellis (1986-87).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
    "n": 89,
@@ -7436,7 +7456,8 @@
    "seasons": [
     1984
    ],
-   "text": "7 players blocked 250 shots in a season in the 1980s (19 seasons). The most extreme: Mark Eaton, 1984-85 — 456 blk."
+   "text": "7 players blocked 250 shots in a season in the 1980s (19 seasons). The most extreme: Mark Eaton, 1984-85 — 456 blk.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 90,
@@ -7590,7 +7611,8 @@
    "seasons": [
     1989
    ],
-   "text": "11 players dished out 800 assists in a season in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 1,134 ast."
+   "text": "11 players dished out 800 assists in a season in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 1,134 ast.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
    "n": 91,
@@ -7744,7 +7766,8 @@
    "seasons": [
     1989
    ],
-   "text": "11 players averaged 10+ assists (60% of games) in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 14.5 apg."
+   "text": "11 players averaged 10+ assists (60% of games) in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 14.5 apg.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Assist averages crown the true point guards."
   },
   {
    "n": 92,
@@ -7898,7 +7921,8 @@
    "seasons": [
     1989
    ],
-   "text": "11 players averaged 10 assists a game (60% of games) in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 14.5 apg."
+   "text": "11 players averaged 10 assists a game (60% of games) in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 14.5 apg.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
    "n": 93,
@@ -8052,7 +8076,8 @@
    "seasons": [
     1989
    ],
-   "text": "6 players blocked more shots than they assisted while averaging 20 points (60% of games) in the 1980s (16 seasons). The most extreme: Patrick Ewing, 1989-90 — 327 blk, 182 ast."
+   "text": "6 players blocked more shots than they assisted while averaging 20 points (60% of games) in the 1980s (16 seasons). The most extreme: Patrick Ewing, 1989-90 — 327 blk, 182 ast.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Assist averages crown the true point guards."
   },
   {
    "n": 94,
@@ -8206,7 +8231,8 @@
    "seasons": [
     1983
    ],
-   "text": "59 players committed 300 personal fouls in a season in the 1980s (112 seasons). The most extreme: Darryl Dawkins, 1983-84 — 386 PF."
+   "text": "59 players committed 300 personal fouls in a season in the 1980s (112 seasons). The most extreme: Darryl Dawkins, 1983-84 — 386 PF.",
+   "why": "Leads with the most extreme case, which carries the post. Foul-trouble seasons are an oddity fans love to share."
   },
   {
    "n": 95,
@@ -8360,7 +8386,8 @@
    "seasons": [
     1985
    ],
-   "text": "15 players recorded 200 steals in a season in the 1980s (31 seasons). The most extreme: Alvin Robertson, 1985-86 — 301 stl."
+   "text": "15 players recorded 200 steals in a season in the 1980s (31 seasons). The most extreme: Alvin Robertson, 1985-86 — 301 stl.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Steals are the defensive highlight stat."
   },
   {
    "n": 96,
@@ -8514,7 +8541,8 @@
    "seasons": [
     1985
    ],
-   "text": "14 players averaged 2.5 steals a game (60% of games) in the 1980s (33 seasons). The most extreme: Alvin Robertson, 1985-86 — 3.7 spg."
+   "text": "14 players averaged 2.5 steals a game (60% of games) in the 1980s (33 seasons). The most extreme: Alvin Robertson, 1985-86 — 3.7 spg.",
+   "why": "Leads with the most extreme case, which carries the post. Steals are the defensive highlight stat."
   },
   {
    "n": 97,
@@ -8668,7 +8696,8 @@
    "seasons": [
     1985
    ],
-   "text": "15 players committed 300 turnovers in a season in the 1980s (28 seasons). The most extreme: Charles Barkley, 1985-86 — 350 TOV."
+   "text": "15 players committed 300 turnovers in a season in the 1980s (28 seasons). The most extreme: Charles Barkley, 1985-86 — 350 TOV.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Turnover totals are the stat fan bases never forget."
   },
   {
    "n": 98,
@@ -8822,7 +8851,8 @@
    "seasons": [
     1988
    ],
-   "text": "20 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1980s (38 seasons). The most extreme: Mark Eaton, 1988-89 — 843 reb, 508 pts."
+   "text": "20 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1980s (38 seasons). The most extreme: Mark Eaton, 1988-89 — 843 reb, 508 pts.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 99,
@@ -8976,7 +9006,8 @@
    "seasons": [
     1986
    ],
-   "text": "8 players recorded more assists than points (60% of games, 300+ ast) in the 1980s (14 seasons). The most extreme: Nate McMillan, 1986-87 — 583 ast, 373 pts."
+   "text": "8 players recorded more assists than points (60% of games, 300+ ast) in the 1980s (14 seasons). The most extreme: Nate McMillan, 1986-87 — 583 ast, 373 pts.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 100,
@@ -9130,12 +9161,13 @@
    "seasons": [
     1984
    ],
-   "text": "11 players shot under .450 on 1,200+ attempts in the 1980s (12 seasons). The most extreme: Gus Williams, 1984-85 — .430 on 1,483 FGA."
+   "text": "11 players shot under .450 on 1,200+ attempts in the 1980s (12 seasons). The most extreme: Gus Williams, 1984-85 — .430 on 1,483 FGA.",
+   "why": "Leads with the most extreme case, which carries the post. Shot volume invites the gunner debate."
   }
  ],
  "counts": {
-  "playerSeasons": 3223,
-  "playoffPlayerSeasons": 1678
+  "playerSeasons": 3291,
+  "playoffPlayerSeasons": 1703
  },
  "method": [
   "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",

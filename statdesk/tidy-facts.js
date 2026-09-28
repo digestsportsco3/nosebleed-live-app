@@ -16,7 +16,8 @@ for (const f of process.argv.slice(2).filter((a) => !a.startsWith("--"))) {
   const doc = JSON.parse(fs.readFileSync(f, "utf8"));
   for (const x of doc.facts || []) x.text = tidy(x.text, x.rule);
   if (REWHY) for (const x of doc.facts || []) delete x.why;
-  const n = annotate(doc);
+  const sport = (f.match(/data\/(nba|nfl|cfb|cbb)\//) || [])[1] || "";
+  const n = annotate(doc, sport);
   if (/\/nfl\//.test(f) && NFL_NOTES[doc.decade]) doc.shortNote = NFL_NOTES[doc.decade] + (doc.facts.length < 100 ? " Fewer than 100 lines because the record for these seasons is thin; nothing was padded." : "");
   fs.writeFileSync(f, JSON.stringify(doc, null, 1));
   console.log(`${f}: tidied, ${n} why notes`);

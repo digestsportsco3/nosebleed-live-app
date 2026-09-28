@@ -12,7 +12,7 @@
 "use strict";
 const fs = require("fs");
 const path = require("path");
-const { label, enrich } = require("./facts");
+const { label, enrich , scheduleGP } = require("./facts");
 
 const DATA = path.join(__dirname, "..", "data", "nba");
 const MJID = 893;
@@ -35,7 +35,7 @@ function season(y, type) {
   const f = path.join(DATA, "seasons", `${label(y)}-${type}.json`);
   if (!fs.existsSync(f)) return [];
   const rows = JSON.parse(fs.readFileSync(f, "utf8")).rows.filter((r) => r.name);
-  const maxGP = Math.max(...rows.map((r) => r.GP || 0));
+  const maxGP = scheduleGP(rows);
   return rows.map((r) => enrich(r, y, maxGP));
 }
 function loadGames() {

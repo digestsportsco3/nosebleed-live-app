@@ -16,7 +16,7 @@
 "use strict";
 const fs = require("fs");
 const path = require("path");
-const { label, enrich } = require("./facts");
+const { label, enrich , scheduleGP } = require("./facts");
 
 const DATA = path.join(__dirname, "..", "data", "nba");
 const MJ = path.join(DATA, "mj");
@@ -300,7 +300,7 @@ function main() {
   for (const f of fs.readdirSync(path.join(DATA, "seasons"))) {
     const m = f.match(/^(\d{4})-\d{2}-(rs|po)\.json$/); if (!m) continue;
     const j = JSON.parse(fs.readFileSync(path.join(DATA, "seasons", f), "utf8"));
-    const y = Number(m[1]); const maxGP = Math.max(0, ...j.rows.map((r) => r.GP || 0));
+    const y = Number(m[1]); const maxGP = scheduleGP(j.rows);
     for (const r of j.rows) (m[2] === "rs" ? league : po).push(enrich(r, y, maxGP));
   }
   const MJID = 893;

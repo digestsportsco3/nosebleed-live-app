@@ -19,7 +19,7 @@
   "2024-25",
   "2025-26"
  ],
- "candidates": 118,
+ "candidates": 115,
  "facts": [
   {
    "n": 1,
@@ -63,7 +63,8 @@
    "seasons": [
     2020
    ],
-   "text": "The only player of the 2020s to shoot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Kyrie Irving, 2020-21 — .506/.402/.922."
+   "text": "The only player of the 2020s to shoot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Kyrie Irving, 2020-21 — .506/.402/.922.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 2,
@@ -107,7 +108,8 @@
    "seasons": [
     2024
    ],
-   "text": "The only player of the 2020s to dish out 800 assists in a season: Trae Young, 2024-25 — 880 ast."
+   "text": "The only player of the 2020s to dish out 800 assists in a season: Trae Young, 2024-25 — 880 ast.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Assist averages crown the true point guards."
   },
   {
    "n": 3,
@@ -151,7 +153,8 @@
    "seasons": [
     2024
    ],
-   "text": "The only player of the 2020s to average 2.5 steals a game (60% of games): Dyson Daniels, 2024-25 — 3.0 spg."
+   "text": "The only player of the 2020s to average 2.5 steals a game (60% of games): Dyson Daniels, 2024-25 — 3.0 spg.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Steals are the defensive highlight stat."
   },
   {
    "n": 4,
@@ -195,7 +198,8 @@
    "seasons": [
     2024
    ],
-   "text": "The only player of the 2020s to record 200 steals in a season: Dyson Daniels, 2024-25 — 229 stl."
+   "text": "The only player of the 2020s to record 200 steals in a season: Dyson Daniels, 2024-25 — 229 stl.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Steals are the defensive highlight stat."
   },
   {
    "n": 5,
@@ -239,7 +243,8 @@
    "seasons": [
     2021
    ],
-   "text": "The only player of the 2020s to attempt 800 free throws in a season: Joel Embiid, 2021-22 — 803 FTA (.814)."
+   "text": "The only player of the 2020s to attempt 800 free throws in a season: Joel Embiid, 2021-22 — 803 FTA (.814).",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 6,
@@ -283,7 +288,8 @@
    "seasons": [
     2023
    ],
-   "text": "The only player of the 2020s to block 250 shots in a season: Victor Wembanyama, 2023-24 — 254 blk."
+   "text": "The only player of the 2020s to block 250 shots in a season: Victor Wembanyama, 2023-24 — 254 blk.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 7,
@@ -327,7 +333,8 @@
    "seasons": [
     2025
    ],
-   "text": "The only player of the 2020s to shoot under .550 from the line on 300+ attempts: Rudy Gobert, 2025-26 — .526 on 302 FTA."
+   "text": "The only player of the 2020s to shoot under .550 from the line on 300+ attempts: Rudy Gobert, 2025-26 — .526 on 302 FTA.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Shot volume invites the gunner debate."
   },
   {
    "n": 8,
@@ -371,7 +378,8 @@
    "seasons": [
     2022
    ],
-   "text": "The only player of the 2020s to average 22+ points with fewer than 2 assists a game (60% of games): Lauri Markkanen, 2022-23 — 25.6 ppg, 1.9 apg."
+   "text": "The only player of the 2020s to average 22+ points with fewer than 2 assists a game (60% of games): Lauri Markkanen, 2022-23 — 25.6 ppg, 1.9 apg.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 9,
@@ -415,7 +423,8 @@
    "seasons": [
     2020
    ],
-   "text": "The only player of the 2020s to record more assists than points (60% of games, 300+ ast): Draymond Green, 2020-21 — 558 ast, 444 pts."
+   "text": "The only player of the 2020s to record more assists than points (60% of games, 300+ ast): Draymond Green, 2020-21 — 558 ast, 444 pts.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 10,
@@ -459,7 +468,8 @@
    "seasons": [
     2021
    ],
-   "text": "The only player of the 2020s to shoot better from three than from two (250+ 3PA, 300+ 2PA): Alec Burks, 2021-22 — .404 3P, .378 2P."
+   "text": "The only player of the 2020s to shoot better from three than from two (250+ 3PA, 300+ 2PA): Alec Burks, 2021-22 — .404 3P, .378 2P.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Three-point volume is the modern game's signature."
   },
   {
    "n": 11,
@@ -503,7 +513,8 @@
    "seasons": [
     2024
    ],
-   "text": "The only player of the 2020s to grab more offensive rebounds than defensive (300+ reb): Steven Adams, 2024-25 — 166 off, 161 def."
+   "text": "The only player of the 2020s to grab more offensive rebounds than defensive (300+ reb): Steven Adams, 2024-25 — 166 off, 161 def.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 12,
@@ -597,7 +608,8 @@
     2025,
     2020
    ],
-   "text": "Only two players of the 2020s averaged a triple-double for a season (60% of games): Nikola Jokić (2×, best 2024-25: 29.6/12.7/10.2); Russell Westbrook (2020-21: 22.2/11.5/11.7)."
+   "text": "Only two players of the 2020s averaged a triple-double for a season (60% of games): Nikola Jokić (2×, best 2024-25: 29.6/12.7/10.2); Russell Westbrook (2020-21: 22.2/11.5/11.7).",
+   "why": "A two-player club is a ready-made debate. Do-everything stat lines get shared across fan bases."
   },
   {
    "n": 13,
@@ -737,7 +749,8 @@
     2021,
     2023
    ],
-   "text": "Only two players of the 2020s averaged 30 points and 10 rebounds (60% of games): Joel Embiid (2×, best 2022-23: 33.1 ppg, 10.2 rpg); Giannis Antetokounmpo (3×, best 2022-23: 31.1 ppg, 11.8 rpg)."
+   "text": "Only two players of the 2020s averaged 30 points and 10 rebounds (60% of games): Joel Embiid (2×, best 2022-23: 33.1 ppg, 10.2 rpg); Giannis Antetokounmpo (3×, best 2022-23: 31.1 ppg, 11.8 rpg).",
+   "why": "Two names invite the \"whose season was better?\" argument. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 14,
@@ -854,7 +867,8 @@
     2023,
     2022
    ],
-   "text": "Only two players of the 2020s averaged 25 points and 10 assists (60% of games): Nikola Jokić (2×, best 2024-25: 29.6 ppg, 10.2 apg); Trae Young (2×, best 2023-24: 25.7 ppg, 10.8 apg)."
+   "text": "Only two players of the 2020s averaged 25 points and 10 assists (60% of games): Nikola Jokić (2×, best 2024-25: 29.6 ppg, 10.2 apg); Trae Young (2×, best 2023-24: 25.7 ppg, 10.8 apg).",
+   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 15,
@@ -1025,7 +1039,8 @@
     2021,
     2021
    ],
-   "text": "Just four players of the 2020s shot .900 from the line on 400+ attempts: Shai Gilgeous-Alexander (2022-23: .905 on 739 FTA); Damian Lillard (3×, best 2022-23: .914 on 558 FTA); Trae Young (2021-22: .904 on 553 FTA); Kevin Durant (2021-22: .910 on 409 FTA)."
+   "text": "Just four players of the 2020s shot .900 from the line on 400+ attempts: Shai Gilgeous-Alexander (2022-23: .905 on 739 FTA); Damian Lillard (3×, best 2022-23: .914 on 558 FTA); Trae Young (2021-22: .904 on 553 FTA); Kevin Durant (2021-22: .910 on 409 FTA).",
+   "why": "A short list fans can recite; each name brings its own fan base. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 16,
@@ -1146,7 +1161,8 @@
     2020,
     2022
    ],
-   "text": "Just three players of the 2020s shot .600 or better while averaging 20 points (60% of games): Giannis Antetokounmpo (2×, best 2023-24: .611 FG, 30.4 ppg); Zion Williamson (2020-21: .611 FG, 27.0 ppg); Nikola Jokić (2022-23: .632 FG, 24.5 ppg)."
+   "text": "Just three players of the 2020s shot .600 or better while averaging 20 points (60% of games): Giannis Antetokounmpo (2×, best 2023-24: .611 FG, 30.4 ppg); Zion Williamson (2020-21: .611 FG, 27.0 ppg); Nikola Jokić (2022-23: .632 FG, 24.5 ppg).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 17,
@@ -1304,7 +1320,8 @@
      "TOV": 255
     }
    ],
-   "text": "Luka Dončić averaged 25+ points in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+   "text": "Luka Dončić averaged 25+ points in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 18,
@@ -1462,7 +1479,8 @@
      "TOV": 121
     }
    ],
-   "text": "Stephen Curry shot .900 from the line (200+ FTA) in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+   "text": "Stephen Curry shot .900 from the line (200+ FTA) in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "Leads with the most extreme case, which carries the post. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 19,
@@ -1620,7 +1638,8 @@
      "TOV": 121
     }
    ],
-   "text": "Stephen Curry made 150+ threes in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+   "text": "Stephen Curry made 150+ threes in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 20,
@@ -1778,7 +1797,8 @@
      "TOV": 243
     }
    ],
-   "text": "Nikola Jokić averaged a double-digit rebounding figure in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+   "text": "Nikola Jokić averaged a double-digit rebounding figure in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 21,
@@ -1936,7 +1956,8 @@
      "TOV": 243
     }
    ],
-   "text": "Nikola Jokić averaged 20+ points in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+   "text": "Nikola Jokić averaged 20+ points in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 22,
@@ -2094,7 +2115,8 @@
      "TOV": 243
     }
    ],
-   "text": "Nikola Jokić shot .500 from the field (800+ FGA) in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+   "text": "Nikola Jokić shot .500 from the field (800+ FGA) in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "Leads with the most extreme case, which carries the post. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 23,
@@ -2229,7 +2251,8 @@
      "TOV": 355
     }
    ],
-   "text": "Trae Young averaged 8+ assists in 5 straight seasons (2020-21 to 2024-25), the longest run of the 2020s."
+   "text": "Trae Young averaged 8+ assists in 5 straight seasons (2020-21 to 2024-25), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Assist averages crown the true point guards."
   },
   {
    "n": 24,
@@ -2350,7 +2373,8 @@
     2025,
     2022
    ],
-   "text": "Just three players of the 2020s averaged 3 blocks a game (60% of games): Victor Wembanyama (2×, best 2023-24: 3.6 bpg); Myles Turner (2020-21: 3.4 bpg); Jaren Jackson Jr. (2022-23: 3.0 bpg)."
+   "text": "Just three players of the 2020s averaged 3 blocks a game (60% of games): Victor Wembanyama (2×, best 2023-24: 3.6 bpg); Myles Turner (2020-21: 3.4 bpg); Jaren Jackson Jr. (2022-23: 3.0 bpg).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 25,
@@ -2521,7 +2545,8 @@
     2024,
     2022
    ],
-   "text": "Just four players of the 2020s made 300 threes in a season: Stephen Curry (3×, best 2023-24: 357 3PM); Anthony Edwards (2024-25: 320 3PM); Malik Beasley (2024-25: 319 3PM); Klay Thompson (2022-23: 301 3PM)."
+   "text": "Just four players of the 2020s made 300 threes in a season: Stephen Curry (3×, best 2023-24: 357 3PM); Anthony Edwards (2024-25: 320 3PM); Malik Beasley (2024-25: 319 3PM); Klay Thompson (2022-23: 301 3PM).",
+   "why": "A short list fans can recite; each name brings its own fan base. Three-point volume is the modern game's signature."
   },
   {
    "n": 26,
@@ -2692,7 +2717,8 @@
     2021,
     2022
    ],
-   "text": "Just four players of the 2020s committed 300 turnovers in a season: Trae Young (3×, best 2024-25: 355 TOV); James Harden (2024-25: 341 TOV); Russell Westbrook (2020-21: 312 TOV); Cade Cunningham (2024-25: 309 TOV)."
+   "text": "Just four players of the 2020s committed 300 turnovers in a season: Trae Young (3×, best 2024-25: 355 TOV); James Harden (2024-25: 341 TOV); Russell Westbrook (2020-21: 312 TOV); Cade Cunningham (2024-25: 309 TOV).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Turnover totals are the stat fan bases never forget."
   },
   {
    "n": 27,
@@ -2817,7 +2843,8 @@
     2025,
     2021
    ],
-   "text": "Just four players of the 2020s averaged 27 points while missing 40% of the season (20+ games): Joel Embiid (2023-24: 34.7 ppg in 39 games); Kevin Durant (2022-23: 29.1 ppg in 47 games); Giannis Antetokounmpo (2025-26: 27.6 ppg in 36 games); Kyrie Irving (2021-22: 27.4 ppg in 29 games)."
+   "text": "Just four players of the 2020s averaged 27 points while missing 40% of the season (20+ games): Joel Embiid (2023-24: 34.7 ppg in 39 games); Kevin Durant (2022-23: 29.1 ppg in 47 games); Giannis Antetokounmpo (2025-26: 27.6 ppg in 36 games); Kyrie Irving (2021-22: 27.4 ppg in 29 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 28,
@@ -2971,7 +2998,8 @@
    "seasons": [
     2024
    ],
-   "text": "13 players scored 2,000 points in a season in the 2020s (26 seasons). The most extreme: Shai Gilgeous-Alexander, 2024-25 — 2,484 pts."
+   "text": "13 players scored 2,000 points in a season in the 2020s (26 seasons). The most extreme: Shai Gilgeous-Alexander, 2024-25 — 2,484 pts.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 29,
@@ -3125,7 +3153,8 @@
    "seasons": [
     2025
    ],
-   "text": "113 players made more threes than twos (400+ FGA) in the 2020s (219 seasons). The most extreme: AJ Green, 2025-26 — 232 threes, 30 twos."
+   "text": "113 players made more threes than twos (400+ FGA) in the 2020s (219 seasons). The most extreme: AJ Green, 2025-26 — 232 threes, 30 twos.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Three-point volume is the modern game's signature."
   },
   {
    "n": 30,
@@ -3169,7 +3198,8 @@
     }
    ],
    "among": 1336,
-   "text": "Most points in a single postseason in the 2020s: Shai Gilgeous-Alexander, 2024-25 — 688 in 23 games."
+   "text": "Most points in a single postseason in the 2020s: Shai Gilgeous-Alexander, 2024-25 — 688 in 23 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 31,
@@ -3213,7 +3243,8 @@
     }
    ],
    "among": 166,
-   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 2020s: Deandre Ayton, 2020-21 — .658."
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 2020s: Deandre Ayton, 2020-21 — .658.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 32,
@@ -3257,7 +3288,8 @@
     }
    ],
    "among": 1336,
-   "text": "Most assists in a single postseason in the 2020s: Jrue Holiday, 2020-21 — 199 in 23 games."
+   "text": "Most assists in a single postseason in the 2020s: Jrue Holiday, 2020-21 — 199 in 23 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
   },
   {
    "n": 33,
@@ -3301,7 +3333,8 @@
     }
    ],
    "among": 1775,
-   "text": "Highest scoring average of the 2020s: Luka Dončić, 2023-24 — 33.9 points a game."
+   "text": "Highest scoring average of the 2020s: Luka Dončić, 2023-24 — 33.9 points a game.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 34,
@@ -3345,7 +3378,8 @@
     }
    ],
    "among": 242,
-   "text": "Lowest field-goal percentage by a 20-point scorer in the 2020s: Fred VanVleet, 2021-22 — .403 while averaging 20.3."
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 2020s: Fred VanVleet, 2021-22 — .403 while averaging 20.3.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot volume invites the gunner debate."
   },
   {
    "n": 35,
@@ -3389,7 +3423,8 @@
     }
    ],
    "among": 39,
-   "text": "Best free-throw percentage on 500+ attempts in the 2020s: Damian Lillard, 2023-24 — .920 (473-514)."
+   "text": "Best free-throw percentage on 500+ attempts in the 2020s: Damian Lillard, 2023-24 — .920 (473-514).",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 36,
@@ -3433,7 +3468,8 @@
     }
    ],
    "among": 863,
-   "text": "Most assists by a sub-10-point scorer in the 2020s: Chris Paul, 2024-25 — 605 assists while averaging 8.8."
+   "text": "Most assists by a sub-10-point scorer in the 2020s: Chris Paul, 2024-25 — 605 assists while averaging 8.8.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 37,
@@ -3477,7 +3513,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most personal fouls in a season in the 2020s: Jae'Sean Tate, 2021-22 — 286."
+   "text": "Most personal fouls in a season in the 2020s: Jae'Sean Tate, 2021-22 — 286.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Foul-trouble seasons are an oddity fans love to share."
   },
   {
    "n": 38,
@@ -3521,7 +3558,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most rebounds in a season in the 2020s: Domantas Sabonis, 2023-24 — 1,120 (13.7 a game)."
+   "text": "Most rebounds in a season in the 2020s: Domantas Sabonis, 2023-24 — 1,120 (13.7 a game).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 39,
@@ -3565,7 +3603,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most minutes played in a season in the 2020s: Mikal Bridges, 2024-25 — 3,036 (37.0 a game)."
+   "text": "Most minutes played in a season in the 2020s: Mikal Bridges, 2024-25 — 3,036 (37.0 a game).",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Workload numbers from past eras astonish fans used to load management."
   },
   {
    "n": 40,
@@ -3609,7 +3648,8 @@
     }
    ],
    "among": 863,
-   "text": "Most rebounds by a sub-10-point scorer in the 2020s: Steven Adams, 2021-22 — 760 rebounds while averaging 6.9."
+   "text": "Most rebounds by a sub-10-point scorer in the 2020s: Steven Adams, 2021-22 — 760 rebounds while averaging 6.9.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 41,
@@ -3653,7 +3693,8 @@
     }
    ],
    "among": 1775,
-   "text": "Highest rebounding average of the 2020s: Rudy Gobert, 2021-22 — 14.7 a game."
+   "text": "Highest rebounding average of the 2020s: Rudy Gobert, 2021-22 — 14.7 a game.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 42,
@@ -3697,7 +3738,8 @@
     }
    ],
    "among": 1775,
-   "text": "Highest assist average of the 2020s: Russell Westbrook, 2020-21 — 11.7 a game."
+   "text": "Highest assist average of the 2020s: Russell Westbrook, 2020-21 — 11.7 a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
   },
   {
    "n": 43,
@@ -3741,7 +3783,8 @@
     }
    ],
    "among": 932,
-   "text": "Most points by a player who appeared in fewer than 50 games in the 2020s: Kevin Durant, 2022-23 — 1,366 in 47."
+   "text": "Most points by a player who appeared in fewer than 50 games in the 2020s: Kevin Durant, 2022-23 — 1,366 in 47.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 44,
@@ -3785,7 +3828,8 @@
     }
    ],
    "among": 666,
-   "text": "Best free-throw percentage in a season (125+ made) in the 2020s: Cam Spencer, 2025-26 — .940."
+   "text": "Best free-throw percentage in a season (125+ made) in the 2020s: Cam Spencer, 2025-26 — .940.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 45,
@@ -3829,7 +3873,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most offensive rebounds in a season in the 2020s: Steven Adams, 2021-22 — 349."
+   "text": "Most offensive rebounds in a season in the 2020s: Steven Adams, 2021-22 — 349.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 46,
@@ -3873,7 +3918,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most steals in a season in the 2020s: Dyson Daniels, 2024-25 — 229."
+   "text": "Most steals in a season in the 2020s: Dyson Daniels, 2024-25 — 229.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Steals are the defensive highlight stat."
   },
   {
    "n": 47,
@@ -3917,7 +3963,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most blocked shots in a season in the 2020s: Victor Wembanyama, 2023-24 — 254."
+   "text": "Most blocked shots in a season in the 2020s: Victor Wembanyama, 2023-24 — 254.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 48,
@@ -3961,7 +4008,8 @@
     }
    ],
    "among": 413,
-   "text": "Most points in a season without a single made three in the 2020s: Jalen Duren, 2025-26 — 1,365."
+   "text": "Most points in a season without a single made three in the 2020s: Jalen Duren, 2025-26 — 1,365.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 49,
@@ -4005,7 +4053,8 @@
     }
    ],
    "among": 167,
-   "text": "Most threes attempted while shooting under .330 from deep in the 2020s: Derrick White, 2025-26 — 640 attempts at .327."
+   "text": "Most threes attempted while shooting under .330 from deep in the 2020s: Derrick White, 2025-26 — 640 attempts at .327.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Three-point volume is the modern game's signature."
   },
   {
    "n": 50,
@@ -4049,7 +4098,8 @@
     }
    ],
    "among": 612,
-   "text": "Best three-point percentage on 300+ attempts in the 2020s: Joe Harris, 2020-21 — .475 (211-444)."
+   "text": "Best three-point percentage on 300+ attempts in the 2020s: Joe Harris, 2020-21 — .475 (211-444).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Three-point volume is the modern game's signature."
   },
   {
    "n": 51,
@@ -4212,7 +4262,8 @@
      "TOV": 77
     }
    ],
-   "text": "9 player-seasons of the 2020s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Nickeil Alexander-Walker (2025-26), Tyler Herro (2021-22), Anthony Edwards (2025-26)."
+   "text": "9 player-seasons of the 2020s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Nickeil Alexander-Walker (2025-26), Tyler Herro (2021-22), Anthony Edwards (2025-26).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
    "n": 52,
@@ -4256,7 +4307,8 @@
     }
    ],
    "among": 1336,
-   "text": "Most rebounds in a single postseason in the 2020s: Giannis Antetokounmpo, 2020-21 — 269 in 21 games."
+   "text": "Most rebounds in a single postseason in the 2020s: Giannis Antetokounmpo, 2020-21 — 269 in 21 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 53,
@@ -4300,7 +4352,8 @@
     }
    ],
    "among": 108,
-   "text": "Worst free-throw percentage on 400+ attempts in the 2020s: Giannis Antetokounmpo, 2024-25 — .617 (436-707)."
+   "text": "Worst free-throw percentage on 400+ attempts in the 2020s: Giannis Antetokounmpo, 2024-25 — .617 (436-707).",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Shot volume invites the gunner debate."
   },
   {
    "n": 54,
@@ -4344,7 +4397,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most shots attempted in a season in the 2020s: Shai Gilgeous-Alexander, 2024-25 — 1,656 FGA, .519."
+   "text": "Most shots attempted in a season in the 2020s: Shai Gilgeous-Alexander, 2024-25 — 1,656 FGA, .519.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 55,
@@ -4388,7 +4442,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most assists in a season in the 2020s: Trae Young, 2024-25 — 880 (11.6 a game)."
+   "text": "Most assists in a season in the 2020s: Trae Young, 2024-25 — 880 (11.6 a game).",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Assist averages crown the true point guards."
   },
   {
    "n": 56,
@@ -4432,7 +4487,8 @@
     }
    ],
    "among": 1775,
-   "text": "Most points per minute by a qualified player in the 2020s: Giannis Antetokounmpo, 2022-23 — 31.1 ppg in 32.1 minutes."
+   "text": "Most points per minute by a qualified player in the 2020s: Giannis Antetokounmpo, 2022-23 — 31.1 ppg in 32.1 minutes.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 57,
@@ -4476,7 +4532,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most free throws made in a season in the 2020s: Shai Gilgeous-Alexander, 2022-23 — 669 of 739."
+   "text": "Most free throws made in a season in the 2020s: Shai Gilgeous-Alexander, 2022-23 — 669 of 739.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 58,
@@ -4520,7 +4577,8 @@
     }
    ],
    "among": 3407,
-   "text": "Most threes made in a season in the 2020s: Stephen Curry, 2023-24 — 357."
+   "text": "Most threes made in a season in the 2020s: Stephen Curry, 2023-24 — 357.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Three-point volume is the modern game's signature."
   },
   {
    "n": 59,
@@ -4632,7 +4690,8 @@
      "TOV": 151
     }
    ],
-   "text": "Shai Gilgeous-Alexander scored 2,000 points in 4 straight seasons (2022-23 to 2025-26), the longest run of the 2020s."
+   "text": "Shai Gilgeous-Alexander scored 2,000 points in 4 straight seasons (2022-23 to 2025-26), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 60,
@@ -4681,7 +4740,8 @@
      "seasons": 6
     }
    ],
-   "text": "Most points of the 2020s: Luka Dončić, 11,736 — 189 ahead of Nikola Jokić."
+   "text": "Most points of the 2020s: Luka Dončić, 11,736 — 189 ahead of Nikola Jokić.",
+   "why": "A decade-long view that settles consistency debates. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 61,
@@ -4730,7 +4790,8 @@
      "seasons": 6
     }
    ],
-   "text": "Most rebounds of the 2020s: Rudy Gobert, 5,381."
+   "text": "Most rebounds of the 2020s: Rudy Gobert, 5,381.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 62,
@@ -4779,7 +4840,8 @@
      "seasons": 6
     }
    ],
-   "text": "Most games played in the 2020s: Mikal Bridges, 483."
+   "text": "Most games played in the 2020s: Mikal Bridges, 483.",
+   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
   },
   {
    "n": 63,
@@ -4828,7 +4890,8 @@
      "seasons": 6
     }
    ],
-   "text": "Most personal fouls committed in the 2020s: Jaden McDaniels, 1,356."
+   "text": "Most personal fouls committed in the 2020s: Jaden McDaniels, 1,356.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Foul-trouble seasons are an oddity fans love to share."
   },
   {
    "n": 64,
@@ -4877,7 +4940,8 @@
      "seasons": 6
     }
    ],
-   "text": "Most minutes of the 2020s: Mikal Bridges, 16,747."
+   "text": "Most minutes of the 2020s: Mikal Bridges, 16,747.",
+   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
   },
   {
    "n": 65,
@@ -4926,7 +4990,8 @@
      "seasons": 3
     }
    ],
-   "text": "Most blocked shots of the 2020s: Myles Turner, 820."
+   "text": "Most blocked shots of the 2020s: Myles Turner, 820.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 66,
@@ -4966,7 +5031,8 @@
      "count": 13
     }
    ],
-   "text": "2022-23 had 18 25-point scorers, the most of any season in the 2020s."
+   "text": "2022-23 had 18 players averaging 25 points (60% of games), the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s."
   },
   {
    "n": 67,
@@ -5006,7 +5072,8 @@
      "count": 13
     }
    ],
-   "text": "2024-25 had just 11 25-point scorers, the fewest of any season in the 2020s."
+   "text": "2024-25 had just 11 players averaging 25 points (60% of games), the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 68,
@@ -5046,7 +5113,8 @@
      "count": 5
     }
    ],
-   "text": "2020-21 had 8 20-and-10 players, the most of any season in the 2020s."
+   "text": "2020-21 had 8 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s."
   },
   {
    "n": 69,
@@ -5086,7 +5154,8 @@
      "count": 5
     }
    ],
-   "text": "2021-22 had just 3 20-and-10 players, the fewest of any season in the 2020s."
+   "text": "2021-22 had just 3 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 70,
@@ -5126,7 +5195,8 @@
      "count": 4
     }
    ],
-   "text": "2022-23 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2020s."
+   "text": "2022-23 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 71,
@@ -5166,7 +5236,8 @@
      "count": 4
     }
    ],
-   "text": "2020-21 had just 3 .900 free-throw shooters (200+ FTA), the fewest of any season in the 2020s."
+   "text": "2020-21 had just 3 .900 free-throw shooters (200+ FTA), the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 72,
@@ -5206,7 +5277,8 @@
      "count": 4
     }
    ],
-   "text": "2023-24 had 8 8-assist players, the most of any season in the 2020s."
+   "text": "2023-24 had 8 8-assist players, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Assist averages crown the true point guards."
   },
   {
    "n": 73,
@@ -5246,7 +5318,8 @@
      "count": 4
     }
    ],
-   "text": "2025-26 had just 4 8-assist players, the fewest of any season in the 2020s."
+   "text": "2025-26 had just 4 8-assist players, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 74,
@@ -5286,7 +5359,8 @@
      "count": 38
     }
    ],
-   "text": "2022-23 had 49 20-point scorers, the most of any season in the 2020s."
+   "text": "2022-23 had 49 players averaging 20 points (60% of games), the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s."
   },
   {
    "n": 75,
@@ -5326,90 +5400,11 @@
      "count": 38
     }
    ],
-   "text": "2021-22 had just 34 20-point scorers, the fewest of any season in the 2020s."
+   "text": "2021-22 had just 34 players averaging 20 points (60% of games), the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 76,
-   "kind": "season",
-   "rule": "c_all_most",
-   "group": "P",
-   "decade": "2020s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2025
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2020,
-     "count": 11
-    },
-    {
-     "season": 2021,
-     "count": 5
-    },
-    {
-     "season": 2022,
-     "count": 1
-    },
-    {
-     "season": 2023,
-     "count": 1
-    },
-    {
-     "season": 2024,
-     "count": 11
-    },
-    {
-     "season": 2025,
-     "count": 18
-    }
-   ],
-   "text": "2025-26 had 18 players who appeared in every game, the most of any season in the 2020s."
-  },
-  {
-   "n": 77,
-   "kind": "season",
-   "rule": "c_all_least",
-   "group": "P",
-   "decade": "2020s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2022
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2020,
-     "count": 11
-    },
-    {
-     "season": 2021,
-     "count": 5
-    },
-    {
-     "season": 2022,
-     "count": 1
-    },
-    {
-     "season": 2023,
-     "count": 1
-    },
-    {
-     "season": 2024,
-     "count": 11
-    },
-    {
-     "season": 2025,
-     "count": 18
-    }
-   ],
-   "text": "2022-23 had just one player who appeared in every game, the fewest of any season in the 2020s."
-  },
-  {
-   "n": 78,
    "kind": "season",
    "rule": "c_10rpg_most",
    "group": "P",
@@ -5446,10 +5441,11 @@
      "count": 8
     }
    ],
-   "text": "2020-21 had 15 double-digit rebounders, the most of any season in the 2020s."
+   "text": "2020-21 had 15 players averaging 10 rebounds (60% of games), the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 79,
+   "n": 77,
    "kind": "season",
    "rule": "c_10rpg_least",
    "group": "P",
@@ -5486,7 +5482,90 @@
      "count": 8
     }
    ],
-   "text": "2025-26 had just 8 double-digit rebounders, the fewest of any season in the 2020s."
+   "text": "2025-26 had just 8 players averaging 10 rebounds (60% of games), the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "c_30_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 2
+    },
+    {
+     "season": 2021,
+     "count": 2
+    },
+    {
+     "season": 2022,
+     "count": 6
+    },
+    {
+     "season": 2023,
+     "count": 3
+    },
+    {
+     "season": 2024,
+     "count": 2
+    },
+    {
+     "season": 2025,
+     "count": 2
+    }
+   ],
+   "text": "2022-23 had 6 30-point scorers, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 2
+    },
+    {
+     "season": 2021,
+     "count": 2
+    },
+    {
+     "season": 2022,
+     "count": 6
+    },
+    {
+     "season": 2023,
+     "count": 3
+    },
+    {
+     "season": 2024,
+     "count": 2
+    },
+    {
+     "season": 2025,
+     "count": 2
+    }
+   ],
+   "text": "2020-21 had just 2 30-point scorers, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 80,
@@ -5605,7 +5684,8 @@
      "TOV": 156
     }
    ],
-   "text": "4 player-seasons of the 2020s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Jaylen Brown (2023-24), Joel Embiid (2021-22), Lauri Markkanen (2022-23)."
+   "text": "4 player-seasons of the 2020s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Jaylen Brown (2023-24), Joel Embiid (2021-22), Lauri Markkanen (2022-23).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
    "n": 81,
@@ -5654,7 +5734,8 @@
      "seasons": 6
     }
    ],
-   "text": "Most threes of the 2020s: Stephen Curry, 1,753."
+   "text": "Most threes of the 2020s: Stephen Curry, 1,753.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Three-point volume is the modern game's signature."
   },
   {
    "n": 82,
@@ -5703,90 +5784,11 @@
      "seasons": 6
     }
    ],
-   "text": "Most turnovers of the 2020s: Luka Dončić, 1,525."
+   "text": "Most turnovers of the 2020s: Luka Dončić, 1,525.",
+   "why": "A decade-long view that settles consistency debates. Turnover totals are the stat fan bases never forget."
   },
   {
    "n": 83,
-   "kind": "season",
-   "rule": "c_30_most",
-   "group": "P",
-   "decade": "2020s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2022
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2020,
-     "count": 2
-    },
-    {
-     "season": 2021,
-     "count": 2
-    },
-    {
-     "season": 2022,
-     "count": 6
-    },
-    {
-     "season": 2023,
-     "count": 3
-    },
-    {
-     "season": 2024,
-     "count": 2
-    },
-    {
-     "season": 2025,
-     "count": 2
-    }
-   ],
-   "text": "2022-23 had 6 30-point scorers, the most of any season in the 2020s."
-  },
-  {
-   "n": 84,
-   "kind": "season",
-   "rule": "c_30_least",
-   "group": "P",
-   "decade": "2020s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2020
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2020,
-     "count": 2
-    },
-    {
-     "season": 2021,
-     "count": 2
-    },
-    {
-     "season": 2022,
-     "count": 6
-    },
-    {
-     "season": 2023,
-     "count": 3
-    },
-    {
-     "season": 2024,
-     "count": 2
-    },
-    {
-     "season": 2025,
-     "count": 2
-    }
-   ],
-   "text": "2020-21 had just 2 30-point scorers, the fewest of any season in the 2020s."
-  },
-  {
-   "n": 85,
    "kind": "season",
    "rule": "c_2spg_most",
    "group": "P",
@@ -5823,10 +5825,11 @@
      "count": 1
     }
    ],
-   "text": "2023-24 had 2 2-steal players, the most of any season in the 2020s."
+   "text": "2023-24 had 2 players averaging 2 steals (60% of games), the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Steals are the defensive highlight stat."
   },
   {
-   "n": 86,
+   "n": 84,
    "kind": "season",
    "rule": "c_2spg_least",
    "group": "P",
@@ -5863,7 +5866,90 @@
      "count": 1
     }
    ],
-   "text": "2022-23 had no 2-steal players at all — the only season of the 2020s without one."
+   "text": "2022-23 had no players averaging 2 steals (60% of games) at all — the only season of the 2020s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 85,
+   "kind": "season",
+   "rule": "c_2bpg_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 4
+    },
+    {
+     "season": 2021,
+     "count": 3
+    },
+    {
+     "season": 2022,
+     "count": 6
+    },
+    {
+     "season": 2023,
+     "count": 8
+    },
+    {
+     "season": 2024,
+     "count": 3
+    },
+    {
+     "season": 2025,
+     "count": 1
+    }
+   ],
+   "text": "2023-24 had 8 players averaging 2 blocks (60% of games), the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 86,
+   "kind": "season",
+   "rule": "c_2bpg_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 4
+    },
+    {
+     "season": 2021,
+     "count": 3
+    },
+    {
+     "season": 2022,
+     "count": 6
+    },
+    {
+     "season": 2023,
+     "count": 8
+    },
+    {
+     "season": 2024,
+     "count": 3
+    },
+    {
+     "season": 2025,
+     "count": 1
+    }
+   ],
+   "text": "2025-26 had just one player averaging 2 blocks (60% of games), the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
   },
   {
    "n": 87,
@@ -6017,7 +6103,8 @@
    "seasons": [
     2023
    ],
-   "text": "62 players made 150 threes at a .400 clip in the 2020s (87 seasons). The most extreme: Stephen Curry, 2023-24 — 357 3PM, .408."
+   "text": "62 players made 150 threes at a .400 clip in the 2020s (87 seasons). The most extreme: Stephen Curry, 2023-24 — 357 3PM, .408.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Three-point volume is the modern game's signature."
   },
   {
    "n": 88,
@@ -6114,7 +6201,8 @@
      "TOV": 93
     }
    ],
-   "text": "3 player-seasons of the 2020s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Julius Randle (2021-22), Ivica Zubac (2022-23), Nic Claxton (2023-24)."
+   "text": "3 player-seasons of the 2020s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Julius Randle (2021-22), Ivica Zubac (2022-23), Nic Claxton (2023-24).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
    "n": 89,
@@ -6268,7 +6356,8 @@
    "seasons": [
     2025
    ],
-   "text": "7 players shot .600 from the field on 800+ attempts in the 2020s (8 seasons). The most extreme: Jalen Duren, 2025-26 — .650 on 803 FGA."
+   "text": "7 players shot .600 from the field on 800+ attempts in the 2020s (8 seasons). The most extreme: Jalen Duren, 2025-26 — .650 on 803 FGA.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 90,
@@ -6422,7 +6511,8 @@
    "seasons": [
     2023
    ],
-   "text": "14 players averaged 25 points, 5 rebounds and 5 assists (60% of games) in the 2020s (35 seasons). The most extreme: Luka Dončić, 2023-24 — 33.9/9.2/9.8."
+   "text": "14 players averaged 25 points, 5 rebounds and 5 assists (60% of games) in the 2020s (35 seasons). The most extreme: Luka Dončić, 2023-24 — 33.9/9.2/9.8.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 91,
@@ -6465,7 +6555,8 @@
      "TOV": 162
     }
    ],
-   "text": "Exactly one player of the 2020s finished a season with a 24.9 scoring average, a tenth short of 25: Damian Lillard (2024-25)."
+   "text": "Exactly one player of the 2020s finished a season with a 24.9 scoring average, a tenth short of 25: Damian Lillard (2024-25).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
    "n": 92,
@@ -6508,7 +6599,8 @@
      "TOV": 236
     }
    ],
-   "text": "Exactly one player of the 2020s finished a season with 9.9 assists a game, a tenth short of 10: Cade Cunningham (2025-26)."
+   "text": "Exactly one player of the 2020s finished a season with 9.9 assists a game, a tenth short of 10: Cade Cunningham (2025-26).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
    "n": 93,
@@ -6662,7 +6754,8 @@
    "seasons": [
     2022
    ],
-   "text": "8 players shot .450 from three on 250+ attempts in the 2020s. The most extreme: Luke Kennard, 2022-23 — .494 on 269 3PA."
+   "text": "8 players shot .450 from three on 250+ attempts in the 2020s. The most extreme: Luke Kennard, 2022-23 — .494 on 269 3PA.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Three-point volume is the modern game's signature."
   },
   {
    "n": 94,
@@ -6816,7 +6909,8 @@
    "seasons": [
     2021
    ],
-   "text": "9 players averaged 12+ rebounds (60% of games) in the 2020s (18 seasons). The most extreme: Rudy Gobert, 2021-22 — 14.7 rpg."
+   "text": "9 players averaged 12+ rebounds (60% of games) in the 2020s (18 seasons). The most extreme: Rudy Gobert, 2021-22 — 14.7 rpg.",
+   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 95,
@@ -6970,7 +7064,8 @@
    "seasons": [
     2020
    ],
-   "text": "10 players averaged 9+ assists (60% of games) in the 2020s (21 seasons). The most extreme: Russell Westbrook, 2020-21 — 11.7 apg."
+   "text": "10 players averaged 9+ assists (60% of games) in the 2020s (21 seasons). The most extreme: Russell Westbrook, 2020-21 — 11.7 apg.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Assist averages crown the true point guards."
   },
   {
    "n": 96,
@@ -7124,7 +7219,8 @@
    "seasons": [
     2020
    ],
-   "text": "6 players averaged 10 assists a game (60% of games) in the 2020s (12 seasons). The most extreme: Russell Westbrook, 2020-21 — 11.7 apg."
+   "text": "6 players averaged 10 assists a game (60% of games) in the 2020s (12 seasons). The most extreme: Russell Westbrook, 2020-21 — 11.7 apg.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
    "n": 97,
@@ -7278,7 +7374,8 @@
    "seasons": [
     2023
    ],
-   "text": "14 players scored 1,000 points in fewer than 50 games in the 2020s (15 seasons). The most extreme: Joel Embiid, 2023-24 — 1,353 pts in 39 games."
+   "text": "14 players scored 1,000 points in fewer than 50 games in the 2020s (15 seasons). The most extreme: Joel Embiid, 2023-24 — 1,353 pts in 39 games.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook."
   },
   {
    "n": 98,
@@ -7432,7 +7529,8 @@
    "seasons": [
     2020
    ],
-   "text": "10 players averaged 30 points in a single postseason (8+ playoff games) in the 2020s (11 seasons). The most extreme: Kevin Durant, 2020-21 — 34.3 ppg in 12 games."
+   "text": "10 players averaged 30 points in a single postseason (8+ playoff games) in the 2020s (11 seasons). The most extreme: Kevin Durant, 2020-21 — 34.3 ppg in 12 games.",
+   "why": "Leads with the most extreme case, which carries the post. An average fans can hold up against any star's."
   },
   {
    "n": 99,
@@ -7586,7 +7684,8 @@
    "seasons": [
     2024
    ],
-   "text": "17 players shot under .450 on 1,200+ attempts in the 2020s (27 seasons). The most extreme: Anthony Edwards, 2024-25 — .447 on 1,612 FGA."
+   "text": "17 players shot under .450 on 1,200+ attempts in the 2020s (27 seasons). The most extreme: Anthony Edwards, 2024-25 — .447 on 1,612 FGA.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Shot volume invites the gunner debate."
   },
   {
    "n": 100,
@@ -7740,7 +7839,8 @@
    "seasons": [
     2025
    ],
-   "text": "15 players made 150+ threes while shooting under .340 from deep in the 2020s (20 seasons). The most extreme: Derrick White, 2025-26 — 209 3PM, .327."
+   "text": "15 players made 150+ threes while shooting under .340 from deep in the 2020s (20 seasons). The most extreme: Derrick White, 2025-26 — 209 3PM, .327.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
   }
  ],
  "counts": {

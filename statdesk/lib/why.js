@@ -146,6 +146,16 @@ const KIND = {
   total: [() => `Rewards sustained excellence over one big year and surfaces names fans forget.`, () => `A decade-long view that settles consistency debates.`],
   nearmiss: [() => `So-close stats get shared: fans love a round number missed by a hair.`, () => `A near miss is a story; fans wonder what one more game would have done.`],
   age: [() => `Age angles (longevity or prodigy) travel beyond one fan base.`, () => `Oldest and youngest lines give a fresh angle on a familiar stat.`],
+  career: [() => `Career-long numbers frame the legacy in one line.`, () => `The long view that every "greatest ever" thread starts from.`],
+  league: [() => `All-time context is the strongest fuel for GOAT debates.`, () => `Ranked against everyone who ever played, which invites the "who else?" replies.`],
+  season: [() => `A single season fans can compare with any star's best year.`, () => `Season-level detail most fans have never seen spelled out.`],
+  games: [() => `Game-level numbers make a legend concrete; the box scores are the post.`, () => `A count built from every game played, which no highlight reel shows.`],
+  finals: [() => `The Finals are where legacies are judged; these numbers settle arguments.`, () => `Championship-stage numbers get shared by every side of the debate.`],
+  playoffs: [() => `Playoff numbers are the currency of the GOAT debate.`, () => `Big-game detail that separates stars from legends.`],
+  opponents: [() => `Rivalry numbers pull that opponent's fan base into the replies.`, () => `Opponent-specific lines get shared by the other side too.`],
+  splits: [() => `Splits answer the "big stage" question with numbers.`, () => `Context fans rarely see, good for quote-tweets.`],
+  allstar: [() => `All-Star content performs every February.`, () => `Showcase-game numbers for All-Star weekend posts.`],
+  season_count: [(f) => `Compares seasons across the ${f.decade}; fans argue which year was the peak.`, () => `A season-by-season contrast that shows how the league changed.`],
   team: [(f) => `School-pride bait: ${(f.players && f.players[0] && f.players[0].name) || "that school"}'s fans will share it.`, () => `Program bragging rights; alumni and rivals both engage.`],
 };
 
@@ -171,14 +181,32 @@ const FAMILY = [[/_slow$/, "ry_slow"], [/^(c_|s_)?py|^yds\d|^x_py/, "yds_hi"], [
   [/^ypr/, "ypr_hi"], [/^yds1000_fewrec/, "recy_few"], [/^te|^x_te/, "te_1000"], [/^wr_rush|^x_wr_ry/, "rtd_rec"], [/^x_dint|^pd/, "dint_hi"], [/^dtd/, "int_td"],
   [/^(c_|s_)?dsk|^sack\d|^x_dsk/, "sacks_hi"], [/^tkl|^x_tkl/, "tkl_hi"], [/^ff/, "ff_hi"], [/^fum|^x_fum/, "fumbles_hi"], [/^saf/, "safety"],
   [/^fg_perfect/, "fg_perfect"], [/^(s_)?fg|^x_fgl/, "fgm_hi"], [/^kr|^x_kry/, "kr_avg"], [/^st_td/, "kr_td"], [/^apy/, "apy_hi"], [/^sack5_int5/, "stl_blk"]];
-function ruleKey(f) { const k = rawKey(f); if (ANGLE[k]) return k; if (ALIAS[k]) return ALIAS[k];
-  const raw = String(f.rule || ""); for (const [re, key] of FAMILY) if (re.test(raw)) return key; return k; }
+// NBA decade rule names, by pattern.
+const NBA_FAMILY = [[/ppg|pts|thirty|score_|short_scorer|short_pts|twenty(?!_ten)|top_ppg/, "ppg_hi"], [/rpg|reb|oreb/, "rpg_hi"], [/apg|ast/, "apg_hi"],
+  [/bpg|blk/, "bpg_hi"], [/stl|spg|stocks|guard_stocks/, "spg_hi"], [/3p|three|3pm|3pa/, "fg3_hi"], [/ft_bad|worst_ft|volume_bricks|volume_misses|worst_fg|thirty_inefficient/, "fga_hi"],
+  [/ft/, "ftp_hi"], [/fg/, "fgp_hi"], [/min|mpg|t_gp/, "adv"], [/pf|foul/, "pen_hi"], [/tov/, "fumbles_hi"], [/triple|twenty_ten|twentyfive|thirty_ten|thirty_twenty|reb_ast_big|fifty_forty/, "triple"]];
+const NBA_ANGLE_OVERRIDE = { adv: "Workload numbers from past eras astonish fans used to load management.", pen_hi: "Foul-trouble seasons are an oddity fans love to share.", fumbles_hi: "Turnover totals are the stat fan bases never forget." };
+// Content angles, for hand-built sets and anything no rule angle covers.
+const TEXT_ANGLES = [[/\b(60|61|62|63|64|65|69|81)[- ]point|\b(60|61|62|63|64|65|69|81) points/, "Sixty-plus nights are so rare that every one is remembered."],
+  [/50\+|50-point|\b5\d points/, "Fifty-point games are the scorer's trophy case."], [/triple-double/, "Triple-doubles travel across every fan base."],
+  [/Game 7/, "Game 7 résumés decide legacies in fans' minds."], [/Finals/, "The Finals are where legacies are judged."], [/[Cc]hristmas/, "Post it on Christmas, the league's showcase day."],
+  [/birthday|years, \d+ days old|\bat age\b|\baged \d/, "Age angles (prodigy or longevity) travel beyond one fan base."], [/rookie|first NBA game|first \d+-point/, "Rookie and origin-story content performs."],
+  [/steal/, "The defensive half of the greatness case."], [/block/, "Shot-blocking from a guard surprises people."], [/assist/, "Playmaking credit that scoring headlines bury."],
+  [/rebound/, "Rebounding is the overlooked part of a scorer's game."], [/three/, "Then-vs-now three-point contrast gets modern fans talking."], [/free throw/, "Living at the line is an underrated part of scoring."],
+  [/scoring title|led the league|highest in NBA history|No\. \d/, "All-time rank is the legacy stat."], [/streak|consecutive|straight/, "Streaks are the most shareable kind of consistency."],
+  [/record|went \d+-\d+|\d+-\d+ in/, "Winning context answers the \"empty stats\" critique."], [/averaged|average/, "An average fans can hold up against any star's."]];
+function textAngle(f) { const t = String(f.text || ""); for (const [re, a] of TEXT_ANGLES) if (re.test(t)) return a; return ""; }
+function ruleKey(f, sport) { const k = rawKey(f);
+  if (sport === "nba") { const raw = String(f.rule || ""); for (const [re, key] of NBA_FAMILY) if (re.test(raw)) return key; return k; }
+  if (ANGLE[k]) return k; if (ALIAS[k]) return ALIAS[k];
+  const raw = String(f.rule || ""); for (const [re, key] of FAMILY) if (re.test(raw)) return key;
+  for (const [re, key] of NBA_FAMILY) if (re.test(raw)) return key; return k; }
 function rawKey(f) { return String(f.rule || "").replace(/^[a-z]+:/, "").replace(/:(most|school|old|young)\d*$/, "").replace(/^x_/, "").replace(/^tx_/, "").replace(/^t_/, "").replace(/^n_/, ""); }
 
 const PO = { po_dsk: "Playoff pass rush is what legacies are built on.", po_ptd: "Postseason touchdown passes are where quarterback legacies are argued.",
   po_py: "Playoff passing volume feeds the big-game debate.", po_recy: "Playoff receiving production is highlight-reel nostalgia.", po_ry: "A playoff rushing run is the stuff of January legend." };
 const STL_BLK_FB = "Sacks and interceptions from one defender make a rare two-way unicorn.";
-function whyFor(f, i = 0) {
+function whyFor(f, i = 0, sport = "") {
   if (PO[f.rule]) return `${KIND[f.kind] ? KIND[f.kind][i % KIND[f.kind].length](f) : ""} ${PO[f.rule]}`.trim();
   if (f.rule === "sack5_int5") return `${KIND[f.kind][i % KIND[f.kind].length](f)} ${STL_BLK_FB}`;
   const k = KIND[f.kind] || KIND.list;
@@ -187,11 +215,11 @@ function whyFor(f, i = 0) {
   if (/_most$/.test(f.rule || "")) return `Rewards staying power: the most such seasons in the ${f.decade}. ${ANGLE[ruleKey(f)] || ""}`.trim();
   if (/_least$/.test(f.rule || "")) return `A surprising gap in a great career; fans love a "wait, really?" stat.`;
   if (/:most/.test(f.rule || "")) return `A decade of consistency in one number; names the most reliable producer of the ${f.decade}.`;
-  const angle = ANGLE[ruleKey(f)];
+  const rk = ruleKey(f, sport); const angle = (sport === "nba" && NBA_ANGLE_OVERRIDE[rk]) || ANGLE[rk] || textAngle(f);
   return angle ? `${frame} ${angle}` : frame;
 }
 
 // Fill `why` on every fact that lacks one; returns the count filled.
-function annotate(doc) { let n = 0; (doc.facts || []).forEach((f, i) => { if (!f.why) { f.why = whyFor(f, i); n += 1; } }); return n; }
+function annotate(doc, sport = "") { let n = 0; (doc.facts || []).forEach((f, i) => { if (!f.why) { f.why = whyFor(f, i, sport); n += 1; } }); return n; }
 
 module.exports = { whyFor, annotate, ANGLE };

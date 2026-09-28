@@ -1,7 +1,7 @@
 {
  "subject": "Michael Jordan",
  "playerId": 893,
- "generatedAt": "2026-09-28T05:17:45.284Z",
+ "generatedAt": "2026-09-28T10:08:06.094Z",
  "candidates": 112,
  "facts": [
   {
@@ -9,7 +9,8 @@
    "kind": "career",
    "text": "Jordan played 1,072 regular-season games and 179 playoff games, scoring 32,292 and 5,987 points.",
    "evidence": [],
-   "score": 9
+   "score": 9,
+   "why": "Career-long numbers frame the legacy in one line."
   },
   {
    "n": 2,
@@ -36,7 +37,8 @@
      "game": "0028400005"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "The long view that every \"greatest ever\" thread starts from. Age angles (prodigy or longevity) travel beyond one fan base."
   },
   {
    "n": 3,
@@ -63,21 +65,24 @@
      "game": "0020201178"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Career-long numbers frame the legacy in one line. Age angles (prodigy or longevity) travel beyond one fan base."
   },
   {
    "n": 4,
    "kind": "career",
    "text": "His teams went 706-366 in the regular-season games he played and 119-60 in the playoffs.",
    "evidence": [],
-   "score": 7
+   "score": 7,
+   "why": "The long view that every \"greatest ever\" thread starts from. Winning context answers the \"empty stats\" critique."
   },
   {
    "n": 5,
    "kind": "career",
    "text": "He averaged 31.0 points in wins and 28.4 in losses.",
    "evidence": [],
-   "score": 6
+   "score": 6,
+   "why": "Career-long numbers frame the legacy in one line. An average fans can hold up against any star's."
   },
   {
    "n": 6,
@@ -145,12 +150,13 @@
      "nextPpg": 28.3
     }
    ],
-   "score": 10
+   "score": 10,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies. All-time rank is the legacy stat."
   },
   {
    "n": 7,
    "kind": "league",
-   "text": "Career scoring average: 30.12, the highest in NBA history among 1,382 qualified players (400 games or 10,000 points), ahead of Wilt Chamberlain (30.07).",
+   "text": "Career scoring average: 30.12, the highest in NBA history among 1,417 qualified players (400 games or 10,000 points), ahead of Wilt Chamberlain (30.07).",
    "evidence": [
     {
      "id": 893,
@@ -188,7 +194,8 @@
      "ppg": 27.3628841607565
     }
    ],
-   "score": 10
+   "score": 10,
+   "why": "All-time context is the strongest fuel for GOAT debates. All-time rank is the legacy stat."
   },
   {
    "n": 8,
@@ -231,7 +238,8 @@
      "ppg": 29.130718954248366
     }
    ],
-   "score": 10
+   "score": 10,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies. All-time rank is the legacy stat."
   },
   {
    "n": 9,
@@ -264,7 +272,8 @@
      "n": 4
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "All-time context is the strongest fuel for GOAT debates. An average fans can hold up against any star's."
   },
   {
    "n": 10,
@@ -420,7 +429,8 @@
      "q": true
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies."
   },
   {
    "n": 11,
@@ -465,7 +475,8 @@
      "q": true
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "All-time context is the strongest fuel for GOAT debates. The defensive half of the greatness case."
   },
   {
    "n": 12,
@@ -533,7 +544,8 @@
      "nextPpg": 28.3
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies. All-time rank is the legacy stat."
   },
   {
    "n": 13,
@@ -547,7 +559,8 @@
      "nextPpg": 29
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "All-time context is the strongest fuel for GOAT debates."
   },
   {
    "n": 14,
@@ -567,7 +580,8 @@
      "spg": 2.83
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies. The defensive half of the greatness case."
   },
   {
    "n": 15,
@@ -593,7 +607,8 @@
      "nextPpg": 29.9
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "All-time context is the strongest fuel for GOAT debates. The defensive half of the greatness case."
   },
   {
    "n": 16,
@@ -749,7 +764,8 @@
      "q": true
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies. The defensive half of the greatness case."
   },
   {
    "n": 17,
@@ -792,7 +808,8 @@
      "spg": 2.2154255319148937
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "All-time context is the strongest fuel for GOAT debates. The defensive half of the greatness case."
   },
   {
    "n": 18,
@@ -985,7 +1002,8 @@
      "q": true
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies."
   },
   {
    "n": 19,
@@ -1201,7 +1219,7 @@
      "age": 25,
      "GS": null,
      "season": 1948,
-     "maxGP": 61,
+     "maxGP": 60,
      "PPG": 28.3,
      "RPG": null,
      "APG": 3.6333333333333333,
@@ -1254,7 +1272,8 @@
      "q": true
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "All-time context is the strongest fuel for GOAT debates. An average fans can hold up against any star's."
   },
   {
    "n": 20,
@@ -1282,7 +1301,8 @@
      "PPG": 25.5
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Ranked against everyone who ever played, which invites the \"who else?\" replies. Age angles (prodigy or longevity) travel beyond one fan base."
   },
   {
    "n": 21,
@@ -1310,7 +1330,8 @@
      "PPG": 25.9
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "All-time context is the strongest fuel for GOAT debates. Age angles (prodigy or longevity) travel beyond one fan base."
   },
   {
    "n": 22,
@@ -1550,7 +1571,8 @@
      "PTS": 2491
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "Season-level detail most fans have never seen spelled out. An average fans can hold up against any star's."
   },
   {
    "n": 23,
@@ -1587,7 +1609,8 @@
      "PTS": 3041
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "A single season fans can compare with any star's best year."
   },
   {
    "n": 24,
@@ -1614,7 +1637,8 @@
      "game": "0020100416"
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "Season-level detail most fans have never seen spelled out. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 25,
@@ -1651,7 +1675,8 @@
      "PTS": 2313
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "A single season fans can compare with any star's best year. Rookie and origin-story content performs."
   },
   {
    "n": 26,
@@ -1688,7 +1713,8 @@
      "PTS": 1640
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Season-level detail most fans have never seen spelled out. Age angles (prodigy or longevity) travel beyond one fan base."
   },
   {
    "n": 27,
@@ -1848,7 +1874,8 @@
      "game": "0020200783"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "A single season fans can compare with any star's best year."
   },
   {
    "n": 28,
@@ -1875,7 +1902,8 @@
      "game": "0020200783"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Season-level detail most fans have never seen spelled out. Age angles (prodigy or longevity) travel beyond one fan base."
   },
   {
    "n": 29,
@@ -1902,14 +1930,16 @@
      "game": "0029400926"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "A single season fans can compare with any star's best year."
   },
   {
    "n": 30,
    "kind": "season",
    "text": "His most 30-point games in a season: 67, in 1986-87. Most 40-point games: 37, in 1986-87.",
    "evidence": [],
-   "score": 8
+   "score": 8,
+   "why": "Season-level detail most fans have never seen spelled out."
   },
   {
    "n": 31,
@@ -2145,7 +2175,8 @@
      "game": "0028800931"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "A single season fans can compare with any star's best year. Triple-doubles travel across every fan base."
   },
   {
    "n": 32,
@@ -2182,7 +2213,8 @@
      "PTS": 2868
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Season-level detail most fans have never seen spelled out. Shot-blocking from a guard surprises people."
   },
   {
    "n": 33,
@@ -2219,7 +2251,8 @@
      "PTS": 457
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A single season fans can compare with any star's best year."
   },
   {
    "n": 34,
@@ -2256,7 +2289,8 @@
      "PTS": 2868
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Season-level detail most fans have never seen spelled out. The defensive half of the greatness case."
   },
   {
    "n": 35,
@@ -2293,7 +2327,8 @@
      "PTS": 2580
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A single season fans can compare with any star's best year."
   },
   {
    "n": 36,
@@ -2330,7 +2365,8 @@
      "PTS": 2491
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Season-level detail most fans have never seen spelled out. Then-vs-now three-point contrast gets modern fans talking."
   },
   {
    "n": 37,
@@ -2599,7 +2635,8 @@
      "PTS": 1640
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A single season fans can compare with any star's best year."
   },
   {
    "n": 38,
@@ -2835,7 +2872,8 @@
      "game": "0028700815"
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "A count built from every game played, which no highlight reel shows. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 39,
@@ -2862,7 +2900,8 @@
      "game": "0028900931"
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Sixty-plus nights are so rare that every one is remembered."
   },
   {
    "n": 40,
@@ -3022,7 +3061,8 @@
      "game": "0049600014"
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "A count built from every game played, which no highlight reel shows. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 41,
@@ -3049,7 +3089,8 @@
      "game": "0048509102"
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Sixty-plus nights are so rare that every one is remembered."
   },
   {
    "n": 42,
@@ -3133,7 +3174,8 @@
      "game": "0029200453"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "A count built from every game played, which no highlight reel shows."
   },
   {
    "n": 43,
@@ -3160,7 +3202,8 @@
      "game": "0048509102"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post."
   },
   {
    "n": 44,
@@ -3396,7 +3439,8 @@
      "game": "0028400407"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "A count built from every game played, which no highlight reel shows."
   },
   {
    "n": 45,
@@ -3632,7 +3676,8 @@
      "game": "0028600156"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post."
   },
   {
    "n": 46,
@@ -3868,7 +3913,8 @@
      "game": "0048700034"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "A count built from every game played, which no highlight reel shows."
   },
   {
    "n": 47,
@@ -4104,7 +4150,8 @@
      "game": "0048800048"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post."
   },
   {
    "n": 48,
@@ -4340,7 +4387,8 @@
      "game": "0028800864"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "A count built from every game played, which no highlight reel shows."
   },
   {
    "n": 49,
@@ -4576,7 +4624,8 @@
      "game": "0029200308"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Playmaking credit that scoring headlines bury."
   },
   {
    "n": 50,
@@ -4603,7 +4652,8 @@
      "game": "0028800080"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "A count built from every game played, which no highlight reel shows. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 51,
@@ -4630,7 +4680,8 @@
      "game": "0028900491"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Then-vs-now three-point contrast gets modern fans talking."
   },
   {
    "n": 52,
@@ -4866,7 +4917,8 @@
      "game": "0028600498"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "A count built from every game played, which no highlight reel shows. Winning context answers the \"empty stats\" critique."
   },
   {
    "n": 53,
@@ -5026,7 +5078,8 @@
      "game": "0029200453"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 54,
@@ -5224,7 +5277,8 @@
      "game": "0029200453"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "A count built from every game played, which no highlight reel shows."
   },
   {
    "n": 55,
@@ -5460,7 +5514,8 @@
      "game": "0028700323"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. The defensive half of the greatness case."
   },
   {
    "n": 56,
@@ -5506,7 +5561,8 @@
      "game": "0028600179"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A count built from every game played, which no highlight reel shows. The defensive half of the greatness case."
   },
   {
    "n": 57,
@@ -5552,7 +5608,8 @@
      "game": "0049000050"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Playmaking credit that scoring headlines bury."
   },
   {
    "n": 58,
@@ -5712,7 +5769,8 @@
      "game": "0029500855"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A count built from every game played, which no highlight reel shows. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 59,
@@ -5948,7 +6006,8 @@
      "game": "0049400037"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. The defensive half of the greatness case."
   },
   {
    "n": 60,
@@ -5975,7 +6034,8 @@
      "game": "0029200453"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A count built from every game played, which no highlight reel shows. Sixty-plus nights are so rare that every one is remembered."
   },
   {
    "n": 61,
@@ -6002,7 +6062,8 @@
      "game": "0028600639"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Living at the line is an underrated part of scoring."
   },
   {
    "n": 62,
@@ -6029,7 +6090,8 @@
      "game": "0028600383"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A count built from every game played, which no highlight reel shows. Living at the line is an underrated part of scoring."
   },
   {
    "n": 63,
@@ -6265,7 +6327,8 @@
      "game": "0028800080"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Game-level numbers make a legend concrete; the box scores are the post. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 64,
@@ -6501,7 +6564,8 @@
      "game": "0029701066"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "A count built from every game played, which no highlight reel shows."
   },
   {
    "n": 65,
@@ -6547,7 +6611,8 @@
      "game": "0020100388"
     }
    ],
-   "score": 10
+   "score": 10,
+   "why": "Shows how high the bar was across the undefined; the extreme case is the hook. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 66,
@@ -6593,7 +6658,8 @@
      "game": "0028800907"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Leads with the most extreme case, which carries the post. Triple-doubles travel across every fan base."
   },
   {
    "n": 67,
@@ -6639,7 +6705,8 @@
      "game": "0028800199"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Shows how high the bar was across the undefined; the extreme case is the hook. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 68,
@@ -6685,7 +6752,8 @@
      "game": "0028600668"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Leads with the most extreme case, which carries the post. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 69,
@@ -6731,7 +6799,8 @@
      "game": "0028600228"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Shows how high the bar was across the undefined; the extreme case is the hook. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 70,
@@ -6758,7 +6827,8 @@
      "game": "0020100400"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Leads with the most extreme case, which carries the post. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 71,
@@ -6804,7 +6874,8 @@
      "game": "0048700034"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Shows how high the bar was across the undefined; the extreme case is the hook. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 72,
@@ -6850,7 +6921,8 @@
      "game": "0049200038"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Leads with the most extreme case, which carries the post. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 73,
@@ -6894,7 +6966,8 @@
      "pts": 201
     }
    ],
-   "score": 10
+   "score": 10,
+   "why": "The Finals are where legacies are judged; these numbers settle arguments. The Finals are where legacies are judged."
   },
   {
    "n": 74,
@@ -7016,7 +7089,8 @@
      "game": "0049700088"
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "Championship-stage numbers get shared by every side of the debate. The Finals are where legacies are judged."
   },
   {
    "n": 75,
@@ -7062,7 +7136,8 @@
      "game": "0049200075"
     }
    ],
-   "score": 9
+   "score": 9,
+   "why": "The Finals are where legacies are judged; these numbers settle arguments. The Finals are where legacies are judged."
   },
   {
    "n": 76,
@@ -7089,7 +7164,8 @@
      "game": "0049200074"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Championship-stage numbers get shared by every side of the debate. The Finals are where legacies are judged."
   },
   {
    "n": 77,
@@ -7211,7 +7287,8 @@
      "game": "0049200076"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "The Finals are where legacies are judged; these numbers settle arguments. The Finals are where legacies are judged."
   },
   {
    "n": 78,
@@ -7333,7 +7410,8 @@
      "game": "0049700088"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Championship-stage numbers get shared by every side of the debate. An average fans can hold up against any star's."
   },
   {
    "n": 79,
@@ -7365,7 +7443,8 @@
      "games": 6
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "The Finals are where legacies are judged; these numbers settle arguments. The Finals are where legacies are judged."
   },
   {
    "n": 80,
@@ -7392,7 +7471,8 @@
      "game": "0049500068"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Championship-stage numbers get shared by every side of the debate. The Finals are where legacies are judged."
   },
   {
    "n": 81,
@@ -7514,7 +7594,8 @@
      "game": "0049500057"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Playoff numbers are the currency of the GOAT debate."
   },
   {
    "n": 82,
@@ -7594,7 +7675,8 @@
      "games": 3
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Big-game detail that separates stars from legends."
   },
   {
    "n": 83,
@@ -7697,7 +7779,8 @@
      "game": "0048700034"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Playoff numbers are the currency of the GOAT debate."
   },
   {
    "n": 84,
@@ -7734,7 +7817,8 @@
      "PTS": 587
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Big-game detail that separates stars from legends."
   },
   {
    "n": 85,
@@ -7894,7 +7978,8 @@
      "game": "0049600014"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Playoff numbers are the currency of the GOAT debate. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 86,
@@ -7959,7 +8044,8 @@
      "game": "0049700082"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Big-game detail that separates stars from legends. Game 7 résumés decide legacies in fans' minds."
   },
   {
    "n": 87,
@@ -7996,7 +8082,8 @@
      "PTS": 131
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Playoff numbers are the currency of the GOAT debate. An average fans can hold up against any star's."
   },
   {
    "n": 88,
@@ -8049,7 +8136,8 @@
      "games": 3
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Big-game detail that separates stars from legends."
   },
   {
    "n": 89,
@@ -8190,7 +8278,8 @@
      "game": "0049400052"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Playoff numbers are the currency of the GOAT debate. An average fans can hold up against any star's."
   },
   {
    "n": 90,
@@ -8206,7 +8295,8 @@
      "opp": "BOS"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Big-game detail that separates stars from legends."
   },
   {
    "n": 91,
@@ -8222,7 +8312,8 @@
      "rec": "9-8"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Rivalry numbers pull that opponent's fan base into the replies. An average fans can hold up against any star's."
   },
   {
    "n": 92,
@@ -8238,7 +8329,8 @@
      "rec": "13-6"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Opponent-specific lines get shared by the other side too. An average fans can hold up against any star's."
   },
   {
    "n": 93,
@@ -8294,7 +8386,8 @@
      "rec": "18-8"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Rivalry numbers pull that opponent's fan base into the replies. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 94,
@@ -8530,7 +8623,8 @@
      "game": "0049100042"
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "Opponent-specific lines get shared by the other side too."
   },
   {
    "n": 95,
@@ -8546,7 +8640,8 @@
      "rec": "48-18"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Rivalry numbers pull that opponent's fan base into the replies."
   },
   {
    "n": 96,
@@ -8782,7 +8877,8 @@
      "game": "0028800707"
     }
    ],
-   "score": 8
+   "score": 8,
+   "why": "Context fans rarely see, good for quote-tweets. An average fans can hold up against any star's."
   },
   {
    "n": 97,
@@ -8800,7 +8896,8 @@
      "ppg": 29.854477611940297
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Splits answer the \"big stage\" question with numbers."
   },
   {
    "n": 98,
@@ -8922,7 +9019,8 @@
      "game": "0028400234"
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Context fans rarely see, good for quote-tweets. An average fans can hold up against any star's."
   },
   {
    "n": 99,
@@ -9278,7 +9376,8 @@
      "PTS": 8
     }
    ],
-   "score": 7
+   "score": 7,
+   "why": "All-Star content performs every February. The defensive half of the greatness case."
   },
   {
    "n": 100,
@@ -9315,13 +9414,14 @@
      "PTS": 40
     }
    ],
-   "score": 6
+   "score": 6,
+   "why": "Showcase-game numbers for All-Star weekend posts."
   }
  ],
  "counts": {
   "regularSeasonGames": 1072,
   "playoffGames": 179,
-  "leaguePlayerSeasons": 25347
+  "leaguePlayerSeasons": 25745
  },
  "method": [
   "Every regular-season and playoff game Jordan played, his season, college and All-Star totals, and every NBA player-season ever, all from stats.nba.com. Nothing typed in from memory.",
