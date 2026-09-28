@@ -313,14 +313,14 @@ function ruleFacts(rows, rules, decade, t) {
     const finder = rule.finder ? { ...rule.finder, seasonMin: decade, seasonMax: decade + 9 } : null;
     const line = (rs) => rs.length === 1
       ? `${rs[0].name} (${yr(rs[0])}: ${rule.say(rs[0])})`
-      : `${rs[0].name} (${rs.length} times; ${rs.map((r) => `${yr(r)}: ${rule.say(r)}`).join(", ")})`;
+      : `${rs[0].name} (${rs.length}×, best ${yr(rs[0])}: ${rule.say(rs[0])})`;
     const base = { rule: rule.key, group: rule.group, decade, finder, evidence: sorted.slice(0, players.length <= 4 ? 12 : 6).map(ev), seasonsMatched: m.length };
     if (players.length === 1) {
       const rs = players[0]; const r = rs[0];
       out.push({ ...base, kind: "only", score: 10 + bonus(rule, r), players: [pid(r)], seasons: rs.map(yr),
         text: rs.length === 1
           ? `The only ${who} of the ${decade}s to ${rule.head}${floor}: ${r.name}, ${yr(r)} — ${rule.say(r)}.`
-          : `The only ${who} of the ${decade}s to ${rule.head}${floor} was ${r.name} — and he did it ${rs.length === 2 ? "twice" : `${rs.length} times`} (${rs.map((x) => `${yr(x)}: ${rule.say(x)}`).join("; ")}).` });
+          : `The only ${who} of the ${decade}s to ${rule.head}${floor} was ${r.name} — and he did it ${rs.length === 2 ? "twice" : `${rs.length} times`} (${rs.slice(0, 3).map((x) => `${yr(x)}: ${rule.say(x)}`).join("; ")}${rs.length > 3 ? "; …" : ""}).` });
     } else if (players.length === 2) {
       out.push({ ...base, kind: "pair", score: 8 + bonus(rule, sorted[0]), players: players.map((rs) => pid(rs[0])), seasons: sorted.map(yr),
         text: `Only two ${who}s of the ${decade}s ${verb(rule.head)}${floor}: ${players.map(line).join("; ")}.` });

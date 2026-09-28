@@ -33,7 +33,6 @@ function fmt(text) {
 
 function page(d) {
   const facts = d.facts.slice(0, 100);
-  const cols = [0, 1, 2, 3].map((c) => facts.slice(c * 25, c * 25 + 25));
   const kinds = {};
   for (const f of facts) kinds[f.kind] = (kinds[f.kind] || 0) + 1;
   const mix = Object.entries(kinds).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${v} ${KIND[k] || k}`).join(" · ");
@@ -58,9 +57,7 @@ function page(d) {
       <div>${mix}</div>
     </div>
   </div>
-  <div class="cols">
-    ${cols.map((col) => `<ol start="${col.length ? col[0].n : 1}">${col.map((f) => `<li class="k-${f.kind}"><span class="tag">${KIND[f.kind] || f.kind}</span>${fmt(f.text)}</li>`).join("")}</ol>`).join("")}
-  </div>
+  <ol class="cols">${facts.map((f) => `<li class="k-${f.kind}"><span class="tag">${KIND[f.kind] || f.kind}</span>${fmt(f.text)}</li>`).join("")}</ol>
   <div class="foot">
     <b>Method</b> — Every line is a rule evaluated over every hitter-season and pitcher-season of the decade, pulled in full from the MLB Stats API, the official record; nothing is recalled or estimated, and the rows behind each line are stored with it. "Only", "two" and "few" are exact counts across the complete pull. Where a line uses a plate-appearance or innings floor (stated in the line) rather than the league qualification bar, it is so the claim can be re-run with the same filters. Thresholds are era-aware. Traded players' combined seasons are included. Since 2024 the official record includes Negro League seasons (1920-48); those player-seasons are in the pull and can appear here.${ccLine} Provenance: <span class="mono">statdesk/data/decades/${d.decade}-facts.json</span>.
   </div>
@@ -80,9 +77,11 @@ const css = `
   h1{ font-family:Oswald,sans-serif; font-weight:700; text-transform:uppercase; font-size:19pt; margin:0; line-height:1; }
   .meta{ text-align:right; font-family:Oswald,sans-serif; font-size:6.8pt; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); line-height:1.5; }
   .meta b{ color:var(--red); }
-  .cols{ display:flex; gap:9px; flex:1 1 auto; min-height:0; }
-  ol{ flex:1 1 0; margin:0; padding:0 0 0 14px; font-size:6.35pt; line-height:1.22; }
-  li{ margin:0 0 2.6px; padding-right:2px; break-inside:avoid; }
+  /* Four columns balanced by height, not by count: the long "only / few"
+     lines cluster at the top of the list and a count-based split overflows
+     the first column while the last sits half empty. */
+  ol.cols{ column-count:4; column-gap:10px; column-fill:balance; flex:1 1 auto; min-height:0; margin:0; padding:0 0 0 13px; font-size:6.05pt; line-height:1.2; }
+  li{ margin:0 0 2.3px; padding-right:2px; break-inside:avoid; }
   li::marker{ font-family:Oswald,sans-serif; font-weight:600; color:var(--red); font-size:6.2pt; }
   li b{ font-weight:600; }
   .tag{ display:inline-block; font-family:Oswald,sans-serif; font-size:5pt; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); border:0.5px solid var(--rule); border-radius:2px; padding:0 2px; margin-right:3px; vertical-align:1px; }
