@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-27. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-09-28. THE PIPELINE IS BUILT AND WORKING END TO END.
 
 ### How it runs now
 
@@ -108,6 +108,49 @@ ten days. Starters need 1+, everyday players and relievers 3+.
 Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
 `statdesk/posted.json`, which the pipeline filters on automatically. Add a name
 the day it goes out.
+
+### DECADE MODE (added 2026-09-28) — historical leaders, never from memory
+
+Nick asked for 100 stats from each decade, all true. Built as a mode of the
+pipeline, not a one-off:
+
+- `statdesk/decades.js` pulls EVERY season in a decade in full from the MLB
+  Stats API (official record, seasons back to 1876) plus standings, computes
+  the leader in 22 categories mechanically, and commits a compact summary
+  per decade to `statdesk/data/decades/<decade>s.json` (leaders + top five
+  behind each as provenance + decade totals). Raw pulls are gitignored.
+- Workflow `statdesk-decades.yml` runs it on a GitHub-hosted runner (the API
+  is not blocked there; only Stathead needs Nick's machine). Own concurrency
+  group. About 0.6 s per season.
+- `statdesk/render-decades.js` renders one landscape page per decade: a
+  10-season x 10-category grid = the 100 facts, decade-totals strip, method.
+  Cells are height-capped so ties cannot overflow a page; 3+ way ties go to
+  footnotes.
+- `statdesk/verify-decades.js` + `statdesk-decades-verify.yml` cross-check
+  samples against Stathead's Season Finder on Nick's machine and commit a
+  report. Counting stats only. A disagreement fails the job; never reconciled.
+
+Rules learned building it:
+- QUALIFICATION IS PER LEAGUE on that league's own schedule. The official
+  record has included Negro League seasons (1920-1948) since 2024; those clubs
+  played 40-110 games, so one 154-game bar would silently disqualify all of
+  them, including the record's own 1943 batting leader (Josh Gibson .466).
+  AL/NL bars come from the standings capped at the schedule (154 before
+  1961/62, 162 after); other leagues use the most games any hitter played.
+  `--al-nl-only` builds the pre-2024-style version if Nick wants it.
+- Some historical rows have NO NAME. Guard every name read.
+- The API writes "Nolan Ryan Jr."; Stathead writes "Nolan Ryan". Strip
+  suffixes before comparing sources.
+- Innings compare as outs, never as decimals.
+- Reasonableness check on the first full pull: 21 of 21 famous leaders
+  matched (Ruth 60, Wilson 191, Williams .406, Maris 61, Wills 104, Gibson
+  1.12, Ryan 383, Henderson 130, McGwire 70, Bonds 73, Ichiro 262, Hornsby
+  .424, Gibson .466, Thigpen 57, K-Rod 62, Coleman 110, Johnson 364, Halladay
+  21, Feller 240, Kiner 47, Mantle 52).
+
+Delivered 2026-09-28: 1920s-2010s (ten decades; Nick's list skipped the
+1960s, included anyway and flagged). Stathead cross-check result recorded
+below when it lands.
 
 ### THE REGULAR SEASON ENDED 2026-09-27 — read this before the next run
 
