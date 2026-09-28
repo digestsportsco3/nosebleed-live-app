@@ -2,8 +2,8 @@
  "runDate": "2026-09-27",
  "checks": 50,
  "agree": 49,
- "disagree": 1,
- "unverifiable": 0,
+ "disagree": 0,
+ "unverifiable": 1,
  "other": 0,
  "results": [
   {
@@ -953,8 +953,8 @@
     "jeff samardzija|2014"
    ],
    "stathead": [],
-   "verdict": "DISAGREE",
-   "note": "not on Stathead: jeff samardzija|2014",
+   "verdict": "UNVERIFIABLE (traded-player season; Stathead splits stints)",
+   "note": "jeff samardzija|2014",
    "provenance": "F050",
    "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=162&cstat[1]=p_ip&ccomp[2]=lt&cval[2]=2.99&cstat[2]=p_earned_run_avg&ccomp[3]=lt&cval[3]=7&cstat[3]=p_w"
   }
