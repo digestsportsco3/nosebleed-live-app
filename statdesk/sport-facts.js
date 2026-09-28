@@ -366,7 +366,7 @@ function cbbRules(e) {
   const R = []; const r = (key, head, filters, sort, say, extra = {}) => R.push({ key, head, filters, sort, say, ...extra });
   const ppg = [0, 35, 32, 30, 28][e]; const rpg = [0, 20, 17, 14, 14][e];
   r("ppg_hi", `average ${ppg} points a game`, [["games", "gte", 15], ["pts_per_g", "gte", ppg]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { floor: "15+ games" });
-  r("pts_hi", `score ${e >= 3 ? 1000 : 900} points`, [["pts", "gte", e >= 3 ? 1000 : 900]], "pts", (x) => `${c(x.pts)} pts in ${x.games} games`);
+  r("pts_hi", `score ${c(e >= 3 ? 1000 : 900)} points`, [["pts", "gte", e >= 3 ? 1000 : 900]], "pts", (x) => `${c(x.pts)} pts in ${x.games} games`);
   r("rpg_hi", `average ${rpg} rebounds a game`, [["games", "gte", 15], ["trb_per_g", "gte", rpg]], "trb_per_g", (x) => `${d1(x.trb_per_g)} rpg`, { floor: "15+ games" });
   r("dbl_big", `average ${e <= 2 ? 25 : 20} points and ${e <= 2 ? 15 : 12} rebounds`, [["games", "gte", 15], ["pts_per_g", "gte", e <= 2 ? 25 : 20], ["trb_per_g", "gte", e <= 2 ? 15 : 12]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg, ${d1(x.trb_per_g)} rpg`, { floor: "15+ games" });
   r("ft_hi", "make 300 free throws", [["ft", "gte", 300]], "ft", (x) => `${x.ft}-${x.fta} FT`);
@@ -572,9 +572,9 @@ const SPORTS = {
     // year params are the season's END year (1948 = 1947-48)
     units: (d) => {
       const U = []; if (d + 9 < 1947) return U; const yMin = Math.max(d, 1947) + 1; const yMax = Math.min(d + 10, 2026);
-      U.push({ key: "p", base: `${SH}/basketball/cbb/player-season-finder.cgi`, who: "major-college player", extra: { comp_id: "NCAAM", display_type: "totals" }, yMin, yMax, label: cbbLabel,
+      U.push({ key: "p", base: `${SH}/basketball/cbb/player-season-finder.cgi`, who: "major-college player", extra: { comp_id: "NCAAM", display_type: "totals" }, pctFraction: true, yMin, yMax, label: cbbLabel,
         rules: cbbRules(cbbEra(d)), extremes: withCounts(cbbExtremes(cbbEra(d)), cbbCounts(cbbEra(d))), schools: true, totals: cbbTotals(cbbEra(d)), near: cbbNear() });
-      U.push({ key: "t", team: true, base: `${SH}/basketball/cbb/team-season-finder.cgi`, match: "team_season", who: "major-college team", pron: "it", extra: { comp_id: "NCAAM", display_type: "team_totals" }, yMin, yMax, label: cbbLabel,
+      U.push({ key: "t", team: true, base: `${SH}/basketball/cbb/team-season-finder.cgi`, match: "team_season", who: "major-college team", pron: "it", extra: { comp_id: "NCAAM", display_type: "team_totals" }, pctFraction: true, yMin, yMax, label: cbbLabel,
         rules: cbbTeamRules(d), extremes: withCounts(cbbTeamExtremes(d), TEAMCOUNTS.cbb(d)), totals: [], near: [] });
       return U;
     },
@@ -592,6 +592,8 @@ function makeRow(x, unit) {
   const name = unit.team ? x.team_name_abbr : x.name_display;
   const o = { id: unit.team ? name : (x._id || name), name, season: parseInt(String(x.year_id || "").slice(0, 4), 10), team: x.teams_played_for || name, pos: x.pos, age: num(x.age), year_raw: x.year_id };
   for (const [k, v] of Object.entries(x)) if (!(k in o) && k !== "_id") { const n = num(v); o[k] = n == null ? v : n; }
+  // Some finders show percentages as fractions (.647); lines speak in percents.
+  if (unit.pctFraction) for (const k of Object.keys(o)) if (/_pct$/.test(k) && typeof o[k] === "number" && o[k] <= 1) o[k] = Math.round(o[k] * 1000) / 10;
   // Stats shown for seasons before they were officially kept are dropped.
   for (const [k, y] of Object.entries(unit.statFrom || {})) if (o.season < y) o[k] = null;
   const g = typeof o.games === "number" && o.games > 0 ? o.games : null;
@@ -615,7 +617,7 @@ function countFacts(rows, res, x, cs, u, dl, url) {
     text: `Most ${cs.what} in the ${dl}: ${top[0].name}, ${top.length}${top.length <= 5 ? ` (${top.map((r) => u.label(r.season)).sort().join(", ")})` : ""}.` });
   if (u.schools) {
     const sc = leader(by((r) => (/^\d+TM$|,/.test(String(r.team)) ? null : r.team)));
-    if (sc && sc.length >= 3) out.push({ ...base, kind: "team", rule: `${u.key}:${x.key}:school${cs.v}`, score: 6, players: [{ id: `school:${sc[0].team}`, name: sc[0].team }], seasons: sc.map((r) => r.season), evidence: sc,
+    if (sc && sc.length >= 3 && new Set(sc.map((r) => r.id)).size >= 2) out.push({ ...base, kind: "team", rule: `${u.key}:${x.key}:school${cs.v}`, score: 6, players: [{ id: `school:${sc[0].team}`, name: sc[0].team }], seasons: sc.map((r) => r.season), evidence: sc,
       text: `Most ${cs.what} by one school's players in the ${dl}: ${sc[0].team}, ${sc.length} (${[...new Set(sc.map((r) => r.name))].slice(0, 4).join(", ")}${new Set(sc.map((r) => r.name)).size > 4 ? ", …" : ""}).` });
   }
   if (u.ages && cs.what1 && q.every((r) => typeof r.age === "number")) {
@@ -659,7 +661,8 @@ async function runSport(key, decades) {
       for (const u of units) {
         const ctx = { decadeLabel, label: u.label, ev: (r) => r, who: u.who, pron: u.pron || "he" };
         const lo = seasonMin(u), hi = seasonMax(u); const inDecade = (r) => r.season >= lo && r.season <= hi;
-        const q = (opts) => finderUrl(u.base, { match: u.match || "player_season", yMin: u.yMin, yMax: u.yMax, extra: u.extra, ...opts });
+        const siteScale = (fs2) => (u.pctFraction ? (fs2 || []).map(([k, cmp, v]) => (/_pct$/.test(k) ? [k, cmp, v / 100] : [k, cmp, v])) : fs2);
+        const q = (opts) => finderUrl(u.base, { match: u.match || "player_season", yMin: u.yMin, yMax: u.yMax, extra: u.extra, ...opts, filters: siteScale(opts.filters) });
         for (const rule of u.rules) {
           const url = q({ filters: rule.filters, sort: rule.sort, asc: !!rule.asc, pos: rule.pos, extra: { ...u.extra, ...(rule.params || {}) } });
           let res; try { res = await sh.queryAll(url, { label: `${S.name} ${decadeLabel} ${u.key}:${rule.key}`, maxPages: 2 }); queries += res.pages; } catch (err) { console.log(`  ${rule.key}: FAILED ${err.message}`); continue; }
@@ -669,7 +672,10 @@ async function runSport(key, decades) {
           const sgn = rule.asc ? -1 : 1;
           const spec = { key: `${u.key}:${rule.key}`, head: rule.head, floor: rule.floor, f: () => true, mag: (r) => sgn * (Number(r[rule.sort]) || 0), say: rule.say, finder: { url } };
           let facts = core.ruleFacts(rows, [spec], ctx);
-          if (!res.complete) facts = facts.map((f) => ({ ...f, kind: "list", score: 3,
+          const bar = rule.filters.find(([k, cmp]) => k === rule.sort && cmp === "gte");
+          const lastRaw = res.rows.length ? makeRow(res.rows[res.rows.length - 1], u) : null;
+          const provedComplete = res.complete || (!rule.asc && bar && lastRaw && typeof lastRaw[rule.sort] === "number" && lastRaw[rule.sort] < bar[2]);
+          if (!provedComplete) facts = facts.map((f) => ({ ...f, kind: "list", score: 3,
             text: `More than ${rows.length} ${u.who}-seasons of the ${decadeLabel} ${core.verb(rule.head)}${rule.floor ? ` (${rule.floor})` : ""}. The most extreme: ${rows[0].name}, ${u.label(rows[0].season)} — ${rule.say(rows[0])}.` }));
           cands.push(...facts);
           // "Most seasons doing it" — only from a complete set, and only with a clear leader.
