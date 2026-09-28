@@ -67,6 +67,21 @@ body[data-fit]) so the PDF reflects the fit; check pages with a scroll test.
   mj-player-test.json precisely so the hand-built mj-facts.json is not lost.
 - NFL 1920s-2020s complete and sent (d48f980).
 
+KNOWN DATA HOLE, found 2026-09-28 by the Stathead cross-check: stats.nba.com
+leagueleaders silently omits some players (Kevin Porter, traded in 1977-78, is
+missing entirely), so NBA "only" lines and "next best" names could be wrong.
+`pull.js fill` (task nba-fill) adds every roster candidate's missing seasons
+from his official career record. AFTER IT LANDS: rebuild nba/facts.js (all
+decades), mj-facts.js, mj-era-facts.js and player-facts.js kobe; diff the line
+texts against the committed versions; resend any PDF whose lines changed and
+tell Nick exactly which lines changed. Cross-check otherwise agreed: 28/28
+Jordan seasons, 47/53 decade top-fives (the rest were name spellings).
+
+College basketball finders show percentages as fractions (.647): sport-facts
+units carry pctFraction, which converts to percents and sends thresholds in
+site scale. The first CBB pass (80427d8) predates the fix: its shooting rules
+never fired and must not be rendered; the rerun comes from the nba-fill job.
+
 Status at last update: NBA, MJ and NFL 2000s-2020s done and sent as PDFs earlier.
 Run 8 (NFL pre-2000 + CFB + CBB) dispatched 2026-09-28 05:41 UTC on commit 9763f2f.
 Still open: render/send those PDFs; Stathead cross-check samples for NBA/MJ.
