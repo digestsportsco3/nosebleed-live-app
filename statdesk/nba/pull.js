@@ -117,6 +117,11 @@ async function season(y, type, roster) {
 
 async function mj() {
   const id = 893;
+  // Birthdate, so ages can be exact to the game date. The career feed's
+  // PLAYER_AGE is a season label (he is "22" for all of 1984-85, though he
+  // turned 22 that February), and "age 39 when he scored 51" would be wrong.
+  const info = rows(await get("commonplayerinfo", { PlayerID: String(id), LeagueID: "00" }, "MJ info"), "CommonPlayerInfo")[0] || {};
+  write("mj/info.json", { pulledAt: new Date().toISOString(), birthdate: info.BIRTHDATE, height: info.HEIGHT, school: info.SCHOOL, draftYear: info.DRAFT_YEAR, draftRound: info.DRAFT_ROUND, draftNumber: info.DRAFT_NUMBER, raw: info });
   const c = await career(id);
   const sets = {};
   for (const rs of c.resultSets) sets[rs.name] = rows(c, rs.name);
