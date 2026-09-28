@@ -75,10 +75,14 @@ function onePerPlayer(rows, sizeKey) {
   return [...best.values()];
 }
 
+// A few historical rows carry no fullName at all; one crashed the 1932 pull.
+const pname = (sp) => (sp.player && (sp.player.fullName || sp.player.name)) || `player #${sp.player && sp.player.id}`;
+const lg = (sp) => (sp.league && sp.league.name) || "unknown";
+
 function who(entry) {
   const sp = entry.sp;
   const team = sp.team && sp.team.name ? sp.team.name : (entry.teams > 1 ? "multiple teams" : "unknown team");
-  return { id: sp.player.id, name: sp.player.fullName, team, league: sp.league && sp.league.name ? sp.league.name : null, teams: entry.teams };
+  return { id: sp.player.id, name: pname(sp), team, league: lg(sp), teams: entry.teams };
 }
 
 // ------------------------------------------------------------ categories --
@@ -115,10 +119,10 @@ function leaders(entries, cat, qualifies) {
   for (const e of entries) {
     const v = cat.value(e.sp.stat);
     if (v == null) continue;
-    if (cat.q && !qualifies(e.sp.stat)) continue;
+    if (cat.q && !qualifies(e.sp.stat, lg(e.sp))) continue;
     rows.push({ ...who(e), value: v, shown: cat.show(v) });
   }
-  rows.sort((a, b) => (cat.low ? a.value - b.value : b.value - a.value) || a.name.localeCompare(b.name));
+  rows.sort((a, b) => (cat.low ? a.value - b.value : b.value - a.value) || String(a.name).localeCompare(String(b.name)));
   if (!rows.length) return { leaders: [], top5: [], considered: 0 };
   const top = rows[0].value;
   return { leaders: rows.filter((r) => r.value === top), top5: rows.slice(0, 5), considered: rows.length };
@@ -137,34 +141,63 @@ async function pullSeason(season) {
     fs.writeFileSync(path.join(rawDir, `${season}-${name}.json`), JSON.stringify({ ts, season, body }));
   }
 
-  const hitters = onePerPlayer(splits(hit), "pa");
-  const pitchers = onePerPlayer(splits(pit), "outs");
+  const majorsOnly = process.argv.includes("--al-nl-only") || process.env.AL_NL_ONLY === "true";
+  const keep = (sp) => !majorsOnly || lg(sp) === "AL" || lg(sp) === "NL" || lg(sp) === "American League" || lg(sp) === "National League";
+  const hitters = onePerPlayer(splits(hit).filter(keep), "pa");
+  const pitchers = onePerPlayer(splits(pit).filter(keep), "outs");
 
-  // Team games from the standings. Fallback: the most games any one hitter
-  // played, which can only overshoot by a game or two, and is recorded as such.
-  let teamGames = null, teamGamesBasis;
-  const recs = [];
-  for (const d of (standings && standings.records) || []) for (const t of d.teamRecords || []) recs.push(num(t.gamesPlayed));
-  if (recs.some((g) => g)) { teamGames = Math.max(...recs.filter((g) => g)); teamGamesBasis = "most games played by any team, from the standings"; }
-  else { teamGames = Math.max(...hitters.map((e) => num(e.sp.stat.gamesPlayed) || 0)); teamGamesBasis = "FALLBACK: most games played by any hitter (standings unavailable)"; }
-  const minPA = Math.ceil(3.1 * teamGames);
-  const minOuts = teamGames * 3;
-  const qHit = (s) => (num(s.plateAppearances) || 0) >= minPA;
-  const qPit = (s) => (outs(s.inningsPitched) || 0) >= minOuts;
+  // Qualification is PER LEAGUE, on that league's own schedule. The official
+  // record has included Negro League seasons since 2024, and those clubs
+  // played sixty to ninety games: a single 154-game bar would silently
+  // disqualify every one of their hitters, and the record's own 1943 batting
+  // leader (Josh Gibson, .466) with them. This is how MLB's leaderboards do
+  // it. AL/NL team games come from the standings, capped at the scheduled
+  // length so replayed ties do not push the bar above 154 or 162; any other
+  // league uses the most games any of its hitters played.
+  // AL went to 162 games in 1961, the NL in 1962.
+  const nlScheduled = season < 1962 ? 154 : 162;
+  const alScheduled = season < 1961 ? 154 : 162;
+  const recs = { AL: [], NL: [] };
+  // The league id sits on each division record, not on the team rows.
+  for (const d of (standings && standings.records) || []) {
+    const lid = d.league && d.league.id;
+    const league = lid === 103 ? "AL" : lid === 104 ? "NL" : null;
+    for (const t of d.teamRecords || []) {
+      const g = num(t.gamesPlayed);
+      if (g && league) recs[league].push(g);
+      else if (g) { recs.AL.push(g); recs.NL.push(g); }
+    }
+  }
+  const leagueGames = {}; const basis = {};
+  const hitterMaxByLeague = {};
+  for (const e of hitters) { const L = lg(e.sp); hitterMaxByLeague[L] = Math.max(hitterMaxByLeague[L] || 0, num(e.sp.stat.gamesPlayed) || 0); }
+  for (const L of new Set([...Object.keys(hitterMaxByLeague), ...pitchers.map((e) => lg(e.sp))])) {
+    if ((L === "AL" || L === "NL") && recs[L].length) {
+      const sched = L === "AL" ? alScheduled : nlScheduled;
+      leagueGames[L] = Math.min(Math.max(...recs[L]), sched); basis[L] = `standings, capped at the ${sched}-game schedule`;
+    } else { leagueGames[L] = hitterMaxByLeague[L] || Math.max(...Object.values(hitterMaxByLeague)); basis[L] = "most games played by any hitter in the league"; }
+  }
+  const teamGames = leagueGames.AL || leagueGames.NL || Math.max(...Object.values(leagueGames));
+  const teamGamesBasis = Object.entries(basis).map(([L, b]) => `${L}: ${leagueGames[L]} (${b})`).join("; ");
+  const qHit = (s, L) => (num(s.plateAppearances) || 0) >= Math.ceil(3.1 * leagueGames[L]);
+  const qPit = (s, L) => (outs(s.inningsPitched) || 0) >= leagueGames[L] * 3;
 
   const leagues = new Set();
   for (const e of [...hitters, ...pitchers]) if (e.sp.league && e.sp.league.name) leagues.add(e.sp.league.name);
 
   const out = { season, pulledAt: ts, sources: { hitting: hitUrl, pitching: pitUrl, standings: stUrl },
     counts: { hitters: hitters.length, pitchers: pitchers.length },
-    teamGames, teamGamesBasis, qualification: { hitting: `PA >= ${minPA} (3.1 x ${teamGames} team games)`, pitching: `IP >= ${teamGames} (1 x ${teamGames} team games)` },
+    teamGames, teamGamesBasis, leagueGames,
+    qualification: { rule: "per league: PA >= 3.1 x that league's team games; IP >= 1 x that league's team games",
+                     hitting: Object.entries(leagueGames).map(([L, g]) => `${L}: PA >= ${Math.ceil(3.1 * g)}`).join("; "),
+                     pitching: Object.entries(leagueGames).map(([L, g]) => `${L}: IP >= ${g}`).join("; ") },
     leagues: [...leagues].sort(), hitting: {}, pitching: {} };
   for (const [k, cat] of Object.entries(HIT)) out.hitting[k] = leaders(hitters, cat, qHit);
   for (const [k, cat] of Object.entries(PIT)) out.pitching[k] = leaders(pitchers, cat, qPit);
   // Decade totals need per-player sums; keep a compact per-player line.
   out._players = {
-    hitting: hitters.map((e) => ({ id: e.sp.player.id, name: e.sp.player.fullName, team: who(e).team, HR: num(e.sp.stat.homeRuns) || 0, H: num(e.sp.stat.hits) || 0, RBI: num(e.sp.stat.rbi) || 0, SB: num(e.sp.stat.stolenBases) || 0, R: num(e.sp.stat.runs) || 0, BB: num(e.sp.stat.baseOnBalls) || 0, "2B": num(e.sp.stat.doubles) || 0, "3B": num(e.sp.stat.triples) || 0, PA: num(e.sp.stat.plateAppearances) || 0 })),
-    pitching: pitchers.map((e) => ({ id: e.sp.player.id, name: e.sp.player.fullName, team: who(e).team, W: num(e.sp.stat.wins) || 0, L: num(e.sp.stat.losses) || 0, SO: num(e.sp.stat.strikeOuts) || 0, SV: num(e.sp.stat.saves) || 0, SHO: num(e.sp.stat.shutouts) || 0, CG: num(e.sp.stat.completeGames) || 0, OUTS: outs(e.sp.stat.inningsPitched) || 0, ER: num(e.sp.stat.earnedRuns) || 0 })),
+    hitting: hitters.map((e) => ({ id: e.sp.player.id, name: pname(e.sp), team: who(e).team, HR: num(e.sp.stat.homeRuns) || 0, H: num(e.sp.stat.hits) || 0, RBI: num(e.sp.stat.rbi) || 0, SB: num(e.sp.stat.stolenBases) || 0, R: num(e.sp.stat.runs) || 0, BB: num(e.sp.stat.baseOnBalls) || 0, "2B": num(e.sp.stat.doubles) || 0, "3B": num(e.sp.stat.triples) || 0, PA: num(e.sp.stat.plateAppearances) || 0 })),
+    pitching: pitchers.map((e) => ({ id: e.sp.player.id, name: pname(e.sp), team: who(e).team, W: num(e.sp.stat.wins) || 0, L: num(e.sp.stat.losses) || 0, SO: num(e.sp.stat.strikeOuts) || 0, SV: num(e.sp.stat.saves) || 0, SHO: num(e.sp.stat.shutouts) || 0, CG: num(e.sp.stat.completeGames) || 0, OUTS: outs(e.sp.stat.inningsPitched) || 0, ER: num(e.sp.stat.earnedRuns) || 0 })),
   };
   return out;
 }
@@ -182,7 +215,7 @@ function decadeTotals(seasons) {
   };
   const hit = sumBy("hitting", ["HR", "H", "RBI", "SB", "R", "BB", "2B", "3B", "PA"]);
   const pit = sumBy("pitching", ["W", "L", "SO", "SV", "SHO", "CG", "OUTS", "ER"]);
-  const top = (arr, k, n = 10, low = false) => arr.filter((a) => a[k] != null).sort((a, b) => (low ? a[k] - b[k] : b[k] - a[k]) || a.name.localeCompare(b.name)).slice(0, n).map((a) => ({ id: a.id, name: a.name, teams: a.teams, seasons: a.seasons, value: a[k] }));
+  const top = (arr, k, n = 10, low = false) => arr.filter((a) => a[k] != null).sort((a, b) => (low ? a[k] - b[k] : b[k] - a[k]) || String(a.name).localeCompare(String(b.name))).slice(0, n).map((a) => ({ id: a.id, name: a.name, teams: a.teams, seasons: a.seasons, value: a[k] }));
   const totals = { hitting: {}, pitching: {} };
   for (const k of ["HR", "H", "RBI", "SB", "R", "BB", "2B", "3B"]) totals.hitting[k] = top(hit, k);
   for (const k of ["W", "L", "SO", "SV", "SHO", "CG", "OUTS"]) totals.pitching[k] = top(pit, k);
@@ -210,7 +243,7 @@ async function runDecade(start) {
       "Rate categories (AVG, OBP, SLG, OPS, ERA, WHIP) use the modern qualification rule applied to each season's own team-game count: 3.1 PA per team game for hitters, one inning per team game for pitchers.",
       "Ties for a lead are all listed. A traded player's line is the API's combined row where supplied, otherwise his largest single stint, and is marked 'multiple teams'.",
       "Saves before 1969 are retroactively computed by the record keepers, not an official statistic of the time. Shutouts are shown for those decades instead.",
-      "Seasons that include a league other than the AL or NL are flagged; since 2024 the official record includes Negro League seasons (1920-1948), and their leaders appear here as MLB counts them.",
+      "Qualification is applied per league on that league's own schedule, which is how MLB's leaderboards handle the Negro League seasons (1920-1948) the official record has included since 2024. Seasons with such play are flagged, and their leaders appear as MLB now lists them" + (process.argv.includes("--al-nl-only") || process.env.AL_NL_ONLY === "true" ? " — EXCEPT that this file was built with --al-nl-only, which restricts every season to AL and NL rows." : "."),
     ],
     seasons, totals,
   };
