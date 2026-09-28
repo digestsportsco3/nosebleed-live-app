@@ -198,13 +198,13 @@ async function pullSeason(season) {
   // read these. Kept in memory for the decade and dropped before the summary
   // is written; the facts file stores the rows that back each fact.
   const H = (e) => { const s = e.sp.stat; return {
-    id: e.sp.player.id, name: pname(e.sp), team: who(e).team, teamId: e.sp.team && e.sp.team.id, league: lg(e.sp), teams: e.teams, age: num(s.age),
+    id: e.sp.player.id, name: pname(e.sp), team: who(e).team, teamId: e.sp.team && e.sp.team.id, league: lg(e.sp), teams: Math.max(e.teams, num(e.sp.numTeams) || 1), age: num(s.age),
     G: num(s.gamesPlayed) || 0, PA: num(s.plateAppearances) || 0, AB: num(s.atBats) || 0, H: num(s.hits) || 0, "2B": num(s.doubles) || 0, "3B": num(s.triples) || 0,
     HR: num(s.homeRuns) || 0, R: num(s.runs) || 0, RBI: num(s.rbi) || 0, SB: num(s.stolenBases) || 0, CS: num(s.caughtStealing), BB: num(s.baseOnBalls) || 0,
     IBB: num(s.intentionalWalks) || 0, SO: num(s.strikeOuts) || 0, HBP: num(s.hitByPitch) || 0, SF: num(s.sacFlies) || 0, GIDP: num(s.groundIntoDoublePlay) || 0,
     AVG: num(s.avg) || 0, OBP: num(s.obp) || 0, SLG: num(s.slg) || 0, OPS: num(s.ops) || 0, TB: num(s.totalBases) || 0 }; };
   const P = (e) => { const s = e.sp.stat; const o = outs(s.inningsPitched) || 0; return {
-    id: e.sp.player.id, name: pname(e.sp), team: who(e).team, teamId: e.sp.team && e.sp.team.id, league: lg(e.sp), teams: e.teams, age: num(s.age),
+    id: e.sp.player.id, name: pname(e.sp), team: who(e).team, teamId: e.sp.team && e.sp.team.id, league: lg(e.sp), teams: Math.max(e.teams, num(e.sp.numTeams) || 1), age: num(s.age),
     G: num(s.gamesPlayed) || 0, GS: num(s.gamesStarted) || 0, CG: num(s.completeGames) || 0, SHO: num(s.shutouts) || 0, W: num(s.wins) || 0, L: num(s.losses) || 0,
     SV: num(s.saves) || 0, OUTS: o, H: num(s.hits) || 0, ER: num(s.earnedRuns) || 0, R: num(s.runs) || 0, HRA: num(s.homeRuns), BB: num(s.baseOnBalls) || 0,
     IBB: num(s.intentionalWalks) || 0, SO: num(s.strikeOuts) || 0, HBP: num(s.hitBatsmen) || 0, WP: num(s.wildPitches) || 0,

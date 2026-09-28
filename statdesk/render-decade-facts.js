@@ -40,9 +40,16 @@ function page(d) {
   if (verify) {
     const mine = verify.results.filter((r) => r.decade === d.decade);
     if (mine.length) {
+      // A stored DISAGREE whose only missing rows belong to a traded player is
+      // the stint-split case, whichever label the checker used at the time.
+      const factByN = new Map(d.facts.map((f) => [f.n, f]));
+      const isTraded = (r) => { const f = factByN.get(r.n); if (!f) return false;
+        const traded = new Set(f.evidence.filter((e) => /^(2\+ teams|multiple teams)$/.test(e.team)).map((e) => `${e.name.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z ]/g, "").replace(/\b(jr|sr|ii|iii|iv)\b/g, "").replace(/\s+/g, " ").trim()}|${e.season}`));
+        const missing = (r.ours || []).filter((x) => !(r.stathead || []).includes(x));
+        return missing.length > 0 && (r.stathead || []).every((x) => (r.ours || []).includes(x)) && missing.every((x) => traded.has(x)); };
       const ok = mine.filter((r) => /^AGREE/.test(r.verdict)).length;
-      const bad = mine.filter((r) => r.verdict === "DISAGREE");
-      const unv = mine.filter((r) => /^UNVERIFIABLE/.test(r.verdict));
+      const unv = mine.filter((r) => /^UNVERIFIABLE/.test(r.verdict) || (r.verdict === "DISAGREE" && isTraded(r)));
+      const bad = mine.filter((r) => r.verdict === "DISAGREE" && !unv.includes(r));
       ccLine = ` <b>Stathead cross-check</b> (${verify.runDate}): ${ok} of ${mine.length} sampled "only/two/few" claims reproduced on Stathead's Season Finder with the same filters${unv.length ? `; ${unv.length} (${unv.map((u) => `#${u.n}`).join(", ")}) involve a traded player's combined season, which Stathead's finder splits into stints and so cannot re-run as filtered` : ""}${bad.length ? `; ${bad.length} did not agree — ${bad.map((b) => `#${b.n}: ${b.note || "row set differs"}`).join("; ")}` : ""}.`;
     }
   }
@@ -94,6 +101,21 @@ const css = `
   .mono{ font-family:ui-monospace,Menlo,monospace; font-size:5.9pt; }
 `;
 const totalChecks = verify ? verify.checks : 0;
+if (verify) {
+  // Recount with the same traded-player reclassification the page footers use.
+  const allFacts = new Map(); for (const d of decades) for (const f of d.facts) allFacts.set(`${d.decade}|${f.n}`, f);
+  const nrm = (x) => x.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z ]/g, "").replace(/\b(jr|sr|ii|iii|iv)\b/g, "").replace(/\s+/g, " ").trim();
+  let unv = 0, dis = 0;
+  for (const r of verify.results) {
+    if (/^UNVERIFIABLE/.test(r.verdict)) { unv += 1; continue; }
+    if (r.verdict !== "DISAGREE") continue;
+    const f = allFacts.get(`${r.decade}|${r.n}`);
+    const traded = new Set(f ? f.evidence.filter((e) => /^(2\+ teams|multiple teams)$/.test(e.team)).map((e) => `${nrm(e.name)}|${e.season}`) : []);
+    const missing = (r.ours || []).filter((x) => !(r.stathead || []).includes(x));
+    if (missing.length && (r.stathead || []).every((x) => (r.ours || []).includes(x)) && missing.every((x) => traded.has(x))) unv += 1; else dis += 1;
+  }
+  verify.unverifiable = unv; verify.disagree = dis;
+}
 const methodPage = `
 <section class="page method">
   <div class="mast"><div><div class="brand">Nosebleed Sports &nbsp;·&nbsp; Stat Desk</div><h1>How Every Line Was Verified</h1></div></div>

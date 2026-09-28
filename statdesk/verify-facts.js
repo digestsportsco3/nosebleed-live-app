@@ -71,7 +71,9 @@ async function main() {
                 // filters. That is a presentation difference, not a finding,
                 // and it is reported as its own verdict rather than folded
                 // into either agree or disagree.
-                const traded = new Set(fact.evidence.filter((e) => e.team === "2+ teams").map((e) => `${norm(e.name)}|${e.season}`));
+                // The API's combined row for a traded player carries no team, so
+                // the stored label is "multiple teams"; older files say "2+ teams".
+                const traded = new Set(fact.evidence.filter((e) => /^(2\+ teams|multiple teams)$/.test(e.team)).map((e) => `${norm(e.name)}|${e.season}`));
                 if (!extra.length && missing.every((x) => traded.has(x))) { verdict = "UNVERIFIABLE (traded-player season; Stathead splits stints)"; note = missing.join(", "); }
                 else { verdict = "DISAGREE"; note = `${missing.length ? `not on Stathead: ${missing.join(", ")}` : ""}${missing.length && extra.length ? "; " : ""}${extra.length ? `Stathead also has: ${extra.join(", ")}` : ""}`; }
               }

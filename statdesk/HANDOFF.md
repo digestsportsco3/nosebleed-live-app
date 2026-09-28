@@ -109,6 +109,41 @@ Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
 `statdesk/posted.json`, which the pipeline filters on automatically. Add a name
 the day it goes out.
 
+### DECADE FACTS (2026-09-28) — the thing Nick actually wanted
+
+The league-leader grids were NOT what he asked for. He wanted the daily
+brief's kind of stat, a hundred per decade: oddities, "only player of the
+decade to...", near-misses, contradictions. That is `statdesk/facts.js`:
+
+- ~60 era-aware oddity rules (power/no average, ERA under 2.50 with a losing
+  record, 40 HR/15 doubles, walks > hits ...) + 16 extremes + near-misses
+  (29 HR, .299, 99 RBI, 19 W ...) + streaks + team-mate pairings + decade
+  totals + season counts + youngest/oldest + club facts.
+- Every line is a predicate over EVERY player-season in the decade, pulled
+  in full; the rows satisfying it are stored with it. "Only/two/few" COUNT
+  PLAYERS, not player-seasons (Randy Johnson walking 130+ twice is one
+  player, not two — that bug shipped once and was caught in review).
+- Rules made of plain comparisons carry a Stathead Season Finder spec.
+  `verify-facts.js` re-runs a sample on Nick's machine and compares the
+  player-season SETS. Final run 2026-09-27: 50 checks, 49 exact, 1 is Jeff
+  Samardzija 2014 (7-13, 2.99 across CHC/OAK): the API's combined row vs
+  Stathead's finder splitting stints — unverifiable as filtered, not a
+  disagreement. Name-form differences (Hank/Henry Aaron, a middle initial)
+  are matched on surname + season.
+- Selection: score-ranked with diversity caps, then fill passes so every
+  decade reaches exactly 100. `render-decade-facts.js`: one landscape page
+  per decade, four CSS-balanced columns (a count-based split overflowed),
+  plus a closing method page. Delivered as an 11-page PDF.
+- Build/regenerate: dispatch `statdesk-decades.yml` (cloud runner, ~2 min for
+  ten decades); facts write to `<decade>s-facts.json` next to the leaders
+  file. Raw pulls are NOT kept, so any rule change means a regeneration.
+- Cross-check: dispatch `statdesk-decades-verify.yml` with mode=facts on the
+  self-hosted runner (~4 min for 50 samples).
+
+Known limits: no positions (the API's historical splits carry none), no
+park adjustment, no postseason, age is the API's season age and can differ
+from Stathead by a year.
+
 ### DECADE MODE (added 2026-09-28) — historical leaders, never from memory
 
 Nick asked for 100 stats from each decade, all true. Built as a mode of the
