@@ -1,8 +1,8 @@
-# SCFB522 — College Football 1990s p:fgm_hi
+# SCFB522 — College Football 1990s t:to_opp
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&order_by=fgm&order_by_asc=0&ccomp[1]=gt&cval[1]=28&cstat[1]=fgm
-- Timestamp: 2026-09-28T06:58:30.669Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1990&year_max=1999&order_by=turnovers_opp&order_by_asc=0&ccomp[1]=gt&cval[1]=50&cstat[1]=turnovers_opp
+- Timestamp: 2026-09-28T08:41:43.682Z
 - Rows read: 0
 
 ## Result table

@@ -1,8 +1,8 @@
-# SCFB228 — College Football 1950s t:unscored
+# SCFB228 — College Football 1970s p:fr_recy
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1950&year_max=1959&order_by=games&order_by_asc=0&ccomp[1]=gt&cval[1]=4&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=points_opp
-- Timestamp: 2026-09-28T06:38:42.894Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&class[]=fr&order_by=rec_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1000&cstat[1]=rec_yds
+- Timestamp: 2026-09-28T08:22:05.830Z
 - Rows read: 0
 
 ## Result table

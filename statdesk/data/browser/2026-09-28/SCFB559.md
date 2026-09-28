@@ -1,29 +1,25 @@
-# SCFB559 — College Football 1990s t:perfect
+# SCFB559 — College Football 2000s p:rectd_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1990&year_max=1999&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=losses&ccomp[3]=lt&cval[3]=0&cstat[3]=ties
-- Timestamp: 2026-09-28T07:01:00.785Z
-- Rows read: 13
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&order_by=rec_td&order_by_asc=0&ccomp[1]=gt&cval[1]=18&cstat[1]=rec_td
+- Timestamp: 2026-09-28T08:44:21.834Z
+- Rows read: 9
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | wins | games | losses | ties | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1999 | Marshall | 13 | 12 | 0 | 0 | 12 | 13 | 0 | 0 | 1.000 | 442 | 134 | 308
-2 | 1998 | Tennessee | 13 | 12 | 0 | 0 | 12 | 13 | 0 | 0 | 1.000 | 408 | 173 | 235
-3 | 1997 | Nebraska | 13 | 12 | 0 | 0 | 12 | 13 | 0 | 0 | 1.000 | 565 | 197 | 368
-4 | 1994 | Nebraska | 13 | 12 | 0 | 0 | 12 | 13 | 0 | 0 | 1.000 | 435 | 145 | 290
-5 | 1992 | Alabama | 13 | 12 | 0 | 0 | 12 | 13 | 0 | 0 | 1.000 | 332 | 109 | 223
-6 | 1999 | Florida State | 12 | 11 | 0 | 0 | 11 | 12 | 0 | 0 | 1.000 | 412 | 174 | 238
-7 | 1998 | Tulane | 12 | 11 | 0 | 0 | 11 | 12 | 0 | 0 | 1.000 | 499 | 268 | 231
-8 | 1997 | Michigan | 12 | 11 | 0 | 0 | 11 | 12 | 0 | 0 | 1.000 | 301 | 98 | 203
-9 | 1995 | Nebraska | 12 | 11 | 0 | 0 | 11 | 12 | 0 | 0 | 1.000 | 576 | 150 | 426
-10 | 1994 | Penn State | 12 | 11 | 0 | 0 | 11 | 12 | 0 | 0 | 1.000 | 526 | 232 | 294
-11 | 1991 | Miami (FL) | 12 | 11 | 0 | 0 | 11 | 12 | 0 | 0 | 1.000 | 364 | 100 | 264
-12 | 1991 | Washington | 12 | 11 | 0 | 0 | 11 | 12 | 0 | 0 | 1.000 | 461 | 101 | 360
-13 | 1993 | Auburn | 11 | 11 | 0 | 0 | 11 | 11 | 0 | 0 | 1.000 | 353 | 192 | 161
+header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec_td | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
+ |  |  | 1 | Larry Fitzgerald | 22 | 2003 | Pitt | 13 | 92 | 1672 | 18.2 | 22 | 128.6 | WR | SO
+ |  |  | 2 | Michael Crabtree | 22 | 2007 | Texas Tech | 13 | 134 | 1962 | 14.6 | 22 | 150.9 | WR | FR
+ |  |  | 3 | Jarett Dillard | 21 | 2006 | Rice | 13 | 91 | 1247 | 13.7 | 21 | 95.9 | WR | SO
+ |  |  | 4 | Jarett Dillard | 20 | 2008 | Rice | 13 | 87 | 1310 | 15.1 | 20 | 100.8 | WR | SR
+ |  |  | 5 | Ashley Lelie | 19 | 2001 | Hawaii | 12 | 84 | 1713 | 20.4 | 19 | 142.8 | WR | JR
+ |  |  | 6 | Dez Bryant | 19 | 2008 | Oklahoma State | 13 | 87 | 1480 | 17.0 | 19 | 113.8 | WR | SO
+ |  |  | 7 | Freddie Barnes | 19 | 2009 | Bowling Green | 13 | 155 | 1770 | 11.4 | 19 | 136.2 | WR | SR
+ |  |  | 8 | Michael Crabtree | 19 | 2008 | Texas Tech | 13 | 97 | 1165 | 12.0 | 19 | 89.6 | WR | SO
+ |  |  | 9 | Darius Watts | 18 | 2001 | Marshall | 12 | 91 | 1417 | 15.6 | 18 | 118.1 | WR | SO
 ```
 
 ## Claim check
 
-- Complete set: all 13 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 9 rows read. A superlative may be asserted only if it holds across every row above.

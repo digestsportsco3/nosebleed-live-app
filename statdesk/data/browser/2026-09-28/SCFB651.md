@@ -1,26 +1,19 @@
-# SCFB651 — College Football 2000s t:pts_hi
+# SCFB651 — College Football 2000s t:pen_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=2000&year_max=2009&order_by=points&order_by_asc=0&ccomp[1]=gt&cval[1]=600&cstat[1]=points
-- Timestamp: 2026-09-28T07:07:49.607Z
-- Rows read: 10
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=2000&year_max=2009&order_by=penalties_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1200&cstat[1]=penalties_yds
+- Timestamp: 2026-09-28T08:50:44.467Z
+- Rows read: 3
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | points | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 2008 | Oklahoma | 716 | 14 | 12 | 2 | 0 | .857 | 716 | 343 | 373
-2 | 2008 | Tulsa | 661 | 14 | 11 | 3 | 0 | .786 | 661 | 391 | 270
-3 | 2006 | Hawaii | 656 | 14 | 11 | 3 | 0 | .786 | 656 | 337 | 319
-4 | 2005 | Texas | 652 | 13 | 13 | 0 | 0 | 1.000 | 652 | 213 | 439
-5 | 2005 | USC | 638 | 13 | 12 | 1 | 0 | .923 | 638 | 297 | 341
-6 | 2008 | Florida | 611 | 14 | 13 | 1 | 0 | .929 | 611 | 181 | 430
-7 | 2001 | BYU | 608 | 13 | 12 | 2 | 0 | .857 | 608 | 396 | 212
-8 | 2003 | Boise State | 602 | 14 | 13 | 1 | 0 | .929 | 602 | 239 | 363
-9 | 2003 | Miami (OH) | 602 | 14 | 13 | 1 | 0 | .929 | 602 | 272 | 330
-10 | 2003 | Oklahoma | 601 | 14 | 12 | 2 | 0 | .857 | 601 | 214 | 387
+ranker | year_id | team_name_abbr | penalties_yds | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff | penalties | penalties_yds | penalties_opp | penalties_yds_opp
+1 | 2003 | Oregon State | 1433 | 13 | 8 | 5 | 0 | .615 | 433 | 301 | 132 | 145 | 1433 | 107 | 989
+2 | 2002 | Oregon State | 1302 | 13 | 8 | 5 | 0 | .615 | 414 | 267 | 147 | 126 | 1302 | 100 | 823
+3 | 2003 | Washington State | 1230 | 13 | 10 | 3 | 0 | .769 | 394 | 257 | 137 | 150 | 1230 | 102 | 875
 ```
 
 ## Claim check
 
-- Complete set: all 10 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 3 rows read. A superlative may be asserted only if it holds across every row above.

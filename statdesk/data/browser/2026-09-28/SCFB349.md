@@ -1,16 +1,18 @@
-# SCFB349 — College Football 1970s p:tot_hi
+# SCFB349 — College Football 1980s p:rec_td_combo
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=total_offense&order_by_asc=0&ccomp[1]=gt&cval[1]=3800&cstat[1]=total_offense
-- Timestamp: 2026-09-28T06:46:52.595Z
-- Rows read: 0
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&order_by=rec_td&order_by_asc=0&ccomp[1]=gt&cval[1]=80&cstat[1]=rec&ccomp[2]=gt&cval[2]=15&cstat[2]=rec_td
+- Timestamp: 2026-09-28T08:30:12.120Z
+- Rows read: 2
 
 ## Result table
 
 ```
-
+header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec_td | rec | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
+ |  |  | 1 | Manny Hazard | 22 | 142 | 1989 | Houston | 11 | 142 | 1689 | 11.9 | 22 | 153.5 | WR | 
+ |  |  | 2 | Jason Phillips | 15 | 108 | 1988 | Houston | 11 | 108 | 1444 | 13.4 | 15 | 131.3 | WR | 
 ```
 
 ## Claim check
 
-- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.
+- Complete set: all 2 rows read. A superlative may be asserted only if it holds across every row above.

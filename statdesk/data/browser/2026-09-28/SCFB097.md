@@ -1,22 +1,17 @@
-# SCFB097 — College Football 1910s t:unscored
+# SCFB097 — College Football 1960s p:int_low
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1910&year_max=1919&order_by=games&order_by_asc=0&ccomp[1]=gt&cval[1]=4&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=points_opp
-- Timestamp: 2026-09-28T06:29:54.042Z
-- Rows read: 6
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&order_by=pass_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1750&cstat[1]=pass_yds&ccomp[2]=lt&cval[2]=3&cstat[2]=pass_int
+- Timestamp: 2026-09-28T08:13:21.965Z
+- Rows read: 1
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | games | points_opp | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1919 | Texas A&M | 10 | 0 | 10 | 10 | 0 | 0 | 1.000 | 275 | 0 | 275
-2 | 1914 | Auburn | 9 | 0 | 9 | 8 | 0 | 1 | .944 | 193 | 0 | 193
-3 | 1910 | Navy | 9 | 0 | 9 | 8 | 0 | 1 | .944 | 99 | 0 | 99
-4 | 1910 | Pitt | 9 | 0 | 9 | 9 | 0 | 0 | 1.000 | 282 | 0 | 282
-5 | 1917 | Texas A&M | 8 | 0 | 8 | 8 | 0 | 0 | 1.000 | 270 | 0 | 270
-6 | 1910 | Illinois | 7 | 0 | 7 | 7 | 0 | 0 | 1.000 | 89 | 0 | 89
+header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_yds | pass_int | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
+ |  |  | 1 | Benny Russell | 1791 | 0 | 1965 | Louisville | 10 | 115 | 246 | 131 | 46.7 | 1791 | 11 | 0 | 4.5 | 0.0 | 122.7 | 7.3 | 8.17 | 15.6 | 179.1 | QB | 
 ```
 
 ## Claim check
 
-- Complete set: all 6 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 1 rows read. A superlative may be asserted only if it holds across every row above.

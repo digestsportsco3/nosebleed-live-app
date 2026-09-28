@@ -1,141 +1,217 @@
-# SCFB054 — College Football 1880s t:tx_diff
+# SCFB054 — College Football 1950s p:x_pts
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1880&year_max=1889&order_by=points_diff&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=games
-- Timestamp: 2026-09-28T06:27:03.288Z
-- Rows read: 125
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=scoring&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=scoring
+- Timestamp: 2026-09-28T08:10:24.085Z
+- Rows read: 200
+- CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | points_diff | games | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1886 | Harvard | 724 | 14 | 14 | 12 | 2 | 0 | .857 | 765 | 41 | 724
-2 | 1888 | Yale | 694 | 13 | 13 | 13 | 0 | 0 | 1.000 | 694 | 0 | 694
-3 | 1886 | Yale | 683 | 10 | 10 | 9 | 0 | 1 | .950 | 687 | 4 | 683
-4 | 1887 | Harvard | 637 | 11 | 11 | 10 | 1 | 0 | .909 | 660 | 23 | 637
-5 | 1889 | Yale | 633 | 17 | 17 | 16 | 1 | 0 | .941 | 664 | 31 | 633
-6 | 1888 | Harvard | 594 | 13 | 13 | 12 | 1 | 0 | .923 | 626 | 32 | 594
-7 | 1888 | Princeton | 593 | 12 | 12 | 11 | 1 | 0 | .917 | 609 | 16 | 593
-8 | 1883 | Yale | 538 | 9 | 9 | 9 | 0 | 0 | 1.000 | 540 | 2 | 538
-9 | 1885 | Princeton | 514 | 9 | 9 | 9 | 0 | 0 | 1.000 | 539 | 25 | 514
-10 | 1887 | Yale | 503 | 9 | 9 | 9 | 0 | 0 | 1.000 | 515 | 12 | 503
-11 | 1884 | Yale | 485 | 9 | 9 | 8 | 0 | 1 | .944 | 495 | 10 | 485
-12 | 1889 | Princeton | 455 | 10 | 10 | 10 | 0 | 0 | 1.000 | 484 | 29 | 455
-13 | 1887 | Princeton | 396 | 9 | 9 | 7 | 2 | 0 | .778 | 420 | 24 | 396
-14 | 1884 | Princeton | 393 | 10 | 10 | 9 | 0 | 1 | .950 | 406 | 13 | 393
-15 | 1889 | Harvard | 366 | 11 | 11 | 9 | 2 | 0 | .818 | 419 | 53 | 366
-16 | 1885 | Yale | 355 | 8 | 8 | 7 | 1 | 0 | .875 | 366 | 11 | 355
-17 | 1886 | Princeton | 293 | 8 | 8 | 7 | 0 | 1 | .938 | 320 | 27 | 293
-18 | 1889 | Lehigh | 267 | 13 | 13 | 8 | 3 | 2 | .692 | 356 | 89 | 267
-19 | 1889 | Cornell | 225 | 9 | 9 | 7 | 2 | 0 | .778 | 355 | 130 | 225
-20 | 1883 | Princeton | 212 | 8 | 8 | 7 | 1 | 0 | .875 | 238 | 26 | 212
-21 | 1889 | Dartmouth | 167 | 8 | 8 | 7 | 1 | 0 | .875 | 239 | 72 | 167
-22 | 1889 | Franklin & Marshall | 162 | 7 | 7 | 5 | 1 | 1 | .786 | 188 | 26 | 162
-23 | 1884 | Harvard | 162 | 11 | 11 | 7 | 4 | 0 | .636 | 281 | 119 | 162
-24 | 1887 | Dartmouth | 161 | 5 | 5 | 3 | 1 | 1 | .700 | 189 | 28 | 161
-25 | 1886 | Lafayette | 136 | 12 | 12 | 10 | 2 | 0 | .833 | 211 | 75 | 136
-26 | 1883 | Pennsylvania | 136 | 9 | 9 | 6 | 2 | 1 | .722 | 203 | 67 | 136
-27 | 1888 | Lehigh | 129 | 12 | 12 | 10 | 2 | 0 | .833 | 248 | 119 | 129
-28 | 1887 | MIT | 129 | 6 | 6 | 5 | 1 | 0 | .833 | 206 | 77 | 129
-29 | 1888 | Trinity (CT) | 114 | 7 | 7 | 5 | 1 | 1 | .786 | 124 | 10 | 114
-30 | 1888 | Cornell | 76 | 6 | 6 | 4 | 2 | 0 | .667 | 96 | 20 | 76
-31 | 1887 | Lafayette | 74 | 9 | 9 | 7 | 2 | 0 | .778 | 141 | 67 | 74
-32 | 1883 | Harvard | 72 | 10 | 10 | 8 | 2 | 0 | .800 | 135 | 63 | 72
-33 | 1888 | Williams | 67 | 8 | 8 | 4 | 4 | 0 | .500 | 171 | 104 | 67
-34 | 1883 | Stevens | 63 | 11 | 11 | 6 | 4 | 1 | .591 | 183 | 120 | 63
-35 | 1886 | Williams | 59 | 7 | 7 | 5 | 1 | 1 | .786 | 155 | 96 | 59
-36 | 1884 | Pennsylvania | 59 | 7 | 7 | 5 | 1 | 1 | .786 | 118 | 59 | 59
-37 | 1886 | Pennsylvania | 58 | 17 | 17 | 9 | 7 | 1 | .559 | 344 | 286 | 58
-38 | 1889 | Williams | 55 | 10 | 10 | 4 | 5 | 1 | .450 | 258 | 203 | 55
-39 | 1882 | Yale | 51 | 8 | 8 | 8 | 0 | 0 | 1.000 | 52 | 1 | 51
-40 | 1888 | Lafayette | 48 | 9 | 9 | 6 | 3 | 0 | .667 | 126 | 78 | 48
-41 | 1886 | Lehigh | 44 | 8 | 8 | 4 | 3 | 1 | .563 | 90 | 46 | 44
-42 | 1889 | Trinity (CT) | 43 | 9 | 9 | 5 | 3 | 1 | .611 | 130 | 87 | 43
-43 | 1882 | Princeton | 41 | 9 | 9 | 7 | 2 | 0 | .778 | 45 | 4 | 41
-44 | 1889 | Dickinson | 33 | 6 | 6 | 4 | 1 | 1 | .750 | 75 | 42 | 33
-45 | 1889 | Pennsylvania | 33 | 13 | 13 | 7 | 6 | 0 | .538 | 198 | 165 | 33
-46 | 1880 | Yale | 30 | 5 | 5 | 4 | 0 | 1 | .900 | 30 | 0 | 30
-47 | 1881 | Princeton | 24 | 9 | 9 | 7 | 0 | 2 | .889 | 24 | 0 | 24
-48 | 1887 | Williams | 22 | 6 | 6 | 3 | 3 | 0 | .500 | 172 | 150 | 22
-49 | 1886 | Dartmouth | 19 | 4 | 4 | 2 | 2 | 0 | .500 | 113 | 94 | 19
-50 | 1882 | Harvard | 17 | 8 | 8 | 7 | 1 | 0 | .875 | 19 | 2 | 17
-51 | 1885 | Stevens | 16 | 9 | 9 | 3 | 6 | 0 | .333 | 307 | 291 | 16
-52 | 1880 | Princeton | 16 | 5 | 5 | 4 | 0 | 1 | .900 | 17 | 1 | 16
-53 | 1881 | Harvard | 15 | 8 | 8 | 6 | 1 | 1 | .813 | 17 | 2 | 15
-54 | 1885 | Pennsylvania | 12 | 13 | 13 | 8 | 5 | 0 | .615 | 355 | 343 | 12
-55 | 1881 | Yale | 10 | 6 | 6 | 5 | 0 | 1 | .917 | 10 | 0 | 10
-56 | 1882 | Wesleyan (CT) | 6 | 4 | 4 | 3 | 1 | 0 | .750 | 15 | 9 | 6
-57 | 1881 | Rutgers | 5 | 7 | 7 | 2 | 4 | 1 | .357 | 12 | 7 | 5
-58 | 1880 | Pennsylvania | 4 | 5 | 5 | 3 | 2 | 0 | .600 | 13 | 9 | 4
-59 | 1881 | Columbia | 2 | 7 | 7 | 3 | 3 | 1 | .500 | 6 | 4 | 2
-60 | 1880 | Harvard | 2 | 6 | 6 | 2 | 2 | 2 | .500 | 6 | 4 | 2
-61 | 1881 | Dartmouth | 1 | 2 | 2 | 1 | 0 | 1 | .750 | 1 | 0 | 1
-62 | 1882 | Stevens | 0 | 3 | 3 | 1 | 1 | 1 | .500 | 3 | 3 | 0
-63 | 1882 | Rutgers | -1 | 10 | 10 | 6 | 4 | 0 | .600 | 21 | 22 | -1
-64 | 1882 | Dartmouth | -3 | 2 | 2 | 1 | 1 | 0 | .500 | 5 | 8 | -3
-65 | 1881 | Michigan | -4 | 3 | 3 | 0 | 3 | 0 | .000 | 0 | 4 | -4
-66 | 1880 | Rutgers | -6 | 4 | 4 | 2 | 2 | 0 | .500 | 6 | 12 | -6
-67 | 1881 | Amherst | -7 | 4 | 4 | 0 | 3 | 1 | .125 | 0 | 7 | -7
-68 | 1881 | Stevens | -8 | 4 | 4 | 1 | 2 | 1 | .375 | 4 | 12 | -8
-69 | 1880 | Brown | -8 | 1 | 1 | 0 | 1 | 0 | .000 | 0 | 8 | -8
-70 | 1882 | Amherst | -9 | 4 | 4 | 1 | 3 | 0 | .250 | 2 | 11 | -9
-71 | 1882 | Lafayette | -9 | 2 | 2 | 0 | 2 | 0 | .000 | 0 | 9 | -9
-72 | 1889 | Lafayette | -10 | 9 | 9 | 3 | 4 | 2 | .444 | 78 | 88 | -10
-73 | 1887 | Lehigh | -10 | 7 | 7 | 4 | 3 | 0 | .571 | 96 | 106 | -10
-74 | 1882 | MIT | -10 | 3 | 3 | 0 | 3 | 0 | .000 | 0 | 10 | -10
-75 | 1880 | Columbia | -13 | 3 | 3 | 1 | 2 | 0 | .333 | 3 | 16 | -13
-76 | 1882 | Pennsylvania | -15 | 6 | 6 | 2 | 4 | 0 | .333 | 6 | 21 | -15
-77 | 1888 | Dartmouth | -16 | 7 | 7 | 3 | 4 | 0 | .429 | 120 | 136 | -16
-78 | 1883 | Lafayette | -16 | 6 | 6 | 2 | 4 | 0 | .333 | 110 | 126 | -16
-79 | 1882 | Massachusetts | -16 | 3 | 3 | 0 | 3 | 0 | .000 | 0 | 16 | -16
-80 | 1881 | Pennsylvania | -16 | 5 | 5 | 0 | 5 | 0 | .000 | 1 | 17 | -16
-81 | 1880 | Stevens | -17 | 6 | 6 | 1 | 5 | 0 | .167 | 3 | 20 | -17
-82 | 1888 | Pennsylvania | -18 | 16 | 16 | 9 | 7 | 0 | .563 | 278 | 296 | -18
-83 | 1889 | Amherst | -25 | 10 | 10 | 3 | 5 | 2 | .400 | 173 | 198 | -25
-84 | 1882 | Columbia | -26 | 5 | 5 | 0 | 5 | 0 | .000 | 0 | 26 | -26
-85 | 1884 | Rutgers | -33 | 7 | 7 | 3 | 4 | 0 | .429 | 137 | 170 | -33
-86 | 1885 | Lafayette | -43 | 6 | 6 | 2 | 2 | 2 | .500 | 77 | 120 | -43
-87 | 1883 | Michigan | -44 | 5 | 5 | 1 | 4 | 0 | .200 | 47 | 91 | -44
-88 | 1886 | Amherst | -48 | 7 | 7 | 3 | 4 | 0 | .429 | 55 | 103 | -48
-89 | 1886 | Rutgers | -49 | 4 | 4 | 1 | 3 | 0 | .250 | 70 | 119 | -49
-90 | 1889 | MIT | -55 | 6 | 6 | 3 | 3 | 0 | .500 | 86 | 141 | -55
-91 | 1889 | Rutgers | -70 | 5 | 5 | 1 | 4 | 0 | .200 | 22 | 92 | -70
-92 | 1885 | Wesleyan (CT) | -79 | 7 | 7 | 3 | 4 | 0 | .429 | 165 | 244 | -79
-93 | 1887 | Stevens | -91 | 7 | 7 | 0 | 6 | 1 | .071 | 16 | 107 | -91
-94 | 1884 | Stevens | -98 | 9 | 9 | 4 | 5 | 0 | .444 | 109 | 207 | -98
-95 | 1889 | Bucknell | -102 | 6 | 6 | 1 | 4 | 1 | .250 | 24 | 126 | -102
-96 | 1884 | Wesleyan (CT) | -104 | 8 | 8 | 3 | 5 | 0 | .375 | 72 | 176 | -104
-97 | 1889 | Penn State | -106 | 4 | 4 | 2 | 2 | 0 | .500 | 32 | 138 | -106
-98 | 1889 | Swarthmore | -113 | 7 | 7 | 1 | 6 | 0 | .143 | 46 | 159 | -113
-99 | 1888 | Swarthmore | -116 | 5 | 5 | 0 | 5 | 0 | .000 | 14 | 130 | -116
-100 | 1885 | Lehigh | -116 | 7 | 7 | 1 | 4 | 2 | .286 | 28 | 144 | -116
-101 | 1888 | MIT | -126 | 7 | 7 | 2 | 5 | 0 | .286 | 66 | 192 | -126
-102 | 1887 | Trinity (CT) | -126 | 7 | 7 | 3 | 3 | 1 | .500 | 94 | 220 | -126
-103 | 1888 | Bucknell | -132 | 5 | 5 | 2 | 3 | 0 | .400 | 28 | 160 | -132
-104 | 1883 | Columbia | -134 | 4 | 4 | 1 | 3 | 0 | .250 | 13 | 147 | -134
-105 | 1887 | Rutgers | -140 | 8 | 8 | 2 | 6 | 0 | .250 | 47 | 187 | -140
-106 | 1883 | Wesleyan (CT) | -146 | 8 | 8 | 3 | 5 | 0 | .375 | 79 | 225 | -146
-107 | 1888 | WPI | -156 | 5 | 5 | 1 | 4 | 0 | .200 | 14 | 170 | -156
-108 | 1884 | Lehigh | -165 | 4 | 4 | 0 | 4 | 0 | .000 | 16 | 181 | -165
-109 | 1884 | Lafayette | -173 | 7 | 7 | 2 | 5 | 0 | .286 | 88 | 261 | -173
-110 | 1889 | Stevens | -183 | 11 | 11 | 1 | 10 | 0 | .091 | 39 | 222 | -183
-111 | 1887 | Pennsylvania | -199 | 13 | 13 | 6 | 7 | 0 | .462 | 137 | 336 | -199
-112 | 1883 | Rutgers | -201 | 7 | 7 | 1 | 6 | 0 | .143 | 54 | 255 | -201
-113 | 1887 | Tufts | -216 | 9 | 9 | 3 | 6 | 0 | .333 | 73 | 289 | -216
-114 | 1887 | Amherst | -222 | 10 | 10 | 4 | 6 | 0 | .400 | 98 | 320 | -222
-115 | 1888 | Stevens | -225 | 10 | 10 | 2 | 7 | 1 | .250 | 66 | 291 | -225
-116 | 1889 | Columbia | -244 | 11 | 11 | 2 | 7 | 2 | .273 | 54 | 298 | -244
-117 | 1886 | MIT | -257 | 9 | 9 | 2 | 6 | 1 | .278 | 68 | 325 | -257
-118 | 1889 | Wesleyan (CT) | -267 | 13 | 13 | 5 | 7 | 1 | .423 | 153 | 420 | -267
-119 | 1886 | Tufts | -279 | 9 | 9 | 0 | 9 | 0 | .000 | 33 | 312 | -279
-120 | 1887 | Wesleyan (CT) | -285 | 9 | 9 | 4 | 5 | 0 | .444 | 124 | 409 | -285
-121 | 1886 | Stevens | -288 | 8 | 8 | 0 | 7 | 1 | .063 | 6 | 294 | -288
-122 | 1888 | Rutgers | -291 | 8 | 8 | 1 | 6 | 1 | .188 | 36 | 327 | -291
-123 | 1888 | Wesleyan (CT) | -291 | 9 | 9 | 2 | 7 | 0 | .222 | 86 | 377 | -291
-124 | 1886 | Wesleyan (CT) | -318 | 8 | 8 | 2 | 6 | 0 | .250 | 79 | 397 | -318
-125 | 1888 | Amherst | -323 | 11 | 11 | 2 | 8 | 1 | .227 | 103 | 426 | -323
+header_empty_0 | header_kick | header_empty_5 | ranker | name_display | scoring | year_id | teams_played_for | games | all_td | xpm | xpa | xp_pct | fgm | fga | fg_pct | two_pt_md | safety_md | scoring | pos | class
+ |  |  | 1 | Clendon Thomas | 102 | 1956 | Oklahoma | 10 | 17 | 0 | 0 |  | 0 | 0 |  |  |  | 102 | RB | 
+ |  |  | 2 | Dick Bass | 96 | 1958 | Pacific | 10 | 16 | 0 | 0 |  | 0 | 0 |  |  |  | 96 |  | 
+ |  |  | 3 | Leon Burton | 96 | 1957 | Arizona State | 10 | 16 | 0 | 0 |  | 0 | 0 |  |  |  | 96 | RB | 
+ |  |  | 4 | Pervis Atkins | 96 | 1959 | New Mexico State | 10 | 16 | 0 | 0 |  | 0 | 0 |  |  |  | 96 | RB | 
+ |  |  | 5 | Tommy McDonald | 96 | 1956 | Oklahoma | 10 | 16 | 0 | 0 |  | 0 | 0 |  |  |  | 96 | RB | 
+ |  |  | 6 | Billy Austin | 90 | 1958 | Rutgers | 9 | 15 | 0 | 0 |  | 0 | 0 |  |  |  | 90 | QB | 
+ |  |  | 7 | Abner Haynes | 84 | 1959 | North Texas | 10 | 13 | 0 | 0 |  | 0 | 0 |  |  |  | 84 | RB | 
+ |  |  | 8 | Bob Anderson | 84 | 1957 | Army | 9 | 14 | 0 | 0 |  | 0 | 0 |  |  |  | 84 | RB | 
+ |  |  | 9 | Ed Kovac | 84 | 1959 | Cincinnati | 10 | 14 | 0 | 0 |  | 0 | 0 |  |  |  | 84 | RB | 
+ |  |  | 10 | Jim Brown | 84 | 1956 | Syracuse | 8 | 14 | 0 | 0 |  | 0 | 0 |  |  |  | 84 | RB | 
+ |  |  | 11 | Joe Belland | 78 | 1957 | Arizona State | 10 | 13 | 0 | 0 |  | 0 | 0 |  |  |  | 78 | RB | 
+ |  |  | 12 | Bob White | 72 | 1958 | Ohio State | 9 | 12 | 0 | 0 |  | 0 | 0 |  |  |  | 72 | RB | 
+ |  |  | 13 | Frank Wilson | 72 | 1959 | Utah | 10 | 12 | 0 | 0 |  | 0 | 0 |  |  |  | 72 | RB | 
+ |  |  | 14 | Jack Hill | 72 | 1956 | Utah State | 10 | 12 | 0 | 0 |  | 0 | 0 |  |  |  | 72 | RB | 
+ |  |  | 15 | Jim Crawford | 72 | 1956 | Wyoming | 10 | 12 | 0 | 0 |  | 0 | 0 |  |  |  | 72 | RB | 
+ |  |  | 16 | Jimmy Taylor | 72 | 1957 | LSU | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 72 | RB | 
+ |  |  | 17 | Billy Atkins | 66 | 1957 | Auburn | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 18 | Billy Cannon | 66 | 1958 | LSU | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 19 | Bob Kyasky | 66 | 1956 | Army | 9 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 20 | Bob Stransky | 66 | 1957 | Colorado | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | QB | 
+ |  |  | 21 | Bruce Maher | 66 | 1959 | Detroit Mercy | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 22 | Charlie Flowers | 66 | 1959 | Ole Miss | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 23 | Dick Christy | 66 | 1957 | North Carolina State | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 24 | Don Perkins | 66 | 1959 | New Mexico | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 25 | Frank Finney | 66 | 1958 | Brown | 9 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | QB | 
+ |  |  | 26 | John Call | 66 | 1956 | Colgate | 8 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 27 | Leon Burton | 66 | 1958 | Arizona State | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 28 | Nolan Jones | 66 | 1959 | Arizona State | 11 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 29 | Pete Dawkins | 66 | 1957 | Army | 9 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 30 | Pete Dawkins | 66 | 1958 | Army | 9 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 31 | Tony Banfield | 66 | 1959 | Oklahoma State | 10 | 11 | 0 | 0 |  | 0 | 0 |  |  |  | 66 | RB | 
+ |  |  | 32 | Billy Austin | 60 | 1957 | Rutgers | 9 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 33 | Bob Jarus | 60 | 1958 | Purdue | 9 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 34 | Clendon Thomas | 60 | 1957 | Oklahoma | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 35 | Herbert Hallas | 60 | 1957 | Yale | 9 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 36 | Hewes Agnew | 60 | 1956 | Princeton | 9 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 37 | Jim Wiggins | 60 | 1957 | Oklahoma State | 10 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 38 | John Bayuk | 60 | 1956 | Colorado | 10 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 39 | Merrill Douglas | 60 | 1957 | Utah | 10 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 40 | Mike Brown | 60 | 1956 | Dartmouth | 9 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | QB | 
+ |  |  | 41 | Paul Maguire | 60 | 1959 | The Citadel | 10 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | WR | 
+ |  |  | 42 | Tom Larscheid | 60 | 1959 | Utah State | 11 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 43 | Willie Fleming | 60 | 1958 | Iowa | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 44 | Wray Carlton | 60 | 1957 | Duke | 9 | 10 | 0 | 0 |  | 0 | 0 |  |  |  | 60 | RB | 
+ |  |  | 45 | Billy Patton | 54 | 1958 | California | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 46 | Bob Gaiters | 54 | 1959 | New Mexico State | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 47 | Bob Simms | 54 | 1958 | Rutgers | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | WR | 
+ |  |  | 48 | Buford Waterhouse | 54 | 1956 | Drake | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 49 | Charlie Ravenel | 54 | 1959 | Harvard | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | QB | 
+ |  |  | 50 | Chuck Zimmerman | 54 | 1958 | Syracuse | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | QB | 
+ |  |  | 51 | Claude Chaney | 54 | 1957 | Dayton | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 52 | Dale Hackbart | 54 | 1958 | Wisconsin | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | QB | 
+ |  |  | 53 | Del Shofner | 54 | 1956 | Baylor | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 54 | Dennis McGill | 54 | 1956 | Yale | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 55 | Dick Evans | 54 | 1959 | Virginia Military Institute | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | WR | 
+ |  |  | 56 | Don Black | 54 | 1958 | New Mexico | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | WR | 
+ |  |  | 57 | Don Clark | 54 | 1957 | Ohio State | 7 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 58 | Dwight Nichols | 54 | 1959 | Iowa State | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | QB | 
+ |  |  | 59 | Eddie Dove | 54 | 1957 | Colorado | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 60 | Jack Fanning | 54 | 1957 | Washington State | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | WR | 
+ |  |  | 61 | Jim Pace | 54 | 1957 | Michigan | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 62 | Jim Shanley | 54 | 1957 | Oregon | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 63 | John David Crow | 54 | 1956 | Texas A&M | 10 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 64 | Walt Kowalczyk | 54 | 1957 | Michigan State | 9 | 9 | 0 | 0 |  | 0 | 0 |  |  |  | 54 | RB | 
+ |  |  | 65 | Albert Korpak | 48 | 1957 | Detroit Mercy | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 66 | Billy Brown | 48 | 1959 | New Mexico | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 67 | Billy Christle | 48 | 1959 | North Texas | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 68 | Bob Brumble | 48 | 1958 | Tulsa | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 69 | Bobby Jordan | 48 | 1956 | Virginia Military Institute | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 70 | Bobby Mulgado | 48 | 1956 | Arizona State | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 71 | Dave Kasperian | 48 | 1957 | Penn State | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 72 | Dick Bass | 48 | 1959 | Pacific | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 73 | Dick LeBeau | 48 | 1957 | Ohio State | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 74 | Don Long | 48 | 1957 | UCLA | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 75 | Don Meredith | 48 | 1958 | SMU | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | QB | 
+ |  |  | 76 | Don Perkins | 48 | 1958 | New Mexico | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 77 | Duane Wood | 48 | 1958 | Oklahoma State | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 78 | Frank Kremblas | 48 | 1957 | Ohio State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | QB | 
+ |  |  | 79 | George Colbert | 48 | 1957 | Denver | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 80 | Harry Hurst | 48 | 1957 | Navy | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 81 | Howard Cook | 48 | 1958 | Colorado | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | QB | 
+ |  |  | 82 | Jim Joyce | 48 | 1959 | Maryland | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 83 | Jimmy Bevers | 48 | 1956 | UTEP | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 84 | Jimmy Taylor | 48 | 1956 | LSU | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 85 | Joe Bellino | 48 | 1959 | Navy | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 86 | Joe Francis | 48 | 1957 | Oregon State | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | QB | 
+ |  |  | 87 | Joe Morrison | 48 | 1958 | Cincinnati | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 88 | Joel Wells | 48 | 1956 | Clemson | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 89 | John Watts | 48 | 1956 | Wyoming | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 90 | John Whatcott | 48 | 1956 | Utah State | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 91 | Johnny Wilson | 48 | 1956 | Denver | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 92 | Nub Beamer | 48 | 1957 | Oregon State | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 93 | Overton Curtis | 48 | 1957 | Utah State | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 94 | Roddy Osborne | 48 | 1957 | Texas A&M | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | QB | 
+ |  |  | 95 | Steve Ackerman | 48 | 1956 | Yale | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 96 | Ted Dean | 48 | 1959 | Wichita State | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 97 | Tom Berry | 48 | 1956 | Oregon State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 98 | Tom Bronson | 48 | 1956 | Tennessee | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 99 | Tom Morris | 48 | 1956 | Princeton | 9 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 100 | Willie West | 48 | 1959 | Oregon | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 101 | Wray Carlton | 48 | 1958 | Duke | 10 | 8 | 0 | 0 |  | 0 | 0 |  |  |  | 48 | RB | 
+ |  |  | 102 | Abner Haynes | 42 | 1958 | North Texas | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 103 | Al Carter | 42 | 1956 | Tennessee | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 104 | Art Johnson | 42 | 1957 | Michigan State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 105 | Billy Kane | 42 | 1956 | Penn State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 106 | Blanche Martin | 42 | 1957 | Michigan State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 107 | Bob Dunnington | 42 | 1959 | Richmond | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 108 | Bob Scarpitto | 42 | 1959 | Notre Dame | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 109 | Bob Schloredt | 42 | 1959 | Washington | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 110 | Bobby Gordon | 42 | 1957 | Tennessee | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 111 | Bobby Hunt | 42 | 1959 | Auburn | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 112 | Bobby Jackson | 42 | 1958 | Alabama | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 113 | Bobby Mulgado | 42 | 1957 | Arizona State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 114 | Bobby Renn | 42 | 1958 | Florida State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 115 | Bruce Maher | 42 | 1958 | Detroit Mercy | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 116 | Buddy Allen | 42 | 1959 | Utah State | 11 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 117 | Chet Boulris | 42 | 1959 | Harvard | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 118 | Dave Kasperian | 42 | 1958 | Penn State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 119 | David Lott | 42 | 1957 | North Texas | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 120 | Dean Derby | 42 | 1956 | Washington | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 121 | Dennis Mendyk | 42 | 1956 | Michigan State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 122 | Dick Bass | 42 | 1956 | Pacific | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 123 | Don Clark | 42 | 1956 | Ohio State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 124 | Ed Hart | 42 | 1958 | Wisconsin | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 125 | Ed Sutton | 42 | 1956 | North Carolina | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 126 | Ernie Pitts | 42 | 1956 | Denver | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | WR | 
+ |  |  | 127 | Fred Doelling | 42 | 1959 | Pennsylvania | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 128 | George Hart | 42 | 1959 | Davidson | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 129 | George Riggs | 42 | 1956 | Richmond | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 130 | Jack Collins | 42 | 1959 | Texas | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 131 | Jake Gibbs | 42 | 1959 | Ole Miss | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 132 | James Roseboro | 42 | 1956 | Ohio State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 133 | Jerry Hill | 42 | 1959 | Wyoming | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 134 | Jim Colclough | 42 | 1957 | Boston College | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 135 | Jim Swink | 42 | 1956 | Texas Christian | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 136 | Joe Belland | 42 | 1958 | Arizona State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 137 | John Crouthamel | 42 | 1958 | Dartmouth | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 138 | John Herrnstein | 42 | 1956 | Michigan | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 139 | John Maio | 42 | 1957 | Boston University | 8 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 140 | Johnny Majors | 42 | 1956 | Tennessee | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 141 | Ken Wineburg | 42 | 1956 | Texas Christian | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 142 | Larry Hickman | 42 | 1958 | Baylor | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 143 | Mel Reight | 42 | 1958 | West Virginia | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 144 | Merrill Douglas | 42 | 1956 | Utah | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 145 | Mickey Fitzgerald | 42 | 1959 | Iowa State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 146 | Mike Quinlan | 42 | 1958 | Air Force | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 147 | Mike Quinlan | 42 | 1959 | Air Force | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 148 | Molly Halbert | 42 | 1957 | Mississippi State | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 149 | Monty Stickles | 42 | 1958 | Notre Dame | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | WR | 
+ |  |  | 150 | Ned Oldham | 42 | 1956 | Navy | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 151 | Ned Oldham | 42 | 1957 | Navy | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 152 | Oneal Cuterry | 42 | 1959 | San Jose State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 153 | Pete Hart | 42 | 1957 | Hardin-Simmons | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 154 | Ray Brown | 42 | 1956 | Ole Miss | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 155 | Ray Brown | 42 | 1957 | Ole Miss | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 156 | Ray Wellborn | 42 | 1957 | Navy | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 157 | Rich Winkler | 42 | 1959 | Yale | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 158 | Sam Horner | 42 | 1958 | Virginia Military Institute | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 159 | Sam Scarnecchia | 42 | 1956 | Miami (FL) | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 160 | Terry Barr | 42 | 1956 | Michigan | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 161 | Tom Flores | 42 | 1956 | Pacific | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 162 | Tom Skypeck | 42 | 1958 | Cornell | 9 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | QB | 
+ |  |  | 163 | Tom Watkins | 42 | 1959 | Iowa State | 10 | 7 | 0 | 0 |  | 0 | 0 |  |  |  | 42 | RB | 
+ |  |  | 164 | Al Ward | 36 | 1956 | Yale | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 165 | Alan Rozycki | 36 | 1959 | Dartmouth | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 166 | Alfred Jamison | 36 | 1956 | Colgate | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | WR | 
+ |  |  | 167 | Alfred Jamison | 36 | 1957 | Colgate | 8 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | WR | 
+ |  |  | 168 | Art Luppino | 36 | 1956 | Arizona | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 169 | Bernie Teliszewski | 36 | 1956 | Boston College | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 170 | Bill Barnes | 36 | 1956 | Wake Forest | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 171 | Bill Groce | 36 | 1958 | North Texas | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 172 | Bill Steiger | 36 | 1956 | Washington State | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 173 | Billy Hughes | 36 | 1959 | The Citadel | 10 | 4 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 174 | Billy Stacy | 36 | 1956 | Mississippi State | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 175 | Bob Anderson | 36 | 1958 | Army | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 176 | Bob Jeter | 36 | 1958 | Iowa | 9 | 5 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 177 | Bobby Boyd | 36 | 1958 | Oklahoma | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 178 | Bobby Franklin | 36 | 1958 | Ole Miss | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 179 | Buddy Davis | 36 | 1958 | Richmond | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 180 | Buddy Dike | 36 | 1956 | Texas Christian | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 181 | Carl Dodd | 36 | 1957 | Oklahoma | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 182 | Carroll Dale | 36 | 1958 | Virginia Tech | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | WR | 
+ |  |  | 183 | Carroll Dale | 36 | 1959 | Virginia Tech | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | WR | 
+ |  |  | 184 | Charlie Ravenel | 36 | 1958 | Harvard | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 185 | Chris Burford | 36 | 1959 | Stanford | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | WR | 
+ |  |  | 186 | Chuck Weiss | 36 | 1958 | Colorado | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 187 | Corny Salvaterra | 36 | 1956 | Pitt | 10 | 5 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 188 | Craig Wall | 36 | 1957 | Davidson | 8 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | WR | 
+ |  |  | 189 | Craig Wall | 36 | 1958 | Davidson | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 190 | Dale Hackbart | 36 | 1957 | Wisconsin | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 191 | Dale Hackbart | 36 | 1959 | Wisconsin | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 192 | Dan Sachs | 36 | 1957 | Princeton | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 193 | Danny Lewis | 36 | 1957 | Wisconsin | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 194 | Dave Huber | 36 | 1957 | Dayton | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 195 | David Baker | 36 | 1957 | Oklahoma | 10 | 5 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | QB | 
+ |  |  | 196 | Dewey Bohling | 36 | 1956 | Hardin-Simmons | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 197 | Dick Behning | 36 | 1959 | Wyoming | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 198 | Dick Haley | 36 | 1958 | Pitt | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 199 | Don Clark | 36 | 1958 | Ohio State | 9 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
+ |  |  | 200 | Donnie Caraway | 36 | 1956 | Houston | 10 | 6 | 0 | 0 |  | 0 | 0 |  |  |  | 36 | RB | 
 ```
 
 ## Claim check
 
-- Complete set: all 125 rows read. A superlative may be asserted only if it holds across every row above.
+- INCOMPLETE. Tighten the filter and re-run before any "only" or "first" claim.

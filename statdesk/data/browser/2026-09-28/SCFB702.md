@@ -1,37 +1,34 @@
-# SCFB702 — College Football 2010s p:kr_td
+# SCFB702 — College Football 2010s p:fr_recy
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&order_by=kick_ret_td&order_by_asc=0&ccomp[1]=gt&cval[1]=3&cstat[1]=kick_ret_td
-- Timestamp: 2026-09-28T07:12:52.275Z
-- Rows read: 21
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&class[]=fr&order_by=rec_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1000&cstat[1]=rec_yds
+- Timestamp: 2026-09-28T08:55:16.334Z
+- Rows read: 18
 
 ## Result table
 
 ```
-header_empty_0 | header_kr | header_empty_2 | ranker | name_display | kick_ret_td | year_id | teams_played_for | games | kick_ret | kick_ret_yds | kick_ret_yds_per_ret | kick_ret_td | pos | class
- |  |  | 1 | J.J. Nelson | 4 | 2014 | UAB | 12 | 22 | 843 | 38.3 | 4 | WR | SR
- |  |  | 2 | Marcus Green | 4 | 2017 | Louisiana-Monroe | 12 | 27 | 876 | 32.4 | 4 | WR | JR
- |  |  | 3 | Morgan Burns | 4 | 2015 | Kansas State | 12 | 34 | 1138 | 33.5 | 4 | DB | SR
- |  |  | 4 | Reggie Dunn | 4 | 2012 | Utah | 12 | 10 | 513 | 51.3 | 4 | WR | SR
- |  |  | 5 | Tony Pollard | 4 | 2017 | Memphis | 13 | 22 | 881 | 40.0 | 4 | RB | SO
- |  |  | 6 | Bernard Reedy | 3 | 2012 | Toledo | 13 | 32 | 885 | 27.7 | 3 | WR | JR
- |  |  | 7 | Carlos Wiggins | 3 | 2013 | New Mexico | 12 | 44 | 1303 | 29.6 | 3 | WR | SO
- |  |  | 8 | Devon Edwards | 3 | 2015 | Duke | 13 | 24 | 700 | 29.2 | 3 | S | JR
- |  |  | 9 | Dri Archer | 3 | 2012 | Kent State | 14 | 16 | 591 | 36.9 | 3 | RB | JR
- |  |  | 10 | Eric Page | 3 | 2010 | Toledo | 13 | 28 | 871 | 31.1 | 3 | WR | SO
- |  |  | 11 | Evan Berry | 3 | 2015 | Tennessee | 13 | 21 | 804 | 38.3 | 3 | DB | SO
- |  |  | 12 | Isaiah Harper | 3 | 2017 | Old Dominion | 12 | 24 | 698 | 29.1 | 3 | WR | JR
- |  |  | 13 | Janarion Grant | 3 | 2015 | Rutgers | 12 | 40 | 984 | 24.6 | 3 | WR | JR
- |  |  | 14 | Jason Huntley | 3 | 2018 | New Mexico State | 12 | 22 | 598 | 27.2 | 3 | RB | JR
- |  |  | 15 | Joshua Youngblood | 3 | 2019 | Kansas State | 13 | 14 | 502 | 35.9 | 3 | WR | FR
- |  |  | 16 | Marcus Jones | 3 | 2017 | Troy | 13 | 29 | 879 | 30.3 | 3 | CB | FR
- |  |  | 17 | Mike Edwards | 3 | 2012 | Hawaii | 12 | 40 | 1215 | 30.4 | 3 | DB | JR
- |  |  | 18 | Quadree Henderson | 3 | 2016 | Pitt | 13 | 30 | 914 | 30.5 | 3 | WR | SO
- |  |  | 19 | Quincy McDuffie | 3 | 2012 | UCF | 14 | 17 | 582 | 34.2 | 3 | WR | SR
- |  |  | 20 | Rashaad Penny | 3 | 2015 | San Diego State | 14 | 24 | 804 | 33.5 | 3 | RB | SO
- |  |  | 21 | Taveon Rogers | 3 | 2011 | New Mexico State | 12 | 51 | 1318 | 25.8 | 3 | WR | SR
+header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec_yds | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
+ |  |  | 1 | Richie James | 1346 | 2015 | Middle Tennessee State | 13 | 108 | 1346 | 12.5 | 8 | 103.5 | WR | FR
+ |  |  | 2 | Davante Adams | 1312 | 2012 | Fresno State | 13 | 102 | 1312 | 12.9 | 14 | 100.9 | WR | FR
+ |  |  | 3 | Rondale Moore | 1258 | 2018 | Purdue | 13 | 114 | 1258 | 11.0 | 12 | 96.8 | WR | FR
+ |  |  | 4 | Sammy Watkins | 1219 | 2011 | Clemson | 13 | 82 | 1219 | 14.9 | 12 | 93.8 | WR | FR
+ |  |  | 5 | Tyler Boyd | 1174 | 2013 | Pitt | 13 | 85 | 1174 | 13.8 | 7 | 90.3 | WR | FR
+ |  |  | 6 | Marqise Lee | 1143 | 2011 | USC | 12 | 73 | 1143 | 15.7 | 11 | 95.3 | WR | FR
+ |  |  | 7 | Mike Evans | 1105 | 2012 | Texas A&M | 13 | 82 | 1105 | 13.5 | 5 | 85.0 | WR | FR
+ |  |  | 8 | Penny Hart | 1099 | 2015 | Georgia State | 13 | 71 | 1099 | 15.5 | 8 | 84.5 | WR | FR
+ |  |  | 9 | Roger Lewis | 1093 | 2014 | Bowling Green | 14 | 73 | 1093 | 15.0 | 7 | 78.1 | WR | FR
+ |  |  | 10 | Calvin Ridley | 1045 | 2015 | Alabama | 15 | 89 | 1045 | 11.7 | 7 | 69.7 | WR | FR
+ |  |  | 11 | Mike Dudek | 1038 | 2014 | Illinois | 13 | 76 | 1038 | 13.7 | 6 | 79.8 | WR | FR
+ |  |  | 12 | David Bell | 1035 | 2019 | Purdue | 12 | 86 | 1035 | 12.0 | 7 | 86.3 | WR | FR
+ |  |  | 13 | K.D. Cannon | 1030 | 2014 | Baylor | 13 | 58 | 1030 | 17.8 | 8 | 79.2 | WR | FR
+ |  |  | 14 | J.D. McKissic | 1022 | 2012 | Arkansas State | 13 | 103 | 1022 | 9.9 | 5 | 78.6 | WR | FR
+ |  |  | 15 | Christian Kirk | 1009 | 2015 | Texas A&M | 13 | 80 | 1009 | 12.6 | 7 | 77.6 | WR | FR
+ |  |  | 16 | Marquess Wilson | 1006 | 2010 | Washington State | 12 | 55 | 1006 | 18.3 | 6 | 83.8 | WR | FR
+ |  |  | 17 | Amari Cooper | 1000 | 2012 | Alabama | 14 | 59 | 1000 | 16.9 | 11 | 71.4 | WR | FR
+ |  |  | 18 | Justyn Ross | 1000 | 2018 | Clemson | 15 | 46 | 1000 | 21.7 | 9 | 66.7 | WR | FR
 ```
 
 ## Claim check
 
-- Complete set: all 21 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 18 rows read. A superlative may be asserted only if it holds across every row above.

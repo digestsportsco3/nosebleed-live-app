@@ -1,21 +1,18 @@
-# SCFB831 — College Football 2020s t:winless
+# SCFB831 — College Football 2020s p:pg_pass_yds_per_g
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=2020&year_max=2025&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=7&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=wins&ccomp[3]=lt&cval[3]=0&cstat[3]=ties
-- Timestamp: 2026-09-28T07:25:39.187Z
-- Rows read: 5
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2020&year_max=2025&order_by=pass_yds_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=gt&cval[2]=375&cstat[2]=pass_yds_per_g
+- Timestamp: 2026-09-28T09:06:19.253Z
+- Rows read: 2
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | losses | games | wins | ties | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 2025 | Massachusetts | 12 | 12 | 0 | 0 | 12 | 0 | 12 | 0 | .000 | 133 | 463 | -330
-2 | 2024 | Kent State | 12 | 12 | 0 | 0 | 12 | 0 | 12 | 0 | .000 | 167 | 529 | -362
-3 | 2020 | Louisiana-Monroe | 10 | 10 | 0 | 0 | 10 | 0 | 10 | 0 | .000 | 163 | 420 | -257
-4 | 2020 | Kansas | 9 | 9 | 0 | 0 | 9 | 0 | 9 | 0 | .000 | 142 | 414 | -272
-5 | 2020 | Vanderbilt | 9 | 9 | 0 | 0 | 9 | 0 | 9 | 0 | .000 | 133 | 336 | -203
+header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_yds_per_g | games | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
+ |  |  | 1 | Bailey Zappe | 426.2 | 14 | 2021 | Western Kentucky | 14 | 475 | 687 | 212 | 69.1 | 5967 | 62 | 11 | 9.0 | 1.6 | 168.7 | 8.7 | 9.77 | 12.6 | 426.2 | QB | SR
+ |  |  | 2 | Brennan Armstrong | 404.5 | 11 | 2021 | Virginia | 11 | 326 | 500 | 174 | 65.2 | 4449 | 31 | 10 | 6.2 | 2.0 | 156.4 | 8.9 | 9.24 | 13.6 | 404.5 | QB | JR
 ```
 
 ## Claim check
 
-- Complete set: all 5 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 2 rows read. A superlative may be asserted only if it holds across every row above.

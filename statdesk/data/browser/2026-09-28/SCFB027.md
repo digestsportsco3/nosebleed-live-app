@@ -1,8 +1,8 @@
-# SCFB027 — College Football 1870s t:unbeaten_tie
+# SCFB027 — College Football 1950s p:pr_td
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=6&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=losses&ccomp[3]=gt&cval[3]=1&cstat[3]=ties
-- Timestamp: 2026-09-28T06:25:13.331Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=punt_ret_td&order_by_asc=0&ccomp[1]=gt&cval[1]=3&cstat[1]=punt_ret_td
+- Timestamp: 2026-09-28T08:08:36.457Z
 - Rows read: 0
 
 ## Result table

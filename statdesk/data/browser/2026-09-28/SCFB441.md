@@ -1,8 +1,8 @@
-# SCFB441 — College Football 1980s p:fr_td
+# SCFB441 — College Football 1990s p:tkl_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&class[]=fr&order_by=pass_td&order_by_asc=0&ccomp[1]=gt&cval[1]=20&cstat[1]=pass_td
-- Timestamp: 2026-09-28T06:53:01.590Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&order_by=tackles_combined&order_by_asc=0&ccomp[1]=gt&cval[1]=170&cstat[1]=tackles_combined
+- Timestamp: 2026-09-28T08:36:20.770Z
 - Rows read: 0
 
 ## Result table

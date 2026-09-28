@@ -1,16 +1,48 @@
-# SCFB779 — College Football 2020s p:dint_hi
+# SCFB779 — College Football 2010s t:td_team
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2020&year_max=2025&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=9&cstat[1]=def_int
-- Timestamp: 2026-09-28T07:20:35.072Z
-- Rows read: 0
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=2010&year_max=2019&order_by=all_td_team&order_by_asc=0&ccomp[1]=gt&cval[1]=80&cstat[1]=all_td_team
+- Timestamp: 2026-09-28T09:01:55.415Z
+- Rows read: 32
 
 ## Result table
 
 ```
-
+ranker | year_id | team_name_abbr | all_td_team | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff | all_td_team | xpa | xpm | xp_pct | fga | fgm | fg_pct | two_pt_md | safety_md
+1 | 2019 | LSU | 94 | 15 | 15 | 0 | 0 | 1.000 | 726 | 328 | 398 | 94 | 93 | 89 | 95.7 | 27 | 21 | 77.8 | 0 | 1
+2 | 2011 | Houston | 93 | 14 | 13 | 1 | 0 | .929 | 690 | 314 | 376 | 93 | 92 | 91 | 98.9 | 17 | 13 | 76.5 | 1 | 0
+3 | 2018 | Alabama | 92 | 15 | 14 | 1 | 0 | .933 | 684 | 271 | 413 | 92 | 92 | 83 | 90.2 | 20 | 15 | 75.0 | 0 | 2
+4 | 2013 | Florida State | 91 | 14 | 14 | 0 | 0 | 1.000 | 723 | 170 | 553 | 91 | 94 | 94 | 100.0 | 22 | 21 | 95.5 | 0 | 0
+5 | 2018 | Clemson | 90 | 15 | 15 | 0 | 0 | 1.000 | 664 | 197 | 467 | 90 | 90 | 88 | 97.8 | 18 | 12 | 66.7 | 0 | 0
+6 | 2013 | Baylor | 90 | 13 | 11 | 2 | 0 | .846 | 681 | 306 | 375 | 90 | 89 | 88 | 98.9 | 23 | 15 | 65.2 | 1 | 1
+7 | 2012 | Oregon | 89 | 13 | 12 | 1 | 0 | .923 | 645 | 281 | 364 | 89 | 83 | 81 | 97.6 | 14 | 7 | 50.0 | 4 | 0
+8 | 2019 | Clemson | 88 | 15 | 14 | 1 | 0 | .933 | 659 | 203 | 456 | 88 | 86 | 85 | 98.8 | 23 | 14 | 60.9 | 2 | 0
+9 | 2019 | Ohio State | 88 | 14 | 13 | 1 | 0 | .929 | 656 | 192 | 464 | 88 | 88 | 87 | 98.9 | 15 | 13 | 86.7 | 0 | 1
+10 | 2014 | Oregon | 88 | 15 | 13 | 2 | 0 | .867 | 681 | 354 | 327 | 88 | 83 | 79 | 95.2 | 21 | 18 | 85.7 | 4 | 0
+11 | 2011 | Oregon | 88 | 14 | 12 | 2 | 0 | .857 | 645 | 345 | 300 | 88 | 81 | 80 | 98.8 | 14 | 9 | 64.3 | 5 | 0
+12 | 2018 | Oklahoma | 87 | 14 | 12 | 2 | 0 | .857 | 677 | 466 | 211 | 87 | 89 | 88 | 98.9 | 19 | 17 | 89.5 | 0 | 1
+13 | 2015 | Baylor | 86 | 13 | 10 | 3 | 0 | .769 | 625 | 368 | 257 | 86 | 83 | 83 | 100.0 | 14 | 8 | 57.1 | 1 | 0
+14 | 2014 | Ohio State | 86 | 15 | 14 | 1 | 0 | .933 | 672 | 330 | 342 | 86 | 89 | 89 | 100.0 | 20 | 13 | 65.0 | 1 | 0
+15 | 2013 | Ohio State | 86 | 14 | 12 | 2 | 0 | .857 | 637 | 317 | 320 | 86 | 82 | 80 | 97.6 | 10 | 9 | 90.0 | 2 | 0
+16 | 2011 | Wisconsin | 85 | 14 | 11 | 3 | 0 | .786 | 618 | 266 | 352 | 85 | 82 | 80 | 97.6 | 11 | 8 | 72.7 | 2 | 0
+17 | 2017 | UCF | 84 | 13 | 13 | 0 | 0 | 1.000 | 627 | 329 | 298 | 84 | 81 | 80 | 98.8 | 18 | 13 | 72.2 | 1 | 1
+18 | 2012 | Louisiana Tech | 84 | 12 | 9 | 3 | 0 | .750 | 618 | 462 | 156 | 84 | 80 | 76 | 95.0 | 18 | 12 | 66.7 | 1 | 0
+19 | 2017 | Oklahoma | 83 | 14 | 12 | 2 | 0 | .857 | 632 | 379 | 253 | 83 | 80 | 80 | 100.0 | 21 | 17 | 81.0 | 1 | 0
+20 | 2014 | Marshall | 83 | 14 | 13 | 1 | 0 | .929 | 638 | 294 | 344 | 83 | 83 | 83 | 100.0 | 21 | 17 | 81.0 | 0 | 0
+21 | 2015 | Bowling Green | 82 | 14 | 10 | 4 | 0 | .714 | 591 | 405 | 186 | 82 | 81 | 75 | 92.6 | 15 | 8 | 53.3 | 0 | 0
+22 | 2015 | Western Kentucky | 82 | 14 | 12 | 2 | 0 | .857 | 620 | 363 | 257 | 82 | 80 | 79 | 98.8 | 16 | 15 | 93.8 | 2 | 0
+23 | 2019 | Alabama | 81 | 13 | 11 | 2 | 0 | .846 | 614 | 242 | 372 | 81 | 83 | 80 | 96.4 | 18 | 12 | 66.7 | 0 | 0
+24 | 2016 | Western Kentucky | 81 | 14 | 11 | 3 | 0 | .786 | 637 | 344 | 293 | 81 | 80 | 78 | 97.5 | 30 | 21 | 70.0 | 0 | 1
+25 | 2014 | Baylor | 81 | 13 | 11 | 2 | 0 | .846 | 627 | 332 | 295 | 81 | 82 | 81 | 98.8 | 26 | 18 | 69.2 | 0 | 0
+26 | 2011 | Boise State | 81 | 13 | 12 | 1 | 0 | .923 | 575 | 243 | 332 | 81 | 79 | 71 | 89.9 | 9 | 6 | 66.7 | 0 | 0
+27 | 2011 | Oklahoma State | 81 | 13 | 12 | 1 | 0 | .923 | 633 | 348 | 285 | 81 | 80 | 79 | 98.8 | 25 | 22 | 88.0 | 1 | 0
+28 | 2010 | Oregon | 81 | 13 | 12 | 1 | 0 | .923 | 611 | 243 | 368 | 81 | 73 | 72 | 98.6 | 17 | 13 | 76.5 | 7 | 0
+29 | 2018 | Memphis | 80 | 14 | 8 | 6 | 0 | .571 | 601 | 447 | 154 | 80 | 79 | 76 | 96.2 | 20 | 15 | 75.0 | 0 | 0
+30 | 2013 | Marshall | 80 | 14 | 10 | 4 | 0 | .714 | 590 | 321 | 269 | 80 | 80 | 77 | 96.3 | 14 | 11 | 78.6 | 0 | 0
+31 | 2013 | Oregon | 80 | 13 | 11 | 2 | 0 | .846 | 591 | 266 | 325 | 80 | 74 | 71 | 95.9 | 14 | 10 | 71.4 | 2 | 0
+32 | 2011 | Baylor | 80 | 13 | 10 | 3 | 0 | .769 | 589 | 484 | 105 | 80 | 78 | 75 | 96.2 | 17 | 10 | 58.8 | 2 | 0
 ```
 
 ## Claim check
 
-- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.
+- Complete set: all 32 rows read. A superlative may be asserted only if it holds across every row above.

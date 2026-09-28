@@ -2,8 +2,8 @@
  "sport": "College Football",
  "decade": "1950s",
  "source": "Stathead",
- "queries": 77,
- "candidates": 40,
+ "queries": 93,
+ "candidates": 43,
  "facts": [
   {
    "n": 1,
@@ -97,6 +97,51 @@
   },
   {
    "n": 3,
+   "rule": "p:pg_rush_yds_per_g",
+   "group": "P",
+   "decade": "1950s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=rush_yds_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=gt&cval[2]=130&cstat[2]=rush_yds_per_g"
+   },
+   "evidence": [
+    {
+     "id": "dick-bass-1",
+     "name": "Dick Bass",
+     "season": 1958,
+     "team": "Pacific",
+     "pos": "",
+     "age": null,
+     "year_raw": "1958",
+     "ranker": 1,
+     "name_display": "Dick Bass",
+     "rush_yds_per_g": 136.1,
+     "games": 10,
+     "year_id": 1958,
+     "teams_played_for": "Pacific",
+     "rush_att": 205,
+     "rush_yds": 1361,
+     "rush_yds_per_att": 6.6,
+     "rush_td": 15,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": "dick-bass-1",
+     "name": "Dick Bass"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "text": "The only major-college player of the 1950s to average 130 rushing yards a game (8+ games): Dick Bass, 1958 — 136.1 per game.",
+   "why": "A club of one in the 1950s; \"name another\" posts draw replies. Per-game rushing puts short seasons on equal footing."
+  },
+  {
+   "n": 4,
    "rule": "t:diff_low",
    "group": "P",
    "decade": "1950s",
@@ -161,10 +206,55 @@
     1959
    ],
    "text": "Only two major-college teams of the 1950s got outscored by 300 points: Virginia Tech (1950: 72-430, 0-10); Virginia (1959: 80-393, 0-10).",
-   "why": "Two names invite the \"whose season was better?\" argument. Blowout futility makes rival fan bases pile on."
+   "why": "A two-player club is a ready-made debate. Blowout futility makes rival fan bases pile on."
   },
   {
-   "n": 4,
+   "n": 5,
+   "rule": "p:qb_rtd",
+   "group": "P",
+   "decade": "1950s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=rush_td&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=rush_td&positions[]=qb"
+   },
+   "evidence": [
+    {
+     "id": "billy-austin-1",
+     "name": "Billy Austin",
+     "season": 1958,
+     "team": "Rutgers",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1958",
+     "ranker": 1,
+     "name_display": "Billy Austin",
+     "rush_td": 15,
+     "year_id": 1958,
+     "teams_played_for": "Rutgers",
+     "games": 9,
+     "rush_att": 145,
+     "rush_yds": 747,
+     "rush_yds_per_att": 5.2,
+     "rush_yds_per_g": 83,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.375,
+   "players": [
+    {
+     "id": "billy-austin-1",
+     "name": "Billy Austin"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "text": "The only major-college player of the 1950s to run for 15 touchdowns as a quarterback: Billy Austin, 1958 — 15 rush TD.",
+   "why": "A club of one in the 1950s; \"name another\" posts draw replies. Quarterbacks scoring with their legs always gets a reaction."
+  },
+  {
+   "n": 6,
    "rule": "p:rtd_rec",
    "group": "P",
    "decade": "1950s",
@@ -209,7 +299,7 @@
    "why": "Nobody else in the 1950s did it, and exclusivity is what gets a post shared. Scoring volume plus efficiency is the complete-back case."
   },
   {
-   "n": 5,
+   "n": 7,
    "rule": "t:loss_hi",
    "group": "P",
    "decade": "1950s",
@@ -253,7 +343,7 @@
    "why": "A club of one in the 1950s; \"name another\" posts draw replies. Losing seasons are what rival fans remember best."
   },
   {
-   "n": 6,
+   "n": 8,
    "rule": "p:rtd_hi",
    "group": "P",
    "decade": "1950s",
@@ -323,7 +413,7 @@
    "why": "A two-player club is a ready-made debate. Goal-line dominance is easy to picture and easy to share."
   },
   {
-   "n": 7,
+   "n": 9,
    "kind": "total",
    "rule": "t:perfect:most",
    "group": "P",
@@ -406,7 +496,7 @@
    "why": "A decade of consistency in one number; names the most reliable producer of the 1950s."
   },
   {
-   "n": 8,
+   "n": 10,
    "group": "P",
    "decade": "1950s",
    "finder": {
@@ -549,7 +639,7 @@
    "why": "A decade of consistency in one number; names the most reliable producer of the 1950s."
   },
   {
-   "n": 9,
+   "n": 11,
    "group": "P",
    "decade": "1950s",
    "finder": {
@@ -692,7 +782,7 @@
    "why": "A decade of consistency in one number; names the most reliable producer of the 1950s."
   },
   {
-   "n": 10,
+   "n": 12,
    "kind": "extreme",
    "rule": "p:x_py",
    "group": "P",
@@ -861,7 +951,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
-   "n": 11,
+   "n": 13,
    "kind": "extreme",
    "rule": "p:x_ptd",
    "group": "P",
@@ -1030,7 +1120,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 12,
+   "n": 14,
    "kind": "extreme",
    "rule": "p:x_recy",
    "group": "P",
@@ -1154,7 +1244,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Receiving yardage seasons anchor every receiver ranking."
   },
   {
-   "n": 13,
+   "n": 15,
    "kind": "extreme",
    "rule": "p:x_pts",
    "group": "P",
@@ -1303,7 +1393,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Scoring totals are universal; no explanation needed."
   },
   {
-   "n": 14,
+   "n": 16,
    "kind": "extreme",
    "rule": "p:x_tot",
    "group": "P",
@@ -1427,7 +1517,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Total offense crowns the do-it-all college quarterback."
   },
   {
-   "n": 15,
+   "n": 17,
    "kind": "extreme",
    "rule": "p:x_rate",
    "group": "P",
@@ -1596,7 +1686,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Efficiency is the stat analytics-minded fans quote most."
   },
   {
-   "n": 16,
+   "n": 18,
    "rule": "t:opp_hi",
    "group": "P",
    "decade": "1950s",
@@ -1735,7 +1825,7 @@
    "why": "Leads with the most extreme case, which carries the post. Porous defenses make for rival-fan dunking."
   },
   {
-   "n": 17,
+   "n": 19,
    "kind": "extreme",
    "rule": "t:tx_opp",
    "group": "P",
@@ -1854,7 +1944,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Defensive dominance measured the simplest way possible."
   },
   {
-   "n": 18,
+   "n": 20,
    "kind": "extreme",
    "rule": "t:tx_win",
    "group": "P",
@@ -1973,7 +2063,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Win totals are the first thing fans cite for a program's golden age."
   },
   {
-   "n": 19,
+   "n": 21,
    "kind": "extreme",
    "rule": "t:tx_loss",
    "group": "P",
@@ -2092,7 +2182,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Losing seasons are what rival fans remember best."
   },
   {
-   "n": 20,
+   "n": 22,
    "kind": "extreme",
    "rule": "t:tx_worst",
    "group": "P",
@@ -2211,7 +2301,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Blowout futility makes rival fan bases pile on."
   },
   {
-   "n": 21,
+   "n": 23,
    "kind": "extreme",
    "rule": "t:tx_pass",
    "group": "P",
@@ -2395,7 +2485,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Team passing yardage recalls the air-raid revolution."
   },
   {
-   "n": 22,
+   "n": 24,
    "kind": "extreme",
    "rule": "p:x_ry",
    "group": "P",
@@ -2519,7 +2609,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
-   "n": 23,
+   "n": 25,
    "kind": "extreme",
    "rule": "p:x_apy",
    "group": "P",
@@ -2643,131 +2733,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. All-purpose yards credit the players who did everything."
   },
   {
-   "n": 24,
-   "kind": "extreme",
-   "rule": "p:x_ypc",
-   "group": "P",
-   "decade": "1950s",
-   "score": 6,
-   "players": [
-    {
-     "id": "dick-bass-1",
-     "name": "Dick Bass"
-    }
-   ],
-   "seasons": [
-    1958
-   ],
-   "finder": {
-    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=rush_yds_per_att&order_by_asc=0&ccomp[1]=gt&cval[1]=150&cstat[1]=rush_att"
-   },
-   "evidence": [
-    {
-     "id": "dick-bass-1",
-     "name": "Dick Bass",
-     "season": 1958,
-     "team": "Pacific",
-     "pos": "",
-     "age": null,
-     "year_raw": "1958",
-     "ranker": 1,
-     "name_display": "Dick Bass",
-     "rush_yds_per_att": 6.6,
-     "rush_att": 205,
-     "year_id": 1958,
-     "teams_played_for": "Pacific",
-     "games": 10,
-     "rush_yds": 1361,
-     "rush_td": 15,
-     "rush_yds_per_g": 136.1,
-     "class": ""
-    },
-    {
-     "id": "bob-anderson-1",
-     "name": "Bob Anderson",
-     "season": 1957,
-     "team": "Army",
-     "pos": "RB",
-     "age": null,
-     "year_raw": "1957",
-     "ranker": 2,
-     "name_display": "Bob Anderson",
-     "rush_yds_per_att": 6.4,
-     "rush_att": 153,
-     "year_id": 1957,
-     "teams_played_for": "Army",
-     "games": 9,
-     "rush_yds": 983,
-     "rush_td": 12,
-     "rush_yds_per_g": 109.2,
-     "class": ""
-    },
-    {
-     "id": "jim-brown-1",
-     "name": "Jim Brown",
-     "season": 1956,
-     "team": "Syracuse",
-     "pos": "RB",
-     "age": null,
-     "year_raw": "1956",
-     "ranker": 3,
-     "name_display": "Jim Brown",
-     "rush_yds_per_att": 6.2,
-     "rush_att": 158,
-     "year_id": 1956,
-     "teams_played_for": "Syracuse",
-     "games": 8,
-     "rush_yds": 986,
-     "rush_td": 13,
-     "rush_yds_per_g": 123.3,
-     "class": ""
-    },
-    {
-     "id": "bill-barnes-2",
-     "name": "Bill Barnes",
-     "season": 1956,
-     "team": "Wake Forest",
-     "pos": "RB",
-     "age": null,
-     "year_raw": "1956",
-     "ranker": 4,
-     "name_display": "Bill Barnes",
-     "rush_yds_per_att": 6,
-     "rush_att": 168,
-     "year_id": 1956,
-     "teams_played_for": "Wake Forest",
-     "games": 10,
-     "rush_yds": 1010,
-     "rush_td": 6,
-     "rush_yds_per_g": 101,
-     "class": ""
-    },
-    {
-     "id": "bob-stransky-1",
-     "name": "Bob Stransky",
-     "season": 1957,
-     "team": "Colorado",
-     "pos": "QB",
-     "age": null,
-     "year_raw": "1957",
-     "ranker": 5,
-     "name_display": "Bob Stransky",
-     "rush_yds_per_att": 6,
-     "rush_att": 183,
-     "year_id": 1957,
-     "teams_played_for": "Colorado",
-     "games": 10,
-     "rush_yds": 1097,
-     "rush_td": 11,
-     "rush_yds_per_g": 109.7,
-     "class": ""
-    }
-   ],
-   "text": "Best yards per carry in a season (150+ carries) in the 1950s: Dick Bass, Pacific, 1958 — 6.6.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Big-play running efficiency starts debates about who was really best."
-  },
-  {
-   "n": 25,
+   "n": 26,
    "rule": "t:pts_hi",
    "group": "P",
    "decade": "1950s",
@@ -2903,10 +2869,10 @@
     1956
    ],
    "text": "8 major-college teams scored 380 points in the 1950s (10 seasons). The most extreme: Oklahoma, 1956 — 466 points, 10-0.",
-   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Scoring totals are universal; no explanation needed."
+   "why": "Leads with the most extreme case, which carries the post. Scoring totals are universal; no explanation needed."
   },
   {
-   "n": 26,
+   "n": 27,
    "rule": "t:diff_hi",
    "group": "P",
    "decade": "1950s",
@@ -3042,10 +3008,10 @@
     1956
    ],
    "text": "8 major-college teams outscored opponents by 300 in the 1950s (9 seasons). The most extreme: Oklahoma, 1956 — 466-51.",
-   "why": "Leads with the most extreme case, which carries the post. Margin of victory is the cleanest measure of dominance."
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Margin of victory is the cleanest measure of dominance."
   },
   {
-   "n": 27,
+   "n": 28,
    "kind": "extreme",
    "rule": "t:tx_pts",
    "group": "P",
@@ -3161,10 +3127,134 @@
     }
    ],
    "text": "Most points by a team in a season in the 1950s: Oklahoma, 1956 — 466 (10-0).",
-   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Scoring totals are universal; no explanation needed."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring totals are universal; no explanation needed."
   },
   {
-   "n": 28,
+   "n": 29,
+   "kind": "extreme",
+   "rule": "p:x_ypc",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": "dick-bass-1",
+     "name": "Dick Bass"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=rush_yds_per_att&order_by_asc=0&ccomp[1]=gt&cval[1]=150&cstat[1]=rush_att"
+   },
+   "evidence": [
+    {
+     "id": "dick-bass-1",
+     "name": "Dick Bass",
+     "season": 1958,
+     "team": "Pacific",
+     "pos": "",
+     "age": null,
+     "year_raw": "1958",
+     "ranker": 1,
+     "name_display": "Dick Bass",
+     "rush_yds_per_att": 6.6,
+     "rush_att": 205,
+     "year_id": 1958,
+     "teams_played_for": "Pacific",
+     "games": 10,
+     "rush_yds": 1361,
+     "rush_td": 15,
+     "rush_yds_per_g": 136.1,
+     "class": ""
+    },
+    {
+     "id": "bob-anderson-1",
+     "name": "Bob Anderson",
+     "season": 1957,
+     "team": "Army",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1957",
+     "ranker": 2,
+     "name_display": "Bob Anderson",
+     "rush_yds_per_att": 6.4,
+     "rush_att": 153,
+     "year_id": 1957,
+     "teams_played_for": "Army",
+     "games": 9,
+     "rush_yds": 983,
+     "rush_td": 12,
+     "rush_yds_per_g": 109.2,
+     "class": ""
+    },
+    {
+     "id": "jim-brown-1",
+     "name": "Jim Brown",
+     "season": 1956,
+     "team": "Syracuse",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1956",
+     "ranker": 3,
+     "name_display": "Jim Brown",
+     "rush_yds_per_att": 6.2,
+     "rush_att": 158,
+     "year_id": 1956,
+     "teams_played_for": "Syracuse",
+     "games": 8,
+     "rush_yds": 986,
+     "rush_td": 13,
+     "rush_yds_per_g": 123.3,
+     "class": ""
+    },
+    {
+     "id": "bill-barnes-2",
+     "name": "Bill Barnes",
+     "season": 1956,
+     "team": "Wake Forest",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1956",
+     "ranker": 4,
+     "name_display": "Bill Barnes",
+     "rush_yds_per_att": 6,
+     "rush_att": 168,
+     "year_id": 1956,
+     "teams_played_for": "Wake Forest",
+     "games": 10,
+     "rush_yds": 1010,
+     "rush_td": 6,
+     "rush_yds_per_g": 101,
+     "class": ""
+    },
+    {
+     "id": "bob-stransky-1",
+     "name": "Bob Stransky",
+     "season": 1957,
+     "team": "Colorado",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1957",
+     "ranker": 5,
+     "name_display": "Bob Stransky",
+     "rush_yds_per_att": 6,
+     "rush_att": 183,
+     "year_id": 1957,
+     "teams_played_for": "Colorado",
+     "games": 10,
+     "rush_yds": 1097,
+     "rush_td": 11,
+     "rush_yds_per_g": 109.7,
+     "class": ""
+    }
+   ],
+   "text": "Best yards per carry in a season (150+ carries) in the 1950s: Dick Bass, Pacific, 1958 — 6.6.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Big-play running efficiency starts debates about who was really best."
+  },
+  {
+   "n": 30,
    "kind": "extreme",
    "rule": "t:tx_diff",
    "group": "P",
@@ -3283,7 +3373,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Margin of victory is the cleanest measure of dominance."
   },
   {
-   "n": 29,
+   "n": 31,
    "kind": "extreme",
    "rule": "t:tx_rush",
    "group": "P",
@@ -3422,7 +3512,7 @@
    "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Team rushing yardage recalls the option and power-run eras."
   },
   {
-   "n": 30,
+   "n": 32,
    "kind": "total",
    "rule": "p:t_py",
    "group": "P",
@@ -3584,7 +3674,7 @@
    "why": "A decade-long view that settles consistency debates. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
-   "n": 31,
+   "n": 33,
    "kind": "total",
    "rule": "p:t_ptd",
    "group": "P",
@@ -3746,7 +3836,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 32,
+   "n": 34,
    "kind": "total",
    "rule": "p:t_rec",
    "group": "P",
@@ -3863,7 +3953,7 @@
    "why": "A decade-long view that settles consistency debates. Catch totals put possession receivers in the spotlight."
   },
   {
-   "n": 33,
+   "n": 35,
    "kind": "total",
    "rule": "p:t_recy",
    "group": "P",
@@ -3980,7 +4070,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Receiving yardage seasons anchor every receiver ranking."
   },
   {
-   "n": 34,
+   "n": 36,
    "kind": "total",
    "rule": "p:t_tot",
    "group": "P",
@@ -4097,7 +4187,7 @@
    "why": "A decade-long view that settles consistency debates. Total offense crowns the do-it-all college quarterback."
   },
   {
-   "n": 35,
+   "n": 37,
    "kind": "total",
    "rule": "p:t_ry",
    "group": "P",
@@ -4214,7 +4304,182 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
-   "n": 36,
+   "n": 38,
+   "rule": "p:alltd20",
+   "group": "P",
+   "decade": "1950s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=all_td&order_by_asc=0&ccomp[1]=gt&cval[1]=14&cstat[1]=all_td"
+   },
+   "evidence": [
+    {
+     "id": "clendon-thomas-1",
+     "name": "Clendon Thomas",
+     "season": 1956,
+     "team": "Oklahoma",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1956",
+     "ranker": 1,
+     "name_display": "Clendon Thomas",
+     "all_td": 17,
+     "year_id": 1956,
+     "teams_played_for": "Oklahoma",
+     "games": 10,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 102,
+     "class": ""
+    },
+    {
+     "id": "dick-bass-1",
+     "name": "Dick Bass",
+     "season": 1958,
+     "team": "Pacific",
+     "pos": "",
+     "age": null,
+     "year_raw": "1958",
+     "ranker": 2,
+     "name_display": "Dick Bass",
+     "all_td": 16,
+     "year_id": 1958,
+     "teams_played_for": "Pacific",
+     "games": 10,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 96,
+     "class": ""
+    },
+    {
+     "id": "leon-burton-1",
+     "name": "Leon Burton",
+     "season": 1957,
+     "team": "Arizona State",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1957",
+     "ranker": 3,
+     "name_display": "Leon Burton",
+     "all_td": 16,
+     "year_id": 1957,
+     "teams_played_for": "Arizona State",
+     "games": 10,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 96,
+     "class": ""
+    },
+    {
+     "id": "pervis-atkins-1",
+     "name": "Pervis Atkins",
+     "season": 1959,
+     "team": "New Mexico State",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1959",
+     "ranker": 4,
+     "name_display": "Pervis Atkins",
+     "all_td": 16,
+     "year_id": 1959,
+     "teams_played_for": "New Mexico State",
+     "games": 10,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 96,
+     "class": ""
+    },
+    {
+     "id": "tommy-mcdonald-1",
+     "name": "Tommy McDonald",
+     "season": 1956,
+     "team": "Oklahoma",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1956",
+     "ranker": 5,
+     "name_display": "Tommy McDonald",
+     "all_td": 16,
+     "year_id": 1956,
+     "teams_played_for": "Oklahoma",
+     "games": 10,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 96,
+     "class": ""
+    },
+    {
+     "id": "billy-austin-1",
+     "name": "Billy Austin",
+     "season": 1958,
+     "team": "Rutgers",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1958",
+     "ranker": 6,
+     "name_display": "Billy Austin",
+     "all_td": 15,
+     "year_id": 1958,
+     "teams_played_for": "Rutgers",
+     "games": 9,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 90,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.425,
+   "players": [
+    {
+     "id": "clendon-thomas-1",
+     "name": "Clendon Thomas"
+    }
+   ],
+   "seasons": [
+    1956
+   ],
+   "text": "9 major-college players scored 14 touchdowns in the 1950s. The most extreme: Clendon Thomas, 1956 — 17 TD.",
+   "why": "Leads with the most extreme case, which carries the post. Touchdown totals are the simplest scoring stat to share."
+  },
+  {
+   "n": 39,
    "rule": "t:perfect",
    "group": "P",
    "decade": "1950s",
@@ -4350,10 +4615,10 @@
     1952
    ],
    "text": "13 major-college teams went unbeaten and untied (8+ games) in the 1950s (18 seasons). The most extreme: Georgia Tech, 1952 — 12-0, 301-52 on the season.",
-   "why": "Leads with the most extreme case, which carries the post. Perfect seasons are the ultimate bragging right for a program."
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Perfect seasons are the ultimate bragging right for a program."
   },
   {
-   "n": 37,
+   "n": 40,
    "rule": "t:wins10",
    "group": "P",
    "decade": "1950s",
@@ -4489,10 +4754,10 @@
     1952
    ],
    "text": "18 major-college teams won 10 games in the 1950s (32 seasons). The most extreme: Georgia Tech, 1952 — 12-0.",
-   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Win totals are the first thing fans cite for a program's golden age."
+   "why": "Leads with the most extreme case, which carries the post. Win totals are the first thing fans cite for a program's golden age."
   },
   {
-   "n": 38,
+   "n": 41,
    "rule": "t:winless",
    "group": "P",
    "decade": "1950s",
@@ -4628,10 +4893,10 @@
     1954
    ],
    "text": "13 major-college teams lost every game (7+ games) in the 1950s (15 seasons). The most extreme: Tulsa, 1954 — 0-11, outscored 338-118.",
-   "why": "Leads with the most extreme case, which carries the post. Futility stats are among the most shared in sports."
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Futility stats are among the most shared in sports."
   },
   {
-   "n": 39,
+   "n": 42,
    "rule": "t:unbeaten_tie",
    "group": "P",
    "decade": "1950s",
@@ -4767,10 +5032,10 @@
     1951
    ],
    "text": "10 major-college teams went unbeaten but not untied (6+ games) in the 1950s. The most extreme: Georgia Tech, 1951 — 11-0-1.",
-   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Unbeaten but tied: an old-era oddity modern fans find strange."
+   "why": "Leads with the most extreme case, which carries the post. Unbeaten but tied: an old-era oddity modern fans find strange."
   },
   {
-   "n": 40,
+   "n": 43,
    "rule": "t:ties",
    "group": "P",
    "decade": "1950s",
@@ -4906,16 +5171,16 @@
     1958
    ],
    "text": "10 major-college teams tied 3 games in the 1950s. The most extreme: Vanderbilt, 1958 — 5-2-3.",
-   "why": "Leads with the most extreme case, which carries the post. Ties are a vanished part of the sport; old-era oddities intrigue modern fans."
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Ties are a vanished part of the sport; old-era oddities intrigue modern fans."
   }
  ],
  "counts": {
-  "stathead_queries": 77
+  "stathead_queries": 93
  },
  "shortNote": null,
  "method": [
   "College football: each line is one Stathead (Sports Reference college football) Season Finder query over the decade, run in a signed-in subscriber session; result rows and stable ids are stored as provenance. Counts cover the database's major-college (today's FBS) programs, the scope of Sports Reference's college records.",
   "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier; college defensive statistics were long unofficial, so defensive lines count only the players whose figures the database holds. 'Freshman' follows the database's class label, which includes redshirt freshmen. Seasons include bowl games where the database counts them. The 1860s hold a single season (1869), too little to support a line."
  ],
- "generatedAt": "2026-09-28T06:40:03.511Z"
+ "generatedAt": "2026-09-28T08:13:05.083Z"
 }

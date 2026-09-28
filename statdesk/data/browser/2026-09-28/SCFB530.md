@@ -1,8 +1,8 @@
-# SCFB530 — College Football 1990s p:fr_int
+# SCFB530 — College Football 1990s t:sacks_team
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&class[]=fr&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=7&cstat[1]=def_int
-- Timestamp: 2026-09-28T06:59:02.870Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1990&year_max=1999&order_by=sacks&order_by_asc=0&ccomp[1]=gt&cval[1]=50&cstat[1]=sacks
+- Timestamp: 2026-09-28T08:42:16.053Z
 - Rows read: 0
 
 ## Result table

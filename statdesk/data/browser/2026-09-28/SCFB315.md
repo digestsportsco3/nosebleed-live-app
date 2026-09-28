@@ -1,50 +1,20 @@
-# SCFB315 — College Football 1960s t:wins10
+# SCFB315 — College Football 1980s p:rate_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1960&year_max=1969&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=10&cstat[1]=wins
-- Timestamp: 2026-09-28T06:44:33.685Z
-- Rows read: 34
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&order_by=pass_rating&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=pass_att&ccomp[2]=gt&cval[2]=165&cstat[2]=pass_rating
+- Timestamp: 2026-09-28T08:27:56.330Z
+- Rows read: 4
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | wins | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1969 | Penn State | 11 | 10 | 11 | 0 | 0 | 1.000 | 312 | 87 | 225
-2 | 1969 | San Diego State | 11 | 10 | 11 | 0 | 0 | 1.000 | 464 | 187 | 277
-3 | 1969 | Texas | 11 | 10 | 11 | 0 | 0 | 1.000 | 414 | 102 | 312
-4 | 1969 | Toledo | 11 | 10 | 11 | 0 | 0 | 1.000 | 329 | 127 | 202
-5 | 1968 | Penn State | 11 | 10 | 11 | 0 | 0 | 1.000 | 339 | 106 | 233
-6 | 1966 | Alabama | 11 | 10 | 11 | 0 | 0 | 1.000 | 267 | 37 | 230
-7 | 1964 | Arkansas | 11 | 10 | 11 | 0 | 0 | 1.000 | 221 | 57 | 164
-8 | 1963 | Texas | 11 | 10 | 11 | 0 | 0 | 1.000 | 215 | 65 | 150
-9 | 1962 | USC | 11 | 10 | 11 | 0 | 0 | 1.000 | 219 | 55 | 164
-10 | 1961 | Alabama | 11 | 10 | 11 | 0 | 0 | 1.000 | 287 | 22 | 265
-11 | 1960 | New Mexico State | 11 | 10 | 11 | 0 | 0 | 1.000 | 374 | 100 | 274
-12 | 1969 | USC | 10 | 10 | 10 | 0 | 1 | .955 | 251 | 125 | 126
-13 | 1969 | West Virginia | 10 | 10 | 10 | 1 | 0 | .909 | 288 | 110 | 178
-14 | 1968 | Arkansas | 10 | 10 | 10 | 1 | 0 | .909 | 334 | 187 | 147
-15 | 1968 | Ohio | 10 | 10 | 10 | 1 | 0 | .909 | 376 | 179 | 197
-16 | 1968 | Ohio State | 10 | 9 | 10 | 0 | 0 | 1.000 | 296 | 134 | 162
-17 | 1967 | Oklahoma | 10 | 10 | 10 | 1 | 0 | .909 | 264 | 68 | 196
-18 | 1967 | USC | 10 | 10 | 10 | 1 | 0 | .909 | 244 | 84 | 160
-19 | 1967 | Wyoming | 10 | 10 | 10 | 1 | 0 | .909 | 276 | 99 | 177
-20 | 1966 | Georgia | 10 | 10 | 10 | 1 | 0 | .909 | 211 | 89 | 122
-21 | 1966 | Wyoming | 10 | 10 | 10 | 1 | 0 | .909 | 327 | 69 | 258
-22 | 1965 | Arkansas | 10 | 10 | 10 | 1 | 0 | .909 | 324 | 104 | 220
-23 | 1965 | Michigan State | 10 | 10 | 10 | 1 | 0 | .909 | 251 | 62 | 189
-24 | 1965 | Nebraska | 10 | 10 | 10 | 1 | 0 | .909 | 321 | 90 | 231
-25 | 1964 | Alabama | 10 | 10 | 10 | 1 | 0 | .909 | 233 | 67 | 166
-26 | 1964 | Texas | 10 | 10 | 10 | 1 | 0 | .909 | 199 | 64 | 135
-27 | 1963 | Nebraska | 10 | 10 | 10 | 1 | 0 | .909 | 260 | 107 | 153
-28 | 1962 | Alabama | 10 | 10 | 10 | 1 | 0 | .909 | 272 | 39 | 233
-29 | 1962 | Ole Miss | 10 | 9 | 10 | 0 | 0 | 1.000 | 230 | 40 | 190
-30 | 1961 | LSU | 10 | 10 | 10 | 1 | 0 | .909 | 234 | 50 | 184
-31 | 1961 | Texas | 10 | 10 | 10 | 1 | 0 | .909 | 291 | 59 | 232
-32 | 1960 | Ole Miss | 10 | 10 | 10 | 0 | 1 | .955 | 266 | 64 | 202
-33 | 1960 | Missouri | 10 | 10 | 10 | 1 | 0 | .909 | 274 | 79 | 195
-34 | 1960 | Washington | 10 | 10 | 10 | 1 | 0 | .909 | 255 | 100 | 155
+header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_rating | pass_att | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
+ |  |  | 1 | Jim McMahon | 176.9 | 445 | 1980 | BYU | 12 | 284 | 445 | 161 | 63.8 | 4571 | 47 | 18 | 10.6 | 4.0 | 176.9 | 10.3 | 10.56 | 16.1 | 380.9 | QB | 
+ |  |  | 2 | Ty Detmer | 175.6 | 412 | 1989 | BYU | 12 | 265 | 412 | 147 | 64.3 | 4560 | 32 | 15 | 7.8 | 3.6 | 175.6 | 11.1 | 10.98 | 17.2 | 380.0 | QB | 
+ |  |  | 3 | Steve Young | 168.5 | 429 | 1983 | BYU | 11 | 306 | 429 | 123 | 71.3 | 3902 | 33 | 10 | 7.7 | 2.3 | 168.5 | 9.1 | 9.59 | 12.8 | 354.7 | QB | 
+ |  |  | 4 | Vinny Testaverde | 165.8 | 276 | 1986 | Miami (FL) | 11 | 175 | 276 | 101 | 63.4 | 2557 | 26 | 9 | 9.4 | 3.3 | 165.8 | 9.3 | 9.68 | 14.6 | 232.5 | QB | 
 ```
 
 ## Claim check
 
-- Complete set: all 34 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 4 rows read. A superlative may be asserted only if it holds across every row above.

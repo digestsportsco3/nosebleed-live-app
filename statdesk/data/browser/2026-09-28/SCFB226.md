@@ -1,8 +1,8 @@
-# SCFB226 — College Football 1950s p:n_recy
+# SCFB226 — College Football 1970s p:punt_avg
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=rec_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=990&cstat[1]=rec_yds&ccomp[2]=lt&cval[2]=999&cstat[2]=rec_yds
-- Timestamp: 2026-09-28T06:38:35.378Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=punt_yds_per_punt&order_by_asc=0&ccomp[1]=gt&cval[1]=40&cstat[1]=punt&ccomp[2]=gt&cval[2]=47&cstat[2]=punt_yds_per_punt
+- Timestamp: 2026-09-28T08:21:58.241Z
 - Rows read: 0
 
 ## Result table

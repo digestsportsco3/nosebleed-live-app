@@ -1,17 +1,16 @@
-# SCFB067 — College Football 1890s t:diff_low
+# SCFB067 — College Football 1950s p:t_dint
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1890&year_max=1899&order_by=points_diff&order_by_asc=1&ccomp[1]=lt&cval[1]=-300&cstat[1]=points_diff
-- Timestamp: 2026-09-28T06:27:53.767Z
-- Rows read: 1
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season_combined&year_min=1956&year_max=1959&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=def_int
+- Timestamp: 2026-09-28T08:11:20.067Z
+- Rows read: 0
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | points_diff | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1891 | Wesleyan (CT) | -307 | 9 | 2 | 7 | 0 | .222 | 66 | 373 | -307
+
 ```
 
 ## Claim check
 
-- Complete set: all 1 rows read. A superlative may be asserted only if it holds across every row above.
+- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.

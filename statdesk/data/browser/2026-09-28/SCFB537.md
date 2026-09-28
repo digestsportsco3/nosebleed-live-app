@@ -1,215 +1,215 @@
-# SCFB537 — College Football 1990s p:x_rec
+# SCFB537 — College Football 1990s t:tx_loss
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&order_by=rec&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=rec
-- Timestamp: 2026-09-28T06:59:33.002Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1990&year_max=1999&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=losses
+- Timestamp: 2026-09-28T08:42:44.355Z
 - Rows read: 200
 - CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
- |  |  | 1 | Troy Edwards | 140 | 1998 | Louisiana Tech | 12 | 140 | 1996 | 14.3 | 27 | 166.3 | WR | 
- |  |  | 2 | Trevor Insley | 134 | 1999 | Nevada | 11 | 134 | 2060 | 15.4 | 13 | 187.3 | WR | 
- |  |  | 3 | Alex Van Dyke | 129 | 1995 | Nevada | 11 | 129 | 1854 | 14.4 | 16 | 168.5 | WR | 
- |  |  | 4 | Damond Wilkins | 114 | 1996 | Nevada | 11 | 114 | 1121 | 9.8 | 4 | 101.9 | WR | 
- |  |  | 5 | Chris Daniels | 109 | 1999 | Purdue | 11 | 109 | 1133 | 10.4 | 5 | 103.0 | WR | 
- |  |  | 6 | Marcus Harris | 109 | 1996 | Wyoming | 12 | 109 | 1650 | 15.1 | 13 | 137.5 | WR | 
- |  |  | 7 | Fred Gilbert | 106 | 1991 | Houston | 11 | 106 | 957 | 9.0 | 7 | 87.0 | WR | 
- |  |  | 8 | Chris Penn | 105 | 1993 | Tulsa | 11 | 105 | 1578 | 15.0 | 12 | 143.5 | WR | 
- |  |  | 9 | Eugene Baker | 103 | 1997 | Kent State | 11 | 103 | 1549 | 15.0 | 18 | 140.8 | WR | 
- |  |  | 10 | Sherman Smith | 103 | 1992 | Houston | 11 | 103 | 923 | 9.0 | 6 | 83.9 | WR | 
- |  |  | 11 | Troy Edwards | 102 | 1997 | Louisiana Tech | 11 | 102 | 1707 | 16.7 | 13 | 155.2 | WR | 
- |  |  | 12 | Arnold Jackson | 101 | 1999 | Louisville | 11 | 101 | 1209 | 12.0 | 9 | 109.9 | WR | 
- |  |  | 13 | Dameane Douglas | 100 | 1998 | California | 11 | 100 | 1150 | 11.5 | 4 | 104.5 | WR | 
- |  |  | 14 | Kwame Cavil | 100 | 1999 | Texas | 13 | 100 | 1188 | 11.9 | 6 | 91.4 | WR | 
- |  |  | 15 | Alex Van Dyke | 98 | 1994 | Nevada | 11 | 98 | 1246 | 12.7 | 10 | 113.3 | WR | 
- |  |  | 16 | Geoff Noisy | 98 | 1996 | Nevada | 11 | 98 | 1435 | 14.6 | 9 | 130.5 | WR | 
- |  |  | 17 | JaJuan Dawson | 96 | 1999 | Tulane | 10 | 96 | 1051 | 10.9 | 8 | 105.1 | WR | 
- |  |  | 18 | Geoff Noisy | 94 | 1998 | Nevada | 11 | 94 | 1405 | 14.9 | 7 | 127.7 | WR | 
- |  |  | 19 | Aaron Turner | 92 | 1991 | Pacific | 11 | 92 | 1604 | 17.4 | 18 | 145.8 | WR | 
- |  |  | 20 | Kevin Alexander | 92 | 1995 | Utah State | 11 | 92 | 1400 | 15.2 | 6 | 127.3 | WR | 
- |  |  | 21 | Bryan Reeves | 91 | 1993 | Nevada | 10 | 91 | 1362 | 15.0 | 17 | 136.2 | WR | 
- |  |  | 22 | Arnold Jackson | 90 | 1998 | Louisville | 11 | 90 | 1165 | 12.9 | 10 | 105.9 | WR | 
- |  |  | 23 | Chad Mackey | 90 | 1995 | Louisiana Tech | 11 | 90 | 1253 | 13.9 | 9 | 113.9 | WR | 
- |  |  | 24 | James Whalen | 90 | 1999 | Kentucky | 11 | 90 | 1019 | 11.3 | 10 | 92.6 | TE | 
- |  |  | 25 | Keyshawn Johnson | 90 | 1995 | USC | 11 | 90 | 1218 | 13.5 | 6 | 110.7 | WR | 
- |  |  | 26 | Randy Moss | 90 | 1997 | Marshall | 12 | 90 | 1647 | 18.3 | 25 | 137.3 | WR | 
- |  |  | 27 | Dennis Northcutt | 88 | 1999 | Arizona | 12 | 88 | 1422 | 16.2 | 8 | 118.5 | WR | 
- |  |  | 28 | Randy Gatewood | 88 | 1994 | Nevada-Las Vegas | 11 | 88 | 1203 | 13.7 | 6 | 109.4 | WR | 
- |  |  | 29 | Siaha Burley | 88 | 1998 | UCF | 11 | 88 | 1142 | 13.0 | 8 | 103.8 | WR | 
- |  |  | 30 | Torry Holt | 88 | 1998 | North Carolina State | 11 | 88 | 1604 | 18.2 | 11 | 145.8 | WR | 
- |  |  | 31 | Charles Lee | 87 | 1999 | UCF | 11 | 87 | 1133 | 13.0 | 5 | 103.0 | WR | 
- |  |  | 32 | Geoff Noisy | 86 | 1997 | Nevada | 11 | 86 | 1184 | 13.8 | 5 | 107.6 | WR | 
- |  |  | 33 | Ryan Yarborough | 86 | 1992 | Wyoming | 12 | 86 | 1351 | 15.7 | 12 | 112.6 | WR | 
- |  |  | 34 | Troy Walters | 86 | 1997 | Stanford | 11 | 86 | 1206 | 14.0 | 8 | 109.6 | WR | 
- |  |  | 35 | Will Blackwell | 86 | 1995 | San Diego State | 12 | 86 | 1207 | 14.0 | 8 | 100.6 | WR | 
- |  |  | 36 | Chad Mackey | 85 | 1996 | Louisiana Tech | 11 | 85 | 1466 | 17.2 | 10 | 133.3 | WR | 
- |  |  | 37 | Craig Yeast | 85 | 1998 | Kentucky | 11 | 85 | 1311 | 15.4 | 14 | 119.2 | WR | 
- |  |  | 38 | Drew Haddad | 85 | 1999 | Buffalo | 11 | 85 | 1158 | 13.6 | 6 | 105.3 | WR | 
- |  |  | 39 | D'Wayne Bates | 83 | 1998 | Northwestern | 12 | 83 | 1245 | 15.0 | 9 | 103.8 | WR | 
- |  |  | 40 | Mick Rossley | 83 | 1994 | SMU | 11 | 83 | 857 | 10.3 | 4 | 77.9 | WR | 
- |  |  | 41 | Nakia Jenkins | 82 | 1996 | Utah State | 11 | 82 | 1397 | 17.0 | 8 | 127.0 | WR | 
- |  |  | 42 | Brandon Stokley | 81 | 1996 | Louisiana | 11 | 81 | 1160 | 14.3 | 7 | 105.5 | WR | 
- |  |  | 43 | Bryan Reeves | 81 | 1992 | Nevada | 11 | 81 | 1114 | 13.8 | 10 | 101.3 | WR | 
- |  |  | 44 | James Jordan | 81 | 1999 | Louisiana Tech | 11 | 81 | 824 | 10.2 | 11 | 74.9 | WR | 
- |  |  | 45 | Eric Morgan | 80 | 1990 | New Mexico | 12 | 80 | 1043 | 13.0 | 6 | 86.9 | WR | 
- |  |  | 46 | Jerrian James | 80 | 1998 | Houston | 11 | 80 | 931 | 11.6 | 5 | 84.6 | WR | 
- |  |  | 47 | Michael Stephens | 80 | 1993 | Nevada | 11 | 80 | 1062 | 13.3 | 7 | 96.5 | WR | 
- |  |  | 48 | Aaron Turner | 79 | 1992 | Pacific | 11 | 79 | 1171 | 14.8 | 11 | 106.5 | WR | 
- |  |  | 49 | Adrian Burnette | 79 | 1999 | Tulane | 11 | 79 | 1095 | 13.9 | 7 | 99.5 | WR | 
- |  |  | 50 | Andy Boyce | 79 | 1990 | BYU | 12 | 79 | 1241 | 15.7 | 13 | 103.4 | WR | 
- |  |  | 51 | John Simon | 79 | 1999 | Louisiana Tech | 11 | 79 | 757 | 9.6 | 2 | 68.8 | RB | 
- |  |  | 52 | Anthony White | 78 | 1998 | Kentucky | 11 | 78 | 582 | 7.5 | 1 | 52.9 | RB | 
- |  |  | 53 | Bobby Slaughter | 78 | 1990 | Louisiana Tech | 11 | 78 | 994 | 12.7 | 5 | 90.4 | WR | 
- |  |  | 54 | Brian Roberson | 78 | 1996 | Fresno State | 11 | 78 | 1248 | 16.0 | 5 | 113.5 | WR | 
- |  |  | 55 | Johnnie Morton | 78 | 1993 | USC | 12 | 78 | 1373 | 17.6 | 12 | 114.4 | WR | 
- |  |  | 56 | Manny Hazard | 78 | 1990 | Houston | 11 | 78 | 946 | 12.1 | 5 | 86.0 | WR | 
- |  |  | 57 | Marcus Grant | 78 | 1991 | Houston | 11 | 78 | 1262 | 16.2 | 10 | 114.7 | WR | 
- |  |  | 58 | Marcus Harris | 78 | 1995 | Wyoming | 11 | 78 | 1423 | 18.2 | 14 | 129.4 | WR | 
- |  |  | 59 | Antonio Wilson | 77 | 1997 | Idaho | 11 | 77 | 910 | 11.8 | 10 | 82.7 | WR | 
- |  |  | 60 | Delwyn Daigre | 77 | 1999 | Louisiana Tech | 11 | 77 | 1084 | 14.1 | 9 | 98.5 | WR | 
- |  |  | 61 | Dwight Carter | 77 | 1999 | Hawaii | 12 | 77 | 1253 | 16.3 | 9 | 104.4 | WR | 
- |  |  | 62 | Geroy Simon | 77 | 1994 | Maryland | 11 | 77 | 891 | 11.6 | 5 | 81.0 | WR | 
- |  |  | 63 | Siaha Burley | 77 | 1997 | UCF | 11 | 77 | 1106 | 14.4 | 7 | 100.5 | WR | 
- |  |  | 64 | Brice Hunter | 76 | 1993 | Georgia | 11 | 76 | 970 | 12.8 | 9 | 88.2 | WR | 
- |  |  | 65 | Carl Winston | 76 | 1991 | New Mexico | 12 | 76 | 1177 | 15.5 | 7 | 98.1 | WR | 
- |  |  | 66 | Lloyd Hill | 76 | 1992 | Texas Tech | 11 | 76 | 1261 | 16.6 | 12 | 114.6 | WR | 
- |  |  | 67 | Marcus Nash | 76 | 1997 | Tennessee | 12 | 76 | 1170 | 15.4 | 13 | 97.5 | WR | 
- |  |  | 68 | Michael Westbrook | 76 | 1992 | Colorado | 11 | 76 | 1060 | 13.9 | 8 | 96.4 | WR | 
- |  |  | 69 | Bobby Shaw | 75 | 1997 | California | 11 | 75 | 1093 | 14.6 | 10 | 99.4 | WR | 
- |  |  | 70 | Brandon Stokley | 75 | 1995 | Louisiana | 11 | 75 | 1121 | 14.9 | 9 | 101.9 | WR | 
- |  |  | 71 | Darnay Scott | 75 | 1993 | San Diego State | 12 | 75 | 1262 | 16.8 | 10 | 105.2 | WR | 
- |  |  | 72 | Darnell McDonald | 75 | 1998 | Kansas State | 12 | 75 | 1092 | 14.6 | 9 | 91.0 | WR | 
- |  |  | 73 | Latef Grim | 75 | 1999 | Pitt | 11 | 75 | 1106 | 14.7 | 4 | 100.5 | WR | 
- |  |  | 74 | Marcus Badgett | 75 | 1992 | Maryland | 11 | 75 | 1240 | 16.5 | 9 | 112.7 | WR | 
- |  |  | 75 | Marty Booker | 75 | 1998 | Louisiana-Monroe | 11 | 75 | 1168 | 15.6 | 11 | 106.2 | WR | 
- |  |  | 76 | Victor Bailey | 75 | 1992 | Missouri | 11 | 75 | 1210 | 16.1 | 6 | 110.0 | WR | 
- |  |  | 77 | David Boston | 74 | 1998 | Ohio State | 11 | 74 | 1330 | 18.0 | 13 | 120.9 | WR | 
- |  |  | 78 | Deronnie Pitts | 74 | 1998 | Stanford | 11 | 74 | 1012 | 13.7 | 7 | 92.0 | WR | 
- |  |  | 79 | Isaac Bruce | 74 | 1993 | Memphis | 11 | 74 | 1054 | 14.2 | 10 | 95.8 | WR | 
- |  |  | 80 | Kez McCorvey | 74 | 1993 | Florida State | 12 | 74 | 966 | 13.1 | 6 | 80.5 | WR | 
- |  |  | 81 | P.J. Franklin | 74 | 1998 | Tulane | 11 | 74 | 1174 | 15.9 | 11 | 106.7 | WR | 
- |  |  | 82 | Steve Neal | 74 | 1999 | Western Michigan | 12 | 74 | 1113 | 15.0 | 11 | 92.8 | WR | 
- |  |  | 83 | Troy Walters | 74 | 1999 | Stanford | 11 | 74 | 1456 | 19.7 | 10 | 132.4 | WR | 
- |  |  | 84 | Wes Caswell | 74 | 1994 | Tulsa | 11 | 74 | 893 | 12.1 | 3 | 81.2 | WR | 
- |  |  | 85 | Craig Yeast | 73 | 1997 | Kentucky | 11 | 73 | 873 | 12.0 | 10 | 79.4 | WR | 
- |  |  | 86 | Kevin Jordan | 73 | 1994 | UCLA | 11 | 73 | 1228 | 16.8 | 7 | 111.6 | WR | 
- |  |  | 87 | Nakia Jenkins | 73 | 1997 | Utah State | 11 | 73 | 1086 | 14.9 | 6 | 98.7 | WR | 
- |  |  | 88 | Rod Gardner | 73 | 1999 | Clemson | 11 | 73 | 1009 | 13.8 | 4 | 91.7 | WR | 
- |  |  | 89 | Brian Dusho | 72 | 1993 | Kent State | 11 | 72 | 890 | 12.4 | 1 | 80.9 | WR | 
- |  |  | 90 | Desmond Clark | 72 | 1997 | Wake Forest | 11 | 72 | 950 | 13.2 | 5 | 86.4 | WR | 
- |  |  | 91 | Isaac Jones | 72 | 1998 | Purdue | 12 | 72 | 801 | 11.1 | 5 | 66.8 | WR | 
- |  |  | 92 | Kevin Lockett | 72 | 1996 | Kansas State | 11 | 72 | 882 | 12.3 | 6 | 80.2 | WR | 
- |  |  | 93 | Reidel Anthony | 72 | 1996 | Florida | 12 | 72 | 1293 | 18.0 | 18 | 107.8 | WR | 
- |  |  | 94 | Andre Cooper | 71 | 1995 | Florida State | 11 | 71 | 1002 | 14.1 | 15 | 91.1 | WR | 
- |  |  | 95 | Carlos Baker | 71 | 1996 | Nevada-Las Vegas | 12 | 71 | 887 | 12.5 | 7 | 73.9 | WR | 
- |  |  | 96 | Charlie Jones | 71 | 1995 | Fresno State | 12 | 71 | 1171 | 16.5 | 9 | 97.6 | WR | 
- |  |  | 97 | Marcus Harris | 71 | 1994 | Wyoming | 12 | 71 | 1431 | 20.2 | 11 | 119.3 | WR | 
- |  |  | 98 | Nate Poole | 71 | 1999 | Marshall | 12 | 71 | 1122 | 15.8 | 9 | 93.5 | WR | 
- |  |  | 99 | Patrick Rowe | 71 | 1990 | San Diego State | 11 | 71 | 1392 | 19.6 | 8 | 126.5 | WR | 
- |  |  | 100 | Peter Warrick | 71 | 1999 | Florida State | 9 | 71 | 934 | 13.2 | 8 | 103.8 | WR | 
- |  |  | 101 | Tony Knox | 71 | 1996 | Western Michigan | 11 | 71 | 754 | 10.6 | 6 | 68.5 | WR | 
- |  |  | 102 | Chris Doering | 70 | 1995 | Florida | 12 | 70 | 1045 | 14.9 | 17 | 87.1 | WR | 
- |  |  | 103 | David Boston | 70 | 1997 | Ohio State | 12 | 70 | 930 | 13.3 | 14 | 77.5 | WR | 
- |  |  | 104 | Jamie Asher | 70 | 1994 | Louisville | 11 | 70 | 794 | 11.3 | 1 | 72.2 | TE | 
- |  |  | 105 | Mike Lee | 70 | 1993 | Utah State | 11 | 70 | 715 | 10.2 | 5 | 65.0 | WR | 
- |  |  | 106 | Travis McGriff | 70 | 1998 | Florida | 11 | 70 | 1357 | 19.4 | 10 | 123.4 | WR | 
- |  |  | 107 | Wil Ursin | 70 | 1991 | Tulane | 11 | 70 | 969 | 13.8 | 9 | 88.1 | WR | 
- |  |  | 108 | David Saunders | 69 | 1998 | West Virginia | 11 | 69 | 788 | 11.4 | 6 | 71.6 | WR | 
- |  |  | 109 | Eugene Baker | 69 | 1996 | Kent State | 11 | 69 | 1215 | 17.6 | 13 | 110.5 | WR | 
- |  |  | 110 | Jerome Pathon | 69 | 1997 | Washington | 11 | 69 | 1245 | 18.0 | 8 | 113.2 | WR | 
- |  |  | 111 | Joey Kent | 69 | 1995 | Tennessee | 11 | 69 | 1055 | 15.3 | 9 | 95.9 | WR | 
- |  |  | 112 | Kelly Campbell | 69 | 1999 | Georgia Tech | 11 | 69 | 1105 | 16.0 | 10 | 100.5 | WR | 
- |  |  | 113 | Kendall Newson | 69 | 1999 | Middle Tennessee State | 11 | 69 | 918 | 13.3 | 5 | 83.5 | WR | 
- |  |  | 114 | Marco Battaglia | 69 | 1995 | Rutgers | 11 | 69 | 894 | 13.0 | 10 | 81.3 | TE | 
- |  |  | 115 | Mike Jones | 69 | 1993 | Wyoming | 11 | 69 | 763 | 11.1 | 5 | 69.4 | TE | 
- |  |  | 116 | Pascal Volz | 69 | 1997 | New Mexico | 12 | 69 | 1229 | 17.8 | 13 | 102.4 | WR | 
- |  |  | 117 | Russ Weaver | 69 | 1993 | Maryland | 11 | 69 | 606 | 8.8 | 2 | 55.1 | WR | 
- |  |  | 118 | Trevor Insley | 69 | 1998 | Nevada | 11 | 69 | 1220 | 17.7 | 11 | 110.9 | WR | 
- |  |  | 119 | Andre Wallace | 68 | 1994 | Western Michigan | 11 | 68 | 758 | 11.1 | 7 | 68.9 | WR | 
- |  |  | 120 | Chris Smith | 68 | 1990 | BYU | 12 | 68 | 1156 | 17.0 | 2 | 96.3 | TE | 
- |  |  | 121 | Darnay Scott | 68 | 1992 | San Diego State | 11 | 68 | 1150 | 16.9 | 9 | 104.5 | WR | 
- |  |  | 122 | David Griffin | 68 | 1996 | Idaho | 11 | 68 | 853 | 12.5 | 7 | 77.5 | WR | 
- |  |  | 123 | Dennis Arey | 68 | 1990 | San Diego State | 11 | 68 | 1118 | 16.4 | 10 | 101.6 | WR | 
- |  |  | 124 | Duane Gregory | 68 | 1996 | New Mexico State | 11 | 68 | 890 | 13.1 | 3 | 80.9 | WR | 
- |  |  | 125 | JaJuan Dawson | 68 | 1998 | Tulane | 11 | 68 | 947 | 13.9 | 12 | 86.1 | WR | 
- |  |  | 126 | Jammie Deese | 68 | 1998 | Wake Forest | 11 | 68 | 826 | 12.1 | 3 | 75.1 | WR | 
- |  |  | 127 | J.J. Stokes | 68 | 1993 | UCLA | 11 | 68 | 1005 | 14.8 | 17 | 91.4 | WR | 
- |  |  | 128 | Joey Kent | 68 | 1996 | Tennessee | 11 | 68 | 1080 | 15.9 | 7 | 98.2 | WR | 
- |  |  | 129 | Keenan McCardell | 68 | 1990 | Nevada-Las Vegas | 11 | 68 | 1046 | 15.4 | 8 | 95.1 | WR | 
- |  |  | 130 | Lee Gissendaner | 68 | 1992 | Northwestern | 11 | 68 | 846 | 12.4 | 6 | 76.9 | WR | 
- |  |  | 131 | Marlon Estes | 68 | 1995 | Wake Forest | 11 | 68 | 833 | 12.3 | 9 | 75.7 | WR | 
- |  |  | 132 | Rodney Wright | 68 | 1999 | Fresno State | 12 | 68 | 1007 | 14.8 | 7 | 83.9 | WR | 
- |  |  | 133 | Sean LaChapelle | 68 | 1991 | UCLA | 11 | 68 | 987 | 14.5 | 11 | 89.7 | WR | 
- |  |  | 134 | Tony Horne | 68 | 1997 | Clemson | 11 | 68 | 897 | 13.2 | 8 | 81.5 | WR | 
- |  |  | 135 | Damon Savage | 67 | 1999 | Tulsa | 11 | 67 | 752 | 11.2 | 4 | 68.4 | WR | 
- |  |  | 136 | Darrell Jackson | 67 | 1999 | Florida | 12 | 67 | 1156 | 17.3 | 9 | 96.3 | WR | 
- |  |  | 137 | David Saunders | 67 | 1996 | West Virginia | 11 | 67 | 913 | 13.6 | 4 | 83.0 | WR | 
- |  |  | 138 | Greg Primus | 67 | 1991 | Colorado State | 11 | 67 | 1081 | 16.1 | 8 | 98.3 | WR | 
- |  |  | 139 | Justin Armour | 67 | 1994 | Stanford | 11 | 67 | 1092 | 16.3 | 7 | 99.3 | WR | 
- |  |  | 140 | Miguel Montano | 67 | 1997 | Louisville | 11 | 67 | 875 | 13.1 | 1 | 79.5 | WR | 
- |  |  | 141 | Ryan Yarborough | 67 | 1993 | Wyoming | 11 | 67 | 1512 | 22.6 | 16 | 137.5 | WR | 
- |  |  | 142 | Tracy Good | 67 | 1990 | Houston | 11 | 67 | 616 | 9.2 | 5 | 56.0 | WR | 
- |  |  | 143 | Aaron Turner | 66 | 1990 | Pacific | 11 | 66 | 1264 | 19.2 | 11 | 114.9 | WR | 
- |  |  | 144 | Brian Roche | 66 | 1995 | San Jose State | 11 | 66 | 729 | 11.0 | 5 | 66.3 | TE | 
- |  |  | 145 | Chris Walsh | 66 | 1991 | Stanford | 11 | 66 | 934 | 14.2 | 6 | 84.9 | WR | 
- |  |  | 146 | Damon Savage | 66 | 1997 | Tulsa | 11 | 66 | 1084 | 16.4 | 6 | 98.5 | WR | 
- |  |  | 147 | Jermaine Lewis | 66 | 1995 | Maryland | 10 | 66 | 937 | 14.2 | 3 | 93.7 | WR | 
- |  |  | 148 | LaVorn Colclough | 66 | 1997 | Marshall | 12 | 66 | 862 | 13.1 | 8 | 71.8 | WR | 
- |  |  | 149 | Pete Mitchell | 66 | 1993 | Boston College | 11 | 66 | 818 | 12.4 | 7 | 74.4 | TE | 
- |  |  | 150 | Reggie Allen | 66 | 1996 | Central Michigan | 10 | 66 | 1229 | 18.6 | 9 | 122.9 | WR | 
- |  |  | 151 | Sherrod Gideon | 66 | 1998 | Southern Mississippi | 11 | 66 | 1186 | 18.0 | 13 | 107.8 | WR | 
- |  |  | 152 | Stepfret Williams | 66 | 1995 | Louisiana-Monroe | 11 | 66 | 1056 | 16.0 | 12 | 96.0 | WR | 
- |  |  | 153 | Antonio Wilson | 65 | 1996 | Idaho | 11 | 65 | 1203 | 18.5 | 7 | 109.4 | WR | 
- |  |  | 154 | Brandon Stokley | 65 | 1998 | Louisiana | 11 | 65 | 1173 | 18.0 | 8 | 106.6 | WR | 
- |  |  | 155 | Corey Parham | 65 | 1992 | Louisiana Tech | 11 | 65 | 741 | 11.4 | 1 | 67.4 | WR | 
- |  |  | 156 | D'Wayne Bates | 65 | 1996 | Northwestern | 11 | 65 | 1099 | 16.9 | 11 | 99.9 | WR | 
- |  |  | 157 | Freddie Milons | 65 | 1999 | Alabama | 12 | 65 | 733 | 11.3 | 2 | 61.1 | WR | 
- |  |  | 158 | Lawrence Dawsey | 65 | 1990 | Florida State | 11 | 65 | 999 | 15.4 | 7 | 90.8 | WR | 
- |  |  | 159 | Mark Nonsant | 65 | 1998 | UCF | 11 | 65 | 847 | 13.0 | 5 | 77.0 | WR | 
- |  |  | 160 | Mark Szlachcic | 65 | 1991 | Bowling Green | 11 | 65 | 943 | 14.5 | 8 | 85.7 | WR | 
- |  |  | 161 | Plaxico Burress | 65 | 1998 | Michigan State | 12 | 65 | 1013 | 15.6 | 8 | 84.4 | WR | 
- |  |  | 162 | Sean Dawkins | 65 | 1992 | California | 11 | 65 | 1070 | 16.5 | 14 | 97.3 | WR | 
- |  |  | 163 | Shawn Foreman | 65 | 1997 | West Virginia | 11 | 65 | 818 | 12.6 | 5 | 74.4 | WR | 
- |  |  | 164 | Tyrone Calico | 65 | 1999 | Middle Tennessee State | 11 | 65 | 695 | 10.7 | 5 | 63.2 | WR | 
- |  |  | 165 | Dane Looker | 64 | 1998 | Washington | 11 | 64 | 662 | 10.3 | 5 | 60.2 | WR | 
- |  |  | 166 | Glyn Milburn | 64 | 1990 | Stanford | 11 | 64 | 632 | 9.9 | 2 | 57.5 | RB | 
- |  |  | 167 | Harvey Middleton | 64 | 1996 | Georgia Tech | 11 | 64 | 804 | 12.6 | 3 | 73.1 | WR | 
- |  |  | 168 | Jake Hoffart | 64 | 1997 | Pitt | 11 | 64 | 731 | 11.4 | 8 | 66.5 | WR | 
- |  |  | 169 | Jerel Myers | 64 | 1999 | LSU | 11 | 64 | 854 | 13.3 | 2 | 77.6 | WR | 
- |  |  | 170 | Kelly Blackwell | 64 | 1990 | Texas Christian | 11 | 64 | 832 | 13.0 | 5 | 75.6 | TE | 
- |  |  | 171 | Kelly Blackwell | 64 | 1991 | Texas Christian | 9 | 64 | 762 | 11.9 | 6 | 84.7 | TE | 
- |  |  | 172 | Korey Beard | 64 | 1992 | SMU | 11 | 64 | 813 | 12.7 | 6 | 73.9 | WR | 
- |  |  | 173 | Randall Lane | 64 | 1998 | Purdue | 12 | 64 | 915 | 14.3 | 7 | 76.3 | WR | 
- |  |  | 174 | Rodney Smith | 64 | 1997 | Boise State | 11 | 64 | 917 | 14.3 | 9 | 83.4 | WR | 
- |  |  | 175 | Bobby Engram | 63 | 1995 | Penn State | 11 | 63 | 1084 | 17.2 | 11 | 98.5 | WR | 
- |  |  | 176 | Brian Alford | 63 | 1996 | Purdue | 11 | 63 | 1057 | 16.8 | 12 | 96.1 | WR | 
- |  |  | 177 | Craig Stutzmann | 63 | 1999 | Hawaii | 12 | 63 | 658 | 10.4 | 8 | 54.8 | WR | 
- |  |  | 178 | Dennis Northcutt | 63 | 1998 | Arizona | 12 | 63 | 922 | 14.6 | 6 | 76.8 | WR | 
- |  |  | 179 | Deron Claiborne | 63 | 1994 | Utah | 11 | 63 | 743 | 11.8 | 5 | 67.5 | WR | 
- |  |  | 180 | Gary Wellman | 63 | 1990 | USC | 12 | 63 | 996 | 15.8 | 4 | 83.0 | WR | 
- |  |  | 181 | O.J. McDuffie | 63 | 1992 | Penn State | 11 | 63 | 977 | 15.5 | 9 | 88.8 | WR | 
- |  |  | 182 | Orlando Iglesias | 63 | 1998 | Houston | 11 | 63 | 772 | 12.3 | 8 | 70.2 | WR | 
- |  |  | 183 | Steve Clay | 63 | 1995 | Eastern Michigan | 11 | 63 | 999 | 15.9 | 7 | 90.8 | WR | 
- |  |  | 184 | Steve Neal | 63 | 1998 | Western Michigan | 11 | 63 | 1121 | 17.8 | 7 | 101.9 | WR | 
- |  |  | 185 | Brian Oliver | 62 | 1993 | Ball State | 11 | 62 | 1010 | 16.3 | 10 | 91.8 | WR | 
- |  |  | 186 | Daryl Hobbs | 62 | 1990 | Pacific | 11 | 62 | 848 | 13.7 | 14 | 77.1 | WR | 
- |  |  | 187 | Daryl Hobbs | 62 | 1991 | Pacific | 12 | 62 | 842 | 13.6 | 12 | 70.2 | WR | 
- |  |  | 188 | David Saraf | 62 | 1996 | Wyoming | 12 | 62 | 886 | 14.3 | 7 | 73.8 | WR | 
- |  |  | 189 | Dean Jackson | 62 | 1994 | Louisiana Tech | 11 | 62 | 790 | 12.7 | 0 | 71.8 | WR | 
- |  |  | 190 | Demond Thompkins | 62 | 1993 | Nevada-Las Vegas | 11 | 62 | 1068 | 17.2 | 8 | 97.1 | WR | 
- |  |  | 191 | Eric Moulds | 62 | 1995 | Mississippi State | 10 | 62 | 779 | 12.6 | 6 | 77.9 | WR | 
- |  |  | 192 | James Guarantino | 62 | 1991 | Rutgers | 11 | 62 | 740 | 11.9 | 2 | 67.3 | WR | 
- |  |  | 193 | Jermaine Sheffield | 62 | 1998 | Eastern Michigan | 11 | 62 | 953 | 15.4 | 4 | 86.6 | WR | 
- |  |  | 194 | Jimmy Raye | 62 | 1990 | San Diego State | 11 | 62 | 697 | 11.2 | 5 | 63.4 | WR | 
- |  |  | 195 | J.J. Meadors | 62 | 1995 | Arkansas | 12 | 62 | 584 | 9.4 | 2 | 48.7 | WR | 
- |  |  | 196 | Mario Bailey | 62 | 1991 | Washington | 11 | 62 | 1037 | 16.7 | 17 | 94.3 | WR | 
- |  |  | 197 | Mark Szlachcic | 62 | 1992 | Bowling Green | 11 | 62 | 834 | 13.5 | 7 | 75.8 | WR | 
- |  |  | 198 | Ontario Pryor | 62 | 1996 | Eastern Michigan | 10 | 62 | 1031 | 16.6 | 5 | 103.1 | WR | 
- |  |  | 199 | Sean Cangelosi | 62 | 1999 | Louisiana Tech | 11 | 62 | 943 | 15.2 | 10 | 85.7 | WR | 
- |  |  | 200 | Stanley Pritchett | 62 | 1995 | South Carolina | 11 | 62 | 664 | 10.7 | 4 | 60.4 | RB | 
+ranker | year_id | team_name_abbr | losses | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
+1 | 1998 | Hawaii | 12 | 12 | 0 | 12 | 0 | .000 | 149 | 422 | -273
+2 | 1999 | Ball State | 11 | 11 | 0 | 11 | 0 | .000 | 157 | 361 | -204
+3 | 1999 | Buffalo | 11 | 11 | 0 | 11 | 0 | .000 | 130 | 426 | -296
+4 | 1999 | South Carolina | 11 | 11 | 0 | 11 | 0 | .000 | 87 | 278 | -191
+5 | 1998 | Kent State | 11 | 11 | 0 | 11 | 0 | .000 | 149 | 454 | -305
+6 | 1998 | Nevada-Las Vegas | 11 | 11 | 0 | 11 | 0 | .000 | 156 | 389 | -233
+7 | 1997 | Illinois | 11 | 11 | 0 | 11 | 0 | .000 | 119 | 368 | -249
+8 | 1997 | Northern Illinois | 11 | 11 | 0 | 11 | 0 | .000 | 129 | 382 | -253
+9 | 1997 | Rutgers | 11 | 11 | 0 | 11 | 0 | .000 | 191 | 496 | -305
+10 | 1996 | Duke | 11 | 11 | 0 | 11 | 0 | .000 | 162 | 379 | -217
+11 | 1996 | Nevada-Las Vegas | 11 | 12 | 1 | 11 | 0 | .083 | 276 | 551 | -275
+12 | 1994 | Ohio | 11 | 11 | 0 | 11 | 0 | .000 | 82 | 259 | -177
+13 | 1993 | Kent State | 11 | 11 | 0 | 11 | 0 | .000 | 149 | 357 | -208
+14 | 1993 | UTEP | 11 | 12 | 1 | 11 | 0 | .083 | 220 | 449 | -229
+15 | 1990 | Cal State Fullerton | 11 | 12 | 1 | 11 | 0 | .083 | 223 | 485 | -262
+16 | 1999 | Baylor | 10 | 11 | 1 | 10 | 0 | .091 | 137 | 414 | -277
+17 | 1999 | Iowa | 10 | 11 | 1 | 10 | 0 | .091 | 162 | 347 | -185
+18 | 1999 | Rutgers | 10 | 11 | 1 | 10 | 0 | .091 | 155 | 427 | -272
+19 | 1998 | Ball State | 10 | 11 | 1 | 10 | 0 | .091 | 150 | 343 | -193
+20 | 1998 | South Carolina | 10 | 11 | 1 | 10 | 0 | .091 | 207 | 330 | -123
+21 | 1997 | Iowa State | 10 | 11 | 1 | 10 | 0 | .091 | 214 | 493 | -279
+22 | 1997 | Louisiana | 10 | 11 | 1 | 10 | 0 | .091 | 176 | 553 | -377
+23 | 1997 | Louisville | 10 | 11 | 1 | 10 | 0 | .091 | 245 | 407 | -162
+24 | 1997 | Texas Christian | 10 | 11 | 1 | 10 | 0 | .091 | 172 | 325 | -153
+25 | 1996 | Boise State | 10 | 12 | 2 | 10 | 0 | .167 | 240 | 459 | -219
+26 | 1996 | Hawaii | 10 | 12 | 2 | 10 | 0 | .167 | 161 | 433 | -272
+27 | 1996 | New Mexico State | 10 | 11 | 1 | 10 | 0 | .091 | 166 | 396 | -230
+28 | 1996 | Northern Illinois | 10 | 11 | 1 | 10 | 0 | .091 | 157 | 400 | -243
+29 | 1996 | Temple | 10 | 11 | 1 | 10 | 0 | .091 | 218 | 386 | -168
+30 | 1995 | Oregon State | 10 | 11 | 1 | 10 | 0 | .091 | 136 | 237 | -101
+31 | 1995 | SMU | 10 | 11 | 1 | 10 | 0 | .091 | 132 | 352 | -220
+32 | 1995 | Temple | 10 | 11 | 1 | 10 | 0 | .091 | 187 | 358 | -171
+33 | 1995 | UTEP | 10 | 12 | 2 | 10 | 0 | .167 | 263 | 486 | -223
+34 | 1995 | Wake Forest | 10 | 11 | 1 | 10 | 0 | .091 | 190 | 360 | -170
+35 | 1994 | Akron | 10 | 11 | 1 | 10 | 0 | .091 | 145 | 404 | -259
+36 | 1994 | Arkansas State | 10 | 11 | 1 | 10 | 0 | .091 | 123 | 316 | -193
+37 | 1994 | Georgia Tech | 10 | 11 | 1 | 10 | 0 | .091 | 185 | 319 | -134
+38 | 1994 | Houston | 10 | 11 | 1 | 10 | 0 | .091 | 115 | 402 | -287
+39 | 1994 | Iowa State | 10 | 11 | 0 | 10 | 1 | .045 | 192 | 363 | -171
+40 | 1994 | Kentucky | 10 | 11 | 1 | 10 | 0 | .091 | 149 | 405 | -256
+41 | 1994 | Tulane | 10 | 11 | 1 | 10 | 0 | .091 | 135 | 358 | -223
+42 | 1993 | Purdue | 10 | 11 | 1 | 10 | 0 | .091 | 221 | 326 | -105
+43 | 1993 | Temple | 10 | 11 | 1 | 10 | 0 | .091 | 115 | 527 | -412
+44 | 1992 | Eastern Michigan | 10 | 11 | 1 | 10 | 0 | .091 | 117 | 336 | -219
+45 | 1992 | Navy | 10 | 11 | 1 | 10 | 0 | .091 | 131 | 338 | -207
+46 | 1992 | Ohio | 10 | 11 | 1 | 10 | 0 | .091 | 145 | 253 | -108
+47 | 1992 | Temple | 10 | 11 | 1 | 10 | 0 | .091 | 132 | 383 | -251
+48 | 1992 | UTEP | 10 | 11 | 1 | 10 | 0 | .091 | 254 | 386 | -132
+49 | 1991 | Arkansas State | 10 | 11 | 1 | 10 | 0 | .091 | 189 | 361 | -172
+50 | 1991 | Kent State | 10 | 11 | 1 | 10 | 0 | .091 | 159 | 307 | -148
+51 | 1991 | Navy | 10 | 11 | 1 | 10 | 0 | .091 | 160 | 321 | -161
+52 | 1991 | Oklahoma State | 10 | 11 | 0 | 10 | 1 | .045 | 106 | 307 | -201
+53 | 1991 | Oregon State | 10 | 11 | 1 | 10 | 0 | .091 | 125 | 365 | -240
+54 | 1991 | SMU | 10 | 11 | 1 | 10 | 0 | .091 | 141 | 359 | -218
+55 | 1991 | Tulane | 10 | 11 | 1 | 10 | 0 | .091 | 146 | 384 | -238
+56 | 1990 | Cincinnati | 10 | 11 | 1 | 10 | 0 | .091 | 172 | 460 | -288
+57 | 1990 | New Mexico | 10 | 12 | 2 | 10 | 0 | .167 | 279 | 400 | -121
+58 | 1990 | New Mexico State | 10 | 11 | 1 | 10 | 0 | .091 | 200 | 422 | -222
+59 | 1990 | Oregon State | 10 | 11 | 1 | 10 | 0 | .091 | 152 | 371 | -219
+60 | 1990 | SMU | 10 | 11 | 1 | 10 | 0 | .091 | 197 | 426 | -229
+61 | 1990 | Vanderbilt | 10 | 11 | 1 | 10 | 0 | .091 | 227 | 457 | -230
+62 | 1990 | Wisconsin | 10 | 11 | 1 | 10 | 0 | .091 | 133 | 285 | -152
+63 | 1999 | Kent State | 9 | 11 | 2 | 9 | 0 | .182 | 213 | 376 | -163
+64 | 1999 | Louisiana | 9 | 11 | 2 | 9 | 0 | .182 | 203 | 415 | -212
+65 | 1999 | North Texas | 9 | 11 | 2 | 9 | 0 | .182 | 118 | 291 | -173
+66 | 1999 | Temple | 9 | 11 | 2 | 9 | 0 | .182 | 153 | 366 | -213
+67 | 1999 | Tulsa | 9 | 11 | 2 | 9 | 0 | .182 | 230 | 386 | -156
+68 | 1999 | Washington State | 9 | 12 | 3 | 9 | 0 | .250 | 248 | 327 | -79
+69 | 1998 | Baylor | 9 | 11 | 2 | 9 | 0 | .182 | 195 | 319 | -124
+70 | 1998 | Cincinnati | 9 | 11 | 2 | 9 | 0 | .182 | 259 | 456 | -197
+71 | 1998 | Louisiana | 9 | 11 | 2 | 9 | 0 | .182 | 199 | 453 | -254
+72 | 1998 | Memphis | 9 | 11 | 2 | 9 | 0 | .182 | 226 | 340 | -114
+73 | 1998 | New Mexico | 9 | 12 | 3 | 9 | 0 | .250 | 274 | 397 | -123
+74 | 1998 | Northern Illinois | 9 | 11 | 2 | 9 | 0 | .182 | 160 | 329 | -169
+75 | 1998 | Northwestern | 9 | 12 | 3 | 9 | 0 | .250 | 214 | 337 | -123
+76 | 1998 | Pitt | 9 | 11 | 2 | 9 | 0 | .182 | 234 | 334 | -100
+77 | 1998 | Temple | 9 | 11 | 2 | 9 | 0 | .182 | 198 | 360 | -162
+78 | 1998 | Vanderbilt | 9 | 11 | 2 | 9 | 0 | .182 | 142 | 369 | -227
+79 | 1997 | Akron | 9 | 11 | 2 | 9 | 0 | .182 | 218 | 435 | -217
+80 | 1997 | Arkansas State | 9 | 11 | 2 | 9 | 0 | .182 | 200 | 394 | -194
+81 | 1997 | Baylor | 9 | 11 | 2 | 9 | 0 | .182 | 200 | 375 | -175
+82 | 1997 | Central Michigan | 9 | 11 | 2 | 9 | 0 | .182 | 282 | 479 | -197
+83 | 1997 | Duke | 9 | 11 | 2 | 9 | 0 | .182 | 223 | 341 | -118
+84 | 1997 | Hawaii | 9 | 12 | 3 | 9 | 0 | .250 | 189 | 308 | -119
+85 | 1997 | Indiana | 9 | 11 | 2 | 9 | 0 | .182 | 120 | 359 | -239
+86 | 1997 | Maryland | 9 | 11 | 2 | 9 | 0 | .182 | 161 | 355 | -194
+87 | 1997 | Minnesota | 9 | 12 | 3 | 9 | 0 | .250 | 238 | 334 | -96
+88 | 1997 | New Mexico State | 9 | 11 | 2 | 9 | 0 | .182 | 221 | 398 | -177
+89 | 1997 | Tulsa | 9 | 11 | 2 | 9 | 0 | .182 | 258 | 426 | -168
+90 | 1996 | Illinois | 9 | 11 | 2 | 9 | 0 | .182 | 190 | 372 | -182
+91 | 1996 | Iowa State | 9 | 11 | 2 | 9 | 0 | .182 | 314 | 401 | -87
+92 | 1996 | Kent State | 9 | 11 | 2 | 9 | 0 | .182 | 255 | 492 | -237
+93 | 1996 | Oregon State | 9 | 11 | 2 | 9 | 0 | .182 | 216 | 388 | -172
+94 | 1996 | Rutgers | 9 | 11 | 2 | 9 | 0 | .182 | 143 | 380 | -237
+95 | 1996 | San Jose State | 9 | 12 | 3 | 9 | 0 | .250 | 221 | 448 | -227
+96 | 1996 | UTEP | 9 | 11 | 2 | 9 | 0 | .182 | 183 | 314 | -131
+97 | 1996 | Tulane | 9 | 11 | 2 | 9 | 0 | .182 | 213 | 268 | -55
+98 | 1996 | Vanderbilt | 9 | 11 | 2 | 9 | 0 | .182 | 122 | 234 | -112
+99 | 1996 | Western Michigan | 9 | 11 | 2 | 9 | 0 | .182 | 208 | 304 | -96
+100 | 1995 | Akron | 9 | 11 | 2 | 9 | 0 | .182 | 141 | 428 | -287
+101 | 1995 | Houston | 9 | 11 | 2 | 9 | 0 | .182 | 188 | 360 | -172
+102 | 1995 | Indiana | 9 | 11 | 2 | 9 | 0 | .182 | 159 | 326 | -167
+103 | 1995 | Kent State | 9 | 11 | 1 | 9 | 1 | .136 | 128 | 390 | -262
+104 | 1995 | Louisiana-Monroe | 9 | 11 | 2 | 9 | 0 | .182 | 233 | 413 | -180
+105 | 1995 | Nevada-Las Vegas | 9 | 11 | 2 | 9 | 0 | .182 | 222 | 520 | -298
+106 | 1995 | North Texas | 9 | 11 | 2 | 9 | 0 | .182 | 200 | 424 | -224
+107 | 1995 | Pitt | 9 | 11 | 2 | 9 | 0 | .182 | 217 | 329 | -112
+108 | 1995 | Tulane | 9 | 11 | 2 | 9 | 0 | .182 | 187 | 303 | -116
+109 | 1995 | Vanderbilt | 9 | 11 | 2 | 9 | 0 | .182 | 122 | 281 | -159
+110 | 1994 | Kent State | 9 | 11 | 2 | 9 | 0 | .182 | 140 | 293 | -153
+111 | 1994 | SMU | 9 | 11 | 1 | 9 | 1 | .136 | 197 | 343 | -146
+112 | 1994 | Temple | 9 | 11 | 2 | 9 | 0 | .182 | 244 | 417 | -173
+113 | 1993 | East Carolina | 9 | 11 | 2 | 9 | 0 | .182 | 175 | 329 | -154
+114 | 1993 | Houston | 9 | 11 | 1 | 9 | 1 | .136 | 171 | 392 | -221
+115 | 1993 | Louisiana Tech | 9 | 11 | 2 | 9 | 0 | .182 | 143 | 332 | -189
+116 | 1993 | Maryland | 9 | 11 | 2 | 9 | 0 | .182 | 243 | 479 | -236
+117 | 1993 | Northwestern | 9 | 11 | 2 | 9 | 0 | .182 | 185 | 335 | -150
+118 | 1993 | San Jose State | 9 | 11 | 2 | 9 | 0 | .182 | 282 | 337 | -55
+119 | 1993 | Tulane | 9 | 12 | 3 | 9 | 0 | .250 | 154 | 355 | -201
+120 | 1993 | Wake Forest | 9 | 11 | 2 | 9 | 0 | .182 | 199 | 318 | -119
+121 | 1992 | Arkansas State | 9 | 11 | 2 | 9 | 0 | .182 | 118 | 402 | -284
+122 | 1992 | Cal State Fullerton | 9 | 11 | 2 | 9 | 0 | .182 | 136 | 333 | -197
+123 | 1992 | Duke | 9 | 11 | 2 | 9 | 0 | .182 | 265 | 343 | -78
+124 | 1992 | Kent State | 9 | 11 | 2 | 9 | 0 | .182 | 133 | 301 | -168
+125 | 1992 | Louisiana | 9 | 11 | 2 | 9 | 0 | .182 | 143 | 306 | -163
+126 | 1992 | LSU | 9 | 11 | 2 | 9 | 0 | .182 | 175 | 261 | -86
+127 | 1992 | Minnesota | 9 | 11 | 2 | 9 | 0 | .182 | 200 | 313 | -113
+128 | 1992 | Oregon State | 9 | 11 | 1 | 9 | 1 | .136 | 163 | 363 | -200
+129 | 1992 | Pitt | 9 | 12 | 3 | 9 | 0 | .250 | 289 | 429 | -140
+130 | 1992 | Tulane | 9 | 11 | 2 | 9 | 0 | .182 | 146 | 349 | -203
+131 | 1991 | Cal State Fullerton | 9 | 11 | 2 | 9 | 0 | .182 | 138 | 376 | -238
+132 | 1991 | Long Beach State | 9 | 11 | 2 | 9 | 0 | .182 | 207 | 412 | -205
+133 | 1991 | Louisville | 9 | 11 | 2 | 9 | 0 | .182 | 135 | 335 | -200
+134 | 1991 | Maryland | 9 | 11 | 2 | 9 | 0 | .182 | 138 | 302 | -164
+135 | 1991 | Minnesota | 9 | 11 | 2 | 9 | 0 | .182 | 104 | 302 | -198
+136 | 1991 | New Mexico | 9 | 12 | 3 | 9 | 0 | .250 | 240 | 473 | -233
+137 | 1991 | New Mexico State | 9 | 11 | 2 | 9 | 0 | .182 | 224 | 350 | -126
+138 | 1991 | Northern Illinois | 9 | 11 | 2 | 9 | 0 | .182 | 143 | 364 | -221
+139 | 1991 | Temple | 9 | 11 | 2 | 9 | 0 | .182 | 145 | 290 | -145
+140 | 1990 | Eastern Michigan | 9 | 11 | 2 | 9 | 0 | .182 | 179 | 301 | -122
+141 | 1990 | Kent State | 9 | 11 | 2 | 9 | 0 | .182 | 177 | 328 | -151
+142 | 1990 | Northwestern | 9 | 11 | 2 | 9 | 0 | .182 | 210 | 370 | -160
+143 | 1990 | Ohio | 9 | 11 | 1 | 9 | 1 | .136 | 162 | 342 | -180
+144 | 1990 | Purdue | 9 | 11 | 2 | 9 | 0 | .182 | 177 | 337 | -160
+145 | 1999 | Army | 8 | 11 | 3 | 8 | 0 | .273 | 225 | 317 | -92
+146 | 1999 | Cincinnati | 8 | 11 | 3 | 8 | 0 | .273 | 275 | 289 | -14
+147 | 1999 | Duke | 8 | 11 | 3 | 8 | 0 | .273 | 217 | 363 | -146
+148 | 1999 | LSU | 8 | 11 | 3 | 8 | 0 | .273 | 223 | 259 | -36
+149 | 1999 | Middle Tennessee State | 8 | 11 | 3 | 8 | 0 | .273 | 272 | 379 | -107
+150 | 1999 | Nevada | 8 | 11 | 3 | 8 | 0 | .273 | 283 | 418 | -135
+151 | 1999 | Nevada-Las Vegas | 8 | 11 | 3 | 8 | 0 | .273 | 160 | 324 | -164
+152 | 1999 | North Carolina | 8 | 11 | 3 | 8 | 0 | .273 | 186 | 272 | -86
+153 | 1999 | Northwestern | 8 | 11 | 3 | 8 | 0 | .273 | 141 | 301 | -160
+154 | 1999 | Tulane | 8 | 11 | 3 | 8 | 0 | .273 | 279 | 399 | -120
+155 | 1998 | Arkansas State | 8 | 12 | 4 | 8 | 0 | .333 | 216 | 385 | -169
+156 | 1998 | Army | 8 | 11 | 3 | 8 | 0 | .273 | 257 | 325 | -68
+157 | 1998 | Auburn | 8 | 11 | 3 | 8 | 0 | .273 | 166 | 235 | -69
+158 | 1998 | Clemson | 8 | 11 | 3 | 8 | 0 | .273 | 218 | 272 | -54
+159 | 1998 | Eastern Michigan | 8 | 11 | 3 | 8 | 0 | .273 | 216 | 309 | -93
+160 | 1998 | Houston | 8 | 11 | 3 | 8 | 0 | .273 | 254 | 317 | -63
+161 | 1998 | Illinois | 8 | 11 | 3 | 8 | 0 | .273 | 149 | 326 | -177
+162 | 1998 | Iowa | 8 | 11 | 3 | 8 | 0 | .273 | 172 | 287 | -115
+163 | 1998 | Iowa State | 8 | 11 | 3 | 8 | 0 | .273 | 221 | 328 | -107
+164 | 1998 | Maryland | 8 | 11 | 3 | 8 | 0 | .273 | 202 | 290 | -88
+165 | 1998 | Navy | 8 | 11 | 3 | 8 | 0 | .273 | 255 | 376 | -121
+166 | 1998 | New Mexico State | 8 | 11 | 3 | 8 | 0 | .273 | 331 | 424 | -93
+167 | 1998 | North Texas | 8 | 11 | 3 | 8 | 0 | .273 | 173 | 297 | -124
+168 | 1998 | San Jose State | 8 | 12 | 4 | 8 | 0 | .333 | 274 | 385 | -111
+169 | 1998 | Stanford | 8 | 11 | 3 | 8 | 0 | .273 | 261 | 365 | -104
+170 | 1998 | UTEP | 8 | 11 | 3 | 8 | 0 | .273 | 226 | 305 | -79
+171 | 1998 | Utah State | 8 | 11 | 3 | 8 | 0 | .273 | 237 | 309 | -72
+172 | 1998 | Wake Forest | 8 | 11 | 3 | 8 | 0 | .273 | 235 | 335 | -100
+173 | 1998 | Washington State | 8 | 11 | 3 | 8 | 0 | .273 | 223 | 349 | -126
+174 | 1997 | Bowling Green | 8 | 11 | 3 | 8 | 0 | .273 | 191 | 341 | -150
+175 | 1997 | California | 8 | 11 | 3 | 8 | 0 | .273 | 295 | 339 | -44
+176 | 1997 | Houston | 8 | 11 | 3 | 8 | 0 | .273 | 216 | 410 | -194
+177 | 1997 | Kent State | 8 | 11 | 3 | 8 | 0 | .273 | 337 | 490 | -153
+178 | 1997 | Nevada-Las Vegas | 8 | 11 | 3 | 8 | 0 | .273 | 281 | 332 | -51
+179 | 1997 | Oklahoma | 8 | 12 | 4 | 8 | 0 | .333 | 232 | 379 | -147
+180 | 1997 | Oregon State | 8 | 11 | 3 | 8 | 0 | .273 | 195 | 285 | -90
+181 | 1997 | Temple | 8 | 11 | 3 | 8 | 0 | .273 | 212 | 371 | -159
+182 | 1997 | Vanderbilt | 8 | 11 | 3 | 8 | 0 | .273 | 138 | 204 | -66
+183 | 1996 | Eastern Michigan | 8 | 11 | 3 | 8 | 0 | .273 | 210 | 284 | -74
+184 | 1996 | Indiana | 8 | 11 | 3 | 8 | 0 | .273 | 242 | 291 | -49
+185 | 1996 | North Carolina State | 8 | 11 | 3 | 8 | 0 | .273 | 268 | 401 | -133
+186 | 1996 | Oklahoma | 8 | 11 | 3 | 8 | 0 | .273 | 255 | 392 | -137
+187 | 1996 | Purdue | 8 | 11 | 3 | 8 | 0 | .273 | 194 | 324 | -130
+188 | 1996 | Wake Forest | 8 | 11 | 3 | 8 | 0 | .273 | 144 | 374 | -230
+189 | 1995 | Boston College | 8 | 12 | 4 | 8 | 0 | .333 | 207 | 322 | -115
+190 | 1995 | California | 8 | 11 | 3 | 8 | 0 | .273 | 243 | 286 | -43
+191 | 1995 | Duke | 8 | 11 | 3 | 8 | 0 | .273 | 282 | 386 | -104
+192 | 1995 | Hawaii | 8 | 12 | 4 | 8 | 0 | .333 | 285 | 401 | -116
+193 | 1995 | Iowa State | 8 | 11 | 3 | 8 | 0 | .273 | 264 | 409 | -145
+194 | 1995 | Memphis | 8 | 11 | 3 | 8 | 0 | .273 | 150 | 240 | -90
+195 | 1995 | Minnesota | 8 | 11 | 3 | 8 | 0 | .273 | 272 | 368 | -96
+196 | 1995 | Mississippi State | 8 | 11 | 3 | 8 | 0 | .273 | 261 | 357 | -96
+197 | 1995 | Missouri | 8 | 11 | 3 | 8 | 0 | .273 | 186 | 311 | -125
+198 | 1995 | North Carolina State | 8 | 11 | 3 | 8 | 0 | .273 | 260 | 354 | -94
+199 | 1995 | Northern Illinois | 8 | 11 | 3 | 8 | 0 | .273 | 220 | 420 | -200
+200 | 1995 | Ohio | 8 | 11 | 2 | 8 | 1 | .227 | 161 | 320 | -159
 ```
 
 ## Claim check

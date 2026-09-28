@@ -1,23 +1,20 @@
-# SCFB434 — College Football 1980s p:fgm_hi
+# SCFB434 — College Football 1990s p:recy_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&order_by=fgm&order_by_asc=0&ccomp[1]=gt&cval[1]=25&cstat[1]=fgm
-- Timestamp: 2026-09-28T06:52:35.831Z
-- Rows read: 7
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&order_by=rec_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1700&cstat[1]=rec_yds
+- Timestamp: 2026-09-28T08:35:52.839Z
+- Rows read: 4
 
 ## Result table
 
 ```
-header_empty_0 | header_kick | header_empty_5 | ranker | name_display | fgm | year_id | teams_played_for | games | all_td | xpm | xpa | xp_pct | fgm | fga | fg_pct | two_pt_md | safety_md | scoring | pos | class
- |  |  | 1 | John Lee | 29 | 1984 | UCLA | 11 | 0 | 17 | 17 | 100.0 | 29 | 33 | 87.9 | 0 |  | 104 | K | 
- |  |  | 2 | Luis Zendejas | 28 | 1983 | Arizona State | 11 | 0 | 28 | 29 | 96.6 | 28 | 37 | 75.7 | 0 |  | 112 |  | 
- |  |  | 3 | Paul Woodside | 28 | 1982 | West Virginia | 11 | 0 | 26 | 27 | 96.3 | 28 | 31 | 90.3 | 0 |  | 110 | K | 
- |  |  | 4 | Fuad Reveiz | 27 | 1982 | Tennessee | 11 | 0 | 20 | 20 | 100.0 | 27 | 31 | 87.1 | 0 |  | 101 | K | 
- |  |  | 5 | Chris Jacke | 25 | 1988 | UTEP | 12 | 0 | 48 | 48 | 100.0 | 25 | 27 | 92.6 | 0 |  | 118 | K | 
- |  |  | 6 | Chuck Nelson | 25 | 1982 | Washington | 11 | 0 | 34 | 34 | 100.0 | 25 | 26 | 96.2 | 0 |  | 109 |  | 
- |  |  | 7 | John Diettrich | 25 | 1985 | Ball State | 11 | 0 | 12 | 12 | 100.0 | 25 | 29 | 86.2 | 0 |  | 87 | K | 
+header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec_yds | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
+ |  |  | 1 | Trevor Insley | 2060 | 1999 | Nevada | 11 | 134 | 2060 | 15.4 | 13 | 187.3 | WR | 
+ |  |  | 2 | Troy Edwards | 1996 | 1998 | Louisiana Tech | 12 | 140 | 1996 | 14.3 | 27 | 166.3 | WR | 
+ |  |  | 3 | Alex Van Dyke | 1854 | 1995 | Nevada | 11 | 129 | 1854 | 14.4 | 16 | 168.5 | WR | 
+ |  |  | 4 | Troy Edwards | 1707 | 1997 | Louisiana Tech | 11 | 102 | 1707 | 16.7 | 13 | 155.2 | WR | 
 ```
 
 ## Claim check
 
-- Complete set: all 7 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 4 rows read. A superlative may be asserted only if it holds across every row above.

@@ -1,40 +1,56 @@
-# SCFB679 — College Football 2010s p:ypa_hi
+# SCFB679 — College Football 2010s p:ypc_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&order_by=pass_yds_per_att&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=pass_att&ccomp[2]=gt&cval[2]=10&cstat[2]=pass_yds_per_att
-- Timestamp: 2026-09-28T07:10:24.622Z
-- Rows read: 24
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&order_by=rush_yds_per_att&order_by_asc=0&ccomp[1]=gt&cval[1]=150&cstat[1]=rush_att&ccomp[2]=gt&cval[2]=7&cstat[2]=rush_yds_per_att
+- Timestamp: 2026-09-28T08:53:08.728Z
+- Rows read: 40
 
 ## Result table
 
 ```
-header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_yds_per_att | pass_att | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
- |  |  | 1 | Kyler Murray | 11.6 | 377 | 2018 | Oklahoma | 14 | 260 | 377 | 117 | 69.0 | 4361 | 42 | 7 | 11.1 | 1.9 | 199.2 | 11.6 | 12.96 | 16.8 | 311.5 | QB | JR
- |  |  | 2 | Baker Mayfield | 11.5 | 404 | 2017 | Oklahoma | 14 | 285 | 404 | 119 | 70.5 | 4627 | 43 | 6 | 10.6 | 1.5 | 198.9 | 11.5 | 12.91 | 16.2 | 330.5 | QB | SR
- |  |  | 3 | Jalen Hurts | 11.3 | 340 | 2019 | Oklahoma | 14 | 237 | 340 | 103 | 69.7 | 3851 | 32 | 8 | 9.4 | 2.4 | 191.2 | 11.3 | 12.15 | 16.2 | 275.1 | QB | SR
- |  |  | 4 | Tua Tagovailoa | 11.3 | 252 | 2019 | Alabama | 9 | 180 | 252 | 72 | 71.4 | 2840 | 33 | 3 | 13.1 | 1.2 | 206.9 | 11.3 | 13.35 | 15.8 | 315.6 | QB | JR
- |  |  | 5 | Tua Tagovailoa | 11.2 | 355 | 2018 | Alabama | 15 | 245 | 355 | 110 | 69.0 | 3966 | 43 | 6 | 12.1 | 1.7 | 199.4 | 11.2 | 12.83 | 16.2 | 264.4 | QB | SO
- |  |  | 6 | Baker Mayfield | 11.1 | 358 | 2016 | Oklahoma | 13 | 254 | 358 | 104 | 70.9 | 3965 | 40 | 8 | 11.2 | 2.2 | 196.4 | 11.1 | 12.30 | 15.6 | 305.0 | QB | JR
- |  |  | 7 | Joe Burrow | 10.8 | 527 | 2019 | LSU | 15 | 402 | 527 | 125 | 76.3 | 5671 | 60 | 6 | 11.4 | 1.1 | 202.0 | 10.8 | 12.53 | 14.1 | 378.1 | QB | SR
- |  |  | 8 | Robert Griffin III | 10.7 | 402 | 2011 | Baylor | 13 | 291 | 402 | 111 | 72.4 | 4293 | 37 | 6 | 9.2 | 1.5 | 189.5 | 10.7 | 11.85 | 14.8 | 330.2 | QB | JR
- |  |  | 9 | Jameis Winston | 10.6 | 384 | 2013 | Florida State | 14 | 257 | 384 | 127 | 66.9 | 4057 | 40 | 10 | 10.4 | 2.6 | 184.8 | 10.6 | 11.48 | 15.8 | 289.8 | QB | FR
- |  |  | 10 | Seth Russell | 10.5 | 200 | 2015 | Baylor | 7 | 119 | 200 | 81 | 59.5 | 2104 | 29 | 6 | 14.5 | 3.0 | 189.7 | 10.5 | 12.07 | 17.7 | 300.6 | QB | JR
- |  |  | 11 | Mike White | 10.5 | 416 | 2016 | Western Kentucky | 14 | 280 | 416 | 136 | 67.3 | 4363 | 37 | 7 | 8.9 | 1.7 | 181.4 | 10.5 | 11.51 | 15.6 | 311.6 | QB | JR
- |  |  | 12 | Bryce Petty | 10.4 | 403 | 2013 | Baylor | 13 | 250 | 403 | 153 | 62.0 | 4200 | 32 | 3 | 7.9 | 0.7 | 174.3 | 10.4 | 11.67 | 16.8 | 323.1 | QB | JR
- |  |  | 13 | Zach Mettenberger | 10.4 | 296 | 2013 | LSU | 12 | 192 | 296 | 104 | 64.9 | 3082 | 22 | 8 | 7.4 | 2.7 | 171.4 | 10.4 | 10.68 | 16.1 | 256.8 | QB | SR
- |  |  | 14 | Russell Wilson | 10.3 | 309 | 2011 | Wisconsin | 14 | 225 | 309 | 84 | 72.8 | 3175 | 33 | 4 | 10.7 | 1.3 | 191.8 | 10.3 | 11.83 | 14.1 | 226.8 | QB | SR
- |  |  | 15 | Tyler Huntley | 10.3 | 301 | 2019 | Utah | 14 | 220 | 301 | 81 | 73.1 | 3092 | 19 | 4 | 6.3 | 1.3 | 177.6 | 10.3 | 10.94 | 14.1 | 220.9 | QB | SR
- |  |  | 16 | Tanner Morgan | 10.2 | 318 | 2019 | Minnesota | 13 | 210 | 318 | 108 | 66.0 | 3253 | 30 | 7 | 9.4 | 2.2 | 178.7 | 10.2 | 11.13 | 15.5 | 250.2 | QB | SO
- |  |  | 17 | Brock Purdy | 10.2 | 220 | 2018 | Iowa State | 10 | 146 | 220 | 74 | 66.4 | 2250 | 16 | 7 | 7.3 | 3.2 | 169.9 | 10.2 | 10.25 | 15.4 | 225.0 | QB | FR
- |  |  | 18 | McKenzie Milton | 10.2 | 395 | 2017 | UCF | 13 | 265 | 395 | 130 | 67.1 | 4037 | 37 | 9 | 9.4 | 2.3 | 179.3 | 10.2 | 11.07 | 15.2 | 310.5 | QB | SO
- |  |  | 19 | Vernon Adams | 10.2 | 259 | 2015 | Oregon | 10 | 168 | 259 | 91 | 64.9 | 2643 | 26 | 6 | 10.0 | 2.3 | 179.1 | 10.2 | 11.17 | 15.7 | 264.3 | QB | SR
- |  |  | 20 | Cam Newton | 10.2 | 280 | 2010 | Auburn | 14 | 185 | 280 | 95 | 66.1 | 2854 | 30 | 7 | 10.7 | 2.5 | 182.0 | 10.2 | 11.21 | 15.4 | 203.9 | QB | JR
- |  |  | 21 | Aaron Murray | 10.1 | 386 | 2012 | Georgia | 14 | 249 | 386 | 137 | 64.5 | 3893 | 36 | 10 | 9.3 | 2.6 | 174.8 | 10.1 | 10.78 | 15.6 | 278.1 | QB | JR
- |  |  | 22 | Kellen Moore | 10.0 | 383 | 2010 | Boise State | 13 | 273 | 383 | 110 | 71.3 | 3845 | 35 | 6 | 9.1 | 1.6 | 182.6 | 10.0 | 11.16 | 14.1 | 295.8 | QB | JR
- |  |  | 23 | Mason Rudolph | 10.0 | 489 | 2017 | Oklahoma State | 13 | 318 | 489 | 171 | 65.0 | 4904 | 37 | 9 | 7.6 | 1.8 | 170.6 | 10.0 | 10.71 | 15.4 | 377.2 | QB | SR
- |  |  | 24 | Marcus Mariota | 10.0 | 445 | 2014 | Oregon | 15 | 304 | 445 | 141 | 68.3 | 4454 | 42 | 4 | 9.4 | 0.9 | 181.7 | 10.0 | 11.49 | 14.7 | 296.9 | QB | JR
+header_empty_0 | header_rush | header_empty_2 | ranker | name_display | rush_yds_per_att | rush_att | year_id | teams_played_for | games | rush_att | rush_yds | rush_yds_per_att | rush_td | rush_yds_per_g | pos | class
+ |  |  | 1 | Khalil Tate | 9.2 | 153 | 2017 | Arizona | 11 | 153 | 1411 | 9.2 | 12 | 128.3 | QB | SO
+ |  |  | 2 | Dri Archer | 9.0 | 159 | 2012 | Kent State | 14 | 159 | 1429 | 9.0 | 16 | 102.1 | RB | JR
+ |  |  | 3 | Darrell Henderson | 8.9 | 214 | 2018 | Memphis | 13 | 214 | 1909 | 8.9 | 22 | 146.8 | RB | JR
+ |  |  | 4 | Matt Breida | 8.7 | 171 | 2014 | Georgia Southern | 12 | 171 | 1485 | 8.7 | 17 | 123.8 | RB | SO
+ |  |  | 5 | Devon Johnson | 8.6 | 206 | 2014 | Marshall | 13 | 206 | 1767 | 8.6 | 17 | 135.9 | TE | JR
+ |  |  | 6 | Travis Etienne | 8.1 | 204 | 2018 | Clemson | 15 | 204 | 1658 | 8.1 | 24 | 110.5 | RB | SO
+ |  |  | 7 | Bryce Love | 8.1 | 263 | 2017 | Stanford | 13 | 263 | 2118 | 8.1 | 19 | 162.9 | RB | JR
+ |  |  | 8 | Kareem Hunt | 8.0 | 205 | 2014 | Toledo | 10 | 205 | 1631 | 8.0 | 16 | 163.1 | RB | SO
+ |  |  | 9 | Lynn Bowden Jr. | 7.9 | 185 | 2019 | Kentucky | 13 | 185 | 1468 | 7.9 | 13 | 112.9 | WR | JR
+ |  |  | 10 | Ke'Shawn Vaughn | 7.9 | 157 | 2018 | Vanderbilt | 12 | 157 | 1244 | 7.9 | 12 | 103.7 | RB | JR
+ |  |  | 11 | Matt Breida | 7.9 | 203 | 2015 | Georgia Southern | 13 | 203 | 1608 | 7.9 | 17 | 123.7 | RB | JR
+ |  |  | 12 | Sony Michel | 7.9 | 156 | 2017 | Georgia | 14 | 156 | 1227 | 7.9 | 16 | 87.6 | RB | SR
+ |  |  | 13 | Melvin Gordon | 7.8 | 206 | 2013 | Wisconsin | 13 | 206 | 1609 | 7.8 | 12 | 123.8 | RB | SO
+ |  |  | 14 | Travis Etienne | 7.8 | 207 | 2019 | Clemson | 15 | 207 | 1614 | 7.8 | 19 | 107.6 | RB | JR
+ |  |  | 15 | Rashaad Penny | 7.8 | 289 | 2017 | San Diego State | 13 | 289 | 2248 | 7.8 | 23 | 172.9 | RB | SR
+ |  |  | 16 | Aaron Jones | 7.7 | 229 | 2016 | UTEP | 12 | 229 | 1773 | 7.7 | 17 | 147.8 | RB | JR
+ |  |  | 17 | Quinton Flowers | 7.7 | 198 | 2016 | South Florida | 13 | 198 | 1530 | 7.7 | 18 | 117.7 | QB | JR
+ |  |  | 18 | Elijah McGuire | 7.6 | 166 | 2014 | Louisiana | 13 | 166 | 1264 | 7.6 | 14 | 97.2 | RB | SO
+ |  |  | 19 | Derrius Guice | 7.6 | 183 | 2016 | LSU | 12 | 183 | 1387 | 7.6 | 15 | 115.6 | RB | SO
+ |  |  | 20 | Melvin Gordon | 7.5 | 343 | 2014 | Wisconsin | 14 | 343 | 2587 | 7.5 | 29 | 184.8 | RB | JR
+ |  |  | 21 | Tevin Coleman | 7.5 | 270 | 2014 | Indiana | 12 | 270 | 2036 | 7.5 | 15 | 169.7 | RB | JR
+ |  |  | 22 | Darrin Hall | 7.5 | 153 | 2018 | Pitt | 14 | 153 | 1144 | 7.5 | 10 | 81.7 | RB | SR
+ |  |  | 23 | Lache Seastrunk | 7.4 | 158 | 2013 | Baylor | 11 | 158 | 1177 | 7.4 | 11 | 107.0 | RB | JR
+ |  |  | 24 | Dalvin Cook | 7.4 | 229 | 2015 | Florida State | 12 | 229 | 1691 | 7.4 | 19 | 140.9 | RB | SO
+ |  |  | 25 | Carlos Hyde | 7.3 | 208 | 2013 | Ohio State | 11 | 208 | 1521 | 7.3 | 15 | 138.3 | RB | SR
+ |  |  | 26 | LaMichael James | 7.3 | 247 | 2011 | Oregon | 12 | 247 | 1805 | 7.3 | 18 | 150.4 | RB | JR
+ |  |  | 27 | Justin Crawford | 7.3 | 163 | 2016 | West Virginia | 13 | 163 | 1184 | 7.3 | 4 | 91.1 | RB | JR
+ |  |  | 28 | J.K. Dobbins | 7.2 | 194 | 2017 | Ohio State | 14 | 194 | 1403 | 7.2 | 7 | 100.2 | RB | FR
+ |  |  | 29 | Ahmad Bradshaw | 7.2 | 242 | 2017 | Army | 13 | 242 | 1746 | 7.2 | 14 | 134.3 | QB | SR
+ |  |  | 30 | Denard Robinson | 7.2 | 177 | 2012 | Michigan | 11 | 177 | 1266 | 7.2 | 7 | 115.1 | QB | SR
+ |  |  | 31 | Jonathan Taylor | 7.1 | 307 | 2018 | Wisconsin | 13 | 307 | 2194 | 7.1 | 16 | 168.8 | RB | SO
+ |  |  | 32 | Chandler Harnish | 7.1 | 194 | 2011 | Northern Illinois | 14 | 194 | 1379 | 7.1 | 11 | 98.5 | QB | SR
+ |  |  | 33 | Jason Huntley | 7.1 | 154 | 2019 | New Mexico State | 12 | 154 | 1090 | 7.1 | 9 | 90.8 | RB | SR
+ |  |  | 34 | Nick Chubb | 7.1 | 219 | 2014 | Georgia | 13 | 219 | 1547 | 7.1 | 14 | 119.0 | RB | FR
+ |  |  | 35 | Nick Fitzgerald | 7.1 | 195 | 2016 | Mississippi State | 13 | 195 | 1375 | 7.1 | 16 | 105.8 | QB | SO
+ |  |  | 36 | Anthony Wales | 7.0 | 155 | 2015 | Western Kentucky | 11 | 155 | 1091 | 7.0 | 9 | 99.2 | RB | JR
+ |  |  | 37 | Johnny Manziel | 7.0 | 201 | 2012 | Texas A&M | 13 | 201 | 1410 | 7.0 | 21 | 108.5 | QB | FR
+ |  |  | 38 | Pooka Williams | 7.0 | 161 | 2018 | Kansas | 11 | 161 | 1125 | 7.0 | 7 | 102.3 | RB | FR
+ |  |  | 39 | Devine Ozigbo | 7.0 | 155 | 2018 | Nebraska | 12 | 155 | 1082 | 7.0 | 12 | 90.2 | RB | SR
+ |  |  | 40 | Colin Kaepernick | 7.0 | 173 | 2010 | Nevada | 14 | 173 | 1206 | 7.0 | 20 | 86.1 | QB | SR
 ```
 
 ## Claim check
 
-- Complete set: all 24 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 40 rows read. A superlative may be asserted only if it holds across every row above.

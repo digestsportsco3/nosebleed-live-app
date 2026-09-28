@@ -1,8 +1,8 @@
-# SCFB229 — College Football 1950s t:stingy
+# SCFB229 — College Football 1970s p:fr_td
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1950&year_max=1959&order_by=points_opp&order_by_asc=1&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=lt&cval[2]=20&cstat[2]=points_opp
-- Timestamp: 2026-09-28T06:38:46.899Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&class[]=fr&order_by=pass_td&order_by_asc=0&ccomp[1]=gt&cval[1]=20&cstat[1]=pass_td
+- Timestamp: 2026-09-28T08:22:10.027Z
 - Rows read: 0
 
 ## Result table

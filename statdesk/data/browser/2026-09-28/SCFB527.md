@@ -1,8 +1,8 @@
-# SCFB527 — College Football 1990s p:fr_ry
+# SCFB527 — College Football 1990s t:pen_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&class[]=fr&order_by=rush_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1300&cstat[1]=rush_yds
-- Timestamp: 2026-09-28T06:58:50.897Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1990&year_max=1999&order_by=penalties_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1200&cstat[1]=penalties_yds
+- Timestamp: 2026-09-28T08:42:03.961Z
 - Rows read: 0
 
 ## Result table

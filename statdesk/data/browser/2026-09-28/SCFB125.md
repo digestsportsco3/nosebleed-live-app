@@ -1,16 +1,17 @@
-# SCFB125 — College Football 1920s t:opp_hi
+# SCFB125 — College Football 1960s p:few_int
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1920&year_max=1929&order_by=points_opp&order_by_asc=0&ccomp[1]=gt&cval[1]=350&cstat[1]=points_opp
-- Timestamp: 2026-09-28T06:31:47.508Z
-- Rows read: 0
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&order_by=pass_att&order_by_asc=0&ccomp[1]=gt&cval[1]=300&cstat[1]=pass_att&ccomp[2]=lt&cval[2]=5&cstat[2]=pass_int
+- Timestamp: 2026-09-28T08:15:14.151Z
+- Rows read: 1
 
 ## Result table
 
 ```
-
+header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_att | pass_int | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
+ |  |  | 1 | Jerry Rhome | 326 | 4 | 1964 | Tulsa | 10 | 224 | 326 | 102 | 68.7 | 2870 | 32 | 4 | 9.8 | 1.2 | 172.6 | 8.8 | 10.21 | 12.8 | 287.0 |  | 
 ```
 
 ## Claim check
 
-- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.
+- Complete set: all 1 rows read. A superlative may be asserted only if it holds across every row above.

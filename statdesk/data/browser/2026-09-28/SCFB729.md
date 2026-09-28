@@ -1,215 +1,215 @@
-# SCFB729 — College Football 2010s p:t_rec
+# SCFB729 — College Football 2010s p:x_py
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season_combined&year_min=2010&year_max=2019&order_by=rec&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=rec
-- Timestamp: 2026-09-28T07:15:53.848Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&order_by=pass_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pass_yds
+- Timestamp: 2026-09-28T08:57:56.154Z
 - Rows read: 200
 - CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec | year_min | year_max | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | teams_played_for_career
- |  |  | 1 | Zay Jones | 399 | 2013 | 2016 | 49 | 399 | 4279 | 10.7 | 23 | 87.3 | WR | East Carolina
- |  |  | 2 | Justin Hardy | 387 | 2011 | 2014 | 49 | 387 | 4541 | 11.7 | 35 | 92.7 | WR | East Carolina
- |  |  | 3 | Corey Davis | 332 | 2013 | 2016 | 50 | 332 | 5285 | 15.9 | 52 | 105.7 | WR | Western Michigan
- |  |  | 4 | Trent Taylor | 327 | 2013 | 2016 | 51 | 327 | 4179 | 12.8 | 32 | 81.9 | WR | Louisiana Tech
- |  |  | 5 | Tommy Shuler | 322 | 2011 | 2014 | 50 | 322 | 3563 | 11.1 | 25 | 71.3 | WR | Marshall
- |  |  | 6 | Gabe Marks | 316 | 2012 | 2016 | 50 | 316 | 3453 | 10.9 | 37 | 69.1 | WR | Washington State
- |  |  | 7 | James Proche | 301 | 2016 | 2019 | 50 | 301 | 3949 | 13.1 | 39 | 79.0 | WR | SMU
- |  |  | 8 | Nelson Spruce | 294 | 2012 | 2015 | 49 | 294 | 3347 | 11.4 | 23 | 68.3 | WR | Colorado
- |  |  | 9 | J.D. McKissic | 289 | 2011 | 2015 | 51 | 289 | 2838 | 9.8 | 11 | 55.6 | WR | Arkansas State
- |  |  | 10 | Jamison Crowder | 283 | 2011 | 2014 | 52 | 283 | 3641 | 12.9 | 23 | 70.0 | WR | Duke
- |  |  | 11 | Tajae Sharpe | 277 | 2012 | 2015 | 47 | 277 | 3486 | 12.6 | 16 | 74.2 | WR | Massachusetts
- |  |  | 12 | KeeSean Johnson | 275 | 2014 | 2018 | 53 | 275 | 3463 | 12.6 | 24 | 65.3 |  | Fresno State
- |  |  | 13 | Nick Harwell | 273 | 2010 | 2014 | 46 | 273 | 3636 | 13.3 | 28 | 79.0 | WR | Kansas,Miami (OH)
- |  |  | 14 | Tavon Austin | 273 | 2010 | 2012 | 39 | 273 | 3262 | 11.9 | 28 | 83.6 | WR | West Virginia
- |  |  | 15 | Rashad Greene | 270 | 2011 | 2014 | 51 | 270 | 3830 | 14.2 | 29 | 75.1 | WR | Florida State
- |  |  | 16 | Jordan Matthews | 262 | 2010 | 2013 | 51 | 262 | 3759 | 14.3 | 24 | 73.7 | WR | Vanderbilt
- |  |  | 17 | Cody Hoffman | 260 | 2010 | 2013 | 50 | 260 | 3612 | 13.9 | 33 | 72.2 | WR | BYU
- |  |  | 18 | Ty Lee | 260 | 2016 | 2019 | 52 | 260 | 3062 | 11.8 | 24 | 58.9 | WR | Middle Tennessee State
- |  |  | 19 | Eric Ward | 255 | 2010 | 2013 | 47 | 255 | 2863 | 11.2 | 31 | 60.9 | WR | Texas Tech
- |  |  | 20 | Jakeem Grant | 254 | 2012 | 2015 | 49 | 254 | 3286 | 12.9 | 27 | 67.1 | WR | Texas Tech
- |  |  | 21 | Tyler Boyd | 254 | 2013 | 2015 | 38 | 254 | 3361 | 13.2 | 21 | 88.4 | WR | Pitt
- |  |  | 22 | Taywan Taylor | 253 | 2013 | 2016 | 51 | 253 | 4234 | 16.7 | 41 | 83.0 | WR | Western Kentucky
- |  |  | 23 | T.J. Rahming | 253 | 2015 | 2018 | 50 | 253 | 2919 | 11.5 | 13 | 58.4 | WR | Duke
- |  |  | 24 | Robert Woods | 252 | 2010 | 2012 | 38 | 252 | 2930 | 11.6 | 32 | 77.1 | WR | USC
- |  |  | 25 | Olamide Zaccheaus | 250 | 2015 | 2018 | 50 | 250 | 2753 | 11.0 | 22 | 55.1 | WR | Virginia
- |  |  | 26 | Tyler Lockett | 249 | 2011 | 2014 | 47 | 249 | 3710 | 14.9 | 29 | 78.9 | WR | Kansas State
- |  |  | 27 | Chandler Jones | 248 | 2010 | 2013 | 50 | 248 | 3087 | 12.4 | 29 | 61.7 | WR | San Jose State
- |  |  | 28 | Marqise Lee | 248 | 2011 | 2013 | 36 | 248 | 3655 | 14.7 | 29 | 101.5 | WR | USC
- |  |  | 29 | Artavis Scott | 245 | 2014 | 2016 | 43 | 245 | 2480 | 10.1 | 19 | 57.7 | WR | Clemson
- |  |  | 30 | Kevonn Mabon | 244 | 2012 | 2016 | 51 | 244 | 2862 | 11.7 | 12 | 56.1 | WR | Ball State
- |  |  | 31 | Matt Miller | 244 | 2011 | 2014 | 44 | 244 | 3049 | 12.5 | 29 | 69.3 | WR | Boise State
- |  |  | 32 | Richie James | 244 | 2015 | 2017 | 31 | 244 | 3261 | 13.4 | 23 | 105.2 | WR | Middle Tennessee State
- |  |  | 33 | Ryan Switzer | 244 | 2013 | 2016 | 53 | 244 | 2912 | 11.9 | 19 | 54.9 | WR | North Carolina
- |  |  | 34 | Keevan Lucas | 240 | 2013 | 2016 | 41 | 240 | 3250 | 13.5 | 32 | 79.3 | WR | Tulsa
- |  |  | 35 | Sammy Watkins | 240 | 2011 | 2013 | 36 | 240 | 3391 | 14.1 | 27 | 94.2 | WR | Clemson
- |  |  | 36 | Shaq Washington | 240 | 2011 | 2015 | 49 | 240 | 2563 | 10.7 | 11 | 52.3 | WR | Cincinnati
- |  |  | 37 | Rashard Higgins | 239 | 2013 | 2015 | 38 | 239 | 3649 | 15.3 | 31 | 96.0 | WR | Colorado State
- |  |  | 38 | Anthony Miller | 238 | 2015 | 2017 | 38 | 238 | 3590 | 15.1 | 37 | 94.5 | WR | Memphis
- |  |  | 39 | Noel Grigsby | 237 | 2010 | 2013 | 40 | 237 | 3121 | 13.2 | 17 | 78.0 | WR | San Jose State
- |  |  | 40 | Cam Phillips | 236 | 2014 | 2017 | 52 | 236 | 3027 | 12.8 | 17 | 58.2 | WR | Virginia Tech
- |  |  | 41 | Bryan Edwards | 234 | 2016 | 2019 | 48 | 234 | 3045 | 13.0 | 22 | 63.4 | WR | South Carolina
- |  |  | 42 | Christian Kirk | 234 | 2015 | 2017 | 39 | 234 | 2856 | 12.2 | 26 | 73.2 | WR | Texas A&M
- |  |  | 43 | Jordan White | 234 | 2010 | 2011 | 25 | 234 | 3289 | 14.1 | 27 | 131.6 | WR | Western Michigan
- |  |  | 44 | Davante Adams | 233 | 2012 | 2013 | 26 | 233 | 3031 | 13.0 | 38 | 116.6 | WR | Fresno State
- |  |  | 45 | Justin Blackmon | 233 | 2010 | 2011 | 25 | 233 | 3304 | 14.2 | 38 | 132.2 | WR | Oklahoma State
- |  |  | 46 | Ryan Swope | 233 | 2010 | 2012 | 39 | 233 | 2945 | 12.6 | 23 | 75.5 | WR | Texas A&M
- |  |  | 47 | Shane Williams-Rhodes | 233 | 2012 | 2015 | 49 | 233 | 1953 | 8.4 | 14 | 39.9 | WR | Boise State
- |  |  | 48 | Sterling Shepard | 233 | 2012 | 2015 | 50 | 233 | 3482 | 14.9 | 26 | 69.6 | WR | Oklahoma
- |  |  | 49 | Teddy Veal | 232 | 2014 | 2018 | 49 | 232 | 2691 | 11.6 | 14 | 54.9 | WR | Louisiana Tech,Tulane
- |  |  | 50 | Andy Isabella | 231 | 2015 | 2018 | 45 | 231 | 3526 | 15.3 | 30 | 78.4 | RB | Massachusetts
- |  |  | 51 | Michael Campanaro | 229 | 2010 | 2013 | 42 | 229 | 2506 | 10.9 | 14 | 59.7 | WR | Wake Forest
- |  |  | 52 | Amari Cooper | 228 | 2012 | 2014 | 39 | 228 | 3463 | 15.2 | 31 | 88.8 | WR | Alabama
- |  |  | 53 | Conner Vernon | 228 | 2010 | 2012 | 37 | 228 | 3003 | 13.2 | 18 | 81.2 | WR | Duke
- |  |  | 54 | Josh Harper | 228 | 2011 | 2014 | 42 | 228 | 2938 | 12.9 | 29 | 70.0 | WR | Fresno State
- |  |  | 55 | Brandin Cooks | 226 | 2011 | 2013 | 38 | 226 | 3272 | 14.5 | 24 | 86.1 | WR | Oregon State
- |  |  | 56 | James Washington | 226 | 2014 | 2017 | 52 | 226 | 4472 | 19.8 | 39 | 86.0 | WR | Oklahoma State
- |  |  | 57 | Calvin Ridley | 224 | 2015 | 2017 | 44 | 224 | 2781 | 12.4 | 19 | 63.2 | WR | Alabama
- |  |  | 58 | Eric Page | 224 | 2010 | 2011 | 26 | 224 | 2287 | 10.2 | 18 | 88.0 | WR | Toledo
- |  |  | 59 | Thomas Sperbeck | 224 | 2013 | 2016 | 45 | 224 | 3601 | 16.1 | 20 | 80.0 | WR | Boise State
- |  |  | 60 | Ervin Philips | 223 | 2014 | 2017 | 46 | 223 | 2069 | 9.3 | 15 | 45.0 | WR | Syracuse
- |  |  | 61 | Willie Snead | 223 | 2011 | 2013 | 37 | 223 | 2991 | 13.4 | 26 | 80.8 | WR | Ball State
- |  |  | 62 | D.J. Foster | 222 | 2012 | 2015 | 53 | 222 | 2458 | 11.1 | 14 | 46.4 | WR | Arizona State
- |  |  | 63 | Robert Davis | 222 | 2013 | 2016 | 49 | 222 | 3391 | 15.3 | 17 | 69.2 | WR | Georgia State
- |  |  | 64 | Darius Johnson | 221 | 2010 | 2012 | 37 | 221 | 2750 | 12.4 | 19 | 74.3 | WR | SMU
- |  |  | 65 | Keyarris Garrett | 219 | 2011 | 2015 | 46 | 219 | 3209 | 14.7 | 22 | 69.8 | WR | Tulsa
- |  |  | 66 | Markus Wheaton | 219 | 2010 | 2012 | 37 | 219 | 2905 | 13.3 | 16 | 78.5 | WR | Oregon State
- |  |  | 67 | Steve Ishmael | 219 | 2014 | 2017 | 47 | 219 | 2891 | 13.2 | 18 | 61.5 | WR | Syracuse
- |  |  | 68 | Jaxon Shipley | 218 | 2011 | 2014 | 48 | 218 | 2510 | 11.5 | 11 | 52.3 | WR | Texas
- |  |  | 69 | River Cracraft | 218 | 2013 | 2016 | 41 | 218 | 2701 | 12.4 | 20 | 65.9 | WR | Washington State
- |  |  | 70 | Josh Doctson | 215 | 2011 | 2015 | 46 | 215 | 3178 | 14.8 | 34 | 69.1 | WR | Texas Christian,Wyoming
- |  |  | 71 | Scott Miller | 215 | 2015 | 2018 | 45 | 215 | 2867 | 13.3 | 23 | 63.7 | WR | Bowling Green
- |  |  | 72 | DaeSean Hamilton | 214 | 2014 | 2017 | 53 | 214 | 2842 | 13.3 | 18 | 53.6 | WR | Penn State
- |  |  | 73 | Ryan Broyles | 214 | 2010 | 2011 | 23 | 214 | 2779 | 13.0 | 24 | 120.8 | WR | Oklahoma
- |  |  | 74 | Steven Sims Jr. | 214 | 2015 | 2018 | 47 | 214 | 2582 | 12.1 | 19 | 54.9 | WR | Kansas
- |  |  | 75 | Daniel Braverman | 213 | 2012 | 2015 | 37 | 213 | 2509 | 11.8 | 19 | 67.8 | WR | Western Michigan
- |  |  | 76 | JuJu Smith-Schuster | 213 | 2014 | 2016 | 40 | 213 | 3092 | 14.5 | 25 | 77.3 | WR | USC
- |  |  | 77 | N'Keal Harry | 213 | 2016 | 2018 | 37 | 213 | 2889 | 13.6 | 22 | 78.1 | WR | Arizona State
- |  |  | 78 | Isaiah Burse | 210 | 2010 | 2013 | 52 | 210 | 2503 | 11.9 | 15 | 48.1 | WR | Fresno State
- |  |  | 79 | Isaiah Ford | 210 | 2014 | 2016 | 40 | 210 | 2967 | 14.1 | 24 | 74.2 | WR | Virginia Tech
- |  |  | 80 | Lucky Jackson | 210 | 2016 | 2019 | 51 | 210 | 2691 | 12.8 | 13 | 52.8 | WR | Western Kentucky
- |  |  | 81 | Stedman Bailey | 210 | 2010 | 2012 | 39 | 210 | 3218 | 15.3 | 41 | 82.5 | WR | West Virginia
- |  |  | 82 | Brandon Wimberly | 208 | 2010 | 2013 | 39 | 208 | 2316 | 11.1 | 12 | 59.4 | WR | Nevada
- |  |  | 83 | Justin Hall | 208 | 2017 | 2019 | 36 | 208 | 2107 | 10.1 | 9 | 58.5 | WR | Ball State
- |  |  | 84 | Brent Leonard | 206 | 2010 | 2012 | 37 | 206 | 2246 | 10.9 | 17 | 60.7 | WR | Louisiana-Monroe
- |  |  | 85 | Deandre Hopkins | 206 | 2010 | 2012 | 39 | 206 | 3020 | 14.7 | 27 | 77.4 | WR | Clemson
- |  |  | 86 | Cody Wilson | 205 | 2010 | 2012 | 35 | 205 | 2508 | 12.2 | 11 | 71.7 | WR | Central Michigan
- |  |  | 87 | Keenan Allen | 205 | 2010 | 2012 | 33 | 205 | 2570 | 12.5 | 17 | 77.9 | WR | California
- |  |  | 88 | Quinshad Davis | 205 | 2012 | 2015 | 52 | 205 | 2614 | 12.8 | 25 | 50.3 | WR | North Carolina
- |  |  | 89 | Jalen McCleskey | 204 | 2015 | 2019 | 56 | 204 | 2446 | 12.0 | 21 | 43.7 | WR | Oklahoma State,Tulane
- |  |  | 90 | Kenny Stills | 204 | 2010 | 2012 | 38 | 204 | 2594 | 12.7 | 24 | 68.3 | WR | Oklahoma
- |  |  | 91 | Titus Davis | 204 | 2011 | 2014 | 45 | 204 | 3700 | 18.1 | 37 | 82.2 | WR | Central Michigan
- |  |  | 92 | Dominic Rufran | 203 | 2011 | 2014 | 49 | 203 | 2492 | 12.3 | 15 | 50.9 | WR | Wyoming
- |  |  | 93 | Jalen Saunders | 203 | 2010 | 2013 | 48 | 203 | 3085 | 15.2 | 26 | 64.3 | WR | Fresno State,Oklahoma
- |  |  | 94 | Jaydon Mickens | 203 | 2012 | 2015 | 53 | 203 | 2187 | 10.8 | 12 | 41.3 | WR | Washington
- |  |  | 95 | Linell Bonner | 203 | 2015 | 2017 | 35 | 203 | 2324 | 11.4 | 13 | 66.4 | WR | Houston
- |  |  | 96 | Marcus Green | 203 | 2015 | 2018 | 48 | 203 | 2726 | 13.4 | 24 | 56.8 | WR | Louisiana-Monroe
- |  |  | 97 | Alonzo Russell | 202 | 2012 | 2015 | 50 | 202 | 3076 | 15.2 | 24 | 61.5 | WR | Toledo
- |  |  | 98 | Devin Street | 202 | 2010 | 2013 | 49 | 202 | 2901 | 14.4 | 16 | 59.2 | WR | Pitt
- |  |  | 99 | Jamal Morrow | 202 | 2014 | 2017 | 50 | 202 | 1748 | 8.7 | 14 | 35.0 | RB | Washington State
- |  |  | 100 | James Williams | 202 | 2016 | 2018 | 39 | 202 | 1437 | 7.1 | 8 | 36.8 | RB | Washington State
- |  |  | 101 | Jared Abbrederis | 202 | 2010 | 2013 | 53 | 202 | 3140 | 15.5 | 23 | 59.2 | WR | Wisconsin
- |  |  | 102 | Jaylen Samuels | 202 | 2014 | 2017 | 52 | 202 | 1855 | 9.2 | 19 | 35.7 | TE | North Carolina State
- |  |  | 103 | Joshua Atkinson | 202 | 2012 | 2016 | 44 | 202 | 2654 | 13.1 | 14 | 60.3 | WR | Tulsa
- |  |  | 104 | Laquon Treadwell | 202 | 2013 | 2015 | 35 | 202 | 2393 | 11.8 | 21 | 68.4 | WR | Ole Miss
- |  |  | 105 | Penny Hart | 202 | 2015 | 2018 | 39 | 202 | 2950 | 14.6 | 19 | 75.6 | WR | Georgia State
- |  |  | 106 | Deontay Greenberry | 201 | 2012 | 2014 | 37 | 201 | 2612 | 13.0 | 20 | 70.6 | WR | Houston
- |  |  | 107 | Jordan Payton | 201 | 2012 | 2015 | 51 | 201 | 2702 | 13.4 | 14 | 53.0 | WR | UCLA
- |  |  | 108 | K.J. Hill | 201 | 2016 | 2019 | 53 | 201 | 2332 | 11.6 | 20 | 44.0 | WR | Ohio State
- |  |  | 109 | OJ Clark | 201 | 2015 | 2019 | 50 | 201 | 1814 | 9.0 | 6 | 36.3 | WR | New Mexico State
- |  |  | 110 | Jordan Williams | 200 | 2012 | 2015 | 43 | 200 | 2723 | 13.6 | 23 | 63.3 | WR | Ball State
- |  |  | 111 | Mike Davis | 200 | 2010 | 2013 | 49 | 200 | 2753 | 13.8 | 18 | 56.2 | WR | Texas
- |  |  | 112 | Fred Ross | 199 | 2013 | 2016 | 44 | 199 | 2528 | 12.7 | 22 | 57.5 | WR | Mississippi State
- |  |  | 113 | Terrance Williams | 199 | 2010 | 2012 | 39 | 199 | 3273 | 16.4 | 27 | 83.9 | WR | Baylor
- |  |  | 114 | Tyler Johnson | 199 | 2016 | 2019 | 47 | 199 | 3094 | 15.5 | 30 | 65.8 | WR | Minnesota
- |  |  | 115 | Devonte Boyd | 198 | 2014 | 2017 | 47 | 198 | 3242 | 16.4 | 18 | 69.0 | WR | Nevada-Las Vegas
- |  |  | 116 | Kalija Lipscomb | 198 | 2016 | 2019 | 48 | 198 | 2356 | 11.9 | 22 | 49.1 | WR | Vanderbilt
- |  |  | 117 | Ronnie Moore | 198 | 2013 | 2016 | 54 | 198 | 2704 | 13.7 | 19 | 50.1 | WR | Bowling Green
- |  |  | 118 | Allen Lazard | 197 | 2014 | 2017 | 49 | 197 | 2621 | 13.3 | 19 | 53.5 | WR | Iowa State
- |  |  | 119 | Carlos Harris | 197 | 2012 | 2015 | 47 | 197 | 2396 | 12.2 | 13 | 51.0 | WR | North Texas
- |  |  | 120 | Eric Thomas | 197 | 2010 | 2013 | 47 | 197 | 2655 | 13.5 | 29 | 56.5 | WR | Troy
- |  |  | 121 | Jeremy Johnson | 196 | 2010 | 2013 | 40 | 196 | 1936 | 9.9 | 10 | 48.4 | WR | SMU
- |  |  | 122 | Alex Neutz | 195 | 2010 | 2013 | 44 | 195 | 3094 | 15.9 | 31 | 70.3 | WR | Buffalo
- |  |  | 123 | Bernard Reedy | 195 | 2010 | 2013 | 50 | 195 | 2743 | 14.1 | 23 | 54.9 | WR | Toledo
- |  |  | 124 | Bryce Treggs | 195 | 2012 | 2015 | 46 | 195 | 2506 | 12.9 | 15 | 54.5 | WR | California
- |  |  | 125 | Courtland Sutton | 195 | 2014 | 2017 | 40 | 195 | 3220 | 16.5 | 31 | 80.5 | WR | SMU
- |  |  | 126 | K.D. Cannon | 195 | 2014 | 2016 | 38 | 195 | 3113 | 16.0 | 27 | 81.9 | WR | Baylor
- |  |  | 127 | Taquan Mizzell | 195 | 2013 | 2016 | 46 | 195 | 1560 | 8.0 | 7 | 33.9 | RB | Virginia
- |  |  | 128 | Nicholas Norris | 194 | 2013 | 2016 | 52 | 194 | 3091 | 15.9 | 26 | 59.4 | WR | Western Kentucky
- |  |  | 129 | Shay Fields | 194 | 2014 | 2017 | 50 | 194 | 2590 | 13.4 | 21 | 51.8 | WR | Colorado
- |  |  | 130 | Rashon Ceaser | 193 | 2012 | 2015 | 42 | 193 | 2423 | 12.6 | 12 | 57.7 | WR | Louisiana-Monroe
- |  |  | 131 | Dom Williams | 192 | 2012 | 2015 | 49 | 192 | 2889 | 15.0 | 30 | 59.0 | WR | Washington State
- |  |  | 132 | Zach Pascal | 192 | 2014 | 2016 | 37 | 192 | 2659 | 13.8 | 24 | 71.9 | WR | Old Dominion
- |  |  | 133 | Alex Amidon | 191 | 2010 | 2013 | 46 | 191 | 2800 | 14.7 | 15 | 60.9 | WR | Boston College
- |  |  | 134 | Tavarese Maye | 191 | 2010 | 2013 | 45 | 191 | 2104 | 11.0 | 11 | 46.8 | WR | Louisiana-Monroe
- |  |  | 135 | A.J. Brown | 189 | 2016 | 2018 | 36 | 189 | 2984 | 15.8 | 19 | 82.9 | WR | Ole Miss
- |  |  | 136 | Corey Jones | 189 | 2013 | 2016 | 43 | 189 | 2236 | 11.8 | 15 | 52.0 | WR | Toledo
- |  |  | 137 | John Ursua | 189 | 2016 | 2018 | 33 | 189 | 2662 | 14.1 | 24 | 80.7 | WR | Hawaii
- |  |  | 138 | Marquess Wilson | 189 | 2010 | 2012 | 33 | 189 | 3207 | 17.0 | 23 | 97.2 | WR | Washington State
- |  |  | 139 | Ryan Burbrink | 189 | 2012 | 2015 | 52 | 189 | 2213 | 11.7 | 9 | 42.6 | WR | Bowling Green
- |  |  | 140 | Shane Wynn | 189 | 2011 | 2014 | 48 | 189 | 2198 | 11.6 | 20 | 45.8 | WR | Indiana
- |  |  | 141 | Stanley Morgan Jr. | 189 | 2015 | 2018 | 49 | 189 | 2747 | 14.5 | 22 | 56.1 | WR | Nebraska
- |  |  | 142 | Trevon Brown | 189 | 2014 | 2018 | 41 | 189 | 2952 | 15.6 | 24 | 72.0 | WR | East Carolina
- |  |  | 143 | Tyler Vaughns | 189 | 2017 | 2019 | 39 | 189 | 2395 | 12.7 | 17 | 61.4 | WR | USC
- |  |  | 144 | Collin Johnson | 188 | 2016 | 2019 | 44 | 188 | 2624 | 14.0 | 15 | 59.6 | WR | Texas
- |  |  | 145 | Ryan Grant | 187 | 2010 | 2013 | 38 | 187 | 2730 | 14.6 | 20 | 71.8 | WR | Tulane
- |  |  | 146 | Tevin Reese | 187 | 2010 | 2013 | 47 | 187 | 3102 | 16.6 | 24 | 66.0 | WR | Baylor
- |  |  | 147 | Bruce Natson | 186 | 2012 | 2016 | 51 | 186 | 1868 | 10.0 | 15 | 36.6 | WR | Akron,Utah State
- |  |  | 148 | Denzel Mims | 186 | 2016 | 2019 | 48 | 186 | 2925 | 15.7 | 28 | 60.9 | WR | Baylor
- |  |  | 149 | Devante Davis | 186 | 2011 | 2014 | 45 | 186 | 2785 | 15.0 | 22 | 61.9 | WR | Nevada-Las Vegas
- |  |  | 150 | Hunter Renfrow | 186 | 2015 | 2018 | 55 | 186 | 2133 | 11.5 | 15 | 38.8 | WR | Clemson
- |  |  | 151 | Kendall Wright | 186 | 2010 | 2011 | 26 | 186 | 2615 | 14.1 | 21 | 100.6 | WR | Baylor
- |  |  | 152 | T.J. Moe | 186 | 2010 | 2012 | 38 | 186 | 2093 | 11.3 | 11 | 55.1 | WR | Missouri
- |  |  | 153 | Deshaunte Jones | 184 | 2016 | 2019 | 51 | 184 | 2052 | 11.2 | 12 | 40.2 | WR | Iowa State
- |  |  | 154 | Richy Turner | 184 | 2012 | 2014 | 37 | 184 | 2094 | 11.4 | 11 | 56.6 | WR | Nevada
- |  |  | 155 | Jonathan Duhart | 183 | 2014 | 2018 | 50 | 183 | 2664 | 14.6 | 28 | 53.3 | WR | Old Dominion
- |  |  | 156 | Noel Thomas | 183 | 2013 | 2016 | 41 | 183 | 2235 | 12.2 | 10 | 54.5 | WR | Connecticut
- |  |  | 157 | Quinton Patton | 183 | 2011 | 2012 | 25 | 183 | 2594 | 14.2 | 24 | 103.8 | WR | Louisiana Tech
- |  |  | 158 | Darren Carrington | 182 | 2014 | 2017 | 45 | 182 | 2899 | 15.9 | 21 | 64.4 | WR | Oregon,Utah
- |  |  | 159 | Cody Thompson | 181 | 2014 | 2018 | 56 | 181 | 3312 | 18.3 | 30 | 59.1 | WR | Toledo
- |  |  | 160 | Kenny Bell | 181 | 2011 | 2014 | 53 | 181 | 2689 | 14.9 | 21 | 50.7 | WR | Nebraska
- |  |  | 161 | T.J. Jones | 181 | 2010 | 2013 | 51 | 181 | 2429 | 13.4 | 19 | 47.6 | WR | Notre Dame
- |  |  | 162 | Jordan Leslie | 180 | 2011 | 2014 | 49 | 180 | 2794 | 15.5 | 21 | 57.0 | WR | BYU,UTEP
- |  |  | 163 | Josh Stewart | 180 | 2011 | 2013 | 38 | 180 | 2204 | 12.2 | 12 | 58.0 | WR | Oklahoma State
- |  |  | 164 | Steven Dunbar | 180 | 2014 | 2017 | 51 | 180 | 2430 | 13.5 | 11 | 47.6 | WR | Houston
- |  |  | 165 | Tanner Gentry | 180 | 2013 | 2016 | 42 | 180 | 2815 | 15.6 | 20 | 67.0 | WR | Wyoming
- |  |  | 166 | Michael Floyd | 179 | 2010 | 2011 | 25 | 179 | 2172 | 12.1 | 21 | 86.9 | WR | Notre Dame
- |  |  | 167 | Jonnu Smith | 178 | 2013 | 2016 | 43 | 178 | 2001 | 11.2 | 18 | 46.5 | TE | Florida International
- |  |  | 168 | Nelson Agholor | 178 | 2012 | 2014 | 40 | 178 | 2572 | 14.4 | 20 | 64.3 | WR | USC
- |  |  | 169 | Ryan Davis | 178 | 2015 | 2018 | 48 | 178 | 1555 | 8.7 | 7 | 32.4 | WR | Auburn
- |  |  | 170 | Allen Robinson | 177 | 2011 | 2013 | 35 | 177 | 2479 | 14.0 | 17 | 70.8 | WR | Penn State
- |  |  | 171 | Anthony McClung | 177 | 2010 | 2013 | 47 | 177 | 2378 | 13.4 | 15 | 50.6 | WR | Cincinnati
- |  |  | 172 | Cedric Byrd | 177 | 2018 | 2019 | 29 | 177 | 2067 | 11.7 | 19 | 71.3 | WR | Hawaii
- |  |  | 173 | Daikiel Shorts | 177 | 2013 | 2016 | 48 | 177 | 2263 | 12.8 | 14 | 47.1 | WR | West Virginia
- |  |  | 174 | Deondre Douglas | 177 | 2015 | 2018 | 49 | 177 | 2012 | 11.4 | 17 | 41.1 | WR | Troy
- |  |  | 175 | Jamill Smith | 177 | 2010 | 2013 | 49 | 177 | 2034 | 11.5 | 17 | 41.5 | WR | Ball State
- |  |  | 176 | Kelvin Harmon | 177 | 2016 | 2018 | 38 | 177 | 2665 | 15.1 | 16 | 70.1 | WR | North Carolina State
- |  |  | 177 | Mike Williams | 177 | 2013 | 2016 | 39 | 177 | 2727 | 15.4 | 21 | 69.9 | WR | Clemson
- |  |  | 178 | Omar Bayless | 177 | 2015 | 2019 | 49 | 177 | 2775 | 15.7 | 26 | 56.6 | WR | Arkansas State
- |  |  | 179 | Devin Duvernay | 176 | 2016 | 2019 | 51 | 176 | 2468 | 14.0 | 16 | 48.4 | WR | Texas
- |  |  | 180 | Eli Rogers | 176 | 2011 | 2014 | 52 | 176 | 2020 | 11.5 | 12 | 38.8 | WR | Louisville
- |  |  | 181 | Isaiah Hodgins | 176 | 2017 | 2019 | 34 | 176 | 2322 | 13.2 | 20 | 68.3 | WR | Oregon State
- |  |  | 182 | Jordan Taylor | 176 | 2011 | 2014 | 42 | 176 | 2588 | 14.7 | 20 | 61.6 | WR | Rice
- |  |  | 183 | Justin Hobbs | 176 | 2015 | 2018 | 50 | 176 | 2546 | 14.5 | 12 | 50.9 | WR | Tulsa
- |  |  | 184 | Marcus Kemp | 176 | 2013 | 2016 | 47 | 176 | 2570 | 14.6 | 13 | 54.7 | WR | Hawaii
- |  |  | 185 | Michael Gallup | 176 | 2016 | 2017 | 26 | 176 | 2685 | 15.3 | 21 | 103.3 | WR | Colorado State
- |  |  | 186 | Van Jefferson | 175 | 2016 | 2019 | 48 | 175 | 2159 | 12.3 | 16 | 45.0 | WR | Florida,Ole Miss
- |  |  | 187 | Cam Serigne | 174 | 2014 | 2017 | 49 | 174 | 2075 | 11.9 | 21 | 42.3 | TE | Wake Forest
- |  |  | 188 | Darius Joseph | 174 | 2011 | 2015 | 45 | 174 | 1404 | 8.1 | 9 | 31.2 | WR | SMU
- |  |  | 189 | Kamar Jorden | 174 | 2010 | 2011 | 24 | 174 | 2198 | 12.6 | 16 | 91.6 | WR | Bowling Green
- |  |  | 190 | Kevonte Martin-Manley | 174 | 2011 | 2014 | 50 | 174 | 1799 | 10.3 | 12 | 36.0 | WR | Iowa
- |  |  | 191 | Malcolm Mitchell | 174 | 2011 | 2015 | 46 | 174 | 2350 | 13.5 | 16 | 51.1 | WR | Georgia
- |  |  | 192 | CeeDee Lamb | 173 | 2017 | 2019 | 41 | 173 | 3292 | 19.0 | 32 | 80.3 | WR | Oklahoma
- |  |  | 193 | Cole Beasley | 173 | 2010 | 2011 | 26 | 173 | 2100 | 12.1 | 8 | 80.8 | WR | SMU
- |  |  | 194 | Corey Coleman | 173 | 2013 | 2015 | 34 | 173 | 3009 | 17.4 | 33 | 88.5 | WR | Baylor
- |  |  | 195 | Jeremy Gallon | 173 | 2010 | 2013 | 51 | 173 | 2704 | 15.6 | 17 | 53.0 | WR | Michigan
- |  |  | 196 | Ventell Bryant | 173 | 2015 | 2018 | 48 | 173 | 2444 | 14.1 | 10 | 50.9 | WR | Temple
- |  |  | 197 | Ajalen Holley | 172 | 2013 | 2016 | 44 | 172 | 2148 | 12.5 | 19 | 48.8 | WR | Louisiana-Monroe
- |  |  | 198 | Alec Lemon | 172 | 2010 | 2012 | 36 | 172 | 2301 | 13.4 | 17 | 63.9 | WR | Syracuse
- |  |  | 199 | Tommylee Lewis | 172 | 2011 | 2015 | 49 | 172 | 1680 | 9.8 | 11 | 34.3 | WR | Northern Illinois
- |  |  | 200 | Ty Montgomery | 172 | 2011 | 2014 | 49 | 172 | 2125 | 12.4 | 15 | 43.4 | WR | Stanford
+header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_yds | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
+ |  |  | 1 | Joe Burrow | 5671 | 2019 | LSU | 15 | 402 | 527 | 125 | 76.3 | 5671 | 60 | 6 | 11.4 | 1.1 | 202.0 | 10.8 | 12.53 | 14.1 | 378.1 | QB | SR
+ |  |  | 2 | Case Keenum | 5631 | 2011 | Houston | 14 | 428 | 603 | 175 | 71.0 | 5631 | 48 | 5 | 8.0 | 0.8 | 174.0 | 9.3 | 10.56 | 13.2 | 402.2 | QB | SR
+ |  |  | 3 | Anthony Gordon | 5579 | 2019 | Washington State | 13 | 493 | 689 | 196 | 71.6 | 5579 | 48 | 16 | 7.0 | 2.3 | 157.9 | 8.1 | 8.45 | 11.3 | 429.2 | QB | SR
+ |  |  | 4 | Derek Carr | 5083 | 2013 | Fresno State | 13 | 454 | 659 | 205 | 68.9 | 5083 | 50 | 8 | 7.6 | 1.2 | 156.3 | 7.7 | 8.68 | 11.2 | 391.0 | QB | SR
+ |  |  | 5 | Brandon Doughty | 5055 | 2015 | Western Kentucky | 14 | 388 | 540 | 152 | 71.9 | 5055 | 48 | 9 | 8.9 | 1.7 | 176.5 | 9.4 | 10.39 | 13.0 | 361.1 | QB | SR
+ |  |  | 6 | Patrick Mahomes | 5052 | 2016 | Texas Tech | 12 | 388 | 591 | 203 | 65.7 | 5052 | 41 | 10 | 6.9 | 1.7 | 157.0 | 8.5 | 9.17 | 13.0 | 421.0 | QB | JR
+ |  |  | 7 | Bryant Moniz | 5040 | 2010 | Hawaii | 14 | 361 | 555 | 194 | 65.0 | 5040 | 39 | 15 | 7.0 | 2.7 | 159.1 | 9.1 | 9.27 | 14.0 | 360.0 | QB | JR
+ |  |  | 8 | Matt Johnson | 4946 | 2015 | Bowling Green | 14 | 383 | 569 | 186 | 67.3 | 4946 | 46 | 8 | 8.1 | 1.4 | 164.2 | 8.7 | 9.68 | 12.9 | 353.3 | QB | SR
+ |  |  | 9 | Mason Rudolph | 4904 | 2017 | Oklahoma State | 13 | 318 | 489 | 171 | 65.0 | 4904 | 37 | 9 | 7.6 | 1.8 | 170.6 | 10.0 | 10.71 | 15.4 | 377.2 | QB | SR
+ |  |  | 10 | Dwayne Haskins | 4831 | 2018 | Ohio State | 14 | 373 | 533 | 160 | 70.0 | 4831 | 50 | 8 | 9.4 | 1.5 | 174.1 | 9.1 | 10.26 | 13.0 | 345.1 | QB | SO
+ |  |  | 11 | Brandon Doughty | 4830 | 2014 | Western Kentucky | 13 | 375 | 552 | 177 | 67.9 | 4830 | 49 | 10 | 8.9 | 1.8 | 167.1 | 8.8 | 9.71 | 12.9 | 371.5 | QB | SR
+ |  |  | 12 | Gardner Minshew | 4779 | 2018 | Washington State | 13 | 468 | 662 | 194 | 70.7 | 4779 | 38 | 9 | 5.7 | 1.4 | 147.6 | 7.2 | 7.76 | 10.2 | 367.6 | QB | SR
+ |  |  | 13 | Shane Carden | 4736 | 2014 | East Carolina | 13 | 392 | 617 | 225 | 63.5 | 4736 | 30 | 10 | 4.9 | 1.6 | 140.8 | 7.7 | 7.92 | 12.1 | 364.3 | QB | SR
+ |  |  | 14 | Brandon Weeden | 4727 | 2011 | Oklahoma State | 13 | 409 | 565 | 156 | 72.4 | 4727 | 37 | 13 | 6.5 | 2.3 | 159.7 | 8.4 | 8.64 | 11.6 | 363.6 | QB | SR
+ |  |  | 15 | Jared Goff | 4719 | 2015 | California | 13 | 341 | 529 | 188 | 64.5 | 4719 | 43 | 13 | 8.1 | 2.5 | 161.3 | 8.9 | 9.44 | 13.8 | 363.0 | QB | JR
+ |  |  | 16 | Landry Jones | 4718 | 2010 | Oklahoma | 14 | 405 | 617 | 212 | 65.6 | 4718 | 38 | 12 | 6.2 | 1.9 | 146.3 | 7.6 | 8.00 | 11.6 | 337.0 | QB | SO
+ |  |  | 17 | Sean Mannion | 4662 | 2013 | Oregon State | 13 | 400 | 603 | 203 | 66.3 | 4662 | 37 | 15 | 6.1 | 2.5 | 146.6 | 7.7 | 7.84 | 11.7 | 358.6 | QB | JR
+ |  |  | 18 | Patrick Mahomes | 4653 | 2015 | Texas Tech | 13 | 364 | 573 | 209 | 63.5 | 4653 | 36 | 15 | 6.3 | 2.6 | 147.2 | 8.1 | 8.20 | 12.8 | 357.9 | QB | SO
+ |  |  | 19 | Baker Mayfield | 4627 | 2017 | Oklahoma | 14 | 285 | 404 | 119 | 70.5 | 4627 | 43 | 6 | 10.6 | 1.5 | 198.9 | 11.5 | 12.91 | 16.2 | 330.5 | QB | SR
+ |  |  | 20 | Ryan Higgins | 4617 | 2016 | Louisiana Tech | 13 | 329 | 496 | 167 | 66.3 | 4617 | 41 | 8 | 8.3 | 1.6 | 168.6 | 9.3 | 10.24 | 14.0 | 355.2 | QB | SR
+ |  |  | 21 | Connor Halliday | 4597 | 2013 | Washington State | 13 | 449 | 714 | 265 | 62.9 | 4597 | 34 | 22 | 4.8 | 3.1 | 126.5 | 6.4 | 6.00 | 10.2 | 353.6 | QB | JR
+ |  |  | 22 | Deshaun Watson | 4593 | 2016 | Clemson | 15 | 388 | 579 | 191 | 67.0 | 4593 | 41 | 17 | 7.1 | 2.9 | 151.1 | 7.9 | 8.03 | 11.8 | 306.2 | QB | JR
+ |  |  | 23 | Luke Falk | 4566 | 2015 | Washington State | 12 | 448 | 645 | 197 | 69.5 | 4566 | 38 | 8 | 5.9 | 1.2 | 145.9 | 7.1 | 7.70 | 10.2 | 380.5 | QB | SO
+ |  |  | 24 | Nick Mullens | 4476 | 2015 | Southern Mississippi | 14 | 331 | 521 | 190 | 63.5 | 4476 | 38 | 12 | 7.3 | 2.3 | 155.2 | 8.6 | 9.01 | 13.5 | 319.7 | QB | JR
+ |  |  | 25 | Luke Falk | 4468 | 2016 | Washington State | 13 | 443 | 633 | 190 | 70.0 | 4468 | 38 | 11 | 6.0 | 1.7 | 145.6 | 7.1 | 7.48 | 10.1 | 343.7 | QB | JR
+ |  |  | 26 | Landry Jones | 4463 | 2011 | Oklahoma | 13 | 355 | 562 | 207 | 63.2 | 4463 | 29 | 15 | 5.2 | 2.7 | 141.6 | 7.9 | 7.77 | 12.6 | 343.3 | QB | JR
+ |  |  | 27 | Marcus Mariota | 4454 | 2014 | Oregon | 15 | 304 | 445 | 141 | 68.3 | 4454 | 42 | 4 | 9.4 | 0.9 | 181.7 | 10.0 | 11.49 | 14.7 | 296.9 | QB | JR
+ |  |  | 28 | Geno Smith | 4385 | 2011 | West Virginia | 13 | 346 | 526 | 180 | 65.8 | 4385 | 31 | 7 | 5.9 | 1.3 | 152.6 | 8.3 | 8.92 | 12.7 | 337.3 | QB | JR
+ |  |  | 29 | Nick Arbuckle | 4368 | 2015 | Georgia State | 13 | 307 | 486 | 179 | 63.2 | 4368 | 28 | 12 | 5.8 | 2.5 | 152.7 | 9.0 | 9.03 | 14.2 | 336.0 | QB | SR
+ |  |  | 30 | Mike White | 4363 | 2016 | Western Kentucky | 14 | 280 | 416 | 136 | 67.3 | 4363 | 37 | 7 | 8.9 | 1.7 | 181.4 | 10.5 | 11.51 | 15.6 | 311.6 | QB | JR
+ |  |  | 31 | Kyler Murray | 4361 | 2018 | Oklahoma | 14 | 260 | 377 | 117 | 69.0 | 4361 | 42 | 7 | 11.1 | 1.9 | 199.2 | 11.6 | 12.96 | 16.8 | 311.5 | QB | JR
+ |  |  | 32 | Nick Foles | 4334 | 2011 | Arizona | 12 | 387 | 560 | 173 | 69.1 | 4334 | 28 | 14 | 5.0 | 2.5 | 145.6 | 7.7 | 7.61 | 11.2 | 361.2 | QB | SR
+ |  |  | 33 | Dane Evans | 4332 | 2015 | Tulsa | 13 | 305 | 485 | 180 | 62.9 | 4332 | 25 | 8 | 5.2 | 1.6 | 151.6 | 8.9 | 9.22 | 14.2 | 333.2 | QB | JR
+ |  |  | 34 | Nick Florence | 4309 | 2012 | Baylor | 13 | 286 | 464 | 178 | 61.6 | 4309 | 33 | 13 | 7.1 | 2.8 | 157.5 | 9.3 | 9.45 | 15.1 | 331.5 | QB | SR
+ |  |  | 35 | Davis Webb | 4295 | 2016 | California | 12 | 382 | 620 | 238 | 61.6 | 4295 | 37 | 12 | 6.0 | 1.9 | 135.6 | 6.9 | 7.25 | 11.2 | 357.9 | QB | SR
+ |  |  | 36 | Robert Griffin III | 4293 | 2011 | Baylor | 13 | 291 | 402 | 111 | 72.4 | 4293 | 37 | 6 | 9.2 | 1.5 | 189.5 | 10.7 | 11.85 | 14.8 | 330.2 | QB | JR
+ |  |  | 37 | Brandon Weeden | 4277 | 2010 | Oklahoma State | 13 | 342 | 511 | 169 | 66.9 | 4277 | 34 | 13 | 6.7 | 2.5 | 154.1 | 8.4 | 8.56 | 12.5 | 329.0 | QB | JR
+ |  |  | 38 | Landry Jones | 4267 | 2012 | Oklahoma | 13 | 367 | 555 | 188 | 66.1 | 4267 | 30 | 11 | 5.4 | 2.0 | 144.6 | 7.7 | 7.88 | 11.6 | 328.2 | QB | SR
+ |  |  | 39 | Riley Ferguson | 4257 | 2017 | Memphis | 13 | 299 | 474 | 175 | 63.1 | 4257 | 38 | 9 | 8.0 | 1.9 | 161.2 | 9.0 | 9.73 | 14.2 | 327.5 | QB | SR
+ |  |  | 40 | Geno Smith | 4205 | 2012 | West Virginia | 13 | 369 | 518 | 149 | 71.2 | 4205 | 42 | 6 | 8.1 | 1.2 | 163.9 | 8.1 | 9.22 | 11.4 | 323.5 | QB | SR
+ |  |  | 41 | Seth Doege | 4205 | 2012 | Texas Tech | 13 | 380 | 541 | 161 | 70.2 | 4205 | 39 | 16 | 7.2 | 3.0 | 153.4 | 7.8 | 7.88 | 11.1 | 323.5 | QB | SR
+ |  |  | 42 | Rakeem Cato | 4201 | 2012 | Marshall | 12 | 406 | 584 | 178 | 69.5 | 4201 | 37 | 11 | 6.3 | 1.9 | 147.1 | 7.2 | 7.61 | 10.3 | 350.1 | QB | SO
+ |  |  | 43 | Bryce Petty | 4200 | 2013 | Baylor | 13 | 250 | 403 | 153 | 62.0 | 4200 | 32 | 3 | 7.9 | 0.7 | 174.3 | 10.4 | 11.67 | 16.8 | 323.1 | QB | JR
+ |  |  | 44 | David Fales | 4193 | 2012 | San Jose State | 13 | 327 | 451 | 124 | 72.5 | 4193 | 33 | 9 | 7.3 | 2.0 | 170.8 | 9.3 | 9.86 | 12.8 | 322.5 | QB | JR
+ |  |  | 45 | David Fales | 4189 | 2013 | San Jose State | 12 | 312 | 487 | 175 | 64.1 | 4189 | 33 | 13 | 6.8 | 2.7 | 153.3 | 8.6 | 8.76 | 13.4 | 349.1 | QB | SR
+ |  |  | 46 | Mike White | 4177 | 2017 | Western Kentucky | 13 | 368 | 560 | 192 | 65.7 | 4177 | 26 | 8 | 4.6 | 1.4 | 140.8 | 7.5 | 7.74 | 11.4 | 321.3 | QB | SR
+ |  |  | 47 | Keith Wenning | 4148 | 2013 | Ball State | 13 | 319 | 498 | 179 | 64.1 | 4148 | 35 | 7 | 7.0 | 1.4 | 154.4 | 8.3 | 9.10 | 13.0 | 319.1 | QB | SR
+ |  |  | 48 | Colby Cameron | 4147 | 2012 | Louisiana Tech | 12 | 359 | 522 | 163 | 68.8 | 4147 | 31 | 5 | 5.9 | 1.0 | 153.2 | 7.9 | 8.70 | 11.6 | 345.6 | QB | SR
+ |  |  | 49 | Sam Darnold | 4143 | 2017 | USC | 14 | 303 | 480 | 177 | 63.1 | 4143 | 26 | 13 | 5.4 | 2.7 | 148.1 | 8.6 | 8.50 | 13.7 | 295.9 | QB | SO
+ |  |  | 50 | Shane Carden | 4139 | 2013 | East Carolina | 13 | 387 | 549 | 162 | 70.5 | 4139 | 33 | 10 | 6.0 | 1.8 | 150.0 | 7.5 | 7.92 | 10.7 | 318.4 | QB | JR
+ |  |  | 51 | Cole McDonald | 4135 | 2019 | Hawaii | 14 | 326 | 511 | 185 | 63.8 | 4135 | 33 | 14 | 6.5 | 2.7 | 147.6 | 8.1 | 8.15 | 12.7 | 295.4 | QB | JR
+ |  |  | 52 | Logan Woodside | 4129 | 2016 | Toledo | 13 | 289 | 418 | 129 | 69.1 | 4129 | 45 | 9 | 10.8 | 2.2 | 183.3 | 9.9 | 11.06 | 14.3 | 317.6 | QB | JR
+ |  |  | 53 | Johnny Manziel | 4114 | 2013 | Texas A&M | 13 | 300 | 429 | 129 | 69.9 | 4114 | 37 | 13 | 8.6 | 3.0 | 172.9 | 9.6 | 9.95 | 13.7 | 316.5 | QB | SO
+ |  |  | 54 | Derek Carr | 4104 | 2012 | Fresno State | 13 | 344 | 511 | 167 | 67.3 | 4104 | 37 | 7 | 7.2 | 1.4 | 155.9 | 8.0 | 8.86 | 11.9 | 315.7 | QB | JR
+ |  |  | 55 | Deshaun Watson | 4104 | 2015 | Clemson | 15 | 333 | 491 | 158 | 67.8 | 4104 | 35 | 13 | 7.1 | 2.6 | 156.3 | 8.4 | 8.59 | 12.3 | 273.6 | QB | SO
+ |  |  | 56 | Mason Rudolph | 4091 | 2016 | Oklahoma State | 13 | 284 | 448 | 164 | 63.4 | 4091 | 28 | 4 | 6.3 | 0.9 | 158.9 | 9.1 | 9.98 | 14.4 | 314.7 | QB | JR
+ |  |  | 57 | Jameis Winston | 4057 | 2013 | Florida State | 14 | 257 | 384 | 127 | 66.9 | 4057 | 40 | 10 | 10.4 | 2.6 | 184.8 | 10.6 | 11.48 | 15.8 | 289.8 | QB | FR
+ |  |  | 58 | Mason Fine | 4052 | 2017 | North Texas | 14 | 324 | 511 | 187 | 63.4 | 4052 | 31 | 15 | 6.1 | 2.9 | 144.2 | 7.9 | 7.82 | 12.5 | 289.4 | QB | SO
+ |  |  | 59 | Chad Kelly | 4042 | 2015 | Ole Miss | 13 | 298 | 458 | 160 | 65.1 | 4042 | 31 | 13 | 6.8 | 2.8 | 155.9 | 8.8 | 8.90 | 13.6 | 310.9 | QB | JR
+ |  |  | 60 | McKenzie Milton | 4037 | 2017 | UCF | 13 | 265 | 395 | 130 | 67.1 | 4037 | 37 | 9 | 9.4 | 2.3 | 179.3 | 10.2 | 11.07 | 15.2 | 310.5 | QB | SO
+ |  |  | 61 | Brock Osweiler | 4036 | 2011 | Arizona State | 13 | 326 | 516 | 190 | 63.2 | 4036 | 26 | 13 | 5.0 | 2.5 | 140.5 | 7.8 | 7.70 | 12.4 | 310.5 | QB | JR
+ |  |  | 62 | Jeff Driskel | 4033 | 2015 | Louisiana Tech | 13 | 281 | 450 | 169 | 62.4 | 4033 | 27 | 8 | 6.0 | 1.8 | 154.0 | 9.0 | 9.36 | 14.4 | 310.2 | QB | SR
+ |  |  | 63 | Mike Glennon | 4031 | 2012 | North Carolina State | 13 | 330 | 564 | 234 | 58.5 | 4031 | 31 | 17 | 5.5 | 3.0 | 130.7 | 7.1 | 6.89 | 12.2 | 310.1 | QB | SR
+ |  |  | 64 | Tyler Rogers | 4016 | 2017 | New Mexico State | 12 | 348 | 566 | 218 | 61.5 | 4016 | 27 | 18 | 4.8 | 3.2 | 130.5 | 7.1 | 6.62 | 11.5 | 334.7 | QB | SR
+ |  |  | 65 | Brady White | 4014 | 2019 | Memphis | 14 | 269 | 420 | 151 | 64.0 | 4014 | 33 | 11 | 7.9 | 2.6 | 165.0 | 9.6 | 9.95 | 14.9 | 286.7 | QB | JR
+ |  |  | 66 | Garrett Grayson | 4006 | 2014 | Colorado State | 13 | 270 | 420 | 150 | 64.3 | 4006 | 32 | 7 | 7.6 | 1.7 | 166.2 | 9.5 | 10.31 | 14.8 | 308.2 | QB | SR
+ |  |  | 67 | Brent Stockstill | 4005 | 2015 | Middle Tennessee State | 13 | 327 | 490 | 163 | 66.7 | 4005 | 30 | 9 | 6.1 | 1.8 | 151.9 | 8.2 | 8.57 | 12.2 | 308.1 | QB | FR
+ |  |  | 68 | Seth Doege | 4004 | 2011 | Texas Tech | 12 | 398 | 581 | 183 | 68.5 | 4004 | 28 | 10 | 4.8 | 1.7 | 138.9 | 6.9 | 7.08 | 10.1 | 333.7 | QB | JR
+ |  |  | 69 | Brock Purdy | 3982 | 2019 | Iowa State | 13 | 312 | 475 | 163 | 65.7 | 3982 | 27 | 9 | 5.7 | 1.9 | 151.1 | 8.4 | 8.67 | 12.8 | 306.3 | QB | SO
+ |  |  | 70 | Taylor Cornelius | 3978 | 2018 | Oklahoma State | 13 | 288 | 485 | 197 | 59.4 | 3978 | 32 | 13 | 6.6 | 2.7 | 144.7 | 8.2 | 8.32 | 13.8 | 306.0 | QB | SR
+ |  |  | 71 | Jared Goff | 3973 | 2014 | California | 12 | 316 | 509 | 193 | 62.1 | 3973 | 35 | 7 | 6.9 | 1.4 | 147.6 | 7.8 | 8.56 | 12.6 | 331.1 | QB | SO
+ |  |  | 72 | Teddy Bridgewater | 3970 | 2013 | Louisville | 13 | 303 | 427 | 124 | 71.0 | 3970 | 31 | 4 | 7.3 | 0.9 | 171.1 | 9.3 | 10.33 | 13.1 | 305.4 | QB | JR
+ |  |  | 73 | Dominique Davis | 3967 | 2010 | East Carolina | 13 | 393 | 609 | 216 | 64.5 | 3967 | 37 | 16 | 6.1 | 2.6 | 134.0 | 6.5 | 6.55 | 10.1 | 305.2 | QB | JR
+ |  |  | 74 | Justice Hansen | 3967 | 2017 | Arkansas State | 12 | 305 | 487 | 182 | 62.6 | 3967 | 37 | 16 | 7.6 | 3.3 | 149.6 | 8.1 | 8.19 | 13.0 | 330.6 | QB | JR
+ |  |  | 75 | Tua Tagovailoa | 3966 | 2018 | Alabama | 15 | 245 | 355 | 110 | 69.0 | 3966 | 43 | 6 | 12.1 | 1.7 | 199.4 | 11.2 | 12.83 | 16.2 | 264.4 | QB | SO
+ |  |  | 76 | Baker Mayfield | 3965 | 2016 | Oklahoma | 13 | 254 | 358 | 104 | 70.9 | 3965 | 40 | 8 | 11.2 | 2.2 | 196.4 | 11.1 | 12.30 | 15.6 | 305.0 | QB | JR
+ |  |  | 77 | Drew Lock | 3964 | 2017 | Missouri | 13 | 242 | 419 | 177 | 57.8 | 3964 | 44 | 13 | 10.5 | 3.1 | 165.7 | 9.5 | 10.16 | 16.4 | 304.9 | QB | JR
+ |  |  | 78 | Nic Shimonek | 3963 | 2017 | Texas Tech | 13 | 328 | 493 | 165 | 66.5 | 3963 | 33 | 10 | 6.7 | 2.0 | 152.1 | 8.0 | 8.46 | 12.1 | 304.8 | QB | SR
+ |  |  | 79 | Shane Buechele | 3929 | 2019 | SMU | 13 | 307 | 490 | 183 | 62.7 | 3929 | 34 | 10 | 6.9 | 2.0 | 148.8 | 8.0 | 8.49 | 12.8 | 302.2 | QB | JR
+ |  |  | 80 | Ryan Finley | 3928 | 2018 | North Carolina State | 13 | 326 | 484 | 158 | 67.4 | 3928 | 25 | 11 | 5.2 | 2.3 | 148.0 | 8.1 | 8.13 | 12.0 | 302.2 | QB | SR
+ |  |  | 81 | Josh Love | 3923 | 2019 | San Jose State | 12 | 293 | 481 | 188 | 60.9 | 3923 | 22 | 8 | 4.6 | 1.7 | 141.2 | 8.2 | 8.32 | 13.4 | 326.9 | QB | SR
+ |  |  | 82 | Jordan Ta'amu | 3918 | 2018 | Ole Miss | 12 | 266 | 418 | 152 | 63.6 | 3918 | 19 | 8 | 4.5 | 1.9 | 153.5 | 9.4 | 9.42 | 14.7 | 326.5 | QB | SR
+ |  |  | 83 | Rakeem Cato | 3916 | 2013 | Marshall | 14 | 298 | 499 | 201 | 59.7 | 3916 | 39 | 9 | 7.8 | 1.8 | 147.8 | 7.8 | 8.60 | 13.1 | 279.7 | QB | JR
+ |  |  | 84 | Jameis Winston | 3907 | 2014 | Florida State | 13 | 305 | 467 | 162 | 65.3 | 3907 | 25 | 18 | 5.4 | 3.9 | 145.5 | 8.4 | 7.70 | 12.8 | 300.5 | QB | SO
+ |  |  | 85 | Rakeem Cato | 3903 | 2014 | Marshall | 14 | 267 | 451 | 184 | 59.2 | 3903 | 40 | 13 | 8.9 | 2.9 | 155.4 | 8.7 | 9.13 | 14.6 | 278.8 | QB | SR
+ |  |  | 86 | Trevone Boykin | 3901 | 2014 | Texas Christian | 13 | 301 | 492 | 191 | 61.2 | 3901 | 33 | 10 | 6.7 | 2.0 | 145.9 | 7.9 | 8.36 | 13.0 | 300.1 | QB | JR
+ |  |  | 87 | Tajh Boyd | 3896 | 2012 | Clemson | 13 | 287 | 427 | 140 | 67.2 | 3896 | 36 | 13 | 8.4 | 3.0 | 165.6 | 9.1 | 9.44 | 13.6 | 299.7 | QB | JR
+ |  |  | 88 | Aaron Murray | 3893 | 2012 | Georgia | 14 | 249 | 386 | 137 | 64.5 | 3893 | 36 | 10 | 9.3 | 2.6 | 174.8 | 10.1 | 10.78 | 15.6 | 278.1 | QB | JR
+ |  |  | 89 | Logan Woodside | 3882 | 2017 | Toledo | 14 | 264 | 411 | 147 | 64.2 | 3882 | 28 | 8 | 6.8 | 1.9 | 162.2 | 9.4 | 9.93 | 14.7 | 277.3 | QB | SR
+ |  |  | 90 | Cole McDonald | 3875 | 2018 | Hawaii | 13 | 285 | 484 | 199 | 58.9 | 3875 | 36 | 10 | 7.4 | 2.1 | 146.5 | 8.0 | 8.56 | 13.6 | 298.1 | QB | SO
+ |  |  | 91 | Alex Carder | 3873 | 2011 | Western Michigan | 12 | 330 | 502 | 172 | 65.7 | 3873 | 31 | 14 | 6.2 | 2.8 | 145.3 | 7.7 | 7.70 | 11.7 | 322.8 | QB | JR
+ |  |  | 92 | Connor Halliday | 3873 | 2014 | Washington State | 9 | 354 | 526 | 172 | 67.3 | 3873 | 32 | 11 | 6.1 | 2.1 | 145.0 | 7.4 | 7.64 | 10.9 | 430.3 | QB | SR
+ |  |  | 93 | Ryan Mallett | 3869 | 2010 | Arkansas | 13 | 266 | 411 | 145 | 64.7 | 3869 | 32 | 12 | 7.8 | 2.9 | 163.6 | 9.4 | 9.66 | 14.5 | 297.6 | QB | JR
+ |  |  | 94 | Will Grier | 3864 | 2018 | West Virginia | 11 | 266 | 397 | 131 | 67.0 | 3864 | 37 | 8 | 9.3 | 2.0 | 175.5 | 9.7 | 10.69 | 14.5 | 351.3 | QB | SR
+ |  |  | 95 | Mike Bercovici | 3861 | 2015 | Arizona State | 13 | 319 | 532 | 213 | 60.0 | 3861 | 30 | 9 | 5.6 | 1.7 | 136.2 | 7.3 | 7.62 | 12.1 | 297.0 | QB | SR
+ |  |  | 96 | Bryce Petty | 3855 | 2014 | Baylor | 12 | 270 | 428 | 158 | 63.1 | 3855 | 29 | 7 | 6.8 | 1.6 | 157.8 | 9.0 | 9.63 | 14.3 | 321.3 | QB | SR
+ |  |  | 97 | Jalen Hurts | 3851 | 2019 | Oklahoma | 14 | 237 | 340 | 103 | 69.7 | 3851 | 32 | 8 | 9.4 | 2.4 | 191.2 | 11.3 | 12.15 | 16.2 | 275.1 | QB | SR
+ |  |  | 98 | Tajh Boyd | 3851 | 2013 | Clemson | 13 | 283 | 413 | 130 | 68.5 | 3851 | 34 | 11 | 8.2 | 2.7 | 168.7 | 9.3 | 9.77 | 13.6 | 296.2 | QB | SR
+ |  |  | 99 | Cooper Rush | 3848 | 2015 | Central Michigan | 13 | 324 | 489 | 165 | 66.3 | 3848 | 25 | 11 | 5.1 | 2.2 | 144.7 | 7.9 | 7.88 | 11.9 | 296.0 | QB | JR
+ |  |  | 100 | Kellen Moore | 3845 | 2010 | Boise State | 13 | 273 | 383 | 110 | 71.3 | 3845 | 35 | 6 | 9.1 | 1.6 | 182.6 | 10.0 | 11.16 | 14.1 | 295.8 | QB | JR
+ |  |  | 101 | Ryan Lindley | 3830 | 2010 | San Diego State | 13 | 243 | 421 | 178 | 57.7 | 3830 | 28 | 14 | 6.7 | 3.3 | 149.4 | 9.1 | 8.93 | 15.8 | 294.6 | QB | JR
+ |  |  | 102 | Kyle Padron | 3828 | 2010 | SMU | 14 | 302 | 508 | 206 | 59.4 | 3828 | 31 | 14 | 6.1 | 2.8 | 137.4 | 7.5 | 7.52 | 12.7 | 273.4 | QB | SO
+ |  |  | 103 | Tajh Boyd | 3828 | 2011 | Clemson | 14 | 298 | 499 | 201 | 59.7 | 3828 | 33 | 12 | 6.6 | 2.4 | 141.2 | 7.7 | 7.91 | 12.8 | 273.4 | QB | SO
+ |  |  | 104 | Cody Kessler | 3826 | 2014 | USC | 13 | 315 | 452 | 137 | 69.7 | 3826 | 39 | 5 | 8.6 | 1.1 | 167.1 | 8.5 | 9.69 | 12.1 | 294.3 | QB | JR
+ |  |  | 105 | Kellen Moore | 3800 | 2011 | Boise State | 13 | 326 | 439 | 113 | 74.3 | 3800 | 43 | 9 | 9.8 | 2.1 | 175.2 | 8.7 | 9.69 | 11.7 | 292.3 | QB | SR
+ |  |  | 106 | Nick Stevens | 3799 | 2017 | Colorado State | 13 | 284 | 459 | 175 | 61.9 | 3799 | 29 | 10 | 6.3 | 2.2 | 147.9 | 8.3 | 8.56 | 13.4 | 292.2 | QB | SR
+ |  |  | 107 | Anu Solomon | 3793 | 2014 | Arizona | 14 | 313 | 540 | 227 | 58.0 | 3793 | 28 | 9 | 5.2 | 1.7 | 130.7 | 7.0 | 7.31 | 12.1 | 270.9 | QB | FR
+ |  |  | 108 | Dak Prescott | 3793 | 2015 | Mississippi State | 13 | 316 | 477 | 161 | 66.2 | 3793 | 29 | 5 | 6.1 | 1.0 | 151.0 | 8.0 | 8.70 | 12.0 | 291.8 | QB | SR
+ |  |  | 109 | Mason Fine | 3793 | 2018 | North Texas | 13 | 303 | 469 | 166 | 64.6 | 3793 | 27 | 5 | 5.8 | 1.1 | 149.4 | 8.1 | 8.76 | 12.5 | 291.8 | QB | JR
+ |  |  | 110 | Paxton Lynch | 3776 | 2015 | Memphis | 13 | 296 | 443 | 147 | 66.8 | 3776 | 28 | 4 | 6.3 | 0.9 | 157.5 | 8.5 | 9.38 | 12.8 | 290.5 | QB | JR
+ |  |  | 111 | Mason Rudolph | 3770 | 2015 | Oklahoma State | 13 | 264 | 424 | 160 | 62.3 | 3770 | 21 | 9 | 5.0 | 2.1 | 149.1 | 8.9 | 8.93 | 14.3 | 290.0 | QB | SO
+ |  |  | 112 | Josh Rosen | 3756 | 2017 | UCLA | 11 | 283 | 452 | 169 | 62.6 | 3756 | 26 | 10 | 5.8 | 2.2 | 147.0 | 8.3 | 8.46 | 13.3 | 341.5 | QB | JR
+ |  |  | 113 | Ryan Nassib | 3749 | 2012 | Syracuse | 13 | 294 | 471 | 177 | 62.4 | 3749 | 26 | 10 | 5.5 | 2.1 | 143.3 | 8.0 | 8.11 | 12.8 | 288.4 | QB | SR
+ |  |  | 114 | Mitch Trubisky | 3748 | 2016 | North Carolina | 13 | 304 | 447 | 143 | 68.0 | 3748 | 30 | 6 | 6.7 | 1.3 | 157.9 | 8.4 | 9.12 | 12.3 | 288.3 | QB | JR
+ |  |  | 115 | Ryan Tannehill | 3744 | 2011 | Texas A&M | 13 | 327 | 531 | 204 | 61.6 | 3744 | 29 | 15 | 5.5 | 2.8 | 133.2 | 7.1 | 6.87 | 11.4 | 288.0 | QB | SR
+ |  |  | 116 | Brett Hundley | 3740 | 2012 | UCLA | 14 | 318 | 478 | 160 | 66.5 | 3740 | 29 | 11 | 6.1 | 2.3 | 147.7 | 7.8 | 8.00 | 11.8 | 267.1 | QB | FR
+ |  |  | 117 | Corey Robinson | 3726 | 2010 | Troy | 13 | 321 | 505 | 184 | 63.6 | 3726 | 28 | 15 | 5.5 | 3.0 | 137.9 | 7.4 | 7.15 | 11.6 | 286.6 | QB | FR
+ |  |  | 118 | Taylor Potts | 3726 | 2010 | Texas Tech | 13 | 369 | 551 | 182 | 67.0 | 3726 | 35 | 10 | 6.4 | 1.8 | 141.1 | 6.8 | 7.22 | 10.1 | 286.6 | QB | SR
+ |  |  | 119 | Teddy Bridgewater | 3718 | 2012 | Louisville | 13 | 287 | 419 | 132 | 68.5 | 3718 | 27 | 8 | 6.4 | 1.9 | 160.5 | 8.9 | 9.30 | 13.0 | 286.0 | QB | SO
+ |  |  | 120 | Johnny Manziel | 3706 | 2012 | Texas A&M | 13 | 295 | 434 | 139 | 68.0 | 3706 | 26 | 9 | 6.0 | 2.1 | 155.3 | 8.5 | 8.80 | 12.6 | 285.1 | QB | FR
+ |  |  | 121 | Brett Rypien | 3705 | 2018 | Boise State | 13 | 301 | 447 | 146 | 67.3 | 3705 | 30 | 7 | 6.7 | 1.6 | 156.0 | 8.3 | 8.93 | 12.3 | 285.0 | QB | SR
+ |  |  | 122 | David Blough | 3705 | 2018 | Purdue | 13 | 305 | 462 | 157 | 66.0 | 3705 | 25 | 10 | 5.4 | 2.2 | 146.9 | 8.0 | 8.13 | 12.1 | 285.0 | QB | SR
+ |  |  | 123 | Chris Robison | 3701 | 2019 | Florida Atlantic | 14 | 291 | 471 | 180 | 61.8 | 3701 | 28 | 6 | 5.9 | 1.3 | 144.9 | 7.9 | 8.47 | 12.7 | 264.4 | QB | SO
+ |  |  | 124 | Baker Mayfield | 3700 | 2015 | Oklahoma | 13 | 269 | 395 | 126 | 68.1 | 3700 | 36 | 7 | 9.1 | 1.8 | 173.3 | 9.4 | 10.39 | 13.8 | 284.6 | QB | SO
+ |  |  | 125 | Riley Ferguson | 3698 | 2016 | Memphis | 13 | 280 | 443 | 163 | 63.2 | 3698 | 32 | 10 | 7.2 | 2.3 | 152.6 | 8.3 | 8.78 | 13.2 | 284.5 | QB | JR
+ |  |  | 126 | Garrett Grayson | 3696 | 2013 | Colorado State | 14 | 297 | 478 | 181 | 62.1 | 3696 | 23 | 11 | 4.8 | 2.3 | 138.4 | 7.7 | 7.66 | 12.4 | 264.0 | QB | JR
+ |  |  | 127 | Grant Hedrick | 3696 | 2014 | Boise State | 14 | 294 | 415 | 121 | 70.8 | 3696 | 23 | 14 | 5.5 | 3.4 | 157.2 | 8.9 | 8.50 | 12.6 | 264.0 | QB | SR
+ |  |  | 128 | Josh Rosen | 3670 | 2015 | UCLA | 13 | 292 | 487 | 195 | 60.0 | 3670 | 23 | 11 | 4.7 | 2.3 | 134.3 | 7.5 | 7.46 | 12.6 | 282.3 | QB | FR
+ |  |  | 129 | Marcus Mariota | 3665 | 2013 | Oregon | 13 | 245 | 386 | 141 | 63.5 | 3665 | 31 | 4 | 8.0 | 1.0 | 167.7 | 9.5 | 10.63 | 15.0 | 281.9 | QB | SO
+ |  |  | 130 | Trevor Lawrence | 3665 | 2019 | Clemson | 15 | 268 | 407 | 139 | 65.8 | 3665 | 36 | 8 | 8.8 | 2.0 | 166.7 | 9.0 | 9.89 | 13.7 | 244.3 | QB | SO
+ |  |  | 131 | Sam Ehlinger | 3663 | 2019 | Texas | 13 | 296 | 454 | 158 | 65.2 | 3663 | 32 | 10 | 7.0 | 2.2 | 151.8 | 8.1 | 8.49 | 12.4 | 281.8 | QB | JR
+ |  |  | 132 | Stephen Calvert | 3663 | 2019 | Liberty | 13 | 249 | 431 | 182 | 57.8 | 3663 | 28 | 7 | 6.5 | 1.6 | 147.4 | 8.5 | 9.07 | 14.7 | 281.8 | QB | SR
+ |  |  | 133 | Lamar Jackson | 3660 | 2017 | Louisville | 13 | 254 | 430 | 176 | 59.1 | 3660 | 27 | 10 | 6.3 | 2.3 | 146.6 | 8.5 | 8.72 | 14.4 | 281.5 | QB | JR
+ |  |  | 134 | Dillon Gabriel | 3653 | 2019 | UCF | 13 | 236 | 398 | 162 | 59.3 | 3653 | 29 | 7 | 7.3 | 1.8 | 156.9 | 9.2 | 9.84 | 15.5 | 281.0 | QB | FR
+ |  |  | 135 | G.J. Kinne | 3650 | 2010 | Tulsa | 13 | 275 | 460 | 185 | 59.8 | 3650 | 31 | 10 | 6.7 | 2.2 | 144.3 | 7.9 | 8.30 | 13.3 | 280.8 | QB | JR
+ |  |  | 136 | Brett Rypien | 3646 | 2016 | Boise State | 13 | 244 | 394 | 150 | 61.9 | 3646 | 24 | 8 | 6.1 | 2.0 | 155.7 | 9.3 | 9.56 | 14.9 | 280.5 | QB | SO
+ |  |  | 137 | Sam Howell | 3641 | 2019 | North Carolina | 13 | 259 | 422 | 163 | 61.4 | 3641 | 38 | 7 | 9.0 | 1.7 | 160.2 | 8.6 | 9.68 | 14.1 | 280.1 | QB | FR
+ |  |  | 138 | Tyler Wilson | 3638 | 2011 | Arkansas | 13 | 277 | 438 | 161 | 63.2 | 3638 | 24 | 6 | 5.5 | 1.4 | 148.4 | 8.3 | 8.79 | 13.1 | 279.8 | QB | JR
+ |  |  | 139 | Taylor Kelly | 3635 | 2013 | Arizona State | 14 | 302 | 484 | 182 | 62.4 | 3635 | 28 | 12 | 5.8 | 2.5 | 139.6 | 7.5 | 7.55 | 12.0 | 259.6 | QB | JR
+ |  |  | 140 | Marcus McMaryion | 3629 | 2018 | Fresno State | 14 | 293 | 427 | 134 | 68.6 | 3629 | 25 | 5 | 5.9 | 1.2 | 157.0 | 8.5 | 9.14 | 12.4 | 259.2 | QB | SR
+ |  |  | 141 | Kaleb Barker | 3628 | 2019 | Troy | 12 | 299 | 460 | 161 | 65.0 | 3628 | 30 | 10 | 6.5 | 2.2 | 148.4 | 7.9 | 8.21 | 12.1 | 302.3 | QB | SR
+ |  |  | 142 | Matt Scott | 3620 | 2012 | Arizona | 12 | 301 | 499 | 198 | 60.3 | 3620 | 27 | 14 | 5.4 | 2.8 | 133.5 | 7.3 | 7.07 | 12.0 | 301.7 | QB | SR
+ |  |  | 143 | Trace McSorley | 3614 | 2016 | Penn State | 14 | 224 | 387 | 163 | 57.9 | 3614 | 29 | 8 | 7.5 | 2.1 | 156.9 | 9.3 | 9.91 | 16.1 | 258.1 | QB | SO
+ |  |  | 144 | Tyler Bray | 3612 | 2012 | Tennessee | 12 | 268 | 451 | 183 | 59.4 | 3612 | 34 | 12 | 7.5 | 2.7 | 146.3 | 8.0 | 8.32 | 13.5 | 301.0 | QB | JR
+ |  |  | 145 | Luke Falk | 3593 | 2017 | Washington State | 12 | 357 | 534 | 177 | 66.9 | 3593 | 30 | 13 | 5.6 | 2.4 | 137.0 | 6.7 | 6.76 | 10.1 | 299.4 | QB | SR
+ |  |  | 146 | Ryan Aplin | 3588 | 2011 | Arkansas State | 13 | 304 | 476 | 172 | 63.9 | 3588 | 19 | 16 | 4.0 | 3.4 | 133.6 | 7.5 | 6.82 | 11.8 | 276.0 | QB | JR
+ |  |  | 147 | Blake Bortles | 3581 | 2013 | UCF | 13 | 259 | 382 | 123 | 67.8 | 3581 | 25 | 9 | 6.5 | 2.4 | 163.4 | 9.4 | 9.62 | 13.8 | 275.5 | QB | JR
+ |  |  | 148 | Trevone Boykin | 3575 | 2015 | Texas Christian | 11 | 257 | 396 | 139 | 64.9 | 3575 | 31 | 10 | 7.8 | 2.5 | 161.5 | 9.0 | 9.46 | 13.9 | 325.0 | QB | SR
+ |  |  | 149 | Dylan Thompson | 3574 | 2014 | South Carolina | 13 | 270 | 451 | 181 | 59.9 | 3574 | 26 | 11 | 5.8 | 2.4 | 140.6 | 7.9 | 7.98 | 13.2 | 274.9 | QB | SR
+ |  |  | 150 | Nate Sudfeld | 3573 | 2015 | Indiana | 12 | 247 | 412 | 165 | 60.0 | 3573 | 27 | 7 | 6.6 | 1.7 | 151.0 | 8.7 | 9.22 | 14.5 | 297.8 | QB | SR
+ |  |  | 151 | Trace McSorley | 3570 | 2017 | Penn State | 13 | 284 | 427 | 143 | 66.5 | 3570 | 28 | 10 | 6.6 | 2.3 | 153.7 | 8.4 | 8.62 | 12.6 | 274.6 | QB | JR
+ |  |  | 152 | Ben Hicks | 3569 | 2017 | SMU | 13 | 276 | 472 | 196 | 58.5 | 3569 | 33 | 12 | 7.0 | 2.5 | 140.0 | 7.6 | 7.82 | 12.9 | 274.5 | QB | SO
+ |  |  | 153 | Jordan Love | 3567 | 2018 | Utah State | 13 | 267 | 417 | 150 | 64.0 | 3567 | 32 | 6 | 7.7 | 1.4 | 158.3 | 8.6 | 9.44 | 13.4 | 274.4 | QB | SO
+ |  |  | 154 | Russell Wilson | 3563 | 2010 | North Carolina State | 13 | 308 | 527 | 219 | 58.4 | 3563 | 28 | 14 | 5.3 | 2.7 | 127.5 | 6.8 | 6.63 | 11.6 | 274.1 | QB | JR
+ |  |  | 155 | Greg Ward Jr. | 3557 | 2016 | Houston | 12 | 319 | 469 | 150 | 68.0 | 3557 | 22 | 13 | 4.7 | 2.8 | 141.7 | 7.6 | 7.28 | 11.2 | 296.4 | QB | SR
+ |  |  | 156 | Jerod Evans | 3552 | 2016 | Virginia Tech | 14 | 268 | 422 | 154 | 63.5 | 3552 | 29 | 8 | 6.9 | 1.9 | 153.1 | 8.4 | 8.94 | 13.3 | 253.7 | QB | JR
+ |  |  | 157 | Brent Stockstill | 3544 | 2018 | Middle Tennessee State | 14 | 326 | 464 | 138 | 70.3 | 3544 | 29 | 10 | 6.3 | 2.2 | 150.7 | 7.6 | 7.92 | 10.9 | 253.1 | QB | SR
+ |  |  | 158 | Derek Carr | 3544 | 2011 | Fresno State | 13 | 279 | 446 | 167 | 62.6 | 3544 | 26 | 9 | 5.8 | 2.0 | 144.5 | 7.9 | 8.20 | 12.7 | 272.6 | QB | SO
+ |  |  | 159 | Lamar Jackson | 3543 | 2016 | Louisville | 13 | 230 | 409 | 179 | 56.2 | 3543 | 30 | 9 | 7.3 | 2.2 | 148.8 | 8.7 | 9.14 | 15.4 | 272.5 | QB | SO
+ |  |  | 160 | Cooper Rush | 3540 | 2016 | Central Michigan | 13 | 278 | 465 | 187 | 59.8 | 3540 | 23 | 16 | 4.9 | 3.4 | 133.2 | 7.6 | 7.05 | 12.7 | 272.3 | QB | SR
+ |  |  | 161 | K.J. Costello | 3540 | 2018 | Stanford | 13 | 269 | 413 | 144 | 65.1 | 3540 | 29 | 11 | 7.0 | 2.7 | 155.0 | 8.6 | 8.78 | 13.2 | 272.3 | QB | JR
+ |  |  | 162 | Bryce Perkins | 3538 | 2019 | Virginia | 14 | 320 | 496 | 176 | 64.5 | 3538 | 22 | 12 | 4.4 | 2.4 | 134.2 | 7.1 | 6.93 | 11.1 | 252.7 | QB | SR
+ |  |  | 163 | Cody Kessler | 3536 | 2015 | USC | 14 | 298 | 446 | 148 | 66.8 | 3536 | 29 | 7 | 6.5 | 1.6 | 151.7 | 7.9 | 8.52 | 11.9 | 252.6 | QB | SR
+ |  |  | 164 | Zach Terrell | 3533 | 2016 | Western Michigan | 14 | 263 | 377 | 114 | 69.8 | 3533 | 33 | 4 | 8.8 | 1.1 | 175.2 | 9.4 | 10.64 | 13.4 | 252.4 | QB | SR
+ |  |  | 165 | Brad Kaaya | 3532 | 2016 | Miami (FL) | 13 | 261 | 421 | 160 | 62.0 | 3532 | 27 | 7 | 6.4 | 1.7 | 150.3 | 8.4 | 8.92 | 13.5 | 271.7 | QB | JR
+ |  |  | 166 | Garrett Gilbert | 3528 | 2013 | SMU | 10 | 335 | 504 | 169 | 66.5 | 3528 | 21 | 7 | 4.2 | 1.4 | 136.2 | 7.0 | 7.21 | 10.5 | 352.8 | QB | SR
+ |  |  | 167 | Matt Barkley | 3528 | 2011 | USC | 12 | 308 | 446 | 138 | 69.1 | 3528 | 39 | 7 | 8.7 | 1.6 | 161.2 | 7.9 | 8.95 | 11.5 | 294.0 | QB | JR
+ |  |  | 168 | Ryan Finley | 3518 | 2017 | North Carolina State | 13 | 312 | 479 | 167 | 65.1 | 3518 | 17 | 6 | 3.5 | 1.3 | 136.0 | 7.3 | 7.49 | 11.3 | 270.6 | QB | JR
+ |  |  | 169 | Andrew Luck | 3517 | 2011 | Stanford | 13 | 288 | 404 | 116 | 71.3 | 3517 | 37 | 10 | 9.2 | 2.5 | 169.7 | 8.7 | 9.42 | 12.2 | 270.5 | QB | JR
+ |  |  | 170 | Zac Dysert | 3513 | 2011 | Miami (OH) | 12 | 295 | 448 | 153 | 65.8 | 3513 | 23 | 11 | 5.1 | 2.5 | 143.7 | 7.8 | 7.76 | 11.9 | 292.8 | QB | JR
+ |  |  | 171 | Zach Terrell | 3510 | 2015 | Western Michigan | 13 | 262 | 391 | 129 | 67.0 | 3510 | 29 | 9 | 7.4 | 2.3 | 162.3 | 9.0 | 9.42 | 13.4 | 270.0 | QB | JR
+ |  |  | 172 | Jared Goff | 3508 | 2013 | California | 12 | 320 | 531 | 211 | 60.3 | 3508 | 18 | 10 | 3.4 | 1.9 | 123.2 | 6.6 | 6.44 | 11.0 | 292.3 | QB | FR
+ |  |  | 173 | Kedon Slovis | 3502 | 2019 | USC | 12 | 282 | 392 | 110 | 71.9 | 3502 | 30 | 9 | 7.7 | 2.3 | 167.6 | 8.9 | 9.43 | 12.4 | 291.8 | QB | FR
+ |  |  | 174 | Jake Waters | 3501 | 2014 | Kansas State | 13 | 262 | 397 | 135 | 66.0 | 3501 | 22 | 7 | 5.5 | 1.8 | 154.8 | 8.8 | 9.13 | 13.4 | 269.3 | QB | SR
+ |  |  | 175 | Robert Griffin III | 3501 | 2010 | Baylor | 13 | 304 | 454 | 150 | 67.0 | 3501 | 22 | 8 | 4.8 | 1.8 | 144.2 | 7.7 | 7.89 | 11.5 | 269.3 | QB | SO
+ |  |  | 176 | Drew Lock | 3498 | 2018 | Missouri | 13 | 275 | 437 | 162 | 62.9 | 3498 | 28 | 8 | 6.4 | 1.8 | 147.7 | 8.0 | 8.46 | 12.7 | 269.1 | QB | SR
+ |  |  | 177 | Austin Davis | 3496 | 2011 | Southern Mississippi | 14 | 286 | 475 | 189 | 60.2 | 3496 | 30 | 11 | 6.3 | 2.3 | 138.2 | 7.4 | 7.58 | 12.2 | 249.7 | QB | SR
+ |  |  | 178 | Jack Abraham | 3496 | 2019 | Southern Mississippi | 13 | 275 | 405 | 130 | 67.9 | 3496 | 19 | 15 | 4.7 | 3.7 | 148.5 | 8.6 | 7.90 | 12.7 | 268.9 | QB | JR
+ |  |  | 179 | Will Grier | 3490 | 2017 | West Virginia | 11 | 250 | 388 | 138 | 64.4 | 3490 | 34 | 12 | 8.8 | 3.1 | 162.7 | 9.0 | 9.36 | 14.0 | 317.3 | QB | JR
+ |  |  | 180 | Blake Sims | 3487 | 2014 | Alabama | 14 | 252 | 391 | 139 | 64.5 | 3487 | 28 | 10 | 7.2 | 2.6 | 157.9 | 8.9 | 9.20 | 13.8 | 249.1 | QB | SR
+ |  |  | 181 | Zac Dysert | 3483 | 2012 | Miami (OH) | 12 | 302 | 480 | 178 | 62.9 | 3483 | 25 | 12 | 5.2 | 2.5 | 136.1 | 7.3 | 7.17 | 11.5 | 290.3 | QB | SR
+ |  |  | 182 | Taylor Heinicke | 3476 | 2014 | Old Dominion | 12 | 289 | 457 | 168 | 63.2 | 3476 | 30 | 16 | 6.6 | 3.5 | 141.8 | 7.6 | 7.34 | 12.0 | 289.7 | QB | SR
+ |  |  | 183 | Justin Herbert | 3471 | 2019 | Oregon | 14 | 286 | 428 | 142 | 66.8 | 3471 | 32 | 6 | 7.5 | 1.4 | 156.8 | 8.1 | 8.97 | 12.1 | 247.9 | QB | SR
+ |  |  | 184 | Matt Johnson | 3467 | 2013 | Bowling Green | 14 | 237 | 369 | 132 | 64.2 | 3467 | 25 | 7 | 6.8 | 1.9 | 161.7 | 9.4 | 9.90 | 14.6 | 247.6 | QB | SO
+ |  |  | 185 | Dak Prescott | 3449 | 2014 | Mississippi State | 13 | 244 | 396 | 152 | 61.6 | 3449 | 27 | 11 | 6.8 | 2.8 | 151.7 | 8.7 | 8.82 | 14.1 | 265.3 | QB | JR
+ |  |  | 186 | Justice Hansen | 3447 | 2018 | Arkansas State | 13 | 286 | 434 | 148 | 65.9 | 3447 | 27 | 9 | 6.2 | 2.1 | 149.0 | 7.9 | 8.25 | 12.1 | 265.2 | QB | SR
+ |  |  | 187 | Everett Golson | 3445 | 2014 | Notre Dame | 13 | 256 | 427 | 171 | 60.0 | 3445 | 29 | 14 | 6.8 | 3.3 | 143.6 | 8.1 | 7.95 | 13.5 | 265.0 | QB | SR
+ |  |  | 188 | Zach Terrell | 3443 | 2014 | Western Michigan | 13 | 250 | 368 | 118 | 67.9 | 3443 | 26 | 10 | 7.1 | 2.7 | 164.4 | 9.4 | 9.55 | 13.8 | 264.8 | QB | SO
+ |  |  | 189 | Brandon Allen | 3440 | 2015 | Arkansas | 13 | 244 | 370 | 126 | 65.9 | 3440 | 30 | 8 | 8.1 | 2.2 | 166.5 | 9.3 | 9.95 | 14.1 | 264.6 | QB | SR
+ |  |  | 190 | Cody Sokol | 3436 | 2014 | Louisiana Tech | 14 | 260 | 448 | 188 | 58.0 | 3436 | 30 | 13 | 6.7 | 2.9 | 138.8 | 7.7 | 7.70 | 13.2 | 245.4 | QB | SR
+ |  |  | 191 | Austin Allen | 3430 | 2016 | Arkansas | 13 | 245 | 401 | 156 | 61.1 | 3430 | 25 | 15 | 6.2 | 3.7 | 146.0 | 8.6 | 8.12 | 14.0 | 263.8 | QB | JR
+ |  |  | 192 | Jake Browning | 3430 | 2016 | Washington | 14 | 243 | 391 | 148 | 62.1 | 3430 | 43 | 9 | 11.0 | 2.3 | 167.5 | 8.8 | 9.94 | 14.1 | 245.0 | QB | SO
+ |  |  | 193 | J.J. McDermott | 3421 | 2011 | SMU | 13 | 272 | 455 | 183 | 59.8 | 3421 | 17 | 16 | 3.7 | 3.5 | 128.2 | 7.5 | 6.68 | 12.6 | 263.2 | QB | SR
+ |  |  | 194 | T.J. Yates | 3418 | 2010 | North Carolina | 13 | 282 | 422 | 140 | 66.8 | 3418 | 19 | 9 | 4.5 | 2.1 | 145.5 | 8.1 | 8.04 | 12.1 | 262.9 | QB | SR
+ |  |  | 195 | Corey Robinson | 3411 | 2011 | Troy | 12 | 316 | 508 | 192 | 62.2 | 3411 | 21 | 15 | 4.1 | 3.0 | 126.3 | 6.7 | 6.21 | 10.8 | 284.3 | QB | SO
+ |  |  | 196 | Jordan Love | 3402 | 2019 | Utah State | 13 | 293 | 473 | 180 | 61.9 | 3402 | 20 | 17 | 4.2 | 3.6 | 129.1 | 7.2 | 6.42 | 11.6 | 261.7 | QB | JR
+ |  |  | 197 | Drew Lock | 3399 | 2016 | Missouri | 12 | 237 | 434 | 197 | 54.6 | 3399 | 23 | 10 | 5.3 | 2.3 | 133.3 | 7.8 | 7.85 | 14.3 | 283.3 | QB | SO
+ |  |  | 198 | E.J. Manuel | 3397 | 2012 | Florida State | 14 | 263 | 387 | 124 | 68.0 | 3397 | 23 | 10 | 5.9 | 2.6 | 156.1 | 8.8 | 8.80 | 12.9 | 242.6 | QB | SR
+ |  |  | 199 | Dalton Williams | 3387 | 2012 | Akron | 12 | 326 | 522 | 196 | 62.5 | 3387 | 25 | 16 | 4.8 | 3.1 | 126.6 | 6.5 | 6.07 | 10.4 | 282.3 | QB | SR
+ |  |  | 200 | Holton Ahlers | 3387 | 2019 | East Carolina | 12 | 264 | 442 | 178 | 59.7 | 3387 | 21 | 10 | 4.8 | 2.3 | 135.3 | 7.7 | 7.60 | 12.8 | 282.3 | QB | SO
 ```
 
 ## Claim check

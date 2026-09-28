@@ -1,8 +1,8 @@
-# SCFB070 — College Football 1890s t:loss_hi
+# SCFB070 — College Football 1950s p:n_ry
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1890&year_max=1899&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=11&cstat[1]=losses
-- Timestamp: 2026-09-28T06:28:05.960Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=rush_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=990&cstat[1]=rush_yds&ccomp[2]=lt&cval[2]=999&cstat[2]=rush_yds
+- Timestamp: 2026-09-28T08:11:32.830Z
 - Rows read: 0
 
 ## Result table

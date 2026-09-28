@@ -1,26 +1,31 @@
-# SCFB390 — College Football 1970s t:pts_hi
+# SCFB390 — College Football 1980s t:winless
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=points&order_by_asc=0&ccomp[1]=gt&cval[1]=450&cstat[1]=points
-- Timestamp: 2026-09-28T06:49:35.512Z
-- Rows read: 10
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1980&year_max=1989&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=7&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=wins&ccomp[3]=lt&cval[3]=0&cstat[3]=ties
+- Timestamp: 2026-09-28T08:32:54.948Z
+- Rows read: 15
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | points | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1972 | Arizona State | 513 | 11 | 10 | 2 | 0 | .833 | 513 | 261 | 252
-2 | 1971 | Oklahoma | 494 | 11 | 11 | 1 | 0 | .917 | 494 | 195 | 299
-3 | 1973 | Arizona State | 491 | 11 | 11 | 1 | 0 | .917 | 491 | 164 | 327
-4 | 1974 | Oklahoma | 473 | 11 | 11 | 0 | 0 | 1.000 | 473 | 92 | 381
-5 | 1973 | UCLA | 470 | 11 | 9 | 2 | 0 | .818 | 470 | 199 | 271
-6 | 1971 | Nebraska | 469 | 12 | 13 | 0 | 0 | 1.000 | 469 | 98 | 371
-7 | 1977 | Grambling State | 462 | 11 | 10 | 1 | 0 | .909 | 462 | 175 | 287
-8 | 1972 | Nebraska | 461 | 11 | 9 | 2 | 1 | .792 | 461 | 91 | 370
-9 | 1973 | Alabama | 454 | 11 | 11 | 1 | 0 | .917 | 454 | 89 | 365
-10 | 1971 | Penn State | 454 | 11 | 11 | 1 | 0 | .917 | 454 | 131 | 323
+ranker | year_id | team_name_abbr | losses | games | wins | ties | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
+1 | 1981 | Colorado State | 12 | 12 | 0 | 0 | 12 | 0 | 12 | 0 | .000 | 164 | 502 | -338
+2 | 1989 | Kent State | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 179 | 377 | -198
+3 | 1989 | New Mexico State | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 162 | 428 | -266
+4 | 1989 | Northwestern | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 241 | 497 | -256
+5 | 1988 | Kansas State | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 171 | 448 | -277
+6 | 1988 | Rice | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 165 | 358 | -193
+7 | 1987 | New Mexico | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 209 | 444 | -235
+8 | 1984 | Indiana | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 185 | 338 | -153
+9 | 1982 | Kent State | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 114 | 270 | -156
+10 | 1982 | Rice | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 138 | 361 | -223
+11 | 1981 | Eastern Michigan | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 88 | 338 | -250
+12 | 1981 | Northwestern | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 82 | 505 | -423
+13 | 1980 | Northwestern | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 151 | 444 | -293
+14 | 1980 | Oregon State | 11 | 11 | 0 | 0 | 11 | 0 | 11 | 0 | .000 | 108 | 386 | -278
+15 | 1982 | Richmond | 10 | 10 | 0 | 0 | 10 | 0 | 10 | 0 | .000 | 101 | 270 | -169
 ```
 
 ## Claim check
 
-- Complete set: all 10 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 15 rows read. A superlative may be asserted only if it holds across every row above.

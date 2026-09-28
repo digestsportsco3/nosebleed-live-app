@@ -1,81 +1,16 @@
-# SCFB053 — College Football 1880s t:tx_opp
+# SCFB053 — College Football 1950s p:x_dint
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1880&year_max=1889&order_by=points_opp&order_by_asc=1&ccomp[1]=gt&cval[1]=8&cstat[1]=games
-- Timestamp: 2026-09-28T06:26:57.637Z
-- Rows read: 65
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=def_int
+- Timestamp: 2026-09-28T08:10:21.014Z
+- Rows read: 0
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | points_opp | games | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1888 | Yale | 0 | 13 | 13 | 13 | 0 | 0 | 1.000 | 694 | 0 | 694
-2 | 1881 | Princeton | 0 | 9 | 9 | 7 | 0 | 2 | .889 | 24 | 0 | 24
-3 | 1882 | Yale | 1 | 8 | 8 | 8 | 0 | 0 | 1.000 | 52 | 1 | 51
-4 | 1883 | Yale | 2 | 9 | 9 | 9 | 0 | 0 | 1.000 | 540 | 2 | 538
-5 | 1882 | Harvard | 2 | 8 | 8 | 7 | 1 | 0 | .875 | 19 | 2 | 17
-6 | 1881 | Harvard | 2 | 8 | 8 | 6 | 1 | 1 | .813 | 17 | 2 | 15
-7 | 1886 | Yale | 4 | 10 | 10 | 9 | 0 | 1 | .950 | 687 | 4 | 683
-8 | 1882 | Princeton | 4 | 9 | 9 | 7 | 2 | 0 | .778 | 45 | 4 | 41
-9 | 1884 | Yale | 10 | 9 | 9 | 8 | 0 | 1 | .944 | 495 | 10 | 485
-10 | 1885 | Yale | 11 | 8 | 8 | 7 | 1 | 0 | .875 | 366 | 11 | 355
-11 | 1887 | Yale | 12 | 9 | 9 | 9 | 0 | 0 | 1.000 | 515 | 12 | 503
-12 | 1884 | Princeton | 13 | 10 | 10 | 9 | 0 | 1 | .950 | 406 | 13 | 393
-13 | 1888 | Princeton | 16 | 12 | 12 | 11 | 1 | 0 | .917 | 609 | 16 | 593
-14 | 1882 | Rutgers | 22 | 10 | 10 | 6 | 4 | 0 | .600 | 21 | 22 | -1
-15 | 1887 | Harvard | 23 | 11 | 11 | 10 | 1 | 0 | .909 | 660 | 23 | 637
-16 | 1887 | Princeton | 24 | 9 | 9 | 7 | 2 | 0 | .778 | 420 | 24 | 396
-17 | 1885 | Princeton | 25 | 9 | 9 | 9 | 0 | 0 | 1.000 | 539 | 25 | 514
-18 | 1883 | Princeton | 26 | 8 | 8 | 7 | 1 | 0 | .875 | 238 | 26 | 212
-19 | 1886 | Princeton | 27 | 8 | 8 | 7 | 0 | 1 | .938 | 320 | 27 | 293
-20 | 1889 | Princeton | 29 | 10 | 10 | 10 | 0 | 0 | 1.000 | 484 | 29 | 455
-21 | 1889 | Yale | 31 | 17 | 17 | 16 | 1 | 0 | .941 | 664 | 31 | 633
-22 | 1888 | Harvard | 32 | 13 | 13 | 12 | 1 | 0 | .923 | 626 | 32 | 594
-23 | 1886 | Harvard | 41 | 14 | 14 | 12 | 2 | 0 | .857 | 765 | 41 | 724
-24 | 1886 | Lehigh | 46 | 8 | 8 | 4 | 3 | 1 | .563 | 90 | 46 | 44
-25 | 1889 | Harvard | 53 | 11 | 11 | 9 | 2 | 0 | .818 | 419 | 53 | 366
-26 | 1883 | Harvard | 63 | 10 | 10 | 8 | 2 | 0 | .800 | 135 | 63 | 72
-27 | 1887 | Lafayette | 67 | 9 | 9 | 7 | 2 | 0 | .778 | 141 | 67 | 74
-28 | 1883 | Pennsylvania | 67 | 9 | 9 | 6 | 2 | 1 | .722 | 203 | 67 | 136
-29 | 1889 | Dartmouth | 72 | 8 | 8 | 7 | 1 | 0 | .875 | 239 | 72 | 167
-30 | 1886 | Lafayette | 75 | 12 | 12 | 10 | 2 | 0 | .833 | 211 | 75 | 136
-31 | 1888 | Lafayette | 78 | 9 | 9 | 6 | 3 | 0 | .667 | 126 | 78 | 48
-32 | 1889 | Trinity (CT) | 87 | 9 | 9 | 5 | 3 | 1 | .611 | 130 | 87 | 43
-33 | 1889 | Lafayette | 88 | 9 | 9 | 3 | 4 | 2 | .444 | 78 | 88 | -10
-34 | 1889 | Lehigh | 89 | 13 | 13 | 8 | 3 | 2 | .692 | 356 | 89 | 267
-35 | 1888 | Williams | 104 | 8 | 8 | 4 | 4 | 0 | .500 | 171 | 104 | 67
-36 | 1888 | Lehigh | 119 | 12 | 12 | 10 | 2 | 0 | .833 | 248 | 119 | 129
-37 | 1884 | Harvard | 119 | 11 | 11 | 7 | 4 | 0 | .636 | 281 | 119 | 162
-38 | 1883 | Stevens | 120 | 11 | 11 | 6 | 4 | 1 | .591 | 183 | 120 | 63
-39 | 1889 | Cornell | 130 | 9 | 9 | 7 | 2 | 0 | .778 | 355 | 130 | 225
-40 | 1889 | Pennsylvania | 165 | 13 | 13 | 7 | 6 | 0 | .538 | 198 | 165 | 33
-41 | 1884 | Wesleyan (CT) | 176 | 8 | 8 | 3 | 5 | 0 | .375 | 72 | 176 | -104
-42 | 1887 | Rutgers | 187 | 8 | 8 | 2 | 6 | 0 | .250 | 47 | 187 | -140
-43 | 1889 | Amherst | 198 | 10 | 10 | 3 | 5 | 2 | .400 | 173 | 198 | -25
-44 | 1889 | Williams | 203 | 10 | 10 | 4 | 5 | 1 | .450 | 258 | 203 | 55
-45 | 1884 | Stevens | 207 | 9 | 9 | 4 | 5 | 0 | .444 | 109 | 207 | -98
-46 | 1889 | Stevens | 222 | 11 | 11 | 1 | 10 | 0 | .091 | 39 | 222 | -183
-47 | 1883 | Wesleyan (CT) | 225 | 8 | 8 | 3 | 5 | 0 | .375 | 79 | 225 | -146
-48 | 1886 | Pennsylvania | 286 | 17 | 17 | 9 | 7 | 1 | .559 | 344 | 286 | 58
-49 | 1887 | Tufts | 289 | 9 | 9 | 3 | 6 | 0 | .333 | 73 | 289 | -216
-50 | 1888 | Stevens | 291 | 10 | 10 | 2 | 7 | 1 | .250 | 66 | 291 | -225
-51 | 1885 | Stevens | 291 | 9 | 9 | 3 | 6 | 0 | .333 | 307 | 291 | 16
-52 | 1886 | Stevens | 294 | 8 | 8 | 0 | 7 | 1 | .063 | 6 | 294 | -288
-53 | 1888 | Pennsylvania | 296 | 16 | 16 | 9 | 7 | 0 | .563 | 278 | 296 | -18
-54 | 1889 | Columbia | 298 | 11 | 11 | 2 | 7 | 2 | .273 | 54 | 298 | -244
-55 | 1886 | Tufts | 312 | 9 | 9 | 0 | 9 | 0 | .000 | 33 | 312 | -279
-56 | 1887 | Amherst | 320 | 10 | 10 | 4 | 6 | 0 | .400 | 98 | 320 | -222
-57 | 1886 | MIT | 325 | 9 | 9 | 2 | 6 | 1 | .278 | 68 | 325 | -257
-58 | 1888 | Rutgers | 327 | 8 | 8 | 1 | 6 | 1 | .188 | 36 | 327 | -291
-59 | 1887 | Pennsylvania | 336 | 13 | 13 | 6 | 7 | 0 | .462 | 137 | 336 | -199
-60 | 1885 | Pennsylvania | 343 | 13 | 13 | 8 | 5 | 0 | .615 | 355 | 343 | 12
-61 | 1888 | Wesleyan (CT) | 377 | 9 | 9 | 2 | 7 | 0 | .222 | 86 | 377 | -291
-62 | 1886 | Wesleyan (CT) | 397 | 8 | 8 | 2 | 6 | 0 | .250 | 79 | 397 | -318
-63 | 1887 | Wesleyan (CT) | 409 | 9 | 9 | 4 | 5 | 0 | .444 | 124 | 409 | -285
-64 | 1889 | Wesleyan (CT) | 420 | 13 | 13 | 5 | 7 | 1 | .423 | 153 | 420 | -267
-65 | 1888 | Amherst | 426 | 11 | 11 | 2 | 8 | 1 | .227 | 103 | 426 | -323
+
 ```
 
 ## Claim check
 
-- Complete set: all 65 rows read. A superlative may be asserted only if it holds across every row above.
+- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.

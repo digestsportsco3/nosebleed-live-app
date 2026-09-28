@@ -1,19 +1,16 @@
-# SCFB477 — College Football 1980s t:unbeaten_tie
+# SCFB477 — College Football 1990s p:ff_hi2
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1980&year_max=1989&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=6&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=losses&ccomp[3]=gt&cval[3]=1&cstat[3]=ties
-- Timestamp: 2026-09-28T06:55:26.778Z
-- Rows read: 3
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&order_by=fumbles_forced&order_by_asc=0&ccomp[1]=gt&cval[1]=5&cstat[1]=fumbles_forced
+- Timestamp: 2026-09-28T08:38:45.169Z
+- Rows read: 0
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | wins | games | losses | ties | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1987 | Syracuse | 11 | 11 | 0 | 1 | 11 | 11 | 0 | 1 | .958 | 363 | 153 | 210
-2 | 1985 | Fresno State | 11 | 11 | 0 | 1 | 11 | 11 | 0 | 1 | .958 | 430 | 202 | 228
-3 | 1982 | SMU | 11 | 11 | 0 | 1 | 11 | 11 | 0 | 1 | .958 | 347 | 157 | 190
+
 ```
 
 ## Claim check
 
-- Complete set: all 3 rows read. A superlative may be asserted only if it holds across every row above.
+- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.

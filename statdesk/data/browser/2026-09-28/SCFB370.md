@@ -1,215 +1,215 @@
-# SCFB370 — College Football 1970s p:x_tot
+# SCFB370 — College Football 1980s p:x_ypc
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=total_offense&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=total_offense
-- Timestamp: 2026-09-28T06:48:17.178Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&order_by=rush_yds_per_att&order_by_asc=0&ccomp[1]=gt&cval[1]=150&cstat[1]=rush_att
+- Timestamp: 2026-09-28T08:31:36.587Z
 - Rows read: 200
 - CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-header_empty_0 | header_scrim | header_empty_3 | ranker | name_display | total_offense | year_id | teams_played_for | games | touches | total_offense | yds_from_scrimmage | all_purpose_yds | ret_yds | pos | class
- |  |  | 1 | Marc Wilson | 3580 | 1979 | BYU | 11 | 61 | 3580 | -140 | -140 | 0 | QB | 
- |  |  | 2 | Tommy Kramer | 3272 | 1976 | Rice | 11 | 61 | 3272 | -45 | -45 | 0 | QB | 
- |  |  | 3 | Doug Williams | 3249 | 1977 | Grambling State | 11 | 25 | 3249 | -37 | -37 | 0 | QB | 
- |  |  | 4 | Don Strock | 3170 | 1972 | Virginia Tech | 11 | 53 | 3170 | -73 | -73 |  | QB | 
- |  |  | 5 | Ed Luther | 2997 | 1979 | San Jose State | 11 | 44 | 2997 | -52 | -52 | 0 | QB | 
- |  |  | 6 | Mike Ford | 2957 | 1978 | SMU | 11 | 70 | 2957 | -50 | -50 | 0 | QB | 
- |  |  | 7 | Tony Adams | 2953 | 1972 | Utah State | 11 | 71 | 2953 | 156 | 156 |  | QB | 
- |  |  | 8 | Gifford Nielsen | 2919 | 1976 | BYU | 11 | 77 | 2919 | -273 | -273 | 0 | QB | 
- |  |  | 9 | Jesse Freitas | 2901 | 1973 | San Diego State | 11 | 63 | 2901 | -92 | -92 |  | QB | 
- |  |  | 10 | Jim Plunkett | 2898 | 1970 | Stanford | 11 | 78 | 2898 | 183 | 183 |  | QB | 
- |  |  | 11 | Steve Dils | 2871 | 1978 | Stanford | 11 | 90 | 2871 | -72 | -72 | 0 | QB | 
- |  |  | 12 | Danny White | 2862 | 1973 | Arizona State | 11 | 60 | 2862 | 253 | 253 |  | QB | 
- |  |  | 13 | Pat Sullivan | 2856 | 1970 | Auburn | 10 | 52 | 2856 | 270 | 270 |  | QB | 
- |  |  | 14 | Joe Theismann | 2813 | 1970 | Notre Dame | 10 | 125 | 2813 | 391 | 391 |  | QB | 
- |  |  | 15 | David Spriggs | 2802 | 1978 | New Mexico State | 11 | 148 | 2802 | 244 | 244 | 0 | QB | 
- |  |  | 16 | Bob Parker | 2783 | 1970 | Air Force | 11 | 40 | 2783 | -6 | -6 |  | QB | 
- |  |  | 17 | Gary Huff | 2770 | 1972 | Florida State | 11 | 44 | 2770 | -123 | -123 |  | QB | 
- |  |  | 18 | Gene Swick | 2706 | 1975 | Toledo | 11 | 172 | 2706 | 219 | 219 |  |  | 
- |  |  | 19 | Jack Thompson | 2702 | 1976 | Washington State | 11 | 93 | 2702 | -60 | -60 | 0 | QB | 
- |  |  | 20 | Gary Huff | 2653 | 1971 | Florida State | 11 | 60 | 2653 | -75 | -75 |  | QB | 
- |  |  | 21 | Steve Brown | 2557 | 1979 | Appalachian State | 11 | 129 | 2557 | 250 | 250 | 0 | QB | 
- |  |  | 22 | Gene Swick | 2524 | 1973 | Toledo | 11 | 219 | 2524 | 290 | 290 |  | QB | 
- |  |  | 23 | Don Bunce | 2513 | 1971 | Stanford | 11 | 122 | 2513 | 248 | 248 |  | QB | 
- |  |  | 24 | Craig Penrose | 2490 | 1975 | San Diego State | 11 | 34 | 2490 | -170 | -170 |  | QB | 
- |  |  | 25 | Jay Venuto | 2485 | 1979 | Wake Forest | 11 | 76 | 2485 | 53 | 53 | 0 | QB | 
- |  |  | 26 | Gene Swick | 2450 | 1974 | Toledo | 11 | 206 | 2450 | 216 | 216 |  |  | 
- |  |  | 27 | Roch Hontas | 2442 | 1979 | Tulane | 11 | 91 | 2442 | 97 | 97 | 0 | QB | 
- |  |  | 28 | Marc Wilson | 2438 | 1977 | BYU | 11 | 81 | 2438 | 20 | 20 | 0 | QB | 
- |  |  | 29 | John Reaves | 2431 | 1970 | Florida | 11 | 57 | 2431 | -118 | -118 |  | QB | 
- |  |  | 30 | Larry Haynes | 2428 | 1979 | Lamar | 11 | 49 | 2428 | -213 | -213 | 0 | QB | 
- |  |  | 31 | Rich Campbell | 2423 | 1979 | California | 11 | 71 | 2423 | -177 | -177 | 0 | QB | 
- |  |  | 32 | Brian Sipe | 2422 | 1970 | San Diego State | 11 | 46 | 2422 | -196 | -196 |  | QB | 
- |  |  | 33 | Guy Benjamin | 2409 | 1977 | Stanford | 11 | 43 | 2409 | -112 | -112 | 0 | QB | 
- |  |  | 34 | Bob Relph | 2405 | 1977 | Colgate | 11 | 74 | 2405 | 227 | 227 | 0 | QB | 
- |  |  | 35 | Don Strock | 2404 | 1971 | Virginia Tech | 11 | 57 | 2404 | -173 | -173 |  | QB | 
- |  |  | 36 | Brad Wright | 2403 | 1978 | New Mexico | 12 | 172 | 2403 | 478 | 478 | 0 | QB | 
- |  |  | 37 | Dave Marler | 2391 | 1978 | Mississippi State | 11 | 88 | 2391 | -31 | -31 | 0 | QB | 
- |  |  | 38 | George Amundson | 2387 | 1972 | Iowa State | 11 | 122 | 2387 | 432 | 432 |  | QB | 
- |  |  | 39 | Steve Bartkowski | 2387 | 1974 | California | 11 | 73 | 2387 | -193 | -193 |  | QB | 
- |  |  | 40 | Mike Wright | 2382 | 1978 | Bowling Green | 11 | 182 | 2382 | 535 | 535 | 0 | QB | 
- |  |  | 41 | Steve Myer | 2369 | 1975 | New Mexico | 11 | 47 | 2369 | -132 | -132 |  | QB | 
- |  |  | 42 | Mark Malone | 2357 | 1979 | Arizona State | 12 | 133 | 2357 | 490 | 490 | 0 | QB | 
- |  |  | 43 | Brian Broomell | 2352 | 1979 | Temple | 11 | 67 | 2352 | 273 | 273 | 0 | QB | 
- |  |  | 44 | Gary Sheide | 2343 | 1973 | BYU | 11 | 45 | 2343 | -7 | -7 |  | QB | 
- |  |  | 45 | Jack Thompson | 2339 | 1977 | Washington State | 11 | 58 | 2339 | -33 | -33 | 0 | QB | 
- |  |  | 46 | Craig Kimball | 2338 | 1974 | San Jose State | 12 | 29 | 2338 | -63 | -63 |  | QB | 
- |  |  | 47 | Dan Fouts | 2333 | 1970 | Oregon | 11 | 51 | 2333 | -57 | -57 |  | QB | 
- |  |  | 48 | Jerry Tagge | 2333 | 1971 | Nebraska | 12 | 107 | 2333 | 314 | 314 |  | QB | 
- |  |  | 49 | Brian Sipe | 2328 | 1971 | San Diego State | 11 | 53 | 2328 | -204 | -204 |  | QB | 
- |  |  | 50 | Keith Thibodeaux | 2325 | 1977 | Louisiana Tech | 11 | 80 | 2325 | -59 | -59 | 0 | QB | 
- |  |  | 51 | Phil Davis | 2316 | 1979 | Wyoming | 12 | 240 | 2316 | 629 | 629 | 0 | QB | 
- |  |  | 52 | Leo Hart | 2315 | 1970 | Duke | 11 | 103 | 2315 | 79 | 79 |  | QB | 
- |  |  | 53 | Dennis Dummit | 2304 | 1970 | UCLA | 11 | 79 | 2304 | -88 | -88 |  | QB | 
- |  |  | 54 | Sonny Sixkiller | 2268 | 1970 | Washington | 10 | 59 | 2268 | -33 | -33 |  | QB | 
- |  |  | 55 | Jack Thompson | 2264 | 1978 | Washington State | 11 | 84 | 2264 | -69 | -69 | 0 | QB | 
- |  |  | 56 | Ed Smith | 2247 | 1978 | Michigan State | 11 | 29 | 2247 | 21 | 21 | 0 | QB | 
- |  |  | 57 | Joe Davis | 2242 | 1977 | San Diego State | 11 | 46 | 2242 | -118 | -118 | 0 | QB | 
- |  |  | 58 | Joe Ferguson | 2242 | 1971 | Arkansas | 11 | 63 | 2242 | 39 | 39 |  | QB | 
- |  |  | 59 | Steve Joachim | 2227 | 1974 | Temple | 10 | 110 | 2227 | 277 | 277 |  |  | 
- |  |  | 60 | Rich Campbell | 2207 | 1978 | California | 11 | 93 | 2207 | -80 | -80 | 0 | QB | 
- |  |  | 61 | John Hufnagel | 2201 | 1972 | Penn State | 11 | 102 | 2201 | 162 | 162 |  | QB | 
- |  |  | 62 | Tony Adams | 2195 | 1971 | Utah State | 11 | 98 | 2195 | 169 | 169 |  | QB | 
- |  |  | 63 | Don Van Galder | 2194 | 1973 | Utah | 12 | 105 | 2194 | 182 | 182 |  | QB | 
- |  |  | 64 | Mark Herrmann | 2190 | 1977 | Purdue | 11 | 35 | 2190 | -263 | -263 | 0 | QB | 
- |  |  | 65 | Gary Fox | 2175 | 1971 | Wyoming | 11 | 41 | 2175 | -161 | -161 |  | QB | 
- |  |  | 66 | Ed Luther | 2174 | 1978 | San Jose State | 12 | 33 | 2174 | -101 | -101 | 0 | QB | 
- |  |  | 67 | Chuck Fusina | 2168 | 1977 | Penn State | 11 | 29 | 2168 | -53 | -53 | 0 | QB | 
- |  |  | 68 | Mark Thompson | 2165 | 1970 | Davidson | 10 | 78 | 2165 | -34 | -34 |  | QB | 
- |  |  | 69 | Joe Spagnola | 2164 | 1970 | Arizona State | 10 | 84 | 2164 | 160 | 160 |  | QB | 
- |  |  | 70 | Paul McGaffigan | 2164 | 1978 | Long Beach State | 11 | 52 | 2164 | -1 | -1 | 0 | QB | 
- |  |  | 71 | Bernie Galiffa | 2163 | 1972 | West Virginia | 11 | 57 | 2163 | -139 | -139 |  | QB | 
- |  |  | 72 | Mark Halda | 2163 | 1978 | San Diego State | 11 | 29 | 2163 | -99 | -99 | 0 | QB | 
- |  |  | 73 | Mark Hutsell | 2160 | 1979 | East Tennessee State | 11 | 103 | 2160 | -116 | -116 | 0 | QB | 
- |  |  | 74 | Danny White | 2152 | 1972 | Arizona State | 11 | 66 | 2152 | 232 | 232 |  | QB | 
- |  |  | 75 | Mark Carlson | 2149 | 1979 | Minnesota | 11 | 71 | 2149 | -39 | -39 | 0 | QB | 
- |  |  | 76 | Steve Raklovits | 2138 | 1977 | Eastern Michigan | 11 | 105 | 2138 | 354 | 354 | 0 | QB | 
- |  |  | 77 | Mark Miller | 2133 | 1977 | Bowling Green | 12 | 116 | 2133 | 30 | 30 | 0 | QB | 
- |  |  | 78 | Leamon Hall | 2121 | 1976 | Army | 11 | 100 | 2121 | -53 | -53 | 0 | QB | 
- |  |  | 79 | Bill Craigo | 2120 | 1970 | UTEP | 10 | 67 | 2120 | -3 | -3 |  | QB | 
- |  |  | 80 | Scott Gardner | 2120 | 1973 | Virginia | 11 | 108 | 2120 | 433 | 433 |  | QB | 
- |  |  | 81 | Bruce Hill | 2118 | 1974 | Arizona | 11 | 135 | 2118 | 304 | 304 |  | QB | 
- |  |  | 82 | Joe Montana | 2114 | 1978 | Notre Dame | 11 | 72 | 2114 | 104 | 104 | 0 | QB | 
- |  |  | 83 | Mickey Brokas | 2113 | 1971 | Chattanooga | 11 | 97 | 2113 | -82 | -82 |  | QB | 
- |  |  | 84 | Mark Driscoll | 2112 | 1974 | Colorado State | 11 | 22 | 2112 | 96 | 96 |  | QB | 
- |  |  | 85 | Chuck Ealey | 2111 | 1970 | Toledo | 11 | 135 | 2111 | 213 | 213 |  | QB | 
- |  |  | 86 | Mike Kelley | 2107 | 1979 | Georgia Tech | 11 | 99 | 2107 | 56 | 56 | 0 | QB | 
- |  |  | 87 | Pat Sullivan | 2096 | 1971 | Auburn | 10 | 47 | 2096 | 84 | 84 |  | QB | 
- |  |  | 88 | Harry Lynch | 2092 | 1971 | The Citadel | 11 | 146 | 2092 | 585 | 585 |  | QB | 
- |  |  | 89 | Wayne Smith | 2092 | 1970 | Colorado State | 11 | 129 | 2092 | 230 | 230 |  | QB | 
- |  |  | 90 | Bill Hurley | 2089 | 1979 | Syracuse | 11 | 203 | 2089 | 813 | 813 | 0 | QB | 
- |  |  | 91 | Vince Ferragamo | 2086 | 1976 | Nebraska | 12 | 64 | 2086 | 15 | 15 | 0 | QB | 
- |  |  | 92 | Dave Jaynes | 2082 | 1972 | Kansas | 11 | 70 | 2082 | -171 | -171 |  | QB | 
- |  |  | 93 | Phil Bradley | 2081 | 1978 | Missouri | 11 | 135 | 2081 | 301 | 301 | 0 | QB | 
- |  |  | 94 | Bill Hurley | 2080 | 1977 | Syracuse | 11 | 200 | 2080 | 625 | 625 | 0 | QB | 
- |  |  | 95 | Jeff Grantz | 2072 | 1975 | South Carolina | 11 | 134 | 2072 | 485 | 485 |  | QB | 
- |  |  | 96 | Craig Curry | 2071 | 1971 | Minnesota | 11 | 119 | 2071 | 380 | 380 |  | QB | 
- |  |  | 97 | Eric Hipple | 2071 | 1978 | Utah State | 11 | 114 | 2071 | -9 | -9 | 0 | QB | 
- |  |  | 98 | Mike Boryla | 2071 | 1972 | Stanford | 11 | 57 | 2071 | -213 | -213 |  | QB | 
- |  |  | 99 | Neftali Cortez | 2061 | 1974 | Fresno State | 12 | 100 | 2061 | 145 | 145 |  | QB | 
- |  |  | 100 | Joe Pisarcik | 2056 | 1972 | New Mexico State | 11 | 51 | 2056 | -123 | -123 |  | QB | 
- |  |  | 101 | Mike Pusey | 2045 | 1979 | Western Carolina | 11 | 38 | 2045 | -130 | -130 | 0 | QB | 
- |  |  | 102 | Noel Mazzone | 2044 | 1976 | New Mexico | 11 | 189 | 2044 | 619 | 619 | 0 | QB | 
- |  |  | 103 | Joe Milton | 2038 | 1970 | North Texas | 11 | 83 | 2038 | 186 | 186 |  | QB | 
- |  |  | 104 | Joe Bruner | 2035 | 1975 | Louisiana-Monroe | 11 | 58 | 2035 | 10 | 10 |  | QB | 
- |  |  | 105 | Marty Vaughn | 2035 | 1973 | Pennsylvania | 9 | 84 | 2035 | 109 | 109 |  | QB | 
- |  |  | 106 | Chuck Ealey | 2030 | 1971 | Toledo | 11 | 125 | 2030 | 385 | 385 |  | QB | 
- |  |  | 107 | Dan Haremann | 2030 | 1976 | Utah | 11 | 114 | 2030 | 445 | 445 | 0 | QB | 
- |  |  | 108 | Joe Pisarcik | 2024 | 1971 | New Mexico State | 11 | 44 | 2024 | 41 | 41 |  | QB | 
- |  |  | 109 | Bruce Hill | 2021 | 1975 | Arizona | 11 | 100 | 2021 | 274 | 274 |  | QB | 
- |  |  | 110 | Jack Mildren | 2018 | 1971 | Oklahoma | 11 | 193 | 2018 | 1140 | 1140 |  | QB | 
- |  |  | 111 | John Fourcade | 2014 | 1979 | Ole Miss | 11 | 128 | 2014 | 493 | 493 | 0 | QB | 
- |  |  | 112 | Jimmy Streater | 2011 | 1978 | Tennessee | 11 | 146 | 2011 | 593 | 593 | 0 | QB | 
- |  |  | 113 | Steve DeBerg | 2011 | 1976 | San Jose State | 11 | 29 | 2011 | -73 | -73 | 0 | QB | 
- |  |  | 114 | Greg Kokal | 2010 | 1975 | Kent State | 11 | 90 | 2010 | 256 | 256 |  | QB | 
- |  |  | 115 | Mark Malone | 2010 | 1978 | Arizona State | 11 | 143 | 2010 | 705 | 705 | 0 | QB | 
- |  |  | 116 | Gary Sheide | 2009 | 1974 | BYU | 11 | 58 | 2009 | -165 | -165 |  |  | 
- |  |  | 117 | Lynn Dickey | 2008 | 1970 | Kansas State | 11 | 29 | 2008 | -144 | -144 |  | QB | 
- |  |  | 118 | Steve Fuller | 2003 | 1978 | Clemson | 11 | 136 | 2003 | 611 | 611 | 0 | QB | 
- |  |  | 119 | Bruce Gadd | 2001 | 1972 | Rice | 11 | 34 | 2001 | -74 | -74 |  | QB | 
- |  |  | 120 | John Reaves | 2000 | 1971 | Florida | 11 | 42 | 2000 | -87 | -87 |  | QB | 
- |  |  | 121 | Randy Gomez | 1991 | 1978 | Utah | 11 | 49 | 1991 | -36 | -36 | 0 | QB | 
- |  |  | 122 | Eric Hipple | 1990 | 1979 | Utah State | 11 | 74 | 1990 | 66 | 66 | 0 | QB | 
- |  |  | 123 | Mike Pusey | 1985 | 1977 | Western Carolina | 11 | 54 | 1985 | 45 | 45 | 0 | QB | 
- |  |  | 124 | Rodney Allison | 1981 | 1976 | Texas Tech | 11 | 140 | 1981 | 523 | 523 | 0 | QB | 
- |  |  | 125 | Dan Fouts | 1980 | 1972 | Oregon | 11 | 86 | 1980 | -61 | -61 |  | QB | 
- |  |  | 126 | Mark Miller | 1980 | 1976 | Bowling Green | 11 | 72 | 1980 | 141 | 141 | 0 | QB | 
- |  |  | 127 | Randy Gomez | 1980 | 1977 | Utah | 11 | 45 | 1980 | -35 | -35 | 0 | QB | 
- |  |  | 128 | Tim Clifford | 1978 | 1979 | Indiana | 11 | 62 | 1978 | 71 | 71 | 0 | QB | 
- |  |  | 129 | Turk Schonert | 1973 | 1979 | Stanford | 11 | 75 | 1973 | 46 | 46 | 0 | QB | 
- |  |  | 130 | Bob Dulich | 1971 | 1974 | Long Beach State | 11 | 128 | 1971 | 383 | 383 |  | QB | 
- |  |  | 131 | Sonny Sixkiller | 1966 | 1971 | Washington | 11 | 41 | 1966 | -102 | -102 |  | QB | 
- |  |  | 132 | Alvin White | 1960 | 1974 | Oregon State | 11 | 102 | 1960 | 298 | 298 |  | QB | 
- |  |  | 133 | Tom Parr | 1960 | 1973 | Colgate | 10 | 129 | 1960 | 833 | 833 |  | QB | 
- |  |  | 134 | Steve Brown | 1959 | 1978 | Appalachian State | 11 | 106 | 1959 | 280 | 280 | 0 | QB | 
- |  |  | 135 | Art Schlichter | 1955 | 1979 | Ohio State | 11 | 124 | 1955 | 436 | 436 | 0 | QB | 
- |  |  | 136 | Fred Solomon | 1955 | 1973 | Tampa | 11 | 149 | 1955 | 882 | 882 |  | QB | 
- |  |  | 137 | Ken Smith | 1952 | 1977 | Boston College | 11 | 38 | 1952 | -121 | -121 | 0 | QB | 
- |  |  | 138 | Tommy Suggs | 1948 | 1970 | South Carolina | 11 | 46 | 1948 | -82 | -82 |  | QB | 
- |  |  | 139 | Tony Dorsett | 1948 | 1976 | Pitt | 11 | 345 | 1948 | 2021 | 2021 | 0 | RB | 
- |  |  | 140 | Dave Humm | 1944 | 1972 | Nebraska | 11 | 48 | 1944 | -130 | -130 |  | QB | 
- |  |  | 141 | Ken Pengitore | 1941 | 1973 | Clemson | 11 | 182 | 1941 | 571 | 571 |  | QB | 
- |  |  | 142 | Steve Grant | 1941 | 1979 | Washington State | 11 | 145 | 1941 | 376 | 376 | 0 | QB | 
- |  |  | 143 | Jim Jones | 1936 | 1970 | USC | 11 | 58 | 1936 | 59 | 59 |  | QB | 
- |  |  | 144 | Guy Benjamin | 1934 | 1976 | Stanford | 9 | 38 | 1934 | -48 | -48 | 0 | QB | 
- |  |  | 145 | Dave Jaynes | 1933 | 1973 | Kansas | 11 | 96 | 1933 | -198 | -198 |  | QB | 
- |  |  | 146 | Joe Reed | 1932 | 1970 | Mississippi State | 11 | 156 | 1932 | 317 | 317 |  | QB | 
- |  |  | 147 | Paul McDonald | 1928 | 1979 | USC | 11 | 33 | 1928 | -61 | -61 | 0 | QB | 
- |  |  | 148 | Tom Parr | 1927 | 1972 | Colgate | 10 | 145 | 1927 | 721 | 721 |  | QB | 
- |  |  | 149 | Mike Ford | 1926 | 1977 | SMU | 11 | 57 | 1926 | -138 | -138 | 0 | QB | 
- |  |  | 150 | Billy Deery | 1924 | 1974 | William & Mary | 11 | 195 | 1924 | 974 | 974 |  | QB | 
- |  |  | 151 | Leamon Hall | 1923 | 1977 | Army | 11 | 81 | 1923 | -21 | -21 | 0 | QB | 
- |  |  | 152 | Tom Clements | 1918 | 1974 | Notre Dame | 11 | 95 | 1918 | 369 | 369 |  | QB | 
- |  |  | 153 | Bruce Hill | 1915 | 1973 | Arizona | 11 | 152 | 1915 | 386 | 386 |  | QB | 
- |  |  | 154 | Daryl Woodring | 1915 | 1970 | Villanova | 11 | 79 | 1915 | 89 | 89 |  | QB | 
- |  |  | 155 | Buddy Palazzo | 1913 | 1972 | Southern Mississippi | 11 | 105 | 1913 | 25 | 25 |  | QB | 
- |  |  | 156 | Neal Jeffrey | 1908 | 1973 | Baylor | 11 | 61 | 1908 | 11 | 11 |  | QB | 
- |  |  | 157 | John Sciarra | 1907 | 1975 | UCLA | 11 | 187 | 1907 | 806 | 806 |  | QB | 
- |  |  | 158 | Steve Fuller | 1900 | 1977 | Clemson | 11 | 165 | 1900 | 403 | 403 | 0 | QB | 
- |  |  | 159 | Dave Rader | 1898 | 1978 | Tulsa | 11 | 166 | 1898 | 215 | 215 | 0 | QB | 
- |  |  | 160 | Reggie Allen | 1895 | 1979 | Indiana State | 11 | 128 | 1895 | 427 | 427 | 0 | QB | 
- |  |  | 161 | Scotty Shipp | 1894 | 1972 | Davidson | 10 | 40 | 1894 | 49 | 49 |  | QB | 
- |  |  | 162 | Dean Carlson | 1893 | 1971 | Iowa State | 11 | 97 | 1893 | 65 | 65 |  | QB | 
- |  |  | 163 | Dave Wilson | 1891 | 1977 | Ball State | 11 | 110 | 1891 | 302 | 302 | 0 | QB | 
- |  |  | 164 | Ed Marinaro | 1881 | 1971 | Cornell | 9 | 362 | 1881 | 1932 | 1932 |  |  | 
- |  |  | 165 | Charlie Young | 1876 | 1977 | California | 11 | 48 | 1876 | 1 | 1 | 0 | QB | 
- |  |  | 166 | Jim Andrus | 1876 | 1977 | Wichita State | 11 | 105 | 1876 | 192 | 192 | 0 | QB | 
- |  |  | 167 | Ricky Bell | 1875 | 1975 | USC | 11 | 360 | 1875 | 1899 | 1899 |  | RB | 
- |  |  | 168 | Steve Haynes | 1869 | 1976 | Louisiana Tech | 10 | 43 | 1869 | -112 | -112 | 0 | QB | 
- |  |  | 169 | Scott Davis | 1864 | 1979 | Eastern Michigan | 10 | 59 | 1864 | 120 | 120 | 0 | QB | 
- |  |  | 170 | Bill Hatty | 1859 | 1973 | Villanova | 11 | 89 | 1859 | -88 | -88 |  | QB | 
- |  |  | 171 | David Williams | 1854 | 1975 | Colorado | 11 | 128 | 1854 | 572 | 572 |  | QB | 
- |  |  | 172 | Jimmy Black | 1853 | 1976 | Florida State | 11 | 129 | 1853 | 347 | 347 | 0 | QB | 
- |  |  | 173 | Warren Moon | 1850 | 1977 | Washington | 11 | 99 | 1850 | 266 | 266 | 0 | QB | 
- |  |  | 174 | Jan Stuebbe | 1846 | 1973 | Colorado State | 11 | 48 | 1846 | -92 | -92 |  | QB | 
- |  |  | 175 | Mike Howell | 1845 | 1976 | Louisiana-Monroe | 10 | 141 | 1845 | 334 | 334 | 0 | QB | 
- |  |  | 176 | Jeb Blount | 1844 | 1974 | Tulsa | 11 | 109 | 1844 | 16 | 16 |  | QB | 
- |  |  | 177 | Don Woods | 1840 | 1973 | New Mexico | 11 | 220 | 1840 | 971 | 971 |  | QB | 
- |  |  | 178 | Greg Kokal | 1840 | 1973 | Kent State | 11 | 78 | 1840 | 64 | 64 |  | QB | 
- |  |  | 179 | Larry Brown | 1840 | 1978 | Harvard | 9 | 117 | 1840 | 265 | 265 | 0 | QB | 
- |  |  | 180 | Craig Kimball | 1839 | 1973 | San Jose State | 11 | 32 | 1839 | -101 | -101 |  | QB | 
- |  |  | 181 | Bruce Parker | 1837 | 1978 | Pacific | 12 | 83 | 1837 | -182 | -182 | 0 | QB | 
- |  |  | 182 | Mike Dunn | 1835 | 1976 | Duke | 11 | 176 | 1835 | 757 | 757 | 0 | QB | 
- |  |  | 183 | Tom Vosberg | 1835 | 1974 | Dayton | 11 | 77 | 1835 | -79 | -79 |  | QB | 
- |  |  | 184 | Dennis Morrison | 1833 | 1971 | Kansas State | 11 | 60 | 1833 | 53 | 53 |  | QB | 
- |  |  | 185 | John Behrens | 1833 | 1972 | Fresno State | 11 | 60 | 1833 | -24 | -24 |  | QB | 
- |  |  | 186 | Mike Pusey | 1833 | 1978 | Western Carolina | 11 | 56 | 1833 | -213 | -213 | 0 | QB | 
- |  |  | 187 | Ronnie Hickerson | 1830 | 1976 | Tulsa | 11 | 119 | 1830 | 276 | 276 | 0 | QB | 
- |  |  | 188 | Mark Herrmann | 1829 | 1979 | Purdue | 11 | 44 | 1829 | -245 | -245 | 0 | QB | 
- |  |  | 189 | Steve Cockreham | 1828 | 1973 | Wyoming | 11 | 128 | 1828 | 179 | 179 |  | QB | 
- |  |  | 190 | Mark Herrmann | 1824 | 1978 | Purdue | 11 | 35 | 1824 | -80 | -80 | 0 | QB | 
- |  |  | 191 | Fred Fisher | 1823 | 1973 | Vanderbilt | 11 | 131 | 1823 | 374 | 374 |  | QB | 
- |  |  | 192 | Rocky Long | 1823 | 1971 | New Mexico | 11 | 160 | 1823 | 947 | 947 |  |  | 
- |  |  | 193 | Larry Fortner | 1822 | 1977 | Miami (OH) | 11 | 170 | 1822 | 349 | 349 | 0 | QB | 
- |  |  | 194 | Rob Hertel | 1822 | 1977 | USC | 11 | 37 | 1822 | -83 | -83 | 0 | QB | 
- |  |  | 195 | Gary Hogeboom | 1821 | 1979 | Central Michigan | 11 | 146 | 1821 | 417 | 417 | 0 | QB | 
- |  |  | 196 | Steve Davis | 1821 | 1973 | Oklahoma | 11 | 179 | 1821 | 887 | 887 |  | QB | 
- |  |  | 197 | Bill Montgomery | 1819 | 1970 | Arkansas | 11 | 86 | 1819 | 157 | 157 |  | QB | 
- |  |  | 198 | Joe Roth | 1815 | 1975 | California | 11 | 45 | 1815 | -65 | -65 |  | QB | 
- |  |  | 199 | Mike Dunn | 1815 | 1977 | Duke | 11 | 161 | 1815 | 576 | 576 | 0 | QB | 
- |  |  | 200 | Dennis Sproul | 1813 | 1977 | Arizona State | 11 | 92 | 1813 | 146 | 146 | 0 | QB | 
+header_empty_0 | header_rush | header_empty_2 | ranker | name_display | rush_yds_per_att | rush_att | year_id | teams_played_for | games | rush_att | rush_yds | rush_yds_per_att | rush_td | rush_yds_per_g | pos | class
+ |  |  | 1 | Brent Fullwood | 8.3 | 167 | 1986 | Auburn | 11 | 167 | 1391 | 8.3 | 10 | 126.5 | RB | 
+ |  |  | 2 | Mike Rozier | 7.8 | 275 | 1983 | Nebraska | 12 | 275 | 2148 | 7.8 | 29 | 179.0 | RB | 
+ |  |  | 3 | Bo Jackson | 7.7 | 158 | 1983 | Auburn | 11 | 158 | 1213 | 7.7 | 12 | 110.3 | RB | 
+ |  |  | 4 | Barry Sanders | 7.6 | 344 | 1988 | Oklahoma State | 11 | 344 | 2628 | 7.6 | 37 | 238.9 | RB | 
+ |  |  | 5 | Kenneth Davis | 7.6 | 211 | 1984 | Texas Christian | 11 | 211 | 1611 | 7.6 | 15 | 146.5 | RB | 
+ |  |  | 6 | Michael Gunter | 7.5 | 195 | 1982 | Tulsa | 11 | 195 | 1464 | 7.5 | 11 | 133.1 | RB | 
+ |  |  | 7 | Dee Dowis | 7.5 | 172 | 1989 | Air Force | 12 | 172 | 1286 | 7.5 | 18 | 107.2 | QB | 
+ |  |  | 8 | Chris Hardy | 7.3 | 158 | 1985 | San Diego State | 12 | 158 | 1150 | 7.3 | 6 | 95.8 | RB | 
+ |  |  | 9 | Keith Jones | 7.2 | 170 | 1987 | Nebraska | 10 | 170 | 1232 | 7.2 | 13 | 123.2 | RB | 
+ |  |  | 10 | J.J. Flannigan | 7.2 | 164 | 1989 | Colorado | 11 | 164 | 1187 | 7.2 | 18 | 107.9 | RB | 
+ |  |  | 11 | Jarvis Redwine | 7.2 | 156 | 1980 | Nebraska | 11 | 156 | 1119 | 7.2 | 9 | 101.7 | RB | 
+ |  |  | 12 | Sammie Smith | 7.2 | 172 | 1987 | Florida State | 10 | 172 | 1230 | 7.2 | 7 | 123.0 | RB | 
+ |  |  | 13 | Gordon Brown | 7.1 | 169 | 1985 | Tulsa | 11 | 169 | 1201 | 7.1 | 4 | 109.2 | RB | 
+ |  |  | 14 | Mike Rozier | 7.0 | 242 | 1982 | Nebraska | 12 | 242 | 1689 | 7.0 | 15 | 140.8 | RB | 
+ |  |  | 15 | Eric Dickerson | 7.0 | 232 | 1982 | SMU | 11 | 232 | 1617 | 7.0 | 17 | 147.0 | RB | 
+ |  |  | 16 | Dee Dowis | 6.8 | 194 | 1987 | Air Force | 12 | 194 | 1315 | 6.8 | 10 | 109.6 | QB | 
+ |  |  | 17 | Andy Smith | 6.8 | 154 | 1988 | Air Force | 12 | 154 | 1040 | 6.8 | 8 | 86.7 | RB | 
+ |  |  | 18 | Tony Jeffery | 6.7 | 202 | 1987 | Texas Christian | 10 | 202 | 1353 | 6.7 | 10 | 135.3 | RB | 
+ |  |  | 19 | Kelvin Bryant | 6.7 | 152 | 1981 | North Carolina | 11 | 152 | 1015 | 6.7 | 17 | 92.3 | RB | 
+ |  |  | 20 | Doug DuBose | 6.7 | 156 | 1984 | Nebraska | 11 | 156 | 1040 | 6.7 | 8 | 94.5 | RB | 
+ |  |  | 21 | Del Rodgers | 6.6 | 170 | 1981 | Utah | 11 | 170 | 1127 | 6.6 | 13 | 102.5 | RB | 
+ |  |  | 22 | Mark Higgs | 6.6 | 193 | 1987 | Kentucky | 11 | 193 | 1278 | 6.6 | 10 | 116.2 | RB | 
+ |  |  | 23 | Tony Alford | 6.6 | 157 | 1989 | Colorado State | 11 | 157 | 1035 | 6.6 | 6 | 94.1 | RB | 
+ |  |  | 24 | Reggie Collier | 6.6 | 153 | 1981 | Southern Mississippi | 11 | 153 | 1005 | 6.6 | 12 | 91.4 | QB | 
+ |  |  | 25 | Eddie Johnson | 6.5 | 156 | 1984 | Utah | 12 | 156 | 1021 | 6.5 | 7 | 85.1 | RB | 
+ |  |  | 26 | Kirk Jones | 6.5 | 154 | 1984 | Nevada-Las Vegas | 12 | 154 | 1007 | 6.5 | 3 | 83.9 | RB | 
+ |  |  | 27 | Terrence Flagler | 6.5 | 180 | 1986 | Clemson | 11 | 180 | 1176 | 6.5 | 10 | 106.9 | RB | 
+ |  |  | 28 | Harvey Williams | 6.5 | 154 | 1987 | LSU | 11 | 154 | 1001 | 6.5 | 11 | 91.0 | RB | 
+ |  |  | 29 | Stacey Robinson | 6.5 | 223 | 1989 | Northern Illinois | 11 | 223 | 1443 | 6.5 | 19 | 131.2 | QB | 
+ |  |  | 30 | Stanley Wilson | 6.5 | 156 | 1981 | Oklahoma | 11 | 156 | 1008 | 6.5 | 4 | 91.6 | RB | 
+ |  |  | 31 | Ken Clark | 6.5 | 232 | 1988 | Nebraska | 12 | 232 | 1497 | 6.5 | 12 | 124.8 | RB | 
+ |  |  | 32 | Calvin Murray | 6.4 | 185 | 1980 | Ohio State | 11 | 185 | 1192 | 6.4 | 7 | 108.4 | RB | 
+ |  |  | 33 | Thurman Thomas | 6.4 | 251 | 1987 | Oklahoma State | 11 | 251 | 1613 | 6.4 | 17 | 146.6 | RB | 
+ |  |  | 34 | Bo Jackson | 6.4 | 278 | 1985 | Auburn | 11 | 278 | 1786 | 6.4 | 17 | 162.4 | RB | 
+ |  |  | 35 | Ickey Woods | 6.4 | 259 | 1987 | Nevada-Las Vegas | 11 | 259 | 1658 | 6.4 | 10 | 150.7 | RB | 
+ |  |  | 36 | Pat Evans | 6.4 | 159 | 1984 | Air Force | 11 | 159 | 1015 | 6.4 | 5 | 92.3 | RB | 
+ |  |  | 37 | Tim Worley | 6.4 | 191 | 1988 | Georgia | 11 | 191 | 1216 | 6.4 | 17 | 110.5 | RB | 
+ |  |  | 38 | Dee Dowis | 6.4 | 153 | 1988 | Air Force | 12 | 153 | 972 | 6.4 | 12 | 81.0 | QB | 
+ |  |  | 39 | Rueben Mayes | 6.3 | 258 | 1984 | Washington State | 11 | 258 | 1637 | 6.3 | 11 | 148.8 | RB | 
+ |  |  | 40 | Reggie Dupard | 6.3 | 197 | 1983 | SMU | 11 | 197 | 1249 | 6.3 | 9 | 113.5 | RB | 
+ |  |  | 41 | Eddie Johnson | 6.3 | 166 | 1986 | Utah | 11 | 166 | 1046 | 6.3 | 3 | 95.1 | RB | 
+ |  |  | 42 | Derrick Ellison | 6.3 | 170 | 1986 | Tulsa | 11 | 170 | 1064 | 6.3 | 4 | 96.7 | RB | 
+ |  |  | 43 | Gordon Brown | 6.3 | 159 | 1984 | Tulsa | 11 | 159 | 995 | 6.3 | 6 | 90.5 | RB | 
+ |  |  | 44 | Derrick Fenner | 6.3 | 200 | 1986 | North Carolina | 11 | 200 | 1250 | 6.3 | 6 | 113.6 | RB | 
+ |  |  | 45 | Mike Rozier | 6.2 | 151 | 1981 | Nebraska | 11 | 151 | 943 | 6.2 | 5 | 85.7 | RB | 
+ |  |  | 46 | Eric Denson | 6.2 | 163 | 1983 | Wichita State | 10 | 163 | 1017 | 6.2 | 9 | 101.7 | RB | 
+ |  |  | 47 | Bobby Humphrey | 6.2 | 236 | 1986 | Alabama | 12 | 236 | 1471 | 6.2 | 15 | 122.6 | RB | 
+ |  |  | 48 | Maurice Williams | 6.2 | 166 | 1986 | Virginia Tech | 11 | 166 | 1029 | 6.2 | 6 | 93.5 | RB | 
+ |  |  | 49 | Munchie Jordon | 6.2 | 205 | 1981 | McNeese State | 11 | 205 | 1267 | 6.2 | 18 | 115.2 | RB | 
+ |  |  | 50 | Roger Craig | 6.1 | 173 | 1981 | Nebraska | 11 | 173 | 1060 | 6.1 | 6 | 96.4 | RB | 
+ |  |  | 51 | Curt Warner | 6.1 | 171 | 1981 | Penn State | 11 | 171 | 1044 | 6.1 | 8 | 94.9 | RB | 
+ |  |  | 52 | Jeff Atkins | 6.1 | 154 | 1983 | SMU | 11 | 154 | 937 | 6.1 | 7 | 85.2 | RB | 
+ |  |  | 53 | Allen Harvin | 6.1 | 191 | 1982 | Cincinnati | 11 | 191 | 1161 | 6.1 | 5 | 105.5 | RB | 
+ |  |  | 54 | Ken Clark | 6.0 | 198 | 1989 | Nebraska | 10 | 198 | 1196 | 6.0 | 12 | 119.6 | RB | 
+ |  |  | 55 | Steve Broussard | 6.0 | 189 | 1988 | Washington State | 10 | 189 | 1141 | 6.0 | 11 | 114.1 | RB | 
+ |  |  | 56 | George Rogers | 6.0 | 297 | 1980 | South Carolina | 11 | 297 | 1781 | 6.0 | 14 | 161.9 | RB | 
+ |  |  | 57 | Danny Miller | 6.0 | 191 | 1981 | The Citadel | 11 | 191 | 1138 | 6.0 | 11 | 103.5 | RB | 
+ |  |  | 58 | Kennard Martin | 5.9 | 193 | 1988 | North Carolina | 11 | 193 | 1146 | 5.9 | 11 | 104.2 | RB | 
+ |  |  | 59 | Curvin Richards | 5.9 | 207 | 1988 | Pitt | 11 | 207 | 1228 | 5.9 | 8 | 111.6 | RB | 
+ |  |  | 60 | Stanford Jennings | 5.9 | 197 | 1981 | Furman | 11 | 197 | 1168 | 5.9 | 11 | 106.2 | RB | 
+ |  |  | 61 | Reggie Dupard | 5.9 | 196 | 1984 | SMU | 11 | 196 | 1160 | 5.9 | 16 | 105.5 | RB | 
+ |  |  | 62 | Chuck Webb | 5.9 | 209 | 1989 | Tennessee | 11 | 209 | 1236 | 5.9 | 12 | 112.4 | RB | 
+ |  |  | 63 | Barry Word | 5.9 | 207 | 1985 | Virginia | 11 | 207 | 1224 | 5.9 | 6 | 111.3 | RB | 
+ |  |  | 64 | Herschel Walker | 5.9 | 274 | 1980 | Georgia | 11 | 274 | 1616 | 5.9 | 15 | 146.9 | RB | 
+ |  |  | 65 | Kelvin Bryant | 5.9 | 177 | 1980 | North Carolina | 11 | 177 | 1039 | 5.9 | 11 | 94.5 | RB | 
+ |  |  | 66 | Willie Joyner | 5.9 | 177 | 1982 | Maryland | 10 | 177 | 1039 | 5.9 | 7 | 103.9 | RB | 
+ |  |  | 67 | Emmitt Smith | 5.9 | 229 | 1987 | Florida | 11 | 229 | 1341 | 5.9 | 13 | 121.9 | RB | 
+ |  |  | 68 | Johnnie Jones | 5.8 | 191 | 1983 | Tennessee | 11 | 191 | 1116 | 5.8 | 5 | 101.5 | RB | 
+ |  |  | 69 | Mike Pringle | 5.8 | 296 | 1989 | Cal State Fullerton | 11 | 296 | 1727 | 5.8 | 16 | 157.0 | RB | 
+ |  |  | 70 | Neal Anderson | 5.8 | 157 | 1984 | Florida | 11 | 157 | 916 | 5.8 | 7 | 83.3 | RB | 
+ |  |  | 71 | Tim Harris | 5.8 | 157 | 1981 | Washington State | 11 | 157 | 915 | 5.8 | 5 | 83.2 | RB | 
+ |  |  | 72 | Marcus Allen | 5.8 | 403 | 1981 | USC | 11 | 403 | 2342 | 5.8 | 22 | 212.9 | RB | 
+ |  |  | 73 | Earnest Jackson | 5.8 | 153 | 1981 | Texas A&M | 11 | 153 | 887 | 5.8 | 4 | 80.6 | RB | 
+ |  |  | 74 | Tyrone Anthony | 5.8 | 184 | 1983 | North Carolina | 11 | 184 | 1063 | 5.8 | 7 | 96.6 | RB | 
+ |  |  | 75 | D.J. Dozier | 5.8 | 174 | 1983 | Penn State | 12 | 174 | 1002 | 5.8 | 7 | 83.5 | RB | 
+ |  |  | 76 | Donnie Riley | 5.8 | 215 | 1988 | Central Michigan | 11 | 215 | 1238 | 5.8 | 7 | 112.5 | RB | 
+ |  |  | 77 | Mandel Robinson | 5.7 | 152 | 1980 | Wyoming | 11 | 152 | 873 | 5.7 | 10 | 79.4 | RB | 
+ |  |  | 78 | James Gray | 5.7 | 263 | 1989 | Texas Tech | 11 | 263 | 1509 | 5.7 | 18 | 137.2 | RB | 
+ |  |  | 79 | Bart Weiss | 5.7 | 180 | 1985 | Air Force | 12 | 180 | 1032 | 5.7 | 12 | 86.0 | QB | 
+ |  |  | 80 | Terry Allen | 5.7 | 199 | 1988 | Clemson | 11 | 199 | 1139 | 5.7 | 9 | 103.5 | RB | 
+ |  |  | 81 | Doug DuBose | 5.7 | 203 | 1985 | Nebraska | 10 | 203 | 1161 | 5.7 | 8 | 116.1 | RB | 
+ |  |  | 82 | Darrell Thompson | 5.7 | 217 | 1986 | Minnesota | 11 | 217 | 1240 | 5.7 | 8 | 112.7 | RB | 
+ |  |  | 83 | Kevin Mack | 5.7 | 151 | 1983 | Clemson | 11 | 151 | 862 | 5.7 | 8 | 78.4 | RB | 
+ |  |  | 84 | Ricky Moore | 5.7 | 166 | 1983 | Alabama | 11 | 166 | 947 | 5.7 | 8 | 86.1 | RB | 
+ |  |  | 85 | James Williams | 5.7 | 179 | 1985 | Fresno State | 11 | 179 | 1017 | 5.7 | 13 | 92.5 | RB | 
+ |  |  | 86 | Eric Bieniemy | 5.7 | 219 | 1988 | Colorado | 10 | 219 | 1243 | 5.7 | 10 | 124.3 | RB | 
+ |  |  | 87 | Jamie Morris | 5.7 | 259 | 1987 | Michigan | 11 | 259 | 1469 | 5.7 | 11 | 133.5 | RB | 
+ |  |  | 88 | Greg Allen | 5.7 | 200 | 1983 | Florida State | 11 | 200 | 1134 | 5.7 | 12 | 103.1 | RB | 
+ |  |  | 89 | Stump Mitchell | 5.7 | 291 | 1980 | The Citadel | 11 | 291 | 1647 | 5.7 | 14 | 149.7 | RB | 
+ |  |  | 90 | Kevin Burgess | 5.7 | 181 | 1986 | New Mexico | 12 | 181 | 1023 | 5.7 | 10 | 85.3 | RB | 
+ |  |  | 91 | Gerald Abraham | 5.7 | 224 | 1987 | Wyoming | 12 | 224 | 1266 | 5.7 | 12 | 105.5 | RB | 
+ |  |  | 92 | Johnnie Jones | 5.6 | 229 | 1984 | Tennessee | 11 | 229 | 1290 | 5.6 | 10 | 117.3 | RB | 
+ |  |  | 93 | Butch Woolfolk | 5.6 | 226 | 1981 | Michigan | 11 | 226 | 1273 | 5.6 | 5 | 115.7 | RB | 
+ |  |  | 94 | Emmitt Smith | 5.6 | 284 | 1989 | Florida | 11 | 284 | 1599 | 5.6 | 14 | 145.4 | RB | 
+ |  |  | 95 | John Kershner | 5.6 | 166 | 1983 | Air Force | 11 | 166 | 934 | 5.6 | 8 | 84.9 | RB | 
+ |  |  | 96 | Rodney Lewis | 5.6 | 189 | 1989 | Air Force | 12 | 189 | 1063 | 5.6 | 7 | 88.6 | RB | 
+ |  |  | 97 | Maurice Williams | 5.6 | 167 | 1985 | Virginia Tech | 11 | 167 | 936 | 5.6 | 9 | 85.1 | RB | 
+ |  |  | 98 | Eric Dickerson | 5.6 | 255 | 1981 | SMU | 11 | 255 | 1428 | 5.6 | 19 | 129.8 | RB | 
+ |  |  | 99 | Willie Turral | 5.6 | 190 | 1984 | New Mexico | 12 | 190 | 1064 | 5.6 | 10 | 88.7 | RB | 
+ |  |  | 100 | Charles Gladman | 5.6 | 194 | 1985 | Pitt | 11 | 194 | 1085 | 5.6 | 6 | 98.6 | RB | 
+ |  |  | 101 | Topper Clemons | 5.6 | 164 | 1985 | Wake Forest | 11 | 164 | 916 | 5.6 | 2 | 83.3 | RB | 
+ |  |  | 102 | Reggie Dupard | 5.6 | 229 | 1985 | SMU | 11 | 229 | 1278 | 5.6 | 14 | 116.2 | RB | 
+ |  |  | 103 | Spencer Tillman | 5.6 | 188 | 1983 | Oklahoma | 12 | 188 | 1047 | 5.6 | 9 | 87.3 | RB | 
+ |  |  | 104 | Aaron Craver | 5.5 | 225 | 1989 | Fresno State | 11 | 225 | 1248 | 5.5 | 9 | 113.5 | RB | 
+ |  |  | 105 | Ethan Horton | 5.5 | 200 | 1983 | North Carolina | 11 | 200 | 1107 | 5.5 | 8 | 100.6 | RB | 
+ |  |  | 106 | Allen Pinkett | 5.5 | 252 | 1983 | Notre Dame | 11 | 252 | 1394 | 5.5 | 16 | 126.7 | RB | 
+ |  |  | 107 | Brian Mitchell | 5.5 | 237 | 1989 | Louisiana | 11 | 237 | 1311 | 5.5 | 19 | 119.2 | QB | 
+ |  |  | 108 | Darren Lewis | 5.5 | 306 | 1988 | Texas A&M | 12 | 306 | 1692 | 5.5 | 7 | 141.0 | RB | 
+ |  |  | 109 | Dabby Dawson | 5.5 | 182 | 1989 | Wyoming | 11 | 182 | 1005 | 5.5 | 6 | 91.4 | RB | 
+ |  |  | 110 | Darrin Nelson | 5.5 | 161 | 1980 | Stanford | 11 | 161 | 889 | 5.5 | 4 | 80.8 | RB | 
+ |  |  | 111 | James Rouse | 5.5 | 182 | 1987 | Arkansas | 12 | 182 | 1004 | 5.5 | 17 | 83.7 | RB | 
+ |  |  | 112 | Paul Palmer | 5.5 | 275 | 1985 | Temple | 11 | 275 | 1516 | 5.5 | 9 | 137.8 | RB | 
+ |  |  | 113 | Ken Lacy | 5.5 | 199 | 1982 | Tulsa | 11 | 199 | 1097 | 5.5 | 12 | 99.7 | RB | 
+ |  |  | 114 | Vince Weathersby | 5.5 | 160 | 1986 | Washington | 11 | 160 | 880 | 5.5 | 4 | 80.0 | RB | 
+ |  |  | 115 | Tim Spencer | 5.5 | 204 | 1981 | Ohio State | 11 | 204 | 1121 | 5.5 | 12 | 101.9 | RB | 
+ |  |  | 116 | Donald Jordan | 5.5 | 191 | 1983 | Houston | 11 | 191 | 1049 | 5.5 | 7 | 95.4 | RB | 
+ |  |  | 117 | Darrell Thompson | 5.5 | 224 | 1987 | Minnesota | 11 | 224 | 1229 | 5.5 | 13 | 111.7 | RB | 
+ |  |  | 118 | Tony Boles | 5.5 | 248 | 1988 | Michigan | 11 | 248 | 1359 | 5.5 | 9 | 123.5 | RB | 
+ |  |  | 119 | Randy Cuthbert | 5.5 | 187 | 1989 | Duke | 11 | 187 | 1023 | 5.5 | 10 | 93.0 | RB | 
+ |  |  | 120 | Arnold Smiley | 5.5 | 168 | 1981 | Toledo | 11 | 168 | 919 | 5.5 | 4 | 83.5 | RB | 
+ |  |  | 121 | Anthony Brown | 5.5 | 167 | 1988 | West Virginia | 10 | 167 | 913 | 5.5 | 7 | 91.3 | RB | 
+ |  |  | 122 | Myron Jones | 5.5 | 158 | 1989 | Fresno State | 11 | 158 | 863 | 5.5 | 14 | 78.5 | RB | 
+ |  |  | 123 | James Gray | 5.5 | 172 | 1988 | Texas Tech | 11 | 172 | 938 | 5.5 | 11 | 85.3 | RB | 
+ |  |  | 124 | Troy Stradford | 5.4 | 218 | 1986 | Boston College | 11 | 218 | 1188 | 5.4 | 10 | 108.0 | RB | 
+ |  |  | 125 | Freeman McNeil | 5.4 | 203 | 1980 | UCLA | 11 | 203 | 1105 | 5.4 | 10 | 100.5 | RB | 
+ |  |  | 126 | Tim Spencer | 5.4 | 252 | 1982 | Ohio State | 11 | 252 | 1371 | 5.4 | 12 | 124.6 | RB | 
+ |  |  | 127 | Keith Byars | 5.4 | 207 | 1983 | Ohio State | 11 | 207 | 1126 | 5.4 | 19 | 102.4 | RB | 
+ |  |  | 128 | Curtis Adams | 5.4 | 222 | 1984 | Central Michigan | 11 | 222 | 1204 | 5.4 | 13 | 109.5 | RB | 
+ |  |  | 129 | Rueben Mayes | 5.4 | 228 | 1985 | Washington State | 11 | 228 | 1236 | 5.4 | 10 | 112.4 | RB | 
+ |  |  | 130 | Garry White | 5.4 | 177 | 1980 | Minnesota | 11 | 177 | 959 | 5.4 | 9 | 87.2 | RB | 
+ |  |  | 131 | Jerry Mays | 5.4 | 249 | 1989 | Georgia Tech | 11 | 249 | 1349 | 5.4 | 8 | 122.6 | RB | 
+ |  |  | 132 | Jim Brown | 5.4 | 163 | 1981 | Temple | 9 | 163 | 883 | 5.4 | 9 | 98.1 | RB | 
+ |  |  | 133 | Mike Glenn | 5.4 | 158 | 1980 | Furman | 9 | 158 | 855 | 5.4 | 11 | 95.0 | RB | 
+ |  |  | 134 | Barry Foster | 5.4 | 154 | 1989 | Arkansas | 11 | 154 | 833 | 5.4 | 7 | 75.7 | RB | 
+ |  |  | 135 | Scottie Graham | 5.4 | 171 | 1989 | Ohio State | 11 | 171 | 924 | 5.4 | 10 | 84.0 | RB | 
+ |  |  | 136 | Cliff Austin | 5.4 | 197 | 1982 | Clemson | 11 | 197 | 1064 | 5.4 | 14 | 96.7 | RB | 
+ |  |  | 137 | Eric Denson | 5.4 | 183 | 1982 | Wichita State | 11 | 183 | 988 | 5.4 | 5 | 89.8 | RB | 
+ |  |  | 138 | Darian Hagan | 5.4 | 186 | 1989 | Colorado | 11 | 186 | 1004 | 5.4 | 17 | 91.3 | QB | 
+ |  |  | 139 | Rick Calhoun | 5.4 | 259 | 1986 | Cal State Fullerton | 12 | 259 | 1398 | 5.4 | 11 | 116.5 | RB | 
+ |  |  | 140 | Thomas Rooks | 5.4 | 156 | 1983 | Illinois | 11 | 156 | 842 | 5.4 | 8 | 76.5 | RB | 
+ |  |  | 141 | Paul Palmer | 5.4 | 346 | 1986 | Temple | 11 | 346 | 1866 | 5.4 | 15 | 169.6 | RB | 
+ |  |  | 142 | John Hood | 5.4 | 208 | 1987 | Central Michigan | 11 | 208 | 1121 | 5.4 | 10 | 101.9 | RB | 
+ |  |  | 143 | Curvin Richards | 5.4 | 209 | 1989 | Pitt | 11 | 209 | 1126 | 5.4 | 6 | 102.4 | RB | 
+ |  |  | 144 | Keith Jones | 5.4 | 206 | 1988 | Illinois | 11 | 206 | 1108 | 5.4 | 10 | 100.7 | RB | 
+ |  |  | 145 | Earl Ferrell | 5.4 | 160 | 1981 | East Tennessee State | 11 | 160 | 860 | 5.4 | 8 | 78.2 | RB | 
+ |  |  | 146 | Lonnie Johnson | 5.4 | 200 | 1980 | Indiana | 11 | 200 | 1075 | 5.4 | 11 | 97.7 | RB | 
+ |  |  | 147 | Reggie Mitchell | 5.4 | 199 | 1981 | Central Michigan | 11 | 199 | 1068 | 5.4 | 9 | 97.1 | RB | 
+ |  |  | 148 | Eric Wilkerson | 5.4 | 247 | 1988 | Kent State | 11 | 247 | 1325 | 5.4 | 14 | 120.5 | RB | 
+ |  |  | 149 | Johnny Hector | 5.4 | 173 | 1980 | Texas A&M | 11 | 173 | 928 | 5.4 | 5 | 84.4 | RB | 
+ |  |  | 150 | Joe McIntosh | 5.4 | 222 | 1981 | North Carolina State | 10 | 222 | 1190 | 5.4 | 5 | 119.0 | RB | 
+ |  |  | 151 | Curtis Adams | 5.4 | 267 | 1983 | Central Michigan | 11 | 267 | 1431 | 5.4 | 15 | 130.1 | RB | 
+ |  |  | 152 | Carlos Snow | 5.4 | 177 | 1989 | Ohio State | 11 | 177 | 948 | 5.4 | 10 | 86.2 | RB | 
+ |  |  | 153 | Henry Henderson | 5.4 | 158 | 1987 | Rutgers | 11 | 158 | 846 | 5.4 | 4 | 76.9 | RB | 
+ |  |  | 154 | Reggie Collier | 5.4 | 150 | 1982 | Southern Mississippi | 11 | 150 | 803 | 5.4 | 12 | 73.0 | QB | 
+ |  |  | 155 | Harold Harmon | 5.4 | 165 | 1982 | Temple | 10 | 165 | 883 | 5.4 | 2 | 88.3 | RB | 
+ |  |  | 156 | Mike Mayweather | 5.4 | 191 | 1988 | Army | 11 | 191 | 1022 | 5.4 | 9 | 92.9 | RB | 
+ |  |  | 157 | Lawrence Ricks | 5.3 | 243 | 1982 | Michigan | 11 | 243 | 1300 | 5.3 | 8 | 118.2 | RB | 
+ |  |  | 158 | Dave Evans | 5.3 | 183 | 1984 | Wyoming | 12 | 183 | 979 | 5.3 | 10 | 81.6 | RB | 
+ |  |  | 159 | Jamelle Holieway | 5.3 | 161 | 1985 | Oklahoma | 11 | 161 | 861 | 5.3 | 9 | 78.3 | QB | 
+ |  |  | 160 | Curtis Adams | 5.3 | 204 | 1982 | Central Michigan | 8 | 204 | 1090 | 5.3 | 10 | 136.3 | RB | 
+ |  |  | 161 | Rodney Stevenson | 5.3 | 207 | 1986 | Central Michigan | 9 | 207 | 1104 | 5.3 | 14 | 122.7 | RB | 
+ |  |  | 162 | James Williams | 5.3 | 166 | 1986 | Fresno State | 11 | 166 | 885 | 5.3 | 8 | 80.5 | RB | 
+ |  |  | 163 | James Rouse | 5.3 | 163 | 1989 | Arkansas | 11 | 163 | 869 | 5.3 | 7 | 79.0 | RB | 
+ |  |  | 164 | Gaston Green | 5.3 | 206 | 1987 | UCLA | 11 | 206 | 1098 | 5.3 | 11 | 99.8 | RB | 
+ |  |  | 165 | John Harvey | 5.3 | 165 | 1986 | UTEP | 12 | 165 | 878 | 5.3 | 11 | 73.2 | RB | 
+ |  |  | 166 | Ernest Anderson | 5.3 | 353 | 1982 | Oklahoma State | 11 | 353 | 1877 | 5.3 | 8 | 170.6 | RB | 
+ |  |  | 167 | Ronnie Harmon | 5.3 | 209 | 1985 | Iowa | 11 | 209 | 1111 | 5.3 | 9 | 101.0 | RB | 
+ |  |  | 168 | Ricky Ervins | 5.3 | 239 | 1989 | USC | 11 | 239 | 1269 | 5.3 | 9 | 115.4 | RB | 
+ |  |  | 169 | Nate Sassaman | 5.3 | 189 | 1984 | Army | 11 | 189 | 1002 | 5.3 | 7 | 91.1 | QB | 
+ |  |  | 170 | Jamie Morris | 5.3 | 196 | 1986 | Michigan | 12 | 196 | 1039 | 5.3 | 5 | 86.6 | RB | 
+ |  |  | 171 | Michael Gunter | 5.3 | 226 | 1983 | Tulsa | 11 | 226 | 1198 | 5.3 | 14 | 108.9 | RB | 
+ |  |  | 172 | Darryl Clark | 5.3 | 198 | 1982 | Texas | 11 | 198 | 1049 | 5.3 | 2 | 95.4 | RB | 
+ |  |  | 173 | Dallas Wiggins | 5.3 | 169 | 1982 | Houston | 11 | 169 | 895 | 5.3 | 5 | 81.4 | RB | 
+ |  |  | 174 | Keith Byars | 5.3 | 313 | 1984 | Ohio State | 11 | 313 | 1655 | 5.3 | 22 | 150.5 | RB | 
+ |  |  | 175 | Emmitt Smith | 5.3 | 187 | 1988 | Florida | 9 | 187 | 988 | 5.3 | 9 | 109.8 | RB | 
+ |  |  | 176 | Jeff Smith | 5.3 | 177 | 1984 | Nebraska | 10 | 177 | 935 | 5.3 | 7 | 93.5 | RB | 
+ |  |  | 177 | Darrin Nelson | 5.3 | 192 | 1981 | Stanford | 11 | 192 | 1014 | 5.3 | 11 | 92.2 | RB | 
+ |  |  | 178 | Rick Bayless | 5.3 | 197 | 1986 | Iowa | 11 | 197 | 1040 | 5.3 | 9 | 94.5 | RB | 
+ |  |  | 179 | Blair Thomas | 5.3 | 268 | 1987 | Penn State | 11 | 268 | 1414 | 5.3 | 11 | 128.5 | RB | 
+ |  |  | 180 | Bobby Humphrey | 5.3 | 238 | 1987 | Alabama | 11 | 238 | 1255 | 5.3 | 11 | 114.1 | RB | 
+ |  |  | 181 | Marshall Taylor | 5.3 | 157 | 1987 | Northern Illinois | 11 | 157 | 826 | 5.3 | 7 | 75.1 | QB | 
+ |  |  | 182 | Steve Taylor | 5.3 | 157 | 1988 | Nebraska | 12 | 157 | 826 | 5.3 | 13 | 68.8 | QB | 
+ |  |  | 183 | Kenny Flowers | 5.3 | 200 | 1985 | Clemson | 11 | 200 | 1052 | 5.3 | 13 | 95.6 | RB | 
+ |  |  | 184 | Curt Warner | 5.3 | 198 | 1982 | Penn State | 11 | 198 | 1041 | 5.3 | 8 | 94.6 | RB | 
+ |  |  | 185 | Nuu Faaola | 5.2 | 203 | 1985 | Hawaii | 12 | 203 | 1064 | 5.2 | 10 | 88.7 | RB | 
+ |  |  | 186 | Ethan Horton | 5.2 | 238 | 1984 | North Carolina | 11 | 238 | 1247 | 5.2 | 6 | 113.4 | RB | 
+ |  |  | 187 | Johnny Johnson | 5.2 | 233 | 1988 | San Jose State | 12 | 233 | 1219 | 5.2 | 15 | 101.6 | RB | 
+ |  |  | 188 | Herschel Walker | 5.2 | 335 | 1982 | Georgia | 11 | 335 | 1752 | 5.2 | 16 | 159.3 | RB | 
+ |  |  | 189 | Eddie Lewis | 5.2 | 195 | 1985 | Utah | 12 | 195 | 1018 | 5.2 | 8 | 84.8 | RB | 
+ |  |  | 190 | James Bettis | 5.2 | 212 | 1980 | Cincinnati | 11 | 212 | 1106 | 5.2 | 2 | 100.5 | RB | 
+ |  |  | 191 | Robert Alexander | 5.2 | 204 | 1980 | West Virginia | 12 | 204 | 1064 | 5.2 | 5 | 88.7 | RB | 
+ |  |  | 192 | Patrick Young | 5.2 | 151 | 1988 | Kent State | 11 | 151 | 787 | 5.2 | 8 | 71.5 | QB | 
+ |  |  | 193 | Eric Metcalf | 5.2 | 223 | 1987 | Texas | 11 | 223 | 1161 | 5.2 | 10 | 105.5 | RB | 
+ |  |  | 194 | Sterling Hinds | 5.2 | 159 | 1983 | Washington | 11 | 159 | 826 | 5.2 | 5 | 75.1 | RB | 
+ |  |  | 195 | Darren Lewis | 5.2 | 185 | 1989 | Texas A&M | 11 | 185 | 961 | 5.2 | 11 | 87.4 | RB | 
+ |  |  | 196 | Craig Morrow | 5.2 | 150 | 1980 | Western Michigan | 11 | 150 | 778 | 5.2 | 4 | 70.7 | RB | 
+ |  |  | 197 | Gary Allen | 5.2 | 194 | 1981 | Hawaii | 10 | 194 | 1006 | 5.2 | 8 | 100.6 | RB | 
+ |  |  | 198 | Walter Abercrombie | 5.2 | 229 | 1980 | Baylor | 11 | 229 | 1187 | 5.2 | 9 | 107.9 | RB | 
+ |  |  | 199 | Gaston Green | 5.2 | 220 | 1986 | UCLA | 11 | 220 | 1139 | 5.2 | 14 | 103.5 | RB | 
+ |  |  | 200 | Reggie Taylor | 5.2 | 256 | 1986 | Cincinnati | 11 | 256 | 1325 | 5.2 | 11 | 120.5 | RB | 
 ```
 
 ## Claim check

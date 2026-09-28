@@ -1,16 +1,53 @@
-# SCFB344 — College Football 1970s p:recy_few
+# SCFB344 — College Football 1980s p:pg_pass_yds_per_g
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=rec_yds_per_rec&order_by_asc=0&ccomp[1]=gt&cval[1]=1000&cstat[1]=rec_yds&ccomp[2]=lt&cval[2]=45&cstat[2]=rec
-- Timestamp: 2026-09-28T06:46:31.322Z
-- Rows read: 0
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&order_by=pass_yds_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=gt&cval[2]=275&cstat[2]=pass_yds_per_g
+- Timestamp: 2026-09-28T08:29:52.578Z
+- Rows read: 37
 
 ## Result table
 
 ```
-
+header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_yds_per_g | games | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
+ |  |  | 1 | Andre Ware | 427.2 | 11 | 1989 | Houston | 11 | 365 | 578 | 213 | 63.1 | 4699 | 46 | 15 | 8.0 | 2.6 | 152.5 | 8.1 | 8.55 | 12.9 | 427.2 | QB | 
+ |  |  | 2 | Scott Mitchell | 392.9 | 11 | 1988 | Utah | 11 | 323 | 533 | 210 | 60.6 | 4322 | 29 | 15 | 5.4 | 2.8 | 141.0 | 8.1 | 7.93 | 13.4 | 392.9 | QB | 
+ |  |  | 3 | Jim McMahon | 380.9 | 12 | 1980 | BYU | 12 | 284 | 445 | 161 | 63.8 | 4571 | 47 | 18 | 10.6 | 4.0 | 176.9 | 10.3 | 10.56 | 16.1 | 380.9 | QB | 
+ |  |  | 4 | Ty Detmer | 380.0 | 12 | 1989 | BYU | 12 | 265 | 412 | 147 | 64.3 | 4560 | 32 | 15 | 7.8 | 3.6 | 175.6 | 11.1 | 10.98 | 17.2 | 380.0 | QB | 
+ |  |  | 5 | Steve Young | 354.7 | 11 | 1983 | BYU | 11 | 306 | 429 | 123 | 71.3 | 3902 | 33 | 10 | 7.7 | 2.3 | 168.5 | 9.1 | 9.59 | 12.8 | 354.7 | QB | 
+ |  |  | 6 | Anthony Dilweg | 347.6 | 11 | 1988 | Duke | 11 | 287 | 484 | 197 | 59.3 | 3824 | 24 | 18 | 5.0 | 3.7 | 134.6 | 7.9 | 7.22 | 13.3 | 347.6 | QB | 
+ |  |  | 7 | Jim Everett | 331.9 | 11 | 1985 | Purdue | 11 | 285 | 450 | 165 | 63.3 | 3651 | 23 | 11 | 5.1 | 2.4 | 143.5 | 8.1 | 8.04 | 12.8 | 331.9 | QB | 
+ |  |  | 8 | Robbie Bosco | 328.7 | 13 | 1985 | BYU | 13 | 338 | 511 | 173 | 66.1 | 4273 | 30 | 24 | 5.9 | 4.7 | 146.4 | 8.4 | 7.42 | 12.6 | 328.7 | QB | 
+ |  |  | 9 | Todd Santos | 327.7 | 12 | 1987 | San Diego State | 12 | 306 | 492 | 186 | 62.2 | 3932 | 26 | 15 | 5.3 | 3.0 | 140.7 | 8.0 | 7.68 | 12.8 | 327.7 | QB | 
+ |  |  | 10 | Doug Gaynor | 323.0 | 10 | 1984 | Long Beach State | 10 | 248 | 385 | 137 | 64.4 | 3230 | 16 | 17 | 4.2 | 4.4 | 139.8 | 8.4 | 7.23 | 13.0 | 323.0 | QB | 
+ |  |  | 11 | Robbie Bosco | 322.9 | 12 | 1984 | BYU | 12 | 283 | 458 | 175 | 61.8 | 3875 | 33 | 11 | 7.2 | 2.4 | 151.8 | 8.5 | 8.82 | 13.7 | 322.9 | QB | 
+ |  |  | 12 | Todd Dillon | 319.7 | 11 | 1982 | Long Beach State | 11 | 289 | 504 | 215 | 57.3 | 3517 | 19 | 21 | 3.8 | 4.2 | 120.1 | 7.0 | 5.86 | 12.2 | 319.7 | QB | 
+ |  |  | 13 | Sam King | 314.8 | 12 | 1981 | Nevada-Las Vegas | 12 | 255 | 433 | 178 | 58.9 | 3778 | 18 | 19 | 4.2 | 4.4 | 137.1 | 8.7 | 7.58 | 14.8 | 314.8 | QB | 
+ |  |  | 14 | Doug Flutie | 314.0 | 11 | 1984 | Boston College | 11 | 233 | 386 | 153 | 60.4 | 3454 | 27 | 11 | 7.0 | 2.8 | 152.9 | 8.9 | 9.06 | 14.8 | 314.0 | QB | 
+ |  |  | 15 | Tony Eason | 305.5 | 11 | 1981 | Illinois | 11 | 248 | 406 | 158 | 61.1 | 3360 | 20 | 14 | 4.9 | 3.4 | 140.0 | 8.3 | 7.71 | 13.5 | 305.5 | QB | 
+ |  |  | 16 | Dan McGwire | 304.3 | 12 | 1989 | San Diego State | 12 | 258 | 440 | 182 | 58.6 | 3651 | 16 | 19 | 3.6 | 4.3 | 131.7 | 8.3 | 7.08 | 14.2 | 304.3 | QB | 
+ |  |  | 17 | Bernie Kosar | 303.5 | 12 | 1984 | Miami (FL) | 12 | 262 | 416 | 154 | 63.0 | 3642 | 25 | 16 | 6.0 | 3.8 | 148.7 | 8.8 | 8.23 | 13.9 | 303.5 | QB | 
+ |  |  | 18 | Matt Kofler | 303.4 | 11 | 1981 | San Diego State | 11 | 262 | 436 | 174 | 60.1 | 3337 | 21 | 15 | 4.8 | 3.4 | 133.4 | 7.7 | 7.07 | 12.7 | 303.4 | QB | 
+ |  |  | 19 | Jeremy Leach | 297.8 | 12 | 1989 | New Mexico | 12 | 282 | 511 | 229 | 55.2 | 3573 | 22 | 20 | 4.3 | 3.9 | 120.3 | 7.0 | 6.09 | 12.7 | 297.8 | QB | 
+ |  |  | 20 | Doug Gaynor | 296.9 | 12 | 1985 | Long Beach State | 12 | 321 | 451 | 130 | 71.2 | 3563 | 19 | 18 | 4.2 | 4.0 | 143.5 | 7.9 | 6.95 | 11.1 | 296.9 | QB | 
+ |  |  | 21 | Brian McClure | 296.7 | 11 | 1983 | Bowling Green | 11 | 298 | 466 | 168 | 63.9 | 3264 | 16 | 16 | 3.4 | 3.4 | 127.2 | 7.0 | 6.15 | 11.0 | 296.7 | QB | 
+ |  |  | 22 | Mike Perez | 296.5 | 11 | 1987 | San Jose State | 11 | 242 | 407 | 165 | 59.5 | 3262 | 22 | 13 | 5.4 | 3.2 | 138.2 | 8.0 | 7.66 | 13.5 | 296.5 | QB | 
+ |  |  | 23 | Jim McMahon | 296.3 | 12 | 1981 | BYU | 12 | 272 | 423 | 151 | 64.3 | 3555 | 30 | 7 | 7.1 | 1.7 | 155.0 | 8.4 | 9.08 | 13.1 | 296.3 | QB | 
+ |  |  | 24 | Tony Eason | 295.3 | 11 | 1982 | Illinois | 11 | 278 | 450 | 172 | 61.8 | 3248 | 17 | 15 | 3.8 | 3.3 | 128.2 | 7.2 | 6.47 | 11.7 | 295.3 | QB | 
+ |  |  | 25 | John Elway | 294.7 | 11 | 1982 | Stanford | 11 | 262 | 405 | 143 | 64.7 | 3242 | 24 | 12 | 5.9 | 3.0 | 145.6 | 8.0 | 7.86 | 12.4 | 294.7 | QB | 
+ |  |  | 26 | Vinny Testaverde | 294.4 | 11 | 1985 | Miami (FL) | 11 | 216 | 352 | 136 | 61.4 | 3238 | 21 | 15 | 6.0 | 4.3 | 149.8 | 9.2 | 8.47 | 15.0 | 294.4 | QB | 
+ |  |  | 27 | Brent Snyder | 292.5 | 11 | 1988 | Utah State | 11 | 246 | 447 | 201 | 55.0 | 3218 | 19 | 21 | 4.3 | 4.7 | 120.1 | 7.2 | 5.94 | 13.1 | 292.5 | QB | 
+ |  |  | 28 | Kurt Page | 288.9 | 11 | 1983 | Vanderbilt | 11 | 286 | 493 | 207 | 58.0 | 3178 | 14 | 29 | 2.8 | 5.9 | 109.8 | 6.4 | 4.37 | 11.1 | 288.9 | QB | 
+ |  |  | 29 | Barry Garrison | 287.5 | 11 | 1987 | New Mexico | 11 | 277 | 489 | 212 | 56.6 | 3163 | 17 | 26 | 3.5 | 5.3 | 111.8 | 6.5 | 4.77 | 11.4 | 287.5 | QB | 
+ |  |  | 30 | Dave Wilson | 286.7 | 11 | 1980 | Illinois | 11 | 245 | 463 | 218 | 52.9 | 3154 | 19 | 15 | 4.1 | 3.2 | 117.2 | 6.8 | 6.17 | 12.9 | 286.7 | QB | 
+ |  |  | 31 | Peter Tom Willis | 284.0 | 11 | 1989 | Florida State | 11 | 211 | 346 | 135 | 61.0 | 3124 | 20 | 9 | 5.8 | 2.6 | 150.7 | 9.0 | 9.01 | 14.8 | 284.0 | QB | 
+ |  |  | 32 | Steve Walsh | 283.2 | 11 | 1988 | Miami (FL) | 11 | 233 | 390 | 157 | 59.7 | 3115 | 29 | 12 | 7.4 | 3.1 | 145.2 | 8.0 | 8.09 | 13.4 | 283.2 | QB | 
+ |  |  | 33 | Steve Young | 281.8 | 11 | 1982 | BYU | 11 | 230 | 367 | 137 | 62.7 | 3100 | 18 | 18 | 4.9 | 4.9 | 140.0 | 8.4 | 7.22 | 13.5 | 281.8 | QB | 
+ |  |  | 34 | Ben Bennett | 280.5 | 11 | 1983 | Duke | 11 | 300 | 469 | 169 | 64.0 | 3086 | 17 | 12 | 3.6 | 2.6 | 126.1 | 6.6 | 6.15 | 10.3 | 280.5 | QB | 
+ |  |  | 35 | Terry Nugent | 276.6 | 12 | 1983 | Colorado State | 12 | 275 | 433 | 158 | 63.5 | 3319 | 12 | 20 | 2.8 | 4.6 | 127.8 | 7.7 | 6.14 | 12.1 | 276.6 | QB | 
+ |  |  | 36 | Chuck Hartlieb | 275.8 | 12 | 1988 | Iowa | 12 | 258 | 409 | 151 | 63.1 | 3310 | 14 | 9 | 3.4 | 2.2 | 138.0 | 8.1 | 7.79 | 12.8 | 275.8 | QB | 
+ |  |  | 37 | Ben Bennett | 275.7 | 11 | 1982 | Duke | 11 | 236 | 374 | 138 | 63.1 | 3033 | 20 | 12 | 5.3 | 3.2 | 142.5 | 8.1 | 7.74 | 12.9 | 275.7 | QB | 
 ```
 
 ## Claim check
 
-- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.
+- Complete set: all 37 rows read. A superlative may be asserted only if it holds across every row above.

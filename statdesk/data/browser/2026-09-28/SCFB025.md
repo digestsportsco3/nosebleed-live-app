@@ -1,8 +1,8 @@
-# SCFB025 — College Football 1870s t:winless
+# SCFB025 — College Football 1950s p:fg_perfect
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=7&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=wins&ccomp[3]=lt&cval[3]=0&cstat[3]=ties
-- Timestamp: 2026-09-28T06:25:05.286Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=fga&order_by_asc=0&ccomp[1]=gt&cval[1]=12&cstat[1]=fga&ccomp[2]=gt&cval[2]=100&cstat[2]=fg_pct
+- Timestamp: 2026-09-28T08:08:28.502Z
 - Rows read: 0
 
 ## Result table

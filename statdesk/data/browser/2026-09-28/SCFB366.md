@@ -1,215 +1,215 @@
-# SCFB366 — College Football 1970s p:x_rec
+# SCFB366 — College Football 1980s p:x_dint
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=rec&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=rec
-- Timestamp: 2026-09-28T06:48:01.541Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=def_int
+- Timestamp: 2026-09-28T08:31:20.496Z
 - Rows read: 200
 - CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
- |  |  | 1 | Jay Miller | 100 | 1973 | BYU | 11 | 100 | 1181 | 11.8 | 8 | 107.4 | WR | 
- |  |  | 2 | Dave Petzke | 91 | 1978 | Northern Illinois | 11 | 91 | 1215 | 13.4 | 11 | 110.5 | WR | 
- |  |  | 3 | Mike Mikolayunas | 87 | 1970 | Davidson | 10 | 87 | 1128 | 13.0 | 8 | 112.8 | RB | 
- |  |  | 4 | Dwight McDonald | 86 | 1974 | San Diego State | 11 | 86 | 1157 | 13.5 | 7 | 105.2 | WR | 
- |  |  | 5 | Tom Forzani | 85 | 1972 | Utah State | 11 | 85 | 1169 | 13.8 | 8 | 106.3 | WR | 
- |  |  | 6 | Bill Ryckman | 77 | 1976 | Louisiana Tech | 11 | 77 | 1382 | 17.9 | 10 | 125.6 | WR | 
- |  |  | 7 | John Ross | 77 | 1974 | Toledo | 11 | 77 | 866 | 11.2 | 2 | 78.7 | WR | 
- |  |  | 8 | Tom Gatewood | 77 | 1970 | Notre Dame | 10 | 77 | 1123 | 14.6 | 7 | 112.3 | WR | 
- |  |  | 9 | Don Fair | 76 | 1970 | Toledo | 11 | 76 | 893 | 11.8 | 4 | 81.2 | WR | 
- |  |  | 10 | James Sykes | 76 | 1976 | Rice | 11 | 76 | 653 | 8.6 | 2 | 59.4 | RB | 
- |  |  | 11 | David Smith | 74 | 1970 | Mississippi State | 11 | 74 | 987 | 13.3 | 6 | 89.7 | WR | 
- |  |  | 12 | Ernie Jennings | 74 | 1970 | Air Force | 11 | 74 | 1289 | 17.4 | 17 | 117.2 | RB | 
- |  |  | 13 | Mike Siani | 74 | 1970 | Villanova | 11 | 74 | 1328 | 17.9 | 12 | 120.7 | WR | 
- |  |  | 14 | Rick Beasley | 74 | 1979 | Appalachian State | 11 | 74 | 1205 | 16.3 | 12 | 109.5 | WR | 
- |  |  | 15 | Wes Chesson | 74 | 1970 | Duke | 11 | 74 | 1080 | 14.6 | 3 | 98.2 | WR | 
- |  |  | 16 | Wayne Tolleson | 73 | 1977 | Western Carolina | 11 | 73 | 1101 | 15.1 | 7 | 100.1 | WR | 
- |  |  | 17 | Barry Smith | 69 | 1972 | Florida State | 11 | 69 | 1243 | 18.0 | 13 | 113.0 | WR | 
- |  |  | 18 | Bob Newland | 67 | 1970 | Oregon | 11 | 67 | 1123 | 16.8 | 7 | 102.1 | WR | 
- |  |  | 19 | Mike Levenseller | 67 | 1976 | Washington State | 11 | 67 | 1124 | 16.8 | 8 | 102.2 | WR | 
- |  |  | 20 | Tom Reynolds | 67 | 1971 | San Diego State | 11 | 67 | 1070 | 16.0 | 7 | 97.3 | WR | 
- |  |  | 21 | Steve Coury | 66 | 1979 | Oregon State | 11 | 66 | 842 | 12.8 | 5 | 76.5 | WR | 
- |  |  | 22 | Hank Cook | 65 | 1973 | New Mexico State | 11 | 65 | 1111 | 17.1 | 8 | 101.0 | WR | 
- |  |  | 23 | Emanuel Tolbert | 64 | 1977 | SMU | 11 | 64 | 996 | 15.6 | 6 | 90.5 | WR | 
- |  |  | 24 | Brian Baima | 63 | 1971 | The Citadel | 11 | 63 | 1230 | 19.5 | 13 | 111.8 | WR | 
- |  |  | 25 | Clint Graves | 63 | 1972 | Temple | 9 | 63 | 707 | 11.2 | 3 | 78.6 | WR | 
- |  |  | 26 | Dave Quehl | 63 | 1975 | Holy Cross | 11 | 63 | 959 | 15.2 | 5 | 87.2 | WR | 
- |  |  | 27 | James Murphy | 63 | 1979 | Utah State | 11 | 63 | 1067 | 16.9 | 6 | 97.0 | WR | 
- |  |  | 28 | Dave Quehl | 62 | 1974 | Holy Cross | 11 | 62 | 801 | 12.9 | 6 | 72.8 | WR | 
- |  |  | 29 | Emanuel Tolbert | 62 | 1978 | SMU | 11 | 62 | 1041 | 16.8 | 11 | 94.6 | WR | 
- |  |  | 30 | Gerald Harp | 62 | 1978 | Western Carolina | 11 | 62 | 1145 | 18.5 | 11 | 104.1 | WR | 
- |  |  | 31 | Jeff Calabrese | 62 | 1972 | Toledo | 11 | 62 | 886 | 14.3 | 2 | 80.5 | WR | 
- |  |  | 32 | Rhett Dawson | 62 | 1971 | Florida State | 11 | 62 | 817 | 13.2 | 7 | 74.3 | WR | 
- |  |  | 33 | Tim Delaney | 62 | 1970 | San Diego State | 11 | 62 | 794 | 12.8 | 6 | 72.2 | TE | 
- |  |  | 34 | Walt Walker | 62 | 1972 | Davidson | 11 | 62 | 1031 | 16.6 | 8 | 93.7 | WR | 
- |  |  | 35 | Bert Calland | 61 | 1972 | Navy | 11 | 61 | 650 | 10.7 | 2 | 59.1 | WR | 
- |  |  | 36 | Mike Moore | 60 | 1977 | Grambling State | 11 | 60 | 1112 | 18.5 | 12 | 101.1 | TE | 
- |  |  | 37 | Paul Proffitt | 60 | 1977 | Drake | 11 | 60 | 778 | 13.0 | 5 | 70.7 | WR | 
- |  |  | 38 | Rick Beasley | 60 | 1978 | Appalachian State | 11 | 60 | 971 | 16.2 | 4 | 88.3 | WR | 
- |  |  | 39 | Vernon Henry | 60 | 1978 | Long Beach State | 11 | 60 | 985 | 16.4 | 6 | 89.5 | WR | 
- |  |  | 40 | Darold Nogle | 59 | 1973 | San Diego State | 11 | 59 | 945 | 16.0 | 6 | 85.9 | TE | 
- |  |  | 41 | Dave Oliver | 59 | 1976 | Louisiana | 11 | 59 | 876 | 14.8 | 10 | 79.6 | WR | 
- |  |  | 42 | Howard Robinson | 59 | 1979 | Lamar | 11 | 59 | 840 | 14.2 | 12 | 76.4 | WR | 
- |  |  | 43 | Otto Stowe | 59 | 1970 | Iowa State | 11 | 59 | 822 | 13.9 | 6 | 74.7 | WR | 
- |  |  | 44 | Preston Dennard | 59 | 1975 | New Mexico | 11 | 59 | 962 | 16.3 | 6 | 87.5 | WR | 
- |  |  | 45 | Rick Morrison | 59 | 1977 | Ball State | 11 | 59 | 908 | 15.4 | 8 | 82.5 | WR | 
- |  |  | 46 | Rod Foppe | 59 | 1977 | Louisiana Tech | 11 | 59 | 1274 | 21.6 | 5 | 115.8 | WR | 
- |  |  | 47 | Bob Wicks | 58 | 1971 | Utah State | 11 | 58 | 862 | 14.9 | 5 | 78.4 | WR | 
- |  |  | 48 | J.D. Hill | 58 | 1970 | Arizona State | 10 | 58 | 908 | 15.7 | 10 | 90.8 | WR | 
- |  |  | 49 | Ken Matthews | 58 | 1972 | Long Beach State | 11 | 58 | 938 | 16.2 | 2 | 85.3 | WR | 
- |  |  | 50 | Rocky Turner | 58 | 1971 | Chattanooga | 11 | 58 | 984 | 17.0 | 5 | 89.5 | WR | 
- |  |  | 51 | Cormac Carney | 57 | 1978 | Air Force | 11 | 57 | 870 | 15.3 | 8 | 79.1 | WR | 
- |  |  | 52 | Dave Petzke | 57 | 1977 | Northern Illinois | 11 | 57 | 743 | 13.0 | 5 | 67.5 | WR | 
- |  |  | 53 | Doug Cunningham | 57 | 1976 | Rice | 11 | 57 | 770 | 13.5 | 3 | 70.0 | WR | 
- |  |  | 54 | Duke Fergerson | 57 | 1975 | San Diego State | 11 | 57 | 886 | 15.5 | 4 | 80.5 | WR | 
- |  |  | 55 | Ed Puishes | 57 | 1970 | UTEP | 10 | 57 | 1000 | 17.5 | 3 | 100.0 | WR | 
- |  |  | 56 | Gerald Harp | 57 | 1979 | Western Carolina | 11 | 57 | 1009 | 17.7 | 10 | 91.7 | WR | 
- |  |  | 57 | John Goerger | 57 | 1972 | Kansas State | 11 | 57 | 612 | 10.7 | 1 | 55.6 | WR | 
- |  |  | 58 | Steve Rivera | 57 | 1975 | California | 11 | 57 | 790 | 13.9 | 4 | 71.8 | WR | 
- |  |  | 59 | Bob Farnham | 56 | 1975 | Brown | 9 | 56 | 701 | 12.5 | 2 | 77.9 | WR | 
- |  |  | 60 | Jeff Groth | 56 | 1978 | Bowling Green | 11 | 56 | 874 | 15.6 | 8 | 79.5 | WR | 
- |  |  | 61 | Mike Reppond | 56 | 1971 | Arkansas | 11 | 56 | 986 | 17.6 | 3 | 89.6 | WR | 
- |  |  | 62 | Mike Riley | 56 | 1977 | The Citadel | 11 | 56 | 724 | 12.9 | 2 | 65.8 | WR | 
- |  |  | 63 | Pat McInally | 56 | 1973 | Harvard | 9 | 56 | 752 | 13.4 | 7 | 83.6 | WR | 
- |  |  | 64 | Steve Rivera | 56 | 1974 | California | 11 | 56 | 938 | 16.8 | 4 | 85.3 | WR | 
- |  |  | 65 | David Bailey | 55 | 1970 | Alabama | 11 | 55 | 790 | 14.4 | 6 | 71.8 | WR | 
- |  |  | 66 | David Houser | 55 | 1977 | Rice | 11 | 55 | 795 | 14.5 | 5 | 72.3 | WR | 
- |  |  | 67 | Honor Jackson | 55 | 1970 | Pacific | 11 | 55 | 931 | 16.9 | 5 | 84.6 | WR | 
- |  |  | 68 | Johnny Rodgers | 55 | 1972 | Nebraska | 11 | 55 | 942 | 17.1 | 8 | 85.6 | RB | 
- |  |  | 69 | Terry Beasley | 55 | 1971 | Auburn | 10 | 55 | 846 | 15.4 | 12 | 84.6 | WR | 
- |  |  | 70 | Tony Hill | 55 | 1975 | Stanford | 11 | 55 | 916 | 16.7 | 7 | 83.3 | WR | 
- |  |  | 71 | Wayne Baumgardner | 55 | 1979 | Wake Forest | 11 | 55 | 1000 | 18.2 | 8 | 90.9 | WR | 
- |  |  | 72 | Fuzzy Filliez | 54 | 1975 | Marshall | 11 | 54 | 657 | 12.2 | 7 | 59.7 | WR | 
- |  |  | 73 | Greg Hudson | 54 | 1973 | Arizona State | 11 | 54 | 788 | 14.6 | 7 | 71.6 | WR | 
- |  |  | 74 | Jerry Butler | 54 | 1978 | Clemson | 11 | 54 | 864 | 16.0 | 3 | 78.5 | WR | 
- |  |  | 75 | Jim Krieg | 54 | 1970 | Washington | 10 | 54 | 738 | 13.7 | 2 | 73.8 | WR | 
- |  |  | 76 | Joe Albano | 54 | 1970 | Army | 11 | 54 | 669 | 12.4 | 6 | 60.8 | WR | 
- |  |  | 77 | Keith Hartwig | 54 | 1976 | Arizona | 11 | 54 | 1134 | 21.0 | 10 | 103.1 | WR | 
- |  |  | 78 | Ken Burrow | 54 | 1970 | San Diego State | 11 | 54 | 904 | 16.7 | 12 | 82.2 | WR | 
- |  |  | 79 | Ken MacAfee | 54 | 1977 | Notre Dame | 11 | 54 | 797 | 14.8 | 6 | 72.5 | TE | 
- |  |  | 80 | Rhett Dawson | 54 | 1970 | Florida State | 11 | 54 | 946 | 17.5 | 5 | 86.0 | WR | 
- |  |  | 81 | Bubba Garcia | 53 | 1977 | UTEP | 11 | 53 | 826 | 15.6 | 9 | 75.1 | WR | 
- |  |  | 82 | Charles Dancer | 53 | 1973 | Baylor | 11 | 53 | 927 | 17.5 | 7 | 84.3 | WR | 
- |  |  | 83 | Dan Doornink | 53 | 1976 | Washington State | 11 | 53 | 469 | 8.8 | 3 | 42.6 | RB | 
- |  |  | 84 | Don Clune | 53 | 1973 | Pennsylvania | 9 | 53 | 882 | 16.6 | 7 | 98.0 | WR | 
- |  |  | 85 | Eric Cross | 53 | 1972 | Stanford | 11 | 53 | 730 | 13.8 | 9 | 66.4 | WR | 
- |  |  | 86 | Glenn Scolnik | 53 | 1972 | Indiana | 11 | 53 | 727 | 13.7 | 6 | 66.1 | WR | 
- |  |  | 87 | Greg Bauer | 53 | 1976 | Oregon | 11 | 53 | 632 | 11.9 | 2 | 57.5 | WR | 
- |  |  | 88 | Greg Taylor | 53 | 1972 | UTEP | 10 | 53 | 878 | 16.6 | 4 | 87.8 | WR | 
- |  |  | 89 | James Lofton | 53 | 1977 | Stanford | 11 | 53 | 931 | 17.6 | 12 | 84.6 | WR | 
- |  |  | 90 | John Jefferson | 53 | 1977 | Arizona State | 11 | 53 | 912 | 17.2 | 8 | 82.9 | WR | 
- |  |  | 91 | John Sexton | 53 | 1970 | Fresno State | 12 | 53 | 753 | 14.2 | 9 | 62.8 | WR | 
- |  |  | 92 | Johnny Rodgers | 53 | 1971 | Nebraska | 12 | 53 | 872 | 16.5 | 11 | 72.7 | WR | 
- |  |  | 93 | Ken Margerum | 53 | 1978 | Stanford | 11 | 53 | 942 | 17.8 | 9 | 85.6 | WR | 
- |  |  | 94 | Mike Bolen | 53 | 1970 | Air Force | 11 | 53 | 706 | 13.3 | 3 | 64.2 | WR | 
- |  |  | 95 | Pat Tilley | 53 | 1975 | Louisiana Tech | 10 | 53 | 926 | 17.5 | 6 | 92.6 | WR | 
- |  |  | 96 | Theopolis Bell | 53 | 1974 | Arizona | 11 | 53 | 700 | 13.2 | 11 | 63.6 | WR | 
- |  |  | 97 | Willie Miller | 53 | 1973 | Colorado State | 11 | 53 | 793 | 15.0 | 6 | 72.1 | WR | 
- |  |  | 98 | Willie Miller | 53 | 1974 | Colorado State | 11 | 53 | 1193 | 22.5 | 9 | 108.5 | WR | 
- |  |  | 99 | David Houser | 52 | 1976 | Rice | 11 | 52 | 931 | 17.9 | 5 | 84.6 | WR | 
- |  |  | 100 | Gary Barnes | 52 | 1972 | Louisville | 10 | 52 | 655 | 12.6 | 4 | 65.5 | TE | 
- |  |  | 101 | Greg Bauer | 52 | 1975 | Oregon | 11 | 52 | 616 | 11.8 | 4 | 56.0 | WR | 
- |  |  | 102 | Greg Specht | 52 | 1972 | Oregon | 11 | 52 | 710 | 13.7 | 4 | 64.5 | WR | 
- |  |  | 103 | Matt Bouza | 52 | 1979 | California | 11 | 52 | 717 | 13.8 | 4 | 65.2 | WR | 
- |  |  | 104 | Mike Chronister | 52 | 1978 | BYU | 12 | 52 | 850 | 16.3 | 3 | 70.8 | WR | 
- |  |  | 105 | Mike House | 52 | 1979 | Pacific | 10 | 52 | 548 | 10.5 | 2 | 54.8 | TE | 
- |  |  | 106 | Preston Brown | 52 | 1979 | Vanderbilt | 11 | 52 | 786 | 15.1 | 3 | 71.5 | WR | 
- |  |  | 107 | Steve Largent | 52 | 1974 | Tulsa | 11 | 52 | 884 | 17.0 | 14 | 80.4 | WR | 
- |  |  | 108 | Steve Sweeney | 52 | 1972 | California | 11 | 52 | 785 | 15.1 | 13 | 71.4 | WR | 
- |  |  | 109 | Terry Beasley | 52 | 1970 | Auburn | 10 | 52 | 1051 | 20.2 | 11 | 105.1 | WR | 
- |  |  | 110 | Walt Walker | 52 | 1973 | Davidson | 10 | 52 | 606 | 11.7 | 2 | 60.6 | WR | 
- |  |  | 111 | Chip Regine | 51 | 1972 | Brown | 9 | 51 | 681 | 13.4 | 6 | 75.7 | WR | 
- |  |  | 112 | Clennie Brundidge | 51 | 1977 | Army | 11 | 51 | 842 | 16.5 | 4 | 76.5 | TE | 
- |  |  | 113 | Dave Sullivan | 51 | 1972 | Virginia | 11 | 51 | 662 | 13.0 | 7 | 60.2 | WR | 
- |  |  | 114 | Dave Young | 51 | 1979 | Purdue | 11 | 51 | 512 | 10.0 | 8 | 46.5 | TE | 
- |  |  | 115 | Jesse Thompson | 51 | 1977 | California | 11 | 51 | 797 | 15.6 | 5 | 72.5 | WR | 
- |  |  | 116 | Larry Seivers | 51 | 1976 | Tennessee | 11 | 51 | 737 | 14.5 | 2 | 67.0 | WR | 
- |  |  | 117 | Mike Montgomery | 51 | 1970 | Kansas State | 11 | 51 | 386 | 7.6 | 1 | 35.1 | RB | 
- |  |  | 118 | Steve Largent | 51 | 1975 | Tulsa | 11 | 51 | 1000 | 19.6 | 14 | 90.9 | WR | 
- |  |  | 119 | Steve Young | 51 | 1977 | Wake Forest | 11 | 51 | 483 | 9.5 | 3 | 43.9 | TE | 
- |  |  | 120 | Todd Christensen | 51 | 1976 | BYU | 11 | 51 | 510 | 10.0 | 3 | 46.4 | RB | 
- |  |  | 121 | Bryan Hanning | 50 | 1977 | Wichita State | 11 | 50 | 767 | 15.3 | 5 | 69.7 | WR | 
- |  |  | 122 | Darrin Nelson | 50 | 1977 | Stanford | 11 | 50 | 524 | 10.5 | 3 | 47.6 | RB | 
- |  |  | 123 | Darrin Nelson | 50 | 1978 | Stanford | 11 | 50 | 446 | 8.9 | 4 | 40.5 | RB | 
- |  |  | 124 | Gary Hammond | 50 | 1970 | SMU | 11 | 50 | 489 | 9.8 | 3 | 44.5 | RB | 
- |  |  | 125 | George Freitas | 50 | 1977 | California | 11 | 50 | 673 | 13.5 | 4 | 61.2 | TE | 
- |  |  | 126 | Jim Butler | 50 | 1971 | Tulsa | 11 | 50 | 486 | 9.7 | 0 | 44.2 | TE | 
- |  |  | 127 | Mike Green | 50 | 1975 | Ohio | 11 | 50 | 642 | 12.8 | 3 | 58.4 | WR | 
- |  |  | 128 | Mike Renfro | 50 | 1977 | Texas Christian | 11 | 50 | 794 | 15.9 | 10 | 72.2 | WR | 
- |  |  | 129 | Morris Owens | 50 | 1973 | Arizona State | 11 | 50 | 1076 | 21.5 | 9 | 97.8 | WR | 
- |  |  | 130 | Scott Yelvington | 50 | 1975 | Northwestern | 11 | 50 | 686 | 13.7 | 4 | 62.4 | WR | 
- |  |  | 131 | Todd Christensen | 50 | 1977 | BYU | 11 | 50 | 603 | 12.1 | 5 | 54.8 | RB | 
- |  |  | 132 | Willie Hatter | 50 | 1971 | Northern Illinois | 11 | 50 | 615 | 12.3 | 1 | 55.9 | WR | 
- |  |  | 133 | Bill Davis | 49 | 1971 | Virginia | 11 | 49 | 617 | 12.6 | 2 | 56.1 | WR | 
- |  |  | 134 | Dave Shula | 49 | 1978 | Dartmouth | 9 | 49 | 656 | 13.4 | 1 | 72.9 | WR | 
- |  |  | 135 | Dennis Pearson | 49 | 1977 | San Diego State | 11 | 49 | 864 | 17.6 | 5 | 78.5 | WR | 
- |  |  | 136 | Don Fair | 49 | 1971 | Toledo | 11 | 49 | 673 | 13.7 | 6 | 61.2 | WR | 
- |  |  | 137 | Emmett Edwards | 49 | 1973 | Kansas | 11 | 49 | 802 | 16.4 | 3 | 72.9 | WR | 
- |  |  | 138 | Gary Parris | 49 | 1972 | Florida State | 11 | 49 | 629 | 12.8 | 4 | 57.2 | TE | 
- |  |  | 139 | Jeff Hepinstall | 49 | 1975 | Toledo | 11 | 49 | 614 | 12.5 | 2 | 55.8 | WR | 
- |  |  | 140 | Logan Hunter | 49 | 1972 | BYU | 11 | 49 | 555 | 11.3 | 2 | 50.5 | WR | 
- |  |  | 141 | Mike Renfro | 49 | 1975 | Texas Christian | 11 | 49 | 810 | 16.5 | 2 | 73.6 | WR | 
- |  |  | 142 | Mike Siani | 49 | 1971 | Villanova | 11 | 49 | 960 | 19.6 | 14 | 87.3 | WR | 
- |  |  | 143 | Phil Francis | 49 | 1978 | Stanford | 11 | 49 | 378 | 7.7 | 0 | 34.4 | RB | 
- |  |  | 144 | Albert Kirby | 48 | 1979 | Wake Forest | 11 | 48 | 329 | 6.9 | 1 | 29.9 | RB | 
- |  |  | 145 | Barry Pearson | 48 | 1971 | Northwestern | 11 | 48 | 674 | 14.0 | 1 | 61.3 | WR | 
- |  |  | 146 | Bob Allen | 48 | 1970 | Ohio | 9 | 48 | 699 | 14.6 | 4 | 77.7 | WR | 
- |  |  | 147 | David Knight | 48 | 1971 | William & Mary | 11 | 48 | 845 | 17.6 | 0 | 76.8 | WR | 
- |  |  | 148 | Derek Davis | 48 | 1970 | Baylor | 11 | 48 | 780 | 16.3 | 4 | 70.9 | RB | 
- |  |  | 149 | Geoff DeLapp | 48 | 1971 | California | 11 | 48 | 464 | 9.7 | 1 | 42.2 | WR | 
- |  |  | 150 | Hermann Eben | 48 | 1970 | Oklahoma State | 11 | 48 | 937 | 19.5 | 7 | 85.2 | WR | 
- |  |  | 151 | Jeff Evans | 48 | 1978 | New Mexico State | 11 | 48 | 926 | 19.3 | 5 | 84.2 | WR | 
- |  |  | 152 | Jeffrey Gowan | 48 | 1976 | Illinois State | 11 | 48 | 696 | 14.5 | 1 | 63.3 | WR | 
- |  |  | 153 | Jimmy Bryant | 48 | 1978 | Utah State | 11 | 48 | 696 | 14.5 | 3 | 63.3 | WR | 
- |  |  | 154 | Jimmy Robinson | 48 | 1972 | Georgia Tech | 11 | 48 | 812 | 16.9 | 9 | 73.8 | WR | 
- |  |  | 155 | John Jefferson | 48 | 1976 | Arizona State | 11 | 48 | 681 | 14.2 | 5 | 61.9 | WR | 
- |  |  | 156 | Keith Denson | 48 | 1973 | San Diego State | 11 | 48 | 922 | 19.2 | 11 | 83.8 | WR | 
- |  |  | 157 | Ken Thompson | 48 | 1979 | Utah State | 11 | 48 | 918 | 19.1 | 11 | 83.5 | WR | 
- |  |  | 158 | Mardye McDole | 48 | 1978 | Mississippi State | 11 | 48 | 1035 | 21.6 | 7 | 94.1 | WR | 
- |  |  | 159 | Martin Cox | 48 | 1977 | Vanderbilt | 11 | 48 | 783 | 16.3 | 3 | 71.2 | WR | 
- |  |  | 160 | Randy Vataha | 48 | 1970 | Stanford | 11 | 48 | 844 | 17.6 | 6 | 76.7 | WR | 
- |  |  | 161 | Steve Lewis | 48 | 1976 | West Virginia | 11 | 48 | 737 | 15.4 | 6 | 67.0 | WR | 
- |  |  | 162 | Tom Fadden | 48 | 1975 | Virginia | 11 | 48 | 620 | 12.9 | 2 | 56.4 | WR | 
- |  |  | 163 | Alton Alexis | 47 | 1979 | Tulane | 11 | 47 | 557 | 11.9 | 5 | 50.6 | WR | 
- |  |  | 164 | Andy Davis | 47 | 1972 | Davidson | 11 | 47 | 541 | 11.5 | 2 | 49.2 | WR | 
- |  |  | 165 | Bill Buckley | 47 | 1972 | Mississippi State | 11 | 47 | 776 | 16.5 | 6 | 70.5 | RB | 
- |  |  | 166 | Bob Wicks | 47 | 1970 | Utah State | 10 | 47 | 642 | 13.7 | 3 | 64.2 | WR | 
- |  |  | 167 | Bruce Starks | 47 | 1974 | Cornell | 9 | 47 | 619 | 13.2 | 2 | 68.8 | WR | 
- |  |  | 168 | Chuck Davidian | 47 | 1971 | Long Beach State | 12 | 47 | 793 | 16.9 | 8 | 66.1 | WR | 
- |  |  | 169 | Clennie Brundidge | 47 | 1976 | Army | 11 | 47 | 657 | 14.0 | 6 | 59.7 | TE | 
- |  |  | 170 | Earl Cooper | 47 | 1979 | Rice | 11 | 47 | 463 | 9.9 | 2 | 42.1 | RB | 
- |  |  | 171 | Elmo Wright | 47 | 1970 | Houston | 11 | 47 | 874 | 18.6 | 9 | 79.5 | WR | 
- |  |  | 172 | Gary Pomeroy | 47 | 1973 | Davidson | 10 | 47 | 513 | 10.9 | 4 | 51.3 | WR | 
- |  |  | 173 | Jeffrey Gowan | 47 | 1977 | Illinois State | 11 | 47 | 702 | 14.9 | 6 | 63.8 | WR | 
- |  |  | 174 | Jim Mitchell | 47 | 1971 | South Carolina | 11 | 47 | 618 | 13.1 | 2 | 56.2 | WR | 
- |  |  | 175 | Jimmy Jerome | 47 | 1974 | North Carolina | 11 | 47 | 837 | 17.8 | 5 | 76.1 | WR | 
- |  |  | 176 | Randy Whately | 47 | 1973 | Toledo | 11 | 47 | 717 | 15.3 | 4 | 65.2 | WR | 
- |  |  | 177 | Rodney Holman | 47 | 1979 | Tulane | 11 | 47 | 478 | 10.2 | 5 | 43.5 | TE | 
- |  |  | 178 | Ronnie Moore | 47 | 1975 | Virginia Military Institute | 11 | 47 | 662 | 14.1 | 1 | 60.2 | WR | 
- |  |  | 179 | Theopolis Bell | 47 | 1973 | Arizona | 11 | 47 | 790 | 16.8 | 7 | 71.8 | WR | 
- |  |  | 180 | Bill Kellar | 46 | 1977 | Stanford | 11 | 46 | 653 | 14.2 | 3 | 59.4 | WR | 
- |  |  | 181 | Charles Whittemore | 46 | 1970 | Georgia | 10 | 46 | 620 | 13.5 | 5 | 62.0 | WR | 
- |  |  | 182 | Chris Moyneur | 46 | 1972 | San Jose State | 11 | 46 | 559 | 12.2 | 4 | 50.8 | TE | 
- |  |  | 183 | Craig Richardson | 46 | 1978 | Texas Christian | 11 | 46 | 360 | 7.8 | 0 | 32.7 | RB | 
- |  |  | 184 | Dave Juenger | 46 | 1970 | Ohio | 9 | 46 | 540 | 11.7 | 3 | 60.0 | WR | 
- |  |  | 185 | Dick Corrada | 46 | 1970 | East Carolina | 11 | 46 | 512 | 11.1 | 1 | 46.5 | WR | 
- |  |  | 186 | Floyd Franks | 46 | 1970 | Ole Miss | 10 | 46 | 668 | 14.5 | 7 | 66.8 | WR | 
- |  |  | 187 | Homer Jones | 46 | 1979 | BYU | 11 | 46 | 404 | 8.8 | 4 | 36.7 | RB | 
- |  |  | 188 | James Thompson | 46 | 1973 | Memphis | 11 | 46 | 517 | 11.2 | 0 | 47.0 | WR | 
- |  |  | 189 | John Mastronardo | 46 | 1974 | Villanova | 11 | 46 | 739 | 16.1 | 3 | 67.2 | WR | 
- |  |  | 190 | Leland Glass | 46 | 1971 | Oregon | 11 | 46 | 584 | 12.7 | 6 | 53.1 | WR | 
- |  |  | 191 | Lonnie Crittenden | 46 | 1972 | UTEP | 10 | 46 | 642 | 14.0 | 3 | 64.2 | WR | 
- |  |  | 192 | Mark Sheridan | 46 | 1973 | Holy Cross | 11 | 46 | 703 | 15.3 | 5 | 63.9 | TE | 
- |  |  | 193 | Mike Burnop | 46 | 1971 | Virginia Tech | 11 | 46 | 558 | 12.1 | 2 | 50.7 | TE | 
- |  |  | 194 | Mike Haggard | 46 | 1972 | South Carolina | 11 | 46 | 639 | 13.9 | 8 | 58.1 | WR | 
- |  |  | 195 | Nigel Turpin | 46 | 1977 | Ohio | 11 | 46 | 624 | 13.6 | 2 | 56.7 | WR | 
- |  |  | 196 | Pat McInally | 46 | 1974 | Harvard | 9 | 46 | 655 | 14.2 | 8 | 72.8 | WR | 
- |  |  | 197 | Phil Johnson | 46 | 1979 | Holy Cross | 11 | 46 | 662 | 14.4 | 3 | 60.2 | WR | 
- |  |  | 198 | Ronnie Moore | 46 | 1973 | Virginia Military Institute | 11 | 46 | 676 | 14.7 | 4 | 61.5 | WR | 
- |  |  | 199 | Scott Piper | 46 | 1974 | Arizona | 11 | 46 | 671 | 14.6 | 4 | 61.0 | WR | 
- |  |  | 200 | Terry Moreland | 46 | 1970 | Idaho | 11 | 46 | 476 | 10.3 | 1 | 43.3 | WR | 
+header_empty_0 | header_def_int | header_empty_2 | ranker | name_display | def_int | year_id | teams_played_for | games | def_int | def_int_yds | def_int_td | pass_defended | pos | class
+ |  |  | 1 | Bob Navarro | 12 | 1989 | Eastern Michigan | 11 | 12 | 73 | 0 |  | DB | 
+ |  |  | 2 | Cornelius Price | 12 | 1989 | Houston | 11 | 12 | 180 | 2 |  | DB | 
+ |  |  | 3 | Terry Hoage | 12 | 1982 | Georgia | 11 | 12 | 51 | 0 |  | DB | 
+ |  |  | 4 | Tony Thurman | 12 | 1984 | Boston College | 11 | 12 | 99 | 0 |  | DB | 
+ |  |  | 5 | Ben Smith | 10 | 1989 | Georgia | 11 | 10 | 54 | 0 |  | DB | 
+ |  |  | 6 | Bennie Blades | 10 | 1986 | Miami (FL) | 11 | 10 | 128 | 0 |  | DB | 
+ |  |  | 7 | Martin Bayless | 10 | 1983 | Bowling Green | 11 | 10 | 64 | 0 |  | DB | 
+ |  |  | 8 | Chris White | 9 | 1985 | Tennessee | 11 | 9 | 168 | 1 |  | DB | 
+ |  |  | 9 | Chuck Cecil | 9 | 1987 | Arizona | 11 | 9 | 77 | 0 |  | DB | 
+ |  |  | 10 | Jeff Sanchez | 9 | 1982 | Georgia | 11 | 9 | 49 | 0 |  | DB | 
+ |  |  | 11 | Keith McMeans | 9 | 1987 | Virginia | 10 | 9 | 35 | 0 |  | DB | 
+ |  |  | 12 | Kevin Smith | 9 | 1989 | Texas A&M | 11 | 9 | 75 | 1 |  | DB | 
+ |  |  | 13 | Kevin Walker | 9 | 1985 | East Carolina | 11 | 9 | 155 | 1 |  | DB | 
+ |  |  | 14 | Mark Brandon | 9 | 1983 | Toledo | 11 | 9 | 66 | 1 |  | DB | 
+ |  |  | 15 | Sam Shaffer | 9 | 1981 | Temple | 10 | 9 | 76 | 0 |  | DB | 
+ |  |  | 16 | Teddy Johnson | 9 | 1986 | Oregon State | 11 | 9 | 86 | 0 |  | DB | 
+ |  |  | 17 | Todd Krumm | 9 | 1987 | Michigan State | 11 | 9 | 129 | 0 |  | DB | 
+ |  |  | 18 | Walter Briggs | 9 | 1989 | Hawaii | 12 | 9 | 116 | 1 |  | DB | 
+ |  |  | 19 | Andy Logan | 8 | 1988 | Kent State | 11 | 8 | 54 | 0 |  | DB | 
+ |  |  | 20 | Brad Edwards | 8 | 1987 | South Carolina | 11 | 8 | 132 | 2 |  | DB | 
+ |  |  | 21 | Bryant Gilliard | 8 | 1984 | South Carolina | 11 | 8 | 29 | 0 |  | DB | 
+ |  |  | 22 | Elton Slater | 8 | 1986 | Louisiana | 11 | 8 | 1 | 0 |  | DB | 
+ |  |  | 23 | Eric Allen | 8 | 1987 | Arizona State | 11 | 8 | 185 | 2 |  | DB | 
+ |  |  | 24 | Greg Benton | 8 | 1980 | Drake | 11 | 8 | 119 | 0 |  | DB | 
+ |  |  | 25 | Jeff Hipp | 8 | 1980 | Georgia | 11 | 8 | 104 | 0 |  | DB | 
+ |  |  | 26 | Jim Bowman | 8 | 1983 | Central Michigan | 11 | 8 | 87 | 1 |  | DB | 
+ |  |  | 27 | Johnny Jackson | 8 | 1987 | Houston | 11 | 8 | 218 | 3 |  | DB | 
+ |  |  | 28 | Kevin Cook | 8 | 1987 | Virginia | 11 | 8 | 14 | 0 |  | DB | 
+ |  |  | 29 | Kurt Larson | 8 | 1988 | Michigan State | 11 | 8 | 87 | 1 |  | LB | 
+ |  |  | 30 | Leonard Coleman | 8 | 1982 | Vanderbilt | 11 | 8 | 101 | 0 |  | DB | 
+ |  |  | 31 | Lou King | 8 | 1981 | Iowa | 11 | 8 | 62 | 0 |  | DB | 
+ |  |  | 32 | Mike Richardson | 8 | 1980 | Arizona State | 11 | 8 | 89 | 2 |  | DB | 
+ |  |  | 33 | Mike Romero | 8 | 1985 | Cal State Fullerton | 11 | 8 | 84 | 1 |  | DB | 
+ |  |  | 34 | Nate Harris | 8 | 1984 | Tulsa | 11 | 8 | 131 | 0 |  | DB | 
+ |  |  | 35 | Rickey Dixon | 8 | 1987 | Oklahoma | 11 | 8 | 214 | 1 |  | DB | 
+ |  |  | 36 | Robert Blackmon | 8 | 1989 | Baylor | 11 | 8 | 150 | 2 |  | DB | 
+ |  |  | 37 | Ron Cross | 8 | 1984 | Fresno State | 12 | 8 | 132 | 0 |  | DB | 
+ |  |  | 38 | Ron Francis | 8 | 1986 | Baylor | 11 | 8 | 25 | 0 |  | DB | 
+ |  |  | 39 | Ronnie Lott | 8 | 1980 | USC | 11 | 8 | 166 | 1 |  | DB | 
+ |  |  | 40 | Scott Case | 8 | 1983 | Oklahoma | 12 | 8 | 110 | 1 |  | DB | 
+ |  |  | 41 | Sean Thomas | 8 | 1984 | Texas Christian | 11 | 8 | 25 | 0 |  | DB | 
+ |  |  | 42 | Steve McNamee | 8 | 1980 | William & Mary | 11 | 8 | 125 | 0 |  | DB | 
+ |  |  | 43 | Todd Lyght | 8 | 1989 | Notre Dame | 12 | 8 | 42 | 0 |  | DB | 
+ |  |  | 44 | Tom Rotello | 8 | 1985 | Air Force | 12 | 8 | 101 | 2 |  | DB | 
+ |  |  | 45 | Tracy Saul | 8 | 1989 | Texas Tech | 11 | 8 | 157 | 0 |  | DB | 
+ |  |  | 46 | Vann McElroy | 8 | 1980 | Baylor | 11 | 8 | 73 | 0 |  | DB | 
+ |  |  | 47 | Adam Hinds | 7 | 1983 | Oklahoma State | 11 | 7 | 37 | 0 |  | DB | 
+ |  |  | 48 | A.J. Greene | 7 | 1987 | Wake Forest | 11 | 7 | 128 | 2 |  | DB | 
+ |  |  | 49 | Ashley Lee | 7 | 1984 | Virginia Tech | 11 | 7 | 155 | 0 |  | DB | 
+ |  |  | 50 | Brett Whitley | 7 | 1987 | Northwestern | 11 | 7 | 202 | 0 |  | DB | 
+ |  |  | 51 | Butch LaCroix | 7 | 1981 | Houston | 10 | 7 | 52 | 0 |  | DB | 
+ |  |  | 52 | Chris Wagner | 7 | 1986 | Western Michigan | 11 | 7 | 21 | 0 |  | DB | 
+ |  |  | 53 | Clarence Baldwin | 7 | 1983 | Maryland | 11 | 7 | 5 | 0 |  | DB | 
+ |  |  | 54 | Dave Duerson | 7 | 1982 | Notre Dame | 11 | 7 | 104 | 0 |  | DB | 
+ |  |  | 55 | Dave Kimichik | 7 | 1980 | Cornell | 10 | 7 | 19 | 0 |  | DB | 
+ |  |  | 56 | David Haugh | 7 | 1989 | Ball State | 11 | 7 | 45 | 0 |  | DB | 
+ |  |  | 57 | David Morris | 7 | 1980 | North Texas | 11 | 7 | 56 | 0 |  | DB | 
+ |  |  | 58 | Doug Pavek | 7 | 1985 | Army | 11 | 7 | 83 | 0 |  | DB | 
+ |  |  | 59 | Ed Hulbert | 7 | 1986 | Oregon | 11 | 7 | 48 | 0 |  | DB | 
+ |  |  | 60 | Eddie Moore | 7 | 1988 | Memphis | 11 | 7 | 51 | 0 |  | DB | 
+ |  |  | 61 | Eric Jacobsen | 7 | 1987 | Utah | 12 | 7 | 12 | 0 |  | DB | 
+ |  |  | 62 | Eric Williams | 7 | 1981 | North Carolina State | 11 | 7 | 107 | 0 |  | DB | 
+ |  |  | 63 | Falanda Newton | 7 | 1987 | Texas Christian | 11 | 7 | 117 | 0 |  | DB | 
+ |  |  | 64 | Fred Marion | 7 | 1980 | Miami (FL) | 11 | 7 | 85 | 0 |  | DB | 
+ |  |  | 65 | George Radachowsky | 7 | 1981 | Boston College | 11 | 7 | 51 | 0 |  | DB | 
+ |  |  | 66 | Gill Byrd | 7 | 1980 | San Jose State | 11 | 7 | 69 | 0 |  | DB | 
+ |  |  | 67 | Greg Garnica | 7 | 1989 | Ball State | 11 | 7 | 24 | 0 |  |  | 
+ |  |  | 68 | Greg Jackson | 7 | 1988 | LSU | 11 | 7 | 219 | 2 |  | DB | 
+ |  |  | 69 | Jay Norvell | 7 | 1985 | Iowa | 11 | 7 | 93 | 0 |  | DB | 
+ |  |  | 70 | Jeff Wilcox | 7 | 1986 | BYU | 12 | 7 | 110 | 0 |  | DB | 
+ |  |  | 71 | Jeremiah Castille | 7 | 1982 | Alabama | 11 | 7 | 60 | 0 |  | DB | 
+ |  |  | 72 | Jerry Gray | 7 | 1984 | Texas | 11 | 7 | 67 | 0 |  | DB | 
+ |  |  | 73 | Jim King | 7 | 1986 | Colorado State | 11 | 7 | 83 | 0 |  | DB | 
+ |  |  | 74 | John Simmons | 7 | 1980 | SMU | 11 | 7 | 62 | 2 |  | DB | 
+ |  |  | 75 | Kerry Burt | 7 | 1987 | Iowa | 12 | 7 | 15 | 0 |  | DB | 
+ |  |  | 76 | Kevin Young | 7 | 1983 | Ball State | 11 | 7 | 72 | 0 |  | DB | 
+ |  |  | 77 | Kirk Perry | 7 | 1983 | Louisville | 11 | 7 | 69 | 0 |  | DB | 
+ |  |  | 78 | Lavance Northington | 7 | 1985 | Oregon State | 11 | 7 | 39 | 0 |  | DB | 
+ |  |  | 79 | Lee Miller | 7 | 1983 | Cal State Fullerton | 11 | 7 | 233 | 2 |  | DB | 
+ |  |  | 80 | Lendell Jones | 7 | 1982 | Maryland | 11 | 7 | 48 | 0 |  | DB | 
+ |  |  | 81 | LeRoy Butler | 7 | 1989 | Florida State | 11 | 7 | 139 | 1 |  | DB | 
+ |  |  | 82 | Mark Carrier | 7 | 1989 | USC | 11 | 7 | 58 | 0 |  | DB | 
+ |  |  | 83 | Mark Collins | 7 | 1983 | Cal State Fullerton | 11 | 7 | 52 | 0 |  | DB | 
+ |  |  | 84 | Mark Moore | 7 | 1985 | Oklahoma State | 11 | 7 | 176 | 1 |  | DB | 
+ |  |  | 85 | Markus Paul | 7 | 1985 | Syracuse | 11 | 7 | 53 | 0 |  | DB | 
+ |  |  | 86 | Martin Bayless | 7 | 1981 | Bowling Green | 11 | 7 | 53 | 1 |  | DB | 
+ |  |  | 87 | Nate Odomes | 7 | 1986 | Wisconsin | 12 | 7 | 107 | 1 |  | DB | 
+ |  |  | 88 | Paul Calhoun | 7 | 1984 | Kentucky | 11 | 7 | 91 | 0 |  | P | 
+ |  |  | 89 | Phil Parker | 7 | 1983 | Michigan State | 11 | 7 | 203 | 1 |  | DB | 
+ |  |  | 90 | Reno Hutchins | 7 | 1981 | Tulsa | 11 | 7 | 47 | 0 |  | DB | 
+ |  |  | 91 | Rob Thomson | 7 | 1989 | Syracuse | 11 | 7 | 74 | 1 |  | DB | 
+ |  |  | 92 | Robert O'Neal | 7 | 1989 | Clemson | 11 | 7 | 96 | 0 |  | DB | 
+ |  |  | 93 | Rocky Delgadillo | 7 | 1980 | Harvard | 10 | 7 | 130 | 1 |  | DB | 
+ |  |  | 94 | Russell Carter | 7 | 1981 | SMU | 11 | 7 | 102 | 0 |  | DB | 
+ |  |  | 95 | Russell Carter | 7 | 1983 | SMU | 11 | 7 | 40 | 0 |  | DB | 
+ |  |  | 96 | Sherman Cocroft | 7 | 1982 | San Jose State | 11 | 7 | 72 | 0 |  | DB | 
+ |  |  | 97 | Sherman Cocroft | 7 | 1983 | San Jose State | 11 | 7 | 76 | 0 |  | DB | 
+ |  |  | 98 | Teryl Austin | 7 | 1985 | Pitt | 11 | 7 | 186 | 0 |  | DB | 
+ |  |  | 99 | Todd Sandroni | 7 | 1987 | Ole Miss | 11 | 7 | 47 | 0 |  | DB | 
+ |  |  | 100 | Todd Sandroni | 7 | 1988 | Ole Miss | 11 | 7 | 33 | 1 |  | DB | 
+ |  |  | 101 | Toi Cook | 7 | 1986 | Stanford | 11 | 7 | 115 | 0 |  | DB | 
+ |  |  | 102 | Tom Holmoe | 7 | 1980 | BYU | 12 | 7 | 28 | 0 |  | DB | 
+ |  |  | 103 | Tony McCorvey | 7 | 1988 | Bowling Green | 11 | 7 | 33 | 0 |  | DB | 
+ |  |  | 104 | William Graham | 7 | 1981 | Texas | 11 | 7 | 15 | 0 |  | DB | 
+ |  |  | 105 | Adrian Jones | 6 | 1988 | Missouri | 11 | 6 | 84 | 0 |  | DB | 
+ |  |  | 106 | Allan Durden | 6 | 1984 | Arizona | 11 | 6 | 108 | 1 |  | DB | 
+ |  |  | 107 | Allan Durden | 6 | 1985 | Arizona | 11 | 6 | 42 | 0 |  | DB | 
+ |  |  | 108 | Alvin Horn | 6 | 1986 | Nevada-Las Vegas | 11 | 6 | 35 | 0 |  | DB | 
+ |  |  | 109 | Anthony Young | 6 | 1982 | Temple | 11 | 6 | 111 | 0 |  | DB | 
+ |  |  | 110 | Barton Hundley | 6 | 1985 | Kansas State | 11 | 6 | 53 | 1 |  | DB | 
+ |  |  | 111 | Bill Houston | 6 | 1982 | Rutgers | 11 | 6 | 144 | 1 |  | DB | 
+ |  |  | 112 | Bill Houston | 6 | 1983 | Rutgers | 11 | 6 | 144 | 0 |  | DB | 
+ |  |  | 113 | Bill Obremskey | 6 | 1981 | Duke | 11 | 6 | 44 | 0 |  | DB | 
+ |  |  | 114 | Bill Whitaker | 6 | 1980 | Missouri | 11 | 6 | 28 | 1 |  | DB | 
+ |  |  | 115 | Boyd Cowan | 6 | 1987 | Texas Tech | 11 | 6 | 66 | 0 |  | DB | 
+ |  |  | 116 | Brad Humphreys | 6 | 1987 | Stanford | 11 | 6 | 14 | 0 |  | DB | 
+ |  |  | 117 | Bret Clark | 6 | 1984 | Nebraska | 11 | 6 | 108 | 0 |  | DB | 
+ |  |  | 118 | Bruce Small | 6 | 1980 | Wyoming | 11 | 6 | 39 | 1 |  | DB | 
+ |  |  | 119 | Charles Caufield | 6 | 1980 | Tulsa | 11 | 6 | 43 | 0 |  | DB | 
+ |  |  | 120 | Charles Williams | 6 | 1981 | Dartmouth | 10 | 6 | 68 | 1 |  | DB | 
+ |  |  | 121 | Charlie Grandjean | 6 | 1981 | Kent State | 11 | 6 | 136 | 1 |  | DB | 
+ |  |  | 122 | Chauncey Godwin | 6 | 1989 | Ole Miss | 11 | 6 | 91 | 1 |  | DB | 
+ |  |  | 123 | Chris Carrier | 6 | 1986 | LSU | 11 | 6 | 98 | 0 |  | DB | 
+ |  |  | 124 | Chris Carter | 6 | 1980 | The Citadel | 11 | 6 | 68 | 0 |  | DB | 
+ |  |  | 125 | Chris Ellison | 6 | 1989 | Houston | 11 | 6 | 66 | 0 |  | DB | 
+ |  |  | 126 | Chris Oldham | 6 | 1989 | Oregon | 11 | 6 | 36 | 0 |  | DB | 
+ |  |  | 127 | Chris Williams | 6 | 1980 | LSU | 11 | 6 | 8 | 0 |  | DB | 
+ |  |  | 128 | Chuck Cecil | 6 | 1985 | Arizona | 11 | 6 | 22 | 0 |  | DB | 
+ |  |  | 129 | Chuck Cecil | 6 | 1986 | Arizona | 11 | 6 | 142 | 2 |  | DB | 
+ |  |  | 130 | Cleveland Colter | 6 | 1987 | USC | 11 | 6 | 114 | 1 |  | DB | 
+ |  |  | 131 | Craig Rutledge | 6 | 1986 | UCLA | 11 | 6 | 104 | 1 |  | DB | 
+ |  |  | 132 | Curtis Whitten | 6 | 1981 | Wichita State | 11 | 6 | 74 | 1 |  | DB | 
+ |  |  | 133 | Darrin Long | 6 | 1986 | Utah State | 11 | 6 | 71 | 0 |  | DB | 
+ |  |  | 134 | David Fulcher | 6 | 1985 | Arizona State | 11 | 6 | 110 | 1 |  | DB | 
+ |  |  | 135 | David Greenwood | 6 | 1981 | Wisconsin | 11 | 6 | 156 | 0 |  | P | 
+ |  |  | 136 | David Griffin | 6 | 1989 | Rice | 11 | 6 | 10 | 0 |  | DB | 
+ |  |  | 137 | David Johnson | 6 | 1988 | Central Michigan | 11 | 6 | 56 | 0 |  | DB | 
+ |  |  | 138 | David King | 6 | 1982 | Auburn | 11 | 6 | 63 | 0 |  | DB | 
+ |  |  | 139 | David Ortega | 6 | 1987 | California | 11 | 6 | 36 | 0 |  | LB | 
+ |  |  | 140 | Derrick Donald | 6 | 1986 | North Carolina | 11 | 6 | 51 | 0 |  | DB | 
+ |  |  | 141 | Derrick Taylor | 6 | 1986 | North Carolina State | 11 | 6 | 164 | 1 |  | DB | 
+ |  |  | 142 | DeWayne Bowden | 6 | 1984 | Houston | 11 | 6 | 140 | 1 |  | DB | 
+ |  |  | 143 | Dwan Wilson | 6 | 1985 | Air Force | 12 | 6 | 83 | 1 |  | DB | 
+ |  |  | 144 | Ed Givens | 6 | 1989 | Army | 11 | 6 | 60 | 0 |  | DB | 
+ |  |  | 145 | Eric Fox | 6 | 1982 | Fresno State | 11 | 6 | 32 | 0 |  | DB | 
+ |  |  | 146 | Erroll Tucker | 6 | 1985 | Utah | 12 | 6 | 215 | 3 |  | RB | 
+ |  |  | 147 | Ervin Cobbs | 6 | 1980 | Long Beach State | 11 | 6 | 59 | 0 |  | DB | 
+ |  |  | 148 | Felix Wright | 6 | 1980 | Drake | 11 | 6 | 51 | 0 |  | DB | 
+ |  |  | 149 | Fred Marion | 6 | 1981 | Miami (FL) | 11 | 6 | 59 | 0 |  | DB | 
+ |  |  | 150 | Greg Koperek | 6 | 1989 | Pacific | 9 | 6 | 50 | 0 |  | DB | 
+ |  |  | 151 | Greg Philpot | 6 | 1985 | South Carolina | 11 | 6 | 85 | 0 |  | DB | 
+ |  |  | 152 | Howard Young | 6 | 1987 | Central Michigan | 11 | 6 | 62 | 1 |  | DB | 
+ |  |  | 153 | Jeff Colter | 6 | 1983 | Kansas | 11 | 6 | 61 | 0 |  | DB | 
+ |  |  | 154 | Jeff Sanders | 6 | 1983 | Northern Illinois | 11 | 6 | 82 | 0 |  | DB | 
+ |  |  | 155 | Jim DiNardo | 6 | 1980 | William & Mary | 11 | 6 | 23 | 0 |  | DB | 
+ |  |  | 156 | John Allman | 6 | 1980 | Indiana State | 11 | 6 | 133 | 1 |  | DB | 
+ |  |  | 157 | John McRorie | 6 | 1983 | North Carolina State | 10 | 6 | 30 | 1 |  | DB | 
+ |  |  | 158 | John Miller | 6 | 1987 | Michigan State | 11 | 6 | 38 | 0 |  | DB | 
+ |  |  | 159 | John Wesselman | 6 | 1989 | San Diego State | 12 | 6 | 75 | 0 |  | DB | 
+ |  |  | 160 | John Young | 6 | 1983 | BYU | 11 | 6 | 35 | 0 |  | DB | 
+ |  |  | 161 | Johnny Rembert | 6 | 1982 | Clemson | 11 | 6 | 128 | 1 |  | LB | 
+ |  |  | 162 | Junior Robinson | 6 | 1989 | East Carolina | 11 | 6 | 67 | 0 |  | DB | 
+ |  |  | 163 | K.C. Clark | 6 | 1986 | San Jose State | 11 | 6 | 107 | 0 |  | DB | 
+ |  |  | 164 | Keeta Covington | 6 | 1985 | Maryland | 11 | 6 | 94 | 0 |  | DB | 
+ |  |  | 165 | Keith Sims | 6 | 1980 | Louisiana-Monroe | 11 | 6 | 90 | 1 |  | DB | 
+ |  |  | 166 | Ken Swilling | 6 | 1989 | Georgia Tech | 11 | 6 | 200 | 2 |  | DB | 
+ |  |  | 167 | Kermit Kendrick | 6 | 1988 | Alabama | 11 | 6 | 49 | 0 |  | DB | 
+ |  |  | 168 | Kevin Thompson | 6 | 1988 | Oklahoma | 11 | 6 | 42 | 0 |  | DB | 
+ |  |  | 169 | Kirk French | 6 | 1980 | Indiana State | 11 | 6 | 105 | 0 |  | DB | 
+ |  |  | 170 | Larry Griffin | 6 | 1985 | North Carolina | 11 | 6 | 24 | 0 |  | DB | 
+ |  |  | 171 | Larry Harris | 6 | 1982 | Florida State | 11 | 6 | 49 | 0 |  | DB | 
+ |  |  | 172 | LaVon Edwards | 6 | 1988 | Utah | 11 | 6 | 74 | 0 |  | DB | 
+ |  |  | 173 | Lee Ozmint | 6 | 1988 | Alabama | 11 | 6 | 43 | 0 |  | DB | 
+ |  |  | 174 | Liffort Hobley | 6 | 1984 | LSU | 11 | 6 | 66 | 0 |  | DB | 
+ |  |  | 175 | Marc Foster | 6 | 1988 | Purdue | 11 | 6 | 19 | 0 |  | DB | 
+ |  |  | 176 | Mark Brandon | 6 | 1984 | Toledo | 11 | 6 | 112 | 0 |  |  | 
+ |  |  | 177 | Mark Collins | 6 | 1984 | Cal State Fullerton | 12 | 6 | 107 | 0 |  | DB | 
+ |  |  | 178 | Mark Kelso | 6 | 1981 | William & Mary | 11 | 6 | 36 | 0 |  | DB | 
+ |  |  | 179 | Mark Kujacznski | 6 | 1982 | Western Michigan | 11 | 6 | 80 | 1 |  | DB | 
+ |  |  | 180 | Mark McCants | 6 | 1980 | Temple | 11 | 6 | 151 | 0 |  | DB | 
+ |  |  | 181 | Mark Sutor | 6 | 1982 | Indiana | 11 | 6 | 61 | 0 |  | DB | 
+ |  |  | 182 | Mark Thomas | 6 | 1986 | Wyoming | 12 | 6 | 102 | 0 |  | DB | 
+ |  |  | 183 | Matt Vanden Boom | 6 | 1981 | Wisconsin | 11 | 6 | 15 | 0 |  | DB | 
+ |  |  | 184 | Michael Lopez | 6 | 1985 | Oregon State | 11 | 6 | 56 | 0 |  | DB | 
+ |  |  | 185 | Mike Gary | 6 | 1983 | Western Michigan | 11 | 6 | 54 | 0 |  | DB | 
+ |  |  | 186 | Mike Richardson | 6 | 1981 | Arizona State | 11 | 6 | 23 | 0 |  | DB | 
+ |  |  | 187 | Mike Stoops | 6 | 1983 | Iowa | 11 | 6 | 154 | 0 |  | DB | 
+ |  |  | 188 | Mossy Cade | 6 | 1983 | Texas | 11 | 6 | 114 | 0 |  | DB | 
+ |  |  | 189 | Nathan LaDuke | 6 | 1989 | Arizona State | 11 | 6 | 63 | 0 |  | DB | 
+ |  |  | 190 | Pat Chester | 6 | 1982 | Virginia | 11 | 6 | 125 | 0 |  | DB | 
+ |  |  | 191 | Patrick Williams | 6 | 1988 | Arkansas | 11 | 6 | 57 | 1 |  | DB | 
+ |  |  | 192 | Paul Humphries | 6 | 1981 | Chattanooga | 11 | 6 | 54 | 1 |  | DB | 
+ |  |  | 193 | Percy Nabors | 6 | 1983 | Memphis | 11 | 6 | 144 | 1 |  | DB | 
+ |  |  | 194 | Preston Waters | 6 | 1989 | West Virginia | 11 | 6 | 74 | 0 |  | DB | 
+ |  |  | 195 | Randy Clark | 6 | 1982 | Florida | 11 | 6 | 38 | 0 |  | DB | 
+ |  |  | 196 | Randy Robbins | 6 | 1982 | Arizona | 11 | 6 | 85 | 1 |  | DB | 
+ |  |  | 197 | Ray Daly | 6 | 1984 | Virginia | 11 | 6 | 55 | 0 |  | DB | 
+ |  |  | 198 | Richard Stanley | 6 | 1988 | Texas | 11 | 6 | 92 | 0 |  | DB | 
+ |  |  | 199 | Rocky Delgadillo | 6 | 1981 | Harvard | 10 | 6 | 95 | 1 |  | DB | 
+ |  |  | 200 | Rod Brown | 6 | 1984 | Oklahoma State | 11 | 6 | 157 | 1 |  | DB | 
 ```
 
 ## Claim check

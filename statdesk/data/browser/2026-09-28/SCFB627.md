@@ -1,215 +1,215 @@
-# SCFB627 — College Football 2000s p:x_recy
+# SCFB627 — College Football 2000s p:t_tot
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&order_by=rec_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=rec_yds
-- Timestamp: 2026-09-28T07:06:06.844Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season_combined&year_min=2000&year_max=2009&order_by=total_offense&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=total_offense
+- Timestamp: 2026-09-28T08:49:09.104Z
 - Rows read: 200
 - CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec_yds | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
- |  |  | 1 | Michael Crabtree | 1962 | 2007 | Texas Tech | 13 | 134 | 1962 | 14.6 | 22 | 150.9 | WR | FR
- |  |  | 2 | J.R. Tolver | 1785 | 2002 | San Diego State | 13 | 128 | 1785 | 13.9 | 13 | 137.3 | WR | SR
- |  |  | 3 | Danario Alexander | 1781 | 2009 | Missouri | 13 | 113 | 1781 | 15.8 | 14 | 137.0 | WR | SR
- |  |  | 4 | Freddie Barnes | 1770 | 2009 | Bowling Green | 13 | 155 | 1770 | 11.4 | 19 | 136.2 | WR | SR
- |  |  | 5 | Josh Reed | 1740 | 2001 | LSU | 12 | 94 | 1740 | 18.5 | 7 | 145.0 | WR | JR
- |  |  | 6 | Ashley Lelie | 1713 | 2001 | Hawaii | 12 | 84 | 1713 | 20.4 | 19 | 142.8 | WR | JR
- |  |  | 7 | Rashaun Woods | 1695 | 2002 | Oklahoma State | 13 | 107 | 1695 | 15.8 | 17 | 130.4 | WR | JR
- |  |  | 8 | Larry Fitzgerald | 1672 | 2003 | Pitt | 13 | 92 | 1672 | 18.2 | 22 | 128.6 | WR | SO
- |  |  | 9 | Nate Burleson | 1629 | 2002 | Nevada | 12 | 138 | 1629 | 11.8 | 12 | 135.8 | WR | SR
- |  |  | 10 | Jordy Nelson | 1606 | 2007 | Kansas State | 12 | 122 | 1606 | 13.2 | 11 | 133.8 | WR | SR
- |  |  | 11 | Greg Salas | 1590 | 2009 | Hawaii | 13 | 106 | 1590 | 15.0 | 8 | 122.3 | WR | JR
- |  |  | 12 | Kassim Osgood | 1552 | 2002 | San Diego State | 13 | 108 | 1552 | 14.4 | 8 | 119.4 | WR | SR
- |  |  | 13 | Lee Evans | 1545 | 2001 | Wisconsin | 12 | 75 | 1545 | 20.6 | 9 | 128.8 | WR | JR
- |  |  | 14 | Austin Collie | 1538 | 2008 | BYU | 13 | 106 | 1538 | 14.5 | 15 | 118.3 | WR | JR
- |  |  | 15 | Mike Hass | 1532 | 2005 | Oregon State | 11 | 90 | 1532 | 17.0 | 6 | 139.3 | WR | SR
- |  |  | 16 | Kevin Curtis | 1531 | 2001 | Utah State | 11 | 100 | 1531 | 15.3 | 10 | 139.2 | WR | JR
- |  |  | 17 | Geoff McArthur | 1504 | 2003 | California | 13 | 85 | 1504 | 17.7 | 10 | 115.7 | WR | JR
- |  |  | 18 | Edell Shepherd | 1500 | 2001 | San Jose State | 12 | 83 | 1500 | 18.1 | 14 | 125.0 | WR | SR
- |  |  | 19 | Martin Nance | 1498 | 2003 | Miami (OH) | 14 | 90 | 1498 | 16.6 | 11 | 107.0 | WR | JR
- |  |  | 20 | Golden Tate | 1496 | 2009 | Notre Dame | 12 | 93 | 1496 | 16.1 | 15 | 124.7 | WR | JR
- |  |  | 21 | Jordan Shipley | 1485 | 2009 | Texas | 14 | 116 | 1485 | 12.8 | 13 | 106.1 | WR | SR
- |  |  | 22 | Dez Bryant | 1480 | 2008 | Oklahoma State | 13 | 87 | 1480 | 17.0 | 19 | 113.8 | WR | SO
- |  |  | 23 | Donnie Avery | 1456 | 2007 | Houston | 13 | 91 | 1456 | 16.0 | 7 | 112.0 | WR | SR
- |  |  | 24 | Reggie Williams | 1454 | 2002 | Washington | 13 | 94 | 1454 | 15.5 | 11 | 111.8 | WR | SO
- |  |  | 25 | Roddy White | 1452 | 2004 | UAB | 12 | 71 | 1452 | 20.5 | 14 | 121.0 | WR | SR
- |  |  | 26 | Chris Williams | 1425 | 2006 | New Mexico State | 12 | 92 | 1425 | 15.5 | 12 | 118.8 | WR | SO
- |  |  | 27 | Mark Clayton | 1425 | 2003 | Oklahoma | 14 | 83 | 1425 | 17.2 | 15 | 101.8 | WR | JR
- |  |  | 28 | Darius Watts | 1417 | 2001 | Marshall | 12 | 91 | 1417 | 15.6 | 18 | 118.1 | WR | SO
- |  |  | 29 | Dezmon Briscoe | 1407 | 2008 | Kansas | 13 | 92 | 1407 | 15.3 | 15 | 108.2 | WR | SO
- |  |  | 30 | Shaun McDonald | 1405 | 2002 | Arizona State | 14 | 87 | 1405 | 16.1 | 13 | 100.4 | WR | JR
- |  |  | 31 | Naaman Roosevelt | 1402 | 2008 | Buffalo | 14 | 104 | 1402 | 13.5 | 13 | 100.1 | WR | JR
- |  |  | 32 | Dante Ridgeway | 1399 | 2004 | Ball State | 11 | 105 | 1399 | 13.3 | 8 | 127.2 | WR | JR
- |  |  | 33 | Dante Love | 1398 | 2007 | Ball State | 13 | 100 | 1398 | 14.0 | 10 | 107.5 | WR | JR
- |  |  | 34 | Bobby Wade | 1389 | 2002 | Arizona | 12 | 93 | 1389 | 14.9 | 8 | 115.8 | WR | SR
- |  |  | 35 | Mike Hass | 1379 | 2004 | Oregon State | 12 | 86 | 1379 | 16.0 | 7 | 114.9 | WR | JR
- |  |  | 36 | Ryan Grice-Mullen | 1372 | 2007 | Hawaii | 13 | 106 | 1372 | 12.9 | 13 | 105.5 | WR | JR
- |  |  | 37 | Kenny Britt | 1371 | 2008 | Rutgers | 12 | 87 | 1371 | 15.8 | 7 | 114.3 | WR | JR
- |  |  | 38 | Jerricho Cotchery | 1369 | 2003 | North Carolina State | 13 | 86 | 1369 | 15.9 | 10 | 105.3 | WR | SR
- |  |  | 39 | Kevin Walter | 1368 | 2002 | Eastern Michigan | 12 | 93 | 1368 | 14.7 | 9 | 114.0 | WR | SR
- |  |  | 40 | Rashaun Woods | 1367 | 2003 | Oklahoma State | 13 | 77 | 1367 | 17.8 | 15 | 105.2 | WR | SR
- |  |  | 41 | Charles Rogers | 1351 | 2002 | Michigan State | 12 | 68 | 1351 | 19.9 | 13 | 112.6 | WR | JR
- |  |  | 42 | Snoop Minnis | 1340 | 2000 | Florida State | 12 | 63 | 1340 | 21.3 | 11 | 111.7 | WR | SR
- |  |  | 43 | Emmanuel Sanders | 1339 | 2009 | SMU | 13 | 98 | 1339 | 13.7 | 7 | 103.0 | WR | SR
- |  |  | 44 | Dezmon Briscoe | 1337 | 2009 | Kansas | 11 | 84 | 1337 | 15.9 | 9 | 121.5 | WR | JR
- |  |  | 45 | Rodney Wright | 1331 | 2001 | Fresno State | 13 | 91 | 1331 | 14.6 | 10 | 102.4 | WR | SR
- |  |  | 46 | Braylon Edwards | 1330 | 2004 | Michigan | 12 | 97 | 1330 | 13.7 | 15 | 110.8 | WR | SR
- |  |  | 47 | James Casey | 1329 | 2008 | Rice | 13 | 111 | 1329 | 12.0 | 13 | 102.2 | TE | SO
- |  |  | 48 | Casey Fitzgerald | 1322 | 2007 | North Texas | 12 | 111 | 1322 | 11.9 | 12 | 110.2 | WR | JR
- |  |  | 49 | Johnnie Lee Higgins Jr. | 1319 | 2006 | UTEP | 12 | 82 | 1319 | 16.1 | 13 | 109.9 | WR | SR
- |  |  | 50 | Freddie Mitchell | 1314 | 2000 | UCLA | 11 | 68 | 1314 | 19.3 | 8 | 119.5 | WR | JR
- |  |  | 51 | Mike Williams | 1314 | 2003 | USC | 13 | 95 | 1314 | 13.8 | 16 | 101.1 | WR | SO
- |  |  | 52 | Jarett Dillard | 1310 | 2008 | Rice | 13 | 87 | 1310 | 15.1 | 20 | 100.8 | WR | SR
- |  |  | 53 | John Standeford | 1307 | 2002 | Purdue | 13 | 75 | 1307 | 17.4 | 13 | 100.5 | WR | JR
- |  |  | 54 | James Newson | 1306 | 2003 | Oregon State | 12 | 81 | 1306 | 16.1 | 3 | 108.8 | WR | SR
- |  |  | 55 | Antonio Bryant | 1302 | 2000 | Pitt | 10 | 68 | 1302 | 19.1 | 11 | 130.2 | WR | SO
- |  |  | 56 | Justin Colbert | 1302 | 2002 | Hawaii | 14 | 92 | 1302 | 14.2 | 8 | 93.0 | WR | SR
- |  |  | 57 | Joel Filani | 1300 | 2006 | Texas Tech | 13 | 91 | 1300 | 14.3 | 13 | 100.0 | WR | SR
- |  |  | 58 | Robert Meachem | 1298 | 2006 | Tennessee | 13 | 71 | 1298 | 18.3 | 11 | 99.8 | WR | JR
- |  |  | 59 | Greg Lee | 1297 | 2004 | Pitt | 12 | 68 | 1297 | 19.1 | 10 | 108.1 | WR | SO
- |  |  | 60 | David Anderson | 1293 | 2003 | Colorado State | 13 | 72 | 1293 | 18.0 | 9 | 99.5 | WR | SO
- |  |  | 61 | Sammie Stroughter | 1293 | 2006 | Oregon State | 14 | 74 | 1293 | 17.5 | 5 | 92.4 | WR | JR
- |  |  | 62 | Chad Owens | 1290 | 2004 | Hawaii | 13 | 102 | 1290 | 12.6 | 17 | 99.2 | WR | SR
- |  |  | 63 | James Newson | 1284 | 2002 | Oregon State | 13 | 74 | 1284 | 17.4 | 12 | 98.8 | WR | JR
- |  |  | 64 | Kerry Wright | 1280 | 2003 | Middle Tennessee State | 12 | 73 | 1280 | 17.5 | 9 | 106.7 | WR | JR
- |  |  | 65 | Jamarko Simmons | 1276 | 2008 | Western Michigan | 13 | 104 | 1276 | 12.3 | 7 | 98.2 | WR | SR
- |  |  | 66 | Mardy Gilyard | 1276 | 2008 | Cincinnati | 14 | 81 | 1276 | 15.8 | 11 | 91.1 | WR | JR
- |  |  | 67 | Dwayne Jarrett | 1274 | 2005 | USC | 13 | 91 | 1274 | 14.0 | 16 | 98.0 | WR | SO
- |  |  | 68 | Chris Williams | 1271 | 2008 | New Mexico State | 12 | 86 | 1271 | 14.8 | 9 | 105.9 | WR | SR
- |  |  | 69 | Bernard Berrian | 1270 | 2001 | Fresno State | 13 | 76 | 1270 | 16.7 | 13 | 97.7 | WR | JR
- |  |  | 70 | Davone Bess | 1266 | 2007 | Hawaii | 13 | 108 | 1266 | 11.7 | 12 | 97.4 | WR | JR
- |  |  | 71 | Harry Douglas | 1265 | 2006 | Louisville | 13 | 70 | 1265 | 18.1 | 6 | 97.3 | WR | JR
- |  |  | 72 | Mike Williams | 1265 | 2002 | USC | 13 | 81 | 1265 | 15.6 | 14 | 97.3 | WR | FR
- |  |  | 73 | Devin Thomas | 1260 | 2007 | Michigan State | 13 | 79 | 1260 | 15.9 | 8 | 96.9 | WR | JR
- |  |  | 74 | Jeremy Maclin | 1260 | 2008 | Missouri | 14 | 102 | 1260 | 12.4 | 13 | 90.0 | WR | SO
- |  |  | 75 | Greg Jennings | 1259 | 2005 | Western Michigan | 11 | 98 | 1259 | 12.8 | 14 | 114.5 | WR | SR
- |  |  | 76 | Kevin Curtis | 1258 | 2002 | Utah State | 11 | 74 | 1258 | 17.0 | 9 | 114.4 | WR | SR
- |  |  | 77 | Eric Deslauriers | 1252 | 2004 | Eastern Michigan | 11 | 84 | 1252 | 14.9 | 13 | 113.8 | WR | JR
- |  |  | 78 | Brandon Middleton | 1250 | 2003 | Houston | 13 | 55 | 1250 | 22.7 | 14 | 96.2 | WR | SR
- |  |  | 79 | Jeff Samardzija | 1249 | 2005 | Notre Dame | 12 | 77 | 1249 | 16.2 | 15 | 104.1 | WR | JR
- |  |  | 80 | Derek Hagan | 1248 | 2004 | Arizona State | 12 | 83 | 1248 | 15.0 | 10 | 104.0 | WR | JR
- |  |  | 81 | Jarett Dillard | 1247 | 2006 | Rice | 13 | 91 | 1247 | 13.7 | 21 | 95.9 | WR | SO
- |  |  | 82 | Danny Amendola | 1245 | 2007 | Texas Tech | 13 | 109 | 1245 | 11.4 | 6 | 95.8 | WR | SR
- |  |  | 83 | Brennan Marion | 1244 | 2007 | Tulsa | 14 | 39 | 1244 | 31.9 | 11 | 88.9 | WR | JR
- |  |  | 84 | Doug Gabriel | 1237 | 2002 | UCF | 12 | 75 | 1237 | 16.5 | 11 | 103.1 | WR | SR
- |  |  | 85 | Garrett Mills | 1235 | 2005 | Tulsa | 13 | 87 | 1235 | 14.2 | 9 | 95.0 | TE | SR
- |  |  | 86 | James Terry | 1232 | 2003 | Kansas State | 15 | 64 | 1232 | 19.3 | 13 | 82.1 | WR | SR
- |  |  | 87 | Kenny Britt | 1232 | 2007 | Rutgers | 13 | 62 | 1232 | 19.9 | 8 | 94.8 | WR | SO
- |  |  | 88 | Ryan Grice-Mullen | 1228 | 2005 | Hawaii | 12 | 85 | 1228 | 14.4 | 12 | 102.3 | WR | FR
- |  |  | 89 | Hakeem Nicks | 1222 | 2008 | North Carolina | 13 | 68 | 1222 | 18.0 | 12 | 94.0 | WR | JR
- |  |  | 90 | David Anderson | 1221 | 2005 | Colorado State | 12 | 86 | 1221 | 14.2 | 8 | 101.8 | WR | SR
- |  |  | 91 | Davone Bess | 1220 | 2006 | Hawaii | 14 | 96 | 1220 | 12.7 | 15 | 87.1 | WR | SO
- |  |  | 92 | James Cleveland | 1214 | 2009 | Houston | 12 | 104 | 1214 | 11.7 | 14 | 101.2 | WR | JR
- |  |  | 93 | J.R. Russell | 1213 | 2003 | Louisville | 13 | 75 | 1213 | 16.2 | 8 | 93.3 | WR | SR
- |  |  | 94 | Lee Evans | 1213 | 2003 | Wisconsin | 13 | 64 | 1213 | 19.0 | 13 | 93.3 | WR | SR
- |  |  | 95 | Reno Mahe | 1211 | 2001 | BYU | 13 | 91 | 1211 | 13.3 | 9 | 93.2 | WR | JR
- |  |  | 96 | Derek Hagan | 1210 | 2005 | Arizona State | 12 | 77 | 1210 | 15.7 | 8 | 100.8 | WR | SR
- |  |  | 97 | Domenik Hixon | 1210 | 2005 | Akron | 13 | 75 | 1210 | 16.1 | 8 | 93.1 | WR | SR
- |  |  | 98 | Calvin Johnson | 1202 | 2006 | Georgia Tech | 14 | 76 | 1202 | 15.8 | 15 | 85.9 | WR | JR
- |  |  | 99 | Charles Rogers | 1200 | 2001 | Michigan State | 11 | 57 | 1200 | 21.1 | 12 | 109.1 | WR | SO
- |  |  | 100 | Antonio Brown | 1198 | 2009 | Central Michigan | 14 | 110 | 1198 | 10.9 | 9 | 85.6 | WR | JR
- |  |  | 101 | Mack Vincent | 1198 | 2002 | Louisiana-Monroe | 12 | 79 | 1198 | 15.2 | 7 | 99.8 | WR | JR
- |  |  | 102 | Brandon Marshall | 1195 | 2005 | UCF | 13 | 74 | 1195 | 16.1 | 11 | 91.9 | WR | SR
- |  |  | 103 | Donald Shoals | 1195 | 2000 | Tulsa | 12 | 80 | 1195 | 14.9 | 5 | 99.6 | WR | JR
- |  |  | 104 | Lance Moore | 1194 | 2003 | Toledo | 12 | 103 | 1194 | 11.6 | 9 | 99.5 | WR | JR
- |  |  | 105 | Jerricho Cotchery | 1192 | 2002 | North Carolina State | 14 | 67 | 1192 | 17.8 | 7 | 85.1 | WR | JR
- |  |  | 106 | Tim Gilligan | 1192 | 2003 | Boise State | 13 | 67 | 1192 | 17.8 | 6 | 91.7 | WR | SR
- |  |  | 107 | Jabar Gaffney | 1191 | 2001 | Florida | 11 | 67 | 1191 | 17.8 | 13 | 108.3 | WR | SO
- |  |  | 108 | Josh Davis | 1191 | 2002 | Marshall | 13 | 75 | 1191 | 15.9 | 5 | 91.6 | WR | SO
- |  |  | 109 | Mardy Gilyard | 1191 | 2009 | Cincinnati | 13 | 87 | 1191 | 13.7 | 11 | 91.6 | WR | SR
- |  |  | 110 | Lance Moore | 1189 | 2004 | Toledo | 13 | 90 | 1189 | 13.2 | 14 | 91.5 | WR | SR
- |  |  | 111 | David Reed | 1188 | 2009 | Utah | 13 | 81 | 1188 | 14.7 | 5 | 91.4 | WR | SR
- |  |  | 112 | Deion Branch | 1188 | 2001 | Louisville | 12 | 72 | 1188 | 16.5 | 9 | 99.0 | WR | SR
- |  |  | 113 | Jabar Gaffney | 1184 | 2000 | Florida | 12 | 71 | 1184 | 16.7 | 14 | 98.7 | WR | FR
- |  |  | 114 | Kevin Jurovich | 1183 | 2007 | San Jose State | 12 | 85 | 1183 | 13.9 | 9 | 98.6 | WR | JR
- |  |  | 115 | Adarius Bowman | 1181 | 2006 | Oklahoma State | 13 | 60 | 1181 | 19.7 | 12 | 90.8 | WR | JR
- |  |  | 116 | Brandon Gibson | 1180 | 2007 | Washington State | 11 | 67 | 1180 | 17.6 | 9 | 107.3 | WR | JR
- |  |  | 117 | Jason Rivers | 1178 | 2006 | Hawaii | 14 | 72 | 1178 | 16.4 | 10 | 84.1 | WR | JR
- |  |  | 118 | Mike Walker | 1178 | 2006 | UCF | 12 | 90 | 1178 | 13.1 | 7 | 98.2 | WR | SR
- |  |  | 119 | Ryne Robinson | 1178 | 2006 | Miami (OH) | 12 | 91 | 1178 | 12.9 | 8 | 98.2 | WR | SR
- |  |  | 120 | Carlos Francis | 1177 | 2003 | Texas Tech | 13 | 75 | 1177 | 15.7 | 9 | 90.5 | WR | SR
- |  |  | 121 | Jarrett Hicks | 1177 | 2004 | Texas Tech | 12 | 76 | 1177 | 15.5 | 13 | 98.1 | WR | SO
- |  |  | 122 | Jason Rivers | 1174 | 2007 | Hawaii | 12 | 92 | 1174 | 12.8 | 13 | 97.8 | WR | SR
- |  |  | 123 | Mario Manningham | 1174 | 2007 | Michigan | 12 | 72 | 1174 | 16.3 | 12 | 97.8 | WR | JR
- |  |  | 124 | Jabari Arthur | 1171 | 2007 | Akron | 12 | 86 | 1171 | 13.6 | 10 | 97.6 | WR | SR
- |  |  | 125 | Stephen Williams | 1169 | 2007 | Toledo | 12 | 73 | 1169 | 16.0 | 7 | 97.4 | WR | SO
- |  |  | 126 | Justin McCareins | 1168 | 2000 | Northern Illinois | 11 | 66 | 1168 | 17.7 | 10 | 106.2 | WR | SR
- |  |  | 127 | Quincy Morgan | 1166 | 2000 | Kansas State | 13 | 64 | 1166 | 18.2 | 14 | 89.7 | WR | SR
- |  |  | 128 | Michael Crabtree | 1165 | 2008 | Texas Tech | 13 | 97 | 1165 | 12.0 | 19 | 89.6 | WR | SO
- |  |  | 129 | Aaron Jones | 1159 | 2000 | Utah State | 11 | 63 | 1159 | 18.4 | 11 | 105.4 | WR | SR
- |  |  | 130 | Eric Page | 1159 | 2009 | Toledo | 12 | 82 | 1159 | 14.1 | 7 | 96.6 | WR | FR
- |  |  | 131 | Harry Douglas | 1159 | 2007 | Louisville | 10 | 71 | 1159 | 16.3 | 7 | 115.9 | WR | SR
- |  |  | 132 | Demaryius Thomas | 1154 | 2009 | Georgia Tech | 14 | 46 | 1154 | 25.1 | 8 | 82.4 | WR | JR
- |  |  | 133 | John Standeford | 1150 | 2003 | Purdue | 13 | 77 | 1150 | 14.9 | 4 | 88.5 | WR | SR
- |  |  | 134 | Juaquin Iglesias | 1150 | 2008 | Oklahoma | 14 | 74 | 1150 | 15.5 | 10 | 82.1 | WR | SR
- |  |  | 135 | Tim Brown | 1150 | 2009 | Rutgers | 13 | 55 | 1150 | 20.9 | 9 | 88.5 | WR | SR
- |  |  | 136 | Maurice Stovall | 1149 | 2005 | Notre Dame | 12 | 69 | 1149 | 16.7 | 11 | 95.8 | WR | SR
- |  |  | 137 | Earl Bennett | 1146 | 2006 | Vanderbilt | 12 | 82 | 1146 | 14.0 | 6 | 95.5 | WR | SO
- |  |  | 138 | Sidney Rice | 1143 | 2005 | South Carolina | 11 | 70 | 1143 | 16.3 | 13 | 103.9 | WR | FR
- |  |  | 139 | Roy Williams | 1142 | 2002 | Texas | 12 | 64 | 1142 | 17.8 | 12 | 95.2 | WR | JR
- |  |  | 140 | Marko Mitchell | 1141 | 2008 | Nevada | 13 | 61 | 1141 | 18.7 | 10 | 87.8 | WR | SR
- |  |  | 141 | Reggie Newhouse | 1140 | 2002 | Baylor | 12 | 75 | 1140 | 15.2 | 3 | 95.0 | WR | SR
- |  |  | 142 | Billy Wingfield | 1138 | 2002 | Boise State | 13 | 62 | 1138 | 18.4 | 7 | 87.5 | WR | SR
- |  |  | 143 | Braylon Edwards | 1138 | 2003 | Michigan | 13 | 85 | 1138 | 13.4 | 14 | 87.5 | WR | JR
- |  |  | 144 | Cole Magner | 1138 | 2003 | Bowling Green | 14 | 99 | 1138 | 11.5 | 10 | 81.3 | WR | JR
- |  |  | 145 | Jonathan Smith | 1138 | 2003 | Georgia Tech | 13 | 78 | 1138 | 14.6 | 5 | 87.5 | WR | SR
- |  |  | 146 | Shay Hodge | 1135 | 2009 | Ole Miss | 13 | 70 | 1135 | 16.2 | 8 | 87.3 | WR | SR
- |  |  | 147 | Chad Owens | 1134 | 2003 | Hawaii | 11 | 85 | 1134 | 13.3 | 9 | 103.1 | WR | JR
- |  |  | 148 | Bryan Anderson | 1132 | 2007 | Central Michigan | 14 | 90 | 1132 | 12.6 | 10 | 80.9 | WR | SO
- |  |  | 149 | Damaris Johnson | 1131 | 2009 | Tulsa | 12 | 78 | 1131 | 14.5 | 3 | 94.3 | WR | SO
- |  |  | 150 | Marko Mitchell | 1129 | 2007 | Nevada | 13 | 53 | 1129 | 21.3 | 8 | 86.8 | WR | JR
- |  |  | 151 | Josh Reed | 1127 | 2000 | LSU | 11 | 65 | 1127 | 17.3 | 10 | 102.5 | WR | SO
- |  |  | 152 | Jimmy Fryzel | 1126 | 2002 | UCF | 12 | 58 | 1126 | 19.4 | 5 | 93.8 | WR | SR
- |  |  | 153 | Nichiren Flowers | 1126 | 2004 | Nevada | 12 | 91 | 1126 | 12.4 | 6 | 93.8 | WR | JR
- |  |  | 154 | James Hardy | 1125 | 2007 | Indiana | 13 | 79 | 1125 | 14.2 | 16 | 86.5 | WR | JR
- |  |  | 155 | Marcus Smith | 1125 | 2007 | New Mexico | 13 | 91 | 1125 | 12.4 | 4 | 86.5 | WR | SR
- |  |  | 156 | Davone Bess | 1124 | 2005 | Hawaii | 12 | 89 | 1124 | 12.6 | 14 | 93.7 | WR | FR
- |  |  | 157 | Quan Cosby | 1123 | 2008 | Texas | 13 | 92 | 1123 | 12.2 | 10 | 86.4 | WR | SR
- |  |  | 158 | Ryan Broyles | 1120 | 2009 | Oklahoma | 12 | 89 | 1120 | 12.6 | 15 | 93.3 | WR | SO
- |  |  | 159 | Casey Fitzgerald | 1119 | 2008 | North Texas | 12 | 113 | 1119 | 9.9 | 6 | 93.3 | WR | SR
- |  |  | 160 | Ryne Robinson | 1119 | 2005 | Miami (OH) | 11 | 75 | 1119 | 14.9 | 8 | 101.7 | WR | JR
- |  |  | 161 | Deandre Brown | 1117 | 2008 | Southern Mississippi | 13 | 67 | 1117 | 16.7 | 12 | 85.9 | WR | FR
- |  |  | 162 | Jovon Bouknight | 1116 | 2005 | Wyoming | 11 | 77 | 1116 | 14.5 | 12 | 101.5 | WR | SR
- |  |  | 163 | Jon Olinger | 1114 | 2002 | Cincinnati | 14 | 54 | 1114 | 20.6 | 7 | 79.6 | WR | SR
- |  |  | 164 | Rashaun Greer | 1114 | 2008 | Colorado State | 13 | 63 | 1114 | 17.7 | 3 | 85.7 | WR | JR
- |  |  | 165 | Jeremy Williams | 1113 | 2009 | Tulane | 12 | 84 | 1113 | 13.3 | 7 | 92.8 | WR | SR
- |  |  | 166 | Brennan Marion | 1112 | 2008 | Tulsa | 13 | 43 | 1112 | 25.9 | 8 | 85.5 | WR | SR
- |  |  | 167 | Jonathan Baldwin | 1111 | 2009 | Pitt | 13 | 57 | 1111 | 19.5 | 8 | 85.5 | WR | 
- |  |  | 168 | Ashley Lelie | 1110 | 2000 | Hawaii | 12 | 74 | 1110 | 15.0 | 11 | 92.5 | WR | SO
- |  |  | 169 | Lee Mays | 1110 | 2000 | UTEP | 11 | 71 | 1110 | 15.6 | 15 | 100.9 | WR | JR
- |  |  | 170 | Jeff Webb | 1109 | 2005 | San Diego State | 12 | 92 | 1109 | 12.1 | 10 | 92.4 | WR | 
- |  |  | 171 | Reggie Williams | 1109 | 2003 | Washington | 12 | 89 | 1109 | 12.5 | 8 | 92.4 | WR | JR
- |  |  | 172 | Martin Nance | 1107 | 2005 | Miami (OH) | 11 | 81 | 1107 | 13.7 | 14 | 100.6 | WR | SR
- |  |  | 173 | Shaun McDonald | 1104 | 2001 | Arizona State | 11 | 47 | 1104 | 23.5 | 10 | 100.4 | WR | SO
- |  |  | 174 | Jerrel Jernigan | 1101 | 2009 | Troy | 13 | 71 | 1101 | 15.5 | 4 | 84.7 | WR | JR
- |  |  | 175 | Keith Smith | 1100 | 2009 | Purdue | 12 | 91 | 1100 | 12.1 | 6 | 91.7 | WR | SR
- |  |  | 176 | Tiquan Underwood | 1100 | 2007 | Rutgers | 13 | 65 | 1100 | 16.9 | 7 | 84.6 | WR | JR
- |  |  | 177 | Wes Welker | 1099 | 2003 | Texas Tech | 13 | 97 | 1099 | 11.3 | 9 | 84.5 | WR | SR
- |  |  | 178 | Jason Hill | 1097 | 2005 | Washington State | 10 | 62 | 1097 | 17.7 | 13 | 109.7 | WR | JR
- |  |  | 179 | Brandon Williams | 1095 | 2005 | Wisconsin | 13 | 59 | 1095 | 18.6 | 6 | 84.2 | WR | SR
- |  |  | 180 | Taylor Stubblefield | 1095 | 2004 | Purdue | 12 | 89 | 1095 | 12.3 | 16 | 91.3 | WR | SR
- |  |  | 181 | Andre Johnson | 1092 | 2002 | Miami (FL) | 12 | 52 | 1092 | 21.0 | 9 | 91.0 | WR | JR
- |  |  | 182 | Greg Jennings | 1092 | 2004 | Western Michigan | 11 | 74 | 1092 | 14.8 | 11 | 99.3 | WR | JR
- |  |  | 183 | Sidney Rice | 1090 | 2006 | South Carolina | 13 | 72 | 1090 | 15.1 | 10 | 83.8 | WR | SO
- |  |  | 184 | Tyson Hinshaw | 1089 | 2000 | UCF | 11 | 89 | 1089 | 12.2 | 13 | 99.0 | WR | SR
- |  |  | 185 | Samie Parker | 1088 | 2003 | Oregon | 13 | 77 | 1088 | 14.1 | 7 | 83.7 | WR | SR
- |  |  | 186 | Taylor Jacobs | 1088 | 2002 | Florida | 11 | 71 | 1088 | 15.3 | 8 | 98.9 | WR | SR
- |  |  | 187 | Trae Johnson | 1088 | 2007 | Tulsa | 14 | 70 | 1088 | 15.5 | 13 | 77.7 | WR | FR
- |  |  | 188 | Dennis Pitta | 1083 | 2008 | BYU | 13 | 83 | 1083 | 13.0 | 6 | 83.3 | TE | JR
- |  |  | 189 | Steve Smith | 1083 | 2006 | USC | 13 | 71 | 1083 | 15.3 | 9 | 83.3 | WR | SR
- |  |  | 190 | Cortez Gent | 1082 | 2007 | Florida Atlantic | 12 | 64 | 1082 | 16.9 | 9 | 90.2 | WR | SO
- |  |  | 191 | Aaron Kelly | 1081 | 2007 | Clemson | 13 | 88 | 1081 | 12.3 | 11 | 83.2 | WR | JR
- |  |  | 192 | Nehemiah Glover | 1081 | 2003 | Texas Tech | 13 | 77 | 1081 | 14.0 | 9 | 83.2 | WR | JR
- |  |  | 193 | Golden Tate | 1080 | 2008 | Notre Dame | 13 | 58 | 1080 | 18.6 | 10 | 83.1 | WR | SO
- |  |  | 194 | Dan Stricker | 1079 | 2001 | Vanderbilt | 11 | 65 | 1079 | 16.6 | 8 | 98.1 | WR | JR
- |  |  | 195 | Michael Clayton | 1079 | 2003 | LSU | 14 | 78 | 1079 | 13.8 | 10 | 77.1 | WR | JR
- |  |  | 196 | Roy Williams | 1079 | 2003 | Texas | 13 | 70 | 1079 | 15.4 | 9 | 83.0 | WR | SR
- |  |  | 197 | Derek Hagan | 1076 | 2003 | Arizona State | 12 | 66 | 1076 | 16.3 | 9 | 89.7 | WR | SO
- |  |  | 198 | Michael Jenkins | 1076 | 2002 | Ohio State | 14 | 61 | 1076 | 17.6 | 6 | 76.9 | WR | JR
- |  |  | 199 | Paris Warren | 1076 | 2004 | Utah | 12 | 80 | 1076 | 13.5 | 12 | 89.7 | WR | SR
- |  |  | 200 | Adrian Burnette | 1075 | 2000 | Tulane | 11 | 74 | 1075 | 14.5 | 14 | 97.7 | WR | SR
+header_empty_0 | header_scrim | header_empty_3 | ranker | name_display | total_offense | year_min | year_max | games | touches | total_offense | yds_from_scrimmage | all_purpose_yds | ret_yds | pos | teams_played_for_career
+ |  |  | 1 | Timmy Chang | 16910 | 2000 | 2004 | 53 | 151 | 16910 | -162 | -162 | 0 | QB | Hawaii
+ |  |  | 2 | Dan Lefevour | 15853 | 2006 | 2009 | 53 | 674 | 15853 | 3006 | 3006 | 0 | QB | Central Michigan
+ |  |  | 3 | Graham Harrell | 15611 | 2005 | 2008 | 45 | 114 | 15611 | -183 | -183 | 0 | QB | Texas Tech
+ |  |  | 4 | Colt McCoy | 14824 | 2006 | 2009 | 53 | 447 | 14824 | 1571 | 1571 | 0 | QB | Texas
+ |  |  | 5 | Colt Brennan | 14740 | 2005 | 2007 | 38 | 267 | 14740 | 547 | 547 | 0 | QB | Hawaii
+ |  |  | 6 | Case Keenum | 13741 | 2007 | 2009 | 40 | 239 | 13741 | 791 | 791 | 0 | QB | Houston
+ |  |  | 7 | Kevin Kolb | 13715 | 2003 | 2006 | 50 | 473 | 13715 | 759 | 759 | 0 | QB | Houston
+ |  |  | 8 | Philip Rivers | 13580 | 2000 | 2003 | 49 | 255 | 13580 | 113 | 113 | 0 | QB | North Carolina State
+ |  |  | 9 | Chase Daniel | 13485 | 2005 | 2008 | 51 | 364 | 13485 | 970 | 970 | 0 | QB | Missouri
+ |  |  | 10 | Brad Smith | 13088 | 2002 | 2005 | 48 | 807 | 13088 | 4419 | 4419 | 0 | QB | Missouri
+ |  |  | 11 | Luke McCown | 12731 | 2000 | 2003 | 43 | 275 | 12731 | 64 | 64 | 0 | QB | Louisiana Tech
+ |  |  | 12 | Tim Tebow | 12232 | 2006 | 2009 | 55 | 692 | 12232 | 2947 | 2947 | 0 | QB | Florida
+ |  |  | 13 | Brady Quinn | 11944 | 2003 | 2006 | 49 | 256 | 11944 | 182 | 182 | 0 | QB | Notre Dame
+ |  |  | 14 | Byron Leftwich | 11932 | 2000 | 2002 | 36 | 184 | 11932 | 185 | 185 | 0 | QB | Marshall
+ |  |  | 15 | Todd Reesing | 11840 | 2006 | 2009 | 41 | 336 | 11840 | 660 | 660 | 0 | QB | Kansas
+ |  |  | 16 | Kliff Kingsbury | 11794 | 2000 | 2002 | 37 | 247 | 11794 | -143 | -143 | 0 | QB | Texas Tech
+ |  |  | 17 | Gino Guidugli | 11661 | 2001 | 2004 | 47 | 235 | 11661 | 208 | 208 | 0 | QB | Cincinnati
+ |  |  | 18 | Paul Smith | 11602 | 2003 | 2007 | 47 | 328 | 11602 | 666 | 676 | 10 | QB | Tulsa
+ |  |  | 19 | Chase Holbrook | 11577 | 2006 | 2008 | 36 | 216 | 11577 | -269 | -269 | 0 | QB | New Mexico State
+ |  |  | 20 | Brett Basanez | 11576 | 2002 | 2005 | 47 | 391 | 11576 | 996 | 996 | 0 | QB | Northwestern
+ |  |  | 21 | Max Hall | 11569 | 2007 | 2009 | 39 | 189 | 11569 | 204 | 204 | 0 | QB | BYU
+ |  |  | 22 | Chase Clement | 11526 | 2005 | 2008 | 45 | 472 | 11526 | 1763 | 1763 | 0 | QB | Rice
+ |  |  | 23 | Curtis Painter | 11511 | 2005 | 2008 | 46 | 226 | 11511 | 367 | 367 | 0 | QB | Purdue
+ |  |  | 24 | Charlie Frye | 11478 | 2001 | 2004 | 46 | 377 | 11478 | 439 | 439 | 0 | QB | Akron
+ |  |  | 25 | Chris Leak | 11350 | 2003 | 2006 | 51 | 312 | 11350 | 166 | 166 | 0 | QB | Florida
+ |  |  | 26 | David Greene | 11270 | 2001 | 2004 | 51 | 205 | 11270 | -250 | -250 | 0 | QB | Georgia
+ |  |  | 27 | Tim Hiller | 11220 | 2005 | 2009 | 44 | 165 | 11220 | -114 | -114 | 0 | QB | Western Michigan
+ |  |  | 28 | Ben Roethlisberger | 11075 | 2001 | 2003 | 38 | 269 | 11075 | 246 | 246 | 0 | QB | Miami (OH)
+ |  |  | 29 | John Beck | 11059 | 2003 | 2006 | 43 | 268 | 11059 | 41 | 41 | 0 | QB | BYU
+ |  |  | 30 | Jordan Palmer | 11041 | 2003 | 2006 | 46 | 216 | 11041 | -43 | -43 | 0 | QB | UTEP
+ |  |  | 31 | Alex Brink | 11011 | 2004 | 2007 | 46 | 247 | 11011 | 102 | 102 | 0 | QB | Washington State
+ |  |  | 32 | Matt Grothe | 10875 | 2006 | 2009 | 42 | 547 | 10875 | 2234 | 2234 | 0 | QB | South Florida
+ |  |  | 33 | Joshua Cribbs | 10839 | 2001 | 2004 | 43 | 636 | 10839 | 3763 | 3763 | 0 | QB | Kent State
+ |  |  | 34 | Brian Brohm | 10819 | 2004 | 2007 | 44 | 174 | 10819 | 45 | 45 | 0 | QB | Louisville
+ |  |  | 35 | Derek Anderson | 10716 | 2001 | 2004 | 49 | 182 | 10716 | -533 | -533 | 0 | QB | Oregon State
+ |  |  | 36 | Ryan Schneider | 10703 | 2000 | 2003 | 39 | 118 | 10703 | -273 | -273 | 0 | QB | UCF
+ |  |  | 37 | Jared Lorenzen | 10637 | 2000 | 2003 | 43 | 281 | 10637 | 259 | 259 | 0 | QB | Kentucky
+ |  |  | 38 | Danny Wimprine | 10634 | 2001 | 2004 | 46 | 284 | 10634 | 474 | 474 | 0 | QB | Memphis
+ |  |  | 39 | Matt Leinart | 10623 | 2003 | 2005 | 39 | 134 | 10623 | -44 | -44 | 0 | QB | USC
+ |  |  | 40 | Juice Williams | 10594 | 2006 | 2009 | 48 | 639 | 10594 | 2556 | 2556 | 0 | QB | Illinois
+ |  |  | 41 | Pat White | 10529 | 2005 | 2008 | 49 | 684 | 10529 | 4480 | 4480 | 0 | QB | West Virginia
+ |  |  | 42 | Tyler Sheehan | 10465 | 2006 | 2009 | 42 | 288 | 10465 | 418 | 418 | 0 | QB | Bowling Green
+ |  |  | 43 | Bret Meyer | 10422 | 2004 | 2007 | 48 | 512 | 10422 | 963 | 963 | 0 | QB | Iowa State
+ |  |  | 44 | Dan Orlovsky | 10421 | 2001 | 2004 | 46 | 143 | 10421 | -285 | -285 | 0 | QB | Connecticut
+ |  |  | 45 | Bruce Gradkowski | 10243 | 2002 | 2005 | 49 | 250 | 10243 | 1017 | 1017 | 0 | QB | Toledo
+ |  |  | 46 | Steven Jyles | 10234 | 2002 | 2005 | 45 | 440 | 10234 | 1313 | 1313 | 0 | QB | Louisiana-Monroe
+ |  |  | 47 | Rudy Carpenter | 10196 | 2005 | 2008 | 47 | 274 | 10196 | -309 | -309 | 0 | QB | Arizona State
+ |  |  | 48 | Zac Robinson | 10175 | 2006 | 2009 | 45 | 427 | 10175 | 1879 | 1879 | 0 | QB | Oklahoma State
+ |  |  | 49 | Paul Pinegar | 10145 | 2002 | 2005 | 49 | 202 | 10145 | -1 | -1 | 0 | QB | Fresno State
+ |  |  | 50 | Andrew Walter | 10142 | 2001 | 2004 | 48 | 176 | 10142 | -483 | -483 | 0 | QB | Arizona State
+ |  |  | 51 | Thaddeus Lewis | 9987 | 2006 | 2009 | 47 | 350 | 9987 | -78 | -78 | 0 | QB | Duke
+ |  |  | 52 | Eli Manning | 9984 | 2000 | 2003 | 43 | 129 | 9984 | -141 | -141 | 0 | QB | Ole Miss
+ |  |  | 53 | Colin Kaepernick | 9982 | 2007 | 2009 | 37 | 428 | 9982 | 2912 | 2912 | 0 | QB | Nevada
+ |  |  | 54 | Darrell Hackney | 9978 | 2002 | 2005 | 41 | 256 | 9978 | 90 | 90 | 0 | QB | UAB
+ |  |  | 55 | Josh Harris | 9976 | 2000 | 2003 | 42 | 602 | 9976 | 2586 | 2680 | 94 | QB | Bowling Green
+ |  |  | 56 | Jay Cutler | 9953 | 2002 | 2005 | 45 | 453 | 9953 | 1256 | 1256 | 0 | QB | Vanderbilt
+ |  |  | 57 | Ryan Dinwiddie | 9924 | 2000 | 2003 | 42 | 197 | 9924 | 105 | 105 | 0 | QB | Boise State
+ |  |  | 58 | Riley Skinner | 9923 | 2006 | 2009 | 50 | 292 | 9923 | 230 | 230 | 0 | QB | Wake Forest
+ |  |  | 59 | Rusty Smith | 9777 | 2006 | 2009 | 45 | 116 | 9777 | -328 | -328 | 0 | QB | Florida Atlantic
+ |  |  | 60 | Charlie Whitehurst | 9763 | 2002 | 2005 | 44 | 267 | 9763 | 100 | 100 | 0 | QB | Clemson
+ |  |  | 61 | Nate Davis | 9732 | 2006 | 2008 | 39 | 176 | 9732 | 527 | 527 | 0 | QB | Ball State
+ |  |  | 62 | Cody Pickett | 9730 | 2000 | 2003 | 37 | 251 | 9730 | -205 | -205 | 0 | QB | Washington
+ |  |  | 63 | Darian Durant | 9629 | 2001 | 2004 | 44 | 316 | 9629 | 875 | 875 | 0 | QB | North Carolina
+ |  |  | 64 | Reggie Ball | 9579 | 2003 | 2006 | 49 | 499 | 9579 | 1504 | 1504 | 0 | QB | Georgia Tech
+ |  |  | 65 | Casey Clausen | 9577 | 2000 | 2003 | 45 | 229 | 9577 | -130 | -130 | 0 | QB | Tennessee
+ |  |  | 66 | Casey Bramlet | 9575 | 2000 | 2003 | 40 | 297 | 9575 | -110 | -110 | 0 | QB | Wyoming
+ |  |  | 67 | Trevor Vittatoe | 9437 | 2007 | 2009 | 36 | 132 | 9437 | -246 | -246 | 0 | QB | UTEP
+ |  |  | 68 | Chad Henne | 9400 | 2004 | 2007 | 47 | 180 | 9400 | -315 | -315 | 0 | QB | Michigan
+ |  |  | 69 | Carson Palmer | 9391 | 2000 | 2002 | 36 | 195 | 9391 | -32 | -32 | 0 | QB | USC
+ |  |  | 70 | Matt Ryan | 9371 | 2004 | 2007 | 43 | 169 | 9371 | 59 | 59 | 0 | QB | Boston College
+ |  |  | 71 | Kyle Orton | 9251 | 2001 | 2004 | 43 | 262 | 9251 | 333 | 333 | 0 | QB | Purdue
+ |  |  | 72 | Chris Rix | 9213 | 2001 | 2004 | 43 | 307 | 9213 | 822 | 822 | 0 | QB | Florida State
+ |  |  | 73 | Mike Teel | 9173 | 2005 | 2008 | 48 | 57 | 9173 | -210 | -210 | 0 | QB | Rutgers
+ |  |  | 74 | Vince Young | 9167 | 2003 | 2005 | 37 | 458 | 9167 | 3175 | 3175 | 0 | QB | Texas
+ |  |  | 75 | Dave Ragone | 9123 | 2000 | 2002 | 36 | 325 | 9123 | 572 | 572 | 0 | QB | Louisville
+ |  |  | 76 | Jared Zabransky | 9119 | 2003 | 2006 | 47 | 353 | 9119 | 868 | 868 | 0 | QB | Boise State
+ |  |  | 77 | Rex Grossman | 9031 | 2000 | 2002 | 35 | 121 | 9031 | -103 | -103 | 0 | QB | Florida
+ |  |  | 78 | Kevin O'Connell | 9001 | 2004 | 2007 | 39 | 397 | 9001 | 1356 | 1356 | 0 | QB | San Diego State
+ |  |  | 79 | Adam Weber | 8955 | 2007 | 2009 | 38 | 346 | 8955 | 724 | 724 | 0 | QB | Minnesota
+ |  |  | 80 | Corey Leonard | 8887 | 2006 | 2009 | 44 | 516 | 8887 | 1568 | 1568 | 0 | QB | Arkansas State
+ |  |  | 81 | Reggie McNeal | 8881 | 2002 | 2005 | 42 | 411 | 8881 | 1889 | 1889 | 0 | QB | Texas A&M
+ |  |  | 82 | Andre Woodson | 8870 | 2004 | 2007 | 44 | 233 | 8870 | -485 | -485 | 0 | QB | Kentucky
+ |  |  | 83 | John Navarre | 8773 | 2000 | 2003 | 46 | 145 | 8773 | -205 | -205 | 0 | QB | Michigan
+ |  |  | 84 | Willie Tuitama | 8727 | 2005 | 2008 | 40 | 154 | 8727 | -484 | -484 | 0 | QB | Arizona
+ |  |  | 85 | Jose Fuentes | 8706 | 2000 | 2002 | 32 | 146 | 8706 | -337 | -337 | 0 | QB | Utah State
+ |  |  | 86 | Brian Johnson | 8701 | 2004 | 2008 | 44 | 366 | 8701 | 848 | 848 | 0 | QB | Utah
+ |  |  | 87 | Ken Dorsey | 8699 | 2000 | 2002 | 35 | 51 | 8699 | -59 | -59 | 0 | QB | Miami (FL)
+ |  |  | 88 | Andy Dalton | 8633 | 2007 | 2009 | 37 | 328 | 8633 | 1203 | 1203 | 0 | QB | Texas Christian
+ |  |  | 89 | Marquel Blackwell | 8597 | 2000 | 2002 | 33 | 310 | 8597 | 1126 | 1126 | 0 | QB | South Florida
+ |  |  | 90 | James Pinkney | 8563 | 2003 | 2006 | 43 | 290 | 8563 | 378 | 378 | 0 | QB | East Carolina
+ |  |  | 91 | Drew Willy | 8555 | 2005 | 2008 | 44 | 276 | 8555 | -210 | -210 | 0 | QB | Buffalo
+ |  |  | 92 | Joe Webb | 8545 | 2006 | 2009 | 37 | 548 | 8545 | 3245 | 3245 | 0 | QB | UAB
+ |  |  | 93 | Erik Ainge | 8473 | 2004 | 2007 | 43 | 82 | 8473 | -227 | -227 | 0 | QB | Tennessee
+ |  |  | 94 | Bradlee Van Pelt | 8439 | 2001 | 2003 | 38 | 421 | 8439 | 2330 | 2330 | 0 | QB | Colorado State
+ |  |  | 95 | Sam Bradford | 8439 | 2007 | 2009 | 31 | 77 | 8439 | 36 | 36 | 0 | QB | Oklahoma
+ |  |  | 96 | Tyler Palko | 8429 | 2002 | 2006 | 41 | 275 | 8429 | 86 | 86 | 0 | QB | Pitt
+ |  |  | 97 | Drew Tate | 8427 | 2003 | 2006 | 41 | 188 | 8427 | 143 | 143 | 0 | QB | Iowa
+ |  |  | 98 | Jeff Rowe | 8423 | 2002 | 2006 | 45 | 317 | 8423 | 561 | 561 | 0 | QB | Nevada
+ |  |  | 99 | Josh Freeman | 8421 | 2006 | 2008 | 35 | 214 | 8421 | 343 | 343 | 0 | QB | Kansas State
+ |  |  | 100 | Matt Jones | 8392 | 2001 | 2004 | 46 | 386 | 8392 | 2593 | 2593 | 0 | QB | Arkansas
+ |  |  | 101 | Drew Olson | 8324 | 2002 | 2005 | 45 | 199 | 8324 | -208 | -208 | 0 | QB | UCLA
+ |  |  | 102 | Jeff Smoker | 8321 | 2000 | 2003 | 40 | 247 | 8321 | -213 | -213 | 0 | QB | Michigan State
+ |  |  | 103 | Ryan Hart | 8149 | 2002 | 2005 | 38 | 142 | 8149 | -343 | -343 | 0 | QB | Rutgers
+ |  |  | 104 | Jason Gesser | 8138 | 2000 | 2002 | 33 | 194 | 8138 | 34 | 34 | 0 | QB | Washington State
+ |  |  | 105 | Adam Tafralis | 8111 | 2004 | 2007 | 45 | 251 | 8111 | 589 | 589 | 0 | QB | San Jose State
+ |  |  | 106 | John Parker Wilson | 8099 | 2005 | 2008 | 45 | 239 | 8099 | 171 | 171 | 0 | QB | Alabama
+ |  |  | 107 | Kellen Clemens | 8090 | 2002 | 2005 | 37 | 274 | 8090 | 548 | 548 | 0 | QB | Oregon
+ |  |  | 108 | Kellen Lewis | 8072 | 2006 | 2008 | 34 | 367 | 8072 | 1781 | 1781 | 0 | QB | Indiana
+ |  |  | 109 | Drew Stanton | 8036 | 2003 | 2006 | 45 | 335 | 8036 | 1528 | 1528 | 0 | QB | Michigan State
+ |  |  | 110 | Bryan Randall | 8034 | 2001 | 2004 | 48 | 409 | 8034 | 1526 | 1526 | 0 | QB | Virginia Tech
+ |  |  | 111 | Shaun Carney | 7952 | 2004 | 2007 | 46 | 652 | 7952 | 2561 | 2561 | 0 | QB | Air Force
+ |  |  | 112 | Matthew Stafford | 7944 | 2006 | 2008 | 39 | 142 | 7944 | 207 | 207 | 0 | QB | Georgia
+ |  |  | 113 | Ell Roberson | 7917 | 2000 | 2003 | 41 | 604 | 7917 | 2818 | 2818 | 0 | QB | Kansas State
+ |  |  | 114 | Jason White | 7868 | 2001 | 2004 | 37 | 124 | 7868 | -45 | -45 | 0 | QB | Oklahoma
+ |  |  | 115 | Asad Abdul-Khaliq | 7818 | 2000 | 2003 | 45 | 287 | 7818 | 1165 | 1165 | 0 | QB | Minnesota
+ |  |  | 116 | Zack Mills | 7796 | 2001 | 2004 | 43 | 277 | 7796 | 641 | 641 | 0 | QB | Penn State
+ |  |  | 117 | Jimmy Clausen | 7793 | 2007 | 2009 | 35 | 175 | 7793 | -355 | -355 | 0 | QB | Notre Dame
+ |  |  | 118 | Jerry Babb | 7730 | 2003 | 2006 | 42 | 338 | 7730 | 1489 | 1489 | 0 | QB | Louisiana
+ |  |  | 119 | Drew Weatherford | 7606 | 2004 | 2008 | 41 | 192 | 7606 | 39 | 39 | 0 | QB | Florida State
+ |  |  | 120 | Jason Campbell | 7606 | 2001 | 2004 | 48 | 249 | 7606 | 307 | 307 | 0 | QB | Auburn
+ |  |  | 121 | Rod Rutherford | 7604 | 2000 | 2003 | 46 | 421 | 7604 | 962 | 1220 | 258 | QB | Pitt
+ |  |  | 122 | Dustin Almond | 7602 | 2002 | 2005 | 46 | 264 | 7602 | 262 | 262 | 0 | QB | Southern Mississippi
+ |  |  | 123 | C.J. Bacher | 7571 | 2005 | 2008 | 34 | 199 | 7571 | 277 | 277 | 0 | QB | Northwestern
+ |  |  | 124 | Joel Klatt | 7562 | 2002 | 2005 | 39 | 169 | 7562 | -128 | -128 | 0 | QB | Colorado
+ |  |  | 125 | Matt Schaub | 7560 | 2000 | 2003 | 40 | 132 | 7560 | 58 | 58 | 0 | QB | Virginia
+ |  |  | 126 | Julian Edelman | 7480 | 2006 | 2008 | 31 | 503 | 7480 | 2494 | 2519 | 25 | QB | Kent State
+ |  |  | 127 | Bryan Cupito | 7449 | 2002 | 2006 | 60 | 92 | 7449 | 12 | 12 | 0 | QB | Minnesota
+ |  |  | 128 | Patrick Pinkney | 7417 | 2007 | 2009 | 41 | 218 | 7417 | 424 | 424 | 0 | QB | East Carolina
+ |  |  | 129 | Omar Jacobs | 7389 | 2003 | 2005 | 25 | 153 | 7389 | 451 | 451 | 0 | QB | Bowling Green
+ |  |  | 130 | Aaron Opelt | 7341 | 2006 | 2009 | 39 | 200 | 7341 | 569 | 569 | 0 | QB | Toledo
+ |  |  | 131 | Kinsmon Lancaster | 7306 | 2005 | 2008 | 46 | 416 | 7306 | 1616 | 1616 | 0 | QB | Louisiana-Monroe
+ |  |  | 132 | Clint Marks | 7235 | 2003 | 2006 | 42 | 219 | 7235 | -79 | -79 | 0 | QB | Middle Tennessee State
+ |  |  | 133 | Stephen McGee | 7225 | 2005 | 2008 | 40 | 388 | 7225 | 1762 | 1762 | 0 | QB | Texas A&M
+ |  |  | 134 | Josh Betts | 7089 | 2002 | 2005 | 38 | 134 | 7089 | 60 | 60 | 0 | QB | Miami (OH)
+ |  |  | 135 | John Stocco | 7083 | 2003 | 2006 | 39 | 192 | 7083 | -144 | -144 | 0 | QB | Wisconsin
+ |  |  | 136 | Tom Brandstater | 7009 | 2005 | 2008 | 45 | 132 | 7009 | 152 | 152 | 0 | QB | Fresno State
+ |  |  | 137 | J.P. Losman | 6995 | 2000 | 2003 | 38 | 238 | 6995 | 255 | 255 | 0 | QB | Tulane
+ |  |  | 138 | Kellen Moore | 6987 | 2008 | 2009 | 27 | 62 | 6987 | -35 | -35 | 0 | QB | Boise State
+ |  |  | 139 | Rasheed Marshall | 6961 | 2001 | 2004 | 42 | 454 | 6961 | 1885 | 1885 | 0 | QB | West Virginia
+ |  |  | 140 | Jake Locker | 6928 | 2007 | 2009 | 28 | 341 | 6928 | 1569 | 1569 | 0 | QB | Washington
+ |  |  | 141 | Troy Smith | 6888 | 2003 | 2006 | 43 | 293 | 6888 | 1168 | 1251 | 83 | QB | Ohio State
+ |  |  | 142 | David Carr | 6816 | 2000 | 2001 | 24 | 154 | 6816 | 170 | 170 | 0 | QB | Fresno State
+ |  |  | 143 | Jerrod Johnson | 6795 | 2007 | 2009 | 30 | 254 | 6795 | 772 | 772 | 0 | QB | Texas A&M
+ |  |  | 144 | Andy Schmitt | 6745 | 2006 | 2009 | 34 | 244 | 6745 | 878 | 878 | 0 | QB | Eastern Michigan
+ |  |  | 145 | Michael Desormeaux | 6736 | 2005 | 2008 | 43 | 449 | 6736 | 2895 | 2895 | 0 | QB | Louisiana
+ |  |  | 146 | Chris Simms | 6715 | 2000 | 2002 | 35 | 148 | 6715 | -159 | -159 | 0 | QB | Texas
+ |  |  | 147 | Donovan Porterie | 6715 | 2006 | 2009 | 37 | 198 | 6715 | -13 | -13 | 0 | QB | New Mexico
+ |  |  | 148 | Bernard Morris | 6705 | 2004 | 2007 | 35 | 294 | 6705 | 1084 | 1084 | 0 | QB | Marshall
+ |  |  | 149 | JaMarcus Russell | 6704 | 2004 | 2006 | 36 | 139 | 6704 | 79 | 79 | 0 | QB | LSU
+ |  |  | 150 | Nathan Enderle | 6618 | 2007 | 2009 | 33 | 169 | 6618 | -152 | -152 | 0 | QB | Idaho
+ |  |  | 151 | Kyle Boller | 6613 | 2000 | 2002 | 33 | 218 | 6613 | -25 | -25 | 0 | QB | California
+ |  |  | 152 | Stefan Lefors | 6609 | 2001 | 2004 | 50 | 147 | 6609 | 761 | 761 | 0 | QB | Louisville
+ |  |  | 153 | Nate Longshore | 6604 | 2005 | 2008 | 39 | 57 | 6604 | -179 | -179 | 0 | QB | California
+ |  |  | 154 | B.J. Symons | 6586 | 2000 | 2003 | 31 | 101 | 6586 | 227 | 227 | 0 | QB | Texas Tech
+ |  |  | 155 | Brandon Cox | 6543 | 2004 | 2007 | 44 | 151 | 6543 | -416 | -416 | 0 | QB | Auburn
+ |  |  | 156 | Jason Thomas | 6525 | 2000 | 2002 | 32 | 369 | 6525 | 1528 | 1528 | 0 | QB | Nevada-Las Vegas
+ |  |  | 157 | Caleb Hanie | 6523 | 2004 | 2007 | 37 | 248 | 6523 | 186 | 186 | 0 | QB | Colorado State
+ |  |  | 158 | Zac Dahman | 6498 | 2002 | 2005 | 42 | 152 | 6498 | -417 | -417 | 0 | QB | Army
+ |  |  | 159 | Ryan Cubit | 6488 | 2001 | 2006 | 41 | 204 | 6488 | -301 | -301 | 0 | QB | Rutgers,Western Michigan
+ |  |  | 160 | Talmadge Hill | 6484 | 2000 | 2003 | 42 | 309 | 6484 | 582 | 582 | 0 | QB | Ball State
+ |  |  | 161 | Matt Moore | 6474 | 2002 | 2006 | 37 | 166 | 6474 | -226 | -226 | 0 | QB | Oregon State,UCLA
+ |  |  | 162 | Scott Hall | 6440 | 2000 | 2004 | 53 | 320 | 6440 | 502 | 502 | 0 | QB | North Texas
+ |  |  | 163 | Scott McBrien | 6431 | 2000 | 2003 | 35 | 194 | 6431 | 516 | 516 | 0 | QB | Maryland,West Virginia
+ |  |  | 164 | Lester Ricard | 6406 | 2004 | 2006 | 31 | 132 | 6406 | -202 | -202 | 0 | QB | Tulane
+ |  |  | 165 | Chris Turner | 6385 | 2007 | 2009 | 34 | 171 | 6385 | -158 | -158 | 0 | QB | Maryland
+ |  |  | 166 | Steven Moffett | 6371 | 2003 | 2006 | 36 | 268 | 6371 | 172 | 172 | 0 | QB | UCF
+ |  |  | 167 | Daryll Clark | 6361 | 2006 | 2009 | 41 | 190 | 6361 | 619 | 619 | 0 | QB | Penn State
+ |  |  | 168 | Dennis Dixon | 6337 | 2004 | 2007 | 40 | 258 | 6337 | 1208 | 1208 | 0 | QB | Oregon
+ |  |  | 169 | Levi Brown | 6308 | 2008 | 2009 | 23 | 88 | 6308 | 41 | 41 | 0 | QB | Troy
+ |  |  | 170 | Omar Haugabook | 6305 | 2006 | 2007 | 25 | 301 | 6305 | 970 | 970 | 0 | QB | Troy
+ |  |  | 171 | Brian Lindgren | 6288 | 2001 | 2003 | 33 | 80 | 6288 | -163 | -163 | 0 | QB | Idaho
+ |  |  | 172 | Alex Smith | 6275 | 2002 | 2004 | 25 | 289 | 6275 | 1110 | 1110 | 0 | QB | Utah
+ |  |  | 173 | Scott Rislov | 6249 | 2002 | 2003 | 24 | 126 | 6249 | -12 | -12 | 0 | QB | San Jose State
+ |  |  | 174 | Brodie Croyle | 6205 | 2002 | 2005 | 39 | 183 | 6205 | -177 | -177 | 0 | QB | Alabama
+ |  |  | 175 | Seneca Wallace | 6201 | 2001 | 2002 | 25 | 238 | 6201 | 913 | 913 | 0 | QB | Iowa State
+ |  |  | 176 | Kent Smith | 6079 | 2002 | 2005 | 26 | 284 | 6079 | 900 | 900 | 0 | QB | Central Michigan
+ |  |  | 177 | Austen Arnaud | 6054 | 2007 | 2009 | 30 | 274 | 6054 | 993 | 993 | 0 | QB | Iowa State
+ |  |  | 178 | Justin Willis | 6054 | 2006 | 2008 | 33 | 330 | 6054 | 1206 | 1221 | 15 | QB | SMU
+ |  |  | 179 | Mike McGann | 6053 | 2001 | 2005 | 40 | 229 | 6053 | 86 | 86 | 0 | QB | Temple
+ |  |  | 180 | Casey Kelly | 6052 | 2000 | 2003 | 40 | 290 | 6052 | 640 | 640 | 0 | QB | New Mexico
+ |  |  | 181 | Cody Hawkins | 6049 | 2007 | 2009 | 33 | 114 | 6049 | -126 | -126 | 0 | QB | Colorado
+ |  |  | 182 | DeAngelo Williams | 6026 | 2002 | 2005 | 44 | 1039 | 6026 | 6749 | 7573 | 824 | RB | Memphis
+ |  |  | 183 | Jevan Snead | 6013 | 2006 | 2009 | 34 | 138 | 6013 | 290 | 290 | 0 | QB | Ole Miss,Texas
+ |  |  | 184 | Jameel Sewell | 6012 | 2006 | 2009 | 35 | 358 | 6012 | 676 | 676 | 0 | QB | Virginia
+ |  |  | 185 | Luke Getsy | 6012 | 2003 | 2006 | 31 | 119 | 6012 | -113 | -113 | 0 | QB | Akron,Pitt
+ |  |  | 186 | Woodrow Dantzler | 6002 | 2000 | 2001 | 22 | 379 | 6002 | 1954 | 1954 | 0 | QB | Clemson
+ |  |  | 187 | Josh Fields | 5986 | 2001 | 2003 | 32 | 103 | 5986 | -104 | -104 | 0 | QB | Oklahoma State
+ |  |  | 188 | George Godsey | 5985 | 2000 | 2001 | 23 | 121 | 5985 | -6 | -6 | 0 | QB | Georgia Tech
+ |  |  | 189 | Zak Kustok | 5973 | 2000 | 2001 | 22 | 327 | 5973 | 1030 | 1030 | 0 | QB | Northwestern
+ |  |  | 190 | Dwight Dasher | 5969 | 2007 | 2009 | 32 | 396 | 5969 | 1896 | 1896 | 0 | QB | Middle Tennessee State
+ |  |  | 191 | James Kilian | 5948 | 2001 | 2004 | 37 | 333 | 5948 | 1118 | 1118 | 0 | QB | Tulsa
+ |  |  | 192 | John David Booty | 5945 | 2003 | 2007 | 38 | 61 | 5945 | -180 | -180 | 0 | QB | USC
+ |  |  | 193 | Brian Hoyer | 5930 | 2005 | 2008 | 39 | 106 | 5930 | -205 | -205 | 0 | QB | Michigan State
+ |  |  | 194 | Jon Beutjer | 5929 | 2000 | 2004 | 31 | 114 | 5929 | -102 | -102 | 0 | QB | Illinois,Iowa
+ |  |  | 195 | Josh Haldi | 5916 | 2001 | 2004 | 36 | 176 | 5916 | -99 | -99 | 0 | QB | Northern Illinois
+ |  |  | 196 | Blake Mitchell | 5873 | 2004 | 2007 | 33 | 105 | 5873 | -119 | -119 | 0 | QB | South Carolina
+ |  |  | 197 | Brian St. Pierre | 5856 | 2000 | 2002 | 35 | 148 | 5856 | 314 | 314 | 0 | QB | Boston College
+ |  |  | 198 | Tyrod Taylor | 5811 | 2007 | 2009 | 36 | 355 | 5811 | 1537 | 1537 | 0 | QB | Virginia Tech
+ |  |  | 199 | Aaron Rodgers | 5805 | 2003 | 2004 | 25 | 161 | 5805 | 346 | 346 | 0 | QB | California
+ |  |  | 200 | Zac Taylor | 5789 | 2003 | 2006 | 29 | 140 | 5789 | -68 | -68 | 0 | QB | Nebraska,Wake Forest
 ```
 
 ## Claim check

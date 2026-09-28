@@ -1,21 +1,21 @@
-# SCFB394 — College Football 1970s t:unbeaten_tie
+# SCFB394 — College Football 1980s t:diff_low
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=6&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=losses&ccomp[3]=gt&cval[3]=1&cstat[3]=ties
-- Timestamp: 2026-09-28T06:49:51.395Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1980&year_max=1989&order_by=points_diff&order_by_asc=1&ccomp[1]=lt&cval[1]=-300&cstat[1]=points_diff
+- Timestamp: 2026-09-28T08:33:11.012Z
 - Rows read: 7
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | wins | games | losses | ties | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1979 | USC | 11 | 11 | 0 | 1 | 11 | 11 | 0 | 1 | .958 | 372 | 155 | 217
-2 | 1970 | Nebraska | 11 | 11 | 0 | 1 | 11 | 11 | 0 | 1 | .958 | 409 | 177 | 232
-3 | 1979 | Central Michigan | 10 | 11 | 0 | 1 | 11 | 10 | 0 | 1 | .955 | 291 | 133 | 158
-4 | 1974 | Miami (OH) | 10 | 10 | 0 | 1 | 10 | 10 | 0 | 1 | .955 | 282 | 76 | 206
-5 | 1973 | Michigan | 10 | 11 | 0 | 1 | 11 | 10 | 0 | 1 | .955 | 330 | 68 | 262
-6 | 1973 | Ohio State | 10 | 10 | 0 | 1 | 10 | 10 | 0 | 1 | .955 | 371 | 43 | 328
-7 | 1973 | Oklahoma | 10 | 11 | 0 | 1 | 11 | 10 | 0 | 1 | .955 | 400 | 133 | 267
+ranker | year_id | team_name_abbr | points_diff | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
+1 | 1981 | Northwestern | -423 | 11 | 0 | 11 | 0 | .000 | 82 | 505 | -423
+2 | 1988 | New Mexico | -348 | 12 | 2 | 10 | 0 | .167 | 170 | 518 | -348
+3 | 1981 | Colorado State | -338 | 12 | 0 | 12 | 0 | .000 | 164 | 502 | -338
+4 | 1983 | Minnesota | -337 | 11 | 1 | 10 | 0 | .091 | 181 | 518 | -337
+5 | 1981 | Oregon State | -324 | 11 | 1 | 10 | 0 | .091 | 145 | 469 | -324
+6 | 1989 | SMU | -312 | 11 | 2 | 9 | 0 | .182 | 187 | 499 | -312
+7 | 1988 | Kansas | -307 | 11 | 1 | 10 | 0 | .091 | 189 | 496 | -307
 ```
 
 ## Claim check

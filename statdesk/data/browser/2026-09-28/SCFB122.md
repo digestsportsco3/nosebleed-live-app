@@ -1,56 +1,31 @@
-# SCFB122 — College Football 1920s t:unbeaten_tie
+# SCFB122 — College Football 1960s p:pg_rush_yds_per_g
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1920&year_max=1929&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=6&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=losses&ccomp[3]=gt&cval[3]=1&cstat[3]=ties
-- Timestamp: 2026-09-28T06:31:34.324Z
-- Rows read: 40
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&order_by=rush_yds_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=gt&cval[2]=130&cstat[2]=rush_yds_per_g
+- Timestamp: 2026-09-28T08:15:01.852Z
+- Rows read: 15
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | wins | games | losses | ties | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1926 | Stanford | 10 | 10 | 0 | 1 | 10 | 10 | 0 | 1 | .955 | 268 | 73 | 195
-2 | 1922 | West Virginia | 10 | 10 | 0 | 1 | 10 | 10 | 0 | 1 | .955 | 267 | 34 | 233
-3 | 1921 | Washington & Jefferson | 10 | 10 | 0 | 1 | 10 | 10 | 0 | 1 | .955 | 222 | 33 | 189
-4 | 1929 | Tennessee | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 330 | 13 | 317
-5 | 1929 | Texas Christian | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 249 | 33 | 216
-6 | 1928 | USC | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 267 | 59 | 208
-7 | 1928 | Tennessee | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 249 | 51 | 198
-8 | 1926 | Alabama | 9 | 9 | 0 | 1 | 9 | 9 | 0 | 1 | .950 | 249 | 27 | 222
-9 | 1926 | Brown | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 223 | 36 | 187
-10 | 1926 | Navy | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 236 | 88 | 148
-11 | 1925 | Tulane | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 246 | 32 | 214
-12 | 1923 | California | 9 | 10 | 0 | 1 | 10 | 9 | 0 | 1 | .950 | 182 | 7 | 175
-13 | 1921 | California | 9 | 9 | 0 | 1 | 9 | 9 | 0 | 1 | .950 | 312 | 33 | 279
-14 | 1927 | Tennessee | 8 | 9 | 0 | 1 | 9 | 8 | 0 | 1 | .944 | 245 | 26 | 219
-15 | 1927 | Texas A&M | 8 | 9 | 0 | 1 | 9 | 8 | 0 | 1 | .944 | 262 | 32 | 230
-16 | 1926 | SMU | 8 | 9 | 0 | 1 | 9 | 8 | 0 | 1 | .944 | 229 | 47 | 182
-17 | 1924 | California | 8 | 10 | 0 | 2 | 10 | 8 | 0 | 2 | .900 | 162 | 51 | 111
-18 | 1923 | Texas | 8 | 9 | 0 | 1 | 9 | 8 | 0 | 1 | .944 | 241 | 21 | 220
-19 | 1922 | Army | 8 | 10 | 0 | 2 | 10 | 8 | 0 | 2 | .900 | 228 | 27 | 201
-20 | 1922 | Vanderbilt | 8 | 9 | 0 | 1 | 9 | 8 | 0 | 1 | .944 | 177 | 16 | 161
-21 | 1921 | Penn State | 8 | 10 | 0 | 2 | 10 | 8 | 0 | 2 | .900 | 251 | 56 | 195
-22 | 1920 | Georgia | 8 | 9 | 0 | 1 | 9 | 8 | 0 | 1 | .944 | 250 | 17 | 233
-23 | 1920 | Harvard | 8 | 9 | 0 | 1 | 9 | 8 | 0 | 1 | .944 | 208 | 28 | 180
-24 | 1929 | Fordham | 7 | 9 | 0 | 2 | 9 | 7 | 0 | 2 | .889 | 176 | 19 | 157
-25 | 1927 | Illinois | 7 | 8 | 0 | 1 | 8 | 7 | 0 | 1 | .938 | 152 | 24 | 128
-26 | 1927 | Washington & Jefferson | 7 | 9 | 0 | 2 | 9 | 7 | 0 | 2 | .889 | 152 | 21 | 131
-27 | 1925 | Colgate | 7 | 9 | 0 | 2 | 9 | 7 | 0 | 2 | .889 | 219 | 34 | 185
-28 | 1924 | Dartmouth | 7 | 8 | 0 | 1 | 8 | 7 | 0 | 1 | .938 | 225 | 31 | 194
-29 | 1921 | Vanderbilt | 7 | 8 | 0 | 1 | 8 | 7 | 0 | 1 | .938 | 161 | 21 | 140
-30 | 1920 | Penn State | 7 | 9 | 0 | 2 | 9 | 7 | 0 | 2 | .889 | 259 | 35 | 224
-31 | 1929 | SMU | 6 | 10 | 0 | 4 | 10 | 6 | 0 | 4 | .800 | 172 | 36 | 136
-32 | 1927 | Minnesota | 6 | 8 | 0 | 2 | 8 | 6 | 0 | 2 | .875 | 209 | 51 | 158
-33 | 1924 | Yale | 6 | 8 | 0 | 2 | 8 | 6 | 0 | 2 | .875 | 144 | 36 | 108
-34 | 1922 | Michigan | 6 | 7 | 0 | 1 | 7 | 6 | 0 | 1 | .929 | 183 | 13 | 170
-35 | 1920 | Oklahoma | 6 | 7 | 0 | 1 | 7 | 6 | 0 | 1 | .929 | 176 | 51 | 125
-36 | 1920 | Pitt | 6 | 8 | 0 | 2 | 8 | 6 | 0 | 2 | .875 | 146 | 44 | 102
-37 | 1920 | Princeton | 6 | 7 | 0 | 1 | 7 | 6 | 0 | 1 | .929 | 144 | 23 | 121
-38 | 1928 | Utah | 5 | 7 | 0 | 2 | 7 | 5 | 0 | 2 | .857 | 117 | 41 | 76
-39 | 1924 | Gonzaga | 5 | 7 | 0 | 2 | 7 | 5 | 0 | 2 | .857 | 138 | 26 | 112
-40 | 1923 | Kansas | 5 | 8 | 0 | 3 | 8 | 5 | 0 | 3 | .813 | 125 | 6 | 119
+header_empty_0 | header_rush | header_empty_2 | ranker | name_display | rush_yds_per_g | games | year_id | teams_played_for | games | rush_att | rush_yds | rush_yds_per_att | rush_td | rush_yds_per_g | pos | class
+ |  |  | 1 | O.J. Simpson | 170.9 | 10 | 1968 | USC | 10 | 355 | 1709 | 4.8 | 22 | 170.9 | RB | 
+ |  |  | 2 | Mercury Morris | 157.1 | 10 | 1968 | West Texas State | 10 | 260 | 1571 | 6.0 | 17 | 157.1 | RB | 
+ |  |  | 3 | Ed Marinaro | 156.6 | 9 | 1969 | Cornell | 9 | 277 | 1409 | 5.1 | 14 | 156.6 | RB | 
+ |  |  | 4 | Paul Gipson | 155.0 | 10 | 1968 | Houston | 10 | 242 | 1550 | 6.4 | 13 | 155.0 | RB | 
+ |  |  | 5 | Steve Owens | 153.6 | 10 | 1968 | Oklahoma | 10 | 357 | 1536 | 4.3 | 21 | 153.6 | RB | 
+ |  |  | 6 | Steve Owens | 152.3 | 10 | 1969 | Oklahoma | 10 | 358 | 1523 | 4.3 | 23 | 152.3 | RB | 
+ |  |  | 7 | Leon Burns | 150.8 | 11 | 1969 | Long Beach State | 11 | 350 | 1659 | 4.7 | 26 | 150.8 | RB | 
+ |  |  | 8 | Mike Garrett | 144.0 | 10 | 1965 | USC | 10 | 267 | 1440 | 5.4 | 13 | 144.0 | RB | 
+ |  |  | 9 | Art Malone | 143.1 | 10 | 1968 | Arizona State | 10 | 235 | 1431 | 6.1 | 15 | 143.1 | RB | 
+ |  |  | 10 | O.J. Simpson | 141.5 | 10 | 1967 | USC | 10 | 266 | 1415 | 5.3 | 11 | 141.5 | RB | 
+ |  |  | 11 | Ron Johnson | 139.1 | 10 | 1968 | Michigan | 10 | 255 | 1391 | 5.5 | 19 | 139.1 | RB | 
+ |  |  | 12 | Bob Gaiters | 133.8 | 10 | 1960 | New Mexico State | 10 | 197 | 1338 | 6.8 | 23 | 133.8 | RB | 
+ |  |  | 13 | Ray McDonald | 132.9 | 10 | 1966 | Idaho | 10 | 259 | 1329 | 5.1 | 14 | 132.9 | RB | 
+ |  |  | 14 | Joe Moore | 131.2 | 10 | 1969 | Missouri | 10 | 260 | 1312 | 5.0 | 5 | 131.2 | RB | 
+ |  |  | 15 | Bill Enyart | 130.4 | 10 | 1968 | Oregon State | 10 | 293 | 1304 | 4.5 | 17 | 130.4 | RB | 
 ```
 
 ## Claim check
 
-- Complete set: all 40 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 15 rows read. A superlative may be asserted only if it holds across every row above.

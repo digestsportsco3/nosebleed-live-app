@@ -1,31 +1,30 @@
-# SCFB682 — College Football 2010s p:car_hi
+# SCFB682 — College Football 2010s p:recy_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&order_by=rush_att&order_by_asc=0&ccomp[1]=gt&cval[1]=330&cstat[1]=rush_att
-- Timestamp: 2026-09-28T07:10:46.518Z
-- Rows read: 15
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&order_by=rec_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1700&cstat[1]=rec_yds
+- Timestamp: 2026-09-28T08:53:24.496Z
+- Rows read: 14
 
 ## Result table
 
 ```
-header_empty_0 | header_rush | header_empty_2 | ranker | name_display | rush_att | year_id | teams_played_for | games | rush_att | rush_yds | rush_yds_per_att | rush_td | rush_yds_per_g | pos | class
- |  |  | 1 | Derrick Henry | 395 | 2015 | Alabama | 15 | 395 | 2219 | 5.6 | 28 | 147.9 | RB | JR
- |  |  | 2 | Le'Veon Bell | 382 | 2012 | Michigan State | 13 | 382 | 1793 | 4.7 | 12 | 137.9 | RB | JR
- |  |  | 3 | Stefphon Jefferson | 375 | 2012 | Nevada | 13 | 375 | 1883 | 5.0 | 24 | 144.8 | RB | JR
- |  |  | 4 | Bobby Rainey | 369 | 2011 | Western Kentucky | 12 | 369 | 1695 | 4.6 | 13 | 141.3 | RB | SR
- |  |  | 5 | Montee Ball | 356 | 2012 | Wisconsin | 14 | 356 | 1830 | 5.1 | 22 | 130.7 | RB | SR
- |  |  | 6 | Andre Williams | 355 | 2013 | Boston College | 13 | 355 | 2177 | 6.1 | 18 | 167.5 | RB | SR
- |  |  | 7 | Brian Hill | 349 | 2016 | Wyoming | 14 | 349 | 1860 | 5.3 | 22 | 132.9 | RB | JR
- |  |  | 8 | Donnel Pumphrey | 349 | 2016 | San Diego State | 14 | 349 | 2133 | 6.1 | 17 | 152.4 | RB | SR
- |  |  | 9 | Ka'Deem Carey | 349 | 2013 | Arizona | 12 | 349 | 1885 | 5.4 | 19 | 157.1 | RB | JR
- |  |  | 10 | Jay Ajayi | 347 | 2014 | Boise State | 14 | 347 | 1823 | 5.3 | 28 | 130.2 | RB | JR
- |  |  | 11 | Melvin Gordon | 343 | 2014 | Wisconsin | 14 | 343 | 2587 | 7.5 | 29 | 184.8 | RB | JR
- |  |  | 12 | Bobby Rainey | 340 | 2010 | Western Kentucky | 12 | 340 | 1649 | 4.9 | 15 | 137.4 | RB | JR
- |  |  | 13 | Christian McCaffrey | 337 | 2015 | Stanford | 14 | 337 | 2019 | 6.0 | 8 | 144.2 | RB | SO
- |  |  | 14 | Jordan Todman | 334 | 2010 | Connecticut | 12 | 334 | 1695 | 5.1 | 14 | 141.3 | RB | JR
- |  |  | 15 | Tyler Gaffney | 330 | 2013 | Stanford | 14 | 330 | 1709 | 5.2 | 21 | 122.1 | RB | SR
+header_empty_0 | header_rec | header_empty_2 | ranker | name_display | rec_yds | year_id | teams_played_for | games | rec | rec_yds | rec_yds_per_rec | rec_td | rec_yds_per_g | pos | class
+ |  |  | 1 | Jordan White | 1911 | 2011 | Western Michigan | 13 | 140 | 1911 | 13.7 | 17 | 147.0 | WR | SR
+ |  |  | 2 | Greg Salas | 1889 | 2010 | Hawaii | 14 | 119 | 1889 | 15.9 | 14 | 134.9 | WR | SR
+ |  |  | 3 | Terrance Williams | 1832 | 2012 | Baylor | 13 | 97 | 1832 | 18.9 | 12 | 140.9 | WR | SR
+ |  |  | 4 | Trent Taylor | 1803 | 2016 | Louisiana Tech | 14 | 136 | 1803 | 13.3 | 12 | 128.8 | WR | SR
+ |  |  | 5 | Justin Blackmon | 1782 | 2010 | Oklahoma State | 12 | 111 | 1782 | 16.1 | 20 | 148.5 | WR | SO
+ |  |  | 6 | Ja'Marr Chase | 1780 | 2019 | LSU | 14 | 84 | 1780 | 21.2 | 20 | 127.1 | WR | SO
+ |  |  | 7 | Patrick Edwards | 1752 | 2011 | Houston | 14 | 89 | 1752 | 19.7 | 20 | 125.1 | WR | SR
+ |  |  | 8 | Rashard Higgins | 1750 | 2014 | Colorado State | 12 | 96 | 1750 | 18.2 | 17 | 145.8 | WR | SO
+ |  |  | 9 | Zay Jones | 1746 | 2016 | East Carolina | 12 | 158 | 1746 | 11.1 | 8 | 145.5 | WR | SR
+ |  |  | 10 | Brandin Cooks | 1730 | 2013 | Oregon State | 13 | 128 | 1730 | 13.5 | 16 | 133.1 | WR | JR
+ |  |  | 11 | Taywan Taylor | 1730 | 2016 | Western Kentucky | 14 | 98 | 1730 | 17.7 | 17 | 123.6 | WR | SR
+ |  |  | 12 | Amari Cooper | 1727 | 2014 | Alabama | 14 | 124 | 1727 | 13.9 | 16 | 123.4 | WR | JR
+ |  |  | 13 | Marqise Lee | 1721 | 2012 | USC | 13 | 118 | 1721 | 14.6 | 14 | 132.4 | WR | SO
+ |  |  | 14 | Davante Adams | 1719 | 2013 | Fresno State | 13 | 131 | 1719 | 13.1 | 24 | 132.2 | WR | SO
 ```
 
 ## Claim check
 
-- Complete set: all 15 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 14 rows read. A superlative may be asserted only if it holds across every row above.

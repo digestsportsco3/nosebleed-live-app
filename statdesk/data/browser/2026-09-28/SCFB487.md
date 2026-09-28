@@ -1,215 +1,215 @@
-# SCFB487 — College Football 1980s t:tx_pts
+# SCFB487 — College Football 1990s p:x_dint
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1980&year_max=1989&order_by=points&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=points
-- Timestamp: 2026-09-28T06:56:07.108Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=def_int
+- Timestamp: 2026-09-28T08:39:25.566Z
 - Rows read: 200
 - CAPPED: the page truncated the result set. No complete-set claim may be made from this query.
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | points | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1983 | Nebraska | 624 | 12 | 12 | 1 | 0 | .923 | 624 | 186 | 438
-2 | 1989 | Houston | 589 | 11 | 9 | 2 | 0 | .818 | 589 | 150 | 439
-3 | 1980 | BYU | 560 | 12 | 12 | 1 | 0 | .923 | 560 | 198 | 362
-4 | 1988 | Oklahoma State | 522 | 11 | 10 | 2 | 0 | .833 | 522 | 327 | 195
-5 | 1988 | Wyoming | 497 | 12 | 11 | 2 | 0 | .846 | 497 | 218 | 279
-6 | 1982 | Nebraska | 493 | 12 | 12 | 1 | 0 | .923 | 493 | 147 | 346
-7 | 1989 | Nebraska | 492 | 11 | 10 | 2 | 0 | .833 | 492 | 174 | 318
-8 | 1989 | BYU | 484 | 12 | 10 | 3 | 0 | .769 | 484 | 319 | 165
-9 | 1983 | BYU | 484 | 11 | 11 | 1 | 0 | .917 | 484 | 230 | 254
-10 | 1987 | Oklahoma | 479 | 11 | 11 | 1 | 0 | .917 | 479 | 82 | 397
-11 | 1988 | Nebraska | 474 | 12 | 11 | 2 | 0 | .846 | 474 | 182 | 292
-12 | 1988 | West Virginia | 472 | 11 | 11 | 1 | 0 | .917 | 472 | 174 | 298
-13 | 1986 | Oklahoma | 466 | 11 | 11 | 1 | 0 | .917 | 466 | 73 | 393
-14 | 1989 | Hawaii | 457 | 12 | 9 | 3 | 1 | .731 | 457 | 248 | 209
-15 | 1989 | Colorado | 452 | 11 | 11 | 1 | 0 | .917 | 452 | 150 | 302
-16 | 1988 | Houston | 452 | 11 | 9 | 3 | 0 | .750 | 452 | 195 | 257
-17 | 1987 | Florida State | 450 | 11 | 11 | 1 | 0 | .917 | 450 | 135 | 315
-18 | 1983 | Southern Illinois | 448 | 14 | 13 | 1 | 0 | .929 | 448 | 178 | 270
-19 | 1989 | Air Force | 446 | 12 | 8 | 4 | 1 | .654 | 446 | 316 | 130
-20 | 1985 | Air Force | 446 | 12 | 12 | 1 | 0 | .923 | 446 | 163 | 283
-21 | 1988 | Florida State | 442 | 11 | 11 | 1 | 0 | .917 | 442 | 165 | 277
-22 | 1985 | BYU | 435 | 13 | 11 | 3 | 0 | .786 | 435 | 186 | 249
-23 | 1980 | Nebraska | 435 | 11 | 10 | 2 | 0 | .833 | 435 | 93 | 342
-24 | 1984 | BYU | 432 | 12 | 13 | 0 | 0 | 1.000 | 432 | 166 | 266
-25 | 1985 | Fresno State | 430 | 11 | 11 | 0 | 1 | .958 | 430 | 202 | 228
-26 | 1988 | UTEP | 427 | 12 | 10 | 3 | 0 | .769 | 427 | 237 | 190
-27 | 1981 | BYU | 427 | 12 | 11 | 2 | 0 | .846 | 427 | 184 | 243
-28 | 1987 | Nebraska | 423 | 11 | 10 | 2 | 0 | .833 | 423 | 133 | 290
-29 | 1988 | Air Force | 422 | 12 | 5 | 7 | 0 | .417 | 422 | 392 | 30
-30 | 1986 | Miami (FL) | 420 | 11 | 11 | 1 | 0 | .917 | 420 | 136 | 284
-31 | 1986 | Nebraska | 416 | 11 | 10 | 2 | 0 | .833 | 416 | 150 | 266
-32 | 1989 | Fresno State | 414 | 11 | 11 | 1 | 0 | .917 | 414 | 214 | 200
-33 | 1985 | Iowa | 412 | 11 | 10 | 2 | 0 | .833 | 412 | 142 | 270
-34 | 1987 | Wyoming | 407 | 12 | 10 | 3 | 0 | .769 | 407 | 251 | 156
-35 | 1989 | Notre Dame | 406 | 12 | 12 | 1 | 0 | .923 | 406 | 183 | 223
-36 | 1987 | UCLA | 406 | 11 | 10 | 2 | 0 | .833 | 406 | 179 | 227
-37 | 1985 | Utah | 405 | 12 | 8 | 4 | 0 | .667 | 405 | 343 | 62
-38 | 1984 | Boston College | 404 | 11 | 10 | 2 | 0 | .833 | 404 | 268 | 136
-39 | 1988 | BYU | 401 | 12 | 9 | 4 | 0 | .692 | 401 | 264 | 137
-40 | 1988 | Utah | 399 | 11 | 6 | 5 | 0 | .545 | 399 | 357 | 42
-41 | 1985 | Miami (FL) | 399 | 11 | 10 | 2 | 0 | .833 | 399 | 160 | 239
-42 | 1985 | Nebraska | 398 | 11 | 9 | 3 | 0 | .750 | 398 | 136 | 262
-43 | 1988 | Miami (FL) | 395 | 11 | 11 | 1 | 0 | .917 | 395 | 113 | 282
-44 | 1987 | Tennessee | 395 | 12 | 10 | 2 | 1 | .808 | 395 | 224 | 171
-45 | 1981 | Arizona State | 394 | 11 | 9 | 2 | 0 | .818 | 394 | 193 | 201
-46 | 1989 | Miami (FL) | 393 | 11 | 11 | 1 | 0 | .917 | 393 | 102 | 291
-47 | 1987 | Miami (FL) | 392 | 11 | 12 | 0 | 0 | 1.000 | 392 | 111 | 281
-48 | 1988 | Washington State | 391 | 11 | 9 | 3 | 0 | .750 | 391 | 281 | 110
-49 | 1987 | San Jose State | 390 | 11 | 10 | 2 | 0 | .833 | 390 | 193 | 197
-50 | 1984 | Florida State | 389 | 11 | 7 | 3 | 2 | .667 | 389 | 237 | 152
-51 | 1982 | Florida State | 388 | 11 | 9 | 3 | 0 | .750 | 388 | 242 | 146
-52 | 1980 | Nevada-Las Vegas | 384 | 11 | 7 | 4 | 0 | .636 | 384 | 257 | 127
-53 | 1989 | Florida State | 383 | 11 | 10 | 2 | 0 | .833 | 383 | 182 | 201
-54 | 1988 | Hawaii | 383 | 12 | 9 | 3 | 0 | .750 | 383 | 283 | 100
-55 | 1983 | Ohio State | 382 | 11 | 9 | 3 | 0 | .750 | 382 | 183 | 199
-56 | 1989 | Oklahoma | 380 | 11 | 7 | 4 | 0 | .636 | 380 | 200 | 180
-57 | 1986 | Auburn | 379 | 11 | 10 | 2 | 0 | .833 | 379 | 115 | 264
-58 | 1980 | Oklahoma | 378 | 11 | 10 | 2 | 0 | .833 | 378 | 192 | 186
-59 | 1987 | Air Force | 377 | 12 | 9 | 4 | 0 | .692 | 377 | 230 | 147
-60 | 1988 | UCLA | 375 | 11 | 10 | 2 | 0 | .833 | 375 | 187 | 188
-61 | 1982 | UCLA | 375 | 11 | 10 | 1 | 1 | .875 | 375 | 217 | 158
-62 | 1987 | Oklahoma State | 374 | 11 | 10 | 2 | 0 | .833 | 374 | 209 | 165
-63 | 1984 | Ohio State | 374 | 11 | 9 | 3 | 0 | .750 | 374 | 180 | 194
-64 | 1983 | Iowa | 374 | 11 | 9 | 3 | 0 | .750 | 374 | 175 | 199
-65 | 1982 | New Mexico | 374 | 11 | 10 | 1 | 0 | .909 | 374 | 225 | 149
-66 | 1986 | Washington | 372 | 11 | 8 | 3 | 1 | .708 | 372 | 169 | 203
-67 | 1989 | San Diego State | 368 | 12 | 6 | 5 | 1 | .542 | 368 | 378 | -10
-68 | 1985 | Florida State | 368 | 11 | 9 | 3 | 0 | .750 | 368 | 235 | 133
-69 | 1982 | Penn State | 368 | 11 | 11 | 1 | 0 | .917 | 368 | 173 | 195
-70 | 1980 | Ohio State | 368 | 11 | 9 | 3 | 0 | .750 | 368 | 150 | 218
-71 | 1986 | Florida State | 366 | 11 | 7 | 4 | 1 | .625 | 366 | 205 | 161
-72 | 1989 | Utah | 365 | 12 | 4 | 8 | 0 | .333 | 365 | 524 | -159
-73 | 1985 | Army | 365 | 11 | 9 | 3 | 0 | .750 | 365 | 203 | 162
-74 | 1984 | Miami (FL) | 365 | 12 | 8 | 5 | 0 | .615 | 365 | 275 | 90
-75 | 1982 | LSU | 365 | 11 | 8 | 3 | 1 | .708 | 365 | 170 | 195
-76 | 1981 | SMU | 365 | 11 | 10 | 1 | 0 | .909 | 365 | 137 | 228
-77 | 1986 | Michigan | 364 | 12 | 11 | 2 | 0 | .846 | 364 | 181 | 183
-78 | 1987 | Syracuse | 363 | 11 | 11 | 0 | 1 | .958 | 363 | 153 | 210
-79 | 1988 | Indiana | 362 | 11 | 8 | 3 | 1 | .708 | 362 | 225 | 137
-80 | 1984 | Texas Christian | 362 | 11 | 8 | 4 | 0 | .667 | 362 | 249 | 113
-81 | 1981 | Pitt | 361 | 11 | 11 | 1 | 0 | .917 | 361 | 140 | 221
-82 | 1987 | Iowa | 360 | 12 | 10 | 3 | 0 | .769 | 360 | 231 | 129
-83 | 1986 | San Jose State | 360 | 11 | 10 | 2 | 0 | .833 | 360 | 225 | 135
-84 | 1986 | Texas A&M | 360 | 11 | 9 | 3 | 0 | .750 | 360 | 187 | 173
-85 | 1988 | Notre Dame | 359 | 11 | 12 | 0 | 0 | 1.000 | 359 | 135 | 224
-86 | 1984 | Nebraska | 359 | 11 | 10 | 2 | 0 | .833 | 359 | 105 | 254
-87 | 1983 | Wisconsin | 359 | 11 | 7 | 4 | 0 | .636 | 359 | 242 | 117
-88 | 1982 | Air Force | 359 | 12 | 8 | 5 | 0 | .615 | 359 | 339 | 20
-89 | 1989 | Arkansas | 358 | 11 | 10 | 2 | 0 | .833 | 358 | 199 | 159
-90 | 1988 | Fresno State | 358 | 11 | 10 | 2 | 0 | .833 | 358 | 139 | 219
-91 | 1987 | Tulane | 358 | 11 | 6 | 6 | 0 | .500 | 358 | 352 | 6
-92 | 1983 | Air Force | 358 | 11 | 10 | 2 | 0 | .833 | 358 | 218 | 140
-93 | 1982 | BYU | 358 | 11 | 8 | 4 | 0 | .667 | 358 | 167 | 191
-94 | 1987 | San Diego State | 357 | 12 | 5 | 7 | 0 | .417 | 357 | 428 | -71
-95 | 1986 | Arizona State | 357 | 11 | 10 | 1 | 1 | .875 | 357 | 152 | 205
-96 | 1984 | Nevada-Las Vegas | 357 | 12 | 11 | 2 | 0 | .846 | 357 | 242 | 115
-97 | 1984 | South Carolina | 357 | 11 | 10 | 2 | 0 | .833 | 357 | 237 | 120
-98 | 1989 | Duke | 356 | 11 | 8 | 4 | 0 | .667 | 356 | 286 | 70
-99 | 1988 | USC | 356 | 11 | 10 | 2 | 0 | .833 | 356 | 162 | 194
-100 | 1981 | Ohio State | 356 | 11 | 9 | 3 | 0 | .750 | 356 | 225 | 131
-101 | 1981 | San Jose State | 355 | 11 | 9 | 3 | 0 | .750 | 355 | 227 | 128
-102 | 1986 | UCLA | 354 | 11 | 8 | 3 | 1 | .708 | 354 | 212 | 142
-103 | 1983 | Florida State | 353 | 11 | 7 | 5 | 0 | .583 | 353 | 309 | 44
-104 | 1982 | Maryland | 353 | 11 | 8 | 4 | 0 | .667 | 353 | 199 | 154
-105 | 1989 | Oregon | 352 | 11 | 8 | 4 | 0 | .667 | 352 | 227 | 125
-106 | 1986 | Iowa | 352 | 11 | 9 | 3 | 0 | .750 | 352 | 176 | 176
-107 | 1984 | Maryland | 352 | 11 | 9 | 3 | 0 | .750 | 352 | 253 | 99
-108 | 1982 | Fresno State | 352 | 11 | 11 | 1 | 0 | .917 | 352 | 200 | 152
-109 | 1981 | Georgia | 352 | 11 | 10 | 2 | 0 | .833 | 352 | 98 | 254
-110 | 1980 | Florida State | 352 | 11 | 10 | 2 | 0 | .833 | 352 | 85 | 267
-111 | 1989 | Washington State | 351 | 11 | 6 | 5 | 0 | .545 | 351 | 268 | 83
-112 | 1989 | Colorado State | 350 | 11 | 5 | 5 | 1 | .500 | 350 | 304 | 46
-113 | 1989 | Virginia | 350 | 12 | 10 | 3 | 0 | .769 | 350 | 241 | 109
-114 | 1981 | Nebraska | 349 | 11 | 9 | 3 | 0 | .750 | 349 | 103 | 246
-115 | 1985 | Bowling Green | 348 | 11 | 11 | 1 | 0 | .917 | 348 | 172 | 176
-116 | 1983 | Michigan | 348 | 11 | 9 | 3 | 0 | .750 | 348 | 151 | 197
-117 | 1984 | Utah | 347 | 12 | 6 | 5 | 1 | .542 | 347 | 253 | 94
-118 | 1982 | SMU | 347 | 11 | 11 | 0 | 1 | .958 | 347 | 157 | 190
-119 | 1982 | Texas | 347 | 11 | 9 | 3 | 0 | .750 | 347 | 144 | 203
-120 | 1988 | Arkansas | 346 | 11 | 10 | 2 | 0 | .833 | 346 | 173 | 173
-121 | 1985 | Oklahoma | 346 | 11 | 11 | 1 | 0 | .917 | 346 | 93 | 253
-122 | 1984 | Air Force | 346 | 11 | 8 | 4 | 0 | .667 | 346 | 191 | 155
-123 | 1984 | Clemson | 346 | 11 | 7 | 4 | 0 | .636 | 346 | 215 | 131
-124 | 1981 | Penn State | 345 | 11 | 10 | 2 | 0 | .833 | 345 | 152 | 193
-125 | 1989 | Northern Illinois | 344 | 11 | 9 | 2 | 0 | .818 | 344 | 269 | 75
-126 | 1981 | North Carolina | 344 | 11 | 10 | 2 | 0 | .833 | 344 | 123 | 221
-127 | 1981 | Wyoming | 344 | 11 | 8 | 3 | 0 | .727 | 344 | 203 | 141
-128 | 1983 | Arizona | 343 | 11 | 7 | 3 | 1 | .682 | 343 | 188 | 155
-129 | 1980 | Pitt | 343 | 11 | 11 | 1 | 0 | .917 | 343 | 121 | 222
-130 | 1985 | San Diego State | 342 | 12 | 5 | 6 | 1 | .458 | 342 | 317 | 25
-131 | 1982 | Tulsa | 342 | 11 | 10 | 1 | 0 | .909 | 342 | 196 | 146
-132 | 1989 | Clemson | 341 | 11 | 10 | 2 | 0 | .833 | 341 | 131 | 210
-133 | 1984 | Florida | 341 | 11 | 9 | 1 | 1 | .864 | 341 | 170 | 171
-134 | 1988 | Michigan | 339 | 11 | 9 | 2 | 1 | .792 | 339 | 153 | 186
-135 | 1986 | Miami (OH) | 339 | 11 | 8 | 4 | 0 | .667 | 339 | 191 | 148
-136 | 1985 | Texas A&M | 339 | 11 | 10 | 2 | 0 | .833 | 339 | 180 | 159
-137 | 1984 | Auburn | 339 | 12 | 9 | 4 | 0 | .692 | 339 | 239 | 100
-138 | 1980 | South Carolina | 339 | 11 | 8 | 4 | 0 | .667 | 339 | 163 | 176
-139 | 1983 | Alabama | 338 | 11 | 8 | 4 | 0 | .667 | 338 | 222 | 116
-140 | 1983 | Clemson | 338 | 11 | 9 | 1 | 1 | .864 | 338 | 200 | 138
-141 | 1983 | Illinois | 338 | 11 | 10 | 2 | 0 | .833 | 338 | 168 | 170
-142 | 1987 | Hawaii | 337 | 12 | 5 | 7 | 0 | .417 | 337 | 299 | 38
-143 | 1984 | Cal State Fullerton | 337 | 12 | 11 | 1 | 0 | .917 | 337 | 211 | 126
-144 | 1987 | LSU | 335 | 11 | 10 | 1 | 1 | .875 | 335 | 171 | 164
-145 | 1987 | BYU | 334 | 12 | 9 | 4 | 0 | .692 | 334 | 271 | 63
-146 | 1984 | Wyoming | 334 | 12 | 6 | 6 | 0 | .500 | 334 | 342 | -8
-147 | 1983 | North Carolina | 334 | 11 | 8 | 4 | 0 | .667 | 334 | 188 | 146
-148 | 1983 | Boston College | 333 | 11 | 9 | 3 | 0 | .750 | 333 | 171 | 162
-149 | 1982 | Washington | 333 | 11 | 10 | 2 | 0 | .833 | 333 | 173 | 160
-150 | 1989 | Alabama | 332 | 11 | 10 | 2 | 0 | .833 | 332 | 184 | 148
-151 | 1989 | West Virginia | 332 | 11 | 8 | 3 | 1 | .708 | 332 | 194 | 138
-152 | 1984 | Indiana State | 332 | 12 | 9 | 3 | 0 | .750 | 332 | 161 | 171
-153 | 1988 | Auburn | 331 | 11 | 10 | 2 | 0 | .833 | 331 | 79 | 252
-154 | 1982 | Michigan | 331 | 11 | 8 | 4 | 0 | .667 | 331 | 180 | 151
-155 | 1982 | San Jose State | 331 | 11 | 8 | 3 | 0 | .727 | 331 | 199 | 132
-156 | 1988 | Clemson | 329 | 11 | 10 | 2 | 0 | .833 | 329 | 151 | 178
-157 | 1987 | Notre Dame | 329 | 11 | 8 | 4 | 0 | .667 | 329 | 183 | 146
-158 | 1983 | Wyoming | 329 | 12 | 7 | 5 | 0 | .583 | 329 | 327 | 2
-159 | 1988 | Texas Tech | 328 | 11 | 5 | 6 | 0 | .455 | 328 | 332 | -4
-160 | 1987 | South Carolina | 328 | 11 | 8 | 4 | 0 | .667 | 328 | 111 | 217
-161 | 1985 | Auburn | 328 | 11 | 8 | 4 | 0 | .667 | 328 | 172 | 156
-162 | 1982 | Stanford | 328 | 11 | 5 | 6 | 0 | .455 | 328 | 297 | 31
-163 | 1981 | Hawaii | 328 | 11 | 9 | 2 | 0 | .818 | 328 | 130 | 198
-164 | 1985 | Southern Illinois | 327 | 11 | 4 | 7 | 0 | .364 | 327 | 256 | 71
-165 | 1984 | Bowling Green | 327 | 11 | 8 | 3 | 0 | .727 | 327 | 198 | 129
-166 | 1980 | Washington | 327 | 11 | 9 | 3 | 0 | .750 | 327 | 175 | 152
-167 | 1988 | Oklahoma | 326 | 11 | 9 | 3 | 0 | .750 | 326 | 147 | 179
-168 | 1986 | Penn State | 326 | 11 | 12 | 0 | 0 | 1.000 | 326 | 123 | 203
-169 | 1981 | Nevada-Las Vegas | 326 | 12 | 6 | 6 | 0 | .500 | 326 | 433 | -107
-170 | 1989 | Michigan | 325 | 11 | 10 | 2 | 0 | .833 | 325 | 167 | 158
-171 | 1989 | Ohio State | 325 | 11 | 8 | 4 | 0 | .667 | 325 | 266 | 59
-172 | 1986 | Wake Forest | 325 | 11 | 5 | 6 | 0 | .455 | 325 | 295 | 30
-173 | 1983 | Baylor | 325 | 11 | 7 | 4 | 1 | .625 | 325 | 242 | 83
-174 | 1988 | Duke | 324 | 11 | 7 | 3 | 1 | .682 | 324 | 324 | 0
-175 | 1988 | Georgia | 324 | 11 | 9 | 3 | 0 | .750 | 324 | 185 | 139
-176 | 1988 | Western Michigan | 324 | 11 | 9 | 3 | 0 | .750 | 324 | 202 | 122
-177 | 1984 | Washington | 324 | 11 | 11 | 1 | 0 | .917 | 324 | 128 | 196
-178 | 1989 | Michigan State | 323 | 11 | 8 | 4 | 0 | .667 | 323 | 150 | 173
-179 | 1986 | Alabama | 323 | 12 | 10 | 3 | 0 | .769 | 323 | 157 | 166
-180 | 1984 | Illinois | 323 | 11 | 7 | 4 | 0 | .636 | 323 | 209 | 114
-181 | 1982 | Illinois | 323 | 11 | 7 | 5 | 0 | .583 | 323 | 208 | 115
-182 | 1986 | Arizona | 322 | 11 | 9 | 3 | 0 | .750 | 322 | 183 | 139
-183 | 1982 | North Carolina | 322 | 11 | 8 | 4 | 0 | .667 | 322 | 139 | 183
-184 | 1981 | Michigan | 322 | 11 | 9 | 3 | 0 | .750 | 322 | 148 | 174
-185 | 1980 | Alabama | 322 | 11 | 10 | 2 | 0 | .833 | 322 | 96 | 226
-186 | 1987 | Utah | 321 | 12 | 5 | 7 | 0 | .417 | 321 | 362 | -41
-187 | 1981 | Utah | 321 | 11 | 8 | 2 | 1 | .773 | 321 | 208 | 113
-188 | 1985 | Long Beach State | 320 | 12 | 6 | 6 | 0 | .500 | 320 | 307 | 13
-189 | 1983 | Arizona State | 320 | 11 | 6 | 4 | 1 | .591 | 320 | 200 | 120
-190 | 1989 | USC | 319 | 11 | 9 | 2 | 1 | .792 | 319 | 122 | 197
-191 | 1986 | Ohio State | 319 | 12 | 10 | 3 | 0 | .769 | 319 | 167 | 152
-192 | 1988 | Syracuse | 318 | 11 | 10 | 2 | 0 | .833 | 318 | 179 | 139
-193 | 1985 | UCLA | 318 | 11 | 9 | 2 | 1 | .792 | 318 | 186 | 132
-194 | 1986 | New Mexico | 317 | 12 | 4 | 8 | 0 | .333 | 317 | 338 | -21
-195 | 1984 | Washington State | 317 | 11 | 6 | 5 | 0 | .545 | 317 | 319 | -2
-196 | 1982 | Alabama | 317 | 11 | 8 | 4 | 0 | .667 | 317 | 201 | 116
-197 | 1989 | Army | 316 | 11 | 6 | 5 | 0 | .545 | 316 | 212 | 104
-198 | 1988 | San Jose State | 316 | 12 | 4 | 8 | 0 | .333 | 316 | 334 | -18
-199 | 1981 | Clemson | 316 | 11 | 12 | 0 | 0 | 1.000 | 316 | 90 | 226
-200 | 1981 | McNeese State | 316 | 11 | 7 | 3 | 1 | .682 | 316 | 197 | 119
+header_empty_0 | header_def_int | header_empty_2 | ranker | name_display | def_int | year_id | teams_played_for | games | def_int | def_int_yds | def_int_td | pass_defended | pos | class
+ |  |  | 1 | Terrell Buckley | 12 | 1991 | Florida State | 12 | 12 | 238 | 2 |  | DB | 
+ |  |  | 2 | Dre Bly | 11 | 1996 | North Carolina | 11 | 11 | 141 | 1 |  | DB | 
+ |  |  | 3 | Aaron Beasley | 10 | 1994 | West Virginia | 12 | 10 | 133 | 2 |  | DB | 
+ |  |  | 4 | Carlton Gray | 10 | 1991 | UCLA | 11 | 10 | 119 | 1 |  | DB | 
+ |  |  | 5 | Deltha O'Neal | 9 | 1999 | California | 11 | 9 | 280 | 4 |  | DB | 
+ |  |  | 6 | Deon Grant | 9 | 1999 | Tennessee | 11 | 9 | 167 | 1 |  | DB | 
+ |  |  | 7 | Orlanda Thomas | 9 | 1993 | Louisiana | 11 | 9 | 84 | 0 |  | DB | 
+ |  |  | 8 | Rodregis Brooks | 9 | 1999 | UAB | 11 | 9 | 152 | 1 |  | DB | 
+ |  |  | 9 | Willie Clay | 9 | 1991 | Georgia Tech | 12 | 9 | 66 | 1 |  | DB | 
+ |  |  | 10 | Brian Lee | 8 | 1996 | Wyoming | 12 | 8 | 68 | 0 |  | DB | 
+ |  |  | 11 | Brian Lee | 8 | 1997 | Wyoming | 11 | 8 | 103 | 1 |  |  | 
+ |  |  | 12 | Brian Robinson | 8 | 1994 | Auburn | 11 | 8 | 140 | 1 |  | DB | 
+ |  |  | 13 | Carlton Mcdonald | 8 | 1992 | Air Force | 11 | 8 | 109 | 1 |  | DB | 
+ |  |  | 14 | Chris Canty | 8 | 1995 | Kansas State | 11 | 8 | 117 | 2 |  | DB | 
+ |  |  | 15 | Jerry Parks | 8 | 1990 | Houston | 11 | 8 | 174 | 0 |  | DB | 
+ |  |  | 16 | Ray Buchanan | 8 | 1991 | Louisville | 11 | 8 | 89 | 0 |  | DB | 
+ |  |  | 17 | Ronde Barber | 8 | 1994 | Virginia | 11 | 8 | 56 | 0 |  | DB | 
+ |  |  | 18 | Sean Andrews | 8 | 1995 | Navy | 11 | 8 | 30 | 0 |  | DB | 
+ |  |  | 19 | Tracy Saul | 8 | 1991 | Texas Tech | 11 | 8 | 79 | 0 |  | DB | 
+ |  |  | 20 | Willie Smith | 8 | 1995 | Louisiana Tech | 10 | 8 | 65 | 0 |  | DB | 
+ |  |  | 21 | Alundis Brice | 7 | 1993 | Ole Miss | 11 | 7 | 98 | 2 |  | DB | 
+ |  |  | 22 | Alundis Brice | 7 | 1994 | Ole Miss | 11 | 7 | 29 | 0 |  | DB | 
+ |  |  | 23 | Anthony Bridges | 7 | 1993 | Louisville | 11 | 7 | 184 | 2 |  | DB | 
+ |  |  | 24 | Antonio Langham | 7 | 1993 | Alabama | 11 | 7 | 67 | 1 |  | DB | 
+ |  |  | 25 | Cedric Donaldson | 7 | 1997 | LSU | 11 | 7 | 192 | 2 |  | DB | 
+ |  |  | 26 | Charles Woodson | 7 | 1997 | Michigan | 11 | 7 | 7 | 0 |  | DB | 
+ |  |  | 27 | Chris Owens | 7 | 1992 | Akron | 11 | 7 | 49 | 0 |  | DB | 
+ |  |  | 28 | C.J. Masters | 7 | 1992 | Kansas State | 11 | 7 | 152 | 2 |  | DB | 
+ |  |  | 29 | Corey Sawyer | 7 | 1992 | Florida State | 11 | 7 | 0 | 0 |  | DB | 
+ |  |  | 30 | Darren Perry | 7 | 1990 | Penn State | 11 | 7 | 125 | 1 |  | DB | 
+ |  |  | 31 | Darryl Lewis | 7 | 1990 | Arizona | 11 | 7 | 192 | 2 |  | DB | 
+ |  |  | 32 | Demetrice Martin | 7 | 1994 | Michigan State | 11 | 7 | 41 | 0 |  | DB | 
+ |  |  | 33 | Donovin Darius | 7 | 1997 | Syracuse | 12 | 7 | 56 | 0 |  |  | 
+ |  |  | 34 | Greg Evans | 7 | 1992 | Texas Christian | 11 | 7 | 121 | 0 |  | DB | 
+ |  |  | 35 | Jamar Fletcher | 7 | 1999 | Wisconsin | 11 | 7 | 135 | 2 |  | DB | 
+ |  |  | 36 | Joe Bair | 7 | 1992 | Bowling Green | 11 | 7 | 51 | 0 |  | DB | 
+ |  |  | 37 | John Noel | 7 | 1997 | Louisiana Tech | 11 | 7 | 93 | 0 |  | DB | 
+ |  |  | 38 | Kevin Jackson | 7 | 1996 | Alabama | 12 | 7 | 44 | 1 |  | DB | 
+ |  |  | 39 | Kevin Smith | 7 | 1990 | Texas A&M | 12 | 7 | 149 | 2 |  | DB | 
+ |  |  | 40 | Kim Herring | 7 | 1996 | Penn State | 12 | 7 | 64 | 0 |  | DB | 
+ |  |  | 41 | Lloyd Harrison | 7 | 1998 | North Carolina State | 11 | 7 | 51 | 0 |  | DB | 
+ |  |  | 42 | Mike James | 7 | 1999 | Houston | 11 | 7 | 69 | 1 |  | DB | 
+ |  |  | 43 | Mike Welch | 7 | 1990 | Baylor | 11 | 7 | 80 | 0 |  | DB | 
+ |  |  | 44 | Omarr Smith | 7 | 1997 | San Jose State | 11 | 7 | 80 | 0 |  | DB | 
+ |  |  | 45 | Ozzie Jackson | 7 | 1990 | Akron | 11 | 7 | 50 | 0 |  | DB | 
+ |  |  | 46 | Pat Dennis | 7 | 1998 | Louisiana-Monroe | 11 | 7 | 196 | 2 |  | DB | 
+ |  |  | 47 | Quincy LeJay | 7 | 1999 | Hawaii | 12 | 7 | 151 | 3 |  | DB | 
+ |  |  | 48 | Richard Palmer | 7 | 1991 | Eastern Michigan | 11 | 7 | 219 | 1 |  | DB | 
+ |  |  | 49 | Ron Carpenter | 7 | 1990 | Miami (OH) | 11 | 7 | 164 | 1 |  | DB | 
+ |  |  | 50 | Ron Carpenter | 7 | 1991 | Miami (OH) | 11 | 7 | 197 | 1 |  | DB | 
+ |  |  | 51 | Ron Edwards | 7 | 1991 | Utah State | 11 | 7 | 146 | 2 |  | DB | 
+ |  |  | 52 | Sam Madison | 7 | 1995 | Louisville | 11 | 7 | 136 | 0 |  | DB | 
+ |  |  | 53 | Samari Rolle | 7 | 1997 | Florida State | 11 | 7 | 32 | 0 |  | DB | 
+ |  |  | 54 | Shawn Vincent | 7 | 1990 | Akron | 11 | 7 | 191 | 0 |  | DB | 
+ |  |  | 55 | Tevell Jones | 7 | 1997 | Ohio | 11 | 7 | 36 | 0 |  | DB | 
+ |  |  | 56 | Troy Jensen | 7 | 1993 | San Jose State | 11 | 7 | 60 | 0 |  | DB | 
+ |  |  | 57 | Tyronne Drakeford | 7 | 1992 | Virginia Tech | 11 | 7 | 121 | 1 |  | DB | 
+ |  |  | 58 | Walter Bailey | 7 | 1991 | Washington | 11 | 7 | 114 | 2 |  | DB | 
+ |  |  | 59 | Will White | 7 | 1990 | Florida | 10 | 7 | 116 | 0 |  | DB | 
+ |  |  | 60 | Willie Lindsey | 7 | 1991 | Northwestern | 11 | 7 | 52 | 0 |  | DB | 
+ |  |  | 61 | Aaron Glenn | 6 | 1992 | Texas A&M | 12 | 6 | 99 | 1 |  | DB | 
+ |  |  | 62 | Andre Dyson | 6 | 1999 | Utah | 11 | 6 | 57 | 1 |  | DB | 
+ |  |  | 63 | Andreal Johnson | 6 | 1995 | Maryland | 11 | 6 | 46 | 0 |  | DB | 
+ |  |  | 64 | Anthony Vontoure | 6 | 1999 | Washington | 9 | 6 | 99 | 2 |  | DB | 
+ |  |  | 65 | Antonio Langham | 6 | 1992 | Alabama | 12 | 6 | 114 | 2 |  | DB | 
+ |  |  | 66 | Arturo Freeman | 6 | 1997 | South Carolina | 11 | 6 | 95 | 1 |  | DB | 
+ |  |  | 67 | Bart Thomas | 6 | 1994 | Texas Tech | 11 | 6 | 91 | 0 |  | RB | 
+ |  |  | 68 | Bob Grosvenor | 6 | 1992 | Syracuse | 11 | 6 | 38 | 0 |  | DB | 
+ |  |  | 69 | Brian Dawkins | 6 | 1995 | Clemson | 11 | 6 | 55 | 1 |  | DB | 
+ |  |  | 70 | Brian Watkins | 6 | 1994 | Air Force | 11 | 6 | 28 | 0 |  | DB | 
+ |  |  | 71 | Carlos Yancy | 6 | 1994 | Georgia | 11 | 6 | 154 | 1 |  | DB | 
+ |  |  | 72 | Carlton Mcdonald | 6 | 1991 | Air Force | 12 | 6 | 76 | 1 |  | DB | 
+ |  |  | 73 | Cary Brabham | 6 | 1992 | SMU | 11 | 6 | 30 | 0 |  | DB | 
+ |  |  | 74 | Chappell Mitchell | 6 | 1998 | Arkansas State | 12 | 6 | 41 | 0 |  | DB | 
+ |  |  | 75 | Charlie Brennan | 6 | 1992 | Boston College | 11 | 6 | 88 | 0 |  | DB | 
+ |  |  | 76 | Chris Carter | 6 | 1995 | Texas | 12 | 6 | 146 | 0 |  | DB | 
+ |  |  | 77 | Chris Claiborne | 6 | 1998 | USC | 12 | 6 | 159 | 2 |  | LB | 
+ |  |  | 78 | Chris McAlister | 6 | 1996 | Arizona | 11 | 6 | 103 | 1 |  | DB | 
+ |  |  | 79 | Corey Sampson | 6 | 1995 | Louisiana-Monroe | 11 | 6 | 22 | 0 |  | DB | 
+ |  |  | 80 | Corey Sawyer | 6 | 1993 | Florida State | 12 | 6 | 90 | 0 |  | DB | 
+ |  |  | 81 | Craig Dues | 6 | 1995 | Toledo | 11 | 6 | 39 | 1 |  | LB | 
+ |  |  | 82 | Damien Robinson | 6 | 1996 | Iowa | 11 | 6 | 99 | 0 |  | DB | 
+ |  |  | 83 | Danny Derricott | 6 | 1998 | Marshall | 12 | 6 | 118 | 0 |  | DB | 
+ |  |  | 84 | Darnell Hasson | 6 | 1996 | Nevada | 11 | 6 | 25 | 1 |  | DB | 
+ |  |  | 85 | Darren Perry | 6 | 1991 | Penn State | 12 | 6 | 122 | 2 |  | DB | 
+ |  |  | 86 | Darrius Watson | 6 | 1991 | Cal State Fullerton | 10 | 6 | 17 | 0 |  | DB | 
+ |  |  | 87 | Daryle Smith | 6 | 1990 | Oregon | 11 | 6 | 13 | 0 |  | DB | 
+ |  |  | 88 | Dave Bielinski | 6 | 1990 | Bowling Green | 10 | 6 | 63 | 0 |  | DB | 
+ |  |  | 89 | David Macklin | 6 | 1998 | Penn State | 11 | 6 | 120 | 1 |  | DB | 
+ |  |  | 90 | David Thomas | 6 | 1993 | Miami (OH) | 11 | 6 | 63 | 0 |  | DB | 
+ |  |  | 91 | Delmonico Montgomery | 6 | 1996 | Houston | 11 | 6 | 87 | 0 |  | DB | 
+ |  |  | 92 | Dempsy Dees | 6 | 1999 | Boise State | 12 | 6 | 124 | 0 |  | DB | 
+ |  |  | 93 | Denorse Mosley | 6 | 1994 | Pitt | 11 | 6 | 27 | 0 |  | DB | 
+ |  |  | 94 | Deon Figures | 6 | 1992 | Colorado | 10 | 6 | 21 | 0 |  | DB | 
+ |  |  | 95 | Derwin Gray | 6 | 1990 | BYU | 12 | 6 | 57 | 1 |  | DB | 
+ |  |  | 96 | Dexter Davis | 6 | 1990 | Clemson | 11 | 6 | 32 | 1 |  | DB | 
+ |  |  | 97 | Donald Toomer | 6 | 1992 | Utah State | 11 | 6 | 21 | 0 |  | DB | 
+ |  |  | 98 | Efrain Guizar | 6 | 1997 | Fresno State | 11 | 6 | 114 | 2 |  | DB | 
+ |  |  | 99 | Emmanuel McDaniel | 6 | 1995 | East Carolina | 11 | 6 | 111 | 1 |  | DB | 
+ |  |  | 100 | Eric Briscoe | 6 | 1990 | Washington | 11 | 6 | 5 | 0 |  | DB | 
+ |  |  | 101 | Erik Olson | 6 | 1999 | Colorado State | 9 | 6 | 93 | 1 |  | DB | 
+ |  |  | 102 | Ernest Boyd | 6 | 1993 | Utah | 10 | 6 | 126 | 1 |  | DB | 
+ |  |  | 103 | Ernest Boyd | 6 | 1994 | Utah | 11 | 6 | 45 | 0 |  | DB | 
+ |  |  | 104 | Fred Weary | 6 | 1997 | Florida | 11 | 6 | 113 | 0 |  | DB | 
+ |  |  | 105 | George Teague | 6 | 1991 | Alabama | 11 | 6 | 96 | 0 |  | DB | 
+ |  |  | 106 | George Teague | 6 | 1992 | Alabama | 12 | 6 | 0 | 0 |  | DB | 
+ |  |  | 107 | Greg Grandison | 6 | 1992 | East Carolina | 11 | 6 | 104 | 0 |  | DB | 
+ |  |  | 108 | Greg Myers | 6 | 1992 | Colorado State | 11 | 6 | 51 | 0 |  | DB | 
+ |  |  | 109 | Hank Poteat | 6 | 1998 | Pitt | 11 | 6 | 53 | 0 |  | DB | 
+ |  |  | 110 | Harold Lusk | 6 | 1995 | Utah | 10 | 6 | 40 | 0 |  | DB | 
+ |  |  | 111 | Harold Lusk | 6 | 1996 | Utah | 11 | 6 | 86 | 0 |  | DB | 
+ |  |  | 112 | Herman O'Berry | 6 | 1992 | Oregon | 10 | 6 | 3 | 0 |  | DB | 
+ |  |  | 113 | Izell McGill | 6 | 1997 | Mississippi State | 11 | 6 | 94 | 0 |  | DB | 
+ |  |  | 114 | Jaime Mendez | 6 | 1990 | Kansas State | 11 | 6 | 154 | 1 |  | DB | 
+ |  |  | 115 | Jaime Mendez | 6 | 1992 | Kansas State | 11 | 6 | 121 | 0 |  | DB | 
+ |  |  | 116 | Jamal Belt | 6 | 1995 | Toledo | 11 | 6 | 12 | 0 |  | DB | 
+ |  |  | 117 | Jamar Fletcher | 6 | 1998 | Wisconsin | 9 | 6 | 99 | 2 |  | DB | 
+ |  |  | 118 | James Crockett | 6 | 1995 | Louisiana Tech | 11 | 6 | 61 | 0 |  | DB | 
+ |  |  | 119 | Jason Sehorn | 6 | 1993 | USC | 12 | 6 | 45 | 0 |  | DB | 
+ |  |  | 120 | Jason Walker | 6 | 1998 | BYU | 13 | 6 | 46 | 0 |  | DB | 
+ |  |  | 121 | Jay Hill | 6 | 1999 | Utah | 11 | 6 | 53 | 2 |  | DB | 
+ |  |  | 122 | Jeff Messenger | 6 | 1993 | Wisconsin | 11 | 6 | 41 | 0 |  | DB | 
+ |  |  | 123 | Jeremy Bunch | 6 | 1995 | Tulsa | 11 | 6 | 76 | 1 |  | DB | 
+ |  |  | 124 | Jerome Woods | 6 | 1995 | Memphis | 11 | 6 | 110 | 1 |  | DB | 
+ |  |  | 125 | Jimmy Young | 6 | 1991 | Purdue | 11 | 6 | 29 | 1 |  | DB | 
+ |  |  | 126 | Joe Crocker | 6 | 1994 | Virginia | 11 | 6 | 54 | 1 |  | DB | 
+ |  |  | 127 | Johndale Carty | 6 | 1997 | Utah State | 11 | 6 | 39 | 0 |  | DB | 
+ |  |  | 128 | Julian Jones | 6 | 1999 | Missouri | 11 | 6 | 19 | 0 |  | DB | 
+ |  |  | 129 | Kareem Leary | 6 | 1994 | Utah | 11 | 6 | 140 | 2 |  | DB | 
+ |  |  | 130 | Kenny Wilhite | 6 | 1991 | Nebraska | 11 | 6 | 60 | 0 |  | DB | 
+ |  |  | 131 | Kerry Valrie | 6 | 1990 | Southern Mississippi | 11 | 6 | 159 | 2 |  | DB | 
+ |  |  | 132 | Kevin Abrams | 6 | 1995 | Syracuse | 10 | 6 | 13 | 0 |  | DB | 
+ |  |  | 133 | Kevin Harvey | 6 | 1999 | Temple | 10 | 6 | 55 | 1 |  | RB | 
+ |  |  | 134 | Kevin Williams | 6 | 1997 | Oklahoma State | 11 | 6 | 107 | 1 |  | DB | 
+ |  |  | 135 | Kirby Smart | 6 | 1997 | Georgia | 11 | 6 | 0 | 0 |  | DB | 
+ |  |  | 136 | Kris Richard | 6 | 1999 | USC | 12 | 6 | 63 | 2 |  | DB | 
+ |  |  | 137 | Leonard Humphries | 6 | 1990 | Penn State | 11 | 6 | 129 | 1 |  | DB | 
+ |  |  | 138 | Lewis Sanders | 6 | 1999 | Maryland | 11 | 6 | 37 | 0 |  | DB | 
+ |  |  | 139 | Marcus Jenkins | 6 | 1993 | Kentucky | 11 | 6 | 45 | 0 |  | DB | 
+ |  |  | 140 | Mario Edwards | 6 | 1998 | Florida State | 12 | 6 | 109 | 0 |  | DB | 
+ |  |  | 141 | Marvin Goodwin | 6 | 1993 | UCLA | 11 | 6 | 136 | 0 |  | DB | 
+ |  |  | 142 | Michael McFarland | 6 | 1991 | Baylor | 11 | 6 | 15 | 0 |  | DB | 
+ |  |  | 143 | Myron Terry | 6 | 1997 | Colorado State | 12 | 6 | 81 | 1 |  | DB | 
+ |  |  | 144 | Nathan Bennett | 6 | 1993 | Rice | 11 | 6 | 123 | 1 |  | DB | 
+ |  |  | 145 | Orlanda Thomas | 6 | 1994 | Louisiana | 11 | 6 | 25 | 0 |  | DB | 
+ |  |  | 146 | Orlando Watters | 6 | 1993 | Arkansas | 11 | 6 | 185 | 2 |  | DB | 
+ |  |  | 147 | Patrick Surtain | 6 | 1996 | Southern Mississippi | 11 | 6 | 77 | 0 |  | DB | 
+ |  |  | 148 | Patrick Surtain | 6 | 1997 | Southern Mississippi | 11 | 6 | 127 | 0 |  |  | 
+ |  |  | 149 | Paul London | 6 | 1995 | Virginia | 12 | 6 | 20 | 0 |  | DB | 
+ |  |  | 150 | Percy Ellsworth | 6 | 1995 | Virginia | 12 | 6 | 21 | 0 |  | DB | 
+ |  |  | 151 | Perlo Bastien | 6 | 1999 | West Virginia | 11 | 6 | 62 | 0 |  | DB | 
+ |  |  | 152 | Plez Atkins | 6 | 1995 | Iowa | 10 | 6 | 97 | 2 |  | DB | 
+ |  |  | 153 | Ramos McDonald | 6 | 1996 | New Mexico | 11 | 6 | 78 | 1 |  | DB | 
+ |  |  | 154 | Ray Jackson | 6 | 1994 | Colorado State | 11 | 6 | 71 | 0 |  | DB | 
+ |  |  | 155 | Ricky Parker | 6 | 1995 | San Diego State | 12 | 6 | 199 | 1 |  | DB | 
+ |  |  | 156 | Rico Wesley | 6 | 1992 | Texas Christian | 11 | 6 | 125 | 0 |  | DB | 
+ |  |  | 157 | Rob Clifford | 6 | 1995 | Boston College | 12 | 6 | 28 | 0 |  | DB | 
+ |  |  | 158 | Robert Carswell | 6 | 1999 | Clemson | 11 | 6 | 72 | 0 |  | DB | 
+ |  |  | 159 | Sam Garnes | 6 | 1995 | Cincinnati | 11 | 6 | 101 | 0 |  | DB | 
+ |  |  | 160 | Sam Madison | 6 | 1996 | Louisville | 11 | 6 | 50 | 1 |  | DB | 
+ |  |  | 161 | Scott Harmon | 6 | 1991 | Oklahoma State | 11 | 6 | 90 | 0 |  | DB | 
+ |  |  | 162 | Selwyn Jones | 6 | 1990 | Colorado State | 12 | 6 | 30 | 0 |  | DB | 
+ |  |  | 163 | Stephen Harris | 6 | 1992 | Houston | 10 | 6 | 53 | 0 |  | DB | 
+ |  |  | 164 | Steve Israel | 6 | 1991 | Pitt | 11 | 6 | 127 | 1 |  | DB | 
+ |  |  | 165 | Teako Brown | 6 | 1997 | Florida | 11 | 6 | 81 | 0 |  | DB | 
+ |  |  | 166 | Terrell Buckley | 6 | 1990 | Florida State | 11 | 6 | 219 | 2 |  | DB | 
+ |  |  | 167 | Terry Reed | 6 | 1997 | Eastern Michigan | 11 | 6 | 57 | 0 |  | DB | 
+ |  |  | 168 | Terryl Ulmer | 6 | 1992 | Southern Mississippi | 11 | 6 | 132 | 0 |  | DB | 
+ |  |  | 169 | Tim James | 6 | 1990 | Colorado | 12 | 6 | 57 | 0 |  | DB | 
+ |  |  | 170 | Tim Smith | 6 | 1998 | Stanford | 11 | 6 | 69 | 0 |  | DB | 
+ |  |  | 171 | Tim Smith | 6 | 1999 | Stanford | 11 | 6 | 86 | 0 |  | DB | 
+ |  |  | 172 | Tony Bouie | 6 | 1993 | Arizona | 11 | 6 | 100 | 0 |  | DB | 
+ |  |  | 173 | Tony Pang-Kee | 6 | 1990 | Hawaii | 12 | 6 | 67 | 0 |  | DB | 
+ |  |  | 174 | Victor Green | 6 | 1992 | Akron | 11 | 6 | 69 | 1 |  | DB | 
+ |  |  | 175 | Vinnie Clark | 6 | 1990 | Ohio State | 11 | 6 | 13 | 0 |  | DB | 
+ |  |  | 176 | Wade Perkins | 6 | 1998 | Missouri | 11 | 6 | 129 | 1 |  | DB | 
+ |  |  | 177 | Walt Harris | 6 | 1993 | Mississippi State | 11 | 6 | 59 | 0 |  | DB | 
+ |  |  | 178 | Walt Harris | 6 | 1994 | Mississippi State | 11 | 6 | 41 | 1 |  | DB | 
+ |  |  | 179 | Aaron Beasley | 5 | 1995 | West Virginia | 11 | 5 | 171 | 1 |  | DB | 
+ |  |  | 180 | Adam Brass | 5 | 1991 | Arizona State | 11 | 5 | 23 | 0 |  | DB | 
+ |  |  | 181 | Adrian Beasley | 5 | 1999 | Purdue | 11 | 5 | 169 | 0 |  | DB | 
+ |  |  | 182 | Ahmed Plummer | 5 | 1999 | Ohio State | 12 | 5 | 64 | 0 |  | DB | 
+ |  |  | 183 | Al Johnson | 5 | 1990 | Arkansas State | 11 | 5 | 153 | 1 |  | DB | 
+ |  |  | 184 | Alex Ardley | 5 | 1999 | Clemson | 11 | 5 | 64 | 0 |  | DB | 
+ |  |  | 185 | Amp Campbell | 5 | 1997 | Michigan State | 11 | 5 | 47 | 1 |  | DB | 
+ |  |  | 186 | Andrew Swasey | 5 | 1993 | Baylor | 11 | 5 | 33 | 0 |  | DB | 
+ |  |  | 187 | Anthony Marshall | 5 | 1993 | LSU | 11 | 5 | 7 | 0 |  | DB | 
+ |  |  | 188 | Anthony Wajda | 5 | 1999 | Kentucky | 11 | 5 | 98 | 1 |  | DB | 
+ |  |  | 189 | Antonio Langham | 5 | 1991 | Alabama | 11 | 5 | 15 | 0 |  | DB | 
+ |  |  | 190 | Armon Hatcher | 5 | 1998 | Oregon State | 11 | 5 | 60 | 0 |  | DB | 
+ |  |  | 191 | Barron Miles | 5 | 1994 | Nebraska | 12 | 5 | 35 | 0 |  | DB | 
+ |  |  | 192 | Ben Kelly | 5 | 1999 | Colorado | 11 | 5 | 49 | 0 |  | DB | 
+ |  |  | 193 | Bennie Alexander | 5 | 1999 | Florida | 12 | 5 | 116 | 2 |  | DB | 
+ |  |  | 194 | Bill Yancey | 5 | 1990 | Navy | 11 | 5 | 40 | 0 |  | DB | 
+ |  |  | 195 | Bop White | 5 | 1999 | Ohio | 11 | 5 | 39 | 0 |  | DB | 
+ |  |  | 196 | Brian Miller | 5 | 1995 | Penn State | 11 | 5 | 28 | 0 |  | DB | 
+ |  |  | 197 | Brian Robinson | 5 | 1993 | Auburn | 11 | 5 | 131 | 2 |  | DB | 
+ |  |  | 198 | Brock Marion | 5 | 1992 | Nevada | 11 | 5 | 2 | 0 |  | DB | 
+ |  |  | 199 | Carlos Brooks | 5 | 1990 | Bowling Green | 10 | 5 | 20 | 0 |  | DB | 
+ |  |  | 200 | Carlos Jones | 5 | 1994 | Miami (FL) | 11 | 5 | 60 | 1 |  | DB | 
 ```
 
 ## Claim check

@@ -1,8 +1,8 @@
-# SCFB478 — College Football 1980s t:pts_low
+# SCFB478 — College Football 1990s p:sack_int
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1980&year_max=1989&order_by=points&order_by_asc=1&ccomp[1]=gt&cval[1]=7&cstat[1]=games&ccomp[2]=lt&cval[2]=20&cstat[2]=points
-- Timestamp: 2026-09-28T06:55:31.383Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&order_by=sacks&order_by_asc=0&ccomp[1]=gt&cval[1]=5&cstat[1]=sacks&ccomp[2]=gt&cval[2]=3&cstat[2]=def_int
+- Timestamp: 2026-09-28T08:38:49.168Z
 - Rows read: 0
 
 ## Result table

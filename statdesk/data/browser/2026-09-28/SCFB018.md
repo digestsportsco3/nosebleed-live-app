@@ -1,18 +1,16 @@
-# SCFB018 — College Football 1860s t:tx_loss
+# SCFB018 — College Football 1950s p:dint_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1869&year_max=1869&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=losses
-- Timestamp: 2026-09-28T06:24:37.412Z
-- Rows read: 2
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1959&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=10&cstat[1]=def_int
+- Timestamp: 2026-09-28T08:08:00.313Z
+- Rows read: 0
 
 ## Result table
 
 ```
-ranker | year_id | team_name_abbr | losses | games | wins | losses | ties | win_loss_pct | points | points_opp | points_diff
-1 | 1869 | Princeton | 1 | 2 | 1 | 1 | 0 | .500 | 12 | 6 | 6
-2 | 1869 | Rutgers | 1 | 2 | 1 | 1 | 0 | .500 | 6 | 12 | -6
+
 ```
 
 ## Claim check
 
-- Complete set: all 2 rows read. A superlative may be asserted only if it holds across every row above.
+- ZERO MATCHES. Stathead returned no rows for these filters, which is a real answer: nobody qualifies. Safe to say the rule found nobody; not safe to infer anything else.

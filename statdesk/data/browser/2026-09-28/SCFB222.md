@@ -1,8 +1,8 @@
-# SCFB222 — College Football 1950s p:t_dint
+# SCFB222 — College Football 1970s p:fgm_hi
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season_combined&year_min=1956&year_max=1959&order_by=def_int&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=def_int
-- Timestamp: 2026-09-28T06:38:19.260Z
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=fgm&order_by_asc=0&ccomp[1]=gt&cval[1]=25&cstat[1]=fgm
+- Timestamp: 2026-09-28T08:21:41.214Z
 - Rows read: 0
 
 ## Result table

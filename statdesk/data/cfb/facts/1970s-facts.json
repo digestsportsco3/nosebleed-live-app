@@ -2,8 +2,8 @@
  "sport": "College Football",
  "decade": "1970s",
  "source": "Stathead",
- "queries": 83,
- "candidates": 65,
+ "queries": 111,
+ "candidates": 84,
  "facts": [
   {
    "n": 1,
@@ -101,7 +101,7 @@
    "seasons": [
     1978
    ],
-   "text": "The only major-college player of the 1970s to gain 1,000 kick and punt return yards: D.K. Perry, 1978 — 1,000 return yds.",
+   "text": "The only major-college player of the 1970s to gain 1,000 return yards on kicks and punts: D.K. Perry, 1978 — 1,000 return yds.",
    "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Return yards give special teams players rare credit."
   },
   {
@@ -272,6 +272,144 @@
   },
   {
    "n": 5,
+   "rule": "p:grind",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=rush_att&order_by_asc=0&ccomp[1]=gt&cval[1]=300&cstat[1]=rush_att&ccomp[2]=lt&cval[2]=4&cstat[2]=rush_yds_per_att"
+   },
+   "evidence": [
+    {
+     "id": "gary-kosins-1",
+     "name": "Gary Kosins",
+     "season": 1970,
+     "team": "Dayton",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 1,
+     "name_display": "Gary Kosins",
+     "rush_att": 344,
+     "rush_yds_per_att": 3.4,
+     "year_id": 1970,
+     "teams_played_for": "Dayton",
+     "games": 10,
+     "rush_yds": 1172,
+     "rush_td": 18,
+     "rush_yds_per_g": 117.2,
+     "class": ""
+    },
+    {
+     "id": "carlester-crumpler-2",
+     "name": "Carlester Crumpler",
+     "season": 1972,
+     "team": "East Carolina",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 2,
+     "name_display": "Carlester Crumpler",
+     "rush_att": 340,
+     "rush_yds_per_att": 3.9,
+     "year_id": 1972,
+     "teams_played_for": "East Carolina",
+     "games": 11,
+     "rush_yds": 1309,
+     "rush_td": 17,
+     "rush_yds_per_g": 119,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": "gary-kosins-1",
+     "name": "Gary Kosins"
+    },
+    {
+     "id": "carlester-crumpler-2",
+     "name": "Carlester Crumpler"
+    }
+   ],
+   "seasons": [
+    1970,
+    1972
+   ],
+   "text": "Only two major-college players of the 1970s carried 300 times at 4.0 yards a carry or less: Gary Kosins (1970: 344 carries, 3.4 ypc); Carlester Crumpler (1972: 340 carries, 3.9 ypc).",
+   "why": "Two names invite the \"whose season was better?\" argument. A thousand yards the hard way; debate bait about volume vs. efficiency."
+  },
+  {
+   "n": 6,
+   "rule": "p:int_yds",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=def_int_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=def_int_yds"
+   },
+   "evidence": [
+    {
+     "id": "ron-irving-1",
+     "name": "Ron Irving",
+     "season": 1977,
+     "team": "Louisiana",
+     "pos": "DB",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 1,
+     "name_display": "Ron Irving",
+     "def_int_yds": 227,
+     "year_id": 1977,
+     "teams_played_for": "Louisiana",
+     "games": 12,
+     "def_int": 6,
+     "def_int_td": 2,
+     "pass_defended": "",
+     "class": ""
+    },
+    {
+     "id": "anthony-washington-2",
+     "name": "Anthony Washington",
+     "season": 1978,
+     "team": "California",
+     "pos": "DB",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 2,
+     "name_display": "Anthony Washington",
+     "def_int_yds": 224,
+     "year_id": 1978,
+     "teams_played_for": "California",
+     "games": 11,
+     "def_int": 6,
+     "def_int_td": 2,
+     "pass_defended": "",
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": "ron-irving-1",
+     "name": "Ron Irving"
+    },
+    {
+     "id": "anthony-washington-2",
+     "name": "Anthony Washington"
+    }
+   ],
+   "seasons": [
+    1977,
+    1978
+   ],
+   "text": "Only two major-college players of the 1970s returned interceptions for 200 yards: Ron Irving (1977: 227 return yds, 6 INT); Anthony Washington (1978: 224 return yds, 6 INT).",
+   "why": "A two-player club is a ready-made debate. Interception return yards show the playmakers, not just the catchers."
+  },
+  {
+   "n": 7,
    "rule": "p:td_hi",
    "group": "P",
    "decade": "1970s",
@@ -325,7 +463,7 @@
    "why": "A club of one in the 1970s; \"name another\" posts draw replies. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 6,
+   "n": 8,
    "rule": "p:rec_hi",
    "group": "P",
    "decade": "1970s",
@@ -395,7 +533,75 @@
    "why": "A two-player club is a ready-made debate. Catch totals put possession receivers in the spotlight."
   },
   {
-   "n": 7,
+   "n": 9,
+   "rule": "t:opp_low",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=points_opp&order_by_asc=1&ccomp[1]=gt&cval[1]=12&cstat[1]=games&ccomp[2]=lt&cval[2]=150&cstat[2]=points_opp"
+   },
+   "evidence": [
+    {
+     "id": "Nebraska",
+     "name": "Nebraska",
+     "season": 1971,
+     "team": "Nebraska",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 1,
+     "year_id": 1971,
+     "team_name_abbr": "Nebraska",
+     "points_opp": 98,
+     "games": 12,
+     "wins": 13,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 469,
+     "points_diff": 371
+    },
+    {
+     "id": "USC",
+     "name": "USC",
+     "season": 1978,
+     "team": "USC",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 2,
+     "year_id": 1978,
+     "team_name_abbr": "USC",
+     "points_opp": 143,
+     "games": 12,
+     "wins": 12,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.923,
+     "points": 301,
+     "points_diff": 158
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 10.45,
+   "players": [
+    {
+     "id": "Nebraska",
+     "name": "Nebraska"
+    },
+    {
+     "id": "USC",
+     "name": "USC"
+    }
+   ],
+   "seasons": [
+    1971,
+    1978
+   ],
+   "text": "Only two major-college teams of the 1970s allowed 150 or fewer points in 12+ games: Nebraska (1971: 98 allowed in 12 games); USC (1978: 143 allowed in 12 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Defensive dominance measured the simplest way possible."
+  },
+  {
+   "n": 10,
    "rule": "p:rectd_hi",
    "group": "P",
    "decade": "1970s",
@@ -437,10 +643,98 @@
     1970
    ],
    "text": "The only major-college player of the 1970s to catch 15 touchdown passes: Ernie Jennings, 1970 — 17 rec TD.",
-   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Touchdown catches are the red-zone threat stat."
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Touchdown catches are the red-zone threat stat."
   },
   {
-   "n": 8,
+   "n": 11,
+   "rule": "t:wins13",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=13&cstat[1]=wins"
+   },
+   "evidence": [
+    {
+     "id": "Nebraska",
+     "name": "Nebraska",
+     "season": 1971,
+     "team": "Nebraska",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 1,
+     "year_id": 1971,
+     "team_name_abbr": "Nebraska",
+     "wins": 13,
+     "games": 12,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 469,
+     "points_opp": 98,
+     "points_diff": 371
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.325,
+   "players": [
+    {
+     "id": "Nebraska",
+     "name": "Nebraska"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "The only major-college team of the 1970s to win 13 games: Nebraska, 1971 — 13-0.",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Win totals are the first thing fans cite for a program's golden age."
+  },
+  {
+   "n": 12,
+   "rule": "p:fumrec",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=fumbles_rec&order_by_asc=0&ccomp[1]=gt&cval[1]=5&cstat[1]=fumbles_rec"
+   },
+   "evidence": [
+    {
+     "id": "joe-norman-1",
+     "name": "Joe Norman",
+     "season": 1977,
+     "team": "Indiana",
+     "pos": "LB",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 1,
+     "name_display": "Joe Norman",
+     "fumbles_rec": 5,
+     "year_id": 1977,
+     "teams_played_for": "Indiana",
+     "games": 11,
+     "fumbles_rec_yds": "",
+     "fumbles_rec_td": "",
+     "fumbles_forced": "",
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.125,
+   "players": [
+    {
+     "id": "joe-norman-1",
+     "name": "Joe Norman"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "The only major-college player of the 1970s to recover 5 fumbles: Joe Norman, 1977 — 5 recoveries.",
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Fumble recoveries reward being around the ball."
+  },
+  {
+   "n": 13,
    "rule": "p:ry_hi",
    "group": "P",
    "decade": "1970s",
@@ -557,10 +851,10 @@
     1979
    ],
    "text": "Just four major-college players of the 1970s rushed for 1,800 yards: Tony Dorsett (1976: 1,948 yds); Ed Marinaro (1971: 1,881 yds); Ricky Bell (1975: 1,875 yds); Charles White (1979: 1,803 yds).",
-   "why": "Few enough to name them all, so readers tag the ones they remember. Workhorse-back seasons are nostalgia content for a position that changed."
+   "why": "A short list fans can recite; each name brings its own fan base. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
-   "n": 9,
+   "n": 14,
    "rule": "p:pts_hi",
    "group": "P",
    "decade": "1970s",
@@ -667,10 +961,105 @@
     1975
    ],
    "text": "Just three major-college players of the 1970s scored 150 points: Lydell Mitchell (1971: 174 pts); Terry Metcalf (1971: 174 pts); Pete Johnson (1975: 156 pts).",
-   "why": "A short list fans can recite; each name brings its own fan base. Scoring totals are universal; no explanation needed."
+   "why": "Few enough to name them all, so readers tag the ones they remember. Scoring totals are universal; no explanation needed."
   },
   {
-   "n": 10,
+   "n": 15,
+   "rule": "p:touches",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=touches&order_by_asc=0&ccomp[1]=gt&cval[1]=350&cstat[1]=touches"
+   },
+   "evidence": [
+    {
+     "id": "charles-white-1",
+     "name": "Charles White",
+     "season": 1978,
+     "team": "USC",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 1,
+     "name_display": "Charles White",
+     "touches": 362,
+     "year_id": 1978,
+     "teams_played_for": "USC",
+     "games": 12,
+     "total_offense": 1755,
+     "yds_from_scrimmage": 1951,
+     "all_purpose_yds": 2096,
+     "ret_yds": 145,
+     "class": ""
+    },
+    {
+     "id": "ed-marinaro-1",
+     "name": "Ed Marinaro",
+     "season": 1971,
+     "team": "Cornell",
+     "pos": "",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 2,
+     "name_display": "Ed Marinaro",
+     "touches": 362,
+     "year_id": 1971,
+     "teams_played_for": "Cornell",
+     "games": 9,
+     "total_offense": 1881,
+     "yds_from_scrimmage": 1932,
+     "all_purpose_yds": 1932,
+     "ret_yds": "",
+     "class": ""
+    },
+    {
+     "id": "ricky-bell-1",
+     "name": "Ricky Bell",
+     "season": 1975,
+     "team": "USC",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1975",
+     "ranker": 3,
+     "name_display": "Ricky Bell",
+     "touches": 360,
+     "year_id": 1975,
+     "teams_played_for": "USC",
+     "games": 11,
+     "total_offense": 1875,
+     "yds_from_scrimmage": 1899,
+     "all_purpose_yds": 1899,
+     "ret_yds": "",
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": "charles-white-1",
+     "name": "Charles White"
+    },
+    {
+     "id": "ed-marinaro-1",
+     "name": "Ed Marinaro"
+    },
+    {
+     "id": "ricky-bell-1",
+     "name": "Ricky Bell"
+    }
+   ],
+   "seasons": [
+    1978,
+    1971,
+    1975
+   ],
+   "text": "Just three major-college players of the 1970s touch the ball 350 times: Charles White (1978: 362 touches); Ed Marinaro (1971: 362 touches); Ricky Bell (1975: 360 touches).",
+   "why": "A short list fans can recite; each name brings its own fan base. Carries show a workload that barely exists anymore."
+  },
+  {
+   "n": 16,
    "rule": "t:diff_hi",
    "group": "P",
    "decade": "1970s",
@@ -782,7 +1171,7 @@
    "why": "Few enough to name them all, so readers tag the ones they remember. Margin of victory is the cleanest measure of dominance."
   },
   {
-   "n": 11,
+   "n": 17,
    "rule": "t:opp_hi",
    "group": "P",
    "decade": "1970s",
@@ -918,7 +1307,7 @@
    "why": "A short list fans can recite; each name brings its own fan base. Porous defenses make for rival-fan dunking."
   },
   {
-   "n": 12,
+   "n": 18,
    "rule": "p:ypr_hi",
    "group": "P",
    "decade": "1970s",
@@ -988,7 +1377,95 @@
    "why": "A two-player club is a ready-made debate. Yards per catch marks the true deep threats."
   },
   {
-   "n": 13,
+   "n": 19,
+   "rule": "p:td_pct",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=pass_td_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=pass_att&ccomp[2]=gt&cval[2]=10&cstat[2]=pass_td_pct"
+   },
+   "evidence": [
+    {
+     "id": "doug-williams-2",
+     "name": "Doug Williams",
+     "season": 1977,
+     "team": "Grambling State",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 1,
+     "name_display": "Doug Williams",
+     "pass_td_pct": 10.8,
+     "pass_att": 352,
+     "year_id": 1977,
+     "teams_played_for": "Grambling State",
+     "games": 11,
+     "pass_cmp": 181,
+     "pass_inc": 171,
+     "pass_cmp_pct": 51.4,
+     "pass_yds": 3286,
+     "pass_td": 38,
+     "pass_int": 18,
+     "pass_int_pct": 5.1,
+     "pass_rating": 155.2,
+     "pass_yds_per_att": 9.3,
+     "pass_adj_yds_per_att": 9.19,
+     "pass_yds_per_cmp": 18.2,
+     "pass_yds_per_g": 298.7,
+     "class": ""
+    },
+    {
+     "id": "brian-broomell-1",
+     "name": "Brian Broomell",
+     "season": 1979,
+     "team": "Temple",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 2,
+     "name_display": "Brian Broomell",
+     "pass_td_pct": 10.3,
+     "pass_att": 214,
+     "year_id": 1979,
+     "teams_played_for": "Temple",
+     "games": 11,
+     "pass_cmp": 120,
+     "pass_inc": 94,
+     "pass_cmp_pct": 56.1,
+     "pass_yds": 2103,
+     "pass_td": 22,
+     "pass_int": 11,
+     "pass_int_pct": 5.1,
+     "pass_rating": 162.3,
+     "pass_yds_per_att": 9.8,
+     "pass_adj_yds_per_att": 9.57,
+     "pass_yds_per_cmp": 17.5,
+     "pass_yds_per_g": 191.2,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.27,
+   "players": [
+    {
+     "id": "doug-williams-2",
+     "name": "Doug Williams"
+    },
+    {
+     "id": "brian-broomell-1",
+     "name": "Brian Broomell"
+    }
+   ],
+   "seasons": [
+    1977,
+    1979
+   ],
+   "text": "Only two major-college players of the 1970s threw a touchdown on 10% of their passes (200+ attempts): Doug Williams (1977: 10.8% (38 TD)); Brian Broomell (1979: 10.3% (22 TD)).",
+   "why": "Two names invite the \"whose season was better?\" argument. Touchdown rate rewards efficiency over volume."
+  },
+  {
+   "n": 20,
    "rule": "p:int_td",
    "group": "P",
    "decade": "1970s",
@@ -1053,10 +1530,102 @@
     1979
    ],
    "text": "Only two major-college players of the 1970s returned 3 interceptions for touchdowns: Jeff Griffin (1978: 3 pick-sixes); Ken Thomas (1979: 3 pick-sixes).",
-   "why": "Two names invite the \"whose season was better?\" argument. Pick-sixes are the most exciting defensive play; totals get shared."
+   "why": "A two-player club is a ready-made debate. Pick-sixes are the most exciting defensive play; totals get shared."
   },
   {
-   "n": 14,
+   "n": 21,
+   "rule": "p:kr_avg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=kick_ret_yds_per_ret&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=kick_ret&ccomp[2]=gt&cval[2]=30&cstat[2]=kick_ret_yds_per_ret"
+   },
+   "evidence": [
+    {
+     "id": "stevie-nelson-1",
+     "name": "Stevie Nelson",
+     "season": 1979,
+     "team": "Ball State",
+     "pos": "WR",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 1,
+     "name_display": "Stevie Nelson",
+     "kick_ret_yds_per_ret": 31.4,
+     "kick_ret": 18,
+     "year_id": 1979,
+     "teams_played_for": "Ball State",
+     "games": 11,
+     "kick_ret_yds": 565,
+     "kick_ret_td": 1,
+     "class": ""
+    },
+    {
+     "id": "derek-hughes-1",
+     "name": "Derek Hughes",
+     "season": 1979,
+     "team": "Michigan State",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 2,
+     "name_display": "Derek Hughes",
+     "kick_ret_yds_per_ret": 31.1,
+     "kick_ret": 16,
+     "year_id": 1979,
+     "teams_played_for": "Michigan State",
+     "games": 11,
+     "kick_ret_yds": 497,
+     "kick_ret_td": 2,
+     "class": ""
+    },
+    {
+     "id": "drew-hill-1",
+     "name": "Drew Hill",
+     "season": 1978,
+     "team": "Georgia Tech",
+     "pos": "WR",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 3,
+     "name_display": "Drew Hill",
+     "kick_ret_yds_per_ret": 30,
+     "kick_ret": 19,
+     "year_id": 1978,
+     "teams_played_for": "Georgia Tech",
+     "games": 11,
+     "kick_ret_yds": 570,
+     "kick_ret_td": 2,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.785,
+   "players": [
+    {
+     "id": "stevie-nelson-1",
+     "name": "Stevie Nelson"
+    },
+    {
+     "id": "derek-hughes-1",
+     "name": "Derek Hughes"
+    },
+    {
+     "id": "drew-hill-1",
+     "name": "Drew Hill"
+    }
+   ],
+   "seasons": [
+    1979,
+    1979,
+    1978
+   ],
+   "text": "Just three major-college players of the 1970s averaged 30 yards a kickoff returned (15+ returns): Stevie Nelson (1979: 31.4 on 18 returns); Derek Hughes (1979: 31.1 on 16 returns); Drew Hill (1978: 30.0 on 19 returns).",
+   "why": "A short list fans can recite; each name brings its own fan base. Return average shows the players who flipped field position."
+  },
+  {
+   "n": 22,
    "rule": "p:alltd_hi",
    "group": "P",
    "decade": "1970s",
@@ -1166,7 +1735,7 @@
    "why": "Few enough to name them all, so readers tag the ones they remember. Touchdown totals are the simplest scoring stat to share."
   },
   {
-   "n": 15,
+   "n": 23,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -1279,7 +1848,7 @@
    "why": "A decade of consistency in one number; names the most reliable producer of the 1970s."
   },
   {
-   "n": 16,
+   "n": 24,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -1344,7 +1913,7 @@
    "why": "A decade of consistency in one number; names the most reliable producer of the 1970s."
   },
   {
-   "n": 17,
+   "n": 25,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -1407,7 +1976,7 @@
    "why": "A decade of consistency in one number; names the most reliable producer of the 1970s."
   },
   {
-   "n": 18,
+   "n": 26,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -1610,7 +2179,127 @@
    "why": "A decade of consistency in one number; names the most reliable producer of the 1970s."
   },
   {
-   "n": 19,
+   "n": 27,
+   "rule": "p:qb_rtd",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=rush_td&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=rush_td&positions[]=qb"
+   },
+   "evidence": [
+    {
+     "id": "steve-davis-3",
+     "name": "Steve Davis",
+     "season": 1973,
+     "team": "Oklahoma",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 1,
+     "name_display": "Steve Davis",
+     "rush_td": 18,
+     "year_id": 1973,
+     "teams_played_for": "Oklahoma",
+     "games": 11,
+     "rush_att": 179,
+     "rush_yds": 887,
+     "rush_yds_per_att": 5,
+     "rush_yds_per_g": 80.6,
+     "class": ""
+    },
+    {
+     "id": "jack-mildren-1",
+     "name": "Jack Mildren",
+     "season": 1971,
+     "team": "Oklahoma",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 2,
+     "name_display": "Jack Mildren",
+     "rush_td": 17,
+     "year_id": 1971,
+     "teams_played_for": "Oklahoma",
+     "games": 11,
+     "rush_att": 193,
+     "rush_yds": 1140,
+     "rush_yds_per_att": 5.9,
+     "rush_yds_per_g": 103.6,
+     "class": ""
+    },
+    {
+     "id": "david-hines-2",
+     "name": "David Hines",
+     "season": 1975,
+     "team": "Arkansas State",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1975",
+     "ranker": 3,
+     "name_display": "David Hines",
+     "rush_td": 16,
+     "year_id": 1975,
+     "teams_played_for": "Arkansas State",
+     "games": 11,
+     "rush_att": 170,
+     "rush_yds": 672,
+     "rush_yds_per_att": 4,
+     "rush_yds_per_g": 61.1,
+     "class": ""
+    },
+    {
+     "id": "larry-russell-1",
+     "name": "Larry Russell",
+     "season": 1971,
+     "team": "Wake Forest",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 4,
+     "name_display": "Larry Russell",
+     "rush_td": 15,
+     "year_id": 1971,
+     "teams_played_for": "Wake Forest",
+     "games": 11,
+     "rush_att": 256,
+     "rush_yds": 803,
+     "rush_yds_per_att": 3.1,
+     "rush_yds_per_g": 73,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.45,
+   "players": [
+    {
+     "id": "steve-davis-3",
+     "name": "Steve Davis"
+    },
+    {
+     "id": "jack-mildren-1",
+     "name": "Jack Mildren"
+    },
+    {
+     "id": "david-hines-2",
+     "name": "David Hines"
+    },
+    {
+     "id": "larry-russell-1",
+     "name": "Larry Russell"
+    }
+   ],
+   "seasons": [
+    1973,
+    1971,
+    1975,
+    1971
+   ],
+   "text": "Just four major-college players of the 1970s ran for 15 touchdowns as a quarterback: Steve Davis (1973: 18 rush TD); Jack Mildren (1971: 17 rush TD); David Hines (1975: 16 rush TD); Larry Russell (1971: 15 rush TD).",
+   "why": "A short list fans can recite; each name brings its own fan base. Quarterbacks scoring with their legs always gets a reaction."
+  },
+  {
+   "n": 28,
    "rule": "p:pr_td",
    "group": "P",
    "decade": "1970s",
@@ -1723,10 +2412,10 @@
     1977
    ],
    "text": "Just four major-college players of the 1970s returned 3 punts for touchdowns: Ira Matthews (1978: 3 PR TD); Mark Lee (1979: 3 PR TD); Richard Ellender (1978: 3 PR TD); Robert Woods (1977: 3 PR TD).",
-   "why": "A short list fans can recite; each name brings its own fan base. Return touchdowns are highlight-reel plays; multiples in a year are rare."
+   "why": "Few enough to name them all, so readers tag the ones they remember. Return touchdowns are highlight-reel plays; multiples in a year are rare."
   },
   {
-   "n": 20,
+   "n": 29,
    "rule": "p:car_hi",
    "group": "P",
    "decade": "1970s",
@@ -1868,10 +2557,499 @@
     1975
    ],
    "text": "6 major-college players carried the ball 330 times in the 1970s. The most extreme: Ricky Bell, 1975 — 357 carries.",
-   "why": "Leads with the most extreme case, which carries the post. Carries show a workload that barely exists anymore."
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Carries show a workload that barely exists anymore."
   },
   {
-   "n": 21,
+   "n": 30,
+   "rule": "p:pg_rush_yds_per_g",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=rush_yds_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=gt&cval[2]=130&cstat[2]=rush_yds_per_g"
+   },
+   "evidence": [
+    {
+     "id": "ed-marinaro-1",
+     "name": "Ed Marinaro",
+     "season": 1971,
+     "team": "Cornell",
+     "pos": "",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 1,
+     "name_display": "Ed Marinaro",
+     "rush_yds_per_g": 209,
+     "games": 9,
+     "year_id": 1971,
+     "teams_played_for": "Cornell",
+     "rush_att": 356,
+     "rush_yds": 1881,
+     "rush_yds_per_att": 5.3,
+     "rush_td": 24,
+     "class": ""
+    },
+    {
+     "id": "tony-dorsett-1",
+     "name": "Tony Dorsett",
+     "season": 1976,
+     "team": "Pitt",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 2,
+     "name_display": "Tony Dorsett",
+     "rush_yds_per_g": 177.1,
+     "games": 11,
+     "year_id": 1976,
+     "teams_played_for": "Pitt",
+     "rush_att": 338,
+     "rush_yds": 1948,
+     "rush_yds_per_att": 5.8,
+     "rush_td": 21,
+     "class": ""
+    },
+    {
+     "id": "ricky-bell-1",
+     "name": "Ricky Bell",
+     "season": 1975,
+     "team": "USC",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1975",
+     "ranker": 3,
+     "name_display": "Ricky Bell",
+     "rush_yds_per_g": 170.5,
+     "games": 11,
+     "year_id": 1975,
+     "teams_played_for": "USC",
+     "rush_att": 357,
+     "rush_yds": 1875,
+     "rush_yds_per_att": 5.3,
+     "rush_td": 13,
+     "class": ""
+    },
+    {
+     "id": "charles-white-1",
+     "name": "Charles White",
+     "season": 1979,
+     "team": "USC",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 4,
+     "name_display": "Charles White",
+     "rush_yds_per_g": 163.9,
+     "games": 11,
+     "year_id": 1979,
+     "teams_played_for": "USC",
+     "rush_att": 293,
+     "rush_yds": 1803,
+     "rush_yds_per_att": 6.2,
+     "rush_td": 18,
+     "class": ""
+    },
+    {
+     "id": "billy-sims-1",
+     "name": "Billy Sims",
+     "season": 1978,
+     "team": "Oklahoma",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 5,
+     "name_display": "Billy Sims",
+     "rush_yds_per_g": 160.2,
+     "games": 11,
+     "year_id": 1978,
+     "teams_played_for": "Oklahoma",
+     "rush_att": 231,
+     "rush_yds": 1762,
+     "rush_yds_per_att": 7.6,
+     "rush_td": 20,
+     "class": ""
+    },
+    {
+     "id": "robert-newhouse-1",
+     "name": "Robert Newhouse",
+     "season": 1971,
+     "team": "Houston",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 6,
+     "name_display": "Robert Newhouse",
+     "rush_yds_per_g": 159.7,
+     "games": 11,
+     "year_id": 1971,
+     "teams_played_for": "Houston",
+     "rush_att": 277,
+     "rush_yds": 1757,
+     "rush_yds_per_att": 6.3,
+     "rush_td": 12,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 40,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": "ed-marinaro-1",
+     "name": "Ed Marinaro"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "32 major-college players averaged 130 rushing yards a game (8+ games) in the 1970s (40 seasons). The most extreme: Ed Marinaro, 1971 — 209.0 per game.",
+   "why": "Leads with the most extreme case, which carries the post. Per-game rushing puts short seasons on equal footing."
+  },
+  {
+   "n": 31,
+   "rule": "p:pg_rec_yds_per_g",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=rec_yds_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=gt&cval[2]=110&cstat[2]=rec_yds_per_g"
+   },
+   "evidence": [
+    {
+     "id": "bill-ryckman-1",
+     "name": "Bill Ryckman",
+     "season": 1976,
+     "team": "Louisiana Tech",
+     "pos": "WR",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 1,
+     "name_display": "Bill Ryckman",
+     "rec_yds_per_g": 125.6,
+     "games": 11,
+     "year_id": 1976,
+     "teams_played_for": "Louisiana Tech",
+     "rec": 77,
+     "rec_yds": 1382,
+     "rec_yds_per_rec": 17.9,
+     "rec_td": 10,
+     "class": ""
+    },
+    {
+     "id": "mike-siani-1",
+     "name": "Mike Siani",
+     "season": 1970,
+     "team": "Villanova",
+     "pos": "WR",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 2,
+     "name_display": "Mike Siani",
+     "rec_yds_per_g": 120.7,
+     "games": 11,
+     "year_id": 1970,
+     "teams_played_for": "Villanova",
+     "rec": 74,
+     "rec_yds": 1328,
+     "rec_yds_per_rec": 17.9,
+     "rec_td": 12,
+     "class": ""
+    },
+    {
+     "id": "ernie-jennings-1",
+     "name": "Ernie Jennings",
+     "season": 1970,
+     "team": "Air Force",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 3,
+     "name_display": "Ernie Jennings",
+     "rec_yds_per_g": 117.2,
+     "games": 11,
+     "year_id": 1970,
+     "teams_played_for": "Air Force",
+     "rec": 74,
+     "rec_yds": 1289,
+     "rec_yds_per_rec": 17.4,
+     "rec_td": 17,
+     "class": ""
+    },
+    {
+     "id": "rod-foppe-1",
+     "name": "Rod Foppe",
+     "season": 1977,
+     "team": "Louisiana Tech",
+     "pos": "WR",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 4,
+     "name_display": "Rod Foppe",
+     "rec_yds_per_g": 115.8,
+     "games": 11,
+     "year_id": 1977,
+     "teams_played_for": "Louisiana Tech",
+     "rec": 59,
+     "rec_yds": 1274,
+     "rec_yds_per_rec": 21.6,
+     "rec_td": 5,
+     "class": ""
+    },
+    {
+     "id": "barry-smith-1",
+     "name": "Barry Smith",
+     "season": 1972,
+     "team": "Florida State",
+     "pos": "WR",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 5,
+     "name_display": "Barry Smith",
+     "rec_yds_per_g": 113,
+     "games": 11,
+     "year_id": 1972,
+     "teams_played_for": "Florida State",
+     "rec": 69,
+     "rec_yds": 1243,
+     "rec_yds_per_rec": 18,
+     "rec_td": 13,
+     "class": ""
+    },
+    {
+     "id": "mike-mikolayunas-1",
+     "name": "Mike Mikolayunas",
+     "season": 1970,
+     "team": "Davidson",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 6,
+     "name_display": "Mike Mikolayunas",
+     "rec_yds_per_g": 112.8,
+     "games": 10,
+     "year_id": 1970,
+     "teams_played_for": "Davidson",
+     "rec": 87,
+     "rec_yds": 1128,
+     "rec_yds_per_rec": 13,
+     "rec_td": 8,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": "bill-ryckman-1",
+     "name": "Bill Ryckman"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "9 major-college players averaged 110 receiving yards a game (8+ games) in the 1970s. The most extreme: Bill Ryckman, 1976 — 125.6 per game.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Per-game receiving puts short seasons on equal footing."
+  },
+  {
+   "n": 32,
+   "rule": "p:pg_pass_yds_per_g",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=pass_yds_per_g&order_by_asc=0&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=gt&cval[2]=275&cstat[2]=pass_yds_per_g"
+   },
+   "evidence": [
+    {
+     "id": "marc-wilson-1",
+     "name": "Marc Wilson",
+     "season": 1979,
+     "team": "BYU",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 1,
+     "name_display": "Marc Wilson",
+     "pass_yds_per_g": 338.2,
+     "games": 11,
+     "year_id": 1979,
+     "teams_played_for": "BYU",
+     "pass_cmp": 250,
+     "pass_att": 427,
+     "pass_inc": 177,
+     "pass_cmp_pct": 58.5,
+     "pass_yds": 3720,
+     "pass_td": 29,
+     "pass_int": 15,
+     "pass_td_pct": 6.8,
+     "pass_int_pct": 3.5,
+     "pass_rating": 147.1,
+     "pass_yds_per_att": 8.7,
+     "pass_adj_yds_per_att": 8.49,
+     "pass_yds_per_cmp": 14.9,
+     "class": ""
+    },
+    {
+     "id": "tommy-kramer-1",
+     "name": "Tommy Kramer",
+     "season": 1976,
+     "team": "Rice",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 2,
+     "name_display": "Tommy Kramer",
+     "pass_yds_per_g": 301.5,
+     "games": 11,
+     "year_id": 1976,
+     "teams_played_for": "Rice",
+     "pass_cmp": 269,
+     "pass_att": 501,
+     "pass_inc": 232,
+     "pass_cmp_pct": 53.7,
+     "pass_yds": 3317,
+     "pass_td": 21,
+     "pass_int": 19,
+     "pass_td_pct": 4.2,
+     "pass_int_pct": 3.8,
+     "pass_rating": 115.6,
+     "pass_yds_per_att": 6.6,
+     "pass_adj_yds_per_att": 5.75,
+     "pass_yds_per_cmp": 12.3,
+     "class": ""
+    },
+    {
+     "id": "doug-williams-2",
+     "name": "Doug Williams",
+     "season": 1977,
+     "team": "Grambling State",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 3,
+     "name_display": "Doug Williams",
+     "pass_yds_per_g": 298.7,
+     "games": 11,
+     "year_id": 1977,
+     "teams_played_for": "Grambling State",
+     "pass_cmp": 181,
+     "pass_att": 352,
+     "pass_inc": 171,
+     "pass_cmp_pct": 51.4,
+     "pass_yds": 3286,
+     "pass_td": 38,
+     "pass_int": 18,
+     "pass_td_pct": 10.8,
+     "pass_int_pct": 5.1,
+     "pass_rating": 155.2,
+     "pass_yds_per_att": 9.3,
+     "pass_adj_yds_per_att": 9.19,
+     "pass_yds_per_cmp": 18.2,
+     "class": ""
+    },
+    {
+     "id": "don-strock-1",
+     "name": "Don Strock",
+     "season": 1972,
+     "team": "Virginia Tech",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 4,
+     "name_display": "Don Strock",
+     "pass_yds_per_g": 294.8,
+     "games": 11,
+     "year_id": 1972,
+     "teams_played_for": "Virginia Tech",
+     "pass_cmp": 228,
+     "pass_att": 427,
+     "pass_inc": 199,
+     "pass_cmp_pct": 53.4,
+     "pass_yds": 3243,
+     "pass_td": 16,
+     "pass_int": 27,
+     "pass_td_pct": 3.7,
+     "pass_int_pct": 6.3,
+     "pass_rating": 116.9,
+     "pass_yds_per_att": 7.6,
+     "pass_adj_yds_per_att": 5.5,
+     "pass_yds_per_cmp": 14.2,
+     "class": ""
+    },
+    {
+     "id": "gifford-nielsen-1",
+     "name": "Gifford Nielsen",
+     "season": 1976,
+     "team": "BYU",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 5,
+     "name_display": "Gifford Nielsen",
+     "pass_yds_per_g": 290.2,
+     "games": 11,
+     "year_id": 1976,
+     "teams_played_for": "BYU",
+     "pass_cmp": 207,
+     "pass_att": 372,
+     "pass_inc": 165,
+     "pass_cmp_pct": 55.6,
+     "pass_yds": 3192,
+     "pass_td": 29,
+     "pass_int": 19,
+     "pass_td_pct": 7.8,
+     "pass_int_pct": 5.1,
+     "pass_rating": 143.2,
+     "pass_yds_per_att": 8.6,
+     "pass_adj_yds_per_att": 7.84,
+     "pass_yds_per_cmp": 15.4,
+     "class": ""
+    },
+    {
+     "id": "ed-luther-1",
+     "name": "Ed Luther",
+     "season": 1979,
+     "team": "San Jose State",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 6,
+     "name_display": "Ed Luther",
+     "pass_yds_per_g": 277.2,
+     "games": 11,
+     "year_id": 1979,
+     "teams_played_for": "San Jose State",
+     "pass_cmp": 241,
+     "pass_att": 415,
+     "pass_inc": 174,
+     "pass_cmp_pct": 58.1,
+     "pass_yds": 3049,
+     "pass_td": 20,
+     "pass_int": 14,
+     "pass_td_pct": 4.8,
+     "pass_int_pct": 3.4,
+     "pass_rating": 128.9,
+     "pass_yds_per_att": 7.3,
+     "pass_adj_yds_per_att": 6.79,
+     "pass_yds_per_cmp": 12.7,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": "marc-wilson-1",
+     "name": "Marc Wilson"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "text": "6 major-college players averaged 275 passing yards a game (8+ games) in the 1970s. The most extreme: Marc Wilson, 1979 — 338.2 per game.",
+   "why": "Leads with the most extreme case, which carries the post. Per-game passing volume invites comparisons across eras."
+  },
+  {
+   "n": 33,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -2074,7 +3252,7 @@
    "why": "School-pride bait: San Diego State's fans will share it. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
-   "n": 22,
+   "n": 34,
    "kind": "extreme",
    "rule": "p:x_py",
    "group": "P",
@@ -2243,7 +3421,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
-   "n": 23,
+   "n": 35,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -2446,7 +3624,7 @@
    "why": "School-pride bait: BYU's fans will share it. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 24,
+   "n": 36,
    "kind": "extreme",
    "rule": "p:x_ptd",
    "group": "P",
@@ -2615,7 +3793,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 25,
+   "n": 37,
    "kind": "extreme",
    "rule": "p:x_ry",
    "group": "P",
@@ -2739,7 +3917,7 @@
    "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
-   "n": 26,
+   "n": 38,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -2867,7 +4045,7 @@
    "why": "Program bragging rights; alumni and rivals both engage. Goal-line dominance is easy to picture and easy to share."
   },
   {
-   "n": 27,
+   "n": 39,
    "kind": "extreme",
    "rule": "p:x_rtd",
    "group": "P",
@@ -2991,7 +4169,7 @@
    "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Goal-line dominance is easy to picture and easy to share."
   },
   {
-   "n": 28,
+   "n": 40,
    "kind": "extreme",
    "rule": "p:x_rec",
    "group": "P",
@@ -3115,7 +4293,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Catch totals put possession receivers in the spotlight."
   },
   {
-   "n": 29,
+   "n": 41,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -3201,7 +4379,7 @@
    "why": "School-pride bait: Western Carolina's fans will share it. Receiving yardage seasons anchor every receiver ranking."
   },
   {
-   "n": 30,
+   "n": 42,
    "kind": "extreme",
    "rule": "p:x_recy",
    "group": "P",
@@ -3325,131 +4503,7 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Receiving yardage seasons anchor every receiver ranking."
   },
   {
-   "n": 31,
-   "kind": "extreme",
-   "rule": "p:x_tot",
-   "group": "P",
-   "decade": "1970s",
-   "score": 6,
-   "players": [
-    {
-     "id": "marc-wilson-1",
-     "name": "Marc Wilson"
-    }
-   ],
-   "seasons": [
-    1979
-   ],
-   "finder": {
-    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=total_offense&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=total_offense"
-   },
-   "evidence": [
-    {
-     "id": "marc-wilson-1",
-     "name": "Marc Wilson",
-     "season": 1979,
-     "team": "BYU",
-     "pos": "QB",
-     "age": null,
-     "year_raw": "1979",
-     "ranker": 1,
-     "name_display": "Marc Wilson",
-     "total_offense": 3580,
-     "year_id": 1979,
-     "teams_played_for": "BYU",
-     "games": 11,
-     "touches": 61,
-     "yds_from_scrimmage": -140,
-     "all_purpose_yds": -140,
-     "ret_yds": 0,
-     "class": ""
-    },
-    {
-     "id": "tommy-kramer-1",
-     "name": "Tommy Kramer",
-     "season": 1976,
-     "team": "Rice",
-     "pos": "QB",
-     "age": null,
-     "year_raw": "1976",
-     "ranker": 2,
-     "name_display": "Tommy Kramer",
-     "total_offense": 3272,
-     "year_id": 1976,
-     "teams_played_for": "Rice",
-     "games": 11,
-     "touches": 61,
-     "yds_from_scrimmage": -45,
-     "all_purpose_yds": -45,
-     "ret_yds": 0,
-     "class": ""
-    },
-    {
-     "id": "doug-williams-2",
-     "name": "Doug Williams",
-     "season": 1977,
-     "team": "Grambling State",
-     "pos": "QB",
-     "age": null,
-     "year_raw": "1977",
-     "ranker": 3,
-     "name_display": "Doug Williams",
-     "total_offense": 3249,
-     "year_id": 1977,
-     "teams_played_for": "Grambling State",
-     "games": 11,
-     "touches": 25,
-     "yds_from_scrimmage": -37,
-     "all_purpose_yds": -37,
-     "ret_yds": 0,
-     "class": ""
-    },
-    {
-     "id": "don-strock-1",
-     "name": "Don Strock",
-     "season": 1972,
-     "team": "Virginia Tech",
-     "pos": "QB",
-     "age": null,
-     "year_raw": "1972",
-     "ranker": 4,
-     "name_display": "Don Strock",
-     "total_offense": 3170,
-     "year_id": 1972,
-     "teams_played_for": "Virginia Tech",
-     "games": 11,
-     "touches": 53,
-     "yds_from_scrimmage": -73,
-     "all_purpose_yds": -73,
-     "ret_yds": "",
-     "class": ""
-    },
-    {
-     "id": "ed-luther-1",
-     "name": "Ed Luther",
-     "season": 1979,
-     "team": "San Jose State",
-     "pos": "QB",
-     "age": null,
-     "year_raw": "1979",
-     "ranker": 5,
-     "name_display": "Ed Luther",
-     "total_offense": 2997,
-     "year_id": 1979,
-     "teams_played_for": "San Jose State",
-     "games": 11,
-     "touches": 44,
-     "yds_from_scrimmage": -52,
-     "all_purpose_yds": -52,
-     "ret_yds": 0,
-     "class": ""
-    }
-   ],
-   "text": "Most total offense in a season in the 1970s: Marc Wilson, BYU, 1979 — 3,580 yards.",
-   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Total offense crowns the do-it-all college quarterback."
-  },
-  {
-   "n": 32,
+   "n": 43,
    "kind": "extreme",
    "rule": "p:x_apy",
    "group": "P",
@@ -3570,10 +4624,10 @@
     }
    ],
    "text": "Most all-purpose yards in a season in the 1970s: Charles White, USC, 1978 — 2,096.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. All-purpose yards credit the players who did everything."
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. All-purpose yards credit the players who did everything."
   },
   {
-   "n": 33,
+   "n": 44,
    "kind": "extreme",
    "rule": "p:x_ypc",
    "group": "P",
@@ -3694,10 +4748,10 @@
     }
    ],
    "text": "Best yards per carry in a season (150+ carries) in the 1970s: Greg Pruitt, Oklahoma, 1971 — 9.4.",
-   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Big-play running efficiency starts debates about who was really best."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Big-play running efficiency starts debates about who was really best."
   },
   {
-   "n": 34,
+   "n": 45,
    "kind": "extreme",
    "rule": "p:x_rate",
    "group": "P",
@@ -3863,10 +4917,10 @@
     }
    ],
    "text": "Highest passer rating in a season (200+ attempts) in the 1970s: Turk Schonert, Stanford, 1979 — 163.2.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Efficiency is the stat analytics-minded fans quote most."
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Efficiency is the stat analytics-minded fans quote most."
   },
   {
-   "n": 35,
+   "n": 46,
    "kind": "extreme",
    "rule": "p:x_fgm",
    "group": "P",
@@ -4012,10 +5066,10 @@
     }
    ],
    "text": "Most field goals in a season in the 1970s: Matt Bahr, Penn State, 1978 — 22 of 27.",
-   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Kicker content is underserved and gets outsized engagement."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Kicker content is underserved and gets outsized engagement."
   },
   {
-   "n": 36,
+   "n": 47,
    "kind": "nearmiss",
    "rule": "p:n_ry",
    "group": "P",
@@ -4166,10 +5220,10 @@
     }
    ],
    "text": "10 major-college player-seasons of the 1970s ended on between 990 and 999 rushing yards, just shy of 1,000 — among them Rob Lytle (1975), Jerome Heavens (1977), Walter Packer (1974).",
-   "why": "A near miss is a story; fans wonder what one more game would have done."
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 37,
+   "n": 48,
    "rule": "t:pts_hi",
    "group": "P",
    "decade": "1970s",
@@ -4305,10 +5359,10 @@
     1972
    ],
    "text": "7 major-college teams scored 450 points in the 1970s (10 seasons). The most extreme: Arizona State, 1972 — 513 points, 10-2.",
-   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Scoring totals are universal; no explanation needed."
+   "why": "Leads with the most extreme case, which carries the post. Scoring totals are universal; no explanation needed."
   },
   {
-   "n": 38,
+   "n": 49,
    "rule": "t:diff_low",
    "group": "P",
    "decade": "1970s",
@@ -4444,10 +5498,308 @@
     1973
    ],
    "text": "7 major-college teams got outscored by 300 points in the 1970s (8 seasons). The most extreme: UTEP, 1973 — 142-544, 0-11.",
-   "why": "Leads with the most extreme case, which carries the post. Blowout futility makes rival fan bases pile on."
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Blowout futility makes rival fan bases pile on."
   },
   {
-   "n": 39,
+   "n": 50,
+   "rule": "t:team_tot",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=tot_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=5500&cstat[1]=tot_yds"
+   },
+   "evidence": [
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma",
+     "season": 1971,
+     "team": "Oklahoma",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 1,
+     "year_id": 1971,
+     "team_name_abbr": "Oklahoma",
+     "tot_yds": 6232,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 494,
+     "points_opp": 195,
+     "points_diff": 299,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "Arizona State",
+     "name": "Arizona State",
+     "season": 1973,
+     "team": "Arizona State",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 2,
+     "year_id": 1973,
+     "team_name_abbr": "Arizona State",
+     "tot_yds": 6220,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 491,
+     "points_opp": 164,
+     "points_diff": 327,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "BYU",
+     "name": "BYU",
+     "season": 1979,
+     "team": "BYU",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 3,
+     "year_id": 1979,
+     "team_name_abbr": "BYU",
+     "tot_yds": 5735,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 447,
+     "points_opp": 125,
+     "points_diff": 322,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "Arizona State",
+     "name": "Arizona State",
+     "season": 1972,
+     "team": "Arizona State",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 4,
+     "year_id": 1972,
+     "team_name_abbr": "Arizona State",
+     "tot_yds": 5681,
+     "games": 11,
+     "wins": 10,
+     "losses": 2,
+     "ties": 0,
+     "win_loss_pct": 0.833,
+     "points": 513,
+     "points_opp": 261,
+     "points_diff": 252,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "Nevada-Las Vegas",
+     "name": "Nevada-Las Vegas",
+     "season": 1979,
+     "team": "Nevada-Las Vegas",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 5,
+     "year_id": 1979,
+     "team_name_abbr": "Nevada-Las Vegas",
+     "tot_yds": 5665,
+     "games": 12,
+     "wins": 9,
+     "losses": 1,
+     "ties": 2,
+     "win_loss_pct": 0.833,
+     "points": 370,
+     "points_opp": 300,
+     "points_diff": 70,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma",
+     "season": 1974,
+     "team": "Oklahoma",
+     "age": null,
+     "year_raw": "1974",
+     "ranker": 6,
+     "year_id": 1974,
+     "team_name_abbr": "Oklahoma",
+     "tot_yds": 5585,
+     "games": 11,
+     "wins": 11,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 473,
+     "points_opp": 92,
+     "points_diff": 381,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "5 major-college teams gained 5,500 yards of offense in the 1970s (7 seasons). The most extreme: Oklahoma, 1971 — 6,232 total yds.",
+   "why": "Leads with the most extreme case, which carries the post. Total offense crowns the era's juggernaut offenses."
+  },
+  {
+   "n": 51,
+   "rule": "t:rush_def",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=rush_yds_opp&order_by_asc=1&ccomp[1]=gt&cval[1]=10&cstat[1]=games&ccomp[2]=lt&cval[2]=799&cstat[2]=rush_yds_opp"
+   },
+   "evidence": [
+    {
+     "id": "LSU",
+     "name": "LSU",
+     "season": 1970,
+     "team": "LSU",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 1,
+     "year_id": 1970,
+     "team_name_abbr": "LSU",
+     "rush_yds_opp": 574,
+     "games": 11,
+     "wins": 9,
+     "losses": 3,
+     "ties": 0,
+     "win_loss_pct": 0.75,
+     "points": 277,
+     "points_opp": 96,
+     "points_diff": 181,
+     "rush_att_opp": 356,
+     "rush_yds_per_att_opp": 1.6
+    },
+    {
+     "id": "Penn State",
+     "name": "Penn State",
+     "season": 1978,
+     "team": "Penn State",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 2,
+     "year_id": 1978,
+     "team_name_abbr": "Penn State",
+     "rush_yds_opp": 599,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 326,
+     "points_opp": 97,
+     "points_diff": 229,
+     "rush_att_opp": 408,
+     "rush_yds_per_att_opp": 1.5
+    },
+    {
+     "id": "Michigan",
+     "name": "Michigan",
+     "season": 1971,
+     "team": "Michigan",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 3,
+     "year_id": 1971,
+     "team_name_abbr": "Michigan",
+     "rush_yds_opp": 696,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 409,
+     "points_opp": 70,
+     "points_diff": 339,
+     "rush_att_opp": 418,
+     "rush_yds_per_att_opp": 1.7
+    },
+    {
+     "id": "Jackson State",
+     "name": "Jackson State",
+     "season": 1977,
+     "team": "Jackson State",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 4,
+     "year_id": 1977,
+     "team_name_abbr": "Jackson State",
+     "rush_yds_opp": 746,
+     "games": 11,
+     "wins": 8,
+     "losses": 3,
+     "ties": 0,
+     "win_loss_pct": 0.727,
+     "points": 231,
+     "points_opp": 112,
+     "points_diff": 119,
+     "rush_att_opp": 446,
+     "rush_yds_per_att_opp": 1.7
+    },
+    {
+     "id": "Miami (OH)",
+     "name": "Miami (OH)",
+     "season": 1973,
+     "team": "Miami (OH)",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 5,
+     "year_id": 1973,
+     "team_name_abbr": "Miami (OH)",
+     "rush_yds_opp": 770,
+     "games": 10,
+     "wins": 11,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 207,
+     "points_opp": 69,
+     "points_diff": 138,
+     "rush_att_opp": 424,
+     "rush_yds_per_att_opp": 1.8
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": "LSU",
+     "name": "LSU"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "5 major-college teams allowed fewer than 800 rushing yards all season in the 1970s. The most extreme: LSU, 1970 — 574 rush yds allowed in 11 games.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Run defense that stout is old-school dominance fans love to cite."
+  },
+  {
+   "n": 52,
    "kind": "extreme",
    "rule": "t:tx_pts",
    "group": "P",
@@ -4563,10 +5915,10 @@
     }
    ],
    "text": "Most points by a team in a season in the 1970s: Arizona State, 1972 — 513 (10-2).",
-   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Scoring totals are universal; no explanation needed."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring totals are universal; no explanation needed."
   },
   {
-   "n": 40,
+   "n": 53,
    "kind": "extreme",
    "rule": "t:tx_opp",
    "group": "P",
@@ -4682,248 +6034,10 @@
     }
    ],
    "text": "Fewest points allowed in a season (8+ games) in the 1970s: Dartmouth, 1970 — 42.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Defensive dominance measured the simplest way possible."
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Defensive dominance measured the simplest way possible."
   },
   {
-   "n": 41,
-   "kind": "extreme",
-   "rule": "t:tx_diff",
-   "group": "P",
-   "decade": "1970s",
-   "score": 6,
-   "players": [
-    {
-     "id": "Oklahoma",
-     "name": "Oklahoma"
-    }
-   ],
-   "seasons": [
-    1974
-   ],
-   "finder": {
-    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=points_diff&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=games"
-   },
-   "evidence": [
-    {
-     "id": "Oklahoma",
-     "name": "Oklahoma",
-     "season": 1974,
-     "team": "Oklahoma",
-     "age": null,
-     "year_raw": "1974",
-     "ranker": 1,
-     "year_id": 1974,
-     "team_name_abbr": "Oklahoma",
-     "points_diff": 381,
-     "games": 11,
-     "wins": 11,
-     "losses": 0,
-     "ties": 0,
-     "win_loss_pct": 1,
-     "points": 473,
-     "points_opp": 92
-    },
-    {
-     "id": "Nebraska",
-     "name": "Nebraska",
-     "season": 1971,
-     "team": "Nebraska",
-     "age": null,
-     "year_raw": "1971",
-     "ranker": 2,
-     "year_id": 1971,
-     "team_name_abbr": "Nebraska",
-     "points_diff": 371,
-     "games": 12,
-     "wins": 13,
-     "losses": 0,
-     "ties": 0,
-     "win_loss_pct": 1,
-     "points": 469,
-     "points_opp": 98
-    },
-    {
-     "id": "Nebraska",
-     "name": "Nebraska",
-     "season": 1972,
-     "team": "Nebraska",
-     "age": null,
-     "year_raw": "1972",
-     "ranker": 3,
-     "year_id": 1972,
-     "team_name_abbr": "Nebraska",
-     "points_diff": 370,
-     "games": 11,
-     "wins": 9,
-     "losses": 2,
-     "ties": 1,
-     "win_loss_pct": 0.792,
-     "points": 461,
-     "points_opp": 91
-    },
-    {
-     "id": "Alabama",
-     "name": "Alabama",
-     "season": 1973,
-     "team": "Alabama",
-     "age": null,
-     "year_raw": "1973",
-     "ranker": 4,
-     "year_id": 1973,
-     "team_name_abbr": "Alabama",
-     "points_diff": 365,
-     "games": 11,
-     "wins": 11,
-     "losses": 1,
-     "ties": 0,
-     "win_loss_pct": 0.917,
-     "points": 454,
-     "points_opp": 89
-    },
-    {
-     "id": "Michigan",
-     "name": "Michigan",
-     "season": 1976,
-     "team": "Michigan",
-     "age": null,
-     "year_raw": "1976",
-     "ranker": 5,
-     "year_id": 1976,
-     "team_name_abbr": "Michigan",
-     "points_diff": 345,
-     "games": 11,
-     "wins": 10,
-     "losses": 2,
-     "ties": 0,
-     "win_loss_pct": 0.833,
-     "points": 426,
-     "points_opp": 81
-    }
-   ],
-   "text": "Biggest scoring margin in a season in the 1970s: Oklahoma, 1974 — 473-92.",
-   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Margin of victory is the cleanest measure of dominance."
-  },
-  {
-   "n": 42,
-   "kind": "extreme",
-   "rule": "t:tx_win",
-   "group": "P",
-   "decade": "1970s",
-   "score": 6,
-   "players": [
-    {
-     "id": "Nebraska",
-     "name": "Nebraska"
-    }
-   ],
-   "seasons": [
-    1971
-   ],
-   "finder": {
-    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=wins"
-   },
-   "evidence": [
-    {
-     "id": "Nebraska",
-     "name": "Nebraska",
-     "season": 1971,
-     "team": "Nebraska",
-     "age": null,
-     "year_raw": "1971",
-     "ranker": 1,
-     "year_id": 1971,
-     "team_name_abbr": "Nebraska",
-     "wins": 13,
-     "games": 12,
-     "losses": 0,
-     "ties": 0,
-     "win_loss_pct": 1,
-     "points": 469,
-     "points_opp": 98,
-     "points_diff": 371
-    },
-    {
-     "id": "Alabama",
-     "name": "Alabama",
-     "season": 1979,
-     "team": "Alabama",
-     "age": null,
-     "year_raw": "1979",
-     "ranker": 2,
-     "year_id": 1979,
-     "team_name_abbr": "Alabama",
-     "wins": 12,
-     "games": 11,
-     "losses": 0,
-     "ties": 0,
-     "win_loss_pct": 1,
-     "points": 359,
-     "points_opp": 58,
-     "points_diff": 301
-    },
-    {
-     "id": "USC",
-     "name": "USC",
-     "season": 1978,
-     "team": "USC",
-     "age": null,
-     "year_raw": "1978",
-     "ranker": 3,
-     "year_id": 1978,
-     "team_name_abbr": "USC",
-     "wins": 12,
-     "games": 12,
-     "losses": 1,
-     "ties": 0,
-     "win_loss_pct": 0.923,
-     "points": 301,
-     "points_opp": 143,
-     "points_diff": 158
-    },
-    {
-     "id": "Pitt",
-     "name": "Pitt",
-     "season": 1976,
-     "team": "Pitt",
-     "age": null,
-     "year_raw": "1976",
-     "ranker": 4,
-     "year_id": 1976,
-     "team_name_abbr": "Pitt",
-     "wins": 12,
-     "games": 11,
-     "losses": 0,
-     "ties": 0,
-     "win_loss_pct": 1,
-     "points": 354,
-     "points_opp": 130,
-     "points_diff": 224
-    },
-    {
-     "id": "Arizona State",
-     "name": "Arizona State",
-     "season": 1975,
-     "team": "Arizona State",
-     "age": null,
-     "year_raw": "1975",
-     "ranker": 5,
-     "year_id": 1975,
-     "team_name_abbr": "Arizona State",
-     "wins": 12,
-     "games": 11,
-     "losses": 0,
-     "ties": 0,
-     "win_loss_pct": 1,
-     "points": 330,
-     "points_opp": 113,
-     "points_diff": 217
-    }
-   ],
-   "text": "Most wins in a season in the 1970s: Nebraska, 1971 — 13-0.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Win totals are the first thing fans cite for a program's golden age."
-  },
-  {
-   "n": 43,
+   "n": 54,
    "kind": "extreme",
    "rule": "t:tx_worst",
    "group": "P",
@@ -5039,10 +6153,144 @@
     }
    ],
    "text": "Worst scoring margin in a season in the 1970s: UTEP, 1973 — outscored 544-142.",
-   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Blowout futility makes rival fan bases pile on."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Blowout futility makes rival fan bases pile on."
   },
   {
-   "n": 44,
+   "n": 55,
+   "kind": "extreme",
+   "rule": "t:tx_rdef",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "LSU",
+     "name": "LSU"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=rush_yds_opp&order_by_asc=1&ccomp[1]=gt&cval[1]=10&cstat[1]=games"
+   },
+   "evidence": [
+    {
+     "id": "LSU",
+     "name": "LSU",
+     "season": 1970,
+     "team": "LSU",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 1,
+     "year_id": 1970,
+     "team_name_abbr": "LSU",
+     "rush_yds_opp": 574,
+     "games": 11,
+     "wins": 9,
+     "losses": 3,
+     "ties": 0,
+     "win_loss_pct": 0.75,
+     "points": 277,
+     "points_opp": 96,
+     "points_diff": 181,
+     "rush_att_opp": 356,
+     "rush_yds_per_att_opp": 1.6
+    },
+    {
+     "id": "Penn State",
+     "name": "Penn State",
+     "season": 1978,
+     "team": "Penn State",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 2,
+     "year_id": 1978,
+     "team_name_abbr": "Penn State",
+     "rush_yds_opp": 599,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 326,
+     "points_opp": 97,
+     "points_diff": 229,
+     "rush_att_opp": 408,
+     "rush_yds_per_att_opp": 1.5
+    },
+    {
+     "id": "Michigan",
+     "name": "Michigan",
+     "season": 1971,
+     "team": "Michigan",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 3,
+     "year_id": 1971,
+     "team_name_abbr": "Michigan",
+     "rush_yds_opp": 696,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 409,
+     "points_opp": 70,
+     "points_diff": 339,
+     "rush_att_opp": 418,
+     "rush_yds_per_att_opp": 1.7
+    },
+    {
+     "id": "Jackson State",
+     "name": "Jackson State",
+     "season": 1977,
+     "team": "Jackson State",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 4,
+     "year_id": 1977,
+     "team_name_abbr": "Jackson State",
+     "rush_yds_opp": 746,
+     "games": 11,
+     "wins": 8,
+     "losses": 3,
+     "ties": 0,
+     "win_loss_pct": 0.727,
+     "points": 231,
+     "points_opp": 112,
+     "points_diff": 119,
+     "rush_att_opp": 446,
+     "rush_yds_per_att_opp": 1.7
+    },
+    {
+     "id": "Miami (OH)",
+     "name": "Miami (OH)",
+     "season": 1973,
+     "team": "Miami (OH)",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 5,
+     "year_id": 1973,
+     "team_name_abbr": "Miami (OH)",
+     "rush_yds_opp": 770,
+     "games": 10,
+     "wins": 11,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 207,
+     "points_opp": 69,
+     "points_diff": 138,
+     "rush_att_opp": 424,
+     "rush_yds_per_att_opp": 1.8
+    }
+   ],
+   "text": "Fewest rushing yards allowed in a season (10+ games) in the 1970s: LSU, 1970 — 574.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Run defense that stout is old-school dominance fans love to cite."
+  },
+  {
+   "n": 56,
    "kind": "extreme",
    "rule": "t:tx_pass",
    "group": "P",
@@ -5226,7 +6474,369 @@
    "why": "The most extreme season of the decade; fans compare it with today's numbers. Team passing yardage recalls the air-raid revolution."
   },
   {
-   "n": 45,
+   "n": 57,
+   "kind": "extreme",
+   "rule": "p:x_tot",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "marc-wilson-1",
+     "name": "Marc Wilson"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=total_offense&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=total_offense"
+   },
+   "evidence": [
+    {
+     "id": "marc-wilson-1",
+     "name": "Marc Wilson",
+     "season": 1979,
+     "team": "BYU",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 1,
+     "name_display": "Marc Wilson",
+     "total_offense": 3580,
+     "year_id": 1979,
+     "teams_played_for": "BYU",
+     "games": 11,
+     "touches": 61,
+     "yds_from_scrimmage": -140,
+     "all_purpose_yds": -140,
+     "ret_yds": 0,
+     "class": ""
+    },
+    {
+     "id": "tommy-kramer-1",
+     "name": "Tommy Kramer",
+     "season": 1976,
+     "team": "Rice",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 2,
+     "name_display": "Tommy Kramer",
+     "total_offense": 3272,
+     "year_id": 1976,
+     "teams_played_for": "Rice",
+     "games": 11,
+     "touches": 61,
+     "yds_from_scrimmage": -45,
+     "all_purpose_yds": -45,
+     "ret_yds": 0,
+     "class": ""
+    },
+    {
+     "id": "doug-williams-2",
+     "name": "Doug Williams",
+     "season": 1977,
+     "team": "Grambling State",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 3,
+     "name_display": "Doug Williams",
+     "total_offense": 3249,
+     "year_id": 1977,
+     "teams_played_for": "Grambling State",
+     "games": 11,
+     "touches": 25,
+     "yds_from_scrimmage": -37,
+     "all_purpose_yds": -37,
+     "ret_yds": 0,
+     "class": ""
+    },
+    {
+     "id": "don-strock-1",
+     "name": "Don Strock",
+     "season": 1972,
+     "team": "Virginia Tech",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 4,
+     "name_display": "Don Strock",
+     "total_offense": 3170,
+     "year_id": 1972,
+     "teams_played_for": "Virginia Tech",
+     "games": 11,
+     "touches": 53,
+     "yds_from_scrimmage": -73,
+     "all_purpose_yds": -73,
+     "ret_yds": "",
+     "class": ""
+    },
+    {
+     "id": "ed-luther-1",
+     "name": "Ed Luther",
+     "season": 1979,
+     "team": "San Jose State",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 5,
+     "name_display": "Ed Luther",
+     "total_offense": 2997,
+     "year_id": 1979,
+     "teams_played_for": "San Jose State",
+     "games": 11,
+     "touches": 44,
+     "yds_from_scrimmage": -52,
+     "all_purpose_yds": -52,
+     "ret_yds": 0,
+     "class": ""
+    }
+   ],
+   "text": "Most total offense in a season in the 1970s: Marc Wilson, BYU, 1979 — 3,580 yards.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Total offense crowns the do-it-all college quarterback."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "t:tx_diff",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=points_diff&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=games"
+   },
+   "evidence": [
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma",
+     "season": 1974,
+     "team": "Oklahoma",
+     "age": null,
+     "year_raw": "1974",
+     "ranker": 1,
+     "year_id": 1974,
+     "team_name_abbr": "Oklahoma",
+     "points_diff": 381,
+     "games": 11,
+     "wins": 11,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 473,
+     "points_opp": 92
+    },
+    {
+     "id": "Nebraska",
+     "name": "Nebraska",
+     "season": 1971,
+     "team": "Nebraska",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 2,
+     "year_id": 1971,
+     "team_name_abbr": "Nebraska",
+     "points_diff": 371,
+     "games": 12,
+     "wins": 13,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 469,
+     "points_opp": 98
+    },
+    {
+     "id": "Nebraska",
+     "name": "Nebraska",
+     "season": 1972,
+     "team": "Nebraska",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 3,
+     "year_id": 1972,
+     "team_name_abbr": "Nebraska",
+     "points_diff": 370,
+     "games": 11,
+     "wins": 9,
+     "losses": 2,
+     "ties": 1,
+     "win_loss_pct": 0.792,
+     "points": 461,
+     "points_opp": 91
+    },
+    {
+     "id": "Alabama",
+     "name": "Alabama",
+     "season": 1973,
+     "team": "Alabama",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 4,
+     "year_id": 1973,
+     "team_name_abbr": "Alabama",
+     "points_diff": 365,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 454,
+     "points_opp": 89
+    },
+    {
+     "id": "Michigan",
+     "name": "Michigan",
+     "season": 1976,
+     "team": "Michigan",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 5,
+     "year_id": 1976,
+     "team_name_abbr": "Michigan",
+     "points_diff": 345,
+     "games": 11,
+     "wins": 10,
+     "losses": 2,
+     "ties": 0,
+     "win_loss_pct": 0.833,
+     "points": 426,
+     "points_opp": 81
+    }
+   ],
+   "text": "Biggest scoring margin in a season in the 1970s: Oklahoma, 1974 — 473-92.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Margin of victory is the cleanest measure of dominance."
+  },
+  {
+   "n": 59,
+   "kind": "extreme",
+   "rule": "t:tx_win",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Nebraska",
+     "name": "Nebraska"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=wins"
+   },
+   "evidence": [
+    {
+     "id": "Nebraska",
+     "name": "Nebraska",
+     "season": 1971,
+     "team": "Nebraska",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 1,
+     "year_id": 1971,
+     "team_name_abbr": "Nebraska",
+     "wins": 13,
+     "games": 12,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 469,
+     "points_opp": 98,
+     "points_diff": 371
+    },
+    {
+     "id": "Alabama",
+     "name": "Alabama",
+     "season": 1979,
+     "team": "Alabama",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 2,
+     "year_id": 1979,
+     "team_name_abbr": "Alabama",
+     "wins": 12,
+     "games": 11,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 359,
+     "points_opp": 58,
+     "points_diff": 301
+    },
+    {
+     "id": "USC",
+     "name": "USC",
+     "season": 1978,
+     "team": "USC",
+     "age": null,
+     "year_raw": "1978",
+     "ranker": 3,
+     "year_id": 1978,
+     "team_name_abbr": "USC",
+     "wins": 12,
+     "games": 12,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.923,
+     "points": 301,
+     "points_opp": 143,
+     "points_diff": 158
+    },
+    {
+     "id": "Pitt",
+     "name": "Pitt",
+     "season": 1976,
+     "team": "Pitt",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 4,
+     "year_id": 1976,
+     "team_name_abbr": "Pitt",
+     "wins": 12,
+     "games": 11,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 354,
+     "points_opp": 130,
+     "points_diff": 224
+    },
+    {
+     "id": "Arizona State",
+     "name": "Arizona State",
+     "season": 1975,
+     "team": "Arizona State",
+     "age": null,
+     "year_raw": "1975",
+     "ranker": 5,
+     "year_id": 1975,
+     "team_name_abbr": "Arizona State",
+     "wins": 12,
+     "games": 11,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 330,
+     "points_opp": 113,
+     "points_diff": 217
+    }
+   ],
+   "text": "Most wins in a season in the 1970s: Nebraska, 1971 — 13-0.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Win totals are the first thing fans cite for a program's golden age."
+  },
+  {
+   "n": 60,
    "kind": "extreme",
    "rule": "t:tx_rush",
    "group": "P",
@@ -5362,10 +6972,149 @@
     }
    ],
    "text": "Most team rushing yards in a season in the 1970s: Oklahoma, 1971 — 5,196.",
-   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Team rushing yardage recalls the option and power-run eras."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Team rushing yardage recalls the option and power-run eras."
   },
   {
-   "n": 46,
+   "n": 61,
+   "kind": "extreme",
+   "rule": "t:tx_teamtot",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=tot_yds&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=tot_yds"
+   },
+   "evidence": [
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma",
+     "season": 1971,
+     "team": "Oklahoma",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 1,
+     "year_id": 1971,
+     "team_name_abbr": "Oklahoma",
+     "tot_yds": 6232,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 494,
+     "points_opp": 195,
+     "points_diff": 299,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "Arizona State",
+     "name": "Arizona State",
+     "season": 1973,
+     "team": "Arizona State",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 2,
+     "year_id": 1973,
+     "team_name_abbr": "Arizona State",
+     "tot_yds": 6220,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 491,
+     "points_opp": 164,
+     "points_diff": 327,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "BYU",
+     "name": "BYU",
+     "season": 1979,
+     "team": "BYU",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 3,
+     "year_id": 1979,
+     "team_name_abbr": "BYU",
+     "tot_yds": 5735,
+     "games": 11,
+     "wins": 11,
+     "losses": 1,
+     "ties": 0,
+     "win_loss_pct": 0.917,
+     "points": 447,
+     "points_opp": 125,
+     "points_diff": 322,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "Arizona State",
+     "name": "Arizona State",
+     "season": 1972,
+     "team": "Arizona State",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 4,
+     "year_id": 1972,
+     "team_name_abbr": "Arizona State",
+     "tot_yds": 5681,
+     "games": 11,
+     "wins": 10,
+     "losses": 2,
+     "ties": 0,
+     "win_loss_pct": 0.833,
+     "points": 513,
+     "points_opp": 261,
+     "points_diff": 252,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    },
+    {
+     "id": "Nevada-Las Vegas",
+     "name": "Nevada-Las Vegas",
+     "season": 1979,
+     "team": "Nevada-Las Vegas",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 5,
+     "year_id": 1979,
+     "team_name_abbr": "Nevada-Las Vegas",
+     "tot_yds": 5665,
+     "games": 12,
+     "wins": 9,
+     "losses": 1,
+     "ties": 2,
+     "win_loss_pct": 0.833,
+     "points": 370,
+     "points_opp": 300,
+     "points_diff": 70,
+     "fumbles": "",
+     "fumbles_lost": "",
+     "turnovers": ""
+    }
+   ],
+   "text": "Most total yards by a team in a season in the 1970s: Oklahoma, 1971 — 6,232.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Total offense crowns the era's juggernaut offenses."
+  },
+  {
+   "n": 62,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -5518,7 +7267,7 @@
    "why": "Program bragging rights; alumni and rivals both engage. Scoring totals are universal; no explanation needed."
   },
   {
-   "n": 47,
+   "n": 63,
    "group": "P",
    "decade": "1970s",
    "finder": {
@@ -5667,7 +7416,7 @@
    "why": "School-pride bait: San Diego State's fans will share it. Total offense crowns the do-it-all college quarterback."
   },
   {
-   "n": 48,
+   "n": 64,
    "kind": "total",
    "rule": "p:t_py",
    "group": "P",
@@ -5829,7 +7578,7 @@
    "why": "A decade-long view that settles consistency debates. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
-   "n": 49,
+   "n": 65,
    "kind": "total",
    "rule": "p:t_ry",
    "group": "P",
@@ -5946,7 +7695,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
-   "n": 50,
+   "n": 66,
    "kind": "total",
    "rule": "p:t_rec",
    "group": "P",
@@ -6063,7 +7812,7 @@
    "why": "A decade-long view that settles consistency debates. Catch totals put possession receivers in the spotlight."
   },
   {
-   "n": 51,
+   "n": 67,
    "kind": "total",
    "rule": "p:t_recy",
    "group": "P",
@@ -6180,7 +7929,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Receiving yardage seasons anchor every receiver ranking."
   },
   {
-   "n": 52,
+   "n": 68,
    "kind": "total",
    "rule": "p:t_tot",
    "group": "P",
@@ -6297,7 +8046,7 @@
    "why": "A decade-long view that settles consistency debates. Total offense crowns the do-it-all college quarterback."
   },
   {
-   "n": 53,
+   "n": 69,
    "kind": "total",
    "rule": "p:t_ptd",
    "group": "P",
@@ -6459,7 +8208,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 54,
+   "n": 70,
    "kind": "total",
    "rule": "p:t_rtd",
    "group": "P",
@@ -6576,7 +8325,7 @@
    "why": "A decade-long view that settles consistency debates. Goal-line dominance is easy to picture and easy to share."
   },
   {
-   "n": 55,
+   "n": 71,
    "kind": "total",
    "rule": "p:t_alltd",
    "group": "P",
@@ -6718,7 +8467,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Touchdown totals are the simplest scoring stat to share."
   },
   {
-   "n": 56,
+   "n": 72,
    "kind": "nearmiss",
    "rule": "p:n_recy",
    "group": "P",
@@ -6762,7 +8511,182 @@
    "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
-   "n": 57,
+   "n": 73,
+   "rule": "p:alltd20",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=all_td&order_by_asc=0&ccomp[1]=gt&cval[1]=19&cstat[1]=all_td"
+   },
+   "evidence": [
+    {
+     "id": "lydell-mitchell-1",
+     "name": "Lydell Mitchell",
+     "season": 1971,
+     "team": "Penn State",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 1,
+     "name_display": "Lydell Mitchell",
+     "all_td": 29,
+     "year_id": 1971,
+     "teams_played_for": "Penn State",
+     "games": 11,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 174,
+     "class": ""
+    },
+    {
+     "id": "terry-metcalf-1",
+     "name": "Terry Metcalf",
+     "season": 1971,
+     "team": "Long Beach State",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 2,
+     "name_display": "Terry Metcalf",
+     "all_td": 29,
+     "year_id": 1971,
+     "teams_played_for": "Long Beach State",
+     "games": 12,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 174,
+     "class": ""
+    },
+    {
+     "id": "pete-johnson-3",
+     "name": "Pete Johnson",
+     "season": 1975,
+     "team": "Ohio State",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1975",
+     "ranker": 3,
+     "name_display": "Pete Johnson",
+     "all_td": 25,
+     "year_id": 1975,
+     "teams_played_for": "Ohio State",
+     "games": 11,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 156,
+     "class": ""
+    },
+    {
+     "id": "ed-marinaro-1",
+     "name": "Ed Marinaro",
+     "season": 1971,
+     "team": "Cornell",
+     "pos": "",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 4,
+     "name_display": "Ed Marinaro",
+     "all_td": 24,
+     "year_id": 1971,
+     "teams_played_for": "Cornell",
+     "games": 9,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 144,
+     "class": ""
+    },
+    {
+     "id": "billy-sims-1",
+     "name": "Billy Sims",
+     "season": 1979,
+     "team": "Oklahoma",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1979",
+     "ranker": 5,
+     "name_display": "Billy Sims",
+     "all_td": 22,
+     "year_id": 1979,
+     "teams_played_for": "Oklahoma",
+     "games": 11,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": 0,
+     "safety_md": "",
+     "scoring": 132,
+     "class": ""
+    },
+    {
+     "id": "keith-barnette-1",
+     "name": "Keith Barnette",
+     "season": 1974,
+     "team": "Boston College",
+     "pos": "RB",
+     "age": null,
+     "year_raw": "1974",
+     "ranker": 6,
+     "name_display": "Keith Barnette",
+     "all_td": 22,
+     "year_id": 1974,
+     "teams_played_for": "Boston College",
+     "games": 11,
+     "xpm": 0,
+     "xpa": 0,
+     "xp_pct": "",
+     "fgm": 0,
+     "fga": 0,
+     "fg_pct": "",
+     "two_pt_md": "",
+     "safety_md": "",
+     "scoring": 132,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 3.725,
+   "players": [
+    {
+     "id": "lydell-mitchell-1",
+     "name": "Lydell Mitchell"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "19 major-college players scored 19 touchdowns in the 1970s (20 seasons). The most extreme: Lydell Mitchell, 1971 — 29 TD.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Touchdown totals are the simplest scoring stat to share."
+  },
+  {
+   "n": 74,
    "rule": "p:rtd_hi",
    "group": "P",
    "decade": "1970s",
@@ -6904,10 +8828,10 @@
     1971
    ],
    "text": "6 major-college players ran for 22 touchdowns in the 1970s. The most extreme: Terry Metcalf, 1971 — 28 rush TD.",
-   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Goal-line dominance is easy to picture and easy to share."
+   "why": "Leads with the most extreme case, which carries the post. Goal-line dominance is easy to picture and easy to share."
   },
   {
-   "n": 58,
+   "n": 75,
    "rule": "p:rtd_rec",
    "group": "P",
    "decade": "1970s",
@@ -7049,10 +8973,10 @@
     1971
    ],
    "text": "11 major-college players ran for 15 touchdowns while averaging 6 yards a carry in the 1970s (12 seasons). The most extreme: Terry Metcalf, 1971 — 28 TD, 6.3 ypc.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring volume plus efficiency is the complete-back case."
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Scoring volume plus efficiency is the complete-back case."
   },
   {
-   "n": 59,
+   "n": 76,
    "rule": "p:int_hi",
    "group": "P",
    "decade": "1970s",
@@ -7248,10 +9172,10 @@
     1972
    ],
    "text": "29 major-college players threw 22 interceptions in the 1970s (30 seasons). The most extreme: Don Strock, 1972 — 27 INT, 16 TD.",
-   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Turnover-heavy seasons are the most shared kind of chaos stat."
+   "why": "Leads with the most extreme case, which carries the post. Turnover-heavy seasons are the most shared kind of chaos stat."
   },
   {
-   "n": 60,
+   "n": 77,
    "rule": "t:perfect",
    "group": "P",
    "decade": "1970s",
@@ -7387,10 +9311,10 @@
     1971
    ],
    "text": "13 major-college teams went unbeaten and untied (8+ games) in the 1970s (15 seasons). The most extreme: Nebraska, 1971 — 13-0, 469-98 on the season.",
-   "why": "Leads with the most extreme case, which carries the post. Perfect seasons are the ultimate bragging right for a program."
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Perfect seasons are the ultimate bragging right for a program."
   },
   {
-   "n": 61,
+   "n": 78,
    "rule": "t:wins_hi",
    "group": "P",
    "decade": "1970s",
@@ -7526,10 +9450,209 @@
     1971
    ],
    "text": "7 major-college teams won 12 games in the 1970s (9 seasons). The most extreme: Nebraska, 1971 — 13-0.",
-   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Win totals are the first thing fans cite for a program's golden age."
+   "why": "Leads with the most extreme case, which carries the post. Win totals are the first thing fans cite for a program's golden age."
   },
   {
-   "n": 62,
+   "n": 79,
+   "rule": "p:int_pct",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&order_by=pass_int_pct&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=pass_att&ccomp[2]=gt&cval[2]=7&cstat[2]=pass_int_pct"
+   },
+   "evidence": [
+    {
+     "id": "tom-schultze-1",
+     "name": "Tom Schultze",
+     "season": 1973,
+     "team": "Virginia Military Institute",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 1,
+     "name_display": "Tom Schultze",
+     "pass_int_pct": 11.2,
+     "pass_att": 242,
+     "year_id": 1973,
+     "teams_played_for": "Virginia Military Institute",
+     "games": 11,
+     "pass_cmp": 116,
+     "pass_inc": 126,
+     "pass_cmp_pct": 47.9,
+     "pass_yds": 1400,
+     "pass_td": 6,
+     "pass_int": 27,
+     "pass_td_pct": 2.5,
+     "pass_rating": 82.4,
+     "pass_yds_per_att": 5.8,
+     "pass_adj_yds_per_att": 1.26,
+     "pass_yds_per_cmp": 12.1,
+     "pass_yds_per_g": 127.3,
+     "class": ""
+    },
+    {
+     "id": "chris-rowland-1",
+     "name": "Chris Rowland",
+     "season": 1973,
+     "team": "Washington",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1973",
+     "ranker": 2,
+     "name_display": "Chris Rowland",
+     "pass_int_pct": 10.3,
+     "pass_att": 234,
+     "year_id": 1973,
+     "teams_played_for": "Washington",
+     "games": 11,
+     "pass_cmp": 97,
+     "pass_inc": 137,
+     "pass_cmp_pct": 41.5,
+     "pass_yds": 1521,
+     "pass_td": 15,
+     "pass_int": 24,
+     "pass_td_pct": 6.4,
+     "pass_rating": 96.7,
+     "pass_yds_per_att": 6.5,
+     "pass_adj_yds_per_att": 3.17,
+     "pass_yds_per_cmp": 15.7,
+     "pass_yds_per_g": 138.3,
+     "class": ""
+    },
+    {
+     "id": "steve-endicott-1",
+     "name": "Steve Endicott",
+     "season": 1971,
+     "team": "Oregon State",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 3,
+     "name_display": "Steve Endicott",
+     "pass_int_pct": 9.9,
+     "pass_att": 203,
+     "year_id": 1971,
+     "teams_played_for": "Oregon State",
+     "games": 11,
+     "pass_cmp": 105,
+     "pass_inc": 98,
+     "pass_cmp_pct": 51.7,
+     "pass_yds": 1334,
+     "pass_td": 9,
+     "pass_int": 20,
+     "pass_td_pct": 4.4,
+     "pass_rating": 101.9,
+     "pass_yds_per_att": 6.6,
+     "pass_adj_yds_per_att": 3.02,
+     "pass_yds_per_cmp": 12.7,
+     "pass_yds_per_g": 121.3,
+     "class": ""
+    },
+    {
+     "id": "steve-skiver-1",
+     "name": "Steve Skiver",
+     "season": 1970,
+     "team": "Ohio",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 4,
+     "name_display": "Steve Skiver",
+     "pass_int_pct": 9.6,
+     "pass_att": 229,
+     "year_id": 1970,
+     "teams_played_for": "Ohio",
+     "games": 9,
+     "pass_cmp": 107,
+     "pass_inc": 122,
+     "pass_cmp_pct": 46.7,
+     "pass_yds": 1417,
+     "pass_td": 8,
+     "pass_int": 22,
+     "pass_td_pct": 3.5,
+     "pass_rating": 91,
+     "pass_yds_per_att": 6.2,
+     "pass_adj_yds_per_att": 2.56,
+     "pass_yds_per_cmp": 13.2,
+     "pass_yds_per_g": 157.4,
+     "class": ""
+    },
+    {
+     "id": "maurie-daigneau-1",
+     "name": "Maurie Daigneau",
+     "season": 1971,
+     "team": "Northwestern",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 5,
+     "name_display": "Maurie Daigneau",
+     "pass_int_pct": 9.5,
+     "pass_att": 264,
+     "year_id": 1971,
+     "teams_played_for": "Northwestern",
+     "games": 11,
+     "pass_cmp": 125,
+     "pass_inc": 139,
+     "pass_cmp_pct": 47.3,
+     "pass_yds": 1733,
+     "pass_td": 6,
+     "pass_int": 25,
+     "pass_td_pct": 2.3,
+     "pass_rating": 91.1,
+     "pass_yds_per_att": 6.6,
+     "pass_adj_yds_per_att": 2.76,
+     "pass_yds_per_cmp": 13.9,
+     "pass_yds_per_g": 157.5,
+     "class": ""
+    },
+    {
+     "id": "eddie-mcashan-1",
+     "name": "Eddie McAshan",
+     "season": 1970,
+     "team": "Georgia Tech",
+     "pos": "QB",
+     "age": null,
+     "year_raw": "1970",
+     "ranker": 6,
+     "name_display": "Eddie McAshan",
+     "pass_int_pct": 9.4,
+     "pass_att": 223,
+     "year_id": 1970,
+     "teams_played_for": "Georgia Tech",
+     "games": 11,
+     "pass_cmp": 110,
+     "pass_inc": 113,
+     "pass_cmp_pct": 49.3,
+     "pass_yds": 1138,
+     "pass_td": 9,
+     "pass_int": 21,
+     "pass_td_pct": 4,
+     "pass_rating": 86.7,
+     "pass_yds_per_att": 5.1,
+     "pass_adj_yds_per_att": 1.67,
+     "pass_yds_per_cmp": 10.3,
+     "pass_yds_per_g": 103.5,
+     "class": ""
+    }
+   ],
+   "seasonsMatched": 83,
+   "kind": "list",
+   "score": 3.28,
+   "players": [
+    {
+     "id": "tom-schultze-1",
+     "name": "Tom Schultze"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "76 major-college players threw an interception on 7% of their passes (200+ attempts) in the 1970s (83 seasons). The most extreme: Tom Schultze, 1973 — 11.2% (27 INT).",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Interception rate exposes a turnover problem better than raw totals."
+  },
+  {
+   "n": 80,
    "rule": "t:winless",
    "group": "P",
    "decade": "1970s",
@@ -7668,7 +9791,7 @@
    "why": "Leads with the most extreme case, which carries the post. Futility stats are among the most shared in sports."
   },
   {
-   "n": 63,
+   "n": 81,
    "rule": "t:unbeaten_tie",
    "group": "P",
    "decade": "1970s",
@@ -7807,7 +9930,7 @@
    "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Unbeaten but tied: an old-era oddity modern fans find strange."
   },
   {
-   "n": 64,
+   "n": 82,
    "rule": "t:loss_hi",
    "group": "P",
    "decade": "1970s",
@@ -7946,7 +10069,7 @@
    "why": "Leads with the most extreme case, which carries the post. Losing seasons are what rival fans remember best."
   },
   {
-   "n": 65,
+   "n": 83,
    "rule": "p:ypc_hi",
    "group": "P",
    "decade": "1970s",
@@ -8089,15 +10212,232 @@
    ],
    "text": "9 major-college players averaged 7 yards a carry (150+ carries) in the 1970s. The most extreme: Greg Pruitt, 1971 — 9.4 ypc on 178.",
    "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Big-play running efficiency starts debates about who was really best."
+  },
+  {
+   "n": 84,
+   "rule": "t:no_pass",
+   "group": "P",
+   "decade": "1970s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1970&year_max=1979&order_by=pass_yds&order_by_asc=1&ccomp[1]=gt&cval[1]=10&cstat[1]=games&ccomp[2]=lt&cval[2]=999&cstat[2]=pass_yds"
+   },
+   "evidence": [
+    {
+     "id": "Pacific",
+     "name": "Pacific",
+     "season": 1972,
+     "team": "Pacific",
+     "age": null,
+     "year_raw": "1972",
+     "ranker": 1,
+     "year_id": 1972,
+     "team_name_abbr": "Pacific",
+     "pass_yds": 315,
+     "games": 11,
+     "wins": 8,
+     "losses": 3,
+     "ties": 0,
+     "win_loss_pct": 0.727,
+     "points": 232,
+     "points_opp": 176,
+     "points_diff": 56,
+     "pass_cmp": 23,
+     "pass_att": 70,
+     "pass_inc": 47,
+     "pass_cmp_pct": 32.9,
+     "pass_td": 3,
+     "pass_int": 5,
+     "pass_td_pct": 4.3,
+     "pass_int_pct": 7.1,
+     "pass_rating": 70.5,
+     "pass_yds_per_att": 4.5,
+     "pass_adj_yds_per_att": 2.14,
+     "pass_yds_per_cmp": 13.7
+    },
+    {
+     "id": "Wake Forest",
+     "name": "Wake Forest",
+     "season": 1971,
+     "team": "Wake Forest",
+     "age": null,
+     "year_raw": "1971",
+     "ranker": 2,
+     "year_id": 1971,
+     "team_name_abbr": "Wake Forest",
+     "pass_yds": 340,
+     "games": 11,
+     "wins": 6,
+     "losses": 5,
+     "ties": 0,
+     "win_loss_pct": 0.545,
+     "points": 218,
+     "points_opp": 178,
+     "points_diff": 40,
+     "pass_cmp": 32,
+     "pass_att": 80,
+     "pass_inc": 48,
+     "pass_cmp_pct": 40,
+     "pass_td": 2,
+     "pass_int": 4,
+     "pass_td_pct": 2.5,
+     "pass_int_pct": 5,
+     "pass_rating": 74,
+     "pass_yds_per_att": 4.3,
+     "pass_adj_yds_per_att": 2.5,
+     "pass_yds_per_cmp": 10.6
+    },
+    {
+     "id": "Georgia Tech",
+     "name": "Georgia Tech",
+     "season": 1977,
+     "team": "Georgia Tech",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 3,
+     "year_id": 1977,
+     "team_name_abbr": "Georgia Tech",
+     "pass_yds": 344,
+     "games": 11,
+     "wins": 6,
+     "losses": 5,
+     "ties": 0,
+     "win_loss_pct": 0.545,
+     "points": 224,
+     "points_opp": 221,
+     "points_diff": 3,
+     "pass_cmp": 23,
+     "pass_att": 64,
+     "pass_inc": 41,
+     "pass_cmp_pct": 35.9,
+     "pass_td": 4,
+     "pass_int": 7,
+     "pass_td_pct": 6.3,
+     "pass_int_pct": 10.9,
+     "pass_rating": 79.8,
+     "pass_yds_per_att": 5.4,
+     "pass_adj_yds_per_att": 1.7,
+     "pass_yds_per_cmp": 15
+    },
+    {
+     "id": "Kansas",
+     "name": "Kansas",
+     "season": 1975,
+     "team": "Kansas",
+     "age": null,
+     "year_raw": "1975",
+     "ranker": 4,
+     "year_id": 1975,
+     "team_name_abbr": "Kansas",
+     "pass_yds": 446,
+     "games": 11,
+     "wins": 7,
+     "losses": 5,
+     "ties": 0,
+     "win_loss_pct": 0.583,
+     "points": 243,
+     "points_opp": 147,
+     "points_diff": 96,
+     "pass_cmp": 32,
+     "pass_att": 83,
+     "pass_inc": 51,
+     "pass_cmp_pct": 38.6,
+     "pass_td": 4,
+     "pass_int": 5,
+     "pass_td_pct": 4.8,
+     "pass_int_pct": 6,
+     "pass_rating": 87.5,
+     "pass_yds_per_att": 5.4,
+     "pass_adj_yds_per_att": 3.63,
+     "pass_yds_per_cmp": 13.9
+    },
+    {
+     "id": "Villanova",
+     "name": "Villanova",
+     "season": 1977,
+     "team": "Villanova",
+     "age": null,
+     "year_raw": "1977",
+     "ranker": 5,
+     "year_id": 1977,
+     "team_name_abbr": "Villanova",
+     "pass_yds": 454,
+     "games": 11,
+     "wins": 4,
+     "losses": 7,
+     "ties": 0,
+     "win_loss_pct": 0.364,
+     "points": 231,
+     "points_opp": 238,
+     "points_diff": -7,
+     "pass_cmp": 32,
+     "pass_att": 89,
+     "pass_inc": 57,
+     "pass_cmp_pct": 36,
+     "pass_td": 6,
+     "pass_int": 4,
+     "pass_td_pct": 6.7,
+     "pass_int_pct": 4.5,
+     "pass_rating": 92.1,
+     "pass_yds_per_att": 5.1,
+     "pass_adj_yds_per_att": 4.43,
+     "pass_yds_per_cmp": 14.2
+    },
+    {
+     "id": "Oklahoma",
+     "name": "Oklahoma",
+     "season": 1976,
+     "team": "Oklahoma",
+     "age": null,
+     "year_raw": "1976",
+     "ranker": 6,
+     "year_id": 1976,
+     "team_name_abbr": "Oklahoma",
+     "pass_yds": 455,
+     "games": 11,
+     "wins": 9,
+     "losses": 2,
+     "ties": 1,
+     "win_loss_pct": 0.792,
+     "points": 285,
+     "points_opp": 185,
+     "points_diff": 100,
+     "pass_cmp": 21,
+     "pass_att": 58,
+     "pass_inc": 37,
+     "pass_cmp_pct": 36.2,
+     "pass_td": 2,
+     "pass_int": 8,
+     "pass_td_pct": 3.4,
+     "pass_int_pct": 13.8,
+     "pass_rating": 85.9,
+     "pass_yds_per_att": 7.8,
+     "pass_adj_yds_per_att": 2.33,
+     "pass_yds_per_cmp": 21.7
+    }
+   ],
+   "seasonsMatched": 249,
+   "kind": "list",
+   "score": 3,
+   "players": [
+    {
+     "id": "Pacific",
+     "name": "Pacific"
+    }
+   ],
+   "seasons": [
+    1972
+   ],
+   "text": "More than 249 major-college team-seasons of the 1970s threw for fewer than 1,000 yards. The most extreme: Pacific, 1972 — 315 pass yds, 8-3.",
+   "why": "Leads with the most extreme case, which carries the post. Winning while barely throwing is an option-era oddity modern fans find wild."
   }
  ],
  "counts": {
-  "stathead_queries": 83
+  "stathead_queries": 111
  },
  "shortNote": null,
  "method": [
   "College football: each line is one Stathead (Sports Reference college football) Season Finder query over the decade, run in a signed-in subscriber session; result rows and stable ids are stored as provenance. Counts cover the database's major-college (today's FBS) programs, the scope of Sports Reference's college records.",
   "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier; college defensive statistics were long unofficial, so defensive lines count only the players whose figures the database holds. 'Freshman' follows the database's class label, which includes redshirt freshmen. Seasons include bowl games where the database counts them. The 1860s hold a single season (1869), too little to support a line."
  ],
- "generatedAt": "2026-09-28T06:50:56.969Z"
+ "generatedAt": "2026-09-28T08:27:30.693Z"
 }

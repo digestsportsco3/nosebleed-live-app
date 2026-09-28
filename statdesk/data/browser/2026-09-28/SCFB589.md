@@ -1,24 +1,38 @@
-# SCFB589 — College Football 2000s p:rate_hi
+# SCFB589 — College Football 2000s p:qb_rtd
 
 - Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
-- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&order_by=pass_rating&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=pass_att&ccomp[2]=gt&cval[2]=175&cstat[2]=pass_rating
-- Timestamp: 2026-09-28T07:03:11.528Z
-- Rows read: 8
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&order_by=rush_td&order_by_asc=0&ccomp[1]=gt&cval[1]=15&cstat[1]=rush_td&positions[]=qb
+- Timestamp: 2026-09-28T08:46:26.740Z
+- Rows read: 22
 
 ## Result table
 
 ```
-header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_rating | pass_att | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
- |  |  | 1 | Ryan Dinwiddie | 188.2 | 205 | 2002 | Boise State | 9 | 134 | 205 | 71 | 65.4 | 2283 | 20 | 3 | 9.8 | 1.5 | 188.2 | 11.1 | 12.43 | 17.0 | 253.7 | QB | JR
- |  |  | 2 | Colt Brennan | 186.0 | 559 | 2006 | Hawaii | 14 | 406 | 559 | 153 | 72.6 | 5549 | 58 | 12 | 10.4 | 2.1 | 186.0 | 9.9 | 11.04 | 13.7 | 396.4 | QB | JR
- |  |  | 3 | Stefan Lefors | 181.7 | 257 | 2004 | Louisville | 12 | 189 | 257 | 68 | 73.5 | 2596 | 20 | 3 | 7.8 | 1.2 | 181.7 | 10.1 | 11.13 | 13.7 | 216.3 | QB | SR
- |  |  | 4 | Sam Bradford | 180.8 | 483 | 2008 | Oklahoma | 14 | 328 | 483 | 155 | 67.9 | 4720 | 50 | 8 | 10.4 | 1.7 | 180.8 | 9.8 | 11.10 | 14.4 | 337.1 | QB | SO
- |  |  | 5 | David Johnson | 178.7 | 400 | 2008 | Tulsa | 14 | 258 | 400 | 142 | 64.5 | 4059 | 46 | 18 | 11.5 | 4.5 | 178.7 | 10.1 | 10.42 | 15.7 | 289.9 | QB | SR
- |  |  | 6 | Sam Bradford | 176.5 | 341 | 2007 | Oklahoma | 14 | 237 | 341 | 104 | 69.5 | 3121 | 36 | 8 | 10.6 | 2.3 | 176.5 | 9.2 | 10.21 | 13.2 | 222.9 | QB | FR
- |  |  | 7 | Alex Smith | 176.5 | 317 | 2004 | Utah | 12 | 214 | 317 | 103 | 67.5 | 2952 | 32 | 4 | 10.1 | 1.3 | 176.5 | 9.3 | 10.76 | 13.8 | 246.0 | QB | JR
- |  |  | 8 | Rudy Carpenter | 175.0 | 228 | 2005 | Arizona State | 9 | 156 | 228 | 72 | 68.4 | 2273 | 17 | 2 | 7.5 | 0.9 | 175.0 | 10.0 | 11.07 | 14.6 | 252.6 | QB | FR
+header_empty_0 | header_rush | header_empty_2 | ranker | name_display | rush_td | year_id | teams_played_for | games | rush_att | rush_yds | rush_yds_per_att | rush_td | rush_yds_per_g | pos | class
+ |  |  | 1 | Ricky Dobbs | 27 | 2009 | Navy | 13 | 315 | 1203 | 3.8 | 27 | 92.5 | QB | JR
+ |  |  | 2 | Tim Tebow | 23 | 2007 | Florida | 13 | 210 | 895 | 4.3 | 23 | 68.8 | QB | SO
+ |  |  | 3 | Chance Harridge | 22 | 2002 | Air Force | 13 | 252 | 1229 | 4.9 | 22 | 94.5 | QB | JR
+ |  |  | 4 | Eric Crouch | 20 | 2000 | Nebraska | 11 | 169 | 971 | 5.7 | 20 | 88.3 | QB | JR
+ |  |  | 5 | Josh Harris | 20 | 2002 | Bowling Green | 12 | 186 | 737 | 4.0 | 20 | 61.4 | QB | JR
+ |  |  | 6 | Dan Lefevour | 19 | 2007 | Central Michigan | 14 | 188 | 1122 | 6.0 | 19 | 80.1 | QB | SO
+ |  |  | 7 | Brad Smith | 18 | 2003 | Missouri | 13 | 212 | 1406 | 6.6 | 18 | 108.2 | QB | SO
+ |  |  | 8 | Eric Crouch | 18 | 2001 | Nebraska | 12 | 203 | 1115 | 5.5 | 18 | 92.9 | QB | SR
+ |  |  | 9 | Josh Nesbitt | 18 | 2009 | Georgia Tech | 14 | 279 | 1037 | 3.7 | 18 | 74.1 | QB | JR
+ |  |  | 10 | Keith Boyea | 18 | 2001 | Air Force | 12 | 230 | 1216 | 5.3 | 18 | 101.3 | QB | SR
+ |  |  | 11 | Pat White | 18 | 2006 | West Virginia | 12 | 165 | 1219 | 7.4 | 18 | 101.6 | QB | SO
+ |  |  | 12 | Colin Kaepernick | 17 | 2008 | Nevada | 13 | 161 | 1130 | 7.0 | 17 | 86.9 | QB | SO
+ |  |  | 13 | Jonathan Beasley | 17 | 2000 | Kansas State | 13 | 149 | 499 | 3.3 | 17 | 38.4 | QB | SR
+ |  |  | 14 | Aaron Polanco | 16 | 2004 | Navy | 12 | 246 | 980 | 4.0 | 16 | 81.7 | QB | SR
+ |  |  | 15 | Brad Smith | 16 | 2005 | Missouri | 12 | 229 | 1301 | 5.7 | 16 | 108.4 | QB | SR
+ |  |  | 16 | Colin Kaepernick | 16 | 2009 | Nevada | 13 | 161 | 1183 | 7.3 | 16 | 91.0 | QB | JR
+ |  |  | 17 | Craig Candeto | 16 | 2003 | Navy | 13 | 271 | 1112 | 4.1 | 16 | 85.5 | QB | SR
+ |  |  | 18 | Craig Candeto | 16 | 2002 | Navy | 11 | 177 | 775 | 4.4 | 16 | 70.5 | QB | JR
+ |  |  | 19 | Ell Roberson | 16 | 2002 | Kansas State | 12 | 202 | 1032 | 5.1 | 16 | 86.0 | QB | JR
+ |  |  | 20 | Dan Lefevour | 15 | 2009 | Central Michigan | 14 | 183 | 713 | 3.9 | 15 | 50.9 | QB | SR
+ |  |  | 21 | Ell Roberson | 15 | 2003 | Kansas State | 13 | 227 | 975 | 4.3 | 15 | 75.0 | QB | SR
+ |  |  | 22 | Walter Washington | 15 | 2004 | Temple | 11 | 222 | 889 | 4.0 | 15 | 80.8 | QB | JR
 ```
 
 ## Claim check
 
-- Complete set: all 8 rows read. A superlative may be asserted only if it holds across every row above.
+- Complete set: all 22 rows read. A superlative may be asserted only if it holds across every row above.
