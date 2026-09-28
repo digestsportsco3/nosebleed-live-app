@@ -1,0 +1,9932 @@
+{
+ "sport": "NBA",
+ "decade": "2000s",
+ "era": 5,
+ "bars": {
+  "ppg": 25,
+  "ppgHi": 30,
+  "fgLow": 0.42,
+  "fgHi": 0.56,
+  "rpg": 12,
+  "apg": 9,
+  "pts": 2000
+ },
+ "seasons": [
+  "2000-01",
+  "2001-02",
+  "2002-03",
+  "2003-04",
+  "2004-05",
+  "2005-06",
+  "2006-07",
+  "2007-08",
+  "2008-09",
+  "2009-10"
+ ],
+ "candidates": 130,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "po_ft",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "season": 2000,
+     "team": "SAC",
+     "GP": 8,
+     "PTS": 173,
+     "PPG": 21.6,
+     "REB": 51,
+     "AST": 3,
+     "STL": 5,
+     "BLK": 3,
+     "FGM": 52,
+     "FGA": 128,
+     "FG3M": 9,
+     "FG3A": 26,
+     "FTM": 60,
+     "FTA": 62,
+     "MIN": 307,
+     "PF": 17,
+     "TOV": 18
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.419354838709678,
+   "players": [
+    {
+     "id": 978,
+     "name": "Peja Stojakovic"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "The only player of the 2000s to shoot .950 from the line in a single postseason (60+ FTA): Peja Stojakovic, 2000-01 — .968 on 62 FTA."
+  },
+  {
+   "n": 2,
+   "rule": "stocks",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2222,
+     "name": "Gerald Wallace",
+     "season": 2005,
+     "team": "CHA",
+     "GP": 55,
+     "PTS": 836,
+     "PPG": 15.2,
+     "REB": 412,
+     "AST": 96,
+     "STL": 138,
+     "BLK": 115,
+     "FGM": 317,
+     "FGA": 589,
+     "FG3M": 14,
+     "FG3A": 50,
+     "FTM": 188,
+     "FTA": 306,
+     "MIN": 1895,
+     "PF": 150,
+     "TOV": 99
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.15,
+   "players": [
+    {
+     "id": 2222,
+     "name": "Gerald Wallace"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "The only player of the 2000s to average 2 steals and 2 blocks (60% of games): Gerald Wallace, 2005-06 — 2.5 spg, 2.1 bpg."
+  },
+  {
+   "n": 3,
+   "rule": "fifty_forty_ninety",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1371,
+     "PPG": 16.9,
+     "REB": 282,
+     "AST": 898,
+     "STL": 53,
+     "BLK": 5,
+     "FGM": 485,
+     "FGA": 962,
+     "FG3M": 179,
+     "FG3A": 381,
+     "FTM": 222,
+     "FTA": 245,
+     "MIN": 2780,
+     "PF": 113,
+     "TOV": 295
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2008,
+     "team": "PHX",
+     "GP": 74,
+     "PTS": 1160,
+     "PPG": 15.7,
+     "REB": 223,
+     "AST": 717,
+     "STL": 55,
+     "BLK": 10,
+     "FGM": 428,
+     "FGA": 851,
+     "FG3M": 108,
+     "FG3A": 246,
+     "FTM": 196,
+     "FTA": 210,
+     "MIN": 2484,
+     "PF": 108,
+     "TOV": 248
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2005,
+     "team": "PHX",
+     "GP": 79,
+     "PTS": 1489,
+     "PPG": 18.8,
+     "REB": 333,
+     "AST": 826,
+     "STL": 61,
+     "BLK": 12,
+     "FGM": 541,
+     "FGA": 1056,
+     "FG3M": 150,
+     "FG3A": 342,
+     "FTM": 257,
+     "FTA": 279,
+     "MIN": 2796,
+     "PF": 120,
+     "TOV": 276
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2009,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1333,
+     "PPG": 16.5,
+     "REB": 268,
+     "AST": 892,
+     "STL": 42,
+     "BLK": 12,
+     "FGM": 499,
+     "FGA": 985,
+     "FG3M": 124,
+     "FG3A": 291,
+     "FTM": 211,
+     "FTA": 225,
+     "MIN": 2660,
+     "PF": 108,
+     "TOV": 295
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2006,
+     "team": "DAL",
+     "GP": 78,
+     "PTS": 1916,
+     "PPG": 24.6,
+     "REB": 693,
+     "AST": 263,
+     "STL": 52,
+     "BLK": 62,
+     "FGM": 673,
+     "FGA": 1341,
+     "FG3M": 72,
+     "FG3A": 173,
+     "FTM": 498,
+     "FTA": 551,
+     "MIN": 2820,
+     "PF": 171,
+     "TOV": 167
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 959,
+     "name": "Steve Nash"
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki"
+    }
+   ],
+   "seasons": [
+    2007,
+    2008,
+    2005,
+    2009,
+    2006
+   ],
+   "text": "Only two players of the 2000s shot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Steve Nash (4×, best 2007-08: .504/.470/.906); Dirk Nowitzki (2006-07: .502/.416/.904)."
+  },
+  {
+   "n": 4,
+   "rule": "po_triple",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2006,
+     "team": "NJN",
+     "GP": 12,
+     "PTS": 175,
+     "PPG": 14.6,
+     "REB": 131,
+     "AST": 131,
+     "STL": 22,
+     "BLK": 5,
+     "FGM": 64,
+     "FGA": 148,
+     "FG3M": 34,
+     "FG3A": 81,
+     "FTM": 13,
+     "FTA": 25,
+     "MIN": 484,
+     "PF": 31,
+     "TOV": 41
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.910416666666666,
+   "players": [
+    {
+     "id": 467,
+     "name": "Jason Kidd"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "The only player of the 2000s to average a triple-double in a single postseason (8+ playoff games): Jason Kidd, 2006-07 — 14.6/10.9/10.9."
+  },
+  {
+   "n": 5,
+   "rule": "fga_2000",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2005,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 2832,
+     "PPG": 35.4,
+     "REB": 425,
+     "AST": 360,
+     "STL": 147,
+     "BLK": 30,
+     "FGM": 978,
+     "FGA": 2173,
+     "FG3M": 180,
+     "FG3A": 518,
+     "FTM": 696,
+     "FTA": 819,
+     "MIN": 3277,
+     "PF": 233,
+     "TOV": 250
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.905416666666667,
+   "players": [
+    {
+     "id": 977,
+     "name": "Kobe Bryant"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "The only player of the 2000s to attempt 2,000 field goals in a season: Kobe Bryant, 2005-06 — 2,173 FGA."
+  },
+  {
+   "n": 6,
+   "rule": "twenty_ten_ast",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2008,
+     "team": "NOH",
+     "GP": 78,
+     "PTS": 1781,
+     "PPG": 22.8,
+     "REB": 432,
+     "AST": 861,
+     "STL": 216,
+     "BLK": 10,
+     "FGM": 631,
+     "FGA": 1255,
+     "FG3M": 64,
+     "FG3A": 176,
+     "FTM": 455,
+     "FTA": 524,
+     "MIN": 3002,
+     "PF": 212,
+     "TOV": 231
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1684,
+     "PPG": 21.1,
+     "REB": 321,
+     "AST": 925,
+     "STL": 217,
+     "BLK": 4,
+     "FGM": 630,
+     "FGA": 1291,
+     "FG3M": 92,
+     "FG3A": 249,
+     "FTM": 332,
+     "FTA": 390,
+     "MIN": 3006,
+     "PF": 185,
+     "TOV": 201
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 10.846794871794872,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2008,
+    2007
+   ],
+   "text": "The only player of the 2000s to average 20 points and 10 assists (60% of games) was Chris Paul — and he did it twice (2008-09: 22.8 ppg, 11.0 apg; 2007-08: 21.1 ppg, 11.6 apg)."
+  },
+  {
+   "n": 7,
+   "rule": "ftm_700",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2009,
+     "team": "OKC",
+     "GP": 82,
+     "PTS": 2472,
+     "PPG": 30.1,
+     "REB": 623,
+     "AST": 231,
+     "STL": 112,
+     "BLK": 84,
+     "FGM": 794,
+     "FGA": 1668,
+     "FG3M": 128,
+     "FG3A": 351,
+     "FTM": 756,
+     "FTA": 840,
+     "MIN": 3239,
+     "PF": 171,
+     "TOV": 271
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.63,
+   "players": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "text": "The only player of the 2000s to make 700 free throws in a season: Kevin Durant, 2009-10 — 756 FTM."
+  },
+  {
+   "n": 8,
+   "rule": "reb_stl",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1890,
+     "name": "Shawn Marion",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1569,
+     "PPG": 19.4,
+     "REB": 915,
+     "AST": 154,
+     "STL": 163,
+     "BLK": 119,
+     "FGM": 613,
+     "FGA": 1289,
+     "FG3M": 114,
+     "FG3A": 341,
+     "FTM": 229,
+     "FTA": 275,
+     "MIN": 3147,
+     "PF": 199,
+     "TOV": 125
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.533950617283951,
+   "players": [
+    {
+     "id": 1890,
+     "name": "Shawn Marion"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "The only player of the 2000s to average 10 rebounds and 2 steals (60% of games): Shawn Marion, 2004-05 — 11.3 rpg, 2.0 spg."
+  },
+  {
+   "n": 9,
+   "rule": "thirty_inefficient",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2001,
+     "team": "PHI",
+     "GP": 60,
+     "PTS": 1883,
+     "PPG": 31.4,
+     "REB": 269,
+     "AST": 331,
+     "STL": 168,
+     "BLK": 13,
+     "FGM": 665,
+     "FGA": 1669,
+     "FG3M": 78,
+     "FG3A": 268,
+     "FTM": 475,
+     "FTA": 585,
+     "MIN": 2624,
+     "PF": 102,
+     "TOV": 237
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2005,
+     "team": "PHI",
+     "GP": 72,
+     "PTS": 2377,
+     "PPG": 33,
+     "REB": 232,
+     "AST": 532,
+     "STL": 140,
+     "BLK": 10,
+     "FGM": 815,
+     "FGA": 1822,
+     "FG3M": 72,
+     "FG3A": 223,
+     "FTM": 675,
+     "FTA": 829,
+     "MIN": 3103,
+     "PF": 121,
+     "TOV": 248
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2000,
+     "team": "PHI",
+     "GP": 71,
+     "PTS": 2207,
+     "PPG": 31.1,
+     "REB": 273,
+     "AST": 325,
+     "STL": 178,
+     "BLK": 20,
+     "FGM": 762,
+     "FGA": 1813,
+     "FG3M": 98,
+     "FG3A": 306,
+     "FTM": 585,
+     "FTA": 719,
+     "MIN": 2979,
+     "PF": 147,
+     "TOV": 237
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2004,
+     "team": "PHI",
+     "GP": 75,
+     "PTS": 2302,
+     "PPG": 30.7,
+     "REB": 299,
+     "AST": 596,
+     "STL": 180,
+     "BLK": 9,
+     "FGM": 771,
+     "FGA": 1818,
+     "FG3M": 104,
+     "FG3A": 338,
+     "FTM": 656,
+     "FTA": 786,
+     "MIN": 3173,
+     "PF": 140,
+     "TOV": 344
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "only",
+   "score": 10.28653060714999,
+   "players": [
+    {
+     "id": 947,
+     "name": "Allen Iverson"
+    }
+   ],
+   "seasons": [
+    2001,
+    2005,
+    2000,
+    2004
+   ],
+   "text": "The only player of the 2000s to average 30 points on under .450 shooting (60% of games) was Allen Iverson — and he did it 4 times (2001-02: 31.4 ppg, .398 FG; 2005-06: 33.0 ppg, .447 FG; 2000-01: 31.1 ppg, .420 FG; …)."
+  },
+  {
+   "n": 10,
+   "rule": "oreb_over_dreb",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101131,
+     "name": "Jason Maxiell",
+     "season": 2008,
+     "team": "DET",
+     "GP": 78,
+     "PTS": 452,
+     "PPG": 5.8,
+     "REB": 324,
+     "AST": 24,
+     "STL": 25,
+     "BLK": 63,
+     "FGM": 184,
+     "FGA": 320,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 84,
+     "FTA": 158,
+     "MIN": 1408,
+     "PF": 157,
+     "TOV": 45
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.07,
+   "players": [
+    {
+     "id": 101131,
+     "name": "Jason Maxiell"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "The only player of the 2000s to grab more offensive rebounds than defensive (300+ reb): Jason Maxiell, 2008-09 — 169 off, 155 def."
+  },
+  {
+   "n": 11,
+   "rule": "fg_600",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2009,
+     "team": "ORL",
+     "GP": 82,
+     "PTS": 1503,
+     "PPG": 18.3,
+     "REB": 1082,
+     "AST": 144,
+     "STL": 75,
+     "BLK": 228,
+     "FGM": 510,
+     "FGA": 834,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 483,
+     "FTA": 816,
+     "MIN": 2843,
+     "PF": 287,
+     "TOV": 274
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2008,
+     "team": "PHX",
+     "GP": 75,
+     "PTS": 1333,
+     "PPG": 17.8,
+     "REB": 633,
+     "AST": 126,
+     "STL": 49,
+     "BLK": 108,
+     "FGM": 512,
+     "FGA": 841,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 309,
+     "FTA": 519,
+     "MIN": 2252,
+     "PF": 253,
+     "TOV": 168
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2006,
+     "team": "ORL",
+     "GP": 82,
+     "PTS": 1443,
+     "PPG": 17.6,
+     "REB": 1008,
+     "AST": 158,
+     "STL": 70,
+     "BLK": 156,
+     "FGM": 526,
+     "FGA": 873,
+     "FG3M": 1,
+     "FG3A": 2,
+     "FTM": 390,
+     "FTA": 666,
+     "MIN": 3023,
+     "PF": 245,
+     "TOV": 317
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2004,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 1669,
+     "PPG": 22.9,
+     "REB": 760,
+     "AST": 200,
+     "STL": 36,
+     "BLK": 171,
+     "FGM": 658,
+     "FGA": 1095,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 353,
+     "FTA": 765,
+     "MIN": 2490,
+     "PF": 262,
+     "TOV": 203
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2005,
+     "team": "MIA",
+     "GP": 59,
+     "PTS": 1181,
+     "PPG": 20,
+     "REB": 541,
+     "AST": 113,
+     "STL": 23,
+     "BLK": 104,
+     "FGM": 480,
+     "FGA": 800,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 221,
+     "FTA": 471,
+     "MIN": 1806,
+     "PF": 230,
+     "TOV": 168
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 9.528776978417266,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal"
+    }
+   ],
+   "seasons": [
+    2009,
+    2008,
+    2006,
+    2004,
+    2005
+   ],
+   "text": "Only two players of the 2000s shot .600 from the field on 800+ attempts: Dwight Howard (2×, best 2009-10: .612 on 834 FGA); Shaquille O'Neal (3×, best 2008-09: .609 on 841 FGA)."
+  },
+  {
+   "n": 12,
+   "rule": "twenty_ten_five",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "season": 2002,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 1883,
+     "PPG": 23,
+     "REB": 1102,
+     "AST": 495,
+     "STL": 113,
+     "BLK": 129,
+     "FGM": 743,
+     "FGA": 1481,
+     "FG3M": 20,
+     "FG3A": 71,
+     "FTM": 377,
+     "FTA": 502,
+     "MIN": 3321,
+     "PF": 199,
+     "TOV": 229
+    },
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "season": 2004,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 1817,
+     "PPG": 22.2,
+     "REB": 1108,
+     "AST": 466,
+     "STL": 121,
+     "BLK": 112,
+     "FGM": 683,
+     "FGA": 1360,
+     "FG3M": 6,
+     "FG3A": 25,
+     "FTM": 445,
+     "FTA": 549,
+     "MIN": 3121,
+     "PF": 207,
+     "TOV": 222
+    },
+    {
+     "id": 185,
+     "name": "Chris Webber",
+     "season": 2002,
+     "team": "SAC",
+     "GP": 67,
+     "PTS": 1542,
+     "PPG": 23,
+     "REB": 704,
+     "AST": 364,
+     "STL": 106,
+     "BLK": 88,
+     "FGM": 661,
+     "FGA": 1433,
+     "FG3M": 5,
+     "FG3A": 21,
+     "FTM": 215,
+     "FTA": 354,
+     "MIN": 2622,
+     "PF": 204,
+     "TOV": 215
+    },
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "season": 2001,
+     "team": "MIN",
+     "GP": 81,
+     "PTS": 1714,
+     "PPG": 21.2,
+     "REB": 981,
+     "AST": 422,
+     "STL": 96,
+     "BLK": 126,
+     "FGM": 659,
+     "FGA": 1401,
+     "FG3M": 37,
+     "FG3A": 116,
+     "FTM": 359,
+     "FTA": 448,
+     "MIN": 3172,
+     "PF": 184,
+     "TOV": 229
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 9.060975609756097,
+   "players": [
+    {
+     "id": 708,
+     "name": "Kevin Garnett"
+    },
+    {
+     "id": 185,
+     "name": "Chris Webber"
+    }
+   ],
+   "seasons": [
+    2002,
+    2004,
+    2002,
+    2001
+   ],
+   "text": "Only two players of the 2000s averaged 20 points, 10 rebounds and 5 assists (60% of games): Kevin Garnett (3×, best 2002-03: 23.0/13.4/6.0); Chris Webber (2002-03: 23.0/10.5/5.4)."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "s_10rpg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2000,
+     "team": "SAS",
+     "GP": 82,
+     "PTS": 1820,
+     "PPG": 22.2,
+     "REB": 997,
+     "AST": 245,
+     "STL": 70,
+     "BLK": 192,
+     "FGM": 702,
+     "FGA": 1406,
+     "FG3M": 7,
+     "FG3A": 27,
+     "FTM": 409,
+     "FTA": 662,
+     "MIN": 3174,
+     "PF": 247,
+     "TOV": 242
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2001,
+     "team": "SAS",
+     "GP": 82,
+     "PTS": 2089,
+     "PPG": 25.5,
+     "REB": 1042,
+     "AST": 307,
+     "STL": 61,
+     "BLK": 203,
+     "FGM": 764,
+     "FGA": 1504,
+     "FG3M": 1,
+     "FG3A": 10,
+     "FTM": 560,
+     "FTA": 701,
+     "MIN": 3329,
+     "PF": 217,
+     "TOV": 263
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2002,
+     "team": "SAS",
+     "GP": 81,
+     "PTS": 1884,
+     "PPG": 23.3,
+     "REB": 1043,
+     "AST": 316,
+     "STL": 55,
+     "BLK": 237,
+     "FGM": 714,
+     "FGA": 1392,
+     "FG3M": 6,
+     "FG3A": 22,
+     "FTM": 450,
+     "FTA": 634,
+     "MIN": 3181,
+     "PF": 231,
+     "TOV": 248
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2003,
+     "team": "SAS",
+     "GP": 69,
+     "PTS": 1538,
+     "PPG": 22.3,
+     "REB": 859,
+     "AST": 213,
+     "STL": 62,
+     "BLK": 185,
+     "FGM": 592,
+     "FGA": 1181,
+     "FG3M": 2,
+     "FG3A": 12,
+     "FTM": 352,
+     "FTA": 588,
+     "MIN": 2527,
+     "PF": 164,
+     "TOV": 183
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2004,
+     "team": "SAS",
+     "GP": 66,
+     "PTS": 1342,
+     "PPG": 20.3,
+     "REB": 732,
+     "AST": 179,
+     "STL": 45,
+     "BLK": 174,
+     "FGM": 517,
+     "FGA": 1042,
+     "FG3M": 3,
+     "FG3A": 9,
+     "FTM": 305,
+     "FTA": 455,
+     "MIN": 2203,
+     "PF": 144,
+     "TOV": 127
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2005,
+     "team": "SAS",
+     "GP": 80,
+     "PTS": 1485,
+     "PPG": 18.6,
+     "REB": 881,
+     "AST": 253,
+     "STL": 70,
+     "BLK": 162,
+     "FGM": 574,
+     "FGA": 1185,
+     "FG3M": 2,
+     "FG3A": 5,
+     "FTM": 335,
+     "FTA": 533,
+     "MIN": 2784,
+     "PF": 219,
+     "TOV": 198
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2006,
+     "team": "SAS",
+     "GP": 80,
+     "PTS": 1599,
+     "PPG": 20,
+     "REB": 846,
+     "AST": 273,
+     "STL": 66,
+     "BLK": 190,
+     "FGM": 618,
+     "FGA": 1131,
+     "FG3M": 1,
+     "FG3A": 9,
+     "FTM": 362,
+     "FTA": 568,
+     "MIN": 2726,
+     "PF": 203,
+     "TOV": 224
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2007,
+     "team": "SAS",
+     "GP": 78,
+     "PTS": 1508,
+     "PPG": 19.3,
+     "REB": 881,
+     "AST": 218,
+     "STL": 56,
+     "BLK": 152,
+     "FGM": 585,
+     "FGA": 1178,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 338,
+     "FTA": 463,
+     "MIN": 2651,
+     "PF": 185,
+     "TOV": 178
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2008,
+     "team": "SAS",
+     "GP": 75,
+     "PTS": 1450,
+     "PPG": 19.3,
+     "REB": 800,
+     "AST": 264,
+     "STL": 38,
+     "BLK": 126,
+     "FGM": 558,
+     "FGA": 1107,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 334,
+     "FTA": 483,
+     "MIN": 2523,
+     "PF": 173,
+     "TOV": 165
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2009,
+     "team": "SAS",
+     "GP": 78,
+     "PTS": 1395,
+     "PPG": 17.9,
+     "REB": 788,
+     "AST": 246,
+     "STL": 45,
+     "BLK": 117,
+     "FGM": 561,
+     "FGA": 1082,
+     "FG3M": 2,
+     "FG3A": 11,
+     "FTM": 271,
+     "FTA": 374,
+     "MIN": 2438,
+     "PF": 152,
+     "TOV": 140
+    }
+   ],
+   "text": "Tim Duncan averaged a double-digit rebounding figure in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "s_8apg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": 467,
+     "name": "Jason Kidd"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2000,
+     "team": "PHX",
+     "GP": 77,
+     "PTS": 1299,
+     "PPG": 16.9,
+     "REB": 494,
+     "AST": 753,
+     "STL": 166,
+     "BLK": 23,
+     "FGM": 451,
+     "FGA": 1097,
+     "FG3M": 69,
+     "FG3A": 232,
+     "FTM": 328,
+     "FTA": 403,
+     "MIN": 3065,
+     "PF": 171,
+     "TOV": 286
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2001,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 1208,
+     "PPG": 14.7,
+     "REB": 595,
+     "AST": 808,
+     "STL": 175,
+     "BLK": 20,
+     "FGM": 445,
+     "FGA": 1138,
+     "FG3M": 117,
+     "FG3A": 364,
+     "FTM": 201,
+     "FTA": 247,
+     "MIN": 3056,
+     "PF": 136,
+     "TOV": 286
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2002,
+     "team": "NJN",
+     "GP": 80,
+     "PTS": 1495,
+     "PPG": 18.7,
+     "REB": 504,
+     "AST": 711,
+     "STL": 179,
+     "BLK": 25,
+     "FGM": 515,
+     "FGA": 1244,
+     "FG3M": 126,
+     "FG3A": 370,
+     "FTM": 339,
+     "FTA": 403,
+     "MIN": 2989,
+     "PF": 127,
+     "TOV": 296
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2003,
+     "team": "NJN",
+     "GP": 67,
+     "PTS": 1036,
+     "PPG": 15.5,
+     "REB": 428,
+     "AST": 618,
+     "STL": 122,
+     "BLK": 14,
+     "FGM": 368,
+     "FGA": 959,
+     "FG3M": 94,
+     "FG3A": 293,
+     "FTM": 206,
+     "FTA": 249,
+     "MIN": 2453,
+     "PF": 110,
+     "TOV": 214
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2004,
+     "team": "NJN",
+     "GP": 66,
+     "PTS": 951,
+     "PPG": 14.4,
+     "REB": 488,
+     "AST": 545,
+     "STL": 123,
+     "BLK": 9,
+     "FGM": 340,
+     "FGA": 855,
+     "FG3M": 129,
+     "FG3A": 358,
+     "FTM": 142,
+     "FTA": 192,
+     "MIN": 2435,
+     "PF": 110,
+     "TOV": 167
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2005,
+     "team": "NJN",
+     "GP": 80,
+     "PTS": 1065,
+     "PPG": 13.3,
+     "REB": 580,
+     "AST": 672,
+     "STL": 150,
+     "BLK": 29,
+     "FGM": 366,
+     "FGA": 905,
+     "FG3M": 139,
+     "FG3A": 395,
+     "FTM": 194,
+     "FTA": 244,
+     "MIN": 2975,
+     "PF": 157,
+     "TOV": 192
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2006,
+     "team": "NJN",
+     "GP": 80,
+     "PTS": 1041,
+     "PPG": 13,
+     "REB": 655,
+     "AST": 736,
+     "STL": 127,
+     "BLK": 23,
+     "FGM": 369,
+     "FGA": 908,
+     "FG3M": 124,
+     "FG3A": 361,
+     "FTM": 179,
+     "FTA": 230,
+     "MIN": 2933,
+     "PF": 146,
+     "TOV": 213
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2007,
+     "team": "DAL",
+     "GP": 80,
+     "PTS": 864,
+     "PPG": 10.8,
+     "REB": 600,
+     "AST": 806,
+     "STL": 136,
+     "BLK": 26,
+     "FGM": 305,
+     "FGA": 793,
+     "FG3M": 119,
+     "FG3A": 312,
+     "FTM": 135,
+     "FTA": 165,
+     "MIN": 2906,
+     "PF": 165,
+     "TOV": 266
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2008,
+     "team": "DAL",
+     "GP": 81,
+     "PTS": 731,
+     "PPG": 9,
+     "REB": 500,
+     "AST": 702,
+     "STL": 160,
+     "BLK": 39,
+     "FGM": 257,
+     "FGA": 618,
+     "FG3M": 131,
+     "FG3A": 323,
+     "FTM": 86,
+     "FTA": 105,
+     "MIN": 2886,
+     "PF": 168,
+     "TOV": 185
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2009,
+     "team": "DAL",
+     "GP": 80,
+     "PTS": 824,
+     "PPG": 10.3,
+     "REB": 445,
+     "AST": 724,
+     "STL": 145,
+     "BLK": 35,
+     "FGM": 284,
+     "FGA": 671,
+     "FG3M": 176,
+     "FG3A": 414,
+     "FTM": 80,
+     "FTA": 99,
+     "MIN": 2881,
+     "PF": 142,
+     "TOV": 195
+    }
+   ],
+   "text": "Jason Kidd averaged 8+ assists in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "s_20ppg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": 977,
+     "name": "Kobe Bryant"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2000,
+     "team": "LAL",
+     "GP": 68,
+     "PTS": 1938,
+     "PPG": 28.5,
+     "REB": 399,
+     "AST": 338,
+     "STL": 114,
+     "BLK": 43,
+     "FGM": 701,
+     "FGA": 1510,
+     "FG3M": 61,
+     "FG3A": 200,
+     "FTM": 475,
+     "FTA": 557,
+     "MIN": 2783,
+     "PF": 222,
+     "TOV": 220
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2001,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 2019,
+     "PPG": 25.2,
+     "REB": 441,
+     "AST": 438,
+     "STL": 118,
+     "BLK": 35,
+     "FGM": 749,
+     "FGA": 1597,
+     "FG3M": 33,
+     "FG3A": 132,
+     "FTM": 488,
+     "FTA": 589,
+     "MIN": 3065,
+     "PF": 228,
+     "TOV": 223
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2002,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2461,
+     "PPG": 30,
+     "REB": 564,
+     "AST": 481,
+     "STL": 181,
+     "BLK": 67,
+     "FGM": 868,
+     "FGA": 1924,
+     "FG3M": 124,
+     "FG3A": 324,
+     "FTM": 601,
+     "FTA": 713,
+     "MIN": 3401,
+     "PF": 218,
+     "TOV": 288
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2003,
+     "team": "LAL",
+     "GP": 65,
+     "PTS": 1557,
+     "PPG": 24,
+     "REB": 359,
+     "AST": 330,
+     "STL": 112,
+     "BLK": 28,
+     "FGM": 516,
+     "FGA": 1178,
+     "FG3M": 71,
+     "FG3A": 217,
+     "FTM": 454,
+     "FTA": 533,
+     "MIN": 2452,
+     "PF": 176,
+     "TOV": 171
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2004,
+     "team": "LAL",
+     "GP": 66,
+     "PTS": 1819,
+     "PPG": 27.6,
+     "REB": 392,
+     "AST": 398,
+     "STL": 86,
+     "BLK": 53,
+     "FGM": 573,
+     "FGA": 1324,
+     "FG3M": 131,
+     "FG3A": 387,
+     "FTM": 542,
+     "FTA": 664,
+     "MIN": 2689,
+     "PF": 174,
+     "TOV": 270
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2005,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 2832,
+     "PPG": 35.4,
+     "REB": 425,
+     "AST": 360,
+     "STL": 147,
+     "BLK": 30,
+     "FGM": 978,
+     "FGA": 2173,
+     "FG3M": 180,
+     "FG3A": 518,
+     "FTM": 696,
+     "FTA": 819,
+     "MIN": 3277,
+     "PF": 233,
+     "TOV": 250
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2006,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 2430,
+     "PPG": 31.6,
+     "REB": 439,
+     "AST": 413,
+     "STL": 111,
+     "BLK": 36,
+     "FGM": 813,
+     "FGA": 1757,
+     "FG3M": 137,
+     "FG3A": 398,
+     "FTM": 667,
+     "FTA": 768,
+     "MIN": 3140,
+     "PF": 205,
+     "TOV": 255
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2007,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2323,
+     "PPG": 28.3,
+     "REB": 517,
+     "AST": 441,
+     "STL": 151,
+     "BLK": 40,
+     "FGM": 775,
+     "FGA": 1690,
+     "FG3M": 150,
+     "FG3A": 415,
+     "FTM": 623,
+     "FTA": 742,
+     "MIN": 3192,
+     "PF": 227,
+     "TOV": 257
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2008,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2201,
+     "PPG": 26.8,
+     "REB": 429,
+     "AST": 399,
+     "STL": 120,
+     "BLK": 37,
+     "FGM": 800,
+     "FGA": 1712,
+     "FG3M": 118,
+     "FG3A": 336,
+     "FTM": 483,
+     "FTA": 564,
+     "MIN": 2960,
+     "PF": 189,
+     "TOV": 210
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2009,
+     "team": "LAL",
+     "GP": 73,
+     "PTS": 1970,
+     "PPG": 27,
+     "REB": 391,
+     "AST": 365,
+     "STL": 113,
+     "BLK": 20,
+     "FGM": 716,
+     "FGA": 1569,
+     "FG3M": 99,
+     "FG3A": 301,
+     "FTM": 439,
+     "FTA": 541,
+     "MIN": 2835,
+     "PF": 187,
+     "TOV": 233
+    }
+   ],
+   "text": "Kobe Bryant averaged 20+ points in 10 straight seasons (2000-01 to 2009-10), the longest run of the 2000s."
+  },
+  {
+   "n": 16,
+   "rule": "stl_200",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2002,
+     "team": "PHI",
+     "GP": 82,
+     "PTS": 2262,
+     "PPG": 27.6,
+     "REB": 344,
+     "AST": 454,
+     "STL": 225,
+     "BLK": 13,
+     "FGM": 804,
+     "FGA": 1940,
+     "FG3M": 84,
+     "FG3A": 303,
+     "FTM": 570,
+     "FTA": 736,
+     "MIN": 3485,
+     "PF": 149,
+     "TOV": 286
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1684,
+     "PPG": 21.1,
+     "REB": 321,
+     "AST": 925,
+     "STL": 217,
+     "BLK": 4,
+     "FGM": 630,
+     "FGA": 1291,
+     "FG3M": 92,
+     "FG3A": 249,
+     "FTM": 332,
+     "FTA": 390,
+     "MIN": 3006,
+     "PF": 185,
+     "TOV": 201
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2008,
+     "team": "NOH",
+     "GP": 78,
+     "PTS": 1781,
+     "PPG": 22.8,
+     "REB": 432,
+     "AST": 861,
+     "STL": 216,
+     "BLK": 10,
+     "FGM": 631,
+     "FGA": 1255,
+     "FG3M": 64,
+     "FG3A": 176,
+     "FTM": 455,
+     "FTA": 524,
+     "MIN": 3002,
+     "PF": 212,
+     "TOV": 231
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.703125,
+   "players": [
+    {
+     "id": 947,
+     "name": "Allen Iverson"
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2002,
+    2007,
+    2008
+   ],
+   "text": "Only two players of the 2000s recorded 200 steals in a season: Allen Iverson (2002-03: 225 stl); Chris Paul (2×, best 2007-08: 217 stl)."
+  },
+  {
+   "n": 17,
+   "rule": "ft_900",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2009,
+     "team": "OKC",
+     "GP": 82,
+     "PTS": 2472,
+     "PPG": 30.1,
+     "REB": 623,
+     "AST": 231,
+     "STL": 112,
+     "BLK": 84,
+     "FGM": 794,
+     "FGA": 1668,
+     "FG3M": 128,
+     "FG3A": 351,
+     "FTM": 756,
+     "FTA": 840,
+     "MIN": 3239,
+     "PF": 171,
+     "TOV": 271
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2009,
+     "team": "DAL",
+     "GP": 81,
+     "PTS": 2027,
+     "PPG": 25,
+     "REB": 620,
+     "AST": 218,
+     "STL": 70,
+     "BLK": 79,
+     "FGM": 720,
+     "FGA": 1496,
+     "FG3M": 51,
+     "FG3A": 121,
+     "FTM": 536,
+     "FTA": 586,
+     "MIN": 3039,
+     "PF": 208,
+     "TOV": 149
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2005,
+     "team": "DAL",
+     "GP": 81,
+     "PTS": 2151,
+     "PPG": 26.6,
+     "REB": 728,
+     "AST": 226,
+     "STL": 58,
+     "BLK": 83,
+     "FGM": 751,
+     "FGA": 1564,
+     "FG3M": 110,
+     "FG3A": 271,
+     "FTM": 539,
+     "FTA": 598,
+     "MIN": 3089,
+     "PF": 164,
+     "TOV": 156
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2006,
+     "team": "DAL",
+     "GP": 78,
+     "PTS": 1916,
+     "PPG": 24.6,
+     "REB": 693,
+     "AST": 263,
+     "STL": 52,
+     "BLK": 62,
+     "FGM": 673,
+     "FGA": 1341,
+     "FG3M": 72,
+     "FG3A": 173,
+     "FTM": 498,
+     "FTA": 551,
+     "MIN": 2820,
+     "PF": 171,
+     "TOV": 167
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "season": 2009,
+     "team": "DEN",
+     "GP": 73,
+     "PTS": 1427,
+     "PPG": 19.5,
+     "REB": 228,
+     "AST": 409,
+     "STL": 82,
+     "BLK": 9,
+     "FGM": 402,
+     "FGA": 962,
+     "FG3M": 157,
+     "FG3A": 407,
+     "FTM": 466,
+     "FTA": 512,
+     "MIN": 2490,
+     "PF": 153,
+     "TOV": 177
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "season": 2003,
+     "team": "SAC",
+     "GP": 81,
+     "PTS": 1964,
+     "PPG": 24.2,
+     "REB": 508,
+     "AST": 173,
+     "STL": 108,
+     "BLK": 14,
+     "FGM": 665,
+     "FGA": 1386,
+     "FG3M": 240,
+     "FG3A": 554,
+     "FTM": 394,
+     "FTA": 425,
+     "MIN": 3265,
+     "PF": 159,
+     "TOV": 153
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "season": 2007,
+     "team": "DET",
+     "GP": 78,
+     "PTS": 1324,
+     "PPG": 17,
+     "REB": 212,
+     "AST": 529,
+     "STL": 101,
+     "BLK": 17,
+     "FGM": 393,
+     "FGA": 877,
+     "FG3M": 137,
+     "FG3A": 342,
+     "FTM": 401,
+     "FTA": 437,
+     "MIN": 2522,
+     "PF": 130,
+     "TOV": 160
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "season": 2008,
+     "team": "DEN",
+     "GP": 79,
+     "PTS": 1400,
+     "PPG": 17.7,
+     "REB": 239,
+     "AST": 506,
+     "STL": 93,
+     "BLK": 18,
+     "FGM": 410,
+     "FGA": 980,
+     "FG3M": 162,
+     "FG3A": 397,
+     "FTM": 418,
+     "FTA": 458,
+     "MIN": 2788,
+     "PF": 161,
+     "TOV": 177
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 8.67,
+   "players": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki"
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups"
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic"
+    }
+   ],
+   "seasons": [
+    2009,
+    2009,
+    2005,
+    2006,
+    2009,
+    2003,
+    2007,
+    2008
+   ],
+   "text": "Just four players of the 2000s shot .900 from the line on 400+ attempts: Kevin Durant (2009-10: .900 on 840 FTA); Dirk Nowitzki (3×, best 2009-10: .915 on 586 FTA); Chauncey Billups (3×, best 2009-10: .910 on 512 FTA); Peja Stojakovic (2003-04: .927 on 425 FTA)."
+  },
+  {
+   "n": 18,
+   "rule": "short_scorer",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2003,
+     "team": "PHI",
+     "GP": 48,
+     "PTS": 1266,
+     "PPG": 26.4,
+     "REB": 178,
+     "AST": 324,
+     "STL": 115,
+     "BLK": 5,
+     "FGM": 435,
+     "FGA": 1125,
+     "FG3M": 57,
+     "FG3A": 199,
+     "FTM": 339,
+     "FTA": 455,
+     "MIN": 2041,
+     "PF": 87,
+     "TOV": 209
+    },
+    {
+     "id": 2397,
+     "name": "Yao Ming",
+     "season": 2006,
+     "team": "HOU",
+     "GP": 48,
+     "PTS": 1202,
+     "PPG": 25,
+     "REB": 452,
+     "AST": 94,
+     "STL": 17,
+     "BLK": 94,
+     "FGM": 423,
+     "FGA": 819,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 356,
+     "FTA": 413,
+     "MIN": 1624,
+     "PF": 159,
+     "TOV": 167
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.659375,
+   "players": [
+    {
+     "id": 947,
+     "name": "Allen Iverson"
+    },
+    {
+     "id": 2397,
+     "name": "Yao Ming"
+    }
+   ],
+   "seasons": [
+    2003,
+    2006
+   ],
+   "text": "Only two players of the 2000s averaged 25 points while missing 40% of the season (20+ games): Allen Iverson (2003-04: 26.4 ppg in 48 games); Yao Ming (2006-07: 25.0 ppg in 48 games)."
+  },
+  {
+   "n": 19,
+   "rule": "ast_over_pts",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 164,
+     "name": "Chris Childs",
+     "season": 2001,
+     "team": "TOR",
+     "GP": 69,
+     "PTS": 285,
+     "PPG": 4.1,
+     "REB": 154,
+     "AST": 351,
+     "STL": 56,
+     "BLK": 5,
+     "FGM": 97,
+     "FGA": 296,
+     "FG3M": 33,
+     "FG3A": 120,
+     "FTM": 58,
+     "FTA": 71,
+     "MIN": 1579,
+     "PF": 177,
+     "TOV": 123
+    },
+    {
+     "id": 349,
+     "name": "Mark Jackson",
+     "season": 2000,
+     "team": "NYK",
+     "GP": 83,
+     "PTS": 631,
+     "PPG": 7.6,
+     "REB": 305,
+     "AST": 661,
+     "STL": 84,
+     "BLK": 7,
+     "FGM": 244,
+     "FGA": 583,
+     "FG3M": 70,
+     "FG3A": 207,
+     "FTM": 73,
+     "FTA": 93,
+     "MIN": 2588,
+     "PF": 139,
+     "TOV": 175
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.165,
+   "players": [
+    {
+     "id": 164,
+     "name": "Chris Childs"
+    },
+    {
+     "id": 349,
+     "name": "Mark Jackson"
+    }
+   ],
+   "seasons": [
+    2001,
+    2000
+   ],
+   "text": "Only two players of the 2000s recorded more assists than points (60% of games, 300+ ast): Chris Childs (2001-02: 351 ast, 285 pts); Mark Jackson (2000-01: 661 ast, 631 pts)."
+  },
+  {
+   "n": 20,
+   "rule": "fg_hi",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2000,
+     "team": "LAL",
+     "GP": 74,
+     "PTS": 2125,
+     "PPG": 28.7,
+     "REB": 940,
+     "AST": 277,
+     "STL": 47,
+     "BLK": 204,
+     "FGM": 813,
+     "FGA": 1422,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 499,
+     "FTA": 972,
+     "MIN": 2924,
+     "PF": 256,
+     "TOV": 218
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2001,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1822,
+     "PPG": 27.2,
+     "REB": 715,
+     "AST": 200,
+     "STL": 41,
+     "BLK": 137,
+     "FGM": 712,
+     "FGA": 1229,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 398,
+     "FTA": 717,
+     "MIN": 2421,
+     "PF": 199,
+     "TOV": 171
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2002,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1841,
+     "PPG": 27.5,
+     "REB": 742,
+     "AST": 206,
+     "STL": 38,
+     "BLK": 159,
+     "FGM": 695,
+     "FGA": 1211,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 451,
+     "FTA": 725,
+     "MIN": 2535,
+     "PF": 229,
+     "TOV": 196
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 79,
+     "PTS": 1989,
+     "PPG": 25.2,
+     "REB": 719,
+     "AST": 118,
+     "STL": 64,
+     "BLK": 163,
+     "FGM": 714,
+     "FGA": 1211,
+     "FG3M": 5,
+     "FG3A": 31,
+     "FTM": 556,
+     "FTA": 691,
+     "MIN": 2677,
+     "PF": 294,
+     "TOV": 174
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2004,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 1669,
+     "PPG": 22.9,
+     "REB": 760,
+     "AST": 200,
+     "STL": 36,
+     "BLK": 171,
+     "FGM": 658,
+     "FGA": 1095,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 353,
+     "FTA": 765,
+     "MIN": 2490,
+     "PF": 262,
+     "TOV": 203
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2007,
+     "team": "ORL",
+     "GP": 82,
+     "PTS": 1695,
+     "PPG": 20.7,
+     "REB": 1161,
+     "AST": 110,
+     "STL": 74,
+     "BLK": 176,
+     "FGM": 583,
+     "FGA": 974,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 529,
+     "FTA": 897,
+     "MIN": 3088,
+     "PF": 274,
+     "TOV": 263
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2005,
+     "team": "MIA",
+     "GP": 59,
+     "PTS": 1181,
+     "PPG": 20,
+     "REB": 541,
+     "AST": 113,
+     "STL": 23,
+     "BLK": 104,
+     "FGM": 480,
+     "FGA": 800,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 221,
+     "FTA": 471,
+     "MIN": 1806,
+     "PF": 230,
+     "TOV": 168
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2003,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1439,
+     "PPG": 21.5,
+     "REB": 769,
+     "AST": 196,
+     "STL": 34,
+     "BLK": 166,
+     "FGM": 554,
+     "FGA": 948,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 331,
+     "FTA": 676,
+     "MIN": 2464,
+     "PF": 225,
+     "TOV": 195
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2006,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1671,
+     "PPG": 20.4,
+     "REB": 786,
+     "AST": 84,
+     "STL": 78,
+     "BLK": 110,
+     "FGM": 607,
+     "FGA": 1055,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 457,
+     "FTA": 585,
+     "MIN": 2689,
+     "PF": 295,
+     "TOV": 232
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2008,
+     "team": "ORL",
+     "GP": 79,
+     "PTS": 1624,
+     "PPG": 20.6,
+     "REB": 1093,
+     "AST": 112,
+     "STL": 77,
+     "BLK": 231,
+     "FGM": 560,
+     "FGA": 979,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 504,
+     "FTA": 849,
+     "MIN": 2821,
+     "PF": 270,
+     "TOV": 240
+    },
+    {
+     "id": 2430,
+     "name": "Carlos Boozer",
+     "season": 2006,
+     "team": "UTA",
+     "GP": 74,
+     "PTS": 1549,
+     "PPG": 20.9,
+     "REB": 867,
+     "AST": 221,
+     "STL": 70,
+     "BLK": 21,
+     "FGM": 647,
+     "FGA": 1154,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 255,
+     "FTA": 372,
+     "MIN": 2557,
+     "PF": 217,
+     "TOV": 194
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "few",
+   "score": 8.147230299920174,
+   "players": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal"
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire"
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    },
+    {
+     "id": 2430,
+     "name": "Carlos Boozer"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2007,
+    2004,
+    2007,
+    2005,
+    2003,
+    2006,
+    2008,
+    2006
+   ],
+   "text": "Just four players of the 2000s shot .560 or better while averaging 20 points (60% of games): Shaquille O'Neal (6×, best 2000-01: .572 FG, 28.7 ppg); Amar'e Stoudemire (2×, best 2007-08: .590 FG, 25.2 ppg); Dwight Howard (2×, best 2007-08: .599 FG, 20.7 ppg); Carlos Boozer (2006-07: .561 FG, 20.9 ppg)."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "s_25ppg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 8,
+   "players": [
+    {
+     "id": 977,
+     "name": "Kobe Bryant"
+    }
+   ],
+   "seasons": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2004,
+     "team": "LAL",
+     "GP": 66,
+     "PTS": 1819,
+     "PPG": 27.6,
+     "REB": 392,
+     "AST": 398,
+     "STL": 86,
+     "BLK": 53,
+     "FGM": 573,
+     "FGA": 1324,
+     "FG3M": 131,
+     "FG3A": 387,
+     "FTM": 542,
+     "FTA": 664,
+     "MIN": 2689,
+     "PF": 174,
+     "TOV": 270
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2005,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 2832,
+     "PPG": 35.4,
+     "REB": 425,
+     "AST": 360,
+     "STL": 147,
+     "BLK": 30,
+     "FGM": 978,
+     "FGA": 2173,
+     "FG3M": 180,
+     "FG3A": 518,
+     "FTM": 696,
+     "FTA": 819,
+     "MIN": 3277,
+     "PF": 233,
+     "TOV": 250
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2006,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 2430,
+     "PPG": 31.6,
+     "REB": 439,
+     "AST": 413,
+     "STL": 111,
+     "BLK": 36,
+     "FGM": 813,
+     "FGA": 1757,
+     "FG3M": 137,
+     "FG3A": 398,
+     "FTM": 667,
+     "FTA": 768,
+     "MIN": 3140,
+     "PF": 205,
+     "TOV": 255
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2007,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2323,
+     "PPG": 28.3,
+     "REB": 517,
+     "AST": 441,
+     "STL": 151,
+     "BLK": 40,
+     "FGM": 775,
+     "FGA": 1690,
+     "FG3M": 150,
+     "FG3A": 415,
+     "FTM": 623,
+     "FTA": 742,
+     "MIN": 3192,
+     "PF": 227,
+     "TOV": 257
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2008,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2201,
+     "PPG": 26.8,
+     "REB": 429,
+     "AST": 399,
+     "STL": 120,
+     "BLK": 37,
+     "FGM": 800,
+     "FGA": 1712,
+     "FG3M": 118,
+     "FG3A": 336,
+     "FTM": 483,
+     "FTA": 564,
+     "MIN": 2960,
+     "PF": 189,
+     "TOV": 210
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2009,
+     "team": "LAL",
+     "GP": 73,
+     "PTS": 1970,
+     "PPG": 27,
+     "REB": 391,
+     "AST": 365,
+     "STL": 113,
+     "BLK": 20,
+     "FGM": 716,
+     "FGA": 1569,
+     "FG3M": 99,
+     "FG3A": 301,
+     "FTM": 439,
+     "FTA": 541,
+     "MIN": 2835,
+     "PF": 187,
+     "TOV": 233
+    }
+   ],
+   "text": "Kobe Bryant averaged 25+ points in 6 straight seasons (2004-05 to 2009-10), the longest run of the 2000s."
+  },
+  {
+   "n": 22,
+   "kind": "streak",
+   "rule": "s_2000",
+   "group": "P",
+   "decade": "2000s",
+   "score": 8,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    }
+   ],
+   "seasons": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2004,
+     "team": "CLE",
+     "GP": 80,
+     "PTS": 2175,
+     "PPG": 27.2,
+     "REB": 588,
+     "AST": 577,
+     "STL": 177,
+     "BLK": 52,
+     "FGM": 795,
+     "FGA": 1684,
+     "FG3M": 108,
+     "FG3A": 308,
+     "FTM": 477,
+     "FTA": 636,
+     "MIN": 3388,
+     "PF": 146,
+     "TOV": 262
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2005,
+     "team": "CLE",
+     "GP": 79,
+     "PTS": 2478,
+     "PPG": 31.4,
+     "REB": 556,
+     "AST": 521,
+     "STL": 123,
+     "BLK": 66,
+     "FGM": 875,
+     "FGA": 1823,
+     "FG3M": 127,
+     "FG3A": 379,
+     "FTM": 601,
+     "FTA": 814,
+     "MIN": 3361,
+     "PF": 181,
+     "TOV": 260
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2006,
+     "team": "CLE",
+     "GP": 78,
+     "PTS": 2132,
+     "PPG": 27.3,
+     "REB": 526,
+     "AST": 470,
+     "STL": 125,
+     "BLK": 55,
+     "FGM": 772,
+     "FGA": 1621,
+     "FG3M": 99,
+     "FG3A": 310,
+     "FTM": 489,
+     "FTA": 701,
+     "MIN": 3190,
+     "PF": 171,
+     "TOV": 250
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2007,
+     "team": "CLE",
+     "GP": 75,
+     "PTS": 2250,
+     "PPG": 30,
+     "REB": 592,
+     "AST": 539,
+     "STL": 138,
+     "BLK": 81,
+     "FGM": 794,
+     "FGA": 1642,
+     "FG3M": 113,
+     "FG3A": 359,
+     "FTM": 549,
+     "FTA": 771,
+     "MIN": 3027,
+     "PF": 165,
+     "TOV": 255
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2008,
+     "team": "CLE",
+     "GP": 81,
+     "PTS": 2304,
+     "PPG": 28.4,
+     "REB": 613,
+     "AST": 587,
+     "STL": 137,
+     "BLK": 93,
+     "FGM": 789,
+     "FGA": 1613,
+     "FG3M": 132,
+     "FG3A": 384,
+     "FTM": 594,
+     "FTA": 762,
+     "MIN": 3054,
+     "PF": 139,
+     "TOV": 241
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2009,
+     "team": "CLE",
+     "GP": 76,
+     "PTS": 2258,
+     "PPG": 29.7,
+     "REB": 554,
+     "AST": 651,
+     "STL": 125,
+     "BLK": 77,
+     "FGM": 768,
+     "FGA": 1528,
+     "FG3M": 129,
+     "FG3A": 387,
+     "FTM": 593,
+     "FTA": 773,
+     "MIN": 2966,
+     "PF": 119,
+     "TOV": 261
+    }
+   ],
+   "text": "LeBron James scored 2,000 points in 6 straight seasons (2004-05 to 2009-10), the longest run of the 2000s."
+  },
+  {
+   "n": 23,
+   "kind": "streak",
+   "rule": "s_fg500",
+   "group": "P",
+   "decade": "2000s",
+   "score": 8,
+   "players": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2000,
+     "team": "LAL",
+     "GP": 74,
+     "PTS": 2125,
+     "PPG": 28.7,
+     "REB": 940,
+     "AST": 277,
+     "STL": 47,
+     "BLK": 204,
+     "FGM": 813,
+     "FGA": 1422,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 499,
+     "FTA": 972,
+     "MIN": 2924,
+     "PF": 256,
+     "TOV": 218
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2001,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1822,
+     "PPG": 27.2,
+     "REB": 715,
+     "AST": 200,
+     "STL": 41,
+     "BLK": 137,
+     "FGM": 712,
+     "FGA": 1229,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 398,
+     "FTA": 717,
+     "MIN": 2421,
+     "PF": 199,
+     "TOV": 171
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2002,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1841,
+     "PPG": 27.5,
+     "REB": 742,
+     "AST": 206,
+     "STL": 38,
+     "BLK": 159,
+     "FGM": 695,
+     "FGA": 1211,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 451,
+     "FTA": 725,
+     "MIN": 2535,
+     "PF": 229,
+     "TOV": 196
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2003,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1439,
+     "PPG": 21.5,
+     "REB": 769,
+     "AST": 196,
+     "STL": 34,
+     "BLK": 166,
+     "FGM": 554,
+     "FGA": 948,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 331,
+     "FTA": 676,
+     "MIN": 2464,
+     "PF": 225,
+     "TOV": 195
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2004,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 1669,
+     "PPG": 22.9,
+     "REB": 760,
+     "AST": 200,
+     "STL": 36,
+     "BLK": 171,
+     "FGM": 658,
+     "FGA": 1095,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 353,
+     "FTA": 765,
+     "MIN": 2490,
+     "PF": 262,
+     "TOV": 203
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2005,
+     "team": "MIA",
+     "GP": 59,
+     "PTS": 1181,
+     "PPG": 20,
+     "REB": 541,
+     "AST": 113,
+     "STL": 23,
+     "BLK": 104,
+     "FGM": 480,
+     "FGA": 800,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 221,
+     "FTA": 471,
+     "MIN": 1806,
+     "PF": 230,
+     "TOV": 168
+    }
+   ],
+   "text": "Shaquille O'Neal shot .500 from the field (800+ FGA) in 6 straight seasons (2000-01 to 2005-06), the longest run of the 2000s."
+  },
+  {
+   "n": 24,
+   "rule": "ft_bad",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2000,
+     "team": "LAL",
+     "GP": 74,
+     "PTS": 2125,
+     "PPG": 28.7,
+     "REB": 940,
+     "AST": 277,
+     "STL": 47,
+     "BLK": 204,
+     "FGM": 813,
+     "FGA": 1422,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 499,
+     "FTA": 972,
+     "MIN": 2924,
+     "PF": 256,
+     "TOV": 218
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2004,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 1669,
+     "PPG": 22.9,
+     "REB": 760,
+     "AST": 200,
+     "STL": 36,
+     "BLK": 171,
+     "FGM": 658,
+     "FGA": 1095,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 353,
+     "FTA": 765,
+     "MIN": 2490,
+     "PF": 262,
+     "TOV": 203
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2003,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1439,
+     "PPG": 21.5,
+     "REB": 769,
+     "AST": 196,
+     "STL": 34,
+     "BLK": 166,
+     "FGM": 554,
+     "FGA": 948,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 331,
+     "FTA": 676,
+     "MIN": 2464,
+     "PF": 225,
+     "TOV": 195
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2005,
+     "team": "MIA",
+     "GP": 59,
+     "PTS": 1181,
+     "PPG": 20,
+     "REB": 541,
+     "AST": 113,
+     "STL": 23,
+     "BLK": 104,
+     "FGM": 480,
+     "FGA": 800,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 221,
+     "FTA": 471,
+     "MIN": 1806,
+     "PF": 230,
+     "TOV": 168
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2004,
+     "team": "DET",
+     "GP": 74,
+     "PTS": 721,
+     "PPG": 9.7,
+     "REB": 902,
+     "AST": 123,
+     "STL": 106,
+     "BLK": 176,
+     "FGM": 295,
+     "FGA": 651,
+     "FG3M": 1,
+     "FG3A": 9,
+     "FTM": 130,
+     "FTA": 304,
+     "MIN": 2671,
+     "PF": 159,
+     "TOV": 82
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 61,
+     "PTS": 832,
+     "PPG": 13.6,
+     "REB": 554,
+     "AST": 93,
+     "STL": 32,
+     "BLK": 88,
+     "FGM": 331,
+     "FGA": 558,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 170,
+     "FTA": 338,
+     "MIN": 1748,
+     "PF": 228,
+     "TOV": 181
+    },
+    {
+     "id": 952,
+     "name": "Antoine Walker",
+     "season": 2004,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 1473,
+     "PPG": 19.1,
+     "REB": 695,
+     "AST": 265,
+     "STL": 89,
+     "BLK": 58,
+     "FGM": 581,
+     "FGA": 1377,
+     "FG3M": 110,
+     "FG3A": 341,
+     "FTM": 201,
+     "FTA": 373,
+     "MIN": 2955,
+     "PF": 217,
+     "TOV": 253
+    },
+    {
+     "id": 2048,
+     "name": "Jamaal Magloire",
+     "season": 2005,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 752,
+     "PPG": 9.2,
+     "REB": 778,
+     "AST": 56,
+     "STL": 29,
+     "BLK": 80,
+     "FGM": 287,
+     "FGA": 615,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 178,
+     "FTA": 333,
+     "MIN": 2465,
+     "PF": 276,
+     "TOV": 166
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 7.1465637860082305,
+   "players": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal"
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace"
+    },
+    {
+     "id": 952,
+     "name": "Antoine Walker"
+    },
+    {
+     "id": 2048,
+     "name": "Jamaal Magloire"
+    }
+   ],
+   "seasons": [
+    2000,
+    2004,
+    2003,
+    2005,
+    2004,
+    2007,
+    2004,
+    2005
+   ],
+   "text": "Just four players of the 2000s shot under .550 from the line on 300+ attempts: Shaquille O'Neal (5×, best 2000-01: .513 on 972 FTA); Ben Wallace (2004-05: .428 on 304 FTA); Antoine Walker (2004-05: .539 on 373 FTA); Jamaal Magloire (2005-06: .535 on 333 FTA)."
+  },
+  {
+   "n": 25,
+   "rule": "twentyfive_five_five",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2009,
+     "team": "CLE",
+     "GP": 76,
+     "PTS": 2258,
+     "PPG": 29.7,
+     "REB": 554,
+     "AST": 651,
+     "STL": 125,
+     "BLK": 77,
+     "FGM": 768,
+     "FGA": 1528,
+     "FG3M": 129,
+     "FG3A": 387,
+     "FTM": 593,
+     "FTA": 773,
+     "MIN": 2966,
+     "PF": 119,
+     "TOV": 261
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2007,
+     "team": "CLE",
+     "GP": 75,
+     "PTS": 2250,
+     "PPG": 30,
+     "REB": 592,
+     "AST": 539,
+     "STL": 138,
+     "BLK": 81,
+     "FGM": 794,
+     "FGA": 1642,
+     "FG3M": 113,
+     "FG3A": 359,
+     "FTM": 549,
+     "FTA": 771,
+     "MIN": 3027,
+     "PF": 165,
+     "TOV": 255
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2005,
+     "team": "CLE",
+     "GP": 79,
+     "PTS": 2478,
+     "PPG": 31.4,
+     "REB": 556,
+     "AST": 521,
+     "STL": 123,
+     "BLK": 66,
+     "FGM": 875,
+     "FGA": 1823,
+     "FG3M": 127,
+     "FG3A": 379,
+     "FTM": 601,
+     "FTA": 814,
+     "MIN": 3361,
+     "PF": 181,
+     "TOV": 260
+    },
+    {
+     "id": 1503,
+     "name": "Tracy McGrady",
+     "season": 2002,
+     "team": "ORL",
+     "GP": 75,
+     "PTS": 2407,
+     "PPG": 32.1,
+     "REB": 488,
+     "AST": 411,
+     "STL": 124,
+     "BLK": 59,
+     "FGM": 829,
+     "FGA": 1813,
+     "FG3M": 173,
+     "FG3A": 448,
+     "FTM": 576,
+     "FTA": 726,
+     "MIN": 2954,
+     "PF": 156,
+     "TOV": 195
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2008,
+     "team": "CLE",
+     "GP": 81,
+     "PTS": 2304,
+     "PPG": 28.4,
+     "REB": 613,
+     "AST": 587,
+     "STL": 137,
+     "BLK": 93,
+     "FGM": 789,
+     "FGA": 1613,
+     "FG3M": 132,
+     "FG3A": 384,
+     "FTM": 594,
+     "FTA": 762,
+     "MIN": 3054,
+     "PF": 139,
+     "TOV": 241
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2002,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2461,
+     "PPG": 30,
+     "REB": 564,
+     "AST": 481,
+     "STL": 181,
+     "BLK": 67,
+     "FGM": 868,
+     "FGA": 1924,
+     "FG3M": 124,
+     "FG3A": 324,
+     "FTM": 601,
+     "FTA": 713,
+     "MIN": 3401,
+     "PF": 218,
+     "TOV": 288
+    },
+    {
+     "id": 2548,
+     "name": "Dwyane Wade",
+     "season": 2008,
+     "team": "MIA",
+     "GP": 79,
+     "PTS": 2386,
+     "PPG": 30.2,
+     "REB": 398,
+     "AST": 589,
+     "STL": 173,
+     "BLK": 106,
+     "FGM": 854,
+     "FGA": 1739,
+     "FG3M": 88,
+     "FG3A": 278,
+     "FTM": 590,
+     "FTA": 771,
+     "MIN": 3048,
+     "PF": 178,
+     "TOV": 272
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2006,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 2430,
+     "PPG": 31.6,
+     "REB": 439,
+     "AST": 413,
+     "STL": 111,
+     "BLK": 36,
+     "FGM": 813,
+     "FGA": 1757,
+     "FG3M": 137,
+     "FG3A": 398,
+     "FTM": 667,
+     "FTA": 768,
+     "MIN": 3140,
+     "PF": 205,
+     "TOV": 255
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2004,
+     "team": "CLE",
+     "GP": 80,
+     "PTS": 2175,
+     "PPG": 27.2,
+     "REB": 588,
+     "AST": 577,
+     "STL": 177,
+     "BLK": 52,
+     "FGM": 795,
+     "FGA": 1684,
+     "FG3M": 108,
+     "FG3A": 308,
+     "FTM": 477,
+     "FTA": 636,
+     "MIN": 3388,
+     "PF": 146,
+     "TOV": 262
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2006,
+     "team": "CLE",
+     "GP": 78,
+     "PTS": 2132,
+     "PPG": 27.3,
+     "REB": 526,
+     "AST": 470,
+     "STL": 125,
+     "BLK": 55,
+     "FGM": 772,
+     "FGA": 1621,
+     "FG3M": 99,
+     "FG3A": 310,
+     "FTM": 489,
+     "FTA": 701,
+     "MIN": 3190,
+     "PF": 171,
+     "TOV": 250
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2007,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2323,
+     "PPG": 28.3,
+     "REB": 517,
+     "AST": 441,
+     "STL": 151,
+     "BLK": 40,
+     "FGM": 775,
+     "FGA": 1690,
+     "FG3M": 150,
+     "FG3A": 415,
+     "FTM": 623,
+     "FTA": 742,
+     "MIN": 3192,
+     "PF": 227,
+     "TOV": 257
+    },
+    {
+     "id": 2548,
+     "name": "Dwyane Wade",
+     "season": 2005,
+     "team": "MIA",
+     "GP": 75,
+     "PTS": 2040,
+     "PPG": 27.2,
+     "REB": 430,
+     "AST": 503,
+     "STL": 146,
+     "BLK": 58,
+     "FGM": 699,
+     "FGA": 1413,
+     "FG3M": 13,
+     "FG3A": 76,
+     "FTM": 629,
+     "FTA": 803,
+     "MIN": 2892,
+     "PF": 217,
+     "TOV": 268
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "few",
+   "score": 7.1391447368421055,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    },
+    {
+     "id": 1503,
+     "name": "Tracy McGrady"
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant"
+    },
+    {
+     "id": 2548,
+     "name": "Dwyane Wade"
+    }
+   ],
+   "seasons": [
+    2009,
+    2007,
+    2005,
+    2002,
+    2008,
+    2002,
+    2008,
+    2006,
+    2004,
+    2006,
+    2007,
+    2005,
+    2003,
+    2004,
+    2001,
+    2004,
+    2009,
+    2001
+   ],
+   "text": "Just four players of the 2000s averaged 25 points, 5 rebounds and 5 assists (60% of games): LeBron James (6×, best 2009-10: 29.7/7.3/8.6); Tracy McGrady (4×, best 2002-03: 32.1/6.5/5.5); Kobe Bryant (6×, best 2002-03: 30.0/6.9/5.9); Dwyane Wade (2×, best 2008-09: 30.2/5.0/7.5)."
+  },
+  {
+   "n": 26,
+   "kind": "streak",
+   "rule": "s_ft900",
+   "group": "P",
+   "decade": "2000s",
+   "score": 7,
+   "players": [
+    {
+     "id": 951,
+     "name": "Ray Allen"
+    }
+   ],
+   "seasons": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2005,
+     "team": "SEA",
+     "GP": 78,
+     "PTS": 1955,
+     "PPG": 25.1,
+     "REB": 332,
+     "AST": 286,
+     "STL": 105,
+     "BLK": 16,
+     "FGM": 681,
+     "FGA": 1500,
+     "FG3M": 269,
+     "FG3A": 653,
+     "FTM": 324,
+     "FTA": 359,
+     "MIN": 3022,
+     "PF": 151,
+     "TOV": 188
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2006,
+     "team": "SEA",
+     "GP": 55,
+     "PTS": 1454,
+     "PPG": 26.4,
+     "REB": 247,
+     "AST": 228,
+     "STL": 82,
+     "BLK": 11,
+     "FGM": 505,
+     "FGA": 1153,
+     "FG3M": 165,
+     "FG3A": 443,
+     "FTM": 279,
+     "FTA": 309,
+     "MIN": 2219,
+     "PF": 113,
+     "TOV": 154
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2007,
+     "team": "BOS",
+     "GP": 73,
+     "PTS": 1273,
+     "PPG": 17.4,
+     "REB": 268,
+     "AST": 225,
+     "STL": 65,
+     "BLK": 16,
+     "FGM": 439,
+     "FGA": 986,
+     "FG3M": 180,
+     "FG3A": 452,
+     "FTM": 215,
+     "FTA": 237,
+     "MIN": 2624,
+     "PF": 147,
+     "TOV": 127
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2008,
+     "team": "BOS",
+     "GP": 79,
+     "PTS": 1434,
+     "PPG": 18.2,
+     "REB": 278,
+     "AST": 218,
+     "STL": 69,
+     "BLK": 13,
+     "FGM": 499,
+     "FGA": 1040,
+     "FG3M": 199,
+     "FG3A": 486,
+     "FTM": 237,
+     "FTA": 249,
+     "MIN": 2876,
+     "PF": 157,
+     "TOV": 134
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2009,
+     "team": "BOS",
+     "GP": 80,
+     "PTS": 1304,
+     "PPG": 16.3,
+     "REB": 253,
+     "AST": 210,
+     "STL": 64,
+     "BLK": 25,
+     "FGM": 464,
+     "FGA": 973,
+     "FG3M": 145,
+     "FG3A": 399,
+     "FTM": 231,
+     "FTA": 253,
+     "MIN": 2819,
+     "PF": 182,
+     "TOV": 129
+    }
+   ],
+   "text": "Ray Allen shot .900 from the line (200+ FTA) in 5 straight seasons (2005-06 to 2009-10), the longest run of the 2000s."
+  },
+  {
+   "n": 27,
+   "kind": "streak",
+   "rule": "s_gp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 7,
+   "players": [
+    {
+     "id": 965,
+     "name": "Derek Fisher"
+    }
+   ],
+   "seasons": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 965,
+     "name": "Derek Fisher",
+     "season": 2005,
+     "team": "GSW",
+     "GP": 82,
+     "PTS": 1089,
+     "PPG": 13.3,
+     "REB": 211,
+     "AST": 352,
+     "STL": 125,
+     "BLK": 8,
+     "FGM": 364,
+     "FGA": 887,
+     "FG3M": 117,
+     "FG3A": 295,
+     "FTM": 244,
+     "FTA": 293,
+     "MIN": 2589,
+     "PF": 237,
+     "TOV": 156
+    },
+    {
+     "id": 965,
+     "name": "Derek Fisher",
+     "season": 2006,
+     "team": "UTA",
+     "GP": 82,
+     "PTS": 826,
+     "PPG": 10.1,
+     "REB": 149,
+     "AST": 274,
+     "STL": 83,
+     "BLK": 6,
+     "FGM": 258,
+     "FGA": 675,
+     "FG3M": 48,
+     "FG3A": 156,
+     "FTM": 262,
+     "FTA": 307,
+     "MIN": 2287,
+     "PF": 234,
+     "TOV": 120
+    },
+    {
+     "id": 965,
+     "name": "Derek Fisher",
+     "season": 2007,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 956,
+     "PPG": 11.7,
+     "REB": 170,
+     "AST": 239,
+     "STL": 86,
+     "BLK": 3,
+     "FGM": 339,
+     "FGA": 777,
+     "FG3M": 112,
+     "FG3A": 276,
+     "FTM": 166,
+     "FTA": 188,
+     "MIN": 2249,
+     "PF": 188,
+     "TOV": 90
+    },
+    {
+     "id": 965,
+     "name": "Derek Fisher",
+     "season": 2008,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 814,
+     "PPG": 9.9,
+     "REB": 188,
+     "AST": 261,
+     "STL": 95,
+     "BLK": 6,
+     "FGM": 292,
+     "FGA": 688,
+     "FG3M": 120,
+     "FG3A": 302,
+     "FTM": 110,
+     "FTA": 130,
+     "MIN": 2441,
+     "PF": 187,
+     "TOV": 72
+    },
+    {
+     "id": 965,
+     "name": "Derek Fisher",
+     "season": 2009,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 615,
+     "PPG": 7.5,
+     "REB": 170,
+     "AST": 201,
+     "STL": 90,
+     "BLK": 9,
+     "FGM": 212,
+     "FGA": 558,
+     "FG3M": 78,
+     "FG3A": 224,
+     "FTM": 113,
+     "FTA": 132,
+     "MIN": 2227,
+     "PF": 202,
+     "TOV": 78
+    }
+   ],
+   "text": "Derek Fisher played every game in 5 straight seasons (2005-06 to 2009-10), the longest run of the 2000s."
+  },
+  {
+   "n": 28,
+   "kind": "streak",
+   "rule": "s_2bpg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 7,
+   "players": [
+    {
+     "id": 948,
+     "name": "Marcus Camby"
+    }
+   ],
+   "seasons": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2003,
+     "team": "DEN",
+     "GP": 72,
+     "PTS": 622,
+     "PPG": 8.6,
+     "REB": 727,
+     "AST": 132,
+     "STL": 86,
+     "BLK": 187,
+     "FGM": 262,
+     "FGA": 549,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 98,
+     "FTA": 136,
+     "MIN": 2162,
+     "PF": 239,
+     "TOV": 98
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2004,
+     "team": "DEN",
+     "GP": 66,
+     "PTS": 683,
+     "PPG": 10.3,
+     "REB": 661,
+     "AST": 152,
+     "STL": 61,
+     "BLK": 199,
+     "FGM": 279,
+     "FGA": 600,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 125,
+     "FTA": 173,
+     "MIN": 2015,
+     "PF": 177,
+     "TOV": 103
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2005,
+     "team": "DEN",
+     "GP": 56,
+     "PTS": 716,
+     "PPG": 12.8,
+     "REB": 668,
+     "AST": 115,
+     "STL": 79,
+     "BLK": 184,
+     "FGM": 302,
+     "FGA": 649,
+     "FG3M": 1,
+     "FG3A": 11,
+     "FTM": 111,
+     "FTA": 156,
+     "MIN": 1857,
+     "PF": 158,
+     "TOV": 92
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2006,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 785,
+     "PPG": 11.2,
+     "REB": 816,
+     "AST": 223,
+     "STL": 87,
+     "BLK": 231,
+     "FGM": 312,
+     "FGA": 659,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 161,
+     "FTA": 221,
+     "MIN": 2369,
+     "PF": 183,
+     "TOV": 122
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2007,
+     "team": "DEN",
+     "GP": 79,
+     "PTS": 721,
+     "PPG": 9.1,
+     "REB": 1037,
+     "AST": 259,
+     "STL": 85,
+     "BLK": 285,
+     "FGM": 286,
+     "FGA": 635,
+     "FG3M": 6,
+     "FG3A": 20,
+     "FTM": 143,
+     "FTA": 202,
+     "MIN": 2758,
+     "PF": 216,
+     "TOV": 118
+    }
+   ],
+   "text": "Marcus Camby averaged 2.5+ blocks in 5 straight seasons (2003-04 to 2007-08), the longest run of the 2000s."
+  },
+  {
+   "n": 29,
+   "kind": "streak",
+   "rule": "s_150_3s",
+   "group": "P",
+   "decade": "2000s",
+   "score": 7,
+   "players": [
+    {
+     "id": 951,
+     "name": "Ray Allen"
+    }
+   ],
+   "seasons": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2004,
+     "team": "SEA",
+     "GP": 78,
+     "PTS": 1867,
+     "PPG": 23.9,
+     "REB": 347,
+     "AST": 289,
+     "STL": 84,
+     "BLK": 5,
+     "FGM": 640,
+     "FGA": 1494,
+     "FG3M": 209,
+     "FG3A": 556,
+     "FTM": 378,
+     "FTA": 428,
+     "MIN": 3064,
+     "PF": 167,
+     "TOV": 171
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2005,
+     "team": "SEA",
+     "GP": 78,
+     "PTS": 1955,
+     "PPG": 25.1,
+     "REB": 332,
+     "AST": 286,
+     "STL": 105,
+     "BLK": 16,
+     "FGM": 681,
+     "FGA": 1500,
+     "FG3M": 269,
+     "FG3A": 653,
+     "FTM": 324,
+     "FTA": 359,
+     "MIN": 3022,
+     "PF": 151,
+     "TOV": 188
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2006,
+     "team": "SEA",
+     "GP": 55,
+     "PTS": 1454,
+     "PPG": 26.4,
+     "REB": 247,
+     "AST": 228,
+     "STL": 82,
+     "BLK": 11,
+     "FGM": 505,
+     "FGA": 1153,
+     "FG3M": 165,
+     "FG3A": 443,
+     "FTM": 279,
+     "FTA": 309,
+     "MIN": 2219,
+     "PF": 113,
+     "TOV": 154
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2007,
+     "team": "BOS",
+     "GP": 73,
+     "PTS": 1273,
+     "PPG": 17.4,
+     "REB": 268,
+     "AST": 225,
+     "STL": 65,
+     "BLK": 16,
+     "FGM": 439,
+     "FGA": 986,
+     "FG3M": 180,
+     "FG3A": 452,
+     "FTM": 215,
+     "FTA": 237,
+     "MIN": 2624,
+     "PF": 147,
+     "TOV": 127
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2008,
+     "team": "BOS",
+     "GP": 79,
+     "PTS": 1434,
+     "PPG": 18.2,
+     "REB": 278,
+     "AST": 218,
+     "STL": 69,
+     "BLK": 13,
+     "FGM": 499,
+     "FGA": 1040,
+     "FG3M": 199,
+     "FG3A": 486,
+     "FTM": 237,
+     "FTA": 249,
+     "MIN": 2876,
+     "PF": 157,
+     "TOV": 134
+    }
+   ],
+   "text": "Ray Allen made 150+ threes in 5 straight seasons (2004-05 to 2008-09), the longest run of the 2000s."
+  },
+  {
+   "n": 30,
+   "rule": "bpg_3",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 689,
+     "name": "Theo Ratliff",
+     "season": 2000,
+     "team": "PHI",
+     "GP": 50,
+     "PTS": 621,
+     "PPG": 12.4,
+     "REB": 413,
+     "AST": 58,
+     "STL": 30,
+     "BLK": 187,
+     "FGM": 228,
+     "FGA": 457,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 165,
+     "FTA": 217,
+     "MIN": 1800,
+     "PF": 165,
+     "TOV": 126
+    },
+    {
+     "id": 689,
+     "name": "Theo Ratliff",
+     "season": 2003,
+     "team": "POR",
+     "GP": 85,
+     "PTS": 672,
+     "PPG": 7.9,
+     "REB": 614,
+     "AST": 71,
+     "STL": 54,
+     "BLK": 307,
+     "FGM": 266,
+     "FGA": 549,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 140,
+     "FTA": 217,
+     "MIN": 1016,
+     "PF": 300,
+     "TOV": 120
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2007,
+     "team": "DEN",
+     "GP": 79,
+     "PTS": 721,
+     "PPG": 9.1,
+     "REB": 1037,
+     "AST": 259,
+     "STL": 85,
+     "BLK": 285,
+     "FGM": 286,
+     "FGA": 635,
+     "FG3M": 6,
+     "FG3A": 20,
+     "FTM": 143,
+     "FTA": 202,
+     "MIN": 2758,
+     "PF": 216,
+     "TOV": 118
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2001,
+     "team": "DET",
+     "GP": 80,
+     "PTS": 609,
+     "PPG": 7.6,
+     "REB": 1039,
+     "AST": 115,
+     "STL": 138,
+     "BLK": 278,
+     "FGM": 255,
+     "FGA": 480,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 99,
+     "FTA": 234,
+     "MIN": 2919,
+     "PF": 178,
+     "TOV": 70
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2006,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 785,
+     "PPG": 11.2,
+     "REB": 816,
+     "AST": 223,
+     "STL": 87,
+     "BLK": 231,
+     "FGM": 312,
+     "FGA": 659,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 161,
+     "FTA": 221,
+     "MIN": 2369,
+     "PF": 183,
+     "TOV": 122
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2005,
+     "team": "DEN",
+     "GP": 56,
+     "PTS": 716,
+     "PPG": 12.8,
+     "REB": 668,
+     "AST": 115,
+     "STL": 79,
+     "BLK": 184,
+     "FGM": 302,
+     "FGA": 649,
+     "FG3M": 1,
+     "FG3A": 11,
+     "FTM": 111,
+     "FTA": 156,
+     "MIN": 1857,
+     "PF": 158,
+     "TOV": 92
+    },
+    {
+     "id": 689,
+     "name": "Theo Ratliff",
+     "season": 2002,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 706,
+     "PPG": 8.7,
+     "REB": 607,
+     "AST": 73,
+     "STL": 56,
+     "BLK": 262,
+     "FGM": 276,
+     "FGA": 595,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 154,
+     "FTA": 214,
+     "MIN": 2518,
+     "PF": 271,
+     "TOV": 137
+    },
+    {
+     "id": 1905,
+     "name": "Andrei Kirilenko",
+     "season": 2005,
+     "team": "UTA",
+     "GP": 69,
+     "PTS": 1054,
+     "PPG": 15.3,
+     "REB": 552,
+     "AST": 299,
+     "STL": 102,
+     "BLK": 220,
+     "FGM": 336,
+     "FGA": 730,
+     "FG3M": 36,
+     "FG3A": 117,
+     "FTM": 346,
+     "FTA": 495,
+     "MIN": 2604,
+     "PF": 162,
+     "TOV": 203
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2002,
+     "team": "DET",
+     "GP": 73,
+     "PTS": 506,
+     "PPG": 6.9,
+     "REB": 1126,
+     "AST": 120,
+     "STL": 104,
+     "BLK": 230,
+     "FGM": 210,
+     "FGA": 437,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 85,
+     "FTA": 189,
+     "MIN": 2873,
+     "PF": 179,
+     "TOV": 88
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2003,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 773,
+     "PPG": 9.5,
+     "REB": 1006,
+     "AST": 138,
+     "STL": 143,
+     "BLK": 246,
+     "FGM": 315,
+     "FGA": 748,
+     "FG3M": 1,
+     "FG3A": 8,
+     "FTM": 142,
+     "FTA": 290,
+     "MIN": 3054,
+     "PF": 162,
+     "TOV": 123
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2004,
+     "team": "DEN",
+     "GP": 66,
+     "PTS": 683,
+     "PPG": 10.3,
+     "REB": 661,
+     "AST": 152,
+     "STL": 61,
+     "BLK": 199,
+     "FGM": 279,
+     "FGA": 600,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 125,
+     "FTA": 173,
+     "MIN": 2015,
+     "PF": 177,
+     "TOV": 103
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "few",
+   "score": 6.9350000000000005,
+   "players": [
+    {
+     "id": 689,
+     "name": "Theo Ratliff"
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby"
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace"
+    },
+    {
+     "id": 1905,
+     "name": "Andrei Kirilenko"
+    }
+   ],
+   "seasons": [
+    2000,
+    2003,
+    2007,
+    2001,
+    2006,
+    2005,
+    2002,
+    2005,
+    2002,
+    2003,
+    2004
+   ],
+   "text": "Just four players of the 2000s averaged 3 blocks a game (60% of games): Theo Ratliff (3×, best 2000-01: 3.7 bpg); Marcus Camby (4×, best 2007-08: 3.6 bpg); Ben Wallace (3×, best 2001-02: 3.5 bpg); Andrei Kirilenko (2005-06: 3.2 bpg)."
+  },
+  {
+   "n": 31,
+   "rule": "po_pts",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2000,
+     "team": "PHI",
+     "GP": 22,
+     "PTS": 723,
+     "PPG": 32.9,
+     "REB": 104,
+     "AST": 134,
+     "STL": 52,
+     "BLK": 7,
+     "FGM": 257,
+     "FGA": 661,
+     "FG3M": 48,
+     "FG3A": 142,
+     "FTM": 161,
+     "FTA": 208,
+     "MIN": 1016,
+     "PF": 55,
+     "TOV": 63
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2008,
+     "team": "LAL",
+     "GP": 23,
+     "PTS": 695,
+     "PPG": 30.2,
+     "REB": 123,
+     "AST": 126,
+     "STL": 38,
+     "BLK": 21,
+     "FGM": 242,
+     "FGA": 530,
+     "FG3M": 37,
+     "FG3A": 106,
+     "FTM": 174,
+     "FTA": 197,
+     "MIN": 940,
+     "PF": 59,
+     "TOV": 59
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2009,
+     "team": "LAL",
+     "GP": 23,
+     "PTS": 671,
+     "PPG": 29.2,
+     "REB": 138,
+     "AST": 126,
+     "STL": 31,
+     "BLK": 16,
+     "FGM": 234,
+     "FGA": 511,
+     "FG3M": 49,
+     "FG3A": 131,
+     "FTM": 154,
+     "FTA": 183,
+     "MIN": 923,
+     "PF": 75,
+     "TOV": 79
+    },
+    {
+     "id": 2548,
+     "name": "Dwyane Wade",
+     "season": 2005,
+     "team": "MIA",
+     "GP": 23,
+     "PTS": 654,
+     "PPG": 28.4,
+     "REB": 135,
+     "AST": 132,
+     "STL": 51,
+     "BLK": 26,
+     "FGM": 219,
+     "FGA": 441,
+     "FG3M": 14,
+     "FG3A": 37,
+     "FTM": 202,
+     "FTA": 250,
+     "MIN": 959,
+     "PF": 71,
+     "TOV": 90
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2007,
+     "team": "LAL",
+     "GP": 21,
+     "PTS": 633,
+     "PPG": 30.1,
+     "REB": 119,
+     "AST": 117,
+     "STL": 35,
+     "BLK": 8,
+     "FGM": 222,
+     "FGA": 463,
+     "FG3M": 32,
+     "FG3A": 106,
+     "FTM": 157,
+     "FTA": 194,
+     "MIN": 863,
+     "PF": 59,
+     "TOV": 70
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2005,
+     "team": "DAL",
+     "GP": 23,
+     "PTS": 620,
+     "PPG": 27,
+     "REB": 268,
+     "AST": 67,
+     "STL": 25,
+     "BLK": 14,
+     "FGM": 196,
+     "FGA": 419,
+     "FG3M": 23,
+     "FG3A": 67,
+     "FTM": 205,
+     "FTA": 229,
+     "MIN": 983,
+     "PF": 64,
+     "TOV": 49
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.90375,
+   "players": [
+    {
+     "id": 947,
+     "name": "Allen Iverson"
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant"
+    },
+    {
+     "id": 2548,
+     "name": "Dwyane Wade"
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki"
+    }
+   ],
+   "seasons": [
+    2000,
+    2008,
+    2009,
+    2005,
+    2007,
+    2005
+   ],
+   "text": "Just four players of the 2000s scored 600 points in one postseason: Allen Iverson (2000-01: 723 pts in 22 games); Kobe Bryant (3×, best 2008-09: 695 pts in 23 games); Dwyane Wade (2005-06: 654 pts in 23 games); Dirk Nowitzki (2005-06: 620 pts in 23 games)."
+  },
+  {
+   "n": 32,
+   "rule": "po_30",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2008,
+     "team": "CLE",
+     "GP": 14,
+     "PTS": 494,
+     "PPG": 35.3,
+     "REB": 128,
+     "AST": 102,
+     "STL": 23,
+     "BLK": 12,
+     "FGM": 159,
+     "FGA": 312,
+     "FG3M": 27,
+     "FG3A": 81,
+     "FTM": 149,
+     "FTA": 199,
+     "MIN": 580,
+     "PF": 30,
+     "TOV": 38
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2000,
+     "team": "PHI",
+     "GP": 22,
+     "PTS": 723,
+     "PPG": 32.9,
+     "REB": 104,
+     "AST": 134,
+     "STL": 52,
+     "BLK": 7,
+     "FGM": 257,
+     "FGA": 661,
+     "FG3M": 48,
+     "FG3A": 142,
+     "FTM": 161,
+     "FTA": 208,
+     "MIN": 1016,
+     "PF": 55,
+     "TOV": 63
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2002,
+     "team": "LAL",
+     "GP": 12,
+     "PTS": 385,
+     "PPG": 32.1,
+     "REB": 61,
+     "AST": 62,
+     "STL": 14,
+     "BLK": 1,
+     "FGM": 137,
+     "FGA": 317,
+     "FG3M": 25,
+     "FG3A": 62,
+     "FTM": 86,
+     "FTA": 104,
+     "MIN": 531,
+     "PF": 35,
+     "TOV": 42
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2002,
+     "team": "PHI",
+     "GP": 12,
+     "PTS": 380,
+     "PPG": 31.7,
+     "REB": 52,
+     "AST": 89,
+     "STL": 29,
+     "BLK": 1,
+     "FGM": 137,
+     "FGA": 329,
+     "FG3M": 19,
+     "FG3A": 55,
+     "FTM": 87,
+     "FTA": 118,
+     "MIN": 557,
+     "PF": 25,
+     "TOV": 47
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2005,
+     "team": "CLE",
+     "GP": 13,
+     "PTS": 400,
+     "PPG": 30.8,
+     "REB": 105,
+     "AST": 76,
+     "STL": 18,
+     "BLK": 9,
+     "FGM": 146,
+     "FGA": 307,
+     "FG3M": 21,
+     "FG3A": 63,
+     "FTM": 87,
+     "FTA": 118,
+     "MIN": 604,
+     "PF": 44,
+     "TOV": 65
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2000,
+     "team": "LAL",
+     "GP": 16,
+     "PTS": 487,
+     "PPG": 30.4,
+     "REB": 247,
+     "AST": 51,
+     "STL": 7,
+     "BLK": 38,
+     "FGM": 191,
+     "FGA": 344,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 105,
+     "FTA": 200,
+     "MIN": 676,
+     "PF": 55,
+     "TOV": 57
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2008,
+     "team": "LAL",
+     "GP": 23,
+     "PTS": 695,
+     "PPG": 30.2,
+     "REB": 123,
+     "AST": 126,
+     "STL": 38,
+     "BLK": 21,
+     "FGM": 242,
+     "FGA": 530,
+     "FG3M": 37,
+     "FG3A": 106,
+     "FTM": 174,
+     "FTA": 197,
+     "MIN": 940,
+     "PF": 59,
+     "TOV": 59
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2007,
+     "team": "LAL",
+     "GP": 21,
+     "PTS": 633,
+     "PPG": 30.1,
+     "REB": 119,
+     "AST": 117,
+     "STL": 35,
+     "BLK": 8,
+     "FGM": 222,
+     "FGA": 463,
+     "FG3M": 32,
+     "FG3A": 106,
+     "FTM": 157,
+     "FTA": 194,
+     "MIN": 863,
+     "PF": 59,
+     "TOV": 70
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 6.882142857142857,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson"
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant"
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal"
+    }
+   ],
+   "seasons": [
+    2008,
+    2000,
+    2002,
+    2002,
+    2005,
+    2000,
+    2008,
+    2007
+   ],
+   "text": "Just four players of the 2000s averaged 30 points in a single postseason (8+ playoff games): LeBron James (2×, best 2008-09: 35.3 ppg in 14 games); Allen Iverson (2×, best 2000-01: 32.9 ppg in 22 games); Kobe Bryant (3×, best 2002-03: 32.1 ppg in 12 games); Shaquille O'Neal (2000-01: 30.4 ppg in 16 games)."
+  },
+  {
+   "n": 33,
+   "rule": "blk_250",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 689,
+     "name": "Theo Ratliff",
+     "season": 2003,
+     "team": "POR",
+     "GP": 85,
+     "PTS": 672,
+     "PPG": 7.9,
+     "REB": 614,
+     "AST": 71,
+     "STL": 54,
+     "BLK": 307,
+     "FGM": 266,
+     "FGA": 549,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 140,
+     "FTA": 217,
+     "MIN": 1016,
+     "PF": 300,
+     "TOV": 120
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2007,
+     "team": "DEN",
+     "GP": 79,
+     "PTS": 721,
+     "PPG": 9.1,
+     "REB": 1037,
+     "AST": 259,
+     "STL": 85,
+     "BLK": 285,
+     "FGM": 286,
+     "FGA": 635,
+     "FG3M": 6,
+     "FG3A": 20,
+     "FTM": 143,
+     "FTA": 202,
+     "MIN": 2758,
+     "PF": 216,
+     "TOV": 118
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2001,
+     "team": "DET",
+     "GP": 80,
+     "PTS": 609,
+     "PPG": 7.6,
+     "REB": 1039,
+     "AST": 115,
+     "STL": 138,
+     "BLK": 278,
+     "FGM": 255,
+     "FGA": 480,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 99,
+     "FTA": 234,
+     "MIN": 2919,
+     "PF": 178,
+     "TOV": 70
+    },
+    {
+     "id": 689,
+     "name": "Theo Ratliff",
+     "season": 2002,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 706,
+     "PPG": 8.7,
+     "REB": 607,
+     "AST": 73,
+     "STL": 56,
+     "BLK": 262,
+     "FGM": 276,
+     "FGA": 595,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 154,
+     "FTA": 214,
+     "MIN": 2518,
+     "PF": 271,
+     "TOV": 137
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.7675,
+   "players": [
+    {
+     "id": 689,
+     "name": "Theo Ratliff"
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby"
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace"
+    }
+   ],
+   "seasons": [
+    2003,
+    2007,
+    2001,
+    2002
+   ],
+   "text": "Just three players of the 2000s blocked 250 shots in a season: Theo Ratliff (2×, best 2003-04: 307 blk); Marcus Camby (2007-08: 285 blk); Ben Wallace (2001-02: 278 blk)."
+  },
+  {
+   "n": 34,
+   "rule": "twenty_ten_no_pass",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2007,
+     "team": "ORL",
+     "GP": 82,
+     "PTS": 1695,
+     "PPG": 20.7,
+     "REB": 1161,
+     "AST": 110,
+     "STL": 74,
+     "BLK": 176,
+     "FGM": 583,
+     "FGA": 974,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 529,
+     "FTA": 897,
+     "MIN": 3088,
+     "PF": 274,
+     "TOV": 263
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2008,
+     "team": "ORL",
+     "GP": 79,
+     "PTS": 1624,
+     "PPG": 20.6,
+     "REB": 1093,
+     "AST": 112,
+     "STL": 77,
+     "BLK": 231,
+     "FGM": 560,
+     "FGA": 979,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 504,
+     "FTA": 849,
+     "MIN": 2821,
+     "PF": 270,
+     "TOV": 240
+    },
+    {
+     "id": 2744,
+     "name": "Al Jefferson",
+     "season": 2007,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 1726,
+     "PPG": 21,
+     "REB": 911,
+     "AST": 117,
+     "STL": 74,
+     "BLK": 119,
+     "FGM": 721,
+     "FGA": 1441,
+     "FG3M": 0,
+     "FG3A": 5,
+     "FTM": 284,
+     "FTA": 394,
+     "MIN": 2919,
+     "PF": 222,
+     "TOV": 167
+    },
+    {
+     "id": 2397,
+     "name": "Yao Ming",
+     "season": 2005,
+     "team": "HOU",
+     "GP": 57,
+     "PTS": 1271,
+     "PPG": 22.3,
+     "REB": 581,
+     "AST": 85,
+     "STL": 30,
+     "BLK": 94,
+     "FGM": 467,
+     "FGA": 900,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 337,
+     "FTA": 395,
+     "MIN": 1949,
+     "PF": 195,
+     "TOV": 147
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.535365853658536,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    },
+    {
+     "id": 2744,
+     "name": "Al Jefferson"
+    },
+    {
+     "id": 2397,
+     "name": "Yao Ming"
+    }
+   ],
+   "seasons": [
+    2007,
+    2008,
+    2007,
+    2005
+   ],
+   "text": "Just three players of the 2000s averaged 20 points and 10 rebounds with under 1.5 assists (60% of games): Dwight Howard (2×, best 2007-08: 20.7/14.2/1.3); Al Jefferson (2007-08: 21.0/11.1/1.4); Yao Ming (2005-06: 22.3/10.2/1.5)."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "po_most_ast",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2009,
+     "team": "BOS",
+     "GP": 24,
+     "PTS": 379,
+     "PPG": 15.8,
+     "REB": 134,
+     "AST": 223,
+     "STL": 46,
+     "BLK": 3,
+     "FGM": 151,
+     "FGA": 326,
+     "FG3M": 9,
+     "FG3A": 24,
+     "FTM": 68,
+     "FTA": 114,
+     "MIN": 975,
+     "PF": 57,
+     "TOV": 72
+    }
+   ],
+   "among": 1922,
+   "text": "Most assists in a single postseason in the 2000s: Rajon Rondo, 2009-10 — 223 in 24 games."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "po_most_reb",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2002,
+     "team": "SAS",
+     "GP": 24,
+     "PTS": 593,
+     "PPG": 24.7,
+     "REB": 369,
+     "AST": 127,
+     "STL": 15,
+     "BLK": 79,
+     "FGM": 218,
+     "FGA": 412,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 157,
+     "FTA": 232,
+     "MIN": 1021,
+     "PF": 78,
+     "TOV": 76
+    }
+   ],
+   "among": 1922,
+   "text": "Most rebounds in a single postseason in the 2000s: Tim Duncan, 2002-03 — 369 in 24 games."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "worst_fg_scorer",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 952,
+     "name": "Antoine Walker"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 952,
+     "name": "Antoine Walker",
+     "season": 2002,
+     "team": "BOS",
+     "GP": 78,
+     "PTS": 1570,
+     "PPG": 20.1,
+     "REB": 563,
+     "AST": 373,
+     "STL": 116,
+     "BLK": 31,
+     "FGM": 603,
+     "FGA": 1554,
+     "FG3M": 188,
+     "FG3A": 582,
+     "FTM": 176,
+     "FTA": 286,
+     "MIN": 3235,
+     "PF": 221,
+     "TOV": 260
+    }
+   ],
+   "among": 243,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 2000s: Antoine Walker, 2002-03 — .388 while averaging 20.1."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "best_ft_volume",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2009,
+     "team": "DAL",
+     "GP": 81,
+     "PTS": 2027,
+     "PPG": 25,
+     "REB": 620,
+     "AST": 218,
+     "STL": 70,
+     "BLK": 79,
+     "FGM": 720,
+     "FGA": 1496,
+     "FG3M": 51,
+     "FG3A": 121,
+     "FTM": 536,
+     "FTA": 586,
+     "MIN": 3039,
+     "PF": 208,
+     "TOV": 149
+    }
+   ],
+   "among": 139,
+   "text": "Best free-throw percentage on 500+ attempts in the 2000s: Dirk Nowitzki, 2009-10 — .915 (536-586)."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "ast_low_pts",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 467,
+     "name": "Jason Kidd"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2008,
+     "team": "DAL",
+     "GP": 81,
+     "PTS": 731,
+     "PPG": 9,
+     "REB": 500,
+     "AST": 702,
+     "STL": 160,
+     "BLK": 39,
+     "FGM": 257,
+     "FGA": 618,
+     "FG3M": 131,
+     "FG3A": 323,
+     "FTM": 86,
+     "FTA": 105,
+     "MIN": 2886,
+     "PF": 168,
+     "TOV": 185
+    }
+   ],
+   "among": 1650,
+   "text": "Most assists by a sub-10-point scorer in the 2000s: Jason Kidd, 2008-09 — 702 assists while averaging 9.0."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "most_pf",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 703,
+     "name": "Kurt Thomas"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 703,
+     "name": "Kurt Thomas",
+     "season": 2002,
+     "team": "NYK",
+     "GP": 81,
+     "PTS": 1134,
+     "PPG": 14,
+     "REB": 637,
+     "AST": 162,
+     "STL": 81,
+     "BLK": 97,
+     "FGM": 497,
+     "FGA": 1028,
+     "FG3M": 2,
+     "FG3A": 3,
+     "FTM": 138,
+     "FTA": 184,
+     "MIN": 2577,
+     "PF": 344,
+     "TOV": 138
+    }
+   ],
+   "among": 4467,
+   "text": "Most personal fouls in a season in the 2000s: Kurt Thomas, 2002-03 — 344."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "most_ast",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1684,
+     "PPG": 21.1,
+     "REB": 321,
+     "AST": 925,
+     "STL": 217,
+     "BLK": 4,
+     "FGM": 630,
+     "FGA": 1291,
+     "FG3M": 92,
+     "FG3A": 249,
+     "FTM": 332,
+     "FTA": 390,
+     "MIN": 3006,
+     "PF": 185,
+     "TOV": 201
+    }
+   ],
+   "among": 4467,
+   "text": "Most assists in a season in the 2000s: Chris Paul, 2007-08 — 925 (11.6 a game)."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "reb_low_pts",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1112,
+     "name": "Ben Wallace"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2002,
+     "team": "DET",
+     "GP": 73,
+     "PTS": 506,
+     "PPG": 6.9,
+     "REB": 1126,
+     "AST": 120,
+     "STL": 104,
+     "BLK": 230,
+     "FGM": 210,
+     "FGA": 437,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 85,
+     "FTA": 189,
+     "MIN": 2873,
+     "PF": 179,
+     "TOV": 88
+    }
+   ],
+   "among": 1650,
+   "text": "Most rebounds by a sub-10-point scorer in the 2000s: Ben Wallace, 2002-03 — 1,126 rebounds while averaging 6.9."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "top_apg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 959,
+     "name": "Steve Nash"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2006,
+     "team": "PHX",
+     "GP": 76,
+     "PTS": 1412,
+     "PPG": 18.6,
+     "REB": 269,
+     "AST": 884,
+     "STL": 57,
+     "BLK": 6,
+     "FGM": 517,
+     "FGA": 971,
+     "FG3M": 156,
+     "FG3A": 343,
+     "FTM": 222,
+     "FTA": 247,
+     "MIN": 2682,
+     "PF": 117,
+     "TOV": 287
+    }
+   ],
+   "among": 2902,
+   "text": "Highest assist average of the 2000s: Steve Nash, 2006-07 — 11.6 a game."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "best_ft_official",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 101181,
+     "name": "Jose Calderon"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101181,
+     "name": "Jose Calderon",
+     "season": 2008,
+     "team": "TOR",
+     "GP": 68,
+     "PTS": 873,
+     "PPG": 12.8,
+     "REB": 194,
+     "AST": 607,
+     "STL": 74,
+     "BLK": 7,
+     "FGM": 320,
+     "FGA": 644,
+     "FG3M": 82,
+     "FG3A": 202,
+     "FTM": 151,
+     "FTA": 154,
+     "MIN": 2333,
+     "PF": 114,
+     "TOV": 143
+    }
+   ],
+   "among": 1338,
+   "text": "Best free-throw percentage in a season (125+ made) in the 2000s: Jose Calderon, 2008-09 — .981."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "most_ftm",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2009,
+     "team": "OKC",
+     "GP": 82,
+     "PTS": 2472,
+     "PPG": 30.1,
+     "REB": 623,
+     "AST": 231,
+     "STL": 112,
+     "BLK": 84,
+     "FGM": 794,
+     "FGA": 1668,
+     "FG3M": 128,
+     "FG3A": 351,
+     "FTM": 756,
+     "FTA": 840,
+     "MIN": 3239,
+     "PF": 171,
+     "TOV": 271
+    }
+   ],
+   "among": 4467,
+   "text": "Most free throws made in a season in the 2000s: Kevin Durant, 2009-10 — 756 of 840."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "most_oreb",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1882,
+     "name": "Elton Brand"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1882,
+     "name": "Elton Brand",
+     "season": 2001,
+     "team": "LAC",
+     "GP": 80,
+     "PTS": 1453,
+     "PPG": 18.2,
+     "REB": 925,
+     "AST": 191,
+     "STL": 80,
+     "BLK": 163,
+     "FGM": 532,
+     "FGA": 1010,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 389,
+     "FTA": 524,
+     "MIN": 3016,
+     "PF": 254,
+     "TOV": 173
+    }
+   ],
+   "among": 4467,
+   "text": "Most offensive rebounds in a season in the 2000s: Elton Brand, 2001-02 — 396."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "most_blk",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 689,
+     "name": "Theo Ratliff"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 689,
+     "name": "Theo Ratliff",
+     "season": 2003,
+     "team": "POR",
+     "GP": 85,
+     "PTS": 672,
+     "PPG": 7.9,
+     "REB": 614,
+     "AST": 71,
+     "STL": 54,
+     "BLK": 307,
+     "FGM": 266,
+     "FGA": 549,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 140,
+     "FTA": 217,
+     "MIN": 1016,
+     "PF": 300,
+     "TOV": 120
+    }
+   ],
+   "among": 4467,
+   "text": "Most blocked shots in a season in the 2000s: Theo Ratliff, 2003-04 — 307."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "most_3pa_bad",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 952,
+     "name": "Antoine Walker"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 952,
+     "name": "Antoine Walker",
+     "season": 2002,
+     "team": "BOS",
+     "GP": 78,
+     "PTS": 1570,
+     "PPG": 20.1,
+     "REB": 563,
+     "AST": 373,
+     "STL": 116,
+     "BLK": 31,
+     "FGM": 603,
+     "FGA": 1554,
+     "FG3M": 188,
+     "FG3A": 582,
+     "FTM": 176,
+     "FTA": 286,
+     "MIN": 3235,
+     "PF": 221,
+     "TOV": 260
+    }
+   ],
+   "among": 123,
+   "text": "Most threes attempted while shooting under .330 from deep in the 2000s: Antoine Walker, 2002-03 — 582 attempts at .323."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "best_3p_volume",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 2207,
+     "name": "Joe Johnson"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2207,
+     "name": "Joe Johnson",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 422,
+     "AST": 291,
+     "STL": 79,
+     "BLK": 24,
+     "FGM": 544,
+     "FGA": 1179,
+     "FG3M": 177,
+     "FG3A": 370,
+     "FTM": 135,
+     "FTA": 180,
+     "MIN": 3238,
+     "PF": 167,
+     "TOV": 148
+    }
+   ],
+   "among": 363,
+   "text": "Best three-point percentage on 300+ attempts in the 2000s: Joe Johnson, 2004-05 — .478 (177-370)."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "most_3pm",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 951,
+     "name": "Ray Allen"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2005,
+     "team": "SEA",
+     "GP": 78,
+     "PTS": 1955,
+     "PPG": 25.1,
+     "REB": 332,
+     "AST": 286,
+     "STL": 105,
+     "BLK": 16,
+     "FGM": 681,
+     "FGA": 1500,
+     "FG3M": 269,
+     "FG3A": 653,
+     "FTM": 324,
+     "FTA": 359,
+     "MIN": 3022,
+     "PF": 151,
+     "TOV": 188
+    }
+   ],
+   "among": 4467,
+   "text": "Most threes made in a season in the 2000s: Ray Allen, 2005-06 — 269."
+  },
+  {
+   "n": 51,
+   "kind": "streak",
+   "rule": "s_2spg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1897,
+     "name": "Metta World Peace"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1897,
+     "name": "Metta World Peace",
+     "season": 2000,
+     "team": "CHI",
+     "GP": 76,
+     "PTS": 907,
+     "PPG": 11.9,
+     "REB": 294,
+     "AST": 228,
+     "STL": 152,
+     "BLK": 45,
+     "FGM": 327,
+     "FGA": 815,
+     "FG3M": 43,
+     "FG3A": 148,
+     "FTM": 210,
+     "FTA": 280,
+     "MIN": 2363,
+     "PF": 254,
+     "TOV": 159
+    },
+    {
+     "id": 1897,
+     "name": "Metta World Peace",
+     "season": 2001,
+     "team": "IND",
+     "GP": 55,
+     "PTS": 727,
+     "PPG": 13.2,
+     "REB": 271,
+     "AST": 127,
+     "STL": 141,
+     "BLK": 39,
+     "FGM": 269,
+     "FGA": 636,
+     "FG3M": 53,
+     "FG3A": 170,
+     "FTM": 136,
+     "FTA": 204,
+     "MIN": 1641,
+     "PF": 217,
+     "TOV": 118
+    },
+    {
+     "id": 1897,
+     "name": "Metta World Peace",
+     "season": 2002,
+     "team": "IND",
+     "GP": 69,
+     "PTS": 1068,
+     "PPG": 15.5,
+     "REB": 362,
+     "AST": 198,
+     "STL": 159,
+     "BLK": 50,
+     "FGM": 362,
+     "FGA": 846,
+     "FG3M": 71,
+     "FG3A": 211,
+     "FTM": 273,
+     "FTA": 371,
+     "MIN": 2317,
+     "PF": 242,
+     "TOV": 145
+    },
+    {
+     "id": 1897,
+     "name": "Metta World Peace",
+     "season": 2003,
+     "team": "IND",
+     "GP": 73,
+     "PTS": 1333,
+     "PPG": 18.3,
+     "REB": 385,
+     "AST": 272,
+     "STL": 152,
+     "BLK": 50,
+     "FGM": 468,
+     "FGA": 1112,
+     "FG3M": 75,
+     "FG3A": 242,
+     "FTM": 322,
+     "FTA": 439,
+     "MIN": 2713,
+     "PF": 194,
+     "TOV": 202
+    }
+   ],
+   "text": "Metta World Peace averaged 2+ steals in 4 straight seasons (2000-01 to 2003-04), the longest run of the 2000s."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "po_most_pts",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 947,
+     "name": "Allen Iverson"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2000,
+     "team": "PHI",
+     "GP": 22,
+     "PTS": 723,
+     "PPG": 32.9,
+     "REB": 104,
+     "AST": 134,
+     "STL": 52,
+     "BLK": 7,
+     "FGM": 257,
+     "FGA": 661,
+     "FG3M": 48,
+     "FG3A": 142,
+     "FTM": 161,
+     "FTA": 208,
+     "MIN": 1016,
+     "PF": 55,
+     "TOV": 63
+    }
+   ],
+   "among": 1922,
+   "text": "Most points in a single postseason in the 2000s: Allen Iverson, 2000-01 — 723 in 22 games."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "po_best_fg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "season": 2005,
+     "team": "MIA",
+     "GP": 23,
+     "PTS": 424,
+     "PPG": 18.4,
+     "REB": 225,
+     "AST": 39,
+     "STL": 11,
+     "BLK": 34,
+     "FGM": 178,
+     "FGA": 291,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 68,
+     "FTA": 182,
+     "MIN": 759,
+     "PF": 84,
+     "TOV": 85
+    }
+   ],
+   "among": 241,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 2000s: Shaquille O'Neal, 2005-06 — .612."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "most_reb",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2007,
+     "team": "ORL",
+     "GP": 82,
+     "PTS": 1695,
+     "PPG": 20.7,
+     "REB": 1161,
+     "AST": 110,
+     "STL": 74,
+     "BLK": 176,
+     "FGM": 583,
+     "FGA": 974,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 529,
+     "FTA": 897,
+     "MIN": 3088,
+     "PF": 274,
+     "TOV": 263
+    }
+   ],
+   "among": 4467,
+   "text": "Most rebounds in a season in the 2000s: Dwight Howard, 2007-08 — 1,161 (14.2 a game)."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "top_rpg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1112,
+     "name": "Ben Wallace"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2002,
+     "team": "DET",
+     "GP": 73,
+     "PTS": 506,
+     "PPG": 6.9,
+     "REB": 1126,
+     "AST": 120,
+     "STL": 104,
+     "BLK": 230,
+     "FGM": 210,
+     "FGA": 437,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 85,
+     "FTA": 189,
+     "MIN": 2873,
+     "PF": 179,
+     "TOV": 88
+    }
+   ],
+   "among": 2902,
+   "text": "Highest rebounding average of the 2000s: Ben Wallace, 2002-03 — 15.4 a game."
+  },
+  {
+   "n": 56,
+   "kind": "nearmiss",
+   "rule": "rpg99",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5.75,
+   "players": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki"
+    },
+    {
+     "id": 1890,
+     "name": "Shawn Marion"
+    },
+    {
+     "id": 923,
+     "name": "Donyell Marshall"
+    }
+   ],
+   "seasons": [
+    2002,
+    2001,
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2002,
+     "team": "DAL",
+     "GP": 80,
+     "PTS": 2011,
+     "PPG": 25.1,
+     "REB": 791,
+     "AST": 239,
+     "STL": 111,
+     "BLK": 82,
+     "FGM": 690,
+     "FGA": 1489,
+     "FG3M": 148,
+     "FG3A": 390,
+     "FTM": 483,
+     "FTA": 548,
+     "MIN": 3117,
+     "PF": 206,
+     "TOV": 152
+    },
+    {
+     "id": 1890,
+     "name": "Shawn Marion",
+     "season": 2001,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1547,
+     "PPG": 19.1,
+     "REB": 803,
+     "AST": 162,
+     "STL": 149,
+     "BLK": 86,
+     "FGM": 654,
+     "FGA": 1395,
+     "FG3M": 48,
+     "FG3A": 122,
+     "FTM": 191,
+     "FTA": 226,
+     "MIN": 3108,
+     "PF": 214,
+     "TOV": 144
+    },
+    {
+     "id": 923,
+     "name": "Donyell Marshall",
+     "season": 2003,
+     "team": "TOR",
+     "GP": 82,
+     "PTS": 1205,
+     "PPG": 14.7,
+     "REB": 808,
+     "AST": 122,
+     "STL": 93,
+     "BLK": 124,
+     "FGM": 470,
+     "FGA": 1020,
+     "FG3M": 131,
+     "FG3A": 325,
+     "FTM": 134,
+     "FTA": 182,
+     "MIN": 2988,
+     "PF": 247,
+     "TOV": 117
+    },
+    {
+     "id": 185,
+     "name": "Chris Webber",
+     "season": 2005,
+     "team": "PHI",
+     "GP": 75,
+     "PTS": 1518,
+     "PPG": 20.2,
+     "REB": 741,
+     "AST": 256,
+     "STL": 103,
+     "BLK": 62,
+     "FGM": 617,
+     "FGA": 1422,
+     "FG3M": 21,
+     "FG3A": 77,
+     "FTM": 263,
+     "FTA": 348,
+     "MIN": 2893,
+     "PF": 219,
+     "TOV": 182
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2001,
+     "team": "DAL",
+     "GP": 76,
+     "PTS": 1779,
+     "PPG": 23.4,
+     "REB": 755,
+     "AST": 186,
+     "STL": 83,
+     "BLK": 77,
+     "FGM": 600,
+     "FGA": 1258,
+     "FG3M": 139,
+     "FG3A": 350,
+     "FTM": 440,
+     "FTA": 516,
+     "MIN": 2891,
+     "PF": 222,
+     "TOV": 145
+    },
+    {
+     "id": 201143,
+     "name": "Al Horford",
+     "season": 2009,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 1148,
+     "PPG": 14.2,
+     "REB": 799,
+     "AST": 189,
+     "STL": 59,
+     "BLK": 91,
+     "FGM": 467,
+     "FGA": 847,
+     "FG3M": 1,
+     "FG3A": 1,
+     "FTM": 213,
+     "FTA": 270,
+     "MIN": 2845,
+     "PF": 225,
+     "TOV": 122
+    }
+   ],
+   "text": "7 player-seasons of the 2000s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Dirk Nowitzki (2002-03), Shawn Marion (2001-02), Donyell Marshall (2003-04)."
+  },
+  {
+   "n": 57,
+   "kind": "nearmiss",
+   "rule": "tp399",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5.75,
+   "players": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki"
+    },
+    {
+     "id": 1507,
+     "name": "Derek Anderson"
+    },
+    {
+     "id": 1897,
+     "name": "Metta World Peace"
+    }
+   ],
+   "seasons": [
+    2004,
+    2000,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2004,
+     "team": "DAL",
+     "GP": 78,
+     "PTS": 2032,
+     "PPG": 26.1,
+     "REB": 757,
+     "AST": 240,
+     "STL": 97,
+     "BLK": 119,
+     "FGM": 663,
+     "FGA": 1445,
+     "FG3M": 91,
+     "FG3A": 228,
+     "FTM": 615,
+     "FTA": 708,
+     "MIN": 3020,
+     "PF": 219,
+     "TOV": 176
+    },
+    {
+     "id": 1507,
+     "name": "Derek Anderson",
+     "season": 2000,
+     "team": "SAS",
+     "GP": 82,
+     "PTS": 1269,
+     "PPG": 15.5,
+     "REB": 363,
+     "AST": 301,
+     "STL": 120,
+     "BLK": 14,
+     "FGM": 413,
+     "FGA": 993,
+     "FG3M": 101,
+     "FG3A": 253,
+     "FTM": 342,
+     "FTA": 402,
+     "MIN": 2859,
+     "PF": 188,
+     "TOV": 165
+    },
+    {
+     "id": 1897,
+     "name": "Metta World Peace",
+     "season": 2008,
+     "team": "HOU",
+     "GP": 69,
+     "PTS": 1181,
+     "PPG": 17.1,
+     "REB": 359,
+     "AST": 229,
+     "STL": 105,
+     "BLK": 24,
+     "FGM": 416,
+     "FGA": 1037,
+     "FG3M": 153,
+     "FG3A": 383,
+     "FTM": 196,
+     "FTA": 262,
+     "MIN": 2452,
+     "PF": 155,
+     "TOV": 140
+    },
+    {
+     "id": 1496,
+     "name": "Keith Van Horn",
+     "season": 2003,
+     "team": "MIL",
+     "GP": 72,
+     "PTS": 1162,
+     "PPG": 16.1,
+     "REB": 501,
+     "AST": 120,
+     "STL": 68,
+     "BLK": 33,
+     "FGM": 410,
+     "FGA": 903,
+     "FG3M": 93,
+     "FG3A": 233,
+     "FTM": 249,
+     "FTA": 290,
+     "MIN": 2344,
+     "PF": 215,
+     "TOV": 169
+    },
+    {
+     "id": 2753,
+     "name": "Delonte West",
+     "season": 2008,
+     "team": "CLE",
+     "GP": 64,
+     "PTS": 751,
+     "PPG": 11.7,
+     "REB": 203,
+     "AST": 226,
+     "STL": 94,
+     "BLK": 13,
+     "FGM": 285,
+     "FGA": 624,
+     "FG3M": 91,
+     "FG3A": 228,
+     "FTM": 90,
+     "FTA": 108,
+     "MIN": 2152,
+     "PF": 125,
+     "TOV": 92
+    },
+    {
+     "id": 201164,
+     "name": "Rudy Fernandez",
+     "season": 2008,
+     "team": "POR",
+     "GP": 78,
+     "PTS": 815,
+     "PPG": 10.4,
+     "REB": 207,
+     "AST": 159,
+     "STL": 69,
+     "BLK": 12,
+     "FGM": 268,
+     "FGA": 630,
+     "FG3M": 159,
+     "FG3A": 398,
+     "FTM": 120,
+     "FTA": 143,
+     "MIN": 1993,
+     "PF": 111,
+     "TOV": 86
+    }
+   ],
+   "text": "7 player-seasons of the 2000s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Dirk Nowitzki (2004-05), Derek Anderson (2000-01), Metta World Peace (2008-09)."
+  },
+  {
+   "n": 58,
+   "kind": "total",
+   "rule": "t_reb",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "total": 8869,
+     "seasons": 10
+    },
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "total": 8838,
+     "seasons": 10
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "total": 8432,
+     "seasons": 10
+    },
+    {
+     "id": 1890,
+     "name": "Shawn Marion",
+     "total": 7529,
+     "seasons": 10
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "total": 7108,
+     "seasons": 10
+    }
+   ],
+   "text": "Most rebounds of the 2000s: Tim Duncan, 8,869."
+  },
+  {
+   "n": 59,
+   "kind": "total",
+   "rule": "t_ast",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 959,
+     "name": "Steve Nash"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "total": 7506,
+     "seasons": 10
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "total": 7075,
+     "seasons": 10
+    },
+    {
+     "id": 1889,
+     "name": "Andre Miller",
+     "total": 5989,
+     "seasons": 10
+    },
+    {
+     "id": 1884,
+     "name": "Baron Davis",
+     "total": 5190,
+     "seasons": 10
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "total": 4552,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 2000s: Steve Nash, 7,506."
+  },
+  {
+   "n": 60,
+   "kind": "total",
+   "rule": "t_gp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1889,
+     "name": "Andre Miller"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1889,
+     "name": "Andre Miller",
+     "total": 815,
+     "seasons": 10
+    },
+    {
+     "id": 1891,
+     "name": "Jason Terry",
+     "total": 796,
+     "seasons": 10
+    },
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "total": 791,
+     "seasons": 10
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "total": 778,
+     "seasons": 10
+    },
+    {
+     "id": 1712,
+     "name": "Antawn Jamison",
+     "total": 774,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 2000s: Andre Miller, 815."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "t_pf",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 703,
+     "name": "Kurt Thomas"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 703,
+     "name": "Kurt Thomas",
+     "total": 2446,
+     "seasons": 10
+    },
+    {
+     "id": 1733,
+     "name": "Al Harrington",
+     "total": 2440,
+     "seasons": 10
+    },
+    {
+     "id": 980,
+     "name": "Zydrunas Ilgauskas",
+     "total": 2279,
+     "seasons": 10
+    },
+    {
+     "id": 979,
+     "name": "Jermaine O'Neal",
+     "total": 2208,
+     "seasons": 10
+    },
+    {
+     "id": 406,
+     "name": "Shaquille O'Neal",
+     "total": 2190,
+     "seasons": 10
+    }
+   ],
+   "text": "Most personal fouls committed in the 2000s: Kurt Thomas, 2,446."
+  },
+  {
+   "n": 62,
+   "kind": "season",
+   "rule": "c_25_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 8
+    },
+    {
+     "season": 2001,
+     "count": 6
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 1
+    },
+    {
+     "season": 2004,
+     "count": 7
+    },
+    {
+     "season": 2005,
+     "count": 10
+    },
+    {
+     "season": 2006,
+     "count": 10
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 6
+    },
+    {
+     "season": 2009,
+     "count": 7
+    }
+   ],
+   "text": "2005-06 had 10 25-point scorers, the most of any season in the 2000s."
+  },
+  {
+   "n": 63,
+   "kind": "season",
+   "rule": "c_25_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 8
+    },
+    {
+     "season": 2001,
+     "count": 6
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 1
+    },
+    {
+     "season": 2004,
+     "count": 7
+    },
+    {
+     "season": 2005,
+     "count": 10
+    },
+    {
+     "season": 2006,
+     "count": 10
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 6
+    },
+    {
+     "season": 2009,
+     "count": 7
+    }
+   ],
+   "text": "2003-04 had just one 25-point scorer, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 64,
+   "kind": "season",
+   "rule": "c_20_10_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 4
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 4
+    },
+    {
+     "season": 2004,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 4
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 4
+    },
+    {
+     "season": 2009,
+     "count": 3
+    }
+   ],
+   "text": "2000-01 had 6 20-and-10 players, the most of any season in the 2000s."
+  },
+  {
+   "n": 65,
+   "kind": "season",
+   "rule": "c_20_10_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 4
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 4
+    },
+    {
+     "season": 2004,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 4
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 4
+    },
+    {
+     "season": 2009,
+     "count": 3
+    }
+   ],
+   "text": "2004-05 had just 3 20-and-10 players, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 66,
+   "kind": "season",
+   "rule": "c_ft900_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 2
+    },
+    {
+     "season": 2001,
+     "count": 1
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2004,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 4
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 4
+    },
+    {
+     "season": 2009,
+     "count": 5
+    }
+   ],
+   "text": "2002-03 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2000s."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "c_ft900_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 2
+    },
+    {
+     "season": 2001,
+     "count": 1
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2004,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 4
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 4
+    },
+    {
+     "season": 2009,
+     "count": 5
+    }
+   ],
+   "text": "2001-02 had just one .900 free-throw shooter (200+ FTA), the fewest of any season in the 2000s."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "c_10apg_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 7
+    },
+    {
+     "season": 2002,
+     "count": 4
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2004,
+     "count": 4
+    },
+    {
+     "season": 2005,
+     "count": 6
+    },
+    {
+     "season": 2006,
+     "count": 5
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 6
+    },
+    {
+     "season": 2009,
+     "count": 5
+    }
+   ],
+   "text": "2001-02 had 7 8-assist players, the most of any season in the 2000s."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "c_10apg_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 7
+    },
+    {
+     "season": 2002,
+     "count": 4
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2004,
+     "count": 4
+    },
+    {
+     "season": 2005,
+     "count": 6
+    },
+    {
+     "season": 2006,
+     "count": 5
+    },
+    {
+     "season": 2007,
+     "count": 5
+    },
+    {
+     "season": 2008,
+     "count": 6
+    },
+    {
+     "season": 2009,
+     "count": 5
+    }
+   ],
+   "text": "2003-04 had just 3 8-assist players, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_20_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 25
+    },
+    {
+     "season": 2001,
+     "count": 26
+    },
+    {
+     "season": 2002,
+     "count": 25
+    },
+    {
+     "season": 2003,
+     "count": 19
+    },
+    {
+     "season": 2004,
+     "count": 24
+    },
+    {
+     "season": 2005,
+     "count": 27
+    },
+    {
+     "season": 2006,
+     "count": 23
+    },
+    {
+     "season": 2007,
+     "count": 31
+    },
+    {
+     "season": 2008,
+     "count": 26
+    },
+    {
+     "season": 2009,
+     "count": 17
+    }
+   ],
+   "text": "2007-08 had 31 20-point scorers, the most of any season in the 2000s."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_20_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 25
+    },
+    {
+     "season": 2001,
+     "count": 26
+    },
+    {
+     "season": 2002,
+     "count": 25
+    },
+    {
+     "season": 2003,
+     "count": 19
+    },
+    {
+     "season": 2004,
+     "count": 24
+    },
+    {
+     "season": 2005,
+     "count": 27
+    },
+    {
+     "season": 2006,
+     "count": 23
+    },
+    {
+     "season": 2007,
+     "count": 31
+    },
+    {
+     "season": 2008,
+     "count": 26
+    },
+    {
+     "season": 2009,
+     "count": 17
+    }
+   ],
+   "text": "2009-10 had just 17 20-point scorers, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_all_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 1
+    },
+    {
+     "season": 2001,
+     "count": 2
+    },
+    {
+     "season": 2002,
+     "count": 1
+    },
+    {
+     "season": 2003,
+     "count": 2
+    },
+    {
+     "season": 2004,
+     "count": 1
+    },
+    {
+     "season": 2005,
+     "count": 29
+    },
+    {
+     "season": 2006,
+     "count": 36
+    },
+    {
+     "season": 2007,
+     "count": 43
+    },
+    {
+     "season": 2008,
+     "count": 30
+    },
+    {
+     "season": 2009,
+     "count": 39
+    }
+   ],
+   "text": "2007-08 had 43 players who appeared in every game, the most of any season in the 2000s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_all_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 1
+    },
+    {
+     "season": 2001,
+     "count": 2
+    },
+    {
+     "season": 2002,
+     "count": 1
+    },
+    {
+     "season": 2003,
+     "count": 2
+    },
+    {
+     "season": 2004,
+     "count": 1
+    },
+    {
+     "season": 2005,
+     "count": 29
+    },
+    {
+     "season": 2006,
+     "count": 36
+    },
+    {
+     "season": 2007,
+     "count": 43
+    },
+    {
+     "season": 2008,
+     "count": 30
+    },
+    {
+     "season": 2009,
+     "count": 39
+    }
+   ],
+   "text": "2000-01 had just one player who appeared in every game, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_10rpg_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 11
+    },
+    {
+     "season": 2001,
+     "count": 9
+    },
+    {
+     "season": 2002,
+     "count": 9
+    },
+    {
+     "season": 2003,
+     "count": 12
+    },
+    {
+     "season": 2004,
+     "count": 11
+    },
+    {
+     "season": 2005,
+     "count": 9
+    },
+    {
+     "season": 2006,
+     "count": 12
+    },
+    {
+     "season": 2007,
+     "count": 14
+    },
+    {
+     "season": 2008,
+     "count": 10
+    },
+    {
+     "season": 2009,
+     "count": 13
+    }
+   ],
+   "text": "2007-08 had 14 double-digit rebounders, the most of any season in the 2000s."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_10rpg_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 11
+    },
+    {
+     "season": 2001,
+     "count": 9
+    },
+    {
+     "season": 2002,
+     "count": 9
+    },
+    {
+     "season": 2003,
+     "count": 12
+    },
+    {
+     "season": 2004,
+     "count": 11
+    },
+    {
+     "season": 2005,
+     "count": 9
+    },
+    {
+     "season": 2006,
+     "count": 12
+    },
+    {
+     "season": 2007,
+     "count": 14
+    },
+    {
+     "season": 2008,
+     "count": 10
+    },
+    {
+     "season": 2009,
+     "count": 13
+    }
+   ],
+   "text": "2001-02 had just 9 double-digit rebounders, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "t_stl",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 467,
+     "name": "Jason Kidd"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "total": 1483,
+     "seasons": 10
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "total": 1396,
+     "seasons": 10
+    },
+    {
+     "id": 1890,
+     "name": "Shawn Marion",
+     "total": 1394,
+     "seasons": 10
+    },
+    {
+     "id": 1884,
+     "name": "Baron Davis",
+     "total": 1321,
+     "seasons": 10
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "total": 1253,
+     "seasons": 10
+    }
+   ],
+   "text": "Most steals of the 2000s: Jason Kidd, 1,483."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "t_blk",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "total": 1738,
+     "seasons": 10
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "total": 1729,
+     "seasons": 10
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "total": 1590,
+     "seasons": 10
+    },
+    {
+     "id": 979,
+     "name": "Jermaine O'Neal",
+     "total": 1476,
+     "seasons": 10
+    },
+    {
+     "id": 1905,
+     "name": "Andrei Kirilenko",
+     "total": 1306,
+     "seasons": 9
+    }
+   ],
+   "text": "Most blocked shots of the 2000s: Tim Duncan, 1,738."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "t_3pm",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 951,
+     "name": "Ray Allen"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "total": 1947,
+     "seasons": 10
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "total": 1546,
+     "seasons": 10
+    },
+    {
+     "id": 1740,
+     "name": "Rashard Lewis",
+     "total": 1546,
+     "seasons": 10
+    },
+    {
+     "id": 1891,
+     "name": "Jason Terry",
+     "total": 1477,
+     "seasons": 10
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "total": 1390,
+     "seasons": 10
+    }
+   ],
+   "text": "Most threes of the 2000s: Ray Allen, 1,947."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "t_tov",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 959,
+     "name": "Steve Nash"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "total": 2481,
+     "seasons": 10
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "total": 2377,
+     "seasons": 10
+    },
+    {
+     "id": 1718,
+     "name": "Paul Pierce",
+     "total": 2364,
+     "seasons": 10
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "total": 2300,
+     "seasons": 10
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "total": 2284,
+     "seasons": 10
+    }
+   ],
+   "text": "Most turnovers of the 2000s: Steve Nash, 2,481."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_30_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 1
+    },
+    {
+     "season": 2001,
+     "count": 1
+    },
+    {
+     "season": 2002,
+     "count": 2
+    },
+    {
+     "season": 2003,
+     "count": 0
+    },
+    {
+     "season": 2004,
+     "count": 1
+    },
+    {
+     "season": 2005,
+     "count": 3
+    },
+    {
+     "season": 2006,
+     "count": 1
+    },
+    {
+     "season": 2007,
+     "count": 1
+    },
+    {
+     "season": 2008,
+     "count": 1
+    },
+    {
+     "season": 2009,
+     "count": 1
+    }
+   ],
+   "text": "2005-06 had 3 30-point scorers, the most of any season in the 2000s."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 1
+    },
+    {
+     "season": 2001,
+     "count": 1
+    },
+    {
+     "season": 2002,
+     "count": 2
+    },
+    {
+     "season": 2003,
+     "count": 0
+    },
+    {
+     "season": 2004,
+     "count": 1
+    },
+    {
+     "season": 2005,
+     "count": 3
+    },
+    {
+     "season": 2006,
+     "count": 1
+    },
+    {
+     "season": 2007,
+     "count": 1
+    },
+    {
+     "season": 2008,
+     "count": 1
+    },
+    {
+     "season": 2009,
+     "count": 1
+    }
+   ],
+   "text": "2003-04 had no 30-point scorers at all — the only season of the 2000s without one."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_2spg_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 7
+    },
+    {
+     "season": 2001,
+     "count": 4
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2004,
+     "count": 4
+    },
+    {
+     "season": 2005,
+     "count": 5
+    },
+    {
+     "season": 2006,
+     "count": 6
+    },
+    {
+     "season": 2007,
+     "count": 6
+    },
+    {
+     "season": 2008,
+     "count": 2
+    },
+    {
+     "season": 2009,
+     "count": 2
+    }
+   ],
+   "text": "2000-01 had 7 2-steal players, the most of any season in the 2000s."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_2spg_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 7
+    },
+    {
+     "season": 2001,
+     "count": 4
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2004,
+     "count": 4
+    },
+    {
+     "season": 2005,
+     "count": 5
+    },
+    {
+     "season": 2006,
+     "count": 6
+    },
+    {
+     "season": 2007,
+     "count": 6
+    },
+    {
+     "season": 2008,
+     "count": 2
+    },
+    {
+     "season": 2009,
+     "count": 2
+    }
+   ],
+   "text": "2008-09 had just 2 2-steal players, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 84,
+   "kind": "nearmiss",
+   "rule": "fg499",
+   "group": "P",
+   "decade": "2000s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 708,
+     "name": "Kevin Garnett"
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan"
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez"
+    }
+   ],
+   "seasons": [
+    2003,
+    2000,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "season": 2003,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 1987,
+     "PPG": 24.2,
+     "REB": 1139,
+     "AST": 409,
+     "STL": 120,
+     "BLK": 178,
+     "FGM": 804,
+     "FGA": 1611,
+     "FG3M": 11,
+     "FG3A": 43,
+     "FTM": 368,
+     "FTA": 465,
+     "MIN": 3232,
+     "PF": 202,
+     "TOV": 212
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2000,
+     "team": "SAS",
+     "GP": 82,
+     "PTS": 1820,
+     "PPG": 22.2,
+     "REB": 997,
+     "AST": 245,
+     "STL": 70,
+     "BLK": 192,
+     "FGM": 702,
+     "FGA": 1406,
+     "FG3M": 7,
+     "FG3A": 27,
+     "FTM": 409,
+     "FTA": 662,
+     "MIN": 3174,
+     "PF": 247,
+     "TOV": 242
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez",
+     "season": 2009,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 1542,
+     "PPG": 18.8,
+     "REB": 709,
+     "AST": 187,
+     "STL": 55,
+     "BLK": 139,
+     "FGM": 563,
+     "FGA": 1129,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 416,
+     "FTA": 509,
+     "MIN": 3027,
+     "PF": 251,
+     "TOV": 204
+    }
+   ],
+   "text": "3 player-seasons of the 2000s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Kevin Garnett (2003-04), Tim Duncan (2000-01), Brook Lopez (2009-10)."
+  },
+  {
+   "n": 85,
+   "rule": "threes_good_volume",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2005,
+     "team": "SEA",
+     "GP": 78,
+     "PTS": 1955,
+     "PPG": 25.1,
+     "REB": 332,
+     "AST": 286,
+     "STL": 105,
+     "BLK": 16,
+     "FGM": 681,
+     "FGA": 1500,
+     "FG3M": 269,
+     "FG3A": 653,
+     "FTM": 324,
+     "FTA": 359,
+     "MIN": 3022,
+     "PF": 151,
+     "TOV": 188
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "season": 2003,
+     "team": "SAC",
+     "GP": 81,
+     "PTS": 1964,
+     "PPG": 24.2,
+     "REB": 508,
+     "AST": 173,
+     "STL": 108,
+     "BLK": 14,
+     "FGM": 665,
+     "FGA": 1386,
+     "FG3M": 240,
+     "FG3A": 554,
+     "FTM": 394,
+     "FTA": 425,
+     "MIN": 3265,
+     "PF": 159,
+     "TOV": 153
+    },
+    {
+     "id": 978,
+     "name": "Peja Stojakovic",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 77,
+     "PTS": 1263,
+     "PPG": 16.4,
+     "REB": 331,
+     "AST": 96,
+     "STL": 57,
+     "BLK": 10,
+     "FGM": 451,
+     "FGA": 1026,
+     "FG3M": 231,
+     "FG3A": 524,
+     "FTM": 130,
+     "FTA": 140,
+     "MIN": 2711,
+     "PF": 127,
+     "TOV": 61
+    },
+    {
+     "id": 951,
+     "name": "Ray Allen",
+     "season": 2001,
+     "team": "MIL",
+     "GP": 69,
+     "PTS": 1503,
+     "PPG": 21.8,
+     "REB": 312,
+     "AST": 271,
+     "STL": 88,
+     "BLK": 18,
+     "FGM": 530,
+     "FGA": 1148,
+     "FG3M": 229,
+     "FG3A": 528,
+     "FTM": 214,
+     "FTA": 245,
+     "MIN": 2525,
+     "PF": 157,
+     "TOV": 159
+    },
+    {
+     "id": 1800,
+     "name": "Damon Jones",
+     "season": 2004,
+     "team": "MIA",
+     "GP": 82,
+     "PTS": 955,
+     "PPG": 11.6,
+     "REB": 231,
+     "AST": 350,
+     "STL": 44,
+     "BLK": 5,
+     "FGM": 331,
+     "FGA": 726,
+     "FG3M": 225,
+     "FG3A": 521,
+     "FTM": 68,
+     "FTA": 86,
+     "MIN": 2576,
+     "PF": 121,
+     "TOV": 98
+    },
+    {
+     "id": 2207,
+     "name": "Joe Johnson",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 422,
+     "AST": 291,
+     "STL": 79,
+     "BLK": 24,
+     "FGM": 544,
+     "FGA": 1179,
+     "FG3M": 177,
+     "FG3A": 370,
+     "FTM": 135,
+     "FTA": 180,
+     "MIN": 3238,
+     "PF": 167,
+     "TOV": 148
+    }
+   ],
+   "seasonsMatched": 60,
+   "kind": "list",
+   "score": 4.702362174578867,
+   "players": [
+    {
+     "id": 951,
+     "name": "Ray Allen"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "39 players made 150 threes at a .400 clip in the 2000s (60 seasons). The most extreme: Ray Allen, 2005-06 — 269 3PM, .412."
+  },
+  {
+   "n": 86,
+   "rule": "reb_over_pts",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2002,
+     "team": "DET",
+     "GP": 73,
+     "PTS": 506,
+     "PPG": 6.9,
+     "REB": 1126,
+     "AST": 120,
+     "STL": 104,
+     "BLK": 230,
+     "FGM": 210,
+     "FGA": 437,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 85,
+     "FTA": 189,
+     "MIN": 2873,
+     "PF": 179,
+     "TOV": 88
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2000,
+     "team": "DET",
+     "GP": 80,
+     "PTS": 511,
+     "PPG": 6.4,
+     "REB": 1052,
+     "AST": 123,
+     "STL": 107,
+     "BLK": 186,
+     "FGM": 215,
+     "FGA": 439,
+     "FG3M": 1,
+     "FG3A": 4,
+     "FTM": 80,
+     "FTA": 238,
+     "MIN": 2760,
+     "PF": 192,
+     "TOV": 117
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2001,
+     "team": "DET",
+     "GP": 80,
+     "PTS": 609,
+     "PPG": 7.6,
+     "REB": 1039,
+     "AST": 115,
+     "STL": 138,
+     "BLK": 278,
+     "FGM": 255,
+     "FGA": 480,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 99,
+     "FTA": 234,
+     "MIN": 2919,
+     "PF": 178,
+     "TOV": 70
+    },
+    {
+     "id": 2501,
+     "name": "Reggie Evans",
+     "season": 2004,
+     "team": "SEA",
+     "GP": 79,
+     "PTS": 387,
+     "PPG": 4.9,
+     "REB": 736,
+     "AST": 58,
+     "STL": 58,
+     "BLK": 15,
+     "FGM": 131,
+     "FGA": 275,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 125,
+     "FTA": 234,
+     "MIN": 1880,
+     "PF": 202,
+     "TOV": 104
+    },
+    {
+     "id": 911,
+     "name": "Ervin Johnson",
+     "season": 2000,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 266,
+     "PPG": 3.2,
+     "REB": 613,
+     "AST": 40,
+     "STL": 44,
+     "BLK": 97,
+     "FGM": 108,
+     "FGA": 198,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 50,
+     "FTA": 93,
+     "MIN": 1981,
+     "PF": 257,
+     "TOV": 47
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2006,
+     "team": "CHI",
+     "GP": 77,
+     "PTS": 494,
+     "PPG": 6.4,
+     "REB": 821,
+     "AST": 186,
+     "STL": 111,
+     "BLK": 156,
+     "FGM": 192,
+     "FGA": 424,
+     "FG3M": 1,
+     "FG3A": 5,
+     "FTM": 109,
+     "FTA": 267,
+     "MIN": 2697,
+     "PF": 153,
+     "TOV": 101
+    }
+   ],
+   "seasonsMatched": 61,
+   "kind": "list",
+   "score": 4.55,
+   "players": [
+    {
+     "id": 1112,
+     "name": "Ben Wallace"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "29 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 2000s (61 seasons). The most extreme: Ben Wallace, 2002-03 — 1,126 reb, 506 pts."
+  },
+  {
+   "n": 87,
+   "kind": "nearmiss",
+   "rule": "ppg249",
+   "group": "P",
+   "decade": "2000s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 1712,
+     "name": "Antawn Jamison"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1712,
+     "name": "Antawn Jamison",
+     "season": 2000,
+     "team": "GSW",
+     "GP": 82,
+     "PTS": 2044,
+     "PPG": 24.9,
+     "REB": 715,
+     "AST": 164,
+     "STL": 114,
+     "BLK": 28,
+     "FGM": 800,
+     "FGA": 1812,
+     "FG3M": 62,
+     "FG3A": 205,
+     "FTM": 382,
+     "FTA": 534,
+     "MIN": 3394,
+     "PF": 225,
+     "TOV": 199
+    }
+   ],
+   "text": "Exactly one player of the 2000s finished a season with a 24.9 scoring average, a tenth short of 25: Antawn Jamison (2000-01)."
+  },
+  {
+   "n": 88,
+   "kind": "nearmiss",
+   "rule": "apg99",
+   "group": "P",
+   "decade": "2000s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 467,
+     "name": "Jason Kidd"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2001,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 1208,
+     "PPG": 14.7,
+     "REB": 595,
+     "AST": 808,
+     "STL": 175,
+     "BLK": 20,
+     "FGM": 445,
+     "FGA": 1138,
+     "FG3M": 117,
+     "FG3A": 364,
+     "FTM": 201,
+     "FTA": 247,
+     "MIN": 3056,
+     "PF": 136,
+     "TOV": 286
+    }
+   ],
+   "text": "Exactly one player of the 2000s finished a season with 9.9 assists a game, a tenth short of 10: Jason Kidd (2001-02)."
+  },
+  {
+   "n": 89,
+   "rule": "threes_great",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2207,
+     "name": "Joe Johnson",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 422,
+     "AST": 291,
+     "STL": 79,
+     "BLK": 24,
+     "FGM": 544,
+     "FGA": 1179,
+     "FG3M": 177,
+     "FG3A": 370,
+     "FTM": 135,
+     "FTA": 180,
+     "MIN": 3238,
+     "PF": 167,
+     "TOV": 148
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1371,
+     "PPG": 16.9,
+     "REB": 282,
+     "AST": 898,
+     "STL": 53,
+     "BLK": 5,
+     "FGM": 485,
+     "FGA": 962,
+     "FG3M": 179,
+     "FG3A": 381,
+     "FTM": 222,
+     "FTA": 245,
+     "MIN": 2780,
+     "PF": 113,
+     "TOV": 295
+    },
+    {
+     "id": 468,
+     "name": "Jon Barry",
+     "season": 2001,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 739,
+     "PPG": 9,
+     "REB": 234,
+     "AST": 274,
+     "STL": 94,
+     "BLK": 20,
+     "FGM": 255,
+     "FGA": 522,
+     "FG3M": 121,
+     "FG3A": 258,
+     "FTM": 108,
+     "FTA": 116,
+     "MIN": 1985,
+     "PF": 134,
+     "TOV": 111
+    },
+    {
+     "id": 201162,
+     "name": "Jared Dudley",
+     "season": 2009,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 674,
+     "PPG": 8.2,
+     "REB": 281,
+     "AST": 115,
+     "STL": 81,
+     "BLK": 16,
+     "FGM": 225,
+     "FGA": 490,
+     "FG3M": 120,
+     "FG3A": 262,
+     "FTM": 104,
+     "FTA": 138,
+     "MIN": 1991,
+     "PF": 162,
+     "TOV": 68
+    },
+    {
+     "id": 201627,
+     "name": "Anthony Morrow",
+     "season": 2009,
+     "team": "GSW",
+     "GP": 69,
+     "PTS": 899,
+     "PPG": 13,
+     "REB": 259,
+     "AST": 104,
+     "STL": 65,
+     "BLK": 16,
+     "FGM": 329,
+     "FGA": 703,
+     "FG3M": 140,
+     "FG3A": 307,
+     "FTM": 101,
+     "FTA": 114,
+     "MIN": 2018,
+     "PF": 158,
+     "TOV": 84
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2001,
+     "team": "DAL",
+     "GP": 82,
+     "PTS": 1466,
+     "PPG": 17.9,
+     "REB": 254,
+     "AST": 634,
+     "STL": 53,
+     "BLK": 4,
+     "FGM": 525,
+     "FGA": 1088,
+     "FG3M": 156,
+     "FG3A": 343,
+     "FTM": 260,
+     "FTA": 293,
+     "MIN": 2838,
+     "PF": 164,
+     "TOV": 229
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.195945945945946,
+   "players": [
+    {
+     "id": 2207,
+     "name": "Joe Johnson"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "6 players shot .450 from three on 250+ attempts in the 2000s (8 seasons). The most extreme: Joe Johnson, 2004-05 — .478 on 370 3PA."
+  },
+  {
+   "n": 90,
+   "rule": "reb_1000",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2007,
+     "team": "ORL",
+     "GP": 82,
+     "PTS": 1695,
+     "PPG": 20.7,
+     "REB": 1161,
+     "AST": 110,
+     "STL": 74,
+     "BLK": 176,
+     "FGM": 583,
+     "FGA": 974,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 529,
+     "FTA": 897,
+     "MIN": 3088,
+     "PF": 274,
+     "TOV": 263
+    },
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "season": 2003,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 1987,
+     "PPG": 24.2,
+     "REB": 1139,
+     "AST": 409,
+     "STL": 120,
+     "BLK": 178,
+     "FGM": 804,
+     "FGA": 1611,
+     "FG3M": 11,
+     "FG3A": 43,
+     "FTM": 368,
+     "FTA": 465,
+     "MIN": 3232,
+     "PF": 202,
+     "TOV": 212
+    },
+    {
+     "id": 1112,
+     "name": "Ben Wallace",
+     "season": 2002,
+     "team": "DET",
+     "GP": 73,
+     "PTS": 506,
+     "PPG": 6.9,
+     "REB": 1126,
+     "AST": 120,
+     "STL": 104,
+     "BLK": 230,
+     "FGM": 210,
+     "FGA": 437,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 85,
+     "FTA": 189,
+     "MIN": 2873,
+     "PF": 179,
+     "TOV": 88
+    },
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "season": 2004,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 1817,
+     "PPG": 22.2,
+     "REB": 1108,
+     "AST": 466,
+     "STL": 121,
+     "BLK": 112,
+     "FGM": 683,
+     "FGA": 1360,
+     "FG3M": 6,
+     "FG3A": 25,
+     "FTM": 445,
+     "FTA": 549,
+     "MIN": 3121,
+     "PF": 207,
+     "TOV": 222
+    },
+    {
+     "id": 708,
+     "name": "Kevin Garnett",
+     "season": 2002,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 1883,
+     "PPG": 23,
+     "REB": 1102,
+     "AST": 495,
+     "STL": 113,
+     "BLK": 129,
+     "FGM": 743,
+     "FGA": 1481,
+     "FG3M": 20,
+     "FG3A": 71,
+     "FTM": 377,
+     "FTA": 502,
+     "MIN": 3321,
+     "PF": 199,
+     "TOV": 229
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2008,
+     "team": "ORL",
+     "GP": 79,
+     "PTS": 1624,
+     "PPG": 20.6,
+     "REB": 1093,
+     "AST": 112,
+     "STL": 77,
+     "BLK": 231,
+     "FGM": 560,
+     "FGA": 979,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 504,
+     "FTA": 849,
+     "MIN": 2821,
+     "PF": 270,
+     "TOV": 240
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 3.9675000000000002,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "6 players grabbed 1,000 rebounds in a season in the 2000s (16 seasons). The most extreme: Dwight Howard, 2007-08 — 1,161 reb."
+  },
+  {
+   "n": 91,
+   "rule": "ast_800",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1684,
+     "PPG": 21.1,
+     "REB": 321,
+     "AST": 925,
+     "STL": 217,
+     "BLK": 4,
+     "FGM": 630,
+     "FGA": 1291,
+     "FG3M": 92,
+     "FG3A": 249,
+     "FTM": 332,
+     "FTA": 390,
+     "MIN": 3006,
+     "PF": 185,
+     "TOV": 201
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1371,
+     "PPG": 16.9,
+     "REB": 282,
+     "AST": 898,
+     "STL": 53,
+     "BLK": 5,
+     "FGM": 485,
+     "FGA": 962,
+     "FG3M": 179,
+     "FG3A": 381,
+     "FTM": 222,
+     "FTA": 245,
+     "MIN": 2780,
+     "PF": 113,
+     "TOV": 295
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2009,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1333,
+     "PPG": 16.5,
+     "REB": 268,
+     "AST": 892,
+     "STL": 42,
+     "BLK": 12,
+     "FGM": 499,
+     "FGA": 985,
+     "FG3M": 124,
+     "FG3A": 291,
+     "FTM": 211,
+     "FTA": 225,
+     "MIN": 2660,
+     "PF": 108,
+     "TOV": 295
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2006,
+     "team": "PHX",
+     "GP": 76,
+     "PTS": 1412,
+     "PPG": 18.6,
+     "REB": 269,
+     "AST": 884,
+     "STL": 57,
+     "BLK": 6,
+     "FGM": 517,
+     "FGA": 971,
+     "FG3M": 156,
+     "FG3A": 343,
+     "FTM": 222,
+     "FTA": 247,
+     "MIN": 2682,
+     "PF": 117,
+     "TOV": 287
+    },
+    {
+     "id": 1889,
+     "name": "Andre Miller",
+     "season": 2001,
+     "team": "CLE",
+     "GP": 81,
+     "PTS": 1335,
+     "PPG": 16.5,
+     "REB": 379,
+     "AST": 882,
+     "STL": 126,
+     "BLK": 34,
+     "FGM": 474,
+     "FGA": 1045,
+     "FG3M": 22,
+     "FG3A": 87,
+     "FTM": 365,
+     "FTA": 447,
+     "MIN": 3023,
+     "PF": 228,
+     "TOV": 245
+    },
+    {
+     "id": 101114,
+     "name": "Deron Williams",
+     "season": 2007,
+     "team": "UTA",
+     "GP": 82,
+     "PTS": 1545,
+     "PPG": 18.8,
+     "REB": 243,
+     "AST": 862,
+     "STL": 90,
+     "BLK": 23,
+     "FGM": 566,
+     "FGA": 1117,
+     "FG3M": 83,
+     "FG3A": 210,
+     "FTM": 330,
+     "FTA": 411,
+     "MIN": 3059,
+     "PF": 200,
+     "TOV": 279
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 3.925,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "5 players dished out 800 assists in a season in the 2000s (11 seasons). The most extreme: Chris Paul, 2007-08 — 925 ast."
+  },
+  {
+   "n": 92,
+   "rule": "big_ast",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2006,
+     "team": "PHX",
+     "GP": 76,
+     "PTS": 1412,
+     "PPG": 18.6,
+     "REB": 269,
+     "AST": 884,
+     "STL": 57,
+     "BLK": 6,
+     "FGM": 517,
+     "FGA": 971,
+     "FG3M": 156,
+     "FG3A": 343,
+     "FTM": 222,
+     "FTA": 247,
+     "MIN": 2682,
+     "PF": 117,
+     "TOV": 287
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1684,
+     "PPG": 21.1,
+     "REB": 321,
+     "AST": 925,
+     "STL": 217,
+     "BLK": 4,
+     "FGM": 630,
+     "FGA": 1291,
+     "FG3M": 92,
+     "FG3A": 249,
+     "FTM": 332,
+     "FTA": 390,
+     "MIN": 3006,
+     "PF": 185,
+     "TOV": 201
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 75,
+     "PTS": 1165,
+     "PPG": 15.5,
+     "REB": 249,
+     "AST": 861,
+     "STL": 74,
+     "BLK": 6,
+     "FGM": 430,
+     "FGA": 857,
+     "FG3M": 94,
+     "FG3A": 218,
+     "FTM": 211,
+     "FTA": 238,
+     "MIN": 2573,
+     "PF": 136,
+     "TOV": 245
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1371,
+     "PPG": 16.9,
+     "REB": 282,
+     "AST": 898,
+     "STL": 53,
+     "BLK": 5,
+     "FGM": 485,
+     "FGA": 962,
+     "FG3M": 179,
+     "FG3A": 381,
+     "FTM": 222,
+     "FTA": 245,
+     "MIN": 2780,
+     "PF": 113,
+     "TOV": 295
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2008,
+     "team": "NOH",
+     "GP": 78,
+     "PTS": 1781,
+     "PPG": 22.8,
+     "REB": 432,
+     "AST": 861,
+     "STL": 216,
+     "BLK": 10,
+     "FGM": 631,
+     "FGA": 1255,
+     "FG3M": 64,
+     "FG3A": 176,
+     "FTM": 455,
+     "FTA": 524,
+     "MIN": 3002,
+     "PF": 212,
+     "TOV": 231
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2009,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1333,
+     "PPG": 16.5,
+     "REB": 268,
+     "AST": 892,
+     "STL": 42,
+     "BLK": 12,
+     "FGM": 499,
+     "FGA": 985,
+     "FG3M": 124,
+     "FG3A": 291,
+     "FTM": 211,
+     "FTA": 225,
+     "MIN": 2660,
+     "PF": 108,
+     "TOV": 295
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 3.8723684210526317,
+   "players": [
+    {
+     "id": 959,
+     "name": "Steve Nash"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "6 players averaged 9+ assists (60% of games) in the 2000s (20 seasons). The most extreme: Steve Nash, 2006-07 — 11.6 apg."
+  },
+  {
+   "n": 93,
+   "rule": "apg_10",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2006,
+     "team": "PHX",
+     "GP": 76,
+     "PTS": 1412,
+     "PPG": 18.6,
+     "REB": 269,
+     "AST": 884,
+     "STL": 57,
+     "BLK": 6,
+     "FGM": 517,
+     "FGA": 971,
+     "FG3M": 156,
+     "FG3A": 343,
+     "FTM": 222,
+     "FTA": 247,
+     "MIN": 2682,
+     "PF": 117,
+     "TOV": 287
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1684,
+     "PPG": 21.1,
+     "REB": 321,
+     "AST": 925,
+     "STL": 217,
+     "BLK": 4,
+     "FGM": 630,
+     "FGA": 1291,
+     "FG3M": 92,
+     "FG3A": 249,
+     "FTM": 332,
+     "FTA": 390,
+     "MIN": 3006,
+     "PF": 185,
+     "TOV": 201
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 75,
+     "PTS": 1165,
+     "PPG": 15.5,
+     "REB": 249,
+     "AST": 861,
+     "STL": 74,
+     "BLK": 6,
+     "FGM": 430,
+     "FGA": 857,
+     "FG3M": 94,
+     "FG3A": 218,
+     "FTM": 211,
+     "FTA": 238,
+     "MIN": 2573,
+     "PF": 136,
+     "TOV": 245
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1371,
+     "PPG": 16.9,
+     "REB": 282,
+     "AST": 898,
+     "STL": 53,
+     "BLK": 5,
+     "FGM": 485,
+     "FGA": 962,
+     "FG3M": 179,
+     "FG3A": 381,
+     "FTM": 222,
+     "FTA": 245,
+     "MIN": 2780,
+     "PF": 113,
+     "TOV": 295
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2008,
+     "team": "NOH",
+     "GP": 78,
+     "PTS": 1781,
+     "PPG": 22.8,
+     "REB": 432,
+     "AST": 861,
+     "STL": 216,
+     "BLK": 10,
+     "FGM": 631,
+     "FGA": 1255,
+     "FG3M": 64,
+     "FG3A": 176,
+     "FTM": 455,
+     "FTA": 524,
+     "MIN": 3002,
+     "PF": 212,
+     "TOV": 231
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2009,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1333,
+     "PPG": 16.5,
+     "REB": 268,
+     "AST": 892,
+     "STL": 42,
+     "BLK": 12,
+     "FGM": 499,
+     "FGA": 985,
+     "FG3M": 124,
+     "FG3A": 291,
+     "FTM": 211,
+     "FTA": 225,
+     "MIN": 2660,
+     "PF": 108,
+     "TOV": 295
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.8723684210526317,
+   "players": [
+    {
+     "id": 959,
+     "name": "Steve Nash"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "5 players averaged 10 assists a game (60% of games) in the 2000s (12 seasons). The most extreme: Steve Nash, 2006-07 — 11.6 apg."
+  },
+  {
+   "n": 94,
+   "rule": "pf_300",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 703,
+     "name": "Kurt Thomas",
+     "season": 2002,
+     "team": "NYK",
+     "GP": 81,
+     "PTS": 1134,
+     "PPG": 14,
+     "REB": 637,
+     "AST": 162,
+     "STL": 81,
+     "BLK": 97,
+     "FGM": 497,
+     "FGA": 1028,
+     "FG3M": 2,
+     "FG3A": 3,
+     "FTM": 138,
+     "FTA": 184,
+     "MIN": 2577,
+     "PF": 344,
+     "TOV": 138
+    },
+    {
+     "id": 703,
+     "name": "Kurt Thomas",
+     "season": 2001,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1143,
+     "PPG": 13.9,
+     "REB": 747,
+     "AST": 87,
+     "STL": 71,
+     "BLK": 79,
+     "FGM": 463,
+     "FGA": 938,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 216,
+     "FTA": 265,
+     "MIN": 2769,
+     "PF": 341,
+     "TOV": 153
+    },
+    {
+     "id": 2215,
+     "name": "Jason Collins",
+     "season": 2004,
+     "team": "NJN",
+     "GP": 80,
+     "PTS": 511,
+     "PPG": 6.4,
+     "REB": 488,
+     "AST": 105,
+     "STL": 71,
+     "BLK": 71,
+     "FGM": 186,
+     "FGA": 451,
+     "FG3M": 2,
+     "FG3A": 6,
+     "FTM": 137,
+     "FTA": 209,
+     "MIN": 2542,
+     "PF": 322,
+     "TOV": 91
+    },
+    {
+     "id": 1425,
+     "name": "Aaron Williams",
+     "season": 2000,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 838,
+     "PPG": 10.2,
+     "REB": 590,
+     "AST": 88,
+     "STL": 59,
+     "BLK": 113,
+     "FGM": 297,
+     "FGA": 650,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 244,
+     "FTA": 310,
+     "MIN": 2336,
+     "PF": 319,
+     "TOV": 132
+    },
+    {
+     "id": 201574,
+     "name": "Jason Thompson",
+     "season": 2008,
+     "team": "SAC",
+     "GP": 82,
+     "PTS": 910,
+     "PPG": 11.1,
+     "REB": 606,
+     "AST": 93,
+     "STL": 46,
+     "BLK": 59,
+     "FGM": 356,
+     "FGA": 717,
+     "FG3M": 0,
+     "FG3A": 8,
+     "FTM": 198,
+     "FTA": 286,
+     "MIN": 2303,
+     "PF": 314,
+     "TOV": 146
+    },
+    {
+     "id": 980,
+     "name": "Zydrunas Ilgauskas",
+     "season": 2004,
+     "team": "CLE",
+     "GP": 78,
+     "PTS": 1320,
+     "PPG": 16.9,
+     "REB": 672,
+     "AST": 100,
+     "STL": 53,
+     "BLK": 165,
+     "FGM": 458,
+     "FGA": 979,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 402,
+     "FTA": 503,
+     "MIN": 2615,
+     "PF": 313,
+     "TOV": 191
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.86,
+   "players": [
+    {
+     "id": 703,
+     "name": "Kurt Thomas"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "10 players committed 300 personal fouls in a season in the 2000s (12 seasons). The most extreme: Kurt Thomas, 2002-03 — 344 PF."
+  },
+  {
+   "n": 95,
+   "rule": "blk_over_ast",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2008,
+     "team": "ORL",
+     "GP": 79,
+     "PTS": 1624,
+     "PPG": 20.6,
+     "REB": 1093,
+     "AST": 112,
+     "STL": 77,
+     "BLK": 231,
+     "FGM": 560,
+     "FGA": 979,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 504,
+     "FTA": 849,
+     "MIN": 2821,
+     "PF": 270,
+     "TOV": 240
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 79,
+     "PTS": 1989,
+     "PPG": 25.2,
+     "REB": 719,
+     "AST": 118,
+     "STL": 64,
+     "BLK": 163,
+     "FGM": 714,
+     "FGA": 1211,
+     "FG3M": 5,
+     "FG3A": 31,
+     "FTM": 556,
+     "FTA": 691,
+     "MIN": 2677,
+     "PF": 294,
+     "TOV": 174
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2007,
+     "team": "ORL",
+     "GP": 82,
+     "PTS": 1695,
+     "PPG": 20.7,
+     "REB": 1161,
+     "AST": 110,
+     "STL": 74,
+     "BLK": 176,
+     "FGM": 583,
+     "FGA": 974,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 529,
+     "FTA": 897,
+     "MIN": 3088,
+     "PF": 274,
+     "TOV": 263
+    },
+    {
+     "id": 979,
+     "name": "Jermaine O'Neal",
+     "season": 2003,
+     "team": "IND",
+     "GP": 78,
+     "PTS": 1566,
+     "PPG": 20.1,
+     "REB": 778,
+     "AST": 164,
+     "STL": 59,
+     "BLK": 199,
+     "FGM": 608,
+     "FGA": 1400,
+     "FG3M": 2,
+     "FG3A": 18,
+     "FTM": 348,
+     "FTA": 460,
+     "MIN": 2790,
+     "PF": 248,
+     "TOV": 181
+    },
+    {
+     "id": 2744,
+     "name": "Al Jefferson",
+     "season": 2008,
+     "team": "MIN",
+     "GP": 50,
+     "PTS": 1156,
+     "PPG": 23.1,
+     "REB": 548,
+     "AST": 79,
+     "STL": 39,
+     "BLK": 83,
+     "FGM": 485,
+     "FGA": 975,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 186,
+     "FTA": 252,
+     "MIN": 1836,
+     "PF": 141,
+     "TOV": 92
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2009,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1896,
+     "PPG": 23.1,
+     "REB": 732,
+     "AST": 82,
+     "STL": 52,
+     "BLK": 83,
+     "FGM": 704,
+     "FGA": 1264,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 487,
+     "FTA": 632,
+     "MIN": 2838,
+     "PF": 281,
+     "TOV": 213
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 3.8114240506329113,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "5 players blocked more shots than they assisted while averaging 20 points (60% of games) in the 2000s (11 seasons). The most extreme: Dwight Howard, 2008-09 — 231 blk, 112 ast."
+  },
+  {
+   "n": 96,
+   "rule": "guard_stocks",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1716,
+     "name": "Larry Hughes",
+     "season": 2004,
+     "team": "WAS",
+     "GP": 61,
+     "PTS": 1345,
+     "PPG": 22,
+     "REB": 382,
+     "AST": 285,
+     "STL": 176,
+     "BLK": 18,
+     "FGM": 467,
+     "FGA": 1086,
+     "FG3M": 59,
+     "FG3A": 209,
+     "FTM": 352,
+     "FTA": 453,
+     "MIN": 2358,
+     "PF": 168,
+     "TOV": 153
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2001,
+     "team": "PHI",
+     "GP": 60,
+     "PTS": 1883,
+     "PPG": 31.4,
+     "REB": 269,
+     "AST": 331,
+     "STL": 168,
+     "BLK": 13,
+     "FGM": 665,
+     "FGA": 1669,
+     "FG3M": 78,
+     "FG3A": 268,
+     "FTM": 475,
+     "FTA": 585,
+     "MIN": 2624,
+     "PF": 102,
+     "TOV": 237
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2008,
+     "team": "NOH",
+     "GP": 78,
+     "PTS": 1781,
+     "PPG": 22.8,
+     "REB": 432,
+     "AST": 861,
+     "STL": 216,
+     "BLK": 10,
+     "FGM": 631,
+     "FGA": 1255,
+     "FG3M": 64,
+     "FG3A": 176,
+     "FTM": 455,
+     "FTA": 524,
+     "MIN": 3002,
+     "PF": 212,
+     "TOV": 231
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2002,
+     "team": "PHI",
+     "GP": 82,
+     "PTS": 2262,
+     "PPG": 27.6,
+     "REB": 344,
+     "AST": 454,
+     "STL": 225,
+     "BLK": 13,
+     "FGM": 804,
+     "FGA": 1940,
+     "FG3M": 84,
+     "FG3A": 303,
+     "FTM": 570,
+     "FTA": 736,
+     "MIN": 3485,
+     "PF": 149,
+     "TOV": 286
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2007,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1684,
+     "PPG": 21.1,
+     "REB": 321,
+     "AST": 925,
+     "STL": 217,
+     "BLK": 4,
+     "FGM": 630,
+     "FGA": 1291,
+     "FG3M": 92,
+     "FG3A": 249,
+     "FTM": 332,
+     "FTA": 390,
+     "MIN": 3006,
+     "PF": 185,
+     "TOV": 201
+    },
+    {
+     "id": 1897,
+     "name": "Metta World Peace",
+     "season": 2001,
+     "team": "IND",
+     "GP": 55,
+     "PTS": 727,
+     "PPG": 13.2,
+     "REB": 271,
+     "AST": 127,
+     "STL": 141,
+     "BLK": 39,
+     "FGM": 269,
+     "FGA": 636,
+     "FG3M": 53,
+     "FG3A": 170,
+     "FTM": 136,
+     "FTA": 204,
+     "MIN": 1641,
+     "PF": 217,
+     "TOV": 118
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.721311475409836,
+   "players": [
+    {
+     "id": 1716,
+     "name": "Larry Hughes"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "5 players averaged 2.5 steals a game (60% of games) in the 2000s (8 seasons). The most extreme: Larry Hughes, 2004-05 — 2.9 spg."
+  },
+  {
+   "n": 97,
+   "rule": "score_no_pass",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2009,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1896,
+     "PPG": 23.1,
+     "REB": 732,
+     "AST": 82,
+     "STL": 52,
+     "BLK": 83,
+     "FGM": 704,
+     "FGA": 1264,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 487,
+     "FTA": 632,
+     "MIN": 2838,
+     "PF": 281,
+     "TOV": 213
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 80,
+     "PTS": 2080,
+     "PPG": 26,
+     "REB": 713,
+     "AST": 131,
+     "STL": 77,
+     "BLK": 130,
+     "FGM": 747,
+     "FGA": 1336,
+     "FG3M": 3,
+     "FG3A": 16,
+     "FTM": 583,
+     "FTA": 795,
+     "MIN": 2886,
+     "PF": 278,
+     "TOV": 189
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2007,
+     "team": "PHX",
+     "GP": 79,
+     "PTS": 1989,
+     "PPG": 25.2,
+     "REB": 719,
+     "AST": 118,
+     "STL": 64,
+     "BLK": 163,
+     "FGM": 714,
+     "FGA": 1211,
+     "FG3M": 5,
+     "FG3A": 31,
+     "FTM": 556,
+     "FTA": 691,
+     "MIN": 2677,
+     "PF": 294,
+     "TOV": 174
+    },
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire",
+     "season": 2006,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1671,
+     "PPG": 20.4,
+     "REB": 786,
+     "AST": 84,
+     "STL": 78,
+     "BLK": 110,
+     "FGM": 607,
+     "FGA": 1055,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 457,
+     "FTA": 585,
+     "MIN": 2689,
+     "PF": 295,
+     "TOV": 232
+    },
+    {
+     "id": 2744,
+     "name": "Al Jefferson",
+     "season": 2008,
+     "team": "MIN",
+     "GP": 50,
+     "PTS": 1156,
+     "PPG": 23.1,
+     "REB": 548,
+     "AST": 79,
+     "STL": 39,
+     "BLK": 83,
+     "FGM": 485,
+     "FGA": 975,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 186,
+     "FTA": 252,
+     "MIN": 1836,
+     "PF": 141,
+     "TOV": 92
+    },
+    {
+     "id": 2397,
+     "name": "Yao Ming",
+     "season": 2005,
+     "team": "HOU",
+     "GP": 57,
+     "PTS": 1271,
+     "PPG": 22.3,
+     "REB": 581,
+     "AST": 85,
+     "STL": 30,
+     "BLK": 94,
+     "FGM": 467,
+     "FGA": 900,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 337,
+     "FTA": 395,
+     "MIN": 1949,
+     "PF": 195,
+     "TOV": 147
+    }
+   ],
+   "seasonsMatched": 21,
+   "kind": "list",
+   "score": 3.453048780487805,
+   "players": [
+    {
+     "id": 2405,
+     "name": "Amar'e Stoudemire"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "text": "11 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 2000s (21 seasons). The most extreme: Amar'e Stoudemire, 2009-10 — 23.1 ppg, 1.0 apg."
+  },
+  {
+   "n": 98,
+   "rule": "threes_bad",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1884,
+     "name": "Baron Davis",
+     "season": 2003,
+     "team": "NOH",
+     "GP": 67,
+     "PTS": 1532,
+     "PPG": 22.9,
+     "REB": 287,
+     "AST": 501,
+     "STL": 158,
+     "BLK": 27,
+     "FGM": 554,
+     "FGA": 1402,
+     "FG3M": 187,
+     "FG3A": 582,
+     "FTM": 237,
+     "FTA": 352,
+     "MIN": 2685,
+     "PF": 178,
+     "TOV": 215
+    },
+    {
+     "id": 952,
+     "name": "Antoine Walker",
+     "season": 2002,
+     "team": "BOS",
+     "GP": 78,
+     "PTS": 1570,
+     "PPG": 20.1,
+     "REB": 563,
+     "AST": 373,
+     "STL": 116,
+     "BLK": 31,
+     "FGM": 603,
+     "FGA": 1554,
+     "FG3M": 188,
+     "FG3A": 582,
+     "FTM": 176,
+     "FTA": 286,
+     "MIN": 3235,
+     "PF": 221,
+     "TOV": 260
+    },
+    {
+     "id": 2037,
+     "name": "Jamal Crawford",
+     "season": 2003,
+     "team": "CHI",
+     "GP": 80,
+     "PTS": 1383,
+     "PPG": 17.3,
+     "REB": 283,
+     "AST": 405,
+     "STL": 111,
+     "BLK": 29,
+     "FGM": 509,
+     "FGA": 1318,
+     "FG3M": 165,
+     "FG3A": 521,
+     "FTM": 200,
+     "FTA": 240,
+     "MIN": 2811,
+     "PF": 161,
+     "TOV": 193
+    },
+    {
+     "id": 1884,
+     "name": "Baron Davis",
+     "season": 2007,
+     "team": "GSW",
+     "GP": 82,
+     "PTS": 1791,
+     "PPG": 21.8,
+     "REB": 385,
+     "AST": 623,
+     "STL": 191,
+     "BLK": 43,
+     "FGM": 650,
+     "FGA": 1526,
+     "FG3M": 173,
+     "FG3A": 525,
+     "FTM": 318,
+     "FTA": 424,
+     "MIN": 3196,
+     "PF": 247,
+     "TOV": 232
+    },
+    {
+     "id": 1503,
+     "name": "Tracy McGrady",
+     "season": 2003,
+     "team": "ORL",
+     "GP": 67,
+     "PTS": 1878,
+     "PPG": 28,
+     "REB": 402,
+     "AST": 370,
+     "STL": 93,
+     "BLK": 42,
+     "FGM": 653,
+     "FGA": 1566,
+     "FG3M": 174,
+     "FG3A": 513,
+     "FTM": 398,
+     "FTA": 500,
+     "MIN": 2675,
+     "PF": 129,
+     "TOV": 179
+    },
+    {
+     "id": 2747,
+     "name": "JR Smith",
+     "season": 2009,
+     "team": "DEN",
+     "GP": 75,
+     "PTS": 1156,
+     "PPG": 15.4,
+     "REB": 234,
+     "AST": 183,
+     "STL": 99,
+     "BLK": 20,
+     "FGM": 428,
+     "FGA": 1033,
+     "FG3M": 158,
+     "FG3A": 467,
+     "FTM": 142,
+     "FTA": 201,
+     "MIN": 2082,
+     "PF": 174,
+     "TOV": 139
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 3.3357646048109966,
+   "players": [
+    {
+     "id": 1884,
+     "name": "Baron Davis"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "5 players made 150+ threes while shooting under .340 from deep in the 2000s (6 seasons). The most extreme: Baron Davis, 2003-04 — 187 3PM, .321."
+  },
+  {
+   "n": 99,
+   "rule": "three_better_than_two",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "season": 2005,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1495,
+     "PPG": 18.5,
+     "REB": 252,
+     "AST": 699,
+     "STL": 71,
+     "BLK": 8,
+     "FGM": 423,
+     "FGA": 1012,
+     "FG3M": 184,
+     "FG3A": 425,
+     "FTM": 465,
+     "FTA": 520,
+     "MIN": 2925,
+     "PF": 160,
+     "TOV": 170
+    },
+    {
+     "id": 2207,
+     "name": "Joe Johnson",
+     "season": 2004,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 422,
+     "AST": 291,
+     "STL": 79,
+     "BLK": 24,
+     "FGM": 544,
+     "FGA": 1179,
+     "FG3M": 177,
+     "FG3A": 370,
+     "FTM": 135,
+     "FTA": 180,
+     "MIN": 3238,
+     "PF": 167,
+     "TOV": 148
+    },
+    {
+     "id": 2732,
+     "name": "Ben Gordon",
+     "season": 2005,
+     "team": "CHI",
+     "GP": 80,
+     "PTS": 1349,
+     "PPG": 16.9,
+     "REB": 219,
+     "AST": 240,
+     "STL": 75,
+     "BLK": 5,
+     "FGM": 486,
+     "FGA": 1152,
+     "FG3M": 166,
+     "FG3A": 382,
+     "FTM": 211,
+     "FTA": 268,
+     "MIN": 2482,
+     "PF": 238,
+     "TOV": 180
+    },
+    {
+     "id": 89,
+     "name": "Nick Van Exel",
+     "season": 2004,
+     "team": "POR",
+     "GP": 53,
+     "PTS": 586,
+     "PPG": 11.1,
+     "REB": 161,
+     "AST": 227,
+     "STL": 44,
+     "BLK": 0,
+     "FGM": 214,
+     "FGA": 561,
+     "FG3M": 100,
+     "FG3A": 257,
+     "FTM": 58,
+     "FTA": 74,
+     "MIN": 1619,
+     "PF": 70,
+     "TOV": 92
+    },
+    {
+     "id": 1517,
+     "name": "Bobby Jackson",
+     "season": 2005,
+     "team": "MEM",
+     "GP": 71,
+     "PTS": 808,
+     "PPG": 11.4,
+     "REB": 223,
+     "AST": 195,
+     "STL": 61,
+     "BLK": 1,
+     "FGM": 286,
+     "FGA": 748,
+     "FG3M": 129,
+     "FG3A": 332,
+     "FTM": 107,
+     "FTA": 146,
+     "MIN": 1775,
+     "PF": 155,
+     "TOV": 101
+    },
+    {
+     "id": 458,
+     "name": "Howard Eisley",
+     "season": 2000,
+     "team": "DAL",
+     "GP": 82,
+     "PTS": 741,
+     "PPG": 9,
+     "REB": 197,
+     "AST": 295,
+     "STL": 99,
+     "BLK": 12,
+     "FGM": 265,
+     "FGA": 675,
+     "FG3M": 107,
+     "FG3A": 269,
+     "FTM": 104,
+     "FTA": 126,
+     "MIN": 2426,
+     "PF": 218,
+     "TOV": 102
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.064465377292314,
+   "players": [
+    {
+     "id": 1497,
+     "name": "Chauncey Billups"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "12 players shot better from three than from two (250+ 3PA, 300+ 2PA) in the 2000s. The most extreme: Chauncey Billups, 2005-06 — .433 3P, .407 2P."
+  },
+  {
+   "n": 100,
+   "rule": "volume_misses",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 711,
+     "name": "Jerry Stackhouse",
+     "season": 2000,
+     "team": "DET",
+     "GP": 80,
+     "PTS": 2380,
+     "PPG": 29.8,
+     "REB": 315,
+     "AST": 410,
+     "STL": 97,
+     "BLK": 54,
+     "FGM": 774,
+     "FGA": 1927,
+     "FG3M": 166,
+     "FG3A": 473,
+     "FTM": 666,
+     "FTA": 810,
+     "MIN": 3215,
+     "PF": 160,
+     "TOV": 326
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2002,
+     "team": "PHI",
+     "GP": 82,
+     "PTS": 2262,
+     "PPG": 27.6,
+     "REB": 344,
+     "AST": 454,
+     "STL": 225,
+     "BLK": 13,
+     "FGM": 804,
+     "FGA": 1940,
+     "FG3M": 84,
+     "FG3A": 303,
+     "FTM": 570,
+     "FTA": 736,
+     "MIN": 3485,
+     "PF": 149,
+     "TOV": 286
+    },
+    {
+     "id": 952,
+     "name": "Antoine Walker",
+     "season": 2001,
+     "team": "BOS",
+     "GP": 81,
+     "PTS": 1794,
+     "PPG": 22.1,
+     "REB": 714,
+     "AST": 407,
+     "STL": 122,
+     "BLK": 38,
+     "FGM": 666,
+     "FGA": 1689,
+     "FG3M": 222,
+     "FG3A": 645,
+     "FTM": 240,
+     "FTA": 324,
+     "MIN": 3406,
+     "PF": 237,
+     "TOV": 251
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2000,
+     "team": "PHI",
+     "GP": 71,
+     "PTS": 2207,
+     "PPG": 31.1,
+     "REB": 273,
+     "AST": 325,
+     "STL": 178,
+     "BLK": 20,
+     "FGM": 762,
+     "FGA": 1813,
+     "FG3M": 98,
+     "FG3A": 306,
+     "FTM": 585,
+     "FTA": 719,
+     "MIN": 2979,
+     "PF": 147,
+     "TOV": 237
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2004,
+     "team": "PHI",
+     "GP": 75,
+     "PTS": 2302,
+     "PPG": 30.7,
+     "REB": 299,
+     "AST": 596,
+     "STL": 180,
+     "BLK": 9,
+     "FGM": 771,
+     "FGA": 1818,
+     "FG3M": 104,
+     "FG3A": 338,
+     "FTM": 656,
+     "FTA": 786,
+     "MIN": 3173,
+     "PF": 140,
+     "TOV": 344
+    },
+    {
+     "id": 947,
+     "name": "Allen Iverson",
+     "season": 2001,
+     "team": "PHI",
+     "GP": 60,
+     "PTS": 1883,
+     "PPG": 31.4,
+     "REB": 269,
+     "AST": 331,
+     "STL": 168,
+     "BLK": 13,
+     "FGM": 665,
+     "FGA": 1669,
+     "FG3M": 78,
+     "FG3A": 268,
+     "FTM": 475,
+     "FTA": 585,
+     "MIN": 2624,
+     "PF": 102,
+     "TOV": 237
+    }
+   ],
+   "seasonsMatched": 78,
+   "kind": "list",
+   "score": 3.040651530877011,
+   "players": [
+    {
+     "id": 711,
+     "name": "Jerry Stackhouse"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "45 players shot under .440 on 1,200+ attempts in the 2000s (78 seasons). The most extreme: Jerry Stackhouse, 2000-01 — .402 on 1,927 FGA."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 4467,
+  "playoffPlayerSeasons": 1922
+ },
+ "method": [
+  "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "Qualification is 60% of the most games anyone played that season. Attempt floors are stated in the line.",
+  "Categories not yet recorded (rebounds before 1950-51, minutes before 1951-52, steals and blocks before 1973-74, turnovers before 1977-78, threes before 1979-80) are treated as missing, never as zero.",
+  "Team-mate lines are omitted: the feed credits a traded player's whole season to one club."
+ ]
+}

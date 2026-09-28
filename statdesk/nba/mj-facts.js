@@ -25,6 +25,16 @@ const p3 = (v) => (v == null ? "—" : v.toFixed(3).replace(/^0/, ""));
 const fmtDate = (d) => d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// Franchise codes as stats.nba.com writes them in Jordan's era, to city names.
+// Cities rather than nicknames, so no line gets an era's nickname wrong
+// (Washington were the Bullets until 1997, then the Wizards).
+const CITY = { ATL: "Atlanta", BOS: "Boston", CHH: "Charlotte", CHA: "Charlotte", CHI: "Chicago", CLE: "Cleveland", DAL: "Dallas", DEN: "Denver", DET: "Detroit",
+  GOS: "Golden State", GSW: "Golden State", HOU: "Houston", IND: "Indiana", KCK: "Kansas City", LAC: "the LA Clippers", LAL: "the LA Lakers", MIA: "Miami",
+  MIL: "Milwaukee", MIN: "Minnesota", NJN: "New Jersey", NYK: "New York", ORL: "Orlando", PHL: "Philadelphia", PHI: "Philadelphia", PHX: "Phoenix",
+  POR: "Portland", SAC: "Sacramento", SAN: "San Antonio", SAS: "San Antonio", SEA: "Seattle", TOR: "Toronto", UTA: "Utah", UTH: "Utah", VAN: "Vancouver",
+  WAS: "Washington", MEM: "Memphis", NOH: "New Orleans" };
+const city = (c) => CITY[c] || c;
+const andList = (a) => (a.length <= 1 ? a.join("") : a.length === 2 ? `${a[0]} and ${a[1]}` : `${a.slice(0, -1).join(", ")} and ${a[a.length - 1]}`);
 
 function loadGames() {
   const games = [];
@@ -47,7 +57,15 @@ function main() {
   const facts = [];
   const add = (kind, text, evidence, score = 5) => facts.push({ kind, text, evidence: evidence == null ? [] : [].concat(evidence).slice(0, 12), score });
   const gEv = (g) => ({ date: g.GAME_DATE, season: g.season, type: g.type, matchup: g.MATCHUP, WL: g.WL, PTS: g.PTS, REB: g.REB, AST: g.AST, STL: g.STL, BLK: g.BLK, FGM: g.FGM, FGA: g.FGA, FTM: g.FTM, FTA: g.FTA, FG3M: g.FG3M, MIN: g.MIN, game: g.Game_ID });
-  const on = (g) => `${fmtDate(g.date)} ${g.home ? "vs." : "at"} ${g.opp}`;
+  const on = (g) => `${fmtDate(g.date)} ${g.home ? "vs." : "at"} ${city(g.opp)}`;
+  // Exact age on a date, from the birthdate in mj/info.json when present.
+  const infoFile = path.join(MJ, "info.json");
+  const birth = fs.existsSync(infoFile) ? new Date(`${(JSON.parse(fs.readFileSync(infoFile, "utf8")).birthdate || "").slice(0, 10)}T12:00:00Z`) : null;
+  const ageOn = (d) => { if (!birth || isNaN(birth)) return null; let y = d.getUTCFullYear() - birth.getUTCFullYear();
+    const bd = new Date(Date.UTC(d.getUTCFullYear(), birth.getUTCMonth(), birth.getUTCDate(), 12)); if (d < bd) y -= 1;
+    const lastBd = new Date(Date.UTC(birth.getUTCFullYear() + y, birth.getUTCMonth(), birth.getUTCDate(), 12));
+    return { y, d: Math.round((d - lastBd) / 86400000) }; };
+  const ageStr = (d) => { const a = ageOn(d); return a ? `${a.y} years, ${a.d} days old` : null; };
   const cnt = (arr, f) => arr.filter(f).length;
   const rec = (arr) => `${cnt(arr, (g) => g.W)}-${cnt(arr, (g) => !g.W)}`;
 
@@ -142,18 +160,19 @@ function main() {
   for (const g of RS) (byOpp[g.opp] = byOpp[g.opp] || []).push(g);
   const oppRows = Object.entries(byOpp).map(([o, gs]) => ({ o, n: gs.length, pts: gs.reduce((a, g) => a + g.PTS, 0), ppg: gs.reduce((a, g) => a + g.PTS, 0) / gs.length, fifty: gs.filter((g) => g.PTS >= 50).length, rec: rec(gs) }));
   const mostPts = [...oppRows].sort((a, b) => b.pts - a.pts)[0];
-  add("opponents", `The team he scored the most regular-season points against: ${mostPts.o}, ${mostPts.pts.toLocaleString()} in ${mostPts.n} games.`, mostPts, 6);
+  add("opponents", `The team he scored the most regular-season points against: ${city(mostPts.o)}, ${mostPts.pts.toLocaleString()} in ${mostPts.n} games.`, mostPts, 6);
   const hiAvg = [...oppRows].filter((r) => r.n >= 15).sort((a, b) => b.ppg - a.ppg)[0];
-  add("opponents", `His highest scoring average against any opponent (15+ games): ${d1(hiAvg.ppg)} against ${hiAvg.o}.`, hiAvg, 7);
+  add("opponents", `His highest scoring average against any opponent (15+ games): ${d1(hiAvg.ppg)} against ${city(hiAvg.o)} over ${hiAvg.n} games.`, hiAvg, 7);
   const loAvg = [...oppRows].filter((r) => r.n >= 15).sort((a, b) => a.ppg - b.ppg)[0];
-  add("opponents", `His lowest scoring average against any opponent (15+ games): ${d1(loAvg.ppg)} against ${loAvg.o} — still ${loAvg.ppg >= 25 ? "25-plus" : "respectable"}.`, loAvg, 7);
+  const loGames = byOpp[loAvg.o]; const loLate = loGames.filter((g) => Number(g.season.slice(0, 4)) >= 2001).length;
+  add("opponents", `His lowest scoring average against any opponent (15+ games): ${d1(loAvg.ppg)} against ${city(loAvg.o)}${loLate ? ` — ${loLate} of those ${loAvg.n} games came in his Washington seasons` : ""}.`, loAvg, 7);
   const fiftyOpp = [...oppRows].filter((r) => r.fifty > 0).sort((a, b) => b.fifty - a.fifty);
-  add("opponents", `He scored 50 against ${fiftyOpp.length} different franchises; the most 50-point games against one team was ${fiftyOpp[0].fifty}, against ${fiftyOpp[0].o}.`, fiftyOpp.slice(0, 6), 7);
+  add("opponents", `He scored 50 against ${fiftyOpp.length} different opponents; the most 50-point games against one team was ${fiftyOpp[0].fifty}, against ${city(fiftyOpp[0].o)}.`, fiftyOpp.slice(0, 6), 7);
   const bestRec = [...oppRows].filter((r) => r.n >= 20).sort((a, b) => Number(b.rec.split("-")[0]) / b.n - Number(a.rec.split("-")[0]) / a.n)[0];
-  add("opponents", `His best team record against one opponent (20+ games): ${bestRec.rec} against ${bestRec.o}.`, bestRec, 5);
+  add("opponents", `His teams' best record against one opponent (20+ games): ${bestRec.rec} against ${city(bestRec.o)}.`, bestRec, 5);
   const poOpp = {}; for (const g of PO) (poOpp[g.opp] = poOpp[g.opp] || []).push(g);
   const poMost = Object.entries(poOpp).sort((a, b) => b[1].length - a[1].length)[0];
-  add("opponents", `His most frequent playoff opponent: ${poMost[0]}, ${poMost[1].length} games, ${rec(poMost[1])}, ${d1(poMost[1].reduce((a, g) => a + g.PTS, 0) / poMost[1].length)} points a game.`, poMost[1].map(gEv), 7);
+  add("opponents", `His most frequent playoff opponent: ${city(poMost[0])}, ${poMost[1].length} games, ${rec(poMost[1])}, ${d1(poMost[1].reduce((a, g) => a + g.PTS, 0) / poMost[1].length)} points a game.`, poMost[1].map(gEv), 7);
 
   // --------------------------------------------------------- when & where --
   const split = (arr, f) => { const o = {}; for (const g of arr) { const k = f(g); (o[k] = o[k] || []).push(g); } return Object.entries(o).map(([k, gs]) => ({ k, n: gs.length, ppg: gs.reduce((a, g) => a + g.PTS, 0) / gs.length })); };
@@ -174,7 +193,7 @@ function main() {
   for (const s of series) { s.won = s.games[s.games.length - 1].W; s.pts = s.games.reduce((a, g) => a + g.PTS, 0); s.ppg = s.pts / s.games.length; }
   const bySeason = {}; for (const s of series) (bySeason[s.season] = bySeason[s.season] || []).push(s);
   const finals = Object.values(bySeason).map((ss) => ss[ss.length - 1]).filter((s) => s.won);
-  add("finals", `Jordan reached the Finals ${finals.length} times and won all ${finals.length}: ${finals.map((s) => `${s.season} vs. ${s.opp}`).join(", ")}.`, finals.map((s) => ({ season: s.season, opp: s.opp, games: s.games.length, pts: s.pts })), 10);
+  add("finals", `Jordan reached the Finals ${finals.length} times and won all ${finals.length}: ${finals.map((s) => `${s.season} vs. ${city(s.opp)}`).join(", ")}.`, finals.map((s) => ({ season: s.season, opp: s.opp, games: s.games.length, pts: s.pts })), 10);
   const fg = finals.flatMap((s) => s.games);
   add("finals", `In ${fg.length} Finals games he averaged ${d1(fg.reduce((a, g) => a + g.PTS, 0) / fg.length)} points; he scored 30+ in ${cnt(fg, (g) => g.PTS >= 30)} of them and 40+ in ${cnt(fg, (g) => g.PTS >= 40)}.`, fg.filter((g) => g.PTS >= 40).map(gEv), 9);
   const fHi = [...fg].sort((a, b) => b.PTS - a.PTS)[0];
@@ -182,14 +201,15 @@ function main() {
   const fLo = [...fg].sort((a, b) => a.PTS - b.PTS)[0];
   add("finals", `His lowest Finals game: ${fLo.PTS} points, ${on(fLo)}.`, gEv(fLo), 6);
   const fBest = [...finals].sort((a, b) => b.ppg - a.ppg)[0];
-  add("finals", `His best Finals series: ${d1(fBest.ppg)} points a game against ${fBest.opp} in ${fBest.season}.`, fBest.games.map(gEv), 8);
+  add("finals", `His best Finals series: ${d1(fBest.ppg)} points a game against ${city(fBest.opp)} in ${fBest.season}.`, fBest.games.map(gEv), 8);
   const clinch = finals.map((s) => s.games[s.games.length - 1]);
   add("finals", `In the ${clinch.length} title-clinching games he averaged ${d1(clinch.reduce((a, g) => a + g.PTS, 0) / clinch.length)} points (${clinch.map((g) => g.PTS).join(", ")}).`, clinch.map(gEv), 8);
   const fGames = finals.map((s) => s.games.length); const fRec = `${cnt(fg, (g) => g.W)}-${cnt(fg, (g) => !g.W)}`;
   const sevens = fGames.filter((n) => n === 7).length;
   add("finals", `His teams went ${fRec} in his Finals games; ${sevens ? `${sevens} of the ${finals.length} series went seven` : `none of the ${finals.length} series went seven`} (${fGames.join(", ")} games).`, finals.map((s) => ({ season: s.season, games: s.games.length })), 7);
   const won = series.filter((s) => s.won).length, lost = series.length - won;
-  add("playoffs", `Playoff series: ${won} won, ${lost} lost. After ${[...series].reverse().find((s) => !s.won) ? `the loss to ${[...series].reverse().find((s) => !s.won).opp} in ${[...series].reverse().find((s) => !s.won).season}` : "his first loss"}, he never lost another series.`, series.map((s) => ({ season: s.season, opp: s.opp, won: s.won, games: s.games.length })), 8);
+  const lastLoss = [...series].reverse().find((s) => !s.won); const afterLoss = lastLoss ? series.slice(series.indexOf(lastLoss) + 1).length : 0;
+  add("playoffs", `Playoff series: ${won} won, ${lost} lost. After losing to ${lastLoss ? `${city(lastLoss.opp)} in ${lastLoss.season}` : "—"}, he won his last ${afterLoss} series.`, series.map((s) => ({ season: s.season, opp: s.opp, won: s.won, games: s.games.length })), 8);
   const sweeps = series.filter((s) => s.won && s.games.every((g) => g.W));
   add("playoffs", `His teams swept ${sweeps.length} playoff series.`, sweeps.map((s) => ({ season: s.season, opp: s.opp, games: s.games.length })), 6);
   const g7 = series.filter((s) => s.games.length === 7).map((s) => s.games[6]);
@@ -197,14 +217,16 @@ function main() {
   const elim = series.filter((s) => !s.won).map((s) => s.games[s.games.length - 1]);
   add("playoffs", `In the ${elim.length} games in which his team was eliminated he averaged ${d1(elim.reduce((a, g) => a + g.PTS, 0) / elim.length)} points.`, elim.map(gEv), 6);
   const bestSeries = [...series].sort((a, b) => b.ppg - a.ppg)[0];
-  add("playoffs", `His highest-scoring playoff series: ${d1(bestSeries.ppg)} points a game against ${bestSeries.opp} in ${bestSeries.season} (${bestSeries.won ? "won" : "lost"} in ${bestSeries.games.length}).`, bestSeries.games.map(gEv), 8);
+  add("playoffs", `His highest-scoring playoff series: ${d1(bestSeries.ppg)} points a game against ${city(bestSeries.opp)} in ${bestSeries.season} (${bestSeries.won ? "won" : "lost"} in ${bestSeries.games.length}).`, bestSeries.games.map(gEv), 8);
   const sweptBy = series.filter((s) => !s.won && s.games.every((g) => !g.W));
-  if (sweptBy.length) add("playoffs", `His teams were swept ${sweptBy.length} time${sweptBy.length > 1 ? "s" : ""}: ${sweptBy.map((s) => `${s.season} by ${s.opp}`).join(", ")}.`, sweptBy.map((s) => ({ season: s.season, opp: s.opp })), 6);
+  if (sweptBy.length) add("playoffs", `His teams were swept ${sweptBy.length} time${sweptBy.length > 1 ? "s" : ""}: ${andList(sweptBy.map((s) => `${s.season} by ${city(s.opp)}`))}.`, sweptBy.map((s) => ({ season: s.season, opp: s.opp })), 6);
   const firstRound = Object.values(bySeason).map((ss) => ss[0]);
   add("playoffs", `First-round record: ${firstRound.filter((s) => s.won).length}-${firstRound.filter((s) => !s.won).length} in series.`, firstRound.map((s) => ({ season: s.season, opp: s.opp, won: s.won })), 5);
   const poSeas = career.SeasonTotalsPostSeason || [];
   const poBestSeason = [...poSeas].sort((a, b) => b.PTS / b.GP - a.PTS / a.GP)[0];
-  if (poBestSeason) add("playoffs", `His best playoff scoring average in one postseason: ${d1(poBestSeason.PTS / poBestSeason.GP)} over ${poBestSeason.GP} games in ${poBestSeason.SEASON_ID}.`, poBestSeason, 8);
+  if (poBestSeason) add("playoffs", `His highest playoff scoring average in any postseason: ${d1(poBestSeason.PTS / poBestSeason.GP)} over ${poBestSeason.GP} games in ${poBestSeason.SEASON_ID}.`, poBestSeason, 7);
+  const poBest8 = [...poSeas].filter((r) => r.GP >= 8).sort((a, b) => b.PTS / b.GP - a.PTS / a.GP)[0];
+  if (poBest8 && poBest8 !== poBestSeason) add("playoffs", `His best scoring postseason of 8+ games: ${d1(poBest8.PTS / poBest8.GP)} over ${poBest8.GP} games in ${poBest8.SEASON_ID}.`, poBest8, 8);
 
   // -------------------------------------------------------------- seasons --
   const seas = (career.SeasonTotalsRegularSeason || []).filter((r) => r.TEAM_ABBREVIATION !== "TOT");
@@ -216,14 +238,18 @@ function main() {
   const rookie = seas[0];
   add("season", `As a rookie in ${rookie.SEASON_ID} he averaged ${d1(ppg(rookie))} points, ${d1(rookie.REB / rookie.GP)} rebounds and ${d1(rookie.AST / rookie.GP)} assists, playing all ${rookie.GP} games.`, rookie, 8);
   const short = [...seas].sort((a, b) => a.GP - b.GP)[0];
-  add("season", `His shortest full season: ${short.GP} games in ${short.SEASON_ID}, averaging ${d1(ppg(short))}.`, short, 6);
+  const shortGames = RS.filter((g) => g.season === short.SEASON_ID);
+  add("season", `His shortest season: ${short.GP} games in ${short.SEASON_ID}, averaging ${d1(ppg(short))} — his first game that season came ${on(shortGames[0])}.`, short, 6);
   const last = seas[seas.length - 1];
   add("season", `In his final season, ${last.SEASON_ID}, at age ${last.PLAYER_AGE}, he played ${last.GP} games and averaged ${d1(ppg(last))} points.`, last, 8);
   const old = seas.filter((r) => r.PLAYER_AGE >= 38);
   const oldGames = RS.filter((g) => old.some((r) => r.SEASON_ID === g.season));
   add("season", `At 38 and older he scored 40+ ${cnt(oldGames, (g) => g.PTS >= 40)} times and 30+ ${cnt(oldGames, (g) => g.PTS >= 30)} times in ${oldGames.length} games.`, oldGames.filter((g) => g.PTS >= 40).map(gEv), 8);
   const old50 = oldGames.filter((g) => g.PTS >= 50);
-  if (old50.length) add("season", `His last 50-point game came ${on(old50[old50.length - 1])} in ${old50[old50.length - 1].season}, age ${old.find((r) => r.SEASON_ID === old50[old50.length - 1].season).PLAYER_AGE} that season: ${old50[old50.length - 1].PTS} points.`, old50.map(gEv), 9);
+  const all50 = RS.filter((g) => g.PTS >= 50); const l50 = all50[all50.length - 1];
+  add("season", `His last 50-point game: ${l50.PTS} points ${on(l50)}${ageStr(l50.date) ? `, at ${ageStr(l50.date)}` : ""}.`, gEv(l50), 9);
+  const all40 = RS.filter((g) => g.PTS >= 40); const l40 = all40[all40.length - 1];
+  if (ageStr(l40.date)) add("season", `His last 40-point game: ${l40.PTS} ${on(l40)}, at ${ageStr(l40.date)}.`, gEv(l40), 8);
   const stlSeason = [...seas].sort((a, b) => b.STL - a.STL)[0];
   add("season", `His best steals season: ${stlSeason.STL} in ${stlSeason.SEASON_ID} (${d1(stlSeason.STL / stlSeason.GP)} a game).`, stlSeason, 6);
   const blkSeason = [...seas].sort((a, b) => b.BLK - a.BLK)[0];
@@ -238,6 +264,34 @@ function main() {
   add("season", `His heaviest workload: ${mins.MIN.toLocaleString()} minutes in ${mins.SEASON_ID}, ${d1(mins.MIN / mins.GP)} a game.`, mins, 5);
   const tov = [...seas].filter((r) => r.GP >= 50).sort((a, b) => a.TOV / a.GP - b.TOV / b.GP)[0];
   if (tov) add("season", `His most careful season: ${d1(tov.TOV / tov.GP)} turnovers a game in ${tov.SEASON_ID}.`, tov, 4);
+
+  // ------------------------------------------------------------ bookends --
+  const first = RS[0], lastG = RS[RS.length - 1];
+  add("career", `His first NBA game: ${first.PTS} points ${on(first)}${ageStr(first.date) ? `, at ${ageStr(first.date)}` : ""}.`, gEv(first), 8);
+  add("career", `His last NBA game: ${lastG.PTS} points ${on(lastG)}${ageStr(lastG.date) ? `, at ${ageStr(lastG.date)}` : ""}.`, gEv(lastG), 8);
+  add("career", `His teams went ${rec(RS)} in the regular-season games he played and ${rec(PO)} in the playoffs.`, null, 7);
+  const ppgW = RS.filter((g) => g.W), ppgL = RS.filter((g) => !g.W);
+  add("career", `He averaged ${d1(ppgW.reduce((a, g) => a + g.PTS, 0) / ppgW.length)} points in wins and ${d1(ppgL.reduce((a, g) => a + g.PTS, 0) / ppgL.length)} in losses.`, null, 6);
+  // The comeback season: his biggest game and where it fell.
+  const comeback = RS.filter((g) => g.season === short.SEASON_ID);
+  const cbTop = [...comeback].sort((a, b) => b.PTS - a.PTS)[0];
+  const ord = (n) => ["", "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"][n] || `${n}th`;
+  add("season", `In ${short.SEASON_ID} he scored ${cbTop.PTS} ${on(cbTop)} in just his ${ord(comeback.indexOf(cbTop) + 1)} game of the season.`, gEv(cbTop), 8);
+  const msg = RS.filter((g) => !g.home && g.opp === "NYK"), msgP = PO.filter((g) => !g.home && g.opp === "NYK");
+  if (msg.length) add("splits", `At New York (Madison Square Garden) he averaged ${d1(msg.reduce((a, g) => a + g.PTS, 0) / msg.length)} points over ${msg.length} regular-season games${msgP.length ? ` and ${d1(msgP.reduce((a, g) => a + g.PTS, 0) / msgP.length)} in ${msgP.length} playoff games there` : ""}.`, msg.map(gEv), 8);
+  const f40 = runs(fg, (g) => g.PTS >= 40);
+  if (f40.n >= 2) add("finals", `He scored 40+ in ${f40.n} consecutive Finals games (${fmtDate(f40.from.date)} to ${fmtDate(f40.to.date)}).`, [gEv(f40.from), gEv(f40.to)], 9);
+  const p50 = PO.filter((g) => g.PTS >= 50);
+  add("playoffs", `His ${p50.length} playoff 50-point games: ${p50.map((g) => `${g.PTS} ${fmtDate(g.date)} vs ${city(g.opp)}`).join("; ")}.`, p50.map(gEv), 8);
+  const dblDbl = RS.filter((g) => [g.PTS, g.REB, g.AST, g.STL, g.BLK].filter((v) => v >= 10).length >= 2);
+  add("games", `Double-doubles: ${dblDbl.length} in the regular season.`, null, 5);
+  const bySea = {}; for (const g of RS) { const b = (bySea[g.season] = bySea[g.season] || { s30: 0, s40: 0 }); if (g.PTS >= 30) b.s30 += 1; if (g.PTS >= 40) b.s40 += 1; }
+  const m30 = Object.entries(bySea).sort((a, b) => b[1].s30 - a[1].s30)[0], m40 = Object.entries(bySea).sort((a, b) => b[1].s40 - a[1].s40)[0];
+  add("season", `His most 30-point games in a season: ${m30[1].s30}, in ${m30[0]}. Most 40-point games: ${m40[1].s40}, in ${m40[0]}.`, null, 8);
+  const clean = games.filter((g) => g.PTS >= 40 && g.TOV === 0);
+  add("games", `He scored 40+ without a turnover ${clean.length} times.`, clean.map(gEv), 6);
+  const fgRS = RS.reduce((a, g) => [a[0] + g.FGM, a[1] + g.FGA], [0, 0]), fgPO = PO.reduce((a, g) => [a[0] + g.FGM, a[1] + g.FGA], [0, 0]);
+  add("career", `Field-goal percentage: ${p3(fgRS[0] / fgRS[1])} in the regular season, ${p3(fgPO[0] / fgPO[1])} in the playoffs.`, null, 5);
 
   // ------------------------------------------------- against the league --
   // Every NBA player-season ever, from the official season pulls.
@@ -267,28 +321,34 @@ function main() {
   add("league", `His widest scoring-title margin: ${d1(widest.ppg - widest.nextPpg)} points a game over ${widest.next} in ${widest.season} (${d1(widest.ppg)} to ${d1(widest.nextPpg)}).`, widest, 8);
   add("league", `He led the league in steals per game ${titles.stl.length} times: ${titles.stl.map((t) => `${t.season} (${t.spg})`).join(", ")}.`, titles.stl, 8);
   const both2 = titles.pts.filter((t) => titles.stl.some((s) => s.season === t.season));
-  if (both2.length) add("league", `He led the league in both scoring and steals in ${both2.map((t) => t.season).join(" and ")}.`, both2, 8);
+  if (both2.length) add("league", `He led the league in both scoring and steals in the same season ${both2.length === 1 ? "once" : `${both2.length} times`}: ${andList(both2.map((t) => t.season))}.`, both2, 8);
   // Career per-game, all players (400 games / 10,000 points, the league's rule).
   const car = new Map();
   for (const r of league) { const a = car.get(r.id) || { id: r.id, name: r.name, GP: 0, PTS: 0 }; a.GP += r.GP || 0; a.PTS += r.PTS || 0; a.name = r.name; car.set(r.id, a); }
   const carQ = [...car.values()].filter((a) => a.GP >= 400 || a.PTS >= 10000).map((a) => ({ ...a, ppg: a.PTS / a.GP })).sort((a, b) => b.ppg - a.ppg);
   const mjRank = carQ.findIndex((a) => a.id === MJID) + 1;
-  add("league", `Career scoring average: ${d1(carQ.find((a) => a.id === MJID).ppg)}, ${mjRank === 1 ? "the highest" : `No. ${mjRank}`} in NBA history among ${carQ.length.toLocaleString()} qualified players (400 games or 10,000 points)${mjRank === 1 ? `, ahead of ${carQ[1].name} (${d1(carQ[1].ppg)})` : ""}.`, carQ.slice(0, 5), 10);
+  const mjC = carQ.find((a) => a.id === MJID); const dd = (v, w) => (d1(v) === d1(w) ? v.toFixed(2) : d1(v));
+  add("league", `Career scoring average: ${dd(mjC.ppg, carQ[1].ppg)}, ${mjRank === 1 ? "the highest" : `No. ${mjRank}`} in NBA history among ${carQ.length.toLocaleString()} qualified players (400 games or 10,000 points)${mjRank === 1 ? `, ahead of ${carQ[1].name} (${dd(carQ[1].ppg, mjC.ppg)})` : ""}.`, carQ.slice(0, 5), 10);
   const pcar = new Map();
   for (const r of po) { const a = pcar.get(r.id) || { id: r.id, name: r.name, GP: 0, PTS: 0 }; a.GP += r.GP || 0; a.PTS += r.PTS || 0; a.name = r.name; pcar.set(r.id, a); }
   const pQ = [...pcar.values()].filter((a) => a.GP >= 25).map((a) => ({ ...a, ppg: a.PTS / a.GP })).sort((a, b) => b.ppg - a.ppg);
   const pRank = pQ.findIndex((a) => a.id === MJID) + 1;
   add("league", `Career playoff scoring average: ${d1(pQ.find((a) => a.id === MJID).ppg)}, ${pRank === 1 ? "the highest" : `No. ${pRank}`} in NBA history (25+ playoff games)${pRank === 1 ? `; next is ${pQ[1].name} at ${d1(pQ[1].ppg)}` : ""}.`, pQ.slice(0, 5), 10);
+  const scar = new Map();
+  for (const r of league) { if (!has(r.STL)) continue; const a = scar.get(r.id) || { id: r.id, name: r.name, GP: 0, STL: 0 }; a.GP += r.GP || 0; a.STL += r.STL; a.name = r.name; scar.set(r.id, a); }
+  const sQ = [...scar.values()].filter((a) => a.GP >= 400).map((a) => ({ ...a, spg: a.STL / a.GP })).sort((a, b) => b.spg - a.spg);
+  const sRank = sQ.findIndex((a) => a.id === MJID) + 1;
+  add("league", `Career steals per game: ${sQ[sRank - 1].spg.toFixed(2)}, No. ${sRank} in NBA history since steals were first recorded (400+ games); ${sQ.slice(0, 3).filter((a) => a.id !== MJID).map((a) => `${a.name} ${a.spg.toFixed(2)}`).join(", ")} ${sRank <= 3 ? "round out the top three" : "lead"}.`, sQ.slice(0, 5), 7);
   const thirty = new Map();
   for (const r of league) if (r.q && r.PPG >= 30) thirty.set(r.id, { name: r.name, n: ((thirty.get(r.id) || {}).n || 0) + 1 });
   const t30 = [...thirty.entries()].sort((a, b) => b[1].n - a[1].n);
   add("league", `Most 30-point-average seasons in NBA history: ${t30[0][1].name}, ${t30[0][1].n}${t30[0][0] === MJID ? `; next best ${t30[1][1].name}, ${t30[1][1].n}` : ""}.`, t30.slice(0, 5).map(([id, v]) => ({ id, ...v })), 9);
   const k3 = league.filter((r) => r.PTS >= 3000);
-  add("league", `Only ${new Set(k3.map((r) => r.id)).size} players have scored 3,000 points in a season: ${[...new Set(k3.map((r) => r.name))].join(" and ")} (${k3.map((r) => `${label(r.season)}: ${r.PTS.toLocaleString()}`).join("; ")}).`, k3, 9);
+  add("league", `Only ${new Set(k3.map((r) => r.id)).size} players have scored 3,000 points in a season: ${andList([...new Set(k3.map((r) => r.name))])} (${k3.map((r) => `${r.name.split(" ").pop()} ${label(r.season)}: ${r.PTS.toLocaleString()}`).join("; ")}).`, k3, 9);
   const sb = league.filter((r) => r.STL >= 200 && r.BLK >= 100);
-  add("league", `Seasons with 200 steals and 100 blocks: ${sb.length}, by ${new Set(sb.map((r) => r.id)).size} players — ${sb.filter((r) => r.id === MJID).length} of them Jordan's.`, sb, 8);
+  add("league", `Seasons with 200 steals and 100 blocks in NBA history: ${sb.length} — ${sb.map((r) => `${r.name} ${label(r.season)} (${r.STL} stl, ${r.BLK} blk)`).join("; ")}.`, sb, 8);
   const g30 = league.filter((r) => r.q && r.PPG >= 30 && r.SPG >= 3);
-  add("league", `Seasons averaging 30 points and 3 steals: ${g30.length} — ${g30.map((r) => `${r.name} ${label(r.season)}`).join(", ")}.`, g30, 9);
+  add("league", g30.length === 1 && g30[0].id === MJID ? `The only season in NBA history averaging 30 points and 3 steals: Jordan's ${label(g30[0].season)} (${d1(g30[0].PPG)} ppg, ${g30[0].SPG.toFixed(2)} spg).` : `Seasons averaging 30 points and 3 steals: ${g30.length} — ${g30.map((r) => `${r.name} ${label(r.season)}`).join(", ")}.`, g30, 9);
   const g35 = league.filter((r) => r.q && r.PPG >= 35 && has(r.FG) && r.FG >= 0.48);
   add("league", `Seasons averaging 35 points on 48%+ shooting: ${g35.length} — ${g35.map((r) => `${r.name} ${label(r.season)}`).join(", ")}.`, g35, 7);
   const ro = league.filter((r) => r.q && r.PPG >= 28 && league.every((x) => x.id !== r.id || x.season >= r.season));
@@ -297,7 +357,10 @@ function main() {
   const oldQ = league.filter((r) => r.id === MJID && r.season >= 2001);
   for (const r of oldQ) {
     const ys = league.filter((x) => x.season === r.season && x.q).sort((a, b) => b.PPG - a.PPG);
-    add("league", `At ${seas.find((s) => s.SEASON_ID === label(r.season)).PLAYER_AGE} in ${label(r.season)} he ranked No. ${ys.findIndex((x) => x.id === MJID) + 1} in the league in scoring (${d1(r.PPG)}).`, ys.slice(0, 5).map((x) => ({ name: x.name, PPG: +x.PPG.toFixed(1) })), 7);
+    const sg = RS.filter((g) => g.season === label(r.season));
+    const a0 = ageOn(sg[0].date), a1 = ageOn(sg[sg.length - 1].date);
+    const ages = a0 && a1 ? (a0.y === a1.y ? `at ${a0.y}` : `aged ${a0.y} to ${a1.y}`) : "with Washington";
+    add("league", `In ${label(r.season)}, ${ages}, he ranked No. ${ys.findIndex((x) => x.id === MJID) + 1} in the league in scoring at ${d1(r.PPG)} points a game.`, ys.slice(0, 5).map((x) => ({ name: x.name, PPG: +x.PPG.toFixed(1) })), 7);
   }
 
   // -------------------------------------------------------- college & All-Star --

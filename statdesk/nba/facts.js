@@ -100,14 +100,14 @@ function rules(e, b) {
     f: (r) => r.AST >= 800, mag: (r) => r.AST / 25, say: (r) => `${r.AST} ast` });
   // --- free throws ---
   add({ key: "ft_900", head: "shoot .900 from the line on 400+ attempts", floor: null,
-    f: (r) => r.FTA >= 400 && r.FT >= 0.9, mag: (r) => 100 * r.FT + r.FTA / 50, say: (r) => `${p3(r.FT)} on ${r.FTA} FTA` });
+    f: (r) => r.FTA >= 400 && r.FT >= 0.9, mag: (r) => 100 * r.FT + r.FTA / 50, say: (r) => `${p3(r.FT)} on ${r.FTA.toLocaleString()} FTA` });
   add({ key: "ft_bad", head: "shoot under .550 from the line on 300+ attempts", floor: null,
-    f: (r) => r.FTA >= 300 && r.FT < 0.55, mag: (r) => r.FTA / 10 - 100 * r.FT, say: (r) => `${p3(r.FT)} on ${r.FTA} FTA` });
+    f: (r) => r.FTA >= 300 && r.FT < 0.55, mag: (r) => r.FTA / 10 - 100 * r.FT, say: (r) => `${p3(r.FT)} on ${r.FTA.toLocaleString()} FTA` });
   add({ key: "fta_800", head: "attempt 800 free throws in a season", floor: null,
     f: (r) => r.FTA >= 800, mag: (r) => r.FTA / 30, say: (r) => `${r.FTA} FTA (${p3(r.FT)})` });
   // --- field goal shapes ---
   add({ key: "fg_600", head: "shoot .600 from the field on 800+ attempts", floor: null,
-    f: (r) => r.FGA >= 800 && r.FG >= 0.6, mag: (r) => 100 * r.FG, say: (r) => `${p3(r.FG)} on ${r.FGA} FGA` });
+    f: (r) => r.FGA >= 800 && r.FG >= 0.6, mag: (r) => 100 * r.FG, say: (r) => `${p3(r.FG)} on ${r.FGA.toLocaleString()} FGA` });
   add({ key: "fg_hi", head: `shoot ${p3(b.fgHi)} or better while averaging 20 points`, floor: "60% of games",
     f: (r) => r.q && r.PPG >= 20 && has(r.FG) && r.FG >= b.fgHi, mag: (r) => 100 * r.FG + r.PPG, say: (r) => `${p3(r.FG)} FG, ${d1(r.PPG)} ppg` });
   add({ key: "fga_2000", head: "attempt 2,000 field goals in a season", floor: null,
@@ -125,6 +125,44 @@ function rules(e, b) {
     f: (r) => has(r.TOV) && r.TOV >= 300, mag: (r) => r.TOV / 10, say: (r) => `${r.TOV} TOV` });
   add({ key: "score_tiny_min", head: "average 20 points in under 30 minutes a game", floor: "60% of games",
     f: (r) => r.q && r.PPG >= 20 && has(r.MPG) && r.MPG < 30, mag: (r) => r.PPG - r.MPG / 2, say: (r) => `${d1(r.PPG)} ppg in ${d1(r.MPG)} mpg` });
+  add({ key: "play_all", head: "play every game of the season", floor: null,
+    f: (r) => r.GP >= r.maxGP && r.maxGP >= 60, mag: (r) => (r.MIN || r.PTS / 20) / 100, say: (r) => `${r.GP} games${has(r.MPG) ? `, ${d1(r.MPG)} mpg` : ""}` });
+  add({ key: "foul_trouble", head: "average 4.5+ personal fouls a game", floor: "60% of games",
+    f: (r) => r.q && has(r.FPG) && r.FPG >= 4.5, mag: (r) => r.FPG * 5, say: (r) => `${d1(r.FPG)} PF a game` });
+  add({ key: "volume_misses", head: `shoot under ${p3(b.fgLow + 0.02)} on 1,200+ attempts`, floor: null,
+    f: (r) => r.FGA >= 1200 && r.FG < b.fgLow + 0.02, mag: (r) => r.FGA / 50 - 100 * r.FG, say: (r) => `${p3(r.FG)} on ${r.FGA.toLocaleString()} FGA` });
+  add({ key: "short_big", head: "score 1,000 points in fewer than 50 games", floor: null,
+    f: (r) => r.GP < 50 && r.PTS >= 1000, mag: (r) => r.PTS / r.GP, say: (r) => `${r.PTS.toLocaleString()} pts in ${r.GP} games` });
+  add({ key: "short_scorer", head: `average ${b.ppg} points while missing 40% of the season`, floor: "20+ games",
+    f: (r) => !r.q && r.GP >= 20 && r.PPG >= b.ppg, mag: (r) => r.PPG, say: (r) => `${d1(r.PPG)} ppg in ${r.GP} games` });
+  // Era-scaled free-throw excellence: .900 was rare before the 1970s.
+  const ftBar = e <= 2 ? 0.85 : 0.9;
+  if (e <= 2) add({ key: "ft_elite_old", head: "shoot .850 from the line on 400+ attempts", floor: null,
+    f: (r) => r.FTA >= 400 && r.FT >= ftBar, mag: (r) => 100 * r.FT + r.FTA / 50, say: (r) => `${p3(r.FT)} on ${r.FTA.toLocaleString()} FTA` });
+  add({ key: "thirty_ten", head: "average 30 points and 10 rebounds", floor: "60% of games",
+    f: (r) => r.q && r.PPG >= 30 && has(r.RPG) && r.RPG >= 10, mag: (r) => r.PPG + r.RPG, say: (r) => `${d1(r.PPG)} ppg, ${d1(r.RPG)} rpg` });
+  add({ key: "twentyfive_ten_ast", head: "average 25 points and 10 assists", floor: "60% of games",
+    f: (r) => r.q && r.PPG >= 25 && r.APG >= 10, mag: (r) => r.PPG + r.APG, say: (r) => `${d1(r.PPG)} ppg, ${d1(r.APG)} apg` });
+  add({ key: "reb_extreme", head: "average 20 rebounds a game", floor: "60% of games",
+    f: (r) => r.q && has(r.RPG) && r.RPG >= 20, mag: (r) => r.RPG * 3, say: (r) => `${d1(r.RPG)} rpg` });
+  add({ key: "thirty_twenty", head: "average 30 points and 20 rebounds", floor: "60% of games",
+    f: (r) => r.q && r.PPG >= 30 && has(r.RPG) && r.RPG >= 20, mag: (r) => r.PPG + r.RPG, say: (r) => `${d1(r.PPG)} ppg, ${d1(r.RPG)} rpg` });
+  add({ key: "reb_1500", head: "grab 1,500 rebounds in a season", floor: null,
+    f: (r) => has(r.REB) && r.REB >= 1500, mag: (r) => r.REB / 40, say: (r) => `${r.REB.toLocaleString()} reb` });
+  add({ key: "fta_1000", head: "attempt 1,000 free throws in a season", floor: null,
+    f: (r) => r.FTA >= 1000, mag: (r) => r.FTA / 40, say: (r) => `${r.FTA.toLocaleString()} FTA (${p3(r.FT)})` });
+  add({ key: "ftm_700", head: "make 700 free throws in a season", floor: null,
+    f: (r) => r.FTM >= 700, mag: (r) => r.FTM / 30, say: (r) => `${r.FTM} FTM` });
+  add({ key: "mpg_45", head: "average 45 minutes a game", floor: "60% of games",
+    f: (r) => r.q && has(r.MPG) && r.MPG >= 45, mag: (r) => r.MPG, say: (r) => `${d1(r.MPG)} mpg` });
+  add({ key: "apg_10", head: "average 10 assists a game", floor: "60% of games",
+    f: (r) => r.q && r.APG >= 10, mag: (r) => r.APG * 3, say: (r) => `${d1(r.APG)} apg` });
+  if (e <= 3) add({ key: "reb_ast_big", head: "average 15 rebounds and 5 assists", floor: "60% of games",
+    f: (r) => r.q && has(r.RPG) && r.RPG >= 15 && r.APG >= 5, mag: (r) => r.RPG + r.APG, say: (r) => `${d1(r.RPG)} rpg, ${d1(r.APG)} apg` });
+  if (e <= 2) add({ key: "fg_500_old", head: "shoot .500 on 800+ attempts", floor: null,
+    f: (r) => r.FGA >= 800 && r.FG >= 0.5, mag: (r) => 100 * r.FG, say: (r) => `${p3(r.FG)} on ${r.FGA.toLocaleString()} FGA` });
+  if (e >= 4) add({ key: "threes_good_volume", head: "make 150 threes at a .400 clip", floor: null,
+    f: (r) => r.FG3M >= 150 && r.TP >= 0.4, mag: (r) => r.FG3M / 10 + 100 * r.TP, say: (r) => `${r.FG3M} 3PM, ${p3(r.TP)}` });
   if (e >= 3) {
     add({ key: "stocks", head: "average 2 steals and 2 blocks", floor: "60% of games",
       f: (r) => r.q && r.SPG >= 2 && r.BPG >= 2, mag: (r) => 10 * (r.SPG + r.BPG), say: (r) => `${d1(r.SPG)} spg, ${d1(r.BPG)} bpg` });
@@ -166,9 +204,9 @@ function extremes(e) {
   const X = [
     { key: "top_ppg", base: (r) => r.q, pick: (r) => r.PPG, text: (r, s, d) => `Highest scoring average of the ${d}: ${r.name}, ${s} — ${d1(r.PPG)} points a game.` },
     { key: "worst_fg_scorer", base: (r) => r.q && r.PPG >= 20 && has(r.FG), pick: (r) => -r.FG, text: (r, s, d) => `Lowest field-goal percentage by a 20-point scorer in the ${d}: ${r.name}, ${s} — ${p3(r.FG)} while averaging ${d1(r.PPG)}.` },
-    { key: "best_fg_volume", base: (r) => r.FGA >= 1000, pick: (r) => r.FG, text: (r, s, d) => `Best field-goal percentage on 1,000+ attempts in the ${d}: ${r.name}, ${s} — ${p3(r.FG)} (${r.FGM}-${r.FGA}).` },
-    { key: "best_ft_volume", base: (r) => r.FTA >= 500, pick: (r) => r.FT, text: (r, s, d) => `Best free-throw percentage on 500+ attempts in the ${d}: ${r.name}, ${s} — ${p3(r.FT)} (${r.FTM}-${r.FTA}).` },
-    { key: "worst_ft_volume", base: (r) => r.FTA >= 400, pick: (r) => -r.FT, text: (r, s, d) => `Worst free-throw percentage on 400+ attempts in the ${d}: ${r.name}, ${s} — ${p3(r.FT)} (${r.FTM}-${r.FTA}).` },
+    { key: "best_fg_volume", base: (r) => r.FGA >= 1000, pick: (r) => r.FG, text: (r, s, d) => `Best field-goal percentage on 1,000+ attempts in the ${d}: ${r.name}, ${s} — ${p3(r.FG)} (${r.FGM.toLocaleString()}-${r.FGA.toLocaleString()}).` },
+    { key: "best_ft_volume", base: (r) => r.FTA >= 500, pick: (r) => r.FT, text: (r, s, d) => `Best free-throw percentage on 500+ attempts in the ${d}: ${r.name}, ${s} — ${p3(r.FT)} (${r.FTM.toLocaleString()}-${r.FTA.toLocaleString()}).` },
+    { key: "worst_ft_volume", base: (r) => r.FTA >= 400, pick: (r) => -r.FT, text: (r, s, d) => `Worst free-throw percentage on 400+ attempts in the ${d}: ${r.name}, ${s} — ${p3(r.FT)} (${r.FTM.toLocaleString()}-${r.FTA.toLocaleString()}).` },
     { key: "ast_low_pts", base: (r) => r.q && r.PPG < 10, pick: (r) => r.AST, text: (r, s, d) => `Most assists by a sub-10-point scorer in the ${d}: ${r.name}, ${s} — ${r.AST} assists while averaging ${d1(r.PPG)}.` },
     { key: "most_pf", base: (r) => has(r.PF), pick: (r) => r.PF, text: (r, s, d) => `Most personal fouls in a season in the ${d}: ${r.name}, ${s} — ${r.PF}.` },
     { key: "most_fga", base: (r) => has(r.FGA), pick: (r) => r.FGA, text: (r, s, d) => `Most shots attempted in a season in the ${d}: ${r.name}, ${s} — ${r.FGA.toLocaleString()} FGA, ${p3(r.FG)}.` },
@@ -177,6 +215,16 @@ function extremes(e) {
     { key: "most_min", base: (r) => has(r.MIN), pick: (r) => r.MIN, text: (r, s, d) => `Most minutes played in a season in the ${d}: ${r.name}, ${s} — ${r.MIN.toLocaleString()} (${d1(r.MPG)} a game).` },
     { key: "ppg_bench_size", base: (r) => r.q && has(r.MPG) && r.MPG > 0, pick: (r) => r.PPG / r.MPG, text: (r, s, d) => `Most points per minute by a qualified player in the ${d}: ${r.name}, ${s} — ${d1(r.PPG)} ppg in ${d1(r.MPG)} minutes.` },
   ];
+  X.push(
+    { key: "reb_low_pts", base: (r) => r.q && has(r.REB) && r.PPG < 10, pick: (r) => r.REB, text: (r, s, d) => `Most rebounds by a sub-10-point scorer in the ${d}: ${r.name}, ${s} — ${r.REB} rebounds while averaging ${d1(r.PPG)}.` },
+    { key: "top_rpg", base: (r) => r.q && has(r.RPG), pick: (r) => r.RPG, text: (r, s, d) => `Highest rebounding average of the ${d}: ${r.name}, ${s} — ${d1(r.RPG)} a game.` },
+    { key: "top_apg", base: (r) => r.q, pick: (r) => r.APG, text: (r, s, d) => `Highest assist average of the ${d}: ${r.name}, ${s} — ${d1(r.APG)} a game.` });
+  X.push(
+    { key: "short_pts", base: (r) => r.GP < 50 && r.GP >= 20, pick: (r) => r.PTS, text: (r, s, d) => `Most points by a player who appeared in fewer than 50 games in the ${d}: ${r.name}, ${s} — ${r.PTS.toLocaleString()} in ${r.GP}.` },
+    { key: "best_ft_official", base: (r) => r.FTM >= 125, pick: (r) => r.FT, text: (r, s, d) => `Best free-throw percentage in a season (125+ made) in the ${d}: ${r.name}, ${s} — ${p3(r.FT)}.` },
+    { key: "most_ftm", base: (r) => has(r.FTM), pick: (r) => r.FTM, text: (r, s, d) => `Most free throws made in a season in the ${d}: ${r.name}, ${s} — ${r.FTM} of ${r.FTA}.` });
+  if (e >= 3) X.push(
+    { key: "most_oreb", base: (r) => has(r.OREB), pick: (r) => r.OREB, text: (r, s, d) => `Most offensive rebounds in a season in the ${d}: ${r.name}, ${s} — ${r.OREB}.` });
   if (e >= 3) X.push(
     { key: "most_stl", base: (r) => has(r.STL), pick: (r) => r.STL, text: (r, s, d) => `Most steals in a season in the ${d}: ${r.name}, ${s} — ${r.STL}.` },
     { key: "most_blk", base: (r) => has(r.BLK), pick: (r) => r.BLK, text: (r, s, d) => `Most blocked shots in a season in the ${d}: ${r.name}, ${s} — ${r.BLK}.` });
@@ -209,6 +257,8 @@ function streaks(e) {
     { key: "s_2000", f: (r) => r.PTS >= 2000, what: "scored 2,000 points" },
     { key: "s_ft900", f: (r) => r.FTA >= 200 && r.FT >= 0.9, what: "shot .900 from the line (200+ FTA)" },
     { key: "s_gp", f: (r) => r.GP >= r.maxGP, what: "played every game" },
+    { key: "s_20ppg", f: (r) => r.q && r.PPG >= 20, what: "averaged 20+ points" },
+    { key: "s_fg500", f: (r) => r.FGA >= 800 && r.FG >= 0.5, what: "shot .500 from the field (800+ FGA)" },
   ];
   if (e >= 3) S.push({ key: "s_2spg", f: (r) => r.q && r.SPG >= 2, what: "averaged 2+ steals" }, { key: "s_2bpg", f: (r) => r.q && r.BPG >= 2.5, what: "averaged 2.5+ blocks" });
   if (e >= 4) S.push({ key: "s_150_3s", f: (r) => r.FG3M >= 150, what: "made 150+ threes" });
@@ -238,7 +288,13 @@ function seasonCounts(e, b) {
     { key: "c_20_10", f: (r) => r.q && r.PPG >= 20 && r.RPG >= 10, what: "20-and-10 players" },
     { key: "c_ft900", f: (r) => r.FTA >= 200 && r.FT >= 0.9, what: ".900 free-throw shooters (200+ FTA)" },
     { key: "c_10apg", f: (r) => r.q && r.APG >= 8, what: "8-assist players" },
+    { key: "c_20", f: (r) => r.q && r.PPG >= 20, what: "20-point scorers" },
+    { key: "c_all", f: (r) => r.GP >= r.maxGP, what: "players who appeared in every game" },
+    { key: "c_10rpg", f: (r) => r.q && has(r.RPG) && r.RPG >= 10, what: "double-digit rebounders" },
+    { key: "c_30", f: (r) => r.q && r.PPG >= 30, what: "30-point scorers" },
   ];
+  if (e <= 2) C.push({ key: "c_20rpg", f: (r) => r.q && has(r.RPG) && r.RPG >= 20, what: "20-rebound players" });
+  if (e >= 3) C.push({ key: "c_2spg", f: (r) => r.q && r.SPG >= 2, what: "2-steal players" }, { key: "c_2bpg", f: (r) => r.q && r.BPG >= 2, what: "2-block players" });
   if (e >= 4) C.push({ key: "c_150_3s", f: (r) => r.FG3M >= 150, what: "players with 150+ threes" });
   return C;
 }
@@ -269,19 +325,28 @@ function build(decade) {
   cands.push(...core.ruleFacts(rows, rules(e, b), ctx));
   // Playoff facts: the same shapes over playoff totals, lower floors.
   const poRules = [
-    { key: "po_30", head: "average 30 points in a playoff run", floor: "8+ playoff games", f: (r) => r.GP >= 8 && r.PPG >= 30, mag: (r) => r.PPG, say: (r) => `${d1(r.PPG)} ppg in ${r.GP} games` },
+    { key: "po_30", head: "average 30 points in a single postseason", floor: "8+ playoff games", f: (r) => r.GP >= 8 && r.PPG >= 30, mag: (r) => r.PPG, say: (r) => `${d1(r.PPG)} ppg in ${r.GP} games` },
     { key: "po_pts", head: "score 600 points in one postseason", floor: null, f: (r) => r.PTS >= 600, mag: (r) => r.PTS / 20, say: (r) => `${r.PTS} pts in ${r.GP} games` },
-    { key: "po_triple", head: "average a triple-double in a playoff run", floor: "8+ playoff games", f: (r) => r.GP >= 8 && r.PPG >= 10 && r.RPG >= 10 && r.APG >= 10, mag: (r) => r.PPG + r.RPG + r.APG, say: (r) => `${d1(r.PPG)}/${d1(r.RPG)}/${d1(r.APG)}` },
-    { key: "po_reb", head: "average 18 rebounds in a playoff run", floor: "8+ playoff games", f: (r) => r.GP >= 8 && has(r.RPG) && r.RPG >= 18, mag: (r) => r.RPG, say: (r) => `${d1(r.RPG)} rpg in ${r.GP} games` },
-    { key: "po_ft", head: "shoot .950 from the line in a playoff run (60+ FTA)", floor: null, f: (r) => r.FTA >= 60 && r.FT >= 0.95, mag: (r) => 100 * r.FT, say: (r) => `${p3(r.FT)} on ${r.FTA} FTA` },
+    { key: "po_triple", head: "average a triple-double in a single postseason", floor: "8+ playoff games", f: (r) => r.GP >= 8 && r.PPG >= 10 && r.RPG >= 10 && r.APG >= 10, mag: (r) => r.PPG + r.RPG + r.APG, say: (r) => `${d1(r.PPG)}/${d1(r.RPG)}/${d1(r.APG)}` },
+    { key: "po_reb", head: "average 18 rebounds in a single postseason", floor: "8+ playoff games", f: (r) => r.GP >= 8 && has(r.RPG) && r.RPG >= 18, mag: (r) => r.RPG, say: (r) => `${d1(r.RPG)} rpg in ${r.GP} games` },
+    { key: "po_ft", head: "shoot .950 from the line in a single postseason (60+ FTA)", floor: null, f: (r) => r.FTA >= 60 && r.FT >= 0.95, mag: (r) => 100 * r.FT, say: (r) => `${p3(r.FT)} on ${r.FTA} FTA` },
   ];
-  cands.push(...core.ruleFacts(po, poRules.map((r) => ({ ...r, group: "PO", head: r.head })), { ...ctx, decadeLabel: `${decadeLabel}` })
-    .map((f) => ({ ...f, text: f.text.replace(/of the (\d{4}s)/, "of the $1 postseason").replace(/in the (\d{4}s)\./, "in the $1 playoffs.") })));
+  cands.push(...core.ruleFacts(po, poRules.map((r) => ({ ...r, group: "PO" })), ctx));
+  cands.push(...core.extremeFacts(po, [
+    { key: "po_most_pts", base: (r) => has(r.PTS), pick: (r) => r.PTS, text: (r, s, d) => `Most points in a single postseason in the ${d}: ${r.name}, ${s} — ${r.PTS} in ${r.GP} games.` },
+    { key: "po_best_fg", base: (r) => r.FGA >= 150, pick: (r) => r.FG, text: (r, s, d) => `Best field-goal percentage in a postseason (150+ FGA) in the ${d}: ${r.name}, ${s} — ${p3(r.FG)}.` },
+    { key: "po_most_ast", base: (r) => has(r.AST), pick: (r) => r.AST, text: (r, s, d) => `Most assists in a single postseason in the ${d}: ${r.name}, ${s} — ${r.AST} in ${r.GP} games.` },
+    { key: "po_most_reb", base: (r) => has(r.REB), pick: (r) => r.REB, text: (r, s, d) => `Most rebounds in a single postseason in the ${d}: ${r.name}, ${s} — ${r.REB} in ${r.GP} games.` },
+  ], ctx));
   cands.push(...core.extremeFacts(rows, extremes(e), ctx));
   cands.push(...core.nearMissFacts(rows, NEAR, ctx));
   cands.push(...core.streakFacts(rows, streaks(e), ctx));
   cands.push(...core.totalFacts(rows, totals(e), ctx));
   cands.push(...core.seasonCountFacts(rows, seasonCounts(e, b), ctx));
+  // Thousands separators on counts that precede a stat word; never touches a
+  // year or a season label.
+  const commas = (t) => t.replace(/\b(\d{4,})\b(?=\s(?:rebounds|FTA|FGA|FTM|FGM|reb|pts|points|min|assists|ast|stl|blk|minutes))/g, (m) => Number(m).toLocaleString("en-US"));
+  for (const c of cands) c.text = commas(c.text);
   const facts = core.select(cands, 100);
   const hs = rows.length;
   return { sport: "NBA", decade: decadeLabel, era: e, bars: b, seasons: seasons.map(label), candidates: cands.length, facts,

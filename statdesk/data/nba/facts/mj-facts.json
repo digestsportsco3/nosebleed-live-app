@@ -1,8 +1,8 @@
 {
  "subject": "Michael Jordan",
  "playerId": 893,
- "generatedAt": "2026-09-28T05:11:50.674Z",
- "candidates": 97,
+ "generatedAt": "2026-09-28T05:17:01.544Z",
+ "candidates": 111,
  "facts": [
   {
    "n": 1,
@@ -13,6 +13,74 @@
   },
   {
    "n": 2,
+   "kind": "career",
+   "text": "His first NBA game: 16 points Oct 26, 1984 vs. Washington.",
+   "evidence": [
+    {
+     "date": "Oct 26, 1984",
+     "season": "1984-85",
+     "type": "rs",
+     "matchup": "CHI vs. WAS",
+     "WL": "W",
+     "PTS": 16,
+     "REB": 6,
+     "AST": 7,
+     "STL": 2,
+     "BLK": 4,
+     "FGM": 5,
+     "FGA": 16,
+     "FTM": 6,
+     "FTA": 7,
+     "FG3M": 0,
+     "MIN": 40,
+     "game": "0028400005"
+    }
+   ],
+   "score": 8
+  },
+  {
+   "n": 3,
+   "kind": "career",
+   "text": "His last NBA game: 15 points Apr 16, 2003 at Philadelphia.",
+   "evidence": [
+    {
+     "date": "Apr 16, 2003",
+     "season": "2002-03",
+     "type": "rs",
+     "matchup": "WAS @ PHI",
+     "WL": "L",
+     "PTS": 15,
+     "REB": 4,
+     "AST": 4,
+     "STL": 0,
+     "BLK": 0,
+     "FGM": 6,
+     "FGA": 15,
+     "FTM": 3,
+     "FTA": 4,
+     "FG3M": 0,
+     "MIN": 28,
+     "game": "0020201178"
+    }
+   ],
+   "score": 8
+  },
+  {
+   "n": 4,
+   "kind": "career",
+   "text": "His teams went 706-366 in the regular-season games he played and 119-60 in the playoffs.",
+   "evidence": [],
+   "score": 7
+  },
+  {
+   "n": 5,
+   "kind": "career",
+   "text": "He averaged 31.0 points in wins and 28.4 in losses.",
+   "evidence": [],
+   "score": 6
+  },
+  {
+   "n": 6,
    "kind": "league",
    "text": "He led the league in scoring 10 times (70 games or 1,400 points to qualify): 1986-87, 1987-88, 1988-89, 1989-90, 1990-91, 1991-92, 1992-93, 1995-96, 1996-97, 1997-98.",
    "evidence": [
@@ -80,9 +148,9 @@
    "score": 10
   },
   {
-   "n": 3,
+   "n": 7,
    "kind": "league",
-   "text": "Career scoring average: 30.1, the highest in NBA history among 1,382 qualified players (400 games or 10,000 points), ahead of Wilt Chamberlain (30.1).",
+   "text": "Career scoring average: 30.12, the highest in NBA history among 1,382 qualified players (400 games or 10,000 points), ahead of Wilt Chamberlain (30.07).",
    "evidence": [
     {
      "id": 893,
@@ -123,7 +191,7 @@
    "score": 10
   },
   {
-   "n": 4,
+   "n": 8,
    "kind": "league",
    "text": "Career playoff scoring average: 33.4, the highest in NBA history (25+ playoff games); next is Luka Dončić at 30.9.",
    "evidence": [
@@ -166,7 +234,7 @@
    "score": 10
   },
   {
-   "n": 5,
+   "n": 9,
    "kind": "league",
    "text": "Most 30-point-average seasons in NBA history: Michael Jordan, 8; next best Wilt Chamberlain, 7.",
    "evidence": [
@@ -199,9 +267,9 @@
    "score": 9
   },
   {
-   "n": 6,
+   "n": 10,
    "kind": "league",
-   "text": "Only 2 players have scored 3,000 points in a season: Wilt Chamberlain and Michael Jordan (1960-61: 3,033; 1961-62: 4,029; 1962-63: 3,586; 1986-87: 3,041).",
+   "text": "Only 2 players have scored 3,000 points in a season: Wilt Chamberlain and Michael Jordan (Chamberlain 1960-61: 3,033; Chamberlain 1961-62: 4,029; Chamberlain 1962-63: 3,586; Jordan 1986-87: 3,041).",
    "evidence": [
     {
      "id": 76375,
@@ -355,9 +423,9 @@
    "score": 9
   },
   {
-   "n": 7,
+   "n": 11,
    "kind": "league",
-   "text": "Seasons averaging 30 points and 3 steals: 1 — Michael Jordan 1987-88.",
+   "text": "The only season in NBA history averaging 30 points and 3 steals: Jordan's 1987-88 (35.0 ppg, 3.16 spg).",
    "evidence": [
     {
      "id": 893,
@@ -400,7 +468,7 @@
    "score": 9
   },
   {
-   "n": 8,
+   "n": 12,
    "kind": "league",
    "text": "His longest run of consecutive scoring titles: 7.",
    "evidence": [
@@ -468,7 +536,7 @@
    "score": 8
   },
   {
-   "n": 9,
+   "n": 13,
    "kind": "league",
    "text": "His widest scoring-title margin: 8.1 points a game over Dominique Wilkins in 1986-87 (37.1 to 29.0).",
    "evidence": [
@@ -482,7 +550,7 @@
    "score": 8
   },
   {
-   "n": 10,
+   "n": 14,
    "kind": "league",
    "text": "He led the league in steals per game 3 times: 1987-88 (3.16), 1989-90 (2.77), 1992-93 (2.83).",
    "evidence": [
@@ -502,9 +570,9 @@
    "score": 8
   },
   {
-   "n": 11,
+   "n": 15,
    "kind": "league",
-   "text": "He led the league in both scoring and steals in 1987-88 and 1989-90 and 1992-93.",
+   "text": "He led the league in both scoring and steals in the same season 3 times: 1987-88, 1989-90 and 1992-93.",
    "evidence": [
     {
      "season": "1987-88",
@@ -528,9 +596,9 @@
    "score": 8
   },
   {
-   "n": 12,
+   "n": 16,
    "kind": "league",
-   "text": "Seasons with 200 steals and 100 blocks: 4, by 3 players — 2 of them Jordan's.",
+   "text": "Seasons with 200 steals and 100 blocks in NBA history: 4 — Michael Jordan 1986-87 (236 stl, 125 blk); Michael Jordan 1987-88 (259 stl, 131 blk); Hakeem Olajuwon 1988-89 (213 stl, 282 blk); Scottie Pippen 1989-90 (211 stl, 101 blk).",
    "evidence": [
     {
      "id": 893,
@@ -684,7 +752,50 @@
    "score": 8
   },
   {
-   "n": 13,
+   "n": 17,
+   "kind": "league",
+   "text": "Career steals per game: 2.35, No. 3 in NBA history since steals were first recorded (400+ games); Alvin Robertson 2.71, Micheal Ray Richardson 2.63 round out the top three.",
+   "evidence": [
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "GP": 779,
+     "STL": 2112,
+     "spg": 2.711168164313222
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "GP": 556,
+     "STL": 1463,
+     "spg": 2.631294964028777
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "GP": 1072,
+     "STL": 2514,
+     "spg": 2.345149253731343
+    },
+    {
+     "id": 302,
+     "name": "Mookie Blaylock",
+     "GP": 889,
+     "STL": 2075,
+     "spg": 2.3340832395950506
+    },
+    {
+     "id": 77376,
+     "name": "Lafayette Lever",
+     "GP": 752,
+     "STL": 1666,
+     "spg": 2.2154255319148937
+    }
+   ],
+   "score": 7
+  },
+  {
+   "n": 18,
    "kind": "league",
    "text": "Seasons averaging 35 points on 48%+ shooting: 5 — Wilt Chamberlain 1960-61, Wilt Chamberlain 1961-62, Wilt Chamberlain 1962-63, Wilt Chamberlain 1963-64, Michael Jordan 1986-87.",
    "evidence": [
@@ -877,7 +988,7 @@
    "score": 7
   },
   {
-   "n": 14,
+   "n": 19,
    "kind": "league",
    "text": "Rookies to average 28 points: 7 — Wilt Chamberlain 37.6 (1959-60), Walt Bellamy 31.6 (1961-62), Oscar Robertson 30.5 (1960-61), Kareem Abdul-Jabbar 28.8 (1969-70), Elvin Hayes 28.4 (1968-69), George Mikan 28.3 (1948-49), Michael Jordan 28.2 (1984-85).",
    "evidence": [
@@ -1146,9 +1257,9 @@
    "score": 7
   },
   {
-   "n": 15,
+   "n": 20,
    "kind": "league",
-   "text": "At 39 in 2001-02 he ranked No. 10 in the league in scoring (22.9).",
+   "text": "In 2001-02, with Washington, he ranked No. 10 in the league in scoring at 22.9 points a game.",
    "evidence": [
     {
      "name": "Allen Iverson",
@@ -1174,9 +1285,9 @@
    "score": 7
   },
   {
-   "n": 16,
+   "n": 21,
    "kind": "league",
-   "text": "At 40 in 2002-03 he ranked No. 25 in the league in scoring (20.0).",
+   "text": "In 2002-03, with Washington, he ranked No. 25 in the league in scoring at 20.0 points a game.",
    "evidence": [
     {
      "name": "Tracy McGrady",
@@ -1202,7 +1313,7 @@
    "score": 7
   },
   {
-   "n": 17,
+   "n": 22,
    "kind": "season",
    "text": "He averaged 30+ points in 8 seasons: 1986-87 (37.1), 1987-88 (35.0), 1988-89 (32.5), 1989-90 (33.6), 1990-91 (31.5), 1991-92 (30.1), 1992-93 (32.6), 1995-96 (30.4).",
    "evidence": [
@@ -1442,7 +1553,7 @@
    "score": 9
   },
   {
-   "n": 18,
+   "n": 23,
    "kind": "season",
    "text": "His best scoring season: 37.1 points a game in 1986-87 — 3,041 points in 82 games.",
    "evidence": [
@@ -1479,9 +1590,9 @@
    "score": 9
   },
   {
-   "n": 19,
+   "n": 24,
    "kind": "season",
-   "text": "His last 50-point game came Dec 29, 2001 vs. CHH in 2001-02, age 39 that season: 51 points.",
+   "text": "His last 50-point game: 51 points Dec 29, 2001 vs. Charlotte.",
    "evidence": [
     {
      "date": "Dec 29, 2001",
@@ -1506,7 +1617,7 @@
    "score": 9
   },
   {
-   "n": 20,
+   "n": 25,
    "kind": "season",
    "text": "As a rookie in 1984-85 he averaged 28.2 points, 6.5 rebounds and 5.9 assists, playing all 82 games.",
    "evidence": [
@@ -1543,7 +1654,7 @@
    "score": 8
   },
   {
-   "n": 21,
+   "n": 26,
    "kind": "season",
    "text": "In his final season, 2002-03, at age 40, he played 82 games and averaged 20.0 points.",
    "evidence": [
@@ -1580,7 +1691,7 @@
    "score": 8
   },
   {
-   "n": 22,
+   "n": 27,
    "kind": "season",
    "text": "At 38 and older he scored 40+ 8 times and 30+ 25 times in 142 games.",
    "evidence": [
@@ -1740,7 +1851,41 @@
    "score": 8
   },
   {
-   "n": 23,
+   "n": 28,
+   "kind": "season",
+   "text": "In 1994-95 he scored 55 Mar 28, 1995 at New York in just his fifth game of the season.",
+   "evidence": [
+    {
+     "date": "Mar 28, 1995",
+     "season": "1994-95",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "W",
+     "PTS": 55,
+     "REB": 4,
+     "AST": 2,
+     "STL": 1,
+     "BLK": 0,
+     "FGM": 21,
+     "FGA": 37,
+     "FTM": 10,
+     "FTA": 11,
+     "FG3M": 3,
+     "MIN": 39,
+     "game": "0029400926"
+    }
+   ],
+   "score": 8
+  },
+  {
+   "n": 29,
+   "kind": "season",
+   "text": "His most 30-point games in a season: 67, in 1986-87. Most 40-point games: 37, in 1986-87.",
+   "evidence": [],
+   "score": 8
+  },
+  {
+   "n": 30,
    "kind": "season",
    "text": "His most triple-doubles in a season: 15, in 1988-89.",
    "evidence": [
@@ -1976,7 +2121,7 @@
    "score": 7
   },
   {
-   "n": 24,
+   "n": 31,
    "kind": "season",
    "text": "His best shot-blocking season: 131 blocks in 1987-88, as a guard.",
    "evidence": [
@@ -2013,9 +2158,9 @@
    "score": 7
   },
   {
-   "n": 25,
+   "n": 32,
    "kind": "season",
-   "text": "His shortest full season: 17 games in 1994-95, averaging 26.9.",
+   "text": "His shortest season: 17 games in 1994-95, averaging 26.9 — his first game that season came Mar 19, 1995 at Indiana.",
    "evidence": [
     {
      "PLAYER_ID": 893,
@@ -2050,7 +2195,7 @@
    "score": 6
   },
   {
-   "n": 26,
+   "n": 33,
    "kind": "season",
    "text": "His best steals season: 259 in 1987-88 (3.2 a game).",
    "evidence": [
@@ -2087,7 +2232,7 @@
    "score": 6
   },
   {
-   "n": 27,
+   "n": 34,
    "kind": "season",
    "text": "His most efficient season from the field: .539 in 1990-91, while averaging 31.5.",
    "evidence": [
@@ -2124,7 +2269,7 @@
    "score": 6
   },
   {
-   "n": 28,
+   "n": 35,
    "kind": "season",
    "text": "His best three-point season: .427 on 260 attempts in 1995-96.",
    "evidence": [
@@ -2161,7 +2306,7 @@
    "score": 6
   },
   {
-   "n": 29,
+   "n": 36,
    "kind": "season",
    "text": "He played all 82 games in 9 seasons.",
    "evidence": [
@@ -2430,81 +2575,7 @@
    "score": 6
   },
   {
-   "n": 30,
-   "kind": "season",
-   "text": "His heaviest workload: 3,311 minutes in 1987-88, 40.4 a game.",
-   "evidence": [
-    {
-     "PLAYER_ID": 893,
-     "SEASON_ID": "1987-88",
-     "LEAGUE_ID": "00",
-     "TEAM_ID": 1610612741,
-     "TEAM_ABBREVIATION": "CHI",
-     "PLAYER_AGE": 25,
-     "GP": 82,
-     "GS": 82,
-     "MIN": 3311,
-     "FGM": 1069,
-     "FGA": 1998,
-     "FG_PCT": 0.535,
-     "FG3M": 7,
-     "FG3A": 53,
-     "FG3_PCT": 0.132,
-     "FTM": 723,
-     "FTA": 860,
-     "FT_PCT": 0.841,
-     "OREB": 139,
-     "DREB": 310,
-     "REB": 449,
-     "AST": 485,
-     "STL": 259,
-     "BLK": 131,
-     "TOV": 252,
-     "PF": 270,
-     "PTS": 2868
-    }
-   ],
-   "score": 5
-  },
-  {
-   "n": 31,
-   "kind": "season",
-   "text": "His most careful season: 2.0 turnovers a game in 1996-97.",
-   "evidence": [
-    {
-     "PLAYER_ID": 893,
-     "SEASON_ID": "1996-97",
-     "LEAGUE_ID": "00",
-     "TEAM_ID": 1610612741,
-     "TEAM_ABBREVIATION": "CHI",
-     "PLAYER_AGE": 34,
-     "GP": 82,
-     "GS": 82,
-     "MIN": 3109,
-     "FGM": 920,
-     "FGA": 1892,
-     "FG_PCT": 0.486,
-     "FG3M": 111,
-     "FG3A": 297,
-     "FG3_PCT": 0.374,
-     "FTM": 480,
-     "FTA": 576,
-     "FT_PCT": 0.833,
-     "OREB": 113,
-     "DREB": 369,
-     "REB": 482,
-     "AST": 352,
-     "STL": 140,
-     "BLK": 44,
-     "TOV": 166,
-     "PF": 156,
-     "PTS": 2431
-    }
-   ],
-   "score": 4
-  },
-  {
-   "n": 32,
+   "n": 37,
    "kind": "games",
    "text": "Jordan scored 50+ points in 31 regular-season games — 3% of all his regular-season games.",
    "evidence": [
@@ -2740,9 +2811,9 @@
    "score": 9
   },
   {
-   "n": 33,
+   "n": 38,
    "kind": "games",
-   "text": "His regular-season career high: 69 points, Mar 28, 1990 at CLE (23-37 FG, 21-23 FT, W).",
+   "text": "His regular-season career high: 69 points, Mar 28, 1990 at Cleveland (23-37 FG, 21-23 FT, W).",
    "evidence": [
     {
      "date": "Mar 28, 1990",
@@ -2767,7 +2838,7 @@
    "score": 9
   },
   {
-   "n": 34,
+   "n": 39,
    "kind": "games",
    "text": "Jordan scored 50+ points in 8 playoff games — 4% of all his playoff games.",
    "evidence": [
@@ -2927,9 +2998,9 @@
    "score": 9
   },
   {
-   "n": 35,
+   "n": 40,
    "kind": "games",
-   "text": "His playoff career high: 63 points, Apr 20, 1986 at BOS (22-41 FG, 19-21 FT, L).",
+   "text": "His playoff career high: 63 points, Apr 20, 1986 at Boston (22-41 FG, 19-21 FT, L).",
    "evidence": [
     {
      "date": "Apr 20, 1986",
@@ -2954,9 +3025,9 @@
    "score": 9
   },
   {
-   "n": 36,
+   "n": 41,
    "kind": "games",
-   "text": "4 regular-season games of 60+ points: 61 Mar 4, 1987 at DET; 61 Apr 16, 1987 vs. ATL; 69 Mar 28, 1990 at CLE; 64 Jan 16, 1993 vs. ORL.",
+   "text": "4 regular-season games of 60+ points: 61 Mar 4, 1987 at Detroit; 61 Apr 16, 1987 vs. Atlanta; 69 Mar 28, 1990 at Cleveland; 64 Jan 16, 1993 vs. Orlando.",
    "evidence": [
     {
      "date": "Mar 04, 1987",
@@ -3038,9 +3109,9 @@
    "score": 8
   },
   {
-   "n": 37,
+   "n": 42,
    "kind": "games",
-   "text": "One playoff game of 60+ points: 63 Apr 20, 1986 at BOS.",
+   "text": "One playoff game of 60+ points: 63 Apr 20, 1986 at Boston.",
    "evidence": [
     {
      "date": "Apr 20, 1986",
@@ -3065,7 +3136,7 @@
    "score": 8
   },
   {
-   "n": 38,
+   "n": 43,
    "kind": "games",
    "text": "Jordan scored 30+ points in 562 regular-season games — 52% of all his regular-season games.",
    "evidence": [
@@ -3301,7 +3372,7 @@
    "score": 7
   },
   {
-   "n": 39,
+   "n": 44,
    "kind": "games",
    "text": "Jordan scored 40+ points in 173 regular-season games — 16% of all his regular-season games.",
    "evidence": [
@@ -3537,7 +3608,7 @@
    "score": 7
   },
   {
-   "n": 40,
+   "n": 45,
    "kind": "games",
    "text": "Jordan scored 30+ points in 109 playoff games — 61% of all his playoff games.",
    "evidence": [
@@ -3773,7 +3844,7 @@
    "score": 7
   },
   {
-   "n": 41,
+   "n": 46,
    "kind": "games",
    "text": "Jordan scored 40+ points in 38 playoff games — 21% of all his playoff games.",
    "evidence": [
@@ -4009,7 +4080,7 @@
    "score": 7
   },
   {
-   "n": 42,
+   "n": 47,
    "kind": "games",
    "text": "Triple-doubles: 28 in the regular season, 2 in the playoffs.",
    "evidence": [
@@ -4245,9 +4316,9 @@
    "score": 7
   },
   {
-   "n": 43,
+   "n": 48,
    "kind": "games",
-   "text": "Games with 40 points and 10 assists: 12 — the biggest was 57 and 10, Dec 23, 1992 vs. WAS.",
+   "text": "Games with 40 points and 10 assists: 12 — the biggest was 57 and 10, Dec 23, 1992 vs. Washington.",
    "evidence": [
     {
      "date": "Dec 27, 1984",
@@ -4481,9 +4552,9 @@
    "score": 7
   },
   {
-   "n": 44,
+   "n": 49,
    "kind": "games",
-   "text": "Best shooting night on 20+ attempts: 24-29 (.828), Nov 16, 1988 at PHL, for 52 points.",
+   "text": "Best shooting night on 20+ attempts: 24-29 (.828), Nov 16, 1988 at Philadelphia, for 52 points.",
    "evidence": [
     {
      "date": "Nov 16, 1988",
@@ -4508,9 +4579,9 @@
    "score": 7
   },
   {
-   "n": 45,
+   "n": 50,
    "kind": "games",
-   "text": "Most threes in a game: 7, Jan 18, 1990 vs. GOS (regular season).",
+   "text": "Most threes in a game: 7, Jan 18, 1990 vs. Golden State (regular season).",
    "evidence": [
     {
      "date": "Jan 18, 1990",
@@ -4535,7 +4606,7 @@
    "score": 7
   },
   {
-   "n": 46,
+   "n": 51,
    "kind": "games",
    "text": "His teams' record in his 40-point regular-season games: 121-52.",
    "evidence": [
@@ -4771,7 +4842,7 @@
    "score": 7
   },
   {
-   "n": 47,
+   "n": 52,
    "kind": "games",
    "text": "His teams' record in his 50-point regular-season games: 23-8.",
    "evidence": [
@@ -4931,7 +5002,7 @@
    "score": 7
   },
   {
-   "n": 48,
+   "n": 53,
    "kind": "games",
    "text": "He scored 50 or more and still lost 10 times — the most in a defeat was 64.",
    "evidence": [
@@ -5129,7 +5200,7 @@
    "score": 7
   },
   {
-   "n": 49,
+   "n": 54,
    "kind": "games",
    "text": "He had 5+ steals in 105 regular-season games and 5+ blocks in 6.",
    "evidence": [
@@ -5365,9 +5436,9 @@
    "score": 6
   },
   {
-   "n": 50,
+   "n": 55,
    "kind": "games",
-   "text": "Career-high steals in a game: 10, Jan 29, 1988 vs. NJN. Career-high blocks: 6, Dec 2, 1986 at SEA.",
+   "text": "Career-high steals in a game: 10, Jan 29, 1988 vs. New Jersey. Career-high blocks: 6, Dec 2, 1986 at Seattle.",
    "evidence": [
     {
      "date": "Jan 29, 1988",
@@ -5411,9 +5482,9 @@
    "score": 6
   },
   {
-   "n": 51,
+   "n": 56,
    "kind": "games",
-   "text": "Career-high assists in a game: 17, Mar 24, 1989 at POR. Career-high rebounds: 19, May 14, 1991 vs. PHL.",
+   "text": "Career-high assists in a game: 17, Mar 24, 1989 at Portland. Career-high rebounds: 19, May 14, 1991 vs. Philadelphia.",
    "evidence": [
     {
      "date": "Mar 24, 1989",
@@ -5457,7 +5528,7 @@
    "score": 6
   },
   {
-   "n": 52,
+   "n": 57,
    "kind": "games",
    "text": "Jordan had 8 games with 50 points and 10 rebounds.",
    "evidence": [
@@ -5617,7 +5688,7 @@
    "score": 6
   },
   {
-   "n": 53,
+   "n": 58,
    "kind": "games",
    "text": "Games with at least four steals and four blocks: 13.",
    "evidence": [
@@ -5853,9 +5924,9 @@
    "score": 6
   },
   {
-   "n": 54,
+   "n": 59,
    "kind": "games",
-   "text": "Most shots in a game: 49 field-goal attempts, Jan 16, 1993 vs. ORL (27 made, 64 points).",
+   "text": "Most shots in a game: 49 field-goal attempts, Jan 16, 1993 vs. Orlando (27 made, 64 points).",
    "evidence": [
     {
      "date": "Jan 16, 1993",
@@ -5880,9 +5951,9 @@
    "score": 6
   },
   {
-   "n": 55,
+   "n": 60,
    "kind": "games",
-   "text": "Most free throws made in a game: 26 of 27, Feb 26, 1987 vs. NJN.",
+   "text": "Most free throws made in a game: 26 of 27, Feb 26, 1987 vs. New Jersey.",
    "evidence": [
     {
      "date": "Feb 26, 1987",
@@ -5907,9 +5978,9 @@
    "score": 6
   },
   {
-   "n": 56,
+   "n": 61,
    "kind": "games",
-   "text": "Most free throws without a miss: 15-for-15, Jan 10, 1987 vs. NJN.",
+   "text": "Most free throws without a miss: 15-for-15, Jan 10, 1987 vs. New Jersey.",
    "evidence": [
     {
      "date": "Jan 10, 1987",
@@ -5934,7 +6005,7 @@
    "score": 6
   },
   {
-   "n": 57,
+   "n": 62,
    "kind": "games",
    "text": "14 of his regular-season 50-point games came without a single made three.",
    "evidence": [
@@ -6170,7 +6241,243 @@
    "score": 6
   },
   {
-   "n": 58,
+   "n": 63,
+   "kind": "games",
+   "text": "He scored 40+ without a turnover 15 times.",
+   "evidence": [
+    {
+     "date": "Nov 14, 1986",
+     "season": "1986-87",
+     "type": "rs",
+     "matchup": "CHI vs. BOS",
+     "WL": "L",
+     "PTS": 48,
+     "REB": 5,
+     "AST": 1,
+     "STL": 2,
+     "BLK": 1,
+     "FGM": 17,
+     "FGA": 33,
+     "FTM": 13,
+     "FTA": 14,
+     "FG3M": 1,
+     "MIN": 41,
+     "game": "0028600081"
+    },
+    {
+     "date": "Jan 12, 1988",
+     "season": "1987-88",
+     "type": "rs",
+     "matchup": "CHI vs. BOS",
+     "WL": "L",
+     "PTS": 42,
+     "REB": 4,
+     "AST": 6,
+     "STL": 3,
+     "BLK": 1,
+     "FGM": 19,
+     "FGA": 35,
+     "FTM": 4,
+     "FTA": 5,
+     "FG3M": 0,
+     "MIN": 43,
+     "game": "0028700361"
+    },
+    {
+     "date": "Mar 23, 1988",
+     "season": "1987-88",
+     "type": "rs",
+     "matchup": "CHI @ PHL",
+     "WL": "W",
+     "PTS": 49,
+     "REB": 13,
+     "AST": 2,
+     "STL": 0,
+     "BLK": 2,
+     "FGM": 20,
+     "FGA": 35,
+     "FTM": 9,
+     "FTA": 12,
+     "FG3M": 0,
+     "MIN": 42,
+     "game": "0028700752"
+    },
+    {
+     "date": "Nov 03, 1989",
+     "season": "1989-90",
+     "type": "rs",
+     "matchup": "CHI vs. CLE",
+     "WL": "W",
+     "PTS": 54,
+     "REB": 14,
+     "AST": 6,
+     "STL": 3,
+     "BLK": 1,
+     "FGM": 19,
+     "FGA": 31,
+     "FTM": 15,
+     "FTA": 17,
+     "FG3M": 1,
+     "MIN": 47,
+     "game": "0028900009"
+    },
+    {
+     "date": "Feb 14, 1990",
+     "season": "1989-90",
+     "type": "rs",
+     "matchup": "CHI @ ORL",
+     "WL": "L",
+     "PTS": 49,
+     "REB": 7,
+     "AST": 2,
+     "STL": 0,
+     "BLK": 1,
+     "FGM": 21,
+     "FGA": 43,
+     "FTM": 7,
+     "FTA": 10,
+     "FG3M": 0,
+     "MIN": 47,
+     "game": "0028900648"
+    },
+    {
+     "date": "Apr 07, 1990",
+     "season": "1989-90",
+     "type": "rs",
+     "matchup": "CHI @ DAL",
+     "WL": "W",
+     "PTS": 43,
+     "REB": 3,
+     "AST": 4,
+     "STL": 2,
+     "BLK": 1,
+     "FGM": 15,
+     "FGA": 26,
+     "FTM": 10,
+     "FTA": 13,
+     "FG3M": 3,
+     "MIN": 40,
+     "game": "0028900998"
+    },
+    {
+     "date": "Apr 07, 1991",
+     "season": "1990-91",
+     "type": "rs",
+     "matchup": "CHI vs. PHL",
+     "WL": "L",
+     "PTS": 41,
+     "REB": 4,
+     "AST": 5,
+     "STL": 4,
+     "BLK": 2,
+     "FGM": 16,
+     "FGA": 27,
+     "FTM": 9,
+     "FTA": 14,
+     "FG3M": 0,
+     "MIN": 48,
+     "game": "0029001002"
+    },
+    {
+     "date": "Mar 19, 1992",
+     "season": "1991-92",
+     "type": "rs",
+     "matchup": "CHI @ WAS",
+     "WL": "W",
+     "PTS": 51,
+     "REB": 11,
+     "AST": 3,
+     "STL": 1,
+     "BLK": 1,
+     "FGM": 19,
+     "FGA": 30,
+     "FTM": 12,
+     "FTA": 15,
+     "FG3M": 1,
+     "MIN": 43,
+     "game": "0029100895"
+    },
+    {
+     "date": "Mar 12, 1993",
+     "season": "1992-93",
+     "type": "rs",
+     "matchup": "CHI vs. CHH",
+     "WL": "W",
+     "PTS": 52,
+     "REB": 9,
+     "AST": 5,
+     "STL": 2,
+     "BLK": 1,
+     "FGM": 21,
+     "FGA": 35,
+     "FTM": 8,
+     "FTA": 9,
+     "FG3M": 2,
+     "MIN": 43,
+     "game": "0029200802"
+    },
+    {
+     "date": "Nov 06, 1996",
+     "season": "1996-97",
+     "type": "rs",
+     "matchup": "CHI @ MIA",
+     "WL": "W",
+     "PTS": 50,
+     "REB": 6,
+     "AST": 0,
+     "STL": 1,
+     "BLK": 1,
+     "FGM": 18,
+     "FGA": 33,
+     "FTM": 13,
+     "FTA": 14,
+     "FG3M": 1,
+     "MIN": 40,
+     "game": "0029600043"
+    },
+    {
+     "date": "Jan 02, 1998",
+     "season": "1997-98",
+     "type": "rs",
+     "matchup": "CHI vs. MIL",
+     "WL": "W",
+     "PTS": 44,
+     "REB": 5,
+     "AST": 1,
+     "STL": 2,
+     "BLK": 0,
+     "FGM": 15,
+     "FGA": 22,
+     "FTM": 13,
+     "FTA": 15,
+     "FG3M": 1,
+     "MIN": 43,
+     "game": "0029700431"
+    },
+    {
+     "date": "Apr 03, 1998",
+     "season": "1997-98",
+     "type": "rs",
+     "matchup": "CHI vs. MIN",
+     "WL": "W",
+     "PTS": 41,
+     "REB": 6,
+     "AST": 4,
+     "STL": 1,
+     "BLK": 0,
+     "FGM": 16,
+     "FGA": 25,
+     "FTM": 7,
+     "FTA": 8,
+     "FG3M": 2,
+     "MIN": 38,
+     "game": "0029701066"
+    }
+   ],
+   "score": 6
+  },
+  {
+   "n": 64,
    "kind": "games",
    "text": "He attempted 20+ free throws in 22 games.",
    "evidence": [
@@ -6406,88 +6713,7 @@
    "score": 5
   },
   {
-   "n": 59,
-   "kind": "games",
-   "text": "Most minutes in a game: 57, Jun 13, 1993 vs. PHX — he scored 44.",
-   "evidence": [
-    {
-     "date": "Jun 13, 1993",
-     "season": "1992-93",
-     "type": "po",
-     "matchup": "CHI vs. PHX",
-     "WL": "L",
-     "PTS": 44,
-     "REB": 9,
-     "AST": 6,
-     "STL": 2,
-     "BLK": 1,
-     "FGM": 19,
-     "FGA": 43,
-     "FTM": 3,
-     "FTA": 6,
-     "FG3M": 3,
-     "MIN": 57,
-     "game": "0049200073"
-    }
-   ],
-   "score": 5
-  },
-  {
-   "n": 60,
-   "kind": "games",
-   "text": "His quietest win in 30+ minutes: 2 points, Dec 15, 2002 at TOR.",
-   "evidence": [
-    {
-     "date": "Dec 15, 2002",
-     "season": "2002-03",
-     "type": "rs",
-     "matchup": "WAS @ TOR",
-     "WL": "W",
-     "PTS": 2,
-     "REB": 8,
-     "AST": 9,
-     "STL": 2,
-     "BLK": 1,
-     "FGM": 1,
-     "FGA": 9,
-     "FTM": 0,
-     "FTA": 0,
-     "FG3M": 0,
-     "MIN": 40,
-     "game": "0020200337"
-    }
-   ],
-   "score": 4
-  },
-  {
-   "n": 61,
-   "kind": "games",
-   "text": "Best plus-minus in a game (tracked from 1996-97): +34, Nov 15, 1996 at CHH.",
-   "evidence": [
-    {
-     "date": "Nov 15, 1996",
-     "season": "1996-97",
-     "type": "rs",
-     "matchup": "CHI @ CHH",
-     "WL": "W",
-     "PTS": 38,
-     "REB": 1,
-     "AST": 2,
-     "STL": 1,
-     "BLK": 1,
-     "FGM": 15,
-     "FGA": 25,
-     "FTM": 4,
-     "FTA": 4,
-     "FG3M": 4,
-     "MIN": 29,
-     "game": "0029600107"
-    }
-   ],
-   "score": 4
-  },
-  {
-   "n": 62,
+   "n": 65,
    "kind": "streak",
    "text": "Longest run of consecutive regular-season games with double figures: 866, from Mar 25, 1986 to Dec 26, 2001.",
    "evidence": [
@@ -6533,7 +6759,7 @@
    "score": 10
   },
   {
-   "n": 63,
+   "n": 66,
    "kind": "streak",
    "text": "Jordan recorded triple-doubles in 7 straight games, Mar 25, 1989 to Apr 6, 1989.",
    "evidence": [
@@ -6579,7 +6805,7 @@
    "score": 8
   },
   {
-   "n": 64,
+   "n": 67,
    "kind": "streak",
    "text": "Longest run of consecutive regular-season games with 20+ points: 72, from Dec 29, 1987 to Dec 6, 1988.",
    "evidence": [
@@ -6625,7 +6851,7 @@
    "score": 7
   },
   {
-   "n": 65,
+   "n": 68,
    "kind": "streak",
    "text": "Longest run of consecutive regular-season games with 30+ points: 11, from Feb 13, 1987 to Mar 4, 1987.",
    "evidence": [
@@ -6671,7 +6897,7 @@
    "score": 7
   },
   {
-   "n": 66,
+   "n": 69,
    "kind": "streak",
    "text": "Longest run of consecutive regular-season games with 40+ points: 9, from Nov 28, 1986 to Dec 12, 1986.",
    "evidence": [
@@ -6717,9 +6943,9 @@
    "score": 7
   },
   {
-   "n": 67,
+   "n": 70,
    "kind": "streak",
-   "text": "The 866-game double-figures streak ended Dec 27, 2001 at IND, when he scored 6.",
+   "text": "The 866-game double-figures streak ended Dec 27, 2001 at Indiana, when he scored 6.",
    "evidence": [
     {
      "date": "Dec 27, 2001",
@@ -6744,7 +6970,7 @@
    "score": 7
   },
   {
-   "n": 68,
+   "n": 71,
    "kind": "streak",
    "text": "Longest run of consecutive playoff games with 30+ points: 8 (Apr 23, 1987 to May 8, 1988).",
    "evidence": [
@@ -6790,7 +7016,7 @@
    "score": 7
   },
   {
-   "n": 69,
+   "n": 72,
    "kind": "streak",
    "text": "Jordan scored 20 or more in 60 consecutive playoff games, from Jun 2, 1989 to May 11, 1993.",
    "evidence": [
@@ -6836,9 +7062,9 @@
    "score": 7
   },
   {
-   "n": 70,
+   "n": 73,
    "kind": "finals",
-   "text": "Jordan reached the Finals 6 times and won all 6: 1990-91 vs. LAL, 1991-92 vs. POR, 1992-93 vs. PHX, 1995-96 vs. SEA, 1996-97 vs. UTA, 1997-98 vs. UTA.",
+   "text": "Jordan reached the Finals 6 times and won all 6: 1990-91 vs. the LA Lakers, 1991-92 vs. Portland, 1992-93 vs. Phoenix, 1995-96 vs. Seattle, 1996-97 vs. Utah, 1997-98 vs. Utah.",
    "evidence": [
     {
      "season": "1990-91",
@@ -6880,7 +7106,7 @@
    "score": 10
   },
   {
-   "n": 71,
+   "n": 74,
    "kind": "finals",
    "text": "In 35 Finals games he averaged 33.6 points; he scored 30+ in 23 of them and 40+ in 6.",
    "evidence": [
@@ -7002,9 +7228,55 @@
    "score": 9
   },
   {
-   "n": 72,
+   "n": 75,
    "kind": "finals",
-   "text": "His Finals high: 55, Jun 16, 1993 vs. PHX.",
+   "text": "He scored 40+ in 4 consecutive Finals games (Jun 11, 1993 to Jun 18, 1993).",
+   "evidence": [
+    {
+     "date": "Jun 11, 1993",
+     "season": "1992-93",
+     "type": "po",
+     "matchup": "CHI @ PHX",
+     "WL": "W",
+     "PTS": 42,
+     "REB": 12,
+     "AST": 9,
+     "STL": 2,
+     "BLK": 0,
+     "FGM": 18,
+     "FGA": 36,
+     "FTM": 4,
+     "FTA": 5,
+     "FG3M": 2,
+     "MIN": 40,
+     "game": "0049200072"
+    },
+    {
+     "date": "Jun 18, 1993",
+     "season": "1992-93",
+     "type": "po",
+     "matchup": "CHI vs. PHX",
+     "WL": "L",
+     "PTS": 41,
+     "REB": 7,
+     "AST": 7,
+     "STL": 0,
+     "BLK": 2,
+     "FGM": 16,
+     "FGA": 29,
+     "FTM": 7,
+     "FTA": 10,
+     "FG3M": 2,
+     "MIN": 44,
+     "game": "0049200075"
+    }
+   ],
+   "score": 9
+  },
+  {
+   "n": 76,
+   "kind": "finals",
+   "text": "His Finals high: 55, Jun 16, 1993 vs. Phoenix.",
    "evidence": [
     {
      "date": "Jun 16, 1993",
@@ -7029,9 +7301,9 @@
    "score": 8
   },
   {
-   "n": 73,
+   "n": 77,
    "kind": "finals",
-   "text": "His best Finals series: 41.0 points a game against PHX in 1992-93.",
+   "text": "His best Finals series: 41.0 points a game against Phoenix in 1992-93.",
    "evidence": [
     {
      "date": "Jun 09, 1993",
@@ -7151,7 +7423,7 @@
    "score": 8
   },
   {
-   "n": 74,
+   "n": 78,
    "kind": "finals",
    "text": "In the 6 title-clinching games he averaged 33.7 points (30, 33, 33, 22, 39, 45).",
    "evidence": [
@@ -7273,7 +7545,7 @@
    "score": 8
   },
   {
-   "n": 75,
+   "n": 79,
    "kind": "finals",
    "text": "His teams went 24-11 in his Finals games; none of the 6 series went seven (5, 6, 6, 6, 6, 6 games).",
    "evidence": [
@@ -7305,9 +7577,9 @@
    "score": 7
   },
   {
-   "n": 76,
+   "n": 80,
    "kind": "finals",
-   "text": "His lowest Finals game: 22 points, Jun 16, 1996 vs. SEA.",
+   "text": "His lowest Finals game: 22 points, Jun 16, 1996 vs. Seattle.",
    "evidence": [
     {
      "date": "Jun 16, 1996",
@@ -7332,7 +7604,7 @@
    "score": 6
   },
   {
-   "n": 77,
+   "n": 81,
    "kind": "playoffs",
    "text": "He was held under 20 points in just 6 of his 179 playoff games — the lowest was 15.",
    "evidence": [
@@ -7454,9 +7726,9 @@
    "score": 8
   },
   {
-   "n": 78,
+   "n": 82,
    "kind": "playoffs",
-   "text": "Playoff series: 30 won, 7 lost. After the loss to ORL in 1994-95, he never lost another series.",
+   "text": "Playoff series: 30 won, 7 lost. After losing to Orlando in 1994-95, he won his last 12 series.",
    "evidence": [
     {
      "season": "1984-85",
@@ -7534,9 +7806,9 @@
    "score": 8
   },
   {
-   "n": 79,
+   "n": 83,
    "kind": "playoffs",
-   "text": "His highest-scoring playoff series: 45.2 points a game against CLE in 1987-88 (won in 5).",
+   "text": "His highest-scoring playoff series: 45.2 points a game against Cleveland in 1987-88 (won in 5).",
    "evidence": [
     {
      "date": "Apr 28, 1988",
@@ -7637,44 +7909,204 @@
    "score": 8
   },
   {
-   "n": 80,
+   "n": 84,
    "kind": "playoffs",
-   "text": "His best playoff scoring average in one postseason: 43.7 over 3 games in 1985-86.",
+   "text": "His best scoring postseason of 8+ games: 36.7 over 16 games in 1989-90.",
    "evidence": [
     {
      "PLAYER_ID": 893,
-     "SEASON_ID": "1985-86",
+     "SEASON_ID": "1989-90",
      "LEAGUE_ID": "00",
      "TEAM_ID": 1610612741,
      "TEAM_ABBREVIATION": "CHI",
-     "PLAYER_AGE": 23,
-     "GP": 3,
-     "GS": 3,
-     "MIN": 135,
-     "FGM": 48,
-     "FGA": 95,
-     "FG_PCT": 0.505,
-     "FG3M": 1,
-     "FG3A": 1,
-     "FG3_PCT": 1,
-     "FTM": 34,
-     "FTA": 39,
-     "FT_PCT": 0.872,
-     "OREB": 5,
-     "DREB": 14,
-     "REB": 19,
-     "AST": 17,
-     "STL": 7,
-     "BLK": 4,
-     "TOV": 14,
-     "PF": 13,
-     "PTS": 131
+     "PLAYER_AGE": 27,
+     "GP": 16,
+     "GS": 16,
+     "MIN": 674,
+     "FGM": 219,
+     "FGA": 426,
+     "FG_PCT": 0.514,
+     "FG3M": 16,
+     "FG3A": 50,
+     "FG3_PCT": 0.32,
+     "FTM": 133,
+     "FTA": 159,
+     "FT_PCT": 0.836,
+     "OREB": 24,
+     "DREB": 91,
+     "REB": 115,
+     "AST": 109,
+     "STL": 45,
+     "BLK": 14,
+     "TOV": 56,
+     "PF": 54,
+     "PTS": 587
     }
    ],
    "score": 8
   },
   {
-   "n": 81,
+   "n": 85,
+   "kind": "playoffs",
+   "text": "His 8 playoff 50-point games: 63 Apr 20, 1986 vs Boston; 50 Apr 28, 1988 vs Cleveland; 55 May 1, 1988 vs Cleveland; 50 May 5, 1989 vs Cleveland; 56 Apr 29, 1992 vs Miami; 54 May 31, 1993 vs New York; 55 Jun 16, 1993 vs Phoenix; 55 Apr 27, 1997 vs Washington.",
+   "evidence": [
+    {
+     "date": "Apr 20, 1986",
+     "season": "1985-86",
+     "type": "po",
+     "matchup": "CHI @ BOS",
+     "WL": "L",
+     "PTS": 63,
+     "REB": 5,
+     "AST": 6,
+     "STL": 3,
+     "BLK": 2,
+     "FGM": 22,
+     "FGA": 41,
+     "FTM": 19,
+     "FTA": 21,
+     "FG3M": 0,
+     "MIN": 53,
+     "game": "0048509102"
+    },
+    {
+     "date": "Apr 28, 1988",
+     "season": "1987-88",
+     "type": "po",
+     "matchup": "CHI vs. CLE",
+     "WL": "W",
+     "PTS": 50,
+     "REB": 7,
+     "AST": 2,
+     "STL": 2,
+     "BLK": 2,
+     "FGM": 19,
+     "FGA": 35,
+     "FTM": 12,
+     "FTA": 12,
+     "FG3M": 0,
+     "MIN": 44,
+     "game": "0048700004"
+    },
+    {
+     "date": "May 01, 1988",
+     "season": "1987-88",
+     "type": "po",
+     "matchup": "CHI vs. CLE",
+     "WL": "W",
+     "PTS": 55,
+     "REB": 6,
+     "AST": 3,
+     "STL": 4,
+     "BLK": 1,
+     "FGM": 24,
+     "FGA": 45,
+     "FTM": 7,
+     "FTA": 7,
+     "FG3M": 0,
+     "MIN": 44,
+     "game": "0048700012"
+    },
+    {
+     "date": "May 05, 1989",
+     "season": "1988-89",
+     "type": "po",
+     "matchup": "CHI vs. CLE",
+     "WL": "L",
+     "PTS": 50,
+     "REB": 3,
+     "AST": 4,
+     "STL": 3,
+     "BLK": 0,
+     "FGM": 14,
+     "FGA": 28,
+     "FTM": 22,
+     "FTA": 27,
+     "FG3M": 0,
+     "MIN": 43,
+     "game": "0048800026"
+    },
+    {
+     "date": "Apr 29, 1992",
+     "season": "1991-92",
+     "type": "po",
+     "matchup": "CHI @ MIA",
+     "WL": "W",
+     "PTS": 56,
+     "REB": 5,
+     "AST": 5,
+     "STL": 4,
+     "BLK": 2,
+     "FGM": 20,
+     "FGA": 30,
+     "FTM": 16,
+     "FTA": 18,
+     "FG3M": 0,
+     "MIN": 43,
+     "game": "0049100022"
+    },
+    {
+     "date": "May 31, 1993",
+     "season": "1992-93",
+     "type": "po",
+     "matchup": "CHI vs. NYK",
+     "WL": "W",
+     "PTS": 54,
+     "REB": 6,
+     "AST": 2,
+     "STL": 2,
+     "BLK": 1,
+     "FGM": 18,
+     "FGA": 30,
+     "FTM": 12,
+     "FTA": 14,
+     "FG3M": 6,
+     "MIN": 39,
+     "game": "0049200065"
+    },
+    {
+     "date": "Jun 16, 1993",
+     "season": "1992-93",
+     "type": "po",
+     "matchup": "CHI vs. PHX",
+     "WL": "W",
+     "PTS": 55,
+     "REB": 8,
+     "AST": 4,
+     "STL": 0,
+     "BLK": 0,
+     "FGM": 21,
+     "FGA": 37,
+     "FTM": 13,
+     "FTA": 18,
+     "FG3M": 0,
+     "MIN": 46,
+     "game": "0049200074"
+    },
+    {
+     "date": "Apr 27, 1997",
+     "season": "1996-97",
+     "type": "po",
+     "matchup": "CHI vs. WAS",
+     "WL": "W",
+     "PTS": 55,
+     "REB": 7,
+     "AST": 2,
+     "STL": 2,
+     "BLK": 0,
+     "FGM": 22,
+     "FGA": 35,
+     "FTM": 10,
+     "FTA": 10,
+     "FG3M": 1,
+     "MIN": 44,
+     "game": "0049600014"
+    }
+   ],
+   "score": 8
+  },
+  {
+   "n": 86,
    "kind": "playoffs",
    "text": "In Game 7s he was 2-1, averaging 33.7 points.",
    "evidence": [
@@ -7739,7 +8171,44 @@
    "score": 7
   },
   {
-   "n": 82,
+   "n": 87,
+   "kind": "playoffs",
+   "text": "His highest playoff scoring average in any postseason: 43.7 over 3 games in 1985-86.",
+   "evidence": [
+    {
+     "PLAYER_ID": 893,
+     "SEASON_ID": "1985-86",
+     "LEAGUE_ID": "00",
+     "TEAM_ID": 1610612741,
+     "TEAM_ABBREVIATION": "CHI",
+     "PLAYER_AGE": 23,
+     "GP": 3,
+     "GS": 3,
+     "MIN": 135,
+     "FGM": 48,
+     "FGA": 95,
+     "FG_PCT": 0.505,
+     "FG3M": 1,
+     "FG3A": 1,
+     "FG3_PCT": 1,
+     "FTM": 34,
+     "FTA": 39,
+     "FT_PCT": 0.872,
+     "OREB": 5,
+     "DREB": 14,
+     "REB": 19,
+     "AST": 17,
+     "STL": 7,
+     "BLK": 4,
+     "TOV": 14,
+     "PF": 13,
+     "PTS": 131
+    }
+   ],
+   "score": 7
+  },
+  {
+   "n": 88,
    "kind": "playoffs",
    "text": "His teams swept 9 playoff series.",
    "evidence": [
@@ -7792,7 +8261,7 @@
    "score": 6
   },
   {
-   "n": 83,
+   "n": 89,
    "kind": "playoffs",
    "text": "In the 7 games in which his team was eliminated he averaged 27.1 points.",
    "evidence": [
@@ -7933,9 +8402,9 @@
    "score": 6
   },
   {
-   "n": 84,
+   "n": 90,
    "kind": "playoffs",
-   "text": "His teams were swept 2 times: 1985-86 by BOS, 1986-87 by BOS.",
+   "text": "His teams were swept 2 times: 1985-86 by Boston and 1986-87 by Boston.",
    "evidence": [
     {
      "season": "1985-86",
@@ -7949,77 +8418,9 @@
    "score": 6
   },
   {
-   "n": 85,
-   "kind": "playoffs",
-   "text": "First-round record: 10-3 in series.",
-   "evidence": [
-    {
-     "season": "1984-85",
-     "opp": "MIL",
-     "won": false
-    },
-    {
-     "season": "1985-86",
-     "opp": "BOS",
-     "won": false
-    },
-    {
-     "season": "1986-87",
-     "opp": "BOS",
-     "won": false
-    },
-    {
-     "season": "1987-88",
-     "opp": "CLE",
-     "won": true
-    },
-    {
-     "season": "1988-89",
-     "opp": "CLE",
-     "won": true
-    },
-    {
-     "season": "1989-90",
-     "opp": "MIL",
-     "won": true
-    },
-    {
-     "season": "1990-91",
-     "opp": "NYK",
-     "won": true
-    },
-    {
-     "season": "1991-92",
-     "opp": "MIA",
-     "won": true
-    },
-    {
-     "season": "1992-93",
-     "opp": "ATL",
-     "won": true
-    },
-    {
-     "season": "1994-95",
-     "opp": "CHH",
-     "won": true
-    },
-    {
-     "season": "1995-96",
-     "opp": "MIA",
-     "won": true
-    },
-    {
-     "season": "1996-97",
-     "opp": "WAS",
-     "won": true
-    }
-   ],
-   "score": 5
-  },
-  {
-   "n": 86,
+   "n": 91,
    "kind": "opponents",
-   "text": "His highest scoring average against any opponent (15+ games): 35.6 against SAN.",
+   "text": "His highest scoring average against any opponent (15+ games): 35.6 against San Antonio over 17 games.",
    "evidence": [
     {
      "o": "SAN",
@@ -8033,9 +8434,9 @@
    "score": 7
   },
   {
-   "n": 87,
+   "n": 92,
    "kind": "opponents",
-   "text": "His lowest scoring average against any opponent (15+ games): 20.5 against TOR — still respectable.",
+   "text": "His lowest scoring average against any opponent (15+ games): 20.5 against Toronto — 7 of those 19 games came in his Washington seasons.",
    "evidence": [
     {
      "o": "TOR",
@@ -8049,9 +8450,9 @@
    "score": 7
   },
   {
-   "n": 88,
+   "n": 93,
    "kind": "opponents",
-   "text": "He scored 50 against 17 different franchises; the most 50-point games against one team was 3, against DET.",
+   "text": "He scored 50 against 17 different opponents; the most 50-point games against one team was 3, against Detroit.",
    "evidence": [
     {
      "o": "DET",
@@ -8105,9 +8506,9 @@
    "score": 7
   },
   {
-   "n": 89,
+   "n": 94,
    "kind": "opponents",
-   "text": "His most frequent playoff opponent: NYK, 27 games, 19-8, 33.1 points a game.",
+   "text": "His most frequent playoff opponent: New York, 27 games, 19-8, 33.1 points a game.",
    "evidence": [
     {
      "date": "May 09, 1989",
@@ -8341,9 +8742,9 @@
    "score": 7
   },
   {
-   "n": 90,
+   "n": 95,
    "kind": "opponents",
-   "text": "The team he scored the most regular-season points against: MIL, 2,129 in 66 games.",
+   "text": "The team he scored the most regular-season points against: Milwaukee, 2,129 in 66 games.",
    "evidence": [
     {
      "o": "MIL",
@@ -8357,23 +8758,243 @@
    "score": 6
   },
   {
-   "n": 91,
-   "kind": "opponents",
-   "text": "His best team record against one opponent (20+ games): 23-2 against LAC.",
+   "n": 96,
+   "kind": "splits",
+   "text": "At New York (Madison Square Garden) he averaged 31.8 points over 31 regular-season games and 30.6 in 12 playoff games there.",
    "evidence": [
     {
-     "o": "LAC",
-     "n": 25,
-     "pts": 667,
-     "ppg": 26.68,
-     "fifty": 0,
-     "rec": "23-2"
+     "date": "Nov 08, 1984",
+     "season": "1984-85",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "W",
+     "PTS": 33,
+     "REB": 8,
+     "AST": 5,
+     "STL": 3,
+     "BLK": 2,
+     "FGM": 15,
+     "FGA": 22,
+     "FTM": 3,
+     "FTA": 4,
+     "FG3M": 0,
+     "MIN": 33,
+     "game": "0028400072"
+    },
+    {
+     "date": "Jan 05, 1985",
+     "season": "1984-85",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "L",
+     "PTS": 42,
+     "REB": 7,
+     "AST": 4,
+     "STL": 2,
+     "BLK": 1,
+     "FGM": 16,
+     "FGA": 25,
+     "FTM": 10,
+     "FTA": 11,
+     "FG3M": 0,
+     "MIN": 42,
+     "game": "0028400381"
+    },
+    {
+     "date": "Mar 14, 1985",
+     "season": "1984-85",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "L",
+     "PTS": 16,
+     "REB": 3,
+     "AST": 8,
+     "STL": 1,
+     "BLK": 0,
+     "FGM": 5,
+     "FGA": 18,
+     "FTM": 6,
+     "FTA": 11,
+     "FG3M": 0,
+     "MIN": 34,
+     "game": "0028400756"
+    },
+    {
+     "date": "Mar 29, 1986",
+     "season": "1985-86",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "W",
+     "PTS": 24,
+     "REB": 1,
+     "AST": 1,
+     "STL": 1,
+     "BLK": 3,
+     "FGM": 10,
+     "FGA": 17,
+     "FTM": 4,
+     "FTA": 6,
+     "FG3M": 0,
+     "MIN": 23,
+     "game": "0028500854"
+    },
+    {
+     "date": "Nov 01, 1986",
+     "season": "1986-87",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "W",
+     "PTS": 50,
+     "REB": 6,
+     "AST": 3,
+     "STL": 4,
+     "BLK": 3,
+     "FGM": 15,
+     "FGA": 31,
+     "FTM": 20,
+     "FTA": 22,
+     "FG3M": 0,
+     "MIN": 41,
+     "game": "0028600014"
+    },
+    {
+     "date": "Dec 25, 1986",
+     "season": "1986-87",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "L",
+     "PTS": 30,
+     "REB": 3,
+     "AST": 5,
+     "STL": 6,
+     "BLK": 2,
+     "FGM": 10,
+     "FGA": 28,
+     "FTM": 10,
+     "FTA": 12,
+     "FG3M": 0,
+     "MIN": 41,
+     "game": "0028600300"
+    },
+    {
+     "date": "Feb 14, 1987",
+     "season": "1986-87",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "W",
+     "PTS": 33,
+     "REB": 2,
+     "AST": 8,
+     "STL": 3,
+     "BLK": 3,
+     "FGM": 15,
+     "FGA": 24,
+     "FTM": 3,
+     "FTA": 5,
+     "FG3M": 0,
+     "MIN": 37,
+     "game": "0028600566"
+    },
+    {
+     "date": "Dec 23, 1987",
+     "season": "1987-88",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "L",
+     "PTS": 16,
+     "REB": 5,
+     "AST": 2,
+     "STL": 3,
+     "BLK": 0,
+     "FGM": 5,
+     "FGA": 15,
+     "FTM": 6,
+     "FTA": 9,
+     "FG3M": 0,
+     "MIN": 39,
+     "game": "0028700263"
+    },
+    {
+     "date": "Mar 07, 1988",
+     "season": "1987-88",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "L",
+     "PTS": 38,
+     "REB": 10,
+     "AST": 3,
+     "STL": 1,
+     "BLK": 0,
+     "FGM": 12,
+     "FGA": 24,
+     "FTM": 14,
+     "FTA": 16,
+     "FG3M": 0,
+     "MIN": 44,
+     "game": "0028700662"
+    },
+    {
+     "date": "Apr 19, 1988",
+     "season": "1987-88",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "W",
+     "PTS": 47,
+     "REB": 5,
+     "AST": 2,
+     "STL": 2,
+     "BLK": 1,
+     "FGM": 18,
+     "FGA": 27,
+     "FTM": 11,
+     "FTA": 13,
+     "FG3M": 0,
+     "MIN": 40,
+     "game": "0028700910"
+    },
+    {
+     "date": "Nov 08, 1988",
+     "season": "1988-89",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "L",
+     "PTS": 31,
+     "REB": 3,
+     "AST": 9,
+     "STL": 2,
+     "BLK": 0,
+     "FGM": 13,
+     "FGA": 21,
+     "FTM": 3,
+     "FTA": 3,
+     "FG3M": 2,
+     "MIN": 39,
+     "game": "0028800030"
+    },
+    {
+     "date": "Mar 04, 1989",
+     "season": "1988-89",
+     "type": "rs",
+     "matchup": "CHI @ NYK",
+     "WL": "L",
+     "PTS": 28,
+     "REB": 3,
+     "AST": 10,
+     "STL": 2,
+     "BLK": 0,
+     "FGM": 10,
+     "FGA": 16,
+     "FTM": 8,
+     "FTA": 8,
+     "FG3M": 0,
+     "MIN": 42,
+     "game": "0028800707"
     }
    ],
-   "score": 5
+   "score": 8
   },
   {
-   "n": 92,
+   "n": 97,
    "kind": "splits",
    "text": "Home vs road: 30.4 points a game at home, 29.9 on the road.",
    "evidence": [
@@ -8391,7 +9012,7 @@
    "score": 6
   },
   {
-   "n": 93,
+   "n": 98,
    "kind": "splits",
    "text": "On the second night of back-to-backs he averaged 29.7 points over 292 games.",
    "evidence": [
@@ -8513,88 +9134,7 @@
    "score": 6
   },
   {
-   "n": 94,
-   "kind": "splits",
-   "text": "His best month: January, 31.0 points a game over 191 games. His \"worst\": December, 29.3.",
-   "evidence": [
-    {
-     "k": "January",
-     "n": 191,
-     "ppg": 31.026178010471206
-    },
-    {
-     "k": "February",
-     "n": 157,
-     "ppg": 30.78980891719745
-    },
-    {
-     "k": "April",
-     "n": 145,
-     "ppg": 30.53103448275862
-    },
-    {
-     "k": "November",
-     "n": 183,
-     "ppg": 29.89071038251366
-    },
-    {
-     "k": "March",
-     "n": 202,
-     "ppg": 29.76732673267327
-    },
-    {
-     "k": "December",
-     "n": 183,
-     "ppg": 29.349726775956285
-    }
-   ],
-   "score": 5
-  },
-  {
-   "n": 95,
-   "kind": "splits",
-   "text": "By day of the week he was best on Thursdays (30.7 ppg) and lowest on Mondays (29.7).",
-   "evidence": [
-    {
-     "k": "Thursday",
-     "n": 118,
-     "ppg": 30.6864406779661
-    },
-    {
-     "k": "Sunday",
-     "n": 98,
-     "ppg": 30.53061224489796
-    },
-    {
-     "k": "Friday",
-     "n": 216,
-     "ppg": 30.189814814814813
-    },
-    {
-     "k": "Wednesday",
-     "n": 142,
-     "ppg": 30.176056338028168
-    },
-    {
-     "k": "Saturday",
-     "n": 208,
-     "ppg": 30
-    },
-    {
-     "k": "Tuesday",
-     "n": 213,
-     "ppg": 29.784037558685448
-    },
-    {
-     "k": "Monday",
-     "n": 77,
-     "ppg": 29.727272727272727
-    }
-   ],
-   "score": 4
-  },
-  {
-   "n": 96,
+   "n": 99,
    "kind": "allstar",
    "text": "All-Star Games: 13, 262 points (20.2 a game), 37 steals.",
    "evidence": [
@@ -8950,7 +9490,7 @@
    "score": 7
   },
   {
-   "n": 97,
+   "n": 100,
    "kind": "allstar",
    "text": "His best All-Star Game: 40 points in 1987-88.",
    "evidence": [

@@ -1,0 +1,7756 @@
+{
+ "sport": "NBA",
+ "decade": "2020s",
+ "era": 6,
+ "bars": {
+  "ppg": 27,
+  "ppgHi": 30,
+  "fgLow": 0.43,
+  "fgHi": 0.6,
+  "rpg": 12,
+  "apg": 9,
+  "pts": 2000
+ },
+ "seasons": [
+  "2020-21",
+  "2021-22",
+  "2022-23",
+  "2023-24",
+  "2024-25",
+  "2025-26"
+ ],
+ "candidates": 118,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "fifty_forty_ninety",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202681,
+     "name": "Kyrie Irving",
+     "season": 2020,
+     "team": "BKN",
+     "GP": 54,
+     "PTS": 1451,
+     "PPG": 26.9,
+     "REB": 257,
+     "AST": 324,
+     "STL": 76,
+     "BLK": 37,
+     "FGM": 549,
+     "FGA": 1086,
+     "FG3M": 152,
+     "FG3A": 378,
+     "FTM": 201,
+     "FTA": 218,
+     "MIN": 1886,
+     "PF": 140,
+     "TOV": 130
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 202681,
+     "name": "Kyrie Irving"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "The only player of the 2020s to shoot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Kyrie Irving, 2020-21 — .506/.402/.922."
+  },
+  {
+   "n": 2,
+   "rule": "ast_800",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.88,
+   "players": [
+    {
+     "id": 1629027,
+     "name": "Trae Young"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "The only player of the 2020s to dish out 800 assists in a season: Trae Young, 2024-25 — 880 ast."
+  },
+  {
+   "n": 3,
+   "rule": "guard_stocks",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1630700,
+     "name": "Dyson Daniels",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1073,
+     "PPG": 14.1,
+     "REB": 449,
+     "AST": 333,
+     "STL": 229,
+     "BLK": 55,
+     "FGM": 455,
+     "FGA": 923,
+     "FG3M": 80,
+     "FG3A": 235,
+     "FTM": 83,
+     "FTA": 140,
+     "MIN": 2571,
+     "PF": 175,
+     "TOV": 155
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.75328947368421,
+   "players": [
+    {
+     "id": 1630700,
+     "name": "Dyson Daniels"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "The only player of the 2020s to average 2.5 steals a game (60% of games): Dyson Daniels, 2024-25 — 3.0 spg."
+  },
+  {
+   "n": 4,
+   "rule": "stl_200",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1630700,
+     "name": "Dyson Daniels",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1073,
+     "PPG": 14.1,
+     "REB": 449,
+     "AST": 333,
+     "STL": 229,
+     "BLK": 55,
+     "FGM": 455,
+     "FGA": 923,
+     "FG3M": 80,
+     "FG3A": 235,
+     "FTM": 83,
+     "FTA": 140,
+     "MIN": 2571,
+     "PF": 175,
+     "TOV": 155
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.715625,
+   "players": [
+    {
+     "id": 1630700,
+     "name": "Dyson Daniels"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "The only player of the 2020s to record 200 steals in a season: Dyson Daniels, 2024-25 — 229 stl."
+  },
+  {
+   "n": 5,
+   "rule": "fta_800",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2021,
+     "team": "PHI",
+     "GP": 68,
+     "PTS": 2079,
+     "PPG": 30.6,
+     "REB": 796,
+     "AST": 284,
+     "STL": 77,
+     "BLK": 99,
+     "FGM": 666,
+     "FGA": 1334,
+     "FG3M": 93,
+     "FG3A": 251,
+     "FTM": 654,
+     "FTA": 803,
+     "MIN": 2296,
+     "PF": 181,
+     "TOV": 214
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.669166666666667,
+   "players": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "The only player of the 2020s to attempt 800 free throws in a season: Joel Embiid, 2021-22 — 803 FTA (.814)."
+  },
+  {
+   "n": 6,
+   "rule": "blk_250",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama",
+     "season": 2023,
+     "team": "SAS",
+     "GP": 71,
+     "PTS": 1522,
+     "PPG": 21.4,
+     "REB": 755,
+     "AST": 274,
+     "STL": 88,
+     "BLK": 254,
+     "FGM": 551,
+     "FGA": 1186,
+     "FG3M": 128,
+     "FG3A": 394,
+     "FTM": 292,
+     "FTA": 367,
+     "MIN": 2106,
+     "PF": 153,
+     "TOV": 260
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.635,
+   "players": [
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "The only player of the 2020s to block 250 shots in a season: Victor Wembanyama, 2023-24 — 254 blk."
+  },
+  {
+   "n": 7,
+   "rule": "ft_bad",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert",
+     "season": 2025,
+     "team": "MIN",
+     "GP": 76,
+     "PTS": 829,
+     "PPG": 10.9,
+     "REB": 872,
+     "AST": 128,
+     "STL": 58,
+     "BLK": 124,
+     "FGM": 335,
+     "FGA": 491,
+     "FG3M": 0,
+     "FG3A": 5,
+     "FTM": 159,
+     "FTA": 302,
+     "MIN": 2380,
+     "PF": 199,
+     "TOV": 106
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.561225165562915,
+   "players": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "The only player of the 2020s to shoot under .550 from the line on 300+ attempts: Rudy Gobert, 2025-26 — .526 on 302 FTA."
+  },
+  {
+   "n": 8,
+   "rule": "score_no_pass",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628374,
+     "name": "Lauri Markkanen",
+     "season": 2022,
+     "team": "UTA",
+     "GP": 66,
+     "PTS": 1691,
+     "PPG": 25.6,
+     "REB": 570,
+     "AST": 123,
+     "STL": 42,
+     "BLK": 38,
+     "FGM": 571,
+     "FGA": 1145,
+     "FG3M": 200,
+     "FG3A": 511,
+     "FTM": 349,
+     "FTA": 399,
+     "MIN": 2272,
+     "PF": 137,
+     "TOV": 127
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.407575757575758,
+   "players": [
+    {
+     "id": 1628374,
+     "name": "Lauri Markkanen"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "The only player of the 2020s to average 22+ points with fewer than 2 assists a game (60% of games): Lauri Markkanen, 2022-23 — 25.6 ppg, 1.9 apg."
+  },
+  {
+   "n": 9,
+   "rule": "ast_over_pts",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203110,
+     "name": "Draymond Green",
+     "season": 2020,
+     "team": "GSW",
+     "GP": 63,
+     "PTS": 444,
+     "PPG": 7,
+     "REB": 448,
+     "AST": 558,
+     "STL": 105,
+     "BLK": 52,
+     "FGM": 170,
+     "FGA": 380,
+     "FG3M": 34,
+     "FG3A": 126,
+     "FTM": 70,
+     "FTA": 88,
+     "MIN": 1982,
+     "PF": 194,
+     "TOV": 188
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.285,
+   "players": [
+    {
+     "id": 203110,
+     "name": "Draymond Green"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "The only player of the 2020s to record more assists than points (60% of games, 300+ ast): Draymond Green, 2020-21 — 558 ast, 444 pts."
+  },
+  {
+   "n": 10,
+   "rule": "three_better_than_two",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202692,
+     "name": "Alec Burks",
+     "season": 2021,
+     "team": "NYK",
+     "GP": 81,
+     "PTS": 944,
+     "PPG": 11.7,
+     "REB": 397,
+     "AST": 239,
+     "STL": 85,
+     "BLK": 26,
+     "FGM": 285,
+     "FGA": 728,
+     "FG3M": 157,
+     "FG3A": 389,
+     "FTM": 217,
+     "FTA": 264,
+     "MIN": 2318,
+     "PF": 215,
+     "TOV": 91
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.065044626946031,
+   "players": [
+    {
+     "id": 202692,
+     "name": "Alec Burks"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "The only player of the 2020s to shoot better from three than from two (250+ 3PA, 300+ 2PA): Alec Burks, 2021-22 — .404 3P, .378 2P."
+  },
+  {
+   "n": 11,
+   "rule": "oreb_over_dreb",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203500,
+     "name": "Steven Adams",
+     "season": 2024,
+     "team": "HOU",
+     "GP": 58,
+     "PTS": 225,
+     "PPG": 3.9,
+     "REB": 327,
+     "AST": 66,
+     "STL": 22,
+     "BLK": 28,
+     "FGM": 91,
+     "FGA": 167,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 43,
+     "FTA": 93,
+     "MIN": 794,
+     "PF": 60,
+     "TOV": 54
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.025,
+   "players": [
+    {
+     "id": 203500,
+     "name": "Steven Adams"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "The only player of the 2020s to grab more offensive rebounds than defensive (300+ reb): Steven Adams, 2024-25 — 166 off, 161 def."
+  },
+  {
+   "n": 12,
+   "rule": "triple_double_avg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2024,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 2071,
+     "PPG": 29.6,
+     "REB": 892,
+     "AST": 716,
+     "STL": 127,
+     "BLK": 45,
+     "FGM": 786,
+     "FGA": 1364,
+     "FG3M": 138,
+     "FG3A": 331,
+     "FTM": 361,
+     "FTA": 451,
+     "MIN": 2571,
+     "PF": 160,
+     "TOV": 230
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2025,
+     "team": "DEN",
+     "GP": 65,
+     "PTS": 1799,
+     "PPG": 27.7,
+     "REB": 836,
+     "AST": 697,
+     "STL": 92,
+     "BLK": 53,
+     "FGM": 644,
+     "FGA": 1132,
+     "FG3M": 112,
+     "FG3A": 295,
+     "FTM": 399,
+     "FTA": 480,
+     "MIN": 2265,
+     "PF": 173,
+     "TOV": 243
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2020,
+     "team": "WAS",
+     "GP": 65,
+     "PTS": 1445,
+     "PPG": 22.2,
+     "REB": 750,
+     "AST": 763,
+     "STL": 89,
+     "BLK": 23,
+     "FGM": 544,
+     "FGA": 1238,
+     "FG3M": 86,
+     "FG3A": 273,
+     "FTM": 271,
+     "FTA": 413,
+     "MIN": 2369,
+     "PF": 190,
+     "TOV": 312
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 9.313928571428571,
+   "players": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    }
+   ],
+   "seasons": [
+    2024,
+    2025,
+    2020
+   ],
+   "text": "Only two players of the 2020s averaged a triple-double for a season (60% of games): Nikola Jokić (2×, best 2024-25: 29.6/12.7/10.2); Russell Westbrook (2020-21: 22.2/11.5/11.7)."
+  },
+  {
+   "n": 13,
+   "rule": "thirty_ten",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2022,
+     "team": "PHI",
+     "GP": 66,
+     "PTS": 2183,
+     "PPG": 33.1,
+     "REB": 670,
+     "AST": 274,
+     "STL": 66,
+     "BLK": 112,
+     "FGM": 728,
+     "FGA": 1328,
+     "FG3M": 66,
+     "FG3A": 200,
+     "FTM": 661,
+     "FTA": 771,
+     "MIN": 2284,
+     "PF": 205,
+     "TOV": 226
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2022,
+     "team": "MIL",
+     "GP": 63,
+     "PTS": 1959,
+     "PPG": 31.1,
+     "REB": 742,
+     "AST": 359,
+     "STL": 52,
+     "BLK": 51,
+     "FGM": 707,
+     "FGA": 1278,
+     "FG3M": 47,
+     "FG3A": 171,
+     "FTM": 498,
+     "FTA": 772,
+     "MIN": 2024,
+     "PF": 197,
+     "TOV": 246
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2024,
+     "team": "MIL",
+     "GP": 67,
+     "PTS": 2036,
+     "PPG": 30.4,
+     "REB": 798,
+     "AST": 433,
+     "STL": 58,
+     "BLK": 78,
+     "FGM": 793,
+     "FGA": 1319,
+     "FG3M": 14,
+     "FG3A": 63,
+     "FTM": 436,
+     "FTA": 707,
+     "MIN": 2289,
+     "PF": 155,
+     "TOV": 206
+    },
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2021,
+     "team": "PHI",
+     "GP": 68,
+     "PTS": 2079,
+     "PPG": 30.6,
+     "REB": 796,
+     "AST": 284,
+     "STL": 77,
+     "BLK": 99,
+     "FGM": 666,
+     "FGA": 1334,
+     "FG3M": 93,
+     "FG3A": 251,
+     "FTM": 654,
+     "FTA": 803,
+     "MIN": 2296,
+     "PF": 181,
+     "TOV": 214
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2023,
+     "team": "MIL",
+     "GP": 73,
+     "PTS": 2222,
+     "PPG": 30.4,
+     "REB": 841,
+     "AST": 476,
+     "STL": 87,
+     "BLK": 79,
+     "FGM": 837,
+     "FGA": 1369,
+     "FG3M": 34,
+     "FG3A": 124,
+     "FTM": 514,
+     "FTA": 782,
+     "MIN": 2567,
+     "PF": 210,
+     "TOV": 250
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 9.080681818181818,
+   "players": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid"
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo"
+    }
+   ],
+   "seasons": [
+    2022,
+    2022,
+    2024,
+    2021,
+    2023
+   ],
+   "text": "Only two players of the 2020s averaged 30 points and 10 rebounds (60% of games): Joel Embiid (2×, best 2022-23: 33.1 ppg, 10.2 rpg); Giannis Antetokounmpo (3×, best 2022-23: 31.1 ppg, 11.8 rpg)."
+  },
+  {
+   "n": 14,
+   "rule": "twentyfive_ten_ast",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2024,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 2071,
+     "PPG": 29.6,
+     "REB": 892,
+     "AST": 716,
+     "STL": 127,
+     "BLK": 45,
+     "FGM": 786,
+     "FGA": 1364,
+     "FG3M": 138,
+     "FG3A": 331,
+     "FTM": 361,
+     "FTA": 451,
+     "MIN": 2571,
+     "PF": 160,
+     "TOV": 230
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2025,
+     "team": "DEN",
+     "GP": 65,
+     "PTS": 1799,
+     "PPG": 27.7,
+     "REB": 836,
+     "AST": 697,
+     "STL": 92,
+     "BLK": 53,
+     "FGM": 644,
+     "FGA": 1132,
+     "FG3M": 112,
+     "FG3A": 295,
+     "FTM": 399,
+     "FTA": 480,
+     "MIN": 2265,
+     "PF": 173,
+     "TOV": 243
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2023,
+     "team": "ATL",
+     "GP": 54,
+     "PTS": 1389,
+     "PPG": 25.7,
+     "REB": 149,
+     "AST": 583,
+     "STL": 72,
+     "BLK": 11,
+     "FGM": 433,
+     "FGA": 1008,
+     "FG3M": 175,
+     "FG3A": 469,
+     "FTM": 348,
+     "FTA": 407,
+     "MIN": 1942,
+     "PF": 109,
+     "TOV": 235
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2022,
+     "team": "ATL",
+     "GP": 73,
+     "PTS": 1914,
+     "PPG": 26.2,
+     "REB": 217,
+     "AST": 741,
+     "STL": 80,
+     "BLK": 9,
+     "FGM": 597,
+     "FGA": 1390,
+     "FG3M": 154,
+     "FG3A": 460,
+     "FTM": 566,
+     "FTA": 639,
+     "MIN": 2541,
+     "PF": 104,
+     "TOV": 300
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 8.995357142857143,
+   "players": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young"
+    }
+   ],
+   "seasons": [
+    2024,
+    2025,
+    2023,
+    2022
+   ],
+   "text": "Only two players of the 2020s averaged 25 points and 10 assists (60% of games): Nikola Jokić (2×, best 2024-25: 29.6 ppg, 10.2 apg); Trae Young (2×, best 2023-24: 25.7 ppg, 10.8 apg)."
+  },
+  {
+   "n": 15,
+   "rule": "ft_900",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2022,
+     "team": "OKC",
+     "GP": 68,
+     "PTS": 2135,
+     "PPG": 31.4,
+     "REB": 329,
+     "AST": 371,
+     "STL": 112,
+     "BLK": 65,
+     "FGM": 704,
+     "FGA": 1381,
+     "FG3M": 58,
+     "FG3A": 168,
+     "FTM": 669,
+     "FTA": 739,
+     "MIN": 2416,
+     "PF": 192,
+     "TOV": 192
+    },
+    {
+     "id": 203081,
+     "name": "Damian Lillard",
+     "season": 2022,
+     "team": "POR",
+     "GP": 58,
+     "PTS": 1866,
+     "PPG": 32.2,
+     "REB": 277,
+     "AST": 425,
+     "STL": 50,
+     "BLK": 18,
+     "FGM": 556,
+     "FGA": 1202,
+     "FG3M": 244,
+     "FG3A": 658,
+     "FTM": 510,
+     "FTA": 558,
+     "MIN": 2107,
+     "PF": 109,
+     "TOV": 191
+    },
+    {
+     "id": 203081,
+     "name": "Damian Lillard",
+     "season": 2020,
+     "team": "POR",
+     "GP": 67,
+     "PTS": 1928,
+     "PPG": 28.8,
+     "REB": 283,
+     "AST": 505,
+     "STL": 62,
+     "BLK": 17,
+     "FGM": 602,
+     "FGA": 1334,
+     "FG3M": 275,
+     "FG3A": 704,
+     "FTM": 449,
+     "FTA": 484,
+     "MIN": 2398,
+     "PF": 102,
+     "TOV": 203
+    },
+    {
+     "id": 203081,
+     "name": "Damian Lillard",
+     "season": 2023,
+     "team": "MIL",
+     "GP": 73,
+     "PTS": 1775,
+     "PPG": 24.3,
+     "REB": 320,
+     "AST": 508,
+     "STL": 72,
+     "BLK": 18,
+     "FGM": 541,
+     "FGA": 1277,
+     "FG3M": 220,
+     "FG3A": 622,
+     "FTM": 473,
+     "FTA": 514,
+     "MIN": 2578,
+     "PF": 134,
+     "TOV": 193
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2021,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 2155,
+     "PPG": 28.4,
+     "REB": 284,
+     "AST": 737,
+     "STL": 72,
+     "BLK": 7,
+     "FGM": 711,
+     "FGA": 1544,
+     "FG3M": 233,
+     "FG3A": 610,
+     "FTM": 500,
+     "FTA": 553,
+     "MIN": 2652,
+     "PF": 128,
+     "TOV": 303
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2021,
+     "team": "BKN",
+     "GP": 55,
+     "PTS": 1643,
+     "PPG": 29.9,
+     "REB": 407,
+     "AST": 351,
+     "STL": 48,
+     "BLK": 52,
+     "FGM": 578,
+     "FGA": 1115,
+     "FG3M": 115,
+     "FG3A": 300,
+     "FTM": 372,
+     "FTA": 409,
+     "MIN": 2047,
+     "PF": 113,
+     "TOV": 191
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 8.63269350473613,
+   "players": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander"
+    },
+    {
+     "id": 203081,
+     "name": "Damian Lillard"
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young"
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2022,
+    2022,
+    2020,
+    2023,
+    2021,
+    2021
+   ],
+   "text": "Just four players of the 2020s shot .900 from the line on 400+ attempts: Shai Gilgeous-Alexander (2022-23: .905 on 739 FTA); Damian Lillard (3×, best 2022-23: .914 on 558 FTA); Trae Young (2021-22: .904 on 553 FTA); Kevin Durant (2021-22: .910 on 409 FTA)."
+  },
+  {
+   "n": 16,
+   "rule": "fg_hi",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2023,
+     "team": "MIL",
+     "GP": 73,
+     "PTS": 2222,
+     "PPG": 30.4,
+     "REB": 841,
+     "AST": 476,
+     "STL": 87,
+     "BLK": 79,
+     "FGM": 837,
+     "FGA": 1369,
+     "FG3M": 34,
+     "FG3A": 124,
+     "FTM": 514,
+     "FTA": 782,
+     "MIN": 2567,
+     "PF": 210,
+     "TOV": 250
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2024,
+     "team": "MIL",
+     "GP": 67,
+     "PTS": 2036,
+     "PPG": 30.4,
+     "REB": 798,
+     "AST": 433,
+     "STL": 58,
+     "BLK": 78,
+     "FGM": 793,
+     "FGA": 1319,
+     "FG3M": 14,
+     "FG3A": 63,
+     "FTM": 436,
+     "FTA": 707,
+     "MIN": 2289,
+     "PF": 155,
+     "TOV": 206
+    },
+    {
+     "id": 1629627,
+     "name": "Zion Williamson",
+     "season": 2020,
+     "team": "NOP",
+     "GP": 61,
+     "PTS": 1647,
+     "PPG": 27,
+     "REB": 441,
+     "AST": 226,
+     "STL": 57,
+     "BLK": 39,
+     "FGM": 634,
+     "FGA": 1037,
+     "FG3M": 10,
+     "FG3A": 34,
+     "FTM": 369,
+     "FTA": 529,
+     "MIN": 2026,
+     "PF": 135,
+     "TOV": 167
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2022,
+     "team": "DEN",
+     "GP": 69,
+     "PTS": 1690,
+     "PPG": 24.5,
+     "REB": 817,
+     "AST": 678,
+     "STL": 87,
+     "BLK": 47,
+     "FGM": 646,
+     "FGA": 1022,
+     "FG3M": 57,
+     "FG3A": 149,
+     "FTM": 341,
+     "FTA": 415,
+     "MIN": 2323,
+     "PF": 174,
+     "TOV": 247
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 8.289446851516455,
+   "players": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo"
+    },
+    {
+     "id": 1629627,
+     "name": "Zion Williamson"
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    }
+   ],
+   "seasons": [
+    2023,
+    2024,
+    2020,
+    2022
+   ],
+   "text": "Just three players of the 2020s shot .600 or better while averaging 20 points (60% of games): Giannis Antetokounmpo (2×, best 2023-24: .611 FG, 30.4 ppg); Zion Williamson (2020-21: .611 FG, 27.0 ppg); Nikola Jokić (2022-23: .632 FG, 24.5 ppg)."
+  },
+  {
+   "n": 17,
+   "kind": "streak",
+   "rule": "s_25ppg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2020,
+     "team": "DAL",
+     "GP": 66,
+     "PTS": 1830,
+     "PPG": 27.7,
+     "REB": 527,
+     "AST": 567,
+     "STL": 64,
+     "BLK": 36,
+     "FGM": 647,
+     "FGA": 1351,
+     "FG3M": 192,
+     "FG3A": 548,
+     "FTM": 344,
+     "FTA": 471,
+     "MIN": 2262,
+     "PF": 152,
+     "TOV": 281
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2021,
+     "team": "DAL",
+     "GP": 65,
+     "PTS": 1847,
+     "PPG": 28.4,
+     "REB": 593,
+     "AST": 568,
+     "STL": 75,
+     "BLK": 36,
+     "FGM": 641,
+     "FGA": 1403,
+     "FG3M": 201,
+     "FG3A": 569,
+     "FTM": 364,
+     "FTA": 489,
+     "MIN": 2301,
+     "PF": 145,
+     "TOV": 292
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2022,
+     "team": "DAL",
+     "GP": 66,
+     "PTS": 2138,
+     "PPG": 32.4,
+     "REB": 569,
+     "AST": 529,
+     "STL": 90,
+     "BLK": 33,
+     "FGM": 719,
+     "FGA": 1449,
+     "FG3M": 185,
+     "FG3A": 541,
+     "FTM": 515,
+     "FTA": 694,
+     "MIN": 2391,
+     "PF": 166,
+     "TOV": 236
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2023,
+     "team": "DAL",
+     "GP": 70,
+     "PTS": 2370,
+     "PPG": 33.9,
+     "REB": 647,
+     "AST": 686,
+     "STL": 99,
+     "BLK": 38,
+     "FGM": 804,
+     "FGA": 1652,
+     "FG3M": 284,
+     "FG3A": 744,
+     "FTM": 478,
+     "FTA": 608,
+     "MIN": 2624,
+     "PF": 149,
+     "TOV": 282
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2024,
+     "team": "LAL",
+     "GP": 50,
+     "PTS": 1408,
+     "PPG": 28.2,
+     "REB": 409,
+     "AST": 383,
+     "STL": 89,
+     "BLK": 21,
+     "FGM": 461,
+     "FGA": 1025,
+     "FG3M": 177,
+     "FG3A": 481,
+     "FTM": 309,
+     "FTA": 395,
+     "MIN": 1769,
+     "PF": 126,
+     "TOV": 179
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2025,
+     "team": "LAL",
+     "GP": 64,
+     "PTS": 2143,
+     "PPG": 33.5,
+     "REB": 495,
+     "AST": 530,
+     "STL": 105,
+     "BLK": 34,
+     "FGM": 693,
+     "FGA": 1457,
+     "FG3M": 254,
+     "FG3A": 694,
+     "FTM": 503,
+     "FTA": 645,
+     "MIN": 2289,
+     "PF": 153,
+     "TOV": 255
+    }
+   ],
+   "text": "Luka Dončić averaged 25+ points in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+  },
+  {
+   "n": 18,
+   "kind": "streak",
+   "rule": "s_ft900",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2020,
+     "team": "GSW",
+     "GP": 63,
+     "PTS": 2015,
+     "PPG": 32,
+     "REB": 345,
+     "AST": 363,
+     "STL": 77,
+     "BLK": 8,
+     "FGM": 658,
+     "FGA": 1365,
+     "FG3M": 337,
+     "FG3A": 801,
+     "FTM": 362,
+     "FTA": 395,
+     "MIN": 2152,
+     "PF": 119,
+     "TOV": 213
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2021,
+     "team": "GSW",
+     "GP": 64,
+     "PTS": 1630,
+     "PPG": 25.5,
+     "REB": 335,
+     "AST": 404,
+     "STL": 85,
+     "BLK": 23,
+     "FGM": 535,
+     "FGA": 1224,
+     "FG3M": 285,
+     "FG3A": 750,
+     "FTM": 275,
+     "FTA": 298,
+     "MIN": 2211,
+     "PF": 130,
+     "TOV": 206
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2022,
+     "team": "GSW",
+     "GP": 56,
+     "PTS": 1648,
+     "PPG": 29.4,
+     "REB": 341,
+     "AST": 352,
+     "STL": 52,
+     "BLK": 20,
+     "FGM": 559,
+     "FGA": 1133,
+     "FG3M": 273,
+     "FG3A": 639,
+     "FTM": 257,
+     "FTA": 281,
+     "MIN": 1941,
+     "PF": 117,
+     "TOV": 179
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2023,
+     "team": "GSW",
+     "GP": 74,
+     "PTS": 1956,
+     "PPG": 26.4,
+     "REB": 330,
+     "AST": 379,
+     "STL": 54,
+     "BLK": 28,
+     "FGM": 650,
+     "FGA": 1445,
+     "FG3M": 357,
+     "FG3A": 876,
+     "FTM": 299,
+     "FTA": 324,
+     "MIN": 2422,
+     "PF": 117,
+     "TOV": 210
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2024,
+     "team": "GSW",
+     "GP": 70,
+     "PTS": 1718,
+     "PPG": 24.5,
+     "REB": 310,
+     "AST": 421,
+     "STL": 80,
+     "BLK": 30,
+     "FGM": 564,
+     "FGA": 1258,
+     "FG3M": 311,
+     "FG3A": 784,
+     "FTM": 279,
+     "FTA": 299,
+     "MIN": 2252,
+     "PF": 95,
+     "TOV": 200
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2025,
+     "team": "GSW",
+     "GP": 43,
+     "PTS": 1142,
+     "PPG": 26.6,
+     "REB": 154,
+     "AST": 203,
+     "STL": 49,
+     "BLK": 17,
+     "FGM": 374,
+     "FGA": 799,
+     "FG3M": 190,
+     "FG3A": 484,
+     "FTM": 204,
+     "FTA": 221,
+     "MIN": 1329,
+     "PF": 75,
+     "TOV": 121
+    }
+   ],
+   "text": "Stephen Curry shot .900 from the line (200+ FTA) in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+  },
+  {
+   "n": 19,
+   "kind": "streak",
+   "rule": "s_150_3s",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2020,
+     "team": "GSW",
+     "GP": 63,
+     "PTS": 2015,
+     "PPG": 32,
+     "REB": 345,
+     "AST": 363,
+     "STL": 77,
+     "BLK": 8,
+     "FGM": 658,
+     "FGA": 1365,
+     "FG3M": 337,
+     "FG3A": 801,
+     "FTM": 362,
+     "FTA": 395,
+     "MIN": 2152,
+     "PF": 119,
+     "TOV": 213
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2021,
+     "team": "GSW",
+     "GP": 64,
+     "PTS": 1630,
+     "PPG": 25.5,
+     "REB": 335,
+     "AST": 404,
+     "STL": 85,
+     "BLK": 23,
+     "FGM": 535,
+     "FGA": 1224,
+     "FG3M": 285,
+     "FG3A": 750,
+     "FTM": 275,
+     "FTA": 298,
+     "MIN": 2211,
+     "PF": 130,
+     "TOV": 206
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2022,
+     "team": "GSW",
+     "GP": 56,
+     "PTS": 1648,
+     "PPG": 29.4,
+     "REB": 341,
+     "AST": 352,
+     "STL": 52,
+     "BLK": 20,
+     "FGM": 559,
+     "FGA": 1133,
+     "FG3M": 273,
+     "FG3A": 639,
+     "FTM": 257,
+     "FTA": 281,
+     "MIN": 1941,
+     "PF": 117,
+     "TOV": 179
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2023,
+     "team": "GSW",
+     "GP": 74,
+     "PTS": 1956,
+     "PPG": 26.4,
+     "REB": 330,
+     "AST": 379,
+     "STL": 54,
+     "BLK": 28,
+     "FGM": 650,
+     "FGA": 1445,
+     "FG3M": 357,
+     "FG3A": 876,
+     "FTM": 299,
+     "FTA": 324,
+     "MIN": 2422,
+     "PF": 117,
+     "TOV": 210
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2024,
+     "team": "GSW",
+     "GP": 70,
+     "PTS": 1718,
+     "PPG": 24.5,
+     "REB": 310,
+     "AST": 421,
+     "STL": 80,
+     "BLK": 30,
+     "FGM": 564,
+     "FGA": 1258,
+     "FG3M": 311,
+     "FG3A": 784,
+     "FTM": 279,
+     "FTA": 299,
+     "MIN": 2252,
+     "PF": 95,
+     "TOV": 200
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2025,
+     "team": "GSW",
+     "GP": 43,
+     "PTS": 1142,
+     "PPG": 26.6,
+     "REB": 154,
+     "AST": 203,
+     "STL": 49,
+     "BLK": 17,
+     "FGM": 374,
+     "FGA": 799,
+     "FG3M": 190,
+     "FG3A": 484,
+     "FTM": 204,
+     "FTA": 221,
+     "MIN": 1329,
+     "PF": 75,
+     "TOV": 121
+    }
+   ],
+   "text": "Stephen Curry made 150+ threes in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "s_10rpg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2020,
+     "team": "DEN",
+     "GP": 72,
+     "PTS": 1898,
+     "PPG": 26.4,
+     "REB": 780,
+     "AST": 599,
+     "STL": 95,
+     "BLK": 48,
+     "FGM": 732,
+     "FGA": 1293,
+     "FG3M": 92,
+     "FG3A": 237,
+     "FTM": 342,
+     "FTA": 394,
+     "MIN": 2488,
+     "PF": 192,
+     "TOV": 222
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2021,
+     "team": "DEN",
+     "GP": 74,
+     "PTS": 2004,
+     "PPG": 27.1,
+     "REB": 1019,
+     "AST": 584,
+     "STL": 109,
+     "BLK": 63,
+     "FGM": 764,
+     "FGA": 1311,
+     "FG3M": 97,
+     "FG3A": 288,
+     "FTM": 379,
+     "FTA": 468,
+     "MIN": 2476,
+     "PF": 191,
+     "TOV": 281
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2022,
+     "team": "DEN",
+     "GP": 69,
+     "PTS": 1690,
+     "PPG": 24.5,
+     "REB": 817,
+     "AST": 678,
+     "STL": 87,
+     "BLK": 47,
+     "FGM": 646,
+     "FGA": 1022,
+     "FG3M": 57,
+     "FG3A": 149,
+     "FTM": 341,
+     "FTA": 415,
+     "MIN": 2323,
+     "PF": 174,
+     "TOV": 247
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2023,
+     "team": "DEN",
+     "GP": 79,
+     "PTS": 2085,
+     "PPG": 26.4,
+     "REB": 976,
+     "AST": 708,
+     "STL": 108,
+     "BLK": 68,
+     "FGM": 822,
+     "FGA": 1411,
+     "FG3M": 83,
+     "FG3A": 231,
+     "FTM": 358,
+     "FTA": 438,
+     "MIN": 2737,
+     "PF": 194,
+     "TOV": 237
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2024,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 2071,
+     "PPG": 29.6,
+     "REB": 892,
+     "AST": 716,
+     "STL": 127,
+     "BLK": 45,
+     "FGM": 786,
+     "FGA": 1364,
+     "FG3M": 138,
+     "FG3A": 331,
+     "FTM": 361,
+     "FTA": 451,
+     "MIN": 2571,
+     "PF": 160,
+     "TOV": 230
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2025,
+     "team": "DEN",
+     "GP": 65,
+     "PTS": 1799,
+     "PPG": 27.7,
+     "REB": 836,
+     "AST": 697,
+     "STL": 92,
+     "BLK": 53,
+     "FGM": 644,
+     "FGA": 1132,
+     "FG3M": 112,
+     "FG3A": 295,
+     "FTM": 399,
+     "FTA": 480,
+     "MIN": 2265,
+     "PF": 173,
+     "TOV": 243
+    }
+   ],
+   "text": "Nikola Jokić averaged a double-digit rebounding figure in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "s_20ppg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2020,
+     "team": "DEN",
+     "GP": 72,
+     "PTS": 1898,
+     "PPG": 26.4,
+     "REB": 780,
+     "AST": 599,
+     "STL": 95,
+     "BLK": 48,
+     "FGM": 732,
+     "FGA": 1293,
+     "FG3M": 92,
+     "FG3A": 237,
+     "FTM": 342,
+     "FTA": 394,
+     "MIN": 2488,
+     "PF": 192,
+     "TOV": 222
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2021,
+     "team": "DEN",
+     "GP": 74,
+     "PTS": 2004,
+     "PPG": 27.1,
+     "REB": 1019,
+     "AST": 584,
+     "STL": 109,
+     "BLK": 63,
+     "FGM": 764,
+     "FGA": 1311,
+     "FG3M": 97,
+     "FG3A": 288,
+     "FTM": 379,
+     "FTA": 468,
+     "MIN": 2476,
+     "PF": 191,
+     "TOV": 281
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2022,
+     "team": "DEN",
+     "GP": 69,
+     "PTS": 1690,
+     "PPG": 24.5,
+     "REB": 817,
+     "AST": 678,
+     "STL": 87,
+     "BLK": 47,
+     "FGM": 646,
+     "FGA": 1022,
+     "FG3M": 57,
+     "FG3A": 149,
+     "FTM": 341,
+     "FTA": 415,
+     "MIN": 2323,
+     "PF": 174,
+     "TOV": 247
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2023,
+     "team": "DEN",
+     "GP": 79,
+     "PTS": 2085,
+     "PPG": 26.4,
+     "REB": 976,
+     "AST": 708,
+     "STL": 108,
+     "BLK": 68,
+     "FGM": 822,
+     "FGA": 1411,
+     "FG3M": 83,
+     "FG3A": 231,
+     "FTM": 358,
+     "FTA": 438,
+     "MIN": 2737,
+     "PF": 194,
+     "TOV": 237
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2024,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 2071,
+     "PPG": 29.6,
+     "REB": 892,
+     "AST": 716,
+     "STL": 127,
+     "BLK": 45,
+     "FGM": 786,
+     "FGA": 1364,
+     "FG3M": 138,
+     "FG3A": 331,
+     "FTM": 361,
+     "FTA": 451,
+     "MIN": 2571,
+     "PF": 160,
+     "TOV": 230
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2025,
+     "team": "DEN",
+     "GP": 65,
+     "PTS": 1799,
+     "PPG": 27.7,
+     "REB": 836,
+     "AST": 697,
+     "STL": 92,
+     "BLK": 53,
+     "FGM": 644,
+     "FGA": 1132,
+     "FG3M": 112,
+     "FG3A": 295,
+     "FTM": 399,
+     "FTA": 480,
+     "MIN": 2265,
+     "PF": 173,
+     "TOV": 243
+    }
+   ],
+   "text": "Nikola Jokić averaged 20+ points in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+  },
+  {
+   "n": 22,
+   "kind": "streak",
+   "rule": "s_fg500",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2020,
+     "team": "DEN",
+     "GP": 72,
+     "PTS": 1898,
+     "PPG": 26.4,
+     "REB": 780,
+     "AST": 599,
+     "STL": 95,
+     "BLK": 48,
+     "FGM": 732,
+     "FGA": 1293,
+     "FG3M": 92,
+     "FG3A": 237,
+     "FTM": 342,
+     "FTA": 394,
+     "MIN": 2488,
+     "PF": 192,
+     "TOV": 222
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2021,
+     "team": "DEN",
+     "GP": 74,
+     "PTS": 2004,
+     "PPG": 27.1,
+     "REB": 1019,
+     "AST": 584,
+     "STL": 109,
+     "BLK": 63,
+     "FGM": 764,
+     "FGA": 1311,
+     "FG3M": 97,
+     "FG3A": 288,
+     "FTM": 379,
+     "FTA": 468,
+     "MIN": 2476,
+     "PF": 191,
+     "TOV": 281
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2022,
+     "team": "DEN",
+     "GP": 69,
+     "PTS": 1690,
+     "PPG": 24.5,
+     "REB": 817,
+     "AST": 678,
+     "STL": 87,
+     "BLK": 47,
+     "FGM": 646,
+     "FGA": 1022,
+     "FG3M": 57,
+     "FG3A": 149,
+     "FTM": 341,
+     "FTA": 415,
+     "MIN": 2323,
+     "PF": 174,
+     "TOV": 247
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2023,
+     "team": "DEN",
+     "GP": 79,
+     "PTS": 2085,
+     "PPG": 26.4,
+     "REB": 976,
+     "AST": 708,
+     "STL": 108,
+     "BLK": 68,
+     "FGM": 822,
+     "FGA": 1411,
+     "FG3M": 83,
+     "FG3A": 231,
+     "FTM": 358,
+     "FTA": 438,
+     "MIN": 2737,
+     "PF": 194,
+     "TOV": 237
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2024,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 2071,
+     "PPG": 29.6,
+     "REB": 892,
+     "AST": 716,
+     "STL": 127,
+     "BLK": 45,
+     "FGM": 786,
+     "FGA": 1364,
+     "FG3M": 138,
+     "FG3A": 331,
+     "FTM": 361,
+     "FTA": 451,
+     "MIN": 2571,
+     "PF": 160,
+     "TOV": 230
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2025,
+     "team": "DEN",
+     "GP": 65,
+     "PTS": 1799,
+     "PPG": 27.7,
+     "REB": 836,
+     "AST": 697,
+     "STL": 92,
+     "BLK": 53,
+     "FGM": 644,
+     "FGA": 1132,
+     "FG3M": 112,
+     "FG3A": 295,
+     "FTM": 399,
+     "FTA": 480,
+     "MIN": 2265,
+     "PF": 173,
+     "TOV": 243
+    }
+   ],
+   "text": "Nikola Jokić shot .500 from the field (800+ FGA) in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s."
+  },
+  {
+   "n": 23,
+   "kind": "streak",
+   "rule": "s_8apg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 7,
+   "players": [
+    {
+     "id": 1629027,
+     "name": "Trae Young"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2020,
+     "team": "ATL",
+     "GP": 63,
+     "PTS": 1594,
+     "PPG": 25.3,
+     "REB": 245,
+     "AST": 594,
+     "STL": 53,
+     "BLK": 12,
+     "FGM": 487,
+     "FGA": 1112,
+     "FG3M": 136,
+     "FG3A": 397,
+     "FTM": 484,
+     "FTA": 546,
+     "MIN": 2125,
+     "PF": 111,
+     "TOV": 261
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2021,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 2155,
+     "PPG": 28.4,
+     "REB": 284,
+     "AST": 737,
+     "STL": 72,
+     "BLK": 7,
+     "FGM": 711,
+     "FGA": 1544,
+     "FG3M": 233,
+     "FG3A": 610,
+     "FTM": 500,
+     "FTA": 553,
+     "MIN": 2652,
+     "PF": 128,
+     "TOV": 303
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2022,
+     "team": "ATL",
+     "GP": 73,
+     "PTS": 1914,
+     "PPG": 26.2,
+     "REB": 217,
+     "AST": 741,
+     "STL": 80,
+     "BLK": 9,
+     "FGM": 597,
+     "FGA": 1390,
+     "FG3M": 154,
+     "FG3A": 460,
+     "FTM": 566,
+     "FTA": 639,
+     "MIN": 2541,
+     "PF": 104,
+     "TOV": 300
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2023,
+     "team": "ATL",
+     "GP": 54,
+     "PTS": 1389,
+     "PPG": 25.7,
+     "REB": 149,
+     "AST": 583,
+     "STL": 72,
+     "BLK": 11,
+     "FGM": 433,
+     "FGA": 1008,
+     "FG3M": 175,
+     "FG3A": 469,
+     "FTM": 348,
+     "FTA": 407,
+     "MIN": 1942,
+     "PF": 109,
+     "TOV": 235
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    }
+   ],
+   "text": "Trae Young averaged 8+ assists in 5 straight seasons (2020-21 to 2024-25), the longest run of the 2020s."
+  },
+  {
+   "n": 24,
+   "rule": "bpg_3",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama",
+     "season": 2023,
+     "team": "SAS",
+     "GP": 71,
+     "PTS": 1522,
+     "PPG": 21.4,
+     "REB": 755,
+     "AST": 274,
+     "STL": 88,
+     "BLK": 254,
+     "FGM": 551,
+     "FGA": 1186,
+     "FG3M": 128,
+     "FG3A": 394,
+     "FTM": 292,
+     "FTA": 367,
+     "MIN": 2106,
+     "PF": 153,
+     "TOV": 260
+    },
+    {
+     "id": 1626167,
+     "name": "Myles Turner",
+     "season": 2020,
+     "team": "IND",
+     "GP": 47,
+     "PTS": 592,
+     "PPG": 12.6,
+     "REB": 306,
+     "AST": 48,
+     "STL": 40,
+     "BLK": 159,
+     "FGM": 206,
+     "FGA": 432,
+     "FG3M": 69,
+     "FG3A": 206,
+     "FTM": 111,
+     "FTA": 142,
+     "MIN": 1455,
+     "PF": 165,
+     "TOV": 67
+    },
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama",
+     "season": 2025,
+     "team": "SAS",
+     "GP": 64,
+     "PTS": 1600,
+     "PPG": 25,
+     "REB": 736,
+     "AST": 199,
+     "STL": 66,
+     "BLK": 197,
+     "FGM": 553,
+     "FGA": 1080,
+     "FG3M": 122,
+     "FG3A": 350,
+     "FTM": 372,
+     "FTA": 450,
+     "MIN": 1866,
+     "PF": 156,
+     "TOV": 155
+    },
+    {
+     "id": 1628991,
+     "name": "Jaren Jackson Jr.",
+     "season": 2022,
+     "team": "MEM",
+     "GP": 63,
+     "PTS": 1173,
+     "PPG": 18.6,
+     "REB": 426,
+     "AST": 60,
+     "STL": 65,
+     "BLK": 189,
+     "FGM": 416,
+     "FGA": 822,
+     "FG3M": 100,
+     "FG3A": 282,
+     "FTM": 241,
+     "FTA": 306,
+     "MIN": 1788,
+     "PF": 227,
+     "TOV": 107
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.894366197183099,
+   "players": [
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama"
+    },
+    {
+     "id": 1626167,
+     "name": "Myles Turner"
+    },
+    {
+     "id": 1628991,
+     "name": "Jaren Jackson Jr."
+    }
+   ],
+   "seasons": [
+    2023,
+    2020,
+    2025,
+    2022
+   ],
+   "text": "Just three players of the 2020s averaged 3 blocks a game (60% of games): Victor Wembanyama (2×, best 2023-24: 3.6 bpg); Myles Turner (2020-21: 3.4 bpg); Jaren Jackson Jr. (2022-23: 3.0 bpg)."
+  },
+  {
+   "n": 25,
+   "rule": "threes_200",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2023,
+     "team": "GSW",
+     "GP": 74,
+     "PTS": 1956,
+     "PPG": 26.4,
+     "REB": 330,
+     "AST": 379,
+     "STL": 54,
+     "BLK": 28,
+     "FGM": 650,
+     "FGA": 1445,
+     "FG3M": 357,
+     "FG3A": 876,
+     "FTM": 299,
+     "FTA": 324,
+     "MIN": 2422,
+     "PF": 117,
+     "TOV": 210
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2020,
+     "team": "GSW",
+     "GP": 63,
+     "PTS": 2015,
+     "PPG": 32,
+     "REB": 345,
+     "AST": 363,
+     "STL": 77,
+     "BLK": 8,
+     "FGM": 658,
+     "FGA": 1365,
+     "FG3M": 337,
+     "FG3A": 801,
+     "FTM": 362,
+     "FTA": 395,
+     "MIN": 2152,
+     "PF": 119,
+     "TOV": 213
+    },
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards",
+     "season": 2024,
+     "team": "MIN",
+     "GP": 79,
+     "PTS": 2177,
+     "PPG": 27.6,
+     "REB": 450,
+     "AST": 359,
+     "STL": 91,
+     "BLK": 51,
+     "FGM": 721,
+     "FGA": 1612,
+     "FG3M": 320,
+     "FG3A": 811,
+     "FTM": 415,
+     "FTA": 496,
+     "MIN": 2871,
+     "PF": 150,
+     "TOV": 249
+    },
+    {
+     "id": 1627736,
+     "name": "Malik Beasley",
+     "season": 2024,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1336,
+     "PPG": 16.3,
+     "REB": 214,
+     "AST": 139,
+     "STL": 73,
+     "BLK": 5,
+     "FGM": 461,
+     "FGA": 1071,
+     "FG3M": 319,
+     "FG3A": 766,
+     "FTM": 95,
+     "FTA": 140,
+     "MIN": 2283,
+     "PF": 125,
+     "TOV": 83
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2024,
+     "team": "GSW",
+     "GP": 70,
+     "PTS": 1718,
+     "PPG": 24.5,
+     "REB": 310,
+     "AST": 421,
+     "STL": 80,
+     "BLK": 30,
+     "FGM": 564,
+     "FGA": 1258,
+     "FG3M": 311,
+     "FG3A": 784,
+     "FTM": 279,
+     "FTA": 299,
+     "MIN": 2252,
+     "PF": 95,
+     "TOV": 200
+    },
+    {
+     "id": 202691,
+     "name": "Klay Thompson",
+     "season": 2022,
+     "team": "GSW",
+     "GP": 69,
+     "PTS": 1509,
+     "PPG": 21.9,
+     "REB": 286,
+     "AST": 163,
+     "STL": 49,
+     "BLK": 29,
+     "FGM": 546,
+     "FGA": 1252,
+     "FG3M": 301,
+     "FG3A": 731,
+     "FTM": 116,
+     "FTA": 132,
+     "MIN": 2279,
+     "PF": 130,
+     "TOV": 123
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.8925,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    },
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards"
+    },
+    {
+     "id": 1627736,
+     "name": "Malik Beasley"
+    },
+    {
+     "id": 202691,
+     "name": "Klay Thompson"
+    }
+   ],
+   "seasons": [
+    2023,
+    2020,
+    2024,
+    2024,
+    2024,
+    2022
+   ],
+   "text": "Just four players of the 2020s made 300 threes in a season: Stephen Curry (3×, best 2023-24: 357 3PM); Anthony Edwards (2024-25: 320 3PM); Malik Beasley (2024-25: 319 3PM); Klay Thompson (2022-23: 301 3PM)."
+  },
+  {
+   "n": 26,
+   "rule": "tov_300",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2024,
+     "team": "LAC",
+     "GP": 79,
+     "PTS": 1802,
+     "PPG": 22.8,
+     "REB": 456,
+     "AST": 687,
+     "STL": 118,
+     "BLK": 55,
+     "FGM": 531,
+     "FGA": 1295,
+     "FG3M": 235,
+     "FG3A": 668,
+     "FTM": 505,
+     "FTA": 578,
+     "MIN": 2789,
+     "PF": 162,
+     "TOV": 341
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2020,
+     "team": "WAS",
+     "GP": 65,
+     "PTS": 1445,
+     "PPG": 22.2,
+     "REB": 750,
+     "AST": 763,
+     "STL": 89,
+     "BLK": 23,
+     "FGM": 544,
+     "FGA": 1238,
+     "FG3M": 86,
+     "FG3A": 273,
+     "FTM": 271,
+     "FTA": 413,
+     "MIN": 2369,
+     "PF": 190,
+     "TOV": 312
+    },
+    {
+     "id": 1630595,
+     "name": "Cade Cunningham",
+     "season": 2024,
+     "team": "DET",
+     "GP": 70,
+     "PTS": 1830,
+     "PPG": 26.1,
+     "REB": 425,
+     "AST": 638,
+     "STL": 71,
+     "BLK": 53,
+     "FGM": 684,
+     "FGA": 1457,
+     "FG3M": 149,
+     "FG3A": 418,
+     "FTM": 313,
+     "FTA": 370,
+     "MIN": 2452,
+     "PF": 195,
+     "TOV": 309
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2021,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 2155,
+     "PPG": 28.4,
+     "REB": 284,
+     "AST": 737,
+     "STL": 72,
+     "BLK": 7,
+     "FGM": 711,
+     "FGA": 1544,
+     "FG3M": 233,
+     "FG3A": 610,
+     "FTM": 500,
+     "FTA": 553,
+     "MIN": 2652,
+     "PF": 128,
+     "TOV": 303
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2022,
+     "team": "ATL",
+     "GP": 73,
+     "PTS": 1914,
+     "PPG": 26.2,
+     "REB": 217,
+     "AST": 741,
+     "STL": 80,
+     "BLK": 9,
+     "FGM": 597,
+     "FGA": 1390,
+     "FG3M": 154,
+     "FG3A": 460,
+     "FTM": 566,
+     "FTA": 639,
+     "MIN": 2541,
+     "PF": 104,
+     "TOV": 300
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.8875,
+   "players": [
+    {
+     "id": 1629027,
+     "name": "Trae Young"
+    },
+    {
+     "id": 201935,
+     "name": "James Harden"
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    },
+    {
+     "id": 1630595,
+     "name": "Cade Cunningham"
+    }
+   ],
+   "seasons": [
+    2024,
+    2024,
+    2020,
+    2024,
+    2021,
+    2022
+   ],
+   "text": "Just four players of the 2020s committed 300 turnovers in a season: Trae Young (3×, best 2024-25: 355 TOV); James Harden (2024-25: 341 TOV); Russell Westbrook (2020-21: 312 TOV); Cade Cunningham (2024-25: 309 TOV)."
+  },
+  {
+   "n": 27,
+   "rule": "short_scorer",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2023,
+     "team": "PHI",
+     "GP": 39,
+     "PTS": 1353,
+     "PPG": 34.7,
+     "REB": 430,
+     "AST": 219,
+     "STL": 46,
+     "BLK": 66,
+     "FGM": 450,
+     "FGA": 851,
+     "FG3M": 54,
+     "FG3A": 139,
+     "FTM": 399,
+     "FTA": 452,
+     "MIN": 1309,
+     "PF": 112,
+     "TOV": 150
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2022,
+     "team": "PHX",
+     "GP": 47,
+     "PTS": 1366,
+     "PPG": 29.1,
+     "REB": 313,
+     "AST": 235,
+     "STL": 34,
+     "BLK": 67,
+     "FGM": 483,
+     "FGA": 862,
+     "FG3M": 93,
+     "FG3A": 230,
+     "FTM": 307,
+     "FTA": 334,
+     "MIN": 1672,
+     "PF": 99,
+     "TOV": 156
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2025,
+     "team": "MIL",
+     "GP": 36,
+     "PTS": 993,
+     "PPG": 27.6,
+     "REB": 352,
+     "AST": 196,
+     "STL": 34,
+     "BLK": 24,
+     "FGM": 373,
+     "FGA": 598,
+     "FG3M": 15,
+     "FG3A": 45,
+     "FTM": 232,
+     "FTA": 357,
+     "MIN": 1039,
+     "PF": 86,
+     "TOV": 115
+    },
+    {
+     "id": 202681,
+     "name": "Kyrie Irving",
+     "season": 2021,
+     "team": "BKN",
+     "GP": 29,
+     "PTS": 796,
+     "PPG": 27.4,
+     "REB": 127,
+     "AST": 167,
+     "STL": 41,
+     "BLK": 17,
+     "FGM": 289,
+     "FGA": 616,
+     "FG3M": 100,
+     "FG3A": 239,
+     "FTM": 118,
+     "FTA": 129,
+     "MIN": 1092,
+     "PF": 81,
+     "TOV": 73
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.867307692307692,
+   "players": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid"
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo"
+    },
+    {
+     "id": 202681,
+     "name": "Kyrie Irving"
+    }
+   ],
+   "seasons": [
+    2023,
+    2022,
+    2025,
+    2021
+   ],
+   "text": "Just four players of the 2020s averaged 27 points while missing 40% of the season (20+ games): Joel Embiid (2023-24: 34.7 ppg in 39 games); Kevin Durant (2022-23: 29.1 ppg in 47 games); Giannis Antetokounmpo (2025-26: 27.6 ppg in 36 games); Kyrie Irving (2021-22: 27.4 ppg in 29 games)."
+  },
+  {
+   "n": 28,
+   "rule": "pts_total",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2024,
+     "team": "OKC",
+     "GP": 76,
+     "PTS": 2484,
+     "PPG": 32.7,
+     "REB": 379,
+     "AST": 486,
+     "STL": 131,
+     "BLK": 77,
+     "FGM": 860,
+     "FGA": 1656,
+     "FG3M": 163,
+     "FG3A": 435,
+     "FTM": 601,
+     "FTA": 669,
+     "MIN": 2598,
+     "PF": 164,
+     "TOV": 183
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2023,
+     "team": "DAL",
+     "GP": 70,
+     "PTS": 2370,
+     "PPG": 33.9,
+     "REB": 647,
+     "AST": 686,
+     "STL": 99,
+     "BLK": 38,
+     "FGM": 804,
+     "FGA": 1652,
+     "FG3M": 284,
+     "FG3A": 744,
+     "FTM": 478,
+     "FTA": 608,
+     "MIN": 2624,
+     "PF": 149,
+     "TOV": 282
+    },
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2023,
+     "team": "OKC",
+     "GP": 75,
+     "PTS": 2254,
+     "PPG": 30.1,
+     "REB": 415,
+     "AST": 465,
+     "STL": 150,
+     "BLK": 67,
+     "FGM": 796,
+     "FGA": 1487,
+     "FG3M": 95,
+     "FG3A": 269,
+     "FTM": 567,
+     "FTA": 649,
+     "MIN": 2553,
+     "PF": 184,
+     "TOV": 162
+    },
+    {
+     "id": 1628369,
+     "name": "Jayson Tatum",
+     "season": 2022,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 2225,
+     "PPG": 30.1,
+     "REB": 649,
+     "AST": 342,
+     "STL": 78,
+     "BLK": 51,
+     "FGM": 727,
+     "FGA": 1559,
+     "FG3M": 240,
+     "FG3A": 686,
+     "FTM": 531,
+     "FTA": 622,
+     "MIN": 2732,
+     "PF": 160,
+     "TOV": 213
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2023,
+     "team": "MIL",
+     "GP": 73,
+     "PTS": 2222,
+     "PPG": 30.4,
+     "REB": 841,
+     "AST": 476,
+     "STL": 87,
+     "BLK": 79,
+     "FGM": 837,
+     "FGA": 1369,
+     "FG3M": 34,
+     "FG3A": 124,
+     "FTM": 514,
+     "FTA": 782,
+     "MIN": 2567,
+     "PF": 210,
+     "TOV": 250
+    },
+    {
+     "id": 1628973,
+     "name": "Jalen Brunson",
+     "season": 2023,
+     "team": "NYK",
+     "GP": 77,
+     "PTS": 2212,
+     "PPG": 28.7,
+     "REB": 278,
+     "AST": 519,
+     "STL": 70,
+     "BLK": 13,
+     "FGM": 790,
+     "FGA": 1648,
+     "FG3M": 211,
+     "FG3A": 526,
+     "FTM": 421,
+     "FTA": 497,
+     "MIN": 2726,
+     "PF": 144,
+     "TOV": 186
+    }
+   ],
+   "seasonsMatched": 26,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "13 players scored 2,000 points in a season in the 2020s (26 seasons). The most extreme: Shai Gilgeous-Alexander, 2024-25 — 2,484 pts."
+  },
+  {
+   "n": 29,
+   "rule": "more_threes_than_twos",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1631260,
+     "name": "AJ Green",
+     "season": 2025,
+     "team": "MIL",
+     "GP": 78,
+     "PTS": 809,
+     "PPG": 10.4,
+     "REB": 213,
+     "AST": 152,
+     "STL": 39,
+     "BLK": 8,
+     "FGM": 262,
+     "FGA": 618,
+     "FG3M": 232,
+     "FG3A": 554,
+     "FTM": 53,
+     "FTA": 62,
+     "MIN": 2270,
+     "PF": 179,
+     "TOV": 75
+    },
+    {
+     "id": 1629130,
+     "name": "Duncan Robinson",
+     "season": 2020,
+     "team": "MIA",
+     "GP": 72,
+     "PTS": 942,
+     "PPG": 13.1,
+     "REB": 250,
+     "AST": 127,
+     "STL": 43,
+     "BLK": 20,
+     "FGM": 315,
+     "FGA": 717,
+     "FG3M": 250,
+     "FG3A": 613,
+     "FTM": 62,
+     "FTA": 75,
+     "MIN": 2262,
+     "PF": 181,
+     "TOV": 81
+    },
+    {
+     "id": 1627736,
+     "name": "Malik Beasley",
+     "season": 2024,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1336,
+     "PPG": 16.3,
+     "REB": 214,
+     "AST": 139,
+     "STL": 73,
+     "BLK": 5,
+     "FGM": 461,
+     "FGA": 1071,
+     "FG3M": 319,
+     "FG3A": 766,
+     "FTM": 95,
+     "FTA": 140,
+     "MIN": 2283,
+     "PF": 125,
+     "TOV": 83
+    },
+    {
+     "id": 1629130,
+     "name": "Duncan Robinson",
+     "season": 2021,
+     "team": "MIA",
+     "GP": 79,
+     "PTS": 863,
+     "PPG": 10.9,
+     "REB": 203,
+     "AST": 129,
+     "STL": 42,
+     "BLK": 14,
+     "FGM": 290,
+     "FGA": 726,
+     "FG3M": 232,
+     "FG3A": 624,
+     "FTM": 51,
+     "FTA": 61,
+     "MIN": 2043,
+     "PF": 201,
+     "TOV": 60
+    },
+    {
+     "id": 1627741,
+     "name": "Buddy Hield",
+     "season": 2020,
+     "team": "SAC",
+     "GP": 71,
+     "PTS": 1176,
+     "PPG": 16.6,
+     "REB": 334,
+     "AST": 257,
+     "STL": 63,
+     "BLK": 30,
+     "FGM": 403,
+     "FGA": 992,
+     "FG3M": 282,
+     "FG3A": 721,
+     "FTM": 88,
+     "FTA": 104,
+     "MIN": 2433,
+     "PF": 175,
+     "TOV": 130
+    },
+    {
+     "id": 1626220,
+     "name": "Royce O'Neale",
+     "season": 2025,
+     "team": "PHX",
+     "GP": 78,
+     "PTS": 765,
+     "PPG": 9.8,
+     "REB": 372,
+     "AST": 208,
+     "STL": 84,
+     "BLK": 32,
+     "FGM": 263,
+     "FGA": 625,
+     "FG3M": 212,
+     "FG3A": 520,
+     "FTM": 27,
+     "FTA": 38,
+     "MIN": 2213,
+     "PF": 177,
+     "TOV": 103
+    }
+   ],
+   "seasonsMatched": 219,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 1631260,
+     "name": "AJ Green"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "113 players made more threes than twos (400+ FGA) in the 2020s (219 seasons). The most extreme: AJ Green, 2025-26 — 232 threes, 30 twos."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "po_most_pts",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2024,
+     "team": "OKC",
+     "GP": 23,
+     "PTS": 688,
+     "PPG": 29.9,
+     "REB": 123,
+     "AST": 150,
+     "STL": 38,
+     "BLK": 20,
+     "FGM": 233,
+     "FGA": 504,
+     "FG3M": 32,
+     "FG3A": 113,
+     "FTM": 190,
+     "FTA": 217,
+     "MIN": 851,
+     "PF": 65,
+     "TOV": 60
+    }
+   ],
+   "among": 1336,
+   "text": "Most points in a single postseason in the 2020s: Shai Gilgeous-Alexander, 2024-25 — 688 in 23 games."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "po_best_fg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1629028,
+     "name": "Deandre Ayton"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629028,
+     "name": "Deandre Ayton",
+     "season": 2020,
+     "team": "PHX",
+     "GP": 22,
+     "PTS": 347,
+     "PPG": 15.8,
+     "REB": 260,
+     "AST": 25,
+     "STL": 18,
+     "BLK": 24,
+     "FGM": 154,
+     "FGA": 234,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 39,
+     "FTA": 53,
+     "MIN": 801,
+     "PF": 63,
+     "TOV": 28
+    }
+   ],
+   "among": 166,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 2020s: Deandre Ayton, 2020-21 — .658."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "po_most_ast",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201950,
+     "name": "Jrue Holiday"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201950,
+     "name": "Jrue Holiday",
+     "season": 2020,
+     "team": "MIL",
+     "GP": 23,
+     "PTS": 399,
+     "PPG": 17.3,
+     "REB": 132,
+     "AST": 199,
+     "STL": 38,
+     "BLK": 10,
+     "FGM": 158,
+     "FGA": 389,
+     "FG3M": 43,
+     "FG3A": 142,
+     "FTM": 40,
+     "FTA": 56,
+     "MIN": 912,
+     "PF": 48,
+     "TOV": 56
+    }
+   ],
+   "among": 1336,
+   "text": "Most assists in a single postseason in the 2020s: Jrue Holiday, 2020-21 — 199 in 23 games."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "top_ppg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2023,
+     "team": "DAL",
+     "GP": 70,
+     "PTS": 2370,
+     "PPG": 33.9,
+     "REB": 647,
+     "AST": 686,
+     "STL": 99,
+     "BLK": 38,
+     "FGM": 804,
+     "FGA": 1652,
+     "FG3M": 284,
+     "FG3A": 744,
+     "FTM": 478,
+     "FTA": 608,
+     "MIN": 2624,
+     "PF": 149,
+     "TOV": 282
+    }
+   ],
+   "among": 1775,
+   "text": "Highest scoring average of the 2020s: Luka Dončić, 2023-24 — 33.9 points a game."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "worst_fg_scorer",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1627832,
+     "name": "Fred VanVleet"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1627832,
+     "name": "Fred VanVleet",
+     "season": 2021,
+     "team": "TOR",
+     "GP": 65,
+     "PTS": 1320,
+     "PPG": 20.3,
+     "REB": 289,
+     "AST": 434,
+     "STL": 111,
+     "BLK": 35,
+     "FGM": 442,
+     "FGA": 1097,
+     "FG3M": 242,
+     "FG3A": 642,
+     "FTM": 194,
+     "FTA": 222,
+     "MIN": 2462,
+     "PF": 162,
+     "TOV": 170
+    }
+   ],
+   "among": 242,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 2020s: Fred VanVleet, 2021-22 — .403 while averaging 20.3."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "best_ft_volume",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203081,
+     "name": "Damian Lillard"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203081,
+     "name": "Damian Lillard",
+     "season": 2023,
+     "team": "MIL",
+     "GP": 73,
+     "PTS": 1775,
+     "PPG": 24.3,
+     "REB": 320,
+     "AST": 508,
+     "STL": 72,
+     "BLK": 18,
+     "FGM": 541,
+     "FGA": 1277,
+     "FG3M": 220,
+     "FG3A": 622,
+     "FTM": 473,
+     "FTA": 514,
+     "MIN": 2578,
+     "PF": 134,
+     "TOV": 193
+    }
+   ],
+   "among": 39,
+   "text": "Best free-throw percentage on 500+ attempts in the 2020s: Damian Lillard, 2023-24 — .920 (473-514)."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "ast_low_pts",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2024,
+     "team": "SAS",
+     "GP": 82,
+     "PTS": 723,
+     "PPG": 8.8,
+     "REB": 296,
+     "AST": 605,
+     "STL": 103,
+     "BLK": 22,
+     "FGM": 249,
+     "FGA": 583,
+     "FG3M": 140,
+     "FG3A": 371,
+     "FTM": 85,
+     "FTA": 92,
+     "MIN": 2292,
+     "PF": 151,
+     "TOV": 129
+    }
+   ],
+   "among": 863,
+   "text": "Most assists by a sub-10-point scorer in the 2020s: Chris Paul, 2024-25 — 605 assists while averaging 8.8."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "most_pf",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1630256,
+     "name": "Jae'Sean Tate"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1630256,
+     "name": "Jae'Sean Tate",
+     "season": 2021,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 919,
+     "PPG": 11.8,
+     "REB": 420,
+     "AST": 222,
+     "STL": 72,
+     "BLK": 41,
+     "FGM": 363,
+     "FGA": 729,
+     "FG3M": 63,
+     "FG3A": 202,
+     "FTM": 130,
+     "FTA": 184,
+     "MIN": 2056,
+     "PF": 286,
+     "TOV": 139
+    }
+   ],
+   "among": 3407,
+   "text": "Most personal fouls in a season in the 2020s: Jae'Sean Tate, 2021-22 — 286."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_reb",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1627734,
+     "name": "Domantas Sabonis"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1627734,
+     "name": "Domantas Sabonis",
+     "season": 2023,
+     "team": "SAC",
+     "GP": 82,
+     "PTS": 1593,
+     "PPG": 19.4,
+     "REB": 1120,
+     "AST": 673,
+     "STL": 74,
+     "BLK": 48,
+     "FGM": 634,
+     "FGA": 1068,
+     "FG3M": 33,
+     "FG3A": 87,
+     "FTM": 292,
+     "FTA": 415,
+     "MIN": 2928,
+     "PF": 250,
+     "TOV": 272
+    }
+   ],
+   "among": 3407,
+   "text": "Most rebounds in a season in the 2020s: Domantas Sabonis, 2023-24 — 1,120 (13.7 a game)."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_min",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1628969,
+     "name": "Mikal Bridges"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628969,
+     "name": "Mikal Bridges",
+     "season": 2024,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1444,
+     "PPG": 17.6,
+     "REB": 259,
+     "AST": 306,
+     "STL": 75,
+     "BLK": 43,
+     "FGM": 592,
+     "FGA": 1183,
+     "FG3M": 164,
+     "FG3A": 463,
+     "FTM": 96,
+     "FTA": 118,
+     "MIN": 3036,
+     "PF": 127,
+     "TOV": 132
+    }
+   ],
+   "among": 3407,
+   "text": "Most minutes played in a season in the 2020s: Mikal Bridges, 2024-25 — 3,036 (37.0 a game)."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "reb_low_pts",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203500,
+     "name": "Steven Adams"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203500,
+     "name": "Steven Adams",
+     "season": 2021,
+     "team": "MEM",
+     "GP": 76,
+     "PTS": 528,
+     "PPG": 6.9,
+     "REB": 760,
+     "AST": 256,
+     "STL": 65,
+     "BLK": 60,
+     "FGM": 210,
+     "FGA": 384,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 108,
+     "FTA": 199,
+     "MIN": 1999,
+     "PF": 153,
+     "TOV": 115
+    }
+   ],
+   "among": 863,
+   "text": "Most rebounds by a sub-10-point scorer in the 2020s: Steven Adams, 2021-22 — 760 rebounds while averaging 6.9."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "top_rpg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert",
+     "season": 2021,
+     "team": "UTA",
+     "GP": 66,
+     "PTS": 1027,
+     "PPG": 15.6,
+     "REB": 968,
+     "AST": 72,
+     "STL": 45,
+     "BLK": 137,
+     "FGM": 362,
+     "FGA": 508,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 303,
+     "FTA": 439,
+     "MIN": 2120,
+     "PF": 176,
+     "TOV": 119
+    }
+   ],
+   "among": 1775,
+   "text": "Highest rebounding average of the 2020s: Rudy Gobert, 2021-22 — 14.7 a game."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "top_apg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2020,
+     "team": "WAS",
+     "GP": 65,
+     "PTS": 1445,
+     "PPG": 22.2,
+     "REB": 750,
+     "AST": 763,
+     "STL": 89,
+     "BLK": 23,
+     "FGM": 544,
+     "FGA": 1238,
+     "FG3M": 86,
+     "FG3A": 273,
+     "FTM": 271,
+     "FTA": 413,
+     "MIN": 2369,
+     "PF": 190,
+     "TOV": 312
+    }
+   ],
+   "among": 1775,
+   "text": "Highest assist average of the 2020s: Russell Westbrook, 2020-21 — 11.7 a game."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "short_pts",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2022,
+     "team": "PHX",
+     "GP": 47,
+     "PTS": 1366,
+     "PPG": 29.1,
+     "REB": 313,
+     "AST": 235,
+     "STL": 34,
+     "BLK": 67,
+     "FGM": 483,
+     "FGA": 862,
+     "FG3M": 93,
+     "FG3A": 230,
+     "FTM": 307,
+     "FTA": 334,
+     "MIN": 1672,
+     "PF": 99,
+     "TOV": 156
+    }
+   ],
+   "among": 932,
+   "text": "Most points by a player who appeared in fewer than 50 games in the 2020s: Kevin Durant, 2022-23 — 1,366 in 47."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "best_ft_official",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1642285,
+     "name": "Cam Spencer"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1642285,
+     "name": "Cam Spencer",
+     "season": 2025,
+     "team": "MEM",
+     "GP": 72,
+     "PTS": 798,
+     "PPG": 11.1,
+     "REB": 183,
+     "AST": 400,
+     "STL": 52,
+     "BLK": 11,
+     "FGM": 263,
+     "FGA": 556,
+     "FG3M": 146,
+     "FG3A": 325,
+     "FTM": 126,
+     "FTA": 134,
+     "MIN": 1714,
+     "PF": 103,
+     "TOV": 93
+    }
+   ],
+   "among": 666,
+   "text": "Best free-throw percentage in a season (125+ made) in the 2020s: Cam Spencer, 2025-26 — .940."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "most_oreb",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203500,
+     "name": "Steven Adams"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203500,
+     "name": "Steven Adams",
+     "season": 2021,
+     "team": "MEM",
+     "GP": 76,
+     "PTS": 528,
+     "PPG": 6.9,
+     "REB": 760,
+     "AST": 256,
+     "STL": 65,
+     "BLK": 60,
+     "FGM": 210,
+     "FGA": 384,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 108,
+     "FTA": 199,
+     "MIN": 1999,
+     "PF": 153,
+     "TOV": 115
+    }
+   ],
+   "among": 3407,
+   "text": "Most offensive rebounds in a season in the 2020s: Steven Adams, 2021-22 — 349."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "most_stl",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1630700,
+     "name": "Dyson Daniels"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1630700,
+     "name": "Dyson Daniels",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1073,
+     "PPG": 14.1,
+     "REB": 449,
+     "AST": 333,
+     "STL": 229,
+     "BLK": 55,
+     "FGM": 455,
+     "FGA": 923,
+     "FG3M": 80,
+     "FG3A": 235,
+     "FTM": 83,
+     "FTA": 140,
+     "MIN": 2571,
+     "PF": 175,
+     "TOV": 155
+    }
+   ],
+   "among": 3407,
+   "text": "Most steals in a season in the 2020s: Dyson Daniels, 2024-25 — 229."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "most_blk",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama",
+     "season": 2023,
+     "team": "SAS",
+     "GP": 71,
+     "PTS": 1522,
+     "PPG": 21.4,
+     "REB": 755,
+     "AST": 274,
+     "STL": 88,
+     "BLK": 254,
+     "FGM": 551,
+     "FGA": 1186,
+     "FG3M": 128,
+     "FG3A": 394,
+     "FTM": 292,
+     "FTA": 367,
+     "MIN": 2106,
+     "PF": 153,
+     "TOV": 260
+    }
+   ],
+   "among": 3407,
+   "text": "Most blocked shots in a season in the 2020s: Victor Wembanyama, 2023-24 — 254."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "pts_no_three",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1631105,
+     "name": "Jalen Duren"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1631105,
+     "name": "Jalen Duren",
+     "season": 2025,
+     "team": "DET",
+     "GP": 70,
+     "PTS": 1365,
+     "PPG": 19.5,
+     "REB": 737,
+     "AST": 138,
+     "STL": 57,
+     "BLK": 59,
+     "FGM": 522,
+     "FGA": 803,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 321,
+     "FTA": 430,
+     "MIN": 1976,
+     "PF": 195,
+     "TOV": 130
+    }
+   ],
+   "among": 413,
+   "text": "Most points in a season without a single made three in the 2020s: Jalen Duren, 2025-26 — 1,365."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "most_3pa_bad",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1628401,
+     "name": "Derrick White"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628401,
+     "name": "Derrick White",
+     "season": 2025,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 1267,
+     "PPG": 16.5,
+     "REB": 339,
+     "AST": 414,
+     "STL": 88,
+     "BLK": 98,
+     "FGM": 437,
+     "FGA": 1108,
+     "FG3M": 209,
+     "FG3A": 640,
+     "FTM": 184,
+     "FTA": 204,
+     "MIN": 2625,
+     "PF": 119,
+     "TOV": 134
+    }
+   ],
+   "among": 167,
+   "text": "Most threes attempted while shooting under .330 from deep in the 2020s: Derrick White, 2025-26 — 640 attempts at .327."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "best_3p_volume",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203925,
+     "name": "Joe Harris"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203925,
+     "name": "Joe Harris",
+     "season": 2020,
+     "team": "BKN",
+     "GP": 69,
+     "PTS": 974,
+     "PPG": 14.1,
+     "REB": 248,
+     "AST": 130,
+     "STL": 46,
+     "BLK": 14,
+     "FGM": 357,
+     "FGA": 707,
+     "FG3M": 211,
+     "FG3A": 444,
+     "FTM": 49,
+     "FTA": 63,
+     "MIN": 2142,
+     "PF": 141,
+     "TOV": 62
+    }
+   ],
+   "among": 612,
+   "text": "Best three-point percentage on 300+ attempts in the 2020s: Joe Harris, 2020-21 — .475 (211-444)."
+  },
+  {
+   "n": 51,
+   "kind": "nearmiss",
+   "rule": "tp399",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1629638,
+     "name": "Nickeil Alexander-Walker"
+    },
+    {
+     "id": 1629639,
+     "name": "Tyler Herro"
+    },
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards"
+    }
+   ],
+   "seasons": [
+    2025,
+    2021,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629638,
+     "name": "Nickeil Alexander-Walker",
+     "season": 2025,
+     "team": "ATL",
+     "GP": 78,
+     "PTS": 1624,
+     "PPG": 20.8,
+     "REB": 268,
+     "AST": 286,
+     "STL": 102,
+     "BLK": 42,
+     "FGM": 548,
+     "FGA": 1195,
+     "FG3M": 251,
+     "FG3A": 629,
+     "FTM": 277,
+     "FTA": 307,
+     "MIN": 2603,
+     "PF": 173,
+     "TOV": 162
+    },
+    {
+     "id": 1629639,
+     "name": "Tyler Herro",
+     "season": 2021,
+     "team": "MIA",
+     "GP": 66,
+     "PTS": 1367,
+     "PPG": 20.7,
+     "REB": 329,
+     "AST": 263,
+     "STL": 44,
+     "BLK": 8,
+     "FGM": 501,
+     "FGA": 1122,
+     "FG3M": 175,
+     "FG3A": 439,
+     "FTM": 190,
+     "FTA": 219,
+     "MIN": 2151,
+     "PF": 95,
+     "TOV": 174
+    },
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards",
+     "season": 2025,
+     "team": "MIN",
+     "GP": 61,
+     "PTS": 1757,
+     "PPG": 28.8,
+     "REB": 302,
+     "AST": 226,
+     "STL": 83,
+     "BLK": 49,
+     "FGM": 602,
+     "FGA": 1231,
+     "FG3M": 205,
+     "FG3A": 514,
+     "FTM": 348,
+     "FTA": 437,
+     "MIN": 2137,
+     "PF": 118,
+     "TOV": 174
+    },
+    {
+     "id": 1628960,
+     "name": "Grayson Allen",
+     "season": 2022,
+     "team": "MIL",
+     "GP": 72,
+     "PTS": 750,
+     "PPG": 10.4,
+     "REB": 237,
+     "AST": 163,
+     "STL": 62,
+     "BLK": 14,
+     "FGM": 245,
+     "FGA": 557,
+     "FG3M": 146,
+     "FG3A": 366,
+     "FTM": 114,
+     "FTA": 126,
+     "MIN": 1972,
+     "PF": 117,
+     "TOV": 72
+    },
+    {
+     "id": 1628381,
+     "name": "John Collins",
+     "season": 2020,
+     "team": "ATL",
+     "GP": 63,
+     "PTS": 1111,
+     "PPG": 17.6,
+     "REB": 467,
+     "AST": 78,
+     "STL": 34,
+     "BLK": 63,
+     "FGM": 429,
+     "FGA": 771,
+     "FG3M": 83,
+     "FG3A": 208,
+     "FTM": 170,
+     "FTA": 204,
+     "MIN": 1848,
+     "PF": 193,
+     "TOV": 84
+    },
+    {
+     "id": 1628374,
+     "name": "Lauri Markkanen",
+     "season": 2023,
+     "team": "UTA",
+     "GP": 55,
+     "PTS": 1278,
+     "PPG": 23.2,
+     "REB": 449,
+     "AST": 110,
+     "STL": 50,
+     "BLK": 26,
+     "FGM": 427,
+     "FGA": 890,
+     "FG3M": 175,
+     "FG3A": 439,
+     "FTM": 249,
+     "FTA": 277,
+     "MIN": 1820,
+     "PF": 100,
+     "TOV": 77
+    }
+   ],
+   "text": "9 player-seasons of the 2020s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Nickeil Alexander-Walker (2025-26), Tyler Herro (2021-22), Anthony Edwards (2025-26)."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "po_most_reb",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2020,
+     "team": "MIL",
+     "GP": 21,
+     "PTS": 634,
+     "PPG": 30.2,
+     "REB": 269,
+     "AST": 108,
+     "STL": 21,
+     "BLK": 25,
+     "FGM": 250,
+     "FGA": 439,
+     "FG3M": 13,
+     "FG3A": 70,
+     "FTM": 121,
+     "FTA": 206,
+     "MIN": 800,
+     "PF": 61,
+     "TOV": 64
+    }
+   ],
+   "among": 1336,
+   "text": "Most rebounds in a single postseason in the 2020s: Giannis Antetokounmpo, 2020-21 — 269 in 21 games."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "worst_ft_volume",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2024,
+     "team": "MIL",
+     "GP": 67,
+     "PTS": 2036,
+     "PPG": 30.4,
+     "REB": 798,
+     "AST": 433,
+     "STL": 58,
+     "BLK": 78,
+     "FGM": 793,
+     "FGA": 1319,
+     "FG3M": 14,
+     "FG3A": 63,
+     "FTM": 436,
+     "FTA": 707,
+     "MIN": 2289,
+     "PF": 155,
+     "TOV": 206
+    }
+   ],
+   "among": 108,
+   "text": "Worst free-throw percentage on 400+ attempts in the 2020s: Giannis Antetokounmpo, 2024-25 — .617 (436-707)."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "most_fga",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2024,
+     "team": "OKC",
+     "GP": 76,
+     "PTS": 2484,
+     "PPG": 32.7,
+     "REB": 379,
+     "AST": 486,
+     "STL": 131,
+     "BLK": 77,
+     "FGM": 860,
+     "FGA": 1656,
+     "FG3M": 163,
+     "FG3A": 435,
+     "FTM": 601,
+     "FTA": 669,
+     "MIN": 2598,
+     "PF": 164,
+     "TOV": 183
+    }
+   ],
+   "among": 3407,
+   "text": "Most shots attempted in a season in the 2020s: Shai Gilgeous-Alexander, 2024-25 — 1,656 FGA, .519."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "most_ast",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1629027,
+     "name": "Trae Young"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    }
+   ],
+   "among": 3407,
+   "text": "Most assists in a season in the 2020s: Trae Young, 2024-25 — 880 (11.6 a game)."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "ppg_bench_size",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2022,
+     "team": "MIL",
+     "GP": 63,
+     "PTS": 1959,
+     "PPG": 31.1,
+     "REB": 742,
+     "AST": 359,
+     "STL": 52,
+     "BLK": 51,
+     "FGM": 707,
+     "FGA": 1278,
+     "FG3M": 47,
+     "FG3A": 171,
+     "FTM": 498,
+     "FTA": 772,
+     "MIN": 2024,
+     "PF": 197,
+     "TOV": 246
+    }
+   ],
+   "among": 1775,
+   "text": "Most points per minute by a qualified player in the 2020s: Giannis Antetokounmpo, 2022-23 — 31.1 ppg in 32.1 minutes."
+  },
+  {
+   "n": 57,
+   "kind": "extreme",
+   "rule": "most_ftm",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2022,
+     "team": "OKC",
+     "GP": 68,
+     "PTS": 2135,
+     "PPG": 31.4,
+     "REB": 329,
+     "AST": 371,
+     "STL": 112,
+     "BLK": 65,
+     "FGM": 704,
+     "FGA": 1381,
+     "FG3M": 58,
+     "FG3A": 168,
+     "FTM": 669,
+     "FTA": 739,
+     "MIN": 2416,
+     "PF": 192,
+     "TOV": 192
+    }
+   ],
+   "among": 3407,
+   "text": "Most free throws made in a season in the 2020s: Shai Gilgeous-Alexander, 2022-23 — 669 of 739."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "most_3pm",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2023,
+     "team": "GSW",
+     "GP": 74,
+     "PTS": 1956,
+     "PPG": 26.4,
+     "REB": 330,
+     "AST": 379,
+     "STL": 54,
+     "BLK": 28,
+     "FGM": 650,
+     "FGA": 1445,
+     "FG3M": 357,
+     "FG3A": 876,
+     "FTM": 299,
+     "FTA": 324,
+     "MIN": 2422,
+     "PF": 117,
+     "TOV": 210
+    }
+   ],
+   "among": 3407,
+   "text": "Most threes made in a season in the 2020s: Stephen Curry, 2023-24 — 357."
+  },
+  {
+   "n": 59,
+   "kind": "streak",
+   "rule": "s_2000",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander"
+    }
+   ],
+   "seasons": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2022,
+     "team": "OKC",
+     "GP": 68,
+     "PTS": 2135,
+     "PPG": 31.4,
+     "REB": 329,
+     "AST": 371,
+     "STL": 112,
+     "BLK": 65,
+     "FGM": 704,
+     "FGA": 1381,
+     "FG3M": 58,
+     "FG3A": 168,
+     "FTM": 669,
+     "FTA": 739,
+     "MIN": 2416,
+     "PF": 192,
+     "TOV": 192
+    },
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2023,
+     "team": "OKC",
+     "GP": 75,
+     "PTS": 2254,
+     "PPG": 30.1,
+     "REB": 415,
+     "AST": 465,
+     "STL": 150,
+     "BLK": 67,
+     "FGM": 796,
+     "FGA": 1487,
+     "FG3M": 95,
+     "FG3A": 269,
+     "FTM": 567,
+     "FTA": 649,
+     "MIN": 2553,
+     "PF": 184,
+     "TOV": 162
+    },
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2024,
+     "team": "OKC",
+     "GP": 76,
+     "PTS": 2484,
+     "PPG": 32.7,
+     "REB": 379,
+     "AST": 486,
+     "STL": 131,
+     "BLK": 77,
+     "FGM": 860,
+     "FGA": 1656,
+     "FG3M": 163,
+     "FG3A": 435,
+     "FTM": 601,
+     "FTA": 669,
+     "MIN": 2598,
+     "PF": 164,
+     "TOV": 183
+    },
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "season": 2025,
+     "team": "OKC",
+     "GP": 68,
+     "PTS": 2117,
+     "PPG": 31.1,
+     "REB": 292,
+     "AST": 448,
+     "STL": 95,
+     "BLK": 52,
+     "FGM": 731,
+     "FGA": 1321,
+     "FG3M": 115,
+     "FG3A": 298,
+     "FTM": 540,
+     "FTA": 614,
+     "MIN": 2259,
+     "PF": 139,
+     "TOV": 151
+    }
+   ],
+   "text": "Shai Gilgeous-Alexander scored 2,000 points in 4 straight seasons (2022-23 to 2025-26), the longest run of the 2020s."
+  },
+  {
+   "n": 60,
+   "kind": "total",
+   "rule": "t_pts",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "total": 11736,
+     "seasons": 6
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "total": 11547,
+     "seasons": 6
+    },
+    {
+     "id": 1628983,
+     "name": "Shai Gilgeous-Alexander",
+     "total": 11191,
+     "seasons": 6
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "total": 10929,
+     "seasons": 6
+    },
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards",
+     "total": 10854,
+     "seasons": 6
+    }
+   ],
+   "text": "Most points of the 2020s: Luka Dončić, 11,736 — 189 ahead of Nikola Jokić."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "t_reb",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert",
+     "total": 5381,
+     "seasons": 6
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "total": 5320,
+     "seasons": 6
+    },
+    {
+     "id": 1627734,
+     "name": "Domantas Sabonis",
+     "total": 4775,
+     "seasons": 6
+    },
+    {
+     "id": 202696,
+     "name": "Nikola Vučević",
+     "total": 4597,
+     "seasons": 6
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "total": 4182,
+     "seasons": 6
+    }
+   ],
+   "text": "Most rebounds of the 2020s: Rudy Gobert, 5,381."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "t_gp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1628969,
+     "name": "Mikal Bridges"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628969,
+     "name": "Mikal Bridges",
+     "total": 483,
+     "seasons": 6
+    },
+    {
+     "id": 203084,
+     "name": "Harrison Barnes",
+     "total": 458,
+     "seasons": 6
+    },
+    {
+     "id": 1626220,
+     "name": "Royce O'Neale",
+     "total": 456,
+     "seasons": 6
+    },
+    {
+     "id": 1629675,
+     "name": "Naz Reid",
+     "total": 453,
+     "seasons": 6
+    },
+    {
+     "id": 1627741,
+     "name": "Buddy Hield",
+     "total": 449,
+     "seasons": 6
+    }
+   ],
+   "text": "Most games played in the 2020s: Mikal Bridges, 483."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "t_pf",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1630183,
+     "name": "Jaden McDaniels"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1630183,
+     "name": "Jaden McDaniels",
+     "total": 1356,
+     "seasons": 6
+    },
+    {
+     "id": 1626157,
+     "name": "Karl-Anthony Towns",
+     "total": 1272,
+     "seasons": 6
+    },
+    {
+     "id": 1628415,
+     "name": "Dillon Brooks",
+     "total": 1248,
+     "seasons": 6
+    },
+    {
+     "id": 1627734,
+     "name": "Domantas Sabonis",
+     "total": 1230,
+     "seasons": 6
+    },
+    {
+     "id": 1628991,
+     "name": "Jaren Jackson Jr.",
+     "total": 1212,
+     "seasons": 6
+    }
+   ],
+   "text": "Most personal fouls committed in the 2020s: Jaden McDaniels, 1,356."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "t_min",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1628969,
+     "name": "Mikal Bridges"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628969,
+     "name": "Mikal Bridges",
+     "total": 16747,
+     "seasons": 6
+    },
+    {
+     "id": 201942,
+     "name": "DeMar DeRozan",
+     "total": 15644,
+     "seasons": 6
+    },
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards",
+     "total": 15399,
+     "seasons": 6
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "total": 14860,
+     "seasons": 6
+    },
+    {
+     "id": 1627783,
+     "name": "Pascal Siakam",
+     "total": 14499,
+     "seasons": 6
+    }
+   ],
+   "text": "Most minutes of the 2020s: Mikal Bridges, 16,747."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "t_blk",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1626167,
+     "name": "Myles Turner"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1626167,
+     "name": "Myles Turner",
+     "total": 820,
+     "seasons": 6
+    },
+    {
+     "id": 203497,
+     "name": "Rudy Gobert",
+     "total": 812,
+     "seasons": 6
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez",
+     "total": 735,
+     "seasons": 6
+    },
+    {
+     "id": 1628991,
+     "name": "Jaren Jackson Jr.",
+     "total": 672,
+     "seasons": 6
+    },
+    {
+     "id": 1641705,
+     "name": "Victor Wembanyama",
+     "total": 627,
+     "seasons": 3
+    }
+   ],
+   "text": "Most blocked shots of the 2020s: Myles Turner, 820."
+  },
+  {
+   "n": 66,
+   "kind": "season",
+   "rule": "c_25_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 16
+    },
+    {
+     "season": 2021,
+     "count": 13
+    },
+    {
+     "season": 2022,
+     "count": 18
+    },
+    {
+     "season": 2023,
+     "count": 16
+    },
+    {
+     "season": 2024,
+     "count": 11
+    },
+    {
+     "season": 2025,
+     "count": 13
+    }
+   ],
+   "text": "2022-23 had 18 25-point scorers, the most of any season in the 2020s."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "c_25_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 16
+    },
+    {
+     "season": 2021,
+     "count": 13
+    },
+    {
+     "season": 2022,
+     "count": 18
+    },
+    {
+     "season": 2023,
+     "count": 16
+    },
+    {
+     "season": 2024,
+     "count": 11
+    },
+    {
+     "season": 2025,
+     "count": 13
+    }
+   ],
+   "text": "2024-25 had just 11 25-point scorers, the fewest of any season in the 2020s."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "c_20_10_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 8
+    },
+    {
+     "season": 2021,
+     "count": 3
+    },
+    {
+     "season": 2022,
+     "count": 4
+    },
+    {
+     "season": 2023,
+     "count": 4
+    },
+    {
+     "season": 2024,
+     "count": 4
+    },
+    {
+     "season": 2025,
+     "count": 5
+    }
+   ],
+   "text": "2020-21 had 8 20-and-10 players, the most of any season in the 2020s."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "c_20_10_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 8
+    },
+    {
+     "season": 2021,
+     "count": 3
+    },
+    {
+     "season": 2022,
+     "count": 4
+    },
+    {
+     "season": 2023,
+     "count": 4
+    },
+    {
+     "season": 2024,
+     "count": 4
+    },
+    {
+     "season": 2025,
+     "count": 5
+    }
+   ],
+   "text": "2021-22 had just 3 20-and-10 players, the fewest of any season in the 2020s."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_ft900_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 3
+    },
+    {
+     "season": 2021,
+     "count": 4
+    },
+    {
+     "season": 2022,
+     "count": 5
+    },
+    {
+     "season": 2023,
+     "count": 4
+    },
+    {
+     "season": 2024,
+     "count": 4
+    },
+    {
+     "season": 2025,
+     "count": 4
+    }
+   ],
+   "text": "2022-23 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2020s."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_ft900_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 3
+    },
+    {
+     "season": 2021,
+     "count": 4
+    },
+    {
+     "season": 2022,
+     "count": 5
+    },
+    {
+     "season": 2023,
+     "count": 4
+    },
+    {
+     "season": 2024,
+     "count": 4
+    },
+    {
+     "season": 2025,
+     "count": 4
+    }
+   ],
+   "text": "2020-21 had just 3 .900 free-throw shooters (200+ FTA), the fewest of any season in the 2020s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_10apg_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 7
+    },
+    {
+     "season": 2021,
+     "count": 7
+    },
+    {
+     "season": 2022,
+     "count": 7
+    },
+    {
+     "season": 2023,
+     "count": 8
+    },
+    {
+     "season": 2024,
+     "count": 6
+    },
+    {
+     "season": 2025,
+     "count": 4
+    }
+   ],
+   "text": "2023-24 had 8 8-assist players, the most of any season in the 2020s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_10apg_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 7
+    },
+    {
+     "season": 2021,
+     "count": 7
+    },
+    {
+     "season": 2022,
+     "count": 7
+    },
+    {
+     "season": 2023,
+     "count": 8
+    },
+    {
+     "season": 2024,
+     "count": 6
+    },
+    {
+     "season": 2025,
+     "count": 4
+    }
+   ],
+   "text": "2025-26 had just 4 8-assist players, the fewest of any season in the 2020s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_20_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 37
+    },
+    {
+     "season": 2021,
+     "count": 34
+    },
+    {
+     "season": 2022,
+     "count": 49
+    },
+    {
+     "season": 2023,
+     "count": 43
+    },
+    {
+     "season": 2024,
+     "count": 41
+    },
+    {
+     "season": 2025,
+     "count": 38
+    }
+   ],
+   "text": "2022-23 had 49 20-point scorers, the most of any season in the 2020s."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_20_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 37
+    },
+    {
+     "season": 2021,
+     "count": 34
+    },
+    {
+     "season": 2022,
+     "count": 49
+    },
+    {
+     "season": 2023,
+     "count": 43
+    },
+    {
+     "season": 2024,
+     "count": 41
+    },
+    {
+     "season": 2025,
+     "count": 38
+    }
+   ],
+   "text": "2021-22 had just 34 20-point scorers, the fewest of any season in the 2020s."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_all_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 11
+    },
+    {
+     "season": 2021,
+     "count": 5
+    },
+    {
+     "season": 2022,
+     "count": 1
+    },
+    {
+     "season": 2023,
+     "count": 1
+    },
+    {
+     "season": 2024,
+     "count": 11
+    },
+    {
+     "season": 2025,
+     "count": 18
+    }
+   ],
+   "text": "2025-26 had 18 players who appeared in every game, the most of any season in the 2020s."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_all_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 11
+    },
+    {
+     "season": 2021,
+     "count": 5
+    },
+    {
+     "season": 2022,
+     "count": 1
+    },
+    {
+     "season": 2023,
+     "count": 1
+    },
+    {
+     "season": 2024,
+     "count": 11
+    },
+    {
+     "season": 2025,
+     "count": 18
+    }
+   ],
+   "text": "2022-23 had just one player who appeared in every game, the fewest of any season in the 2020s."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "c_10rpg_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 15
+    },
+    {
+     "season": 2021,
+     "count": 15
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 13
+    },
+    {
+     "season": 2024,
+     "count": 12
+    },
+    {
+     "season": 2025,
+     "count": 8
+    }
+   ],
+   "text": "2020-21 had 15 double-digit rebounders, the most of any season in the 2020s."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_10rpg_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 15
+    },
+    {
+     "season": 2021,
+     "count": 15
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 13
+    },
+    {
+     "season": 2024,
+     "count": 12
+    },
+    {
+     "season": 2025,
+     "count": 8
+    }
+   ],
+   "text": "2025-26 had just 8 double-digit rebounders, the fewest of any season in the 2020s."
+  },
+  {
+   "n": 80,
+   "kind": "nearmiss",
+   "rule": "fg499",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1627759,
+     "name": "Jaylen Brown"
+    },
+    {
+     "id": 203954,
+     "name": "Joel Embiid"
+    },
+    {
+     "id": 1628374,
+     "name": "Lauri Markkanen"
+    }
+   ],
+   "seasons": [
+    2023,
+    2021,
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1627759,
+     "name": "Jaylen Brown",
+     "season": 2023,
+     "team": "BOS",
+     "GP": 70,
+     "PTS": 1610,
+     "PPG": 23,
+     "REB": 387,
+     "AST": 249,
+     "STL": 83,
+     "BLK": 37,
+     "FGM": 627,
+     "FGA": 1256,
+     "FG3M": 145,
+     "FG3A": 410,
+     "FTM": 211,
+     "FTA": 300,
+     "MIN": 2343,
+     "PF": 185,
+     "TOV": 166
+    },
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2021,
+     "team": "PHI",
+     "GP": 68,
+     "PTS": 2079,
+     "PPG": 30.6,
+     "REB": 796,
+     "AST": 284,
+     "STL": 77,
+     "BLK": 99,
+     "FGM": 666,
+     "FGA": 1334,
+     "FG3M": 93,
+     "FG3A": 251,
+     "FTM": 654,
+     "FTA": 803,
+     "MIN": 2296,
+     "PF": 181,
+     "TOV": 214
+    },
+    {
+     "id": 1628374,
+     "name": "Lauri Markkanen",
+     "season": 2022,
+     "team": "UTA",
+     "GP": 66,
+     "PTS": 1691,
+     "PPG": 25.6,
+     "REB": 570,
+     "AST": 123,
+     "STL": 42,
+     "BLK": 38,
+     "FGM": 571,
+     "FGA": 1145,
+     "FG3M": 200,
+     "FG3A": 511,
+     "FTM": 349,
+     "FTA": 399,
+     "MIN": 2272,
+     "PF": 137,
+     "TOV": 127
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2020,
+     "team": "PHX",
+     "GP": 70,
+     "PTS": 1149,
+     "PPG": 16.4,
+     "REB": 312,
+     "AST": 622,
+     "STL": 99,
+     "BLK": 19,
+     "FGM": 439,
+     "FGA": 879,
+     "FG3M": 102,
+     "FG3A": 258,
+     "FTM": 169,
+     "FTA": 181,
+     "MIN": 2200,
+     "PF": 166,
+     "TOV": 156
+    }
+   ],
+   "text": "4 player-seasons of the 2020s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Jaylen Brown (2023-24), Joel Embiid (2021-22), Lauri Markkanen (2022-23)."
+  },
+  {
+   "n": 81,
+   "kind": "total",
+   "rule": "t_3pm",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "total": 1753,
+     "seasons": 6
+    },
+    {
+     "id": 1627741,
+     "name": "Buddy Hield",
+     "total": 1328,
+     "seasons": 6
+    },
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards",
+     "total": 1314,
+     "seasons": 6
+    },
+    {
+     "id": 1628378,
+     "name": "Donovan Mitchell",
+     "total": 1294,
+     "seasons": 6
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "total": 1293,
+     "seasons": 6
+    }
+   ],
+   "text": "Most threes of the 2020s: Stephen Curry, 1,753."
+  },
+  {
+   "n": 82,
+   "kind": "total",
+   "rule": "t_tov",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "total": 1525,
+     "seasons": 6
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "total": 1493,
+     "seasons": 6
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "total": 1460,
+     "seasons": 6
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "total": 1457,
+     "seasons": 6
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "total": 1427,
+     "seasons": 6
+    }
+   ],
+   "text": "Most turnovers of the 2020s: Luka Dončić, 1,525."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_30_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 2
+    },
+    {
+     "season": 2021,
+     "count": 2
+    },
+    {
+     "season": 2022,
+     "count": 6
+    },
+    {
+     "season": 2023,
+     "count": 3
+    },
+    {
+     "season": 2024,
+     "count": 2
+    },
+    {
+     "season": 2025,
+     "count": 2
+    }
+   ],
+   "text": "2022-23 had 6 30-point scorers, the most of any season in the 2020s."
+  },
+  {
+   "n": 84,
+   "kind": "season",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 2
+    },
+    {
+     "season": 2021,
+     "count": 2
+    },
+    {
+     "season": 2022,
+     "count": 6
+    },
+    {
+     "season": 2023,
+     "count": 3
+    },
+    {
+     "season": 2024,
+     "count": 2
+    },
+    {
+     "season": 2025,
+     "count": 2
+    }
+   ],
+   "text": "2020-21 had just 2 30-point scorers, the fewest of any season in the 2020s."
+  },
+  {
+   "n": 85,
+   "kind": "season",
+   "rule": "c_2spg_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 1
+    },
+    {
+     "season": 2021,
+     "count": 1
+    },
+    {
+     "season": 2022,
+     "count": 0
+    },
+    {
+     "season": 2023,
+     "count": 2
+    },
+    {
+     "season": 2024,
+     "count": 1
+    },
+    {
+     "season": 2025,
+     "count": 1
+    }
+   ],
+   "text": "2023-24 had 2 2-steal players, the most of any season in the 2020s."
+  },
+  {
+   "n": 86,
+   "kind": "season",
+   "rule": "c_2spg_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 1
+    },
+    {
+     "season": 2021,
+     "count": 1
+    },
+    {
+     "season": 2022,
+     "count": 0
+    },
+    {
+     "season": 2023,
+     "count": 2
+    },
+    {
+     "season": 2024,
+     "count": 1
+    },
+    {
+     "season": 2025,
+     "count": 1
+    }
+   ],
+   "text": "2022-23 had no 2-steal players at all — the only season of the 2020s without one."
+  },
+  {
+   "n": 87,
+   "rule": "threes_good_volume",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2023,
+     "team": "GSW",
+     "GP": 74,
+     "PTS": 1956,
+     "PPG": 26.4,
+     "REB": 330,
+     "AST": 379,
+     "STL": 54,
+     "BLK": 28,
+     "FGM": 650,
+     "FGA": 1445,
+     "FG3M": 357,
+     "FG3A": 876,
+     "FTM": 299,
+     "FTA": 324,
+     "MIN": 2422,
+     "PF": 117,
+     "TOV": 210
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2020,
+     "team": "GSW",
+     "GP": 63,
+     "PTS": 2015,
+     "PPG": 32,
+     "REB": 345,
+     "AST": 363,
+     "STL": 77,
+     "BLK": 8,
+     "FGM": 658,
+     "FGA": 1365,
+     "FG3M": 337,
+     "FG3A": 801,
+     "FTM": 362,
+     "FTA": 395,
+     "MIN": 2152,
+     "PF": 119,
+     "TOV": 213
+    },
+    {
+     "id": 1627736,
+     "name": "Malik Beasley",
+     "season": 2024,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1336,
+     "PPG": 16.3,
+     "REB": 214,
+     "AST": 139,
+     "STL": 73,
+     "BLK": 5,
+     "FGM": 461,
+     "FGA": 1071,
+     "FG3M": 319,
+     "FG3A": 766,
+     "FTM": 95,
+     "FTA": 140,
+     "MIN": 2283,
+     "PF": 125,
+     "TOV": 83
+    },
+    {
+     "id": 1627741,
+     "name": "Buddy Hield",
+     "season": 2022,
+     "team": "IND",
+     "GP": 80,
+     "PTS": 1344,
+     "PPG": 16.8,
+     "REB": 400,
+     "AST": 225,
+     "STL": 92,
+     "BLK": 26,
+     "FGM": 475,
+     "FGA": 1038,
+     "FG3M": 288,
+     "FG3A": 677,
+     "FTM": 106,
+     "FTA": 129,
+     "MIN": 2482,
+     "PF": 156,
+     "TOV": 139
+    },
+    {
+     "id": 202691,
+     "name": "Klay Thompson",
+     "season": 2022,
+     "team": "GSW",
+     "GP": 69,
+     "PTS": 1509,
+     "PPG": 21.9,
+     "REB": 286,
+     "AST": 163,
+     "STL": 49,
+     "BLK": 29,
+     "FGM": 546,
+     "FGA": 1252,
+     "FG3M": 301,
+     "FG3A": 731,
+     "FTM": 116,
+     "FTA": 132,
+     "MIN": 2279,
+     "PF": 130,
+     "TOV": 123
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2022,
+     "team": "GSW",
+     "GP": 56,
+     "PTS": 1648,
+     "PPG": 29.4,
+     "REB": 341,
+     "AST": 352,
+     "STL": 52,
+     "BLK": 20,
+     "FGM": 559,
+     "FGA": 1133,
+     "FG3M": 273,
+     "FG3A": 639,
+     "FTM": 257,
+     "FTA": 281,
+     "MIN": 1941,
+     "PF": 117,
+     "TOV": 179
+    }
+   ],
+   "seasonsMatched": 87,
+   "kind": "list",
+   "score": 4.911335616438356,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "62 players made 150 threes at a .400 clip in the 2020s (87 seasons). The most extreme: Stephen Curry, 2023-24 — 357 3PM, .408."
+  },
+  {
+   "n": 88,
+   "kind": "nearmiss",
+   "rule": "rpg99",
+   "group": "P",
+   "decade": "2020s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 203944,
+     "name": "Julius Randle"
+    },
+    {
+     "id": 1627826,
+     "name": "Ivica Zubac"
+    },
+    {
+     "id": 1629651,
+     "name": "Nic Claxton"
+    }
+   ],
+   "seasons": [
+    2021,
+    2022,
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203944,
+     "name": "Julius Randle",
+     "season": 2021,
+     "team": "NYK",
+     "GP": 72,
+     "PTS": 1447,
+     "PPG": 20.1,
+     "REB": 716,
+     "AST": 370,
+     "STL": 53,
+     "BLK": 39,
+     "FGM": 512,
+     "FGA": 1246,
+     "FG3M": 120,
+     "FG3A": 390,
+     "FTM": 303,
+     "FTA": 401,
+     "MIN": 2544,
+     "PF": 205,
+     "TOV": 245
+    },
+    {
+     "id": 1627826,
+     "name": "Ivica Zubac",
+     "season": 2022,
+     "team": "LAC",
+     "GP": 76,
+     "PTS": 818,
+     "PPG": 10.8,
+     "REB": 756,
+     "AST": 77,
+     "STL": 29,
+     "BLK": 98,
+     "FGM": 326,
+     "FGA": 514,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 166,
+     "FTA": 238,
+     "MIN": 2169,
+     "PF": 219,
+     "TOV": 117
+    },
+    {
+     "id": 1629651,
+     "name": "Nic Claxton",
+     "season": 2023,
+     "team": "BKN",
+     "GP": 71,
+     "PTS": 841,
+     "PPG": 11.8,
+     "REB": 706,
+     "AST": 147,
+     "STL": 46,
+     "BLK": 146,
+     "FGM": 366,
+     "FGA": 582,
+     "FG3M": 1,
+     "FG3A": 5,
+     "FTM": 108,
+     "FTA": 196,
+     "MIN": 2116,
+     "PF": 175,
+     "TOV": 93
+    }
+   ],
+   "text": "3 player-seasons of the 2020s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Julius Randle (2021-22), Ivica Zubac (2022-23), Nic Claxton (2023-24)."
+  },
+  {
+   "n": 89,
+   "rule": "fg_600",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1631105,
+     "name": "Jalen Duren",
+     "season": 2025,
+     "team": "DET",
+     "GP": 70,
+     "PTS": 1365,
+     "PPG": 19.5,
+     "REB": 737,
+     "AST": 138,
+     "STL": 57,
+     "BLK": 59,
+     "FGM": 522,
+     "FGA": 803,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 321,
+     "FTA": 430,
+     "MIN": 1976,
+     "PF": 195,
+     "TOV": 130
+    },
+    {
+     "id": 1628386,
+     "name": "Jarrett Allen",
+     "season": 2023,
+     "team": "CLE",
+     "GP": 77,
+     "PTS": 1271,
+     "PPG": 16.5,
+     "REB": 811,
+     "AST": 210,
+     "STL": 53,
+     "BLK": 81,
+     "FGM": 519,
+     "FGA": 819,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 233,
+     "FTA": 314,
+     "MIN": 2442,
+     "PF": 147,
+     "TOV": 121
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2022,
+     "team": "DEN",
+     "GP": 69,
+     "PTS": 1690,
+     "PPG": 24.5,
+     "REB": 817,
+     "AST": 678,
+     "STL": 87,
+     "BLK": 47,
+     "FGM": 646,
+     "FGA": 1022,
+     "FG3M": 57,
+     "FG3A": 149,
+     "FTM": 341,
+     "FTA": 415,
+     "MIN": 2323,
+     "PF": 174,
+     "TOV": 247
+    },
+    {
+     "id": 1627826,
+     "name": "Ivica Zubac",
+     "season": 2024,
+     "team": "LAC",
+     "GP": 80,
+     "PTS": 1340,
+     "PPG": 16.8,
+     "REB": 1010,
+     "AST": 214,
+     "STL": 55,
+     "BLK": 90,
+     "FGM": 592,
+     "FGA": 942,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 156,
+     "FTA": 236,
+     "MIN": 2624,
+     "PF": 168,
+     "TOV": 127
+    },
+    {
+     "id": 1627734,
+     "name": "Domantas Sabonis",
+     "season": 2022,
+     "team": "SAC",
+     "GP": 79,
+     "PTS": 1510,
+     "PPG": 19.1,
+     "REB": 973,
+     "AST": 573,
+     "STL": 65,
+     "BLK": 39,
+     "FGM": 577,
+     "FGA": 938,
+     "FG3M": 31,
+     "FG3A": 83,
+     "FTM": 325,
+     "FTA": 438,
+     "MIN": 2736,
+     "PF": 279,
+     "TOV": 230
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2023,
+     "team": "MIL",
+     "GP": 73,
+     "PTS": 2222,
+     "PPG": 30.4,
+     "REB": 841,
+     "AST": 476,
+     "STL": 87,
+     "BLK": 79,
+     "FGM": 837,
+     "FGA": 1369,
+     "FG3M": 34,
+     "FG3A": 124,
+     "FTM": 514,
+     "FTA": 782,
+     "MIN": 2567,
+     "PF": 210,
+     "TOV": 250
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.6251556662515565,
+   "players": [
+    {
+     "id": 1631105,
+     "name": "Jalen Duren"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "7 players shot .600 from the field on 800+ attempts in the 2020s (8 seasons). The most extreme: Jalen Duren, 2025-26 — .650 on 803 FGA."
+  },
+  {
+   "n": 90,
+   "rule": "twentyfive_five_five",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2023,
+     "team": "DAL",
+     "GP": 70,
+     "PTS": 2370,
+     "PPG": 33.9,
+     "REB": 647,
+     "AST": 686,
+     "STL": 99,
+     "BLK": 38,
+     "FGM": 804,
+     "FGA": 1652,
+     "FG3M": 284,
+     "FG3A": 744,
+     "FTM": 478,
+     "FTA": 608,
+     "MIN": 2624,
+     "PF": 149,
+     "TOV": 282
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2024,
+     "team": "DEN",
+     "GP": 70,
+     "PTS": 2071,
+     "PPG": 29.6,
+     "REB": 892,
+     "AST": 716,
+     "STL": 127,
+     "BLK": 45,
+     "FGM": 786,
+     "FGA": 1364,
+     "FG3M": 138,
+     "FG3A": 331,
+     "FTM": 361,
+     "FTA": 451,
+     "MIN": 2571,
+     "PF": 160,
+     "TOV": 230
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2025,
+     "team": "DEN",
+     "GP": 65,
+     "PTS": 1799,
+     "PPG": 27.7,
+     "REB": 836,
+     "AST": 697,
+     "STL": 92,
+     "BLK": 53,
+     "FGM": 644,
+     "FGA": 1132,
+     "FG3M": 112,
+     "FG3A": 295,
+     "FTM": 399,
+     "FTA": 480,
+     "MIN": 2265,
+     "PF": 173,
+     "TOV": 243
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2025,
+     "team": "LAL",
+     "GP": 64,
+     "PTS": 2143,
+     "PPG": 33.5,
+     "REB": 495,
+     "AST": 530,
+     "STL": 105,
+     "BLK": 34,
+     "FGM": 693,
+     "FGA": 1457,
+     "FG3M": 254,
+     "FG3A": 694,
+     "FTM": 503,
+     "FTA": 645,
+     "MIN": 2289,
+     "PF": 153,
+     "TOV": 255
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2022,
+     "team": "DAL",
+     "GP": 66,
+     "PTS": 2138,
+     "PPG": 32.4,
+     "REB": 569,
+     "AST": 529,
+     "STL": 90,
+     "BLK": 33,
+     "FGM": 719,
+     "FGA": 1449,
+     "FG3M": 185,
+     "FG3A": 541,
+     "FTM": 515,
+     "FTA": 694,
+     "MIN": 2391,
+     "PF": 166,
+     "TOV": 236
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2024,
+     "team": "MIL",
+     "GP": 67,
+     "PTS": 2036,
+     "PPG": 30.4,
+     "REB": 798,
+     "AST": 433,
+     "STL": 58,
+     "BLK": 78,
+     "FGM": 793,
+     "FGA": 1319,
+     "FG3M": 14,
+     "FG3A": 63,
+     "FTM": 436,
+     "FTA": 707,
+     "MIN": 2289,
+     "PF": 155,
+     "TOV": 206
+    }
+   ],
+   "seasonsMatched": 35,
+   "kind": "list",
+   "score": 4.3225,
+   "players": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "14 players averaged 25 points, 5 rebounds and 5 assists (60% of games) in the 2020s (35 seasons). The most extreme: Luka Dončić, 2023-24 — 33.9/9.2/9.8."
+  },
+  {
+   "n": 91,
+   "kind": "nearmiss",
+   "rule": "ppg249",
+   "group": "P",
+   "decade": "2020s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 203081,
+     "name": "Damian Lillard"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203081,
+     "name": "Damian Lillard",
+     "season": 2024,
+     "team": "MIL",
+     "GP": 58,
+     "PTS": 1447,
+     "PPG": 24.9,
+     "REB": 272,
+     "AST": 410,
+     "STL": 70,
+     "BLK": 10,
+     "FGM": 444,
+     "FGA": 992,
+     "FG3M": 197,
+     "FG3A": 524,
+     "FTM": 362,
+     "FTA": 393,
+     "MIN": 2093,
+     "PF": 97,
+     "TOV": 162
+    }
+   ],
+   "text": "Exactly one player of the 2020s finished a season with a 24.9 scoring average, a tenth short of 25: Damian Lillard (2024-25)."
+  },
+  {
+   "n": 92,
+   "kind": "nearmiss",
+   "rule": "apg99",
+   "group": "P",
+   "decade": "2020s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 1630595,
+     "name": "Cade Cunningham"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1630595,
+     "name": "Cade Cunningham",
+     "season": 2025,
+     "team": "DET",
+     "GP": 64,
+     "PTS": 1531,
+     "PPG": 23.9,
+     "REB": 355,
+     "AST": 634,
+     "STL": 92,
+     "BLK": 54,
+     "FGM": 548,
+     "FGA": 1189,
+     "FG3M": 125,
+     "FG3A": 366,
+     "FTM": 310,
+     "FTA": 382,
+     "MIN": 2172,
+     "PF": 196,
+     "TOV": 236
+    }
+   ],
+   "text": "Exactly one player of the 2020s finished a season with 9.9 assists a game, a tenth short of 10: Cade Cunningham (2025-26)."
+  },
+  {
+   "n": 93,
+   "rule": "threes_great",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628379,
+     "name": "Luke Kennard",
+     "season": 2022,
+     "team": "MEM",
+     "GP": 59,
+     "PTS": 546,
+     "PPG": 9.3,
+     "REB": 158,
+     "AST": 91,
+     "STL": 32,
+     "BLK": 5,
+     "FGM": 188,
+     "FGA": 382,
+     "FG3M": 133,
+     "FG3A": 269,
+     "FTM": 37,
+     "FTA": 39,
+     "MIN": 1315,
+     "PF": 82,
+     "TOV": 46
+    },
+    {
+     "id": 203925,
+     "name": "Joe Harris",
+     "season": 2020,
+     "team": "BKN",
+     "GP": 69,
+     "PTS": 974,
+     "PPG": 14.1,
+     "REB": 248,
+     "AST": 130,
+     "STL": 46,
+     "BLK": 14,
+     "FGM": 357,
+     "FGA": 707,
+     "FG3M": 211,
+     "FG3A": 444,
+     "FTM": 49,
+     "FTA": 63,
+     "MIN": 2142,
+     "PF": 141,
+     "TOV": 62
+    },
+    {
+     "id": 202694,
+     "name": "Marcus Morris Sr.",
+     "season": 2020,
+     "team": "LAC",
+     "GP": 57,
+     "PTS": 765,
+     "PPG": 13.4,
+     "REB": 234,
+     "AST": 58,
+     "STL": 34,
+     "BLK": 15,
+     "FGM": 276,
+     "FGA": 584,
+     "FG3M": 140,
+     "FG3A": 296,
+     "FTM": 73,
+     "FTA": 89,
+     "MIN": 1502,
+     "PF": 117,
+     "TOV": 57
+    },
+    {
+     "id": 1628960,
+     "name": "Grayson Allen",
+     "season": 2023,
+     "team": "PHX",
+     "GP": 75,
+     "PTS": 1014,
+     "PPG": 13.5,
+     "REB": 295,
+     "AST": 227,
+     "STL": 69,
+     "BLK": 45,
+     "FGM": 340,
+     "FGA": 682,
+     "FG3M": 205,
+     "FG3A": 445,
+     "FTM": 129,
+     "FTA": 147,
+     "MIN": 2513,
+     "PF": 157,
+     "TOV": 95
+    },
+    {
+     "id": 1626171,
+     "name": "Bobby Portis Jr.",
+     "season": 2025,
+     "team": "MIL",
+     "GP": 67,
+     "PTS": 915,
+     "PPG": 13.7,
+     "REB": 428,
+     "AST": 105,
+     "STL": 41,
+     "BLK": 12,
+     "FGM": 366,
+     "FGA": 750,
+     "FG3M": 135,
+     "FG3A": 296,
+     "FTM": 48,
+     "FTA": 68,
+     "MIN": 1619,
+     "PF": 110,
+     "TOV": 66
+    },
+    {
+     "id": 1627854,
+     "name": "Bryn Forbes",
+     "season": 2020,
+     "team": "MIL",
+     "GP": 70,
+     "PTS": 701,
+     "PPG": 10,
+     "REB": 112,
+     "AST": 45,
+     "STL": 24,
+     "BLK": 1,
+     "FGM": 250,
+     "FGA": 529,
+     "FG3M": 154,
+     "FG3A": 341,
+     "FTM": 47,
+     "FTA": 61,
+     "MIN": 1354,
+     "PF": 77,
+     "TOV": 44
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.236059479553903,
+   "players": [
+    {
+     "id": 1628379,
+     "name": "Luke Kennard"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "8 players shot .450 from three on 250+ attempts in the 2020s. The most extreme: Luke Kennard, 2022-23 — .494 on 269 3PA."
+  },
+  {
+   "n": 94,
+   "rule": "big_reb",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert",
+     "season": 2021,
+     "team": "UTA",
+     "GP": 66,
+     "PTS": 1027,
+     "PPG": 15.6,
+     "REB": 968,
+     "AST": 72,
+     "STL": 45,
+     "BLK": 137,
+     "FGM": 362,
+     "FGA": 508,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 303,
+     "FTA": 439,
+     "MIN": 2120,
+     "PF": 176,
+     "TOV": 119
+    },
+    {
+     "id": 203991,
+     "name": "Clint Capela",
+     "season": 2020,
+     "team": "ATL",
+     "GP": 63,
+     "PTS": 956,
+     "PPG": 15.2,
+     "REB": 903,
+     "AST": 49,
+     "STL": 44,
+     "BLK": 129,
+     "FGM": 413,
+     "FGA": 695,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 130,
+     "FTA": 227,
+     "MIN": 1898,
+     "PF": 145,
+     "TOV": 73
+    },
+    {
+     "id": 1627734,
+     "name": "Domantas Sabonis",
+     "season": 2024,
+     "team": "SAC",
+     "GP": 70,
+     "PTS": 1337,
+     "PPG": 19.1,
+     "REB": 972,
+     "AST": 423,
+     "STL": 48,
+     "BLK": 26,
+     "FGM": 527,
+     "FGA": 893,
+     "FG3M": 65,
+     "FG3A": 156,
+     "FTM": 218,
+     "FTA": 289,
+     "MIN": 2429,
+     "PF": 229,
+     "TOV": 202
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2021,
+     "team": "DEN",
+     "GP": 74,
+     "PTS": 2004,
+     "PPG": 27.1,
+     "REB": 1019,
+     "AST": 584,
+     "STL": 109,
+     "BLK": 63,
+     "FGM": 764,
+     "FGA": 1311,
+     "FG3M": 97,
+     "FG3A": 288,
+     "FTM": 379,
+     "FTA": 468,
+     "MIN": 2476,
+     "PF": 191,
+     "TOV": 281
+    },
+    {
+     "id": 1627734,
+     "name": "Domantas Sabonis",
+     "season": 2023,
+     "team": "SAC",
+     "GP": 82,
+     "PTS": 1593,
+     "PPG": 19.4,
+     "REB": 1120,
+     "AST": 673,
+     "STL": 74,
+     "BLK": 48,
+     "FGM": 634,
+     "FGA": 1068,
+     "FG3M": 33,
+     "FG3A": 87,
+     "FTM": 292,
+     "FTA": 415,
+     "MIN": 2928,
+     "PF": 250,
+     "TOV": 272
+    },
+    {
+     "id": 203497,
+     "name": "Rudy Gobert",
+     "season": 2020,
+     "team": "UTA",
+     "GP": 71,
+     "PTS": 1015,
+     "PPG": 14.3,
+     "REB": 960,
+     "AST": 89,
+     "STL": 40,
+     "BLK": 190,
+     "FGM": 391,
+     "FGA": 579,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 233,
+     "FTA": 374,
+     "MIN": 2187,
+     "PF": 163,
+     "TOV": 118
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 4.1,
+   "players": [
+    {
+     "id": 203497,
+     "name": "Rudy Gobert"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "9 players averaged 12+ rebounds (60% of games) in the 2020s (18 seasons). The most extreme: Rudy Gobert, 2021-22 — 14.7 rpg."
+  },
+  {
+   "n": 95,
+   "rule": "big_ast",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2020,
+     "team": "WAS",
+     "GP": 65,
+     "PTS": 1445,
+     "PPG": 22.2,
+     "REB": 750,
+     "AST": 763,
+     "STL": 89,
+     "BLK": 23,
+     "FGM": 544,
+     "FGA": 1238,
+     "FG3M": 86,
+     "FG3A": 273,
+     "FTM": 271,
+     "FTA": 413,
+     "MIN": 2369,
+     "PF": 190,
+     "TOV": 312
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    },
+    {
+     "id": 1630169,
+     "name": "Tyrese Haliburton",
+     "season": 2023,
+     "team": "IND",
+     "GP": 69,
+     "PTS": 1389,
+     "PPG": 20.1,
+     "REB": 271,
+     "AST": 752,
+     "STL": 83,
+     "BLK": 48,
+     "FGM": 500,
+     "FGA": 1048,
+     "FG3M": 195,
+     "FG3A": 535,
+     "FTM": 194,
+     "FTA": 227,
+     "MIN": 2224,
+     "PF": 75,
+     "TOV": 159
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2021,
+     "team": "PHX",
+     "GP": 65,
+     "PTS": 958,
+     "PPG": 14.7,
+     "REB": 283,
+     "AST": 702,
+     "STL": 121,
+     "BLK": 20,
+     "FGM": 363,
+     "FGA": 736,
+     "FG3M": 63,
+     "FG3A": 199,
+     "FTM": 169,
+     "FTA": 202,
+     "MIN": 2139,
+     "PF": 134,
+     "TOV": 153
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2023,
+     "team": "ATL",
+     "GP": 54,
+     "PTS": 1389,
+     "PPG": 25.7,
+     "REB": 149,
+     "AST": 583,
+     "STL": 72,
+     "BLK": 11,
+     "FGM": 433,
+     "FGA": 1008,
+     "FG3M": 175,
+     "FG3A": 469,
+     "FTM": 348,
+     "FTA": 407,
+     "MIN": 1942,
+     "PF": 109,
+     "TOV": 235
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2020,
+     "team": "BKN",
+     "GP": 44,
+     "PTS": 1083,
+     "PPG": 24.6,
+     "REB": 348,
+     "AST": 475,
+     "STL": 53,
+     "BLK": 33,
+     "FGM": 342,
+     "FGA": 734,
+     "FG3M": 121,
+     "FG3A": 334,
+     "FTM": 278,
+     "FTA": 323,
+     "MIN": 1609,
+     "PF": 99,
+     "TOV": 177
+    }
+   ],
+   "seasonsMatched": 21,
+   "kind": "list",
+   "score": 3.8803846153846155,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "10 players averaged 9+ assists (60% of games) in the 2020s (21 seasons). The most extreme: Russell Westbrook, 2020-21 — 11.7 apg."
+  },
+  {
+   "n": 96,
+   "rule": "apg_10",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2020,
+     "team": "WAS",
+     "GP": 65,
+     "PTS": 1445,
+     "PPG": 22.2,
+     "REB": 750,
+     "AST": 763,
+     "STL": 89,
+     "BLK": 23,
+     "FGM": 544,
+     "FGA": 1238,
+     "FG3M": 86,
+     "FG3A": 273,
+     "FTM": 271,
+     "FTA": 413,
+     "MIN": 2369,
+     "PF": 190,
+     "TOV": 312
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    },
+    {
+     "id": 1630169,
+     "name": "Tyrese Haliburton",
+     "season": 2023,
+     "team": "IND",
+     "GP": 69,
+     "PTS": 1389,
+     "PPG": 20.1,
+     "REB": 271,
+     "AST": 752,
+     "STL": 83,
+     "BLK": 48,
+     "FGM": 500,
+     "FGA": 1048,
+     "FG3M": 195,
+     "FG3A": 535,
+     "FTM": 194,
+     "FTA": 227,
+     "MIN": 2224,
+     "PF": 75,
+     "TOV": 159
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2021,
+     "team": "PHX",
+     "GP": 65,
+     "PTS": 958,
+     "PPG": 14.7,
+     "REB": 283,
+     "AST": 702,
+     "STL": 121,
+     "BLK": 20,
+     "FGM": 363,
+     "FGA": 736,
+     "FG3M": 63,
+     "FG3A": 199,
+     "FTM": 169,
+     "FTA": 202,
+     "MIN": 2139,
+     "PF": 134,
+     "TOV": 153
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2023,
+     "team": "ATL",
+     "GP": 54,
+     "PTS": 1389,
+     "PPG": 25.7,
+     "REB": 149,
+     "AST": 583,
+     "STL": 72,
+     "BLK": 11,
+     "FGM": 433,
+     "FGA": 1008,
+     "FG3M": 175,
+     "FG3A": 469,
+     "FTM": 348,
+     "FTA": 407,
+     "MIN": 1942,
+     "PF": 109,
+     "TOV": 235
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2020,
+     "team": "BKN",
+     "GP": 44,
+     "PTS": 1083,
+     "PPG": 24.6,
+     "REB": 348,
+     "AST": 475,
+     "STL": 53,
+     "BLK": 33,
+     "FGM": 342,
+     "FGA": 734,
+     "FG3M": 121,
+     "FG3A": 334,
+     "FTM": 278,
+     "FTA": 323,
+     "MIN": 1609,
+     "PF": 99,
+     "TOV": 177
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.8803846153846155,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "6 players averaged 10 assists a game (60% of games) in the 2020s (12 seasons). The most extreme: Russell Westbrook, 2020-21 — 11.7 apg."
+  },
+  {
+   "n": 97,
+   "rule": "short_big",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2023,
+     "team": "PHI",
+     "GP": 39,
+     "PTS": 1353,
+     "PPG": 34.7,
+     "REB": 430,
+     "AST": 219,
+     "STL": 46,
+     "BLK": 66,
+     "FGM": 450,
+     "FGA": 851,
+     "FG3M": 54,
+     "FG3A": 139,
+     "FTM": 399,
+     "FTA": 452,
+     "MIN": 1309,
+     "PF": 112,
+     "TOV": 150
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2022,
+     "team": "PHX",
+     "GP": 47,
+     "PTS": 1366,
+     "PPG": 29.1,
+     "REB": 313,
+     "AST": 235,
+     "STL": 34,
+     "BLK": 67,
+     "FGM": 483,
+     "FGA": 862,
+     "FG3M": 93,
+     "FG3A": 230,
+     "FTM": 307,
+     "FTA": 334,
+     "MIN": 1672,
+     "PF": 99,
+     "TOV": 156
+    },
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2025,
+     "team": "PHI",
+     "GP": 38,
+     "PTS": 1021,
+     "PPG": 26.9,
+     "REB": 293,
+     "AST": 150,
+     "STL": 21,
+     "BLK": 46,
+     "FGM": 341,
+     "FGA": 697,
+     "FG3M": 53,
+     "FG3A": 159,
+     "FTM": 286,
+     "FTA": 335,
+     "MIN": 1201,
+     "PF": 82,
+     "TOV": 109
+    },
+    {
+     "id": 1628374,
+     "name": "Lauri Markkanen",
+     "season": 2025,
+     "team": "UTA",
+     "GP": 42,
+     "PTS": 1123,
+     "PPG": 26.7,
+     "REB": 289,
+     "AST": 89,
+     "STL": 42,
+     "BLK": 21,
+     "FGM": 384,
+     "FGA": 805,
+     "FG3M": 115,
+     "FG3A": 324,
+     "FTM": 240,
+     "FTA": 268,
+     "MIN": 1443,
+     "PF": 77,
+     "TOV": 63
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2025,
+     "team": "GSW",
+     "GP": 43,
+     "PTS": 1142,
+     "PPG": 26.6,
+     "REB": 154,
+     "AST": 203,
+     "STL": 49,
+     "BLK": 17,
+     "FGM": 374,
+     "FGA": 799,
+     "FG3M": 190,
+     "FG3A": 484,
+     "FTM": 204,
+     "FTA": 221,
+     "MIN": 1329,
+     "PF": 75,
+     "TOV": 121
+    },
+    {
+     "id": 1631094,
+     "name": "Paolo Banchero",
+     "season": 2024,
+     "team": "ORL",
+     "GP": 46,
+     "PTS": 1191,
+     "PPG": 25.9,
+     "REB": 345,
+     "AST": 219,
+     "STL": 36,
+     "BLK": 28,
+     "FGM": 412,
+     "FGA": 911,
+     "FG3M": 87,
+     "FG3A": 272,
+     "FTM": 280,
+     "FTA": 385,
+     "MIN": 1582,
+     "PF": 97,
+     "TOV": 136
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 3.8673076923076923,
+   "players": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "14 players scored 1,000 points in fewer than 50 games in the 2020s (15 seasons). The most extreme: Joel Embiid, 2023-24 — 1,353 pts in 39 games."
+  },
+  {
+   "n": 98,
+   "rule": "po_30",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2020,
+     "team": "BKN",
+     "GP": 12,
+     "PTS": 411,
+     "PPG": 34.3,
+     "REB": 111,
+     "AST": 53,
+     "STL": 18,
+     "BLK": 19,
+     "FGM": 145,
+     "FGA": 282,
+     "FG3M": 33,
+     "FG3A": 82,
+     "FTM": 88,
+     "FTA": 101,
+     "MIN": 485,
+     "PF": 31,
+     "TOV": 42
+    },
+    {
+     "id": 1626164,
+     "name": "Devin Booker",
+     "season": 2022,
+     "team": "PHX",
+     "GP": 11,
+     "PTS": 371,
+     "PPG": 33.7,
+     "REB": 53,
+     "AST": 79,
+     "STL": 19,
+     "BLK": 9,
+     "FGM": 141,
+     "FGA": 241,
+     "FG3M": 31,
+     "FG3A": 61,
+     "FTM": 58,
+     "FTA": 67,
+     "MIN": 459,
+     "PF": 37,
+     "TOV": 32
+    },
+    {
+     "id": 1628973,
+     "name": "Jalen Brunson",
+     "season": 2023,
+     "team": "NYK",
+     "GP": 13,
+     "PTS": 421,
+     "PPG": 32.4,
+     "REB": 43,
+     "AST": 97,
+     "STL": 10,
+     "BLK": 2,
+     "FGM": 151,
+     "FGA": 340,
+     "FG3M": 26,
+     "FG3A": 84,
+     "FTM": 93,
+     "FTA": 120,
+     "MIN": 518,
+     "PF": 26,
+     "TOV": 35
+    },
+    {
+     "id": 1628378,
+     "name": "Donovan Mitchell",
+     "season": 2020,
+     "team": "UTA",
+     "GP": 10,
+     "PTS": 323,
+     "PPG": 32.3,
+     "REB": 42,
+     "AST": 55,
+     "STL": 11,
+     "BLK": 2,
+     "FGM": 105,
+     "FGA": 235,
+     "FG3M": 50,
+     "FG3A": 115,
+     "FTM": 63,
+     "FTA": 76,
+     "MIN": 346,
+     "PF": 20,
+     "TOV": 28
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2021,
+     "team": "DAL",
+     "GP": 15,
+     "PTS": 475,
+     "PPG": 31.7,
+     "REB": 147,
+     "AST": 96,
+     "STL": 27,
+     "BLK": 9,
+     "FGM": 160,
+     "FGA": 352,
+     "FG3M": 51,
+     "FG3A": 148,
+     "FTM": 104,
+     "FTA": 135,
+     "MIN": 552,
+     "PF": 44,
+     "TOV": 59
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2021,
+     "team": "MIL",
+     "GP": 12,
+     "PTS": 380,
+     "PPG": 31.7,
+     "REB": 170,
+     "AST": 81,
+     "STL": 8,
+     "BLK": 15,
+     "FGM": 140,
+     "FGA": 285,
+     "FG3M": 9,
+     "FG3A": 41,
+     "FTM": 91,
+     "FTA": 134,
+     "MIN": 448,
+     "PF": 43,
+     "TOV": 54
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 3.85625,
+   "players": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "10 players averaged 30 points in a single postseason (8+ playoff games) in the 2020s (11 seasons). The most extreme: Kevin Durant, 2020-21 — 34.3 ppg in 12 games."
+  },
+  {
+   "n": 99,
+   "rule": "volume_misses",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards",
+     "season": 2024,
+     "team": "MIN",
+     "GP": 79,
+     "PTS": 2177,
+     "PPG": 27.6,
+     "REB": 450,
+     "AST": 359,
+     "STL": 91,
+     "BLK": 51,
+     "FGM": 721,
+     "FGA": 1612,
+     "FG3M": 320,
+     "FG3A": 811,
+     "FTM": 415,
+     "FTA": 496,
+     "MIN": 2871,
+     "PF": 150,
+     "TOV": 249
+    },
+    {
+     "id": 1630224,
+     "name": "Jalen Green",
+     "season": 2024,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1723,
+     "PPG": 21,
+     "REB": 377,
+     "AST": 282,
+     "STL": 71,
+     "BLK": 27,
+     "FGM": 608,
+     "FGA": 1437,
+     "FG3M": 234,
+     "FG3A": 661,
+     "FTM": 273,
+     "FTA": 336,
+     "MIN": 2697,
+     "PF": 127,
+     "TOV": 203
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    },
+    {
+     "id": 1630224,
+     "name": "Jalen Green",
+     "season": 2022,
+     "team": "HOU",
+     "GP": 76,
+     "PTS": 1683,
+     "PPG": 22.1,
+     "REB": 284,
+     "AST": 281,
+     "STL": 59,
+     "BLK": 18,
+     "FGM": 566,
+     "FGA": 1359,
+     "FG3M": 187,
+     "FG3A": 554,
+     "FTM": 364,
+     "FTA": 463,
+     "MIN": 2602,
+     "PF": 131,
+     "TOV": 200
+    },
+    {
+     "id": 202704,
+     "name": "Reggie Jackson",
+     "season": 2021,
+     "team": "LAC",
+     "GP": 75,
+     "PTS": 1263,
+     "PPG": 16.8,
+     "REB": 271,
+     "AST": 359,
+     "STL": 55,
+     "BLK": 15,
+     "FGM": 479,
+     "FGA": 1222,
+     "FG3M": 167,
+     "FG3A": 512,
+     "FTM": 138,
+     "FTA": 163,
+     "MIN": 2337,
+     "PF": 159,
+     "TOV": 173
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2024,
+     "team": "LAC",
+     "GP": 79,
+     "PTS": 1802,
+     "PPG": 22.8,
+     "REB": 456,
+     "AST": 687,
+     "STL": 118,
+     "BLK": 55,
+     "FGM": 531,
+     "FGA": 1295,
+     "FG3M": 235,
+     "FG3A": 668,
+     "FTM": 505,
+     "FTA": 578,
+     "MIN": 2789,
+     "PF": 162,
+     "TOV": 341
+    }
+   ],
+   "seasonsMatched": 27,
+   "kind": "list",
+   "score": 3.3121761786600494,
+   "players": [
+    {
+     "id": 1630162,
+     "name": "Anthony Edwards"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "17 players shot under .450 on 1,200+ attempts in the 2020s (27 seasons). The most extreme: Anthony Edwards, 2024-25 — .447 on 1,612 FGA."
+  },
+  {
+   "n": 100,
+   "rule": "threes_bad",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1628401,
+     "name": "Derrick White",
+     "season": 2025,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 1267,
+     "PPG": 16.5,
+     "REB": 339,
+     "AST": 414,
+     "STL": 88,
+     "BLK": 98,
+     "FGM": 437,
+     "FGA": 1108,
+     "FG3M": 209,
+     "FG3A": 640,
+     "FTM": 184,
+     "FTA": 204,
+     "MIN": 2625,
+     "PF": 119,
+     "TOV": 134
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2024,
+     "team": "ATL",
+     "GP": 76,
+     "PTS": 1841,
+     "PPG": 24.2,
+     "REB": 236,
+     "AST": 880,
+     "STL": 91,
+     "BLK": 12,
+     "FGM": 566,
+     "FGA": 1376,
+     "FG3M": 218,
+     "FG3A": 642,
+     "FTM": 491,
+     "FTA": 561,
+     "MIN": 2739,
+     "PF": 145,
+     "TOV": 355
+    },
+    {
+     "id": 1629673,
+     "name": "Jordan Poole",
+     "season": 2022,
+     "team": "GSW",
+     "GP": 82,
+     "PTS": 1675,
+     "PPG": 20.4,
+     "REB": 225,
+     "AST": 369,
+     "STL": 63,
+     "BLK": 21,
+     "FGM": 550,
+     "FGA": 1278,
+     "FG3M": 214,
+     "FG3A": 637,
+     "FTM": 361,
+     "FTA": 415,
+     "MIN": 2458,
+     "PF": 214,
+     "TOV": 252
+    },
+    {
+     "id": 203903,
+     "name": "Jordan Clarkson",
+     "season": 2021,
+     "team": "UTA",
+     "GP": 79,
+     "PTS": 1266,
+     "PPG": 16,
+     "REB": 273,
+     "AST": 194,
+     "STL": 66,
+     "BLK": 16,
+     "FGM": 466,
+     "FGA": 1113,
+     "FG3M": 190,
+     "FG3A": 597,
+     "FTM": 144,
+     "FTA": 174,
+     "MIN": 2141,
+     "PF": 149,
+     "TOV": 129
+    },
+    {
+     "id": 1630224,
+     "name": "Jalen Green",
+     "season": 2023,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1610,
+     "PPG": 19.6,
+     "REB": 423,
+     "AST": 291,
+     "STL": 66,
+     "BLK": 28,
+     "FGM": 563,
+     "FGA": 1332,
+     "FG3M": 201,
+     "FG3A": 605,
+     "FTM": 283,
+     "FTA": 352,
+     "MIN": 2601,
+     "PF": 115,
+     "TOV": 191
+    },
+    {
+     "id": 1629673,
+     "name": "Jordan Poole",
+     "season": 2023,
+     "team": "WAS",
+     "GP": 78,
+     "PTS": 1356,
+     "PPG": 17.4,
+     "REB": 212,
+     "AST": 343,
+     "STL": 86,
+     "BLK": 25,
+     "FGM": 490,
+     "FGA": 1186,
+     "FG3M": 184,
+     "FG3A": 564,
+     "FTM": 192,
+     "FTA": 219,
+     "MIN": 2346,
+     "PF": 244,
+     "TOV": 188
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 3.29390625,
+   "players": [
+    {
+     "id": 1628401,
+     "name": "Derrick White"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "15 players made 150+ threes while shooting under .340 from deep in the 2020s (20 seasons). The most extreme: Derrick White, 2025-26 — 209 3PM, .327."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 3407,
+  "playoffPlayerSeasons": 1336
+ },
+ "method": [
+  "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "Qualification is 60% of the most games anyone played that season. Attempt floors are stated in the line.",
+  "Categories not yet recorded (rebounds before 1950-51, minutes before 1951-52, steals and blocks before 1973-74, turnovers before 1977-78, threes before 1979-80) are treated as missing, never as zero.",
+  "Team-mate lines are omitted: the feed credits a traded player's whole season to one club."
+ ]
+}

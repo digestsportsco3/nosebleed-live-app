@@ -16,7 +16,7 @@ const PAST = { hit: "hit", bat: "batted", steal: "stole", drive: "drove", collec
   rush: "rushed", catch: "caught", pass: "passed", run: "ran", lead: "led", attempt: "attempted", take: "took", start: "started",
   appear: "appeared", dish: "dished", turn: "turned", foul: "fouled", pull: "pulled" };
 const VERB_RE = new RegExp(`\\b(${Object.keys(PAST).join("|")})\\b(?! (?:homers|runs|hits|games|bases|walks|innings|batters|saves|doubles|triples|pitches|steals|times|by|yards|passes|points|rebounds|assists|blocks|shots|attempts|threes|free))`, "g");
-function verb(head) { return head.replace(VERB_RE, (v) => PAST[v] || v); }
+function verb(head) { return head.replace(VERB_RE, (v, _w, off, str) => (/(playoff|postseason|scoring|home|a) $/.test(str.slice(Math.max(0, off - 11), off)) ? v : PAST[v] || v)); }
 
 const yr = (r) => r.season;
 const pid = (r) => ({ id: r.id, name: r.name });
@@ -164,10 +164,13 @@ function seasonCountFacts(rows, specs, ctx) {
     if (most.n === least.n) continue;
     const ev = counts.map((c) => ({ season: c.season, count: c.n }));
     out.push({ kind: "season", rule: `${sp.key}_most`, group: sp.group || "P", decade: decadeLabel, score: 5, players: [], seasons: [most.season], finder: null, evidence: ev,
-      text: `${label(most.season)} had ${most.n} ${sp.what}, the most of any season in the ${decadeLabel}.` });
+      text: most.n === 1 ? `${label(most.season)} had one ${sp.what1 || sp.what.replace(/(\w)s\b/, "$1")}, the most of any season in the ${decadeLabel}.` : `${label(most.season)} had ${most.n} ${sp.what}, the most of any season in the ${decadeLabel}.` });
     const zeros = counts.filter((c) => c.n === 0).length;
+    // "just 1 20-point scorers" -> "just one 20-point scorer"
+    const one = sp.what1 || sp.what.replace(/(\w)s\b/, "$1");
     out.push({ kind: "season", rule: `${sp.key}_least`, group: sp.group || "P", decade: decadeLabel, score: 5, players: [], seasons: [least.season], finder: null, evidence: ev,
       text: least.n === 0 ? `${label(least.season)} had no ${sp.what} at all — ${zeros === 1 ? "the only season" : "one of the seasons"} of the ${decadeLabel} without one.`
+          : least.n === 1 ? `${label(least.season)} had just one ${one}, the fewest of any season in the ${decadeLabel}.`
                           : `${label(least.season)} had just ${least.n} ${sp.what}, the fewest of any season in the ${decadeLabel}.` });
   }
   return out;

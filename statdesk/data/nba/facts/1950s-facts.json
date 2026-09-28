@@ -1,0 +1,6287 @@
+{
+ "sport": "NBA",
+ "decade": "1950s",
+ "era": 2,
+ "bars": {
+  "ppg": 25,
+  "ppgHi": 30,
+  "fgLow": 0.41,
+  "fgHi": 0.5,
+  "rpg": 15,
+  "apg": 8,
+  "pts": 2000
+ },
+ "seasons": [
+  "1950-51",
+  "1951-52",
+  "1952-53",
+  "1953-54",
+  "1954-55",
+  "1955-56",
+  "1956-57",
+  "1957-58",
+  "1958-59",
+  "1959-60"
+ ],
+ "candidates": 83,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "po_ft",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78126,
+     "name": "Bill Sharman",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 10,
+     "PTS": 211,
+     "PPG": 21.1,
+     "REB": 35,
+     "AST": 29,
+     "STL": null,
+     "BLK": null,
+     "FGM": 75,
+     "FGA": 197,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 61,
+     "FTA": 64,
+     "MIN": 377,
+     "PF": 23,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.3828125,
+   "players": [
+    {
+     "id": 78126,
+     "name": "Bill Sharman"
+    }
+   ],
+   "seasons": [
+    1956
+   ],
+   "text": "The only player of the 1950s to shoot .950 from the line in a single postseason (60+ FTA): Bill Sharman, 1956-57 — .953 on 64 FTA."
+  },
+  {
+   "n": 2,
+   "rule": "thirty_ten",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.613888888888889,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to average 30 points and 10 rebounds (60% of games): Wilt Chamberlain, 1959-60 — 37.6 ppg, 27.0 rpg."
+  },
+  {
+   "n": 3,
+   "rule": "thirty_twenty",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.613888888888889,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to average 30 points and 20 rebounds (60% of games): Wilt Chamberlain, 1959-60 — 37.6 ppg, 27.0 rpg."
+  },
+  {
+   "n": 4,
+   "rule": "twenty_ten_no_pass",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78628,
+     "name": "George Yardley",
+     "season": 1957,
+     "team": "DET",
+     "GP": 72,
+     "PTS": 2001,
+     "PPG": 27.8,
+     "REB": 768,
+     "AST": 97,
+     "STL": null,
+     "BLK": null,
+     "FGM": 673,
+     "FGA": 1624,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 655,
+     "FTA": 808,
+     "MIN": 2843,
+     "PF": 226,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.624652777777778,
+   "players": [
+    {
+     "id": 78628,
+     "name": "George Yardley"
+    }
+   ],
+   "seasons": [
+    1957
+   ],
+   "text": "The only player of the 1950s to average 20 points and 10 rebounds with under 1.5 assists (60% of games): George Yardley, 1957-58 — 27.8/10.7/1.3."
+  },
+  {
+   "n": 5,
+   "rule": "reb_ast_big",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600016,
+     "name": "Maurice Stokes",
+     "season": 1957,
+     "team": "CIN",
+     "GP": 63,
+     "PTS": 1066,
+     "PPG": 16.9,
+     "REB": 1142,
+     "AST": 403,
+     "STL": null,
+     "BLK": null,
+     "FGM": 414,
+     "FGA": 1181,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 238,
+     "FTA": 333,
+     "MIN": 2460,
+     "PF": 226,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.613095238095237,
+   "players": [
+    {
+     "id": 600016,
+     "name": "Maurice Stokes"
+    }
+   ],
+   "seasons": [
+    1957
+   ],
+   "text": "The only player of the 1950s to average 15 rebounds and 5 assists (60% of games): Maurice Stokes, 1957-58 — 18.1 rpg, 6.4 apg."
+  },
+  {
+   "n": 6,
+   "rule": "thirty_inefficient",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78388,
+     "name": "Jack Twyman",
+     "season": 1959,
+     "team": "CIN",
+     "GP": 75,
+     "PTS": 2338,
+     "PPG": 31.2,
+     "REB": 664,
+     "AST": 260,
+     "STL": null,
+     "BLK": null,
+     "FGM": 870,
+     "FGA": 2063,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 598,
+     "FTA": 762,
+     "MIN": 3023,
+     "PF": 275,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.252188398772015,
+   "players": [
+    {
+     "id": 78388,
+     "name": "Jack Twyman"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to average 30 points on under .440 shooting (60% of games): Jack Twyman, 1959-60 — 31.2 ppg, .422 FG."
+  },
+  {
+   "n": 7,
+   "rule": "score_tiny_min",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77414,
+     "name": "Clyde Lovellette",
+     "season": 1959,
+     "team": "STL",
+     "GP": 68,
+     "PTS": 1416,
+     "PPG": 20.8,
+     "REB": 721,
+     "AST": 127,
+     "STL": null,
+     "BLK": null,
+     "FGM": 550,
+     "FGA": 1174,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 316,
+     "FTA": 385,
+     "MIN": 1953,
+     "PF": 248,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.161580882352942,
+   "players": [
+    {
+     "id": 77414,
+     "name": "Clyde Lovellette"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to average 20 points in under 30 minutes a game (60% of games): Clyde Lovellette, 1959-60 — 20.8 ppg in 28.7 mpg."
+  },
+  {
+   "n": 8,
+   "rule": "reb_extreme",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 1350,
+     "PPG": 18.2,
+     "REB": 1778,
+     "AST": 277,
+     "STL": null,
+     "BLK": null,
+     "FGM": 555,
+     "FGA": 1189,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 240,
+     "FTA": 392,
+     "MIN": 3146,
+     "PF": 210,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 70,
+     "PTS": 1168,
+     "PPG": 16.7,
+     "REB": 1612,
+     "AST": 222,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 997,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 256,
+     "FTA": 428,
+     "MIN": 2979,
+     "PF": 161,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 69,
+     "PTS": 1142,
+     "PPG": 16.6,
+     "REB": 1564,
+     "AST": 202,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 1032,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 230,
+     "FTA": 443,
+     "MIN": 2640,
+     "PF": 181,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 10.021875,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    }
+   ],
+   "seasons": [
+    1959,
+    1959,
+    1958,
+    1957
+   ],
+   "text": "Only two players of the 1950s averaged 20 rebounds a game (60% of games): Wilt Chamberlain (1959-60: 27.0 rpg); Bill Russell (3×, best 1959-60: 24.0 rpg)."
+  },
+  {
+   "n": 9,
+   "rule": "ast_over_pts",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "season": 1955,
+     "team": "FTW",
+     "GP": 70,
+     "PTS": 408,
+     "PPG": 5.8,
+     "REB": 257,
+     "AST": 410,
+     "STL": null,
+     "BLK": null,
+     "FGM": 148,
+     "FGA": 405,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 112,
+     "FTA": 199,
+     "MIN": 2078,
+     "PF": 155,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.005,
+   "players": [
+    {
+     "id": 77853,
+     "name": "Andy Phillip"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "The only player of the 1950s to record more assists than points (60% of games, 300+ ast): Andy Phillip, 1955-56 — 410 ast, 408 pts."
+  },
+  {
+   "n": 10,
+   "rule": "reb_1500",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 1350,
+     "PPG": 18.2,
+     "REB": 1778,
+     "AST": 277,
+     "STL": null,
+     "BLK": null,
+     "FGM": 555,
+     "FGA": 1189,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 240,
+     "FTA": 392,
+     "MIN": 3146,
+     "PF": 210,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 70,
+     "PTS": 1168,
+     "PPG": 16.7,
+     "REB": 1612,
+     "AST": 222,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 997,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 256,
+     "FTA": 428,
+     "MIN": 2979,
+     "PF": 161,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 69,
+     "PTS": 1142,
+     "PPG": 16.6,
+     "REB": 1564,
+     "AST": 202,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 1032,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 230,
+     "FTA": 443,
+     "MIN": 2640,
+     "PF": 181,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 9.213125,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    }
+   ],
+   "seasons": [
+    1959,
+    1959,
+    1958,
+    1957
+   ],
+   "text": "Only two players of the 1950s grabbed 1,500 rebounds in a season: Wilt Chamberlain (1959-60: 1,941 reb); Bill Russell (3×, best 1959-60: 1,778 reb)."
+  },
+  {
+   "n": 11,
+   "rule": "mpg_45",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 77169,
+     "name": "Neil Johnston",
+     "season": 1953,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 1759,
+     "PPG": 24.4,
+     "REB": 797,
+     "AST": 203,
+     "STL": null,
+     "BLK": null,
+     "FGM": 591,
+     "FGA": 1317,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 772,
+     "MIN": 3296,
+     "PF": 259,
+     "TOV": null
+    },
+    {
+     "id": 77169,
+     "name": "Neil Johnston",
+     "season": 1952,
+     "team": "PHW",
+     "GP": 70,
+     "PTS": 1564,
+     "PPG": 22.3,
+     "REB": 976,
+     "AST": 197,
+     "STL": null,
+     "BLK": null,
+     "FGM": 504,
+     "FGA": 1114,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 556,
+     "FTA": 794,
+     "MIN": 3166,
+     "PF": 248,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 9.159027777777778,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 77169,
+     "name": "Neil Johnston"
+    }
+   ],
+   "seasons": [
+    1959,
+    1953,
+    1952
+   ],
+   "text": "Only two players of the 1950s averaged 45 minutes a game (60% of games): Wilt Chamberlain (1959-60: 46.4 mpg); Neil Johnston (2×, best 1953-54: 45.8 mpg)."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "s_10rpg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 9,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    }
+   ],
+   "seasons": [
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1950,
+     "team": "SYR",
+     "GP": 66,
+     "PTS": 1121,
+     "PPG": 17,
+     "REB": 1080,
+     "AST": 251,
+     "STL": null,
+     "BLK": null,
+     "FGM": 332,
+     "FGA": 930,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 457,
+     "FTA": 608,
+     "MIN": null,
+     "PF": 271,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1951,
+     "team": "SYR",
+     "GP": 63,
+     "PTS": 868,
+     "PPG": 13.8,
+     "REB": 773,
+     "AST": 182,
+     "STL": null,
+     "BLK": null,
+     "FGM": 263,
+     "FGA": 740,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 342,
+     "FTA": 424,
+     "MIN": 2004,
+     "PF": 213,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1952,
+     "team": "SYR",
+     "GP": 71,
+     "PTS": 1262,
+     "PPG": 17.8,
+     "REB": 920,
+     "AST": 227,
+     "STL": null,
+     "BLK": null,
+     "FGM": 375,
+     "FGA": 1002,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 512,
+     "FTA": 619,
+     "MIN": 2668,
+     "PF": 271,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1953,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1228,
+     "PPG": 17.1,
+     "REB": 870,
+     "AST": 214,
+     "STL": null,
+     "BLK": null,
+     "FGM": 370,
+     "FGA": 973,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 488,
+     "FTA": 590,
+     "MIN": 2655,
+     "PF": 232,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1954,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1333,
+     "PPG": 18.5,
+     "REB": 887,
+     "AST": 213,
+     "STL": null,
+     "BLK": null,
+     "FGM": 422,
+     "FGA": 1103,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 489,
+     "FTA": 587,
+     "MIN": 2526,
+     "PF": 247,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1955,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1472,
+     "PPG": 20.4,
+     "REB": 891,
+     "AST": 200,
+     "STL": null,
+     "BLK": null,
+     "FGM": 465,
+     "FGA": 1202,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 542,
+     "FTA": 632,
+     "MIN": 2517,
+     "PF": 251,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1956,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1617,
+     "PPG": 22.5,
+     "REB": 1008,
+     "AST": 229,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 1308,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 625,
+     "FTA": 691,
+     "MIN": 2851,
+     "PF": 219,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1957,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1791,
+     "PPG": 24.9,
+     "REB": 1022,
+     "AST": 224,
+     "STL": null,
+     "BLK": null,
+     "FGM": 581,
+     "FGA": 1458,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 629,
+     "FTA": 696,
+     "MIN": 2918,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1958,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1534,
+     "PPG": 21.3,
+     "REB": 962,
+     "AST": 178,
+     "STL": null,
+     "BLK": null,
+     "FGM": 504,
+     "FGA": 1304,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 526,
+     "FTA": 609,
+     "MIN": 2645,
+     "PF": 280,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1959,
+     "team": "SYR",
+     "GP": 75,
+     "PTS": 1689,
+     "PPG": 22.5,
+     "REB": 959,
+     "AST": 256,
+     "STL": null,
+     "BLK": null,
+     "FGM": 578,
+     "FGA": 1440,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 533,
+     "FTA": 597,
+     "MIN": 2741,
+     "PF": 263,
+     "TOV": null
+    }
+   ],
+   "text": "Dolph Schayes averaged a double-digit rebounding figure in 10 straight seasons (1950-51 to 1959-60), the longest run of the 1950s."
+  },
+  {
+   "n": 13,
+   "rule": "fga_2000",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78388,
+     "name": "Jack Twyman",
+     "season": 1959,
+     "team": "CIN",
+     "GP": 75,
+     "PTS": 2338,
+     "PPG": 31.2,
+     "REB": 664,
+     "AST": 260,
+     "STL": null,
+     "BLK": null,
+     "FGM": 870,
+     "FGA": 2063,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 598,
+     "FTA": 762,
+     "MIN": 3023,
+     "PF": 275,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.962916666666667,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 78388,
+     "name": "Jack Twyman"
+    }
+   ],
+   "seasons": [
+    1959,
+    1959
+   ],
+   "text": "Only two players of the 1950s attempted 2,000 field goals in a season: Wilt Chamberlain (1959-60: 2,311 FGA); Jack Twyman (1959-60: 2,063 FGA)."
+  },
+  {
+   "n": 14,
+   "rule": "thirty_ppg",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78388,
+     "name": "Jack Twyman",
+     "season": 1959,
+     "team": "CIN",
+     "GP": 75,
+     "PTS": 2338,
+     "PPG": 31.2,
+     "REB": 664,
+     "AST": 260,
+     "STL": null,
+     "BLK": null,
+     "FGM": 870,
+     "FGA": 2063,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 598,
+     "FTA": 762,
+     "MIN": 3023,
+     "PF": 275,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.939930555555556,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 78388,
+     "name": "Jack Twyman"
+    }
+   ],
+   "seasons": [
+    1959,
+    1959
+   ],
+   "text": "Only two players of the 1950s averaged 30 points a game (60% of games): Wilt Chamberlain (1959-60: 37.6 ppg); Jack Twyman (1959-60: 31.2 ppg)."
+  },
+  {
+   "n": 15,
+   "rule": "po_30",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76127,
+     "name": "Elgin Baylor",
+     "season": 1959,
+     "team": "MNL",
+     "GP": 9,
+     "PTS": 301,
+     "PPG": 33.4,
+     "REB": 127,
+     "AST": 31,
+     "STL": null,
+     "BLK": null,
+     "FGM": 111,
+     "FGA": 234,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 79,
+     "FTA": 94,
+     "MIN": 408,
+     "PF": 38,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 9,
+     "PTS": 299,
+     "PPG": 33.2,
+     "REB": 232,
+     "AST": 19,
+     "STL": null,
+     "BLK": null,
+     "FGM": 125,
+     "FGA": 252,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 49,
+     "FTA": 110,
+     "MIN": 415,
+     "PF": 17,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.83611111111111,
+   "players": [
+    {
+     "id": 76127,
+     "name": "Elgin Baylor"
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959,
+    1959
+   ],
+   "text": "Only two players of the 1950s averaged 30 points in a single postseason (8+ playoff games): Elgin Baylor (1959-60: 33.4 ppg in 9 games); Wilt Chamberlain (1959-60: 33.2 ppg in 9 games)."
+  },
+  {
+   "n": 16,
+   "rule": "min_3300",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78142,
+     "name": "Gene Shue",
+     "season": 1959,
+     "team": "DET",
+     "GP": 75,
+     "PTS": 1712,
+     "PPG": 22.8,
+     "REB": 409,
+     "AST": 295,
+     "STL": null,
+     "BLK": null,
+     "FGM": 620,
+     "FGA": 1501,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 472,
+     "FTA": 541,
+     "MIN": 3338,
+     "PF": 146,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.8345,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 78142,
+     "name": "Gene Shue"
+    }
+   ],
+   "seasons": [
+    1959,
+    1959
+   ],
+   "text": "Only two players of the 1950s log 3,300 minutes in a season: Wilt Chamberlain (1959-60: 3,338 min); Gene Shue (1959-60: 3,338 min)."
+  },
+  {
+   "n": 17,
+   "rule": "big_ast",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 75,
+     "PTS": 1455,
+     "PPG": 19.4,
+     "REB": 352,
+     "AST": 715,
+     "STL": null,
+     "BLK": null,
+     "FGM": 568,
+     "FGA": 1481,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 319,
+     "FTA": 403,
+     "MIN": 2588,
+     "PF": 146,
+     "TOV": null
+    },
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1955,
+     "team": "BOS",
+     "GP": 72,
+     "PTS": 1356,
+     "PPG": 18.8,
+     "REB": 492,
+     "AST": 642,
+     "STL": null,
+     "BLK": null,
+     "FGM": 440,
+     "FGA": 1223,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 476,
+     "FTA": 564,
+     "MIN": 2767,
+     "PF": 206,
+     "TOV": null
+    },
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 65,
+     "PTS": 1297,
+     "PPG": 20,
+     "REB": 359,
+     "AST": 557,
+     "STL": null,
+     "BLK": null,
+     "FGM": 484,
+     "FGA": 1260,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 329,
+     "FTA": 385,
+     "MIN": 2403,
+     "PF": 135,
+     "TOV": null
+    },
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "season": 1951,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 790,
+     "PPG": 12,
+     "REB": 434,
+     "AST": 539,
+     "STL": null,
+     "BLK": null,
+     "FGM": 279,
+     "FGA": 762,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 308,
+     "MIN": 2933,
+     "PF": 218,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 8.715,
+   "players": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy"
+    },
+    {
+     "id": 77853,
+     "name": "Andy Phillip"
+    }
+   ],
+   "seasons": [
+    1959,
+    1955,
+    1958,
+    1951
+   ],
+   "text": "Only two players of the 1950s averaged 8+ assists (60% of games): Bob Cousy (3×, best 1959-60: 9.5 apg); Andy Phillip (1951-52: 8.2 apg)."
+  },
+  {
+   "n": 18,
+   "rule": "po_reb",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 11,
+     "PTS": 171,
+     "PPG": 15.5,
+     "REB": 305,
+     "AST": 40,
+     "STL": null,
+     "BLK": null,
+     "FGM": 65,
+     "FGA": 159,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 41,
+     "FTA": 67,
+     "MIN": 496,
+     "PF": 28,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 13,
+     "PTS": 241,
+     "PPG": 18.5,
+     "REB": 336,
+     "AST": 38,
+     "STL": null,
+     "BLK": null,
+     "FGM": 94,
+     "FGA": 206,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 53,
+     "FTA": 75,
+     "MIN": 572,
+     "PF": 38,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 9,
+     "PTS": 299,
+     "PPG": 33.2,
+     "REB": 232,
+     "AST": 19,
+     "STL": null,
+     "BLK": null,
+     "FGM": 125,
+     "FGA": 252,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 49,
+     "FTA": 110,
+     "MIN": 415,
+     "PF": 17,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 9,
+     "PTS": 136,
+     "PPG": 15.1,
+     "REB": 221,
+     "AST": 24,
+     "STL": null,
+     "BLK": null,
+     "FGM": 48,
+     "FGA": 133,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 40,
+     "FTA": 66,
+     "MIN": 355,
+     "PF": 24,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 10,
+     "PTS": 139,
+     "PPG": 13.9,
+     "REB": 244,
+     "AST": 32,
+     "STL": null,
+     "BLK": null,
+     "FGM": 54,
+     "FGA": 148,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 31,
+     "FTA": 61,
+     "MIN": 409,
+     "PF": 41,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 8.693181818181818,
+   "players": [
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1958,
+    1959,
+    1959,
+    1957,
+    1956
+   ],
+   "text": "Only two players of the 1950s averaged 18 rebounds in a single postseason (8+ playoff games): Bill Russell (4×, best 1958-59: 27.7 rpg in 11 games); Wilt Chamberlain (1959-60: 25.8 rpg in 9 games)."
+  },
+  {
+   "n": 19,
+   "rule": "ft_900",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1957,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1791,
+     "PPG": 24.9,
+     "REB": 1022,
+     "AST": 224,
+     "STL": null,
+     "BLK": null,
+     "FGM": 581,
+     "FGA": 1458,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 629,
+     "FTA": 696,
+     "MIN": 2918,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1956,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1617,
+     "PPG": 22.5,
+     "REB": 1008,
+     "AST": 229,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 1308,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 625,
+     "FTA": 691,
+     "MIN": 2851,
+     "PF": 219,
+     "TOV": null
+    },
+    {
+     "id": 78126,
+     "name": "Bill Sharman",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 67,
+     "PTS": 1413,
+     "PPG": 21.1,
+     "REB": 286,
+     "AST": 236,
+     "STL": null,
+     "BLK": null,
+     "FGM": 516,
+     "FGA": 1241,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 381,
+     "FTA": 421,
+     "MIN": 2403,
+     "PF": 188,
+     "TOV": null
+    },
+    {
+     "id": 78453,
+     "name": "Bobby Wanzer",
+     "season": 1951,
+     "team": "ROC",
+     "GP": 66,
+     "PTS": 1033,
+     "PPG": 15.7,
+     "REB": 333,
+     "AST": 262,
+     "STL": null,
+     "BLK": null,
+     "FGM": 328,
+     "FGA": 772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 377,
+     "FTA": 417,
+     "MIN": 2498,
+     "PF": 201,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 8.60733908045977,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    },
+    {
+     "id": 78126,
+     "name": "Bill Sharman"
+    },
+    {
+     "id": 78453,
+     "name": "Bobby Wanzer"
+    }
+   ],
+   "seasons": [
+    1957,
+    1956,
+    1956,
+    1951
+   ],
+   "text": "Just three players of the 1950s shot .900 from the line on 400+ attempts: Dolph Schayes (2×, best 1957-58: .904 on 696 FTA); Bill Sharman (1956-57: .905 on 421 FTA); Bobby Wanzer (1951-52: .904 on 417 FTA)."
+  },
+  {
+   "n": 20,
+   "rule": "ft_bad",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 69,
+     "PTS": 1142,
+     "PPG": 16.6,
+     "REB": 1564,
+     "AST": 202,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 1032,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 230,
+     "FTA": 443,
+     "MIN": 2640,
+     "PF": 181,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 48,
+     "PTS": 706,
+     "PPG": 14.7,
+     "REB": 943,
+     "AST": 88,
+     "STL": null,
+     "BLK": null,
+     "FGM": 277,
+     "FGA": 649,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 152,
+     "FTA": 309,
+     "MIN": 1695,
+     "PF": 143,
+     "TOV": null
+    },
+    {
+     "id": 76668,
+     "name": "Wayne Embry",
+     "season": 1959,
+     "team": "CIN",
+     "GP": 73,
+     "PTS": 773,
+     "PPG": 10.6,
+     "REB": 692,
+     "AST": 83,
+     "STL": null,
+     "BLK": null,
+     "FGM": 303,
+     "FGA": 690,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 167,
+     "FTA": 325,
+     "MIN": 1594,
+     "PF": 226,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.190468397291196,
+   "players": [
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    },
+    {
+     "id": 76668,
+     "name": "Wayne Embry"
+    }
+   ],
+   "seasons": [
+    1957,
+    1956,
+    1959
+   ],
+   "text": "Only two players of the 1950s shot under .550 from the line on 300+ attempts: Bill Russell (2×, best 1957-58: .519 on 443 FTA); Wayne Embry (1959-60: .514 on 325 FTA)."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "s_20ppg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 8,
+   "players": [
+    {
+     "id": 76056,
+     "name": "Paul Arizin"
+    }
+   ],
+   "seasons": [
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1954,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 1512,
+     "PPG": 21,
+     "REB": 675,
+     "AST": 210,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1325,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 454,
+     "FTA": 585,
+     "MIN": 2953,
+     "PF": 270,
+     "TOV": null
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1955,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 1741,
+     "PPG": 24.2,
+     "REB": 539,
+     "AST": 189,
+     "STL": null,
+     "BLK": null,
+     "FGM": 617,
+     "FGA": 1378,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 507,
+     "FTA": 626,
+     "MIN": 2724,
+     "PF": 282,
+     "TOV": null
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1956,
+     "team": "PHW",
+     "GP": 71,
+     "PTS": 1817,
+     "PPG": 25.6,
+     "REB": 561,
+     "AST": 150,
+     "STL": null,
+     "BLK": null,
+     "FGM": 613,
+     "FGA": 1451,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 591,
+     "FTA": 713,
+     "MIN": 2767,
+     "PF": 274,
+     "TOV": null
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1957,
+     "team": "PHW",
+     "GP": 68,
+     "PTS": 1406,
+     "PPG": 20.7,
+     "REB": 503,
+     "AST": 135,
+     "STL": null,
+     "BLK": null,
+     "FGM": 483,
+     "FGA": 1229,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 440,
+     "FTA": 544,
+     "MIN": 2377,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1958,
+     "team": "PHW",
+     "GP": 70,
+     "PTS": 1851,
+     "PPG": 26.4,
+     "REB": 637,
+     "AST": 119,
+     "STL": null,
+     "BLK": null,
+     "FGM": 632,
+     "FGA": 1466,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 587,
+     "FTA": 722,
+     "MIN": 2799,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 1606,
+     "PPG": 22.3,
+     "REB": 621,
+     "AST": 165,
+     "STL": null,
+     "BLK": null,
+     "FGM": 593,
+     "FGA": 1400,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 420,
+     "FTA": 526,
+     "MIN": 2618,
+     "PF": 263,
+     "TOV": null
+    }
+   ],
+   "text": "Paul Arizin averaged 20+ points in 6 straight seasons (1954-55 to 1959-60), the longest run of the 1950s."
+  },
+  {
+   "n": 22,
+   "rule": "fta_800",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1958,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 2105,
+     "PPG": 29.2,
+     "REB": 1182,
+     "AST": 221,
+     "STL": null,
+     "BLK": null,
+     "FGM": 719,
+     "FGA": 1640,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 667,
+     "FTA": 879,
+     "MIN": 2873,
+     "PF": 200,
+     "TOV": null
+    },
+    {
+     "id": 78628,
+     "name": "George Yardley",
+     "season": 1957,
+     "team": "DET",
+     "GP": 72,
+     "PTS": 2001,
+     "PPG": 27.8,
+     "REB": 768,
+     "AST": 97,
+     "STL": null,
+     "BLK": null,
+     "FGM": 673,
+     "FGA": 1624,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 655,
+     "FTA": 808,
+     "MIN": 2843,
+     "PF": 226,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.825833333333334,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit"
+    },
+    {
+     "id": 78628,
+     "name": "George Yardley"
+    }
+   ],
+   "seasons": [
+    1959,
+    1958,
+    1957
+   ],
+   "text": "Just three players of the 1950s attempted 800 free throws in a season: Wilt Chamberlain (1959-60: 991 FTA (.582)); Bob Pettit (1958-59: 879 FTA (.759)); George Yardley (1957-58: 808 FTA (.811))."
+  },
+  {
+   "n": 23,
+   "rule": "foul_trouble",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77573,
+     "name": "Don Meineke",
+     "season": 1952,
+     "team": "FTW",
+     "GP": 68,
+     "PTS": 725,
+     "PPG": 10.7,
+     "REB": 466,
+     "AST": 148,
+     "STL": null,
+     "BLK": null,
+     "FGM": 240,
+     "FGA": 630,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 245,
+     "FTA": 313,
+     "MIN": 2250,
+     "PF": 334,
+     "TOV": null
+    },
+    {
+     "id": 76611,
+     "name": "Walter Dukes",
+     "season": 1959,
+     "team": "DET",
+     "GP": 66,
+     "PTS": 1004,
+     "PPG": 15.2,
+     "REB": 883,
+     "AST": 80,
+     "STL": null,
+     "BLK": null,
+     "FGM": 314,
+     "FGA": 871,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 508,
+     "MIN": 2140,
+     "PF": 310,
+     "TOV": null
+    },
+    {
+     "id": 76611,
+     "name": "Walter Dukes",
+     "season": 1958,
+     "team": "DET",
+     "GP": 72,
+     "PTS": 933,
+     "PPG": 13,
+     "REB": 958,
+     "AST": 64,
+     "STL": null,
+     "BLK": null,
+     "FGM": 318,
+     "FGA": 904,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 297,
+     "FTA": 452,
+     "MIN": 2338,
+     "PF": 332,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1952,
+     "team": "PHW",
+     "GP": 70,
+     "PTS": 832,
+     "PPG": 11.9,
+     "REB": 387,
+     "AST": 138,
+     "STL": null,
+     "BLK": null,
+     "FGM": 332,
+     "FGA": 960,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 168,
+     "FTA": 231,
+     "MIN": 2085,
+     "PF": 319,
+     "TOV": null
+    },
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1950,
+     "team": "MNL",
+     "GP": 68,
+     "PTS": 1932,
+     "PPG": 28.4,
+     "REB": 958,
+     "AST": 208,
+     "STL": null,
+     "BLK": null,
+     "FGM": 678,
+     "FGA": 1584,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 576,
+     "FTA": 717,
+     "MIN": null,
+     "PF": 308,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.613970588235294,
+   "players": [
+    {
+     "id": 77573,
+     "name": "Don Meineke"
+    },
+    {
+     "id": 76611,
+     "name": "Walter Dukes"
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    },
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    }
+   ],
+   "seasons": [
+    1952,
+    1959,
+    1958,
+    1952,
+    1950
+   ],
+   "text": "Just four players of the 1950s averaged 4.5+ personal fouls a game (60% of games): Don Meineke (1952-53: 4.9 PF a game); Walter Dukes (2×, best 1959-60: 4.7 PF a game); Joe Fulks (1952-53: 4.6 PF a game); George Mikan (1950-51: 4.5 PF a game)."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "po_most_pts",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77847,
+     "name": "Bob Pettit"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1959,
+     "team": "STL",
+     "GP": 14,
+     "PTS": 365,
+     "PPG": 26.1,
+     "REB": 221,
+     "AST": 52,
+     "STL": null,
+     "BLK": null,
+     "FGM": 129,
+     "FGA": 292,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 107,
+     "FTA": 142,
+     "MIN": 576,
+     "PF": 43,
+     "TOV": null
+    }
+   ],
+   "among": 647,
+   "text": "Most points in a single postseason in the 1950s: Bob Pettit, 1959-60 — 365 in 14 games."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "po_best_fg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76912,
+     "name": "Cliff Hagan"
+    }
+   ],
+   "seasons": [
+    1957
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76912,
+     "name": "Cliff Hagan",
+     "season": 1957,
+     "team": "STL",
+     "GP": 11,
+     "PTS": 305,
+     "PPG": 27.7,
+     "REB": 115,
+     "AST": 37,
+     "STL": null,
+     "BLK": null,
+     "FGM": 111,
+     "FGA": 221,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 83,
+     "FTA": 99,
+     "MIN": 418,
+     "PF": 48,
+     "TOV": null
+    }
+   ],
+   "among": 58,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 1950s: Cliff Hagan, 1957-58 — .502."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "po_most_ast",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 11,
+     "PTS": 214,
+     "PPG": 19.5,
+     "REB": 76,
+     "AST": 119,
+     "STL": null,
+     "BLK": null,
+     "FGM": 72,
+     "FGA": 221,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 70,
+     "FTA": 94,
+     "MIN": 460,
+     "PF": 28,
+     "TOV": null
+    }
+   ],
+   "among": 647,
+   "text": "Most assists in a single postseason in the 1950s: Bob Cousy, 1958-59 — 119 in 11 games."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "po_most_reb",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 13,
+     "PTS": 241,
+     "PPG": 18.5,
+     "REB": 336,
+     "AST": 38,
+     "STL": null,
+     "BLK": null,
+     "FGM": 94,
+     "FGA": 206,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 53,
+     "FTA": 75,
+     "MIN": 572,
+     "PF": 38,
+     "TOV": null
+    }
+   ],
+   "among": 647,
+   "text": "Most rebounds in a single postseason in the 1950s: Bill Russell, 1959-60 — 336 in 13 games."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "worst_fg_scorer",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy"
+    }
+   ],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1951,
+     "team": "BOS",
+     "GP": 66,
+     "PTS": 1433,
+     "PPG": 21.7,
+     "REB": 421,
+     "AST": 441,
+     "STL": null,
+     "BLK": null,
+     "FGM": 512,
+     "FGA": 1388,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 409,
+     "FTA": 506,
+     "MIN": 2681,
+     "PF": 190,
+     "TOV": null
+    }
+   ],
+   "among": 54,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 1950s: Bob Cousy, 1951-52 — .369 while averaging 21.7."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "best_fg_volume",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78106,
+     "name": "Ken Sears"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78106,
+     "name": "Ken Sears",
+     "season": 1958,
+     "team": "NYK",
+     "GP": 71,
+     "PTS": 1488,
+     "PPG": 21,
+     "REB": 658,
+     "AST": 136,
+     "STL": null,
+     "BLK": null,
+     "FGM": 491,
+     "FGA": 1002,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 506,
+     "FTA": 588,
+     "MIN": 2498,
+     "PF": 237,
+     "TOV": null
+    }
+   ],
+   "among": 116,
+   "text": "Best field-goal percentage on 1,000+ attempts in the 1950s: Ken Sears, 1958-59 — .490 (491-1,002)."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "best_ft_volume",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    }
+   ],
+   "seasons": [
+    1956
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1956,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1617,
+     "PPG": 22.5,
+     "REB": 1008,
+     "AST": 229,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 1308,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 625,
+     "FTA": 691,
+     "MIN": 2851,
+     "PF": 219,
+     "TOV": null
+    }
+   ],
+   "among": 72,
+   "text": "Best free-throw percentage on 500+ attempts in the 1950s: Dolph Schayes, 1956-57 — .904 (625-691)."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "ast_low_pts",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77537,
+     "name": "Dick McGuire"
+    }
+   ],
+   "seasons": [
+    1954
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77537,
+     "name": "Dick McGuire",
+     "season": 1954,
+     "team": "NYK",
+     "GP": 71,
+     "PTS": 647,
+     "PPG": 9.1,
+     "REB": 322,
+     "AST": 542,
+     "STL": null,
+     "BLK": null,
+     "FGM": 226,
+     "FGA": 581,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 195,
+     "FTA": 303,
+     "MIN": 2310,
+     "PF": 143,
+     "TOV": null
+    }
+   ],
+   "among": 463,
+   "text": "Most assists by a sub-10-point scorer in the 1950s: Dick McGuire, 1954-55 — 542 assists while averaging 9.1."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "most_pf",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77573,
+     "name": "Don Meineke"
+    }
+   ],
+   "seasons": [
+    1952
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77573,
+     "name": "Don Meineke",
+     "season": 1952,
+     "team": "FTW",
+     "GP": 68,
+     "PTS": 725,
+     "PPG": 10.7,
+     "REB": 466,
+     "AST": 148,
+     "STL": null,
+     "BLK": null,
+     "FGM": 240,
+     "FGA": 630,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 245,
+     "FTA": 313,
+     "MIN": 2250,
+     "PF": 334,
+     "TOV": null
+    }
+   ],
+   "among": 1062,
+   "text": "Most personal fouls in a season in the 1950s: Don Meineke, 1952-53 — 334."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "reb_low_pts",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77089,
+     "name": "Mel Hutchins"
+    }
+   ],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77089,
+     "name": "Mel Hutchins",
+     "season": 1951,
+     "team": "MIH",
+     "GP": 66,
+     "PTS": 607,
+     "PPG": 9.2,
+     "REB": 880,
+     "AST": 190,
+     "STL": null,
+     "BLK": null,
+     "FGM": 231,
+     "FGA": 633,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 145,
+     "FTA": 225,
+     "MIN": 2618,
+     "PF": 192,
+     "TOV": null
+    }
+   ],
+   "among": 463,
+   "text": "Most rebounds by a sub-10-point scorer in the 1950s: Mel Hutchins, 1951-52 — 880 rebounds while averaging 9.2."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "best_ft_official",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78126,
+     "name": "Bill Sharman"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78126,
+     "name": "Bill Sharman",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 72,
+     "PTS": 1466,
+     "PPG": 20.4,
+     "REB": 292,
+     "AST": 179,
+     "STL": null,
+     "BLK": null,
+     "FGM": 562,
+     "FGA": 1377,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 342,
+     "FTA": 367,
+     "MIN": 2382,
+     "PF": 173,
+     "TOV": null
+    }
+   ],
+   "among": 538,
+   "text": "Best free-throw percentage in a season (125+ made) in the 1950s: Bill Sharman, 1958-59 — .932."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "most_ftm",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77847,
+     "name": "Bob Pettit"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1958,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 2105,
+     "PPG": 29.2,
+     "REB": 1182,
+     "AST": 221,
+     "STL": null,
+     "BLK": null,
+     "FGM": 719,
+     "FGA": 1640,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 667,
+     "FTA": 879,
+     "MIN": 2873,
+     "PF": 200,
+     "TOV": null
+    }
+   ],
+   "among": 1062,
+   "text": "Most free throws made in a season in the 1950s: Bob Pettit, 1958-59 — 667 of 879."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "worst_ft_volume",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    }
+   ],
+   "seasons": [
+    1957
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 69,
+     "PTS": 1142,
+     "PPG": 16.6,
+     "REB": 1564,
+     "AST": 202,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 1032,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 230,
+     "FTA": 443,
+     "MIN": 2640,
+     "PF": 181,
+     "TOV": null
+    }
+   ],
+   "among": 133,
+   "text": "Worst free-throw percentage on 400+ attempts in the 1950s: Bill Russell, 1957-58 — .519 (230-443)."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "most_ast",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 75,
+     "PTS": 1455,
+     "PPG": 19.4,
+     "REB": 352,
+     "AST": 715,
+     "STL": null,
+     "BLK": null,
+     "FGM": 568,
+     "FGA": 1481,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 319,
+     "FTA": 403,
+     "MIN": 2588,
+     "PF": 146,
+     "TOV": null
+    }
+   ],
+   "among": 1062,
+   "text": "Most assists in a season in the 1950s: Bob Cousy, 1959-60 — 715 (9.5 a game)."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "top_apg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 75,
+     "PTS": 1455,
+     "PPG": 19.4,
+     "REB": 352,
+     "AST": 715,
+     "STL": null,
+     "BLK": null,
+     "FGM": 568,
+     "FGA": 1481,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 319,
+     "FTA": 403,
+     "MIN": 2588,
+     "PF": 146,
+     "TOV": null
+    }
+   ],
+   "among": 812,
+   "text": "Highest assist average of the 1950s: Bob Cousy, 1959-60 — 9.5 a game."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "short_pts",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    }
+   ],
+   "seasons": [
+    1956
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 48,
+     "PTS": 706,
+     "PPG": 14.7,
+     "REB": 943,
+     "AST": 88,
+     "STL": null,
+     "BLK": null,
+     "FGM": 277,
+     "FGA": 649,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 152,
+     "FTA": 309,
+     "MIN": 1695,
+     "PF": 143,
+     "TOV": null
+    }
+   ],
+   "among": 128,
+   "text": "Most points by a player who appeared in fewer than 50 games in the 1950s: Bill Russell, 1956-57 — 706 in 48."
+  },
+  {
+   "n": 40,
+   "rule": "pts_total",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78388,
+     "name": "Jack Twyman",
+     "season": 1959,
+     "team": "CIN",
+     "GP": 75,
+     "PTS": 2338,
+     "PPG": 31.2,
+     "REB": 664,
+     "AST": 260,
+     "STL": null,
+     "BLK": null,
+     "FGM": 870,
+     "FGA": 2063,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 598,
+     "FTA": 762,
+     "MIN": 3023,
+     "PF": 275,
+     "TOV": null
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1958,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 2105,
+     "PPG": 29.2,
+     "REB": 1182,
+     "AST": 221,
+     "STL": null,
+     "BLK": null,
+     "FGM": 719,
+     "FGA": 1640,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 667,
+     "FTA": 879,
+     "MIN": 2873,
+     "PF": 200,
+     "TOV": null
+    },
+    {
+     "id": 76127,
+     "name": "Elgin Baylor",
+     "season": 1959,
+     "team": "MNL",
+     "GP": 70,
+     "PTS": 2074,
+     "PPG": 29.6,
+     "REB": 1150,
+     "AST": 243,
+     "STL": null,
+     "BLK": null,
+     "FGM": 755,
+     "FGA": 1781,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 564,
+     "FTA": 770,
+     "MIN": 2873,
+     "PF": 234,
+     "TOV": null
+    },
+    {
+     "id": 78628,
+     "name": "George Yardley",
+     "season": 1957,
+     "team": "DET",
+     "GP": 72,
+     "PTS": 2001,
+     "PPG": 27.8,
+     "REB": 768,
+     "AST": 97,
+     "STL": null,
+     "BLK": null,
+     "FGM": 673,
+     "FGA": 1624,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 655,
+     "FTA": 808,
+     "MIN": 2843,
+     "PF": 226,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "5 players scored 2,000 points in a season in the 1950s. The most extreme: Wilt Chamberlain, 1959-60 — 2,707 pts."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "top_ppg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "among": 812,
+   "text": "Highest scoring average of the 1950s: Wilt Chamberlain, 1959-60 — 37.6 points a game."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "most_fga",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "among": 1062,
+   "text": "Most shots attempted in a season in the 1950s: Wilt Chamberlain, 1959-60 — 2,311 FGA, .461."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "most_reb",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "among": 1062,
+   "text": "Most rebounds in a season in the 1950s: Wilt Chamberlain, 1959-60 — 1,941 (27.0 a game)."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "most_min",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "among": 951,
+   "text": "Most minutes played in a season in the 1950s: Wilt Chamberlain, 1959-60 — 3,338 (46.4 a game)."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "ppg_bench_size",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "among": 717,
+   "text": "Most points per minute by a qualified player in the 1950s: Wilt Chamberlain, 1959-60 — 37.6 ppg in 46.4 minutes."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "top_rpg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    }
+   ],
+   "among": 812,
+   "text": "Highest rebounding average of the 1950s: Wilt Chamberlain, 1959-60 — 27.0 a game."
+  },
+  {
+   "n": 47,
+   "rule": "ft_elite_old",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1957,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1791,
+     "PPG": 24.9,
+     "REB": 1022,
+     "AST": 224,
+     "STL": null,
+     "BLK": null,
+     "FGM": 581,
+     "FGA": 1458,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 629,
+     "FTA": 696,
+     "MIN": 2918,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1956,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1617,
+     "PPG": 22.5,
+     "REB": 1008,
+     "AST": 229,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 1308,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 625,
+     "FTA": 691,
+     "MIN": 2851,
+     "PF": 219,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1959,
+     "team": "SYR",
+     "GP": 75,
+     "PTS": 1689,
+     "PPG": 22.5,
+     "REB": 959,
+     "AST": 256,
+     "STL": null,
+     "BLK": null,
+     "FGM": 578,
+     "FGA": 1440,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 533,
+     "FTA": 597,
+     "MIN": 2741,
+     "PF": 263,
+     "TOV": null
+    },
+    {
+     "id": 78126,
+     "name": "Bill Sharman",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 67,
+     "PTS": 1413,
+     "PPG": 21.1,
+     "REB": 286,
+     "AST": 236,
+     "STL": null,
+     "BLK": null,
+     "FGM": 516,
+     "FGA": 1241,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 381,
+     "FTA": 421,
+     "MIN": 2403,
+     "PF": 188,
+     "TOV": null
+    },
+    {
+     "id": 78453,
+     "name": "Bobby Wanzer",
+     "season": 1951,
+     "team": "ROC",
+     "GP": 66,
+     "PTS": 1033,
+     "PPG": 15.7,
+     "REB": 333,
+     "AST": 262,
+     "STL": null,
+     "BLK": null,
+     "FGM": 328,
+     "FGA": 772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 377,
+     "FTA": 417,
+     "MIN": 2498,
+     "PF": 201,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1958,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1534,
+     "PPG": 21.3,
+     "REB": 962,
+     "AST": 178,
+     "STL": null,
+     "BLK": null,
+     "FGM": 504,
+     "FGA": 1304,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 526,
+     "FTA": 609,
+     "MIN": 2645,
+     "PF": 280,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 5.60733908045977,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    }
+   ],
+   "seasons": [
+    1957
+   ],
+   "text": "6 players shot .850 from the line on 400+ attempts in the 1950s (13 seasons). The most extreme: Dolph Schayes, 1957-58 — .904 on 696 FTA."
+  },
+  {
+   "n": 48,
+   "rule": "big_reb",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 1350,
+     "PPG": 18.2,
+     "REB": 1778,
+     "AST": 277,
+     "STL": null,
+     "BLK": null,
+     "FGM": 555,
+     "FGA": 1189,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 240,
+     "FTA": 392,
+     "MIN": 3146,
+     "PF": 210,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 70,
+     "PTS": 1168,
+     "PPG": 16.7,
+     "REB": 1612,
+     "AST": 222,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 997,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 256,
+     "FTA": 428,
+     "MIN": 2979,
+     "PF": 161,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 69,
+     "PTS": 1142,
+     "PPG": 16.6,
+     "REB": 1564,
+     "AST": 202,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 1032,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 230,
+     "FTA": 443,
+     "MIN": 2640,
+     "PF": 181,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 48,
+     "PTS": 706,
+     "PPG": 14.7,
+     "REB": 943,
+     "AST": 88,
+     "STL": null,
+     "BLK": null,
+     "FGM": 277,
+     "FGA": 649,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 152,
+     "FTA": 309,
+     "MIN": 1695,
+     "PF": 143,
+     "TOV": null
+    },
+    {
+     "id": 600016,
+     "name": "Maurice Stokes",
+     "season": 1957,
+     "team": "CIN",
+     "GP": 63,
+     "PTS": 1066,
+     "PPG": 16.9,
+     "REB": 1142,
+     "AST": 403,
+     "STL": null,
+     "BLK": null,
+     "FGM": 414,
+     "FGA": 1181,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 238,
+     "FTA": 333,
+     "MIN": 2460,
+     "PF": 226,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 5.021875,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "8 players averaged 15+ rebounds (60% of games) in the 1950s (17 seasons). The most extreme: Wilt Chamberlain, 1959-60 — 27.0 rpg."
+  },
+  {
+   "n": 49,
+   "kind": "total",
+   "rule": "t_pf",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 77593,
+     "name": "Vern Mikkelsen"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77593,
+     "name": "Vern Mikkelsen",
+     "total": 2590,
+     "seasons": 9
+    },
+    {
+     "id": 76744,
+     "name": "Larry Foust",
+     "total": 2538,
+     "seasons": 10
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "total": 2491,
+     "seasons": 10
+    },
+    {
+     "id": 76838,
+     "name": "Joe Graboski",
+     "total": 2200,
+     "seasons": 9
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "total": 2122,
+     "seasons": 8
+    }
+   ],
+   "text": "Most personal fouls committed in the 1950s: Vern Mikkelsen, 2,590."
+  },
+  {
+   "n": 50,
+   "kind": "season",
+   "rule": "c_25_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 1
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 1
+    },
+    {
+     "season": 1956,
+     "count": 1
+    },
+    {
+     "season": 1957,
+     "count": 1
+    },
+    {
+     "season": 1958,
+     "count": 3
+    },
+    {
+     "season": 1959,
+     "count": 4
+    }
+   ],
+   "text": "1959-60 had 4 25-point scorers, the most of any season in the 1950s."
+  },
+  {
+   "n": 51,
+   "kind": "season",
+   "rule": "c_25_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1952
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 1
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 1
+    },
+    {
+     "season": 1956,
+     "count": 1
+    },
+    {
+     "season": 1957,
+     "count": 1
+    },
+    {
+     "season": 1958,
+     "count": 3
+    },
+    {
+     "season": 1959,
+     "count": 4
+    }
+   ],
+   "text": "1952-53 had no 25-point scorers at all — one of the seasons of the 1950s without one."
+  },
+  {
+   "n": 52,
+   "kind": "season",
+   "rule": "c_20_10_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 2
+    },
+    {
+     "season": 1951,
+     "count": 2
+    },
+    {
+     "season": 1952,
+     "count": 2
+    },
+    {
+     "season": 1953,
+     "count": 1
+    },
+    {
+     "season": 1954,
+     "count": 2
+    },
+    {
+     "season": 1955,
+     "count": 4
+    },
+    {
+     "season": 1956,
+     "count": 5
+    },
+    {
+     "season": 1957,
+     "count": 4
+    },
+    {
+     "season": 1958,
+     "count": 4
+    },
+    {
+     "season": 1959,
+     "count": 8
+    }
+   ],
+   "text": "1959-60 had 8 20-and-10 players, the most of any season in the 1950s."
+  },
+  {
+   "n": 53,
+   "kind": "season",
+   "rule": "c_20_10_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1953
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 2
+    },
+    {
+     "season": 1951,
+     "count": 2
+    },
+    {
+     "season": 1952,
+     "count": 2
+    },
+    {
+     "season": 1953,
+     "count": 1
+    },
+    {
+     "season": 1954,
+     "count": 2
+    },
+    {
+     "season": 1955,
+     "count": 4
+    },
+    {
+     "season": 1956,
+     "count": 5
+    },
+    {
+     "season": 1957,
+     "count": 4
+    },
+    {
+     "season": 1958,
+     "count": 4
+    },
+    {
+     "season": 1959,
+     "count": 8
+    }
+   ],
+   "text": "1953-54 had just one 20-and-10 player, the fewest of any season in the 1950s."
+  },
+  {
+   "n": 54,
+   "kind": "season",
+   "rule": "c_ft900_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1956
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 0
+    },
+    {
+     "season": 1956,
+     "count": 2
+    },
+    {
+     "season": 1957,
+     "count": 1
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 0
+    }
+   ],
+   "text": "1956-57 had 2 .900 free-throw shooters (200+ FTA), the most of any season in the 1950s."
+  },
+  {
+   "n": 55,
+   "kind": "season",
+   "rule": "c_ft900_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 0
+    },
+    {
+     "season": 1956,
+     "count": 2
+    },
+    {
+     "season": 1957,
+     "count": 1
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 0
+    }
+   ],
+   "text": "1950-51 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1950s without one."
+  },
+  {
+   "n": 56,
+   "kind": "season",
+   "rule": "c_10apg_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 1
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 0
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 1
+    }
+   ],
+   "text": "1951-52 had one 8-assist player, the most of any season in the 1950s."
+  },
+  {
+   "n": 57,
+   "kind": "season",
+   "rule": "c_10apg_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 1
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 0
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 1
+    }
+   ],
+   "text": "1950-51 had no 8-assist players at all — one of the seasons of the 1950s without one."
+  },
+  {
+   "n": 58,
+   "kind": "season",
+   "rule": "c_20_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 3
+    },
+    {
+     "season": 1951,
+     "count": 3
+    },
+    {
+     "season": 1952,
+     "count": 3
+    },
+    {
+     "season": 1953,
+     "count": 1
+    },
+    {
+     "season": 1954,
+     "count": 4
+    },
+    {
+     "season": 1955,
+     "count": 5
+    },
+    {
+     "season": 1956,
+     "count": 8
+    },
+    {
+     "season": 1957,
+     "count": 6
+    },
+    {
+     "season": 1958,
+     "count": 8
+    },
+    {
+     "season": 1959,
+     "count": 13
+    }
+   ],
+   "text": "1959-60 had 13 20-point scorers, the most of any season in the 1950s."
+  },
+  {
+   "n": 59,
+   "kind": "season",
+   "rule": "c_20_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1953
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 3
+    },
+    {
+     "season": 1951,
+     "count": 3
+    },
+    {
+     "season": 1952,
+     "count": 3
+    },
+    {
+     "season": 1953,
+     "count": 1
+    },
+    {
+     "season": 1954,
+     "count": 4
+    },
+    {
+     "season": 1955,
+     "count": 5
+    },
+    {
+     "season": 1956,
+     "count": 8
+    },
+    {
+     "season": 1957,
+     "count": 6
+    },
+    {
+     "season": 1958,
+     "count": 8
+    },
+    {
+     "season": 1959,
+     "count": 13
+    }
+   ],
+   "text": "1953-54 had just one 20-point scorer, the fewest of any season in the 1950s."
+  },
+  {
+   "n": 60,
+   "kind": "season",
+   "rule": "c_all_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 1
+    },
+    {
+     "season": 1951,
+     "count": 36
+    },
+    {
+     "season": 1952,
+     "count": 1
+    },
+    {
+     "season": 1953,
+     "count": 1
+    },
+    {
+     "season": 1954,
+     "count": 1
+    },
+    {
+     "season": 1955,
+     "count": 1
+    },
+    {
+     "season": 1956,
+     "count": 29
+    },
+    {
+     "season": 1957,
+     "count": 22
+    },
+    {
+     "season": 1958,
+     "count": 27
+    },
+    {
+     "season": 1959,
+     "count": 1
+    }
+   ],
+   "text": "1951-52 had 36 players who appeared in every game, the most of any season in the 1950s."
+  },
+  {
+   "n": 61,
+   "kind": "season",
+   "rule": "c_all_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 1
+    },
+    {
+     "season": 1951,
+     "count": 36
+    },
+    {
+     "season": 1952,
+     "count": 1
+    },
+    {
+     "season": 1953,
+     "count": 1
+    },
+    {
+     "season": 1954,
+     "count": 1
+    },
+    {
+     "season": 1955,
+     "count": 1
+    },
+    {
+     "season": 1956,
+     "count": 29
+    },
+    {
+     "season": 1957,
+     "count": 22
+    },
+    {
+     "season": 1958,
+     "count": 27
+    },
+    {
+     "season": 1959,
+     "count": 1
+    }
+   ],
+   "text": "1950-51 had just one player who appeared in every game, the fewest of any season in the 1950s."
+  },
+  {
+   "n": 62,
+   "kind": "season",
+   "rule": "c_10rpg_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1957
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 7
+    },
+    {
+     "season": 1951,
+     "count": 10
+    },
+    {
+     "season": 1952,
+     "count": 9
+    },
+    {
+     "season": 1953,
+     "count": 7
+    },
+    {
+     "season": 1954,
+     "count": 10
+    },
+    {
+     "season": 1955,
+     "count": 8
+    },
+    {
+     "season": 1956,
+     "count": 11
+    },
+    {
+     "season": 1957,
+     "count": 20
+    },
+    {
+     "season": 1958,
+     "count": 11
+    },
+    {
+     "season": 1959,
+     "count": 14
+    }
+   ],
+   "text": "1957-58 had 20 double-digit rebounders, the most of any season in the 1950s."
+  },
+  {
+   "n": 63,
+   "kind": "season",
+   "rule": "c_10rpg_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 7
+    },
+    {
+     "season": 1951,
+     "count": 10
+    },
+    {
+     "season": 1952,
+     "count": 9
+    },
+    {
+     "season": 1953,
+     "count": 7
+    },
+    {
+     "season": 1954,
+     "count": 10
+    },
+    {
+     "season": 1955,
+     "count": 8
+    },
+    {
+     "season": 1956,
+     "count": 11
+    },
+    {
+     "season": 1957,
+     "count": 20
+    },
+    {
+     "season": 1958,
+     "count": 11
+    },
+    {
+     "season": 1959,
+     "count": 14
+    }
+   ],
+   "text": "1950-51 had just 7 double-digit rebounders, the fewest of any season in the 1950s."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "t_pts",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "total": 13915,
+     "seasons": 10
+    },
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "total": 13399,
+     "seasons": 10
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "total": 12728,
+     "seasons": 8
+    },
+    {
+     "id": 78126,
+     "name": "Bill Sharman",
+     "total": 11689,
+     "seasons": 10
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "total": 10776,
+     "seasons": 6
+    }
+   ],
+   "text": "Most points of the 1950s: Dolph Schayes, 13,915 — 516 ahead of Bob Cousy."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "t_reb",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "total": 9372,
+     "seasons": 10
+    },
+    {
+     "id": 76744,
+     "name": "Larry Foust",
+     "total": 7324,
+     "seasons": 10
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "total": 6814,
+     "seasons": 6
+    },
+    {
+     "id": 76773,
+     "name": "Harry Gallatin",
+     "total": 6684,
+     "seasons": 8
+    },
+    {
+     "id": 77593,
+     "name": "Vern Mikkelsen",
+     "total": 5940,
+     "seasons": 9
+    }
+   ],
+   "text": "Most rebounds of the 1950s: Dolph Schayes, 9,372."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "t_ast",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "total": 5259,
+     "seasons": 10
+    },
+    {
+     "id": 77537,
+     "name": "Dick McGuire",
+     "total": 3819,
+     "seasons": 10
+    },
+    {
+     "id": 77480,
+     "name": "Slater Martin",
+     "total": 3012,
+     "seasons": 10
+    },
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "total": 2989,
+     "seasons": 8
+    },
+    {
+     "id": 76243,
+     "name": "Carl Braun",
+     "total": 2292,
+     "seasons": 8
+    }
+   ],
+   "text": "Most assists of the 1950s: Bob Cousy, 5,259."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "c_30_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 0
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 0
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 0
+    },
+    {
+     "season": 1958,
+     "count": 0
+    },
+    {
+     "season": 1959,
+     "count": 2
+    }
+   ],
+   "text": "1959-60 had 2 30-point scorers, the most of any season in the 1950s."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 0
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 0
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 0
+    },
+    {
+     "season": 1958,
+     "count": 0
+    },
+    {
+     "season": 1959,
+     "count": 2
+    }
+   ],
+   "text": "1950-51 had no 30-point scorers at all — one of the seasons of the 1950s without one."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "c_20rpg_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 0
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 0
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 1
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 2
+    }
+   ],
+   "text": "1959-60 had 2 20-rebound players, the most of any season in the 1950s."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_20rpg_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 0
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 0
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 1
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 2
+    }
+   ],
+   "text": "1950-51 had no 20-rebound players at all — one of the seasons of the 1950s without one."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "t_ftm",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "total": 5143,
+     "seasons": 10
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "total": 3994,
+     "seasons": 8
+    },
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "total": 3799,
+     "seasons": 10
+    },
+    {
+     "id": 77169,
+     "name": "Neil Johnston",
+     "total": 3417,
+     "seasons": 8
+    },
+    {
+     "id": 77429,
+     "name": "Ed Macauley",
+     "total": 3371,
+     "seasons": 9
+    }
+   ],
+   "text": "Most free throws made in the 1950s: Dolph Schayes, 5,143."
+  },
+  {
+   "n": 72,
+   "kind": "total",
+   "rule": "t_gp",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "total": 707,
+     "seasons": 10
+    },
+    {
+     "id": 76744,
+     "name": "Larry Foust",
+     "total": 692,
+     "seasons": 10
+    },
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "total": 690,
+     "seasons": 10
+    },
+    {
+     "id": 77480,
+     "name": "Slater Martin",
+     "total": 678,
+     "seasons": 10
+    },
+    {
+     "id": 77537,
+     "name": "Dick McGuire",
+     "total": 670,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1950s: Dolph Schayes, 707."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "t_min",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "total": 23574,
+     "seasons": 9
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "total": 23525,
+     "seasons": 9
+    },
+    {
+     "id": 77480,
+     "name": "Slater Martin",
+     "total": 21889,
+     "seasons": 9
+    },
+    {
+     "id": 76838,
+     "name": "Joe Graboski",
+     "total": 21186,
+     "seasons": 9
+    },
+    {
+     "id": 78126,
+     "name": "Bill Sharman",
+     "total": 20255,
+     "seasons": 9
+    }
+   ],
+   "text": "Most minutes of the 1950s: Bob Cousy, 23,574."
+  },
+  {
+   "n": 74,
+   "kind": "nearmiss",
+   "rule": "rpg99",
+   "group": "P",
+   "decade": "1950s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 76838,
+     "name": "Joe Graboski"
+    },
+    {
+     "id": 78628,
+     "name": "George Yardley"
+    },
+    {
+     "id": 78125,
+     "name": "Charlie Share"
+    }
+   ],
+   "seasons": [
+    1951,
+    1954,
+    1954
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76838,
+     "name": "Joe Graboski",
+     "season": 1951,
+     "team": "INO",
+     "GP": 66,
+     "PTS": 904,
+     "PPG": 13.7,
+     "REB": 655,
+     "AST": 130,
+     "STL": null,
+     "BLK": null,
+     "FGM": 320,
+     "FGA": 827,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 264,
+     "FTA": 396,
+     "MIN": 2439,
+     "PF": 254,
+     "TOV": null
+    },
+    {
+     "id": 78628,
+     "name": "George Yardley",
+     "season": 1954,
+     "team": "FTW",
+     "GP": 60,
+     "PTS": 1036,
+     "PPG": 17.3,
+     "REB": 594,
+     "AST": 126,
+     "STL": null,
+     "BLK": null,
+     "FGM": 363,
+     "FGA": 869,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 310,
+     "FTA": 416,
+     "MIN": 2150,
+     "PF": 205,
+     "TOV": null
+    },
+    {
+     "id": 78125,
+     "name": "Charlie Share",
+     "season": 1954,
+     "team": "MIH",
+     "GP": 69,
+     "PTS": 821,
+     "PPG": 11.9,
+     "REB": 684,
+     "AST": 84,
+     "STL": null,
+     "BLK": null,
+     "FGM": 235,
+     "FGA": 577,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 351,
+     "FTA": 492,
+     "MIN": 1685,
+     "PF": 273,
+     "TOV": null
+    }
+   ],
+   "text": "3 player-seasons of the 1950s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Joe Graboski (1951-52), George Yardley (1954-55), Charlie Share (1954-55)."
+  },
+  {
+   "n": 75,
+   "rule": "reb_1000",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 1350,
+     "PPG": 18.2,
+     "REB": 1778,
+     "AST": 277,
+     "STL": null,
+     "BLK": null,
+     "FGM": 555,
+     "FGA": 1189,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 240,
+     "FTA": 392,
+     "MIN": 3146,
+     "PF": 210,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 70,
+     "PTS": 1168,
+     "PPG": 16.7,
+     "REB": 1612,
+     "AST": 222,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 997,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 256,
+     "FTA": 428,
+     "MIN": 2979,
+     "PF": 161,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 69,
+     "PTS": 1142,
+     "PPG": 16.6,
+     "REB": 1564,
+     "AST": 202,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 1032,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 230,
+     "FTA": 443,
+     "MIN": 2640,
+     "PF": 181,
+     "TOV": null
+    },
+    {
+     "id": 600016,
+     "name": "Maurice Stokes",
+     "season": 1956,
+     "team": "ROC",
+     "GP": 72,
+     "PTS": 1124,
+     "PPG": 15.6,
+     "REB": 1256,
+     "AST": 331,
+     "STL": null,
+     "BLK": null,
+     "FGM": 434,
+     "FGA": 1249,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 256,
+     "FTA": 385,
+     "MIN": 2761,
+     "PF": 287,
+     "TOV": null
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1959,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 1882,
+     "PPG": 26.1,
+     "REB": 1221,
+     "AST": 257,
+     "STL": null,
+     "BLK": null,
+     "FGM": 669,
+     "FGA": 1526,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 544,
+     "FTA": 722,
+     "MIN": 2896,
+     "PF": 204,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 22,
+   "kind": "list",
+   "score": 4.6175,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "10 players grabbed 1,000 rebounds in a season in the 1950s (22 seasons). The most extreme: Wilt Chamberlain, 1959-60 — 1,941 reb."
+  },
+  {
+   "n": 76,
+   "kind": "nearmiss",
+   "rule": "ppg249",
+   "group": "P",
+   "decade": "1950s",
+   "score": 4.5,
+   "players": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes"
+    },
+    {
+     "id": 76127,
+     "name": "Elgin Baylor"
+    }
+   ],
+   "seasons": [
+    1957,
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1957,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1791,
+     "PPG": 24.9,
+     "REB": 1022,
+     "AST": 224,
+     "STL": null,
+     "BLK": null,
+     "FGM": 581,
+     "FGA": 1458,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 629,
+     "FTA": 696,
+     "MIN": 2918,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 76127,
+     "name": "Elgin Baylor",
+     "season": 1958,
+     "team": "MNL",
+     "GP": 70,
+     "PTS": 1742,
+     "PPG": 24.9,
+     "REB": 1050,
+     "AST": 287,
+     "STL": null,
+     "BLK": null,
+     "FGM": 605,
+     "FGA": 1482,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 532,
+     "FTA": 685,
+     "MIN": 2855,
+     "PF": 270,
+     "TOV": null
+    }
+   ],
+   "text": "2 player-seasons of the 1950s ended on a 24.9 scoring average, a tenth short of 25 — among them Dolph Schayes (1957-58), Elgin Baylor (1958-59)."
+  },
+  {
+   "n": 77,
+   "rule": "mpg_42",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1959,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 2707,
+     "PPG": 37.6,
+     "REB": 1941,
+     "AST": 168,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1065,
+     "FGA": 2311,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 991,
+     "MIN": 3338,
+     "PF": 150,
+     "TOV": null
+    },
+    {
+     "id": 77169,
+     "name": "Neil Johnston",
+     "season": 1953,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 1759,
+     "PPG": 24.4,
+     "REB": 797,
+     "AST": 203,
+     "STL": null,
+     "BLK": null,
+     "FGM": 591,
+     "FGA": 1317,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 577,
+     "FTA": 772,
+     "MIN": 3296,
+     "PF": 259,
+     "TOV": null
+    },
+    {
+     "id": 77169,
+     "name": "Neil Johnston",
+     "season": 1952,
+     "team": "PHW",
+     "GP": 70,
+     "PTS": 1564,
+     "PPG": 22.3,
+     "REB": 976,
+     "AST": 197,
+     "STL": null,
+     "BLK": null,
+     "FGM": 504,
+     "FGA": 1114,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 556,
+     "FTA": 794,
+     "MIN": 3166,
+     "PF": 248,
+     "TOV": null
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1951,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 1674,
+     "PPG": 25.4,
+     "REB": 745,
+     "AST": 170,
+     "STL": null,
+     "BLK": null,
+     "FGM": 548,
+     "FGA": 1222,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 578,
+     "FTA": 707,
+     "MIN": 2939,
+     "PF": 250,
+     "TOV": null
+    },
+    {
+     "id": 78142,
+     "name": "Gene Shue",
+     "season": 1959,
+     "team": "DET",
+     "GP": 75,
+     "PTS": 1712,
+     "PPG": 22.8,
+     "REB": 409,
+     "AST": 295,
+     "STL": null,
+     "BLK": null,
+     "FGM": 620,
+     "FGA": 1501,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 472,
+     "FTA": 541,
+     "MIN": 3338,
+     "PF": 146,
+     "TOV": null
+    },
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "season": 1951,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 790,
+     "PPG": 12,
+     "REB": 434,
+     "AST": 539,
+     "STL": null,
+     "BLK": null,
+     "FGM": 279,
+     "FGA": 762,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 308,
+     "MIN": 2933,
+     "PF": 218,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 4.159027777777778,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "7 players averaged 42+ minutes a game (60% of games) in the 1950s (9 seasons). The most extreme: Wilt Chamberlain, 1959-60 — 46.4 mpg."
+  },
+  {
+   "n": 78,
+   "rule": "iron",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1951,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 1674,
+     "PPG": 25.4,
+     "REB": 745,
+     "AST": 170,
+     "STL": null,
+     "BLK": null,
+     "FGM": 548,
+     "FGA": 1222,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 578,
+     "FTA": 707,
+     "MIN": 2939,
+     "PF": 250,
+     "TOV": null
+    },
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "season": 1951,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 790,
+     "PPG": 12,
+     "REB": 434,
+     "AST": 539,
+     "STL": null,
+     "BLK": null,
+     "FGM": 279,
+     "FGA": 762,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 308,
+     "MIN": 2933,
+     "PF": 218,
+     "TOV": null
+    },
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1951,
+     "team": "BOS",
+     "GP": 66,
+     "PTS": 1433,
+     "PPG": 21.7,
+     "REB": 421,
+     "AST": 441,
+     "STL": null,
+     "BLK": null,
+     "FGM": 512,
+     "FGA": 1388,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 409,
+     "FTA": 506,
+     "MIN": 2681,
+     "PF": 190,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1957,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1791,
+     "PPG": 24.9,
+     "REB": 1022,
+     "AST": 224,
+     "STL": null,
+     "BLK": null,
+     "FGM": 581,
+     "FGA": 1458,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 629,
+     "FTA": 696,
+     "MIN": 2918,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 76250,
+     "name": "Frank Brian",
+     "season": 1951,
+     "team": "FTW",
+     "GP": 66,
+     "PTS": 1051,
+     "PPG": 15.9,
+     "REB": 232,
+     "AST": 233,
+     "STL": null,
+     "BLK": null,
+     "FGM": 342,
+     "FGA": 972,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 367,
+     "FTA": 433,
+     "MIN": 2672,
+     "PF": 220,
+     "TOV": null
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1958,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 2105,
+     "PPG": 29.2,
+     "REB": 1182,
+     "AST": 221,
+     "STL": null,
+     "BLK": null,
+     "FGM": 719,
+     "FGA": 1640,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 667,
+     "FTA": 879,
+     "MIN": 2873,
+     "PF": 200,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 4.113257575757576,
+   "players": [
+    {
+     "id": 76056,
+     "name": "Paul Arizin"
+    }
+   ],
+   "seasons": [
+    1951
+   ],
+   "text": "16 players played every game while averaging 38+ minutes in the 1950s (17 seasons). The most extreme: Paul Arizin, 1951-52 — 66 GP, 44.5 mpg."
+  },
+  {
+   "n": 79,
+   "rule": "reb_over_pts",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1958,
+     "team": "BOS",
+     "GP": 70,
+     "PTS": 1168,
+     "PPG": 16.7,
+     "REB": 1612,
+     "AST": 222,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 997,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 256,
+     "FTA": 428,
+     "MIN": 2979,
+     "PF": 161,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 1350,
+     "PPG": 18.2,
+     "REB": 1778,
+     "AST": 277,
+     "STL": null,
+     "BLK": null,
+     "FGM": 555,
+     "FGA": 1189,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 240,
+     "FTA": 392,
+     "MIN": 3146,
+     "PF": 210,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1957,
+     "team": "BOS",
+     "GP": 69,
+     "PTS": 1142,
+     "PPG": 16.6,
+     "REB": 1564,
+     "AST": 202,
+     "STL": null,
+     "BLK": null,
+     "FGM": 456,
+     "FGA": 1032,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 230,
+     "FTA": 443,
+     "MIN": 2640,
+     "PF": 181,
+     "TOV": null
+    },
+    {
+     "id": 77089,
+     "name": "Mel Hutchins",
+     "season": 1951,
+     "team": "MIH",
+     "GP": 66,
+     "PTS": 607,
+     "PPG": 9.2,
+     "REB": 880,
+     "AST": 190,
+     "STL": null,
+     "BLK": null,
+     "FGM": 231,
+     "FGA": 633,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 145,
+     "FTA": 225,
+     "MIN": 2618,
+     "PF": 192,
+     "TOV": null
+    },
+    {
+     "id": 78049,
+     "name": "Bill Russell",
+     "season": 1956,
+     "team": "BOS",
+     "GP": 48,
+     "PTS": 706,
+     "PPG": 14.7,
+     "REB": 943,
+     "AST": 88,
+     "STL": null,
+     "BLK": null,
+     "FGM": 277,
+     "FGA": 649,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 152,
+     "FTA": 309,
+     "MIN": 1695,
+     "PF": 143,
+     "TOV": null
+    },
+    {
+     "id": 78125,
+     "name": "Charlie Share",
+     "season": 1958,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 433,
+     "PPG": 6,
+     "REB": 657,
+     "AST": 103,
+     "STL": null,
+     "BLK": null,
+     "FGM": 147,
+     "FGA": 381,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 139,
+     "FTA": 184,
+     "MIN": 1713,
+     "PF": 261,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 28,
+   "kind": "list",
+   "score": 4.109999999999999,
+   "players": [
+    {
+     "id": 78049,
+     "name": "Bill Russell"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "text": "17 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1950s (28 seasons). The most extreme: Bill Russell, 1958-59 — 1,612 reb, 1,168 pts."
+  },
+  {
+   "n": 80,
+   "rule": "pf_300",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77573,
+     "name": "Don Meineke",
+     "season": 1952,
+     "team": "FTW",
+     "GP": 68,
+     "PTS": 725,
+     "PPG": 10.7,
+     "REB": 466,
+     "AST": 148,
+     "STL": null,
+     "BLK": null,
+     "FGM": 240,
+     "FGA": 630,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 245,
+     "FTA": 313,
+     "MIN": 2250,
+     "PF": 334,
+     "TOV": null
+    },
+    {
+     "id": 76611,
+     "name": "Walter Dukes",
+     "season": 1958,
+     "team": "DET",
+     "GP": 72,
+     "PTS": 933,
+     "PPG": 13,
+     "REB": 958,
+     "AST": 64,
+     "STL": null,
+     "BLK": null,
+     "FGM": 318,
+     "FGA": 904,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 297,
+     "FTA": 452,
+     "MIN": 2338,
+     "PF": 332,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1952,
+     "team": "PHW",
+     "GP": 70,
+     "PTS": 832,
+     "PPG": 11.9,
+     "REB": 387,
+     "AST": 138,
+     "STL": null,
+     "BLK": null,
+     "FGM": 332,
+     "FGA": 960,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 168,
+     "FTA": 231,
+     "MIN": 2085,
+     "PF": 319,
+     "TOV": null
+    },
+    {
+     "id": 77593,
+     "name": "Vern Mikkelsen",
+     "season": 1954,
+     "team": "MNL",
+     "GP": 71,
+     "PTS": 1327,
+     "PPG": 18.7,
+     "REB": 722,
+     "AST": 145,
+     "STL": null,
+     "BLK": null,
+     "FGM": 440,
+     "FGA": 1043,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 598,
+     "MIN": 2559,
+     "PF": 319,
+     "TOV": null
+    },
+    {
+     "id": 77593,
+     "name": "Vern Mikkelsen",
+     "season": 1955,
+     "team": "MNL",
+     "GP": 72,
+     "PTS": 962,
+     "PPG": 13.4,
+     "REB": 608,
+     "AST": 173,
+     "STL": null,
+     "BLK": null,
+     "FGM": 317,
+     "FGA": 821,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 408,
+     "MIN": 2100,
+     "PF": 319,
+     "TOV": null
+    },
+    {
+     "id": 78125,
+     "name": "Charlie Share",
+     "season": 1955,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 976,
+     "PPG": 13.6,
+     "REB": 774,
+     "AST": 131,
+     "STL": null,
+     "BLK": null,
+     "FGM": 315,
+     "FGA": 733,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 346,
+     "FTA": 498,
+     "MIN": 1975,
+     "PF": 318,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 3.835,
+   "players": [
+    {
+     "id": 77573,
+     "name": "Don Meineke"
+    }
+   ],
+   "seasons": [
+    1952
+   ],
+   "text": "12 players committed 300 personal fouls in a season in the 1950s (16 seasons). The most extreme: Don Meineke, 1952-53 — 334 PF."
+  },
+  {
+   "n": 81,
+   "rule": "play_all",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1951,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 1674,
+     "PPG": 25.4,
+     "REB": 745,
+     "AST": 170,
+     "STL": null,
+     "BLK": null,
+     "FGM": 548,
+     "FGA": 1222,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 578,
+     "FTA": 707,
+     "MIN": 2939,
+     "PF": 250,
+     "TOV": null
+    },
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "season": 1951,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 790,
+     "PPG": 12,
+     "REB": 434,
+     "AST": 539,
+     "STL": null,
+     "BLK": null,
+     "FGM": 279,
+     "FGA": 762,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 308,
+     "MIN": 2933,
+     "PF": 218,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1957,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1791,
+     "PPG": 24.9,
+     "REB": 1022,
+     "AST": 224,
+     "STL": null,
+     "BLK": null,
+     "FGM": 581,
+     "FGA": 1458,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 629,
+     "FTA": 696,
+     "MIN": 2918,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1958,
+     "team": "STL",
+     "GP": 72,
+     "PTS": 2105,
+     "PPG": 29.2,
+     "REB": 1182,
+     "AST": 221,
+     "STL": null,
+     "BLK": null,
+     "FGM": 719,
+     "FGA": 1640,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 667,
+     "FTA": 879,
+     "MIN": 2873,
+     "PF": 200,
+     "TOV": null
+    },
+    {
+     "id": 78076,
+     "name": "Dolph Schayes",
+     "season": 1956,
+     "team": "SYR",
+     "GP": 72,
+     "PTS": 1617,
+     "PPG": 22.5,
+     "REB": 1008,
+     "AST": 229,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 1308,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 625,
+     "FTA": 691,
+     "MIN": 2851,
+     "PF": 219,
+     "TOV": null
+    },
+    {
+     "id": 78628,
+     "name": "George Yardley",
+     "season": 1957,
+     "team": "DET",
+     "GP": 72,
+     "PTS": 2001,
+     "PPG": 27.8,
+     "REB": 768,
+     "AST": 97,
+     "STL": null,
+     "BLK": null,
+     "FGM": 673,
+     "FGA": 1624,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 655,
+     "FTA": 808,
+     "MIN": 2843,
+     "PF": 226,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 120,
+   "kind": "list",
+   "score": 3.73475,
+   "players": [
+    {
+     "id": 76056,
+     "name": "Paul Arizin"
+    }
+   ],
+   "seasons": [
+    1951
+   ],
+   "text": "81 players played every game of the season in the 1950s (120 seasons). The most extreme: Paul Arizin, 1951-52 — 66 games, 44.5 mpg."
+  },
+  {
+   "n": 82,
+   "rule": "score_no_pass",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78628,
+     "name": "George Yardley",
+     "season": 1957,
+     "team": "DET",
+     "GP": 72,
+     "PTS": 2001,
+     "PPG": 27.8,
+     "REB": 768,
+     "AST": 97,
+     "STL": null,
+     "BLK": null,
+     "FGM": 673,
+     "FGA": 1624,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 655,
+     "FTA": 808,
+     "MIN": 2843,
+     "PF": 226,
+     "TOV": null
+    },
+    {
+     "id": 76056,
+     "name": "Paul Arizin",
+     "season": 1958,
+     "team": "PHW",
+     "GP": 70,
+     "PTS": 1851,
+     "PPG": 26.4,
+     "REB": 637,
+     "AST": 119,
+     "STL": null,
+     "BLK": null,
+     "FGM": 632,
+     "FGA": 1466,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 587,
+     "FTA": 722,
+     "MIN": 2799,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 77847,
+     "name": "Bob Pettit",
+     "season": 1956,
+     "team": "STL",
+     "GP": 71,
+     "PTS": 1755,
+     "PPG": 24.7,
+     "REB": 1037,
+     "AST": 133,
+     "STL": null,
+     "BLK": null,
+     "FGM": 613,
+     "FGA": 1477,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 529,
+     "FTA": 684,
+     "MIN": 2491,
+     "PF": 181,
+     "TOV": null
+    },
+    {
+     "id": 77414,
+     "name": "Clyde Lovellette",
+     "season": 1957,
+     "team": "CIN",
+     "GP": 71,
+     "PTS": 1659,
+     "PPG": 23.4,
+     "REB": 862,
+     "AST": 134,
+     "STL": null,
+     "BLK": null,
+     "FGM": 679,
+     "FGA": 1540,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 301,
+     "FTA": 405,
+     "MIN": 2589,
+     "PF": 236,
+     "TOV": null
+    },
+    {
+     "id": 78628,
+     "name": "George Yardley",
+     "season": 1959,
+     "team": "SYR",
+     "GP": 73,
+     "PTS": 1473,
+     "PPG": 20.2,
+     "REB": 579,
+     "AST": 122,
+     "STL": null,
+     "BLK": null,
+     "FGM": 546,
+     "FGA": 1205,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 381,
+     "FTA": 467,
+     "MIN": 2402,
+     "PF": 227,
+     "TOV": null
+    },
+    {
+     "id": 77414,
+     "name": "Clyde Lovellette",
+     "season": 1959,
+     "team": "STL",
+     "GP": 68,
+     "PTS": 1416,
+     "PPG": 20.8,
+     "REB": 721,
+     "AST": 127,
+     "STL": null,
+     "BLK": null,
+     "FGM": 550,
+     "FGA": 1174,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 316,
+     "FTA": 385,
+     "MIN": 1953,
+     "PF": 248,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.526388888888889,
+   "players": [
+    {
+     "id": 78628,
+     "name": "George Yardley"
+    }
+   ],
+   "seasons": [
+    1957
+   ],
+   "text": "5 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 1950s (8 seasons). The most extreme: George Yardley, 1957-58 — 27.8 ppg, 1.3 apg."
+  },
+  {
+   "n": 83,
+   "rule": "volume_misses",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78388,
+     "name": "Jack Twyman",
+     "season": 1959,
+     "team": "CIN",
+     "GP": 75,
+     "PTS": 2338,
+     "PPG": 31.2,
+     "REB": 664,
+     "AST": 260,
+     "STL": null,
+     "BLK": null,
+     "FGM": 870,
+     "FGA": 2063,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 598,
+     "FTA": 762,
+     "MIN": 3023,
+     "PF": 275,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1950,
+     "team": "PHW",
+     "GP": 66,
+     "PTS": 1236,
+     "PPG": 18.7,
+     "REB": 523,
+     "AST": 117,
+     "STL": null,
+     "BLK": null,
+     "FGM": 429,
+     "FGA": 1358,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 378,
+     "FTA": 442,
+     "MIN": null,
+     "PF": 247,
+     "TOV": null
+    },
+    {
+     "id": 76127,
+     "name": "Elgin Baylor",
+     "season": 1959,
+     "team": "MNL",
+     "GP": 70,
+     "PTS": 2074,
+     "PPG": 29.6,
+     "REB": 1150,
+     "AST": 243,
+     "STL": null,
+     "BLK": null,
+     "FGM": 755,
+     "FGA": 1781,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 564,
+     "FTA": 770,
+     "MIN": 2873,
+     "PF": 234,
+     "TOV": null
+    },
+    {
+     "id": 78388,
+     "name": "Jack Twyman",
+     "season": 1958,
+     "team": "CIN",
+     "GP": 72,
+     "PTS": 1857,
+     "PPG": 25.8,
+     "REB": 653,
+     "AST": 209,
+     "STL": null,
+     "BLK": null,
+     "FGM": 710,
+     "FGA": 1691,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 437,
+     "FTA": 558,
+     "MIN": 2713,
+     "PF": 277,
+     "TOV": null
+    },
+    {
+     "id": 78064,
+     "name": "Woody Sauldsberry",
+     "season": 1958,
+     "team": "PHW",
+     "GP": 72,
+     "PTS": 1112,
+     "PPG": 15.4,
+     "REB": 826,
+     "AST": 71,
+     "STL": null,
+     "BLK": null,
+     "FGM": 501,
+     "FGA": 1380,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 110,
+     "FTA": 176,
+     "MIN": 2743,
+     "PF": 276,
+     "TOV": null
+    },
+    {
+     "id": 600003,
+     "name": "Bob Cousy",
+     "season": 1959,
+     "team": "BOS",
+     "GP": 75,
+     "PTS": 1455,
+     "PPG": 19.4,
+     "REB": 352,
+     "AST": 715,
+     "STL": null,
+     "BLK": null,
+     "FGM": 568,
+     "FGA": 1481,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 319,
+     "FTA": 403,
+     "MIN": 2588,
+     "PF": 146,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 43,
+   "kind": "list",
+   "score": 3.022789869122637,
+   "players": [
+    {
+     "id": 78388,
+     "name": "Jack Twyman"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "17 players shot under .430 on 1,200+ attempts in the 1950s (43 seasons). The most extreme: Jack Twyman, 1959-60 — .422 on 2,063 FGA."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 1062,
+  "playoffPlayerSeasons": 647
+ },
+ "method": [
+  "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "Qualification is 60% of the most games anyone played that season. Attempt floors are stated in the line.",
+  "Categories not yet recorded (rebounds before 1950-51, minutes before 1951-52, steals and blocks before 1973-74, turnovers before 1977-78, threes before 1979-80) are treated as missing, never as zero.",
+  "Team-mate lines are omitted: the feed credits a traded player's whole season to one club."
+ ]
+}

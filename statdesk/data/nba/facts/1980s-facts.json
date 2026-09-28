@@ -1,0 +1,9146 @@
+{
+ "sport": "NBA",
+ "decade": "1980s",
+ "era": 4,
+ "bars": {
+  "ppg": 25,
+  "ppgHi": 30,
+  "fgLow": 0.43,
+  "fgHi": 0.56,
+  "rpg": 12,
+  "apg": 10,
+  "pts": 2000
+ },
+ "seasons": [
+  "1980-81",
+  "1981-82",
+  "1982-83",
+  "1983-84",
+  "1984-85",
+  "1985-86",
+  "1986-87",
+  "1987-88",
+  "1988-89",
+  "1989-90"
+ ],
+ "candidates": 124,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "pts_3000",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1986,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 3041,
+     "PPG": 37.1,
+     "REB": 430,
+     "AST": 377,
+     "STL": 236,
+     "BLK": 125,
+     "FGM": 1098,
+     "FGA": 2279,
+     "FG3M": 12,
+     "FG3A": 66,
+     "FTM": 833,
+     "FTA": 972,
+     "MIN": 3281,
+     "PF": 237,
+     "TOV": 272
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 893,
+     "name": "Michael Jordan"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "text": "The only player of the 1980s to score 3,000 points in a season: Michael Jordan, 1986-87 — 3,041 pts."
+  },
+  {
+   "n": 2,
+   "rule": "po_ft",
+   "group": "PO",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77669,
+     "name": "Calvin Murphy",
+     "season": 1980,
+     "team": "HOU",
+     "GP": 19,
+     "PTS": 344,
+     "PPG": 18.1,
+     "REB": 24,
+     "AST": 57,
+     "STL": 26,
+     "BLK": 0,
+     "FGM": 142,
+     "FGA": 287,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 58,
+     "FTA": 60,
+     "MIN": 540,
+     "PF": 69,
+     "TOV": 42
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.416666666666668,
+   "players": [
+    {
+     "id": 77669,
+     "name": "Calvin Murphy"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "The only player of the 1980s to shoot .950 from the line in a single postseason (60+ FTA): Calvin Murphy, 1980-81 — .967 on 60 FTA."
+  },
+  {
+   "n": 3,
+   "rule": "stocks",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1989,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1995,
+     "PPG": 24.3,
+     "REB": 1149,
+     "AST": 234,
+     "STL": 174,
+     "BLK": 376,
+     "FGM": 806,
+     "FGA": 1609,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 382,
+     "FTA": 536,
+     "MIN": 3124,
+     "PF": 314,
+     "TOV": 316
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1988,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 1105,
+     "AST": 149,
+     "STL": 213,
+     "BLK": 282,
+     "FGM": 790,
+     "FGA": 1556,
+     "FG3M": 0,
+     "FG3A": 10,
+     "FTM": 454,
+     "FTA": 652,
+     "MIN": 3024,
+     "PF": 329,
+     "TOV": 275
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1987,
+     "team": "HOU",
+     "GP": 79,
+     "PTS": 1805,
+     "PPG": 22.8,
+     "REB": 959,
+     "AST": 163,
+     "STL": 162,
+     "BLK": 214,
+     "FGM": 712,
+     "FGA": 1385,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 381,
+     "FTA": 548,
+     "MIN": 2825,
+     "PF": 324,
+     "TOV": 243
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "only",
+   "score": 11.676829268292682,
+   "players": [
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon"
+    }
+   ],
+   "seasons": [
+    1989,
+    1988,
+    1987
+   ],
+   "text": "The only player of the 1980s to average 2 steals and 2 blocks (60% of games) was Hakeem Olajuwon — and he did it 3 times (1989-90: 2.1 spg, 4.6 bpg; 1988-89: 2.6 spg, 3.4 bpg; 1987-88: 2.1 spg, 2.7 bpg)."
+  },
+  {
+   "n": 4,
+   "rule": "threes_great",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 107,
+     "name": "Dale Ellis",
+     "season": 1988,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 2253,
+     "PPG": 27.5,
+     "REB": 342,
+     "AST": 164,
+     "STL": 108,
+     "BLK": 22,
+     "FGM": 857,
+     "FGA": 1710,
+     "FG3M": 162,
+     "FG3A": 339,
+     "FTM": 377,
+     "FTA": 462,
+     "MIN": 3190,
+     "PF": 197,
+     "TOV": 218
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.194690265486726,
+   "players": [
+    {
+     "id": 107,
+     "name": "Dale Ellis"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "The only player of the 1980s to shoot .450 from three on 250+ attempts: Dale Ellis, 1988-89 — .478 on 339 3PA."
+  },
+  {
+   "n": 5,
+   "rule": "twenty_ten_five",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1984,
+     "team": "BOS",
+     "GP": 80,
+     "PTS": 2295,
+     "PPG": 28.7,
+     "REB": 842,
+     "AST": 531,
+     "STL": 129,
+     "BLK": 98,
+     "FGM": 918,
+     "FGA": 1760,
+     "FG3M": 56,
+     "FG3A": 131,
+     "FTM": 403,
+     "FTA": 457,
+     "MIN": 3161,
+     "PF": 208,
+     "TOV": 248
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1983,
+     "team": "BOS",
+     "GP": 79,
+     "PTS": 1908,
+     "PPG": 24.2,
+     "REB": 796,
+     "AST": 520,
+     "STL": 144,
+     "BLK": 69,
+     "FGM": 758,
+     "FGA": 1542,
+     "FG3M": 18,
+     "FG3A": 73,
+     "FTM": 374,
+     "FTA": 421,
+     "MIN": 3028,
+     "PF": 197,
+     "TOV": 237
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1982,
+     "team": "BOS",
+     "GP": 79,
+     "PTS": 1867,
+     "PPG": 23.6,
+     "REB": 870,
+     "AST": 458,
+     "STL": 148,
+     "BLK": 71,
+     "FGM": 747,
+     "FGA": 1481,
+     "FG3M": 22,
+     "FG3A": 77,
+     "FTM": 351,
+     "FTA": 418,
+     "MIN": 2982,
+     "PF": 197,
+     "TOV": 240
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1981,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 1761,
+     "PPG": 22.9,
+     "REB": 837,
+     "AST": 447,
+     "STL": 143,
+     "BLK": 66,
+     "FGM": 711,
+     "FGA": 1414,
+     "FG3M": 11,
+     "FG3A": 52,
+     "FTM": 328,
+     "FTA": 380,
+     "MIN": 2923,
+     "PF": 244,
+     "TOV": 254
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1980,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 1741,
+     "PPG": 21.2,
+     "REB": 895,
+     "AST": 451,
+     "STL": 161,
+     "BLK": 63,
+     "FGM": 719,
+     "FGA": 1503,
+     "FG3M": 20,
+     "FG3A": 74,
+     "FTM": 283,
+     "FTA": 328,
+     "MIN": 3239,
+     "PF": 239,
+     "TOV": 289
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "only",
+   "score": 11.14625,
+   "players": [
+    {
+     "id": 1449,
+     "name": "Larry Bird"
+    }
+   ],
+   "seasons": [
+    1984,
+    1983,
+    1982,
+    1981,
+    1980
+   ],
+   "text": "The only player of the 1980s to average 20 points, 10 rebounds and 5 assists (60% of games) was Larry Bird — and he did it 5 times (1984-85: 28.7/10.5/6.6; 1983-84: 24.2/10.1/6.6; 1982-83: 23.6/11.0/5.8; …)."
+  },
+  {
+   "n": 6,
+   "rule": "mpg_42",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "season": 1980,
+     "team": "UTH",
+     "GP": 80,
+     "PTS": 2452,
+     "PPG": 30.6,
+     "REB": 509,
+     "AST": 322,
+     "STL": 109,
+     "BLK": 18,
+     "FGM": 909,
+     "FGA": 1627,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 632,
+     "FTA": 784,
+     "MIN": 3417,
+     "PF": 245,
+     "TOV": 282
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.0678125,
+   "players": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "The only player of the 1980s to average 42+ minutes a game (60% of games): Adrian Dantley, 1980-81 — 42.7 mpg."
+  },
+  {
+   "n": 7,
+   "rule": "fifty_forty_ninety",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 899,
+     "name": "Mark Price",
+     "season": 1988,
+     "team": "CLE",
+     "GP": 75,
+     "PTS": 1414,
+     "PPG": 18.9,
+     "REB": 226,
+     "AST": 631,
+     "STL": 115,
+     "BLK": 7,
+     "FGM": 529,
+     "FGA": 1006,
+     "FG3M": 93,
+     "FG3A": 211,
+     "FTM": 263,
+     "FTA": 292,
+     "MIN": 2728,
+     "PF": 98,
+     "TOV": 212
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1987,
+     "team": "BOS",
+     "GP": 76,
+     "PTS": 2275,
+     "PPG": 29.9,
+     "REB": 703,
+     "AST": 467,
+     "STL": 125,
+     "BLK": 57,
+     "FGM": 881,
+     "FGA": 1672,
+     "FG3M": 98,
+     "FG3A": 237,
+     "FTM": 415,
+     "FTA": 453,
+     "MIN": 2965,
+     "PF": 157,
+     "TOV": 213
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 2076,
+     "PPG": 28.1,
+     "REB": 682,
+     "AST": 566,
+     "STL": 135,
+     "BLK": 70,
+     "FGM": 786,
+     "FGA": 1497,
+     "FG3M": 90,
+     "FG3A": 225,
+     "FTM": 414,
+     "FTA": 455,
+     "MIN": 3005,
+     "PF": 185,
+     "TOV": 240
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 899,
+     "name": "Mark Price"
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird"
+    }
+   ],
+   "seasons": [
+    1988,
+    1987,
+    1986
+   ],
+   "text": "Only two players of the 1980s shot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Mark Price (1988-89: .526/.441/.901); Larry Bird (2×, best 1987-88: .527/.414/.916)."
+  },
+  {
+   "n": 8,
+   "rule": "fga_2000",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1986,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 3041,
+     "PPG": 37.1,
+     "REB": 430,
+     "AST": 377,
+     "STL": 236,
+     "BLK": 125,
+     "FGM": 1098,
+     "FGA": 2279,
+     "FG3M": 12,
+     "FG3A": 66,
+     "FTM": 833,
+     "FTA": 972,
+     "MIN": 3281,
+     "PF": 237,
+     "TOV": 272
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.949583333333333,
+   "players": [
+    {
+     "id": 893,
+     "name": "Michael Jordan"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "text": "The only player of the 1980s to attempt 2,000 field goals in a season: Michael Jordan, 1986-87 — 2,279 FGA."
+  },
+  {
+   "n": 9,
+   "rule": "po_pts",
+   "group": "PO",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1983,
+     "team": "BOS",
+     "GP": 23,
+     "PTS": 632,
+     "PPG": 27.5,
+     "REB": 252,
+     "AST": 136,
+     "STL": 54,
+     "BLK": 27,
+     "FGM": 229,
+     "FGA": 437,
+     "FG3M": 7,
+     "FG3A": 17,
+     "FTM": 167,
+     "FTA": 190,
+     "MIN": 961,
+     "PF": 71,
+     "TOV": 87
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 23,
+     "PTS": 622,
+     "PPG": 27,
+     "REB": 231,
+     "AST": 165,
+     "STL": 27,
+     "BLK": 19,
+     "FGM": 216,
+     "FGA": 454,
+     "FG3M": 14,
+     "FG3A": 41,
+     "FTM": 176,
+     "FTA": 193,
+     "MIN": 1015,
+     "PF": 55,
+     "TOV": 71
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 10.79,
+   "players": [
+    {
+     "id": 1449,
+     "name": "Larry Bird"
+    }
+   ],
+   "seasons": [
+    1983,
+    1986
+   ],
+   "text": "The only player of the 1980s to score 600 points in one postseason was Larry Bird — and he did it twice (1983-84: 632 pts in 23 games; 1986-87: 622 pts in 23 games)."
+  },
+  {
+   "n": 10,
+   "rule": "short_scorer",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "season": 1982,
+     "team": "UTH",
+     "GP": 22,
+     "PTS": 676,
+     "PPG": 30.7,
+     "REB": 140,
+     "AST": 105,
+     "STL": 20,
+     "BLK": 0,
+     "FGM": 233,
+     "FGA": 402,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 210,
+     "FTA": 248,
+     "MIN": 887,
+     "PF": 62,
+     "TOV": 81
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.768181818181818,
+   "players": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "text": "The only player of the 1980s to average 25 points while missing 40% of the season (20+ games): Adrian Dantley, 1982-83 — 30.7 ppg in 22 games."
+  },
+  {
+   "n": 11,
+   "rule": "ft_900",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1988,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1730,
+     "PPG": 22.5,
+     "REB": 607,
+     "AST": 988,
+     "STL": 138,
+     "BLK": 22,
+     "FGM": 579,
+     "FGA": 1137,
+     "FG3M": 59,
+     "FG3A": 188,
+     "FTM": 513,
+     "FTA": 563,
+     "MIN": 2886,
+     "PF": 172,
+     "TOV": 312
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1987,
+     "team": "BOS",
+     "GP": 76,
+     "PTS": 2275,
+     "PPG": 29.9,
+     "REB": 703,
+     "AST": 467,
+     "STL": 125,
+     "BLK": 57,
+     "FGM": 881,
+     "FGA": 1672,
+     "FG3M": 98,
+     "FG3A": 237,
+     "FTM": 415,
+     "FTA": 453,
+     "MIN": 2965,
+     "PF": 157,
+     "TOV": 213
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 74,
+     "PTS": 2076,
+     "PPG": 28.1,
+     "REB": 682,
+     "AST": 566,
+     "STL": 135,
+     "BLK": 70,
+     "FGM": 786,
+     "FGA": 1497,
+     "FG3M": 90,
+     "FG3A": 225,
+     "FTM": 414,
+     "FTA": 455,
+     "MIN": 3005,
+     "PF": 185,
+     "TOV": 240
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 10.55947513321492,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird"
+    }
+   ],
+   "seasons": [
+    1988,
+    1987,
+    1986
+   ],
+   "text": "Only two players of the 1980s shot .900 from the line on 400+ attempts: Magic Johnson (1988-89: .911 on 563 FTA); Larry Bird (2×, best 1987-88: .916 on 453 FTA)."
+  },
+  {
+   "n": 12,
+   "rule": "fg_600",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600014,
+     "name": "Artis Gilmore",
+     "season": 1980,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1469,
+     "PPG": 17.9,
+     "REB": 828,
+     "AST": 172,
+     "STL": 47,
+     "BLK": 198,
+     "FGM": 547,
+     "FGA": 816,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 375,
+     "FTA": 532,
+     "MIN": 2832,
+     "PF": 295,
+     "TOV": 236
+    },
+    {
+     "id": 600014,
+     "name": "Artis Gilmore",
+     "season": 1981,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1517,
+     "PPG": 18.5,
+     "REB": 835,
+     "AST": 136,
+     "STL": 49,
+     "BLK": 220,
+     "FGM": 546,
+     "FGA": 837,
+     "FG3M": 1,
+     "FG3A": 1,
+     "FTM": 424,
+     "FTA": 552,
+     "MIN": 2796,
+     "PF": 287,
+     "TOV": 227
+    },
+    {
+     "id": 600014,
+     "name": "Artis Gilmore",
+     "season": 1982,
+     "team": "SAN",
+     "GP": 82,
+     "PTS": 1479,
+     "PPG": 18,
+     "REB": 984,
+     "AST": 126,
+     "STL": 40,
+     "BLK": 192,
+     "FGM": 556,
+     "FGA": 888,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 367,
+     "FTA": 496,
+     "MIN": 2797,
+     "PF": 273,
+     "TOV": 254
+    },
+    {
+     "id": 600014,
+     "name": "Artis Gilmore",
+     "season": 1984,
+     "team": "SAN",
+     "GP": 81,
+     "PTS": 1548,
+     "PPG": 19.1,
+     "REB": 846,
+     "AST": 131,
+     "STL": 40,
+     "BLK": 173,
+     "FGM": 532,
+     "FGA": 854,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 484,
+     "FTA": 646,
+     "MIN": 2756,
+     "PF": 306,
+     "TOV": 241
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 2008,
+     "PPG": 26.1,
+     "REB": 763,
+     "AST": 198,
+     "STL": 38,
+     "BLK": 172,
+     "FGM": 790,
+     "FGA": 1307,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 428,
+     "FTA": 512,
+     "MIN": 3060,
+     "PF": 240,
+     "TOV": 197
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1987,
+     "team": "BOS",
+     "GP": 64,
+     "PTS": 1446,
+     "PPG": 22.6,
+     "REB": 536,
+     "AST": 171,
+     "STL": 27,
+     "BLK": 92,
+     "FGM": 550,
+     "FGA": 911,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 346,
+     "FTA": 434,
+     "MIN": 2390,
+     "PF": 179,
+     "TOV": 141
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "pair",
+   "score": 9.675857843137255,
+   "players": [
+    {
+     "id": 600014,
+     "name": "Artis Gilmore"
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1984,
+    1986,
+    1987
+   ],
+   "text": "Only two players of the 1980s shot .600 from the field on 800+ attempts: Artis Gilmore (4×, best 1980-81: .670 on 816 FGA); Kevin McHale (2×, best 1986-87: .604 on 1,307 FGA)."
+  },
+  {
+   "n": 13,
+   "rule": "thirty_ten",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1981,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2520,
+     "PPG": 31.1,
+     "REB": 1188,
+     "AST": 142,
+     "STL": 76,
+     "BLK": 125,
+     "FGM": 945,
+     "FGA": 1822,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 630,
+     "FTA": 827,
+     "MIN": 3398,
+     "PF": 208,
+     "TOV": 294
+    },
+    {
+     "id": 252,
+     "name": "Karl Malone",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 2540,
+     "PPG": 31,
+     "REB": 911,
+     "AST": 226,
+     "STL": 121,
+     "BLK": 50,
+     "FGM": 914,
+     "FGA": 1627,
+     "FG3M": 16,
+     "FG3A": 43,
+     "FTM": 696,
+     "FTA": 913,
+     "MIN": 3122,
+     "PF": 259,
+     "TOV": 304
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.144444444444444,
+   "players": [
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    },
+    {
+     "id": 252,
+     "name": "Karl Malone"
+    }
+   ],
+   "seasons": [
+    1981,
+    1989
+   ],
+   "text": "Only two players of the 1980s averaged 30 points and 10 rebounds (60% of games): Moses Malone (1981-82: 31.1 ppg, 14.7 rpg); Karl Malone (1989-90: 31.0 ppg, 11.1 rpg)."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "s_25ppg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76673,
+     "name": "Alex English"
+    }
+   ],
+   "seasons": [
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1981,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2082,
+     "PPG": 25.4,
+     "REB": 558,
+     "AST": 433,
+     "STL": 87,
+     "BLK": 120,
+     "FGM": 855,
+     "FGA": 1553,
+     "FG3M": 0,
+     "FG3A": 8,
+     "FTM": 372,
+     "FTA": 443,
+     "MIN": 3015,
+     "PF": 261,
+     "TOV": 261
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1982,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2326,
+     "PPG": 28.4,
+     "REB": 601,
+     "AST": 397,
+     "STL": 116,
+     "BLK": 126,
+     "FGM": 959,
+     "FGA": 1857,
+     "FG3M": 2,
+     "FG3A": 12,
+     "FTM": 406,
+     "FTA": 490,
+     "MIN": 2988,
+     "PF": 235,
+     "TOV": 263
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1983,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2167,
+     "PPG": 26.4,
+     "REB": 464,
+     "AST": 406,
+     "STL": 83,
+     "BLK": 95,
+     "FGM": 907,
+     "FGA": 1714,
+     "FG3M": 1,
+     "FG3A": 7,
+     "FTM": 352,
+     "FTA": 427,
+     "MIN": 2870,
+     "PF": 252,
+     "TOV": 222
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1984,
+     "team": "DEN",
+     "GP": 81,
+     "PTS": 2262,
+     "PPG": 27.9,
+     "REB": 458,
+     "AST": 344,
+     "STL": 101,
+     "BLK": 46,
+     "FGM": 939,
+     "FGA": 1812,
+     "FG3M": 1,
+     "FG3A": 5,
+     "FTM": 383,
+     "FTA": 462,
+     "MIN": 2924,
+     "PF": 259,
+     "TOV": 251
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1985,
+     "team": "DEN",
+     "GP": 81,
+     "PTS": 2414,
+     "PPG": 29.8,
+     "REB": 405,
+     "AST": 320,
+     "STL": 73,
+     "BLK": 29,
+     "FGM": 951,
+     "FGA": 1888,
+     "FG3M": 1,
+     "FG3A": 5,
+     "FTM": 511,
+     "FTA": 593,
+     "MIN": 3024,
+     "PF": 235,
+     "TOV": 249
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1986,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2345,
+     "PPG": 28.6,
+     "REB": 344,
+     "AST": 422,
+     "STL": 73,
+     "BLK": 21,
+     "FGM": 965,
+     "FGA": 1920,
+     "FG3M": 4,
+     "FG3A": 15,
+     "FTM": 411,
+     "FTA": 487,
+     "MIN": 3085,
+     "PF": 216,
+     "TOV": 214
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1987,
+     "team": "DEN",
+     "GP": 80,
+     "PTS": 2000,
+     "PPG": 25,
+     "REB": 373,
+     "AST": 377,
+     "STL": 70,
+     "BLK": 23,
+     "FGM": 843,
+     "FGA": 1704,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 314,
+     "FTA": 379,
+     "MIN": 2818,
+     "PF": 193,
+     "TOV": 181
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1988,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2175,
+     "PPG": 26.5,
+     "REB": 326,
+     "AST": 383,
+     "STL": 66,
+     "BLK": 12,
+     "FGM": 924,
+     "FGA": 1881,
+     "FG3M": 2,
+     "FG3A": 8,
+     "FTM": 325,
+     "FTA": 379,
+     "MIN": 2990,
+     "PF": 174,
+     "TOV": 198
+    }
+   ],
+   "text": "Alex English averaged 25+ points in 8 straight seasons (1981-82 to 1988-89), the longest run of the 1980s."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "s_10rpg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1980,
+     "team": "HOU",
+     "GP": 80,
+     "PTS": 2222,
+     "PPG": 27.8,
+     "REB": 1180,
+     "AST": 141,
+     "STL": 83,
+     "BLK": 150,
+     "FGM": 806,
+     "FGA": 1545,
+     "FG3M": 1,
+     "FG3A": 3,
+     "FTM": 609,
+     "FTA": 804,
+     "MIN": 3245,
+     "PF": 223,
+     "TOV": 308
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1981,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2520,
+     "PPG": 31.1,
+     "REB": 1188,
+     "AST": 142,
+     "STL": 76,
+     "BLK": 125,
+     "FGM": 945,
+     "FGA": 1822,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 630,
+     "FTA": 827,
+     "MIN": 3398,
+     "PF": 208,
+     "TOV": 294
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1982,
+     "team": "PHL",
+     "GP": 78,
+     "PTS": 1908,
+     "PPG": 24.5,
+     "REB": 1194,
+     "AST": 101,
+     "STL": 89,
+     "BLK": 157,
+     "FGM": 654,
+     "FGA": 1305,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 600,
+     "FTA": 788,
+     "MIN": 2922,
+     "PF": 206,
+     "TOV": 264
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1983,
+     "team": "PHL",
+     "GP": 71,
+     "PTS": 1609,
+     "PPG": 22.7,
+     "REB": 950,
+     "AST": 96,
+     "STL": 71,
+     "BLK": 110,
+     "FGM": 532,
+     "FGA": 1101,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 545,
+     "FTA": 727,
+     "MIN": 2613,
+     "PF": 188,
+     "TOV": 250
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1984,
+     "team": "PHL",
+     "GP": 79,
+     "PTS": 1941,
+     "PPG": 24.6,
+     "REB": 1031,
+     "AST": 130,
+     "STL": 67,
+     "BLK": 123,
+     "FGM": 602,
+     "FGA": 1284,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 737,
+     "FTA": 904,
+     "MIN": 2957,
+     "PF": 216,
+     "TOV": 286
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1985,
+     "team": "PHL",
+     "GP": 74,
+     "PTS": 1759,
+     "PPG": 23.8,
+     "REB": 872,
+     "AST": 90,
+     "STL": 67,
+     "BLK": 71,
+     "FGM": 571,
+     "FGA": 1246,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 617,
+     "FTA": 784,
+     "MIN": 2706,
+     "PF": 194,
+     "TOV": 261
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1986,
+     "team": "WAS",
+     "GP": 73,
+     "PTS": 1760,
+     "PPG": 24.1,
+     "REB": 824,
+     "AST": 120,
+     "STL": 59,
+     "BLK": 92,
+     "FGM": 595,
+     "FGA": 1311,
+     "FG3M": 0,
+     "FG3A": 11,
+     "FTM": 570,
+     "FTA": 692,
+     "MIN": 2488,
+     "PF": 139,
+     "TOV": 202
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1987,
+     "team": "WAS",
+     "GP": 79,
+     "PTS": 1607,
+     "PPG": 20.3,
+     "REB": 884,
+     "AST": 112,
+     "STL": 59,
+     "BLK": 72,
+     "FGM": 531,
+     "FGA": 1090,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 543,
+     "FTA": 689,
+     "MIN": 2692,
+     "PF": 160,
+     "TOV": 249
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1988,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 1637,
+     "PPG": 20.2,
+     "REB": 956,
+     "AST": 112,
+     "STL": 79,
+     "BLK": 100,
+     "FGM": 538,
+     "FGA": 1096,
+     "FG3M": 0,
+     "FG3A": 12,
+     "FTM": 561,
+     "FTA": 711,
+     "MIN": 2878,
+     "PF": 154,
+     "TOV": 245
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1989,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 1528,
+     "PPG": 18.9,
+     "REB": 812,
+     "AST": 130,
+     "STL": 47,
+     "BLK": 84,
+     "FGM": 517,
+     "FGA": 1077,
+     "FG3M": 1,
+     "FG3A": 9,
+     "FTM": 493,
+     "FTA": 631,
+     "MIN": 2735,
+     "PF": 158,
+     "TOV": 232
+    }
+   ],
+   "text": "Moses Malone averaged a double-digit rebounding figure in 10 straight seasons (1980-81 to 1989-90), the longest run of the 1980s."
+  },
+  {
+   "n": 16,
+   "kind": "streak",
+   "rule": "s_8apg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    }
+   ],
+   "seasons": [
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1981,
+     "team": "LAL",
+     "GP": 78,
+     "PTS": 1447,
+     "PPG": 18.6,
+     "REB": 751,
+     "AST": 743,
+     "STL": 208,
+     "BLK": 34,
+     "FGM": 556,
+     "FGA": 1036,
+     "FG3M": 6,
+     "FG3A": 29,
+     "FTM": 329,
+     "FTA": 433,
+     "MIN": 2991,
+     "PF": 223,
+     "TOV": 286
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1982,
+     "team": "LAL",
+     "GP": 79,
+     "PTS": 1326,
+     "PPG": 16.8,
+     "REB": 683,
+     "AST": 829,
+     "STL": 176,
+     "BLK": 47,
+     "FGM": 511,
+     "FGA": 933,
+     "FG3M": 0,
+     "FG3A": 21,
+     "FTM": 304,
+     "FTA": 380,
+     "MIN": 2907,
+     "PF": 200,
+     "TOV": 301
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1983,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1178,
+     "PPG": 17.6,
+     "REB": 491,
+     "AST": 875,
+     "STL": 150,
+     "BLK": 49,
+     "FGM": 441,
+     "FGA": 780,
+     "FG3M": 6,
+     "FG3A": 29,
+     "FTM": 290,
+     "FTA": 358,
+     "MIN": 2567,
+     "PF": 169,
+     "TOV": 306
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1984,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1406,
+     "PPG": 18.3,
+     "REB": 476,
+     "AST": 968,
+     "STL": 113,
+     "BLK": 25,
+     "FGM": 504,
+     "FGA": 899,
+     "FG3M": 7,
+     "FG3A": 37,
+     "FTM": 391,
+     "FTA": 464,
+     "MIN": 2781,
+     "PF": 155,
+     "TOV": 305
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1985,
+     "team": "LAL",
+     "GP": 72,
+     "PTS": 1354,
+     "PPG": 18.8,
+     "REB": 426,
+     "AST": 907,
+     "STL": 113,
+     "BLK": 16,
+     "FGM": 483,
+     "FGA": 918,
+     "FG3M": 10,
+     "FG3A": 43,
+     "FTM": 378,
+     "FTA": 434,
+     "MIN": 2578,
+     "PF": 133,
+     "TOV": 273
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1986,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1909,
+     "PPG": 23.9,
+     "REB": 504,
+     "AST": 977,
+     "STL": 138,
+     "BLK": 36,
+     "FGM": 683,
+     "FGA": 1308,
+     "FG3M": 8,
+     "FG3A": 39,
+     "FTM": 535,
+     "FTA": 631,
+     "MIN": 2904,
+     "PF": 168,
+     "TOV": 300
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1987,
+     "team": "LAL",
+     "GP": 72,
+     "PTS": 1408,
+     "PPG": 19.6,
+     "REB": 449,
+     "AST": 858,
+     "STL": 114,
+     "BLK": 13,
+     "FGM": 490,
+     "FGA": 996,
+     "FG3M": 11,
+     "FG3A": 56,
+     "FTM": 417,
+     "FTA": 489,
+     "MIN": 2637,
+     "PF": 147,
+     "TOV": 269
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1988,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1730,
+     "PPG": 22.5,
+     "REB": 607,
+     "AST": 988,
+     "STL": 138,
+     "BLK": 22,
+     "FGM": 579,
+     "FGA": 1137,
+     "FG3M": 59,
+     "FG3A": 188,
+     "FTM": 513,
+     "FTA": 563,
+     "MIN": 2886,
+     "PF": 172,
+     "TOV": 312
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1989,
+     "team": "LAL",
+     "GP": 79,
+     "PTS": 1765,
+     "PPG": 22.3,
+     "REB": 522,
+     "AST": 907,
+     "STL": 132,
+     "BLK": 34,
+     "FGM": 546,
+     "FGA": 1138,
+     "FG3M": 106,
+     "FG3A": 276,
+     "FTM": 567,
+     "FTA": 637,
+     "MIN": 2937,
+     "PF": 167,
+     "TOV": 289
+    }
+   ],
+   "text": "Magic Johnson averaged 8+ assists in 9 straight seasons (1981-82 to 1989-90), the longest run of the 1980s."
+  },
+  {
+   "n": 17,
+   "kind": "streak",
+   "rule": "s_2000",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76673,
+     "name": "Alex English"
+    }
+   ],
+   "seasons": [
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1981,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2082,
+     "PPG": 25.4,
+     "REB": 558,
+     "AST": 433,
+     "STL": 87,
+     "BLK": 120,
+     "FGM": 855,
+     "FGA": 1553,
+     "FG3M": 0,
+     "FG3A": 8,
+     "FTM": 372,
+     "FTA": 443,
+     "MIN": 3015,
+     "PF": 261,
+     "TOV": 261
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1982,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2326,
+     "PPG": 28.4,
+     "REB": 601,
+     "AST": 397,
+     "STL": 116,
+     "BLK": 126,
+     "FGM": 959,
+     "FGA": 1857,
+     "FG3M": 2,
+     "FG3A": 12,
+     "FTM": 406,
+     "FTA": 490,
+     "MIN": 2988,
+     "PF": 235,
+     "TOV": 263
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1983,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2167,
+     "PPG": 26.4,
+     "REB": 464,
+     "AST": 406,
+     "STL": 83,
+     "BLK": 95,
+     "FGM": 907,
+     "FGA": 1714,
+     "FG3M": 1,
+     "FG3A": 7,
+     "FTM": 352,
+     "FTA": 427,
+     "MIN": 2870,
+     "PF": 252,
+     "TOV": 222
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1984,
+     "team": "DEN",
+     "GP": 81,
+     "PTS": 2262,
+     "PPG": 27.9,
+     "REB": 458,
+     "AST": 344,
+     "STL": 101,
+     "BLK": 46,
+     "FGM": 939,
+     "FGA": 1812,
+     "FG3M": 1,
+     "FG3A": 5,
+     "FTM": 383,
+     "FTA": 462,
+     "MIN": 2924,
+     "PF": 259,
+     "TOV": 251
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1985,
+     "team": "DEN",
+     "GP": 81,
+     "PTS": 2414,
+     "PPG": 29.8,
+     "REB": 405,
+     "AST": 320,
+     "STL": 73,
+     "BLK": 29,
+     "FGM": 951,
+     "FGA": 1888,
+     "FG3M": 1,
+     "FG3A": 5,
+     "FTM": 511,
+     "FTA": 593,
+     "MIN": 3024,
+     "PF": 235,
+     "TOV": 249
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1986,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2345,
+     "PPG": 28.6,
+     "REB": 344,
+     "AST": 422,
+     "STL": 73,
+     "BLK": 21,
+     "FGM": 965,
+     "FGA": 1920,
+     "FG3M": 4,
+     "FG3A": 15,
+     "FTM": 411,
+     "FTA": 487,
+     "MIN": 3085,
+     "PF": 216,
+     "TOV": 214
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1987,
+     "team": "DEN",
+     "GP": 80,
+     "PTS": 2000,
+     "PPG": 25,
+     "REB": 373,
+     "AST": 377,
+     "STL": 70,
+     "BLK": 23,
+     "FGM": 843,
+     "FGA": 1704,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 314,
+     "FTA": 379,
+     "MIN": 2818,
+     "PF": 193,
+     "TOV": 181
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "season": 1988,
+     "team": "DEN",
+     "GP": 82,
+     "PTS": 2175,
+     "PPG": 26.5,
+     "REB": 326,
+     "AST": 383,
+     "STL": 66,
+     "BLK": 12,
+     "FGM": 924,
+     "FGA": 1881,
+     "FG3M": 2,
+     "FG3A": 8,
+     "FTM": 325,
+     "FTA": 379,
+     "MIN": 2990,
+     "PF": 174,
+     "TOV": 198
+    }
+   ],
+   "text": "Alex English scored 2,000 points in 8 straight seasons (1981-82 to 1988-89), the longest run of the 1980s."
+  },
+  {
+   "n": 18,
+   "kind": "streak",
+   "rule": "s_20ppg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1980,
+     "team": "HOU",
+     "GP": 80,
+     "PTS": 2222,
+     "PPG": 27.8,
+     "REB": 1180,
+     "AST": 141,
+     "STL": 83,
+     "BLK": 150,
+     "FGM": 806,
+     "FGA": 1545,
+     "FG3M": 1,
+     "FG3A": 3,
+     "FTM": 609,
+     "FTA": 804,
+     "MIN": 3245,
+     "PF": 223,
+     "TOV": 308
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1981,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2520,
+     "PPG": 31.1,
+     "REB": 1188,
+     "AST": 142,
+     "STL": 76,
+     "BLK": 125,
+     "FGM": 945,
+     "FGA": 1822,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 630,
+     "FTA": 827,
+     "MIN": 3398,
+     "PF": 208,
+     "TOV": 294
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1982,
+     "team": "PHL",
+     "GP": 78,
+     "PTS": 1908,
+     "PPG": 24.5,
+     "REB": 1194,
+     "AST": 101,
+     "STL": 89,
+     "BLK": 157,
+     "FGM": 654,
+     "FGA": 1305,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 600,
+     "FTA": 788,
+     "MIN": 2922,
+     "PF": 206,
+     "TOV": 264
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1983,
+     "team": "PHL",
+     "GP": 71,
+     "PTS": 1609,
+     "PPG": 22.7,
+     "REB": 950,
+     "AST": 96,
+     "STL": 71,
+     "BLK": 110,
+     "FGM": 532,
+     "FGA": 1101,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 545,
+     "FTA": 727,
+     "MIN": 2613,
+     "PF": 188,
+     "TOV": 250
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1984,
+     "team": "PHL",
+     "GP": 79,
+     "PTS": 1941,
+     "PPG": 24.6,
+     "REB": 1031,
+     "AST": 130,
+     "STL": 67,
+     "BLK": 123,
+     "FGM": 602,
+     "FGA": 1284,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 737,
+     "FTA": 904,
+     "MIN": 2957,
+     "PF": 216,
+     "TOV": 286
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1985,
+     "team": "PHL",
+     "GP": 74,
+     "PTS": 1759,
+     "PPG": 23.8,
+     "REB": 872,
+     "AST": 90,
+     "STL": 67,
+     "BLK": 71,
+     "FGM": 571,
+     "FGA": 1246,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 617,
+     "FTA": 784,
+     "MIN": 2706,
+     "PF": 194,
+     "TOV": 261
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1986,
+     "team": "WAS",
+     "GP": 73,
+     "PTS": 1760,
+     "PPG": 24.1,
+     "REB": 824,
+     "AST": 120,
+     "STL": 59,
+     "BLK": 92,
+     "FGM": 595,
+     "FGA": 1311,
+     "FG3M": 0,
+     "FG3A": 11,
+     "FTM": 570,
+     "FTA": 692,
+     "MIN": 2488,
+     "PF": 139,
+     "TOV": 202
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1987,
+     "team": "WAS",
+     "GP": 79,
+     "PTS": 1607,
+     "PPG": 20.3,
+     "REB": 884,
+     "AST": 112,
+     "STL": 59,
+     "BLK": 72,
+     "FGM": 531,
+     "FGA": 1090,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 543,
+     "FTA": 689,
+     "MIN": 2692,
+     "PF": 160,
+     "TOV": 249
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1988,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 1637,
+     "PPG": 20.2,
+     "REB": 956,
+     "AST": 112,
+     "STL": 79,
+     "BLK": 100,
+     "FGM": 538,
+     "FGA": 1096,
+     "FG3M": 0,
+     "FG3A": 12,
+     "FTM": 561,
+     "FTA": 711,
+     "MIN": 2878,
+     "PF": 154,
+     "TOV": 245
+    }
+   ],
+   "text": "Moses Malone averaged 20+ points in 9 straight seasons (1980-81 to 1988-89), the longest run of the 1980s."
+  },
+  {
+   "n": 19,
+   "kind": "streak",
+   "rule": "s_fg500",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 1450,
+     "name": "Kevin McHale"
+    }
+   ],
+   "seasons": [
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1981,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 1117,
+     "PPG": 13.6,
+     "REB": 556,
+     "AST": 91,
+     "STL": 30,
+     "BLK": 185,
+     "FGM": 465,
+     "FGA": 875,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 187,
+     "FTA": 248,
+     "MIN": 2332,
+     "PF": 264,
+     "TOV": 137
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1982,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 1159,
+     "PPG": 14.1,
+     "REB": 553,
+     "AST": 104,
+     "STL": 34,
+     "BLK": 192,
+     "FGM": 483,
+     "FGA": 893,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 193,
+     "FTA": 269,
+     "MIN": 2345,
+     "PF": 241,
+     "TOV": 159
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1983,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 1511,
+     "PPG": 18.4,
+     "REB": 610,
+     "AST": 104,
+     "STL": 23,
+     "BLK": 126,
+     "FGM": 587,
+     "FGA": 1055,
+     "FG3M": 1,
+     "FG3A": 3,
+     "FTM": 336,
+     "FTA": 439,
+     "MIN": 2577,
+     "PF": 243,
+     "TOV": 150
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1984,
+     "team": "BOS",
+     "GP": 79,
+     "PTS": 1565,
+     "PPG": 19.8,
+     "REB": 712,
+     "AST": 141,
+     "STL": 28,
+     "BLK": 120,
+     "FGM": 605,
+     "FGA": 1062,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 355,
+     "FTA": 467,
+     "MIN": 2653,
+     "PF": 234,
+     "TOV": 157
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1985,
+     "team": "BOS",
+     "GP": 68,
+     "PTS": 1448,
+     "PPG": 21.3,
+     "REB": 551,
+     "AST": 181,
+     "STL": 29,
+     "BLK": 134,
+     "FGM": 561,
+     "FGA": 978,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 326,
+     "FTA": 420,
+     "MIN": 2397,
+     "PF": 192,
+     "TOV": 149
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 2008,
+     "PPG": 26.1,
+     "REB": 763,
+     "AST": 198,
+     "STL": 38,
+     "BLK": 172,
+     "FGM": 790,
+     "FGA": 1307,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 428,
+     "FTA": 512,
+     "MIN": 3060,
+     "PF": 240,
+     "TOV": 197
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1987,
+     "team": "BOS",
+     "GP": 64,
+     "PTS": 1446,
+     "PPG": 22.6,
+     "REB": 536,
+     "AST": 171,
+     "STL": 27,
+     "BLK": 92,
+     "FGM": 550,
+     "FGA": 911,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 346,
+     "FTA": 434,
+     "MIN": 2390,
+     "PF": 179,
+     "TOV": 141
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1988,
+     "team": "BOS",
+     "GP": 78,
+     "PTS": 1758,
+     "PPG": 22.5,
+     "REB": 637,
+     "AST": 172,
+     "STL": 26,
+     "BLK": 97,
+     "FGM": 661,
+     "FGA": 1211,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 436,
+     "FTA": 533,
+     "MIN": 2876,
+     "PF": 223,
+     "TOV": 196
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1989,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 1712,
+     "PPG": 20.9,
+     "REB": 677,
+     "AST": 172,
+     "STL": 30,
+     "BLK": 157,
+     "FGM": 648,
+     "FGA": 1181,
+     "FG3M": 23,
+     "FG3A": 69,
+     "FTM": 393,
+     "FTA": 440,
+     "MIN": 2722,
+     "PF": 250,
+     "TOV": 183
+    }
+   ],
+   "text": "Kevin McHale shot .500 from the field (800+ FGA) in 9 straight seasons (1981-82 to 1989-90), the longest run of the 1980s."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "s_2spg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1980,
+     "team": "PHL",
+     "GP": 81,
+     "PTS": 763,
+     "PPG": 9.4,
+     "REB": 245,
+     "AST": 560,
+     "STL": 193,
+     "BLK": 39,
+     "FGM": 310,
+     "FGA": 581,
+     "FG3M": 3,
+     "FG3A": 8,
+     "FTM": 140,
+     "FTA": 178,
+     "MIN": 2415,
+     "PF": 231,
+     "TOV": 174
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1981,
+     "team": "PHL",
+     "GP": 79,
+     "PTS": 881,
+     "PPG": 11.2,
+     "REB": 248,
+     "AST": 667,
+     "STL": 209,
+     "BLK": 33,
+     "FGM": 352,
+     "FGA": 676,
+     "FG3M": 6,
+     "FG3A": 22,
+     "FTM": 171,
+     "FTA": 220,
+     "MIN": 2498,
+     "PF": 247,
+     "TOV": 184
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1982,
+     "team": "PHL",
+     "GP": 79,
+     "PTS": 990,
+     "PPG": 12.5,
+     "REB": 209,
+     "AST": 543,
+     "STL": 184,
+     "BLK": 31,
+     "FGM": 404,
+     "FGA": 745,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 181,
+     "FTA": 240,
+     "MIN": 2465,
+     "PF": 182,
+     "TOV": 179
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1983,
+     "team": "PHL",
+     "GP": 75,
+     "PTS": 950,
+     "PPG": 12.7,
+     "REB": 205,
+     "AST": 478,
+     "STL": 171,
+     "BLK": 20,
+     "FGM": 386,
+     "FGA": 702,
+     "FG3M": 8,
+     "FG3A": 20,
+     "FTM": 170,
+     "FTA": 232,
+     "MIN": 2494,
+     "PF": 196,
+     "TOV": 182
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1984,
+     "team": "PHL",
+     "GP": 78,
+     "PTS": 1025,
+     "PPG": 13.1,
+     "REB": 217,
+     "AST": 497,
+     "STL": 169,
+     "BLK": 24,
+     "FGM": 422,
+     "FGA": 741,
+     "FG3M": 6,
+     "FG3A": 26,
+     "FTM": 175,
+     "FTA": 199,
+     "MIN": 2616,
+     "PF": 184,
+     "TOV": 155
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1985,
+     "team": "PHL",
+     "GP": 82,
+     "PTS": 1266,
+     "PPG": 15.4,
+     "REB": 235,
+     "AST": 753,
+     "STL": 207,
+     "BLK": 27,
+     "FGM": 490,
+     "FGA": 913,
+     "FG3M": 4,
+     "FG3A": 17,
+     "FTM": 282,
+     "FTA": 335,
+     "MIN": 3270,
+     "PF": 160,
+     "TOV": 238
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1986,
+     "team": "PHL",
+     "GP": 68,
+     "PTS": 1061,
+     "PPG": 15.6,
+     "REB": 215,
+     "AST": 538,
+     "STL": 180,
+     "BLK": 15,
+     "FGM": 415,
+     "FGA": 788,
+     "FG3M": 4,
+     "FG3A": 17,
+     "FTM": 227,
+     "FTA": 292,
+     "MIN": 2624,
+     "PF": 109,
+     "TOV": 173
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "season": 1987,
+     "team": "PHL",
+     "GP": 79,
+     "PTS": 1086,
+     "PPG": 13.7,
+     "REB": 253,
+     "AST": 635,
+     "STL": 167,
+     "BLK": 22,
+     "FGM": 428,
+     "FGA": 865,
+     "FG3M": 3,
+     "FG3A": 22,
+     "FTM": 227,
+     "FTA": 275,
+     "MIN": 2871,
+     "PF": 116,
+     "TOV": 160
+    }
+   ],
+   "text": "Maurice Cheeks averaged 2+ steals in 8 straight seasons (1980-81 to 1987-88), the longest run of the 1980s."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "s_2bpg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton"
+    }
+   ],
+   "seasons": [
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1982,
+     "team": "UTH",
+     "GP": 81,
+     "PTS": 351,
+     "PPG": 4.3,
+     "REB": 462,
+     "AST": 112,
+     "STL": 24,
+     "BLK": 275,
+     "FGM": 146,
+     "FGA": 353,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 59,
+     "FTA": 90,
+     "MIN": 1528,
+     "PF": 257,
+     "TOV": 140
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1983,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 461,
+     "PPG": 5.6,
+     "REB": 595,
+     "AST": 113,
+     "STL": 25,
+     "BLK": 351,
+     "FGM": 194,
+     "FGA": 416,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 73,
+     "FTA": 123,
+     "MIN": 2139,
+     "PF": 303,
+     "TOV": 98
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1984,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 794,
+     "PPG": 9.7,
+     "REB": 927,
+     "AST": 124,
+     "STL": 36,
+     "BLK": 456,
+     "FGM": 302,
+     "FGA": 673,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 190,
+     "FTA": 267,
+     "MIN": 2813,
+     "PF": 312,
+     "TOV": 206
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1985,
+     "team": "UTH",
+     "GP": 80,
+     "PTS": 676,
+     "PPG": 8.4,
+     "REB": 675,
+     "AST": 101,
+     "STL": 33,
+     "BLK": 369,
+     "FGM": 277,
+     "FGA": 589,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 122,
+     "FTA": 202,
+     "MIN": 2551,
+     "PF": 282,
+     "TOV": 157
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1986,
+     "team": "UTH",
+     "GP": 79,
+     "PTS": 608,
+     "PPG": 7.7,
+     "REB": 697,
+     "AST": 105,
+     "STL": 43,
+     "BLK": 321,
+     "FGM": 234,
+     "FGA": 585,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 140,
+     "FTA": 213,
+     "MIN": 2505,
+     "PF": 273,
+     "TOV": 142
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1987,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 571,
+     "PPG": 7,
+     "REB": 717,
+     "AST": 55,
+     "STL": 41,
+     "BLK": 304,
+     "FGM": 226,
+     "FGA": 541,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 119,
+     "FTA": 191,
+     "MIN": 2731,
+     "PF": 320,
+     "TOV": 131
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1988,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 508,
+     "PPG": 6.2,
+     "REB": 843,
+     "AST": 83,
+     "STL": 40,
+     "BLK": 315,
+     "FGM": 188,
+     "FGA": 407,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 132,
+     "FTA": 200,
+     "MIN": 2914,
+     "PF": 290,
+     "TOV": 142
+    }
+   ],
+   "text": "Mark Eaton averaged 2.5+ blocks in 7 straight seasons (1982-83 to 1988-89), the longest run of the 1980s."
+  },
+  {
+   "n": 22,
+   "rule": "twenty_ten_no_pass",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1982,
+     "team": "PHL",
+     "GP": 78,
+     "PTS": 1908,
+     "PPG": 24.5,
+     "REB": 1194,
+     "AST": 101,
+     "STL": 89,
+     "BLK": 157,
+     "FGM": 654,
+     "FGA": 1305,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 600,
+     "FTA": 788,
+     "MIN": 2922,
+     "PF": 206,
+     "TOV": 264
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1985,
+     "team": "PHL",
+     "GP": 74,
+     "PTS": 1759,
+     "PPG": 23.8,
+     "REB": 872,
+     "AST": 90,
+     "STL": 67,
+     "BLK": 71,
+     "FGM": 571,
+     "FGA": 1246,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 617,
+     "FTA": 784,
+     "MIN": 2706,
+     "PF": 194,
+     "TOV": 261
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1983,
+     "team": "PHL",
+     "GP": 71,
+     "PTS": 1609,
+     "PPG": 22.7,
+     "REB": 950,
+     "AST": 96,
+     "STL": 71,
+     "BLK": 110,
+     "FGM": 532,
+     "FGA": 1101,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 545,
+     "FTA": 727,
+     "MIN": 2613,
+     "PF": 188,
+     "TOV": 250
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1984,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1692,
+     "PPG": 20.6,
+     "REB": 974,
+     "AST": 111,
+     "STL": 99,
+     "BLK": 220,
+     "FGM": 677,
+     "FGA": 1258,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 338,
+     "FTA": 551,
+     "MIN": 2914,
+     "PF": 344,
+     "TOV": 234
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1988,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 1637,
+     "PPG": 20.2,
+     "REB": 956,
+     "AST": 112,
+     "STL": 79,
+     "BLK": 100,
+     "FGM": 538,
+     "FGA": 1096,
+     "FG3M": 0,
+     "FG3A": 12,
+     "FTM": 561,
+     "FTA": 711,
+     "MIN": 2878,
+     "PF": 154,
+     "TOV": 245
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1987,
+     "team": "WAS",
+     "GP": 79,
+     "PTS": 1607,
+     "PPG": 20.3,
+     "REB": 884,
+     "AST": 112,
+     "STL": 59,
+     "BLK": 72,
+     "FGM": 531,
+     "FGA": 1090,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 543,
+     "FTA": 689,
+     "MIN": 2692,
+     "PF": 160,
+     "TOV": 249
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "pair",
+   "score": 8.67051282051282,
+   "players": [
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon"
+    }
+   ],
+   "seasons": [
+    1982,
+    1985,
+    1983,
+    1984,
+    1988,
+    1987
+   ],
+   "text": "Only two players of the 1980s averaged 20 points and 10 rebounds with under 1.5 assists (60% of games): Moses Malone (5×, best 1982-83: 24.5/15.3/1.3); Hakeem Olajuwon (1984-85: 20.6/11.9/1.4)."
+  },
+  {
+   "n": 23,
+   "rule": "reb_stl",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1988,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 1105,
+     "AST": 149,
+     "STL": 213,
+     "BLK": 282,
+     "FGM": 790,
+     "FGA": 1556,
+     "FG3M": 0,
+     "FG3A": 10,
+     "FTM": 454,
+     "FTA": 652,
+     "MIN": 3024,
+     "PF": 329,
+     "TOV": 275
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1989,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1995,
+     "PPG": 24.3,
+     "REB": 1149,
+     "AST": 234,
+     "STL": 174,
+     "BLK": 376,
+     "FGM": 806,
+     "FGA": 1609,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 382,
+     "FTA": 536,
+     "MIN": 3124,
+     "PF": 314,
+     "TOV": 316
+    },
+    {
+     "id": 787,
+     "name": "Charles Barkley",
+     "season": 1985,
+     "team": "PHL",
+     "GP": 80,
+     "PTS": 1603,
+     "PPG": 20,
+     "REB": 1026,
+     "AST": 312,
+     "STL": 173,
+     "BLK": 125,
+     "FGM": 595,
+     "FGA": 1041,
+     "FG3M": 17,
+     "FG3A": 75,
+     "FTM": 396,
+     "FTA": 578,
+     "MIN": 2952,
+     "PF": 333,
+     "TOV": 350
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1987,
+     "team": "HOU",
+     "GP": 79,
+     "PTS": 1805,
+     "PPG": 22.8,
+     "REB": 959,
+     "AST": 163,
+     "STL": 162,
+     "BLK": 214,
+     "FGM": 712,
+     "FGA": 1385,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 381,
+     "FTA": 548,
+     "MIN": 2825,
+     "PF": 324,
+     "TOV": 243
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 8.661585365853659,
+   "players": [
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon"
+    },
+    {
+     "id": 787,
+     "name": "Charles Barkley"
+    }
+   ],
+   "seasons": [
+    1988,
+    1989,
+    1985,
+    1987
+   ],
+   "text": "Only two players of the 1980s averaged 10 rebounds and 2 steals (60% of games): Hakeem Olajuwon (3×, best 1988-89: 13.5 rpg, 2.6 spg); Charles Barkley (1985-86: 12.8 rpg, 2.2 spg)."
+  },
+  {
+   "n": 24,
+   "rule": "oreb_over_dreb",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77167,
+     "name": "Vinnie Johnson",
+     "season": 1980,
+     "team": "SEA",
+     "GP": 81,
+     "PTS": 1053,
+     "PPG": 13,
+     "REB": 366,
+     "AST": 341,
+     "STL": 78,
+     "BLK": 20,
+     "FGM": 419,
+     "FGA": 785,
+     "FG3M": 1,
+     "FG3A": 5,
+     "FTM": 214,
+     "FTA": 270,
+     "MIN": 2311,
+     "PF": 198,
+     "TOV": 216
+    },
+    {
+     "id": 76050,
+     "name": "Michael Ansley",
+     "season": 1989,
+     "team": "ORL",
+     "GP": 72,
+     "PTS": 626,
+     "PPG": 8.7,
+     "REB": 362,
+     "AST": 40,
+     "STL": 24,
+     "BLK": 17,
+     "FGM": 231,
+     "FGA": 465,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 164,
+     "FTA": 227,
+     "MIN": 1221,
+     "PF": 152,
+     "TOV": 50
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.1,
+   "players": [
+    {
+     "id": 77167,
+     "name": "Vinnie Johnson"
+    },
+    {
+     "id": 76050,
+     "name": "Michael Ansley"
+    }
+   ],
+   "seasons": [
+    1980,
+    1989
+   ],
+   "text": "Only two players of the 1980s grabbed more offensive rebounds than defensive (300+ reb): Vinnie Johnson (1980-81: 193 off, 173 def); Michael Ansley (1989-90: 187 off, 175 def)."
+  },
+  {
+   "n": 25,
+   "rule": "threes_good_volume",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 107,
+     "name": "Dale Ellis",
+     "season": 1988,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 2253,
+     "PPG": 27.5,
+     "REB": 342,
+     "AST": 164,
+     "STL": 108,
+     "BLK": 22,
+     "FGM": 857,
+     "FGA": 1710,
+     "FG3M": 162,
+     "FG3A": 339,
+     "FTM": 377,
+     "FTA": 462,
+     "MIN": 3190,
+     "PF": 197,
+     "TOV": 218
+    },
+    {
+     "id": 397,
+     "name": "Reggie Miller",
+     "season": 1989,
+     "team": "IND",
+     "GP": 82,
+     "PTS": 2016,
+     "PPG": 24.6,
+     "REB": 295,
+     "AST": 311,
+     "STL": 110,
+     "BLK": 18,
+     "FGM": 661,
+     "FGA": 1287,
+     "FG3M": 150,
+     "FG3A": 362,
+     "FTM": 544,
+     "FTA": 627,
+     "MIN": 3192,
+     "PF": 175,
+     "TOV": 222
+    },
+    {
+     "id": 899,
+     "name": "Mark Price",
+     "season": 1989,
+     "team": "CLE",
+     "GP": 73,
+     "PTS": 1430,
+     "PPG": 19.6,
+     "REB": 251,
+     "AST": 666,
+     "STL": 114,
+     "BLK": 5,
+     "FGM": 489,
+     "FGA": 1066,
+     "FG3M": 152,
+     "FG3A": 374,
+     "FTM": 300,
+     "FTA": 338,
+     "MIN": 2706,
+     "PF": 89,
+     "TOV": 214
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.599690265486726,
+   "players": [
+    {
+     "id": 107,
+     "name": "Dale Ellis"
+    },
+    {
+     "id": 397,
+     "name": "Reggie Miller"
+    },
+    {
+     "id": 899,
+     "name": "Mark Price"
+    }
+   ],
+   "seasons": [
+    1988,
+    1989,
+    1989
+   ],
+   "text": "Just three players of the 1980s made 150 threes at a .400 clip: Dale Ellis (1988-89: 162 3PM, .478); Reggie Miller (1989-90: 150 3PM, .414); Mark Price (1989-90: 152 3PM, .406)."
+  },
+  {
+   "n": 26,
+   "rule": "twenty_ten_ast",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1986,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1909,
+     "PPG": 23.9,
+     "REB": 504,
+     "AST": 977,
+     "STL": 138,
+     "BLK": 36,
+     "FGM": 683,
+     "FGA": 1308,
+     "FG3M": 8,
+     "FG3A": 39,
+     "FTM": 535,
+     "FTA": 631,
+     "MIN": 2904,
+     "PF": 168,
+     "TOV": 300
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1988,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1730,
+     "PPG": 22.5,
+     "REB": 607,
+     "AST": 988,
+     "STL": 138,
+     "BLK": 22,
+     "FGM": 579,
+     "FGA": 1137,
+     "FG3M": 59,
+     "FG3A": 188,
+     "FTM": 513,
+     "FTA": 563,
+     "MIN": 2886,
+     "PF": 172,
+     "TOV": 312
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1984,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1720,
+     "PPG": 21.2,
+     "REB": 361,
+     "AST": 1123,
+     "STL": 187,
+     "BLK": 25,
+     "FGM": 646,
+     "FGA": 1410,
+     "FG3M": 29,
+     "FG3A": 113,
+     "FTM": 399,
+     "FTA": 493,
+     "MIN": 3089,
+     "PF": 288,
+     "TOV": 302
+    },
+    {
+     "id": 134,
+     "name": "Kevin Johnson",
+     "season": 1989,
+     "team": "PHX",
+     "GP": 74,
+     "PTS": 1665,
+     "PPG": 22.5,
+     "REB": 270,
+     "AST": 846,
+     "STL": 95,
+     "BLK": 14,
+     "FGM": 578,
+     "FGA": 1159,
+     "FG3M": 8,
+     "FG3A": 41,
+     "FTM": 501,
+     "FTA": 598,
+     "MIN": 2782,
+     "PF": 143,
+     "TOV": 263
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1989,
+     "team": "LAL",
+     "GP": 79,
+     "PTS": 1765,
+     "PPG": 22.3,
+     "REB": 522,
+     "AST": 907,
+     "STL": 132,
+     "BLK": 34,
+     "FGM": 546,
+     "FGA": 1138,
+     "FG3M": 106,
+     "FG3A": 276,
+     "FTM": 567,
+     "FTA": 637,
+     "MIN": 2937,
+     "PF": 167,
+     "TOV": 289
+    },
+    {
+     "id": 134,
+     "name": "Kevin Johnson",
+     "season": 1988,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1650,
+     "PPG": 20.4,
+     "REB": 340,
+     "AST": 991,
+     "STL": 135,
+     "BLK": 24,
+     "FGM": 570,
+     "FGA": 1128,
+     "FG3M": 2,
+     "FG3A": 22,
+     "FTM": 508,
+     "FTA": 576,
+     "MIN": 3179,
+     "PF": 226,
+     "TOV": 322
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1983,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1748,
+     "PPG": 21.3,
+     "REB": 327,
+     "AST": 914,
+     "STL": 204,
+     "BLK": 33,
+     "FGM": 669,
+     "FGA": 1448,
+     "FG3M": 22,
+     "FG3A": 65,
+     "FTM": 388,
+     "FTA": 529,
+     "MIN": 3007,
+     "PF": 324,
+     "TOV": 307
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1985,
+     "team": "DET",
+     "GP": 77,
+     "PTS": 1609,
+     "PPG": 20.9,
+     "REB": 277,
+     "AST": 830,
+     "STL": 171,
+     "BLK": 20,
+     "FGM": 609,
+     "FGA": 1248,
+     "FG3M": 26,
+     "FG3A": 84,
+     "FTM": 365,
+     "FTA": 462,
+     "MIN": 2790,
+     "PF": 245,
+     "TOV": 289
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1986,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1671,
+     "PPG": 20.6,
+     "REB": 319,
+     "AST": 813,
+     "STL": 153,
+     "BLK": 20,
+     "FGM": 626,
+     "FGA": 1353,
+     "FG3M": 19,
+     "FG3A": 98,
+     "FTM": 400,
+     "FTA": 521,
+     "MIN": 3013,
+     "PF": 251,
+     "TOV": 343
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "few",
+   "score": 6.901875,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas"
+    },
+    {
+     "id": 134,
+     "name": "Kevin Johnson"
+    }
+   ],
+   "seasons": [
+    1986,
+    1988,
+    1984,
+    1989,
+    1989,
+    1988,
+    1983,
+    1985,
+    1986
+   ],
+   "text": "Just three players of the 1980s averaged 20 points and 10 assists (60% of games): Magic Johnson (3×, best 1986-87: 23.9 ppg, 12.2 apg); Isiah Thomas (4×, best 1984-85: 21.2 ppg, 13.9 apg); Kevin Johnson (2×, best 1989-90: 22.5 ppg, 11.4 apg)."
+  },
+  {
+   "n": 27,
+   "rule": "min_3300",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "season": 1980,
+     "team": "UTH",
+     "GP": 80,
+     "PTS": 2452,
+     "PPG": 30.6,
+     "REB": 509,
+     "AST": 322,
+     "STL": 109,
+     "BLK": 18,
+     "FGM": 909,
+     "FGA": 1627,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 632,
+     "FTA": 784,
+     "MIN": 3417,
+     "PF": 245,
+     "TOV": 282
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1981,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2520,
+     "PPG": 31.1,
+     "REB": 1188,
+     "AST": 142,
+     "STL": 76,
+     "BLK": 125,
+     "FGM": 945,
+     "FGA": 1822,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 630,
+     "FTA": 827,
+     "MIN": 3398,
+     "PF": 208,
+     "TOV": 294
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1987,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 2868,
+     "PPG": 35,
+     "REB": 449,
+     "AST": 485,
+     "STL": 259,
+     "BLK": 131,
+     "FGM": 1069,
+     "FGA": 1998,
+     "FG3M": 7,
+     "FG3A": 53,
+     "FTM": 723,
+     "FTA": 860,
+     "MIN": 3311,
+     "PF": 270,
+     "TOV": 252
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.85425,
+   "players": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley"
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1987
+   ],
+   "text": "Just three players of the 1980s log 3,300 minutes in a season: Adrian Dantley (1980-81: 3,417 min); Moses Malone (1981-82: 3,398 min); Michael Jordan (1987-88: 3,311 min)."
+  },
+  {
+   "n": 28,
+   "rule": "foul_trouble",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77134,
+     "name": "Steve Johnson",
+     "season": 1981,
+     "team": "KCK",
+     "GP": 78,
+     "PTS": 1002,
+     "PPG": 12.8,
+     "REB": 459,
+     "AST": 91,
+     "STL": 39,
+     "BLK": 89,
+     "FGM": 395,
+     "FGA": 644,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 212,
+     "FTA": 330,
+     "MIN": 1741,
+     "PF": 372,
+     "TOV": 197
+    },
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins",
+     "season": 1983,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 1357,
+     "PPG": 16.8,
+     "REB": 541,
+     "AST": 123,
+     "STL": 60,
+     "BLK": 136,
+     "FGM": 507,
+     "FGA": 855,
+     "FG3M": 2,
+     "FG3A": 5,
+     "FTM": 341,
+     "FTA": 464,
+     "MIN": 2417,
+     "PF": 386,
+     "TOV": 231
+    },
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins",
+     "season": 1982,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 968,
+     "PPG": 12,
+     "REB": 420,
+     "AST": 114,
+     "STL": 67,
+     "BLK": 152,
+     "FGM": 401,
+     "FGA": 669,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 166,
+     "FTA": 257,
+     "MIN": 2093,
+     "PF": 379,
+     "TOV": 281
+    },
+    {
+     "id": 229,
+     "name": "James Edwards",
+     "season": 1981,
+     "team": "CLE",
+     "GP": 77,
+     "PTS": 1288,
+     "PPG": 16.7,
+     "REB": 581,
+     "AST": 123,
+     "STL": 24,
+     "BLK": 117,
+     "FGM": 528,
+     "FGA": 1033,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 232,
+     "FTA": 339,
+     "MIN": 2539,
+     "PF": 347,
+     "TOV": 162
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.596153846153846,
+   "players": [
+    {
+     "id": 77134,
+     "name": "Steve Johnson"
+    },
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins"
+    },
+    {
+     "id": 229,
+     "name": "James Edwards"
+    }
+   ],
+   "seasons": [
+    1981,
+    1983,
+    1982,
+    1981
+   ],
+   "text": "Just three players of the 1980s averaged 4.5+ personal fouls a game (60% of games): Steve Johnson (1981-82: 4.8 PF a game); Darryl Dawkins (2×, best 1983-84: 4.8 PF a game); James Edwards (1981-82: 4.5 PF a game)."
+  },
+  {
+   "n": 29,
+   "rule": "score_tiny_min",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 894,
+     "name": "Ricky Pierce",
+     "season": 1989,
+     "team": "MIL",
+     "GP": 59,
+     "PTS": 1359,
+     "PPG": 23,
+     "REB": 167,
+     "AST": 133,
+     "STL": 50,
+     "BLK": 7,
+     "FGM": 503,
+     "FGA": 987,
+     "FG3M": 46,
+     "FG3A": 133,
+     "FTM": 307,
+     "FTA": 366,
+     "MIN": 1709,
+     "PF": 158,
+     "TOV": 129
+    },
+    {
+     "id": 698,
+     "name": "Eddie Johnson",
+     "season": 1988,
+     "team": "PHX",
+     "GP": 70,
+     "PTS": 1504,
+     "PPG": 21.5,
+     "REB": 306,
+     "AST": 162,
+     "STL": 47,
+     "BLK": 7,
+     "FGM": 608,
+     "FGA": 1224,
+     "FG3M": 71,
+     "FG3A": 172,
+     "FTM": 217,
+     "FTA": 250,
+     "MIN": 2043,
+     "PF": 198,
+     "TOV": 122
+    },
+    {
+     "id": 76804,
+     "name": "George Gervin",
+     "season": 1984,
+     "team": "SAN",
+     "GP": 72,
+     "PTS": 1524,
+     "PPG": 21.2,
+     "REB": 234,
+     "AST": 178,
+     "STL": 66,
+     "BLK": 48,
+     "FGM": 600,
+     "FGA": 1182,
+     "FG3M": 0,
+     "FG3A": 10,
+     "FTM": 324,
+     "FTA": 384,
+     "MIN": 2091,
+     "PF": 208,
+     "TOV": 198
+    },
+    {
+     "id": 1365,
+     "name": "Xavier McDaniel",
+     "season": 1988,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 1677,
+     "PPG": 20.5,
+     "REB": 433,
+     "AST": 134,
+     "STL": 84,
+     "BLK": 40,
+     "FGM": 677,
+     "FGA": 1385,
+     "FG3M": 11,
+     "FG3A": 36,
+     "FTM": 312,
+     "FTA": 426,
+     "MIN": 2385,
+     "PF": 231,
+     "TOV": 210
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.213771186440678,
+   "players": [
+    {
+     "id": 894,
+     "name": "Ricky Pierce"
+    },
+    {
+     "id": 698,
+     "name": "Eddie Johnson"
+    },
+    {
+     "id": 76804,
+     "name": "George Gervin"
+    },
+    {
+     "id": 1365,
+     "name": "Xavier McDaniel"
+    }
+   ],
+   "seasons": [
+    1989,
+    1988,
+    1984,
+    1988
+   ],
+   "text": "Just four players of the 1980s averaged 20 points in under 30 minutes a game (60% of games): Ricky Pierce (1989-90: 23.0 ppg in 29.0 mpg); Eddie Johnson (1988-89: 21.5 ppg in 29.2 mpg); George Gervin (1984-85: 21.2 ppg in 29.0 mpg); Xavier McDaniel (1988-89: 20.5 ppg in 29.1 mpg)."
+  },
+  {
+   "n": 30,
+   "rule": "ft_bad",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 252,
+     "name": "Karl Malone",
+     "season": 1985,
+     "team": "UTH",
+     "GP": 81,
+     "PTS": 1203,
+     "PPG": 14.9,
+     "REB": 718,
+     "AST": 236,
+     "STL": 105,
+     "BLK": 44,
+     "FGM": 504,
+     "FGA": 1016,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 195,
+     "FTA": 405,
+     "MIN": 2475,
+     "PF": 295,
+     "TOV": 279
+    },
+    {
+     "id": 246,
+     "name": "Greg Anderson",
+     "season": 1988,
+     "team": "SAN",
+     "GP": 82,
+     "PTS": 1127,
+     "PPG": 13.7,
+     "REB": 676,
+     "AST": 61,
+     "STL": 102,
+     "BLK": 103,
+     "FGM": 460,
+     "FGA": 914,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 207,
+     "FTA": 403,
+     "MIN": 2401,
+     "PF": 221,
+     "TOV": 180
+    },
+    {
+     "id": 77532,
+     "name": "George McGinnis",
+     "season": 1980,
+     "team": "IND",
+     "GP": 69,
+     "PTS": 903,
+     "PPG": 13.1,
+     "REB": 528,
+     "AST": 210,
+     "STL": 99,
+     "BLK": 28,
+     "FGM": 348,
+     "FGA": 768,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 207,
+     "FTA": 385,
+     "MIN": 1845,
+     "PF": 242,
+     "TOV": 221
+    },
+    {
+     "id": 938,
+     "name": "Rony Seikaly",
+     "season": 1988,
+     "team": "MIA",
+     "GP": 78,
+     "PTS": 848,
+     "PPG": 10.9,
+     "REB": 549,
+     "AST": 55,
+     "STL": 46,
+     "BLK": 96,
+     "FGM": 333,
+     "FGA": 744,
+     "FG3M": 1,
+     "FG3A": 4,
+     "FTM": 181,
+     "FTA": 354,
+     "MIN": 1962,
+     "PF": 258,
+     "TOV": 200
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.191203703703704,
+   "players": [
+    {
+     "id": 252,
+     "name": "Karl Malone"
+    },
+    {
+     "id": 246,
+     "name": "Greg Anderson"
+    },
+    {
+     "id": 77532,
+     "name": "George McGinnis"
+    },
+    {
+     "id": 938,
+     "name": "Rony Seikaly"
+    }
+   ],
+   "seasons": [
+    1985,
+    1988,
+    1980,
+    1988
+   ],
+   "text": "Just four players of the 1980s shot under .550 from the line on 300+ attempts: Karl Malone (1985-86: .481 on 405 FTA); Greg Anderson (1988-89: .514 on 403 FTA); George McGinnis (1980-81: .538 on 385 FTA); Rony Seikaly (1988-89: .511 on 354 FTA)."
+  },
+  {
+   "n": 31,
+   "rule": "pts_total",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1986,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 3041,
+     "PPG": 37.1,
+     "REB": 430,
+     "AST": 377,
+     "STL": 236,
+     "BLK": 125,
+     "FGM": 1098,
+     "FGA": 2279,
+     "FG3M": 12,
+     "FG3A": 66,
+     "FTM": 833,
+     "FTA": 972,
+     "MIN": 3281,
+     "PF": 237,
+     "TOV": 272
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1987,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 2868,
+     "PPG": 35,
+     "REB": 449,
+     "AST": 485,
+     "STL": 259,
+     "BLK": 131,
+     "FGM": 1069,
+     "FGA": 1998,
+     "FG3M": 7,
+     "FG3A": 53,
+     "FTM": 723,
+     "FTA": 860,
+     "MIN": 3311,
+     "PF": 270,
+     "TOV": 252
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1989,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 2753,
+     "PPG": 33.6,
+     "REB": 565,
+     "AST": 519,
+     "STL": 227,
+     "BLK": 54,
+     "FGM": 1034,
+     "FGA": 1964,
+     "FG3M": 92,
+     "FG3A": 245,
+     "FTM": 593,
+     "FTA": 699,
+     "MIN": 3197,
+     "PF": 241,
+     "TOV": 247
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1988,
+     "team": "CHI",
+     "GP": 81,
+     "PTS": 2633,
+     "PPG": 32.5,
+     "REB": 652,
+     "AST": 650,
+     "STL": 234,
+     "BLK": 65,
+     "FGM": 966,
+     "FGA": 1795,
+     "FG3M": 27,
+     "FG3A": 98,
+     "FTM": 674,
+     "FTA": 793,
+     "MIN": 3255,
+     "PF": 247,
+     "TOV": 290
+    },
+    {
+     "id": 76804,
+     "name": "George Gervin",
+     "season": 1981,
+     "team": "SAN",
+     "GP": 79,
+     "PTS": 2551,
+     "PPG": 32.3,
+     "REB": 392,
+     "AST": 187,
+     "STL": 77,
+     "BLK": 45,
+     "FGM": 993,
+     "FGA": 1987,
+     "FG3M": 10,
+     "FG3A": 36,
+     "FTM": 555,
+     "FTA": 642,
+     "MIN": 2817,
+     "PF": 215,
+     "TOV": 210
+    },
+    {
+     "id": 252,
+     "name": "Karl Malone",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 2540,
+     "PPG": 31,
+     "REB": 911,
+     "AST": 226,
+     "STL": 121,
+     "BLK": 50,
+     "FGM": 914,
+     "FGA": 1627,
+     "FG3M": 16,
+     "FG3A": 43,
+     "FTM": 696,
+     "FTA": 913,
+     "MIN": 3122,
+     "PF": 259,
+     "TOV": 304
+    }
+   ],
+   "seasonsMatched": 59,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 893,
+     "name": "Michael Jordan"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "text": "24 players scored 2,000 points in a season in the 1980s (59 seasons). The most extreme: Michael Jordan, 1986-87 — 3,041 pts."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "po_best_fg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1460,
+     "name": "James Worthy"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1460,
+     "name": "James Worthy",
+     "season": 1984,
+     "team": "LAL",
+     "GP": 19,
+     "PTS": 408,
+     "PPG": 21.5,
+     "REB": 96,
+     "AST": 41,
+     "STL": 17,
+     "BLK": 13,
+     "FGM": 166,
+     "FGA": 267,
+     "FG3M": 1,
+     "FG3A": 2,
+     "FTM": 75,
+     "FTA": 111,
+     "MIN": 626,
+     "PF": 53,
+     "TOV": 26
+    }
+   ],
+   "among": 219,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 1980s: James Worthy, 1984-85 — .622."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "po_most_ast",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1987,
+     "team": "LAL",
+     "GP": 24,
+     "PTS": 477,
+     "PPG": 19.9,
+     "REB": 130,
+     "AST": 303,
+     "STL": 34,
+     "BLK": 4,
+     "FGM": 169,
+     "FGA": 329,
+     "FG3M": 7,
+     "FG3A": 14,
+     "FTM": 132,
+     "FTA": 155,
+     "MIN": 965,
+     "PF": 61,
+     "TOV": 83
+    }
+   ],
+   "among": 1678,
+   "text": "Most assists in a single postseason in the 1980s: Magic Johnson, 1987-88 — 303 in 24 games."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "worst_fg_scorer",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76753,
+     "name": "World Free"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76753,
+     "name": "World Free",
+     "season": 1983,
+     "team": "CLE",
+     "GP": 75,
+     "PTS": 1669,
+     "PPG": 22.3,
+     "REB": 217,
+     "AST": 226,
+     "STL": 94,
+     "BLK": 8,
+     "FGM": 626,
+     "FGA": 1407,
+     "FG3M": 22,
+     "FG3A": 69,
+     "FTM": 395,
+     "FTA": 504,
+     "MIN": 2375,
+     "PF": 214,
+     "TOV": 154
+    }
+   ],
+   "among": 241,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 1980s: World Free, 1983-84 — .445 while averaging 22.3."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "best_fg_volume",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1450,
+     "name": "Kevin McHale"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 2008,
+     "PPG": 26.1,
+     "REB": 763,
+     "AST": 198,
+     "STL": 38,
+     "BLK": 172,
+     "FGM": 790,
+     "FGA": 1307,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 428,
+     "FTA": 512,
+     "MIN": 3060,
+     "PF": 240,
+     "TOV": 197
+    }
+   ],
+   "among": 494,
+   "text": "Best field-goal percentage on 1,000+ attempts in the 1980s: Kevin McHale, 1986-87 — .604 (790-1,307)."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "worst_ft_volume",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 252,
+     "name": "Karl Malone"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 252,
+     "name": "Karl Malone",
+     "season": 1985,
+     "team": "UTH",
+     "GP": 81,
+     "PTS": 1203,
+     "PPG": 14.9,
+     "REB": 718,
+     "AST": 236,
+     "STL": 105,
+     "BLK": 44,
+     "FGM": 504,
+     "FGA": 1016,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 195,
+     "FTA": 405,
+     "MIN": 2475,
+     "PF": 295,
+     "TOV": 279
+    }
+   ],
+   "among": 308,
+   "text": "Worst free-throw percentage on 400+ attempts in the 1980s: Karl Malone, 1985-86 — .481 (195-405)."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "ast_low_pts",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 177,
+     "name": "Muggsy Bogues"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 177,
+     "name": "Muggsy Bogues",
+     "season": 1989,
+     "team": "CHH",
+     "GP": 81,
+     "PTS": 763,
+     "PPG": 9.4,
+     "REB": 207,
+     "AST": 867,
+     "STL": 166,
+     "BLK": 3,
+     "FGM": 326,
+     "FGA": 664,
+     "FG3M": 5,
+     "FG3A": 26,
+     "FTM": 106,
+     "FTA": 134,
+     "MIN": 2743,
+     "PF": 168,
+     "TOV": 146
+    }
+   ],
+   "among": 1161,
+   "text": "Most assists by a sub-10-point scorer in the 1980s: Muggsy Bogues, 1989-90 — 867 assists while averaging 9.4."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_pf",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins",
+     "season": 1983,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 1357,
+     "PPG": 16.8,
+     "REB": 541,
+     "AST": 123,
+     "STL": 60,
+     "BLK": 136,
+     "FGM": 507,
+     "FGA": 855,
+     "FG3M": 2,
+     "FG3A": 5,
+     "FTM": 341,
+     "FTA": 464,
+     "MIN": 2417,
+     "PF": 386,
+     "TOV": 231
+    }
+   ],
+   "among": 3223,
+   "text": "Most personal fouls in a season in the 1980s: Darryl Dawkins, 1983-84 — 386."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_ast",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 304,
+     "name": "John Stockton"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 78,
+     "PTS": 1345,
+     "PPG": 17.2,
+     "REB": 206,
+     "AST": 1134,
+     "STL": 207,
+     "BLK": 18,
+     "FGM": 472,
+     "FGA": 918,
+     "FG3M": 47,
+     "FG3A": 113,
+     "FTM": 354,
+     "FTA": 432,
+     "MIN": 2915,
+     "PF": 233,
+     "TOV": 272
+    }
+   ],
+   "among": 3223,
+   "text": "Most assists in a season in the 1980s: John Stockton, 1989-90 — 1134 (14.5 a game)."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "most_min",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "season": 1980,
+     "team": "UTH",
+     "GP": 80,
+     "PTS": 2452,
+     "PPG": 30.6,
+     "REB": 509,
+     "AST": 322,
+     "STL": 109,
+     "BLK": 18,
+     "FGM": 909,
+     "FGA": 1627,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 632,
+     "FTA": 784,
+     "MIN": 3417,
+     "PF": 245,
+     "TOV": 282
+    }
+   ],
+   "among": 3223,
+   "text": "Most minutes played in a season in the 1980s: Adrian Dantley, 1980-81 — 3,417 (42.7 a game)."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "reb_low_pts",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78195,
+     "name": "Larry Smith"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78195,
+     "name": "Larry Smith",
+     "season": 1980,
+     "team": "GOS",
+     "GP": 82,
+     "PTS": 785,
+     "PPG": 9.6,
+     "REB": 994,
+     "AST": 93,
+     "STL": 70,
+     "BLK": 63,
+     "FGM": 304,
+     "FGA": 594,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 177,
+     "FTA": 301,
+     "MIN": 2578,
+     "PF": 316,
+     "TOV": 146
+    }
+   ],
+   "among": 1161,
+   "text": "Most rebounds by a sub-10-point scorer in the 1980s: Larry Smith, 1980-81 — 994 rebounds while averaging 9.6."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "top_apg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 304,
+     "name": "John Stockton"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 78,
+     "PTS": 1345,
+     "PPG": 17.2,
+     "REB": 206,
+     "AST": 1134,
+     "STL": 207,
+     "BLK": 18,
+     "FGM": 472,
+     "FGA": 918,
+     "FG3M": 47,
+     "FG3A": 113,
+     "FTM": 354,
+     "FTA": 432,
+     "MIN": 2915,
+     "PF": 233,
+     "TOV": 272
+    }
+   ],
+   "among": 2323,
+   "text": "Highest assist average of the 1980s: John Stockton, 1989-90 — 14.5 a game."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "short_pts",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76598,
+     "name": "John Drew"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76598,
+     "name": "John Drew",
+     "season": 1982,
+     "team": "UTH",
+     "GP": 44,
+     "PTS": 932,
+     "PPG": 21.2,
+     "REB": 235,
+     "AST": 97,
+     "STL": 35,
+     "BLK": 7,
+     "FGM": 318,
+     "FGA": 671,
+     "FG3M": 0,
+     "FG3A": 5,
+     "FTM": 296,
+     "FTA": 392,
+     "MIN": 1206,
+     "PF": 152,
+     "TOV": 135
+    }
+   ],
+   "among": 522,
+   "text": "Most points by a player who appeared in fewer than 50 games in the 1980s: John Drew, 1982-83 — 932 in 44."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "best_ft_official",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77669,
+     "name": "Calvin Murphy"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77669,
+     "name": "Calvin Murphy",
+     "season": 1980,
+     "team": "HOU",
+     "GP": 76,
+     "PTS": 1266,
+     "PPG": 16.7,
+     "REB": 87,
+     "AST": 222,
+     "STL": 111,
+     "BLK": 6,
+     "FGM": 528,
+     "FGA": 1074,
+     "FG3M": 4,
+     "FG3A": 17,
+     "FTM": 206,
+     "FTA": 215,
+     "MIN": 2014,
+     "PF": 209,
+     "TOV": 129
+    }
+   ],
+   "among": 1342,
+   "text": "Best free-throw percentage in a season (125+ made) in the 1980s: Calvin Murphy, 1980-81 — .958."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "most_stl",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 926,
+     "name": "Alvin Robertson"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "season": 1985,
+     "team": "SAN",
+     "GP": 82,
+     "PTS": 1392,
+     "PPG": 17,
+     "REB": 516,
+     "AST": 448,
+     "STL": 301,
+     "BLK": 40,
+     "FGM": 562,
+     "FGA": 1093,
+     "FG3M": 8,
+     "FG3A": 29,
+     "FTM": 260,
+     "FTA": 327,
+     "MIN": 2878,
+     "PF": 296,
+     "TOV": 256
+    }
+   ],
+   "among": 3223,
+   "text": "Most steals in a season in the 1980s: Alvin Robertson, 1985-86 — 301."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "most_blk",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1984,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 794,
+     "PPG": 9.7,
+     "REB": 927,
+     "AST": 124,
+     "STL": 36,
+     "BLK": 456,
+     "FGM": 302,
+     "FGA": 673,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 190,
+     "FTA": 267,
+     "MIN": 2813,
+     "PF": 312,
+     "TOV": 206
+    }
+   ],
+   "among": 3223,
+   "text": "Most blocked shots in a season in the 1980s: Mark Eaton, 1984-85 — 456."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "best_3p_volume",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 107,
+     "name": "Dale Ellis"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 107,
+     "name": "Dale Ellis",
+     "season": 1988,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 2253,
+     "PPG": 27.5,
+     "REB": 342,
+     "AST": 164,
+     "STL": 108,
+     "BLK": 22,
+     "FGM": 857,
+     "FGA": 1710,
+     "FG3M": 162,
+     "FG3A": 339,
+     "FTM": 377,
+     "FTA": 462,
+     "MIN": 3190,
+     "PF": 197,
+     "TOV": 218
+    }
+   ],
+   "among": 8,
+   "text": "Best three-point percentage on 300+ attempts in the 1980s: Dale Ellis, 1988-89 — .478 (162-339)."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "most_3pm",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 149,
+     "name": "Michael Adams"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 149,
+     "name": "Michael Adams",
+     "season": 1988,
+     "team": "DEN",
+     "GP": 77,
+     "PTS": 1424,
+     "PPG": 18.5,
+     "REB": 283,
+     "AST": 490,
+     "STL": 166,
+     "BLK": 11,
+     "FGM": 468,
+     "FGA": 1082,
+     "FG3M": 166,
+     "FG3A": 466,
+     "FTM": 322,
+     "FTA": 393,
+     "MIN": 2787,
+     "PF": 149,
+     "TOV": 180
+    }
+   ],
+   "among": 3223,
+   "text": "Most threes made in a season in the 1980s: Michael Adams, 1988-89 — 166."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "most_tov",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 787,
+     "name": "Charles Barkley"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 787,
+     "name": "Charles Barkley",
+     "season": 1985,
+     "team": "PHL",
+     "GP": 80,
+     "PTS": 1603,
+     "PPG": 20,
+     "REB": 1026,
+     "AST": 312,
+     "STL": 173,
+     "BLK": 125,
+     "FGM": 595,
+     "FGA": 1041,
+     "FG3M": 17,
+     "FG3A": 75,
+     "FTM": 396,
+     "FTA": 578,
+     "MIN": 2952,
+     "PF": 333,
+     "TOV": 350
+    }
+   ],
+   "among": 3223,
+   "text": "Most turnovers in a season in the 1980s: Charles Barkley, 1985-86 — 350."
+  },
+  {
+   "n": 50,
+   "kind": "nearmiss",
+   "rule": "fg499",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78149,
+     "name": "Jack Sikma"
+    },
+    {
+     "id": 760,
+     "name": "Jerome Kersey"
+    },
+    {
+     "id": 134,
+     "name": "Kevin Johnson"
+    }
+   ],
+   "seasons": [
+    1983,
+    1987,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78149,
+     "name": "Jack Sikma",
+     "season": 1983,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 1563,
+     "PPG": 19.1,
+     "REB": 911,
+     "AST": 327,
+     "STL": 95,
+     "BLK": 92,
+     "FGM": 576,
+     "FGA": 1155,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 411,
+     "FTA": 480,
+     "MIN": 2993,
+     "PF": 301,
+     "TOV": 236
+    },
+    {
+     "id": 760,
+     "name": "Jerome Kersey",
+     "season": 1987,
+     "team": "POR",
+     "GP": 79,
+     "PTS": 1516,
+     "PPG": 19.2,
+     "REB": 657,
+     "AST": 243,
+     "STL": 127,
+     "BLK": 65,
+     "FGM": 611,
+     "FGA": 1225,
+     "FG3M": 3,
+     "FG3A": 15,
+     "FTM": 291,
+     "FTA": 396,
+     "MIN": 2888,
+     "PF": 302,
+     "TOV": 161
+    },
+    {
+     "id": 134,
+     "name": "Kevin Johnson",
+     "season": 1989,
+     "team": "PHX",
+     "GP": 74,
+     "PTS": 1665,
+     "PPG": 22.5,
+     "REB": 270,
+     "AST": 846,
+     "STL": 95,
+     "BLK": 14,
+     "FGM": 578,
+     "FGA": 1159,
+     "FG3M": 8,
+     "FG3A": 41,
+     "FTM": 501,
+     "FTA": 598,
+     "MIN": 2782,
+     "PF": 143,
+     "TOV": 263
+    },
+    {
+     "id": 100263,
+     "name": "Bill Laimbeer",
+     "season": 1988,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1106,
+     "PPG": 13.7,
+     "REB": 776,
+     "AST": 177,
+     "STL": 51,
+     "BLK": 100,
+     "FGM": 449,
+     "FGA": 900,
+     "FG3M": 30,
+     "FG3A": 86,
+     "FTM": 178,
+     "FTA": 212,
+     "MIN": 2640,
+     "PF": 259,
+     "TOV": 129
+    },
+    {
+     "id": 117,
+     "name": "Jeff Malone",
+     "season": 1984,
+     "team": "WAS",
+     "GP": 76,
+     "PTS": 1436,
+     "PPG": 18.9,
+     "REB": 206,
+     "AST": 184,
+     "STL": 52,
+     "BLK": 9,
+     "FGM": 605,
+     "FGA": 1213,
+     "FG3M": 15,
+     "FG3A": 72,
+     "FTM": 211,
+     "FTA": 250,
+     "MIN": 2613,
+     "PF": 176,
+     "TOV": 107
+    },
+    {
+     "id": 1472,
+     "name": "Tom Chambers",
+     "season": 1983,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 1483,
+     "PPG": 18.1,
+     "REB": 532,
+     "AST": 133,
+     "STL": 47,
+     "BLK": 51,
+     "FGM": 554,
+     "FGA": 1110,
+     "FG3M": 0,
+     "FG3A": 12,
+     "FTM": 375,
+     "FTA": 469,
+     "MIN": 2570,
+     "PF": 309,
+     "TOV": 192
+    }
+   ],
+   "text": "8 player-seasons of the 1980s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Jack Sikma (1983-84), Jerome Kersey (1987-88), Kevin Johnson (1989-90)."
+  },
+  {
+   "n": 51,
+   "kind": "streak",
+   "rule": "s_gp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76583,
+     "name": "James Donaldson"
+    }
+   ],
+   "seasons": [
+    1983,
+    1984,
+    1985,
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76583,
+     "name": "James Donaldson",
+     "season": 1983,
+     "team": "SDC",
+     "GP": 82,
+     "PTS": 969,
+     "PPG": 11.8,
+     "REB": 649,
+     "AST": 90,
+     "STL": 40,
+     "BLK": 139,
+     "FGM": 360,
+     "FGA": 604,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 249,
+     "FTA": 327,
+     "MIN": 2525,
+     "PF": 214,
+     "TOV": 171
+    },
+    {
+     "id": 76583,
+     "name": "James Donaldson",
+     "season": 1984,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 929,
+     "PPG": 11.3,
+     "REB": 668,
+     "AST": 48,
+     "STL": 28,
+     "BLK": 130,
+     "FGM": 351,
+     "FGA": 551,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 227,
+     "FTA": 303,
+     "MIN": 2392,
+     "PF": 217,
+     "TOV": 206
+    },
+    {
+     "id": 76583,
+     "name": "James Donaldson",
+     "season": 1985,
+     "team": "DAL",
+     "GP": 83,
+     "PTS": 716,
+     "PPG": 8.6,
+     "REB": 795,
+     "AST": 96,
+     "STL": 28,
+     "BLK": 139,
+     "FGM": 256,
+     "FGA": 459,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 204,
+     "FTA": 254,
+     "MIN": 2682,
+     "PF": 189,
+     "TOV": 123
+    },
+    {
+     "id": 76583,
+     "name": "James Donaldson",
+     "season": 1986,
+     "team": "DAL",
+     "GP": 82,
+     "PTS": 889,
+     "PPG": 10.8,
+     "REB": 973,
+     "AST": 63,
+     "STL": 51,
+     "BLK": 136,
+     "FGM": 311,
+     "FGA": 531,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 267,
+     "FTA": 329,
+     "MIN": 3028,
+     "PF": 191,
+     "TOV": 104
+    }
+   ],
+   "text": "James Donaldson played every game in 4 straight seasons (1983-84 to 1986-87), the longest run of the 1980s."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "po_most_pts",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1449,
+     "name": "Larry Bird"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1983,
+     "team": "BOS",
+     "GP": 23,
+     "PTS": 632,
+     "PPG": 27.5,
+     "REB": 252,
+     "AST": 136,
+     "STL": 54,
+     "BLK": 27,
+     "FGM": 229,
+     "FGA": 437,
+     "FG3M": 7,
+     "FG3A": 17,
+     "FTM": 167,
+     "FTA": 190,
+     "MIN": 961,
+     "PF": 71,
+     "TOV": 87
+    }
+   ],
+   "among": 1678,
+   "text": "Most points in a single postseason in the 1980s: Larry Bird, 1983-84 — 632 in 23 games."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "po_most_reb",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1980,
+     "team": "HOU",
+     "GP": 21,
+     "PTS": 562,
+     "PPG": 26.8,
+     "REB": 305,
+     "AST": 35,
+     "STL": 13,
+     "BLK": 34,
+     "FGM": 207,
+     "FGA": 432,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 148,
+     "FTA": 208,
+     "MIN": 955,
+     "PF": 54,
+     "TOV": 59
+    }
+   ],
+   "among": 1678,
+   "text": "Most rebounds in a single postseason in the 1980s: Moses Malone, 1980-81 — 305 in 21 games."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "top_ppg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 893,
+     "name": "Michael Jordan"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1986,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 3041,
+     "PPG": 37.1,
+     "REB": 430,
+     "AST": 377,
+     "STL": 236,
+     "BLK": 125,
+     "FGM": 1098,
+     "FGA": 2279,
+     "FG3M": 12,
+     "FG3A": 66,
+     "FTM": 833,
+     "FTA": 972,
+     "MIN": 3281,
+     "PF": 237,
+     "TOV": 272
+    }
+   ],
+   "among": 2323,
+   "text": "Highest scoring average of the 1980s: Michael Jordan, 1986-87 — 37.1 points a game."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "best_ft_volume",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1988,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1730,
+     "PPG": 22.5,
+     "REB": 607,
+     "AST": 988,
+     "STL": 138,
+     "BLK": 22,
+     "FGM": 579,
+     "FGA": 1137,
+     "FG3M": 59,
+     "FG3A": 188,
+     "FTM": 513,
+     "FTA": 563,
+     "MIN": 2886,
+     "PF": 172,
+     "TOV": 312
+    }
+   ],
+   "among": 137,
+   "text": "Best free-throw percentage on 500+ attempts in the 1980s: Magic Johnson, 1988-89 — .911 (513-563)."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "most_fga",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 893,
+     "name": "Michael Jordan"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1986,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 3041,
+     "PPG": 37.1,
+     "REB": 430,
+     "AST": 377,
+     "STL": 236,
+     "BLK": 125,
+     "FGM": 1098,
+     "FGA": 2279,
+     "FG3M": 12,
+     "FG3A": 66,
+     "FTM": 833,
+     "FTA": 972,
+     "MIN": 3281,
+     "PF": 237,
+     "TOV": 272
+    }
+   ],
+   "among": 3223,
+   "text": "Most shots attempted in a season in the 1980s: Michael Jordan, 1986-87 — 2,279 FGA, .482."
+  },
+  {
+   "n": 57,
+   "rule": "fg_hi",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "season": 1981,
+     "team": "UTH",
+     "GP": 81,
+     "PTS": 2457,
+     "PPG": 30.3,
+     "REB": 514,
+     "AST": 324,
+     "STL": 95,
+     "BLK": 14,
+     "FGM": 904,
+     "FGA": 1586,
+     "FG3M": 1,
+     "FG3A": 3,
+     "FTM": 648,
+     "FTA": 818,
+     "MIN": 3222,
+     "PF": 252,
+     "TOV": 299
+    },
+    {
+     "id": 252,
+     "name": "Karl Malone",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 2540,
+     "PPG": 31,
+     "REB": 911,
+     "AST": 226,
+     "STL": 121,
+     "BLK": 50,
+     "FGM": 914,
+     "FGA": 1627,
+     "FG3M": 16,
+     "FG3A": 43,
+     "FTM": 696,
+     "FTA": 913,
+     "MIN": 3122,
+     "PF": 259,
+     "TOV": 304
+    },
+    {
+     "id": 787,
+     "name": "Charles Barkley",
+     "season": 1987,
+     "team": "PHL",
+     "GP": 80,
+     "PTS": 2264,
+     "PPG": 28.3,
+     "REB": 951,
+     "AST": 254,
+     "STL": 100,
+     "BLK": 103,
+     "FGM": 753,
+     "FGA": 1283,
+     "FG3M": 44,
+     "FG3A": 157,
+     "FTM": 714,
+     "FTA": 951,
+     "MIN": 3170,
+     "PF": 278,
+     "TOV": 304
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 2008,
+     "PPG": 26.1,
+     "REB": 763,
+     "AST": 198,
+     "STL": 38,
+     "BLK": 172,
+     "FGM": 790,
+     "FGA": 1307,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 428,
+     "FTA": 512,
+     "MIN": 3060,
+     "PF": 240,
+     "TOV": 197
+    },
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "season": 1985,
+     "team": "UTH",
+     "GP": 76,
+     "PTS": 2267,
+     "PPG": 29.8,
+     "REB": 395,
+     "AST": 264,
+     "STL": 64,
+     "BLK": 4,
+     "FGM": 818,
+     "FGA": 1453,
+     "FG3M": 1,
+     "FG3A": 11,
+     "FTM": 630,
+     "FTA": 796,
+     "MIN": 2744,
+     "PF": 206,
+     "TOV": 231
+    },
+    {
+     "id": 787,
+     "name": "Charles Barkley",
+     "season": 1989,
+     "team": "PHL",
+     "GP": 79,
+     "PTS": 1989,
+     "PPG": 25.2,
+     "REB": 909,
+     "AST": 307,
+     "STL": 148,
+     "BLK": 50,
+     "FGM": 706,
+     "FGA": 1177,
+     "FG3M": 20,
+     "FG3A": 92,
+     "FTM": 557,
+     "FTA": 744,
+     "MIN": 3085,
+     "PF": 250,
+     "TOV": 243
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 5.1833018074821355,
+   "players": [
+    {
+     "id": 76504,
+     "name": "Adrian Dantley"
+    }
+   ],
+   "seasons": [
+    1981
+   ],
+   "text": "11 players shot .560 or better while averaging 20 points (60% of games) in the 1980s (25 seasons). The most extreme: Adrian Dantley, 1981-82 — .570 FG, 30.3 ppg."
+  },
+  {
+   "n": 58,
+   "kind": "total",
+   "rule": "t_pts",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76673,
+     "name": "Alex English"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "total": 21133,
+     "seasons": 10
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "total": 18491,
+     "seasons": 10
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "total": 17974,
+     "seasons": 10
+    },
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "total": 16916,
+     "seasons": 10
+    },
+    {
+     "id": 1122,
+     "name": "Dominique Wilkins",
+     "total": 16695,
+     "seasons": 8
+    }
+   ],
+   "text": "Most points of the 1980s: Alex English, 21,133 — 2,642 ahead of Moses Malone."
+  },
+  {
+   "n": 59,
+   "kind": "total",
+   "rule": "t_gp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 100263,
+     "name": "Bill Laimbeer"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 100263,
+     "name": "Bill Laimbeer",
+     "total": 815,
+     "seasons": 10
+    },
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "total": 813,
+     "seasons": 10
+    },
+    {
+     "id": 77167,
+     "name": "Vinnie Johnson",
+     "total": 804,
+     "seasons": 10
+    },
+    {
+     "id": 305,
+     "name": "Robert Parish",
+     "total": 793,
+     "seasons": 10
+    },
+    {
+     "id": 78331,
+     "name": "Mychal Thompson",
+     "total": 790,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1980s: Bill Laimbeer, 815."
+  },
+  {
+   "n": 60,
+   "kind": "total",
+   "rule": "t_pf",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 100263,
+     "name": "Bill Laimbeer"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 100263,
+     "name": "Bill Laimbeer",
+     "total": 2924,
+     "seasons": 10
+    },
+    {
+     "id": 78149,
+     "name": "Jack Sikma",
+     "total": 2834,
+     "seasons": 10
+    },
+    {
+     "id": 328,
+     "name": "Rick Mahorn",
+     "total": 2685,
+     "seasons": 10
+    },
+    {
+     "id": 1472,
+     "name": "Tom Chambers",
+     "total": 2678,
+     "seasons": 9
+    },
+    {
+     "id": 76441,
+     "name": "Wayne Cooper",
+     "total": 2603,
+     "seasons": 10
+    }
+   ],
+   "text": "Most personal fouls committed in the 1980s: Bill Laimbeer, 2,924."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "t_stl",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "total": 1709,
+     "seasons": 10
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "total": 1477,
+     "seasons": 9
+    },
+    {
+     "id": 77376,
+     "name": "Lafayette Lever",
+     "total": 1455,
+     "seasons": 8
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "total": 1409,
+     "seasons": 10
+    },
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "total": 1335,
+     "seasons": 6
+    }
+   ],
+   "text": "Most steals of the 1980s: Maurice Cheeks, 1,709."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "t_blk",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "total": 2592,
+     "seasons": 8
+    },
+    {
+     "id": 78014,
+     "name": "Tree Rollins",
+     "total": 1658,
+     "seasons": 10
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "total": 1577,
+     "seasons": 6
+    },
+    {
+     "id": 76195,
+     "name": "Manute Bol",
+     "total": 1490,
+     "seasons": 5
+    },
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "total": 1426,
+     "seasons": 10
+    }
+   ],
+   "text": "Most blocked shots of the 1980s: Mark Eaton, 2,592."
+  },
+  {
+   "n": 63,
+   "kind": "season",
+   "rule": "c_25_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 5
+    },
+    {
+     "season": 1981,
+     "count": 4
+    },
+    {
+     "season": 1982,
+     "count": 4
+    },
+    {
+     "season": 1983,
+     "count": 6
+    },
+    {
+     "season": 1984,
+     "count": 8
+    },
+    {
+     "season": 1985,
+     "count": 5
+    },
+    {
+     "season": 1986,
+     "count": 7
+    },
+    {
+     "season": 1987,
+     "count": 9
+    },
+    {
+     "season": 1988,
+     "count": 9
+    },
+    {
+     "season": 1989,
+     "count": 7
+    }
+   ],
+   "text": "1987-88 had 9 25-point scorers, the most of any season in the 1980s."
+  },
+  {
+   "n": 64,
+   "kind": "season",
+   "rule": "c_25_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 5
+    },
+    {
+     "season": 1981,
+     "count": 4
+    },
+    {
+     "season": 1982,
+     "count": 4
+    },
+    {
+     "season": 1983,
+     "count": 6
+    },
+    {
+     "season": 1984,
+     "count": 8
+    },
+    {
+     "season": 1985,
+     "count": 5
+    },
+    {
+     "season": 1986,
+     "count": 7
+    },
+    {
+     "season": 1987,
+     "count": 9
+    },
+    {
+     "season": 1988,
+     "count": 9
+    },
+    {
+     "season": 1989,
+     "count": 7
+    }
+   ],
+   "text": "1981-82 had just 4 25-point scorers, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 65,
+   "kind": "season",
+   "rule": "c_20_10_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 3
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 4
+    },
+    {
+     "season": 1983,
+     "count": 4
+    },
+    {
+     "season": 1984,
+     "count": 4
+    },
+    {
+     "season": 1985,
+     "count": 3
+    },
+    {
+     "season": 1986,
+     "count": 4
+    },
+    {
+     "season": 1987,
+     "count": 5
+    },
+    {
+     "season": 1988,
+     "count": 4
+    },
+    {
+     "season": 1989,
+     "count": 5
+    }
+   ],
+   "text": "1987-88 had 5 20-and-10 players, the most of any season in the 1980s."
+  },
+  {
+   "n": 66,
+   "kind": "season",
+   "rule": "c_20_10_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 3
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 4
+    },
+    {
+     "season": 1983,
+     "count": 4
+    },
+    {
+     "season": 1984,
+     "count": 4
+    },
+    {
+     "season": 1985,
+     "count": 3
+    },
+    {
+     "season": 1986,
+     "count": 4
+    },
+    {
+     "season": 1987,
+     "count": 5
+    },
+    {
+     "season": 1988,
+     "count": 4
+    },
+    {
+     "season": 1989,
+     "count": 5
+    }
+   ],
+   "text": "1980-81 had just 3 20-and-10 players, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "c_ft900_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 2
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 0
+    },
+    {
+     "season": 1983,
+     "count": 0
+    },
+    {
+     "season": 1984,
+     "count": 0
+    },
+    {
+     "season": 1985,
+     "count": 0
+    },
+    {
+     "season": 1986,
+     "count": 1
+    },
+    {
+     "season": 1987,
+     "count": 3
+    },
+    {
+     "season": 1988,
+     "count": 3
+    },
+    {
+     "season": 1989,
+     "count": 4
+    }
+   ],
+   "text": "1989-90 had 4 .900 free-throw shooters (200+ FTA), the most of any season in the 1980s."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "c_ft900_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 2
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 0
+    },
+    {
+     "season": 1983,
+     "count": 0
+    },
+    {
+     "season": 1984,
+     "count": 0
+    },
+    {
+     "season": 1985,
+     "count": 0
+    },
+    {
+     "season": 1986,
+     "count": 1
+    },
+    {
+     "season": 1987,
+     "count": 3
+    },
+    {
+     "season": 1988,
+     "count": 3
+    },
+    {
+     "season": 1989,
+     "count": 4
+    }
+   ],
+   "text": "1981-82 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1980s without one."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "c_10apg_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 3
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 6
+    },
+    {
+     "season": 1983,
+     "count": 8
+    },
+    {
+     "season": 1984,
+     "count": 7
+    },
+    {
+     "season": 1985,
+     "count": 10
+    },
+    {
+     "season": 1986,
+     "count": 8
+    },
+    {
+     "season": 1987,
+     "count": 8
+    },
+    {
+     "season": 1988,
+     "count": 10
+    },
+    {
+     "season": 1989,
+     "count": 9
+    }
+   ],
+   "text": "1985-86 had 10 8-assist players, the most of any season in the 1980s."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_10apg_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 3
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 6
+    },
+    {
+     "season": 1983,
+     "count": 8
+    },
+    {
+     "season": 1984,
+     "count": 7
+    },
+    {
+     "season": 1985,
+     "count": 10
+    },
+    {
+     "season": 1986,
+     "count": 8
+    },
+    {
+     "season": 1987,
+     "count": 8
+    },
+    {
+     "season": 1988,
+     "count": 10
+    },
+    {
+     "season": 1989,
+     "count": 9
+    }
+   ],
+   "text": "1980-81 had just 3 8-assist players, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_20_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 19
+    },
+    {
+     "season": 1981,
+     "count": 18
+    },
+    {
+     "season": 1982,
+     "count": 25
+    },
+    {
+     "season": 1983,
+     "count": 26
+    },
+    {
+     "season": 1984,
+     "count": 28
+    },
+    {
+     "season": 1985,
+     "count": 25
+    },
+    {
+     "season": 1986,
+     "count": 28
+    },
+    {
+     "season": 1987,
+     "count": 22
+    },
+    {
+     "season": 1988,
+     "count": 24
+    },
+    {
+     "season": 1989,
+     "count": 26
+    }
+   ],
+   "text": "1984-85 had 28 20-point scorers, the most of any season in the 1980s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_20_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 19
+    },
+    {
+     "season": 1981,
+     "count": 18
+    },
+    {
+     "season": 1982,
+     "count": 25
+    },
+    {
+     "season": 1983,
+     "count": 26
+    },
+    {
+     "season": 1984,
+     "count": 28
+    },
+    {
+     "season": 1985,
+     "count": 25
+    },
+    {
+     "season": 1986,
+     "count": 28
+    },
+    {
+     "season": 1987,
+     "count": 22
+    },
+    {
+     "season": 1988,
+     "count": 24
+    },
+    {
+     "season": 1989,
+     "count": 26
+    }
+   ],
+   "text": "1981-82 had just 18 20-point scorers, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_all_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 55
+    },
+    {
+     "season": 1981,
+     "count": 1
+    },
+    {
+     "season": 1982,
+     "count": 1
+    },
+    {
+     "season": 1983,
+     "count": 40
+    },
+    {
+     "season": 1984,
+     "count": 40
+    },
+    {
+     "season": 1985,
+     "count": 1
+    },
+    {
+     "season": 1986,
+     "count": 43
+    },
+    {
+     "season": 1987,
+     "count": 1
+    },
+    {
+     "season": 1988,
+     "count": 38
+    },
+    {
+     "season": 1989,
+     "count": 58
+    }
+   ],
+   "text": "1989-90 had 58 players who appeared in every game, the most of any season in the 1980s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_all_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 55
+    },
+    {
+     "season": 1981,
+     "count": 1
+    },
+    {
+     "season": 1982,
+     "count": 1
+    },
+    {
+     "season": 1983,
+     "count": 40
+    },
+    {
+     "season": 1984,
+     "count": 40
+    },
+    {
+     "season": 1985,
+     "count": 1
+    },
+    {
+     "season": 1986,
+     "count": 43
+    },
+    {
+     "season": 1987,
+     "count": 1
+    },
+    {
+     "season": 1988,
+     "count": 38
+    },
+    {
+     "season": 1989,
+     "count": 58
+    }
+   ],
+   "text": "1981-82 had just one player who appeared in every game, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_10rpg_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 11
+    },
+    {
+     "season": 1981,
+     "count": 10
+    },
+    {
+     "season": 1982,
+     "count": 13
+    },
+    {
+     "season": 1983,
+     "count": 11
+    },
+    {
+     "season": 1984,
+     "count": 12
+    },
+    {
+     "season": 1985,
+     "count": 7
+    },
+    {
+     "season": 1986,
+     "count": 13
+    },
+    {
+     "season": 1987,
+     "count": 11
+    },
+    {
+     "season": 1988,
+     "count": 8
+    },
+    {
+     "season": 1989,
+     "count": 11
+    }
+   ],
+   "text": "1982-83 had 13 double-digit rebounders, the most of any season in the 1980s."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_10rpg_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 11
+    },
+    {
+     "season": 1981,
+     "count": 10
+    },
+    {
+     "season": 1982,
+     "count": 13
+    },
+    {
+     "season": 1983,
+     "count": 11
+    },
+    {
+     "season": 1984,
+     "count": 12
+    },
+    {
+     "season": 1985,
+     "count": 7
+    },
+    {
+     "season": 1986,
+     "count": 13
+    },
+    {
+     "season": 1987,
+     "count": 11
+    },
+    {
+     "season": 1988,
+     "count": 8
+    },
+    {
+     "season": 1989,
+     "count": 11
+    }
+   ],
+   "text": "1985-86 had just 7 double-digit rebounders, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "t_ast",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "total": 8369,
+     "seasons": 10
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "total": 6985,
+     "seasons": 9
+    },
+    {
+     "id": 76385,
+     "name": "Maurice Cheeks",
+     "total": 5678,
+     "seasons": 10
+    },
+    {
+     "id": 78310,
+     "name": "Reggie Theus",
+     "total": 5131,
+     "seasons": 10
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "total": 5075,
+     "seasons": 6
+    }
+   ],
+   "text": "Most assists of the 1980s: Magic Johnson, 8,369."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "t_min",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76673,
+     "name": "Alex English"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76673,
+     "name": "Alex English",
+     "total": 29018,
+     "seasons": 10
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "total": 28634,
+     "seasons": 10
+    },
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "total": 27549,
+     "seasons": 10
+    },
+    {
+     "id": 78149,
+     "name": "Jack Sikma",
+     "total": 27014,
+     "seasons": 10
+    },
+    {
+     "id": 100263,
+     "name": "Bill Laimbeer",
+     "total": 26873,
+     "seasons": 10
+    }
+   ],
+   "text": "Most minutes of the 1980s: Alex English, 29,018."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "t_3pm",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 107,
+     "name": "Dale Ellis"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 107,
+     "name": "Dale Ellis",
+     "total": 568,
+     "seasons": 7
+    },
+    {
+     "id": 76017,
+     "name": "Danny Ainge",
+     "total": 514,
+     "seasons": 9
+    },
+    {
+     "id": 149,
+     "name": "Michael Adams",
+     "total": 491,
+     "seasons": 5
+    },
+    {
+     "id": 77034,
+     "name": "Craig Hodges",
+     "total": 483,
+     "seasons": 8
+    },
+    {
+     "id": 76890,
+     "name": "Darrell Griffith",
+     "total": 482,
+     "seasons": 9
+    }
+   ],
+   "text": "Most threes of the 1980s: Dale Ellis, 568."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_30_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 1
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 0
+    },
+    {
+     "season": 1983,
+     "count": 1
+    },
+    {
+     "season": 1984,
+     "count": 1
+    },
+    {
+     "season": 1985,
+     "count": 1
+    },
+    {
+     "season": 1986,
+     "count": 1
+    },
+    {
+     "season": 1987,
+     "count": 2
+    },
+    {
+     "season": 1988,
+     "count": 1
+    },
+    {
+     "season": 1989,
+     "count": 2
+    }
+   ],
+   "text": "1981-82 had 3 30-point scorers, the most of any season in the 1980s."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 1
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 0
+    },
+    {
+     "season": 1983,
+     "count": 1
+    },
+    {
+     "season": 1984,
+     "count": 1
+    },
+    {
+     "season": 1985,
+     "count": 1
+    },
+    {
+     "season": 1986,
+     "count": 1
+    },
+    {
+     "season": 1987,
+     "count": 2
+    },
+    {
+     "season": 1988,
+     "count": 1
+    },
+    {
+     "season": 1989,
+     "count": 2
+    }
+   ],
+   "text": "1982-83 had no 30-point scorers at all — the only season of the 1980s without one."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_2spg_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 7
+    },
+    {
+     "season": 1981,
+     "count": 10
+    },
+    {
+     "season": 1982,
+     "count": 9
+    },
+    {
+     "season": 1983,
+     "count": 9
+    },
+    {
+     "season": 1984,
+     "count": 11
+    },
+    {
+     "season": 1985,
+     "count": 9
+    },
+    {
+     "season": 1986,
+     "count": 9
+    },
+    {
+     "season": 1987,
+     "count": 12
+    },
+    {
+     "season": 1988,
+     "count": 15
+    },
+    {
+     "season": 1989,
+     "count": 11
+    }
+   ],
+   "text": "1988-89 had 15 2-steal players, the most of any season in the 1980s."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_2spg_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 7
+    },
+    {
+     "season": 1981,
+     "count": 10
+    },
+    {
+     "season": 1982,
+     "count": 9
+    },
+    {
+     "season": 1983,
+     "count": 9
+    },
+    {
+     "season": 1984,
+     "count": 11
+    },
+    {
+     "season": 1985,
+     "count": 9
+    },
+    {
+     "season": 1986,
+     "count": 9
+    },
+    {
+     "season": 1987,
+     "count": 12
+    },
+    {
+     "season": 1988,
+     "count": 15
+    },
+    {
+     "season": 1989,
+     "count": 11
+    }
+   ],
+   "text": "1980-81 had just 7 2-steal players, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 84,
+   "kind": "nearmiss",
+   "rule": "rpg99",
+   "group": "P",
+   "decade": "1980s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 1450,
+     "name": "Kevin McHale"
+    },
+    {
+     "id": 78025,
+     "name": "Dan Roundfield"
+    },
+    {
+     "id": 76881,
+     "name": "David Greenwood"
+    }
+   ],
+   "seasons": [
+    1986,
+    1983,
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1450,
+     "name": "Kevin McHale",
+     "season": 1986,
+     "team": "BOS",
+     "GP": 77,
+     "PTS": 2008,
+     "PPG": 26.1,
+     "REB": 763,
+     "AST": 198,
+     "STL": 38,
+     "BLK": 172,
+     "FGM": 790,
+     "FGA": 1307,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 428,
+     "FTA": 512,
+     "MIN": 3060,
+     "PF": 240,
+     "TOV": 197
+    },
+    {
+     "id": 78025,
+     "name": "Dan Roundfield",
+     "season": 1983,
+     "team": "ATL",
+     "GP": 73,
+     "PTS": 1380,
+     "PPG": 18.9,
+     "REB": 721,
+     "AST": 184,
+     "STL": 61,
+     "BLK": 74,
+     "FGM": 503,
+     "FGA": 1038,
+     "FG3M": 0,
+     "FG3A": 11,
+     "FTM": 374,
+     "FTA": 486,
+     "MIN": 2610,
+     "PF": 221,
+     "TOV": 205
+    },
+    {
+     "id": 76881,
+     "name": "David Greenwood",
+     "season": 1986,
+     "team": "SAN",
+     "GP": 79,
+     "PTS": 916,
+     "PPG": 11.6,
+     "REB": 783,
+     "AST": 237,
+     "STL": 71,
+     "BLK": 50,
+     "FGM": 336,
+     "FGA": 655,
+     "FG3M": 3,
+     "FG3A": 6,
+     "FTM": 241,
+     "FTA": 307,
+     "MIN": 2587,
+     "PF": 248,
+     "TOV": 161
+    }
+   ],
+   "text": "3 player-seasons of the 1980s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Kevin McHale (1986-87), Dan Roundfield (1983-84), David Greenwood (1986-87)."
+  },
+  {
+   "n": 85,
+   "kind": "nearmiss",
+   "rule": "tp399",
+   "group": "P",
+   "decade": "1980s",
+   "score": 4.5,
+   "players": [
+    {
+     "id": 78375,
+     "name": "Trent Tucker"
+    },
+    {
+     "id": 344,
+     "name": "Dana Barros"
+    }
+   ],
+   "seasons": [
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78375,
+     "name": "Trent Tucker",
+     "season": 1988,
+     "team": "NYK",
+     "GP": 81,
+     "PTS": 687,
+     "PPG": 8.5,
+     "REB": 176,
+     "AST": 132,
+     "STL": 88,
+     "BLK": 6,
+     "FGM": 263,
+     "FGA": 579,
+     "FG3M": 118,
+     "FG3A": 296,
+     "FTM": 43,
+     "FTA": 55,
+     "MIN": 1824,
+     "PF": 163,
+     "TOV": 59
+    },
+    {
+     "id": 344,
+     "name": "Dana Barros",
+     "season": 1989,
+     "team": "SEA",
+     "GP": 81,
+     "PTS": 782,
+     "PPG": 9.7,
+     "REB": 132,
+     "AST": 205,
+     "STL": 53,
+     "BLK": 1,
+     "FGM": 299,
+     "FGA": 738,
+     "FG3M": 95,
+     "FG3A": 238,
+     "FTM": 89,
+     "FTA": 110,
+     "MIN": 1630,
+     "PF": 97,
+     "TOV": 123
+    }
+   ],
+   "text": "2 player-seasons of the 1980s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Trent Tucker (1988-89), Dana Barros (1989-90)."
+  },
+  {
+   "n": 86,
+   "rule": "bpg_3",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1984,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 794,
+     "PPG": 9.7,
+     "REB": 927,
+     "AST": 124,
+     "STL": 36,
+     "BLK": 456,
+     "FGM": 302,
+     "FGA": 673,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 190,
+     "FTA": 267,
+     "MIN": 2813,
+     "PF": 312,
+     "TOV": 206
+    },
+    {
+     "id": 76195,
+     "name": "Manute Bol",
+     "season": 1985,
+     "team": "WAS",
+     "GP": 80,
+     "PTS": 298,
+     "PPG": 3.7,
+     "REB": 477,
+     "AST": 23,
+     "STL": 28,
+     "BLK": 397,
+     "FGM": 128,
+     "FGA": 278,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 42,
+     "FTA": 86,
+     "MIN": 2090,
+     "PF": 255,
+     "TOV": 65
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1985,
+     "team": "UTH",
+     "GP": 80,
+     "PTS": 676,
+     "PPG": 8.4,
+     "REB": 675,
+     "AST": 101,
+     "STL": 33,
+     "BLK": 369,
+     "FGM": 277,
+     "FGA": 589,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 122,
+     "FTA": 202,
+     "MIN": 2551,
+     "PF": 282,
+     "TOV": 157
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1989,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1995,
+     "PPG": 24.3,
+     "REB": 1149,
+     "AST": 234,
+     "STL": 174,
+     "BLK": 376,
+     "FGM": 806,
+     "FGA": 1609,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 382,
+     "FTA": 536,
+     "MIN": 3124,
+     "PF": 314,
+     "TOV": 316
+    },
+    {
+     "id": 76195,
+     "name": "Manute Bol",
+     "season": 1988,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 314,
+     "PPG": 3.9,
+     "REB": 462,
+     "AST": 27,
+     "STL": 11,
+     "BLK": 345,
+     "FGM": 127,
+     "FGA": 344,
+     "FG3M": 20,
+     "FG3A": 91,
+     "FTM": 40,
+     "FTA": 66,
+     "MIN": 1769,
+     "PF": 226,
+     "TOV": 79
+    },
+    {
+     "id": 78014,
+     "name": "Tree Rollins",
+     "season": 1982,
+     "team": "ATL",
+     "GP": 80,
+     "PTS": 620,
+     "PPG": 7.8,
+     "REB": 743,
+     "AST": 75,
+     "STL": 49,
+     "BLK": 343,
+     "FGM": 261,
+     "FGA": 512,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 98,
+     "FTA": 135,
+     "MIN": 2472,
+     "PF": 294,
+     "TOV": 95
+    }
+   ],
+   "seasonsMatched": 23,
+   "kind": "list",
+   "score": 4.390243902439025,
+   "players": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "text": "8 players averaged 3 blocks a game (60% of games) in the 1980s (23 seasons). The most extreme: Mark Eaton, 1984-85 — 5.6 bpg."
+  },
+  {
+   "n": 87,
+   "kind": "nearmiss",
+   "rule": "ppg299",
+   "group": "P",
+   "decade": "1980s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 1449,
+     "name": "Larry Bird"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1449,
+     "name": "Larry Bird",
+     "season": 1987,
+     "team": "BOS",
+     "GP": 76,
+     "PTS": 2275,
+     "PPG": 29.9,
+     "REB": 703,
+     "AST": 467,
+     "STL": 125,
+     "BLK": 57,
+     "FGM": 881,
+     "FGA": 1672,
+     "FG3M": 98,
+     "FG3A": 237,
+     "FTM": 415,
+     "FTA": 453,
+     "MIN": 2965,
+     "PF": 157,
+     "TOV": 213
+    }
+   ],
+   "text": "Exactly one player of the 1980s finished a season with a 29.9 scoring average, a tenth short of 30: Larry Bird (1987-88)."
+  },
+  {
+   "n": 88,
+   "kind": "nearmiss",
+   "rule": "ppg249",
+   "group": "P",
+   "decade": "1980s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 107,
+     "name": "Dale Ellis"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 107,
+     "name": "Dale Ellis",
+     "season": 1986,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 2041,
+     "PPG": 24.9,
+     "REB": 447,
+     "AST": 238,
+     "STL": 104,
+     "BLK": 32,
+     "FGM": 785,
+     "FGA": 1520,
+     "FG3M": 86,
+     "FG3A": 240,
+     "FTM": 385,
+     "FTA": 489,
+     "MIN": 3073,
+     "PF": 267,
+     "TOV": 238
+    }
+   ],
+   "text": "Exactly one player of the 1980s finished a season with a 24.9 scoring average, a tenth short of 25: Dale Ellis (1986-87)."
+  },
+  {
+   "n": 89,
+   "rule": "blk_250",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1984,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 794,
+     "PPG": 9.7,
+     "REB": 927,
+     "AST": 124,
+     "STL": 36,
+     "BLK": 456,
+     "FGM": 302,
+     "FGA": 673,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 190,
+     "FTA": 267,
+     "MIN": 2813,
+     "PF": 312,
+     "TOV": 206
+    },
+    {
+     "id": 76195,
+     "name": "Manute Bol",
+     "season": 1985,
+     "team": "WAS",
+     "GP": 80,
+     "PTS": 298,
+     "PPG": 3.7,
+     "REB": 477,
+     "AST": 23,
+     "STL": 28,
+     "BLK": 397,
+     "FGM": 128,
+     "FGA": 278,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 42,
+     "FTA": 86,
+     "MIN": 2090,
+     "PF": 255,
+     "TOV": 65
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1989,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1995,
+     "PPG": 24.3,
+     "REB": 1149,
+     "AST": 234,
+     "STL": 174,
+     "BLK": 376,
+     "FGM": 806,
+     "FGA": 1609,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 382,
+     "FTA": 536,
+     "MIN": 3124,
+     "PF": 314,
+     "TOV": 316
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1985,
+     "team": "UTH",
+     "GP": 80,
+     "PTS": 676,
+     "PPG": 8.4,
+     "REB": 675,
+     "AST": 101,
+     "STL": 33,
+     "BLK": 369,
+     "FGM": 277,
+     "FGA": 589,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 122,
+     "FTA": 202,
+     "MIN": 2551,
+     "PF": 282,
+     "TOV": 157
+    },
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1983,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 461,
+     "PPG": 5.6,
+     "REB": 595,
+     "AST": 113,
+     "STL": 25,
+     "BLK": 351,
+     "FGM": 194,
+     "FGA": 416,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 73,
+     "FTA": 123,
+     "MIN": 2139,
+     "PF": 303,
+     "TOV": 98
+    },
+    {
+     "id": 76195,
+     "name": "Manute Bol",
+     "season": 1988,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 314,
+     "PPG": 3.9,
+     "REB": 462,
+     "AST": 27,
+     "STL": 11,
+     "BLK": 345,
+     "FGM": 127,
+     "FGA": 344,
+     "FG3M": 20,
+     "FG3A": 91,
+     "FTM": 40,
+     "FTA": 66,
+     "MIN": 1769,
+     "PF": 226,
+     "TOV": 79
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 4.140000000000001,
+   "players": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "text": "7 players blocked 250 shots in a season in the 1980s (19 seasons). The most extreme: Mark Eaton, 1984-85 — 456 blk."
+  },
+  {
+   "n": 90,
+   "rule": "ast_800",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 78,
+     "PTS": 1345,
+     "PPG": 17.2,
+     "REB": 206,
+     "AST": 1134,
+     "STL": 207,
+     "BLK": 18,
+     "FGM": 472,
+     "FGA": 918,
+     "FG3M": 47,
+     "FG3A": 113,
+     "FTM": 354,
+     "FTA": 432,
+     "MIN": 2915,
+     "PF": 233,
+     "TOV": 272
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1987,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1204,
+     "PPG": 14.7,
+     "REB": 237,
+     "AST": 1128,
+     "STL": 242,
+     "BLK": 16,
+     "FGM": 454,
+     "FGA": 791,
+     "FG3M": 24,
+     "FG3A": 67,
+     "FTM": 272,
+     "FTA": 324,
+     "MIN": 2842,
+     "PF": 247,
+     "TOV": 262
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1984,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1720,
+     "PPG": 21.2,
+     "REB": 361,
+     "AST": 1123,
+     "STL": 187,
+     "BLK": 25,
+     "FGM": 646,
+     "FGA": 1410,
+     "FG3M": 29,
+     "FG3A": 113,
+     "FTM": 399,
+     "FTA": 493,
+     "MIN": 3089,
+     "PF": 288,
+     "TOV": 302
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1988,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 248,
+     "AST": 1118,
+     "STL": 263,
+     "BLK": 14,
+     "FGM": 497,
+     "FGA": 923,
+     "FG3M": 16,
+     "FG3A": 66,
+     "FTM": 390,
+     "FTA": 452,
+     "MIN": 3171,
+     "PF": 241,
+     "TOV": 308
+    },
+    {
+     "id": 134,
+     "name": "Kevin Johnson",
+     "season": 1988,
+     "team": "PHX",
+     "GP": 81,
+     "PTS": 1650,
+     "PPG": 20.4,
+     "REB": 340,
+     "AST": 991,
+     "STL": 135,
+     "BLK": 24,
+     "FGM": 570,
+     "FGA": 1128,
+     "FG3M": 2,
+     "FG3A": 22,
+     "FTM": 508,
+     "FTA": 576,
+     "MIN": 3179,
+     "PF": 226,
+     "TOV": 322
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1988,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1730,
+     "PPG": 22.5,
+     "REB": 607,
+     "AST": 988,
+     "STL": 138,
+     "BLK": 22,
+     "FGM": 579,
+     "FGA": 1137,
+     "FG3M": 59,
+     "FG3A": 188,
+     "FTM": 513,
+     "FTA": 563,
+     "MIN": 2886,
+     "PF": 172,
+     "TOV": 312
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 4.134,
+   "players": [
+    {
+     "id": 304,
+     "name": "John Stockton"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "text": "11 players dished out 800 assists in a season in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 1,134 ast."
+  },
+  {
+   "n": 91,
+   "rule": "big_ast",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 78,
+     "PTS": 1345,
+     "PPG": 17.2,
+     "REB": 206,
+     "AST": 1134,
+     "STL": 207,
+     "BLK": 18,
+     "FGM": 472,
+     "FGA": 918,
+     "FG3M": 47,
+     "FG3A": 113,
+     "FTM": 354,
+     "FTA": 432,
+     "MIN": 2915,
+     "PF": 233,
+     "TOV": 272
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1984,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1720,
+     "PPG": 21.2,
+     "REB": 361,
+     "AST": 1123,
+     "STL": 187,
+     "BLK": 25,
+     "FGM": 646,
+     "FGA": 1410,
+     "FG3M": 29,
+     "FG3A": 113,
+     "FTM": 399,
+     "FTA": 493,
+     "MIN": 3089,
+     "PF": 288,
+     "TOV": 302
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1987,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1204,
+     "PPG": 14.7,
+     "REB": 237,
+     "AST": 1128,
+     "STL": 242,
+     "BLK": 16,
+     "FGM": 454,
+     "FGA": 791,
+     "FG3M": 24,
+     "FG3A": 67,
+     "FTM": 272,
+     "FTA": 324,
+     "MIN": 2842,
+     "PF": 247,
+     "TOV": 262
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1988,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 248,
+     "AST": 1118,
+     "STL": 263,
+     "BLK": 14,
+     "FGM": 497,
+     "FGA": 923,
+     "FG3M": 16,
+     "FG3A": 66,
+     "FTM": 390,
+     "FTA": 452,
+     "MIN": 3171,
+     "PF": 241,
+     "TOV": 308
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1983,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1178,
+     "PPG": 17.6,
+     "REB": 491,
+     "AST": 875,
+     "STL": 150,
+     "BLK": 49,
+     "FGM": 441,
+     "FGA": 780,
+     "FG3M": 6,
+     "FG3A": 29,
+     "FTM": 290,
+     "FTA": 358,
+     "MIN": 2567,
+     "PF": 169,
+     "TOV": 306
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1988,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1730,
+     "PPG": 22.5,
+     "REB": 607,
+     "AST": 988,
+     "STL": 138,
+     "BLK": 22,
+     "FGM": 579,
+     "FGA": 1137,
+     "FG3M": 59,
+     "FG3A": 188,
+     "FTM": 513,
+     "FTA": 563,
+     "MIN": 2886,
+     "PF": 172,
+     "TOV": 312
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 4.0903846153846155,
+   "players": [
+    {
+     "id": 304,
+     "name": "John Stockton"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "text": "11 players averaged 10+ assists (60% of games) in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 14.5 apg."
+  },
+  {
+   "n": 92,
+   "rule": "apg_10",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1989,
+     "team": "UTH",
+     "GP": 78,
+     "PTS": 1345,
+     "PPG": 17.2,
+     "REB": 206,
+     "AST": 1134,
+     "STL": 207,
+     "BLK": 18,
+     "FGM": 472,
+     "FGA": 918,
+     "FG3M": 47,
+     "FG3A": 113,
+     "FTM": 354,
+     "FTA": 432,
+     "MIN": 2915,
+     "PF": 233,
+     "TOV": 272
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1984,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1720,
+     "PPG": 21.2,
+     "REB": 361,
+     "AST": 1123,
+     "STL": 187,
+     "BLK": 25,
+     "FGM": 646,
+     "FGA": 1410,
+     "FG3M": 29,
+     "FG3A": 113,
+     "FTM": 399,
+     "FTA": 493,
+     "MIN": 3089,
+     "PF": 288,
+     "TOV": 302
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1987,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1204,
+     "PPG": 14.7,
+     "REB": 237,
+     "AST": 1128,
+     "STL": 242,
+     "BLK": 16,
+     "FGM": 454,
+     "FGA": 791,
+     "FG3M": 24,
+     "FG3A": 67,
+     "FTM": 272,
+     "FTA": 324,
+     "MIN": 2842,
+     "PF": 247,
+     "TOV": 262
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1988,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 248,
+     "AST": 1118,
+     "STL": 263,
+     "BLK": 14,
+     "FGM": 497,
+     "FGA": 923,
+     "FG3M": 16,
+     "FG3A": 66,
+     "FTM": 390,
+     "FTA": 452,
+     "MIN": 3171,
+     "PF": 241,
+     "TOV": 308
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1983,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1178,
+     "PPG": 17.6,
+     "REB": 491,
+     "AST": 875,
+     "STL": 150,
+     "BLK": 49,
+     "FGM": 441,
+     "FGA": 780,
+     "FG3M": 6,
+     "FG3A": 29,
+     "FTM": 290,
+     "FTA": 358,
+     "MIN": 2567,
+     "PF": 169,
+     "TOV": 306
+    },
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1988,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1730,
+     "PPG": 22.5,
+     "REB": 607,
+     "AST": 988,
+     "STL": 138,
+     "BLK": 22,
+     "FGM": 579,
+     "FGA": 1137,
+     "FG3M": 59,
+     "FG3A": 188,
+     "FTM": 513,
+     "FTA": 563,
+     "MIN": 2886,
+     "PF": 172,
+     "TOV": 312
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 4.0903846153846155,
+   "players": [
+    {
+     "id": 304,
+     "name": "John Stockton"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "text": "11 players averaged 10 assists a game (60% of games) in the 1980s (24 seasons). The most extreme: John Stockton, 1989-90 — 14.5 apg."
+  },
+  {
+   "n": 93,
+   "rule": "blk_over_ast",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 121,
+     "name": "Patrick Ewing",
+     "season": 1989,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 2347,
+     "PPG": 28.6,
+     "REB": 893,
+     "AST": 182,
+     "STL": 78,
+     "BLK": 327,
+     "FGM": 922,
+     "FGA": 1673,
+     "FG3M": 1,
+     "FG3A": 4,
+     "FTM": 502,
+     "FTA": 648,
+     "MIN": 3165,
+     "PF": 325,
+     "TOV": 278
+    },
+    {
+     "id": 764,
+     "name": "David Robinson",
+     "season": 1989,
+     "team": "SAN",
+     "GP": 82,
+     "PTS": 1993,
+     "PPG": 24.3,
+     "REB": 983,
+     "AST": 164,
+     "STL": 138,
+     "BLK": 319,
+     "FGM": 690,
+     "FGA": 1300,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 613,
+     "FTA": 837,
+     "MIN": 3002,
+     "PF": 259,
+     "TOV": 257
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1989,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1995,
+     "PPG": 24.3,
+     "REB": 1149,
+     "AST": 234,
+     "STL": 174,
+     "BLK": 376,
+     "FGM": 806,
+     "FGA": 1609,
+     "FG3M": 1,
+     "FG3A": 6,
+     "FTM": 382,
+     "FTA": 536,
+     "MIN": 3124,
+     "PF": 314,
+     "TOV": 316
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1988,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 1105,
+     "AST": 149,
+     "STL": 213,
+     "BLK": 282,
+     "FGM": 790,
+     "FGA": 1556,
+     "FG3M": 0,
+     "FG3A": 10,
+     "FTM": 454,
+     "FTA": 652,
+     "MIN": 3024,
+     "PF": 329,
+     "TOV": 275
+    },
+    {
+     "id": 165,
+     "name": "Hakeem Olajuwon",
+     "season": 1985,
+     "team": "HOU",
+     "GP": 68,
+     "PTS": 1597,
+     "PPG": 23.5,
+     "REB": 781,
+     "AST": 137,
+     "STL": 134,
+     "BLK": 231,
+     "FGM": 625,
+     "FGA": 1188,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 347,
+     "FTA": 538,
+     "MIN": 2467,
+     "PF": 271,
+     "TOV": 195
+    },
+    {
+     "id": 121,
+     "name": "Patrick Ewing",
+     "season": 1987,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1653,
+     "PPG": 20.2,
+     "REB": 676,
+     "AST": 125,
+     "STL": 104,
+     "BLK": 245,
+     "FGM": 656,
+     "FGA": 1183,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 341,
+     "FTA": 476,
+     "MIN": 2546,
+     "PF": 332,
+     "TOV": 287
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 4.078048780487805,
+   "players": [
+    {
+     "id": 121,
+     "name": "Patrick Ewing"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "text": "6 players blocked more shots than they assisted while averaging 20 points (60% of games) in the 1980s (16 seasons). The most extreme: Patrick Ewing, 1989-90 — 327 blk, 182 ast."
+  },
+  {
+   "n": 94,
+   "rule": "pf_300",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins",
+     "season": 1983,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 1357,
+     "PPG": 16.8,
+     "REB": 541,
+     "AST": 123,
+     "STL": 60,
+     "BLK": 136,
+     "FGM": 507,
+     "FGA": 855,
+     "FG3M": 2,
+     "FG3A": 5,
+     "FTM": 341,
+     "FTA": 464,
+     "MIN": 2417,
+     "PF": 386,
+     "TOV": 231
+    },
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins",
+     "season": 1982,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 968,
+     "PPG": 12,
+     "REB": 420,
+     "AST": 114,
+     "STL": 67,
+     "BLK": 152,
+     "FGM": 401,
+     "FGA": 669,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 166,
+     "FTA": 257,
+     "MIN": 2093,
+     "PF": 379,
+     "TOV": 281
+    },
+    {
+     "id": 77134,
+     "name": "Steve Johnson",
+     "season": 1981,
+     "team": "KCK",
+     "GP": 78,
+     "PTS": 1002,
+     "PPG": 12.8,
+     "REB": 459,
+     "AST": 91,
+     "STL": 39,
+     "BLK": 89,
+     "FGM": 395,
+     "FGA": 644,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 212,
+     "FTA": 330,
+     "MIN": 1741,
+     "PF": 372,
+     "TOV": 197
+    },
+    {
+     "id": 328,
+     "name": "Rick Mahorn",
+     "season": 1983,
+     "team": "WAS",
+     "GP": 82,
+     "PTS": 739,
+     "PPG": 9,
+     "REB": 738,
+     "AST": 131,
+     "STL": 62,
+     "BLK": 123,
+     "FGM": 307,
+     "FGA": 605,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 125,
+     "FTA": 192,
+     "MIN": 2701,
+     "PF": 358,
+     "TOV": 142
+    },
+    {
+     "id": 328,
+     "name": "Rick Mahorn",
+     "season": 1981,
+     "team": "WAS",
+     "GP": 80,
+     "PTS": 976,
+     "PPG": 12.2,
+     "REB": 704,
+     "AST": 150,
+     "STL": 57,
+     "BLK": 138,
+     "FGM": 414,
+     "FGA": 816,
+     "FG3M": 0,
+     "FG3A": 3,
+     "FTM": 148,
+     "FTA": 234,
+     "MIN": 2664,
+     "PF": 349,
+     "TOV": 162
+    },
+    {
+     "id": 229,
+     "name": "James Edwards",
+     "season": 1981,
+     "team": "CLE",
+     "GP": 77,
+     "PTS": 1288,
+     "PPG": 16.7,
+     "REB": 581,
+     "AST": 123,
+     "STL": 24,
+     "BLK": 117,
+     "FGM": 528,
+     "FGA": 1033,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 232,
+     "FTA": 339,
+     "MIN": 2539,
+     "PF": 347,
+     "TOV": 162
+    }
+   ],
+   "seasonsMatched": 112,
+   "kind": "list",
+   "score": 3.965,
+   "players": [
+    {
+     "id": 76539,
+     "name": "Darryl Dawkins"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "text": "59 players committed 300 personal fouls in a season in the 1980s (112 seasons). The most extreme: Darryl Dawkins, 1983-84 — 386 PF."
+  },
+  {
+   "n": 95,
+   "rule": "stl_200",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "season": 1985,
+     "team": "SAN",
+     "GP": 82,
+     "PTS": 1392,
+     "PPG": 17,
+     "REB": 516,
+     "AST": 448,
+     "STL": 301,
+     "BLK": 40,
+     "FGM": 562,
+     "FGA": 1093,
+     "FG3M": 8,
+     "FG3A": 29,
+     "FTM": 260,
+     "FTA": 327,
+     "MIN": 2878,
+     "PF": 296,
+     "TOV": 256
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1988,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 248,
+     "AST": 1118,
+     "STL": 263,
+     "BLK": 14,
+     "FGM": 497,
+     "FGA": 923,
+     "FG3M": 16,
+     "FG3A": 66,
+     "FTM": 390,
+     "FTA": 452,
+     "MIN": 3171,
+     "PF": 241,
+     "TOV": 308
+    },
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "season": 1986,
+     "team": "SAN",
+     "GP": 81,
+     "PTS": 1435,
+     "PPG": 17.7,
+     "REB": 424,
+     "AST": 421,
+     "STL": 260,
+     "BLK": 35,
+     "FGM": 589,
+     "FGA": 1264,
+     "FG3M": 13,
+     "FG3A": 48,
+     "FTM": 244,
+     "FTA": 324,
+     "MIN": 2697,
+     "PF": 264,
+     "TOV": 243
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1987,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 2868,
+     "PPG": 35,
+     "REB": 449,
+     "AST": 485,
+     "STL": 259,
+     "BLK": 131,
+     "FGM": 1069,
+     "FGA": 1998,
+     "FG3M": 7,
+     "FG3A": 53,
+     "FTM": 723,
+     "FTA": 860,
+     "MIN": 3311,
+     "PF": 270,
+     "TOV": 252
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1984,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 1649,
+     "PPG": 20.1,
+     "REB": 457,
+     "AST": 669,
+     "STL": 243,
+     "BLK": 22,
+     "FGM": 690,
+     "FGA": 1470,
+     "FG3M": 29,
+     "FG3A": 115,
+     "FTM": 240,
+     "FTA": 313,
+     "MIN": 3127,
+     "PF": 277,
+     "TOV": 249
+    },
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "season": 1987,
+     "team": "SAN",
+     "GP": 82,
+     "PTS": 1610,
+     "PPG": 19.6,
+     "REB": 498,
+     "AST": 557,
+     "STL": 243,
+     "BLK": 69,
+     "FGM": 655,
+     "FGA": 1408,
+     "FG3M": 27,
+     "FG3A": 95,
+     "FTM": 273,
+     "FTA": 365,
+     "MIN": 2978,
+     "PF": 300,
+     "TOV": 251
+    }
+   ],
+   "seasonsMatched": 31,
+   "kind": "list",
+   "score": 3.940625,
+   "players": [
+    {
+     "id": 926,
+     "name": "Alvin Robertson"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "15 players recorded 200 steals in a season in the 1980s (31 seasons). The most extreme: Alvin Robertson, 1985-86 — 301 stl."
+  },
+  {
+   "n": 96,
+   "rule": "guard_stocks",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "season": 1985,
+     "team": "SAN",
+     "GP": 82,
+     "PTS": 1392,
+     "PPG": 17,
+     "REB": 516,
+     "AST": 448,
+     "STL": 301,
+     "BLK": 40,
+     "FGM": 562,
+     "FGA": 1093,
+     "FG3M": 8,
+     "FG3A": 29,
+     "FTM": 260,
+     "FTA": 327,
+     "MIN": 2878,
+     "PF": 296,
+     "TOV": 256
+    },
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "season": 1986,
+     "team": "SAN",
+     "GP": 81,
+     "PTS": 1435,
+     "PPG": 17.7,
+     "REB": 424,
+     "AST": 421,
+     "STL": 260,
+     "BLK": 35,
+     "FGM": 589,
+     "FGA": 1264,
+     "FG3M": 13,
+     "FG3A": 48,
+     "FTM": 244,
+     "FTA": 324,
+     "MIN": 2697,
+     "PF": 264,
+     "TOV": 243
+    },
+    {
+     "id": 304,
+     "name": "John Stockton",
+     "season": 1988,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 1400,
+     "PPG": 17.1,
+     "REB": 248,
+     "AST": 1118,
+     "STL": 263,
+     "BLK": 14,
+     "FGM": 497,
+     "FGA": 923,
+     "FG3M": 16,
+     "FG3A": 66,
+     "FTM": 390,
+     "FTA": 452,
+     "MIN": 3171,
+     "PF": 241,
+     "TOV": 308
+    },
+    {
+     "id": 893,
+     "name": "Michael Jordan",
+     "season": 1987,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 2868,
+     "PPG": 35,
+     "REB": 449,
+     "AST": 485,
+     "STL": 259,
+     "BLK": 131,
+     "FGM": 1069,
+     "FGA": 1998,
+     "FG3M": 7,
+     "FG3A": 53,
+     "FTM": 723,
+     "FTA": 860,
+     "MIN": 3311,
+     "PF": 270,
+     "TOV": 252
+    },
+    {
+     "id": 926,
+     "name": "Alvin Robertson",
+     "season": 1988,
+     "team": "SAN",
+     "GP": 65,
+     "PTS": 1122,
+     "PPG": 17.3,
+     "REB": 384,
+     "AST": 393,
+     "STL": 197,
+     "BLK": 36,
+     "FGM": 465,
+     "FGA": 962,
+     "FG3M": 9,
+     "FG3A": 45,
+     "FTM": 183,
+     "FTA": 253,
+     "MIN": 2287,
+     "PF": 259,
+     "TOV": 231
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1984,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 1649,
+     "PPG": 20.1,
+     "REB": 457,
+     "AST": 669,
+     "STL": 243,
+     "BLK": 22,
+     "FGM": 690,
+     "FGA": 1470,
+     "FG3M": 29,
+     "FG3A": 115,
+     "FTM": 240,
+     "FTA": 313,
+     "MIN": 3127,
+     "PF": 277,
+     "TOV": 249
+    }
+   ],
+   "seasonsMatched": 33,
+   "kind": "list",
+   "score": 3.9176829268292686,
+   "players": [
+    {
+     "id": 926,
+     "name": "Alvin Robertson"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "14 players averaged 2.5 steals a game (60% of games) in the 1980s (33 seasons). The most extreme: Alvin Robertson, 1985-86 — 3.7 spg."
+  },
+  {
+   "n": 97,
+   "rule": "tov_300",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 787,
+     "name": "Charles Barkley",
+     "season": 1985,
+     "team": "PHL",
+     "GP": 80,
+     "PTS": 1603,
+     "PPG": 20,
+     "REB": 1026,
+     "AST": 312,
+     "STL": 173,
+     "BLK": 125,
+     "FGM": 595,
+     "FGA": 1041,
+     "FG3M": 17,
+     "FG3A": 75,
+     "FTM": 396,
+     "FTA": 578,
+     "MIN": 2952,
+     "PF": 333,
+     "TOV": 350
+    },
+    {
+     "id": 166,
+     "name": "Ron Harper",
+     "season": 1986,
+     "team": "CLE",
+     "GP": 82,
+     "PTS": 1874,
+     "PPG": 22.9,
+     "REB": 392,
+     "AST": 394,
+     "STL": 209,
+     "BLK": 84,
+     "FGM": 734,
+     "FGA": 1614,
+     "FG3M": 20,
+     "FG3A": 94,
+     "FTM": 386,
+     "FTA": 564,
+     "MIN": 3064,
+     "PF": 247,
+     "TOV": 345
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1986,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1671,
+     "PPG": 20.6,
+     "REB": 319,
+     "AST": 813,
+     "STL": 153,
+     "BLK": 20,
+     "FGM": 626,
+     "FGA": 1353,
+     "FG3M": 19,
+     "FG3A": 98,
+     "FTM": 400,
+     "FTA": 521,
+     "MIN": 3013,
+     "PF": 251,
+     "TOV": 343
+    },
+    {
+     "id": 78041,
+     "name": "Jeff Ruland",
+     "season": 1983,
+     "team": "WAS",
+     "GP": 75,
+     "PTS": 1665,
+     "PPG": 22.2,
+     "REB": 922,
+     "AST": 296,
+     "STL": 68,
+     "BLK": 72,
+     "FGM": 599,
+     "FGA": 1035,
+     "FG3M": 1,
+     "FG3A": 7,
+     "FTM": 466,
+     "FTA": 636,
+     "MIN": 3082,
+     "PF": 285,
+     "TOV": 342
+    },
+    {
+     "id": 78571,
+     "name": "Ray Williams",
+     "season": 1982,
+     "team": "KCK",
+     "GP": 72,
+     "PTS": 1109,
+     "PPG": 15.4,
+     "REB": 327,
+     "AST": 569,
+     "STL": 120,
+     "BLK": 26,
+     "FGM": 419,
+     "FGA": 1068,
+     "FG3M": 15,
+     "FG3A": 74,
+     "FTM": 256,
+     "FTA": 333,
+     "MIN": 2170,
+     "PF": 248,
+     "TOV": 335
+    },
+    {
+     "id": 78310,
+     "name": "Reggie Theus",
+     "season": 1985,
+     "team": "SAC",
+     "GP": 82,
+     "PTS": 1503,
+     "PPG": 18.3,
+     "REB": 304,
+     "AST": 788,
+     "STL": 112,
+     "BLK": 20,
+     "FGM": 546,
+     "FGA": 1137,
+     "FG3M": 6,
+     "FG3A": 35,
+     "FTM": 405,
+     "FTA": 490,
+     "MIN": 2919,
+     "PF": 231,
+     "TOV": 327
+    }
+   ],
+   "seasonsMatched": 28,
+   "kind": "list",
+   "score": 3.875,
+   "players": [
+    {
+     "id": 787,
+     "name": "Charles Barkley"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "15 players committed 300 turnovers in a season in the 1980s (28 seasons). The most extreme: Charles Barkley, 1985-86 — 350 TOV."
+  },
+  {
+   "n": 98,
+   "rule": "reb_over_pts",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton",
+     "season": 1988,
+     "team": "UTH",
+     "GP": 82,
+     "PTS": 508,
+     "PPG": 6.2,
+     "REB": 843,
+     "AST": 83,
+     "STL": 40,
+     "BLK": 315,
+     "FGM": 188,
+     "FGA": 407,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 132,
+     "FTA": 200,
+     "MIN": 2914,
+     "PF": 290,
+     "TOV": 142
+    },
+    {
+     "id": 78195,
+     "name": "Larry Smith",
+     "season": 1981,
+     "team": "GOS",
+     "GP": 74,
+     "PTS": 528,
+     "PPG": 7.1,
+     "REB": 813,
+     "AST": 83,
+     "STL": 65,
+     "BLK": 54,
+     "FGM": 220,
+     "FGA": 412,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 88,
+     "FTA": 159,
+     "MIN": 2213,
+     "PF": 291,
+     "TOV": 105
+    },
+    {
+     "id": 279,
+     "name": "Charles Jones",
+     "season": 1989,
+     "team": "WAS",
+     "GP": 81,
+     "PTS": 256,
+     "PPG": 3.2,
+     "REB": 504,
+     "AST": 139,
+     "STL": 50,
+     "BLK": 197,
+     "FGM": 94,
+     "FGA": 185,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 68,
+     "FTA": 105,
+     "MIN": 2240,
+     "PF": 296,
+     "TOV": 76
+    },
+    {
+     "id": 77175,
+     "name": "Caldwell Jones",
+     "season": 1980,
+     "team": "PHL",
+     "GP": 81,
+     "PTS": 584,
+     "PPG": 7.2,
+     "REB": 813,
+     "AST": 122,
+     "STL": 53,
+     "BLK": 134,
+     "FGM": 218,
+     "FGA": 485,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 148,
+     "FTA": 193,
+     "MIN": 2639,
+     "PF": 271,
+     "TOV": 168
+    },
+    {
+     "id": 78195,
+     "name": "Larry Smith",
+     "season": 1986,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 707,
+     "PPG": 8.8,
+     "REB": 917,
+     "AST": 95,
+     "STL": 71,
+     "BLK": 56,
+     "FGM": 297,
+     "FGA": 544,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 113,
+     "FTA": 197,
+     "MIN": 2374,
+     "PF": 295,
+     "TOV": 135
+    },
+    {
+     "id": 78195,
+     "name": "Larry Smith",
+     "season": 1980,
+     "team": "GOS",
+     "GP": 82,
+     "PTS": 785,
+     "PPG": 9.6,
+     "REB": 994,
+     "AST": 93,
+     "STL": 70,
+     "BLK": 63,
+     "FGM": 304,
+     "FGA": 594,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 177,
+     "FTA": 301,
+     "MIN": 2578,
+     "PF": 316,
+     "TOV": 146
+    }
+   ],
+   "seasonsMatched": 38,
+   "kind": "list",
+   "score": 3.8375,
+   "players": [
+    {
+     "id": 76631,
+     "name": "Mark Eaton"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "20 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1980s (38 seasons). The most extreme: Mark Eaton, 1988-89 — 843 reb, 508 pts."
+  },
+  {
+   "n": 99,
+   "rule": "ast_over_pts",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203,
+     "name": "Nate McMillan",
+     "season": 1986,
+     "team": "SEA",
+     "GP": 71,
+     "PTS": 373,
+     "PPG": 5.3,
+     "REB": 331,
+     "AST": 583,
+     "STL": 125,
+     "BLK": 45,
+     "FGM": 143,
+     "FGA": 301,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 87,
+     "FTA": 141,
+     "MIN": 1972,
+     "PF": 238,
+     "TOV": 155
+    },
+    {
+     "id": 177,
+     "name": "Muggsy Bogues",
+     "season": 1988,
+     "team": "CHH",
+     "GP": 79,
+     "PTS": 423,
+     "PPG": 5.4,
+     "REB": 165,
+     "AST": 620,
+     "STL": 111,
+     "BLK": 7,
+     "FGM": 178,
+     "FGA": 418,
+     "FG3M": 1,
+     "FG3A": 13,
+     "FTM": 66,
+     "FTA": 88,
+     "MIN": 1755,
+     "PF": 141,
+     "TOV": 124
+    },
+    {
+     "id": 203,
+     "name": "Nate McMillan",
+     "season": 1988,
+     "team": "SEA",
+     "GP": 75,
+     "PTS": 532,
+     "PPG": 7.1,
+     "REB": 388,
+     "AST": 696,
+     "STL": 156,
+     "BLK": 42,
+     "FGM": 199,
+     "FGA": 485,
+     "FG3M": 15,
+     "FG3A": 70,
+     "FTM": 119,
+     "FTA": 189,
+     "MIN": 2341,
+     "PF": 236,
+     "TOV": 211
+    },
+    {
+     "id": 77415,
+     "name": "Sidney Lowe",
+     "season": 1989,
+     "team": "MIN",
+     "GP": 80,
+     "PTS": 187,
+     "PPG": 2.3,
+     "REB": 163,
+     "AST": 337,
+     "STL": 73,
+     "BLK": 4,
+     "FGM": 73,
+     "FGA": 229,
+     "FG3M": 2,
+     "FG3A": 9,
+     "FTM": 39,
+     "FTA": 54,
+     "MIN": 1744,
+     "PF": 114,
+     "TOV": 63
+    },
+    {
+     "id": 177,
+     "name": "Muggsy Bogues",
+     "season": 1989,
+     "team": "CHH",
+     "GP": 81,
+     "PTS": 763,
+     "PPG": 9.4,
+     "REB": 207,
+     "AST": 867,
+     "STL": 166,
+     "BLK": 3,
+     "FGM": 326,
+     "FGA": 664,
+     "FG3M": 5,
+     "FG3A": 26,
+     "FTM": 106,
+     "FTA": 134,
+     "MIN": 2743,
+     "PF": 168,
+     "TOV": 146
+    },
+    {
+     "id": 203,
+     "name": "Nate McMillan",
+     "season": 1987,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 624,
+     "PPG": 7.6,
+     "REB": 338,
+     "AST": 702,
+     "STL": 169,
+     "BLK": 47,
+     "FGM": 235,
+     "FGA": 496,
+     "FG3M": 9,
+     "FG3A": 24,
+     "FTM": 145,
+     "FTA": 205,
+     "MIN": 2453,
+     "PF": 238,
+     "TOV": 189
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 3.525,
+   "players": [
+    {
+     "id": 203,
+     "name": "Nate McMillan"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "text": "8 players recorded more assists than points (60% of games, 300+ ast) in the 1980s (14 seasons). The most extreme: Nate McMillan, 1986-87 — 583 ast, 373 pts."
+  },
+  {
+   "n": 100,
+   "rule": "volume_misses",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78549,
+     "name": "Gus Williams",
+     "season": 1984,
+     "team": "WAS",
+     "GP": 79,
+     "PTS": 1578,
+     "PPG": 20,
+     "REB": 195,
+     "AST": 608,
+     "STL": 178,
+     "BLK": 32,
+     "FGM": 638,
+     "FGA": 1483,
+     "FG3M": 51,
+     "FG3A": 176,
+     "FTM": 251,
+     "FTA": 346,
+     "MIN": 2960,
+     "PF": 159,
+     "TOV": 213
+    },
+    {
+     "id": 76753,
+     "name": "World Free",
+     "season": 1981,
+     "team": "GOS",
+     "GP": 78,
+     "PTS": 1789,
+     "PPG": 22.9,
+     "REB": 248,
+     "AST": 419,
+     "STL": 71,
+     "BLK": 8,
+     "FGM": 650,
+     "FGA": 1452,
+     "FG3M": 10,
+     "FG3A": 56,
+     "FTM": 479,
+     "FTA": 647,
+     "MIN": 2796,
+     "PF": 222,
+     "TOV": 208
+    },
+    {
+     "id": 364,
+     "name": "Rex Chapman",
+     "season": 1988,
+     "team": "CHH",
+     "GP": 75,
+     "PTS": 1267,
+     "PPG": 16.9,
+     "REB": 187,
+     "AST": 176,
+     "STL": 70,
+     "BLK": 25,
+     "FGM": 526,
+     "FGA": 1271,
+     "FG3M": 60,
+     "FG3A": 191,
+     "FTM": 155,
+     "FTA": 195,
+     "MIN": 2219,
+     "PF": 167,
+     "TOV": 113
+    },
+    {
+     "id": 76753,
+     "name": "World Free",
+     "season": 1983,
+     "team": "CLE",
+     "GP": 75,
+     "PTS": 1669,
+     "PPG": 22.3,
+     "REB": 217,
+     "AST": 226,
+     "STL": 94,
+     "BLK": 8,
+     "FGM": 626,
+     "FGA": 1407,
+     "FG3M": 22,
+     "FG3A": 69,
+     "FTM": 395,
+     "FTA": 504,
+     "MIN": 2375,
+     "PF": 214,
+     "TOV": 154
+    },
+    {
+     "id": 76726,
+     "name": "Sleepy Floyd",
+     "season": 1984,
+     "team": "GOS",
+     "GP": 82,
+     "PTS": 1598,
+     "PPG": 19.5,
+     "REB": 202,
+     "AST": 406,
+     "STL": 134,
+     "BLK": 41,
+     "FGM": 610,
+     "FGA": 1372,
+     "FG3M": 42,
+     "FG3A": 143,
+     "FTM": 336,
+     "FTA": 415,
+     "MIN": 2873,
+     "PF": 226,
+     "TOV": 251
+    },
+    {
+     "id": 78318,
+     "name": "Isiah Thomas",
+     "season": 1989,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1492,
+     "PPG": 18.4,
+     "REB": 308,
+     "AST": 765,
+     "STL": 139,
+     "BLK": 19,
+     "FGM": 579,
+     "FGA": 1322,
+     "FG3M": 42,
+     "FG3A": 136,
+     "FTM": 292,
+     "FTA": 377,
+     "MIN": 2993,
+     "PF": 206,
+     "TOV": 322
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.3340225893459206,
+   "players": [
+    {
+     "id": 78549,
+     "name": "Gus Williams"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "text": "11 players shot under .450 on 1,200+ attempts in the 1980s (12 seasons). The most extreme: Gus Williams, 1984-85 — .430 on 1,483 FGA."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 3223,
+  "playoffPlayerSeasons": 1678
+ },
+ "method": [
+  "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "Qualification is 60% of the most games anyone played that season. Attempt floors are stated in the line.",
+  "Categories not yet recorded (rebounds before 1950-51, minutes before 1951-52, steals and blocks before 1973-74, turnovers before 1977-78, threes before 1979-80) are treated as missing, never as zero.",
+  "Team-mate lines are omitted: the feed credits a traded player's whole season to one club."
+ ]
+}
