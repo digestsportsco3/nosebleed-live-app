@@ -58,12 +58,35 @@ function cell(entry, notes) {
   return `<td class="c"><div class="box"><div class="v">${v}</div><div class="n">${L.length} tied <sup>[${id}]</sup></div><div class="t">${esc(L[0].name)}, …</div></div></td>`;
 }
 
+// The latest Stathead cross-check report, if one exists. Genuine
+// disagreements between the official record and Stathead are printed on the
+// page they concern, so a reader sees them where the number is.
+const verifyFiles = fs.readdirSync(dataDir).filter((f) => /^verify-.*\.json$/.test(f)).sort();
+const verify = verifyFiles.length ? JSON.parse(fs.readFileSync(path.join(dataDir, verifyFiles[verifyFiles.length - 1]), "utf8")) : null;
+function crossCheckNotes(decade) {
+  if (!verify) return { line: "", notes: [] };
+  const mine = verify.results.filter((r) => r.decade === decade);
+  if (!mine.length) return { line: "", notes: [] };
+  // Same value and same surname on both sides means the same man with his
+  // name written differently ("Hank"/"Henry", a trailing "Sr."), not a finding.
+  const surname = (n) => n.replace(/\b(Jr|Sr|II|III|IV)\.?$/i, "").trim().split(" ").pop().toLowerCase();
+  const nameOnly = (r) => r.verdict === "DISAGREE" && r.stathead && r.ours.length && r.stathead.length
+    && r.ours[0].value === r.stathead[0].value
+    && r.ours.map((o) => surname(o.name)).some((l) => r.stathead.map((t) => surname(t.name)).includes(l));
+  const real = mine.filter((r) => r.verdict === "DISAGREE" && !nameOnly(r));
+  const agreed = mine.length - real.length;
+  const notes = real.map((r) => `<b>Source disagreement, ${r.season} ${r.stat}:</b> the official MLB record has ${esc(r.ours.map((o) => `${o.name} ${o.shown}`).join(" / "))}; Stathead / Baseball Reference has ${esc(r.stathead.map((t) => `${t.name} ${t.value}`).join(" / "))}. Both are shown; neither is altered.`);
+  const line = ` <b>Stathead cross-check</b> (${verify.runDate}): ${agreed} of ${mine.length} sampled leaders confirmed independently${real.length ? `; ${real.length} disagreement${real.length > 1 ? "s" : ""} noted above` : ""}.`;
+  return { line, notes };
+}
+
 function decadePage(d) {
   const start = Number(d.decade.slice(0, 4));
   const modern = start >= 1970;
   const hitCols = ["HR", "AVG", "RBI", "H", "SB"];
   const pitCols = ["W", "ERA", "SO", "IP", modern ? "SV" : "SHO"];
   const notes = [];
+  const cc = crossCheckNotes(d.decade);
   const flagged = d.seasons.filter((s) => s.leagues.some((l) => l !== "AL" && l !== "NL" && l !== "American League" && l !== "National League"));
 
   const head = `<tr><th class="y">Season</th>${hitCols.map((c) => `<th>${c}</th>`).join("")}${pitCols.map((c) => `<th class="p">${c}</th>`).join("")}</tr>`;
@@ -104,9 +127,9 @@ function decadePage(d) {
     <tbody>${rows}</tbody>
   </table>
   <div class="strip"><em class="lab">Decade totals</em>${strip}</div>
-  ${notes.length ? `<div class="notes">${notes.join(" &nbsp; ")}</div>` : ""}
+  ${(notes.length || cc.notes.length) ? `<div class="notes">${[...notes, ...cc.notes].join(" &nbsp; ")}</div>` : ""}
   <div class="foot">
-    <b>Method</b> — Every hitter and every pitcher in each season was pulled from the MLB Stats API, the official record, and the leader in each column computed across the complete pull; nothing is recalled or estimated. Rate stats qualify by the modern rule — 3.1 PA and 1 IP per team game — applied per league on that league's own schedule (team games this decade: ${barText}${fallback.length ? `; AL/NL standings unavailable for ${fallback.join(", ")}, so the bar there is the most games any hitter played` : ""}). Ties are all listed. Traded players show as 2+ teams.${modern ? "" : " Shutouts are shown in place of saves, which were not an official statistic before 1969."}${flagged.length ? ` <b>†</b> These seasons include Negro League play, which MLB has counted as major league since 2024; leaders appear as the official record now lists them.` : ""} Top-five provenance for every cell: <span class="mono">statdesk/data/decades/${d.decade}.json</span>.
+    <b>Method</b> — Every hitter and every pitcher in each season was pulled from the MLB Stats API, the official record, and the leader in each column computed across the complete pull; nothing is recalled or estimated. Rate stats qualify by the modern rule — 3.1 PA and 1 IP per team game — applied per league on that league's own schedule (team games this decade: ${barText}${fallback.length ? `; AL/NL standings unavailable for ${fallback.join(", ")}, so the bar there is the most games any hitter played` : ""}). Ties are all listed. Traded players show as 2+ teams.${modern ? "" : " Shutouts are shown in place of saves, which were not an official statistic before 1969."}${flagged.length ? ` <b>†</b> These seasons include Negro League play, which MLB has counted as major league since 2024; leaders appear as the official record now lists them.` : ""} Top-five provenance for every cell: <span class="mono">statdesk/data/decades/${d.decade}.json</span>.${cc.line}
   </div>
 </section>`;
 }

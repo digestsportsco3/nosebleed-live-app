@@ -149,8 +149,20 @@ Rules learned building it:
   21, Feller 240, Kiner 47, Mantle 52).
 
 Delivered 2026-09-28: 1920s-2010s (ten decades; Nick's list skipped the
-1960s, included anyway and flagged). Stathead cross-check result recorded
-below when it lands.
+1960s, included anyway and flagged).
+
+STATHEAD CROSS-CHECK RESULT (40 samples, 4 per decade): 39 agree. ONE genuine
+source disagreement — 1923 RBI: the official MLB record credits Babe Ruth with
+131; Stathead / Baseball Reference credits him with 130, tied with Tris
+Speaker. The two record keepers differ by a run on a 1923 total, which is
+common for that era. NOT reconciled: the page shows the official figure and
+prints the disagreement as a footnote. The renderer now reads the latest
+verify report and prints any genuine disagreement on the page it concerns,
+so this happens automatically for future decades.
+
+Three other "disagreements" in the raw report were name form only (Hank vs
+Henry Aaron, Earl Averill vs Earl Averill Sr.). Both the verifier and the
+renderer now treat same value + same surname as agreement.
 
 ### THE REGULAR SEASON ENDED 2026-09-27 — read this before the next run
 

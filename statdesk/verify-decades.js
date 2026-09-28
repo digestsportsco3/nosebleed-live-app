@@ -80,8 +80,15 @@ async function main() {
             const theirNames = new Set(theirs.map((t) => norm(t.name)));
             const sameValue = ours.leaders.length && ours.leaders[0].value === top;
             const overlap = [...ourNames].some((n) => theirNames.has(n));
+            // "Hank Aaron" and "Henry Aaron" are one man. When the values match
+            // and the surnames match, the sources agree on who led; only the
+            // spelling of his first name differs, and that is not a finding.
+            const last = (n) => n.split(" ").pop();
+            const ourLast = new Set([...ourNames].map(last)); const theirLast = new Set([...theirNames].map(last));
+            const lastOverlap = [...ourLast].some((n) => theirLast.has(n));
             verdict = sameValue && overlap && ourNames.size === theirNames.size ? "AGREE"
                     : sameValue && overlap ? "AGREE (tie list differs)"
+                    : sameValue && lastOverlap && ourLast.size === theirLast.size ? "AGREE (name form differs)"
                     : "DISAGREE";
           }
         } catch (e) { verdict = `QUERY FAILED: ${e.message}`; }
