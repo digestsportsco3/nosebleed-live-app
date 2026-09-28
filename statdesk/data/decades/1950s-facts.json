@@ -77,6 +77,7 @@
      "GIDP": 10
     }
    ],
+   "seasonsMatched": 1,
    "kind": "only",
    "score": 13,
    "players": [
@@ -138,6 +139,7 @@
      "GIDP": 23
     }
    ],
+   "seasonsMatched": 1,
    "kind": "only",
    "score": 12.325,
    "players": [
@@ -153,469 +155,6 @@
   },
   {
    "n": 3,
-   "rule": "avg_no_walks",
-   "group": "H",
-   "decade": 1950,
-   "finder": {
-    "group": "batting",
-    "filters": [
-     [
-      "PA",
-      "gte",
-      500
-     ],
-     [
-      "BA",
-      "gte",
-      0.32
-     ],
-     [
-      "BB",
-      "lte",
-      20
-     ]
-    ],
-    "seasonMin": 1950,
-    "seasonMax": 1959
-   },
-   "evidence": [
-    {
-     "season": 1953,
-     "id": 119474,
-     "name": "Don Mueller",
-     "team": "New York Giants",
-     "age": 26,
-     "PA": 502,
-     "AVG": 0.333,
-     "OBP": 0.36,
-     "SLG": 0.404,
-     "OPS": 0.764,
-     "HR": 6,
-     "RBI": 60,
-     "R": 56,
-     "H": 160,
-     "2B": 12,
-     "3B": 2,
-     "SB": 2,
-     "CS": 0,
-     "BB": 19,
-     "SO": 13,
-     "HBP": 1,
-     "GIDP": 7
-    }
-   ],
-   "kind": "only",
-   "score": 10.3575,
-   "players": [
-    {
-     "id": 119474,
-     "name": "Don Mueller"
-    }
-   ],
-   "seasons": [
-    1953
-   ],
-   "text": "The only hitter of the 1950s to bat .320 or better with 20 walks or fewer (500+ PA): Don Mueller, 1953 — .333, 19 BB."
-  },
-  {
-   "n": 4,
-   "rule": "young_avg",
-   "group": "H",
-   "decade": 1950,
-   "finder": {
-    "group": "batting",
-    "ageMax": 22,
-    "filters": [
-     [
-      "PA",
-      "gte",
-      500
-     ],
-     [
-      "BA",
-      "gte",
-      0.33
-     ]
-    ],
-    "seasonMin": 1950,
-    "seasonMax": 1959
-   },
-   "evidence": [
-    {
-     "season": 1955,
-     "id": 116822,
-     "name": "Al Kaline",
-     "team": "Detroit Tigers",
-     "age": 20,
-     "PA": 681,
-     "AVG": 0.34,
-     "OBP": 0.421,
-     "SLG": 0.546,
-     "OPS": 0.967,
-     "HR": 27,
-     "RBI": 102,
-     "R": 121,
-     "H": 200,
-     "2B": 24,
-     "3B": 8,
-     "SB": 6,
-     "CS": 8,
-     "BB": 82,
-     "SO": 57,
-     "HBP": 5,
-     "GIDP": 13
-    }
-   ],
-   "kind": "only",
-   "score": 10.35,
-   "players": [
-    {
-     "id": 116822,
-     "name": "Al Kaline"
-    }
-   ],
-   "seasons": [
-    1955
-   ],
-   "text": "The only hitter of the 1950s to bat .330 at age 22 or younger (500+ PA): Al Kaline, 1955 — .340 at 20."
-  },
-  {
-   "n": 5,
-   "rule": "shutouts",
-   "group": "P",
-   "decade": 1950,
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1953,
-     "id": 120687,
-     "name": "Bob Porterfield",
-     "team": "Washington Senators",
-     "age": 29,
-     "W": 22,
-     "L": 10,
-     "ERA": 3.35,
-     "IP": "255.0",
-     "SO": 77,
-     "BB": 73,
-     "SV": 0,
-     "GS": 32,
-     "CG": 24,
-     "SHO": 9,
-     "HRA": 19,
-     "WHIP": 1.24
-    }
-   ],
-   "kind": "only",
-   "score": 10.225,
-   "players": [
-    {
-     "id": 120687,
-     "name": "Bob Porterfield"
-    }
-   ],
-   "seasons": [
-    1953
-   ],
-   "text": "The only pitcher of the 1950s to throw 8+ shutouts: Bob Porterfield, 1953 — 9 SHO."
-  },
-  {
-   "n": 6,
-   "rule": "era_under_3_no_wins",
-   "group": "P",
-   "decade": 1950,
-   "finder": {
-    "group": "pitching",
-    "qualifiers": "nomin",
-    "filters": [
-     [
-      "IP",
-      "gte",
-      162
-     ],
-     [
-      "ERA",
-      "lte",
-      2.99
-     ],
-     [
-      "W",
-      "lte",
-      7
-     ]
-    ],
-    "seasonMin": 1950,
-    "seasonMax": 1959
-   },
-   "evidence": [
-    {
-     "season": 1958,
-     "id": 119121,
-     "name": "Stu Miller",
-     "team": "San Francisco Giants",
-     "age": 30,
-     "W": 6,
-     "L": 9,
-     "ERA": 2.47,
-     "IP": "182.0",
-     "SO": 119,
-     "BB": 49,
-     "SV": 0,
-     "GS": 20,
-     "CG": 4,
-     "SHO": 1,
-     "HRA": 16,
-     "WHIP": 1.15
-    }
-   ],
-   "kind": "only",
-   "score": 10.21175,
-   "players": [
-    {
-     "id": 119121,
-     "name": "Stu Miller"
-    }
-   ],
-   "seasons": [
-    1958
-   ],
-   "text": "The only pitcher of the 1950s to post an ERA under 3.00 and win 7 or fewer (162+ IP): Stu Miller, 1958 — 2.47 ERA, 6-9."
-  },
-  {
-   "n": 7,
-   "rule": "no_walks_winner",
-   "group": "P",
-   "decade": 1950,
-   "finder": {
-    "group": "pitching",
-    "qualifiers": "nomin",
-    "filters": [
-     [
-      "W",
-      "gte",
-      15
-     ],
-     [
-      "BB",
-      "lte",
-      30
-     ]
-    ],
-    "seasonMin": 1950,
-    "seasonMax": 1959
-   },
-   "evidence": [
-    {
-     "season": 1959,
-     "id": 113968,
-     "name": "Roy Face",
-     "team": "Pittsburgh Pirates",
-     "age": 31,
-     "W": 18,
-     "L": 1,
-     "ERA": 2.7,
-     "IP": "93.1",
-     "SO": 69,
-     "BB": 25,
-     "SV": 10,
-     "GS": 0,
-     "CG": 0,
-     "SHO": 0,
-     "HRA": 5,
-     "WHIP": 1.24
-    }
-   ],
-   "kind": "only",
-   "score": 10.175,
-   "players": [
-    {
-     "id": 113968,
-     "name": "Roy Face"
-    }
-   ],
-   "seasons": [
-    1959
-   ],
-   "text": "The only pitcher of the 1950s to win 15 games walking 30 batters or fewer: Roy Face, 1959 — 18-1, 25 BB."
-  },
-  {
-   "n": 8,
-   "rule": "young_ace",
-   "group": "P",
-   "decade": 1950,
-   "finder": {
-    "group": "pitching",
-    "qualifiers": "nomin",
-    "ageMax": 22,
-    "filters": [
-     [
-      "W",
-      "gte",
-      18
-     ]
-    ],
-    "seasonMin": 1950,
-    "seasonMax": 1959
-   },
-   "evidence": [
-    {
-     "season": 1950,
-     "id": 116192,
-     "name": "Art Houtteman",
-     "team": "Detroit Tigers",
-     "age": 22,
-     "W": 19,
-     "L": 12,
-     "ERA": 3.54,
-     "IP": "274.2",
-     "SO": 88,
-     "BB": 99,
-     "SV": 4,
-     "GS": 34,
-     "CG": 21,
-     "SHO": 4,
-     "HRA": 29,
-     "WHIP": 1.3
-    }
-   ],
-   "kind": "only",
-   "score": 10.075,
-   "players": [
-    {
-     "id": 116192,
-     "name": "Art Houtteman"
-    }
-   ],
-   "seasons": [
-    1950
-   ],
-   "text": "The only pitcher of the 1950s to win 18+ games at age 22 or younger: Art Houtteman, 1950 — 19-12 at 22."
-  },
-  {
-   "n": 9,
-   "rule": "sub_two",
-   "group": "P",
-   "decade": 1950,
-   "finder": {
-    "group": "pitching",
-    "qualifiers": "nomin",
-    "filters": [
-     [
-      "IP",
-      "gte",
-      162
-     ],
-     [
-      "ERA",
-      "lte",
-      1.99
-     ]
-    ],
-    "seasonMin": 1950,
-    "seasonMax": 1959
-   },
-   "evidence": [
-    {
-     "season": 1955,
-     "id": 120562,
-     "name": "Billy Pierce",
-     "team": "Chicago White Sox",
-     "age": 28,
-     "W": 15,
-     "L": 10,
-     "ERA": 1.97,
-     "IP": "205.2",
-     "SO": 157,
-     "BB": 64,
-     "SV": 1,
-     "GS": 26,
-     "CG": 16,
-     "SHO": 6,
-     "HRA": 16,
-     "WHIP": 1.1
-    }
-   ],
-   "kind": "only",
-   "score": 10.04925,
-   "players": [
-    {
-     "id": 120562,
-     "name": "Billy Pierce"
-    }
-   ],
-   "seasons": [
-    1955
-   ],
-   "text": "The only pitcher of the 1950s to post an ERA under 2.00 (162+ IP): Billy Pierce, 1955 — 1.97 ERA in 205.2 IP."
-  },
-  {
-   "n": 10,
-   "rule": "slap_hitter",
-   "group": "H",
-   "decade": 1950,
-   "finder": {
-    "group": "batting",
-    "filters": [
-     [
-      "PA",
-      "gte",
-      500
-     ],
-     [
-      "BA",
-      "gte",
-      0.31
-     ],
-     [
-      "SLG",
-      "lte",
-      0.379
-     ]
-    ],
-    "seasonMin": 1950,
-    "seasonMax": 1959
-   },
-   "evidence": [
-    {
-     "season": 1954,
-     "id": 110349,
-     "name": "Richie Ashburn",
-     "team": "Philadelphia Phillies",
-     "age": 27,
-     "PA": 703,
-     "AVG": 0.313,
-     "OBP": 0.441,
-     "SLG": 0.376,
-     "OPS": 0.817,
-     "HR": 1,
-     "RBI": 41,
-     "R": 111,
-     "H": 175,
-     "2B": 16,
-     "3B": 8,
-     "SB": 11,
-     "CS": 8,
-     "BB": 125,
-     "SO": 46,
-     "HBP": 4,
-     "GIDP": 3
-    }
-   ],
-   "kind": "only",
-   "score": 10.001575,
-   "players": [
-    {
-     "id": 110349,
-     "name": "Richie Ashburn"
-    }
-   ],
-   "seasons": [
-    1954
-   ],
-   "text": "The only hitter of the 1950s to bat .310 while slugging under .380 (500+ PA): Richie Ashburn, 1954 — .313 AVG, .376 SLG."
-  },
-  {
-   "n": 11,
    "rule": "thirty_thirty",
    "group": "H",
    "decade": 1950,
@@ -686,13 +225,10 @@
      "GIDP": 14
     }
    ],
-   "kind": "pair",
-   "score": 9.9,
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 11.9,
    "players": [
-    {
-     "id": 118495,
-     "name": "Willie Mays"
-    },
     {
      "id": 118495,
      "name": "Willie Mays"
@@ -702,10 +238,107 @@
     1956,
     1957
    ],
-   "text": "Only two hitters of the 1950s went 30-30: Willie Mays (1956, 36 HR, 40 SB); Willie Mays (1957, 35 HR, 38 SB)."
+   "text": "The only hitter of the 1950s to go 30-30 was Willie Mays — and he did it twice (1956: 36 HR, 40 SB; 1957: 35 HR, 38 SB)."
   },
   {
-   "n": 12,
+   "n": 4,
+   "rule": "five_tool",
+   "group": "H",
+   "decade": 1950,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BA",
+      "gte",
+      0.3
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1955,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "New York Giants",
+     "age": 24,
+     "PA": 670,
+     "AVG": 0.319,
+     "OBP": 0.4,
+     "SLG": 0.659,
+     "OPS": 1.059,
+     "HR": 51,
+     "RBI": 127,
+     "R": 123,
+     "H": 185,
+     "2B": 18,
+     "3B": 13,
+     "SB": 24,
+     "CS": 4,
+     "BB": 79,
+     "SO": 60,
+     "HBP": 4,
+     "GIDP": 12
+    },
+    {
+     "season": 1959,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 28,
+     "PA": 648,
+     "AVG": 0.313,
+     "OBP": 0.381,
+     "SLG": 0.583,
+     "OPS": 0.964,
+     "HR": 34,
+     "RBI": 104,
+     "R": 125,
+     "H": 180,
+     "2B": 43,
+     "3B": 5,
+     "SB": 27,
+     "CS": 4,
+     "BB": 65,
+     "SO": 58,
+     "HBP": 2,
+     "GIDP": 11
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 11.875,
+   "players": [
+    {
+     "id": 118495,
+     "name": "Willie Mays"
+    }
+   ],
+   "seasons": [
+    1955,
+    1959
+   ],
+   "text": "The only hitter of the 1950s to bat .300 with 30 homers, 100 RBI and 20 steals was Willie Mays — and he did it twice (1955: .319, 51 HR, 127 RBI, 24 SB; 1959: .313, 34 HR, 104 RBI, 27 SB)."
+  },
+  {
+   "n": 5,
    "rule": "bb_and_k",
    "group": "H",
    "decade": 1950,
@@ -800,13 +433,10 @@
      "GIDP": 7
     }
    ],
-   "kind": "few",
-   "score": 9,
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 11,
    "players": [
-    {
-     "id": 118258,
-     "name": "Mickey Mantle"
-    },
     {
      "id": 118258,
      "name": "Mickey Mantle"
@@ -821,10 +451,734 @@
     1954,
     1956
    ],
-   "text": "Just three hitters of the 1950s drew 100 walks and struck out 100 times: Mickey Mantle (1958, 129 BB, 120 K); Mickey Mantle (1954, 102 BB, 107 K); Larry Doby (1956, 102 BB, 105 K)."
+   "text": "Only two hitters of the 1950s drew 100 walks and struck out 100 times: Mickey Mantle (2×, best 1958: 129 BB, 120 K); Larry Doby (1956: 102 BB, 105 K)."
+  },
+  {
+   "n": 6,
+   "rule": "avg_no_walks",
+   "group": "H",
+   "decade": 1950,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ],
+     [
+      "BB",
+      "lte",
+      20
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1953,
+     "id": 119474,
+     "name": "Don Mueller",
+     "team": "New York Giants",
+     "age": 26,
+     "PA": 502,
+     "AVG": 0.333,
+     "OBP": 0.36,
+     "SLG": 0.404,
+     "OPS": 0.764,
+     "HR": 6,
+     "RBI": 60,
+     "R": 56,
+     "H": 160,
+     "2B": 12,
+     "3B": 2,
+     "SB": 2,
+     "CS": 0,
+     "BB": 19,
+     "SO": 13,
+     "HBP": 1,
+     "GIDP": 7
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.3575,
+   "players": [
+    {
+     "id": 119474,
+     "name": "Don Mueller"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "text": "The only hitter of the 1950s to bat .320 or better with 20 walks or fewer (500+ PA): Don Mueller, 1953 — .333, 19 BB."
+  },
+  {
+   "n": 7,
+   "rule": "young_avg",
+   "group": "H",
+   "decade": 1950,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.33
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1955,
+     "id": 116822,
+     "name": "Al Kaline",
+     "team": "Detroit Tigers",
+     "age": 20,
+     "PA": 681,
+     "AVG": 0.34,
+     "OBP": 0.421,
+     "SLG": 0.546,
+     "OPS": 0.967,
+     "HR": 27,
+     "RBI": 102,
+     "R": 121,
+     "H": 200,
+     "2B": 24,
+     "3B": 8,
+     "SB": 6,
+     "CS": 8,
+     "BB": 82,
+     "SO": 57,
+     "HBP": 5,
+     "GIDP": 13
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.35,
+   "players": [
+    {
+     "id": 116822,
+     "name": "Al Kaline"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "The only hitter of the 1950s to bat .330 at age 22 or younger (500+ PA): Al Kaline, 1955 — .340 at 20."
+  },
+  {
+   "n": 8,
+   "rule": "shutouts",
+   "group": "P",
+   "decade": 1950,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1953,
+     "id": 120687,
+     "name": "Bob Porterfield",
+     "team": "Washington Senators",
+     "age": 29,
+     "W": 22,
+     "L": 10,
+     "ERA": 3.35,
+     "IP": "255.0",
+     "SO": 77,
+     "BB": 73,
+     "SV": 0,
+     "GS": 32,
+     "CG": 24,
+     "SHO": 9,
+     "HRA": 19,
+     "WHIP": 1.24
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.225,
+   "players": [
+    {
+     "id": 120687,
+     "name": "Bob Porterfield"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "text": "The only pitcher of the 1950s to throw 8+ shutouts: Bob Porterfield, 1953 — 9 SHO."
+  },
+  {
+   "n": 9,
+   "rule": "era_under_3_no_wins",
+   "group": "P",
+   "decade": 1950,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      2.99
+     ],
+     [
+      "W",
+      "lte",
+      7
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1958,
+     "id": 119121,
+     "name": "Stu Miller",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "W": 6,
+     "L": 9,
+     "ERA": 2.47,
+     "IP": "182.0",
+     "SO": 119,
+     "BB": 49,
+     "SV": 0,
+     "GS": 20,
+     "CG": 4,
+     "SHO": 1,
+     "HRA": 16,
+     "WHIP": 1.15
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.21175,
+   "players": [
+    {
+     "id": 119121,
+     "name": "Stu Miller"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "text": "The only pitcher of the 1950s to post an ERA under 3.00 and win 7 or fewer (162+ IP): Stu Miller, 1958 — 2.47 ERA, 6-9."
+  },
+  {
+   "n": 10,
+   "rule": "no_walks_winner",
+   "group": "P",
+   "decade": 1950,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ],
+     [
+      "BB",
+      "lte",
+      30
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1959,
+     "id": 113968,
+     "name": "Roy Face",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "W": 18,
+     "L": 1,
+     "ERA": 2.7,
+     "IP": "93.1",
+     "SO": 69,
+     "BB": 25,
+     "SV": 10,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.24
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.175,
+   "players": [
+    {
+     "id": 113968,
+     "name": "Roy Face"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only pitcher of the 1950s to win 15 games walking 30 batters or fewer: Roy Face, 1959 — 18-1, 25 BB."
+  },
+  {
+   "n": 11,
+   "rule": "young_ace",
+   "group": "P",
+   "decade": 1950,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMax": 22,
+    "filters": [
+     [
+      "W",
+      "gte",
+      18
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1950,
+     "id": 116192,
+     "name": "Art Houtteman",
+     "team": "Detroit Tigers",
+     "age": 22,
+     "W": 19,
+     "L": 12,
+     "ERA": 3.54,
+     "IP": "274.2",
+     "SO": 88,
+     "BB": 99,
+     "SV": 4,
+     "GS": 34,
+     "CG": 21,
+     "SHO": 4,
+     "HRA": 29,
+     "WHIP": 1.3
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.075,
+   "players": [
+    {
+     "id": 116192,
+     "name": "Art Houtteman"
+    }
+   ],
+   "seasons": [
+    1950
+   ],
+   "text": "The only pitcher of the 1950s to win 18+ games at age 22 or younger: Art Houtteman, 1950 — 19-12 at 22."
+  },
+  {
+   "n": 12,
+   "rule": "sub_two",
+   "group": "P",
+   "decade": 1950,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      1.99
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1955,
+     "id": 120562,
+     "name": "Billy Pierce",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "W": 15,
+     "L": 10,
+     "ERA": 1.97,
+     "IP": "205.2",
+     "SO": 157,
+     "BB": 64,
+     "SV": 1,
+     "GS": 26,
+     "CG": 16,
+     "SHO": 6,
+     "HRA": 16,
+     "WHIP": 1.1
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.04925,
+   "players": [
+    {
+     "id": 120562,
+     "name": "Billy Pierce"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "The only pitcher of the 1950s to post an ERA under 2.00 (162+ IP): Billy Pierce, 1955 — 1.97 ERA in 205.2 IP."
   },
   {
    "n": 13,
+   "rule": "slap_hitter",
+   "group": "H",
+   "decade": 1950,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.31
+     ],
+     [
+      "SLG",
+      "lte",
+      0.379
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1954,
+     "id": 110349,
+     "name": "Richie Ashburn",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "PA": 703,
+     "AVG": 0.313,
+     "OBP": 0.441,
+     "SLG": 0.376,
+     "OPS": 0.817,
+     "HR": 1,
+     "RBI": 41,
+     "R": 111,
+     "H": 175,
+     "2B": 16,
+     "3B": 8,
+     "SB": 11,
+     "CS": 8,
+     "BB": 125,
+     "SO": 46,
+     "HBP": 4,
+     "GIDP": 3
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.001575,
+   "players": [
+    {
+     "id": 110349,
+     "name": "Richie Ashburn"
+    }
+   ],
+   "seasons": [
+    1954
+   ],
+   "text": "The only hitter of the 1950s to bat .310 while slugging under .380 (500+ PA): Richie Ashburn, 1954 — .313 AVG, .376 SLG."
+  },
+  {
+   "n": 14,
+   "rule": "old_avg",
+   "group": "H",
+   "decade": 1950,
+   "finder": {
+    "group": "batting",
+    "ageMin": 36,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1957,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 38,
+     "PA": 546,
+     "AVG": 0.388,
+     "OBP": 0.526,
+     "SLG": 0.731,
+     "OPS": 1.257,
+     "HR": 38,
+     "RBI": 87,
+     "R": 96,
+     "H": 163,
+     "2B": 28,
+     "3B": 1,
+     "SB": 0,
+     "CS": 1,
+     "BB": 119,
+     "SO": 43,
+     "HBP": 5,
+     "GIDP": 11
+    },
+    {
+     "season": 1958,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 39,
+     "PA": 517,
+     "AVG": 0.328,
+     "OBP": 0.458,
+     "SLG": 0.584,
+     "OPS": 1.042,
+     "HR": 26,
+     "RBI": 85,
+     "R": 81,
+     "H": 135,
+     "2B": 23,
+     "3B": 2,
+     "SB": 1,
+     "CS": 0,
+     "BB": 98,
+     "SO": 49,
+     "HBP": 4,
+     "GIDP": 19
+    },
+    {
+     "season": 1956,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 37,
+     "PA": 503,
+     "AVG": 0.345,
+     "OBP": 0.479,
+     "SLG": 0.605,
+     "OPS": 1.084,
+     "HR": 24,
+     "RBI": 82,
+     "R": 71,
+     "H": 138,
+     "2B": 28,
+     "3B": 2,
+     "SB": 0,
+     "CS": 0,
+     "BB": 102,
+     "SO": 39,
+     "HBP": 1,
+     "GIDP": 13
+    },
+    {
+     "season": 1957,
+     "id": 119602,
+     "name": "Stan Musial",
+     "team": "St. Louis Cardinals",
+     "age": 36,
+     "PA": 579,
+     "AVG": 0.351,
+     "OBP": 0.422,
+     "SLG": 0.612,
+     "OPS": 1.034,
+     "HR": 29,
+     "RBI": 102,
+     "R": 82,
+     "H": 176,
+     "2B": 38,
+     "3B": 3,
+     "SB": 1,
+     "CS": 1,
+     "BB": 66,
+     "SO": 34,
+     "HBP": 2,
+     "GIDP": 13
+    },
+    {
+     "season": 1958,
+     "id": 119602,
+     "name": "Stan Musial",
+     "team": "St. Louis Cardinals",
+     "age": 37,
+     "PA": 549,
+     "AVG": 0.337,
+     "OBP": 0.423,
+     "SLG": 0.528,
+     "OPS": 0.951,
+     "HR": 17,
+     "RBI": 62,
+     "R": 64,
+     "H": 159,
+     "2B": 35,
+     "3B": 2,
+     "SB": 0,
+     "CS": 0,
+     "BB": 72,
+     "SO": 26,
+     "HBP": 1,
+     "GIDP": 19
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 9.92,
+   "players": [
+    {
+     "id": 124341,
+     "name": "Ted Williams"
+    },
+    {
+     "id": 119602,
+     "name": "Stan Musial"
+    }
+   ],
+   "seasons": [
+    1957,
+    1958,
+    1956,
+    1957,
+    1958
+   ],
+   "text": "Only two hitters of the 1950s batted .320 at age 36 or older (500+ PA): Ted Williams (3×, best 1957: .388 at 38); Stan Musial (2×, best 1957: .351 at 36)."
+  },
+  {
+   "n": 15,
+   "rule": "fifty_hr",
+   "group": "H",
+   "decade": 1950,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      50
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1956,
+     "id": 118258,
+     "name": "Mickey Mantle",
+     "team": "New York Yankees",
+     "age": 24,
+     "PA": 652,
+     "AVG": 0.353,
+     "OBP": 0.464,
+     "SLG": 0.705,
+     "OPS": 1.169,
+     "HR": 52,
+     "RBI": 130,
+     "R": 132,
+     "H": 188,
+     "2B": 22,
+     "3B": 5,
+     "SB": 10,
+     "CS": 1,
+     "BB": 112,
+     "SO": 99,
+     "HBP": 2,
+     "GIDP": 4
+    },
+    {
+     "season": 1955,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "New York Giants",
+     "age": 24,
+     "PA": 670,
+     "AVG": 0.319,
+     "OBP": 0.4,
+     "SLG": 0.659,
+     "OPS": 1.059,
+     "HR": 51,
+     "RBI": 127,
+     "R": 123,
+     "H": 185,
+     "2B": 18,
+     "3B": 13,
+     "SB": 24,
+     "CS": 4,
+     "BB": 79,
+     "SO": 60,
+     "HBP": 4,
+     "GIDP": 12
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.3,
+   "players": [
+    {
+     "id": 118258,
+     "name": "Mickey Mantle"
+    },
+    {
+     "id": 118495,
+     "name": "Willie Mays"
+    }
+   ],
+   "seasons": [
+    1956,
+    1955
+   ],
+   "text": "Only two hitters of the 1950s hit 50 home runs: Mickey Mantle (1956: 52 HR); Willie Mays (1955: 51 HR)."
+  },
+  {
+   "n": 16,
    "kind": "streak",
    "rule": "HR30",
    "group": "H",
@@ -1044,7 +1398,7 @@
    "text": "Gil Hodges hit 25+ home runs in 8 straight seasons (1950-57), the longest run of the 1950s."
   },
   {
-   "n": 14,
+   "n": 17,
    "kind": "streak",
    "rule": "AVG300",
    "group": "H",
@@ -1289,7 +1643,7 @@
    "text": "Stan Musial batted .300 or better (500+ PA) in 9 straight seasons (1950-58), the longest run of the 1950s."
   },
   {
-   "n": 15,
+   "n": 18,
    "kind": "streak",
    "rule": "IP250",
    "group": "P",
@@ -1449,7 +1803,7 @@
    "text": "Robin Roberts threw 250+ innings in 7 straight seasons (1950-56), the longest run of the 1950s."
   },
   {
-   "n": 16,
+   "n": 19,
    "rule": "twenty_five_wins",
    "group": "P",
    "decade": 1950,
@@ -1506,6 +1860,7 @@
      "WHIP": 0.99
     }
    ],
+   "seasonsMatched": 2,
    "kind": "pair",
    "score": 8.7,
    "players": [
@@ -1522,10 +1877,10 @@
     1952,
     1956
    ],
-   "text": "Only two pitchers of the 1950s won 25 games: Robin Roberts (1952, 28-7); Don Newcombe (1956, 27-7)."
+   "text": "Only two pitchers of the 1950s won 25 games: Robin Roberts (1952: 28-7); Don Newcombe (1956: 27-7)."
   },
   {
-   "n": 17,
+   "n": 20,
    "rule": "k_no_wins",
    "group": "P",
    "decade": 1950,
@@ -1606,6 +1961,7 @@
      "WHIP": 1.43
     }
    ],
+   "seasonsMatched": 3,
    "kind": "few",
    "score": 8.55,
    "players": [
@@ -1627,10 +1983,10 @@
     1959,
     1956
    ],
-   "text": "Just three pitchers of the 1950s struck out 150 and won 10 games or fewer: Camilo Pascual (1956, 162 K, 6-18); Sandy Koufax (1959, 173 K, 8-6); Sam Jones (1956, 176 K, 9-14)."
+   "text": "Just three pitchers of the 1950s struck out 150 and won 10 games or fewer: Camilo Pascual (1956: 162 K, 6-18); Sandy Koufax (1959: 173 K, 8-6); Sam Jones (1956: 176 K, 9-14)."
   },
   {
-   "n": 18,
+   "n": 21,
    "kind": "streak",
    "rule": "RBI100",
    "group": "H",
@@ -1800,7 +2156,147 @@
    "text": "Gil Hodges drove in 100+ runs in 6 straight seasons (1950-55), the longest run of the 1950s."
   },
   {
-   "n": 19,
+   "n": 22,
+   "kind": "streak",
+   "rule": "W20",
+   "group": "P",
+   "decade": 1950,
+   "score": 8,
+   "players": [
+    {
+     "id": 121283,
+     "name": "Robin Roberts"
+    }
+   ],
+   "seasons": [
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "id": 121283,
+     "name": "Robin Roberts",
+     "team": "Philadelphia Phillies",
+     "age": 23,
+     "W": 20,
+     "L": 11,
+     "ERA": 3.02,
+     "IP": "304.1",
+     "SO": 146,
+     "BB": 77,
+     "SV": 1,
+     "GS": 39,
+     "CG": 21,
+     "SHO": 5,
+     "HRA": 29,
+     "WHIP": 1.18
+    },
+    {
+     "season": 1951,
+     "id": 121283,
+     "name": "Robin Roberts",
+     "team": "Philadelphia Phillies",
+     "age": 24,
+     "W": 21,
+     "L": 15,
+     "ERA": 3.03,
+     "IP": "315.0",
+     "SO": 127,
+     "BB": 64,
+     "SV": 2,
+     "GS": 39,
+     "CG": 22,
+     "SHO": 6,
+     "HRA": 20,
+     "WHIP": 1.1
+    },
+    {
+     "season": 1952,
+     "id": 121283,
+     "name": "Robin Roberts",
+     "team": "Philadelphia Phillies",
+     "age": 25,
+     "W": 28,
+     "L": 7,
+     "ERA": 2.59,
+     "IP": "330.0",
+     "SO": 148,
+     "BB": 45,
+     "SV": 2,
+     "GS": 37,
+     "CG": 30,
+     "SHO": 3,
+     "HRA": 22,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1953,
+     "id": 121283,
+     "name": "Robin Roberts",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "W": 23,
+     "L": 16,
+     "ERA": 2.75,
+     "IP": "346.2",
+     "SO": 198,
+     "BB": 61,
+     "SV": 2,
+     "GS": 41,
+     "CG": 33,
+     "SHO": 5,
+     "HRA": 30,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1954,
+     "id": 121283,
+     "name": "Robin Roberts",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "W": 23,
+     "L": 15,
+     "ERA": 2.97,
+     "IP": "336.2",
+     "SO": 185,
+     "BB": 56,
+     "SV": 4,
+     "GS": 38,
+     "CG": 29,
+     "SHO": 4,
+     "HRA": 35,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1955,
+     "id": 121283,
+     "name": "Robin Roberts",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "W": 23,
+     "L": 14,
+     "ERA": 3.28,
+     "IP": "305.0",
+     "SO": 160,
+     "BB": 53,
+     "SV": 3,
+     "GS": 38,
+     "CG": 26,
+     "SHO": 1,
+     "HRA": 41,
+     "WHIP": 1.13
+    }
+   ],
+   "text": "Robin Roberts won 20 games in 6 straight seasons (1950-55), the longest run of the 1950s."
+  },
+  {
+   "n": 23,
    "rule": "old_arm",
    "group": "P",
    "decade": 1950,
@@ -1896,16 +2392,13 @@
      "WHIP": 1.21
     }
    ],
+   "seasonsMatched": 4,
    "kind": "few",
    "score": 7.525,
    "players": [
     {
      "id": 124633,
      "name": "Early Wynn"
-    },
-    {
-     "id": 122557,
-     "name": "Warren Spahn"
     },
     {
      "id": 122557,
@@ -1922,10 +2415,239 @@
     1959,
     1954
    ],
-   "text": "Just four pitchers of the 1950s won 15+ games at age 37 or older: Early Wynn (1959, 22-10 at 39); Warren Spahn (1958, 22-11 at 37); Warren Spahn (1959, 21-15 at 38); Virgil Trucks (1954, 19-12 at 37)."
+   "text": "Just three pitchers of the 1950s won 15+ games at age 37 or older: Early Wynn (1959: 22-10 at 39); Warren Spahn (2×, best 1958: 22-11 at 37); Virgil Trucks (1954: 19-12 at 37)."
   },
   {
-   "n": 20,
+   "n": 24,
+   "rule": "obp_no_power",
+   "group": "H",
+   "decade": 1950,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "OBP",
+      "gte",
+      0.4
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1954,
+     "id": 110349,
+     "name": "Richie Ashburn",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "PA": 703,
+     "AVG": 0.313,
+     "OBP": 0.441,
+     "SLG": 0.376,
+     "OPS": 0.817,
+     "HR": 1,
+     "RBI": 41,
+     "R": 111,
+     "H": 175,
+     "2B": 16,
+     "3B": 8,
+     "SB": 11,
+     "CS": 8,
+     "BB": 125,
+     "SO": 46,
+     "HBP": 4,
+     "GIDP": 3
+    },
+    {
+     "season": 1950,
+     "id": 120450,
+     "name": "Johnny Pesky",
+     "team": "Boston Red Sox",
+     "age": 31,
+     "PA": 605,
+     "AVG": 0.312,
+     "OBP": 0.437,
+     "SLG": 0.388,
+     "OPS": 0.825,
+     "HR": 1,
+     "RBI": 49,
+     "R": 112,
+     "H": 153,
+     "2B": 22,
+     "3B": 6,
+     "SB": 2,
+     "CS": 1,
+     "BB": 104,
+     "SO": 31,
+     "HBP": 5,
+     "GIDP": 13
+    },
+    {
+     "season": 1958,
+     "id": 110349,
+     "name": "Richie Ashburn",
+     "team": "Philadelphia Phillies",
+     "age": 31,
+     "PA": 725,
+     "AVG": 0.35,
+     "OBP": 0.44,
+     "SLG": 0.441,
+     "OPS": 0.881,
+     "HR": 2,
+     "RBI": 33,
+     "R": 98,
+     "H": 215,
+     "2B": 24,
+     "3B": 13,
+     "SB": 30,
+     "CS": 12,
+     "BB": 97,
+     "SO": 48,
+     "HBP": 4,
+     "GIDP": 8
+    },
+    {
+     "season": 1955,
+     "id": 110349,
+     "name": "Richie Ashburn",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "PA": 644,
+     "AVG": 0.338,
+     "OBP": 0.449,
+     "SLG": 0.448,
+     "OPS": 0.897,
+     "HR": 3,
+     "RBI": 42,
+     "R": 91,
+     "H": 180,
+     "2B": 32,
+     "3B": 9,
+     "SB": 12,
+     "CS": 10,
+     "BB": 105,
+     "SO": 36,
+     "HBP": 3,
+     "GIDP": 3
+    },
+    {
+     "season": 1952,
+     "id": 113979,
+     "name": "Ferris Fain",
+     "team": "Philadelphia Athletics",
+     "age": 31,
+     "PA": 648,
+     "AVG": 0.327,
+     "OBP": 0.438,
+     "SLG": 0.429,
+     "OPS": 0.867,
+     "HR": 2,
+     "RBI": 59,
+     "R": 82,
+     "H": 176,
+     "2B": 43,
+     "3B": 3,
+     "SB": 3,
+     "CS": 5,
+     "BB": 105,
+     "SO": 26,
+     "HBP": 1,
+     "GIDP": 19
+    },
+    {
+     "season": 1951,
+     "id": 120450,
+     "name": "Johnny Pesky",
+     "team": "Boston Red Sox",
+     "age": 32,
+     "PA": 573,
+     "AVG": 0.313,
+     "OBP": 0.417,
+     "SLG": 0.398,
+     "OPS": 0.815,
+     "HR": 3,
+     "RBI": 41,
+     "R": 93,
+     "H": 150,
+     "2B": 20,
+     "3B": 6,
+     "SB": 2,
+     "CS": 2,
+     "BB": 84,
+     "SO": 15,
+     "HBP": 2,
+     "GIDP": 10
+    },
+    {
+     "season": 1958,
+     "id": 123180,
+     "name": "Johnny Temple",
+     "team": "Cincinnati Redlegs",
+     "age": 30,
+     "PA": 652,
+     "AVG": 0.306,
+     "OBP": 0.405,
+     "SLG": 0.402,
+     "OPS": 0.807,
+     "HR": 3,
+     "RBI": 47,
+     "R": 82,
+     "H": 166,
+     "2B": 31,
+     "3B": 6,
+     "SB": 15,
+     "CS": 8,
+     "BB": 91,
+     "SO": 41,
+     "HBP": 0,
+     "GIDP": 8
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "few",
+   "score": 7.077500000000001,
+   "players": [
+    {
+     "id": 110349,
+     "name": "Richie Ashburn"
+    },
+    {
+     "id": 120450,
+     "name": "Johnny Pesky"
+    },
+    {
+     "id": 113979,
+     "name": "Ferris Fain"
+    },
+    {
+     "id": 123180,
+     "name": "Johnny Temple"
+    }
+   ],
+   "seasons": [
+    1954,
+    1950,
+    1958,
+    1955,
+    1952,
+    1951,
+    1958
+   ],
+   "text": "Just four hitters of the 1950s posted a .400 on-base with 5 homers or fewer (500+ PA): Richie Ashburn (3×, best 1954: .441 OBP, 1 HR); Johnny Pesky (2×, best 1950: .437 OBP, 1 HR); Ferris Fain (1952: .438 OBP, 2 HR); Johnny Temple (1958: .405 OBP, 3 HR)."
+  },
+  {
+   "n": 25,
    "kind": "streak",
    "rule": "BB100",
    "group": "H",
@@ -2070,7 +2792,7 @@
    "text": "Eddie Yost drew 100+ walks in 5 straight seasons (1950-54), the longest run of the 1950s."
   },
   {
-   "n": 21,
+   "n": 26,
    "kind": "streak",
    "rule": "K200",
    "group": "P",
@@ -2190,7 +2912,190 @@
    "text": "Sam Jones struck out 150+ in 5 straight seasons (1955-59), the longest run of the 1950s."
   },
   {
-   "n": 22,
+   "n": 27,
+   "rule": "walks_over_hits",
+   "group": "H",
+   "decade": 1950,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1956,
+     "id": 124682,
+     "name": "Eddie Yost",
+     "team": "Washington Senators",
+     "age": 29,
+     "PA": 684,
+     "AVG": 0.231,
+     "OBP": 0.412,
+     "SLG": 0.336,
+     "OPS": 0.748,
+     "HR": 11,
+     "RBI": 53,
+     "R": 94,
+     "H": 119,
+     "2B": 17,
+     "3B": 2,
+     "SB": 8,
+     "CS": 5,
+     "BB": 151,
+     "SO": 82,
+     "HBP": 8,
+     "GIDP": 8
+    },
+    {
+     "season": 1951,
+     "id": 124121,
+     "name": "Wes Westrum",
+     "team": "New York Giants",
+     "age": 28,
+     "PA": 474,
+     "AVG": 0.219,
+     "OBP": 0.4,
+     "SLG": 0.418,
+     "OPS": 0.818,
+     "HR": 20,
+     "RBI": 70,
+     "R": 59,
+     "H": 79,
+     "2B": 12,
+     "3B": 0,
+     "SB": 1,
+     "CS": 0,
+     "BB": 104,
+     "SO": 93,
+     "HBP": 5,
+     "GIDP": 10
+    },
+    {
+     "season": 1955,
+     "id": 110026,
+     "name": "Cal Abrams",
+     "team": "Baltimore Orioles",
+     "age": 31,
+     "PA": 407,
+     "AVG": 0.243,
+     "OBP": 0.413,
+     "SLG": 0.359,
+     "OPS": 0.772,
+     "HR": 6,
+     "RBI": 32,
+     "R": 56,
+     "H": 75,
+     "2B": 12,
+     "3B": 3,
+     "SB": 2,
+     "CS": 8,
+     "BB": 89,
+     "SO": 69,
+     "HBP": 3,
+     "GIDP": 6
+    },
+    {
+     "season": 1952,
+     "id": 124121,
+     "name": "Wes Westrum",
+     "team": "New York Giants",
+     "age": 29,
+     "PA": 403,
+     "AVG": 0.22,
+     "OBP": 0.374,
+     "SLG": 0.385,
+     "OPS": 0.759,
+     "HR": 14,
+     "RBI": 43,
+     "R": 47,
+     "H": 71,
+     "2B": 11,
+     "3B": 0,
+     "SB": 1,
+     "CS": 2,
+     "BB": 76,
+     "SO": 68,
+     "HBP": 3,
+     "GIDP": 5
+    },
+    {
+     "season": 1955,
+     "id": 124682,
+     "name": "Eddie Yost",
+     "team": "Washington Senators",
+     "age": 28,
+     "PA": 490,
+     "AVG": 0.243,
+     "OBP": 0.407,
+     "SLG": 0.371,
+     "OPS": 0.778,
+     "HR": 7,
+     "RBI": 48,
+     "R": 64,
+     "H": 91,
+     "2B": 17,
+     "3B": 5,
+     "SB": 4,
+     "CS": 3,
+     "BB": 95,
+     "SO": 54,
+     "HBP": 11,
+     "GIDP": 7
+    },
+    {
+     "season": 1954,
+     "id": 124341,
+     "name": "Ted Williams",
+     "team": "Boston Red Sox",
+     "age": 35,
+     "PA": 526,
+     "AVG": 0.345,
+     "OBP": 0.513,
+     "SLG": 0.635,
+     "OPS": 1.148,
+     "HR": 29,
+     "RBI": 89,
+     "R": 93,
+     "H": 133,
+     "2B": 23,
+     "3B": 1,
+     "SB": 0,
+     "CS": 0,
+     "BB": 136,
+     "SO": 32,
+     "HBP": 1,
+     "GIDP": 10
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.8,
+   "players": [
+    {
+     "id": 124682,
+     "name": "Eddie Yost"
+    },
+    {
+     "id": 124121,
+     "name": "Wes Westrum"
+    },
+    {
+     "id": 110026,
+     "name": "Cal Abrams"
+    },
+    {
+     "id": 124341,
+     "name": "Ted Williams"
+    }
+   ],
+   "seasons": [
+    1956,
+    1951,
+    1955,
+    1952,
+    1955,
+    1954
+   ],
+   "text": "Just four hitters of the 1950s drew more walks than hits (400+ PA): Eddie Yost (2×, best 1956: 151 BB, 119 H); Wes Westrum (2×, best 1951: 104 BB, 79 H); Cal Abrams (1955: 89 BB, 75 H); Ted Williams (1954: 136 BB, 133 H)."
+  },
+  {
+   "n": 28,
    "rule": "gidp_many",
    "group": "H",
    "decade": 1950,
@@ -2293,6 +3198,7 @@
      "GIDP": 28
     }
    ],
+   "seasonsMatched": 4,
    "kind": "few",
    "score": 6.8,
    "players": [
@@ -2319,10 +3225,10 @@
     1952,
     1951
    ],
-   "text": "Just four hitters of the 1950s grounded into 28+ double plays: Jackie Jensen (1954, 32 GIDP); Billy Hitchcock (1950, 30 GIDP); Dave Philley (1952, 29 GIDP); Sid Gordon (1951, 28 GIDP)."
+   "text": "Just four hitters of the 1950s grounded into 28+ double plays: Jackie Jensen (1954: 32 GIDP); Billy Hitchcock (1950: 30 GIDP); Dave Philley (1952: 29 GIDP); Sid Gordon (1951: 28 GIDP)."
   },
   {
-   "n": 23,
+   "n": 29,
    "rule": "wins_bad_era",
    "group": "P",
    "decade": 1950,
@@ -2422,6 +3328,7 @@
      "WHIP": 1.37
     }
    ],
+   "seasonsMatched": 4,
    "kind": "few",
    "score": 6.62675,
    "players": [
@@ -2448,10 +3355,10 @@
     1956,
     1951
    ],
-   "text": "Just four pitchers of the 1950s won 20 games with an ERA of 4.00 or worse: Lew Burdette (1959, 21-15, 4.07 ERA); Vic Raschi (1950, 21-8, 4.00 ERA); Billy Hoeft (1956, 20-14, 4.06 ERA); Murry Dickson (1951, 20-16, 4.02 ERA)."
+   "text": "Just four pitchers of the 1950s won 20 games with an ERA of 4.00 or worse: Lew Burdette (1959: 21-15, 4.07 ERA); Vic Raschi (1950: 21-8, 4.00 ERA); Billy Hoeft (1956: 20-14, 4.06 ERA); Murry Dickson (1951: 20-16, 4.02 ERA)."
   },
   {
-   "n": 24,
+   "n": 30,
    "rule": "power_no_avg",
    "group": "H",
    "decade": 1950,
@@ -2575,6 +3482,7 @@
      "GIDP": 12
     }
    ],
+   "seasonsMatched": 4,
    "kind": "few",
    "score": 6.085,
    "players": [
@@ -2601,10 +3509,10 @@
     1955,
     1955
    ],
-   "text": "Just four hitters of the 1950s hit 25+ homers while batting under .240 (400+ PA): Gus Zernial (1957, 27 HR, .236); Gus Triandos (1959, 25 HR, .216); Norm Zauchin (1955, 27 HR, .239); Del Crandall (1955, 26 HR, .236)."
+   "text": "Just four hitters of the 1950s hit 25+ homers while batting under .240 (400+ PA): Gus Zernial (1957: 27 HR, .236); Gus Triandos (1959: 25 HR, .216); Norm Zauchin (1955: 27 HR, .239); Del Crandall (1955: 26 HR, .236)."
   },
   {
-   "n": 25,
+   "n": 31,
    "rule": "zero_hr_full",
    "group": "H",
    "decade": 1950,
@@ -2771,6 +3679,7 @@
      "GIDP": 4
     }
    ],
+   "seasonsMatched": 8,
    "kind": "list",
    "score": 6,
    "players": [
@@ -2782,10 +3691,158 @@
    "seasons": [
     1957
    ],
-   "text": "8 times in the 1950s a hitter played a full season without a single home run (600+ PA). The most extreme: Richie Ashburn, 1957 — 0 HR in 729 PA."
+   "text": "5 hitters played a full season without a single home run (600+ PA) in the 1950s (8 seasons). The most extreme: Richie Ashburn, 1957 — 0 HR in 729 PA."
   },
   {
-   "n": 26,
+   "n": 32,
+   "rule": "walks_many",
+   "group": "P",
+   "decade": 1950,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      130
+     ]
+    ],
+    "seasonMin": 1950,
+    "seasonMax": 1959
+   },
+   "evidence": [
+    {
+     "season": 1955,
+     "id": 116725,
+     "name": "Sam Jones",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "W": 14,
+     "L": 20,
+     "ERA": 4.1,
+     "IP": "241.2",
+     "SO": 198,
+     "BB": 185,
+     "SV": 0,
+     "GS": 34,
+     "CG": 12,
+     "SHO": 4,
+     "HRA": 22,
+     "WHIP": 1.49
+    },
+    {
+     "season": 1954,
+     "id": 123509,
+     "name": "Bob Turley",
+     "team": "Baltimore Orioles",
+     "age": 23,
+     "W": 14,
+     "L": 15,
+     "ERA": 3.46,
+     "IP": "247.1",
+     "SO": 185,
+     "BB": 181,
+     "SV": 0,
+     "GS": 35,
+     "CG": 14,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.45
+    },
+    {
+     "season": 1955,
+     "id": 123509,
+     "name": "Bob Turley",
+     "team": "New York Yankees",
+     "age": 24,
+     "W": 17,
+     "L": 13,
+     "ERA": 3.06,
+     "IP": "246.2",
+     "SO": 210,
+     "BB": 177,
+     "SV": 1,
+     "GS": 34,
+     "CG": 13,
+     "SHO": 6,
+     "HRA": 16,
+     "WHIP": 1.4
+    },
+    {
+     "season": 1950,
+     "id": 111842,
+     "name": "Tommy Byrne",
+     "team": "New York Yankees",
+     "age": 30,
+     "W": 15,
+     "L": 9,
+     "ERA": 4.74,
+     "IP": "203.1",
+     "SO": 118,
+     "BB": 160,
+     "SV": 0,
+     "GS": 31,
+     "CG": 10,
+     "SHO": 2,
+     "HRA": 23,
+     "WHIP": 1.71
+    },
+    {
+     "season": 1955,
+     "id": 121923,
+     "name": "Herb Score",
+     "team": "Cleveland Indians",
+     "age": 22,
+     "W": 16,
+     "L": 10,
+     "ERA": 2.85,
+     "IP": "227.1",
+     "SO": 245,
+     "BB": 154,
+     "SV": 0,
+     "GS": 32,
+     "CG": 11,
+     "SHO": 2,
+     "HRA": 18,
+     "WHIP": 1.37
+    },
+    {
+     "season": 1951,
+     "id": 111842,
+     "name": "Tommy Byrne",
+     "team": "St. Louis Browns",
+     "age": 31,
+     "W": 6,
+     "L": 11,
+     "ERA": 4.26,
+     "IP": "143.2",
+     "SO": 71,
+     "BB": 150,
+     "SV": 0,
+     "GS": 20,
+     "CG": 7,
+     "SHO": 2,
+     "HRA": 5,
+     "WHIP": 1.88
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 116725,
+     "name": "Sam Jones"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "11 pitchers walked 130+ batters in the 1950s (13 seasons). The most extreme: Sam Jones, 1955 — 185 BB."
+  },
+  {
+   "n": 33,
    "kind": "extreme",
    "rule": "lowest_avg_100rbi",
    "group": "H",
@@ -2831,7 +3888,53 @@
    "text": "Lowest average by any 100-RBI hitter of the 1950s: Roy Sievers, 1954 — .232 with 102 RBI."
   },
   {
-   "n": 27,
+   "n": 34,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 1950,
+   "score": 6,
+   "players": [
+    {
+     "id": 118258,
+     "name": "Mickey Mantle"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1958,
+     "id": 118258,
+     "name": "Mickey Mantle",
+     "team": "New York Yankees",
+     "age": 26,
+     "PA": 654,
+     "AVG": 0.304,
+     "OBP": 0.443,
+     "SLG": 0.592,
+     "OPS": 1.035,
+     "HR": 42,
+     "RBI": 97,
+     "R": 127,
+     "H": 158,
+     "2B": 21,
+     "3B": 1,
+     "SB": 18,
+     "CS": 3,
+     "BB": 129,
+     "SO": 120,
+     "HBP": 2,
+     "GIDP": 11
+    }
+   ],
+   "among": 203,
+   "text": "Most strikeouts by a .300 hitter of the 1950s: Mickey Mantle, 1958 — 120 K while batting .304."
+  },
+  {
+   "n": 35,
    "kind": "extreme",
    "rule": "most_hr_low_rbi",
    "group": "H",
@@ -2877,7 +3980,7 @@
    "text": "Most home runs per RBI of the 1950s: Frank Robinson, 1956 — 38 HR but only 83 RBI."
   },
   {
-   "n": 28,
+   "n": 36,
    "kind": "extreme",
    "rule": "fewest_k_30hr",
    "group": "H",
@@ -2923,7 +4026,7 @@
    "text": "Fewest strikeouts by a 25-homer hitter of the 1950s: Yogi Berra, 1950 — 12 K with 28 HR."
   },
   {
-   "n": 29,
+   "n": 37,
    "kind": "extreme",
    "rule": "most_bb_low_avg",
    "group": "H",
@@ -2969,7 +4072,7 @@
    "text": "Most walks by a sub-.240 hitter of the 1950s: Eddie Yost, 1956 — 151 BB while batting .231."
   },
   {
-   "n": 30,
+   "n": 38,
    "kind": "extreme",
    "rule": "most_rbi_per_hr",
    "group": "H",
@@ -3015,7 +4118,7 @@
    "text": "Most RBI per home run among 100-RBI seasons: George Kell, 1950 — 101 RBI on 8 HR."
   },
   {
-   "n": 31,
+   "n": 39,
    "kind": "extreme",
    "rule": "most_wins_bad_era",
    "group": "P",
@@ -3056,7 +4159,7 @@
    "text": "Most wins by a pitcher with an ERA over 5.00: Bob Hooper, 1950 — 15-10 with a 5.02 ERA."
   },
   {
-   "n": 32,
+   "n": 40,
    "kind": "extreme",
    "rule": "fewest_wins_low_era",
    "group": "P",
@@ -3097,7 +4200,48 @@
    "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Stu Miller, 1958 — 6-9 despite a 2.47 ERA."
   },
   {
-   "n": 33,
+   "n": 41,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 1950,
+   "score": 6,
+   "players": [
+    {
+     "id": 122557,
+     "name": "Warren Spahn"
+    }
+   ],
+   "seasons": [
+    1952
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1952,
+     "id": 122557,
+     "name": "Warren Spahn",
+     "team": "Boston Braves",
+     "age": 31,
+     "W": 14,
+     "L": 19,
+     "ERA": 2.98,
+     "IP": "290.0",
+     "SO": 183,
+     "BB": 73,
+     "SV": 3,
+     "GS": 35,
+     "CG": 19,
+     "SHO": 5,
+     "HRA": 19,
+     "WHIP": 1.16
+    }
+   ],
+   "among": 262,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Warren Spahn, 1952 — 14-19 with a 2.98 ERA."
+  },
+  {
+   "n": 42,
    "kind": "extreme",
    "rule": "fewest_k_20w",
    "group": "P",
@@ -3138,7 +4282,7 @@
    "text": "Fewest strikeouts by a 20-game winner of the 1950s: Bob Porterfield, 1953 — 77 K, 22-10."
   },
   {
-   "n": 34,
+   "n": 43,
    "kind": "extreme",
    "rule": "most_ip_no_cg",
    "group": "P",
@@ -3179,7 +4323,7 @@
    "text": "Most innings in a season without a complete game: Hoyt Wilhelm, 1952 — 159.1 IP, 0 CG."
   },
   {
-   "n": 35,
+   "n": 44,
    "kind": "extreme",
    "rule": "most_bb_winner",
    "group": "P",
@@ -3220,7 +4364,7 @@
    "text": "Most walks by a 15-game winner: Bob Turley, 1955 — 177 BB, 17-13."
   },
   {
-   "n": 36,
+   "n": 45,
    "kind": "team",
    "rule": "100w",
    "group": "T",
@@ -3269,7 +4413,7 @@
    "text": "3 teams of the 1950s won 100 games; the best record was the 1954 Indians at 111-43."
   },
   {
-   "n": 37,
+   "n": 46,
    "kind": "age",
    "rule": "age_30hr_young",
    "group": "H",
@@ -3314,7 +4458,7 @@
    "text": "Youngest player of the 1950s to hit 25 home runs: Eddie Mathews, age 20 in 1952 — 25 HR."
   },
   {
-   "n": 38,
+   "n": 47,
    "kind": "age",
    "rule": "age_30hr_old",
    "group": "H",
@@ -3359,7 +4503,7 @@
    "text": "Oldest player of the 1950s to hit 25 home runs: Hank Sauer, age 40 in 1957 — 26 HR."
   },
   {
-   "n": 39,
+   "n": 48,
    "kind": "age",
    "rule": "age_330_young",
    "group": "H",
@@ -3404,7 +4548,7 @@
    "text": "Youngest player of the 1950s to bat .330 (500+ PA): Al Kaline, age 20 in 1955 — .340."
   },
   {
-   "n": 40,
+   "n": 49,
    "kind": "age",
    "rule": "age_330_old",
    "group": "H",
@@ -3449,7 +4593,52 @@
    "text": "Oldest player of the 1950s to bat .330 (500+ PA): Ted Williams, age 38 in 1957 — .388."
   },
   {
-   "n": 41,
+   "n": 50,
+   "kind": "age",
+   "rule": "age_100rbi_young",
+   "group": "H",
+   "decade": 1950,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 116822,
+     "name": "Al Kaline"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1955,
+     "id": 116822,
+     "name": "Al Kaline",
+     "team": "Detroit Tigers",
+     "age": 20,
+     "PA": 681,
+     "AVG": 0.34,
+     "OBP": 0.421,
+     "SLG": 0.546,
+     "OPS": 0.967,
+     "HR": 27,
+     "RBI": 102,
+     "R": 121,
+     "H": 200,
+     "2B": 24,
+     "3B": 8,
+     "SB": 6,
+     "CS": 8,
+     "BB": 82,
+     "SO": 57,
+     "HBP": 5,
+     "GIDP": 13
+    }
+   ],
+   "text": "Youngest player of the 1950s to drive in 100 runs: Al Kaline, age 20 in 1955 — 102 RBI."
+  },
+  {
+   "n": 51,
    "kind": "age",
    "rule": "age_100rbi_old",
    "group": "H",
@@ -3494,7 +4683,7 @@
    "text": "Oldest player of the 1950s to drive in 100 runs: Hank Sauer, age 37 in 1954 — 103 RBI."
   },
   {
-   "n": 42,
+   "n": 52,
    "kind": "age",
    "rule": "age_sb_young",
    "group": "H",
@@ -3539,7 +4728,7 @@
    "text": "Youngest player of the 1950s to steal 30 bases: Minnie Minoso, age 25 in 1951 — 31 SB."
   },
   {
-   "n": 43,
+   "n": 53,
    "kind": "age",
    "rule": "age_sb_old",
    "group": "H",
@@ -3584,7 +4773,7 @@
    "text": "Oldest player of the 1950s to steal 30 bases: Sam Jethroe, age 34 in 1951 — 35 SB."
   },
   {
-   "n": 44,
+   "n": 54,
    "kind": "age",
    "rule": "age_20w_old",
    "group": "P",
@@ -3624,7 +4813,7 @@
    "text": "Oldest player of the 1950s to win 20 games: Early Wynn, age 39 in 1959 — 22-10."
   },
   {
-   "n": 45,
+   "n": 55,
    "kind": "age",
    "rule": "age_k_young",
    "group": "P",
@@ -3664,7 +4853,47 @@
    "text": "Youngest player of the 1950s to strike out 150: Dick Drott, age 20 in 1957 — 170 K."
   },
   {
-   "n": 46,
+   "n": 56,
+   "kind": "age",
+   "rule": "age_k_old",
+   "group": "P",
+   "decade": 1950,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 124633,
+     "name": "Early Wynn"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1959,
+     "id": 124633,
+     "name": "Early Wynn",
+     "team": "Chicago White Sox",
+     "age": 39,
+     "W": 22,
+     "L": 10,
+     "ERA": 3.17,
+     "IP": "255.2",
+     "SO": 179,
+     "BB": 119,
+     "SV": 0,
+     "GS": 37,
+     "CG": 14,
+     "SHO": 5,
+     "HRA": 20,
+     "WHIP": 1.26
+    }
+   ],
+   "text": "Oldest player of the 1950s to strike out 150: Early Wynn, age 39 in 1959 — 179 K."
+  },
+  {
+   "n": 57,
    "kind": "age",
    "rule": "age_era_young",
    "group": "P",
@@ -3704,7 +4933,108 @@
    "text": "Youngest player of the 1950s to post a qualified ERA under 2.75: Don Drysdale, age 20 in 1957 — 2.69 ERA."
   },
   {
-   "n": 47,
+   "n": 58,
+   "kind": "teammates",
+   "rule": "hr_pair",
+   "group": "H",
+   "decade": 1950,
+   "score": 5,
+   "players": [
+    {
+     "id": 122488,
+     "name": "Duke Snider"
+    },
+    {
+     "id": 111915,
+     "name": "Roy Campanella"
+    },
+    {
+     "id": 116008,
+     "name": "Gil Hodges"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1953,
+     "id": 122488,
+     "name": "Duke Snider",
+     "team": "Brooklyn Dodgers",
+     "age": 26,
+     "PA": 680,
+     "AVG": 0.336,
+     "OBP": 0.419,
+     "SLG": 0.627,
+     "OPS": 1.046,
+     "HR": 42,
+     "RBI": 126,
+     "R": 132,
+     "H": 198,
+     "2B": 38,
+     "3B": 4,
+     "SB": 16,
+     "CS": 7,
+     "BB": 82,
+     "SO": 90,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1953,
+     "id": 111915,
+     "name": "Roy Campanella",
+     "team": "Brooklyn Dodgers",
+     "age": 31,
+     "PA": 590,
+     "AVG": 0.312,
+     "OBP": 0.395,
+     "SLG": 0.611,
+     "OPS": 1.006,
+     "HR": 41,
+     "RBI": 142,
+     "R": 103,
+     "H": 162,
+     "2B": 26,
+     "3B": 3,
+     "SB": 4,
+     "CS": 2,
+     "BB": 67,
+     "SO": 58,
+     "HBP": 4,
+     "GIDP": 13
+    },
+    {
+     "season": 1953,
+     "id": 116008,
+     "name": "Gil Hodges",
+     "team": "Brooklyn Dodgers",
+     "age": 29,
+     "PA": 598,
+     "AVG": 0.302,
+     "OBP": 0.393,
+     "SLG": 0.55,
+     "OPS": 0.943,
+     "HR": 31,
+     "RBI": 122,
+     "R": 101,
+     "H": 157,
+     "2B": 22,
+     "3B": 7,
+     "SB": 1,
+     "CS": 4,
+     "BB": 75,
+     "SO": 84,
+     "HBP": 3,
+     "GIDP": 4
+    }
+   ],
+   "text": "18 teams of the 1950s had two players at 30+ home runs; the biggest pairing was the 1953 Brooklyn Dodgers — Duke Snider 42, Roy Campanella 41, Gil Hodges 31."
+  },
+  {
+   "n": 59,
    "kind": "teammates",
    "rule": "rbi_trio",
    "group": "H",
@@ -3805,7 +5135,7 @@
    "text": "9 teams of the 1950s had three players at 100+ RBI; the biggest pairing was the 1950 Boston Red Sox — Walt Dropo 144, Vern Stephens 144, Bobby Doerr 120."
   },
   {
-   "n": 48,
+   "n": 60,
    "kind": "total",
    "rule": "dec_hr",
    "group": "H",
@@ -3839,7 +5169,7 @@
    "text": "Most home runs of the 1950s: Duke Snider, 326 across 10 seasons."
   },
   {
-   "n": 49,
+   "n": 61,
    "kind": "total",
    "rule": "dec_hr_nolead",
    "group": "H",
@@ -3873,7 +5203,39 @@
    "text": "Most home runs in the 1950s by a hitter who never led the majors in a season: Duke Snider, 326."
   },
   {
-   "n": 50,
+   "n": 62,
+   "kind": "total",
+   "rule": "dec_w",
+   "group": "P",
+   "decade": 1950,
+   "score": 5,
+   "players": [
+    {
+     "id": 122557,
+     "name": "Warren Spahn"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 122557,
+     "name": "Warren Spahn",
+     "n": 10,
+     "W": 202,
+     "L": 131,
+     "SO": 1464,
+     "SV": 18,
+     "SHO": 33,
+     "CG": 215,
+     "OUTS": 8468,
+     "BB": 790
+    }
+   ],
+   "text": "Most wins of the 1950s: Warren Spahn, 202."
+  },
+  {
+   "n": 63,
    "kind": "season",
    "rule": "n_30hr_most",
    "group": "H",
@@ -3929,7 +5291,7 @@
    "text": "1956 had 27 25-homer hitters, the most of any season in the 1950s."
   },
   {
-   "n": 51,
+   "n": 64,
    "kind": "season",
    "rule": "n_30hr_least",
    "group": "H",
@@ -3985,7 +5347,7 @@
    "text": "1952 had just 11 25-homer hitters, the fewest of any season in the 1950s."
   },
   {
-   "n": 52,
+   "n": 65,
    "kind": "season",
    "rule": "n_300_most",
    "group": "H",
@@ -4041,7 +5403,7 @@
    "text": "1953 had 26 .300 hitters (500+ PA), the most of any season in the 1950s."
   },
   {
-   "n": 53,
+   "n": 66,
    "kind": "season",
    "rule": "n_300_least",
    "group": "H",
@@ -4097,7 +5459,7 @@
    "text": "1952 had just 14 .300 hitters (500+ PA), the fewest of any season in the 1950s."
   },
   {
-   "n": 54,
+   "n": 67,
    "kind": "season",
    "rule": "n_100rbi_most",
    "group": "H",
@@ -4153,7 +5515,7 @@
    "text": "1950 had 22 100-RBI hitters, the most of any season in the 1950s."
   },
   {
-   "n": 55,
+   "n": 68,
    "kind": "season",
    "rule": "n_100rbi_least",
    "group": "H",
@@ -4209,7 +5571,7 @@
    "text": "1958 had just 6 100-RBI hitters, the fewest of any season in the 1950s."
   },
   {
-   "n": 56,
+   "n": 69,
    "kind": "season",
    "rule": "n_sb_most",
    "group": "H",
@@ -4265,7 +5627,7 @@
    "text": "1951 had 2 30-steal players, the most of any season in the 1950s."
   },
   {
-   "n": 57,
+   "n": 70,
    "kind": "season",
    "rule": "n_sb_least",
    "group": "H",
@@ -4321,7 +5683,7 @@
    "text": "1953 had no 30-steal players at all — one of the seasons of the 1950s without one."
   },
   {
-   "n": 58,
+   "n": 71,
    "kind": "season",
    "rule": "n_200h_most",
    "group": "H",
@@ -4377,7 +5739,7 @@
    "text": "1953 had 5 200-hit seasons, the most of any season in the 1950s."
   },
   {
-   "n": 59,
+   "n": 72,
    "kind": "season",
    "rule": "n_200h_least",
    "group": "H",
@@ -4433,7 +5795,7 @@
    "text": "1952 had no 200-hit seasons at all — the only season of the 1950s without one."
   },
   {
-   "n": 60,
+   "n": 73,
    "kind": "season",
    "rule": "n_20w_most",
    "group": "P",
@@ -4489,7 +5851,7 @@
    "text": "1951 had 13 20-game winners, the most of any season in the 1950s."
   },
   {
-   "n": 61,
+   "n": 74,
    "kind": "season",
    "rule": "n_20w_least",
    "group": "P",
@@ -4545,7 +5907,119 @@
    "text": "1955 had just 2 20-game winners, the fewest of any season in the 1950s."
   },
   {
-   "n": 62,
+   "n": 75,
+   "kind": "season",
+   "rule": "n_k_most",
+   "group": "P",
+   "decade": 1950,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1956
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 6
+    },
+    {
+     "season": 1951,
+     "count": 3
+    },
+    {
+     "season": 1952,
+     "count": 5
+    },
+    {
+     "season": 1953,
+     "count": 5
+    },
+    {
+     "season": 1954,
+     "count": 7
+    },
+    {
+     "season": 1955,
+     "count": 6
+    },
+    {
+     "season": 1956,
+     "count": 12
+    },
+    {
+     "season": 1957,
+     "count": 9
+    },
+    {
+     "season": 1958,
+     "count": 6
+    },
+    {
+     "season": 1959,
+     "count": 8
+    }
+   ],
+   "text": "1956 had 12 150-strikeout pitchers, the most of any season in the 1950s."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "n_k_least",
+   "group": "P",
+   "decade": 1950,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 6
+    },
+    {
+     "season": 1951,
+     "count": 3
+    },
+    {
+     "season": 1952,
+     "count": 5
+    },
+    {
+     "season": 1953,
+     "count": 5
+    },
+    {
+     "season": 1954,
+     "count": 7
+    },
+    {
+     "season": 1955,
+     "count": 6
+    },
+    {
+     "season": 1956,
+     "count": 12
+    },
+    {
+     "season": 1957,
+     "count": 9
+    },
+    {
+     "season": 1958,
+     "count": 6
+    },
+    {
+     "season": 1959,
+     "count": 8
+    }
+   ],
+   "text": "1951 had just 3 150-strikeout pitchers, the fewest of any season in the 1950s."
+  },
+  {
+   "n": 77,
    "kind": "team",
    "rule": "100l",
    "group": "T",
@@ -4627,7 +6101,7 @@
    "text": "11 teams of the 1950s lost 100 games; the worst was the 1952 Pirates at 42-112."
   },
   {
-   "n": 63,
+   "n": 78,
    "kind": "team",
    "rule": "best_diff",
    "group": "T",
@@ -4654,8 +6128,8 @@
    "text": "Best run differential of the 1950s: the 1953 Dodgers, +266 (955 scored, 689 allowed)."
   },
   {
-   "n": 64,
-   "rule": "old_avg",
+   "n": 79,
+   "rule": "old_power",
    "group": "H",
    "decade": 1950,
    "finder": {
@@ -4663,20 +6137,39 @@
     "ageMin": 36,
     "filters": [
      [
-      "PA",
+      "HR",
       "gte",
-      500
-     ],
-     [
-      "BA",
-      "gte",
-      0.32
+      25
      ]
     ],
     "seasonMin": 1950,
     "seasonMax": 1959
    },
    "evidence": [
+    {
+     "season": 1954,
+     "id": 121710,
+     "name": "Hank Sauer",
+     "team": "Chicago Cubs",
+     "age": 37,
+     "PA": 605,
+     "AVG": 0.288,
+     "OBP": 0.375,
+     "SLG": 0.563,
+     "OPS": 0.938,
+     "HR": 41,
+     "RBI": 103,
+     "R": 98,
+     "H": 150,
+     "2B": 18,
+     "3B": 1,
+     "SB": 2,
+     "CS": 1,
+     "BB": 70,
+     "SO": 68,
+     "HBP": 6,
+     "GIDP": 8
+    },
     {
      "season": 1957,
      "id": 124341,
@@ -4702,52 +6195,76 @@
      "GIDP": 11
     },
     {
-     "season": 1958,
-     "id": 124341,
-     "name": "Ted Williams",
-     "team": "Boston Red Sox",
-     "age": 39,
-     "PA": 517,
-     "AVG": 0.328,
-     "OBP": 0.458,
-     "SLG": 0.584,
-     "OPS": 1.042,
-     "HR": 26,
-     "RBI": 85,
-     "R": 81,
-     "H": 135,
-     "2B": 23,
-     "3B": 2,
+     "season": 1952,
+     "id": 113708,
+     "name": "Luke Easter",
+     "team": "Cleveland Indians",
+     "age": 36,
+     "PA": 486,
+     "AVG": 0.263,
+     "OBP": 0.337,
+     "SLG": 0.513,
+     "OPS": 0.85,
+     "HR": 31,
+     "RBI": 97,
+     "R": 63,
+     "H": 115,
+     "2B": 10,
+     "3B": 3,
      "SB": 1,
-     "CS": 0,
-     "BB": 98,
-     "SO": 49,
-     "HBP": 4,
-     "GIDP": 19
+     "CS": 1,
+     "BB": 44,
+     "SO": 84,
+     "HBP": 5,
+     "GIDP": 5
     },
     {
-     "season": 1956,
-     "id": 124341,
-     "name": "Ted Williams",
-     "team": "Boston Red Sox",
-     "age": 37,
-     "PA": 503,
-     "AVG": 0.345,
-     "OBP": 0.479,
-     "SLG": 0.605,
-     "OPS": 1.084,
-     "HR": 24,
-     "RBI": 82,
+     "season": 1957,
+     "id": 112880,
+     "name": "George Crowe",
+     "team": "Cincinnati Redlegs",
+     "age": 36,
+     "PA": 532,
+     "AVG": 0.271,
+     "OBP": 0.314,
+     "SLG": 0.504,
+     "OPS": 0.818,
+     "HR": 31,
+     "RBI": 92,
      "R": 71,
-     "H": 138,
-     "2B": 28,
-     "3B": 2,
-     "SB": 0,
-     "CS": 0,
-     "BB": 102,
-     "SO": 39,
+     "H": 134,
+     "2B": 20,
+     "3B": 1,
+     "SB": 1,
+     "CS": 1,
+     "BB": 32,
+     "SO": 62,
      "HBP": 1,
-     "GIDP": 13
+     "GIDP": 9
+    },
+    {
+     "season": 1957,
+     "id": 121710,
+     "name": "Hank Sauer",
+     "team": "New York Giants",
+     "age": 40,
+     "PA": 429,
+     "AVG": 0.259,
+     "OBP": 0.343,
+     "SLG": 0.508,
+     "OPS": 0.851,
+     "HR": 26,
+     "RBI": 76,
+     "R": 46,
+     "H": 98,
+     "2B": 14,
+     "3B": 1,
+     "SB": 1,
+     "CS": 0,
+     "BB": 49,
+     "SO": 59,
+     "HBP": 0,
+     "GIDP": 7
     },
     {
      "season": 1957,
@@ -4772,47 +6289,24 @@
      "SO": 34,
      "HBP": 2,
      "GIDP": 13
-    },
-    {
-     "season": 1958,
-     "id": 119602,
-     "name": "Stan Musial",
-     "team": "St. Louis Cardinals",
-     "age": 37,
-     "PA": 549,
-     "AVG": 0.337,
-     "OBP": 0.423,
-     "SLG": 0.528,
-     "OPS": 0.951,
-     "HR": 17,
-     "RBI": 62,
-     "R": 64,
-     "H": 159,
-     "2B": 35,
-     "3B": 2,
-     "SB": 0,
-     "CS": 0,
-     "BB": 72,
-     "SO": 26,
-     "HBP": 1,
-     "GIDP": 19
     }
    ],
+   "seasonsMatched": 9,
    "kind": "list",
-   "score": 4.92,
+   "score": 4.95,
    "players": [
     {
-     "id": 124341,
-     "name": "Ted Williams"
+     "id": 121710,
+     "name": "Hank Sauer"
     }
    ],
    "seasons": [
-    1957
+    1954
    ],
-   "text": "5 times in the 1950s a hitter batted .320 at age 36 or older (500+ PA). The most extreme: Ted Williams, 1957 — .388 at 38."
+   "text": "6 hitters hit 25+ homers at age 36 or older in the 1950s (9 seasons). The most extreme: Hank Sauer, 1954 — 41 HR at 37."
   },
   {
-   "n": 65,
+   "n": 80,
    "kind": "team",
    "rule": "worst_diff",
    "group": "T",
@@ -4839,7 +6333,7 @@
    "text": "Worst run differential of the 1950s: the 1954 Athletics, -333 (542 scored, 875 allowed)."
   },
   {
-   "n": 66,
+   "n": 81,
    "rule": "young_power",
    "group": "H",
    "decade": 1950,
@@ -5002,6 +6496,7 @@
      "GIDP": 13
     }
    ],
+   "seasonsMatched": 13,
    "kind": "list",
    "score": 3.65,
    "players": [
@@ -5013,10 +6508,10 @@
    "seasons": [
     1953
    ],
-   "text": "13 times in the 1950s a hitter hit 25+ homers at age 22 or younger. The most extreme: Eddie Mathews, 1953 — 47 HR at 21."
+   "text": "6 hitters hit 25+ homers at age 22 or younger in the 1950s (13 seasons). The most extreme: Eddie Mathews, 1953 — 47 HR at 21."
   },
   {
-   "n": 67,
+   "n": 82,
    "rule": "hbp_many",
    "group": "H",
    "decade": 1950,
@@ -5167,6 +6662,7 @@
      "GIDP": 8
     }
    ],
+   "seasonsMatched": 26,
    "kind": "list",
    "score": 3.575,
    "players": [
@@ -5178,10 +6674,10 @@
    "seasons": [
     1956
    ],
-   "text": "26 times in the 1950s a hitter got hit by 12+ pitches. The most extreme: Minnie Minoso, 1956 — 23 HBP."
+   "text": "13 hitters got hit by 12+ pitches in the 1950s (26 seasons). The most extreme: Minnie Minoso, 1956 — 23 HBP."
   },
   {
-   "n": 68,
+   "n": 83,
    "rule": "twenty_losses",
    "group": "P",
    "decade": 1950,
@@ -5314,6 +6810,7 @@
      "WHIP": 1.62
     }
    ],
+   "seasonsMatched": 11,
    "kind": "list",
    "score": 3.55,
    "players": [
@@ -5325,10 +6822,10 @@
    "seasons": [
     1956
    ],
-   "text": "11 times in the 1950s a pitcher lost 20 games. The most extreme: Art Ditmar, 1956 — 12-22."
+   "text": "10 pitchers lost 20 games in the 1950s (11 seasons). The most extreme: Art Ditmar, 1956 — 12-22."
   },
   {
-   "n": 69,
+   "n": 84,
    "rule": "hr_no_doubles",
    "group": "H",
    "decade": 1950,
@@ -5471,6 +6968,7 @@
      "GIDP": 9
     }
    ],
+   "seasonsMatched": 5,
    "kind": "list",
    "score": 3.525,
    "players": [
@@ -5482,10 +6980,10 @@
    "seasons": [
     1952
    ],
-   "text": "5 times in the 1950s a hitter hit 30+ homers with 15 doubles or fewer. The most extreme: Luke Easter, 1952 — 31 HR, 10 2B."
+   "text": "5 hitters hit 30+ homers with 15 doubles or fewer in the 1950s. The most extreme: Luke Easter, 1952 — 31 HR, 10 2B."
   },
   {
-   "n": 70,
+   "n": 85,
    "rule": "relief_wins",
    "group": "P",
    "decade": 1950,
@@ -5623,6 +7121,7 @@
      "WHIP": 1.33
     }
    ],
+   "seasonsMatched": 6,
    "kind": "list",
    "score": 3.45,
    "players": [
@@ -5634,10 +7133,10 @@
    "seasons": [
     1959
    ],
-   "text": "6 times in the 1950s a pitcher won 12+ games without a start. The most extreme: Roy Face, 1959 — 18-1, 0 GS."
+   "text": "5 pitchers won 12+ games without a start in the 1950s (6 seasons). The most extreme: Roy Face, 1959 — 18-1, 0 GS."
   },
   {
-   "n": 71,
+   "n": 86,
    "rule": "hr_over_k",
    "group": "H",
    "decade": 1950,
@@ -5788,6 +7287,7 @@
      "GIDP": 13
     }
    ],
+   "seasonsMatched": 13,
    "kind": "list",
    "score": 3.4,
    "players": [
@@ -5799,10 +7299,10 @@
    "seasons": [
     1950
    ],
-   "text": "13 times in the 1950s a hitter hit 25+ homers with more homers than strikeouts. The most extreme: Yogi Berra, 1950 — 28 HR, 12 K."
+   "text": "5 hitters hit 25+ homers with more homers than strikeouts in the 1950s (13 seasons). The most extreme: Yogi Berra, 1950 — 28 HR, 12 K."
   },
   {
-   "n": 72,
+   "n": 87,
    "rule": "triples_over_hr",
    "group": "H",
    "decade": 1950,
@@ -5953,6 +7453,7 @@
      "GIDP": 7
     }
    ],
+   "seasonsMatched": 12,
    "kind": "list",
    "score": 3.325,
    "players": [
@@ -5964,10 +7465,10 @@
    "seasons": [
     1953
    ],
-   "text": "12 times in the 1950s a hitter hit 12+ triples and more triples than homers. The most extreme: Bill Bruton, 1953 — 14 3B, 1 HR."
+   "text": "9 hitters hit 12+ triples and more triples than homers in the 1950s (12 seasons). The most extreme: Bill Bruton, 1953 — 14 3B, 1 HR."
   },
   {
-   "n": 73,
+   "n": 88,
    "rule": "low_k_full",
    "group": "H",
    "decade": 1950,
@@ -6134,6 +7635,7 @@
      "GIDP": 19
     }
    ],
+   "seasonsMatched": 13,
    "kind": "list",
    "score": 3.275,
    "players": [
@@ -6145,10 +7647,10 @@
    "seasons": [
     1951
    ],
-   "text": "13 times in the 1950s a hitter struck out 15 times or fewer in a full season (600+ PA). The most extreme: Nellie Fox, 1951 — 11 K in 681 PA."
+   "text": "6 hitters struck out 15 times or fewer in a full season (600+ PA) in the 1950s (13 seasons). The most extreme: Nellie Fox, 1951 — 11 K in 681 PA."
   },
   {
-   "n": 74,
+   "n": 89,
    "rule": "k_per_9",
    "group": "P",
    "decade": 1950,
@@ -6286,6 +7788,7 @@
      "WHIP": 1.16
     }
    ],
+   "seasonsMatched": 36,
    "kind": "list",
    "score": 3.242485337243402,
    "players": [
@@ -6297,10 +7800,10 @@
    "seasons": [
     1955
    ],
-   "text": "36 times in the 1950s a pitcher struck out 6.5+ per nine innings (162+ IP). The most extreme: Herb Score, 1955 — 9.7 K/9, 245 K."
+   "text": "20 pitchers struck out 6.5+ per nine innings (162+ IP) in the 1950s (36 seasons). The most extreme: Herb Score, 1955 — 9.7 K/9, 245 K."
   },
   {
-   "n": 75,
+   "n": 90,
    "rule": "whip_under_1",
    "group": "P",
    "decade": 1950,
@@ -6438,6 +7941,7 @@
      "WHIP": 1.05
     }
    ],
+   "seasonsMatched": 6,
    "kind": "list",
    "score": 3.02375,
    "players": [
@@ -6449,7 +7953,7 @@
    "seasons": [
     1952
    ],
-   "text": "6 times in the 1950s a pitcher posted a WHIP of 1.05 or lower (162+ IP). The most extreme: Warren Hacker, 1952 — 0.95 WHIP in 185.0 IP."
+   "text": "5 pitchers posted a WHIP of 1.05 or lower (162+ IP) in the 1950s (6 seasons). The most extreme: Warren Hacker, 1952 — 0.95 WHIP in 185.0 IP."
   }
  ],
  "counts": {
@@ -6462,77 +7966,77 @@
   "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
   "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
  ],
- "generatedAt": "2026-09-28T03:27:20.516Z",
+ "generatedAt": "2026-09-28T03:31:06.998Z",
  "sources": [
   {
    "season": 1950,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1950&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1950&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1950&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:15.771Z"
+   "pulledAt": "2026-09-28T03:31:03.286Z"
   },
   {
    "season": 1951,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1951&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1951&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1951&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:16.187Z"
+   "pulledAt": "2026-09-28T03:31:03.646Z"
   },
   {
    "season": 1952,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1952&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1952&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1952&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:16.647Z"
+   "pulledAt": "2026-09-28T03:31:04.006Z"
   },
   {
    "season": 1953,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1953&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1953&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1953&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:17.093Z"
+   "pulledAt": "2026-09-28T03:31:04.378Z"
   },
   {
    "season": 1954,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1954&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1954&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1954&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:17.557Z"
+   "pulledAt": "2026-09-28T03:31:04.735Z"
   },
   {
    "season": 1955,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1955&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1955&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1955&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:18.191Z"
+   "pulledAt": "2026-09-28T03:31:05.102Z"
   },
   {
    "season": 1956,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1956&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1956&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1956&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:18.643Z"
+   "pulledAt": "2026-09-28T03:31:05.477Z"
   },
   {
    "season": 1957,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1957&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1957&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1957&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:19.098Z"
+   "pulledAt": "2026-09-28T03:31:05.836Z"
   },
   {
    "season": 1958,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1958&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1958&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1958&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:19.534Z"
+   "pulledAt": "2026-09-28T03:31:06.198Z"
   },
   {
    "season": 1959,
    "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1959&sportId=1&playerPool=All&limit=5000",
    "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1959&sportId=1&playerPool=All&limit=5000",
    "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1959&standingsTypes=regularSeason",
-   "pulledAt": "2026-09-28T03:27:19.994Z"
+   "pulledAt": "2026-09-28T03:31:06.558Z"
   }
  ]
 }

@@ -1,6 +1,6 @@
 {
  "decade": "1950s",
- "generatedAt": "2026-09-28T03:27:20.517Z",
+ "generatedAt": "2026-09-28T03:31:07.000Z",
  "method": [
   "Every hitter and every pitcher for every season was pulled from the MLB Stats API (statsapi.mlb.com), the official record; leaders were computed across the complete pull, never sampled or recalled.",
   "Rate categories (AVG, OBP, SLG, OPS, ERA, WHIP) use the modern qualification rule applied to each season's own team-game count: 3.1 PA per team game for hitters, one inning per team game for pitchers.",
@@ -11,7 +11,7 @@
  "seasons": [
   {
    "season": 1950,
-   "pulledAt": "2026-09-28T03:27:15.771Z",
+   "pulledAt": "2026-09-28T03:31:03.286Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1950&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1950&sportId=1&playerPool=All&limit=5000",
@@ -1430,7 +1430,7 @@
   },
   {
    "season": 1951,
-   "pulledAt": "2026-09-28T03:27:16.187Z",
+   "pulledAt": "2026-09-28T03:31:03.646Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1951&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1951&sportId=1&playerPool=All&limit=5000",
@@ -2867,7 +2867,7 @@
   },
   {
    "season": 1952,
-   "pulledAt": "2026-09-28T03:27:16.647Z",
+   "pulledAt": "2026-09-28T03:31:04.006Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1952&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1952&sportId=1&playerPool=All&limit=5000",
@@ -4286,7 +4286,7 @@
   },
   {
    "season": 1953,
-   "pulledAt": "2026-09-28T03:27:17.093Z",
+   "pulledAt": "2026-09-28T03:31:04.378Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1953&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1953&sportId=1&playerPool=All&limit=5000",
@@ -5687,7 +5687,7 @@
   },
   {
    "season": 1954,
-   "pulledAt": "2026-09-28T03:27:17.557Z",
+   "pulledAt": "2026-09-28T03:31:04.735Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1954&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1954&sportId=1&playerPool=All&limit=5000",
@@ -7097,7 +7097,7 @@
   },
   {
    "season": 1955,
-   "pulledAt": "2026-09-28T03:27:18.191Z",
+   "pulledAt": "2026-09-28T03:31:05.102Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1955&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1955&sportId=1&playerPool=All&limit=5000",
@@ -8489,7 +8489,7 @@
   },
   {
    "season": 1956,
-   "pulledAt": "2026-09-28T03:27:18.643Z",
+   "pulledAt": "2026-09-28T03:31:05.477Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1956&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1956&sportId=1&playerPool=All&limit=5000",
@@ -9863,7 +9863,7 @@
   },
   {
    "season": 1957,
-   "pulledAt": "2026-09-28T03:27:19.098Z",
+   "pulledAt": "2026-09-28T03:31:05.836Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1957&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1957&sportId=1&playerPool=All&limit=5000",
@@ -11237,7 +11237,7 @@
   },
   {
    "season": 1958,
-   "pulledAt": "2026-09-28T03:27:19.534Z",
+   "pulledAt": "2026-09-28T03:31:06.198Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1958&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1958&sportId=1&playerPool=All&limit=5000",
@@ -12629,7 +12629,7 @@
   },
   {
    "season": 1959,
-   "pulledAt": "2026-09-28T03:27:19.994Z",
+   "pulledAt": "2026-09-28T03:31:06.558Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1959&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1959&sportId=1&playerPool=All&limit=5000",
