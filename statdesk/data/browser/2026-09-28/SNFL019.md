@@ -1,0 +1,20 @@
+# SNFL019 — NFL 1980s alltd_hi
+
+- Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
+- Page URL: https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&comp_id=NFL&order_by=all_td&order_by_asc=0&ccomp[1]=gt&cval[1]=20&cstat[1]=all_td
+- Timestamp: 2026-09-28T05:32:52.262Z
+- Rows read: 4
+
+## Result table
+
+```
+header_empty_0 | header_pat | header_fgtot | ranker | name_display | all_td | year_id | age | teams_played_for | games | games_started | all_td | xpm | xpa | xp_pct | fgm | fga | fg_pct | two_pt_md | safety_md | scoring | pos
+ |  |  | 1 | John Riggins | 24 | 1983 | 34 | WAS | 15 | 15 | 24 | 0 | 0 |  | 0 | 0 |  |  | 0 | 144 | RB
+ |  |  | 2 | Jerry Rice | 23 | 1987 | 25 | SFO | 12 | 12 | 23 | 0 | 0 |  | 0 | 0 |  |  | 0 | 138 | WR
+ |  |  | 3 | Joe Morris | 21 | 1985 | 25 | NYG | 16 | 16 | 21 | 0 | 0 |  | 0 | 0 |  |  | 0 | 126 | RB
+ |  |  | 4 | Eric Dickerson | 20 | 1983 | 23 | RAM | 16 | 16 | 20 | 0 | 0 |  | 0 | 0 |  |  | 0 | 120 | RB
+```
+
+## Claim check
+
+- Complete set: all 4 rows read. A superlative may be asserted only if it holds across every row above.
