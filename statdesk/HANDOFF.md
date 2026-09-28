@@ -9,6 +9,51 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 Last updated: 2026-09-28. THE PIPELINE IS BUILT AND WORKING END TO END.
 
+### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
+
+Nick asked for the MLB decade-fact pipeline (unique, engaging oddity lines, not
+league leaders) for every NBA decade, NFL, college football, college basketball,
+plus 100 Michael Jordan facts. He added all Sports Reference sports to his
+Stathead subscription for this.
+
+Sources and code, by sport:
+- NBA 1940s-2020s: `statdesk/nba/pull.js` (stats.nba.com, self-hosted runner) ->
+  `statdesk/nba/facts.js` -> `statdesk/data/nba/facts/<decade>s-facts.json`.
+  1940s has 38 lines, 1950s 83, 1960s 98, the rest 100 (early seasons kept few stats).
+- Michael Jordan: `statdesk/nba/mj-facts.js` -> `statdesk/data/nba/facts/mj-facts.json`
+  (100, from his official career, game logs and commonplayerinfo birthdate —
+  ages are exact, never the API's season-age label).
+- NFL 2000s-2020s: nflverse CSVs (`statdesk/nfl/fetch.sh`, gitignored raw) ->
+  `statdesk/nfl/facts.js`.
+- NFL 1920s-1990s, college football, college basketball: `statdesk/sport-facts.js`,
+  one Stathead finder query per rule in the signed-in browser, rows stored as
+  provenance (`statdesk/data/browser/<date>/S<SPORT>nnn.md`). Output
+  `statdesk/data/<nfl|cfb|cbb>/facts/<decade>s-facts.json`. Dispatch with
+  `statdesk-multisport.yml`, task `sport-facts`, args `nfl cfb cbb` (and optional
+  decades). Each sport commits as it finishes.
+- Render any set with `statdesk/render-facts.js` (one landscape page per file,
+  closing method page), then headless Chromium to PDF.
+
+Rules in sport-facts.js that must not be loosened:
+- Every filter is re-checked locally on the returned rows; a criterion the site
+  ignored can never produce a false "only".
+- A result set that was cut off (more pages than read) never claims "only" or an
+  exact count; it says "more than N".
+- Derived "most N-yard seasons" / oldest / youngest lines come from the top-200
+  rows of a "most in a season" query and are used only when those rows provably
+  include every qualifying season.
+- Decade totals use the finder's combined-seasons option, whose value is read off
+  the form; if the answer comes back as single seasons the totals are skipped.
+- NFL sacks before 1982 are unofficial on Pro Football Reference and are dropped.
+- Coverage: college football player seasons start 1956, team seasons 1869 (major
+  college). College basketball (men's, comp_id=NCAAM — without it women's seasons
+  mix in) starts 1947-48 for players and teams. The 2026 college football season is
+  in progress and excluded.
+
+Status at last update: NBA, MJ and NFL 2000s-2020s done and sent as PDFs earlier.
+Run 8 (NFL pre-2000 + CFB + CBB) dispatched 2026-09-28 05:41 UTC on commit 9763f2f.
+Still open: render/send those PDFs; Stathead cross-check samples for NBA/MJ.
+
 ### How it runs now
 
 Nick asks in any chat on any device. Claude dispatches the GitHub Actions
