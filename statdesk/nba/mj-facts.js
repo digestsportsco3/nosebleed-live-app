@@ -241,7 +241,8 @@ function main() {
   const shortGames = RS.filter((g) => g.season === short.SEASON_ID);
   add("season", `His shortest season: ${short.GP} games in ${short.SEASON_ID}, averaging ${d1(ppg(short))} — his first game that season came ${on(shortGames[0])}.`, short, 6);
   const last = seas[seas.length - 1];
-  add("season", `In his final season, ${last.SEASON_ID}, at age ${last.PLAYER_AGE}, he played ${last.GP} games and averaged ${d1(ppg(last))} points.`, last, 8);
+  const lastSG = RS.filter((g) => g.season === last.SEASON_ID); const la0 = ageOn(lastSG[0].date), la1 = ageOn(lastSG[lastSG.length - 1].date);
+  add("season", `In his final season, ${last.SEASON_ID}${la0 && la1 ? `, aged ${la0.y === la1.y ? la0.y : `${la0.y} to ${la1.y}`}` : ""}, he played ${last.GP} games and averaged ${d1(ppg(last))} points.`, last, 8);
   const old = seas.filter((r) => r.PLAYER_AGE >= 38);
   const oldGames = RS.filter((g) => old.some((r) => r.SEASON_ID === g.season));
   add("season", `At 38 and older he scored 40+ ${cnt(oldGames, (g) => g.PTS >= 40)} times and 30+ ${cnt(oldGames, (g) => g.PTS >= 30)} times in ${oldGames.length} games.`, oldGames.filter((g) => g.PTS >= 40).map(gEv), 8);

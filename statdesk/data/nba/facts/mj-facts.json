@@ -1,8 +1,8 @@
 {
  "subject": "Michael Jordan",
  "playerId": 893,
- "generatedAt": "2026-09-28T05:17:01.544Z",
- "candidates": 111,
+ "generatedAt": "2026-09-28T05:17:45.284Z",
+ "candidates": 112,
  "facts": [
   {
    "n": 1,
@@ -14,7 +14,7 @@
   {
    "n": 2,
    "kind": "career",
-   "text": "His first NBA game: 16 points Oct 26, 1984 vs. Washington.",
+   "text": "His first NBA game: 16 points Oct 26, 1984 vs. Washington, at 21 years, 252 days old.",
    "evidence": [
     {
      "date": "Oct 26, 1984",
@@ -41,7 +41,7 @@
   {
    "n": 3,
    "kind": "career",
-   "text": "His last NBA game: 15 points Apr 16, 2003 at Philadelphia.",
+   "text": "His last NBA game: 15 points Apr 16, 2003 at Philadelphia, at 40 years, 58 days old.",
    "evidence": [
     {
      "date": "Apr 16, 2003",
@@ -1259,7 +1259,7 @@
   {
    "n": 20,
    "kind": "league",
-   "text": "In 2001-02, with Washington, he ranked No. 10 in the league in scoring at 22.9 points a game.",
+   "text": "In 2001-02, aged 38 to 39, he ranked No. 10 in the league in scoring at 22.9 points a game.",
    "evidence": [
     {
      "name": "Allen Iverson",
@@ -1287,7 +1287,7 @@
   {
    "n": 21,
    "kind": "league",
-   "text": "In 2002-03, with Washington, he ranked No. 25 in the league in scoring at 20.0 points a game.",
+   "text": "In 2002-03, aged 39 to 40, he ranked No. 25 in the league in scoring at 20.0 points a game.",
    "evidence": [
     {
      "name": "Tracy McGrady",
@@ -1592,7 +1592,7 @@
   {
    "n": 24,
    "kind": "season",
-   "text": "His last 50-point game: 51 points Dec 29, 2001 vs. Charlotte.",
+   "text": "His last 50-point game: 51 points Dec 29, 2001 vs. Charlotte, at 38 years, 315 days old.",
    "evidence": [
     {
      "date": "Dec 29, 2001",
@@ -1656,7 +1656,7 @@
   {
    "n": 26,
    "kind": "season",
-   "text": "In his final season, 2002-03, at age 40, he played 82 games and averaged 20.0 points.",
+   "text": "In his final season, 2002-03, aged 39 to 40, he played 82 games and averaged 20.0 points.",
    "evidence": [
     {
      "PLAYER_ID": 893,
@@ -1853,6 +1853,33 @@
   {
    "n": 28,
    "kind": "season",
+   "text": "His last 40-point game: 43 Feb 21, 2003 vs. New Jersey, at 40 years, 4 days old.",
+   "evidence": [
+    {
+     "date": "Feb 21, 2003",
+     "season": "2002-03",
+     "type": "rs",
+     "matchup": "WAS vs. NJN",
+     "WL": "W",
+     "PTS": 43,
+     "REB": 10,
+     "AST": 3,
+     "STL": 4,
+     "BLK": 1,
+     "FGM": 18,
+     "FGA": 30,
+     "FTM": 7,
+     "FTA": 8,
+     "FG3M": 0,
+     "MIN": 43,
+     "game": "0020200783"
+    }
+   ],
+   "score": 8
+  },
+  {
+   "n": 29,
+   "kind": "season",
    "text": "In 1994-95 he scored 55 Mar 28, 1995 at New York in just his fifth game of the season.",
    "evidence": [
     {
@@ -1878,14 +1905,14 @@
    "score": 8
   },
   {
-   "n": 29,
+   "n": 30,
    "kind": "season",
    "text": "His most 30-point games in a season: 67, in 1986-87. Most 40-point games: 37, in 1986-87.",
    "evidence": [],
    "score": 8
   },
   {
-   "n": 30,
+   "n": 31,
    "kind": "season",
    "text": "His most triple-doubles in a season: 15, in 1988-89.",
    "evidence": [
@@ -2121,7 +2148,7 @@
    "score": 7
   },
   {
-   "n": 31,
+   "n": 32,
    "kind": "season",
    "text": "His best shot-blocking season: 131 blocks in 1987-88, as a guard.",
    "evidence": [
@@ -2158,7 +2185,7 @@
    "score": 7
   },
   {
-   "n": 32,
+   "n": 33,
    "kind": "season",
    "text": "His shortest season: 17 games in 1994-95, averaging 26.9 — his first game that season came Mar 19, 1995 at Indiana.",
    "evidence": [
@@ -2195,7 +2222,7 @@
    "score": 6
   },
   {
-   "n": 33,
+   "n": 34,
    "kind": "season",
    "text": "His best steals season: 259 in 1987-88 (3.2 a game).",
    "evidence": [
@@ -2232,7 +2259,7 @@
    "score": 6
   },
   {
-   "n": 34,
+   "n": 35,
    "kind": "season",
    "text": "His most efficient season from the field: .539 in 1990-91, while averaging 31.5.",
    "evidence": [
@@ -2269,7 +2296,7 @@
    "score": 6
   },
   {
-   "n": 35,
+   "n": 36,
    "kind": "season",
    "text": "His best three-point season: .427 on 260 attempts in 1995-96.",
    "evidence": [
@@ -2306,7 +2333,7 @@
    "score": 6
   },
   {
-   "n": 36,
+   "n": 37,
    "kind": "season",
    "text": "He played all 82 games in 9 seasons.",
    "evidence": [
@@ -2575,7 +2602,7 @@
    "score": 6
   },
   {
-   "n": 37,
+   "n": 38,
    "kind": "games",
    "text": "Jordan scored 50+ points in 31 regular-season games — 3% of all his regular-season games.",
    "evidence": [
@@ -2811,7 +2838,7 @@
    "score": 9
   },
   {
-   "n": 38,
+   "n": 39,
    "kind": "games",
    "text": "His regular-season career high: 69 points, Mar 28, 1990 at Cleveland (23-37 FG, 21-23 FT, W).",
    "evidence": [
@@ -2838,7 +2865,7 @@
    "score": 9
   },
   {
-   "n": 39,
+   "n": 40,
    "kind": "games",
    "text": "Jordan scored 50+ points in 8 playoff games — 4% of all his playoff games.",
    "evidence": [
@@ -2998,7 +3025,7 @@
    "score": 9
   },
   {
-   "n": 40,
+   "n": 41,
    "kind": "games",
    "text": "His playoff career high: 63 points, Apr 20, 1986 at Boston (22-41 FG, 19-21 FT, L).",
    "evidence": [
@@ -3025,7 +3052,7 @@
    "score": 9
   },
   {
-   "n": 41,
+   "n": 42,
    "kind": "games",
    "text": "4 regular-season games of 60+ points: 61 Mar 4, 1987 at Detroit; 61 Apr 16, 1987 vs. Atlanta; 69 Mar 28, 1990 at Cleveland; 64 Jan 16, 1993 vs. Orlando.",
    "evidence": [
@@ -3109,7 +3136,7 @@
    "score": 8
   },
   {
-   "n": 42,
+   "n": 43,
    "kind": "games",
    "text": "One playoff game of 60+ points: 63 Apr 20, 1986 at Boston.",
    "evidence": [
@@ -3136,7 +3163,7 @@
    "score": 8
   },
   {
-   "n": 43,
+   "n": 44,
    "kind": "games",
    "text": "Jordan scored 30+ points in 562 regular-season games — 52% of all his regular-season games.",
    "evidence": [
@@ -3372,7 +3399,7 @@
    "score": 7
   },
   {
-   "n": 44,
+   "n": 45,
    "kind": "games",
    "text": "Jordan scored 40+ points in 173 regular-season games — 16% of all his regular-season games.",
    "evidence": [
@@ -3608,7 +3635,7 @@
    "score": 7
   },
   {
-   "n": 45,
+   "n": 46,
    "kind": "games",
    "text": "Jordan scored 30+ points in 109 playoff games — 61% of all his playoff games.",
    "evidence": [
@@ -3844,7 +3871,7 @@
    "score": 7
   },
   {
-   "n": 46,
+   "n": 47,
    "kind": "games",
    "text": "Jordan scored 40+ points in 38 playoff games — 21% of all his playoff games.",
    "evidence": [
@@ -4080,7 +4107,7 @@
    "score": 7
   },
   {
-   "n": 47,
+   "n": 48,
    "kind": "games",
    "text": "Triple-doubles: 28 in the regular season, 2 in the playoffs.",
    "evidence": [
@@ -4316,7 +4343,7 @@
    "score": 7
   },
   {
-   "n": 48,
+   "n": 49,
    "kind": "games",
    "text": "Games with 40 points and 10 assists: 12 — the biggest was 57 and 10, Dec 23, 1992 vs. Washington.",
    "evidence": [
@@ -4552,7 +4579,7 @@
    "score": 7
   },
   {
-   "n": 49,
+   "n": 50,
    "kind": "games",
    "text": "Best shooting night on 20+ attempts: 24-29 (.828), Nov 16, 1988 at Philadelphia, for 52 points.",
    "evidence": [
@@ -4579,7 +4606,7 @@
    "score": 7
   },
   {
-   "n": 50,
+   "n": 51,
    "kind": "games",
    "text": "Most threes in a game: 7, Jan 18, 1990 vs. Golden State (regular season).",
    "evidence": [
@@ -4606,7 +4633,7 @@
    "score": 7
   },
   {
-   "n": 51,
+   "n": 52,
    "kind": "games",
    "text": "His teams' record in his 40-point regular-season games: 121-52.",
    "evidence": [
@@ -4842,7 +4869,7 @@
    "score": 7
   },
   {
-   "n": 52,
+   "n": 53,
    "kind": "games",
    "text": "His teams' record in his 50-point regular-season games: 23-8.",
    "evidence": [
@@ -5002,7 +5029,7 @@
    "score": 7
   },
   {
-   "n": 53,
+   "n": 54,
    "kind": "games",
    "text": "He scored 50 or more and still lost 10 times — the most in a defeat was 64.",
    "evidence": [
@@ -5200,7 +5227,7 @@
    "score": 7
   },
   {
-   "n": 54,
+   "n": 55,
    "kind": "games",
    "text": "He had 5+ steals in 105 regular-season games and 5+ blocks in 6.",
    "evidence": [
@@ -5436,7 +5463,7 @@
    "score": 6
   },
   {
-   "n": 55,
+   "n": 56,
    "kind": "games",
    "text": "Career-high steals in a game: 10, Jan 29, 1988 vs. New Jersey. Career-high blocks: 6, Dec 2, 1986 at Seattle.",
    "evidence": [
@@ -5482,7 +5509,7 @@
    "score": 6
   },
   {
-   "n": 56,
+   "n": 57,
    "kind": "games",
    "text": "Career-high assists in a game: 17, Mar 24, 1989 at Portland. Career-high rebounds: 19, May 14, 1991 vs. Philadelphia.",
    "evidence": [
@@ -5528,7 +5555,7 @@
    "score": 6
   },
   {
-   "n": 57,
+   "n": 58,
    "kind": "games",
    "text": "Jordan had 8 games with 50 points and 10 rebounds.",
    "evidence": [
@@ -5688,7 +5715,7 @@
    "score": 6
   },
   {
-   "n": 58,
+   "n": 59,
    "kind": "games",
    "text": "Games with at least four steals and four blocks: 13.",
    "evidence": [
@@ -5924,7 +5951,7 @@
    "score": 6
   },
   {
-   "n": 59,
+   "n": 60,
    "kind": "games",
    "text": "Most shots in a game: 49 field-goal attempts, Jan 16, 1993 vs. Orlando (27 made, 64 points).",
    "evidence": [
@@ -5951,7 +5978,7 @@
    "score": 6
   },
   {
-   "n": 60,
+   "n": 61,
    "kind": "games",
    "text": "Most free throws made in a game: 26 of 27, Feb 26, 1987 vs. New Jersey.",
    "evidence": [
@@ -5978,7 +6005,7 @@
    "score": 6
   },
   {
-   "n": 61,
+   "n": 62,
    "kind": "games",
    "text": "Most free throws without a miss: 15-for-15, Jan 10, 1987 vs. New Jersey.",
    "evidence": [
@@ -6005,7 +6032,7 @@
    "score": 6
   },
   {
-   "n": 62,
+   "n": 63,
    "kind": "games",
    "text": "14 of his regular-season 50-point games came without a single made three.",
    "evidence": [
@@ -6241,7 +6268,7 @@
    "score": 6
   },
   {
-   "n": 63,
+   "n": 64,
    "kind": "games",
    "text": "He scored 40+ without a turnover 15 times.",
    "evidence": [
@@ -6475,242 +6502,6 @@
     }
    ],
    "score": 6
-  },
-  {
-   "n": 64,
-   "kind": "games",
-   "text": "He attempted 20+ free throws in 22 games.",
-   "evidence": [
-    {
-     "date": "Apr 26, 1985",
-     "season": "1984-85",
-     "type": "po",
-     "matchup": "CHI vs. MIL",
-     "WL": "L",
-     "PTS": 29,
-     "REB": 7,
-     "AST": 5,
-     "STL": 2,
-     "BLK": 3,
-     "FGM": 6,
-     "FGA": 16,
-     "FTM": 17,
-     "FTA": 20,
-     "FG3M": 0,
-     "MIN": 42,
-     "game": "0048400114"
-    },
-    {
-     "date": "Apr 20, 1986",
-     "season": "1985-86",
-     "type": "po",
-     "matchup": "CHI @ BOS",
-     "WL": "L",
-     "PTS": 63,
-     "REB": 5,
-     "AST": 6,
-     "STL": 3,
-     "BLK": 2,
-     "FGM": 22,
-     "FGA": 41,
-     "FTM": 19,
-     "FTA": 21,
-     "FG3M": 0,
-     "MIN": 53,
-     "game": "0048509102"
-    },
-    {
-     "date": "Nov 01, 1986",
-     "season": "1986-87",
-     "type": "rs",
-     "matchup": "CHI @ NYK",
-     "WL": "W",
-     "PTS": 50,
-     "REB": 6,
-     "AST": 3,
-     "STL": 4,
-     "BLK": 3,
-     "FGM": 15,
-     "FGA": 31,
-     "FTM": 20,
-     "FTA": 22,
-     "FG3M": 0,
-     "MIN": 41,
-     "game": "0028600014"
-    },
-    {
-     "date": "Feb 26, 1987",
-     "season": "1986-87",
-     "type": "rs",
-     "matchup": "CHI vs. NJN",
-     "WL": "W",
-     "PTS": 58,
-     "REB": 8,
-     "AST": 3,
-     "STL": 3,
-     "BLK": 2,
-     "FGM": 16,
-     "FGA": 25,
-     "FTM": 26,
-     "FTA": 27,
-     "FG3M": 0,
-     "MIN": 37,
-     "game": "0028600639"
-    },
-    {
-     "date": "Mar 22, 1987",
-     "season": "1986-87",
-     "type": "rs",
-     "matchup": "CHI @ POR",
-     "WL": "L",
-     "PTS": 46,
-     "REB": 1,
-     "AST": 6,
-     "STL": 4,
-     "BLK": 0,
-     "FGM": 14,
-     "FGA": 26,
-     "FTM": 18,
-     "FTA": 20,
-     "FG3M": 0,
-     "MIN": 43,
-     "game": "0028600778"
-    },
-    {
-     "date": "Apr 13, 1987",
-     "season": "1986-87",
-     "type": "rs",
-     "matchup": "CHI @ MIL",
-     "WL": "W",
-     "PTS": 50,
-     "REB": 9,
-     "AST": 4,
-     "STL": 4,
-     "BLK": 3,
-     "FGM": 16,
-     "FGA": 31,
-     "FTM": 18,
-     "FTA": 22,
-     "FG3M": 0,
-     "MIN": 41,
-     "game": "0028600903"
-    },
-    {
-     "date": "Apr 16, 1987",
-     "season": "1986-87",
-     "type": "rs",
-     "matchup": "CHI vs. ATL",
-     "WL": "L",
-     "PTS": 61,
-     "REB": 10,
-     "AST": 1,
-     "STL": 4,
-     "BLK": 1,
-     "FGM": 22,
-     "FGA": 38,
-     "FTM": 17,
-     "FTA": 21,
-     "FG3M": 0,
-     "MIN": 41,
-     "game": "0028600921"
-    },
-    {
-     "date": "Feb 23, 1988",
-     "season": "1987-88",
-     "type": "rs",
-     "matchup": "CHI vs. SEA",
-     "WL": "W",
-     "PTS": 39,
-     "REB": 9,
-     "AST": 5,
-     "STL": 4,
-     "BLK": 2,
-     "FGM": 11,
-     "FGA": 29,
-     "FTM": 17,
-     "FTA": 20,
-     "FG3M": 0,
-     "MIN": 48,
-     "game": "0028700588"
-    },
-    {
-     "date": "Dec 20, 1988",
-     "season": "1988-89",
-     "type": "rs",
-     "matchup": "CHI vs. LAL",
-     "WL": "W",
-     "PTS": 42,
-     "REB": 7,
-     "AST": 8,
-     "STL": 4,
-     "BLK": 0,
-     "FGM": 11,
-     "FGA": 23,
-     "FTM": 18,
-     "FTA": 22,
-     "FG3M": 2,
-     "MIN": 39,
-     "game": "0028800277"
-    },
-    {
-     "date": "Apr 07, 1989",
-     "season": "1988-89",
-     "type": "rs",
-     "matchup": "CHI vs. DET",
-     "WL": "L",
-     "PTS": 40,
-     "REB": 7,
-     "AST": 11,
-     "STL": 2,
-     "BLK": 0,
-     "FGM": 11,
-     "FGA": 18,
-     "FTM": 18,
-     "FTA": 21,
-     "FG3M": 0,
-     "MIN": 42,
-     "game": "0028800920"
-    },
-    {
-     "date": "May 05, 1989",
-     "season": "1988-89",
-     "type": "po",
-     "matchup": "CHI vs. CLE",
-     "WL": "L",
-     "PTS": 50,
-     "REB": 3,
-     "AST": 4,
-     "STL": 3,
-     "BLK": 0,
-     "FGM": 14,
-     "FGA": 28,
-     "FTM": 22,
-     "FTA": 27,
-     "FG3M": 0,
-     "MIN": 43,
-     "game": "0048800026"
-    },
-    {
-     "date": "May 14, 1989",
-     "season": "1988-89",
-     "type": "po",
-     "matchup": "CHI vs. NYK",
-     "WL": "W",
-     "PTS": 47,
-     "REB": 11,
-     "AST": 6,
-     "STL": 1,
-     "BLK": 2,
-     "FGM": 12,
-     "FGA": 18,
-     "FTM": 23,
-     "FTA": 28,
-     "FG3M": 0,
-     "MIN": 42,
-     "game": "0048800044"
-    }
-   ],
-   "score": 5
   },
   {
    "n": 65,

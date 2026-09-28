@@ -36,23 +36,45 @@ async function main() {
       try {
         const res = await sh.page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
         rec = await sh.page.evaluate(() => {
-          const f = document.querySelector("form#finder") || document.querySelector("form[action*='finder']") || document.querySelector("form");
-          if (!f) return { error: "no form" };
+          // Defensive read: every named select/input on the page (not only in a
+          // form), every datalist, and any picker items carrying data-value.
           const fields = {};
-          for (const el of f.querySelectorAll("select, input")) {
-            const name = el.getAttribute("name"); if (!name) continue;
-            if (el.tagName === "SELECT") {
-              const opts = [...el.options].map((o) => [o.value, (o.textContent || "").trim()]);
-              if (!fields[name] || opts.length > fields[name].options.length) fields[name] = { type: "select", options: opts };
-            } else if (!fields[name]) fields[name] = { type: el.type, value: el.value, placeholder: el.placeholder || undefined };
+          for (const el of document.querySelectorAll("select[name], input[name], textarea[name]")) {
+            const name = el.getAttribute("name");
+            const entry = el.tagName === "SELECT" ? { type: "select", options: [...el.options].map((o) => [o.value, (o.textContent || "").trim()]).slice(0, 800) }
+              : { type: el.type || el.tagName.toLowerCase(), value: el.value || undefined, list: el.getAttribute("list") || undefined };
+            const prev = fields[name];
+            if (!prev || (entry.options && (!prev.options || entry.options.length > prev.options.length))) fields[name] = entry;
           }
-          return { title: document.title, action: f.getAttribute("action"), fields };
-        });
-        rec.status = res ? res.status() : 0;
+          const datalists = {};
+          for (const dl of document.querySelectorAll("datalist")) datalists[dl.id || `dl${Object.keys(datalists).length}`] = [...dl.querySelectorAll("option")].map((o) => [o.value, o.label || o.textContent.trim()]).slice(0, 800);
+          const picks = [...document.querySelectorAll("[data-value]")].slice(0, 1500).map((e) => [e.getAttribute("data-value"), (e.textContent || "").trim().slice(0, 60)]);
+          return { title: document.title, fields, datalists, picks };
+        });        rec.status = res ? res.status() : 0;
       } catch (e) { rec = { error: e.message }; }
+      // The column keys of a results table are the finder's stat keys (the
+      // baseball keys b_hr etc. match exactly this way). One small unfiltered
+      // sample query per finder records them with their labels.
+      if (!rec.error) {
+        const match = /team-game/.test(form) ? "team_game" : /team/.test(form) ? "team_season" : /game/.test(form) ? "player_game" : "player_season";
+        const y = sport === "basketball" || sport === "cbb" ? 2024 : 2023;
+        const sample = `${url}?request=1&match=${match}&year_min=${y}&year_max=${y}`;
+        try {
+          await sh.throttle();
+          await sh.page.goto(sample, { waitUntil: "domcontentloaded", timeout: 60000 });
+          rec.sample = await sh.page.evaluate(() => {
+            const t = document.querySelector("table#stats") || document.querySelector("table.stats_table");
+            if (!t) return { error: "no results table", title: document.title };
+            const headers = [...t.querySelectorAll("thead th[data-stat]")].map((th) => [th.getAttribute("data-stat"), (th.getAttribute("aria-label") || th.getAttribute("data-tip") || th.textContent || "").trim()]);
+            const body = document.body.innerText || ""; const m = body.match(/Showing\s+([\d,]+)\s+of\s+([\d,]+)/i);
+            return { headers, rows: t.querySelectorAll("tbody tr").length, reported: m ? m[2] : null };
+          });
+          rec.sample.url = sample;
+        } catch (e) { rec.sample = { error: e.message, url: sample }; }
+      }
       out[`${sport}/${form}`] = { url, ...rec };
-      const cstat = rec.fields && Object.entries(rec.fields).find(([k]) => /^cstat/.test(k));
-      console.log(`${sport}/${form}: ${rec.error || `${Object.keys(rec.fields || {}).length} fields, ${cstat ? cstat[1].options.length : 0} stat options`}`);
+      const cst = rec.fields && Object.entries(rec.fields).find(([k, v]) => /^cstat/.test(k) && v.options);
+      console.log(`${sport}/${form}: ${rec.error || `${Object.keys(rec.fields || {}).length} fields, ${cst ? cst[1].options.length : 0} stat dropdown options, ${rec.datalists ? Object.keys(rec.datalists).length : 0} datalists, ${rec.picks ? rec.picks.length : 0} picker items; sample columns: ${rec.sample && rec.sample.headers ? rec.sample.headers.length : (rec.sample && rec.sample.error) || 0}`}`);
     }
   } finally { await sh.close(); }
   const dir = path.join(__dirname, "data", "stathead-forms"); fs.mkdirSync(dir, { recursive: true });
