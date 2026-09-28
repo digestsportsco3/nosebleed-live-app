@@ -46,7 +46,8 @@
    "seasons": [
     1904
    ],
-   "text": "The only major-college team of the 1900s to get outscored by 300 points: Grinnell, 1904 — 16-385, 1-6-1."
+   "text": "The only major-college team of the 1900s to get outscored by 300 points: Grinnell, 1904 — 16-385, 1-6-1.",
+   "why": "A club of one in the 1900s; \"name another\" posts draw replies. Blowout futility makes rival fan bases pile on."
   },
   {
    "n": 2,
@@ -89,7 +90,8 @@
    "seasons": [
     1904
    ],
-   "text": "The only major-college team of the 1900s to allow 350 points: Grinnell, 1904 — 385 allowed, 1-6-1."
+   "text": "The only major-college team of the 1900s to allow 350 points: Grinnell, 1904 — 385 allowed, 1-6-1.",
+   "why": "Nobody else in the 1900s did it, and exclusivity is what gets a post shared. Porous defenses make for rival-fan dunking."
   },
   {
    "n": 3,
@@ -132,7 +134,8 @@
    "seasons": [
     1901
    ],
-   "text": "The only major-college team of the 1900s to lose 11 games: Lehigh, 1901 — 1-11."
+   "text": "The only major-college team of the 1900s to lose 11 games: Lehigh, 1901 — 1-11.",
+   "why": "A club of one in the 1900s; \"name another\" posts draw replies. Losing seasons are what rival fans remember best."
   },
   {
    "n": 4,
@@ -254,7 +257,8 @@
      "points_diff": 493
     }
    ],
-   "text": "Most 300-point seasons in the 1900s: Michigan, 5 (1901, 1902, 1903, 1904, 1905)."
+   "text": "Most 300-point seasons in the 1900s: Michigan, 5 (1901, 1902, 1903, 1904, 1905).",
+   "why": "A decade of consistency in one number; names the most reliable producer of the 1900s."
   },
   {
    "n": 5,
@@ -456,7 +460,8 @@
      "points_diff": 138
     }
    ],
-   "text": "Most 8-win seasons in the 1900s: Yale, 9."
+   "text": "Most 8-win seasons in the 1900s: Yale, 9.",
+   "why": "A decade of consistency in one number; names the most reliable producer of the 1900s."
   },
   {
    "n": 6,
@@ -571,7 +576,8 @@
     1901,
     1909
    ],
-   "text": "Just four major-college teams of the 1900s went a whole season without allowing a point (4+ games): Yale (1909: 10-0, 209-0); Nebraska (1902: 10-0, 186-0); Michigan (1901: 11-0, 550-0); Colorado (1909: 6-0, 141-0)."
+   "text": "Just four major-college teams of the 1900s went a whole season without allowing a point (4+ games): Yale (1909: 10-0, 209-0); Nebraska (1902: 10-0, 186-0); Michigan (1901: 11-0, 550-0); Colorado (1909: 6-0, 141-0).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. A season without allowing a point sounds impossible; that is the post."
   },
   {
    "n": 7,
@@ -662,7 +668,8 @@
     1902,
     1903
    ],
-   "text": "Just three major-college teams of the 1900s lost every game (7+ games): Franklin & Marshall (1904: 0-10, outscored 303-11); Boston College (1902: 0-9, outscored 180-17); Texas Christian (1903: 0-7, outscored 98-11)."
+   "text": "Just three major-college teams of the 1900s lost every game (7+ games): Franklin & Marshall (1904: 0-10, outscored 303-11); Boston College (1902: 0-9, outscored 180-17); Texas Christian (1903: 0-7, outscored 98-11).",
+   "why": "A short list fans can recite; each name brings its own fan base. Futility stats are among the most shared in sports."
   },
   {
    "n": 8,
@@ -800,7 +807,8 @@
    "seasons": [
     1904
    ],
-   "text": "6 major-college teams scored 400 points in the 1900s (13 seasons). The most extreme: Minnesota, 1904 — 725 points, 13-0."
+   "text": "6 major-college teams scored 400 points in the 1900s (13 seasons). The most extreme: Minnesota, 1904 — 725 points, 13-0.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring totals are universal; no explanation needed."
   },
   {
    "n": 9,
@@ -938,7 +946,8 @@
    "seasons": [
     1904
    ],
-   "text": "6 major-college teams outscore opponents by 350 in the 1900s (14 seasons). The most extreme: Minnesota, 1904 — 725-12."
+   "text": "6 major-college teams outscored opponents by 350 in the 1900s (14 seasons). The most extreme: Minnesota, 1904 — 725-12.",
+   "why": "Shows how high the bar was across the 1900s; the extreme case is the hook. Margin of victory is the cleanest measure of dominance."
   },
   {
    "n": 10,
@@ -1056,7 +1065,8 @@
      "points_diff": 559
     }
    ],
-   "text": "Most points by a team in a season in the 1900s: Minnesota, 1904 — 725 (13-0)."
+   "text": "Most points by a team in a season in the 1900s: Minnesota, 1904 — 725 (13-0).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring totals are universal; no explanation needed."
   },
   {
    "n": 11,
@@ -1174,7 +1184,8 @@
      "points_diff": -163
     }
    ],
-   "text": "Most losses in a season in the 1900s: Lehigh, 1901 — 1-11."
+   "text": "Most losses in a season in the 1900s: Lehigh, 1901 — 1-11.",
+   "why": "The high-water mark of the 1900s: a clean \"who did it best\" answer. Losing seasons are what rival fans remember best."
   },
   {
    "n": 12,
@@ -1292,7 +1303,8 @@
      "points_opp": 215
     }
    ],
-   "text": "Worst scoring margin in a season in the 1900s: Grinnell, 1904 — outscored 385-16."
+   "text": "Worst scoring margin in a season in the 1900s: Grinnell, 1904 — outscored 385-16.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Blowout futility makes rival fan bases pile on."
   },
   {
    "n": 13,
@@ -1410,7 +1422,8 @@
      "points_opp": 0
     }
    ],
-   "text": "Biggest scoring margin in a season in the 1900s: Minnesota, 1904 — 725-12."
+   "text": "Biggest scoring margin in a season in the 1900s: Minnesota, 1904 — 725-12.",
+   "why": "The high-water mark of the 1900s: a clean \"who did it best\" answer. Margin of victory is the cleanest measure of dominance."
   },
   {
    "n": 14,
@@ -1548,7 +1561,8 @@
    "seasons": [
     1903
    ],
-   "text": "17 major-college teams went unbeaten but not untied (6+ games) in the 1900s (21 seasons). The most extreme: Minnesota, 1903 — 14-0-1."
+   "text": "17 major-college teams went unbeaten but not untied (6+ games) in the 1900s (21 seasons). The most extreme: Minnesota, 1903 — 14-0-1.",
+   "why": "Leads with the most extreme case, which carries the post. Unbeaten but tied: an old-era oddity modern fans find strange."
   },
   {
    "n": 15,
@@ -1686,7 +1700,8 @@
    "seasons": [
     1903
    ],
-   "text": "18 major-college teams won 10 games in the 1900s (48 seasons). The most extreme: Minnesota, 1903 — 14-0-1."
+   "text": "18 major-college teams won 10 games in the 1900s (48 seasons). The most extreme: Minnesota, 1903 — 14-0-1.",
+   "why": "Shows how high the bar was across the 1900s; the extreme case is the hook. Win totals are the first thing fans cite for a program's golden age."
   },
   {
    "n": 16,
@@ -1824,7 +1839,8 @@
    "seasons": [
     1904
    ],
-   "text": "15 major-college teams went unbeaten and untied (5+ games) in the 1900s (21 seasons). The most extreme: Minnesota, 1904 — 13-0, 725-12 on the season."
+   "text": "15 major-college teams went unbeaten and untied (5+ games) in the 1900s (21 seasons). The most extreme: Minnesota, 1904 — 13-0, 725-12 on the season.",
+   "why": "Leads with the most extreme case, which carries the post. Perfect seasons are the ultimate bragging right for a program."
   },
   {
    "n": 17,
@@ -1962,7 +1978,8 @@
    "seasons": [
     1909
    ],
-   "text": "9 major-college teams scored 20 or fewer points all season (7+ games) in the 1900s (10 seasons). The most extreme: Tennessee, 1909 — 11 points in 9 games, 1-6-2."
+   "text": "9 major-college teams scored 20 or fewer points all season (7+ games) in the 1900s (10 seasons). The most extreme: Tennessee, 1909 — 11 points in 9 games, 1-6-2.",
+   "why": "Shows how high the bar was across the 1900s; the extreme case is the hook. Futility stats are among the most shared in sports."
   },
   {
    "n": 18,
@@ -2100,7 +2117,8 @@
    "seasons": [
     1906
    ],
-   "text": "10 major-college teams tied 3 games in the 1900s (12 seasons). The most extreme: Colorado, 1906 — 2-3-4."
+   "text": "10 major-college teams tied 3 games in the 1900s (12 seasons). The most extreme: Colorado, 1906 — 2-3-4.",
+   "why": "Leads with the most extreme case, which carries the post. Ties are a vanished part of the sport; old-era oddities intrigue modern fans."
   },
   {
    "n": 19,
@@ -2238,16 +2256,17 @@
    "seasons": [
     1909
    ],
-   "text": "27 major-college teams allowed 20 or fewer points all season (8+ games) in the 1900s (48 seasons). The most extreme: Yale, 1909 — 0 allowed in 10 games."
+   "text": "27 major-college teams allowed 20 or fewer points all season (8+ games) in the 1900s (48 seasons). The most extreme: Yale, 1909 — 0 allowed in 10 games.",
+   "why": "Shows how high the bar was across the 1900s; the extreme case is the hook. Defensive dominance measured the simplest way possible."
   }
  ],
  "counts": {
   "stathead_queries": 19
  },
- "shortNote": "Player statistics in the college record begin in 1956; every line here is from team seasons, the only complete record for these years. Nothing was padded.",
+ "shortNote": "Player statistics in the college record begin in 1956, so every line here comes from team seasons (record, points for and against). The record for these years is thin; nothing was padded.",
  "method": [
   "College football: each line is one Stathead (Sports Reference college football) Season Finder query over the decade, run in a signed-in subscriber session; result rows and stable ids are stored as provenance. Counts cover the database's major-college (today's FBS) programs, the scope of Sports Reference's college records.",
-  "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier."
+  "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier; college defensive statistics were long unofficial, so defensive lines count only the players whose figures the database holds. 'Freshman' follows the database's class label, which includes redshirt freshmen. Seasons include bowl games where the database counts them. The 1860s hold a single season (1869), too little to support a line."
  ],
  "generatedAt": "2026-09-28T06:29:46.499Z"
 }

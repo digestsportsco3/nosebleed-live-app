@@ -46,7 +46,8 @@
    "seasons": [
     1916
    ],
-   "text": "The only major-college team of the 1910s to allow 350 points: SMU, 1916 — 455 allowed, 0-8-2."
+   "text": "The only major-college team of the 1910s to allow 350 points: SMU, 1916 — 455 allowed, 0-8-2.",
+   "why": "A club of one in the 1910s; \"name another\" posts draw replies. Porous defenses make for rival-fan dunking."
   },
   {
    "n": 2,
@@ -113,7 +114,8 @@
     1916,
     1910
    ],
-   "text": "Only two major-college teams of the 1910s got outscored by 300 points: SMU (1916: 27-455, 0-8-2); Haskell (1910: 37-341, 2-7)."
+   "text": "Only two major-college teams of the 1910s got outscored by 300 points: SMU (1916: 27-455, 0-8-2); Haskell (1910: 37-341, 2-7).",
+   "why": "A two-player club is a ready-made debate. Blowout futility makes rival fan bases pile on."
   },
   {
    "n": 3,
@@ -180,7 +182,8 @@
     1913,
     1910
    ],
-   "text": "Only two major-college teams of the 1910s lost every game (7+ games): Wake Forest (1913: 0-8, outscored 200-30); Tulane (1910: 0-7, outscored 126-6)."
+   "text": "Only two major-college teams of the 1910s lost every game (7+ games): Wake Forest (1913: 0-8, outscored 200-30); Tulane (1910: 0-7, outscored 126-6).",
+   "why": "Two names invite the \"whose season was better?\" argument. Futility stats are among the most shared in sports."
   },
   {
    "n": 4,
@@ -282,7 +285,8 @@
      "points_diff": 221
     }
    ],
-   "text": "Pitt had 4 perfect seasons in the 1910s, more than any other program. (1910, 1915, 1916, 1917)"
+   "text": "Pitt had 4 perfect seasons in the 1910s, more than any other program. (1910, 1915, 1916, 1917)",
+   "why": "A decade of consistency in one number; names the most reliable producer of the 1910s."
   },
   {
    "n": 5,
@@ -404,7 +408,8 @@
      "points_diff": 279
     }
    ],
-   "text": "Most 300-point seasons in the 1910s: Oklahoma, 5 (1913, 1914, 1915, 1916, 1917)."
+   "text": "Most 300-point seasons in the 1910s: Oklahoma, 5 (1913, 1914, 1915, 1916, 1917).",
+   "why": "A decade of consistency in one number; names the most reliable producer of the 1910s."
   },
   {
    "n": 6,
@@ -542,7 +547,8 @@
    "seasons": [
     1915
    ],
-   "text": "8 major-college teams scored 400 points in the 1910s (12 seasons). The most extreme: Vanderbilt, 1915 — 513 points, 9-1."
+   "text": "8 major-college teams scored 400 points in the 1910s (12 seasons). The most extreme: Vanderbilt, 1915 — 513 points, 9-1.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring totals are universal; no explanation needed."
   },
   {
    "n": 7,
@@ -680,7 +686,8 @@
    "seasons": [
     1915
    ],
-   "text": "8 major-college teams outscore opponents by 350 in the 1910s (11 seasons). The most extreme: Vanderbilt, 1915 — 513-38."
+   "text": "8 major-college teams outscored opponents by 350 in the 1910s (11 seasons). The most extreme: Vanderbilt, 1915 — 513-38.",
+   "why": "Shows how high the bar was across the 1910s; the extreme case is the hook. Margin of victory is the cleanest measure of dominance."
   },
   {
    "n": 8,
@@ -798,7 +805,8 @@
      "points_diff": 357
     }
    ],
-   "text": "Most points by a team in a season in the 1910s: Vanderbilt, 1915 — 513 (9-1)."
+   "text": "Most points by a team in a season in the 1910s: Vanderbilt, 1915 — 513 (9-1).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring totals are universal; no explanation needed."
   },
   {
    "n": 9,
@@ -916,7 +924,8 @@
      "points_diff": 229
     }
    ],
-   "text": "Most wins in a season in the 1910s: Carlisle, 1912 — 12-1-1."
+   "text": "Most wins in a season in the 1910s: Carlisle, 1912 — 12-1-1.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Win totals are the first thing fans cite for a program's golden age."
   },
   {
    "n": 10,
@@ -1034,7 +1043,8 @@
      "points_diff": -170
     }
    ],
-   "text": "Most losses in a season in the 1910s: Carlisle, 1914 — 5-10-1."
+   "text": "Most losses in a season in the 1910s: Carlisle, 1914 — 5-10-1.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Losing seasons are what rival fans remember best."
   },
   {
    "n": 11,
@@ -1152,7 +1162,8 @@
      "points_opp": 283
     }
    ],
-   "text": "Worst scoring margin in a season in the 1910s: SMU, 1916 — outscored 455-27."
+   "text": "Worst scoring margin in a season in the 1910s: SMU, 1916 — outscored 455-27.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Blowout futility makes rival fan bases pile on."
   },
   {
    "n": 12,
@@ -1270,7 +1281,8 @@
      "points_opp": 23
     }
    ],
-   "text": "Biggest scoring margin in a season in the 1910s: Vanderbilt, 1915 — 513-38."
+   "text": "Biggest scoring margin in a season in the 1910s: Vanderbilt, 1915 — 513-38.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Margin of victory is the cleanest measure of dominance."
   },
   {
    "n": 13,
@@ -1408,7 +1420,8 @@
    "seasons": [
     1912
    ],
-   "text": "7 major-college teams won 10 games in the 1910s (10 seasons). The most extreme: Carlisle, 1912 — 12-1-1."
+   "text": "7 major-college teams won 10 games in the 1910s (10 seasons). The most extreme: Carlisle, 1912 — 12-1-1.",
+   "why": "Shows how high the bar was across the 1910s; the extreme case is the hook. Win totals are the first thing fans cite for a program's golden age."
   },
   {
    "n": 14,
@@ -1546,7 +1559,8 @@
    "seasons": [
     1919
    ],
-   "text": "27 major-college teams went unbeaten and untied (5+ games) in the 1910s (39 seasons). The most extreme: Texas A&M, 1919 — 10-0, 275-0 on the season."
+   "text": "27 major-college teams went unbeaten and untied (5+ games) in the 1910s (39 seasons). The most extreme: Texas A&M, 1919 — 10-0, 275-0 on the season.",
+   "why": "Leads with the most extreme case, which carries the post. Perfect seasons are the ultimate bragging right for a program."
   },
   {
    "n": 15,
@@ -1684,7 +1698,8 @@
    "seasons": [
     1919
    ],
-   "text": "5 major-college teams went a whole season without allowing a point (4+ games) in the 1910s (6 seasons). The most extreme: Texas A&M, 1919 — 10-0, 275-0."
+   "text": "5 major-college teams went a whole season without allowing a point (4+ games) in the 1910s (6 seasons). The most extreme: Texas A&M, 1919 — 10-0, 275-0.",
+   "why": "Shows how high the bar was across the 1910s; the extreme case is the hook. A season without allowing a point sounds impossible; that is the post."
   },
   {
    "n": 16,
@@ -1822,7 +1837,8 @@
    "seasons": [
     1913
    ],
-   "text": "24 major-college teams went unbeaten but not untied (6+ games) in the 1910s (29 seasons). The most extreme: Washington & Jefferson, 1913 — 10-0-1."
+   "text": "24 major-college teams went unbeaten but not untied (6+ games) in the 1910s (29 seasons). The most extreme: Washington & Jefferson, 1913 — 10-0-1.",
+   "why": "Leads with the most extreme case, which carries the post. Unbeaten but tied: an old-era oddity modern fans find strange."
   },
   {
    "n": 17,
@@ -1960,7 +1976,8 @@
    "seasons": [
     1911
    ],
-   "text": "6 major-college teams scored 20 or fewer points all season (7+ games) in the 1910s (8 seasons). The most extreme: Samford, 1911 — 6 points in 8 games, 1-6-1."
+   "text": "6 major-college teams scored 20 or fewer points all season (7+ games) in the 1910s (8 seasons). The most extreme: Samford, 1911 — 6 points in 8 games, 1-6-1.",
+   "why": "Shows how high the bar was across the 1910s; the extreme case is the hook. Futility stats are among the most shared in sports."
   },
   {
    "n": 18,
@@ -2098,7 +2115,8 @@
    "seasons": [
     1919
    ],
-   "text": "10 major-college teams tied 3 games in the 1910s. The most extreme: Georgia, 1919 — 4-2-3."
+   "text": "10 major-college teams tied 3 games in the 1910s. The most extreme: Georgia, 1919 — 4-2-3.",
+   "why": "Leads with the most extreme case, which carries the post. Ties are a vanished part of the sport; old-era oddities intrigue modern fans."
   },
   {
    "n": 19,
@@ -2236,16 +2254,17 @@
    "seasons": [
     1919
    ],
-   "text": "25 major-college teams allowed 20 or fewer points all season (8+ games) in the 1910s (41 seasons). The most extreme: Texas A&M, 1919 — 0 allowed in 10 games."
+   "text": "25 major-college teams allowed 20 or fewer points all season (8+ games) in the 1910s (41 seasons). The most extreme: Texas A&M, 1919 — 0 allowed in 10 games.",
+   "why": "Shows how high the bar was across the 1910s; the extreme case is the hook. Defensive dominance measured the simplest way possible."
   }
  ],
  "counts": {
   "stathead_queries": 19
  },
- "shortNote": "Player statistics in the college record begin in 1956; every line here is from team seasons, the only complete record for these years. Nothing was padded.",
+ "shortNote": "Player statistics in the college record begin in 1956, so every line here comes from team seasons (record, points for and against). The record for these years is thin; nothing was padded.",
  "method": [
   "College football: each line is one Stathead (Sports Reference college football) Season Finder query over the decade, run in a signed-in subscriber session; result rows and stable ids are stored as provenance. Counts cover the database's major-college (today's FBS) programs, the scope of Sports Reference's college records.",
-  "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier."
+  "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier; college defensive statistics were long unofficial, so defensive lines count only the players whose figures the database holds. 'Freshman' follows the database's class label, which includes redshirt freshmen. Seasons include bowl games where the database counts them. The 1860s hold a single season (1869), too little to support a line."
  ],
  "generatedAt": "2026-09-28T06:31:03.638Z"
 }

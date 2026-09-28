@@ -46,7 +46,8 @@
    "seasons": [
     1879
    ],
-   "text": "The only major-college team of the 1870s to allow 20 or fewer points all season (8+ games): Stevens, 1879 — 12 allowed in 8 games."
+   "text": "The only major-college team of the 1870s to allow 20 or fewer points all season (8+ games): Stevens, 1879 — 12 allowed in 8 games.",
+   "why": "A club of one in the 1870s; \"name another\" posts draw replies. Defensive dominance measured the simplest way possible."
   },
   {
    "n": 2,
@@ -89,7 +90,8 @@
    "seasons": [
     1878
    ],
-   "text": "The only major-college team of the 1870s to go unbeaten and untied (5+ games): Princeton, 1878 — 6-0, 15-1 on the season."
+   "text": "The only major-college team of the 1870s to go unbeaten and untied (5+ games): Princeton, 1878 — 6-0, 15-1 on the season.",
+   "why": "Nobody else in the 1870s did it, and exclusivity is what gets a post shared. Perfect seasons are the ultimate bragging right for a program."
   },
   {
    "n": 3,
@@ -132,7 +134,8 @@
    "seasons": [
     1879
    ],
-   "text": "The only major-college team of the 1870s to score 20 or fewer points all season (7+ games): Stevens, 1879 — 6 points in 8 games, 1-2-5."
+   "text": "The only major-college team of the 1870s to score 20 or fewer points all season (7+ games): Stevens, 1879 — 6 points in 8 games, 1-2-5.",
+   "why": "A club of one in the 1870s; \"name another\" posts draw replies. Futility stats are among the most shared in sports."
   },
   {
    "n": 4,
@@ -199,7 +202,8 @@
     1879,
     1879
    ],
-   "text": "Only two major-college teams of the 1870s tied 3 games: Stevens (1879: 1-2-5); Rutgers (1879: 1-2-3)."
+   "text": "Only two major-college teams of the 1870s tied 3 games: Stevens (1879: 1-2-5); Rutgers (1879: 1-2-3).",
+   "why": "A two-player club is a ready-made debate. Ties are a vanished part of the sport; old-era oddities intrigue modern fans."
   },
   {
    "n": 5,
@@ -310,7 +314,8 @@
     1877,
     1875
    ],
-   "text": "Just three major-college teams of the 1870s went a whole season without allowing a point (4+ games): Princeton (1879: 4-0-1, 16-0); Yale (2×, best 1879: 3-0-2, 10-0); Harvard (1875: 4-0, 7-0)."
+   "text": "Just three major-college teams of the 1870s went a whole season without allowing a point (4+ games): Princeton (1879: 4-0-1, 16-0); Yale (2×, best 1879: 3-0-2, 10-0); Harvard (1875: 4-0, 7-0).",
+   "why": "A short list fans can recite; each name brings its own fan base. A season without allowing a point sounds impossible; that is the post."
   },
   {
    "n": 6,
@@ -428,7 +433,8 @@
      "points_diff": 16
     }
    ],
-   "text": "Most points by a team in a season in the 1870s: Yale, 1877 — 21 (3-0-1)."
+   "text": "Most points by a team in a season in the 1870s: Yale, 1877 — 21 (3-0-1).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring totals are universal; no explanation needed."
   },
   {
    "n": 7,
@@ -546,7 +552,8 @@
      "points_opp": 3
     }
    ],
-   "text": "Biggest scoring margin in a season in the 1870s: Yale, 1877 — 21-0."
+   "text": "Biggest scoring margin in a season in the 1870s: Yale, 1877 — 21-0.",
+   "why": "The high-water mark of the 1870s: a clean \"who did it best\" answer. Margin of victory is the cleanest measure of dominance."
   },
   {
    "n": 8,
@@ -664,7 +671,8 @@
      "points_diff": 7
     }
    ],
-   "text": "Most wins in a season in the 1870s: Princeton, 1878 — 6-0."
+   "text": "Most wins in a season in the 1870s: Princeton, 1878 — 6-0.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Win totals are the first thing fans cite for a program's golden age."
   },
   {
    "n": 9,
@@ -782,7 +790,8 @@
      "points_diff": -3
     }
    ],
-   "text": "Most losses in a season in the 1870s: Columbia, 1874 — 1-5."
+   "text": "Most losses in a season in the 1870s: Columbia, 1874 — 1-5.",
+   "why": "The high-water mark of the 1870s: a clean \"who did it best\" answer. Losing seasons are what rival fans remember best."
   },
   {
    "n": 10,
@@ -900,16 +909,17 @@
      "points_opp": 1
     }
    ],
-   "text": "Worst scoring margin in a season in the 1870s: Columbia, 1874 — outscored 28-9."
+   "text": "Worst scoring margin in a season in the 1870s: Columbia, 1874 — outscored 28-9.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Blowout futility makes rival fan bases pile on."
   }
  ],
  "counts": {
   "stathead_queries": 19
  },
- "shortNote": "Player statistics in the college record begin in 1956; every line here is from team seasons, the only complete record for these years. Nothing was padded.",
+ "shortNote": "Player statistics in the college record begin in 1956, so every line here comes from team seasons (record, points for and against). The record for these years is thin; nothing was padded.",
  "method": [
   "College football: each line is one Stathead (Sports Reference college football) Season Finder query over the decade, run in a signed-in subscriber session; result rows and stable ids are stored as provenance. Counts cover the database's major-college (today's FBS) programs, the scope of Sports Reference's college records.",
-  "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier."
+  "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier; college defensive statistics were long unofficial, so defensive lines count only the players whose figures the database holds. 'Freshman' follows the database's class label, which includes redshirt freshmen. Seasons include bowl games where the database counts them. The 1860s hold a single season (1869), too little to support a line."
  ],
  "generatedAt": "2026-09-28T06:25:57.439Z"
 }
