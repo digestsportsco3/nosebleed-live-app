@@ -1,0 +1,7951 @@
+{
+ "decade": "2000s",
+ "era": "modern",
+ "thresholds": {
+  "hrBig": 30,
+  "hrHuge": 40,
+  "avgLow": 0.22,
+  "bbFew": 25,
+  "sbMany": 40,
+  "obpLow": 0.3,
+  "kFewHit": 30,
+  "kManyHit": 180,
+  "bbMany": 100,
+  "kMany": 200,
+  "kHuge": 250,
+  "wLow": 8,
+  "eraBad": 4.5,
+  "ipHuge": 750,
+  "kFewPit": 100,
+  "cgMany": 8,
+  "kPer9": 11,
+  "whip1": 1,
+  "sv": 30,
+  "hbp": 20,
+  "kClose": 100,
+  "hrTeam": 40,
+  "ageYoung": 22,
+  "ageOld": 37
+ },
+ "candidates": 132,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "k300_no20",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      300
+     ],
+     [
+      "W",
+      "lte",
+      19
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Arizona Diamondbacks",
+     "age": 36,
+     "W": 19,
+     "L": 7,
+     "ERA": 2.64,
+     "IP": "248.2",
+     "SO": 347,
+     "BB": 76,
+     "SV": 0,
+     "GS": 35,
+     "CG": 8,
+     "SHO": 3,
+     "HRA": 23,
+     "WHIP": 1.12
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 116615,
+     "name": "Randy Johnson"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "The only pitcher of the 2000s to strike out 300 without winning 20: Randy Johnson, 2000 — 347 K, 19-7."
+  },
+  {
+   "n": 2,
+   "rule": "forty_forty",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      40
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2006,
+     "id": 150093,
+     "name": "Alfonso Soriano",
+     "team": "Washington Nationals",
+     "age": 30,
+     "PA": 728,
+     "AVG": 0.277,
+     "OBP": 0.351,
+     "SLG": 0.56,
+     "OPS": 0.911,
+     "HR": 46,
+     "RBI": 95,
+     "R": 119,
+     "H": 179,
+     "2B": 41,
+     "3B": 2,
+     "SB": 41,
+     "CS": 17,
+     "BB": 67,
+     "SO": 160,
+     "HBP": 9,
+     "GIDP": 3
+    }
+   ],
+   "kind": "only",
+   "score": 12.175,
+   "players": [
+    {
+     "id": 150093,
+     "name": "Alfonso Soriano"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "The only hitter of the 2000s to go 40-40: Alfonso Soriano, 2006 — 46 HR, 41 SB."
+  },
+  {
+   "n": 3,
+   "rule": "doubles_no_hr",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "2B",
+      "gte",
+      45
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 406878,
+     "name": "Brian Roberts",
+     "team": "Baltimore Orioles",
+     "age": 26,
+     "PA": 736,
+     "AVG": 0.273,
+     "OBP": 0.344,
+     "SLG": 0.376,
+     "OPS": 0.72,
+     "HR": 4,
+     "RBI": 53,
+     "R": 107,
+     "H": 175,
+     "2B": 50,
+     "3B": 2,
+     "SB": 29,
+     "CS": 12,
+     "BB": 71,
+     "SO": 95,
+     "HBP": 1,
+     "GIDP": 3
+    }
+   ],
+   "kind": "only",
+   "score": 11.15,
+   "players": [
+    {
+     "id": 406878,
+     "name": "Brian Roberts"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "The only hitter of the 2000s to hit 45 doubles and 5 homers or fewer: Brian Roberts, 2004 — 50 2B, 4 HR."
+  },
+  {
+   "n": 4,
+   "rule": "hits_few_runs",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      180
+     ],
+     [
+      "R",
+      "lte",
+      65
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2007,
+     "id": 430321,
+     "name": "Delmon Young",
+     "team": "Tampa Bay Devil Rays",
+     "age": 21,
+     "PA": 681,
+     "AVG": 0.288,
+     "OBP": 0.316,
+     "SLG": 0.408,
+     "OPS": 0.724,
+     "HR": 13,
+     "RBI": 93,
+     "R": 65,
+     "H": 186,
+     "2B": 38,
+     "3B": 0,
+     "SB": 10,
+     "CS": 3,
+     "BB": 26,
+     "SO": 127,
+     "HBP": 3,
+     "GIDP": 23
+    },
+    {
+     "season": 2009,
+     "id": 150324,
+     "name": "Carlos Lee",
+     "team": "Houston Astros",
+     "age": 33,
+     "PA": 662,
+     "AVG": 0.3,
+     "OBP": 0.343,
+     "SLG": 0.489,
+     "OPS": 0.832,
+     "HR": 26,
+     "RBI": 102,
+     "R": 65,
+     "H": 183,
+     "2B": 35,
+     "3B": 1,
+     "SB": 5,
+     "CS": 3,
+     "BB": 41,
+     "SO": 51,
+     "HBP": 3,
+     "GIDP": 21
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 430321,
+     "name": "Delmon Young"
+    },
+    {
+     "id": 150324,
+     "name": "Carlos Lee"
+    }
+   ],
+   "seasons": [
+    2007,
+    2009
+   ],
+   "text": "Only two hitters of the 2000s collected 180 hits and score 65 runs or fewer: Delmon Young (2007, 186 H, 65 R); Carlos Lee (2009, 183 H, 65 R)."
+  },
+  {
+   "n": 5,
+   "rule": "zero_hr_full",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "HR",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2007,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "PA": 729,
+     "AVG": 0.293,
+     "OBP": 0.331,
+     "SLG": 0.353,
+     "OPS": 0.684,
+     "HR": 0,
+     "RBI": 41,
+     "R": 96,
+     "H": 196,
+     "2B": 24,
+     "3B": 8,
+     "SB": 64,
+     "CS": 15,
+     "BB": 33,
+     "SO": 37,
+     "HBP": 6,
+     "GIDP": 10
+    },
+    {
+     "season": 2005,
+     "id": 116974,
+     "name": "Jason Kendall",
+     "team": "Oakland Athletics",
+     "age": 31,
+     "PA": 676,
+     "AVG": 0.271,
+     "OBP": 0.345,
+     "SLG": 0.321,
+     "OPS": 0.666,
+     "HR": 0,
+     "RBI": 53,
+     "R": 70,
+     "H": 163,
+     "2B": 28,
+     "3B": 1,
+     "SB": 8,
+     "CS": 3,
+     "BB": 50,
+     "SO": 39,
+     "HBP": 20,
+     "GIDP": 26
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 334393,
+     "name": "Juan Pierre"
+    },
+    {
+     "id": 116974,
+     "name": "Jason Kendall"
+    }
+   ],
+   "seasons": [
+    2007,
+    2005
+   ],
+   "text": "Only two hitters of the 2000s played a full season without a single home run (600+ PA): Juan Pierre (2007, 0 HR in 729 PA); Jason Kendall (2005, 0 HR in 676 PA)."
+  },
+  {
+   "n": 6,
+   "rule": "hits_200_bb_100",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      200
+     ],
+     [
+      "BB",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 115732,
+     "name": "Todd Helton",
+     "team": "Colorado Rockies",
+     "age": 29,
+     "PA": 703,
+     "AVG": 0.358,
+     "OBP": 0.458,
+     "SLG": 0.63,
+     "OPS": 1.088,
+     "HR": 33,
+     "RBI": 117,
+     "R": 135,
+     "H": 209,
+     "2B": 49,
+     "3B": 5,
+     "SB": 0,
+     "CS": 4,
+     "BB": 111,
+     "SO": 72,
+     "HBP": 2,
+     "GIDP": 19
+    },
+    {
+     "season": 2000,
+     "id": 115732,
+     "name": "Todd Helton",
+     "team": "Colorado Rockies",
+     "age": 26,
+     "PA": 697,
+     "AVG": 0.372,
+     "OBP": 0.463,
+     "SLG": 0.698,
+     "OPS": 1.161,
+     "HR": 42,
+     "RBI": 147,
+     "R": 138,
+     "H": 216,
+     "2B": 59,
+     "3B": 2,
+     "SB": 5,
+     "CS": 3,
+     "BB": 103,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 12
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 115732,
+     "name": "Todd Helton"
+    },
+    {
+     "id": 115732,
+     "name": "Todd Helton"
+    }
+   ],
+   "seasons": [
+    2003,
+    2000
+   ],
+   "text": "Only two hitters of the 2000s got 200 hits and 100 walks: Todd Helton (2003, 209 H, 111 BB); Todd Helton (2000, 216 H, 103 BB)."
+  },
+  {
+   "n": 7,
+   "rule": "obp_no_power",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "OBP",
+      "gte",
+      0.4
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 112116,
+     "name": "Luis Castillo",
+     "team": "Florida Marlins",
+     "age": 24,
+     "PA": 626,
+     "AVG": 0.334,
+     "OBP": 0.418,
+     "SLG": 0.388,
+     "OPS": 0.806,
+     "HR": 2,
+     "RBI": 17,
+     "R": 101,
+     "H": 180,
+     "2B": 17,
+     "3B": 3,
+     "SB": 62,
+     "CS": 22,
+     "BB": 78,
+     "SO": 86,
+     "HBP": 0,
+     "GIDP": 11
+    }
+   ],
+   "kind": "only",
+   "score": 10.995,
+   "players": [
+    {
+     "id": 112116,
+     "name": "Luis Castillo"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "The only hitter of the 2000s to post a .400 on-base with 5 homers or fewer (500+ PA): Luis Castillo, 2000 — .418 OBP, 2 HR."
+  },
+  {
+   "n": 8,
+   "rule": "hr_no_doubles",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      35
+     ],
+     [
+      "2B",
+      "lte",
+      15
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2006,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Oakland Athletics",
+     "age": 38,
+     "PA": 559,
+     "AVG": 0.27,
+     "OBP": 0.381,
+     "SLG": 0.545,
+     "OPS": 0.926,
+     "HR": 39,
+     "RBI": 114,
+     "R": 77,
+     "H": 126,
+     "2B": 11,
+     "3B": 0,
+     "SB": 0,
+     "CS": 0,
+     "BB": 81,
+     "SO": 81,
+     "HBP": 6,
+     "GIDP": 13
+    }
+   ],
+   "kind": "only",
+   "score": 10.7,
+   "players": [
+    {
+     "id": 123245,
+     "name": "Frank Thomas"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "The only hitter of the 2000s to hit 35+ homers with 15 doubles or fewer: Frank Thomas, 2006 — 39 HR, 11 2B."
+  },
+  {
+   "n": 9,
+   "rule": "twenty_losses",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "L",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 400077,
+     "name": "Mike Maroth",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "W": 9,
+     "L": 21,
+     "ERA": 5.73,
+     "IP": "193.1",
+     "SO": 87,
+     "BB": 50,
+     "SV": 0,
+     "GS": 33,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 34,
+     "WHIP": 1.45
+    }
+   ],
+   "kind": "only",
+   "score": 10.525,
+   "players": [
+    {
+     "id": 400077,
+     "name": "Mike Maroth"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "The only pitcher of the 2000s to lose 20 games: Mike Maroth, 2003 — 9-21."
+  },
+  {
+   "n": 10,
+   "rule": "avg_no_walks",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ],
+     [
+      "BB",
+      "lte",
+      25
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2006,
+     "id": 429664,
+     "name": "Robinson Canó",
+     "team": "New York Yankees",
+     "age": 23,
+     "PA": 508,
+     "AVG": 0.342,
+     "OBP": 0.365,
+     "SLG": 0.525,
+     "OPS": 0.89,
+     "HR": 15,
+     "RBI": 78,
+     "R": 62,
+     "H": 165,
+     "2B": 41,
+     "3B": 1,
+     "SB": 5,
+     "CS": 2,
+     "BB": 18,
+     "SO": 54,
+     "HBP": 2,
+     "GIDP": 19
+    }
+   ],
+   "kind": "only",
+   "score": 10.405,
+   "players": [
+    {
+     "id": 429664,
+     "name": "Robinson Canó"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "The only hitter of the 2000s to bat .320 or better with 25 walks or fewer (500+ PA): Robinson Canó, 2006 — .342, 18 BB."
+  },
+  {
+   "n": 11,
+   "rule": "sb_low_obp",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ],
+     [
+      "OBP",
+      "lte",
+      0.299
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2008,
+     "id": 456422,
+     "name": "Michael Bourn",
+     "team": "Houston Astros",
+     "age": 25,
+     "PA": 514,
+     "AVG": 0.229,
+     "OBP": 0.288,
+     "SLG": 0.3,
+     "OPS": 0.588,
+     "HR": 5,
+     "RBI": 29,
+     "R": 57,
+     "H": 107,
+     "2B": 10,
+     "3B": 4,
+     "SB": 41,
+     "CS": 10,
+     "BB": 37,
+     "SO": 111,
+     "HBP": 2,
+     "GIDP": 3
+    }
+   ],
+   "kind": "only",
+   "score": 10.305,
+   "players": [
+    {
+     "id": 456422,
+     "name": "Michael Bourn"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "The only hitter of the 2000s to steal 40+ bases with an on-base under .300 (400+ PA): Michael Bourn, 2008 — 41 SB, .288 OBP."
+  },
+  {
+   "n": 12,
+   "rule": "young_avg",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.33
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2009,
+     "id": 467055,
+     "name": "Pablo Sandoval",
+     "team": "San Francisco Giants",
+     "age": 22,
+     "PA": 633,
+     "AVG": 0.33,
+     "OBP": 0.387,
+     "SLG": 0.556,
+     "OPS": 0.943,
+     "HR": 25,
+     "RBI": 90,
+     "R": 79,
+     "H": 189,
+     "2B": 44,
+     "3B": 5,
+     "SB": 5,
+     "CS": 5,
+     "BB": 52,
+     "SO": 83,
+     "HBP": 4,
+     "GIDP": 10
+    }
+   ],
+   "kind": "only",
+   "score": 10.275,
+   "players": [
+    {
+     "id": 467055,
+     "name": "Pablo Sandoval"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "text": "The only hitter of the 2000s to bat .330 at age 22 or younger (500+ PA): Pablo Sandoval, 2009 — .330 at 22."
+  },
+  {
+   "n": 13,
+   "rule": "power_no_avg",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "BA",
+      "lte",
+      0.219
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 123610,
+     "name": "Jose Valentin",
+     "team": "Chicago White Sox",
+     "age": 34,
+     "PA": 504,
+     "AVG": 0.216,
+     "OBP": 0.287,
+     "SLG": 0.473,
+     "OPS": 0.76,
+     "HR": 30,
+     "RBI": 70,
+     "R": 73,
+     "H": 97,
+     "2B": 20,
+     "3B": 3,
+     "SB": 8,
+     "CS": 6,
+     "BB": 43,
+     "SO": 139,
+     "HBP": 3,
+     "GIDP": 5
+    }
+   ],
+   "kind": "only",
+   "score": 10.21,
+   "players": [
+    {
+     "id": 123610,
+     "name": "Jose Valentin"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "The only hitter of the 2000s to hit 30+ homers while batting under .220 (400+ PA): Jose Valentin, 2004 — 30 HR, .216."
+  },
+  {
+   "n": 14,
+   "rule": "hr_over_k",
+   "group": "H",
+   "decade": 2000,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 39,
+     "PA": 617,
+     "AVG": 0.362,
+     "OBP": 0.609,
+     "SLG": 0.812,
+     "OPS": 1.421,
+     "HR": 45,
+     "RBI": 101,
+     "R": 129,
+     "H": 135,
+     "2B": 27,
+     "3B": 3,
+     "SB": 6,
+     "CS": 1,
+     "BB": 232,
+     "SO": 41,
+     "HBP": 9,
+     "GIDP": 5
+    }
+   ],
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 111188,
+     "name": "Barry Bonds"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "The only hitter of the 2000s to hit 30+ homers with more homers than strikeouts: Barry Bonds, 2004 — 45 HR, 41 K."
+  },
+  {
+   "n": 15,
+   "rule": "young_ace",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMax": 22,
+    "filters": [
+     [
+      "W",
+      "gte",
+      18
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 407578,
+     "name": "Mark Prior",
+     "team": "Chicago Cubs",
+     "age": 22,
+     "W": 18,
+     "L": 6,
+     "ERA": 2.43,
+     "IP": "211.1",
+     "SO": 245,
+     "BB": 50,
+     "SV": 0,
+     "GS": 30,
+     "CG": 3,
+     "SHO": 1,
+     "HRA": 15,
+     "WHIP": 1.1
+    }
+   ],
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 407578,
+     "name": "Mark Prior"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "The only pitcher of the 2000s to win 18+ games at age 22 or younger: Mark Prior, 2003 — 18-6 at 22."
+  },
+  {
+   "n": 16,
+   "rule": "two_thirty_hits",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      230
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 400085,
+     "name": "Ichiro Suzuki",
+     "team": "Seattle Mariners",
+     "age": 30,
+     "PA": 762,
+     "AVG": 0.372,
+     "OBP": 0.414,
+     "SLG": 0.455,
+     "OPS": 0.869,
+     "HR": 8,
+     "RBI": 60,
+     "R": 101,
+     "H": 262,
+     "2B": 24,
+     "3B": 5,
+     "SB": 36,
+     "CS": 11,
+     "BB": 49,
+     "SO": 63,
+     "HBP": 4,
+     "GIDP": 6
+    },
+    {
+     "season": 2001,
+     "id": 400085,
+     "name": "Ichiro Suzuki",
+     "team": "Seattle Mariners",
+     "age": 27,
+     "PA": 738,
+     "AVG": 0.35,
+     "OBP": 0.381,
+     "SLG": 0.457,
+     "OPS": 0.838,
+     "HR": 8,
+     "RBI": 69,
+     "R": 127,
+     "H": 242,
+     "2B": 34,
+     "3B": 8,
+     "SB": 56,
+     "CS": 14,
+     "BB": 30,
+     "SO": 53,
+     "HBP": 8,
+     "GIDP": 3
+    },
+    {
+     "season": 2000,
+     "id": 113889,
+     "name": "Darin Erstad",
+     "team": "Anaheim Angels",
+     "age": 26,
+     "PA": 747,
+     "AVG": 0.355,
+     "OBP": 0.409,
+     "SLG": 0.541,
+     "OPS": 0.95,
+     "HR": 25,
+     "RBI": 100,
+     "R": 121,
+     "H": 240,
+     "2B": 39,
+     "3B": 6,
+     "SB": 28,
+     "CS": 8,
+     "BB": 64,
+     "SO": 82,
+     "HBP": 1,
+     "GIDP": 8
+    },
+    {
+     "season": 2007,
+     "id": 400085,
+     "name": "Ichiro Suzuki",
+     "team": "Seattle Mariners",
+     "age": 33,
+     "PA": 736,
+     "AVG": 0.351,
+     "OBP": 0.396,
+     "SLG": 0.431,
+     "OPS": 0.827,
+     "HR": 6,
+     "RBI": 68,
+     "R": 111,
+     "H": 238,
+     "2B": 22,
+     "3B": 7,
+     "SB": 37,
+     "CS": 8,
+     "BB": 49,
+     "SO": 77,
+     "HBP": 3,
+     "GIDP": 7
+    }
+   ],
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 400085,
+     "name": "Ichiro Suzuki"
+    },
+    {
+     "id": 400085,
+     "name": "Ichiro Suzuki"
+    },
+    {
+     "id": 113889,
+     "name": "Darin Erstad"
+    },
+    {
+     "id": 400085,
+     "name": "Ichiro Suzuki"
+    }
+   ],
+   "seasons": [
+    2004,
+    2001,
+    2000,
+    2007
+   ],
+   "text": "Just four hitters of the 2000s collected 230 hits: Ichiro Suzuki (2004, 262 H); Ichiro Suzuki (2001, 242 H); Darin Erstad (2000, 240 H); Ichiro Suzuki (2007, 238 H)."
+  },
+  {
+   "n": 17,
+   "rule": "one_fifty_rbi",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      150
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2001,
+     "id": 122544,
+     "name": "Sammy Sosa",
+     "team": "Chicago Cubs",
+     "age": 32,
+     "PA": 711,
+     "AVG": 0.328,
+     "OBP": 0.437,
+     "SLG": 0.737,
+     "OPS": 1.174,
+     "HR": 64,
+     "RBI": 160,
+     "R": 146,
+     "H": 189,
+     "2B": 34,
+     "3B": 5,
+     "SB": 0,
+     "CS": 2,
+     "BB": 116,
+     "SO": 153,
+     "HBP": 6,
+     "GIDP": 6
+    },
+    {
+     "season": 2007,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 31,
+     "PA": 708,
+     "AVG": 0.314,
+     "OBP": 0.422,
+     "SLG": 0.645,
+     "OPS": 1.067,
+     "HR": 54,
+     "RBI": 156,
+     "R": 143,
+     "H": 183,
+     "2B": 31,
+     "3B": 0,
+     "SB": 24,
+     "CS": 4,
+     "BB": 95,
+     "SO": 120,
+     "HBP": 21,
+     "GIDP": 15
+    },
+    {
+     "season": 2004,
+     "id": 123173,
+     "name": "Miguel Tejada",
+     "team": "Baltimore Orioles",
+     "age": 30,
+     "PA": 725,
+     "AVG": 0.311,
+     "OBP": 0.36,
+     "SLG": 0.534,
+     "OPS": 0.894,
+     "HR": 34,
+     "RBI": 150,
+     "R": 107,
+     "H": 203,
+     "2B": 40,
+     "3B": 2,
+     "SB": 4,
+     "CS": 1,
+     "BB": 48,
+     "SO": 73,
+     "HBP": 10,
+     "GIDP": 24
+    }
+   ],
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 122544,
+     "name": "Sammy Sosa"
+    },
+    {
+     "id": 121347,
+     "name": "Alex Rodriguez"
+    },
+    {
+     "id": 123173,
+     "name": "Miguel Tejada"
+    }
+   ],
+   "seasons": [
+    2001,
+    2007,
+    2004
+   ],
+   "text": "Just three hitters of the 2000s drove in 150 runs: Sammy Sosa (2001, 160 RBI); Alex Rodriguez (2007, 156 RBI); Miguel Tejada (2004, 150 RBI)."
+  },
+  {
+   "n": 18,
+   "kind": "streak",
+   "rule": "HR30",
+   "group": "H",
+   "decade": 2000,
+   "score": 9,
+   "players": [
+    {
+     "id": 121347,
+     "name": "Alex Rodriguez"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "Seattle Mariners",
+     "age": 24,
+     "PA": 672,
+     "AVG": 0.316,
+     "OBP": 0.42,
+     "SLG": 0.606,
+     "OPS": 1.026,
+     "HR": 41,
+     "RBI": 132,
+     "R": 134,
+     "H": 175,
+     "2B": 34,
+     "3B": 2,
+     "SB": 15,
+     "CS": 4,
+     "BB": 100,
+     "SO": 121,
+     "HBP": 7,
+     "GIDP": 10
+    },
+    {
+     "season": 2001,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "Texas Rangers",
+     "age": 25,
+     "PA": 732,
+     "AVG": 0.318,
+     "OBP": 0.399,
+     "SLG": 0.622,
+     "OPS": 1.021,
+     "HR": 52,
+     "RBI": 135,
+     "R": 133,
+     "H": 201,
+     "2B": 34,
+     "3B": 1,
+     "SB": 18,
+     "CS": 3,
+     "BB": 75,
+     "SO": 131,
+     "HBP": 16,
+     "GIDP": 17
+    },
+    {
+     "season": 2002,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "Texas Rangers",
+     "age": 26,
+     "PA": 725,
+     "AVG": 0.3,
+     "OBP": 0.392,
+     "SLG": 0.623,
+     "OPS": 1.015,
+     "HR": 57,
+     "RBI": 142,
+     "R": 125,
+     "H": 187,
+     "2B": 27,
+     "3B": 2,
+     "SB": 9,
+     "CS": 4,
+     "BB": 87,
+     "SO": 122,
+     "HBP": 10,
+     "GIDP": 14
+    },
+    {
+     "season": 2003,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "Texas Rangers",
+     "age": 27,
+     "PA": 715,
+     "AVG": 0.298,
+     "OBP": 0.396,
+     "SLG": 0.6,
+     "OPS": 0.996,
+     "HR": 47,
+     "RBI": 118,
+     "R": 124,
+     "H": 181,
+     "2B": 30,
+     "3B": 6,
+     "SB": 17,
+     "CS": 3,
+     "BB": 87,
+     "SO": 126,
+     "HBP": 15,
+     "GIDP": 16
+    },
+    {
+     "season": 2004,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 28,
+     "PA": 698,
+     "AVG": 0.286,
+     "OBP": 0.375,
+     "SLG": 0.512,
+     "OPS": 0.887,
+     "HR": 36,
+     "RBI": 106,
+     "R": 112,
+     "H": 172,
+     "2B": 24,
+     "3B": 2,
+     "SB": 28,
+     "CS": 4,
+     "BB": 80,
+     "SO": 131,
+     "HBP": 10,
+     "GIDP": 18
+    },
+    {
+     "season": 2005,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 29,
+     "PA": 715,
+     "AVG": 0.321,
+     "OBP": 0.421,
+     "SLG": 0.61,
+     "OPS": 1.031,
+     "HR": 48,
+     "RBI": 130,
+     "R": 124,
+     "H": 194,
+     "2B": 29,
+     "3B": 1,
+     "SB": 21,
+     "CS": 6,
+     "BB": 91,
+     "SO": 139,
+     "HBP": 16,
+     "GIDP": 8
+    },
+    {
+     "season": 2006,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 30,
+     "PA": 674,
+     "AVG": 0.29,
+     "OBP": 0.392,
+     "SLG": 0.523,
+     "OPS": 0.915,
+     "HR": 35,
+     "RBI": 121,
+     "R": 113,
+     "H": 166,
+     "2B": 26,
+     "3B": 1,
+     "SB": 15,
+     "CS": 4,
+     "BB": 90,
+     "SO": 139,
+     "HBP": 8,
+     "GIDP": 22
+    },
+    {
+     "season": 2007,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 31,
+     "PA": 708,
+     "AVG": 0.314,
+     "OBP": 0.422,
+     "SLG": 0.645,
+     "OPS": 1.067,
+     "HR": 54,
+     "RBI": 156,
+     "R": 143,
+     "H": 183,
+     "2B": 31,
+     "3B": 0,
+     "SB": 24,
+     "CS": 4,
+     "BB": 95,
+     "SO": 120,
+     "HBP": 21,
+     "GIDP": 15
+    },
+    {
+     "season": 2008,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 32,
+     "PA": 594,
+     "AVG": 0.302,
+     "OBP": 0.392,
+     "SLG": 0.573,
+     "OPS": 0.965,
+     "HR": 35,
+     "RBI": 103,
+     "R": 104,
+     "H": 154,
+     "2B": 33,
+     "3B": 0,
+     "SB": 18,
+     "CS": 3,
+     "BB": 65,
+     "SO": 117,
+     "HBP": 14,
+     "GIDP": 16
+    },
+    {
+     "season": 2009,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 33,
+     "PA": 535,
+     "AVG": 0.286,
+     "OBP": 0.402,
+     "SLG": 0.532,
+     "OPS": 0.934,
+     "HR": 30,
+     "RBI": 100,
+     "R": 78,
+     "H": 127,
+     "2B": 17,
+     "3B": 1,
+     "SB": 14,
+     "CS": 2,
+     "BB": 80,
+     "SO": 97,
+     "HBP": 8,
+     "GIDP": 13
+    }
+   ],
+   "text": "Alex Rodriguez hit 30+ home runs in 10 straight seasons (2000-09), the longest run of the 2000s."
+  },
+  {
+   "n": 19,
+   "kind": "streak",
+   "rule": "SB40",
+   "group": "H",
+   "decade": 2000,
+   "score": 9,
+   "players": [
+    {
+     "id": 334393,
+     "name": "Juan Pierre"
+    }
+   ],
+   "seasons": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2001,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Colorado Rockies",
+     "age": 23,
+     "PA": 683,
+     "AVG": 0.327,
+     "OBP": 0.378,
+     "SLG": 0.415,
+     "OPS": 0.793,
+     "HR": 2,
+     "RBI": 55,
+     "R": 108,
+     "H": 202,
+     "2B": 26,
+     "3B": 11,
+     "SB": 46,
+     "CS": 17,
+     "BB": 41,
+     "SO": 29,
+     "HBP": 10,
+     "GIDP": 6
+    },
+    {
+     "season": 2002,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Colorado Rockies",
+     "age": 24,
+     "PA": 640,
+     "AVG": 0.287,
+     "OBP": 0.332,
+     "SLG": 0.343,
+     "OPS": 0.675,
+     "HR": 1,
+     "RBI": 35,
+     "R": 90,
+     "H": 170,
+     "2B": 20,
+     "3B": 5,
+     "SB": 47,
+     "CS": 12,
+     "BB": 31,
+     "SO": 52,
+     "HBP": 9,
+     "GIDP": 7
+    },
+    {
+     "season": 2003,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Florida Marlins",
+     "age": 25,
+     "PA": 747,
+     "AVG": 0.305,
+     "OBP": 0.361,
+     "SLG": 0.373,
+     "OPS": 0.734,
+     "HR": 1,
+     "RBI": 41,
+     "R": 100,
+     "H": 204,
+     "2B": 28,
+     "3B": 7,
+     "SB": 65,
+     "CS": 20,
+     "BB": 55,
+     "SO": 35,
+     "HBP": 5,
+     "GIDP": 9
+    },
+    {
+     "season": 2004,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Florida Marlins",
+     "age": 26,
+     "PA": 748,
+     "AVG": 0.326,
+     "OBP": 0.374,
+     "SLG": 0.407,
+     "OPS": 0.781,
+     "HR": 3,
+     "RBI": 49,
+     "R": 100,
+     "H": 221,
+     "2B": 22,
+     "3B": 12,
+     "SB": 45,
+     "CS": 24,
+     "BB": 45,
+     "SO": 35,
+     "HBP": 8,
+     "GIDP": 9
+    },
+    {
+     "season": 2005,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Florida Marlins",
+     "age": 27,
+     "PA": 719,
+     "AVG": 0.276,
+     "OBP": 0.326,
+     "SLG": 0.354,
+     "OPS": 0.68,
+     "HR": 2,
+     "RBI": 47,
+     "R": 96,
+     "H": 181,
+     "2B": 19,
+     "3B": 13,
+     "SB": 57,
+     "CS": 17,
+     "BB": 41,
+     "SO": 45,
+     "HBP": 9,
+     "GIDP": 10
+    },
+    {
+     "season": 2006,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Chicago Cubs",
+     "age": 28,
+     "PA": 750,
+     "AVG": 0.292,
+     "OBP": 0.33,
+     "SLG": 0.388,
+     "OPS": 0.718,
+     "HR": 3,
+     "RBI": 40,
+     "R": 87,
+     "H": 204,
+     "2B": 32,
+     "3B": 13,
+     "SB": 58,
+     "CS": 20,
+     "BB": 32,
+     "SO": 38,
+     "HBP": 8,
+     "GIDP": 6
+    },
+    {
+     "season": 2007,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "PA": 729,
+     "AVG": 0.293,
+     "OBP": 0.331,
+     "SLG": 0.353,
+     "OPS": 0.684,
+     "HR": 0,
+     "RBI": 41,
+     "R": 96,
+     "H": 196,
+     "2B": 24,
+     "3B": 8,
+     "SB": 64,
+     "CS": 15,
+     "BB": 33,
+     "SO": 37,
+     "HBP": 6,
+     "GIDP": 10
+    },
+    {
+     "season": 2008,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Los Angeles Dodgers",
+     "age": 30,
+     "PA": 406,
+     "AVG": 0.283,
+     "OBP": 0.327,
+     "SLG": 0.328,
+     "OPS": 0.655,
+     "HR": 1,
+     "RBI": 28,
+     "R": 44,
+     "H": 106,
+     "2B": 10,
+     "3B": 2,
+     "SB": 40,
+     "CS": 12,
+     "BB": 22,
+     "SO": 24,
+     "HBP": 3,
+     "GIDP": 3
+    }
+   ],
+   "text": "Juan Pierre stole 40+ bases in 8 straight seasons (2001-08), the longest run of the 2000s."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "BB100",
+   "group": "H",
+   "decade": 2000,
+   "score": 9,
+   "players": [
+    {
+     "id": 110029,
+     "name": "Bobby Abreu"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 110029,
+     "name": "Bobby Abreu",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "PA": 680,
+     "AVG": 0.316,
+     "OBP": 0.416,
+     "SLG": 0.554,
+     "OPS": 0.97,
+     "HR": 25,
+     "RBI": 79,
+     "R": 103,
+     "H": 182,
+     "2B": 42,
+     "3B": 10,
+     "SB": 28,
+     "CS": 8,
+     "BB": 100,
+     "SO": 116,
+     "HBP": 1,
+     "GIDP": 12
+    },
+    {
+     "season": 2001,
+     "id": 110029,
+     "name": "Bobby Abreu",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "PA": 704,
+     "AVG": 0.289,
+     "OBP": 0.393,
+     "SLG": 0.543,
+     "OPS": 0.936,
+     "HR": 31,
+     "RBI": 110,
+     "R": 118,
+     "H": 170,
+     "2B": 48,
+     "3B": 4,
+     "SB": 36,
+     "CS": 14,
+     "BB": 106,
+     "SO": 137,
+     "HBP": 1,
+     "GIDP": 13
+    },
+    {
+     "season": 2002,
+     "id": 110029,
+     "name": "Bobby Abreu",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "PA": 685,
+     "AVG": 0.308,
+     "OBP": 0.413,
+     "SLG": 0.521,
+     "OPS": 0.934,
+     "HR": 20,
+     "RBI": 85,
+     "R": 102,
+     "H": 176,
+     "2B": 50,
+     "3B": 6,
+     "SB": 31,
+     "CS": 12,
+     "BB": 104,
+     "SO": 117,
+     "HBP": 3,
+     "GIDP": 11
+    },
+    {
+     "season": 2003,
+     "id": 110029,
+     "name": "Bobby Abreu",
+     "team": "Philadelphia Phillies",
+     "age": 29,
+     "PA": 695,
+     "AVG": 0.3,
+     "OBP": 0.409,
+     "SLG": 0.468,
+     "OPS": 0.877,
+     "HR": 20,
+     "RBI": 101,
+     "R": 99,
+     "H": 173,
+     "2B": 35,
+     "3B": 1,
+     "SB": 22,
+     "CS": 9,
+     "BB": 109,
+     "SO": 126,
+     "HBP": 2,
+     "GIDP": 13
+    },
+    {
+     "season": 2004,
+     "id": 110029,
+     "name": "Bobby Abreu",
+     "team": "Philadelphia Phillies",
+     "age": 30,
+     "PA": 713,
+     "AVG": 0.301,
+     "OBP": 0.428,
+     "SLG": 0.544,
+     "OPS": 0.972,
+     "HR": 30,
+     "RBI": 105,
+     "R": 118,
+     "H": 173,
+     "2B": 47,
+     "3B": 1,
+     "SB": 40,
+     "CS": 5,
+     "BB": 127,
+     "SO": 116,
+     "HBP": 5,
+     "GIDP": 5
+    },
+    {
+     "season": 2005,
+     "id": 110029,
+     "name": "Bobby Abreu",
+     "team": "Philadelphia Phillies",
+     "age": 31,
+     "PA": 719,
+     "AVG": 0.286,
+     "OBP": 0.405,
+     "SLG": 0.474,
+     "OPS": 0.879,
+     "HR": 24,
+     "RBI": 102,
+     "R": 104,
+     "H": 168,
+     "2B": 37,
+     "3B": 1,
+     "SB": 31,
+     "CS": 9,
+     "BB": 117,
+     "SO": 134,
+     "HBP": 6,
+     "GIDP": 7
+    },
+    {
+     "season": 2006,
+     "id": 110029,
+     "name": "Bobby Abreu",
+     "team": "New York Yankees",
+     "age": 32,
+     "PA": 686,
+     "AVG": 0.297,
+     "OBP": 0.424,
+     "SLG": 0.462,
+     "OPS": 0.886,
+     "HR": 15,
+     "RBI": 107,
+     "R": 98,
+     "H": 163,
+     "2B": 41,
+     "3B": 2,
+     "SB": 30,
+     "CS": 6,
+     "BB": 124,
+     "SO": 138,
+     "HBP": 3,
+     "GIDP": 13
+    }
+   ],
+   "text": "Bobby Abreu drew 100+ walks in 7 straight seasons (2000-06), the longest run of the 2000s."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "SV30",
+   "group": "P",
+   "decade": 2000,
+   "score": 9,
+   "players": [
+    {
+     "id": 121250,
+     "name": "Mariano Rivera"
+    }
+   ],
+   "seasons": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 33,
+     "W": 5,
+     "L": 2,
+     "ERA": 1.66,
+     "IP": "70.2",
+     "SO": 63,
+     "BB": 10,
+     "SV": 40,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1
+    },
+    {
+     "season": 2004,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 34,
+     "W": 4,
+     "L": 2,
+     "ERA": 1.94,
+     "IP": "78.2",
+     "SO": 66,
+     "BB": 20,
+     "SV": 53,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.08
+    },
+    {
+     "season": 2005,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 35,
+     "W": 7,
+     "L": 4,
+     "ERA": 1.38,
+     "IP": "78.1",
+     "SO": 80,
+     "BB": 18,
+     "SV": 43,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 0.87
+    },
+    {
+     "season": 2006,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 36,
+     "W": 5,
+     "L": 5,
+     "ERA": 1.8,
+     "IP": "75.0",
+     "SO": 55,
+     "BB": 11,
+     "SV": 34,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 0.96
+    },
+    {
+     "season": 2007,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 37,
+     "W": 3,
+     "L": 4,
+     "ERA": 3.15,
+     "IP": "71.1",
+     "SO": 74,
+     "BB": 12,
+     "SV": 30,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.12
+    },
+    {
+     "season": 2008,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 38,
+     "W": 6,
+     "L": 5,
+     "ERA": 1.4,
+     "IP": "70.2",
+     "SO": 77,
+     "BB": 6,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 0.67
+    },
+    {
+     "season": 2009,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 39,
+     "W": 3,
+     "L": 3,
+     "ERA": 1.76,
+     "IP": "66.1",
+     "SO": 72,
+     "BB": 12,
+     "SV": 44,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 0.9
+    }
+   ],
+   "text": "Mariano Rivera saved 30+ games in 7 straight seasons (2003-09), the longest run of the 2000s."
+  },
+  {
+   "n": 22,
+   "rule": "relief_wins",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      12
+     ],
+     [
+      "GS",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 150274,
+     "name": "Joe Nathan",
+     "team": "San Francisco Giants",
+     "age": 28,
+     "W": 12,
+     "L": 4,
+     "ERA": 2.96,
+     "IP": "79.0",
+     "SO": 83,
+     "BB": 33,
+     "SV": 0,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.06
+    },
+    {
+     "season": 2005,
+     "id": 430884,
+     "name": "Jesse Crain",
+     "team": "Minnesota Twins",
+     "age": 23,
+     "W": 12,
+     "L": 5,
+     "ERA": 2.71,
+     "IP": "79.2",
+     "SO": 25,
+     "BB": 29,
+     "SV": 1,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.13
+    }
+   ],
+   "kind": "pair",
+   "score": 8.3,
+   "players": [
+    {
+     "id": 150274,
+     "name": "Joe Nathan"
+    },
+    {
+     "id": 430884,
+     "name": "Jesse Crain"
+    }
+   ],
+   "seasons": [
+    2003,
+    2005
+   ],
+   "text": "Only two pitchers of the 2000s won 12+ games without a start: Joe Nathan (2003, 12-4, 0 GS); Jesse Crain (2005, 12-5, 0 GS)."
+  },
+  {
+   "n": 23,
+   "rule": "sub_two",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      1.99
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 118377,
+     "name": "Pedro Martínez",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "W": 18,
+     "L": 6,
+     "ERA": 1.74,
+     "IP": "217.0",
+     "SO": 284,
+     "BB": 32,
+     "SV": 0,
+     "GS": 29,
+     "CG": 7,
+     "SHO": 4,
+     "HRA": 17,
+     "WHIP": 0.74
+    },
+    {
+     "season": 2005,
+     "id": 112388,
+     "name": "Roger Clemens",
+     "team": "Houston Astros",
+     "age": 42,
+     "W": 13,
+     "L": 8,
+     "ERA": 1.87,
+     "IP": "211.1",
+     "SO": 185,
+     "BB": 62,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.01
+    }
+   ],
+   "kind": "pair",
+   "score": 8.0435,
+   "players": [
+    {
+     "id": 118377,
+     "name": "Pedro Martínez"
+    },
+    {
+     "id": 112388,
+     "name": "Roger Clemens"
+    }
+   ],
+   "seasons": [
+    2000,
+    2005
+   ],
+   "text": "Only two pitchers of the 2000s posted an ERA under 2.00 (162+ IP): Pedro Martínez (2000, 1.74 ERA in 217.0 IP); Roger Clemens (2005, 1.87 ERA in 211.1 IP)."
+  },
+  {
+   "n": 24,
+   "rule": "seventy_sb",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "SB",
+      "gte",
+      70
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2007,
+     "id": 408314,
+     "name": "José Reyes",
+     "team": "New York Mets",
+     "age": 24,
+     "PA": 765,
+     "AVG": 0.28,
+     "OBP": 0.354,
+     "SLG": 0.421,
+     "OPS": 0.775,
+     "HR": 12,
+     "RBI": 57,
+     "R": 119,
+     "H": 191,
+     "2B": 36,
+     "3B": 12,
+     "SB": 78,
+     "CS": 21,
+     "BB": 77,
+     "SO": 78,
+     "HBP": 1,
+     "GIDP": 6
+    },
+    {
+     "season": 2004,
+     "id": 325392,
+     "name": "Scott Podsednik",
+     "team": "Milwaukee Brewers",
+     "age": 28,
+     "PA": 713,
+     "AVG": 0.244,
+     "OBP": 0.313,
+     "SLG": 0.364,
+     "OPS": 0.677,
+     "HR": 12,
+     "RBI": 39,
+     "R": 85,
+     "H": 156,
+     "2B": 27,
+     "3B": 7,
+     "SB": 70,
+     "CS": 13,
+     "BB": 58,
+     "SO": 105,
+     "HBP": 7,
+     "GIDP": 7
+    },
+    {
+     "season": 2009,
+     "id": 453056,
+     "name": "Jacoby Ellsbury",
+     "team": "Boston Red Sox",
+     "age": 25,
+     "PA": 693,
+     "AVG": 0.301,
+     "OBP": 0.355,
+     "SLG": 0.415,
+     "OPS": 0.77,
+     "HR": 8,
+     "RBI": 60,
+     "R": 94,
+     "H": 188,
+     "2B": 27,
+     "3B": 10,
+     "SB": 70,
+     "CS": 12,
+     "BB": 49,
+     "SO": 74,
+     "HBP": 6,
+     "GIDP": 13
+    }
+   ],
+   "kind": "few",
+   "score": 7.95,
+   "players": [
+    {
+     "id": 408314,
+     "name": "José Reyes"
+    },
+    {
+     "id": 325392,
+     "name": "Scott Podsednik"
+    },
+    {
+     "id": 453056,
+     "name": "Jacoby Ellsbury"
+    }
+   ],
+   "seasons": [
+    2007,
+    2004,
+    2009
+   ],
+   "text": "Just three hitters of the 2000s stole 70 bases: José Reyes (2007, 78 SB); Scott Podsednik (2004, 70 SB); Jacoby Ellsbury (2009, 70 SB)."
+  },
+  {
+   "n": 25,
+   "rule": "old_avg",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 39,
+     "PA": 617,
+     "AVG": 0.362,
+     "OBP": 0.609,
+     "SLG": 0.812,
+     "OPS": 1.421,
+     "HR": 45,
+     "RBI": 101,
+     "R": 129,
+     "H": 135,
+     "2B": 27,
+     "3B": 3,
+     "SB": 6,
+     "CS": 1,
+     "BB": 232,
+     "SO": 41,
+     "HBP": 9,
+     "GIDP": 5
+    },
+    {
+     "season": 2002,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 37,
+     "PA": 612,
+     "AVG": 0.37,
+     "OBP": 0.582,
+     "SLG": 0.799,
+     "OPS": 1.381,
+     "HR": 46,
+     "RBI": 110,
+     "R": 117,
+     "H": 149,
+     "2B": 31,
+     "3B": 2,
+     "SB": 9,
+     "CS": 2,
+     "BB": 198,
+     "SO": 47,
+     "HBP": 9,
+     "GIDP": 4
+    },
+    {
+     "season": 2003,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 38,
+     "PA": 550,
+     "AVG": 0.341,
+     "OBP": 0.529,
+     "SLG": 0.749,
+     "OPS": 1.278,
+     "HR": 45,
+     "RBI": 90,
+     "R": 111,
+     "H": 133,
+     "2B": 22,
+     "3B": 1,
+     "SB": 7,
+     "CS": 0,
+     "BB": 148,
+     "SO": 58,
+     "HBP": 10,
+     "GIDP": 7
+    },
+    {
+     "season": 2000,
+     "id": 118365,
+     "name": "Edgar Martinez",
+     "team": "Seattle Mariners",
+     "age": 37,
+     "PA": 665,
+     "AVG": 0.324,
+     "OBP": 0.423,
+     "SLG": 0.579,
+     "OPS": 1.002,
+     "HR": 37,
+     "RBI": 145,
+     "R": 100,
+     "H": 180,
+     "2B": 31,
+     "3B": 0,
+     "SB": 3,
+     "CS": 0,
+     "BB": 96,
+     "SO": 95,
+     "HBP": 5,
+     "GIDP": 13
+    }
+   ],
+   "kind": "few",
+   "score": 7.88,
+   "players": [
+    {
+     "id": 111188,
+     "name": "Barry Bonds"
+    },
+    {
+     "id": 111188,
+     "name": "Barry Bonds"
+    },
+    {
+     "id": 111188,
+     "name": "Barry Bonds"
+    },
+    {
+     "id": 118365,
+     "name": "Edgar Martinez"
+    }
+   ],
+   "seasons": [
+    2004,
+    2002,
+    2003,
+    2000
+   ],
+   "text": "Just four hitters of the 2000s batted .320 at age 37 or older (500+ PA): Barry Bonds (2004, .362 at 39); Barry Bonds (2002, .370 at 37); Barry Bonds (2003, .341 at 38); Edgar Martinez (2000, .324 at 37)."
+  },
+  {
+   "n": 26,
+   "kind": "streak",
+   "rule": "K200",
+   "group": "P",
+   "decade": 2000,
+   "score": 7,
+   "players": [
+    {
+     "id": 276371,
+     "name": "Johan Santana"
+    }
+   ],
+   "seasons": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 276371,
+     "name": "Johan Santana",
+     "team": "Minnesota Twins",
+     "age": 25,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.61,
+     "IP": "228.0",
+     "SO": 265,
+     "BB": 54,
+     "SV": 0,
+     "GS": 34,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 24,
+     "WHIP": 0.92
+    },
+    {
+     "season": 2005,
+     "id": 276371,
+     "name": "Johan Santana",
+     "team": "Minnesota Twins",
+     "age": 26,
+     "W": 16,
+     "L": 7,
+     "ERA": 2.87,
+     "IP": "231.2",
+     "SO": 238,
+     "BB": 45,
+     "SV": 0,
+     "GS": 33,
+     "CG": 3,
+     "SHO": 2,
+     "HRA": 22,
+     "WHIP": 0.97
+    },
+    {
+     "season": 2006,
+     "id": 276371,
+     "name": "Johan Santana",
+     "team": "Minnesota Twins",
+     "age": 27,
+     "W": 19,
+     "L": 6,
+     "ERA": 2.77,
+     "IP": "233.2",
+     "SO": 245,
+     "BB": 47,
+     "SV": 0,
+     "GS": 34,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 1
+    },
+    {
+     "season": 2007,
+     "id": 276371,
+     "name": "Johan Santana",
+     "team": "Minnesota Twins",
+     "age": 28,
+     "W": 15,
+     "L": 13,
+     "ERA": 3.33,
+     "IP": "219.0",
+     "SO": 235,
+     "BB": 52,
+     "SV": 0,
+     "GS": 33,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 33,
+     "WHIP": 1.07
+    },
+    {
+     "season": 2008,
+     "id": 276371,
+     "name": "Johan Santana",
+     "team": "New York Mets",
+     "age": 29,
+     "W": 16,
+     "L": 7,
+     "ERA": 2.53,
+     "IP": "234.1",
+     "SO": 206,
+     "BB": 63,
+     "SV": 0,
+     "GS": 34,
+     "CG": 3,
+     "SHO": 2,
+     "HRA": 23,
+     "WHIP": 1.15
+    }
+   ],
+   "text": "Johan Santana struck out 200+ in 5 straight seasons (2004-08), the longest run of the 2000s."
+  },
+  {
+   "n": 27,
+   "rule": "young_power",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2001,
+     "id": 405395,
+     "name": "Albert Pujols",
+     "team": "St. Louis Cardinals",
+     "age": 21,
+     "PA": 676,
+     "AVG": 0.329,
+     "OBP": 0.403,
+     "SLG": 0.61,
+     "OPS": 1.013,
+     "HR": 37,
+     "RBI": 130,
+     "R": 112,
+     "H": 194,
+     "2B": 47,
+     "3B": 4,
+     "SB": 1,
+     "CS": 3,
+     "BB": 69,
+     "SO": 93,
+     "HBP": 9,
+     "GIDP": 21
+    },
+    {
+     "season": 2002,
+     "id": 405395,
+     "name": "Albert Pujols",
+     "team": "St. Louis Cardinals",
+     "age": 22,
+     "PA": 675,
+     "AVG": 0.314,
+     "OBP": 0.394,
+     "SLG": 0.561,
+     "OPS": 0.955,
+     "HR": 34,
+     "RBI": 127,
+     "R": 118,
+     "H": 185,
+     "2B": 40,
+     "3B": 2,
+     "SB": 2,
+     "CS": 4,
+     "BB": 72,
+     "SO": 69,
+     "HBP": 9,
+     "GIDP": 20
+    },
+    {
+     "season": 2004,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Florida Marlins",
+     "age": 21,
+     "PA": 685,
+     "AVG": 0.294,
+     "OBP": 0.366,
+     "SLG": 0.512,
+     "OPS": 0.878,
+     "HR": 33,
+     "RBI": 112,
+     "R": 101,
+     "H": 177,
+     "2B": 31,
+     "3B": 1,
+     "SB": 5,
+     "CS": 2,
+     "BB": 68,
+     "SO": 148,
+     "HBP": 6,
+     "GIDP": 20
+    },
+    {
+     "season": 2005,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Florida Marlins",
+     "age": 22,
+     "PA": 685,
+     "AVG": 0.323,
+     "OBP": 0.385,
+     "SLG": 0.561,
+     "OPS": 0.946,
+     "HR": 33,
+     "RBI": 116,
+     "R": 106,
+     "H": 198,
+     "2B": 43,
+     "3B": 2,
+     "SB": 1,
+     "CS": 0,
+     "BB": 64,
+     "SO": 125,
+     "HBP": 2,
+     "GIDP": 20
+    }
+   ],
+   "kind": "few",
+   "score": 6.4,
+   "players": [
+    {
+     "id": 405395,
+     "name": "Albert Pujols"
+    },
+    {
+     "id": 405395,
+     "name": "Albert Pujols"
+    },
+    {
+     "id": 408234,
+     "name": "Miguel Cabrera"
+    },
+    {
+     "id": 408234,
+     "name": "Miguel Cabrera"
+    }
+   ],
+   "seasons": [
+    2001,
+    2002,
+    2004,
+    2005
+   ],
+   "text": "Just four hitters of the 2000s hit 30+ homers at age 22 or younger: Albert Pujols (2001, 37 HR at 21); Albert Pujols (2002, 34 HR at 22); Miguel Cabrera (2004, 33 HR at 21); Miguel Cabrera (2005, 33 HR at 22)."
+  },
+  {
+   "n": 28,
+   "rule": "bb_and_k",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      100
+     ],
+     [
+      "SO",
+      "gte",
+      180
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2008,
+     "id": 400091,
+     "name": "Jack Cust",
+     "team": "Oakland Athletics",
+     "age": 29,
+     "PA": 598,
+     "AVG": 0.231,
+     "OBP": 0.375,
+     "SLG": 0.476,
+     "OPS": 0.851,
+     "HR": 33,
+     "RBI": 77,
+     "R": 77,
+     "H": 111,
+     "2B": 19,
+     "3B": 0,
+     "SB": 0,
+     "CS": 0,
+     "BB": 111,
+     "SO": 197,
+     "HBP": 2,
+     "GIDP": 7
+    },
+    {
+     "season": 2006,
+     "id": 276055,
+     "name": "Adam Dunn",
+     "team": "Cincinnati Reds",
+     "age": 26,
+     "PA": 683,
+     "AVG": 0.234,
+     "OBP": 0.365,
+     "SLG": 0.49,
+     "OPS": 0.855,
+     "HR": 40,
+     "RBI": 92,
+     "R": 99,
+     "H": 131,
+     "2B": 24,
+     "3B": 0,
+     "SB": 7,
+     "CS": 0,
+     "BB": 112,
+     "SO": 194,
+     "HBP": 6,
+     "GIDP": 8
+    },
+    {
+     "season": 2007,
+     "id": 429667,
+     "name": "Ryan Howard",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "PA": 648,
+     "AVG": 0.268,
+     "OBP": 0.392,
+     "SLG": 0.584,
+     "OPS": 0.976,
+     "HR": 47,
+     "RBI": 136,
+     "R": 94,
+     "H": 142,
+     "2B": 26,
+     "3B": 0,
+     "SB": 1,
+     "CS": 0,
+     "BB": 107,
+     "SO": 199,
+     "HBP": 5,
+     "GIDP": 13
+    },
+    {
+     "season": 2004,
+     "id": 276055,
+     "name": "Adam Dunn",
+     "team": "Cincinnati Reds",
+     "age": 24,
+     "PA": 681,
+     "AVG": 0.266,
+     "OBP": 0.388,
+     "SLG": 0.569,
+     "OPS": 0.957,
+     "HR": 46,
+     "RBI": 102,
+     "R": 105,
+     "H": 151,
+     "2B": 34,
+     "3B": 0,
+     "SB": 6,
+     "CS": 1,
+     "BB": 108,
+     "SO": 195,
+     "HBP": 5,
+     "GIDP": 8
+    },
+    {
+     "season": 2001,
+     "id": 123272,
+     "name": "Jim Thome",
+     "team": "Cleveland Indians",
+     "age": 30,
+     "PA": 644,
+     "AVG": 0.291,
+     "OBP": 0.416,
+     "SLG": 0.624,
+     "OPS": 1.04,
+     "HR": 49,
+     "RBI": 124,
+     "R": 101,
+     "H": 153,
+     "2B": 26,
+     "3B": 1,
+     "SB": 0,
+     "CS": 1,
+     "BB": 111,
+     "SO": 185,
+     "HBP": 4,
+     "GIDP": 9
+    },
+    {
+     "season": 2003,
+     "id": 123272,
+     "name": "Jim Thome",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "PA": 698,
+     "AVG": 0.266,
+     "OBP": 0.385,
+     "SLG": 0.573,
+     "OPS": 0.958,
+     "HR": 47,
+     "RBI": 131,
+     "R": 111,
+     "H": 154,
+     "2B": 30,
+     "3B": 3,
+     "SB": 0,
+     "CS": 3,
+     "BB": 111,
+     "SO": 182,
+     "HBP": 4,
+     "GIDP": 5
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 400091,
+     "name": "Jack Cust"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "7 times in the 2000s a hitter drew 100 walks and struck out 180 times. The most extreme: Jack Cust, 2008 — 111 BB, 197 K."
+  },
+  {
+   "n": 29,
+   "rule": "closer_100k",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      35
+     ],
+     [
+      "SO",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 150378,
+     "name": "Eric Gagne",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 2,
+     "L": 3,
+     "ERA": 1.2,
+     "IP": "82.1",
+     "SO": 137,
+     "BB": 20,
+     "SV": 55,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 0.69
+    },
+    {
+     "season": 2002,
+     "id": 150378,
+     "name": "Eric Gagne",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "W": 4,
+     "L": 1,
+     "ERA": 1.97,
+     "IP": "82.1",
+     "SO": 114,
+     "BB": 16,
+     "SV": 52,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 0.86
+    },
+    {
+     "season": 2004,
+     "id": 150378,
+     "name": "Eric Gagne",
+     "team": "Los Angeles Dodgers",
+     "age": 28,
+     "W": 7,
+     "L": 3,
+     "ERA": 2.19,
+     "IP": "82.1",
+     "SO": 114,
+     "BB": 22,
+     "SV": 45,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.91
+    },
+    {
+     "season": 2004,
+     "id": 136734,
+     "name": "Octavio Dotel",
+     "team": "Oakland Athletics",
+     "age": 30,
+     "W": 6,
+     "L": 6,
+     "ERA": 3.69,
+     "IP": "85.1",
+     "SO": 122,
+     "BB": 33,
+     "SV": 36,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 13,
+     "WHIP": 1.18
+    },
+    {
+     "season": 2009,
+     "id": 455009,
+     "name": "Jonathan Broxton",
+     "team": "Los Angeles Dodgers",
+     "age": 25,
+     "W": 7,
+     "L": 2,
+     "ERA": 2.61,
+     "IP": "76.0",
+     "SO": 114,
+     "BB": 29,
+     "SV": 36,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 0.96
+    },
+    {
+     "season": 2003,
+     "id": 123790,
+     "name": "Billy Wagner",
+     "team": "Houston Astros",
+     "age": 31,
+     "W": 1,
+     "L": 4,
+     "ERA": 1.78,
+     "IP": "86.0",
+     "SO": 105,
+     "BB": 23,
+     "SV": 44,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 8,
+     "WHIP": 0.87
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 150378,
+     "name": "Eric Gagne"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "10 times in the 2000s a pitcher saved 35 games and struck out 100. The most extreme: Eric Gagne, 2003 — 55 SV, 137 K in 82.1 IP."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "lowest_avg_100rbi",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 150289,
+     "name": "Carlos Pena"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2009,
+     "id": 150289,
+     "name": "Carlos Pena",
+     "team": "Tampa Bay Rays",
+     "age": 31,
+     "PA": 570,
+     "AVG": 0.227,
+     "OBP": 0.356,
+     "SLG": 0.537,
+     "OPS": 0.893,
+     "HR": 39,
+     "RBI": 100,
+     "R": 91,
+     "H": 107,
+     "2B": 25,
+     "3B": 2,
+     "SB": 3,
+     "CS": 3,
+     "BB": 87,
+     "SO": 163,
+     "HBP": 9,
+     "GIDP": 5
+    }
+   ],
+   "among": 360,
+   "text": "Lowest average by any 100-RBI hitter of the 2000s: Carlos Pena, 2009 — .227 with 100 RBI."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 429667,
+     "name": "Ryan Howard"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2006,
+     "id": 429667,
+     "name": "Ryan Howard",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "PA": 704,
+     "AVG": 0.313,
+     "OBP": 0.425,
+     "SLG": 0.659,
+     "OPS": 1.084,
+     "HR": 58,
+     "RBI": 149,
+     "R": 104,
+     "H": 182,
+     "2B": 25,
+     "3B": 1,
+     "SB": 0,
+     "CS": 0,
+     "BB": 108,
+     "SO": 181,
+     "HBP": 9,
+     "GIDP": 7
+    }
+   ],
+   "among": 397,
+   "text": "Most strikeouts by a .300 hitter of the 2000s: Ryan Howard, 2006 — 181 K while batting .313."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "most_sb_30hr",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 136860,
+     "name": "Carlos Beltrán"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 136860,
+     "name": "Carlos Beltrán",
+     "team": "Houston Astros",
+     "age": 27,
+     "PA": 708,
+     "AVG": 0.267,
+     "OBP": 0.367,
+     "SLG": 0.548,
+     "OPS": 0.915,
+     "HR": 38,
+     "RBI": 104,
+     "R": 121,
+     "H": 160,
+     "2B": 36,
+     "3B": 9,
+     "SB": 42,
+     "CS": 3,
+     "BB": 92,
+     "SO": 101,
+     "HBP": 7,
+     "GIDP": 8
+    }
+   ],
+   "among": 328,
+   "text": "Most steals by a 30-homer hitter of the 2000s: Carlos Beltrán, 2004 — 42 SB with 38 HR."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "highest_avg_low_hr",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 112116,
+     "name": "Luis Castillo"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 112116,
+     "name": "Luis Castillo",
+     "team": "Florida Marlins",
+     "age": 24,
+     "PA": 626,
+     "AVG": 0.334,
+     "OBP": 0.418,
+     "SLG": 0.388,
+     "OPS": 0.806,
+     "HR": 2,
+     "RBI": 17,
+     "R": 101,
+     "H": 180,
+     "2B": 17,
+     "3B": 3,
+     "SB": 62,
+     "CS": 22,
+     "BB": 78,
+     "SO": 86,
+     "HBP": 0,
+     "GIDP": 11
+    }
+   ],
+   "among": 71,
+   "text": "Highest average by a hitter with 3 homers or fewer: Luis Castillo, 2000 — .334 with 2 HR."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "most_bb_low_avg",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 276055,
+     "name": "Adam Dunn"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2008,
+     "id": 276055,
+     "name": "Adam Dunn",
+     "team": "Arizona Diamondbacks",
+     "age": 28,
+     "PA": 651,
+     "AVG": 0.236,
+     "OBP": 0.386,
+     "SLG": 0.513,
+     "OPS": 0.899,
+     "HR": 40,
+     "RBI": 100,
+     "R": 79,
+     "H": 122,
+     "2B": 23,
+     "3B": 0,
+     "SB": 2,
+     "CS": 1,
+     "BB": 122,
+     "SO": 164,
+     "HBP": 7,
+     "GIDP": 7
+    }
+   ],
+   "among": 74,
+   "text": "Most walks by a sub-.240 hitter of the 2000s: Adam Dunn, 2008 — 122 BB while batting .236."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "most_rbi_per_hr",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 112297,
+     "name": "Jeff Cirillo"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 112297,
+     "name": "Jeff Cirillo",
+     "team": "Colorado Rockies",
+     "age": 30,
+     "PA": 684,
+     "AVG": 0.326,
+     "OBP": 0.392,
+     "SLG": 0.477,
+     "OPS": 0.869,
+     "HR": 11,
+     "RBI": 115,
+     "R": 111,
+     "H": 195,
+     "2B": 53,
+     "3B": 2,
+     "SB": 3,
+     "CS": 4,
+     "BB": 67,
+     "SO": 72,
+     "HBP": 6,
+     "GIDP": 19
+    }
+   ],
+   "among": 360,
+   "text": "Most RBI per home run among 100-RBI seasons: Jeff Cirillo, 2000 — 115 RBI on 11 HR."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "most_wins_bad_era",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 112526,
+     "name": "Bartolo Colon"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 112526,
+     "name": "Bartolo Colon",
+     "team": "Anaheim Angels",
+     "age": 31,
+     "W": 18,
+     "L": 12,
+     "ERA": 5.01,
+     "IP": "208.1",
+     "SO": 158,
+     "BB": 71,
+     "SV": 0,
+     "GS": 34,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 38,
+     "WHIP": 1.37
+    }
+   ],
+   "among": 379,
+   "text": "Most wins by a pitcher with an ERA over 5.00: Bartolo Colon, 2004 — 18-12 with a 5.01 ERA."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "fewest_wins_low_era",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 121811,
+     "name": "Curt Schilling"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 121811,
+     "name": "Curt Schilling",
+     "team": "Arizona Diamondbacks",
+     "age": 36,
+     "W": 8,
+     "L": 9,
+     "ERA": 2.95,
+     "IP": "168.0",
+     "SO": 194,
+     "BB": 32,
+     "SV": 0,
+     "GS": 24,
+     "CG": 3,
+     "SHO": 2,
+     "HRA": 17,
+     "WHIP": 1.05
+    }
+   ],
+   "among": 62,
+   "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Curt Schilling, 2003 — 8-9 despite a 2.95 ERA."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_k_losing",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 282656,
+     "name": "Ben Sheets"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 282656,
+     "name": "Ben Sheets",
+     "team": "Milwaukee Brewers",
+     "age": 25,
+     "W": 12,
+     "L": 14,
+     "ERA": 2.7,
+     "IP": "237.0",
+     "SO": 264,
+     "BB": 32,
+     "SV": 0,
+     "GS": 34,
+     "CG": 5,
+     "SHO": 0,
+     "HRA": 25,
+     "WHIP": 0.98
+    }
+   ],
+   "among": 2548,
+   "text": "Most strikeouts by a pitcher with a losing record: Ben Sheets, 2004 — 264 K, 12-14."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 116615,
+     "name": "Randy Johnson"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Arizona Diamondbacks",
+     "age": 40,
+     "W": 16,
+     "L": 14,
+     "ERA": 2.6,
+     "IP": "245.2",
+     "SO": 290,
+     "BB": 44,
+     "SV": 0,
+     "GS": 35,
+     "CG": 4,
+     "SHO": 2,
+     "HRA": 18,
+     "WHIP": 0.9
+    }
+   ],
+   "among": 211,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Randy Johnson, 2004 — 16-14 with a 2.60 ERA."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "fewest_k_20w",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 119469,
+     "name": "Jamie Moyer"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2001,
+     "id": 119469,
+     "name": "Jamie Moyer",
+     "team": "Seattle Mariners",
+     "age": 38,
+     "W": 20,
+     "L": 6,
+     "ERA": 3.43,
+     "IP": "209.2",
+     "SO": 119,
+     "BB": 44,
+     "SV": 0,
+     "GS": 33,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 1.1
+    }
+   ],
+   "among": 34,
+   "text": "Fewest strikeouts by a 20-game winner of the 2000s: Jamie Moyer, 2001 — 119 K, 20-6."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "most_ip_no_cg",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 400061,
+     "name": "Roy Oswalt"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2002,
+     "id": 400061,
+     "name": "Roy Oswalt",
+     "team": "Houston Astros",
+     "age": 24,
+     "W": 19,
+     "L": 9,
+     "ERA": 3.01,
+     "IP": "233.0",
+     "SO": 208,
+     "BB": 62,
+     "SV": 0,
+     "GS": 34,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 17,
+     "WHIP": 1.19
+    }
+   ],
+   "among": 5367,
+   "text": "Most innings in a season without a complete game: Roy Oswalt, 2002 — 233.0 IP, 0 CG."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "most_hra",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 117769,
+     "name": "Jose Lima"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 117769,
+     "name": "Jose Lima",
+     "team": "Houston Astros",
+     "age": 27,
+     "W": 7,
+     "L": 16,
+     "ERA": 6.65,
+     "IP": "196.1",
+     "SO": 124,
+     "BB": 68,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 48,
+     "WHIP": 1.62
+    }
+   ],
+   "among": 6272,
+   "text": "Most home runs allowed in a season this decade: Jose Lima, 2000 — 48 HR allowed, 7-16."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "most_bb_winner",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 120221,
+     "name": "Chan Ho Park"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 120221,
+     "name": "Chan Ho Park",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 18,
+     "L": 10,
+     "ERA": 3.27,
+     "IP": "226.0",
+     "SO": 217,
+     "BB": 124,
+     "SV": 0,
+     "GS": 34,
+     "CG": 3,
+     "SHO": 1,
+     "HRA": 21,
+     "WHIP": 1.31
+    }
+   ],
+   "among": 258,
+   "text": "Most walks by a 15-game winner: Chan Ho Park, 2000 — 124 BB, 18-10."
+  },
+  {
+   "n": 44,
+   "kind": "nearmiss",
+   "rule": "HR29",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 136860,
+     "name": "Carlos Beltrán"
+    },
+    {
+     "id": 123041,
+     "name": "Mike Sweeney"
+    },
+    {
+     "id": 434670,
+     "name": "Hanley Ramirez"
+    }
+   ],
+   "seasons": [
+    2002,
+    2000,
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2002,
+     "id": 136860,
+     "name": "Carlos Beltrán",
+     "team": "Kansas City Royals",
+     "age": 25,
+     "PA": 722,
+     "AVG": 0.273,
+     "OBP": 0.346,
+     "SLG": 0.501,
+     "OPS": 0.847,
+     "HR": 29,
+     "RBI": 105,
+     "R": 114,
+     "H": 174,
+     "2B": 44,
+     "3B": 7,
+     "SB": 35,
+     "CS": 7,
+     "BB": 71,
+     "SO": 135,
+     "HBP": 4,
+     "GIDP": 12
+    },
+    {
+     "season": 2000,
+     "id": 123041,
+     "name": "Mike Sweeney",
+     "team": "Kansas City Royals",
+     "age": 26,
+     "PA": 717,
+     "AVG": 0.333,
+     "OBP": 0.407,
+     "SLG": 0.523,
+     "OPS": 0.93,
+     "HR": 29,
+     "RBI": 144,
+     "R": 105,
+     "H": 206,
+     "2B": 30,
+     "3B": 0,
+     "SB": 8,
+     "CS": 3,
+     "BB": 71,
+     "SO": 67,
+     "HBP": 15,
+     "GIDP": 15
+    },
+    {
+     "season": 2007,
+     "id": 434670,
+     "name": "Hanley Ramirez",
+     "team": "Florida Marlins",
+     "age": 23,
+     "PA": 706,
+     "AVG": 0.332,
+     "OBP": 0.386,
+     "SLG": 0.562,
+     "OPS": 0.948,
+     "HR": 29,
+     "RBI": 81,
+     "R": 125,
+     "H": 212,
+     "2B": 48,
+     "3B": 6,
+     "SB": 51,
+     "CS": 14,
+     "BB": 52,
+     "SO": 95,
+     "HBP": 7,
+     "GIDP": 10
+    },
+    {
+     "season": 2006,
+     "id": 425548,
+     "name": "Garrett Atkins",
+     "team": "Colorado Rockies",
+     "age": 26,
+     "PA": 695,
+     "AVG": 0.329,
+     "OBP": 0.409,
+     "SLG": 0.556,
+     "OPS": 0.965,
+     "HR": 29,
+     "RBI": 120,
+     "R": 117,
+     "H": 198,
+     "2B": 48,
+     "3B": 1,
+     "SB": 4,
+     "CS": 0,
+     "BB": 79,
+     "SO": 76,
+     "HBP": 7,
+     "GIDP": 24
+    },
+    {
+     "season": 2006,
+     "id": 425796,
+     "name": "Jeff Francoeur",
+     "team": "Atlanta Braves",
+     "age": 22,
+     "PA": 686,
+     "AVG": 0.26,
+     "OBP": 0.293,
+     "SLG": 0.449,
+     "OPS": 0.742,
+     "HR": 29,
+     "RBI": 103,
+     "R": 83,
+     "H": 169,
+     "2B": 24,
+     "3B": 6,
+     "SB": 1,
+     "CS": 6,
+     "BB": 23,
+     "SO": 132,
+     "HBP": 9,
+     "GIDP": 15
+    },
+    {
+     "season": 2008,
+     "id": 408305,
+     "name": "Jorge Cantu",
+     "team": "Florida Marlins",
+     "age": 26,
+     "PA": 685,
+     "AVG": 0.277,
+     "OBP": 0.327,
+     "SLG": 0.481,
+     "OPS": 0.808,
+     "HR": 29,
+     "RBI": 95,
+     "R": 92,
+     "H": 174,
+     "2B": 41,
+     "3B": 0,
+     "SB": 6,
+     "CS": 2,
+     "BB": 40,
+     "SO": 111,
+     "HBP": 10,
+     "GIDP": 15
+    }
+   ],
+   "text": "32 hitter-seasons of the 2000s ended on exactly 29 home runs, one short of 30 — among them Carlos Beltrán (2002), Mike Sweeney (2000), Hanley Ramirez (2007)."
+  },
+  {
+   "n": 45,
+   "kind": "nearmiss",
+   "rule": "AVG299",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 425902,
+     "name": "Prince Fielder"
+    },
+    {
+     "id": 123842,
+     "name": "Todd Walker"
+    },
+    {
+     "id": 217915,
+     "name": "Lew Ford"
+    }
+   ],
+   "seasons": [
+    2009,
+    2002,
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2009,
+     "id": 425902,
+     "name": "Prince Fielder",
+     "team": "Milwaukee Brewers",
+     "age": 25,
+     "PA": 719,
+     "AVG": 0.299,
+     "OBP": 0.412,
+     "SLG": 0.602,
+     "OPS": 1.014,
+     "HR": 46,
+     "RBI": 141,
+     "R": 103,
+     "H": 177,
+     "2B": 35,
+     "3B": 3,
+     "SB": 2,
+     "CS": 3,
+     "BB": 110,
+     "SO": 138,
+     "HBP": 9,
+     "GIDP": 14
+    },
+    {
+     "season": 2002,
+     "id": 123842,
+     "name": "Todd Walker",
+     "team": "Cincinnati Reds",
+     "age": 29,
+     "PA": 675,
+     "AVG": 0.299,
+     "OBP": 0.353,
+     "SLG": 0.431,
+     "OPS": 0.784,
+     "HR": 11,
+     "RBI": 64,
+     "R": 79,
+     "H": 183,
+     "2B": 42,
+     "3B": 3,
+     "SB": 8,
+     "CS": 5,
+     "BB": 50,
+     "SO": 81,
+     "HBP": 3,
+     "GIDP": 9
+    },
+    {
+     "season": 2004,
+     "id": 217915,
+     "name": "Lew Ford",
+     "team": "Minnesota Twins",
+     "age": 27,
+     "PA": 658,
+     "AVG": 0.299,
+     "OBP": 0.381,
+     "SLG": 0.446,
+     "OPS": 0.827,
+     "HR": 15,
+     "RBI": 72,
+     "R": 89,
+     "H": 170,
+     "2B": 31,
+     "3B": 4,
+     "SB": 20,
+     "CS": 2,
+     "BB": 67,
+     "SO": 75,
+     "HBP": 13,
+     "GIDP": 15
+    },
+    {
+     "season": 2007,
+     "id": 150093,
+     "name": "Alfonso Soriano",
+     "team": "Chicago Cubs",
+     "age": 31,
+     "PA": 617,
+     "AVG": 0.299,
+     "OBP": 0.337,
+     "SLG": 0.56,
+     "OPS": 0.897,
+     "HR": 33,
+     "RBI": 70,
+     "R": 97,
+     "H": 173,
+     "2B": 42,
+     "3B": 5,
+     "SB": 19,
+     "CS": 6,
+     "BB": 31,
+     "SO": 130,
+     "HBP": 4,
+     "GIDP": 9
+    },
+    {
+     "season": 2008,
+     "id": 407886,
+     "name": "Ryan Ludwick",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 617,
+     "AVG": 0.299,
+     "OBP": 0.375,
+     "SLG": 0.591,
+     "OPS": 0.966,
+     "HR": 37,
+     "RBI": 113,
+     "R": 104,
+     "H": 161,
+     "2B": 40,
+     "3B": 3,
+     "SB": 4,
+     "CS": 4,
+     "BB": 62,
+     "SO": 146,
+     "HBP": 8,
+     "GIDP": 8
+    },
+    {
+     "season": 2003,
+     "id": 114789,
+     "name": "Brian Giles",
+     "team": "San Diego Padres",
+     "age": 32,
+     "PA": 609,
+     "AVG": 0.299,
+     "OBP": 0.427,
+     "SLG": 0.514,
+     "OPS": 0.941,
+     "HR": 20,
+     "RBI": 88,
+     "R": 93,
+     "H": 147,
+     "2B": 34,
+     "3B": 6,
+     "SB": 4,
+     "CS": 3,
+     "BB": 105,
+     "SO": 58,
+     "HBP": 8,
+     "GIDP": 12
+    }
+   ],
+   "text": "9 hitter-seasons of the 2000s ended on a .299 average, one point short of .300 — among them Prince Fielder (2009), Todd Walker (2002), Lew Ford (2004)."
+  },
+  {
+   "n": 46,
+   "kind": "nearmiss",
+   "rule": "RBI99",
+   "group": "H",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 276545,
+     "name": "Michael Young"
+    },
+    {
+     "id": 115094,
+     "name": "Shawn Green"
+    },
+    {
+     "id": 453064,
+     "name": "Troy Tulowitzki"
+    }
+   ],
+   "seasons": [
+    2004,
+    2000,
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 276545,
+     "name": "Michael Young",
+     "team": "Texas Rangers",
+     "age": 27,
+     "PA": 739,
+     "AVG": 0.313,
+     "OBP": 0.353,
+     "SLG": 0.483,
+     "OPS": 0.836,
+     "HR": 22,
+     "RBI": 99,
+     "R": 114,
+     "H": 216,
+     "2B": 33,
+     "3B": 9,
+     "SB": 12,
+     "CS": 3,
+     "BB": 44,
+     "SO": 89,
+     "HBP": 1,
+     "GIDP": 11
+    },
+    {
+     "season": 2000,
+     "id": 115094,
+     "name": "Shawn Green",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "PA": 714,
+     "AVG": 0.269,
+     "OBP": 0.367,
+     "SLG": 0.472,
+     "OPS": 0.839,
+     "HR": 24,
+     "RBI": 99,
+     "R": 98,
+     "H": 164,
+     "2B": 44,
+     "3B": 4,
+     "SB": 24,
+     "CS": 5,
+     "BB": 90,
+     "SO": 121,
+     "HBP": 8,
+     "GIDP": 18
+    },
+    {
+     "season": 2007,
+     "id": 453064,
+     "name": "Troy Tulowitzki",
+     "team": "Colorado Rockies",
+     "age": 22,
+     "PA": 682,
+     "AVG": 0.291,
+     "OBP": 0.359,
+     "SLG": 0.479,
+     "OPS": 0.838,
+     "HR": 24,
+     "RBI": 99,
+     "R": 104,
+     "H": 177,
+     "2B": 33,
+     "3B": 5,
+     "SB": 7,
+     "CS": 6,
+     "BB": 57,
+     "SO": 130,
+     "HBP": 9,
+     "GIDP": 14
+    },
+    {
+     "season": 2009,
+     "id": 408236,
+     "name": "Adrián González",
+     "team": "San Diego Padres",
+     "age": 27,
+     "PA": 681,
+     "AVG": 0.277,
+     "OBP": 0.407,
+     "SLG": 0.551,
+     "OPS": 0.958,
+     "HR": 40,
+     "RBI": 99,
+     "R": 90,
+     "H": 153,
+     "2B": 27,
+     "3B": 2,
+     "SB": 1,
+     "CS": 1,
+     "BB": 119,
+     "SO": 109,
+     "HBP": 5,
+     "GIDP": 23
+    },
+    {
+     "season": 2009,
+     "id": 150029,
+     "name": "Jayson Werth",
+     "team": "Philadelphia Phillies",
+     "age": 30,
+     "PA": 676,
+     "AVG": 0.268,
+     "OBP": 0.373,
+     "SLG": 0.506,
+     "OPS": 0.879,
+     "HR": 36,
+     "RBI": 99,
+     "R": 98,
+     "H": 153,
+     "2B": 26,
+     "3B": 1,
+     "SB": 20,
+     "CS": 3,
+     "BB": 91,
+     "SO": 156,
+     "HBP": 8,
+     "GIDP": 11
+    },
+    {
+     "season": 2003,
+     "id": 120044,
+     "name": "Magglio Ordonez",
+     "team": "Chicago White Sox",
+     "age": 29,
+     "PA": 674,
+     "AVG": 0.317,
+     "OBP": 0.38,
+     "SLG": 0.546,
+     "OPS": 0.926,
+     "HR": 29,
+     "RBI": 99,
+     "R": 95,
+     "H": 192,
+     "2B": 46,
+     "3B": 3,
+     "SB": 9,
+     "CS": 5,
+     "BB": 57,
+     "SO": 73,
+     "HBP": 7,
+     "GIDP": 20
+    }
+   ],
+   "text": "18 hitter-seasons of the 2000s ended on exactly 99 RBI, one short of 100 — among them Michael Young (2004), Shawn Green (2000), Troy Tulowitzki (2007)."
+  },
+  {
+   "n": 47,
+   "kind": "nearmiss",
+   "rule": "SV39",
+   "group": "P",
+   "decade": 2000,
+   "score": 6,
+   "players": [
+    {
+     "id": 121250,
+     "name": "Mariano Rivera"
+    },
+    {
+     "id": 150274,
+     "name": "Joe Nathan"
+    },
+    {
+     "id": 276913,
+     "name": "Derrick Turnbow"
+    }
+   ],
+   "seasons": [
+    2008,
+    2008,
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2008,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 38,
+     "W": 6,
+     "L": 5,
+     "ERA": 1.4,
+     "IP": "70.2",
+     "SO": 77,
+     "BB": 6,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 0.67
+    },
+    {
+     "season": 2008,
+     "id": 150274,
+     "name": "Joe Nathan",
+     "team": "Minnesota Twins",
+     "age": 33,
+     "W": 1,
+     "L": 2,
+     "ERA": 1.33,
+     "IP": "67.2",
+     "SO": 74,
+     "BB": 18,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.9
+    },
+    {
+     "season": 2005,
+     "id": 276913,
+     "name": "Derrick Turnbow",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "W": 7,
+     "L": 1,
+     "ERA": 1.74,
+     "IP": "67.1",
+     "SO": 64,
+     "BB": 24,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.08
+    },
+    {
+     "season": 2009,
+     "id": 150188,
+     "name": "Francisco Cordero",
+     "team": "Cincinnati Reds",
+     "age": 34,
+     "W": 2,
+     "L": 6,
+     "ERA": 2.16,
+     "IP": "66.2",
+     "SO": 58,
+     "BB": 30,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 1.32
+    },
+    {
+     "season": 2007,
+     "id": 493416,
+     "name": "Takashi Saito",
+     "team": "Los Angeles Dodgers",
+     "age": 37,
+     "W": 2,
+     "L": 1,
+     "ERA": 1.4,
+     "IP": "64.1",
+     "SO": 78,
+     "BB": 13,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.72
+    },
+    {
+     "season": 2001,
+     "id": 123790,
+     "name": "Billy Wagner",
+     "team": "Houston Astros",
+     "age": 29,
+     "W": 2,
+     "L": 5,
+     "ERA": 2.73,
+     "IP": "62.2",
+     "SO": 79,
+     "BB": 20,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.02
+    }
+   ],
+   "text": "9 pitcher-seasons of the 2000s ended on exactly 39 saves, one short of 40 — among them Mariano Rivera (2008), Joe Nathan (2008), Derrick Turnbow (2005)."
+  },
+  {
+   "n": 48,
+   "kind": "team",
+   "rule": "100w",
+   "group": "T",
+   "decade": 2000,
+   "score": 6,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 136,
+     "name": "Mariners",
+     "wins": 116,
+     "losses": 46,
+     "runsScored": 927,
+     "runsAllowed": 627,
+     "runDifferential": 300,
+     "leagueRank": 1,
+     "season": 2001
+    },
+    {
+     "id": 138,
+     "name": "Cardinals",
+     "wins": 105,
+     "losses": 57,
+     "runsScored": 855,
+     "runsAllowed": 659,
+     "runDifferential": 196,
+     "leagueRank": 1,
+     "season": 2004
+    },
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 103,
+     "losses": 58,
+     "runsScored": 897,
+     "runsAllowed": 697,
+     "runDifferential": 200,
+     "leagueRank": 1,
+     "season": 2002
+    },
+    {
+     "id": 133,
+     "name": "Athletics",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 800,
+     "runsAllowed": 654,
+     "runDifferential": 146,
+     "leagueRank": 2,
+     "season": 2002
+    },
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 915,
+     "runsAllowed": 753,
+     "runDifferential": 162,
+     "leagueRank": 1,
+     "season": 2009
+    },
+    {
+     "id": 133,
+     "name": "Athletics",
+     "wins": 102,
+     "losses": 60,
+     "runsScored": 884,
+     "runsAllowed": 645,
+     "runDifferential": 239,
+     "leagueRank": 2,
+     "season": 2001
+    }
+   ],
+   "text": "13 teams of the 2000s won 100 games; the best record was the 2001 Mariners at 116-46."
+  },
+  {
+   "n": 49,
+   "kind": "age",
+   "rule": "age_330_young",
+   "group": "H",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 467055,
+     "name": "Pablo Sandoval"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2009,
+     "id": 467055,
+     "name": "Pablo Sandoval",
+     "team": "San Francisco Giants",
+     "age": 22,
+     "PA": 633,
+     "AVG": 0.33,
+     "OBP": 0.387,
+     "SLG": 0.556,
+     "OPS": 0.943,
+     "HR": 25,
+     "RBI": 90,
+     "R": 79,
+     "H": 189,
+     "2B": 44,
+     "3B": 5,
+     "SB": 5,
+     "CS": 5,
+     "BB": 52,
+     "SO": 83,
+     "HBP": 4,
+     "GIDP": 10
+    }
+   ],
+   "text": "Youngest player of the 2000s to bat .330 (500+ PA): Pablo Sandoval, age 22 in 2009 — .330."
+  },
+  {
+   "n": 50,
+   "kind": "age",
+   "rule": "age_100rbi_old",
+   "group": "H",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 114526,
+     "name": "Andres Galarraga"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 114526,
+     "name": "Andres Galarraga",
+     "team": "Atlanta Braves",
+     "age": 39,
+     "PA": 548,
+     "AVG": 0.302,
+     "OBP": 0.369,
+     "SLG": 0.526,
+     "OPS": 0.895,
+     "HR": 28,
+     "RBI": 100,
+     "R": 67,
+     "H": 149,
+     "2B": 25,
+     "3B": 1,
+     "SB": 3,
+     "CS": 5,
+     "BB": 36,
+     "SO": 126,
+     "HBP": 17,
+     "GIDP": 15
+    }
+   ],
+   "text": "Oldest player of the 2000s to drive in 100 runs: Andres Galarraga, age 39 in 2000 — 100 RBI."
+  },
+  {
+   "n": 51,
+   "kind": "age",
+   "rule": "age_sb_young",
+   "group": "H",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 408307,
+     "name": "Carl Crawford"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 408307,
+     "name": "Carl Crawford",
+     "team": "Tampa Bay Devil Rays",
+     "age": 21,
+     "PA": 661,
+     "AVG": 0.281,
+     "OBP": 0.309,
+     "SLG": 0.362,
+     "OPS": 0.671,
+     "HR": 5,
+     "RBI": 54,
+     "R": 80,
+     "H": 177,
+     "2B": 18,
+     "3B": 9,
+     "SB": 55,
+     "CS": 10,
+     "BB": 26,
+     "SO": 102,
+     "HBP": 1,
+     "GIDP": 5
+    }
+   ],
+   "text": "Youngest player of the 2000s to steal 40 bases: Carl Crawford, age 21 in 2003 — 55 SB."
+  },
+  {
+   "n": 52,
+   "kind": "age",
+   "rule": "age_sb_old",
+   "group": "H",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 150353,
+     "name": "Dave Roberts"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2006,
+     "id": 150353,
+     "name": "Dave Roberts",
+     "team": "San Diego Padres",
+     "age": 34,
+     "PA": 567,
+     "AVG": 0.293,
+     "OBP": 0.36,
+     "SLG": 0.393,
+     "OPS": 0.753,
+     "HR": 2,
+     "RBI": 44,
+     "R": 80,
+     "H": 146,
+     "2B": 18,
+     "3B": 13,
+     "SB": 49,
+     "CS": 6,
+     "BB": 51,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 5
+    }
+   ],
+   "text": "Oldest player of the 2000s to steal 40 bases: Dave Roberts, age 34 in 2006 — 49 SB."
+  },
+  {
+   "n": 53,
+   "kind": "age",
+   "rule": "age_20w_young",
+   "group": "P",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 150426,
+     "name": "Mark Mulder"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2001,
+     "id": 150426,
+     "name": "Mark Mulder",
+     "team": "Oakland Athletics",
+     "age": 23,
+     "W": 21,
+     "L": 8,
+     "ERA": 3.45,
+     "IP": "229.1",
+     "SO": 153,
+     "BB": 51,
+     "SV": 0,
+     "GS": 34,
+     "CG": 6,
+     "SHO": 4,
+     "HRA": 16,
+     "WHIP": 1.16
+    }
+   ],
+   "text": "Youngest player of the 2000s to win 20 games: Mark Mulder, age 23 in 2001 — 21-8."
+  },
+  {
+   "n": 54,
+   "kind": "age",
+   "rule": "age_20w_old",
+   "group": "P",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 119469,
+     "name": "Jamie Moyer"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 119469,
+     "name": "Jamie Moyer",
+     "team": "Seattle Mariners",
+     "age": 40,
+     "W": 21,
+     "L": 7,
+     "ERA": 3.27,
+     "IP": "215.0",
+     "SO": 129,
+     "BB": 66,
+     "SV": 0,
+     "GS": 33,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 19,
+     "WHIP": 1.23
+    }
+   ],
+   "text": "Oldest player of the 2000s to win 20 games: Jamie Moyer, age 40 in 2003 — 21-7."
+  },
+  {
+   "n": 55,
+   "kind": "age",
+   "rule": "age_k_young",
+   "group": "P",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 407578,
+     "name": "Mark Prior"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 407578,
+     "name": "Mark Prior",
+     "team": "Chicago Cubs",
+     "age": 22,
+     "W": 18,
+     "L": 6,
+     "ERA": 2.43,
+     "IP": "211.1",
+     "SO": 245,
+     "BB": 50,
+     "SV": 0,
+     "GS": 30,
+     "CG": 3,
+     "SHO": 1,
+     "HRA": 15,
+     "WHIP": 1.1
+    }
+   ],
+   "text": "Youngest player of the 2000s to strike out 200: Mark Prior, age 22 in 2003 — 245 K."
+  },
+  {
+   "n": 56,
+   "kind": "age",
+   "rule": "age_k_old",
+   "group": "P",
+   "decade": 2000,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 112388,
+     "name": "Roger Clemens"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 112388,
+     "name": "Roger Clemens",
+     "team": "Houston Astros",
+     "age": 41,
+     "W": 18,
+     "L": 4,
+     "ERA": 2.98,
+     "IP": "214.1",
+     "SO": 218,
+     "BB": 79,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 15,
+     "WHIP": 1.16
+    }
+   ],
+   "text": "Oldest player of the 2000s to strike out 200: Roger Clemens, age 41 in 2004 — 218 K."
+  },
+  {
+   "n": 57,
+   "rule": "thirty_thirty",
+   "group": "H",
+   "decade": 2000,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "SB",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2006,
+     "id": 150093,
+     "name": "Alfonso Soriano",
+     "team": "Washington Nationals",
+     "age": 30,
+     "PA": 728,
+     "AVG": 0.277,
+     "OBP": 0.351,
+     "SLG": 0.56,
+     "OPS": 0.911,
+     "HR": 46,
+     "RBI": 95,
+     "R": 119,
+     "H": 179,
+     "2B": 41,
+     "3B": 2,
+     "SB": 41,
+     "CS": 17,
+     "BB": 67,
+     "SO": 160,
+     "HBP": 9,
+     "GIDP": 3
+    },
+    {
+     "season": 2002,
+     "id": 150093,
+     "name": "Alfonso Soriano",
+     "team": "New York Yankees",
+     "age": 26,
+     "PA": 741,
+     "AVG": 0.3,
+     "OBP": 0.332,
+     "SLG": 0.547,
+     "OPS": 0.879,
+     "HR": 39,
+     "RBI": 102,
+     "R": 128,
+     "H": 209,
+     "2B": 51,
+     "3B": 2,
+     "SB": 41,
+     "CS": 13,
+     "BB": 23,
+     "SO": 157,
+     "HBP": 14,
+     "GIDP": 8
+    },
+    {
+     "season": 2004,
+     "id": 136860,
+     "name": "Carlos Beltrán",
+     "team": "Houston Astros",
+     "age": 27,
+     "PA": 708,
+     "AVG": 0.267,
+     "OBP": 0.367,
+     "SLG": 0.548,
+     "OPS": 0.915,
+     "HR": 38,
+     "RBI": 104,
+     "R": 121,
+     "H": 160,
+     "2B": 36,
+     "3B": 9,
+     "SB": 42,
+     "CS": 3,
+     "BB": 92,
+     "SO": 101,
+     "HBP": 7,
+     "GIDP": 8
+    },
+    {
+     "season": 2002,
+     "id": 115223,
+     "name": "Vladimir Guerrero",
+     "team": "Montreal Expos",
+     "age": 27,
+     "PA": 709,
+     "AVG": 0.336,
+     "OBP": 0.417,
+     "SLG": 0.593,
+     "OPS": 1.01,
+     "HR": 39,
+     "RBI": 111,
+     "R": 106,
+     "H": 206,
+     "2B": 37,
+     "3B": 2,
+     "SB": 40,
+     "CS": 20,
+     "BB": 84,
+     "SO": 70,
+     "HBP": 6,
+     "GIDP": 20
+    },
+    {
+     "season": 2003,
+     "id": 150093,
+     "name": "Alfonso Soriano",
+     "team": "New York Yankees",
+     "age": 27,
+     "PA": 734,
+     "AVG": 0.29,
+     "OBP": 0.338,
+     "SLG": 0.525,
+     "OPS": 0.863,
+     "HR": 38,
+     "RBI": 91,
+     "R": 114,
+     "H": 198,
+     "2B": 36,
+     "3B": 5,
+     "SB": 35,
+     "CS": 8,
+     "BB": 38,
+     "SO": 130,
+     "HBP": 12,
+     "GIDP": 8
+    },
+    {
+     "season": 2001,
+     "id": 115223,
+     "name": "Vladimir Guerrero",
+     "team": "Montreal Expos",
+     "age": 26,
+     "PA": 671,
+     "AVG": 0.307,
+     "OBP": 0.377,
+     "SLG": 0.566,
+     "OPS": 0.943,
+     "HR": 34,
+     "RBI": 108,
+     "R": 107,
+     "H": 184,
+     "2B": 45,
+     "3B": 4,
+     "SB": 37,
+     "CS": 16,
+     "BB": 60,
+     "SO": 88,
+     "HBP": 9,
+     "GIDP": 24
+    }
+   ],
+   "kind": "list",
+   "score": 5.175,
+   "players": [
+    {
+     "id": 150093,
+     "name": "Alfonso Soriano"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "17 times in the 2000s a hitter went 30-30. The most extreme: Alfonso Soriano, 2006 — 46 HR, 41 SB."
+  },
+  {
+   "n": 58,
+   "kind": "nearmiss",
+   "rule": "H199",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 116662,
+     "name": "Andruw Jones"
+    },
+    {
+     "id": 123173,
+     "name": "Miguel Tejada"
+    },
+    {
+     "id": 117601,
+     "name": "Derrek Lee"
+    }
+   ],
+   "seasons": [
+    2000,
+    2005,
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 116662,
+     "name": "Andruw Jones",
+     "team": "Atlanta Braves",
+     "age": 23,
+     "PA": 729,
+     "AVG": 0.303,
+     "OBP": 0.366,
+     "SLG": 0.541,
+     "OPS": 0.907,
+     "HR": 36,
+     "RBI": 104,
+     "R": 122,
+     "H": 199,
+     "2B": 36,
+     "3B": 6,
+     "SB": 21,
+     "CS": 6,
+     "BB": 59,
+     "SO": 100,
+     "HBP": 9,
+     "GIDP": 12
+    },
+    {
+     "season": 2005,
+     "id": 123173,
+     "name": "Miguel Tejada",
+     "team": "Baltimore Orioles",
+     "age": 31,
+     "PA": 704,
+     "AVG": 0.304,
+     "OBP": 0.349,
+     "SLG": 0.515,
+     "OPS": 0.864,
+     "HR": 26,
+     "RBI": 98,
+     "R": 89,
+     "H": 199,
+     "2B": 50,
+     "3B": 5,
+     "SB": 5,
+     "CS": 1,
+     "BB": 40,
+     "SO": 83,
+     "HBP": 7,
+     "GIDP": 26
+    },
+    {
+     "season": 2005,
+     "id": 117601,
+     "name": "Derrek Lee",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 691,
+     "AVG": 0.335,
+     "OBP": 0.418,
+     "SLG": 0.662,
+     "OPS": 1.08,
+     "HR": 46,
+     "RBI": 107,
+     "R": 120,
+     "H": 199,
+     "2B": 50,
+     "3B": 3,
+     "SB": 15,
+     "CS": 3,
+     "BB": 85,
+     "SO": 109,
+     "HBP": 5,
+     "GIDP": 12
+    },
+    {
+     "season": 2009,
+     "id": 123173,
+     "name": "Miguel Tejada",
+     "team": "Houston Astros",
+     "age": 35,
+     "PA": 674,
+     "AVG": 0.313,
+     "OBP": 0.34,
+     "SLG": 0.455,
+     "OPS": 0.795,
+     "HR": 14,
+     "RBI": 86,
+     "R": 83,
+     "H": 199,
+     "2B": 46,
+     "3B": 1,
+     "SB": 5,
+     "CS": 2,
+     "BB": 19,
+     "SO": 48,
+     "HBP": 11,
+     "GIDP": 29
+    }
+   ],
+   "text": "4 hitter-seasons of the 2000s ended on exactly 199 hits, one short of 200 — among them Andruw Jones (2000), Miguel Tejada (2005), Derrek Lee (2005)."
+  },
+  {
+   "n": 59,
+   "kind": "teammates",
+   "rule": "rbi_trio",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 122111,
+     "name": "Gary Sheffield"
+    },
+    {
+     "id": 116662,
+     "name": "Andruw Jones"
+    },
+    {
+     "id": 117919,
+     "name": "Javy Lopez"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 122111,
+     "name": "Gary Sheffield",
+     "team": "Atlanta Braves",
+     "age": 34,
+     "PA": 678,
+     "AVG": 0.33,
+     "OBP": 0.419,
+     "SLG": 0.604,
+     "OPS": 1.023,
+     "HR": 39,
+     "RBI": 132,
+     "R": 126,
+     "H": 190,
+     "2B": 37,
+     "3B": 2,
+     "SB": 18,
+     "CS": 4,
+     "BB": 86,
+     "SO": 55,
+     "HBP": 8,
+     "GIDP": 16
+    },
+    {
+     "season": 2003,
+     "id": 116662,
+     "name": "Andruw Jones",
+     "team": "Atlanta Braves",
+     "age": 26,
+     "PA": 659,
+     "AVG": 0.277,
+     "OBP": 0.338,
+     "SLG": 0.513,
+     "OPS": 0.851,
+     "HR": 36,
+     "RBI": 116,
+     "R": 101,
+     "H": 165,
+     "2B": 28,
+     "3B": 2,
+     "SB": 4,
+     "CS": 3,
+     "BB": 53,
+     "SO": 125,
+     "HBP": 5,
+     "GIDP": 18
+    },
+    {
+     "season": 2003,
+     "id": 117919,
+     "name": "Javy Lopez",
+     "team": "Atlanta Braves",
+     "age": 32,
+     "PA": 495,
+     "AVG": 0.328,
+     "OBP": 0.378,
+     "SLG": 0.687,
+     "OPS": 1.065,
+     "HR": 43,
+     "RBI": 109,
+     "R": 89,
+     "H": 150,
+     "2B": 29,
+     "3B": 3,
+     "SB": 0,
+     "CS": 1,
+     "BB": 33,
+     "SO": 90,
+     "HBP": 4,
+     "GIDP": 10
+    }
+   ],
+   "text": "32 teams of the 2000s had three players at 100+ RBI; the biggest pairing was the 2003 Atlanta Braves — Gary Sheffield 132, Andruw Jones 116, Javy Lopez 109."
+  },
+  {
+   "n": 60,
+   "kind": "teammates",
+   "rule": "sb_pair",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 408307,
+     "name": "Carl Crawford"
+    },
+    {
+     "id": 425834,
+     "name": "B.J. Upton"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2009,
+     "id": 408307,
+     "name": "Carl Crawford",
+     "team": "Tampa Bay Rays",
+     "age": 27,
+     "PA": 672,
+     "AVG": 0.305,
+     "OBP": 0.364,
+     "SLG": 0.452,
+     "OPS": 0.816,
+     "HR": 15,
+     "RBI": 68,
+     "R": 96,
+     "H": 185,
+     "2B": 28,
+     "3B": 8,
+     "SB": 60,
+     "CS": 16,
+     "BB": 51,
+     "SO": 99,
+     "HBP": 8,
+     "GIDP": 7
+    },
+    {
+     "season": 2009,
+     "id": 425834,
+     "name": "B.J. Upton",
+     "team": "Tampa Bay Rays",
+     "age": 24,
+     "PA": 626,
+     "AVG": 0.241,
+     "OBP": 0.313,
+     "SLG": 0.373,
+     "OPS": 0.686,
+     "HR": 11,
+     "RBI": 55,
+     "R": 79,
+     "H": 135,
+     "2B": 33,
+     "3B": 4,
+     "SB": 42,
+     "CS": 14,
+     "BB": 57,
+     "SO": 152,
+     "HBP": 3,
+     "GIDP": 7
+    }
+   ],
+   "text": "2 teams of the 2000s had two players at 40+ steals; the biggest pairing was the 2009 Tampa Bay Rays — Carl Crawford 60, B.J. Upton 42."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "dec_hr_nolead",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 120903,
+     "name": "Manny Ramirez"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 120903,
+     "name": "Manny Ramirez",
+     "n": 10,
+     "HR": 348,
+     "H": 1562,
+     "RBI": 1106,
+     "SB": 10,
+     "R": 933,
+     "BB": 828,
+     "SO": 1085,
+     "2B": 328,
+     "3B": 11,
+     "PA": 5874
+    }
+   ],
+   "text": "Most home runs in the 2000s by a hitter who never led the majors in a season: Manny Ramirez, 348."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "dec_k_hit",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 276055,
+     "name": "Adam Dunn"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 276055,
+     "name": "Adam Dunn",
+     "n": 9,
+     "HR": 316,
+     "H": 1101,
+     "RBI": 777,
+     "SB": 59,
+     "R": 780,
+     "BB": 913,
+     "SO": 1433,
+     "2B": 230,
+     "3B": 8,
+     "PA": 5417
+    }
+   ],
+   "text": "Most strikeouts by a hitter in the 2000s: Adam Dunn, 1433."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "dec_3b",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 276519,
+     "name": "Jimmy Rollins"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 276519,
+     "name": "Jimmy Rollins",
+     "n": 10,
+     "HR": 146,
+     "H": 1629,
+     "RBI": 621,
+     "SB": 326,
+     "R": 945,
+     "BB": 470,
+     "SO": 765,
+     "2B": 350,
+     "3B": 95,
+     "PA": 6512
+    }
+   ],
+   "text": "Most triples of the 2000s: Jimmy Rollins, 95."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "dec_w",
+   "group": "P",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 120485,
+     "name": "Andy Pettitte"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 120485,
+     "name": "Andy Pettitte",
+     "n": 10,
+     "W": 148,
+     "L": 89,
+     "SO": 1441,
+     "SV": 0,
+     "SHO": 3,
+     "CG": 11,
+     "OUTS": 5646,
+     "BB": 545
+    }
+   ],
+   "text": "Most wins of the 2000s: Andy Pettitte, 148."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "dec_l",
+   "group": "P",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 115817,
+     "name": "Livan Hernandez"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 115817,
+     "name": "Livan Hernandez",
+     "n": 10,
+     "W": 129,
+     "L": 124,
+     "SO": 1335,
+     "SV": 0,
+     "SHO": 7,
+     "CG": 36,
+     "OUTS": 6604,
+     "BB": 720
+    }
+   ],
+   "text": "Most losses of the 2000s: Livan Hernandez, 124 — and 129 wins."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "dec_cg",
+   "group": "P",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 136880,
+     "name": "Roy Halladay"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 136880,
+     "name": "Roy Halladay",
+     "n": 10,
+     "W": 139,
+     "L": 69,
+     "SO": 1400,
+     "SV": 0,
+     "SHO": 14,
+     "CG": 47,
+     "OUTS": 5650,
+     "BB": 374
+    }
+   ],
+   "text": "Most complete games of the 2000s: Roy Halladay, 47."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "dec_bb_pit",
+   "group": "P",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 217096,
+     "name": "Barry Zito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 217096,
+     "name": "Barry Zito",
+     "n": 10,
+     "W": 133,
+     "L": 106,
+     "SO": 1501,
+     "SV": 0,
+     "SHO": 4,
+     "CG": 10,
+     "OUTS": 5997,
+     "BB": 826
+    }
+   ],
+   "text": "Most walks issued in the 2000s: Barry Zito, 826."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "dec_ip",
+   "group": "P",
+   "decade": 2000,
+   "score": 5,
+   "players": [
+    {
+     "id": 115817,
+     "name": "Livan Hernandez"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 115817,
+     "name": "Livan Hernandez",
+     "n": 10,
+     "W": 129,
+     "L": 124,
+     "SO": 1335,
+     "SV": 0,
+     "SHO": 7,
+     "CG": 36,
+     "OUTS": 6604,
+     "BB": 720
+    }
+   ],
+   "text": "Most innings of the 2000s: Livan Hernandez, 2201."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "n_30hr_most",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 47
+    },
+    {
+     "season": 2001,
+     "count": 41
+    },
+    {
+     "season": 2002,
+     "count": 28
+    },
+    {
+     "season": 2003,
+     "count": 30
+    },
+    {
+     "season": 2004,
+     "count": 37
+    },
+    {
+     "season": 2005,
+     "count": 27
+    },
+    {
+     "season": 2006,
+     "count": 34
+    },
+    {
+     "season": 2007,
+     "count": 26
+    },
+    {
+     "season": 2008,
+     "count": 28
+    },
+    {
+     "season": 2009,
+     "count": 30
+    }
+   ],
+   "text": "2000 had 47 30-homer hitters, the most of any season in the 2000s."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "n_30hr_least",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 47
+    },
+    {
+     "season": 2001,
+     "count": 41
+    },
+    {
+     "season": 2002,
+     "count": 28
+    },
+    {
+     "season": 2003,
+     "count": 30
+    },
+    {
+     "season": 2004,
+     "count": 37
+    },
+    {
+     "season": 2005,
+     "count": 27
+    },
+    {
+     "season": 2006,
+     "count": 34
+    },
+    {
+     "season": 2007,
+     "count": 26
+    },
+    {
+     "season": 2008,
+     "count": 28
+    },
+    {
+     "season": 2009,
+     "count": 30
+    }
+   ],
+   "text": "2007 had just 26 30-homer hitters, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "n_300_most",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 53
+    },
+    {
+     "season": 2001,
+     "count": 46
+    },
+    {
+     "season": 2002,
+     "count": 35
+    },
+    {
+     "season": 2003,
+     "count": 40
+    },
+    {
+     "season": 2004,
+     "count": 36
+    },
+    {
+     "season": 2005,
+     "count": 33
+    },
+    {
+     "season": 2006,
+     "count": 38
+    },
+    {
+     "season": 2007,
+     "count": 40
+    },
+    {
+     "season": 2008,
+     "count": 34
+    },
+    {
+     "season": 2009,
+     "count": 42
+    }
+   ],
+   "text": "2000 had 53 .300 hitters (500+ PA), the most of any season in the 2000s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "n_300_least",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 53
+    },
+    {
+     "season": 2001,
+     "count": 46
+    },
+    {
+     "season": 2002,
+     "count": 35
+    },
+    {
+     "season": 2003,
+     "count": 40
+    },
+    {
+     "season": 2004,
+     "count": 36
+    },
+    {
+     "season": 2005,
+     "count": 33
+    },
+    {
+     "season": 2006,
+     "count": 38
+    },
+    {
+     "season": 2007,
+     "count": 40
+    },
+    {
+     "season": 2008,
+     "count": 34
+    },
+    {
+     "season": 2009,
+     "count": 42
+    }
+   ],
+   "text": "2005 had just 33 .300 hitters (500+ PA), the fewest of any season in the 2000s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "n_100rbi_most",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 53
+    },
+    {
+     "season": 2001,
+     "count": 46
+    },
+    {
+     "season": 2002,
+     "count": 36
+    },
+    {
+     "season": 2003,
+     "count": 37
+    },
+    {
+     "season": 2004,
+     "count": 33
+    },
+    {
+     "season": 2005,
+     "count": 27
+    },
+    {
+     "season": 2006,
+     "count": 38
+    },
+    {
+     "season": 2007,
+     "count": 33
+    },
+    {
+     "season": 2008,
+     "count": 29
+    },
+    {
+     "season": 2009,
+     "count": 28
+    }
+   ],
+   "text": "2000 had 53 100-RBI hitters, the most of any season in the 2000s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "n_100rbi_least",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 53
+    },
+    {
+     "season": 2001,
+     "count": 46
+    },
+    {
+     "season": 2002,
+     "count": 36
+    },
+    {
+     "season": 2003,
+     "count": 37
+    },
+    {
+     "season": 2004,
+     "count": 33
+    },
+    {
+     "season": 2005,
+     "count": 27
+    },
+    {
+     "season": 2006,
+     "count": 38
+    },
+    {
+     "season": 2007,
+     "count": 33
+    },
+    {
+     "season": 2008,
+     "count": 29
+    },
+    {
+     "season": 2009,
+     "count": 28
+    }
+   ],
+   "text": "2005 had just 27 100-RBI hitters, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "n_sb_most",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 5
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 6
+    },
+    {
+     "season": 2004,
+     "count": 5
+    },
+    {
+     "season": 2005,
+     "count": 7
+    },
+    {
+     "season": 2006,
+     "count": 11
+    },
+    {
+     "season": 2007,
+     "count": 8
+    },
+    {
+     "season": 2008,
+     "count": 9
+    },
+    {
+     "season": 2009,
+     "count": 7
+    }
+   ],
+   "text": "2006 had 11 40-steal players, the most of any season in the 2000s."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "n_sb_least",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 5
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 6
+    },
+    {
+     "season": 2004,
+     "count": 5
+    },
+    {
+     "season": 2005,
+     "count": 7
+    },
+    {
+     "season": 2006,
+     "count": 11
+    },
+    {
+     "season": 2007,
+     "count": 8
+    },
+    {
+     "season": 2008,
+     "count": 9
+    },
+    {
+     "season": 2009,
+     "count": 7
+    }
+   ],
+   "text": "2001 had just 5 40-steal players, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "n_200h_most",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 6
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 7
+    },
+    {
+     "season": 2004,
+     "count": 8
+    },
+    {
+     "season": 2005,
+     "count": 3
+    },
+    {
+     "season": 2006,
+     "count": 8
+    },
+    {
+     "season": 2007,
+     "count": 8
+    },
+    {
+     "season": 2008,
+     "count": 3
+    },
+    {
+     "season": 2009,
+     "count": 4
+    }
+   ],
+   "text": "2004 had 8 200-hit seasons, the most of any season in the 2000s."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "n_200h_least",
+   "group": "H",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 6
+    },
+    {
+     "season": 2001,
+     "count": 6
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 7
+    },
+    {
+     "season": 2004,
+     "count": 8
+    },
+    {
+     "season": 2005,
+     "count": 3
+    },
+    {
+     "season": 2006,
+     "count": 8
+    },
+    {
+     "season": 2007,
+     "count": 8
+    },
+    {
+     "season": 2008,
+     "count": 3
+    },
+    {
+     "season": 2009,
+     "count": 4
+    }
+   ],
+   "text": "2005 had just 3 200-hit seasons, the fewest of any season in the 2000s."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "n_20w_most",
+   "group": "P",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 4
+    },
+    {
+     "season": 2001,
+     "count": 7
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 5
+    },
+    {
+     "season": 2004,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 0
+    },
+    {
+     "season": 2007,
+     "count": 1
+    },
+    {
+     "season": 2008,
+     "count": 4
+    },
+    {
+     "season": 2009,
+     "count": 0
+    }
+   ],
+   "text": "2001 had 7 20-game winners, the most of any season in the 2000s."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "n_20w_least",
+   "group": "P",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 4
+    },
+    {
+     "season": 2001,
+     "count": 7
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 5
+    },
+    {
+     "season": 2004,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 0
+    },
+    {
+     "season": 2007,
+     "count": 1
+    },
+    {
+     "season": 2008,
+     "count": 4
+    },
+    {
+     "season": 2009,
+     "count": 0
+    }
+   ],
+   "text": "2006 had no 20-game winners at all — one of the seasons of the 2000s without one."
+  },
+  {
+   "n": 81,
+   "kind": "team",
+   "rule": "100l",
+   "group": "T",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 43,
+     "losses": 119,
+     "runsScored": 591,
+     "runsAllowed": 928,
+     "runDifferential": -337,
+     "leagueRank": 14,
+     "season": 2003
+    },
+    {
+     "id": 109,
+     "name": "Diamondbacks",
+     "wins": 51,
+     "losses": 111,
+     "runsScored": 615,
+     "runsAllowed": 899,
+     "runDifferential": -284,
+     "leagueRank": 16,
+     "season": 2004
+    },
+    {
+     "id": 139,
+     "name": "Devil Rays",
+     "wins": 55,
+     "losses": 106,
+     "runsScored": 673,
+     "runsAllowed": 918,
+     "runDifferential": -245,
+     "leagueRank": 13,
+     "season": 2002
+    },
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 55,
+     "losses": 106,
+     "runsScored": 575,
+     "runsAllowed": 864,
+     "runDifferential": -289,
+     "leagueRank": 14,
+     "season": 2002
+    },
+    {
+     "id": 158,
+     "name": "Brewers",
+     "wins": 56,
+     "losses": 106,
+     "runsScored": 627,
+     "runsAllowed": 821,
+     "runDifferential": -194,
+     "leagueRank": 16,
+     "season": 2002
+    },
+    {
+     "id": 118,
+     "name": "Royals",
+     "wins": 56,
+     "losses": 106,
+     "runsScored": 701,
+     "runsAllowed": 935,
+     "runDifferential": -234,
+     "leagueRank": 14,
+     "season": 2005
+    }
+   ],
+   "text": "15 teams of the 2000s lost 100 games; the worst was the 2003 Tigers at 43-119."
+  },
+  {
+   "n": 82,
+   "kind": "team",
+   "rule": "best_diff",
+   "group": "T",
+   "decade": 2000,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 136,
+     "name": "Mariners",
+     "wins": 116,
+     "losses": 46,
+     "runsScored": 927,
+     "runsAllowed": 627,
+     "runDifferential": 300,
+     "leagueRank": 1,
+     "season": 2001
+    }
+   ],
+   "text": "Best run differential of the 2000s: the 2001 Mariners, +300 (927 scored, 627 allowed)."
+  },
+  {
+   "n": 83,
+   "rule": "forty_saves",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      45
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2008,
+     "id": 408061,
+     "name": "Francisco Rodríguez",
+     "team": "Los Angeles Angels",
+     "age": 26,
+     "W": 2,
+     "L": 3,
+     "ERA": 2.24,
+     "IP": "68.1",
+     "SO": 77,
+     "BB": 34,
+     "SV": 62,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.29
+    },
+    {
+     "season": 2002,
+     "id": 122477,
+     "name": "John Smoltz",
+     "team": "Atlanta Braves",
+     "age": 35,
+     "W": 3,
+     "L": 2,
+     "ERA": 3.25,
+     "IP": "80.1",
+     "SO": 85,
+     "BB": 24,
+     "SV": 55,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.03
+    },
+    {
+     "season": 2003,
+     "id": 150378,
+     "name": "Eric Gagne",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 2,
+     "L": 3,
+     "ERA": 1.2,
+     "IP": "82.1",
+     "SO": 137,
+     "BB": 20,
+     "SV": 55,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 0.69
+    },
+    {
+     "season": 2004,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 34,
+     "W": 4,
+     "L": 2,
+     "ERA": 1.94,
+     "IP": "78.2",
+     "SO": 66,
+     "BB": 20,
+     "SV": 53,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.08
+    },
+    {
+     "season": 2002,
+     "id": 150378,
+     "name": "Eric Gagne",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "W": 4,
+     "L": 1,
+     "ERA": 1.97,
+     "IP": "82.1",
+     "SO": 114,
+     "BB": 16,
+     "SV": 52,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 0.86
+    },
+    {
+     "season": 2001,
+     "id": 121250,
+     "name": "Mariano Rivera",
+     "team": "New York Yankees",
+     "age": 31,
+     "W": 4,
+     "L": 6,
+     "ERA": 2.34,
+     "IP": "80.2",
+     "SO": 83,
+     "BB": 12,
+     "SV": 50,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.9
+    }
+   ],
+   "kind": "list",
+   "score": 4.55,
+   "players": [
+    {
+     "id": 408061,
+     "name": "Francisco Rodríguez"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "26 times in the 2000s a pitcher saved 45 games. The most extreme: Francisco Rodríguez, 2008 — 62 SV."
+  },
+  {
+   "n": 84,
+   "kind": "nearmiss",
+   "rule": "K199",
+   "group": "P",
+   "decade": 2000,
+   "score": 4.5,
+   "players": [
+    {
+     "id": 277417,
+     "name": "Josh Beckett"
+    },
+    {
+     "id": 407793,
+     "name": "John Lackey"
+    }
+   ],
+   "seasons": [
+    2009,
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2009,
+     "id": 277417,
+     "name": "Josh Beckett",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "W": 17,
+     "L": 6,
+     "ERA": 3.86,
+     "IP": "212.1",
+     "SO": 199,
+     "BB": 55,
+     "SV": 0,
+     "GS": 32,
+     "CG": 4,
+     "SHO": 2,
+     "HRA": 25,
+     "WHIP": 1.19
+    },
+    {
+     "season": 2005,
+     "id": 407793,
+     "name": "John Lackey",
+     "team": "Los Angeles Angels",
+     "age": 26,
+     "W": 14,
+     "L": 5,
+     "ERA": 3.44,
+     "IP": "209.0",
+     "SO": 199,
+     "BB": 71,
+     "SV": 0,
+     "GS": 33,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 13,
+     "WHIP": 1.33
+    }
+   ],
+   "text": "2 pitcher-seasons of the 2000s ended on exactly 199 strikeouts, one short of 200 — among them Josh Beckett (2009), John Lackey (2005)."
+  },
+  {
+   "n": 85,
+   "rule": "hr_allowed_winner",
+   "group": "P",
+   "decade": 2000,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2001,
+     "id": 121811,
+     "name": "Curt Schilling",
+     "team": "Arizona Diamondbacks",
+     "age": 34,
+     "W": 22,
+     "L": 6,
+     "ERA": 2.98,
+     "IP": "256.2",
+     "SO": 293,
+     "BB": 39,
+     "SV": 0,
+     "GS": 35,
+     "CG": 6,
+     "SHO": 1,
+     "HRA": 37,
+     "WHIP": 1.08
+    },
+    {
+     "season": 2004,
+     "id": 112526,
+     "name": "Bartolo Colon",
+     "team": "Anaheim Angels",
+     "age": 31,
+     "W": 18,
+     "L": 12,
+     "ERA": 5.01,
+     "IP": "208.1",
+     "SO": 158,
+     "BB": 71,
+     "SV": 0,
+     "GS": 34,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 38,
+     "WHIP": 1.37
+    },
+    {
+     "season": 2002,
+     "id": 150009,
+     "name": "Ramón Ortiz",
+     "team": "Anaheim Angels",
+     "age": 29,
+     "W": 15,
+     "L": 9,
+     "ERA": 3.77,
+     "IP": "217.1",
+     "SO": 162,
+     "BB": 68,
+     "SV": 0,
+     "GS": 32,
+     "CG": 4,
+     "SHO": 1,
+     "HRA": 40,
+     "WHIP": 1.18
+    },
+    {
+     "season": 2002,
+     "id": 111838,
+     "name": "Paul Byrd",
+     "team": "Kansas City Royals",
+     "age": 31,
+     "W": 17,
+     "L": 11,
+     "ERA": 3.9,
+     "IP": "228.1",
+     "SO": 129,
+     "BB": 38,
+     "SV": 0,
+     "GS": 33,
+     "CG": 7,
+     "SHO": 2,
+     "HRA": 36,
+     "WHIP": 1.15
+    },
+    {
+     "season": 2006,
+     "id": 277417,
+     "name": "Josh Beckett",
+     "team": "Boston Red Sox",
+     "age": 26,
+     "W": 16,
+     "L": 11,
+     "ERA": 5.01,
+     "IP": "204.2",
+     "SO": 158,
+     "BB": 74,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 36,
+     "WHIP": 1.29
+    },
+    {
+     "season": 2004,
+     "id": 118120,
+     "name": "Greg Maddux",
+     "team": "Chicago Cubs",
+     "age": 38,
+     "W": 16,
+     "L": 11,
+     "ERA": 4.02,
+     "IP": "212.2",
+     "SO": 151,
+     "BB": 33,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 35,
+     "WHIP": 1.18
+    }
+   ],
+   "kind": "list",
+   "score": 4.475,
+   "players": [
+    {
+     "id": 121811,
+     "name": "Curt Schilling"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "10 times in the 2000s a pitcher allowed 35+ homers and still won 15. The most extreme: Curt Schilling, 2001 — 37 HR allowed, 22-6."
+  },
+  {
+   "n": 86,
+   "rule": "saves_bad_era",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      30
+     ],
+     [
+      "ERA",
+      "gte",
+      4.5
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2007,
+     "id": 111244,
+     "name": "Joe Borowski",
+     "team": "Cleveland Indians",
+     "age": 36,
+     "W": 4,
+     "L": 5,
+     "ERA": 5.07,
+     "IP": "65.2",
+     "SO": 58,
+     "BB": 17,
+     "SV": 45,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.43
+    },
+    {
+     "season": 2008,
+     "id": 451216,
+     "name": "Brian Wilson",
+     "team": "San Francisco Giants",
+     "age": 26,
+     "W": 3,
+     "L": 2,
+     "ERA": 4.62,
+     "IP": "62.1",
+     "SO": 67,
+     "BB": 28,
+     "SV": 41,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.44
+    },
+    {
+     "season": 2004,
+     "id": 276336,
+     "name": "Shawn Chacon",
+     "team": "Colorado Rockies",
+     "age": 26,
+     "W": 1,
+     "L": 9,
+     "ERA": 7.11,
+     "IP": "63.1",
+     "SO": 52,
+     "BB": 52,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 12,
+     "WHIP": 1.94
+    },
+    {
+     "season": 2001,
+     "id": 150477,
+     "name": "Billy Koch",
+     "team": "Toronto Blue Jays",
+     "age": 26,
+     "W": 2,
+     "L": 5,
+     "ERA": 4.8,
+     "IP": "69.1",
+     "SO": 55,
+     "BB": 33,
+     "SV": 36,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.47
+    },
+    {
+     "season": 2003,
+     "id": 335092,
+     "name": "Rocky Biddle",
+     "team": "Montreal Expos",
+     "age": 27,
+     "W": 5,
+     "L": 8,
+     "ERA": 4.65,
+     "IP": "71.2",
+     "SO": 54,
+     "BB": 40,
+     "SV": 34,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 1.55
+    },
+    {
+     "season": 2009,
+     "id": 400058,
+     "name": "Brad Lidge",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "W": 0,
+     "L": 8,
+     "ERA": 7.21,
+     "IP": "58.2",
+     "SO": 61,
+     "BB": 34,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.81
+    }
+   ],
+   "kind": "list",
+   "score": 4.2517499999999995,
+   "players": [
+    {
+     "id": 111244,
+     "name": "Joe Borowski"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "9 times in the 2000s a pitcher saved 30 games with an ERA of 4.50 or worse. The most extreme: Joe Borowski, 2007 — 45 SV, 5.07 ERA."
+  },
+  {
+   "n": 87,
+   "kind": "nearmiss",
+   "rule": "SB49",
+   "group": "H",
+   "decade": 2000,
+   "score": 4.25,
+   "players": [
+    {
+     "id": 150353,
+     "name": "Dave Roberts"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2006,
+     "id": 150353,
+     "name": "Dave Roberts",
+     "team": "San Diego Padres",
+     "age": 34,
+     "PA": 567,
+     "AVG": 0.293,
+     "OBP": 0.36,
+     "SLG": 0.393,
+     "OPS": 0.753,
+     "HR": 2,
+     "RBI": 44,
+     "R": 80,
+     "H": 146,
+     "2B": 18,
+     "3B": 13,
+     "SB": 49,
+     "CS": 6,
+     "BB": 51,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 5
+    }
+   ],
+   "text": "Exactly one hitter of the 2000s finished a season with exactly 49 steals, one short of 50: Dave Roberts (2006)."
+  },
+  {
+   "n": 88,
+   "kind": "team",
+   "rule": "worst_diff",
+   "group": "T",
+   "decade": 2000,
+   "score": 4,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 43,
+     "losses": 119,
+     "runsScored": 591,
+     "runsAllowed": 928,
+     "runDifferential": -337,
+     "leagueRank": 14,
+     "season": 2003
+    }
+   ],
+   "text": "Worst run differential of the 2000s: the 2003 Tigers, -337 (591 scored, 928 allowed)."
+  },
+  {
+   "n": 89,
+   "rule": "gidp_many",
+   "group": "H",
+   "decade": 2000,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 115132,
+     "name": "Ben Grieve",
+     "team": "Oakland Athletics",
+     "age": 24,
+     "PA": 675,
+     "AVG": 0.279,
+     "OBP": 0.359,
+     "SLG": 0.487,
+     "OPS": 0.846,
+     "HR": 27,
+     "RBI": 104,
+     "R": 92,
+     "H": 166,
+     "2B": 40,
+     "3B": 1,
+     "SB": 3,
+     "CS": 0,
+     "BB": 73,
+     "SO": 130,
+     "HBP": 3,
+     "GIDP": 32
+    },
+    {
+     "season": 2008,
+     "id": 123173,
+     "name": "Miguel Tejada",
+     "team": "Houston Astros",
+     "age": 34,
+     "PA": 666,
+     "AVG": 0.283,
+     "OBP": 0.314,
+     "SLG": 0.415,
+     "OPS": 0.729,
+     "HR": 13,
+     "RBI": 66,
+     "R": 92,
+     "H": 179,
+     "2B": 38,
+     "3B": 3,
+     "SB": 7,
+     "CS": 7,
+     "BB": 24,
+     "SO": 72,
+     "HBP": 6,
+     "GIDP": 32
+    },
+    {
+     "season": 2002,
+     "id": 110385,
+     "name": "Brad Ausmus",
+     "team": "Houston Astros",
+     "age": 33,
+     "PA": 496,
+     "AVG": 0.257,
+     "OBP": 0.322,
+     "SLG": 0.353,
+     "OPS": 0.675,
+     "HR": 6,
+     "RBI": 50,
+     "R": 57,
+     "H": 115,
+     "2B": 19,
+     "3B": 3,
+     "SB": 2,
+     "CS": 3,
+     "BB": 38,
+     "SO": 71,
+     "HBP": 6,
+     "GIDP": 30
+    },
+    {
+     "season": 2009,
+     "id": 123173,
+     "name": "Miguel Tejada",
+     "team": "Houston Astros",
+     "age": 35,
+     "PA": 674,
+     "AVG": 0.313,
+     "OBP": 0.34,
+     "SLG": 0.455,
+     "OPS": 0.795,
+     "HR": 14,
+     "RBI": 86,
+     "R": 83,
+     "H": 199,
+     "2B": 46,
+     "3B": 1,
+     "SB": 5,
+     "CS": 2,
+     "BB": 19,
+     "SO": 48,
+     "HBP": 11,
+     "GIDP": 29
+    },
+    {
+     "season": 2000,
+     "id": 120044,
+     "name": "Magglio Ordonez",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "PA": 665,
+     "AVG": 0.315,
+     "OBP": 0.371,
+     "SLG": 0.546,
+     "OPS": 0.917,
+     "HR": 32,
+     "RBI": 126,
+     "R": 102,
+     "H": 185,
+     "2B": 34,
+     "3B": 3,
+     "SB": 18,
+     "CS": 4,
+     "BB": 60,
+     "SO": 64,
+     "HBP": 2,
+     "GIDP": 28
+    },
+    {
+     "season": 2003,
+     "id": 117244,
+     "name": "Paul Konerko",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "PA": 495,
+     "AVG": 0.234,
+     "OBP": 0.305,
+     "SLG": 0.399,
+     "OPS": 0.704,
+     "HR": 18,
+     "RBI": 65,
+     "R": 49,
+     "H": 104,
+     "2B": 19,
+     "3B": 0,
+     "SB": 0,
+     "CS": 0,
+     "BB": 43,
+     "SO": 50,
+     "HBP": 4,
+     "GIDP": 28
+    }
+   ],
+   "kind": "list",
+   "score": 3.8,
+   "players": [
+    {
+     "id": 115132,
+     "name": "Ben Grieve"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "7 times in the 2000s a hitter grounded into 28+ double plays. The most extreme: Ben Grieve, 2000 — 32 GIDP."
+  },
+  {
+   "n": 90,
+   "rule": "hbp_many",
+   "group": "H",
+   "decade": 2000,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2004,
+     "id": 346852,
+     "name": "Craig Wilson",
+     "team": "Pittsburgh Pirates",
+     "age": 27,
+     "PA": 644,
+     "AVG": 0.264,
+     "OBP": 0.354,
+     "SLG": 0.499,
+     "OPS": 0.853,
+     "HR": 29,
+     "RBI": 82,
+     "R": 97,
+     "H": 148,
+     "2B": 35,
+     "3B": 5,
+     "SB": 2,
+     "CS": 2,
+     "BB": 50,
+     "SO": 169,
+     "HBP": 30,
+     "GIDP": 11
+    },
+    {
+     "season": 2000,
+     "id": 123726,
+     "name": "Fernando Viña",
+     "team": "St. Louis Cardinals",
+     "age": 31,
+     "PA": 554,
+     "AVG": 0.3,
+     "OBP": 0.38,
+     "SLG": 0.398,
+     "OPS": 0.778,
+     "HR": 4,
+     "RBI": 31,
+     "R": 81,
+     "H": 146,
+     "2B": 24,
+     "3B": 6,
+     "SB": 10,
+     "CS": 8,
+     "BB": 36,
+     "SO": 36,
+     "HBP": 28,
+     "GIDP": 5
+    },
+    {
+     "season": 2001,
+     "id": 110987,
+     "name": "Craig Biggio",
+     "team": "Houston Astros",
+     "age": 35,
+     "PA": 717,
+     "AVG": 0.292,
+     "OBP": 0.382,
+     "SLG": 0.455,
+     "OPS": 0.837,
+     "HR": 20,
+     "RBI": 70,
+     "R": 118,
+     "H": 180,
+     "2B": 35,
+     "3B": 3,
+     "SB": 7,
+     "CS": 4,
+     "BB": 66,
+     "SO": 100,
+     "HBP": 28,
+     "GIDP": 11
+    },
+    {
+     "season": 2002,
+     "id": 275930,
+     "name": "David Eckstein",
+     "team": "Anaheim Angels",
+     "age": 27,
+     "PA": 702,
+     "AVG": 0.293,
+     "OBP": 0.363,
+     "SLG": 0.388,
+     "OPS": 0.751,
+     "HR": 8,
+     "RBI": 63,
+     "R": 107,
+     "H": 178,
+     "2B": 22,
+     "3B": 6,
+     "SB": 21,
+     "CS": 13,
+     "BB": 45,
+     "SO": 44,
+     "HBP": 27,
+     "GIDP": 7
+    },
+    {
+     "season": 2003,
+     "id": 110987,
+     "name": "Craig Biggio",
+     "team": "Houston Astros",
+     "age": 37,
+     "PA": 717,
+     "AVG": 0.264,
+     "OBP": 0.35,
+     "SLG": 0.412,
+     "OPS": 0.762,
+     "HR": 15,
+     "RBI": 62,
+     "R": 102,
+     "H": 166,
+     "2B": 44,
+     "3B": 2,
+     "SB": 8,
+     "CS": 4,
+     "BB": 57,
+     "SO": 116,
+     "HBP": 27,
+     "GIDP": 4
+    },
+    {
+     "season": 2008,
+     "id": 400284,
+     "name": "Chase Utley",
+     "team": "Philadelphia Phillies",
+     "age": 29,
+     "PA": 707,
+     "AVG": 0.292,
+     "OBP": 0.38,
+     "SLG": 0.535,
+     "OPS": 0.915,
+     "HR": 33,
+     "RBI": 104,
+     "R": 113,
+     "H": 177,
+     "2B": 41,
+     "3B": 4,
+     "SB": 14,
+     "CS": 2,
+     "BB": 64,
+     "SO": 104,
+     "HBP": 27,
+     "GIDP": 9
+    }
+   ],
+   "kind": "list",
+   "score": 3.75,
+   "players": [
+    {
+     "id": 346852,
+     "name": "Craig Wilson"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "28 times in the 2000s a hitter got hit by 20+ pitches. The most extreme: Craig Wilson, 2004 — 30 HBP."
+  },
+  {
+   "n": 91,
+   "rule": "triples_over_hr",
+   "group": "H",
+   "decade": 2000,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 150217,
+     "name": "Cristian Guzman",
+     "team": "Minnesota Twins",
+     "age": 22,
+     "PA": 690,
+     "AVG": 0.247,
+     "OBP": 0.299,
+     "SLG": 0.388,
+     "OPS": 0.687,
+     "HR": 8,
+     "RBI": 54,
+     "R": 89,
+     "H": 156,
+     "2B": 25,
+     "3B": 20,
+     "SB": 28,
+     "CS": 10,
+     "BB": 46,
+     "SO": 101,
+     "HBP": 2,
+     "GIDP": 5
+    },
+    {
+     "season": 2004,
+     "id": 408210,
+     "name": "Chone Figgins",
+     "team": "Anaheim Angels",
+     "age": 26,
+     "PA": 638,
+     "AVG": 0.296,
+     "OBP": 0.35,
+     "SLG": 0.419,
+     "OPS": 0.769,
+     "HR": 5,
+     "RBI": 60,
+     "R": 83,
+     "H": 171,
+     "2B": 22,
+     "3B": 17,
+     "SB": 34,
+     "CS": 13,
+     "BB": 49,
+     "SO": 94,
+     "HBP": 0,
+     "GIDP": 6
+    },
+    {
+     "season": 2003,
+     "id": 150217,
+     "name": "Cristian Guzman",
+     "team": "Minnesota Twins",
+     "age": 25,
+     "PA": 585,
+     "AVG": 0.268,
+     "OBP": 0.311,
+     "SLG": 0.365,
+     "OPS": 0.676,
+     "HR": 3,
+     "RBI": 53,
+     "R": 78,
+     "H": 143,
+     "2B": 15,
+     "3B": 14,
+     "SB": 18,
+     "CS": 9,
+     "BB": 30,
+     "SO": 79,
+     "HBP": 5,
+     "GIDP": 4
+    },
+    {
+     "season": 2005,
+     "id": 334393,
+     "name": "Juan Pierre",
+     "team": "Florida Marlins",
+     "age": 27,
+     "PA": 719,
+     "AVG": 0.276,
+     "OBP": 0.326,
+     "SLG": 0.354,
+     "OPS": 0.68,
+     "HR": 2,
+     "RBI": 47,
+     "R": 96,
+     "H": 181,
+     "2B": 19,
+     "3B": 13,
+     "SB": 57,
+     "CS": 17,
+     "BB": 41,
+     "SO": 45,
+     "HBP": 9,
+     "GIDP": 10
+    },
+    {
+     "season": 2006,
+     "id": 150353,
+     "name": "Dave Roberts",
+     "team": "San Diego Padres",
+     "age": 34,
+     "PA": 567,
+     "AVG": 0.293,
+     "OBP": 0.36,
+     "SLG": 0.393,
+     "OPS": 0.753,
+     "HR": 2,
+     "RBI": 44,
+     "R": 80,
+     "H": 146,
+     "2B": 18,
+     "3B": 13,
+     "SB": 49,
+     "CS": 6,
+     "BB": 51,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 5
+    },
+    {
+     "season": 2005,
+     "id": 408314,
+     "name": "José Reyes",
+     "team": "New York Mets",
+     "age": 22,
+     "PA": 733,
+     "AVG": 0.273,
+     "OBP": 0.3,
+     "SLG": 0.386,
+     "OPS": 0.686,
+     "HR": 7,
+     "RBI": 58,
+     "R": 99,
+     "H": 190,
+     "2B": 24,
+     "3B": 17,
+     "SB": 60,
+     "CS": 15,
+     "BB": 27,
+     "SO": 78,
+     "HBP": 2,
+     "GIDP": 7
+    }
+   ],
+   "kind": "list",
+   "score": 3.3,
+   "players": [
+    {
+     "id": 150217,
+     "name": "Cristian Guzman"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "17 times in the 2000s a hitter hit 12+ triples and more triples than homers. The most extreme: Cristian Guzman, 2000 — 20 3B, 8 HR."
+  },
+  {
+   "n": 92,
+   "rule": "cg_many",
+   "group": "P",
+   "decade": 2000,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2008,
+     "id": 282332,
+     "name": "CC Sabathia",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "W": 17,
+     "L": 10,
+     "ERA": 2.7,
+     "IP": "253.0",
+     "SO": 251,
+     "BB": 59,
+     "SV": 0,
+     "GS": 35,
+     "CG": 10,
+     "SHO": 5,
+     "HRA": 19,
+     "WHIP": 1.11
+    },
+    {
+     "season": 2000,
+     "id": 124071,
+     "name": "David Wells",
+     "team": "Toronto Blue Jays",
+     "age": 37,
+     "W": 20,
+     "L": 8,
+     "ERA": 4.11,
+     "IP": "229.2",
+     "SO": 166,
+     "BB": 31,
+     "SV": 0,
+     "GS": 35,
+     "CG": 9,
+     "SHO": 1,
+     "HRA": 23,
+     "WHIP": 1.29
+    },
+    {
+     "season": 2003,
+     "id": 150426,
+     "name": "Mark Mulder",
+     "team": "Oakland Athletics",
+     "age": 25,
+     "W": 15,
+     "L": 9,
+     "ERA": 3.13,
+     "IP": "186.2",
+     "SO": 128,
+     "BB": 40,
+     "SV": 0,
+     "GS": 26,
+     "CG": 9,
+     "SHO": 2,
+     "HRA": 15,
+     "WHIP": 1.18
+    },
+    {
+     "season": 2003,
+     "id": 136880,
+     "name": "Roy Halladay",
+     "team": "Toronto Blue Jays",
+     "age": 26,
+     "W": 22,
+     "L": 7,
+     "ERA": 3.25,
+     "IP": "266.0",
+     "SO": 204,
+     "BB": 32,
+     "SV": 0,
+     "GS": 36,
+     "CG": 9,
+     "SHO": 2,
+     "HRA": 26,
+     "WHIP": 1.07
+    },
+    {
+     "season": 2003,
+     "id": 112526,
+     "name": "Bartolo Colon",
+     "team": "Chicago White Sox",
+     "age": 30,
+     "W": 15,
+     "L": 13,
+     "ERA": 3.87,
+     "IP": "242.0",
+     "SO": 173,
+     "BB": 67,
+     "SV": 0,
+     "GS": 34,
+     "CG": 9,
+     "SHO": 0,
+     "HRA": 30,
+     "WHIP": 1.2
+    },
+    {
+     "season": 2004,
+     "id": 115817,
+     "name": "Livan Hernandez",
+     "team": "Montreal Expos",
+     "age": 29,
+     "W": 11,
+     "L": 15,
+     "ERA": 3.6,
+     "IP": "255.0",
+     "SO": 186,
+     "BB": 83,
+     "SV": 0,
+     "GS": 35,
+     "CG": 9,
+     "SHO": 2,
+     "HRA": 26,
+     "WHIP": 1.24
+    }
+   ],
+   "kind": "list",
+   "score": 3.25,
+   "players": [
+    {
+     "id": 282332,
+     "name": "CC Sabathia"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "14 times in the 2000s a pitcher completed 8+ games. The most extreme: CC Sabathia, 2008 — 10 CG."
+  },
+  {
+   "n": 93,
+   "rule": "no_walks_winner",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ],
+     [
+      "BB",
+      "lte",
+      30
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2003,
+     "id": 124071,
+     "name": "David Wells",
+     "team": "New York Yankees",
+     "age": 40,
+     "W": 15,
+     "L": 7,
+     "ERA": 4.14,
+     "IP": "213.0",
+     "SO": 101,
+     "BB": 20,
+     "SV": 0,
+     "GS": 30,
+     "CG": 4,
+     "SHO": 1,
+     "HRA": 24,
+     "WHIP": 1.23
+    },
+    {
+     "season": 2005,
+     "id": 124071,
+     "name": "David Wells",
+     "team": "Boston Red Sox",
+     "age": 42,
+     "W": 15,
+     "L": 7,
+     "ERA": 4.45,
+     "IP": "184.0",
+     "SO": 107,
+     "BB": 21,
+     "SV": 0,
+     "GS": 30,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 21,
+     "WHIP": 1.31
+    },
+    {
+     "season": 2001,
+     "id": 118120,
+     "name": "Greg Maddux",
+     "team": "Atlanta Braves",
+     "age": 35,
+     "W": 17,
+     "L": 11,
+     "ERA": 3.05,
+     "IP": "233.0",
+     "SO": 173,
+     "BB": 27,
+     "SV": 0,
+     "GS": 34,
+     "CG": 3,
+     "SHO": 3,
+     "HRA": 20,
+     "WHIP": 1.06
+    },
+    {
+     "season": 2001,
+     "id": 120878,
+     "name": "Brad Radke",
+     "team": "Minnesota Twins",
+     "age": 28,
+     "W": 15,
+     "L": 11,
+     "ERA": 3.94,
+     "IP": "226.0",
+     "SO": 137,
+     "BB": 26,
+     "SV": 0,
+     "GS": 33,
+     "CG": 6,
+     "SHO": 2,
+     "HRA": 24,
+     "WHIP": 1.15
+    },
+    {
+     "season": 2002,
+     "id": 120999,
+     "name": "Rick Reed",
+     "team": "Minnesota Twins",
+     "age": 37,
+     "W": 15,
+     "L": 7,
+     "ERA": 3.78,
+     "IP": "188.0",
+     "SO": 121,
+     "BB": 26,
+     "SV": 0,
+     "GS": 32,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 32,
+     "WHIP": 1.16
+    },
+    {
+     "season": 2009,
+     "id": 334492,
+     "name": "Joel Pineiro",
+     "team": "St. Louis Cardinals",
+     "age": 30,
+     "W": 15,
+     "L": 12,
+     "ERA": 3.49,
+     "IP": "214.0",
+     "SO": 105,
+     "BB": 27,
+     "SV": 0,
+     "GS": 32,
+     "CG": 3,
+     "SHO": 2,
+     "HRA": 11,
+     "WHIP": 1.14
+    }
+   ],
+   "kind": "list",
+   "score": 3.125,
+   "players": [
+    {
+     "id": 124071,
+     "name": "David Wells"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "8 times in the 2000s a pitcher won 15 games walking 30 batters or fewer. The most extreme: David Wells, 2003 — 15-7, 20 BB."
+  },
+  {
+   "n": 94,
+   "rule": "whip_under_1",
+   "group": "P",
+   "decade": 2000,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "WHIP",
+      "lte",
+      1
+     ]
+    ],
+    "seasonMin": 2000,
+    "seasonMax": 2009
+   },
+   "evidence": [
+    {
+     "season": 2000,
+     "id": 118377,
+     "name": "Pedro Martínez",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "W": 18,
+     "L": 6,
+     "ERA": 1.74,
+     "IP": "217.0",
+     "SO": 284,
+     "BB": 32,
+     "SV": 0,
+     "GS": 29,
+     "CG": 7,
+     "SHO": 4,
+     "HRA": 17,
+     "WHIP": 0.74
+    },
+    {
+     "season": 2004,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Arizona Diamondbacks",
+     "age": 40,
+     "W": 16,
+     "L": 14,
+     "ERA": 2.6,
+     "IP": "245.2",
+     "SO": 290,
+     "BB": 44,
+     "SV": 0,
+     "GS": 35,
+     "CG": 4,
+     "SHO": 2,
+     "HRA": 18,
+     "WHIP": 0.9
+    },
+    {
+     "season": 2002,
+     "id": 118377,
+     "name": "Pedro Martínez",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "W": 20,
+     "L": 4,
+     "ERA": 2.26,
+     "IP": "199.1",
+     "SO": 239,
+     "BB": 40,
+     "SV": 0,
+     "GS": 30,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 13,
+     "WHIP": 0.92
+    },
+    {
+     "season": 2004,
+     "id": 276371,
+     "name": "Johan Santana",
+     "team": "Minnesota Twins",
+     "age": 25,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.61,
+     "IP": "228.0",
+     "SO": 265,
+     "BB": 54,
+     "SV": 0,
+     "GS": 34,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 24,
+     "WHIP": 0.92
+    },
+    {
+     "season": 2003,
+     "id": 121834,
+     "name": "Jason Schmidt",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "W": 17,
+     "L": 5,
+     "ERA": 2.34,
+     "IP": "207.2",
+     "SO": 208,
+     "BB": 46,
+     "SV": 0,
+     "GS": 29,
+     "CG": 5,
+     "SHO": 3,
+     "HRA": 14,
+     "WHIP": 0.95
+    },
+    {
+     "season": 2005,
+     "id": 118377,
+     "name": "Pedro Martínez",
+     "team": "New York Mets",
+     "age": 33,
+     "W": 15,
+     "L": 8,
+     "ERA": 2.82,
+     "IP": "217.0",
+     "SO": 208,
+     "BB": 47,
+     "SV": 0,
+     "GS": 31,
+     "CG": 4,
+     "SHO": 1,
+     "HRA": 19,
+     "WHIP": 0.95
+    }
+   ],
+   "kind": "list",
+   "score": 3.0185,
+   "players": [
+    {
+     "id": 118377,
+     "name": "Pedro Martínez"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "14 times in the 2000s a pitcher posted a WHIP of 1.00 or lower (162+ IP). The most extreme: Pedro Martínez, 2000 — 0.74 WHIP in 217.0 IP."
+  }
+ ],
+ "counts": {
+  "hitterSeasons": 11432,
+  "pitcherSeasons": 6272
+ },
+ "method": [
+  "Every fact is a predicate evaluated over every hitter-season and pitcher-season in the decade, pulled in full from the MLB Stats API (the official record). Nothing is recalled or estimated; the rows that satisfy each rule are stored with it.",
+  "'Only', 'two' and 'three/four' claims are exact counts across the complete pull. Where a rule uses a plate-appearance or innings floor instead of a league qualification bar, the floor is stated in the fact so the claim is reproducible.",
+  "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
+  "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
+ ],
+ "generatedAt": "2026-09-28T03:27:46.797Z",
+ "sources": [
+  {
+   "season": 2000,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2000&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2000&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2000&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:41.060Z"
+  },
+  {
+   "season": 2001,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2001&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2001&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2001&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:41.582Z"
+  },
+  {
+   "season": 2002,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2002&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2002&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2002&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:42.113Z"
+  },
+  {
+   "season": 2003,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2003&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2003&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2003&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:42.643Z"
+  },
+  {
+   "season": 2004,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2004&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2004&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2004&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:43.241Z"
+  },
+  {
+   "season": 2005,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2005&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2005&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2005&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:43.786Z"
+  },
+  {
+   "season": 2006,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2006&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2006&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2006&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:44.324Z"
+  },
+  {
+   "season": 2007,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2007&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2007&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2007&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:44.945Z"
+  },
+  {
+   "season": 2008,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2008&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2008&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2008&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:45.529Z"
+  },
+  {
+   "season": 2009,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2009&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2009&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2009&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:46.075Z"
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
  "decade": "2010s",
- "generatedAt": "2026-09-28T03:01:44.546Z",
+ "generatedAt": "2026-09-28T03:27:52.658Z",
  "method": [
   "Every hitter and every pitcher for every season was pulled from the MLB Stats API (statsapi.mlb.com), the official record; leaders were computed across the complete pull, never sampled or recalled.",
   "Rate categories (AVG, OBP, SLG, OPS, ERA, WHIP) use the modern qualification rule applied to each season's own team-game count: 3.1 PA per team game for hitters, one inning per team game for pitchers.",
@@ -11,7 +11,7 @@
  "seasons": [
   {
    "season": 2010,
-   "pulledAt": "2026-09-28T03:01:36.877Z",
+   "pulledAt": "2026-09-28T03:27:46.801Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2010&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2010&sportId=1&playerPool=All&limit=5000",
@@ -1403,7 +1403,7 @@
   },
   {
    "season": 2011,
-   "pulledAt": "2026-09-28T03:01:37.554Z",
+   "pulledAt": "2026-09-28T03:27:47.321Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2011&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2011&sportId=1&playerPool=All&limit=5000",
@@ -2804,7 +2804,7 @@
   },
   {
    "season": 2012,
-   "pulledAt": "2026-09-28T03:01:38.384Z",
+   "pulledAt": "2026-09-28T03:27:47.846Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2012&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2012&sportId=1&playerPool=All&limit=5000",
@@ -4187,7 +4187,7 @@
   },
   {
    "season": 2013,
-   "pulledAt": "2026-09-28T03:01:39.119Z",
+   "pulledAt": "2026-09-28T03:27:48.400Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2013&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2013&sportId=1&playerPool=All&limit=5000",
@@ -5588,7 +5588,7 @@
   },
   {
    "season": 2014,
-   "pulledAt": "2026-09-28T03:01:39.891Z",
+   "pulledAt": "2026-09-28T03:27:48.998Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2014&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2014&sportId=1&playerPool=All&limit=5000",
@@ -6980,7 +6980,7 @@
   },
   {
    "season": 2015,
-   "pulledAt": "2026-09-28T03:01:40.754Z",
+   "pulledAt": "2026-09-28T03:27:49.592Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2015&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=1&playerPool=All&limit=5000",
@@ -8417,7 +8417,7 @@
   },
   {
    "season": 2016,
-   "pulledAt": "2026-09-28T03:01:41.482Z",
+   "pulledAt": "2026-09-28T03:27:50.216Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2016&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=1&playerPool=All&limit=5000",
@@ -9818,7 +9818,7 @@
   },
   {
    "season": 2017,
-   "pulledAt": "2026-09-28T03:01:42.228Z",
+   "pulledAt": "2026-09-28T03:27:50.756Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2017&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=1&playerPool=All&limit=5000",
@@ -11237,7 +11237,7 @@
   },
   {
    "season": 2018,
-   "pulledAt": "2026-09-28T03:01:42.990Z",
+   "pulledAt": "2026-09-28T03:27:51.359Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2018&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=1&playerPool=All&limit=5000",
@@ -12854,7 +12854,7 @@
   },
   {
    "season": 2019,
-   "pulledAt": "2026-09-28T03:01:43.744Z",
+   "pulledAt": "2026-09-28T03:27:51.929Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2019&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=1&playerPool=All&limit=5000",

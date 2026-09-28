@@ -1,0 +1,7760 @@
+{
+ "decade": "1990s",
+ "era": "modern",
+ "thresholds": {
+  "hrBig": 30,
+  "hrHuge": 40,
+  "avgLow": 0.22,
+  "bbFew": 25,
+  "sbMany": 40,
+  "obpLow": 0.3,
+  "kFewHit": 30,
+  "kManyHit": 180,
+  "bbMany": 100,
+  "kMany": 200,
+  "kHuge": 250,
+  "wLow": 8,
+  "eraBad": 4.5,
+  "ipHuge": 750,
+  "kFewPit": 100,
+  "cgMany": 8,
+  "kPer9": 11,
+  "whip1": 1,
+  "sv": 30,
+  "hbp": 20,
+  "kClose": 100,
+  "hrTeam": 40,
+  "ageYoung": 22,
+  "ageOld": 37
+ },
+ "candidates": 131,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "hits_few_runs",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      180
+     ],
+     [
+      "R",
+      "lte",
+      65
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 110236,
+     "name": "Garret Anderson",
+     "team": "Anaheim Angels",
+     "age": 26,
+     "PA": 658,
+     "AVG": 0.294,
+     "OBP": 0.325,
+     "SLG": 0.455,
+     "OPS": 0.78,
+     "HR": 15,
+     "RBI": 79,
+     "R": 62,
+     "H": 183,
+     "2B": 41,
+     "3B": 7,
+     "SB": 8,
+     "CS": 3,
+     "BB": 29,
+     "SO": 80,
+     "HBP": 1,
+     "GIDP": 13
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 110236,
+     "name": "Garret Anderson"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "text": "The only hitter of the 1990s to collect 180 hits and score 65 runs or fewer: Garret Anderson, 1998 — 183 H, 62 R."
+  },
+  {
+   "n": 2,
+   "rule": "hr_allowed_winner",
+   "group": "P",
+   "decade": 1990,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 110359,
+     "name": "Pedro Astacio",
+     "team": "Colorado Rockies",
+     "age": 30,
+     "W": 17,
+     "L": 11,
+     "ERA": 5.04,
+     "IP": "232.0",
+     "SO": 210,
+     "BB": 75,
+     "SV": 0,
+     "GS": 34,
+     "CG": 7,
+     "SHO": 0,
+     "HRA": 38,
+     "WHIP": 1.44
+    }
+   ],
+   "kind": "only",
+   "score": 11.375,
+   "players": [
+    {
+     "id": 110359,
+     "name": "Pedro Astacio"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "text": "The only pitcher of the 1990s to allow 35+ homers and still win 15: Pedro Astacio, 1999 — 38 HR allowed, 17-11."
+  },
+  {
+   "n": 3,
+   "rule": "old_arm",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMin": 38,
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1993,
+     "id": 118371,
+     "name": "Dennis Martinez",
+     "team": "Montreal Expos",
+     "age": 38,
+     "W": 15,
+     "L": 9,
+     "ERA": 3.85,
+     "IP": "224.2",
+     "SO": 138,
+     "BB": 64,
+     "SV": 1,
+     "GS": 34,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 27,
+     "WHIP": 1.22
+    }
+   ],
+   "kind": "only",
+   "score": 11.325,
+   "players": [
+    {
+     "id": 118371,
+     "name": "Dennis Martinez"
+    }
+   ],
+   "seasons": [
+    1993
+   ],
+   "text": "The only pitcher of the 1990s to win 15+ games at age 38 or older: Dennis Martinez, 1993 — 15-9 at 38."
+  },
+  {
+   "n": 4,
+   "rule": "hits_200_bb_100",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      200
+     ],
+     [
+      "BB",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1993,
+     "id": 119976,
+     "name": "John Olerud",
+     "team": "Toronto Blue Jays",
+     "age": 24,
+     "PA": 679,
+     "AVG": 0.363,
+     "OBP": 0.473,
+     "SLG": 0.599,
+     "OPS": 1.072,
+     "HR": 24,
+     "RBI": 107,
+     "R": 109,
+     "H": 200,
+     "2B": 54,
+     "3B": 2,
+     "SB": 0,
+     "CS": 2,
+     "BB": 114,
+     "SO": 65,
+     "HBP": 7,
+     "GIDP": 12
+    },
+    {
+     "season": 1999,
+     "id": 124288,
+     "name": "Bernie Williams",
+     "team": "New York Yankees",
+     "age": 30,
+     "PA": 697,
+     "AVG": 0.342,
+     "OBP": 0.435,
+     "SLG": 0.536,
+     "OPS": 0.971,
+     "HR": 25,
+     "RBI": 115,
+     "R": 116,
+     "H": 202,
+     "2B": 28,
+     "3B": 6,
+     "SB": 9,
+     "CS": 10,
+     "BB": 100,
+     "SO": 95,
+     "HBP": 1,
+     "GIDP": 11
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 119976,
+     "name": "John Olerud"
+    },
+    {
+     "id": 124288,
+     "name": "Bernie Williams"
+    }
+   ],
+   "seasons": [
+    1993,
+    1999
+   ],
+   "text": "Only two hitters of the 1990s got 200 hits and 100 walks: John Olerud (1993, 200 H, 114 BB); Bernie Williams (1999, 202 H, 100 BB)."
+  },
+  {
+   "n": 5,
+   "rule": "walks_many",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      130
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Seattle Mariners",
+     "age": 27,
+     "W": 13,
+     "L": 10,
+     "ERA": 3.98,
+     "IP": "201.1",
+     "SO": 228,
+     "BB": 152,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 15,
+     "WHIP": 1.5
+    },
+    {
+     "season": 1992,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Seattle Mariners",
+     "age": 28,
+     "W": 12,
+     "L": 14,
+     "ERA": 3.77,
+     "IP": "210.1",
+     "SO": 241,
+     "BB": 144,
+     "SV": 0,
+     "GS": 31,
+     "CG": 6,
+     "SHO": 2,
+     "HRA": 13,
+     "WHIP": 1.42
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 116615,
+     "name": "Randy Johnson"
+    },
+    {
+     "id": 116615,
+     "name": "Randy Johnson"
+    }
+   ],
+   "seasons": [
+    1991,
+    1992
+   ],
+   "text": "Only two pitchers of the 1990s walked 130+ batters: Randy Johnson (1991, 152 BB); Randy Johnson (1992, 144 BB)."
+  },
+  {
+   "n": 6,
+   "rule": "twenty_five_wins",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      25
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 124064,
+     "name": "Bob Welch",
+     "team": "Oakland Athletics",
+     "age": 33,
+     "W": 27,
+     "L": 6,
+     "ERA": 2.95,
+     "IP": "238.0",
+     "SO": 127,
+     "BB": 77,
+     "SV": 0,
+     "GS": 35,
+     "CG": 2,
+     "SHO": 2,
+     "HRA": 26,
+     "WHIP": 1.22
+    }
+   ],
+   "kind": "only",
+   "score": 10.675,
+   "players": [
+    {
+     "id": 124064,
+     "name": "Bob Welch"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "The only pitcher of the 1990s to win 25 games: Bob Welch, 1990 — 27-6."
+  },
+  {
+   "n": 7,
+   "rule": "young_avg",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.33
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1996,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "Seattle Mariners",
+     "age": 20,
+     "PA": 677,
+     "AVG": 0.358,
+     "OBP": 0.414,
+     "SLG": 0.631,
+     "OPS": 1.045,
+     "HR": 36,
+     "RBI": 123,
+     "R": 141,
+     "H": 215,
+     "2B": 54,
+     "3B": 1,
+     "SB": 15,
+     "CS": 4,
+     "BB": 59,
+     "SO": 104,
+     "HBP": 4,
+     "GIDP": 15
+    }
+   ],
+   "kind": "only",
+   "score": 10.395,
+   "players": [
+    {
+     "id": 121347,
+     "name": "Alex Rodriguez"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "text": "The only hitter of the 1990s to bat .330 at age 22 or younger (500+ PA): Alex Rodriguez, 1996 — .358 at 20."
+  },
+  {
+   "n": 8,
+   "rule": "forty_forty",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      40
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "Seattle Mariners",
+     "age": 22,
+     "PA": 748,
+     "AVG": 0.31,
+     "OBP": 0.36,
+     "SLG": 0.56,
+     "OPS": 0.92,
+     "HR": 42,
+     "RBI": 124,
+     "R": 123,
+     "H": 213,
+     "2B": 35,
+     "3B": 5,
+     "SB": 46,
+     "CS": 13,
+     "BB": 45,
+     "SO": 121,
+     "HBP": 10,
+     "GIDP": 12
+    },
+    {
+     "season": 1996,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 31,
+     "PA": 675,
+     "AVG": 0.308,
+     "OBP": 0.461,
+     "SLG": 0.615,
+     "OPS": 1.076,
+     "HR": 42,
+     "RBI": 129,
+     "R": 122,
+     "H": 159,
+     "2B": 27,
+     "3B": 3,
+     "SB": 40,
+     "CS": 7,
+     "BB": 151,
+     "SO": 76,
+     "HBP": 1,
+     "GIDP": 11
+    }
+   ],
+   "kind": "pair",
+   "score": 10.2,
+   "players": [
+    {
+     "id": 121347,
+     "name": "Alex Rodriguez"
+    },
+    {
+     "id": 111188,
+     "name": "Barry Bonds"
+    }
+   ],
+   "seasons": [
+    1998,
+    1996
+   ],
+   "text": "Only two hitters of the 1990s went 40-40: Alex Rodriguez (1998, 42 HR, 46 SB); Barry Bonds (1996, 42 HR, 40 SB)."
+  },
+  {
+   "n": 9,
+   "rule": "old_power",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 114526,
+     "name": "Andres Galarraga",
+     "team": "Atlanta Braves",
+     "age": 37,
+     "PA": 648,
+     "AVG": 0.305,
+     "OBP": 0.397,
+     "SLG": 0.595,
+     "OPS": 0.992,
+     "HR": 44,
+     "RBI": 121,
+     "R": 103,
+     "H": 169,
+     "2B": 27,
+     "3B": 1,
+     "SB": 7,
+     "CS": 6,
+     "BB": 63,
+     "SO": 146,
+     "HBP": 25,
+     "GIDP": 8
+    },
+    {
+     "season": 1997,
+     "id": 113099,
+     "name": "Chili Davis",
+     "team": "Kansas City Royals",
+     "age": 37,
+     "PA": 567,
+     "AVG": 0.279,
+     "OBP": 0.386,
+     "SLG": 0.509,
+     "OPS": 0.895,
+     "HR": 30,
+     "RBI": 90,
+     "R": 71,
+     "H": 133,
+     "2B": 20,
+     "3B": 0,
+     "SB": 6,
+     "CS": 3,
+     "BB": 85,
+     "SO": 96,
+     "HBP": 1,
+     "GIDP": 15
+    }
+   ],
+   "kind": "pair",
+   "score": 10.025,
+   "players": [
+    {
+     "id": 114526,
+     "name": "Andres Galarraga"
+    },
+    {
+     "id": 113099,
+     "name": "Chili Davis"
+    }
+   ],
+   "seasons": [
+    1998,
+    1997
+   ],
+   "text": "Only two hitters of the 1990s hit 30+ homers at age 37 or older: Andres Galarraga (1998, 44 HR at 37); Chili Davis (1997, 30 HR at 37)."
+  },
+  {
+   "n": 10,
+   "rule": "slap_hitter",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.31
+     ],
+     [
+      "SLG",
+      "lte",
+      0.379
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 120927,
+     "name": "Willie Randolph",
+     "team": "Milwaukee Brewers",
+     "age": 36,
+     "PA": 512,
+     "AVG": 0.327,
+     "OBP": 0.424,
+     "SLG": 0.374,
+     "OPS": 0.798,
+     "HR": 0,
+     "RBI": 54,
+     "R": 60,
+     "H": 141,
+     "2B": 14,
+     "3B": 3,
+     "SB": 4,
+     "CS": 2,
+     "BB": 75,
+     "SO": 38,
+     "HBP": 0,
+     "GIDP": 14
+    }
+   ],
+   "kind": "only",
+   "score": 10.001175,
+   "players": [
+    {
+     "id": 120927,
+     "name": "Willie Randolph"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "text": "The only hitter of the 1990s to bat .310 while slugging under .380 (500+ PA): Willie Randolph, 1991 — .327 AVG, .374 SLG."
+  },
+  {
+   "n": 11,
+   "rule": "zero_hr_full",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "HR",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1995,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Texas Rangers",
+     "age": 36,
+     "PA": 656,
+     "AVG": 0.295,
+     "OBP": 0.357,
+     "SLG": 0.338,
+     "OPS": 0.695,
+     "HR": 0,
+     "RBI": 45,
+     "R": 87,
+     "H": 174,
+     "2B": 21,
+     "3B": 2,
+     "SB": 50,
+     "CS": 21,
+     "BB": 58,
+     "SO": 85,
+     "HBP": 0,
+     "GIDP": 6
+    },
+    {
+     "season": 1992,
+     "id": 120658,
+     "name": "Luis Polonia",
+     "team": "California Angels",
+     "age": 28,
+     "PA": 635,
+     "AVG": 0.286,
+     "OBP": 0.337,
+     "SLG": 0.329,
+     "OPS": 0.666,
+     "HR": 0,
+     "RBI": 35,
+     "R": 83,
+     "H": 165,
+     "2B": 17,
+     "3B": 4,
+     "SB": 51,
+     "CS": 21,
+     "BB": 45,
+     "SO": 64,
+     "HBP": 1,
+     "GIDP": 18
+    },
+    {
+     "season": 1991,
+     "id": 116603,
+     "name": "Lance Johnson",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "PA": 624,
+     "AVG": 0.274,
+     "OBP": 0.304,
+     "SLG": 0.342,
+     "OPS": 0.646,
+     "HR": 0,
+     "RBI": 49,
+     "R": 72,
+     "H": 161,
+     "2B": 14,
+     "3B": 13,
+     "SB": 26,
+     "CS": 11,
+     "BB": 26,
+     "SO": 58,
+     "HBP": 1,
+     "GIDP": 14
+    }
+   ],
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 119812,
+     "name": "Otis Nixon"
+    },
+    {
+     "id": 120658,
+     "name": "Luis Polonia"
+    },
+    {
+     "id": 116603,
+     "name": "Lance Johnson"
+    }
+   ],
+   "seasons": [
+    1995,
+    1992,
+    1991
+   ],
+   "text": "Just three hitters of the 1990s played a full season without a single home run (600+ PA): Otis Nixon (1995, 0 HR in 656 PA); Luis Polonia (1992, 0 HR in 635 PA); Lance Johnson (1991, 0 HR in 624 PA)."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "HR30",
+   "group": "H",
+   "decade": 1990,
+   "score": 9,
+   "players": [
+    {
+     "id": 111188,
+     "name": "Barry Bonds"
+    }
+   ],
+   "seasons": [
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "Pittsburgh Pirates",
+     "age": 27,
+     "PA": 612,
+     "AVG": 0.311,
+     "OBP": 0.456,
+     "SLG": 0.624,
+     "OPS": 1.08,
+     "HR": 34,
+     "RBI": 103,
+     "R": 109,
+     "H": 147,
+     "2B": 36,
+     "3B": 5,
+     "SB": 39,
+     "CS": 8,
+     "BB": 127,
+     "SO": 69,
+     "HBP": 5,
+     "GIDP": 9
+    },
+    {
+     "season": 1993,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 28,
+     "PA": 674,
+     "AVG": 0.336,
+     "OBP": 0.458,
+     "SLG": 0.677,
+     "OPS": 1.135,
+     "HR": 46,
+     "RBI": 123,
+     "R": 129,
+     "H": 181,
+     "2B": 38,
+     "3B": 4,
+     "SB": 29,
+     "CS": 12,
+     "BB": 126,
+     "SO": 79,
+     "HBP": 2,
+     "GIDP": 11
+    },
+    {
+     "season": 1994,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 29,
+     "PA": 474,
+     "AVG": 0.312,
+     "OBP": 0.426,
+     "SLG": 0.647,
+     "OPS": 1.073,
+     "HR": 37,
+     "RBI": 81,
+     "R": 89,
+     "H": 122,
+     "2B": 18,
+     "3B": 1,
+     "SB": 29,
+     "CS": 9,
+     "BB": 74,
+     "SO": 43,
+     "HBP": 6,
+     "GIDP": 3
+    },
+    {
+     "season": 1995,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "PA": 635,
+     "AVG": 0.294,
+     "OBP": 0.431,
+     "SLG": 0.577,
+     "OPS": 1.008,
+     "HR": 33,
+     "RBI": 104,
+     "R": 109,
+     "H": 149,
+     "2B": 30,
+     "3B": 7,
+     "SB": 31,
+     "CS": 10,
+     "BB": 120,
+     "SO": 83,
+     "HBP": 5,
+     "GIDP": 12
+    },
+    {
+     "season": 1996,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 31,
+     "PA": 675,
+     "AVG": 0.308,
+     "OBP": 0.461,
+     "SLG": 0.615,
+     "OPS": 1.076,
+     "HR": 42,
+     "RBI": 129,
+     "R": 122,
+     "H": 159,
+     "2B": 27,
+     "3B": 3,
+     "SB": 40,
+     "CS": 7,
+     "BB": 151,
+     "SO": 76,
+     "HBP": 1,
+     "GIDP": 11
+    },
+    {
+     "season": 1997,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 32,
+     "PA": 690,
+     "AVG": 0.291,
+     "OBP": 0.446,
+     "SLG": 0.585,
+     "OPS": 1.031,
+     "HR": 40,
+     "RBI": 101,
+     "R": 123,
+     "H": 155,
+     "2B": 26,
+     "3B": 5,
+     "SB": 37,
+     "CS": 8,
+     "BB": 145,
+     "SO": 87,
+     "HBP": 8,
+     "GIDP": 13
+    },
+    {
+     "season": 1998,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 33,
+     "PA": 697,
+     "AVG": 0.303,
+     "OBP": 0.438,
+     "SLG": 0.609,
+     "OPS": 1.047,
+     "HR": 37,
+     "RBI": 122,
+     "R": 120,
+     "H": 167,
+     "2B": 44,
+     "3B": 7,
+     "SB": 28,
+     "CS": 12,
+     "BB": 130,
+     "SO": 92,
+     "HBP": 8,
+     "GIDP": 15
+    },
+    {
+     "season": 1999,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 34,
+     "PA": 434,
+     "AVG": 0.262,
+     "OBP": 0.389,
+     "SLG": 0.617,
+     "OPS": 1.006,
+     "HR": 34,
+     "RBI": 83,
+     "R": 91,
+     "H": 93,
+     "2B": 20,
+     "3B": 2,
+     "SB": 15,
+     "CS": 2,
+     "BB": 73,
+     "SO": 62,
+     "HBP": 3,
+     "GIDP": 6
+    }
+   ],
+   "text": "Barry Bonds hit 30+ home runs in 8 straight seasons (1992-99), the longest run of the 1990s."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "RBI100",
+   "group": "H",
+   "decade": 1990,
+   "score": 9,
+   "players": [
+    {
+     "id": 123245,
+     "name": "Frank Thomas"
+    }
+   ],
+   "seasons": [
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 23,
+     "PA": 701,
+     "AVG": 0.318,
+     "OBP": 0.453,
+     "SLG": 0.553,
+     "OPS": 1.006,
+     "HR": 32,
+     "RBI": 109,
+     "R": 104,
+     "H": 178,
+     "2B": 31,
+     "3B": 2,
+     "SB": 1,
+     "CS": 2,
+     "BB": 138,
+     "SO": 112,
+     "HBP": 1,
+     "GIDP": 20
+    },
+    {
+     "season": 1992,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 24,
+     "PA": 711,
+     "AVG": 0.323,
+     "OBP": 0.439,
+     "SLG": 0.536,
+     "OPS": 0.975,
+     "HR": 24,
+     "RBI": 115,
+     "R": 108,
+     "H": 185,
+     "2B": 46,
+     "3B": 2,
+     "SB": 6,
+     "CS": 3,
+     "BB": 122,
+     "SO": 88,
+     "HBP": 5,
+     "GIDP": 19
+    },
+    {
+     "season": 1993,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 25,
+     "PA": 676,
+     "AVG": 0.317,
+     "OBP": 0.426,
+     "SLG": 0.607,
+     "OPS": 1.033,
+     "HR": 41,
+     "RBI": 128,
+     "R": 106,
+     "H": 174,
+     "2B": 36,
+     "3B": 0,
+     "SB": 4,
+     "CS": 2,
+     "BB": 112,
+     "SO": 54,
+     "HBP": 2,
+     "GIDP": 10
+    },
+    {
+     "season": 1994,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "PA": 517,
+     "AVG": 0.353,
+     "OBP": 0.487,
+     "SLG": 0.729,
+     "OPS": 1.216,
+     "HR": 38,
+     "RBI": 101,
+     "R": 106,
+     "H": 141,
+     "2B": 34,
+     "3B": 1,
+     "SB": 2,
+     "CS": 3,
+     "BB": 109,
+     "SO": 61,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1995,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "PA": 647,
+     "AVG": 0.308,
+     "OBP": 0.454,
+     "SLG": 0.606,
+     "OPS": 1.06,
+     "HR": 40,
+     "RBI": 111,
+     "R": 102,
+     "H": 152,
+     "2B": 27,
+     "3B": 0,
+     "SB": 3,
+     "CS": 2,
+     "BB": 136,
+     "SO": 74,
+     "HBP": 6,
+     "GIDP": 14
+    },
+    {
+     "season": 1996,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "PA": 649,
+     "AVG": 0.349,
+     "OBP": 0.459,
+     "SLG": 0.626,
+     "OPS": 1.085,
+     "HR": 40,
+     "RBI": 134,
+     "R": 110,
+     "H": 184,
+     "2B": 26,
+     "3B": 0,
+     "SB": 1,
+     "CS": 1,
+     "BB": 109,
+     "SO": 70,
+     "HBP": 5,
+     "GIDP": 25
+    },
+    {
+     "season": 1997,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 29,
+     "PA": 649,
+     "AVG": 0.347,
+     "OBP": 0.456,
+     "SLG": 0.611,
+     "OPS": 1.067,
+     "HR": 35,
+     "RBI": 125,
+     "R": 110,
+     "H": 184,
+     "2B": 35,
+     "3B": 0,
+     "SB": 1,
+     "CS": 1,
+     "BB": 109,
+     "SO": 69,
+     "HBP": 3,
+     "GIDP": 15
+    },
+    {
+     "season": 1998,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 30,
+     "PA": 712,
+     "AVG": 0.265,
+     "OBP": 0.381,
+     "SLG": 0.48,
+     "OPS": 0.861,
+     "HR": 29,
+     "RBI": 109,
+     "R": 109,
+     "H": 155,
+     "2B": 35,
+     "3B": 2,
+     "SB": 7,
+     "CS": 0,
+     "BB": 110,
+     "SO": 93,
+     "HBP": 6,
+     "GIDP": 14
+    }
+   ],
+   "text": "Frank Thomas drove in 100+ runs in 8 straight seasons (1991-98), the longest run of the 1990s."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "SB40",
+   "group": "H",
+   "decade": 1990,
+   "score": 9,
+   "players": [
+    {
+     "id": 119812,
+     "name": "Otis Nixon"
+    }
+   ],
+   "seasons": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Montreal Expos",
+     "age": 31,
+     "PA": 263,
+     "AVG": 0.251,
+     "OBP": 0.331,
+     "SLG": 0.307,
+     "OPS": 0.638,
+     "HR": 1,
+     "RBI": 20,
+     "R": 46,
+     "H": 58,
+     "2B": 6,
+     "3B": 2,
+     "SB": 50,
+     "CS": 13,
+     "BB": 28,
+     "SO": 33,
+     "HBP": 0,
+     "GIDP": 2
+    },
+    {
+     "season": 1991,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Atlanta Braves",
+     "age": 32,
+     "PA": 460,
+     "AVG": 0.297,
+     "OBP": 0.371,
+     "SLG": 0.327,
+     "OPS": 0.698,
+     "HR": 0,
+     "RBI": 26,
+     "R": 81,
+     "H": 119,
+     "2B": 10,
+     "3B": 1,
+     "SB": 72,
+     "CS": 21,
+     "BB": 47,
+     "SO": 40,
+     "HBP": 2,
+     "GIDP": 5
+    },
+    {
+     "season": 1992,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Atlanta Braves",
+     "age": 33,
+     "PA": 502,
+     "AVG": 0.294,
+     "OBP": 0.348,
+     "SLG": 0.346,
+     "OPS": 0.694,
+     "HR": 2,
+     "RBI": 22,
+     "R": 79,
+     "H": 134,
+     "2B": 14,
+     "3B": 2,
+     "SB": 41,
+     "CS": 18,
+     "BB": 39,
+     "SO": 54,
+     "HBP": 0,
+     "GIDP": 4
+    },
+    {
+     "season": 1993,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Atlanta Braves",
+     "age": 34,
+     "PA": 532,
+     "AVG": 0.269,
+     "OBP": 0.351,
+     "SLG": 0.315,
+     "OPS": 0.666,
+     "HR": 1,
+     "RBI": 24,
+     "R": 77,
+     "H": 124,
+     "2B": 12,
+     "3B": 3,
+     "SB": 47,
+     "CS": 13,
+     "BB": 61,
+     "SO": 63,
+     "HBP": 0,
+     "GIDP": 10
+    },
+    {
+     "season": 1994,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Boston Red Sox",
+     "age": 35,
+     "PA": 461,
+     "AVG": 0.274,
+     "OBP": 0.36,
+     "SLG": 0.317,
+     "OPS": 0.677,
+     "HR": 0,
+     "RBI": 25,
+     "R": 60,
+     "H": 109,
+     "2B": 15,
+     "3B": 1,
+     "SB": 42,
+     "CS": 10,
+     "BB": 55,
+     "SO": 65,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1995,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Texas Rangers",
+     "age": 36,
+     "PA": 656,
+     "AVG": 0.295,
+     "OBP": 0.357,
+     "SLG": 0.338,
+     "OPS": 0.695,
+     "HR": 0,
+     "RBI": 45,
+     "R": 87,
+     "H": 174,
+     "2B": 21,
+     "3B": 2,
+     "SB": 50,
+     "CS": 21,
+     "BB": 58,
+     "SO": 85,
+     "HBP": 0,
+     "GIDP": 6
+    },
+    {
+     "season": 1996,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Toronto Blue Jays",
+     "age": 37,
+     "PA": 575,
+     "AVG": 0.286,
+     "OBP": 0.377,
+     "SLG": 0.327,
+     "OPS": 0.704,
+     "HR": 1,
+     "RBI": 29,
+     "R": 87,
+     "H": 142,
+     "2B": 15,
+     "3B": 1,
+     "SB": 54,
+     "CS": 13,
+     "BB": 71,
+     "SO": 68,
+     "HBP": 1,
+     "GIDP": 9
+    },
+    {
+     "season": 1997,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Los Angeles Dodgers",
+     "age": 38,
+     "PA": 655,
+     "AVG": 0.266,
+     "OBP": 0.337,
+     "SLG": 0.318,
+     "OPS": 0.655,
+     "HR": 2,
+     "RBI": 44,
+     "R": 84,
+     "H": 153,
+     "2B": 18,
+     "3B": 3,
+     "SB": 59,
+     "CS": 12,
+     "BB": 65,
+     "SO": 78,
+     "HBP": 0,
+     "GIDP": 12
+    }
+   ],
+   "text": "Otis Nixon stole 40+ bases in 8 straight seasons (1990-97), the longest run of the 1990s."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "BB100",
+   "group": "H",
+   "decade": 1990,
+   "score": 9,
+   "players": [
+    {
+     "id": 123245,
+     "name": "Frank Thomas"
+    }
+   ],
+   "seasons": [
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 23,
+     "PA": 701,
+     "AVG": 0.318,
+     "OBP": 0.453,
+     "SLG": 0.553,
+     "OPS": 1.006,
+     "HR": 32,
+     "RBI": 109,
+     "R": 104,
+     "H": 178,
+     "2B": 31,
+     "3B": 2,
+     "SB": 1,
+     "CS": 2,
+     "BB": 138,
+     "SO": 112,
+     "HBP": 1,
+     "GIDP": 20
+    },
+    {
+     "season": 1992,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 24,
+     "PA": 711,
+     "AVG": 0.323,
+     "OBP": 0.439,
+     "SLG": 0.536,
+     "OPS": 0.975,
+     "HR": 24,
+     "RBI": 115,
+     "R": 108,
+     "H": 185,
+     "2B": 46,
+     "3B": 2,
+     "SB": 6,
+     "CS": 3,
+     "BB": 122,
+     "SO": 88,
+     "HBP": 5,
+     "GIDP": 19
+    },
+    {
+     "season": 1993,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 25,
+     "PA": 676,
+     "AVG": 0.317,
+     "OBP": 0.426,
+     "SLG": 0.607,
+     "OPS": 1.033,
+     "HR": 41,
+     "RBI": 128,
+     "R": 106,
+     "H": 174,
+     "2B": 36,
+     "3B": 0,
+     "SB": 4,
+     "CS": 2,
+     "BB": 112,
+     "SO": 54,
+     "HBP": 2,
+     "GIDP": 10
+    },
+    {
+     "season": 1994,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "PA": 517,
+     "AVG": 0.353,
+     "OBP": 0.487,
+     "SLG": 0.729,
+     "OPS": 1.216,
+     "HR": 38,
+     "RBI": 101,
+     "R": 106,
+     "H": 141,
+     "2B": 34,
+     "3B": 1,
+     "SB": 2,
+     "CS": 3,
+     "BB": 109,
+     "SO": 61,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1995,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "PA": 647,
+     "AVG": 0.308,
+     "OBP": 0.454,
+     "SLG": 0.606,
+     "OPS": 1.06,
+     "HR": 40,
+     "RBI": 111,
+     "R": 102,
+     "H": 152,
+     "2B": 27,
+     "3B": 0,
+     "SB": 3,
+     "CS": 2,
+     "BB": 136,
+     "SO": 74,
+     "HBP": 6,
+     "GIDP": 14
+    },
+    {
+     "season": 1996,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "PA": 649,
+     "AVG": 0.349,
+     "OBP": 0.459,
+     "SLG": 0.626,
+     "OPS": 1.085,
+     "HR": 40,
+     "RBI": 134,
+     "R": 110,
+     "H": 184,
+     "2B": 26,
+     "3B": 0,
+     "SB": 1,
+     "CS": 1,
+     "BB": 109,
+     "SO": 70,
+     "HBP": 5,
+     "GIDP": 25
+    },
+    {
+     "season": 1997,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 29,
+     "PA": 649,
+     "AVG": 0.347,
+     "OBP": 0.456,
+     "SLG": 0.611,
+     "OPS": 1.067,
+     "HR": 35,
+     "RBI": 125,
+     "R": 110,
+     "H": 184,
+     "2B": 35,
+     "3B": 0,
+     "SB": 1,
+     "CS": 1,
+     "BB": 109,
+     "SO": 69,
+     "HBP": 3,
+     "GIDP": 15
+    },
+    {
+     "season": 1998,
+     "id": 123245,
+     "name": "Frank Thomas",
+     "team": "Chicago White Sox",
+     "age": 30,
+     "PA": 712,
+     "AVG": 0.265,
+     "OBP": 0.381,
+     "SLG": 0.48,
+     "OPS": 0.861,
+     "HR": 29,
+     "RBI": 109,
+     "R": 109,
+     "H": 155,
+     "2B": 35,
+     "3B": 2,
+     "SB": 7,
+     "CS": 0,
+     "BB": 110,
+     "SO": 93,
+     "HBP": 6,
+     "GIDP": 14
+    }
+   ],
+   "text": "Frank Thomas drew 100+ walks in 8 straight seasons (1991-98), the longest run of the 1990s."
+  },
+  {
+   "n": 16,
+   "rule": "relief_wins",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      12
+     ],
+     [
+      "GS",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 124329,
+     "name": "Mitch Williams",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "W": 12,
+     "L": 5,
+     "ERA": 2.34,
+     "IP": "88.1",
+     "SO": 84,
+     "BB": 62,
+     "SV": 30,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1999,
+     "id": 150182,
+     "name": "Scott Williamson",
+     "team": "Cincinnati Reds",
+     "age": 23,
+     "W": 12,
+     "L": 7,
+     "ERA": 2.41,
+     "IP": "93.1",
+     "SO": 107,
+     "BB": 43,
+     "SV": 19,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 8,
+     "WHIP": 1.04
+    }
+   ],
+   "kind": "pair",
+   "score": 8.3,
+   "players": [
+    {
+     "id": 124329,
+     "name": "Mitch Williams"
+    },
+    {
+     "id": 150182,
+     "name": "Scott Williamson"
+    }
+   ],
+   "seasons": [
+    1991,
+    1999
+   ],
+   "text": "Only two pitchers of the 1990s won 12+ games without a start: Mitch Williams (1991, 12-5, 0 GS); Scott Williamson (1999, 12-7, 0 GS)."
+  },
+  {
+   "n": 17,
+   "rule": "era_under_3_no_wins",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      2.99
+     ],
+     [
+      "W",
+      "lte",
+      7
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 113229,
+     "name": "Jose DeLeon",
+     "team": "St. Louis Cardinals",
+     "age": 30,
+     "W": 5,
+     "L": 9,
+     "ERA": 2.71,
+     "IP": "162.2",
+     "SO": 118,
+     "BB": 61,
+     "SV": 0,
+     "GS": 28,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 15,
+     "WHIP": 1.26
+    },
+    {
+     "season": 1992,
+     "id": 110009,
+     "name": "Jim Abbott",
+     "team": "California Angels",
+     "age": 24,
+     "W": 7,
+     "L": 15,
+     "ERA": 2.77,
+     "IP": "211.0",
+     "SO": 130,
+     "BB": 68,
+     "SV": 0,
+     "GS": 29,
+     "CG": 7,
+     "SHO": 0,
+     "HRA": 12,
+     "WHIP": 1.31
+    }
+   ],
+   "kind": "pair",
+   "score": 8.19275,
+   "players": [
+    {
+     "id": 113229,
+     "name": "Jose DeLeon"
+    },
+    {
+     "id": 110009,
+     "name": "Jim Abbott"
+    }
+   ],
+   "seasons": [
+    1991,
+    1992
+   ],
+   "text": "Only two pitchers of the 1990s posted an ERA under 3.00 and won 7 or fewer (162+ IP): Jose DeLeon (1991, 2.71 ERA, 5-9); Jim Abbott (1992, 2.77 ERA, 7-15)."
+  },
+  {
+   "n": 18,
+   "rule": "young_ace",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMax": 22,
+    "filters": [
+     [
+      "W",
+      "gte",
+      18
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 118378,
+     "name": "Ramon Martinez",
+     "team": "Los Angeles Dodgers",
+     "age": 22,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.92,
+     "IP": "234.1",
+     "SO": 223,
+     "BB": 67,
+     "SV": 0,
+     "GS": 33,
+     "CG": 12,
+     "SHO": 3,
+     "HRA": 22,
+     "WHIP": 1.1
+    },
+    {
+     "season": 1991,
+     "id": 110397,
+     "name": "Steve Avery",
+     "team": "Atlanta Braves",
+     "age": 21,
+     "W": 18,
+     "L": 8,
+     "ERA": 3.38,
+     "IP": "210.1",
+     "SO": 137,
+     "BB": 65,
+     "SV": 0,
+     "GS": 35,
+     "CG": 3,
+     "SHO": 1,
+     "HRA": 21,
+     "WHIP": 1.21
+    }
+   ],
+   "kind": "pair",
+   "score": 8.05,
+   "players": [
+    {
+     "id": 118378,
+     "name": "Ramon Martinez"
+    },
+    {
+     "id": 110397,
+     "name": "Steve Avery"
+    }
+   ],
+   "seasons": [
+    1990,
+    1991
+   ],
+   "text": "Only two pitchers of the 1990s won 18+ games at age 22 or younger: Ramon Martinez (1990, 20-6 at 22); Steve Avery (1991, 18-8 at 21)."
+  },
+  {
+   "n": 19,
+   "kind": "streak",
+   "rule": "SV30",
+   "group": "P",
+   "decade": 1990,
+   "score": 8,
+   "players": [
+    {
+     "id": 122426,
+     "name": "Lee Smith"
+    }
+   ],
+   "seasons": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 122426,
+     "name": "Lee Smith",
+     "team": "St. Louis Cardinals",
+     "age": 32,
+     "W": 5,
+     "L": 5,
+     "ERA": 2.06,
+     "IP": "83.0",
+     "SO": 87,
+     "BB": 29,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.2
+    },
+    {
+     "season": 1991,
+     "id": 122426,
+     "name": "Lee Smith",
+     "team": "St. Louis Cardinals",
+     "age": 33,
+     "W": 6,
+     "L": 3,
+     "ERA": 2.34,
+     "IP": "73.0",
+     "SO": 67,
+     "BB": 13,
+     "SV": 47,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1992,
+     "id": 122426,
+     "name": "Lee Smith",
+     "team": "St. Louis Cardinals",
+     "age": 34,
+     "W": 4,
+     "L": 9,
+     "ERA": 3.12,
+     "IP": "75.0",
+     "SO": 60,
+     "BB": 26,
+     "SV": 43,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1993,
+     "id": 122426,
+     "name": "Lee Smith",
+     "team": "New York Yankees",
+     "age": 35,
+     "W": 2,
+     "L": 4,
+     "ERA": 3.88,
+     "IP": "58.0",
+     "SO": 60,
+     "BB": 14,
+     "SV": 46,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1994,
+     "id": 122426,
+     "name": "Lee Smith",
+     "team": "Baltimore Orioles",
+     "age": 36,
+     "W": 1,
+     "L": 4,
+     "ERA": 3.29,
+     "IP": "38.1",
+     "SO": 42,
+     "BB": 11,
+     "SV": 33,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1995,
+     "id": 122426,
+     "name": "Lee Smith",
+     "team": "California Angels",
+     "age": 37,
+     "W": 0,
+     "L": 5,
+     "ERA": 3.47,
+     "IP": "49.1",
+     "SO": 43,
+     "BB": 25,
+     "SV": 37,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.36
+    }
+   ],
+   "text": "Lee Smith saved 30+ games in 6 straight seasons (1990-95), the longest run of the 1990s."
+  },
+  {
+   "n": 20,
+   "rule": "doubles_no_hr",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "2B",
+      "gte",
+      45
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1997,
+     "id": 115210,
+     "name": "Mark Grudzielanek",
+     "team": "Montreal Expos",
+     "age": 27,
+     "PA": 688,
+     "AVG": 0.273,
+     "OBP": 0.307,
+     "SLG": 0.384,
+     "OPS": 0.691,
+     "HR": 4,
+     "RBI": 51,
+     "R": 76,
+     "H": 177,
+     "2B": 54,
+     "3B": 3,
+     "SB": 25,
+     "CS": 9,
+     "BB": 23,
+     "SO": 76,
+     "HBP": 10,
+     "GIDP": 13
+    },
+    {
+     "season": 1990,
+     "id": 120995,
+     "name": "Jody Reed",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 691,
+     "AVG": 0.289,
+     "OBP": 0.371,
+     "SLG": 0.39,
+     "OPS": 0.761,
+     "HR": 5,
+     "RBI": 51,
+     "R": 70,
+     "H": 173,
+     "2B": 45,
+     "3B": 0,
+     "SB": 4,
+     "CS": 4,
+     "BB": 75,
+     "SO": 65,
+     "HBP": 4,
+     "GIDP": 18
+    },
+    {
+     "season": 1994,
+     "id": 117197,
+     "name": "Chuck Knoblauch",
+     "team": "Minnesota Twins",
+     "age": 25,
+     "PA": 499,
+     "AVG": 0.312,
+     "OBP": 0.381,
+     "SLG": 0.461,
+     "OPS": 0.842,
+     "HR": 5,
+     "RBI": 51,
+     "R": 85,
+     "H": 139,
+     "2B": 45,
+     "3B": 3,
+     "SB": 35,
+     "CS": 6,
+     "BB": 41,
+     "SO": 56,
+     "HBP": 10,
+     "GIDP": 13
+    }
+   ],
+   "kind": "few",
+   "score": 7.25,
+   "players": [
+    {
+     "id": 115210,
+     "name": "Mark Grudzielanek"
+    },
+    {
+     "id": 120995,
+     "name": "Jody Reed"
+    },
+    {
+     "id": 117197,
+     "name": "Chuck Knoblauch"
+    }
+   ],
+   "seasons": [
+    1997,
+    1990,
+    1994
+   ],
+   "text": "Just three hitters of the 1990s hit 45 doubles and 5 homers or fewer: Mark Grudzielanek (1997, 54 2B, 4 HR); Jody Reed (1990, 45 2B, 5 HR); Chuck Knoblauch (1994, 45 2B, 5 HR)."
+  },
+  {
+   "n": 21,
+   "rule": "rbi_low_ops",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "OPS",
+      "lte",
+      0.699
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 112064,
+     "name": "Joe Carter",
+     "team": "San Diego Padres",
+     "age": 30,
+     "PA": 697,
+     "AVG": 0.232,
+     "OBP": 0.29,
+     "SLG": 0.391,
+     "OPS": 0.681,
+     "HR": 24,
+     "RBI": 115,
+     "R": 79,
+     "H": 147,
+     "2B": 27,
+     "3B": 1,
+     "SB": 22,
+     "CS": 6,
+     "BB": 48,
+     "SO": 93,
+     "HBP": 7,
+     "GIDP": 12
+    },
+    {
+     "season": 1997,
+     "id": 112064,
+     "name": "Joe Carter",
+     "team": "Toronto Blue Jays",
+     "age": 37,
+     "PA": 668,
+     "AVG": 0.234,
+     "OBP": 0.284,
+     "SLG": 0.399,
+     "OPS": 0.683,
+     "HR": 21,
+     "RBI": 102,
+     "R": 76,
+     "H": 143,
+     "2B": 30,
+     "3B": 4,
+     "SB": 8,
+     "CS": 2,
+     "BB": 40,
+     "SO": 105,
+     "HBP": 7,
+     "GIDP": 12
+    },
+    {
+     "season": 1993,
+     "id": 122218,
+     "name": "Ruben Sierra",
+     "team": "Oakland Athletics",
+     "age": 27,
+     "PA": 692,
+     "AVG": 0.233,
+     "OBP": 0.288,
+     "SLG": 0.39,
+     "OPS": 0.678,
+     "HR": 22,
+     "RBI": 101,
+     "R": 77,
+     "H": 147,
+     "2B": 23,
+     "3B": 5,
+     "SB": 25,
+     "CS": 5,
+     "BB": 52,
+     "SO": 97,
+     "HBP": 0,
+     "GIDP": 17
+    }
+   ],
+   "kind": "few",
+   "score": 7.172499999999999,
+   "players": [
+    {
+     "id": 112064,
+     "name": "Joe Carter"
+    },
+    {
+     "id": 112064,
+     "name": "Joe Carter"
+    },
+    {
+     "id": 122218,
+     "name": "Ruben Sierra"
+    }
+   ],
+   "seasons": [
+    1990,
+    1997,
+    1993
+   ],
+   "text": "Just three hitters of the 1990s drove in 100 runs with an OPS under .700: Joe Carter (1990, 115 RBI, .681 OPS); Joe Carter (1997, 102 RBI, .683 OPS); Ruben Sierra (1993, 101 RBI, .678 OPS)."
+  },
+  {
+   "n": 22,
+   "rule": "gidp_many",
+   "group": "H",
+   "decade": 1990,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 121358,
+     "name": "Ivan Rodriguez",
+     "team": "Texas Rangers",
+     "age": 27,
+     "PA": 630,
+     "AVG": 0.332,
+     "OBP": 0.356,
+     "SLG": 0.558,
+     "OPS": 0.914,
+     "HR": 35,
+     "RBI": 113,
+     "R": 116,
+     "H": 199,
+     "2B": 29,
+     "3B": 1,
+     "SB": 25,
+     "CS": 12,
+     "BB": 24,
+     "SO": 64,
+     "HBP": 1,
+     "GIDP": 31
+    },
+    {
+     "season": 1992,
+     "id": 110823,
+     "name": "George Bell",
+     "team": "Chicago White Sox",
+     "age": 32,
+     "PA": 670,
+     "AVG": 0.255,
+     "OBP": 0.294,
+     "SLG": 0.418,
+     "OPS": 0.712,
+     "HR": 25,
+     "RBI": 112,
+     "R": 74,
+     "H": 160,
+     "2B": 27,
+     "3B": 0,
+     "SB": 5,
+     "CS": 2,
+     "BB": 31,
+     "SO": 97,
+     "HBP": 6,
+     "GIDP": 29
+    },
+    {
+     "season": 1996,
+     "id": 121222,
+     "name": "Cal Ripken Jr.",
+     "team": "Baltimore Orioles",
+     "age": 35,
+     "PA": 707,
+     "AVG": 0.278,
+     "OBP": 0.341,
+     "SLG": 0.466,
+     "OPS": 0.807,
+     "HR": 26,
+     "RBI": 102,
+     "R": 94,
+     "H": 178,
+     "2B": 40,
+     "3B": 1,
+     "SB": 1,
+     "CS": 2,
+     "BB": 59,
+     "SO": 78,
+     "HBP": 4,
+     "GIDP": 28
+    }
+   ],
+   "kind": "few",
+   "score": 6.775,
+   "players": [
+    {
+     "id": 121358,
+     "name": "Ivan Rodriguez"
+    },
+    {
+     "id": 110823,
+     "name": "George Bell"
+    },
+    {
+     "id": 121222,
+     "name": "Cal Ripken Jr."
+    }
+   ],
+   "seasons": [
+    1999,
+    1992,
+    1996
+   ],
+   "text": "Just three hitters of the 1990s grounded into 28+ double plays: Ivan Rodriguez (1999, 31 GIDP); George Bell (1992, 29 GIDP); Cal Ripken Jr. (1996, 28 GIDP)."
+  },
+  {
+   "n": 23,
+   "rule": "hr_no_doubles",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      35
+     ],
+     [
+      "2B",
+      "lte",
+      15
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1995,
+     "id": 118743,
+     "name": "Mark McGwire",
+     "team": "Oakland Athletics",
+     "age": 31,
+     "PA": 422,
+     "AVG": 0.274,
+     "OBP": 0.441,
+     "SLG": 0.685,
+     "OPS": 1.126,
+     "HR": 39,
+     "RBI": 90,
+     "R": 75,
+     "H": 87,
+     "2B": 13,
+     "3B": 0,
+     "SB": 1,
+     "CS": 1,
+     "BB": 88,
+     "SO": 77,
+     "HBP": 11,
+     "GIDP": 9
+    },
+    {
+     "season": 1993,
+     "id": 116798,
+     "name": "David Justice",
+     "team": "Atlanta Braves",
+     "age": 27,
+     "PA": 670,
+     "AVG": 0.27,
+     "OBP": 0.357,
+     "SLG": 0.515,
+     "OPS": 0.872,
+     "HR": 40,
+     "RBI": 120,
+     "R": 90,
+     "H": 158,
+     "2B": 15,
+     "3B": 4,
+     "SB": 3,
+     "CS": 5,
+     "BB": 78,
+     "SO": 90,
+     "HBP": 3,
+     "GIDP": 9
+    },
+    {
+     "season": 1990,
+     "id": 111962,
+     "name": "José Canseco",
+     "team": "Oakland Athletics",
+     "age": 25,
+     "PA": 563,
+     "AVG": 0.274,
+     "OBP": 0.371,
+     "SLG": 0.543,
+     "OPS": 0.914,
+     "HR": 37,
+     "RBI": 101,
+     "R": 83,
+     "H": 132,
+     "2B": 14,
+     "3B": 2,
+     "SB": 19,
+     "CS": 10,
+     "BB": 72,
+     "SO": 158,
+     "HBP": 5,
+     "GIDP": 9
+    }
+   ],
+   "kind": "few",
+   "score": 6.65,
+   "players": [
+    {
+     "id": 118743,
+     "name": "Mark McGwire"
+    },
+    {
+     "id": 116798,
+     "name": "David Justice"
+    },
+    {
+     "id": 111962,
+     "name": "José Canseco"
+    }
+   ],
+   "seasons": [
+    1995,
+    1993,
+    1990
+   ],
+   "text": "Just three hitters of the 1990s hit 35+ homers with 15 doubles or fewer: Mark McGwire (1995, 39 HR, 13 2B); David Justice (1993, 40 HR, 15 2B); José Canseco (1990, 37 HR, 14 2B)."
+  },
+  {
+   "n": 24,
+   "rule": "sb_low_obp",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ],
+     [
+      "OBP",
+      "lte",
+      0.299
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1994,
+     "id": 112487,
+     "name": "Vince Coleman",
+     "team": "Kansas City Royals",
+     "age": 32,
+     "PA": 477,
+     "AVG": 0.24,
+     "OBP": 0.285,
+     "SLG": 0.34,
+     "OPS": 0.625,
+     "HR": 2,
+     "RBI": 33,
+     "R": 61,
+     "H": 105,
+     "2B": 14,
+     "3B": 12,
+     "SB": 50,
+     "CS": 8,
+     "BB": 29,
+     "SO": 72,
+     "HBP": 1,
+     "GIDP": 2
+    },
+    {
+     "season": 1996,
+     "id": 113291,
+     "name": "Delino DeShields",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "PA": 642,
+     "AVG": 0.224,
+     "OBP": 0.288,
+     "SLG": 0.298,
+     "OPS": 0.586,
+     "HR": 5,
+     "RBI": 41,
+     "R": 75,
+     "H": 130,
+     "2B": 12,
+     "3B": 8,
+     "SB": 48,
+     "CS": 11,
+     "BB": 53,
+     "SO": 124,
+     "HBP": 1,
+     "GIDP": 12
+    },
+    {
+     "season": 1999,
+     "id": 116326,
+     "name": "Brian L. Hunter",
+     "team": "Seattle Mariners",
+     "age": 28,
+     "PA": 589,
+     "AVG": 0.232,
+     "OBP": 0.28,
+     "SLG": 0.301,
+     "OPS": 0.581,
+     "HR": 4,
+     "RBI": 34,
+     "R": 79,
+     "H": 125,
+     "2B": 13,
+     "3B": 6,
+     "SB": 44,
+     "CS": 8,
+     "BB": 37,
+     "SO": 91,
+     "HBP": 2,
+     "GIDP": 8
+    },
+    {
+     "season": 1998,
+     "id": 116326,
+     "name": "Brian L. Hunter",
+     "team": "Detroit Tigers",
+     "age": 27,
+     "PA": 636,
+     "AVG": 0.254,
+     "OBP": 0.298,
+     "SLG": 0.333,
+     "OPS": 0.631,
+     "HR": 4,
+     "RBI": 36,
+     "R": 67,
+     "H": 151,
+     "2B": 29,
+     "3B": 3,
+     "SB": 42,
+     "CS": 12,
+     "BB": 36,
+     "SO": 94,
+     "HBP": 2,
+     "GIDP": 8
+    }
+   ],
+   "kind": "few",
+   "score": 6.5375,
+   "players": [
+    {
+     "id": 112487,
+     "name": "Vince Coleman"
+    },
+    {
+     "id": 113291,
+     "name": "Delino DeShields"
+    },
+    {
+     "id": 116326,
+     "name": "Brian L. Hunter"
+    },
+    {
+     "id": 116326,
+     "name": "Brian L. Hunter"
+    }
+   ],
+   "seasons": [
+    1994,
+    1996,
+    1999,
+    1998
+   ],
+   "text": "Just four hitters of the 1990s stole 40+ bases with an on-base under .300 (400+ PA): Vince Coleman (1994, 50 SB, .285 OBP); Delino DeShields (1996, 48 SB, .288 OBP); Brian L. Hunter (1999, 44 SB, .280 OBP); Brian L. Hunter (1998, 42 SB, .298 OBP)."
+  },
+  {
+   "n": 25,
+   "rule": "sb_perfect",
+   "group": "H",
+   "decade": 1990,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1994,
+     "id": 110229,
+     "name": "Brady Anderson",
+     "team": "Baltimore Orioles",
+     "age": 30,
+     "PA": 525,
+     "AVG": 0.263,
+     "OBP": 0.356,
+     "SLG": 0.419,
+     "OPS": 0.775,
+     "HR": 12,
+     "RBI": 48,
+     "R": 78,
+     "H": 119,
+     "2B": 25,
+     "3B": 5,
+     "SB": 31,
+     "CS": 1,
+     "BB": 57,
+     "SO": 75,
+     "HBP": 10,
+     "GIDP": 7
+    },
+    {
+     "season": 1999,
+     "id": 114844,
+     "name": "Doug Glanville",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "PA": 692,
+     "AVG": 0.325,
+     "OBP": 0.376,
+     "SLG": 0.457,
+     "OPS": 0.833,
+     "HR": 11,
+     "RBI": 73,
+     "R": 101,
+     "H": 204,
+     "2B": 38,
+     "3B": 6,
+     "SB": 34,
+     "CS": 2,
+     "BB": 48,
+     "SO": 82,
+     "HBP": 6,
+     "GIDP": 9
+    },
+    {
+     "season": 1995,
+     "id": 110183,
+     "name": "Roberto Alomar",
+     "team": "Toronto Blue Jays",
+     "age": 27,
+     "PA": 577,
+     "AVG": 0.3,
+     "OBP": 0.354,
+     "SLG": 0.449,
+     "OPS": 0.803,
+     "HR": 13,
+     "RBI": 66,
+     "R": 71,
+     "H": 155,
+     "2B": 24,
+     "3B": 7,
+     "SB": 30,
+     "CS": 3,
+     "BB": 47,
+     "SO": 45,
+     "HBP": 0,
+     "GIDP": 16
+    }
+   ],
+   "kind": "few",
+   "score": 6.525,
+   "players": [
+    {
+     "id": 110229,
+     "name": "Brady Anderson"
+    },
+    {
+     "id": 114844,
+     "name": "Doug Glanville"
+    },
+    {
+     "id": 110183,
+     "name": "Roberto Alomar"
+    }
+   ],
+   "seasons": [
+    1994,
+    1999,
+    1995
+   ],
+   "text": "Just three hitters of the 1990s stole 30+ bases and was caught 3 times or fewer: Brady Anderson (1994, 31 SB, 1 CS); Doug Glanville (1999, 34 SB, 2 CS); Roberto Alomar (1995, 30 SB, 3 CS)."
+  },
+  {
+   "n": 26,
+   "rule": "low_k_full",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "SO",
+      "lte",
+      30
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1993,
+     "id": 122439,
+     "name": "Ozzie Smith",
+     "team": "St. Louis Cardinals",
+     "age": 38,
+     "PA": 603,
+     "AVG": 0.288,
+     "OBP": 0.337,
+     "SLG": 0.356,
+     "OPS": 0.693,
+     "HR": 1,
+     "RBI": 53,
+     "R": 75,
+     "H": 157,
+     "2B": 22,
+     "3B": 6,
+     "SB": 21,
+     "CS": 8,
+     "BB": 43,
+     "SO": 18,
+     "HBP": 1,
+     "GIDP": 11
+    },
+    {
+     "season": 1990,
+     "id": 115270,
+     "name": "Tony Gwynn",
+     "team": "San Diego Padres",
+     "age": 30,
+     "PA": 629,
+     "AVG": 0.309,
+     "OBP": 0.357,
+     "SLG": 0.415,
+     "OPS": 0.772,
+     "HR": 4,
+     "RBI": 72,
+     "R": 79,
+     "H": 177,
+     "2B": 29,
+     "3B": 10,
+     "SB": 17,
+     "CS": 8,
+     "BB": 44,
+     "SO": 23,
+     "HBP": 1,
+     "GIDP": 13
+    },
+    {
+     "season": 1997,
+     "id": 115270,
+     "name": "Tony Gwynn",
+     "team": "San Diego Padres",
+     "age": 37,
+     "PA": 651,
+     "AVG": 0.372,
+     "OBP": 0.409,
+     "SLG": 0.547,
+     "OPS": 0.956,
+     "HR": 17,
+     "RBI": 119,
+     "R": 97,
+     "H": 220,
+     "2B": 49,
+     "3B": 2,
+     "SB": 12,
+     "CS": 5,
+     "BB": 43,
+     "SO": 28,
+     "HBP": 3,
+     "GIDP": 12
+    },
+    {
+     "season": 1992,
+     "id": 116513,
+     "name": "Gregg Jefferies",
+     "team": "Kansas City Royals",
+     "age": 24,
+     "PA": 657,
+     "AVG": 0.285,
+     "OBP": 0.329,
+     "SLG": 0.404,
+     "OPS": 0.733,
+     "HR": 10,
+     "RBI": 75,
+     "R": 66,
+     "H": 172,
+     "2B": 36,
+     "3B": 3,
+     "SB": 19,
+     "CS": 9,
+     "BB": 43,
+     "SO": 29,
+     "HBP": 1,
+     "GIDP": 24
+    }
+   ],
+   "kind": "few",
+   "score": 6.45,
+   "players": [
+    {
+     "id": 122439,
+     "name": "Ozzie Smith"
+    },
+    {
+     "id": 115270,
+     "name": "Tony Gwynn"
+    },
+    {
+     "id": 115270,
+     "name": "Tony Gwynn"
+    },
+    {
+     "id": 116513,
+     "name": "Gregg Jefferies"
+    }
+   ],
+   "seasons": [
+    1993,
+    1990,
+    1997,
+    1992
+   ],
+   "text": "Just four hitters of the 1990s struck out 30 times or fewer in a full season (600+ PA): Ozzie Smith (1993, 18 K in 603 PA); Tony Gwynn (1990, 23 K in 629 PA); Tony Gwynn (1997, 28 K in 651 PA); Gregg Jefferies (1992, 29 K in 657 PA)."
+  },
+  {
+   "n": 27,
+   "rule": "avg_no_walks",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ],
+     [
+      "BB",
+      "lte",
+      25
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1993,
+     "id": 114526,
+     "name": "Andres Galarraga",
+     "team": "Colorado Rockies",
+     "age": 32,
+     "PA": 506,
+     "AVG": 0.37,
+     "OBP": 0.403,
+     "SLG": 0.602,
+     "OPS": 1.005,
+     "HR": 22,
+     "RBI": 98,
+     "R": 71,
+     "H": 174,
+     "2B": 35,
+     "3B": 4,
+     "SB": 2,
+     "CS": 4,
+     "BB": 24,
+     "SO": 73,
+     "HBP": 6,
+     "GIDP": 9
+    },
+    {
+     "season": 1995,
+     "id": 110974,
+     "name": "Dante Bichette",
+     "team": "Colorado Rockies",
+     "age": 31,
+     "PA": 612,
+     "AVG": 0.34,
+     "OBP": 0.364,
+     "SLG": 0.62,
+     "OPS": 0.984,
+     "HR": 40,
+     "RBI": 128,
+     "R": 102,
+     "H": 197,
+     "2B": 38,
+     "3B": 2,
+     "SB": 13,
+     "CS": 9,
+     "BB": 22,
+     "SO": 96,
+     "HBP": 4,
+     "GIDP": 16
+    },
+    {
+     "season": 1999,
+     "id": 111792,
+     "name": "Homer Bush",
+     "team": "Toronto Blue Jays",
+     "age": 26,
+     "PA": 523,
+     "AVG": 0.32,
+     "OBP": 0.353,
+     "SLG": 0.421,
+     "OPS": 0.774,
+     "HR": 5,
+     "RBI": 55,
+     "R": 69,
+     "H": 155,
+     "2B": 26,
+     "3B": 4,
+     "SB": 32,
+     "CS": 8,
+     "BB": 21,
+     "SO": 82,
+     "HBP": 6,
+     "GIDP": 9
+    },
+    {
+     "season": 1999,
+     "id": 121358,
+     "name": "Ivan Rodriguez",
+     "team": "Texas Rangers",
+     "age": 27,
+     "PA": 630,
+     "AVG": 0.332,
+     "OBP": 0.356,
+     "SLG": 0.558,
+     "OPS": 0.914,
+     "HR": 35,
+     "RBI": 113,
+     "R": 116,
+     "H": 199,
+     "2B": 29,
+     "3B": 1,
+     "SB": 25,
+     "CS": 12,
+     "BB": 24,
+     "SO": 64,
+     "HBP": 1,
+     "GIDP": 31
+    }
+   ],
+   "kind": "few",
+   "score": 6.325,
+   "players": [
+    {
+     "id": 114526,
+     "name": "Andres Galarraga"
+    },
+    {
+     "id": 110974,
+     "name": "Dante Bichette"
+    },
+    {
+     "id": 111792,
+     "name": "Homer Bush"
+    },
+    {
+     "id": 121358,
+     "name": "Ivan Rodriguez"
+    }
+   ],
+   "seasons": [
+    1993,
+    1995,
+    1999,
+    1999
+   ],
+   "text": "Just four hitters of the 1990s batted .320 or better with 25 walks or fewer (500+ PA): Andres Galarraga (1993, .370, 24 BB); Dante Bichette (1995, .340, 22 BB); Homer Bush (1999, .320, 21 BB); Ivan Rodriguez (1999, .332, 24 BB)."
+  },
+  {
+   "n": 28,
+   "rule": "one_fifty_rbi",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      150
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 120903,
+     "name": "Manny Ramirez",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "PA": 640,
+     "AVG": 0.333,
+     "OBP": 0.442,
+     "SLG": 0.663,
+     "OPS": 1.105,
+     "HR": 44,
+     "RBI": 165,
+     "R": 131,
+     "H": 174,
+     "2B": 34,
+     "3B": 3,
+     "SB": 2,
+     "CS": 4,
+     "BB": 96,
+     "SO": 131,
+     "HBP": 13,
+     "GIDP": 12
+    },
+    {
+     "season": 1998,
+     "id": 122544,
+     "name": "Sammy Sosa",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 722,
+     "AVG": 0.308,
+     "OBP": 0.377,
+     "SLG": 0.647,
+     "OPS": 1.024,
+     "HR": 66,
+     "RBI": 158,
+     "R": 134,
+     "H": 198,
+     "2B": 20,
+     "3B": 0,
+     "SB": 18,
+     "CS": 9,
+     "BB": 73,
+     "SO": 171,
+     "HBP": 1,
+     "GIDP": 20
+    },
+    {
+     "season": 1998,
+     "id": 114932,
+     "name": "Juan Gonzalez",
+     "team": "Texas Rangers",
+     "age": 28,
+     "PA": 669,
+     "AVG": 0.318,
+     "OBP": 0.366,
+     "SLG": 0.63,
+     "OPS": 0.996,
+     "HR": 45,
+     "RBI": 157,
+     "R": 110,
+     "H": 193,
+     "2B": 50,
+     "3B": 2,
+     "SB": 2,
+     "CS": 1,
+     "BB": 46,
+     "SO": 126,
+     "HBP": 6,
+     "GIDP": 20
+    },
+    {
+     "season": 1998,
+     "id": 110839,
+     "name": "Albert Belle",
+     "team": "Chicago White Sox",
+     "age": 31,
+     "PA": 706,
+     "AVG": 0.328,
+     "OBP": 0.399,
+     "SLG": 0.655,
+     "OPS": 1.054,
+     "HR": 49,
+     "RBI": 152,
+     "R": 113,
+     "H": 200,
+     "2B": 48,
+     "3B": 2,
+     "SB": 6,
+     "CS": 4,
+     "BB": 81,
+     "SO": 84,
+     "HBP": 1,
+     "GIDP": 17
+    },
+    {
+     "season": 1996,
+     "id": 114526,
+     "name": "Andres Galarraga",
+     "team": "Colorado Rockies",
+     "age": 35,
+     "PA": 691,
+     "AVG": 0.304,
+     "OBP": 0.357,
+     "SLG": 0.601,
+     "OPS": 0.958,
+     "HR": 47,
+     "RBI": 150,
+     "R": 119,
+     "H": 190,
+     "2B": 39,
+     "3B": 3,
+     "SB": 18,
+     "CS": 8,
+     "BB": 40,
+     "SO": 157,
+     "HBP": 17,
+     "GIDP": 6
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 120903,
+     "name": "Manny Ramirez"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "text": "5 times in the 1990s a hitter drove in 150 runs. The most extreme: Manny Ramirez, 1999 — 165 RBI."
+  },
+  {
+   "n": 29,
+   "rule": "closer_100k",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      35
+     ],
+     [
+      "SO",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 123790,
+     "name": "Billy Wagner",
+     "team": "Houston Astros",
+     "age": 27,
+     "W": 4,
+     "L": 1,
+     "ERA": 1.57,
+     "IP": "74.2",
+     "SO": 124,
+     "BB": 23,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.78
+    },
+    {
+     "season": 1993,
+     "id": 124123,
+     "name": "John Wetteland",
+     "team": "Montreal Expos",
+     "age": 26,
+     "W": 9,
+     "L": 3,
+     "ERA": 1.37,
+     "IP": "85.1",
+     "SO": 113,
+     "BB": 28,
+     "SV": 43,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.01
+    },
+    {
+     "season": 1996,
+     "id": 116034,
+     "name": "Trevor Hoffman",
+     "team": "San Diego Padres",
+     "age": 28,
+     "W": 9,
+     "L": 5,
+     "ERA": 2.25,
+     "IP": "88.0",
+     "SO": 111,
+     "BB": 31,
+     "SV": 42,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 0.92
+    },
+    {
+     "season": 1998,
+     "id": 119718,
+     "name": "Robb Nen",
+     "team": "San Francisco Giants",
+     "age": 28,
+     "W": 7,
+     "L": 7,
+     "ERA": 1.52,
+     "IP": "88.2",
+     "SO": 110,
+     "BB": 25,
+     "SV": 40,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 0.95
+    },
+    {
+     "season": 1997,
+     "id": 116034,
+     "name": "Trevor Hoffman",
+     "team": "San Diego Padres",
+     "age": 29,
+     "W": 6,
+     "L": 4,
+     "ERA": 2.66,
+     "IP": "81.1",
+     "SO": 111,
+     "BB": 24,
+     "SV": 37,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1991,
+     "id": 115583,
+     "name": "Bryan Harvey",
+     "team": "California Angels",
+     "age": 28,
+     "W": 2,
+     "L": 4,
+     "ERA": 1.6,
+     "IP": "78.2",
+     "SO": 101,
+     "BB": 17,
+     "SV": 46,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 0.86
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 123790,
+     "name": "Billy Wagner"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "text": "10 times in the 1990s a pitcher saved 35 games and struck out 100. The most extreme: Billy Wagner, 1999 — 39 SV, 124 K in 74.2 IP."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 122544,
+     "name": "Sammy Sosa"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 122544,
+     "name": "Sammy Sosa",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 722,
+     "AVG": 0.308,
+     "OBP": 0.377,
+     "SLG": 0.647,
+     "OPS": 1.024,
+     "HR": 66,
+     "RBI": 158,
+     "R": 134,
+     "H": 198,
+     "2B": 20,
+     "3B": 0,
+     "SB": 18,
+     "CS": 9,
+     "BB": 73,
+     "SO": 171,
+     "HBP": 1,
+     "GIDP": 20
+    }
+   ],
+   "among": 338,
+   "text": "Most strikeouts by a .300 hitter of the 1990s: Sammy Sosa, 1998 — 171 K while batting .308."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "most_hr_low_rbi",
+   "group": "H",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 113197,
+     "name": "Rob Deer"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 113197,
+     "name": "Rob Deer",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "PA": 448,
+     "AVG": 0.247,
+     "OBP": 0.337,
+     "SLG": 0.547,
+     "OPS": 0.884,
+     "HR": 32,
+     "RBI": 64,
+     "R": 66,
+     "H": 97,
+     "2B": 20,
+     "3B": 1,
+     "SB": 4,
+     "CS": 2,
+     "BB": 51,
+     "SO": 131,
+     "HBP": 3,
+     "GIDP": 8
+    }
+   ],
+   "among": 384,
+   "text": "Most home runs per RBI of the 1990s: Rob Deer, 1992 — 32 HR but only 64 RBI."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "fewest_k_30hr",
+   "group": "H",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 122111,
+     "name": "Gary Sheffield"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 122111,
+     "name": "Gary Sheffield",
+     "team": "San Diego Padres",
+     "age": 23,
+     "PA": 618,
+     "AVG": 0.33,
+     "OBP": 0.385,
+     "SLG": 0.58,
+     "OPS": 0.965,
+     "HR": 33,
+     "RBI": 100,
+     "R": 87,
+     "H": 184,
+     "2B": 34,
+     "3B": 3,
+     "SB": 5,
+     "CS": 6,
+     "BB": 48,
+     "SO": 40,
+     "HBP": 6,
+     "GIDP": 19
+    }
+   ],
+   "among": 239,
+   "text": "Fewest strikeouts by a 30-homer hitter of the 1990s: Gary Sheffield, 1992 — 40 K with 33 HR."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "highest_avg_low_hr",
+   "group": "H",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 120927,
+     "name": "Willie Randolph"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 120927,
+     "name": "Willie Randolph",
+     "team": "Milwaukee Brewers",
+     "age": 36,
+     "PA": 512,
+     "AVG": 0.327,
+     "OBP": 0.424,
+     "SLG": 0.374,
+     "OPS": 0.798,
+     "HR": 0,
+     "RBI": 54,
+     "R": 60,
+     "H": 141,
+     "2B": 14,
+     "3B": 3,
+     "SB": 4,
+     "CS": 2,
+     "BB": 75,
+     "SO": 38,
+     "HBP": 0,
+     "GIDP": 14
+    }
+   ],
+   "among": 92,
+   "text": "Highest average by a hitter with 3 homers or fewer: Willie Randolph, 1991 — .327 with 0 HR."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "most_bb_low_avg",
+   "group": "H",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 123211,
+     "name": "Mickey Tettleton"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 123211,
+     "name": "Mickey Tettleton",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "PA": 654,
+     "AVG": 0.238,
+     "OBP": 0.379,
+     "SLG": 0.469,
+     "OPS": 0.848,
+     "HR": 32,
+     "RBI": 83,
+     "R": 82,
+     "H": 125,
+     "2B": 25,
+     "3B": 0,
+     "SB": 0,
+     "CS": 6,
+     "BB": 122,
+     "SO": 137,
+     "HBP": 1,
+     "GIDP": 5
+    }
+   ],
+   "among": 62,
+   "text": "Most walks by a sub-.240 hitter of the 1990s: Mickey Tettleton, 1992 — 122 BB while batting .238."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "most_rbi_per_hr",
+   "group": "H",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 119236,
+     "name": "Paul Molitor"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1996,
+     "id": 119236,
+     "name": "Paul Molitor",
+     "team": "Minnesota Twins",
+     "age": 39,
+     "PA": 729,
+     "AVG": 0.341,
+     "OBP": 0.39,
+     "SLG": 0.468,
+     "OPS": 0.858,
+     "HR": 9,
+     "RBI": 113,
+     "R": 99,
+     "H": 225,
+     "2B": 41,
+     "3B": 8,
+     "SB": 18,
+     "CS": 6,
+     "BB": 56,
+     "SO": 72,
+     "HBP": 3,
+     "GIDP": 21
+    }
+   ],
+   "among": 281,
+   "text": "Most RBI per home run among 100-RBI seasons: Paul Molitor, 1996 — 113 RBI on 9 HR."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "most_wins_bad_era",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 121244,
+     "name": "Kevin Ritz"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1996,
+     "id": 121244,
+     "name": "Kevin Ritz",
+     "team": "Colorado Rockies",
+     "age": 31,
+     "W": 17,
+     "L": 11,
+     "ERA": 5.28,
+     "IP": "213.0",
+     "SO": 105,
+     "BB": 105,
+     "SV": 0,
+     "GS": 35,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 1.6
+    }
+   ],
+   "among": 272,
+   "text": "Most wins by a pitcher with an ERA over 5.00: Kevin Ritz, 1996 — 17-11 with a 5.28 ERA."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "fewest_wins_low_era",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 113229,
+     "name": "Jose DeLeon"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 113229,
+     "name": "Jose DeLeon",
+     "team": "St. Louis Cardinals",
+     "age": 30,
+     "W": 5,
+     "L": 9,
+     "ERA": 2.71,
+     "IP": "162.2",
+     "SO": 118,
+     "BB": 61,
+     "SV": 0,
+     "GS": 28,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 15,
+     "WHIP": 1.26
+    }
+   ],
+   "among": 100,
+   "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Jose DeLeon, 1991 — 5-9 despite a 2.71 ERA."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_k_losing",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 112388,
+     "name": "Roger Clemens"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1996,
+     "id": 112388,
+     "name": "Roger Clemens",
+     "team": "Boston Red Sox",
+     "age": 33,
+     "W": 10,
+     "L": 13,
+     "ERA": 3.63,
+     "IP": "242.2",
+     "SO": 257,
+     "BB": 106,
+     "SV": 0,
+     "GS": 34,
+     "CG": 6,
+     "SHO": 2,
+     "HRA": 19,
+     "WHIP": 1.33
+    }
+   ],
+   "among": 2142,
+   "text": "Most strikeouts by a pitcher with a losing record: Roger Clemens, 1996 — 257 K, 10-13."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 123057,
+     "name": "Greg Swindell"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 123057,
+     "name": "Greg Swindell",
+     "team": "Cleveland Indians",
+     "age": 26,
+     "W": 9,
+     "L": 16,
+     "ERA": 3.48,
+     "IP": "238.0",
+     "SO": 169,
+     "BB": 31,
+     "SV": 0,
+     "GS": 33,
+     "CG": 7,
+     "SHO": 0,
+     "HRA": 21,
+     "WHIP": 1.14
+    }
+   ],
+   "among": 273,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Greg Swindell, 1991 — 9-16 with a 3.48 ERA."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "fewest_k_20w",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 115242,
+     "name": "Bill Gullickson"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 115242,
+     "name": "Bill Gullickson",
+     "team": "Detroit Tigers",
+     "age": 32,
+     "W": 20,
+     "L": 9,
+     "ERA": 3.9,
+     "IP": "226.1",
+     "SO": 91,
+     "BB": 44,
+     "SV": 0,
+     "GS": 35,
+     "CG": 4,
+     "SHO": 0,
+     "HRA": 22,
+     "WHIP": 1.33
+    }
+   ],
+   "among": 34,
+   "text": "Fewest strikeouts by a 20-game winner of the 1990s: Bill Gullickson, 1991 — 91 K, 20-9."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "most_ip_no_cg",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 123595,
+     "name": "Ismael Valdez"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1996,
+     "id": 123595,
+     "name": "Ismael Valdez",
+     "team": "Los Angeles Dodgers",
+     "age": 22,
+     "W": 15,
+     "L": 7,
+     "ERA": 3.32,
+     "IP": "225.0",
+     "SO": 173,
+     "BB": 54,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 20,
+     "WHIP": 1.21
+    }
+   ],
+   "among": 3994,
+   "text": "Most innings in a season without a complete game: Ismael Valdez, 1996 — 225.0 IP, 0 CG."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "most_hra",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 115727,
+     "name": "Rick Helling"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 115727,
+     "name": "Rick Helling",
+     "team": "Texas Rangers",
+     "age": 28,
+     "W": 13,
+     "L": 11,
+     "ERA": 4.84,
+     "IP": "219.1",
+     "SO": 131,
+     "BB": 85,
+     "SV": 0,
+     "GS": 35,
+     "CG": 3,
+     "SHO": 0,
+     "HRA": 41,
+     "WHIP": 1.43
+    }
+   ],
+   "among": 5142,
+   "text": "Most home runs allowed in a season this decade: Rick Helling, 1999 — 41 HR allowed, 13-11."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "most_bb_winner",
+   "group": "P",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 133460,
+     "name": "Russ Ortiz"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 133460,
+     "name": "Russ Ortiz",
+     "team": "San Francisco Giants",
+     "age": 25,
+     "W": 18,
+     "L": 9,
+     "ERA": 3.81,
+     "IP": "207.2",
+     "SO": 164,
+     "BB": 125,
+     "SV": 0,
+     "GS": 33,
+     "CG": 3,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 1.51
+    }
+   ],
+   "among": 235,
+   "text": "Most walks by a 15-game winner: Russ Ortiz, 1999 — 125 BB, 18-9."
+  },
+  {
+   "n": 44,
+   "kind": "nearmiss",
+   "rule": "RBI99",
+   "group": "H",
+   "decade": 1990,
+   "score": 6,
+   "players": [
+    {
+     "id": 124755,
+     "name": "Todd Zeile"
+    },
+    {
+     "id": 119247,
+     "name": "Raúl Mondesi"
+    },
+    {
+     "id": 112087,
+     "name": "Sean Casey"
+    }
+   ],
+   "seasons": [
+    1996,
+    1999,
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1996,
+     "id": 124755,
+     "name": "Todd Zeile",
+     "team": "Baltimore Orioles",
+     "age": 30,
+     "PA": 704,
+     "AVG": 0.263,
+     "OBP": 0.348,
+     "SLG": 0.436,
+     "OPS": 0.784,
+     "HR": 25,
+     "RBI": 99,
+     "R": 78,
+     "H": 162,
+     "2B": 32,
+     "3B": 0,
+     "SB": 1,
+     "CS": 1,
+     "BB": 82,
+     "SO": 104,
+     "HBP": 1,
+     "GIDP": 18
+    },
+    {
+     "season": 1999,
+     "id": 119247,
+     "name": "Raúl Mondesi",
+     "team": "Los Angeles Dodgers",
+     "age": 28,
+     "PA": 680,
+     "AVG": 0.253,
+     "OBP": 0.332,
+     "SLG": 0.483,
+     "OPS": 0.815,
+     "HR": 33,
+     "RBI": 99,
+     "R": 98,
+     "H": 152,
+     "2B": 29,
+     "3B": 5,
+     "SB": 36,
+     "CS": 9,
+     "BB": 71,
+     "SO": 134,
+     "HBP": 3,
+     "GIDP": 3
+    },
+    {
+     "season": 1999,
+     "id": 112087,
+     "name": "Sean Casey",
+     "team": "Cincinnati Reds",
+     "age": 24,
+     "PA": 669,
+     "AVG": 0.332,
+     "OBP": 0.399,
+     "SLG": 0.539,
+     "OPS": 0.938,
+     "HR": 25,
+     "RBI": 99,
+     "R": 103,
+     "H": 197,
+     "2B": 42,
+     "3B": 3,
+     "SB": 0,
+     "CS": 2,
+     "BB": 61,
+     "SO": 88,
+     "HBP": 9,
+     "GIDP": 15
+    },
+    {
+     "season": 1993,
+     "id": 124207,
+     "name": "Mark Whiten",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 626,
+     "AVG": 0.253,
+     "OBP": 0.323,
+     "SLG": 0.423,
+     "OPS": 0.746,
+     "HR": 25,
+     "RBI": 99,
+     "R": 81,
+     "H": 142,
+     "2B": 13,
+     "3B": 4,
+     "SB": 15,
+     "CS": 8,
+     "BB": 58,
+     "SO": 110,
+     "HBP": 2,
+     "GIDP": 11
+    },
+    {
+     "season": 1995,
+     "id": 111199,
+     "name": "Bobby Bonilla",
+     "team": "Baltimore Orioles",
+     "age": 32,
+     "PA": 614,
+     "AVG": 0.329,
+     "OBP": 0.388,
+     "SLG": 0.576,
+     "OPS": 0.964,
+     "HR": 28,
+     "RBI": 99,
+     "R": 96,
+     "H": 182,
+     "2B": 37,
+     "3B": 8,
+     "SB": 0,
+     "CS": 5,
+     "BB": 54,
+     "SO": 79,
+     "HBP": 2,
+     "GIDP": 22
+    },
+    {
+     "season": 1999,
+     "id": 112316,
+     "name": "Tony Clark",
+     "team": "Detroit Tigers",
+     "age": 27,
+     "PA": 609,
+     "AVG": 0.28,
+     "OBP": 0.361,
+     "SLG": 0.507,
+     "OPS": 0.868,
+     "HR": 31,
+     "RBI": 99,
+     "R": 74,
+     "H": 150,
+     "2B": 29,
+     "3B": 0,
+     "SB": 2,
+     "CS": 1,
+     "BB": 64,
+     "SO": 133,
+     "HBP": 6,
+     "GIDP": 14
+    }
+   ],
+   "text": "10 hitter-seasons of the 1990s ended on exactly 99 RBI, one short of 100 — among them Todd Zeile (1996), Raúl Mondesi (1999), Sean Casey (1999)."
+  },
+  {
+   "n": 45,
+   "kind": "team",
+   "rule": "100w",
+   "group": "T",
+   "decade": 1990,
+   "score": 6,
+   "players": [],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 114,
+     "losses": 48,
+     "runsScored": 965,
+     "runsAllowed": 656,
+     "runDifferential": 309,
+     "leagueRank": 1,
+     "season": 1998
+    },
+    {
+     "id": 144,
+     "name": "Braves",
+     "wins": 106,
+     "losses": 56,
+     "runsScored": 826,
+     "runsAllowed": 581,
+     "runDifferential": 245,
+     "leagueRank": 1,
+     "season": 1998
+    },
+    {
+     "id": 144,
+     "name": "Braves",
+     "wins": 104,
+     "losses": 58,
+     "runsScored": 767,
+     "runsAllowed": 559,
+     "runDifferential": 208,
+     "leagueRank": 1,
+     "season": 1993
+    },
+    {
+     "id": 133,
+     "name": "Athletics",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 733,
+     "runsAllowed": 570,
+     "runDifferential": 163,
+     "leagueRank": 1,
+     "season": 1990
+    },
+    {
+     "id": 137,
+     "name": "Giants",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 808,
+     "runsAllowed": 636,
+     "runDifferential": 172,
+     "leagueRank": 2,
+     "season": 1993
+    },
+    {
+     "id": 144,
+     "name": "Braves",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 840,
+     "runsAllowed": 661,
+     "runDifferential": 179,
+     "leagueRank": 1,
+     "season": 1999
+    }
+   ],
+   "text": "10 teams of the 1990s won 100 games; the best record was the 1998 Yankees at 114-48."
+  },
+  {
+   "n": 46,
+   "kind": "age",
+   "rule": "age_30hr_old",
+   "group": "H",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 113099,
+     "name": "Chili Davis"
+    }
+   ],
+   "seasons": [
+    1997
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1997,
+     "id": 113099,
+     "name": "Chili Davis",
+     "team": "Kansas City Royals",
+     "age": 37,
+     "PA": 567,
+     "AVG": 0.279,
+     "OBP": 0.386,
+     "SLG": 0.509,
+     "OPS": 0.895,
+     "HR": 30,
+     "RBI": 90,
+     "R": 71,
+     "H": 133,
+     "2B": 20,
+     "3B": 0,
+     "SB": 6,
+     "CS": 3,
+     "BB": 85,
+     "SO": 96,
+     "HBP": 1,
+     "GIDP": 15
+    }
+   ],
+   "text": "Oldest player of the 1990s to hit 30 home runs: Chili Davis, age 37 in 1997 — 30 HR."
+  },
+  {
+   "n": 47,
+   "kind": "age",
+   "rule": "age_330_old",
+   "group": "H",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 119236,
+     "name": "Paul Molitor"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1996,
+     "id": 119236,
+     "name": "Paul Molitor",
+     "team": "Minnesota Twins",
+     "age": 39,
+     "PA": 729,
+     "AVG": 0.341,
+     "OBP": 0.39,
+     "SLG": 0.468,
+     "OPS": 0.858,
+     "HR": 9,
+     "RBI": 113,
+     "R": 99,
+     "H": 225,
+     "2B": 41,
+     "3B": 8,
+     "SB": 18,
+     "CS": 6,
+     "BB": 56,
+     "SO": 72,
+     "HBP": 3,
+     "GIDP": 21
+    }
+   ],
+   "text": "Oldest player of the 1990s to bat .330 (500+ PA): Paul Molitor, age 39 in 1996 — .341."
+  },
+  {
+   "n": 48,
+   "kind": "age",
+   "rule": "age_100rbi_old",
+   "group": "H",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 124448,
+     "name": "Dave Winfield"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 124448,
+     "name": "Dave Winfield",
+     "team": "Toronto Blue Jays",
+     "age": 40,
+     "PA": 670,
+     "AVG": 0.29,
+     "OBP": 0.377,
+     "SLG": 0.491,
+     "OPS": 0.868,
+     "HR": 26,
+     "RBI": 108,
+     "R": 92,
+     "H": 169,
+     "2B": 33,
+     "3B": 3,
+     "SB": 2,
+     "CS": 3,
+     "BB": 82,
+     "SO": 89,
+     "HBP": 1,
+     "GIDP": 10
+    }
+   ],
+   "text": "Oldest player of the 1990s to drive in 100 runs: Dave Winfield, age 40 in 1992 — 108 RBI."
+  },
+  {
+   "n": 49,
+   "kind": "age",
+   "rule": "age_sb_young",
+   "group": "H",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 113291,
+     "name": "Delino DeShields"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 113291,
+     "name": "Delino DeShields",
+     "team": "Montreal Expos",
+     "age": 21,
+     "PA": 572,
+     "AVG": 0.289,
+     "OBP": 0.375,
+     "SLG": 0.393,
+     "OPS": 0.768,
+     "HR": 4,
+     "RBI": 45,
+     "R": 69,
+     "H": 144,
+     "2B": 28,
+     "3B": 6,
+     "SB": 42,
+     "CS": 22,
+     "BB": 66,
+     "SO": 96,
+     "HBP": 4,
+     "GIDP": 10
+    }
+   ],
+   "text": "Youngest player of the 1990s to steal 40 bases: Delino DeShields, age 21 in 1990 — 42 SB."
+  },
+  {
+   "n": 50,
+   "kind": "age",
+   "rule": "age_sb_old",
+   "group": "H",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 115749,
+     "name": "Rickey Henderson"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 39,
+     "PA": 670,
+     "AVG": 0.236,
+     "OBP": 0.376,
+     "SLG": 0.347,
+     "OPS": 0.723,
+     "HR": 14,
+     "RBI": 57,
+     "R": 101,
+     "H": 128,
+     "2B": 16,
+     "3B": 1,
+     "SB": 66,
+     "CS": 13,
+     "BB": 118,
+     "SO": 114,
+     "HBP": 5,
+     "GIDP": 5
+    }
+   ],
+   "text": "Oldest player of the 1990s to steal 40 bases: Rickey Henderson, age 39 in 1998 — 66 SB."
+  },
+  {
+   "n": 51,
+   "kind": "age",
+   "rule": "age_20w_young",
+   "group": "P",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 118378,
+     "name": "Ramon Martinez"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 118378,
+     "name": "Ramon Martinez",
+     "team": "Los Angeles Dodgers",
+     "age": 22,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.92,
+     "IP": "234.1",
+     "SO": 223,
+     "BB": 67,
+     "SV": 0,
+     "GS": 33,
+     "CG": 12,
+     "SHO": 3,
+     "HRA": 22,
+     "WHIP": 1.1
+    }
+   ],
+   "text": "Youngest player of the 1990s to win 20 games: Ramon Martinez, age 22 in 1990 — 20-6."
+  },
+  {
+   "n": 52,
+   "kind": "age",
+   "rule": "age_20w_old",
+   "group": "P",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 119399,
+     "name": "Jack Morris"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 119399,
+     "name": "Jack Morris",
+     "team": "Toronto Blue Jays",
+     "age": 37,
+     "W": 21,
+     "L": 6,
+     "ERA": 4.04,
+     "IP": "240.2",
+     "SO": 132,
+     "BB": 80,
+     "SV": 0,
+     "GS": 34,
+     "CG": 6,
+     "SHO": 1,
+     "HRA": 18,
+     "WHIP": 1.25
+    }
+   ],
+   "text": "Oldest player of the 1990s to win 20 games: Jack Morris, age 37 in 1992 — 21-6."
+  },
+  {
+   "n": 53,
+   "kind": "age",
+   "rule": "age_k_young",
+   "group": "P",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 134268,
+     "name": "Kerry Wood"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 134268,
+     "name": "Kerry Wood",
+     "team": "Chicago Cubs",
+     "age": 21,
+     "W": 13,
+     "L": 6,
+     "ERA": 3.4,
+     "IP": "166.2",
+     "SO": 233,
+     "BB": 85,
+     "SV": 0,
+     "GS": 26,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 14,
+     "WHIP": 1.21
+    }
+   ],
+   "text": "Youngest player of the 1990s to strike out 200: Kerry Wood, age 21 in 1998 — 233 K."
+  },
+  {
+   "n": 54,
+   "kind": "age",
+   "rule": "age_k_old",
+   "group": "P",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 121597,
+     "name": "Nolan Ryan Jr."
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "Texas Rangers",
+     "age": 44,
+     "W": 12,
+     "L": 6,
+     "ERA": 2.91,
+     "IP": "173.0",
+     "SO": 203,
+     "BB": 72,
+     "SV": 0,
+     "GS": 27,
+     "CG": 2,
+     "SHO": 2,
+     "HRA": 12,
+     "WHIP": 1.01
+    }
+   ],
+   "text": "Oldest player of the 1990s to strike out 200: Nolan Ryan Jr., age 44 in 1991 — 203 K."
+  },
+  {
+   "n": 55,
+   "kind": "age",
+   "rule": "age_era_young",
+   "group": "P",
+   "decade": 1990,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 119608,
+     "name": "Mike Mussina"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 119608,
+     "name": "Mike Mussina",
+     "team": "Baltimore Orioles",
+     "age": 23,
+     "W": 18,
+     "L": 5,
+     "ERA": 2.54,
+     "IP": "241.0",
+     "SO": 130,
+     "BB": 48,
+     "SV": 0,
+     "GS": 32,
+     "CG": 8,
+     "SHO": 4,
+     "HRA": 16,
+     "WHIP": 1.08
+    }
+   ],
+   "text": "Youngest player of the 1990s to post a qualified ERA under 2.75: Mike Mussina, age 23 in 1992 — 2.54 ERA."
+  },
+  {
+   "n": 56,
+   "kind": "nearmiss",
+   "rule": "SV39",
+   "group": "P",
+   "decade": 1990,
+   "score": 5.25,
+   "players": [
+    {
+     "id": 119266,
+     "name": "Jeff Montgomery"
+    },
+    {
+     "id": 124498,
+     "name": "Mark Wohlers"
+    },
+    {
+     "id": 123790,
+     "name": "Billy Wagner"
+    }
+   ],
+   "seasons": [
+    1992,
+    1996,
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 119266,
+     "name": "Jeff Montgomery",
+     "team": "Kansas City Royals",
+     "age": 30,
+     "W": 1,
+     "L": 6,
+     "ERA": 2.18,
+     "IP": "82.2",
+     "SO": 69,
+     "BB": 27,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.06
+    },
+    {
+     "season": 1996,
+     "id": 124498,
+     "name": "Mark Wohlers",
+     "team": "Atlanta Braves",
+     "age": 26,
+     "W": 2,
+     "L": 4,
+     "ERA": 3.03,
+     "IP": "77.1",
+     "SO": 100,
+     "BB": 21,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 8,
+     "WHIP": 1.19
+    },
+    {
+     "season": 1999,
+     "id": 123790,
+     "name": "Billy Wagner",
+     "team": "Houston Astros",
+     "age": 27,
+     "W": 4,
+     "L": 1,
+     "ERA": 1.57,
+     "IP": "74.2",
+     "SO": 124,
+     "BB": 23,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.78
+    },
+    {
+     "season": 1996,
+     "id": 118986,
+     "name": "Jose Mesa",
+     "team": "Cleveland Indians",
+     "age": 30,
+     "W": 2,
+     "L": 7,
+     "ERA": 3.73,
+     "IP": "72.1",
+     "SO": 64,
+     "BB": 28,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1999,
+     "id": 116436,
+     "name": "Mike Jackson",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "W": 3,
+     "L": 4,
+     "ERA": 4.06,
+     "IP": "68.2",
+     "SO": 55,
+     "BB": 26,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.25
+    }
+   ],
+   "text": "5 pitcher-seasons of the 1990s ended on exactly 39 saves, one short of 40 — among them Jeff Montgomery (1992), Mark Wohlers (1996), Billy Wagner (1999)."
+  },
+  {
+   "n": 57,
+   "kind": "nearmiss",
+   "rule": "AVG299",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 118743,
+     "name": "Mark McGwire"
+    },
+    {
+     "id": 115915,
+     "name": "Bobby Higginson"
+    },
+    {
+     "id": 113889,
+     "name": "Darin Erstad"
+    }
+   ],
+   "seasons": [
+    1998,
+    1997,
+    1997
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 118743,
+     "name": "Mark McGwire",
+     "team": "St. Louis Cardinals",
+     "age": 34,
+     "PA": 681,
+     "AVG": 0.299,
+     "OBP": 0.47,
+     "SLG": 0.752,
+     "OPS": 1.222,
+     "HR": 70,
+     "RBI": 147,
+     "R": 130,
+     "H": 152,
+     "2B": 21,
+     "3B": 0,
+     "SB": 1,
+     "CS": 0,
+     "BB": 162,
+     "SO": 155,
+     "HBP": 6,
+     "GIDP": 8
+    },
+    {
+     "season": 1997,
+     "id": 115915,
+     "name": "Bobby Higginson",
+     "team": "Detroit Tigers",
+     "age": 26,
+     "PA": 623,
+     "AVG": 0.299,
+     "OBP": 0.379,
+     "SLG": 0.52,
+     "OPS": 0.899,
+     "HR": 27,
+     "RBI": 101,
+     "R": 94,
+     "H": 163,
+     "2B": 30,
+     "3B": 5,
+     "SB": 12,
+     "CS": 7,
+     "BB": 70,
+     "SO": 85,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1997,
+     "id": 113889,
+     "name": "Darin Erstad",
+     "team": "Anaheim Angels",
+     "age": 23,
+     "PA": 605,
+     "AVG": 0.299,
+     "OBP": 0.36,
+     "SLG": 0.466,
+     "OPS": 0.826,
+     "HR": 16,
+     "RBI": 77,
+     "R": 99,
+     "H": 161,
+     "2B": 34,
+     "3B": 4,
+     "SB": 23,
+     "CS": 8,
+     "BB": 51,
+     "SO": 86,
+     "HBP": 4,
+     "GIDP": 5
+    },
+    {
+     "season": 1990,
+     "id": 116477,
+     "name": "Chris James",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "PA": 569,
+     "AVG": 0.299,
+     "OBP": 0.341,
+     "SLG": 0.443,
+     "OPS": 0.784,
+     "HR": 12,
+     "RBI": 70,
+     "R": 62,
+     "H": 158,
+     "2B": 32,
+     "3B": 4,
+     "SB": 4,
+     "CS": 3,
+     "BB": 31,
+     "SO": 71,
+     "HBP": 4,
+     "GIDP": 11
+    }
+   ],
+   "text": "4 hitter-seasons of the 1990s ended on a .299 average, one point short of .300 — among them Mark McGwire (1998), Bobby Higginson (1997), Darin Erstad (1997)."
+  },
+  {
+   "n": 58,
+   "kind": "nearmiss",
+   "rule": "H199",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 120381,
+     "name": "Terry Pendleton"
+    },
+    {
+     "id": 123653,
+     "name": "Andy Van Slyke"
+    },
+    {
+     "id": 118694,
+     "name": "Willie McGee"
+    }
+   ],
+   "seasons": [
+    1992,
+    1992,
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 120381,
+     "name": "Terry Pendleton",
+     "team": "Atlanta Braves",
+     "age": 31,
+     "PA": 689,
+     "AVG": 0.311,
+     "OBP": 0.345,
+     "SLG": 0.473,
+     "OPS": 0.818,
+     "HR": 21,
+     "RBI": 105,
+     "R": 98,
+     "H": 199,
+     "2B": 39,
+     "3B": 1,
+     "SB": 5,
+     "CS": 2,
+     "BB": 37,
+     "SO": 67,
+     "HBP": 0,
+     "GIDP": 16
+    },
+    {
+     "season": 1992,
+     "id": 123653,
+     "name": "Andy Van Slyke",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "PA": 686,
+     "AVG": 0.324,
+     "OBP": 0.381,
+     "SLG": 0.505,
+     "OPS": 0.886,
+     "HR": 14,
+     "RBI": 89,
+     "R": 103,
+     "H": 199,
+     "2B": 45,
+     "3B": 12,
+     "SB": 12,
+     "CS": 3,
+     "BB": 58,
+     "SO": 99,
+     "HBP": 4,
+     "GIDP": 9
+    },
+    {
+     "season": 1990,
+     "id": 118694,
+     "name": "Willie McGee",
+     "team": "Oakland Athletics",
+     "age": 31,
+     "PA": 665,
+     "AVG": 0.324,
+     "OBP": 0.373,
+     "SLG": 0.419,
+     "OPS": 0.792,
+     "HR": 3,
+     "RBI": 77,
+     "R": 99,
+     "H": 199,
+     "2B": 35,
+     "3B": 7,
+     "SB": 31,
+     "CS": 9,
+     "BB": 48,
+     "SO": 104,
+     "HBP": 1,
+     "GIDP": 13
+    },
+    {
+     "season": 1999,
+     "id": 121358,
+     "name": "Ivan Rodriguez",
+     "team": "Texas Rangers",
+     "age": 27,
+     "PA": 630,
+     "AVG": 0.332,
+     "OBP": 0.356,
+     "SLG": 0.558,
+     "OPS": 0.914,
+     "HR": 35,
+     "RBI": 113,
+     "R": 116,
+     "H": 199,
+     "2B": 29,
+     "3B": 1,
+     "SB": 25,
+     "CS": 12,
+     "BB": 24,
+     "SO": 64,
+     "HBP": 1,
+     "GIDP": 31
+    }
+   ],
+   "text": "4 hitter-seasons of the 1990s ended on exactly 199 hits, one short of 200 — among them Terry Pendleton (1992), Andy Van Slyke (1992), Willie McGee (1990)."
+  },
+  {
+   "n": 59,
+   "kind": "teammates",
+   "rule": "rbi_trio",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 120903,
+     "name": "Manny Ramirez"
+    },
+    {
+     "id": 110183,
+     "name": "Roberto Alomar"
+    },
+    {
+     "id": 122027,
+     "name": "Richie Sexson"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 120903,
+     "name": "Manny Ramirez",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "PA": 640,
+     "AVG": 0.333,
+     "OBP": 0.442,
+     "SLG": 0.663,
+     "OPS": 1.105,
+     "HR": 44,
+     "RBI": 165,
+     "R": 131,
+     "H": 174,
+     "2B": 34,
+     "3B": 3,
+     "SB": 2,
+     "CS": 4,
+     "BB": 96,
+     "SO": 131,
+     "HBP": 13,
+     "GIDP": 12
+    },
+    {
+     "season": 1999,
+     "id": 110183,
+     "name": "Roberto Alomar",
+     "team": "Cleveland Indians",
+     "age": 31,
+     "PA": 694,
+     "AVG": 0.323,
+     "OBP": 0.422,
+     "SLG": 0.533,
+     "OPS": 0.955,
+     "HR": 24,
+     "RBI": 120,
+     "R": 138,
+     "H": 182,
+     "2B": 40,
+     "3B": 3,
+     "SB": 37,
+     "CS": 6,
+     "BB": 99,
+     "SO": 96,
+     "HBP": 7,
+     "GIDP": 13
+    },
+    {
+     "season": 1999,
+     "id": 122027,
+     "name": "Richie Sexson",
+     "team": "Cleveland Indians",
+     "age": 24,
+     "PA": 525,
+     "AVG": 0.255,
+     "OBP": 0.305,
+     "SLG": 0.514,
+     "OPS": 0.819,
+     "HR": 31,
+     "RBI": 116,
+     "R": 72,
+     "H": 122,
+     "2B": 17,
+     "3B": 7,
+     "SB": 3,
+     "CS": 3,
+     "BB": 34,
+     "SO": 117,
+     "HBP": 4,
+     "GIDP": 19
+    }
+   ],
+   "text": "33 teams of the 1990s had three players at 100+ RBI; the biggest pairing was the 1999 Cleveland Indians — Manny Ramirez 165, Roberto Alomar 120, Richie Sexson 116."
+  },
+  {
+   "n": 60,
+   "kind": "teammates",
+   "rule": "hits_pair",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 120191,
+     "name": "Rafael Palmeiro"
+    },
+    {
+     "id": 122218,
+     "name": "Ruben Sierra"
+    },
+    {
+     "id": 212297,
+     "name": "Julio Franco"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 120191,
+     "name": "Rafael Palmeiro",
+     "team": "Texas Rangers",
+     "age": 26,
+     "PA": 714,
+     "AVG": 0.322,
+     "OBP": 0.389,
+     "SLG": 0.532,
+     "OPS": 0.921,
+     "HR": 26,
+     "RBI": 88,
+     "R": 115,
+     "H": 203,
+     "2B": 49,
+     "3B": 3,
+     "SB": 4,
+     "CS": 3,
+     "BB": 68,
+     "SO": 72,
+     "HBP": 6,
+     "GIDP": 17
+    },
+    {
+     "season": 1991,
+     "id": 122218,
+     "name": "Ruben Sierra",
+     "team": "Texas Rangers",
+     "age": 25,
+     "PA": 726,
+     "AVG": 0.307,
+     "OBP": 0.357,
+     "SLG": 0.502,
+     "OPS": 0.859,
+     "HR": 25,
+     "RBI": 116,
+     "R": 110,
+     "H": 203,
+     "2B": 44,
+     "3B": 5,
+     "SB": 16,
+     "CS": 4,
+     "BB": 56,
+     "SO": 91,
+     "HBP": 0,
+     "GIDP": 17
+    },
+    {
+     "season": 1991,
+     "id": 212297,
+     "name": "Julio Franco",
+     "team": "Texas Rangers",
+     "age": 32,
+     "PA": 659,
+     "AVG": 0.341,
+     "OBP": 0.408,
+     "SLG": 0.474,
+     "OPS": 0.882,
+     "HR": 15,
+     "RBI": 78,
+     "R": 108,
+     "H": 201,
+     "2B": 27,
+     "3B": 3,
+     "SB": 36,
+     "CS": 9,
+     "BB": 65,
+     "SO": 78,
+     "HBP": 3,
+     "GIDP": 13
+    }
+   ],
+   "text": "4 teams of the 1990s had two players at 200+ hits; the biggest pairing was the 1991 Texas Rangers — Rafael Palmeiro 203, Ruben Sierra 203, Julio Franco 201."
+  },
+  {
+   "n": 61,
+   "kind": "teammates",
+   "rule": "w20_pair",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 124064,
+     "name": "Bob Welch"
+    },
+    {
+     "id": 122775,
+     "name": "Dave Stewart"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 124064,
+     "name": "Bob Welch",
+     "team": "Oakland Athletics",
+     "age": 33,
+     "W": 27,
+     "L": 6,
+     "ERA": 2.95,
+     "IP": "238.0",
+     "SO": 127,
+     "BB": 77,
+     "SV": 0,
+     "GS": 35,
+     "CG": 2,
+     "SHO": 2,
+     "HRA": 26,
+     "WHIP": 1.22
+    },
+    {
+     "season": 1990,
+     "id": 122775,
+     "name": "Dave Stewart",
+     "team": "Oakland Athletics",
+     "age": 33,
+     "W": 22,
+     "L": 11,
+     "ERA": 2.56,
+     "IP": "267.0",
+     "SO": 166,
+     "BB": 83,
+     "SV": 0,
+     "GS": 36,
+     "CG": 11,
+     "SHO": 4,
+     "HRA": 16,
+     "WHIP": 1.16
+    }
+   ],
+   "text": "4 teams of the 1990s had two players at 20 wins; the biggest pairing was the 1990 Oakland Athletics — Bob Welch 27, Dave Stewart 22."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "dec_hr_nolead",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 115135,
+     "name": "Ken Griffey Jr."
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 115135,
+     "name": "Ken Griffey Jr.",
+     "n": 10,
+     "HR": 382,
+     "H": 1622,
+     "RBI": 1091,
+     "SB": 151,
+     "R": 1002,
+     "BB": 703,
+     "SO": 901,
+     "2B": 297,
+     "3B": 30,
+     "PA": 6182
+    }
+   ],
+   "text": "Most home runs in the 1990s by a hitter who never led the majors in a season: Ken Griffey Jr., 382."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "dec_hits",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 115007,
+     "name": "Mark Grace"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 115007,
+     "name": "Mark Grace",
+     "n": 10,
+     "HR": 117,
+     "H": 1754,
+     "RBI": 786,
+     "SB": 49,
+     "R": 843,
+     "BB": 711,
+     "SO": 448,
+     "2B": 364,
+     "3B": 35,
+     "PA": 6467
+    }
+   ],
+   "text": "Most hits of the 1990s: Mark Grace, 1754."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "dec_k_hit",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 122544,
+     "name": "Sammy Sosa"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 122544,
+     "name": "Sammy Sosa",
+     "n": 10,
+     "HR": 332,
+     "H": 1366,
+     "RBI": 928,
+     "SB": 217,
+     "R": 814,
+     "BB": 417,
+     "SO": 1322,
+     "2B": 198,
+     "3B": 35,
+     "PA": 5605
+    }
+   ],
+   "text": "Most strikeouts by a hitter in the 1990s: Sammy Sosa, 1322."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "dec_3b",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 116603,
+     "name": "Lance Johnson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116603,
+     "name": "Lance Johnson",
+     "n": 10,
+     "HR": 34,
+     "H": 1466,
+     "RBI": 455,
+     "SB": 297,
+     "R": 718,
+     "BB": 325,
+     "SO": 336,
+     "2B": 160,
+     "3B": 113,
+     "PA": 5376
+    }
+   ],
+   "text": "Most triples of the 1990s: Lance Johnson, 113."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "dec_rbi",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 110839,
+     "name": "Albert Belle"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 110839,
+     "name": "Albert Belle",
+     "n": 10,
+     "HR": 351,
+     "H": 1520,
+     "RBI": 1099,
+     "SB": 86,
+     "R": 881,
+     "BB": 619,
+     "SO": 838,
+     "2B": 344,
+     "3B": 16,
+     "PA": 5820
+    }
+   ],
+   "text": "Most RBI of the 1990s: Albert Belle, 1099."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "dec_w",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 118120,
+     "name": "Greg Maddux"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 118120,
+     "name": "Greg Maddux",
+     "n": 10,
+     "W": 176,
+     "L": 88,
+     "SO": 1764,
+     "SV": 0,
+     "SHO": 23,
+     "CG": 75,
+     "OUTS": 7184,
+     "BB": 443
+    }
+   ],
+   "text": "Most wins of the 1990s: Greg Maddux, 176."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "dec_l",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 110854,
+     "name": "Andy Benes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 110854,
+     "name": "Andy Benes",
+     "n": 10,
+     "W": 125,
+     "L": 116,
+     "SO": 1655,
+     "SV": 1,
+     "SHO": 9,
+     "CG": 19,
+     "OUTS": 6205,
+     "BB": 698
+    }
+   ],
+   "text": "Most losses of the 1990s: Andy Benes, 116 — and 125 wins."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "dec_cg",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 118120,
+     "name": "Greg Maddux"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 118120,
+     "name": "Greg Maddux",
+     "n": 10,
+     "W": 176,
+     "L": 88,
+     "SO": 1764,
+     "SV": 0,
+     "SHO": 23,
+     "CG": 75,
+     "OUTS": 7184,
+     "BB": 443
+    }
+   ],
+   "text": "Most complete games of the 1990s: Greg Maddux, 75."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "dec_sv",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [
+    {
+     "id": 124123,
+     "name": "John Wetteland"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 124123,
+     "name": "John Wetteland",
+     "n": 10,
+     "W": 37,
+     "L": 32,
+     "SO": 655,
+     "SV": 295,
+     "SHO": 0,
+     "CG": 0,
+     "OUTS": 1807,
+     "BB": 194
+    }
+   ],
+   "text": "Most saves of the 1990s: John Wetteland, 295."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "n_30hr_most",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 12
+    },
+    {
+     "season": 1991,
+     "count": 12
+    },
+    {
+     "season": 1992,
+     "count": 10
+    },
+    {
+     "season": 1993,
+     "count": 22
+    },
+    {
+     "season": 1994,
+     "count": 10
+    },
+    {
+     "season": 1995,
+     "count": 21
+    },
+    {
+     "season": 1996,
+     "count": 43
+    },
+    {
+     "season": 1997,
+     "count": 31
+    },
+    {
+     "season": 1998,
+     "count": 33
+    },
+    {
+     "season": 1999,
+     "count": 45
+    }
+   ],
+   "text": "1999 had 45 30-homer hitters, the most of any season in the 1990s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "n_30hr_least",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 12
+    },
+    {
+     "season": 1991,
+     "count": 12
+    },
+    {
+     "season": 1992,
+     "count": 10
+    },
+    {
+     "season": 1993,
+     "count": 22
+    },
+    {
+     "season": 1994,
+     "count": 10
+    },
+    {
+     "season": 1995,
+     "count": 21
+    },
+    {
+     "season": 1996,
+     "count": 43
+    },
+    {
+     "season": 1997,
+     "count": 31
+    },
+    {
+     "season": 1998,
+     "count": 33
+    },
+    {
+     "season": 1999,
+     "count": 45
+    }
+   ],
+   "text": "1992 had just 10 30-homer hitters, the fewest of any season in the 1990s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "n_300_most",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 22
+    },
+    {
+     "season": 1991,
+     "count": 25
+    },
+    {
+     "season": 1992,
+     "count": 23
+    },
+    {
+     "season": 1993,
+     "count": 37
+    },
+    {
+     "season": 1994,
+     "count": 6
+    },
+    {
+     "season": 1995,
+     "count": 38
+    },
+    {
+     "season": 1996,
+     "count": 48
+    },
+    {
+     "season": 1997,
+     "count": 35
+    },
+    {
+     "season": 1998,
+     "count": 49
+    },
+    {
+     "season": 1999,
+     "count": 55
+    }
+   ],
+   "text": "1999 had 55 .300 hitters (500+ PA), the most of any season in the 1990s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "n_300_least",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1994
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 22
+    },
+    {
+     "season": 1991,
+     "count": 25
+    },
+    {
+     "season": 1992,
+     "count": 23
+    },
+    {
+     "season": 1993,
+     "count": 37
+    },
+    {
+     "season": 1994,
+     "count": 6
+    },
+    {
+     "season": 1995,
+     "count": 38
+    },
+    {
+     "season": 1996,
+     "count": 48
+    },
+    {
+     "season": 1997,
+     "count": 35
+    },
+    {
+     "season": 1998,
+     "count": 49
+    },
+    {
+     "season": 1999,
+     "count": 55
+    }
+   ],
+   "text": "1994 had just 6 .300 hitters (500+ PA), the fewest of any season in the 1990s."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "n_100rbi_most",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 11
+    },
+    {
+     "season": 1991,
+     "count": 18
+    },
+    {
+     "season": 1992,
+     "count": 17
+    },
+    {
+     "season": 1993,
+     "count": 25
+    },
+    {
+     "season": 1994,
+     "count": 5
+    },
+    {
+     "season": 1995,
+     "count": 19
+    },
+    {
+     "season": 1996,
+     "count": 50
+    },
+    {
+     "season": 1997,
+     "count": 35
+    },
+    {
+     "season": 1998,
+     "count": 42
+    },
+    {
+     "season": 1999,
+     "count": 59
+    }
+   ],
+   "text": "1999 had 59 100-RBI hitters, the most of any season in the 1990s."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "n_100rbi_least",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1994
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 11
+    },
+    {
+     "season": 1991,
+     "count": 18
+    },
+    {
+     "season": 1992,
+     "count": 17
+    },
+    {
+     "season": 1993,
+     "count": 25
+    },
+    {
+     "season": 1994,
+     "count": 5
+    },
+    {
+     "season": 1995,
+     "count": 19
+    },
+    {
+     "season": 1996,
+     "count": 50
+    },
+    {
+     "season": 1997,
+     "count": 35
+    },
+    {
+     "season": 1998,
+     "count": 42
+    },
+    {
+     "season": 1999,
+     "count": 59
+    }
+   ],
+   "text": "1994 had just 5 100-RBI hitters, the fewest of any season in the 1990s."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "n_sb_most",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 12
+    },
+    {
+     "season": 1991,
+     "count": 10
+    },
+    {
+     "season": 1992,
+     "count": 18
+    },
+    {
+     "season": 1993,
+     "count": 12
+    },
+    {
+     "season": 1994,
+     "count": 3
+    },
+    {
+     "season": 1995,
+     "count": 8
+    },
+    {
+     "season": 1996,
+     "count": 8
+    },
+    {
+     "season": 1997,
+     "count": 11
+    },
+    {
+     "season": 1998,
+     "count": 10
+    },
+    {
+     "season": 1999,
+     "count": 6
+    }
+   ],
+   "text": "1992 had 18 40-steal players, the most of any season in the 1990s."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "n_sb_least",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1994
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 12
+    },
+    {
+     "season": 1991,
+     "count": 10
+    },
+    {
+     "season": 1992,
+     "count": 18
+    },
+    {
+     "season": 1993,
+     "count": 12
+    },
+    {
+     "season": 1994,
+     "count": 3
+    },
+    {
+     "season": 1995,
+     "count": 8
+    },
+    {
+     "season": 1996,
+     "count": 8
+    },
+    {
+     "season": 1997,
+     "count": 11
+    },
+    {
+     "season": 1998,
+     "count": 10
+    },
+    {
+     "season": 1999,
+     "count": 6
+    }
+   ],
+   "text": "1994 had just 3 40-steal players, the fewest of any season in the 1990s."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "n_200h_most",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 0
+    },
+    {
+     "season": 1991,
+     "count": 5
+    },
+    {
+     "season": 1992,
+     "count": 2
+    },
+    {
+     "season": 1993,
+     "count": 3
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 0
+    },
+    {
+     "season": 1996,
+     "count": 8
+    },
+    {
+     "season": 1997,
+     "count": 4
+    },
+    {
+     "season": 1998,
+     "count": 8
+    },
+    {
+     "season": 1999,
+     "count": 6
+    }
+   ],
+   "text": "1996 had 8 200-hit seasons, the most of any season in the 1990s."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "n_200h_least",
+   "group": "H",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 0
+    },
+    {
+     "season": 1991,
+     "count": 5
+    },
+    {
+     "season": 1992,
+     "count": 2
+    },
+    {
+     "season": 1993,
+     "count": 3
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 0
+    },
+    {
+     "season": 1996,
+     "count": 8
+    },
+    {
+     "season": 1997,
+     "count": 4
+    },
+    {
+     "season": 1998,
+     "count": 8
+    },
+    {
+     "season": 1999,
+     "count": 6
+    }
+   ],
+   "text": "1990 had no 200-hit seasons at all — one of the seasons of the 1990s without one."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "n_20w_most",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 6
+    },
+    {
+     "season": 1991,
+     "count": 4
+    },
+    {
+     "season": 1992,
+     "count": 5
+    },
+    {
+     "season": 1993,
+     "count": 5
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 0
+    },
+    {
+     "season": 1996,
+     "count": 3
+    },
+    {
+     "season": 1997,
+     "count": 4
+    },
+    {
+     "season": 1998,
+     "count": 4
+    },
+    {
+     "season": 1999,
+     "count": 3
+    }
+   ],
+   "text": "1990 had 6 20-game winners, the most of any season in the 1990s."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "n_20w_least",
+   "group": "P",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1994
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 6
+    },
+    {
+     "season": 1991,
+     "count": 4
+    },
+    {
+     "season": 1992,
+     "count": 5
+    },
+    {
+     "season": 1993,
+     "count": 5
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 0
+    },
+    {
+     "season": 1996,
+     "count": 3
+    },
+    {
+     "season": 1997,
+     "count": 4
+    },
+    {
+     "season": 1998,
+     "count": 4
+    },
+    {
+     "season": 1999,
+     "count": 3
+    }
+   ],
+   "text": "1994 had no 20-game winners at all — one of the seasons of the 1990s without one."
+  },
+  {
+   "n": 83,
+   "kind": "team",
+   "rule": "100l",
+   "group": "T",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 53,
+     "losses": 109,
+     "runsScored": 783,
+     "runsAllowed": 1103,
+     "runDifferential": -320,
+     "leagueRank": 14,
+     "season": 1996
+    },
+    {
+     "id": 146,
+     "name": "Marlins",
+     "wins": 54,
+     "losses": 108,
+     "runsScored": 667,
+     "runsAllowed": 923,
+     "runDifferential": -256,
+     "leagueRank": 16,
+     "season": 1998
+    },
+    {
+     "id": 114,
+     "name": "Indians",
+     "wins": 57,
+     "losses": 105,
+     "runsScored": 576,
+     "runsAllowed": 759,
+     "runDifferential": -183,
+     "leagueRank": 14,
+     "season": 1991
+    },
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 59,
+     "losses": 103,
+     "runsScored": 672,
+     "runsAllowed": 744,
+     "runDifferential": -72,
+     "leagueRank": 14,
+     "season": 1993
+    },
+    {
+     "id": 135,
+     "name": "Padres",
+     "wins": 61,
+     "losses": 101,
+     "runsScored": 679,
+     "runsAllowed": 772,
+     "runDifferential": -93,
+     "leagueRank": 13,
+     "season": 1993
+    }
+   ],
+   "text": "5 teams of the 1990s lost 100 games; the worst was the 1996 Tigers at 53-109."
+  },
+  {
+   "n": 84,
+   "kind": "team",
+   "rule": "best_diff",
+   "group": "T",
+   "decade": 1990,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 114,
+     "losses": 48,
+     "runsScored": 965,
+     "runsAllowed": 656,
+     "runDifferential": 309,
+     "leagueRank": 1,
+     "season": 1998
+    }
+   ],
+   "text": "Best run differential of the 1990s: the 1998 Yankees, +309 (965 scored, 656 allowed)."
+  },
+  {
+   "n": 85,
+   "rule": "seventy_sb",
+   "group": "H",
+   "decade": 1990,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "SB",
+      "gte",
+      70
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1992,
+     "id": 115174,
+     "name": "Marquis Grissom",
+     "team": "Montreal Expos",
+     "age": 25,
+     "PA": 707,
+     "AVG": 0.276,
+     "OBP": 0.322,
+     "SLG": 0.418,
+     "OPS": 0.74,
+     "HR": 14,
+     "RBI": 66,
+     "R": 99,
+     "H": 180,
+     "2B": 39,
+     "3B": 6,
+     "SB": 78,
+     "CS": 13,
+     "BB": 42,
+     "SO": 81,
+     "HBP": 5,
+     "GIDP": 12
+    },
+    {
+     "season": 1990,
+     "id": 112487,
+     "name": "Vince Coleman",
+     "team": "St. Louis Cardinals",
+     "age": 28,
+     "PA": 539,
+     "AVG": 0.292,
+     "OBP": 0.34,
+     "SLG": 0.4,
+     "OPS": 0.74,
+     "HR": 6,
+     "RBI": 39,
+     "R": 73,
+     "H": 145,
+     "2B": 18,
+     "3B": 9,
+     "SB": 77,
+     "CS": 17,
+     "BB": 35,
+     "SO": 88,
+     "HBP": 2,
+     "GIDP": 6
+    },
+    {
+     "season": 1991,
+     "id": 115174,
+     "name": "Marquis Grissom",
+     "team": "Montreal Expos",
+     "age": 24,
+     "PA": 597,
+     "AVG": 0.267,
+     "OBP": 0.31,
+     "SLG": 0.373,
+     "OPS": 0.683,
+     "HR": 6,
+     "RBI": 39,
+     "R": 73,
+     "H": 149,
+     "2B": 23,
+     "3B": 9,
+     "SB": 76,
+     "CS": 17,
+     "BB": 34,
+     "SO": 89,
+     "HBP": 1,
+     "GIDP": 8
+    },
+    {
+     "season": 1996,
+     "id": 117863,
+     "name": "Kenny Lofton",
+     "team": "Cleveland Indians",
+     "age": 29,
+     "PA": 736,
+     "AVG": 0.317,
+     "OBP": 0.372,
+     "SLG": 0.446,
+     "OPS": 0.818,
+     "HR": 14,
+     "RBI": 67,
+     "R": 132,
+     "H": 210,
+     "2B": 35,
+     "3B": 4,
+     "SB": 75,
+     "CS": 17,
+     "BB": 61,
+     "SO": 82,
+     "HBP": 0,
+     "GIDP": 7
+    },
+    {
+     "season": 1997,
+     "id": 116326,
+     "name": "Brian L. Hunter",
+     "team": "Detroit Tigers",
+     "age": 26,
+     "PA": 738,
+     "AVG": 0.269,
+     "OBP": 0.334,
+     "SLG": 0.353,
+     "OPS": 0.687,
+     "HR": 4,
+     "RBI": 45,
+     "R": 112,
+     "H": 177,
+     "2B": 29,
+     "3B": 7,
+     "SB": 74,
+     "CS": 18,
+     "BB": 66,
+     "SO": 121,
+     "HBP": 1,
+     "GIDP": 13
+    },
+    {
+     "season": 1991,
+     "id": 119812,
+     "name": "Otis Nixon",
+     "team": "Atlanta Braves",
+     "age": 32,
+     "PA": 460,
+     "AVG": 0.297,
+     "OBP": 0.371,
+     "SLG": 0.327,
+     "OPS": 0.698,
+     "HR": 0,
+     "RBI": 26,
+     "R": 81,
+     "H": 119,
+     "2B": 10,
+     "3B": 1,
+     "SB": 72,
+     "CS": 21,
+     "BB": 47,
+     "SO": 40,
+     "HBP": 2,
+     "GIDP": 5
+    }
+   ],
+   "kind": "list",
+   "score": 4.95,
+   "players": [
+    {
+     "id": 115174,
+     "name": "Marquis Grissom"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "text": "8 times in the 1990s a hitter stole 70 bases. The most extreme: Marquis Grissom, 1992 — 78 SB."
+  },
+  {
+   "n": 86,
+   "rule": "forty_saves",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      45
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 123230,
+     "name": "Bobby Thigpen",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "W": 4,
+     "L": 6,
+     "ERA": 1.83,
+     "IP": "88.2",
+     "SO": 70,
+     "BB": 32,
+     "SV": 57,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.04
+    },
+    {
+     "season": 1993,
+     "id": 119626,
+     "name": "Randy Myers",
+     "team": "Chicago Cubs",
+     "age": 30,
+     "W": 2,
+     "L": 4,
+     "ERA": 3.11,
+     "IP": "75.1",
+     "SO": 86,
+     "BB": 26,
+     "SV": 53,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.21
+    },
+    {
+     "season": 1998,
+     "id": 116034,
+     "name": "Trevor Hoffman",
+     "team": "San Diego Padres",
+     "age": 30,
+     "W": 4,
+     "L": 2,
+     "ERA": 1.48,
+     "IP": "73.0",
+     "SO": 86,
+     "BB": 21,
+     "SV": 53,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 0.85
+    },
+    {
+     "season": 1992,
+     "id": 113726,
+     "name": "Dennis Eckersley",
+     "team": "Oakland Athletics",
+     "age": 37,
+     "W": 7,
+     "L": 1,
+     "ERA": 1.91,
+     "IP": "80.0",
+     "SO": 93,
+     "BB": 11,
+     "SV": 51,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.91
+    },
+    {
+     "season": 1998,
+     "id": 110763,
+     "name": "Rod Beck",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "W": 3,
+     "L": 4,
+     "ERA": 3.02,
+     "IP": "80.1",
+     "SO": 81,
+     "BB": 20,
+     "SV": 51,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1990,
+     "id": 113726,
+     "name": "Dennis Eckersley",
+     "team": "Oakland Athletics",
+     "age": 35,
+     "W": 4,
+     "L": 2,
+     "ERA": 0.61,
+     "IP": "73.1",
+     "SO": 73,
+     "BB": 4,
+     "SV": 48,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 0.61
+    }
+   ],
+   "kind": "list",
+   "score": 4.425,
+   "players": [
+    {
+     "id": 123230,
+     "name": "Bobby Thigpen"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "18 times in the 1990s a pitcher saved 45 games. The most extreme: Bobby Thigpen, 1990 — 57 SV."
+  },
+  {
+   "n": 87,
+   "rule": "saves_bad_era",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      30
+     ],
+     [
+      "ERA",
+      "gte",
+      4.5
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1998,
+     "id": 119266,
+     "name": "Jeff Montgomery",
+     "team": "Kansas City Royals",
+     "age": 36,
+     "W": 2,
+     "L": 5,
+     "ERA": 4.98,
+     "IP": "56.0",
+     "SO": 54,
+     "BB": 22,
+     "SV": 36,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 8,
+     "WHIP": 1.43
+    },
+    {
+     "season": 1997,
+     "id": 124581,
+     "name": "Todd Worrell",
+     "team": "Los Angeles Dodgers",
+     "age": 37,
+     "W": 2,
+     "L": 6,
+     "ERA": 5.28,
+     "IP": "59.2",
+     "SO": 61,
+     "BB": 23,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 12,
+     "WHIP": 1.39
+    },
+    {
+     "season": 1999,
+     "id": 118986,
+     "name": "Jose Mesa",
+     "team": "Seattle Mariners",
+     "age": 33,
+     "W": 3,
+     "L": 6,
+     "ERA": 4.98,
+     "IP": "68.2",
+     "SO": 42,
+     "BB": 40,
+     "SV": 33,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.81
+    },
+    {
+     "season": 1996,
+     "id": 115769,
+     "name": "Mike Henneman",
+     "team": "Texas Rangers",
+     "age": 34,
+     "W": 0,
+     "L": 7,
+     "ERA": 5.79,
+     "IP": "42.0",
+     "SO": 34,
+     "BB": 17,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.38
+    },
+    {
+     "season": 1999,
+     "id": 123707,
+     "name": "Dave Veres",
+     "team": "Colorado Rockies",
+     "age": 32,
+     "W": 4,
+     "L": 8,
+     "ERA": 5.14,
+     "IP": "77.0",
+     "SO": 71,
+     "BB": 37,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 14,
+     "WHIP": 1.62
+    }
+   ],
+   "kind": "list",
+   "score": 4.0245,
+   "players": [
+    {
+     "id": 119266,
+     "name": "Jeff Montgomery"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "text": "5 times in the 1990s a pitcher saved 30 games with an ERA of 4.50 or worse. The most extreme: Jeff Montgomery, 1998 — 36 SV, 4.98 ERA."
+  },
+  {
+   "n": 88,
+   "kind": "team",
+   "rule": "worst_diff",
+   "group": "T",
+   "decade": 1990,
+   "score": 4,
+   "players": [],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 53,
+     "losses": 109,
+     "runsScored": 783,
+     "runsAllowed": 1103,
+     "runDifferential": -320,
+     "leagueRank": 14,
+     "season": 1996
+    }
+   ],
+   "text": "Worst run differential of the 1990s: the 1996 Tigers, -320 (783 scored, 1103 allowed)."
+  },
+  {
+   "n": 89,
+   "rule": "hbp_many",
+   "group": "H",
+   "decade": 1990,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1997,
+     "id": 110987,
+     "name": "Craig Biggio",
+     "team": "Houston Astros",
+     "age": 31,
+     "PA": 744,
+     "AVG": 0.309,
+     "OBP": 0.415,
+     "SLG": 0.501,
+     "OPS": 0.916,
+     "HR": 22,
+     "RBI": 81,
+     "R": 146,
+     "H": 191,
+     "2B": 37,
+     "3B": 8,
+     "SB": 47,
+     "CS": 10,
+     "BB": 84,
+     "SO": 107,
+     "HBP": 34,
+     "GIDP": 0
+    },
+    {
+     "season": 1997,
+     "id": 116974,
+     "name": "Jason Kendall",
+     "team": "Pittsburgh Pirates",
+     "age": 23,
+     "PA": 572,
+     "AVG": 0.294,
+     "OBP": 0.391,
+     "SLG": 0.434,
+     "OPS": 0.825,
+     "HR": 8,
+     "RBI": 49,
+     "R": 71,
+     "H": 143,
+     "2B": 36,
+     "3B": 4,
+     "SB": 18,
+     "CS": 6,
+     "BB": 49,
+     "SO": 53,
+     "HBP": 31,
+     "GIDP": 11
+    },
+    {
+     "season": 1998,
+     "id": 116974,
+     "name": "Jason Kendall",
+     "team": "Pittsburgh Pirates",
+     "age": 24,
+     "PA": 627,
+     "AVG": 0.327,
+     "OBP": 0.411,
+     "SLG": 0.473,
+     "OPS": 0.884,
+     "HR": 12,
+     "RBI": 75,
+     "R": 95,
+     "H": 175,
+     "2B": 36,
+     "3B": 3,
+     "SB": 26,
+     "CS": 5,
+     "BB": 51,
+     "SO": 51,
+     "HBP": 31,
+     "GIDP": 6
+    },
+    {
+     "season": 1996,
+     "id": 110987,
+     "name": "Craig Biggio",
+     "team": "Houston Astros",
+     "age": 30,
+     "PA": 723,
+     "AVG": 0.288,
+     "OBP": 0.386,
+     "SLG": 0.415,
+     "OPS": 0.801,
+     "HR": 15,
+     "RBI": 75,
+     "R": 113,
+     "H": 174,
+     "2B": 24,
+     "3B": 4,
+     "SB": 25,
+     "CS": 7,
+     "BB": 75,
+     "SO": 72,
+     "HBP": 27,
+     "GIDP": 10
+    },
+    {
+     "season": 1997,
+     "id": 121692,
+     "name": "F.P. Santangelo",
+     "team": "Montreal Expos",
+     "age": 29,
+     "PA": 440,
+     "AVG": 0.249,
+     "OBP": 0.379,
+     "SLG": 0.374,
+     "OPS": 0.753,
+     "HR": 5,
+     "RBI": 31,
+     "R": 56,
+     "H": 87,
+     "2B": 19,
+     "3B": 5,
+     "SB": 8,
+     "CS": 5,
+     "BB": 50,
+     "SO": 73,
+     "HBP": 25,
+     "GIDP": 1
+    },
+    {
+     "season": 1998,
+     "id": 123726,
+     "name": "Fernando Viña",
+     "team": "Milwaukee Brewers",
+     "age": 29,
+     "PA": 722,
+     "AVG": 0.311,
+     "OBP": 0.386,
+     "SLG": 0.427,
+     "OPS": 0.813,
+     "HR": 7,
+     "RBI": 45,
+     "R": 101,
+     "H": 198,
+     "2B": 39,
+     "3B": 7,
+     "SB": 22,
+     "CS": 16,
+     "BB": 54,
+     "SO": 46,
+     "HBP": 25,
+     "GIDP": 7
+    }
+   ],
+   "kind": "list",
+   "score": 3.85,
+   "players": [
+    {
+     "id": 110987,
+     "name": "Craig Biggio"
+    }
+   ],
+   "seasons": [
+    1997
+   ],
+   "text": "15 times in the 1990s a hitter got hit by 20+ pitches. The most extreme: Craig Biggio, 1997 — 34 HBP."
+  },
+  {
+   "n": 90,
+   "rule": "walks_over_hits",
+   "group": "H",
+   "decade": 1990,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "id": 112326,
+     "name": "Jack Clark",
+     "team": "San Diego Padres",
+     "age": 34,
+     "PA": 442,
+     "AVG": 0.266,
+     "OBP": 0.441,
+     "SLG": 0.533,
+     "OPS": 0.974,
+     "HR": 25,
+     "RBI": 62,
+     "R": 59,
+     "H": 89,
+     "2B": 12,
+     "3B": 1,
+     "SB": 4,
+     "CS": 3,
+     "BB": 104,
+     "SO": 91,
+     "HBP": 2,
+     "GIDP": 12
+    },
+    {
+     "season": 1994,
+     "id": 123211,
+     "name": "Mickey Tettleton",
+     "team": "Detroit Tigers",
+     "age": 33,
+     "PA": 444,
+     "AVG": 0.248,
+     "OBP": 0.419,
+     "SLG": 0.463,
+     "OPS": 0.882,
+     "HR": 17,
+     "RBI": 51,
+     "R": 57,
+     "H": 84,
+     "2B": 18,
+     "3B": 2,
+     "SB": 0,
+     "CS": 1,
+     "BB": 97,
+     "SO": 98,
+     "HBP": 5,
+     "GIDP": 4
+    },
+    {
+     "season": 1996,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "San Diego Padres",
+     "age": 37,
+     "PA": 602,
+     "AVG": 0.241,
+     "OBP": 0.41,
+     "SLG": 0.344,
+     "OPS": 0.754,
+     "HR": 9,
+     "RBI": 29,
+     "R": 110,
+     "H": 112,
+     "2B": 17,
+     "3B": 2,
+     "SB": 37,
+     "CS": 15,
+     "BB": 125,
+     "SO": 90,
+     "HBP": 10,
+     "GIDP": 5
+    },
+    {
+     "season": 1997,
+     "id": 122111,
+     "name": "Gary Sheffield",
+     "team": "Florida Marlins",
+     "age": 28,
+     "PA": 582,
+     "AVG": 0.25,
+     "OBP": 0.424,
+     "SLG": 0.446,
+     "OPS": 0.87,
+     "HR": 21,
+     "RBI": 71,
+     "R": 86,
+     "H": 111,
+     "2B": 22,
+     "3B": 1,
+     "SB": 11,
+     "CS": 7,
+     "BB": 121,
+     "SO": 79,
+     "HBP": 15,
+     "GIDP": 7
+    },
+    {
+     "season": 1998,
+     "id": 118743,
+     "name": "Mark McGwire",
+     "team": "St. Louis Cardinals",
+     "age": 34,
+     "PA": 681,
+     "AVG": 0.299,
+     "OBP": 0.47,
+     "SLG": 0.752,
+     "OPS": 1.222,
+     "HR": 70,
+     "RBI": 147,
+     "R": 130,
+     "H": 152,
+     "2B": 21,
+     "3B": 0,
+     "SB": 1,
+     "CS": 0,
+     "BB": 162,
+     "SO": 155,
+     "HBP": 6,
+     "GIDP": 8
+    },
+    {
+     "season": 1991,
+     "id": 113197,
+     "name": "Rob Deer",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "PA": 539,
+     "AVG": 0.179,
+     "OBP": 0.314,
+     "SLG": 0.386,
+     "OPS": 0.7,
+     "HR": 25,
+     "RBI": 64,
+     "R": 64,
+     "H": 80,
+     "2B": 14,
+     "3B": 2,
+     "SB": 1,
+     "CS": 3,
+     "BB": 89,
+     "SO": 175,
+     "HBP": 0,
+     "GIDP": 3
+    }
+   ],
+   "kind": "list",
+   "score": 3.375,
+   "players": [
+    {
+     "id": 112326,
+     "name": "Jack Clark"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "9 times in the 1990s a hitter drew more walks than hits (400+ PA). The most extreme: Jack Clark, 1990 — 104 BB, 89 H."
+  },
+  {
+   "n": 91,
+   "rule": "cg_many",
+   "group": "P",
+   "decade": 1990,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1991,
+     "id": 118656,
+     "name": "Jack McDowell",
+     "team": "Chicago White Sox",
+     "age": 25,
+     "W": 17,
+     "L": 10,
+     "ERA": 3.41,
+     "IP": "253.2",
+     "SO": 191,
+     "BB": 82,
+     "SV": 0,
+     "GS": 35,
+     "CG": 15,
+     "SHO": 3,
+     "HRA": 19,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1998,
+     "id": 121811,
+     "name": "Curt Schilling",
+     "team": "Philadelphia Phillies",
+     "age": 31,
+     "W": 15,
+     "L": 14,
+     "ERA": 3.25,
+     "IP": "268.2",
+     "SO": 300,
+     "BB": 61,
+     "SV": 0,
+     "GS": 35,
+     "CG": 15,
+     "SHO": 2,
+     "HRA": 23,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1991,
+     "id": 112388,
+     "name": "Roger Clemens",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "W": 18,
+     "L": 10,
+     "ERA": 2.62,
+     "IP": "271.1",
+     "SO": 241,
+     "BB": 65,
+     "SV": 0,
+     "GS": 35,
+     "CG": 13,
+     "SHO": 4,
+     "HRA": 15,
+     "WHIP": 1.05
+    },
+    {
+     "season": 1992,
+     "id": 118656,
+     "name": "Jack McDowell",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "W": 20,
+     "L": 10,
+     "ERA": 3.18,
+     "IP": "260.2",
+     "SO": 178,
+     "BB": 75,
+     "SV": 0,
+     "GS": 34,
+     "CG": 13,
+     "SHO": 1,
+     "HRA": 21,
+     "WHIP": 1.24
+    },
+    {
+     "season": 1993,
+     "id": 114133,
+     "name": "Chuck Finley",
+     "team": "California Angels",
+     "age": 30,
+     "W": 16,
+     "L": 14,
+     "ERA": 3.15,
+     "IP": "251.1",
+     "SO": 187,
+     "BB": 82,
+     "SV": 0,
+     "GS": 35,
+     "CG": 13,
+     "SHO": 2,
+     "HRA": 22,
+     "WHIP": 1.29
+    },
+    {
+     "season": 1997,
+     "id": 118377,
+     "name": "Pedro Martínez",
+     "team": "Montreal Expos",
+     "age": 25,
+     "W": 17,
+     "L": 8,
+     "ERA": 1.9,
+     "IP": "241.1",
+     "SO": 305,
+     "BB": 67,
+     "SV": 0,
+     "GS": 31,
+     "CG": 13,
+     "SHO": 4,
+     "HRA": 16,
+     "WHIP": 0.93
+    }
+   ],
+   "kind": "list",
+   "score": 3.375,
+   "players": [
+    {
+     "id": 118656,
+     "name": "Jack McDowell"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "text": "50 times in the 1990s a pitcher completed 8+ games. The most extreme: Jack McDowell, 1991 — 15 CG."
+  },
+  {
+   "n": 92,
+   "rule": "k_per_9",
+   "group": "P",
+   "decade": 1990,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "SO9",
+      "gte",
+      11
+     ]
+    ],
+    "seasonMin": 1990,
+    "seasonMax": 1999
+   },
+   "evidence": [
+    {
+     "season": 1999,
+     "id": 118377,
+     "name": "Pedro Martínez",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "W": 23,
+     "L": 4,
+     "ERA": 2.07,
+     "IP": "213.1",
+     "SO": 313,
+     "BB": 37,
+     "SV": 0,
+     "GS": 29,
+     "CG": 5,
+     "SHO": 1,
+     "HRA": 9,
+     "WHIP": 0.92
+    },
+    {
+     "season": 1998,
+     "id": 134268,
+     "name": "Kerry Wood",
+     "team": "Chicago Cubs",
+     "age": 21,
+     "W": 13,
+     "L": 6,
+     "ERA": 3.4,
+     "IP": "166.2",
+     "SO": 233,
+     "BB": 85,
+     "SV": 0,
+     "GS": 26,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 14,
+     "WHIP": 1.21
+    },
+    {
+     "season": 1995,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Seattle Mariners",
+     "age": 31,
+     "W": 18,
+     "L": 2,
+     "ERA": 2.48,
+     "IP": "214.1",
+     "SO": 294,
+     "BB": 65,
+     "SV": 0,
+     "GS": 30,
+     "CG": 6,
+     "SHO": 3,
+     "HRA": 12,
+     "WHIP": 1.05
+    },
+    {
+     "season": 1997,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Seattle Mariners",
+     "age": 33,
+     "W": 20,
+     "L": 4,
+     "ERA": 2.28,
+     "IP": "213.0",
+     "SO": 291,
+     "BB": 77,
+     "SV": 0,
+     "GS": 29,
+     "CG": 5,
+     "SHO": 2,
+     "HRA": 20,
+     "WHIP": 1.05
+    },
+    {
+     "season": 1998,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Houston Astros",
+     "age": 34,
+     "W": 19,
+     "L": 11,
+     "ERA": 3.28,
+     "IP": "244.1",
+     "SO": 329,
+     "BB": 86,
+     "SV": 0,
+     "GS": 34,
+     "CG": 10,
+     "SHO": 6,
+     "HRA": 23,
+     "WHIP": 1.18
+    },
+    {
+     "season": 1999,
+     "id": 116615,
+     "name": "Randy Johnson",
+     "team": "Arizona Diamondbacks",
+     "age": 35,
+     "W": 17,
+     "L": 9,
+     "ERA": 2.48,
+     "IP": "271.2",
+     "SO": 364,
+     "BB": 70,
+     "SV": 0,
+     "GS": 35,
+     "CG": 12,
+     "SHO": 2,
+     "HRA": 30,
+     "WHIP": 1.02
+    }
+   ],
+   "kind": "list",
+   "score": 3.3301171875,
+   "players": [
+    {
+     "id": 118377,
+     "name": "Pedro Martínez"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "text": "9 times in the 1990s a pitcher struck out 11+ per nine innings (162+ IP). The most extreme: Pedro Martínez, 1999 — 13.2 K/9, 313 K."
+  },
+  {
+   "n": 93,
+   "rule": "walk_machine",
+   "group": "H",
+   "decade": 1990,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1997,
+     "id": 122111,
+     "name": "Gary Sheffield",
+     "team": "Florida Marlins",
+     "age": 28,
+     "PA": 582,
+     "AVG": 0.25,
+     "OBP": 0.424,
+     "SLG": 0.446,
+     "OPS": 0.87,
+     "HR": 21,
+     "RBI": 71,
+     "R": 86,
+     "H": 111,
+     "2B": 22,
+     "3B": 1,
+     "SB": 11,
+     "CS": 7,
+     "BB": 121,
+     "SO": 79,
+     "HBP": 15,
+     "GIDP": 7
+    },
+    {
+     "season": 1998,
+     "id": 118743,
+     "name": "Mark McGwire",
+     "team": "St. Louis Cardinals",
+     "age": 34,
+     "PA": 681,
+     "AVG": 0.299,
+     "OBP": 0.47,
+     "SLG": 0.752,
+     "OPS": 1.222,
+     "HR": 70,
+     "RBI": 147,
+     "R": 130,
+     "H": 152,
+     "2B": 21,
+     "3B": 0,
+     "SB": 1,
+     "CS": 0,
+     "BB": 162,
+     "SO": 155,
+     "HBP": 6,
+     "GIDP": 8
+    },
+    {
+     "season": 1996,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "San Diego Padres",
+     "age": 37,
+     "PA": 602,
+     "AVG": 0.241,
+     "OBP": 0.41,
+     "SLG": 0.344,
+     "OPS": 0.754,
+     "HR": 9,
+     "RBI": 29,
+     "R": 110,
+     "H": 112,
+     "2B": 17,
+     "3B": 2,
+     "SB": 37,
+     "CS": 15,
+     "BB": 125,
+     "SO": 90,
+     "HBP": 10,
+     "GIDP": 5
+    },
+    {
+     "season": 1995,
+     "id": 123211,
+     "name": "Mickey Tettleton",
+     "team": "Texas Rangers",
+     "age": 34,
+     "PA": 547,
+     "AVG": 0.238,
+     "OBP": 0.396,
+     "SLG": 0.51,
+     "OPS": 0.906,
+     "HR": 32,
+     "RBI": 78,
+     "R": 76,
+     "H": 102,
+     "2B": 19,
+     "3B": 1,
+     "SB": 0,
+     "CS": 0,
+     "BB": 107,
+     "SO": 110,
+     "HBP": 7,
+     "GIDP": 8
+    },
+    {
+     "season": 1996,
+     "id": 118743,
+     "name": "Mark McGwire",
+     "team": "Oakland Athletics",
+     "age": 32,
+     "PA": 548,
+     "AVG": 0.312,
+     "OBP": 0.467,
+     "SLG": 0.73,
+     "OPS": 1.197,
+     "HR": 52,
+     "RBI": 113,
+     "R": 104,
+     "H": 132,
+     "2B": 21,
+     "3B": 0,
+     "SB": 0,
+     "CS": 0,
+     "BB": 116,
+     "SO": 112,
+     "HBP": 8,
+     "GIDP": 14
+    },
+    {
+     "season": 1997,
+     "id": 111188,
+     "name": "Barry Bonds",
+     "team": "San Francisco Giants",
+     "age": 32,
+     "PA": 690,
+     "AVG": 0.291,
+     "OBP": 0.446,
+     "SLG": 0.585,
+     "OPS": 1.031,
+     "HR": 40,
+     "RBI": 101,
+     "R": 123,
+     "H": 155,
+     "2B": 26,
+     "3B": 5,
+     "SB": 37,
+     "CS": 8,
+     "BB": 145,
+     "SO": 87,
+     "HBP": 8,
+     "GIDP": 13
+    }
+   ],
+   "kind": "list",
+   "score": 3.00435,
+   "players": [
+    {
+     "id": 122111,
+     "name": "Gary Sheffield"
+    }
+   ],
+   "seasons": [
+    1997
+   ],
+   "text": "40 times in the 1990s a hitter posted an on-base 130+ points above the batting average (500+ PA). The most extreme: Gary Sheffield, 1997 — .250 AVG, .424 OBP."
+  }
+ ],
+ "counts": {
+  "hitterSeasons": 9184,
+  "pitcherSeasons": 5142
+ },
+ "method": [
+  "Every fact is a predicate evaluated over every hitter-season and pitcher-season in the decade, pulled in full from the MLB Stats API (the official record). Nothing is recalled or estimated; the rows that satisfy each rule are stored with it.",
+  "'Only', 'two' and 'three/four' claims are exact counts across the complete pull. Where a rule uses a plate-appearance or innings floor instead of a league qualification bar, the floor is stated in the fact so the claim is reproducible.",
+  "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
+  "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
+ ],
+ "generatedAt": "2026-09-28T03:27:41.057Z",
+ "sources": [
+  {
+   "season": 1990,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1990&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1990&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1990&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:35.696Z"
+  },
+  {
+   "season": 1991,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1991&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1991&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1991&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:36.181Z"
+  },
+  {
+   "season": 1992,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1992&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1992&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1992&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:36.684Z"
+  },
+  {
+   "season": 1993,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1993&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1993&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1993&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:37.192Z"
+  },
+  {
+   "season": 1994,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1994&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1994&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1994&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:37.706Z"
+  },
+  {
+   "season": 1995,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1995&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1995&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1995&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:38.189Z"
+  },
+  {
+   "season": 1996,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1996&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1996&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1996&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:38.718Z"
+  },
+  {
+   "season": 1997,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1997&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1997&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1997&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:39.241Z"
+  },
+  {
+   "season": 1998,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1998&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1998&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1998&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:39.816Z"
+  },
+  {
+   "season": 1999,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1999&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1999&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1999&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:40.340Z"
+  }
+ ]
+}

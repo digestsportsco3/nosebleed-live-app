@@ -1,6 +1,6 @@
 {
  "decade": "1990s",
- "generatedAt": "2026-09-28T03:01:29.554Z",
+ "generatedAt": "2026-09-28T03:27:41.058Z",
  "method": [
   "Every hitter and every pitcher for every season was pulled from the MLB Stats API (statsapi.mlb.com), the official record; leaders were computed across the complete pull, never sampled or recalled.",
   "Rate categories (AVG, OBP, SLG, OPS, ERA, WHIP) use the modern qualification rule applied to each season's own team-game count: 3.1 PA per team game for hitters, one inning per team game for pitchers.",
@@ -11,7 +11,7 @@
  "seasons": [
   {
    "season": 1990,
-   "pulledAt": "2026-09-28T03:01:22.435Z",
+   "pulledAt": "2026-09-28T03:27:35.696Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1990&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1990&sportId=1&playerPool=All&limit=5000",
@@ -1439,7 +1439,7 @@
   },
   {
    "season": 1991,
-   "pulledAt": "2026-09-28T03:01:23.161Z",
+   "pulledAt": "2026-09-28T03:27:36.181Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1991&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1991&sportId=1&playerPool=All&limit=5000",
@@ -2858,7 +2858,7 @@
   },
   {
    "season": 1992,
-   "pulledAt": "2026-09-28T03:01:23.824Z",
+   "pulledAt": "2026-09-28T03:27:36.684Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1992&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1992&sportId=1&playerPool=All&limit=5000",
@@ -4268,7 +4268,7 @@
   },
   {
    "season": 1993,
-   "pulledAt": "2026-09-28T03:01:24.485Z",
+   "pulledAt": "2026-09-28T03:27:37.192Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1993&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1993&sportId=1&playerPool=All&limit=5000",
@@ -5678,7 +5678,7 @@
   },
   {
    "season": 1994,
-   "pulledAt": "2026-09-28T03:01:25.123Z",
+   "pulledAt": "2026-09-28T03:27:37.706Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1994&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1994&sportId=1&playerPool=All&limit=5000",
@@ -7052,7 +7052,7 @@
   },
   {
    "season": 1995,
-   "pulledAt": "2026-09-28T03:01:25.810Z",
+   "pulledAt": "2026-09-28T03:27:38.189Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1995&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1995&sportId=1&playerPool=All&limit=5000",
@@ -8453,7 +8453,7 @@
   },
   {
    "season": 1996,
-   "pulledAt": "2026-09-28T03:01:26.765Z",
+   "pulledAt": "2026-09-28T03:27:38.718Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1996&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1996&sportId=1&playerPool=All&limit=5000",
@@ -9863,7 +9863,7 @@
   },
   {
    "season": 1997,
-   "pulledAt": "2026-09-28T03:01:27.430Z",
+   "pulledAt": "2026-09-28T03:27:39.241Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1997&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1997&sportId=1&playerPool=All&limit=5000",
@@ -11255,7 +11255,7 @@
   },
   {
    "season": 1998,
-   "pulledAt": "2026-09-28T03:01:28.128Z",
+   "pulledAt": "2026-09-28T03:27:39.816Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1998&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1998&sportId=1&playerPool=All&limit=5000",
@@ -12656,7 +12656,7 @@
   },
   {
    "season": 1999,
-   "pulledAt": "2026-09-28T03:01:28.806Z",
+   "pulledAt": "2026-09-28T03:27:40.340Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1999&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1999&sportId=1&playerPool=All&limit=5000",

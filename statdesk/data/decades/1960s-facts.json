@@ -1,0 +1,7657 @@
+{
+ "decade": "1960s",
+ "era": "mid",
+ "thresholds": {
+  "hrBig": 30,
+  "hrHuge": 40,
+  "avgLow": 0.23,
+  "bbFew": 25,
+  "sbMany": 40,
+  "obpLow": 0.3,
+  "kFewHit": 25,
+  "kManyHit": 140,
+  "bbMany": 100,
+  "kMany": 200,
+  "kHuge": 250,
+  "wLow": 9,
+  "eraBad": 4.25,
+  "ipHuge": 900,
+  "kFewPit": 90,
+  "cgMany": 18,
+  "kPer9": 8.5,
+  "whip1": 1,
+  "sv": 30,
+  "hbp": 15,
+  "kClose": 100,
+  "hrTeam": 35,
+  "ageYoung": 22,
+  "ageOld": 37
+ },
+ "candidates": 131,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "hits_few_runs",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      180
+     ],
+     [
+      "R",
+      "lte",
+      65
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 110188,
+     "name": "Matty Alou",
+     "team": "Pittsburgh Pirates",
+     "age": 29,
+     "PA": 598,
+     "AVG": 0.332,
+     "OBP": 0.362,
+     "SLG": 0.396,
+     "OPS": 0.758,
+     "HR": 0,
+     "RBI": 52,
+     "R": 59,
+     "H": 185,
+     "2B": 28,
+     "3B": 4,
+     "SB": 18,
+     "CS": 10,
+     "BB": 27,
+     "SO": 26,
+     "HBP": 2,
+     "GIDP": 10
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 110188,
+     "name": "Matty Alou"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "The only hitter of the 1960s to collect 180 hits and score 65 runs or fewer: Matty Alou, 1968 — 185 H, 59 R."
+  },
+  {
+   "n": 2,
+   "rule": "one_fifty_rbi",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      150
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 113112,
+     "name": "Tommy Davis",
+     "team": "Los Angeles Dodgers",
+     "age": 23,
+     "PA": 711,
+     "AVG": 0.346,
+     "OBP": 0.374,
+     "SLG": 0.535,
+     "OPS": 0.909,
+     "HR": 27,
+     "RBI": 153,
+     "R": 120,
+     "H": 230,
+     "2B": 27,
+     "3B": 9,
+     "SB": 18,
+     "CS": 6,
+     "BB": 33,
+     "SO": 65,
+     "HBP": 2,
+     "GIDP": 17
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 113112,
+     "name": "Tommy Davis"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "text": "The only hitter of the 1960s to drive in 150 runs: Tommy Davis, 1962 — 153 RBI."
+  },
+  {
+   "n": 3,
+   "rule": "k_no_wins",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      200
+     ],
+     [
+      "W",
+      "lte",
+      9
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1966,
+     "id": 118659,
+     "name": "Sam McDowell",
+     "team": "Cleveland Indians",
+     "age": 23,
+     "W": 9,
+     "L": 8,
+     "ERA": 2.87,
+     "IP": "194.1",
+     "SO": 225,
+     "BB": 102,
+     "SV": 3,
+     "GS": 28,
+     "CG": 8,
+     "SHO": 5,
+     "HRA": 12,
+     "WHIP": 1.19
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 118659,
+     "name": "Sam McDowell"
+    }
+   ],
+   "seasons": [
+    1966
+   ],
+   "text": "The only pitcher of the 1960s to strike out 200 and win 9 games or fewer: Sam McDowell, 1966 — 225 K, 9-8."
+  },
+  {
+   "n": 4,
+   "rule": "k300_no20",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      300
+     ],
+     [
+      "W",
+      "lte",
+      19
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1965,
+     "id": 118659,
+     "name": "Sam McDowell",
+     "team": "Cleveland Indians",
+     "age": 22,
+     "W": 17,
+     "L": 11,
+     "ERA": 2.18,
+     "IP": "273.0",
+     "SO": 325,
+     "BB": 132,
+     "SV": 4,
+     "GS": 35,
+     "CG": 14,
+     "SHO": 3,
+     "HRA": 9,
+     "WHIP": 1.14
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 118659,
+     "name": "Sam McDowell"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "text": "The only pitcher of the 1960s to strike out 300 without winning 20: Sam McDowell, 1965 — 325 K, 17-11."
+  },
+  {
+   "n": 5,
+   "rule": "runs_no_rbi",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "R",
+      "gte",
+      120
+     ],
+     [
+      "RBI",
+      "lte",
+      50
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 124371,
+     "name": "Maury Wills",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "PA": 759,
+     "AVG": 0.299,
+     "OBP": 0.347,
+     "SLG": 0.373,
+     "OPS": 0.72,
+     "HR": 6,
+     "RBI": 48,
+     "R": 130,
+     "H": 208,
+     "2B": 13,
+     "3B": 10,
+     "SB": 104,
+     "CS": 13,
+     "BB": 51,
+     "SO": 57,
+     "HBP": 2,
+     "GIDP": 7
+    }
+   ],
+   "kind": "only",
+   "score": 12.05,
+   "players": [
+    {
+     "id": 124371,
+     "name": "Maury Wills"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "text": "The only hitter of the 1960s to score 120 runs with 50 RBI or fewer: Maury Wills, 1962 — 130 R, 48 RBI."
+  },
+  {
+   "n": 6,
+   "rule": "old_avg",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 119602,
+     "name": "Stan Musial",
+     "team": "St. Louis Cardinals",
+     "age": 41,
+     "PA": 505,
+     "AVG": 0.33,
+     "OBP": 0.416,
+     "SLG": 0.508,
+     "OPS": 0.924,
+     "HR": 19,
+     "RBI": 82,
+     "R": 57,
+     "H": 143,
+     "2B": 18,
+     "3B": 1,
+     "SB": 3,
+     "CS": 0,
+     "BB": 64,
+     "SO": 46,
+     "HBP": 3,
+     "GIDP": 13
+    }
+   ],
+   "kind": "only",
+   "score": 11.85,
+   "players": [
+    {
+     "id": 119602,
+     "name": "Stan Musial"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "text": "The only hitter of the 1960s to bat .320 at age 37 or older (500+ PA): Stan Musial, 1962 — .330 at 41."
+  },
+  {
+   "n": 7,
+   "rule": "old_power",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 110533,
+     "name": "Ernie Banks",
+     "team": "Chicago Cubs",
+     "age": 37,
+     "PA": 595,
+     "AVG": 0.246,
+     "OBP": 0.287,
+     "SLG": 0.469,
+     "OPS": 0.756,
+     "HR": 32,
+     "RBI": 83,
+     "R": 71,
+     "H": 136,
+     "2B": 27,
+     "3B": 0,
+     "SB": 2,
+     "CS": 0,
+     "BB": 27,
+     "SO": 67,
+     "HBP": 5,
+     "GIDP": 12
+    }
+   ],
+   "kind": "only",
+   "score": 11.725,
+   "players": [
+    {
+     "id": 110533,
+     "name": "Ernie Banks"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "The only hitter of the 1960s to hit 30+ homers at age 37 or older: Ernie Banks, 1968 — 32 HR at 37."
+  },
+  {
+   "n": 8,
+   "rule": "two_thirty_hits",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      230
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 110188,
+     "name": "Matty Alou",
+     "team": "Pittsburgh Pirates",
+     "age": 30,
+     "PA": 746,
+     "AVG": 0.331,
+     "OBP": 0.369,
+     "SLG": 0.411,
+     "OPS": 0.78,
+     "HR": 1,
+     "RBI": 48,
+     "R": 105,
+     "H": 231,
+     "2B": 41,
+     "3B": 6,
+     "SB": 22,
+     "CS": 8,
+     "BB": 42,
+     "SO": 35,
+     "HBP": 2,
+     "GIDP": 5
+    },
+    {
+     "season": 1962,
+     "id": 113112,
+     "name": "Tommy Davis",
+     "team": "Los Angeles Dodgers",
+     "age": 23,
+     "PA": 711,
+     "AVG": 0.346,
+     "OBP": 0.374,
+     "SLG": 0.535,
+     "OPS": 0.909,
+     "HR": 27,
+     "RBI": 153,
+     "R": 120,
+     "H": 230,
+     "2B": 27,
+     "3B": 9,
+     "SB": 18,
+     "CS": 6,
+     "BB": 33,
+     "SO": 65,
+     "HBP": 2,
+     "GIDP": 17
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 110188,
+     "name": "Matty Alou"
+    },
+    {
+     "id": 113112,
+     "name": "Tommy Davis"
+    }
+   ],
+   "seasons": [
+    1969,
+    1962
+   ],
+   "text": "Only two hitters of the 1960s collected 230 hits: Matty Alou (1969, 231 H); Tommy Davis (1962, 230 H)."
+  },
+  {
+   "n": 9,
+   "rule": "rbi_low_ops",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "OPS",
+      "lte",
+      0.699
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 120391,
+     "name": "Joe Pepitone",
+     "team": "New York Yankees",
+     "age": 23,
+     "PA": 647,
+     "AVG": 0.251,
+     "OBP": 0.281,
+     "SLG": 0.418,
+     "OPS": 0.699,
+     "HR": 28,
+     "RBI": 100,
+     "R": 71,
+     "H": 154,
+     "2B": 12,
+     "3B": 3,
+     "SB": 2,
+     "CS": 1,
+     "BB": 24,
+     "SO": 63,
+     "HBP": 3,
+     "GIDP": 17
+    }
+   ],
+   "kind": "only",
+   "score": 10.7525,
+   "players": [
+    {
+     "id": 120391,
+     "name": "Joe Pepitone"
+    }
+   ],
+   "seasons": [
+    1964
+   ],
+   "text": "The only hitter of the 1960s to drive in 100 runs with an OPS under .700: Joe Pepitone, 1964 — 100 RBI, .699 OPS."
+  },
+  {
+   "n": 10,
+   "rule": "young_avg",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.33
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1961,
+     "id": 120590,
+     "name": "Vada Pinson",
+     "team": "Cincinnati Reds",
+     "age": 22,
+     "PA": 659,
+     "AVG": 0.343,
+     "OBP": 0.379,
+     "SLG": 0.504,
+     "OPS": 0.883,
+     "HR": 16,
+     "RBI": 87,
+     "R": 101,
+     "H": 208,
+     "2B": 34,
+     "3B": 8,
+     "SB": 23,
+     "CS": 10,
+     "BB": 39,
+     "SO": 63,
+     "HBP": 1,
+     "GIDP": 9
+    }
+   ],
+   "kind": "only",
+   "score": 10.307500000000001,
+   "players": [
+    {
+     "id": 120590,
+     "name": "Vada Pinson"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "text": "The only hitter of the 1960s to bat .330 at age 22 or younger (500+ PA): Vada Pinson, 1961 — .343 at 22."
+  },
+  {
+   "n": 11,
+   "rule": "era_under_3_no_wins",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      2.99
+     ],
+     [
+      "W",
+      "lte",
+      7
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 111985,
+     "name": "Don Cardwell",
+     "team": "New York Mets",
+     "age": 32,
+     "W": 7,
+     "L": 13,
+     "ERA": 2.96,
+     "IP": "179.2",
+     "SO": 82,
+     "BB": 50,
+     "SV": 1,
+     "GS": 25,
+     "CG": 5,
+     "SHO": 1,
+     "HRA": 9,
+     "WHIP": 1.15
+    }
+   ],
+   "kind": "only",
+   "score": 10.249,
+   "players": [
+    {
+     "id": 111985,
+     "name": "Don Cardwell"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "The only pitcher of the 1960s to post an ERA under 3.00 and win 7 or fewer (162+ IP): Don Cardwell, 1968 — 2.96 ERA, 7-13."
+  },
+  {
+   "n": 12,
+   "rule": "power_no_avg",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "BA",
+      "lte",
+      0.229
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 115503,
+     "name": "Ken Harrelson",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "PA": 672,
+     "AVG": 0.221,
+     "OBP": 0.336,
+     "SLG": 0.419,
+     "OPS": 0.755,
+     "HR": 30,
+     "RBI": 92,
+     "R": 89,
+     "H": 125,
+     "2B": 14,
+     "3B": 4,
+     "SB": 17,
+     "CS": 9,
+     "BB": 99,
+     "SO": 102,
+     "HBP": 2,
+     "GIDP": 19
+    }
+   ],
+   "kind": "only",
+   "score": 10.1975,
+   "players": [
+    {
+     "id": 115503,
+     "name": "Ken Harrelson"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "The only hitter of the 1960s to hit 30+ homers while batting under .230 (400+ PA): Ken Harrelson, 1969 — 30 HR, .221."
+  },
+  {
+   "n": 13,
+   "rule": "slap_hitter",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.31
+     ],
+     [
+      "SLG",
+      "lte",
+      0.379
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 114248,
+     "name": "Curt Flood",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 739,
+     "AVG": 0.311,
+     "OBP": 0.356,
+     "SLG": 0.378,
+     "OPS": 0.734,
+     "HR": 5,
+     "RBI": 46,
+     "R": 97,
+     "H": 211,
+     "2B": 25,
+     "3B": 3,
+     "SB": 8,
+     "CS": 11,
+     "BB": 43,
+     "SO": 53,
+     "HBP": 5,
+     "GIDP": 9
+    }
+   ],
+   "kind": "only",
+   "score": 10.001675,
+   "players": [
+    {
+     "id": 114248,
+     "name": "Curt Flood"
+    }
+   ],
+   "seasons": [
+    1964
+   ],
+   "text": "The only hitter of the 1960s to bat .310 while slugging under .380 (500+ PA): Curt Flood, 1964 — .311 AVG, .378 SLG."
+  },
+  {
+   "n": 14,
+   "rule": "thirty_thirty",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "SB",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 111189,
+     "name": "Bobby Bonds",
+     "team": "San Francisco Giants",
+     "age": 23,
+     "PA": 720,
+     "AVG": 0.259,
+     "OBP": 0.351,
+     "SLG": 0.473,
+     "OPS": 0.824,
+     "HR": 32,
+     "RBI": 90,
+     "R": 120,
+     "H": 161,
+     "2B": 25,
+     "3B": 6,
+     "SB": 45,
+     "CS": 4,
+     "BB": 81,
+     "SO": 187,
+     "HBP": 10,
+     "GIDP": 9
+    },
+    {
+     "season": 1963,
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Milwaukee Braves",
+     "age": 29,
+     "PA": 714,
+     "AVG": 0.319,
+     "OBP": 0.391,
+     "SLG": 0.586,
+     "OPS": 0.977,
+     "HR": 44,
+     "RBI": 130,
+     "R": 121,
+     "H": 201,
+     "2B": 29,
+     "3B": 4,
+     "SB": 31,
+     "CS": 5,
+     "BB": 78,
+     "SO": 94,
+     "HBP": 0,
+     "GIDP": 11
+    }
+   ],
+   "kind": "pair",
+   "score": 9.925,
+   "players": [
+    {
+     "id": 111189,
+     "name": "Bobby Bonds"
+    },
+    {
+     "id": 110001,
+     "name": "Hank Aaron"
+    }
+   ],
+   "seasons": [
+    1969,
+    1963
+   ],
+   "text": "Only two hitters of the 1960s went 30-30: Bobby Bonds (1969, 32 HR, 45 SB); Hank Aaron (1963, 44 HR, 31 SB)."
+  },
+  {
+   "n": 15,
+   "rule": "bb_and_k",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      100
+     ],
+     [
+      "SO",
+      "gte",
+      140
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 124634,
+     "name": "Jimmy Wynn",
+     "team": "Houston Astros",
+     "age": 27,
+     "PA": 653,
+     "AVG": 0.269,
+     "OBP": 0.436,
+     "SLG": 0.507,
+     "OPS": 0.943,
+     "HR": 33,
+     "RBI": 87,
+     "R": 113,
+     "H": 133,
+     "2B": 17,
+     "3B": 1,
+     "SB": 23,
+     "CS": 7,
+     "BB": 148,
+     "SO": 142,
+     "HBP": 3,
+     "GIDP": 5
+    },
+    {
+     "season": 1969,
+     "id": 116439,
+     "name": "Reggie Jackson",
+     "team": "Oakland Athletics",
+     "age": 23,
+     "PA": 677,
+     "AVG": 0.275,
+     "OBP": 0.41,
+     "SLG": 0.608,
+     "OPS": 1.018,
+     "HR": 47,
+     "RBI": 118,
+     "R": 123,
+     "H": 151,
+     "2B": 36,
+     "3B": 3,
+     "SB": 13,
+     "CS": 5,
+     "BB": 114,
+     "SO": 142,
+     "HBP": 12,
+     "GIDP": 8
+    },
+    {
+     "season": 1962,
+     "id": 117051,
+     "name": "Harmon Killebrew",
+     "team": "Minnesota Twins",
+     "age": 26,
+     "PA": 666,
+     "AVG": 0.243,
+     "OBP": 0.366,
+     "SLG": 0.545,
+     "OPS": 0.911,
+     "HR": 48,
+     "RBI": 126,
+     "R": 85,
+     "H": 134,
+     "2B": 21,
+     "3B": 1,
+     "SB": 1,
+     "CS": 2,
+     "BB": 106,
+     "SO": 142,
+     "HBP": 4,
+     "GIDP": 14
+    }
+   ],
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 124634,
+     "name": "Jimmy Wynn"
+    },
+    {
+     "id": 116439,
+     "name": "Reggie Jackson"
+    },
+    {
+     "id": 117051,
+     "name": "Harmon Killebrew"
+    }
+   ],
+   "seasons": [
+    1969,
+    1969,
+    1962
+   ],
+   "text": "Just three hitters of the 1960s drew 100 walks and struck out 140 times: Jimmy Wynn (1969, 148 BB, 142 K); Reggie Jackson (1969, 114 BB, 142 K); Harmon Killebrew (1962, 106 BB, 142 K)."
+  },
+  {
+   "n": 16,
+   "kind": "streak",
+   "rule": "RBI100",
+   "group": "H",
+   "decade": 1960,
+   "score": 9,
+   "players": [
+    {
+     "id": 118495,
+     "name": "Willie Mays"
+    }
+   ],
+   "seasons": [
+    1960,
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 29,
+     "PA": 669,
+     "AVG": 0.319,
+     "OBP": 0.381,
+     "SLG": 0.555,
+     "OPS": 0.936,
+     "HR": 29,
+     "RBI": 103,
+     "R": 107,
+     "H": 190,
+     "2B": 29,
+     "3B": 12,
+     "SB": 25,
+     "CS": 10,
+     "BB": 61,
+     "SO": 70,
+     "HBP": 4,
+     "GIDP": 15
+    },
+    {
+     "season": 1961,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "PA": 659,
+     "AVG": 0.308,
+     "OBP": 0.393,
+     "SLG": 0.584,
+     "OPS": 0.977,
+     "HR": 40,
+     "RBI": 123,
+     "R": 129,
+     "H": 176,
+     "2B": 32,
+     "3B": 3,
+     "SB": 18,
+     "CS": 9,
+     "BB": 81,
+     "SO": 77,
+     "HBP": 2,
+     "GIDP": 14
+    },
+    {
+     "season": 1962,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 31,
+     "PA": 706,
+     "AVG": 0.304,
+     "OBP": 0.384,
+     "SLG": 0.615,
+     "OPS": 0.999,
+     "HR": 49,
+     "RBI": 141,
+     "R": 130,
+     "H": 189,
+     "2B": 36,
+     "3B": 5,
+     "SB": 18,
+     "CS": 2,
+     "BB": 78,
+     "SO": 85,
+     "HBP": 4,
+     "GIDP": 19
+    },
+    {
+     "season": 1963,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 32,
+     "PA": 671,
+     "AVG": 0.314,
+     "OBP": 0.38,
+     "SLG": 0.582,
+     "OPS": 0.962,
+     "HR": 38,
+     "RBI": 103,
+     "R": 115,
+     "H": 187,
+     "2B": 32,
+     "3B": 7,
+     "SB": 8,
+     "CS": 3,
+     "BB": 66,
+     "SO": 83,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1964,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 33,
+     "PA": 665,
+     "AVG": 0.296,
+     "OBP": 0.383,
+     "SLG": 0.607,
+     "OPS": 0.99,
+     "HR": 47,
+     "RBI": 111,
+     "R": 121,
+     "H": 171,
+     "2B": 21,
+     "3B": 9,
+     "SB": 19,
+     "CS": 5,
+     "BB": 82,
+     "SO": 72,
+     "HBP": 1,
+     "GIDP": 11
+    },
+    {
+     "season": 1965,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 34,
+     "PA": 638,
+     "AVG": 0.317,
+     "OBP": 0.398,
+     "SLG": 0.645,
+     "OPS": 1.043,
+     "HR": 52,
+     "RBI": 112,
+     "R": 118,
+     "H": 177,
+     "2B": 21,
+     "3B": 3,
+     "SB": 9,
+     "CS": 4,
+     "BB": 76,
+     "SO": 71,
+     "HBP": 0,
+     "GIDP": 11
+    },
+    {
+     "season": 1966,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 35,
+     "PA": 629,
+     "AVG": 0.288,
+     "OBP": 0.368,
+     "SLG": 0.556,
+     "OPS": 0.924,
+     "HR": 37,
+     "RBI": 103,
+     "R": 99,
+     "H": 159,
+     "2B": 29,
+     "3B": 4,
+     "SB": 5,
+     "CS": 1,
+     "BB": 70,
+     "SO": 81,
+     "HBP": 2,
+     "GIDP": 13
+    }
+   ],
+   "text": "Willie Mays drove in 100+ runs in 7 straight seasons (1960-66), the longest run of the 1960s."
+  },
+  {
+   "n": 17,
+   "kind": "streak",
+   "rule": "AVG300",
+   "group": "H",
+   "decade": 1960,
+   "score": 9,
+   "players": [
+    {
+     "id": 112391,
+     "name": "Roberto Clemente"
+    }
+   ],
+   "seasons": [
+    1960,
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 25,
+     "PA": 620,
+     "AVG": 0.314,
+     "OBP": 0.357,
+     "SLG": 0.458,
+     "OPS": 0.815,
+     "HR": 16,
+     "RBI": 94,
+     "R": 89,
+     "H": 179,
+     "2B": 22,
+     "3B": 6,
+     "SB": 4,
+     "CS": 5,
+     "BB": 39,
+     "SO": 72,
+     "HBP": 2,
+     "GIDP": 21
+    },
+    {
+     "season": 1961,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 26,
+     "PA": 614,
+     "AVG": 0.351,
+     "OBP": 0.39,
+     "SLG": 0.559,
+     "OPS": 0.949,
+     "HR": 23,
+     "RBI": 89,
+     "R": 100,
+     "H": 201,
+     "2B": 30,
+     "3B": 10,
+     "SB": 4,
+     "CS": 1,
+     "BB": 35,
+     "SO": 59,
+     "HBP": 3,
+     "GIDP": 18
+    },
+    {
+     "season": 1962,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 27,
+     "PA": 581,
+     "AVG": 0.312,
+     "OBP": 0.352,
+     "SLG": 0.454,
+     "OPS": 0.806,
+     "HR": 10,
+     "RBI": 74,
+     "R": 95,
+     "H": 168,
+     "2B": 28,
+     "3B": 9,
+     "SB": 6,
+     "CS": 4,
+     "BB": 35,
+     "SO": 73,
+     "HBP": 1,
+     "GIDP": 18
+    },
+    {
+     "season": 1963,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 28,
+     "PA": 642,
+     "AVG": 0.32,
+     "OBP": 0.356,
+     "SLG": 0.47,
+     "OPS": 0.826,
+     "HR": 17,
+     "RBI": 76,
+     "R": 77,
+     "H": 192,
+     "2B": 23,
+     "3B": 8,
+     "SB": 12,
+     "CS": 2,
+     "BB": 31,
+     "SO": 64,
+     "HBP": 4,
+     "GIDP": 24
+    },
+    {
+     "season": 1964,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 29,
+     "PA": 683,
+     "AVG": 0.339,
+     "OBP": 0.388,
+     "SLG": 0.484,
+     "OPS": 0.872,
+     "HR": 12,
+     "RBI": 87,
+     "R": 95,
+     "H": 211,
+     "2B": 40,
+     "3B": 7,
+     "SB": 5,
+     "CS": 2,
+     "BB": 51,
+     "SO": 87,
+     "HBP": 2,
+     "GIDP": 9
+    },
+    {
+     "season": 1965,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 30,
+     "PA": 642,
+     "AVG": 0.329,
+     "OBP": 0.378,
+     "SLG": 0.463,
+     "OPS": 0.841,
+     "HR": 10,
+     "RBI": 65,
+     "R": 91,
+     "H": 194,
+     "2B": 21,
+     "3B": 14,
+     "SB": 8,
+     "CS": 0,
+     "BB": 43,
+     "SO": 78,
+     "HBP": 5,
+     "GIDP": 17
+    },
+    {
+     "season": 1966,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "PA": 690,
+     "AVG": 0.317,
+     "OBP": 0.36,
+     "SLG": 0.536,
+     "OPS": 0.896,
+     "HR": 29,
+     "RBI": 119,
+     "R": 105,
+     "H": 202,
+     "2B": 31,
+     "3B": 11,
+     "SB": 7,
+     "CS": 5,
+     "BB": 46,
+     "SO": 109,
+     "HBP": 0,
+     "GIDP": 14
+    },
+    {
+     "season": 1967,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 32,
+     "PA": 632,
+     "AVG": 0.357,
+     "OBP": 0.4,
+     "SLG": 0.554,
+     "OPS": 0.954,
+     "HR": 23,
+     "RBI": 110,
+     "R": 103,
+     "H": 209,
+     "2B": 26,
+     "3B": 10,
+     "SB": 9,
+     "CS": 1,
+     "BB": 41,
+     "SO": 103,
+     "HBP": 3,
+     "GIDP": 15
+    }
+   ],
+   "text": "Roberto Clemente batted .300 or better (500+ PA) in 8 straight seasons (1960-67), the longest run of the 1960s."
+  },
+  {
+   "n": 18,
+   "rule": "hr_no_doubles",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      35
+     ],
+     [
+      "2B",
+      "lte",
+      15
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 117051,
+     "name": "Harmon Killebrew",
+     "team": "Minnesota Twins",
+     "age": 28,
+     "PA": 682,
+     "AVG": 0.27,
+     "OBP": 0.377,
+     "SLG": 0.548,
+     "OPS": 0.925,
+     "HR": 49,
+     "RBI": 111,
+     "R": 95,
+     "H": 156,
+     "2B": 11,
+     "3B": 1,
+     "SB": 0,
+     "CS": 0,
+     "BB": 93,
+     "SO": 135,
+     "HBP": 8,
+     "GIDP": 15
+    },
+    {
+     "season": 1960,
+     "id": 117670,
+     "name": "Jim Lemon",
+     "team": "Washington Senators",
+     "age": 32,
+     "PA": 611,
+     "AVG": 0.269,
+     "OBP": 0.354,
+     "SLG": 0.508,
+     "OPS": 0.862,
+     "HR": 38,
+     "RBI": 100,
+     "R": 81,
+     "H": 142,
+     "2B": 10,
+     "3B": 1,
+     "SB": 2,
+     "CS": 0,
+     "BB": 67,
+     "SO": 114,
+     "HBP": 7,
+     "GIDP": 9
+    }
+   ],
+   "kind": "pair",
+   "score": 8.95,
+   "players": [
+    {
+     "id": 117051,
+     "name": "Harmon Killebrew"
+    },
+    {
+     "id": 117670,
+     "name": "Jim Lemon"
+    }
+   ],
+   "seasons": [
+    1964,
+    1960
+   ],
+   "text": "Only two hitters of the 1960s hit 35+ homers with 15 doubles or fewer: Harmon Killebrew (1964, 49 HR, 11 2B); Jim Lemon (1960, 38 HR, 10 2B)."
+  },
+  {
+   "n": 19,
+   "rule": "sb_low_obp",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ],
+     [
+      "OBP",
+      "lte",
+      0.299
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1967,
+     "id": 111916,
+     "name": "Bert Campaneris",
+     "team": "Kansas City Athletics",
+     "age": 25,
+     "PA": 649,
+     "AVG": 0.248,
+     "OBP": 0.297,
+     "SLG": 0.331,
+     "OPS": 0.628,
+     "HR": 3,
+     "RBI": 32,
+     "R": 85,
+     "H": 149,
+     "2B": 29,
+     "3B": 6,
+     "SB": 55,
+     "CS": 16,
+     "BB": 36,
+     "SO": 82,
+     "HBP": 7,
+     "GIDP": 3
+    },
+    {
+     "season": 1963,
+     "id": 110290,
+     "name": "Luis Aparicio",
+     "team": "Baltimore Orioles",
+     "age": 29,
+     "PA": 651,
+     "AVG": 0.25,
+     "OBP": 0.291,
+     "SLG": 0.331,
+     "OPS": 0.622,
+     "HR": 5,
+     "RBI": 45,
+     "R": 73,
+     "H": 150,
+     "2B": 18,
+     "3B": 8,
+     "SB": 40,
+     "CS": 6,
+     "BB": 36,
+     "SO": 35,
+     "HBP": 2,
+     "GIDP": 10
+    }
+   ],
+   "kind": "pair",
+   "score": 8.6325,
+   "players": [
+    {
+     "id": 111916,
+     "name": "Bert Campaneris"
+    },
+    {
+     "id": 110290,
+     "name": "Luis Aparicio"
+    }
+   ],
+   "seasons": [
+    1967,
+    1963
+   ],
+   "text": "Only two hitters of the 1960s stole 40+ bases with an on-base under .300 (400+ PA): Bert Campaneris (1967, 55 SB, .297 OBP); Luis Aparicio (1963, 40 SB, .291 OBP)."
+  },
+  {
+   "n": 20,
+   "rule": "seventy_sb",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "SB",
+      "gte",
+      70
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 124371,
+     "name": "Maury Wills",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "PA": 759,
+     "AVG": 0.299,
+     "OBP": 0.347,
+     "SLG": 0.373,
+     "OPS": 0.72,
+     "HR": 6,
+     "RBI": 48,
+     "R": 130,
+     "H": 208,
+     "2B": 13,
+     "3B": 10,
+     "SB": 104,
+     "CS": 13,
+     "BB": 51,
+     "SO": 57,
+     "HBP": 2,
+     "GIDP": 7
+    },
+    {
+     "season": 1965,
+     "id": 124371,
+     "name": "Maury Wills",
+     "team": "Los Angeles Dodgers",
+     "age": 32,
+     "PA": 710,
+     "AVG": 0.286,
+     "OBP": 0.33,
+     "SLG": 0.329,
+     "OPS": 0.659,
+     "HR": 0,
+     "RBI": 33,
+     "R": 92,
+     "H": 186,
+     "2B": 14,
+     "3B": 7,
+     "SB": 94,
+     "CS": 31,
+     "BB": 40,
+     "SO": 64,
+     "HBP": 4,
+     "GIDP": 6
+    },
+    {
+     "season": 1966,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 27,
+     "PA": 678,
+     "AVG": 0.285,
+     "OBP": 0.32,
+     "SLG": 0.429,
+     "OPS": 0.749,
+     "HR": 15,
+     "RBI": 46,
+     "R": 94,
+     "H": 183,
+     "2B": 24,
+     "3B": 12,
+     "SB": 74,
+     "CS": 18,
+     "BB": 31,
+     "SO": 134,
+     "HBP": 3,
+     "GIDP": 7
+    },
+    {
+     "season": 1969,
+     "id": 115495,
+     "name": "Tommy Harper",
+     "team": "Seattle Pilots",
+     "age": 28,
+     "PA": 640,
+     "AVG": 0.235,
+     "OBP": 0.349,
+     "SLG": 0.311,
+     "OPS": 0.66,
+     "HR": 9,
+     "RBI": 41,
+     "R": 78,
+     "H": 126,
+     "2B": 10,
+     "3B": 2,
+     "SB": 73,
+     "CS": 18,
+     "BB": 95,
+     "SO": 90,
+     "HBP": 1,
+     "GIDP": 8
+    }
+   ],
+   "kind": "few",
+   "score": 8.6,
+   "players": [
+    {
+     "id": 124371,
+     "name": "Maury Wills"
+    },
+    {
+     "id": 124371,
+     "name": "Maury Wills"
+    },
+    {
+     "id": 111495,
+     "name": "Lou Brock"
+    },
+    {
+     "id": 115495,
+     "name": "Tommy Harper"
+    }
+   ],
+   "seasons": [
+    1962,
+    1965,
+    1966,
+    1969
+   ],
+   "text": "Just four hitters of the 1960s stole 70 bases: Maury Wills (1962, 104 SB); Maury Wills (1965, 94 SB); Lou Brock (1966, 74 SB); Tommy Harper (1969, 73 SB)."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "HR30",
+   "group": "H",
+   "decade": 1960,
+   "score": 8,
+   "players": [
+    {
+     "id": 118495,
+     "name": "Willie Mays"
+    }
+   ],
+   "seasons": [
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1961,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "PA": 659,
+     "AVG": 0.308,
+     "OBP": 0.393,
+     "SLG": 0.584,
+     "OPS": 0.977,
+     "HR": 40,
+     "RBI": 123,
+     "R": 129,
+     "H": 176,
+     "2B": 32,
+     "3B": 3,
+     "SB": 18,
+     "CS": 9,
+     "BB": 81,
+     "SO": 77,
+     "HBP": 2,
+     "GIDP": 14
+    },
+    {
+     "season": 1962,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 31,
+     "PA": 706,
+     "AVG": 0.304,
+     "OBP": 0.384,
+     "SLG": 0.615,
+     "OPS": 0.999,
+     "HR": 49,
+     "RBI": 141,
+     "R": 130,
+     "H": 189,
+     "2B": 36,
+     "3B": 5,
+     "SB": 18,
+     "CS": 2,
+     "BB": 78,
+     "SO": 85,
+     "HBP": 4,
+     "GIDP": 19
+    },
+    {
+     "season": 1963,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 32,
+     "PA": 671,
+     "AVG": 0.314,
+     "OBP": 0.38,
+     "SLG": 0.582,
+     "OPS": 0.962,
+     "HR": 38,
+     "RBI": 103,
+     "R": 115,
+     "H": 187,
+     "2B": 32,
+     "3B": 7,
+     "SB": 8,
+     "CS": 3,
+     "BB": 66,
+     "SO": 83,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1964,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 33,
+     "PA": 665,
+     "AVG": 0.296,
+     "OBP": 0.383,
+     "SLG": 0.607,
+     "OPS": 0.99,
+     "HR": 47,
+     "RBI": 111,
+     "R": 121,
+     "H": 171,
+     "2B": 21,
+     "3B": 9,
+     "SB": 19,
+     "CS": 5,
+     "BB": 82,
+     "SO": 72,
+     "HBP": 1,
+     "GIDP": 11
+    },
+    {
+     "season": 1965,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 34,
+     "PA": 638,
+     "AVG": 0.317,
+     "OBP": 0.398,
+     "SLG": 0.645,
+     "OPS": 1.043,
+     "HR": 52,
+     "RBI": 112,
+     "R": 118,
+     "H": 177,
+     "2B": 21,
+     "3B": 3,
+     "SB": 9,
+     "CS": 4,
+     "BB": 76,
+     "SO": 71,
+     "HBP": 0,
+     "GIDP": 11
+    },
+    {
+     "season": 1966,
+     "id": 118495,
+     "name": "Willie Mays",
+     "team": "San Francisco Giants",
+     "age": 35,
+     "PA": 629,
+     "AVG": 0.288,
+     "OBP": 0.368,
+     "SLG": 0.556,
+     "OPS": 0.924,
+     "HR": 37,
+     "RBI": 103,
+     "R": 99,
+     "H": 159,
+     "2B": 29,
+     "3B": 4,
+     "SB": 5,
+     "CS": 1,
+     "BB": 70,
+     "SO": 81,
+     "HBP": 2,
+     "GIDP": 13
+    }
+   ],
+   "text": "Willie Mays hit 30+ home runs in 6 straight seasons (1961-66), the longest run of the 1960s."
+  },
+  {
+   "n": 22,
+   "kind": "streak",
+   "rule": "SB40",
+   "group": "H",
+   "decade": 1960,
+   "score": 8,
+   "players": [
+    {
+     "id": 111495,
+     "name": "Lou Brock"
+    }
+   ],
+   "seasons": [
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 25,
+     "PA": 695,
+     "AVG": 0.315,
+     "OBP": 0.358,
+     "SLG": 0.464,
+     "OPS": 0.822,
+     "HR": 14,
+     "RBI": 58,
+     "R": 111,
+     "H": 200,
+     "2B": 30,
+     "3B": 11,
+     "SB": 43,
+     "CS": 18,
+     "BB": 40,
+     "SO": 127,
+     "HBP": 4,
+     "GIDP": 5
+    },
+    {
+     "season": 1965,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 697,
+     "AVG": 0.288,
+     "OBP": 0.345,
+     "SLG": 0.445,
+     "OPS": 0.79,
+     "HR": 16,
+     "RBI": 69,
+     "R": 107,
+     "H": 182,
+     "2B": 35,
+     "3B": 8,
+     "SB": 63,
+     "CS": 27,
+     "BB": 45,
+     "SO": 116,
+     "HBP": 10,
+     "GIDP": 2
+    },
+    {
+     "season": 1966,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 27,
+     "PA": 678,
+     "AVG": 0.285,
+     "OBP": 0.32,
+     "SLG": 0.429,
+     "OPS": 0.749,
+     "HR": 15,
+     "RBI": 46,
+     "R": 94,
+     "H": 183,
+     "2B": 24,
+     "3B": 12,
+     "SB": 74,
+     "CS": 18,
+     "BB": 31,
+     "SO": 134,
+     "HBP": 3,
+     "GIDP": 7
+    },
+    {
+     "season": 1967,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 28,
+     "PA": 724,
+     "AVG": 0.299,
+     "OBP": 0.327,
+     "SLG": 0.472,
+     "OPS": 0.799,
+     "HR": 21,
+     "RBI": 76,
+     "R": 113,
+     "H": 206,
+     "2B": 32,
+     "3B": 12,
+     "SB": 52,
+     "CS": 18,
+     "BB": 24,
+     "SO": 109,
+     "HBP": 6,
+     "GIDP": 6
+    },
+    {
+     "season": 1968,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 712,
+     "AVG": 0.279,
+     "OBP": 0.328,
+     "SLG": 0.418,
+     "OPS": 0.746,
+     "HR": 6,
+     "RBI": 51,
+     "R": 92,
+     "H": 184,
+     "2B": 46,
+     "3B": 14,
+     "SB": 62,
+     "CS": 12,
+     "BB": 46,
+     "SO": 124,
+     "HBP": 3,
+     "GIDP": 4
+    },
+    {
+     "season": 1969,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 30,
+     "PA": 710,
+     "AVG": 0.298,
+     "OBP": 0.349,
+     "SLG": 0.434,
+     "OPS": 0.783,
+     "HR": 12,
+     "RBI": 47,
+     "R": 97,
+     "H": 195,
+     "2B": 33,
+     "3B": 10,
+     "SB": 53,
+     "CS": 14,
+     "BB": 50,
+     "SO": 115,
+     "HBP": 2,
+     "GIDP": 2
+    }
+   ],
+   "text": "Lou Brock stole 40+ bases in 6 straight seasons (1964-69), the longest run of the 1960s."
+  },
+  {
+   "n": 23,
+   "kind": "streak",
+   "rule": "K200",
+   "group": "P",
+   "decade": 1960,
+   "score": 8,
+   "players": [
+    {
+     "id": 117277,
+     "name": "Sandy Koufax"
+    }
+   ],
+   "seasons": [
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1961,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 25,
+     "W": 18,
+     "L": 13,
+     "ERA": 3.52,
+     "IP": "255.2",
+     "SO": 269,
+     "BB": 96,
+     "SV": 1,
+     "GS": 35,
+     "CG": 15,
+     "SHO": 2,
+     "HRA": 27,
+     "WHIP": 1.2
+    },
+    {
+     "season": 1962,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "W": 14,
+     "L": 7,
+     "ERA": 2.54,
+     "IP": "184.1",
+     "SO": 216,
+     "BB": 57,
+     "SV": 1,
+     "GS": 26,
+     "CG": 11,
+     "SHO": 2,
+     "HRA": 13,
+     "WHIP": 1.04
+    },
+    {
+     "season": 1963,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 25,
+     "L": 5,
+     "ERA": 1.88,
+     "IP": "311.0",
+     "SO": 306,
+     "BB": 58,
+     "SV": 0,
+     "GS": 40,
+     "CG": 20,
+     "SHO": 11,
+     "HRA": 18,
+     "WHIP": 0.87
+    },
+    {
+     "season": 1964,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 28,
+     "W": 19,
+     "L": 5,
+     "ERA": 1.74,
+     "IP": "223.0",
+     "SO": 223,
+     "BB": 53,
+     "SV": 1,
+     "GS": 28,
+     "CG": 15,
+     "SHO": 7,
+     "HRA": 13,
+     "WHIP": 0.93
+    },
+    {
+     "season": 1965,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "W": 26,
+     "L": 8,
+     "ERA": 2.04,
+     "IP": "335.2",
+     "SO": 382,
+     "BB": 71,
+     "SV": 2,
+     "GS": 41,
+     "CG": 27,
+     "SHO": 8,
+     "HRA": 26,
+     "WHIP": 0.86
+    },
+    {
+     "season": 1966,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 30,
+     "W": 27,
+     "L": 9,
+     "ERA": 1.73,
+     "IP": "323.0",
+     "SO": 317,
+     "BB": 77,
+     "SV": 0,
+     "GS": 41,
+     "CG": 27,
+     "SHO": 5,
+     "HRA": 19,
+     "WHIP": 0.98
+    }
+   ],
+   "text": "Sandy Koufax struck out 200+ in 6 straight seasons (1961-66), the longest run of the 1960s."
+  },
+  {
+   "n": 24,
+   "kind": "streak",
+   "rule": "IP250",
+   "group": "P",
+   "decade": 1960,
+   "score": 8,
+   "players": [
+    {
+     "id": 113581,
+     "name": "Don Drysdale"
+    }
+   ],
+   "seasons": [
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 113581,
+     "name": "Don Drysdale",
+     "team": "Los Angeles Dodgers",
+     "age": 25,
+     "W": 25,
+     "L": 9,
+     "ERA": 2.83,
+     "IP": "314.1",
+     "SO": 232,
+     "BB": 78,
+     "SV": 1,
+     "GS": 41,
+     "CG": 19,
+     "SHO": 2,
+     "HRA": 21,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1963,
+     "id": 113581,
+     "name": "Don Drysdale",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "W": 19,
+     "L": 17,
+     "ERA": 2.63,
+     "IP": "315.1",
+     "SO": 251,
+     "BB": 57,
+     "SV": 0,
+     "GS": 42,
+     "CG": 17,
+     "SHO": 3,
+     "HRA": 25,
+     "WHIP": 1.09
+    },
+    {
+     "season": 1964,
+     "id": 113581,
+     "name": "Don Drysdale",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 18,
+     "L": 16,
+     "ERA": 2.18,
+     "IP": "321.1",
+     "SO": 237,
+     "BB": 68,
+     "SV": 0,
+     "GS": 40,
+     "CG": 21,
+     "SHO": 5,
+     "HRA": 15,
+     "WHIP": 0.96
+    },
+    {
+     "season": 1965,
+     "id": 113581,
+     "name": "Don Drysdale",
+     "team": "Los Angeles Dodgers",
+     "age": 28,
+     "W": 23,
+     "L": 12,
+     "ERA": 2.77,
+     "IP": "308.1",
+     "SO": 210,
+     "BB": 66,
+     "SV": 1,
+     "GS": 42,
+     "CG": 20,
+     "SHO": 7,
+     "HRA": 30,
+     "WHIP": 1.09
+    },
+    {
+     "season": 1966,
+     "id": 113581,
+     "name": "Don Drysdale",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "W": 13,
+     "L": 16,
+     "ERA": 3.42,
+     "IP": "273.2",
+     "SO": 177,
+     "BB": 45,
+     "SV": 0,
+     "GS": 40,
+     "CG": 11,
+     "SHO": 3,
+     "HRA": 21,
+     "WHIP": 1.18
+    },
+    {
+     "season": 1967,
+     "id": 113581,
+     "name": "Don Drysdale",
+     "team": "Los Angeles Dodgers",
+     "age": 30,
+     "W": 13,
+     "L": 16,
+     "ERA": 2.74,
+     "IP": "282.0",
+     "SO": 196,
+     "BB": 60,
+     "SV": 0,
+     "GS": 38,
+     "CG": 9,
+     "SHO": 3,
+     "HRA": 19,
+     "WHIP": 1.17
+    }
+   ],
+   "text": "Don Drysdale threw 250+ innings in 6 straight seasons (1962-67), the longest run of the 1960s."
+  },
+  {
+   "n": 25,
+   "rule": "five_tool",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BA",
+      "gte",
+      0.3
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1963,
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Milwaukee Braves",
+     "age": 29,
+     "PA": 714,
+     "AVG": 0.319,
+     "OBP": 0.391,
+     "SLG": 0.586,
+     "OPS": 0.977,
+     "HR": 44,
+     "RBI": 130,
+     "R": 121,
+     "H": 201,
+     "2B": 29,
+     "3B": 4,
+     "SB": 31,
+     "CS": 5,
+     "BB": 78,
+     "SO": 94,
+     "HBP": 0,
+     "GIDP": 11
+    },
+    {
+     "season": 1961,
+     "id": 121311,
+     "name": "Frank Robinson",
+     "team": "Cincinnati Reds",
+     "age": 25,
+     "PA": 636,
+     "AVG": 0.323,
+     "OBP": 0.404,
+     "SLG": 0.611,
+     "OPS": 1.015,
+     "HR": 37,
+     "RBI": 124,
+     "R": 117,
+     "H": 176,
+     "2B": 32,
+     "3B": 7,
+     "SB": 22,
+     "CS": 3,
+     "BB": 71,
+     "SO": 64,
+     "HBP": 10,
+     "GIDP": 15
+    },
+    {
+     "season": 1961,
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Milwaukee Braves",
+     "age": 27,
+     "PA": 671,
+     "AVG": 0.327,
+     "OBP": 0.381,
+     "SLG": 0.594,
+     "OPS": 0.975,
+     "HR": 34,
+     "RBI": 120,
+     "R": 115,
+     "H": 197,
+     "2B": 39,
+     "3B": 10,
+     "SB": 21,
+     "CS": 9,
+     "BB": 56,
+     "SO": 64,
+     "HBP": 2,
+     "GIDP": 16
+    }
+   ],
+   "kind": "few",
+   "score": 7.875,
+   "players": [
+    {
+     "id": 110001,
+     "name": "Hank Aaron"
+    },
+    {
+     "id": 121311,
+     "name": "Frank Robinson"
+    },
+    {
+     "id": 110001,
+     "name": "Hank Aaron"
+    }
+   ],
+   "seasons": [
+    1963,
+    1961,
+    1961
+   ],
+   "text": "Just three hitters of the 1960s batted .300 with 30 homers, 100 RBI and 20 steals: Hank Aaron (1963, .319, 44 HR, 130 RBI, 31 SB); Frank Robinson (1961, .323, 37 HR, 124 RBI, 22 SB); Hank Aaron (1961, .327, 34 HR, 120 RBI, 21 SB)."
+  },
+  {
+   "n": 26,
+   "rule": "old_arm",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMin": 38,
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1963,
+     "id": 122557,
+     "name": "Warren Spahn",
+     "team": "Milwaukee Braves",
+     "age": 42,
+     "W": 23,
+     "L": 7,
+     "ERA": 2.6,
+     "IP": "259.2",
+     "SO": 102,
+     "BB": 49,
+     "SV": 0,
+     "GS": 33,
+     "CG": 22,
+     "SHO": 7,
+     "HRA": 23,
+     "WHIP": 1.12
+    },
+    {
+     "season": 1961,
+     "id": 122557,
+     "name": "Warren Spahn",
+     "team": "Milwaukee Braves",
+     "age": 40,
+     "W": 21,
+     "L": 13,
+     "ERA": 3.02,
+     "IP": "262.2",
+     "SO": 115,
+     "BB": 64,
+     "SV": 0,
+     "GS": 34,
+     "CG": 21,
+     "SHO": 4,
+     "HRA": 24,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1960,
+     "id": 122557,
+     "name": "Warren Spahn",
+     "team": "Milwaukee Braves",
+     "age": 39,
+     "W": 21,
+     "L": 10,
+     "ERA": 3.5,
+     "IP": "267.2",
+     "SO": 154,
+     "BB": 74,
+     "SV": 2,
+     "GS": 33,
+     "CG": 18,
+     "SHO": 4,
+     "HRA": 24,
+     "WHIP": 1.23
+    },
+    {
+     "season": 1962,
+     "id": 122557,
+     "name": "Warren Spahn",
+     "team": "Milwaukee Braves",
+     "age": 41,
+     "W": 18,
+     "L": 14,
+     "ERA": 3.04,
+     "IP": "269.1",
+     "SO": 118,
+     "BB": 55,
+     "SV": 0,
+     "GS": 34,
+     "CG": 22,
+     "SHO": 0,
+     "HRA": 25,
+     "WHIP": 1.13
+    }
+   ],
+   "kind": "few",
+   "score": 7.625,
+   "players": [
+    {
+     "id": 122557,
+     "name": "Warren Spahn"
+    },
+    {
+     "id": 122557,
+     "name": "Warren Spahn"
+    },
+    {
+     "id": 122557,
+     "name": "Warren Spahn"
+    },
+    {
+     "id": 122557,
+     "name": "Warren Spahn"
+    }
+   ],
+   "seasons": [
+    1963,
+    1961,
+    1960,
+    1962
+   ],
+   "text": "Just four pitchers of the 1960s won 15+ games at age 38 or older: Warren Spahn (1963, 23-7 at 42); Warren Spahn (1961, 21-13 at 40); Warren Spahn (1960, 21-10 at 39); Warren Spahn (1962, 18-14 at 41)."
+  },
+  {
+   "n": 27,
+   "rule": "obp_no_power",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "OBP",
+      "gte",
+      0.4
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1960,
+     "id": 110349,
+     "name": "Richie Ashburn",
+     "team": "Chicago Cubs",
+     "age": 33,
+     "PA": 672,
+     "AVG": 0.291,
+     "OBP": 0.415,
+     "SLG": 0.338,
+     "OPS": 0.753,
+     "HR": 0,
+     "RBI": 40,
+     "R": 99,
+     "H": 159,
+     "2B": 16,
+     "3B": 5,
+     "SB": 16,
+     "CS": 4,
+     "BB": 116,
+     "SO": 50,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 1960,
+     "id": 121555,
+     "name": "Pete Runnels",
+     "team": "Boston Red Sox",
+     "age": 32,
+     "PA": 613,
+     "AVG": 0.32,
+     "OBP": 0.401,
+     "SLG": 0.394,
+     "OPS": 0.795,
+     "HR": 2,
+     "RBI": 35,
+     "R": 80,
+     "H": 169,
+     "2B": 29,
+     "3B": 2,
+     "SB": 5,
+     "CS": 2,
+     "BB": 71,
+     "SO": 51,
+     "HBP": 2,
+     "GIDP": 16
+    },
+    {
+     "season": 1966,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Houston Astros",
+     "age": 22,
+     "PA": 528,
+     "AVG": 0.285,
+     "OBP": 0.41,
+     "SLG": 0.391,
+     "OPS": 0.801,
+     "HR": 5,
+     "RBI": 42,
+     "R": 60,
+     "H": 121,
+     "2B": 14,
+     "3B": 8,
+     "SB": 11,
+     "CS": 8,
+     "BB": 89,
+     "SO": 43,
+     "HBP": 3,
+     "GIDP": 2
+    }
+   ],
+   "kind": "few",
+   "score": 7.0375,
+   "players": [
+    {
+     "id": 110349,
+     "name": "Richie Ashburn"
+    },
+    {
+     "id": 121555,
+     "name": "Pete Runnels"
+    },
+    {
+     "id": 119371,
+     "name": "Joe Morgan"
+    }
+   ],
+   "seasons": [
+    1960,
+    1960,
+    1966
+   ],
+   "text": "Just three hitters of the 1960s posted a .400 on-base with 5 homers or fewer (500+ PA): Richie Ashburn (1960, .415 OBP, 0 HR); Pete Runnels (1960, .401 OBP, 2 HR); Joe Morgan (1966, .410 OBP, 5 HR)."
+  },
+  {
+   "n": 28,
+   "rule": "twenty_twenty",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      20
+     ],
+     [
+      "L",
+      "gte",
+      15
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 116522,
+     "name": "Fergie Jenkins",
+     "team": "Chicago Cubs",
+     "age": 26,
+     "W": 21,
+     "L": 15,
+     "ERA": 3.21,
+     "IP": "311.1",
+     "SO": 273,
+     "BB": 71,
+     "SV": 1,
+     "GS": 42,
+     "CG": 23,
+     "SHO": 7,
+     "HRA": 27,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1968,
+     "id": 116522,
+     "name": "Fergie Jenkins",
+     "team": "Chicago Cubs",
+     "age": 25,
+     "W": 20,
+     "L": 15,
+     "ERA": 2.63,
+     "IP": "308.0",
+     "SO": 260,
+     "BB": 65,
+     "SV": 0,
+     "GS": 40,
+     "CG": 20,
+     "SHO": 3,
+     "HRA": 26,
+     "WHIP": 1.04
+    },
+    {
+     "season": 1969,
+     "id": 120095,
+     "name": "Claude Osteen",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "W": 20,
+     "L": 15,
+     "ERA": 2.66,
+     "IP": "321.0",
+     "SO": 183,
+     "BB": 74,
+     "SV": 0,
+     "GS": 41,
+     "CG": 16,
+     "SHO": 7,
+     "HRA": 17,
+     "WHIP": 1.14
+    }
+   ],
+   "kind": "few",
+   "score": 6.9,
+   "players": [
+    {
+     "id": 116522,
+     "name": "Fergie Jenkins"
+    },
+    {
+     "id": 116522,
+     "name": "Fergie Jenkins"
+    },
+    {
+     "id": 120095,
+     "name": "Claude Osteen"
+    }
+   ],
+   "seasons": [
+    1969,
+    1968,
+    1969
+   ],
+   "text": "Just three pitchers of the 1960s won 20 and lost 15 in the same season: Fergie Jenkins (1969, 21-15); Fergie Jenkins (1968, 20-15); Claude Osteen (1969, 20-15)."
+  },
+  {
+   "n": 29,
+   "rule": "gidp_many",
+   "group": "H",
+   "decade": 1960,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 124650,
+     "name": "Carl Yastrzemski",
+     "team": "Boston Red Sox",
+     "age": 24,
+     "PA": 646,
+     "AVG": 0.289,
+     "OBP": 0.374,
+     "SLG": 0.451,
+     "OPS": 0.825,
+     "HR": 15,
+     "RBI": 67,
+     "R": 77,
+     "H": 164,
+     "2B": 29,
+     "3B": 9,
+     "SB": 6,
+     "CS": 5,
+     "BB": 75,
+     "SO": 90,
+     "HBP": 2,
+     "GIDP": 30
+    },
+    {
+     "season": 1960,
+     "id": 121301,
+     "name": "Brooks Robinson",
+     "team": "Baltimore Orioles",
+     "age": 23,
+     "PA": 651,
+     "AVG": 0.294,
+     "OBP": 0.329,
+     "SLG": 0.44,
+     "OPS": 0.769,
+     "HR": 14,
+     "RBI": 88,
+     "R": 74,
+     "H": 175,
+     "2B": 27,
+     "3B": 9,
+     "SB": 2,
+     "CS": 2,
+     "BB": 35,
+     "SO": 49,
+     "HBP": 0,
+     "GIDP": 29
+    },
+    {
+     "season": 1969,
+     "id": 116205,
+     "name": "Frank Howard",
+     "team": "Washington Senators",
+     "age": 32,
+     "PA": 702,
+     "AVG": 0.296,
+     "OBP": 0.402,
+     "SLG": 0.574,
+     "OPS": 0.976,
+     "HR": 48,
+     "RBI": 111,
+     "R": 111,
+     "H": 175,
+     "2B": 17,
+     "3B": 2,
+     "SB": 1,
+     "CS": 0,
+     "BB": 102,
+     "SO": 96,
+     "HBP": 5,
+     "GIDP": 29
+    }
+   ],
+   "kind": "few",
+   "score": 6.75,
+   "players": [
+    {
+     "id": 124650,
+     "name": "Carl Yastrzemski"
+    },
+    {
+     "id": 121301,
+     "name": "Brooks Robinson"
+    },
+    {
+     "id": 116205,
+     "name": "Frank Howard"
+    }
+   ],
+   "seasons": [
+    1964,
+    1960,
+    1969
+   ],
+   "text": "Just three hitters of the 1960s grounded into 28+ double plays: Carl Yastrzemski (1964, 30 GIDP); Brooks Robinson (1960, 29 GIDP); Frank Howard (1969, 29 GIDP)."
+  },
+  {
+   "n": 30,
+   "rule": "young_power",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 120719,
+     "name": "Boog Powell",
+     "team": "Baltimore Orioles",
+     "age": 22,
+     "PA": 506,
+     "AVG": 0.29,
+     "OBP": 0.399,
+     "SLG": 0.606,
+     "OPS": 1.005,
+     "HR": 39,
+     "RBI": 99,
+     "R": 74,
+     "H": 123,
+     "2B": 17,
+     "3B": 0,
+     "SB": 0,
+     "CS": 0,
+     "BB": 76,
+     "SO": 91,
+     "HBP": 2,
+     "GIDP": 9
+    },
+    {
+     "season": 1965,
+     "id": 112557,
+     "name": "Tony Conigliaro",
+     "team": "Boston Red Sox",
+     "age": 20,
+     "PA": 586,
+     "AVG": 0.269,
+     "OBP": 0.338,
+     "SLG": 0.512,
+     "OPS": 0.85,
+     "HR": 32,
+     "RBI": 82,
+     "R": 82,
+     "H": 140,
+     "2B": 21,
+     "3B": 5,
+     "SB": 4,
+     "CS": 2,
+     "BB": 51,
+     "SO": 116,
+     "HBP": 5,
+     "GIDP": 9
+    },
+    {
+     "season": 1964,
+     "id": 115554,
+     "name": "Jim Ray Hart",
+     "team": "San Francisco Giants",
+     "age": 22,
+     "PA": 625,
+     "AVG": 0.286,
+     "OBP": 0.342,
+     "SLG": 0.498,
+     "OPS": 0.84,
+     "HR": 31,
+     "RBI": 81,
+     "R": 71,
+     "H": 162,
+     "2B": 15,
+     "3B": 6,
+     "SB": 5,
+     "CS": 2,
+     "BB": 47,
+     "SO": 94,
+     "HBP": 4,
+     "GIDP": 13
+    }
+   ],
+   "kind": "few",
+   "score": 6.425,
+   "players": [
+    {
+     "id": 120719,
+     "name": "Boog Powell"
+    },
+    {
+     "id": 112557,
+     "name": "Tony Conigliaro"
+    },
+    {
+     "id": 115554,
+     "name": "Jim Ray Hart"
+    }
+   ],
+   "seasons": [
+    1964,
+    1965,
+    1964
+   ],
+   "text": "Just three hitters of the 1960s hit 30+ homers at age 22 or younger: Boog Powell (1964, 39 HR at 22); Tony Conigliaro (1965, 32 HR at 20); Jim Ray Hart (1964, 31 HR at 22)."
+  },
+  {
+   "n": 31,
+   "rule": "walks_over_hits",
+   "group": "H",
+   "decade": 1960,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 124634,
+     "name": "Jimmy Wynn",
+     "team": "Houston Astros",
+     "age": 27,
+     "PA": 653,
+     "AVG": 0.269,
+     "OBP": 0.436,
+     "SLG": 0.507,
+     "OPS": 0.943,
+     "HR": 33,
+     "RBI": 87,
+     "R": 113,
+     "H": 133,
+     "2B": 17,
+     "3B": 1,
+     "SB": 23,
+     "CS": 7,
+     "BB": 148,
+     "SO": 142,
+     "HBP": 3,
+     "GIDP": 5
+    },
+    {
+     "season": 1968,
+     "id": 118258,
+     "name": "Mickey Mantle",
+     "team": "New York Yankees",
+     "age": 36,
+     "PA": 547,
+     "AVG": 0.237,
+     "OBP": 0.385,
+     "SLG": 0.398,
+     "OPS": 0.783,
+     "HR": 18,
+     "RBI": 54,
+     "R": 57,
+     "H": 103,
+     "2B": 14,
+     "3B": 1,
+     "SB": 6,
+     "CS": 2,
+     "BB": 106,
+     "SO": 97,
+     "HBP": 1,
+     "GIDP": 9
+    },
+    {
+     "season": 1962,
+     "id": 118258,
+     "name": "Mickey Mantle",
+     "team": "New York Yankees",
+     "age": 30,
+     "PA": 502,
+     "AVG": 0.321,
+     "OBP": 0.486,
+     "SLG": 0.605,
+     "OPS": 1.091,
+     "HR": 30,
+     "RBI": 89,
+     "R": 96,
+     "H": 121,
+     "2B": 15,
+     "3B": 1,
+     "SB": 9,
+     "CS": 0,
+     "BB": 122,
+     "SO": 78,
+     "HBP": 1,
+     "GIDP": 4
+    }
+   ],
+   "kind": "few",
+   "score": 6.375,
+   "players": [
+    {
+     "id": 124634,
+     "name": "Jimmy Wynn"
+    },
+    {
+     "id": 118258,
+     "name": "Mickey Mantle"
+    },
+    {
+     "id": 118258,
+     "name": "Mickey Mantle"
+    }
+   ],
+   "seasons": [
+    1969,
+    1968,
+    1962
+   ],
+   "text": "Just three hitters of the 1960s drew more walks than hits (400+ PA): Jimmy Wynn (1969, 148 BB, 133 H); Mickey Mantle (1968, 106 BB, 103 H); Mickey Mantle (1962, 122 BB, 121 H)."
+  },
+  {
+   "n": 32,
+   "rule": "three_hundred_ip",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      300
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 118787,
+     "name": "Denny McLain",
+     "team": "Detroit Tigers",
+     "age": 24,
+     "W": 31,
+     "L": 6,
+     "ERA": 1.96,
+     "IP": "336.0",
+     "SO": 280,
+     "BB": 63,
+     "SV": 0,
+     "GS": 41,
+     "CG": 28,
+     "SHO": 6,
+     "HRA": 31,
+     "WHIP": 0.9
+    },
+    {
+     "season": 1965,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "W": 26,
+     "L": 8,
+     "ERA": 2.04,
+     "IP": "335.2",
+     "SO": 382,
+     "BB": 71,
+     "SV": 2,
+     "GS": 41,
+     "CG": 27,
+     "SHO": 8,
+     "HRA": 26,
+     "WHIP": 0.86
+    },
+    {
+     "season": 1968,
+     "id": 118283,
+     "name": "Juan Marichal",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "W": 26,
+     "L": 9,
+     "ERA": 2.43,
+     "IP": "326.0",
+     "SO": 218,
+     "BB": 46,
+     "SV": 0,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 5,
+     "HRA": 21,
+     "WHIP": 1.05
+    },
+    {
+     "season": 1969,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "W": 19,
+     "L": 14,
+     "ERA": 2.49,
+     "IP": "325.1",
+     "SO": 233,
+     "BB": 91,
+     "SV": 0,
+     "GS": 39,
+     "CG": 26,
+     "SHO": 3,
+     "HRA": 23,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1969,
+     "id": 118787,
+     "name": "Denny McLain",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "W": 24,
+     "L": 9,
+     "ERA": 2.8,
+     "IP": "325.0",
+     "SO": 181,
+     "BB": 67,
+     "SV": 0,
+     "GS": 41,
+     "CG": 23,
+     "SHO": 9,
+     "HRA": 25,
+     "WHIP": 1.09
+    },
+    {
+     "season": 1966,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 30,
+     "W": 27,
+     "L": 9,
+     "ERA": 1.73,
+     "IP": "323.0",
+     "SO": 317,
+     "BB": 77,
+     "SV": 0,
+     "GS": 41,
+     "CG": 27,
+     "SHO": 5,
+     "HRA": 19,
+     "WHIP": 0.98
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 118787,
+     "name": "Denny McLain"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "25 times in the 1960s a pitcher threw 300 innings. The most extreme: Denny McLain, 1968 — 336.0 IP."
+  },
+  {
+   "n": 33,
+   "rule": "young_ace",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMax": 22,
+    "filters": [
+     [
+      "W",
+      "gte",
+      18
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 111690,
+     "name": "Wally Bunker",
+     "team": "Baltimore Orioles",
+     "age": 19,
+     "W": 19,
+     "L": 5,
+     "ERA": 2.69,
+     "IP": "214.0",
+     "SO": 96,
+     "BB": 62,
+     "SV": 0,
+     "GS": 29,
+     "CG": 12,
+     "SHO": 1,
+     "HRA": 17,
+     "WHIP": 1.04
+    },
+    {
+     "season": 1966,
+     "id": 118787,
+     "name": "Denny McLain",
+     "team": "Detroit Tigers",
+     "age": 22,
+     "W": 20,
+     "L": 14,
+     "ERA": 3.92,
+     "IP": "264.1",
+     "SO": 192,
+     "BB": 104,
+     "SV": 0,
+     "GS": 38,
+     "CG": 14,
+     "SHO": 4,
+     "HRA": 42,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1969,
+     "id": 113352,
+     "name": "Larry Dierker",
+     "team": "Houston Astros",
+     "age": 22,
+     "W": 20,
+     "L": 13,
+     "ERA": 2.33,
+     "IP": "305.1",
+     "SO": 232,
+     "BB": 72,
+     "SV": 0,
+     "GS": 37,
+     "CG": 20,
+     "SHO": 4,
+     "HRA": 18,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1960,
+     "id": 113917,
+     "name": "Chuck Estrada",
+     "team": "Baltimore Orioles",
+     "age": 22,
+     "W": 18,
+     "L": 11,
+     "ERA": 3.58,
+     "IP": "208.2",
+     "SO": 144,
+     "BB": 101,
+     "SV": 2,
+     "GS": 25,
+     "CG": 12,
+     "SHO": 1,
+     "HRA": 18,
+     "WHIP": 1.26
+    }
+   ],
+   "kind": "few",
+   "score": 6,
+   "players": [
+    {
+     "id": 111690,
+     "name": "Wally Bunker"
+    },
+    {
+     "id": 118787,
+     "name": "Denny McLain"
+    },
+    {
+     "id": 113352,
+     "name": "Larry Dierker"
+    },
+    {
+     "id": 113917,
+     "name": "Chuck Estrada"
+    }
+   ],
+   "seasons": [
+    1964,
+    1966,
+    1969,
+    1960
+   ],
+   "text": "Just four pitchers of the 1960s won 18+ games at age 22 or younger: Wally Bunker (1964, 19-5 at 19); Denny McLain (1966, 20-14 at 22); Larry Dierker (1969, 20-13 at 22); Chuck Estrada (1960, 18-11 at 22)."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 110157,
+     "name": "Dick Allen"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1965,
+     "id": 110157,
+     "name": "Dick Allen",
+     "team": "Philadelphia Phillies",
+     "age": 23,
+     "PA": 707,
+     "AVG": 0.302,
+     "OBP": 0.375,
+     "SLG": 0.494,
+     "OPS": 0.869,
+     "HR": 20,
+     "RBI": 85,
+     "R": 93,
+     "H": 187,
+     "2B": 31,
+     "3B": 14,
+     "SB": 15,
+     "CS": 2,
+     "BB": 74,
+     "SO": 150,
+     "HBP": 2,
+     "GIDP": 13
+    }
+   ],
+   "among": 151,
+   "text": "Most strikeouts by a .300 hitter of the 1960s: Dick Allen, 1965 — 150 K while batting .302."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "most_sb_30hr",
+   "group": "H",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 111189,
+     "name": "Bobby Bonds"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 111189,
+     "name": "Bobby Bonds",
+     "team": "San Francisco Giants",
+     "age": 23,
+     "PA": 720,
+     "AVG": 0.259,
+     "OBP": 0.351,
+     "SLG": 0.473,
+     "OPS": 0.824,
+     "HR": 32,
+     "RBI": 90,
+     "R": 120,
+     "H": 161,
+     "2B": 25,
+     "3B": 6,
+     "SB": 45,
+     "CS": 4,
+     "BB": 81,
+     "SO": 187,
+     "HBP": 10,
+     "GIDP": 9
+    }
+   ],
+   "among": 119,
+   "text": "Most steals by a 30-homer hitter of the 1960s: Bobby Bonds, 1969 — 45 SB with 32 HR."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "fewest_k_30hr",
+   "group": "H",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 118257,
+     "name": "Felix Mantilla"
+    }
+   ],
+   "seasons": [
+    1964
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 118257,
+     "name": "Felix Mantilla",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 470,
+     "AVG": 0.289,
+     "OBP": 0.357,
+     "SLG": 0.553,
+     "OPS": 0.91,
+     "HR": 30,
+     "RBI": 64,
+     "R": 69,
+     "H": 123,
+     "2B": 20,
+     "3B": 1,
+     "SB": 0,
+     "CS": 1,
+     "BB": 41,
+     "SO": 46,
+     "HBP": 4,
+     "GIDP": 12
+    }
+   ],
+   "among": 119,
+   "text": "Fewest strikeouts by a 30-homer hitter of the 1960s: Felix Mantilla, 1964 — 46 K with 30 HR."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "most_bb_low_avg",
+   "group": "H",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 119371,
+     "name": "Joe Morgan"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Houston Astros",
+     "age": 25,
+     "PA": 657,
+     "AVG": 0.236,
+     "OBP": 0.365,
+     "SLG": 0.372,
+     "OPS": 0.737,
+     "HR": 15,
+     "RBI": 43,
+     "R": 94,
+     "H": 126,
+     "2B": 18,
+     "3B": 5,
+     "SB": 49,
+     "CS": 14,
+     "BB": 110,
+     "SO": 74,
+     "HBP": 1,
+     "GIDP": 5
+    }
+   ],
+   "among": 104,
+   "text": "Most walks by a sub-.240 hitter of the 1960s: Joe Morgan, 1969 — 110 BB while batting .236."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_rbi_per_hr",
+   "group": "H",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 121310,
+     "name": "Floyd Robinson"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 121310,
+     "name": "Floyd Robinson",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "PA": 684,
+     "AVG": 0.312,
+     "OBP": 0.384,
+     "SLG": 0.475,
+     "OPS": 0.859,
+     "HR": 11,
+     "RBI": 109,
+     "R": 89,
+     "H": 187,
+     "2B": 45,
+     "3B": 10,
+     "SB": 4,
+     "CS": 2,
+     "BB": 72,
+     "SO": 47,
+     "HBP": 2,
+     "GIDP": 10
+    }
+   ],
+   "among": 106,
+   "text": "Most RBI per home run among 100-RBI seasons: Floyd Robinson, 1962 — 109 RBI on 11 HR."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_wins_bad_era",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 120070,
+     "name": "Phil Ortega"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1965,
+     "id": 120070,
+     "name": "Phil Ortega",
+     "team": "Washington Senators",
+     "age": 25,
+     "W": 12,
+     "L": 15,
+     "ERA": 5.11,
+     "IP": "179.2",
+     "SO": 88,
+     "BB": 97,
+     "SV": 0,
+     "GS": 29,
+     "CG": 4,
+     "SHO": 2,
+     "HRA": 33,
+     "WHIP": 1.52
+    }
+   ],
+   "among": 51,
+   "text": "Most wins by a pitcher with an ERA over 5.00: Phil Ortega, 1965 — 12-15 with a 5.11 ERA."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "fewest_wins_low_era",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 111985,
+     "name": "Don Cardwell"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 111985,
+     "name": "Don Cardwell",
+     "team": "New York Mets",
+     "age": 32,
+     "W": 7,
+     "L": 13,
+     "ERA": 2.96,
+     "IP": "179.2",
+     "SO": 82,
+     "BB": 50,
+     "SV": 1,
+     "GS": 25,
+     "CG": 5,
+     "SHO": 1,
+     "HRA": 9,
+     "WHIP": 1.15
+    }
+   ],
+   "among": 213,
+   "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Don Cardwell, 1968 — 7-13 despite a 2.96 ERA."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 114028,
+     "name": "Turk Farrell"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 114028,
+     "name": "Turk Farrell",
+     "team": "Houston Colt 45's",
+     "age": 28,
+     "W": 10,
+     "L": 20,
+     "ERA": 3.02,
+     "IP": "241.2",
+     "SO": 203,
+     "BB": 55,
+     "SV": 4,
+     "GS": 29,
+     "CG": 11,
+     "SHO": 2,
+     "HRA": 21,
+     "WHIP": 1.1
+    }
+   ],
+   "among": 468,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Turk Farrell, 1962 — 10-20 with a 3.02 ERA."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "fewest_k_20w",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 113462,
+     "name": "Dick Donovan"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 113462,
+     "name": "Dick Donovan",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "W": 20,
+     "L": 10,
+     "ERA": 3.59,
+     "IP": "250.2",
+     "SO": 94,
+     "BB": 47,
+     "SV": 0,
+     "GS": 34,
+     "CG": 16,
+     "SHO": 5,
+     "HRA": 23,
+     "WHIP": 1.2
+    }
+   ],
+   "among": 73,
+   "text": "Fewest strikeouts by a 20-game winner of the 1960s: Dick Donovan, 1962 — 94 K, 20-10."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "most_ip_no_cg",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 114166,
+     "name": "Eddie Fisher"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1965,
+     "id": 114166,
+     "name": "Eddie Fisher",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "W": 15,
+     "L": 7,
+     "ERA": 2.4,
+     "IP": "165.1",
+     "SO": 90,
+     "BB": 43,
+     "SV": 24,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 13,
+     "WHIP": 0.97
+    }
+   ],
+   "among": 1669,
+   "text": "Most innings in a season without a complete game: Eddie Fisher, 1965 — 165.1 IP, 0 CG."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "most_bb_winner",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 113917,
+     "name": "Chuck Estrada"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1961,
+     "id": 113917,
+     "name": "Chuck Estrada",
+     "team": "Baltimore Orioles",
+     "age": 23,
+     "W": 15,
+     "L": 9,
+     "ERA": 3.69,
+     "IP": "212.0",
+     "SO": 160,
+     "BB": 132,
+     "SV": 0,
+     "GS": 31,
+     "CG": 6,
+     "SHO": 1,
+     "HRA": 19,
+     "WHIP": 1.37
+    }
+   ],
+   "among": 242,
+   "text": "Most walks by a 15-game winner: Chuck Estrada, 1961 — 132 BB, 15-9."
+  },
+  {
+   "n": 45,
+   "kind": "nearmiss",
+   "rule": "HR29",
+   "group": "H",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 124290,
+     "name": "Billy Williams"
+    },
+    {
+     "id": 110157,
+     "name": "Dick Allen"
+    },
+    {
+     "id": 112391,
+     "name": "Roberto Clemente"
+    }
+   ],
+   "seasons": [
+    1966,
+    1964,
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1966,
+     "id": 124290,
+     "name": "Billy Williams",
+     "team": "Chicago Cubs",
+     "age": 28,
+     "PA": 727,
+     "AVG": 0.276,
+     "OBP": 0.347,
+     "SLG": 0.461,
+     "OPS": 0.808,
+     "HR": 29,
+     "RBI": 91,
+     "R": 100,
+     "H": 179,
+     "2B": 23,
+     "3B": 5,
+     "SB": 6,
+     "CS": 3,
+     "BB": 69,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 12
+    },
+    {
+     "season": 1964,
+     "id": 110157,
+     "name": "Dick Allen",
+     "team": "Philadelphia Phillies",
+     "age": 22,
+     "PA": 708,
+     "AVG": 0.318,
+     "OBP": 0.382,
+     "SLG": 0.557,
+     "OPS": 0.939,
+     "HR": 29,
+     "RBI": 91,
+     "R": 125,
+     "H": 201,
+     "2B": 38,
+     "3B": 13,
+     "SB": 3,
+     "CS": 4,
+     "BB": 67,
+     "SO": 138,
+     "HBP": 0,
+     "GIDP": 8
+    },
+    {
+     "season": 1966,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "PA": 690,
+     "AVG": 0.317,
+     "OBP": 0.36,
+     "SLG": 0.536,
+     "OPS": 0.896,
+     "HR": 29,
+     "RBI": 119,
+     "R": 105,
+     "H": 202,
+     "2B": 31,
+     "3B": 11,
+     "SB": 7,
+     "CS": 5,
+     "BB": 46,
+     "SO": 109,
+     "HBP": 0,
+     "GIDP": 14
+    },
+    {
+     "season": 1969,
+     "id": 121697,
+     "name": "Ron Santo",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 687,
+     "AVG": 0.289,
+     "OBP": 0.384,
+     "SLG": 0.485,
+     "OPS": 0.869,
+     "HR": 29,
+     "RBI": 123,
+     "R": 97,
+     "H": 166,
+     "2B": 18,
+     "3B": 4,
+     "SB": 1,
+     "CS": 3,
+     "BB": 96,
+     "SO": 97,
+     "HBP": 2,
+     "GIDP": 21
+    },
+    {
+     "season": 1961,
+     "id": 110176,
+     "name": "Bob Allison",
+     "team": "Minnesota Twins",
+     "age": 26,
+     "PA": 677,
+     "AVG": 0.245,
+     "OBP": 0.363,
+     "SLG": 0.45,
+     "OPS": 0.813,
+     "HR": 29,
+     "RBI": 105,
+     "R": 83,
+     "H": 136,
+     "2B": 21,
+     "3B": 3,
+     "SB": 2,
+     "CS": 7,
+     "BB": 103,
+     "SO": 100,
+     "HBP": 5,
+     "GIDP": 17
+    },
+    {
+     "season": 1968,
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Atlanta Braves",
+     "age": 34,
+     "PA": 676,
+     "AVG": 0.287,
+     "OBP": 0.354,
+     "SLG": 0.498,
+     "OPS": 0.852,
+     "HR": 29,
+     "RBI": 86,
+     "R": 84,
+     "H": 174,
+     "2B": 33,
+     "3B": 4,
+     "SB": 28,
+     "CS": 5,
+     "BB": 64,
+     "SO": 62,
+     "HBP": 1,
+     "GIDP": 21
+    }
+   ],
+   "text": "21 hitter-seasons of the 1960s ended on exactly 29 home runs, one short of 30 — among them Billy Williams (1966), Dick Allen (1964), Roberto Clemente (1966)."
+  },
+  {
+   "n": 46,
+   "kind": "nearmiss",
+   "rule": "W19",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 120438,
+     "name": "Gaylord Perry"
+    },
+    {
+     "id": 113581,
+     "name": "Don Drysdale"
+    },
+    {
+     "id": 111691,
+     "name": "Jim Bunning"
+    }
+   ],
+   "seasons": [
+    1969,
+    1963,
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "W": 19,
+     "L": 14,
+     "ERA": 2.49,
+     "IP": "325.1",
+     "SO": 233,
+     "BB": 91,
+     "SV": 0,
+     "GS": 39,
+     "CG": 26,
+     "SHO": 3,
+     "HRA": 23,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1963,
+     "id": 113581,
+     "name": "Don Drysdale",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "W": 19,
+     "L": 17,
+     "ERA": 2.63,
+     "IP": "315.1",
+     "SO": 251,
+     "BB": 57,
+     "SV": 0,
+     "GS": 42,
+     "CG": 17,
+     "SHO": 3,
+     "HRA": 25,
+     "WHIP": 1.09
+    },
+    {
+     "season": 1966,
+     "id": 111691,
+     "name": "Jim Bunning",
+     "team": "Philadelphia Phillies",
+     "age": 34,
+     "W": 19,
+     "L": 14,
+     "ERA": 2.41,
+     "IP": "314.0",
+     "SO": 252,
+     "BB": 55,
+     "SV": 1,
+     "GS": 41,
+     "CG": 16,
+     "SHO": 5,
+     "HRA": 26,
+     "WHIP": 1
+    },
+    {
+     "season": 1965,
+     "id": 111691,
+     "name": "Jim Bunning",
+     "team": "Philadelphia Phillies",
+     "age": 33,
+     "W": 19,
+     "L": 9,
+     "ERA": 2.6,
+     "IP": "291.0",
+     "SO": 268,
+     "BB": 62,
+     "SV": 0,
+     "GS": 39,
+     "CG": 15,
+     "SHO": 7,
+     "HRA": 23,
+     "WHIP": 1.08
+    },
+    {
+     "season": 1964,
+     "id": 114756,
+     "name": "Bob Gibson",
+     "team": "St. Louis Cardinals",
+     "age": 28,
+     "W": 19,
+     "L": 12,
+     "ERA": 3.01,
+     "IP": "287.1",
+     "SO": 245,
+     "BB": 86,
+     "SV": 1,
+     "GS": 36,
+     "CG": 17,
+     "SHO": 2,
+     "HRA": 25,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1964,
+     "id": 111691,
+     "name": "Jim Bunning",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "W": 19,
+     "L": 8,
+     "ERA": 2.63,
+     "IP": "284.1",
+     "SO": 219,
+     "BB": 46,
+     "SV": 2,
+     "GS": 39,
+     "CG": 13,
+     "SHO": 5,
+     "HRA": 23,
+     "WHIP": 1.03
+    }
+   ],
+   "text": "22 pitcher-seasons of the 1960s ended on exactly 19 wins, one short of 20 — among them Gaylord Perry (1969), Don Drysdale (1963), Jim Bunning (1966)."
+  },
+  {
+   "n": 47,
+   "kind": "streak",
+   "rule": "W20",
+   "group": "P",
+   "decade": 1960,
+   "score": 6,
+   "players": [
+    {
+     "id": 118283,
+     "name": "Juan Marichal"
+    }
+   ],
+   "seasons": [
+    1963,
+    1964,
+    1965,
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1963,
+     "id": 118283,
+     "name": "Juan Marichal",
+     "team": "San Francisco Giants",
+     "age": 25,
+     "W": 25,
+     "L": 8,
+     "ERA": 2.41,
+     "IP": "321.1",
+     "SO": 248,
+     "BB": 61,
+     "SV": 0,
+     "GS": 40,
+     "CG": 18,
+     "SHO": 5,
+     "HRA": 27,
+     "WHIP": 1
+    },
+    {
+     "season": 1964,
+     "id": 118283,
+     "name": "Juan Marichal",
+     "team": "San Francisco Giants",
+     "age": 26,
+     "W": 21,
+     "L": 8,
+     "ERA": 2.48,
+     "IP": "269.0",
+     "SO": 206,
+     "BB": 52,
+     "SV": 0,
+     "GS": 33,
+     "CG": 22,
+     "SHO": 4,
+     "HRA": 18,
+     "WHIP": 1.09
+    },
+    {
+     "season": 1965,
+     "id": 118283,
+     "name": "Juan Marichal",
+     "team": "San Francisco Giants",
+     "age": 27,
+     "W": 22,
+     "L": 13,
+     "ERA": 2.13,
+     "IP": "295.1",
+     "SO": 240,
+     "BB": 46,
+     "SV": 1,
+     "GS": 37,
+     "CG": 24,
+     "SHO": 10,
+     "HRA": 27,
+     "WHIP": 0.91
+    },
+    {
+     "season": 1966,
+     "id": 118283,
+     "name": "Juan Marichal",
+     "team": "San Francisco Giants",
+     "age": 28,
+     "W": 25,
+     "L": 6,
+     "ERA": 2.23,
+     "IP": "307.1",
+     "SO": 222,
+     "BB": 36,
+     "SV": 0,
+     "GS": 36,
+     "CG": 25,
+     "SHO": 4,
+     "HRA": 32,
+     "WHIP": 0.86
+    }
+   ],
+   "text": "Juan Marichal won 20 games in 4 straight seasons (1963-66), the longest run of the 1960s."
+  },
+  {
+   "n": 48,
+   "kind": "team",
+   "rule": "100w",
+   "group": "T",
+   "decade": 1960,
+   "score": 6,
+   "players": [],
+   "seasons": [
+    1961
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 109,
+     "losses": 53,
+     "runsScored": 827,
+     "runsAllowed": 612,
+     "runDifferential": 215,
+     "leagueRank": 1,
+     "season": 1961
+    },
+    {
+     "id": 110,
+     "name": "Orioles",
+     "wins": 109,
+     "losses": 53,
+     "runsScored": 779,
+     "runsAllowed": 517,
+     "runDifferential": 262,
+     "leagueRank": 1,
+     "season": 1969
+    },
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 104,
+     "losses": 57,
+     "runsScored": 714,
+     "runsAllowed": 547,
+     "runDifferential": 167,
+     "leagueRank": 1,
+     "season": 1963
+    },
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 671,
+     "runsAllowed": 492,
+     "runDifferential": 179,
+     "leagueRank": 1,
+     "season": 1968
+    },
+    {
+     "id": 142,
+     "name": "Twins",
+     "wins": 102,
+     "losses": 60,
+     "runsScored": 774,
+     "runsAllowed": 600,
+     "runDifferential": 174,
+     "leagueRank": 1,
+     "season": 1965
+    },
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 101,
+     "losses": 61,
+     "runsScored": 841,
+     "runsAllowed": 671,
+     "runDifferential": 170,
+     "leagueRank": 2,
+     "season": 1961
+    }
+   ],
+   "text": "10 teams of the 1960s won 100 games; the best record was the 1961 Yankees at 109-53."
+  },
+  {
+   "n": 49,
+   "kind": "age",
+   "rule": "age_30hr_young",
+   "group": "H",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 112557,
+     "name": "Tony Conigliaro"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1965,
+     "id": 112557,
+     "name": "Tony Conigliaro",
+     "team": "Boston Red Sox",
+     "age": 20,
+     "PA": 586,
+     "AVG": 0.269,
+     "OBP": 0.338,
+     "SLG": 0.512,
+     "OPS": 0.85,
+     "HR": 32,
+     "RBI": 82,
+     "R": 82,
+     "H": 140,
+     "2B": 21,
+     "3B": 5,
+     "SB": 4,
+     "CS": 2,
+     "BB": 51,
+     "SO": 116,
+     "HBP": 5,
+     "GIDP": 9
+    }
+   ],
+   "text": "Youngest player of the 1960s to hit 30 home runs: Tony Conigliaro, age 20 in 1965 — 32 HR."
+  },
+  {
+   "n": 50,
+   "kind": "age",
+   "rule": "age_30hr_old",
+   "group": "H",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 110533,
+     "name": "Ernie Banks"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 110533,
+     "name": "Ernie Banks",
+     "team": "Chicago Cubs",
+     "age": 37,
+     "PA": 595,
+     "AVG": 0.246,
+     "OBP": 0.287,
+     "SLG": 0.469,
+     "OPS": 0.756,
+     "HR": 32,
+     "RBI": 83,
+     "R": 71,
+     "H": 136,
+     "2B": 27,
+     "3B": 0,
+     "SB": 2,
+     "CS": 0,
+     "BB": 27,
+     "SO": 67,
+     "HBP": 5,
+     "GIDP": 12
+    }
+   ],
+   "text": "Oldest player of the 1960s to hit 30 home runs: Ernie Banks, age 37 in 1968 — 32 HR."
+  },
+  {
+   "n": 51,
+   "kind": "age",
+   "rule": "age_330_young",
+   "group": "H",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 120590,
+     "name": "Vada Pinson"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1961,
+     "id": 120590,
+     "name": "Vada Pinson",
+     "team": "Cincinnati Reds",
+     "age": 22,
+     "PA": 659,
+     "AVG": 0.343,
+     "OBP": 0.379,
+     "SLG": 0.504,
+     "OPS": 0.883,
+     "HR": 16,
+     "RBI": 87,
+     "R": 101,
+     "H": 208,
+     "2B": 34,
+     "3B": 8,
+     "SB": 23,
+     "CS": 10,
+     "BB": 39,
+     "SO": 63,
+     "HBP": 1,
+     "GIDP": 9
+    }
+   ],
+   "text": "Youngest player of the 1960s to bat .330 (500+ PA): Vada Pinson, age 22 in 1961 — .343."
+  },
+  {
+   "n": 52,
+   "kind": "age",
+   "rule": "age_330_old",
+   "group": "H",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 119602,
+     "name": "Stan Musial"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 119602,
+     "name": "Stan Musial",
+     "team": "St. Louis Cardinals",
+     "age": 41,
+     "PA": 505,
+     "AVG": 0.33,
+     "OBP": 0.416,
+     "SLG": 0.508,
+     "OPS": 0.924,
+     "HR": 19,
+     "RBI": 82,
+     "R": 57,
+     "H": 143,
+     "2B": 18,
+     "3B": 1,
+     "SB": 3,
+     "CS": 0,
+     "BB": 64,
+     "SO": 46,
+     "HBP": 3,
+     "GIDP": 13
+    }
+   ],
+   "text": "Oldest player of the 1960s to bat .330 (500+ PA): Stan Musial, age 41 in 1962 — .330."
+  },
+  {
+   "n": 53,
+   "kind": "age",
+   "rule": "age_100rbi_young",
+   "group": "H",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 116164,
+     "name": "Willie Horton"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1965,
+     "id": 116164,
+     "name": "Willie Horton",
+     "team": "Detroit Tigers",
+     "age": 22,
+     "PA": 572,
+     "AVG": 0.273,
+     "OBP": 0.34,
+     "SLG": 0.49,
+     "OPS": 0.83,
+     "HR": 29,
+     "RBI": 104,
+     "R": 69,
+     "H": 140,
+     "2B": 20,
+     "3B": 2,
+     "SB": 5,
+     "CS": 9,
+     "BB": 48,
+     "SO": 101,
+     "HBP": 6,
+     "GIDP": 12
+    }
+   ],
+   "text": "Youngest player of the 1960s to drive in 100 runs: Willie Horton, age 22 in 1965 — 104 RBI."
+  },
+  {
+   "n": 54,
+   "kind": "age",
+   "rule": "age_sb_young",
+   "group": "H",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 116440,
+     "name": "Sonny Jackson"
+    }
+   ],
+   "seasons": [
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1966,
+     "id": 116440,
+     "name": "Sonny Jackson",
+     "team": "Houston Astros",
+     "age": 21,
+     "PA": 670,
+     "AVG": 0.292,
+     "OBP": 0.341,
+     "SLG": 0.334,
+     "OPS": 0.675,
+     "HR": 3,
+     "RBI": 25,
+     "R": 80,
+     "H": 174,
+     "2B": 6,
+     "3B": 5,
+     "SB": 49,
+     "CS": 14,
+     "BB": 42,
+     "SO": 53,
+     "HBP": 3,
+     "GIDP": 9
+    }
+   ],
+   "text": "Youngest player of the 1960s to steal 40 bases: Sonny Jackson, age 21 in 1966 — 49 SB."
+  },
+  {
+   "n": 55,
+   "kind": "age",
+   "rule": "age_k_young",
+   "group": "P",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 119822,
+     "name": "Gary Nolan"
+    }
+   ],
+   "seasons": [
+    1967
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1967,
+     "id": 119822,
+     "name": "Gary Nolan",
+     "team": "Cincinnati Reds",
+     "age": 19,
+     "W": 14,
+     "L": 8,
+     "ERA": 2.58,
+     "IP": "226.2",
+     "SO": 206,
+     "BB": 62,
+     "SV": 0,
+     "GS": 32,
+     "CG": 8,
+     "SHO": 5,
+     "HRA": 18,
+     "WHIP": 1.13
+    }
+   ],
+   "text": "Youngest player of the 1960s to strike out 200: Gary Nolan, age 19 in 1967 — 206 K."
+  },
+  {
+   "n": 56,
+   "kind": "age",
+   "rule": "age_k_old",
+   "group": "P",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111691,
+     "name": "Jim Bunning"
+    }
+   ],
+   "seasons": [
+    1967
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1967,
+     "id": 111691,
+     "name": "Jim Bunning",
+     "team": "Philadelphia Phillies",
+     "age": 35,
+     "W": 17,
+     "L": 15,
+     "ERA": 2.29,
+     "IP": "302.1",
+     "SO": 253,
+     "BB": 73,
+     "SV": 0,
+     "GS": 40,
+     "CG": 16,
+     "SHO": 6,
+     "HRA": 18,
+     "WHIP": 1.04
+    }
+   ],
+   "text": "Oldest player of the 1960s to strike out 200: Jim Bunning, age 35 in 1967 — 253 K."
+  },
+  {
+   "n": 57,
+   "kind": "age",
+   "rule": "age_era_young",
+   "group": "P",
+   "decade": 1960,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111690,
+     "name": "Wally Bunker"
+    }
+   ],
+   "seasons": [
+    1964
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1964,
+     "id": 111690,
+     "name": "Wally Bunker",
+     "team": "Baltimore Orioles",
+     "age": 19,
+     "W": 19,
+     "L": 5,
+     "ERA": 2.69,
+     "IP": "214.0",
+     "SO": 96,
+     "BB": 62,
+     "SV": 0,
+     "GS": 29,
+     "CG": 12,
+     "SHO": 1,
+     "HRA": 17,
+     "WHIP": 1.04
+    }
+   ],
+   "text": "Youngest player of the 1960s to post a qualified ERA under 2.75: Wally Bunker, age 19 in 1964 — 2.69 ERA."
+  },
+  {
+   "n": 58,
+   "kind": "teammates",
+   "rule": "rbi_trio",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 121311,
+     "name": "Frank Robinson"
+    },
+    {
+     "id": 120719,
+     "name": "Boog Powell"
+    },
+    {
+     "id": 121301,
+     "name": "Brooks Robinson"
+    }
+   ],
+   "seasons": [
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1966,
+     "id": 121311,
+     "name": "Frank Robinson",
+     "team": "Baltimore Orioles",
+     "age": 30,
+     "PA": 680,
+     "AVG": 0.316,
+     "OBP": 0.41,
+     "SLG": 0.637,
+     "OPS": 1.047,
+     "HR": 49,
+     "RBI": 122,
+     "R": 122,
+     "H": 182,
+     "2B": 34,
+     "3B": 2,
+     "SB": 8,
+     "CS": 5,
+     "BB": 87,
+     "SO": 90,
+     "HBP": 10,
+     "GIDP": 24
+    },
+    {
+     "season": 1966,
+     "id": 120719,
+     "name": "Boog Powell",
+     "team": "Baltimore Orioles",
+     "age": 24,
+     "PA": 565,
+     "AVG": 0.287,
+     "OBP": 0.372,
+     "SLG": 0.532,
+     "OPS": 0.904,
+     "HR": 34,
+     "RBI": 109,
+     "R": 78,
+     "H": 141,
+     "2B": 18,
+     "3B": 0,
+     "SB": 0,
+     "CS": 4,
+     "BB": 67,
+     "SO": 125,
+     "HBP": 1,
+     "GIDP": 8
+    },
+    {
+     "season": 1966,
+     "id": 121301,
+     "name": "Brooks Robinson",
+     "team": "Baltimore Orioles",
+     "age": 29,
+     "PA": 686,
+     "AVG": 0.269,
+     "OBP": 0.333,
+     "SLG": 0.444,
+     "OPS": 0.777,
+     "HR": 23,
+     "RBI": 100,
+     "R": 91,
+     "H": 167,
+     "2B": 35,
+     "3B": 2,
+     "SB": 2,
+     "CS": 3,
+     "BB": 56,
+     "SO": 36,
+     "HBP": 5,
+     "GIDP": 18
+    }
+   ],
+   "text": "2 teams of the 1960s had three players at 100+ RBI; the biggest pairing was the 1966 Baltimore Orioles — Frank Robinson 122, Boog Powell 109, Brooks Robinson 100."
+  },
+  {
+   "n": 59,
+   "kind": "teammates",
+   "rule": "hits_pair",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 115176,
+     "name": "Dick Groat"
+    },
+    {
+     "id": 124191,
+     "name": "Bill White"
+    },
+    {
+     "id": 114248,
+     "name": "Curt Flood"
+    }
+   ],
+   "seasons": [
+    1963
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1963,
+     "id": 115176,
+     "name": "Dick Groat",
+     "team": "St. Louis Cardinals",
+     "age": 32,
+     "PA": 704,
+     "AVG": 0.319,
+     "OBP": 0.377,
+     "SLG": 0.45,
+     "OPS": 0.827,
+     "HR": 6,
+     "RBI": 73,
+     "R": 85,
+     "H": 201,
+     "2B": 43,
+     "3B": 11,
+     "SB": 3,
+     "CS": 1,
+     "BB": 56,
+     "SO": 58,
+     "HBP": 6,
+     "GIDP": 18
+    },
+    {
+     "season": 1963,
+     "id": 124191,
+     "name": "Bill White",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 726,
+     "AVG": 0.304,
+     "OBP": 0.36,
+     "SLG": 0.491,
+     "OPS": 0.851,
+     "HR": 27,
+     "RBI": 109,
+     "R": 106,
+     "H": 200,
+     "2B": 26,
+     "3B": 8,
+     "SB": 10,
+     "CS": 9,
+     "BB": 59,
+     "SO": 100,
+     "HBP": 0,
+     "GIDP": 5
+    },
+    {
+     "season": 1963,
+     "id": 114248,
+     "name": "Curt Flood",
+     "team": "St. Louis Cardinals",
+     "age": 25,
+     "PA": 714,
+     "AVG": 0.302,
+     "OBP": 0.345,
+     "SLG": 0.403,
+     "OPS": 0.748,
+     "HR": 5,
+     "RBI": 63,
+     "R": 112,
+     "H": 200,
+     "2B": 34,
+     "3B": 9,
+     "SB": 17,
+     "CS": 12,
+     "BB": 42,
+     "SO": 57,
+     "HBP": 2,
+     "GIDP": 5
+    }
+   ],
+   "text": "4 teams of the 1960s had two players at 200+ hits; the biggest pairing was the 1963 St. Louis Cardinals — Dick Groat 201, Bill White 200, Curt Flood 200."
+  },
+  {
+   "n": 60,
+   "kind": "teammates",
+   "rule": "k200_pair",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 124385,
+     "name": "Don Wilson"
+    },
+    {
+     "id": 113352,
+     "name": "Larry Dierker"
+    },
+    {
+     "id": 115146,
+     "name": "Tom Griffin"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1969,
+     "id": 124385,
+     "name": "Don Wilson",
+     "team": "Houston Astros",
+     "age": 24,
+     "W": 16,
+     "L": 12,
+     "ERA": 4,
+     "IP": "225.0",
+     "SO": 235,
+     "BB": 97,
+     "SV": 0,
+     "GS": 34,
+     "CG": 13,
+     "SHO": 1,
+     "HRA": 16,
+     "WHIP": 1.36
+    },
+    {
+     "season": 1969,
+     "id": 113352,
+     "name": "Larry Dierker",
+     "team": "Houston Astros",
+     "age": 22,
+     "W": 20,
+     "L": 13,
+     "ERA": 2.33,
+     "IP": "305.1",
+     "SO": 232,
+     "BB": 72,
+     "SV": 0,
+     "GS": 37,
+     "CG": 20,
+     "SHO": 4,
+     "HRA": 18,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1969,
+     "id": 115146,
+     "name": "Tom Griffin",
+     "team": "Houston Astros",
+     "age": 21,
+     "W": 11,
+     "L": 10,
+     "ERA": 3.54,
+     "IP": "188.1",
+     "SO": 200,
+     "BB": 93,
+     "SV": 0,
+     "GS": 31,
+     "CG": 6,
+     "SHO": 3,
+     "HRA": 19,
+     "WHIP": 1.32
+    }
+   ],
+   "text": "16 teams of the 1960s had two players at 200+ strikeouts; the biggest pairing was the 1969 Houston Astros — Don Wilson 235, Larry Dierker 232, Tom Griffin 200."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "dec_k_hit",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 116205,
+     "name": "Frank Howard"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116205,
+     "name": "Frank Howard",
+     "n": 10,
+     "HR": 288,
+     "H": 1315,
+     "RBI": 835,
+     "SB": 5,
+     "R": 654,
+     "BB": 500,
+     "SO": 1103,
+     "2B": 185,
+     "3B": 30,
+     "PA": 5342
+    }
+   ],
+   "text": "Most strikeouts by a hitter in the 1960s: Frank Howard, 1103."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "dec_w",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 118283,
+     "name": "Juan Marichal"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 118283,
+     "name": "Juan Marichal",
+     "n": 10,
+     "W": 191,
+     "L": 88,
+     "SO": 1840,
+     "SV": 2,
+     "SHO": 45,
+     "CG": 197,
+     "OUTS": 7650,
+     "BB": 503
+    }
+   ],
+   "text": "Most wins of the 1960s: Juan Marichal, 191."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "dec_l",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 114173,
+     "name": "Jack Fisher"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 114173,
+     "name": "Jack Fisher",
+     "n": 10,
+     "W": 85,
+     "L": 133,
+     "SO": 965,
+     "SV": 7,
+     "SHO": 8,
+     "CG": 61,
+     "OUTS": 5661,
+     "BB": 567
+    }
+   ],
+   "text": "Most losses of the 1960s: Jack Fisher, 133 — and 85 wins."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "dec_k",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 114756,
+     "name": "Bob Gibson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 114756,
+     "name": "Bob Gibson",
+     "n": 10,
+     "W": 164,
+     "L": 105,
+     "SO": 2071,
+     "SV": 4,
+     "SHO": 41,
+     "CG": 164,
+     "OUTS": 7341,
+     "BB": 822
+    }
+   ],
+   "text": "Most strikeouts of the 1960s: Bob Gibson, 2071."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "dec_sv",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 124261,
+     "name": "Hoyt Wilhelm"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 124261,
+     "name": "Hoyt Wilhelm",
+     "n": 10,
+     "W": 75,
+     "L": 65,
+     "SO": 872,
+     "SV": 152,
+     "SHO": 1,
+     "CG": 3,
+     "OUTS": 3310,
+     "BB": 303
+    }
+   ],
+   "text": "Most saves of the 1960s: Hoyt Wilhelm, 152."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "dec_bb_pit",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [
+    {
+     "id": 110550,
+     "name": "Steve Barber"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 110550,
+     "name": "Steve Barber",
+     "n": 10,
+     "W": 111,
+     "L": 96,
+     "SO": 1144,
+     "SV": 4,
+     "SHO": 21,
+     "CG": 59,
+     "OUTS": 5181,
+     "BB": 834
+    }
+   ],
+   "text": "Most walks issued in the 1960s: Steve Barber, 834."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "n_30hr_most",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 10
+    },
+    {
+     "season": 1961,
+     "count": 13
+    },
+    {
+     "season": 1962,
+     "count": 14
+    },
+    {
+     "season": 1963,
+     "count": 8
+    },
+    {
+     "season": 1964,
+     "count": 15
+    },
+    {
+     "season": 1965,
+     "count": 12
+    },
+    {
+     "season": 1966,
+     "count": 15
+    },
+    {
+     "season": 1967,
+     "count": 8
+    },
+    {
+     "season": 1968,
+     "count": 7
+    },
+    {
+     "season": 1969,
+     "count": 17
+    }
+   ],
+   "text": "1969 had 17 30-homer hitters, the most of any season in the 1960s."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "n_30hr_least",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 10
+    },
+    {
+     "season": 1961,
+     "count": 13
+    },
+    {
+     "season": 1962,
+     "count": 14
+    },
+    {
+     "season": 1963,
+     "count": 8
+    },
+    {
+     "season": 1964,
+     "count": 15
+    },
+    {
+     "season": 1965,
+     "count": 12
+    },
+    {
+     "season": 1966,
+     "count": 15
+    },
+    {
+     "season": 1967,
+     "count": 8
+    },
+    {
+     "season": 1968,
+     "count": 7
+    },
+    {
+     "season": 1969,
+     "count": 17
+    }
+   ],
+   "text": "1968 had just 7 30-homer hitters, the fewest of any season in the 1960s."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "n_300_most",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 9
+    },
+    {
+     "season": 1961,
+     "count": 18
+    },
+    {
+     "season": 1962,
+     "count": 23
+    },
+    {
+     "season": 1963,
+     "count": 15
+    },
+    {
+     "season": 1964,
+     "count": 21
+    },
+    {
+     "season": 1965,
+     "count": 13
+    },
+    {
+     "season": 1966,
+     "count": 12
+    },
+    {
+     "season": 1967,
+     "count": 16
+    },
+    {
+     "season": 1968,
+     "count": 6
+    },
+    {
+     "season": 1969,
+     "count": 18
+    }
+   ],
+   "text": "1962 had 23 .300 hitters (500+ PA), the most of any season in the 1960s."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "n_300_least",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 9
+    },
+    {
+     "season": 1961,
+     "count": 18
+    },
+    {
+     "season": 1962,
+     "count": 23
+    },
+    {
+     "season": 1963,
+     "count": 15
+    },
+    {
+     "season": 1964,
+     "count": 21
+    },
+    {
+     "season": 1965,
+     "count": 13
+    },
+    {
+     "season": 1966,
+     "count": 12
+    },
+    {
+     "season": 1967,
+     "count": 16
+    },
+    {
+     "season": 1968,
+     "count": 6
+    },
+    {
+     "season": 1969,
+     "count": 18
+    }
+   ],
+   "text": "1968 had just 6 .300 hitters (500+ PA), the fewest of any season in the 1960s."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "n_100rbi_most",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 8
+    },
+    {
+     "season": 1961,
+     "count": 13
+    },
+    {
+     "season": 1962,
+     "count": 18
+    },
+    {
+     "season": 1963,
+     "count": 8
+    },
+    {
+     "season": 1964,
+     "count": 13
+    },
+    {
+     "season": 1965,
+     "count": 10
+    },
+    {
+     "season": 1966,
+     "count": 12
+    },
+    {
+     "season": 1967,
+     "count": 7
+    },
+    {
+     "season": 1968,
+     "count": 3
+    },
+    {
+     "season": 1969,
+     "count": 14
+    }
+   ],
+   "text": "1962 had 18 100-RBI hitters, the most of any season in the 1960s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "n_100rbi_least",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 8
+    },
+    {
+     "season": 1961,
+     "count": 13
+    },
+    {
+     "season": 1962,
+     "count": 18
+    },
+    {
+     "season": 1963,
+     "count": 8
+    },
+    {
+     "season": 1964,
+     "count": 13
+    },
+    {
+     "season": 1965,
+     "count": 10
+    },
+    {
+     "season": 1966,
+     "count": 12
+    },
+    {
+     "season": 1967,
+     "count": 7
+    },
+    {
+     "season": 1968,
+     "count": 3
+    },
+    {
+     "season": 1969,
+     "count": 14
+    }
+   ],
+   "text": "1968 had just 3 100-RBI hitters, the fewest of any season in the 1960s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "n_sb_most",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 2
+    },
+    {
+     "season": 1961,
+     "count": 1
+    },
+    {
+     "season": 1962,
+     "count": 1
+    },
+    {
+     "season": 1963,
+     "count": 2
+    },
+    {
+     "season": 1964,
+     "count": 4
+    },
+    {
+     "season": 1965,
+     "count": 4
+    },
+    {
+     "season": 1966,
+     "count": 5
+    },
+    {
+     "season": 1967,
+     "count": 2
+    },
+    {
+     "season": 1968,
+     "count": 4
+    },
+    {
+     "season": 1969,
+     "count": 8
+    }
+   ],
+   "text": "1969 had 8 40-steal players, the most of any season in the 1960s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "n_sb_least",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1961
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 2
+    },
+    {
+     "season": 1961,
+     "count": 1
+    },
+    {
+     "season": 1962,
+     "count": 1
+    },
+    {
+     "season": 1963,
+     "count": 2
+    },
+    {
+     "season": 1964,
+     "count": 4
+    },
+    {
+     "season": 1965,
+     "count": 4
+    },
+    {
+     "season": 1966,
+     "count": 5
+    },
+    {
+     "season": 1967,
+     "count": 2
+    },
+    {
+     "season": 1968,
+     "count": 4
+    },
+    {
+     "season": 1969,
+     "count": 8
+    }
+   ],
+   "text": "1961 had just 1 40-steal players, the fewest of any season in the 1960s."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "n_200h_most",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1964
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 0
+    },
+    {
+     "season": 1961,
+     "count": 2
+    },
+    {
+     "season": 1962,
+     "count": 4
+    },
+    {
+     "season": 1963,
+     "count": 5
+    },
+    {
+     "season": 1964,
+     "count": 6
+    },
+    {
+     "season": 1965,
+     "count": 3
+    },
+    {
+     "season": 1966,
+     "count": 3
+    },
+    {
+     "season": 1967,
+     "count": 2
+    },
+    {
+     "season": 1968,
+     "count": 2
+    },
+    {
+     "season": 1969,
+     "count": 2
+    }
+   ],
+   "text": "1964 had 6 200-hit seasons, the most of any season in the 1960s."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "n_200h_least",
+   "group": "H",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1960
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 0
+    },
+    {
+     "season": 1961,
+     "count": 2
+    },
+    {
+     "season": 1962,
+     "count": 4
+    },
+    {
+     "season": 1963,
+     "count": 5
+    },
+    {
+     "season": 1964,
+     "count": 6
+    },
+    {
+     "season": 1965,
+     "count": 3
+    },
+    {
+     "season": 1966,
+     "count": 3
+    },
+    {
+     "season": 1967,
+     "count": 2
+    },
+    {
+     "season": 1968,
+     "count": 2
+    },
+    {
+     "season": 1969,
+     "count": 2
+    }
+   ],
+   "text": "1960 had no 200-hit seasons at all — the only season of the 1960s without one."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "n_20w_most",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 3
+    },
+    {
+     "season": 1961,
+     "count": 4
+    },
+    {
+     "season": 1962,
+     "count": 8
+    },
+    {
+     "season": 1963,
+     "count": 10
+    },
+    {
+     "season": 1964,
+     "count": 5
+    },
+    {
+     "season": 1965,
+     "count": 9
+    },
+    {
+     "season": 1966,
+     "count": 7
+    },
+    {
+     "season": 1967,
+     "count": 5
+    },
+    {
+     "season": 1968,
+     "count": 7
+    },
+    {
+     "season": 1969,
+     "count": 15
+    }
+   ],
+   "text": "1969 had 15 20-game winners, the most of any season in the 1960s."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "n_20w_least",
+   "group": "P",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1960
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 3
+    },
+    {
+     "season": 1961,
+     "count": 4
+    },
+    {
+     "season": 1962,
+     "count": 8
+    },
+    {
+     "season": 1963,
+     "count": 10
+    },
+    {
+     "season": 1964,
+     "count": 5
+    },
+    {
+     "season": 1965,
+     "count": 9
+    },
+    {
+     "season": 1966,
+     "count": 7
+    },
+    {
+     "season": 1967,
+     "count": 5
+    },
+    {
+     "season": 1968,
+     "count": 7
+    },
+    {
+     "season": 1969,
+     "count": 15
+    }
+   ],
+   "text": "1960 had just 3 20-game winners, the fewest of any season in the 1960s."
+  },
+  {
+   "n": 79,
+   "kind": "team",
+   "rule": "100l",
+   "group": "T",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 40,
+     "losses": 120,
+     "runsScored": 617,
+     "runsAllowed": 948,
+     "runDifferential": -331,
+     "leagueRank": 10,
+     "season": 1962
+    },
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 50,
+     "losses": 112,
+     "runsScored": 495,
+     "runsAllowed": 752,
+     "runDifferential": -257,
+     "leagueRank": 10,
+     "season": 1965
+    },
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 51,
+     "losses": 111,
+     "runsScored": 501,
+     "runsAllowed": 774,
+     "runDifferential": -273,
+     "leagueRank": 10,
+     "season": 1963
+    },
+    {
+     "id": 120,
+     "name": "Expos",
+     "wins": 52,
+     "losses": 110,
+     "runsScored": 582,
+     "runsAllowed": 791,
+     "runDifferential": -209,
+     "leagueRank": 12,
+     "season": 1969
+    },
+    {
+     "id": 135,
+     "name": "Padres",
+     "wins": 52,
+     "losses": 110,
+     "runsScored": 468,
+     "runsAllowed": 746,
+     "runDifferential": -278,
+     "leagueRank": 11,
+     "season": 1969
+    },
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 53,
+     "losses": 109,
+     "runsScored": 569,
+     "runsAllowed": 776,
+     "runDifferential": -207,
+     "leagueRank": 10,
+     "season": 1964
+    }
+   ],
+   "text": "18 teams of the 1960s lost 100 games; the worst was the 1962 Mets at 40-120."
+  },
+  {
+   "n": 80,
+   "kind": "team",
+   "rule": "best_diff",
+   "group": "T",
+   "decade": 1960,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 110,
+     "name": "Orioles",
+     "wins": 109,
+     "losses": 53,
+     "runsScored": 779,
+     "runsAllowed": 517,
+     "runDifferential": 262,
+     "leagueRank": 1,
+     "season": 1969
+    }
+   ],
+   "text": "Best run differential of the 1960s: the 1969 Orioles, +262 (779 scored, 517 allowed)."
+  },
+  {
+   "n": 81,
+   "rule": "hr_allowed_winner",
+   "group": "P",
+   "decade": 1960,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 123200,
+     "name": "Ralph Terry",
+     "team": "New York Yankees",
+     "age": 26,
+     "W": 23,
+     "L": 12,
+     "ERA": 3.19,
+     "IP": "298.2",
+     "SO": 176,
+     "BB": 57,
+     "SV": 2,
+     "GS": 39,
+     "CG": 14,
+     "SHO": 3,
+     "HRA": 40,
+     "WHIP": 1.05
+    },
+    {
+     "season": 1966,
+     "id": 118787,
+     "name": "Denny McLain",
+     "team": "Detroit Tigers",
+     "age": 22,
+     "W": 20,
+     "L": 14,
+     "ERA": 3.92,
+     "IP": "264.1",
+     "SO": 192,
+     "BB": 104,
+     "SV": 0,
+     "GS": 38,
+     "CG": 14,
+     "SHO": 4,
+     "HRA": 42,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1962,
+     "id": 118152,
+     "name": "Art Mahaffey",
+     "team": "Philadelphia Phillies",
+     "age": 24,
+     "W": 19,
+     "L": 14,
+     "ERA": 3.94,
+     "IP": "274.0",
+     "SO": 177,
+     "BB": 81,
+     "SV": 0,
+     "GS": 39,
+     "CG": 20,
+     "SHO": 2,
+     "HRA": 36,
+     "WHIP": 1.22
+    },
+    {
+     "season": 1960,
+     "id": 120442,
+     "name": "Jim Perry",
+     "team": "Cleveland Indians",
+     "age": 24,
+     "W": 18,
+     "L": 10,
+     "ERA": 3.62,
+     "IP": "261.1",
+     "SO": 120,
+     "BB": 91,
+     "SV": 1,
+     "GS": 36,
+     "CG": 10,
+     "SHO": 4,
+     "HRA": 35,
+     "WHIP": 1.33
+    },
+    {
+     "season": 1967,
+     "id": 118787,
+     "name": "Denny McLain",
+     "team": "Detroit Tigers",
+     "age": 23,
+     "W": 17,
+     "L": 16,
+     "ERA": 3.79,
+     "IP": "235.0",
+     "SO": 161,
+     "BB": 73,
+     "SV": 0,
+     "GS": 37,
+     "CG": 10,
+     "SHO": 3,
+     "HRA": 35,
+     "WHIP": 1.2
+    }
+   ],
+   "kind": "list",
+   "score": 4.575,
+   "players": [
+    {
+     "id": 123200,
+     "name": "Ralph Terry"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "text": "5 times in the 1960s a pitcher allowed 35+ homers and still won 15. The most extreme: Ralph Terry, 1962 — 40 HR allowed, 23-12."
+  },
+  {
+   "n": 82,
+   "kind": "nearmiss",
+   "rule": "H199",
+   "group": "H",
+   "decade": 1960,
+   "score": 4.5,
+   "players": [
+    {
+     "id": 115176,
+     "name": "Dick Groat"
+    },
+    {
+     "id": 124191,
+     "name": "Bill White"
+    }
+   ],
+   "seasons": [
+    1962,
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 115176,
+     "name": "Dick Groat",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "PA": 723,
+     "AVG": 0.294,
+     "OBP": 0.325,
+     "SLG": 0.361,
+     "OPS": 0.686,
+     "HR": 2,
+     "RBI": 61,
+     "R": 76,
+     "H": 199,
+     "2B": 34,
+     "3B": 3,
+     "SB": 2,
+     "CS": 1,
+     "BB": 31,
+     "SO": 61,
+     "HBP": 3,
+     "GIDP": 14
+    },
+    {
+     "season": 1962,
+     "id": 124191,
+     "name": "Bill White",
+     "team": "St. Louis Cardinals",
+     "age": 28,
+     "PA": 682,
+     "AVG": 0.324,
+     "OBP": 0.386,
+     "SLG": 0.482,
+     "OPS": 0.868,
+     "HR": 20,
+     "RBI": 102,
+     "R": 93,
+     "H": 199,
+     "2B": 31,
+     "3B": 3,
+     "SB": 9,
+     "CS": 7,
+     "BB": 58,
+     "SO": 69,
+     "HBP": 6,
+     "GIDP": 11
+    }
+   ],
+   "text": "2 hitter-seasons of the 1960s ended on exactly 199 hits, one short of 200 — among them Dick Groat (1962), Bill White (1962)."
+  },
+  {
+   "n": 83,
+   "kind": "team",
+   "rule": "worst_diff",
+   "group": "T",
+   "decade": 1960,
+   "score": 4,
+   "players": [],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 40,
+     "losses": 120,
+     "runsScored": 617,
+     "runsAllowed": 948,
+     "runDifferential": -331,
+     "leagueRank": 10,
+     "season": 1962
+    }
+   ],
+   "text": "Worst run differential of the 1960s: the 1962 Mets, -331 (617 scored, 948 allowed)."
+  },
+  {
+   "n": 84,
+   "rule": "hbp_many",
+   "group": "H",
+   "decade": 1960,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 116325,
+     "name": "Ron Hunt",
+     "team": "San Francisco Giants",
+     "age": 27,
+     "PA": 650,
+     "AVG": 0.25,
+     "OBP": 0.371,
+     "SLG": 0.297,
+     "OPS": 0.668,
+     "HR": 2,
+     "RBI": 28,
+     "R": 79,
+     "H": 132,
+     "2B": 19,
+     "3B": 0,
+     "SB": 6,
+     "CS": 6,
+     "BB": 78,
+     "SO": 41,
+     "HBP": 25,
+     "GIDP": 9
+    },
+    {
+     "season": 1969,
+     "id": 116325,
+     "name": "Ron Hunt",
+     "team": "San Francisco Giants",
+     "age": 28,
+     "PA": 569,
+     "AVG": 0.262,
+     "OBP": 0.361,
+     "SLG": 0.341,
+     "OPS": 0.702,
+     "HR": 3,
+     "RBI": 41,
+     "R": 72,
+     "H": 125,
+     "2B": 23,
+     "3B": 3,
+     "SB": 9,
+     "CS": 2,
+     "BB": 51,
+     "SO": 47,
+     "HBP": 25,
+     "GIDP": 8
+    },
+    {
+     "season": 1968,
+     "id": 114399,
+     "name": "Bill Freehan",
+     "team": "Detroit Tigers",
+     "age": 26,
+     "PA": 635,
+     "AVG": 0.263,
+     "OBP": 0.366,
+     "SLG": 0.454,
+     "OPS": 0.82,
+     "HR": 25,
+     "RBI": 84,
+     "R": 73,
+     "H": 142,
+     "2B": 24,
+     "3B": 2,
+     "SB": 0,
+     "CS": 1,
+     "BB": 65,
+     "SO": 64,
+     "HBP": 24,
+     "GIDP": 9
+    },
+    {
+     "season": 1967,
+     "id": 114399,
+     "name": "Bill Freehan",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "PA": 618,
+     "AVG": 0.282,
+     "OBP": 0.389,
+     "SLG": 0.447,
+     "OPS": 0.836,
+     "HR": 20,
+     "RBI": 74,
+     "R": 66,
+     "H": 146,
+     "2B": 23,
+     "3B": 1,
+     "SB": 1,
+     "CS": 2,
+     "BB": 73,
+     "SO": 71,
+     "HBP": 20,
+     "GIDP": 9
+    },
+    {
+     "season": 1965,
+     "id": 121311,
+     "name": "Frank Robinson",
+     "team": "Cincinnati Reds",
+     "age": 29,
+     "PA": 674,
+     "AVG": 0.296,
+     "OBP": 0.386,
+     "SLG": 0.54,
+     "OPS": 0.926,
+     "HR": 33,
+     "RBI": 113,
+     "R": 109,
+     "H": 172,
+     "2B": 33,
+     "3B": 5,
+     "SB": 13,
+     "CS": 9,
+     "BB": 70,
+     "SO": 100,
+     "HBP": 18,
+     "GIDP": 14
+    },
+    {
+     "season": 1968,
+     "id": 121023,
+     "name": "Rick Reichardt",
+     "team": "California Angels",
+     "age": 25,
+     "PA": 601,
+     "AVG": 0.255,
+     "OBP": 0.328,
+     "SLG": 0.421,
+     "OPS": 0.749,
+     "HR": 21,
+     "RBI": 73,
+     "R": 62,
+     "H": 136,
+     "2B": 20,
+     "3B": 3,
+     "SB": 8,
+     "CS": 7,
+     "BB": 42,
+     "SO": 118,
+     "HBP": 18,
+     "GIDP": 14
+    }
+   ],
+   "kind": "list",
+   "score": 3.625,
+   "players": [
+    {
+     "id": 116325,
+     "name": "Ron Hunt"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "11 times in the 1960s a hitter got hit by 15+ pitches. The most extreme: Ron Hunt, 1968 — 25 HBP."
+  },
+  {
+   "n": 85,
+   "rule": "twenty_losses",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "L",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1962,
+     "id": 112783,
+     "name": "Roger Craig",
+     "team": "New York Mets",
+     "age": 32,
+     "W": 10,
+     "L": 24,
+     "ERA": 4.51,
+     "IP": "233.1",
+     "SO": 118,
+     "BB": 70,
+     "SV": 3,
+     "GS": 33,
+     "CG": 13,
+     "SHO": 0,
+     "HRA": 35,
+     "WHIP": 1.42
+    },
+    {
+     "season": 1965,
+     "id": 114173,
+     "name": "Jack Fisher",
+     "team": "New York Mets",
+     "age": 26,
+     "W": 8,
+     "L": 24,
+     "ERA": 3.94,
+     "IP": "253.2",
+     "SO": 116,
+     "BB": 68,
+     "SV": 1,
+     "GS": 36,
+     "CG": 10,
+     "SHO": 0,
+     "HRA": 22,
+     "WHIP": 1.26
+    },
+    {
+     "season": 1963,
+     "id": 112783,
+     "name": "Roger Craig",
+     "team": "New York Mets",
+     "age": 33,
+     "W": 5,
+     "L": 22,
+     "ERA": 3.78,
+     "IP": "236.0",
+     "SO": 108,
+     "BB": 58,
+     "SV": 2,
+     "GS": 31,
+     "CG": 14,
+     "SHO": 0,
+     "HRA": 28,
+     "WHIP": 1.3
+    },
+    {
+     "season": 1966,
+     "id": 113824,
+     "name": "Dick Ellsworth",
+     "team": "Chicago Cubs",
+     "age": 26,
+     "W": 8,
+     "L": 22,
+     "ERA": 3.98,
+     "IP": "269.1",
+     "SO": 144,
+     "BB": 51,
+     "SV": 0,
+     "GS": 37,
+     "CG": 9,
+     "SHO": 0,
+     "HRA": 28,
+     "WHIP": 1.38
+    },
+    {
+     "season": 1965,
+     "id": 116434,
+     "name": "Larry Jackson",
+     "team": "Chicago Cubs",
+     "age": 34,
+     "W": 14,
+     "L": 21,
+     "ERA": 3.85,
+     "IP": "257.1",
+     "SO": 131,
+     "BB": 57,
+     "SV": 0,
+     "GS": 39,
+     "CG": 12,
+     "SHO": 4,
+     "HRA": 28,
+     "WHIP": 1.26
+    },
+    {
+     "season": 1960,
+     "id": 115990,
+     "name": "Glen Hobbie",
+     "team": "Chicago Cubs",
+     "age": 24,
+     "W": 16,
+     "L": 20,
+     "ERA": 3.97,
+     "IP": "258.2",
+     "SO": 134,
+     "BB": 101,
+     "SV": 1,
+     "GS": 36,
+     "CG": 16,
+     "SHO": 4,
+     "HRA": 27,
+     "WHIP": 1.37
+    }
+   ],
+   "kind": "list",
+   "score": 3.6,
+   "players": [
+    {
+     "id": 112783,
+     "name": "Roger Craig"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "text": "16 times in the 1960s a pitcher lost 20 games. The most extreme: Roger Craig, 1962 — 10-24."
+  },
+  {
+   "n": 86,
+   "rule": "relief_wins",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      12
+     ],
+     [
+      "GS",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1963,
+     "id": 120430,
+     "name": "Ron Perranoski",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 16,
+     "L": 3,
+     "ERA": 1.67,
+     "IP": "129.0",
+     "SO": 75,
+     "BB": 43,
+     "SV": 21,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.2
+    },
+    {
+     "season": 1964,
+     "id": 120866,
+     "name": "Dick Radatz",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "W": 16,
+     "L": 9,
+     "ERA": 2.29,
+     "IP": "157.0",
+     "SO": 181,
+     "BB": 58,
+     "SV": 29,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 13,
+     "WHIP": 1.03
+    },
+    {
+     "season": 1961,
+     "id": 110341,
+     "name": "Luis Arroyo",
+     "team": "New York Yankees",
+     "age": 34,
+     "W": 15,
+     "L": 5,
+     "ERA": 2.19,
+     "IP": "119.0",
+     "SO": 87,
+     "BB": 49,
+     "SV": 29,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1963,
+     "id": 120866,
+     "name": "Dick Radatz",
+     "team": "Boston Red Sox",
+     "age": 26,
+     "W": 15,
+     "L": 6,
+     "ERA": 1.97,
+     "IP": "132.1",
+     "SO": 162,
+     "BB": 51,
+     "SV": 25,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.1
+    },
+    {
+     "season": 1965,
+     "id": 114166,
+     "name": "Eddie Fisher",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "W": 15,
+     "L": 7,
+     "ERA": 2.4,
+     "IP": "165.1",
+     "SO": 90,
+     "BB": 43,
+     "SV": 24,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 13,
+     "WHIP": 0.97
+    },
+    {
+     "season": 1961,
+     "id": 119121,
+     "name": "Stu Miller",
+     "team": "San Francisco Giants",
+     "age": 33,
+     "W": 14,
+     "L": 5,
+     "ERA": 2.66,
+     "IP": "122.0",
+     "SO": 89,
+     "BB": 37,
+     "SV": 17,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.08
+    }
+   ],
+   "kind": "list",
+   "score": 3.4,
+   "players": [
+    {
+     "id": 120430,
+     "name": "Ron Perranoski"
+    }
+   ],
+   "seasons": [
+    1963
+   ],
+   "text": "17 times in the 1960s a pitcher won 12+ games without a start. The most extreme: Ron Perranoski, 1963 — 16-3, 0 GS."
+  },
+  {
+   "n": 87,
+   "rule": "shutouts",
+   "group": "P",
+   "decade": 1960,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 114756,
+     "name": "Bob Gibson",
+     "team": "St. Louis Cardinals",
+     "age": 32,
+     "W": 22,
+     "L": 9,
+     "ERA": 1.12,
+     "IP": "304.2",
+     "SO": 268,
+     "BB": 62,
+     "SV": 0,
+     "GS": 34,
+     "CG": 28,
+     "SHO": 13,
+     "HRA": 11,
+     "WHIP": 0.85
+    },
+    {
+     "season": 1963,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 25,
+     "L": 5,
+     "ERA": 1.88,
+     "IP": "311.0",
+     "SO": 306,
+     "BB": 58,
+     "SV": 0,
+     "GS": 40,
+     "CG": 20,
+     "SHO": 11,
+     "HRA": 18,
+     "WHIP": 0.87
+    },
+    {
+     "season": 1964,
+     "id": 112185,
+     "name": "Dean Chance",
+     "team": "Los Angeles Angels",
+     "age": 23,
+     "W": 20,
+     "L": 9,
+     "ERA": 1.65,
+     "IP": "278.1",
+     "SO": 207,
+     "BB": 86,
+     "SV": 4,
+     "GS": 35,
+     "CG": 15,
+     "SHO": 11,
+     "HRA": 7,
+     "WHIP": 1.01
+    },
+    {
+     "season": 1965,
+     "id": 118283,
+     "name": "Juan Marichal",
+     "team": "San Francisco Giants",
+     "age": 27,
+     "W": 22,
+     "L": 13,
+     "ERA": 2.13,
+     "IP": "295.1",
+     "SO": 240,
+     "BB": 46,
+     "SV": 1,
+     "GS": 37,
+     "CG": 24,
+     "SHO": 10,
+     "HRA": 27,
+     "WHIP": 0.91
+    },
+    {
+     "season": 1968,
+     "id": 123331,
+     "name": "Luis Tiant",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "W": 21,
+     "L": 9,
+     "ERA": 1.6,
+     "IP": "258.1",
+     "SO": 264,
+     "BB": 73,
+     "SV": 0,
+     "GS": 32,
+     "CG": 19,
+     "SHO": 9,
+     "HRA": 16,
+     "WHIP": 0.87
+    },
+    {
+     "season": 1969,
+     "id": 118787,
+     "name": "Denny McLain",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "W": 24,
+     "L": 9,
+     "ERA": 2.8,
+     "IP": "325.0",
+     "SO": 181,
+     "BB": 67,
+     "SV": 0,
+     "GS": 41,
+     "CG": 23,
+     "SHO": 9,
+     "HRA": 25,
+     "WHIP": 1.09
+    }
+   ],
+   "kind": "list",
+   "score": 3.325,
+   "players": [
+    {
+     "id": 114756,
+     "name": "Bob Gibson"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "12 times in the 1960s a pitcher threw 8+ shutouts. The most extreme: Bob Gibson, 1968 — 13 SHO."
+  },
+  {
+   "n": 88,
+   "rule": "low_k_full",
+   "group": "H",
+   "decade": 1960,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "SO",
+      "lte",
+      25
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1961,
+     "id": 114361,
+     "name": "Nellie Fox",
+     "team": "Chicago White Sox",
+     "age": 33,
+     "PA": 696,
+     "AVG": 0.251,
+     "OBP": 0.323,
+     "SLG": 0.295,
+     "OPS": 0.618,
+     "HR": 2,
+     "RBI": 51,
+     "R": 67,
+     "H": 152,
+     "2B": 11,
+     "3B": 5,
+     "SB": 2,
+     "CS": 3,
+     "BB": 59,
+     "SO": 12,
+     "HBP": 9,
+     "GIDP": 17
+    },
+    {
+     "season": 1962,
+     "id": 114361,
+     "name": "Nellie Fox",
+     "team": "Chicago White Sox",
+     "age": 34,
+     "PA": 684,
+     "AVG": 0.267,
+     "OBP": 0.314,
+     "SLG": 0.343,
+     "OPS": 0.657,
+     "HR": 2,
+     "RBI": 54,
+     "R": 79,
+     "H": 166,
+     "2B": 27,
+     "3B": 7,
+     "SB": 1,
+     "CS": 2,
+     "BB": 38,
+     "SO": 12,
+     "HBP": 7,
+     "GIDP": 13
+    },
+    {
+     "season": 1960,
+     "id": 114361,
+     "name": "Nellie Fox",
+     "team": "Chicago White Sox",
+     "age": 32,
+     "PA": 684,
+     "AVG": 0.289,
+     "OBP": 0.351,
+     "SLG": 0.372,
+     "OPS": 0.723,
+     "HR": 2,
+     "RBI": 59,
+     "R": 85,
+     "H": 175,
+     "2B": 24,
+     "3B": 10,
+     "SB": 2,
+     "CS": 4,
+     "BB": 50,
+     "SO": 13,
+     "HBP": 10,
+     "GIDP": 11
+    },
+    {
+     "season": 1961,
+     "id": 120730,
+     "name": "Vic Power",
+     "team": "Cleveland Indians",
+     "age": 33,
+     "PA": 622,
+     "AVG": 0.268,
+     "OBP": 0.309,
+     "SLG": 0.369,
+     "OPS": 0.678,
+     "HR": 5,
+     "RBI": 63,
+     "R": 64,
+     "H": 151,
+     "2B": 34,
+     "3B": 4,
+     "SB": 4,
+     "CS": 3,
+     "BB": 38,
+     "SO": 16,
+     "HBP": 1,
+     "GIDP": 19
+    },
+    {
+     "season": 1960,
+     "id": 120730,
+     "name": "Vic Power",
+     "team": "Cleveland Indians",
+     "age": 32,
+     "PA": 625,
+     "AVG": 0.288,
+     "OBP": 0.313,
+     "SLG": 0.395,
+     "OPS": 0.708,
+     "HR": 10,
+     "RBI": 84,
+     "R": 69,
+     "H": 167,
+     "2B": 26,
+     "3B": 3,
+     "SB": 9,
+     "CS": 5,
+     "BB": 24,
+     "SO": 20,
+     "HBP": 0,
+     "GIDP": 12
+    },
+    {
+     "season": 1968,
+     "id": 110774,
+     "name": "Glenn Beckert",
+     "team": "Chicago Cubs",
+     "age": 27,
+     "PA": 685,
+     "AVG": 0.294,
+     "OBP": 0.326,
+     "SLG": 0.369,
+     "OPS": 0.695,
+     "HR": 4,
+     "RBI": 37,
+     "R": 98,
+     "H": 189,
+     "2B": 28,
+     "3B": 4,
+     "SB": 8,
+     "CS": 4,
+     "BB": 31,
+     "SO": 20,
+     "HBP": 2,
+     "GIDP": 6
+    }
+   ],
+   "kind": "list",
+   "score": 3.3,
+   "players": [
+    {
+     "id": 114361,
+     "name": "Nellie Fox"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "text": "10 times in the 1960s a hitter struck out 25 times or fewer in a full season (600+ PA). The most extreme: Nellie Fox, 1961 — 12 K in 696 PA."
+  },
+  {
+   "n": 89,
+   "rule": "triples_over_hr",
+   "group": "H",
+   "decade": 1960,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1963,
+     "id": 114925,
+     "name": "Tony Gonzalez",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "PA": 625,
+     "AVG": 0.306,
+     "OBP": 0.372,
+     "SLG": 0.436,
+     "OPS": 0.808,
+     "HR": 4,
+     "RBI": 66,
+     "R": 78,
+     "H": 170,
+     "2B": 36,
+     "3B": 12,
+     "SB": 13,
+     "CS": 8,
+     "BB": 53,
+     "SO": 68,
+     "HBP": 8,
+     "GIDP": 11
+    },
+    {
+     "season": 1968,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 712,
+     "AVG": 0.279,
+     "OBP": 0.328,
+     "SLG": 0.418,
+     "OPS": 0.746,
+     "HR": 6,
+     "RBI": 51,
+     "R": 92,
+     "H": 184,
+     "2B": 46,
+     "3B": 14,
+     "SB": 62,
+     "CS": 12,
+     "BB": 46,
+     "SO": 124,
+     "HBP": 3,
+     "GIDP": 4
+    },
+    {
+     "season": 1965,
+     "id": 111916,
+     "name": "Bert Campaneris",
+     "team": "Kansas City Athletics",
+     "age": 23,
+     "PA": 634,
+     "AVG": 0.27,
+     "OBP": 0.326,
+     "SLG": 0.382,
+     "OPS": 0.708,
+     "HR": 6,
+     "RBI": 42,
+     "R": 67,
+     "H": 156,
+     "2B": 23,
+     "3B": 12,
+     "SB": 51,
+     "CS": 19,
+     "BB": 41,
+     "SO": 71,
+     "HBP": 9,
+     "GIDP": 5
+    },
+    {
+     "season": 1962,
+     "id": 112293,
+     "name": "Gino Cimoli",
+     "team": "Kansas City Athletics",
+     "age": 32,
+     "PA": 606,
+     "AVG": 0.275,
+     "OBP": 0.323,
+     "SLG": 0.42,
+     "OPS": 0.743,
+     "HR": 10,
+     "RBI": 71,
+     "R": 67,
+     "H": 151,
+     "2B": 20,
+     "3B": 15,
+     "SB": 2,
+     "CS": 1,
+     "BB": 40,
+     "SO": 89,
+     "HBP": 2,
+     "GIDP": 12
+    },
+    {
+     "season": 1965,
+     "id": 112391,
+     "name": "Roberto Clemente",
+     "team": "Pittsburgh Pirates",
+     "age": 30,
+     "PA": 642,
+     "AVG": 0.329,
+     "OBP": 0.378,
+     "SLG": 0.463,
+     "OPS": 0.841,
+     "HR": 10,
+     "RBI": 65,
+     "R": 91,
+     "H": 194,
+     "2B": 21,
+     "3B": 14,
+     "SB": 8,
+     "CS": 0,
+     "BB": 43,
+     "SO": 78,
+     "HBP": 5,
+     "GIDP": 17
+    },
+    {
+     "season": 1968,
+     "id": 114414,
+     "name": "Jim Fregosi",
+     "team": "California Angels",
+     "age": 26,
+     "PA": 693,
+     "AVG": 0.244,
+     "OBP": 0.315,
+     "SLG": 0.365,
+     "OPS": 0.68,
+     "HR": 9,
+     "RBI": 49,
+     "R": 77,
+     "H": 150,
+     "2B": 21,
+     "3B": 13,
+     "SB": 9,
+     "CS": 4,
+     "BB": 60,
+     "SO": 101,
+     "HBP": 5,
+     "GIDP": 12
+    }
+   ],
+   "kind": "list",
+   "score": 3.2,
+   "players": [
+    {
+     "id": 114925,
+     "name": "Tony Gonzalez"
+    }
+   ],
+   "seasons": [
+    1963
+   ],
+   "text": "13 times in the 1960s a hitter hit 12+ triples and more triples than homers. The most extreme: Tony Gonzalez, 1963 — 12 3B, 4 HR."
+  },
+  {
+   "n": 90,
+   "rule": "whip_under_1",
+   "group": "P",
+   "decade": 1960,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "WHIP",
+      "lte",
+      1
+     ]
+    ],
+    "seasonMin": 1960,
+    "seasonMax": 1969
+   },
+   "evidence": [
+    {
+     "season": 1968,
+     "id": 118841,
+     "name": "Dave McNally",
+     "team": "Baltimore Orioles",
+     "age": 25,
+     "W": 22,
+     "L": 10,
+     "ERA": 1.95,
+     "IP": "273.0",
+     "SO": 202,
+     "BB": 55,
+     "SV": 0,
+     "GS": 35,
+     "CG": 18,
+     "SHO": 5,
+     "HRA": 24,
+     "WHIP": 0.84
+    },
+    {
+     "season": 1968,
+     "id": 114756,
+     "name": "Bob Gibson",
+     "team": "St. Louis Cardinals",
+     "age": 32,
+     "W": 22,
+     "L": 9,
+     "ERA": 1.12,
+     "IP": "304.2",
+     "SO": 268,
+     "BB": 62,
+     "SV": 0,
+     "GS": 34,
+     "CG": 28,
+     "SHO": 13,
+     "HRA": 11,
+     "WHIP": 0.85
+    },
+    {
+     "season": 1965,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "W": 26,
+     "L": 8,
+     "ERA": 2.04,
+     "IP": "335.2",
+     "SO": 382,
+     "BB": 71,
+     "SV": 2,
+     "GS": 41,
+     "CG": 27,
+     "SHO": 8,
+     "HRA": 26,
+     "WHIP": 0.86
+    },
+    {
+     "season": 1966,
+     "id": 118283,
+     "name": "Juan Marichal",
+     "team": "San Francisco Giants",
+     "age": 28,
+     "W": 25,
+     "L": 6,
+     "ERA": 2.23,
+     "IP": "307.1",
+     "SO": 222,
+     "BB": 36,
+     "SV": 0,
+     "GS": 36,
+     "CG": 25,
+     "SHO": 4,
+     "HRA": 32,
+     "WHIP": 0.86
+    },
+    {
+     "season": 1963,
+     "id": 117277,
+     "name": "Sandy Koufax",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 25,
+     "L": 5,
+     "ERA": 1.88,
+     "IP": "311.0",
+     "SO": 306,
+     "BB": 58,
+     "SV": 0,
+     "GS": 40,
+     "CG": 20,
+     "SHO": 11,
+     "HRA": 18,
+     "WHIP": 0.87
+    },
+    {
+     "season": 1968,
+     "id": 123331,
+     "name": "Luis Tiant",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "W": 21,
+     "L": 9,
+     "ERA": 1.6,
+     "IP": "258.1",
+     "SO": 264,
+     "BB": 73,
+     "SV": 0,
+     "GS": 32,
+     "CG": 19,
+     "SHO": 9,
+     "HRA": 16,
+     "WHIP": 0.87
+    }
+   ],
+   "kind": "list",
+   "score": 3.021,
+   "players": [
+    {
+     "id": 118841,
+     "name": "Dave McNally"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "30 times in the 1960s a pitcher posted a WHIP of 1.00 or lower (162+ IP). The most extreme: Dave McNally, 1968 — 0.84 WHIP in 273.0 IP."
+  },
+  {
+   "n": 91,
+   "rule": "era_losing",
+   "group": "P",
+   "decade": 1960,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1966,
+     "id": 116151,
+     "name": "Joe Horlen",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "W": 10,
+     "L": 13,
+     "ERA": 2.43,
+     "IP": "211.0",
+     "SO": 124,
+     "BB": 53,
+     "SV": 1,
+     "GS": 29,
+     "CG": 4,
+     "SHO": 2,
+     "HRA": 14,
+     "WHIP": 1.13
+    },
+    {
+     "season": 1967,
+     "id": 116550,
+     "name": "Tommy John",
+     "team": "Chicago White Sox",
+     "age": 24,
+     "W": 10,
+     "L": 13,
+     "ERA": 2.47,
+     "IP": "178.1",
+     "SO": 110,
+     "BB": 47,
+     "SV": 0,
+     "GS": 29,
+     "CG": 9,
+     "SHO": 6,
+     "HRA": 12,
+     "WHIP": 1.07
+    },
+    {
+     "season": 1968,
+     "id": 116151,
+     "name": "Joe Horlen",
+     "team": "Chicago White Sox",
+     "age": 30,
+     "W": 12,
+     "L": 14,
+     "ERA": 2.37,
+     "IP": "223.2",
+     "SO": 102,
+     "BB": 70,
+     "SV": 0,
+     "GS": 35,
+     "CG": 4,
+     "SHO": 1,
+     "HRA": 16,
+     "WHIP": 1.19
+    },
+    {
+     "season": 1967,
+     "id": 122212,
+     "name": "Sonny Siebert",
+     "team": "Cleveland Indians",
+     "age": 30,
+     "W": 10,
+     "L": 12,
+     "ERA": 2.38,
+     "IP": "185.1",
+     "SO": 136,
+     "BB": 54,
+     "SV": 4,
+     "GS": 26,
+     "CG": 7,
+     "SHO": 1,
+     "HRA": 17,
+     "WHIP": 1.03
+    },
+    {
+     "season": 1967,
+     "id": 122188,
+     "name": "Chris Short",
+     "team": "Philadelphia Phillies",
+     "age": 29,
+     "W": 9,
+     "L": 11,
+     "ERA": 2.39,
+     "IP": "199.1",
+     "SO": 142,
+     "BB": 74,
+     "SV": 1,
+     "GS": 26,
+     "CG": 8,
+     "SHO": 2,
+     "HRA": 9,
+     "WHIP": 1.19
+    },
+    {
+     "season": 1968,
+     "id": 123684,
+     "name": "Bob Veale",
+     "team": "Pittsburgh Pirates",
+     "age": 32,
+     "W": 13,
+     "L": 14,
+     "ERA": 2.05,
+     "IP": "245.1",
+     "SO": 171,
+     "BB": 94,
+     "SV": 0,
+     "GS": 33,
+     "CG": 13,
+     "SHO": 4,
+     "HRA": 13,
+     "WHIP": 1.15
+    }
+   ],
+   "kind": "list",
+   "score": 3.01425,
+   "players": [
+    {
+     "id": 116151,
+     "name": "Joe Horlen"
+    }
+   ],
+   "seasons": [
+    1966
+   ],
+   "text": "6 times in the 1960s a pitcher posted an ERA under 2.50 with a losing record (25+ starts). The most extreme: Joe Horlen, 1966 — 2.43 ERA, 10-13."
+  }
+ ],
+ "counts": {
+  "hitterSeasons": 6951,
+  "pitcherSeasons": 2977
+ },
+ "method": [
+  "Every fact is a predicate evaluated over every hitter-season and pitcher-season in the decade, pulled in full from the MLB Stats API (the official record). Nothing is recalled or estimated; the rows that satisfy each rule are stored with it.",
+  "'Only', 'two' and 'three/four' claims are exact counts across the complete pull. Where a rule uses a plate-appearance or innings floor instead of a league qualification bar, the floor is stated in the fact so the claim is reproducible.",
+  "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
+  "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
+ ],
+ "generatedAt": "2026-09-28T03:27:25.908Z",
+ "sources": [
+  {
+   "season": 1960,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1960&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1960&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1960&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:20.519Z"
+  },
+  {
+   "season": 1961,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1961&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1961&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1961&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:20.971Z"
+  },
+  {
+   "season": 1962,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1962&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1962&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1962&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:21.411Z"
+  },
+  {
+   "season": 1963,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1963&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1963&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1963&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:21.858Z"
+  },
+  {
+   "season": 1964,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1964&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1964&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1964&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:22.316Z"
+  },
+  {
+   "season": 1965,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1965&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1965&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1965&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:22.764Z"
+  },
+  {
+   "season": 1966,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1966&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1966&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1966&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:23.212Z"
+  },
+  {
+   "season": 1967,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1967&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1967&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1967&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:23.668Z"
+  },
+  {
+   "season": 1968,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1968&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1968&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1968&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:24.129Z"
+  },
+  {
+   "season": 1969,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1969&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1969&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1969&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:24.614Z"
+  }
+ ]
+}

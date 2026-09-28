@@ -1,6 +1,6 @@
 {
  "decade": "1970s",
- "generatedAt": "2026-09-28T03:01:15.515Z",
+ "generatedAt": "2026-09-28T03:27:30.785Z",
  "method": [
   "Every hitter and every pitcher for every season was pulled from the MLB Stats API (statsapi.mlb.com), the official record; leaders were computed across the complete pull, never sampled or recalled.",
   "Rate categories (AVG, OBP, SLG, OPS, ERA, WHIP) use the modern qualification rule applied to each season's own team-game count: 3.1 PA per team game for hitters, one inning per team game for pitchers.",
@@ -11,7 +11,7 @@
  "seasons": [
   {
    "season": 1970,
-   "pulledAt": "2026-09-28T03:01:08.826Z",
+   "pulledAt": "2026-09-28T03:27:25.911Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1970&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1970&sportId=1&playerPool=All&limit=5000",
@@ -1439,7 +1439,7 @@
   },
   {
    "season": 1971,
-   "pulledAt": "2026-09-28T03:01:09.478Z",
+   "pulledAt": "2026-09-28T03:27:26.359Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1971&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1971&sportId=1&playerPool=All&limit=5000",
@@ -2840,7 +2840,7 @@
   },
   {
    "season": 1972,
-   "pulledAt": "2026-09-28T03:01:10.151Z",
+   "pulledAt": "2026-09-28T03:27:26.847Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1972&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1972&sportId=1&playerPool=All&limit=5000",
@@ -4232,7 +4232,7 @@
   },
   {
    "season": 1973,
-   "pulledAt": "2026-09-28T03:01:10.826Z",
+   "pulledAt": "2026-09-28T03:27:27.345Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1973&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1973&sportId=1&playerPool=All&limit=5000",
@@ -5624,7 +5624,7 @@
   },
   {
    "season": 1974,
-   "pulledAt": "2026-09-28T03:01:11.426Z",
+   "pulledAt": "2026-09-28T03:27:27.817Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1974&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1974&sportId=1&playerPool=All&limit=5000",
@@ -7034,7 +7034,7 @@
   },
   {
    "season": 1975,
-   "pulledAt": "2026-09-28T03:01:12.092Z",
+   "pulledAt": "2026-09-28T03:27:28.342Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1975&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1975&sportId=1&playerPool=All&limit=5000",
@@ -8435,7 +8435,7 @@
   },
   {
    "season": 1976,
-   "pulledAt": "2026-09-28T03:01:13.037Z",
+   "pulledAt": "2026-09-28T03:27:28.820Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1976&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1976&sportId=1&playerPool=All&limit=5000",
@@ -9827,7 +9827,7 @@
   },
   {
    "season": 1977,
-   "pulledAt": "2026-09-28T03:01:13.654Z",
+   "pulledAt": "2026-09-28T03:27:29.263Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1977&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1977&sportId=1&playerPool=All&limit=5000",
@@ -11228,7 +11228,7 @@
   },
   {
    "season": 1978,
-   "pulledAt": "2026-09-28T03:01:14.279Z",
+   "pulledAt": "2026-09-28T03:27:29.733Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1978&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1978&sportId=1&playerPool=All&limit=5000",
@@ -12602,7 +12602,7 @@
   },
   {
    "season": 1979,
-   "pulledAt": "2026-09-28T03:01:14.887Z",
+   "pulledAt": "2026-09-28T03:27:30.230Z",
    "sources": {
     "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1979&sportId=1&playerPool=All&limit=5000",
     "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1979&sportId=1&playerPool=All&limit=5000",

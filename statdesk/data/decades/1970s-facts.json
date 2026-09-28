@@ -1,0 +1,8067 @@
+{
+ "decade": "1970s",
+ "era": "mid",
+ "thresholds": {
+  "hrBig": 30,
+  "hrHuge": 40,
+  "avgLow": 0.23,
+  "bbFew": 25,
+  "sbMany": 40,
+  "obpLow": 0.3,
+  "kFewHit": 25,
+  "kManyHit": 140,
+  "bbMany": 100,
+  "kMany": 200,
+  "kHuge": 250,
+  "wLow": 9,
+  "eraBad": 4.25,
+  "ipHuge": 900,
+  "kFewPit": 90,
+  "cgMany": 18,
+  "kPer9": 8.5,
+  "whip1": 1,
+  "sv": 30,
+  "hbp": 15,
+  "kClose": 100,
+  "hrTeam": 35,
+  "ageYoung": 22,
+  "ageOld": 37
+ },
+ "candidates": 133,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "k_no_wins",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      200
+     ],
+     [
+      "W",
+      "lte",
+      9
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 116619,
+     "name": "Bob Johnson",
+     "team": "Kansas City Royals",
+     "age": 27,
+     "W": 8,
+     "L": 13,
+     "ERA": 3.07,
+     "IP": "214.0",
+     "SO": 206,
+     "BB": 82,
+     "SV": 4,
+     "GS": 26,
+     "CG": 10,
+     "SHO": 1,
+     "HRA": 18,
+     "WHIP": 1.21
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 116619,
+     "name": "Bob Johnson"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "The only pitcher of the 1970s to strike out 200 and win 9 games or fewer: Bob Johnson, 1970 — 206 K, 8-13."
+  },
+  {
+   "n": 2,
+   "rule": "fifty_hr",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      50
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 114333,
+     "name": "George Foster",
+     "team": "Cincinnati Reds",
+     "age": 28,
+     "PA": 689,
+     "AVG": 0.32,
+     "OBP": 0.382,
+     "SLG": 0.631,
+     "OPS": 1.013,
+     "HR": 52,
+     "RBI": 149,
+     "R": 124,
+     "H": 197,
+     "2B": 31,
+     "3B": 2,
+     "SB": 6,
+     "CS": 4,
+     "BB": 61,
+     "SO": 107,
+     "HBP": 5,
+     "GIDP": 17
+    }
+   ],
+   "kind": "only",
+   "score": 11.3,
+   "players": [
+    {
+     "id": 114333,
+     "name": "George Foster"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "The only hitter of the 1970s to hit 50 home runs: George Foster, 1977 — 52 HR."
+  },
+  {
+   "n": 3,
+   "rule": "doubles_no_hr",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "2B",
+      "gte",
+      45
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1974,
+     "id": 121454,
+     "name": "Pete Rose",
+     "team": "Cincinnati Reds",
+     "age": 33,
+     "PA": 771,
+     "AVG": 0.284,
+     "OBP": 0.385,
+     "SLG": 0.388,
+     "OPS": 0.773,
+     "HR": 3,
+     "RBI": 51,
+     "R": 110,
+     "H": 185,
+     "2B": 45,
+     "3B": 7,
+     "SB": 2,
+     "CS": 4,
+     "BB": 106,
+     "SO": 54,
+     "HBP": 5,
+     "GIDP": 9
+    }
+   ],
+   "kind": "only",
+   "score": 11.05,
+   "players": [
+    {
+     "id": 121454,
+     "name": "Pete Rose"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "text": "The only hitter of the 1970s to hit 45 doubles and 5 homers or fewer: Pete Rose, 1974 — 45 2B, 3 HR."
+  },
+  {
+   "n": 4,
+   "rule": "hits_few_runs",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      180
+     ],
+     [
+      "R",
+      "lte",
+      65
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1973,
+     "id": 122247,
+     "name": "Ted Simmons",
+     "team": "St. Louis Cardinals",
+     "age": 23,
+     "PA": 690,
+     "AVG": 0.31,
+     "OBP": 0.37,
+     "SLG": 0.438,
+     "OPS": 0.808,
+     "HR": 13,
+     "RBI": 91,
+     "R": 62,
+     "H": 192,
+     "2B": 36,
+     "3B": 2,
+     "SB": 2,
+     "CS": 2,
+     "BB": 61,
+     "SO": 47,
+     "HBP": 2,
+     "GIDP": 29
+    },
+    {
+     "season": 1975,
+     "id": 119258,
+     "name": "Willie Montanez",
+     "team": "San Francisco Giants",
+     "age": 27,
+     "PA": 667,
+     "AVG": 0.302,
+     "OBP": 0.353,
+     "SLG": 0.415,
+     "OPS": 0.768,
+     "HR": 10,
+     "RBI": 101,
+     "R": 61,
+     "H": 182,
+     "2B": 34,
+     "3B": 2,
+     "SB": 6,
+     "CS": 3,
+     "BB": 49,
+     "SO": 62,
+     "HBP": 4,
+     "GIDP": 26
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 122247,
+     "name": "Ted Simmons"
+    },
+    {
+     "id": 119258,
+     "name": "Willie Montanez"
+    }
+   ],
+   "seasons": [
+    1973,
+    1975
+   ],
+   "text": "Only two hitters of the 1970s collected 180 hits and score 65 runs or fewer: Ted Simmons (1973, 192 H, 62 R); Willie Montanez (1975, 182 H, 61 R)."
+  },
+  {
+   "n": 5,
+   "rule": "bb_and_k",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      100
+     ],
+     [
+      "SO",
+      "gte",
+      140
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1975,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 25,
+     "PA": 674,
+     "AVG": 0.249,
+     "OBP": 0.367,
+     "SLG": 0.523,
+     "OPS": 0.89,
+     "HR": 38,
+     "RBI": 95,
+     "R": 93,
+     "H": 140,
+     "2B": 34,
+     "3B": 3,
+     "SB": 29,
+     "CS": 12,
+     "BB": 101,
+     "SO": 180,
+     "HBP": 4,
+     "GIDP": 7
+    },
+    {
+     "season": 1976,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "PA": 705,
+     "AVG": 0.262,
+     "OBP": 0.376,
+     "SLG": 0.524,
+     "OPS": 0.9,
+     "HR": 38,
+     "RBI": 107,
+     "R": 112,
+     "H": 153,
+     "2B": 31,
+     "3B": 4,
+     "SB": 14,
+     "CS": 9,
+     "BB": 100,
+     "SO": 149,
+     "HBP": 11,
+     "GIDP": 7
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 121836,
+     "name": "Mike Schmidt"
+    },
+    {
+     "id": 121836,
+     "name": "Mike Schmidt"
+    }
+   ],
+   "seasons": [
+    1975,
+    1976
+   ],
+   "text": "Only two hitters of the 1970s drew 100 walks and struck out 140 times: Mike Schmidt (1975, 101 BB, 180 K); Mike Schmidt (1976, 100 BB, 149 K)."
+  },
+  {
+   "n": 6,
+   "rule": "old_avg",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1979,
+     "id": 121454,
+     "name": "Pete Rose",
+     "team": "Philadelphia Phillies",
+     "age": 38,
+     "PA": 732,
+     "AVG": 0.331,
+     "OBP": 0.418,
+     "SLG": 0.43,
+     "OPS": 0.848,
+     "HR": 4,
+     "RBI": 59,
+     "R": 90,
+     "H": 208,
+     "2B": 40,
+     "3B": 5,
+     "SB": 20,
+     "CS": 11,
+     "BB": 95,
+     "SO": 32,
+     "HBP": 2,
+     "GIDP": 18
+    },
+    {
+     "season": 1971,
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Atlanta Braves",
+     "age": 37,
+     "PA": 573,
+     "AVG": 0.327,
+     "OBP": 0.41,
+     "SLG": 0.669,
+     "OPS": 1.079,
+     "HR": 47,
+     "RBI": 118,
+     "R": 95,
+     "H": 162,
+     "2B": 22,
+     "3B": 3,
+     "SB": 1,
+     "CS": 1,
+     "BB": 71,
+     "SO": 58,
+     "HBP": 2,
+     "GIDP": 9
+    }
+   ],
+   "kind": "pair",
+   "score": 9.7775,
+   "players": [
+    {
+     "id": 121454,
+     "name": "Pete Rose"
+    },
+    {
+     "id": 110001,
+     "name": "Hank Aaron"
+    }
+   ],
+   "seasons": [
+    1979,
+    1971
+   ],
+   "text": "Only two hitters of the 1970s batted .320 at age 37 or older (500+ PA): Pete Rose (1979, .331 at 38); Hank Aaron (1971, .327 at 37)."
+  },
+  {
+   "n": 7,
+   "rule": "five_tool",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BA",
+      "gte",
+      0.3
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 124650,
+     "name": "Carl Yastrzemski",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "PA": 697,
+     "AVG": 0.329,
+     "OBP": 0.452,
+     "SLG": 0.592,
+     "OPS": 1.044,
+     "HR": 40,
+     "RBI": 102,
+     "R": 125,
+     "H": 186,
+     "2B": 29,
+     "3B": 0,
+     "SB": 23,
+     "CS": 13,
+     "BB": 128,
+     "SO": 66,
+     "HBP": 1,
+     "GIDP": 12
+    },
+    {
+     "season": 1978,
+     "id": 120225,
+     "name": "Dave Parker",
+     "team": "Pittsburgh Pirates",
+     "age": 27,
+     "PA": 642,
+     "AVG": 0.334,
+     "OBP": 0.394,
+     "SLG": 0.585,
+     "OPS": 0.979,
+     "HR": 30,
+     "RBI": 117,
+     "R": 102,
+     "H": 194,
+     "2B": 32,
+     "3B": 12,
+     "SB": 20,
+     "CS": 7,
+     "BB": 57,
+     "SO": 92,
+     "HBP": 2,
+     "GIDP": 8
+    }
+   ],
+   "kind": "pair",
+   "score": 9.575,
+   "players": [
+    {
+     "id": 124650,
+     "name": "Carl Yastrzemski"
+    },
+    {
+     "id": 120225,
+     "name": "Dave Parker"
+    }
+   ],
+   "seasons": [
+    1970,
+    1978
+   ],
+   "text": "Only two hitters of the 1970s batted .300 with 30 homers, 100 RBI and 20 steals: Carl Yastrzemski (1970, .329, 40 HR, 102 RBI, 23 SB); Dave Parker (1978, .334, 30 HR, 117 RBI, 20 SB)."
+  },
+  {
+   "n": 8,
+   "rule": "closer_100k",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      35
+     ],
+     [
+      "SO",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1973,
+     "id": 115951,
+     "name": "John Hiller",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "W": 10,
+     "L": 5,
+     "ERA": 1.44,
+     "IP": "125.1",
+     "SO": 124,
+     "BB": 39,
+     "SV": 38,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1977,
+     "id": 114129,
+     "name": "Rollie Fingers",
+     "team": "San Diego Padres",
+     "age": 30,
+     "W": 8,
+     "L": 9,
+     "ERA": 2.99,
+     "IP": "132.1",
+     "SO": 113,
+     "BB": 36,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 12,
+     "WHIP": 1.2
+    },
+    {
+     "season": 1979,
+     "id": 123004,
+     "name": "Bruce Sutter",
+     "team": "Chicago Cubs",
+     "age": 26,
+     "W": 6,
+     "L": 6,
+     "ERA": 2.22,
+     "IP": "101.1",
+     "SO": 110,
+     "BB": 32,
+     "SV": 37,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 0.98
+    }
+   ],
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 115951,
+     "name": "John Hiller"
+    },
+    {
+     "id": 114129,
+     "name": "Rollie Fingers"
+    },
+    {
+     "id": 123004,
+     "name": "Bruce Sutter"
+    }
+   ],
+   "seasons": [
+    1973,
+    1977,
+    1979
+   ],
+   "text": "Just three pitchers of the 1970s saved 35 games and struck out 100: John Hiller (1973, 38 SV, 124 K in 125.1 IP); Rollie Fingers (1977, 35 SV, 113 K in 132.1 IP); Bruce Sutter (1979, 37 SV, 110 K in 101.1 IP)."
+  },
+  {
+   "n": 9,
+   "kind": "streak",
+   "rule": "SB40",
+   "group": "H",
+   "decade": 1970,
+   "score": 9,
+   "players": [
+    {
+     "id": 119371,
+     "name": "Joe Morgan"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Houston Astros",
+     "age": 26,
+     "PA": 658,
+     "AVG": 0.268,
+     "OBP": 0.383,
+     "SLG": 0.396,
+     "OPS": 0.779,
+     "HR": 8,
+     "RBI": 52,
+     "R": 102,
+     "H": 147,
+     "2B": 28,
+     "3B": 9,
+     "SB": 42,
+     "CS": 13,
+     "BB": 102,
+     "SO": 55,
+     "HBP": 1,
+     "GIDP": 11
+    },
+    {
+     "season": 1971,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Houston Astros",
+     "age": 27,
+     "PA": 689,
+     "AVG": 0.256,
+     "OBP": 0.351,
+     "SLG": 0.407,
+     "OPS": 0.758,
+     "HR": 13,
+     "RBI": 56,
+     "R": 87,
+     "H": 149,
+     "2B": 27,
+     "3B": 11,
+     "SB": 40,
+     "CS": 8,
+     "BB": 88,
+     "SO": 52,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 1972,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 28,
+     "PA": 680,
+     "AVG": 0.292,
+     "OBP": 0.417,
+     "SLG": 0.435,
+     "OPS": 0.852,
+     "HR": 16,
+     "RBI": 73,
+     "R": 122,
+     "H": 161,
+     "2B": 23,
+     "3B": 4,
+     "SB": 58,
+     "CS": 17,
+     "BB": 115,
+     "SO": 44,
+     "HBP": 6,
+     "GIDP": 5
+    },
+    {
+     "season": 1973,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 29,
+     "PA": 698,
+     "AVG": 0.29,
+     "OBP": 0.406,
+     "SLG": 0.493,
+     "OPS": 0.899,
+     "HR": 26,
+     "RBI": 82,
+     "R": 116,
+     "H": 167,
+     "2B": 35,
+     "3B": 2,
+     "SB": 67,
+     "CS": 15,
+     "BB": 111,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 12
+    },
+    {
+     "season": 1974,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 30,
+     "PA": 641,
+     "AVG": 0.293,
+     "OBP": 0.427,
+     "SLG": 0.494,
+     "OPS": 0.921,
+     "HR": 22,
+     "RBI": 67,
+     "R": 107,
+     "H": 150,
+     "2B": 31,
+     "3B": 3,
+     "SB": 58,
+     "CS": 12,
+     "BB": 120,
+     "SO": 69,
+     "HBP": 3,
+     "GIDP": 7
+    },
+    {
+     "season": 1975,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 31,
+     "PA": 639,
+     "AVG": 0.327,
+     "OBP": 0.466,
+     "SLG": 0.508,
+     "OPS": 0.974,
+     "HR": 17,
+     "RBI": 94,
+     "R": 107,
+     "H": 163,
+     "2B": 27,
+     "3B": 6,
+     "SB": 67,
+     "CS": 10,
+     "BB": 132,
+     "SO": 52,
+     "HBP": 3,
+     "GIDP": 3
+    },
+    {
+     "season": 1976,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 32,
+     "PA": 599,
+     "AVG": 0.32,
+     "OBP": 0.444,
+     "SLG": 0.576,
+     "OPS": 1.02,
+     "HR": 27,
+     "RBI": 111,
+     "R": 113,
+     "H": 151,
+     "2B": 30,
+     "3B": 5,
+     "SB": 60,
+     "CS": 9,
+     "BB": 114,
+     "SO": 41,
+     "HBP": 1,
+     "GIDP": 2
+    },
+    {
+     "season": 1977,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 33,
+     "PA": 645,
+     "AVG": 0.288,
+     "OBP": 0.417,
+     "SLG": 0.478,
+     "OPS": 0.895,
+     "HR": 22,
+     "RBI": 78,
+     "R": 113,
+     "H": 150,
+     "2B": 21,
+     "3B": 6,
+     "SB": 49,
+     "CS": 10,
+     "BB": 117,
+     "SO": 58,
+     "HBP": 2,
+     "GIDP": 5
+    }
+   ],
+   "text": "Joe Morgan stole 40+ bases in 8 straight seasons (1970-77), the longest run of the 1970s."
+  },
+  {
+   "n": 10,
+   "kind": "streak",
+   "rule": "AVG300",
+   "group": "H",
+   "decade": 1970,
+   "score": 9,
+   "players": [
+    {
+     "id": 111986,
+     "name": "Rod Carew"
+    }
+   ],
+   "seasons": [
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 25,
+     "PA": 632,
+     "AVG": 0.307,
+     "OBP": 0.356,
+     "SLG": 0.38,
+     "OPS": 0.736,
+     "HR": 2,
+     "RBI": 48,
+     "R": 88,
+     "H": 177,
+     "2B": 16,
+     "3B": 10,
+     "SB": 6,
+     "CS": 7,
+     "BB": 45,
+     "SO": 81,
+     "HBP": 1,
+     "GIDP": 23
+    },
+    {
+     "season": 1972,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 26,
+     "PA": 591,
+     "AVG": 0.318,
+     "OBP": 0.369,
+     "SLG": 0.379,
+     "OPS": 0.748,
+     "HR": 0,
+     "RBI": 51,
+     "R": 61,
+     "H": 170,
+     "2B": 21,
+     "3B": 6,
+     "SB": 12,
+     "CS": 6,
+     "BB": 43,
+     "SO": 60,
+     "HBP": 2,
+     "GIDP": 11
+    },
+    {
+     "season": 1973,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 27,
+     "PA": 657,
+     "AVG": 0.35,
+     "OBP": 0.411,
+     "SLG": 0.471,
+     "OPS": 0.882,
+     "HR": 6,
+     "RBI": 62,
+     "R": 98,
+     "H": 203,
+     "2B": 30,
+     "3B": 11,
+     "SB": 41,
+     "CS": 16,
+     "BB": 62,
+     "SO": 55,
+     "HBP": 2,
+     "GIDP": 16
+    },
+    {
+     "season": 1974,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 28,
+     "PA": 690,
+     "AVG": 0.364,
+     "OBP": 0.433,
+     "SLG": 0.446,
+     "OPS": 0.879,
+     "HR": 3,
+     "RBI": 55,
+     "R": 86,
+     "H": 218,
+     "2B": 30,
+     "3B": 5,
+     "SB": 38,
+     "CS": 16,
+     "BB": 74,
+     "SO": 49,
+     "HBP": 1,
+     "GIDP": 17
+    },
+    {
+     "season": 1975,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 29,
+     "PA": 617,
+     "AVG": 0.359,
+     "OBP": 0.421,
+     "SLG": 0.497,
+     "OPS": 0.918,
+     "HR": 14,
+     "RBI": 80,
+     "R": 89,
+     "H": 192,
+     "2B": 24,
+     "3B": 4,
+     "SB": 35,
+     "CS": 9,
+     "BB": 64,
+     "SO": 40,
+     "HBP": 1,
+     "GIDP": 10
+    },
+    {
+     "season": 1976,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 30,
+     "PA": 687,
+     "AVG": 0.331,
+     "OBP": 0.395,
+     "SLG": 0.463,
+     "OPS": 0.858,
+     "HR": 9,
+     "RBI": 90,
+     "R": 97,
+     "H": 200,
+     "2B": 29,
+     "3B": 12,
+     "SB": 49,
+     "CS": 22,
+     "BB": 67,
+     "SO": 52,
+     "HBP": 1,
+     "GIDP": 12
+    },
+    {
+     "season": 1977,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 31,
+     "PA": 694,
+     "AVG": 0.388,
+     "OBP": 0.449,
+     "SLG": 0.57,
+     "OPS": 1.019,
+     "HR": 14,
+     "RBI": 100,
+     "R": 128,
+     "H": 239,
+     "2B": 38,
+     "3B": 16,
+     "SB": 23,
+     "CS": 13,
+     "BB": 69,
+     "SO": 55,
+     "HBP": 3,
+     "GIDP": 6
+    },
+    {
+     "season": 1978,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 32,
+     "PA": 651,
+     "AVG": 0.333,
+     "OBP": 0.411,
+     "SLG": 0.441,
+     "OPS": 0.852,
+     "HR": 5,
+     "RBI": 70,
+     "R": 85,
+     "H": 188,
+     "2B": 26,
+     "3B": 10,
+     "SB": 27,
+     "CS": 7,
+     "BB": 78,
+     "SO": 62,
+     "HBP": 1,
+     "GIDP": 18
+    }
+   ],
+   "text": "Rod Carew batted .300 or better (500+ PA) in 8 straight seasons (1971-78), the longest run of the 1970s."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "K200",
+   "group": "P",
+   "decade": 1970,
+   "score": 9,
+   "players": [
+    {
+     "id": 121961,
+     "name": "Tom Seaver"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 25,
+     "W": 18,
+     "L": 12,
+     "ERA": 2.82,
+     "IP": "290.2",
+     "SO": 283,
+     "BB": 83,
+     "SV": 0,
+     "GS": 36,
+     "CG": 19,
+     "SHO": 2,
+     "HRA": 21,
+     "WHIP": 1.08
+    },
+    {
+     "season": 1971,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 26,
+     "W": 20,
+     "L": 10,
+     "ERA": 1.76,
+     "IP": "286.1",
+     "SO": 289,
+     "BB": 61,
+     "SV": 0,
+     "GS": 35,
+     "CG": 21,
+     "SHO": 4,
+     "HRA": 18,
+     "WHIP": 0.95
+    },
+    {
+     "season": 1972,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 27,
+     "W": 21,
+     "L": 12,
+     "ERA": 2.92,
+     "IP": "262.0",
+     "SO": 249,
+     "BB": 77,
+     "SV": 0,
+     "GS": 35,
+     "CG": 13,
+     "SHO": 3,
+     "HRA": 23,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1973,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 28,
+     "W": 19,
+     "L": 10,
+     "ERA": 2.08,
+     "IP": "290.0",
+     "SO": 251,
+     "BB": 64,
+     "SV": 0,
+     "GS": 36,
+     "CG": 18,
+     "SHO": 3,
+     "HRA": 23,
+     "WHIP": 0.98
+    },
+    {
+     "season": 1974,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 29,
+     "W": 11,
+     "L": 11,
+     "ERA": 3.2,
+     "IP": "236.0",
+     "SO": 201,
+     "BB": 75,
+     "SV": 0,
+     "GS": 32,
+     "CG": 12,
+     "SHO": 5,
+     "HRA": 19,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1975,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 30,
+     "W": 22,
+     "L": 9,
+     "ERA": 2.38,
+     "IP": "280.1",
+     "SO": 243,
+     "BB": 88,
+     "SV": 0,
+     "GS": 36,
+     "CG": 15,
+     "SHO": 5,
+     "HRA": 11,
+     "WHIP": 1.09
+    },
+    {
+     "season": 1976,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 31,
+     "W": 14,
+     "L": 11,
+     "ERA": 2.59,
+     "IP": "271.0",
+     "SO": 235,
+     "BB": 77,
+     "SV": 0,
+     "GS": 34,
+     "CG": 13,
+     "SHO": 5,
+     "HRA": 14,
+     "WHIP": 1.06
+    }
+   ],
+   "text": "Tom Seaver struck out 200+ in 7 straight seasons (1970-76), the longest run of the 1970s."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "IP250",
+   "group": "P",
+   "decade": 1970,
+   "score": 9,
+   "players": [
+    {
+     "id": 112008,
+     "name": "Steve Carlton"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "St. Louis Cardinals",
+     "age": 25,
+     "W": 10,
+     "L": 19,
+     "ERA": 3.73,
+     "IP": "253.2",
+     "SO": 193,
+     "BB": 109,
+     "SV": 0,
+     "GS": 33,
+     "CG": 13,
+     "SHO": 2,
+     "HRA": 25,
+     "WHIP": 1.37
+    },
+    {
+     "season": 1971,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "W": 20,
+     "L": 9,
+     "ERA": 3.56,
+     "IP": "273.1",
+     "SO": 172,
+     "BB": 98,
+     "SV": 0,
+     "GS": 36,
+     "CG": 18,
+     "SHO": 4,
+     "HRA": 23,
+     "WHIP": 1.36
+    },
+    {
+     "season": 1972,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "W": 27,
+     "L": 10,
+     "ERA": 1.97,
+     "IP": "346.1",
+     "SO": 310,
+     "BB": 87,
+     "SV": 0,
+     "GS": 41,
+     "CG": 30,
+     "SHO": 8,
+     "HRA": 17,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1973,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "W": 13,
+     "L": 20,
+     "ERA": 3.9,
+     "IP": "293.1",
+     "SO": 223,
+     "BB": 113,
+     "SV": 0,
+     "GS": 40,
+     "CG": 18,
+     "SHO": 3,
+     "HRA": 29,
+     "WHIP": 1.38
+    },
+    {
+     "season": 1974,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 29,
+     "W": 16,
+     "L": 13,
+     "ERA": 3.22,
+     "IP": "291.0",
+     "SO": 240,
+     "BB": 136,
+     "SV": 0,
+     "GS": 39,
+     "CG": 17,
+     "SHO": 1,
+     "HRA": 21,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1975,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 30,
+     "W": 15,
+     "L": 14,
+     "ERA": 3.56,
+     "IP": "255.1",
+     "SO": 192,
+     "BB": 104,
+     "SV": 0,
+     "GS": 37,
+     "CG": 14,
+     "SHO": 3,
+     "HRA": 24,
+     "WHIP": 1.26
+    },
+    {
+     "season": 1976,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 31,
+     "W": 20,
+     "L": 7,
+     "ERA": 3.13,
+     "IP": "252.2",
+     "SO": 195,
+     "BB": 72,
+     "SV": 0,
+     "GS": 35,
+     "CG": 13,
+     "SHO": 2,
+     "HRA": 19,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1977,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "W": 23,
+     "L": 10,
+     "ERA": 2.64,
+     "IP": "283.0",
+     "SO": 198,
+     "BB": 89,
+     "SV": 0,
+     "GS": 36,
+     "CG": 17,
+     "SHO": 2,
+     "HRA": 25,
+     "WHIP": 1.12
+    }
+   ],
+   "text": "Steve Carlton threw 250+ innings in 8 straight seasons (1970-77), the longest run of the 1970s."
+  },
+  {
+   "n": 13,
+   "rule": "twenty_twenty_low_avg",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      20
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ],
+     [
+      "BA",
+      "lte",
+      0.23900000000000002
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 116439,
+     "name": "Reggie Jackson",
+     "team": "Oakland Athletics",
+     "age": 24,
+     "PA": 514,
+     "AVG": 0.237,
+     "OBP": 0.359,
+     "SLG": 0.458,
+     "OPS": 0.817,
+     "HR": 23,
+     "RBI": 66,
+     "R": 57,
+     "H": 101,
+     "2B": 21,
+     "3B": 2,
+     "SB": 26,
+     "CS": 17,
+     "BB": 75,
+     "SO": 135,
+     "HBP": 8,
+     "GIDP": 10
+    },
+    {
+     "season": 1976,
+     "id": 110526,
+     "name": "Sal Bando",
+     "team": "Oakland Athletics",
+     "age": 32,
+     "PA": 640,
+     "AVG": 0.24,
+     "OBP": 0.335,
+     "SLG": 0.427,
+     "OPS": 0.762,
+     "HR": 27,
+     "RBI": 84,
+     "R": 75,
+     "H": 132,
+     "2B": 18,
+     "3B": 2,
+     "SB": 20,
+     "CS": 6,
+     "BB": 76,
+     "SO": 74,
+     "HBP": 4,
+     "GIDP": 7
+    }
+   ],
+   "kind": "pair",
+   "score": 8.6325,
+   "players": [
+    {
+     "id": 116439,
+     "name": "Reggie Jackson"
+    },
+    {
+     "id": 110526,
+     "name": "Sal Bando"
+    }
+   ],
+   "seasons": [
+    1970,
+    1976
+   ],
+   "text": "Only two hitters of the 1970s went 20-20 while batting under .240: Reggie Jackson (1970, 23 HR, 26 SB, .237); Sal Bando (1976, 27 HR, 20 SB, .240)."
+  },
+  {
+   "n": 14,
+   "rule": "sb_perfect",
+   "group": "H",
+   "decade": 1970,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 120111,
+     "name": "Amos Otis",
+     "team": "Kansas City Royals",
+     "age": 23,
+     "PA": 700,
+     "AVG": 0.284,
+     "OBP": 0.353,
+     "SLG": 0.424,
+     "OPS": 0.777,
+     "HR": 11,
+     "RBI": 58,
+     "R": 91,
+     "H": 176,
+     "2B": 36,
+     "3B": 9,
+     "SB": 33,
+     "CS": 2,
+     "BB": 68,
+     "SO": 67,
+     "HBP": 1,
+     "GIDP": 8
+    },
+    {
+     "season": 1977,
+     "id": 111281,
+     "name": "Larry Bowa",
+     "team": "Philadelphia Phillies",
+     "age": 31,
+     "PA": 675,
+     "AVG": 0.28,
+     "OBP": 0.313,
+     "SLG": 0.34,
+     "OPS": 0.653,
+     "HR": 4,
+     "RBI": 41,
+     "R": 93,
+     "H": 175,
+     "2B": 19,
+     "3B": 3,
+     "SB": 32,
+     "CS": 3,
+     "BB": 32,
+     "SO": 32,
+     "HBP": 0,
+     "GIDP": 11
+    }
+   ],
+   "kind": "pair",
+   "score": 8.325,
+   "players": [
+    {
+     "id": 120111,
+     "name": "Amos Otis"
+    },
+    {
+     "id": 111281,
+     "name": "Larry Bowa"
+    }
+   ],
+   "seasons": [
+    1970,
+    1977
+   ],
+   "text": "Only two hitters of the 1970s stole 30+ bases and was caught 3 times or fewer: Amos Otis (1970, 33 SB, 2 CS); Larry Bowa (1977, 32 SB, 3 CS)."
+  },
+  {
+   "n": 15,
+   "rule": "era_losing",
+   "group": "P",
+   "decade": 1970,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 121276,
+     "name": "Dave Roberts",
+     "team": "San Diego Padres",
+     "age": 26,
+     "W": 14,
+     "L": 17,
+     "ERA": 2.1,
+     "IP": "269.2",
+     "SO": 135,
+     "BB": 61,
+     "SV": 0,
+     "GS": 34,
+     "CG": 14,
+     "SHO": 2,
+     "HRA": 9,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1974,
+     "id": 118428,
+     "name": "Jon Matlack",
+     "team": "New York Mets",
+     "age": 24,
+     "W": 13,
+     "L": 15,
+     "ERA": 2.41,
+     "IP": "265.1",
+     "SO": 195,
+     "BB": 76,
+     "SV": 0,
+     "GS": 34,
+     "CG": 14,
+     "SHO": 7,
+     "HRA": 8,
+     "WHIP": 1.12
+    }
+   ],
+   "kind": "pair",
+   "score": 8.0225,
+   "players": [
+    {
+     "id": 121276,
+     "name": "Dave Roberts"
+    },
+    {
+     "id": 118428,
+     "name": "Jon Matlack"
+    }
+   ],
+   "seasons": [
+    1971,
+    1974
+   ],
+   "text": "Only two pitchers of the 1970s posted an ERA under 2.50 with a losing record (25+ starts): Dave Roberts (1971, 2.10 ERA, 14-17); Jon Matlack (1974, 2.41 ERA, 13-15)."
+  },
+  {
+   "n": 16,
+   "kind": "streak",
+   "rule": "BB100",
+   "group": "H",
+   "decade": 1970,
+   "score": 8,
+   "players": [
+    {
+     "id": 119371,
+     "name": "Joe Morgan"
+    }
+   ],
+   "seasons": [
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1972,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 28,
+     "PA": 680,
+     "AVG": 0.292,
+     "OBP": 0.417,
+     "SLG": 0.435,
+     "OPS": 0.852,
+     "HR": 16,
+     "RBI": 73,
+     "R": 122,
+     "H": 161,
+     "2B": 23,
+     "3B": 4,
+     "SB": 58,
+     "CS": 17,
+     "BB": 115,
+     "SO": 44,
+     "HBP": 6,
+     "GIDP": 5
+    },
+    {
+     "season": 1973,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 29,
+     "PA": 698,
+     "AVG": 0.29,
+     "OBP": 0.406,
+     "SLG": 0.493,
+     "OPS": 0.899,
+     "HR": 26,
+     "RBI": 82,
+     "R": 116,
+     "H": 167,
+     "2B": 35,
+     "3B": 2,
+     "SB": 67,
+     "CS": 15,
+     "BB": 111,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 12
+    },
+    {
+     "season": 1974,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 30,
+     "PA": 641,
+     "AVG": 0.293,
+     "OBP": 0.427,
+     "SLG": 0.494,
+     "OPS": 0.921,
+     "HR": 22,
+     "RBI": 67,
+     "R": 107,
+     "H": 150,
+     "2B": 31,
+     "3B": 3,
+     "SB": 58,
+     "CS": 12,
+     "BB": 120,
+     "SO": 69,
+     "HBP": 3,
+     "GIDP": 7
+    },
+    {
+     "season": 1975,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 31,
+     "PA": 639,
+     "AVG": 0.327,
+     "OBP": 0.466,
+     "SLG": 0.508,
+     "OPS": 0.974,
+     "HR": 17,
+     "RBI": 94,
+     "R": 107,
+     "H": 163,
+     "2B": 27,
+     "3B": 6,
+     "SB": 67,
+     "CS": 10,
+     "BB": 132,
+     "SO": 52,
+     "HBP": 3,
+     "GIDP": 3
+    },
+    {
+     "season": 1976,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 32,
+     "PA": 599,
+     "AVG": 0.32,
+     "OBP": 0.444,
+     "SLG": 0.576,
+     "OPS": 1.02,
+     "HR": 27,
+     "RBI": 111,
+     "R": 113,
+     "H": 151,
+     "2B": 30,
+     "3B": 5,
+     "SB": 60,
+     "CS": 9,
+     "BB": 114,
+     "SO": 41,
+     "HBP": 1,
+     "GIDP": 2
+    },
+    {
+     "season": 1977,
+     "id": 119371,
+     "name": "Joe Morgan",
+     "team": "Cincinnati Reds",
+     "age": 33,
+     "PA": 645,
+     "AVG": 0.288,
+     "OBP": 0.417,
+     "SLG": 0.478,
+     "OPS": 0.895,
+     "HR": 22,
+     "RBI": 78,
+     "R": 113,
+     "H": 150,
+     "2B": 21,
+     "3B": 6,
+     "SB": 49,
+     "CS": 10,
+     "BB": 117,
+     "SO": 58,
+     "HBP": 2,
+     "GIDP": 5
+    }
+   ],
+   "text": "Joe Morgan drew 100+ walks in 6 straight seasons (1972-77), the longest run of the 1970s."
+  },
+  {
+   "n": 17,
+   "kind": "streak",
+   "rule": "W20",
+   "group": "P",
+   "decade": 1970,
+   "score": 7,
+   "players": [
+    {
+     "id": 116334,
+     "name": "Catfish Hunter"
+    }
+   ],
+   "seasons": [
+    1971,
+    1972,
+    1973,
+    1974,
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 116334,
+     "name": "Catfish Hunter",
+     "team": "Oakland Athletics",
+     "age": 25,
+     "W": 21,
+     "L": 11,
+     "ERA": 2.96,
+     "IP": "273.2",
+     "SO": 181,
+     "BB": 80,
+     "SV": 0,
+     "GS": 37,
+     "CG": 16,
+     "SHO": 4,
+     "HRA": 27,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1972,
+     "id": 116334,
+     "name": "Catfish Hunter",
+     "team": "Oakland Athletics",
+     "age": 26,
+     "W": 21,
+     "L": 7,
+     "ERA": 2.04,
+     "IP": "295.1",
+     "SO": 191,
+     "BB": 70,
+     "SV": 0,
+     "GS": 37,
+     "CG": 16,
+     "SHO": 5,
+     "HRA": 21,
+     "WHIP": 0.91
+    },
+    {
+     "season": 1973,
+     "id": 116334,
+     "name": "Catfish Hunter",
+     "team": "Oakland Athletics",
+     "age": 27,
+     "W": 21,
+     "L": 5,
+     "ERA": 3.34,
+     "IP": "256.1",
+     "SO": 124,
+     "BB": 69,
+     "SV": 0,
+     "GS": 36,
+     "CG": 11,
+     "SHO": 3,
+     "HRA": 39,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1974,
+     "id": 116334,
+     "name": "Catfish Hunter",
+     "team": "Oakland Athletics",
+     "age": 28,
+     "W": 25,
+     "L": 12,
+     "ERA": 2.49,
+     "IP": "318.1",
+     "SO": 143,
+     "BB": 46,
+     "SV": 0,
+     "GS": 41,
+     "CG": 23,
+     "SHO": 6,
+     "HRA": 25,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1975,
+     "id": 116334,
+     "name": "Catfish Hunter",
+     "team": "New York Yankees",
+     "age": 29,
+     "W": 23,
+     "L": 14,
+     "ERA": 2.58,
+     "IP": "328.0",
+     "SO": 177,
+     "BB": 83,
+     "SV": 0,
+     "GS": 39,
+     "CG": 30,
+     "SHO": 7,
+     "HRA": 25,
+     "WHIP": 1.01
+    }
+   ],
+   "text": "Catfish Hunter won 20 games in 5 straight seasons (1971-75), the longest run of the 1970s."
+  },
+  {
+   "n": 18,
+   "rule": "hr_no_doubles",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      35
+     ],
+     [
+      "2B",
+      "lte",
+      15
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 116205,
+     "name": "Frank Howard",
+     "team": "Washington Senators",
+     "age": 33,
+     "PA": 706,
+     "AVG": 0.283,
+     "OBP": 0.416,
+     "SLG": 0.546,
+     "OPS": 0.962,
+     "HR": 44,
+     "RBI": 126,
+     "R": 90,
+     "H": 160,
+     "2B": 15,
+     "3B": 1,
+     "SB": 1,
+     "CS": 2,
+     "BB": 132,
+     "SO": 125,
+     "HBP": 2,
+     "GIDP": 23
+    },
+    {
+     "season": 1973,
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Atlanta Braves",
+     "age": 39,
+     "PA": 465,
+     "AVG": 0.301,
+     "OBP": 0.402,
+     "SLG": 0.643,
+     "OPS": 1.045,
+     "HR": 40,
+     "RBI": 96,
+     "R": 84,
+     "H": 118,
+     "2B": 12,
+     "3B": 1,
+     "SB": 1,
+     "CS": 1,
+     "BB": 68,
+     "SO": 51,
+     "HBP": 1,
+     "GIDP": 7
+    },
+    {
+     "season": 1976,
+     "id": 117092,
+     "name": "Dave Kingman",
+     "team": "New York Mets",
+     "age": 27,
+     "PA": 510,
+     "AVG": 0.238,
+     "OBP": 0.286,
+     "SLG": 0.506,
+     "OPS": 0.792,
+     "HR": 37,
+     "RBI": 86,
+     "R": 70,
+     "H": 113,
+     "2B": 14,
+     "3B": 1,
+     "SB": 7,
+     "CS": 4,
+     "BB": 28,
+     "SO": 135,
+     "HBP": 5,
+     "GIDP": 11
+    }
+   ],
+   "kind": "few",
+   "score": 6.725,
+   "players": [
+    {
+     "id": 116205,
+     "name": "Frank Howard"
+    },
+    {
+     "id": 110001,
+     "name": "Hank Aaron"
+    },
+    {
+     "id": 117092,
+     "name": "Dave Kingman"
+    }
+   ],
+   "seasons": [
+    1970,
+    1973,
+    1976
+   ],
+   "text": "Just three hitters of the 1970s hit 35+ homers with 15 doubles or fewer: Frank Howard (1970, 44 HR, 15 2B); Hank Aaron (1973, 40 HR, 12 2B); Dave Kingman (1976, 37 HR, 14 2B)."
+  },
+  {
+   "n": 19,
+   "rule": "gidp_many",
+   "group": "H",
+   "decade": 1970,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 116205,
+     "name": "Frank Howard",
+     "team": "Washington Senators",
+     "age": 34,
+     "PA": 633,
+     "AVG": 0.279,
+     "OBP": 0.367,
+     "SLG": 0.474,
+     "OPS": 0.841,
+     "HR": 26,
+     "RBI": 83,
+     "R": 60,
+     "H": 153,
+     "2B": 25,
+     "3B": 2,
+     "SB": 1,
+     "CS": 0,
+     "BB": 77,
+     "SO": 121,
+     "HBP": 2,
+     "GIDP": 29
+    },
+    {
+     "season": 1973,
+     "id": 122247,
+     "name": "Ted Simmons",
+     "team": "St. Louis Cardinals",
+     "age": 23,
+     "PA": 690,
+     "AVG": 0.31,
+     "OBP": 0.37,
+     "SLG": 0.438,
+     "OPS": 0.808,
+     "HR": 13,
+     "RBI": 91,
+     "R": 62,
+     "H": 192,
+     "2B": 36,
+     "3B": 2,
+     "SB": 2,
+     "CS": 2,
+     "BB": 61,
+     "SO": 47,
+     "HBP": 2,
+     "GIDP": 29
+    },
+    {
+     "season": 1970,
+     "id": 117051,
+     "name": "Harmon Killebrew",
+     "team": "Minnesota Twins",
+     "age": 34,
+     "PA": 665,
+     "AVG": 0.271,
+     "OBP": 0.411,
+     "SLG": 0.546,
+     "OPS": 0.957,
+     "HR": 41,
+     "RBI": 113,
+     "R": 96,
+     "H": 143,
+     "2B": 20,
+     "3B": 1,
+     "SB": 0,
+     "CS": 3,
+     "BB": 128,
+     "SO": 84,
+     "HBP": 2,
+     "GIDP": 28
+    },
+    {
+     "season": 1975,
+     "id": 121932,
+     "name": "George Scott",
+     "team": "Milwaukee Brewers",
+     "age": 31,
+     "PA": 675,
+     "AVG": 0.285,
+     "OBP": 0.341,
+     "SLG": 0.515,
+     "OPS": 0.856,
+     "HR": 36,
+     "RBI": 109,
+     "R": 86,
+     "H": 176,
+     "2B": 26,
+     "3B": 4,
+     "SB": 6,
+     "CS": 5,
+     "BB": 51,
+     "SO": 97,
+     "HBP": 3,
+     "GIDP": 28
+    }
+   ],
+   "kind": "few",
+   "score": 6.725,
+   "players": [
+    {
+     "id": 116205,
+     "name": "Frank Howard"
+    },
+    {
+     "id": 122247,
+     "name": "Ted Simmons"
+    },
+    {
+     "id": 117051,
+     "name": "Harmon Killebrew"
+    },
+    {
+     "id": 121932,
+     "name": "George Scott"
+    }
+   ],
+   "seasons": [
+    1971,
+    1973,
+    1970,
+    1975
+   ],
+   "text": "Just four hitters of the 1970s grounded into 28+ double plays: Frank Howard (1971, 29 GIDP); Ted Simmons (1973, 29 GIDP); Harmon Killebrew (1970, 28 GIDP); George Scott (1975, 28 GIDP)."
+  },
+  {
+   "n": 20,
+   "rule": "sb_low_obp",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ],
+     [
+      "OBP",
+      "lte",
+      0.299
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1972,
+     "id": 111916,
+     "name": "Bert Campaneris",
+     "team": "Oakland Athletics",
+     "age": 30,
+     "PA": 681,
+     "AVG": 0.24,
+     "OBP": 0.278,
+     "SLG": 0.325,
+     "OPS": 0.603,
+     "HR": 8,
+     "RBI": 32,
+     "R": 85,
+     "H": 150,
+     "2B": 25,
+     "3B": 2,
+     "SB": 52,
+     "CS": 14,
+     "BB": 32,
+     "SO": 88,
+     "HBP": 2,
+     "GIDP": 9
+    },
+    {
+     "season": 1977,
+     "id": 119361,
+     "name": "Omar Moreno",
+     "team": "Pittsburgh Pirates",
+     "age": 24,
+     "PA": 533,
+     "AVG": 0.24,
+     "OBP": 0.295,
+     "SLG": 0.358,
+     "OPS": 0.653,
+     "HR": 7,
+     "RBI": 34,
+     "R": 69,
+     "H": 118,
+     "2B": 19,
+     "3B": 9,
+     "SB": 53,
+     "CS": 16,
+     "BB": 38,
+     "SO": 102,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 1979,
+     "id": 123121,
+     "name": "Frank Taveras",
+     "team": "New York Mets",
+     "age": 29,
+     "PA": 725,
+     "AVG": 0.262,
+     "OBP": 0.298,
+     "SLG": 0.335,
+     "OPS": 0.633,
+     "HR": 1,
+     "RBI": 34,
+     "R": 93,
+     "H": 178,
+     "2B": 29,
+     "3B": 9,
+     "SB": 44,
+     "CS": 20,
+     "BB": 33,
+     "SO": 74,
+     "HBP": 2,
+     "GIDP": 13
+    }
+   ],
+   "kind": "few",
+   "score": 6.6049999999999995,
+   "players": [
+    {
+     "id": 111916,
+     "name": "Bert Campaneris"
+    },
+    {
+     "id": 119361,
+     "name": "Omar Moreno"
+    },
+    {
+     "id": 123121,
+     "name": "Frank Taveras"
+    }
+   ],
+   "seasons": [
+    1972,
+    1977,
+    1979
+   ],
+   "text": "Just three hitters of the 1970s stole 40+ bases with an on-base under .300 (400+ PA): Bert Campaneris (1972, 52 SB, .278 OBP); Omar Moreno (1977, 53 SB, .295 OBP); Frank Taveras (1979, 44 SB, .298 OBP)."
+  },
+  {
+   "n": 21,
+   "rule": "no_walks_winner",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ],
+     [
+      "BB",
+      "lte",
+      30
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1972,
+     "id": 120213,
+     "name": "Milt Pappas",
+     "team": "Chicago Cubs",
+     "age": 33,
+     "W": 17,
+     "L": 7,
+     "ERA": 2.77,
+     "IP": "195.0",
+     "SO": 80,
+     "BB": 29,
+     "SV": 0,
+     "GS": 28,
+     "CG": 10,
+     "SHO": 3,
+     "HRA": 18,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1976,
+     "id": 119822,
+     "name": "Gary Nolan",
+     "team": "Cincinnati Reds",
+     "age": 28,
+     "W": 15,
+     "L": 9,
+     "ERA": 3.46,
+     "IP": "239.1",
+     "SO": 113,
+     "BB": 27,
+     "SV": 0,
+     "GS": 34,
+     "CG": 7,
+     "SHO": 1,
+     "HRA": 28,
+     "WHIP": 1.08
+    },
+    {
+     "season": 1975,
+     "id": 119822,
+     "name": "Gary Nolan",
+     "team": "Cincinnati Reds",
+     "age": 27,
+     "W": 15,
+     "L": 9,
+     "ERA": 3.16,
+     "IP": "210.2",
+     "SO": 74,
+     "BB": 29,
+     "SV": 0,
+     "GS": 32,
+     "CG": 5,
+     "SHO": 1,
+     "HRA": 18,
+     "WHIP": 1.1
+    },
+    {
+     "season": 1972,
+     "id": 119822,
+     "name": "Gary Nolan",
+     "team": "Cincinnati Reds",
+     "age": 24,
+     "W": 15,
+     "L": 5,
+     "ERA": 1.99,
+     "IP": "176.0",
+     "SO": 90,
+     "BB": 30,
+     "SV": 0,
+     "GS": 25,
+     "CG": 6,
+     "SHO": 2,
+     "HRA": 13,
+     "WHIP": 1.01
+    }
+   ],
+   "kind": "few",
+   "score": 6.3,
+   "players": [
+    {
+     "id": 120213,
+     "name": "Milt Pappas"
+    },
+    {
+     "id": 119822,
+     "name": "Gary Nolan"
+    },
+    {
+     "id": 119822,
+     "name": "Gary Nolan"
+    },
+    {
+     "id": 119822,
+     "name": "Gary Nolan"
+    }
+   ],
+   "seasons": [
+    1972,
+    1976,
+    1975,
+    1972
+   ],
+   "text": "Just four pitchers of the 1970s won 15 games walking 30 batters or fewer: Milt Pappas (1972, 17-7, 29 BB); Gary Nolan (1976, 15-9, 27 BB); Gary Nolan (1975, 15-9, 29 BB); Gary Nolan (1972, 15-5, 30 BB)."
+  },
+  {
+   "n": 22,
+   "rule": "era_under_3_no_wins",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      2.99
+     ],
+     [
+      "W",
+      "lte",
+      7
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1974,
+     "id": 115595,
+     "name": "Andy Hassler",
+     "team": "California Angels",
+     "age": 22,
+     "W": 7,
+     "L": 11,
+     "ERA": 2.61,
+     "IP": "162.0",
+     "SO": 76,
+     "BB": 79,
+     "SV": 1,
+     "GS": 22,
+     "CG": 10,
+     "SHO": 2,
+     "HRA": 10,
+     "WHIP": 1.3
+    },
+    {
+     "season": 1976,
+     "id": 115580,
+     "name": "Paul Hartzell",
+     "team": "California Angels",
+     "age": 22,
+     "W": 7,
+     "L": 4,
+     "ERA": 2.77,
+     "IP": "166.0",
+     "SO": 51,
+     "BB": 43,
+     "SV": 2,
+     "GS": 15,
+     "CG": 7,
+     "SHO": 2,
+     "HRA": 6,
+     "WHIP": 1.26
+    },
+    {
+     "season": 1971,
+     "id": 121609,
+     "name": "Ray Sadecki",
+     "team": "New York Mets",
+     "age": 30,
+     "W": 7,
+     "L": 7,
+     "ERA": 2.92,
+     "IP": "163.1",
+     "SO": 120,
+     "BB": 44,
+     "SV": 0,
+     "GS": 20,
+     "CG": 5,
+     "SHO": 2,
+     "HRA": 10,
+     "WHIP": 1.12
+    }
+   ],
+   "kind": "few",
+   "score": 6.24025,
+   "players": [
+    {
+     "id": 115595,
+     "name": "Andy Hassler"
+    },
+    {
+     "id": 115580,
+     "name": "Paul Hartzell"
+    },
+    {
+     "id": 121609,
+     "name": "Ray Sadecki"
+    }
+   ],
+   "seasons": [
+    1974,
+    1976,
+    1971
+   ],
+   "text": "Just three pitchers of the 1970s posted an ERA under 3.00 and won 7 or fewer (162+ IP): Andy Hassler (1974, 2.61 ERA, 7-11); Paul Hartzell (1976, 2.77 ERA, 7-4); Ray Sadecki (1971, 2.92 ERA, 7-7)."
+  },
+  {
+   "n": 23,
+   "rule": "slap_hitter",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.31
+     ],
+     [
+      "SLG",
+      "lte",
+      0.379
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 123421,
+     "name": "Cesar Tovar",
+     "team": "Minnesota Twins",
+     "age": 30,
+     "PA": 718,
+     "AVG": 0.311,
+     "OBP": 0.356,
+     "SLG": 0.368,
+     "OPS": 0.724,
+     "HR": 1,
+     "RBI": 45,
+     "R": 94,
+     "H": 204,
+     "2B": 29,
+     "3B": 3,
+     "SB": 18,
+     "CS": 14,
+     "BB": 45,
+     "SO": 39,
+     "HBP": 3,
+     "GIDP": 5
+    },
+    {
+     "season": 1972,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "Minnesota Twins",
+     "age": 26,
+     "PA": 591,
+     "AVG": 0.318,
+     "OBP": 0.369,
+     "SLG": 0.379,
+     "OPS": 0.748,
+     "HR": 0,
+     "RBI": 51,
+     "R": 61,
+     "H": 170,
+     "2B": 21,
+     "3B": 6,
+     "SB": 12,
+     "CS": 6,
+     "BB": 43,
+     "SO": 60,
+     "HBP": 2,
+     "GIDP": 11
+    },
+    {
+     "season": 1974,
+     "id": 115188,
+     "name": "Greg Gross",
+     "team": "Houston Astros",
+     "age": 21,
+     "PA": 676,
+     "AVG": 0.314,
+     "OBP": 0.393,
+     "SLG": 0.377,
+     "OPS": 0.77,
+     "HR": 0,
+     "RBI": 36,
+     "R": 78,
+     "H": 185,
+     "2B": 21,
+     "3B": 8,
+     "SB": 12,
+     "CS": 20,
+     "BB": 76,
+     "SO": 39,
+     "HBP": 1,
+     "GIDP": 13
+    }
+   ],
+   "kind": "few",
+   "score": 6.001425,
+   "players": [
+    {
+     "id": 123421,
+     "name": "Cesar Tovar"
+    },
+    {
+     "id": 111986,
+     "name": "Rod Carew"
+    },
+    {
+     "id": 115188,
+     "name": "Greg Gross"
+    }
+   ],
+   "seasons": [
+    1971,
+    1972,
+    1974
+   ],
+   "text": "Just three hitters of the 1970s batted .310 while slugging under .380 (500+ PA): Cesar Tovar (1971, .311 AVG, .368 SLG); Rod Carew (1972, .318 AVG, .379 SLG); Greg Gross (1974, .314 AVG, .377 SLG)."
+  },
+  {
+   "n": 24,
+   "rule": "zero_hr_full",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "HR",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 112089,
+     "name": "Dave Cash",
+     "team": "Montreal Expos",
+     "age": 29,
+     "PA": 709,
+     "AVG": 0.289,
+     "OBP": 0.343,
+     "SLG": 0.375,
+     "OPS": 0.718,
+     "HR": 0,
+     "RBI": 43,
+     "R": 91,
+     "H": 188,
+     "2B": 42,
+     "3B": 7,
+     "SB": 21,
+     "CS": 12,
+     "BB": 52,
+     "SO": 33,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1978,
+     "id": 123121,
+     "name": "Frank Taveras",
+     "team": "Pittsburgh Pirates",
+     "age": 28,
+     "PA": 702,
+     "AVG": 0.278,
+     "OBP": 0.313,
+     "SLG": 0.353,
+     "OPS": 0.666,
+     "HR": 0,
+     "RBI": 38,
+     "R": 81,
+     "H": 182,
+     "2B": 31,
+     "3B": 9,
+     "SB": 46,
+     "CS": 25,
+     "BB": 29,
+     "SO": 60,
+     "HBP": 5,
+     "GIDP": 4
+    },
+    {
+     "season": 1971,
+     "id": 111281,
+     "name": "Larry Bowa",
+     "team": "Philadelphia Phillies",
+     "age": 25,
+     "PA": 696,
+     "AVG": 0.249,
+     "OBP": 0.293,
+     "SLG": 0.292,
+     "OPS": 0.585,
+     "HR": 0,
+     "RBI": 25,
+     "R": 74,
+     "H": 162,
+     "2B": 18,
+     "3B": 5,
+     "SB": 28,
+     "CS": 11,
+     "BB": 36,
+     "SO": 61,
+     "HBP": 5,
+     "GIDP": 4
+    },
+    {
+     "season": 1975,
+     "id": 117024,
+     "name": "Don Kessinger",
+     "team": "Chicago Cubs",
+     "age": 32,
+     "PA": 693,
+     "AVG": 0.243,
+     "OBP": 0.317,
+     "SLG": 0.319,
+     "OPS": 0.636,
+     "HR": 0,
+     "RBI": 46,
+     "R": 77,
+     "H": 146,
+     "2B": 26,
+     "3B": 10,
+     "SB": 4,
+     "CS": 7,
+     "BB": 68,
+     "SO": 47,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 1974,
+     "id": 115188,
+     "name": "Greg Gross",
+     "team": "Houston Astros",
+     "age": 21,
+     "PA": 676,
+     "AVG": 0.314,
+     "OBP": 0.393,
+     "SLG": 0.377,
+     "OPS": 0.77,
+     "HR": 0,
+     "RBI": 36,
+     "R": 78,
+     "H": 185,
+     "2B": 21,
+     "3B": 8,
+     "SB": 12,
+     "CS": 20,
+     "BB": 76,
+     "SO": 39,
+     "HBP": 1,
+     "GIDP": 13
+    },
+    {
+     "season": 1976,
+     "id": 111281,
+     "name": "Larry Bowa",
+     "team": "Philadelphia Phillies",
+     "age": 30,
+     "PA": 672,
+     "AVG": 0.248,
+     "OBP": 0.283,
+     "SLG": 0.301,
+     "OPS": 0.584,
+     "HR": 0,
+     "RBI": 49,
+     "R": 71,
+     "H": 155,
+     "2B": 15,
+     "3B": 9,
+     "SB": 30,
+     "CS": 8,
+     "BB": 32,
+     "SO": 31,
+     "HBP": 0,
+     "GIDP": 11
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 112089,
+     "name": "Dave Cash"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "14 times in the 1970s a hitter played a full season without a single home run (600+ PA). The most extreme: Dave Cash, 1977 — 0 HR in 709 PA."
+  },
+  {
+   "n": 25,
+   "rule": "three_hundred_ip",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      300
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1972,
+     "id": 124543,
+     "name": "Wilbur Wood",
+     "team": "Chicago White Sox",
+     "age": 30,
+     "W": 24,
+     "L": 17,
+     "ERA": 2.51,
+     "IP": "376.2",
+     "SO": 193,
+     "BB": 74,
+     "SV": 0,
+     "GS": 49,
+     "CG": 20,
+     "SHO": 8,
+     "HRA": 28,
+     "WHIP": 1.06
+    },
+    {
+     "season": 1971,
+     "id": 117875,
+     "name": "Mickey Lolich",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "W": 25,
+     "L": 14,
+     "ERA": 2.92,
+     "IP": "376.0",
+     "SO": 308,
+     "BB": 92,
+     "SV": 0,
+     "GS": 45,
+     "CG": 29,
+     "SHO": 4,
+     "HRA": 36,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1973,
+     "id": 124543,
+     "name": "Wilbur Wood",
+     "team": "Chicago White Sox",
+     "age": 31,
+     "W": 24,
+     "L": 20,
+     "ERA": 3.46,
+     "IP": "359.1",
+     "SO": 199,
+     "BB": 91,
+     "SV": 0,
+     "GS": 48,
+     "CG": 21,
+     "SHO": 4,
+     "HRA": 25,
+     "WHIP": 1.31
+    },
+    {
+     "season": 1972,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "W": 27,
+     "L": 10,
+     "ERA": 1.97,
+     "IP": "346.1",
+     "SO": 310,
+     "BB": 87,
+     "SV": 0,
+     "GS": 41,
+     "CG": 30,
+     "SHO": 8,
+     "HRA": 17,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1973,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "W": 19,
+     "L": 19,
+     "ERA": 3.38,
+     "IP": "344.0",
+     "SO": 238,
+     "BB": 115,
+     "SV": 0,
+     "GS": 41,
+     "CG": 29,
+     "SHO": 7,
+     "HRA": 34,
+     "WHIP": 1.25
+    },
+    {
+     "season": 1972,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "Cleveland Indians",
+     "age": 33,
+     "W": 24,
+     "L": 16,
+     "ERA": 1.92,
+     "IP": "342.2",
+     "SO": 234,
+     "BB": 82,
+     "SV": 1,
+     "GS": 40,
+     "CG": 29,
+     "SHO": 5,
+     "HRA": 17,
+     "WHIP": 0.98
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 124543,
+     "name": "Wilbur Wood"
+    }
+   ],
+   "seasons": [
+    1972
+   ],
+   "text": "40 times in the 1970s a pitcher threw 300 innings. The most extreme: Wilbur Wood, 1972 — 376.2 IP."
+  },
+  {
+   "n": 26,
+   "rule": "k300_no20",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      300
+     ],
+     [
+      "W",
+      "lte",
+      19
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 30,
+     "W": 19,
+     "L": 16,
+     "ERA": 2.77,
+     "IP": "299.0",
+     "SO": 341,
+     "BB": 204,
+     "SV": 0,
+     "GS": 37,
+     "CG": 22,
+     "SHO": 4,
+     "HRA": 12,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1972,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 25,
+     "W": 19,
+     "L": 16,
+     "ERA": 2.28,
+     "IP": "284.0",
+     "SO": 329,
+     "BB": 157,
+     "SV": 0,
+     "GS": 39,
+     "CG": 20,
+     "SHO": 9,
+     "HRA": 14,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1976,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 29,
+     "W": 17,
+     "L": 18,
+     "ERA": 3.36,
+     "IP": "284.1",
+     "SO": 327,
+     "BB": 183,
+     "SV": 0,
+     "GS": 39,
+     "CG": 21,
+     "SHO": 7,
+     "HRA": 13,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1979,
+     "id": 121145,
+     "name": "J.R. Richard",
+     "team": "Houston Astros",
+     "age": 29,
+     "W": 18,
+     "L": 13,
+     "ERA": 2.71,
+     "IP": "292.1",
+     "SO": 313,
+     "BB": 98,
+     "SV": 0,
+     "GS": 38,
+     "CG": 19,
+     "SHO": 4,
+     "HRA": 13,
+     "WHIP": 1.09
+    },
+    {
+     "season": 1978,
+     "id": 121145,
+     "name": "J.R. Richard",
+     "team": "Houston Astros",
+     "age": 28,
+     "W": 18,
+     "L": 11,
+     "ERA": 3.11,
+     "IP": "275.1",
+     "SO": 303,
+     "BB": 141,
+     "SV": 0,
+     "GS": 36,
+     "CG": 16,
+     "SHO": 3,
+     "HRA": 12,
+     "WHIP": 1.21
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 121597,
+     "name": "Nolan Ryan Jr."
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "5 times in the 1970s a pitcher struck out 300 without winning 20. The most extreme: Nolan Ryan Jr., 1977 — 341 K, 19-16."
+  },
+  {
+   "n": 27,
+   "rule": "walks_many",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      130
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 30,
+     "W": 19,
+     "L": 16,
+     "ERA": 2.77,
+     "IP": "299.0",
+     "SO": 341,
+     "BB": 204,
+     "SV": 0,
+     "GS": 37,
+     "CG": 22,
+     "SHO": 4,
+     "HRA": 12,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1974,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 27,
+     "W": 22,
+     "L": 16,
+     "ERA": 2.89,
+     "IP": "332.2",
+     "SO": 367,
+     "BB": 202,
+     "SV": 0,
+     "GS": 41,
+     "CG": 26,
+     "SHO": 3,
+     "HRA": 18,
+     "WHIP": 1.27
+    },
+    {
+     "season": 1976,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 29,
+     "W": 17,
+     "L": 18,
+     "ERA": 3.36,
+     "IP": "284.1",
+     "SO": 327,
+     "BB": 183,
+     "SV": 0,
+     "GS": 39,
+     "CG": 21,
+     "SHO": 7,
+     "HRA": 13,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1977,
+     "id": 119786,
+     "name": "Phil Niekro",
+     "team": "Atlanta Braves",
+     "age": 38,
+     "W": 16,
+     "L": 20,
+     "ERA": 4.03,
+     "IP": "330.1",
+     "SO": 262,
+     "BB": 164,
+     "SV": 0,
+     "GS": 43,
+     "CG": 20,
+     "SHO": 2,
+     "HRA": 26,
+     "WHIP": 1.45
+    },
+    {
+     "season": 1973,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 26,
+     "W": 21,
+     "L": 16,
+     "ERA": 2.87,
+     "IP": "326.0",
+     "SO": 383,
+     "BB": 162,
+     "SV": 1,
+     "GS": 39,
+     "CG": 26,
+     "SHO": 4,
+     "HRA": 18,
+     "WHIP": 1.23
+    },
+    {
+     "season": 1974,
+     "id": 112480,
+     "name": "Joe Coleman",
+     "team": "Detroit Tigers",
+     "age": 27,
+     "W": 14,
+     "L": 12,
+     "ERA": 4.32,
+     "IP": "285.2",
+     "SO": 177,
+     "BB": 158,
+     "SV": 0,
+     "GS": 41,
+     "CG": 11,
+     "SHO": 2,
+     "HRA": 30,
+     "WHIP": 1.51
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 121597,
+     "name": "Nolan Ryan Jr."
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "19 times in the 1970s a pitcher walked 130+ batters. The most extreme: Nolan Ryan Jr., 1977 — 204 BB."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "lowest_avg_100rbi",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 112162,
+     "name": "Ron Cey"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 112162,
+     "name": "Ron Cey",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "PA": 669,
+     "AVG": 0.241,
+     "OBP": 0.347,
+     "SLG": 0.45,
+     "OPS": 0.797,
+     "HR": 30,
+     "RBI": 110,
+     "R": 77,
+     "H": 136,
+     "2B": 22,
+     "3B": 3,
+     "SB": 3,
+     "CS": 4,
+     "BB": 93,
+     "SO": 106,
+     "HBP": 2,
+     "GIDP": 11
+    }
+   ],
+   "among": 123,
+   "text": "Lowest average by any 100-RBI hitter of the 1970s: Ron Cey, 1977 — .241 with 110 RBI."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 111189,
+     "name": "Bobby Bonds"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 111189,
+     "name": "Bobby Bonds",
+     "team": "San Francisco Giants",
+     "age": 24,
+     "PA": 745,
+     "AVG": 0.302,
+     "OBP": 0.375,
+     "SLG": 0.504,
+     "OPS": 0.879,
+     "HR": 26,
+     "RBI": 78,
+     "R": 134,
+     "H": 200,
+     "2B": 36,
+     "3B": 10,
+     "SB": 48,
+     "CS": 10,
+     "BB": 77,
+     "SO": 189,
+     "HBP": 2,
+     "GIDP": 6
+    }
+   ],
+   "among": 234,
+   "text": "Most strikeouts by a .300 hitter of the 1970s: Bobby Bonds, 1970 — 189 K while batting .302."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "most_sb_30hr",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 111189,
+     "name": "Bobby Bonds"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1973,
+     "id": 111189,
+     "name": "Bobby Bonds",
+     "team": "San Francisco Giants",
+     "age": 27,
+     "PA": 738,
+     "AVG": 0.283,
+     "OBP": 0.37,
+     "SLG": 0.53,
+     "OPS": 0.9,
+     "HR": 39,
+     "RBI": 96,
+     "R": 131,
+     "H": 182,
+     "2B": 34,
+     "3B": 4,
+     "SB": 43,
+     "CS": 17,
+     "BB": 87,
+     "SO": 148,
+     "HBP": 4,
+     "GIDP": 8
+    }
+   ],
+   "among": 102,
+   "text": "Most steals by a 30-homer hitter of the 1970s: Bobby Bonds, 1973 — 43 SB with 39 HR."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "most_hr_low_rbi",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 119246,
+     "name": "Rick Monday"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1973,
+     "id": 119246,
+     "name": "Rick Monday",
+     "team": "Chicago Cubs",
+     "age": 27,
+     "PA": 651,
+     "AVG": 0.267,
+     "OBP": 0.372,
+     "SLG": 0.469,
+     "OPS": 0.841,
+     "HR": 26,
+     "RBI": 56,
+     "R": 93,
+     "H": 148,
+     "2B": 24,
+     "3B": 5,
+     "SB": 5,
+     "CS": 12,
+     "BB": 92,
+     "SO": 124,
+     "HBP": 1,
+     "GIDP": 3
+    }
+   ],
+   "among": 226,
+   "text": "Most home runs per RBI of the 1970s: Rick Monday, 1973 — 26 HR but only 56 RBI."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "most_bb_low_avg",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 124634,
+     "name": "Jimmy Wynn"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1976,
+     "id": 124634,
+     "name": "Jimmy Wynn",
+     "team": "Atlanta Braves",
+     "age": 34,
+     "PA": 584,
+     "AVG": 0.207,
+     "OBP": 0.377,
+     "SLG": 0.367,
+     "OPS": 0.744,
+     "HR": 17,
+     "RBI": 66,
+     "R": 75,
+     "H": 93,
+     "2B": 19,
+     "3B": 1,
+     "SB": 16,
+     "CS": 6,
+     "BB": 127,
+     "SO": 111,
+     "HBP": 0,
+     "GIDP": 7
+    }
+   ],
+   "among": 128,
+   "text": "Most walks by a sub-.240 hitter of the 1970s: Jimmy Wynn, 1976 — 127 BB while batting .207."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "most_rbi_per_hr",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 120232,
+     "name": "Wes Parker"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 120232,
+     "name": "Wes Parker",
+     "team": "Los Angeles Dodgers",
+     "age": 30,
+     "PA": 705,
+     "AVG": 0.319,
+     "OBP": 0.392,
+     "SLG": 0.458,
+     "OPS": 0.85,
+     "HR": 10,
+     "RBI": 111,
+     "R": 84,
+     "H": 196,
+     "2B": 47,
+     "3B": 4,
+     "SB": 8,
+     "CS": 2,
+     "BB": 79,
+     "SO": 70,
+     "HBP": 0,
+     "GIDP": 14
+    }
+   ],
+   "among": 123,
+   "text": "Most RBI per home run among 100-RBI seasons: Wes Parker, 1970 — 111 RBI on 10 HR."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "most_wins_bad_era",
+   "group": "P",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 111119,
+     "name": "Vida Blue"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1979,
+     "id": 111119,
+     "name": "Vida Blue",
+     "team": "San Francisco Giants",
+     "age": 29,
+     "W": 14,
+     "L": 14,
+     "ERA": 5.01,
+     "IP": "237.0",
+     "SO": 138,
+     "BB": 111,
+     "SV": 0,
+     "GS": 34,
+     "CG": 10,
+     "SHO": 0,
+     "HRA": 23,
+     "WHIP": 1.51
+    }
+   ],
+   "among": 76,
+   "text": "Most wins by a pitcher with an ERA over 5.00: Vida Blue, 1979 — 14-14 with a 5.01 ERA."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "fewest_wins_low_era",
+   "group": "P",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 121609,
+     "name": "Ray Sadecki"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 121609,
+     "name": "Ray Sadecki",
+     "team": "New York Mets",
+     "age": 30,
+     "W": 7,
+     "L": 7,
+     "ERA": 2.92,
+     "IP": "163.1",
+     "SO": 120,
+     "BB": 44,
+     "SV": 0,
+     "GS": 20,
+     "CG": 5,
+     "SHO": 2,
+     "HRA": 10,
+     "WHIP": 1.12
+    }
+   ],
+   "among": 190,
+   "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Ray Sadecki, 1971 — 7-7 despite a 2.92 ERA."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 124543,
+     "name": "Wilbur Wood"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1973,
+     "id": 124543,
+     "name": "Wilbur Wood",
+     "team": "Chicago White Sox",
+     "age": 31,
+     "W": 24,
+     "L": 20,
+     "ERA": 3.46,
+     "IP": "359.1",
+     "SO": 199,
+     "BB": 91,
+     "SV": 0,
+     "GS": 48,
+     "CG": 21,
+     "SHO": 4,
+     "HRA": 25,
+     "WHIP": 1.31
+    }
+   ],
+   "among": 506,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Wilbur Wood, 1973 — 24-20 with a 3.46 ERA."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "fewest_k_20w",
+   "group": "P",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 115171,
+     "name": "Ross Grimsley Jr."
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1978,
+     "id": 115171,
+     "name": "Ross Grimsley Jr.",
+     "team": "Montreal Expos",
+     "age": 28,
+     "W": 20,
+     "L": 11,
+     "ERA": 3.05,
+     "IP": "263.0",
+     "SO": 84,
+     "BB": 67,
+     "SV": 0,
+     "GS": 36,
+     "CG": 19,
+     "SHO": 3,
+     "HRA": 17,
+     "WHIP": 1.16
+    }
+   ],
+   "among": 96,
+   "text": "Fewest strikeouts by a 20-game winner of the 1970s: Ross Grimsley Jr., 1978 — 84 K, 20-11."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_ip_no_cg",
+   "group": "P",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 118320,
+     "name": "Mike Marshall"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1974,
+     "id": 118320,
+     "name": "Mike Marshall",
+     "team": "Los Angeles Dodgers",
+     "age": 31,
+     "W": 15,
+     "L": 12,
+     "ERA": 2.42,
+     "IP": "208.1",
+     "SO": 143,
+     "BB": 56,
+     "SV": 21,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.19
+    }
+   ],
+   "among": 1971,
+   "text": "Most innings in a season without a complete game: Mike Marshall, 1974 — 208.1 IP, 0 CG."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_hra",
+   "group": "P",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 119786,
+     "name": "Phil Niekro"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1979,
+     "id": 119786,
+     "name": "Phil Niekro",
+     "team": "Atlanta Braves",
+     "age": 40,
+     "W": 21,
+     "L": 20,
+     "ERA": 3.39,
+     "IP": "342.0",
+     "SO": 208,
+     "BB": 113,
+     "SV": 0,
+     "GS": 44,
+     "CG": 23,
+     "SHO": 1,
+     "HRA": 41,
+     "WHIP": 1.24
+    }
+   ],
+   "among": 3513,
+   "text": "Most home runs allowed in a season this decade: Phil Niekro, 1979 — 41 HR allowed, 21-20."
+  },
+  {
+   "n": 40,
+   "kind": "nearmiss",
+   "rule": "HR29",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 116164,
+     "name": "Willie Horton"
+    },
+    {
+     "id": 110526,
+     "name": "Sal Bando"
+    },
+    {
+     "id": 111773,
+     "name": "Jeff Burroughs"
+    }
+   ],
+   "seasons": [
+    1979,
+    1973,
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1979,
+     "id": 116164,
+     "name": "Willie Horton",
+     "team": "Seattle Mariners",
+     "age": 36,
+     "PA": 696,
+     "AVG": 0.279,
+     "OBP": 0.326,
+     "SLG": 0.458,
+     "OPS": 0.784,
+     "HR": 29,
+     "RBI": 106,
+     "R": 77,
+     "H": 180,
+     "2B": 19,
+     "3B": 5,
+     "SB": 1,
+     "CS": 1,
+     "BB": 42,
+     "SO": 112,
+     "HBP": 4,
+     "GIDP": 20
+    },
+    {
+     "season": 1973,
+     "id": 110526,
+     "name": "Sal Bando",
+     "team": "Oakland Athletics",
+     "age": 29,
+     "PA": 689,
+     "AVG": 0.287,
+     "OBP": 0.375,
+     "SLG": 0.498,
+     "OPS": 0.873,
+     "HR": 29,
+     "RBI": 98,
+     "R": 97,
+     "H": 170,
+     "2B": 32,
+     "3B": 3,
+     "SB": 4,
+     "CS": 2,
+     "BB": 82,
+     "SO": 84,
+     "HBP": 4,
+     "GIDP": 13
+    },
+    {
+     "season": 1975,
+     "id": 111773,
+     "name": "Jeff Burroughs",
+     "team": "Texas Rangers",
+     "age": 24,
+     "PA": 672,
+     "AVG": 0.226,
+     "OBP": 0.315,
+     "SLG": 0.409,
+     "OPS": 0.724,
+     "HR": 29,
+     "RBI": 94,
+     "R": 81,
+     "H": 132,
+     "2B": 20,
+     "3B": 0,
+     "SB": 4,
+     "CS": 4,
+     "BB": 79,
+     "SO": 155,
+     "HBP": 1,
+     "GIDP": 14
+    },
+    {
+     "season": 1973,
+     "id": 118023,
+     "name": "Greg Luzinski",
+     "team": "Philadelphia Phillies",
+     "age": 22,
+     "PA": 671,
+     "AVG": 0.285,
+     "OBP": 0.346,
+     "SLG": 0.484,
+     "OPS": 0.83,
+     "HR": 29,
+     "RBI": 97,
+     "R": 76,
+     "H": 174,
+     "2B": 26,
+     "3B": 4,
+     "SB": 3,
+     "CS": 3,
+     "BB": 51,
+     "SO": 135,
+     "HBP": 7,
+     "GIDP": 11
+    },
+    {
+     "season": 1970,
+     "id": 120475,
+     "name": "Rico Petrocelli",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 664,
+     "AVG": 0.261,
+     "OBP": 0.334,
+     "SLG": 0.473,
+     "OPS": 0.807,
+     "HR": 29,
+     "RBI": 103,
+     "R": 82,
+     "H": 152,
+     "2B": 31,
+     "3B": 3,
+     "SB": 1,
+     "CS": 1,
+     "BB": 67,
+     "SO": 82,
+     "HBP": 2,
+     "GIDP": 16
+    },
+    {
+     "season": 1972,
+     "id": 118474,
+     "name": "Lee May",
+     "team": "Houston Astros",
+     "age": 29,
+     "PA": 647,
+     "AVG": 0.284,
+     "OBP": 0.343,
+     "SLG": 0.49,
+     "OPS": 0.833,
+     "HR": 29,
+     "RBI": 98,
+     "R": 87,
+     "H": 168,
+     "2B": 31,
+     "3B": 2,
+     "SB": 3,
+     "CS": 1,
+     "BB": 52,
+     "SO": 144,
+     "HBP": 2,
+     "GIDP": 13
+    }
+   ],
+   "text": "15 hitter-seasons of the 1970s ended on exactly 29 home runs, one short of 30 — among them Willie Horton (1979), Sal Bando (1973), Jeff Burroughs (1975)."
+  },
+  {
+   "n": 41,
+   "kind": "nearmiss",
+   "rule": "RBI99",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 119983,
+     "name": "Al Oliver"
+    },
+    {
+     "id": 119579,
+     "name": "Eddie Murray"
+    },
+    {
+     "id": 110481,
+     "name": "Dusty Baker Jr."
+    }
+   ],
+   "seasons": [
+    1973,
+    1979,
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1973,
+     "id": 119983,
+     "name": "Al Oliver",
+     "team": "Pittsburgh Pirates",
+     "age": 26,
+     "PA": 690,
+     "AVG": 0.292,
+     "OBP": 0.316,
+     "SLG": 0.463,
+     "OPS": 0.779,
+     "HR": 20,
+     "RBI": 99,
+     "R": 90,
+     "H": 191,
+     "2B": 38,
+     "3B": 7,
+     "SB": 6,
+     "CS": 0,
+     "BB": 22,
+     "SO": 52,
+     "HBP": 5,
+     "GIDP": 18
+    },
+    {
+     "season": 1979,
+     "id": 119579,
+     "name": "Eddie Murray",
+     "team": "Baltimore Orioles",
+     "age": 23,
+     "PA": 687,
+     "AVG": 0.295,
+     "OBP": 0.369,
+     "SLG": 0.475,
+     "OPS": 0.844,
+     "HR": 25,
+     "RBI": 99,
+     "R": 90,
+     "H": 179,
+     "2B": 30,
+     "3B": 2,
+     "SB": 10,
+     "CS": 2,
+     "BB": 72,
+     "SO": 78,
+     "HBP": 2,
+     "GIDP": 16
+    },
+    {
+     "season": 1973,
+     "id": 110481,
+     "name": "Dusty Baker Jr.",
+     "team": "Atlanta Braves",
+     "age": 24,
+     "PA": 686,
+     "AVG": 0.288,
+     "OBP": 0.359,
+     "SLG": 0.454,
+     "OPS": 0.813,
+     "HR": 21,
+     "RBI": 99,
+     "R": 101,
+     "H": 174,
+     "2B": 29,
+     "3B": 4,
+     "SB": 24,
+     "CS": 3,
+     "BB": 67,
+     "SO": 72,
+     "HBP": 5,
+     "GIDP": 14
+    },
+    {
+     "season": 1971,
+     "id": 119258,
+     "name": "Willie Montanez",
+     "team": "Philadelphia Phillies",
+     "age": 23,
+     "PA": 683,
+     "AVG": 0.255,
+     "OBP": 0.327,
+     "SLG": 0.471,
+     "OPS": 0.798,
+     "HR": 30,
+     "RBI": 99,
+     "R": 78,
+     "H": 153,
+     "2B": 27,
+     "3B": 6,
+     "SB": 4,
+     "CS": 7,
+     "BB": 67,
+     "SO": 105,
+     "HBP": 3,
+     "GIDP": 18
+    },
+    {
+     "season": 1978,
+     "id": 110719,
+     "name": "Don Baylor",
+     "team": "California Angels",
+     "age": 29,
+     "PA": 677,
+     "AVG": 0.255,
+     "OBP": 0.332,
+     "SLG": 0.472,
+     "OPS": 0.804,
+     "HR": 34,
+     "RBI": 99,
+     "R": 103,
+     "H": 151,
+     "2B": 26,
+     "3B": 0,
+     "SB": 22,
+     "CS": 9,
+     "BB": 56,
+     "SO": 71,
+     "HBP": 18,
+     "GIDP": 15
+    },
+    {
+     "season": 1970,
+     "id": 119989,
+     "name": "Bob Oliver",
+     "team": "Kansas City Royals",
+     "age": 27,
+     "PA": 662,
+     "AVG": 0.26,
+     "OBP": 0.309,
+     "SLG": 0.451,
+     "OPS": 0.76,
+     "HR": 27,
+     "RBI": 99,
+     "R": 83,
+     "H": 159,
+     "2B": 24,
+     "3B": 6,
+     "SB": 3,
+     "CS": 3,
+     "BB": 42,
+     "SO": 126,
+     "HBP": 3,
+     "GIDP": 15
+    }
+   ],
+   "text": "13 hitter-seasons of the 1970s ended on exactly 99 RBI, one short of 100 — among them Al Oliver (1973), Eddie Murray (1979), Dusty Baker Jr. (1973)."
+  },
+  {
+   "n": 42,
+   "kind": "nearmiss",
+   "rule": "W19",
+   "group": "P",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 120438,
+     "name": "Gaylord Perry"
+    },
+    {
+     "id": 119786,
+     "name": "Phil Niekro"
+    },
+    {
+     "id": 118990,
+     "name": "Andy Messersmith"
+    }
+   ],
+   "seasons": [
+    1973,
+    1978,
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1973,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "W": 19,
+     "L": 19,
+     "ERA": 3.38,
+     "IP": "344.0",
+     "SO": 238,
+     "BB": 115,
+     "SV": 0,
+     "GS": 41,
+     "CG": 29,
+     "SHO": 7,
+     "HRA": 34,
+     "WHIP": 1.25
+    },
+    {
+     "season": 1978,
+     "id": 119786,
+     "name": "Phil Niekro",
+     "team": "Atlanta Braves",
+     "age": 39,
+     "W": 19,
+     "L": 18,
+     "ERA": 2.88,
+     "IP": "334.1",
+     "SO": 248,
+     "BB": 102,
+     "SV": 1,
+     "GS": 42,
+     "CG": 22,
+     "SHO": 4,
+     "HRA": 16,
+     "WHIP": 1.19
+    },
+    {
+     "season": 1975,
+     "id": 118990,
+     "name": "Andy Messersmith",
+     "team": "Los Angeles Dodgers",
+     "age": 29,
+     "W": 19,
+     "L": 14,
+     "ERA": 2.29,
+     "IP": "321.2",
+     "SO": 213,
+     "BB": 96,
+     "SV": 1,
+     "GS": 40,
+     "CG": 19,
+     "SHO": 7,
+     "HRA": 22,
+     "WHIP": 1.06
+    },
+    {
+     "season": 1977,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "California Angels",
+     "age": 30,
+     "W": 19,
+     "L": 16,
+     "ERA": 2.77,
+     "IP": "299.0",
+     "SO": 341,
+     "BB": 204,
+     "SV": 0,
+     "GS": 37,
+     "CG": 22,
+     "SHO": 4,
+     "HRA": 12,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1973,
+     "id": 110997,
+     "name": "Jack Billingham",
+     "team": "Cincinnati Reds",
+     "age": 30,
+     "W": 19,
+     "L": 10,
+     "ERA": 3.04,
+     "IP": "293.1",
+     "SO": 155,
+     "BB": 95,
+     "SV": 0,
+     "GS": 40,
+     "CG": 16,
+     "SHO": 7,
+     "HRA": 20,
+     "WHIP": 1.2
+    },
+    {
+     "season": 1973,
+     "id": 121961,
+     "name": "Tom Seaver",
+     "team": "New York Mets",
+     "age": 28,
+     "W": 19,
+     "L": 10,
+     "ERA": 2.08,
+     "IP": "290.0",
+     "SO": 251,
+     "BB": 64,
+     "SV": 0,
+     "GS": 36,
+     "CG": 18,
+     "SHO": 3,
+     "HRA": 23,
+     "WHIP": 0.98
+    }
+   ],
+   "text": "27 pitcher-seasons of the 1970s ended on exactly 19 wins, one short of 20 — among them Gaylord Perry (1973), Phil Niekro (1978), Andy Messersmith (1975)."
+  },
+  {
+   "n": 43,
+   "kind": "streak",
+   "rule": "RBI100",
+   "group": "H",
+   "decade": 1970,
+   "score": 6,
+   "players": [
+    {
+     "id": 110849,
+     "name": "Johnny Bench"
+    }
+   ],
+   "seasons": [
+    1972,
+    1973,
+    1974,
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1972,
+     "id": 110849,
+     "name": "Johnny Bench",
+     "team": "Cincinnati Reds",
+     "age": 24,
+     "PA": 652,
+     "AVG": 0.27,
+     "OBP": 0.379,
+     "SLG": 0.541,
+     "OPS": 0.92,
+     "HR": 40,
+     "RBI": 125,
+     "R": 87,
+     "H": 145,
+     "2B": 22,
+     "3B": 2,
+     "SB": 6,
+     "CS": 6,
+     "BB": 100,
+     "SO": 84,
+     "HBP": 2,
+     "GIDP": 18
+    },
+    {
+     "season": 1973,
+     "id": 110849,
+     "name": "Johnny Bench",
+     "team": "Cincinnati Reds",
+     "age": 25,
+     "PA": 651,
+     "AVG": 0.253,
+     "OBP": 0.345,
+     "SLG": 0.429,
+     "OPS": 0.774,
+     "HR": 25,
+     "RBI": 104,
+     "R": 83,
+     "H": 141,
+     "2B": 17,
+     "3B": 3,
+     "SB": 4,
+     "CS": 1,
+     "BB": 83,
+     "SO": 83,
+     "HBP": 0,
+     "GIDP": 22
+    },
+    {
+     "season": 1974,
+     "id": 110849,
+     "name": "Johnny Bench",
+     "team": "Cincinnati Reds",
+     "age": 26,
+     "PA": 708,
+     "AVG": 0.28,
+     "OBP": 0.363,
+     "SLG": 0.507,
+     "OPS": 0.87,
+     "HR": 33,
+     "RBI": 129,
+     "R": 108,
+     "H": 174,
+     "2B": 38,
+     "3B": 2,
+     "SB": 5,
+     "CS": 4,
+     "BB": 80,
+     "SO": 90,
+     "HBP": 3,
+     "GIDP": 13
+    },
+    {
+     "season": 1975,
+     "id": 110849,
+     "name": "Johnny Bench",
+     "team": "Cincinnati Reds",
+     "age": 27,
+     "PA": 606,
+     "AVG": 0.283,
+     "OBP": 0.359,
+     "SLG": 0.519,
+     "OPS": 0.878,
+     "HR": 28,
+     "RBI": 110,
+     "R": 83,
+     "H": 150,
+     "2B": 39,
+     "3B": 1,
+     "SB": 11,
+     "CS": 0,
+     "BB": 65,
+     "SO": 108,
+     "HBP": 2,
+     "GIDP": 12
+    }
+   ],
+   "text": "Johnny Bench drove in 100+ runs in 4 straight seasons (1972-75), the longest run of the 1970s."
+  },
+  {
+   "n": 44,
+   "kind": "team",
+   "rule": "100w",
+   "group": "T",
+   "decade": 1970,
+   "score": 6,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 110,
+     "name": "Orioles",
+     "wins": 108,
+     "losses": 54,
+     "runsScored": 792,
+     "runsAllowed": 574,
+     "runDifferential": 218,
+     "leagueRank": 1,
+     "season": 1970
+    },
+    {
+     "id": 113,
+     "name": "Reds",
+     "wins": 108,
+     "losses": 54,
+     "runsScored": 840,
+     "runsAllowed": 586,
+     "runDifferential": 254,
+     "leagueRank": 1,
+     "season": 1975
+    },
+    {
+     "id": 113,
+     "name": "Reds",
+     "wins": 102,
+     "losses": 60,
+     "runsScored": 775,
+     "runsAllowed": 681,
+     "runDifferential": 94,
+     "leagueRank": 1,
+     "season": 1970
+    },
+    {
+     "id": 119,
+     "name": "Dodgers",
+     "wins": 102,
+     "losses": 60,
+     "runsScored": 798,
+     "runsAllowed": 561,
+     "runDifferential": 237,
+     "leagueRank": 1,
+     "season": 1974
+    },
+    {
+     "id": 113,
+     "name": "Reds",
+     "wins": 102,
+     "losses": 60,
+     "runsScored": 857,
+     "runsAllowed": 633,
+     "runDifferential": 224,
+     "leagueRank": 1,
+     "season": 1976
+    },
+    {
+     "id": 118,
+     "name": "Royals",
+     "wins": 102,
+     "losses": 60,
+     "runsScored": 822,
+     "runsAllowed": 651,
+     "runDifferential": 171,
+     "leagueRank": 1,
+     "season": 1977
+    }
+   ],
+   "text": "13 teams of the 1970s won 100 games; the best record was the 1970 Orioles at 108-54."
+  },
+  {
+   "n": 45,
+   "rule": "seventy_sb",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "SB",
+      "gte",
+      70
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1974,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 35,
+     "PA": 702,
+     "AVG": 0.306,
+     "OBP": 0.368,
+     "SLG": 0.381,
+     "OPS": 0.749,
+     "HR": 3,
+     "RBI": 48,
+     "R": 105,
+     "H": 194,
+     "2B": 25,
+     "3B": 7,
+     "SB": 118,
+     "CS": 33,
+     "BB": 61,
+     "SO": 88,
+     "HBP": 2,
+     "GIDP": 8
+    },
+    {
+     "season": 1979,
+     "id": 124435,
+     "name": "Willie Wilson",
+     "team": "Kansas City Royals",
+     "age": 23,
+     "PA": 640,
+     "AVG": 0.315,
+     "OBP": 0.351,
+     "SLG": 0.42,
+     "OPS": 0.771,
+     "HR": 6,
+     "RBI": 49,
+     "R": 113,
+     "H": 185,
+     "2B": 18,
+     "3B": 13,
+     "SB": 83,
+     "CS": 12,
+     "BB": 28,
+     "SO": 92,
+     "HBP": 7,
+     "GIDP": 1
+    },
+    {
+     "season": 1979,
+     "id": 117630,
+     "name": "Ron LeFlore",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "PA": 654,
+     "AVG": 0.3,
+     "OBP": 0.355,
+     "SLG": 0.415,
+     "OPS": 0.77,
+     "HR": 9,
+     "RBI": 57,
+     "R": 110,
+     "H": 180,
+     "2B": 22,
+     "3B": 10,
+     "SB": 78,
+     "CS": 14,
+     "BB": 52,
+     "SO": 95,
+     "HBP": 0,
+     "GIDP": 16
+    },
+    {
+     "season": 1975,
+     "id": 117912,
+     "name": "Davey Lopes",
+     "team": "Los Angeles Dodgers",
+     "age": 30,
+     "PA": 726,
+     "AVG": 0.262,
+     "OBP": 0.358,
+     "SLG": 0.359,
+     "OPS": 0.717,
+     "HR": 8,
+     "RBI": 41,
+     "R": 108,
+     "H": 162,
+     "2B": 24,
+     "3B": 6,
+     "SB": 77,
+     "CS": 12,
+     "BB": 91,
+     "SO": 93,
+     "HBP": 2,
+     "GIDP": 4
+    },
+    {
+     "season": 1979,
+     "id": 119361,
+     "name": "Omar Moreno",
+     "team": "Pittsburgh Pirates",
+     "age": 26,
+     "PA": 757,
+     "AVG": 0.282,
+     "OBP": 0.333,
+     "SLG": 0.381,
+     "OPS": 0.714,
+     "HR": 8,
+     "RBI": 69,
+     "R": 110,
+     "H": 196,
+     "2B": 21,
+     "3B": 12,
+     "SB": 77,
+     "CS": 21,
+     "BB": 51,
+     "SO": 104,
+     "HBP": 3,
+     "GIDP": 7
+    },
+    {
+     "season": 1976,
+     "id": 119845,
+     "name": "Bill North",
+     "team": "Oakland Athletics",
+     "age": 28,
+     "PA": 675,
+     "AVG": 0.276,
+     "OBP": 0.356,
+     "SLG": 0.337,
+     "OPS": 0.693,
+     "HR": 2,
+     "RBI": 31,
+     "R": 91,
+     "H": 163,
+     "2B": 20,
+     "3B": 5,
+     "SB": 75,
+     "CS": 29,
+     "BB": 73,
+     "SO": 95,
+     "HBP": 2,
+     "GIDP": 8
+    }
+   ],
+   "kind": "list",
+   "score": 5.95,
+   "players": [
+    {
+     "id": 111495,
+     "name": "Lou Brock"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "text": "10 times in the 1970s a hitter stole 70 bases. The most extreme: Lou Brock, 1974 — 118 SB."
+  },
+  {
+   "n": 46,
+   "kind": "nearmiss",
+   "rule": "AVG299",
+   "group": "H",
+   "decade": 1970,
+   "score": 5.75,
+   "players": [
+    {
+     "id": 110815,
+     "name": "Buddy Bell"
+    },
+    {
+     "id": 114627,
+     "name": "Ralph Garr"
+    },
+    {
+     "id": 122699,
+     "name": "Rusty Staub"
+    }
+   ],
+   "seasons": [
+    1979,
+    1973,
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1979,
+     "id": 110815,
+     "name": "Buddy Bell",
+     "team": "Texas Rangers",
+     "age": 27,
+     "PA": 720,
+     "AVG": 0.299,
+     "OBP": 0.327,
+     "SLG": 0.451,
+     "OPS": 0.778,
+     "HR": 18,
+     "RBI": 101,
+     "R": 89,
+     "H": 200,
+     "2B": 42,
+     "3B": 3,
+     "SB": 5,
+     "CS": 4,
+     "BB": 30,
+     "SO": 45,
+     "HBP": 3,
+     "GIDP": 16
+    },
+    {
+     "season": 1973,
+     "id": 114627,
+     "name": "Ralph Garr",
+     "team": "Atlanta Braves",
+     "age": 27,
+     "PA": 698,
+     "AVG": 0.299,
+     "OBP": 0.323,
+     "SLG": 0.415,
+     "OPS": 0.738,
+     "HR": 11,
+     "RBI": 55,
+     "R": 94,
+     "H": 200,
+     "2B": 32,
+     "3B": 6,
+     "SB": 35,
+     "CS": 11,
+     "BB": 22,
+     "SO": 64,
+     "HBP": 2,
+     "GIDP": 12
+    },
+    {
+     "season": 1976,
+     "id": 122699,
+     "name": "Rusty Staub",
+     "team": "Detroit Tigers",
+     "age": 32,
+     "PA": 690,
+     "AVG": 0.299,
+     "OBP": 0.386,
+     "SLG": 0.433,
+     "OPS": 0.819,
+     "HR": 15,
+     "RBI": 96,
+     "R": 73,
+     "H": 176,
+     "2B": 28,
+     "3B": 3,
+     "SB": 3,
+     "CS": 1,
+     "BB": 83,
+     "SO": 49,
+     "HBP": 7,
+     "GIDP": 23
+    },
+    {
+     "season": 1977,
+     "id": 112902,
+     "name": "Jose Cruz",
+     "team": "Houston Astros",
+     "age": 29,
+     "PA": 661,
+     "AVG": 0.299,
+     "OBP": 0.368,
+     "SLG": 0.475,
+     "OPS": 0.843,
+     "HR": 17,
+     "RBI": 87,
+     "R": 87,
+     "H": 173,
+     "2B": 31,
+     "3B": 10,
+     "SB": 44,
+     "CS": 23,
+     "BB": 69,
+     "SO": 67,
+     "HBP": 0,
+     "GIDP": 4
+    },
+    {
+     "season": 1977,
+     "id": 120037,
+     "name": "Steve Ontiveros",
+     "team": "Chicago Cubs",
+     "age": 25,
+     "PA": 636,
+     "AVG": 0.299,
+     "OBP": 0.39,
+     "SLG": 0.423,
+     "OPS": 0.813,
+     "HR": 10,
+     "RBI": 68,
+     "R": 54,
+     "H": 163,
+     "2B": 32,
+     "3B": 3,
+     "SB": 3,
+     "CS": 3,
+     "BB": 81,
+     "SO": 69,
+     "HBP": 3,
+     "GIDP": 15
+    },
+    {
+     "season": 1973,
+     "id": 122685,
+     "name": "Willie Stargell",
+     "team": "Pittsburgh Pirates",
+     "age": 33,
+     "PA": 609,
+     "AVG": 0.299,
+     "OBP": 0.392,
+     "SLG": 0.646,
+     "OPS": 1.038,
+     "HR": 44,
+     "RBI": 119,
+     "R": 106,
+     "H": 156,
+     "2B": 43,
+     "3B": 3,
+     "SB": 0,
+     "CS": 0,
+     "BB": 80,
+     "SO": 129,
+     "HBP": 3,
+     "GIDP": 6
+    }
+   ],
+   "text": "7 hitter-seasons of the 1970s ended on a .299 average, one point short of .300 — among them Buddy Bell (1979), Ralph Garr (1973), Rusty Staub (1976)."
+  },
+  {
+   "n": 47,
+   "kind": "age",
+   "rule": "age_30hr_young",
+   "group": "H",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 116154,
+     "name": "Bob Horner"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1979,
+     "id": 116154,
+     "name": "Bob Horner",
+     "team": "Atlanta Braves",
+     "age": 21,
+     "PA": 515,
+     "AVG": 0.314,
+     "OBP": 0.346,
+     "SLG": 0.552,
+     "OPS": 0.898,
+     "HR": 33,
+     "RBI": 98,
+     "R": 66,
+     "H": 153,
+     "2B": 15,
+     "3B": 1,
+     "SB": 0,
+     "CS": 2,
+     "BB": 22,
+     "SO": 74,
+     "HBP": 3,
+     "GIDP": 9
+    }
+   ],
+   "text": "Youngest player of the 1970s to hit 30 home runs: Bob Horner, age 21 in 1979 — 33 HR."
+  },
+  {
+   "n": 48,
+   "kind": "age",
+   "rule": "age_330_young",
+   "group": "H",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 118040,
+     "name": "Fred Lynn"
+    }
+   ],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1975,
+     "id": 118040,
+     "name": "Fred Lynn",
+     "team": "Boston Red Sox",
+     "age": 23,
+     "PA": 605,
+     "AVG": 0.331,
+     "OBP": 0.401,
+     "SLG": 0.566,
+     "OPS": 0.967,
+     "HR": 21,
+     "RBI": 105,
+     "R": 103,
+     "H": 175,
+     "2B": 47,
+     "3B": 7,
+     "SB": 10,
+     "CS": 5,
+     "BB": 62,
+     "SO": 90,
+     "HBP": 3,
+     "GIDP": 11
+    }
+   ],
+   "text": "Youngest player of the 1970s to bat .330 (500+ PA): Fred Lynn, age 23 in 1975 — .331."
+  },
+  {
+   "n": 49,
+   "kind": "age",
+   "rule": "age_100rbi_young",
+   "group": "H",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 110849,
+     "name": "Johnny Bench"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 110849,
+     "name": "Johnny Bench",
+     "team": "Cincinnati Reds",
+     "age": 22,
+     "PA": 671,
+     "AVG": 0.293,
+     "OBP": 0.345,
+     "SLG": 0.587,
+     "OPS": 0.932,
+     "HR": 45,
+     "RBI": 148,
+     "R": 97,
+     "H": 177,
+     "2B": 35,
+     "3B": 4,
+     "SB": 5,
+     "CS": 2,
+     "BB": 54,
+     "SO": 102,
+     "HBP": 0,
+     "GIDP": 12
+    }
+   ],
+   "text": "Youngest player of the 1970s to drive in 100 runs: Johnny Bench, age 22 in 1970 — 148 RBI."
+  },
+  {
+   "n": 50,
+   "kind": "age",
+   "rule": "age_sb_young",
+   "group": "H",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 123962,
+     "name": "Claudell Washington"
+    }
+   ],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1975,
+     "id": 123962,
+     "name": "Claudell Washington",
+     "team": "Oakland Athletics",
+     "age": 20,
+     "PA": 635,
+     "AVG": 0.308,
+     "OBP": 0.345,
+     "SLG": 0.424,
+     "OPS": 0.769,
+     "HR": 10,
+     "RBI": 77,
+     "R": 86,
+     "H": 182,
+     "2B": 24,
+     "3B": 7,
+     "SB": 40,
+     "CS": 15,
+     "BB": 32,
+     "SO": 80,
+     "HBP": 5,
+     "GIDP": 12
+    }
+   ],
+   "text": "Youngest player of the 1970s to steal 40 bases: Claudell Washington, age 20 in 1975 — 40 SB."
+  },
+  {
+   "n": 51,
+   "kind": "age",
+   "rule": "age_sb_old",
+   "group": "H",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111495,
+     "name": "Lou Brock"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1976,
+     "id": 111495,
+     "name": "Lou Brock",
+     "team": "St. Louis Cardinals",
+     "age": 37,
+     "PA": 544,
+     "AVG": 0.301,
+     "OBP": 0.344,
+     "SLG": 0.394,
+     "OPS": 0.738,
+     "HR": 4,
+     "RBI": 67,
+     "R": 73,
+     "H": 150,
+     "2B": 24,
+     "3B": 5,
+     "SB": 56,
+     "CS": 19,
+     "BB": 35,
+     "SO": 75,
+     "HBP": 1,
+     "GIDP": 19
+    }
+   ],
+   "text": "Oldest player of the 1970s to steal 40 bases: Lou Brock, age 37 in 1976 — 56 SB."
+  },
+  {
+   "n": 52,
+   "kind": "age",
+   "rule": "age_20w_young",
+   "group": "P",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111119,
+     "name": "Vida Blue"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 111119,
+     "name": "Vida Blue",
+     "team": "Oakland Athletics",
+     "age": 21,
+     "W": 24,
+     "L": 8,
+     "ERA": 1.82,
+     "IP": "312.0",
+     "SO": 301,
+     "BB": 88,
+     "SV": 0,
+     "GS": 39,
+     "CG": 24,
+     "SHO": 8,
+     "HRA": 19,
+     "WHIP": 0.95
+    }
+   ],
+   "text": "Youngest player of the 1970s to win 20 games: Vida Blue, age 21 in 1971 — 24-8."
+  },
+  {
+   "n": 53,
+   "kind": "age",
+   "rule": "age_k_young",
+   "group": "P",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111126,
+     "name": "Bert Blyleven"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 111126,
+     "name": "Bert Blyleven",
+     "team": "Minnesota Twins",
+     "age": 20,
+     "W": 16,
+     "L": 15,
+     "ERA": 2.81,
+     "IP": "278.1",
+     "SO": 224,
+     "BB": 59,
+     "SV": 0,
+     "GS": 38,
+     "CG": 17,
+     "SHO": 5,
+     "HRA": 21,
+     "WHIP": 1.17
+    }
+   ],
+   "text": "Youngest player of the 1970s to strike out 200: Bert Blyleven, age 20 in 1971 — 224 K."
+  },
+  {
+   "n": 54,
+   "kind": "age",
+   "rule": "age_era_young",
+   "group": "P",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 115239,
+     "name": "Don Gullett"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 115239,
+     "name": "Don Gullett",
+     "team": "Cincinnati Reds",
+     "age": 20,
+     "W": 16,
+     "L": 6,
+     "ERA": 2.65,
+     "IP": "217.2",
+     "SO": 107,
+     "BB": 64,
+     "SV": 0,
+     "GS": 31,
+     "CG": 4,
+     "SHO": 3,
+     "HRA": 14,
+     "WHIP": 1.19
+    }
+   ],
+   "text": "Youngest player of the 1970s to post a qualified ERA under 2.75: Don Gullett, age 20 in 1971 — 2.65 ERA."
+  },
+  {
+   "n": 55,
+   "kind": "age",
+   "rule": "age_era_old",
+   "group": "P",
+   "decade": 1970,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 120438,
+     "name": "Gaylord Perry"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1978,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "San Diego Padres",
+     "age": 39,
+     "W": 21,
+     "L": 6,
+     "ERA": 2.73,
+     "IP": "260.2",
+     "SO": 154,
+     "BB": 66,
+     "SV": 0,
+     "GS": 37,
+     "CG": 5,
+     "SHO": 2,
+     "HRA": 9,
+     "WHIP": 1.18
+    }
+   ],
+   "text": "Oldest player of the 1970s to post a qualified ERA under 2.75: Gaylord Perry, age 39 in 1978 — 2.73 ERA."
+  },
+  {
+   "n": 56,
+   "kind": "teammates",
+   "rule": "rbi_trio",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [
+    {
+     "id": 121140,
+     "name": "Jim Rice"
+    },
+    {
+     "id": 115994,
+     "name": "Butch Hobson"
+    },
+    {
+     "id": 114182,
+     "name": "Carlton Fisk"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 121140,
+     "name": "Jim Rice",
+     "team": "Boston Red Sox",
+     "age": 24,
+     "PA": 710,
+     "AVG": 0.32,
+     "OBP": 0.376,
+     "SLG": 0.593,
+     "OPS": 0.969,
+     "HR": 39,
+     "RBI": 114,
+     "R": 104,
+     "H": 206,
+     "2B": 29,
+     "3B": 15,
+     "SB": 5,
+     "CS": 4,
+     "BB": 53,
+     "SO": 120,
+     "HBP": 8,
+     "GIDP": 21
+    },
+    {
+     "season": 1977,
+     "id": 115994,
+     "name": "Butch Hobson",
+     "team": "Boston Red Sox",
+     "age": 25,
+     "PA": 637,
+     "AVG": 0.265,
+     "OBP": 0.3,
+     "SLG": 0.489,
+     "OPS": 0.789,
+     "HR": 30,
+     "RBI": 112,
+     "R": 77,
+     "H": 157,
+     "2B": 33,
+     "3B": 5,
+     "SB": 5,
+     "CS": 4,
+     "BB": 27,
+     "SO": 162,
+     "HBP": 4,
+     "GIDP": 17
+    },
+    {
+     "season": 1977,
+     "id": 114182,
+     "name": "Carlton Fisk",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 632,
+     "AVG": 0.315,
+     "OBP": 0.402,
+     "SLG": 0.521,
+     "OPS": 0.923,
+     "HR": 26,
+     "RBI": 102,
+     "R": 106,
+     "H": 169,
+     "2B": 26,
+     "3B": 3,
+     "SB": 7,
+     "CS": 6,
+     "BB": 75,
+     "SO": 85,
+     "HBP": 9,
+     "GIDP": 9
+    }
+   ],
+   "text": "7 teams of the 1970s had three players at 100+ RBI; the biggest pairing was the 1977 Boston Red Sox — Jim Rice 114, Butch Hobson 112, Carlton Fisk 102."
+  },
+  {
+   "n": 57,
+   "kind": "teammates",
+   "rule": "sb_pair",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [
+    {
+     "id": 119845,
+     "name": "Bill North"
+    },
+    {
+     "id": 111916,
+     "name": "Bert Campaneris"
+    },
+    {
+     "id": 110719,
+     "name": "Don Baylor"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1976,
+     "id": 119845,
+     "name": "Bill North",
+     "team": "Oakland Athletics",
+     "age": 28,
+     "PA": 675,
+     "AVG": 0.276,
+     "OBP": 0.356,
+     "SLG": 0.337,
+     "OPS": 0.693,
+     "HR": 2,
+     "RBI": 31,
+     "R": 91,
+     "H": 163,
+     "2B": 20,
+     "3B": 5,
+     "SB": 75,
+     "CS": 29,
+     "BB": 73,
+     "SO": 95,
+     "HBP": 2,
+     "GIDP": 8
+    },
+    {
+     "season": 1976,
+     "id": 111916,
+     "name": "Bert Campaneris",
+     "team": "Oakland Athletics",
+     "age": 34,
+     "PA": 631,
+     "AVG": 0.256,
+     "OBP": 0.331,
+     "SLG": 0.291,
+     "OPS": 0.622,
+     "HR": 1,
+     "RBI": 52,
+     "R": 67,
+     "H": 137,
+     "2B": 14,
+     "3B": 1,
+     "SB": 54,
+     "CS": 12,
+     "BB": 63,
+     "SO": 80,
+     "HBP": 3,
+     "GIDP": 4
+    },
+    {
+     "season": 1976,
+     "id": 110719,
+     "name": "Don Baylor",
+     "team": "Oakland Athletics",
+     "age": 27,
+     "PA": 685,
+     "AVG": 0.247,
+     "OBP": 0.329,
+     "SLG": 0.368,
+     "OPS": 0.697,
+     "HR": 15,
+     "RBI": 68,
+     "R": 85,
+     "H": 147,
+     "2B": 25,
+     "3B": 1,
+     "SB": 52,
+     "CS": 12,
+     "BB": 58,
+     "SO": 72,
+     "HBP": 20,
+     "GIDP": 11
+    }
+   ],
+   "text": "9 teams of the 1970s had two players at 40+ steals; the biggest pairing was the 1976 Oakland Athletics — Bill North 75, Bert Campaneris 54, Don Baylor 52."
+  },
+  {
+   "n": 58,
+   "kind": "teammates",
+   "rule": "w20_pair",
+   "group": "P",
+   "decade": 1970,
+   "score": 5,
+   "players": [
+    {
+     "id": 118841,
+     "name": "Dave McNally"
+    },
+    {
+     "id": 120196,
+     "name": "Jim Palmer"
+    },
+    {
+     "id": 113410,
+     "name": "Pat Dobson"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 118841,
+     "name": "Dave McNally",
+     "team": "Baltimore Orioles",
+     "age": 28,
+     "W": 21,
+     "L": 5,
+     "ERA": 2.89,
+     "IP": "224.1",
+     "SO": 91,
+     "BB": 58,
+     "SV": 0,
+     "GS": 30,
+     "CG": 11,
+     "SHO": 1,
+     "HRA": 24,
+     "WHIP": 1.1
+    },
+    {
+     "season": 1971,
+     "id": 120196,
+     "name": "Jim Palmer",
+     "team": "Baltimore Orioles",
+     "age": 25,
+     "W": 20,
+     "L": 9,
+     "ERA": 2.68,
+     "IP": "282.0",
+     "SO": 184,
+     "BB": 106,
+     "SV": 0,
+     "GS": 37,
+     "CG": 20,
+     "SHO": 3,
+     "HRA": 19,
+     "WHIP": 1.2
+    },
+    {
+     "season": 1971,
+     "id": 113410,
+     "name": "Pat Dobson",
+     "team": "Baltimore Orioles",
+     "age": 29,
+     "W": 20,
+     "L": 8,
+     "ERA": 2.9,
+     "IP": "282.1",
+     "SO": 187,
+     "BB": 63,
+     "SV": 1,
+     "GS": 37,
+     "CG": 18,
+     "SHO": 4,
+     "HRA": 24,
+     "WHIP": 1.1
+    }
+   ],
+   "text": "11 teams of the 1970s had two players at 20 wins; the biggest pairing was the 1971 Baltimore Orioles — Dave McNally 21, Jim Palmer 20, Pat Dobson 20."
+  },
+  {
+   "n": 59,
+   "kind": "total",
+   "rule": "dec_hr",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [
+    {
+     "id": 122685,
+     "name": "Willie Stargell"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 122685,
+     "name": "Willie Stargell",
+     "n": 10,
+     "HR": 296,
+     "H": 1261,
+     "RBI": 906,
+     "SB": 6,
+     "R": 719,
+     "BB": 595,
+     "SO": 1100,
+     "2B": 253,
+     "3B": 19,
+     "PA": 5083
+    }
+   ],
+   "text": "Most home runs of the 1970s: Willie Stargell, 296 across 10 seasons."
+  },
+  {
+   "n": 60,
+   "kind": "total",
+   "rule": "dec_hr_nolead",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [
+    {
+     "id": 116439,
+     "name": "Reggie Jackson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116439,
+     "name": "Reggie Jackson",
+     "n": 10,
+     "HR": 292,
+     "H": 1410,
+     "RBI": 922,
+     "SB": 183,
+     "R": 833,
+     "BB": 677,
+     "SO": 1247,
+     "2B": 270,
+     "3B": 24,
+     "PA": 5912
+    }
+   ],
+   "text": "Most home runs in the 1970s by a hitter who never led the majors in a season: Reggie Jackson, 292."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "dec_w",
+   "group": "P",
+   "decade": 1970,
+   "score": 5,
+   "players": [
+    {
+     "id": 120196,
+     "name": "Jim Palmer"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 120196,
+     "name": "Jim Palmer",
+     "n": 10,
+     "W": 186,
+     "L": 103,
+     "SO": 1559,
+     "SV": 2,
+     "SHO": 44,
+     "CG": 175,
+     "OUTS": 8235,
+     "BB": 861
+    }
+   ],
+   "text": "Most wins of the 1970s: Jim Palmer, 186."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "dec_sv",
+   "group": "P",
+   "decade": 1970,
+   "score": 5,
+   "players": [
+    {
+     "id": 114129,
+     "name": "Rollie Fingers"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 114129,
+     "name": "Rollie Fingers",
+     "n": 10,
+     "W": 84,
+     "L": 85,
+     "SO": 973,
+     "SV": 209,
+     "SHO": 1,
+     "CG": 3,
+     "OUTS": 3657,
+     "BB": 353
+    }
+   ],
+   "text": "Most saves of the 1970s: Rollie Fingers, 209."
+  },
+  {
+   "n": 63,
+   "kind": "season",
+   "rule": "n_30hr_most",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 19
+    },
+    {
+     "season": 1971,
+     "count": 11
+    },
+    {
+     "season": 1972,
+     "count": 7
+    },
+    {
+     "season": 1973,
+     "count": 8
+    },
+    {
+     "season": 1974,
+     "count": 4
+    },
+    {
+     "season": 1975,
+     "count": 7
+    },
+    {
+     "season": 1976,
+     "count": 4
+    },
+    {
+     "season": 1977,
+     "count": 19
+    },
+    {
+     "season": 1978,
+     "count": 10
+    },
+    {
+     "season": 1979,
+     "count": 13
+    }
+   ],
+   "text": "1970 had 19 30-homer hitters, the most of any season in the 1970s."
+  },
+  {
+   "n": 64,
+   "kind": "season",
+   "rule": "n_30hr_least",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 19
+    },
+    {
+     "season": 1971,
+     "count": 11
+    },
+    {
+     "season": 1972,
+     "count": 7
+    },
+    {
+     "season": 1973,
+     "count": 8
+    },
+    {
+     "season": 1974,
+     "count": 4
+    },
+    {
+     "season": 1975,
+     "count": 7
+    },
+    {
+     "season": 1976,
+     "count": 4
+    },
+    {
+     "season": 1977,
+     "count": 19
+    },
+    {
+     "season": 1978,
+     "count": 10
+    },
+    {
+     "season": 1979,
+     "count": 13
+    }
+   ],
+   "text": "1974 had just 4 30-homer hitters, the fewest of any season in the 1970s."
+  },
+  {
+   "n": 65,
+   "kind": "season",
+   "rule": "n_300_most",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 27
+    },
+    {
+     "season": 1971,
+     "count": 20
+    },
+    {
+     "season": 1972,
+     "count": 17
+    },
+    {
+     "season": 1973,
+     "count": 16
+    },
+    {
+     "season": 1974,
+     "count": 22
+    },
+    {
+     "season": 1975,
+     "count": 30
+    },
+    {
+     "season": 1976,
+     "count": 24
+    },
+    {
+     "season": 1977,
+     "count": 33
+    },
+    {
+     "season": 1978,
+     "count": 16
+    },
+    {
+     "season": 1979,
+     "count": 29
+    }
+   ],
+   "text": "1977 had 33 .300 hitters (500+ PA), the most of any season in the 1970s."
+  },
+  {
+   "n": 66,
+   "kind": "season",
+   "rule": "n_300_least",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 27
+    },
+    {
+     "season": 1971,
+     "count": 20
+    },
+    {
+     "season": 1972,
+     "count": 17
+    },
+    {
+     "season": 1973,
+     "count": 16
+    },
+    {
+     "season": 1974,
+     "count": 22
+    },
+    {
+     "season": 1975,
+     "count": 30
+    },
+    {
+     "season": 1976,
+     "count": 24
+    },
+    {
+     "season": 1977,
+     "count": 33
+    },
+    {
+     "season": 1978,
+     "count": 16
+    },
+    {
+     "season": 1979,
+     "count": 29
+    }
+   ],
+   "text": "1973 had just 16 .300 hitters (500+ PA), the fewest of any season in the 1970s."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "n_100rbi_most",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 20
+    },
+    {
+     "season": 1971,
+     "count": 5
+    },
+    {
+     "season": 1972,
+     "count": 6
+    },
+    {
+     "season": 1973,
+     "count": 9
+    },
+    {
+     "season": 1974,
+     "count": 11
+    },
+    {
+     "season": 1975,
+     "count": 14
+    },
+    {
+     "season": 1976,
+     "count": 7
+    },
+    {
+     "season": 1977,
+     "count": 23
+    },
+    {
+     "season": 1978,
+     "count": 8
+    },
+    {
+     "season": 1979,
+     "count": 20
+    }
+   ],
+   "text": "1977 had 23 100-RBI hitters, the most of any season in the 1970s."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "n_100rbi_least",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 20
+    },
+    {
+     "season": 1971,
+     "count": 5
+    },
+    {
+     "season": 1972,
+     "count": 6
+    },
+    {
+     "season": 1973,
+     "count": 9
+    },
+    {
+     "season": 1974,
+     "count": 11
+    },
+    {
+     "season": 1975,
+     "count": 14
+    },
+    {
+     "season": 1976,
+     "count": 7
+    },
+    {
+     "season": 1977,
+     "count": 23
+    },
+    {
+     "season": 1978,
+     "count": 8
+    },
+    {
+     "season": 1979,
+     "count": 20
+    }
+   ],
+   "text": "1971 had just 5 100-RBI hitters, the fewest of any season in the 1970s."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "n_sb_most",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 5
+    },
+    {
+     "season": 1971,
+     "count": 4
+    },
+    {
+     "season": 1972,
+     "count": 7
+    },
+    {
+     "season": 1973,
+     "count": 8
+    },
+    {
+     "season": 1974,
+     "count": 8
+    },
+    {
+     "season": 1975,
+     "count": 6
+    },
+    {
+     "season": 1976,
+     "count": 13
+    },
+    {
+     "season": 1977,
+     "count": 12
+    },
+    {
+     "season": 1978,
+     "count": 11
+    },
+    {
+     "season": 1979,
+     "count": 7
+    }
+   ],
+   "text": "1976 had 13 40-steal players, the most of any season in the 1970s."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "n_sb_least",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 5
+    },
+    {
+     "season": 1971,
+     "count": 4
+    },
+    {
+     "season": 1972,
+     "count": 7
+    },
+    {
+     "season": 1973,
+     "count": 8
+    },
+    {
+     "season": 1974,
+     "count": 8
+    },
+    {
+     "season": 1975,
+     "count": 6
+    },
+    {
+     "season": 1976,
+     "count": 13
+    },
+    {
+     "season": 1977,
+     "count": 12
+    },
+    {
+     "season": 1978,
+     "count": 11
+    },
+    {
+     "season": 1979,
+     "count": 7
+    }
+   ],
+   "text": "1971 had just 4 40-steal players, the fewest of any season in the 1970s."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "n_200h_most",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 8
+    },
+    {
+     "season": 1971,
+     "count": 4
+    },
+    {
+     "season": 1972,
+     "count": 0
+    },
+    {
+     "season": 1973,
+     "count": 3
+    },
+    {
+     "season": 1974,
+     "count": 4
+    },
+    {
+     "season": 1975,
+     "count": 3
+    },
+    {
+     "season": 1976,
+     "count": 5
+    },
+    {
+     "season": 1977,
+     "count": 6
+    },
+    {
+     "season": 1978,
+     "count": 2
+    },
+    {
+     "season": 1979,
+     "count": 7
+    }
+   ],
+   "text": "1970 had 8 200-hit seasons, the most of any season in the 1970s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "n_200h_least",
+   "group": "H",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1972
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 8
+    },
+    {
+     "season": 1971,
+     "count": 4
+    },
+    {
+     "season": 1972,
+     "count": 0
+    },
+    {
+     "season": 1973,
+     "count": 3
+    },
+    {
+     "season": 1974,
+     "count": 4
+    },
+    {
+     "season": 1975,
+     "count": 3
+    },
+    {
+     "season": 1976,
+     "count": 5
+    },
+    {
+     "season": 1977,
+     "count": 6
+    },
+    {
+     "season": 1978,
+     "count": 2
+    },
+    {
+     "season": 1979,
+     "count": 7
+    }
+   ],
+   "text": "1972 had no 200-hit seasons at all — the only season of the 1970s without one."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "n_20w_most",
+   "group": "P",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 11
+    },
+    {
+     "season": 1971,
+     "count": 14
+    },
+    {
+     "season": 1972,
+     "count": 10
+    },
+    {
+     "season": 1973,
+     "count": 13
+    },
+    {
+     "season": 1974,
+     "count": 11
+    },
+    {
+     "season": 1975,
+     "count": 7
+    },
+    {
+     "season": 1976,
+     "count": 8
+    },
+    {
+     "season": 1977,
+     "count": 9
+    },
+    {
+     "season": 1978,
+     "count": 8
+    },
+    {
+     "season": 1979,
+     "count": 5
+    }
+   ],
+   "text": "1971 had 14 20-game winners, the most of any season in the 1970s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "n_20w_least",
+   "group": "P",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 11
+    },
+    {
+     "season": 1971,
+     "count": 14
+    },
+    {
+     "season": 1972,
+     "count": 10
+    },
+    {
+     "season": 1973,
+     "count": 13
+    },
+    {
+     "season": 1974,
+     "count": 11
+    },
+    {
+     "season": 1975,
+     "count": 7
+    },
+    {
+     "season": 1976,
+     "count": 8
+    },
+    {
+     "season": 1977,
+     "count": 9
+    },
+    {
+     "season": 1978,
+     "count": 8
+    },
+    {
+     "season": 1979,
+     "count": 5
+    }
+   ],
+   "text": "1979 had just 5 20-game winners, the fewest of any season in the 1970s."
+  },
+  {
+   "n": 75,
+   "kind": "team",
+   "rule": "100l",
+   "group": "T",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 141,
+     "name": "Blue Jays",
+     "wins": 53,
+     "losses": 109,
+     "runsScored": 613,
+     "runsAllowed": 862,
+     "runDifferential": -249,
+     "leagueRank": 14,
+     "season": 1979
+    },
+    {
+     "id": 133,
+     "name": "Athletics",
+     "wins": 54,
+     "losses": 108,
+     "runsScored": 573,
+     "runsAllowed": 860,
+     "runDifferential": -287,
+     "leagueRank": 13,
+     "season": 1979
+    },
+    {
+     "id": 120,
+     "name": "Expos",
+     "wins": 55,
+     "losses": 107,
+     "runsScored": 531,
+     "runsAllowed": 734,
+     "runDifferential": -203,
+     "leagueRank": 12,
+     "season": 1976
+    },
+    {
+     "id": 141,
+     "name": "Blue Jays",
+     "wins": 54,
+     "losses": 107,
+     "runsScored": 605,
+     "runsAllowed": 822,
+     "runDifferential": -217,
+     "leagueRank": 14,
+     "season": 1977
+    },
+    {
+     "id": 145,
+     "name": "White Sox",
+     "wins": 56,
+     "losses": 106,
+     "runsScored": 633,
+     "runsAllowed": 822,
+     "runDifferential": -189,
+     "leagueRank": 12,
+     "season": 1970
+    },
+    {
+     "id": 140,
+     "name": "Rangers",
+     "wins": 57,
+     "losses": 105,
+     "runsScored": 619,
+     "runsAllowed": 844,
+     "runDifferential": -225,
+     "leagueRank": 12,
+     "season": 1973
+    }
+   ],
+   "text": "15 teams of the 1970s lost 100 games; the worst was the 1979 Blue Jays at 53-109."
+  },
+  {
+   "n": 76,
+   "kind": "team",
+   "rule": "best_diff",
+   "group": "T",
+   "decade": 1970,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 113,
+     "name": "Reds",
+     "wins": 108,
+     "losses": 54,
+     "runsScored": 840,
+     "runsAllowed": 586,
+     "runDifferential": 254,
+     "leagueRank": 1,
+     "season": 1975
+    }
+   ],
+   "text": "Best run differential of the 1970s: the 1975 Reds, +254 (840 scored, 586 allowed)."
+  },
+  {
+   "n": 77,
+   "rule": "hbp_many",
+   "group": "H",
+   "decade": 1970,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 116325,
+     "name": "Ron Hunt",
+     "team": "Montreal Expos",
+     "age": 30,
+     "PA": 638,
+     "AVG": 0.279,
+     "OBP": 0.402,
+     "SLG": 0.358,
+     "OPS": 0.76,
+     "HR": 5,
+     "RBI": 38,
+     "R": 89,
+     "H": 145,
+     "2B": 20,
+     "3B": 3,
+     "SB": 5,
+     "CS": 7,
+     "BB": 58,
+     "SO": 41,
+     "HBP": 50,
+     "GIDP": 1
+    },
+    {
+     "season": 1970,
+     "id": 116325,
+     "name": "Ron Hunt",
+     "team": "San Francisco Giants",
+     "age": 29,
+     "PA": 442,
+     "AVG": 0.281,
+     "OBP": 0.394,
+     "SLG": 0.381,
+     "OPS": 0.775,
+     "HR": 6,
+     "RBI": 41,
+     "R": 70,
+     "H": 103,
+     "2B": 17,
+     "3B": 1,
+     "SB": 1,
+     "CS": 2,
+     "BB": 44,
+     "SO": 29,
+     "HBP": 26,
+     "GIDP": 9
+    },
+    {
+     "season": 1972,
+     "id": 116325,
+     "name": "Ron Hunt",
+     "team": "Montreal Expos",
+     "age": 31,
+     "PA": 531,
+     "AVG": 0.253,
+     "OBP": 0.363,
+     "SLG": 0.298,
+     "OPS": 0.661,
+     "HR": 0,
+     "RBI": 18,
+     "R": 56,
+     "H": 112,
+     "2B": 20,
+     "3B": 0,
+     "SB": 9,
+     "CS": 2,
+     "BB": 51,
+     "SO": 29,
+     "HBP": 26,
+     "GIDP": 6
+    },
+    {
+     "season": 1973,
+     "id": 116325,
+     "name": "Ron Hunt",
+     "team": "Montreal Expos",
+     "age": 32,
+     "PA": 486,
+     "AVG": 0.309,
+     "OBP": 0.418,
+     "SLG": 0.344,
+     "OPS": 0.762,
+     "HR": 0,
+     "RBI": 18,
+     "R": 61,
+     "H": 124,
+     "2B": 14,
+     "3B": 0,
+     "SB": 10,
+     "CS": 7,
+     "BB": 52,
+     "SO": 19,
+     "HBP": 24,
+     "GIDP": 9
+    },
+    {
+     "season": 1974,
+     "id": 115130,
+     "name": "Bobby Grich",
+     "team": "Baltimore Orioles",
+     "age": 25,
+     "PA": 707,
+     "AVG": 0.263,
+     "OBP": 0.376,
+     "SLG": 0.431,
+     "OPS": 0.807,
+     "HR": 19,
+     "RBI": 82,
+     "R": 92,
+     "H": 153,
+     "2B": 29,
+     "3B": 6,
+     "SB": 17,
+     "CS": 11,
+     "BB": 90,
+     "SO": 117,
+     "HBP": 20,
+     "GIDP": 15
+    },
+    {
+     "season": 1976,
+     "id": 110719,
+     "name": "Don Baylor",
+     "team": "Oakland Athletics",
+     "age": 27,
+     "PA": 685,
+     "AVG": 0.247,
+     "OBP": 0.329,
+     "SLG": 0.368,
+     "OPS": 0.697,
+     "HR": 15,
+     "RBI": 68,
+     "R": 85,
+     "H": 147,
+     "2B": 25,
+     "3B": 1,
+     "SB": 52,
+     "CS": 12,
+     "BB": 58,
+     "SO": 72,
+     "HBP": 20,
+     "GIDP": 11
+    }
+   ],
+   "kind": "list",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 116325,
+     "name": "Ron Hunt"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "8 times in the 1970s a hitter got hit by 15+ pitches. The most extreme: Ron Hunt, 1971 — 50 HBP."
+  },
+  {
+   "n": 78,
+   "kind": "nearmiss",
+   "rule": "H199",
+   "group": "H",
+   "decade": 1970,
+   "score": 4.25,
+   "players": [
+    {
+     "id": 111256,
+     "name": "Lyman Bostock"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 111256,
+     "name": "Lyman Bostock",
+     "team": "Minnesota Twins",
+     "age": 26,
+     "PA": 660,
+     "AVG": 0.336,
+     "OBP": 0.389,
+     "SLG": 0.508,
+     "OPS": 0.897,
+     "HR": 14,
+     "RBI": 90,
+     "R": 104,
+     "H": 199,
+     "2B": 36,
+     "3B": 12,
+     "SB": 16,
+     "CS": 7,
+     "BB": 51,
+     "SO": 59,
+     "HBP": 6,
+     "GIDP": 16
+    }
+   ],
+   "text": "Exactly one hitter of the 1970s finished a season with exactly 199 hits, one short of 200: Lyman Bostock (1977)."
+  },
+  {
+   "n": 79,
+   "kind": "team",
+   "rule": "worst_diff",
+   "group": "T",
+   "decade": 1970,
+   "score": 4,
+   "players": [],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 135,
+     "name": "Padres",
+     "wins": 60,
+     "losses": 102,
+     "runsScored": 541,
+     "runsAllowed": 830,
+     "runDifferential": -289,
+     "leagueRank": 12,
+     "season": 1974
+    }
+   ],
+   "text": "Worst run differential of the 1970s: the 1974 Padres, -289 (541 scored, 830 allowed)."
+  },
+  {
+   "n": 80,
+   "rule": "walks_over_hits",
+   "group": "H",
+   "decade": 1970,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1976,
+     "id": 124634,
+     "name": "Jimmy Wynn",
+     "team": "Atlanta Braves",
+     "age": 34,
+     "PA": 584,
+     "AVG": 0.207,
+     "OBP": 0.377,
+     "SLG": 0.367,
+     "OPS": 0.744,
+     "HR": 17,
+     "RBI": 66,
+     "R": 75,
+     "H": 93,
+     "2B": 19,
+     "3B": 1,
+     "SB": 16,
+     "CS": 6,
+     "BB": 127,
+     "SO": 111,
+     "HBP": 0,
+     "GIDP": 7
+    },
+    {
+     "season": 1977,
+     "id": 123183,
+     "name": "Gene Tenace",
+     "team": "San Diego Padres",
+     "age": 30,
+     "PA": 581,
+     "AVG": 0.233,
+     "OBP": 0.415,
+     "SLG": 0.41,
+     "OPS": 0.825,
+     "HR": 15,
+     "RBI": 61,
+     "R": 66,
+     "H": 102,
+     "2B": 24,
+     "3B": 4,
+     "SB": 5,
+     "CS": 3,
+     "BB": 125,
+     "SO": 119,
+     "HBP": 13,
+     "GIDP": 5
+    },
+    {
+     "season": 1978,
+     "id": 123183,
+     "name": "Gene Tenace",
+     "team": "San Diego Padres",
+     "age": 31,
+     "PA": 515,
+     "AVG": 0.224,
+     "OBP": 0.392,
+     "SLG": 0.409,
+     "OPS": 0.801,
+     "HR": 16,
+     "RBI": 61,
+     "R": 60,
+     "H": 90,
+     "2B": 18,
+     "3B": 4,
+     "SB": 6,
+     "CS": 5,
+     "BB": 101,
+     "SO": 98,
+     "HBP": 11,
+     "GIDP": 5
+    },
+    {
+     "season": 1974,
+     "id": 118605,
+     "name": "Willie McCovey",
+     "team": "San Diego Padres",
+     "age": 36,
+     "PA": 443,
+     "AVG": 0.253,
+     "OBP": 0.416,
+     "SLG": 0.506,
+     "OPS": 0.922,
+     "HR": 22,
+     "RBI": 63,
+     "R": 53,
+     "H": 87,
+     "2B": 19,
+     "3B": 1,
+     "SB": 1,
+     "CS": 0,
+     "BB": 96,
+     "SO": 76,
+     "HBP": 1,
+     "GIDP": 8
+    },
+    {
+     "season": 1974,
+     "id": 123183,
+     "name": "Gene Tenace",
+     "team": "Oakland Athletics",
+     "age": 27,
+     "PA": 612,
+     "AVG": 0.211,
+     "OBP": 0.367,
+     "SLG": 0.411,
+     "OPS": 0.778,
+     "HR": 26,
+     "RBI": 73,
+     "R": 71,
+     "H": 102,
+     "2B": 17,
+     "3B": 1,
+     "SB": 2,
+     "CS": 9,
+     "BB": 110,
+     "SO": 105,
+     "HBP": 12,
+     "GIDP": 10
+    },
+    {
+     "season": 1975,
+     "id": 124634,
+     "name": "Jimmy Wynn",
+     "team": "Los Angeles Dodgers",
+     "age": 33,
+     "PA": 529,
+     "AVG": 0.248,
+     "OBP": 0.403,
+     "SLG": 0.417,
+     "OPS": 0.82,
+     "HR": 18,
+     "RBI": 58,
+     "R": 80,
+     "H": 102,
+     "2B": 16,
+     "3B": 0,
+     "SB": 7,
+     "CS": 3,
+     "BB": 110,
+     "SO": 77,
+     "HBP": 1,
+     "GIDP": 8
+    }
+   ],
+   "kind": "list",
+   "score": 3.85,
+   "players": [
+    {
+     "id": 124634,
+     "name": "Jimmy Wynn"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "8 times in the 1970s a hitter drew more walks than hits (400+ PA). The most extreme: Jimmy Wynn, 1976 — 127 BB, 93 H."
+  },
+  {
+   "n": 81,
+   "rule": "cg_many",
+   "group": "P",
+   "decade": 1970,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 116522,
+     "name": "Fergie Jenkins",
+     "team": "Chicago Cubs",
+     "age": 28,
+     "W": 24,
+     "L": 13,
+     "ERA": 2.77,
+     "IP": "325.0",
+     "SO": 263,
+     "BB": 37,
+     "SV": 0,
+     "GS": 39,
+     "CG": 30,
+     "SHO": 3,
+     "HRA": 29,
+     "WHIP": 1.05
+    },
+    {
+     "season": 1972,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "W": 27,
+     "L": 10,
+     "ERA": 1.97,
+     "IP": "346.1",
+     "SO": 310,
+     "BB": 87,
+     "SV": 0,
+     "GS": 41,
+     "CG": 30,
+     "SHO": 8,
+     "HRA": 17,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1975,
+     "id": 116334,
+     "name": "Catfish Hunter",
+     "team": "New York Yankees",
+     "age": 29,
+     "W": 23,
+     "L": 14,
+     "ERA": 2.58,
+     "IP": "328.0",
+     "SO": 177,
+     "BB": 83,
+     "SV": 0,
+     "GS": 39,
+     "CG": 30,
+     "SHO": 7,
+     "HRA": 25,
+     "WHIP": 1.01
+    },
+    {
+     "season": 1971,
+     "id": 117875,
+     "name": "Mickey Lolich",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "W": 25,
+     "L": 14,
+     "ERA": 2.92,
+     "IP": "376.0",
+     "SO": 308,
+     "BB": 92,
+     "SV": 0,
+     "GS": 45,
+     "CG": 29,
+     "SHO": 4,
+     "HRA": 36,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1972,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "Cleveland Indians",
+     "age": 33,
+     "W": 24,
+     "L": 16,
+     "ERA": 1.92,
+     "IP": "342.2",
+     "SO": 234,
+     "BB": 82,
+     "SV": 1,
+     "GS": 40,
+     "CG": 29,
+     "SHO": 5,
+     "HRA": 17,
+     "WHIP": 0.98
+    },
+    {
+     "season": 1973,
+     "id": 120438,
+     "name": "Gaylord Perry",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "W": 19,
+     "L": 19,
+     "ERA": 3.38,
+     "IP": "344.0",
+     "SO": 238,
+     "BB": 115,
+     "SV": 0,
+     "GS": 41,
+     "CG": 29,
+     "SHO": 7,
+     "HRA": 34,
+     "WHIP": 1.25
+    }
+   ],
+   "kind": "list",
+   "score": 3.75,
+   "players": [
+    {
+     "id": 116522,
+     "name": "Fergie Jenkins"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "92 times in the 1970s a pitcher completed 18+ games. The most extreme: Fergie Jenkins, 1971 — 30 CG."
+  },
+  {
+   "n": 82,
+   "rule": "twenty_five_wins",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      25
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1972,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "W": 27,
+     "L": 10,
+     "ERA": 1.97,
+     "IP": "346.1",
+     "SO": 310,
+     "BB": 87,
+     "SV": 0,
+     "GS": 41,
+     "CG": 30,
+     "SHO": 8,
+     "HRA": 17,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1971,
+     "id": 117875,
+     "name": "Mickey Lolich",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "W": 25,
+     "L": 14,
+     "ERA": 2.92,
+     "IP": "376.0",
+     "SO": 308,
+     "BB": 92,
+     "SV": 0,
+     "GS": 45,
+     "CG": 29,
+     "SHO": 4,
+     "HRA": 36,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1974,
+     "id": 116334,
+     "name": "Catfish Hunter",
+     "team": "Oakland Athletics",
+     "age": 28,
+     "W": 25,
+     "L": 12,
+     "ERA": 2.49,
+     "IP": "318.1",
+     "SO": 143,
+     "BB": 46,
+     "SV": 0,
+     "GS": 41,
+     "CG": 23,
+     "SHO": 6,
+     "HRA": 25,
+     "WHIP": 0.99
+    },
+    {
+     "season": 1974,
+     "id": 116522,
+     "name": "Fergie Jenkins",
+     "team": "Texas Rangers",
+     "age": 31,
+     "W": 25,
+     "L": 12,
+     "ERA": 2.82,
+     "IP": "328.1",
+     "SO": 225,
+     "BB": 45,
+     "SV": 0,
+     "GS": 41,
+     "CG": 29,
+     "SHO": 6,
+     "HRA": 27,
+     "WHIP": 1.01
+    },
+    {
+     "season": 1978,
+     "id": 115228,
+     "name": "Ron Guidry",
+     "team": "New York Yankees",
+     "age": 27,
+     "W": 25,
+     "L": 3,
+     "ERA": 1.74,
+     "IP": "273.2",
+     "SO": 248,
+     "BB": 72,
+     "SV": 0,
+     "GS": 35,
+     "CG": 16,
+     "SHO": 9,
+     "HRA": 13,
+     "WHIP": 0.95
+    }
+   ],
+   "kind": "list",
+   "score": 3.675,
+   "players": [
+    {
+     "id": 112008,
+     "name": "Steve Carlton"
+    }
+   ],
+   "seasons": [
+    1972
+   ],
+   "text": "5 times in the 1970s a pitcher won 25 games. The most extreme: Steve Carlton, 1972 — 27-10."
+  },
+  {
+   "n": 83,
+   "rule": "twenty_losses",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "L",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1971,
+     "id": 118787,
+     "name": "Denny McLain",
+     "team": "Washington Senators",
+     "age": 27,
+     "W": 10,
+     "L": 22,
+     "ERA": 4.28,
+     "IP": "216.2",
+     "SO": 103,
+     "BB": 72,
+     "SV": 0,
+     "GS": 32,
+     "CG": 9,
+     "SHO": 3,
+     "HRA": 31,
+     "WHIP": 1.41
+    },
+    {
+     "season": 1974,
+     "id": 111196,
+     "name": "Bill Bonham",
+     "team": "Chicago Cubs",
+     "age": 25,
+     "W": 11,
+     "L": 22,
+     "ERA": 3.86,
+     "IP": "242.2",
+     "SO": 191,
+     "BB": 109,
+     "SV": 1,
+     "GS": 36,
+     "CG": 10,
+     "SHO": 2,
+     "HRA": 13,
+     "WHIP": 1.46
+    },
+    {
+     "season": 1974,
+     "id": 116715,
+     "name": "Randy Jones",
+     "team": "San Diego Padres",
+     "age": 24,
+     "W": 8,
+     "L": 22,
+     "ERA": 4.45,
+     "IP": "208.1",
+     "SO": 124,
+     "BB": 78,
+     "SV": 2,
+     "GS": 34,
+     "CG": 4,
+     "SHO": 1,
+     "HRA": 16,
+     "WHIP": 1.42
+    },
+    {
+     "season": 1974,
+     "id": 121390,
+     "name": "Steve Rogers",
+     "team": "Montreal Expos",
+     "age": 24,
+     "W": 15,
+     "L": 22,
+     "ERA": 4.47,
+     "IP": "253.2",
+     "SO": 154,
+     "BB": 80,
+     "SV": 0,
+     "GS": 38,
+     "CG": 11,
+     "SHO": 1,
+     "HRA": 19,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1972,
+     "id": 110317,
+     "name": "Steve Arlin",
+     "team": "San Diego Padres",
+     "age": 26,
+     "W": 10,
+     "L": 21,
+     "ERA": 3.6,
+     "IP": "250.0",
+     "SO": 159,
+     "BB": 122,
+     "SV": 0,
+     "GS": 37,
+     "CG": 12,
+     "SHO": 3,
+     "HRA": 19,
+     "WHIP": 1.36
+    },
+    {
+     "season": 1973,
+     "id": 110434,
+     "name": "Stan Bahnsen",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "W": 18,
+     "L": 21,
+     "ERA": 3.57,
+     "IP": "282.1",
+     "SO": 120,
+     "BB": 117,
+     "SV": 0,
+     "GS": 42,
+     "CG": 14,
+     "SHO": 4,
+     "HRA": 20,
+     "WHIP": 1.44
+    }
+   ],
+   "kind": "list",
+   "score": 3.55,
+   "players": [
+    {
+     "id": 118787,
+     "name": "Denny McLain"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "14 times in the 1970s a pitcher lost 20 games. The most extreme: Denny McLain, 1971 — 10-22."
+  },
+  {
+   "n": 84,
+   "rule": "avg_no_walks",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ],
+     [
+      "BB",
+      "lte",
+      25
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1977,
+     "id": 123182,
+     "name": "Garry Templeton Sr.",
+     "team": "St. Louis Cardinals",
+     "age": 21,
+     "PA": 644,
+     "AVG": 0.322,
+     "OBP": 0.336,
+     "SLG": 0.449,
+     "OPS": 0.785,
+     "HR": 8,
+     "RBI": 79,
+     "R": 94,
+     "H": 200,
+     "2B": 19,
+     "3B": 18,
+     "SB": 28,
+     "CS": 24,
+     "BB": 15,
+     "SO": 70,
+     "HBP": 1,
+     "GIDP": 9
+    },
+    {
+     "season": 1970,
+     "id": 121686,
+     "name": "Manny Sanguillen",
+     "team": "Pittsburgh Pirates",
+     "age": 26,
+     "PA": 510,
+     "AVG": 0.325,
+     "OBP": 0.344,
+     "SLG": 0.444,
+     "OPS": 0.788,
+     "HR": 7,
+     "RBI": 61,
+     "R": 63,
+     "H": 158,
+     "2B": 19,
+     "3B": 9,
+     "SB": 2,
+     "CS": 3,
+     "BB": 17,
+     "SO": 45,
+     "HBP": 0,
+     "GIDP": 15
+    },
+    {
+     "season": 1977,
+     "id": 121253,
+     "name": "Mickey Rivers",
+     "team": "New York Yankees",
+     "age": 28,
+     "PA": 594,
+     "AVG": 0.326,
+     "OBP": 0.35,
+     "SLG": 0.439,
+     "OPS": 0.789,
+     "HR": 12,
+     "RBI": 69,
+     "R": 79,
+     "H": 184,
+     "2B": 18,
+     "3B": 5,
+     "SB": 22,
+     "CS": 14,
+     "BB": 18,
+     "SO": 45,
+     "HBP": 4,
+     "GIDP": 2
+    },
+    {
+     "season": 1971,
+     "id": 110774,
+     "name": "Glenn Beckert",
+     "team": "Chicago Cubs",
+     "age": 30,
+     "PA": 570,
+     "AVG": 0.342,
+     "OBP": 0.367,
+     "SLG": 0.406,
+     "OPS": 0.773,
+     "HR": 2,
+     "RBI": 42,
+     "R": 80,
+     "H": 181,
+     "2B": 18,
+     "3B": 5,
+     "SB": 3,
+     "CS": 2,
+     "BB": 24,
+     "SO": 24,
+     "HBP": 0,
+     "GIDP": 16
+    },
+    {
+     "season": 1971,
+     "id": 119980,
+     "name": "Tony Oliva",
+     "team": "Minnesota Twins",
+     "age": 32,
+     "PA": 518,
+     "AVG": 0.337,
+     "OBP": 0.369,
+     "SLG": 0.546,
+     "OPS": 0.915,
+     "HR": 22,
+     "RBI": 81,
+     "R": 73,
+     "H": 164,
+     "2B": 30,
+     "3B": 3,
+     "SB": 4,
+     "CS": 1,
+     "BB": 25,
+     "SO": 44,
+     "HBP": 2,
+     "GIDP": 21
+    },
+    {
+     "season": 1972,
+     "id": 114627,
+     "name": "Ralph Garr",
+     "team": "Atlanta Braves",
+     "age": 26,
+     "PA": 594,
+     "AVG": 0.325,
+     "OBP": 0.359,
+     "SLG": 0.43,
+     "OPS": 0.789,
+     "HR": 12,
+     "RBI": 53,
+     "R": 87,
+     "H": 180,
+     "2B": 22,
+     "3B": 0,
+     "SB": 25,
+     "CS": 9,
+     "BB": 25,
+     "SO": 41,
+     "HBP": 6,
+     "GIDP": 9
+    }
+   ],
+   "kind": "list",
+   "score": 3.43,
+   "players": [
+    {
+     "id": 123182,
+     "name": "Garry Templeton Sr."
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "6 times in the 1970s a hitter batted .320 or better with 25 walks or fewer (500+ PA). The most extreme: Garry Templeton Sr., 1977 — .322, 15 BB."
+  },
+  {
+   "n": 85,
+   "rule": "relief_wins",
+   "group": "P",
+   "decade": 1970,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      12
+     ],
+     [
+      "GS",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1974,
+     "id": 115951,
+     "name": "John Hiller",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "W": 17,
+     "L": 14,
+     "ERA": 2.64,
+     "IP": "150.0",
+     "SO": 134,
+     "BB": 62,
+     "SV": 13,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 1.26
+    },
+    {
+     "season": 1976,
+     "id": 111941,
+     "name": "Bill Campbell",
+     "team": "Minnesota Twins",
+     "age": 27,
+     "W": 17,
+     "L": 5,
+     "ERA": 3.01,
+     "IP": "167.2",
+     "SO": 115,
+     "BB": 62,
+     "SV": 20,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.23
+    },
+    {
+     "season": 1977,
+     "id": 116631,
+     "name": "Tom Johnson",
+     "team": "Minnesota Twins",
+     "age": 26,
+     "W": 16,
+     "L": 7,
+     "ERA": 3.13,
+     "IP": "146.2",
+     "SO": 87,
+     "BB": 47,
+     "SV": 15,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.36
+    },
+    {
+     "season": 1974,
+     "id": 118320,
+     "name": "Mike Marshall",
+     "team": "Los Angeles Dodgers",
+     "age": 31,
+     "W": 15,
+     "L": 12,
+     "ERA": 2.42,
+     "IP": "208.1",
+     "SO": 143,
+     "BB": 56,
+     "SV": 21,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.19
+    },
+    {
+     "season": 1975,
+     "id": 119578,
+     "name": "Dale Murray",
+     "team": "Montreal Expos",
+     "age": 25,
+     "W": 15,
+     "L": 8,
+     "ERA": 3.96,
+     "IP": "111.1",
+     "SO": 43,
+     "BB": 39,
+     "SV": 9,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 0,
+     "WHIP": 1.55
+    },
+    {
+     "season": 1972,
+     "id": 118320,
+     "name": "Mike Marshall",
+     "team": "Montreal Expos",
+     "age": 29,
+     "W": 14,
+     "L": 8,
+     "ERA": 1.78,
+     "IP": "116.0",
+     "SO": 95,
+     "BB": 47,
+     "SV": 18,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.11
+    }
+   ],
+   "kind": "list",
+   "score": 3.425,
+   "players": [
+    {
+     "id": 115951,
+     "name": "John Hiller"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "text": "19 times in the 1970s a pitcher won 12+ games without a start. The most extreme: John Hiller, 1974 — 17-14, 0 GS."
+  },
+  {
+   "n": 86,
+   "rule": "triples_over_hr",
+   "group": "H",
+   "decade": 1970,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "id": 117024,
+     "name": "Don Kessinger",
+     "team": "Chicago Cubs",
+     "age": 27,
+     "PA": 711,
+     "AVG": 0.266,
+     "OBP": 0.337,
+     "SLG": 0.349,
+     "OPS": 0.686,
+     "HR": 1,
+     "RBI": 39,
+     "R": 100,
+     "H": 168,
+     "2B": 21,
+     "3B": 14,
+     "SB": 12,
+     "CS": 6,
+     "BB": 66,
+     "SO": 59,
+     "HBP": 2,
+     "GIDP": 12
+    },
+    {
+     "season": 1973,
+     "id": 119001,
+     "name": "Roger Metzger",
+     "team": "Houston Astros",
+     "age": 25,
+     "PA": 637,
+     "AVG": 0.25,
+     "OBP": 0.299,
+     "SLG": 0.322,
+     "OPS": 0.621,
+     "HR": 1,
+     "RBI": 35,
+     "R": 67,
+     "H": 145,
+     "2B": 11,
+     "3B": 14,
+     "SB": 10,
+     "CS": 4,
+     "BB": 39,
+     "SO": 70,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1972,
+     "id": 111281,
+     "name": "Larry Bowa",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "PA": 633,
+     "AVG": 0.25,
+     "OBP": 0.291,
+     "SLG": 0.32,
+     "OPS": 0.611,
+     "HR": 1,
+     "RBI": 31,
+     "R": 67,
+     "H": 145,
+     "2B": 11,
+     "3B": 13,
+     "SB": 17,
+     "CS": 9,
+     "BB": 32,
+     "SO": 51,
+     "HBP": 2,
+     "GIDP": 8
+    },
+    {
+     "season": 1975,
+     "id": 121253,
+     "name": "Mickey Rivers",
+     "team": "California Angels",
+     "age": 26,
+     "PA": 672,
+     "AVG": 0.284,
+     "OBP": 0.331,
+     "SLG": 0.359,
+     "OPS": 0.69,
+     "HR": 1,
+     "RBI": 53,
+     "R": 70,
+     "H": 175,
+     "2B": 17,
+     "3B": 13,
+     "SB": 70,
+     "CS": 14,
+     "BB": 43,
+     "SO": 42,
+     "HBP": 2,
+     "GIDP": 6
+    },
+    {
+     "season": 1976,
+     "id": 112089,
+     "name": "Dave Cash",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "PA": 727,
+     "AVG": 0.284,
+     "OBP": 0.337,
+     "SLG": 0.345,
+     "OPS": 0.682,
+     "HR": 1,
+     "RBI": 56,
+     "R": 92,
+     "H": 189,
+     "2B": 14,
+     "3B": 12,
+     "SB": 10,
+     "CS": 12,
+     "BB": 54,
+     "SO": 13,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1978,
+     "id": 123182,
+     "name": "Garry Templeton Sr.",
+     "team": "St. Louis Cardinals",
+     "age": 22,
+     "PA": 675,
+     "AVG": 0.28,
+     "OBP": 0.303,
+     "SLG": 0.377,
+     "OPS": 0.68,
+     "HR": 2,
+     "RBI": 47,
+     "R": 82,
+     "H": 181,
+     "2B": 31,
+     "3B": 13,
+     "SB": 34,
+     "CS": 11,
+     "BB": 22,
+     "SO": 87,
+     "HBP": 1,
+     "GIDP": 7
+    }
+   ],
+   "kind": "list",
+   "score": 3.325,
+   "players": [
+    {
+     "id": 117024,
+     "name": "Don Kessinger"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "22 times in the 1970s a hitter hit 12+ triples and more triples than homers. The most extreme: Don Kessinger, 1970 — 14 3B, 1 HR."
+  },
+  {
+   "n": 87,
+   "rule": "low_k_full",
+   "group": "H",
+   "decade": 1970,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "SO",
+      "lte",
+      25
+     ]
+    ],
+    "seasonMin": 1970,
+    "seasonMax": 1979
+   },
+   "evidence": [
+    {
+     "season": 1976,
+     "id": 112089,
+     "name": "Dave Cash",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "PA": 727,
+     "AVG": 0.284,
+     "OBP": 0.337,
+     "SLG": 0.345,
+     "OPS": 0.682,
+     "HR": 1,
+     "RBI": 56,
+     "R": 92,
+     "H": 189,
+     "2B": 14,
+     "3B": 12,
+     "SB": 10,
+     "CS": 12,
+     "BB": 54,
+     "SO": 13,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1970,
+     "id": 110188,
+     "name": "Matty Alou",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "PA": 718,
+     "AVG": 0.297,
+     "OBP": 0.329,
+     "SLG": 0.356,
+     "OPS": 0.685,
+     "HR": 1,
+     "RBI": 47,
+     "R": 97,
+     "H": 201,
+     "2B": 21,
+     "3B": 8,
+     "SB": 19,
+     "CS": 11,
+     "BB": 30,
+     "SO": 18,
+     "HBP": 4,
+     "GIDP": 9
+    },
+    {
+     "season": 1978,
+     "id": 110454,
+     "name": "Bob Bailor",
+     "team": "Toronto Blue Jays",
+     "age": 26,
+     "PA": 676,
+     "AVG": 0.264,
+     "OBP": 0.31,
+     "SLG": 0.338,
+     "OPS": 0.648,
+     "HR": 1,
+     "RBI": 52,
+     "R": 74,
+     "H": 164,
+     "2B": 29,
+     "3B": 7,
+     "SB": 5,
+     "CS": 6,
+     "BB": 38,
+     "SO": 21,
+     "HBP": 5,
+     "GIDP": 8
+    },
+    {
+     "season": 1970,
+     "id": 110774,
+     "name": "Glenn Beckert",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 632,
+     "AVG": 0.288,
+     "OBP": 0.323,
+     "SLG": 0.349,
+     "OPS": 0.672,
+     "HR": 3,
+     "RBI": 36,
+     "R": 99,
+     "H": 170,
+     "2B": 15,
+     "3B": 6,
+     "SB": 4,
+     "CS": 1,
+     "BB": 32,
+     "SO": 22,
+     "HBP": 0,
+     "GIDP": 13
+    },
+    {
+     "season": 1971,
+     "id": 119056,
+     "name": "Felix Millan",
+     "team": "Atlanta Braves",
+     "age": 27,
+     "PA": 635,
+     "AVG": 0.289,
+     "OBP": 0.332,
+     "SLG": 0.362,
+     "OPS": 0.694,
+     "HR": 2,
+     "RBI": 45,
+     "R": 65,
+     "H": 167,
+     "2B": 20,
+     "3B": 8,
+     "SB": 11,
+     "CS": 7,
+     "BB": 37,
+     "SO": 22,
+     "HBP": 3,
+     "GIDP": 12
+    },
+    {
+     "season": 1973,
+     "id": 119056,
+     "name": "Felix Millan",
+     "team": "New York Mets",
+     "age": 29,
+     "PA": 699,
+     "AVG": 0.29,
+     "OBP": 0.332,
+     "SLG": 0.353,
+     "OPS": 0.685,
+     "HR": 3,
+     "RBI": 37,
+     "R": 82,
+     "H": 185,
+     "2B": 23,
+     "3B": 4,
+     "SB": 2,
+     "CS": 2,
+     "BB": 35,
+     "SO": 22,
+     "HBP": 6,
+     "GIDP": 20
+    }
+   ],
+   "kind": "list",
+   "score": 3.325,
+   "players": [
+    {
+     "id": 112089,
+     "name": "Dave Cash"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "9 times in the 1970s a hitter struck out 25 times or fewer in a full season (600+ PA). The most extreme: Dave Cash, 1976 — 13 K in 727 PA."
+  }
+ ],
+ "counts": {
+  "hitterSeasons": 7579,
+  "pitcherSeasons": 3513
+ },
+ "method": [
+  "Every fact is a predicate evaluated over every hitter-season and pitcher-season in the decade, pulled in full from the MLB Stats API (the official record). Nothing is recalled or estimated; the rows that satisfy each rule are stored with it.",
+  "'Only', 'two' and 'three/four' claims are exact counts across the complete pull. Where a rule uses a plate-appearance or innings floor instead of a league qualification bar, the floor is stated in the fact so the claim is reproducible.",
+  "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
+  "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
+ ],
+ "generatedAt": "2026-09-28T03:27:30.784Z",
+ "sources": [
+  {
+   "season": 1970,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1970&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1970&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1970&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:25.911Z"
+  },
+  {
+   "season": 1971,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1971&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1971&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1971&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:26.359Z"
+  },
+  {
+   "season": 1972,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1972&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1972&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1972&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:26.847Z"
+  },
+  {
+   "season": 1973,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1973&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1973&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1973&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:27.345Z"
+  },
+  {
+   "season": 1974,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1974&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1974&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1974&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:27.817Z"
+  },
+  {
+   "season": 1975,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1975&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1975&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1975&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:28.342Z"
+  },
+  {
+   "season": 1976,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1976&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1976&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1976&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:28.820Z"
+  },
+  {
+   "season": 1977,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1977&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1977&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1977&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:29.263Z"
+  },
+  {
+   "season": 1978,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1978&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1978&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1978&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:29.733Z"
+  },
+  {
+   "season": 1979,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1979&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1979&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1979&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:30.230Z"
+  }
+ ]
+}

@@ -1,0 +1,8314 @@
+{
+ "decade": "2010s",
+ "era": "modern",
+ "thresholds": {
+  "hrBig": 30,
+  "hrHuge": 40,
+  "avgLow": 0.22,
+  "bbFew": 25,
+  "sbMany": 40,
+  "obpLow": 0.3,
+  "kFewHit": 30,
+  "kManyHit": 180,
+  "bbMany": 100,
+  "kMany": 200,
+  "kHuge": 250,
+  "wLow": 8,
+  "eraBad": 4.5,
+  "ipHuge": 750,
+  "kFewPit": 100,
+  "cgMany": 8,
+  "kPer9": 11,
+  "whip1": 1,
+  "sv": 30,
+  "hbp": 20,
+  "kClose": 100,
+  "hrTeam": 40,
+  "ageYoung": 22,
+  "ageOld": 37
+ },
+ "candidates": 122,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "zero_hr_full",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "HR",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 462101,
+     "name": "Elvis Andrus",
+     "team": "Texas Rangers",
+     "age": 21,
+     "PA": 674,
+     "AVG": 0.265,
+     "OBP": 0.342,
+     "SLG": 0.301,
+     "OPS": 0.643,
+     "HR": 0,
+     "RBI": 35,
+     "R": 88,
+     "H": 156,
+     "2B": 15,
+     "3B": 3,
+     "SB": 32,
+     "CS": 15,
+     "BB": 64,
+     "SO": 96,
+     "HBP": 5,
+     "GIDP": 6
+    }
+   ],
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 462101,
+     "name": "Elvis Andrus"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "The only hitter of the 2010s to play a full season without a single home run (600+ PA): Elvis Andrus, 2010 — 0 HR in 674 PA."
+  },
+  {
+   "n": 2,
+   "rule": "bb_and_k",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      100
+     ],
+     [
+      "SO",
+      "gte",
+      180
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2017,
+     "id": 592450,
+     "name": "Aaron Judge",
+     "team": "New York Yankees",
+     "age": 25,
+     "PA": 678,
+     "AVG": 0.284,
+     "OBP": 0.422,
+     "SLG": 0.627,
+     "OPS": 1.049,
+     "HR": 52,
+     "RBI": 114,
+     "R": 128,
+     "H": 154,
+     "2B": 24,
+     "3B": 3,
+     "SB": 9,
+     "CS": 4,
+     "BB": 127,
+     "SO": 208,
+     "HBP": 5,
+     "GIDP": 15
+    },
+    {
+     "season": 2012,
+     "id": 276055,
+     "name": "Adam Dunn",
+     "team": "Chicago White Sox",
+     "age": 32,
+     "PA": 649,
+     "AVG": 0.204,
+     "OBP": 0.333,
+     "SLG": 0.468,
+     "OPS": 0.801,
+     "HR": 41,
+     "RBI": 96,
+     "R": 87,
+     "H": 110,
+     "2B": 19,
+     "3B": 0,
+     "SB": 2,
+     "CS": 1,
+     "BB": 105,
+     "SO": 222,
+     "HBP": 1,
+     "GIDP": 8
+    }
+   ],
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 592450,
+     "name": "Aaron Judge"
+    },
+    {
+     "id": 276055,
+     "name": "Adam Dunn"
+    }
+   ],
+   "seasons": [
+    2017,
+    2012
+   ],
+   "text": "Only two hitters of the 2010s drew 100 walks and struck out 180 times: Aaron Judge (2017, 127 BB, 208 K); Adam Dunn (2012, 105 BB, 222 K)."
+  },
+  {
+   "n": 3,
+   "rule": "rbi_low_ops",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "OPS",
+      "lte",
+      0.699
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2017,
+     "id": 405395,
+     "name": "Albert Pujols",
+     "team": "Los Angeles Angels",
+     "age": 37,
+     "PA": 636,
+     "AVG": 0.241,
+     "OBP": 0.286,
+     "SLG": 0.386,
+     "OPS": 0.672,
+     "HR": 23,
+     "RBI": 101,
+     "R": 53,
+     "H": 143,
+     "2B": 17,
+     "3B": 0,
+     "SB": 3,
+     "CS": 0,
+     "BB": 37,
+     "SO": 93,
+     "HBP": 2,
+     "GIDP": 26
+    }
+   ],
+   "kind": "only",
+   "score": 10.845,
+   "players": [
+    {
+     "id": 405395,
+     "name": "Albert Pujols"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "text": "The only hitter of the 2010s to drive in 100 runs with an OPS under .700: Albert Pujols, 2017 — 101 RBI, .672 OPS."
+  },
+  {
+   "n": 4,
+   "rule": "twenty_twenty_low_avg",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      20
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ],
+     [
+      "BA",
+      "lte",
+      0.229
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2017,
+     "id": 542979,
+     "name": "Keon Broxton",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "PA": 463,
+     "AVG": 0.22,
+     "OBP": 0.299,
+     "SLG": 0.42,
+     "OPS": 0.719,
+     "HR": 20,
+     "RBI": 49,
+     "R": 66,
+     "H": 91,
+     "2B": 15,
+     "3B": 4,
+     "SB": 21,
+     "CS": 7,
+     "BB": 40,
+     "SO": 175,
+     "HBP": 7,
+     "GIDP": 3
+    }
+   ],
+   "kind": "only",
+   "score": 10.475,
+   "players": [
+    {
+     "id": 542979,
+     "name": "Keon Broxton"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "text": "The only hitter of the 2010s to go 20-20 while batting under .230: Keon Broxton, 2017 — 20 HR, 21 SB, .220."
+  },
+  {
+   "n": 5,
+   "rule": "young_avg",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.33
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2015,
+     "id": 547180,
+     "name": "Bryce Harper",
+     "team": "Washington Nationals",
+     "age": 22,
+     "PA": 654,
+     "AVG": 0.33,
+     "OBP": 0.46,
+     "SLG": 0.649,
+     "OPS": 1.109,
+     "HR": 42,
+     "RBI": 99,
+     "R": 118,
+     "H": 172,
+     "2B": 38,
+     "3B": 1,
+     "SB": 6,
+     "CS": 4,
+     "BB": 124,
+     "SO": 131,
+     "HBP": 5,
+     "GIDP": 15
+    }
+   ],
+   "kind": "only",
+   "score": 10.275,
+   "players": [
+    {
+     "id": 547180,
+     "name": "Bryce Harper"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "text": "The only hitter of the 2010s to bat .330 at age 22 or younger (500+ PA): Bryce Harper, 2015 — .330 at 22."
+  },
+  {
+   "n": 6,
+   "rule": "era_under_3_no_wins",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      2.99
+     ],
+     [
+      "W",
+      "lte",
+      7
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2014,
+     "id": 502188,
+     "name": "Jeff Samardzija",
+     "team": "Oakland Athletics",
+     "age": 29,
+     "W": 7,
+     "L": 13,
+     "ERA": 2.99,
+     "IP": "219.2",
+     "SO": 202,
+     "BB": 43,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 20,
+     "WHIP": 1.07
+    }
+   ],
+   "kind": "only",
+   "score": 10.24975,
+   "players": [
+    {
+     "id": 502188,
+     "name": "Jeff Samardzija"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "text": "The only pitcher of the 2010s to post an ERA under 3.00 and win 7 or fewer (162+ IP): Jeff Samardzija, 2014 — 2.99 ERA, 7-13."
+  },
+  {
+   "n": 7,
+   "rule": "walks_over_hits",
+   "group": "H",
+   "decade": 2010,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 276055,
+     "name": "Adam Dunn",
+     "team": "Chicago White Sox",
+     "age": 31,
+     "PA": 496,
+     "AVG": 0.159,
+     "OBP": 0.292,
+     "SLG": 0.277,
+     "OPS": 0.569,
+     "HR": 11,
+     "RBI": 42,
+     "R": 36,
+     "H": 66,
+     "2B": 16,
+     "3B": 0,
+     "SB": 0,
+     "CS": 1,
+     "BB": 75,
+     "SO": 177,
+     "HBP": 4,
+     "GIDP": 10
+    }
+   ],
+   "kind": "only",
+   "score": 10.225,
+   "players": [
+    {
+     "id": 276055,
+     "name": "Adam Dunn"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "The only hitter of the 2010s to draw more walks than hits (400+ PA): Adam Dunn, 2011 — 75 BB, 66 H."
+  },
+  {
+   "n": 8,
+   "rule": "young_ace",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMax": 22,
+    "filters": [
+     [
+      "W",
+      "gte",
+      18
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 502239,
+     "name": "Trevor Cahill",
+     "team": "Oakland Athletics",
+     "age": 22,
+     "W": 18,
+     "L": 8,
+     "ERA": 2.97,
+     "IP": "196.2",
+     "SO": 118,
+     "BB": 63,
+     "SV": 0,
+     "GS": 30,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 19,
+     "WHIP": 1.11
+    }
+   ],
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 502239,
+     "name": "Trevor Cahill"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "The only pitcher of the 2010s to win 18+ games at age 22 or younger: Trevor Cahill, 2010 — 18-8 at 22."
+  },
+  {
+   "n": 9,
+   "rule": "hr_allowed_winner",
+   "group": "P",
+   "decade": 2010,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 434378,
+     "name": "Justin Verlander",
+     "team": "Houston Astros",
+     "age": 36,
+     "W": 21,
+     "L": 6,
+     "ERA": 2.58,
+     "IP": "223.0",
+     "SO": 300,
+     "BB": 42,
+     "SV": 0,
+     "GS": 34,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 36,
+     "WHIP": 0.8
+    },
+    {
+     "season": 2012,
+     "id": 461833,
+     "name": "Phil Hughes",
+     "team": "New York Yankees",
+     "age": 26,
+     "W": 16,
+     "L": 13,
+     "ERA": 4.19,
+     "IP": "191.1",
+     "SO": 165,
+     "BB": 46,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 35,
+     "WHIP": 1.26
+    }
+   ],
+   "kind": "pair",
+   "score": 9.425,
+   "players": [
+    {
+     "id": 434378,
+     "name": "Justin Verlander"
+    },
+    {
+     "id": 461833,
+     "name": "Phil Hughes"
+    }
+   ],
+   "seasons": [
+    2019,
+    2012
+   ],
+   "text": "Only two pitchers of the 2010s allowed 35+ homers and still won 15: Justin Verlander (2019, 36 HR allowed, 21-6); Phil Hughes (2012, 35 HR allowed, 16-13)."
+  },
+  {
+   "n": 10,
+   "rule": "k300_no20",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      300
+     ],
+     [
+      "W",
+      "lte",
+      19
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2017,
+     "id": 519242,
+     "name": "Chris Sale",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "W": 17,
+     "L": 8,
+     "ERA": 2.9,
+     "IP": "214.1",
+     "SO": 308,
+     "BB": 43,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 0.97
+    },
+    {
+     "season": 2015,
+     "id": 477132,
+     "name": "Clayton Kershaw",
+     "team": "Los Angeles Dodgers",
+     "age": 27,
+     "W": 16,
+     "L": 7,
+     "ERA": 2.13,
+     "IP": "232.2",
+     "SO": 301,
+     "BB": 42,
+     "SV": 0,
+     "GS": 33,
+     "CG": 4,
+     "SHO": 3,
+     "HRA": 15,
+     "WHIP": 0.88
+    },
+    {
+     "season": 2018,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 33,
+     "W": 18,
+     "L": 7,
+     "ERA": 2.53,
+     "IP": "220.2",
+     "SO": 300,
+     "BB": 51,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 23,
+     "WHIP": 0.91
+    }
+   ],
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 519242,
+     "name": "Chris Sale"
+    },
+    {
+     "id": 477132,
+     "name": "Clayton Kershaw"
+    },
+    {
+     "id": 453286,
+     "name": "Max Scherzer"
+    }
+   ],
+   "seasons": [
+    2017,
+    2015,
+    2018
+   ],
+   "text": "Just three pitchers of the 2010s struck out 300 without winning 20: Chris Sale (2017, 308 K, 17-8); Clayton Kershaw (2015, 301 K, 16-7); Max Scherzer (2018, 300 K, 18-7)."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "HR30",
+   "group": "H",
+   "decade": 2010,
+   "score": 9,
+   "players": [
+    {
+     "id": 429665,
+     "name": "Edwin Encarnación"
+    }
+   ],
+   "seasons": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "Toronto Blue Jays",
+     "age": 29,
+     "PA": 644,
+     "AVG": 0.28,
+     "OBP": 0.384,
+     "SLG": 0.557,
+     "OPS": 0.941,
+     "HR": 42,
+     "RBI": 110,
+     "R": 93,
+     "H": 152,
+     "2B": 24,
+     "3B": 0,
+     "SB": 13,
+     "CS": 3,
+     "BB": 84,
+     "SO": 94,
+     "HBP": 11,
+     "GIDP": 6
+    },
+    {
+     "season": 2013,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "Toronto Blue Jays",
+     "age": 30,
+     "PA": 621,
+     "AVG": 0.272,
+     "OBP": 0.37,
+     "SLG": 0.534,
+     "OPS": 0.904,
+     "HR": 36,
+     "RBI": 104,
+     "R": 90,
+     "H": 144,
+     "2B": 29,
+     "3B": 1,
+     "SB": 7,
+     "CS": 1,
+     "BB": 82,
+     "SO": 62,
+     "HBP": 4,
+     "GIDP": 20
+    },
+    {
+     "season": 2014,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "Toronto Blue Jays",
+     "age": 31,
+     "PA": 542,
+     "AVG": 0.268,
+     "OBP": 0.354,
+     "SLG": 0.547,
+     "OPS": 0.901,
+     "HR": 34,
+     "RBI": 98,
+     "R": 75,
+     "H": 128,
+     "2B": 27,
+     "3B": 2,
+     "SB": 2,
+     "CS": 0,
+     "BB": 62,
+     "SO": 82,
+     "HBP": 2,
+     "GIDP": 18
+    },
+    {
+     "season": 2015,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "Toronto Blue Jays",
+     "age": 32,
+     "PA": 624,
+     "AVG": 0.277,
+     "OBP": 0.372,
+     "SLG": 0.557,
+     "OPS": 0.929,
+     "HR": 39,
+     "RBI": 111,
+     "R": 94,
+     "H": 146,
+     "2B": 31,
+     "3B": 0,
+     "SB": 3,
+     "CS": 2,
+     "BB": 77,
+     "SO": 98,
+     "HBP": 9,
+     "GIDP": 14
+    },
+    {
+     "season": 2016,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "Toronto Blue Jays",
+     "age": 33,
+     "PA": 702,
+     "AVG": 0.263,
+     "OBP": 0.357,
+     "SLG": 0.529,
+     "OPS": 0.886,
+     "HR": 42,
+     "RBI": 127,
+     "R": 99,
+     "H": 158,
+     "2B": 34,
+     "3B": 0,
+     "SB": 2,
+     "CS": 0,
+     "BB": 87,
+     "SO": 138,
+     "HBP": 5,
+     "GIDP": 22
+    },
+    {
+     "season": 2017,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "PA": 669,
+     "AVG": 0.258,
+     "OBP": 0.377,
+     "SLG": 0.504,
+     "OPS": 0.881,
+     "HR": 38,
+     "RBI": 107,
+     "R": 96,
+     "H": 143,
+     "2B": 20,
+     "3B": 1,
+     "SB": 2,
+     "CS": 0,
+     "BB": 104,
+     "SO": 133,
+     "HBP": 5,
+     "GIDP": 18
+    },
+    {
+     "season": 2018,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "Cleveland Indians",
+     "age": 35,
+     "PA": 579,
+     "AVG": 0.246,
+     "OBP": 0.336,
+     "SLG": 0.474,
+     "OPS": 0.81,
+     "HR": 32,
+     "RBI": 107,
+     "R": 74,
+     "H": 123,
+     "2B": 16,
+     "3B": 1,
+     "SB": 3,
+     "CS": 0,
+     "BB": 63,
+     "SO": 132,
+     "HBP": 8,
+     "GIDP": 14
+    },
+    {
+     "season": 2019,
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "team": "New York Yankees",
+     "age": 36,
+     "PA": 486,
+     "AVG": 0.244,
+     "OBP": 0.344,
+     "SLG": 0.531,
+     "OPS": 0.875,
+     "HR": 34,
+     "RBI": 86,
+     "R": 81,
+     "H": 102,
+     "2B": 18,
+     "3B": 0,
+     "SB": 0,
+     "CS": 1,
+     "BB": 58,
+     "SO": 103,
+     "HBP": 7,
+     "GIDP": 4
+    }
+   ],
+   "text": "Edwin Encarnación hit 30+ home runs in 8 straight seasons (2012-19), the longest run of the 2010s."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "AVG300",
+   "group": "H",
+   "decade": 2010,
+   "score": 9,
+   "players": [
+    {
+     "id": 408234,
+     "name": "Miguel Cabrera"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 27,
+     "PA": 648,
+     "AVG": 0.328,
+     "OBP": 0.42,
+     "SLG": 0.622,
+     "OPS": 1.042,
+     "HR": 38,
+     "RBI": 126,
+     "R": 111,
+     "H": 180,
+     "2B": 45,
+     "3B": 1,
+     "SB": 3,
+     "CS": 3,
+     "BB": 89,
+     "SO": 95,
+     "HBP": 3,
+     "GIDP": 17
+    },
+    {
+     "season": 2011,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 28,
+     "PA": 688,
+     "AVG": 0.344,
+     "OBP": 0.448,
+     "SLG": 0.586,
+     "OPS": 1.034,
+     "HR": 30,
+     "RBI": 105,
+     "R": 111,
+     "H": 197,
+     "2B": 48,
+     "3B": 0,
+     "SB": 2,
+     "CS": 1,
+     "BB": 108,
+     "SO": 89,
+     "HBP": 3,
+     "GIDP": 24
+    },
+    {
+     "season": 2012,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "PA": 697,
+     "AVG": 0.33,
+     "OBP": 0.393,
+     "SLG": 0.606,
+     "OPS": 0.999,
+     "HR": 44,
+     "RBI": 139,
+     "R": 109,
+     "H": 205,
+     "2B": 40,
+     "3B": 0,
+     "SB": 4,
+     "CS": 1,
+     "BB": 66,
+     "SO": 98,
+     "HBP": 3,
+     "GIDP": 28
+    },
+    {
+     "season": 2013,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "PA": 652,
+     "AVG": 0.348,
+     "OBP": 0.442,
+     "SLG": 0.636,
+     "OPS": 1.078,
+     "HR": 44,
+     "RBI": 137,
+     "R": 103,
+     "H": 193,
+     "2B": 26,
+     "3B": 1,
+     "SB": 3,
+     "CS": 0,
+     "BB": 90,
+     "SO": 94,
+     "HBP": 5,
+     "GIDP": 19
+    },
+    {
+     "season": 2014,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "PA": 685,
+     "AVG": 0.313,
+     "OBP": 0.371,
+     "SLG": 0.524,
+     "OPS": 0.895,
+     "HR": 25,
+     "RBI": 109,
+     "R": 101,
+     "H": 191,
+     "2B": 52,
+     "3B": 1,
+     "SB": 1,
+     "CS": 1,
+     "BB": 60,
+     "SO": 117,
+     "HBP": 3,
+     "GIDP": 21
+    },
+    {
+     "season": 2015,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 32,
+     "PA": 511,
+     "AVG": 0.338,
+     "OBP": 0.44,
+     "SLG": 0.534,
+     "OPS": 0.974,
+     "HR": 18,
+     "RBI": 76,
+     "R": 64,
+     "H": 145,
+     "2B": 28,
+     "3B": 1,
+     "SB": 1,
+     "CS": 1,
+     "BB": 77,
+     "SO": 82,
+     "HBP": 3,
+     "GIDP": 19
+    },
+    {
+     "season": 2016,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 33,
+     "PA": 679,
+     "AVG": 0.316,
+     "OBP": 0.393,
+     "SLG": 0.563,
+     "OPS": 0.956,
+     "HR": 38,
+     "RBI": 108,
+     "R": 92,
+     "H": 188,
+     "2B": 31,
+     "3B": 1,
+     "SB": 0,
+     "CS": 0,
+     "BB": 75,
+     "SO": 116,
+     "HBP": 4,
+     "GIDP": 26
+    }
+   ],
+   "text": "Miguel Cabrera batted .300 or better (500+ PA) in 7 straight seasons (2010-16), the longest run of the 2010s."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "K200",
+   "group": "P",
+   "decade": 2010,
+   "score": 9,
+   "players": [
+    {
+     "id": 453286,
+     "name": "Max Scherzer"
+    }
+   ],
+   "seasons": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Detroit Tigers",
+     "age": 27,
+     "W": 16,
+     "L": 7,
+     "ERA": 3.74,
+     "IP": "187.2",
+     "SO": 231,
+     "BB": 60,
+     "SV": 0,
+     "GS": 32,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 23,
+     "WHIP": 1.27
+    },
+    {
+     "season": 2013,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Detroit Tigers",
+     "age": 28,
+     "W": 21,
+     "L": 3,
+     "ERA": 2.9,
+     "IP": "214.1",
+     "SO": 240,
+     "BB": 56,
+     "SV": 0,
+     "GS": 32,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 18,
+     "WHIP": 0.97
+    },
+    {
+     "season": 2014,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "W": 18,
+     "L": 5,
+     "ERA": 3.15,
+     "IP": "220.1",
+     "SO": 252,
+     "BB": 63,
+     "SV": 0,
+     "GS": 33,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 18,
+     "WHIP": 1.18
+    },
+    {
+     "season": 2015,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 30,
+     "W": 14,
+     "L": 12,
+     "ERA": 2.79,
+     "IP": "228.2",
+     "SO": 276,
+     "BB": 34,
+     "SV": 0,
+     "GS": 33,
+     "CG": 4,
+     "SHO": 3,
+     "HRA": 27,
+     "WHIP": 0.92
+    },
+    {
+     "season": 2016,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 31,
+     "W": 20,
+     "L": 7,
+     "ERA": 2.96,
+     "IP": "228.1",
+     "SO": 284,
+     "BB": 56,
+     "SV": 0,
+     "GS": 34,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 31,
+     "WHIP": 0.97
+    },
+    {
+     "season": 2017,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 32,
+     "W": 16,
+     "L": 6,
+     "ERA": 2.51,
+     "IP": "200.2",
+     "SO": 268,
+     "BB": 55,
+     "SV": 0,
+     "GS": 31,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 22,
+     "WHIP": 0.9
+    },
+    {
+     "season": 2018,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 33,
+     "W": 18,
+     "L": 7,
+     "ERA": 2.53,
+     "IP": "220.2",
+     "SO": 300,
+     "BB": 51,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 23,
+     "WHIP": 0.91
+    },
+    {
+     "season": 2019,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 34,
+     "W": 11,
+     "L": 7,
+     "ERA": 2.92,
+     "IP": "172.1",
+     "SO": 243,
+     "BB": 33,
+     "SV": 0,
+     "GS": 27,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 18,
+     "WHIP": 1.03
+    }
+   ],
+   "text": "Max Scherzer struck out 200+ in 8 straight seasons (2012-19), the longest run of the 2010s."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "SV30",
+   "group": "P",
+   "decade": 2010,
+   "score": 9,
+   "players": [
+    {
+     "id": 518886,
+     "name": "Craig Kimbrel"
+    }
+   ],
+   "seasons": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Atlanta Braves",
+     "age": 23,
+     "W": 4,
+     "L": 3,
+     "ERA": 2.1,
+     "IP": "77.0",
+     "SO": 127,
+     "BB": 32,
+     "SV": 46,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.04
+    },
+    {
+     "season": 2012,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Atlanta Braves",
+     "age": 24,
+     "W": 3,
+     "L": 1,
+     "ERA": 1.01,
+     "IP": "62.2",
+     "SO": 116,
+     "BB": 14,
+     "SV": 42,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 0.65
+    },
+    {
+     "season": 2013,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Atlanta Braves",
+     "age": 25,
+     "W": 4,
+     "L": 3,
+     "ERA": 1.21,
+     "IP": "67.0",
+     "SO": 98,
+     "BB": 20,
+     "SV": 50,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 0.88
+    },
+    {
+     "season": 2014,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Atlanta Braves",
+     "age": 26,
+     "W": 0,
+     "L": 3,
+     "ERA": 1.61,
+     "IP": "61.2",
+     "SO": 95,
+     "BB": 26,
+     "SV": 47,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 0.91
+    },
+    {
+     "season": 2015,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "San Diego Padres",
+     "age": 27,
+     "W": 4,
+     "L": 2,
+     "ERA": 2.58,
+     "IP": "59.1",
+     "SO": 87,
+     "BB": 22,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.04
+    },
+    {
+     "season": 2016,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "W": 2,
+     "L": 6,
+     "ERA": 3.4,
+     "IP": "53.0",
+     "SO": 83,
+     "BB": 30,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.09
+    },
+    {
+     "season": 2017,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "W": 5,
+     "L": 0,
+     "ERA": 1.43,
+     "IP": "69.0",
+     "SO": 126,
+     "BB": 14,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 0.68
+    },
+    {
+     "season": 2018,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "W": 5,
+     "L": 1,
+     "ERA": 2.74,
+     "IP": "62.1",
+     "SO": 96,
+     "BB": 31,
+     "SV": 42,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 0.99
+    }
+   ],
+   "text": "Craig Kimbrel saved 30+ games in 8 straight seasons (2011-18), the longest run of the 2010s."
+  },
+  {
+   "n": 15,
+   "rule": "avg_no_walks",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ],
+     [
+      "BB",
+      "lte",
+      25
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 641313,
+     "name": "Tim Anderson",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "PA": 518,
+     "AVG": 0.335,
+     "OBP": 0.357,
+     "SLG": 0.508,
+     "OPS": 0.865,
+     "HR": 18,
+     "RBI": 56,
+     "R": 81,
+     "H": 167,
+     "2B": 32,
+     "3B": 0,
+     "SB": 17,
+     "CS": 5,
+     "BB": 15,
+     "SO": 109,
+     "HBP": 3,
+     "GIDP": 12
+    },
+    {
+     "season": 2015,
+     "id": 543829,
+     "name": "Dee Strange-Gordon",
+     "team": "Miami Marlins",
+     "age": 27,
+     "PA": 653,
+     "AVG": 0.333,
+     "OBP": 0.359,
+     "SLG": 0.418,
+     "OPS": 0.777,
+     "HR": 4,
+     "RBI": 46,
+     "R": 88,
+     "H": 205,
+     "2B": 24,
+     "3B": 8,
+     "SB": 58,
+     "CS": 20,
+     "BB": 25,
+     "SO": 91,
+     "HBP": 2,
+     "GIDP": 6
+    }
+   ],
+   "kind": "pair",
+   "score": 8.4625,
+   "players": [
+    {
+     "id": 641313,
+     "name": "Tim Anderson"
+    },
+    {
+     "id": 543829,
+     "name": "Dee Strange-Gordon"
+    }
+   ],
+   "seasons": [
+    2019,
+    2015
+   ],
+   "text": "Only two hitters of the 2010s batted .320 or better with 25 walks or fewer (500+ PA): Tim Anderson (2019, .335, 15 BB); Dee Strange-Gordon (2015, .333, 25 BB)."
+  },
+  {
+   "n": 16,
+   "kind": "teammates",
+   "rule": "w20_pair",
+   "group": "P",
+   "decade": 2010,
+   "score": 8,
+   "players": [
+    {
+     "id": 434378,
+     "name": "Justin Verlander"
+    },
+    {
+     "id": 543037,
+     "name": "Gerrit Cole"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 434378,
+     "name": "Justin Verlander",
+     "team": "Houston Astros",
+     "age": 36,
+     "W": 21,
+     "L": 6,
+     "ERA": 2.58,
+     "IP": "223.0",
+     "SO": 300,
+     "BB": 42,
+     "SV": 0,
+     "GS": 34,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 36,
+     "WHIP": 0.8
+    },
+    {
+     "season": 2019,
+     "id": 543037,
+     "name": "Gerrit Cole",
+     "team": "Houston Astros",
+     "age": 28,
+     "W": 20,
+     "L": 5,
+     "ERA": 2.5,
+     "IP": "212.1",
+     "SO": 326,
+     "BB": 48,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 29,
+     "WHIP": 0.89
+    }
+   ],
+   "text": "The 2019 Houston Astros are the only team of the 2010s with two players at 20 wins: Justin Verlander 21, Gerrit Cole 20."
+  },
+  {
+   "n": 17,
+   "rule": "old_arm",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMin": 38,
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2013,
+     "id": 112526,
+     "name": "Bartolo Colon",
+     "team": "Oakland Athletics",
+     "age": 40,
+     "W": 18,
+     "L": 6,
+     "ERA": 2.65,
+     "IP": "190.1",
+     "SO": 117,
+     "BB": 29,
+     "SV": 0,
+     "GS": 30,
+     "CG": 3,
+     "SHO": 3,
+     "HRA": 14,
+     "WHIP": 1.17
+    },
+    {
+     "season": 2016,
+     "id": 112526,
+     "name": "Bartolo Colon",
+     "team": "New York Mets",
+     "age": 43,
+     "W": 15,
+     "L": 8,
+     "ERA": 3.43,
+     "IP": "191.2",
+     "SO": 128,
+     "BB": 32,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 1.21
+    },
+    {
+     "season": 2014,
+     "id": 112526,
+     "name": "Bartolo Colon",
+     "team": "New York Mets",
+     "age": 41,
+     "W": 15,
+     "L": 13,
+     "ERA": 4.09,
+     "IP": "202.1",
+     "SO": 151,
+     "BB": 30,
+     "SV": 0,
+     "GS": 31,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 22,
+     "WHIP": 1.23
+    }
+   ],
+   "kind": "few",
+   "score": 7.45,
+   "players": [
+    {
+     "id": 112526,
+     "name": "Bartolo Colon"
+    },
+    {
+     "id": 112526,
+     "name": "Bartolo Colon"
+    },
+    {
+     "id": 112526,
+     "name": "Bartolo Colon"
+    }
+   ],
+   "seasons": [
+    2013,
+    2016,
+    2014
+   ],
+   "text": "Just three pitchers of the 2010s won 15+ games at age 38 or older: Bartolo Colon (2013, 18-6 at 40); Bartolo Colon (2016, 15-8 at 43); Bartolo Colon (2014, 15-13 at 41)."
+  },
+  {
+   "n": 18,
+   "rule": "saves_bad_era",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      30
+     ],
+     [
+      "ERA",
+      "gte",
+      4.5
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2016,
+     "id": 491646,
+     "name": "Jeanmar Gómez",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "W": 3,
+     "L": 5,
+     "ERA": 4.85,
+     "IP": "68.2",
+     "SO": 47,
+     "BB": 22,
+     "SV": 37,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.46
+    },
+    {
+     "season": 2014,
+     "id": 150274,
+     "name": "Joe Nathan",
+     "team": "Detroit Tigers",
+     "age": 39,
+     "W": 5,
+     "L": 4,
+     "ERA": 4.81,
+     "IP": "58.0",
+     "SO": 54,
+     "BB": 29,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.53
+    },
+    {
+     "season": 2012,
+     "id": 446099,
+     "name": "John Axford",
+     "team": "Milwaukee Brewers",
+     "age": 29,
+     "W": 5,
+     "L": 8,
+     "ERA": 4.67,
+     "IP": "69.1",
+     "SO": 93,
+     "BB": 39,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 1.44
+    },
+    {
+     "season": 2018,
+     "id": 572888,
+     "name": "Shane Greene",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "W": 4,
+     "L": 6,
+     "ERA": 5.12,
+     "IP": "63.1",
+     "SO": 65,
+     "BB": 19,
+     "SV": 32,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 12,
+     "WHIP": 1.37
+    }
+   ],
+   "kind": "few",
+   "score": 7.046250000000001,
+   "players": [
+    {
+     "id": 491646,
+     "name": "Jeanmar Gómez"
+    },
+    {
+     "id": 150274,
+     "name": "Joe Nathan"
+    },
+    {
+     "id": 446099,
+     "name": "John Axford"
+    },
+    {
+     "id": 572888,
+     "name": "Shane Greene"
+    }
+   ],
+   "seasons": [
+    2016,
+    2014,
+    2012,
+    2018
+   ],
+   "text": "Just four pitchers of the 2010s saved 30 games with an ERA of 4.50 or worse: Jeanmar Gómez (2016, 37 SV, 4.85 ERA); Joe Nathan (2014, 35 SV, 4.81 ERA); John Axford (2012, 35 SV, 4.67 ERA); Shane Greene (2018, 32 SV, 5.12 ERA)."
+  },
+  {
+   "n": 19,
+   "kind": "streak",
+   "rule": "RBI100",
+   "group": "H",
+   "decade": 2010,
+   "score": 7,
+   "players": [
+    {
+     "id": 408234,
+     "name": "Miguel Cabrera"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 27,
+     "PA": 648,
+     "AVG": 0.328,
+     "OBP": 0.42,
+     "SLG": 0.622,
+     "OPS": 1.042,
+     "HR": 38,
+     "RBI": 126,
+     "R": 111,
+     "H": 180,
+     "2B": 45,
+     "3B": 1,
+     "SB": 3,
+     "CS": 3,
+     "BB": 89,
+     "SO": 95,
+     "HBP": 3,
+     "GIDP": 17
+    },
+    {
+     "season": 2011,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 28,
+     "PA": 688,
+     "AVG": 0.344,
+     "OBP": 0.448,
+     "SLG": 0.586,
+     "OPS": 1.034,
+     "HR": 30,
+     "RBI": 105,
+     "R": 111,
+     "H": 197,
+     "2B": 48,
+     "3B": 0,
+     "SB": 2,
+     "CS": 1,
+     "BB": 108,
+     "SO": 89,
+     "HBP": 3,
+     "GIDP": 24
+    },
+    {
+     "season": 2012,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "PA": 697,
+     "AVG": 0.33,
+     "OBP": 0.393,
+     "SLG": 0.606,
+     "OPS": 0.999,
+     "HR": 44,
+     "RBI": 139,
+     "R": 109,
+     "H": 205,
+     "2B": 40,
+     "3B": 0,
+     "SB": 4,
+     "CS": 1,
+     "BB": 66,
+     "SO": 98,
+     "HBP": 3,
+     "GIDP": 28
+    },
+    {
+     "season": 2013,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "PA": 652,
+     "AVG": 0.348,
+     "OBP": 0.442,
+     "SLG": 0.636,
+     "OPS": 1.078,
+     "HR": 44,
+     "RBI": 137,
+     "R": 103,
+     "H": 193,
+     "2B": 26,
+     "3B": 1,
+     "SB": 3,
+     "CS": 0,
+     "BB": 90,
+     "SO": 94,
+     "HBP": 5,
+     "GIDP": 19
+    },
+    {
+     "season": 2014,
+     "id": 408234,
+     "name": "Miguel Cabrera",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "PA": 685,
+     "AVG": 0.313,
+     "OBP": 0.371,
+     "SLG": 0.524,
+     "OPS": 0.895,
+     "HR": 25,
+     "RBI": 109,
+     "R": 101,
+     "H": 191,
+     "2B": 52,
+     "3B": 1,
+     "SB": 1,
+     "CS": 1,
+     "BB": 60,
+     "SO": 117,
+     "HBP": 3,
+     "GIDP": 21
+    }
+   ],
+   "text": "Miguel Cabrera drove in 100+ runs in 5 straight seasons (2010-14), the longest run of the 2010s."
+  },
+  {
+   "n": 20,
+   "rule": "sb_low_obp",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ],
+     [
+      "OBP",
+      "lte",
+      0.299
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2015,
+     "id": 571740,
+     "name": "Billy Hamilton",
+     "team": "Cincinnati Reds",
+     "age": 24,
+     "PA": 454,
+     "AVG": 0.226,
+     "OBP": 0.274,
+     "SLG": 0.289,
+     "OPS": 0.563,
+     "HR": 4,
+     "RBI": 28,
+     "R": 56,
+     "H": 93,
+     "2B": 8,
+     "3B": 3,
+     "SB": 57,
+     "CS": 8,
+     "BB": 28,
+     "SO": 75,
+     "HBP": 1,
+     "GIDP": 5
+    },
+    {
+     "season": 2017,
+     "id": 571740,
+     "name": "Billy Hamilton",
+     "team": "Cincinnati Reds",
+     "age": 26,
+     "PA": 633,
+     "AVG": 0.247,
+     "OBP": 0.299,
+     "SLG": 0.335,
+     "OPS": 0.634,
+     "HR": 4,
+     "RBI": 38,
+     "R": 85,
+     "H": 144,
+     "2B": 17,
+     "3B": 11,
+     "SB": 59,
+     "CS": 13,
+     "BB": 44,
+     "SO": 133,
+     "HBP": 0,
+     "GIDP": 5
+    },
+    {
+     "season": 2014,
+     "id": 571740,
+     "name": "Billy Hamilton",
+     "team": "Cincinnati Reds",
+     "age": 23,
+     "PA": 611,
+     "AVG": 0.25,
+     "OBP": 0.292,
+     "SLG": 0.355,
+     "OPS": 0.647,
+     "HR": 6,
+     "RBI": 48,
+     "R": 72,
+     "H": 141,
+     "2B": 25,
+     "3B": 8,
+     "SB": 56,
+     "CS": 23,
+     "BB": 34,
+     "SO": 117,
+     "HBP": 1,
+     "GIDP": 1
+    },
+    {
+     "season": 2019,
+     "id": 609275,
+     "name": "Adalberto Mondesi",
+     "team": "Kansas City Royals",
+     "age": 23,
+     "PA": 443,
+     "AVG": 0.263,
+     "OBP": 0.291,
+     "SLG": 0.424,
+     "OPS": 0.715,
+     "HR": 9,
+     "RBI": 62,
+     "R": 58,
+     "H": 109,
+     "2B": 20,
+     "3B": 10,
+     "SB": 43,
+     "CS": 7,
+     "BB": 19,
+     "SO": 132,
+     "HBP": 0,
+     "GIDP": 6
+    }
+   ],
+   "kind": "few",
+   "score": 6.74,
+   "players": [
+    {
+     "id": 571740,
+     "name": "Billy Hamilton"
+    },
+    {
+     "id": 571740,
+     "name": "Billy Hamilton"
+    },
+    {
+     "id": 571740,
+     "name": "Billy Hamilton"
+    },
+    {
+     "id": 609275,
+     "name": "Adalberto Mondesi"
+    }
+   ],
+   "seasons": [
+    2015,
+    2017,
+    2014,
+    2019
+   ],
+   "text": "Just four hitters of the 2010s stole 40+ bases with an on-base under .300 (400+ PA): Billy Hamilton (2015, 57 SB, .274 OBP); Billy Hamilton (2017, 59 SB, .299 OBP); Billy Hamilton (2014, 56 SB, .292 OBP); Adalberto Mondesi (2019, 43 SB, .291 OBP)."
+  },
+  {
+   "n": 21,
+   "rule": "cg_many",
+   "group": "P",
+   "decade": 2010,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 448306,
+     "name": "James Shields",
+     "team": "Tampa Bay Rays",
+     "age": 29,
+     "W": 16,
+     "L": 12,
+     "ERA": 2.82,
+     "IP": "249.1",
+     "SO": 225,
+     "BB": 65,
+     "SV": 0,
+     "GS": 33,
+     "CG": 11,
+     "SHO": 4,
+     "HRA": 26,
+     "WHIP": 1.04
+    },
+    {
+     "season": 2010,
+     "id": 136880,
+     "name": "Roy Halladay",
+     "team": "Philadelphia Phillies",
+     "age": 33,
+     "W": 21,
+     "L": 10,
+     "ERA": 2.44,
+     "IP": "250.2",
+     "SO": 219,
+     "BB": 30,
+     "SV": 0,
+     "GS": 33,
+     "CG": 9,
+     "SHO": 4,
+     "HRA": 24,
+     "WHIP": 1.04
+    },
+    {
+     "season": 2011,
+     "id": 136880,
+     "name": "Roy Halladay",
+     "team": "Philadelphia Phillies",
+     "age": 34,
+     "W": 19,
+     "L": 6,
+     "ERA": 2.35,
+     "IP": "233.2",
+     "SO": 220,
+     "BB": 35,
+     "SV": 0,
+     "GS": 32,
+     "CG": 8,
+     "SHO": 1,
+     "HRA": 10,
+     "WHIP": 1.04
+    }
+   ],
+   "kind": "few",
+   "score": 6.275,
+   "players": [
+    {
+     "id": 448306,
+     "name": "James Shields"
+    },
+    {
+     "id": 136880,
+     "name": "Roy Halladay"
+    },
+    {
+     "id": 136880,
+     "name": "Roy Halladay"
+    }
+   ],
+   "seasons": [
+    2011,
+    2010,
+    2011
+   ],
+   "text": "Just three pitchers of the 2010s completed 8+ games: James Shields (2011, 11 CG); Roy Halladay (2010, 9 CG); Roy Halladay (2011, 8 CG)."
+  },
+  {
+   "n": 22,
+   "rule": "k_no_wins",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      200
+     ],
+     [
+      "W",
+      "lte",
+      8
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 506433,
+     "name": "Yu Darvish",
+     "team": "Chicago Cubs",
+     "age": 32,
+     "W": 6,
+     "L": 8,
+     "ERA": 3.98,
+     "IP": "178.2",
+     "SO": 229,
+     "BB": 56,
+     "SV": 0,
+     "GS": 31,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 33,
+     "WHIP": 1.1
+    },
+    {
+     "season": 2019,
+     "id": 519242,
+     "name": "Chris Sale",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "W": 6,
+     "L": 11,
+     "ERA": 4.4,
+     "IP": "147.1",
+     "SO": 218,
+     "BB": 37,
+     "SV": 0,
+     "GS": 25,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 24,
+     "WHIP": 1.09
+    },
+    {
+     "season": 2012,
+     "id": 424324,
+     "name": "Cliff Lee",
+     "team": "Philadelphia Phillies",
+     "age": 33,
+     "W": 6,
+     "L": 9,
+     "ERA": 3.16,
+     "IP": "211.0",
+     "SO": 207,
+     "BB": 28,
+     "SV": 0,
+     "GS": 30,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 26,
+     "WHIP": 1.11
+    },
+    {
+     "season": 2016,
+     "id": 501381,
+     "name": "Michael Pineda",
+     "team": "New York Yankees",
+     "age": 27,
+     "W": 6,
+     "L": 12,
+     "ERA": 4.82,
+     "IP": "175.2",
+     "SO": 207,
+     "BB": 53,
+     "SV": 0,
+     "GS": 32,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 27,
+     "WHIP": 1.35
+    },
+    {
+     "season": 2016,
+     "id": 592662,
+     "name": "Robbie Ray",
+     "team": "Arizona Diamondbacks",
+     "age": 24,
+     "W": 8,
+     "L": 15,
+     "ERA": 4.9,
+     "IP": "174.1",
+     "SO": 218,
+     "BB": 71,
+     "SV": 0,
+     "GS": 32,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 1.47
+    },
+    {
+     "season": 2013,
+     "id": 502188,
+     "name": "Jeff Samardzija",
+     "team": "Chicago Cubs",
+     "age": 28,
+     "W": 8,
+     "L": 13,
+     "ERA": 4.34,
+     "IP": "213.2",
+     "SO": 214,
+     "BB": 78,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 25,
+     "WHIP": 1.35
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 506433,
+     "name": "Yu Darvish"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "9 times in the 2010s a pitcher struck out 200 and won 8 games or fewer. The most extreme: Yu Darvish, 2019 — 229 K, 6-8."
+  },
+  {
+   "n": 23,
+   "rule": "closer_100k",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      35
+     ],
+     [
+      "SO",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2018,
+     "id": 621242,
+     "name": "Edwin Díaz",
+     "team": "Seattle Mariners",
+     "age": 24,
+     "W": 0,
+     "L": 4,
+     "ERA": 1.96,
+     "IP": "73.1",
+     "SO": 124,
+     "BB": 17,
+     "SV": 57,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.79
+    },
+    {
+     "season": 2010,
+     "id": 461791,
+     "name": "Carlos Marmol",
+     "team": "Chicago Cubs",
+     "age": 27,
+     "W": 2,
+     "L": 3,
+     "ERA": 2.55,
+     "IP": "77.2",
+     "SO": 138,
+     "BB": 52,
+     "SV": 38,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 1,
+     "WHIP": 1.18
+    },
+    {
+     "season": 2019,
+     "id": 623352,
+     "name": "Josh Hader",
+     "team": "Milwaukee Brewers",
+     "age": 25,
+     "W": 3,
+     "L": 5,
+     "ERA": 2.62,
+     "IP": "75.2",
+     "SO": 138,
+     "BB": 20,
+     "SV": 37,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 15,
+     "WHIP": 0.81
+    },
+    {
+     "season": 2011,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Atlanta Braves",
+     "age": 23,
+     "W": 4,
+     "L": 3,
+     "ERA": 2.1,
+     "IP": "77.0",
+     "SO": 127,
+     "BB": 32,
+     "SV": 46,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.04
+    },
+    {
+     "season": 2017,
+     "id": 608349,
+     "name": "Corey Knebel",
+     "team": "Milwaukee Brewers",
+     "age": 25,
+     "W": 1,
+     "L": 4,
+     "ERA": 1.78,
+     "IP": "76.0",
+     "SO": 126,
+     "BB": 40,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.16
+    },
+    {
+     "season": 2017,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "W": 5,
+     "L": 0,
+     "ERA": 1.43,
+     "IP": "69.0",
+     "SO": 126,
+     "BB": 14,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 0.68
+    }
+   ],
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 621242,
+     "name": "Edwin Díaz"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "18 times in the 2010s a pitcher saved 35 games and struck out 100. The most extreme: Edwin Díaz, 2018 — 57 SV, 124 K in 73.1 IP."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "lowest_avg_100rbi",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 434158,
+     "name": "Curtis Granderson"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 434158,
+     "name": "Curtis Granderson",
+     "team": "New York Yankees",
+     "age": 31,
+     "PA": 684,
+     "AVG": 0.232,
+     "OBP": 0.319,
+     "SLG": 0.492,
+     "OPS": 0.811,
+     "HR": 43,
+     "RBI": 106,
+     "R": 102,
+     "H": 138,
+     "2B": 18,
+     "3B": 4,
+     "SB": 10,
+     "CS": 3,
+     "BB": 75,
+     "SO": 195,
+     "HBP": 5,
+     "GIDP": 5
+    }
+   ],
+   "among": 184,
+   "text": "Lowest average by any 100-RBI hitter of the 2010s: Curtis Granderson, 2012 — .232 with 106 RBI."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 518692,
+     "name": "Freddie Freeman"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2016,
+     "id": 518692,
+     "name": "Freddie Freeman",
+     "team": "Atlanta Braves",
+     "age": 26,
+     "PA": 693,
+     "AVG": 0.302,
+     "OBP": 0.4,
+     "SLG": 0.569,
+     "OPS": 0.969,
+     "HR": 34,
+     "RBI": 91,
+     "R": 102,
+     "H": 178,
+     "2B": 43,
+     "3B": 6,
+     "SB": 6,
+     "CS": 1,
+     "BB": 89,
+     "SO": 171,
+     "HBP": 10,
+     "GIDP": 12
+    }
+   ],
+   "among": 222,
+   "text": "Most strikeouts by a .300 hitter of the 2010s: Freddie Freeman, 2016 — 171 K while batting .302."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "most_sb_30hr",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 545361,
+     "name": "Mike Trout"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 545361,
+     "name": "Mike Trout",
+     "team": "Los Angeles Angels",
+     "age": 20,
+     "PA": 639,
+     "AVG": 0.326,
+     "OBP": 0.399,
+     "SLG": 0.564,
+     "OPS": 0.963,
+     "HR": 30,
+     "RBI": 83,
+     "R": 129,
+     "H": 182,
+     "2B": 27,
+     "3B": 8,
+     "SB": 49,
+     "CS": 5,
+     "BB": 67,
+     "SO": 139,
+     "HBP": 6,
+     "GIDP": 7
+    }
+   ],
+   "among": 278,
+   "text": "Most steals by a 30-homer hitter of the 2010s: Mike Trout, 2012 — 49 SB with 30 HR."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "most_hr_low_rbi",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 592669,
+     "name": "Hunter Renfroe"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 592669,
+     "name": "Hunter Renfroe",
+     "team": "San Diego Padres",
+     "age": 27,
+     "PA": 494,
+     "AVG": 0.216,
+     "OBP": 0.289,
+     "SLG": 0.489,
+     "OPS": 0.778,
+     "HR": 33,
+     "RBI": 64,
+     "R": 64,
+     "H": 95,
+     "2B": 19,
+     "3B": 1,
+     "SB": 5,
+     "CS": 0,
+     "BB": 46,
+     "SO": 154,
+     "HBP": 2,
+     "GIDP": 6
+    }
+   ],
+   "among": 495,
+   "text": "Most home runs per RBI of the 2010s: Hunter Renfroe, 2019 — 33 HR but only 64 RBI."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "fewest_k_30hr",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 400121,
+     "name": "Victor Martinez"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2014,
+     "id": 400121,
+     "name": "Victor Martinez",
+     "team": "Detroit Tigers",
+     "age": 35,
+     "PA": 641,
+     "AVG": 0.335,
+     "OBP": 0.409,
+     "SLG": 0.565,
+     "OPS": 0.974,
+     "HR": 32,
+     "RBI": 103,
+     "R": 87,
+     "H": 188,
+     "2B": 33,
+     "3B": 0,
+     "SB": 3,
+     "CS": 2,
+     "BB": 70,
+     "SO": 42,
+     "HBP": 4,
+     "GIDP": 17
+    }
+   ],
+   "among": 278,
+   "text": "Fewest strikeouts by a 30-homer hitter of the 2010s: Victor Martinez, 2014 — 42 K with 32 HR."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "highest_avg_low_hr",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 543829,
+     "name": "Dee Strange-Gordon"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2017,
+     "id": 543829,
+     "name": "Dee Strange-Gordon",
+     "team": "Miami Marlins",
+     "age": 29,
+     "PA": 695,
+     "AVG": 0.308,
+     "OBP": 0.341,
+     "SLG": 0.375,
+     "OPS": 0.716,
+     "HR": 2,
+     "RBI": 33,
+     "R": 114,
+     "H": 201,
+     "2B": 20,
+     "3B": 9,
+     "SB": 60,
+     "CS": 16,
+     "BB": 25,
+     "SO": 93,
+     "HBP": 10,
+     "GIDP": 7
+    }
+   ],
+   "among": 43,
+   "text": "Highest average by a hitter with 3 homers or fewer: Dee Strange-Gordon, 2017 — .308 with 2 HR."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "most_bb_low_avg",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 656555,
+     "name": "Rhys Hoskins"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 656555,
+     "name": "Rhys Hoskins",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "PA": 705,
+     "AVG": 0.226,
+     "OBP": 0.364,
+     "SLG": 0.454,
+     "OPS": 0.818,
+     "HR": 29,
+     "RBI": 85,
+     "R": 86,
+     "H": 129,
+     "2B": 33,
+     "3B": 5,
+     "SB": 2,
+     "CS": 2,
+     "BB": 116,
+     "SO": 173,
+     "HBP": 11,
+     "GIDP": 10
+    }
+   ],
+   "among": 166,
+   "text": "Most walks by a sub-.240 hitter of the 2010s: Rhys Hoskins, 2019 — 116 BB while batting .226."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "most_rbi_per_hr",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 276545,
+     "name": "Michael Young"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 276545,
+     "name": "Michael Young",
+     "team": "Texas Rangers",
+     "age": 34,
+     "PA": 689,
+     "AVG": 0.338,
+     "OBP": 0.38,
+     "SLG": 0.474,
+     "OPS": 0.854,
+     "HR": 11,
+     "RBI": 106,
+     "R": 88,
+     "H": 213,
+     "2B": 41,
+     "3B": 6,
+     "SB": 6,
+     "CS": 2,
+     "BB": 47,
+     "SO": 78,
+     "HBP": 2,
+     "GIDP": 17
+    }
+   ],
+   "among": 184,
+   "text": "Most RBI per home run among 100-RBI seasons: Michael Young, 2011 — 106 RBI on 11 HR."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "most_wins_bad_era",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 519144,
+     "name": "Rick Porcello"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 519144,
+     "name": "Rick Porcello",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "W": 14,
+     "L": 12,
+     "ERA": 5.52,
+     "IP": "174.1",
+     "SO": 143,
+     "BB": 45,
+     "SV": 0,
+     "GS": 32,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 31,
+     "WHIP": 1.39
+    }
+   ],
+   "among": 197,
+   "text": "Most wins by a pitcher with an ERA over 5.00: Rick Porcello, 2019 — 14-12 with a 5.52 ERA."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "fewest_wins_low_era",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 502188,
+     "name": "Jeff Samardzija"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2014,
+     "id": 502188,
+     "name": "Jeff Samardzija",
+     "team": "Oakland Athletics",
+     "age": 29,
+     "W": 7,
+     "L": 13,
+     "ERA": 2.99,
+     "IP": "219.2",
+     "SO": 202,
+     "BB": 43,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 20,
+     "WHIP": 1.07
+    }
+   ],
+   "among": 123,
+   "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Jeff Samardzija, 2014 — 7-13 despite a 2.99 ERA."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "most_k_losing",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 545333,
+     "name": "Trevor Bauer"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 545333,
+     "name": "Trevor Bauer",
+     "team": "Cincinnati Reds",
+     "age": 28,
+     "W": 11,
+     "L": 13,
+     "ERA": 4.48,
+     "IP": "213.0",
+     "SO": 253,
+     "BB": 82,
+     "SV": 0,
+     "GS": 34,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 34,
+     "WHIP": 1.25
+    }
+   ],
+   "among": 2739,
+   "text": "Most strikeouts by a pitcher with a losing record: Trevor Bauer, 2019 — 253 K, 11-13."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 571946,
+     "name": "Shelby Miller"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2015,
+     "id": 571946,
+     "name": "Shelby Miller",
+     "team": "Atlanta Braves",
+     "age": 24,
+     "W": 6,
+     "L": 17,
+     "ERA": 3.02,
+     "IP": "205.1",
+     "SO": 171,
+     "BB": 73,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 2,
+     "HRA": 13,
+     "WHIP": 1.25
+    }
+   ],
+   "among": 343,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Shelby Miller, 2015 — 6-17 with a 3.02 ERA."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "fewest_k_20w",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 450308,
+     "name": "Jered Weaver"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 450308,
+     "name": "Jered Weaver",
+     "team": "Los Angeles Angels",
+     "age": 29,
+     "W": 20,
+     "L": 5,
+     "ERA": 2.81,
+     "IP": "188.2",
+     "SO": 142,
+     "BB": 45,
+     "SV": 0,
+     "GS": 30,
+     "CG": 3,
+     "SHO": 2,
+     "HRA": 20,
+     "WHIP": 1.02
+    }
+   ],
+   "among": 23,
+   "text": "Fewest strikeouts by a 20-game winner of the 2010s: Jered Weaver, 2012 — 142 K, 20-5."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "most_ip_no_cg",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 433587,
+     "name": "Félix Hernández"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2014,
+     "id": 433587,
+     "name": "Félix Hernández",
+     "team": "Seattle Mariners",
+     "age": 28,
+     "W": 15,
+     "L": 6,
+     "ERA": 2.14,
+     "IP": "236.0",
+     "SO": 248,
+     "BB": 46,
+     "SV": 0,
+     "GS": 34,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 16,
+     "WHIP": 0.92
+    }
+   ],
+   "among": 6579,
+   "text": "Most innings in a season without a complete game: Félix Hernández, 2014 — 236.0 IP, 0 CG."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_hra",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 276520,
+     "name": "Bronson Arroyo"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 276520,
+     "name": "Bronson Arroyo",
+     "team": "Cincinnati Reds",
+     "age": 34,
+     "W": 9,
+     "L": 12,
+     "ERA": 5.07,
+     "IP": "199.0",
+     "SO": 108,
+     "BB": 45,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 46,
+     "WHIP": 1.37
+    }
+   ],
+   "among": 7192,
+   "text": "Most home runs allowed in a season this decade: Bronson Arroyo, 2011 — 46 HR allowed, 9-12."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_bb_winner",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 450351,
+     "name": "C.J. Wilson"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 450351,
+     "name": "C.J. Wilson",
+     "team": "Texas Rangers",
+     "age": 29,
+     "W": 15,
+     "L": 8,
+     "ERA": 3.35,
+     "IP": "204.0",
+     "SO": 170,
+     "BB": 93,
+     "SV": 0,
+     "GS": 33,
+     "CG": 3,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 1.25
+    }
+   ],
+   "among": 201,
+   "text": "Most walks by a 15-game winner: C.J. Wilson, 2010 — 93 BB, 15-8."
+  },
+  {
+   "n": 40,
+   "kind": "nearmiss",
+   "rule": "HR29",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 430001,
+     "name": "Rickie Weeks Jr."
+    },
+    {
+     "id": 543807,
+     "name": "George Springer"
+    },
+    {
+     "id": 458015,
+     "name": "Joey Votto"
+    }
+   ],
+   "seasons": [
+    2010,
+    2016,
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 430001,
+     "name": "Rickie Weeks Jr.",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "PA": 754,
+     "AVG": 0.269,
+     "OBP": 0.366,
+     "SLG": 0.464,
+     "OPS": 0.83,
+     "HR": 29,
+     "RBI": 83,
+     "R": 112,
+     "H": 175,
+     "2B": 32,
+     "3B": 4,
+     "SB": 11,
+     "CS": 4,
+     "BB": 76,
+     "SO": 184,
+     "HBP": 25,
+     "GIDP": 5
+    },
+    {
+     "season": 2016,
+     "id": 543807,
+     "name": "George Springer",
+     "team": "Houston Astros",
+     "age": 26,
+     "PA": 744,
+     "AVG": 0.261,
+     "OBP": 0.359,
+     "SLG": 0.457,
+     "OPS": 0.816,
+     "HR": 29,
+     "RBI": 82,
+     "R": 116,
+     "H": 168,
+     "2B": 29,
+     "3B": 5,
+     "SB": 9,
+     "CS": 10,
+     "BB": 88,
+     "SO": 178,
+     "HBP": 11,
+     "GIDP": 12
+    },
+    {
+     "season": 2011,
+     "id": 458015,
+     "name": "Joey Votto",
+     "team": "Cincinnati Reds",
+     "age": 27,
+     "PA": 719,
+     "AVG": 0.309,
+     "OBP": 0.416,
+     "SLG": 0.531,
+     "OPS": 0.947,
+     "HR": 29,
+     "RBI": 103,
+     "R": 101,
+     "H": 185,
+     "2B": 40,
+     "3B": 3,
+     "SB": 8,
+     "CS": 6,
+     "BB": 110,
+     "SO": 129,
+     "HBP": 4,
+     "GIDP": 20
+    },
+    {
+     "season": 2019,
+     "id": 605141,
+     "name": "Mookie Betts",
+     "team": "Boston Red Sox",
+     "age": 26,
+     "PA": 706,
+     "AVG": 0.295,
+     "OBP": 0.391,
+     "SLG": 0.524,
+     "OPS": 0.915,
+     "HR": 29,
+     "RBI": 80,
+     "R": 135,
+     "H": 176,
+     "2B": 40,
+     "3B": 5,
+     "SB": 16,
+     "CS": 3,
+     "BB": 97,
+     "SO": 101,
+     "HBP": 3,
+     "GIDP": 11
+    },
+    {
+     "season": 2019,
+     "id": 656555,
+     "name": "Rhys Hoskins",
+     "team": "Philadelphia Phillies",
+     "age": 26,
+     "PA": 705,
+     "AVG": 0.226,
+     "OBP": 0.364,
+     "SLG": 0.454,
+     "OPS": 0.818,
+     "HR": 29,
+     "RBI": 85,
+     "R": 86,
+     "H": 129,
+     "2B": 33,
+     "3B": 5,
+     "SB": 2,
+     "CS": 2,
+     "BB": 116,
+     "SO": 173,
+     "HBP": 11,
+     "GIDP": 10
+    },
+    {
+     "season": 2010,
+     "id": 429664,
+     "name": "Robinson Canó",
+     "team": "New York Yankees",
+     "age": 27,
+     "PA": 696,
+     "AVG": 0.319,
+     "OBP": 0.381,
+     "SLG": 0.534,
+     "OPS": 0.915,
+     "HR": 29,
+     "RBI": 109,
+     "R": 103,
+     "H": 200,
+     "2B": 41,
+     "3B": 3,
+     "SB": 3,
+     "CS": 2,
+     "BB": 57,
+     "SO": 77,
+     "HBP": 8,
+     "GIDP": 19
+    }
+   ],
+   "text": "36 hitter-seasons of the 2010s ended on exactly 29 home runs, one short of 30 — among them Rickie Weeks Jr. (2010), George Springer (2016), Joey Votto (2011)."
+  },
+  {
+   "n": 41,
+   "kind": "nearmiss",
+   "rule": "RBI99",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 518626,
+     "name": "Josh Donaldson"
+    },
+    {
+     "id": 572821,
+     "name": "Brian Dozier"
+    },
+    {
+     "id": 452254,
+     "name": "Hunter Pence"
+    }
+   ],
+   "seasons": [
+    2016,
+    2016,
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2016,
+     "id": 518626,
+     "name": "Josh Donaldson",
+     "team": "Toronto Blue Jays",
+     "age": 30,
+     "PA": 700,
+     "AVG": 0.284,
+     "OBP": 0.404,
+     "SLG": 0.549,
+     "OPS": 0.953,
+     "HR": 37,
+     "RBI": 99,
+     "R": 122,
+     "H": 164,
+     "2B": 32,
+     "3B": 5,
+     "SB": 7,
+     "CS": 1,
+     "BB": 109,
+     "SO": 119,
+     "HBP": 9,
+     "GIDP": 16
+    },
+    {
+     "season": 2016,
+     "id": 572821,
+     "name": "Brian Dozier",
+     "team": "Minnesota Twins",
+     "age": 29,
+     "PA": 691,
+     "AVG": 0.268,
+     "OBP": 0.34,
+     "SLG": 0.546,
+     "OPS": 0.886,
+     "HR": 42,
+     "RBI": 99,
+     "R": 104,
+     "H": 165,
+     "2B": 35,
+     "3B": 5,
+     "SB": 18,
+     "CS": 2,
+     "BB": 61,
+     "SO": 138,
+     "HBP": 8,
+     "GIDP": 12
+    },
+    {
+     "season": 2013,
+     "id": 452254,
+     "name": "Hunter Pence",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "PA": 687,
+     "AVG": 0.283,
+     "OBP": 0.339,
+     "SLG": 0.483,
+     "OPS": 0.822,
+     "HR": 27,
+     "RBI": 99,
+     "R": 91,
+     "H": 178,
+     "2B": 35,
+     "3B": 5,
+     "SB": 22,
+     "CS": 3,
+     "BB": 52,
+     "SO": 115,
+     "HBP": 3,
+     "GIDP": 17
+    },
+    {
+     "season": 2018,
+     "id": 476704,
+     "name": "Jed Lowrie",
+     "team": "Oakland Athletics",
+     "age": 34,
+     "PA": 680,
+     "AVG": 0.267,
+     "OBP": 0.353,
+     "SLG": 0.448,
+     "OPS": 0.801,
+     "HR": 23,
+     "RBI": 99,
+     "R": 78,
+     "H": 159,
+     "2B": 37,
+     "3B": 1,
+     "SB": 0,
+     "CS": 0,
+     "BB": 78,
+     "SO": 128,
+     "HBP": 3,
+     "GIDP": 8
+    },
+    {
+     "season": 2016,
+     "id": 572122,
+     "name": "Kyle Seager",
+     "team": "Seattle Mariners",
+     "age": 28,
+     "PA": 676,
+     "AVG": 0.278,
+     "OBP": 0.359,
+     "SLG": 0.499,
+     "OPS": 0.858,
+     "HR": 30,
+     "RBI": 99,
+     "R": 89,
+     "H": 166,
+     "2B": 36,
+     "3B": 3,
+     "SB": 3,
+     "CS": 1,
+     "BB": 69,
+     "SO": 108,
+     "HBP": 8,
+     "GIDP": 18
+    },
+    {
+     "season": 2019,
+     "id": 543333,
+     "name": "Eric Hosmer",
+     "team": "San Diego Padres",
+     "age": 29,
+     "PA": 667,
+     "AVG": 0.265,
+     "OBP": 0.31,
+     "SLG": 0.425,
+     "OPS": 0.735,
+     "HR": 22,
+     "RBI": 99,
+     "R": 72,
+     "H": 164,
+     "2B": 29,
+     "3B": 2,
+     "SB": 0,
+     "CS": 3,
+     "BB": 40,
+     "SO": 163,
+     "HBP": 3,
+     "GIDP": 12
+    }
+   ],
+   "text": "13 hitter-seasons of the 2010s ended on exactly 99 RBI, one short of 100 — among them Josh Donaldson (2016), Brian Dozier (2016), Hunter Pence (2013)."
+  },
+  {
+   "n": 42,
+   "kind": "nearmiss",
+   "rule": "SV39",
+   "group": "P",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 608349,
+     "name": "Corey Knebel"
+    },
+    {
+     "id": 449097,
+     "name": "Jonathan Papelbon"
+    },
+    {
+     "id": 518553,
+     "name": "Steve Cishek"
+    }
+   ],
+   "seasons": [
+    2017,
+    2014,
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2017,
+     "id": 608349,
+     "name": "Corey Knebel",
+     "team": "Milwaukee Brewers",
+     "age": 25,
+     "W": 1,
+     "L": 4,
+     "ERA": 1.78,
+     "IP": "76.0",
+     "SO": 126,
+     "BB": 40,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.16
+    },
+    {
+     "season": 2014,
+     "id": 449097,
+     "name": "Jonathan Papelbon",
+     "team": "Philadelphia Phillies",
+     "age": 33,
+     "W": 2,
+     "L": 3,
+     "ERA": 2.04,
+     "IP": "66.1",
+     "SO": 63,
+     "BB": 15,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 2,
+     "WHIP": 0.9
+    },
+    {
+     "season": 2014,
+     "id": 518553,
+     "name": "Steve Cishek",
+     "team": "Miami Marlins",
+     "age": 28,
+     "W": 4,
+     "L": 5,
+     "ERA": 3.17,
+     "IP": "65.1",
+     "SO": 84,
+     "BB": 21,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.21
+    },
+    {
+     "season": 2014,
+     "id": 502085,
+     "name": "David Robertson",
+     "team": "New York Yankees",
+     "age": 29,
+     "W": 4,
+     "L": 5,
+     "ERA": 3.08,
+     "IP": "64.1",
+     "SO": 96,
+     "BB": 23,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.06
+    },
+    {
+     "season": 2017,
+     "id": 532077,
+     "name": "Roberto Osuna",
+     "team": "Toronto Blue Jays",
+     "age": 22,
+     "W": 3,
+     "L": 4,
+     "ERA": 3.38,
+     "IP": "64.0",
+     "SO": 83,
+     "BB": 9,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 0.86
+    },
+    {
+     "season": 2015,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "San Diego Padres",
+     "age": 27,
+     "W": 4,
+     "L": 2,
+     "ERA": 2.58,
+     "IP": "59.1",
+     "SO": 87,
+     "BB": 22,
+     "SV": 39,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.04
+    }
+   ],
+   "text": "8 pitcher-seasons of the 2010s ended on exactly 39 saves, one short of 40 — among them Corey Knebel (2017), Jonathan Papelbon (2014), Steve Cishek (2014)."
+  },
+  {
+   "n": 43,
+   "kind": "streak",
+   "rule": "H200",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 514888,
+     "name": "Jose Altuve"
+    }
+   ],
+   "seasons": [
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2014,
+     "id": 514888,
+     "name": "Jose Altuve",
+     "team": "Houston Astros",
+     "age": 24,
+     "PA": 707,
+     "AVG": 0.341,
+     "OBP": 0.377,
+     "SLG": 0.453,
+     "OPS": 0.83,
+     "HR": 7,
+     "RBI": 59,
+     "R": 85,
+     "H": 225,
+     "2B": 47,
+     "3B": 3,
+     "SB": 56,
+     "CS": 9,
+     "BB": 36,
+     "SO": 53,
+     "HBP": 5,
+     "GIDP": 20
+    },
+    {
+     "season": 2015,
+     "id": 514888,
+     "name": "Jose Altuve",
+     "team": "Houston Astros",
+     "age": 25,
+     "PA": 689,
+     "AVG": 0.313,
+     "OBP": 0.353,
+     "SLG": 0.459,
+     "OPS": 0.812,
+     "HR": 15,
+     "RBI": 66,
+     "R": 86,
+     "H": 200,
+     "2B": 40,
+     "3B": 4,
+     "SB": 38,
+     "CS": 13,
+     "BB": 33,
+     "SO": 67,
+     "HBP": 9,
+     "GIDP": 17
+    },
+    {
+     "season": 2016,
+     "id": 514888,
+     "name": "Jose Altuve",
+     "team": "Houston Astros",
+     "age": 26,
+     "PA": 717,
+     "AVG": 0.338,
+     "OBP": 0.396,
+     "SLG": 0.531,
+     "OPS": 0.927,
+     "HR": 24,
+     "RBI": 96,
+     "R": 108,
+     "H": 216,
+     "2B": 42,
+     "3B": 5,
+     "SB": 30,
+     "CS": 10,
+     "BB": 60,
+     "SO": 70,
+     "HBP": 7,
+     "GIDP": 15
+    },
+    {
+     "season": 2017,
+     "id": 514888,
+     "name": "Jose Altuve",
+     "team": "Houston Astros",
+     "age": 27,
+     "PA": 662,
+     "AVG": 0.346,
+     "OBP": 0.41,
+     "SLG": 0.547,
+     "OPS": 0.957,
+     "HR": 24,
+     "RBI": 81,
+     "R": 112,
+     "H": 204,
+     "2B": 39,
+     "3B": 4,
+     "SB": 32,
+     "CS": 6,
+     "BB": 58,
+     "SO": 84,
+     "HBP": 9,
+     "GIDP": 19
+    }
+   ],
+   "text": "Jose Altuve collected 200+ hits in 4 straight seasons (2014-17), the longest run of the 2010s."
+  },
+  {
+   "n": 44,
+   "kind": "streak",
+   "rule": "BB100",
+   "group": "H",
+   "decade": 2010,
+   "score": 6,
+   "players": [
+    {
+     "id": 458015,
+     "name": "Joey Votto"
+    }
+   ],
+   "seasons": [
+    2015,
+    2016,
+    2017,
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2015,
+     "id": 458015,
+     "name": "Joey Votto",
+     "team": "Cincinnati Reds",
+     "age": 31,
+     "PA": 695,
+     "AVG": 0.314,
+     "OBP": 0.459,
+     "SLG": 0.541,
+     "OPS": 1,
+     "HR": 29,
+     "RBI": 80,
+     "R": 95,
+     "H": 171,
+     "2B": 33,
+     "3B": 2,
+     "SB": 11,
+     "CS": 3,
+     "BB": 143,
+     "SO": 135,
+     "HBP": 5,
+     "GIDP": 11
+    },
+    {
+     "season": 2016,
+     "id": 458015,
+     "name": "Joey Votto",
+     "team": "Cincinnati Reds",
+     "age": 32,
+     "PA": 677,
+     "AVG": 0.326,
+     "OBP": 0.434,
+     "SLG": 0.55,
+     "OPS": 0.984,
+     "HR": 29,
+     "RBI": 97,
+     "R": 101,
+     "H": 181,
+     "2B": 34,
+     "3B": 2,
+     "SB": 8,
+     "CS": 1,
+     "BB": 108,
+     "SO": 120,
+     "HBP": 5,
+     "GIDP": 16
+    },
+    {
+     "season": 2017,
+     "id": 458015,
+     "name": "Joey Votto",
+     "team": "Cincinnati Reds",
+     "age": 33,
+     "PA": 707,
+     "AVG": 0.32,
+     "OBP": 0.454,
+     "SLG": 0.578,
+     "OPS": 1.032,
+     "HR": 36,
+     "RBI": 100,
+     "R": 106,
+     "H": 179,
+     "2B": 34,
+     "3B": 1,
+     "SB": 5,
+     "CS": 1,
+     "BB": 134,
+     "SO": 83,
+     "HBP": 8,
+     "GIDP": 16
+    },
+    {
+     "season": 2018,
+     "id": 458015,
+     "name": "Joey Votto",
+     "team": "Cincinnati Reds",
+     "age": 34,
+     "PA": 623,
+     "AVG": 0.284,
+     "OBP": 0.417,
+     "SLG": 0.419,
+     "OPS": 0.836,
+     "HR": 12,
+     "RBI": 67,
+     "R": 67,
+     "H": 143,
+     "2B": 28,
+     "3B": 2,
+     "SB": 2,
+     "CS": 0,
+     "BB": 108,
+     "SO": 101,
+     "HBP": 9,
+     "GIDP": 15
+    }
+   ],
+   "text": "Joey Votto drew 100+ walks in 4 straight seasons (2015-18), the longest run of the 2010s."
+  },
+  {
+   "n": 45,
+   "kind": "team",
+   "rule": "100w",
+   "group": "T",
+   "decade": 2010,
+   "score": 6,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 111,
+     "name": "Red Sox",
+     "wins": 108,
+     "losses": 54,
+     "runsScored": 876,
+     "runsAllowed": 647,
+     "runDifferential": 229,
+     "leagueRank": 1,
+     "season": 2018
+    },
+    {
+     "id": 117,
+     "name": "Astros",
+     "wins": 107,
+     "losses": 55,
+     "runsScored": 920,
+     "runsAllowed": 640,
+     "runDifferential": 280,
+     "leagueRank": 1,
+     "season": 2019
+    },
+    {
+     "id": 119,
+     "name": "Dodgers",
+     "wins": 106,
+     "losses": 56,
+     "runsScored": 886,
+     "runsAllowed": 613,
+     "runDifferential": 273,
+     "leagueRank": 1,
+     "season": 2019
+    },
+    {
+     "id": 119,
+     "name": "Dodgers",
+     "wins": 104,
+     "losses": 58,
+     "runsScored": 770,
+     "runsAllowed": 580,
+     "runDifferential": 190,
+     "leagueRank": 1,
+     "season": 2017
+    },
+    {
+     "id": 112,
+     "name": "Cubs",
+     "wins": 103,
+     "losses": 58,
+     "runsScored": 808,
+     "runsAllowed": 556,
+     "runDifferential": 252,
+     "leagueRank": 1,
+     "season": 2016
+    },
+    {
+     "id": 117,
+     "name": "Astros",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 797,
+     "runsAllowed": 534,
+     "runDifferential": 263,
+     "leagueRank": 2,
+     "season": 2018
+    }
+   ],
+   "text": "13 teams of the 2010s won 100 games; the best record was the 2018 Red Sox at 108-54."
+  },
+  {
+   "n": 46,
+   "kind": "nearmiss",
+   "rule": "AVG299",
+   "group": "H",
+   "decade": 2010,
+   "score": 5.75,
+   "players": [
+    {
+     "id": 425902,
+     "name": "Prince Fielder"
+    },
+    {
+     "id": 408236,
+     "name": "Adrián González"
+    },
+    {
+     "id": 545361,
+     "name": "Mike Trout"
+    }
+   ],
+   "seasons": [
+    2011,
+    2012,
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 425902,
+     "name": "Prince Fielder",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "PA": 692,
+     "AVG": 0.299,
+     "OBP": 0.415,
+     "SLG": 0.566,
+     "OPS": 0.981,
+     "HR": 38,
+     "RBI": 120,
+     "R": 95,
+     "H": 170,
+     "2B": 36,
+     "3B": 1,
+     "SB": 1,
+     "CS": 1,
+     "BB": 107,
+     "SO": 106,
+     "HBP": 10,
+     "GIDP": 17
+    },
+    {
+     "season": 2012,
+     "id": 408236,
+     "name": "Adrián González",
+     "team": "Los Angeles Dodgers",
+     "age": 30,
+     "PA": 684,
+     "AVG": 0.299,
+     "OBP": 0.344,
+     "SLG": 0.463,
+     "OPS": 0.807,
+     "HR": 18,
+     "RBI": 108,
+     "R": 75,
+     "H": 188,
+     "2B": 47,
+     "3B": 1,
+     "SB": 2,
+     "CS": 0,
+     "BB": 42,
+     "SO": 110,
+     "HBP": 5,
+     "GIDP": 10
+    },
+    {
+     "season": 2015,
+     "id": 545361,
+     "name": "Mike Trout",
+     "team": "Los Angeles Angels",
+     "age": 23,
+     "PA": 682,
+     "AVG": 0.299,
+     "OBP": 0.402,
+     "SLG": 0.59,
+     "OPS": 0.992,
+     "HR": 41,
+     "RBI": 90,
+     "R": 104,
+     "H": 172,
+     "2B": 32,
+     "3B": 6,
+     "SB": 11,
+     "CS": 7,
+     "BB": 92,
+     "SO": 158,
+     "HBP": 10,
+     "GIDP": 11
+    },
+    {
+     "season": 2011,
+     "id": 405395,
+     "name": "Albert Pujols",
+     "team": "St. Louis Cardinals",
+     "age": 31,
+     "PA": 651,
+     "AVG": 0.299,
+     "OBP": 0.366,
+     "SLG": 0.541,
+     "OPS": 0.907,
+     "HR": 37,
+     "RBI": 99,
+     "R": 105,
+     "H": 173,
+     "2B": 29,
+     "3B": 0,
+     "SB": 9,
+     "CS": 1,
+     "BB": 61,
+     "SO": 58,
+     "HBP": 4,
+     "GIDP": 29
+    },
+    {
+     "season": 2013,
+     "id": 425766,
+     "name": "James Loney",
+     "team": "Tampa Bay Rays",
+     "age": 29,
+     "PA": 598,
+     "AVG": 0.299,
+     "OBP": 0.348,
+     "SLG": 0.43,
+     "OPS": 0.778,
+     "HR": 13,
+     "RBI": 75,
+     "R": 54,
+     "H": 164,
+     "2B": 33,
+     "3B": 0,
+     "SB": 3,
+     "CS": 1,
+     "BB": 44,
+     "SO": 77,
+     "HBP": 0,
+     "GIDP": 16
+    },
+    {
+     "season": 2011,
+     "id": 425509,
+     "name": "Jhonny Peralta",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "PA": 576,
+     "AVG": 0.299,
+     "OBP": 0.345,
+     "SLG": 0.478,
+     "OPS": 0.823,
+     "HR": 21,
+     "RBI": 86,
+     "R": 68,
+     "H": 157,
+     "2B": 25,
+     "3B": 3,
+     "SB": 0,
+     "CS": 2,
+     "BB": 40,
+     "SO": 95,
+     "HBP": 2,
+     "GIDP": 17
+    }
+   ],
+   "text": "7 hitter-seasons of the 2010s ended on a .299 average, one point short of .300 — among them Prince Fielder (2011), Adrián González (2012), Mike Trout (2015)."
+  },
+  {
+   "n": 47,
+   "kind": "age",
+   "rule": "age_30hr_old",
+   "group": "H",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 120074,
+     "name": "David Ortiz"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2016,
+     "id": 120074,
+     "name": "David Ortiz",
+     "team": "Boston Red Sox",
+     "age": 40,
+     "PA": 626,
+     "AVG": 0.315,
+     "OBP": 0.401,
+     "SLG": 0.62,
+     "OPS": 1.021,
+     "HR": 38,
+     "RBI": 127,
+     "R": 79,
+     "H": 169,
+     "2B": 48,
+     "3B": 1,
+     "SB": 2,
+     "CS": 0,
+     "BB": 80,
+     "SO": 86,
+     "HBP": 2,
+     "GIDP": 22
+    }
+   ],
+   "text": "Oldest player of the 2010s to hit 30 home runs: David Ortiz, age 40 in 2016 — 38 HR."
+  },
+  {
+   "n": 48,
+   "kind": "age",
+   "rule": "age_330_young",
+   "group": "H",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 547180,
+     "name": "Bryce Harper"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2015,
+     "id": 547180,
+     "name": "Bryce Harper",
+     "team": "Washington Nationals",
+     "age": 22,
+     "PA": 654,
+     "AVG": 0.33,
+     "OBP": 0.46,
+     "SLG": 0.649,
+     "OPS": 1.109,
+     "HR": 42,
+     "RBI": 99,
+     "R": 118,
+     "H": 172,
+     "2B": 38,
+     "3B": 1,
+     "SB": 6,
+     "CS": 4,
+     "BB": 124,
+     "SO": 131,
+     "HBP": 5,
+     "GIDP": 15
+    }
+   ],
+   "text": "Youngest player of the 2010s to bat .330 (500+ PA): Bryce Harper, age 22 in 2015 — .330."
+  },
+  {
+   "n": 49,
+   "kind": "age",
+   "rule": "age_330_old",
+   "group": "H",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 400121,
+     "name": "Victor Martinez"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2014,
+     "id": 400121,
+     "name": "Victor Martinez",
+     "team": "Detroit Tigers",
+     "age": 35,
+     "PA": 641,
+     "AVG": 0.335,
+     "OBP": 0.409,
+     "SLG": 0.565,
+     "OPS": 0.974,
+     "HR": 32,
+     "RBI": 103,
+     "R": 87,
+     "H": 188,
+     "2B": 33,
+     "3B": 0,
+     "SB": 3,
+     "CS": 2,
+     "BB": 70,
+     "SO": 42,
+     "HBP": 4,
+     "GIDP": 17
+    }
+   ],
+   "text": "Oldest player of the 2010s to bat .330 (500+ PA): Victor Martinez, age 35 in 2014 — .335."
+  },
+  {
+   "n": 50,
+   "kind": "age",
+   "rule": "age_100rbi_young",
+   "group": "H",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 665742,
+     "name": "Juan Soto"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 665742,
+     "name": "Juan Soto",
+     "team": "Washington Nationals",
+     "age": 20,
+     "PA": 659,
+     "AVG": 0.282,
+     "OBP": 0.401,
+     "SLG": 0.548,
+     "OPS": 0.949,
+     "HR": 34,
+     "RBI": 110,
+     "R": 110,
+     "H": 153,
+     "2B": 32,
+     "3B": 5,
+     "SB": 12,
+     "CS": 1,
+     "BB": 108,
+     "SO": 132,
+     "HBP": 3,
+     "GIDP": 11
+    }
+   ],
+   "text": "Youngest player of the 2010s to drive in 100 runs: Juan Soto, age 20 in 2019 — 110 RBI."
+  },
+  {
+   "n": 51,
+   "kind": "age",
+   "rule": "age_100rbi_old",
+   "group": "H",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 120074,
+     "name": "David Ortiz"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2016,
+     "id": 120074,
+     "name": "David Ortiz",
+     "team": "Boston Red Sox",
+     "age": 40,
+     "PA": 626,
+     "AVG": 0.315,
+     "OBP": 0.401,
+     "SLG": 0.62,
+     "OPS": 1.021,
+     "HR": 38,
+     "RBI": 127,
+     "R": 79,
+     "H": 169,
+     "2B": 48,
+     "3B": 1,
+     "SB": 2,
+     "CS": 0,
+     "BB": 80,
+     "SO": 86,
+     "HBP": 2,
+     "GIDP": 22
+    }
+   ],
+   "text": "Oldest player of the 2010s to drive in 100 runs: David Ortiz, age 40 in 2016 — 127 RBI."
+  },
+  {
+   "n": 52,
+   "kind": "age",
+   "rule": "age_sb_old",
+   "group": "H",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 400085,
+     "name": "Ichiro Suzuki"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 400085,
+     "name": "Ichiro Suzuki",
+     "team": "Seattle Mariners",
+     "age": 37,
+     "PA": 721,
+     "AVG": 0.272,
+     "OBP": 0.31,
+     "SLG": 0.335,
+     "OPS": 0.645,
+     "HR": 5,
+     "RBI": 47,
+     "R": 80,
+     "H": 184,
+     "2B": 22,
+     "3B": 3,
+     "SB": 40,
+     "CS": 7,
+     "BB": 39,
+     "SO": 69,
+     "HBP": 0,
+     "GIDP": 11
+    }
+   ],
+   "text": "Oldest player of the 2010s to steal 40 bases: Ichiro Suzuki, age 37 in 2011 — 40 SB."
+  },
+  {
+   "n": 53,
+   "kind": "age",
+   "rule": "age_20w_young",
+   "group": "P",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 477132,
+     "name": "Clayton Kershaw"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 477132,
+     "name": "Clayton Kershaw",
+     "team": "Los Angeles Dodgers",
+     "age": 23,
+     "W": 21,
+     "L": 5,
+     "ERA": 2.28,
+     "IP": "233.1",
+     "SO": 248,
+     "BB": 54,
+     "SV": 0,
+     "GS": 33,
+     "CG": 5,
+     "SHO": 2,
+     "HRA": 15,
+     "WHIP": 0.98
+    }
+   ],
+   "text": "Youngest player of the 2010s to win 20 games: Clayton Kershaw, age 23 in 2011 — 21-5."
+  },
+  {
+   "n": 54,
+   "kind": "age",
+   "rule": "age_20w_old",
+   "group": "P",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 285079,
+     "name": "R.A. Dickey"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 285079,
+     "name": "R.A. Dickey",
+     "team": "New York Mets",
+     "age": 37,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.73,
+     "IP": "233.2",
+     "SO": 230,
+     "BB": 54,
+     "SV": 0,
+     "GS": 33,
+     "CG": 5,
+     "SHO": 3,
+     "HRA": 24,
+     "WHIP": 1.05
+    }
+   ],
+   "text": "Oldest player of the 2010s to win 20 games: R.A. Dickey, age 37 in 2012 — 20-6."
+  },
+  {
+   "n": 55,
+   "kind": "age",
+   "rule": "age_k_old",
+   "group": "P",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 285079,
+     "name": "R.A. Dickey"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 285079,
+     "name": "R.A. Dickey",
+     "team": "New York Mets",
+     "age": 37,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.73,
+     "IP": "233.2",
+     "SO": 230,
+     "BB": 54,
+     "SV": 0,
+     "GS": 33,
+     "CG": 5,
+     "SHO": 3,
+     "HRA": 24,
+     "WHIP": 1.05
+    }
+   ],
+   "text": "Oldest player of the 2010s to strike out 200: R.A. Dickey, age 37 in 2012 — 230 K."
+  },
+  {
+   "n": 56,
+   "kind": "age",
+   "rule": "age_era_young",
+   "group": "P",
+   "decade": 2010,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 605228,
+     "name": "José Fernández"
+    }
+   ],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2013,
+     "id": 605228,
+     "name": "José Fernández",
+     "team": "Miami Marlins",
+     "age": 20,
+     "W": 12,
+     "L": 6,
+     "ERA": 2.19,
+     "IP": "172.2",
+     "SO": 187,
+     "BB": 58,
+     "SV": 0,
+     "GS": 28,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 0.98
+    }
+   ],
+   "text": "Youngest player of the 2010s to post a qualified ERA under 2.75: José Fernández, age 20 in 2013 — 2.19 ERA."
+  },
+  {
+   "n": 57,
+   "kind": "nearmiss",
+   "rule": "K199",
+   "group": "P",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 456701,
+     "name": "Homer Bailey"
+    },
+    {
+     "id": 425844,
+     "name": "Zack Greinke"
+    },
+    {
+     "id": 518516,
+     "name": "Madison Bumgarner"
+    }
+   ],
+   "seasons": [
+    2013,
+    2018,
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2013,
+     "id": 456701,
+     "name": "Homer Bailey",
+     "team": "Cincinnati Reds",
+     "age": 27,
+     "W": 11,
+     "L": 12,
+     "ERA": 3.49,
+     "IP": "209.0",
+     "SO": 199,
+     "BB": 54,
+     "SV": 0,
+     "GS": 32,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 20,
+     "WHIP": 1.12
+    },
+    {
+     "season": 2018,
+     "id": 425844,
+     "name": "Zack Greinke",
+     "team": "Arizona Diamondbacks",
+     "age": 34,
+     "W": 15,
+     "L": 11,
+     "ERA": 3.21,
+     "IP": "207.2",
+     "SO": 199,
+     "BB": 43,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 28,
+     "WHIP": 1.08
+    },
+    {
+     "season": 2013,
+     "id": 518516,
+     "name": "Madison Bumgarner",
+     "team": "San Francisco Giants",
+     "age": 23,
+     "W": 13,
+     "L": 9,
+     "ERA": 2.77,
+     "IP": "201.1",
+     "SO": 199,
+     "BB": 62,
+     "SV": 0,
+     "GS": 31,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 15,
+     "WHIP": 1.03
+    },
+    {
+     "season": 2017,
+     "id": 519076,
+     "name": "Jimmy Nelson",
+     "team": "Milwaukee Brewers",
+     "age": 28,
+     "W": 12,
+     "L": 6,
+     "ERA": 3.49,
+     "IP": "175.1",
+     "SO": 199,
+     "BB": 48,
+     "SV": 0,
+     "GS": 29,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 16,
+     "WHIP": 1.25
+    }
+   ],
+   "text": "4 pitcher-seasons of the 2010s ended on exactly 199 strikeouts, one short of 200 — among them Homer Bailey (2013), Zack Greinke (2018), Madison Bumgarner (2013)."
+  },
+  {
+   "n": 58,
+   "kind": "teammates",
+   "rule": "hr_pair",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 571448,
+     "name": "Nolan Arenado"
+    },
+    {
+     "id": 471865,
+     "name": "Carlos González"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2015,
+     "id": 571448,
+     "name": "Nolan Arenado",
+     "team": "Colorado Rockies",
+     "age": 24,
+     "PA": 665,
+     "AVG": 0.287,
+     "OBP": 0.323,
+     "SLG": 0.575,
+     "OPS": 0.898,
+     "HR": 42,
+     "RBI": 130,
+     "R": 97,
+     "H": 177,
+     "2B": 43,
+     "3B": 4,
+     "SB": 2,
+     "CS": 5,
+     "BB": 34,
+     "SO": 110,
+     "HBP": 4,
+     "GIDP": 17
+    },
+    {
+     "season": 2015,
+     "id": 471865,
+     "name": "Carlos González",
+     "team": "Colorado Rockies",
+     "age": 29,
+     "PA": 608,
+     "AVG": 0.271,
+     "OBP": 0.325,
+     "SLG": 0.54,
+     "OPS": 0.865,
+     "HR": 40,
+     "RBI": 97,
+     "R": 87,
+     "H": 150,
+     "2B": 25,
+     "3B": 2,
+     "SB": 2,
+     "CS": 0,
+     "BB": 46,
+     "SO": 133,
+     "HBP": 1,
+     "GIDP": 11
+    }
+   ],
+   "text": "3 teams of the 2010s had two players at 40+ home runs; the biggest pairing was the 2015 Colorado Rockies — Nolan Arenado 42, Carlos González 40."
+  },
+  {
+   "n": 59,
+   "kind": "teammates",
+   "rule": "hits_pair",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 408236,
+     "name": "Adrián González"
+    },
+    {
+     "id": 453056,
+     "name": "Jacoby Ellsbury"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 408236,
+     "name": "Adrián González",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 715,
+     "AVG": 0.338,
+     "OBP": 0.41,
+     "SLG": 0.548,
+     "OPS": 0.958,
+     "HR": 27,
+     "RBI": 117,
+     "R": 108,
+     "H": 213,
+     "2B": 45,
+     "3B": 3,
+     "SB": 1,
+     "CS": 0,
+     "BB": 74,
+     "SO": 119,
+     "HBP": 6,
+     "GIDP": 28
+    },
+    {
+     "season": 2011,
+     "id": 453056,
+     "name": "Jacoby Ellsbury",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 732,
+     "AVG": 0.321,
+     "OBP": 0.376,
+     "SLG": 0.552,
+     "OPS": 0.928,
+     "HR": 32,
+     "RBI": 105,
+     "R": 119,
+     "H": 212,
+     "2B": 46,
+     "3B": 5,
+     "SB": 39,
+     "CS": 15,
+     "BB": 52,
+     "SO": 98,
+     "HBP": 9,
+     "GIDP": 8
+    }
+   ],
+   "text": "2 teams of the 2010s had two players at 200+ hits; the biggest pairing was the 2011 Boston Red Sox — Adrián González 213, Jacoby Ellsbury 212."
+  },
+  {
+   "n": 60,
+   "kind": "teammates",
+   "rule": "sb_pair",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 408307,
+     "name": "Carl Crawford"
+    },
+    {
+     "id": 425834,
+     "name": "B.J. Upton"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 408307,
+     "name": "Carl Crawford",
+     "team": "Tampa Bay Rays",
+     "age": 28,
+     "PA": 663,
+     "AVG": 0.307,
+     "OBP": 0.356,
+     "SLG": 0.495,
+     "OPS": 0.851,
+     "HR": 19,
+     "RBI": 90,
+     "R": 110,
+     "H": 184,
+     "2B": 30,
+     "3B": 13,
+     "SB": 47,
+     "CS": 10,
+     "BB": 46,
+     "SO": 104,
+     "HBP": 3,
+     "GIDP": 2
+    },
+    {
+     "season": 2010,
+     "id": 425834,
+     "name": "B.J. Upton",
+     "team": "Tampa Bay Rays",
+     "age": 25,
+     "PA": 610,
+     "AVG": 0.237,
+     "OBP": 0.322,
+     "SLG": 0.424,
+     "OPS": 0.746,
+     "HR": 18,
+     "RBI": 62,
+     "R": 89,
+     "H": 127,
+     "2B": 38,
+     "3B": 4,
+     "SB": 42,
+     "CS": 9,
+     "BB": 67,
+     "SO": 164,
+     "HBP": 2,
+     "GIDP": 13
+    }
+   ],
+   "text": "4 teams of the 2010s had two players at 40+ steals; the biggest pairing was the 2010 Tampa Bay Rays — Carl Crawford 47, B.J. Upton 42."
+  },
+  {
+   "n": 61,
+   "kind": "teammates",
+   "rule": "k200_pair",
+   "group": "P",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 471911,
+     "name": "Carlos Carrasco"
+    },
+    {
+     "id": 446372,
+     "name": "Corey Kluber"
+    },
+    {
+     "id": 545333,
+     "name": "Trevor Bauer"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2018,
+     "id": 471911,
+     "name": "Carlos Carrasco",
+     "team": "Cleveland Indians",
+     "age": 31,
+     "W": 17,
+     "L": 10,
+     "ERA": 3.38,
+     "IP": "192.0",
+     "SO": 231,
+     "BB": 43,
+     "SV": 0,
+     "GS": 30,
+     "CG": 2,
+     "SHO": 0,
+     "HRA": 21,
+     "WHIP": 1.13
+    },
+    {
+     "season": 2018,
+     "id": 446372,
+     "name": "Corey Kluber",
+     "team": "Cleveland Indians",
+     "age": 32,
+     "W": 20,
+     "L": 7,
+     "ERA": 2.89,
+     "IP": "215.0",
+     "SO": 222,
+     "BB": 34,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 25,
+     "WHIP": 0.99
+    },
+    {
+     "season": 2018,
+     "id": 545333,
+     "name": "Trevor Bauer",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "W": 12,
+     "L": 6,
+     "ERA": 2.21,
+     "IP": "175.1",
+     "SO": 221,
+     "BB": 57,
+     "SV": 1,
+     "GS": 27,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.09
+    }
+   ],
+   "text": "31 teams of the 2010s had two players at 200+ strikeouts; the biggest pairing was the 2018 Cleveland Indians — Carlos Carrasco 231, Corey Kluber 222, Trevor Bauer 221."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "dec_hr",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 443558,
+     "name": "Nelson Cruz"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 443558,
+     "name": "Nelson Cruz",
+     "n": 10,
+     "HR": 346,
+     "H": 1461,
+     "RBI": 961,
+     "SB": 50,
+     "R": 774,
+     "BB": 511,
+     "SO": 1302,
+     "2B": 275,
+     "3B": 9,
+     "PA": 5813
+    }
+   ],
+   "text": "Most home runs of the 2010s: Nelson Cruz, 346 across 10 seasons."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "dec_hr_nolead",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 429665,
+     "name": "Edwin Encarnación"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 429665,
+     "name": "Edwin Encarnación",
+     "n": 10,
+     "HR": 335,
+     "H": 1308,
+     "RBI": 956,
+     "SB": 41,
+     "R": 819,
+     "BB": 689,
+     "SO": 979,
+     "2B": 251,
+     "3B": 5,
+     "PA": 5764
+    }
+   ],
+   "text": "Most home runs in the 2010s by a hitter who never led the majors in a season: Edwin Encarnación, 335."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "dec_hits",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 429664,
+     "name": "Robinson Canó"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 429664,
+     "name": "Robinson Canó",
+     "n": 10,
+     "HR": 237,
+     "H": 1695,
+     "RBI": 878,
+     "SB": 34,
+     "R": 828,
+     "BB": 478,
+     "SO": 830,
+     "2B": 363,
+     "3B": 16,
+     "PA": 6228
+    }
+   ],
+   "text": "Most hits of the 2010s: Robinson Canó, 1695."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "dec_k_hit",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 448801,
+     "name": "Chris Davis"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 448801,
+     "name": "Chris Davis",
+     "n": 10,
+     "HR": 257,
+     "H": 977,
+     "RBI": 665,
+     "SB": 18,
+     "R": 605,
+     "BB": 508,
+     "SO": 1597,
+     "2B": 187,
+     "3B": 2,
+     "PA": 4839
+    }
+   ],
+   "text": "Most strikeouts by a hitter in the 2010s: Chris Davis, 1597."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "dec_3b",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 451594,
+     "name": "Dexter Fowler"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 451594,
+     "name": "Dexter Fowler",
+     "n": 10,
+     "HR": 119,
+     "H": 1161,
+     "RBI": 467,
+     "SB": 120,
+     "R": 724,
+     "BB": 662,
+     "SO": 1171,
+     "2B": 222,
+     "3B": 72,
+     "PA": 5235
+    }
+   ],
+   "text": "Most triples of the 2010s: Dexter Fowler, 72."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "dec_rbi",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 405395,
+     "name": "Albert Pujols"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 405395,
+     "name": "Albert Pujols",
+     "n": 10,
+     "HR": 290,
+     "H": 1485,
+     "RBI": 963,
+     "SB": 53,
+     "R": 757,
+     "BB": 511,
+     "SO": 709,
+     "2B": 274,
+     "3B": 2,
+     "PA": 6149
+    }
+   ],
+   "text": "Most RBI of the 2010s: Albert Pujols, 963."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "dec_l",
+   "group": "P",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 519144,
+     "name": "Rick Porcello"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 519144,
+     "name": "Rick Porcello",
+     "n": 10,
+     "W": 135,
+     "L": 109,
+     "SO": 1418,
+     "SV": 0,
+     "SHO": 3,
+     "CG": 10,
+     "OUTS": 5600,
+     "BB": 422
+    }
+   ],
+   "text": "Most losses of the 2010s: Rick Porcello, 109 — and 135 wins."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "dec_sv",
+   "group": "P",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 518886,
+     "name": "Craig Kimbrel"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "n": 10,
+     "W": 31,
+     "L": 23,
+     "SO": 898,
+     "SV": 346,
+     "SHO": 0,
+     "CG": 0,
+     "OUTS": 1660,
+     "BB": 217
+    }
+   ],
+   "text": "Most saves of the 2010s: Craig Kimbrel, 346."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "dec_bb_pit",
+   "group": "P",
+   "decade": 2010,
+   "score": 5,
+   "players": [
+    {
+     "id": 461829,
+     "name": "Gio Gonzalez"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 461829,
+     "name": "Gio Gonzalez",
+     "n": 10,
+     "W": 123,
+     "L": 88,
+     "SO": 1683,
+     "SV": 0,
+     "SHO": 2,
+     "CG": 4,
+     "OUTS": 5306,
+     "BB": 715
+    }
+   ],
+   "text": "Most walks issued in the 2010s: Gio Gonzalez, 715."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "n_30hr_most",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 18
+    },
+    {
+     "season": 2011,
+     "count": 24
+    },
+    {
+     "season": 2012,
+     "count": 27
+    },
+    {
+     "season": 2013,
+     "count": 14
+    },
+    {
+     "season": 2014,
+     "count": 11
+    },
+    {
+     "season": 2015,
+     "count": 20
+    },
+    {
+     "season": 2016,
+     "count": 38
+    },
+    {
+     "season": 2017,
+     "count": 41
+    },
+    {
+     "season": 2018,
+     "count": 27
+    },
+    {
+     "season": 2019,
+     "count": 58
+    }
+   ],
+   "text": "2019 had 58 30-homer hitters, the most of any season in the 2010s."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "n_30hr_least",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 18
+    },
+    {
+     "season": 2011,
+     "count": 24
+    },
+    {
+     "season": 2012,
+     "count": 27
+    },
+    {
+     "season": 2013,
+     "count": 14
+    },
+    {
+     "season": 2014,
+     "count": 11
+    },
+    {
+     "season": 2015,
+     "count": 20
+    },
+    {
+     "season": 2016,
+     "count": 38
+    },
+    {
+     "season": 2017,
+     "count": 41
+    },
+    {
+     "season": 2018,
+     "count": 27
+    },
+    {
+     "season": 2019,
+     "count": 58
+    }
+   ],
+   "text": "2014 had just 11 30-homer hitters, the fewest of any season in the 2010s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "n_300_most",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 23
+    },
+    {
+     "season": 2011,
+     "count": 26
+    },
+    {
+     "season": 2012,
+     "count": 27
+    },
+    {
+     "season": 2013,
+     "count": 24
+    },
+    {
+     "season": 2014,
+     "count": 17
+    },
+    {
+     "season": 2015,
+     "count": 20
+    },
+    {
+     "season": 2016,
+     "count": 25
+    },
+    {
+     "season": 2017,
+     "count": 25
+    },
+    {
+     "season": 2018,
+     "count": 16
+    },
+    {
+     "season": 2019,
+     "count": 19
+    }
+   ],
+   "text": "2012 had 27 .300 hitters (500+ PA), the most of any season in the 2010s."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "n_300_least",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 23
+    },
+    {
+     "season": 2011,
+     "count": 26
+    },
+    {
+     "season": 2012,
+     "count": 27
+    },
+    {
+     "season": 2013,
+     "count": 24
+    },
+    {
+     "season": 2014,
+     "count": 17
+    },
+    {
+     "season": 2015,
+     "count": 20
+    },
+    {
+     "season": 2016,
+     "count": 25
+    },
+    {
+     "season": 2017,
+     "count": 25
+    },
+    {
+     "season": 2018,
+     "count": 16
+    },
+    {
+     "season": 2019,
+     "count": 19
+    }
+   ],
+   "text": "2018 had just 16 .300 hitters (500+ PA), the fewest of any season in the 2010s."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "n_100rbi_most",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 25
+    },
+    {
+     "season": 2011,
+     "count": 17
+    },
+    {
+     "season": 2012,
+     "count": 18
+    },
+    {
+     "season": 2013,
+     "count": 15
+    },
+    {
+     "season": 2014,
+     "count": 12
+    },
+    {
+     "season": 2015,
+     "count": 13
+    },
+    {
+     "season": 2016,
+     "count": 22
+    },
+    {
+     "season": 2017,
+     "count": 24
+    },
+    {
+     "season": 2018,
+     "count": 16
+    },
+    {
+     "season": 2019,
+     "count": 22
+    }
+   ],
+   "text": "2010 had 25 100-RBI hitters, the most of any season in the 2010s."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "n_100rbi_least",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 25
+    },
+    {
+     "season": 2011,
+     "count": 17
+    },
+    {
+     "season": 2012,
+     "count": 18
+    },
+    {
+     "season": 2013,
+     "count": 15
+    },
+    {
+     "season": 2014,
+     "count": 12
+    },
+    {
+     "season": 2015,
+     "count": 13
+    },
+    {
+     "season": 2016,
+     "count": 22
+    },
+    {
+     "season": 2017,
+     "count": 24
+    },
+    {
+     "season": 2018,
+     "count": 16
+    },
+    {
+     "season": 2019,
+     "count": 22
+    }
+   ],
+   "text": "2014 had just 12 100-RBI hitters, the fewest of any season in the 2010s."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "n_sb_most",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 8
+    },
+    {
+     "season": 2011,
+     "count": 8
+    },
+    {
+     "season": 2012,
+     "count": 6
+    },
+    {
+     "season": 2013,
+     "count": 8
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 3
+    },
+    {
+     "season": 2016,
+     "count": 5
+    },
+    {
+     "season": 2017,
+     "count": 3
+    },
+    {
+     "season": 2018,
+     "count": 3
+    },
+    {
+     "season": 2019,
+     "count": 3
+    }
+   ],
+   "text": "2010 had 8 40-steal players, the most of any season in the 2010s."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "n_sb_least",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 8
+    },
+    {
+     "season": 2011,
+     "count": 8
+    },
+    {
+     "season": 2012,
+     "count": 6
+    },
+    {
+     "season": 2013,
+     "count": 8
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 3
+    },
+    {
+     "season": 2016,
+     "count": 5
+    },
+    {
+     "season": 2017,
+     "count": 3
+    },
+    {
+     "season": 2018,
+     "count": 3
+    },
+    {
+     "season": 2019,
+     "count": 3
+    }
+   ],
+   "text": "2015 had just 3 40-steal players, the fewest of any season in the 2010s."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "n_200h_most",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 2
+    },
+    {
+     "season": 2011,
+     "count": 5
+    },
+    {
+     "season": 2012,
+     "count": 2
+    },
+    {
+     "season": 2013,
+     "count": 0
+    },
+    {
+     "season": 2014,
+     "count": 2
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 4
+    },
+    {
+     "season": 2018,
+     "count": 0
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2011 had 5 200-hit seasons, the most of any season in the 2010s."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "n_200h_least",
+   "group": "H",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 2
+    },
+    {
+     "season": 2011,
+     "count": 5
+    },
+    {
+     "season": 2012,
+     "count": 2
+    },
+    {
+     "season": 2013,
+     "count": 0
+    },
+    {
+     "season": 2014,
+     "count": 2
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 4
+    },
+    {
+     "season": 2018,
+     "count": 0
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2013 had no 200-hit seasons at all — one of the seasons of the 2010s without one."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "n_20w_most",
+   "group": "P",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 3
+    },
+    {
+     "season": 2011,
+     "count": 3
+    },
+    {
+     "season": 2012,
+     "count": 4
+    },
+    {
+     "season": 2013,
+     "count": 1
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 3
+    },
+    {
+     "season": 2017,
+     "count": 0
+    },
+    {
+     "season": 2018,
+     "count": 2
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2012 had 4 20-game winners, the most of any season in the 2010s."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "n_20w_least",
+   "group": "P",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 3
+    },
+    {
+     "season": 2011,
+     "count": 3
+    },
+    {
+     "season": 2012,
+     "count": 4
+    },
+    {
+     "season": 2013,
+     "count": 1
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 3
+    },
+    {
+     "season": 2017,
+     "count": 0
+    },
+    {
+     "season": 2018,
+     "count": 2
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2017 had no 20-game winners at all — the only season of the 2010s without one."
+  },
+  {
+   "n": 83,
+   "kind": "team",
+   "rule": "100l",
+   "group": "T",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 110,
+     "name": "Orioles",
+     "wins": 47,
+     "losses": 115,
+     "runsScored": 622,
+     "runsAllowed": 892,
+     "runDifferential": -270,
+     "leagueRank": 15,
+     "season": 2018
+    },
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 47,
+     "losses": 114,
+     "runsScored": 582,
+     "runsAllowed": 915,
+     "runDifferential": -333,
+     "leagueRank": 15,
+     "season": 2019
+    },
+    {
+     "id": 117,
+     "name": "Astros",
+     "wins": 51,
+     "losses": 111,
+     "runsScored": 610,
+     "runsAllowed": 848,
+     "runDifferential": -238,
+     "leagueRank": 15,
+     "season": 2013
+    },
+    {
+     "id": 110,
+     "name": "Orioles",
+     "wins": 54,
+     "losses": 108,
+     "runsScored": 729,
+     "runsAllowed": 981,
+     "runDifferential": -252,
+     "leagueRank": 14,
+     "season": 2019
+    },
+    {
+     "id": 117,
+     "name": "Astros",
+     "wins": 55,
+     "losses": 107,
+     "runsScored": 583,
+     "runsAllowed": 794,
+     "runDifferential": -211,
+     "leagueRank": 16,
+     "season": 2012
+    },
+    {
+     "id": 117,
+     "name": "Astros",
+     "wins": 56,
+     "losses": 106,
+     "runsScored": 615,
+     "runsAllowed": 796,
+     "runDifferential": -181,
+     "leagueRank": 16,
+     "season": 2011
+    }
+   ],
+   "text": "15 teams of the 2010s lost 100 games; the worst was the 2018 Orioles at 47-115."
+  },
+  {
+   "n": 84,
+   "kind": "team",
+   "rule": "best_diff",
+   "group": "T",
+   "decade": 2010,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 117,
+     "name": "Astros",
+     "wins": 107,
+     "losses": 55,
+     "runsScored": 920,
+     "runsAllowed": 640,
+     "runDifferential": 280,
+     "leagueRank": 1,
+     "season": 2019
+    }
+   ],
+   "text": "Best run differential of the 2010s: the 2019 Astros, +280 (920 scored, 640 allowed)."
+  },
+  {
+   "n": 85,
+   "rule": "old_power",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 443558,
+     "name": "Nelson Cruz",
+     "team": "Minnesota Twins",
+     "age": 38,
+     "PA": 521,
+     "AVG": 0.311,
+     "OBP": 0.392,
+     "SLG": 0.639,
+     "OPS": 1.031,
+     "HR": 41,
+     "RBI": 108,
+     "R": 81,
+     "H": 141,
+     "2B": 26,
+     "3B": 0,
+     "SB": 0,
+     "CS": 1,
+     "BB": 56,
+     "SO": 131,
+     "HBP": 7,
+     "GIDP": 14
+    },
+    {
+     "season": 2016,
+     "id": 120074,
+     "name": "David Ortiz",
+     "team": "Boston Red Sox",
+     "age": 40,
+     "PA": 626,
+     "AVG": 0.315,
+     "OBP": 0.401,
+     "SLG": 0.62,
+     "OPS": 1.021,
+     "HR": 38,
+     "RBI": 127,
+     "R": 79,
+     "H": 169,
+     "2B": 48,
+     "3B": 1,
+     "SB": 2,
+     "CS": 0,
+     "BB": 80,
+     "SO": 86,
+     "HBP": 2,
+     "GIDP": 22
+    },
+    {
+     "season": 2015,
+     "id": 120074,
+     "name": "David Ortiz",
+     "team": "Boston Red Sox",
+     "age": 39,
+     "PA": 614,
+     "AVG": 0.273,
+     "OBP": 0.36,
+     "SLG": 0.553,
+     "OPS": 0.913,
+     "HR": 37,
+     "RBI": 108,
+     "R": 73,
+     "H": 144,
+     "2B": 37,
+     "3B": 0,
+     "SB": 0,
+     "CS": 1,
+     "BB": 77,
+     "SO": 95,
+     "HBP": 0,
+     "GIDP": 16
+    },
+    {
+     "season": 2018,
+     "id": 443558,
+     "name": "Nelson Cruz",
+     "team": "Seattle Mariners",
+     "age": 37,
+     "PA": 591,
+     "AVG": 0.256,
+     "OBP": 0.342,
+     "SLG": 0.509,
+     "OPS": 0.851,
+     "HR": 37,
+     "RBI": 97,
+     "R": 70,
+     "H": 133,
+     "2B": 18,
+     "3B": 1,
+     "SB": 1,
+     "CS": 0,
+     "BB": 55,
+     "SO": 122,
+     "HBP": 14,
+     "GIDP": 15
+    },
+    {
+     "season": 2014,
+     "id": 120074,
+     "name": "David Ortiz",
+     "team": "Boston Red Sox",
+     "age": 38,
+     "PA": 602,
+     "AVG": 0.263,
+     "OBP": 0.355,
+     "SLG": 0.517,
+     "OPS": 0.872,
+     "HR": 35,
+     "RBI": 104,
+     "R": 59,
+     "H": 136,
+     "2B": 27,
+     "3B": 0,
+     "SB": 0,
+     "CS": 0,
+     "BB": 75,
+     "SO": 95,
+     "HBP": 3,
+     "GIDP": 18
+    },
+    {
+     "season": 2015,
+     "id": 121347,
+     "name": "Alex Rodriguez",
+     "team": "New York Yankees",
+     "age": 39,
+     "PA": 620,
+     "AVG": 0.25,
+     "OBP": 0.356,
+     "SLG": 0.486,
+     "OPS": 0.842,
+     "HR": 33,
+     "RBI": 86,
+     "R": 83,
+     "H": 131,
+     "2B": 22,
+     "3B": 1,
+     "SB": 4,
+     "CS": 0,
+     "BB": 84,
+     "SO": 145,
+     "HBP": 6,
+     "GIDP": 17
+    }
+   ],
+   "kind": "list",
+   "score": 4.975,
+   "players": [
+    {
+     "id": 443558,
+     "name": "Nelson Cruz"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "9 times in the 2010s a hitter hit 30+ homers at age 37 or older. The most extreme: Nelson Cruz, 2019 — 41 HR at 38."
+  },
+  {
+   "n": 86,
+   "rule": "thirty_thirty",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "SB",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 461314,
+     "name": "Matt Kemp",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "PA": 689,
+     "AVG": 0.324,
+     "OBP": 0.399,
+     "SLG": 0.586,
+     "OPS": 0.985,
+     "HR": 39,
+     "RBI": 126,
+     "R": 115,
+     "H": 195,
+     "2B": 33,
+     "3B": 4,
+     "SB": 40,
+     "CS": 11,
+     "BB": 74,
+     "SO": 159,
+     "HBP": 6,
+     "GIDP": 16
+    },
+    {
+     "season": 2012,
+     "id": 545361,
+     "name": "Mike Trout",
+     "team": "Los Angeles Angels",
+     "age": 20,
+     "PA": 639,
+     "AVG": 0.326,
+     "OBP": 0.399,
+     "SLG": 0.564,
+     "OPS": 0.963,
+     "HR": 30,
+     "RBI": 83,
+     "R": 129,
+     "H": 182,
+     "2B": 27,
+     "3B": 8,
+     "SB": 49,
+     "CS": 5,
+     "BB": 67,
+     "SO": 139,
+     "HBP": 6,
+     "GIDP": 7
+    },
+    {
+     "season": 2019,
+     "id": 660670,
+     "name": "Ronald Acuña Jr.",
+     "team": "Atlanta Braves",
+     "age": 21,
+     "PA": 715,
+     "AVG": 0.28,
+     "OBP": 0.365,
+     "SLG": 0.518,
+     "OPS": 0.883,
+     "HR": 41,
+     "RBI": 101,
+     "R": 127,
+     "H": 175,
+     "2B": 22,
+     "3B": 2,
+     "SB": 37,
+     "CS": 9,
+     "BB": 76,
+     "SO": 188,
+     "HBP": 9,
+     "GIDP": 8
+    },
+    {
+     "season": 2019,
+     "id": 592885,
+     "name": "Christian Yelich",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "PA": 580,
+     "AVG": 0.329,
+     "OBP": 0.429,
+     "SLG": 0.671,
+     "OPS": 1.1,
+     "HR": 44,
+     "RBI": 97,
+     "R": 100,
+     "H": 161,
+     "2B": 29,
+     "3B": 3,
+     "SB": 30,
+     "CS": 2,
+     "BB": 80,
+     "SO": 118,
+     "HBP": 8,
+     "GIDP": 8
+    },
+    {
+     "season": 2018,
+     "id": 608070,
+     "name": "José Ramírez",
+     "team": "Cleveland Indians",
+     "age": 25,
+     "PA": 698,
+     "AVG": 0.27,
+     "OBP": 0.387,
+     "SLG": 0.552,
+     "OPS": 0.939,
+     "HR": 39,
+     "RBI": 105,
+     "R": 110,
+     "H": 156,
+     "2B": 38,
+     "3B": 4,
+     "SB": 34,
+     "CS": 6,
+     "BB": 106,
+     "SO": 80,
+     "HBP": 8,
+     "GIDP": 2
+    },
+    {
+     "season": 2011,
+     "id": 453056,
+     "name": "Jacoby Ellsbury",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 732,
+     "AVG": 0.321,
+     "OBP": 0.376,
+     "SLG": 0.552,
+     "OPS": 0.928,
+     "HR": 32,
+     "RBI": 105,
+     "R": 119,
+     "H": 212,
+     "2B": 46,
+     "3B": 5,
+     "SB": 39,
+     "CS": 15,
+     "BB": 52,
+     "SO": 98,
+     "HBP": 9,
+     "GIDP": 8
+    }
+   ],
+   "kind": "list",
+   "score": 4.975,
+   "players": [
+    {
+     "id": 461314,
+     "name": "Matt Kemp"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "10 times in the 2010s a hitter went 30-30. The most extreme: Matt Kemp, 2011 — 39 HR, 40 SB."
+  },
+  {
+   "n": 87,
+   "rule": "five_tool",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BA",
+      "gte",
+      0.3
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 461314,
+     "name": "Matt Kemp",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "PA": 689,
+     "AVG": 0.324,
+     "OBP": 0.399,
+     "SLG": 0.586,
+     "OPS": 0.985,
+     "HR": 39,
+     "RBI": 126,
+     "R": 115,
+     "H": 195,
+     "2B": 33,
+     "3B": 4,
+     "SB": 40,
+     "CS": 11,
+     "BB": 74,
+     "SO": 159,
+     "HBP": 6,
+     "GIDP": 16
+    },
+    {
+     "season": 2011,
+     "id": 453056,
+     "name": "Jacoby Ellsbury",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 732,
+     "AVG": 0.321,
+     "OBP": 0.376,
+     "SLG": 0.552,
+     "OPS": 0.928,
+     "HR": 32,
+     "RBI": 105,
+     "R": 119,
+     "H": 212,
+     "2B": 46,
+     "3B": 5,
+     "SB": 39,
+     "CS": 15,
+     "BB": 52,
+     "SO": 98,
+     "HBP": 9,
+     "GIDP": 8
+    },
+    {
+     "season": 2012,
+     "id": 460075,
+     "name": "Ryan Braun",
+     "team": "Milwaukee Brewers",
+     "age": 28,
+     "PA": 677,
+     "AVG": 0.319,
+     "OBP": 0.391,
+     "SLG": 0.595,
+     "OPS": 0.986,
+     "HR": 41,
+     "RBI": 112,
+     "R": 108,
+     "H": 191,
+     "2B": 36,
+     "3B": 3,
+     "SB": 30,
+     "CS": 7,
+     "BB": 63,
+     "SO": 128,
+     "HBP": 11,
+     "GIDP": 12
+    },
+    {
+     "season": 2011,
+     "id": 460075,
+     "name": "Ryan Braun",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "PA": 629,
+     "AVG": 0.332,
+     "OBP": 0.397,
+     "SLG": 0.597,
+     "OPS": 0.994,
+     "HR": 33,
+     "RBI": 111,
+     "R": 109,
+     "H": 187,
+     "2B": 38,
+     "3B": 6,
+     "SB": 33,
+     "CS": 6,
+     "BB": 58,
+     "SO": 93,
+     "HBP": 5,
+     "GIDP": 9
+    },
+    {
+     "season": 2010,
+     "id": 471865,
+     "name": "Carlos González",
+     "team": "Colorado Rockies",
+     "age": 24,
+     "PA": 636,
+     "AVG": 0.336,
+     "OBP": 0.376,
+     "SLG": 0.598,
+     "OPS": 0.974,
+     "HR": 34,
+     "RBI": 117,
+     "R": 111,
+     "H": 197,
+     "2B": 34,
+     "3B": 9,
+     "SB": 26,
+     "CS": 8,
+     "BB": 40,
+     "SO": 135,
+     "HBP": 2,
+     "GIDP": 9
+    },
+    {
+     "season": 2018,
+     "id": 592885,
+     "name": "Christian Yelich",
+     "team": "Milwaukee Brewers",
+     "age": 26,
+     "PA": 651,
+     "AVG": 0.326,
+     "OBP": 0.402,
+     "SLG": 0.598,
+     "OPS": 1,
+     "HR": 36,
+     "RBI": 110,
+     "R": 118,
+     "H": 187,
+     "2B": 34,
+     "3B": 7,
+     "SB": 22,
+     "CS": 4,
+     "BB": 68,
+     "SO": 135,
+     "HBP": 7,
+     "GIDP": 14
+    }
+   ],
+   "kind": "list",
+   "score": 4.975,
+   "players": [
+    {
+     "id": 461314,
+     "name": "Matt Kemp"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "8 times in the 2010s a hitter batted .300 with 30 homers, 100 RBI and 20 steals. The most extreme: Matt Kemp, 2011 — .324, 39 HR, 126 RBI, 40 SB."
+  },
+  {
+   "n": 88,
+   "kind": "nearmiss",
+   "rule": "H199",
+   "group": "H",
+   "decade": 2010,
+   "score": 4.5,
+   "players": [
+    {
+     "id": 572761,
+     "name": "Matt Carpenter"
+    },
+    {
+     "id": 134181,
+     "name": "Adrian Beltré"
+    }
+   ],
+   "seasons": [
+    2013,
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2013,
+     "id": 572761,
+     "name": "Matt Carpenter",
+     "team": "St. Louis Cardinals",
+     "age": 27,
+     "PA": 717,
+     "AVG": 0.318,
+     "OBP": 0.392,
+     "SLG": 0.481,
+     "OPS": 0.873,
+     "HR": 11,
+     "RBI": 78,
+     "R": 126,
+     "H": 199,
+     "2B": 55,
+     "3B": 7,
+     "SB": 3,
+     "CS": 3,
+     "BB": 72,
+     "SO": 98,
+     "HBP": 9,
+     "GIDP": 4
+    },
+    {
+     "season": 2013,
+     "id": 134181,
+     "name": "Adrian Beltré",
+     "team": "Texas Rangers",
+     "age": 34,
+     "PA": 690,
+     "AVG": 0.315,
+     "OBP": 0.371,
+     "SLG": 0.509,
+     "OPS": 0.88,
+     "HR": 30,
+     "RBI": 92,
+     "R": 88,
+     "H": 199,
+     "2B": 32,
+     "3B": 0,
+     "SB": 1,
+     "CS": 0,
+     "BB": 50,
+     "SO": 78,
+     "HBP": 7,
+     "GIDP": 17
+    }
+   ],
+   "text": "2 hitter-seasons of the 2010s ended on exactly 199 hits, one short of 200 — among them Matt Carpenter (2013), Adrian Beltré (2013)."
+  },
+  {
+   "n": 89,
+   "rule": "fifty_hr",
+   "group": "H",
+   "decade": 2010,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      50
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2017,
+     "id": 519317,
+     "name": "Giancarlo Stanton",
+     "team": "Miami Marlins",
+     "age": 27,
+     "PA": 692,
+     "AVG": 0.281,
+     "OBP": 0.376,
+     "SLG": 0.631,
+     "OPS": 1.007,
+     "HR": 59,
+     "RBI": 132,
+     "R": 123,
+     "H": 168,
+     "2B": 32,
+     "3B": 0,
+     "SB": 2,
+     "CS": 2,
+     "BB": 85,
+     "SO": 163,
+     "HBP": 7,
+     "GIDP": 13
+    },
+    {
+     "season": 2010,
+     "id": 430832,
+     "name": "José Bautista",
+     "team": "Toronto Blue Jays",
+     "age": 29,
+     "PA": 683,
+     "AVG": 0.26,
+     "OBP": 0.378,
+     "SLG": 0.617,
+     "OPS": 0.995,
+     "HR": 54,
+     "RBI": 124,
+     "R": 109,
+     "H": 148,
+     "2B": 35,
+     "3B": 3,
+     "SB": 9,
+     "CS": 2,
+     "BB": 100,
+     "SO": 116,
+     "HBP": 10,
+     "GIDP": 10
+    },
+    {
+     "season": 2013,
+     "id": 448801,
+     "name": "Chris Davis",
+     "team": "Baltimore Orioles",
+     "age": 27,
+     "PA": 673,
+     "AVG": 0.286,
+     "OBP": 0.37,
+     "SLG": 0.634,
+     "OPS": 1.004,
+     "HR": 53,
+     "RBI": 138,
+     "R": 103,
+     "H": 167,
+     "2B": 42,
+     "3B": 1,
+     "SB": 4,
+     "CS": 1,
+     "BB": 72,
+     "SO": 199,
+     "HBP": 10,
+     "GIDP": 4
+    },
+    {
+     "season": 2019,
+     "id": 624413,
+     "name": "Pete Alonso",
+     "team": "New York Mets",
+     "age": 24,
+     "PA": 693,
+     "AVG": 0.26,
+     "OBP": 0.358,
+     "SLG": 0.583,
+     "OPS": 0.941,
+     "HR": 53,
+     "RBI": 120,
+     "R": 103,
+     "H": 155,
+     "2B": 30,
+     "3B": 2,
+     "SB": 1,
+     "CS": 0,
+     "BB": 72,
+     "SO": 183,
+     "HBP": 21,
+     "GIDP": 13
+    },
+    {
+     "season": 2017,
+     "id": 592450,
+     "name": "Aaron Judge",
+     "team": "New York Yankees",
+     "age": 25,
+     "PA": 678,
+     "AVG": 0.284,
+     "OBP": 0.422,
+     "SLG": 0.627,
+     "OPS": 1.049,
+     "HR": 52,
+     "RBI": 114,
+     "R": 128,
+     "H": 154,
+     "2B": 24,
+     "3B": 3,
+     "SB": 9,
+     "CS": 4,
+     "BB": 127,
+     "SO": 208,
+     "HBP": 5,
+     "GIDP": 15
+    }
+   ],
+   "kind": "list",
+   "score": 4.475,
+   "players": [
+    {
+     "id": 519317,
+     "name": "Giancarlo Stanton"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "text": "5 times in the 2010s a hitter hit 50 home runs. The most extreme: Giancarlo Stanton, 2017 — 59 HR."
+  },
+  {
+   "n": 90,
+   "rule": "forty_saves",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      45
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2018,
+     "id": 621242,
+     "name": "Edwin Díaz",
+     "team": "Seattle Mariners",
+     "age": 24,
+     "W": 0,
+     "L": 4,
+     "ERA": 1.96,
+     "IP": "73.1",
+     "SO": 124,
+     "BB": 17,
+     "SV": 57,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.79
+    },
+    {
+     "season": 2012,
+     "id": 462382,
+     "name": "Jim Johnson",
+     "team": "Baltimore Orioles",
+     "age": 29,
+     "W": 2,
+     "L": 1,
+     "ERA": 2.49,
+     "IP": "68.2",
+     "SO": 41,
+     "BB": 15,
+     "SV": 51,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 3,
+     "WHIP": 1.02
+    },
+    {
+     "season": 2015,
+     "id": 453343,
+     "name": "Mark Melancon",
+     "team": "Pittsburgh Pirates",
+     "age": 30,
+     "W": 3,
+     "L": 2,
+     "ERA": 2.23,
+     "IP": "76.2",
+     "SO": 62,
+     "BB": 14,
+     "SV": 51,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 0.93
+    },
+    {
+     "season": 2016,
+     "id": 544727,
+     "name": "Jeurys Familia",
+     "team": "New York Mets",
+     "age": 26,
+     "W": 3,
+     "L": 4,
+     "ERA": 2.55,
+     "IP": "77.2",
+     "SO": 84,
+     "BB": 31,
+     "SV": 51,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 1,
+     "WHIP": 1.21
+    },
+    {
+     "season": 2013,
+     "id": 518886,
+     "name": "Craig Kimbrel",
+     "team": "Atlanta Braves",
+     "age": 25,
+     "W": 4,
+     "L": 3,
+     "ERA": 1.21,
+     "IP": "67.0",
+     "SO": 98,
+     "BB": 20,
+     "SV": 50,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 0.88
+    },
+    {
+     "season": 2013,
+     "id": 462382,
+     "name": "Jim Johnson",
+     "team": "Baltimore Orioles",
+     "age": 30,
+     "W": 3,
+     "L": 8,
+     "ERA": 2.94,
+     "IP": "70.1",
+     "SO": 56,
+     "BB": 18,
+     "SV": 50,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.28
+    }
+   ],
+   "kind": "list",
+   "score": 4.425,
+   "players": [
+    {
+     "id": 621242,
+     "name": "Edwin Díaz"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "24 times in the 2010s a pitcher saved 45 games. The most extreme: Edwin Díaz, 2018 — 57 SV."
+  },
+  {
+   "n": 91,
+   "kind": "team",
+   "rule": "worst_diff",
+   "group": "T",
+   "decade": 2010,
+   "score": 4,
+   "players": [],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 47,
+     "losses": 114,
+     "runsScored": 582,
+     "runsAllowed": 915,
+     "runDifferential": -333,
+     "leagueRank": 15,
+     "season": 2019
+    }
+   ],
+   "text": "Worst run differential of the 2010s: the 2019 Tigers, -333 (582 scored, 915 allowed)."
+  },
+  {
+   "n": 92,
+   "rule": "gidp_many",
+   "group": "H",
+   "decade": 2010,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "id": 456714,
+     "name": "Billy Butler",
+     "team": "Kansas City Royals",
+     "age": 24,
+     "PA": 678,
+     "AVG": 0.318,
+     "OBP": 0.388,
+     "SLG": 0.469,
+     "OPS": 0.857,
+     "HR": 15,
+     "RBI": 78,
+     "R": 77,
+     "H": 189,
+     "2B": 45,
+     "3B": 0,
+     "SB": 0,
+     "CS": 0,
+     "BB": 69,
+     "SO": 78,
+     "HBP": 5,
+     "GIDP": 32
+    },
+    {
+     "season": 2013,
+     "id": 407812,
+     "name": "Matt Holliday",
+     "team": "St. Louis Cardinals",
+     "age": 33,
+     "PA": 602,
+     "AVG": 0.3,
+     "OBP": 0.389,
+     "SLG": 0.49,
+     "OPS": 0.879,
+     "HR": 22,
+     "RBI": 94,
+     "R": 103,
+     "H": 156,
+     "2B": 31,
+     "3B": 1,
+     "SB": 6,
+     "CS": 1,
+     "BB": 69,
+     "SO": 86,
+     "HBP": 9,
+     "GIDP": 31
+    },
+    {
+     "season": 2014,
+     "id": 431171,
+     "name": "Casey McGehee",
+     "team": "Miami Marlins",
+     "age": 31,
+     "PA": 691,
+     "AVG": 0.287,
+     "OBP": 0.355,
+     "SLG": 0.357,
+     "OPS": 0.712,
+     "HR": 4,
+     "RBI": 76,
+     "R": 56,
+     "H": 177,
+     "2B": 29,
+     "3B": 1,
+     "SB": 4,
+     "CS": 2,
+     "BB": 67,
+     "SO": 102,
+     "HBP": 1,
+     "GIDP": 31
+    },
+    {
+     "season": 2011,
+     "id": 405395,
+     "name": "Albert Pujols",
+     "team": "St. Louis Cardinals",
+     "age": 31,
+     "PA": 651,
+     "AVG": 0.299,
+     "OBP": 0.366,
+     "SLG": 0.541,
+     "OPS": 0.907,
+     "HR": 37,
+     "RBI": 99,
+     "R": 105,
+     "H": 173,
+     "2B": 29,
+     "3B": 0,
+     "SB": 9,
+     "CS": 1,
+     "BB": 61,
+     "SO": 58,
+     "HBP": 4,
+     "GIDP": 29
+    },
+    {
+     "season": 2013,
+     "id": 445988,
+     "name": "Martín Prado",
+     "team": "Arizona Diamondbacks",
+     "age": 29,
+     "PA": 664,
+     "AVG": 0.282,
+     "OBP": 0.333,
+     "SLG": 0.417,
+     "OPS": 0.75,
+     "HR": 14,
+     "RBI": 82,
+     "R": 70,
+     "H": 172,
+     "2B": 36,
+     "3B": 2,
+     "SB": 3,
+     "CS": 5,
+     "BB": 47,
+     "SO": 53,
+     "HBP": 2,
+     "GIDP": 29
+    },
+    {
+     "season": 2011,
+     "id": 408236,
+     "name": "Adrián González",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 715,
+     "AVG": 0.338,
+     "OBP": 0.41,
+     "SLG": 0.548,
+     "OPS": 0.958,
+     "HR": 27,
+     "RBI": 117,
+     "R": 108,
+     "H": 213,
+     "2B": 45,
+     "3B": 3,
+     "SB": 1,
+     "CS": 0,
+     "BB": 74,
+     "SO": 119,
+     "HBP": 6,
+     "GIDP": 28
+    }
+   ],
+   "kind": "list",
+   "score": 3.8,
+   "players": [
+    {
+     "id": 456714,
+     "name": "Billy Butler"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "10 times in the 2010s a hitter grounded into 28+ double plays. The most extreme: Billy Butler, 2010 — 32 GIDP."
+  },
+  {
+   "n": 93,
+   "rule": "hbp_many",
+   "group": "H",
+   "decade": 2010,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2016,
+     "id": 446386,
+     "name": "Brandon Guyer",
+     "team": "Cleveland Indians",
+     "age": 30,
+     "PA": 345,
+     "AVG": 0.266,
+     "OBP": 0.372,
+     "SLG": 0.423,
+     "OPS": 0.795,
+     "HR": 9,
+     "RBI": 32,
+     "R": 39,
+     "H": 78,
+     "2B": 17,
+     "3B": 1,
+     "SB": 3,
+     "CS": 2,
+     "BB": 19,
+     "SO": 55,
+     "HBP": 31,
+     "GIDP": 6
+    },
+    {
+     "season": 2015,
+     "id": 519203,
+     "name": "Anthony Rizzo",
+     "team": "Chicago Cubs",
+     "age": 25,
+     "PA": 701,
+     "AVG": 0.278,
+     "OBP": 0.387,
+     "SLG": 0.512,
+     "OPS": 0.899,
+     "HR": 31,
+     "RBI": 101,
+     "R": 94,
+     "H": 163,
+     "2B": 38,
+     "3B": 3,
+     "SB": 17,
+     "CS": 6,
+     "BB": 78,
+     "SO": 105,
+     "HBP": 30,
+     "GIDP": 9
+    },
+    {
+     "season": 2019,
+     "id": 519203,
+     "name": "Anthony Rizzo",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 613,
+     "AVG": 0.293,
+     "OBP": 0.405,
+     "SLG": 0.52,
+     "OPS": 0.925,
+     "HR": 27,
+     "RBI": 94,
+     "R": 89,
+     "H": 150,
+     "2B": 29,
+     "3B": 3,
+     "SB": 5,
+     "CS": 2,
+     "BB": 71,
+     "SO": 86,
+     "HBP": 27,
+     "GIDP": 15
+    },
+    {
+     "season": 2013,
+     "id": 425783,
+     "name": "Shin-Soo Choo",
+     "team": "Cincinnati Reds",
+     "age": 30,
+     "PA": 712,
+     "AVG": 0.285,
+     "OBP": 0.423,
+     "SLG": 0.462,
+     "OPS": 0.885,
+     "HR": 21,
+     "RBI": 54,
+     "R": 107,
+     "H": 162,
+     "2B": 34,
+     "3B": 2,
+     "SB": 20,
+     "CS": 11,
+     "BB": 112,
+     "SO": 133,
+     "HBP": 26,
+     "GIDP": 3
+    },
+    {
+     "season": 2010,
+     "id": 430001,
+     "name": "Rickie Weeks Jr.",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "PA": 754,
+     "AVG": 0.269,
+     "OBP": 0.366,
+     "SLG": 0.464,
+     "OPS": 0.83,
+     "HR": 29,
+     "RBI": 83,
+     "R": 112,
+     "H": 175,
+     "2B": 32,
+     "3B": 4,
+     "SB": 11,
+     "CS": 4,
+     "BB": 76,
+     "SO": 184,
+     "HBP": 25,
+     "GIDP": 5
+    },
+    {
+     "season": 2019,
+     "id": 645302,
+     "name": "Victor Robles",
+     "team": "Washington Nationals",
+     "age": 22,
+     "PA": 617,
+     "AVG": 0.255,
+     "OBP": 0.326,
+     "SLG": 0.419,
+     "OPS": 0.745,
+     "HR": 17,
+     "RBI": 65,
+     "R": 86,
+     "H": 139,
+     "2B": 33,
+     "3B": 3,
+     "SB": 28,
+     "CS": 9,
+     "BB": 35,
+     "SO": 140,
+     "HBP": 25,
+     "GIDP": 6
+    }
+   ],
+   "kind": "list",
+   "score": 3.775,
+   "players": [
+    {
+     "id": 446386,
+     "name": "Brandon Guyer"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "text": "26 times in the 2010s a hitter got hit by 20+ pitches. The most extreme: Brandon Guyer, 2016 — 31 HBP."
+  },
+  {
+   "n": 94,
+   "rule": "k_per_9",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "SO9",
+      "gte",
+      11
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2019,
+     "id": 543037,
+     "name": "Gerrit Cole",
+     "team": "Houston Astros",
+     "age": 28,
+     "W": 20,
+     "L": 5,
+     "ERA": 2.5,
+     "IP": "212.1",
+     "SO": 326,
+     "BB": 48,
+     "SV": 0,
+     "GS": 33,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 29,
+     "WHIP": 0.89
+    },
+    {
+     "season": 2017,
+     "id": 519242,
+     "name": "Chris Sale",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "W": 17,
+     "L": 8,
+     "ERA": 2.9,
+     "IP": "214.1",
+     "SO": 308,
+     "BB": 43,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 24,
+     "WHIP": 0.97
+    },
+    {
+     "season": 2019,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 34,
+     "W": 11,
+     "L": 7,
+     "ERA": 2.92,
+     "IP": "172.1",
+     "SO": 243,
+     "BB": 33,
+     "SV": 0,
+     "GS": 27,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 18,
+     "WHIP": 1.03
+    },
+    {
+     "season": 2016,
+     "id": 605228,
+     "name": "José Fernández",
+     "team": "Miami Marlins",
+     "age": 23,
+     "W": 16,
+     "L": 8,
+     "ERA": 2.86,
+     "IP": "182.1",
+     "SO": 253,
+     "BB": 55,
+     "SV": 0,
+     "GS": 29,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 13,
+     "WHIP": 1.12
+    },
+    {
+     "season": 2018,
+     "id": 543037,
+     "name": "Gerrit Cole",
+     "team": "Houston Astros",
+     "age": 27,
+     "W": 15,
+     "L": 5,
+     "ERA": 2.88,
+     "IP": "200.1",
+     "SO": 276,
+     "BB": 64,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 19,
+     "WHIP": 1.03
+    },
+    {
+     "season": 2018,
+     "id": 453286,
+     "name": "Max Scherzer",
+     "team": "Washington Nationals",
+     "age": 33,
+     "W": 18,
+     "L": 7,
+     "ERA": 2.53,
+     "IP": "220.2",
+     "SO": 300,
+     "BB": 51,
+     "SV": 0,
+     "GS": 33,
+     "CG": 2,
+     "SHO": 1,
+     "HRA": 23,
+     "WHIP": 0.91
+    }
+   ],
+   "kind": "list",
+   "score": 3.345447409733124,
+   "players": [
+    {
+     "id": 543037,
+     "name": "Gerrit Cole"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "28 times in the 2010s a pitcher struck out 11+ per nine innings (162+ IP). The most extreme: Gerrit Cole, 2019 — 13.8 K/9, 326 K."
+  },
+  {
+   "n": 95,
+   "rule": "sb_perfect",
+   "group": "H",
+   "decade": 2010,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2012,
+     "id": 457775,
+     "name": "Desmond Jennings",
+     "team": "Tampa Bay Rays",
+     "age": 25,
+     "PA": 563,
+     "AVG": 0.246,
+     "OBP": 0.314,
+     "SLG": 0.388,
+     "OPS": 0.702,
+     "HR": 13,
+     "RBI": 47,
+     "R": 85,
+     "H": 124,
+     "2B": 19,
+     "3B": 7,
+     "SB": 31,
+     "CS": 2,
+     "BB": 46,
+     "SO": 120,
+     "HBP": 5,
+     "GIDP": 7
+    },
+    {
+     "season": 2014,
+     "id": 408314,
+     "name": "José Reyes",
+     "team": "Toronto Blue Jays",
+     "age": 31,
+     "PA": 655,
+     "AVG": 0.287,
+     "OBP": 0.328,
+     "SLG": 0.398,
+     "OPS": 0.726,
+     "HR": 9,
+     "RBI": 51,
+     "R": 94,
+     "H": 175,
+     "2B": 33,
+     "3B": 4,
+     "SB": 30,
+     "CS": 2,
+     "BB": 38,
+     "SO": 73,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 2019,
+     "id": 592885,
+     "name": "Christian Yelich",
+     "team": "Milwaukee Brewers",
+     "age": 27,
+     "PA": 580,
+     "AVG": 0.329,
+     "OBP": 0.429,
+     "SLG": 0.671,
+     "OPS": 1.1,
+     "HR": 44,
+     "RBI": 97,
+     "R": 100,
+     "H": 161,
+     "2B": 29,
+     "3B": 3,
+     "SB": 30,
+     "CS": 2,
+     "BB": 80,
+     "SO": 118,
+     "HBP": 8,
+     "GIDP": 8
+    },
+    {
+     "season": 2010,
+     "id": 424825,
+     "name": "Coco Crisp",
+     "team": "Oakland Athletics",
+     "age": 30,
+     "PA": 328,
+     "AVG": 0.279,
+     "OBP": 0.342,
+     "SLG": 0.438,
+     "OPS": 0.78,
+     "HR": 8,
+     "RBI": 38,
+     "R": 51,
+     "H": 81,
+     "2B": 14,
+     "3B": 4,
+     "SB": 32,
+     "CS": 3,
+     "BB": 30,
+     "SO": 49,
+     "HBP": 0,
+     "GIDP": 6
+    },
+    {
+     "season": 2012,
+     "id": 542999,
+     "name": "Tony Campana",
+     "team": "Chicago Cubs",
+     "age": 26,
+     "PA": 192,
+     "AVG": 0.264,
+     "OBP": 0.308,
+     "SLG": 0.299,
+     "OPS": 0.607,
+     "HR": 0,
+     "RBI": 5,
+     "R": 26,
+     "H": 46,
+     "2B": 6,
+     "3B": 0,
+     "SB": 30,
+     "CS": 3,
+     "BB": 11,
+     "SO": 43,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 2012,
+     "id": 466988,
+     "name": "Emilio Bonifácio",
+     "team": "Miami Marlins",
+     "age": 27,
+     "PA": 274,
+     "AVG": 0.258,
+     "OBP": 0.33,
+     "SLG": 0.316,
+     "OPS": 0.646,
+     "HR": 1,
+     "RBI": 11,
+     "R": 30,
+     "H": 63,
+     "2B": 3,
+     "3B": 4,
+     "SB": 30,
+     "CS": 3,
+     "BB": 25,
+     "SO": 52,
+     "HBP": 1,
+     "GIDP": 3
+    }
+   ],
+   "kind": "list",
+   "score": 3.275,
+   "players": [
+    {
+     "id": 457775,
+     "name": "Desmond Jennings"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "text": "6 times in the 2010s a hitter stole 30+ bases and was caught 3 times or fewer. The most extreme: Desmond Jennings, 2012 — 31 SB, 2 CS."
+  },
+  {
+   "n": 96,
+   "rule": "triples_over_hr",
+   "group": "H",
+   "decade": 2010,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2011,
+     "id": 451594,
+     "name": "Dexter Fowler",
+     "team": "Colorado Rockies",
+     "age": 25,
+     "PA": 563,
+     "AVG": 0.266,
+     "OBP": 0.363,
+     "SLG": 0.432,
+     "OPS": 0.795,
+     "HR": 5,
+     "RBI": 45,
+     "R": 84,
+     "H": 128,
+     "2B": 35,
+     "3B": 15,
+     "SB": 12,
+     "CS": 9,
+     "BB": 68,
+     "SO": 130,
+     "HBP": 6,
+     "GIDP": 6
+    },
+    {
+     "season": 2014,
+     "id": 543829,
+     "name": "Dee Strange-Gordon",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "PA": 650,
+     "AVG": 0.289,
+     "OBP": 0.326,
+     "SLG": 0.378,
+     "OPS": 0.704,
+     "HR": 2,
+     "RBI": 34,
+     "R": 92,
+     "H": 176,
+     "2B": 24,
+     "3B": 12,
+     "SB": 64,
+     "CS": 19,
+     "BB": 31,
+     "SO": 107,
+     "HBP": 4,
+     "GIDP": 3
+    },
+    {
+     "season": 2011,
+     "id": 408314,
+     "name": "José Reyes",
+     "team": "New York Mets",
+     "age": 28,
+     "PA": 586,
+     "AVG": 0.337,
+     "OBP": 0.384,
+     "SLG": 0.493,
+     "OPS": 0.877,
+     "HR": 7,
+     "RBI": 44,
+     "R": 101,
+     "H": 181,
+     "2B": 31,
+     "3B": 16,
+     "SB": 39,
+     "CS": 7,
+     "BB": 43,
+     "SO": 41,
+     "HBP": 0,
+     "GIDP": 5
+    },
+    {
+     "season": 2010,
+     "id": 451594,
+     "name": "Dexter Fowler",
+     "team": "Colorado Rockies",
+     "age": 24,
+     "PA": 505,
+     "AVG": 0.26,
+     "OBP": 0.347,
+     "SLG": 0.41,
+     "OPS": 0.757,
+     "HR": 6,
+     "RBI": 36,
+     "R": 73,
+     "H": 114,
+     "2B": 20,
+     "3B": 14,
+     "SB": 13,
+     "CS": 8,
+     "BB": 57,
+     "SO": 104,
+     "HBP": 2,
+     "GIDP": 5
+    },
+    {
+     "season": 2012,
+     "id": 434636,
+     "name": "Ángel Pagán",
+     "team": "San Francisco Giants",
+     "age": 30,
+     "PA": 659,
+     "AVG": 0.288,
+     "OBP": 0.338,
+     "SLG": 0.44,
+     "OPS": 0.778,
+     "HR": 8,
+     "RBI": 56,
+     "R": 95,
+     "H": 174,
+     "2B": 38,
+     "3B": 15,
+     "SB": 29,
+     "CS": 7,
+     "BB": 48,
+     "SO": 97,
+     "HBP": 0,
+     "GIDP": 6
+    },
+    {
+     "season": 2015,
+     "id": 592696,
+     "name": "Eddie Rosario",
+     "team": "Minnesota Twins",
+     "age": 23,
+     "PA": 474,
+     "AVG": 0.267,
+     "OBP": 0.289,
+     "SLG": 0.459,
+     "OPS": 0.748,
+     "HR": 13,
+     "RBI": 50,
+     "R": 60,
+     "H": 121,
+     "2B": 18,
+     "3B": 15,
+     "SB": 11,
+     "CS": 6,
+     "BB": 15,
+     "SO": 118,
+     "HBP": 0,
+     "GIDP": 5
+    }
+   ],
+   "kind": "list",
+   "score": 3.25,
+   "players": [
+    {
+     "id": 451594,
+     "name": "Dexter Fowler"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "8 times in the 2010s a hitter hit 12+ triples and more triples than homers. The most extreme: Dexter Fowler, 2011 — 15 3B, 5 HR."
+  },
+  {
+   "n": 97,
+   "rule": "sub_two",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      1.99
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2015,
+     "id": 425844,
+     "name": "Zack Greinke",
+     "team": "Los Angeles Dodgers",
+     "age": 31,
+     "W": 19,
+     "L": 3,
+     "ERA": 1.66,
+     "IP": "222.2",
+     "SO": 200,
+     "BB": 40,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 14,
+     "WHIP": 0.84
+    },
+    {
+     "season": 2018,
+     "id": 594798,
+     "name": "Jacob deGrom",
+     "team": "New York Mets",
+     "age": 30,
+     "W": 10,
+     "L": 9,
+     "ERA": 1.7,
+     "IP": "217.0",
+     "SO": 269,
+     "BB": 46,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 0.91
+    },
+    {
+     "season": 2014,
+     "id": 477132,
+     "name": "Clayton Kershaw",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "W": 21,
+     "L": 3,
+     "ERA": 1.77,
+     "IP": "198.1",
+     "SO": 239,
+     "BB": 31,
+     "SV": 0,
+     "GS": 27,
+     "CG": 6,
+     "SHO": 2,
+     "HRA": 9,
+     "WHIP": 0.86
+    },
+    {
+     "season": 2015,
+     "id": 453562,
+     "name": "Jake Arrieta",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "W": 22,
+     "L": 6,
+     "ERA": 1.77,
+     "IP": "229.0",
+     "SO": 236,
+     "BB": 48,
+     "SV": 0,
+     "GS": 33,
+     "CG": 4,
+     "SHO": 3,
+     "HRA": 10,
+     "WHIP": 0.86
+    },
+    {
+     "season": 2013,
+     "id": 477132,
+     "name": "Clayton Kershaw",
+     "team": "Los Angeles Dodgers",
+     "age": 25,
+     "W": 16,
+     "L": 9,
+     "ERA": 1.83,
+     "IP": "236.0",
+     "SO": 232,
+     "BB": 52,
+     "SV": 0,
+     "GS": 33,
+     "CG": 3,
+     "SHO": 2,
+     "HRA": 11,
+     "WHIP": 0.92
+    },
+    {
+     "season": 2018,
+     "id": 605483,
+     "name": "Blake Snell",
+     "team": "Tampa Bay Rays",
+     "age": 25,
+     "W": 21,
+     "L": 5,
+     "ERA": 1.89,
+     "IP": "180.2",
+     "SO": 221,
+     "BB": 64,
+     "SV": 0,
+     "GS": 31,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 16,
+     "WHIP": 0.97
+    }
+   ],
+   "kind": "list",
+   "score": 3.0415,
+   "players": [
+    {
+     "id": 425844,
+     "name": "Zack Greinke"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "text": "6 times in the 2010s a pitcher posted an ERA under 2.00 (162+ IP). The most extreme: Zack Greinke, 2015 — 1.66 ERA in 222.2 IP."
+  },
+  {
+   "n": 98,
+   "rule": "no_walks_winner",
+   "group": "P",
+   "decade": 2010,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ],
+     [
+      "BB",
+      "lte",
+      30
+     ]
+    ],
+    "seasonMin": 2010,
+    "seasonMax": 2019
+   },
+   "evidence": [
+    {
+     "season": 2014,
+     "id": 461833,
+     "name": "Phil Hughes",
+     "team": "Minnesota Twins",
+     "age": 28,
+     "W": 16,
+     "L": 10,
+     "ERA": 3.52,
+     "IP": "209.2",
+     "SO": 186,
+     "BB": 16,
+     "SV": 0,
+     "GS": 32,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 16,
+     "WHIP": 1.13
+    },
+    {
+     "season": 2014,
+     "id": 547874,
+     "name": "Hisashi Iwakuma",
+     "team": "Seattle Mariners",
+     "age": 33,
+     "W": 15,
+     "L": 9,
+     "ERA": 3.52,
+     "IP": "179.0",
+     "SO": 154,
+     "BB": 21,
+     "SV": 0,
+     "GS": 28,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 20,
+     "WHIP": 1.05
+    },
+    {
+     "season": 2014,
+     "id": 450729,
+     "name": "Doug Fister",
+     "team": "Washington Nationals",
+     "age": 30,
+     "W": 16,
+     "L": 6,
+     "ERA": 2.41,
+     "IP": "164.0",
+     "SO": 98,
+     "BB": 24,
+     "SV": 0,
+     "GS": 25,
+     "CG": 1,
+     "SHO": 1,
+     "HRA": 18,
+     "WHIP": 1.08
+    },
+    {
+     "season": 2014,
+     "id": 533167,
+     "name": "Matt Shoemaker",
+     "team": "Los Angeles Angels",
+     "age": 27,
+     "W": 16,
+     "L": 4,
+     "ERA": 3.04,
+     "IP": "136.0",
+     "SO": 124,
+     "BB": 24,
+     "SV": 0,
+     "GS": 20,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 14,
+     "WHIP": 1.07
+    },
+    {
+     "season": 2010,
+     "id": 136880,
+     "name": "Roy Halladay",
+     "team": "Philadelphia Phillies",
+     "age": 33,
+     "W": 21,
+     "L": 10,
+     "ERA": 2.44,
+     "IP": "250.2",
+     "SO": 219,
+     "BB": 30,
+     "SV": 0,
+     "GS": 33,
+     "CG": 9,
+     "SHO": 4,
+     "HRA": 24,
+     "WHIP": 1.04
+    },
+    {
+     "season": 2013,
+     "id": 112526,
+     "name": "Bartolo Colon",
+     "team": "Oakland Athletics",
+     "age": 40,
+     "W": 18,
+     "L": 6,
+     "ERA": 2.65,
+     "IP": "190.1",
+     "SO": 117,
+     "BB": 29,
+     "SV": 0,
+     "GS": 30,
+     "CG": 3,
+     "SHO": 3,
+     "HRA": 14,
+     "WHIP": 1.17
+    }
+   ],
+   "kind": "list",
+   "score": 3,
+   "players": [
+    {
+     "id": 461833,
+     "name": "Phil Hughes"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "text": "10 times in the 2010s a pitcher won 15 games walking 30 batters or fewer. The most extreme: Phil Hughes, 2014 — 16-10, 16 BB."
+  }
+ ],
+ "counts": {
+  "hitterSeasons": 12215,
+  "pitcherSeasons": 7192
+ },
+ "method": [
+  "Every fact is a predicate evaluated over every hitter-season and pitcher-season in the decade, pulled in full from the MLB Stats API (the official record). Nothing is recalled or estimated; the rows that satisfy each rule are stored with it.",
+  "'Only', 'two' and 'three/four' claims are exact counts across the complete pull. Where a rule uses a plate-appearance or innings floor instead of a league qualification bar, the floor is stated in the fact so the claim is reproducible.",
+  "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
+  "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
+ ],
+ "generatedAt": "2026-09-28T03:27:52.657Z",
+ "sources": [
+  {
+   "season": 2010,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2010&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2010&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2010&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:46.801Z"
+  },
+  {
+   "season": 2011,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2011&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2011&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2011&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:47.321Z"
+  },
+  {
+   "season": 2012,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2012&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2012&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2012&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:47.846Z"
+  },
+  {
+   "season": 2013,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2013&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2013&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2013&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:48.400Z"
+  },
+  {
+   "season": 2014,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2014&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2014&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2014&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:48.998Z"
+  },
+  {
+   "season": 2015,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2015&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2015&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:49.592Z"
+  },
+  {
+   "season": 2016,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2016&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2016&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:50.216Z"
+  },
+  {
+   "season": 2017,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2017&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2017&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:50.756Z"
+  },
+  {
+   "season": 2018,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2018&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2018&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:51.359Z"
+  },
+  {
+   "season": 2019,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2019&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=2019&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:27:51.929Z"
+  }
+ ]
+}
