@@ -194,11 +194,28 @@ async function pullSeason(season) {
     leagues: [...leagues].sort(), hitting: {}, pitching: {} };
   for (const [k, cat] of Object.entries(HIT)) out.hitting[k] = leaders(hitters, cat, qHit);
   for (const [k, cat] of Object.entries(PIT)) out.pitching[k] = leaders(pitchers, cat, qPit);
-  // Decade totals need per-player sums; keep a compact per-player line.
-  out._players = {
-    hitting: hitters.map((e) => ({ id: e.sp.player.id, name: pname(e.sp), team: who(e).team, HR: num(e.sp.stat.homeRuns) || 0, H: num(e.sp.stat.hits) || 0, RBI: num(e.sp.stat.rbi) || 0, SB: num(e.sp.stat.stolenBases) || 0, R: num(e.sp.stat.runs) || 0, BB: num(e.sp.stat.baseOnBalls) || 0, "2B": num(e.sp.stat.doubles) || 0, "3B": num(e.sp.stat.triples) || 0, PA: num(e.sp.stat.plateAppearances) || 0 })),
-    pitching: pitchers.map((e) => ({ id: e.sp.player.id, name: pname(e.sp), team: who(e).team, W: num(e.sp.stat.wins) || 0, L: num(e.sp.stat.losses) || 0, SO: num(e.sp.stat.strikeOuts) || 0, SV: num(e.sp.stat.saves) || 0, SHO: num(e.sp.stat.shutouts) || 0, CG: num(e.sp.stat.completeGames) || 0, OUTS: outs(e.sp.stat.inningsPitched) || 0, ER: num(e.sp.stat.earnedRuns) || 0 })),
-  };
+  // Per-player rows for the decade: totals, streaks, and the fact rules all
+  // read these. Kept in memory for the decade and dropped before the summary
+  // is written; the facts file stores the rows that back each fact.
+  const H = (e) => { const s = e.sp.stat; return {
+    id: e.sp.player.id, name: pname(e.sp), team: who(e).team, teamId: e.sp.team && e.sp.team.id, league: lg(e.sp), teams: e.teams, age: num(s.age),
+    G: num(s.gamesPlayed) || 0, PA: num(s.plateAppearances) || 0, AB: num(s.atBats) || 0, H: num(s.hits) || 0, "2B": num(s.doubles) || 0, "3B": num(s.triples) || 0,
+    HR: num(s.homeRuns) || 0, R: num(s.runs) || 0, RBI: num(s.rbi) || 0, SB: num(s.stolenBases) || 0, CS: num(s.caughtStealing), BB: num(s.baseOnBalls) || 0,
+    IBB: num(s.intentionalWalks) || 0, SO: num(s.strikeOuts) || 0, HBP: num(s.hitByPitch) || 0, SF: num(s.sacFlies) || 0, GIDP: num(s.groundIntoDoublePlay) || 0,
+    AVG: num(s.avg) || 0, OBP: num(s.obp) || 0, SLG: num(s.slg) || 0, OPS: num(s.ops) || 0, TB: num(s.totalBases) || 0 }; };
+  const P = (e) => { const s = e.sp.stat; const o = outs(s.inningsPitched) || 0; return {
+    id: e.sp.player.id, name: pname(e.sp), team: who(e).team, teamId: e.sp.team && e.sp.team.id, league: lg(e.sp), teams: e.teams, age: num(s.age),
+    G: num(s.gamesPlayed) || 0, GS: num(s.gamesStarted) || 0, CG: num(s.completeGames) || 0, SHO: num(s.shutouts) || 0, W: num(s.wins) || 0, L: num(s.losses) || 0,
+    SV: num(s.saves) || 0, OUTS: o, H: num(s.hits) || 0, ER: num(s.earnedRuns) || 0, R: num(s.runs) || 0, HRA: num(s.homeRuns), BB: num(s.baseOnBalls) || 0,
+    IBB: num(s.intentionalWalks) || 0, SO: num(s.strikeOuts) || 0, HBP: num(s.hitBatsmen) || 0, WP: num(s.wildPitches) || 0,
+    ERA: num(s.era), WHIP: num(s.whip), K9: o ? (num(s.strikeOuts) || 0) * 27 / o : 0, BF: num(s.battersFaced) || 0 }; };
+  out._players = { hitting: hitters.map(H), pitching: pitchers.map(P) };
+  // Team rows from the standings, for club-level facts.
+  out._standings = [];
+  for (const d of (standings && standings.records) || []) for (const t of d.teamRecords || []) {
+    out._standings.push({ id: t.team && t.team.id, name: t.team && t.team.name, wins: num(t.wins), losses: num(t.losses),
+      runsScored: num(t.runsScored), runsAllowed: num(t.runsAllowed), runDifferential: num(t.runDifferential), leagueRank: num(t.leagueRank) });
+  }
   return out;
 }
 
@@ -235,7 +252,18 @@ async function runDecade(start) {
     await sleep(300); // be polite; there is no rush
   }
   const totals = decadeTotals(seasons);
-  for (const s of seasons) delete s._players;
+
+  // The post-ready facts: the whole point of the exercise. Built while the
+  // full rows are still in memory, written to their own file with the rows
+  // that back every line.
+  const { buildFacts } = require("./facts");
+  const factsOut = buildFacts({ decade: start, seasons: seasons.map((s) => ({ season: s.season, hitters: s._players.hitting, pitchers: s._players.pitching, standings: s._standings })) });
+  factsOut.generatedAt = new Date().toISOString();
+  factsOut.sources = seasons.map((s) => ({ season: s.season, ...s.sources, pulledAt: s.pulledAt }));
+  fs.writeFileSync(path.join(outDir, `${start}s-facts.json`), JSON.stringify(factsOut, null, 1));
+  console.log(`  facts: ${factsOut.facts.length} selected from ${factsOut.candidates} candidates`);
+
+  for (const s of seasons) { delete s._players; delete s._standings; }
   const summary = {
     decade: `${start}s`, generatedAt: new Date().toISOString(),
     method: [
