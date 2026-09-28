@@ -235,8 +235,33 @@ function cfbRules(e) {
     r("fr_td", `throw ${e >= 3 ? 30 : 20} touchdown passes as a freshman`, [["pass_td", "gte", e >= 3 ? 30 : 20]], "pass_td", (x) => `${x.pass_td} TD`, fr);
     r("fr_int", "intercept 7 passes as a freshman", [["def_int", "gte", 7]], "def_int", (x) => `${x.def_int} INT`, fr);
   }
+  const pg = (k, v, head, say) => r(`pg_${k}`, head, [["games", "gte", 8], [k, "gte", v]], k, say, { floor: "8+ games" });
+  pg("rush_yds_per_g", e >= 3 ? 150 : 130, `average ${e >= 3 ? 150 : 130} rushing yards a game`, (x) => `${x.rush_yds_per_g} per game`);
+  pg("rec_yds_per_g", e >= 3 ? 130 : 110, `average ${e >= 3 ? 130 : 110} receiving yards a game`, (x) => `${x.rec_yds_per_g} per game`);
+  pg("pass_yds_per_g", e >= 3 ? 375 : 275, `average ${e >= 3 ? 375 : 275} passing yards a game`, (x) => `${x.pass_yds_per_g} per game`);
+  r("few_int", "throw 300 passes with 5 or fewer interceptions", [["pass_att", "gte", 300], ["pass_int", "lte", 5]], "pass_att", (x) => `${x.pass_att} att, ${x.pass_int} INT`);
+  r("td_pct", "throw a touchdown on 10% of their passes", [["pass_att", "gte", 200], ["pass_td_pct", "gte", 10]], "pass_td_pct", (x) => `${x.pass_td_pct}% (${x.pass_td} TD)`, { floor: "200+ attempts" });
+  r("int_pct", "throw an interception on 7% of their passes", [["pass_att", "gte", 200], ["pass_int_pct", "gte", 7]], "pass_int_pct", (x) => `${x.pass_int_pct}% (${x.pass_int} INT)`, { floor: "200+ attempts" });
+  r("grind", "carry 300 times at 4.0 yards a carry or less", [["rush_att", "gte", 300], ["rush_yds_per_att", "lte", 4]], "rush_att", (x) => `${x.rush_att} carries, ${x.rush_yds_per_att} ypc`);
+  r("rec_td_combo", "catch 80 passes and 15 touchdowns", [["rec", "gte", 80], ["rec_td", "gte", 15]], "rec_td", (x) => `${x.rec} rec, ${x.rec_td} TD`);
+  r("qb_rtd", "run for 15 touchdowns as a quarterback", [["rush_td", "gte", 15]], "rush_td", (x) => `${x.rush_td} rush TD`, { pos: "qb" });
+  r("alltd20", `score ${Math.round(t.alltd * 0.75)} touchdowns`, [["all_td", "gte", Math.round(t.alltd * 0.75)]], "all_td", (x) => `${x.all_td} TD`);
+  r("int_yds", "return interceptions for 200 yards", [["def_int_yds", "gte", 200]], "def_int_yds", (x) => `${x.def_int_yds} return yds, ${x.def_int} INT`);
+  r("kr_avg", "average 30 yards a kickoff return", [["kick_ret", "gte", 15], ["kick_ret_yds_per_ret", "gte", 30]], "kick_ret_yds_per_ret", (x) => `${x.kick_ret_yds_per_ret} on ${x.kick_ret} returns`, { floor: "15+ returns" });
+  r("pr_avg", "average 18 yards a punt return", [["punt_ret", "gte", 15], ["punt_ret_yds_per_ret", "gte", 18]], "punt_ret_yds_per_ret", (x) => `${x.punt_ret_yds_per_ret} on ${x.punt_ret} returns`, { floor: "15+ returns" });
+  r("fumrec", "recover 5 fumbles", [["fumbles_rec", "gte", 5]], "fumbles_rec", (x) => `${x.fumbles_rec} recoveries`);
+  r("touches", "touch the ball 350 times", [["touches", "gte", 350]], "touches", (x) => `${x.touches} touches`);
+  r("fg_acc", "make 20 field goals at 90% or better", [["fgm", "gte", 20], ["fg_pct", "gte", 90]], "fg_pct", (x) => `${x.fgm}-${x.fga}`);
+  if (e >= 3) {
+    r("xpm_hi", "make 70 extra points", [["xpm", "gte", 70]], "xpm", (x) => `${x.xpm}-${x.xpa} XP`);
+    r("pd_hi", "defend 25 passes", [["pass_defended", "gte", 25]], "pass_defended", (x) => `${x.pass_defended} passes defended`);
+    r("solo_hi", "make 110 solo tackles", [["tackles_solo", "gte", 110]], "tackles_solo", (x) => `${x.tackles_solo} solo`);
+    r("fr_sacks", "record 10 sacks as a freshman", [["sacks", "gte", 10]], "sacks", (x) => `${x.sacks} sacks`, { params: { "class[]": "fr" }, local: [["class", "re", "^fr"]] });
+    r("ff_hi2", "force 5 fumbles", [["fumbles_forced", "gte", 5]], "fumbles_forced", (x) => `${x.fumbles_forced} forced`);
+    r("sack_int", "record 5 sacks and 3 interceptions", [["sacks", "gte", 5], ["def_int", "gte", 3]], "sacks", (x) => `${x.sacks} sacks, ${x.def_int} INT`);
+  }
   r("rtd_rec", "run for 15 touchdowns while averaging 6 yards a carry", [["rush_td", "gte", 15], ["rush_yds_per_att", "gte", 6]], "rush_td", (x) => `${x.rush_td} TD, ${x.rush_yds_per_att} ypc`);
-  r("ret_yds", "gain 1,000 kick and punt return yards", [["ret_yds", "gte", 1000]], "ret_yds", (x) => `${c(x.ret_yds)} return yds`);
+  r("ret_yds", "gain 1,000 return yards on kicks and punts", [["ret_yds", "gte", 1000]], "ret_yds", (x) => `${c(x.ret_yds)} return yds`);
   return R;
 }
 function cfbExtremes() {
@@ -301,6 +326,15 @@ function cfbTeamRules(d) {
   if (d >= 1950) r("rush_hi", "rush for 4,500 yards", [["rush_yds", "gte", 4500]], "rush_yds", (x) => `${c(x.rush_yds)} rush yds`);
   if (d >= 1980) r("pass_hi", "throw for 5,500 yards", [["pass_yds", "gte", 5500]], "pass_yds", (x) => `${c(x.pass_yds)} pass yds`);
   if (d >= 1960) r("to_opp", "force 50 turnovers", [["turnovers_opp", "gte", 50]], "turnovers_opp", (x) => `${x.turnovers_opp} takeaways`);
+  if (d >= 1990) r("pts550", "score 550 points", [["points", "gte", 550]], "points", (x) => `${x.points} points, ${rec(x)}`);
+  if (d >= 1970) r("wins13", "win 13 games", [["wins", "gte", 13]], "wins", (x) => rec(x));
+  if (d >= 1970) r("opp_low", "allow 150 or fewer points in 12+ games", [["games", "gte", 12], ["points_opp", "lte", 150]], "points_opp", (x) => `${x.points_opp} allowed in ${x.games} games`, { asc: true });
+  if (d >= 1960) r("team_tot", `gain ${d >= 1990 ? "7,000" : "5,500"} yards of offense`, [["tot_yds", "gte", d >= 1990 ? 7000 : 5500]], "tot_yds", (x) => `${c(x.tot_yds)} total yds`);
+  if (d >= 1960) r("pen_hi", "draw 1,200 penalty yards", [["penalties_yds", "gte", 1200]], "penalties_yds", (x) => `${c(x.penalties_yds)} penalty yds on ${x.penalties} flags`);
+  if (d >= 1960) r("rush_def", "allow fewer than 800 rushing yards all season", [["games", "gte", 10], ["rush_yds_opp", "lte", 799]], "rush_yds_opp", (x) => `${x.rush_yds_opp} rush yds allowed in ${x.games} games`, { asc: true });
+  if (d >= 1960) r("no_pass", "throw for fewer than 1,000 yards", [["games", "gte", 10], ["pass_yds", "lte", 999]], "pass_yds", (x) => `${x.pass_yds} pass yds, ${rec(x)}`, { asc: true });
+  if (d >= 1990) r("sacks_team", "record 50 sacks", [["sacks", "gte", 50]], "sacks", (x) => `${x.sacks} sacks`);
+  if (d >= 1960) r("td_team", `score ${d >= 1990 ? 80 : 60} touchdowns`, [["all_td_team", "gte", d >= 1990 ? 80 : 60]], "all_td_team", (x) => `${x.all_td_team} TD`);
   if (d >= 1960) r("to_low", "commit 8 or fewer turnovers", [["games", "gte", 10], ["turnovers", "lte", 8]], "turnovers", (x) => `${x.turnovers} giveaways, ${rec(x)}`, { floor: "10+ games" });
   return R;
 }
@@ -314,6 +348,10 @@ function cfbTeamExtremes(d) {
   x("tx_loss", "losses", [["losses", "gte", 1]], (r, s, dl) => `Most losses in a season in the ${dl}: ${r.name}, ${s} — ${rec(r)}.`);
   x("tx_worst", "points_diff", [["games", "gte", 5]], (r, s, dl) => `Worst scoring margin in a season in the ${dl}: ${r.name}, ${s} — outscored ${r.points_opp}-${r.points}.`, true);
   if (d >= 1950) x("tx_rush", "rush_yds", [["rush_yds", "gte", 1]], (r, s, dl) => `Most team rushing yards in a season in the ${dl}: ${r.name}, ${s} — ${c(r.rush_yds)}.`);
+  if (d >= 1960) x("tx_teamtot", "tot_yds", [["tot_yds", "gte", 1]], (r, s, dl) => `Most total yards by a team in a season in the ${dl}: ${r.name}, ${s} — ${c(r.tot_yds)}.`);
+  if (d >= 1960) x("tx_pen", "penalties_yds", [["penalties_yds", "gte", 1]], (r, s, dl) => `Most penalty yards by a team in a season in the ${dl}: ${r.name}, ${s} — ${c(r.penalties_yds)}.`);
+  if (d >= 1960) x("tx_to", "turnovers_opp", [["turnovers_opp", "gte", 1]], (r, s, dl) => `Most takeaways by a team in a season in the ${dl}: ${r.name}, ${s} — ${r.turnovers_opp}.`);
+  if (d >= 1960) x("tx_rdef", "rush_yds_opp", [["games", "gte", 10]], (r, s, dl) => `Fewest rushing yards allowed in a season (10+ games) in the ${dl}: ${r.name}, ${s} — ${r.rush_yds_opp}.`, true);
   if (d >= 1950) x("tx_pass", "pass_yds", [["pass_yds", "gte", 1]], (r, s, dl) => `Most team passing yards in a season in the ${dl}: ${r.name}, ${s} — ${c(r.pass_yds)}.`);
   return X;
 }
@@ -345,6 +383,29 @@ function cbbRules(e) {
   if (e >= 3) r("no3", "score 800 points without making a three", [["pts", "gte", 800], ["fg3", "lte", 0]], "pts", (x) => `${c(x.pts)} pts, 0 threes`);
   if (e >= 3) r("triple", "average 20 points, 7 rebounds and 7 assists", [["games", "gte", 15], ["pts_per_g", "gte", 20], ["trb_per_g", "gte", 7], ["ast_per_g", "gte", 7]], "pts_per_g", (x) => `${d1(x.pts_per_g)}/${d1(x.trb_per_g)}/${d1(x.ast_per_g)}`, { floor: "15+ games" });
   if (e >= 3) r("blk_ast", "record 100 blocks and 100 assists", [["blk", "gte", 100], ["ast", "gte", 100]], "blk", (x) => `${x.blk} blk, ${x.ast} ast`);
+  r("eff_scorer", "average 25 points on 55% shooting", [["games", "gte", 15], ["pts_per_g", "gte", 25], ["fg_pct", "gte", 55]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg, ${x.fg_pct}% FG`, { floor: "15+ games" });
+  r("ft250", "make 250 free throws", [["ft", "gte", 250]], "ft", (x) => `${x.ft}-${x.fta} FT`);
+  r("pts800", `score ${e >= 3 ? 850 : 750} points`, [["pts", "gte", e >= 3 ? 850 : 750]], "pts", (x) => `${c(x.pts)} pts`);
+  if (e >= 3) {
+    r("trb400", "grab 400 rebounds", [["trb", "gte", 400]], "trb", (x) => `${x.trb} rebounds`);
+    r("ts_hi", "post a 70% true shooting percentage on 300+ shots", [["fga", "gte", 300], ["ts_pct", "gte", 70]], "ts_pct", (x) => `${x.ts_pct}% TS`);
+    r("fg3a_hi", "attempt 350 threes", [["fg3a", "gte", 350]], "fg3a", (x) => `${x.fg3}-${x.fg3a} 3PT`);
+    r("fg3_eff", "make 100 threes at 45% or better", [["fg3", "gte", 100], ["fg3_pct", "gte", 45]], "fg3_pct", (x) => `${x.fg3}-${x.fg3a} (${x.fg3_pct}%)`);
+    r("blk_pts", "block 120 shots and score 600 points", [["blk", "gte", 120], ["pts", "gte", 600]], "blk", (x) => `${x.blk} blk, ${x.pts} pts`);
+    r("ast250", "dish out 250 assists", [["ast", "gte", 250]], "ast", (x) => `${x.ast} assists`);
+    r("stl100", "record 100 steals", [["stl", "gte", 100]], "stl", (x) => `${x.stl} steals`);
+    r("fr_pts", "score 700 points as a freshman", [["pts", "gte", 700]], "pts", (x) => `${x.pts} pts`, { params: { "class[]": "fr" }, local: [["class", "re", "^fr"]] });
+    r("fr_blk", "block 100 shots as a freshman", [["blk", "gte", 100]], "blk", (x) => `${x.blk} blocks`, { params: { "class[]": "fr" }, local: [["class", "re", "^fr"]] });
+    r("fr_ast", "dish out 200 assists as a freshman", [["ast", "gte", 200]], "ast", (x) => `${x.ast} assists`, { params: { "class[]": "fr" }, local: [["class", "re", "^fr"]] });
+  }
+  if (e >= 4) {
+    r("ast_tov", "dish out 200 assists with 60 or fewer turnovers", [["ast", "gte", 200], ["tov", "lte", 60]], "ast", (x) => `${x.ast} ast, ${x.tov} TO`);
+    r("orb_hi", "grab 150 offensive rebounds", [["orb", "gte", 150]], "orb", (x) => `${x.orb} offensive rebounds`);
+    r("per_hi", "post a PER of 35", [["games", "gte", 20], ["per", "gte", 35]], "per", (x) => `${x.per} PER`, { floor: "20+ games" });
+    r("usg_hi", "post a 35% usage rate", [["games", "gte", 20], ["usg_pct", "gte", 35]], "usg_pct", (x) => `${x.usg_pct}% usage`, { floor: "20+ games" });
+    r("ws_hi", "produce 9 win shares", [["ws", "gte", 9]], "ws", (x) => `${x.ws} win shares`);
+    r("bpm_hi", "post a box plus-minus of 15", [["games", "gte", 20], ["bpm", "gte", 15]], "bpm", (x) => `${x.bpm} BPM`, { floor: "20+ games" });
+  }
   if (e <= 2) r("ppg30", "average 30 points a game", [["games", "gte", 15], ["pts_per_g", "gte", 30]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { floor: "15+ games" });
   if (e <= 2) r("rpg25", "average 22 rebounds a game", [["games", "gte", 15], ["trb_per_g", "gte", 22]], "trb_per_g", (x) => `${d1(x.trb_per_g)} rpg`, { floor: "15+ games" });
   if (e <= 2) r("fta_hi", "attempt 350 free throws", [["fta", "gte", 350]], "fta", (x) => `${x.ft}-${x.fta} FT`);
@@ -397,6 +458,14 @@ function cbbTeamRules(d) {
   r("wins_hi", `win ${d < 1970 ? 30 : 35} games`, [["wins", "gte", d < 1970 ? 30 : 35]], "wins", (x) => rec(x));
   r("loss_hi", `lose ${d < 1980 ? 22 : 27} games`, [["losses", "gte", d < 1980 ? 22 : 27]], "losses", (x) => rec(x));
   r("fgp_hi", "shoot 53% from the field as a team", [["games", "gte", 15], ["fg_pct", "gte", 53]], "fg_pct", (x) => `${x.fg_pct}%, ${rec(x)}`, { floor: "15+ games" });
+  r("ftp_team", "shoot 78% from the line as a team", [["games", "gte", 15], ["ft_pct", "gte", 78]], "ft_pct", (x) => `${x.ft_pct}% FT, ${rec(x)}`, { floor: "15+ games" });
+  r("rpg_team", `average ${d < 1970 ? 55 : 45} rebounds a game as a team`, [["games", "gte", 15], ["trb_per_g", "gte", d < 1970 ? 55 : 45]], "trb_per_g", (x) => `${d1(x.trb_per_g)} rpg, ${rec(x)}`, { floor: "15+ games" });
+  r("games40", "play 40 games in a season", [["games", "gte", 40]], "games", (x) => `${rec(x)}`);
+  r("dom", "win 30 games and lose 3 or fewer", [["wins", "gte", 30], ["losses", "lte", 3]], "wins", (x) => rec(x));
+  if (d >= 1980) { r("apg_team", "average 20 assists a game as a team", [["games", "gte", 15], ["ast_per_g", "gte", 20]], "ast_per_g", (x) => `${d1(x.ast_per_g)} apg, ${rec(x)}`, { floor: "15+ games" });
+    r("bpg_team", "average 7 blocks a game as a team", [["games", "gte", 15], ["blk_per_g", "gte", 7]], "blk_per_g", (x) => `${d1(x.blk_per_g)} bpg, ${rec(x)}`, { floor: "15+ games" });
+    r("spg_team", "average 11 steals a game as a team", [["games", "gte", 15], ["stl_per_g", "gte", 11]], "stl_per_g", (x) => `${d1(x.stl_per_g)} spg, ${rec(x)}`, { floor: "15+ games" });
+    r("fg3p_team", "shoot 42% from three as a team", [["games", "gte", 15], ["fg3a", "gte", 300], ["fg3_pct", "gte", 42]], "fg3_pct", (x) => `${x.fg3_pct}% 3PT, ${rec(x)}`, { floor: "15+ games, 300+ attempts" }); }
   if (d >= 1980) r("fg3_hi", `make ${d >= 2000 ? 400 : 330} threes as a team`, [["fg3", "gte", d >= 2000 ? 400 : 330]], "fg3", (x) => `${x.fg3} threes`);
   return R;
 }
@@ -407,6 +476,11 @@ function cbbTeamExtremes(d) {
   x("tx_win", "wins", [["wins", "gte", 1]], (r, s, dl) => `Most wins in a season in the ${dl}: ${r.name}, ${s} — ${rec(r)}.`);
   x("tx_loss", "losses", [["losses", "gte", 1]], (r, s, dl) => `Most losses in a season in the ${dl}: ${r.name}, ${s} — ${rec(r)}.`);
   x("tx_fgp", "fg_pct", [["games", "gte", 15]], (r, s, dl) => `Best team field-goal percentage in a season in the ${dl}: ${r.name}, ${s} — ${r.fg_pct}%.`);
+  x("tx_rpg", "trb_per_g", [["games", "gte", 15]], (r, s, dl) => `Most rebounds per game by a team in the ${dl}: ${r.name}, ${s} — ${d1(r.trb_per_g)}.`);
+  x("tx_ftp", "ft_pct", [["games", "gte", 15]], (r, s, dl) => `Best team free-throw percentage in the ${dl}: ${r.name}, ${s} — ${r.ft_pct}%.`);
+  if (d >= 1980) { x("tx_apg", "ast_per_g", [["games", "gte", 15]], (r, s, dl) => `Most assists per game by a team in the ${dl}: ${r.name}, ${s} — ${d1(r.ast_per_g)}.`);
+    x("tx_bpg", "blk_per_g", [["games", "gte", 15]], (r, s, dl) => `Most blocks per game by a team in the ${dl}: ${r.name}, ${s} — ${d1(r.blk_per_g)}.`);
+    x("tx_spg", "stl_per_g", [["games", "gte", 15]], (r, s, dl) => `Most steals per game by a team in the ${dl}: ${r.name}, ${s} — ${d1(r.stl_per_g)}.`); }
   if (d >= 1980) x("tx_fg3", "fg3", [["fg3", "gte", 1]], (r, s, dl) => `Most team threes in a season in the ${dl}: ${r.name}, ${s} — ${r.fg3}.`);
   return X;
 }
@@ -652,9 +726,10 @@ async function runSport(key, decades) {
 
 async function main() {
   const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
-  const sports = args.filter((a) => SPORTS[a]); const decades = args.filter((a) => /^\d{4}$/.test(a)).map(Number);
+  // "cfb 1950 1960 cbb" -> cfb gets 1950 and 1960, cbb its default decades.
+  const plan = []; for (const a of args) { if (SPORTS[a]) plan.push({ sport: a, decades: [] }); else if (/^\d{4}$/.test(a) && plan.length) plan[plan.length - 1].decades.push(Number(a)); }
   const DEF = { nfl: [1920, 1930, 1940, 1950, 1960, 1970, 1980, 1990], cfb: Array.from({ length: 17 }, (_, i) => 1860 + 10 * i), cbb: [1940, 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020] };
-  for (const sport of sports) {
+  for (const { sport, decades } of plan) {
     await runSport(sport, decades.length ? decades : DEF[sport]);
     if (process.argv.includes("--commit")) await commit(sport);
   }

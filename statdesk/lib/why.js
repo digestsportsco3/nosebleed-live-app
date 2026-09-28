@@ -125,6 +125,14 @@ const ANGLE = {
   fr_rpg: "Freshman production is recruiting-class bragging material.",
   one_loss: "So close to perfect is its own kind of story.",
   fg3_team: "Three-point volume as a team shows how the game changed.",
+  pen_hi: "Penalty-yard totals are rival-fan dunking material.",
+  rush_def: "Run defense that stout is old-school dominance fans love to cite.",
+  no_pass: "Winning while barely throwing is an option-era oddity modern fans find wild.",
+  team_tot: "Total offense crowns the era's juggernaut offenses.",
+  ast_tov: "Assists without turnovers is the pure point guard stat.",
+  adv: "Advanced-stat seasons win over the analytics crowd.",
+  dom: "Near-perfect seasons define a program's golden era.",
+  games40: "Forty games means a deep tournament run; a volume-of-winning stat.",
 };
 
 // Kind framing. Two variants each, chosen by line number, so a page does not
@@ -146,7 +154,14 @@ const ALIAS = { py: "yds_hi", ptd: "td_hi", int: "int_hi", ry: "ry_hi", rec: "re
   alltd: "alltd_hi", ypc: "ypc_hi", ypr: "ypr_hi", cmp_low: "cmp_hi", rate: "rate_hi", apy: "apy_hi", fgm: "fgm_hi", punt: "punt_avg", car: "car_hi",
   rtd: "rtd_hi", rectd: "rectd_hi", scrim: "scrim_hi", ff: "ff_hi", tot: "tot_hi", ppg: "ppg_hi", rpg: "rpg_hi", ft: "ft_hi", fgp: "fgp_hi", ftp: "ftp_hi",
   apg: "apg_hi", bpg: "bpg_hi", spg: "spg_hi", fg3: "fg3_hi", trb: "trb_hi", ast: "ast_hi", blk: "blk_hi", stl: "stl_hi", win: "wins_hi", loss: "loss_hi",
-  opp: "stingy", diff: "diff_hi", worst: "diff_low", rush: "rush_hi", pass: "pass_hi" };
+  opp: "stingy", diff: "diff_hi", worst: "diff_low", rush: "rush_hi", pass: "pass_hi",
+  pg_rush_yds_per_g: "rypg", pg_rec_yds_per_g: "recypg", pg_pass_yds_per_g: "pypg", few_int: "int_low", grind: "ry_slow", rec_td_combo: "rectd_hi",
+  alltd20: "alltd_hi", fumrec: "fumrec_hi", touches: "car_hi", fg_acc: "fg_perfect", pd_hi: "dint_hi", solo_hi: "tkl_hi", fr_sacks: "yng_sacks",
+  ff_hi2: "ff_hi", sack_int: "stl_blk", pts550: "pts_hi", wins13: "wins_hi", opp_low: "stingy", sacks_team: "sacks_hi", td_team: "pts_hi",
+  eff_scorer: "fgp_hi", ft250: "ft_hi", pts800: "ppg_hi", trb400: "trb_hi", ts_hi: "fgp_hi", fg3a_hi: "fg3_hi", fg3_eff: "fg3p_hi", blk_pts: "blk_hi",
+  ast250: "ast_hi", stl100: "stl_hi", fr_pts: "fr_ppg", fr_blk: "fr_rpg", fr_ast: "fr_ppg", orb_hi: "rpg_hi", per_hi: "adv", usg_hi: "adv", ws_hi: "adv", bpm_hi: "adv",
+  ftp_team: "ftp_hi", rpg_team: "rpg_hi", apg_team: "apg_hi", bpg_team: "bpg_hi", spg_team: "spg_hi", fg3p_team: "fg3p_hi",
+  teamtot: "team_tot", pen: "pen_hi", to: "to_opp", rdef: "rush_def" };
 // Families by pattern, for rule names that carry their threshold (rec130, fg40...).
 const FAMILY = [[/_slow$/, "ry_slow"], [/^(c_|s_)?py|^yds\d|^x_py/, "yds_hi"], [/^(c_|s_)?ptd|^td\d|^x_ptd/, "td_hi"], [/^td30_int|^int_over_td/, "td_int"], [/^int\d|^x_int$/, "int_hi"],
   [/^few_int|^x_int_rate_low/, "int_low"], [/^cmp|^x_cpct/, "cmp_hi"], [/^rate|^x_rate/, "rate_hi"], [/^ypa/, "ypa_hi"], [/^sacked|^sk\d|^x_sk$/, "sacked"],
