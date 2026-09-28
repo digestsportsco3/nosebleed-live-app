@@ -51,7 +51,9 @@ PII = [
         r"(?:Street|St\.?|Road|Rd\.?|Drive|Dr\.?|Court|Ct\.?|Lane|Ln\.?|Terrace|Ave\.?|"
         r"Avenue|Place|Pointe|Trail|Cir\.?|Circle|Way|Blvd\.?)\b")),
     ("apartment line", re.compile(r"\bApt\.? ?\d+")),
-    ("EIN", re.compile(r"\b\d{2}-\d{7}\b")),
+    # A real EIN never has a 00 prefix. nflverse player ids (00-0020531) share the shape and
+    # fill the NFL facts files by the thousand, so exclude that prefix.
+    ("EIN", re.compile(r"\b(?!00-)\d{2}-\d{7}\b")),
     ("personal email", re.compile(
         r"[A-Za-z0-9._%+-]+@(?:gmail|yahoo|protonmail|me|outlook|hotmail|icloud|aol)\.com", re.I)),
 ]
