@@ -156,7 +156,7 @@ function hitRules(t) {
     { key: "seventy_sb", group: "H", head: "steal 70 bases", floor: null,
       f: (r) => r.SB >= 70, mag: (r) => r.SB,
       say: (r) => `${r.SB} SB`, finder: { group: "batting", filters: [["SB", "gte", 70]] } },
-    { key: "sb_perfect", group: "H", head: "steal 30+ bases and be caught 3 times or fewer", floor: null,
+    { key: "sb_perfect", group: "H", head: "steal 30+ bases while getting caught 3 times or fewer", floor: null,
       f: (r) => r.SB >= 30 && r.CS != null && r.CS <= 3, mag: (r) => r.SB - 10 * r.CS,
       say: (r) => `${r.SB} SB, ${r.CS} CS`, finder: null },
   ];
@@ -302,33 +302,40 @@ function ruleFacts(rows, rules, decade, t) {
     const m = rows.filter(rule.f);
     if (!m.length) continue;
     const sorted = [...m].sort((a, b) => rule.mag(b) - rule.mag(a));
+    // Count PLAYERS, not player-seasons. A man who did it twice is still the
+    // only man who did it, and saying "only two ... Randy Johnson, Randy
+    // Johnson" is both wrong and embarrassing.
+    const byPlayer = new Map();
+    for (const r of sorted) { if (!byPlayer.has(r.id)) byPlayer.set(r.id, []); byPlayer.get(r.id).push(r); }
+    const players = [...byPlayer.values()]; // each: seasons sorted by magnitude
     const floor = rule.floor ? ` (${rule.floor})` : "";
     const who = rule.group === "H" ? "hitter" : "pitcher";
     const finder = rule.finder ? { ...rule.finder, seasonMin: decade, seasonMax: decade + 9 } : null;
-    const base = { rule: rule.key, group: rule.group, decade, finder, evidence: sorted.slice(0, 6).map(ev) };
-    if (m.length === 1) {
-      const r = m[0];
-      out.push({ ...base, kind: "only", score: 10 + bonus(rule, r), players: [pid(r)], seasons: [yr(r)],
-        text: `The only ${who} of the ${decade}s to ${rule.head}${floor}: ${r.name}, ${yr(r)} — ${rule.say(r)}.` });
-    } else if (m.length === 2) {
-      out.push({ ...base, kind: "pair", score: 8 + bonus(rule, sorted[0]), players: sorted.map(pid), seasons: sorted.map(yr),
-        text: `Only two ${who}s of the ${decade}s ${verb(rule.head)}${floor}: ${listNames(sorted, rule.say)}.` });
-    } else if (m.length <= 4) {
-      out.push({ ...base, kind: "few", score: 6 + bonus(rule, sorted[0]), players: sorted.map(pid), seasons: sorted.map(yr),
-        text: `Just ${["", "", "", "three", "four"][m.length]} ${who}s of the ${decade}s ${verb(rule.head)}${floor}: ${listNames(sorted, rule.say)}.` });
+    const line = (rs) => rs.length === 1
+      ? `${rs[0].name} (${yr(rs[0])}: ${rule.say(rs[0])})`
+      : `${rs[0].name} (${rs.length} times; ${rs.map((r) => `${yr(r)}: ${rule.say(r)}`).join(", ")})`;
+    const base = { rule: rule.key, group: rule.group, decade, finder, evidence: sorted.slice(0, players.length <= 4 ? 12 : 6).map(ev), seasonsMatched: m.length };
+    if (players.length === 1) {
+      const rs = players[0]; const r = rs[0];
+      out.push({ ...base, kind: "only", score: 10 + bonus(rule, r), players: [pid(r)], seasons: rs.map(yr),
+        text: rs.length === 1
+          ? `The only ${who} of the ${decade}s to ${rule.head}${floor}: ${r.name}, ${yr(r)} — ${rule.say(r)}.`
+          : `The only ${who} of the ${decade}s to ${rule.head}${floor} was ${r.name} — and he did it ${rs.length === 2 ? "twice" : `${rs.length} times`} (${rs.map((x) => `${yr(x)}: ${rule.say(x)}`).join("; ")}).` });
+    } else if (players.length === 2) {
+      out.push({ ...base, kind: "pair", score: 8 + bonus(rule, sorted[0]), players: players.map((rs) => pid(rs[0])), seasons: sorted.map(yr),
+        text: `Only two ${who}s of the ${decade}s ${verb(rule.head)}${floor}: ${players.map(line).join("; ")}.` });
+    } else if (players.length <= 4) {
+      out.push({ ...base, kind: "few", score: 6 + bonus(rule, sorted[0]), players: players.map((rs) => pid(rs[0])), seasons: sorted.map(yr),
+        text: `Just ${["", "", "", "three", "four"][players.length]} ${who}s of the ${decade}s ${verb(rule.head)}${floor}: ${players.map(line).join("; ")}.` });
     } else {
       const r = sorted[0];
       out.push({ ...base, kind: "list", score: 3 + bonus(rule, r), players: [pid(r)], seasons: [yr(r)],
-        text: `${m.length} times in the ${decade}s a ${who} ${verb(rule.head)}${floor}. The most extreme: ${r.name}, ${yr(r)} — ${rule.say(r)}.` });
+        text: `${players.length} ${who}s ${verb(rule.head)}${floor} in the ${decade}s${m.length > players.length ? ` (${m.length} seasons)` : ""}. The most extreme: ${r.name}, ${yr(r)} — ${rule.say(r)}.` });
     }
   }
   return out;
 }
-// Past tense for the "N times a hitter ..." lines. Every verb in the head is
-// conjugated, not just the first: "draw 100 walks and strike out 180" must
-// become "drew ... and struck out", not "drew ... and strike out".
-const PAST = { hit: "hit", bat: "batted", steal: "stole", drive: "drove", collect: "collected", post: "posted", draw: "drew", play: "played", go: "went", get: "got", strike: "struck", throw: "threw", win: "won", lose: "lost", complete: "completed", save: "saved", allow: "allowed", walk: "walked", ground: "grounded", be: "was" };
-function verb(head) { return head.replace(/\b(hit|bat|steal|drive|collect|post|draw|play|go|get|strike|throw|win|lose|complete|save|allow|walk|ground|be)\b(?! (?:homers|runs|hits|games|bases|walks|innings|batters|saves|doubles|triples|pitches|steals|times|by))/g, (v) => PAST[v] || v); }
+function verb(head) { return head.replace(/\b(hit|bat|steal|drive|collect|post|draw|play|go|get|strike|throw|win|lose|complete|save|allow|walk|ground|score|finish|reach)\b(?! (?:homers|runs|hits|games|bases|walks|innings|batters|saves|doubles|triples|pitches|steals|times|by))/g, (v) => PAST[v] || v); }
 function bonus(rule, r) { const m = rule.mag(r); return Number.isFinite(m) ? Math.min(3, Math.abs(m) / 40) : 0; }
 const pid = (r) => ({ id: r.id, name: r.name });
 function ev(r) {
@@ -532,7 +539,7 @@ function select(cands, want) {
   const sorted = [...cands].sort((a, b) => b.score - a.score);
   const perPlayer = new Map(); const perRule = new Map(); const perKind = new Map();
   const out = [];
-  const cap = { player: 2, rule: 3, list: 14, nearmiss: 8, total: 12, team: 4, season: 12, age: 10 };
+  const cap = { player: 3, rule: 3, list: 22, nearmiss: 8, total: 14, team: 4, season: 14, age: 14 };
   for (const f of sorted) {
     if (out.length >= want) break;
     if ((perRule.get(f.rule) || 0) >= cap.rule) continue;
