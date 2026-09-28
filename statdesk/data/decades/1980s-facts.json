@@ -1,0 +1,8034 @@
+{
+ "decade": "1980s",
+ "era": "mid",
+ "thresholds": {
+  "hrBig": 30,
+  "hrHuge": 40,
+  "avgLow": 0.23,
+  "bbFew": 25,
+  "sbMany": 40,
+  "obpLow": 0.3,
+  "kFewHit": 25,
+  "kManyHit": 140,
+  "bbMany": 100,
+  "kMany": 200,
+  "kHuge": 250,
+  "wLow": 9,
+  "eraBad": 4.25,
+  "ipHuge": 900,
+  "kFewPit": 90,
+  "cgMany": 18,
+  "kPer9": 8.5,
+  "whip1": 1,
+  "sv": 30,
+  "hbp": 15,
+  "kClose": 100,
+  "hrTeam": 35,
+  "ageYoung": 22,
+  "ageOld": 37
+ },
+ "candidates": 136,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "hits_200_bb_100",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      200
+     ],
+     [
+      "BB",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 111153,
+     "name": "Wade Boggs",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "PA": 719,
+     "AVG": 0.366,
+     "OBP": 0.476,
+     "SLG": 0.49,
+     "OPS": 0.966,
+     "HR": 5,
+     "RBI": 58,
+     "R": 128,
+     "H": 214,
+     "2B": 45,
+     "3B": 6,
+     "SB": 2,
+     "CS": 3,
+     "BB": 125,
+     "SO": 34,
+     "HBP": 3,
+     "GIDP": 23
+    },
+    {
+     "season": 1986,
+     "id": 111153,
+     "name": "Wade Boggs",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "PA": 693,
+     "AVG": 0.357,
+     "OBP": 0.453,
+     "SLG": 0.486,
+     "OPS": 0.939,
+     "HR": 8,
+     "RBI": 71,
+     "R": 107,
+     "H": 207,
+     "2B": 47,
+     "3B": 2,
+     "SB": 0,
+     "CS": 4,
+     "BB": 105,
+     "SO": 44,
+     "HBP": 0,
+     "GIDP": 11
+    },
+    {
+     "season": 1989,
+     "id": 111153,
+     "name": "Wade Boggs",
+     "team": "Boston Red Sox",
+     "age": 31,
+     "PA": 742,
+     "AVG": 0.33,
+     "OBP": 0.43,
+     "SLG": 0.449,
+     "OPS": 0.879,
+     "HR": 3,
+     "RBI": 54,
+     "R": 113,
+     "H": 205,
+     "2B": 51,
+     "3B": 7,
+     "SB": 2,
+     "CS": 6,
+     "BB": 107,
+     "SO": 51,
+     "HBP": 7,
+     "GIDP": 19
+    },
+    {
+     "season": 1987,
+     "id": 111153,
+     "name": "Wade Boggs",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 667,
+     "AVG": 0.363,
+     "OBP": 0.461,
+     "SLG": 0.588,
+     "OPS": 1.049,
+     "HR": 24,
+     "RBI": 89,
+     "R": 108,
+     "H": 200,
+     "2B": 40,
+     "3B": 6,
+     "SB": 1,
+     "CS": 3,
+     "BB": 105,
+     "SO": 48,
+     "HBP": 2,
+     "GIDP": 13
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 111153,
+     "name": "Wade Boggs"
+    }
+   ],
+   "seasons": [
+    1988,
+    1986,
+    1989,
+    1987
+   ],
+   "text": "The only hitter of the 1980s to get 200 hits and 100 walks was Wade Boggs — and he did it 4 times (1988: 214 H, 125 BB; 1986: 207 H, 105 BB; 1989: 205 H, 107 BB; …)."
+  },
+  {
+   "n": 2,
+   "rule": "k_no_wins",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      200
+     ],
+     [
+      "W",
+      "lte",
+      9
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1987,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "Houston Astros",
+     "age": 40,
+     "W": 8,
+     "L": 16,
+     "ERA": 2.76,
+     "IP": "211.2",
+     "SO": 270,
+     "BB": 87,
+     "SV": 0,
+     "GS": 34,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 14,
+     "WHIP": 1.14
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 121597,
+     "name": "Nolan Ryan Jr."
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "text": "The only pitcher of the 1980s to strike out 200 and win 9 games or fewer: Nolan Ryan Jr., 1987 — 270 K, 8-16."
+  },
+  {
+   "n": 3,
+   "rule": "three_hundred_ip",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      300
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 35,
+     "W": 24,
+     "L": 9,
+     "ERA": 2.34,
+     "IP": "304.0",
+     "SO": 286,
+     "BB": 90,
+     "SV": 0,
+     "GS": 38,
+     "CG": 13,
+     "SHO": 3,
+     "HRA": 15,
+     "WHIP": 1.1
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 112008,
+     "name": "Steve Carlton"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "The only pitcher of the 1980s to throw 300 innings: Steve Carlton, 1980 — 304.0 IP."
+  },
+  {
+   "n": 4,
+   "rule": "walks_many",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      130
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1986,
+     "id": 124492,
+     "name": "Bobby Witt",
+     "team": "Texas Rangers",
+     "age": 22,
+     "W": 11,
+     "L": 9,
+     "ERA": 5.48,
+     "IP": "157.2",
+     "SO": 174,
+     "BB": 143,
+     "SV": 0,
+     "GS": 31,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 18,
+     "WHIP": 1.73
+    },
+    {
+     "season": 1987,
+     "id": 124492,
+     "name": "Bobby Witt",
+     "team": "Texas Rangers",
+     "age": 23,
+     "W": 8,
+     "L": 10,
+     "ERA": 4.91,
+     "IP": "143.0",
+     "SO": 160,
+     "BB": 140,
+     "SV": 0,
+     "GS": 25,
+     "CG": 1,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 1.78
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 124492,
+     "name": "Bobby Witt"
+    }
+   ],
+   "seasons": [
+    1986,
+    1987
+   ],
+   "text": "The only pitcher of the 1980s to walk 130+ batters was Bobby Witt — and he did it twice (1986: 143 BB; 1987: 140 BB)."
+  },
+  {
+   "n": 5,
+   "rule": "rbi_no_hr",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "HR",
+      "lte",
+      8
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 115839,
+     "name": "Tom Herr",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 696,
+     "AVG": 0.302,
+     "OBP": 0.379,
+     "SLG": 0.416,
+     "OPS": 0.795,
+     "HR": 8,
+     "RBI": 110,
+     "R": 97,
+     "H": 180,
+     "2B": 38,
+     "3B": 3,
+     "SB": 31,
+     "CS": 3,
+     "BB": 80,
+     "SO": 55,
+     "HBP": 2,
+     "GIDP": 6
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.55,
+   "players": [
+    {
+     "id": 115839,
+     "name": "Tom Herr"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "The only hitter of the 1980s to drive in 100 runs with 8 homers or fewer: Tom Herr, 1985 — 110 RBI, 8 HR."
+  },
+  {
+   "n": 6,
+   "rule": "forty_forty",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      40
+     ],
+     [
+      "SB",
+      "gte",
+      40
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 111962,
+     "name": "José Canseco",
+     "team": "Oakland Athletics",
+     "age": 23,
+     "PA": 705,
+     "AVG": 0.307,
+     "OBP": 0.391,
+     "SLG": 0.569,
+     "OPS": 0.96,
+     "HR": 42,
+     "RBI": 124,
+     "R": 120,
+     "H": 187,
+     "2B": 34,
+     "3B": 0,
+     "SB": 40,
+     "CS": 16,
+     "BB": 78,
+     "SO": 128,
+     "HBP": 10,
+     "GIDP": 15
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.05,
+   "players": [
+    {
+     "id": 111962,
+     "name": "José Canseco"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "The only hitter of the 1980s to go 40-40: José Canseco, 1988 — 42 HR, 40 SB."
+  },
+  {
+   "n": 7,
+   "rule": "old_avg",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1983,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "California Angels",
+     "age": 37,
+     "PA": 536,
+     "AVG": 0.339,
+     "OBP": 0.409,
+     "SLG": 0.411,
+     "OPS": 0.82,
+     "HR": 2,
+     "RBI": 44,
+     "R": 66,
+     "H": 160,
+     "2B": 24,
+     "3B": 2,
+     "SB": 6,
+     "CS": 7,
+     "BB": 57,
+     "SO": 48,
+     "HBP": 1,
+     "GIDP": 15
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.7725,
+   "players": [
+    {
+     "id": 111986,
+     "name": "Rod Carew"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "text": "The only hitter of the 1980s to bat .320 at age 37 or older (500+ PA): Rod Carew, 1983 — .339 at 37."
+  },
+  {
+   "n": 8,
+   "rule": "doubles_no_hr",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "2B",
+      "gte",
+      45
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1989,
+     "id": 111153,
+     "name": "Wade Boggs",
+     "team": "Boston Red Sox",
+     "age": 31,
+     "PA": 742,
+     "AVG": 0.33,
+     "OBP": 0.43,
+     "SLG": 0.449,
+     "OPS": 0.879,
+     "HR": 3,
+     "RBI": 54,
+     "R": 113,
+     "H": 205,
+     "2B": 51,
+     "3B": 7,
+     "SB": 2,
+     "CS": 6,
+     "BB": 107,
+     "SO": 51,
+     "HBP": 7,
+     "GIDP": 19
+    },
+    {
+     "season": 1988,
+     "id": 111153,
+     "name": "Wade Boggs",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "PA": 719,
+     "AVG": 0.366,
+     "OBP": 0.476,
+     "SLG": 0.49,
+     "OPS": 0.966,
+     "HR": 5,
+     "RBI": 58,
+     "R": 128,
+     "H": 214,
+     "2B": 45,
+     "3B": 6,
+     "SB": 2,
+     "CS": 3,
+     "BB": 125,
+     "SO": 34,
+     "HBP": 3,
+     "GIDP": 23
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 11.2,
+   "players": [
+    {
+     "id": 111153,
+     "name": "Wade Boggs"
+    }
+   ],
+   "seasons": [
+    1989,
+    1988
+   ],
+   "text": "The only hitter of the 1980s to hit 45 doubles and 5 homers or fewer was Wade Boggs — and he did it twice (1989: 51 2B, 3 HR; 1988: 45 2B, 5 HR)."
+  },
+  {
+   "n": 9,
+   "rule": "bb_and_k",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      100
+     ],
+     [
+      "SO",
+      "gte",
+      140
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1989,
+     "id": 112326,
+     "name": "Jack Clark",
+     "team": "San Diego Padres",
+     "age": 33,
+     "PA": 594,
+     "AVG": 0.242,
+     "OBP": 0.41,
+     "SLG": 0.459,
+     "OPS": 0.869,
+     "HR": 26,
+     "RBI": 94,
+     "R": 76,
+     "H": 110,
+     "2B": 19,
+     "3B": 1,
+     "SB": 6,
+     "CS": 2,
+     "BB": 132,
+     "SO": 145,
+     "HBP": 1,
+     "GIDP": 10
+    },
+    {
+     "season": 1983,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 33,
+     "PA": 669,
+     "AVG": 0.255,
+     "OBP": 0.399,
+     "SLG": 0.524,
+     "OPS": 0.923,
+     "HR": 40,
+     "RBI": 109,
+     "R": 104,
+     "H": 136,
+     "2B": 16,
+     "3B": 4,
+     "SB": 7,
+     "CS": 8,
+     "BB": 128,
+     "SO": 148,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1988,
+     "id": 112326,
+     "name": "Jack Clark",
+     "team": "New York Yankees",
+     "age": 32,
+     "PA": 616,
+     "AVG": 0.242,
+     "OBP": 0.381,
+     "SLG": 0.433,
+     "OPS": 0.814,
+     "HR": 27,
+     "RBI": 93,
+     "R": 81,
+     "H": 120,
+     "2B": 14,
+     "3B": 0,
+     "SB": 3,
+     "CS": 2,
+     "BB": 113,
+     "SO": 141,
+     "HBP": 2,
+     "GIDP": 14
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 112326,
+     "name": "Jack Clark"
+    },
+    {
+     "id": 121836,
+     "name": "Mike Schmidt"
+    }
+   ],
+   "seasons": [
+    1989,
+    1983,
+    1988
+   ],
+   "text": "Only two hitters of the 1980s drew 100 walks and struck out 140 times: Jack Clark (2×, best 1989: 132 BB, 145 K); Mike Schmidt (1983: 128 BB, 148 K)."
+  },
+  {
+   "n": 10,
+   "rule": "k300_no20",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SO",
+      "gte",
+      300
+     ],
+     [
+      "W",
+      "lte",
+      19
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1986,
+     "id": 121941,
+     "name": "Mike Scott",
+     "team": "Houston Astros",
+     "age": 31,
+     "W": 18,
+     "L": 10,
+     "ERA": 2.22,
+     "IP": "275.1",
+     "SO": 306,
+     "BB": 72,
+     "SV": 0,
+     "GS": 37,
+     "CG": 7,
+     "SHO": 5,
+     "HRA": 17,
+     "WHIP": 0.92
+    },
+    {
+     "season": 1989,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "Texas Rangers",
+     "age": 42,
+     "W": 16,
+     "L": 10,
+     "ERA": 3.2,
+     "IP": "239.1",
+     "SO": 301,
+     "BB": 98,
+     "SV": 0,
+     "GS": 32,
+     "CG": 6,
+     "SHO": 2,
+     "HRA": 17,
+     "WHIP": 1.09
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 121941,
+     "name": "Mike Scott"
+    },
+    {
+     "id": 121597,
+     "name": "Nolan Ryan Jr."
+    }
+   ],
+   "seasons": [
+    1986,
+    1989
+   ],
+   "text": "Only two pitchers of the 1980s struck out 300 without winning 20: Mike Scott (1986: 306 K, 18-10); Nolan Ryan Jr. (1989: 301 K, 16-10)."
+  },
+  {
+   "n": 11,
+   "rule": "saves_bad_era",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      30
+     ],
+     [
+      "ERA",
+      "gte",
+      4.25
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1987,
+     "id": 120971,
+     "name": "Jeff Reardon",
+     "team": "Minnesota Twins",
+     "age": 31,
+     "W": 8,
+     "L": 8,
+     "ERA": 4.48,
+     "IP": "80.1",
+     "SO": 83,
+     "BB": 28,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 14,
+     "WHIP": 1.22
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.887,
+   "players": [
+    {
+     "id": 120971,
+     "name": "Jeff Reardon"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "text": "The only pitcher of the 1980s to save 30 games with an ERA of 4.25 or worse: Jeff Reardon, 1987 — 31 SV, 4.48 ERA."
+  },
+  {
+   "n": 12,
+   "rule": "twenty_five_wins",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      25
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 122830,
+     "name": "Steve Stone",
+     "team": "Baltimore Orioles",
+     "age": 32,
+     "W": 25,
+     "L": 7,
+     "ERA": 3.23,
+     "IP": "250.2",
+     "SO": 149,
+     "BB": 101,
+     "SV": 0,
+     "GS": 37,
+     "CG": 9,
+     "SHO": 1,
+     "HRA": 22,
+     "WHIP": 1.3
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.625,
+   "players": [
+    {
+     "id": 122830,
+     "name": "Steve Stone"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "The only pitcher of the 1980s to win 25 games: Steve Stone, 1980 — 25-7."
+  },
+  {
+   "n": 13,
+   "rule": "twenty_losses",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "L",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 117091,
+     "name": "Brian Kingman",
+     "team": "Oakland Athletics",
+     "age": 25,
+     "W": 8,
+     "L": 20,
+     "ERA": 3.83,
+     "IP": "211.1",
+     "SO": 116,
+     "BB": 82,
+     "SV": 0,
+     "GS": 30,
+     "CG": 10,
+     "SHO": 1,
+     "HRA": 21,
+     "WHIP": 1.38
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.5,
+   "players": [
+    {
+     "id": 117091,
+     "name": "Brian Kingman"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "The only pitcher of the 1980s to lose 20 games: Brian Kingman, 1980 — 8-20."
+  },
+  {
+   "n": 14,
+   "rule": "era_under_3_no_wins",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      2.99
+     ],
+     [
+      "W",
+      "lte",
+      7
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 118146,
+     "name": "Joe Magrane",
+     "team": "St. Louis Cardinals",
+     "age": 23,
+     "W": 5,
+     "L": 9,
+     "ERA": 2.18,
+     "IP": "165.1",
+     "SO": 100,
+     "BB": 51,
+     "SV": 0,
+     "GS": 24,
+     "CG": 4,
+     "SHO": 3,
+     "HRA": 6,
+     "WHIP": 1.11
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.1795,
+   "players": [
+    {
+     "id": 118146,
+     "name": "Joe Magrane"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "The only pitcher of the 1980s to post an ERA under 3.00 and win 7 or fewer (162+ IP): Joe Magrane, 1988 — 2.18 ERA, 5-9."
+  },
+  {
+   "n": 15,
+   "rule": "runs_no_rbi",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "R",
+      "gte",
+      120
+     ],
+     [
+      "RBI",
+      "lte",
+      50
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 124435,
+     "name": "Willie Wilson",
+     "team": "Kansas City Royals",
+     "age": 24,
+     "PA": 745,
+     "AVG": 0.326,
+     "OBP": 0.357,
+     "SLG": 0.421,
+     "OPS": 0.778,
+     "HR": 3,
+     "RBI": 49,
+     "R": 133,
+     "H": 230,
+     "2B": 28,
+     "3B": 15,
+     "SB": 79,
+     "CS": 10,
+     "BB": 28,
+     "SO": 81,
+     "HBP": 6,
+     "GIDP": 4
+    },
+    {
+     "season": 1987,
+     "id": 112487,
+     "name": "Vince Coleman",
+     "team": "St. Louis Cardinals",
+     "age": 25,
+     "PA": 702,
+     "AVG": 0.289,
+     "OBP": 0.363,
+     "SLG": 0.358,
+     "OPS": 0.721,
+     "HR": 3,
+     "RBI": 43,
+     "R": 121,
+     "H": 180,
+     "2B": 14,
+     "3B": 10,
+     "SB": 109,
+     "CS": 22,
+     "BB": 70,
+     "SO": 126,
+     "HBP": 3,
+     "GIDP": 7
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 124435,
+     "name": "Willie Wilson"
+    },
+    {
+     "id": 112487,
+     "name": "Vince Coleman"
+    }
+   ],
+   "seasons": [
+    1980,
+    1987
+   ],
+   "text": "Only two hitters of the 1980s scored 120 runs with 50 RBI or fewer: Willie Wilson (1980: 133 R, 49 RBI); Vince Coleman (1987: 121 R, 43 RBI)."
+  },
+  {
+   "n": 16,
+   "rule": "no_walks_winner",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ],
+     [
+      "BB",
+      "lte",
+      30
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 116240,
+     "name": "LaMarr Hoyt",
+     "team": "San Diego Padres",
+     "age": 30,
+     "W": 16,
+     "L": 8,
+     "ERA": 3.47,
+     "IP": "210.1",
+     "SO": 83,
+     "BB": 20,
+     "SV": 0,
+     "GS": 31,
+     "CG": 8,
+     "SHO": 3,
+     "HRA": 20,
+     "WHIP": 1.09
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 116240,
+     "name": "LaMarr Hoyt"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "The only pitcher of the 1980s to win 15 games walking 30 batters or fewer: LaMarr Hoyt, 1985 — 16-8, 20 BB."
+  },
+  {
+   "n": 17,
+   "rule": "two_thirty_hits",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      230
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 111153,
+     "name": "Wade Boggs",
+     "team": "Boston Red Sox",
+     "age": 27,
+     "PA": 758,
+     "AVG": 0.368,
+     "OBP": 0.45,
+     "SLG": 0.478,
+     "OPS": 0.928,
+     "HR": 8,
+     "RBI": 78,
+     "R": 107,
+     "H": 240,
+     "2B": 42,
+     "3B": 3,
+     "SB": 2,
+     "CS": 1,
+     "BB": 96,
+     "SO": 61,
+     "HBP": 4,
+     "GIDP": 20
+    },
+    {
+     "season": 1986,
+     "id": 118443,
+     "name": "Don Mattingly",
+     "team": "New York Yankees",
+     "age": 25,
+     "PA": 742,
+     "AVG": 0.352,
+     "OBP": 0.394,
+     "SLG": 0.573,
+     "OPS": 0.967,
+     "HR": 31,
+     "RBI": 113,
+     "R": 117,
+     "H": 238,
+     "2B": 53,
+     "3B": 2,
+     "SB": 0,
+     "CS": 0,
+     "BB": 53,
+     "SO": 35,
+     "HBP": 1,
+     "GIDP": 17
+    },
+    {
+     "season": 1988,
+     "id": 120790,
+     "name": "Kirby Puckett",
+     "team": "Minnesota Twins",
+     "age": 28,
+     "PA": 691,
+     "AVG": 0.356,
+     "OBP": 0.375,
+     "SLG": 0.545,
+     "OPS": 0.92,
+     "HR": 24,
+     "RBI": 121,
+     "R": 109,
+     "H": 234,
+     "2B": 42,
+     "3B": 5,
+     "SB": 6,
+     "CS": 7,
+     "BB": 23,
+     "SO": 83,
+     "HBP": 2,
+     "GIDP": 17
+    },
+    {
+     "season": 1980,
+     "id": 124435,
+     "name": "Willie Wilson",
+     "team": "Kansas City Royals",
+     "age": 24,
+     "PA": 745,
+     "AVG": 0.326,
+     "OBP": 0.357,
+     "SLG": 0.421,
+     "OPS": 0.778,
+     "HR": 3,
+     "RBI": 49,
+     "R": 133,
+     "H": 230,
+     "2B": 28,
+     "3B": 15,
+     "SB": 79,
+     "CS": 10,
+     "BB": 28,
+     "SO": 81,
+     "HBP": 6,
+     "GIDP": 4
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 111153,
+     "name": "Wade Boggs"
+    },
+    {
+     "id": 118443,
+     "name": "Don Mattingly"
+    },
+    {
+     "id": 120790,
+     "name": "Kirby Puckett"
+    },
+    {
+     "id": 124435,
+     "name": "Willie Wilson"
+    }
+   ],
+   "seasons": [
+    1985,
+    1986,
+    1988,
+    1980
+   ],
+   "text": "Just four hitters of the 1980s collected 230 hits: Wade Boggs (1985: 240 H); Don Mattingly (1986: 238 H); Kirby Puckett (1988: 234 H); Willie Wilson (1980: 230 H)."
+  },
+  {
+   "n": 18,
+   "kind": "streak",
+   "rule": "HR30",
+   "group": "H",
+   "decade": 1980,
+   "score": 9,
+   "players": [
+    {
+     "id": 121836,
+     "name": "Mike Schmidt"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 30,
+     "PA": 652,
+     "AVG": 0.286,
+     "OBP": 0.38,
+     "SLG": 0.624,
+     "OPS": 1.004,
+     "HR": 48,
+     "RBI": 121,
+     "R": 104,
+     "H": 157,
+     "2B": 25,
+     "3B": 8,
+     "SB": 12,
+     "CS": 5,
+     "BB": 89,
+     "SO": 119,
+     "HBP": 2,
+     "GIDP": 6
+    },
+    {
+     "season": 1981,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 31,
+     "PA": 434,
+     "AVG": 0.316,
+     "OBP": 0.435,
+     "SLG": 0.644,
+     "OPS": 1.079,
+     "HR": 31,
+     "RBI": 91,
+     "R": 78,
+     "H": 112,
+     "2B": 19,
+     "3B": 2,
+     "SB": 12,
+     "CS": 4,
+     "BB": 73,
+     "SO": 71,
+     "HBP": 4,
+     "GIDP": 9
+    },
+    {
+     "season": 1982,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "PA": 631,
+     "AVG": 0.28,
+     "OBP": 0.403,
+     "SLG": 0.547,
+     "OPS": 0.95,
+     "HR": 35,
+     "RBI": 87,
+     "R": 108,
+     "H": 144,
+     "2B": 26,
+     "3B": 3,
+     "SB": 14,
+     "CS": 7,
+     "BB": 107,
+     "SO": 131,
+     "HBP": 3,
+     "GIDP": 11
+    },
+    {
+     "season": 1983,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 33,
+     "PA": 669,
+     "AVG": 0.255,
+     "OBP": 0.399,
+     "SLG": 0.524,
+     "OPS": 0.923,
+     "HR": 40,
+     "RBI": 109,
+     "R": 104,
+     "H": 136,
+     "2B": 16,
+     "3B": 4,
+     "SB": 7,
+     "CS": 8,
+     "BB": 128,
+     "SO": 148,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1984,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 34,
+     "PA": 632,
+     "AVG": 0.277,
+     "OBP": 0.383,
+     "SLG": 0.536,
+     "OPS": 0.919,
+     "HR": 36,
+     "RBI": 106,
+     "R": 93,
+     "H": 146,
+     "2B": 23,
+     "3B": 3,
+     "SB": 5,
+     "CS": 7,
+     "BB": 92,
+     "SO": 116,
+     "HBP": 4,
+     "GIDP": 15
+    },
+    {
+     "season": 1985,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 35,
+     "PA": 645,
+     "AVG": 0.277,
+     "OBP": 0.375,
+     "SLG": 0.532,
+     "OPS": 0.907,
+     "HR": 33,
+     "RBI": 93,
+     "R": 89,
+     "H": 152,
+     "2B": 31,
+     "3B": 5,
+     "SB": 1,
+     "CS": 3,
+     "BB": 87,
+     "SO": 117,
+     "HBP": 3,
+     "GIDP": 10
+    },
+    {
+     "season": 1986,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 36,
+     "PA": 657,
+     "AVG": 0.29,
+     "OBP": 0.39,
+     "SLG": 0.547,
+     "OPS": 0.937,
+     "HR": 37,
+     "RBI": 119,
+     "R": 97,
+     "H": 160,
+     "2B": 29,
+     "3B": 1,
+     "SB": 1,
+     "CS": 2,
+     "BB": 89,
+     "SO": 84,
+     "HBP": 7,
+     "GIDP": 8
+    },
+    {
+     "season": 1987,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 37,
+     "PA": 613,
+     "AVG": 0.293,
+     "OBP": 0.388,
+     "SLG": 0.548,
+     "OPS": 0.936,
+     "HR": 35,
+     "RBI": 113,
+     "R": 88,
+     "H": 153,
+     "2B": 28,
+     "3B": 0,
+     "SB": 2,
+     "CS": 1,
+     "BB": 83,
+     "SO": 80,
+     "HBP": 2,
+     "GIDP": 17
+    }
+   ],
+   "text": "Mike Schmidt hit 30+ home runs in 8 straight seasons (1980-87), the longest run of the 1980s."
+  },
+  {
+   "n": 19,
+   "kind": "streak",
+   "rule": "SB40",
+   "group": "H",
+   "decade": 1980,
+   "score": 9,
+   "players": [
+    {
+     "id": 115749,
+     "name": "Rickey Henderson"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 21,
+     "PA": 722,
+     "AVG": 0.303,
+     "OBP": 0.42,
+     "SLG": 0.399,
+     "OPS": 0.819,
+     "HR": 9,
+     "RBI": 53,
+     "R": 111,
+     "H": 179,
+     "2B": 22,
+     "3B": 4,
+     "SB": 100,
+     "CS": 26,
+     "BB": 117,
+     "SO": 54,
+     "HBP": 5,
+     "GIDP": 6
+    },
+    {
+     "season": 1981,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 22,
+     "PA": 493,
+     "AVG": 0.319,
+     "OBP": 0.408,
+     "SLG": 0.437,
+     "OPS": 0.845,
+     "HR": 6,
+     "RBI": 35,
+     "R": 89,
+     "H": 135,
+     "2B": 18,
+     "3B": 7,
+     "SB": 56,
+     "CS": 22,
+     "BB": 64,
+     "SO": 68,
+     "HBP": 2,
+     "GIDP": 7
+    },
+    {
+     "season": 1982,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 23,
+     "PA": 656,
+     "AVG": 0.267,
+     "OBP": 0.398,
+     "SLG": 0.382,
+     "OPS": 0.78,
+     "HR": 10,
+     "RBI": 51,
+     "R": 119,
+     "H": 143,
+     "2B": 24,
+     "3B": 4,
+     "SB": 130,
+     "CS": 42,
+     "BB": 116,
+     "SO": 94,
+     "HBP": 2,
+     "GIDP": 5
+    },
+    {
+     "season": 1983,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 24,
+     "PA": 622,
+     "AVG": 0.292,
+     "OBP": 0.414,
+     "SLG": 0.421,
+     "OPS": 0.835,
+     "HR": 9,
+     "RBI": 48,
+     "R": 105,
+     "H": 150,
+     "2B": 25,
+     "3B": 7,
+     "SB": 108,
+     "CS": 19,
+     "BB": 103,
+     "SO": 80,
+     "HBP": 4,
+     "GIDP": 11
+    },
+    {
+     "season": 1984,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 25,
+     "PA": 597,
+     "AVG": 0.293,
+     "OBP": 0.399,
+     "SLG": 0.458,
+     "OPS": 0.857,
+     "HR": 16,
+     "RBI": 58,
+     "R": 113,
+     "H": 147,
+     "2B": 27,
+     "3B": 4,
+     "SB": 66,
+     "CS": 18,
+     "BB": 86,
+     "SO": 81,
+     "HBP": 5,
+     "GIDP": 7
+    },
+    {
+     "season": 1985,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "New York Yankees",
+     "age": 26,
+     "PA": 654,
+     "AVG": 0.314,
+     "OBP": 0.419,
+     "SLG": 0.516,
+     "OPS": 0.935,
+     "HR": 24,
+     "RBI": 72,
+     "R": 146,
+     "H": 172,
+     "2B": 28,
+     "3B": 5,
+     "SB": 80,
+     "CS": 10,
+     "BB": 99,
+     "SO": 65,
+     "HBP": 3,
+     "GIDP": 8
+    },
+    {
+     "season": 1986,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "New York Yankees",
+     "age": 27,
+     "PA": 701,
+     "AVG": 0.263,
+     "OBP": 0.358,
+     "SLG": 0.469,
+     "OPS": 0.827,
+     "HR": 28,
+     "RBI": 74,
+     "R": 130,
+     "H": 160,
+     "2B": 31,
+     "3B": 5,
+     "SB": 87,
+     "CS": 18,
+     "BB": 89,
+     "SO": 81,
+     "HBP": 2,
+     "GIDP": 12
+    },
+    {
+     "season": 1987,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "New York Yankees",
+     "age": 28,
+     "PA": 440,
+     "AVG": 0.291,
+     "OBP": 0.423,
+     "SLG": 0.497,
+     "OPS": 0.92,
+     "HR": 17,
+     "RBI": 37,
+     "R": 78,
+     "H": 104,
+     "2B": 17,
+     "3B": 3,
+     "SB": 41,
+     "CS": 8,
+     "BB": 80,
+     "SO": 52,
+     "HBP": 2,
+     "GIDP": 10
+    },
+    {
+     "season": 1988,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "New York Yankees",
+     "age": 29,
+     "PA": 647,
+     "AVG": 0.305,
+     "OBP": 0.394,
+     "SLG": 0.399,
+     "OPS": 0.793,
+     "HR": 6,
+     "RBI": 50,
+     "R": 118,
+     "H": 169,
+     "2B": 30,
+     "3B": 2,
+     "SB": 93,
+     "CS": 13,
+     "BB": 82,
+     "SO": 54,
+     "HBP": 3,
+     "GIDP": 6
+    },
+    {
+     "season": 1989,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "2+ teams",
+     "age": 30,
+     "PA": 674,
+     "AVG": 0.274,
+     "OBP": 0.411,
+     "SLG": 0.399,
+     "OPS": 0.81,
+     "HR": 12,
+     "RBI": 57,
+     "R": 113,
+     "H": 148,
+     "2B": 26,
+     "3B": 3,
+     "SB": 77,
+     "CS": 14,
+     "BB": 126,
+     "SO": 68,
+     "HBP": 3,
+     "GIDP": 8
+    }
+   ],
+   "text": "Rickey Henderson stole 40+ bases in 10 straight seasons (1980-89), the longest run of the 1980s."
+  },
+  {
+   "n": 20,
+   "rule": "twenty_twenty_low_avg",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      20
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ],
+     [
+      "BA",
+      "lte",
+      0.23900000000000002
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 119551,
+     "name": "Dwayne Murphy",
+     "team": "Oakland Athletics",
+     "age": 27,
+     "PA": 660,
+     "AVG": 0.238,
+     "OBP": 0.349,
+     "SLG": 0.418,
+     "OPS": 0.767,
+     "HR": 27,
+     "RBI": 94,
+     "R": 84,
+     "H": 129,
+     "2B": 15,
+     "3B": 1,
+     "SB": 26,
+     "CS": 8,
+     "BB": 94,
+     "SO": 122,
+     "HBP": 3,
+     "GIDP": 7
+    },
+    {
+     "season": 1988,
+     "id": 116593,
+     "name": "Howard Johnson",
+     "team": "New York Mets",
+     "age": 27,
+     "PA": 594,
+     "AVG": 0.23,
+     "OBP": 0.343,
+     "SLG": 0.422,
+     "OPS": 0.765,
+     "HR": 24,
+     "RBI": 68,
+     "R": 85,
+     "H": 114,
+     "2B": 21,
+     "3B": 1,
+     "SB": 23,
+     "CS": 7,
+     "BB": 86,
+     "SO": 104,
+     "HBP": 3,
+     "GIDP": 6
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.73,
+   "players": [
+    {
+     "id": 119551,
+     "name": "Dwayne Murphy"
+    },
+    {
+     "id": 116593,
+     "name": "Howard Johnson"
+    }
+   ],
+   "seasons": [
+    1982,
+    1988
+   ],
+   "text": "Only two hitters of the 1980s went 20-20 while batting under .240: Dwayne Murphy (1982: 27 HR, 26 SB, .238); Howard Johnson (1988: 24 HR, 23 SB, .230)."
+  },
+  {
+   "n": 21,
+   "rule": "hr_no_doubles",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      35
+     ],
+     [
+      "2B",
+      "lte",
+      15
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 117092,
+     "name": "Dave Kingman",
+     "team": "New York Mets",
+     "age": 33,
+     "PA": 607,
+     "AVG": 0.204,
+     "OBP": 0.285,
+     "SLG": 0.432,
+     "OPS": 0.717,
+     "HR": 37,
+     "RBI": 99,
+     "R": 80,
+     "H": 109,
+     "2B": 9,
+     "3B": 1,
+     "SB": 4,
+     "CS": 0,
+     "BB": 59,
+     "SO": 156,
+     "HBP": 4,
+     "GIDP": 11
+    },
+    {
+     "season": 1980,
+     "id": 116154,
+     "name": "Bob Horner",
+     "team": "Atlanta Braves",
+     "age": 22,
+     "PA": 495,
+     "AVG": 0.268,
+     "OBP": 0.307,
+     "SLG": 0.529,
+     "OPS": 0.836,
+     "HR": 35,
+     "RBI": 89,
+     "R": 81,
+     "H": 124,
+     "2B": 14,
+     "3B": 1,
+     "SB": 3,
+     "CS": 1,
+     "BB": 27,
+     "SO": 50,
+     "HBP": 1,
+     "GIDP": 16
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.7,
+   "players": [
+    {
+     "id": 117092,
+     "name": "Dave Kingman"
+    },
+    {
+     "id": 116154,
+     "name": "Bob Horner"
+    }
+   ],
+   "seasons": [
+    1982,
+    1980
+   ],
+   "text": "Only two hitters of the 1980s hit 35+ homers with 15 doubles or fewer: Dave Kingman (1982: 37 HR, 9 2B); Bob Horner (1980: 35 HR, 14 2B)."
+  },
+  {
+   "n": 22,
+   "rule": "avg_no_walks",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ],
+     [
+      "BB",
+      "lte",
+      25
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 121253,
+     "name": "Mickey Rivers",
+     "team": "Texas Rangers",
+     "age": 31,
+     "PA": 661,
+     "AVG": 0.333,
+     "OBP": 0.353,
+     "SLG": 0.437,
+     "OPS": 0.79,
+     "HR": 7,
+     "RBI": 60,
+     "R": 96,
+     "H": 210,
+     "2B": 32,
+     "3B": 6,
+     "SB": 18,
+     "CS": 7,
+     "BB": 20,
+     "SO": 34,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 1988,
+     "id": 120790,
+     "name": "Kirby Puckett",
+     "team": "Minnesota Twins",
+     "age": 28,
+     "PA": 691,
+     "AVG": 0.356,
+     "OBP": 0.375,
+     "SLG": 0.545,
+     "OPS": 0.92,
+     "HR": 24,
+     "RBI": 121,
+     "R": 109,
+     "H": 234,
+     "2B": 42,
+     "3B": 5,
+     "SB": 6,
+     "CS": 7,
+     "BB": 23,
+     "SO": 83,
+     "HBP": 2,
+     "GIDP": 17
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.3325,
+   "players": [
+    {
+     "id": 121253,
+     "name": "Mickey Rivers"
+    },
+    {
+     "id": 120790,
+     "name": "Kirby Puckett"
+    }
+   ],
+   "seasons": [
+    1980,
+    1988
+   ],
+   "text": "Only two hitters of the 1980s batted .320 or better with 25 walks or fewer (500+ PA): Mickey Rivers (1980: .333, 20 BB); Kirby Puckett (1988: .356, 23 BB)."
+  },
+  {
+   "n": 23,
+   "rule": "five_tool",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BA",
+      "gte",
+      0.3
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 111962,
+     "name": "José Canseco",
+     "team": "Oakland Athletics",
+     "age": 23,
+     "PA": 705,
+     "AVG": 0.307,
+     "OBP": 0.391,
+     "SLG": 0.569,
+     "OPS": 0.96,
+     "HR": 42,
+     "RBI": 124,
+     "R": 120,
+     "H": 187,
+     "2B": 34,
+     "3B": 0,
+     "SB": 40,
+     "CS": 16,
+     "BB": 78,
+     "SO": 128,
+     "HBP": 10,
+     "GIDP": 15
+    },
+    {
+     "season": 1983,
+     "id": 119545,
+     "name": "Dale Murphy",
+     "team": "Atlanta Braves",
+     "age": 27,
+     "PA": 687,
+     "AVG": 0.302,
+     "OBP": 0.393,
+     "SLG": 0.54,
+     "OPS": 0.933,
+     "HR": 36,
+     "RBI": 121,
+     "R": 131,
+     "H": 178,
+     "2B": 24,
+     "3B": 4,
+     "SB": 30,
+     "CS": 4,
+     "BB": 90,
+     "SO": 110,
+     "HBP": 2,
+     "GIDP": 15
+    },
+    {
+     "season": 1982,
+     "id": 115222,
+     "name": "Pedro Guerrero",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "PA": 652,
+     "AVG": 0.304,
+     "OBP": 0.378,
+     "SLG": 0.536,
+     "OPS": 0.914,
+     "HR": 32,
+     "RBI": 100,
+     "R": 87,
+     "H": 175,
+     "2B": 27,
+     "3B": 5,
+     "SB": 22,
+     "CS": 5,
+     "BB": 65,
+     "SO": 89,
+     "HBP": 5,
+     "GIDP": 7
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 8.05,
+   "players": [
+    {
+     "id": 111962,
+     "name": "José Canseco"
+    },
+    {
+     "id": 119545,
+     "name": "Dale Murphy"
+    },
+    {
+     "id": 115222,
+     "name": "Pedro Guerrero"
+    }
+   ],
+   "seasons": [
+    1988,
+    1983,
+    1982
+   ],
+   "text": "Just three hitters of the 1980s batted .300 with 30 homers, 100 RBI and 20 steals: José Canseco (1988: .307, 42 HR, 124 RBI, 40 SB); Dale Murphy (1983: .302, 36 HR, 121 RBI, 30 SB); Pedro Guerrero (1982: .304, 32 HR, 100 RBI, 22 SB)."
+  },
+  {
+   "n": 24,
+   "rule": "sub_two",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      1.99
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 114947,
+     "name": "Dwight Gooden",
+     "team": "New York Mets",
+     "age": 20,
+     "W": 24,
+     "L": 4,
+     "ERA": 1.53,
+     "IP": "276.2",
+     "SO": 268,
+     "BB": 69,
+     "SV": 0,
+     "GS": 35,
+     "CG": 16,
+     "SHO": 8,
+     "HRA": 13,
+     "WHIP": 0.97
+    },
+    {
+     "season": 1985,
+     "id": 123499,
+     "name": "John Tudor",
+     "team": "St. Louis Cardinals",
+     "age": 31,
+     "W": 21,
+     "L": 8,
+     "ERA": 1.93,
+     "IP": "275.0",
+     "SO": 169,
+     "BB": 49,
+     "SV": 0,
+     "GS": 36,
+     "CG": 14,
+     "SHO": 10,
+     "HRA": 14,
+     "WHIP": 0.94
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.03825,
+   "players": [
+    {
+     "id": 114947,
+     "name": "Dwight Gooden"
+    },
+    {
+     "id": 123499,
+     "name": "John Tudor"
+    }
+   ],
+   "seasons": [
+    1985,
+    1985
+   ],
+   "text": "Only two pitchers of the 1980s posted an ERA under 2.00 (162+ IP): Dwight Gooden (1985: 1.53 ERA in 276.2 IP); John Tudor (1985: 1.93 ERA in 275.0 IP)."
+  },
+  {
+   "n": 25,
+   "kind": "streak",
+   "rule": "IP250",
+   "group": "P",
+   "decade": 1980,
+   "score": 8,
+   "players": [
+    {
+     "id": 123619,
+     "name": "Fernando Valenzuela"
+    }
+   ],
+   "seasons": [
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 21,
+     "W": 19,
+     "L": 13,
+     "ERA": 2.87,
+     "IP": "285.0",
+     "SO": 199,
+     "BB": 83,
+     "SV": 0,
+     "GS": 37,
+     "CG": 18,
+     "SHO": 4,
+     "HRA": 13,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1983,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 22,
+     "W": 15,
+     "L": 10,
+     "ERA": 3.75,
+     "IP": "257.0",
+     "SO": 189,
+     "BB": 99,
+     "SV": 0,
+     "GS": 35,
+     "CG": 9,
+     "SHO": 4,
+     "HRA": 16,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1984,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 23,
+     "W": 12,
+     "L": 17,
+     "ERA": 3.03,
+     "IP": "261.0",
+     "SO": 240,
+     "BB": 106,
+     "SV": 0,
+     "GS": 34,
+     "CG": 12,
+     "SHO": 2,
+     "HRA": 14,
+     "WHIP": 1.24
+    },
+    {
+     "season": 1985,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 24,
+     "W": 17,
+     "L": 10,
+     "ERA": 2.45,
+     "IP": "272.1",
+     "SO": 208,
+     "BB": 101,
+     "SV": 0,
+     "GS": 35,
+     "CG": 14,
+     "SHO": 5,
+     "HRA": 14,
+     "WHIP": 1.15
+    },
+    {
+     "season": 1986,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 25,
+     "W": 21,
+     "L": 11,
+     "ERA": 3.14,
+     "IP": "269.1",
+     "SO": 242,
+     "BB": 85,
+     "SV": 0,
+     "GS": 34,
+     "CG": 20,
+     "SHO": 3,
+     "HRA": 18,
+     "WHIP": 1.15
+    },
+    {
+     "season": 1987,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 26,
+     "W": 14,
+     "L": 14,
+     "ERA": 3.98,
+     "IP": "251.0",
+     "SO": 190,
+     "BB": 124,
+     "SV": 0,
+     "GS": 34,
+     "CG": 12,
+     "SHO": 1,
+     "HRA": 25,
+     "WHIP": 1.51
+    }
+   ],
+   "text": "Fernando Valenzuela threw 250+ innings in 6 straight seasons (1982-87), the longest run of the 1980s."
+  },
+  {
+   "n": 26,
+   "rule": "forty_saves",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "SV",
+      "gte",
+      45
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1986,
+     "id": 121201,
+     "name": "Dave Righetti",
+     "team": "New York Yankees",
+     "age": 27,
+     "W": 8,
+     "L": 8,
+     "ERA": 2.45,
+     "IP": "106.2",
+     "SO": 83,
+     "BB": 35,
+     "SV": 46,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 4,
+     "WHIP": 1.15
+    },
+    {
+     "season": 1983,
+     "id": 120858,
+     "name": "Dan Quisenberry",
+     "team": "Kansas City Royals",
+     "age": 30,
+     "W": 5,
+     "L": 3,
+     "ERA": 1.94,
+     "IP": "139.0",
+     "SO": 48,
+     "BB": 11,
+     "SV": 45,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 0.93
+    },
+    {
+     "season": 1984,
+     "id": 123004,
+     "name": "Bruce Sutter",
+     "team": "St. Louis Cardinals",
+     "age": 31,
+     "W": 5,
+     "L": 7,
+     "ERA": 1.54,
+     "IP": "122.2",
+     "SO": 77,
+     "BB": 23,
+     "SV": 45,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 9,
+     "WHIP": 1.08
+    },
+    {
+     "season": 1988,
+     "id": 113726,
+     "name": "Dennis Eckersley",
+     "team": "Oakland Athletics",
+     "age": 33,
+     "W": 4,
+     "L": 2,
+     "ERA": 2.35,
+     "IP": "72.2",
+     "SO": 70,
+     "BB": 11,
+     "SV": 45,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 0.87
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.15,
+   "players": [
+    {
+     "id": 121201,
+     "name": "Dave Righetti"
+    },
+    {
+     "id": 120858,
+     "name": "Dan Quisenberry"
+    },
+    {
+     "id": 123004,
+     "name": "Bruce Sutter"
+    },
+    {
+     "id": 113726,
+     "name": "Dennis Eckersley"
+    }
+   ],
+   "seasons": [
+    1986,
+    1983,
+    1984,
+    1988
+   ],
+   "text": "Just four pitchers of the 1980s saved 45 games: Dave Righetti (1986: 46 SV); Dan Quisenberry (1983: 45 SV); Bruce Sutter (1984: 45 SV); Dennis Eckersley (1988: 45 SV)."
+  },
+  {
+   "n": 27,
+   "kind": "streak",
+   "rule": "RBI100",
+   "group": "H",
+   "decade": 1980,
+   "score": 7,
+   "players": [
+    {
+     "id": 124448,
+     "name": "Dave Winfield"
+    }
+   ],
+   "seasons": [
+    1982,
+    1983,
+    1984,
+    1985,
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 124448,
+     "name": "Dave Winfield",
+     "team": "New York Yankees",
+     "age": 30,
+     "PA": 597,
+     "AVG": 0.28,
+     "OBP": 0.331,
+     "SLG": 0.56,
+     "OPS": 0.891,
+     "HR": 37,
+     "RBI": 106,
+     "R": 84,
+     "H": 151,
+     "2B": 24,
+     "3B": 8,
+     "SB": 5,
+     "CS": 3,
+     "BB": 45,
+     "SO": 64,
+     "HBP": 0,
+     "GIDP": 20
+    },
+    {
+     "season": 1983,
+     "id": 124448,
+     "name": "Dave Winfield",
+     "team": "New York Yankees",
+     "age": 31,
+     "PA": 664,
+     "AVG": 0.283,
+     "OBP": 0.345,
+     "SLG": 0.513,
+     "OPS": 0.858,
+     "HR": 32,
+     "RBI": 116,
+     "R": 99,
+     "H": 169,
+     "2B": 26,
+     "3B": 8,
+     "SB": 15,
+     "CS": 6,
+     "BB": 58,
+     "SO": 77,
+     "HBP": 2,
+     "GIDP": 30
+    },
+    {
+     "season": 1984,
+     "id": 124448,
+     "name": "Dave Winfield",
+     "team": "New York Yankees",
+     "age": 32,
+     "PA": 626,
+     "AVG": 0.34,
+     "OBP": 0.393,
+     "SLG": 0.515,
+     "OPS": 0.908,
+     "HR": 19,
+     "RBI": 100,
+     "R": 106,
+     "H": 193,
+     "2B": 34,
+     "3B": 4,
+     "SB": 6,
+     "CS": 4,
+     "BB": 53,
+     "SO": 71,
+     "HBP": 0,
+     "GIDP": 14
+    },
+    {
+     "season": 1985,
+     "id": 124448,
+     "name": "Dave Winfield",
+     "team": "New York Yankees",
+     "age": 33,
+     "PA": 689,
+     "AVG": 0.275,
+     "OBP": 0.328,
+     "SLG": 0.471,
+     "OPS": 0.799,
+     "HR": 26,
+     "RBI": 114,
+     "R": 105,
+     "H": 174,
+     "2B": 34,
+     "3B": 6,
+     "SB": 19,
+     "CS": 7,
+     "BB": 52,
+     "SO": 96,
+     "HBP": 0,
+     "GIDP": 17
+    },
+    {
+     "season": 1986,
+     "id": 124448,
+     "name": "Dave Winfield",
+     "team": "New York Yankees",
+     "age": 34,
+     "PA": 652,
+     "AVG": 0.262,
+     "OBP": 0.349,
+     "SLG": 0.462,
+     "OPS": 0.811,
+     "HR": 24,
+     "RBI": 104,
+     "R": 90,
+     "H": 148,
+     "2B": 31,
+     "3B": 5,
+     "SB": 6,
+     "CS": 5,
+     "BB": 77,
+     "SO": 106,
+     "HBP": 2,
+     "GIDP": 20
+    }
+   ],
+   "text": "Dave Winfield drove in 100+ runs in 5 straight seasons (1982-86), the longest run of the 1980s."
+  },
+  {
+   "n": 28,
+   "kind": "streak",
+   "rule": "SV30",
+   "group": "P",
+   "decade": 1980,
+   "score": 7,
+   "players": [
+    {
+     "id": 120971,
+     "name": "Jeff Reardon"
+    }
+   ],
+   "seasons": [
+    1985,
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 120971,
+     "name": "Jeff Reardon",
+     "team": "Montreal Expos",
+     "age": 29,
+     "W": 2,
+     "L": 8,
+     "ERA": 3.18,
+     "IP": "87.2",
+     "SO": 67,
+     "BB": 26,
+     "SV": 41,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.07
+    },
+    {
+     "season": 1986,
+     "id": 120971,
+     "name": "Jeff Reardon",
+     "team": "Montreal Expos",
+     "age": 30,
+     "W": 7,
+     "L": 9,
+     "ERA": 3.94,
+     "IP": "89.0",
+     "SO": 67,
+     "BB": 26,
+     "SV": 35,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 12,
+     "WHIP": 1.22
+    },
+    {
+     "season": 1987,
+     "id": 120971,
+     "name": "Jeff Reardon",
+     "team": "Minnesota Twins",
+     "age": 31,
+     "W": 8,
+     "L": 8,
+     "ERA": 4.48,
+     "IP": "80.1",
+     "SO": 83,
+     "BB": 28,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 14,
+     "WHIP": 1.22
+    },
+    {
+     "season": 1988,
+     "id": 120971,
+     "name": "Jeff Reardon",
+     "team": "Minnesota Twins",
+     "age": 32,
+     "W": 2,
+     "L": 4,
+     "ERA": 2.47,
+     "IP": "73.0",
+     "SO": 56,
+     "BB": 15,
+     "SV": 42,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 6,
+     "WHIP": 1.14
+    },
+    {
+     "season": 1989,
+     "id": 120971,
+     "name": "Jeff Reardon",
+     "team": "Minnesota Twins",
+     "age": 33,
+     "W": 5,
+     "L": 4,
+     "ERA": 4.07,
+     "IP": "73.0",
+     "SO": 46,
+     "BB": 12,
+     "SV": 31,
+     "GS": 0,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 8,
+     "WHIP": 1.1
+    }
+   ],
+   "text": "Jeff Reardon saved 30+ games in 5 straight seasons (1985-89), the longest run of the 1980s."
+  },
+  {
+   "n": 29,
+   "rule": "walks_over_hits",
+   "group": "H",
+   "decade": 1980,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 123183,
+     "name": "Gene Tenace",
+     "team": "San Diego Padres",
+     "age": 33,
+     "PA": 416,
+     "AVG": 0.222,
+     "OBP": 0.399,
+     "SLG": 0.424,
+     "OPS": 0.823,
+     "HR": 17,
+     "RBI": 50,
+     "R": 46,
+     "H": 70,
+     "2B": 11,
+     "3B": 1,
+     "SB": 4,
+     "CS": 4,
+     "BB": 92,
+     "SO": 63,
+     "HBP": 4,
+     "GIDP": 11
+    },
+    {
+     "season": 1989,
+     "id": 112326,
+     "name": "Jack Clark",
+     "team": "San Diego Padres",
+     "age": 33,
+     "PA": 594,
+     "AVG": 0.242,
+     "OBP": 0.41,
+     "SLG": 0.459,
+     "OPS": 0.869,
+     "HR": 26,
+     "RBI": 94,
+     "R": 76,
+     "H": 110,
+     "2B": 19,
+     "3B": 1,
+     "SB": 6,
+     "CS": 2,
+     "BB": 132,
+     "SO": 145,
+     "HBP": 1,
+     "GIDP": 10
+    },
+    {
+     "season": 1987,
+     "id": 112326,
+     "name": "Jack Clark",
+     "team": "St. Louis Cardinals",
+     "age": 31,
+     "PA": 559,
+     "AVG": 0.286,
+     "OBP": 0.459,
+     "SLG": 0.597,
+     "OPS": 1.056,
+     "HR": 35,
+     "RBI": 106,
+     "R": 93,
+     "H": 120,
+     "2B": 23,
+     "3B": 1,
+     "SB": 1,
+     "CS": 2,
+     "BB": 136,
+     "SO": 139,
+     "HBP": 0,
+     "GIDP": 5
+    },
+    {
+     "season": 1985,
+     "id": 115497,
+     "name": "Toby Harrah",
+     "team": "Texas Rangers",
+     "age": 36,
+     "PA": 521,
+     "AVG": 0.27,
+     "OBP": 0.432,
+     "SLG": 0.389,
+     "OPS": 0.821,
+     "HR": 9,
+     "RBI": 44,
+     "R": 65,
+     "H": 107,
+     "2B": 18,
+     "3B": 1,
+     "SB": 11,
+     "CS": 4,
+     "BB": 113,
+     "SO": 60,
+     "HBP": 4,
+     "GIDP": 4
+    },
+    {
+     "season": 1986,
+     "id": 120508,
+     "name": "Ken Phelps",
+     "team": "Seattle Mariners",
+     "age": 31,
+     "PA": 441,
+     "AVG": 0.247,
+     "OBP": 0.406,
+     "SLG": 0.526,
+     "OPS": 0.932,
+     "HR": 24,
+     "RBI": 64,
+     "R": 69,
+     "H": 85,
+     "2B": 16,
+     "3B": 4,
+     "SB": 2,
+     "CS": 3,
+     "BB": 88,
+     "SO": 96,
+     "HBP": 6,
+     "GIDP": 4
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.55,
+   "players": [
+    {
+     "id": 123183,
+     "name": "Gene Tenace"
+    },
+    {
+     "id": 112326,
+     "name": "Jack Clark"
+    },
+    {
+     "id": 115497,
+     "name": "Toby Harrah"
+    },
+    {
+     "id": 120508,
+     "name": "Ken Phelps"
+    }
+   ],
+   "seasons": [
+    1980,
+    1989,
+    1987,
+    1985,
+    1986
+   ],
+   "text": "Just four hitters of the 1980s drew more walks than hits (400+ PA): Gene Tenace (1980: 92 BB, 70 H); Jack Clark (2×, best 1989: 132 BB, 110 H); Toby Harrah (1985: 113 BB, 107 H); Ken Phelps (1986: 88 BB, 85 H)."
+  },
+  {
+   "n": 30,
+   "rule": "power_no_avg",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "BA",
+      "lte",
+      0.229
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 117092,
+     "name": "Dave Kingman",
+     "team": "New York Mets",
+     "age": 33,
+     "PA": 607,
+     "AVG": 0.204,
+     "OBP": 0.285,
+     "SLG": 0.432,
+     "OPS": 0.717,
+     "HR": 37,
+     "RBI": 99,
+     "R": 80,
+     "H": 109,
+     "2B": 9,
+     "3B": 1,
+     "SB": 4,
+     "CS": 0,
+     "BB": 59,
+     "SO": 156,
+     "HBP": 4,
+     "GIDP": 11
+    },
+    {
+     "season": 1983,
+     "id": 110318,
+     "name": "Tony Armas",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 613,
+     "AVG": 0.218,
+     "OBP": 0.254,
+     "SLG": 0.453,
+     "OPS": 0.707,
+     "HR": 36,
+     "RBI": 107,
+     "R": 77,
+     "H": 125,
+     "2B": 23,
+     "3B": 2,
+     "SB": 0,
+     "CS": 1,
+     "BB": 29,
+     "SO": 131,
+     "HBP": 2,
+     "GIDP": 31
+    },
+    {
+     "season": 1986,
+     "id": 117092,
+     "name": "Dave Kingman",
+     "team": "Oakland Athletics",
+     "age": 37,
+     "PA": 604,
+     "AVG": 0.21,
+     "OBP": 0.255,
+     "SLG": 0.431,
+     "OPS": 0.686,
+     "HR": 35,
+     "RBI": 94,
+     "R": 70,
+     "H": 118,
+     "2B": 19,
+     "3B": 0,
+     "SB": 3,
+     "CS": 3,
+     "BB": 33,
+     "SO": 126,
+     "HBP": 3,
+     "GIDP": 16
+    },
+    {
+     "season": 1984,
+     "id": 117132,
+     "name": "Ron Kittle",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "PA": 525,
+     "AVG": 0.215,
+     "OBP": 0.295,
+     "SLG": 0.453,
+     "OPS": 0.748,
+     "HR": 32,
+     "RBI": 74,
+     "R": 67,
+     "H": 100,
+     "2B": 15,
+     "3B": 0,
+     "SB": 3,
+     "CS": 6,
+     "BB": 49,
+     "SO": 137,
+     "HBP": 6,
+     "GIDP": 7
+    },
+    {
+     "season": 1985,
+     "id": 123251,
+     "name": "Gorman Thomas",
+     "team": "Seattle Mariners",
+     "age": 34,
+     "PA": 574,
+     "AVG": 0.215,
+     "OBP": 0.33,
+     "SLG": 0.45,
+     "OPS": 0.78,
+     "HR": 32,
+     "RBI": 87,
+     "R": 76,
+     "H": 104,
+     "2B": 16,
+     "3B": 1,
+     "SB": 3,
+     "CS": 2,
+     "BB": 84,
+     "SO": 126,
+     "HBP": 1,
+     "GIDP": 11
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.415,
+   "players": [
+    {
+     "id": 117092,
+     "name": "Dave Kingman"
+    },
+    {
+     "id": 110318,
+     "name": "Tony Armas"
+    },
+    {
+     "id": 117132,
+     "name": "Ron Kittle"
+    },
+    {
+     "id": 123251,
+     "name": "Gorman Thomas"
+    }
+   ],
+   "seasons": [
+    1982,
+    1983,
+    1986,
+    1984,
+    1985
+   ],
+   "text": "Just four hitters of the 1980s hit 30+ homers while batting under .230 (400+ PA): Dave Kingman (2×, best 1982: 37 HR, .204); Tony Armas (1983: 36 HR, .218); Ron Kittle (1984: 32 HR, .215); Gorman Thomas (1985: 32 HR, .215)."
+  },
+  {
+   "n": 31,
+   "rule": "young_power",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 116154,
+     "name": "Bob Horner",
+     "team": "Atlanta Braves",
+     "age": 22,
+     "PA": 495,
+     "AVG": 0.268,
+     "OBP": 0.307,
+     "SLG": 0.529,
+     "OPS": 0.836,
+     "HR": 35,
+     "RBI": 89,
+     "R": 81,
+     "H": 124,
+     "2B": 14,
+     "3B": 1,
+     "SB": 3,
+     "CS": 1,
+     "BB": 27,
+     "SO": 50,
+     "HBP": 1,
+     "GIDP": 16
+    },
+    {
+     "season": 1986,
+     "id": 111962,
+     "name": "José Canseco",
+     "team": "Oakland Athletics",
+     "age": 21,
+     "PA": 682,
+     "AVG": 0.24,
+     "OBP": 0.318,
+     "SLG": 0.457,
+     "OPS": 0.775,
+     "HR": 33,
+     "RBI": 117,
+     "R": 85,
+     "H": 144,
+     "2B": 29,
+     "3B": 1,
+     "SB": 15,
+     "CS": 7,
+     "BB": 65,
+     "SO": 175,
+     "HBP": 8,
+     "GIDP": 12
+    },
+    {
+     "season": 1987,
+     "id": 122218,
+     "name": "Ruben Sierra",
+     "team": "Texas Rangers",
+     "age": 21,
+     "PA": 696,
+     "AVG": 0.263,
+     "OBP": 0.302,
+     "SLG": 0.47,
+     "OPS": 0.772,
+     "HR": 30,
+     "RBI": 109,
+     "R": 97,
+     "H": 169,
+     "2B": 35,
+     "3B": 4,
+     "SB": 16,
+     "CS": 11,
+     "BB": 39,
+     "SO": 114,
+     "HBP": 2,
+     "GIDP": 18
+    },
+    {
+     "season": 1987,
+     "id": 111962,
+     "name": "José Canseco",
+     "team": "Oakland Athletics",
+     "age": 22,
+     "PA": 691,
+     "AVG": 0.257,
+     "OBP": 0.31,
+     "SLG": 0.47,
+     "OPS": 0.78,
+     "HR": 31,
+     "RBI": 113,
+     "R": 81,
+     "H": 162,
+     "2B": 35,
+     "3B": 3,
+     "SB": 15,
+     "CS": 3,
+     "BB": 50,
+     "SO": 157,
+     "HBP": 2,
+     "GIDP": 16
+    },
+    {
+     "season": 1986,
+     "id": 116386,
+     "name": "Pete Incaviglia",
+     "team": "Texas Rangers",
+     "age": 22,
+     "PA": 606,
+     "AVG": 0.25,
+     "OBP": 0.32,
+     "SLG": 0.463,
+     "OPS": 0.783,
+     "HR": 30,
+     "RBI": 88,
+     "R": 82,
+     "H": 135,
+     "2B": 21,
+     "3B": 2,
+     "SB": 3,
+     "CS": 2,
+     "BB": 55,
+     "SO": 185,
+     "HBP": 4,
+     "GIDP": 9
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.325,
+   "players": [
+    {
+     "id": 116154,
+     "name": "Bob Horner"
+    },
+    {
+     "id": 111962,
+     "name": "José Canseco"
+    },
+    {
+     "id": 122218,
+     "name": "Ruben Sierra"
+    },
+    {
+     "id": 116386,
+     "name": "Pete Incaviglia"
+    }
+   ],
+   "seasons": [
+    1980,
+    1986,
+    1987,
+    1987,
+    1986
+   ],
+   "text": "Just four hitters of the 1980s hit 30+ homers at age 22 or younger: Bob Horner (1980: 35 HR at 22); José Canseco (2×, best 1986: 33 HR at 21); Ruben Sierra (1987: 30 HR at 21); Pete Incaviglia (1986: 30 HR at 22)."
+  },
+  {
+   "n": 32,
+   "rule": "sb_perfect",
+   "group": "H",
+   "decade": 1980,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 120402,
+     "name": "Jack Perconte",
+     "team": "Seattle Mariners",
+     "age": 30,
+     "PA": 542,
+     "AVG": 0.264,
+     "OBP": 0.335,
+     "SLG": 0.34,
+     "OPS": 0.675,
+     "HR": 2,
+     "RBI": 23,
+     "R": 60,
+     "H": 128,
+     "2B": 17,
+     "3B": 7,
+     "SB": 31,
+     "CS": 2,
+     "BB": 50,
+     "SO": 36,
+     "HBP": 3,
+     "GIDP": 8
+    },
+    {
+     "season": 1988,
+     "id": 113102,
+     "name": "Eric Davis",
+     "team": "Cincinnati Reds",
+     "age": 26,
+     "PA": 543,
+     "AVG": 0.273,
+     "OBP": 0.363,
+     "SLG": 0.489,
+     "OPS": 0.852,
+     "HR": 26,
+     "RBI": 93,
+     "R": 81,
+     "H": 129,
+     "2B": 18,
+     "3B": 3,
+     "SB": 35,
+     "CS": 3,
+     "BB": 65,
+     "SO": 124,
+     "HBP": 3,
+     "GIDP": 11
+    },
+    {
+     "season": 1985,
+     "id": 115839,
+     "name": "Tom Herr",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 696,
+     "AVG": 0.302,
+     "OBP": 0.379,
+     "SLG": 0.416,
+     "OPS": 0.795,
+     "HR": 8,
+     "RBI": 110,
+     "R": 97,
+     "H": 180,
+     "2B": 38,
+     "3B": 3,
+     "SB": 31,
+     "CS": 3,
+     "BB": 80,
+     "SO": 55,
+     "HBP": 2,
+     "GIDP": 6
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.275,
+   "players": [
+    {
+     "id": 120402,
+     "name": "Jack Perconte"
+    },
+    {
+     "id": 113102,
+     "name": "Eric Davis"
+    },
+    {
+     "id": 115839,
+     "name": "Tom Herr"
+    }
+   ],
+   "seasons": [
+    1985,
+    1988,
+    1985
+   ],
+   "text": "Just three hitters of the 1980s stole 30+ bases while getting caught 3 times or fewer: Jack Perconte (1985: 31 SB, 2 CS); Eric Davis (1988: 35 SB, 3 CS); Tom Herr (1985: 31 SB, 3 CS)."
+  },
+  {
+   "n": 33,
+   "rule": "young_ace",
+   "group": "P",
+   "decade": 1980,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMax": 22,
+    "filters": [
+     [
+      "W",
+      "gte",
+      18
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 114947,
+     "name": "Dwight Gooden",
+     "team": "New York Mets",
+     "age": 20,
+     "W": 24,
+     "L": 4,
+     "ERA": 1.53,
+     "IP": "276.2",
+     "SO": 268,
+     "BB": 69,
+     "SV": 0,
+     "GS": 35,
+     "CG": 16,
+     "SHO": 8,
+     "HRA": 13,
+     "WHIP": 0.97
+    },
+    {
+     "season": 1985,
+     "id": 121604,
+     "name": "Bret Saberhagen",
+     "team": "Kansas City Royals",
+     "age": 21,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.87,
+     "IP": "235.1",
+     "SO": 158,
+     "BB": 38,
+     "SV": 0,
+     "GS": 32,
+     "CG": 10,
+     "SHO": 1,
+     "HRA": 19,
+     "WHIP": 1.06
+    },
+    {
+     "season": 1982,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 21,
+     "W": 19,
+     "L": 13,
+     "ERA": 2.87,
+     "IP": "285.0",
+     "SO": 199,
+     "BB": 83,
+     "SV": 0,
+     "GS": 37,
+     "CG": 18,
+     "SHO": 4,
+     "HRA": 13,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1988,
+     "id": 118120,
+     "name": "Greg Maddux",
+     "team": "Chicago Cubs",
+     "age": 22,
+     "W": 18,
+     "L": 8,
+     "ERA": 3.18,
+     "IP": "249.0",
+     "SO": 140,
+     "BB": 81,
+     "SV": 0,
+     "GS": 34,
+     "CG": 9,
+     "SHO": 3,
+     "HRA": 13,
+     "WHIP": 1.25
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.1,
+   "players": [
+    {
+     "id": 114947,
+     "name": "Dwight Gooden"
+    },
+    {
+     "id": 121604,
+     "name": "Bret Saberhagen"
+    },
+    {
+     "id": 123619,
+     "name": "Fernando Valenzuela"
+    },
+    {
+     "id": 118120,
+     "name": "Greg Maddux"
+    }
+   ],
+   "seasons": [
+    1985,
+    1985,
+    1982,
+    1988
+   ],
+   "text": "Just four pitchers of the 1980s won 18+ games at age 22 or younger: Dwight Gooden (1985: 24-4 at 20); Bret Saberhagen (1985: 20-6 at 21); Fernando Valenzuela (1982: 19-13 at 21); Greg Maddux (1988: 18-8 at 22)."
+  },
+  {
+   "n": 34,
+   "rule": "zero_hr_full",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "HR",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 121064,
+     "name": "Jerry Remy",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 716,
+     "AVG": 0.28,
+     "OBP": 0.337,
+     "SLG": 0.324,
+     "OPS": 0.661,
+     "HR": 0,
+     "RBI": 47,
+     "R": 89,
+     "H": 178,
+     "2B": 22,
+     "3B": 3,
+     "SB": 16,
+     "CS": 9,
+     "BB": 55,
+     "SO": 77,
+     "HBP": 2,
+     "GIDP": 14
+    },
+    {
+     "season": 1980,
+     "id": 122439,
+     "name": "Ozzie Smith",
+     "team": "San Diego Padres",
+     "age": 25,
+     "PA": 712,
+     "AVG": 0.23,
+     "OBP": 0.313,
+     "SLG": 0.276,
+     "OPS": 0.589,
+     "HR": 0,
+     "RBI": 35,
+     "R": 67,
+     "H": 140,
+     "2B": 18,
+     "3B": 5,
+     "SB": 57,
+     "CS": 15,
+     "BB": 71,
+     "SO": 49,
+     "HBP": 5,
+     "GIDP": 9
+    },
+    {
+     "season": 1987,
+     "id": 122439,
+     "name": "Ozzie Smith",
+     "team": "St. Louis Cardinals",
+     "age": 32,
+     "PA": 706,
+     "AVG": 0.303,
+     "OBP": 0.392,
+     "SLG": 0.383,
+     "OPS": 0.775,
+     "HR": 0,
+     "RBI": 75,
+     "R": 104,
+     "H": 182,
+     "2B": 40,
+     "3B": 4,
+     "SB": 43,
+     "CS": 9,
+     "BB": 89,
+     "SO": 36,
+     "HBP": 1,
+     "GIDP": 9
+    },
+    {
+     "season": 1984,
+     "id": 124636,
+     "name": "Marvell Wynne",
+     "team": "Pittsburgh Pirates",
+     "age": 24,
+     "PA": 702,
+     "AVG": 0.266,
+     "OBP": 0.31,
+     "SLG": 0.337,
+     "OPS": 0.647,
+     "HR": 0,
+     "RBI": 39,
+     "R": 77,
+     "H": 174,
+     "2B": 24,
+     "3B": 11,
+     "SB": 24,
+     "CS": 19,
+     "BB": 42,
+     "SO": 81,
+     "HBP": 0,
+     "GIDP": 8
+    },
+    {
+     "season": 1984,
+     "id": 120402,
+     "name": "Jack Perconte",
+     "team": "Seattle Mariners",
+     "age": 29,
+     "PA": 689,
+     "AVG": 0.294,
+     "OBP": 0.357,
+     "SLG": 0.346,
+     "OPS": 0.703,
+     "HR": 0,
+     "RBI": 31,
+     "R": 93,
+     "H": 180,
+     "2B": 24,
+     "3B": 4,
+     "SB": 29,
+     "CS": 6,
+     "BB": 57,
+     "SO": 47,
+     "HBP": 5,
+     "GIDP": 5
+    },
+    {
+     "season": 1989,
+     "id": 121108,
+     "name": "Harold Reynolds",
+     "team": "Seattle Mariners",
+     "age": 28,
+     "PA": 677,
+     "AVG": 0.3,
+     "OBP": 0.359,
+     "SLG": 0.369,
+     "OPS": 0.728,
+     "HR": 0,
+     "RBI": 43,
+     "R": 87,
+     "H": 184,
+     "2B": 24,
+     "3B": 9,
+     "SB": 25,
+     "CS": 18,
+     "BB": 55,
+     "SO": 45,
+     "HBP": 3,
+     "GIDP": 4
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 121064,
+     "name": "Jerry Remy"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "text": "10 hitters played a full season without a single home run (600+ PA) in the 1980s (14 seasons). The most extreme: Jerry Remy, 1982 — 0 HR in 716 PA."
+  },
+  {
+   "n": 35,
+   "rule": "seventy_sb",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "SB",
+      "gte",
+      70
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 23,
+     "PA": 656,
+     "AVG": 0.267,
+     "OBP": 0.398,
+     "SLG": 0.382,
+     "OPS": 0.78,
+     "HR": 10,
+     "RBI": 51,
+     "R": 119,
+     "H": 143,
+     "2B": 24,
+     "3B": 4,
+     "SB": 130,
+     "CS": 42,
+     "BB": 116,
+     "SO": 94,
+     "HBP": 2,
+     "GIDP": 5
+    },
+    {
+     "season": 1985,
+     "id": 112487,
+     "name": "Vince Coleman",
+     "team": "St. Louis Cardinals",
+     "age": 23,
+     "PA": 692,
+     "AVG": 0.267,
+     "OBP": 0.32,
+     "SLG": 0.335,
+     "OPS": 0.655,
+     "HR": 1,
+     "RBI": 40,
+     "R": 107,
+     "H": 170,
+     "2B": 20,
+     "3B": 10,
+     "SB": 110,
+     "CS": 25,
+     "BB": 50,
+     "SO": 115,
+     "HBP": 0,
+     "GIDP": 3
+    },
+    {
+     "season": 1987,
+     "id": 112487,
+     "name": "Vince Coleman",
+     "team": "St. Louis Cardinals",
+     "age": 25,
+     "PA": 702,
+     "AVG": 0.289,
+     "OBP": 0.363,
+     "SLG": 0.358,
+     "OPS": 0.721,
+     "HR": 3,
+     "RBI": 43,
+     "R": 121,
+     "H": 180,
+     "2B": 14,
+     "3B": 10,
+     "SB": 109,
+     "CS": 22,
+     "BB": 70,
+     "SO": 126,
+     "HBP": 3,
+     "GIDP": 7
+    },
+    {
+     "season": 1983,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 24,
+     "PA": 622,
+     "AVG": 0.292,
+     "OBP": 0.414,
+     "SLG": 0.421,
+     "OPS": 0.835,
+     "HR": 9,
+     "RBI": 48,
+     "R": 105,
+     "H": 150,
+     "2B": 25,
+     "3B": 7,
+     "SB": 108,
+     "CS": 19,
+     "BB": 103,
+     "SO": 80,
+     "HBP": 4,
+     "GIDP": 11
+    },
+    {
+     "season": 1986,
+     "id": 112487,
+     "name": "Vince Coleman",
+     "team": "St. Louis Cardinals",
+     "age": 24,
+     "PA": 670,
+     "AVG": 0.232,
+     "OBP": 0.301,
+     "SLG": 0.28,
+     "OPS": 0.581,
+     "HR": 0,
+     "RBI": 29,
+     "R": 94,
+     "H": 139,
+     "2B": 13,
+     "3B": 8,
+     "SB": 107,
+     "CS": 14,
+     "BB": 60,
+     "SO": 98,
+     "HBP": 2,
+     "GIDP": 4
+    },
+    {
+     "season": 1980,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 21,
+     "PA": 722,
+     "AVG": 0.303,
+     "OBP": 0.42,
+     "SLG": 0.399,
+     "OPS": 0.819,
+     "HR": 9,
+     "RBI": 53,
+     "R": 111,
+     "H": 179,
+     "2B": 22,
+     "3B": 4,
+     "SB": 100,
+     "CS": 26,
+     "BB": 117,
+     "SO": 54,
+     "HBP": 5,
+     "GIDP": 6
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 115749,
+     "name": "Rickey Henderson"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "text": "11 hitters stole 70 bases in the 1980s (25 seasons). The most extreme: Rickey Henderson, 1982 — 130 SB."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "lowest_avg_100rbi",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 110318,
+     "name": "Tony Armas"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1983,
+     "id": 110318,
+     "name": "Tony Armas",
+     "team": "Boston Red Sox",
+     "age": 29,
+     "PA": 613,
+     "AVG": 0.218,
+     "OBP": 0.254,
+     "SLG": 0.453,
+     "OPS": 0.707,
+     "HR": 36,
+     "RBI": 107,
+     "R": 77,
+     "H": 125,
+     "2B": 23,
+     "3B": 2,
+     "SB": 0,
+     "CS": 1,
+     "BB": 29,
+     "SO": 131,
+     "HBP": 2,
+     "GIDP": 31
+    }
+   ],
+   "among": 138,
+   "text": "Lowest average by any 100-RBI hitter of the 1980s: Tony Armas, 1983 — .218 with 107 RBI."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 114526,
+     "name": "Andres Galarraga"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 114526,
+     "name": "Andres Galarraga",
+     "team": "Montreal Expos",
+     "age": 27,
+     "PA": 661,
+     "AVG": 0.302,
+     "OBP": 0.352,
+     "SLG": 0.54,
+     "OPS": 0.892,
+     "HR": 29,
+     "RBI": 92,
+     "R": 99,
+     "H": 184,
+     "2B": 42,
+     "3B": 8,
+     "SB": 13,
+     "CS": 4,
+     "BB": 39,
+     "SO": 153,
+     "HBP": 10,
+     "GIDP": 12
+    }
+   ],
+   "among": 215,
+   "text": "Most strikeouts by a .300 hitter of the 1980s: Andres Galarraga, 1988 — 153 K while batting .302."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_sb_30hr",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 113102,
+     "name": "Eric Davis"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1987,
+     "id": 113102,
+     "name": "Eric Davis",
+     "team": "Cincinnati Reds",
+     "age": 25,
+     "PA": 562,
+     "AVG": 0.293,
+     "OBP": 0.399,
+     "SLG": 0.593,
+     "OPS": 0.992,
+     "HR": 37,
+     "RBI": 100,
+     "R": 120,
+     "H": 139,
+     "2B": 23,
+     "3B": 4,
+     "SB": 50,
+     "CS": 6,
+     "BB": 84,
+     "SO": 134,
+     "HBP": 1,
+     "GIDP": 6
+    }
+   ],
+   "among": 117,
+   "text": "Most steals by a 30-homer hitter of the 1980s: Eric Davis, 1987 — 50 SB with 37 HR."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_hr_low_rbi",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 116461,
+     "name": "Brook Jacoby"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1987,
+     "id": 116461,
+     "name": "Brook Jacoby",
+     "team": "Cleveland Indians",
+     "age": 27,
+     "PA": 620,
+     "AVG": 0.3,
+     "OBP": 0.387,
+     "SLG": 0.541,
+     "OPS": 0.928,
+     "HR": 32,
+     "RBI": 69,
+     "R": 73,
+     "H": 162,
+     "2B": 26,
+     "3B": 4,
+     "SB": 2,
+     "CS": 3,
+     "BB": 75,
+     "SO": 73,
+     "HBP": 3,
+     "GIDP": 19
+    }
+   ],
+   "among": 249,
+   "text": "Most home runs per RBI of the 1980s: Brook Jacoby, 1987 — 32 HR but only 69 RBI."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "fewest_k_30hr",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 118443,
+     "name": "Don Mattingly"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1986,
+     "id": 118443,
+     "name": "Don Mattingly",
+     "team": "New York Yankees",
+     "age": 25,
+     "PA": 742,
+     "AVG": 0.352,
+     "OBP": 0.394,
+     "SLG": 0.573,
+     "OPS": 0.967,
+     "HR": 31,
+     "RBI": 113,
+     "R": 117,
+     "H": 238,
+     "2B": 53,
+     "3B": 2,
+     "SB": 0,
+     "CS": 0,
+     "BB": 53,
+     "SO": 35,
+     "HBP": 1,
+     "GIDP": 17
+    }
+   ],
+   "among": 117,
+   "text": "Fewest strikeouts by a 30-homer hitter of the 1980s: Don Mattingly, 1986 — 35 K with 31 HR."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "highest_avg_low_hr",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 113374,
+     "name": "Miguel Dilone"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 113374,
+     "name": "Miguel Dilone",
+     "team": "Cleveland Indians",
+     "age": 25,
+     "PA": 566,
+     "AVG": 0.341,
+     "OBP": 0.375,
+     "SLG": 0.432,
+     "OPS": 0.807,
+     "HR": 0,
+     "RBI": 40,
+     "R": 82,
+     "H": 180,
+     "2B": 30,
+     "3B": 9,
+     "SB": 61,
+     "CS": 18,
+     "BB": 28,
+     "SO": 45,
+     "HBP": 2,
+     "GIDP": 7
+    }
+   ],
+   "among": 150,
+   "text": "Highest average by a hitter with 3 homers or fewer: Miguel Dilone, 1980 — .341 with 0 HR."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "most_bb_low_avg",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 119551,
+     "name": "Dwayne Murphy"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 119551,
+     "name": "Dwayne Murphy",
+     "team": "Oakland Athletics",
+     "age": 27,
+     "PA": 660,
+     "AVG": 0.238,
+     "OBP": 0.349,
+     "SLG": 0.418,
+     "OPS": 0.767,
+     "HR": 27,
+     "RBI": 94,
+     "R": 84,
+     "H": 129,
+     "2B": 15,
+     "3B": 1,
+     "SB": 26,
+     "CS": 8,
+     "BB": 94,
+     "SO": 122,
+     "HBP": 3,
+     "GIDP": 7
+    }
+   ],
+   "among": 106,
+   "text": "Most walks by a sub-.240 hitter of the 1980s: Dwayne Murphy, 1982 — 94 BB while batting .238."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "most_rbi_per_hr",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 115839,
+     "name": "Tom Herr"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 115839,
+     "name": "Tom Herr",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 696,
+     "AVG": 0.302,
+     "OBP": 0.379,
+     "SLG": 0.416,
+     "OPS": 0.795,
+     "HR": 8,
+     "RBI": 110,
+     "R": 97,
+     "H": 180,
+     "2B": 38,
+     "3B": 3,
+     "SB": 31,
+     "CS": 3,
+     "BB": 80,
+     "SO": 55,
+     "HBP": 2,
+     "GIDP": 6
+    }
+   ],
+   "among": 138,
+   "text": "Most RBI per home run among 100-RBI seasons: Tom Herr, 1985 — 110 RBI on 8 HR."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "most_wins_bad_era",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 122598,
+     "name": "Dan Spillner"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 122598,
+     "name": "Dan Spillner",
+     "team": "Cleveland Indians",
+     "age": 28,
+     "W": 16,
+     "L": 11,
+     "ERA": 5.28,
+     "IP": "194.1",
+     "SO": 100,
+     "BB": 74,
+     "SV": 0,
+     "GS": 30,
+     "CG": 7,
+     "SHO": 1,
+     "HRA": 23,
+     "WHIP": 1.54
+    }
+   ],
+   "among": 106,
+   "text": "Most wins by a pitcher with an ERA over 5.00: Dan Spillner, 1980 — 16-11 with a 5.28 ERA."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "fewest_wins_low_era",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 118146,
+     "name": "Joe Magrane"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 118146,
+     "name": "Joe Magrane",
+     "team": "St. Louis Cardinals",
+     "age": 23,
+     "W": 5,
+     "L": 9,
+     "ERA": 2.18,
+     "IP": "165.1",
+     "SO": 100,
+     "BB": 51,
+     "SV": 0,
+     "GS": 24,
+     "CG": 4,
+     "SHO": 3,
+     "HRA": 6,
+     "WHIP": 1.11
+    }
+   ],
+   "among": 116,
+   "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Joe Magrane, 1988 — 5-9 despite a 2.18 ERA."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "most_k_losing",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 112008,
+     "name": "Steve Carlton"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1983,
+     "id": 112008,
+     "name": "Steve Carlton",
+     "team": "Philadelphia Phillies",
+     "age": 38,
+     "W": 15,
+     "L": 16,
+     "ERA": 3.11,
+     "IP": "283.2",
+     "SO": 275,
+     "BB": 84,
+     "SV": 0,
+     "GS": 37,
+     "CG": 8,
+     "SHO": 3,
+     "HRA": 20,
+     "WHIP": 1.27
+    }
+   ],
+   "among": 1693,
+   "text": "Most strikeouts by a pitcher with a losing record: Steve Carlton, 1983 — 275 K, 15-16."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 110893,
+     "name": "Bruce Berenyi"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 110893,
+     "name": "Bruce Berenyi",
+     "team": "Cincinnati Reds",
+     "age": 27,
+     "W": 9,
+     "L": 18,
+     "ERA": 3.36,
+     "IP": "222.1",
+     "SO": 157,
+     "BB": 96,
+     "SV": 0,
+     "GS": 34,
+     "CG": 4,
+     "SHO": 1,
+     "HRA": 8,
+     "WHIP": 1.37
+    }
+   ],
+   "among": 392,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Bruce Berenyi, 1982 — 9-18 with a 3.36 ERA."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "fewest_k_20w",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 116550,
+     "name": "Tommy John"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 116550,
+     "name": "Tommy John",
+     "team": "New York Yankees",
+     "age": 37,
+     "W": 22,
+     "L": 9,
+     "ERA": 3.43,
+     "IP": "265.1",
+     "SO": 78,
+     "BB": 56,
+     "SV": 0,
+     "GS": 36,
+     "CG": 16,
+     "SHO": 6,
+     "HRA": 13,
+     "WHIP": 1.23
+    }
+   ],
+   "among": 37,
+   "text": "Fewest strikeouts by a 20-game winner of the 1980s: Tommy John, 1980 — 78 K, 22-9."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "most_ip_no_cg",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 121597,
+     "name": "Nolan Ryan Jr."
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1987,
+     "id": 121597,
+     "name": "Nolan Ryan Jr.",
+     "team": "Houston Astros",
+     "age": 40,
+     "W": 8,
+     "L": 16,
+     "ERA": 2.76,
+     "IP": "211.2",
+     "SO": 270,
+     "BB": 87,
+     "SV": 0,
+     "GS": 34,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 14,
+     "WHIP": 1.14
+    }
+   ],
+   "among": 2613,
+   "text": "Most innings in a season without a complete game: Nolan Ryan Jr., 1987 — 211.2 IP, 0 CG."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "most_hra",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 111126,
+     "name": "Bert Blyleven"
+    }
+   ],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1986,
+     "id": 111126,
+     "name": "Bert Blyleven",
+     "team": "Minnesota Twins",
+     "age": 35,
+     "W": 17,
+     "L": 14,
+     "ERA": 4.01,
+     "IP": "271.2",
+     "SO": 215,
+     "BB": 58,
+     "SV": 0,
+     "GS": 36,
+     "CG": 16,
+     "SHO": 3,
+     "HRA": 50,
+     "WHIP": 1.18
+    }
+   ],
+   "among": 4040,
+   "text": "Most home runs allowed in a season this decade: Bert Blyleven, 1986 — 50 HR allowed, 17-14."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "most_bb_winner",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 116176,
+     "name": "Charlie Hough"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 116176,
+     "name": "Charlie Hough",
+     "team": "Texas Rangers",
+     "age": 40,
+     "W": 15,
+     "L": 16,
+     "ERA": 3.32,
+     "IP": "252.0",
+     "SO": 174,
+     "BB": 126,
+     "SV": 0,
+     "GS": 34,
+     "CG": 10,
+     "SHO": 0,
+     "HRA": 20,
+     "WHIP": 1.3
+    }
+   ],
+   "among": 247,
+   "text": "Most walks by a 15-game winner: Charlie Hough, 1988 — 126 BB, 15-16."
+  },
+  {
+   "n": 52,
+   "kind": "nearmiss",
+   "rule": "HR29",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 113936,
+     "name": "Dwight Evans"
+    },
+    {
+     "id": 112064,
+     "name": "Joe Carter"
+    },
+    {
+     "id": 119579,
+     "name": "Eddie Murray"
+    }
+   ],
+   "seasons": [
+    1985,
+    1986,
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 113936,
+     "name": "Dwight Evans",
+     "team": "Boston Red Sox",
+     "age": 33,
+     "PA": 744,
+     "AVG": 0.263,
+     "OBP": 0.378,
+     "SLG": 0.454,
+     "OPS": 0.832,
+     "HR": 29,
+     "RBI": 78,
+     "R": 110,
+     "H": 162,
+     "2B": 29,
+     "3B": 1,
+     "SB": 7,
+     "CS": 2,
+     "BB": 114,
+     "SO": 105,
+     "HBP": 5,
+     "GIDP": 16
+    },
+    {
+     "season": 1986,
+     "id": 112064,
+     "name": "Joe Carter",
+     "team": "Cleveland Indians",
+     "age": 26,
+     "PA": 709,
+     "AVG": 0.302,
+     "OBP": 0.335,
+     "SLG": 0.514,
+     "OPS": 0.849,
+     "HR": 29,
+     "RBI": 121,
+     "R": 108,
+     "H": 200,
+     "2B": 36,
+     "3B": 9,
+     "SB": 29,
+     "CS": 7,
+     "BB": 32,
+     "SO": 95,
+     "HBP": 5,
+     "GIDP": 8
+    },
+    {
+     "season": 1984,
+     "id": 119579,
+     "name": "Eddie Murray",
+     "team": "Baltimore Orioles",
+     "age": 28,
+     "PA": 705,
+     "AVG": 0.306,
+     "OBP": 0.41,
+     "SLG": 0.509,
+     "OPS": 0.919,
+     "HR": 29,
+     "RBI": 110,
+     "R": 97,
+     "H": 180,
+     "2B": 26,
+     "3B": 3,
+     "SB": 10,
+     "CS": 2,
+     "BB": 107,
+     "SO": 87,
+     "HBP": 2,
+     "GIDP": 9
+    },
+    {
+     "season": 1982,
+     "id": 124721,
+     "name": "Robin Yount",
+     "team": "Milwaukee Brewers",
+     "age": 26,
+     "PA": 704,
+     "AVG": 0.331,
+     "OBP": 0.379,
+     "SLG": 0.578,
+     "OPS": 0.957,
+     "HR": 29,
+     "RBI": 114,
+     "R": 129,
+     "H": 210,
+     "2B": 46,
+     "3B": 12,
+     "SB": 14,
+     "CS": 3,
+     "BB": 54,
+     "SO": 63,
+     "HBP": 1,
+     "GIDP": 19
+    },
+    {
+     "season": 1987,
+     "id": 113516,
+     "name": "Brian Downing",
+     "team": "California Angels",
+     "age": 36,
+     "PA": 695,
+     "AVG": 0.272,
+     "OBP": 0.4,
+     "SLG": 0.487,
+     "OPS": 0.887,
+     "HR": 29,
+     "RBI": 77,
+     "R": 110,
+     "H": 154,
+     "2B": 29,
+     "3B": 3,
+     "SB": 5,
+     "CS": 5,
+     "BB": 106,
+     "SO": 85,
+     "HBP": 17,
+     "GIDP": 10
+    },
+    {
+     "season": 1986,
+     "id": 119545,
+     "name": "Dale Murphy",
+     "team": "Atlanta Braves",
+     "age": 30,
+     "PA": 692,
+     "AVG": 0.265,
+     "OBP": 0.347,
+     "SLG": 0.477,
+     "OPS": 0.824,
+     "HR": 29,
+     "RBI": 83,
+     "R": 89,
+     "H": 163,
+     "2B": 29,
+     "3B": 7,
+     "SB": 7,
+     "CS": 7,
+     "BB": 75,
+     "SO": 141,
+     "HBP": 2,
+     "GIDP": 10
+    }
+   ],
+   "text": "21 hitter-seasons of the 1980s ended on exactly 29 home runs, one short of 30 — among them Dwight Evans (1985), Joe Carter (1986), Eddie Murray (1984)."
+  },
+  {
+   "n": 53,
+   "kind": "nearmiss",
+   "rule": "RBI99",
+   "group": "H",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 115826,
+     "name": "Keith Hernandez"
+    },
+    {
+     "id": 123313,
+     "name": "Andre Thornton"
+    },
+    {
+     "id": 112651,
+     "name": "Cecil Cooper"
+    }
+   ],
+   "seasons": [
+    1980,
+    1984,
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 115826,
+     "name": "Keith Hernandez",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 690,
+     "AVG": 0.321,
+     "OBP": 0.408,
+     "SLG": 0.494,
+     "OPS": 0.902,
+     "HR": 16,
+     "RBI": 99,
+     "R": 111,
+     "H": 191,
+     "2B": 39,
+     "3B": 8,
+     "SB": 14,
+     "CS": 8,
+     "BB": 86,
+     "SO": 73,
+     "HBP": 4,
+     "GIDP": 14
+    },
+    {
+     "season": 1984,
+     "id": 123313,
+     "name": "Andre Thornton",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "PA": 690,
+     "AVG": 0.271,
+     "OBP": 0.366,
+     "SLG": 0.484,
+     "OPS": 0.85,
+     "HR": 33,
+     "RBI": 99,
+     "R": 91,
+     "H": 159,
+     "2B": 26,
+     "3B": 0,
+     "SB": 6,
+     "CS": 5,
+     "BB": 91,
+     "SO": 79,
+     "HBP": 2,
+     "GIDP": 9
+    },
+    {
+     "season": 1985,
+     "id": 112651,
+     "name": "Cecil Cooper",
+     "team": "Milwaukee Brewers",
+     "age": 35,
+     "PA": 674,
+     "AVG": 0.293,
+     "OBP": 0.322,
+     "SLG": 0.456,
+     "OPS": 0.778,
+     "HR": 16,
+     "RBI": 99,
+     "R": 82,
+     "H": 185,
+     "2B": 39,
+     "3B": 8,
+     "SB": 10,
+     "CS": 3,
+     "BB": 30,
+     "SO": 77,
+     "HBP": 2,
+     "GIDP": 24
+    },
+    {
+     "season": 1987,
+     "id": 120790,
+     "name": "Kirby Puckett",
+     "team": "Minnesota Twins",
+     "age": 27,
+     "PA": 668,
+     "AVG": 0.332,
+     "OBP": 0.367,
+     "SLG": 0.534,
+     "OPS": 0.901,
+     "HR": 28,
+     "RBI": 99,
+     "R": 96,
+     "H": 207,
+     "2B": 32,
+     "3B": 5,
+     "SB": 12,
+     "CS": 7,
+     "BB": 32,
+     "SO": 91,
+     "HBP": 6,
+     "GIDP": 16
+    },
+    {
+     "season": 1983,
+     "id": 110456,
+     "name": "Harold Baines",
+     "team": "Chicago White Sox",
+     "age": 24,
+     "PA": 655,
+     "AVG": 0.28,
+     "OBP": 0.333,
+     "SLG": 0.443,
+     "OPS": 0.776,
+     "HR": 20,
+     "RBI": 99,
+     "R": 76,
+     "H": 167,
+     "2B": 33,
+     "3B": 2,
+     "SB": 7,
+     "CS": 5,
+     "BB": 49,
+     "SO": 85,
+     "HBP": 1,
+     "GIDP": 15
+    },
+    {
+     "season": 1987,
+     "id": 116593,
+     "name": "Howard Johnson",
+     "team": "New York Mets",
+     "age": 26,
+     "PA": 645,
+     "AVG": 0.265,
+     "OBP": 0.364,
+     "SLG": 0.504,
+     "OPS": 0.868,
+     "HR": 36,
+     "RBI": 99,
+     "R": 93,
+     "H": 147,
+     "2B": 22,
+     "3B": 1,
+     "SB": 32,
+     "CS": 10,
+     "BB": 83,
+     "SO": 113,
+     "HBP": 5,
+     "GIDP": 8
+    }
+   ],
+   "text": "11 hitter-seasons of the 1980s ended on exactly 99 RBI, one short of 100 — among them Keith Hernandez (1980), Andre Thornton (1984), Cecil Cooper (1985)."
+  },
+  {
+   "n": 54,
+   "kind": "nearmiss",
+   "rule": "W19",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 117478,
+     "name": "Rick Langford"
+    },
+    {
+     "id": 123619,
+     "name": "Fernando Valenzuela"
+    },
+    {
+     "id": 121390,
+     "name": "Steve Rogers"
+    }
+   ],
+   "seasons": [
+    1980,
+    1982,
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 117478,
+     "name": "Rick Langford",
+     "team": "Oakland Athletics",
+     "age": 28,
+     "W": 19,
+     "L": 12,
+     "ERA": 3.26,
+     "IP": "290.0",
+     "SO": 102,
+     "BB": 64,
+     "SV": 0,
+     "GS": 33,
+     "CG": 28,
+     "SHO": 2,
+     "HRA": 29,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1982,
+     "id": 123619,
+     "name": "Fernando Valenzuela",
+     "team": "Los Angeles Dodgers",
+     "age": 21,
+     "W": 19,
+     "L": 13,
+     "ERA": 2.87,
+     "IP": "285.0",
+     "SO": 199,
+     "BB": 83,
+     "SV": 0,
+     "GS": 37,
+     "CG": 18,
+     "SHO": 4,
+     "HRA": 13,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1982,
+     "id": 121390,
+     "name": "Steve Rogers",
+     "team": "Montreal Expos",
+     "age": 32,
+     "W": 19,
+     "L": 8,
+     "ERA": 2.4,
+     "IP": "277.0",
+     "SO": 179,
+     "BB": 65,
+     "SV": 0,
+     "GS": 35,
+     "CG": 14,
+     "SHO": 4,
+     "HRA": 12,
+     "WHIP": 1.12
+    },
+    {
+     "season": 1987,
+     "id": 117480,
+     "name": "Mark Langston",
+     "team": "Seattle Mariners",
+     "age": 26,
+     "W": 19,
+     "L": 13,
+     "ERA": 3.84,
+     "IP": "272.0",
+     "SO": 262,
+     "BB": 114,
+     "SV": 0,
+     "GS": 35,
+     "CG": 14,
+     "SHO": 3,
+     "HRA": 30,
+     "WHIP": 1.31
+    },
+    {
+     "season": 1983,
+     "id": 120476,
+     "name": "Dan Petry",
+     "team": "Detroit Tigers",
+     "age": 24,
+     "W": 19,
+     "L": 11,
+     "ERA": 3.92,
+     "IP": "266.1",
+     "SO": 122,
+     "BB": 99,
+     "SV": 0,
+     "GS": 38,
+     "CG": 9,
+     "SHO": 2,
+     "HRA": 37,
+     "WHIP": 1.33
+    },
+    {
+     "season": 1980,
+     "id": 110566,
+     "name": "Len Barker",
+     "team": "Cleveland Indians",
+     "age": 24,
+     "W": 19,
+     "L": 12,
+     "ERA": 4.17,
+     "IP": "246.1",
+     "SO": 187,
+     "BB": 92,
+     "SV": 0,
+     "GS": 36,
+     "CG": 8,
+     "SHO": 1,
+     "HRA": 17,
+     "WHIP": 1.34
+    }
+   ],
+   "text": "16 pitcher-seasons of the 1980s ended on exactly 19 wins, one short of 20 — among them Rick Langford (1980), Fernando Valenzuela (1982), Steve Rogers (1982)."
+  },
+  {
+   "n": 55,
+   "kind": "streak",
+   "rule": "K200",
+   "group": "P",
+   "decade": 1980,
+   "score": 6,
+   "players": [
+    {
+     "id": 117480,
+     "name": "Mark Langston"
+    }
+   ],
+   "seasons": [
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1986,
+     "id": 117480,
+     "name": "Mark Langston",
+     "team": "Seattle Mariners",
+     "age": 25,
+     "W": 12,
+     "L": 14,
+     "ERA": 4.85,
+     "IP": "239.1",
+     "SO": 245,
+     "BB": 123,
+     "SV": 0,
+     "GS": 36,
+     "CG": 9,
+     "SHO": 0,
+     "HRA": 30,
+     "WHIP": 1.49
+    },
+    {
+     "season": 1987,
+     "id": 117480,
+     "name": "Mark Langston",
+     "team": "Seattle Mariners",
+     "age": 26,
+     "W": 19,
+     "L": 13,
+     "ERA": 3.84,
+     "IP": "272.0",
+     "SO": 262,
+     "BB": 114,
+     "SV": 0,
+     "GS": 35,
+     "CG": 14,
+     "SHO": 3,
+     "HRA": 30,
+     "WHIP": 1.31
+    },
+    {
+     "season": 1988,
+     "id": 117480,
+     "name": "Mark Langston",
+     "team": "Seattle Mariners",
+     "age": 27,
+     "W": 15,
+     "L": 11,
+     "ERA": 3.34,
+     "IP": "261.1",
+     "SO": 235,
+     "BB": 110,
+     "SV": 0,
+     "GS": 35,
+     "CG": 9,
+     "SHO": 3,
+     "HRA": 32,
+     "WHIP": 1.27
+    },
+    {
+     "season": 1989,
+     "id": 117480,
+     "name": "Mark Langston",
+     "team": "2+ teams",
+     "age": 28,
+     "W": 16,
+     "L": 14,
+     "ERA": 2.74,
+     "IP": "250.0",
+     "SO": 235,
+     "BB": 112,
+     "SV": 0,
+     "GS": 34,
+     "CG": 8,
+     "SHO": 5,
+     "HRA": 16,
+     "WHIP": 1.24
+    }
+   ],
+   "text": "Mark Langston struck out 200+ in 4 straight seasons (1986-89), the longest run of the 1980s."
+  },
+  {
+   "n": 56,
+   "kind": "team",
+   "rule": "100w",
+   "group": "T",
+   "decade": 1980,
+   "score": 6,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 108,
+     "losses": 54,
+     "runsScored": 783,
+     "runsAllowed": 578,
+     "runDifferential": 205,
+     "leagueRank": 1,
+     "season": 1986
+    },
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 104,
+     "losses": 58,
+     "runsScored": 829,
+     "runsAllowed": 643,
+     "runDifferential": 186,
+     "leagueRank": 1,
+     "season": 1984
+    },
+    {
+     "id": 133,
+     "name": "Athletics",
+     "wins": 104,
+     "losses": 58,
+     "runsScored": 800,
+     "runsAllowed": 620,
+     "runDifferential": 180,
+     "leagueRank": 1,
+     "season": 1988
+    },
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 103,
+     "losses": 59,
+     "runsScored": 820,
+     "runsAllowed": 662,
+     "runDifferential": 158,
+     "leagueRank": 1,
+     "season": 1980
+    },
+    {
+     "id": 138,
+     "name": "Cardinals",
+     "wins": 101,
+     "losses": 61,
+     "runsScored": 747,
+     "runsAllowed": 572,
+     "runDifferential": 175,
+     "leagueRank": 1,
+     "season": 1985
+    },
+    {
+     "id": 110,
+     "name": "Orioles",
+     "wins": 100,
+     "losses": 62,
+     "runsScored": 805,
+     "runsAllowed": 640,
+     "runDifferential": 165,
+     "leagueRank": 2,
+     "season": 1980
+    }
+   ],
+   "text": "7 teams of the 1980s won 100 games; the best record was the 1986 Mets at 108-54."
+  },
+  {
+   "n": 57,
+   "kind": "nearmiss",
+   "rule": "AVG299",
+   "group": "H",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111663,
+     "name": "Bill Buckner"
+    },
+    {
+     "id": 113151,
+     "name": "Andre Dawson"
+    },
+    {
+     "id": 115826,
+     "name": "Keith Hernandez"
+    }
+   ],
+   "seasons": [
+    1985,
+    1983,
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 111663,
+     "name": "Bill Buckner",
+     "team": "Boston Red Sox",
+     "age": 35,
+     "PA": 719,
+     "AVG": 0.299,
+     "OBP": 0.325,
+     "SLG": 0.447,
+     "OPS": 0.772,
+     "HR": 16,
+     "RBI": 110,
+     "R": 89,
+     "H": 201,
+     "2B": 46,
+     "3B": 3,
+     "SB": 18,
+     "CS": 4,
+     "BB": 30,
+     "SO": 36,
+     "HBP": 2,
+     "GIDP": 16
+    },
+    {
+     "season": 1983,
+     "id": 113151,
+     "name": "Andre Dawson",
+     "team": "Montreal Expos",
+     "age": 28,
+     "PA": 698,
+     "AVG": 0.299,
+     "OBP": 0.338,
+     "SLG": 0.539,
+     "OPS": 0.877,
+     "HR": 32,
+     "RBI": 113,
+     "R": 104,
+     "H": 189,
+     "2B": 36,
+     "3B": 10,
+     "SB": 25,
+     "CS": 11,
+     "BB": 38,
+     "SO": 81,
+     "HBP": 9,
+     "GIDP": 14
+    },
+    {
+     "season": 1982,
+     "id": 115826,
+     "name": "Keith Hernandez",
+     "team": "St. Louis Cardinals",
+     "age": 28,
+     "PA": 694,
+     "AVG": 0.299,
+     "OBP": 0.397,
+     "SLG": 0.413,
+     "OPS": 0.81,
+     "HR": 7,
+     "RBI": 94,
+     "R": 79,
+     "H": 173,
+     "2B": 33,
+     "3B": 6,
+     "SB": 19,
+     "CS": 11,
+     "BB": 100,
+     "SO": 67,
+     "HBP": 2,
+     "GIDP": 10
+    },
+    {
+     "season": 1989,
+     "id": 111606,
+     "name": "Jerry Browne",
+     "team": "Cleveland Indians",
+     "age": 23,
+     "PA": 685,
+     "AVG": 0.299,
+     "OBP": 0.37,
+     "SLG": 0.39,
+     "OPS": 0.76,
+     "HR": 5,
+     "RBI": 45,
+     "R": 83,
+     "H": 179,
+     "2B": 31,
+     "3B": 4,
+     "SB": 14,
+     "CS": 6,
+     "BB": 68,
+     "SO": 64,
+     "HBP": 1,
+     "GIDP": 9
+    },
+    {
+     "season": 1987,
+     "id": 111493,
+     "name": "Greg Brock",
+     "team": "Milwaukee Brewers",
+     "age": 30,
+     "PA": 602,
+     "AVG": 0.299,
+     "OBP": 0.371,
+     "SLG": 0.438,
+     "OPS": 0.809,
+     "HR": 13,
+     "RBI": 85,
+     "R": 81,
+     "H": 159,
+     "2B": 29,
+     "3B": 3,
+     "SB": 5,
+     "CS": 4,
+     "BB": 57,
+     "SO": 63,
+     "HBP": 6,
+     "GIDP": 9
+    },
+    {
+     "season": 1982,
+     "id": 118040,
+     "name": "Fred Lynn",
+     "team": "California Angels",
+     "age": 30,
+     "PA": 545,
+     "AVG": 0.299,
+     "OBP": 0.374,
+     "SLG": 0.517,
+     "OPS": 0.891,
+     "HR": 21,
+     "RBI": 86,
+     "R": 89,
+     "H": 141,
+     "2B": 38,
+     "3B": 1,
+     "SB": 7,
+     "CS": 8,
+     "BB": 58,
+     "SO": 72,
+     "HBP": 3,
+     "GIDP": 9
+    }
+   ],
+   "text": "6 hitter-seasons of the 1980s ended on a .299 average, one point short of .300 — among them Bill Buckner (1985), Andre Dawson (1983), Keith Hernandez (1982)."
+  },
+  {
+   "n": 58,
+   "kind": "age",
+   "rule": "age_30hr_old",
+   "group": "H",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 113935,
+     "name": "Darrell Evans"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1987,
+     "id": 113935,
+     "name": "Darrell Evans",
+     "team": "Detroit Tigers",
+     "age": 40,
+     "PA": 609,
+     "AVG": 0.257,
+     "OBP": 0.379,
+     "SLG": 0.501,
+     "OPS": 0.88,
+     "HR": 34,
+     "RBI": 99,
+     "R": 90,
+     "H": 128,
+     "2B": 20,
+     "3B": 0,
+     "SB": 6,
+     "CS": 5,
+     "BB": 100,
+     "SO": 84,
+     "HBP": 2,
+     "GIDP": 2
+    }
+   ],
+   "text": "Oldest player of the 1980s to hit 30 home runs: Darrell Evans, age 40 in 1987 — 34 HR."
+  },
+  {
+   "n": 59,
+   "kind": "age",
+   "rule": "age_330_young",
+   "group": "H",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 118443,
+     "name": "Don Mattingly"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1984,
+     "id": 118443,
+     "name": "Don Mattingly",
+     "team": "New York Yankees",
+     "age": 23,
+     "PA": 662,
+     "AVG": 0.343,
+     "OBP": 0.381,
+     "SLG": 0.537,
+     "OPS": 0.918,
+     "HR": 23,
+     "RBI": 110,
+     "R": 91,
+     "H": 207,
+     "2B": 44,
+     "3B": 2,
+     "SB": 1,
+     "CS": 1,
+     "BB": 41,
+     "SO": 33,
+     "HBP": 1,
+     "GIDP": 15
+    }
+   ],
+   "text": "Youngest player of the 1980s to bat .330 (500+ PA): Don Mattingly, age 23 in 1984 — .343."
+  },
+  {
+   "n": 60,
+   "kind": "age",
+   "rule": "age_330_old",
+   "group": "H",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111986,
+     "name": "Rod Carew"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1983,
+     "id": 111986,
+     "name": "Rod Carew",
+     "team": "California Angels",
+     "age": 37,
+     "PA": 536,
+     "AVG": 0.339,
+     "OBP": 0.409,
+     "SLG": 0.411,
+     "OPS": 0.82,
+     "HR": 2,
+     "RBI": 44,
+     "R": 66,
+     "H": 160,
+     "2B": 24,
+     "3B": 2,
+     "SB": 6,
+     "CS": 7,
+     "BB": 57,
+     "SO": 48,
+     "HBP": 1,
+     "GIDP": 15
+    }
+   ],
+   "text": "Oldest player of the 1980s to bat .330 (500+ PA): Rod Carew, age 37 in 1983 — .339."
+  },
+  {
+   "n": 61,
+   "kind": "age",
+   "rule": "age_100rbi_old",
+   "group": "H",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 120404,
+     "name": "Tony Perez"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 120404,
+     "name": "Tony Perez",
+     "team": "Boston Red Sox",
+     "age": 38,
+     "PA": 635,
+     "AVG": 0.275,
+     "OBP": 0.32,
+     "SLG": 0.467,
+     "OPS": 0.787,
+     "HR": 25,
+     "RBI": 105,
+     "R": 73,
+     "H": 161,
+     "2B": 31,
+     "3B": 3,
+     "SB": 1,
+     "CS": 0,
+     "BB": 41,
+     "SO": 93,
+     "HBP": 1,
+     "GIDP": 25
+    }
+   ],
+   "text": "Oldest player of the 1980s to drive in 100 runs: Tony Perez, age 38 in 1980 — 105 RBI."
+  },
+  {
+   "n": 62,
+   "kind": "age",
+   "rule": "age_sb_young",
+   "group": "H",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 115749,
+     "name": "Rickey Henderson"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "age": 21,
+     "PA": 722,
+     "AVG": 0.303,
+     "OBP": 0.42,
+     "SLG": 0.399,
+     "OPS": 0.819,
+     "HR": 9,
+     "RBI": 53,
+     "R": 111,
+     "H": 179,
+     "2B": 22,
+     "3B": 4,
+     "SB": 100,
+     "CS": 26,
+     "BB": 117,
+     "SO": 54,
+     "HBP": 5,
+     "GIDP": 6
+    }
+   ],
+   "text": "Youngest player of the 1980s to steal 40 bases: Rickey Henderson, age 21 in 1980 — 100 SB."
+  },
+  {
+   "n": 63,
+   "kind": "age",
+   "rule": "age_sb_old",
+   "group": "H",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 117912,
+     "name": "Davey Lopes"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 117912,
+     "name": "Davey Lopes",
+     "team": "Chicago Cubs",
+     "age": 40,
+     "PA": 325,
+     "AVG": 0.284,
+     "OBP": 0.383,
+     "SLG": 0.444,
+     "OPS": 0.827,
+     "HR": 11,
+     "RBI": 44,
+     "R": 52,
+     "H": 78,
+     "2B": 11,
+     "3B": 0,
+     "SB": 47,
+     "CS": 4,
+     "BB": 46,
+     "SO": 37,
+     "HBP": 0,
+     "GIDP": 14
+    }
+   ],
+   "text": "Oldest player of the 1980s to steal 40 bases: Davey Lopes, age 40 in 1985 — 47 SB."
+  },
+  {
+   "n": 64,
+   "kind": "age",
+   "rule": "age_20w_young",
+   "group": "P",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 114947,
+     "name": "Dwight Gooden"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 114947,
+     "name": "Dwight Gooden",
+     "team": "New York Mets",
+     "age": 20,
+     "W": 24,
+     "L": 4,
+     "ERA": 1.53,
+     "IP": "276.2",
+     "SO": 268,
+     "BB": 69,
+     "SV": 0,
+     "GS": 35,
+     "CG": 16,
+     "SHO": 8,
+     "HRA": 13,
+     "WHIP": 0.97
+    }
+   ],
+   "text": "Youngest player of the 1980s to win 20 games: Dwight Gooden, age 20 in 1985 — 24-4."
+  },
+  {
+   "n": 65,
+   "kind": "age",
+   "rule": "age_20w_old",
+   "group": "P",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 116550,
+     "name": "Tommy John"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 116550,
+     "name": "Tommy John",
+     "team": "New York Yankees",
+     "age": 37,
+     "W": 22,
+     "L": 9,
+     "ERA": 3.43,
+     "IP": "265.1",
+     "SO": 78,
+     "BB": 56,
+     "SV": 0,
+     "GS": 36,
+     "CG": 16,
+     "SHO": 6,
+     "HRA": 13,
+     "WHIP": 1.23
+    }
+   ],
+   "text": "Oldest player of the 1980s to win 20 games: Tommy John, age 37 in 1980 — 22-9."
+  },
+  {
+   "n": 66,
+   "kind": "age",
+   "rule": "age_era_old",
+   "group": "P",
+   "decade": 1980,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 111126,
+     "name": "Bert Blyleven"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1989,
+     "id": 111126,
+     "name": "Bert Blyleven",
+     "team": "California Angels",
+     "age": 38,
+     "W": 17,
+     "L": 5,
+     "ERA": 2.73,
+     "IP": "241.0",
+     "SO": 131,
+     "BB": 44,
+     "SV": 0,
+     "GS": 33,
+     "CG": 8,
+     "SHO": 5,
+     "HRA": 14,
+     "WHIP": 1.12
+    }
+   ],
+   "text": "Oldest player of the 1980s to post a qualified ERA under 2.75: Bert Blyleven, age 38 in 1989 — 2.73 ERA."
+  },
+  {
+   "n": 67,
+   "rule": "thirty_thirty",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "SB",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1987,
+     "id": 113102,
+     "name": "Eric Davis",
+     "team": "Cincinnati Reds",
+     "age": 25,
+     "PA": 562,
+     "AVG": 0.293,
+     "OBP": 0.399,
+     "SLG": 0.593,
+     "OPS": 0.992,
+     "HR": 37,
+     "RBI": 100,
+     "R": 120,
+     "H": 139,
+     "2B": 23,
+     "3B": 4,
+     "SB": 50,
+     "CS": 6,
+     "BB": 84,
+     "SO": 134,
+     "HBP": 1,
+     "GIDP": 6
+    },
+    {
+     "season": 1988,
+     "id": 111962,
+     "name": "José Canseco",
+     "team": "Oakland Athletics",
+     "age": 23,
+     "PA": 705,
+     "AVG": 0.307,
+     "OBP": 0.391,
+     "SLG": 0.569,
+     "OPS": 0.96,
+     "HR": 42,
+     "RBI": 124,
+     "R": 120,
+     "H": 187,
+     "2B": 34,
+     "3B": 0,
+     "SB": 40,
+     "CS": 16,
+     "BB": 78,
+     "SO": 128,
+     "HBP": 10,
+     "GIDP": 15
+    },
+    {
+     "season": 1989,
+     "id": 116593,
+     "name": "Howard Johnson",
+     "team": "New York Mets",
+     "age": 28,
+     "PA": 655,
+     "AVG": 0.287,
+     "OBP": 0.369,
+     "SLG": 0.559,
+     "OPS": 0.928,
+     "HR": 36,
+     "RBI": 101,
+     "R": 104,
+     "H": 164,
+     "2B": 41,
+     "3B": 3,
+     "SB": 41,
+     "CS": 8,
+     "BB": 77,
+     "SO": 126,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 1987,
+     "id": 122864,
+     "name": "Darryl Strawberry",
+     "team": "New York Mets",
+     "age": 25,
+     "PA": 640,
+     "AVG": 0.284,
+     "OBP": 0.398,
+     "SLG": 0.583,
+     "OPS": 0.981,
+     "HR": 39,
+     "RBI": 104,
+     "R": 108,
+     "H": 151,
+     "2B": 32,
+     "3B": 5,
+     "SB": 36,
+     "CS": 12,
+     "BB": 97,
+     "SO": 122,
+     "HBP": 7,
+     "GIDP": 4
+    },
+    {
+     "season": 1987,
+     "id": 116593,
+     "name": "Howard Johnson",
+     "team": "New York Mets",
+     "age": 26,
+     "PA": 645,
+     "AVG": 0.265,
+     "OBP": 0.364,
+     "SLG": 0.504,
+     "OPS": 0.868,
+     "HR": 36,
+     "RBI": 99,
+     "R": 93,
+     "H": 147,
+     "2B": 22,
+     "3B": 1,
+     "SB": 32,
+     "CS": 10,
+     "BB": 83,
+     "SO": 113,
+     "HBP": 5,
+     "GIDP": 8
+    },
+    {
+     "season": 1983,
+     "id": 119545,
+     "name": "Dale Murphy",
+     "team": "Atlanta Braves",
+     "age": 27,
+     "PA": 687,
+     "AVG": 0.302,
+     "OBP": 0.393,
+     "SLG": 0.54,
+     "OPS": 0.933,
+     "HR": 36,
+     "RBI": 121,
+     "R": 131,
+     "H": 178,
+     "2B": 24,
+     "3B": 4,
+     "SB": 30,
+     "CS": 4,
+     "BB": 90,
+     "SO": 110,
+     "HBP": 2,
+     "GIDP": 15
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 5.175,
+   "players": [
+    {
+     "id": 113102,
+     "name": "Eric Davis"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "text": "6 hitters went 30-30 in the 1980s (7 seasons). The most extreme: Eric Davis, 1987 — 37 HR, 50 SB."
+  },
+  {
+   "n": 68,
+   "kind": "teammates",
+   "rule": "hr_pair",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 119954,
+     "name": "Ben Oglivie"
+    },
+    {
+     "id": 123251,
+     "name": "Gorman Thomas"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "id": 119954,
+     "name": "Ben Oglivie",
+     "team": "Milwaukee Brewers",
+     "age": 31,
+     "PA": 660,
+     "AVG": 0.304,
+     "OBP": 0.362,
+     "SLG": 0.563,
+     "OPS": 0.925,
+     "HR": 41,
+     "RBI": 118,
+     "R": 94,
+     "H": 180,
+     "2B": 26,
+     "3B": 2,
+     "SB": 11,
+     "CS": 9,
+     "BB": 54,
+     "SO": 71,
+     "HBP": 5,
+     "GIDP": 4
+    },
+    {
+     "season": 1980,
+     "id": 123251,
+     "name": "Gorman Thomas",
+     "team": "Milwaukee Brewers",
+     "age": 29,
+     "PA": 697,
+     "AVG": 0.239,
+     "OBP": 0.303,
+     "SLG": 0.471,
+     "OPS": 0.774,
+     "HR": 38,
+     "RBI": 105,
+     "R": 78,
+     "H": 150,
+     "2B": 26,
+     "3B": 3,
+     "SB": 8,
+     "CS": 5,
+     "BB": 58,
+     "SO": 170,
+     "HBP": 2,
+     "GIDP": 7
+    }
+   ],
+   "text": "3 teams of the 1980s had two players at 35+ home runs; the biggest pairing was the 1980 Milwaukee Brewers — Ben Oglivie 41, Gorman Thomas 38."
+  },
+  {
+   "n": 69,
+   "kind": "teammates",
+   "rule": "rbi_trio",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 112651,
+     "name": "Cecil Cooper"
+    },
+    {
+     "id": 124721,
+     "name": "Robin Yount"
+    },
+    {
+     "id": 123251,
+     "name": "Gorman Thomas"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 112651,
+     "name": "Cecil Cooper",
+     "team": "Milwaukee Brewers",
+     "age": 32,
+     "PA": 696,
+     "AVG": 0.313,
+     "OBP": 0.342,
+     "SLG": 0.528,
+     "OPS": 0.87,
+     "HR": 32,
+     "RBI": 121,
+     "R": 104,
+     "H": 205,
+     "2B": 38,
+     "3B": 3,
+     "SB": 2,
+     "CS": 3,
+     "BB": 32,
+     "SO": 53,
+     "HBP": 0,
+     "GIDP": 4
+    },
+    {
+     "season": 1982,
+     "id": 124721,
+     "name": "Robin Yount",
+     "team": "Milwaukee Brewers",
+     "age": 26,
+     "PA": 704,
+     "AVG": 0.331,
+     "OBP": 0.379,
+     "SLG": 0.578,
+     "OPS": 0.957,
+     "HR": 29,
+     "RBI": 114,
+     "R": 129,
+     "H": 210,
+     "2B": 46,
+     "3B": 12,
+     "SB": 14,
+     "CS": 3,
+     "BB": 54,
+     "SO": 63,
+     "HBP": 1,
+     "GIDP": 19
+    },
+    {
+     "season": 1982,
+     "id": 123251,
+     "name": "Gorman Thomas",
+     "team": "Milwaukee Brewers",
+     "age": 31,
+     "PA": 666,
+     "AVG": 0.245,
+     "OBP": 0.343,
+     "SLG": 0.506,
+     "OPS": 0.849,
+     "HR": 39,
+     "RBI": 112,
+     "R": 96,
+     "H": 139,
+     "2B": 29,
+     "3B": 1,
+     "SB": 3,
+     "CS": 7,
+     "BB": 84,
+     "SO": 143,
+     "HBP": 4,
+     "GIDP": 10
+    }
+   ],
+   "text": "3 teams of the 1980s had three players at 100+ RBI; the biggest pairing was the 1982 Milwaukee Brewers — Cecil Cooper 121, Robin Yount 114, Gorman Thomas 112."
+  },
+  {
+   "n": 70,
+   "kind": "teammates",
+   "rule": "hits_pair",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 124721,
+     "name": "Robin Yount"
+    },
+    {
+     "id": 112651,
+     "name": "Cecil Cooper"
+    },
+    {
+     "id": 119236,
+     "name": "Paul Molitor"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1982,
+     "id": 124721,
+     "name": "Robin Yount",
+     "team": "Milwaukee Brewers",
+     "age": 26,
+     "PA": 704,
+     "AVG": 0.331,
+     "OBP": 0.379,
+     "SLG": 0.578,
+     "OPS": 0.957,
+     "HR": 29,
+     "RBI": 114,
+     "R": 129,
+     "H": 210,
+     "2B": 46,
+     "3B": 12,
+     "SB": 14,
+     "CS": 3,
+     "BB": 54,
+     "SO": 63,
+     "HBP": 1,
+     "GIDP": 19
+    },
+    {
+     "season": 1982,
+     "id": 112651,
+     "name": "Cecil Cooper",
+     "team": "Milwaukee Brewers",
+     "age": 32,
+     "PA": 696,
+     "AVG": 0.313,
+     "OBP": 0.342,
+     "SLG": 0.528,
+     "OPS": 0.87,
+     "HR": 32,
+     "RBI": 121,
+     "R": 104,
+     "H": 205,
+     "2B": 38,
+     "3B": 3,
+     "SB": 2,
+     "CS": 3,
+     "BB": 32,
+     "SO": 53,
+     "HBP": 0,
+     "GIDP": 4
+    },
+    {
+     "season": 1982,
+     "id": 119236,
+     "name": "Paul Molitor",
+     "team": "Milwaukee Brewers",
+     "age": 25,
+     "PA": 751,
+     "AVG": 0.302,
+     "OBP": 0.366,
+     "SLG": 0.45,
+     "OPS": 0.816,
+     "HR": 19,
+     "RBI": 71,
+     "R": 136,
+     "H": 201,
+     "2B": 26,
+     "3B": 8,
+     "SB": 41,
+     "CS": 9,
+     "BB": 69,
+     "SO": 93,
+     "HBP": 1,
+     "GIDP": 9
+    }
+   ],
+   "text": "4 teams of the 1980s had two players at 200+ hits; the biggest pairing was the 1982 Milwaukee Brewers — Robin Yount 210, Cecil Cooper 205, Paul Molitor 201."
+  },
+  {
+   "n": 71,
+   "kind": "teammates",
+   "rule": "sb_pair",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 112487,
+     "name": "Vince Coleman"
+    },
+    {
+     "id": 122439,
+     "name": "Ozzie Smith"
+    },
+    {
+     "id": 118694,
+     "name": "Willie McGee"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1988,
+     "id": 112487,
+     "name": "Vince Coleman",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 679,
+     "AVG": 0.26,
+     "OBP": 0.313,
+     "SLG": 0.339,
+     "OPS": 0.652,
+     "HR": 3,
+     "RBI": 38,
+     "R": 77,
+     "H": 160,
+     "2B": 20,
+     "3B": 10,
+     "SB": 81,
+     "CS": 27,
+     "BB": 49,
+     "SO": 111,
+     "HBP": 1,
+     "GIDP": 4
+    },
+    {
+     "season": 1988,
+     "id": 122439,
+     "name": "Ozzie Smith",
+     "team": "St. Louis Cardinals",
+     "age": 33,
+     "PA": 669,
+     "AVG": 0.27,
+     "OBP": 0.35,
+     "SLG": 0.336,
+     "OPS": 0.686,
+     "HR": 3,
+     "RBI": 51,
+     "R": 80,
+     "H": 155,
+     "2B": 27,
+     "3B": 1,
+     "SB": 57,
+     "CS": 9,
+     "BB": 74,
+     "SO": 43,
+     "HBP": 1,
+     "GIDP": 7
+    },
+    {
+     "season": 1988,
+     "id": 118694,
+     "name": "Willie McGee",
+     "team": "St. Louis Cardinals",
+     "age": 29,
+     "PA": 600,
+     "AVG": 0.292,
+     "OBP": 0.329,
+     "SLG": 0.372,
+     "OPS": 0.701,
+     "HR": 3,
+     "RBI": 50,
+     "R": 73,
+     "H": 164,
+     "2B": 24,
+     "3B": 6,
+     "SB": 41,
+     "CS": 6,
+     "BB": 32,
+     "SO": 84,
+     "HBP": 1,
+     "GIDP": 10
+    }
+   ],
+   "text": "15 teams of the 1980s had two players at 40+ steals; the biggest pairing was the 1988 St. Louis Cardinals — Vince Coleman 81, Ozzie Smith 57, Willie McGee 41."
+  },
+  {
+   "n": 72,
+   "kind": "teammates",
+   "rule": "w20_pair",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 116240,
+     "name": "LaMarr Hoyt"
+    },
+    {
+     "id": 113489,
+     "name": "Richard Dotson"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1983,
+     "id": 116240,
+     "name": "LaMarr Hoyt",
+     "team": "Chicago White Sox",
+     "age": 28,
+     "W": 24,
+     "L": 10,
+     "ERA": 3.66,
+     "IP": "260.2",
+     "SO": 148,
+     "BB": 31,
+     "SV": 0,
+     "GS": 36,
+     "CG": 11,
+     "SHO": 1,
+     "HRA": 27,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1983,
+     "id": 113489,
+     "name": "Richard Dotson",
+     "team": "Chicago White Sox",
+     "age": 24,
+     "W": 22,
+     "L": 7,
+     "ERA": 3.23,
+     "IP": "240.0",
+     "SO": 137,
+     "BB": 106,
+     "SV": 0,
+     "GS": 35,
+     "CG": 8,
+     "SHO": 1,
+     "HRA": 19,
+     "WHIP": 1.31
+    }
+   ],
+   "text": "3 teams of the 1980s had two players at 20 wins; the biggest pairing was the 1983 Chicago White Sox — LaMarr Hoyt 24, Richard Dotson 22."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "dec_hr",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 121836,
+     "name": "Mike Schmidt"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "n": 10,
+     "HR": 313,
+     "H": 1287,
+     "RBI": 929,
+     "SB": 57,
+     "R": 832,
+     "BB": 818,
+     "SO": 925,
+     "2B": 225,
+     "3B": 28,
+     "PA": 5556
+    }
+   ],
+   "text": "Most home runs of the 1980s: Mike Schmidt, 313 across 10 seasons."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "dec_hr_nolead",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 119545,
+     "name": "Dale Murphy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 119545,
+     "name": "Dale Murphy",
+     "n": 10,
+     "HR": 308,
+     "H": 1553,
+     "RBI": 929,
+     "SB": 134,
+     "R": 938,
+     "BB": 784,
+     "SO": 1268,
+     "2B": 257,
+     "3B": 31,
+     "PA": 6541
+    }
+   ],
+   "text": "Most home runs in the 1980s by a hitter who never led the majors in a season: Dale Murphy, 308."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "dec_hits",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 124721,
+     "name": "Robin Yount"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 124721,
+     "name": "Robin Yount",
+     "n": 10,
+     "HR": 174,
+     "H": 1731,
+     "RBI": 821,
+     "SB": 148,
+     "R": 957,
+     "BB": 554,
+     "SO": 649,
+     "2B": 337,
+     "3B": 83,
+     "PA": 6357
+    }
+   ],
+   "text": "Most hits of the 1980s: Robin Yount, 1731."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "dec_k_hit",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 119545,
+     "name": "Dale Murphy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 119545,
+     "name": "Dale Murphy",
+     "n": 10,
+     "HR": 308,
+     "H": 1553,
+     "RBI": 929,
+     "SB": 134,
+     "R": 938,
+     "BB": 784,
+     "SO": 1268,
+     "2B": 257,
+     "3B": 31,
+     "PA": 6541
+    }
+   ],
+   "text": "Most strikeouts by a hitter in the 1980s: Dale Murphy, 1268."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "dec_3b",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 124435,
+     "name": "Willie Wilson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 124435,
+     "name": "Willie Wilson",
+     "n": 10,
+     "HR": 32,
+     "H": 1639,
+     "RBI": 401,
+     "SB": 451,
+     "R": 845,
+     "BB": 285,
+     "SO": 798,
+     "2B": 200,
+     "3B": 115,
+     "PA": 6051
+    }
+   ],
+   "text": "Most triples of the 1980s: Willie Wilson, 115."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "dec_rbi",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 119579,
+     "name": "Eddie Murray"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 119579,
+     "name": "Eddie Murray",
+     "n": 10,
+     "HR": 274,
+     "H": 1642,
+     "RBI": 996,
+     "SB": 52,
+     "R": 858,
+     "BB": 754,
+     "SO": 733,
+     "2B": 289,
+     "3B": 19,
+     "PA": 6437
+    }
+   ],
+   "text": "Most RBI of the 1980s: Eddie Murray, 996."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "dec_w",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 119399,
+     "name": "Jack Morris"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 119399,
+     "name": "Jack Morris",
+     "n": 10,
+     "W": 162,
+     "L": 119,
+     "SO": 1629,
+     "SV": 0,
+     "SHO": 20,
+     "CG": 133,
+     "OUTS": 7331,
+     "BB": 858
+    }
+   ],
+   "text": "Most wins of the 1980s: Jack Morris, 162."
+  },
+  {
+   "n": 80,
+   "kind": "total",
+   "rule": "dec_l",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 112306,
+     "name": "Jim Clancy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 112306,
+     "name": "Jim Clancy",
+     "n": 10,
+     "W": 119,
+     "L": 126,
+     "SO": 1145,
+     "SV": 1,
+     "SHO": 10,
+     "CG": 61,
+     "OUTS": 6053,
+     "BB": 711
+    }
+   ],
+   "text": "Most losses of the 1980s: Jim Clancy, 126 — and 119 wins."
+  },
+  {
+   "n": 81,
+   "kind": "total",
+   "rule": "dec_cg",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 119399,
+     "name": "Jack Morris"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 119399,
+     "name": "Jack Morris",
+     "n": 10,
+     "W": 162,
+     "L": 119,
+     "SO": 1629,
+     "SV": 0,
+     "SHO": 20,
+     "CG": 133,
+     "OUTS": 7331,
+     "BB": 858
+    }
+   ],
+   "text": "Most complete games of the 1980s: Jack Morris, 133."
+  },
+  {
+   "n": 82,
+   "kind": "total",
+   "rule": "dec_sv",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 120971,
+     "name": "Jeff Reardon"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 120971,
+     "name": "Jeff Reardon",
+     "n": 10,
+     "W": 56,
+     "L": 60,
+     "SO": 712,
+     "SV": 264,
+     "SHO": 0,
+     "CG": 0,
+     "OUTS": 2615,
+     "BB": 292
+    }
+   ],
+   "text": "Most saves of the 1980s: Jeff Reardon, 264."
+  },
+  {
+   "n": 83,
+   "kind": "total",
+   "rule": "dec_ip",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [
+    {
+     "id": 119399,
+     "name": "Jack Morris"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 119399,
+     "name": "Jack Morris",
+     "n": 10,
+     "W": 162,
+     "L": 119,
+     "SO": 1629,
+     "SV": 0,
+     "SHO": 20,
+     "CG": 133,
+     "OUTS": 7331,
+     "BB": 858
+    }
+   ],
+   "text": "Most innings of the 1980s: Jack Morris, 2443."
+  },
+  {
+   "n": 84,
+   "kind": "season",
+   "rule": "n_30hr_most",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 9
+    },
+    {
+     "season": 1981,
+     "count": 1
+    },
+    {
+     "season": 1982,
+     "count": 16
+    },
+    {
+     "season": 1983,
+     "count": 12
+    },
+    {
+     "season": 1984,
+     "count": 10
+    },
+    {
+     "season": 1985,
+     "count": 13
+    },
+    {
+     "season": 1986,
+     "count": 13
+    },
+    {
+     "season": 1987,
+     "count": 28
+    },
+    {
+     "season": 1988,
+     "count": 5
+    },
+    {
+     "season": 1989,
+     "count": 10
+    }
+   ],
+   "text": "1987 had 28 30-homer hitters, the most of any season in the 1980s."
+  },
+  {
+   "n": 85,
+   "kind": "season",
+   "rule": "n_30hr_least",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 9
+    },
+    {
+     "season": 1981,
+     "count": 1
+    },
+    {
+     "season": 1982,
+     "count": 16
+    },
+    {
+     "season": 1983,
+     "count": 12
+    },
+    {
+     "season": 1984,
+     "count": 10
+    },
+    {
+     "season": 1985,
+     "count": 13
+    },
+    {
+     "season": 1986,
+     "count": 13
+    },
+    {
+     "season": 1987,
+     "count": 28
+    },
+    {
+     "season": 1988,
+     "count": 5
+    },
+    {
+     "season": 1989,
+     "count": 10
+    }
+   ],
+   "text": "1981 had just 1 30-homer hitters, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 86,
+   "kind": "season",
+   "rule": "n_300_most",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 33
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 23
+    },
+    {
+     "season": 1983,
+     "count": 26
+    },
+    {
+     "season": 1984,
+     "count": 25
+    },
+    {
+     "season": 1985,
+     "count": 18
+    },
+    {
+     "season": 1986,
+     "count": 23
+    },
+    {
+     "season": 1987,
+     "count": 27
+    },
+    {
+     "season": 1988,
+     "count": 22
+    },
+    {
+     "season": 1989,
+     "count": 18
+    }
+   ],
+   "text": "1980 had 33 .300 hitters (500+ PA), the most of any season in the 1980s."
+  },
+  {
+   "n": 87,
+   "kind": "season",
+   "rule": "n_300_least",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 33
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 23
+    },
+    {
+     "season": 1983,
+     "count": 26
+    },
+    {
+     "season": 1984,
+     "count": 25
+    },
+    {
+     "season": 1985,
+     "count": 18
+    },
+    {
+     "season": 1986,
+     "count": 23
+    },
+    {
+     "season": 1987,
+     "count": 27
+    },
+    {
+     "season": 1988,
+     "count": 22
+    },
+    {
+     "season": 1989,
+     "count": 18
+    }
+   ],
+   "text": "1981 had no .300 hitters (500+ PA) at all — the only season of the 1980s without one."
+  },
+  {
+   "n": 88,
+   "kind": "season",
+   "rule": "n_100rbi_most",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 15
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 18
+    },
+    {
+     "season": 1983,
+     "count": 14
+    },
+    {
+     "season": 1984,
+     "count": 13
+    },
+    {
+     "season": 1985,
+     "count": 16
+    },
+    {
+     "season": 1986,
+     "count": 15
+    },
+    {
+     "season": 1987,
+     "count": 23
+    },
+    {
+     "season": 1988,
+     "count": 11
+    },
+    {
+     "season": 1989,
+     "count": 13
+    }
+   ],
+   "text": "1987 had 23 100-RBI hitters, the most of any season in the 1980s."
+  },
+  {
+   "n": 89,
+   "kind": "season",
+   "rule": "n_100rbi_least",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 15
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 18
+    },
+    {
+     "season": 1983,
+     "count": 14
+    },
+    {
+     "season": 1984,
+     "count": 13
+    },
+    {
+     "season": 1985,
+     "count": 16
+    },
+    {
+     "season": 1986,
+     "count": 15
+    },
+    {
+     "season": 1987,
+     "count": 23
+    },
+    {
+     "season": 1988,
+     "count": 11
+    },
+    {
+     "season": 1989,
+     "count": 13
+    }
+   ],
+   "text": "1981 had no 100-RBI hitters at all — the only season of the 1980s without one."
+  },
+  {
+   "n": 90,
+   "kind": "season",
+   "rule": "n_sb_most",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 17
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 11
+    },
+    {
+     "season": 1983,
+     "count": 13
+    },
+    {
+     "season": 1984,
+     "count": 15
+    },
+    {
+     "season": 1985,
+     "count": 12
+    },
+    {
+     "season": 1986,
+     "count": 10
+    },
+    {
+     "season": 1987,
+     "count": 14
+    },
+    {
+     "season": 1988,
+     "count": 13
+    },
+    {
+     "season": 1989,
+     "count": 11
+    }
+   ],
+   "text": "1980 had 17 40-steal players, the most of any season in the 1980s."
+  },
+  {
+   "n": 91,
+   "kind": "season",
+   "rule": "n_sb_least",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 17
+    },
+    {
+     "season": 1981,
+     "count": 3
+    },
+    {
+     "season": 1982,
+     "count": 11
+    },
+    {
+     "season": 1983,
+     "count": 13
+    },
+    {
+     "season": 1984,
+     "count": 15
+    },
+    {
+     "season": 1985,
+     "count": 12
+    },
+    {
+     "season": 1986,
+     "count": 10
+    },
+    {
+     "season": 1987,
+     "count": 14
+    },
+    {
+     "season": 1988,
+     "count": 13
+    },
+    {
+     "season": 1989,
+     "count": 11
+    }
+   ],
+   "text": "1981 had just 3 40-steal players, the fewest of any season in the 1980s."
+  },
+  {
+   "n": 92,
+   "kind": "season",
+   "rule": "n_200h_most",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 6
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 5
+    },
+    {
+     "season": 1983,
+     "count": 4
+    },
+    {
+     "season": 1984,
+     "count": 4
+    },
+    {
+     "season": 1985,
+     "count": 4
+    },
+    {
+     "season": 1986,
+     "count": 8
+    },
+    {
+     "season": 1987,
+     "count": 5
+    },
+    {
+     "season": 1988,
+     "count": 2
+    },
+    {
+     "season": 1989,
+     "count": 4
+    }
+   ],
+   "text": "1986 had 8 200-hit seasons, the most of any season in the 1980s."
+  },
+  {
+   "n": 93,
+   "kind": "season",
+   "rule": "n_200h_least",
+   "group": "H",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 6
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 5
+    },
+    {
+     "season": 1983,
+     "count": 4
+    },
+    {
+     "season": 1984,
+     "count": 4
+    },
+    {
+     "season": 1985,
+     "count": 4
+    },
+    {
+     "season": 1986,
+     "count": 8
+    },
+    {
+     "season": 1987,
+     "count": 5
+    },
+    {
+     "season": 1988,
+     "count": 2
+    },
+    {
+     "season": 1989,
+     "count": 4
+    }
+   ],
+   "text": "1981 had no 200-hit seasons at all — the only season of the 1980s without one."
+  },
+  {
+   "n": 94,
+   "kind": "season",
+   "rule": "n_20w_most",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 7
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 1
+    },
+    {
+     "season": 1983,
+     "count": 4
+    },
+    {
+     "season": 1984,
+     "count": 3
+    },
+    {
+     "season": 1985,
+     "count": 6
+    },
+    {
+     "season": 1986,
+     "count": 5
+    },
+    {
+     "season": 1987,
+     "count": 2
+    },
+    {
+     "season": 1988,
+     "count": 6
+    },
+    {
+     "season": 1989,
+     "count": 3
+    }
+   ],
+   "text": "1980 had 7 20-game winners, the most of any season in the 1980s."
+  },
+  {
+   "n": 95,
+   "kind": "season",
+   "rule": "n_20w_least",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 7
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 1
+    },
+    {
+     "season": 1983,
+     "count": 4
+    },
+    {
+     "season": 1984,
+     "count": 3
+    },
+    {
+     "season": 1985,
+     "count": 6
+    },
+    {
+     "season": 1986,
+     "count": 5
+    },
+    {
+     "season": 1987,
+     "count": 2
+    },
+    {
+     "season": 1988,
+     "count": 6
+    },
+    {
+     "season": 1989,
+     "count": 3
+    }
+   ],
+   "text": "1981 had no 20-game winners at all — the only season of the 1980s without one."
+  },
+  {
+   "n": 96,
+   "kind": "season",
+   "rule": "n_k_most",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 2
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 4
+    },
+    {
+     "season": 1983,
+     "count": 3
+    },
+    {
+     "season": 1984,
+     "count": 4
+    },
+    {
+     "season": 1985,
+     "count": 5
+    },
+    {
+     "season": 1986,
+     "count": 12
+    },
+    {
+     "season": 1987,
+     "count": 8
+    },
+    {
+     "season": 1988,
+     "count": 5
+    },
+    {
+     "season": 1989,
+     "count": 6
+    }
+   ],
+   "text": "1986 had 12 200-strikeout pitchers, the most of any season in the 1980s."
+  },
+  {
+   "n": 97,
+   "kind": "season",
+   "rule": "n_k_least",
+   "group": "P",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 2
+    },
+    {
+     "season": 1981,
+     "count": 0
+    },
+    {
+     "season": 1982,
+     "count": 4
+    },
+    {
+     "season": 1983,
+     "count": 3
+    },
+    {
+     "season": 1984,
+     "count": 4
+    },
+    {
+     "season": 1985,
+     "count": 5
+    },
+    {
+     "season": 1986,
+     "count": 12
+    },
+    {
+     "season": 1987,
+     "count": 8
+    },
+    {
+     "season": 1988,
+     "count": 5
+    },
+    {
+     "season": 1989,
+     "count": 6
+    }
+   ],
+   "text": "1981 had no 200-strikeout pitchers at all — the only season of the 1980s without one."
+  },
+  {
+   "n": 98,
+   "kind": "team",
+   "rule": "100l",
+   "group": "T",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 110,
+     "name": "Orioles",
+     "wins": 54,
+     "losses": 107,
+     "runsScored": 550,
+     "runsAllowed": 789,
+     "runDifferential": -239,
+     "leagueRank": 14,
+     "season": 1988
+    },
+    {
+     "id": 144,
+     "name": "Braves",
+     "wins": 54,
+     "losses": 106,
+     "runsScored": 555,
+     "runsAllowed": 741,
+     "runDifferential": -186,
+     "leagueRank": 12,
+     "season": 1988
+    },
+    {
+     "id": 134,
+     "name": "Pirates",
+     "wins": 57,
+     "losses": 104,
+     "runsScored": 568,
+     "runsAllowed": 708,
+     "runDifferential": -140,
+     "leagueRank": 12,
+     "season": 1985
+    },
+    {
+     "id": 136,
+     "name": "Mariners",
+     "wins": 59,
+     "losses": 103,
+     "runsScored": 610,
+     "runsAllowed": 793,
+     "runDifferential": -183,
+     "leagueRank": 14,
+     "season": 1980
+    },
+    {
+     "id": 116,
+     "name": "Tigers",
+     "wins": 59,
+     "losses": 103,
+     "runsScored": 617,
+     "runsAllowed": 816,
+     "runDifferential": -199,
+     "leagueRank": 14,
+     "season": 1989
+    },
+    {
+     "id": 142,
+     "name": "Twins",
+     "wins": 60,
+     "losses": 102,
+     "runsScored": 657,
+     "runsAllowed": 819,
+     "runDifferential": -162,
+     "leagueRank": 14,
+     "season": 1982
+    }
+   ],
+   "text": "11 teams of the 1980s lost 100 games; the worst was the 1988 Orioles at 54-107."
+  },
+  {
+   "n": 99,
+   "kind": "team",
+   "rule": "best_diff",
+   "group": "T",
+   "decade": 1980,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 121,
+     "name": "Mets",
+     "wins": 108,
+     "losses": 54,
+     "runsScored": 783,
+     "runsAllowed": 578,
+     "runDifferential": 205,
+     "leagueRank": 1,
+     "season": 1986
+    }
+   ],
+   "text": "Best run differential of the 1980s: the 1986 Mets, +205 (783 scored, 578 allowed)."
+  },
+  {
+   "n": 100,
+   "rule": "old_power",
+   "group": "H",
+   "decade": 1980,
+   "finder": {
+    "group": "batting",
+    "ageMin": 37,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1980,
+    "seasonMax": 1989
+   },
+   "evidence": [
+    {
+     "season": 1985,
+     "id": 113935,
+     "name": "Darrell Evans",
+     "team": "Detroit Tigers",
+     "age": 38,
+     "PA": 594,
+     "AVG": 0.248,
+     "OBP": 0.356,
+     "SLG": 0.519,
+     "OPS": 0.875,
+     "HR": 40,
+     "RBI": 94,
+     "R": 81,
+     "H": 125,
+     "2B": 17,
+     "3B": 0,
+     "SB": 0,
+     "CS": 4,
+     "BB": 85,
+     "SO": 85,
+     "HBP": 1,
+     "GIDP": 5
+    },
+    {
+     "season": 1985,
+     "id": 114182,
+     "name": "Carlton Fisk",
+     "team": "Chicago White Sox",
+     "age": 37,
+     "PA": 620,
+     "AVG": 0.238,
+     "OBP": 0.32,
+     "SLG": 0.488,
+     "OPS": 0.808,
+     "HR": 37,
+     "RBI": 107,
+     "R": 85,
+     "H": 129,
+     "2B": 23,
+     "3B": 1,
+     "SB": 17,
+     "CS": 9,
+     "BB": 52,
+     "SO": 81,
+     "HBP": 17,
+     "GIDP": 9
+    },
+    {
+     "season": 1987,
+     "id": 113935,
+     "name": "Darrell Evans",
+     "team": "Detroit Tigers",
+     "age": 40,
+     "PA": 609,
+     "AVG": 0.257,
+     "OBP": 0.379,
+     "SLG": 0.501,
+     "OPS": 0.88,
+     "HR": 34,
+     "RBI": 99,
+     "R": 90,
+     "H": 128,
+     "2B": 20,
+     "3B": 0,
+     "SB": 6,
+     "CS": 5,
+     "BB": 100,
+     "SO": 84,
+     "HBP": 2,
+     "GIDP": 2
+    },
+    {
+     "season": 1986,
+     "id": 117092,
+     "name": "Dave Kingman",
+     "team": "Oakland Athletics",
+     "age": 37,
+     "PA": 604,
+     "AVG": 0.21,
+     "OBP": 0.255,
+     "SLG": 0.431,
+     "OPS": 0.686,
+     "HR": 35,
+     "RBI": 94,
+     "R": 70,
+     "H": 118,
+     "2B": 19,
+     "3B": 0,
+     "SB": 3,
+     "CS": 3,
+     "BB": 33,
+     "SO": 126,
+     "HBP": 3,
+     "GIDP": 16
+    },
+    {
+     "season": 1987,
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "age": 37,
+     "PA": 613,
+     "AVG": 0.293,
+     "OBP": 0.388,
+     "SLG": 0.548,
+     "OPS": 0.936,
+     "HR": 35,
+     "RBI": 113,
+     "R": 88,
+     "H": 153,
+     "2B": 28,
+     "3B": 0,
+     "SB": 2,
+     "CS": 1,
+     "BB": 83,
+     "SO": 80,
+     "HBP": 2,
+     "GIDP": 17
+    },
+    {
+     "season": 1986,
+     "id": 110719,
+     "name": "Don Baylor",
+     "team": "Boston Red Sox",
+     "age": 37,
+     "PA": 687,
+     "AVG": 0.238,
+     "OBP": 0.344,
+     "SLG": 0.439,
+     "OPS": 0.783,
+     "HR": 31,
+     "RBI": 94,
+     "R": 93,
+     "H": 139,
+     "2B": 23,
+     "3B": 1,
+     "SB": 3,
+     "CS": 5,
+     "BB": 62,
+     "SO": 111,
+     "HBP": 35,
+     "GIDP": 12
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 4.95,
+   "players": [
+    {
+     "id": 113935,
+     "name": "Darrell Evans"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "5 hitters hit 30+ homers at age 37 or older in the 1980s (6 seasons). The most extreme: Darrell Evans, 1985 — 40 HR at 38."
+  }
+ ],
+ "counts": {
+  "hitterSeasons": 7664,
+  "pitcherSeasons": 4040
+ },
+ "method": [
+  "Every fact is a predicate evaluated over every hitter-season and pitcher-season in the decade, pulled in full from the MLB Stats API (the official record). Nothing is recalled or estimated; the rows that satisfy each rule are stored with it.",
+  "'Only', 'two' and 'three/four' claims are exact counts across the complete pull. Where a rule uses a plate-appearance or innings floor instead of a league qualification bar, the floor is stated in the fact so the claim is reproducible.",
+  "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
+  "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
+ ],
+ "generatedAt": "2026-09-28T03:41:44.187Z",
+ "sources": [
+  {
+   "season": 1980,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1980&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1980&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1980&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:37.564Z"
+  },
+  {
+   "season": 1981,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1981&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1981&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1981&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:38.201Z"
+  },
+  {
+   "season": 1982,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1982&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1982&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1982&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:38.847Z"
+  },
+  {
+   "season": 1983,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1983&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1983&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1983&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:39.509Z"
+  },
+  {
+   "season": 1984,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1984&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1984&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1984&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:40.142Z"
+  },
+  {
+   "season": 1985,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1985&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1985&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1985&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:40.754Z"
+  },
+  {
+   "season": 1986,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1986&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1986&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1986&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:41.419Z"
+  },
+  {
+   "season": 1987,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1987&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1987&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1987&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:42.078Z"
+  },
+  {
+   "season": 1988,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1988&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1988&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1988&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:42.745Z"
+  },
+  {
+   "season": 1989,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1989&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1989&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1989&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:43.437Z"
+  }
+ ]
+}

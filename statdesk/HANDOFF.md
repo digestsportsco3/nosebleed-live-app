@@ -7,7 +7,84 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-25. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-09-28. THE PIPELINE IS BUILT AND WORKING END TO END.
+
+### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
+
+Nick asked for the MLB decade-fact pipeline (unique, engaging oddity lines, not
+league leaders) for every NBA decade, NFL, college football, college basketball,
+plus 100 Michael Jordan facts. He added all Sports Reference sports to his
+Stathead subscription for this.
+
+Sources and code, by sport:
+- NBA 1940s-2020s: `statdesk/nba/pull.js` (stats.nba.com, self-hosted runner) ->
+  `statdesk/nba/facts.js` -> `statdesk/data/nba/facts/<decade>s-facts.json`.
+  1940s has 38 lines, 1950s 83, 1960s 98, the rest 100 (early seasons kept few stats).
+- Michael Jordan: `statdesk/nba/mj-facts.js` -> `statdesk/data/nba/facts/mj-facts.json`
+  (100, from his official career, game logs and commonplayerinfo birthdate —
+  ages are exact, never the API's season-age label).
+- NFL 2000s-2020s: nflverse CSVs (`statdesk/nfl/fetch.sh`, gitignored raw) ->
+  `statdesk/nfl/facts.js`.
+- NFL 1920s-1990s, college football, college basketball: `statdesk/sport-facts.js`,
+  one Stathead finder query per rule in the signed-in browser, rows stored as
+  provenance (`statdesk/data/browser/<date>/S<SPORT>nnn.md`). Output
+  `statdesk/data/<nfl|cfb|cbb>/facts/<decade>s-facts.json`. Dispatch with
+  `statdesk-multisport.yml`, task `sport-facts`, args `nfl cfb cbb` (and optional
+  decades). Each sport commits as it finishes.
+- Render any set with `statdesk/render-facts.js` (one landscape page per file,
+  closing method page), then headless Chromium to PDF.
+
+Rules in sport-facts.js that must not be loosened:
+- Every filter is re-checked locally on the returned rows; a criterion the site
+  ignored can never produce a false "only".
+- A result set that was cut off (more pages than read) never claims "only" or an
+  exact count; it says "more than N".
+- Derived "most N-yard seasons" / oldest / youngest lines come from the top-200
+  rows of a "most in a season" query and are used only when those rows provably
+  include every qualifying season.
+- Decade totals use the finder's combined-seasons option, whose value is read off
+  the form; if the answer comes back as single seasons the totals are skipped.
+- NFL sacks before 1982 are unofficial on Pro Football Reference and are dropped.
+- Coverage: college football player seasons start 1956, team seasons 1869 (major
+  college). College basketball (men's, comp_id=NCAAM — without it women's seasons
+  mix in) starts 1947-48 for players and teams. The 2026 college football season is
+  in progress and excluded.
+
+"Why post" notes (asked for 2026-09-28): every line now carries `why`.
+Hand-written per fact in `nba/mj-era-facts.js` and `nba/player-facts.js`; for
+rule-generated sets `lib/why.js` builds it from the line's kind plus its rule's
+angle (sport-facts.js writes it; `tidy-facts.js --rewhy` redoes old files).
+`tidy-facts.js` also forces one-decimal rates and adds the NFL unofficial-era
+notes (all pre-1932 figures, punting before 1939, returns before 1941).
+render-facts.js: with `why` a set takes two pages of 50; a per-page script
+steps the type down until it fits. Print with Playwright (wait for
+body[data-fit]) so the PDF reflects the fit; check pages with a scroll test.
+- `nba/mj-era-facts.js` -> mj-era-facts.json: 100 Jordan-vs-his-era lines, none
+  repeating mj-facts.json. Sent.
+- `nba/player-facts.js <slug>`: 100 facts for any pulled player plus Jordan
+  head-to-heads. Kobe needs `pull.js player 977 kobe` (task nba-extra, which
+  also runs the cross-check). NEVER run it with slug mj — it writes
+  mj-player-test.json precisely so the hand-built mj-facts.json is not lost.
+- NFL 1920s-2020s complete and sent (d48f980).
+
+KNOWN DATA HOLE, found 2026-09-28 by the Stathead cross-check: stats.nba.com
+leagueleaders silently omits some players (Kevin Porter, traded in 1977-78, is
+missing entirely), so NBA "only" lines and "next best" names could be wrong.
+`pull.js fill` (task nba-fill) adds every roster candidate's missing seasons
+from his official career record. AFTER IT LANDS: rebuild nba/facts.js (all
+decades), mj-facts.js, mj-era-facts.js and player-facts.js kobe; diff the line
+texts against the committed versions; resend any PDF whose lines changed and
+tell Nick exactly which lines changed. Cross-check otherwise agreed: 28/28
+Jordan seasons, 47/53 decade top-fives (the rest were name spellings).
+
+College basketball finders show percentages as fractions (.647): sport-facts
+units carry pctFraction, which converts to percents and sends thresholds in
+site scale. The first CBB pass (80427d8) predates the fix: its shooting rules
+never fired and must not be rendered; the rerun comes from the nba-fill job.
+
+Status at last update: NBA, MJ and NFL 2000s-2020s done and sent as PDFs earlier.
+Run 8 (NFL pre-2000 + CFB + CBB) dispatched 2026-09-28 05:41 UTC on commit 9763f2f.
+Still open: render/send those PDFs; Stathead cross-check samples for NBA/MJ.
 
 ### How it runs now
 
@@ -54,6 +131,20 @@ Verified 2026-09-25: 7 forty-forty seasons since 1901 (Ohtani 2024, Soriano
 2006, Crow-Armstrong 2026, Bonds 1996, Canseco 1988, Rodriguez 1998, Acuña
 2023) and 81 thirty-thirty seasons. Both complete, neither capped.
 
+### NAMES ARE NOT UNIQUE — resolve by player id
+
+There are two Max Muncys in the league (Dodgers id 571970, 29 HR; Athletics id
+691777, 9 HR). A day-over-day diff keyed on fullName reported one of them
+gaining twenty home runs overnight on 2026-09-26. The data was fine; the
+comparison was wrong. Anything that joins players across two pulls must key on
+`player.id`, never the name.
+
+active-check.js had the same hazard in a worse place: it took the max games
+across same-named players, so asking about an injured player would find his
+healthy namesake and wave him through — a false pass in the one guard built to
+catch a player who has stopped appearing. It now reports AMBIGUOUS and fails
+rather than guessing.
+
 ### RUN THE ACTIVE CHECK BEFORE EVERY BRIEF
 
     node statdesk/active-check.js <date> "Name" "Name" ...
@@ -94,6 +185,160 @@ ten days. Starters need 1+, everyday players and relievers 3+.
 Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
 `statdesk/posted.json`, which the pipeline filters on automatically. Add a name
 the day it goes out.
+
+### DECADE FACTS (2026-09-28) — the thing Nick actually wanted
+
+The league-leader grids were NOT what he asked for. He wanted the daily
+brief's kind of stat, a hundred per decade: oddities, "only player of the
+decade to...", near-misses, contradictions. That is `statdesk/facts.js`:
+
+- ~60 era-aware oddity rules (power/no average, ERA under 2.50 with a losing
+  record, 40 HR/15 doubles, walks > hits ...) + 16 extremes + near-misses
+  (29 HR, .299, 99 RBI, 19 W ...) + streaks + team-mate pairings + decade
+  totals + season counts + youngest/oldest + club facts.
+- Every line is a predicate over EVERY player-season in the decade, pulled
+  in full; the rows satisfying it are stored with it. "Only/two/few" COUNT
+  PLAYERS, not player-seasons (Randy Johnson walking 130+ twice is one
+  player, not two — that bug shipped once and was caught in review).
+- Rules made of plain comparisons carry a Stathead Season Finder spec.
+  `verify-facts.js` re-runs a sample on Nick's machine and compares the
+  player-season SETS. FINAL run on the final files (commit 0cc967d): 50
+  checks, 49 reproduced exactly (two only by name form: Tristram/Tris
+  Speaker, Hank/Henry Aaron), 0 disagreed, 1 unverifiable — Jeff Samardzija
+  2014 (7-13, 2.99 across CHC/OAK), which the API carries as one combined
+  row under his LAST club with numTeams=2 and Stathead's finder splits into
+  stints. That combined-row shape matters beyond verification: before the
+  fix a traded player's whole season was credited to his last club in the
+  team-mate rules; 14 team-mate lines changed on regeneration. `teams` now
+  follows the API's numTeams.
+- Selection: score-ranked with diversity caps, then fill passes so every
+  decade reaches exactly 100. `render-decade-facts.js`: one landscape page
+  per decade, four CSS-balanced columns (a count-based split overflowed),
+  plus a closing method page. Delivered as an 11-page PDF.
+- Build/regenerate: dispatch `statdesk-decades.yml` (cloud runner, ~2 min for
+  ten decades); facts write to `<decade>s-facts.json` next to the leaders
+  file. Raw pulls are NOT kept, so any rule change means a regeneration.
+- Cross-check: dispatch `statdesk-decades-verify.yml` with mode=facts on the
+  self-hosted runner (~4 min for 50 samples).
+
+Known limits: no positions (the API's historical splits carry none), no
+park adjustment, no postseason, age is the API's season age and can differ
+from Stathead by a year.
+
+### DECADE MODE (added 2026-09-28) — historical leaders, never from memory
+
+Nick asked for 100 stats from each decade, all true. Built as a mode of the
+pipeline, not a one-off:
+
+- `statdesk/decades.js` pulls EVERY season in a decade in full from the MLB
+  Stats API (official record, seasons back to 1876) plus standings, computes
+  the leader in 22 categories mechanically, and commits a compact summary
+  per decade to `statdesk/data/decades/<decade>s.json` (leaders + top five
+  behind each as provenance + decade totals). Raw pulls are gitignored.
+- Workflow `statdesk-decades.yml` runs it on a GitHub-hosted runner (the API
+  is not blocked there; only Stathead needs Nick's machine). Own concurrency
+  group. About 0.6 s per season.
+- `statdesk/render-decades.js` renders one landscape page per decade: a
+  10-season x 10-category grid = the 100 facts, decade-totals strip, method.
+  Cells are height-capped so ties cannot overflow a page; 3+ way ties go to
+  footnotes.
+- `statdesk/verify-decades.js` + `statdesk-decades-verify.yml` cross-check
+  samples against Stathead's Season Finder on Nick's machine and commit a
+  report. Counting stats only. A disagreement fails the job; never reconciled.
+
+Rules learned building it:
+- QUALIFICATION IS PER LEAGUE on that league's own schedule. The official
+  record has included Negro League seasons (1920-1948) since 2024; those clubs
+  played 40-110 games, so one 154-game bar would silently disqualify all of
+  them, including the record's own 1943 batting leader (Josh Gibson .466).
+  AL/NL bars come from the standings capped at the schedule (154 before
+  1961/62, 162 after); other leagues use the most games any hitter played.
+  `--al-nl-only` builds the pre-2024-style version if Nick wants it.
+- Some historical rows have NO NAME. Guard every name read.
+- The API writes "Nolan Ryan Jr."; Stathead writes "Nolan Ryan". Strip
+  suffixes before comparing sources.
+- Innings compare as outs, never as decimals.
+- Reasonableness check on the first full pull: 21 of 21 famous leaders
+  matched (Ruth 60, Wilson 191, Williams .406, Maris 61, Wills 104, Gibson
+  1.12, Ryan 383, Henderson 130, McGwire 70, Bonds 73, Ichiro 262, Hornsby
+  .424, Gibson .466, Thigpen 57, K-Rod 62, Coleman 110, Johnson 364, Halladay
+  21, Feller 240, Kiner 47, Mantle 52).
+
+Delivered 2026-09-28: 1920s-2010s (ten decades; Nick's list skipped the
+1960s, included anyway and flagged).
+
+STATHEAD CROSS-CHECK RESULT (40 samples, 4 per decade): 39 agree. ONE genuine
+source disagreement — 1923 RBI: the official MLB record credits Babe Ruth with
+131; Stathead / Baseball Reference credits him with 130, tied with Tris
+Speaker. The two record keepers differ by a run on a 1923 total, which is
+common for that era. NOT reconciled: the page shows the official figure and
+prints the disagreement as a footnote. The renderer now reads the latest
+verify report and prints any genuine disagreement on the page it concerns,
+so this happens automatically for future decades.
+
+Three other "disagreements" in the raw report were name form only (Hank vs
+Henry Aaron, Earl Averill vs Earl Averill Sr.). Both the verifier and the
+renderer now treat same value + same surname as agreement.
+
+### THE REGULAR SEASON ENDED 2026-09-27 — read this before the next run
+
+Sept 27 was game 162: every club had played 161 with 15 games scheduled. The
+daily fresh-ten format has now run out of regular season, and roughly 60
+players have been used (see the sent list). Do NOT dispatch a routine daily
+pull tomorrow expecting new leaderboard movement; there will be none until the
+postseason generates it.
+
+What to ask Nick before the next brief:
+- Postseason coverage instead of a daily ten? Different shape: series previews,
+  matchup splits, bullpen usage.
+- Season-in-review / awards briefs? The data for these is already pulled and
+  the exclusion list stops mattering, because the frame changes from "who is
+  new" to "who was best".
+- Final standings and league leaders as a one-off wrap?
+
+The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
+decision. Nothing in the pipeline has to change to support any of the above.
+
+### Unresolved as of the final morning (check the results before reusing)
+
+These were live when the Sept 27 brief went out and are now settled. Anything
+reusing them must re-pull, not copy the brief:
+- HR title TIED: Crow-Armstrong 45, Schwarber 45
+- Strikeout title: Gavin Williams 248, Misiorowski 247 (one apart)
+- Saves TIED: Cade Smith 41, Bryan Baker 41
+- Wins TIED: Sonny Gray 18, Cristopher Sánchez 18
+- Brice Turang on 99 RBI, one short of 100
+
+### What went out on Sep 27
+
+1 HR title tied 45-45 2 Hunter Goodman 41 (hit two, joined the 40 club, now
+eight deep) 3 K title one apart 4 Saves tied 5 Ohtani two-way: 30 HR/.890 OPS
+and 8-2/1.79/95K 6 Juan Soto .919 OPS in 110 G 7 Bobby Witt Jr. 45 SB + 33 2B
+8 Yamamoto 0.87 WHIP 9 Paul Skenes 200 K with a losing record 10 Brice Turang
+99 RBI. Six fresh; the four race items reused sent names deliberately because
+on the final day the race IS the story, not the player.
+
+Ohtani had never been used and is the strongest single item: he pitched 85.2
+innings at a 1.79 ERA while hitting 30 homers. Worth remembering that the
+pitching file must be checked for two-way players — scanning only the hitting
+file hides half of him.
+
+### What went out on Sep 26
+
+1 De La Cruz 30-30 landed (82nd in history per Stathead's 81 prior, third of
+2026) 2 Chase Burns 15-3 best win pct 3 Kevin McGonigle 95 BB at 21 4 James
+Wood 30/20/100 only 5 Hunter Goodman 39 HR 6 Dylan Cease 239 K 7 Jeffrey
+Springs 4-14 6.18 8 Mike Trout 106 BB 9 Oneil Cruz 20/30 in 96 G 10 Gabriel
+Moreno .311 catcher. Nine fresh; De La Cruz returned on the milestone.
+
+The active check pulled Michael Lorenzen before print: worst ERA in baseball
+(7.21) but no appearance in ten days, so the item was stale. Replaced with
+Springs, who is still starting. Second save by that check in two days.
+
+STATHEAD LAG CONFIRMED: its 30-30 table had 81 rows and did NOT include De La
+Cruz's same-day steal, and listed Crow-Armstrong at 40 SB and Abrams at 33
+while the live API had 41 and 34. About one day behind. That is why his is the
+82nd rather than one of the 81.
 
 ### What went out on Sep 25
 

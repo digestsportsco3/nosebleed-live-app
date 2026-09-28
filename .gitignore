@@ -26,3 +26,11 @@ contracts/**/verify_*.py
 statdesk/data/browser/**/*.raw.html
 statdesk/data/browser/**/verify-failed.html
 statdesk/data/browser/**/*-no-table.html
+
+# Decade mode: raw season pulls are ~2 MB each and a hundred of them do not
+# belong in git. The committed per-decade summary carries the leaders plus the
+# top five behind each as provenance, which is enough to re-derive any claim.
+statdesk/data/decades/raw/
+
+# nflverse season files (public, ~26 MB, re-downloadable with nfl/fetch.sh).
+statdesk/data/nfl/nflverse/

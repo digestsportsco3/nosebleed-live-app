@@ -1,0 +1,1052 @@
+{
+ "runDate": "2026-09-27",
+ "checks": 40,
+ "agree": 36,
+ "disagree": 4,
+ "failed": 0,
+ "results": [
+  {
+   "decade": "1920s",
+   "season": 1920,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "league": "AL",
+     "teams": 1,
+     "value": 54,
+     "shown": "54"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Babe Ruth",
+     "value": 54
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V001",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1920&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1920s",
+   "season": 1923,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "league": "AL",
+     "teams": 1,
+     "value": 131,
+     "shown": "131"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Babe Ruth",
+     "value": 130
+    },
+    {
+     "name": "Tris Speaker",
+     "value": 130
+    }
+   ],
+   "verdict": "DISAGREE",
+   "provenance": "V002",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1923&year_max=1923&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1920s",
+   "season": 1926,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 111746,
+     "name": "George Burns",
+     "team": "Cleveland Indians",
+     "league": "AL",
+     "teams": 1,
+     "value": 216,
+     "shown": "216"
+    },
+    {
+     "id": 121137,
+     "name": "Sam Rice",
+     "team": "Washington Senators",
+     "league": "AL",
+     "teams": 1,
+     "value": 216,
+     "shown": "216"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "George Burns",
+     "value": 216
+    },
+    {
+     "name": "Sam Rice",
+     "value": 216
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V003",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1926&year_max=1926&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1920s",
+   "season": 1929,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 492555,
+     "name": "Cool Papa Bell",
+     "team": "Chicago American Giants",
+     "league": "NNL",
+     "teams": 1,
+     "value": 48,
+     "shown": "48"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Cool Papa Bell",
+     "value": 48
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V004",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1929&year_max=1929&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "1930s",
+   "season": 1930,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 124412,
+     "name": "Hack Wilson",
+     "team": "Chicago Cubs",
+     "league": "NL",
+     "teams": 1,
+     "value": 56,
+     "shown": "56"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Hack Wilson",
+     "value": 56
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V005",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1930&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1930s",
+   "season": 1933,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 114367,
+     "name": "Jimmie Foxx",
+     "team": "Philadelphia Athletics",
+     "league": "AL",
+     "teams": 1,
+     "value": 163,
+     "shown": "163"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Jimmie Foxx",
+     "value": 163
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V006",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1933&year_max=1933&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1930s",
+   "season": 1936,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 110396,
+     "name": "Earl Averill Sr.",
+     "team": "Cleveland Indians",
+     "league": "AL",
+     "teams": 1,
+     "value": 232,
+     "shown": "232"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Earl Averill",
+     "value": 232
+    }
+   ],
+   "verdict": "DISAGREE",
+   "provenance": "V007",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1936&year_max=1936&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1930s",
+   "season": 1939,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 112080,
+     "name": "George Case",
+     "team": "Washington Senators",
+     "league": "AL",
+     "teams": 1,
+     "value": 51,
+     "shown": "51"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "George Case",
+     "value": 51
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V008",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1939&year_max=1939&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "1940s",
+   "season": 1940,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 119207,
+     "name": "Johnny Mize",
+     "team": "St. Louis Cardinals",
+     "league": "NL",
+     "teams": 1,
+     "value": 43,
+     "shown": "43"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Johnny Mize",
+     "value": 43
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V009",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1940&year_max=1940&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1940s",
+   "season": 1943,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 119774,
+     "name": "Bill Nicholson",
+     "team": "Chicago Cubs",
+     "league": "NL",
+     "teams": 1,
+     "value": 128,
+     "shown": "128"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Bill Nicholson",
+     "value": 128
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V010",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1943&year_max=1943&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1940s",
+   "season": 1946,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 119602,
+     "name": "Stan Musial",
+     "team": "St. Louis Cardinals",
+     "league": "NL",
+     "teams": 1,
+     "value": 228,
+     "shown": "228"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Stan Musial",
+     "value": 228
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V011",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1946&year_max=1946&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1940s",
+   "season": 1949,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 121314,
+     "name": "Jackie Robinson",
+     "team": "Brooklyn Dodgers",
+     "league": "NL",
+     "teams": 1,
+     "value": 37,
+     "shown": "37"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Jackie Robinson",
+     "value": 37
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V012",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1949&year_max=1949&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "1950s",
+   "season": 1950,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 117072,
+     "name": "Ralph Kiner",
+     "team": "Pittsburgh Pirates",
+     "league": "NL",
+     "teams": 1,
+     "value": 47,
+     "shown": "47"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Ralph Kiner",
+     "value": 47
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V013",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1950&year_max=1950&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1950s",
+   "season": 1953,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 121461,
+     "name": "Al Rosen",
+     "team": "Cleveland Indians",
+     "league": "AL",
+     "teams": 1,
+     "value": 145,
+     "shown": "145"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Al Rosen",
+     "value": 145
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V014",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1953&year_max=1953&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1950s",
+   "season": 1956,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Milwaukee Braves",
+     "league": "NL",
+     "teams": 1,
+     "value": 200,
+     "shown": "200"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Henry Aaron",
+     "value": 200
+    }
+   ],
+   "verdict": "DISAGREE",
+   "provenance": "V015",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1956&year_max=1956&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1950s",
+   "season": 1959,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 110290,
+     "name": "Luis Aparicio",
+     "team": "Chicago White Sox",
+     "league": "AL",
+     "teams": 1,
+     "value": 56,
+     "shown": "56"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Luis Aparicio",
+     "value": 56
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V016",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1959&year_max=1959&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "1960s",
+   "season": 1960,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 110533,
+     "name": "Ernie Banks",
+     "team": "Chicago Cubs",
+     "league": "NL",
+     "teams": 1,
+     "value": 41,
+     "shown": "41"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Ernie Banks",
+     "value": 41
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V017",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1960&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1960s",
+   "season": 1963,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 110001,
+     "name": "Hank Aaron",
+     "team": "Milwaukee Braves",
+     "league": "NL",
+     "teams": 1,
+     "value": 130,
+     "shown": "130"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Henry Aaron",
+     "value": 130
+    }
+   ],
+   "verdict": "DISAGREE",
+   "provenance": "V018",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1963&year_max=1963&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1960s",
+   "season": 1966,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 110186,
+     "name": "Felipe Alou",
+     "team": "Atlanta Braves",
+     "league": "NL",
+     "teams": 1,
+     "value": 218,
+     "shown": "218"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Felipe Alou",
+     "value": 218
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V019",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1966&year_max=1966&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1960s",
+   "season": 1969,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 115495,
+     "name": "Tommy Harper",
+     "team": "Seattle Pilots",
+     "league": "AL",
+     "teams": 1,
+     "value": 73,
+     "shown": "73"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Tommy Harper",
+     "value": 73
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V020",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1969&year_max=1969&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "1970s",
+   "season": 1970,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 110849,
+     "name": "Johnny Bench",
+     "team": "Cincinnati Reds",
+     "league": "NL",
+     "teams": 1,
+     "value": 45,
+     "shown": "45"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Johnny Bench",
+     "value": 45
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V021",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1970&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1970s",
+   "season": 1973,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 122685,
+     "name": "Willie Stargell",
+     "team": "Pittsburgh Pirates",
+     "league": "NL",
+     "teams": 1,
+     "value": 119,
+     "shown": "119"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Willie Stargell",
+     "value": 119
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V022",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1973&year_max=1973&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1970s",
+   "season": 1976,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 111437,
+     "name": "George Brett",
+     "team": "Kansas City Royals",
+     "league": "AL",
+     "teams": 1,
+     "value": 215,
+     "shown": "215"
+    },
+    {
+     "id": 121454,
+     "name": "Pete Rose",
+     "team": "Cincinnati Reds",
+     "league": "NL",
+     "teams": 1,
+     "value": 215,
+     "shown": "215"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "George Brett",
+     "value": 215
+    },
+    {
+     "name": "Pete Rose",
+     "value": 215
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V023",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1976&year_max=1976&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1970s",
+   "season": 1979,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 124435,
+     "name": "Willie Wilson",
+     "team": "Kansas City Royals",
+     "league": "AL",
+     "teams": 1,
+     "value": 83,
+     "shown": "83"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Willie Wilson",
+     "value": 83
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V024",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1979&year_max=1979&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "1980s",
+   "season": 1980,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 121836,
+     "name": "Mike Schmidt",
+     "team": "Philadelphia Phillies",
+     "league": "NL",
+     "teams": 1,
+     "value": 48,
+     "shown": "48"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Mike Schmidt",
+     "value": 48
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V025",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1980&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1980s",
+   "season": 1983,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 112651,
+     "name": "Cecil Cooper",
+     "team": "Milwaukee Brewers",
+     "league": "AL",
+     "teams": 1,
+     "value": 126,
+     "shown": "126"
+    },
+    {
+     "id": 121140,
+     "name": "Jim Rice",
+     "team": "Boston Red Sox",
+     "league": "AL",
+     "teams": 1,
+     "value": 126,
+     "shown": "126"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Cecil Cooper",
+     "value": 126
+    },
+    {
+     "name": "Jim Rice",
+     "value": 126
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V026",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1983&year_max=1983&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1980s",
+   "season": 1986,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 118443,
+     "name": "Don Mattingly",
+     "team": "New York Yankees",
+     "league": "AL",
+     "teams": 1,
+     "value": 238,
+     "shown": "238"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Don Mattingly",
+     "value": 238
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V027",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1986&year_max=1986&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1980s",
+   "season": 1989,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 115749,
+     "name": "Rickey Henderson",
+     "team": "Oakland Athletics",
+     "league": "AL",
+     "teams": 1,
+     "value": 77,
+     "shown": "77"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Rickey Henderson",
+     "value": 77
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V028",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1989&year_max=1989&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "1990s",
+   "season": 1990,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 114106,
+     "name": "Cecil Fielder",
+     "team": "Detroit Tigers",
+     "league": "AL",
+     "teams": 1,
+     "value": 51,
+     "shown": "51"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Cecil Fielder",
+     "value": 51
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V029",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1990&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "1990s",
+   "season": 1993,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 110839,
+     "name": "Albert Belle",
+     "team": "Cleveland Indians",
+     "league": "AL",
+     "teams": 1,
+     "value": 129,
+     "shown": "129"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Albert Belle",
+     "value": 129
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V030",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1993&year_max=1993&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "1990s",
+   "season": 1996,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 116603,
+     "name": "Lance Johnson",
+     "team": "New York Mets",
+     "league": "NL",
+     "teams": 1,
+     "value": 227,
+     "shown": "227"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Lance Johnson",
+     "value": 227
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V031",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1996&year_max=1996&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "1990s",
+   "season": 1999,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 124523,
+     "name": "Tony Womack",
+     "team": "Arizona Diamondbacks",
+     "league": "NL",
+     "teams": 1,
+     "value": 72,
+     "shown": "72"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Tony Womack",
+     "value": 72
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V032",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1999&year_max=1999&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "2000s",
+   "season": 2000,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 122544,
+     "name": "Sammy Sosa",
+     "team": "Chicago Cubs",
+     "league": "NL",
+     "teams": 1,
+     "value": 50,
+     "shown": "50"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Sammy Sosa",
+     "value": 50
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V033",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2000&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "2000s",
+   "season": 2003,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 113232,
+     "name": "Carlos Delgado",
+     "team": "Toronto Blue Jays",
+     "league": "AL",
+     "teams": 1,
+     "value": 145,
+     "shown": "145"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Carlos Delgado",
+     "value": 145
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V034",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2003&year_max=2003&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "2000s",
+   "season": 2006,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 400085,
+     "name": "Ichiro Suzuki",
+     "team": "Seattle Mariners",
+     "league": "AL",
+     "teams": 1,
+     "value": 224,
+     "shown": "224"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Ichiro Suzuki",
+     "value": 224
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V035",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2006&year_max=2006&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "2000s",
+   "season": 2009,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 453056,
+     "name": "Jacoby Ellsbury",
+     "team": "Boston Red Sox",
+     "league": "AL",
+     "teams": 1,
+     "value": 70,
+     "shown": "70"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Jacoby Ellsbury",
+     "value": 70
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V036",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2009&year_max=2009&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  },
+  {
+   "decade": "2010s",
+   "season": 2010,
+   "stat": "HR",
+   "ours": [
+    {
+     "id": 430832,
+     "name": "José Bautista",
+     "team": "Toronto Blue Jays",
+     "league": "AL",
+     "teams": 1,
+     "value": 54,
+     "shown": "54"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "José Bautista",
+     "value": 54
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V037",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2010&comp_type=reg&qualifiers=nomin&order_by=b_hr&order_by_asc=0"
+  },
+  {
+   "decade": "2010s",
+   "season": 2013,
+   "stat": "RBI",
+   "ours": [
+    {
+     "id": 448801,
+     "name": "Chris Davis",
+     "team": "Baltimore Orioles",
+     "league": "AL",
+     "teams": 1,
+     "value": 138,
+     "shown": "138"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Chris Davis",
+     "value": 138
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V038",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2013&year_max=2013&comp_type=reg&qualifiers=nomin&order_by=b_rbi&order_by_asc=0"
+  },
+  {
+   "decade": "2010s",
+   "season": 2016,
+   "stat": "H",
+   "ours": [
+    {
+     "id": 514888,
+     "name": "Jose Altuve",
+     "team": "Houston Astros",
+     "league": "AL",
+     "teams": 1,
+     "value": 216,
+     "shown": "216"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Jose Altuve",
+     "value": 216
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V039",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2016&year_max=2016&comp_type=reg&qualifiers=nomin&order_by=b_h&order_by_asc=0"
+  },
+  {
+   "decade": "2010s",
+   "season": 2019,
+   "stat": "SB",
+   "ours": [
+    {
+     "id": 605480,
+     "name": "Mallex Smith",
+     "team": "Seattle Mariners",
+     "league": "AL",
+     "teams": 1,
+     "value": 46,
+     "shown": "46"
+    }
+   ],
+   "stathead": [
+    {
+     "name": "Mallex Smith",
+     "value": 46
+    }
+   ],
+   "verdict": "AGREE",
+   "provenance": "V040",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2019&year_max=2019&comp_type=reg&qualifiers=nomin&order_by=b_sb&order_by_asc=0"
+  }
+ ]
+}

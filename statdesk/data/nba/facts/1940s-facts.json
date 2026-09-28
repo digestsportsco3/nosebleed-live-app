@@ -1,0 +1,2068 @@
+{
+ "sport": "NBA",
+ "decade": "1940s",
+ "era": 1,
+ "bars": {
+  "ppg": 20,
+  "ppgHi": 25,
+  "fgLow": 0.33,
+  "fgHi": 0.42,
+  "rpg": 12,
+  "apg": 6,
+  "pts": 1500
+ },
+ "seasons": [
+  "1946-47",
+  "1947-48",
+  "1948-49",
+  "1949-50"
+ ],
+ "candidates": 35,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "fg_hi",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76897,
+     "name": "Alex Groza",
+     "season": 1949,
+     "team": "INO",
+     "GP": 64,
+     "PTS": 1496,
+     "PPG": 23.4,
+     "REB": null,
+     "AST": 162,
+     "STL": null,
+     "BLK": null,
+     "FGM": 521,
+     "FGA": 1090,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 454,
+     "FTA": 623,
+     "MIN": null,
+     "PF": 221,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.779329128440367,
+   "players": [
+    {
+     "id": 76897,
+     "name": "Alex Groza"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "text": "The only player of the 1940s to shoot .420 or better while averaging 20 points (60% of games): Alex Groza, 1949-50 — .478 FG, 23.4 ppg.",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 2,
+   "rule": "po_30",
+   "group": "PO",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1949,
+     "team": "MNL",
+     "GP": 12,
+     "PTS": 376,
+     "PPG": 31.3,
+     "REB": null,
+     "AST": 36,
+     "STL": null,
+     "BLK": null,
+     "FGM": 121,
+     "FGA": 316,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 134,
+     "FTA": 170,
+     "MIN": null,
+     "PF": 47,
+     "TOV": null
+    },
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1948,
+     "team": "MNL",
+     "GP": 10,
+     "PTS": 303,
+     "PPG": 30.3,
+     "REB": null,
+     "AST": 21,
+     "STL": null,
+     "BLK": null,
+     "FGM": 103,
+     "FGA": 227,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 97,
+     "FTA": 121,
+     "MIN": null,
+     "PF": 44,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 10.783333333333333,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    }
+   ],
+   "seasons": [
+    1949,
+    1948
+   ],
+   "text": "The only player of the 1940s to average 30 points in a single postseason (8+ playoff games) was George Mikan — and he did it twice (1949-50: 31.3 ppg in 12 games; 1948-49: 30.3 ppg in 10 games).",
+   "why": "Nobody else in the 1940s did it, and exclusivity is what gets a post shared. An average fans can hold up against any star's."
+  },
+  {
+   "n": 3,
+   "rule": "short_big",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "season": 1947,
+     "team": "CHS",
+     "GP": 48,
+     "PTS": 1007,
+     "PPG": 21,
+     "REB": null,
+     "AST": 29,
+     "STL": null,
+     "BLK": null,
+     "FGM": 373,
+     "FGA": 1156,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 261,
+     "FTA": 333,
+     "MIN": null,
+     "PF": 125,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.524479166666667,
+   "players": [
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky"
+    }
+   ],
+   "seasons": [
+    1947
+   ],
+   "text": "The only player of the 1940s to score 1,000 points in fewer than 50 games: Max Zaslofsky, 1947-48 — 1,007 pts in 48 games.",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies."
+  },
+  {
+   "n": 4,
+   "rule": "pts_total",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1949,
+     "team": "MNL",
+     "GP": 68,
+     "PTS": 1865,
+     "PPG": 27.4,
+     "REB": null,
+     "AST": 197,
+     "STL": null,
+     "BLK": null,
+     "FGM": 649,
+     "FGA": 1595,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 567,
+     "FTA": 728,
+     "MIN": null,
+     "PF": 297,
+     "TOV": null
+    },
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1948,
+     "team": "MNL",
+     "GP": 60,
+     "PTS": 1698,
+     "PPG": 28.3,
+     "REB": null,
+     "AST": 218,
+     "STL": null,
+     "BLK": null,
+     "FGM": 583,
+     "FGA": 1403,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 532,
+     "FTA": 689,
+     "MIN": null,
+     "PF": 260,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 10.33125,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [
+    1949,
+    1948,
+    1948
+   ],
+   "text": "Only two players of the 1940s scored 1,500 points in a season: George Mikan (2×, best 1949-50: 1,865 pts); Joe Fulks (1948-49: 1,560 pts).",
+   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 5,
+   "rule": "thirty_inefficient",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.258496151568975,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "text": "The only player of the 1940s to average 25 points on under .360 shooting (60% of games): Joe Fulks, 1948-49 — 26.0 ppg, .313 FG.",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 6,
+   "rule": "thirty_ppg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1948,
+     "team": "MNL",
+     "GP": 60,
+     "PTS": 1698,
+     "PPG": 28.3,
+     "REB": null,
+     "AST": 218,
+     "STL": null,
+     "BLK": null,
+     "FGM": 583,
+     "FGA": 1403,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 532,
+     "FTA": 689,
+     "MIN": null,
+     "PF": 260,
+     "TOV": null
+    },
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1949,
+     "team": "MNL",
+     "GP": 68,
+     "PTS": 1865,
+     "PPG": 27.4,
+     "REB": null,
+     "AST": 197,
+     "STL": null,
+     "BLK": null,
+     "FGM": 649,
+     "FGA": 1595,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 567,
+     "FTA": 728,
+     "MIN": null,
+     "PF": 297,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.7075,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [
+    1948,
+    1949,
+    1948
+   ],
+   "text": "Only two players of the 1940s averaged 25 points a game (60% of games): George Mikan (2×, best 1948-49: 28.3 ppg); Joe Fulks (1948-49: 26.0 ppg).",
+   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 7,
+   "rule": "volume_bricks",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1947,
+     "team": "PHW",
+     "GP": 43,
+     "PTS": 949,
+     "PPG": 22.1,
+     "REB": null,
+     "AST": 26,
+     "STL": null,
+     "BLK": null,
+     "FGM": 326,
+     "FGA": 1258,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 297,
+     "FTA": 390,
+     "MIN": null,
+     "PF": 162,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1946,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1389,
+     "PPG": 23.1,
+     "REB": null,
+     "AST": 25,
+     "STL": null,
+     "BLK": null,
+     "FGM": 475,
+     "FGA": 1557,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 439,
+     "FTA": 601,
+     "MIN": null,
+     "PF": 199,
+     "TOV": null
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "season": 1947,
+     "team": "CHS",
+     "GP": 48,
+     "PTS": 1007,
+     "PPG": 21,
+     "REB": null,
+     "AST": 29,
+     "STL": null,
+     "BLK": null,
+     "FGM": 373,
+     "FGA": 1156,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 261,
+     "FTA": 333,
+     "MIN": null,
+     "PF": 125,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 8.096109550042518,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky"
+    }
+   ],
+   "seasons": [
+    1947,
+    1948,
+    1946,
+    1947
+   ],
+   "text": "Only two players of the 1940s averaged 20+ points while shooting under .330 from the field (60% of games): Joe Fulks (3×, best 1947-48: 22.1 ppg, .259 FG); Max Zaslofsky (1947-48: 21.0 ppg, .323 FG).",
+   "why": "Two names invite the \"whose season was better?\" argument. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 8,
+   "rule": "volume_misses",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1946,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1389,
+     "PPG": 23.1,
+     "REB": null,
+     "AST": 25,
+     "STL": null,
+     "BLK": null,
+     "FGM": 475,
+     "FGA": 1557,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 439,
+     "FTA": 601,
+     "MIN": null,
+     "PF": 199,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1947,
+     "team": "PHW",
+     "GP": 43,
+     "PTS": 949,
+     "PPG": 22.1,
+     "REB": null,
+     "AST": 26,
+     "STL": null,
+     "BLK": null,
+     "FGM": 326,
+     "FGA": 1258,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 297,
+     "FTA": 390,
+     "MIN": null,
+     "PF": 162,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1949,
+     "team": "PHW",
+     "GP": 68,
+     "PTS": 965,
+     "PPG": 14.2,
+     "REB": null,
+     "AST": 56,
+     "STL": null,
+     "BLK": null,
+     "FGM": 336,
+     "FGA": 1209,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 293,
+     "FTA": 421,
+     "MIN": null,
+     "PF": 240,
+     "TOV": null
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "season": 1948,
+     "team": "CHS",
+     "GP": 58,
+     "PTS": 1197,
+     "PPG": 20.6,
+     "REB": null,
+     "AST": 149,
+     "STL": null,
+     "BLK": null,
+     "FGM": 425,
+     "FGA": 1216,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 347,
+     "FTA": 413,
+     "MIN": null,
+     "PF": 156,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 8.061492303137952,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky"
+    }
+   ],
+   "seasons": [
+    1948,
+    1946,
+    1947,
+    1949,
+    1948
+   ],
+   "text": "Only two players of the 1940s shot under .350 on 1,200+ attempts: Joe Fulks (4×, best 1948-49: .313 on 1,689 FGA); Max Zaslofsky (1948-49: .350 on 1,216 FGA).",
+   "why": "A two-player club is a ready-made debate. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 9,
+   "rule": "foul_trouble",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77392,
+     "name": "Ron Livingstone",
+     "season": 1949,
+     "team": "TOT",
+     "GP": 54,
+     "PTS": 448,
+     "PPG": 8.3,
+     "REB": null,
+     "AST": 141,
+     "STL": null,
+     "BLK": null,
+     "FGM": 163,
+     "FGA": 579,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 122,
+     "FTA": 177,
+     "MIN": null,
+     "PF": 260,
+     "TOV": null
+    },
+    {
+     "id": 76818,
+     "name": "Chuck Gilmur",
+     "season": 1947,
+     "team": "CHS",
+     "GP": 48,
+     "PTS": 459,
+     "PPG": 9.6,
+     "REB": null,
+     "AST": 77,
+     "STL": null,
+     "BLK": null,
+     "FGM": 181,
+     "FGA": 597,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 97,
+     "FTA": 148,
+     "MIN": null,
+     "PF": 231,
+     "TOV": null
+    },
+    {
+     "id": 76238,
+     "name": "Bob Brannum",
+     "season": 1949,
+     "team": "SHE",
+     "GP": 59,
+     "PTS": 713,
+     "PPG": 12.1,
+     "REB": null,
+     "AST": 205,
+     "STL": null,
+     "BLK": null,
+     "FGM": 234,
+     "FGA": 718,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 245,
+     "FTA": 355,
+     "MIN": null,
+     "PF": 279,
+     "TOV": null
+    },
+    {
+     "id": 78050,
+     "name": "Ed Sadowski",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 920,
+     "PPG": 15.3,
+     "REB": null,
+     "AST": 160,
+     "STL": null,
+     "BLK": null,
+     "FGM": 340,
+     "FGA": 839,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 240,
+     "FTA": 350,
+     "MIN": null,
+     "PF": 273,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.601851851851852,
+   "players": [
+    {
+     "id": 77392,
+     "name": "Ron Livingstone"
+    },
+    {
+     "id": 76818,
+     "name": "Chuck Gilmur"
+    },
+    {
+     "id": 76238,
+     "name": "Bob Brannum"
+    },
+    {
+     "id": 78050,
+     "name": "Ed Sadowski"
+    }
+   ],
+   "seasons": [
+    1949,
+    1947,
+    1949,
+    1948
+   ],
+   "text": "Just four players of the 1940s averaged 4.5+ personal fouls a game (60% of games): Ron Livingstone (1949-50: 4.8 PF a game); Chuck Gilmur (1947-48: 4.8 PF a game); Bob Brannum (1949-50: 4.7 PF a game); Ed Sadowski (1948-49: 4.5 PF a game).",
+   "why": "A short list fans can recite; each name brings its own fan base. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 10,
+   "kind": "extreme",
+   "rule": "po_most_ast",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77867,
+     "name": "Jim Pollard"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77867,
+     "name": "Jim Pollard",
+     "season": 1949,
+     "team": "MNL",
+     "GP": 12,
+     "PTS": 144,
+     "PPG": 12,
+     "REB": null,
+     "AST": 56,
+     "STL": null,
+     "BLK": null,
+     "FGM": 50,
+     "FGA": 175,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 44,
+     "FTA": 62,
+     "MIN": null,
+     "PF": 36,
+     "TOV": null
+    }
+   ],
+   "among": 332,
+   "text": "Most assists in a single postseason in the 1940s: Jim Pollard, 1949-50 — 56 in 12 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
+  },
+  {
+   "n": 11,
+   "kind": "extreme",
+   "rule": "best_fg_volume",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76897,
+     "name": "Alex Groza"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76897,
+     "name": "Alex Groza",
+     "season": 1949,
+     "team": "INO",
+     "GP": 64,
+     "PTS": 1496,
+     "PPG": 23.4,
+     "REB": null,
+     "AST": 162,
+     "STL": null,
+     "BLK": null,
+     "FGM": 521,
+     "FGA": 1090,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 454,
+     "FTA": 623,
+     "MIN": null,
+     "PF": 221,
+     "TOV": null
+    }
+   ],
+   "among": 19,
+   "text": "Best field-goal percentage on 1,000+ attempts in the 1940s: Alex Groza, 1949-50 — .478 (521-1,090).",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 12,
+   "kind": "extreme",
+   "rule": "worst_ft_volume",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77967,
+     "name": "Arnie Risen"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77967,
+     "name": "Arnie Risen",
+     "season": 1948,
+     "team": "ROC",
+     "GP": 60,
+     "PTS": 995,
+     "PPG": 16.6,
+     "REB": null,
+     "AST": 100,
+     "STL": null,
+     "BLK": null,
+     "FGM": 345,
+     "FGA": 816,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 305,
+     "FTA": 462,
+     "MIN": null,
+     "PF": 216,
+     "TOV": null
+    }
+   ],
+   "among": 15,
+   "text": "Worst free-throw percentage on 400+ attempts in the 1940s: Arnie Risen, 1948-49 — .660 (305-462).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 13,
+   "kind": "extreme",
+   "rule": "ast_low_pts",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77537,
+     "name": "Dick McGuire"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77537,
+     "name": "Dick McGuire",
+     "season": 1949,
+     "team": "NYK",
+     "GP": 68,
+     "PTS": 584,
+     "PPG": 8.6,
+     "REB": null,
+     "AST": 386,
+     "STL": null,
+     "BLK": null,
+     "FGM": 190,
+     "FGA": 563,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 204,
+     "FTA": 313,
+     "MIN": null,
+     "PF": 160,
+     "TOV": null
+    }
+   ],
+   "among": 328,
+   "text": "Most assists by a sub-10-point scorer in the 1940s: Dick McGuire, 1949-50 — 386 assists while averaging 8.6.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 14,
+   "kind": "extreme",
+   "rule": "most_ast",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77537,
+     "name": "Dick McGuire"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77537,
+     "name": "Dick McGuire",
+     "season": 1949,
+     "team": "NYK",
+     "GP": 68,
+     "PTS": 584,
+     "PPG": 8.6,
+     "REB": null,
+     "AST": 386,
+     "STL": null,
+     "BLK": null,
+     "FGM": 190,
+     "FGA": 563,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 204,
+     "FTA": 313,
+     "MIN": null,
+     "PF": 160,
+     "TOV": null
+    }
+   ],
+   "among": 657,
+   "text": "Most assists in a season in the 1940s: Dick McGuire, 1949-50 — 386 (5.7 a game).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
+  },
+  {
+   "n": 15,
+   "kind": "extreme",
+   "rule": "top_apg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77853,
+     "name": "Andy Phillip"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "season": 1949,
+     "team": "CHS",
+     "GP": 65,
+     "PTS": 758,
+     "PPG": 11.7,
+     "REB": null,
+     "AST": 377,
+     "STL": null,
+     "BLK": null,
+     "FGM": 284,
+     "FGA": 814,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 190,
+     "FTA": 270,
+     "MIN": null,
+     "PF": 210,
+     "TOV": null
+    }
+   ],
+   "among": 461,
+   "text": "Highest assist average of the 1940s: Andy Phillip, 1949-50 — 5.8 a game.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Assist averages crown the true point guards."
+  },
+  {
+   "n": 16,
+   "kind": "extreme",
+   "rule": "short_pts",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky"
+    }
+   ],
+   "seasons": [
+    1947
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "season": 1947,
+     "team": "CHS",
+     "GP": 48,
+     "PTS": 1007,
+     "PPG": 21,
+     "REB": null,
+     "AST": 29,
+     "STL": null,
+     "BLK": null,
+     "FGM": 373,
+     "FGA": 1156,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 261,
+     "FTA": 333,
+     "MIN": null,
+     "PF": 125,
+     "TOV": null
+    }
+   ],
+   "among": 200,
+   "text": "Most points by a player who appeared in fewer than 50 games in the 1940s: Max Zaslofsky, 1947-48 — 1,007 in 48.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 17,
+   "kind": "extreme",
+   "rule": "best_ft_official",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76698,
+     "name": "Bob Feerick"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76698,
+     "name": "Bob Feerick",
+     "season": 1948,
+     "team": "WAS",
+     "GP": 58,
+     "PTS": 752,
+     "PPG": 13,
+     "REB": null,
+     "AST": 188,
+     "STL": null,
+     "BLK": null,
+     "FGM": 248,
+     "FGA": 708,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 256,
+     "FTA": 298,
+     "MIN": null,
+     "PF": 171,
+     "TOV": null
+    }
+   ],
+   "among": 189,
+   "text": "Best free-throw percentage in a season (125+ made) in the 1940s: Bob Feerick, 1948-49 — .859.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 18,
+   "kind": "extreme",
+   "rule": "po_most_pts",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1949,
+     "team": "MNL",
+     "GP": 12,
+     "PTS": 376,
+     "PPG": 31.3,
+     "REB": null,
+     "AST": 36,
+     "STL": null,
+     "BLK": null,
+     "FGM": 121,
+     "FGA": 316,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 134,
+     "FTA": 170,
+     "MIN": null,
+     "PF": 47,
+     "TOV": null
+    }
+   ],
+   "among": 332,
+   "text": "Most points in a single postseason in the 1940s: George Mikan, 1949-50 — 376 in 12 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 19,
+   "kind": "extreme",
+   "rule": "po_best_fg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1948,
+     "team": "MNL",
+     "GP": 10,
+     "PTS": 303,
+     "PPG": 30.3,
+     "REB": null,
+     "AST": 21,
+     "STL": null,
+     "BLK": null,
+     "FGM": 103,
+     "FGA": 227,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 97,
+     "FTA": 121,
+     "MIN": null,
+     "PF": 44,
+     "TOV": null
+    }
+   ],
+   "among": 16,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 1940s: George Mikan, 1948-49 — .454.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 20,
+   "kind": "extreme",
+   "rule": "top_ppg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1948,
+     "team": "MNL",
+     "GP": 60,
+     "PTS": 1698,
+     "PPG": 28.3,
+     "REB": null,
+     "AST": 218,
+     "STL": null,
+     "BLK": null,
+     "FGM": 583,
+     "FGA": 1403,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 532,
+     "FTA": 689,
+     "MIN": null,
+     "PF": 260,
+     "TOV": null
+    }
+   ],
+   "among": 461,
+   "text": "Highest scoring average of the 1940s: George Mikan, 1948-49 — 28.3 points a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 21,
+   "kind": "extreme",
+   "rule": "worst_fg_scorer",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [
+    1947
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1947,
+     "team": "PHW",
+     "GP": 43,
+     "PTS": 949,
+     "PPG": 22.1,
+     "REB": null,
+     "AST": 26,
+     "STL": null,
+     "BLK": null,
+     "FGM": 326,
+     "FGA": 1258,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 297,
+     "FTA": 390,
+     "MIN": null,
+     "PF": 162,
+     "TOV": null
+    }
+   ],
+   "among": 8,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 1940s: Joe Fulks, 1947-48 — .259 while averaging 22.1.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 22,
+   "kind": "extreme",
+   "rule": "best_ft_volume",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    }
+   ],
+   "among": 6,
+   "text": "Best free-throw percentage on 500+ attempts in the 1940s: Joe Fulks, 1948-49 — .787 (502-638).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 23,
+   "kind": "extreme",
+   "rule": "most_pf",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1949,
+     "team": "MNL",
+     "GP": 68,
+     "PTS": 1865,
+     "PPG": 27.4,
+     "REB": null,
+     "AST": 197,
+     "STL": null,
+     "BLK": null,
+     "FGM": 649,
+     "FGA": 1595,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 567,
+     "FTA": 728,
+     "MIN": null,
+     "PF": 297,
+     "TOV": null
+    }
+   ],
+   "among": 657,
+   "text": "Most personal fouls in a season in the 1940s: George Mikan, 1949-50 — 297.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "most_fga",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    }
+   ],
+   "among": 657,
+   "text": "Most shots attempted in a season in the 1940s: Joe Fulks, 1948-49 — 1,689 FGA, .313.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "most_ftm",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600012,
+     "name": "George Mikan"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "season": 1949,
+     "team": "MNL",
+     "GP": 68,
+     "PTS": 1865,
+     "PPG": 27.4,
+     "REB": null,
+     "AST": 197,
+     "STL": null,
+     "BLK": null,
+     "FGM": 649,
+     "FGA": 1595,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 567,
+     "FTA": 728,
+     "MIN": null,
+     "PF": 297,
+     "TOV": null
+    }
+   ],
+   "among": 657,
+   "text": "Most free throws made in a season in the 1940s: George Mikan, 1949-50 — 567 of 728.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 26,
+   "kind": "total",
+   "rule": "t_ast",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 77853,
+     "name": "Andy Phillip"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77853,
+     "name": "Andy Phillip",
+     "total": 770,
+     "seasons": 3
+    },
+    {
+     "id": 77403,
+     "name": "Johnny Logan",
+     "total": 656,
+     "seasons": 4
+    },
+    {
+     "id": 78051,
+     "name": "Kenny Sailors",
+     "total": 631,
+     "seasons": 4
+    },
+    {
+     "id": 78114,
+     "name": "Jim Seminoff",
+     "total": 630,
+     "seasons": 4
+    },
+    {
+     "id": 76514,
+     "name": "Bob Davies",
+     "total": 615,
+     "seasons": 2
+    }
+   ],
+   "text": "Most assists of the 1940s: Andy Phillip, 770.",
+   "why": "A decade-long view that settles consistency debates. Assist averages crown the true point guards."
+  },
+  {
+   "n": 27,
+   "kind": "total",
+   "rule": "t_gp",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76918,
+     "name": "Chuck Halbert"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76918,
+     "name": "Chuck Halbert",
+     "total": 235,
+     "seasons": 4
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "total": 235,
+     "seasons": 4
+    },
+    {
+     "id": 77587,
+     "name": "Stan Miasek",
+     "total": 234,
+     "seasons": 4
+    },
+    {
+     "id": 78115,
+     "name": "George Senesky",
+     "total": 233,
+     "seasons": 4
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "total": 231,
+     "seasons": 4
+    }
+   ],
+   "text": "Most games played in the 1940s: Chuck Halbert, 235.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 28,
+   "kind": "total",
+   "rule": "t_pf",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 78050,
+     "name": "Ed Sadowski"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78050,
+     "name": "Ed Sadowski",
+     "total": 893,
+     "seasons": 4
+    },
+    {
+     "id": 77587,
+     "name": "Stan Miasek",
+     "total": 872,
+     "seasons": 4
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "total": 863,
+     "seasons": 4
+    },
+    {
+     "id": 76818,
+     "name": "Chuck Gilmur",
+     "total": 839,
+     "seasons": 4
+    },
+    {
+     "id": 78051,
+     "name": "Kenny Sailors",
+     "total": 820,
+     "seasons": 4
+    }
+   ],
+   "text": "Most personal fouls committed in the 1940s: Ed Sadowski, 893.",
+   "why": "A decade-long view that settles consistency debates. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 29,
+   "kind": "season",
+   "rule": "c_25_most",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1946,
+     "count": 0
+    },
+    {
+     "season": 1947,
+     "count": 0
+    },
+    {
+     "season": 1948,
+     "count": 2
+    },
+    {
+     "season": 1949,
+     "count": 1
+    }
+   ],
+   "text": "1948-49 had 2 players averaging 25 points (60% of games), the most of any season in the 1940s.",
+   "why": "Rewards staying power: the most such seasons in the 1940s."
+  },
+  {
+   "n": 30,
+   "kind": "season",
+   "rule": "c_25_least",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1946
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1946,
+     "count": 0
+    },
+    {
+     "season": 1947,
+     "count": 0
+    },
+    {
+     "season": 1948,
+     "count": 2
+    },
+    {
+     "season": 1949,
+     "count": 1
+    }
+   ],
+   "text": "1946-47 had no players averaging 25 points (60% of games) at all — one of the seasons of the 1940s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 31,
+   "kind": "season",
+   "rule": "c_20_most",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1946,
+     "count": 1
+    },
+    {
+     "season": 1947,
+     "count": 2
+    },
+    {
+     "season": 1948,
+     "count": 3
+    },
+    {
+     "season": 1949,
+     "count": 2
+    }
+   ],
+   "text": "1948-49 had 3 players averaging 20 points (60% of games), the most of any season in the 1940s.",
+   "why": "Rewards staying power: the most such seasons in the 1940s."
+  },
+  {
+   "n": 32,
+   "kind": "season",
+   "rule": "c_20_least",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1946
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1946,
+     "count": 1
+    },
+    {
+     "season": 1947,
+     "count": 2
+    },
+    {
+     "season": 1948,
+     "count": 3
+    },
+    {
+     "season": 1949,
+     "count": 2
+    }
+   ],
+   "text": "1946-47 had just one player averaging 20 points (60% of games), the fewest of any season in the 1940s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 33,
+   "kind": "total",
+   "rule": "t_pts",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "total": 4863,
+     "seasons": 4
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "total": 4196,
+     "seasons": 4
+    },
+    {
+     "id": 78050,
+     "name": "Ed Sadowski",
+     "total": 3579,
+     "seasons": 4
+    },
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "total": 3563,
+     "seasons": 2
+    },
+    {
+     "id": 78051,
+     "name": "Kenny Sailors",
+     "total": 2987,
+     "seasons": 4
+    }
+   ],
+   "text": "Most points of the 1940s: Joe Fulks, 4,863 — 667 ahead of Max Zaslofsky.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 34,
+   "kind": "total",
+   "rule": "t_ftm",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "total": 1531,
+     "seasons": 4
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "total": 1134,
+     "seasons": 4
+    },
+    {
+     "id": 600012,
+     "name": "George Mikan",
+     "total": 1099,
+     "seasons": 2
+    },
+    {
+     "id": 78050,
+     "name": "Ed Sadowski",
+     "total": 1027,
+     "seasons": 4
+    },
+    {
+     "id": 77403,
+     "name": "Johnny Logan",
+     "total": 884,
+     "seasons": 4
+    }
+   ],
+   "text": "Most free throws made in the 1940s: Joe Fulks, 1,531.",
+   "why": "A decade-long view that settles consistency debates. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 35,
+   "rule": "score_no_pass",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1946,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1389,
+     "PPG": 23.1,
+     "REB": null,
+     "AST": 25,
+     "STL": null,
+     "BLK": null,
+     "FGM": 475,
+     "FGA": 1557,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 439,
+     "FTA": 601,
+     "MIN": null,
+     "PF": 199,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1948,
+     "team": "PHW",
+     "GP": 60,
+     "PTS": 1560,
+     "PPG": 26,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 529,
+     "FGA": 1689,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 502,
+     "FTA": 638,
+     "MIN": null,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76764,
+     "name": "Joe Fulks",
+     "season": 1947,
+     "team": "PHW",
+     "GP": 43,
+     "PTS": 949,
+     "PPG": 22.1,
+     "REB": null,
+     "AST": 26,
+     "STL": null,
+     "BLK": null,
+     "FGM": 326,
+     "FGA": 1258,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 297,
+     "FTA": 390,
+     "MIN": null,
+     "PF": 162,
+     "TOV": null
+    },
+    {
+     "id": 78638,
+     "name": "Max Zaslofsky",
+     "season": 1947,
+     "team": "CHS",
+     "GP": 48,
+     "PTS": 1007,
+     "PPG": 21,
+     "REB": null,
+     "AST": 29,
+     "STL": null,
+     "BLK": null,
+     "FGM": 373,
+     "FGA": 1156,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 261,
+     "FTA": 333,
+     "MIN": null,
+     "PF": 125,
+     "TOV": null
+    },
+    {
+     "id": 78050,
+     "name": "Ed Sadowski",
+     "season": 1946,
+     "team": "TOT",
+     "GP": 53,
+     "PTS": 877,
+     "PPG": 16.5,
+     "REB": null,
+     "AST": 46,
+     "STL": null,
+     "BLK": null,
+     "FGM": 329,
+     "FGA": 891,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 219,
+     "FTA": 328,
+     "MIN": null,
+     "PF": 194,
+     "TOV": null
+    },
+    {
+     "id": 78050,
+     "name": "Ed Sadowski",
+     "season": 1947,
+     "team": "BOS",
+     "GP": 47,
+     "PTS": 910,
+     "PPG": 19.4,
+     "REB": null,
+     "AST": 74,
+     "STL": null,
+     "BLK": null,
+     "FGM": 308,
+     "FGA": 953,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 294,
+     "FTA": 422,
+     "MIN": null,
+     "PF": 182,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.5266666666666664,
+   "players": [
+    {
+     "id": 76764,
+     "name": "Joe Fulks"
+    }
+   ],
+   "seasons": [
+    1946
+   ],
+   "text": "5 players averaged 15+ points with fewer than 2 assists a game (60% of games) in the 1940s (9 seasons). The most extreme: Joe Fulks, 1946-47 — 23.1 ppg, 0.4 apg.",
+   "why": "Shows how high the bar was across the 1940s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 657,
+  "playoffPlayerSeasons": 332
+ },
+ "method": [
+  "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "Qualification is 60% of the most games anyone played that season. Attempt floors are stated in the line.",
+  "Categories not yet recorded (rebounds before 1950-51, minutes before 1951-52, steals and blocks before 1973-74, turnovers before 1977-78, threes before 1979-80) are treated as missing, never as zero.",
+  "Team-mate lines are omitted: the feed credits a traded player's whole season to one club."
+ ]
+}

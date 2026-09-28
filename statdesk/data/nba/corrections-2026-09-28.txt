@@ -1,0 +1,270 @@
+NBA corrections, 2026-09-28: lines removed or changed versus the PDFs sent earlier.
+Causes: (1) stats.nba.com leagueleaders omitted some players (e.g. Kevin Porter 1977-78); now filled from official career records. (2) "played every game" lines were unprovable (traded players' combined games set the bar; no official team schedules in the data), so they were removed.
+
+== 1940s
+  REMOVED: 1948-49 had 2 25-point scorers, the most of any season in the 1940s.
+  REMOVED: 1946-47 had no 25-point scorers at all — one of the seasons of the 1940s without one.
+  REMOVED: 1948-49 had 3 20-point scorers, the most of any season in the 1940s.
+  REMOVED: 1946-47 had just one 20-point scorer, the fewest of any season in the 1940s.
+  REMOVED: 1946-47 had 6 players who appeared in every game, the most of any season in the 1940s.
+  REMOVED: 1947-48 had just one player who appeared in every game, the fewest of any season in the 1940s.
+  REMOVED: 10 players played every game of the season in the 1940s. The most extreme: Max Zaslofsky, 1946-47 — 61 games.
+  NEW:     1948-49 had 2 players averaging 25 points (60% of games), the most of any season in the 1940s.
+  NEW:     1946-47 had no players averaging 25 points (60% of games) at all — one of the seasons of the 1940s without one.
+  NEW:     1948-49 had 3 players averaging 20 points (60% of games), the most of any season in the 1940s.
+  NEW:     1946-47 had just one player averaging 20 points (60% of games), the fewest of any season in the 1940s.
+
+== 1950s
+  REMOVED: 1959-60 had 4 25-point scorers, the most of any season in the 1950s.
+  REMOVED: 1952-53 had no 25-point scorers at all — one of the seasons of the 1950s without one.
+  REMOVED: 1959-60 had 8 20-and-10 players, the most of any season in the 1950s.
+  REMOVED: 1953-54 had just one 20-and-10 player, the fewest of any season in the 1950s.
+  REMOVED: 1959-60 had 13 20-point scorers, the most of any season in the 1950s.
+  REMOVED: 1953-54 had just one 20-point scorer, the fewest of any season in the 1950s.
+  REMOVED: 1951-52 had 36 players who appeared in every game, the most of any season in the 1950s.
+  REMOVED: 1950-51 had just one player who appeared in every game, the fewest of any season in the 1950s.
+  REMOVED: 1957-58 had 20 double-digit rebounders, the most of any season in the 1950s.
+  REMOVED: 1950-51 had just 7 double-digit rebounders, the fewest of any season in the 1950s.
+  REMOVED: 16 players played every game while averaging 38+ minutes in the 1950s (17 seasons). The most extreme: Paul Arizin, 1951-52 — 66 GP, 44.5 mpg.
+  REMOVED: 81 players played every game of the season in the 1950s (120 seasons). The most extreme: Paul Arizin, 1951-52 — 66 games, 44.5 mpg.
+  NEW:     1959-60 had 4 players averaging 25 points (60% of games), the most of any season in the 1950s.
+  NEW:     1952-53 had no players averaging 25 points (60% of games) at all — one of the seasons of the 1950s without one.
+  NEW:     1959-60 had 8 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1950s.
+  NEW:     1953-54 had just one player averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1950s.
+  NEW:     1959-60 had 13 players averaging 20 points (60% of games), the most of any season in the 1950s.
+  NEW:     1953-54 had just one player averaging 20 points (60% of games), the fewest of any season in the 1950s.
+  NEW:     1957-58 had 20 players averaging 10 rebounds (60% of games), the most of any season in the 1950s.
+  NEW:     1950-51 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 1950s.
+
+== 1960s
+  REMOVED: Just three players of the 1960s shot under .550 from the line on 300+ attempts: Wilt Chamberlain (7×, best 1967-68: .380 on 932 FTA); Bill Russell (2×, best 1967-68: .537 on 460 FTA); Johnny Green (2×, best 1963-64: .497 on 392 FTA).
+  REMOVED: Johnny Kerr played every game in 5 straight seasons (1960-61 to 1964-65), the longest run of the 1960s.
+  REMOVED: 13 players shot .500 or better while averaging 20 points (60% of games) in the 1960s (27 seasons). The most extreme: Wilt Chamberlain, 1961-62 — .506 FG, 50.4 ppg.
+  REMOVED: 10 players averaged 15+ rebounds (60% of games) in the 1960s (43 seasons). The most extreme: Wilt Chamberlain, 1960-61 — 27.2 rpg.
+  REMOVED: Most games played in the 1960s: Bailey Howell, 793.
+  REMOVED: 1961-62 had 8 25-point scorers, the most of any season in the 1960s.
+  REMOVED: 1968-69 had just 3 25-point scorers, the fewest of any season in the 1960s.
+  REMOVED: 1960-61 had 8 20-and-10 players, the most of any season in the 1960s.
+  REMOVED: 1965-66 had just 4 20-and-10 players, the fewest of any season in the 1960s.
+  REMOVED: 1969-70 had 26 20-point scorers, the most of any season in the 1960s.
+  REMOVED: 1962-63 had just 9 20-point scorers, the fewest of any season in the 1960s.
+  REMOVED: 1967-68 had 25 players who appeared in every game, the most of any season in the 1960s.
+  REMOVED: 1963-64 had just 16 players who appeared in every game, the fewest of any season in the 1960s.
+  REMOVED: 1967-68 had 22 double-digit rebounders, the most of any season in the 1960s.
+  REMOVED: 1965-66 had just 10 double-digit rebounders, the fewest of any season in the 1960s.
+  REMOVED: 24 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1960s (56 seasons). The most extreme: Bill Russell, 1964-65 — 1,878 reb, 1,102 pts.
+  REMOVED: 25 players grabbed 1,000 rebounds in a season in the 1960s (72 seasons). The most extreme: Wilt Chamberlain, 1960-61 — 2,149 reb.
+  REMOVED: 17 players shot .500 on 800+ attempts in the 1960s (37 seasons). The most extreme: Wilt Chamberlain, 1966-67 — .683 on 1,150 FGA.
+  REMOVED: 23 players played every game while averaging 38+ minutes in the 1960s (37 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 80 GP, 48.5 mpg.
+  REMOVED: 16 players log 3,300 minutes in a season in the 1960s (42 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 3,882 min.
+  REMOVED: 98 players played every game of the season in the 1960s (198 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 80 games, 48.5 mpg.
+  REMOVED: 39 players committed 300 personal fouls in a season in the 1960s (68 seasons). The most extreme: Bill Bridges, 1967-68 — 366 PF.
+  NEW:     Just three players of the 1960s shot under .550 from the line on 300+ attempts: Wilt Chamberlain (7×, best 1967-68: .380 on 932 FTA); Bill Russell (2×, best 1967-68: .537 on 460 FTA); Johnny Green (3×, best 1963-64: .497 on 392 FTA).
+  NEW:     13 players shot .500 or better while averaging 20 points (60% of games) in the 1960s (28 seasons). The most extreme: Wilt Chamberlain, 1961-62 — .506 FG, 50.4 ppg.
+  NEW:     10 players averaged 15+ rebounds (60% of games) in the 1960s (44 seasons). The most extreme: Wilt Chamberlain, 1960-61 — 27.2 rpg.
+  NEW:     Most games played in the 1960s: Bob Boozer, 794.
+  NEW:     1961-62 had 8 players averaging 25 points (60% of games), the most of any season in the 1960s.
+  NEW:     1968-69 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 1960s.
+  NEW:     1960-61 had 8 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1960s.
+  NEW:     1966-67 had just 4 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1960s.
+  NEW:     1969-70 had 26 players averaging 20 points (60% of games), the most of any season in the 1960s.
+  NEW:     1962-63 had just 9 players averaging 20 points (60% of games), the fewest of any season in the 1960s.
+  NEW:     1967-68 had 22 players averaging 10 rebounds (60% of games), the most of any season in the 1960s.
+  NEW:     1962-63 had just 12 players averaging 10 rebounds (60% of games), the fewest of any season in the 1960s.
+  NEW:     25 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1960s (57 seasons). The most extreme: Bill Russell, 1964-65 — 1,878 reb, 1,102 pts.
+  NEW:     25 players grabbed 1,000 rebounds in a season in the 1960s (74 seasons). The most extreme: Wilt Chamberlain, 1960-61 — 2,149 reb.
+  NEW:     18 players shot .500 on 800+ attempts in the 1960s (40 seasons). The most extreme: Wilt Chamberlain, 1966-67 — .683 on 1,150 FGA.
+  NEW:     16 players log 3,300 minutes in a season in the 1960s (43 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 3,882 min.
+  NEW:     40 players committed 300 personal fouls in a season in the 1960s (71 seasons). The most extreme: Bill Bridges, 1967-68 — 366 PF.
+
+== 1970s
+  REMOVED: Just four players of the 1970s dished out 800 assists in a season: Kevin Porter (1978-79: 1,099 ast); Nate Archibald (1972-73: 910 ast); Norm Van Lier (1970-71: 832 ast); Micheal Ray Richardson (1979-80: 832 ast).
+  REMOVED: Just four players of the 1970s averaged 10 assists a game (60% of games): Kevin Porter (1978-79: 13.4 apg); Nate Archibald (1972-73: 11.4 apg); Norm Van Lier (1970-71: 10.1 apg); Micheal Ray Richardson (1979-80: 10.1 apg).
+  REMOVED: Jojo White played every game in 5 straight seasons (1972-73 to 1976-77), the longest run of the 1970s.
+  REMOVED: 1971-72 had 9 25-point scorers, the most of any season in the 1970s.
+  REMOVED: 1975-76 had just 3 25-point scorers, the fewest of any season in the 1970s.
+  REMOVED: 1970-71 had 7 20-and-10 players, the most of any season in the 1970s.
+  REMOVED: 1975-76 had just 4 20-and-10 players, the fewest of any season in the 1970s.
+  REMOVED: 1970-71 had 25 20-point scorers, the most of any season in the 1970s.
+  REMOVED: 1975-76 had just 16 20-point scorers, the fewest of any season in the 1970s.
+  REMOVED: 1979-80 had 55 players who appeared in every game, the most of any season in the 1970s.
+  REMOVED: 1977-78 had just one player who appeared in every game, the fewest of any season in the 1970s.
+  REMOVED: 1971-72 had 25 double-digit rebounders, the most of any season in the 1970s.
+  REMOVED: 1979-80 had just 11 double-digit rebounders, the fewest of any season in the 1970s.
+  REMOVED: 1976-77 had 14 2-steal players, the most of any season in the 1970s.
+  REMOVED: 1970-71 had no 2-steal players at all — one of the seasons of the 1970s without one.
+  REMOVED: 33 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1970s (74 seasons). The most extreme: Clyde Lee, 1971-72 — 1,132 reb, 632 pts.
+  REMOVED: 24 players played every game while averaging 38+ minutes in the 1970s (39 seasons). The most extreme: John Havlicek, 1971-72 — 82 GP, 45.1 mpg.
+  REMOVED: 13 players averaged 8+ assists (60% of games) in the 1970s (21 seasons). The most extreme: Kevin Porter, 1978-79 — 13.4 apg.
+  REMOVED: 200 players played every game of the season in the 1970s (315 seasons). The most extreme: John Havlicek, 1971-72 — 82 games, 45.1 mpg.
+  REMOVED: 61 players committed 300 personal fouls in a season in the 1970s (95 seasons). The most extreme: Bill Robinzine, 1978-79 — 367 PF.
+  REMOVED: 18 players committed 300 turnovers in a season in the 1970s (24 seasons). The most extreme: Artis Gilmore, 1977-78 — 366 TOV.
+  REMOVED: 7 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 1970s (16 seasons). The most extreme: Bob Love, 1971-72 — 25.8 ppg, 1.6 apg.
+  REMOVED: 41 players shot under .450 on 1,200+ attempts in the 1970s (75 seasons). The most extreme: Elvin Hayes, 1970-71 — .428 on 2,215 FGA.
+  NEW:     Just four players of the 1970s dished out 800 assists in a season: Kevin Porter (2×, best 1978-79: 1,099 ast); Nate Archibald (1972-73: 910 ast); Norm Van Lier (1970-71: 832 ast); Micheal Ray Richardson (1979-80: 832 ast).
+  NEW:     Just four players of the 1970s averaged 10 assists a game (60% of games): Kevin Porter (2×, best 1978-79: 13.4 apg); Nate Archibald (1972-73: 11.4 apg); Norm Van Lier (1970-71: 10.1 apg); Micheal Ray Richardson (1979-80: 10.1 apg).
+  NEW:     1971-72 had 10 players averaging 25 points (60% of games), the most of any season in the 1970s.
+  NEW:     1975-76 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 1970s.
+  NEW:     1970-71 had 7 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1970s.
+  NEW:     1975-76 had just 4 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1970s.
+  NEW:     1978-79 had 26 players averaging 20 points (60% of games), the most of any season in the 1970s.
+  NEW:     1975-76 had just 16 players averaging 20 points (60% of games), the fewest of any season in the 1970s.
+  NEW:     1971-72 had 26 players averaging 10 rebounds (60% of games), the most of any season in the 1970s.
+  NEW:     1979-80 had just 11 players averaging 10 rebounds (60% of games), the fewest of any season in the 1970s.
+  NEW:     1976-77 had 14 players averaging 2 steals (60% of games), the most of any season in the 1970s.
+  NEW:     1970-71 had no players averaging 2 steals (60% of games) at all — one of the seasons of the 1970s without one.
+  NEW:     1976-77 had 10 players averaging 2 blocks (60% of games), the most of any season in the 1970s.
+  NEW:     1970-71 had no players averaging 2 blocks (60% of games) at all — one of the seasons of the 1970s without one.
+  NEW:     Most assists of the 1970s: Nate Archibald, 4,748.
+  NEW:     Most free throws made in the 1970s: Nate Archibald, 3,802.
+  NEW:     Most blocked shots of the 1970s: Kareem Abdul-Jabbar, 1,875.
+  NEW:     33 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1970s (80 seasons). The most extreme: Clyde Lee, 1971-72 — 1,132 reb, 632 pts.
+  NEW:     13 players averaged 8+ assists (60% of games) in the 1970s (22 seasons). The most extreme: Kevin Porter, 1978-79 — 13.4 apg.
+  NEW:     61 players committed 300 personal fouls in a season in the 1970s (97 seasons). The most extreme: Bill Robinzine, 1978-79 — 367 PF.
+  NEW:     18 players committed 300 turnovers in a season in the 1970s (25 seasons). The most extreme: Artis Gilmore, 1977-78 — 366 TOV.
+  NEW:     9 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 1970s (18 seasons). The most extreme: Bob Love, 1971-72 — 25.8 ppg, 1.6 apg.
+  NEW:     42 players shot under .450 on 1,200+ attempts in the 1970s (77 seasons). The most extreme: Elvin Hayes, 1970-71 — .428 on 2,215 FGA.
+
+== 1980s
+  REMOVED: James Donaldson played every game in 4 straight seasons (1983-84 to 1986-87), the longest run of the 1980s.
+  REMOVED: 1987-88 had 9 25-point scorers, the most of any season in the 1980s.
+  REMOVED: 1981-82 had just 4 25-point scorers, the fewest of any season in the 1980s.
+  REMOVED: 1987-88 had 5 20-and-10 players, the most of any season in the 1980s.
+  REMOVED: 1980-81 had just 3 20-and-10 players, the fewest of any season in the 1980s.
+  REMOVED: 1984-85 had 28 20-point scorers, the most of any season in the 1980s.
+  REMOVED: 1981-82 had just 18 20-point scorers, the fewest of any season in the 1980s.
+  REMOVED: 1989-90 had 58 players who appeared in every game, the most of any season in the 1980s.
+  REMOVED: 1981-82 had just one player who appeared in every game, the fewest of any season in the 1980s.
+  REMOVED: 1982-83 had 13 double-digit rebounders, the most of any season in the 1980s.
+  REMOVED: 1985-86 had just 7 double-digit rebounders, the fewest of any season in the 1980s.
+  REMOVED: 1988-89 had 15 2-steal players, the most of any season in the 1980s.
+  REMOVED: 1980-81 had just 7 2-steal players, the fewest of any season in the 1980s.
+  NEW:     Most rebounds in a season in the 1980s: Moses Malone, 1982-83 — 1,194 (15.3 a game).
+  NEW:     1987-88 had 9 players averaging 25 points (60% of games), the most of any season in the 1980s.
+  NEW:     1981-82 had just 4 players averaging 25 points (60% of games), the fewest of any season in the 1980s.
+  NEW:     1987-88 had 5 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1980s.
+  NEW:     1980-81 had just 3 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1980s.
+  NEW:     1984-85 had 28 players averaging 20 points (60% of games), the most of any season in the 1980s.
+  NEW:     1980-81 had just 19 players averaging 20 points (60% of games), the fewest of any season in the 1980s.
+  NEW:     1982-83 had 13 players averaging 10 rebounds (60% of games), the most of any season in the 1980s.
+  NEW:     1985-86 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 1980s.
+  NEW:     1988-89 had 15 players averaging 2 steals (60% of games), the most of any season in the 1980s.
+  NEW:     1980-81 had just 7 players averaging 2 steals (60% of games), the fewest of any season in the 1980s.
+  NEW:     1984-85 had 12 players averaging 2 blocks (60% of games), the most of any season in the 1980s.
+  NEW:     1983-84 had just 5 players averaging 2 blocks (60% of games), the fewest of any season in the 1980s.
+
+== 1990s
+  REMOVED: 1990-91 had 10 25-point scorers, the most of any season in the 1990s.
+  REMOVED: 1998-99 had just 2 25-point scorers, the fewest of any season in the 1990s.
+  REMOVED: 1992-93 had 10 20-and-10 players, the most of any season in the 1990s.
+  REMOVED: 1996-97 had just 4 20-and-10 players, the fewest of any season in the 1990s.
+  REMOVED: 1996-97 had 25 20-point scorers, the most of any season in the 1990s.
+  REMOVED: 1998-99 had just 14 20-point scorers, the fewest of any season in the 1990s.
+  REMOVED: 1998-99 had 83 players who appeared in every game, the most of any season in the 1990s.
+  REMOVED: 1991-92 had just one player who appeared in every game, the fewest of any season in the 1990s.
+  REMOVED: 1993-94 had 22 double-digit rebounders, the most of any season in the 1990s.
+  REMOVED: 1999-00 had just 7 double-digit rebounders, the fewest of any season in the 1990s.
+  REMOVED: 1990-91 had 14 2-steal players, the most of any season in the 1990s.
+  REMOVED: 1994-95 had just 6 2-steal players, the fewest of any season in the 1990s.
+  REMOVED: 26 players played every game while averaging 38+ minutes in the 1990s (33 seasons). The most extreme: Latrell Sprewell, 1993-94 — 82 GP, 43.1 mpg.
+  NEW:     1990-91 had 10 players averaging 25 points (60% of games), the most of any season in the 1990s.
+  NEW:     1998-99 had just 2 players averaging 25 points (60% of games), the fewest of any season in the 1990s.
+  NEW:     1992-93 had 10 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1990s.
+  NEW:     1996-97 had just 4 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1990s.
+  NEW:     1996-97 had 25 players averaging 20 points (60% of games), the most of any season in the 1990s.
+  NEW:     1998-99 had just 14 players averaging 20 points (60% of games), the fewest of any season in the 1990s.
+  NEW:     1993-94 had 22 players averaging 10 rebounds (60% of games), the most of any season in the 1990s.
+  NEW:     1999-00 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 1990s.
+  NEW:     1990-91 had 14 players averaging 2 steals (60% of games), the most of any season in the 1990s.
+  NEW:     1994-95 had just 6 players averaging 2 steals (60% of games), the fewest of any season in the 1990s.
+  NEW:     1990-91 had 12 players averaging 2 blocks (60% of games), the most of any season in the 1990s.
+  NEW:     1992-93 had just 7 players averaging 2 blocks (60% of games), the fewest of any season in the 1990s.
+  NEW:     14 players log 3,300 minutes in a season in the 1990s (19 seasons). The most extreme: Latrell Sprewell, 1993-94 — 3,533 min.
+
+== 2000s
+  REMOVED: Derek Fisher played every game in 5 straight seasons (2005-06 to 2009-10), the longest run of the 2000s.
+  REMOVED: 2005-06 had 10 25-point scorers, the most of any season in the 2000s.
+  REMOVED: 2003-04 had just one 25-point scorer, the fewest of any season in the 2000s.
+  REMOVED: 2000-01 had 6 20-and-10 players, the most of any season in the 2000s.
+  REMOVED: 2004-05 had just 3 20-and-10 players, the fewest of any season in the 2000s.
+  REMOVED: 2007-08 had 31 20-point scorers, the most of any season in the 2000s.
+  REMOVED: 2009-10 had just 17 20-point scorers, the fewest of any season in the 2000s.
+  REMOVED: 2007-08 had 43 players who appeared in every game, the most of any season in the 2000s.
+  REMOVED: 2000-01 had just one player who appeared in every game, the fewest of any season in the 2000s.
+  REMOVED: 2007-08 had 14 double-digit rebounders, the most of any season in the 2000s.
+  REMOVED: 2001-02 had just 9 double-digit rebounders, the fewest of any season in the 2000s.
+  REMOVED: 2000-01 had 7 2-steal players, the most of any season in the 2000s.
+  REMOVED: 2008-09 had just 2 2-steal players, the fewest of any season in the 2000s.
+  NEW:     2005-06 had 10 players averaging 25 points (60% of games), the most of any season in the 2000s.
+  NEW:     2003-04 had just one player averaging 25 points (60% of games), the fewest of any season in the 2000s.
+  NEW:     2000-01 had 6 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 2000s.
+  NEW:     2004-05 had just 3 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 2000s.
+  NEW:     2007-08 had 31 players averaging 20 points (60% of games), the most of any season in the 2000s.
+  NEW:     2009-10 had just 17 players averaging 20 points (60% of games), the fewest of any season in the 2000s.
+  NEW:     2007-08 had 14 players averaging 10 rebounds (60% of games), the most of any season in the 2000s.
+  NEW:     2001-02 had just 9 players averaging 10 rebounds (60% of games), the fewest of any season in the 2000s.
+  NEW:     2000-01 had 7 players averaging 2 steals (60% of games), the most of any season in the 2000s.
+  NEW:     2008-09 had just 2 players averaging 2 steals (60% of games), the fewest of any season in the 2000s.
+  NEW:     2000-01 had 12 players averaging 2 blocks (60% of games), the most of any season in the 2000s.
+  NEW:     2009-10 had just 4 players averaging 2 blocks (60% of games), the fewest of any season in the 2000s.
+  NEW:     13 players made 200 threes in a season in the 2000s (21 seasons). The most extreme: Ray Allen, 2005-06 — 269 3PM.
+
+== 2010s
+  REMOVED: Just three players of the 2010s played every game while averaging 38+ minutes: Damian Lillard (2012-13: 82 GP, 38.6 mpg); Kevin Durant (2011-12: 66 GP, 38.6 mpg); James Harden (2015-16: 82 GP, 38.1 mpg).
+  REMOVED: 2016-17 had 13 25-point scorers, the most of any season in the 2010s.
+  REMOVED: 2014-15 had just 3 25-point scorers, the fewest of any season in the 2010s.
+  REMOVED: 2018-19 had 7 20-and-10 players, the most of any season in the 2010s.
+  REMOVED: 2012-13 had no 20-and-10 players at all — the only season of the 2010s without one.
+  REMOVED: 2016-17 had 32 20-point scorers, the most of any season in the 2010s.
+  REMOVED: 2012-13 had just 11 20-point scorers, the fewest of any season in the 2010s.
+  REMOVED: 2011-12 had 36 players who appeared in every game, the most of any season in the 2010s.
+  REMOVED: 2010-11 had just one player who appeared in every game, the fewest of any season in the 2010s.
+  REMOVED: 2018-19 had 14 double-digit rebounders, the most of any season in the 2010s.
+  REMOVED: 2011-12 had just 7 double-digit rebounders, the fewest of any season in the 2010s.
+  REMOVED: 2015-16 had 5 2-steal players, the most of any season in the 2010s.
+  REMOVED: 2019-20 had just one 2-steal player, the fewest of any season in the 2010s.
+  REMOVED: 114 players played every game of the season in the 2010s (150 seasons). The most extreme: Damian Lillard, 2012-13 — 82 games, 38.6 mpg.
+  NEW:     Most assists in a season in the 2010s: James Harden, 2016-17 — 907 (11.2 a game).
+  NEW:     Most points per minute by a qualified player in the 2010s: James Harden, 2018-19 — 36.1 ppg in 36.8 minutes.
+  NEW:     2016-17 had 13 players averaging 25 points (60% of games), the most of any season in the 2010s.
+  NEW:     2014-15 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 2010s.
+  NEW:     2018-19 had 7 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 2010s.
+  NEW:     2012-13 had no players averaging 20 points and 10 rebounds (60% of games) at all — the only season of the 2010s without one.
+  NEW:     2016-17 had 32 players averaging 20 points (60% of games), the most of any season in the 2010s.
+  NEW:     2012-13 had just 11 players averaging 20 points (60% of games), the fewest of any season in the 2010s.
+  NEW:     2018-19 had 14 players averaging 10 rebounds (60% of games), the most of any season in the 2010s.
+  NEW:     2011-12 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 2010s.
+  NEW:     2015-16 had 5 players averaging 2 steals (60% of games), the most of any season in the 2010s.
+  NEW:     2019-20 had just one player averaging 2 steals (60% of games), the fewest of any season in the 2010s.
+  NEW:     2012-13 had 7 players averaging 2 blocks (60% of games), the most of any season in the 2010s.
+  NEW:     2017-18 had just 2 players averaging 2 blocks (60% of games), the fewest of any season in the 2010s.
+
+== 2020s
+  REMOVED: 2022-23 had 18 25-point scorers, the most of any season in the 2020s.
+  REMOVED: 2024-25 had just 11 25-point scorers, the fewest of any season in the 2020s.
+  REMOVED: 2020-21 had 8 20-and-10 players, the most of any season in the 2020s.
+  REMOVED: 2021-22 had just 3 20-and-10 players, the fewest of any season in the 2020s.
+  REMOVED: 2022-23 had 49 20-point scorers, the most of any season in the 2020s.
+  REMOVED: 2021-22 had just 34 20-point scorers, the fewest of any season in the 2020s.
+  REMOVED: 2025-26 had 18 players who appeared in every game, the most of any season in the 2020s.
+  REMOVED: 2022-23 had just one player who appeared in every game, the fewest of any season in the 2020s.
+  REMOVED: 2020-21 had 15 double-digit rebounders, the most of any season in the 2020s.
+  REMOVED: 2025-26 had just 8 double-digit rebounders, the fewest of any season in the 2020s.
+  REMOVED: 2023-24 had 2 2-steal players, the most of any season in the 2020s.
+  REMOVED: 2022-23 had no 2-steal players at all — the only season of the 2020s without one.
+  NEW:     2022-23 had 18 players averaging 25 points (60% of games), the most of any season in the 2020s.
+  NEW:     2024-25 had just 11 players averaging 25 points (60% of games), the fewest of any season in the 2020s.
+  NEW:     2020-21 had 8 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 2020s.
+  NEW:     2021-22 had just 3 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 2020s.
+  NEW:     2022-23 had 49 players averaging 20 points (60% of games), the most of any season in the 2020s.
+  NEW:     2021-22 had just 34 players averaging 20 points (60% of games), the fewest of any season in the 2020s.
+  NEW:     2020-21 had 15 players averaging 10 rebounds (60% of games), the most of any season in the 2020s.
+  NEW:     2025-26 had just 8 players averaging 10 rebounds (60% of games), the fewest of any season in the 2020s.
+  NEW:     2023-24 had 2 players averaging 2 steals (60% of games), the most of any season in the 2020s.
+  NEW:     2022-23 had no players averaging 2 steals (60% of games) at all — the only season of the 2020s without one.
+  NEW:     2023-24 had 8 players averaging 2 blocks (60% of games), the most of any season in the 2020s.
+  NEW:     2025-26 had just one player averaging 2 blocks (60% of games), the fewest of any season in the 2020s.
+
+== mj
+  REMOVED: Career scoring average: 30.12, the highest in NBA history among 1,382 qualified players (400 games or 10,000 points), ahead of Wilt Chamberlain (30.07).
+  NEW:     Career scoring average: 30.12, the highest in NBA history among 1,417 qualified players (400 games or 10,000 points), ahead of Wilt Chamberlain (30.07).

@@ -1,0 +1,8914 @@
+{
+ "sport": "NFL",
+ "decade": "2000s",
+ "seasons": [
+  2000,
+  2001,
+  2002,
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2008,
+  2009
+ ],
+ "candidates": 113,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "rec130",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0007024",
+     "name": "Marvin Harrison",
+     "pos": "WR",
+     "team": "IND",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 10,
+     "RTD": 0,
+     "REC": 143,
+     "RECY": 1722,
+     "RECTD": 11,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": "00-0007024",
+     "name": "Marvin Harrison"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "The only player of the 2000s to catch 130 passes: Marvin Harrison, 2002 — 143 rec.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 2,
+   "rule": "rb_rec100",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2003,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 21,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 313,
+     "RY": 1645,
+     "RTD": 13,
+     "REC": 100,
+     "RECY": 725,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.5,
+   "players": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "The only player of the 2000s to catch 100 passes as a running back: LaDainian Tomlinson, 2003 — 100 rec, 725 yds.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Pass-catching backs were ahead of their time; fans love the forerunners."
+  },
+  {
+   "n": 3,
+   "rule": "rec100_short",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2003,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 21,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 313,
+     "RY": 1645,
+     "RTD": 13,
+     "REC": 100,
+     "RECY": 725,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.31875,
+   "players": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "The only player of the 2000s to catch 100 passes for under 1,000 yards: LaDainian Tomlinson, 2003 — 100 rec, 725 yds.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Lots of catches, few yards: a possession-receiver oddity."
+  },
+  {
+   "n": 4,
+   "rule": "cmp70",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020531",
+     "name": "Drew Brees",
+     "pos": "QB",
+     "team": "NO",
+     "season": 2009,
+     "G": 15,
+     "CMP": 363,
+     "ATT": 514,
+     "PY": 4388,
+     "PTD": 34,
+     "INT": 11,
+     "CAR": 22,
+     "RY": 33,
+     "RTD": 2,
+     "REC": 1,
+     "RECY": -4,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.76556420233463,
+   "players": [
+    {
+     "id": "00-0020531",
+     "name": "Drew Brees"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "text": "The only player of the 2000s to complete 70% of their passes (350+ attempts): Drew Brees, 2009 — 70.6%, 514 att.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Accuracy stats let older passers be compared with modern ones."
+  },
+  {
+   "n": 5,
+   "rule": "yds5000",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020531",
+     "name": "Drew Brees",
+     "pos": "QB",
+     "team": "NO",
+     "season": 2008,
+     "G": 16,
+     "CMP": 413,
+     "ATT": 635,
+     "PY": 5069,
+     "PTD": 34,
+     "INT": 17,
+     "CAR": 22,
+     "RY": -1,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.26725,
+   "players": [
+    {
+     "id": "00-0020531",
+     "name": "Drew Brees"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "The only player of the 2000s to throw for 5,000 yards: Drew Brees, 2008 — 5,069 yds.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 6,
+   "rule": "fg40",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019676",
+     "name": "Neil Rackers",
+     "pos": "K",
+     "team": "ARI",
+     "season": 2005,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 40,
+     "FGA": 42,
+     "FGL": 54
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11,
+   "players": [
+    {
+     "id": "00-0019676",
+     "name": "Neil Rackers"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "The only player of the 2000s to make 40 field goals: Neil Rackers, 2005 — 40-42 FG.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 7,
+   "rule": "fg_perfect",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0016830",
+     "name": "Mike Vanderjagt",
+     "pos": "K",
+     "team": "IND",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 37,
+     "FGA": 37,
+     "FGL": 50
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.925,
+   "players": [
+    {
+     "id": "00-0016830",
+     "name": "Mike Vanderjagt"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "The only player of the 2000s to go a season without missing a field goal (20+ attempts): Mike Vanderjagt, 2003 — 37-for-37.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Perfection is the easiest thing in sports to share."
+  },
+  {
+   "n": 8,
+   "rule": "rectd17",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0011754",
+     "name": "Randy Moss",
+     "pos": "WR",
+     "team": "NE",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 98,
+     "RECY": 1493,
+     "RECTD": 23,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0011754",
+     "name": "Randy Moss",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 6,
+     "RY": 18,
+     "RTD": 0,
+     "REC": 111,
+     "RECY": 1632,
+     "RECTD": 17,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 10.575,
+   "players": [
+    {
+     "id": "00-0011754",
+     "name": "Randy Moss"
+    }
+   ],
+   "seasons": [
+    2007,
+    2003
+   ],
+   "text": "The only player of the 2000s to catch 17 touchdown passes was Randy Moss — and he did it twice (2007: 23 rec TD; 2003: 17 rec TD).",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Touchdown catches are the red-zone threat stat."
+  },
+  {
+   "n": 9,
+   "rule": "qb_rush1000",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020245",
+     "name": "Mike Vick",
+     "pos": "QB",
+     "team": "ATL",
+     "season": 2006,
+     "G": 16,
+     "CMP": 205,
+     "ATT": 389,
+     "PY": 2474,
+     "PTD": 20,
+     "INT": 13,
+     "CAR": 123,
+     "RY": 1039,
+     "RTD": 2,
+     "REC": 1,
+     "RECY": 1,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.5195,
+   "players": [
+    {
+     "id": "00-0020245",
+     "name": "Mike Vick"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "The only player of the 2000s to rush for 1,000 yards as a quarterback: Mike Vick, 2006 — 1,039 rush yds.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Dual-threat quarterbacks are an evergreen debate."
+  },
+  {
+   "n": 10,
+   "rule": "yds1000_fewrec",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0021152",
+     "name": "Ashley Lelie",
+     "pos": "WR",
+     "team": "DEN",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 3,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 54,
+     "RECY": 1084,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.501851851851852,
+   "players": [
+    {
+     "id": "00-0021152",
+     "name": "Ashley Lelie"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "The only player of the 2000s to gain 1,000 receiving yards on fewer than 55 catches: Ashley Lelie, 2004 — 1,084 yds on 54 rec.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 11,
+   "rule": "recy1700",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0007024",
+     "name": "Marvin Harrison",
+     "pos": "WR",
+     "team": "IND",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 10,
+     "RTD": 0,
+     "REC": 143,
+     "RECY": 1722,
+     "RECTD": 11,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.4305,
+   "players": [
+    {
+     "id": "00-0007024",
+     "name": "Marvin Harrison"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "The only player of the 2000s to gain 1,700 receiving yards: Marvin Harrison, 2002 — 1,722 yds.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 12,
+   "rule": "te1200",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0006101",
+     "name": "Tony Gonzalez",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 102,
+     "RECY": 1258,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.3145,
+   "players": [
+    {
+     "id": "00-0006101",
+     "name": "Tony Gonzalez"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "text": "The only player of the 2000s to gain 1,200 receiving yards as a tight end: Tony Gonzalez, 2004 — 1,258 yds, 102 rec.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Tight end production stands out when the position is compared across eras."
+  },
+  {
+   "n": 13,
+   "rule": "po_ptd",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner",
+     "pos": "QB",
+     "team": "ARI",
+     "season": 2008,
+     "G": 4,
+     "CMP": 92,
+     "ATT": 135,
+     "PY": 1147,
+     "PTD": 11,
+     "INT": 3,
+     "CAR": 8,
+     "RY": 1,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": 4,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.275,
+   "players": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "The only player of the 2000s to throw 10 touchdown passes in one postseason: Kurt Warner, 2008 — 11 TD, 3 INT in 4 games.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Postseason touchdown passes are where quarterback legacies are argued."
+  },
+  {
+   "n": 14,
+   "rule": "qb_rushtd10",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0003739",
+     "name": "Daunte Culpepper",
+     "pos": "QB",
+     "team": "MIN",
+     "season": 2002,
+     "G": 16,
+     "CMP": 333,
+     "ATT": 549,
+     "PY": 3853,
+     "PTD": 18,
+     "INT": 23,
+     "CAR": 106,
+     "RY": 609,
+     "RTD": 10,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.25,
+   "players": [
+    {
+     "id": "00-0003739",
+     "name": "Daunte Culpepper"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "The only player of the 2000s to run for 10 touchdowns as a quarterback: Daunte Culpepper, 2002 — 10 rush TD.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Quarterbacks scoring with their legs always gets a reaction."
+  },
+  {
+   "n": 15,
+   "rule": "fg50x8",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0006800",
+     "name": "Jason Hanson",
+     "pos": "K",
+     "team": "DET",
+     "season": 2008,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 21,
+     "FGA": 22,
+     "FGL": 56
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.2,
+   "players": [
+    {
+     "id": "00-0006800",
+     "name": "Jason Hanson"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "The only player of the 2000s to make 8 field goals of 50+ yards: Jason Hanson, 2008 — 8 from 50+.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 16,
+   "rule": "td10_fewrec",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0022889",
+     "name": "Reggie Williams",
+     "pos": "WR",
+     "team": "JAX",
+     "season": 2007,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 8,
+     "RTD": 0,
+     "REC": 38,
+     "RECY": 629,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.155,
+   "players": [
+    {
+     "id": "00-0022889",
+     "name": "Reggie Williams"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "The only player of the 2000s to catch 10 touchdowns on fewer than 45 receptions: Reggie Williams, 2007 — 10 TD on 38 rec.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 17,
+   "rule": "td30_int20",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner",
+     "pos": "QB",
+     "team": "LA",
+     "season": 2001,
+     "G": 16,
+     "CMP": 375,
+     "ATT": 546,
+     "PY": 4830,
+     "PTD": 36,
+     "INT": 22,
+     "CAR": 28,
+     "RY": 60,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0005106",
+     "name": "Brett Favre",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2003,
+     "G": 16,
+     "CMP": 308,
+     "ATT": 472,
+     "PY": 3361,
+     "PTD": 32,
+     "INT": 21,
+     "CAR": 18,
+     "RY": 15,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.45,
+   "players": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner"
+    },
+    {
+     "id": "00-0005106",
+     "name": "Brett Favre"
+    }
+   ],
+   "seasons": [
+    2001,
+    2003
+   ],
+   "text": "Only two players of the 2000s threw 30 touchdown passes and 20 interceptions: Kurt Warner (2001: 36 TD, 22 INT); Brett Favre (2003: 32 TD, 21 INT).",
+   "why": "Two names invite the \"whose season was better?\" argument. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 18,
+   "rule": "td40",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady",
+     "pos": "QB",
+     "team": "NE",
+     "season": 2007,
+     "G": 16,
+     "CMP": 398,
+     "ATT": 578,
+     "PY": 4806,
+     "PTD": 50,
+     "INT": 8,
+     "CAR": 37,
+     "RY": 98,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2004,
+     "G": 16,
+     "CMP": 336,
+     "ATT": 497,
+     "PY": 4557,
+     "PTD": 49,
+     "INT": 10,
+     "CAR": 25,
+     "RY": 38,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.25,
+   "players": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady"
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning"
+    }
+   ],
+   "seasons": [
+    2007,
+    2004
+   ],
+   "text": "Only two players of the 2000s threw 40 touchdown passes: Tom Brady (2007: 50 TD, 8 INT); Peyton Manning (2004: 49 TD, 10 INT).",
+   "why": "A two-player club is a ready-made debate. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 19,
+   "rule": "rush2000",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019693",
+     "name": "Jamal Lewis",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 388,
+     "RY": 2063,
+     "RTD": 14,
+     "REC": 26,
+     "RECY": 205,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 358,
+     "RY": 2006,
+     "RTD": 14,
+     "REC": 50,
+     "RECY": 503,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.0315,
+   "players": [
+    {
+     "id": "00-0019693",
+     "name": "Jamal Lewis"
+    },
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson"
+    }
+   ],
+   "seasons": [
+    2003,
+    2009
+   ],
+   "text": "Only two players of the 2000s rushed for 2,000 yards: Jamal Lewis (2003: 2,063 yds); Chris Johnson (2009: 2,006 yds).",
+   "why": "Two names invite the \"whose season was better?\" argument. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "s_ry1000",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson"
+    }
+   ],
+   "seasons": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 339,
+     "RY": 1236,
+     "RTD": 10,
+     "REC": 59,
+     "RECY": 367,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 372,
+     "RY": 1683,
+     "RTD": 14,
+     "REC": 79,
+     "RECY": 489,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2003,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 21,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 313,
+     "RY": 1645,
+     "RTD": 13,
+     "REC": 100,
+     "RECY": 725,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2004,
+     "G": 15,
+     "CMP": 1,
+     "ATT": 2,
+     "PY": 38,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 339,
+     "RY": 1335,
+     "RTD": 17,
+     "REC": 53,
+     "RECY": 441,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2005,
+     "G": 16,
+     "CMP": 3,
+     "ATT": 4,
+     "PY": 47,
+     "PTD": 3,
+     "INT": 0,
+     "CAR": 340,
+     "RY": 1464,
+     "RTD": 18,
+     "REC": 51,
+     "RECY": 370,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2006,
+     "G": 16,
+     "CMP": 2,
+     "ATT": 3,
+     "PY": 20,
+     "PTD": 2,
+     "INT": 0,
+     "CAR": 349,
+     "RY": 1815,
+     "RTD": 28,
+     "REC": 56,
+     "RECY": 508,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2007,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 17,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 315,
+     "RY": 1474,
+     "RTD": 15,
+     "REC": 60,
+     "RECY": 475,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2008,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 292,
+     "RY": 1110,
+     "RTD": 11,
+     "REC": 52,
+     "RECY": 421,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "LaDainian Tomlinson ran for 1,000 yards in 8 straight seasons (2001 to 2008), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "s_recy1000",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 7,
+     "RTD": 0,
+     "REC": 82,
+     "RECY": 1635,
+     "RECTD": 6,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 5,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 81,
+     "RECY": 1363,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 5,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 18,
+     "RTD": 0,
+     "REC": 91,
+     "RECY": 1302,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 117,
+     "RECY": 1696,
+     "RECTD": 12,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 94,
+     "RECY": 1372,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2005,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 2,
+     "RTD": 0,
+     "REC": 102,
+     "RECY": 1331,
+     "RECTD": 9,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 93,
+     "RECY": 1188,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 93,
+     "RECY": 1189,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Torry Holt gained 1,000 receiving yards in 8 straight seasons (2000 to 2007), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 22,
+   "rule": "ypa9",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner",
+     "pos": "QB",
+     "team": "LA",
+     "season": 2000,
+     "G": 11,
+     "CMP": 235,
+     "ATT": 347,
+     "PY": 3429,
+     "PTD": 21,
+     "INT": 18,
+     "CAR": 18,
+     "RY": 17,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2004,
+     "G": 16,
+     "CMP": 336,
+     "ATT": 497,
+     "PY": 4557,
+     "PTD": 49,
+     "INT": 10,
+     "CAR": 25,
+     "RY": 38,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.74113832853026,
+   "players": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner"
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning"
+    }
+   ],
+   "seasons": [
+    2000,
+    2004
+   ],
+   "text": "Only two players of the 2000s averaged 9 yards a pass attempted (300+ attempts): Kurt Warner (2000: 9.9 Y/A on 347 att); Peyton Manning (2004: 9.2 Y/A on 497 att).",
+   "why": "A two-player club is a ready-made debate. Yards per attempt is the deep-ball efficiency number fans love."
+  },
+  {
+   "n": 23,
+   "rule": "po_recy",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0022921",
+     "name": "Larry Fitzgerald",
+     "pos": "WR",
+     "team": "ARI",
+     "season": 2008,
+     "G": 4,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 30,
+     "RECY": 546,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020337",
+     "name": "Steve Smith",
+     "pos": "WR",
+     "team": "CAR",
+     "season": 2003,
+     "G": 4,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 7,
+     "RTD": 0,
+     "REC": 18,
+     "RECY": 404,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.6825,
+   "players": [
+    {
+     "id": "00-0022921",
+     "name": "Larry Fitzgerald"
+    },
+    {
+     "id": "00-0020337",
+     "name": "Steve Smith"
+    }
+   ],
+   "seasons": [
+    2008,
+    2003
+   ],
+   "text": "Only two players of the 2000s gained 400 receiving yards in one postseason: Larry Fitzgerald (2008: 546 yds in 4 games); Steve Smith (2003: 404 yds in 4 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Playoff receiving production is highlight-reel nostalgia."
+  },
+  {
+   "n": 24,
+   "rule": "rate115",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2004,
+     "G": 16,
+     "CMP": 336,
+     "ATT": 497,
+     "PY": 4557,
+     "PTD": 49,
+     "INT": 10,
+     "CAR": 25,
+     "RY": 38,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady",
+     "pos": "QB",
+     "team": "NE",
+     "season": 2007,
+     "G": 16,
+     "CMP": 398,
+     "ATT": 578,
+     "PY": 4806,
+     "PTD": 50,
+     "INT": 8,
+     "CAR": 37,
+     "RY": 98,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.6055290073776,
+   "players": [
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning"
+    },
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady"
+    }
+   ],
+   "seasons": [
+    2004,
+    2007
+   ],
+   "text": "Only two players of the 2000s posted a passer rating of 115 (350+ attempts): Peyton Manning (2004: 121.1 rating); Tom Brady (2007: 117.2 rating).",
+   "why": "A two-player club is a ready-made debate. Efficiency is the stat analytics-minded fans quote most."
+  },
+  {
+   "n": 25,
+   "rule": "ypr20",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0022807",
+     "name": "Bernard Berrian",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2008,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 4,
+     "RY": 26,
+     "RTD": 0,
+     "REC": 48,
+     "RECY": 964,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0021152",
+     "name": "Ashley Lelie",
+     "pos": "WR",
+     "team": "DEN",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 3,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 54,
+     "RECY": 1084,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.502083333333333,
+   "players": [
+    {
+     "id": "00-0022807",
+     "name": "Bernard Berrian"
+    },
+    {
+     "id": "00-0021152",
+     "name": "Ashley Lelie"
+    }
+   ],
+   "seasons": [
+    2008,
+    2004
+   ],
+   "text": "Only two players of the 2000s averaged 20 yards a catch (40+ catches): Bernard Berrian (2008: 20.1 per catch, 48 rec); Ashley Lelie (2004: 20.1 per catch, 54 rec).",
+   "why": "Two names invite the \"whose season was better?\" argument. Yards per catch marks the true deep threats."
+  },
+  {
+   "n": 26,
+   "rule": "wr_rush150",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs",
+     "pos": "WR",
+     "team": "CLE",
+     "season": 2009,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 4,
+     "PY": 18,
+     "PTD": 0,
+     "INT": 1,
+     "CAR": 55,
+     "RY": 381,
+     "RTD": 1,
+     "REC": 20,
+     "RECY": 135,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 9,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0024318",
+     "name": "Brad Smith",
+     "pos": "WR",
+     "team": "NYJ",
+     "season": 2009,
+     "G": 13,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 27,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 18,
+     "RY": 207,
+     "RTD": 1,
+     "REC": 7,
+     "RECY": 63,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 9,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs",
+     "pos": "WR",
+     "team": "CLE",
+     "season": 2008,
+     "G": 15,
+     "CMP": 1,
+     "ATT": 4,
+     "PY": 8,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 29,
+     "RY": 163,
+     "RTD": 1,
+     "REC": 2,
+     "RECY": 18,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 21,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.47625,
+   "players": [
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs"
+    },
+    {
+     "id": "00-0024318",
+     "name": "Brad Smith"
+    }
+   ],
+   "seasons": [
+    2009,
+    2009,
+    2008
+   ],
+   "text": "Only two players of the 2000s rushed for 150 yards as a wide receiver: Josh Cribbs (2×, best 2009: 381 rush yds, 135 rec yds); Brad Smith (2009: 207 rush yds, 63 rec yds).",
+   "why": "A two-player club is a ready-made debate. Scoring volume plus efficiency is the complete-back case."
+  },
+  {
+   "n": 27,
+   "rule": "te_td12",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0021547",
+     "name": "Antonio Gates",
+     "pos": "TE",
+     "team": "LAC",
+     "season": 2004,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 81,
+     "RECY": 964,
+     "RECTD": 13,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0024221",
+     "name": "Vernon Davis",
+     "pos": "TE",
+     "team": "SF",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 78,
+     "RECY": 965,
+     "RECTD": 13,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.325,
+   "players": [
+    {
+     "id": "00-0021547",
+     "name": "Antonio Gates"
+    },
+    {
+     "id": "00-0024221",
+     "name": "Vernon Davis"
+    }
+   ],
+   "seasons": [
+    2004,
+    2009
+   ],
+   "text": "Only two players of the 2000s caught 12 touchdowns as a tight end: Antonio Gates (2004: 13 rec TD); Vernon Davis (2009: 13 rec TD).",
+   "why": "Two names invite the \"whose season was better?\" argument. Tight end production stands out when the position is compared across eras."
+  },
+  {
+   "n": 28,
+   "rule": "po_py",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner",
+     "pos": "QB",
+     "team": "ARI",
+     "season": 2008,
+     "G": 4,
+     "CMP": 92,
+     "ATT": 135,
+     "PY": 1147,
+     "PTD": 11,
+     "INT": 3,
+     "CAR": 8,
+     "RY": 1,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": 4,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2006,
+     "G": 4,
+     "CMP": 97,
+     "ATT": 153,
+     "PY": 1034,
+     "PTD": 3,
+     "INT": 7,
+     "CAR": 8,
+     "RY": 3,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.28675,
+   "players": [
+    {
+     "id": "00-0017200",
+     "name": "Kurt Warner"
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning"
+    }
+   ],
+   "seasons": [
+    2008,
+    2006
+   ],
+   "text": "Only two players of the 2000s threw for 1,000 yards in one postseason: Kurt Warner (2008: 1,147 yds, 11 TD in 4 games); Peyton Manning (2006: 1,034 yds, 3 TD in 4 games).",
+   "why": "A two-player club is a ready-made debate. Playoff passing volume feeds the big-game debate."
+  },
+  {
+   "n": 29,
+   "rule": "po_dsk",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0010749",
+     "name": "Michael McCrary",
+     "pos": "DE",
+     "team": "BAL",
+     "season": 2000,
+     "G": 4,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 6,
+     "DINT": 0,
+     "TKL": 11,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0025433",
+     "name": "LaMarr Woodley",
+     "pos": "OLB",
+     "team": "PIT",
+     "season": 2008,
+     "G": 3,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 6,
+     "DINT": 0,
+     "TKL": 12,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.15,
+   "players": [
+    {
+     "id": "00-0010749",
+     "name": "Michael McCrary"
+    },
+    {
+     "id": "00-0025433",
+     "name": "LaMarr Woodley"
+    }
+   ],
+   "seasons": [
+    2000,
+    2008
+   ],
+   "text": "Only two players of the 2000s recorded 5 sacks in one postseason: Michael McCrary (2000: 6 sacks in 4 games); LaMarr Woodley (2008: 6 sacks in 3 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Playoff pass rush is what legacies are built on."
+  },
+  {
+   "n": 30,
+   "rule": "saf2",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0022740",
+     "name": "Jared Allen",
+     "pos": "DE",
+     "team": "MIN",
+     "season": 2008,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 15,
+     "DINT": 0,
+     "TKL": 45,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0026407",
+     "name": "Jameel McClain",
+     "pos": "MLB",
+     "team": "BAL",
+     "season": 2008,
+     "G": 11,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 2.5,
+     "DINT": 0,
+     "TKL": 16,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.05,
+   "players": [
+    {
+     "id": "00-0022740",
+     "name": "Jared Allen"
+    },
+    {
+     "id": "00-0026407",
+     "name": "Jameel McClain"
+    }
+   ],
+   "seasons": [
+    2008,
+    2008
+   ],
+   "text": "Only two players of the 2000s recorded 2 safeties: Jared Allen (2008: 2 safeties); Jameel McClain (2008: 2 safeties).",
+   "why": "A two-player club is a ready-made debate. Safeties are the rarest score; multiple in a season is trivia gold."
+  },
+  {
+   "n": 31,
+   "kind": "streak",
+   "rule": "s_rec90",
+   "group": "P",
+   "decade": "2000s",
+   "score": 8,
+   "players": [
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt"
+    }
+   ],
+   "seasons": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 18,
+     "RTD": 0,
+     "REC": 91,
+     "RECY": 1302,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 117,
+     "RECY": 1696,
+     "RECTD": 12,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 94,
+     "RECY": 1372,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2005,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 2,
+     "RTD": 0,
+     "REC": 102,
+     "RECY": 1331,
+     "RECTD": 9,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 93,
+     "RECY": 1188,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 93,
+     "RECY": 1189,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Torry Holt caught 90 passes in 6 straight seasons (2002 to 2007), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 32,
+   "kind": "streak",
+   "rule": "s_fg25",
+   "group": "P",
+   "decade": "2000s",
+   "score": 8,
+   "players": [
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover"
+    }
+   ],
+   "seasons": [
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover",
+     "pos": "K",
+     "team": "BAL",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 33,
+     "FGA": 38,
+     "FGL": 49
+    },
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover",
+     "pos": "K",
+     "team": "BAL",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 29,
+     "FGA": 32,
+     "FGL": 50
+    },
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover",
+     "pos": "K",
+     "team": "BAL",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 30,
+     "FGA": 34,
+     "FGL": 49
+    },
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover",
+     "pos": "K",
+     "team": "BAL",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 28,
+     "FGA": 30,
+     "FGL": 52
+    },
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover",
+     "pos": "K",
+     "team": "BAL",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 27,
+     "FGA": 32,
+     "FGL": 49
+    },
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover",
+     "pos": "K",
+     "team": "BAL",
+     "season": 2008,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 27,
+     "FGA": 33,
+     "FGL": 47
+    }
+   ],
+   "text": "Matt Stover made 25 field goals in 6 straight seasons (2003 to 2008), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 33,
+   "rule": "sacked60",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020608",
+     "name": "David Carr",
+     "pos": "QB",
+     "team": "HOU",
+     "season": 2002,
+     "G": 16,
+     "CMP": 233,
+     "ATT": 444,
+     "PY": 2592,
+     "PTD": 9,
+     "INT": 15,
+     "CAR": 59,
+     "RY": 282,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020608",
+     "name": "David Carr",
+     "pos": "QB",
+     "team": "HOU",
+     "season": 2005,
+     "G": 16,
+     "CMP": 256,
+     "ATT": 423,
+     "PY": 2488,
+     "PTD": 14,
+     "INT": 11,
+     "CAR": 56,
+     "RY": 308,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0009311",
+     "name": "Jon Kitna",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2006,
+     "G": 16,
+     "CMP": 372,
+     "ATT": 596,
+     "PY": 4208,
+     "PTD": 21,
+     "INT": 22,
+     "CAR": 34,
+     "RY": 156,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0001218",
+     "name": "Steve Beuerlein",
+     "pos": "QB",
+     "team": "CAR",
+     "season": 2000,
+     "G": 16,
+     "CMP": 324,
+     "ATT": 533,
+     "PY": 3730,
+     "PTD": 19,
+     "INT": 18,
+     "CAR": 44,
+     "RY": 106,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.9,
+   "players": [
+    {
+     "id": "00-0020608",
+     "name": "David Carr"
+    },
+    {
+     "id": "00-0009311",
+     "name": "Jon Kitna"
+    },
+    {
+     "id": "00-0001218",
+     "name": "Steve Beuerlein"
+    }
+   ],
+   "seasons": [
+    2002,
+    2005,
+    2006,
+    2000
+   ],
+   "text": "Just three players of the 2000s got sacked 60 times: David Carr (2×, best 2002: sacked 76 times); Jon Kitna (2006: sacked 63 times); Steve Beuerlein (2000: sacked 62 times).",
+   "why": "A short list fans can recite; each name brings its own fan base. Sacks taken shows who got hit, a sympathy and blame angle at once."
+  },
+  {
+   "n": 34,
+   "rule": "fg60",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020578",
+     "name": "Matt Bryant",
+     "pos": "K",
+     "team": "TB",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 17,
+     "FGA": 22,
+     "FGL": 62
+    },
+    {
+     "id": "00-0019646",
+     "name": "Sebastian Janikowski",
+     "pos": "K",
+     "team": "LV",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 26,
+     "FGA": 29,
+     "FGL": 61
+    },
+    {
+     "id": "00-0020962",
+     "name": "Rob Bironas",
+     "pos": "K",
+     "team": "TEN",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 22,
+     "FGA": 28,
+     "FGL": 60
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.55,
+   "players": [
+    {
+     "id": "00-0020578",
+     "name": "Matt Bryant"
+    },
+    {
+     "id": "00-0019646",
+     "name": "Sebastian Janikowski"
+    },
+    {
+     "id": "00-0020962",
+     "name": "Rob Bironas"
+    }
+   ],
+   "seasons": [
+    2006,
+    2009,
+    2006
+   ],
+   "text": "Just three players of the 2000s made a 60-yard field goal: Matt Bryant (2006: long 62); Sebastian Janikowski (2009: long 61); Rob Bironas (2006: long 60).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 35,
+   "kind": "streak",
+   "rule": "s_dsk10",
+   "group": "P",
+   "decade": "2000s",
+   "score": 7,
+   "players": [
+    {
+     "id": "00-0013644",
+     "name": "Simeon Rice"
+    }
+   ],
+   "seasons": [
+    2001,
+    2002,
+    2003,
+    2004,
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0013644",
+     "name": "Simeon Rice",
+     "pos": "DE",
+     "team": "TB",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 11,
+     "DINT": 0,
+     "TKL": 38,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0013644",
+     "name": "Simeon Rice",
+     "pos": "DE",
+     "team": "TB",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 15.5,
+     "DINT": 1,
+     "TKL": 44,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0013644",
+     "name": "Simeon Rice",
+     "pos": "DE",
+     "team": "TB",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 14.5,
+     "DINT": 2,
+     "TKL": 43,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0013644",
+     "name": "Simeon Rice",
+     "pos": "DE",
+     "team": "TB",
+     "season": 2004,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 12.5,
+     "DINT": 0,
+     "TKL": 37,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0013644",
+     "name": "Simeon Rice",
+     "pos": "DE",
+     "team": "TB",
+     "season": 2005,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 14,
+     "DINT": 1,
+     "TKL": 33,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Simeon Rice recorded 10 sacks in 5 straight seasons (2001 to 2005), the longest run of the 2000s.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 36,
+   "kind": "streak",
+   "rule": "s_py4000",
+   "group": "P",
+   "decade": "2000s",
+   "score": 7,
+   "players": [
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2000,
+     "G": 16,
+     "CMP": 357,
+     "ATT": 571,
+     "PY": 4413,
+     "PTD": 33,
+     "INT": 15,
+     "CAR": 37,
+     "RY": 116,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2001,
+     "G": 16,
+     "CMP": 343,
+     "ATT": 547,
+     "PY": 4131,
+     "PTD": 26,
+     "INT": 23,
+     "CAR": 35,
+     "RY": 157,
+     "RTD": 4,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2002,
+     "G": 16,
+     "CMP": 392,
+     "ATT": 591,
+     "PY": 4200,
+     "PTD": 27,
+     "INT": 19,
+     "CAR": 38,
+     "RY": 148,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2003,
+     "G": 16,
+     "CMP": 379,
+     "ATT": 566,
+     "PY": 4267,
+     "PTD": 29,
+     "INT": 10,
+     "CAR": 27,
+     "RY": 29,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": -2,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010346",
+     "name": "Peyton Manning",
+     "pos": "QB",
+     "team": "IND",
+     "season": 2004,
+     "G": 16,
+     "CMP": 336,
+     "ATT": 497,
+     "PY": 4557,
+     "PTD": 49,
+     "INT": 10,
+     "CAR": 25,
+     "RY": 38,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Peyton Manning threw for 4,000 yards in 5 straight seasons (2000 to 2004), the longest run of the 2000s.",
+   "why": "Leads with the most extreme case, which carries the post. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 37,
+   "rule": "td25",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2006,
+     "G": 16,
+     "CMP": 2,
+     "ATT": 3,
+     "PY": 20,
+     "PTD": 2,
+     "INT": 0,
+     "CAR": 349,
+     "RY": 1815,
+     "RTD": 28,
+     "REC": 56,
+     "RECY": 508,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019647",
+     "name": "Shaun Alexander",
+     "pos": "RB",
+     "team": "SEA",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 370,
+     "RY": 1880,
+     "RTD": 27,
+     "REC": 15,
+     "RECY": 78,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007661",
+     "name": "Priest Holmes",
+     "pos": "RB",
+     "team": "KC",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 320,
+     "RY": 1420,
+     "RTD": 27,
+     "REC": 74,
+     "RECY": 690,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0005092",
+     "name": "Marshall Faulk",
+     "pos": "RB",
+     "team": "LA",
+     "season": 2000,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 253,
+     "RY": 1359,
+     "RTD": 18,
+     "REC": 81,
+     "RECY": 830,
+     "RECTD": 8,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.775,
+   "players": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson"
+    },
+    {
+     "id": "00-0019647",
+     "name": "Shaun Alexander"
+    },
+    {
+     "id": "00-0007661",
+     "name": "Priest Holmes"
+    },
+    {
+     "id": "00-0005092",
+     "name": "Marshall Faulk"
+    }
+   ],
+   "seasons": [
+    2006,
+    2005,
+    2003,
+    2000
+   ],
+   "text": "Just four players of the 2000s scored 25 rushing and receiving touchdowns: LaDainian Tomlinson (2006: 31 TD); Shaun Alexander (2005: 28 TD); Priest Holmes (2003: 27 TD); Marshall Faulk (2000: 26 TD).",
+   "why": "A short list fans can recite; each name brings its own fan base. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 38,
+   "rule": "int25",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0005106",
+     "name": "Brett Favre",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2005,
+     "G": 16,
+     "CMP": 373,
+     "ATT": 608,
+     "PY": 3892,
+     "PTD": 20,
+     "INT": 29,
+     "CAR": 18,
+     "RY": 62,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0024226",
+     "name": "Jay Cutler",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2009,
+     "G": 16,
+     "CMP": 336,
+     "ATT": 555,
+     "PY": 3666,
+     "PTD": 27,
+     "INT": 26,
+     "CAR": 41,
+     "RY": 172,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0016193",
+     "name": "Vinny Testaverde",
+     "pos": "QB",
+     "team": "NYJ",
+     "season": 2000,
+     "G": 16,
+     "CMP": 328,
+     "ATT": 590,
+     "PY": 3732,
+     "PTD": 21,
+     "INT": 25,
+     "CAR": 25,
+     "RY": 32,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.725,
+   "players": [
+    {
+     "id": "00-0005106",
+     "name": "Brett Favre"
+    },
+    {
+     "id": "00-0024226",
+     "name": "Jay Cutler"
+    },
+    {
+     "id": "00-0016193",
+     "name": "Vinny Testaverde"
+    }
+   ],
+   "seasons": [
+    2005,
+    2009,
+    2000
+   ],
+   "text": "Just three players of the 2000s threw 25 interceptions: Brett Favre (2005: 29 INT, 20 TD); Jay Cutler (2009: 26 INT, 27 TD); Vinny Testaverde (2000: 25 INT, 21 TD).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Turnover-heavy seasons are the most shared kind of chaos stat."
+  },
+  {
+   "n": 39,
+   "rule": "rtd20",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2006,
+     "G": 16,
+     "CMP": 2,
+     "ATT": 3,
+     "PY": 20,
+     "PTD": 2,
+     "INT": 0,
+     "CAR": 349,
+     "RY": 1815,
+     "RTD": 28,
+     "REC": 56,
+     "RECY": 508,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007661",
+     "name": "Priest Holmes",
+     "pos": "RB",
+     "team": "KC",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 320,
+     "RY": 1420,
+     "RTD": 27,
+     "REC": 74,
+     "RECY": 690,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019647",
+     "name": "Shaun Alexander",
+     "pos": "RB",
+     "team": "SEA",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 370,
+     "RY": 1880,
+     "RTD": 27,
+     "REC": 15,
+     "RECY": 78,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0007661",
+     "name": "Priest Holmes",
+     "pos": "RB",
+     "team": "KC",
+     "season": 2002,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 313,
+     "RY": 1615,
+     "RTD": 21,
+     "REC": 70,
+     "RECY": 672,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0021976",
+     "name": "Larry Johnson",
+     "pos": "RB",
+     "team": "KC",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 336,
+     "RY": 1750,
+     "RTD": 20,
+     "REC": 33,
+     "RECY": 343,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.7,
+   "players": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson"
+    },
+    {
+     "id": "00-0007661",
+     "name": "Priest Holmes"
+    },
+    {
+     "id": "00-0019647",
+     "name": "Shaun Alexander"
+    },
+    {
+     "id": "00-0021976",
+     "name": "Larry Johnson"
+    }
+   ],
+   "seasons": [
+    2006,
+    2003,
+    2005,
+    2002,
+    2005
+   ],
+   "text": "Just four players of the 2000s ran for 20 touchdowns: LaDainian Tomlinson (2006: 28 rush TD); Priest Holmes (2×, best 2003: 27 rush TD); Shaun Alexander (2005: 27 rush TD); Larry Johnson (2005: 20 rush TD).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goal-line dominance is easy to picture and easy to share."
+  },
+  {
+   "n": 40,
+   "rule": "yds4000_lowtd",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0006355",
+     "name": "Trent Green",
+     "pos": "QB",
+     "team": "KC",
+     "season": 2005,
+     "G": 16,
+     "CMP": 317,
+     "ATT": 507,
+     "PY": 4014,
+     "PTD": 17,
+     "INT": 10,
+     "CAR": 35,
+     "RY": 82,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0009311",
+     "name": "Jon Kitna",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2007,
+     "G": 16,
+     "CMP": 355,
+     "ATT": 563,
+     "PY": 4066,
+     "PTD": 18,
+     "INT": 21,
+     "CAR": 27,
+     "RY": 63,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": 9,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0003292",
+     "name": "Kerry Collins",
+     "pos": "QB",
+     "team": "NYG",
+     "season": 2002,
+     "G": 16,
+     "CMP": 335,
+     "ATT": 545,
+     "PY": 4073,
+     "PTD": 19,
+     "INT": 14,
+     "CAR": 44,
+     "RY": -3,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.5785,
+   "players": [
+    {
+     "id": "00-0006355",
+     "name": "Trent Green"
+    },
+    {
+     "id": "00-0009311",
+     "name": "Jon Kitna"
+    },
+    {
+     "id": "00-0003292",
+     "name": "Kerry Collins"
+    }
+   ],
+   "seasons": [
+    2005,
+    2007,
+    2002
+   ],
+   "text": "Just three players of the 2000s threw for 4,000 yards with fewer than 20 touchdowns: Trent Green (2005: 4,014 yds, 17 TD); Jon Kitna (2007: 4,066 yds, 18 TD); Kerry Collins (2002: 4,073 yds, 19 TD).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 41,
+   "rule": "sack18",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan",
+     "pos": "DE",
+     "team": "NYG",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 22.5,
+     "DINT": 0,
+     "TKL": 59,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023445",
+     "name": "DeMarcus Ware",
+     "pos": "OLB",
+     "team": "DAL",
+     "season": 2008,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 20,
+     "DINT": 0,
+     "TKL": 77,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0016112",
+     "name": "Jason Taylor",
+     "pos": "OLB",
+     "team": "MIA",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 18.5,
+     "DINT": 0,
+     "TKL": 61,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan",
+     "pos": "DE",
+     "team": "NYG",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 18,
+     "DINT": 0,
+     "TKL": 57,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.5625,
+   "players": [
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan"
+    },
+    {
+     "id": "00-0023445",
+     "name": "DeMarcus Ware"
+    },
+    {
+     "id": "00-0016112",
+     "name": "Jason Taylor"
+    }
+   ],
+   "seasons": [
+    2001,
+    2008,
+    2002,
+    2003
+   ],
+   "text": "Just three players of the 2000s recorded 18 sacks: Michael Strahan (2×, best 2001: 22.5 sacks); DeMarcus Ware (2008: 20 sacks); Jason Taylor (2002: 18.5 sacks).",
+   "why": "A short list fans can recite; each name brings its own fan base. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 42,
+   "rule": "tgt180",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0007024",
+     "name": "Marvin Harrison",
+     "pos": "WR",
+     "team": "IND",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 10,
+     "RTD": 0,
+     "REC": 143,
+     "RECY": 1722,
+     "RECTD": 11,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0011754",
+     "name": "Randy Moss",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2002,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 3,
+     "PY": 13,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 6,
+     "RY": 51,
+     "RTD": 0,
+     "REC": 106,
+     "RECY": 1347,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 6,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0008561",
+     "name": "Keyshawn Johnson",
+     "pos": "WR",
+     "team": "TB",
+     "season": 2001,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 106,
+     "RECY": 1266,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0011770",
+     "name": "Eric Moulds",
+     "pos": "WR",
+     "team": "BUF",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 7,
+     "RTD": 0,
+     "REC": 100,
+     "RECY": 1292,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.5125,
+   "players": [
+    {
+     "id": "00-0007024",
+     "name": "Marvin Harrison"
+    },
+    {
+     "id": "00-0011754",
+     "name": "Randy Moss"
+    },
+    {
+     "id": "00-0008561",
+     "name": "Keyshawn Johnson"
+    },
+    {
+     "id": "00-0011770",
+     "name": "Eric Moulds"
+    }
+   ],
+   "seasons": [
+    2002,
+    2002,
+    2001,
+    2002
+   ],
+   "text": "Just four players of the 2000s drew 180 targets: Marvin Harrison (2002: 205 targets); Randy Moss (2002: 184 targets); Keyshawn Johnson (2001: 180 targets); Eric Moulds (2002: 180 targets).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 43,
+   "rule": "rb_recy800",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0005779",
+     "name": "Charlie Garner",
+     "pos": "RB",
+     "team": "LV",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 182,
+     "RY": 962,
+     "RTD": 7,
+     "REC": 91,
+     "RECY": 941,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0005092",
+     "name": "Marshall Faulk",
+     "pos": "RB",
+     "team": "LA",
+     "season": 2000,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 253,
+     "RY": 1359,
+     "RTD": 18,
+     "REC": 81,
+     "RECY": 830,
+     "RECTD": 8,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0022736",
+     "name": "Steven Jackson",
+     "pos": "RB",
+     "team": "LA",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 346,
+     "RY": 1528,
+     "RTD": 13,
+     "REC": 90,
+     "RECY": 806,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.4705,
+   "players": [
+    {
+     "id": "00-0005779",
+     "name": "Charlie Garner"
+    },
+    {
+     "id": "00-0005092",
+     "name": "Marshall Faulk"
+    },
+    {
+     "id": "00-0022736",
+     "name": "Steven Jackson"
+    }
+   ],
+   "seasons": [
+    2002,
+    2000,
+    2006
+   ],
+   "text": "Just three players of the 2000s gained 800 receiving yards as a running back: Charlie Garner (2002: 941 rec yds); Marshall Faulk (2000: 830 rec yds); Steven Jackson (2006: 806 rec yds).",
+   "why": "A short list fans can recite; each name brings its own fan base. Pass-catching backs were ahead of their time; fans love the forerunners."
+  },
+  {
+   "n": 44,
+   "rule": "sack5_int5",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0007030",
+     "name": "Rodney Harrison",
+     "pos": "S",
+     "team": "LAC",
+     "season": 2000,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 6,
+     "DINT": 6,
+     "TKL": 98,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0015495",
+     "name": "Shawn Springs",
+     "pos": "CB",
+     "team": "WAS",
+     "season": 2004,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 6,
+     "DINT": 5,
+     "TKL": 58,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019456",
+     "name": "Brian Urlacher",
+     "pos": "MLB",
+     "team": "CHI",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 5,
+     "DINT": 5,
+     "TKL": 106,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.3,
+   "players": [
+    {
+     "id": "00-0007030",
+     "name": "Rodney Harrison"
+    },
+    {
+     "id": "00-0015495",
+     "name": "Shawn Springs"
+    },
+    {
+     "id": "00-0019456",
+     "name": "Brian Urlacher"
+    }
+   ],
+   "seasons": [
+    2000,
+    2004,
+    2007
+   ],
+   "text": "Just three players of the 2000s recorded 5 sacks and 5 interceptions: Rodney Harrison (2000: 6 sacks, 6 INT); Shawn Springs (2004: 6 sacks, 5 INT); Brian Urlacher (2007: 5 sacks, 5 INT).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Sacks and interceptions from one defender make a rare two-way unicorn."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "x_py",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0020531",
+     "name": "Drew Brees"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020531",
+     "name": "Drew Brees",
+     "pos": "QB",
+     "team": "NO",
+     "season": 2008,
+     "G": 16,
+     "CMP": 413,
+     "ATT": 635,
+     "PY": 5069,
+     "PTD": 34,
+     "INT": 17,
+     "CAR": 22,
+     "RY": -1,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1055,
+   "text": "Most passing yards in a season in the 2000s: Drew Brees, 2008 — 5,069.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "x_ptd",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady",
+     "pos": "QB",
+     "team": "NE",
+     "season": 2007,
+     "G": 16,
+     "CMP": 398,
+     "ATT": 578,
+     "PY": 4806,
+     "PTD": 50,
+     "INT": 8,
+     "CAR": 37,
+     "RY": 98,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1055,
+   "text": "Most touchdown passes in a season in the 2000s: Tom Brady, 2007 — 50.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "x_int",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0005106",
+     "name": "Brett Favre"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0005106",
+     "name": "Brett Favre",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2005,
+     "G": 16,
+     "CMP": 373,
+     "ATT": 608,
+     "PY": 3892,
+     "PTD": 20,
+     "INT": 29,
+     "CAR": 18,
+     "RY": 62,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1055,
+   "text": "Most interceptions thrown in a season in the 2000s: Brett Favre, 2005 — 29.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Turnover-heavy seasons are the most shared kind of chaos stat."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "x_ry",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0019693",
+     "name": "Jamal Lewis"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019693",
+     "name": "Jamal Lewis",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 388,
+     "RY": 2063,
+     "RTD": 14,
+     "REC": 26,
+     "RECY": 205,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 3173,
+   "text": "Most rushing yards in a season in the 2000s: Jamal Lewis, 2003 — 2,063.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "x_dsk",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan",
+     "pos": "DE",
+     "team": "NYG",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 22.5,
+     "DINT": 0,
+     "TKL": 59,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 3798,
+   "text": "Most sacks in a season in the 2000s: Michael Strahan, 2001 — 22.5.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "x_dint",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0000741",
+     "name": "Ronde Barber"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0000741",
+     "name": "Ronde Barber",
+     "pos": "FS",
+     "team": "TB",
+     "season": 2001,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 1,
+     "DINT": 10,
+     "TKL": 63,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 2482,
+   "text": "Most interceptions in a season in the 2000s: Ronde Barber, 2001 — 10.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ball-hawk seasons are the defensive-back debate starter."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "x_cpct_low",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0022803",
+     "name": "Eli Manning"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0022803",
+     "name": "Eli Manning",
+     "pos": "QB",
+     "team": "NYG",
+     "season": 2005,
+     "G": 16,
+     "CMP": 294,
+     "ATT": 558,
+     "PY": 3762,
+     "PTD": 24,
+     "INT": 17,
+     "CAR": 30,
+     "RY": 80,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 161,
+   "text": "Lowest completion percentage by a 3,000-yard passer in the 2000s: Eli Manning, 2005 — 52.7%.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Accuracy stats let older passers be compared with modern ones."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "x_ypc_1000",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0020245",
+     "name": "Mike Vick"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020245",
+     "name": "Mike Vick",
+     "pos": "QB",
+     "team": "ATL",
+     "season": 2006,
+     "G": 16,
+     "CMP": 205,
+     "ATT": 389,
+     "PY": 2474,
+     "PTD": 20,
+     "INT": 13,
+     "CAR": 123,
+     "RY": 1039,
+     "RTD": 2,
+     "REC": 1,
+     "RECY": 1,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 178,
+   "text": "Best yards per carry by a 1,000-yard rusher in the 2000s: Mike Vick, 2006 — 8.4 on 123 carries.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Big-play running efficiency starts debates about who was really best."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "x_sk",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0020608",
+     "name": "David Carr"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020608",
+     "name": "David Carr",
+     "pos": "QB",
+     "team": "HOU",
+     "season": 2002,
+     "G": 16,
+     "CMP": 233,
+     "ATT": 444,
+     "PY": 2592,
+     "PTD": 9,
+     "INT": 15,
+     "CAR": 59,
+     "RY": 282,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1055,
+   "text": "Most times sacked in a season in the 2000s: David Carr, 2002 — 76.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Sacks taken shows who got hit, a sympathy and blame angle at once."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "x_te_rec",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0006101",
+     "name": "Tony Gonzalez"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0006101",
+     "name": "Tony Gonzalez",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 102,
+     "RECY": 1258,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1057,
+   "text": "Most receiving yards by a tight end in a season in the 2000s: Tony Gonzalez, 2004 — 1,258 on 102 catches.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Tight end production stands out when the position is compared across eras."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "x_fgl",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0020578",
+     "name": "Matt Bryant"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020578",
+     "name": "Matt Bryant",
+     "pos": "K",
+     "team": "TB",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 17,
+     "FGA": 22,
+     "FGL": 62
+    }
+   ],
+   "among": 387,
+   "text": "Longest field goal of the 2000s: 62 yards, Matt Bryant, 2006.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "x_scrim",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 358,
+     "RY": 2006,
+     "RTD": 14,
+     "REC": 50,
+     "RECY": 503,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 4965,
+   "text": "Most yards from scrimmage in a season in the 2000s: Chris Johnson, 2009 — 2,509.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scrimmage yards credit the do-everything back."
+  },
+  {
+   "n": 57,
+   "kind": "extreme",
+   "rule": "x_int_rate_low",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0023460",
+     "name": "Jason Campbell"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0023460",
+     "name": "Jason Campbell",
+     "pos": "QB",
+     "team": "WAS",
+     "season": 2008,
+     "G": 16,
+     "CMP": 315,
+     "ATT": 506,
+     "PY": 3245,
+     "PTD": 13,
+     "INT": 6,
+     "CAR": 47,
+     "RY": 258,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 196,
+   "text": "Lowest interception rate in a season (400+ attempts) in the 2000s: Jason Campbell, 2008 — 6 in 506 attempts.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Ball security at volume is the quiet case for an underrated passer."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "x_qb_ry",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0020245",
+     "name": "Mike Vick"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020245",
+     "name": "Mike Vick",
+     "pos": "QB",
+     "team": "ATL",
+     "season": 2006,
+     "G": 16,
+     "CMP": 205,
+     "ATT": 389,
+     "PY": 2474,
+     "PTD": 20,
+     "INT": 13,
+     "CAR": 123,
+     "RY": 1039,
+     "RTD": 2,
+     "REC": 1,
+     "RECY": 1,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 783,
+   "text": "Most rushing yards by a quarterback in a season in the 2000s: Mike Vick, 2006 — 1,039.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dual-threat quarterbacks are an evergreen debate."
+  },
+  {
+   "n": 59,
+   "kind": "extreme",
+   "rule": "x_fum",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0003292",
+     "name": "Kerry Collins"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0003292",
+     "name": "Kerry Collins",
+     "pos": "QB",
+     "team": "NYG",
+     "season": 2001,
+     "G": 16,
+     "CMP": 327,
+     "ATT": 568,
+     "PY": 3764,
+     "PTD": 19,
+     "INT": 16,
+     "CAR": 39,
+     "RY": 73,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": -2,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 3083,
+   "text": "Most fumbles in a season in the 2000s: Kerry Collins, 2001 — 23.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Ball-security failures are the stats fan bases never forget."
+  },
+  {
+   "n": 60,
+   "kind": "extreme",
+   "rule": "x_wr_ry",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs",
+     "pos": "WR",
+     "team": "CLE",
+     "season": 2009,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 4,
+     "PY": 18,
+     "PTD": 0,
+     "INT": 1,
+     "CAR": 55,
+     "RY": 381,
+     "RTD": 1,
+     "REC": 20,
+     "RECY": 135,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 9,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1903,
+   "text": "Most rushing yards by a wide receiver in a season in the 2000s: Josh Cribbs, 2009 — 381.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring volume plus efficiency is the complete-back case."
+  },
+  {
+   "n": 61,
+   "kind": "extreme",
+   "rule": "x_rb_recy",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0005779",
+     "name": "Charlie Garner"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0005779",
+     "name": "Charlie Garner",
+     "pos": "RB",
+     "team": "LV",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 182,
+     "RY": 962,
+     "RTD": 7,
+     "REC": 91,
+     "RECY": 941,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1407,
+   "text": "Most receiving yards by a running back in a season in the 2000s: Charlie Garner, 2002 — 941.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Pass-catching backs were ahead of their time; fans love the forerunners."
+  },
+  {
+   "n": 62,
+   "kind": "extreme",
+   "rule": "x_ptd_lowcmp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0004161",
+     "name": "Jake Delhomme"
+    }
+   ],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0004161",
+     "name": "Jake Delhomme",
+     "pos": "QB",
+     "team": "CAR",
+     "season": 2004,
+     "G": 16,
+     "CMP": 310,
+     "ATT": 533,
+     "PY": 3886,
+     "PTD": 29,
+     "INT": 15,
+     "CAR": 25,
+     "RY": 71,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 85,
+   "text": "Most touchdown passes by a sub-60% passer in the 2000s: Jake Delhomme, 2004 — 29 TD at 58.2%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 63,
+   "kind": "extreme",
+   "rule": "x_kry",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0008357",
+     "name": "MarTay Jenkins"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0008357",
+     "name": "MarTay Jenkins",
+     "pos": "WR",
+     "team": "ARI",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": -4,
+     "RTD": 0,
+     "REC": 17,
+     "RECY": 219,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 11,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 2170,
+   "text": "Most kickoff return yards in a season in the 2000s: MarTay Jenkins, 2000 — 2,166.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Return average shows the players who flipped field position."
+  },
+  {
+   "n": 64,
+   "kind": "extreme",
+   "rule": "x_tkl",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0025398",
+     "name": "Patrick Willis"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0025398",
+     "name": "Patrick Willis",
+     "pos": "ILB",
+     "team": "SF",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 4.5,
+     "DINT": 0,
+     "TKL": 159,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 13980,
+   "text": "Most tackles in a season in the 2000s: Patrick Willis, 2007 — 159.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Tackle totals put linebackers in the spotlight."
+  },
+  {
+   "n": 65,
+   "kind": "nearmiss",
+   "rule": "sk95",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan"
+    },
+    {
+     "id": "00-0018405",
+     "name": "Bryant Young"
+    },
+    {
+     "id": "00-0019694",
+     "name": "Corey Simon"
+    }
+   ],
+   "seasons": [
+    2000,
+    2000,
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan",
+     "pos": "DE",
+     "team": "NYG",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 53,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0018405",
+     "name": "Bryant Young",
+     "pos": "DT",
+     "team": "SF",
+     "season": 2000,
+     "G": 13,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 38,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019694",
+     "name": "Corey Simon",
+     "pos": "DT",
+     "team": "PHI",
+     "season": 2000,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 49,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0004470",
+     "name": "Hugh Douglas",
+     "pos": "DE",
+     "team": "PHI",
+     "season": 2001,
+     "G": 13,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 43,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0008603",
+     "name": "Raylee Johnson",
+     "pos": "DE",
+     "team": "LAC",
+     "season": 2001,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 34,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019246",
+     "name": "Adewale Ogunleye",
+     "pos": "DE",
+     "team": "MIA",
+     "season": 2002,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 37,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "20 player-seasons of the 2000s ended on 9.5 sacks, half a sack short of 10 — among them Michael Strahan (2000), Bryant Young (2000), Corey Simon (2000).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 66,
+   "kind": "nearmiss",
+   "rule": "recy999",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0021192",
+     "name": "Deion Branch"
+    },
+    {
+     "id": "00-0025410",
+     "name": "Dwayne Bowe"
+    },
+    {
+     "id": "00-0014489",
+     "name": "Bill Schroeder"
+    }
+   ],
+   "seasons": [
+    2005,
+    2007,
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0021192",
+     "name": "Deion Branch",
+     "pos": "WR",
+     "team": "NE",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 78,
+     "RECY": 998,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 5,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0025410",
+     "name": "Dwayne Bowe",
+     "pos": "WR",
+     "team": "KC",
+     "season": 2007,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 70,
+     "RECY": 995,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0014489",
+     "name": "Bill Schroeder",
+     "pos": "WR",
+     "team": "GB",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 11,
+     "RTD": 0,
+     "REC": 65,
+     "RECY": 999,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019703",
+     "name": "Jerry Porter",
+     "pos": "WR",
+     "team": "LV",
+     "season": 2004,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": -4,
+     "RTD": 0,
+     "REC": 64,
+     "RECY": 998,
+     "RECTD": 9,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "4 player-seasons of the 2000s ended on between 990 and 999 receiving yards, just shy of 1,000 — among them Deion Branch (2005), Dwayne Bowe (2007), Bill Schroeder (2000).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "t_recy",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0007681",
+     "name": "Torry Holt",
+     "total": 12594,
+     "seasons": 10
+    },
+    {
+     "id": "00-0011754",
+     "name": "Randy Moss",
+     "total": 11739,
+     "seasons": 10
+    },
+    {
+     "id": "00-0012478",
+     "name": "Terrell Owens",
+     "total": 11644,
+     "seasons": 10
+    },
+    {
+     "id": "00-0010500",
+     "name": "Derrick Mason",
+     "total": 10481,
+     "seasons": 10
+    },
+    {
+     "id": "00-0007024",
+     "name": "Marvin Harrison",
+     "total": 10439,
+     "seasons": 9
+    }
+   ],
+   "text": "Most receiving yards of the 2000s: Torry Holt, 12,594.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "t_dsk",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0016112",
+     "name": "Jason Taylor"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0016112",
+     "name": "Jason Taylor",
+     "total": 109,
+     "seasons": 10
+    },
+    {
+     "id": "00-0019546",
+     "name": "John Abraham",
+     "total": 90,
+     "seasons": 10
+    },
+    {
+     "id": "00-0013126",
+     "name": "Joey Porter",
+     "total": 89.5,
+     "seasons": 10
+    },
+    {
+     "id": "00-0015795",
+     "name": "Michael Strahan",
+     "total": 88.5,
+     "seasons": 8
+    },
+    {
+     "id": "00-0009978",
+     "name": "Leonard Little",
+     "total": 85.5,
+     "seasons": 10
+    }
+   ],
+   "text": "Most sacks of the 2000s: Jason Taylor, 109.",
+   "why": "A decade-long view that settles consistency debates."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "t_dint",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0014724",
+     "name": "Darren Sharper"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0014724",
+     "name": "Darren Sharper",
+     "total": 58,
+     "seasons": 10
+    },
+    {
+     "id": "00-0021377",
+     "name": "Ed Reed",
+     "total": 46,
+     "seasons": 8
+    },
+    {
+     "id": "00-0000585",
+     "name": "Champ Bailey",
+     "total": 41,
+     "seasons": 10
+    },
+    {
+     "id": "00-0001388",
+     "name": "Dre' Bly",
+     "total": 40,
+     "seasons": 10
+    },
+    {
+     "id": "00-0018227",
+     "name": "Charles Woodson",
+     "total": 39,
+     "seasons": 10
+    }
+   ],
+   "text": "Most interceptions of the 2000s: Darren Sharper, 58.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Ball-hawk seasons are the defensive-back debate starter."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "t_fgm",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0015784",
+     "name": "Matt Stover",
+     "total": 269,
+     "seasons": 10
+    },
+    {
+     "id": "00-0000108",
+     "name": "David Akers",
+     "total": 259,
+     "seasons": 10
+    },
+    {
+     "id": "00-0004811",
+     "name": "Jason Elam",
+     "total": 250,
+     "seasons": 10
+    },
+    {
+     "id": "00-0010072",
+     "name": "Ryan Longwell",
+     "total": 244,
+     "seasons": 10
+    },
+    {
+     "id": "00-0006800",
+     "name": "Jason Hanson",
+     "total": 233,
+     "seasons": 10
+    }
+   ],
+   "text": "Most field goals of the 2000s: Matt Stover, 269.",
+   "why": "A decade-long view that settles consistency debates. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_py4000_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 2
+    },
+    {
+     "season": 2001,
+     "count": 2
+    },
+    {
+     "season": 2002,
+     "count": 4
+    },
+    {
+     "season": 2003,
+     "count": 2
+    },
+    {
+     "season": 2004,
+     "count": 5
+    },
+    {
+     "season": 2005,
+     "count": 2
+    },
+    {
+     "season": 2006,
+     "count": 5
+    },
+    {
+     "season": 2007,
+     "count": 7
+    },
+    {
+     "season": 2008,
+     "count": 6
+    },
+    {
+     "season": 2009,
+     "count": 10
+    }
+   ],
+   "text": "2009 had 10 4,000-yard passers, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_py4000_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 2
+    },
+    {
+     "season": 2001,
+     "count": 2
+    },
+    {
+     "season": 2002,
+     "count": 4
+    },
+    {
+     "season": 2003,
+     "count": 2
+    },
+    {
+     "season": 2004,
+     "count": 5
+    },
+    {
+     "season": 2005,
+     "count": 2
+    },
+    {
+     "season": 2006,
+     "count": 5
+    },
+    {
+     "season": 2007,
+     "count": 7
+    },
+    {
+     "season": 2008,
+     "count": 6
+    },
+    {
+     "season": 2009,
+     "count": 10
+    }
+   ],
+   "text": "2000 had just 2 4,000-yard passers, the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_ry1000_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 23
+    },
+    {
+     "season": 2001,
+     "count": 15
+    },
+    {
+     "season": 2002,
+     "count": 17
+    },
+    {
+     "season": 2003,
+     "count": 18
+    },
+    {
+     "season": 2004,
+     "count": 18
+    },
+    {
+     "season": 2005,
+     "count": 16
+    },
+    {
+     "season": 2006,
+     "count": 23
+    },
+    {
+     "season": 2007,
+     "count": 17
+    },
+    {
+     "season": 2008,
+     "count": 16
+    },
+    {
+     "season": 2009,
+     "count": 15
+    }
+   ],
+   "text": "2000 had 23 1,000-yard rushers, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_ry1000_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 23
+    },
+    {
+     "season": 2001,
+     "count": 15
+    },
+    {
+     "season": 2002,
+     "count": 17
+    },
+    {
+     "season": 2003,
+     "count": 18
+    },
+    {
+     "season": 2004,
+     "count": 18
+    },
+    {
+     "season": 2005,
+     "count": 16
+    },
+    {
+     "season": 2006,
+     "count": 23
+    },
+    {
+     "season": 2007,
+     "count": 17
+    },
+    {
+     "season": 2008,
+     "count": 16
+    },
+    {
+     "season": 2009,
+     "count": 15
+    }
+   ],
+   "text": "2001 had just 15 1,000-yard rushers, the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_recy1000_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 18
+    },
+    {
+     "season": 2001,
+     "count": 25
+    },
+    {
+     "season": 2002,
+     "count": 22
+    },
+    {
+     "season": 2003,
+     "count": 14
+    },
+    {
+     "season": 2004,
+     "count": 24
+    },
+    {
+     "season": 2005,
+     "count": 20
+    },
+    {
+     "season": 2006,
+     "count": 19
+    },
+    {
+     "season": 2007,
+     "count": 23
+    },
+    {
+     "season": 2008,
+     "count": 22
+    },
+    {
+     "season": 2009,
+     "count": 23
+    }
+   ],
+   "text": "2001 had 25 1,000-yard receivers, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_recy1000_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 18
+    },
+    {
+     "season": 2001,
+     "count": 25
+    },
+    {
+     "season": 2002,
+     "count": 22
+    },
+    {
+     "season": 2003,
+     "count": 14
+    },
+    {
+     "season": 2004,
+     "count": 24
+    },
+    {
+     "season": 2005,
+     "count": 20
+    },
+    {
+     "season": 2006,
+     "count": 19
+    },
+    {
+     "season": 2007,
+     "count": 23
+    },
+    {
+     "season": 2008,
+     "count": 22
+    },
+    {
+     "season": 2009,
+     "count": 23
+    }
+   ],
+   "text": "2003 had just 14 1,000-yard receivers, the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_dsk10_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 21
+    },
+    {
+     "season": 2001,
+     "count": 16
+    },
+    {
+     "season": 2002,
+     "count": 16
+    },
+    {
+     "season": 2003,
+     "count": 15
+    },
+    {
+     "season": 2004,
+     "count": 16
+    },
+    {
+     "season": 2005,
+     "count": 15
+    },
+    {
+     "season": 2006,
+     "count": 17
+    },
+    {
+     "season": 2007,
+     "count": 15
+    },
+    {
+     "season": 2008,
+     "count": 12
+    },
+    {
+     "season": 2009,
+     "count": 13
+    }
+   ],
+   "text": "2000 had 21 10-sack players, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "c_dsk10_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 21
+    },
+    {
+     "season": 2001,
+     "count": 16
+    },
+    {
+     "season": 2002,
+     "count": 16
+    },
+    {
+     "season": 2003,
+     "count": 15
+    },
+    {
+     "season": 2004,
+     "count": 16
+    },
+    {
+     "season": 2005,
+     "count": 15
+    },
+    {
+     "season": 2006,
+     "count": 17
+    },
+    {
+     "season": 2007,
+     "count": 15
+    },
+    {
+     "season": 2008,
+     "count": 12
+    },
+    {
+     "season": 2009,
+     "count": 13
+    }
+   ],
+   "text": "2008 had just 12 10-sack players, the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_ptd30_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 3
+    },
+    {
+     "season": 2001,
+     "count": 3
+    },
+    {
+     "season": 2002,
+     "count": 0
+    },
+    {
+     "season": 2003,
+     "count": 1
+    },
+    {
+     "season": 2004,
+     "count": 4
+    },
+    {
+     "season": 2005,
+     "count": 1
+    },
+    {
+     "season": 2006,
+     "count": 1
+    },
+    {
+     "season": 2007,
+     "count": 4
+    },
+    {
+     "season": 2008,
+     "count": 3
+    },
+    {
+     "season": 2009,
+     "count": 4
+    }
+   ],
+   "text": "2004 had 4 30-touchdown passers, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_ptd30_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 3
+    },
+    {
+     "season": 2001,
+     "count": 3
+    },
+    {
+     "season": 2002,
+     "count": 0
+    },
+    {
+     "season": 2003,
+     "count": 1
+    },
+    {
+     "season": 2004,
+     "count": 4
+    },
+    {
+     "season": 2005,
+     "count": 1
+    },
+    {
+     "season": 2006,
+     "count": 1
+    },
+    {
+     "season": 2007,
+     "count": 4
+    },
+    {
+     "season": 2008,
+     "count": 3
+    },
+    {
+     "season": 2009,
+     "count": 4
+    }
+   ],
+   "text": "2002 had no 30-touchdown passers at all — the only season of the 2000s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_rectd10_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 5
+    },
+    {
+     "season": 2001,
+     "count": 4
+    },
+    {
+     "season": 2002,
+     "count": 4
+    },
+    {
+     "season": 2003,
+     "count": 9
+    },
+    {
+     "season": 2004,
+     "count": 11
+    },
+    {
+     "season": 2005,
+     "count": 8
+    },
+    {
+     "season": 2006,
+     "count": 5
+    },
+    {
+     "season": 2007,
+     "count": 11
+    },
+    {
+     "season": 2008,
+     "count": 7
+    },
+    {
+     "season": 2009,
+     "count": 9
+    }
+   ],
+   "text": "2004 had 11 10-touchdown receivers, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Touchdown catches are the red-zone threat stat."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_rectd10_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 5
+    },
+    {
+     "season": 2001,
+     "count": 4
+    },
+    {
+     "season": 2002,
+     "count": 4
+    },
+    {
+     "season": 2003,
+     "count": 9
+    },
+    {
+     "season": 2004,
+     "count": 11
+    },
+    {
+     "season": 2005,
+     "count": 8
+    },
+    {
+     "season": 2006,
+     "count": 5
+    },
+    {
+     "season": 2007,
+     "count": 11
+    },
+    {
+     "season": 2008,
+     "count": 7
+    },
+    {
+     "season": 2009,
+     "count": 9
+    }
+   ],
+   "text": "2001 had just 4 10-touchdown receivers, the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_rec100_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 4
+    },
+    {
+     "season": 2001,
+     "count": 6
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 4
+    },
+    {
+     "season": 2004,
+     "count": 1
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 1
+    },
+    {
+     "season": 2007,
+     "count": 6
+    },
+    {
+     "season": 2008,
+     "count": 3
+    },
+    {
+     "season": 2009,
+     "count": 6
+    }
+   ],
+   "text": "2001 had 6 100-catch players, the most of any season in the 2000s.",
+   "why": "Rewards staying power: the most such seasons in the 2000s. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 84,
+   "kind": "season",
+   "rule": "c_rec100_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2004
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 4
+    },
+    {
+     "season": 2001,
+     "count": 6
+    },
+    {
+     "season": 2002,
+     "count": 5
+    },
+    {
+     "season": 2003,
+     "count": 4
+    },
+    {
+     "season": 2004,
+     "count": 1
+    },
+    {
+     "season": 2005,
+     "count": 4
+    },
+    {
+     "season": 2006,
+     "count": 1
+    },
+    {
+     "season": 2007,
+     "count": 6
+    },
+    {
+     "season": 2008,
+     "count": 3
+    },
+    {
+     "season": 2009,
+     "count": 6
+    }
+   ],
+   "text": "2004 had just one 100-catch player, the fewest of any season in the 2000s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 85,
+   "kind": "nearmiss",
+   "rule": "ry999",
+   "group": "P",
+   "decade": "2000s",
+   "score": 4.5,
+   "players": [
+    {
+     "id": "00-0022840",
+     "name": "Julius Jones"
+    },
+    {
+     "id": "00-0022178",
+     "name": "Willis McGahee"
+    }
+   ],
+   "seasons": [
+    2005,
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0022840",
+     "name": "Julius Jones",
+     "pos": "RB",
+     "team": "DAL",
+     "season": 2005,
+     "G": 13,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 257,
+     "RY": 993,
+     "RTD": 5,
+     "REC": 35,
+     "RECY": 218,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0022178",
+     "name": "Willis McGahee",
+     "pos": "RB",
+     "team": "BUF",
+     "season": 2006,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 259,
+     "RY": 990,
+     "RTD": 6,
+     "REC": 18,
+     "RECY": 156,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "2 player-seasons of the 2000s ended on between 990 and 999 rushing yards, just shy of 1,000 — among them Julius Jones (2005), Willis McGahee (2006).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 86,
+   "kind": "nearmiss",
+   "rule": "rec99",
+   "group": "P",
+   "decade": "2000s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": "00-0006101",
+     "name": "Tony Gonzalez"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0006101",
+     "name": "Tony Gonzalez",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 99,
+     "RECY": 1172,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Exactly one player of the 2000s finished a season with exactly 99 catches, one short of 100: Tony Gonzalez (2007).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 87,
+   "rule": "car370",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0021976",
+     "name": "Larry Johnson",
+     "pos": "RB",
+     "team": "KC",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 416,
+     "RY": 1789,
+     "RTD": 17,
+     "REC": 41,
+     "RECY": 410,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0005883",
+     "name": "Eddie George",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 403,
+     "RY": 1509,
+     "RTD": 14,
+     "REC": 50,
+     "RECY": 453,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0017915",
+     "name": "Ricky Williams",
+     "pos": "RB",
+     "team": "MIA",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 392,
+     "RY": 1372,
+     "RTD": 9,
+     "REC": 50,
+     "RECY": 351,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019693",
+     "name": "Jamal Lewis",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 388,
+     "RY": 2063,
+     "RTD": 14,
+     "REC": 26,
+     "RECY": 205,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0008241",
+     "name": "Edgerrin James",
+     "pos": "RB",
+     "team": "IND",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 387,
+     "RY": 1709,
+     "RTD": 13,
+     "REC": 63,
+     "RECY": 594,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0017915",
+     "name": "Ricky Williams",
+     "pos": "RB",
+     "team": "MIA",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 383,
+     "RY": 1853,
+     "RTD": 16,
+     "REC": 47,
+     "RECY": 363,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.04,
+   "players": [
+    {
+     "id": "00-0021976",
+     "name": "Larry Johnson"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "9 players carried the ball 370 times in the 2000s (10 seasons). The most extreme: Larry Johnson, 2006 — 416 carries.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Carries show a workload that barely exists anymore."
+  },
+  {
+   "n": 88,
+   "rule": "rush1500",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019693",
+     "name": "Jamal Lewis",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 388,
+     "RY": 2063,
+     "RTD": 14,
+     "REC": 26,
+     "RECY": 205,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 358,
+     "RY": 2006,
+     "RTD": 14,
+     "REC": 50,
+     "RECY": 503,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0006305",
+     "name": "Ahman Green",
+     "pos": "RB",
+     "team": "GB",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 355,
+     "RY": 1883,
+     "RTD": 15,
+     "REC": 50,
+     "RECY": 367,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019647",
+     "name": "Shaun Alexander",
+     "pos": "RB",
+     "team": "SEA",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 370,
+     "RY": 1880,
+     "RTD": 27,
+     "REC": 15,
+     "RECY": 78,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0000745",
+     "name": "Tiki Barber",
+     "pos": "RB",
+     "team": "NYG",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 357,
+     "RY": 1860,
+     "RTD": 9,
+     "REC": 54,
+     "RECY": 530,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 5,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0017915",
+     "name": "Ricky Williams",
+     "pos": "RB",
+     "team": "MIA",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 383,
+     "RY": 1853,
+     "RTD": 16,
+     "REC": 47,
+     "RECY": 363,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 3.859583333333333,
+   "players": [
+    {
+     "id": "00-0019693",
+     "name": "Jamal Lewis"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "10 players rushed for 1,700 yards in the 2000s (11 seasons). The most extreme: Jamal Lewis, 2003 — 2,063 yds.",
+   "why": "Leads with the most extreme case, which carries the post. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 89,
+   "rule": "pd25",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0025401",
+     "name": "Darrelle Revis",
+     "pos": "DB",
+     "team": "NYJ",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 6,
+     "TKL": 44,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0016924",
+     "name": "Troy Vincent",
+     "pos": "S",
+     "team": "PHI",
+     "season": 2001,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 1.5,
+     "DINT": 3,
+     "TKL": 68,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0021186",
+     "name": "Sheldon Brown",
+     "pos": "CB",
+     "team": "PHI",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 1,
+     "DINT": 4,
+     "TKL": 56,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019645",
+     "name": "Deltha O'Neal",
+     "pos": "CB",
+     "team": "DEN",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 9,
+     "TKL": 61,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0026156",
+     "name": "Dominique Rodgers-Cromartie",
+     "pos": "CB",
+     "team": "ARI",
+     "season": 2009,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 6,
+     "TKL": 47,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 3.775,
+   "players": [
+    {
+     "id": "00-0025401",
+     "name": "Darrelle Revis"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "text": "5 players defended 25 passes in the 2000s. The most extreme: Darrelle Revis, 2009 — 31 passes defended.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Ball-hawk seasons are the defensive-back debate starter."
+  },
+  {
+   "n": 90,
+   "rule": "apy2500",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0010500",
+     "name": "Derrick Mason",
+     "pos": "WR",
+     "team": "TEN",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 1,
+     "RTD": 0,
+     "REC": 63,
+     "RECY": 895,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019600",
+     "name": "Michael L. Lewis",
+     "pos": "WR",
+     "team": "NO",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 15,
+     "RTD": 0,
+     "REC": 8,
+     "RECY": 200,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 14,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0024204",
+     "name": "Fred Jackson",
+     "pos": "RB",
+     "team": "BUF",
+     "season": 2009,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 27,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 238,
+     "RY": 1062,
+     "RTD": 2,
+     "REC": 46,
+     "RECY": 371,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs",
+     "pos": "WR",
+     "team": "CLE",
+     "season": 2009,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 4,
+     "PY": 18,
+     "PTD": 0,
+     "INT": 1,
+     "CAR": 55,
+     "RY": 381,
+     "RTD": 1,
+     "REC": 20,
+     "RECY": 135,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 9,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 358,
+     "RY": 2006,
+     "RTD": 14,
+     "REC": 50,
+     "RECY": 503,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 3.667,
+   "players": [
+    {
+     "id": "00-0010500",
+     "name": "Derrick Mason"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "5 players gained 2,500 all-purpose yards in the 2000s. The most extreme: Derrick Mason, 2000 — 2,668 all-purpose yds.",
+   "why": "Leads with the most extreme case, which carries the post. All-purpose yards credit the players who did everything."
+  },
+  {
+   "n": 91,
+   "rule": "scrim2000",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2009,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 358,
+     "RY": 2006,
+     "RTD": 14,
+     "REC": 50,
+     "RECY": 503,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0000745",
+     "name": "Tiki Barber",
+     "pos": "RB",
+     "team": "NYG",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 357,
+     "RY": 1860,
+     "RTD": 9,
+     "REC": 54,
+     "RECY": 530,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 5,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2003,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 21,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 313,
+     "RY": 1645,
+     "RTD": 13,
+     "REC": 100,
+     "RECY": 725,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0022736",
+     "name": "Steven Jackson",
+     "pos": "RB",
+     "team": "LA",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 346,
+     "RY": 1528,
+     "RTD": 13,
+     "REC": 90,
+     "RECY": 806,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2006,
+     "G": 16,
+     "CMP": 2,
+     "ATT": 3,
+     "PY": 20,
+     "PTD": 2,
+     "INT": 0,
+     "CAR": 349,
+     "RY": 1815,
+     "RTD": 28,
+     "REC": 56,
+     "RECY": 508,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0008241",
+     "name": "Edgerrin James",
+     "pos": "RB",
+     "team": "IND",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 387,
+     "RY": 1709,
+     "RTD": 13,
+     "REC": 63,
+     "RECY": 594,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 3.62725,
+   "players": [
+    {
+     "id": "00-0026164",
+     "name": "Chris Johnson"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "text": "15 players gained 2,000 yards from scrimmage in the 2000s (24 seasons). The most extreme: Chris Johnson, 2009 — 2,509 scrimmage yds.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Scrimmage yards credit the do-everything back."
+  },
+  {
+   "n": 92,
+   "rule": "fum12",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0003292",
+     "name": "Kerry Collins",
+     "pos": "QB",
+     "team": "NYG",
+     "season": 2001,
+     "G": 16,
+     "CMP": 327,
+     "ATT": 568,
+     "PY": 3764,
+     "PTD": 19,
+     "INT": 16,
+     "CAR": 39,
+     "RY": 73,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": -2,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0003739",
+     "name": "Daunte Culpepper",
+     "pos": "QB",
+     "team": "MIN",
+     "season": 2002,
+     "G": 16,
+     "CMP": 333,
+     "ATT": 549,
+     "PY": 3853,
+     "PTD": 18,
+     "INT": 23,
+     "CAR": 106,
+     "RY": 609,
+     "RTD": 10,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020608",
+     "name": "David Carr",
+     "pos": "QB",
+     "team": "HOU",
+     "season": 2002,
+     "G": 16,
+     "CMP": 233,
+     "ATT": 444,
+     "PY": 2592,
+     "PTD": 9,
+     "INT": 15,
+     "CAR": 59,
+     "RY": 282,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0009311",
+     "name": "Jon Kitna",
+     "pos": "QB",
+     "team": "SEA",
+     "season": 2000,
+     "G": 15,
+     "CMP": 259,
+     "ATT": 418,
+     "PY": 2658,
+     "PTD": 18,
+     "INT": 19,
+     "CAR": 48,
+     "RY": 127,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0001361",
+     "name": "Drew Bledsoe",
+     "pos": "QB",
+     "team": "DAL",
+     "season": 2005,
+     "G": 16,
+     "CMP": 300,
+     "ATT": 499,
+     "PY": 3639,
+     "PTD": 23,
+     "INT": 17,
+     "CAR": 34,
+     "RY": 50,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020608",
+     "name": "David Carr",
+     "pos": "QB",
+     "team": "HOU",
+     "season": 2005,
+     "G": 16,
+     "CMP": 256,
+     "ATT": 423,
+     "PY": 2488,
+     "PTD": 14,
+     "INT": 11,
+     "CAR": 56,
+     "RY": 308,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 51,
+   "kind": "list",
+   "score": 3.575,
+   "players": [
+    {
+     "id": "00-0003292",
+     "name": "Kerry Collins"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "32 players fumbled 12 times in the 2000s (51 seasons). The most extreme: Kerry Collins, 2001 — 23 fumbles.",
+   "why": "Leads with the most extreme case, which carries the post. Ball-security failures are the stats fan bases never forget."
+  },
+  {
+   "n": 93,
+   "rule": "kr1500",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0008357",
+     "name": "MarTay Jenkins",
+     "pos": "WR",
+     "team": "ARI",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": -4,
+     "RTD": 0,
+     "REC": 17,
+     "RECY": 219,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 11,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs",
+     "pos": "WR",
+     "team": "CLE",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 9,
+     "RY": 61,
+     "RTD": 0,
+     "REC": 3,
+     "RECY": 37,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 19,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019600",
+     "name": "Michael L. Lewis",
+     "pos": "WR",
+     "team": "NO",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 15,
+     "RTD": 0,
+     "REC": 8,
+     "RECY": 200,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 14,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023008",
+     "name": "Chris Carr",
+     "pos": "DB",
+     "team": "LV",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 1,
+     "TKL": 14,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0025442",
+     "name": "Josh Wilson",
+     "pos": "DB",
+     "team": "SEA",
+     "season": 2008,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 1,
+     "DINT": 4,
+     "TKL": 69,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023008",
+     "name": "Chris Carr",
+     "pos": "DB",
+     "team": "LV",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 8,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 21,
+   "kind": "list",
+   "score": 3.5415,
+   "players": [
+    {
+     "id": "00-0008357",
+     "name": "MarTay Jenkins"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "18 players gained 1,500 kickoff return yards in the 2000s (21 seasons). The most extreme: MarTay Jenkins, 2000 — 2,166 KR yds.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Return average shows the players who flipped field position."
+  },
+  {
+   "n": 94,
+   "rule": "rush1000_slow",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0005883",
+     "name": "Eddie George",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 403,
+     "RY": 1509,
+     "RTD": 14,
+     "REC": 50,
+     "RECY": 453,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0017915",
+     "name": "Ricky Williams",
+     "pos": "RB",
+     "team": "MIA",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 392,
+     "RY": 1372,
+     "RTD": 9,
+     "REC": 50,
+     "RECY": 351,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0001215",
+     "name": "Jerome Bettis",
+     "pos": "RB",
+     "team": "PIT",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 2,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 1,
+     "CAR": 355,
+     "RY": 1341,
+     "RTD": 8,
+     "REC": 13,
+     "RECY": 97,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0005883",
+     "name": "Eddie George",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 343,
+     "RY": 1165,
+     "RTD": 12,
+     "REC": 36,
+     "RECY": 255,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0015698",
+     "name": "James Stewart",
+     "pos": "RB",
+     "team": "DET",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 339,
+     "RY": 1184,
+     "RTD": 10,
+     "REC": 32,
+     "RECY": 287,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0008241",
+     "name": "Edgerrin James",
+     "pos": "RB",
+     "team": "ARI",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 337,
+     "RY": 1159,
+     "RTD": 6,
+     "REC": 38,
+     "RECY": 217,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 3.4101395781637716,
+   "players": [
+    {
+     "id": "00-0005883",
+     "name": "Eddie George"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "12 players rushed for 1,000 yards at under 3.8 a carry in the 2000s (15 seasons). The most extreme: Eddie George, 2000 — 1,509 yds, 3.74 ypc.",
+   "why": "Leads with the most extreme case, which carries the post. A thousand yards the hard way; debate bait about volume vs. efficiency."
+  },
+  {
+   "n": 95,
+   "rule": "fg_miss10",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0001980",
+     "name": "Kris Brown",
+     "pos": "K",
+     "team": "PIT",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 6,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 30,
+     "FGA": 44,
+     "FGL": 55
+    },
+    {
+     "id": "00-0021462",
+     "name": "Seth Marler",
+     "pos": "K",
+     "team": "JAX",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 20,
+     "FGA": 33,
+     "FGL": 53
+    },
+    {
+     "id": "00-0019310",
+     "name": "Rian Lindell",
+     "pos": "K",
+     "team": "SEA",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 20,
+     "FGA": 32,
+     "FGL": 54
+    },
+    {
+     "id": "00-0006662",
+     "name": "John Hall",
+     "pos": "K",
+     "team": "NYJ",
+     "season": 2000,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 21,
+     "FGA": 32,
+     "FGL": 51
+    },
+    {
+     "id": "00-0010072",
+     "name": "Ryan Longwell",
+     "pos": "K",
+     "team": "GB",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 20,
+     "FGA": 31,
+     "FGL": 54
+    },
+    {
+     "id": "00-0013699",
+     "name": "Wade Richey",
+     "pos": "K",
+     "team": "LAC",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 21,
+     "FGA": 32,
+     "FGL": 51
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 3.35,
+   "players": [
+    {
+     "id": "00-0001980",
+     "name": "Kris Brown"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "16 players miss 10 field goals in the 2000s (18 seasons). The most extreme: Kris Brown, 2001 — 30-44.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 96,
+   "rule": "int_over_td",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0009311",
+     "name": "Jon Kitna",
+     "pos": "QB",
+     "team": "CIN",
+     "season": 2001,
+     "G": 16,
+     "CMP": 313,
+     "ATT": 581,
+     "PY": 3216,
+     "PTD": 12,
+     "INT": 22,
+     "CAR": 27,
+     "RY": 73,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0005106",
+     "name": "Brett Favre",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2005,
+     "G": 16,
+     "CMP": 373,
+     "ATT": 608,
+     "PY": 3892,
+     "PTD": 20,
+     "INT": 29,
+     "CAR": 18,
+     "RY": 62,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0013042",
+     "name": "Jake Plummer",
+     "pos": "QB",
+     "team": "ARI",
+     "season": 2000,
+     "G": 14,
+     "CMP": 270,
+     "ATT": 475,
+     "PY": 2946,
+     "PTD": 13,
+     "INT": 21,
+     "CAR": 37,
+     "RY": 183,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020434",
+     "name": "Chris Weinke",
+     "pos": "QB",
+     "team": "CAR",
+     "season": 2001,
+     "G": 15,
+     "CMP": 293,
+     "ATT": 540,
+     "PY": 2931,
+     "PTD": 11,
+     "INT": 19,
+     "CAR": 37,
+     "RY": 128,
+     "RTD": 6,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0024218",
+     "name": "Vince Young",
+     "pos": "QB",
+     "team": "TEN",
+     "season": 2007,
+     "G": 15,
+     "CMP": 238,
+     "ATT": 382,
+     "PY": 2546,
+     "PTD": 9,
+     "INT": 17,
+     "CAR": 93,
+     "RY": 395,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0026898",
+     "name": "Mark Sanchez",
+     "pos": "QB",
+     "team": "NYJ",
+     "season": 2009,
+     "G": 15,
+     "CMP": 196,
+     "ATT": 363,
+     "PY": 2444,
+     "PTD": 12,
+     "INT": 20,
+     "CAR": 36,
+     "RY": 106,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 43,
+   "kind": "list",
+   "score": 3.25,
+   "players": [
+    {
+     "id": "00-0009311",
+     "name": "Jon Kitna"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "32 players threw more interceptions than touchdowns (350+ attempts) in the 2000s (43 seasons). The most extreme: Jon Kitna, 2001 — 12 TD, 22 INT.",
+   "why": "Leads with the most extreme case, which carries the post. The boom-or-bust gunslinger season: fans split on whether it was great or reckless."
+  },
+  {
+   "n": 97,
+   "rule": "int9",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0000741",
+     "name": "Ronde Barber",
+     "pos": "FS",
+     "team": "TB",
+     "season": 2001,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 1,
+     "DINT": 10,
+     "TKL": 63,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020329",
+     "name": "Anthony Henry",
+     "pos": "CB",
+     "team": "CLE",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 10,
+     "TKL": 50,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0009687",
+     "name": "Ty Law",
+     "pos": "CB",
+     "team": "NYJ",
+     "season": 2005,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 1,
+     "DINT": 10,
+     "TKL": 53,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019645",
+     "name": "Deltha O'Neal",
+     "pos": "CB",
+     "team": "CIN",
+     "season": 2005,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 10,
+     "TKL": 59,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0000585",
+     "name": "Champ Bailey",
+     "pos": "CB",
+     "team": "DEN",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 1,
+     "DINT": 10,
+     "TKL": 80,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0021956",
+     "name": "Asante Samuel",
+     "pos": "CB",
+     "team": "NE",
+     "season": 2006,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 10,
+     "TKL": 54,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 3.25,
+   "players": [
+    {
+     "id": "00-0000741",
+     "name": "Ronde Barber"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "14 players intercepted 9 passes in the 2000s (19 seasons). The most extreme: Ronde Barber, 2001 — 10 INT.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Turnover-heavy seasons are the most shared kind of chaos stat."
+  },
+  {
+   "n": 98,
+   "rule": "dtd3",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0002110",
+     "name": "Mark Brunell",
+     "pos": "QB",
+     "team": "JAX",
+     "season": 2001,
+     "G": 15,
+     "CMP": 289,
+     "ATT": 473,
+     "PY": 3309,
+     "PTD": 19,
+     "INT": 13,
+     "CAR": 39,
+     "RY": 224,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0002110",
+     "name": "Mark Brunell",
+     "pos": "QB",
+     "team": "TEN",
+     "season": 2002,
+     "G": 15,
+     "CMP": 245,
+     "ATT": 415,
+     "PY": 2788,
+     "PTD": 17,
+     "INT": 7,
+     "CAR": 43,
+     "RY": 207,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010240",
+     "name": "Stacey Mack",
+     "pos": "RB",
+     "team": "JAX",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 213,
+     "RY": 877,
+     "RTD": 9,
+     "REC": 23,
+     "RECY": 165,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0010240",
+     "name": "Stacey Mack",
+     "pos": "RB",
+     "team": "JAX",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 98,
+     "RY": 436,
+     "RTD": 9,
+     "REC": 11,
+     "RECY": 79,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0016098",
+     "name": "Fred Taylor",
+     "pos": "RB",
+     "team": "JAX",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 287,
+     "RY": 1314,
+     "RTD": 8,
+     "REC": 49,
+     "RECY": 408,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0015218",
+     "name": "Jimmy Smith",
+     "pos": "WR",
+     "team": "JAX",
+     "season": 2001,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": -3,
+     "RTD": 0,
+     "REC": 112,
+     "RECY": 1373,
+     "RECTD": 8,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 3.25,
+   "players": [
+    {
+     "id": "00-0002110",
+     "name": "Mark Brunell"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "12 players scored 3 defensive touchdowns in the 2000s (15 seasons). The most extreme: Mark Brunell, 2001 — 10 def TD.",
+   "why": "Leads with the most extreme case, which carries the post. Pick-sixes are the most exciting defensive play; totals get shared."
+  },
+  {
+   "n": 99,
+   "rule": "ff7",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0009978",
+     "name": "Leonard Little",
+     "pos": "DE",
+     "team": "LA",
+     "season": 2002,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 12,
+     "DINT": 0,
+     "TKL": 44,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0021146",
+     "name": "Dwight Freeney",
+     "pos": "DE",
+     "team": "IND",
+     "season": 2002,
+     "G": 13,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 13,
+     "DINT": 0,
+     "TKL": 43,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0016112",
+     "name": "Jason Taylor",
+     "pos": "OLB",
+     "team": "MIA",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 13.5,
+     "DINT": 2,
+     "TKL": 58,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0022059",
+     "name": "Robert Mathis",
+     "pos": "OLB",
+     "team": "IND",
+     "season": 2005,
+     "G": 13,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 11,
+     "DINT": 0,
+     "TKL": 51,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023614",
+     "name": "Chris Harris",
+     "pos": "DB",
+     "team": "CAR",
+     "season": 2007,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 1,
+     "TKL": 90,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0016112",
+     "name": "Jason Taylor",
+     "pos": "OLB",
+     "team": "MIA",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 18.5,
+     "DINT": 0,
+     "TKL": 61,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.225,
+   "players": [
+    {
+     "id": "00-0009978",
+     "name": "Leonard Little"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "8 players forced 7 fumbles in the 2000s (10 seasons). The most extreme: Leonard Little, 2002 — 9 forced fumbles.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Forced fumbles are the turnover-creating stat defenses brag about."
+  },
+  {
+   "n": 100,
+   "rule": "st_td3",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0024272",
+     "name": "Devin Hester",
+     "pos": "WR",
+     "team": "CHI",
+     "season": 2006,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 9,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0024272",
+     "name": "Devin Hester",
+     "pos": "WR",
+     "team": "CHI",
+     "season": 2007,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 7,
+     "RY": -10,
+     "RTD": 0,
+     "REC": 20,
+     "RECY": 299,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019539",
+     "name": "Dante Hall",
+     "pos": "WR",
+     "team": "KC",
+     "season": 2003,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 17,
+     "RY": 66,
+     "RTD": 0,
+     "REC": 40,
+     "RECY": 423,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0020692",
+     "name": "Eddie Drummond",
+     "pos": "WR",
+     "team": "DET",
+     "season": 2004,
+     "G": 11,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 9,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023176",
+     "name": "Josh Cribbs",
+     "pos": "WR",
+     "team": "CLE",
+     "season": 2009,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 4,
+     "PY": 18,
+     "PTD": 0,
+     "INT": 1,
+     "CAR": 55,
+     "RY": 381,
+     "RTD": 1,
+     "REC": 20,
+     "RECY": 135,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 9,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0018964",
+     "name": "Darrick Vaughn",
+     "pos": "DB",
+     "team": "ATL",
+     "season": 2000,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 12,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 3.15,
+   "players": [
+    {
+     "id": "00-0024272",
+     "name": "Devin Hester"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "13 players returned 3 kicks or punts for touchdowns in the 2000s (16 seasons). The most extreme: Devin Hester, 2006 — 6 return TD.",
+   "why": "Leads with the most extreme case, which carries the post. Return touchdowns are highlight-reel plays; multiples in a year are rare."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 17373,
+  "playoffPlayerSeasons": 4289
+ },
+ "method": [
+  "NFL 2000s onward: every player's regular-season and playoff totals for every season, from nflverse, which aggregates the NFL's own play-by-play (GSIS) data. Nothing recalled or estimated; the rows behind each line are stored with it.",
+  "Passer rating is computed with the NFL's formula. Attempt and catch floors are stated in the line. Positions are nflverse's listed position.",
+  "Team-mate lines are omitted: a season file credits a traded player's season to his most recent club."
+ ]
+}

@@ -1,0 +1,17 @@
+# SCFB100 — College Football 1960s p:ypa_hi
+
+- Source: Stathead / Baseball Reference, read from the rendered page in a signed-in browser
+- Page URL: https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&order_by=pass_yds_per_att&order_by_asc=0&ccomp[1]=gt&cval[1]=200&cstat[1]=pass_att&ccomp[2]=gt&cval[2]=10&cstat[2]=pass_yds_per_att
+- Timestamp: 2026-09-28T08:13:33.967Z
+- Rows read: 1
+
+## Result table
+
+```
+header_empty_0 | header_pass | header_empty_2 | ranker | name_display | pass_yds_per_att | pass_att | year_id | teams_played_for | games | pass_cmp | pass_att | pass_inc | pass_cmp_pct | pass_yds | pass_td | pass_int | pass_td_pct | pass_int_pct | pass_rating | pass_yds_per_att | pass_adj_yds_per_att | pass_yds_per_cmp | pass_yds_per_g | pos | class
+ |  |  | 1 | John Huarte | 10.1 | 205 | 1964 | Notre Dame | 10 | 114 | 205 | 91 | 55.6 | 2062 | 16 | 11 | 7.8 | 5.4 | 155.1 | 10.1 | 9.20 | 18.1 | 206.2 | QB | 
+```
+
+## Claim check
+
+- Complete set: all 1 rows read. A superlative may be asserted only if it holds across every row above.

@@ -1,0 +1,8784 @@
+{
+ "decade": "1920s",
+ "era": "old",
+ "thresholds": {
+  "hrBig": 25,
+  "hrHuge": 35,
+  "avgLow": 0.24,
+  "bbFew": 20,
+  "sbMany": 30,
+  "obpLow": 0.31,
+  "kFewHit": 15,
+  "kManyHit": 100,
+  "bbMany": 100,
+  "kMany": 150,
+  "kHuge": 200,
+  "wLow": 10,
+  "eraBad": 4,
+  "ipHuge": 900,
+  "kFewPit": 70,
+  "cgMany": 25,
+  "kPer9": 6.5,
+  "whip1": 1.05,
+  "sv": null,
+  "hbp": 12,
+  "kClose": null,
+  "hrTeam": 30,
+  "ageYoung": 22,
+  "ageOld": 36
+ },
+ "candidates": 125,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "workhorse_low_k",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      300
+     ],
+     [
+      "SO",
+      "lte",
+      70
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1921,
+     "id": 118494,
+     "name": "Carl Mays",
+     "team": "New York Yankees",
+     "age": 29,
+     "W": 27,
+     "L": 9,
+     "ERA": 3.05,
+     "IP": "336.2",
+     "SO": 70,
+     "BB": 76,
+     "SV": 7,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 1,
+     "HRA": 11,
+     "WHIP": 1.21
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 13,
+   "players": [
+    {
+     "id": 118494,
+     "name": "Carl Mays"
+    }
+   ],
+   "seasons": [
+    1921
+   ],
+   "text": "The only pitcher of the 1920s to throw 300 innings with 70 strikeouts or fewer: Carl Mays, 1921 — 336.2 IP, 70 K."
+  },
+  {
+   "n": 2,
+   "rule": "thirty_thirty",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "SB",
+      "gte",
+      30
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1922,
+     "id": 124321,
+     "name": "Ken Williams",
+     "team": "St. Louis Browns",
+     "age": 32,
+     "PA": 678,
+     "AVG": 0.332,
+     "OBP": 0.413,
+     "SLG": 0.627,
+     "OPS": 1.04,
+     "HR": 39,
+     "RBI": 155,
+     "R": 128,
+     "H": 194,
+     "2B": 34,
+     "3B": 11,
+     "SB": 37,
+     "CS": 20,
+     "BB": 74,
+     "SO": 31,
+     "HBP": 7,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.9,
+   "players": [
+    {
+     "id": 124321,
+     "name": "Ken Williams"
+    }
+   ],
+   "seasons": [
+    1922
+   ],
+   "text": "The only hitter of the 1920s to go 30-30: Ken Williams, 1922 — 39 HR, 37 SB."
+  },
+  {
+   "n": 3,
+   "rule": "five_tool",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "BA",
+      "gte",
+      0.3
+     ],
+     [
+      "HR",
+      "gte",
+      30
+     ],
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "SB",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1922,
+     "id": 124321,
+     "name": "Ken Williams",
+     "team": "St. Louis Browns",
+     "age": 32,
+     "PA": 678,
+     "AVG": 0.332,
+     "OBP": 0.413,
+     "SLG": 0.627,
+     "OPS": 1.04,
+     "HR": 39,
+     "RBI": 155,
+     "R": 128,
+     "H": 194,
+     "2B": 34,
+     "3B": 11,
+     "SB": 37,
+     "CS": 20,
+     "BB": 74,
+     "SO": 31,
+     "HBP": 7,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.9,
+   "players": [
+    {
+     "id": 124321,
+     "name": "Ken Williams"
+    }
+   ],
+   "seasons": [
+    1922
+   ],
+   "text": "The only hitter of the 1920s to bat .300 with 30 homers, 100 RBI and 20 steals: Ken Williams, 1922 — .332, 39 HR, 155 RBI, 37 SB."
+  },
+  {
+   "n": 4,
+   "rule": "old_power",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "ageMin": 36,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      25
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 124310,
+     "name": "Cy Williams",
+     "team": "Philadelphia Phillies",
+     "age": 39,
+     "PA": 570,
+     "AVG": 0.274,
+     "OBP": 0.365,
+     "SLG": 0.502,
+     "OPS": 0.867,
+     "HR": 30,
+     "RBI": 98,
+     "R": 86,
+     "H": 135,
+     "2B": 18,
+     "3B": 2,
+     "SB": 0,
+     "CS": null,
+     "BB": 61,
+     "SO": 57,
+     "HBP": 9,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.725,
+   "players": [
+    {
+     "id": 124310,
+     "name": "Cy Williams"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "text": "The only hitter of the 1920s to hit 25+ homers at age 36 or older: Cy Williams, 1927 — 30 HR at 39."
+  },
+  {
+   "n": 5,
+   "rule": "fifty_hr",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "HR",
+      "gte",
+      50
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 32,
+     "PA": 691,
+     "AVG": 0.356,
+     "OBP": 0.486,
+     "SLG": 0.772,
+     "OPS": 1.258,
+     "HR": 60,
+     "RBI": 164,
+     "R": 158,
+     "H": 192,
+     "2B": 29,
+     "3B": 8,
+     "SB": 7,
+     "CS": 6,
+     "BB": 137,
+     "SO": 89,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 26,
+     "PA": 693,
+     "AVG": 0.378,
+     "OBP": 0.512,
+     "SLG": 0.846,
+     "OPS": 1.358,
+     "HR": 59,
+     "RBI": 171,
+     "R": 177,
+     "H": 204,
+     "2B": 44,
+     "3B": 16,
+     "SB": 17,
+     "CS": 13,
+     "BB": 145,
+     "SO": 81,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1920,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 25,
+     "PA": 616,
+     "AVG": 0.376,
+     "OBP": 0.532,
+     "SLG": 0.847,
+     "OPS": 1.379,
+     "HR": 54,
+     "RBI": 137,
+     "R": 158,
+     "H": 172,
+     "2B": 36,
+     "3B": 9,
+     "SB": 14,
+     "CS": 14,
+     "BB": 150,
+     "SO": 80,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1928,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 33,
+     "PA": 684,
+     "AVG": 0.323,
+     "OBP": 0.463,
+     "SLG": 0.709,
+     "OPS": 1.172,
+     "HR": 54,
+     "RBI": 142,
+     "R": 163,
+     "H": 173,
+     "2B": 29,
+     "3B": 8,
+     "SB": 4,
+     "CS": 5,
+     "BB": 137,
+     "SO": 87,
+     "HBP": 3,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "only",
+   "score": 11.5,
+   "players": [
+    {
+     "id": 121578,
+     "name": "Babe Ruth"
+    }
+   ],
+   "seasons": [
+    1927,
+    1921,
+    1920,
+    1928
+   ],
+   "text": "The only hitter of the 1920s to hit 50 home runs was Babe Ruth — and he did it 4 times (1927: 60 HR; 1921: 59 HR; 1920: 54 HR; …)."
+  },
+  {
+   "n": 6,
+   "rule": "hits_200_bb_100",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      200
+     ],
+     [
+      "BB",
+      "gte",
+      100
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1923,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 28,
+     "PA": 699,
+     "AVG": 0.393,
+     "OBP": 0.545,
+     "SLG": 0.764,
+     "OPS": 1.309,
+     "HR": 41,
+     "RBI": 131,
+     "R": 151,
+     "H": 205,
+     "2B": 45,
+     "3B": 13,
+     "SB": 17,
+     "CS": 21,
+     "BB": 170,
+     "SO": 93,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 26,
+     "PA": 693,
+     "AVG": 0.378,
+     "OBP": 0.512,
+     "SLG": 0.846,
+     "OPS": 1.358,
+     "HR": 59,
+     "RBI": 171,
+     "R": 177,
+     "H": 204,
+     "2B": 44,
+     "3B": 16,
+     "SB": 17,
+     "CS": 13,
+     "BB": 145,
+     "SO": 81,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 29,
+     "PA": 681,
+     "AVG": 0.378,
+     "OBP": 0.513,
+     "SLG": 0.739,
+     "OPS": 1.252,
+     "HR": 46,
+     "RBI": 121,
+     "R": 143,
+     "H": 200,
+     "2B": 39,
+     "3B": 7,
+     "SB": 9,
+     "CS": 13,
+     "BB": 142,
+     "SO": 81,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 114680,
+     "name": "Lou Gehrig",
+     "team": "New York Yankees",
+     "age": 24,
+     "PA": 717,
+     "AVG": 0.373,
+     "OBP": 0.474,
+     "SLG": 0.765,
+     "OPS": 1.239,
+     "HR": 47,
+     "RBI": 175,
+     "R": 149,
+     "H": 218,
+     "2B": 52,
+     "3B": 18,
+     "SB": 10,
+     "CS": 8,
+     "BB": 109,
+     "SO": 84,
+     "HBP": 3,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 121578,
+     "name": "Babe Ruth"
+    },
+    {
+     "id": 114680,
+     "name": "Lou Gehrig"
+    }
+   ],
+   "seasons": [
+    1923,
+    1921,
+    1924,
+    1927
+   ],
+   "text": "Only two hitters of the 1920s got 200 hits and 100 walks: Babe Ruth (3×, best 1923: 205 H, 170 BB); Lou Gehrig (1927: 218 H, 109 BB)."
+  },
+  {
+   "n": 7,
+   "rule": "walks_many",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "BB",
+      "gte",
+      130
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 113103,
+     "name": "Dixie Davis",
+     "team": "St. Louis Browns",
+     "age": 29,
+     "W": 18,
+     "L": 12,
+     "ERA": 3.17,
+     "IP": "269.1",
+     "SO": 85,
+     "BB": 149,
+     "SV": 0,
+     "GS": 31,
+     "CG": 22,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 1.48
+    },
+    {
+     "season": 1925,
+     "id": 115201,
+     "name": "Lefty Grove",
+     "team": "Philadelphia Athletics",
+     "age": 25,
+     "W": 10,
+     "L": 12,
+     "ERA": 4.75,
+     "IP": "197.0",
+     "SO": 116,
+     "BB": 131,
+     "SV": 1,
+     "GS": 18,
+     "CG": 5,
+     "SHO": 0,
+     "HRA": 11,
+     "WHIP": 1.72
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 113103,
+     "name": "Dixie Davis"
+    },
+    {
+     "id": 115201,
+     "name": "Lefty Grove"
+    }
+   ],
+   "seasons": [
+    1920,
+    1925
+   ],
+   "text": "Only two pitchers of the 1920s walked 130+ batters: Dixie Davis (1920: 149 BB); Lefty Grove (1925: 131 BB)."
+  },
+  {
+   "n": 8,
+   "rule": "sb_perfect",
+   "group": "H",
+   "decade": 1920,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1922,
+     "id": 111989,
+     "name": "Max Carey",
+     "team": "Pittsburgh Pirates",
+     "age": 32,
+     "PA": 732,
+     "AVG": 0.329,
+     "OBP": 0.408,
+     "SLG": 0.459,
+     "OPS": 0.867,
+     "HR": 10,
+     "RBI": 70,
+     "R": 140,
+     "H": 207,
+     "2B": 28,
+     "3B": 12,
+     "SB": 51,
+     "CS": 2,
+     "BB": 80,
+     "SO": 26,
+     "HBP": 4,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.775,
+   "players": [
+    {
+     "id": 111989,
+     "name": "Max Carey"
+    }
+   ],
+   "seasons": [
+    1922
+   ],
+   "text": "The only hitter of the 1920s to steal 30+ bases while getting caught 3 times or fewer: Max Carey, 1922 — 51 SB, 2 CS."
+  },
+  {
+   "n": 9,
+   "rule": "walks_over_hits",
+   "group": "H",
+   "decade": 1920,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1929,
+     "id": 111020,
+     "name": "Max Bishop",
+     "team": "Philadelphia Athletics",
+     "age": 29,
+     "PA": 616,
+     "AVG": 0.232,
+     "OBP": 0.398,
+     "SLG": 0.316,
+     "OPS": 0.714,
+     "HR": 3,
+     "RBI": 36,
+     "R": 102,
+     "H": 110,
+     "2B": 19,
+     "3B": 6,
+     "SB": 1,
+     "CS": 4,
+     "BB": 128,
+     "SO": 44,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 111020,
+     "name": "Max Bishop",
+     "team": "Philadelphia Athletics",
+     "age": 26,
+     "PA": 529,
+     "AVG": 0.265,
+     "OBP": 0.431,
+     "SLG": 0.325,
+     "OPS": 0.756,
+     "HR": 0,
+     "RBI": 33,
+     "R": 77,
+     "H": 106,
+     "2B": 20,
+     "3B": 2,
+     "SB": 4,
+     "CS": 5,
+     "BB": 116,
+     "SO": 41,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 111020,
+     "name": "Max Bishop",
+     "team": "Philadelphia Athletics",
+     "age": 27,
+     "PA": 489,
+     "AVG": 0.277,
+     "OBP": 0.442,
+     "SLG": 0.323,
+     "OPS": 0.765,
+     "HR": 0,
+     "RBI": 22,
+     "R": 80,
+     "H": 103,
+     "2B": 15,
+     "3B": 1,
+     "SB": 8,
+     "CS": 6,
+     "BB": 105,
+     "SO": 28,
+     "HBP": 5,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "only",
+   "score": 10.45,
+   "players": [
+    {
+     "id": 111020,
+     "name": "Max Bishop"
+    }
+   ],
+   "seasons": [
+    1929,
+    1926,
+    1927
+   ],
+   "text": "The only hitter of the 1920s to draw more walks than hits (400+ PA) was Max Bishop — and he did it 3 times (1929: 128 BB, 110 H; 1926: 116 BB, 106 H; 1927: 105 BB, 103 H)."
+  },
+  {
+   "n": 10,
+   "rule": "shutouts",
+   "group": "P",
+   "decade": 1920,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 110044,
+     "name": "Babe Adams",
+     "team": "Pittsburgh Pirates",
+     "age": 38,
+     "W": 17,
+     "L": 13,
+     "ERA": 2.16,
+     "IP": "263.0",
+     "SO": 84,
+     "BB": 18,
+     "SV": 2,
+     "GS": 33,
+     "CG": 19,
+     "SHO": 8,
+     "HRA": 6,
+     "WHIP": 0.98
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.2,
+   "players": [
+    {
+     "id": 110044,
+     "name": "Babe Adams"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "The only pitcher of the 1920s to throw 8+ shutouts: Babe Adams, 1920 — 8 SHO."
+  },
+  {
+   "n": 11,
+   "rule": "sb_low_obp",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      400
+     ],
+     [
+      "SB",
+      "gte",
+      30
+     ],
+     [
+      "OBP",
+      "lte",
+      0.309
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1923,
+     "id": 115682,
+     "name": "Cliff Heathcote",
+     "team": "Chicago Cubs",
+     "age": 25,
+     "PA": 431,
+     "AVG": 0.249,
+     "OBP": 0.298,
+     "SLG": 0.308,
+     "OPS": 0.606,
+     "HR": 1,
+     "RBI": 27,
+     "R": 48,
+     "H": 98,
+     "2B": 14,
+     "3B": 3,
+     "SB": 32,
+     "CS": 17,
+     "BB": 25,
+     "SO": 22,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.055,
+   "players": [
+    {
+     "id": 115682,
+     "name": "Cliff Heathcote"
+    }
+   ],
+   "seasons": [
+    1923
+   ],
+   "text": "The only hitter of the 1920s to steal 30+ bases with an on-base under .310 (400+ PA): Cliff Heathcote, 1923 — 32 SB, .298 OBP."
+  },
+  {
+   "n": 12,
+   "rule": "slap_hitter",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.31
+     ],
+     [
+      "SLG",
+      "lte",
+      0.379
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1921,
+     "id": 110552,
+     "name": "Turner Barber",
+     "team": "Chicago Cubs",
+     "age": 27,
+     "PA": 513,
+     "AVG": 0.314,
+     "OBP": 0.379,
+     "SLG": 0.369,
+     "OPS": 0.748,
+     "HR": 1,
+     "RBI": 54,
+     "R": 73,
+     "H": 142,
+     "2B": 14,
+     "3B": 4,
+     "SB": 5,
+     "CS": 9,
+     "BB": 41,
+     "SO": 24,
+     "HBP": 6,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.001375,
+   "players": [
+    {
+     "id": 110552,
+     "name": "Turner Barber"
+    }
+   ],
+   "seasons": [
+    1921
+   ],
+   "text": "The only hitter of the 1920s to bat .310 while slugging under .380 (500+ PA): Turner Barber, 1921 — .314 AVG, .369 SLG."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "HR30",
+   "group": "H",
+   "decade": 1920,
+   "score": 9,
+   "players": [
+    {
+     "id": 121578,
+     "name": "Babe Ruth"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923,
+    1924,
+    1925,
+    1926,
+    1927,
+    1928,
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 25,
+     "PA": 616,
+     "AVG": 0.376,
+     "OBP": 0.532,
+     "SLG": 0.847,
+     "OPS": 1.379,
+     "HR": 54,
+     "RBI": 137,
+     "R": 158,
+     "H": 172,
+     "2B": 36,
+     "3B": 9,
+     "SB": 14,
+     "CS": 14,
+     "BB": 150,
+     "SO": 80,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 26,
+     "PA": 693,
+     "AVG": 0.378,
+     "OBP": 0.512,
+     "SLG": 0.846,
+     "OPS": 1.358,
+     "HR": 59,
+     "RBI": 171,
+     "R": 177,
+     "H": 204,
+     "2B": 44,
+     "3B": 16,
+     "SB": 17,
+     "CS": 13,
+     "BB": 145,
+     "SO": 81,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 27,
+     "PA": 495,
+     "AVG": 0.315,
+     "OBP": 0.434,
+     "SLG": 0.672,
+     "OPS": 1.106,
+     "HR": 35,
+     "RBI": 99,
+     "R": 94,
+     "H": 128,
+     "2B": 24,
+     "3B": 8,
+     "SB": 2,
+     "CS": 5,
+     "BB": 84,
+     "SO": 80,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1923,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 28,
+     "PA": 699,
+     "AVG": 0.393,
+     "OBP": 0.545,
+     "SLG": 0.764,
+     "OPS": 1.309,
+     "HR": 41,
+     "RBI": 131,
+     "R": 151,
+     "H": 205,
+     "2B": 45,
+     "3B": 13,
+     "SB": 17,
+     "CS": 21,
+     "BB": 170,
+     "SO": 93,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 29,
+     "PA": 681,
+     "AVG": 0.378,
+     "OBP": 0.513,
+     "SLG": 0.739,
+     "OPS": 1.252,
+     "HR": 46,
+     "RBI": 121,
+     "R": 143,
+     "H": 200,
+     "2B": 39,
+     "3B": 7,
+     "SB": 9,
+     "CS": 13,
+     "BB": 142,
+     "SO": 81,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 30,
+     "PA": 426,
+     "AVG": 0.29,
+     "OBP": 0.393,
+     "SLG": 0.543,
+     "OPS": 0.936,
+     "HR": 25,
+     "RBI": 66,
+     "R": 61,
+     "H": 104,
+     "2B": 12,
+     "3B": 2,
+     "SB": 2,
+     "CS": 4,
+     "BB": 59,
+     "SO": 68,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 31,
+     "PA": 652,
+     "AVG": 0.372,
+     "OBP": 0.516,
+     "SLG": 0.737,
+     "OPS": 1.253,
+     "HR": 47,
+     "RBI": 146,
+     "R": 139,
+     "H": 184,
+     "2B": 30,
+     "3B": 5,
+     "SB": 11,
+     "CS": 9,
+     "BB": 144,
+     "SO": 76,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 32,
+     "PA": 691,
+     "AVG": 0.356,
+     "OBP": 0.486,
+     "SLG": 0.772,
+     "OPS": 1.258,
+     "HR": 60,
+     "RBI": 164,
+     "R": 158,
+     "H": 192,
+     "2B": 29,
+     "3B": 8,
+     "SB": 7,
+     "CS": 6,
+     "BB": 137,
+     "SO": 89,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1928,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 33,
+     "PA": 684,
+     "AVG": 0.323,
+     "OBP": 0.463,
+     "SLG": 0.709,
+     "OPS": 1.172,
+     "HR": 54,
+     "RBI": 142,
+     "R": 163,
+     "H": 173,
+     "2B": 29,
+     "3B": 8,
+     "SB": 4,
+     "CS": 5,
+     "BB": 137,
+     "SO": 87,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 34,
+     "PA": 587,
+     "AVG": 0.345,
+     "OBP": 0.43,
+     "SLG": 0.697,
+     "OPS": 1.127,
+     "HR": 46,
+     "RBI": 154,
+     "R": 121,
+     "H": 172,
+     "2B": 26,
+     "3B": 6,
+     "SB": 5,
+     "CS": 3,
+     "BB": 72,
+     "SO": 60,
+     "HBP": 3,
+     "GIDP": 0
+    }
+   ],
+   "text": "Babe Ruth hit 25+ home runs in 10 straight seasons (1920-29), the longest run of the 1920s."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "RBI100",
+   "group": "H",
+   "decade": 1920,
+   "score": 9,
+   "players": [
+    {
+     "id": 115705,
+     "name": "Harry Heilmann"
+    }
+   ],
+   "seasons": [
+    1923,
+    1924,
+    1925,
+    1926,
+    1927,
+    1928,
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1923,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 28,
+     "PA": 626,
+     "AVG": 0.403,
+     "OBP": 0.481,
+     "SLG": 0.632,
+     "OPS": 1.113,
+     "HR": 18,
+     "RBI": 115,
+     "R": 121,
+     "H": 211,
+     "2B": 44,
+     "3B": 11,
+     "SB": 9,
+     "CS": 7,
+     "BB": 74,
+     "SO": 40,
+     "HBP": 5,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "PA": 678,
+     "AVG": 0.346,
+     "OBP": 0.428,
+     "SLG": 0.533,
+     "OPS": 0.961,
+     "HR": 10,
+     "RBI": 114,
+     "R": 107,
+     "H": 197,
+     "2B": 45,
+     "3B": 16,
+     "SB": 13,
+     "CS": 5,
+     "BB": 78,
+     "SO": 41,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "PA": 664,
+     "AVG": 0.393,
+     "OBP": 0.457,
+     "SLG": 0.569,
+     "OPS": 1.026,
+     "HR": 13,
+     "RBI": 134,
+     "R": 97,
+     "H": 225,
+     "2B": 40,
+     "3B": 11,
+     "SB": 6,
+     "CS": 6,
+     "BB": 67,
+     "SO": 27,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "PA": 598,
+     "AVG": 0.367,
+     "OBP": 0.445,
+     "SLG": 0.534,
+     "OPS": 0.979,
+     "HR": 9,
+     "RBI": 103,
+     "R": 90,
+     "H": 184,
+     "2B": 41,
+     "3B": 8,
+     "SB": 6,
+     "CS": 7,
+     "BB": 67,
+     "SO": 19,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 32,
+     "PA": 596,
+     "AVG": 0.398,
+     "OBP": 0.475,
+     "SLG": 0.616,
+     "OPS": 1.091,
+     "HR": 14,
+     "RBI": 120,
+     "R": 106,
+     "H": 201,
+     "2B": 50,
+     "3B": 9,
+     "SB": 11,
+     "CS": 5,
+     "BB": 72,
+     "SO": 16,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1928,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 33,
+     "PA": 633,
+     "AVG": 0.328,
+     "OBP": 0.39,
+     "SLG": 0.507,
+     "OPS": 0.897,
+     "HR": 14,
+     "RBI": 107,
+     "R": 83,
+     "H": 183,
+     "2B": 38,
+     "3B": 10,
+     "SB": 7,
+     "CS": 3,
+     "BB": 57,
+     "SO": 45,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 34,
+     "PA": 519,
+     "AVG": 0.344,
+     "OBP": 0.412,
+     "SLG": 0.565,
+     "OPS": 0.977,
+     "HR": 15,
+     "RBI": 120,
+     "R": 86,
+     "H": 156,
+     "2B": 41,
+     "3B": 7,
+     "SB": 5,
+     "CS": 6,
+     "BB": 50,
+     "SO": 39,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "text": "Harry Heilmann drove in 100+ runs in 7 straight seasons (1923-29), the longest run of the 1920s."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "AVG300",
+   "group": "H",
+   "decade": 1920,
+   "score": 9,
+   "players": [
+    {
+     "id": 115705,
+     "name": "Harry Heilmann"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923,
+    1924,
+    1925,
+    1926,
+    1927,
+    1928,
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "PA": 602,
+     "AVG": 0.309,
+     "OBP": 0.358,
+     "SLG": 0.429,
+     "OPS": 0.787,
+     "HR": 9,
+     "RBI": 89,
+     "R": 66,
+     "H": 168,
+     "2B": 28,
+     "3B": 5,
+     "SB": 3,
+     "CS": 7,
+     "BB": 39,
+     "SO": 32,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 26,
+     "PA": 672,
+     "AVG": 0.394,
+     "OBP": 0.444,
+     "SLG": 0.606,
+     "OPS": 1.05,
+     "HR": 19,
+     "RBI": 139,
+     "R": 114,
+     "H": 237,
+     "2B": 43,
+     "3B": 14,
+     "SB": 2,
+     "CS": 6,
+     "BB": 53,
+     "SO": 37,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 27,
+     "PA": 527,
+     "AVG": 0.356,
+     "OBP": 0.432,
+     "SLG": 0.598,
+     "OPS": 1.03,
+     "HR": 21,
+     "RBI": 92,
+     "R": 92,
+     "H": 162,
+     "2B": 27,
+     "3B": 10,
+     "SB": 8,
+     "CS": 4,
+     "BB": 58,
+     "SO": 28,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1923,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 28,
+     "PA": 626,
+     "AVG": 0.403,
+     "OBP": 0.481,
+     "SLG": 0.632,
+     "OPS": 1.113,
+     "HR": 18,
+     "RBI": 115,
+     "R": 121,
+     "H": 211,
+     "2B": 44,
+     "3B": 11,
+     "SB": 9,
+     "CS": 7,
+     "BB": 74,
+     "SO": 40,
+     "HBP": 5,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 29,
+     "PA": 678,
+     "AVG": 0.346,
+     "OBP": 0.428,
+     "SLG": 0.533,
+     "OPS": 0.961,
+     "HR": 10,
+     "RBI": 114,
+     "R": 107,
+     "H": 197,
+     "2B": 45,
+     "3B": 16,
+     "SB": 13,
+     "CS": 5,
+     "BB": 78,
+     "SO": 41,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "PA": 664,
+     "AVG": 0.393,
+     "OBP": 0.457,
+     "SLG": 0.569,
+     "OPS": 1.026,
+     "HR": 13,
+     "RBI": 134,
+     "R": 97,
+     "H": 225,
+     "2B": 40,
+     "3B": 11,
+     "SB": 6,
+     "CS": 6,
+     "BB": 67,
+     "SO": 27,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 31,
+     "PA": 598,
+     "AVG": 0.367,
+     "OBP": 0.445,
+     "SLG": 0.534,
+     "OPS": 0.979,
+     "HR": 9,
+     "RBI": 103,
+     "R": 90,
+     "H": 184,
+     "2B": 41,
+     "3B": 8,
+     "SB": 6,
+     "CS": 7,
+     "BB": 67,
+     "SO": 19,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 32,
+     "PA": 596,
+     "AVG": 0.398,
+     "OBP": 0.475,
+     "SLG": 0.616,
+     "OPS": 1.091,
+     "HR": 14,
+     "RBI": 120,
+     "R": 106,
+     "H": 201,
+     "2B": 50,
+     "3B": 9,
+     "SB": 11,
+     "CS": 5,
+     "BB": 72,
+     "SO": 16,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1928,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 33,
+     "PA": 633,
+     "AVG": 0.328,
+     "OBP": 0.39,
+     "SLG": 0.507,
+     "OPS": 0.897,
+     "HR": 14,
+     "RBI": 107,
+     "R": 83,
+     "H": 183,
+     "2B": 38,
+     "3B": 10,
+     "SB": 7,
+     "CS": 3,
+     "BB": 57,
+     "SO": 45,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 115705,
+     "name": "Harry Heilmann",
+     "team": "Detroit Tigers",
+     "age": 34,
+     "PA": 519,
+     "AVG": 0.344,
+     "OBP": 0.412,
+     "SLG": 0.565,
+     "OPS": 0.977,
+     "HR": 15,
+     "RBI": 120,
+     "R": 86,
+     "H": 156,
+     "2B": 41,
+     "3B": 7,
+     "SB": 5,
+     "CS": 6,
+     "BB": 50,
+     "SO": 39,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "text": "Harry Heilmann batted .300 or better (500+ PA) in 10 straight seasons (1920-29), the longest run of the 1920s."
+  },
+  {
+   "n": 16,
+   "rule": "wins_bad_era",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      20
+     ],
+     [
+      "ERA",
+      "gte",
+      4
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1922,
+     "id": 123550,
+     "name": "George Uhle",
+     "team": "Cleveland Indians",
+     "age": 23,
+     "W": 22,
+     "L": 16,
+     "ERA": 4.07,
+     "IP": "287.1",
+     "SO": 82,
+     "BB": 89,
+     "SV": 3,
+     "GS": 40,
+     "CG": 23,
+     "SHO": 5,
+     "HRA": 6,
+     "WHIP": 1.45
+    },
+    {
+     "season": 1926,
+     "id": 118890,
+     "name": "Lee Meadows",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "W": 20,
+     "L": 9,
+     "ERA": 4.01,
+     "IP": "226.2",
+     "SO": 54,
+     "BB": 52,
+     "SV": 0,
+     "GS": 31,
+     "CG": 15,
+     "SHO": 1,
+     "HRA": 10,
+     "WHIP": 1.35
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.65175,
+   "players": [
+    {
+     "id": 123550,
+     "name": "George Uhle"
+    },
+    {
+     "id": 118890,
+     "name": "Lee Meadows"
+    }
+   ],
+   "seasons": [
+    1922,
+    1926
+   ],
+   "text": "Only two pitchers of the 1920s won 20 games with an ERA of 4.00 or worse: George Uhle (1922: 22-16, 4.07 ERA); Lee Meadows (1926: 20-9, 4.01 ERA)."
+  },
+  {
+   "n": 17,
+   "rule": "runs_no_rbi",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "R",
+      "gte",
+      120
+     ],
+     [
+      "RBI",
+      "lte",
+      50
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 123904,
+     "name": "Lloyd Waner",
+     "team": "Pittsburgh Pirates",
+     "age": 21,
+     "PA": 683,
+     "AVG": 0.355,
+     "OBP": 0.396,
+     "SLG": 0.41,
+     "OPS": 0.806,
+     "HR": 2,
+     "RBI": 27,
+     "R": 133,
+     "H": 223,
+     "2B": 17,
+     "3B": 6,
+     "SB": 14,
+     "CS": null,
+     "BB": 37,
+     "SO": 23,
+     "HBP": 6,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 111118,
+     "name": "Lu Blue",
+     "team": "Detroit Tigers",
+     "age": 25,
+     "PA": 681,
+     "AVG": 0.3,
+     "OBP": 0.392,
+     "SLG": 0.414,
+     "OPS": 0.806,
+     "HR": 6,
+     "RBI": 45,
+     "R": 131,
+     "H": 175,
+     "2B": 31,
+     "3B": 9,
+     "SB": 8,
+     "CS": 5,
+     "BB": 82,
+     "SO": 48,
+     "HBP": 7,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 119450,
+     "name": "Johnny Mostil",
+     "team": "Chicago White Sox",
+     "age": 29,
+     "PA": 716,
+     "AVG": 0.299,
+     "OBP": 0.4,
+     "SLG": 0.421,
+     "OPS": 0.821,
+     "HR": 2,
+     "RBI": 50,
+     "R": 135,
+     "H": 181,
+     "2B": 36,
+     "3B": 16,
+     "SB": 43,
+     "CS": 20,
+     "BB": 90,
+     "SO": 52,
+     "HBP": 12,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 119450,
+     "name": "Johnny Mostil",
+     "team": "Chicago White Sox",
+     "age": 30,
+     "PA": 702,
+     "AVG": 0.328,
+     "OBP": 0.415,
+     "SLG": 0.467,
+     "OPS": 0.882,
+     "HR": 4,
+     "RBI": 42,
+     "R": 120,
+     "H": 197,
+     "2B": 41,
+     "3B": 15,
+     "SB": 35,
+     "CS": 14,
+     "BB": 79,
+     "SO": 55,
+     "HBP": 10,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 8.65,
+   "players": [
+    {
+     "id": 123904,
+     "name": "Lloyd Waner"
+    },
+    {
+     "id": 111118,
+     "name": "Lu Blue"
+    },
+    {
+     "id": 119450,
+     "name": "Johnny Mostil"
+    }
+   ],
+   "seasons": [
+    1927,
+    1922,
+    1925,
+    1926
+   ],
+   "text": "Just three hitters of the 1920s scored 120 runs with 50 RBI or fewer: Lloyd Waner (1927: 133 R, 27 RBI); Lu Blue (1922: 131 R, 45 RBI); Johnny Mostil (2×, best 1925: 135 R, 50 RBI)."
+  },
+  {
+   "n": 18,
+   "rule": "avg_no_walks",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ],
+     [
+      "BB",
+      "lte",
+      20
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 117579,
+     "name": "Freddy Leach",
+     "team": "Philadelphia Phillies",
+     "age": 28,
+     "PA": 522,
+     "AVG": 0.329,
+     "OBP": 0.352,
+     "SLG": 0.484,
+     "OPS": 0.836,
+     "HR": 11,
+     "RBI": 71,
+     "R": 73,
+     "H": 162,
+     "2B": 29,
+     "3B": 7,
+     "SB": 6,
+     "CS": null,
+     "BB": 16,
+     "SO": 33,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1920,
+     "id": 113601,
+     "name": "Joe Dugan",
+     "team": "Philadelphia Athletics",
+     "age": 23,
+     "PA": 521,
+     "AVG": 0.322,
+     "OBP": 0.351,
+     "SLG": 0.442,
+     "OPS": 0.793,
+     "HR": 3,
+     "RBI": 60,
+     "R": 65,
+     "H": 158,
+     "2B": 40,
+     "3B": 5,
+     "SB": 5,
+     "CS": 8,
+     "BB": 19,
+     "SO": 51,
+     "HBP": 3,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.4225,
+   "players": [
+    {
+     "id": 117579,
+     "name": "Freddy Leach"
+    },
+    {
+     "id": 113601,
+     "name": "Joe Dugan"
+    }
+   ],
+   "seasons": [
+    1926,
+    1920
+   ],
+   "text": "Only two hitters of the 1920s batted .320 or better with 20 walks or fewer (500+ PA): Freddy Leach (1926: .329, 16 BB); Joe Dugan (1920: .322, 19 BB)."
+  },
+  {
+   "n": 19,
+   "rule": "era_under_3_no_wins",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      2.99
+     ],
+     [
+      "W",
+      "lte",
+      7
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1924,
+     "id": 110882,
+     "name": "Rube Benton",
+     "team": "Cincinnati Reds",
+     "age": 34,
+     "W": 7,
+     "L": 9,
+     "ERA": 2.77,
+     "IP": "162.2",
+     "SO": 42,
+     "BB": 24,
+     "SV": 1,
+     "GS": 19,
+     "CG": 6,
+     "SHO": 1,
+     "HRA": 2,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1920,
+     "id": 121426,
+     "name": "Eddie Rommel",
+     "team": "Philadelphia Athletics",
+     "age": 22,
+     "W": 7,
+     "L": 7,
+     "ERA": 2.85,
+     "IP": "173.2",
+     "SO": 43,
+     "BB": 43,
+     "SV": 1,
+     "GS": 12,
+     "CG": 8,
+     "SHO": 2,
+     "HRA": 5,
+     "WHIP": 1.2
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.24425,
+   "players": [
+    {
+     "id": 110882,
+     "name": "Rube Benton"
+    },
+    {
+     "id": 121426,
+     "name": "Eddie Rommel"
+    }
+   ],
+   "seasons": [
+    1924,
+    1920
+   ],
+   "text": "Only two pitchers of the 1920s posted an ERA under 3.00 and won 7 or fewer (162+ IP): Rube Benton (1924: 2.77 ERA, 7-9); Eddie Rommel (1920: 2.85 ERA, 7-7)."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "SB40",
+   "group": "H",
+   "decade": 1920,
+   "score": 8,
+   "players": [
+    {
+     "id": 111989,
+     "name": "Max Carey"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923,
+    1924,
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 111989,
+     "name": "Max Carey",
+     "team": "Pittsburgh Pirates",
+     "age": 30,
+     "PA": 567,
+     "AVG": 0.289,
+     "OBP": 0.369,
+     "SLG": 0.348,
+     "OPS": 0.717,
+     "HR": 1,
+     "RBI": 35,
+     "R": 74,
+     "H": 140,
+     "2B": 18,
+     "3B": 4,
+     "SB": 52,
+     "CS": 10,
+     "BB": 59,
+     "SO": 31,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 111989,
+     "name": "Max Carey",
+     "team": "Pittsburgh Pirates",
+     "age": 31,
+     "PA": 625,
+     "AVG": 0.309,
+     "OBP": 0.395,
+     "SLG": 0.43,
+     "OPS": 0.825,
+     "HR": 7,
+     "RBI": 56,
+     "R": 85,
+     "H": 161,
+     "2B": 34,
+     "3B": 4,
+     "SB": 37,
+     "CS": 12,
+     "BB": 70,
+     "SO": 30,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 111989,
+     "name": "Max Carey",
+     "team": "Pittsburgh Pirates",
+     "age": 32,
+     "PA": 732,
+     "AVG": 0.329,
+     "OBP": 0.408,
+     "SLG": 0.459,
+     "OPS": 0.867,
+     "HR": 10,
+     "RBI": 70,
+     "R": 140,
+     "H": 207,
+     "2B": 28,
+     "3B": 12,
+     "SB": 51,
+     "CS": 2,
+     "BB": 80,
+     "SO": 26,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1923,
+     "id": 111989,
+     "name": "Max Carey",
+     "team": "Pittsburgh Pirates",
+     "age": 33,
+     "PA": 699,
+     "AVG": 0.308,
+     "OBP": 0.388,
+     "SLG": 0.452,
+     "OPS": 0.84,
+     "HR": 6,
+     "RBI": 63,
+     "R": 120,
+     "H": 188,
+     "2B": 32,
+     "3B": 19,
+     "SB": 51,
+     "CS": 8,
+     "BB": 73,
+     "SO": 28,
+     "HBP": 7,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 111989,
+     "name": "Max Carey",
+     "team": "Pittsburgh Pirates",
+     "age": 34,
+     "PA": 683,
+     "AVG": 0.297,
+     "OBP": 0.366,
+     "SLG": 0.417,
+     "OPS": 0.783,
+     "HR": 8,
+     "RBI": 55,
+     "R": 113,
+     "H": 178,
+     "2B": 30,
+     "3B": 9,
+     "SB": 49,
+     "CS": 13,
+     "BB": 58,
+     "SO": 17,
+     "HBP": 7,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 111989,
+     "name": "Max Carey",
+     "team": "Pittsburgh Pirates",
+     "age": 35,
+     "PA": 620,
+     "AVG": 0.343,
+     "OBP": 0.418,
+     "SLG": 0.491,
+     "OPS": 0.909,
+     "HR": 5,
+     "RBI": 44,
+     "R": 109,
+     "H": 186,
+     "2B": 39,
+     "3B": 13,
+     "SB": 46,
+     "CS": 11,
+     "BB": 66,
+     "SO": 19,
+     "HBP": 4,
+     "GIDP": 0
+    }
+   ],
+   "text": "Max Carey stole 30+ bases in 6 straight seasons (1920-25), the longest run of the 1920s."
+  },
+  {
+   "n": 21,
+   "rule": "doubles_no_hr",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "2B",
+      "gte",
+      45
+     ],
+     [
+      "HR",
+      "lte",
+      5
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 111746,
+     "name": "George Burns",
+     "team": "Cleveland Indians",
+     "age": 33,
+     "PA": 657,
+     "AVG": 0.358,
+     "OBP": 0.394,
+     "SLG": 0.494,
+     "OPS": 0.888,
+     "HR": 4,
+     "RBI": 114,
+     "R": 97,
+     "H": 216,
+     "2B": 64,
+     "3B": 3,
+     "SB": 13,
+     "CS": 7,
+     "BB": 28,
+     "SO": 33,
+     "HBP": 8,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 122566,
+     "name": "Tristram Speaker",
+     "team": "Cleveland Indians",
+     "age": 33,
+     "PA": 588,
+     "AVG": 0.362,
+     "OBP": 0.439,
+     "SLG": 0.538,
+     "OPS": 0.977,
+     "HR": 3,
+     "RBI": 75,
+     "R": 107,
+     "H": 183,
+     "2B": 52,
+     "3B": 14,
+     "SB": 2,
+     "CS": 4,
+     "BB": 68,
+     "SO": 12,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 111746,
+     "name": "George Burns",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "PA": 607,
+     "AVG": 0.319,
+     "OBP": 0.375,
+     "SLG": 0.435,
+     "OPS": 0.81,
+     "HR": 3,
+     "RBI": 78,
+     "R": 84,
+     "H": 175,
+     "2B": 51,
+     "3B": 2,
+     "SB": 13,
+     "CS": 11,
+     "BB": 42,
+     "SO": 27,
+     "HBP": 7,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 122023,
+     "name": "Joe Sewell",
+     "team": "Cleveland Indians",
+     "age": 28,
+     "PA": 652,
+     "AVG": 0.316,
+     "OBP": 0.382,
+     "SLG": 0.424,
+     "OPS": 0.806,
+     "HR": 1,
+     "RBI": 92,
+     "R": 83,
+     "H": 180,
+     "2B": 48,
+     "3B": 5,
+     "SB": 3,
+     "CS": 16,
+     "BB": 51,
+     "SO": 7,
+     "HBP": 9,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 122023,
+     "name": "Joe Sewell",
+     "team": "Cleveland Indians",
+     "age": 25,
+     "PA": 685,
+     "AVG": 0.316,
+     "OBP": 0.388,
+     "SLG": 0.429,
+     "OPS": 0.817,
+     "HR": 4,
+     "RBI": 106,
+     "R": 99,
+     "H": 188,
+     "2B": 45,
+     "3B": 5,
+     "SB": 3,
+     "CS": 3,
+     "BB": 67,
+     "SO": 13,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 116942,
+     "name": "George Kelly",
+     "team": "Cincinnati Reds",
+     "age": 33,
+     "PA": 632,
+     "AVG": 0.293,
+     "OBP": 0.332,
+     "SLG": 0.428,
+     "OPS": 0.76,
+     "HR": 5,
+     "RBI": 103,
+     "R": 73,
+     "H": 169,
+     "2B": 45,
+     "3B": 9,
+     "SB": 7,
+     "CS": null,
+     "BB": 33,
+     "SO": 61,
+     "HBP": 1,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 7.5,
+   "players": [
+    {
+     "id": 111746,
+     "name": "George Burns"
+    },
+    {
+     "id": 122566,
+     "name": "Tristram Speaker"
+    },
+    {
+     "id": 122023,
+     "name": "Joe Sewell"
+    },
+    {
+     "id": 116942,
+     "name": "George Kelly"
+    }
+   ],
+   "seasons": [
+    1926,
+    1921,
+    1927,
+    1927,
+    1924,
+    1929
+   ],
+   "text": "Just four hitters of the 1920s hit 45 doubles and 5 homers or fewer: George Burns (2×, best 1926: 64 2B, 4 HR); Tristram Speaker (1921: 52 2B, 3 HR); Joe Sewell (2×, best 1927: 48 2B, 1 HR); George Kelly (1929: 45 2B, 5 HR)."
+  },
+  {
+   "n": 22,
+   "kind": "streak",
+   "rule": "IP250",
+   "group": "P",
+   "decade": 1920,
+   "score": 7,
+   "players": [
+    {
+     "id": 115162,
+     "name": "Burleigh Grimes"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923,
+    1924
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 115162,
+     "name": "Burleigh Grimes",
+     "team": "Brooklyn Robins",
+     "age": 26,
+     "W": 23,
+     "L": 11,
+     "ERA": 2.22,
+     "IP": "303.2",
+     "SO": 131,
+     "BB": 67,
+     "SV": 2,
+     "GS": 33,
+     "CG": 25,
+     "SHO": 5,
+     "HRA": 5,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1921,
+     "id": 115162,
+     "name": "Burleigh Grimes",
+     "team": "Brooklyn Robins",
+     "age": 27,
+     "W": 22,
+     "L": 13,
+     "ERA": 2.83,
+     "IP": "302.1",
+     "SO": 136,
+     "BB": 76,
+     "SV": 0,
+     "GS": 35,
+     "CG": 30,
+     "SHO": 2,
+     "HRA": 6,
+     "WHIP": 1.29
+    },
+    {
+     "season": 1922,
+     "id": 115162,
+     "name": "Burleigh Grimes",
+     "team": "Brooklyn Robins",
+     "age": 28,
+     "W": 17,
+     "L": 14,
+     "ERA": 4.76,
+     "IP": "259.0",
+     "SO": 99,
+     "BB": 84,
+     "SV": 1,
+     "GS": 34,
+     "CG": 18,
+     "SHO": 1,
+     "HRA": 17,
+     "WHIP": 1.58
+    },
+    {
+     "season": 1923,
+     "id": 115162,
+     "name": "Burleigh Grimes",
+     "team": "Brooklyn Robins",
+     "age": 29,
+     "W": 21,
+     "L": 18,
+     "ERA": 3.58,
+     "IP": "327.0",
+     "SO": 119,
+     "BB": 100,
+     "SV": 0,
+     "GS": 38,
+     "CG": 33,
+     "SHO": 2,
+     "HRA": 9,
+     "WHIP": 1.39
+    },
+    {
+     "season": 1924,
+     "id": 115162,
+     "name": "Burleigh Grimes",
+     "team": "Brooklyn Robins",
+     "age": 30,
+     "W": 22,
+     "L": 13,
+     "ERA": 3.82,
+     "IP": "310.2",
+     "SO": 135,
+     "BB": 91,
+     "SV": 1,
+     "GS": 36,
+     "CG": 30,
+     "SHO": 1,
+     "HRA": 15,
+     "WHIP": 1.42
+    }
+   ],
+   "text": "Burleigh Grimes threw 250+ innings in 5 straight seasons (1920-24), the longest run of the 1920s."
+  },
+  {
+   "n": 23,
+   "rule": "young_power",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "HR",
+      "gte",
+      25
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1929,
+     "id": 120117,
+     "name": "Mel Ott",
+     "team": "New York Giants",
+     "age": 20,
+     "PA": 674,
+     "AVG": 0.328,
+     "OBP": 0.449,
+     "SLG": 0.635,
+     "OPS": 1.084,
+     "HR": 42,
+     "RBI": 151,
+     "R": 138,
+     "H": 179,
+     "2B": 37,
+     "3B": 2,
+     "SB": 6,
+     "CS": null,
+     "BB": 113,
+     "SO": 38,
+     "HBP": 6,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 114367,
+     "name": "Jimmie Foxx",
+     "team": "Philadelphia Athletics",
+     "age": 21,
+     "PA": 638,
+     "AVG": 0.354,
+     "OBP": 0.463,
+     "SLG": 0.625,
+     "OPS": 1.088,
+     "HR": 33,
+     "RBI": 118,
+     "R": 123,
+     "H": 183,
+     "2B": 23,
+     "3B": 9,
+     "SB": 9,
+     "CS": 7,
+     "BB": 103,
+     "SO": 70,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 816676,
+     "name": "Willie Wells",
+     "team": "St. Louis Stars",
+     "age": 20,
+     "PA": 434,
+     "AVG": 0.365,
+     "OBP": 0.455,
+     "SLG": 0.69,
+     "OPS": 1.145,
+     "HR": 29,
+     "RBI": 105,
+     "R": 91,
+     "H": 133,
+     "2B": 21,
+     "3B": 5,
+     "SB": 13,
+     "CS": null,
+     "BB": 55,
+     "SO": 0,
+     "HBP": 5,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 816676,
+     "name": "Willie Wells",
+     "team": "2+ teams",
+     "age": 22,
+     "PA": 444,
+     "AVG": 0.361,
+     "OBP": 0.441,
+     "SLG": 0.67,
+     "OPS": 1.111,
+     "HR": 27,
+     "RBI": 121,
+     "R": 109,
+     "H": 137,
+     "2B": 24,
+     "3B": 6,
+     "SB": 32,
+     "CS": null,
+     "BB": 49,
+     "SO": 0,
+     "HBP": 5,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.55,
+   "players": [
+    {
+     "id": 120117,
+     "name": "Mel Ott"
+    },
+    {
+     "id": 114367,
+     "name": "Jimmie Foxx"
+    },
+    {
+     "id": 816676,
+     "name": "Willie Wells"
+    }
+   ],
+   "seasons": [
+    1929,
+    1929,
+    1927,
+    1929
+   ],
+   "text": "Just three hitters of the 1920s hit 25+ homers at age 22 or younger: Mel Ott (1929: 42 HR at 20); Jimmie Foxx (1929: 33 HR at 21); Willie Wells (2×, best 1927: 29 HR at 20)."
+  },
+  {
+   "n": 24,
+   "rule": "young_avg",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "ageMax": 22,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.33
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 123904,
+     "name": "Lloyd Waner",
+     "team": "Pittsburgh Pirates",
+     "age": 21,
+     "PA": 683,
+     "AVG": 0.355,
+     "OBP": 0.396,
+     "SLG": 0.41,
+     "OPS": 0.806,
+     "HR": 2,
+     "RBI": 27,
+     "R": 133,
+     "H": 223,
+     "2B": 17,
+     "3B": 6,
+     "SB": 14,
+     "CS": null,
+     "BB": 37,
+     "SO": 23,
+     "HBP": 6,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 114367,
+     "name": "Jimmie Foxx",
+     "team": "Philadelphia Athletics",
+     "age": 21,
+     "PA": 638,
+     "AVG": 0.354,
+     "OBP": 0.463,
+     "SLG": 0.625,
+     "OPS": 1.088,
+     "HR": 33,
+     "RBI": 118,
+     "R": 123,
+     "H": 183,
+     "2B": 23,
+     "3B": 9,
+     "SB": 9,
+     "CS": 7,
+     "BB": 103,
+     "SO": 70,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1928,
+     "id": 117793,
+     "name": "Freddie Lindstrom",
+     "team": "New York Giants",
+     "age": 22,
+     "PA": 687,
+     "AVG": 0.358,
+     "OBP": 0.383,
+     "SLG": 0.511,
+     "OPS": 0.894,
+     "HR": 14,
+     "RBI": 107,
+     "R": 99,
+     "H": 231,
+     "2B": 39,
+     "3B": 9,
+     "SB": 15,
+     "CS": null,
+     "BB": 25,
+     "SO": 21,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1928,
+     "id": 123904,
+     "name": "Lloyd Waner",
+     "team": "Pittsburgh Pirates",
+     "age": 22,
+     "PA": 720,
+     "AVG": 0.335,
+     "OBP": 0.377,
+     "SLG": 0.434,
+     "OPS": 0.811,
+     "HR": 5,
+     "RBI": 61,
+     "R": 121,
+     "H": 221,
+     "2B": 22,
+     "3B": 14,
+     "SB": 8,
+     "CS": null,
+     "BB": 40,
+     "SO": 13,
+     "HBP": 4,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.3625,
+   "players": [
+    {
+     "id": 123904,
+     "name": "Lloyd Waner"
+    },
+    {
+     "id": 114367,
+     "name": "Jimmie Foxx"
+    },
+    {
+     "id": 117793,
+     "name": "Freddie Lindstrom"
+    }
+   ],
+   "seasons": [
+    1927,
+    1929,
+    1928,
+    1928
+   ],
+   "text": "Just three hitters of the 1920s batted .330 at age 22 or younger (500+ PA): Lloyd Waner (2×, best 1927: .355 at 21); Jimmie Foxx (1929: .354 at 21); Freddie Lindstrom (1928: .358 at 22)."
+  },
+  {
+   "n": 25,
+   "rule": "sub_two",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      162
+     ],
+     [
+      "ERA",
+      "lte",
+      1.99
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 819488,
+     "name": "Bill Foster",
+     "team": "Chicago American Giants",
+     "age": 22,
+     "W": 13,
+     "L": 4,
+     "ERA": 1.8,
+     "IP": "174.2",
+     "SO": 111,
+     "BB": 56,
+     "SV": 1,
+     "GS": 17,
+     "CG": 12,
+     "SHO": 5,
+     "HRA": 4,
+     "WHIP": 0.98
+    },
+    {
+     "season": 1921,
+     "id": 492581,
+     "name": "Bullet Rogan",
+     "team": "Kansas City Monarchs",
+     "age": 27,
+     "W": 16,
+     "L": 8,
+     "ERA": 1.82,
+     "IP": "202.2",
+     "SO": 122,
+     "BB": 71,
+     "SV": 0,
+     "GS": 23,
+     "CG": 22,
+     "SHO": 3,
+     "HRA": 4,
+     "WHIP": 1.17
+    },
+    {
+     "season": 1920,
+     "id": 110127,
+     "name": "Grover Alexander",
+     "team": "Chicago Cubs",
+     "age": 33,
+     "W": 27,
+     "L": 14,
+     "ERA": 1.91,
+     "IP": "363.1",
+     "SO": 173,
+     "BB": 69,
+     "SV": 5,
+     "GS": 40,
+     "CG": 33,
+     "SHO": 7,
+     "HRA": 8,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1923,
+     "id": 118012,
+     "name": "Dolf Luque",
+     "team": "Cincinnati Reds",
+     "age": 32,
+     "W": 27,
+     "L": 8,
+     "ERA": 1.93,
+     "IP": "322.0",
+     "SO": 151,
+     "BB": 88,
+     "SV": 2,
+     "GS": 37,
+     "CG": 28,
+     "SHO": 6,
+     "HRA": 2,
+     "WHIP": 1.14
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.045,
+   "players": [
+    {
+     "id": 819488,
+     "name": "Bill Foster"
+    },
+    {
+     "id": 492581,
+     "name": "Bullet Rogan"
+    },
+    {
+     "id": 110127,
+     "name": "Grover Alexander"
+    },
+    {
+     "id": 118012,
+     "name": "Dolf Luque"
+    }
+   ],
+   "seasons": [
+    1926,
+    1921,
+    1920,
+    1923
+   ],
+   "text": "Just four pitchers of the 1920s posted an ERA under 2.00 (162+ IP): Bill Foster (1926: 1.80 ERA in 174.2 IP); Bullet Rogan (1921: 1.82 ERA in 202.2 IP); Grover Alexander (1920: 1.91 ERA in 363.1 IP); Dolf Luque (1923: 1.93 ERA in 322.0 IP)."
+  },
+  {
+   "n": 26,
+   "rule": "no_walks_winner",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ],
+     [
+      "BB",
+      "lte",
+      30
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 110044,
+     "name": "Babe Adams",
+     "team": "Pittsburgh Pirates",
+     "age": 38,
+     "W": 17,
+     "L": 13,
+     "ERA": 2.16,
+     "IP": "263.0",
+     "SO": 84,
+     "BB": 18,
+     "SV": 2,
+     "GS": 33,
+     "CG": 19,
+     "SHO": 8,
+     "HRA": 6,
+     "WHIP": 0.98
+    },
+    {
+     "season": 1925,
+     "id": 819836,
+     "name": "Roosevelt Davis",
+     "team": "St. Louis Stars",
+     "age": 20,
+     "W": 16,
+     "L": 6,
+     "ERA": 3.82,
+     "IP": "165.0",
+     "SO": 53,
+     "BB": 23,
+     "SV": 1,
+     "GS": 19,
+     "CG": 10,
+     "SHO": 1,
+     "HRA": 8,
+     "WHIP": 1.16
+    },
+    {
+     "season": 1923,
+     "id": 110127,
+     "name": "Grover Alexander",
+     "team": "Chicago Cubs",
+     "age": 36,
+     "W": 22,
+     "L": 12,
+     "ERA": 3.19,
+     "IP": "305.0",
+     "SO": 72,
+     "BB": 30,
+     "SV": 2,
+     "GS": 36,
+     "CG": 26,
+     "SHO": 3,
+     "HRA": 17,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1925,
+     "id": 110127,
+     "name": "Grover Alexander",
+     "team": "Chicago Cubs",
+     "age": 38,
+     "W": 15,
+     "L": 11,
+     "ERA": 3.39,
+     "IP": "236.0",
+     "SO": 63,
+     "BB": 29,
+     "SV": 0,
+     "GS": 30,
+     "CG": 20,
+     "SHO": 1,
+     "HRA": 14,
+     "WHIP": 1.27
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.025,
+   "players": [
+    {
+     "id": 110044,
+     "name": "Babe Adams"
+    },
+    {
+     "id": 819836,
+     "name": "Roosevelt Davis"
+    },
+    {
+     "id": 110127,
+     "name": "Grover Alexander"
+    }
+   ],
+   "seasons": [
+    1920,
+    1925,
+    1923,
+    1925
+   ],
+   "text": "Just three pitchers of the 1920s won 15 games walking 30 batters or fewer: Babe Adams (1920: 17-13, 18 BB); Roosevelt Davis (1925: 16-6, 23 BB); Grover Alexander (2×, best 1923: 22-12, 30 BB)."
+  },
+  {
+   "n": 27,
+   "rule": "zero_hr_full",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "PA",
+      "gte",
+      600
+     ],
+     [
+      "HR",
+      "lte",
+      0
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1922,
+     "id": 118276,
+     "name": "Rabbit Maranville",
+     "team": "Pittsburgh Pirates",
+     "age": 30,
+     "PA": 747,
+     "AVG": 0.295,
+     "OBP": 0.355,
+     "SLG": 0.378,
+     "OPS": 0.733,
+     "HR": 0,
+     "RBI": 63,
+     "R": 115,
+     "H": 198,
+     "2B": 26,
+     "3B": 15,
+     "SB": 24,
+     "CS": 13,
+     "BB": 61,
+     "SO": 43,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 123903,
+     "name": "Bill Wambsganss",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "PA": 731,
+     "AVG": 0.274,
+     "OBP": 0.334,
+     "SLG": 0.354,
+     "OPS": 0.688,
+     "HR": 0,
+     "RBI": 49,
+     "R": 93,
+     "H": 174,
+     "2B": 41,
+     "3B": 5,
+     "SB": 14,
+     "CS": 8,
+     "BB": 54,
+     "SO": 33,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1920,
+     "id": 114675,
+     "name": "Joe Gedeon",
+     "team": "St. Louis Browns",
+     "age": 26,
+     "PA": 713,
+     "AVG": 0.292,
+     "OBP": 0.355,
+     "SLG": 0.366,
+     "OPS": 0.721,
+     "HR": 0,
+     "RBI": 61,
+     "R": 95,
+     "H": 177,
+     "2B": 33,
+     "3B": 6,
+     "SB": 1,
+     "CS": 3,
+     "BB": 55,
+     "SO": 36,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1920,
+     "id": 122809,
+     "name": "Milt Stock",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 708,
+     "AVG": 0.319,
+     "OBP": 0.36,
+     "SLG": 0.382,
+     "OPS": 0.742,
+     "HR": 0,
+     "RBI": 76,
+     "R": 85,
+     "H": 204,
+     "2B": 28,
+     "3B": 6,
+     "SB": 15,
+     "CS": 17,
+     "BB": 40,
+     "SO": 27,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 110047,
+     "name": "Sparky Adams",
+     "team": "Chicago Cubs",
+     "age": 32,
+     "PA": 705,
+     "AVG": 0.292,
+     "OBP": 0.335,
+     "SLG": 0.34,
+     "OPS": 0.675,
+     "HR": 0,
+     "RBI": 49,
+     "R": 100,
+     "H": 189,
+     "2B": 17,
+     "3B": 7,
+     "SB": 26,
+     "CS": null,
+     "BB": 42,
+     "SO": 26,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1920,
+     "id": 124710,
+     "name": "Ralph Young",
+     "team": "Detroit Tigers",
+     "age": 30,
+     "PA": 703,
+     "AVG": 0.291,
+     "OBP": 0.382,
+     "SLG": 0.347,
+     "OPS": 0.729,
+     "HR": 0,
+     "RBI": 33,
+     "R": 84,
+     "H": 173,
+     "2B": 21,
+     "3B": 6,
+     "SB": 8,
+     "CS": 13,
+     "BB": 85,
+     "SO": 30,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 118276,
+     "name": "Rabbit Maranville"
+    }
+   ],
+   "seasons": [
+    1922
+   ],
+   "text": "16 hitters played a full season without a single home run (600+ PA) in the 1920s (20 seasons). The most extreme: Rabbit Maranville, 1922 — 0 HR in 747 PA."
+  },
+  {
+   "n": 28,
+   "rule": "rbi_no_hr",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      100
+     ],
+     [
+      "HR",
+      "lte",
+      8
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1928,
+     "id": 123446,
+     "name": "Pie Traynor",
+     "team": "Pittsburgh Pirates",
+     "age": 28,
+     "PA": 640,
+     "AVG": 0.337,
+     "OBP": 0.37,
+     "SLG": 0.462,
+     "OPS": 0.832,
+     "HR": 3,
+     "RBI": 124,
+     "R": 91,
+     "H": 192,
+     "2B": 38,
+     "3B": 12,
+     "SB": 12,
+     "CS": null,
+     "BB": 28,
+     "SO": 10,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 114617,
+     "name": "Larry Gardner",
+     "team": "Cleveland Indians",
+     "age": 35,
+     "PA": 686,
+     "AVG": 0.319,
+     "OBP": 0.391,
+     "SLG": 0.437,
+     "OPS": 0.828,
+     "HR": 3,
+     "RBI": 120,
+     "R": 101,
+     "H": 187,
+     "2B": 32,
+     "3B": 14,
+     "SB": 3,
+     "CS": 3,
+     "BB": 65,
+     "SO": 16,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1920,
+     "id": 114617,
+     "name": "Larry Gardner",
+     "team": "Cleveland Indians",
+     "age": 34,
+     "PA": 683,
+     "AVG": 0.31,
+     "OBP": 0.367,
+     "SLG": 0.414,
+     "OPS": 0.781,
+     "HR": 3,
+     "RBI": 118,
+     "R": 72,
+     "H": 185,
+     "2B": 31,
+     "3B": 11,
+     "SB": 3,
+     "CS": 20,
+     "BB": 53,
+     "SO": 25,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 110594,
+     "name": "Clyde Barnhart",
+     "team": "Pittsburgh Pirates",
+     "age": 29,
+     "PA": 617,
+     "AVG": 0.325,
+     "OBP": 0.391,
+     "SLG": 0.447,
+     "OPS": 0.838,
+     "HR": 4,
+     "RBI": 114,
+     "R": 85,
+     "H": 175,
+     "2B": 32,
+     "3B": 11,
+     "SB": 9,
+     "CS": 5,
+     "BB": 59,
+     "SO": 25,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 111746,
+     "name": "George Burns",
+     "team": "Cleveland Indians",
+     "age": 33,
+     "PA": 657,
+     "AVG": 0.358,
+     "OBP": 0.394,
+     "SLG": 0.494,
+     "OPS": 0.888,
+     "HR": 4,
+     "RBI": 114,
+     "R": 97,
+     "H": 216,
+     "2B": 64,
+     "3B": 3,
+     "SB": 13,
+     "CS": 7,
+     "BB": 28,
+     "SO": 33,
+     "HBP": 8,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 124218,
+     "name": "Pinky Whitney",
+     "team": "Philadelphia Phillies",
+     "age": 24,
+     "PA": 697,
+     "AVG": 0.327,
+     "OBP": 0.39,
+     "SLG": 0.482,
+     "OPS": 0.872,
+     "HR": 8,
+     "RBI": 115,
+     "R": 89,
+     "H": 200,
+     "2B": 43,
+     "3B": 14,
+     "SB": 7,
+     "CS": null,
+     "BB": 61,
+     "SO": 35,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 123446,
+     "name": "Pie Traynor"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "text": "20 hitters drove in 100 runs with 8 homers or fewer in the 1920s (25 seasons). The most extreme: Pie Traynor, 1928 — 124 RBI, 3 HR."
+  },
+  {
+   "n": 29,
+   "rule": "two_thirty_hits",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "H",
+      "gte",
+      230
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 122280,
+     "name": "George Sisler",
+     "team": "St. Louis Browns",
+     "age": 27,
+     "PA": 692,
+     "AVG": 0.407,
+     "OBP": 0.449,
+     "SLG": 0.632,
+     "OPS": 1.081,
+     "HR": 19,
+     "RBI": 122,
+     "R": 137,
+     "H": 257,
+     "2B": 49,
+     "3B": 18,
+     "SB": 42,
+     "CS": 17,
+     "BB": 46,
+     "SO": 19,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 119941,
+     "name": "Lefty O'Doul",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "PA": 731,
+     "AVG": 0.398,
+     "OBP": 0.465,
+     "SLG": 0.622,
+     "OPS": 1.087,
+     "HR": 32,
+     "RBI": 122,
+     "R": 152,
+     "H": 254,
+     "2B": 35,
+     "3B": 6,
+     "SB": 2,
+     "CS": null,
+     "BB": 76,
+     "SO": 19,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 122240,
+     "name": "Al Simmons",
+     "team": "Philadelphia Athletics",
+     "age": 23,
+     "PA": 696,
+     "AVG": 0.387,
+     "OBP": 0.419,
+     "SLG": 0.599,
+     "OPS": 1.018,
+     "HR": 24,
+     "RBI": 129,
+     "R": 122,
+     "H": 253,
+     "2B": 43,
+     "3B": 12,
+     "SB": 7,
+     "CS": 14,
+     "BB": 35,
+     "SO": 41,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 116156,
+     "name": "Rogers Hornsby",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 704,
+     "AVG": 0.401,
+     "OBP": 0.459,
+     "SLG": 0.722,
+     "OPS": 1.181,
+     "HR": 42,
+     "RBI": 152,
+     "R": 141,
+     "H": 250,
+     "2B": 46,
+     "3B": 14,
+     "SB": 17,
+     "CS": 12,
+     "BB": 65,
+     "SO": 50,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 122280,
+     "name": "George Sisler",
+     "team": "St. Louis Browns",
+     "age": 29,
+     "PA": 654,
+     "AVG": 0.42,
+     "OBP": 0.467,
+     "SLG": 0.594,
+     "OPS": 1.061,
+     "HR": 8,
+     "RBI": 105,
+     "R": 134,
+     "H": 246,
+     "2B": 42,
+     "3B": 18,
+     "SB": 51,
+     "CS": 19,
+     "BB": 49,
+     "SO": 14,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1928,
+     "id": 118265,
+     "name": "Heinie Manush",
+     "team": "St. Louis Browns",
+     "age": 26,
+     "PA": 697,
+     "AVG": 0.378,
+     "OBP": 0.414,
+     "SLG": 0.575,
+     "OPS": 0.989,
+     "HR": 13,
+     "RBI": 108,
+     "R": 104,
+     "H": 241,
+     "2B": 47,
+     "3B": 20,
+     "SB": 17,
+     "CS": 5,
+     "BB": 39,
+     "SO": 14,
+     "HBP": 0,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 122280,
+     "name": "George Sisler"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "11 hitters collected 230 hits in the 1920s (13 seasons). The most extreme: George Sisler, 1920 — 257 H."
+  },
+  {
+   "n": 30,
+   "rule": "one_fifty_rbi",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "filters": [
+     [
+      "RBI",
+      "gte",
+      150
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 114680,
+     "name": "Lou Gehrig",
+     "team": "New York Yankees",
+     "age": 24,
+     "PA": 717,
+     "AVG": 0.373,
+     "OBP": 0.474,
+     "SLG": 0.765,
+     "OPS": 1.239,
+     "HR": 47,
+     "RBI": 175,
+     "R": 149,
+     "H": 218,
+     "2B": 52,
+     "3B": 18,
+     "SB": 10,
+     "CS": 8,
+     "BB": 109,
+     "SO": 84,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 26,
+     "PA": 693,
+     "AVG": 0.378,
+     "OBP": 0.512,
+     "SLG": 0.846,
+     "OPS": 1.358,
+     "HR": 59,
+     "RBI": 171,
+     "R": 177,
+     "H": 204,
+     "2B": 44,
+     "3B": 16,
+     "SB": 17,
+     "CS": 13,
+     "BB": 145,
+     "SO": 81,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 121578,
+     "name": "Babe Ruth",
+     "team": "New York Yankees",
+     "age": 32,
+     "PA": 691,
+     "AVG": 0.356,
+     "OBP": 0.486,
+     "SLG": 0.772,
+     "OPS": 1.258,
+     "HR": 60,
+     "RBI": 164,
+     "R": 158,
+     "H": 192,
+     "2B": 29,
+     "3B": 8,
+     "SB": 7,
+     "CS": 6,
+     "BB": 137,
+     "SO": 89,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 124412,
+     "name": "Hack Wilson",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 670,
+     "AVG": 0.345,
+     "OBP": 0.425,
+     "SLG": 0.618,
+     "OPS": 1.043,
+     "HR": 39,
+     "RBI": 159,
+     "R": 135,
+     "H": 198,
+     "2B": 30,
+     "3B": 5,
+     "SB": 3,
+     "CS": null,
+     "BB": 78,
+     "SO": 83,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 122240,
+     "name": "Al Simmons",
+     "team": "Philadelphia Athletics",
+     "age": 27,
+     "PA": 629,
+     "AVG": 0.365,
+     "OBP": 0.398,
+     "SLG": 0.642,
+     "OPS": 1.04,
+     "HR": 34,
+     "RBI": 157,
+     "R": 114,
+     "H": 212,
+     "2B": 41,
+     "3B": 9,
+     "SB": 4,
+     "CS": 2,
+     "BB": 31,
+     "SO": 38,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 124321,
+     "name": "Ken Williams",
+     "team": "St. Louis Browns",
+     "age": 32,
+     "PA": 678,
+     "AVG": 0.332,
+     "OBP": 0.413,
+     "SLG": 0.627,
+     "OPS": 1.04,
+     "HR": 39,
+     "RBI": 155,
+     "R": 128,
+     "H": 194,
+     "2B": 34,
+     "3B": 11,
+     "SB": 37,
+     "CS": 20,
+     "BB": 74,
+     "SO": 31,
+     "HBP": 7,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 114680,
+     "name": "Lou Gehrig"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "text": "7 hitters drove in 150 runs in the 1920s (9 seasons). The most extreme: Lou Gehrig, 1927 — 175 RBI."
+  },
+  {
+   "n": 31,
+   "rule": "three_hundred_ip",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "IP",
+      "gte",
+      300
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 110127,
+     "name": "Grover Alexander",
+     "team": "Chicago Cubs",
+     "age": 33,
+     "W": 27,
+     "L": 14,
+     "ERA": 1.91,
+     "IP": "363.1",
+     "SO": 173,
+     "BB": 69,
+     "SV": 5,
+     "GS": 40,
+     "CG": 33,
+     "SHO": 7,
+     "HRA": 8,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1923,
+     "id": 123550,
+     "name": "George Uhle",
+     "team": "Cleveland Indians",
+     "age": 24,
+     "W": 26,
+     "L": 16,
+     "ERA": 3.77,
+     "IP": "357.2",
+     "SO": 109,
+     "BB": 102,
+     "SV": 5,
+     "GS": 44,
+     "CG": 29,
+     "SHO": 1,
+     "HRA": 8,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1922,
+     "id": 113965,
+     "name": "Red Faber",
+     "team": "Chicago White Sox",
+     "age": 33,
+     "W": 21,
+     "L": 17,
+     "ERA": 2.81,
+     "IP": "352.0",
+     "SO": 148,
+     "BB": 83,
+     "SV": 2,
+     "GS": 38,
+     "CG": 31,
+     "SHO": 4,
+     "HRA": 10,
+     "WHIP": 1.18
+    },
+    {
+     "season": 1922,
+     "id": 122176,
+     "name": "Urban Shocker",
+     "team": "St. Louis Browns",
+     "age": 31,
+     "W": 24,
+     "L": 17,
+     "ERA": 2.97,
+     "IP": "348.0",
+     "SO": 149,
+     "BB": 57,
+     "SV": 3,
+     "GS": 38,
+     "CG": 29,
+     "SHO": 2,
+     "HRA": 22,
+     "WHIP": 1.21
+    },
+    {
+     "season": 1920,
+     "id": 110431,
+     "name": "Jim Bagby Sr.",
+     "team": "Cleveland Indians",
+     "age": 30,
+     "W": 31,
+     "L": 12,
+     "ERA": 2.89,
+     "IP": "339.2",
+     "SO": 73,
+     "BB": 79,
+     "SV": 0,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 3,
+     "HRA": 9,
+     "WHIP": 1.23
+    },
+    {
+     "season": 1921,
+     "id": 118494,
+     "name": "Carl Mays",
+     "team": "New York Yankees",
+     "age": 29,
+     "W": 27,
+     "L": 9,
+     "ERA": 3.05,
+     "IP": "336.2",
+     "SO": 70,
+     "BB": 76,
+     "SV": 7,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 1,
+     "HRA": 11,
+     "WHIP": 1.21
+    }
+   ],
+   "seasonsMatched": 44,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 110127,
+     "name": "Grover Alexander"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "27 pitchers threw 300 innings in the 1920s (44 seasons). The most extreme: Grover Alexander, 1920 — 363.1 IP."
+  },
+  {
+   "n": 32,
+   "rule": "young_ace",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMax": 22,
+    "filters": [
+     [
+      "W",
+      "gte",
+      18
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1929,
+     "id": 114087,
+     "name": "Wes Ferrell",
+     "team": "Cleveland Indians",
+     "age": 21,
+     "W": 21,
+     "L": 10,
+     "ERA": 3.6,
+     "IP": "242.2",
+     "SO": 100,
+     "BB": 109,
+     "SV": 5,
+     "GS": 25,
+     "CG": 18,
+     "SHO": 1,
+     "HRA": 7,
+     "WHIP": 1.5
+    },
+    {
+     "season": 1923,
+     "id": 113455,
+     "name": "Pete Donohue",
+     "team": "Cincinnati Reds",
+     "age": 22,
+     "W": 21,
+     "L": 15,
+     "ERA": 3.38,
+     "IP": "274.1",
+     "SO": 84,
+     "BB": 68,
+     "SV": 3,
+     "GS": 36,
+     "CG": 19,
+     "SHO": 2,
+     "HRA": 3,
+     "WHIP": 1.36
+    },
+    {
+     "season": 1921,
+     "id": 116241,
+     "name": "Waite Hoyt",
+     "team": "New York Yankees",
+     "age": 21,
+     "W": 19,
+     "L": 13,
+     "ERA": 3.09,
+     "IP": "282.1",
+     "SO": 102,
+     "BB": 81,
+     "SV": 3,
+     "GS": 32,
+     "CG": 21,
+     "SHO": 1,
+     "HRA": 3,
+     "WHIP": 1.35
+    },
+    {
+     "season": 1922,
+     "id": 113455,
+     "name": "Pete Donohue",
+     "team": "Cincinnati Reds",
+     "age": 21,
+     "W": 18,
+     "L": 9,
+     "ERA": 3.12,
+     "IP": "242.0",
+     "SO": 66,
+     "BB": 43,
+     "SV": 1,
+     "GS": 30,
+     "CG": 18,
+     "SHO": 2,
+     "HRA": 7,
+     "WHIP": 1.24
+    },
+    {
+     "season": 1922,
+     "id": 116241,
+     "name": "Waite Hoyt",
+     "team": "New York Yankees",
+     "age": 22,
+     "W": 19,
+     "L": 12,
+     "ERA": 3.43,
+     "IP": "265.0",
+     "SO": 95,
+     "BB": 76,
+     "SV": 0,
+     "GS": 31,
+     "CG": 17,
+     "SHO": 3,
+     "HRA": 13,
+     "WHIP": 1.31
+    },
+    {
+     "season": 1927,
+     "id": 116259,
+     "name": "Willis Hudlin",
+     "team": "Cleveland Indians",
+     "age": 21,
+     "W": 18,
+     "L": 12,
+     "ERA": 4.01,
+     "IP": "264.2",
+     "SO": 65,
+     "BB": 83,
+     "SV": 0,
+     "GS": 30,
+     "CG": 18,
+     "SHO": 1,
+     "HRA": 3,
+     "WHIP": 1.41
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6,
+   "players": [
+    {
+     "id": 114087,
+     "name": "Wes Ferrell"
+    },
+    {
+     "id": 113455,
+     "name": "Pete Donohue"
+    },
+    {
+     "id": 116241,
+     "name": "Waite Hoyt"
+    },
+    {
+     "id": 116259,
+     "name": "Willis Hudlin"
+    }
+   ],
+   "seasons": [
+    1929,
+    1923,
+    1921,
+    1922,
+    1922,
+    1927
+   ],
+   "text": "Just four pitchers of the 1920s won 18+ games at age 22 or younger: Wes Ferrell (1929: 21-10 at 21); Pete Donohue (2×, best 1923: 21-15 at 22); Waite Hoyt (2×, best 1921: 19-13 at 21); Willis Hudlin (1927: 18-12 at 21)."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "lowest_avg_100rbi",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 117577,
+     "name": "Tony Lazzeri"
+    }
+   ],
+   "seasons": [
+    1926
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 117577,
+     "name": "Tony Lazzeri",
+     "team": "New York Yankees",
+     "age": 22,
+     "PA": 665,
+     "AVG": 0.275,
+     "OBP": 0.338,
+     "SLG": 0.462,
+     "OPS": 0.8,
+     "HR": 18,
+     "RBI": 114,
+     "R": 79,
+     "H": 162,
+     "2B": 28,
+     "3B": 14,
+     "SB": 16,
+     "CS": 7,
+     "BB": 54,
+     "SO": 96,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "among": 151,
+   "text": "Lowest average by any 100-RBI hitter of the 1920s: Tony Lazzeri, 1926 — .275 with 114 RBI."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "most_k_300hitter",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 124412,
+     "name": "Hack Wilson"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1928,
+     "id": 124412,
+     "name": "Hack Wilson",
+     "team": "Chicago Cubs",
+     "age": 28,
+     "PA": 623,
+     "AVG": 0.313,
+     "OBP": 0.404,
+     "SLG": 0.588,
+     "OPS": 0.992,
+     "HR": 31,
+     "RBI": 120,
+     "R": 89,
+     "H": 163,
+     "2B": 32,
+     "3B": 9,
+     "SB": 4,
+     "CS": null,
+     "BB": 77,
+     "SO": 94,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "among": 437,
+   "text": "Most strikeouts by a .300 hitter of the 1920s: Hack Wilson, 1928 — 94 K while batting .313."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "most_sb_30hr",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 124321,
+     "name": "Ken Williams"
+    }
+   ],
+   "seasons": [
+    1922
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1922,
+     "id": 124321,
+     "name": "Ken Williams",
+     "team": "St. Louis Browns",
+     "age": 32,
+     "PA": 678,
+     "AVG": 0.332,
+     "OBP": 0.413,
+     "SLG": 0.627,
+     "OPS": 1.04,
+     "HR": 39,
+     "RBI": 155,
+     "R": 128,
+     "H": 194,
+     "2B": 34,
+     "3B": 11,
+     "SB": 37,
+     "CS": 20,
+     "BB": 74,
+     "SO": 31,
+     "HBP": 7,
+     "GIDP": 0
+    }
+   ],
+   "among": 30,
+   "text": "Most steals by a 30-homer hitter of the 1920s: Ken Williams, 1922 — 37 SB with 39 HR."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "fewest_k_30hr",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 817055,
+     "name": "Mule Suttles"
+    }
+   ],
+   "seasons": [
+    1926
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 817055,
+     "name": "Mule Suttles",
+     "team": "St. Louis Stars",
+     "age": 25,
+     "PA": 397,
+     "AVG": 0.425,
+     "OBP": 0.472,
+     "SLG": 0.877,
+     "OPS": 1.349,
+     "HR": 32,
+     "RBI": 130,
+     "R": 90,
+     "H": 152,
+     "2B": 28,
+     "3B": 19,
+     "SB": 15,
+     "CS": null,
+     "BB": 31,
+     "SO": 0,
+     "HBP": 1,
+     "GIDP": 0
+    }
+   ],
+   "among": 46,
+   "text": "Fewest strikeouts by a 25-homer hitter of the 1920s: Mule Suttles, 1926 — 0 K with 32 HR."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "highest_avg_low_hr",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 112506,
+     "name": "Eddie Collins Sr."
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 112506,
+     "name": "Eddie Collins Sr.",
+     "team": "Chicago White Sox",
+     "age": 33,
+     "PA": 706,
+     "AVG": 0.372,
+     "OBP": 0.438,
+     "SLG": 0.493,
+     "OPS": 0.931,
+     "HR": 3,
+     "RBI": 76,
+     "R": 117,
+     "H": 224,
+     "2B": 38,
+     "3B": 13,
+     "SB": 20,
+     "CS": 8,
+     "BB": 69,
+     "SO": 19,
+     "HBP": 2,
+     "GIDP": 0
+    }
+   ],
+   "among": 285,
+   "text": "Highest average by a hitter with 3 homers or fewer: Eddie Collins Sr., 1920 — .372 with 3 HR."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_bb_low_avg",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 111020,
+     "name": "Max Bishop"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1929,
+     "id": 111020,
+     "name": "Max Bishop",
+     "team": "Philadelphia Athletics",
+     "age": 29,
+     "PA": 616,
+     "AVG": 0.232,
+     "OBP": 0.398,
+     "SLG": 0.316,
+     "OPS": 0.714,
+     "HR": 3,
+     "RBI": 36,
+     "R": 102,
+     "H": 110,
+     "2B": 19,
+     "3B": 6,
+     "SB": 1,
+     "CS": 4,
+     "BB": 128,
+     "SO": 44,
+     "HBP": 3,
+     "GIDP": 0
+    }
+   ],
+   "among": 13,
+   "text": "Most walks by a sub-.240 hitter of the 1920s: Max Bishop, 1929 — 128 BB while batting .232."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_rbi_per_hr",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 123446,
+     "name": "Pie Traynor"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1928,
+     "id": 123446,
+     "name": "Pie Traynor",
+     "team": "Pittsburgh Pirates",
+     "age": 28,
+     "PA": 640,
+     "AVG": 0.337,
+     "OBP": 0.37,
+     "SLG": 0.462,
+     "OPS": 0.832,
+     "HR": 3,
+     "RBI": 124,
+     "R": 91,
+     "H": 192,
+     "2B": 38,
+     "3B": 12,
+     "SB": 12,
+     "CS": null,
+     "BB": 28,
+     "SO": 10,
+     "HBP": 1,
+     "GIDP": 0
+    }
+   ],
+   "among": 151,
+   "text": "Most RBI per home run among 100-RBI seasons: Pie Traynor, 1928 — 124 RBI on 3 HR."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "most_wins_bad_era",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 111793,
+     "name": "Bullet Joe Bush"
+    }
+   ],
+   "seasons": [
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1925,
+     "id": 111793,
+     "name": "Bullet Joe Bush",
+     "team": "St. Louis Browns",
+     "age": 32,
+     "W": 14,
+     "L": 14,
+     "ERA": 5.09,
+     "IP": "208.2",
+     "SO": 63,
+     "BB": 91,
+     "SV": 0,
+     "GS": 30,
+     "CG": 15,
+     "SHO": 2,
+     "HRA": 18,
+     "WHIP": 1.54
+    }
+   ],
+   "among": 167,
+   "text": "Most wins by a pitcher with an ERA over 5.00: Bullet Joe Bush, 1925 — 14-14 with a 5.09 ERA."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "fewest_wins_low_era",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 121426,
+     "name": "Eddie Rommel"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 121426,
+     "name": "Eddie Rommel",
+     "team": "Philadelphia Athletics",
+     "age": 22,
+     "W": 7,
+     "L": 7,
+     "ERA": 2.85,
+     "IP": "173.2",
+     "SO": 43,
+     "BB": 43,
+     "SV": 1,
+     "GS": 12,
+     "CG": 8,
+     "SHO": 2,
+     "HRA": 5,
+     "WHIP": 1.2
+    }
+   ],
+   "among": 107,
+   "text": "Fewest wins by a qualified pitcher with an ERA under 3.00: Eddie Rommel, 1920 — 7-7 despite a 2.85 ERA."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "most_k_losing",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 118012,
+     "name": "Dolf Luque"
+    }
+   ],
+   "seasons": [
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1925,
+     "id": 118012,
+     "name": "Dolf Luque",
+     "team": "Cincinnati Reds",
+     "age": 34,
+     "W": 16,
+     "L": 18,
+     "ERA": 2.63,
+     "IP": "291.0",
+     "SO": 140,
+     "BB": 78,
+     "SV": 0,
+     "GS": 36,
+     "CG": 22,
+     "SHO": 4,
+     "HRA": 7,
+     "WHIP": 1.17
+    }
+   ],
+   "among": 1343,
+   "text": "Most strikeouts by a pitcher with a losing record: Dolf Luque, 1925 — 140 K, 16-18."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "most_losses_good_era",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 119671,
+     "name": "Rollie Naylor"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 119671,
+     "name": "Rollie Naylor",
+     "team": "Philadelphia Athletics",
+     "age": 28,
+     "W": 10,
+     "L": 23,
+     "ERA": 3.47,
+     "IP": "251.1",
+     "SO": 90,
+     "BB": 86,
+     "SV": 0,
+     "GS": 36,
+     "CG": 20,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.56
+    }
+   ],
+   "among": 334,
+   "text": "Most losses by a pitcher with an ERA under 3.50: Rollie Naylor, 1920 — 10-23 with a 3.47 ERA."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "fewest_k_20w",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 123330,
+     "name": "Hollis Thurston"
+    }
+   ],
+   "seasons": [
+    1924
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1924,
+     "id": 123330,
+     "name": "Hollis Thurston",
+     "team": "Chicago White Sox",
+     "age": 25,
+     "W": 20,
+     "L": 14,
+     "ERA": 3.8,
+     "IP": "291.0",
+     "SO": 37,
+     "BB": 60,
+     "SV": 1,
+     "GS": 36,
+     "CG": 28,
+     "SHO": 1,
+     "HRA": 17,
+     "WHIP": 1.34
+    }
+   ],
+   "among": 92,
+   "text": "Fewest strikeouts by a 20-game winner of the 1920s: Hollis Thurston, 1924 — 37 K, 20-14."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "most_ip_no_cg",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 111406,
+     "name": "Garland Braxton"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 111406,
+     "name": "Garland Braxton",
+     "team": "Washington Senators",
+     "age": 27,
+     "W": 10,
+     "L": 9,
+     "ERA": 2.95,
+     "IP": "155.1",
+     "SO": 96,
+     "BB": 33,
+     "SV": 13,
+     "GS": 2,
+     "CG": 0,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.14
+    }
+   ],
+   "among": 1019,
+   "text": "Most innings in a season without a complete game: Garland Braxton, 1927 — 155.1 IP, 0 CG."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "most_hra",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 114693,
+     "name": "Joe Genewich"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1928,
+     "id": 114693,
+     "name": "Joe Genewich",
+     "team": "2+ teams",
+     "age": 31,
+     "W": 14,
+     "L": 11,
+     "ERA": 3.73,
+     "IP": "239.0",
+     "SO": 52,
+     "BB": 72,
+     "SV": 3,
+     "GS": 29,
+     "CG": 14,
+     "SHO": 2,
+     "HRA": 24,
+     "WHIP": 1.24
+    }
+   ],
+   "among": 3172,
+   "text": "Most home runs allowed in a season this decade: Joe Genewich, 1928 — 24 HR allowed, 14-11."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "most_bb_winner",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 113103,
+     "name": "Dixie Davis"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 113103,
+     "name": "Dixie Davis",
+     "team": "St. Louis Browns",
+     "age": 29,
+     "W": 18,
+     "L": 12,
+     "ERA": 3.17,
+     "IP": "269.1",
+     "SO": 85,
+     "BB": 149,
+     "SV": 0,
+     "GS": 31,
+     "CG": 22,
+     "SHO": 0,
+     "HRA": 10,
+     "WHIP": 1.48
+    }
+   ],
+   "among": 298,
+   "text": "Most walks by a 15-game winner: Dixie Davis, 1920 — 149 BB, 18-12."
+  },
+  {
+   "n": 48,
+   "kind": "nearmiss",
+   "rule": "AVG299",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 119450,
+     "name": "Johnny Mostil"
+    },
+    {
+     "id": 111747,
+     "name": "George Burns"
+    },
+    {
+     "id": 111266,
+     "name": "Jim Bottomley"
+    }
+   ],
+   "seasons": [
+    1925,
+    1921,
+    1926
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1925,
+     "id": 119450,
+     "name": "Johnny Mostil",
+     "team": "Chicago White Sox",
+     "age": 29,
+     "PA": 716,
+     "AVG": 0.299,
+     "OBP": 0.4,
+     "SLG": 0.421,
+     "OPS": 0.821,
+     "HR": 2,
+     "RBI": 50,
+     "R": 135,
+     "H": 181,
+     "2B": 36,
+     "3B": 16,
+     "SB": 43,
+     "CS": 20,
+     "BB": 90,
+     "SO": 52,
+     "HBP": 12,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 111747,
+     "name": "George Burns",
+     "team": "New York Giants",
+     "age": 31,
+     "PA": 698,
+     "AVG": 0.299,
+     "OBP": 0.386,
+     "SLG": 0.395,
+     "OPS": 0.781,
+     "HR": 4,
+     "RBI": 61,
+     "R": 111,
+     "H": 181,
+     "2B": 28,
+     "3B": 9,
+     "SB": 19,
+     "CS": 20,
+     "BB": 80,
+     "SO": 24,
+     "HBP": 6,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 111266,
+     "name": "Jim Bottomley",
+     "team": "St. Louis Cardinals",
+     "age": 26,
+     "PA": 684,
+     "AVG": 0.299,
+     "OBP": 0.364,
+     "SLG": 0.506,
+     "OPS": 0.87,
+     "HR": 19,
+     "RBI": 120,
+     "R": 98,
+     "H": 180,
+     "2B": 40,
+     "3B": 14,
+     "SB": 4,
+     "CS": null,
+     "BB": 58,
+     "SO": 52,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1920,
+     "id": 110524,
+     "name": "Dave Bancroft",
+     "team": "2+ teams",
+     "age": 29,
+     "PA": 673,
+     "AVG": 0.299,
+     "OBP": 0.346,
+     "SLG": 0.387,
+     "OPS": 0.733,
+     "HR": 0,
+     "RBI": 36,
+     "R": 102,
+     "H": 183,
+     "2B": 36,
+     "3B": 9,
+     "SB": 8,
+     "CS": 12,
+     "BB": 42,
+     "SO": 44,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 112533,
+     "name": "Earle Combs",
+     "team": "New York Yankees",
+     "age": 27,
+     "PA": 670,
+     "AVG": 0.299,
+     "OBP": 0.352,
+     "SLG": 0.429,
+     "OPS": 0.781,
+     "HR": 8,
+     "RBI": 55,
+     "R": 113,
+     "H": 181,
+     "2B": 31,
+     "3B": 12,
+     "SB": 8,
+     "CS": 6,
+     "BB": 47,
+     "SO": 23,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 122023,
+     "name": "Joe Sewell",
+     "team": "Cleveland Indians",
+     "age": 23,
+     "PA": 656,
+     "AVG": 0.299,
+     "OBP": 0.386,
+     "SLG": 0.385,
+     "OPS": 0.771,
+     "HR": 2,
+     "RBI": 83,
+     "R": 80,
+     "H": 167,
+     "2B": 28,
+     "3B": 7,
+     "SB": 10,
+     "CS": 12,
+     "BB": 73,
+     "SO": 20,
+     "HBP": 6,
+     "GIDP": 0
+    }
+   ],
+   "text": "18 hitter-seasons of the 1920s ended on a .299 average, one point short of .300 — among them Johnny Mostil (1925), George Burns (1921), Jim Bottomley (1926)."
+  },
+  {
+   "n": 49,
+   "kind": "nearmiss",
+   "rule": "RBI99",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 110984,
+     "name": "Carson Bigbee"
+    },
+    {
+     "id": 113988,
+     "name": "Bibb Falk"
+    },
+    {
+     "id": 111545,
+     "name": "Eddie Brown"
+    }
+   ],
+   "seasons": [
+    1922,
+    1925,
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1922,
+     "id": 110984,
+     "name": "Carson Bigbee",
+     "team": "Pittsburgh Pirates",
+     "age": 27,
+     "PA": 691,
+     "AVG": 0.35,
+     "OBP": 0.405,
+     "SLG": 0.471,
+     "OPS": 0.876,
+     "HR": 5,
+     "RBI": 99,
+     "R": 113,
+     "H": 215,
+     "2B": 29,
+     "3B": 15,
+     "SB": 24,
+     "CS": 15,
+     "BB": 56,
+     "SO": 13,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 113988,
+     "name": "Bibb Falk",
+     "team": "Chicago White Sox",
+     "age": 26,
+     "PA": 677,
+     "AVG": 0.301,
+     "OBP": 0.357,
+     "SLG": 0.409,
+     "OPS": 0.766,
+     "HR": 4,
+     "RBI": 99,
+     "R": 80,
+     "H": 181,
+     "2B": 35,
+     "3B": 9,
+     "SB": 4,
+     "CS": 5,
+     "BB": 51,
+     "SO": 25,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 111545,
+     "name": "Eddie Brown",
+     "team": "Brooklyn Robins",
+     "age": 33,
+     "PA": 666,
+     "AVG": 0.306,
+     "OBP": 0.332,
+     "SLG": 0.429,
+     "OPS": 0.761,
+     "HR": 5,
+     "RBI": 99,
+     "R": 88,
+     "H": 189,
+     "2B": 39,
+     "3B": 11,
+     "SB": 3,
+     "CS": 4,
+     "BB": 22,
+     "SO": 18,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1923,
+     "id": 114987,
+     "name": "Goose Goslin",
+     "team": "Washington Senators",
+     "age": 22,
+     "PA": 656,
+     "AVG": 0.3,
+     "OBP": 0.347,
+     "SLG": 0.453,
+     "OPS": 0.8,
+     "HR": 9,
+     "RBI": 99,
+     "R": 85,
+     "H": 180,
+     "2B": 29,
+     "3B": 18,
+     "SB": 7,
+     "CS": 2,
+     "BB": 40,
+     "SO": 53,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 120594,
+     "name": "Wally Pipp",
+     "team": "Cincinnati Reds",
+     "age": 33,
+     "PA": 649,
+     "AVG": 0.291,
+     "OBP": 0.352,
+     "SLG": 0.413,
+     "OPS": 0.765,
+     "HR": 6,
+     "RBI": 99,
+     "R": 72,
+     "H": 167,
+     "2B": 22,
+     "3B": 15,
+     "SB": 8,
+     "CS": null,
+     "BB": 49,
+     "SO": 26,
+     "HBP": 5,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 123814,
+     "name": "Tilly Walker",
+     "team": "Philadelphia Athletics",
+     "age": 34,
+     "PA": 645,
+     "AVG": 0.283,
+     "OBP": 0.357,
+     "SLG": 0.549,
+     "OPS": 0.906,
+     "HR": 37,
+     "RBI": 99,
+     "R": 111,
+     "H": 160,
+     "2B": 31,
+     "3B": 4,
+     "SB": 4,
+     "CS": 3,
+     "BB": 61,
+     "SO": 67,
+     "HBP": 4,
+     "GIDP": 0
+    }
+   ],
+   "text": "14 hitter-seasons of the 1920s ended on exactly 99 RBI, one short of 100 — among them Carson Bigbee (1922), Bibb Falk (1925), Eddie Brown (1925)."
+  },
+  {
+   "n": 50,
+   "kind": "nearmiss",
+   "rule": "W19",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 113775,
+     "name": "Howard Ehmke"
+    },
+    {
+     "id": 117021,
+     "name": "Dickey Kerr"
+    },
+    {
+     "id": 123234,
+     "name": "Tommy Thomas"
+    }
+   ],
+   "seasons": [
+    1924,
+    1921,
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1924,
+     "id": 113775,
+     "name": "Howard Ehmke",
+     "team": "Boston Red Sox",
+     "age": 30,
+     "W": 19,
+     "L": 17,
+     "ERA": 3.46,
+     "IP": "315.0",
+     "SO": 119,
+     "BB": 81,
+     "SV": 4,
+     "GS": 36,
+     "CG": 26,
+     "SHO": 4,
+     "HRA": 9,
+     "WHIP": 1.29
+    },
+    {
+     "season": 1921,
+     "id": 117021,
+     "name": "Dickey Kerr",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "W": 19,
+     "L": 17,
+     "ERA": 4.72,
+     "IP": "308.2",
+     "SO": 80,
+     "BB": 96,
+     "SV": 1,
+     "GS": 37,
+     "CG": 25,
+     "SHO": 3,
+     "HRA": 12,
+     "WHIP": 1.47
+    },
+    {
+     "season": 1927,
+     "id": 123234,
+     "name": "Tommy Thomas",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "W": 19,
+     "L": 16,
+     "ERA": 2.98,
+     "IP": "307.2",
+     "SO": 107,
+     "BB": 94,
+     "SV": 1,
+     "GS": 36,
+     "CG": 24,
+     "SHO": 3,
+     "HRA": 16,
+     "WHIP": 1.19
+    },
+    {
+     "season": 1920,
+     "id": 123677,
+     "name": "Hippo Vaughn",
+     "team": "Chicago Cubs",
+     "age": 32,
+     "W": 19,
+     "L": 16,
+     "ERA": 2.54,
+     "IP": "301.0",
+     "SO": 131,
+     "BB": 81,
+     "SV": 0,
+     "GS": 38,
+     "CG": 24,
+     "SHO": 4,
+     "HRA": 8,
+     "WHIP": 1.27
+    },
+    {
+     "season": 1921,
+     "id": 121255,
+     "name": "Eppa Rixey",
+     "team": "Cincinnati Reds",
+     "age": 30,
+     "W": 19,
+     "L": 18,
+     "ERA": 2.78,
+     "IP": "301.0",
+     "SO": 76,
+     "BB": 66,
+     "SV": 1,
+     "GS": 37,
+     "CG": 21,
+     "SHO": 2,
+     "HRA": 1,
+     "WHIP": 1.3
+    },
+    {
+     "season": 1927,
+     "id": 118890,
+     "name": "Lee Meadows",
+     "team": "Pittsburgh Pirates",
+     "age": 32,
+     "W": 19,
+     "L": 10,
+     "ERA": 3.4,
+     "IP": "299.1",
+     "SO": 84,
+     "BB": 66,
+     "SV": 0,
+     "GS": 38,
+     "CG": 25,
+     "SHO": 2,
+     "HRA": 11,
+     "WHIP": 1.27
+    }
+   ],
+   "text": "29 pitcher-seasons of the 1920s ended on exactly 19 wins, one short of 20 — among them Howard Ehmke (1924), Dickey Kerr (1921), Tommy Thomas (1927)."
+  },
+  {
+   "n": 51,
+   "kind": "streak",
+   "rule": "H200",
+   "group": "H",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 123368,
+     "name": "Jack Tobin"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 123368,
+     "name": "Jack Tobin",
+     "team": "St. Louis Browns",
+     "age": 28,
+     "PA": 652,
+     "AVG": 0.341,
+     "OBP": 0.383,
+     "SLG": 0.452,
+     "OPS": 0.835,
+     "HR": 4,
+     "RBI": 62,
+     "R": 94,
+     "H": 202,
+     "2B": 34,
+     "3B": 10,
+     "SB": 21,
+     "CS": 13,
+     "BB": 39,
+     "SO": 23,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1921,
+     "id": 123368,
+     "name": "Jack Tobin",
+     "team": "St. Louis Browns",
+     "age": 29,
+     "PA": 731,
+     "AVG": 0.352,
+     "OBP": 0.395,
+     "SLG": 0.487,
+     "OPS": 0.882,
+     "HR": 8,
+     "RBI": 59,
+     "R": 132,
+     "H": 236,
+     "2B": 31,
+     "3B": 18,
+     "SB": 7,
+     "CS": 12,
+     "BB": 45,
+     "SO": 22,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 123368,
+     "name": "Jack Tobin",
+     "team": "St. Louis Browns",
+     "age": 30,
+     "PA": 699,
+     "AVG": 0.331,
+     "OBP": 0.388,
+     "SLG": 0.474,
+     "OPS": 0.862,
+     "HR": 13,
+     "RBI": 66,
+     "R": 122,
+     "H": 207,
+     "2B": 34,
+     "3B": 8,
+     "SB": 7,
+     "CS": 9,
+     "BB": 56,
+     "SO": 22,
+     "HBP": 2,
+     "GIDP": 0
+    },
+    {
+     "season": 1923,
+     "id": 123368,
+     "name": "Jack Tobin",
+     "team": "St. Louis Browns",
+     "age": 31,
+     "PA": 696,
+     "AVG": 0.317,
+     "OBP": 0.363,
+     "SLG": 0.476,
+     "OPS": 0.839,
+     "HR": 13,
+     "RBI": 73,
+     "R": 92,
+     "H": 202,
+     "2B": 32,
+     "3B": 15,
+     "SB": 8,
+     "CS": 7,
+     "BB": 42,
+     "SO": 13,
+     "HBP": 4,
+     "GIDP": 0
+    }
+   ],
+   "text": "Jack Tobin collected 200+ hits in 4 straight seasons (1920-23), the longest run of the 1920s."
+  },
+  {
+   "n": 52,
+   "kind": "streak",
+   "rule": "W20",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 122176,
+     "name": "Urban Shocker"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 122176,
+     "name": "Urban Shocker",
+     "team": "St. Louis Browns",
+     "age": 29,
+     "W": 20,
+     "L": 10,
+     "ERA": 2.71,
+     "IP": "245.2",
+     "SO": 107,
+     "BB": 70,
+     "SV": 5,
+     "GS": 28,
+     "CG": 22,
+     "SHO": 5,
+     "HRA": 10,
+     "WHIP": 1.2
+    },
+    {
+     "season": 1921,
+     "id": 122176,
+     "name": "Urban Shocker",
+     "team": "St. Louis Browns",
+     "age": 30,
+     "W": 27,
+     "L": 12,
+     "ERA": 3.55,
+     "IP": "326.2",
+     "SO": 132,
+     "BB": 86,
+     "SV": 4,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 4,
+     "HRA": 21,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1922,
+     "id": 122176,
+     "name": "Urban Shocker",
+     "team": "St. Louis Browns",
+     "age": 31,
+     "W": 24,
+     "L": 17,
+     "ERA": 2.97,
+     "IP": "348.0",
+     "SO": 149,
+     "BB": 57,
+     "SV": 3,
+     "GS": 38,
+     "CG": 29,
+     "SHO": 2,
+     "HRA": 22,
+     "WHIP": 1.21
+    },
+    {
+     "season": 1923,
+     "id": 122176,
+     "name": "Urban Shocker",
+     "team": "St. Louis Browns",
+     "age": 32,
+     "W": 20,
+     "L": 12,
+     "ERA": 3.41,
+     "IP": "277.1",
+     "SO": 109,
+     "BB": 49,
+     "SV": 5,
+     "GS": 35,
+     "CG": 24,
+     "SHO": 3,
+     "HRA": 12,
+     "WHIP": 1.23
+    }
+   ],
+   "text": "Urban Shocker won 20 games in 4 straight seasons (1920-23), the longest run of the 1920s."
+  },
+  {
+   "n": 53,
+   "kind": "streak",
+   "rule": "K200",
+   "group": "P",
+   "decade": 1920,
+   "score": 6,
+   "players": [
+    {
+     "id": 115201,
+     "name": "Lefty Grove"
+    }
+   ],
+   "seasons": [
+    1926,
+    1927,
+    1928,
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 115201,
+     "name": "Lefty Grove",
+     "team": "Philadelphia Athletics",
+     "age": 26,
+     "W": 13,
+     "L": 13,
+     "ERA": 2.51,
+     "IP": "258.0",
+     "SO": 194,
+     "BB": 101,
+     "SV": 6,
+     "GS": 33,
+     "CG": 20,
+     "SHO": 1,
+     "HRA": 6,
+     "WHIP": 1.27
+    },
+    {
+     "season": 1927,
+     "id": 115201,
+     "name": "Lefty Grove",
+     "team": "Philadelphia Athletics",
+     "age": 27,
+     "W": 20,
+     "L": 13,
+     "ERA": 3.19,
+     "IP": "262.1",
+     "SO": 174,
+     "BB": 79,
+     "SV": 9,
+     "GS": 28,
+     "CG": 14,
+     "SHO": 1,
+     "HRA": 6,
+     "WHIP": 1.26
+    },
+    {
+     "season": 1928,
+     "id": 115201,
+     "name": "Lefty Grove",
+     "team": "Philadelphia Athletics",
+     "age": 28,
+     "W": 24,
+     "L": 8,
+     "ERA": 2.58,
+     "IP": "261.2",
+     "SO": 183,
+     "BB": 64,
+     "SV": 4,
+     "GS": 31,
+     "CG": 24,
+     "SHO": 4,
+     "HRA": 10,
+     "WHIP": 1.12
+    },
+    {
+     "season": 1929,
+     "id": 115201,
+     "name": "Lefty Grove",
+     "team": "Philadelphia Athletics",
+     "age": 29,
+     "W": 20,
+     "L": 6,
+     "ERA": 2.81,
+     "IP": "275.1",
+     "SO": 170,
+     "BB": 81,
+     "SV": 4,
+     "GS": 37,
+     "CG": 19,
+     "SHO": 2,
+     "HRA": 8,
+     "WHIP": 1.3
+    }
+   ],
+   "text": "Lefty Grove struck out 150+ in 4 straight seasons (1926-29), the longest run of the 1920s."
+  },
+  {
+   "n": 54,
+   "kind": "team",
+   "rule": "100w",
+   "group": "T",
+   "decade": 1920,
+   "score": 6,
+   "players": [],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 110,
+     "losses": 44,
+     "runsScored": 975,
+     "runsAllowed": 599,
+     "runDifferential": 376,
+     "leagueRank": 1,
+     "season": 1927
+    },
+    {
+     "id": 133,
+     "name": "Athletics",
+     "wins": 104,
+     "losses": 46,
+     "runsScored": 901,
+     "runsAllowed": 615,
+     "runDifferential": 286,
+     "leagueRank": 1,
+     "season": 1929
+    },
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 101,
+     "losses": 53,
+     "runsScored": 894,
+     "runsAllowed": 685,
+     "runDifferential": 209,
+     "leagueRank": 1,
+     "season": 1928
+    }
+   ],
+   "text": "3 teams of the 1920s won 100 games; the best record was the 1927 Yankees at 110-44."
+  },
+  {
+   "n": 55,
+   "kind": "age",
+   "rule": "age_30hr_young",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 816676,
+     "name": "Willie Wells"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 816676,
+     "name": "Willie Wells",
+     "team": "St. Louis Stars",
+     "age": 20,
+     "PA": 434,
+     "AVG": 0.365,
+     "OBP": 0.455,
+     "SLG": 0.69,
+     "OPS": 1.145,
+     "HR": 29,
+     "RBI": 105,
+     "R": 91,
+     "H": 133,
+     "2B": 21,
+     "3B": 5,
+     "SB": 13,
+     "CS": null,
+     "BB": 55,
+     "SO": 0,
+     "HBP": 5,
+     "GIDP": 0
+    }
+   ],
+   "text": "Youngest player of the 1920s to hit 25 home runs: Willie Wells, age 20 in 1927 — 29 HR."
+  },
+  {
+   "n": 56,
+   "kind": "age",
+   "rule": "age_30hr_old",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 124310,
+     "name": "Cy Williams"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 124310,
+     "name": "Cy Williams",
+     "team": "Philadelphia Phillies",
+     "age": 39,
+     "PA": 570,
+     "AVG": 0.274,
+     "OBP": 0.365,
+     "SLG": 0.502,
+     "OPS": 0.867,
+     "HR": 30,
+     "RBI": 98,
+     "R": 86,
+     "H": 135,
+     "2B": 18,
+     "3B": 2,
+     "SB": 0,
+     "CS": null,
+     "BB": 61,
+     "SO": 57,
+     "HBP": 9,
+     "GIDP": 0
+    }
+   ],
+   "text": "Oldest player of the 1920s to hit 25 home runs: Cy Williams, age 39 in 1927 — 30 HR."
+  },
+  {
+   "n": 57,
+   "kind": "age",
+   "rule": "age_330_young",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 123904,
+     "name": "Lloyd Waner"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 123904,
+     "name": "Lloyd Waner",
+     "team": "Pittsburgh Pirates",
+     "age": 21,
+     "PA": 683,
+     "AVG": 0.355,
+     "OBP": 0.396,
+     "SLG": 0.41,
+     "OPS": 0.806,
+     "HR": 2,
+     "RBI": 27,
+     "R": 133,
+     "H": 223,
+     "2B": 17,
+     "3B": 6,
+     "SB": 14,
+     "CS": null,
+     "BB": 37,
+     "SO": 23,
+     "HBP": 6,
+     "GIDP": 0
+    }
+   ],
+   "text": "Youngest player of the 1920s to bat .330 (500+ PA): Lloyd Waner, age 21 in 1927 — .355."
+  },
+  {
+   "n": 58,
+   "kind": "age",
+   "rule": "age_330_old",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 112431,
+     "name": "Ty Cobb"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 112431,
+     "name": "Ty Cobb",
+     "team": "Philadelphia Athletics",
+     "age": 40,
+     "PA": 574,
+     "AVG": 0.357,
+     "OBP": 0.44,
+     "SLG": 0.482,
+     "OPS": 0.922,
+     "HR": 5,
+     "RBI": 93,
+     "R": 104,
+     "H": 175,
+     "2B": 32,
+     "3B": 7,
+     "SB": 22,
+     "CS": 16,
+     "BB": 67,
+     "SO": 12,
+     "HBP": 5,
+     "GIDP": 0
+    }
+   ],
+   "text": "Oldest player of the 1920s to bat .330 (500+ PA): Ty Cobb, age 40 in 1927 — .357."
+  },
+  {
+   "n": 59,
+   "kind": "age",
+   "rule": "age_100rbi_young",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 816676,
+     "name": "Willie Wells"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1927,
+     "id": 816676,
+     "name": "Willie Wells",
+     "team": "St. Louis Stars",
+     "age": 20,
+     "PA": 434,
+     "AVG": 0.365,
+     "OBP": 0.455,
+     "SLG": 0.69,
+     "OPS": 1.145,
+     "HR": 29,
+     "RBI": 105,
+     "R": 91,
+     "H": 133,
+     "2B": 21,
+     "3B": 5,
+     "SB": 13,
+     "CS": null,
+     "BB": 55,
+     "SO": 0,
+     "HBP": 5,
+     "GIDP": 0
+    }
+   ],
+   "text": "Youngest player of the 1920s to drive in 100 runs: Willie Wells, age 20 in 1927 — 105 RBI."
+  },
+  {
+   "n": 60,
+   "kind": "age",
+   "rule": "age_100rbi_old",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 112431,
+     "name": "Ty Cobb"
+    }
+   ],
+   "seasons": [
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1925,
+     "id": 112431,
+     "name": "Ty Cobb",
+     "team": "Detroit Tigers",
+     "age": 38,
+     "PA": 490,
+     "AVG": 0.378,
+     "OBP": 0.468,
+     "SLG": 0.598,
+     "OPS": 1.066,
+     "HR": 12,
+     "RBI": 102,
+     "R": 97,
+     "H": 157,
+     "2B": 31,
+     "3B": 12,
+     "SB": 13,
+     "CS": 9,
+     "BB": 65,
+     "SO": 12,
+     "HBP": 5,
+     "GIDP": 0
+    }
+   ],
+   "text": "Oldest player of the 1920s to drive in 100 runs: Ty Cobb, age 38 in 1925 — 102 RBI."
+  },
+  {
+   "n": 61,
+   "kind": "age",
+   "rule": "age_sb_young",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 114448,
+     "name": "Frankie Frisch"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 114448,
+     "name": "Frankie Frisch",
+     "team": "New York Giants",
+     "age": 22,
+     "PA": 473,
+     "AVG": 0.28,
+     "OBP": 0.311,
+     "SLG": 0.375,
+     "OPS": 0.686,
+     "HR": 4,
+     "RBI": 77,
+     "R": 57,
+     "H": 123,
+     "2B": 10,
+     "3B": 10,
+     "SB": 34,
+     "CS": 11,
+     "BB": 20,
+     "SO": 18,
+     "HBP": 0,
+     "GIDP": 0
+    }
+   ],
+   "text": "Youngest player of the 1920s to steal 30 bases: Frankie Frisch, age 22 in 1920 — 34 SB."
+  },
+  {
+   "n": 62,
+   "kind": "age",
+   "rule": "age_sb_old",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 112506,
+     "name": "Eddie Collins Sr."
+    }
+   ],
+   "seasons": [
+    1924
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1924,
+     "id": 112506,
+     "name": "Eddie Collins Sr.",
+     "team": "Chicago White Sox",
+     "age": 37,
+     "PA": 676,
+     "AVG": 0.349,
+     "OBP": 0.441,
+     "SLG": 0.455,
+     "OPS": 0.896,
+     "HR": 6,
+     "RBI": 86,
+     "R": 108,
+     "H": 194,
+     "2B": 27,
+     "3B": 7,
+     "SB": 42,
+     "CS": 17,
+     "BB": 89,
+     "SO": 16,
+     "HBP": 3,
+     "GIDP": 0
+    }
+   ],
+   "text": "Oldest player of the 1920s to steal 30 bases: Eddie Collins Sr., age 37 in 1924 — 42 SB."
+  },
+  {
+   "n": 63,
+   "kind": "age",
+   "rule": "age_20w_young",
+   "group": "P",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 114087,
+     "name": "Wes Ferrell"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1929,
+     "id": 114087,
+     "name": "Wes Ferrell",
+     "team": "Cleveland Indians",
+     "age": 21,
+     "W": 21,
+     "L": 10,
+     "ERA": 3.6,
+     "IP": "242.2",
+     "SO": 100,
+     "BB": 109,
+     "SV": 5,
+     "GS": 25,
+     "CG": 18,
+     "SHO": 1,
+     "HRA": 7,
+     "WHIP": 1.5
+    }
+   ],
+   "text": "Youngest player of the 1920s to win 20 games: Wes Ferrell, age 21 in 1929 — 21-10."
+  },
+  {
+   "n": 64,
+   "kind": "age",
+   "rule": "age_k_young",
+   "group": "P",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 819276,
+     "name": "Claude Grier"
+    }
+   ],
+   "seasons": [
+    1926
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 819276,
+     "name": "Claude Grier",
+     "team": "Atlantic City Bacharach Giants",
+     "age": 22,
+     "W": 17,
+     "L": 8,
+     "ERA": 2.93,
+     "IP": "212.0",
+     "SO": 178,
+     "BB": 92,
+     "SV": 1,
+     "GS": 25,
+     "CG": 23,
+     "SHO": 2,
+     "HRA": 4,
+     "WHIP": 1.19
+    }
+   ],
+   "text": "Youngest player of the 1920s to strike out 150: Claude Grier, age 22 in 1926 — 178 K."
+  },
+  {
+   "n": 65,
+   "kind": "age",
+   "rule": "age_k_old",
+   "group": "P",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 123630,
+     "name": "Dazzy Vance"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1928,
+     "id": 123630,
+     "name": "Dazzy Vance",
+     "team": "Brooklyn Robins",
+     "age": 37,
+     "W": 22,
+     "L": 10,
+     "ERA": 2.09,
+     "IP": "280.1",
+     "SO": 200,
+     "BB": 72,
+     "SV": 2,
+     "GS": 32,
+     "CG": 24,
+     "SHO": 4,
+     "HRA": 11,
+     "WHIP": 1.06
+    }
+   ],
+   "text": "Oldest player of the 1920s to strike out 150: Dazzy Vance, age 37 in 1928 — 200 K."
+  },
+  {
+   "n": 66,
+   "kind": "age",
+   "rule": "age_era_young",
+   "group": "P",
+   "decade": 1920,
+   "score": 5.5,
+   "players": [
+    {
+     "id": 819488,
+     "name": "Bill Foster"
+    }
+   ],
+   "seasons": [
+    1926
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 819488,
+     "name": "Bill Foster",
+     "team": "Chicago American Giants",
+     "age": 22,
+     "W": 13,
+     "L": 4,
+     "ERA": 1.8,
+     "IP": "174.2",
+     "SO": 111,
+     "BB": 56,
+     "SV": 1,
+     "GS": 17,
+     "CG": 12,
+     "SHO": 5,
+     "HRA": 4,
+     "WHIP": 0.98
+    }
+   ],
+   "text": "Youngest player of the 1920s to post a qualified ERA under 2.75: Bill Foster, age 22 in 1926 — 1.80 ERA."
+  },
+  {
+   "n": 67,
+   "kind": "nearmiss",
+   "rule": "H199",
+   "group": "H",
+   "decade": 1920,
+   "score": 5.25,
+   "players": [
+    {
+     "id": 121137,
+     "name": "Sam Rice"
+    },
+    {
+     "id": 114987,
+     "name": "Goose Goslin"
+    },
+    {
+     "id": 113619,
+     "name": "Pat Duncan"
+    }
+   ],
+   "seasons": [
+    1929,
+    1924,
+    1922
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1929,
+     "id": 121137,
+     "name": "Sam Rice",
+     "team": "Washington Senators",
+     "age": 39,
+     "PA": 694,
+     "AVG": 0.323,
+     "OBP": 0.382,
+     "SLG": 0.424,
+     "OPS": 0.806,
+     "HR": 1,
+     "RBI": 62,
+     "R": 119,
+     "H": 199,
+     "2B": 39,
+     "3B": 10,
+     "SB": 16,
+     "CS": 8,
+     "BB": 55,
+     "SO": 9,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 114987,
+     "name": "Goose Goslin",
+     "team": "Washington Senators",
+     "age": 23,
+     "PA": 673,
+     "AVG": 0.344,
+     "OBP": 0.421,
+     "SLG": 0.516,
+     "OPS": 0.937,
+     "HR": 12,
+     "RBI": 129,
+     "R": 100,
+     "H": 199,
+     "2B": 30,
+     "3B": 17,
+     "SB": 15,
+     "CS": 14,
+     "BB": 68,
+     "SO": 29,
+     "HBP": 9,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 113619,
+     "name": "Pat Duncan",
+     "team": "Cincinnati Reds",
+     "age": 28,
+     "PA": 670,
+     "AVG": 0.328,
+     "OBP": 0.37,
+     "SLG": 0.479,
+     "OPS": 0.849,
+     "HR": 8,
+     "RBI": 94,
+     "R": 94,
+     "H": 199,
+     "2B": 44,
+     "3B": 12,
+     "SB": 12,
+     "CS": 28,
+     "BB": 40,
+     "SO": 31,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 122752,
+     "name": "Riggs Stephenson",
+     "team": "Chicago Cubs",
+     "age": 29,
+     "PA": 668,
+     "AVG": 0.344,
+     "OBP": 0.415,
+     "SLG": 0.491,
+     "OPS": 0.906,
+     "HR": 7,
+     "RBI": 82,
+     "R": 101,
+     "H": 199,
+     "2B": 46,
+     "3B": 9,
+     "SB": 8,
+     "CS": null,
+     "BB": 65,
+     "SO": 28,
+     "HBP": 6,
+     "GIDP": 0
+    },
+    {
+     "season": 1926,
+     "id": 122240,
+     "name": "Al Simmons",
+     "team": "Philadelphia Athletics",
+     "age": 24,
+     "PA": 642,
+     "AVG": 0.341,
+     "OBP": 0.392,
+     "SLG": 0.564,
+     "OPS": 0.956,
+     "HR": 19,
+     "RBI": 109,
+     "R": 90,
+     "H": 199,
+     "2B": 53,
+     "3B": 10,
+     "SB": 11,
+     "CS": 3,
+     "BB": 48,
+     "SO": 49,
+     "HBP": 1,
+     "GIDP": 0
+    }
+   ],
+   "text": "5 hitter-seasons of the 1920s ended on exactly 199 hits, one short of 200 — among them Sam Rice (1929), Goose Goslin (1924), Pat Duncan (1922)."
+  },
+  {
+   "n": 68,
+   "kind": "teammates",
+   "rule": "hits_pair",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 119941,
+     "name": "Lefty O'Doul"
+    },
+    {
+     "id": 117141,
+     "name": "Chuck Klein"
+    },
+    {
+     "id": 123295,
+     "name": "Fresco Thompson"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1929,
+     "id": 119941,
+     "name": "Lefty O'Doul",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "PA": 731,
+     "AVG": 0.398,
+     "OBP": 0.465,
+     "SLG": 0.622,
+     "OPS": 1.087,
+     "HR": 32,
+     "RBI": 122,
+     "R": 152,
+     "H": 254,
+     "2B": 35,
+     "3B": 6,
+     "SB": 2,
+     "CS": null,
+     "BB": 76,
+     "SO": 19,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 117141,
+     "name": "Chuck Klein",
+     "team": "Philadelphia Phillies",
+     "age": 24,
+     "PA": 679,
+     "AVG": 0.356,
+     "OBP": 0.407,
+     "SLG": 0.657,
+     "OPS": 1.064,
+     "HR": 43,
+     "RBI": 145,
+     "R": 126,
+     "H": 219,
+     "2B": 45,
+     "3B": 6,
+     "SB": 5,
+     "CS": null,
+     "BB": 54,
+     "SO": 61,
+     "HBP": 0,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 123295,
+     "name": "Fresco Thompson",
+     "team": "Philadelphia Phillies",
+     "age": 27,
+     "PA": 715,
+     "AVG": 0.324,
+     "OBP": 0.398,
+     "SLG": 0.419,
+     "OPS": 0.817,
+     "HR": 4,
+     "RBI": 53,
+     "R": 115,
+     "H": 202,
+     "2B": 41,
+     "3B": 3,
+     "SB": 16,
+     "CS": null,
+     "BB": 75,
+     "SO": 34,
+     "HBP": 1,
+     "GIDP": 0
+    }
+   ],
+   "text": "24 teams of the 1920s had two players at 200+ hits; the biggest pairing was the 1929 Philadelphia Phillies — Lefty O'Doul 254, Chuck Klein 219, Fresco Thompson 202."
+  },
+  {
+   "n": 69,
+   "kind": "teammates",
+   "rule": "sb_pair",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 112506,
+     "name": "Eddie Collins Sr."
+    },
+    {
+     "id": 119450,
+     "name": "Johnny Mostil"
+    }
+   ],
+   "seasons": [
+    1923
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1923,
+     "id": 112506,
+     "name": "Eddie Collins Sr.",
+     "team": "Chicago White Sox",
+     "age": 36,
+     "PA": 632,
+     "AVG": 0.36,
+     "OBP": 0.455,
+     "SLG": 0.453,
+     "OPS": 0.908,
+     "HR": 5,
+     "RBI": 67,
+     "R": 89,
+     "H": 182,
+     "2B": 22,
+     "3B": 5,
+     "SB": 48,
+     "CS": 29,
+     "BB": 84,
+     "SO": 8,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1923,
+     "id": 119450,
+     "name": "Johnny Mostil",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "PA": 641,
+     "AVG": 0.291,
+     "OBP": 0.376,
+     "SLG": 0.43,
+     "OPS": 0.806,
+     "HR": 3,
+     "RBI": 64,
+     "R": 91,
+     "H": 159,
+     "2B": 37,
+     "3B": 15,
+     "SB": 41,
+     "CS": 16,
+     "BB": 62,
+     "SO": 51,
+     "HBP": 12,
+     "GIDP": 0
+    }
+   ],
+   "text": "7 teams of the 1920s had two players at 30+ steals; the biggest pairing was the 1923 Chicago White Sox — Eddie Collins Sr. 48, Johnny Mostil 41."
+  },
+  {
+   "n": 70,
+   "kind": "teammates",
+   "rule": "w20_pair",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 113965,
+     "name": "Red Faber"
+    },
+    {
+     "id": 124293,
+     "name": "Lefty Williams"
+    },
+    {
+     "id": 112288,
+     "name": "Eddie Cicotte"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 113965,
+     "name": "Red Faber",
+     "team": "Chicago White Sox",
+     "age": 31,
+     "W": 23,
+     "L": 13,
+     "ERA": 2.99,
+     "IP": "319.0",
+     "SO": 108,
+     "BB": 88,
+     "SV": 1,
+     "GS": 39,
+     "CG": 28,
+     "SHO": 2,
+     "HRA": 8,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1920,
+     "id": 124293,
+     "name": "Lefty Williams",
+     "team": "Chicago White Sox",
+     "age": 27,
+     "W": 22,
+     "L": 14,
+     "ERA": 3.82,
+     "IP": "299.0",
+     "SO": 128,
+     "BB": 90,
+     "SV": 0,
+     "GS": 38,
+     "CG": 25,
+     "SHO": 0,
+     "HRA": 15,
+     "WHIP": 1.31
+    },
+    {
+     "season": 1920,
+     "id": 112288,
+     "name": "Eddie Cicotte",
+     "team": "Chicago White Sox",
+     "age": 36,
+     "W": 21,
+     "L": 10,
+     "ERA": 3.26,
+     "IP": "303.1",
+     "SO": 87,
+     "BB": 74,
+     "SV": 2,
+     "GS": 35,
+     "CG": 28,
+     "SHO": 4,
+     "HRA": 6,
+     "WHIP": 1.29
+    }
+   ],
+   "text": "16 teams of the 1920s had two players at 20 wins; the biggest pairing was the 1920 Chicago White Sox — Red Faber 23, Lefty Williams 22, Eddie Cicotte 21."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "dec_hits",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 116156,
+     "name": "Rogers Hornsby"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 116156,
+     "name": "Rogers Hornsby",
+     "n": 10,
+     "HR": 250,
+     "H": 2085,
+     "RBI": 1153,
+     "SB": 74,
+     "R": 1195,
+     "BB": 753,
+     "SO": 431,
+     "2B": 405,
+     "3B": 115,
+     "PA": 6389
+    }
+   ],
+   "text": "Most hits of the 1920s: Rogers Hornsby, 2085."
+  },
+  {
+   "n": 72,
+   "kind": "total",
+   "rule": "dec_sb",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 111989,
+     "name": "Max Carey"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 111989,
+     "name": "Max Carey",
+     "n": 10,
+     "HR": 40,
+     "H": 1381,
+     "RBI": 432,
+     "SB": 346,
+     "R": 818,
+     "BB": 558,
+     "SO": 214,
+     "2B": 239,
+     "3B": 77,
+     "PA": 5412
+    }
+   ],
+   "text": "Most stolen bases of the 1920s: Max Carey, 346."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "dec_3b",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 121137,
+     "name": "Sam Rice"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 121137,
+     "name": "Sam Rice",
+     "n": 10,
+     "HR": 26,
+     "H": 2010,
+     "RBI": 724,
+     "SB": 254,
+     "R": 1001,
+     "BB": 447,
+     "SO": 147,
+     "2B": 346,
+     "3B": 133,
+     "PA": 6826
+    }
+   ],
+   "text": "Most triples of the 1920s: Sam Rice, 133."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "dec_w",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 115162,
+     "name": "Burleigh Grimes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 115162,
+     "name": "Burleigh Grimes",
+     "n": 10,
+     "W": 190,
+     "L": 130,
+     "SO": 1018,
+     "SV": 11,
+     "SHO": 20,
+     "CG": 234,
+     "OUTS": 8393,
+     "BB": 842
+    }
+   ],
+   "text": "Most wins of the 1920s: Burleigh Grimes, 190."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "dec_l",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 118012,
+     "name": "Dolf Luque"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 118012,
+     "name": "Dolf Luque",
+     "n": 10,
+     "W": 138,
+     "L": 146,
+     "SO": 904,
+     "SV": 7,
+     "SHO": 21,
+     "CG": 168,
+     "OUTS": 7439,
+     "BB": 688
+    }
+   ],
+   "text": "Most losses of the 1920s: Dolf Luque, 146 — and 138 wins."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "dec_k",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 123630,
+     "name": "Dazzy Vance"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 123630,
+     "name": "Dazzy Vance",
+     "n": 8,
+     "W": 147,
+     "L": 90,
+     "SO": 1464,
+     "SV": 4,
+     "SHO": 22,
+     "CG": 171,
+     "OUTS": 6161,
+     "BB": 583
+    }
+   ],
+   "text": "Most strikeouts of the 1920s: Dazzy Vance, 1464."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "dec_cg",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [
+    {
+     "id": 115162,
+     "name": "Burleigh Grimes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 115162,
+     "name": "Burleigh Grimes",
+     "n": 10,
+     "W": 190,
+     "L": 130,
+     "SO": 1018,
+     "SV": 11,
+     "SHO": 20,
+     "CG": 234,
+     "OUTS": 8393,
+     "BB": 842
+    }
+   ],
+   "text": "Most complete games of the 1920s: Burleigh Grimes, 234."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "n_30hr_most",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 1
+    },
+    {
+     "season": 1921,
+     "count": 1
+    },
+    {
+     "season": 1922,
+     "count": 5
+    },
+    {
+     "season": 1923,
+     "count": 3
+    },
+    {
+     "season": 1924,
+     "count": 4
+    },
+    {
+     "season": 1925,
+     "count": 4
+    },
+    {
+     "season": 1926,
+     "count": 2
+    },
+    {
+     "season": 1927,
+     "count": 6
+    },
+    {
+     "season": 1928,
+     "count": 6
+    },
+    {
+     "season": 1929,
+     "count": 14
+    }
+   ],
+   "text": "1929 had 14 25-homer hitters, the most of any season in the 1920s."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "n_30hr_least",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 1
+    },
+    {
+     "season": 1921,
+     "count": 1
+    },
+    {
+     "season": 1922,
+     "count": 5
+    },
+    {
+     "season": 1923,
+     "count": 3
+    },
+    {
+     "season": 1924,
+     "count": 4
+    },
+    {
+     "season": 1925,
+     "count": 4
+    },
+    {
+     "season": 1926,
+     "count": 2
+    },
+    {
+     "season": 1927,
+     "count": 6
+    },
+    {
+     "season": 1928,
+     "count": 6
+    },
+    {
+     "season": 1929,
+     "count": 14
+    }
+   ],
+   "text": "1920 had just 1 25-homer hitters, the fewest of any season in the 1920s."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "n_300_most",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 37
+    },
+    {
+     "season": 1921,
+     "count": 53
+    },
+    {
+     "season": 1922,
+     "count": 45
+    },
+    {
+     "season": 1923,
+     "count": 42
+    },
+    {
+     "season": 1924,
+     "count": 41
+    },
+    {
+     "season": 1925,
+     "count": 44
+    },
+    {
+     "season": 1926,
+     "count": 36
+    },
+    {
+     "season": 1927,
+     "count": 43
+    },
+    {
+     "season": 1928,
+     "count": 40
+    },
+    {
+     "season": 1929,
+     "count": 56
+    }
+   ],
+   "text": "1929 had 56 .300 hitters (500+ PA), the most of any season in the 1920s."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "n_300_least",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1926
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 37
+    },
+    {
+     "season": 1921,
+     "count": 53
+    },
+    {
+     "season": 1922,
+     "count": 45
+    },
+    {
+     "season": 1923,
+     "count": 42
+    },
+    {
+     "season": 1924,
+     "count": 41
+    },
+    {
+     "season": 1925,
+     "count": 44
+    },
+    {
+     "season": 1926,
+     "count": 36
+    },
+    {
+     "season": 1927,
+     "count": 43
+    },
+    {
+     "season": 1928,
+     "count": 40
+    },
+    {
+     "season": 1929,
+     "count": 56
+    }
+   ],
+   "text": "1926 had just 36 .300 hitters (500+ PA), the fewest of any season in the 1920s."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "n_100rbi_most",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 9
+    },
+    {
+     "season": 1921,
+     "count": 15
+    },
+    {
+     "season": 1922,
+     "count": 9
+    },
+    {
+     "season": 1923,
+     "count": 12
+    },
+    {
+     "season": 1924,
+     "count": 14
+    },
+    {
+     "season": 1925,
+     "count": 18
+    },
+    {
+     "season": 1926,
+     "count": 14
+    },
+    {
+     "season": 1927,
+     "count": 17
+    },
+    {
+     "season": 1928,
+     "count": 15
+    },
+    {
+     "season": 1929,
+     "count": 28
+    }
+   ],
+   "text": "1929 had 28 100-RBI hitters, the most of any season in the 1920s."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "n_100rbi_least",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 9
+    },
+    {
+     "season": 1921,
+     "count": 15
+    },
+    {
+     "season": 1922,
+     "count": 9
+    },
+    {
+     "season": 1923,
+     "count": 12
+    },
+    {
+     "season": 1924,
+     "count": 14
+    },
+    {
+     "season": 1925,
+     "count": 18
+    },
+    {
+     "season": 1926,
+     "count": 14
+    },
+    {
+     "season": 1927,
+     "count": 17
+    },
+    {
+     "season": 1928,
+     "count": 15
+    },
+    {
+     "season": 1929,
+     "count": 28
+    }
+   ],
+   "text": "1920 had just 9 100-RBI hitters, the fewest of any season in the 1920s."
+  },
+  {
+   "n": 84,
+   "kind": "season",
+   "rule": "n_sb_most",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 6
+    },
+    {
+     "season": 1921,
+     "count": 6
+    },
+    {
+     "season": 1922,
+     "count": 5
+    },
+    {
+     "season": 1923,
+     "count": 6
+    },
+    {
+     "season": 1924,
+     "count": 3
+    },
+    {
+     "season": 1925,
+     "count": 4
+    },
+    {
+     "season": 1926,
+     "count": 3
+    },
+    {
+     "season": 1927,
+     "count": 2
+    },
+    {
+     "season": 1928,
+     "count": 2
+    },
+    {
+     "season": 1929,
+     "count": 5
+    }
+   ],
+   "text": "1920 had 6 30-steal players, the most of any season in the 1920s."
+  },
+  {
+   "n": 85,
+   "kind": "season",
+   "rule": "n_sb_least",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 6
+    },
+    {
+     "season": 1921,
+     "count": 6
+    },
+    {
+     "season": 1922,
+     "count": 5
+    },
+    {
+     "season": 1923,
+     "count": 6
+    },
+    {
+     "season": 1924,
+     "count": 3
+    },
+    {
+     "season": 1925,
+     "count": 4
+    },
+    {
+     "season": 1926,
+     "count": 3
+    },
+    {
+     "season": 1927,
+     "count": 2
+    },
+    {
+     "season": 1928,
+     "count": 2
+    },
+    {
+     "season": 1929,
+     "count": 5
+    }
+   ],
+   "text": "1927 had just 2 30-steal players, the fewest of any season in the 1920s."
+  },
+  {
+   "n": 86,
+   "kind": "season",
+   "rule": "n_200h_most",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 11
+    },
+    {
+     "season": 1921,
+     "count": 12
+    },
+    {
+     "season": 1922,
+     "count": 12
+    },
+    {
+     "season": 1923,
+     "count": 10
+    },
+    {
+     "season": 1924,
+     "count": 6
+    },
+    {
+     "season": 1925,
+     "count": 14
+    },
+    {
+     "season": 1926,
+     "count": 4
+    },
+    {
+     "season": 1927,
+     "count": 8
+    },
+    {
+     "season": 1928,
+     "count": 7
+    },
+    {
+     "season": 1929,
+     "count": 19
+    }
+   ],
+   "text": "1929 had 19 200-hit seasons, the most of any season in the 1920s."
+  },
+  {
+   "n": 87,
+   "kind": "season",
+   "rule": "n_200h_least",
+   "group": "H",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1926
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 11
+    },
+    {
+     "season": 1921,
+     "count": 12
+    },
+    {
+     "season": 1922,
+     "count": 12
+    },
+    {
+     "season": 1923,
+     "count": 10
+    },
+    {
+     "season": 1924,
+     "count": 6
+    },
+    {
+     "season": 1925,
+     "count": 14
+    },
+    {
+     "season": 1926,
+     "count": 4
+    },
+    {
+     "season": 1927,
+     "count": 8
+    },
+    {
+     "season": 1928,
+     "count": 7
+    },
+    {
+     "season": 1929,
+     "count": 19
+    }
+   ],
+   "text": "1926 had just 4 200-hit seasons, the fewest of any season in the 1920s."
+  },
+  {
+   "n": 88,
+   "kind": "season",
+   "rule": "n_20w_most",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 17
+    },
+    {
+     "season": 1921,
+     "count": 9
+    },
+    {
+     "season": 1922,
+     "count": 9
+    },
+    {
+     "season": 1923,
+     "count": 12
+    },
+    {
+     "season": 1924,
+     "count": 9
+    },
+    {
+     "season": 1925,
+     "count": 7
+    },
+    {
+     "season": 1926,
+     "count": 6
+    },
+    {
+     "season": 1927,
+     "count": 8
+    },
+    {
+     "season": 1928,
+     "count": 11
+    },
+    {
+     "season": 1929,
+     "count": 4
+    }
+   ],
+   "text": "1920 had 17 20-game winners, the most of any season in the 1920s."
+  },
+  {
+   "n": 89,
+   "kind": "season",
+   "rule": "n_20w_least",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 17
+    },
+    {
+     "season": 1921,
+     "count": 9
+    },
+    {
+     "season": 1922,
+     "count": 9
+    },
+    {
+     "season": 1923,
+     "count": 12
+    },
+    {
+     "season": 1924,
+     "count": 9
+    },
+    {
+     "season": 1925,
+     "count": 7
+    },
+    {
+     "season": 1926,
+     "count": 6
+    },
+    {
+     "season": 1927,
+     "count": 8
+    },
+    {
+     "season": 1928,
+     "count": 11
+    },
+    {
+     "season": 1929,
+     "count": 4
+    }
+   ],
+   "text": "1929 had just 4 20-game winners, the fewest of any season in the 1920s."
+  },
+  {
+   "n": 90,
+   "kind": "season",
+   "rule": "n_k_most",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1923
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 1
+    },
+    {
+     "season": 1921,
+     "count": 0
+    },
+    {
+     "season": 1922,
+     "count": 0
+    },
+    {
+     "season": 1923,
+     "count": 3
+    },
+    {
+     "season": 1924,
+     "count": 2
+    },
+    {
+     "season": 1925,
+     "count": 1
+    },
+    {
+     "season": 1926,
+     "count": 3
+    },
+    {
+     "season": 1927,
+     "count": 2
+    },
+    {
+     "season": 1928,
+     "count": 3
+    },
+    {
+     "season": 1929,
+     "count": 3
+    }
+   ],
+   "text": "1923 had 3 150-strikeout pitchers, the most of any season in the 1920s."
+  },
+  {
+   "n": 91,
+   "kind": "season",
+   "rule": "n_k_least",
+   "group": "P",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1921
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 1
+    },
+    {
+     "season": 1921,
+     "count": 0
+    },
+    {
+     "season": 1922,
+     "count": 0
+    },
+    {
+     "season": 1923,
+     "count": 3
+    },
+    {
+     "season": 1924,
+     "count": 2
+    },
+    {
+     "season": 1925,
+     "count": 1
+    },
+    {
+     "season": 1926,
+     "count": 3
+    },
+    {
+     "season": 1927,
+     "count": 2
+    },
+    {
+     "season": 1928,
+     "count": 3
+    },
+    {
+     "season": 1929,
+     "count": 3
+    }
+   ],
+   "text": "1921 had no 150-strikeout pitchers at all — one of the seasons of the 1920s without one."
+  },
+  {
+   "n": 92,
+   "kind": "team",
+   "rule": "100l",
+   "group": "T",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 143,
+     "name": "Phillies",
+     "wins": 43,
+     "losses": 109,
+     "runsScored": 660,
+     "runsAllowed": 957,
+     "runDifferential": -297,
+     "leagueRank": 8,
+     "season": 1928
+    },
+    {
+     "id": 111,
+     "name": "Red Sox",
+     "wins": 46,
+     "losses": 107,
+     "runsScored": 562,
+     "runsAllowed": 835,
+     "runDifferential": -273,
+     "leagueRank": 8,
+     "season": 1926
+    },
+    {
+     "id": 133,
+     "name": "Athletics",
+     "wins": 48,
+     "losses": 106,
+     "runsScored": 558,
+     "runsAllowed": 834,
+     "runDifferential": -276,
+     "leagueRank": 8,
+     "season": 1920
+    },
+    {
+     "id": 111,
+     "name": "Red Sox",
+     "wins": 47,
+     "losses": 105,
+     "runsScored": 639,
+     "runsAllowed": 922,
+     "runDifferential": -283,
+     "leagueRank": 8,
+     "season": 1925
+    },
+    {
+     "id": 143,
+     "name": "Phillies",
+     "wins": 50,
+     "losses": 104,
+     "runsScored": 748,
+     "runsAllowed": 1008,
+     "runDifferential": -260,
+     "leagueRank": 8,
+     "season": 1923
+    },
+    {
+     "id": 143,
+     "name": "Phillies",
+     "wins": 51,
+     "losses": 103,
+     "runsScored": 617,
+     "runsAllowed": 919,
+     "runDifferential": -302,
+     "leagueRank": 8,
+     "season": 1921
+    }
+   ],
+   "text": "13 teams of the 1920s lost 100 games; the worst was the 1928 Phillies at 43-109."
+  },
+  {
+   "n": 93,
+   "kind": "team",
+   "rule": "best_diff",
+   "group": "T",
+   "decade": 1920,
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 147,
+     "name": "Yankees",
+     "wins": 110,
+     "losses": 44,
+     "runsScored": 975,
+     "runsAllowed": 599,
+     "runDifferential": 376,
+     "leagueRank": 1,
+     "season": 1927
+    }
+   ],
+   "text": "Best run differential of the 1920s: the 1927 Yankees, +376 (975 scored, 599 allowed)."
+  },
+  {
+   "n": 94,
+   "rule": "old_avg",
+   "group": "H",
+   "decade": 1920,
+   "finder": {
+    "group": "batting",
+    "ageMin": 36,
+    "filters": [
+     [
+      "PA",
+      "gte",
+      500
+     ],
+     [
+      "BA",
+      "gte",
+      0.32
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1925,
+     "id": 122566,
+     "name": "Tristram Speaker",
+     "team": "Cleveland Indians",
+     "age": 37,
+     "PA": 518,
+     "AVG": 0.389,
+     "OBP": 0.479,
+     "SLG": 0.578,
+     "OPS": 1.057,
+     "HR": 12,
+     "RBI": 87,
+     "R": 79,
+     "H": 167,
+     "2B": 35,
+     "3B": 5,
+     "SB": 5,
+     "CS": 2,
+     "BB": 70,
+     "SO": 12,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 112431,
+     "name": "Ty Cobb",
+     "team": "Philadelphia Athletics",
+     "age": 40,
+     "PA": 574,
+     "AVG": 0.357,
+     "OBP": 0.44,
+     "SLG": 0.482,
+     "OPS": 0.922,
+     "HR": 5,
+     "RBI": 93,
+     "R": 104,
+     "H": 175,
+     "2B": 32,
+     "3B": 7,
+     "SB": 22,
+     "CS": 16,
+     "BB": 67,
+     "SO": 12,
+     "HBP": 5,
+     "GIDP": 0
+    },
+    {
+     "season": 1924,
+     "id": 124134,
+     "name": "Zack Wheat",
+     "team": "Brooklyn Robins",
+     "age": 36,
+     "PA": 624,
+     "AVG": 0.375,
+     "OBP": 0.428,
+     "SLG": 0.549,
+     "OPS": 0.977,
+     "HR": 14,
+     "RBI": 97,
+     "R": 92,
+     "H": 212,
+     "2B": 41,
+     "3B": 8,
+     "SB": 3,
+     "CS": 4,
+     "BB": 49,
+     "SO": 18,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 124134,
+     "name": "Zack Wheat",
+     "team": "Brooklyn Robins",
+     "age": 37,
+     "PA": 670,
+     "AVG": 0.359,
+     "OBP": 0.403,
+     "SLG": 0.541,
+     "OPS": 0.944,
+     "HR": 14,
+     "RBI": 103,
+     "R": 125,
+     "H": 221,
+     "2B": 42,
+     "3B": 14,
+     "SB": 3,
+     "CS": 1,
+     "BB": 45,
+     "SO": 22,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 112506,
+     "name": "Eddie Collins Sr.",
+     "team": "Chicago White Sox",
+     "age": 38,
+     "PA": 533,
+     "AVG": 0.346,
+     "OBP": 0.461,
+     "SLG": 0.442,
+     "OPS": 0.903,
+     "HR": 3,
+     "RBI": 80,
+     "R": 80,
+     "H": 147,
+     "2B": 26,
+     "3B": 3,
+     "SB": 19,
+     "CS": 6,
+     "BB": 87,
+     "SO": 8,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1923,
+     "id": 112506,
+     "name": "Eddie Collins Sr.",
+     "team": "Chicago White Sox",
+     "age": 36,
+     "PA": 632,
+     "AVG": 0.36,
+     "OBP": 0.455,
+     "SLG": 0.453,
+     "OPS": 0.908,
+     "HR": 5,
+     "RBI": 67,
+     "R": 89,
+     "H": 182,
+     "2B": 22,
+     "3B": 5,
+     "SB": 48,
+     "CS": 29,
+     "BB": 84,
+     "SO": 8,
+     "HBP": 4,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 4.8975,
+   "players": [
+    {
+     "id": 122566,
+     "name": "Tristram Speaker"
+    }
+   ],
+   "seasons": [
+    1925
+   ],
+   "text": "10 hitters batted .320 at age 36 or older (500+ PA) in the 1920s (19 seasons). The most extreme: Tristram Speaker, 1925 — .389 at 37."
+  },
+  {
+   "n": 95,
+   "rule": "old_arm",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "ageMin": 37,
+    "filters": [
+     [
+      "W",
+      "gte",
+      15
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1928,
+     "id": 120843,
+     "name": "Jack Quinn",
+     "team": "Philadelphia Athletics",
+     "age": 44,
+     "W": 18,
+     "L": 7,
+     "ERA": 2.9,
+     "IP": "211.1",
+     "SO": 43,
+     "BB": 34,
+     "SV": 1,
+     "GS": 28,
+     "CG": 18,
+     "SHO": 4,
+     "HRA": 3,
+     "WHIP": 1.29
+    },
+    {
+     "season": 1927,
+     "id": 110127,
+     "name": "Grover Alexander",
+     "team": "St. Louis Cardinals",
+     "age": 40,
+     "W": 21,
+     "L": 10,
+     "ERA": 2.52,
+     "IP": "268.0",
+     "SO": 48,
+     "BB": 38,
+     "SV": 3,
+     "GS": 30,
+     "CG": 22,
+     "SHO": 2,
+     "HRA": 11,
+     "WHIP": 1.12
+    },
+    {
+     "season": 1928,
+     "id": 123630,
+     "name": "Dazzy Vance",
+     "team": "Brooklyn Robins",
+     "age": 37,
+     "W": 22,
+     "L": 10,
+     "ERA": 2.09,
+     "IP": "280.1",
+     "SO": 200,
+     "BB": 72,
+     "SV": 2,
+     "GS": 32,
+     "CG": 24,
+     "SHO": 4,
+     "HRA": 11,
+     "WHIP": 1.06
+    },
+    {
+     "season": 1927,
+     "id": 120843,
+     "name": "Jack Quinn",
+     "team": "Philadelphia Athletics",
+     "age": 43,
+     "W": 15,
+     "L": 10,
+     "ERA": 3.22,
+     "IP": "201.1",
+     "SO": 43,
+     "BB": 37,
+     "SV": 1,
+     "GS": 26,
+     "CG": 11,
+     "SHO": 3,
+     "HRA": 8,
+     "WHIP": 1.23
+    },
+    {
+     "season": 1925,
+     "id": 116635,
+     "name": "Walter Johnson",
+     "team": "Washington Senators",
+     "age": 37,
+     "W": 20,
+     "L": 7,
+     "ERA": 3.07,
+     "IP": "229.0",
+     "SO": 108,
+     "BB": 78,
+     "SV": 0,
+     "GS": 29,
+     "CG": 16,
+     "SHO": 3,
+     "HRA": 7,
+     "WHIP": 1.29
+    },
+    {
+     "season": 1928,
+     "id": 110127,
+     "name": "Grover Alexander",
+     "team": "St. Louis Cardinals",
+     "age": 41,
+     "W": 16,
+     "L": 9,
+     "ERA": 3.36,
+     "IP": "243.2",
+     "SO": 59,
+     "BB": 37,
+     "SV": 2,
+     "GS": 31,
+     "CG": 18,
+     "SHO": 1,
+     "HRA": 15,
+     "WHIP": 1.23
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 4.55,
+   "players": [
+    {
+     "id": 120843,
+     "name": "Jack Quinn"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "text": "8 pitchers won 15+ games at age 37 or older in the 1920s (12 seasons). The most extreme: Jack Quinn, 1928 — 18-7 at 44."
+  },
+  {
+   "n": 96,
+   "rule": "twenty_twenty",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      20
+     ],
+     [
+      "L",
+      "gte",
+      15
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1923,
+     "id": 123550,
+     "name": "George Uhle",
+     "team": "Cleveland Indians",
+     "age": 24,
+     "W": 26,
+     "L": 16,
+     "ERA": 3.77,
+     "IP": "357.2",
+     "SO": 109,
+     "BB": 102,
+     "SV": 5,
+     "GS": 44,
+     "CG": 29,
+     "SHO": 1,
+     "HRA": 8,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1922,
+     "id": 122176,
+     "name": "Urban Shocker",
+     "team": "St. Louis Browns",
+     "age": 31,
+     "W": 24,
+     "L": 17,
+     "ERA": 2.97,
+     "IP": "348.0",
+     "SO": 149,
+     "BB": 57,
+     "SV": 3,
+     "GS": 38,
+     "CG": 29,
+     "SHO": 2,
+     "HRA": 22,
+     "WHIP": 1.21
+    },
+    {
+     "season": 1927,
+     "id": 121440,
+     "name": "Charlie Root",
+     "team": "Chicago Cubs",
+     "age": 28,
+     "W": 26,
+     "L": 15,
+     "ERA": 3.76,
+     "IP": "309.0",
+     "SO": 145,
+     "BB": 117,
+     "SV": 2,
+     "GS": 36,
+     "CG": 21,
+     "SHO": 4,
+     "HRA": 16,
+     "WHIP": 1.34
+    },
+    {
+     "season": 1921,
+     "id": 113965,
+     "name": "Red Faber",
+     "team": "Chicago White Sox",
+     "age": 32,
+     "W": 25,
+     "L": 15,
+     "ERA": 2.48,
+     "IP": "330.2",
+     "SO": 124,
+     "BB": 87,
+     "SV": 1,
+     "GS": 39,
+     "CG": 32,
+     "SHO": 4,
+     "HRA": 10,
+     "WHIP": 1.15
+    },
+    {
+     "season": 1920,
+     "id": 112649,
+     "name": "Wilbur Cooper",
+     "team": "Pittsburgh Pirates",
+     "age": 28,
+     "W": 24,
+     "L": 15,
+     "ERA": 2.39,
+     "IP": "327.0",
+     "SO": 114,
+     "BB": 52,
+     "SV": 2,
+     "GS": 37,
+     "CG": 28,
+     "SHO": 3,
+     "HRA": 4,
+     "WHIP": 1.1
+    },
+    {
+     "season": 1921,
+     "id": 116726,
+     "name": "Sad Sam Jones",
+     "team": "Boston Red Sox",
+     "age": 28,
+     "W": 23,
+     "L": 16,
+     "ERA": 3.22,
+     "IP": "298.2",
+     "SO": 98,
+     "BB": 78,
+     "SV": 1,
+     "GS": 38,
+     "CG": 25,
+     "SHO": 5,
+     "HRA": 1,
+     "WHIP": 1.33
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 4.05,
+   "players": [
+    {
+     "id": 123550,
+     "name": "George Uhle"
+    }
+   ],
+   "seasons": [
+    1923
+   ],
+   "text": "12 pitchers won 20 and lost 15 in the same season in the 1920s (14 seasons). The most extreme: George Uhle, 1923 — 26-16."
+  },
+  {
+   "n": 97,
+   "kind": "team",
+   "rule": "worst_diff",
+   "group": "T",
+   "decade": 1920,
+   "score": 4,
+   "players": [],
+   "seasons": [
+    1921
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 143,
+     "name": "Phillies",
+     "wins": 51,
+     "losses": 103,
+     "runsScored": 617,
+     "runsAllowed": 919,
+     "runDifferential": -302,
+     "leagueRank": 8,
+     "season": 1921
+    }
+   ],
+   "text": "Worst run differential of the 1920s: the 1921 Phillies, -302 (617 scored, 919 allowed)."
+  },
+  {
+   "n": 98,
+   "rule": "hr_over_k",
+   "group": "H",
+   "decade": 1920,
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1926,
+     "id": 817055,
+     "name": "Mule Suttles",
+     "team": "St. Louis Stars",
+     "age": 25,
+     "PA": 397,
+     "AVG": 0.425,
+     "OBP": 0.472,
+     "SLG": 0.877,
+     "OPS": 1.349,
+     "HR": 32,
+     "RBI": 130,
+     "R": 90,
+     "H": 152,
+     "2B": 28,
+     "3B": 19,
+     "SB": 15,
+     "CS": null,
+     "BB": 31,
+     "SO": 0,
+     "HBP": 1,
+     "GIDP": 0
+    },
+    {
+     "season": 1927,
+     "id": 816676,
+     "name": "Willie Wells",
+     "team": "St. Louis Stars",
+     "age": 20,
+     "PA": 434,
+     "AVG": 0.365,
+     "OBP": 0.455,
+     "SLG": 0.69,
+     "OPS": 1.145,
+     "HR": 29,
+     "RBI": 105,
+     "R": 91,
+     "H": 133,
+     "2B": 21,
+     "3B": 5,
+     "SB": 13,
+     "CS": null,
+     "BB": 55,
+     "SO": 0,
+     "HBP": 5,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 816676,
+     "name": "Willie Wells",
+     "team": "2+ teams",
+     "age": 22,
+     "PA": 444,
+     "AVG": 0.361,
+     "OBP": 0.441,
+     "SLG": 0.67,
+     "OPS": 1.111,
+     "HR": 27,
+     "RBI": 121,
+     "R": 109,
+     "H": 137,
+     "2B": 24,
+     "3B": 6,
+     "SB": 32,
+     "CS": null,
+     "BB": 49,
+     "SO": 0,
+     "HBP": 5,
+     "GIDP": 0
+    },
+    {
+     "season": 1929,
+     "id": 119941,
+     "name": "Lefty O'Doul",
+     "team": "Philadelphia Phillies",
+     "age": 32,
+     "PA": 731,
+     "AVG": 0.398,
+     "OBP": 0.465,
+     "SLG": 0.622,
+     "OPS": 1.087,
+     "HR": 32,
+     "RBI": 122,
+     "R": 152,
+     "H": 254,
+     "2B": 35,
+     "3B": 6,
+     "SB": 2,
+     "CS": null,
+     "BB": 76,
+     "SO": 19,
+     "HBP": 4,
+     "GIDP": 0
+    },
+    {
+     "season": 1925,
+     "id": 124321,
+     "name": "Ken Williams",
+     "team": "St. Louis Browns",
+     "age": 35,
+     "PA": 462,
+     "AVG": 0.331,
+     "OBP": 0.39,
+     "SLG": 0.613,
+     "OPS": 1.003,
+     "HR": 25,
+     "RBI": 105,
+     "R": 83,
+     "H": 136,
+     "2B": 31,
+     "3B": 5,
+     "SB": 10,
+     "CS": 5,
+     "BB": 37,
+     "SO": 14,
+     "HBP": 3,
+     "GIDP": 0
+    },
+    {
+     "season": 1922,
+     "id": 124321,
+     "name": "Ken Williams",
+     "team": "St. Louis Browns",
+     "age": 32,
+     "PA": 678,
+     "AVG": 0.332,
+     "OBP": 0.413,
+     "SLG": 0.627,
+     "OPS": 1.04,
+     "HR": 39,
+     "RBI": 155,
+     "R": 128,
+     "H": 194,
+     "2B": 34,
+     "3B": 11,
+     "SB": 37,
+     "CS": 20,
+     "BB": 74,
+     "SO": 31,
+     "HBP": 7,
+     "GIDP": 0
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 3.8,
+   "players": [
+    {
+     "id": 817055,
+     "name": "Mule Suttles"
+    }
+   ],
+   "seasons": [
+    1926
+   ],
+   "text": "5 hitters hit 25+ homers with more homers than strikeouts in the 1920s (7 seasons). The most extreme: Mule Suttles, 1926 — 32 HR, 0 K."
+  },
+  {
+   "n": 99,
+   "rule": "twenty_five_wins",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "W",
+      "gte",
+      25
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 110431,
+     "name": "Jim Bagby Sr.",
+     "team": "Cleveland Indians",
+     "age": 30,
+     "W": 31,
+     "L": 12,
+     "ERA": 2.89,
+     "IP": "339.2",
+     "SO": 73,
+     "BB": 79,
+     "SV": 0,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 3,
+     "HRA": 9,
+     "WHIP": 1.23
+    },
+    {
+     "season": 1924,
+     "id": 123630,
+     "name": "Dazzy Vance",
+     "team": "Brooklyn Robins",
+     "age": 33,
+     "W": 28,
+     "L": 6,
+     "ERA": 2.16,
+     "IP": "308.1",
+     "SO": 262,
+     "BB": 77,
+     "SV": 0,
+     "GS": 34,
+     "CG": 30,
+     "SHO": 3,
+     "HRA": 11,
+     "WHIP": 1.02
+    },
+    {
+     "season": 1920,
+     "id": 110127,
+     "name": "Grover Alexander",
+     "team": "Chicago Cubs",
+     "age": 33,
+     "W": 27,
+     "L": 14,
+     "ERA": 1.91,
+     "IP": "363.1",
+     "SO": 173,
+     "BB": 69,
+     "SV": 5,
+     "GS": 40,
+     "CG": 33,
+     "SHO": 7,
+     "HRA": 8,
+     "WHIP": 1.11
+    },
+    {
+     "season": 1921,
+     "id": 118494,
+     "name": "Carl Mays",
+     "team": "New York Yankees",
+     "age": 29,
+     "W": 27,
+     "L": 9,
+     "ERA": 3.05,
+     "IP": "336.2",
+     "SO": 70,
+     "BB": 76,
+     "SV": 7,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 1,
+     "HRA": 11,
+     "WHIP": 1.21
+    },
+    {
+     "season": 1921,
+     "id": 122176,
+     "name": "Urban Shocker",
+     "team": "St. Louis Browns",
+     "age": 30,
+     "W": 27,
+     "L": 12,
+     "ERA": 3.55,
+     "IP": "326.2",
+     "SO": 132,
+     "BB": 86,
+     "SV": 4,
+     "GS": 38,
+     "CG": 30,
+     "SHO": 4,
+     "HRA": 21,
+     "WHIP": 1.32
+    },
+    {
+     "season": 1922,
+     "id": 121426,
+     "name": "Eddie Rommel",
+     "team": "Philadelphia Athletics",
+     "age": 24,
+     "W": 27,
+     "L": 13,
+     "ERA": 3.28,
+     "IP": "294.0",
+     "SO": 54,
+     "BB": 63,
+     "SV": 2,
+     "GS": 33,
+     "CG": 22,
+     "SHO": 3,
+     "HRA": 21,
+     "WHIP": 1.21
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 3.775,
+   "players": [
+    {
+     "id": 110431,
+     "name": "Jim Bagby Sr."
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "15 pitchers won 25 games in the 1920s (17 seasons). The most extreme: Jim Bagby Sr., 1920 — 31-12."
+  },
+  {
+   "n": 100,
+   "rule": "twenty_losses",
+   "group": "P",
+   "decade": 1920,
+   "finder": {
+    "group": "pitching",
+    "qualifiers": "nomin",
+    "filters": [
+     [
+      "L",
+      "gte",
+      20
+     ]
+    ],
+    "seasonMin": 1920,
+    "seasonMax": 1929
+   },
+   "evidence": [
+    {
+     "season": 1920,
+     "id": 120441,
+     "name": "Scott Perry",
+     "team": "Philadelphia Athletics",
+     "age": 29,
+     "W": 11,
+     "L": 25,
+     "ERA": 3.62,
+     "IP": "263.2",
+     "SO": 79,
+     "BB": 65,
+     "SV": 1,
+     "GS": 34,
+     "CG": 20,
+     "SHO": 1,
+     "HRA": 14,
+     "WHIP": 1.42
+    },
+    {
+     "season": 1928,
+     "id": 121547,
+     "name": "Red Ruffing",
+     "team": "Boston Red Sox",
+     "age": 23,
+     "W": 10,
+     "L": 25,
+     "ERA": 3.89,
+     "IP": "289.1",
+     "SO": 118,
+     "BB": 96,
+     "SV": 2,
+     "GS": 34,
+     "CG": 25,
+     "SHO": 1,
+     "HRA": 8,
+     "WHIP": 1.38
+    },
+    {
+     "season": 1920,
+     "id": 119671,
+     "name": "Rollie Naylor",
+     "team": "Philadelphia Athletics",
+     "age": 28,
+     "W": 10,
+     "L": 23,
+     "ERA": 3.47,
+     "IP": "251.1",
+     "SO": 90,
+     "BB": 86,
+     "SV": 0,
+     "GS": 36,
+     "CG": 20,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.56
+    },
+    {
+     "season": 1921,
+     "id": 121426,
+     "name": "Eddie Rommel",
+     "team": "Philadelphia Athletics",
+     "age": 23,
+     "W": 16,
+     "L": 23,
+     "ERA": 3.94,
+     "IP": "285.1",
+     "SO": 71,
+     "BB": 87,
+     "SV": 3,
+     "GS": 32,
+     "CG": 20,
+     "SHO": 0,
+     "HRA": 21,
+     "WHIP": 1.4
+    },
+    {
+     "season": 1922,
+     "id": 118012,
+     "name": "Dolf Luque",
+     "team": "Cincinnati Reds",
+     "age": 31,
+     "W": 13,
+     "L": 23,
+     "ERA": 3.31,
+     "IP": "261.0",
+     "SO": 79,
+     "BB": 72,
+     "SV": 0,
+     "GS": 33,
+     "CG": 18,
+     "SHO": 0,
+     "HRA": 7,
+     "WHIP": 1.3
+    },
+    {
+     "season": 1920,
+     "id": 121255,
+     "name": "Eppa Rixey",
+     "team": "Philadelphia Phillies",
+     "age": 29,
+     "W": 11,
+     "L": 22,
+     "ERA": 3.48,
+     "IP": "284.1",
+     "SO": 109,
+     "BB": 69,
+     "SV": 2,
+     "GS": 34,
+     "CG": 25,
+     "SHO": 0,
+     "HRA": 5,
+     "WHIP": 1.26
+    }
+   ],
+   "seasonsMatched": 22,
+   "kind": "list",
+   "score": 3.625,
+   "players": [
+    {
+     "id": 120441,
+     "name": "Scott Perry"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "19 pitchers lost 20 games in the 1920s (22 seasons). The most extreme: Scott Perry, 1920 — 11-25."
+  }
+ ],
+ "counts": {
+  "hitterSeasons": 7745,
+  "pitcherSeasons": 3172
+ },
+ "method": [
+  "Every fact is a predicate evaluated over every hitter-season and pitcher-season in the decade, pulled in full from the MLB Stats API (the official record). Nothing is recalled or estimated; the rows that satisfy each rule are stored with it.",
+  "'Only', 'two' and 'three/four' claims are exact counts across the complete pull. Where a rule uses a plate-appearance or innings floor instead of a league qualification bar, the floor is stated in the fact so the claim is reproducible.",
+  "Thresholds are era-aware (strikeouts, saves and home runs meant different things in 1925 and 1995) and are recorded in the file.",
+  "Rules built from plain comparisons carry a Stathead Season Finder spec with the same filters and year range, for independent re-checking on the subscription."
+ ],
+ "generatedAt": "2026-09-28T03:41:04.712Z",
+ "sources": [
+  {
+   "season": 1920,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1920&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1920&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1920&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:40:57.635Z"
+  },
+  {
+   "season": 1921,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1921&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1921&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1921&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:40:58.614Z"
+  },
+  {
+   "season": 1922,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1922&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1922&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1922&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:40:59.246Z"
+  },
+  {
+   "season": 1923,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1923&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1923&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1923&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:40:59.877Z"
+  },
+  {
+   "season": 1924,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1924&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1924&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1924&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:00.505Z"
+  },
+  {
+   "season": 1925,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1925&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1925&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1925&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:01.166Z"
+  },
+  {
+   "season": 1926,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1926&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1926&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1926&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:01.830Z"
+  },
+  {
+   "season": 1927,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1927&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1927&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1927&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:02.468Z"
+  },
+  {
+   "season": 1928,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1928&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1928&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1928&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:03.194Z"
+  },
+  {
+   "season": 1929,
+   "hitting": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=1929&sportId=1&playerPool=All&limit=5000",
+   "pitching": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=1929&sportId=1&playerPool=All&limit=5000",
+   "standings": "https://statsapi.mlb.com/api/v1/standings?leagueId=103,104&season=1929&standingsTypes=regularSeason",
+   "pulledAt": "2026-09-28T03:41:03.854Z"
+  }
+ ]
+}

@@ -1,0 +1,4319 @@
+{
+ "runDate": "2026-09-28",
+ "decades": [
+  {
+   "decade": 1940,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1947&year_max=1950&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "George Mikan",
+      "season": 1949,
+      "v": 1865
+     },
+     "stathead": {
+      "name": "George Mikan",
+      "season": 1949,
+      "v": 1865
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "George Mikan",
+      "season": 1948,
+      "v": 1698
+     },
+     "stathead": {
+      "name": "George Mikan",
+      "season": 1948,
+      "v": 1698
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Joe Fulks",
+      "season": 1948,
+      "v": 1560
+     },
+     "stathead": {
+      "name": "Joe Fulks",
+      "season": 1948,
+      "v": 1560
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Alex Groza",
+      "season": 1949,
+      "v": 1496
+     },
+     "stathead": {
+      "name": "Alex Groza",
+      "season": 1949,
+      "v": 1496
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Joe Fulks",
+      "season": 1946,
+      "v": 1389
+     },
+     "stathead": {
+      "name": "Joe Fulks",
+      "season": 1946,
+      "v": 1389
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1940,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1947&year_max=1950&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Dick McGuire",
+      "season": 1949,
+      "v": 386
+     },
+     "stathead": {
+      "name": "Dick McGuire",
+      "season": 1949,
+      "v": 386
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Andy Phillip",
+      "season": 1949,
+      "v": 377
+     },
+     "stathead": {
+      "name": "Andy Phillip",
+      "season": 1949,
+      "v": 377
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Bob Davies",
+      "season": 1948,
+      "v": 321
+     },
+     "stathead": {
+      "name": "Bob Davies",
+      "season": 1948,
+      "v": 321
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Andy Phillip",
+      "season": 1948,
+      "v": 319
+     },
+     "stathead": {
+      "name": "Andy Phillip",
+      "season": 1948,
+      "v": 319
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Bob Davies",
+      "season": 1949,
+      "v": 294
+     },
+     "stathead": {
+      "name": "Bob Davies",
+      "season": 1949,
+      "v": 294
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1940,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1947&year_max=1950&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "George Mikan",
+      "season": 1949,
+      "v": 567
+     },
+     "stathead": {
+      "name": "George Mikan",
+      "season": 1949,
+      "v": 567
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "George Mikan",
+      "season": 1948,
+      "v": 532
+     },
+     "stathead": {
+      "name": "George Mikan",
+      "season": 1948,
+      "v": 532
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Joe Fulks",
+      "season": 1948,
+      "v": 502
+     },
+     "stathead": {
+      "name": "Joe Fulks",
+      "season": 1948,
+      "v": 502
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Alex Groza",
+      "season": 1949,
+      "v": 454
+     },
+     "stathead": {
+      "name": "Alex Groza",
+      "season": 1949,
+      "v": 454
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Joe Fulks",
+      "season": 1946,
+      "v": 439
+     },
+     "stathead": {
+      "name": "Joe Fulks",
+      "season": 1946,
+      "v": 439
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1950,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1951&year_max=1960&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1959,
+      "v": 2707
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1959,
+      "v": 2707
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Jack Twyman",
+      "season": 1959,
+      "v": 2338
+     },
+     "stathead": {
+      "name": "Jack Twyman",
+      "season": 1959,
+      "v": 2338
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Bob Pettit",
+      "season": 1958,
+      "v": 2105
+     },
+     "stathead": {
+      "name": "Bob Pettit",
+      "season": 1958,
+      "v": 2105
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Elgin Baylor",
+      "season": 1959,
+      "v": 2074
+     },
+     "stathead": {
+      "name": "Elgin Baylor",
+      "season": 1959,
+      "v": 2074
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "George Yardley",
+      "season": 1957,
+      "v": 2001
+     },
+     "stathead": {
+      "name": "George Yardley",
+      "season": 1957,
+      "v": 2001
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1950,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1951&year_max=1960&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1959,
+      "v": 1941
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1959,
+      "v": 1941
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Bill Russell",
+      "season": 1959,
+      "v": 1778
+     },
+     "stathead": {
+      "name": "Bill Russell",
+      "season": 1959,
+      "v": 1778
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Bill Russell",
+      "season": 1958,
+      "v": 1612
+     },
+     "stathead": {
+      "name": "Bill Russell",
+      "season": 1958,
+      "v": 1612
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Bill Russell",
+      "season": 1957,
+      "v": 1564
+     },
+     "stathead": {
+      "name": "Bill Russell",
+      "season": 1957,
+      "v": 1564
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Maurice Stokes",
+      "season": 1956,
+      "v": 1256
+     },
+     "stathead": {
+      "name": "Maurice Stokes",
+      "season": 1956,
+      "v": 1256
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1950,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1951&year_max=1960&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Bob Cousy",
+      "season": 1959,
+      "v": 715
+     },
+     "stathead": {
+      "name": "Bob Cousy",
+      "season": 1959,
+      "v": 715
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Bob Cousy",
+      "season": 1955,
+      "v": 642
+     },
+     "stathead": {
+      "name": "Bob Cousy",
+      "season": 1955,
+      "v": 642
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Bob Cousy",
+      "season": 1954,
+      "v": 557
+     },
+     "stathead": {
+      "name": "Bob Cousy",
+      "season": 1954,
+      "v": 557
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Bob Cousy",
+      "season": 1958,
+      "v": 557
+     },
+     "stathead": {
+      "name": "Bob Cousy",
+      "season": 1958,
+      "v": 557
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Bob Cousy",
+      "season": 1952,
+      "v": 547
+     },
+     "stathead": {
+      "name": "Bob Cousy",
+      "season": 1952,
+      "v": 547
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1950,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1951&year_max=1960&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Bob Pettit",
+      "season": 1958,
+      "v": 667
+     },
+     "stathead": {
+      "name": "Bob Pettit",
+      "season": 1958,
+      "v": 667
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "George Yardley",
+      "season": 1957,
+      "v": 655
+     },
+     "stathead": {
+      "name": "George Yardley",
+      "season": 1957,
+      "v": 655
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Dolph Schayes",
+      "season": 1957,
+      "v": 629
+     },
+     "stathead": {
+      "name": "Dolph Schayes",
+      "season": 1957,
+      "v": 629
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Dolph Schayes",
+      "season": 1956,
+      "v": 625
+     },
+     "stathead": {
+      "name": "Dolph Schayes",
+      "season": 1956,
+      "v": 625
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Jack Twyman",
+      "season": 1959,
+      "v": 598
+     },
+     "stathead": {
+      "name": "Jack Twyman",
+      "season": 1959,
+      "v": 598
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1960,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1961&year_max=1970&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1961,
+      "v": 4029
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1961,
+      "v": 4029
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1962,
+      "v": 3586
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1962,
+      "v": 3586
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1960,
+      "v": 3033
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1960,
+      "v": 3033
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1963,
+      "v": 2948
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1963,
+      "v": 2948
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Rick Barry",
+      "season": 1966,
+      "v": 2775
+     },
+     "stathead": {
+      "name": "Rick Barry",
+      "season": 1966,
+      "v": 2775
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1960,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1961&year_max=1970&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1960,
+      "v": 2149
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1960,
+      "v": 2149
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1961,
+      "v": 2052
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1961,
+      "v": 2052
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1966,
+      "v": 1957
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1966,
+      "v": 1957
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1967,
+      "v": 1952
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1967,
+      "v": 1952
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1962,
+      "v": 1946
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1962,
+      "v": 1946
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1960,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1961&year_max=1970&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Guy Rodgers",
+      "season": 1966,
+      "v": 908
+     },
+     "stathead": {
+      "name": "Guy Rodgers",
+      "season": 1966,
+      "v": 908
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Oscar Robertson",
+      "season": 1961,
+      "v": 899
+     },
+     "stathead": {
+      "name": "Oscar Robertson",
+      "season": 1961,
+      "v": 899
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Oscar Robertson",
+      "season": 1963,
+      "v": 868
+     },
+     "stathead": {
+      "name": "Oscar Robertson",
+      "season": 1963,
+      "v": 868
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Oscar Robertson",
+      "season": 1964,
+      "v": 861
+     },
+     "stathead": {
+      "name": "Oscar Robertson",
+      "season": 1964,
+      "v": 861
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Oscar Robertson",
+      "season": 1965,
+      "v": 847
+     },
+     "stathead": {
+      "name": "Oscar Robertson",
+      "season": 1965,
+      "v": 847
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1960,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1961&year_max=1970&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Jerry West",
+      "season": 1965,
+      "v": 840
+     },
+     "stathead": {
+      "name": "Jerry West",
+      "season": 1965,
+      "v": 840
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1961,
+      "v": 835
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1961,
+      "v": 835
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Oscar Robertson",
+      "season": 1963,
+      "v": 800
+     },
+     "stathead": {
+      "name": "Oscar Robertson",
+      "season": 1963,
+      "v": 800
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Rick Barry",
+      "season": 1966,
+      "v": 753
+     },
+     "stathead": {
+      "name": "Rick Barry",
+      "season": 1966,
+      "v": 753
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Oscar Robertson",
+      "season": 1965,
+      "v": 742
+     },
+     "stathead": {
+      "name": "Oscar Robertson",
+      "season": 1965,
+      "v": 742
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1970,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1971&year_max=1980&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Bob McAdoo",
+      "season": 1974,
+      "v": 2831
+     },
+     "stathead": {
+      "name": "Bob McAdoo",
+      "season": 1974,
+      "v": 2831
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1971,
+      "v": 2822
+     },
+     "stathead": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1971,
+      "v": 2822
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Nate Archibald",
+      "season": 1972,
+      "v": 2719
+     },
+     "stathead": {
+      "name": "Tiny Archibald",
+      "season": 1972,
+      "v": 2719
+     },
+     "agree": false
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1970,
+      "v": 2596
+     },
+     "stathead": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1970,
+      "v": 2596
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "George Gervin",
+      "season": 1979,
+      "v": 2585
+     },
+     "stathead": {
+      "name": "George Gervin",
+      "season": 1979,
+      "v": 2585
+     },
+     "agree": true
+    }
+   ],
+   "agree": false
+  },
+  {
+   "decade": 1970,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1971&year_max=1980&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1971,
+      "v": 1572
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1971,
+      "v": 1572
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1972,
+      "v": 1526
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1972,
+      "v": 1526
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Wilt Chamberlain",
+      "season": 1970,
+      "v": 1493
+     },
+     "stathead": {
+      "name": "Wilt Chamberlain",
+      "season": 1970,
+      "v": 1493
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Elvin Hayes",
+      "season": 1973,
+      "v": 1463
+     },
+     "stathead": {
+      "name": "Elvin Hayes",
+      "season": 1973,
+      "v": 1463
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Moses Malone",
+      "season": 1978,
+      "v": 1444
+     },
+     "stathead": {
+      "name": "Moses Malone",
+      "season": 1978,
+      "v": 1444
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1970,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1971&year_max=1980&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Kevin Porter",
+      "season": 1978,
+      "v": 1099
+     },
+     "stathead": {
+      "name": "Kevin Porter",
+      "season": 1978,
+      "v": 1099
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Nate Archibald",
+      "season": 1972,
+      "v": 910
+     },
+     "stathead": {
+      "name": "Tiny Archibald",
+      "season": 1972,
+      "v": 910
+     },
+     "agree": false
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Norm Van Lier",
+      "season": 1970,
+      "v": 832
+     },
+     "stathead": {
+      "name": "Kevin Porter",
+      "season": 1977,
+      "v": 837
+     },
+     "agree": false
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Micheal Ray Richardson",
+      "season": 1979,
+      "v": 832
+     },
+     "stathead": {
+      "name": "Michael Ray Richardson",
+      "season": 1979,
+      "v": 832
+     },
+     "agree": false
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "John Lucas",
+      "season": 1977,
+      "v": 768
+     },
+     "stathead": {
+      "name": "Norm Van Lier",
+      "season": 1970,
+      "v": 832
+     },
+     "agree": false
+    }
+   ],
+   "agree": false
+  },
+  {
+   "decade": 1970,
+   "stat": "stl",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1974&year_max=1980&comp_type=reg&order_by=stl&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=stl",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Don Buse",
+      "season": 1976,
+      "v": 281
+     },
+     "stathead": {
+      "name": "Don Buse",
+      "season": 1976,
+      "v": 281
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Micheal Ray Richardson",
+      "season": 1979,
+      "v": 265
+     },
+     "stathead": {
+      "name": "Michael Ray Richardson",
+      "season": 1979,
+      "v": 265
+     },
+     "agree": false
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Slick Watts",
+      "season": 1975,
+      "v": 261
+     },
+     "stathead": {
+      "name": "Slick Watts",
+      "season": 1975,
+      "v": 261
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Rick Barry",
+      "season": 1974,
+      "v": 228
+     },
+     "stathead": {
+      "name": "Rick Barry",
+      "season": 1974,
+      "v": 228
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Ron Lee",
+      "season": 1977,
+      "v": 225
+     },
+     "stathead": {
+      "name": "Ron Lee",
+      "season": 1977,
+      "v": 225
+     },
+     "agree": true
+    }
+   ],
+   "agree": false
+  },
+  {
+   "decade": 1970,
+   "stat": "blk",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1974&year_max=1980&comp_type=reg&order_by=blk&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=blk",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Elmore Smith",
+      "season": 1973,
+      "v": 393
+     },
+     "stathead": {
+      "name": "Elmore Smith",
+      "season": 1973,
+      "v": 393
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1975,
+      "v": 338
+     },
+     "stathead": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1975,
+      "v": 338
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1978,
+      "v": 316
+     },
+     "stathead": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1978,
+      "v": 316
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1973,
+      "v": 283
+     },
+     "stathead": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1973,
+      "v": 283
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1979,
+      "v": 280
+     },
+     "stathead": {
+      "name": "Kareem Abdul-Jabbar",
+      "season": 1979,
+      "v": 280
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1970,
+   "stat": "fg3",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1980&year_max=1980&comp_type=reg&order_by=fg3&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=fg3",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Brian Taylor",
+      "season": 1979,
+      "v": 90
+     },
+     "stathead": {
+      "name": "Brian Taylor",
+      "season": 1979,
+      "v": 90
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Rick Barry",
+      "season": 1979,
+      "v": 73
+     },
+     "stathead": {
+      "name": "Rick Barry",
+      "season": 1979,
+      "v": 73
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Chris Ford",
+      "season": 1979,
+      "v": 70
+     },
+     "stathead": {
+      "name": "Chris Ford",
+      "season": 1979,
+      "v": 70
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Joey Hassett",
+      "season": 1979,
+      "v": 69
+     },
+     "stathead": {
+      "name": "Joe Hassett",
+      "season": 1979,
+      "v": 69
+     },
+     "agree": false
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Larry Bird",
+      "season": 1979,
+      "v": 58
+     },
+     "stathead": {
+      "name": "Larry Bird",
+      "season": 1979,
+      "v": 58
+     },
+     "agree": true
+    }
+   ],
+   "agree": false
+  },
+  {
+   "decade": 1970,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1971&year_max=1980&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Nate Archibald",
+      "season": 1971,
+      "v": 677
+     },
+     "stathead": {
+      "name": "Tiny Archibald",
+      "season": 1971,
+      "v": 677
+     },
+     "agree": false
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Nate Archibald",
+      "season": 1972,
+      "v": 663
+     },
+     "stathead": {
+      "name": "Tiny Archibald",
+      "season": 1972,
+      "v": 663
+     },
+     "agree": false
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "World Free",
+      "season": 1978,
+      "v": 654
+     },
+     "stathead": {
+      "name": "World B. Free",
+      "season": 1978,
+      "v": 654
+     },
+     "agree": false
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Nate Archibald",
+      "season": 1974,
+      "v": 652
+     },
+     "stathead": {
+      "name": "Tiny Archibald",
+      "season": 1974,
+      "v": 652
+     },
+     "agree": false
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Bob McAdoo",
+      "season": 1974,
+      "v": 641
+     },
+     "stathead": {
+      "name": "Bob McAdoo",
+      "season": 1974,
+      "v": 641
+     },
+     "agree": true
+    }
+   ],
+   "agree": false
+  },
+  {
+   "decade": 1980,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1981&year_max=1990&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1986,
+      "v": 3041
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1986,
+      "v": 3041
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1987,
+      "v": 2868
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1987,
+      "v": 2868
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1989,
+      "v": 2753
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1989,
+      "v": 2753
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1988,
+      "v": 2633
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1988,
+      "v": 2633
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "George Gervin",
+      "season": 1981,
+      "v": 2551
+     },
+     "stathead": {
+      "name": "George Gervin",
+      "season": 1981,
+      "v": 2551
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1980,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1981&year_max=1990&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Moses Malone",
+      "season": 1982,
+      "v": 1194
+     },
+     "stathead": {
+      "name": "Moses Malone",
+      "season": 1982,
+      "v": 1194
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Moses Malone",
+      "season": 1981,
+      "v": 1188
+     },
+     "stathead": {
+      "name": "Moses Malone",
+      "season": 1981,
+      "v": 1188
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Moses Malone",
+      "season": 1980,
+      "v": 1180
+     },
+     "stathead": {
+      "name": "Moses Malone",
+      "season": 1980,
+      "v": 1180
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Hakeem Olajuwon",
+      "season": 1989,
+      "v": 1149
+     },
+     "stathead": {
+      "name": "Hakeem Olajuwon",
+      "season": 1989,
+      "v": 1149
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Hakeem Olajuwon",
+      "season": 1988,
+      "v": 1105
+     },
+     "stathead": {
+      "name": "Hakeem Olajuwon",
+      "season": 1988,
+      "v": 1105
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1980,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1981&year_max=1990&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1989,
+      "v": 1134
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1989,
+      "v": 1134
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1987,
+      "v": 1128
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1987,
+      "v": 1128
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Isiah Thomas",
+      "season": 1984,
+      "v": 1123
+     },
+     "stathead": {
+      "name": "Isiah Thomas",
+      "season": 1984,
+      "v": 1123
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1988,
+      "v": 1118
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1988,
+      "v": 1118
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Kevin Johnson",
+      "season": 1988,
+      "v": 991
+     },
+     "stathead": {
+      "name": "Kevin Johnson",
+      "season": 1988,
+      "v": 991
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1980,
+   "stat": "stl",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1981&year_max=1990&comp_type=reg&order_by=stl&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=stl",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Alvin Robertson",
+      "season": 1985,
+      "v": 301
+     },
+     "stathead": {
+      "name": "Alvin Robertson",
+      "season": 1985,
+      "v": 301
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1988,
+      "v": 263
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1988,
+      "v": 263
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Alvin Robertson",
+      "season": 1986,
+      "v": 260
+     },
+     "stathead": {
+      "name": "Alvin Robertson",
+      "season": 1986,
+      "v": 260
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1987,
+      "v": 259
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1987,
+      "v": 259
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Micheal Ray Richardson",
+      "season": 1984,
+      "v": 243
+     },
+     "stathead": {
+      "name": "Michael Ray Richardson",
+      "season": 1984,
+      "v": 243
+     },
+     "agree": false
+    }
+   ],
+   "agree": false
+  },
+  {
+   "decade": 1980,
+   "stat": "blk",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1981&year_max=1990&comp_type=reg&order_by=blk&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=blk",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Mark Eaton",
+      "season": 1984,
+      "v": 456
+     },
+     "stathead": {
+      "name": "Mark Eaton",
+      "season": 1984,
+      "v": 456
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Manute Bol",
+      "season": 1985,
+      "v": 397
+     },
+     "stathead": {
+      "name": "Manute Bol",
+      "season": 1985,
+      "v": 397
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Hakeem Olajuwon",
+      "season": 1989,
+      "v": 376
+     },
+     "stathead": {
+      "name": "Hakeem Olajuwon",
+      "season": 1989,
+      "v": 376
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Mark Eaton",
+      "season": 1985,
+      "v": 369
+     },
+     "stathead": {
+      "name": "Mark Eaton",
+      "season": 1985,
+      "v": 369
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Mark Eaton",
+      "season": 1983,
+      "v": 351
+     },
+     "stathead": {
+      "name": "Mark Eaton",
+      "season": 1983,
+      "v": 351
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1980,
+   "stat": "fg3",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1981&year_max=1990&comp_type=reg&order_by=fg3&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=fg3",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Michael Adams",
+      "season": 1988,
+      "v": 166
+     },
+     "stathead": {
+      "name": "Michael Adams",
+      "season": 1988,
+      "v": 166
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Dale Ellis",
+      "season": 1988,
+      "v": 162
+     },
+     "stathead": {
+      "name": "Dale Ellis",
+      "season": 1988,
+      "v": 162
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Michael Adams",
+      "season": 1989,
+      "v": 158
+     },
+     "stathead": {
+      "name": "Michael Adams",
+      "season": 1989,
+      "v": 158
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Mark Price",
+      "season": 1989,
+      "v": 152
+     },
+     "stathead": {
+      "name": "Mark Price",
+      "season": 1989,
+      "v": 152
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Reggie Miller",
+      "season": 1989,
+      "v": 150
+     },
+     "stathead": {
+      "name": "Reggie Miller",
+      "season": 1989,
+      "v": 150
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1980,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1981&year_max=1990&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1986,
+      "v": 833
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1986,
+      "v": 833
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Adrian Dantley",
+      "season": 1983,
+      "v": 813
+     },
+     "stathead": {
+      "name": "Adrian Dantley",
+      "season": 1983,
+      "v": 813
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Moses Malone",
+      "season": 1984,
+      "v": 737
+     },
+     "stathead": {
+      "name": "Moses Malone",
+      "season": 1984,
+      "v": 737
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1987,
+      "v": 723
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1987,
+      "v": 723
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Charles Barkley",
+      "season": 1987,
+      "v": 714
+     },
+     "stathead": {
+      "name": "Charles Barkley",
+      "season": 1987,
+      "v": 714
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1990,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1991&year_max=2000&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1990,
+      "v": 2580
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1990,
+      "v": 2580
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1992,
+      "v": 2541
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1992,
+      "v": 2541
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1995,
+      "v": 2491
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1995,
+      "v": 2491
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1996,
+      "v": 2431
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1996,
+      "v": 2431
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Michael Jordan",
+      "season": 1991,
+      "v": 2404
+     },
+     "stathead": {
+      "name": "Michael Jordan",
+      "season": 1991,
+      "v": 2404
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1990,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1991&year_max=2000&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Dennis Rodman",
+      "season": 1991,
+      "v": 1530
+     },
+     "stathead": {
+      "name": "Dennis Rodman",
+      "season": 1991,
+      "v": 1530
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Dennis Rodman",
+      "season": 1993,
+      "v": 1367
+     },
+     "stathead": {
+      "name": "Dennis Rodman",
+      "season": 1993,
+      "v": 1367
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Kevin Willis",
+      "season": 1991,
+      "v": 1258
+     },
+     "stathead": {
+      "name": "Kevin Willis",
+      "season": 1991,
+      "v": 1258
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Dennis Rodman",
+      "season": 1997,
+      "v": 1201
+     },
+     "stathead": {
+      "name": "Dennis Rodman",
+      "season": 1997,
+      "v": 1201
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Dikembe Mutombo",
+      "season": 1999,
+      "v": 1157
+     },
+     "stathead": {
+      "name": "Dikembe Mutombo",
+      "season": 1999,
+      "v": 1157
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1990,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1991&year_max=2000&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1990,
+      "v": 1164
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1990,
+      "v": 1164
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1991,
+      "v": 1126
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1991,
+      "v": 1126
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1993,
+      "v": 1031
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1993,
+      "v": 1031
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1994,
+      "v": 1011
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1994,
+      "v": 1011
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Magic Johnson",
+      "season": 1990,
+      "v": 989
+     },
+     "stathead": {
+      "name": "Magic Johnson",
+      "season": 1990,
+      "v": 989
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1990,
+   "stat": "stl",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1991&year_max=2000&comp_type=reg&order_by=stl&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=stl",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Alvin Robertson",
+      "season": 1990,
+      "v": 246
+     },
+     "stathead": {
+      "name": "Alvin Robertson",
+      "season": 1990,
+      "v": 246
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1991,
+      "v": 244
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1991,
+      "v": 244
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "John Stockton",
+      "season": 1990,
+      "v": 234
+     },
+     "stathead": {
+      "name": "John Stockton",
+      "season": 1990,
+      "v": 234
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Micheal Williams",
+      "season": 1991,
+      "v": 233
+     },
+     "stathead": {
+      "name": "Micheal Williams",
+      "season": 1991,
+      "v": 233
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Scottie Pippen",
+      "season": 1994,
+      "v": 232
+     },
+     "stathead": {
+      "name": "Scottie Pippen",
+      "season": 1994,
+      "v": 232
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1990,
+   "stat": "blk",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1991&year_max=2000&comp_type=reg&order_by=blk&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=blk",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Hakeem Olajuwon",
+      "season": 1992,
+      "v": 342
+     },
+     "stathead": {
+      "name": "Hakeem Olajuwon",
+      "season": 1992,
+      "v": 342
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Dikembe Mutombo",
+      "season": 1993,
+      "v": 336
+     },
+     "stathead": {
+      "name": "Dikembe Mutombo",
+      "season": 1993,
+      "v": 336
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Dikembe Mutombo",
+      "season": 1995,
+      "v": 332
+     },
+     "stathead": {
+      "name": "Dikembe Mutombo",
+      "season": 1995,
+      "v": 332
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Dikembe Mutombo",
+      "season": 1994,
+      "v": 321
+     },
+     "stathead": {
+      "name": "Dikembe Mutombo",
+      "season": 1994,
+      "v": 321
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "David Robinson",
+      "season": 1990,
+      "v": 320
+     },
+     "stathead": {
+      "name": "David Robinson",
+      "season": 1990,
+      "v": 320
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1990,
+   "stat": "fg3",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1991&year_max=2000&comp_type=reg&order_by=fg3&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=fg3",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Dennis Scott",
+      "season": 1995,
+      "v": 267
+     },
+     "stathead": {
+      "name": "Dennis Scott",
+      "season": 1995,
+      "v": 267
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "George McCloud",
+      "season": 1995,
+      "v": 257
+     },
+     "stathead": {
+      "name": "George McCloud",
+      "season": 1995,
+      "v": 257
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Mookie Blaylock",
+      "season": 1995,
+      "v": 231
+     },
+     "stathead": {
+      "name": "Mookie Blaylock",
+      "season": 1995,
+      "v": 231
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Reggie Miller",
+      "season": 1996,
+      "v": 229
+     },
+     "stathead": {
+      "name": "Reggie Miller",
+      "season": 1996,
+      "v": 229
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Mitch Richmond",
+      "season": 1995,
+      "v": 225
+     },
+     "stathead": {
+      "name": "Mitch Richmond",
+      "season": 1995,
+      "v": 225
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 1990,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=1991&year_max=2000&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "David Robinson",
+      "season": 1993,
+      "v": 693
+     },
+     "stathead": {
+      "name": "David Robinson",
+      "season": 1993,
+      "v": 693
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Karl Malone",
+      "season": 1990,
+      "v": 684
+     },
+     "stathead": {
+      "name": "Karl Malone",
+      "season": 1990,
+      "v": 684
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Karl Malone",
+      "season": 1991,
+      "v": 673
+     },
+     "stathead": {
+      "name": "Karl Malone",
+      "season": 1991,
+      "v": 673
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "David Robinson",
+      "season": 1994,
+      "v": 656
+     },
+     "stathead": {
+      "name": "David Robinson",
+      "season": 1994,
+      "v": 656
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Karl Malone",
+      "season": 1997,
+      "v": 628
+     },
+     "stathead": {
+      "name": "Karl Malone",
+      "season": 1997,
+      "v": 628
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2000,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2001&year_max=2010&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Kobe Bryant",
+      "season": 2005,
+      "v": 2832
+     },
+     "stathead": {
+      "name": "Kobe Bryant",
+      "season": 2005,
+      "v": 2832
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "LeBron James",
+      "season": 2005,
+      "v": 2478
+     },
+     "stathead": {
+      "name": "LeBron James",
+      "season": 2005,
+      "v": 2478
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Kevin Durant",
+      "season": 2009,
+      "v": 2472
+     },
+     "stathead": {
+      "name": "Kevin Durant",
+      "season": 2009,
+      "v": 2472
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Kobe Bryant",
+      "season": 2002,
+      "v": 2461
+     },
+     "stathead": {
+      "name": "Kobe Bryant",
+      "season": 2002,
+      "v": 2461
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Kobe Bryant",
+      "season": 2006,
+      "v": 2430
+     },
+     "stathead": {
+      "name": "Kobe Bryant",
+      "season": 2006,
+      "v": 2430
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2000,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2001&year_max=2010&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Dwight Howard",
+      "season": 2007,
+      "v": 1161
+     },
+     "stathead": {
+      "name": "Dwight Howard",
+      "season": 2007,
+      "v": 1161
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Kevin Garnett",
+      "season": 2003,
+      "v": 1139
+     },
+     "stathead": {
+      "name": "Kevin Garnett",
+      "season": 2003,
+      "v": 1139
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Ben Wallace",
+      "season": 2002,
+      "v": 1126
+     },
+     "stathead": {
+      "name": "Ben Wallace",
+      "season": 2002,
+      "v": 1126
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Kevin Garnett",
+      "season": 2004,
+      "v": 1108
+     },
+     "stathead": {
+      "name": "Kevin Garnett",
+      "season": 2004,
+      "v": 1108
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Kevin Garnett",
+      "season": 2002,
+      "v": 1102
+     },
+     "stathead": {
+      "name": "Kevin Garnett",
+      "season": 2002,
+      "v": 1102
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2000,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2001&year_max=2010&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Chris Paul",
+      "season": 2007,
+      "v": 925
+     },
+     "stathead": {
+      "name": "Chris Paul",
+      "season": 2007,
+      "v": 925
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Steve Nash",
+      "season": 2007,
+      "v": 898
+     },
+     "stathead": {
+      "name": "Steve Nash",
+      "season": 2007,
+      "v": 898
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Steve Nash",
+      "season": 2009,
+      "v": 892
+     },
+     "stathead": {
+      "name": "Steve Nash",
+      "season": 2009,
+      "v": 892
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Steve Nash",
+      "season": 2006,
+      "v": 884
+     },
+     "stathead": {
+      "name": "Steve Nash",
+      "season": 2006,
+      "v": 884
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Andre Miller",
+      "season": 2001,
+      "v": 882
+     },
+     "stathead": {
+      "name": "Andre Miller",
+      "season": 2001,
+      "v": 882
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2000,
+   "stat": "stl",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2001&year_max=2010&comp_type=reg&order_by=stl&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=stl",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Allen Iverson",
+      "season": 2002,
+      "v": 225
+     },
+     "stathead": {
+      "name": "Allen Iverson",
+      "season": 2002,
+      "v": 225
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Chris Paul",
+      "season": 2007,
+      "v": 217
+     },
+     "stathead": {
+      "name": "Chris Paul",
+      "season": 2007,
+      "v": 217
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Chris Paul",
+      "season": 2008,
+      "v": 216
+     },
+     "stathead": {
+      "name": "Chris Paul",
+      "season": 2008,
+      "v": 216
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Baron Davis",
+      "season": 2007,
+      "v": 191
+     },
+     "stathead": {
+      "name": "Baron Davis",
+      "season": 2007,
+      "v": 191
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Rajon Rondo",
+      "season": 2009,
+      "v": 189
+     },
+     "stathead": {
+      "name": "Rajon Rondo",
+      "season": 2009,
+      "v": 189
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2000,
+   "stat": "blk",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2001&year_max=2010&comp_type=reg&order_by=blk&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=blk",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Theo Ratliff",
+      "season": 2003,
+      "v": 307
+     },
+     "stathead": {
+      "name": "Theo Ratliff",
+      "season": 2003,
+      "v": 307
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Marcus Camby",
+      "season": 2007,
+      "v": 285
+     },
+     "stathead": {
+      "name": "Marcus Camby",
+      "season": 2007,
+      "v": 285
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Ben Wallace",
+      "season": 2001,
+      "v": 278
+     },
+     "stathead": {
+      "name": "Ben Wallace",
+      "season": 2001,
+      "v": 278
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Theo Ratliff",
+      "season": 2002,
+      "v": 262
+     },
+     "stathead": {
+      "name": "Theo Ratliff",
+      "season": 2002,
+      "v": 262
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Ben Wallace",
+      "season": 2003,
+      "v": 246
+     },
+     "stathead": {
+      "name": "Ben Wallace",
+      "season": 2003,
+      "v": 246
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2000,
+   "stat": "fg3",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2001&year_max=2010&comp_type=reg&order_by=fg3&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=fg3",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Ray Allen",
+      "season": 2005,
+      "v": 269
+     },
+     "stathead": {
+      "name": "Ray Allen",
+      "season": 2005,
+      "v": 269
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Jason Richardson",
+      "season": 2007,
+      "v": 243
+     },
+     "stathead": {
+      "name": "Jason Richardson",
+      "season": 2007,
+      "v": 243
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Peja Stojakovic",
+      "season": 2003,
+      "v": 240
+     },
+     "stathead": {
+      "name": "Peja Stojaković",
+      "season": 2003,
+      "v": 240
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Peja Stojakovic",
+      "season": 2007,
+      "v": 231
+     },
+     "stathead": {
+      "name": "Peja Stojaković",
+      "season": 2007,
+      "v": 231
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Ray Allen",
+      "season": 2001,
+      "v": 229
+     },
+     "stathead": {
+      "name": "Ray Allen",
+      "season": 2001,
+      "v": 229
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2000,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2001&year_max=2010&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Kevin Durant",
+      "season": 2009,
+      "v": 756
+     },
+     "stathead": {
+      "name": "Kevin Durant",
+      "season": 2009,
+      "v": 756
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Kobe Bryant",
+      "season": 2005,
+      "v": 696
+     },
+     "stathead": {
+      "name": "Kobe Bryant",
+      "season": 2005,
+      "v": 696
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Allen Iverson",
+      "season": 2005,
+      "v": 675
+     },
+     "stathead": {
+      "name": "Allen Iverson",
+      "season": 2005,
+      "v": 675
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Kobe Bryant",
+      "season": 2006,
+      "v": 667
+     },
+     "stathead": {
+      "name": "Kobe Bryant",
+      "season": 2006,
+      "v": 667
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Jerry Stackhouse",
+      "season": 2000,
+      "v": 666
+     },
+     "stathead": {
+      "name": "Jerry Stackhouse",
+      "season": 2000,
+      "v": 666
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2010,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2011&year_max=2020&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "James Harden",
+      "season": 2018,
+      "v": 2818
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2018,
+      "v": 2818
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Kevin Durant",
+      "season": 2013,
+      "v": 2593
+     },
+     "stathead": {
+      "name": "Kevin Durant",
+      "season": 2013,
+      "v": 2593
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Russell Westbrook",
+      "season": 2016,
+      "v": 2558
+     },
+     "stathead": {
+      "name": "Russell Westbrook",
+      "season": 2016,
+      "v": 2558
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "James Harden",
+      "season": 2015,
+      "v": 2376
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2015,
+      "v": 2376
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Stephen Curry",
+      "season": 2015,
+      "v": 2375
+     },
+     "stathead": {
+      "name": "Stephen Curry",
+      "season": 2015,
+      "v": 2375
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2010,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2011&year_max=2020&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Andre Drummond",
+      "season": 2017,
+      "v": 1247
+     },
+     "stathead": {
+      "name": "Andre Drummond",
+      "season": 2017,
+      "v": 1247
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Andre Drummond",
+      "season": 2018,
+      "v": 1232
+     },
+     "stathead": {
+      "name": "Andre Drummond",
+      "season": 2018,
+      "v": 1232
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "DeAndre Jordan",
+      "season": 2014,
+      "v": 1226
+     },
+     "stathead": {
+      "name": "DeAndre Jordan",
+      "season": 2014,
+      "v": 1226
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Andre Drummond",
+      "season": 2015,
+      "v": 1198
+     },
+     "stathead": {
+      "name": "Andre Drummond",
+      "season": 2015,
+      "v": 1198
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "DeAndre Jordan",
+      "season": 2017,
+      "v": 1171
+     },
+     "stathead": {
+      "name": "DeAndre Jordan",
+      "season": 2017,
+      "v": 1171
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2010,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2011&year_max=2020&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "James Harden",
+      "season": 2016,
+      "v": 907
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2016,
+      "v": 907
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Steve Nash",
+      "season": 2010,
+      "v": 855
+     },
+     "stathead": {
+      "name": "Steve Nash",
+      "season": 2010,
+      "v": 855
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Russell Westbrook",
+      "season": 2016,
+      "v": 840
+     },
+     "stathead": {
+      "name": "Russell Westbrook",
+      "season": 2016,
+      "v": 840
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Rajon Rondo",
+      "season": 2015,
+      "v": 839
+     },
+     "stathead": {
+      "name": "Rajon Rondo",
+      "season": 2015,
+      "v": 839
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Chris Paul",
+      "season": 2014,
+      "v": 838
+     },
+     "stathead": {
+      "name": "Chris Paul",
+      "season": 2014,
+      "v": 838
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2010,
+   "stat": "stl",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2011&year_max=2020&comp_type=reg&order_by=stl&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=stl",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Ricky Rubio",
+      "season": 2013,
+      "v": 191
+     },
+     "stathead": {
+      "name": "Ricky Rubio",
+      "season": 2013,
+      "v": 191
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Chris Paul",
+      "season": 2010,
+      "v": 188
+     },
+     "stathead": {
+      "name": "Chris Paul",
+      "season": 2010,
+      "v": 188
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Victor Oladipo",
+      "season": 2017,
+      "v": 177
+     },
+     "stathead": {
+      "name": "Victor Oladipo",
+      "season": 2017,
+      "v": 177
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Mike Conley",
+      "season": 2012,
+      "v": 174
+     },
+     "stathead": {
+      "name": "Mike Conley",
+      "season": 2012,
+      "v": 174
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Paul George",
+      "season": 2018,
+      "v": 170
+     },
+     "stathead": {
+      "name": "Paul George",
+      "season": 2018,
+      "v": 170
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2010,
+   "stat": "blk",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2011&year_max=2020&comp_type=reg&order_by=blk&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=blk",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Hassan Whiteside",
+      "season": 2015,
+      "v": 269
+     },
+     "stathead": {
+      "name": "Hassan Whiteside",
+      "season": 2015,
+      "v": 269
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Serge Ibaka",
+      "season": 2012,
+      "v": 242
+     },
+     "stathead": {
+      "name": "Serge Ibaka",
+      "season": 2012,
+      "v": 242
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Serge Ibaka",
+      "season": 2011,
+      "v": 241
+     },
+     "stathead": {
+      "name": "Serge Ibaka",
+      "season": 2011,
+      "v": 241
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Serge Ibaka",
+      "season": 2013,
+      "v": 219
+     },
+     "stathead": {
+      "name": "Serge Ibaka",
+      "season": 2013,
+      "v": 219
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Rudy Gobert",
+      "season": 2016,
+      "v": 214
+     },
+     "stathead": {
+      "name": "Rudy Gobert",
+      "season": 2016,
+      "v": 214
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2010,
+   "stat": "fg3",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2011&year_max=2020&comp_type=reg&order_by=fg3&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=fg3",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Stephen Curry",
+      "season": 2015,
+      "v": 402
+     },
+     "stathead": {
+      "name": "Stephen Curry",
+      "season": 2015,
+      "v": 402
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "James Harden",
+      "season": 2018,
+      "v": 378
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2018,
+      "v": 378
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Stephen Curry",
+      "season": 2018,
+      "v": 354
+     },
+     "stathead": {
+      "name": "Stephen Curry",
+      "season": 2018,
+      "v": 354
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Stephen Curry",
+      "season": 2016,
+      "v": 324
+     },
+     "stathead": {
+      "name": "Stephen Curry",
+      "season": 2016,
+      "v": 324
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "James Harden",
+      "season": 2019,
+      "v": 299
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2019,
+      "v": 299
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2010,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2011&year_max=2020&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "James Harden",
+      "season": 2018,
+      "v": 754
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2018,
+      "v": 754
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "James Harden",
+      "season": 2016,
+      "v": 746
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2016,
+      "v": 746
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "James Harden",
+      "season": 2015,
+      "v": 720
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2015,
+      "v": 720
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "James Harden",
+      "season": 2014,
+      "v": 715
+     },
+     "stathead": {
+      "name": "James Harden",
+      "season": 2014,
+      "v": 715
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Russell Westbrook",
+      "season": 2016,
+      "v": 710
+     },
+     "stathead": {
+      "name": "Russell Westbrook",
+      "season": 2016,
+      "v": 710
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2020,
+   "stat": "pts",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2021&year_max=2026&comp_type=reg&order_by=pts&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=pts",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2024,
+      "v": 2484
+     },
+     "stathead": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2024,
+      "v": 2484
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Luka Dončić",
+      "season": 2023,
+      "v": 2370
+     },
+     "stathead": {
+      "name": "Luka Dončić",
+      "season": 2023,
+      "v": 2370
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2023,
+      "v": 2254
+     },
+     "stathead": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2023,
+      "v": 2254
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Jayson Tatum",
+      "season": 2022,
+      "v": 2225
+     },
+     "stathead": {
+      "name": "Jayson Tatum",
+      "season": 2022,
+      "v": 2225
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Giannis Antetokounmpo",
+      "season": 2023,
+      "v": 2222
+     },
+     "stathead": {
+      "name": "Giannis Antetokounmpo",
+      "season": 2023,
+      "v": 2222
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2020,
+   "stat": "trb",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2021&year_max=2026&comp_type=reg&order_by=trb&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=trb",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Domantas Sabonis",
+      "season": 2023,
+      "v": 1120
+     },
+     "stathead": {
+      "name": "Domantas Sabonis",
+      "season": 2023,
+      "v": 1120
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Nikola Jokić",
+      "season": 2021,
+      "v": 1019
+     },
+     "stathead": {
+      "name": "Nikola Jokić",
+      "season": 2021,
+      "v": 1019
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Ivica Zubac",
+      "season": 2024,
+      "v": 1010
+     },
+     "stathead": {
+      "name": "Ivica Zubac",
+      "season": 2024,
+      "v": 1010
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Rudy Gobert",
+      "season": 2023,
+      "v": 982
+     },
+     "stathead": {
+      "name": "Rudy Gobert",
+      "season": 2023,
+      "v": 982
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Nikola Jokić",
+      "season": 2023,
+      "v": 976
+     },
+     "stathead": {
+      "name": "Nikola Jokić",
+      "season": 2023,
+      "v": 976
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2020,
+   "stat": "ast",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2021&year_max=2026&comp_type=reg&order_by=ast&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ast",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Trae Young",
+      "season": 2024,
+      "v": 880
+     },
+     "stathead": {
+      "name": "Trae Young",
+      "season": 2024,
+      "v": 880
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Russell Westbrook",
+      "season": 2020,
+      "v": 763
+     },
+     "stathead": {
+      "name": "Russell Westbrook",
+      "season": 2020,
+      "v": 763
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Tyrese Haliburton",
+      "season": 2023,
+      "v": 752
+     },
+     "stathead": {
+      "name": "Tyrese Haliburton",
+      "season": 2023,
+      "v": 752
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Trae Young",
+      "season": 2022,
+      "v": 741
+     },
+     "stathead": {
+      "name": "Trae Young",
+      "season": 2022,
+      "v": 741
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Trae Young",
+      "season": 2021,
+      "v": 737
+     },
+     "stathead": {
+      "name": "Trae Young",
+      "season": 2021,
+      "v": 737
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2020,
+   "stat": "stl",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2021&year_max=2026&comp_type=reg&order_by=stl&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=stl",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Dyson Daniels",
+      "season": 2024,
+      "v": 229
+     },
+     "stathead": {
+      "name": "Dyson Daniels",
+      "season": 2024,
+      "v": 229
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2023,
+      "v": 150
+     },
+     "stathead": {
+      "name": "De'Aaron Fox",
+      "season": 2023,
+      "v": 150
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "De'Aaron Fox",
+      "season": 2023,
+      "v": 150
+     },
+     "stathead": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2023,
+      "v": 150
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Cason Wallace",
+      "season": 2025,
+      "v": 150
+     },
+     "stathead": {
+      "name": "Cason Wallace",
+      "season": 2025,
+      "v": 150
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Dyson Daniels",
+      "season": 2025,
+      "v": 149
+     },
+     "stathead": {
+      "name": "Dyson Daniels",
+      "season": 2025,
+      "v": 149
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2020,
+   "stat": "blk",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2021&year_max=2026&comp_type=reg&order_by=blk&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=blk",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Victor Wembanyama",
+      "season": 2023,
+      "v": 254
+     },
+     "stathead": {
+      "name": "Victor Wembanyama",
+      "season": 2023,
+      "v": 254
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Victor Wembanyama",
+      "season": 2025,
+      "v": 197
+     },
+     "stathead": {
+      "name": "Victor Wembanyama",
+      "season": 2025,
+      "v": 197
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Brook Lopez",
+      "season": 2022,
+      "v": 193
+     },
+     "stathead": {
+      "name": "Brook Lopez",
+      "season": 2022,
+      "v": 193
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Rudy Gobert",
+      "season": 2020,
+      "v": 190
+     },
+     "stathead": {
+      "name": "Rudy Gobert",
+      "season": 2020,
+      "v": 190
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Chet Holmgren",
+      "season": 2023,
+      "v": 190
+     },
+     "stathead": {
+      "name": "Chet Holmgren",
+      "season": 2023,
+      "v": 190
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2020,
+   "stat": "fg3",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2021&year_max=2026&comp_type=reg&order_by=fg3&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=fg3",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Stephen Curry",
+      "season": 2023,
+      "v": 357
+     },
+     "stathead": {
+      "name": "Stephen Curry",
+      "season": 2023,
+      "v": 357
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Stephen Curry",
+      "season": 2020,
+      "v": 337
+     },
+     "stathead": {
+      "name": "Stephen Curry",
+      "season": 2020,
+      "v": 337
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Anthony Edwards",
+      "season": 2024,
+      "v": 320
+     },
+     "stathead": {
+      "name": "Anthony Edwards",
+      "season": 2024,
+      "v": 320
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Malik Beasley",
+      "season": 2024,
+      "v": 319
+     },
+     "stathead": {
+      "name": "Malik Beasley",
+      "season": 2024,
+      "v": 319
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Stephen Curry",
+      "season": 2024,
+      "v": 311
+     },
+     "stathead": {
+      "name": "Stephen Curry",
+      "season": 2024,
+      "v": 311
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  },
+  {
+   "decade": 2020,
+   "stat": "ft",
+   "url": "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi?request=1&match=player_season&comp_id=NBA&display_type=totals&year_min=2021&year_max=2026&comp_type=reg&order_by=ft&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=ft",
+   "rows": [
+    {
+     "rank": 1,
+     "ours": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2022,
+      "v": 669
+     },
+     "stathead": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2022,
+      "v": 669
+     },
+     "agree": true
+    },
+    {
+     "rank": 2,
+     "ours": {
+      "name": "Joel Embiid",
+      "season": 2022,
+      "v": 661
+     },
+     "stathead": {
+      "name": "Joel Embiid",
+      "season": 2022,
+      "v": 661
+     },
+     "agree": true
+    },
+    {
+     "rank": 3,
+     "ours": {
+      "name": "Joel Embiid",
+      "season": 2021,
+      "v": 654
+     },
+     "stathead": {
+      "name": "Joel Embiid",
+      "season": 2021,
+      "v": 654
+     },
+     "agree": true
+    },
+    {
+     "rank": 4,
+     "ours": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2024,
+      "v": 601
+     },
+     "stathead": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2024,
+      "v": 601
+     },
+     "agree": true
+    },
+    {
+     "rank": 5,
+     "ours": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2023,
+      "v": 567
+     },
+     "stathead": {
+      "name": "Shai Gilgeous-Alexander",
+      "season": 2023,
+      "v": 567
+     },
+     "agree": true
+    }
+   ],
+   "agree": true
+  }
+ ],
+ "mj": {
+  "rs": [
+   {
+    "season": "1984-85",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1985-86",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1986-87",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1987-88",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1988-89",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1989-90",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1990-91",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1991-92",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1992-93",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1994-95",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1995-96",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1996-97",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1997-98",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "2001-02",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "2002-03",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   }
+  ],
+  "po": [
+   {
+    "season": "1984-85",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1985-86",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1986-87",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1987-88",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1988-89",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1989-90",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1990-91",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1991-92",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1992-93",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1994-95",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1995-96",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1996-97",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   },
+   {
+    "season": "1997-98",
+    "found": true,
+    "agree": true,
+    "diffs": []
+   }
+  ]
+ },
+ "summary": {
+  "decadeChecks": 53,
+  "decadeAgree": 47,
+  "mjSeasons": 28,
+  "mjAgree": 28
+ }
+}

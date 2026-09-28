@@ -1,0 +1,8337 @@
+{
+ "sport": "NFL",
+ "decade": "2020s",
+ "seasons": [
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025
+ ],
+ "candidates": 109,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "rec130",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 4,
+     "RY": 18,
+     "RTD": 0,
+     "REC": 145,
+     "RECY": 1947,
+     "RECTD": 16,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036358",
+     "name": "CeeDee Lamb",
+     "pos": "WR",
+     "team": "DAL",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 14,
+     "RY": 113,
+     "RTD": 2,
+     "REC": 135,
+     "RECY": 1749,
+     "RECTD": 12,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp"
+    },
+    {
+     "id": "00-0036358",
+     "name": "CeeDee Lamb"
+    }
+   ],
+   "seasons": [
+    2021,
+    2023
+   ],
+   "text": "Only two players of the 2020s caught 130 passes: Cooper Kupp (2021: 145 rec); CeeDee Lamb (2023: 135 rec).",
+   "why": "Two names invite the \"whose season was better?\" argument. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 2,
+   "rule": "car370",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 378,
+     "RY": 2027,
+     "RTD": 17,
+     "REC": 19,
+     "RECY": 114,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.945,
+   "players": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "The only player of the 2020s to carry the ball 370 times: Derrick Henry, 2020 — 378 carries.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Carries show a workload that barely exists anymore."
+  },
+  {
+   "n": 3,
+   "rule": "ypa9",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037834",
+     "name": "Brock Purdy",
+     "pos": "QB",
+     "team": "SF",
+     "season": 2023,
+     "G": 16,
+     "CMP": 308,
+     "ATT": 444,
+     "PY": 4280,
+     "PTD": 31,
+     "INT": 11,
+     "CAR": 39,
+     "RY": 144,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.722972972972974,
+   "players": [
+    {
+     "id": "00-0037834",
+     "name": "Brock Purdy"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "The only player of the 2020s to average 9 yards a pass attempt (300+ attempts): Brock Purdy, 2023 — 9.6 Y/A on 444 att.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Yards per attempt is the deep-ball efficiency number fans love."
+  },
+  {
+   "n": 4,
+   "rule": "rb_rec100",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033699",
+     "name": "Austin Ekeler",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 204,
+     "RY": 915,
+     "RTD": 13,
+     "REC": 107,
+     "RECY": 722,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SF",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 311,
+     "RY": 1202,
+     "RTD": 10,
+     "REC": 102,
+     "RECY": 924,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 10.675,
+   "players": [
+    {
+     "id": "00-0033699",
+     "name": "Austin Ekeler"
+    },
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey"
+    }
+   ],
+   "seasons": [
+    2022,
+    2025
+   ],
+   "text": "Only two players of the 2020s caught 100 passes as a running back: Austin Ekeler (2022: 107 rec, 722 yds); Christian McCaffrey (2025: 102 rec, 924 yds).",
+   "why": "A two-player club is a ready-made debate. Pass-catching backs were ahead of their time; fans love the forerunners."
+  },
+  {
+   "n": 5,
+   "rule": "po_ry",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0034844",
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "team": "PHI",
+     "season": 2024,
+     "G": 4,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 91,
+     "RY": 499,
+     "RTD": 5,
+     "REC": 13,
+     "RECY": 75,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.62375,
+   "players": [
+    {
+     "id": "00-0034844",
+     "name": "Saquon Barkley"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "The only player of the 2020s to rush for 400 yards in one postseason: Saquon Barkley, 2024 — 499 yds in 4 games.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. A playoff rushing run is the stuff of January legend."
+  },
+  {
+   "n": 6,
+   "rule": "fg_perfect",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0031492",
+     "name": "Jason Myers",
+     "pos": "K",
+     "team": "SEA",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 24,
+     "FGA": 24,
+     "FGL": 61
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.6,
+   "players": [
+    {
+     "id": "00-0031492",
+     "name": "Jason Myers"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "The only player of the 2020s to go a season without missing a field goal (20+ attempts): Jason Myers, 2020 — 24-for-24.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Perfection is the easiest thing in sports to share."
+  },
+  {
+   "n": 7,
+   "rule": "po_recy",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2021,
+     "G": 4,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 33,
+     "RECY": 478,
+     "RECTD": 6,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.5975,
+   "players": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "The only player of the 2020s to gain 400 receiving yards in one postseason: Cooper Kupp, 2021 — 478 yds in 4 games.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Playoff receiving production is highlight-reel nostalgia."
+  },
+  {
+   "n": 8,
+   "rule": "tkl_sack",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0035707",
+     "name": "Devin White",
+     "pos": "LB",
+     "team": "TB",
+     "season": 2020,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9,
+     "DINT": 0,
+     "TKL": 133,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.5575,
+   "players": [
+    {
+     "id": "00-0035707",
+     "name": "Devin White"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "The only player of the 2020s to make 120 tackles and record 7 sacks: Devin White, 2020 — 133 tackles, 9 sacks.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Tackle totals put linebackers in the spotlight."
+  },
+  {
+   "n": 9,
+   "rule": "yds1000_fewrec",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037664",
+     "name": "Alec Pierce",
+     "pos": "WR",
+     "team": "IND",
+     "season": 2025,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 47,
+     "RECY": 1003,
+     "RECTD": 6,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.533510638297873,
+   "players": [
+    {
+     "id": "00-0037664",
+     "name": "Alec Pierce"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "The only player of the 2020s to gain 1,000 receiving yards on fewer than 55 catches: Alec Pierce, 2025 — 1,003 yds on 47 rec.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 10,
+   "rule": "ypr20",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037664",
+     "name": "Alec Pierce",
+     "pos": "WR",
+     "team": "IND",
+     "season": 2025,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 47,
+     "RECY": 1003,
+     "RECTD": 6,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.533510638297873,
+   "players": [
+    {
+     "id": "00-0037664",
+     "name": "Alec Pierce"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "The only player of the 2020s to average 20 yards a catch (40+ catches): Alec Pierce, 2025 — 21.3 per catch, 47 rec.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Yards per catch marks the true deep threats."
+  },
+  {
+   "n": 11,
+   "rule": "te_td12",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 110,
+     "RECY": 1338,
+     "RECTD": 12,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.3,
+   "players": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "The only player of the 2020s to catch 12 touchdowns as a tight end: Travis Kelce, 2022 — 12 rec TD.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Tight end production stands out when the position is compared across eras."
+  },
+  {
+   "n": 12,
+   "rule": "fg_miss10",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0038562",
+     "name": "Jake Moody",
+     "pos": "K",
+     "team": "SF",
+     "season": 2024,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 24,
+     "FGA": 34,
+     "FGL": 53
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.25,
+   "players": [
+    {
+     "id": "00-0038562",
+     "name": "Jake Moody"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "The only player of the 2020s to miss 10 field goals: Jake Moody, 2024 — 24-34.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 13,
+   "rule": "rush1000_slow",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036973",
+     "name": "Travis Etienne",
+     "pos": "RB",
+     "team": "JAX",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 267,
+     "RY": 1008,
+     "RTD": 11,
+     "REC": 58,
+     "RECY": 476,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.23936797752809,
+   "players": [
+    {
+     "id": "00-0036973",
+     "name": "Travis Etienne"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "The only player of the 2020s to rush for 1,000 yards at under 3.8 a carry: Travis Etienne, 2023 — 1,008 yds, 3.78 ypc.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. A thousand yards the hard way; debate bait about volume vs. efficiency."
+  },
+  {
+   "n": 14,
+   "rule": "dtd3",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037275",
+     "name": "DaRon Bland",
+     "pos": "CB",
+     "team": "DAL",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 9,
+     "TKL": 64,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.125,
+   "players": [
+    {
+     "id": "00-0037275",
+     "name": "DaRon Bland"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "The only player of the 2020s to score 3 defensive touchdowns: DaRon Bland, 2023 — 5 def TD.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Pick-sixes are the most exciting defensive play; totals get shared."
+  },
+  {
+   "n": 15,
+   "rule": "saf2",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0028008",
+     "name": "Justin Houston",
+     "pos": "OLB",
+     "team": "IND",
+     "season": 2020,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 8,
+     "DINT": 0,
+     "TKL": 22,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.05,
+   "players": [
+    {
+     "id": "00-0028008",
+     "name": "Justin Houston"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "The only player of the 2020s to record 2 safeties: Justin Houston, 2020 — 2 safeties.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Safeties are the rarest score; multiple in a season is trivia gold."
+  },
+  {
+   "n": 16,
+   "rule": "rush2000",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 378,
+     "RY": 2027,
+     "RTD": 17,
+     "REC": 19,
+     "RECY": 114,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034844",
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "team": "PHI",
+     "season": 2024,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 345,
+     "RY": 2005,
+     "RTD": 13,
+     "REC": 33,
+     "RECY": 278,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.0135,
+   "players": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry"
+    },
+    {
+     "id": "00-0034844",
+     "name": "Saquon Barkley"
+    }
+   ],
+   "seasons": [
+    2020,
+    2024
+   ],
+   "text": "Only two players of the 2020s rushed for 2,000 yards: Derrick Henry (2020: 2,027 yds); Saquon Barkley (2024: 2,005 yds).",
+   "why": "A two-player club is a ready-made debate. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 17,
+   "rule": "rec100_short",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033881",
+     "name": "Evan Engram",
+     "pos": "TE",
+     "team": "JAX",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 114,
+     "RECY": 963,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033699",
+     "name": "Austin Ekeler",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 204,
+     "RY": 915,
+     "RTD": 13,
+     "REC": 107,
+     "RECY": 722,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SF",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 311,
+     "RY": 1202,
+     "RTD": 10,
+     "REC": 102,
+     "RECY": 924,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0030279",
+     "name": "Keenan Allen",
+     "pos": "WR",
+     "team": "LAC",
+     "season": 2020,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": -1,
+     "RTD": 0,
+     "REC": 100,
+     "RECY": 992,
+     "RECTD": 8,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 8.60925,
+   "players": [
+    {
+     "id": "00-0033881",
+     "name": "Evan Engram"
+    },
+    {
+     "id": "00-0033699",
+     "name": "Austin Ekeler"
+    },
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey"
+    },
+    {
+     "id": "00-0030279",
+     "name": "Keenan Allen"
+    }
+   ],
+   "seasons": [
+    2023,
+    2022,
+    2025,
+    2020
+   ],
+   "text": "Just four players of the 2020s caught 100 passes for under 1,000 yards: Evan Engram (2023: 114 rec, 963 yds); Austin Ekeler (2022: 107 rec, 722 yds); Christian McCaffrey (2025: 102 rec, 924 yds); Keenan Allen (2020: 100 rec, 992 yds).",
+   "why": "A short list fans can recite; each name brings its own fan base. Lots of catches, few yards: a possession-receiver oddity."
+  },
+  {
+   "n": 18,
+   "rule": "rate115",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2020,
+     "G": 16,
+     "CMP": 372,
+     "ATT": 526,
+     "PY": 4299,
+     "PTD": 48,
+     "INT": 5,
+     "CAR": 38,
+     "RY": 149,
+     "RTD": 3,
+     "REC": 1,
+     "RECY": -6,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "pos": "QB",
+     "team": "BAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 316,
+     "ATT": 474,
+     "PY": 4172,
+     "PTD": 41,
+     "INT": 4,
+     "CAR": 139,
+     "RY": 915,
+     "RTD": 4,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.607652091254753,
+   "players": [
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers"
+    },
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson"
+    }
+   ],
+   "seasons": [
+    2020,
+    2024
+   ],
+   "text": "Only two players of the 2020s posted a passer rating of 115 (350+ attempts): Aaron Rodgers (2020: 121.5 rating); Lamar Jackson (2024: 119.6 rating).",
+   "why": "A two-player club is a ready-made debate. Efficiency is the stat analytics-minded fans quote most."
+  },
+  {
+   "n": 19,
+   "rule": "qb_rush1000",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2022,
+     "G": 15,
+     "CMP": 192,
+     "ATT": 318,
+     "PY": 2242,
+     "PTD": 17,
+     "INT": 11,
+     "CAR": 160,
+     "RY": 1143,
+     "RTD": 8,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "pos": "QB",
+     "team": "BAL",
+     "season": 2020,
+     "G": 15,
+     "CMP": 242,
+     "ATT": 376,
+     "PY": 2757,
+     "PTD": 26,
+     "INT": 9,
+     "CAR": 159,
+     "RY": 1005,
+     "RTD": 7,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.5715,
+   "players": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields"
+    },
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson"
+    }
+   ],
+   "seasons": [
+    2022,
+    2020
+   ],
+   "text": "Only two players of the 2020s rushed for 1,000 yards as a quarterback: Justin Fields (2022: 1,143 rush yds); Lamar Jackson (2020: 1,005 rush yds).",
+   "why": "Two names invite the \"whose season was better?\" argument. Dual-threat quarterbacks are an evergreen debate."
+  },
+  {
+   "n": 20,
+   "rule": "ypc6",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2022,
+     "G": 15,
+     "CMP": 192,
+     "ATT": 318,
+     "PY": 2242,
+     "PTD": 17,
+     "INT": 11,
+     "CAR": 160,
+     "RY": 1143,
+     "RTD": 8,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "pos": "QB",
+     "team": "BAL",
+     "season": 2020,
+     "G": 15,
+     "CMP": 242,
+     "ATT": 376,
+     "PY": 2757,
+     "PTD": 26,
+     "INT": 9,
+     "CAR": 159,
+     "RY": 1005,
+     "RTD": 7,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.53578125,
+   "players": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields"
+    },
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson"
+    }
+   ],
+   "seasons": [
+    2022,
+    2020
+   ],
+   "text": "Only two players of the 2020s averaged 6 yards a carry (150+ carries): Justin Fields (2022: 7.1 ypc on 160 carries); Lamar Jackson (2020: 6.3 ypc on 159 carries).",
+   "why": "A two-player club is a ready-made debate. Big-play running efficiency starts debates about who was really best."
+  },
+  {
+   "n": 21,
+   "rule": "rb_recy800",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SF",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 311,
+     "RY": 1202,
+     "RTD": 10,
+     "REC": 102,
+     "RECY": 924,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0038542",
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "team": "ATL",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 287,
+     "RY": 1478,
+     "RTD": 7,
+     "REC": 79,
+     "RECY": 820,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.462,
+   "players": [
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey"
+    },
+    {
+     "id": "00-0038542",
+     "name": "Bijan Robinson"
+    }
+   ],
+   "seasons": [
+    2025,
+    2025
+   ],
+   "text": "Only two players of the 2020s gained 800 receiving yards as a running back: Christian McCaffrey (2025: 924 rec yds); Bijan Robinson (2025: 820 rec yds).",
+   "why": "Two names invite the \"whose season was better?\" argument. Pass-catching backs were ahead of their time; fans love the forerunners."
+  },
+  {
+   "n": 22,
+   "rule": "kr1500",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037801",
+     "name": "KaVontae Turpin",
+     "pos": "WR",
+     "team": "DAL",
+     "season": 2025,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 17,
+     "RY": 89,
+     "RTD": 0,
+     "REC": 26,
+     "RECY": 396,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0040705",
+     "name": "Chimere Dike",
+     "pos": "WR",
+     "team": "TEN",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 11,
+     "RY": 18,
+     "RTD": 0,
+     "REC": 48,
+     "RECY": 423,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.4535,
+   "players": [
+    {
+     "id": "00-0037801",
+     "name": "KaVontae Turpin"
+    },
+    {
+     "id": "00-0040705",
+     "name": "Chimere Dike"
+    }
+   ],
+   "seasons": [
+    2025,
+    2025
+   ],
+   "text": "Only two players of the 2020s gained 1,500 kickoff return yards: KaVontae Turpin (2025: 1,814 KR yds); Chimere Dike (2025: 1,588 KR yds).",
+   "why": "A two-player club is a ready-made debate. Return average shows the players who flipped field position."
+  },
+  {
+   "n": 23,
+   "rule": "rectd17",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0031381",
+     "name": "Davante Adams",
+     "pos": "WR",
+     "team": "GB",
+     "season": 2020,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 115,
+     "RECY": 1374,
+     "RECTD": 18,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036900",
+     "name": "Ja'Marr Chase",
+     "pos": "WR",
+     "team": "CIN",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 3,
+     "RY": 32,
+     "RTD": 0,
+     "REC": 127,
+     "RECY": 1708,
+     "RECTD": 17,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 5,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.45,
+   "players": [
+    {
+     "id": "00-0031381",
+     "name": "Davante Adams"
+    },
+    {
+     "id": "00-0036900",
+     "name": "Ja'Marr Chase"
+    }
+   ],
+   "seasons": [
+    2020,
+    2024
+   ],
+   "text": "Only two players of the 2020s caught 17 touchdown passes: Davante Adams (2020: 18 rec TD); Ja'Marr Chase (2024: 17 rec TD).",
+   "why": "Two names invite the \"whose season was better?\" argument. Touchdown catches are the red-zone threat stat."
+  },
+  {
+   "n": 24,
+   "rule": "rtd15_slow",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033553",
+     "name": "James Conner",
+     "pos": "RB",
+     "team": "ARI",
+     "season": 2021,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 202,
+     "RY": 752,
+     "RTD": 15,
+     "REC": 37,
+     "RECY": 375,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "pos": "QB",
+     "team": "PHI",
+     "season": 2023,
+     "G": 17,
+     "CMP": 352,
+     "ATT": 538,
+     "PY": 3858,
+     "PTD": 23,
+     "INT": 15,
+     "CAR": 157,
+     "RY": 605,
+     "RTD": 15,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.281930693069308,
+   "players": [
+    {
+     "id": "00-0033553",
+     "name": "James Conner"
+    },
+    {
+     "id": "00-0036389",
+     "name": "Jalen Hurts"
+    }
+   ],
+   "seasons": [
+    2021,
+    2023
+   ],
+   "text": "Only two players of the 2020s ran for 15 touchdowns while averaging under 4 yards a carry: James Conner (2021: 15 TD, 3.72 ypc); Jalen Hurts (2023: 15 TD, 3.85 ypc).",
+   "why": "A two-player club is a ready-made debate. A thousand yards the hard way; debate bait about volume vs. efficiency."
+  },
+  {
+   "n": 25,
+   "rule": "po_ptd",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "pos": "QB",
+     "team": "KC",
+     "season": 2021,
+     "G": 3,
+     "CMP": 89,
+     "ATT": 122,
+     "PY": 1057,
+     "PTD": 11,
+     "INT": 3,
+     "CAR": 13,
+     "RY": 117,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady",
+     "pos": "QB",
+     "team": "TB",
+     "season": 2020,
+     "G": 4,
+     "CMP": 81,
+     "ATT": 138,
+     "PY": 1061,
+     "PTD": 10,
+     "INT": 3,
+     "CAR": 13,
+     "RY": -3,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.275,
+   "players": [
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes"
+    },
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady"
+    }
+   ],
+   "seasons": [
+    2021,
+    2020
+   ],
+   "text": "Only two players of the 2020s threw 10 touchdown passes in one postseason: Patrick Mahomes (2021: 11 TD, 3 INT in 3 games); Tom Brady (2020: 10 TD, 3 INT in 4 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Postseason touchdown passes are where quarterback legacies are argued."
+  },
+  {
+   "n": 26,
+   "rule": "few_int",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "pos": "QB",
+     "team": "LAC",
+     "season": 2024,
+     "G": 17,
+     "CMP": 332,
+     "ATT": 504,
+     "PY": 3870,
+     "PTD": 23,
+     "INT": 3,
+     "CAR": 69,
+     "RY": 306,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2021,
+     "G": 16,
+     "CMP": 366,
+     "ATT": 531,
+     "PY": 4115,
+     "PTD": 37,
+     "INT": 4,
+     "CAR": 33,
+     "RY": 101,
+     "RTD": 3,
+     "REC": 1,
+     "RECY": -4,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2020,
+     "G": 16,
+     "CMP": 372,
+     "ATT": 526,
+     "PY": 4299,
+     "PTD": 48,
+     "INT": 5,
+     "CAR": 38,
+     "RY": 149,
+     "RTD": 3,
+     "REC": 1,
+     "RECY": -6,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.177,
+   "players": [
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert"
+    },
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers"
+    }
+   ],
+   "seasons": [
+    2024,
+    2021,
+    2020
+   ],
+   "text": "Only two players of the 2020s threw 500 passes with 5 or fewer interceptions: Justin Herbert (2024: 504 att, 3 INT); Aaron Rodgers (2×, best 2021: 531 att, 4 INT).",
+   "why": "A two-player club is a ready-made debate. Ball security at volume is the quiet case for an underrated passer."
+  },
+  {
+   "n": 27,
+   "kind": "streak",
+   "rule": "s_recy1000",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 2,
+     "RTD": 0,
+     "REC": 88,
+     "RECY": 1400,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2021,
+     "G": 17,
+     "CMP": 2,
+     "ATT": 4,
+     "PY": 35,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 6,
+     "RY": 14,
+     "RTD": 0,
+     "REC": 108,
+     "RECY": 1616,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2022,
+     "G": 17,
+     "CMP": 2,
+     "ATT": 2,
+     "PY": 34,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 4,
+     "RY": 24,
+     "RTD": 1,
+     "REC": 128,
+     "RECY": 1809,
+     "RECTD": 8,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2023,
+     "G": 10,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": -12,
+     "RTD": 0,
+     "REC": 68,
+     "RECY": 1074,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2024,
+     "G": 17,
+     "CMP": 1,
+     "ATT": 1,
+     "PY": 22,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 3,
+     "RTD": 0,
+     "REC": 103,
+     "RECY": 1533,
+     "RECTD": 10,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "pos": "WR",
+     "team": "MIN",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 7,
+     "RTD": 0,
+     "REC": 84,
+     "RECY": 1048,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Justin Jefferson gained 1,000 receiving yards in 6 straight seasons (2020 to 2025), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 28,
+   "kind": "streak",
+   "rule": "s_dsk10",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2020,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 12,
+     "DINT": 0,
+     "TKL": 45,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 16,
+     "DINT": 0,
+     "TKL": 49,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2022,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 16,
+     "DINT": 0,
+     "TKL": 52,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2023,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 14,
+     "DINT": 0,
+     "TKL": 35,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2024,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 14,
+     "DINT": 0,
+     "TKL": 41,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 23,
+     "DINT": 0,
+     "TKL": 57,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Myles Garrett recorded 10 sacks in 6 straight seasons (2020 to 2025), the longest run of the 2020s.",
+   "why": "Leads with the most extreme case, which carries the post. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 29,
+   "rule": "sacked60",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2024,
+     "G": 17,
+     "CMP": 351,
+     "ATT": 562,
+     "PY": 3541,
+     "PTD": 20,
+     "INT": 6,
+     "CAR": 81,
+     "RY": 489,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0037077",
+     "name": "Sam Howell",
+     "pos": "QB",
+     "team": "WAS",
+     "season": 2023,
+     "G": 17,
+     "CMP": 388,
+     "ATT": 612,
+     "PY": 3946,
+     "PTD": 21,
+     "INT": 21,
+     "CAR": 48,
+     "RY": 263,
+     "RTD": 5,
+     "REC": 1,
+     "RECY": 4,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0039150",
+     "name": "Bryce Young",
+     "pos": "QB",
+     "team": "CAR",
+     "season": 2023,
+     "G": 16,
+     "CMP": 315,
+     "ATT": 527,
+     "PY": 2877,
+     "PTD": 11,
+     "INT": 10,
+     "CAR": 39,
+     "RY": 253,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.7,
+   "players": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams"
+    },
+    {
+     "id": "00-0037077",
+     "name": "Sam Howell"
+    },
+    {
+     "id": "00-0039150",
+     "name": "Bryce Young"
+    }
+   ],
+   "seasons": [
+    2024,
+    2023,
+    2023
+   ],
+   "text": "Just three players of the 2020s got sacked 60 times: Caleb Williams (2024: sacked 68 times); Sam Howell (2023: sacked 65 times); Bryce Young (2023: sacked 62 times).",
+   "why": "A short list fans can recite; each name brings its own fan base. Sacks taken shows who got hit, a sympathy and blame angle at once."
+  },
+  {
+   "n": 30,
+   "rule": "dual4000_500",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson",
+     "pos": "QB",
+     "team": "BAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 316,
+     "ATT": 474,
+     "PY": 4172,
+     "PTD": 41,
+     "INT": 4,
+     "CAR": 139,
+     "RY": 915,
+     "RTD": 4,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "season": 2021,
+     "G": 17,
+     "CMP": 409,
+     "ATT": 646,
+     "PY": 4407,
+     "PTD": 36,
+     "INT": 15,
+     "CAR": 122,
+     "RY": 763,
+     "RTD": 6,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "season": 2022,
+     "G": 16,
+     "CMP": 359,
+     "ATT": 567,
+     "PY": 4283,
+     "PTD": 35,
+     "INT": 14,
+     "CAR": 124,
+     "RY": 762,
+     "RTD": 7,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "season": 2023,
+     "G": 17,
+     "CMP": 385,
+     "ATT": 579,
+     "PY": 4306,
+     "PTD": 29,
+     "INT": 18,
+     "CAR": 111,
+     "RY": 524,
+     "RTD": 15,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0029263",
+     "name": "Russell Wilson",
+     "pos": "QB",
+     "team": "SEA",
+     "season": 2020,
+     "G": 16,
+     "CMP": 384,
+     "ATT": 558,
+     "PY": 4212,
+     "PTD": 40,
+     "INT": 13,
+     "CAR": 83,
+     "RY": 513,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 7.5005,
+   "players": [
+    {
+     "id": "00-0034796",
+     "name": "Lamar Jackson"
+    },
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen"
+    },
+    {
+     "id": "00-0029263",
+     "name": "Russell Wilson"
+    }
+   ],
+   "seasons": [
+    2024,
+    2021,
+    2022,
+    2023,
+    2020
+   ],
+   "text": "Just three players of the 2020s threw for 4,000 yards and ran for 500: Lamar Jackson (2024: 4,172 pass, 915 rush); Josh Allen (3×, best 2021: 4,407 pass, 763 rush); Russell Wilson (2020: 4,212 pass, 513 rush).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Dual-threat quarterbacks are an evergreen debate."
+  },
+  {
+   "n": 31,
+   "rule": "yds5000",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady",
+     "pos": "QB",
+     "team": "TB",
+     "season": 2021,
+     "G": 17,
+     "CMP": 485,
+     "ATT": 719,
+     "PY": 5316,
+     "PTD": 43,
+     "INT": 12,
+     "CAR": 28,
+     "RY": 81,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "pos": "QB",
+     "team": "KC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 435,
+     "ATT": 648,
+     "PY": 5250,
+     "PTD": 41,
+     "INT": 12,
+     "CAR": 61,
+     "RY": 358,
+     "RTD": 4,
+     "REC": 1,
+     "RECY": 6,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "pos": "QB",
+     "team": "LAC",
+     "season": 2021,
+     "G": 17,
+     "CMP": 443,
+     "ATT": 672,
+     "PY": 5014,
+     "PTD": 38,
+     "INT": 15,
+     "CAR": 63,
+     "RY": 302,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.329,
+   "players": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady"
+    },
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes"
+    },
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert"
+    }
+   ],
+   "seasons": [
+    2021,
+    2022,
+    2021
+   ],
+   "text": "Just three players of the 2020s threw for 5,000 yards: Tom Brady (2021: 5,316 yds); Patrick Mahomes (2022: 5,250 yds); Justin Herbert (2021: 5,014 yds).",
+   "why": "A short list fans can recite; each name brings its own fan base. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 32,
+   "kind": "streak",
+   "rule": "s_rec90",
+   "group": "P",
+   "decade": "2020s",
+   "score": 7,
+   "players": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2020,
+     "G": 15,
+     "CMP": 1,
+     "ATT": 2,
+     "PY": 4,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 105,
+     "RECY": 1416,
+     "RECTD": 11,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2021,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 3,
+     "RTD": 1,
+     "REC": 92,
+     "RECY": 1125,
+     "RECTD": 9,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 110,
+     "RECY": 1338,
+     "RECTD": 12,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2023,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 93,
+     "RECY": 984,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2024,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 1,
+     "RTD": 0,
+     "REC": 97,
+     "RECY": 823,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Travis Kelce caught 90 passes in 5 straight seasons (2020 to 2024), the longest run of the 2020s.",
+   "why": "Leads with the most extreme case, which carries the post. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 33,
+   "kind": "streak",
+   "rule": "s_fg25",
+   "group": "P",
+   "decade": "2020s",
+   "score": 7,
+   "players": [
+    {
+     "id": "00-0033702",
+     "name": "Younghoe Koo"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033702",
+     "name": "Younghoe Koo",
+     "pos": "K",
+     "team": "ATL",
+     "season": 2020,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 37,
+     "FGA": 39,
+     "FGL": 54
+    },
+    {
+     "id": "00-0033702",
+     "name": "Younghoe Koo",
+     "pos": "K",
+     "team": "ATL",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 3,
+     "FGM": 27,
+     "FGA": 29,
+     "FGL": 54
+    },
+    {
+     "id": "00-0033702",
+     "name": "Younghoe Koo",
+     "pos": "K",
+     "team": "ATL",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 32,
+     "FGA": 37,
+     "FGL": 54
+    },
+    {
+     "id": "00-0033702",
+     "name": "Younghoe Koo",
+     "pos": "K",
+     "team": "ATL",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 32,
+     "FGA": 37,
+     "FGL": 54
+    },
+    {
+     "id": "00-0033702",
+     "name": "Younghoe Koo",
+     "pos": "K",
+     "team": "ATL",
+     "season": 2024,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 25,
+     "FGA": 34,
+     "FGL": 58
+    }
+   ],
+   "text": "Younghoe Koo made 25 field goals in 5 straight seasons (2020 to 2024), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 34,
+   "rule": "rush1500",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 378,
+     "RY": 2027,
+     "RTD": 17,
+     "REC": 19,
+     "RECY": 114,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034844",
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "team": "PHI",
+     "season": 2024,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 345,
+     "RY": 2005,
+     "RTD": 13,
+     "REC": 33,
+     "RECY": 278,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 325,
+     "RY": 1921,
+     "RTD": 16,
+     "REC": 19,
+     "RECY": 193,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036223",
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "team": "IND",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 332,
+     "RY": 1811,
+     "RTD": 18,
+     "REC": 40,
+     "RECY": 360,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.8445833333333335,
+   "players": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry"
+    },
+    {
+     "id": "00-0034844",
+     "name": "Saquon Barkley"
+    },
+    {
+     "id": "00-0036223",
+     "name": "Jonathan Taylor"
+    }
+   ],
+   "seasons": [
+    2020,
+    2024,
+    2024,
+    2021
+   ],
+   "text": "Just three players of the 2020s rushed for 1,700 yards: Derrick Henry (2×, best 2020: 2,027 yds); Saquon Barkley (2024: 2,005 yds); Jonathan Taylor (2021: 1,811 yds).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 35,
+   "rule": "sack18",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 23,
+     "DINT": 0,
+     "TKL": 57,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033886",
+     "name": "T.J. Watt",
+     "pos": "OLB",
+     "team": "PIT",
+     "season": 2021,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 22.5,
+     "DINT": 0,
+     "TKL": 58,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033886",
+     "name": "T.J. Watt",
+     "pos": "OLB",
+     "team": "PIT",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 19,
+     "DINT": 1,
+     "TKL": 58,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0027952",
+     "name": "Robert Quinn",
+     "pos": "DE",
+     "team": "CHI",
+     "season": 2021,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 18.5,
+     "DINT": 0,
+     "TKL": 43,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0035717",
+     "name": "Nick Bosa",
+     "pos": "DE",
+     "team": "SF",
+     "season": 2022,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 18.5,
+     "DINT": 0,
+     "TKL": 47,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.575,
+   "players": [
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett"
+    },
+    {
+     "id": "00-0033886",
+     "name": "T.J. Watt"
+    },
+    {
+     "id": "00-0027952",
+     "name": "Robert Quinn"
+    },
+    {
+     "id": "00-0035717",
+     "name": "Nick Bosa"
+    }
+   ],
+   "seasons": [
+    2025,
+    2021,
+    2023,
+    2021,
+    2022
+   ],
+   "text": "Just four players of the 2020s recorded 18 sacks: Myles Garrett (2025: 23 sacks); T.J. Watt (2×, best 2021: 22.5 sacks); Robert Quinn (2021: 18.5 sacks); Nick Bosa (2022: 18.5 sacks).",
+   "why": "A short list fans can recite; each name brings its own fan base. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 36,
+   "rule": "tkl170",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036409",
+     "name": "Jordyn Brooks",
+     "pos": "LB",
+     "team": "MIA",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 3.5,
+     "DINT": 0,
+     "TKL": 180,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034413",
+     "name": "Foye Oluokun",
+     "pos": "LB",
+     "team": "ATL",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 2,
+     "DINT": 3,
+     "TKL": 178,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0039018",
+     "name": "Jack Campbell",
+     "pos": "LB",
+     "team": "DET",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 5,
+     "DINT": 0,
+     "TKL": 174,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036621",
+     "name": "Nick Bolton",
+     "pos": "LB",
+     "team": "KC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 2,
+     "DINT": 2,
+     "TKL": 171,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.45,
+   "players": [
+    {
+     "id": "00-0036409",
+     "name": "Jordyn Brooks"
+    },
+    {
+     "id": "00-0034413",
+     "name": "Foye Oluokun"
+    },
+    {
+     "id": "00-0039018",
+     "name": "Jack Campbell"
+    },
+    {
+     "id": "00-0036621",
+     "name": "Nick Bolton"
+    }
+   ],
+   "seasons": [
+    2025,
+    2021,
+    2025,
+    2022
+   ],
+   "text": "Just four players of the 2020s made 170 tackles: Jordyn Brooks (2025: 180 tackles); Foye Oluokun (2021: 178 tackles); Jack Campbell (2025: 174 tackles); Nick Bolton (2022: 171 tackles).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Tackle totals put linebackers in the spotlight."
+  },
+  {
+   "n": 37,
+   "rule": "qb_rushtd10",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "season": 2023,
+     "G": 17,
+     "CMP": 385,
+     "ATT": 579,
+     "PY": 4306,
+     "PTD": 29,
+     "INT": 18,
+     "CAR": 111,
+     "RY": 524,
+     "RTD": 15,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "pos": "QB",
+     "team": "PHI",
+     "season": 2023,
+     "G": 17,
+     "CMP": 352,
+     "ATT": 538,
+     "PY": 3858,
+     "PTD": 23,
+     "INT": 15,
+     "CAR": 157,
+     "RY": 605,
+     "RTD": 15,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "pos": "QB",
+     "team": "PHI",
+     "season": 2024,
+     "G": 15,
+     "CMP": 248,
+     "ATT": 361,
+     "PY": 2903,
+     "PTD": 18,
+     "INT": 5,
+     "CAR": 150,
+     "RY": 630,
+     "RTD": 14,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "season": 2025,
+     "G": 16,
+     "CMP": 319,
+     "ATT": 460,
+     "PY": 3668,
+     "PTD": 25,
+     "INT": 10,
+     "CAR": 112,
+     "RY": 579,
+     "RTD": 14,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "pos": "QB",
+     "team": "PHI",
+     "season": 2022,
+     "G": 15,
+     "CMP": 306,
+     "ATT": 460,
+     "PY": 3701,
+     "PTD": 22,
+     "INT": 6,
+     "CAR": 165,
+     "RY": 760,
+     "RTD": 13,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0027939",
+     "name": "Cam Newton",
+     "pos": "QB",
+     "team": "NE",
+     "season": 2020,
+     "G": 15,
+     "CMP": 242,
+     "ATT": 368,
+     "PY": 2657,
+     "PTD": 8,
+     "INT": 10,
+     "CAR": 137,
+     "RY": 592,
+     "RTD": 12,
+     "REC": 2,
+     "RECY": 35,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "season": 2024,
+     "G": 16,
+     "CMP": 307,
+     "ATT": 483,
+     "PY": 3731,
+     "PTD": 28,
+     "INT": 6,
+     "CAR": 102,
+     "RY": 531,
+     "RTD": 12,
+     "REC": 0,
+     "RECY": 7,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0035228",
+     "name": "Kyler Murray",
+     "pos": "QB",
+     "team": "ARI",
+     "season": 2020,
+     "G": 16,
+     "CMP": 375,
+     "ATT": 558,
+     "PY": 3971,
+     "PTD": 26,
+     "INT": 12,
+     "CAR": 133,
+     "RY": 819,
+     "RTD": 11,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036389",
+     "name": "Jalen Hurts",
+     "pos": "QB",
+     "team": "PHI",
+     "season": 2021,
+     "G": 15,
+     "CMP": 265,
+     "ATT": 432,
+     "PY": 3144,
+     "PTD": 16,
+     "INT": 9,
+     "CAR": 139,
+     "RY": 784,
+     "RTD": 10,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "few",
+   "score": 6.375,
+   "players": [
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen"
+    },
+    {
+     "id": "00-0036389",
+     "name": "Jalen Hurts"
+    },
+    {
+     "id": "00-0027939",
+     "name": "Cam Newton"
+    },
+    {
+     "id": "00-0035228",
+     "name": "Kyler Murray"
+    }
+   ],
+   "seasons": [
+    2023,
+    2023,
+    2024,
+    2025,
+    2022,
+    2020,
+    2024,
+    2020,
+    2021
+   ],
+   "text": "Just four players of the 2020s ran for 10 touchdowns as a quarterback: Josh Allen (3×, best 2023: 15 rush TD); Jalen Hurts (4×, best 2023: 15 rush TD); Cam Newton (2020: 12 rush TD); Kyler Murray (2020: 11 rush TD).",
+   "why": "A short list fans can recite; each name brings its own fan base. Quarterbacks scoring with their legs always gets a reaction."
+  },
+  {
+   "n": 38,
+   "rule": "te1200",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2020,
+     "G": 15,
+     "CMP": 1,
+     "ATT": 2,
+     "PY": 4,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 105,
+     "RECY": 1416,
+     "RECTD": 11,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034753",
+     "name": "Mark Andrews",
+     "pos": "TE",
+     "team": "BAL",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 107,
+     "RECY": 1361,
+     "RECTD": 9,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 7,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 2,
+     "RY": 5,
+     "RTD": 0,
+     "REC": 110,
+     "RECY": 1338,
+     "RECTD": 12,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0037744",
+     "name": "Trey McBride",
+     "pos": "TE",
+     "team": "ARI",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 126,
+     "RECY": 1239,
+     "RECTD": 11,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.354,
+   "players": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce"
+    },
+    {
+     "id": "00-0034753",
+     "name": "Mark Andrews"
+    },
+    {
+     "id": "00-0037744",
+     "name": "Trey McBride"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2025
+   ],
+   "text": "Just three players of the 2020s gained 1,200 receiving yards as a tight end: Travis Kelce (2×, best 2020: 1,416 yds, 105 rec); Mark Andrews (2021: 1,361 yds, 107 rec); Trey McBride (2025: 1,239 yds, 126 rec).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Tight end production stands out when the position is compared across eras."
+  },
+  {
+   "n": 39,
+   "rule": "po_py",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "pos": "QB",
+     "team": "LA",
+     "season": 2021,
+     "G": 4,
+     "CMP": 98,
+     "ATT": 140,
+     "PY": 1188,
+     "PTD": 9,
+     "INT": 3,
+     "CAR": 18,
+     "RY": 42,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "team": "CIN",
+     "season": 2021,
+     "G": 4,
+     "CMP": 97,
+     "ATT": 142,
+     "PY": 1105,
+     "PTD": 5,
+     "INT": 2,
+     "CAR": 11,
+     "RY": 31,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady",
+     "pos": "QB",
+     "team": "TB",
+     "season": 2020,
+     "G": 4,
+     "CMP": 81,
+     "ATT": 138,
+     "PY": 1061,
+     "PTD": 10,
+     "INT": 3,
+     "CAR": 13,
+     "RY": -3,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "pos": "QB",
+     "team": "KC",
+     "season": 2021,
+     "G": 3,
+     "CMP": 89,
+     "ATT": 122,
+     "PY": 1057,
+     "PTD": 11,
+     "INT": 3,
+     "CAR": 13,
+     "RY": 117,
+     "RTD": 1,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "pos": "QB",
+     "team": "KC",
+     "season": 2023,
+     "G": 4,
+     "CMP": 104,
+     "ATT": 149,
+     "PY": 1051,
+     "PTD": 6,
+     "INT": 1,
+     "CAR": 23,
+     "RY": 141,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.297,
+   "players": [
+    {
+     "id": "00-0026498",
+     "name": "Matthew Stafford"
+    },
+    {
+     "id": "00-0036442",
+     "name": "Joe Burrow"
+    },
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady"
+    },
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes"
+    }
+   ],
+   "seasons": [
+    2021,
+    2021,
+    2020,
+    2021,
+    2023
+   ],
+   "text": "Just four players of the 2020s threw for 1,000 yards in one postseason: Matthew Stafford (2021: 1,188 yds, 9 TD in 4 games); Joe Burrow (2021: 1,105 yds, 5 TD in 4 games); Tom Brady (2020: 1,061 yds, 10 TD in 4 games); Patrick Mahomes (2×, best 2021: 1,057 yds, 11 TD in 3 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Playoff passing volume feeds the big-game debate."
+  },
+  {
+   "n": 40,
+   "rule": "ff7",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033281",
+     "name": "Marlon Humphrey",
+     "pos": "CB",
+     "team": "BAL",
+     "season": 2020,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 2.5,
+     "DINT": 1,
+     "TKL": 80,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034846",
+     "name": "Shaquille Leonard",
+     "pos": "OLB",
+     "team": "IND",
+     "season": 2021,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 4,
+     "TKL": 105,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0029285",
+     "name": "Josh Norman",
+     "pos": "CB",
+     "team": "SF",
+     "season": 2021,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 1,
+     "TKL": 48,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033156",
+     "name": "Joey Bosa",
+     "pos": "DE",
+     "team": "LAC",
+     "season": 2021,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 10.5,
+     "DINT": 0,
+     "TKL": 45,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.2,
+   "players": [
+    {
+     "id": "00-0033281",
+     "name": "Marlon Humphrey"
+    },
+    {
+     "id": "00-0034846",
+     "name": "Shaquille Leonard"
+    },
+    {
+     "id": "00-0029285",
+     "name": "Josh Norman"
+    },
+    {
+     "id": "00-0033156",
+     "name": "Joey Bosa"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2021,
+    2021
+   ],
+   "text": "Just four players of the 2020s forced 7 fumbles: Marlon Humphrey (2020: 8 forced fumbles); Shaquille Leonard (2021: 8 forced fumbles); Josh Norman (2021: 7 forced fumbles); Joey Bosa (2021: 7 forced fumbles).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Forced fumbles are the turnover-creating stat defenses brag about."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "x_ptd",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2020,
+     "G": 16,
+     "CMP": 372,
+     "ATT": 526,
+     "PY": 4299,
+     "PTD": 48,
+     "INT": 5,
+     "CAR": 38,
+     "RY": 149,
+     "RTD": 3,
+     "REC": 1,
+     "RECY": -6,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 636,
+   "text": "Most touchdown passes in a season in the 2020s: Aaron Rodgers, 2020 — 48.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "x_int",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0037077",
+     "name": "Sam Howell"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037077",
+     "name": "Sam Howell",
+     "pos": "QB",
+     "team": "WAS",
+     "season": 2023,
+     "G": 17,
+     "CMP": 388,
+     "ATT": 612,
+     "PY": 3946,
+     "PTD": 21,
+     "INT": 21,
+     "CAR": 48,
+     "RY": 263,
+     "RTD": 5,
+     "REC": 1,
+     "RECY": 4,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 636,
+   "text": "Most interceptions thrown in a season in the 2020s: Sam Howell, 2023 — 21.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Turnover-heavy seasons are the most shared kind of chaos stat."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "x_recy",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 4,
+     "RY": 18,
+     "RTD": 0,
+     "REC": 145,
+     "RECY": 1947,
+     "RECTD": 16,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 2907,
+   "text": "Most receiving yards in a season in the 2020s: Cooper Kupp, 2021 — 1,947.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "x_dsk",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033868",
+     "name": "Myles Garrett",
+     "pos": "DE",
+     "team": "CLE",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 23,
+     "DINT": 0,
+     "TKL": 57,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 2556,
+   "text": "Most sacks in a season in the 2020s: Myles Garrett, 2025 — 23.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "x_dint",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0036361",
+     "name": "Trevon Diggs"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036361",
+     "name": "Trevon Diggs",
+     "pos": "CB",
+     "team": "DAL",
+     "season": 2021,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 11,
+     "TKL": 48,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1389,
+   "text": "Most interceptions in a season in the 2020s: Trevon Diggs, 2021 — 11.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Ball-hawk seasons are the defensive-back debate starter."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "x_cpct_low",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2025,
+     "G": 17,
+     "CMP": 330,
+     "ATT": 568,
+     "PY": 3942,
+     "PTD": 27,
+     "INT": 7,
+     "CAR": 77,
+     "RY": 388,
+     "RTD": 3,
+     "REC": 2,
+     "RECY": 22,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 118,
+   "text": "Lowest completion percentage by a 3,000-yard passer in the 2020s: Caleb Williams, 2025 — 58.1%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Accuracy stats let older passers be compared with modern ones."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "x_ypc_1000",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2022,
+     "G": 15,
+     "CMP": 192,
+     "ATT": 318,
+     "PY": 2242,
+     "PTD": 17,
+     "INT": 11,
+     "CAR": 160,
+     "RY": 1143,
+     "RTD": 8,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 77,
+   "text": "Best yards per carry by a 1,000-yard rusher in the 2020s: Justin Fields, 2022 — 7.1 on 160 carries.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Big-play running efficiency starts debates about who was really best."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "x_sk",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2024,
+     "G": 17,
+     "CMP": 351,
+     "ATT": 562,
+     "PY": 3541,
+     "PTD": 20,
+     "INT": 6,
+     "CAR": 81,
+     "RY": 489,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 636,
+   "text": "Most times sacked in a season in the 2020s: Caleb Williams, 2024 — 68.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Sacks taken shows who got hit, a sympathy and blame angle at once."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "x_fgl",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0039409",
+     "name": "Cam Little"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0039409",
+     "name": "Cam Little",
+     "pos": "K",
+     "team": "JAX",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 30,
+     "FGA": 34,
+     "FGL": 68
+    }
+   ],
+   "among": 255,
+   "text": "Longest field goal of the 2020s: 68 yards, Cam Little, 2025.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "x_scrim",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0038542",
+     "name": "Bijan Robinson"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0038542",
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "team": "ATL",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 287,
+     "RY": 1478,
+     "RTD": 7,
+     "REC": 79,
+     "RECY": 820,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 3395,
+   "text": "Most yards from scrimmage in a season in the 2020s: Bijan Robinson, 2025 — 2,298.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scrimmage yards credit the do-everything back."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "x_int_rate_low",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "pos": "QB",
+     "team": "LAC",
+     "season": 2024,
+     "G": 17,
+     "CMP": 332,
+     "ATT": 504,
+     "PY": 3870,
+     "PTD": 23,
+     "INT": 3,
+     "CAR": 69,
+     "RY": 306,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 126,
+   "text": "Lowest interception rate in a season (400+ attempts) in the 2020s: Justin Herbert, 2024 — 3 in 504 attempts.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Ball security at volume is the quiet case for an underrated passer."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "x_rb_rec",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0033699",
+     "name": "Austin Ekeler"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033699",
+     "name": "Austin Ekeler",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 204,
+     "RY": 915,
+     "RTD": 13,
+     "REC": 107,
+     "RECY": 722,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 927,
+   "text": "Most catches by a running back in a season in the 2020s: Austin Ekeler, 2022 — 107.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Pass-catching backs were ahead of their time; fans love the forerunners."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "x_wr_ry",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0035719",
+     "name": "Deebo Samuel Sr."
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0035719",
+     "name": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "team": "SF",
+     "season": 2021,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 2,
+     "PY": 24,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 59,
+     "RY": 365,
+     "RTD": 8,
+     "REC": 77,
+     "RECY": 1405,
+     "RECTD": 6,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1430,
+   "text": "Most rushing yards by a wide receiver in a season in the 2020s: Deebo Samuel Sr., 2021 — 365.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Scoring volume plus efficiency is the complete-back case."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "x_kry",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0037801",
+     "name": "KaVontae Turpin"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037801",
+     "name": "KaVontae Turpin",
+     "pos": "WR",
+     "team": "DAL",
+     "season": 2025,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 17,
+     "RY": 89,
+     "RTD": 0,
+     "REC": 26,
+     "RECY": 396,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 849,
+   "text": "Most kickoff return yards in a season in the 2020s: KaVontae Turpin, 2025 — 1,814.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Return average shows the players who flipped field position."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "x_tkl",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0036409",
+     "name": "Jordyn Brooks"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036409",
+     "name": "Jordyn Brooks",
+     "pos": "LB",
+     "team": "MIA",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 3.5,
+     "DINT": 0,
+     "TKL": 180,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 8834,
+   "text": "Most tackles in a season in the 2020s: Jordyn Brooks, 2025 — 180.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Tackle totals put linebackers in the spotlight."
+  },
+  {
+   "n": 56,
+   "kind": "nearmiss",
+   "rule": "sk95",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0027867",
+     "name": "Jason Pierre-Paul"
+    },
+    {
+     "id": "00-0032378",
+     "name": "DeForest Buckner"
+    },
+    {
+     "id": "00-0033872",
+     "name": "Jamal Adams"
+    }
+   ],
+   "seasons": [
+    2020,
+    2020,
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0027867",
+     "name": "Jason Pierre-Paul",
+     "pos": "DE",
+     "team": "TB",
+     "season": 2020,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 2,
+     "TKL": 53,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0032378",
+     "name": "DeForest Buckner",
+     "pos": "DT",
+     "team": "IND",
+     "season": 2020,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 49,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033872",
+     "name": "Jamal Adams",
+     "pos": "LB",
+     "team": "SEA",
+     "season": 2020,
+     "G": 12,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 81,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0027940",
+     "name": "Von Miller",
+     "pos": "OLB",
+     "team": "LA",
+     "season": 2021,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 44,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033072",
+     "name": "Leonard Floyd",
+     "pos": "DE",
+     "team": "LA",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 1,
+     "TKL": 63,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034967",
+     "name": "Rashan Gary",
+     "pos": "LB",
+     "team": "GB",
+     "season": 2021,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 9.5,
+     "DINT": 0,
+     "TKL": 43,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "15 player-seasons of the 2020s ended on 9.5 sacks, half a sack short of 10 — among them Jason Pierre-Paul (2020), DeForest Buckner (2020), Jamal Adams (2020).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 57,
+   "kind": "streak",
+   "rule": "s_py4000",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff"
+    }
+   ],
+   "seasons": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2022,
+     "G": 17,
+     "CMP": 382,
+     "ATT": 587,
+     "PY": 4438,
+     "PTD": 29,
+     "INT": 7,
+     "CAR": 29,
+     "RY": 73,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": 5,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2023,
+     "G": 17,
+     "CMP": 407,
+     "ATT": 605,
+     "PY": 4575,
+     "PTD": 30,
+     "INT": 12,
+     "CAR": 32,
+     "RY": 21,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2024,
+     "G": 17,
+     "CMP": 390,
+     "ATT": 539,
+     "PY": 4629,
+     "PTD": 37,
+     "INT": 12,
+     "CAR": 35,
+     "RY": 56,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": 7,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2025,
+     "G": 17,
+     "CMP": 393,
+     "ATT": 578,
+     "PY": 4564,
+     "PTD": 34,
+     "INT": 8,
+     "CAR": 19,
+     "RY": 45,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Jared Goff threw for 4,000 yards in 4 straight seasons (2022 to 2025), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "x_py",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0019596",
+     "name": "Tom Brady",
+     "pos": "QB",
+     "team": "TB",
+     "season": 2021,
+     "G": 17,
+     "CMP": 485,
+     "ATT": 719,
+     "PY": 5316,
+     "PTD": 43,
+     "INT": 12,
+     "CAR": 28,
+     "RY": 81,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 636,
+   "text": "Most passing yards in a season in the 2020s: Tom Brady, 2021 — 5,316.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 59,
+   "kind": "extreme",
+   "rule": "x_ry",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 378,
+     "RY": 2027,
+     "RTD": 17,
+     "REC": 19,
+     "RECY": 114,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 2122,
+   "text": "Most rushing yards in a season in the 2020s: Derrick Henry, 2020 — 2,027.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 60,
+   "kind": "extreme",
+   "rule": "x_rec",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033908",
+     "name": "Cooper Kupp",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 4,
+     "RY": 18,
+     "RTD": 0,
+     "REC": 145,
+     "RECY": 1947,
+     "RECTD": 16,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 2907,
+   "text": "Most catches in a season in the 2020s: Cooper Kupp, 2021 — 145.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 61,
+   "kind": "extreme",
+   "rule": "x_te_rec",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "pos": "TE",
+     "team": "KC",
+     "season": 2020,
+     "G": 15,
+     "CMP": 1,
+     "ATT": 2,
+     "PY": 4,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 105,
+     "RECY": 1416,
+     "RECTD": 11,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 776,
+   "text": "Most receiving yards by a tight end in a season in the 2020s: Travis Kelce, 2020 — 1,416 on 105 catches.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Tight end production stands out when the position is compared across eras."
+  },
+  {
+   "n": 62,
+   "kind": "extreme",
+   "rule": "x_rate",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2020,
+     "G": 16,
+     "CMP": 372,
+     "ATT": 526,
+     "PY": 4299,
+     "PTD": 48,
+     "INT": 5,
+     "CAR": 38,
+     "RY": 149,
+     "RTD": 3,
+     "REC": 1,
+     "RECY": -6,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 149,
+   "text": "Highest passer rating in a season (350+ attempts) in the 2020s: Aaron Rodgers, 2020 — 121.5.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Efficiency is the stat analytics-minded fans quote most."
+  },
+  {
+   "n": 63,
+   "kind": "extreme",
+   "rule": "x_qb_ry",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2022,
+     "G": 15,
+     "CMP": 192,
+     "ATT": 318,
+     "PY": 2242,
+     "PTD": 17,
+     "INT": 11,
+     "CAR": 160,
+     "RY": 1143,
+     "RTD": 8,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 486,
+   "text": "Most rushing yards by a quarterback in a season in the 2020s: Justin Fields, 2022 — 1,143.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Dual-threat quarterbacks are an evergreen debate."
+  },
+  {
+   "n": 64,
+   "kind": "extreme",
+   "rule": "x_fum",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036945",
+     "name": "Justin Fields",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2022,
+     "G": 15,
+     "CMP": 192,
+     "ATT": 318,
+     "PY": 2242,
+     "PTD": 17,
+     "INT": 11,
+     "CAR": 160,
+     "RY": 1143,
+     "RTD": 8,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 1671,
+   "text": "Most fumbles in a season in the 2020s: Justin Fields, 2022 — 16.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ball-security failures are the stats fan bases never forget."
+  },
+  {
+   "n": 65,
+   "kind": "extreme",
+   "rule": "x_rb_recy",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SF",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 311,
+     "RY": 1202,
+     "RTD": 10,
+     "REC": 102,
+     "RECY": 924,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 927,
+   "text": "Most receiving yards by a running back in a season in the 2020s: Christian McCaffrey, 2025 — 924.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Pass-catching backs were ahead of their time; fans love the forerunners."
+  },
+  {
+   "n": 66,
+   "kind": "extreme",
+   "rule": "x_ptd_lowcmp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0039918",
+     "name": "Caleb Williams",
+     "pos": "QB",
+     "team": "CHI",
+     "season": 2025,
+     "G": 17,
+     "CMP": 330,
+     "ATT": 568,
+     "PY": 3942,
+     "PTD": 27,
+     "INT": 7,
+     "CAR": 77,
+     "RY": 388,
+     "RTD": 3,
+     "REC": 2,
+     "RECY": 22,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "among": 9,
+   "text": "Most touchdown passes by a sub-60% passer in the 2020s: Caleb Williams, 2025 — 27 TD at 58.1%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 67,
+   "kind": "streak",
+   "rule": "s_ry1000",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry"
+    }
+   ],
+   "seasons": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2022,
+     "G": 16,
+     "CMP": 2,
+     "ATT": 2,
+     "PY": 4,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 349,
+     "RY": 1538,
+     "RTD": 13,
+     "REC": 33,
+     "RECY": 398,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2023,
+     "G": 17,
+     "CMP": 2,
+     "ATT": 3,
+     "PY": 14,
+     "PTD": 2,
+     "INT": 0,
+     "CAR": 280,
+     "RY": 1167,
+     "RTD": 12,
+     "REC": 28,
+     "RECY": 214,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 325,
+     "RY": 1921,
+     "RTD": 16,
+     "REC": 19,
+     "RECY": 193,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 307,
+     "RY": 1595,
+     "RTD": 16,
+     "REC": 15,
+     "RECY": 150,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Derrick Henry ran for 1,000 yards in 4 straight seasons (2022 to 2025), the longest run of the 2020s.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 68,
+   "kind": "nearmiss",
+   "rule": "ptd29",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5.5,
+   "players": [
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen"
+    },
+    {
+     "id": "00-0029604",
+     "name": "Kirk Cousins"
+    },
+    {
+     "id": "00-0039732",
+     "name": "Bo Nix"
+    }
+   ],
+   "seasons": [
+    2023,
+    2022,
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "pos": "QB",
+     "team": "BUF",
+     "season": 2023,
+     "G": 17,
+     "CMP": 385,
+     "ATT": 579,
+     "PY": 4306,
+     "PTD": 29,
+     "INT": 18,
+     "CAR": 111,
+     "RY": 524,
+     "RTD": 15,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "pos": "QB",
+     "team": "MIN",
+     "season": 2022,
+     "G": 17,
+     "CMP": 424,
+     "ATT": 643,
+     "PY": 4547,
+     "PTD": 29,
+     "INT": 14,
+     "CAR": 31,
+     "RY": 97,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0039732",
+     "name": "Bo Nix",
+     "pos": "QB",
+     "team": "DEN",
+     "season": 2024,
+     "G": 17,
+     "CMP": 376,
+     "ATT": 567,
+     "PY": 3775,
+     "PTD": 29,
+     "INT": 12,
+     "CAR": 92,
+     "RY": 430,
+     "RTD": 4,
+     "REC": 1,
+     "RECY": 2,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAX",
+     "season": 2025,
+     "G": 17,
+     "CMP": 341,
+     "ATT": 560,
+     "PY": 4007,
+     "PTD": 29,
+     "INT": 12,
+     "CAR": 82,
+     "RY": 359,
+     "RTD": 9,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2022,
+     "G": 17,
+     "CMP": 382,
+     "ATT": 587,
+     "PY": 4438,
+     "PTD": 29,
+     "INT": 7,
+     "CAR": 29,
+     "RY": 73,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": 5,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036212",
+     "name": "Tua Tagovailoa",
+     "pos": "QB",
+     "team": "MIA",
+     "season": 2023,
+     "G": 17,
+     "CMP": 388,
+     "ATT": 560,
+     "PY": 4624,
+     "PTD": 29,
+     "INT": 14,
+     "CAR": 35,
+     "RY": 74,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "6 player-seasons of the 2020s ended on exactly 29 touchdown passes, one short of 30 — among them Josh Allen (2023), Kirk Cousins (2022), Bo Nix (2024).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 69,
+   "kind": "nearmiss",
+   "rule": "fg_perfect_miss1",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5.25,
+   "players": [
+    {
+     "id": "00-0026858",
+     "name": "Graham Gano"
+    },
+    {
+     "id": "00-0025565",
+     "name": "Nick Folk"
+    },
+    {
+     "id": "00-0032726",
+     "name": "Ka'imi Fairbairn"
+    }
+   ],
+   "seasons": [
+    2020,
+    2023,
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0026858",
+     "name": "Graham Gano",
+     "pos": "K",
+     "team": "NYG",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 31,
+     "FGA": 32,
+     "FGL": 55
+    },
+    {
+     "id": "00-0025565",
+     "name": "Nick Folk",
+     "pos": "K",
+     "team": "TEN",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 29,
+     "FGA": 30,
+     "FGL": 53
+    },
+    {
+     "id": "00-0032726",
+     "name": "Ka'imi Fairbairn",
+     "pos": "K",
+     "team": "HOU",
+     "season": 2023,
+     "G": 12,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 27,
+     "FGA": 28,
+     "FGL": 54
+    },
+    {
+     "id": "00-0025565",
+     "name": "Nick Folk",
+     "pos": "K",
+     "team": "NYJ",
+     "season": 2025,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 28,
+     "FGA": 29,
+     "FGL": 58
+    },
+    {
+     "id": "00-0034173",
+     "name": "Eddy Pineiro",
+     "pos": "K",
+     "team": "SF",
+     "season": 2025,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 28,
+     "FGA": 29,
+     "FGL": 59
+    }
+   ],
+   "text": "5 player-seasons of the 2020s ended on exactly one missed field goal (25+ attempts), one kick from perfect — among them Graham Gano (2020), Nick Folk (2023), Ka'imi Fairbairn (2023).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 70,
+   "kind": "nearmiss",
+   "rule": "recy999",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0030279",
+     "name": "Keenan Allen"
+    },
+    {
+     "id": "00-0039075",
+     "name": "Puka Nacua"
+    },
+    {
+     "id": "00-0035640",
+     "name": "DK Metcalf"
+    }
+   ],
+   "seasons": [
+    2020,
+    2024,
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0030279",
+     "name": "Keenan Allen",
+     "pos": "WR",
+     "team": "LAC",
+     "season": 2020,
+     "G": 14,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": -1,
+     "RTD": 0,
+     "REC": 100,
+     "RECY": 992,
+     "RECTD": 8,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0039075",
+     "name": "Puka Nacua",
+     "pos": "WR",
+     "team": "LA",
+     "season": 2024,
+     "G": 11,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 11,
+     "RY": 46,
+     "RTD": 1,
+     "REC": 79,
+     "RECY": 990,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0035640",
+     "name": "DK Metcalf",
+     "pos": "WR",
+     "team": "SEA",
+     "season": 2024,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 66,
+     "RECY": 992,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036309",
+     "name": "Darnell Mooney",
+     "pos": "WR",
+     "team": "ATL",
+     "season": 2024,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 64,
+     "RECY": 992,
+     "RECTD": 5,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "4 player-seasons of the 2020s ended on between 990 and 999 receiving yards, just shy of 1,000 — among them Keenan Allen (2020), Puka Nacua (2024), DK Metcalf (2024).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "t_recy",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "total": 8480,
+     "seasons": 6
+    },
+    {
+     "id": "00-0031381",
+     "name": "Davante Adams",
+     "total": 7439,
+     "seasons": 6
+    },
+    {
+     "id": "00-0036358",
+     "name": "CeeDee Lamb",
+     "total": 7416,
+     "seasons": 6
+    },
+    {
+     "id": "00-0033040",
+     "name": "Tyreek Hill",
+     "total": 7248,
+     "seasons": 6
+    },
+    {
+     "id": "00-0035676",
+     "name": "A.J. Brown",
+     "total": 6978,
+     "seasons": 6
+    }
+   ],
+   "text": "Most receiving yards of the 2020s: Justin Jefferson, 8,480.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 72,
+   "kind": "total",
+   "rule": "t_rec",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0031381",
+     "name": "Davante Adams"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0031381",
+     "name": "Davante Adams",
+     "total": 586,
+     "seasons": 6
+    },
+    {
+     "id": "00-0036322",
+     "name": "Justin Jefferson",
+     "total": 579,
+     "seasons": 6
+    },
+    {
+     "id": "00-0031588",
+     "name": "Stefon Diggs",
+     "total": 577,
+     "seasons": 6
+    },
+    {
+     "id": "00-0030506",
+     "name": "Travis Kelce",
+     "total": 573,
+     "seasons": 6
+    },
+    {
+     "id": "00-0036358",
+     "name": "CeeDee Lamb",
+     "total": 571,
+     "seasons": 6
+    }
+   ],
+   "text": "Most catches of the 2020s: Davante Adams, 586.",
+   "why": "A decade-long view that settles consistency debates. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "t_dint",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0032971",
+     "name": "Justin Simmons"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0032971",
+     "name": "Justin Simmons",
+     "total": 21,
+     "seasons": 5
+    },
+    {
+     "id": "00-0034675",
+     "name": "Jessie Bates",
+     "total": 21,
+     "seasons": 6
+    },
+    {
+     "id": "00-0036361",
+     "name": "Trevon Diggs",
+     "total": 20,
+     "seasons": 6
+    },
+    {
+     "id": "00-0037667",
+     "name": "Kerby Joseph",
+     "total": 20,
+     "seasons": 4
+    },
+    {
+     "id": "00-0030459",
+     "name": "Tyrann Mathieu",
+     "total": 19,
+     "seasons": 5
+    }
+   ],
+   "text": "Most interceptions of the 2020s: Justin Simmons, 21.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Ball-hawk seasons are the defensive-back debate starter."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "t_fgm",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0034161",
+     "name": "Daniel Carlson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0034161",
+     "name": "Daniel Carlson",
+     "total": 189,
+     "seasons": 6
+    },
+    {
+     "id": "00-0032726",
+     "name": "Ka'imi Fairbairn",
+     "total": 178,
+     "seasons": 6
+    },
+    {
+     "id": "00-0031492",
+     "name": "Jason Myers",
+     "total": 177,
+     "seasons": 6
+    },
+    {
+     "id": "00-0025565",
+     "name": "Nick Folk",
+     "total": 172,
+     "seasons": 6
+    },
+    {
+     "id": "00-0031136",
+     "name": "Chris Boswell",
+     "total": 172,
+     "seasons": 6
+    }
+   ],
+   "text": "Most field goals of the 2020s: Daniel Carlson, 189.",
+   "why": "A decade-long view that settles consistency debates. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "t_int",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "total": 73,
+     "seasons": 6
+    },
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "total": 67,
+     "seasons": 6
+    },
+    {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "total": 66,
+     "seasons": 6
+    },
+    {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "total": 62,
+     "seasons": 6
+    },
+    {
+     "id": "00-0029604",
+     "name": "Kirk Cousins",
+     "total": 60,
+     "seasons": 6
+    }
+   ],
+   "text": "Most interceptions thrown in the 2020s: Josh Allen, 73.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Turnover-heavy seasons are the most shared kind of chaos stat."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_py4000_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 12
+    },
+    {
+     "season": 2021,
+     "count": 10
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 10
+    },
+    {
+     "season": 2024,
+     "count": 6
+    },
+    {
+     "season": 2025,
+     "count": 6
+    }
+   ],
+   "text": "2020 had 12 4,000-yard passers, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_py4000_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 12
+    },
+    {
+     "season": 2021,
+     "count": 10
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 10
+    },
+    {
+     "season": 2024,
+     "count": 6
+    },
+    {
+     "season": 2025,
+     "count": 6
+    }
+   ],
+   "text": "2024 had just 6 4,000-yard passers, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "c_ry1000_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 9
+    },
+    {
+     "season": 2021,
+     "count": 7
+    },
+    {
+     "season": 2022,
+     "count": 16
+    },
+    {
+     "season": 2023,
+     "count": 12
+    },
+    {
+     "season": 2024,
+     "count": 16
+    },
+    {
+     "season": 2025,
+     "count": 17
+    }
+   ],
+   "text": "2025 had 17 1,000-yard rushers, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Workhorse-back seasons are nostalgia content for a position that changed."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_ry1000_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 9
+    },
+    {
+     "season": 2021,
+     "count": 7
+    },
+    {
+     "season": 2022,
+     "count": 16
+    },
+    {
+     "season": 2023,
+     "count": 12
+    },
+    {
+     "season": 2024,
+     "count": 16
+    },
+    {
+     "season": 2025,
+     "count": 17
+    }
+   ],
+   "text": "2021 had just 7 1,000-yard rushers, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_recy1000_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 18
+    },
+    {
+     "season": 2021,
+     "count": 26
+    },
+    {
+     "season": 2022,
+     "count": 22
+    },
+    {
+     "season": 2023,
+     "count": 28
+    },
+    {
+     "season": 2024,
+     "count": 24
+    },
+    {
+     "season": 2025,
+     "count": 20
+    }
+   ],
+   "text": "2023 had 28 1,000-yard receivers, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Receiving yardage seasons anchor every receiver ranking."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_recy1000_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 18
+    },
+    {
+     "season": 2021,
+     "count": 26
+    },
+    {
+     "season": 2022,
+     "count": 22
+    },
+    {
+     "season": 2023,
+     "count": 28
+    },
+    {
+     "season": 2024,
+     "count": 24
+    },
+    {
+     "season": 2025,
+     "count": 20
+    }
+   ],
+   "text": "2020 had just 18 1,000-yard receivers, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_dsk10_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 10
+    },
+    {
+     "season": 2021,
+     "count": 17
+    },
+    {
+     "season": 2022,
+     "count": 19
+    },
+    {
+     "season": 2023,
+     "count": 24
+    },
+    {
+     "season": 2024,
+     "count": 17
+    },
+    {
+     "season": 2025,
+     "count": 17
+    }
+   ],
+   "text": "2023 had 24 10-sack players, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Pass-rush seasons are what defensive fans quote first."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_dsk10_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 10
+    },
+    {
+     "season": 2021,
+     "count": 17
+    },
+    {
+     "season": 2022,
+     "count": 19
+    },
+    {
+     "season": 2023,
+     "count": 24
+    },
+    {
+     "season": 2024,
+     "count": 17
+    },
+    {
+     "season": 2025,
+     "count": 17
+    }
+   ],
+   "text": "2020 had just 10 10-sack players, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 84,
+   "kind": "season",
+   "rule": "c_ptd30_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 10
+    },
+    {
+     "season": 2021,
+     "count": 9
+    },
+    {
+     "season": 2022,
+     "count": 4
+    },
+    {
+     "season": 2023,
+     "count": 4
+    },
+    {
+     "season": 2024,
+     "count": 5
+    },
+    {
+     "season": 2025,
+     "count": 4
+    }
+   ],
+   "text": "2020 had 10 30-touchdown passers, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+  },
+  {
+   "n": 85,
+   "kind": "season",
+   "rule": "c_ptd30_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 10
+    },
+    {
+     "season": 2021,
+     "count": 9
+    },
+    {
+     "season": 2022,
+     "count": 4
+    },
+    {
+     "season": 2023,
+     "count": 4
+    },
+    {
+     "season": 2024,
+     "count": 5
+    },
+    {
+     "season": 2025,
+     "count": 4
+    }
+   ],
+   "text": "2022 had just 4 30-touchdown passers, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 86,
+   "kind": "season",
+   "rule": "c_rectd10_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 9
+    },
+    {
+     "season": 2021,
+     "count": 8
+    },
+    {
+     "season": 2022,
+     "count": 5
+    },
+    {
+     "season": 2023,
+     "count": 7
+    },
+    {
+     "season": 2024,
+     "count": 8
+    },
+    {
+     "season": 2025,
+     "count": 7
+    }
+   ],
+   "text": "2020 had 9 10-touchdown receivers, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Touchdown catches are the red-zone threat stat."
+  },
+  {
+   "n": 87,
+   "kind": "season",
+   "rule": "c_rectd10_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 9
+    },
+    {
+     "season": 2021,
+     "count": 8
+    },
+    {
+     "season": 2022,
+     "count": 5
+    },
+    {
+     "season": 2023,
+     "count": 7
+    },
+    {
+     "season": 2024,
+     "count": 8
+    },
+    {
+     "season": 2025,
+     "count": 7
+    }
+   ],
+   "text": "2022 had just 5 10-touchdown receivers, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 88,
+   "kind": "season",
+   "rule": "c_rec100_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 8
+    },
+    {
+     "season": 2021,
+     "count": 10
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 12
+    },
+    {
+     "season": 2024,
+     "count": 10
+    },
+    {
+     "season": 2025,
+     "count": 7
+    }
+   ],
+   "text": "2023 had 12 100-catch players, the most of any season in the 2020s.",
+   "why": "Rewards staying power: the most such seasons in the 2020s. Catch totals put possession receivers in the spotlight."
+  },
+  {
+   "n": 89,
+   "kind": "season",
+   "rule": "c_rec100_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 8
+    },
+    {
+     "season": 2021,
+     "count": 10
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 12
+    },
+    {
+     "season": 2024,
+     "count": 10
+    },
+    {
+     "season": 2025,
+     "count": 7
+    }
+   ],
+   "text": "2025 had just 7 100-catch players, the fewest of any season in the 2020s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 90,
+   "kind": "total",
+   "rule": "t_py",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0033873",
+     "name": "Patrick Mahomes",
+     "total": 26527,
+     "seasons": 6
+    },
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "total": 25403,
+     "seasons": 6
+    },
+    {
+     "id": "00-0034857",
+     "name": "Josh Allen",
+     "total": 24939,
+     "seasons": 6
+    },
+    {
+     "id": "00-0036355",
+     "name": "Justin Herbert",
+     "total": 24820,
+     "seasons": 6
+    },
+    {
+     "id": "00-0026498",
+     "name": "Matthew Stafford",
+     "total": 23491,
+     "seasons": 6
+    }
+   ],
+   "text": "Most passing yards of the 2020s: Patrick Mahomes, 26,527 — 1,124 ahead of Jared Goff.",
+   "why": "A decade-long view that settles consistency debates. Passing volume invites then-vs-now arguments about how the game changed."
+  },
+  {
+   "n": 91,
+   "rule": "cmp70",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036212",
+     "name": "Tua Tagovailoa",
+     "pos": "QB",
+     "team": "MIA",
+     "season": 2024,
+     "G": 11,
+     "CMP": 291,
+     "ATT": 399,
+     "PY": 2867,
+     "PTD": 19,
+     "INT": 7,
+     "CAR": 17,
+     "RY": 49,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033106",
+     "name": "Jared Goff",
+     "pos": "QB",
+     "team": "DET",
+     "season": 2024,
+     "G": 17,
+     "CMP": 390,
+     "ATT": 539,
+     "PY": 4629,
+     "PTD": 37,
+     "INT": 12,
+     "CAR": 35,
+     "RY": 56,
+     "RTD": 0,
+     "REC": 1,
+     "RECY": 7,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0039851",
+     "name": "Drake Maye",
+     "pos": "QB",
+     "team": "NE",
+     "season": 2025,
+     "G": 17,
+     "CMP": 354,
+     "ATT": 492,
+     "PY": 4394,
+     "PTD": 31,
+     "INT": 8,
+     "CAR": 103,
+     "RY": 450,
+     "RTD": 4,
+     "REC": 1,
+     "RECY": 2,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034855",
+     "name": "Baker Mayfield",
+     "pos": "QB",
+     "team": "TB",
+     "season": 2024,
+     "G": 17,
+     "CMP": 407,
+     "ATT": 570,
+     "PY": 4500,
+     "PTD": 41,
+     "INT": 16,
+     "CAR": 60,
+     "RY": 378,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0023459",
+     "name": "Aaron Rodgers",
+     "pos": "QB",
+     "team": "GB",
+     "season": 2020,
+     "G": 16,
+     "CMP": 372,
+     "ATT": 526,
+     "PY": 4299,
+     "PTD": 48,
+     "INT": 5,
+     "CAR": 38,
+     "RY": 149,
+     "RTD": 3,
+     "REC": 1,
+     "RECY": -6,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036442",
+     "name": "Joe Burrow",
+     "pos": "QB",
+     "team": "CIN",
+     "season": 2024,
+     "G": 17,
+     "CMP": 460,
+     "ATT": 652,
+     "PY": 4918,
+     "PTD": 43,
+     "INT": 9,
+     "CAR": 42,
+     "RY": 201,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.823308270676692,
+   "players": [
+    {
+     "id": "00-0036212",
+     "name": "Tua Tagovailoa"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "9 players completed 70% of their passes (350+ attempts) in the 2020s (10 seasons). The most extreme: Tua Tagovailoa, 2024 — 72.9%, 399 att.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Accuracy stats let older passers be compared with modern ones."
+  },
+  {
+   "n": 92,
+   "kind": "nearmiss",
+   "rule": "ry999",
+   "group": "P",
+   "decade": "2020s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": "00-0037256",
+     "name": "Rachaad White"
+    },
+    {
+     "id": "00-0038120",
+     "name": "Breece Hall"
+    },
+    {
+     "id": "00-0038597",
+     "name": "Chase Brown"
+    }
+   ],
+   "seasons": [
+    2023,
+    2023,
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037256",
+     "name": "Rachaad White",
+     "pos": "RB",
+     "team": "TB",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 272,
+     "RY": 990,
+     "RTD": 6,
+     "REC": 64,
+     "RECY": 549,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0038120",
+     "name": "Breece Hall",
+     "pos": "RB",
+     "team": "NYJ",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 223,
+     "RY": 994,
+     "RTD": 5,
+     "REC": 76,
+     "RECY": 591,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0038597",
+     "name": "Chase Brown",
+     "pos": "RB",
+     "team": "CIN",
+     "season": 2024,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 229,
+     "RY": 990,
+     "RTD": 7,
+     "REC": 54,
+     "RECY": 360,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "3 player-seasons of the 2020s ended on between 990 and 999 rushing yards, just shy of 1,000 — among them Rachaad White (2023), Breece Hall (2023), Chase Brown (2024).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 93,
+   "rule": "fg60",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0039409",
+     "name": "Cam Little",
+     "pos": "K",
+     "team": "JAX",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 30,
+     "FGA": 34,
+     "FGL": 68
+    },
+    {
+     "id": "00-0029597",
+     "name": "Justin Tucker",
+     "pos": "K",
+     "team": "BAL",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 35,
+     "FGA": 37,
+     "FGL": 66
+    },
+    {
+     "id": "00-0037692",
+     "name": "Brandon Aubrey",
+     "pos": "K",
+     "team": "DAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 40,
+     "FGA": 47,
+     "FGL": 65
+    },
+    {
+     "id": "00-0035358",
+     "name": "Chase McLaughlin",
+     "pos": "K",
+     "team": "TB",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 32,
+     "FGA": 38,
+     "FGL": 65
+    },
+    {
+     "id": "00-0037692",
+     "name": "Brandon Aubrey",
+     "pos": "K",
+     "team": "DAL",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 1,
+     "RY": 6,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 36,
+     "FGA": 42,
+     "FGL": 64
+    },
+    {
+     "id": "00-0035192",
+     "name": "Joey Slye",
+     "pos": "K",
+     "team": "NE",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 26,
+     "FGA": 33,
+     "FGL": 63
+    }
+   ],
+   "seasonsMatched": 27,
+   "kind": "list",
+   "score": 4.7,
+   "players": [
+    {
+     "id": "00-0039409",
+     "name": "Cam Little"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "22 players made a 60-yard field goal in the 2020s (27 seasons). The most extreme: Cam Little, 2025 — long 68.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 94,
+   "kind": "nearmiss",
+   "rule": "rec99",
+   "group": "P",
+   "decade": "2020s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": "00-0036252",
+     "name": "Michael Pittman"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036252",
+     "name": "Michael Pittman",
+     "pos": "WR",
+     "team": "IND",
+     "season": 2022,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 3,
+     "RY": 30,
+     "RTD": 0,
+     "REC": 99,
+     "RECY": 925,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "text": "Exactly one player of the 2020s finished a season with exactly 99 catches, one short of 100: Michael Pittman (2022).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 95,
+   "rule": "fg40",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0032726",
+     "name": "Ka'imi Fairbairn",
+     "pos": "K",
+     "team": "HOU",
+     "season": 2025,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 44,
+     "FGA": 48,
+     "FGL": 57
+    },
+    {
+     "id": "00-0031136",
+     "name": "Chris Boswell",
+     "pos": "K",
+     "team": "PIT",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 41,
+     "FGA": 44,
+     "FGL": 57
+    },
+    {
+     "id": "00-0031492",
+     "name": "Jason Myers",
+     "pos": "K",
+     "team": "SEA",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 41,
+     "FGA": 48,
+     "FGL": 57
+    },
+    {
+     "id": "00-0034161",
+     "name": "Daniel Carlson",
+     "pos": "K",
+     "team": "LV",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 40,
+     "FGA": 43,
+     "FGL": 56
+    },
+    {
+     "id": "00-0037692",
+     "name": "Brandon Aubrey",
+     "pos": "K",
+     "team": "DAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 40,
+     "FGA": 47,
+     "FGL": 65
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 4.1,
+   "players": [
+    {
+     "id": "00-0032726",
+     "name": "Ka'imi Fairbairn"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "5 players made 40 field goals in the 2020s. The most extreme: Ka'imi Fairbairn, 2025 — 44-48 FG.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 96,
+   "rule": "scrim2000",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0038542",
+     "name": "Bijan Robinson",
+     "pos": "RB",
+     "team": "ATL",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 287,
+     "RY": 1478,
+     "RTD": 7,
+     "REC": 79,
+     "RECY": 820,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034844",
+     "name": "Saquon Barkley",
+     "pos": "RB",
+     "team": "PHI",
+     "season": 2024,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 345,
+     "RY": 2005,
+     "RTD": 13,
+     "REC": 33,
+     "RECY": 278,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036223",
+     "name": "Jonathan Taylor",
+     "pos": "RB",
+     "team": "IND",
+     "season": 2021,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 332,
+     "RY": 1811,
+     "RTD": 18,
+     "REC": 40,
+     "RECY": 360,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 378,
+     "RY": 2027,
+     "RTD": 17,
+     "REC": 19,
+     "RECY": 114,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033280",
+     "name": "Christian McCaffrey",
+     "pos": "RB",
+     "team": "SF",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 311,
+     "RY": 1202,
+     "RTD": 10,
+     "REC": 102,
+     "RECY": 924,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 4,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0032764",
+     "name": "Derrick Henry",
+     "pos": "RB",
+     "team": "BAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 325,
+     "RY": 1921,
+     "RTD": 16,
+     "REC": 19,
+     "RECY": 193,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.5745,
+   "players": [
+    {
+     "id": "00-0038542",
+     "name": "Bijan Robinson"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "6 players gained 2,000 yards from scrimmage in the 2020s (8 seasons). The most extreme: Bijan Robinson, 2025 — 2,298 scrimmage yds.",
+   "why": "Leads with the most extreme case, which carries the post. Scrimmage yards credit the do-everything back."
+  },
+  {
+   "n": 97,
+   "rule": "wr_rush150",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0035719",
+     "name": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "team": "SF",
+     "season": 2021,
+     "G": 16,
+     "CMP": 1,
+     "ATT": 2,
+     "PY": 24,
+     "PTD": 1,
+     "INT": 0,
+     "CAR": 59,
+     "RY": 365,
+     "RTD": 8,
+     "REC": 77,
+     "RECY": 1405,
+     "RECTD": 6,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0035719",
+     "name": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "team": "SF",
+     "season": 2022,
+     "G": 13,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 42,
+     "RY": 232,
+     "RTD": 3,
+     "REC": 56,
+     "RECY": 632,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0035719",
+     "name": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "team": "SF",
+     "season": 2023,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 1,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 37,
+     "RY": 225,
+     "RTD": 5,
+     "REC": 60,
+     "RECY": 892,
+     "RECTD": 7,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033282",
+     "name": "Curtis Samuel",
+     "pos": "WR",
+     "team": "CAR",
+     "season": 2020,
+     "G": 15,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 41,
+     "RY": 200,
+     "RTD": 2,
+     "REC": 77,
+     "RECY": 851,
+     "RECTD": 3,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033282",
+     "name": "Curtis Samuel",
+     "pos": "WR",
+     "team": "WAS",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 38,
+     "RY": 187,
+     "RTD": 1,
+     "REC": 64,
+     "RECY": 656,
+     "RECTD": 4,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0036936",
+     "name": "Rondale Moore",
+     "pos": "WR",
+     "team": "ARI",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 28,
+     "RY": 178,
+     "RTD": 1,
+     "REC": 40,
+     "RECY": 352,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.45625,
+   "players": [
+    {
+     "id": "00-0035719",
+     "name": "Deebo Samuel Sr."
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "5 players rushed for 150 yards as a wide receiver in the 2020s (8 seasons). The most extreme: Deebo Samuel Sr., 2021 — 365 rush yds, 1,405 rec yds.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Scoring volume plus efficiency is the complete-back case."
+  },
+  {
+   "n": 98,
+   "rule": "fg50x8",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0037692",
+     "name": "Brandon Aubrey",
+     "pos": "K",
+     "team": "DAL",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 40,
+     "FGA": 47,
+     "FGL": 65
+    },
+    {
+     "id": "00-0031136",
+     "name": "Chris Boswell",
+     "pos": "K",
+     "team": "PIT",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 41,
+     "FGA": 44,
+     "FGL": 57
+    },
+    {
+     "id": "00-0032726",
+     "name": "Ka'imi Fairbairn",
+     "pos": "K",
+     "team": "HOU",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 36,
+     "FGA": 42,
+     "FGL": 59
+    },
+    {
+     "id": "00-0034794",
+     "name": "Jason Sanders",
+     "pos": "K",
+     "team": "MIA",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 37,
+     "FGA": 41,
+     "FGL": 57
+    },
+    {
+     "id": "00-0034161",
+     "name": "Daniel Carlson",
+     "pos": "K",
+     "team": "LV",
+     "season": 2022,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 34,
+     "FGA": 37,
+     "FGL": 57
+    },
+    {
+     "id": "00-0035358",
+     "name": "Chase McLaughlin",
+     "pos": "K",
+     "team": "TB",
+     "season": 2025,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 32,
+     "FGA": 38,
+     "FGL": 65
+    }
+   ],
+   "seasonsMatched": 32,
+   "kind": "list",
+   "score": 3.35,
+   "players": [
+    {
+     "id": "00-0037692",
+     "name": "Brandon Aubrey"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "21 players made 8 field goals of 50+ yards in the 2020s (32 seasons). The most extreme: Brandon Aubrey, 2024 — 14 from 50+.",
+   "why": "Leads with the most extreme case, which carries the post. Kicker content is underserved and gets outsized engagement."
+  },
+  {
+   "n": 99,
+   "rule": "int9",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036361",
+     "name": "Trevon Diggs",
+     "pos": "CB",
+     "team": "DAL",
+     "season": 2021,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 11,
+     "TKL": 48,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0033050",
+     "name": "Xavien Howard",
+     "pos": "CB",
+     "team": "MIA",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 10,
+     "TKL": 46,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034591",
+     "name": "J.C. Jackson",
+     "pos": "DB",
+     "team": "NE",
+     "season": 2020,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 9,
+     "TKL": 37,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0037275",
+     "name": "DaRon Bland",
+     "pos": "CB",
+     "team": "DAL",
+     "season": 2023,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 9,
+     "TKL": 64,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0037667",
+     "name": "Kerby Joseph",
+     "pos": "SAF",
+     "team": "DET",
+     "season": 2024,
+     "G": 17,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 0,
+     "RY": 0,
+     "RTD": 0,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 9,
+     "TKL": 77,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 3.275,
+   "players": [
+    {
+     "id": "00-0036361",
+     "name": "Trevon Diggs"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "5 players intercepted 9 passes in the 2020s. The most extreme: Trevon Diggs, 2021 — 11 INT.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Turnover-heavy seasons are the most shared kind of chaos stat."
+  },
+  {
+   "n": 100,
+   "rule": "int_over_td",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence",
+     "pos": "QB",
+     "team": "JAX",
+     "season": 2021,
+     "G": 17,
+     "CMP": 359,
+     "ATT": 602,
+     "PY": 3641,
+     "PTD": 12,
+     "INT": 17,
+     "CAR": 73,
+     "RY": 334,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034869",
+     "name": "Sam Darnold",
+     "pos": "QB",
+     "team": "CAR",
+     "season": 2021,
+     "G": 12,
+     "CMP": 243,
+     "ATT": 406,
+     "PY": 2527,
+     "PTD": 9,
+     "INT": 13,
+     "CAR": 48,
+     "RY": 222,
+     "RTD": 5,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0027939",
+     "name": "Cam Newton",
+     "pos": "QB",
+     "team": "NE",
+     "season": 2020,
+     "G": 15,
+     "CMP": 242,
+     "ATT": 368,
+     "PY": 2657,
+     "PTD": 8,
+     "INT": 10,
+     "CAR": 137,
+     "RY": 592,
+     "RTD": 12,
+     "REC": 2,
+     "RECY": 35,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0034869",
+     "name": "Sam Darnold",
+     "pos": "QB",
+     "team": "NYJ",
+     "season": 2020,
+     "G": 12,
+     "CMP": 217,
+     "ATT": 364,
+     "PY": 2208,
+     "PTD": 9,
+     "INT": 11,
+     "CAR": 37,
+     "RY": 217,
+     "RTD": 2,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0037013",
+     "name": "Zach Wilson",
+     "pos": "QB",
+     "team": "NYJ",
+     "season": 2021,
+     "G": 13,
+     "CMP": 213,
+     "ATT": 383,
+     "PY": 2334,
+     "PTD": 9,
+     "INT": 11,
+     "CAR": 29,
+     "RY": 185,
+     "RTD": 4,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0038102",
+     "name": "Kenny Pickett",
+     "pos": "QB",
+     "team": "PIT",
+     "season": 2022,
+     "G": 13,
+     "CMP": 245,
+     "ATT": 389,
+     "PY": 2404,
+     "PTD": 7,
+     "INT": 9,
+     "CAR": 55,
+     "RY": 237,
+     "RTD": 3,
+     "REC": 0,
+     "RECY": 0,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 2,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 3.125,
+   "players": [
+    {
+     "id": "00-0036971",
+     "name": "Trevor Lawrence"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "5 players threw more interceptions than touchdowns (350+ attempts) in the 2020s (6 seasons). The most extreme: Trevor Lawrence, 2021 — 12 TD, 17 INT.",
+   "why": "Leads with the most extreme case, which carries the post. The boom-or-bust gunslinger season: fans split on whether it was great or reckless."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 12027,
+  "playoffPlayerSeasons": 3069
+ },
+ "method": [
+  "NFL 2000s onward: every player's regular-season and playoff totals for every season, from nflverse, which aggregates the NFL's own play-by-play (GSIS) data. Nothing recalled or estimated; the rows behind each line are stored with it.",
+  "Passer rating is computed with the NFL's formula. Attempt and catch floors are stated in the line. Positions are nflverse's listed position.",
+  "Team-mate lines are omitted: a season file credits a traded player's season to his most recent club."
+ ]
+}

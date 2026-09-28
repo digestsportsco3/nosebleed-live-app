@@ -1,0 +1,3335 @@
+{
+ "runDate": "2026-09-28",
+ "links": {
+  "https://www.sports-reference.com/stathead/": {
+   "status": 200,
+   "finders": [
+    [
+     "https://www.sports-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Sports Reference ®"
+    ],
+    [
+     "https://www.baseball-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Baseball"
+    ],
+    [
+     "https://www.pro-football-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Football"
+    ],
+    [
+     "https://www.basketball-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Basketball"
+    ],
+    [
+     "https://www.hockey-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Hockey"
+    ],
+    [
+     "https://fbref.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Soccer"
+    ],
+    [
+     "https://www.sports-reference.com/blog/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Blog"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Stathead ®"
+    ],
+    [
+     "https://www.sports-reference.com/immaculate-grid/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Immaculate Grid ®"
+    ],
+    [
+     "https://www.sports-reference.com/feedback/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Questions or Comments?"
+    ],
+    [
+     "https://www.sports-reference.com/profile/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav_account",
+     "Your Account"
+    ],
+    [
+     "https://www.sports-reference.com/users/login.cgi?product=stathead",
+     "Stathead Login"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/signup.cgi",
+     "Create Account"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/",
+     ""
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-game-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-game-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-streak-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-streak-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-span-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-span-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-season-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-season-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-game-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-game-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?class=team&type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?class=team&type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-streak-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-streak-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-span-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-span-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/event_finder.cgi?type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/event_finder.cgi?type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/pivotal_play_finder.cgi",
+     "Pivotal Play Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/versus-finder.cgi?request=1&match=versus_today",
+     "Today's Starting Pitchers vs. Opponents"
+    ],
+    [
+     "https://www.baseball-reference.com/stream-finder.shtml",
+     "Stream Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "More"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/quarter_finder.cgi",
+     "Quarter Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     ""
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi",
+     "Event Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi",
+     "Shot Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player_split_finder.cgi",
+     "Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/ptd_finder.cgi",
+     "TD Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/split_finder.cgi",
+     "Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/play_finder.cgi",
+     "Play Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/drive_finder.cgi",
+     "Drive Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/fg_finder.cgi",
+     "Field Goal Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/goal-finder.cgi",
+     "Goal Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/",
+     "FBref"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-match-finder.cgi",
+     "Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-match-finder.cgi",
+     "Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/users/login.cgi?product=stathead",
+     "Login"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/",
+     "Subscribe"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/your-account",
+     "Your Account"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/subscriptions-and-billing",
+     "Subscriptions and Billing"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/download-and-share-data",
+     "Download and Share Data"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/tips-and-tricks",
+     "Tips and Tricks"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/data-sources-and-coverage",
+     "Data Sources and Coverage"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball-sample-searches.html",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball-sample-searches.html",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football-sample-searches.html",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey-sample-searches.html",
+     "Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref-sample-searches.html",
+     "FBref"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball-tutorials.html",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball-tutorials.html",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football-tutorials.html",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey-tutorials.html",
+     "Hockey"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/troubleshooting",
+     "Frequently Asked Questions"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/newsletter.cgi",
+     "Newsletters"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/",
+     "STATHEAD Home Page"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "All Baseball Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "All Basketball Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-game-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Pro"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-game-finder.cgi",
+     "College"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "All Football Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-streak-finder.cgi",
+     "Player Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "All Hockey Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-match-finder.cgi",
+     "Player Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-match-finder.cgi",
+     "Team Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/",
+     "All FBref Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/all/#header",
+     "Return to Top"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "Stathead Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-season-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-season-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-game-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-game-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-game-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-game-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b&class=team",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p&class=team",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-streak-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-streak-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-streak-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-streak-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-span-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-span-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-span-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-span-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "Stathead Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-span-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/quarter_finder.cgi",
+     "Quarter"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi",
+     "Event"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi",
+     "Shot"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi",
+     "Player Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi",
+     "Player Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi",
+     "Team Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi",
+     "Team Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "Stathead Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player_split_finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/split_finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-span-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/play_finder.cgi",
+     "Play"
+    ]
+   ]
+  },
+  "https://www.sports-reference.com/stathead/basketball/": {
+   "status": 200,
+   "finders": [
+    [
+     "https://www.sports-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Sports Reference ® Hub"
+    ],
+    [
+     "https://www.baseball-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Baseball"
+    ],
+    [
+     "https://www.pro-football-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Football"
+    ],
+    [
+     "https://www.basketball-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Basketball"
+    ],
+    [
+     "https://www.hockey-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Hockey"
+    ],
+    [
+     "https://fbref.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Soccer"
+    ],
+    [
+     "https://www.sports-reference.com/blog/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Blog"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Stathead ®"
+    ],
+    [
+     "https://www.sports-reference.com/immaculate-grid/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Immaculate Grid ®"
+    ],
+    [
+     "https://www.sports-reference.com/feedback/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Questions or Comments?"
+    ],
+    [
+     "https://www.sports-reference.com/profile/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav_account",
+     "Your Account"
+    ],
+    [
+     "https://www.sports-reference.com/users/login.cgi?product=stathead",
+     "Stathead Login"
+    ],
+    [
+     "https://www.sports-reference.com/account/sign-up?product=stathead",
+     "Create Account"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/",
+     ""
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-game-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-game-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-streak-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-streak-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-span-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-span-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-season-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-season-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-game-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-game-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?class=team&type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?class=team&type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-streak-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-streak-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-span-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-span-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/event_finder.cgi?type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/event_finder.cgi?type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/pivotal_play_finder.cgi",
+     "Pivotal Play Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/versus-finder.cgi?request=1&match=versus_today",
+     "Today's Starting Pitchers vs. Opponents"
+    ],
+    [
+     "https://www.baseball-reference.com/stream-finder.shtml",
+     "Stream Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "More"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/quarter_finder.cgi",
+     "Quarter Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     ""
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi",
+     "Event Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi",
+     "Shot Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player_split_finder.cgi",
+     "Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/ptd_finder.cgi",
+     "TD Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/split_finder.cgi",
+     "Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/play_finder.cgi",
+     "Play Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/drive_finder.cgi",
+     "Drive Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/fg_finder.cgi",
+     "Field Goal Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/goal-finder.cgi",
+     "Goal Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/",
+     "FBref"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-match-finder.cgi",
+     "Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-match-finder.cgi",
+     "Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/users/login.cgi?product=stathead",
+     "Login"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/?ref=bbr",
+     "Subscribe"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/your-account",
+     "Your Account"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/subscriptions-and-billing",
+     "Subscriptions and Billing"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/download-and-share-data",
+     "Download and Share Data"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/tips-and-tricks",
+     "Tips and Tricks"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/data-sources-and-coverage",
+     "Data Sources and Coverage"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball-sample-searches.html",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball-sample-searches.html",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football-sample-searches.html",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey-sample-searches.html",
+     "Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref-sample-searches.html",
+     "FBref"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball-tutorials.html",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball-tutorials.html",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football-tutorials.html",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey-tutorials.html",
+     "Hockey"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/troubleshooting",
+     "Frequently Asked Questions"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/newsletter.cgi",
+     "Newsletters"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-streak-finder.cgi",
+     "Player Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-span-finder.cgi",
+     "Player Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/quarter_finder.cgi",
+     "Player Quarter Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-streak-finder.cgi",
+     "Team Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-span-finder.cgi",
+     "Team Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi?request=1&event_code=fg&year_id=2011&is_playoffs=N&team_id=MIA",
+     "all field goals for a team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi?request=1&player_id=paulch01&event_code=stl&year_id=2011&is_playoffs=N",
+     "all steals for a player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi?request=1&match=single&year_id=2011&is_playoffs=N&game_num_min=0&game_num_max=99&shot_type=DUNK&order_by=fg",
+     "most prolific dunkers"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi?request=1&match=single&order_by_asc=0&order_by=efg_pct&year_id=2011&is_playoffs=N&ccomp[1]=gt&cval[1]=25&cstat[1]=fga&ccomp=gt&quarters[]=4&quarters[]=5&minutes_max=5&seconds_max=0&minutes_min=0&seconds_min=0&margin_min=-5&margin_max=5",
+     "best clutch shooters"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/#header",
+     "Return to Top"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "Stathead Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-season-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-season-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-game-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-game-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-game-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-game-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b&class=team",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p&class=team",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-streak-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-streak-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-streak-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-streak-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-span-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-span-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-span-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-span-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "Stathead Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-span-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/quarter_finder.cgi",
+     "Quarter"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi",
+     "Event"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi",
+     "Shot"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi",
+     "Player Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi",
+     "Player Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi",
+     "Team Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi",
+     "Team Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "Stathead Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player_split_finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/split_finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-span-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/play_finder.cgi",
+     "Play"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/drive_finder.cgi",
+     "Drive"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/ptd_finder.cgi",
+     "Touchdown"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/fg_finder.cgi",
+     "Field Goal"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-game-finder.cgi",
+     "Player Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi",
+     "Player Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-game-finder.cgi",
+     "Team Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi",
+     "Team Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "Stathead Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-span-finder.cgi",
+     "Team"
+    ]
+   ]
+  },
+  "https://www.sports-reference.com/stathead/football/": {
+   "status": 200,
+   "finders": [
+    [
+     "https://www.sports-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Sports Reference ® Hub"
+    ],
+    [
+     "https://www.baseball-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Baseball"
+    ],
+    [
+     "https://www.pro-football-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Football"
+    ],
+    [
+     "https://www.basketball-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Basketball"
+    ],
+    [
+     "https://www.hockey-reference.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Hockey"
+    ],
+    [
+     "https://fbref.com/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Soccer"
+    ],
+    [
+     "https://www.sports-reference.com/blog/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Blog"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Stathead ®"
+    ],
+    [
+     "https://www.sports-reference.com/immaculate-grid/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Immaculate Grid ®"
+    ],
+    [
+     "https://www.sports-reference.com/feedback/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Questions or Comments?"
+    ],
+    [
+     "https://www.sports-reference.com/profile/?utm_source=stathead&utm_medium=sr_xsite&utm_campaign=2023_01_srnav_account",
+     "Your Account"
+    ],
+    [
+     "https://www.sports-reference.com/users/login.cgi?product=stathead",
+     "Stathead Login"
+    ],
+    [
+     "https://www.sports-reference.com/account/sign-up?product=stathead",
+     "Create Account"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/",
+     ""
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-game-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-game-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-streak-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-streak-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-span-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-span-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-season-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-season-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-game-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-game-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?class=team&type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?class=team&type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-streak-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-streak-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-span-finder.cgi",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-span-finder.cgi",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/event_finder.cgi?type=b",
+     "Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/event_finder.cgi?type=p",
+     "Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/pivotal_play_finder.cgi",
+     "Pivotal Play Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/versus-finder.cgi?request=1&match=versus_today",
+     "Today's Starting Pitchers vs. Opponents"
+    ],
+    [
+     "https://www.baseball-reference.com/stream-finder.shtml",
+     "Stream Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "More"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/quarter_finder.cgi",
+     "Quarter Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     ""
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi",
+     "Event Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi",
+     "Shot Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player_split_finder.cgi",
+     "Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/ptd_finder.cgi",
+     "TD Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/split_finder.cgi",
+     "Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/play_finder.cgi",
+     "Play Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/drive_finder.cgi",
+     "Drive Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/fg_finder.cgi",
+     "Field Goal Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/goal-finder.cgi",
+     "Goal Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-game-finder.cgi",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-streak-finder.cgi",
+     "Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-span-finder.cgi",
+     "Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/versus-finder.cgi",
+     "Versus Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/",
+     "FBref"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/player-match-finder.cgi",
+     "Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/",
+     "…"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-season-finder.cgi",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref/team-match-finder.cgi",
+     "Match Finder"
+    ],
+    [
+     "https://www.sports-reference.com/users/login.cgi?product=stathead",
+     "Login"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/?ref=pfr",
+     "Subscribe"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/your-account",
+     "Your Account"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/subscriptions-and-billing",
+     "Subscriptions and Billing"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/download-and-share-data",
+     "Download and Share Data"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/tips-and-tricks",
+     "Tips and Tricks"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/data-sources-and-coverage",
+     "Data Sources and Coverage"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball-sample-searches.html",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball-sample-searches.html",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football-sample-searches.html",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey-sample-searches.html",
+     "Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/fbref-sample-searches.html",
+     "FBref"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball-tutorials.html",
+     "Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball-tutorials.html",
+     "Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football-tutorials.html",
+     "Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey-tutorials.html",
+     "Hockey"
+    ],
+    [
+     "https://faq.sports-reference.com/portal/en/kb/stathead/troubleshooting",
+     "Frequently Asked Questions"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/newsletter.cgi",
+     "Newsletters"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Player Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Player Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-streak-finder.cgi",
+     "Player Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-span-finder.cgi",
+     "Player Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player_split_finder.cgi",
+     "Player Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Team Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Team Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-streak-finder.cgi",
+     "Team Streak Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-span-finder.cgi",
+     "Team Span Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/split_finder.cgi",
+     "Team Split Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/play_finder.cgi",
+     "Game Play Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/ptd_finder.cgi",
+     "Touchdown Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/#header",
+     "Return to Top"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "Stathead Baseball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-season-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-season-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-game-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-game-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-game-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-game-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=b&class=team",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/split_finder.cgi?type=p&class=team",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-streak-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-streak-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-streak-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-streak-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-batting-span-finder.cgi",
+     "Player Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/player-pitching-span-finder.cgi",
+     "Player Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-batting-span-finder.cgi",
+     "Team Batting"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/team-pitching-span-finder.cgi",
+     "Team Pitching"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/baseball/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "Stathead Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/team-span-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/quarter_finder.cgi",
+     "Quarter"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/event_finder.cgi",
+     "Event"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/shot_finder.cgi",
+     "Shot"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi",
+     "Player Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi",
+     "Player Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi",
+     "Team Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi",
+     "Team Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "Stathead Football"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player_split_finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/split_finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/team-span-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/play_finder.cgi",
+     "Play"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/drive_finder.cgi",
+     "Drive"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/ptd_finder.cgi",
+     "Touchdown"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/fg_finder.cgi",
+     "Field Goal"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-game-finder.cgi",
+     "Player Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/player-season-finder.cgi",
+     "Player Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-game-finder.cgi",
+     "Team Game"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi",
+     "Team Season"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/football/",
+     "All Tools"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "Stathead Hockey"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-season-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-season-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-game-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-game-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-streak-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-streak-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/player-span-finder.cgi",
+     "Player"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/team-span-finder.cgi",
+     "Team"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/hockey/",
+     "All Tools"
+    ]
+   ]
+  },
+  "https://www.sports-reference.com/cfb/": {
+   "status": 403,
+   "finders": []
+  },
+  "https://www.sports-reference.com/cbb/": {
+   "status": 200,
+   "finders": [
+    [
+     "https://www.sports-reference.com/stathead/?utm_source=cbb&utm_medium=sr_xsite&utm_campaign=2023_01_srnav",
+     "Stathead ®"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/sport/basketball/?utm_source=cbb&utm_medium=sr_xsite&utm_campaign=2023_01_topnav_stathead&utm_content=lnk_top",
+     "Stathead"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_topnav_stathead",
+     "Stathead"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_topnav_stathead",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_topnav_stathead",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_topnav_stathead",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_topnav_stathead",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_topnav_stathead",
+     "All Stathead Tools"
+    ],
+    [
+     "https://www.sports-reference.com/blog/2025/09/one-place-all-things-sports-reference-immaculate-grid-stathead-are-moving-to-sports-reference-com/",
+     "One Place, All Things Sports Reference"
+    ],
+    [
+     "https://stathead.com/sport/basketball?&utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2024_05_whats_happening",
+     "Dive Deeper with Stathead Basketball"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_footernav_stathead",
+     "Stathead"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-season-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_footernav_stathead",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/player-game-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_footernav_stathead",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-season-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_footernav_stathead",
+     "Season Finder"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/basketball/cbb/team-game-finder.cgi?utm_medium=sr_xsite&utm_source=cbb&utm_campaign=2023_01_footernav_stathead",
+     "Game Finder"
+    ],
+    [
+     "https://www.sports-reference.com/blog/category/stathead-tutorial-series/",
+     "Watch our How-To Videos to Become a Stathead"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/?ref=cbb",
+     "Subscribe to Stathead and get access to more data than you c"
+    ],
+    [
+     "https://www.sports-reference.com/stathead/?utm_source=cbb&utm_medium=sr_xsite&utm_campaign=2023_01_srnav_footer",
+     "Stathead ®"
+    ]
+   ]
+  }
+ },
+ "samples": {
+  "football:pass_yds": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "pass_yds",
+     "Yds"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "pass_cmp",
+     "Cmp"
+    ],
+    [
+     "pass_att",
+     "Att"
+    ],
+    [
+     "pass_inc",
+     "Inc"
+    ],
+    [
+     "pass_cmp_pct",
+     "Cmp%"
+    ],
+    [
+     "pass_yds",
+     "Yds"
+    ],
+    [
+     "pass_td",
+     "TD"
+    ],
+    [
+     "pass_int",
+     "Int"
+    ],
+    [
+     "pass_int_td",
+     "Pick6"
+    ],
+    [
+     "pass_td_pct",
+     "TD%"
+    ],
+    [
+     "pass_int_pct",
+     "Int%"
+    ],
+    [
+     "pass_rating",
+     "Rate"
+    ],
+    [
+     "pass_sacked",
+     "Sk"
+    ],
+    [
+     "pass_sacked_yds",
+     "Yds"
+    ],
+    [
+     "pass_sacked_pct",
+     "Sk%"
+    ],
+    [
+     "pass_yds_per_att",
+     "Y/A"
+    ],
+    [
+     "pass_adj_yds_per_att",
+     "AY/A"
+    ],
+    [
+     "pass_adj_net_yds_per_att",
+     "ANY/A"
+    ],
+    [
+     "pass_yds_per_cmp",
+     "Y/C"
+    ],
+    [
+     "pass_yds_per_g",
+     "Y/G"
+    ],
+    [
+     "pass_success",
+     "Succ%"
+    ],
+    [
+     "qb_w",
+     "W"
+    ],
+    [
+     "qb_l",
+     "L"
+    ],
+    [
+     "qb_t",
+     "T"
+    ],
+    [
+     "comebacks",
+     "4QC"
+    ],
+    [
+     "gwd",
+     "GWD"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "MariDa00"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Marino Dan"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/M/MariDa00.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&season_end=-1&year_min=1985&season_start=1&comp_type=reg&weight_max=500&draft_pick_type=overall&year_max=1985&rookie=N&order_by=pass_yds&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=pass_yds"
+  },
+  "football:rush_yds": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "rush_yds",
+     "Yds"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "rush_att",
+     "Att"
+    ],
+    [
+     "rush_yds",
+     "Yds"
+    ],
+    [
+     "rush_yds_per_att",
+     "Y/A"
+    ],
+    [
+     "rush_td",
+     "TD"
+    ],
+    [
+     "rush_yds_per_g",
+     "Y/G"
+    ],
+    [
+     "rush_first_down",
+     "1D"
+    ],
+    [
+     "rush_success",
+     "Succ%"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "AlleMa00"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Allen Marcus"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/A/AlleMa00.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&order_by=rush_yds&match=player_season&season_end=-1&weight_max=500&season_start=1&year_max=1985&comp_type=reg&rookie=N&draft_pick_type=overall&year_min=1985&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=rush_yds"
+  },
+  "football:rec_yds": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "rec_yds",
+     "Yds"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "targets",
+     "Tgt"
+    ],
+    [
+     "rec",
+     "Rec"
+    ],
+    [
+     "rec_yds",
+     "Yds"
+    ],
+    [
+     "rec_yds_per_rec",
+     "Y/R"
+    ],
+    [
+     "rec_td",
+     "TD"
+    ],
+    [
+     "rec_yds_per_g",
+     "Y/G"
+    ],
+    [
+     "catch_pct",
+     "Ctch%"
+    ],
+    [
+     "rec_yds_per_tgt",
+     "Y/Tgt"
+    ],
+    [
+     "rec_first_down",
+     "1D"
+    ],
+    [
+     "rec_success",
+     "Succ%"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "LargSt00"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Largent Steve"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/L/LargSt00.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&draft_pick_type=overall&year_min=1985&season_end=-1&rookie=N&season_start=1&comp_type=reg&order_by=rec_yds&weight_max=500&match=player_season&year_max=1985&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=rec_yds"
+  },
+  "football:def_int": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "def_int",
+     "Int"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "def_int",
+     "Int"
+    ],
+    [
+     "def_int_yds",
+     "Yds"
+    ],
+    [
+     "def_int_td",
+     "IntTD"
+    ],
+    [
+     "pass_defended",
+     "PD"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "WallEv00"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Walls Everson"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/W/WallEv00.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&rookie=N&year_min=1985&year_max=1985&match=player_season&comp_type=reg&weight_max=500&draft_pick_type=overall&season_start=1&order_by=def_int&season_end=-1&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=def_int"
+  },
+  "football:sacks": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "sacks",
+     "Sk"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "sacks",
+     "Sk"
+    ],
+    [
+     "tackles_solo",
+     "Solo"
+    ],
+    [
+     "tackles_assists",
+     "Ast"
+    ],
+    [
+     "tackles_combined",
+     "Comb"
+    ],
+    [
+     "tackles_loss",
+     "TFL"
+    ],
+    [
+     "qb_hits",
+     "QBHits"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "DentRi00"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Dent Richard"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/D/DentRi00.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&weight_max=500&year_min=1985&season_start=1&comp_type=reg&order_by=sacks&draft_pick_type=overall&year_max=1985&rookie=N&season_end=-1&match=player_season&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=sacks"
+  },
+  "football:punt_ret_yds": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "punt_ret_yds",
+     "Yds"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "punt_ret",
+     "Ret"
+    ],
+    [
+     "punt_ret_yds",
+     "Yds"
+    ],
+    [
+     "punt_ret_yds_per_ret",
+     "Y/Ret"
+    ],
+    [
+     "punt_ret_td",
+     "PRTD"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "WalkFu20"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Walker Fulton"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/W/WalkFu20.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&weight_max=500&match=player_season&order_by=punt_ret_yds&year_max=1985&draft_pick_type=overall&season_start=1&year_min=1985&season_end=-1&comp_type=reg&rookie=N&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=punt_ret_yds"
+  },
+  "football:fgm": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "fgm",
+     "FGM"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "all_td",
+     "TD"
+    ],
+    [
+     "xpm",
+     "XPM"
+    ],
+    [
+     "xpa",
+     "XPA"
+    ],
+    [
+     "xp_pct",
+     "XP%"
+    ],
+    [
+     "fgm",
+     "FGM"
+    ],
+    [
+     "fga",
+     "FGA"
+    ],
+    [
+     "fg_pct",
+     "FG%"
+    ],
+    [
+     "two_pt_md",
+     "2PM"
+    ],
+    [
+     "safety_md",
+     "Sfty"
+    ],
+    [
+     "scoring",
+     "Pts"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "andergar02"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Anderson Gary"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/A/andergar02.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&draft_pick_type=overall&year_min=1985&comp_type=reg&season_end=-1&weight_max=500&order_by=fgm&rookie=N&year_max=1985&match=player_season&season_start=1&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=fgm"
+  },
+  "football:scoring_pts": {
+   "headers": [
+    [
+     "ranker",
+     "Rk"
+    ],
+    [
+     "name_display",
+     "Player"
+    ],
+    [
+     "fantasy_points",
+     "FantPt"
+    ],
+    [
+     "year_id",
+     "Season"
+    ],
+    [
+     "age",
+     "Age"
+    ],
+    [
+     "teams_played_for",
+     "Team"
+    ],
+    [
+     "games",
+     "G"
+    ],
+    [
+     "games_started",
+     "GS"
+    ],
+    [
+     "fantasy_points",
+     "FantPt"
+    ],
+    [
+     "fantasy_points_ppr",
+     "PPR"
+    ],
+    [
+     "fantasy_points_per_game",
+     "FantPt"
+    ],
+    [
+     "fantasy_points_ppr_per_game",
+     "PPR/G"
+    ],
+    [
+     "pos",
+     "Pos"
+    ]
+   ],
+   "bodyRows": 200,
+   "countText": [
+    "Find individual seasons, combined seasons, or number of seasons matching your criteria. • Video Tutorial • Sample Searches • Data Coverage",
+    " Show Criteria ➦Share Results",
+    "Query Results ",
+    "You are here: Football Stathead > Player Season & Career Stats Finder > Query Results",
+    "Match Tools: Player, Team"
+   ],
+   "nameCellAttrs": [
+    [
+     "class",
+     "left "
+    ],
+    [
+     "data-append-csv",
+     "AlleMa00"
+    ],
+    [
+     "data-stat",
+     "name_display"
+    ],
+    [
+     "csk",
+     "Allen Marcus"
+    ]
+   ],
+   "nameLink": "https://www.pro-football-reference.com/players/A/AlleMa00.htm",
+   "nextLink": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&weight_max=500&season_end=-1&match=player_season&comp_type=reg&year_min=1985&year_max=1985&rookie=N&draft_pick_type=overall&season_start=1&order_by=fantasy_points&offset=200",
+   "url": "https://www.sports-reference.com/stathead/football/player-season-finder.cgi?request=1&match=player_season&year_min=1985&year_max=1985&comp_type=reg&order_by=scoring_pts"
+  }
+ }
+}

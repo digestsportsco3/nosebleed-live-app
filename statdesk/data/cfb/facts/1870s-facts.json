@@ -1,0 +1,925 @@
+{
+ "sport": "College Football",
+ "decade": "1870s",
+ "source": "Stathead",
+ "queries": 19,
+ "candidates": 10,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "t:stingy",
+   "group": "P",
+   "decade": "1870s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=points_opp&order_by_asc=1&ccomp[1]=gt&cval[1]=8&cstat[1]=games&ccomp[2]=lt&cval[2]=20&cstat[2]=points_opp"
+   },
+   "evidence": [
+    {
+     "id": "Stevens",
+     "name": "Stevens",
+     "season": 1879,
+     "team": "Stevens",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 1,
+     "year_id": 1879,
+     "team_name_abbr": "Stevens",
+     "points_opp": 12,
+     "games": 8,
+     "wins": 1,
+     "losses": 2,
+     "ties": 5,
+     "win_loss_pct": 0.438,
+     "points": 6,
+     "points_diff": -6
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.3,
+   "players": [
+    {
+     "id": "Stevens",
+     "name": "Stevens"
+    }
+   ],
+   "seasons": [
+    1879
+   ],
+   "text": "The only major-college team of the 1870s to allow 20 or fewer points all season (8+ games): Stevens, 1879 — 12 allowed in 8 games.",
+   "why": "A club of one in the 1870s; \"name another\" posts draw replies. Defensive dominance measured the simplest way possible."
+  },
+  {
+   "n": 2,
+   "rule": "t:perfect",
+   "group": "P",
+   "decade": "1870s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=5&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=losses&ccomp[3]=lt&cval[3]=0&cstat[3]=ties"
+   },
+   "evidence": [
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1878,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1878",
+     "ranker": 1,
+     "year_id": 1878,
+     "team_name_abbr": "Princeton",
+     "wins": 6,
+     "games": 6,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 15,
+     "points_opp": 1,
+     "points_diff": 14
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.15,
+   "players": [
+    {
+     "id": "Princeton",
+     "name": "Princeton"
+    }
+   ],
+   "seasons": [
+    1878
+   ],
+   "text": "The only major-college team of the 1870s to go unbeaten and untied (5+ games): Princeton, 1878 — 6-0, 15-1 on the season.",
+   "why": "Nobody else in the 1870s did it, and exclusivity is what gets a post shared. Perfect seasons are the ultimate bragging right for a program."
+  },
+  {
+   "n": 3,
+   "rule": "t:pts_low",
+   "group": "P",
+   "decade": "1870s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=points&order_by_asc=1&ccomp[1]=gt&cval[1]=7&cstat[1]=games&ccomp[2]=lt&cval[2]=20&cstat[2]=points"
+   },
+   "evidence": [
+    {
+     "id": "Stevens",
+     "name": "Stevens",
+     "season": 1879,
+     "team": "Stevens",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 1,
+     "year_id": 1879,
+     "team_name_abbr": "Stevens",
+     "points": 6,
+     "games": 8,
+     "wins": 1,
+     "losses": 2,
+     "ties": 5,
+     "win_loss_pct": 0.438,
+     "points_opp": 12,
+     "points_diff": -6
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.15,
+   "players": [
+    {
+     "id": "Stevens",
+     "name": "Stevens"
+    }
+   ],
+   "seasons": [
+    1879
+   ],
+   "text": "The only major-college team of the 1870s to score 20 or fewer points all season (7+ games): Stevens, 1879 — 6 points in 8 games, 1-2-5.",
+   "why": "A club of one in the 1870s; \"name another\" posts draw replies. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 4,
+   "rule": "t:ties",
+   "group": "P",
+   "decade": "1870s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=ties&order_by_asc=0&ccomp[1]=gt&cval[1]=3&cstat[1]=ties"
+   },
+   "evidence": [
+    {
+     "id": "Stevens",
+     "name": "Stevens",
+     "season": 1879,
+     "team": "Stevens",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 1,
+     "year_id": 1879,
+     "team_name_abbr": "Stevens",
+     "ties": 5,
+     "games": 8,
+     "wins": 1,
+     "losses": 2,
+     "win_loss_pct": 0.438,
+     "points": 6,
+     "points_opp": 12,
+     "points_diff": -6
+    },
+    {
+     "id": "Rutgers",
+     "name": "Rutgers",
+     "season": 1879,
+     "team": "Rutgers",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 2,
+     "year_id": 1879,
+     "team_name_abbr": "Rutgers",
+     "ties": 3,
+     "games": 6,
+     "wins": 1,
+     "losses": 2,
+     "win_loss_pct": 0.417,
+     "points": 5,
+     "points_opp": 11,
+     "points_diff": -6
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.125,
+   "players": [
+    {
+     "id": "Stevens",
+     "name": "Stevens"
+    },
+    {
+     "id": "Rutgers",
+     "name": "Rutgers"
+    }
+   ],
+   "seasons": [
+    1879,
+    1879
+   ],
+   "text": "Only two major-college teams of the 1870s tied 3 games: Stevens (1879: 1-2-5); Rutgers (1879: 1-2-3).",
+   "why": "A two-player club is a ready-made debate. Ties are a vanished part of the sport; old-era oddities intrigue modern fans."
+  },
+  {
+   "n": 5,
+   "rule": "t:unscored",
+   "group": "P",
+   "decade": "1870s",
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=games&order_by_asc=0&ccomp[1]=gt&cval[1]=4&cstat[1]=games&ccomp[2]=lt&cval[2]=0&cstat[2]=points_opp"
+   },
+   "evidence": [
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1879,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 1,
+     "year_id": 1879,
+     "team_name_abbr": "Princeton",
+     "games": 5,
+     "points_opp": 0,
+     "wins": 4,
+     "losses": 0,
+     "ties": 1,
+     "win_loss_pct": 0.9,
+     "points": 16,
+     "points_diff": 16
+    },
+    {
+     "id": "Yale",
+     "name": "Yale",
+     "season": 1879,
+     "team": "Yale",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 2,
+     "year_id": 1879,
+     "team_name_abbr": "Yale",
+     "games": 5,
+     "points_opp": 0,
+     "wins": 3,
+     "losses": 0,
+     "ties": 2,
+     "win_loss_pct": 0.8,
+     "points": 10,
+     "points_diff": 10
+    },
+    {
+     "id": "Yale",
+     "name": "Yale",
+     "season": 1877,
+     "team": "Yale",
+     "age": null,
+     "year_raw": "1877",
+     "ranker": 3,
+     "year_id": 1877,
+     "team_name_abbr": "Yale",
+     "games": 4,
+     "points_opp": 0,
+     "wins": 3,
+     "losses": 0,
+     "ties": 1,
+     "win_loss_pct": 0.875,
+     "points": 21,
+     "points_diff": 21
+    },
+    {
+     "id": "Harvard",
+     "name": "Harvard",
+     "season": 1875,
+     "team": "Harvard",
+     "age": null,
+     "year_raw": "1875",
+     "ranker": 4,
+     "year_id": 1875,
+     "team_name_abbr": "Harvard",
+     "games": 4,
+     "points_opp": 0,
+     "wins": 4,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 7,
+     "points_diff": 7
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.125,
+   "players": [
+    {
+     "id": "Princeton",
+     "name": "Princeton"
+    },
+    {
+     "id": "Yale",
+     "name": "Yale"
+    },
+    {
+     "id": "Harvard",
+     "name": "Harvard"
+    }
+   ],
+   "seasons": [
+    1879,
+    1879,
+    1877,
+    1875
+   ],
+   "text": "Just three major-college teams of the 1870s went a whole season without allowing a point (4+ games): Princeton (1879: 4-0-1, 16-0); Yale (2×, best 1879: 3-0-2, 10-0); Harvard (1875: 4-0, 7-0).",
+   "why": "A short list fans can recite; each name brings its own fan base. A season without allowing a point sounds impossible; that is the post."
+  },
+  {
+   "n": 6,
+   "kind": "extreme",
+   "rule": "t:tx_pts",
+   "group": "P",
+   "decade": "1870s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Yale",
+     "name": "Yale"
+    }
+   ],
+   "seasons": [
+    1877
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=points&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=points"
+   },
+   "evidence": [
+    {
+     "id": "Yale",
+     "name": "Yale",
+     "season": 1877,
+     "team": "Yale",
+     "age": null,
+     "year_raw": "1877",
+     "ranker": 1,
+     "year_id": 1877,
+     "team_name_abbr": "Yale",
+     "points": 21,
+     "games": 4,
+     "wins": 3,
+     "losses": 0,
+     "ties": 1,
+     "win_loss_pct": 0.875,
+     "points_opp": 0,
+     "points_diff": 21
+    },
+    {
+     "id": "Columbia",
+     "name": "Columbia",
+     "season": 1875,
+     "team": "Columbia",
+     "age": null,
+     "year_raw": "1875",
+     "ranker": 2,
+     "year_id": 1875,
+     "team_name_abbr": "Columbia",
+     "points": 19,
+     "games": 6,
+     "wins": 4,
+     "losses": 1,
+     "ties": 1,
+     "win_loss_pct": 0.75,
+     "points_opp": 10,
+     "points_diff": 9
+    },
+    {
+     "id": "Stevens",
+     "name": "Stevens",
+     "season": 1875,
+     "team": "Stevens",
+     "age": null,
+     "year_raw": "1875",
+     "ranker": 3,
+     "year_id": 1875,
+     "team_name_abbr": "Stevens",
+     "points": 18,
+     "games": 6,
+     "wins": 3,
+     "losses": 3,
+     "ties": 0,
+     "win_loss_pct": 0.5,
+     "points_opp": 14,
+     "points_diff": 4
+    },
+    {
+     "id": "Yale",
+     "name": "Yale",
+     "season": 1874,
+     "team": "Yale",
+     "age": null,
+     "year_raw": "1874",
+     "ranker": 4,
+     "year_id": 1874,
+     "team_name_abbr": "Yale",
+     "points": 17,
+     "games": 3,
+     "wins": 3,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points_opp": 2,
+     "points_diff": 15
+    },
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1879,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 5,
+     "year_id": 1879,
+     "team_name_abbr": "Princeton",
+     "points": 16,
+     "games": 5,
+     "wins": 4,
+     "losses": 0,
+     "ties": 1,
+     "win_loss_pct": 0.9,
+     "points_opp": 0,
+     "points_diff": 16
+    }
+   ],
+   "text": "Most points by a team in a season in the 1870s: Yale, 1877 — 21 (3-0-1).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring totals are universal; no explanation needed."
+  },
+  {
+   "n": 7,
+   "kind": "extreme",
+   "rule": "t:tx_diff",
+   "group": "P",
+   "decade": "1870s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Yale",
+     "name": "Yale"
+    }
+   ],
+   "seasons": [
+    1877
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=points_diff&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=games"
+   },
+   "evidence": [
+    {
+     "id": "Yale",
+     "name": "Yale",
+     "season": 1877,
+     "team": "Yale",
+     "age": null,
+     "year_raw": "1877",
+     "ranker": 1,
+     "year_id": 1877,
+     "team_name_abbr": "Yale",
+     "points_diff": 21,
+     "games": 4,
+     "wins": 3,
+     "losses": 0,
+     "ties": 1,
+     "win_loss_pct": 0.875,
+     "points": 21,
+     "points_opp": 0
+    },
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1879,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 2,
+     "year_id": 1879,
+     "team_name_abbr": "Princeton",
+     "points_diff": 16,
+     "games": 5,
+     "wins": 4,
+     "losses": 0,
+     "ties": 1,
+     "win_loss_pct": 0.9,
+     "points": 16,
+     "points_opp": 0
+    },
+    {
+     "id": "Yale",
+     "name": "Yale",
+     "season": 1874,
+     "team": "Yale",
+     "age": null,
+     "year_raw": "1874",
+     "ranker": 3,
+     "year_id": 1874,
+     "team_name_abbr": "Yale",
+     "points_diff": 15,
+     "games": 3,
+     "wins": 3,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 17,
+     "points_opp": 2
+    },
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1878,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1878",
+     "ranker": 4,
+     "year_id": 1878,
+     "team_name_abbr": "Princeton",
+     "points_diff": 14,
+     "games": 6,
+     "wins": 6,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 15,
+     "points_opp": 1
+    },
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1876,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1876",
+     "ranker": 5,
+     "year_id": 1876,
+     "team_name_abbr": "Princeton",
+     "points_diff": 12,
+     "games": 5,
+     "wins": 3,
+     "losses": 2,
+     "ties": 0,
+     "win_loss_pct": 0.6,
+     "points": 15,
+     "points_opp": 3
+    }
+   ],
+   "text": "Biggest scoring margin in a season in the 1870s: Yale, 1877 — 21-0.",
+   "why": "The high-water mark of the 1870s: a clean \"who did it best\" answer. Margin of victory is the cleanest measure of dominance."
+  },
+  {
+   "n": 8,
+   "kind": "extreme",
+   "rule": "t:tx_win",
+   "group": "P",
+   "decade": "1870s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Princeton",
+     "name": "Princeton"
+    }
+   ],
+   "seasons": [
+    1878
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=wins&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=wins"
+   },
+   "evidence": [
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1878,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1878",
+     "ranker": 1,
+     "year_id": 1878,
+     "team_name_abbr": "Princeton",
+     "wins": 6,
+     "games": 6,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 15,
+     "points_opp": 1,
+     "points_diff": 14
+    },
+    {
+     "id": "Princeton",
+     "name": "Princeton",
+     "season": 1879,
+     "team": "Princeton",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 2,
+     "year_id": 1879,
+     "team_name_abbr": "Princeton",
+     "wins": 4,
+     "games": 5,
+     "losses": 0,
+     "ties": 1,
+     "win_loss_pct": 0.9,
+     "points": 16,
+     "points_opp": 0,
+     "points_diff": 16
+    },
+    {
+     "id": "Yale",
+     "name": "Yale",
+     "season": 1878,
+     "team": "Yale",
+     "age": null,
+     "year_raw": "1878",
+     "ranker": 3,
+     "year_id": 1878,
+     "team_name_abbr": "Yale",
+     "wins": 4,
+     "games": 6,
+     "losses": 1,
+     "ties": 1,
+     "win_loss_pct": 0.75,
+     "points": 8,
+     "points_opp": 1,
+     "points_diff": 7
+    },
+    {
+     "id": "Columbia",
+     "name": "Columbia",
+     "season": 1875,
+     "team": "Columbia",
+     "age": null,
+     "year_raw": "1875",
+     "ranker": 4,
+     "year_id": 1875,
+     "team_name_abbr": "Columbia",
+     "wins": 4,
+     "games": 6,
+     "losses": 1,
+     "ties": 1,
+     "win_loss_pct": 0.75,
+     "points": 19,
+     "points_opp": 10,
+     "points_diff": 9
+    },
+    {
+     "id": "Harvard",
+     "name": "Harvard",
+     "season": 1875,
+     "team": "Harvard",
+     "age": null,
+     "year_raw": "1875",
+     "ranker": 5,
+     "year_id": 1875,
+     "team_name_abbr": "Harvard",
+     "wins": 4,
+     "games": 4,
+     "losses": 0,
+     "ties": 0,
+     "win_loss_pct": 1,
+     "points": 7,
+     "points_opp": 0,
+     "points_diff": 7
+    }
+   ],
+   "text": "Most wins in a season in the 1870s: Princeton, 1878 — 6-0.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Win totals are the first thing fans cite for a program's golden age."
+  },
+  {
+   "n": 9,
+   "kind": "extreme",
+   "rule": "t:tx_loss",
+   "group": "P",
+   "decade": "1870s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Columbia",
+     "name": "Columbia"
+    }
+   ],
+   "seasons": [
+    1874
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=losses&order_by_asc=0&ccomp[1]=gt&cval[1]=1&cstat[1]=losses"
+   },
+   "evidence": [
+    {
+     "id": "Columbia",
+     "name": "Columbia",
+     "season": 1874,
+     "team": "Columbia",
+     "age": null,
+     "year_raw": "1874",
+     "ranker": 1,
+     "year_id": 1874,
+     "team_name_abbr": "Columbia",
+     "losses": 5,
+     "games": 6,
+     "wins": 1,
+     "ties": 0,
+     "win_loss_pct": 0.167,
+     "points": 9,
+     "points_opp": 28,
+     "points_diff": -19
+    },
+    {
+     "id": "Columbia",
+     "name": "Columbia",
+     "season": 1879,
+     "team": "Columbia",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 2,
+     "year_id": 1879,
+     "team_name_abbr": "Columbia",
+     "losses": 3,
+     "games": 5,
+     "wins": 0,
+     "ties": 2,
+     "win_loss_pct": 0.2,
+     "points": 0,
+     "points_opp": 5,
+     "points_diff": -5
+    },
+    {
+     "id": "Stevens",
+     "name": "Stevens",
+     "season": 1877,
+     "team": "Stevens",
+     "age": null,
+     "year_raw": "1877",
+     "ranker": 3,
+     "year_id": 1877,
+     "team_name_abbr": "Stevens",
+     "losses": 3,
+     "games": 4,
+     "wins": 1,
+     "ties": 0,
+     "win_loss_pct": 0.25,
+     "points": 4,
+     "points_opp": 20,
+     "points_diff": -16
+    },
+    {
+     "id": "Tufts",
+     "name": "Tufts",
+     "season": 1877,
+     "team": "Tufts",
+     "age": null,
+     "year_raw": "1877",
+     "ranker": 4,
+     "year_id": 1877,
+     "team_name_abbr": "Tufts",
+     "losses": 3,
+     "games": 3,
+     "wins": 0,
+     "ties": 0,
+     "win_loss_pct": 0,
+     "points": 4,
+     "points_opp": 12,
+     "points_diff": -8
+    },
+    {
+     "id": "Columbia",
+     "name": "Columbia",
+     "season": 1876,
+     "team": "Columbia",
+     "age": null,
+     "year_raw": "1876",
+     "ranker": 5,
+     "year_id": 1876,
+     "team_name_abbr": "Columbia",
+     "losses": 3,
+     "games": 4,
+     "wins": 1,
+     "ties": 0,
+     "win_loss_pct": 0.25,
+     "points": 7,
+     "points_opp": 10,
+     "points_diff": -3
+    }
+   ],
+   "text": "Most losses in a season in the 1870s: Columbia, 1874 — 1-5.",
+   "why": "The high-water mark of the 1870s: a clean \"who did it best\" answer. Losing seasons are what rival fans remember best."
+  },
+  {
+   "n": 10,
+   "kind": "extreme",
+   "rule": "t:tx_worst",
+   "group": "P",
+   "decade": "1870s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Columbia",
+     "name": "Columbia"
+    }
+   ],
+   "seasons": [
+    1874
+   ],
+   "finder": {
+    "url": "https://www.sports-reference.com/stathead/football/cfb/team-season-finder.cgi?request=1&match=team_season&year_min=1870&year_max=1879&order_by=points_diff&order_by_asc=1&ccomp[1]=gt&cval[1]=5&cstat[1]=games"
+   },
+   "evidence": [
+    {
+     "id": "Columbia",
+     "name": "Columbia",
+     "season": 1874,
+     "team": "Columbia",
+     "age": null,
+     "year_raw": "1874",
+     "ranker": 1,
+     "year_id": 1874,
+     "team_name_abbr": "Columbia",
+     "points_diff": -19,
+     "games": 6,
+     "wins": 1,
+     "losses": 5,
+     "ties": 0,
+     "win_loss_pct": 0.167,
+     "points": 9,
+     "points_opp": 28
+    },
+    {
+     "id": "Rutgers",
+     "name": "Rutgers",
+     "season": 1879,
+     "team": "Rutgers",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 2,
+     "year_id": 1879,
+     "team_name_abbr": "Rutgers",
+     "points_diff": -6,
+     "games": 6,
+     "wins": 1,
+     "losses": 2,
+     "ties": 3,
+     "win_loss_pct": 0.417,
+     "points": 5,
+     "points_opp": 11
+    },
+    {
+     "id": "Stevens",
+     "name": "Stevens",
+     "season": 1879,
+     "team": "Stevens",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 3,
+     "year_id": 1879,
+     "team_name_abbr": "Stevens",
+     "points_diff": -6,
+     "games": 8,
+     "wins": 1,
+     "losses": 2,
+     "ties": 5,
+     "win_loss_pct": 0.438,
+     "points": 6,
+     "points_opp": 12
+    },
+    {
+     "id": "Columbia",
+     "name": "Columbia",
+     "season": 1879,
+     "team": "Columbia",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 4,
+     "year_id": 1879,
+     "team_name_abbr": "Columbia",
+     "points_diff": -5,
+     "games": 5,
+     "wins": 0,
+     "losses": 3,
+     "ties": 2,
+     "win_loss_pct": 0.2,
+     "points": 0,
+     "points_opp": 5
+    },
+    {
+     "id": "Harvard",
+     "name": "Harvard",
+     "season": 1879,
+     "team": "Harvard",
+     "age": null,
+     "year_raw": "1879",
+     "ranker": 5,
+     "year_id": 1879,
+     "team_name_abbr": "Harvard",
+     "points_diff": 2,
+     "games": 5,
+     "wins": 2,
+     "losses": 1,
+     "ties": 2,
+     "win_loss_pct": 0.6,
+     "points": 3,
+     "points_opp": 1
+    }
+   ],
+   "text": "Worst scoring margin in a season in the 1870s: Columbia, 1874 — outscored 28-9.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Blowout futility makes rival fan bases pile on."
+  }
+ ],
+ "counts": {
+  "stathead_queries": 19
+ },
+ "shortNote": "Player statistics in the college record begin in 1956, so every line here comes from team seasons (record, points for and against). The record for these years is thin; nothing was padded.",
+ "method": [
+  "College football: each line is one Stathead (Sports Reference college football) Season Finder query over the decade, run in a signed-in subscriber session; result rows and stable ids are stored as provenance. Counts cover the database's major-college (today's FBS) programs, the scope of Sports Reference's college records.",
+  "Player statistics begin in 1956; decades before that are built from team seasons (record, points for and against), which run back to 1869. The 2026 season is in progress and excluded. Defensive stats such as sacks and tackles appear only in recent decades, and rules on them return nothing earlier; college defensive statistics were long unofficial, so defensive lines count only the players whose figures the database holds. 'Freshman' follows the database's class label, which includes redshirt freshmen. Seasons include bowl games where the database counts them. The 1860s hold a single season (1869), too little to support a line."
+ ],
+ "generatedAt": "2026-09-28T06:25:57.439Z"
+}

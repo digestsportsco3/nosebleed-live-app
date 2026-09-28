@@ -57,12 +57,23 @@ function main() {
     process.exit(2);
   }
 
+  // Names are NOT unique. There are two Max Muncys in the league right now
+  // (Dodgers, 29 HR; Athletics, 9 HR), and a day-over-day diff keyed on name
+  // alone reported one of them gaining twenty home runs overnight. Nothing was
+  // wrong with the data — the comparison was.
+  //
+  // Taking the max across same-named players would be the dangerous choice
+  // HERE: asked about an injured player, this check would find his healthy
+  // namesake and wave him through. That is a false pass in the one guard whose
+  // whole job is to catch a player who has stopped appearing. So collect every
+  // match and report an ambiguity rather than guessing.
   const recent = new Map();
   for (const f of windows) {
     for (const s of splitsFrom(f)) {
       const key = norm(s.player.fullName);
       const g = s.stat.gamesPlayed ?? s.stat.gamesPitched ?? 0;
-      recent.set(key, Math.max(recent.get(key) || 0, g));
+      if (!recent.has(key)) recent.set(key, []);
+      recent.get(key).push({ id: s.player.id, games: g, team: (s.team || {}).name || "?" });
     }
   }
 
@@ -74,13 +85,25 @@ function main() {
       const gs = s.stat.gamesStarted || 0;
       const gp = s.stat.gamesPitched || 0;
       if (gp > 0 && gs >= gp / 2) starters.add(norm(s.player.fullName));
+      // NOTE: with a shared name this set is approximate, which is safe only
+      // because an ambiguous name is rejected above before the role is used.
     }
   }
 
   let bad = 0;
   for (const name of names) {
     const key = norm(name);
-    const g = recent.get(key);
+    const hits = recent.get(key);
+    // Two players share this name. Which one is meant cannot be guessed, and
+    // guessing wrong is exactly the failure this check exists to prevent.
+    if (hits && hits.length > 1) {
+      const who = hits.map((h) => `${h.team} id=${h.id}, ${h.games}G`).join(" | ");
+      console.log(`  AMBIGUOUS ${name} — ${hits.length} players share this name: ${who}`);
+      console.log(`            Resolve by player id before publishing anything about him.`);
+      bad++;
+      continue;
+    }
+    const g = hits ? hits[0].games : undefined;
     const isStarter = starters.has(key);
     const floor = isStarter ? MIN_GAMES_STARTER : MIN_GAMES_EVERYDAY;
     const role = isStarter ? "starter" : "everyday";

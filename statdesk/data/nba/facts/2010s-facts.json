@@ -1,0 +1,9047 @@
+{
+ "sport": "NBA",
+ "decade": "2010s",
+ "era": 6,
+ "bars": {
+  "ppg": 27,
+  "ppgHi": 30,
+  "fgLow": 0.43,
+  "fgHi": 0.6,
+  "rpg": 12,
+  "apg": 9,
+  "pts": 2000
+ },
+ "seasons": [
+  "2010-11",
+  "2011-12",
+  "2012-13",
+  "2013-14",
+  "2014-15",
+  "2015-16",
+  "2016-17",
+  "2017-18",
+  "2018-19",
+  "2019-20"
+ ],
+ "candidates": 121,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "po_ft",
+   "group": "PO",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202331,
+     "name": "Paul George",
+     "season": 2015,
+     "team": "IND",
+     "GP": 7,
+     "PTS": 191,
+     "PPG": 27.3,
+     "REB": 53,
+     "AST": 30,
+     "STL": 14,
+     "BLK": 5,
+     "FGM": 56,
+     "FGA": 123,
+     "FG3M": 18,
+     "FG3A": 43,
+     "FTM": 61,
+     "FTA": 64,
+     "MIN": 275,
+     "PF": 24,
+     "TOV": 23
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.3828125,
+   "players": [
+    {
+     "id": 202331,
+     "name": "Paul George"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "text": "The only player of the 2010s to shoot .950 from the line in a single postseason (60+ FTA): Paul George, 2015-16 — .953 on 64 FTA.",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 2,
+   "rule": "fg_600",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1626149,
+     "name": "Montrezl Harrell",
+     "season": 2018,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 1361,
+     "PPG": 16.6,
+     "REB": 535,
+     "AST": 162,
+     "STL": 71,
+     "BLK": 110,
+     "FGM": 546,
+     "FGA": 888,
+     "FG3M": 3,
+     "FG3A": 17,
+     "FTM": 266,
+     "FTA": 414,
+     "MIN": 2158,
+     "PF": 255,
+     "TOV": 132
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.537162162162161,
+   "players": [
+    {
+     "id": 1626149,
+     "name": "Montrezl Harrell"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "The only player of the 2010s to shoot .600 from the field on 800+ attempts: Montrezl Harrell, 2018-19 — .615 on 888 FGA.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 3,
+   "rule": "triple_double_avg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2017,
+     "team": "OKC",
+     "GP": 80,
+     "PTS": 2028,
+     "PPG": 25.4,
+     "REB": 804,
+     "AST": 820,
+     "STL": 147,
+     "BLK": 20,
+     "FGM": 757,
+     "FGA": 1687,
+     "FG3M": 97,
+     "FG3A": 326,
+     "FTM": 417,
+     "FTA": 566,
+     "MIN": 2914,
+     "PF": 200,
+     "TOV": 381
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2018,
+     "team": "OKC",
+     "GP": 73,
+     "PTS": 1675,
+     "PPG": 22.9,
+     "REB": 807,
+     "AST": 784,
+     "STL": 142,
+     "BLK": 33,
+     "FGM": 630,
+     "FGA": 1473,
+     "FG3M": 119,
+     "FG3A": 411,
+     "FTM": 296,
+     "FTA": 451,
+     "MIN": 2629,
+     "PF": 245,
+     "TOV": 325
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "only",
+   "score": 11.315432098765433,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    }
+   ],
+   "seasons": [
+    2016,
+    2017,
+    2018
+   ],
+   "text": "The only player of the 2010s to average a triple-double for a season (60% of games) was Russell Westbrook — and he did it 3 times (2016-17: 31.6/10.7/10.4; 2017-18: 25.4/10.1/10.3; 2018-19: 22.9/11.1/10.7).",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Do-everything stat lines get shared across fan bases."
+  },
+  {
+   "n": 4,
+   "rule": "thirty_ten",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.056172839506173,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "text": "The only player of the 2010s to average 30 points and 10 rebounds (60% of games): Russell Westbrook, 2016-17 — 31.6 ppg, 10.7 rpg.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 5,
+   "rule": "short_scorer",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202681,
+     "name": "Kyrie Irving",
+     "season": 2019,
+     "team": "BKN",
+     "GP": 20,
+     "PTS": 548,
+     "PPG": 27.4,
+     "REB": 103,
+     "AST": 128,
+     "STL": 27,
+     "BLK": 10,
+     "FGM": 199,
+     "FGA": 416,
+     "FG3M": 56,
+     "FG3A": 142,
+     "FTM": 94,
+     "FTA": 102,
+     "MIN": 658,
+     "PF": 53,
+     "TOV": 52
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.685,
+   "players": [
+    {
+     "id": 202681,
+     "name": "Kyrie Irving"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "The only player of the 2010s to average 27 points while missing 40% of the season (20+ games): Kyrie Irving, 2019-20 — 27.4 ppg in 20 games.",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 6,
+   "rule": "blk_250",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202355,
+     "name": "Hassan Whiteside",
+     "season": 2015,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 1040,
+     "PPG": 14.2,
+     "REB": 865,
+     "AST": 29,
+     "STL": 44,
+     "BLK": 269,
+     "FGM": 413,
+     "FGA": 682,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 214,
+     "FTA": 329,
+     "MIN": 2125,
+     "PF": 201,
+     "TOV": 137
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.6725,
+   "players": [
+    {
+     "id": 202355,
+     "name": "Hassan Whiteside"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "text": "The only player of the 2010s to block 250 shots in a season: Hassan Whiteside, 2015-16 — 269 blk.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 7,
+   "rule": "guard_stocks",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2011,
+     "team": "LAC",
+     "GP": 60,
+     "PTS": 1189,
+     "PPG": 19.8,
+     "REB": 213,
+     "AST": 543,
+     "STL": 152,
+     "BLK": 4,
+     "FGM": 425,
+     "FGA": 890,
+     "FG3M": 79,
+     "FG3A": 213,
+     "FTM": 260,
+     "FTA": 302,
+     "MIN": 2181,
+     "PF": 138,
+     "TOV": 124
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.633333333333333,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "The only player of the 2010s to average 2.5 steals a game (60% of games): Chris Paul, 2011-12 — 2.5 spg.",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 8,
+   "rule": "twenty_ten_no_pass",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2010,
+     "team": "ORL",
+     "GP": 78,
+     "PTS": 1784,
+     "PPG": 22.9,
+     "REB": 1098,
+     "AST": 107,
+     "STL": 107,
+     "BLK": 186,
+     "FGM": 619,
+     "FGA": 1044,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 546,
+     "FTA": 916,
+     "MIN": 2935,
+     "PF": 258,
+     "TOV": 279
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.580769230769231,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "The only player of the 2010s to average 20 points and 10 rebounds with under 1.5 assists (60% of games): Dwight Howard, 2010-11 — 22.9/14.1/1.4.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. Do-everything stat lines get shared across fan bases."
+  },
+  {
+   "n": 9,
+   "rule": "threes_200",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2015,
+     "team": "GSW",
+     "GP": 79,
+     "PTS": 2375,
+     "PPG": 30.1,
+     "REB": 430,
+     "AST": 527,
+     "STL": 169,
+     "BLK": 15,
+     "FGM": 805,
+     "FGA": 1598,
+     "FG3M": 402,
+     "FG3A": 886,
+     "FTM": 363,
+     "FTA": 400,
+     "MIN": 2700,
+     "PF": 161,
+     "TOV": 262
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2018,
+     "team": "GSW",
+     "GP": 69,
+     "PTS": 1881,
+     "PPG": 27.3,
+     "REB": 369,
+     "AST": 361,
+     "STL": 92,
+     "BLK": 25,
+     "FGM": 632,
+     "FGA": 1340,
+     "FG3M": 354,
+     "FG3A": 810,
+     "FTM": 263,
+     "FTA": 287,
+     "MIN": 2331,
+     "PF": 166,
+     "TOV": 192
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2016,
+     "team": "GSW",
+     "GP": 79,
+     "PTS": 1999,
+     "PPG": 25.3,
+     "REB": 353,
+     "AST": 524,
+     "STL": 142,
+     "BLK": 17,
+     "FGM": 675,
+     "FGA": 1443,
+     "FG3M": 324,
+     "FG3A": 789,
+     "FTM": 325,
+     "FTA": 362,
+     "MIN": 2639,
+     "PF": 183,
+     "TOV": 239
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 9.005,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    },
+    {
+     "id": 201935,
+     "name": "James Harden"
+    }
+   ],
+   "seasons": [
+    2015,
+    2018,
+    2018,
+    2016
+   ],
+   "text": "Only two players of the 2010s made 300 threes in a season: Stephen Curry (3×, best 2015-16: 402 3PM); James Harden (2018-19: 378 3PM).",
+   "why": "Two names invite the \"whose season was better?\" argument. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 10,
+   "rule": "fifty_forty_ninety",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2015,
+     "team": "GSW",
+     "GP": 79,
+     "PTS": 2375,
+     "PPG": 30.1,
+     "REB": 430,
+     "AST": 527,
+     "STL": 169,
+     "BLK": 15,
+     "FGM": 805,
+     "FGA": 1598,
+     "FG3M": 402,
+     "FG3A": 886,
+     "FTM": 363,
+     "FTA": 400,
+     "MIN": 2700,
+     "PF": 161,
+     "TOV": 262
+    },
+    {
+     "id": 1627763,
+     "name": "Malcolm Brogdon",
+     "season": 2018,
+     "team": "MIL",
+     "GP": 64,
+     "PTS": 1001,
+     "PPG": 15.6,
+     "REB": 288,
+     "AST": 205,
+     "STL": 46,
+     "BLK": 13,
+     "FGM": 378,
+     "FGA": 748,
+     "FG3M": 104,
+     "FG3A": 244,
+     "FTM": 141,
+     "FTA": 152,
+     "MIN": 1832,
+     "PF": 102,
+     "TOV": 91
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2012,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2280,
+     "PPG": 28.1,
+     "REB": 640,
+     "AST": 374,
+     "STL": 116,
+     "BLK": 105,
+     "FGM": 731,
+     "FGA": 1433,
+     "FG3M": 139,
+     "FG3A": 334,
+     "FTM": 679,
+     "FTA": 750,
+     "MIN": 3119,
+     "PF": 143,
+     "TOV": 280
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    },
+    {
+     "id": 1627763,
+     "name": "Malcolm Brogdon"
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2015,
+    2018,
+    2012
+   ],
+   "text": "Just three players of the 2010s shot 50-40-90 (min. 100 3PA, 125 FTA, 60% of games): Stephen Curry (2015-16: .504/.454/.907); Malcolm Brogdon (2018-19: .505/.426/.928); Kevin Durant (2012-13: .510/.416/.905).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "s_25ppg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 9,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2010,
+     "team": "MIA",
+     "GP": 79,
+     "PTS": 2111,
+     "PPG": 26.7,
+     "REB": 590,
+     "AST": 554,
+     "STL": 124,
+     "BLK": 50,
+     "FGM": 758,
+     "FGA": 1485,
+     "FG3M": 92,
+     "FG3A": 279,
+     "FTM": 503,
+     "FTA": 663,
+     "MIN": 3063,
+     "PF": 163,
+     "TOV": 284
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2011,
+     "team": "MIA",
+     "GP": 62,
+     "PTS": 1683,
+     "PPG": 27.1,
+     "REB": 492,
+     "AST": 387,
+     "STL": 115,
+     "BLK": 50,
+     "FGM": 621,
+     "FGA": 1169,
+     "FG3M": 54,
+     "FG3A": 149,
+     "FTM": 387,
+     "FTA": 502,
+     "MIN": 2326,
+     "PF": 96,
+     "TOV": 213
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2012,
+     "team": "MIA",
+     "GP": 76,
+     "PTS": 2036,
+     "PPG": 26.8,
+     "REB": 610,
+     "AST": 551,
+     "STL": 129,
+     "BLK": 67,
+     "FGM": 765,
+     "FGA": 1354,
+     "FG3M": 103,
+     "FG3A": 254,
+     "FTM": 403,
+     "FTA": 535,
+     "MIN": 2877,
+     "PF": 110,
+     "TOV": 226
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2013,
+     "team": "MIA",
+     "GP": 77,
+     "PTS": 2089,
+     "PPG": 27.1,
+     "REB": 533,
+     "AST": 488,
+     "STL": 121,
+     "BLK": 26,
+     "FGM": 767,
+     "FGA": 1353,
+     "FG3M": 116,
+     "FG3A": 306,
+     "FTM": 439,
+     "FTA": 585,
+     "MIN": 2902,
+     "PF": 126,
+     "TOV": 270
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2014,
+     "team": "CLE",
+     "GP": 69,
+     "PTS": 1743,
+     "PPG": 25.3,
+     "REB": 416,
+     "AST": 511,
+     "STL": 109,
+     "BLK": 49,
+     "FGM": 624,
+     "FGA": 1279,
+     "FG3M": 120,
+     "FG3A": 339,
+     "FTM": 375,
+     "FTA": 528,
+     "MIN": 2493,
+     "PF": 135,
+     "TOV": 272
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2015,
+     "team": "CLE",
+     "GP": 76,
+     "PTS": 1920,
+     "PPG": 25.3,
+     "REB": 565,
+     "AST": 514,
+     "STL": 104,
+     "BLK": 49,
+     "FGM": 737,
+     "FGA": 1416,
+     "FG3M": 87,
+     "FG3A": 282,
+     "FTM": 359,
+     "FTA": 491,
+     "MIN": 2709,
+     "PF": 143,
+     "TOV": 249
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2016,
+     "team": "CLE",
+     "GP": 74,
+     "PTS": 1954,
+     "PPG": 26.4,
+     "REB": 639,
+     "AST": 646,
+     "STL": 92,
+     "BLK": 44,
+     "FGM": 736,
+     "FGA": 1344,
+     "FG3M": 124,
+     "FG3A": 342,
+     "FTM": 358,
+     "FTA": 531,
+     "MIN": 2795,
+     "PF": 134,
+     "TOV": 303
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2017,
+     "team": "CLE",
+     "GP": 82,
+     "PTS": 2251,
+     "PPG": 27.5,
+     "REB": 709,
+     "AST": 747,
+     "STL": 116,
+     "BLK": 71,
+     "FGM": 857,
+     "FGA": 1580,
+     "FG3M": 149,
+     "FG3A": 406,
+     "FTM": 388,
+     "FTA": 531,
+     "MIN": 3026,
+     "PF": 136,
+     "TOV": 347
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2018,
+     "team": "LAL",
+     "GP": 55,
+     "PTS": 1505,
+     "PPG": 27.4,
+     "REB": 465,
+     "AST": 454,
+     "STL": 72,
+     "BLK": 33,
+     "FGM": 558,
+     "FGA": 1095,
+     "FG3M": 111,
+     "FG3A": 327,
+     "FTM": 278,
+     "FTA": 418,
+     "MIN": 1937,
+     "PF": 94,
+     "TOV": 197
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2019,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1698,
+     "PPG": 25.3,
+     "REB": 525,
+     "AST": 684,
+     "STL": 78,
+     "BLK": 36,
+     "FGM": 643,
+     "FGA": 1303,
+     "FG3M": 148,
+     "FG3A": 425,
+     "FTM": 264,
+     "FTA": 381,
+     "MIN": 2316,
+     "PF": 118,
+     "TOV": 261
+    }
+   ],
+   "text": "LeBron James averaged 25+ points in 10 straight seasons (2010-11 to 2019-20), the longest run of the 2010s.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "s_10rpg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 9,
+   "players": [
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan"
+    }
+   ],
+   "seasons": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2013,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 856,
+     "PPG": 10.4,
+     "REB": 1114,
+     "AST": 74,
+     "STL": 80,
+     "BLK": 203,
+     "FGM": 348,
+     "FGA": 515,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 160,
+     "FTA": 374,
+     "MIN": 2870,
+     "PF": 264,
+     "TOV": 123
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2014,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 946,
+     "PPG": 11.5,
+     "REB": 1226,
+     "AST": 61,
+     "STL": 81,
+     "BLK": 183,
+     "FGM": 379,
+     "FGA": 534,
+     "FG3M": 1,
+     "FG3A": 4,
+     "FTM": 187,
+     "FTA": 471,
+     "MIN": 2820,
+     "PF": 245,
+     "TOV": 109
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2015,
+     "team": "LAC",
+     "GP": 77,
+     "PTS": 980,
+     "PPG": 12.7,
+     "REB": 1059,
+     "AST": 90,
+     "STL": 51,
+     "BLK": 177,
+     "FGM": 357,
+     "FGA": 508,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 266,
+     "FTA": 619,
+     "MIN": 2598,
+     "PF": 207,
+     "TOV": 107
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2016,
+     "team": "LAC",
+     "GP": 81,
+     "PTS": 1029,
+     "PPG": 12.7,
+     "REB": 1114,
+     "AST": 96,
+     "STL": 51,
+     "BLK": 134,
+     "FGM": 412,
+     "FGA": 577,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 205,
+     "FTA": 425,
+     "MIN": 2570,
+     "PF": 212,
+     "TOV": 115
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2017,
+     "team": "LAC",
+     "GP": 77,
+     "PTS": 927,
+     "PPG": 12,
+     "REB": 1171,
+     "AST": 117,
+     "STL": 39,
+     "BLK": 70,
+     "FGM": 373,
+     "FGA": 578,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 181,
+     "FTA": 312,
+     "MIN": 2423,
+     "PF": 203,
+     "TOV": 137
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2018,
+     "team": "NYK",
+     "GP": 69,
+     "PTS": 758,
+     "PPG": 11,
+     "REB": 902,
+     "AST": 156,
+     "STL": 42,
+     "BLK": 73,
+     "FGM": 286,
+     "FGA": 446,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 186,
+     "FTA": 264,
+     "MIN": 2047,
+     "PF": 167,
+     "TOV": 153
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2019,
+     "team": "BKN",
+     "GP": 56,
+     "PTS": 465,
+     "PPG": 8.3,
+     "REB": 561,
+     "AST": 105,
+     "STL": 18,
+     "BLK": 52,
+     "FGM": 191,
+     "FGA": 287,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 83,
+     "FTA": 122,
+     "MIN": 1234,
+     "PF": 114,
+     "TOV": 74
+    }
+   ],
+   "text": "DeAndre Jordan averaged a double-digit rebounding figure in 7 straight seasons (2013-14 to 2019-20), the longest run of the 2010s.",
+   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "s_8apg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 9,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2010,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1268,
+     "PPG": 15.8,
+     "REB": 327,
+     "AST": 782,
+     "STL": 188,
+     "BLK": 5,
+     "FGM": 430,
+     "FGA": 928,
+     "FG3M": 71,
+     "FG3A": 183,
+     "FTM": 337,
+     "FTA": 384,
+     "MIN": 2880,
+     "PF": 196,
+     "TOV": 177
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2011,
+     "team": "LAC",
+     "GP": 60,
+     "PTS": 1189,
+     "PPG": 19.8,
+     "REB": 213,
+     "AST": 543,
+     "STL": 152,
+     "BLK": 4,
+     "FGM": 425,
+     "FGA": 890,
+     "FG3M": 79,
+     "FG3A": 213,
+     "FTM": 260,
+     "FTA": 302,
+     "MIN": 2181,
+     "PF": 138,
+     "TOV": 124
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2012,
+     "team": "LAC",
+     "GP": 70,
+     "PTS": 1186,
+     "PPG": 16.9,
+     "REB": 262,
+     "AST": 678,
+     "STL": 169,
+     "BLK": 10,
+     "FGM": 412,
+     "FGA": 856,
+     "FG3M": 76,
+     "FG3A": 232,
+     "FTM": 286,
+     "FTA": 323,
+     "MIN": 2335,
+     "PF": 143,
+     "TOV": 159
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2013,
+     "team": "LAC",
+     "GP": 62,
+     "PTS": 1185,
+     "PPG": 19.1,
+     "REB": 268,
+     "AST": 663,
+     "STL": 154,
+     "BLK": 4,
+     "FGM": 406,
+     "FGA": 870,
+     "FG3M": 78,
+     "FG3A": 212,
+     "FTM": 295,
+     "FTA": 345,
+     "MIN": 2171,
+     "PF": 157,
+     "TOV": 145
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2014,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 1564,
+     "PPG": 19.1,
+     "REB": 376,
+     "AST": 838,
+     "STL": 156,
+     "BLK": 15,
+     "FGM": 568,
+     "FGA": 1170,
+     "FG3M": 139,
+     "FG3A": 349,
+     "FTM": 289,
+     "FTA": 321,
+     "MIN": 2857,
+     "PF": 203,
+     "TOV": 190
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2015,
+     "team": "LAC",
+     "GP": 74,
+     "PTS": 1446,
+     "PPG": 19.5,
+     "REB": 310,
+     "AST": 738,
+     "STL": 152,
+     "BLK": 13,
+     "FGM": 515,
+     "FGA": 1114,
+     "FG3M": 122,
+     "FG3A": 329,
+     "FTM": 294,
+     "FTA": 328,
+     "MIN": 2420,
+     "PF": 185,
+     "TOV": 194
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2016,
+     "team": "LAC",
+     "GP": 61,
+     "PTS": 1104,
+     "PPG": 18.1,
+     "REB": 304,
+     "AST": 563,
+     "STL": 119,
+     "BLK": 8,
+     "FGM": 374,
+     "FGA": 785,
+     "FG3M": 124,
+     "FG3A": 302,
+     "FTM": 232,
+     "FTA": 260,
+     "MIN": 1921,
+     "PF": 146,
+     "TOV": 147
+    }
+   ],
+   "text": "Chris Paul averaged 8+ assists in 7 straight seasons (2010-11 to 2016-17), the longest run of the 2010s.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Assist averages crown the true point guards."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "s_20ppg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 9,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2010,
+     "team": "MIA",
+     "GP": 79,
+     "PTS": 2111,
+     "PPG": 26.7,
+     "REB": 590,
+     "AST": 554,
+     "STL": 124,
+     "BLK": 50,
+     "FGM": 758,
+     "FGA": 1485,
+     "FG3M": 92,
+     "FG3A": 279,
+     "FTM": 503,
+     "FTA": 663,
+     "MIN": 3063,
+     "PF": 163,
+     "TOV": 284
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2011,
+     "team": "MIA",
+     "GP": 62,
+     "PTS": 1683,
+     "PPG": 27.1,
+     "REB": 492,
+     "AST": 387,
+     "STL": 115,
+     "BLK": 50,
+     "FGM": 621,
+     "FGA": 1169,
+     "FG3M": 54,
+     "FG3A": 149,
+     "FTM": 387,
+     "FTA": 502,
+     "MIN": 2326,
+     "PF": 96,
+     "TOV": 213
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2012,
+     "team": "MIA",
+     "GP": 76,
+     "PTS": 2036,
+     "PPG": 26.8,
+     "REB": 610,
+     "AST": 551,
+     "STL": 129,
+     "BLK": 67,
+     "FGM": 765,
+     "FGA": 1354,
+     "FG3M": 103,
+     "FG3A": 254,
+     "FTM": 403,
+     "FTA": 535,
+     "MIN": 2877,
+     "PF": 110,
+     "TOV": 226
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2013,
+     "team": "MIA",
+     "GP": 77,
+     "PTS": 2089,
+     "PPG": 27.1,
+     "REB": 533,
+     "AST": 488,
+     "STL": 121,
+     "BLK": 26,
+     "FGM": 767,
+     "FGA": 1353,
+     "FG3M": 116,
+     "FG3A": 306,
+     "FTM": 439,
+     "FTA": 585,
+     "MIN": 2902,
+     "PF": 126,
+     "TOV": 270
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2014,
+     "team": "CLE",
+     "GP": 69,
+     "PTS": 1743,
+     "PPG": 25.3,
+     "REB": 416,
+     "AST": 511,
+     "STL": 109,
+     "BLK": 49,
+     "FGM": 624,
+     "FGA": 1279,
+     "FG3M": 120,
+     "FG3A": 339,
+     "FTM": 375,
+     "FTA": 528,
+     "MIN": 2493,
+     "PF": 135,
+     "TOV": 272
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2015,
+     "team": "CLE",
+     "GP": 76,
+     "PTS": 1920,
+     "PPG": 25.3,
+     "REB": 565,
+     "AST": 514,
+     "STL": 104,
+     "BLK": 49,
+     "FGM": 737,
+     "FGA": 1416,
+     "FG3M": 87,
+     "FG3A": 282,
+     "FTM": 359,
+     "FTA": 491,
+     "MIN": 2709,
+     "PF": 143,
+     "TOV": 249
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2016,
+     "team": "CLE",
+     "GP": 74,
+     "PTS": 1954,
+     "PPG": 26.4,
+     "REB": 639,
+     "AST": 646,
+     "STL": 92,
+     "BLK": 44,
+     "FGM": 736,
+     "FGA": 1344,
+     "FG3M": 124,
+     "FG3A": 342,
+     "FTM": 358,
+     "FTA": 531,
+     "MIN": 2795,
+     "PF": 134,
+     "TOV": 303
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2017,
+     "team": "CLE",
+     "GP": 82,
+     "PTS": 2251,
+     "PPG": 27.5,
+     "REB": 709,
+     "AST": 747,
+     "STL": 116,
+     "BLK": 71,
+     "FGM": 857,
+     "FGA": 1580,
+     "FG3M": 149,
+     "FG3A": 406,
+     "FTM": 388,
+     "FTA": 531,
+     "MIN": 3026,
+     "PF": 136,
+     "TOV": 347
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2018,
+     "team": "LAL",
+     "GP": 55,
+     "PTS": 1505,
+     "PPG": 27.4,
+     "REB": 465,
+     "AST": 454,
+     "STL": 72,
+     "BLK": 33,
+     "FGM": 558,
+     "FGA": 1095,
+     "FG3M": 111,
+     "FG3A": 327,
+     "FTM": 278,
+     "FTA": 418,
+     "MIN": 1937,
+     "PF": 94,
+     "TOV": 197
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2019,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1698,
+     "PPG": 25.3,
+     "REB": 525,
+     "AST": 684,
+     "STL": 78,
+     "BLK": 36,
+     "FGM": 643,
+     "FGA": 1303,
+     "FG3M": 148,
+     "FG3A": 425,
+     "FTM": 264,
+     "FTA": 381,
+     "MIN": 2316,
+     "PF": 118,
+     "TOV": 261
+    }
+   ],
+   "text": "LeBron James averaged 20+ points in 10 straight seasons (2010-11 to 2019-20), the longest run of the 2010s.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "s_150_3s",
+   "group": "P",
+   "decade": "2010s",
+   "score": 9,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    }
+   ],
+   "seasons": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2012,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2023,
+     "PPG": 25.9,
+     "REB": 379,
+     "AST": 455,
+     "STL": 142,
+     "BLK": 38,
+     "FGM": 585,
+     "FGA": 1337,
+     "FG3M": 179,
+     "FG3A": 486,
+     "FTM": 674,
+     "FTA": 792,
+     "MIN": 2985,
+     "PF": 178,
+     "TOV": 295
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2013,
+     "team": "HOU",
+     "GP": 73,
+     "PTS": 1851,
+     "PPG": 25.4,
+     "REB": 344,
+     "AST": 446,
+     "STL": 115,
+     "BLK": 29,
+     "FGM": 549,
+     "FGA": 1205,
+     "FG3M": 177,
+     "FG3A": 483,
+     "FTM": 576,
+     "FTA": 665,
+     "MIN": 2777,
+     "PF": 177,
+     "TOV": 265
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2014,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2217,
+     "PPG": 27.4,
+     "REB": 459,
+     "AST": 565,
+     "STL": 154,
+     "BLK": 60,
+     "FGM": 647,
+     "FGA": 1470,
+     "FG3M": 208,
+     "FG3A": 555,
+     "FTM": 715,
+     "FTA": 824,
+     "MIN": 2981,
+     "PF": 208,
+     "TOV": 321
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2015,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2376,
+     "PPG": 29,
+     "REB": 501,
+     "AST": 612,
+     "STL": 139,
+     "BLK": 51,
+     "FGM": 710,
+     "FGA": 1617,
+     "FG3M": 236,
+     "FG3A": 657,
+     "FTM": 720,
+     "FTA": 837,
+     "MIN": 3125,
+     "PF": 229,
+     "TOV": 374
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2017,
+     "team": "HOU",
+     "GP": 72,
+     "PTS": 2191,
+     "PPG": 30.4,
+     "REB": 389,
+     "AST": 630,
+     "STL": 126,
+     "BLK": 50,
+     "FGM": 651,
+     "FGA": 1449,
+     "FG3M": 265,
+     "FG3A": 722,
+     "FTM": 624,
+     "FTA": 727,
+     "MIN": 2551,
+     "PF": 169,
+     "TOV": 315
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2019,
+     "team": "HOU",
+     "GP": 68,
+     "PTS": 2335,
+     "PPG": 34.3,
+     "REB": 446,
+     "AST": 512,
+     "STL": 125,
+     "BLK": 60,
+     "FGM": 672,
+     "FGA": 1514,
+     "FG3M": 299,
+     "FG3A": 843,
+     "FTM": 692,
+     "FTA": 800,
+     "MIN": 2483,
+     "PF": 227,
+     "TOV": 308
+    }
+   ],
+   "text": "James Harden made 150+ threes in 8 straight seasons (2012-13 to 2019-20), the longest run of the 2010s.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Fifty-point games are the scorer's trophy case."
+  },
+  {
+   "n": 16,
+   "rule": "bpg_3",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202355,
+     "name": "Hassan Whiteside",
+     "season": 2015,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 1040,
+     "PPG": 14.2,
+     "REB": 865,
+     "AST": 29,
+     "STL": 44,
+     "BLK": 269,
+     "FGM": 413,
+     "FGA": 682,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 214,
+     "FTA": 329,
+     "MIN": 2125,
+     "PF": 201,
+     "TOV": 137
+    },
+    {
+     "id": 201586,
+     "name": "Serge Ibaka",
+     "season": 2011,
+     "team": "OKC",
+     "GP": 66,
+     "PTS": 603,
+     "PPG": 9.1,
+     "REB": 498,
+     "AST": 28,
+     "STL": 33,
+     "BLK": 241,
+     "FGM": 262,
+     "FGA": 490,
+     "FG3M": 1,
+     "FG3A": 3,
+     "FTM": 78,
+     "FTA": 118,
+     "MIN": 1792,
+     "PF": 179,
+     "TOV": 79
+    },
+    {
+     "id": 201586,
+     "name": "Serge Ibaka",
+     "season": 2012,
+     "team": "OKC",
+     "GP": 80,
+     "PTS": 1055,
+     "PPG": 13.2,
+     "REB": 617,
+     "AST": 43,
+     "STL": 28,
+     "BLK": 242,
+     "FGM": 446,
+     "FGA": 778,
+     "FG3M": 20,
+     "FG3A": 57,
+     "FTM": 143,
+     "FTA": 191,
+     "MIN": 2486,
+     "PF": 213,
+     "TOV": 125
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.92123287671233,
+   "players": [
+    {
+     "id": 202355,
+     "name": "Hassan Whiteside"
+    },
+    {
+     "id": 201586,
+     "name": "Serge Ibaka"
+    }
+   ],
+   "seasons": [
+    2015,
+    2011,
+    2012
+   ],
+   "text": "Only two players of the 2010s averaged 3 blocks a game (60% of games): Hassan Whiteside (2015-16: 3.7 bpg); Serge Ibaka (2×, best 2011-12: 3.7 bpg).",
+   "why": "A two-player club is a ready-made debate. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 17,
+   "rule": "pf_300",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins",
+     "season": 2010,
+     "team": "SAC",
+     "GP": 81,
+     "PTS": 1143,
+     "PPG": 14.1,
+     "REB": 699,
+     "AST": 204,
+     "STL": 85,
+     "BLK": 68,
+     "FGM": 432,
+     "FGA": 1004,
+     "FG3M": 3,
+     "FG3A": 18,
+     "FTM": 276,
+     "FTA": 402,
+     "MIN": 2309,
+     "PF": 332,
+     "TOV": 268
+    },
+    {
+     "id": 101161,
+     "name": "Amir Johnson",
+     "season": 2012,
+     "team": "TOR",
+     "GP": 81,
+     "PTS": 813,
+     "PPG": 10,
+     "REB": 611,
+     "AST": 122,
+     "STL": 81,
+     "BLK": 110,
+     "FGM": 336,
+     "FGA": 606,
+     "FG3M": 5,
+     "FG3A": 13,
+     "FTM": 136,
+     "FTA": 187,
+     "MIN": 2325,
+     "PF": 301,
+     "TOV": 117
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.83,
+   "players": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins"
+    },
+    {
+     "id": 101161,
+     "name": "Amir Johnson"
+    }
+   ],
+   "seasons": [
+    2010,
+    2012
+   ],
+   "text": "Only two players of the 2010s committed 300 personal fouls in a season: DeMarcus Cousins (2010-11: 332 PF); Amir Johnson (2012-13: 301 PF).",
+   "why": "Two names invite the \"whose season was better?\" argument. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 18,
+   "rule": "oreb_over_dreb",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203500,
+     "name": "Steven Adams",
+     "season": 2017,
+     "team": "OKC",
+     "GP": 76,
+     "PTS": 1056,
+     "PPG": 13.9,
+     "REB": 685,
+     "AST": 88,
+     "STL": 92,
+     "BLK": 78,
+     "FGM": 448,
+     "FGA": 712,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 160,
+     "FTA": 286,
+     "MIN": 2487,
+     "PF": 215,
+     "TOV": 128
+    },
+    {
+     "id": 203500,
+     "name": "Steven Adams",
+     "season": 2018,
+     "team": "OKC",
+     "GP": 80,
+     "PTS": 1108,
+     "PPG": 13.8,
+     "REB": 760,
+     "AST": 124,
+     "STL": 117,
+     "BLK": 76,
+     "FGM": 481,
+     "FGA": 809,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 146,
+     "FTA": 292,
+     "MIN": 2669,
+     "PF": 204,
+     "TOV": 135
+    },
+    {
+     "id": 201593,
+     "name": "Nikola Pekovic",
+     "season": 2011,
+     "team": "MIN",
+     "GP": 47,
+     "PTS": 651,
+     "PPG": 13.9,
+     "REB": 346,
+     "AST": 31,
+     "STL": 29,
+     "BLK": 31,
+     "FGM": 256,
+     "FGA": 454,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 139,
+     "FTA": 187,
+     "MIN": 1264,
+     "PF": 98,
+     "TOV": 87
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.415,
+   "players": [
+    {
+     "id": 203500,
+     "name": "Steven Adams"
+    },
+    {
+     "id": 201593,
+     "name": "Nikola Pekovic"
+    }
+   ],
+   "seasons": [
+    2017,
+    2018,
+    2011
+   ],
+   "text": "Only two players of the 2010s grabbed more offensive rebounds than defensive (300+ reb): Steven Adams (2×, best 2017-18: 384 off, 301 def); Nikola Pekovic (2011-12: 181 off, 165 def).",
+   "why": "A two-player club is a ready-made debate. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 19,
+   "rule": "volume_bricks",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2014,
+     "team": "OKC",
+     "GP": 67,
+     "PTS": 1886,
+     "PPG": 28.1,
+     "REB": 488,
+     "AST": 574,
+     "STL": 140,
+     "BLK": 14,
+     "FGM": 627,
+     "FGA": 1471,
+     "FG3M": 86,
+     "FG3A": 288,
+     "FTM": 546,
+     "FTA": 654,
+     "MIN": 2302,
+     "PF": 184,
+     "TOV": 293
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant",
+     "season": 2011,
+     "team": "LAL",
+     "GP": 58,
+     "PTS": 1616,
+     "PPG": 27.9,
+     "REB": 313,
+     "AST": 264,
+     "STL": 69,
+     "BLK": 18,
+     "FGM": 574,
+     "FGA": 1336,
+     "FG3M": 87,
+     "FG3A": 287,
+     "FTM": 381,
+     "FTA": 451,
+     "MIN": 2232,
+     "PF": 105,
+     "TOV": 204
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.271802430972961,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    },
+    {
+     "id": 977,
+     "name": "Kobe Bryant"
+    }
+   ],
+   "seasons": [
+    2016,
+    2014,
+    2011
+   ],
+   "text": "Only two players of the 2010s averaged 27+ points while shooting under .430 from the field (60% of games): Russell Westbrook (2×, best 2016-17: 31.6 ppg, .425 FG); Kobe Bryant (2011-12: 27.9 ppg, .430 FG).",
+   "why": "Two names invite the \"whose season was better?\" argument. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "s_2000",
+   "group": "P",
+   "decade": "2010s",
+   "score": 8,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    }
+   ],
+   "seasons": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2014,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2217,
+     "PPG": 27.4,
+     "REB": 459,
+     "AST": 565,
+     "STL": 154,
+     "BLK": 60,
+     "FGM": 647,
+     "FGA": 1470,
+     "FG3M": 208,
+     "FG3A": 555,
+     "FTM": 715,
+     "FTA": 824,
+     "MIN": 2981,
+     "PF": 208,
+     "TOV": 321
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2015,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2376,
+     "PPG": 29,
+     "REB": 501,
+     "AST": 612,
+     "STL": 139,
+     "BLK": 51,
+     "FGM": 710,
+     "FGA": 1617,
+     "FG3M": 236,
+     "FG3A": 657,
+     "FTM": 720,
+     "FTA": 837,
+     "MIN": 3125,
+     "PF": 229,
+     "TOV": 374
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2017,
+     "team": "HOU",
+     "GP": 72,
+     "PTS": 2191,
+     "PPG": 30.4,
+     "REB": 389,
+     "AST": 630,
+     "STL": 126,
+     "BLK": 50,
+     "FGM": 651,
+     "FGA": 1449,
+     "FG3M": 265,
+     "FG3A": 722,
+     "FTM": 624,
+     "FTA": 727,
+     "MIN": 2551,
+     "PF": 169,
+     "TOV": 315
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2019,
+     "team": "HOU",
+     "GP": 68,
+     "PTS": 2335,
+     "PPG": 34.3,
+     "REB": 446,
+     "AST": 512,
+     "STL": 125,
+     "BLK": 60,
+     "FGM": 672,
+     "FGA": 1514,
+     "FG3M": 299,
+     "FG3A": 843,
+     "FTM": 692,
+     "FTA": 800,
+     "MIN": 2483,
+     "PF": 227,
+     "TOV": 308
+    }
+   ],
+   "text": "James Harden scored 2,000 points in 6 straight seasons (2014-15 to 2019-20), the longest run of the 2010s.",
+   "why": "Leads with the most extreme case, which carries the post. Streaks are the most shareable kind of consistency."
+  },
+  {
+   "n": 21,
+   "rule": "twenty_ten_five",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2019,
+     "team": "MIL",
+     "GP": 63,
+     "PTS": 1857,
+     "PPG": 29.5,
+     "REB": 856,
+     "AST": 354,
+     "STL": 61,
+     "BLK": 66,
+     "FGM": 685,
+     "FGA": 1238,
+     "FG3M": 89,
+     "FG3A": 293,
+     "FTM": 398,
+     "FTA": 629,
+     "MIN": 1917,
+     "PF": 195,
+     "TOV": 230
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo",
+     "season": 2018,
+     "team": "MIL",
+     "GP": 72,
+     "PTS": 1994,
+     "PPG": 27.7,
+     "REB": 898,
+     "AST": 424,
+     "STL": 92,
+     "BLK": 110,
+     "FGM": 721,
+     "FGA": 1247,
+     "FG3M": 52,
+     "FG3A": 203,
+     "FTM": 500,
+     "FTA": 686,
+     "MIN": 2358,
+     "PF": 232,
+     "TOV": 268
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2017,
+     "team": "OKC",
+     "GP": 80,
+     "PTS": 2028,
+     "PPG": 25.4,
+     "REB": 804,
+     "AST": 820,
+     "STL": 147,
+     "BLK": 20,
+     "FGM": 757,
+     "FGA": 1687,
+     "FG3M": 97,
+     "FG3A": 326,
+     "FTM": 417,
+     "FTA": 566,
+     "MIN": 2914,
+     "PF": 200,
+     "TOV": 381
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2018,
+     "team": "OKC",
+     "GP": 73,
+     "PTS": 1675,
+     "PPG": 22.9,
+     "REB": 807,
+     "AST": 784,
+     "STL": 142,
+     "BLK": 33,
+     "FGM": 630,
+     "FGA": 1473,
+     "FG3M": 119,
+     "FG3A": 411,
+     "FTM": 296,
+     "FTA": 451,
+     "MIN": 2629,
+     "PF": 245,
+     "TOV": 325
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2018,
+     "team": "DEN",
+     "GP": 80,
+     "PTS": 1604,
+     "PPG": 20.1,
+     "REB": 865,
+     "AST": 580,
+     "STL": 108,
+     "BLK": 55,
+     "FGM": 616,
+     "FGA": 1206,
+     "FG3M": 83,
+     "FG3A": 270,
+     "FTM": 289,
+     "FTA": 352,
+     "MIN": 2504,
+     "PF": 228,
+     "TOV": 248
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 7.315432098765432,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    },
+    {
+     "id": 203507,
+     "name": "Giannis Antetokounmpo"
+    },
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    }
+   ],
+   "seasons": [
+    2016,
+    2019,
+    2018,
+    2017,
+    2018,
+    2018
+   ],
+   "text": "Just three players of the 2010s averaged 20 points, 10 rebounds and 5 assists (60% of games): Russell Westbrook (3×, best 2016-17: 31.6/10.7/10.4); Giannis Antetokounmpo (2×, best 2019-20: 29.5/13.6/5.6); Nikola Jokić (2018-19: 20.1/10.8/7.3).",
+   "why": "A short list fans can recite; each name brings its own fan base. Do-everything stat lines get shared across fan bases."
+  },
+  {
+   "n": 22,
+   "rule": "twentyfive_ten_ast",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2017,
+     "team": "OKC",
+     "GP": 80,
+     "PTS": 2028,
+     "PPG": 25.4,
+     "REB": 804,
+     "AST": 820,
+     "STL": 147,
+     "BLK": 20,
+     "FGM": 757,
+     "FGA": 1687,
+     "FG3M": 97,
+     "FG3A": 326,
+     "FTM": 417,
+     "FTA": 566,
+     "MIN": 2914,
+     "PF": 200,
+     "TOV": 381
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2019,
+     "team": "LAL",
+     "GP": 67,
+     "PTS": 1698,
+     "PPG": 25.3,
+     "REB": 525,
+     "AST": 684,
+     "STL": 78,
+     "BLK": 36,
+     "FGM": 643,
+     "FGA": 1303,
+     "FG3M": 148,
+     "FG3A": 425,
+     "FTM": 264,
+     "FTA": 381,
+     "MIN": 2316,
+     "PF": 118,
+     "TOV": 261
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.048765432098765,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    },
+    {
+     "id": 201935,
+     "name": "James Harden"
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    }
+   ],
+   "seasons": [
+    2016,
+    2016,
+    2017,
+    2019
+   ],
+   "text": "Just three players of the 2010s averaged 25 points and 10 assists (60% of games): Russell Westbrook (2×, best 2016-17: 31.6 ppg, 10.4 apg); James Harden (2016-17: 29.1 ppg, 11.2 apg); LeBron James (2019-20: 25.3 ppg, 10.2 apg).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 23,
+   "kind": "streak",
+   "rule": "s_fg500",
+   "group": "P",
+   "decade": "2010s",
+   "score": 7,
+   "players": [
+    {
+     "id": 201933,
+     "name": "Blake Griffin"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201933,
+     "name": "Blake Griffin",
+     "season": 2010,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 1845,
+     "PPG": 22.5,
+     "REB": 989,
+     "AST": 312,
+     "STL": 63,
+     "BLK": 45,
+     "FGM": 696,
+     "FGA": 1376,
+     "FG3M": 7,
+     "FG3A": 24,
+     "FTM": 446,
+     "FTA": 695,
+     "MIN": 3112,
+     "PF": 252,
+     "TOV": 223
+    },
+    {
+     "id": 201933,
+     "name": "Blake Griffin",
+     "season": 2011,
+     "team": "LAC",
+     "GP": 66,
+     "PTS": 1368,
+     "PPG": 20.7,
+     "REB": 717,
+     "AST": 210,
+     "STL": 54,
+     "BLK": 48,
+     "FGM": 561,
+     "FGA": 1022,
+     "FG3M": 2,
+     "FG3A": 16,
+     "FTM": 244,
+     "FTA": 468,
+     "MIN": 2392,
+     "PF": 216,
+     "TOV": 150
+    },
+    {
+     "id": 201933,
+     "name": "Blake Griffin",
+     "season": 2012,
+     "team": "LAC",
+     "GP": 80,
+     "PTS": 1440,
+     "PPG": 18,
+     "REB": 662,
+     "AST": 299,
+     "STL": 97,
+     "BLK": 50,
+     "FGM": 577,
+     "FGA": 1072,
+     "FG3M": 5,
+     "FG3A": 28,
+     "FTM": 281,
+     "FTA": 426,
+     "MIN": 2598,
+     "PF": 231,
+     "TOV": 185
+    },
+    {
+     "id": 201933,
+     "name": "Blake Griffin",
+     "season": 2013,
+     "team": "LAC",
+     "GP": 80,
+     "PTS": 1930,
+     "PPG": 24.1,
+     "REB": 757,
+     "AST": 309,
+     "STL": 92,
+     "BLK": 51,
+     "FGM": 718,
+     "FGA": 1359,
+     "FG3M": 12,
+     "FG3A": 44,
+     "FTM": 482,
+     "FTA": 674,
+     "MIN": 2863,
+     "PF": 265,
+     "TOV": 224
+    },
+    {
+     "id": 201933,
+     "name": "Blake Griffin",
+     "season": 2014,
+     "team": "LAC",
+     "GP": 67,
+     "PTS": 1469,
+     "PPG": 21.9,
+     "REB": 508,
+     "AST": 354,
+     "STL": 63,
+     "BLK": 35,
+     "FGM": 574,
+     "FGA": 1144,
+     "FG3M": 10,
+     "FG3A": 25,
+     "FTM": 311,
+     "FTA": 427,
+     "MIN": 2356,
+     "PF": 196,
+     "TOV": 152
+    }
+   ],
+   "text": "Blake Griffin shot .500 from the field (800+ FGA) in 5 straight seasons (2010-11 to 2014-15), the longest run of the 2010s.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 24,
+   "rule": "po_pts",
+   "group": "PO",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2017,
+     "team": "CLE",
+     "GP": 22,
+     "PTS": 748,
+     "PPG": 34,
+     "REB": 200,
+     "AST": 198,
+     "STL": 30,
+     "BLK": 23,
+     "FGM": 275,
+     "FGA": 510,
+     "FG3M": 39,
+     "FG3A": 114,
+     "FTM": 159,
+     "FTA": 213,
+     "MIN": 922,
+     "PF": 52,
+     "TOV": 94
+    },
+    {
+     "id": 202695,
+     "name": "Kawhi Leonard",
+     "season": 2018,
+     "team": "TOR",
+     "GP": 24,
+     "PTS": 732,
+     "PPG": 30.5,
+     "REB": 218,
+     "AST": 94,
+     "STL": 40,
+     "BLK": 17,
+     "FGM": 243,
+     "FGA": 496,
+     "FG3M": 55,
+     "FG3A": 145,
+     "FTM": 191,
+     "FTA": 216,
+     "MIN": 939,
+     "PF": 56,
+     "TOV": 74
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2011,
+     "team": "MIA",
+     "GP": 23,
+     "PTS": 697,
+     "PPG": 30.3,
+     "REB": 224,
+     "AST": 129,
+     "STL": 43,
+     "BLK": 16,
+     "FGM": 251,
+     "FGA": 502,
+     "FG3M": 22,
+     "FG3A": 85,
+     "FTM": 173,
+     "FTA": 234,
+     "MIN": 983,
+     "PF": 47,
+     "TOV": 81
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2018,
+     "team": "GSW",
+     "GP": 22,
+     "PTS": 620,
+     "PPG": 28.2,
+     "REB": 132,
+     "AST": 126,
+     "STL": 24,
+     "BLK": 4,
+     "FGM": 190,
+     "FGA": 431,
+     "FG3M": 92,
+     "FG3A": 244,
+     "FTM": 148,
+     "FTA": 157,
+     "MIN": 846,
+     "PF": 68,
+     "TOV": 66
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2017,
+     "team": "GSW",
+     "GP": 21,
+     "PTS": 608,
+     "PPG": 29,
+     "REB": 163,
+     "AST": 99,
+     "STL": 15,
+     "BLK": 25,
+     "FGM": 212,
+     "FGA": 435,
+     "FG3M": 47,
+     "FG3A": 138,
+     "FTM": 137,
+     "FTA": 152,
+     "MIN": 807,
+     "PF": 43,
+     "TOV": 50
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2014,
+     "team": "CLE",
+     "GP": 20,
+     "PTS": 601,
+     "PPG": 30.1,
+     "REB": 226,
+     "AST": 169,
+     "STL": 33,
+     "BLK": 21,
+     "FGM": 227,
+     "FGA": 544,
+     "FG3M": 25,
+     "FG3A": 110,
+     "FTM": 122,
+     "FTA": 167,
+     "MIN": 844,
+     "PF": 58,
+     "TOV": 82
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.935,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    },
+    {
+     "id": 202695,
+     "name": "Kawhi Leonard"
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2017,
+    2018,
+    2011,
+    2018,
+    2017,
+    2014
+   ],
+   "text": "Just four players of the 2010s scored 600 points in one postseason: LeBron James (3×, best 2017-18: 748 pts in 22 games); Kawhi Leonard (2018-19: 732 pts in 24 games); Stephen Curry (2018-19: 620 pts in 22 games); Kevin Durant (2017-18: 608 pts in 21 games).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 25,
+   "rule": "no_threes",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2010,
+     "team": "ORL",
+     "GP": 78,
+     "PTS": 1784,
+     "PPG": 22.9,
+     "REB": 1098,
+     "AST": 107,
+     "STL": 107,
+     "BLK": 186,
+     "FGM": 619,
+     "FGA": 1044,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 546,
+     "FTA": 916,
+     "MIN": 2935,
+     "PF": 258,
+     "TOV": 279
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez",
+     "season": 2010,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 1673,
+     "PPG": 20.4,
+     "REB": 488,
+     "AST": 129,
+     "STL": 47,
+     "BLK": 120,
+     "FGM": 644,
+     "FGA": 1309,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 385,
+     "FTA": 489,
+     "MIN": 2889,
+     "PF": 240,
+     "TOV": 176
+    },
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins",
+     "season": 2013,
+     "team": "SAC",
+     "GP": 71,
+     "PTS": 1614,
+     "PPG": 22.7,
+     "REB": 831,
+     "AST": 207,
+     "STL": 109,
+     "BLK": 91,
+     "FGM": 591,
+     "FGA": 1191,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 432,
+     "FTA": 595,
+     "MIN": 2298,
+     "PF": 270,
+     "TOV": 251
+    },
+    {
+     "id": 2744,
+     "name": "Al Jefferson",
+     "season": 2010,
+     "team": "UTA",
+     "GP": 82,
+     "PTS": 1528,
+     "PPG": 18.6,
+     "REB": 794,
+     "AST": 149,
+     "STL": 46,
+     "BLK": 153,
+     "FGM": 654,
+     "FGA": 1319,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 220,
+     "FTA": 289,
+     "MIN": 2940,
+     "PF": 238,
+     "TOV": 105
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.892,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez"
+    },
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins"
+    },
+    {
+     "id": 2744,
+     "name": "Al Jefferson"
+    }
+   ],
+   "seasons": [
+    2010,
+    2010,
+    2013,
+    2010
+   ],
+   "text": "Just four players of the 2010s scored 1,500 points without making a three: Dwight Howard (2010-11: 1,784 pts, 7 3PA); Brook Lopez (2010-11: 1,673 pts, 1 3PA); DeMarcus Cousins (2013-14: 1,614 pts, 7 3PA); Al Jefferson (2010-11: 1,528 pts, 0 3PA).",
+   "why": "A short list fans can recite; each name brings its own fan base. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 26,
+   "rule": "blk_over_ast",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2010,
+     "team": "ORL",
+     "GP": 78,
+     "PTS": 1784,
+     "PPG": 22.9,
+     "REB": 1098,
+     "AST": 107,
+     "STL": 107,
+     "BLK": 186,
+     "FGM": 619,
+     "FGA": 1044,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 546,
+     "FTA": 916,
+     "MIN": 2935,
+     "PF": 258,
+     "TOV": 279
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "season": 2017,
+     "team": "NOP",
+     "GP": 75,
+     "PTS": 2110,
+     "PPG": 28.1,
+     "REB": 831,
+     "AST": 174,
+     "STL": 115,
+     "BLK": 193,
+     "FGM": 780,
+     "FGA": 1462,
+     "FG3M": 55,
+     "FG3A": 162,
+     "FTM": 495,
+     "FTA": 598,
+     "MIN": 2727,
+     "PF": 159,
+     "TOV": 162
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "season": 2014,
+     "team": "NOP",
+     "GP": 68,
+     "PTS": 1656,
+     "PPG": 24.4,
+     "REB": 696,
+     "AST": 149,
+     "STL": 100,
+     "BLK": 200,
+     "FGM": 642,
+     "FGA": 1199,
+     "FG3M": 1,
+     "FG3A": 12,
+     "FTM": 371,
+     "FTA": 461,
+     "MIN": 2455,
+     "PF": 141,
+     "TOV": 95
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "season": 2013,
+     "team": "NOP",
+     "GP": 67,
+     "PTS": 1394,
+     "PPG": 20.8,
+     "REB": 673,
+     "AST": 105,
+     "STL": 89,
+     "BLK": 189,
+     "FGM": 522,
+     "FGA": 1005,
+     "FG3M": 2,
+     "FG3A": 9,
+     "FTM": 348,
+     "FTA": 440,
+     "MIN": 2358,
+     "PF": 200,
+     "TOV": 109
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "season": 2016,
+     "team": "NOP",
+     "GP": 75,
+     "PTS": 2099,
+     "PPG": 28,
+     "REB": 884,
+     "AST": 157,
+     "STL": 94,
+     "BLK": 167,
+     "FGM": 770,
+     "FGA": 1526,
+     "FG3M": 40,
+     "FG3A": 134,
+     "FTM": 519,
+     "FTA": 647,
+     "MIN": 2708,
+     "PF": 168,
+     "TOV": 181
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "season": 2015,
+     "team": "NOP",
+     "GP": 61,
+     "PTS": 1481,
+     "PPG": 24.3,
+     "REB": 627,
+     "AST": 116,
+     "STL": 78,
+     "BLK": 125,
+     "FGM": 560,
+     "FGA": 1136,
+     "FG3M": 35,
+     "FG3A": 108,
+     "FTM": 326,
+     "FTA": 430,
+     "MIN": 2164,
+     "PF": 148,
+     "TOV": 121
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2011,
+     "team": "ORL",
+     "GP": 54,
+     "PTS": 1113,
+     "PPG": 20.6,
+     "REB": 785,
+     "AST": 104,
+     "STL": 81,
+     "BLK": 116,
+     "FGM": 416,
+     "FGA": 726,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 281,
+     "FTA": 572,
+     "MIN": 2070,
+     "PF": 159,
+     "TOV": 175
+    },
+    {
+     "id": 204001,
+     "name": "Kristaps Porziņģis",
+     "season": 2019,
+     "team": "DAL",
+     "GP": 57,
+     "PTS": 1164,
+     "PPG": 20.4,
+     "REB": 540,
+     "AST": 102,
+     "STL": 41,
+     "BLK": 115,
+     "FGM": 398,
+     "FGA": 932,
+     "FG3M": 142,
+     "FG3A": 403,
+     "FTM": 226,
+     "FTA": 283,
+     "MIN": 1814,
+     "PF": 185,
+     "TOV": 92
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 6.769294871794872,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis"
+    },
+    {
+     "id": 204001,
+     "name": "Kristaps Porziņģis"
+    }
+   ],
+   "seasons": [
+    2010,
+    2017,
+    2014,
+    2013,
+    2016,
+    2015,
+    2011,
+    2019
+   ],
+   "text": "Just three players of the 2010s blocked more shots than they assisted while averaging 20 points (60% of games): Dwight Howard (2×, best 2010-11: 186 blk, 107 ast); Anthony Davis (5×, best 2017-18: 193 blk, 174 ast); Kristaps Porziņģis (2019-20: 115 blk, 102 ast).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Assist averages crown the true point guards."
+  },
+  {
+   "n": 27,
+   "rule": "fta_800",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2010,
+     "team": "ORL",
+     "GP": 78,
+     "PTS": 1784,
+     "PPG": 22.9,
+     "REB": 1098,
+     "AST": 107,
+     "STL": 107,
+     "BLK": 186,
+     "FGM": 619,
+     "FGA": 1044,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 546,
+     "FTA": 916,
+     "MIN": 2935,
+     "PF": 258,
+     "TOV": 279
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2015,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2376,
+     "PPG": 29,
+     "REB": 501,
+     "AST": 612,
+     "STL": 139,
+     "BLK": 51,
+     "FGM": 710,
+     "FGA": 1617,
+     "FG3M": 236,
+     "FG3A": 657,
+     "FTM": 720,
+     "FTA": 837,
+     "MIN": 3125,
+     "PF": 229,
+     "TOV": 374
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2014,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2217,
+     "PPG": 27.4,
+     "REB": 459,
+     "AST": 565,
+     "STL": 154,
+     "BLK": 60,
+     "FGM": 647,
+     "FGA": 1470,
+     "FG3M": 208,
+     "FG3A": 555,
+     "FTM": 715,
+     "FTA": 824,
+     "MIN": 2981,
+     "PF": 208,
+     "TOV": 321
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2013,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2593,
+     "PPG": 32,
+     "REB": 598,
+     "AST": 445,
+     "STL": 103,
+     "BLK": 59,
+     "FGM": 849,
+     "FGA": 1688,
+     "FG3M": 192,
+     "FG3A": 491,
+     "FTM": 703,
+     "FTA": 805,
+     "MIN": 3122,
+     "PF": 174,
+     "TOV": 285
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2019,
+     "team": "HOU",
+     "GP": 68,
+     "PTS": 2335,
+     "PPG": 34.3,
+     "REB": 446,
+     "AST": 512,
+     "STL": 125,
+     "BLK": 60,
+     "FGM": 672,
+     "FGA": 1514,
+     "FG3M": 299,
+     "FG3A": 843,
+     "FTM": 692,
+     "FTA": 800,
+     "MIN": 2483,
+     "PF": 227,
+     "TOV": 308
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 6.763333333333334,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    },
+    {
+     "id": 201935,
+     "name": "James Harden"
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2010,
+    2016,
+    2018,
+    2016,
+    2015,
+    2014,
+    2013,
+    2019
+   ],
+   "text": "Just four players of the 2010s attempted 800 free throws in a season: Dwight Howard (2010-11: 916 FTA (.596)); James Harden (5×, best 2016-17: 881 FTA (.847)); Russell Westbrook (2016-17: 840 FTA (.845)); Kevin Durant (2013-14: 805 FTA (.873)).",
+   "why": "A short list fans can recite; each name brings its own fan base. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 28,
+   "rule": "ftm_700",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2015,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2376,
+     "PPG": 29,
+     "REB": 501,
+     "AST": 612,
+     "STL": 139,
+     "BLK": 51,
+     "FGM": 710,
+     "FGA": 1617,
+     "FG3M": 236,
+     "FG3A": 657,
+     "FTM": 720,
+     "FTA": 837,
+     "MIN": 3125,
+     "PF": 229,
+     "TOV": 374
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2014,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2217,
+     "PPG": 27.4,
+     "REB": 459,
+     "AST": 565,
+     "STL": 154,
+     "BLK": 60,
+     "FGM": 647,
+     "FGA": 1470,
+     "FG3M": 208,
+     "FG3A": 555,
+     "FTM": 715,
+     "FTA": 824,
+     "MIN": 2981,
+     "PF": 208,
+     "TOV": 321
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2013,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2593,
+     "PPG": 32,
+     "REB": 598,
+     "AST": 445,
+     "STL": 103,
+     "BLK": 59,
+     "FGM": 849,
+     "FGA": 1688,
+     "FG3M": 192,
+     "FG3A": 491,
+     "FTM": 703,
+     "FTA": 805,
+     "MIN": 3122,
+     "PF": 174,
+     "TOV": 285
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.628333333333333,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2018,
+    2016,
+    2015,
+    2014,
+    2016,
+    2013
+   ],
+   "text": "Just three players of the 2010s made 700 free throws in a season: James Harden (4×, best 2018-19: 754 FTM); Russell Westbrook (2016-17: 710 FTM); Kevin Durant (2013-14: 703 FTM).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 29,
+   "rule": "score_no_pass",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2010,
+     "team": "ORL",
+     "GP": 78,
+     "PTS": 1784,
+     "PPG": 22.9,
+     "REB": 1098,
+     "AST": 107,
+     "STL": 107,
+     "BLK": 186,
+     "FGM": 619,
+     "FGA": 1044,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 546,
+     "FTA": 916,
+     "MIN": 2935,
+     "PF": 258,
+     "TOV": 279
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "season": 2015,
+     "team": "NOP",
+     "GP": 61,
+     "PTS": 1481,
+     "PPG": 24.3,
+     "REB": 627,
+     "AST": 116,
+     "STL": 78,
+     "BLK": 125,
+     "FGM": 560,
+     "FGA": 1136,
+     "FG3M": 35,
+     "FG3A": 108,
+     "FTM": 326,
+     "FTA": 430,
+     "MIN": 2164,
+     "PF": 148,
+     "TOV": 121
+    },
+    {
+     "id": 200746,
+     "name": "LaMarcus Aldridge",
+     "season": 2014,
+     "team": "POR",
+     "GP": 71,
+     "PTS": 1661,
+     "PPG": 23.4,
+     "REB": 726,
+     "AST": 124,
+     "STL": 48,
+     "BLK": 68,
+     "FGM": 659,
+     "FGA": 1415,
+     "FG3M": 37,
+     "FG3A": 105,
+     "FTM": 306,
+     "FTA": 362,
+     "MIN": 2512,
+     "PF": 125,
+     "TOV": 122
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.400320512820513,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis"
+    },
+    {
+     "id": 200746,
+     "name": "LaMarcus Aldridge"
+    }
+   ],
+   "seasons": [
+    2010,
+    2015,
+    2014
+   ],
+   "text": "Just three players of the 2010s averaged 22+ points with fewer than 2 assists a game (60% of games): Dwight Howard (2010-11: 22.9 ppg, 1.4 apg); Anthony Davis (2015-16: 24.3 ppg, 1.9 apg); LaMarcus Aldridge (2014-15: 23.4 ppg, 1.7 apg).",
+   "why": "A short list fans can recite; each name brings its own fan base. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 30,
+   "rule": "thirty_inefficient",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2019,
+     "team": "HOU",
+     "GP": 68,
+     "PTS": 2335,
+     "PPG": 34.3,
+     "REB": 446,
+     "AST": 512,
+     "STL": 125,
+     "BLK": 60,
+     "FGM": 672,
+     "FGA": 1514,
+     "FG3M": 299,
+     "FG3A": 843,
+     "FTM": 692,
+     "FTA": 800,
+     "MIN": 2483,
+     "PF": 227,
+     "TOV": 308
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2017,
+     "team": "HOU",
+     "GP": 72,
+     "PTS": 2191,
+     "PPG": 30.4,
+     "REB": 389,
+     "AST": 630,
+     "STL": 126,
+     "BLK": 50,
+     "FGM": 651,
+     "FGA": 1449,
+     "FG3M": 265,
+     "FG3A": 722,
+     "FTM": 624,
+     "FTA": 727,
+     "MIN": 2551,
+     "PF": 169,
+     "TOV": 315
+    },
+    {
+     "id": 203078,
+     "name": "Bradley Beal",
+     "season": 2019,
+     "team": "WAS",
+     "GP": 57,
+     "PTS": 1741,
+     "PPG": 30.5,
+     "REB": 242,
+     "AST": 347,
+     "STL": 71,
+     "BLK": 23,
+     "FGM": 593,
+     "FGA": 1303,
+     "FG3M": 170,
+     "FG3A": 481,
+     "FTM": 385,
+     "FTA": 457,
+     "MIN": 2053,
+     "PF": 126,
+     "TOV": 194
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.351214557225558,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    },
+    {
+     "id": 203078,
+     "name": "Bradley Beal"
+    }
+   ],
+   "seasons": [
+    2018,
+    2019,
+    2016,
+    2017,
+    2019
+   ],
+   "text": "Just three players of the 2010s averaged 30 points on under .460 shooting (60% of games): James Harden (3×, best 2018-19: 36.1 ppg, .442 FG); Russell Westbrook (2016-17: 31.6 ppg, .425 FG); Bradley Beal (2019-20: 30.5 ppg, .455 FG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 31,
+   "rule": "score_tiny_min",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid",
+     "season": 2019,
+     "team": "PHI",
+     "GP": 51,
+     "PTS": 1172,
+     "PPG": 23,
+     "REB": 593,
+     "AST": 152,
+     "STL": 45,
+     "BLK": 65,
+     "FGM": 382,
+     "FGA": 801,
+     "FG3M": 57,
+     "FG3A": 172,
+     "FTM": 351,
+     "FTA": 435,
+     "MIN": 1506,
+     "PF": 174,
+     "TOV": 159
+    },
+    {
+     "id": 202331,
+     "name": "Paul George",
+     "season": 2019,
+     "team": "LAC",
+     "GP": 48,
+     "PTS": 1033,
+     "PPG": 21.5,
+     "REB": 272,
+     "AST": 185,
+     "STL": 68,
+     "BLK": 20,
+     "FGM": 343,
+     "FGA": 782,
+     "FG3M": 157,
+     "FG3A": 381,
+     "FTM": 190,
+     "FTA": 217,
+     "MIN": 1419,
+     "PF": 113,
+     "TOV": 125
+    },
+    {
+     "id": 203114,
+     "name": "Khris Middleton",
+     "season": 2019,
+     "team": "MIL",
+     "GP": 62,
+     "PTS": 1297,
+     "PPG": 20.9,
+     "REB": 382,
+     "AST": 265,
+     "STL": 53,
+     "BLK": 7,
+     "FGM": 471,
+     "FGA": 947,
+     "FG3M": 147,
+     "FG3A": 354,
+     "FTM": 208,
+     "FTA": 227,
+     "MIN": 1853,
+     "PF": 142,
+     "TOV": 137
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez",
+     "season": 2016,
+     "team": "BKN",
+     "GP": 75,
+     "PTS": 1539,
+     "PPG": 20.5,
+     "REB": 403,
+     "AST": 176,
+     "STL": 38,
+     "BLK": 124,
+     "FGM": 555,
+     "FGA": 1172,
+     "FG3M": 134,
+     "FG3A": 387,
+     "FTM": 295,
+     "FTA": 364,
+     "MIN": 2222,
+     "PF": 192,
+     "TOV": 184
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.205392156862745,
+   "players": [
+    {
+     "id": 203954,
+     "name": "Joel Embiid"
+    },
+    {
+     "id": 202331,
+     "name": "Paul George"
+    },
+    {
+     "id": 203114,
+     "name": "Khris Middleton"
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez"
+    }
+   ],
+   "seasons": [
+    2019,
+    2019,
+    2019,
+    2016
+   ],
+   "text": "Just four players of the 2010s averaged 20 points in under 30 minutes a game (60% of games): Joel Embiid (2019-20: 23.0 ppg in 29.5 mpg); Paul George (2019-20: 21.5 ppg in 29.6 mpg); Khris Middleton (2019-20: 20.9 ppg in 29.9 mpg); Brook Lopez (2016-17: 20.5 ppg in 29.6 mpg).",
+   "why": "A short list fans can recite; each name brings its own fan base. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 32,
+   "rule": "three_better_than_two",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201569,
+     "name": "Eric Gordon",
+     "season": 2014,
+     "team": "NOP",
+     "GP": 61,
+     "PTS": 818,
+     "PPG": 13.4,
+     "REB": 159,
+     "AST": 229,
+     "STL": 50,
+     "BLK": 14,
+     "FGM": 285,
+     "FGA": 694,
+     "FG3M": 141,
+     "FG3A": 315,
+     "FTM": 107,
+     "FTA": 133,
+     "MIN": 2018,
+     "PF": 145,
+     "TOV": 122
+    },
+    {
+     "id": 200751,
+     "name": "Randy Foye",
+     "season": 2012,
+     "team": "UTA",
+     "GP": 82,
+     "PTS": 882,
+     "PPG": 10.8,
+     "REB": 127,
+     "AST": 167,
+     "STL": 66,
+     "BLK": 27,
+     "FGM": 293,
+     "FGA": 738,
+     "FG3M": 178,
+     "FG3A": 434,
+     "FTM": 118,
+     "FTA": 144,
+     "MIN": 2249,
+     "PF": 190,
+     "TOV": 92
+    },
+    {
+     "id": 200789,
+     "name": "Daniel Gibson",
+     "season": 2010,
+     "team": "CLE",
+     "GP": 67,
+     "PTS": 780,
+     "PPG": 11.6,
+     "REB": 177,
+     "AST": 201,
+     "STL": 48,
+     "BLK": 21,
+     "FGM": 264,
+     "FGA": 660,
+     "FG3M": 118,
+     "FG3A": 293,
+     "FTM": 134,
+     "FTA": 163,
+     "MIN": 1865,
+     "PF": 154,
+     "TOV": 80
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2012,
+     "team": "GSW",
+     "GP": 78,
+     "PTS": 1786,
+     "PPG": 22.9,
+     "REB": 314,
+     "AST": 539,
+     "STL": 126,
+     "BLK": 12,
+     "FGM": 626,
+     "FGA": 1388,
+     "FG3M": 272,
+     "FG3A": 600,
+     "FTM": 262,
+     "FTA": 291,
+     "MIN": 2983,
+     "PF": 198,
+     "TOV": 240
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.1691795451689915,
+   "players": [
+    {
+     "id": 201569,
+     "name": "Eric Gordon"
+    },
+    {
+     "id": 200751,
+     "name": "Randy Foye"
+    },
+    {
+     "id": 200789,
+     "name": "Daniel Gibson"
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [
+    2014,
+    2012,
+    2010,
+    2012
+   ],
+   "text": "Just four players of the 2010s shot better from three than from two (250+ 3PA, 300+ 2PA): Eric Gordon (2014-15: .448 3P, .380 2P); Randy Foye (2012-13: .410 3P, .378 2P); Daniel Gibson (2010-11: .403 3P, .398 2P); Stephen Curry (2012-13: .453 3P, .449 2P).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 33,
+   "rule": "ast_over_pts",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203088,
+     "name": "Kendall Marshall",
+     "season": 2013,
+     "team": "LAL",
+     "GP": 54,
+     "PTS": 430,
+     "PPG": 8,
+     "REB": 155,
+     "AST": 477,
+     "STL": 48,
+     "BLK": 4,
+     "FGM": 170,
+     "FGA": 419,
+     "FG3M": 71,
+     "FG3A": 178,
+     "FTM": 19,
+     "FTA": 36,
+     "MIN": 1564,
+     "PF": 76,
+     "TOV": 150
+    },
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2010,
+     "team": "BOS",
+     "GP": 68,
+     "PTS": 721,
+     "PPG": 10.6,
+     "REB": 297,
+     "AST": 760,
+     "STL": 153,
+     "BLK": 11,
+     "FGM": 318,
+     "FGA": 670,
+     "FG3M": 10,
+     "FG3A": 43,
+     "FTM": 75,
+     "FTA": 132,
+     "MIN": 2527,
+     "PF": 120,
+     "TOV": 234
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd",
+     "season": 2010,
+     "team": "DAL",
+     "GP": 80,
+     "PTS": 630,
+     "PPG": 7.9,
+     "REB": 351,
+     "AST": 655,
+     "STL": 134,
+     "BLK": 29,
+     "FGM": 215,
+     "FGA": 596,
+     "FG3M": 133,
+     "FG3A": 391,
+     "FTM": 67,
+     "FTA": 77,
+     "MIN": 2653,
+     "PF": 119,
+     "TOV": 179
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.1175,
+   "players": [
+    {
+     "id": 203088,
+     "name": "Kendall Marshall"
+    },
+    {
+     "id": 200765,
+     "name": "Rajon Rondo"
+    },
+    {
+     "id": 467,
+     "name": "Jason Kidd"
+    }
+   ],
+   "seasons": [
+    2013,
+    2010,
+    2010
+   ],
+   "text": "Just three players of the 2010s recorded more assists than points (60% of games, 300+ ast): Kendall Marshall (2013-14: 477 ast, 430 pts); Rajon Rondo (2010-11: 760 ast, 721 pts); Jason Kidd (2010-11: 655 ast, 630 pts).",
+   "why": "A short list fans can recite; each name brings its own fan base. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 34,
+   "rule": "more_threes_than_twos",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629130,
+     "name": "Duncan Robinson",
+     "season": 2019,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 983,
+     "PPG": 13.5,
+     "REB": 232,
+     "AST": 102,
+     "STL": 35,
+     "BLK": 19,
+     "FGM": 323,
+     "FGA": 687,
+     "FG3M": 270,
+     "FG3A": 606,
+     "FTM": 67,
+     "FTA": 72,
+     "MIN": 2166,
+     "PF": 193,
+     "TOV": 70
+    },
+    {
+     "id": 201961,
+     "name": "Wayne Ellington",
+     "season": 2017,
+     "team": "MIA",
+     "GP": 77,
+     "PTS": 864,
+     "PPG": 11.2,
+     "REB": 218,
+     "AST": 79,
+     "STL": 53,
+     "BLK": 8,
+     "FGM": 285,
+     "FGA": 700,
+     "FG3M": 227,
+     "FG3A": 579,
+     "FTM": 67,
+     "FTA": 78,
+     "MIN": 2041,
+     "PF": 94,
+     "TOV": 52
+    },
+    {
+     "id": 2594,
+     "name": "Kyle Korver",
+     "season": 2014,
+     "team": "ATL",
+     "GP": 75,
+     "PTS": 911,
+     "PPG": 12.1,
+     "REB": 304,
+     "AST": 196,
+     "STL": 52,
+     "BLK": 42,
+     "FGM": 292,
+     "FGA": 600,
+     "FG3M": 221,
+     "FG3A": 449,
+     "FTM": 106,
+     "FTA": 118,
+     "MIN": 2418,
+     "PF": 140,
+     "TOV": 107
+    },
+    {
+     "id": 202722,
+     "name": "Davis Bertans",
+     "season": 2019,
+     "team": "WAS",
+     "GP": 54,
+     "PTS": 834,
+     "PPG": 15.4,
+     "REB": 245,
+     "AST": 92,
+     "STL": 37,
+     "BLK": 33,
+     "FGM": 265,
+     "FGA": 610,
+     "FG3M": 200,
+     "FG3A": 472,
+     "FTM": 104,
+     "FTA": 122,
+     "MIN": 1583,
+     "PF": 139,
+     "TOV": 59
+    },
+    {
+     "id": 203584,
+     "name": "Troy Daniels",
+     "season": 2017,
+     "team": "PHX",
+     "GP": 79,
+     "PTS": 703,
+     "PPG": 8.9,
+     "REB": 127,
+     "AST": 48,
+     "STL": 26,
+     "BLK": 5,
+     "FGM": 232,
+     "FGA": 575,
+     "FG3M": 183,
+     "FG3A": 458,
+     "FTM": 56,
+     "FTA": 64,
+     "MIN": 1622,
+     "PF": 137,
+     "TOV": 56
+    },
+    {
+     "id": 200779,
+     "name": "Steve Novak",
+     "season": 2012,
+     "team": "NYK",
+     "GP": 81,
+     "PTS": 535,
+     "PPG": 6.6,
+     "REB": 152,
+     "AST": 35,
+     "STL": 28,
+     "BLK": 8,
+     "FGM": 178,
+     "FGA": 430,
+     "FG3M": 149,
+     "FG3A": 351,
+     "FTM": 30,
+     "FTA": 33,
+     "MIN": 1641,
+     "PF": 97,
+     "TOV": 12
+    }
+   ],
+   "seasonsMatched": 165,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 1629130,
+     "name": "Duncan Robinson"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "89 players made more threes than twos (400+ FGA) in the 2010s (165 seasons). The most extreme: Duncan Robinson, 2019-20 — 270 threes, 53 twos.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "po_best_fg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201143,
+     "name": "Al Horford"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201143,
+     "name": "Al Horford",
+     "season": 2016,
+     "team": "BOS",
+     "GP": 18,
+     "PTS": 271,
+     "PPG": 15.1,
+     "REB": 118,
+     "AST": 97,
+     "STL": 15,
+     "BLK": 14,
+     "FGM": 111,
+     "FGA": 190,
+     "FG3M": 27,
+     "FG3A": 52,
+     "FTM": 22,
+     "FTA": 29,
+     "MIN": 610,
+     "PF": 33,
+     "TOV": 33
+    }
+   ],
+   "among": 240,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 2010s: Al Horford, 2016-17 — .584.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "po_most_ast",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2011,
+     "team": "BOS",
+     "GP": 19,
+     "PTS": 329,
+     "PPG": 17.3,
+     "REB": 128,
+     "AST": 227,
+     "STL": 45,
+     "BLK": 2,
+     "FGM": 141,
+     "FGA": 301,
+     "FG3M": 8,
+     "FG3A": 30,
+     "FTM": 39,
+     "FTA": 56,
+     "MIN": 810,
+     "PF": 40,
+     "TOV": 72
+    }
+   ],
+   "among": 2088,
+   "text": "Most assists in a single postseason in the 2010s: Rajon Rondo, 2011-12 — 227 in 19 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "worst_fg_scorer",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 101114,
+     "name": "Deron Williams"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101114,
+     "name": "Deron Williams",
+     "season": 2011,
+     "team": "NJN",
+     "GP": 55,
+     "PTS": 1154,
+     "PPG": 21,
+     "REB": 183,
+     "AST": 481,
+     "STL": 67,
+     "BLK": 20,
+     "FGM": 391,
+     "FGA": 961,
+     "FG3M": 115,
+     "FG3A": 342,
+     "FTM": 257,
+     "FTA": 305,
+     "MIN": 1999,
+     "PF": 121,
+     "TOV": 219
+    }
+   ],
+   "among": 218,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 2010s: Deron Williams, 2011-12 — .407 while averaging 21.0.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "best_ft_volume",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1626164,
+     "name": "Devin Booker"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1626164,
+     "name": "Devin Booker",
+     "season": 2019,
+     "team": "PHX",
+     "GP": 70,
+     "PTS": 1863,
+     "PPG": 26.6,
+     "REB": 297,
+     "AST": 456,
+     "STL": 49,
+     "BLK": 18,
+     "FGM": 627,
+     "FGA": 1283,
+     "FG3M": 141,
+     "FG3A": 398,
+     "FTM": 468,
+     "FTA": 509,
+     "MIN": 2512,
+     "PF": 213,
+     "TOV": 264
+    }
+   ],
+   "among": 80,
+   "text": "Best free-throw percentage on 500+ attempts in the 2010s: Devin Booker, 2019-20 — .919 (468-509).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "worst_ft_volume",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2015,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1314,
+     "PPG": 16.2,
+     "REB": 1198,
+     "AST": 67,
+     "STL": 119,
+     "BLK": 112,
+     "FGM": 552,
+     "FGA": 1060,
+     "FG3M": 2,
+     "FG3A": 6,
+     "FTM": 208,
+     "FTA": 586,
+     "MIN": 2666,
+     "PF": 245,
+     "TOV": 155
+    }
+   ],
+   "among": 186,
+   "text": "Worst free-throw percentage on 400+ attempts in the 2010s: Andre Drummond, 2015-16 — .355 (208-586).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "ast_low_pts",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201937,
+     "name": "Ricky Rubio"
+    }
+   ],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201937,
+     "name": "Ricky Rubio",
+     "season": 2013,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 781,
+     "PPG": 9.5,
+     "REB": 342,
+     "AST": 704,
+     "STL": 191,
+     "BLK": 11,
+     "FGM": 255,
+     "FGA": 670,
+     "FG3M": 44,
+     "FG3A": 133,
+     "FTM": 227,
+     "FTA": 283,
+     "MIN": 2638,
+     "PF": 218,
+     "TOV": 221
+    }
+   ],
+   "among": 1640,
+   "text": "Most assists by a sub-10-point scorer in the 2010s: Ricky Rubio, 2013-14 — 704 assists while averaging 9.5.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "most_pf",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins",
+     "season": 2010,
+     "team": "SAC",
+     "GP": 81,
+     "PTS": 1143,
+     "PPG": 14.1,
+     "REB": 699,
+     "AST": 204,
+     "STL": 85,
+     "BLK": 68,
+     "FGM": 432,
+     "FGA": 1004,
+     "FG3M": 3,
+     "FG3A": 18,
+     "FTM": 276,
+     "FTA": 402,
+     "MIN": 2309,
+     "PF": 332,
+     "TOV": 268
+    }
+   ],
+   "among": 4934,
+   "text": "Most personal fouls in a season in the 2010s: DeMarcus Cousins, 2010-11 — 332.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "most_reb",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2017,
+     "team": "DET",
+     "GP": 78,
+     "PTS": 1171,
+     "PPG": 15,
+     "REB": 1247,
+     "AST": 237,
+     "STL": 114,
+     "BLK": 127,
+     "FGM": 466,
+     "FGA": 881,
+     "FG3M": 0,
+     "FG3A": 11,
+     "FTM": 239,
+     "FTA": 395,
+     "MIN": 2625,
+     "PF": 250,
+     "TOV": 200
+    }
+   ],
+   "among": 4934,
+   "text": "Most rebounds in a season in the 2010s: Andre Drummond, 2017-18 — 1,247 (16.0 a game).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "most_min",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 101145,
+     "name": "Monta Ellis"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101145,
+     "name": "Monta Ellis",
+     "season": 2010,
+     "team": "GSW",
+     "GP": 80,
+     "PTS": 1929,
+     "PPG": 24.1,
+     "REB": 281,
+     "AST": 450,
+     "STL": 168,
+     "BLK": 23,
+     "FGM": 726,
+     "FGA": 1611,
+     "FG3M": 137,
+     "FG3A": 379,
+     "FTM": 340,
+     "FTA": 431,
+     "MIN": 3227,
+     "PF": 203,
+     "TOV": 252
+    }
+   ],
+   "among": 4934,
+   "text": "Most minutes played in a season in the 2010s: Monta Ellis, 2010-11 — 3,227 (40.3 a game).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "reb_low_pts",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 2501,
+     "name": "Reggie Evans"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2501,
+     "name": "Reggie Evans",
+     "season": 2012,
+     "team": "BKN",
+     "GP": 80,
+     "PTS": 363,
+     "PPG": 4.5,
+     "REB": 888,
+     "AST": 43,
+     "STL": 74,
+     "BLK": 13,
+     "FGM": 125,
+     "FGA": 261,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 113,
+     "FTA": 222,
+     "MIN": 1967,
+     "PF": 199,
+     "TOV": 111
+    }
+   ],
+   "among": 1640,
+   "text": "Most rebounds by a sub-10-point scorer in the 2010s: Reggie Evans, 2012-13 — 888 rebounds while averaging 4.5.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "top_rpg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2017,
+     "team": "DET",
+     "GP": 78,
+     "PTS": 1171,
+     "PPG": 15,
+     "REB": 1247,
+     "AST": 237,
+     "STL": 114,
+     "BLK": 127,
+     "FGM": 466,
+     "FGA": 881,
+     "FG3M": 0,
+     "FG3A": 11,
+     "FTM": 239,
+     "FTA": 395,
+     "MIN": 2625,
+     "PF": 250,
+     "TOV": 200
+    }
+   ],
+   "among": 3028,
+   "text": "Highest rebounding average of the 2010s: Andre Drummond, 2017-18 — 16.0 a game.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "top_apg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2011,
+     "team": "BOS",
+     "GP": 53,
+     "PTS": 630,
+     "PPG": 11.9,
+     "REB": 257,
+     "AST": 620,
+     "STL": 95,
+     "BLK": 3,
+     "FGM": 256,
+     "FGA": 572,
+     "FG3M": 10,
+     "FG3A": 42,
+     "FTM": 108,
+     "FTA": 181,
+     "MIN": 1957,
+     "PF": 99,
+     "TOV": 193
+    }
+   ],
+   "among": 3028,
+   "text": "Highest assist average of the 2010s: Rajon Rondo, 2011-12 — 11.7 a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "best_ft_official",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203148,
+     "name": "Brian Roberts"
+    }
+   ],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203148,
+     "name": "Brian Roberts",
+     "season": 2013,
+     "team": "NOP",
+     "GP": 72,
+     "PTS": 677,
+     "PPG": 9.4,
+     "REB": 136,
+     "AST": 234,
+     "STL": 43,
+     "BLK": 7,
+     "FGM": 244,
+     "FGA": 581,
+     "FG3M": 64,
+     "FG3A": 178,
+     "FTM": 125,
+     "FTA": 133,
+     "MIN": 1667,
+     "PF": 132,
+     "TOV": 95
+    }
+   ],
+   "among": 1154,
+   "text": "Best free-throw percentage in a season (125+ made) in the 2010s: Brian Roberts, 2013-14 — .940.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "most_stl",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201937,
+     "name": "Ricky Rubio"
+    }
+   ],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201937,
+     "name": "Ricky Rubio",
+     "season": 2013,
+     "team": "MIN",
+     "GP": 82,
+     "PTS": 781,
+     "PPG": 9.5,
+     "REB": 342,
+     "AST": 704,
+     "STL": 191,
+     "BLK": 11,
+     "FGM": 255,
+     "FGA": 670,
+     "FG3M": 44,
+     "FG3A": 133,
+     "FTM": 227,
+     "FTA": 283,
+     "MIN": 2638,
+     "PF": 218,
+     "TOV": 221
+    }
+   ],
+   "among": 4934,
+   "text": "Most steals in a season in the 2010s: Ricky Rubio, 2013-14 — 191.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "most_blk",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 202355,
+     "name": "Hassan Whiteside"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202355,
+     "name": "Hassan Whiteside",
+     "season": 2015,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 1040,
+     "PPG": 14.2,
+     "REB": 865,
+     "AST": 29,
+     "STL": 44,
+     "BLK": 269,
+     "FGM": 413,
+     "FGA": 682,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 214,
+     "FTA": 329,
+     "MIN": 2125,
+     "PF": 201,
+     "TOV": 137
+    }
+   ],
+   "among": 4934,
+   "text": "Most blocked shots in a season in the 2010s: Hassan Whiteside, 2015-16 — 269.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "most_3pa_bad",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2019,
+     "team": "DAL",
+     "GP": 61,
+     "PTS": 1759,
+     "PPG": 28.8,
+     "REB": 573,
+     "AST": 538,
+     "STL": 62,
+     "BLK": 14,
+     "FGM": 581,
+     "FGA": 1255,
+     "FG3M": 171,
+     "FG3A": 541,
+     "FTM": 426,
+     "FTA": 562,
+     "MIN": 2047,
+     "PF": 153,
+     "TOV": 260
+    }
+   ],
+   "among": 175,
+   "text": "Most threes attempted while shooting under .330 from deep in the 2010s: Luka Dončić, 2019-20 — 541 attempts at .316.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "best_3p_volume",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 2594,
+     "name": "Kyle Korver"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2594,
+     "name": "Kyle Korver",
+     "season": 2014,
+     "team": "ATL",
+     "GP": 75,
+     "PTS": 911,
+     "PPG": 12.1,
+     "REB": 304,
+     "AST": 196,
+     "STL": 52,
+     "BLK": 42,
+     "FGM": 292,
+     "FGA": 600,
+     "FG3M": 221,
+     "FG3A": 449,
+     "FTM": 106,
+     "FTA": 118,
+     "MIN": 2418,
+     "PF": 140,
+     "TOV": 107
+    }
+   ],
+   "among": 602,
+   "text": "Best three-point percentage on 300+ attempts in the 2010s: Kyle Korver, 2014-15 — .492 (221-449).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 52,
+   "kind": "nearmiss",
+   "rule": "tp399",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 202689,
+     "name": "Kemba Walker"
+    },
+    {
+     "id": 200768,
+     "name": "Kyle Lowry"
+    },
+    {
+     "id": 204060,
+     "name": "Joe Ingles"
+    }
+   ],
+   "seasons": [
+    2016,
+    2017,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202689,
+     "name": "Kemba Walker",
+     "season": 2016,
+     "team": "CHA",
+     "GP": 79,
+     "PTS": 1830,
+     "PPG": 23.2,
+     "REB": 308,
+     "AST": 434,
+     "STL": 85,
+     "BLK": 22,
+     "FGM": 643,
+     "FGA": 1449,
+     "FG3M": 240,
+     "FG3A": 602,
+     "FTM": 304,
+     "FTA": 359,
+     "MIN": 2739,
+     "PF": 119,
+     "TOV": 168
+    },
+    {
+     "id": 200768,
+     "name": "Kyle Lowry",
+     "season": 2017,
+     "team": "TOR",
+     "GP": 78,
+     "PTS": 1267,
+     "PPG": 16.2,
+     "REB": 434,
+     "AST": 537,
+     "STL": 85,
+     "BLK": 19,
+     "FGM": 403,
+     "FGA": 944,
+     "FG3M": 238,
+     "FG3A": 596,
+     "FTM": 223,
+     "FTA": 261,
+     "MIN": 2510,
+     "PF": 192,
+     "TOV": 183
+    },
+    {
+     "id": 204060,
+     "name": "Joe Ingles",
+     "season": 2019,
+     "team": "UTA",
+     "GP": 72,
+     "PTS": 707,
+     "PPG": 9.8,
+     "REB": 278,
+     "AST": 373,
+     "STL": 65,
+     "BLK": 11,
+     "FGM": 246,
+     "FGA": 553,
+     "FG3M": 141,
+     "FG3A": 353,
+     "FTM": 74,
+     "FTA": 94,
+     "MIN": 2137,
+     "PF": 154,
+     "TOV": 142
+    },
+    {
+     "id": 203095,
+     "name": "Evan Fournier",
+     "season": 2019,
+     "team": "ORL",
+     "GP": 66,
+     "PTS": 1221,
+     "PPG": 18.5,
+     "REB": 171,
+     "AST": 209,
+     "STL": 71,
+     "BLK": 15,
+     "FGM": 434,
+     "FGA": 929,
+     "FG3M": 173,
+     "FG3A": 434,
+     "FTM": 180,
+     "FTA": 220,
+     "MIN": 2076,
+     "PF": 161,
+     "TOV": 125
+    },
+    {
+     "id": 204038,
+     "name": "Langston Galloway",
+     "season": 2019,
+     "team": "DET",
+     "GP": 66,
+     "PTS": 677,
+     "PPG": 10.3,
+     "REB": 149,
+     "AST": 101,
+     "STL": 48,
+     "BLK": 11,
+     "FGM": 236,
+     "FGA": 542,
+     "FG3M": 132,
+     "FG3A": 331,
+     "FTM": 73,
+     "FTA": 85,
+     "MIN": 1702,
+     "PF": 96,
+     "TOV": 40
+    },
+    {
+     "id": 201936,
+     "name": "Tyreke Evans",
+     "season": 2017,
+     "team": "MEM",
+     "GP": 52,
+     "PTS": 1010,
+     "PPG": 19.4,
+     "REB": 265,
+     "AST": 269,
+     "STL": 57,
+     "BLK": 17,
+     "FGM": 366,
+     "FGA": 809,
+     "FG3M": 114,
+     "FG3A": 286,
+     "FTM": 164,
+     "FTA": 209,
+     "MIN": 1607,
+     "PF": 96,
+     "TOV": 117
+    }
+   ],
+   "text": "9 player-seasons of the 2010s ended on a .399 three-point percentage (200+ 3PA), one point short of .400 — among them Kemba Walker (2016-17), Kyle Lowry (2017-18), Joe Ingles (2019-20).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 53,
+   "kind": "streak",
+   "rule": "s_2spg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2010,
+     "team": "NOH",
+     "GP": 80,
+     "PTS": 1268,
+     "PPG": 15.8,
+     "REB": 327,
+     "AST": 782,
+     "STL": 188,
+     "BLK": 5,
+     "FGM": 430,
+     "FGA": 928,
+     "FG3M": 71,
+     "FG3A": 183,
+     "FTM": 337,
+     "FTA": 384,
+     "MIN": 2880,
+     "PF": 196,
+     "TOV": 177
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2011,
+     "team": "LAC",
+     "GP": 60,
+     "PTS": 1189,
+     "PPG": 19.8,
+     "REB": 213,
+     "AST": 543,
+     "STL": 152,
+     "BLK": 4,
+     "FGM": 425,
+     "FGA": 890,
+     "FG3M": 79,
+     "FG3A": 213,
+     "FTM": 260,
+     "FTA": 302,
+     "MIN": 2181,
+     "PF": 138,
+     "TOV": 124
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2012,
+     "team": "LAC",
+     "GP": 70,
+     "PTS": 1186,
+     "PPG": 16.9,
+     "REB": 262,
+     "AST": 678,
+     "STL": 169,
+     "BLK": 10,
+     "FGM": 412,
+     "FGA": 856,
+     "FG3M": 76,
+     "FG3A": 232,
+     "FTM": 286,
+     "FTA": 323,
+     "MIN": 2335,
+     "PF": 143,
+     "TOV": 159
+    },
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "season": 2013,
+     "team": "LAC",
+     "GP": 62,
+     "PTS": 1185,
+     "PPG": 19.1,
+     "REB": 268,
+     "AST": 663,
+     "STL": 154,
+     "BLK": 4,
+     "FGM": 406,
+     "FGA": 870,
+     "FG3M": 78,
+     "FG3A": 212,
+     "FTM": 295,
+     "FTA": 345,
+     "MIN": 2171,
+     "PF": 157,
+     "TOV": 145
+    }
+   ],
+   "text": "Chris Paul averaged 2+ steals in 4 straight seasons (2010-11 to 2013-14), the longest run of the 2010s.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 54,
+   "rule": "pts_total",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2013,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2593,
+     "PPG": 32,
+     "REB": 598,
+     "AST": 445,
+     "STL": 103,
+     "BLK": 59,
+     "FGM": 849,
+     "FGA": 1688,
+     "FG3M": 192,
+     "FG3A": 491,
+     "FTM": 703,
+     "FTA": 805,
+     "MIN": 3122,
+     "PF": 174,
+     "TOV": 285
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2015,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2376,
+     "PPG": 29,
+     "REB": 501,
+     "AST": 612,
+     "STL": 139,
+     "BLK": 51,
+     "FGM": 710,
+     "FGA": 1617,
+     "FG3M": 236,
+     "FG3A": 657,
+     "FTM": 720,
+     "FTA": 837,
+     "MIN": 3125,
+     "PF": 229,
+     "TOV": 374
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2015,
+     "team": "GSW",
+     "GP": 79,
+     "PTS": 2375,
+     "PPG": 30.1,
+     "REB": 430,
+     "AST": 527,
+     "STL": 169,
+     "BLK": 15,
+     "FGM": 805,
+     "FGA": 1598,
+     "FG3M": 402,
+     "FG3A": 886,
+     "FTM": 363,
+     "FTA": 400,
+     "MIN": 2700,
+     "PF": 161,
+     "TOV": 262
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    }
+   ],
+   "seasonsMatched": 35,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "18 players scored 2,000 points in a season in the 2010s (35 seasons). The most extreme: James Harden, 2018-19 — 2,818 pts.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "po_most_pts",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2017,
+     "team": "CLE",
+     "GP": 22,
+     "PTS": 748,
+     "PPG": 34,
+     "REB": 200,
+     "AST": 198,
+     "STL": 30,
+     "BLK": 23,
+     "FGM": 275,
+     "FGA": 510,
+     "FG3M": 39,
+     "FG3A": 114,
+     "FTM": 159,
+     "FTA": 213,
+     "MIN": 922,
+     "PF": 52,
+     "TOV": 94
+    }
+   ],
+   "among": 2088,
+   "text": "Most points in a single postseason in the 2010s: LeBron James, 2017-18 — 748 in 22 games.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "po_most_reb",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2014,
+     "team": "HOU",
+     "GP": 17,
+     "PTS": 278,
+     "PPG": 16.4,
+     "REB": 238,
+     "AST": 20,
+     "STL": 23,
+     "BLK": 39,
+     "FGM": 105,
+     "FGA": 182,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 68,
+     "FTA": 165,
+     "MIN": 574,
+     "PF": 60,
+     "TOV": 37
+    }
+   ],
+   "among": 2088,
+   "text": "Most rebounds in a single postseason in the 2010s: Dwight Howard, 2014-15 — 238 in 17 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 57,
+   "kind": "extreme",
+   "rule": "short_pts",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins",
+     "season": 2017,
+     "team": "NOP",
+     "GP": 48,
+     "PTS": 1210,
+     "PPG": 25.2,
+     "REB": 617,
+     "AST": 257,
+     "STL": 79,
+     "BLK": 76,
+     "FGM": 406,
+     "FGA": 864,
+     "FG3M": 104,
+     "FG3A": 294,
+     "FTM": 294,
+     "FTA": 394,
+     "MIN": 1737,
+     "PF": 183,
+     "TOV": 242
+    }
+   ],
+   "among": 1177,
+   "text": "Most points by a player who appeared in fewer than 50 games in the 2010s: DeMarcus Cousins, 2017-18 — 1,210 in 48.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "most_oreb",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond"
+    }
+   ],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2013,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1095,
+     "PPG": 13.5,
+     "REB": 1071,
+     "AST": 35,
+     "STL": 101,
+     "BLK": 131,
+     "FGM": 479,
+     "FGA": 769,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 137,
+     "FTA": 328,
+     "MIN": 2619,
+     "PF": 273,
+     "TOV": 110
+    }
+   ],
+   "among": 4934,
+   "text": "Most offensive rebounds in a season in the 2010s: Andre Drummond, 2013-14 — 440.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 59,
+   "kind": "extreme",
+   "rule": "most_3pm",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2015,
+     "team": "GSW",
+     "GP": 79,
+     "PTS": 2375,
+     "PPG": 30.1,
+     "REB": 430,
+     "AST": 527,
+     "STL": 169,
+     "BLK": 15,
+     "FGM": 805,
+     "FGA": 1598,
+     "FG3M": 402,
+     "FG3A": 886,
+     "FTM": 363,
+     "FTA": 400,
+     "MIN": 2700,
+     "PF": 161,
+     "TOV": 262
+    }
+   ],
+   "among": 4934,
+   "text": "Most threes made in a season in the 2010s: Stephen Curry, 2015-16 — 402.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 60,
+   "kind": "extreme",
+   "rule": "top_ppg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    }
+   ],
+   "among": 3028,
+   "text": "Highest scoring average of the 2010s: James Harden, 2018-19 — 36.1 points a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 61,
+   "kind": "extreme",
+   "rule": "best_fg_volume",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "season": 2010,
+     "team": "ORL",
+     "GP": 78,
+     "PTS": 1784,
+     "PPG": 22.9,
+     "REB": 1098,
+     "AST": 107,
+     "STL": 107,
+     "BLK": 186,
+     "FGM": 619,
+     "FGA": 1044,
+     "FG3M": 0,
+     "FG3A": 7,
+     "FTM": 546,
+     "FTA": 916,
+     "MIN": 2935,
+     "PF": 258,
+     "TOV": 279
+    }
+   ],
+   "among": 364,
+   "text": "Best field-goal percentage on 1,000+ attempts in the 2010s: Dwight Howard, 2010-11 — .593 (619-1,044).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 62,
+   "kind": "extreme",
+   "rule": "most_fga",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2016,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2558,
+     "PPG": 31.6,
+     "REB": 864,
+     "AST": 840,
+     "STL": 132,
+     "BLK": 31,
+     "FGM": 824,
+     "FGA": 1941,
+     "FG3M": 200,
+     "FG3A": 583,
+     "FTM": 710,
+     "FTA": 840,
+     "MIN": 2802,
+     "PF": 190,
+     "TOV": 438
+    }
+   ],
+   "among": 4934,
+   "text": "Most shots attempted in a season in the 2010s: Russell Westbrook, 2016-17 — 1,941 FGA, .425.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 63,
+   "kind": "extreme",
+   "rule": "most_ast",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    }
+   ],
+   "among": 4934,
+   "text": "Most assists in a season in the 2010s: James Harden, 2016-17 — 907 (11.2 a game).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Assist averages crown the true point guards."
+  },
+  {
+   "n": 64,
+   "kind": "extreme",
+   "rule": "ppg_bench_size",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 201935,
+     "name": "James Harden"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 78,
+     "PTS": 2818,
+     "PPG": 36.1,
+     "REB": 518,
+     "AST": 586,
+     "STL": 158,
+     "BLK": 58,
+     "FGM": 843,
+     "FGA": 1909,
+     "FG3M": 378,
+     "FG3A": 1028,
+     "FTM": 754,
+     "FTA": 858,
+     "MIN": 2867,
+     "PF": 244,
+     "TOV": 387
+    }
+   ],
+   "among": 3028,
+   "text": "Most points per minute by a qualified player in the 2010s: James Harden, 2018-19 — 36.1 ppg in 36.8 minutes.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 65,
+   "rule": "ft_900",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2012,
+     "team": "OKC",
+     "GP": 81,
+     "PTS": 2280,
+     "PPG": 28.1,
+     "REB": 640,
+     "AST": 374,
+     "STL": 116,
+     "BLK": 105,
+     "FGM": 731,
+     "FGA": 1433,
+     "FG3M": 139,
+     "FG3A": 334,
+     "FTM": 679,
+     "FTA": 750,
+     "MIN": 3119,
+     "PF": 143,
+     "TOV": 280
+    },
+    {
+     "id": 202738,
+     "name": "Isaiah Thomas",
+     "season": 2016,
+     "team": "BOS",
+     "GP": 76,
+     "PTS": 2199,
+     "PPG": 28.9,
+     "REB": 204,
+     "AST": 448,
+     "STL": 70,
+     "BLK": 13,
+     "FGM": 682,
+     "FGA": 1473,
+     "FG3M": 245,
+     "FG3A": 646,
+     "FTM": 590,
+     "FTA": 649,
+     "MIN": 2569,
+     "PF": 167,
+     "TOV": 210
+    },
+    {
+     "id": 203081,
+     "name": "Damian Lillard",
+     "season": 2017,
+     "team": "POR",
+     "GP": 73,
+     "PTS": 1962,
+     "PPG": 26.9,
+     "REB": 325,
+     "AST": 481,
+     "STL": 77,
+     "BLK": 27,
+     "FGM": 621,
+     "FGA": 1415,
+     "FG3M": 227,
+     "FG3A": 629,
+     "FTM": 493,
+     "FTA": 538,
+     "MIN": 2670,
+     "PF": 117,
+     "TOV": 206
+    },
+    {
+     "id": 1626164,
+     "name": "Devin Booker",
+     "season": 2019,
+     "team": "PHX",
+     "GP": 70,
+     "PTS": 1863,
+     "PPG": 26.6,
+     "REB": 297,
+     "AST": 456,
+     "STL": 49,
+     "BLK": 18,
+     "FGM": 627,
+     "FGA": 1283,
+     "FG3M": 141,
+     "FG3A": 398,
+     "FTM": 468,
+     "FTA": 509,
+     "MIN": 2512,
+     "PF": 213,
+     "TOV": 264
+    },
+    {
+     "id": 203081,
+     "name": "Damian Lillard",
+     "season": 2018,
+     "team": "POR",
+     "GP": 80,
+     "PTS": 2067,
+     "PPG": 25.8,
+     "REB": 371,
+     "AST": 551,
+     "STL": 88,
+     "BLK": 34,
+     "FGM": 681,
+     "FGA": 1533,
+     "FG3M": 237,
+     "FG3A": 643,
+     "FTM": 468,
+     "FTA": 513,
+     "MIN": 2838,
+     "PF": 148,
+     "TOV": 212
+    },
+    {
+     "id": 1497,
+     "name": "Chauncey Billups",
+     "season": 2010,
+     "team": "NYK",
+     "GP": 72,
+     "PTS": 1208,
+     "PPG": 16.8,
+     "REB": 190,
+     "AST": 387,
+     "STL": 71,
+     "BLK": 14,
+     "FGM": 339,
+     "FGA": 794,
+     "FG3M": 146,
+     "FG3A": 363,
+     "FTM": 384,
+     "FTA": 419,
+     "MIN": 2310,
+     "PF": 146,
+     "TOV": 177
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 5.638333333333334,
+   "players": [
+    {
+     "id": 201142,
+     "name": "Kevin Durant"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "text": "7 players shot .900 from the line on 400+ attempts in the 2010s (8 seasons). The most extreme: Kevin Durant, 2012-13 — .905 on 750 FTA.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 66,
+   "kind": "nearmiss",
+   "rule": "rpg99",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5.25,
+   "players": [
+    {
+     "id": 201567,
+     "name": "Kevin Love"
+    },
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins"
+    },
+    {
+     "id": 101162,
+     "name": "Marcin Gortat"
+    }
+   ],
+   "seasons": [
+    2015,
+    2012,
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201567,
+     "name": "Kevin Love",
+     "season": 2015,
+     "team": "CLE",
+     "GP": 77,
+     "PTS": 1234,
+     "PPG": 16,
+     "REB": 762,
+     "AST": 185,
+     "STL": 58,
+     "BLK": 41,
+     "FGM": 409,
+     "FGA": 977,
+     "FG3M": 158,
+     "FG3A": 439,
+     "FTM": 258,
+     "FTA": 314,
+     "MIN": 2424,
+     "PF": 159,
+     "TOV": 142
+    },
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins",
+     "season": 2012,
+     "team": "SAC",
+     "GP": 75,
+     "PTS": 1280,
+     "PPG": 17.1,
+     "REB": 746,
+     "AST": 199,
+     "STL": 108,
+     "BLK": 55,
+     "FGM": 482,
+     "FGA": 1036,
+     "FG3M": 4,
+     "FG3A": 22,
+     "FTM": 312,
+     "FTA": 423,
+     "MIN": 2289,
+     "PF": 269,
+     "TOV": 225
+    },
+    {
+     "id": 101162,
+     "name": "Marcin Gortat",
+     "season": 2015,
+     "team": "WAS",
+     "GP": 75,
+     "PTS": 1012,
+     "PPG": 13.5,
+     "REB": 741,
+     "AST": 106,
+     "STL": 47,
+     "BLK": 96,
+     "FGM": 433,
+     "FGA": 764,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 146,
+     "FTA": 207,
+     "MIN": 2256,
+     "PF": 193,
+     "TOV": 121
+    },
+    {
+     "id": 1495,
+     "name": "Tim Duncan",
+     "season": 2012,
+     "team": "SAS",
+     "GP": 69,
+     "PTS": 1227,
+     "PPG": 17.8,
+     "REB": 686,
+     "AST": 184,
+     "STL": 50,
+     "BLK": 183,
+     "FGM": 490,
+     "FGA": 976,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 245,
+     "FTA": 300,
+     "MIN": 2078,
+     "PF": 117,
+     "TOV": 147
+    },
+    {
+     "id": 2199,
+     "name": "Tyson Chandler",
+     "season": 2011,
+     "team": "NYK",
+     "GP": 62,
+     "PTS": 699,
+     "PPG": 11.3,
+     "REB": 612,
+     "AST": 56,
+     "STL": 56,
+     "BLK": 89,
+     "FGM": 241,
+     "FGA": 355,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 217,
+     "FTA": 315,
+     "MIN": 2061,
+     "PF": 186,
+     "TOV": 102
+    }
+   ],
+   "text": "5 player-seasons of the 2010s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Kevin Love (2015-16), DeMarcus Cousins (2012-13), Marcin Gortat (2015-16).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 67,
+   "rule": "threes_good_volume",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2015,
+     "team": "GSW",
+     "GP": 79,
+     "PTS": 2375,
+     "PPG": 30.1,
+     "REB": 430,
+     "AST": 527,
+     "STL": 169,
+     "BLK": 15,
+     "FGM": 805,
+     "FGA": 1598,
+     "FG3M": 402,
+     "FG3A": 886,
+     "FTM": 363,
+     "FTA": 400,
+     "MIN": 2700,
+     "PF": 161,
+     "TOV": 262
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2018,
+     "team": "GSW",
+     "GP": 69,
+     "PTS": 1881,
+     "PPG": 27.3,
+     "REB": 369,
+     "AST": 361,
+     "STL": 92,
+     "BLK": 25,
+     "FGM": 632,
+     "FGA": 1340,
+     "FG3M": 354,
+     "FG3A": 810,
+     "FTM": 263,
+     "FTA": 287,
+     "MIN": 2331,
+     "PF": 166,
+     "TOV": 192
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2016,
+     "team": "GSW",
+     "GP": 79,
+     "PTS": 1999,
+     "PPG": 25.3,
+     "REB": 353,
+     "AST": 524,
+     "STL": 142,
+     "BLK": 17,
+     "FGM": 675,
+     "FGA": 1443,
+     "FG3M": 324,
+     "FG3A": 789,
+     "FTM": 325,
+     "FTA": 362,
+     "MIN": 2639,
+     "PF": 183,
+     "TOV": 239
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2014,
+     "team": "GSW",
+     "GP": 80,
+     "PTS": 1900,
+     "PPG": 23.8,
+     "REB": 341,
+     "AST": 619,
+     "STL": 163,
+     "BLK": 16,
+     "FGM": 653,
+     "FGA": 1341,
+     "FG3M": 286,
+     "FG3A": 646,
+     "FTM": 308,
+     "FTA": 337,
+     "MIN": 2613,
+     "PF": 158,
+     "TOV": 249
+    },
+    {
+     "id": 201939,
+     "name": "Stephen Curry",
+     "season": 2012,
+     "team": "GSW",
+     "GP": 78,
+     "PTS": 1786,
+     "PPG": 22.9,
+     "REB": 314,
+     "AST": 539,
+     "STL": 126,
+     "BLK": 12,
+     "FGM": 626,
+     "FGA": 1388,
+     "FG3M": 272,
+     "FG3A": 600,
+     "FTM": 262,
+     "FTA": 291,
+     "MIN": 2983,
+     "PF": 198,
+     "TOV": 240
+    },
+    {
+     "id": 1629130,
+     "name": "Duncan Robinson",
+     "season": 2019,
+     "team": "MIA",
+     "GP": 73,
+     "PTS": 983,
+     "PPG": 13.5,
+     "REB": 232,
+     "AST": 102,
+     "STL": 35,
+     "BLK": 19,
+     "FGM": 323,
+     "FGA": 687,
+     "FG3M": 270,
+     "FG3A": 606,
+     "FTM": 67,
+     "FTA": 72,
+     "MIN": 2166,
+     "PF": 193,
+     "TOV": 70
+    }
+   ],
+   "seasonsMatched": 80,
+   "kind": "list",
+   "score": 5.13931151241535,
+   "players": [
+    {
+     "id": 201939,
+     "name": "Stephen Curry"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "text": "46 players made 150 threes at a .400 clip in the 2010s (80 seasons). The most extreme: Stephen Curry, 2015-16 — 402 3PM, .454.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "t_reb",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "total": 8862,
+     "seasons": 10
+    },
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "total": 8288,
+     "seasons": 8
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "total": 7502,
+     "seasons": 10
+    },
+    {
+     "id": 201567,
+     "name": "Kevin Love",
+     "total": 6552,
+     "seasons": 10
+    },
+    {
+     "id": 200746,
+     "name": "LaMarcus Aldridge",
+     "total": 6238,
+     "seasons": 10
+    }
+   ],
+   "text": "Most rebounds of the 2010s: DeAndre Jordan, 8,862.",
+   "why": "A decade-long view that settles consistency debates. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "t_blk",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 201586,
+     "name": "Serge Ibaka"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 201586,
+     "name": "Serge Ibaka",
+     "total": 1575,
+     "seasons": 10
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "total": 1280,
+     "seasons": 10
+    },
+    {
+     "id": 203076,
+     "name": "Anthony Davis",
+     "total": 1264,
+     "seasons": 8
+    },
+    {
+     "id": 201572,
+     "name": "Brook Lopez",
+     "total": 1122,
+     "seasons": 10
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "total": 1088,
+     "seasons": 10
+    }
+   ],
+   "text": "Most blocked shots of the 2010s: Serge Ibaka, 1,575.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_25_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 7
+    },
+    {
+     "season": 2011,
+     "count": 4
+    },
+    {
+     "season": 2012,
+     "count": 5
+    },
+    {
+     "season": 2013,
+     "count": 5
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 6
+    },
+    {
+     "season": 2016,
+     "count": 13
+    },
+    {
+     "season": 2017,
+     "count": 8
+    },
+    {
+     "season": 2018,
+     "count": 13
+    },
+    {
+     "season": 2019,
+     "count": 12
+    }
+   ],
+   "text": "2016-17 had 13 players averaging 25 points (60% of games), the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_25_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 7
+    },
+    {
+     "season": 2011,
+     "count": 4
+    },
+    {
+     "season": 2012,
+     "count": 5
+    },
+    {
+     "season": 2013,
+     "count": 5
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 6
+    },
+    {
+     "season": 2016,
+     "count": 13
+    },
+    {
+     "season": 2017,
+     "count": 8
+    },
+    {
+     "season": 2018,
+     "count": 13
+    },
+    {
+     "season": 2019,
+     "count": 12
+    }
+   ],
+   "text": "2014-15 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 2010s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_20_10_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 4
+    },
+    {
+     "season": 2011,
+     "count": 3
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 5
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 5
+    },
+    {
+     "season": 2018,
+     "count": 7
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2018-19 had 7 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_20_10_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 4
+    },
+    {
+     "season": 2011,
+     "count": 3
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 5
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 5
+    },
+    {
+     "season": 2018,
+     "count": 7
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2012-13 had no players averaging 20 points and 10 rebounds (60% of games) at all — the only season of the 2010s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_ft900_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 4
+    },
+    {
+     "season": 2011,
+     "count": 1
+    },
+    {
+     "season": 2012,
+     "count": 2
+    },
+    {
+     "season": 2013,
+     "count": 0
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 5
+    },
+    {
+     "season": 2018,
+     "count": 3
+    },
+    {
+     "season": 2019,
+     "count": 4
+    }
+   ],
+   "text": "2017-18 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_ft900_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 4
+    },
+    {
+     "season": 2011,
+     "count": 1
+    },
+    {
+     "season": 2012,
+     "count": 2
+    },
+    {
+     "season": 2013,
+     "count": 0
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 2
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 5
+    },
+    {
+     "season": 2018,
+     "count": 3
+    },
+    {
+     "season": 2019,
+     "count": 4
+    }
+   ],
+   "text": "2013-14 had no .900 free-throw shooters (200+ FTA) at all — the only season of the 2010s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_10apg_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 9
+    },
+    {
+     "season": 2011,
+     "count": 7
+    },
+    {
+     "season": 2012,
+     "count": 3
+    },
+    {
+     "season": 2013,
+     "count": 6
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 5
+    },
+    {
+     "season": 2016,
+     "count": 6
+    },
+    {
+     "season": 2017,
+     "count": 5
+    },
+    {
+     "season": 2018,
+     "count": 5
+    },
+    {
+     "season": 2019,
+     "count": 5
+    }
+   ],
+   "text": "2010-11 had 9 8-assist players, the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s. Assist averages crown the true point guards."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_10apg_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 9
+    },
+    {
+     "season": 2011,
+     "count": 7
+    },
+    {
+     "season": 2012,
+     "count": 3
+    },
+    {
+     "season": 2013,
+     "count": 6
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 5
+    },
+    {
+     "season": 2016,
+     "count": 6
+    },
+    {
+     "season": 2017,
+     "count": 5
+    },
+    {
+     "season": 2018,
+     "count": 5
+    },
+    {
+     "season": 2019,
+     "count": 5
+    }
+   ],
+   "text": "2012-13 had just 3 8-assist players, the fewest of any season in the 2010s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "c_20_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 21
+    },
+    {
+     "season": 2011,
+     "count": 14
+    },
+    {
+     "season": 2012,
+     "count": 11
+    },
+    {
+     "season": 2013,
+     "count": 18
+    },
+    {
+     "season": 2014,
+     "count": 15
+    },
+    {
+     "season": 2015,
+     "count": 20
+    },
+    {
+     "season": 2016,
+     "count": 32
+    },
+    {
+     "season": 2017,
+     "count": 25
+    },
+    {
+     "season": 2018,
+     "count": 32
+    },
+    {
+     "season": 2019,
+     "count": 30
+    }
+   ],
+   "text": "2016-17 had 32 players averaging 20 points (60% of games), the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_20_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 21
+    },
+    {
+     "season": 2011,
+     "count": 14
+    },
+    {
+     "season": 2012,
+     "count": 11
+    },
+    {
+     "season": 2013,
+     "count": 18
+    },
+    {
+     "season": 2014,
+     "count": 15
+    },
+    {
+     "season": 2015,
+     "count": 20
+    },
+    {
+     "season": 2016,
+     "count": 32
+    },
+    {
+     "season": 2017,
+     "count": 25
+    },
+    {
+     "season": 2018,
+     "count": 32
+    },
+    {
+     "season": 2019,
+     "count": 30
+    }
+   ],
+   "text": "2012-13 had just 11 players averaging 20 points (60% of games), the fewest of any season in the 2010s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_10rpg_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 8
+    },
+    {
+     "season": 2011,
+     "count": 7
+    },
+    {
+     "season": 2012,
+     "count": 10
+    },
+    {
+     "season": 2013,
+     "count": 12
+    },
+    {
+     "season": 2014,
+     "count": 10
+    },
+    {
+     "season": 2015,
+     "count": 10
+    },
+    {
+     "season": 2016,
+     "count": 12
+    },
+    {
+     "season": 2017,
+     "count": 13
+    },
+    {
+     "season": 2018,
+     "count": 14
+    },
+    {
+     "season": 2019,
+     "count": 11
+    }
+   ],
+   "text": "2018-19 had 14 players averaging 10 rebounds (60% of games), the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_10rpg_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 8
+    },
+    {
+     "season": 2011,
+     "count": 7
+    },
+    {
+     "season": 2012,
+     "count": 10
+    },
+    {
+     "season": 2013,
+     "count": 12
+    },
+    {
+     "season": 2014,
+     "count": 10
+    },
+    {
+     "season": 2015,
+     "count": 10
+    },
+    {
+     "season": 2016,
+     "count": 12
+    },
+    {
+     "season": 2017,
+     "count": 13
+    },
+    {
+     "season": 2018,
+     "count": 14
+    },
+    {
+     "season": 2019,
+     "count": 11
+    }
+   ],
+   "text": "2011-12 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 2010s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_30_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 0
+    },
+    {
+     "season": 2011,
+     "count": 0
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 1
+    },
+    {
+     "season": 2014,
+     "count": 0
+    },
+    {
+     "season": 2015,
+     "count": 1
+    },
+    {
+     "season": 2016,
+     "count": 1
+    },
+    {
+     "season": 2017,
+     "count": 1
+    },
+    {
+     "season": 2018,
+     "count": 1
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2019-20 had 2 30-point scorers, the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 0
+    },
+    {
+     "season": 2011,
+     "count": 0
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 1
+    },
+    {
+     "season": 2014,
+     "count": 0
+    },
+    {
+     "season": 2015,
+     "count": 1
+    },
+    {
+     "season": 2016,
+     "count": 1
+    },
+    {
+     "season": 2017,
+     "count": 1
+    },
+    {
+     "season": 2018,
+     "count": 1
+    },
+    {
+     "season": 2019,
+     "count": 2
+    }
+   ],
+   "text": "2010-11 had no 30-point scorers at all — one of the seasons of the 2010s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 84,
+   "kind": "total",
+   "rule": "t_pf",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 202326,
+     "name": "DeMarcus Cousins",
+     "total": 2175,
+     "seasons": 9
+    },
+    {
+     "id": 201586,
+     "name": "Serge Ibaka",
+     "total": 2085,
+     "seasons": 10
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "total": 2048,
+     "seasons": 10
+    },
+    {
+     "id": 2730,
+     "name": "Dwight Howard",
+     "total": 2012,
+     "seasons": 10
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "total": 2004,
+     "seasons": 10
+    }
+   ],
+   "text": "Most personal fouls committed in the 2010s: DeMarcus Cousins, 2,175.",
+   "why": "A decade-long view that settles consistency debates. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 85,
+   "kind": "total",
+   "rule": "t_stl",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 101108,
+     "name": "Chris Paul"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 101108,
+     "name": "Chris Paul",
+     "total": 1411,
+     "seasons": 10
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "total": 1317,
+     "seasons": 10
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "total": 1234,
+     "seasons": 10
+    },
+    {
+     "id": 201152,
+     "name": "Thaddeus Young",
+     "total": 1153,
+     "seasons": 10
+    },
+    {
+     "id": 202331,
+     "name": "Paul George",
+     "total": 1139,
+     "seasons": 10
+    }
+   ],
+   "text": "Most steals of the 2010s: Chris Paul, 1,411.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 86,
+   "kind": "season",
+   "rule": "c_2spg_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 3
+    },
+    {
+     "season": 2011,
+     "count": 3
+    },
+    {
+     "season": 2012,
+     "count": 4
+    },
+    {
+     "season": 2013,
+     "count": 3
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 5
+    },
+    {
+     "season": 2016,
+     "count": 2
+    },
+    {
+     "season": 2017,
+     "count": 4
+    },
+    {
+     "season": 2018,
+     "count": 2
+    },
+    {
+     "season": 2019,
+     "count": 1
+    }
+   ],
+   "text": "2015-16 had 5 players averaging 2 steals (60% of games), the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 87,
+   "kind": "season",
+   "rule": "c_2spg_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 3
+    },
+    {
+     "season": 2011,
+     "count": 3
+    },
+    {
+     "season": 2012,
+     "count": 4
+    },
+    {
+     "season": 2013,
+     "count": 3
+    },
+    {
+     "season": 2014,
+     "count": 4
+    },
+    {
+     "season": 2015,
+     "count": 5
+    },
+    {
+     "season": 2016,
+     "count": 2
+    },
+    {
+     "season": 2017,
+     "count": 4
+    },
+    {
+     "season": 2018,
+     "count": 2
+    },
+    {
+     "season": 2019,
+     "count": 1
+    }
+   ],
+   "text": "2019-20 had just one player averaging 2 steals (60% of games), the fewest of any season in the 2010s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 88,
+   "kind": "season",
+   "rule": "c_2bpg_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 5
+    },
+    {
+     "season": 2011,
+     "count": 4
+    },
+    {
+     "season": 2012,
+     "count": 7
+    },
+    {
+     "season": 2013,
+     "count": 4
+    },
+    {
+     "season": 2014,
+     "count": 5
+    },
+    {
+     "season": 2015,
+     "count": 5
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 2
+    },
+    {
+     "season": 2018,
+     "count": 5
+    },
+    {
+     "season": 2019,
+     "count": 5
+    }
+   ],
+   "text": "2012-13 had 7 players averaging 2 blocks (60% of games), the most of any season in the 2010s.",
+   "why": "Rewards staying power: the most such seasons in the 2010s. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 89,
+   "kind": "season",
+   "rule": "c_2bpg_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 5
+    },
+    {
+     "season": 2011,
+     "count": 4
+    },
+    {
+     "season": 2012,
+     "count": 7
+    },
+    {
+     "season": 2013,
+     "count": 4
+    },
+    {
+     "season": 2014,
+     "count": 5
+    },
+    {
+     "season": 2015,
+     "count": 5
+    },
+    {
+     "season": 2016,
+     "count": 4
+    },
+    {
+     "season": 2017,
+     "count": 2
+    },
+    {
+     "season": 2018,
+     "count": 5
+    },
+    {
+     "season": 2019,
+     "count": 5
+    }
+   ],
+   "text": "2017-18 had just 2 players averaging 2 blocks (60% of games), the fewest of any season in the 2010s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 90,
+   "kind": "nearmiss",
+   "rule": "fg499",
+   "group": "P",
+   "decade": "2010s",
+   "score": 4.5,
+   "players": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić"
+    },
+    {
+     "id": 2225,
+     "name": "Tony Parker"
+    }
+   ],
+   "seasons": [
+    2017,
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203999,
+     "name": "Nikola Jokić",
+     "season": 2017,
+     "team": "DEN",
+     "GP": 75,
+     "PTS": 1385,
+     "PPG": 18.5,
+     "REB": 803,
+     "AST": 458,
+     "STL": 90,
+     "BLK": 61,
+     "FGM": 504,
+     "FGA": 1010,
+     "FG3M": 111,
+     "FG3A": 280,
+     "FTM": 266,
+     "FTA": 313,
+     "MIN": 2443,
+     "PF": 212,
+     "TOV": 210
+    },
+    {
+     "id": 2225,
+     "name": "Tony Parker",
+     "season": 2013,
+     "team": "SAS",
+     "GP": 68,
+     "PTS": 1134,
+     "PPG": 16.7,
+     "REB": 155,
+     "AST": 388,
+     "STL": 36,
+     "BLK": 9,
+     "FGM": 456,
+     "FGA": 914,
+     "FG3M": 25,
+     "FG3A": 67,
+     "FTM": 197,
+     "FTA": 243,
+     "MIN": 1997,
+     "PF": 86,
+     "TOV": 151
+    }
+   ],
+   "text": "2 player-seasons of the 2010s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Nikola Jokić (2017-18), Tony Parker (2013-14).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 91,
+   "rule": "reb_over_pts",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2501,
+     "name": "Reggie Evans",
+     "season": 2012,
+     "team": "BKN",
+     "GP": 80,
+     "PTS": 363,
+     "PPG": 4.5,
+     "REB": 888,
+     "AST": 43,
+     "STL": 74,
+     "BLK": 13,
+     "FGM": 125,
+     "FGA": 261,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 113,
+     "FTA": 222,
+     "MIN": 1967,
+     "PF": 199,
+     "TOV": 111
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2010,
+     "team": "POR",
+     "GP": 59,
+     "PTS": 277,
+     "PPG": 4.7,
+     "REB": 606,
+     "AST": 121,
+     "STL": 40,
+     "BLK": 92,
+     "FGM": 117,
+     "FGA": 294,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 43,
+     "FTA": 70,
+     "MIN": 1540,
+     "PF": 140,
+     "TOV": 62
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2014,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 946,
+     "PPG": 11.5,
+     "REB": 1226,
+     "AST": 61,
+     "STL": 81,
+     "BLK": 183,
+     "FGM": 379,
+     "FGA": 534,
+     "FG3M": 1,
+     "FG3A": 4,
+     "FTM": 187,
+     "FTA": 471,
+     "MIN": 2820,
+     "PF": 245,
+     "TOV": 109
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2013,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 856,
+     "PPG": 10.4,
+     "REB": 1114,
+     "AST": 74,
+     "STL": 80,
+     "BLK": 203,
+     "FGM": 348,
+     "FGA": 515,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 160,
+     "FTA": 374,
+     "MIN": 2870,
+     "PF": 264,
+     "TOV": 123
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2017,
+     "team": "LAC",
+     "GP": 77,
+     "PTS": 927,
+     "PPG": 12,
+     "REB": 1171,
+     "AST": 117,
+     "STL": 39,
+     "BLK": 70,
+     "FGM": 373,
+     "FGA": 578,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 181,
+     "FTA": 312,
+     "MIN": 2423,
+     "PF": 203,
+     "TOV": 137
+    },
+    {
+     "id": 948,
+     "name": "Marcus Camby",
+     "season": 2011,
+     "team": "HOU",
+     "GP": 59,
+     "PTS": 287,
+     "PPG": 4.9,
+     "REB": 530,
+     "AST": 107,
+     "STL": 50,
+     "BLK": 85,
+     "FGM": 128,
+     "FGA": 287,
+     "FG3M": 2,
+     "FG3A": 5,
+     "FTM": 29,
+     "FTA": 64,
+     "MIN": 1352,
+     "PF": 126,
+     "TOV": 57
+    }
+   ],
+   "seasonsMatched": 42,
+   "kind": "list",
+   "score": 4.3125,
+   "players": [
+    {
+     "id": 2501,
+     "name": "Reggie Evans"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "text": "20 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 2010s (42 seasons). The most extreme: Reggie Evans, 2012-13 — 888 reb, 363 pts.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 92,
+   "kind": "nearmiss",
+   "rule": "ppg249",
+   "group": "P",
+   "decade": "2010s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 1626164,
+     "name": "Devin Booker"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1626164,
+     "name": "Devin Booker",
+     "season": 2017,
+     "team": "PHX",
+     "GP": 54,
+     "PTS": 1346,
+     "PPG": 24.9,
+     "REB": 244,
+     "AST": 253,
+     "STL": 47,
+     "BLK": 14,
+     "FGM": 455,
+     "FGA": 1054,
+     "FG3M": 147,
+     "FG3A": 384,
+     "FTM": 289,
+     "FTA": 329,
+     "MIN": 1865,
+     "PF": 168,
+     "TOV": 194
+    }
+   ],
+   "text": "Exactly one player of the 2010s finished a season with a 24.9 scoring average, a tenth short of 25: Devin Booker (2017-18).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 93,
+   "kind": "nearmiss",
+   "rule": "ft899",
+   "group": "P",
+   "decade": "2010s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki"
+    }
+   ],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1717,
+     "name": "Dirk Nowitzki",
+     "season": 2013,
+     "team": "DAL",
+     "GP": 80,
+     "PTS": 1735,
+     "PPG": 21.7,
+     "REB": 498,
+     "AST": 216,
+     "STL": 73,
+     "BLK": 45,
+     "FGM": 633,
+     "FGA": 1273,
+     "FG3M": 131,
+     "FG3A": 329,
+     "FTM": 338,
+     "FTA": 376,
+     "MIN": 2628,
+     "PF": 165,
+     "TOV": 117
+    }
+   ],
+   "text": "Exactly one player of the 2010s finished a season with an .899 free-throw percentage (300+ FTA), one point short of .900: Dirk Nowitzki (2013-14).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 94,
+   "rule": "threes_great",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2594,
+     "name": "Kyle Korver",
+     "season": 2014,
+     "team": "ATL",
+     "GP": 75,
+     "PTS": 911,
+     "PPG": 12.1,
+     "REB": 304,
+     "AST": 196,
+     "STL": 52,
+     "BLK": 42,
+     "FGM": 292,
+     "FGA": 600,
+     "FG3M": 221,
+     "FG3A": 449,
+     "FTM": 106,
+     "FTA": 118,
+     "MIN": 2418,
+     "PF": 140,
+     "TOV": 107
+    },
+    {
+     "id": 200755,
+     "name": "JJ Redick",
+     "season": 2015,
+     "team": "LAC",
+     "GP": 75,
+     "PTS": 1226,
+     "PPG": 16.3,
+     "REB": 139,
+     "AST": 106,
+     "STL": 42,
+     "BLK": 5,
+     "FGM": 422,
+     "FGA": 880,
+     "FG3M": 200,
+     "FG3A": 421,
+     "FTM": 182,
+     "FTA": 205,
+     "MIN": 2097,
+     "PF": 135,
+     "TOV": 78
+    },
+    {
+     "id": 203925,
+     "name": "Joe Harris",
+     "season": 2018,
+     "team": "BKN",
+     "GP": 76,
+     "PTS": 1041,
+     "PPG": 13.7,
+     "REB": 291,
+     "AST": 181,
+     "STL": 38,
+     "BLK": 17,
+     "FGM": 374,
+     "FGA": 748,
+     "FG3M": 183,
+     "FG3A": 386,
+     "FTM": 110,
+     "FTA": 133,
+     "MIN": 2294,
+     "PF": 182,
+     "TOV": 121
+    },
+    {
+     "id": 2594,
+     "name": "Kyle Korver",
+     "season": 2013,
+     "team": "ATL",
+     "GP": 71,
+     "PTS": 850,
+     "PPG": 12,
+     "REB": 282,
+     "AST": 208,
+     "STL": 70,
+     "BLK": 24,
+     "FGM": 289,
+     "FGA": 609,
+     "FG3M": 185,
+     "FG3A": 392,
+     "FTM": 87,
+     "FTA": 94,
+     "MIN": 2408,
+     "PF": 147,
+     "TOV": 102
+    },
+    {
+     "id": 200779,
+     "name": "Steve Novak",
+     "season": 2011,
+     "team": "NYK",
+     "GP": 54,
+     "PTS": 477,
+     "PPG": 8.8,
+     "REB": 104,
+     "AST": 12,
+     "STL": 16,
+     "BLK": 9,
+     "FGM": 161,
+     "FGA": 337,
+     "FG3M": 133,
+     "FG3A": 282,
+     "FTM": 22,
+     "FTA": 26,
+     "MIN": 1020,
+     "PF": 59,
+     "TOV": 21
+    },
+    {
+     "id": 101181,
+     "name": "Jose Calderon",
+     "season": 2012,
+     "team": "DET",
+     "GP": 73,
+     "PTS": 826,
+     "PPG": 11.3,
+     "REB": 176,
+     "AST": 518,
+     "STL": 58,
+     "BLK": 8,
+     "FGM": 312,
+     "FGA": 635,
+     "FG3M": 130,
+     "FG3A": 282,
+     "FTM": 72,
+     "FTA": 80,
+     "MIN": 2159,
+     "PF": 99,
+     "TOV": 126
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 4.230512249443207,
+   "players": [
+    {
+     "id": 2594,
+     "name": "Kyle Korver"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "text": "8 players shot .450 from three on 250+ attempts in the 2010s (14 seasons). The most extreme: Kyle Korver, 2014-15 — .492 on 449 3PA.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
+  },
+  {
+   "n": 95,
+   "rule": "big_reb",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2017,
+     "team": "DET",
+     "GP": 78,
+     "PTS": 1171,
+     "PPG": 15,
+     "REB": 1247,
+     "AST": 237,
+     "STL": 114,
+     "BLK": 127,
+     "FGM": 466,
+     "FGA": 881,
+     "FG3M": 0,
+     "FG3A": 11,
+     "FTM": 239,
+     "FTA": 395,
+     "MIN": 2625,
+     "PF": 250,
+     "TOV": 200
+    },
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2018,
+     "team": "DET",
+     "GP": 79,
+     "PTS": 1370,
+     "PPG": 17.3,
+     "REB": 1232,
+     "AST": 112,
+     "STL": 136,
+     "BLK": 138,
+     "FGM": 561,
+     "FGA": 1052,
+     "FG3M": 5,
+     "FG3A": 38,
+     "FTM": 243,
+     "FTA": 412,
+     "MIN": 2647,
+     "PF": 272,
+     "TOV": 175
+    },
+    {
+     "id": 201567,
+     "name": "Kevin Love",
+     "season": 2010,
+     "team": "MIN",
+     "GP": 73,
+     "PTS": 1476,
+     "PPG": 20.2,
+     "REB": 1112,
+     "AST": 184,
+     "STL": 45,
+     "BLK": 28,
+     "FGM": 482,
+     "FGA": 1026,
+     "FG3M": 88,
+     "FG3A": 211,
+     "FTM": 424,
+     "FTA": 499,
+     "MIN": 2611,
+     "PF": 148,
+     "TOV": 155
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2017,
+     "team": "LAC",
+     "GP": 77,
+     "PTS": 927,
+     "PPG": 12,
+     "REB": 1171,
+     "AST": 117,
+     "STL": 39,
+     "BLK": 70,
+     "FGM": 373,
+     "FGA": 578,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 181,
+     "FTA": 312,
+     "MIN": 2423,
+     "PF": 203,
+     "TOV": 137
+    },
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2019,
+     "team": "CLE",
+     "GP": 57,
+     "PTS": 1010,
+     "PPG": 17.7,
+     "REB": 864,
+     "AST": 152,
+     "STL": 109,
+     "BLK": 93,
+     "FGM": 418,
+     "FGA": 784,
+     "FG3M": 5,
+     "FG3A": 35,
+     "FTM": 169,
+     "FTA": 294,
+     "MIN": 1878,
+     "PF": 201,
+     "TOV": 203
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2014,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 946,
+     "PPG": 11.5,
+     "REB": 1226,
+     "AST": 61,
+     "STL": 81,
+     "BLK": 183,
+     "FGM": 379,
+     "FGA": 534,
+     "FG3M": 1,
+     "FG3A": 4,
+     "FTM": 187,
+     "FTA": 471,
+     "MIN": 2820,
+     "PF": 245,
+     "TOV": 109
+    }
+   ],
+   "seasonsMatched": 40,
+   "kind": "list",
+   "score": 4.1990384615384615,
+   "players": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "text": "16 players averaged 12+ rebounds (60% of games) in the 2010s (40 seasons). The most extreme: Andre Drummond, 2017-18 — 16.0 rpg.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 96,
+   "rule": "reb_1000",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2017,
+     "team": "DET",
+     "GP": 78,
+     "PTS": 1171,
+     "PPG": 15,
+     "REB": 1247,
+     "AST": 237,
+     "STL": 114,
+     "BLK": 127,
+     "FGM": 466,
+     "FGA": 881,
+     "FG3M": 0,
+     "FG3A": 11,
+     "FTM": 239,
+     "FTA": 395,
+     "MIN": 2625,
+     "PF": 250,
+     "TOV": 200
+    },
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2018,
+     "team": "DET",
+     "GP": 79,
+     "PTS": 1370,
+     "PPG": 17.3,
+     "REB": 1232,
+     "AST": 112,
+     "STL": 136,
+     "BLK": 138,
+     "FGM": 561,
+     "FGA": 1052,
+     "FG3M": 5,
+     "FG3A": 38,
+     "FTM": 243,
+     "FTA": 412,
+     "MIN": 2647,
+     "PF": 272,
+     "TOV": 175
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2014,
+     "team": "LAC",
+     "GP": 82,
+     "PTS": 946,
+     "PPG": 11.5,
+     "REB": 1226,
+     "AST": 61,
+     "STL": 81,
+     "BLK": 183,
+     "FGM": 379,
+     "FGA": 534,
+     "FG3M": 1,
+     "FG3A": 4,
+     "FTM": 187,
+     "FTA": 471,
+     "MIN": 2820,
+     "PF": 245,
+     "TOV": 109
+    },
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2015,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1314,
+     "PPG": 16.2,
+     "REB": 1198,
+     "AST": 67,
+     "STL": 119,
+     "BLK": 112,
+     "FGM": 552,
+     "FGA": 1060,
+     "FG3M": 2,
+     "FG3A": 6,
+     "FTM": 208,
+     "FTA": 586,
+     "MIN": 2666,
+     "PF": 245,
+     "TOV": 155
+    },
+    {
+     "id": 201599,
+     "name": "DeAndre Jordan",
+     "season": 2017,
+     "team": "LAC",
+     "GP": 77,
+     "PTS": 927,
+     "PPG": 12,
+     "REB": 1171,
+     "AST": 117,
+     "STL": 39,
+     "BLK": 70,
+     "FGM": 373,
+     "FGA": 578,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 181,
+     "FTA": 312,
+     "MIN": 2423,
+     "PF": 203,
+     "TOV": 137
+    },
+    {
+     "id": 203083,
+     "name": "Andre Drummond",
+     "season": 2016,
+     "team": "DET",
+     "GP": 81,
+     "PTS": 1105,
+     "PPG": 13.6,
+     "REB": 1115,
+     "AST": 90,
+     "STL": 124,
+     "BLK": 89,
+     "FGM": 483,
+     "FGA": 911,
+     "FG3M": 2,
+     "FG3A": 7,
+     "FTM": 137,
+     "FTA": 355,
+     "MIN": 2409,
+     "PF": 237,
+     "TOV": 152
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 4.039166666666667,
+   "players": [
+    {
+     "id": 203083,
+     "name": "Andre Drummond"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "text": "7 players grabbed 1,000 rebounds in a season in the 2010s (19 seasons). The most extreme: Andre Drummond, 2017-18 — 1,247 reb.",
+   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 97,
+   "rule": "big_ast",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2011,
+     "team": "BOS",
+     "GP": 53,
+     "PTS": 630,
+     "PPG": 11.9,
+     "REB": 257,
+     "AST": 620,
+     "STL": 95,
+     "BLK": 3,
+     "FGM": 256,
+     "FGA": 572,
+     "FG3M": 10,
+     "FG3A": 42,
+     "FTM": 108,
+     "FTA": 181,
+     "MIN": 1957,
+     "PF": 99,
+     "TOV": 193
+    },
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2015,
+     "team": "SAC",
+     "GP": 72,
+     "PTS": 859,
+     "PPG": 11.9,
+     "REB": 435,
+     "AST": 839,
+     "STL": 141,
+     "BLK": 10,
+     "FGM": 355,
+     "FGA": 782,
+     "FG3M": 62,
+     "FG3A": 170,
+     "FTM": 87,
+     "FTA": 150,
+     "MIN": 2537,
+     "PF": 175,
+     "TOV": 278
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2010,
+     "team": "PHX",
+     "GP": 75,
+     "PTS": 1106,
+     "PPG": 14.7,
+     "REB": 260,
+     "AST": 855,
+     "STL": 48,
+     "BLK": 4,
+     "FGM": 399,
+     "FGA": 811,
+     "FG3M": 81,
+     "FG3A": 205,
+     "FTM": 227,
+     "FTA": 249,
+     "MIN": 2497,
+     "PF": 87,
+     "TOV": 265
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    },
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2010,
+     "team": "BOS",
+     "GP": 68,
+     "PTS": 721,
+     "PPG": 10.6,
+     "REB": 297,
+     "AST": 760,
+     "STL": 153,
+     "BLK": 11,
+     "FGM": 318,
+     "FGA": 670,
+     "FG3M": 10,
+     "FG3A": 43,
+     "FTM": 75,
+     "FTA": 132,
+     "MIN": 2527,
+     "PF": 120,
+     "TOV": 234
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2018,
+     "team": "OKC",
+     "GP": 73,
+     "PTS": 1675,
+     "PPG": 22.9,
+     "REB": 807,
+     "AST": 784,
+     "STL": 142,
+     "BLK": 33,
+     "FGM": 630,
+     "FGA": 1473,
+     "FG3M": 119,
+     "FG3A": 411,
+     "FTM": 296,
+     "FTA": 451,
+     "MIN": 2629,
+     "PF": 245,
+     "TOV": 325
+    }
+   ],
+   "seasonsMatched": 27,
+   "kind": "list",
+   "score": 3.8773584905660377,
+   "players": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "12 players averaged 9+ assists (60% of games) in the 2010s (27 seasons). The most extreme: Rajon Rondo, 2011-12 — 11.7 apg.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Assist averages crown the true point guards."
+  },
+  {
+   "n": 98,
+   "rule": "apg_10",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2011,
+     "team": "BOS",
+     "GP": 53,
+     "PTS": 630,
+     "PPG": 11.9,
+     "REB": 257,
+     "AST": 620,
+     "STL": 95,
+     "BLK": 3,
+     "FGM": 256,
+     "FGA": 572,
+     "FG3M": 10,
+     "FG3A": 42,
+     "FTM": 108,
+     "FTA": 181,
+     "MIN": 1957,
+     "PF": 99,
+     "TOV": 193
+    },
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2015,
+     "team": "SAC",
+     "GP": 72,
+     "PTS": 859,
+     "PPG": 11.9,
+     "REB": 435,
+     "AST": 839,
+     "STL": 141,
+     "BLK": 10,
+     "FGM": 355,
+     "FGA": 782,
+     "FG3M": 62,
+     "FG3A": 170,
+     "FTM": 87,
+     "FTA": 150,
+     "MIN": 2537,
+     "PF": 175,
+     "TOV": 278
+    },
+    {
+     "id": 959,
+     "name": "Steve Nash",
+     "season": 2010,
+     "team": "PHX",
+     "GP": 75,
+     "PTS": 1106,
+     "PPG": 14.7,
+     "REB": 260,
+     "AST": 855,
+     "STL": 48,
+     "BLK": 4,
+     "FGM": 399,
+     "FGA": 811,
+     "FG3M": 81,
+     "FG3A": 205,
+     "FTM": 227,
+     "FTA": 249,
+     "MIN": 2497,
+     "PF": 87,
+     "TOV": 265
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2016,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 2356,
+     "PPG": 29.1,
+     "REB": 659,
+     "AST": 907,
+     "STL": 121,
+     "BLK": 38,
+     "FGM": 674,
+     "FGA": 1533,
+     "FG3M": 262,
+     "FG3A": 756,
+     "FTM": 746,
+     "FTA": 881,
+     "MIN": 2947,
+     "PF": 215,
+     "TOV": 464
+    },
+    {
+     "id": 200765,
+     "name": "Rajon Rondo",
+     "season": 2010,
+     "team": "BOS",
+     "GP": 68,
+     "PTS": 721,
+     "PPG": 10.6,
+     "REB": 297,
+     "AST": 760,
+     "STL": 153,
+     "BLK": 11,
+     "FGM": 318,
+     "FGA": 670,
+     "FG3M": 10,
+     "FG3A": 43,
+     "FTM": 75,
+     "FTA": 132,
+     "MIN": 2527,
+     "PF": 120,
+     "TOV": 234
+    },
+    {
+     "id": 201566,
+     "name": "Russell Westbrook",
+     "season": 2018,
+     "team": "OKC",
+     "GP": 73,
+     "PTS": 1675,
+     "PPG": 22.9,
+     "REB": 807,
+     "AST": 784,
+     "STL": 142,
+     "BLK": 33,
+     "FGM": 630,
+     "FGA": 1473,
+     "FG3M": 119,
+     "FG3A": 411,
+     "FTM": 296,
+     "FTA": 451,
+     "MIN": 2629,
+     "PF": 245,
+     "TOV": 325
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 3.8773584905660377,
+   "players": [
+    {
+     "id": 200765,
+     "name": "Rajon Rondo"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "8 players averaged 10 assists a game (60% of games) in the 2010s (17 seasons). The most extreme: Rajon Rondo, 2011-12 — 11.7 apg.",
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
+  },
+  {
+   "n": 99,
+   "rule": "po_30",
+   "group": "PO",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2017,
+     "team": "CLE",
+     "GP": 22,
+     "PTS": 748,
+     "PPG": 34,
+     "REB": 200,
+     "AST": 198,
+     "STL": 30,
+     "BLK": 23,
+     "FGM": 275,
+     "FGA": 510,
+     "FG3M": 39,
+     "FG3A": 114,
+     "FTM": 159,
+     "FTA": 213,
+     "MIN": 922,
+     "PF": 52,
+     "TOV": 94
+    },
+    {
+     "id": 2544,
+     "name": "LeBron James",
+     "season": 2016,
+     "team": "CLE",
+     "GP": 18,
+     "PTS": 591,
+     "PPG": 32.8,
+     "REB": 164,
+     "AST": 141,
+     "STL": 35,
+     "BLK": 23,
+     "FGM": 217,
+     "FGA": 384,
+     "FG3M": 44,
+     "FG3A": 107,
+     "FTM": 113,
+     "FTA": 162,
+     "MIN": 744,
+     "PF": 43,
+     "TOV": 72
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2018,
+     "team": "GSW",
+     "GP": 12,
+     "PTS": 387,
+     "PPG": 32.3,
+     "REB": 59,
+     "AST": 54,
+     "STL": 13,
+     "BLK": 12,
+     "FGM": 125,
+     "FGA": 243,
+     "FG3M": 35,
+     "FG3A": 80,
+     "FTM": 102,
+     "FTA": 113,
+     "MIN": 442,
+     "PF": 38,
+     "TOV": 43
+    },
+    {
+     "id": 201935,
+     "name": "James Harden",
+     "season": 2018,
+     "team": "HOU",
+     "GP": 11,
+     "PTS": 348,
+     "PPG": 31.6,
+     "REB": 75,
+     "AST": 73,
+     "STL": 24,
+     "BLK": 10,
+     "FGM": 109,
+     "FGA": 264,
+     "FG3M": 48,
+     "FG3A": 137,
+     "FTM": 82,
+     "FTA": 98,
+     "MIN": 424,
+     "PF": 41,
+     "TOV": 51
+    },
+    {
+     "id": 201142,
+     "name": "Kevin Durant",
+     "season": 2012,
+     "team": "OKC",
+     "GP": 11,
+     "PTS": 339,
+     "PPG": 30.8,
+     "REB": 99,
+     "AST": 69,
+     "STL": 14,
+     "BLK": 12,
+     "FGM": 112,
+     "FGA": 246,
+     "FG3M": 22,
+     "FG3A": 70,
+     "FTM": 93,
+     "FTA": 112,
+     "MIN": 485,
+     "PF": 26,
+     "TOV": 43
+    },
+    {
+     "id": 202695,
+     "name": "Kawhi Leonard",
+     "season": 2018,
+     "team": "TOR",
+     "GP": 24,
+     "PTS": 732,
+     "PPG": 30.5,
+     "REB": 218,
+     "AST": 94,
+     "STL": 40,
+     "BLK": 17,
+     "FGM": 243,
+     "FGA": 496,
+     "FG3M": 55,
+     "FG3A": 145,
+     "FTM": 191,
+     "FTA": 216,
+     "MIN": 939,
+     "PF": 56,
+     "TOV": 74
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.85,
+   "players": [
+    {
+     "id": 2544,
+     "name": "LeBron James"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "text": "6 players averaged 30 points in a single postseason (8+ playoff games) in the 2010s (10 seasons). The most extreme: LeBron James, 2017-18 — 34.0 ppg in 22 games.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. An average fans can hold up against any star's."
+  },
+  {
+   "n": 100,
+   "rule": "threes_bad",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2019,
+     "team": "DAL",
+     "GP": 61,
+     "PTS": 1759,
+     "PPG": 28.8,
+     "REB": 573,
+     "AST": 538,
+     "STL": 62,
+     "BLK": 14,
+     "FGM": 581,
+     "FGA": 1255,
+     "FG3M": 171,
+     "FG3A": 541,
+     "FTM": 426,
+     "FTA": 562,
+     "MIN": 2047,
+     "PF": 153,
+     "TOV": 260
+    },
+    {
+     "id": 203109,
+     "name": "Jae Crowder",
+     "season": 2018,
+     "team": "UTA",
+     "GP": 80,
+     "PTS": 951,
+     "PPG": 11.9,
+     "REB": 384,
+     "AST": 133,
+     "STL": 64,
+     "BLK": 31,
+     "FGM": 318,
+     "FGA": 797,
+     "FG3M": 173,
+     "FG3A": 522,
+     "FTM": 142,
+     "FTA": 197,
+     "MIN": 2166,
+     "PF": 170,
+     "TOV": 85
+    },
+    {
+     "id": 1629029,
+     "name": "Luka Dončić",
+     "season": 2018,
+     "team": "DAL",
+     "GP": 72,
+     "PTS": 1526,
+     "PPG": 21.2,
+     "REB": 563,
+     "AST": 429,
+     "STL": 77,
+     "BLK": 25,
+     "FGM": 506,
+     "FGA": 1186,
+     "FG3M": 168,
+     "FG3A": 514,
+     "FTM": 346,
+     "FTA": 485,
+     "MIN": 2318,
+     "PF": 137,
+     "TOV": 247
+    },
+    {
+     "id": 1629027,
+     "name": "Trae Young",
+     "season": 2018,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 1549,
+     "PPG": 19.1,
+     "REB": 301,
+     "AST": 653,
+     "STL": 72,
+     "BLK": 15,
+     "FGM": 525,
+     "FGA": 1256,
+     "FG3M": 156,
+     "FG3A": 482,
+     "FTM": 343,
+     "FTA": 414,
+     "MIN": 2503,
+     "PF": 140,
+     "TOV": 308
+    },
+    {
+     "id": 203496,
+     "name": "Robert Covington",
+     "season": 2019,
+     "team": "HOU",
+     "GP": 70,
+     "PTS": 870,
+     "PPG": 12.4,
+     "REB": 463,
+     "AST": 88,
+     "STL": 115,
+     "BLK": 93,
+     "FGM": 305,
+     "FGA": 723,
+     "FG3M": 161,
+     "FG3A": 480,
+     "FTM": 99,
+     "FTA": 124,
+     "MIN": 2137,
+     "PF": 220,
+     "TOV": 103
+    },
+    {
+     "id": 203501,
+     "name": "Tim Hardaway Jr.",
+     "season": 2018,
+     "team": "DAL",
+     "GP": 65,
+     "PTS": 1174,
+     "PPG": 18.1,
+     "REB": 222,
+     "AST": 159,
+     "STL": 54,
+     "BLK": 8,
+     "FGM": 390,
+     "FGA": 993,
+     "FG3M": 162,
+     "FG3A": 477,
+     "FTM": 232,
+     "FTA": 276,
+     "MIN": 2057,
+     "PF": 141,
+     "TOV": 105
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 3.362703327171904,
+   "players": [
+    {
+     "id": 1629029,
+     "name": "Luka Dončić"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "6 players made 150+ threes while shooting under .340 from deep in the 2010s (7 seasons). The most extreme: Luka Dončić, 2019-20 — 171 3PM, .316.",
+   "why": "Leads with the most extreme case, which carries the post. Three-point volume is the modern game's signature."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 4934,
+  "playoffPlayerSeasons": 2088
+ },
+ "method": [
+  "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "Qualification is 60% of the most games anyone played that season. Attempt floors are stated in the line.",
+  "Categories not yet recorded (rebounds before 1950-51, minutes before 1951-52, steals and blocks before 1973-74, turnovers before 1977-78, threes before 1979-80) are treated as missing, never as zero.",
+  "Team-mate lines are omitted: the feed credits a traded player's whole season to one club."
+ ]
+}

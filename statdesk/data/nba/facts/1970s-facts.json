@@ -1,0 +1,9018 @@
+{
+ "sport": "NBA",
+ "decade": "1970s",
+ "era": 3,
+ "bars": {
+  "ppg": 25,
+  "ppgHi": 30,
+  "fgLow": 0.43,
+  "fgHi": 0.55,
+  "rpg": 13,
+  "apg": 8,
+  "pts": 2000
+ },
+ "seasons": [
+  "1970-71",
+  "1971-72",
+  "1972-73",
+  "1973-74",
+  "1974-75",
+  "1975-76",
+  "1976-77",
+  "1977-78",
+  "1978-79",
+  "1979-80"
+ ],
+ "candidates": 105,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "fg_600",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.50939985538684,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "text": "The only player of the 1970s to shoot .600 from the field on 800+ attempts: Kareem Abdul-Jabbar, 1979-80 — .604 on 1,383 FGA.",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 2,
+   "rule": "twenty_ten_ast",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.1340625,
+   "players": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    }
+   ],
+   "seasons": [
+    1972
+   ],
+   "text": "The only player of the 1970s to average 20 points and 10 assists (60% of games): Nate Archibald, 1972-73 — 34.0 ppg, 11.4 apg.",
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Assist averages crown the true point guards."
+  },
+  {
+   "n": 3,
+   "rule": "twentyfive_ten_ast",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.1340625,
+   "players": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    }
+   ],
+   "seasons": [
+    1972
+   ],
+   "text": "The only player of the 1970s to average 25 points and 10 assists (60% of games): Nate Archibald, 1972-73 — 34.0 ppg, 11.4 apg.",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 4,
+   "rule": "reb_1500",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1972,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1084,
+     "PPG": 13.2,
+     "REB": 1526,
+     "AST": 365,
+     "STL": null,
+     "BLK": null,
+     "FGM": 426,
+     "FGA": 586,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 455,
+     "MIN": 3542,
+     "PF": 191,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 10.9825,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1971,
+    1972
+   ],
+   "text": "The only player of the 1970s to grab 1,500 rebounds in a season was Wilt Chamberlain — and he did it twice (1971-72: 1,572 reb; 1972-73: 1,526 reb).",
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 5,
+   "rule": "po_30",
+   "group": "PO",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 11,
+     "PTS": 381,
+     "PPG": 34.6,
+     "REB": 195,
+     "AST": 45,
+     "STL": 19,
+     "BLK": 38,
+     "FGM": 147,
+     "FGA": 242,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 87,
+     "FTA": 120,
+     "MIN": 467,
+     "PF": 42,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 16,
+     "PTS": 515,
+     "PPG": 32.2,
+     "REB": 253,
+     "AST": 78,
+     "STL": 20,
+     "BLK": 39,
+     "FGM": 224,
+     "FGA": 402,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 67,
+     "FTA": 91,
+     "MIN": 758,
+     "PF": 41,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 15,
+     "PTS": 479,
+     "PPG": 31.9,
+     "REB": 181,
+     "AST": 46,
+     "STL": 17,
+     "BLK": 58,
+     "FGM": 198,
+     "FGA": 346,
+     "FG3M": 0,
+     "FG3A": 0,
+     "FTM": 83,
+     "FTA": 105,
+     "MIN": 618,
+     "PF": 51,
+     "TOV": 55
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "only",
+   "score": 10.86590909090909,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1976,
+    1973,
+    1979
+   ],
+   "text": "The only player of the 1970s to average 30 points in a single postseason (8+ playoff games) was Kareem Abdul-Jabbar — and he did it 3 times (1976-77: 34.6 ppg in 11 games; 1973-74: 32.2 ppg in 16 games; 1979-80: 31.9 ppg in 15 games).",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. An average fans can hold up against any star's."
+  },
+  {
+   "n": 6,
+   "rule": "reb_ast_big",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.547560975609755,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1975
+   ],
+   "text": "The only player of the 1970s to average 15 rebounds and 5 assists (60% of games): Kareem Abdul-Jabbar, 1975-76 — 16.9 rpg, 5.0 apg.",
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 7,
+   "rule": "ft_900",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1977,
+     "team": "GOS",
+     "GP": 82,
+     "PTS": 1898,
+     "PPG": 23.1,
+     "REB": 449,
+     "AST": 446,
+     "STL": 158,
+     "BLK": 45,
+     "FGM": 760,
+     "FGA": 1686,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 378,
+     "FTA": 409,
+     "MIN": 3024,
+     "PF": 188,
+     "TOV": 224
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 77669,
+     "name": "Calvin Murphy",
+     "season": 1975,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 1722,
+     "PPG": 21,
+     "REB": 209,
+     "AST": 596,
+     "STL": 151,
+     "BLK": 6,
+     "FGM": 675,
+     "FGA": 1369,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 372,
+     "FTA": 410,
+     "MIN": 2995,
+     "PF": 294,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 10.515013447432763,
+   "players": [
+    {
+     "id": 600013,
+     "name": "Rick Barry"
+    },
+    {
+     "id": 77669,
+     "name": "Calvin Murphy"
+    }
+   ],
+   "seasons": [
+    1977,
+    1974,
+    1975
+   ],
+   "text": "Only two players of the 1970s shot .900 from the line on 400+ attempts: Rick Barry (2×, best 1977-78: .924 on 409 FTA); Calvin Murphy (1975-76: .907 on 410 FTA).",
+   "why": "Two names invite the \"whose season was better?\" argument. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 8,
+   "rule": "volume_bricks",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1970,
+     "team": "SDR",
+     "GP": 82,
+     "PTS": 2350,
+     "PPG": 28.7,
+     "REB": 1362,
+     "AST": 186,
+     "STL": null,
+     "BLK": null,
+     "FGM": 948,
+     "FGA": 2215,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 454,
+     "FTA": 676,
+     "MIN": 3633,
+     "PF": 225,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.353514012002423,
+   "players": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "The only player of the 1970s to average 25+ points while shooting under .430 from the field (60% of games): Elvin Hayes, 1970-71 — 28.7 ppg, .428 FG.",
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 9,
+   "rule": "thirty_inefficient",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77459,
+     "name": "Pete Maravich",
+     "season": 1976,
+     "team": "NOJ",
+     "GP": 73,
+     "PTS": 2273,
+     "PPG": 31.1,
+     "REB": 374,
+     "AST": 392,
+     "STL": 84,
+     "BLK": 22,
+     "FGM": 886,
+     "FGA": 2047,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 501,
+     "FTA": 600,
+     "MIN": 3041,
+     "PF": 191,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.237388995589939,
+   "players": [
+    {
+     "id": 77459,
+     "name": "Pete Maravich"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "The only player of the 1970s to average 30 points on under .460 shooting (60% of games): Pete Maravich, 1976-77 — 31.1 ppg, .433 FG.",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 10,
+   "rule": "thirty_ten",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "season": 1974,
+     "team": "BUF",
+     "GP": 82,
+     "PTS": 2831,
+     "PPG": 34.5,
+     "REB": 1155,
+     "AST": 179,
+     "STL": 92,
+     "BLK": 174,
+     "FGM": 1095,
+     "FGA": 2138,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 641,
+     "FTA": 796,
+     "MIN": 3539,
+     "PF": 278,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1972,
+     "team": "MIL",
+     "GP": 76,
+     "PTS": 2292,
+     "PPG": 30.2,
+     "REB": 1224,
+     "AST": 379,
+     "STL": null,
+     "BLK": null,
+     "FGM": 982,
+     "FGA": 1772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 460,
+     "MIN": 3254,
+     "PF": 208,
+     "TOV": null
+    },
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "season": 1973,
+     "team": "BUF",
+     "GP": 74,
+     "PTS": 2261,
+     "PPG": 30.6,
+     "REB": 1117,
+     "AST": 170,
+     "STL": 88,
+     "BLK": 246,
+     "FGM": 901,
+     "FGA": 1647,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 459,
+     "FTA": 579,
+     "MIN": 3185,
+     "PF": 252,
+     "TOV": null
+    },
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "season": 1975,
+     "team": "BUF",
+     "GP": 78,
+     "PTS": 2427,
+     "PPG": 31.1,
+     "REB": 965,
+     "AST": 315,
+     "STL": 93,
+     "BLK": 160,
+     "FGM": 934,
+     "FGA": 1918,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 559,
+     "FTA": 734,
+     "MIN": 3328,
+     "PF": 298,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "pair",
+   "score": 9.28641975308642,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    },
+    {
+     "id": 77498,
+     "name": "Bob McAdoo"
+    }
+   ],
+   "seasons": [
+    1971,
+    1974,
+    1970,
+    1972,
+    1973,
+    1975
+   ],
+   "text": "Only two players of the 1970s averaged 30 points and 10 rebounds (60% of games): Kareem Abdul-Jabbar (3×, best 1971-72: 34.8 ppg, 16.6 rpg); Bob McAdoo (3×, best 1974-75: 34.5 ppg, 14.1 rpg).",
+   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 11,
+   "rule": "mpg_45",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    },
+    {
+     "id": 76970,
+     "name": "John Havlicek",
+     "season": 1970,
+     "team": "BOS",
+     "GP": 81,
+     "PTS": 2338,
+     "PPG": 28.9,
+     "REB": 730,
+     "AST": 607,
+     "STL": null,
+     "BLK": null,
+     "FGM": 892,
+     "FGA": 1982,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 554,
+     "FTA": 677,
+     "MIN": 3678,
+     "PF": 200,
+     "TOV": null
+    },
+    {
+     "id": 76970,
+     "name": "John Havlicek",
+     "season": 1971,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 2252,
+     "PPG": 27.5,
+     "REB": 672,
+     "AST": 614,
+     "STL": null,
+     "BLK": null,
+     "FGM": 897,
+     "FGA": 1957,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 458,
+     "FTA": 549,
+     "MIN": 3698,
+     "PF": 183,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 9.1503125,
+   "players": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    },
+    {
+     "id": 76970,
+     "name": "John Havlicek"
+    }
+   ],
+   "seasons": [
+    1972,
+    1970,
+    1971
+   ],
+   "text": "Only two players of the 1970s averaged 45 minutes a game (60% of games): Nate Archibald (1972-73: 46.0 mpg); John Havlicek (2×, best 1970-71: 45.4 mpg).",
+   "why": "Two names invite the \"whose season was better?\" argument. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "s_25ppg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1972,
+     "team": "MIL",
+     "GP": 76,
+     "PTS": 2292,
+     "PPG": 30.2,
+     "REB": 1224,
+     "AST": 379,
+     "STL": null,
+     "BLK": null,
+     "FGM": 982,
+     "FGA": 1772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 460,
+     "MIN": 3254,
+     "PF": 208,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1974,
+     "team": "MIL",
+     "GP": 65,
+     "PTS": 1949,
+     "PPG": 30,
+     "REB": 912,
+     "AST": 264,
+     "STL": 65,
+     "BLK": 212,
+     "FGM": 812,
+     "FGA": 1584,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 325,
+     "FTA": 426,
+     "MIN": 2747,
+     "PF": 205,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2152,
+     "PPG": 26.2,
+     "REB": 1090,
+     "AST": 319,
+     "STL": 101,
+     "BLK": 261,
+     "FGM": 888,
+     "FGA": 1533,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 536,
+     "MIN": 3016,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1977,
+     "team": "LAL",
+     "GP": 62,
+     "PTS": 1600,
+     "PPG": 25.8,
+     "REB": 801,
+     "AST": 269,
+     "STL": 103,
+     "BLK": 185,
+     "FGM": 663,
+     "FGA": 1205,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 274,
+     "FTA": 350,
+     "MIN": 2265,
+     "PF": 182,
+     "TOV": 208
+    }
+   ],
+   "text": "Kareem Abdul-Jabbar averaged 25+ points in 8 straight seasons (1970-71 to 1977-78), the longest run of the 1970s.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "s_10rpg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1972,
+     "team": "MIL",
+     "GP": 76,
+     "PTS": 2292,
+     "PPG": 30.2,
+     "REB": 1224,
+     "AST": 379,
+     "STL": null,
+     "BLK": null,
+     "FGM": 982,
+     "FGA": 1772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 460,
+     "MIN": 3254,
+     "PF": 208,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1974,
+     "team": "MIL",
+     "GP": 65,
+     "PTS": 1949,
+     "PPG": 30,
+     "REB": 912,
+     "AST": 264,
+     "STL": 65,
+     "BLK": 212,
+     "FGM": 812,
+     "FGA": 1584,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 325,
+     "FTA": 426,
+     "MIN": 2747,
+     "PF": 205,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2152,
+     "PPG": 26.2,
+     "REB": 1090,
+     "AST": 319,
+     "STL": 101,
+     "BLK": 261,
+     "FGM": 888,
+     "FGA": 1533,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 536,
+     "MIN": 3016,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1977,
+     "team": "LAL",
+     "GP": 62,
+     "PTS": 1600,
+     "PPG": 25.8,
+     "REB": 801,
+     "AST": 269,
+     "STL": 103,
+     "BLK": 185,
+     "FGM": 663,
+     "FGA": 1205,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 274,
+     "FTA": 350,
+     "MIN": 2265,
+     "PF": 182,
+     "TOV": 208
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    }
+   ],
+   "text": "Kareem Abdul-Jabbar averaged a double-digit rebounding figure in 10 straight seasons (1970-71 to 1979-80), the longest run of the 1970s.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "s_20ppg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1972,
+     "team": "MIL",
+     "GP": 76,
+     "PTS": 2292,
+     "PPG": 30.2,
+     "REB": 1224,
+     "AST": 379,
+     "STL": null,
+     "BLK": null,
+     "FGM": 982,
+     "FGA": 1772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 460,
+     "MIN": 3254,
+     "PF": 208,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1974,
+     "team": "MIL",
+     "GP": 65,
+     "PTS": 1949,
+     "PPG": 30,
+     "REB": 912,
+     "AST": 264,
+     "STL": 65,
+     "BLK": 212,
+     "FGM": 812,
+     "FGA": 1584,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 325,
+     "FTA": 426,
+     "MIN": 2747,
+     "PF": 205,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2152,
+     "PPG": 26.2,
+     "REB": 1090,
+     "AST": 319,
+     "STL": 101,
+     "BLK": 261,
+     "FGM": 888,
+     "FGA": 1533,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 536,
+     "MIN": 3016,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1977,
+     "team": "LAL",
+     "GP": 62,
+     "PTS": 1600,
+     "PPG": 25.8,
+     "REB": 801,
+     "AST": 269,
+     "STL": 103,
+     "BLK": 185,
+     "FGM": 663,
+     "FGA": 1205,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 274,
+     "FTA": 350,
+     "MIN": 2265,
+     "PF": 182,
+     "TOV": 208
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    }
+   ],
+   "text": "Kareem Abdul-Jabbar averaged 20+ points in 10 straight seasons (1970-71 to 1979-80), the longest run of the 1970s.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "s_fg500",
+   "group": "P",
+   "decade": "1970s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1972,
+     "team": "MIL",
+     "GP": 76,
+     "PTS": 2292,
+     "PPG": 30.2,
+     "REB": 1224,
+     "AST": 379,
+     "STL": null,
+     "BLK": null,
+     "FGM": 982,
+     "FGA": 1772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 460,
+     "MIN": 3254,
+     "PF": 208,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1974,
+     "team": "MIL",
+     "GP": 65,
+     "PTS": 1949,
+     "PPG": 30,
+     "REB": 912,
+     "AST": 264,
+     "STL": 65,
+     "BLK": 212,
+     "FGM": 812,
+     "FGA": 1584,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 325,
+     "FTA": 426,
+     "MIN": 2747,
+     "PF": 205,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2152,
+     "PPG": 26.2,
+     "REB": 1090,
+     "AST": 319,
+     "STL": 101,
+     "BLK": 261,
+     "FGM": 888,
+     "FGA": 1533,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 536,
+     "MIN": 3016,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1977,
+     "team": "LAL",
+     "GP": 62,
+     "PTS": 1600,
+     "PPG": 25.8,
+     "REB": 801,
+     "AST": 269,
+     "STL": 103,
+     "BLK": 185,
+     "FGM": 663,
+     "FGA": 1205,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 274,
+     "FTA": 350,
+     "MIN": 2265,
+     "PF": 182,
+     "TOV": 208
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    }
+   ],
+   "text": "Kareem Abdul-Jabbar shot .500 from the field (800+ FGA) in 10 straight seasons (1970-71 to 1979-80), the longest run of the 1970s.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 16,
+   "kind": "streak",
+   "rule": "s_2bpg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 9,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1974,
+     "team": "MIL",
+     "GP": 65,
+     "PTS": 1949,
+     "PPG": 30,
+     "REB": 912,
+     "AST": 264,
+     "STL": 65,
+     "BLK": 212,
+     "FGM": 812,
+     "FGA": 1584,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 325,
+     "FTA": 426,
+     "MIN": 2747,
+     "PF": 205,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2152,
+     "PPG": 26.2,
+     "REB": 1090,
+     "AST": 319,
+     "STL": 101,
+     "BLK": 261,
+     "FGM": 888,
+     "FGA": 1533,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 536,
+     "MIN": 3016,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1977,
+     "team": "LAL",
+     "GP": 62,
+     "PTS": 1600,
+     "PPG": 25.8,
+     "REB": 801,
+     "AST": 269,
+     "STL": 103,
+     "BLK": 185,
+     "FGM": 663,
+     "FGA": 1205,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 274,
+     "FTA": 350,
+     "MIN": 2265,
+     "PF": 182,
+     "TOV": 208
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    }
+   ],
+   "text": "Kareem Abdul-Jabbar averaged 2.5+ blocks in 7 straight seasons (1973-74 to 1979-80), the longest run of the 1970s.",
+   "why": "Leads with the most extreme case, which carries the post. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 17,
+   "rule": "blk_over_ast",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "season": 1973,
+     "team": "BUF",
+     "GP": 74,
+     "PTS": 2261,
+     "PPG": 30.6,
+     "REB": 1117,
+     "AST": 170,
+     "STL": 88,
+     "BLK": 246,
+     "FGM": 901,
+     "FGA": 1647,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 459,
+     "FTA": 579,
+     "MIN": 3185,
+     "PF": 252,
+     "TOV": null
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1976,
+     "team": "WAS",
+     "GP": 82,
+     "PTS": 1942,
+     "PPG": 23.7,
+     "REB": 1029,
+     "AST": 158,
+     "STL": 87,
+     "BLK": 220,
+     "FGM": 760,
+     "FGA": 1516,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 422,
+     "FTA": 614,
+     "MIN": 3364,
+     "PF": 312,
+     "TOV": null
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1973,
+     "team": "CAP",
+     "GP": 81,
+     "PTS": 1735,
+     "PPG": 21.4,
+     "REB": 1463,
+     "AST": 163,
+     "STL": 86,
+     "BLK": 240,
+     "FGM": 689,
+     "FGA": 1627,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 357,
+     "FTA": 495,
+     "MIN": 3602,
+     "PF": 252,
+     "TOV": null
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1979,
+     "team": "WAS",
+     "GP": 81,
+     "PTS": 1859,
+     "PPG": 23,
+     "REB": 896,
+     "AST": 129,
+     "STL": 62,
+     "BLK": 189,
+     "FGM": 761,
+     "FGA": 1677,
+     "FG3M": 3,
+     "FG3A": 13,
+     "FTM": 334,
+     "FTA": 478,
+     "MIN": 3183,
+     "PF": 309,
+     "TOV": 215
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1978,
+     "team": "WAS",
+     "GP": 82,
+     "PTS": 1789,
+     "PPG": 21.8,
+     "REB": 994,
+     "AST": 143,
+     "STL": 75,
+     "BLK": 190,
+     "FGM": 720,
+     "FGA": 1477,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 534,
+     "MIN": 3105,
+     "PF": 308,
+     "TOV": 235
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 8.953851351351352,
+   "players": [
+    {
+     "id": 77498,
+     "name": "Bob McAdoo"
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes"
+    }
+   ],
+   "seasons": [
+    1973,
+    1976,
+    1973,
+    1979,
+    1978
+   ],
+   "text": "Only two players of the 1970s blocked more shots than they assisted while averaging 20 points (60% of games): Bob McAdoo (1973-74: 246 blk, 170 ast); Elvin Hayes (4×, best 1976-77: 220 blk, 158 ast).",
+   "why": "Two names invite the \"whose season was better?\" argument. Assist averages crown the true point guards."
+  },
+  {
+   "n": 18,
+   "rule": "short_big",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76166,
+     "name": "Dave Bing",
+     "season": 1971,
+     "team": "DET",
+     "GP": 45,
+     "PTS": 1016,
+     "PPG": 22.6,
+     "REB": 186,
+     "AST": 317,
+     "STL": null,
+     "BLK": null,
+     "FGM": 369,
+     "FGA": 891,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 278,
+     "FTA": 354,
+     "MIN": 1936,
+     "PF": 138,
+     "TOV": null
+    },
+    {
+     "id": 77459,
+     "name": "Pete Maravich",
+     "season": 1978,
+     "team": "NOJ",
+     "GP": 49,
+     "PTS": 1105,
+     "PPG": 22.6,
+     "REB": 121,
+     "AST": 243,
+     "STL": 60,
+     "BLK": 18,
+     "FGM": 436,
+     "FGA": 1035,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 233,
+     "FTA": 277,
+     "MIN": 1824,
+     "PF": 104,
+     "TOV": 200
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.564444444444444,
+   "players": [
+    {
+     "id": 76166,
+     "name": "Dave Bing"
+    },
+    {
+     "id": 77459,
+     "name": "Pete Maravich"
+    }
+   ],
+   "seasons": [
+    1971,
+    1978
+   ],
+   "text": "Only two players of the 1970s scored 1,000 points in fewer than 50 games: Dave Bing (1971-72: 1,016 pts in 45 games); Pete Maravich (1978-79: 1,105 pts in 49 games).",
+   "why": "A two-player club is a ready-made debate."
+  },
+  {
+   "n": 19,
+   "rule": "fg_hi",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76504,
+     "name": "Adrian Dantley",
+     "season": 1979,
+     "team": "UTH",
+     "GP": 68,
+     "PTS": 1903,
+     "PPG": 28,
+     "REB": 516,
+     "AST": 191,
+     "STL": 96,
+     "BLK": 14,
+     "FGM": 730,
+     "FGA": 1267,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 443,
+     "FTA": 526,
+     "MIN": 2674,
+     "PF": 211,
+     "TOV": 233
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1972,
+     "team": "MIL",
+     "GP": 76,
+     "PTS": 2292,
+     "PPG": 30.2,
+     "REB": 1224,
+     "AST": 379,
+     "STL": null,
+     "BLK": null,
+     "FGM": 982,
+     "FGA": 1772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 460,
+     "MIN": 3254,
+     "PF": 208,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2152,
+     "PPG": 26.2,
+     "REB": 1090,
+     "AST": 319,
+     "STL": 101,
+     "BLK": 261,
+     "FGM": 888,
+     "FGA": 1533,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 536,
+     "MIN": 3016,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 600014,
+     "name": "Artis Gilmore",
+     "season": 1978,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1940,
+     "PPG": 23.7,
+     "REB": 1043,
+     "AST": 274,
+     "STL": 50,
+     "BLK": 156,
+     "FGM": 753,
+     "FGA": 1310,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 434,
+     "FTA": 587,
+     "MIN": 3265,
+     "PF": 280,
+     "TOV": 310
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1977,
+     "team": "LAL",
+     "GP": 62,
+     "PTS": 1600,
+     "PPG": 25.8,
+     "REB": 801,
+     "AST": 269,
+     "STL": 103,
+     "BLK": 185,
+     "FGM": 663,
+     "FGA": 1205,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 274,
+     "FTA": 350,
+     "MIN": 2265,
+     "PF": 182,
+     "TOV": 208
+    },
+    {
+     "id": 1453,
+     "name": "Walter Davis",
+     "season": 1978,
+     "team": "PHX",
+     "GP": 79,
+     "PTS": 1868,
+     "PPG": 23.6,
+     "REB": 373,
+     "AST": 339,
+     "STL": 147,
+     "BLK": 26,
+     "FGM": 764,
+     "FGA": 1362,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 340,
+     "FTA": 409,
+     "MIN": 2437,
+     "PF": 250,
+     "TOV": 293
+    },
+    {
+     "id": 600014,
+     "name": "Artis Gilmore",
+     "season": 1977,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1879,
+     "PPG": 22.9,
+     "REB": 1071,
+     "AST": 263,
+     "STL": 42,
+     "BLK": 181,
+     "FGM": 704,
+     "FGA": 1260,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 471,
+     "FTA": 669,
+     "MIN": 3067,
+     "PF": 261,
+     "TOV": 366
+    },
+    {
+     "id": 1453,
+     "name": "Walter Davis",
+     "season": 1979,
+     "team": "PHX",
+     "GP": 75,
+     "PTS": 1613,
+     "PPG": 21.5,
+     "REB": 272,
+     "AST": 337,
+     "STL": 114,
+     "BLK": 19,
+     "FGM": 657,
+     "FGA": 1166,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 299,
+     "FTA": 365,
+     "MIN": 2309,
+     "PF": 202,
+     "TOV": 242
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "few",
+   "score": 8.30610404857557,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    },
+    {
+     "id": 76504,
+     "name": "Adrian Dantley"
+    },
+    {
+     "id": 600014,
+     "name": "Artis Gilmore"
+    },
+    {
+     "id": 1453,
+     "name": "Walter Davis"
+    }
+   ],
+   "seasons": [
+    1971,
+    1970,
+    1979,
+    1972,
+    1979,
+    1976,
+    1978,
+    1978,
+    1977,
+    1978,
+    1977,
+    1979
+   ],
+   "text": "Just four players of the 1970s shot .550 or better while averaging 20 points (60% of games): Kareem Abdul-Jabbar (7×, best 1971-72: .574 FG, 34.8 ppg); Adrian Dantley (1979-80: .576 FG, 28.0 ppg); Artis Gilmore (2×, best 1978-79: .575 FG, 23.7 ppg); Walter Davis (2×, best 1978-79: .561 FG, 23.6 ppg).",
+   "why": "A short list fans can recite; each name brings its own fan base. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 20,
+   "rule": "ast_over_pts",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76317,
+     "name": "Don Buse",
+     "season": 1976,
+     "team": "IND",
+     "GP": 81,
+     "PTS": 646,
+     "PPG": 8,
+     "REB": 270,
+     "AST": 685,
+     "STL": 281,
+     "BLK": 16,
+     "FGM": 266,
+     "FGA": 639,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 114,
+     "FTA": 145,
+     "MIN": 2947,
+     "PF": 129,
+     "TOV": null
+    },
+    {
+     "id": 76607,
+     "name": "Charles Dudley",
+     "season": 1977,
+     "team": "GOS",
+     "GP": 78,
+     "PTS": 392,
+     "PPG": 5,
+     "REB": 287,
+     "AST": 409,
+     "STL": 68,
+     "BLK": 2,
+     "FGM": 127,
+     "FGA": 249,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 138,
+     "FTA": 195,
+     "MIN": 1660,
+     "PF": 181,
+     "TOV": 163
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.0975,
+   "players": [
+    {
+     "id": 76317,
+     "name": "Don Buse"
+    },
+    {
+     "id": 76607,
+     "name": "Charles Dudley"
+    }
+   ],
+   "seasons": [
+    1976,
+    1977
+   ],
+   "text": "Only two players of the 1970s recorded more assists than points (60% of games, 300+ ast): Don Buse (1976-77: 685 ast, 646 pts); Charles Dudley (1977-78: 409 ast, 392 pts).",
+   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 21,
+   "rule": "twenty_ten_five",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 76487,
+     "name": "Billy Cunningham",
+     "season": 1971,
+     "team": "PHL",
+     "GP": 75,
+     "PTS": 1744,
+     "PPG": 23.3,
+     "REB": 918,
+     "AST": 443,
+     "STL": null,
+     "BLK": null,
+     "FGM": 658,
+     "FGA": 1428,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 428,
+     "FTA": 601,
+     "MIN": 2900,
+     "PF": 295,
+     "TOV": null
+    },
+    {
+     "id": 78520,
+     "name": "Sidney Wicks",
+     "season": 1972,
+     "team": "POR",
+     "GP": 80,
+     "PTS": 1906,
+     "PPG": 23.8,
+     "REB": 870,
+     "AST": 440,
+     "STL": null,
+     "BLK": null,
+     "FGM": 761,
+     "FGA": 1684,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 384,
+     "FTA": 531,
+     "MIN": 3152,
+     "PF": 253,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.241158536585366,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    },
+    {
+     "id": 76487,
+     "name": "Billy Cunningham"
+    },
+    {
+     "id": 78520,
+     "name": "Sidney Wicks"
+    }
+   ],
+   "seasons": [
+    1975,
+    1978,
+    1971,
+    1972
+   ],
+   "text": "Just three players of the 1970s averaged 20 points, 10 rebounds and 5 assists (60% of games): Kareem Abdul-Jabbar (2×, best 1975-76: 27.7/16.9/5.0); Billy Cunningham (1971-72: 23.3/12.2/5.9); Sidney Wicks (1972-73: 23.8/10.9/5.5).",
+   "why": "A short list fans can recite; each name brings its own fan base. Do-everything stat lines get shared across fan bases."
+  },
+  {
+   "n": 22,
+   "rule": "twentyfive_five_five",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76970,
+     "name": "John Havlicek",
+     "season": 1970,
+     "team": "BOS",
+     "GP": 81,
+     "PTS": 2338,
+     "PPG": 28.9,
+     "REB": 730,
+     "AST": 607,
+     "STL": null,
+     "BLK": null,
+     "FGM": 892,
+     "FGA": 1982,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 554,
+     "FTA": 677,
+     "MIN": 3678,
+     "PF": 200,
+     "TOV": null
+    },
+    {
+     "id": 76970,
+     "name": "John Havlicek",
+     "season": 1971,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 2252,
+     "PPG": 27.5,
+     "REB": 672,
+     "AST": 614,
+     "STL": null,
+     "BLK": null,
+     "FGM": 897,
+     "FGA": 1957,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 458,
+     "FTA": 549,
+     "MIN": 3698,
+     "PF": 183,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 77459,
+     "name": "Pete Maravich",
+     "season": 1976,
+     "team": "NOJ",
+     "GP": 73,
+     "PTS": 2273,
+     "PPG": 31.1,
+     "REB": 374,
+     "AST": 392,
+     "STL": 84,
+     "BLK": 22,
+     "FGM": 886,
+     "FGA": 2047,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 501,
+     "FTA": 600,
+     "MIN": 3041,
+     "PF": 191,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1973,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2009,
+     "PPG": 25.1,
+     "REB": 540,
+     "AST": 484,
+     "STL": 169,
+     "BLK": 40,
+     "FGM": 796,
+     "FGA": 1746,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 417,
+     "FTA": 464,
+     "MIN": 2918,
+     "PF": 265,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 7.241158536585366,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    },
+    {
+     "id": 76970,
+     "name": "John Havlicek"
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry"
+    },
+    {
+     "id": 77459,
+     "name": "Pete Maravich"
+    }
+   ],
+   "seasons": [
+    1975,
+    1970,
+    1971,
+    1974,
+    1976,
+    1973
+   ],
+   "text": "Just four players of the 1970s averaged 25 points, 5 rebounds and 5 assists (60% of games): Kareem Abdul-Jabbar (1975-76: 27.7/16.9/5.0); John Havlicek (2×, best 1970-71: 28.9/9.0/7.5); Rick Barry (2×, best 1974-75: 30.6/5.7/6.2); Pete Maravich (1976-77: 31.1/5.1/5.4).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 23,
+   "rule": "ast_800",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1978,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1260,
+     "PPG": 15.4,
+     "REB": 209,
+     "AST": 1099,
+     "STL": 158,
+     "BLK": 5,
+     "FGM": 534,
+     "FGA": 1110,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 192,
+     "FTA": 266,
+     "MIN": 3064,
+     "PF": 302,
+     "TOV": 337
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    },
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1977,
+     "team": "TOT",
+     "GP": 82,
+     "PTS": 1234,
+     "PPG": 15,
+     "REB": 214,
+     "AST": 837,
+     "STL": 123,
+     "BLK": 15,
+     "FGM": 495,
+     "FGA": 1055,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 244,
+     "FTA": 320,
+     "MIN": 2813,
+     "PF": 283,
+     "TOV": 360
+    },
+    {
+     "id": 78406,
+     "name": "Norm Van Lier",
+     "season": 1970,
+     "team": "CIN",
+     "GP": 82,
+     "PTS": 1315,
+     "PPG": 16,
+     "REB": 583,
+     "AST": 832,
+     "STL": null,
+     "BLK": null,
+     "FGM": 478,
+     "FGA": 1138,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 359,
+     "FTA": 440,
+     "MIN": 3324,
+     "PF": 343,
+     "TOV": null
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1979,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1254,
+     "PPG": 15.3,
+     "REB": 539,
+     "AST": 832,
+     "STL": 265,
+     "BLK": 35,
+     "FGM": 502,
+     "FGA": 1063,
+     "FG3M": 27,
+     "FG3A": 110,
+     "FTM": 223,
+     "FTA": 338,
+     "MIN": 3060,
+     "PF": 260,
+     "TOV": 359
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 7.099,
+   "players": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter"
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    },
+    {
+     "id": 78406,
+     "name": "Norm Van Lier"
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson"
+    }
+   ],
+   "seasons": [
+    1978,
+    1972,
+    1977,
+    1970,
+    1979
+   ],
+   "text": "Just four players of the 1970s dished out 800 assists in a season: Kevin Porter (2×, best 1978-79: 1,099 ast); Nate Archibald (1972-73: 910 ast); Norm Van Lier (1970-71: 832 ast); Micheal Ray Richardson (1979-80: 832 ast).",
+   "why": "A short list fans can recite; each name brings its own fan base. Assist averages crown the true point guards."
+  },
+  {
+   "n": 24,
+   "rule": "apg_10",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1978,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1260,
+     "PPG": 15.4,
+     "REB": 209,
+     "AST": 1099,
+     "STL": 158,
+     "BLK": 5,
+     "FGM": 534,
+     "FGA": 1110,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 192,
+     "FTA": 266,
+     "MIN": 3064,
+     "PF": 302,
+     "TOV": 337
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    },
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1977,
+     "team": "TOT",
+     "GP": 82,
+     "PTS": 1234,
+     "PPG": 15,
+     "REB": 214,
+     "AST": 837,
+     "STL": 123,
+     "BLK": 15,
+     "FGM": 495,
+     "FGA": 1055,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 244,
+     "FTA": 320,
+     "MIN": 2813,
+     "PF": 283,
+     "TOV": 360
+    },
+    {
+     "id": 78406,
+     "name": "Norm Van Lier",
+     "season": 1970,
+     "team": "CIN",
+     "GP": 82,
+     "PTS": 1315,
+     "PPG": 16,
+     "REB": 583,
+     "AST": 832,
+     "STL": null,
+     "BLK": null,
+     "FGM": 478,
+     "FGA": 1138,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 359,
+     "FTA": 440,
+     "MIN": 3324,
+     "PF": 343,
+     "TOV": null
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1979,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1254,
+     "PPG": 15.3,
+     "REB": 539,
+     "AST": 832,
+     "STL": 265,
+     "BLK": 35,
+     "FGM": 502,
+     "FGA": 1063,
+     "FG3M": 27,
+     "FG3A": 110,
+     "FTM": 223,
+     "FTA": 338,
+     "MIN": 3060,
+     "PF": 260,
+     "TOV": 359
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 7.005182926829268,
+   "players": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter"
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    },
+    {
+     "id": 78406,
+     "name": "Norm Van Lier"
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson"
+    }
+   ],
+   "seasons": [
+    1978,
+    1972,
+    1977,
+    1970,
+    1979
+   ],
+   "text": "Just four players of the 1970s averaged 10 assists a game (60% of games): Kevin Porter (2×, best 1978-79: 13.4 apg); Nate Archibald (1972-73: 11.4 apg); Norm Van Lier (1970-71: 10.1 apg); Micheal Ray Richardson (1979-80: 10.1 apg).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Assist averages crown the true point guards."
+  },
+  {
+   "n": 25,
+   "rule": "blk_250",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78188,
+     "name": "Elmore Smith",
+     "season": 1973,
+     "team": "LAL",
+     "GP": 81,
+     "PTS": 1015,
+     "PPG": 12.5,
+     "REB": 906,
+     "AST": 150,
+     "STL": 71,
+     "BLK": 393,
+     "FGM": 434,
+     "FGA": 949,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 147,
+     "FTA": 249,
+     "MIN": 2922,
+     "PF": 309,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    },
+    {
+     "id": 77149,
+     "name": "George Johnson",
+     "season": 1977,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 703,
+     "PPG": 8.7,
+     "REB": 779,
+     "AST": 111,
+     "STL": 78,
+     "BLK": 274,
+     "FGM": 285,
+     "FGA": 721,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 133,
+     "FTA": 185,
+     "MIN": 2411,
+     "PF": 339,
+     "TOV": 221
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2152,
+     "PPG": 26.2,
+     "REB": 1090,
+     "AST": 319,
+     "STL": 101,
+     "BLK": 261,
+     "FGM": 888,
+     "FGA": 1533,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 376,
+     "FTA": 536,
+     "MIN": 3016,
+     "PF": 262,
+     "TOV": null
+    },
+    {
+     "id": 77149,
+     "name": "George Johnson",
+     "season": 1979,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 585,
+     "PPG": 7.2,
+     "REB": 602,
+     "AST": 173,
+     "STL": 53,
+     "BLK": 258,
+     "FGM": 248,
+     "FGA": 543,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 89,
+     "FTA": 126,
+     "MIN": 2119,
+     "PF": 312,
+     "TOV": 199
+    },
+    {
+     "id": 78014,
+     "name": "Tree Rollins",
+     "season": 1978,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 683,
+     "PPG": 8.4,
+     "REB": 588,
+     "AST": 49,
+     "STL": 46,
+     "BLK": 254,
+     "FGM": 297,
+     "FGA": 555,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 89,
+     "FTA": 141,
+     "MIN": 1900,
+     "PF": 328,
+     "TOV": 87
+    },
+    {
+     "id": 77149,
+     "name": "George Johnson",
+     "season": 1978,
+     "team": "NJN",
+     "GP": 78,
+     "PTS": 517,
+     "PPG": 6.6,
+     "REB": 616,
+     "AST": 88,
+     "STL": 68,
+     "BLK": 253,
+     "FGM": 206,
+     "FGA": 483,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 105,
+     "FTA": 138,
+     "MIN": 2058,
+     "PF": 315,
+     "TOV": 178
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "few",
+   "score": 6.9825,
+   "players": [
+    {
+     "id": 78188,
+     "name": "Elmore Smith"
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    },
+    {
+     "id": 77149,
+     "name": "George Johnson"
+    },
+    {
+     "id": 78014,
+     "name": "Tree Rollins"
+    }
+   ],
+   "seasons": [
+    1973,
+    1975,
+    1978,
+    1973,
+    1979,
+    1977,
+    1976,
+    1979,
+    1978,
+    1978
+   ],
+   "text": "Just four players of the 1970s blocked 250 shots in a season: Elmore Smith (1973-74: 393 blk); Kareem Abdul-Jabbar (5×, best 1975-76: 338 blk); George Johnson (3×, best 1977-78: 274 blk); Tree Rollins (1978-79: 254 blk).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 26,
+   "rule": "fta_800",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76753,
+     "name": "World Free",
+     "season": 1978,
+     "team": "SDC",
+     "GP": 78,
+     "PTS": 2244,
+     "PPG": 28.8,
+     "REB": 301,
+     "AST": 340,
+     "STL": 111,
+     "BLK": 35,
+     "FGM": 795,
+     "FGA": 1653,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 654,
+     "FTA": 865,
+     "MIN": 2954,
+     "PF": 253,
+     "TOV": 297
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1971,
+     "team": "CIN",
+     "GP": 76,
+     "PTS": 2145,
+     "PPG": 28.2,
+     "REB": 222,
+     "AST": 701,
+     "STL": null,
+     "BLK": null,
+     "FGM": 734,
+     "FGA": 1511,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 677,
+     "FTA": 824,
+     "MIN": 3272,
+     "PF": 198,
+     "TOV": null
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1978,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2031,
+     "PPG": 24.8,
+     "REB": 1444,
+     "AST": 147,
+     "STL": 79,
+     "BLK": 119,
+     "FGM": 716,
+     "FGA": 1325,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 599,
+     "FTA": 811,
+     "MIN": 3390,
+     "PF": 223,
+     "TOV": 326
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.720833333333333,
+   "players": [
+    {
+     "id": 76753,
+     "name": "World Free"
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    }
+   ],
+   "seasons": [
+    1978,
+    1971,
+    1978
+   ],
+   "text": "Just three players of the 1970s attempted 800 free throws in a season: World Free (1978-79: 865 FTA (.756)); Nate Archibald (1971-72: 824 FTA (.822)); Moses Malone (1978-79: 811 FTA (.739)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 27,
+   "rule": "reb_stl",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77532,
+     "name": "George McGinnis",
+     "season": 1975,
+     "team": "PHL",
+     "GP": 77,
+     "PTS": 1769,
+     "PPG": 23,
+     "REB": 967,
+     "AST": 359,
+     "STL": 198,
+     "BLK": 41,
+     "FGM": 647,
+     "FGA": 1552,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 475,
+     "FTA": 642,
+     "MIN": 2946,
+     "PF": 334,
+     "TOV": null
+    },
+    {
+     "id": 77618,
+     "name": "Steve Mix",
+     "season": 1973,
+     "team": "PHL",
+     "GP": 82,
+     "PTS": 1218,
+     "PPG": 14.9,
+     "REB": 864,
+     "AST": 152,
+     "STL": 212,
+     "BLK": 37,
+     "FGM": 495,
+     "FGA": 1042,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 228,
+     "FTA": 288,
+     "MIN": 2969,
+     "PF": 305,
+     "TOV": null
+    },
+    {
+     "id": 77246,
+     "name": "Larry Kenon",
+     "season": 1976,
+     "team": "SAN",
+     "GP": 78,
+     "PTS": 1705,
+     "PPG": 21.9,
+     "REB": 879,
+     "AST": 229,
+     "STL": 167,
+     "BLK": 60,
+     "FGM": 706,
+     "FGA": 1435,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 293,
+     "FTA": 356,
+     "MIN": 2936,
+     "PF": 190,
+     "TOV": null
+    },
+    {
+     "id": 77532,
+     "name": "George McGinnis",
+     "season": 1976,
+     "team": "PHL",
+     "GP": 79,
+     "PTS": 1690,
+     "PPG": 21.4,
+     "REB": 911,
+     "AST": 302,
+     "STL": 163,
+     "BLK": 37,
+     "FGM": 659,
+     "FGA": 1439,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 372,
+     "FTA": 546,
+     "MIN": 2769,
+     "PF": 299,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.635389610389611,
+   "players": [
+    {
+     "id": 77532,
+     "name": "George McGinnis"
+    },
+    {
+     "id": 77618,
+     "name": "Steve Mix"
+    },
+    {
+     "id": 77246,
+     "name": "Larry Kenon"
+    }
+   ],
+   "seasons": [
+    1975,
+    1973,
+    1976,
+    1976
+   ],
+   "text": "Just three players of the 1970s averaged 10 rebounds and 2 steals (60% of games): George McGinnis (2×, best 1975-76: 12.6 rpg, 2.6 spg); Steve Mix (1973-74: 10.5 rpg, 2.6 spg); Larry Kenon (1976-77: 11.3 rpg, 2.1 spg).",
+   "why": "A short list fans can recite; each name brings its own fan base. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 28,
+   "rule": "po_reb",
+   "group": "PO",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1972,
+     "team": "LAL",
+     "GP": 17,
+     "PTS": 177,
+     "PPG": 10.4,
+     "REB": 383,
+     "AST": 60,
+     "STL": null,
+     "BLK": null,
+     "FGM": 64,
+     "FGA": 116,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 49,
+     "FTA": 98,
+     "MIN": 801,
+     "PF": 48,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 15,
+     "PTS": 220,
+     "PPG": 14.7,
+     "REB": 315,
+     "AST": 49,
+     "STL": null,
+     "BLK": null,
+     "FGM": 80,
+     "FGA": 142,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 60,
+     "FTA": 122,
+     "MIN": 703,
+     "PF": 47,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1970,
+     "team": "LAL",
+     "GP": 12,
+     "PTS": 220,
+     "PPG": 18.3,
+     "REB": 242,
+     "AST": 53,
+     "STL": null,
+     "BLK": null,
+     "FGM": 85,
+     "FGA": 187,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 50,
+     "FTA": 97,
+     "MIN": 554,
+     "PF": 33,
+     "TOV": null
+    },
+    {
+     "id": 78392,
+     "name": "Wes Unseld",
+     "season": 1970,
+     "team": "BLT",
+     "GP": 18,
+     "PTS": 238,
+     "PPG": 13.2,
+     "REB": 339,
+     "AST": 69,
+     "STL": null,
+     "BLK": null,
+     "FGM": 96,
+     "FGA": 208,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 46,
+     "FTA": 81,
+     "MIN": 759,
+     "PF": 60,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 11,
+     "PTS": 316,
+     "PPG": 28.7,
+     "REB": 200,
+     "AST": 56,
+     "STL": null,
+     "BLK": null,
+     "FGM": 139,
+     "FGA": 318,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 38,
+     "FTA": 54,
+     "MIN": 510,
+     "PF": 35,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.563235294117647,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 78392,
+     "name": "Wes Unseld"
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1972,
+    1971,
+    1970,
+    1970,
+    1971
+   ],
+   "text": "Just three players of the 1970s averaged 18 rebounds in a single postseason (8+ playoff games): Wilt Chamberlain (3×, best 1972-73: 22.5 rpg in 17 games); Wes Unseld (1970-71: 18.8 rpg in 18 games); Kareem Abdul-Jabbar (1971-72: 18.2 rpg in 11 games).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 29,
+   "rule": "ft_bad",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1970,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1696,
+     "PPG": 20.7,
+     "REB": 1493,
+     "AST": 352,
+     "STL": null,
+     "BLK": null,
+     "FGM": 668,
+     "FGA": 1226,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 360,
+     "FTA": 669,
+     "MIN": 3630,
+     "PF": 174,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    },
+    {
+     "id": 76144,
+     "name": "Walt Bellamy",
+     "season": 1972,
+     "team": "ATL",
+     "GP": 74,
+     "PTS": 1193,
+     "PPG": 16.1,
+     "REB": 964,
+     "AST": 179,
+     "STL": null,
+     "BLK": null,
+     "FGM": 455,
+     "FGA": 901,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 283,
+     "FTA": 526,
+     "MIN": 2802,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1972,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1084,
+     "PPG": 13.2,
+     "REB": 1526,
+     "AST": 365,
+     "STL": null,
+     "BLK": null,
+     "FGM": 426,
+     "FGA": 586,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 455,
+     "MIN": 3542,
+     "PF": 191,
+     "TOV": null
+    },
+    {
+     "id": 78188,
+     "name": "Elmore Smith",
+     "season": 1971,
+     "team": "BUF",
+     "GP": 78,
+     "PTS": 1352,
+     "PPG": 17.3,
+     "REB": 1184,
+     "AST": 111,
+     "STL": null,
+     "BLK": null,
+     "FGM": 579,
+     "FGA": 1275,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 194,
+     "FTA": 363,
+     "MIN": 3186,
+     "PF": 306,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.327208520179372,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    },
+    {
+     "id": 76144,
+     "name": "Walt Bellamy"
+    },
+    {
+     "id": 78188,
+     "name": "Elmore Smith"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1972,
+    1971
+   ],
+   "text": "Just three players of the 1970s shot under .550 from the line on 300+ attempts: Wilt Chamberlain (3×, best 1970-71: .538 on 669 FTA); Walt Bellamy (1972-73: .538 on 526 FTA); Elmore Smith (1971-72: .534 on 363 FTA).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 30,
+   "rule": "oreb_over_dreb",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76379,
+     "name": "Don Chaney",
+     "season": 1973,
+     "team": "BOS",
+     "GP": 81,
+     "PTS": 845,
+     "PPG": 10.4,
+     "REB": 378,
+     "AST": 176,
+     "STL": 83,
+     "BLK": 62,
+     "FGM": 348,
+     "FGA": 750,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 149,
+     "FTA": 180,
+     "MIN": 2258,
+     "PF": 247,
+     "TOV": null
+    },
+    {
+     "id": 77141,
+     "name": "Dennis Johnson",
+     "season": 1976,
+     "team": "SEA",
+     "GP": 81,
+     "PTS": 749,
+     "PPG": 9.2,
+     "REB": 302,
+     "AST": 123,
+     "STL": 123,
+     "BLK": 57,
+     "FGM": 285,
+     "FGA": 566,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 179,
+     "FTA": 287,
+     "MIN": 1667,
+     "PF": 221,
+     "TOV": null
+    },
+    {
+     "id": 76170,
+     "name": "Otis Birdsong",
+     "season": 1979,
+     "team": "KCK",
+     "GP": 82,
+     "PTS": 1858,
+     "PPG": 22.7,
+     "REB": 331,
+     "AST": 202,
+     "STL": 136,
+     "BLK": 22,
+     "FGM": 781,
+     "FGA": 1546,
+     "FG3M": 10,
+     "FG3A": 36,
+     "FTM": 286,
+     "FTA": 412,
+     "MIN": 2885,
+     "PF": 226,
+     "TOV": 179
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.21,
+   "players": [
+    {
+     "id": 76379,
+     "name": "Don Chaney"
+    },
+    {
+     "id": 77141,
+     "name": "Dennis Johnson"
+    },
+    {
+     "id": 76170,
+     "name": "Otis Birdsong"
+    }
+   ],
+   "seasons": [
+    1973,
+    1976,
+    1979
+   ],
+   "text": "Just three players of the 1970s grabbed more offensive rebounds than defensive (300+ reb): Don Chaney (1973-74: 210 off, 168 def); Dennis Johnson (1976-77: 161 off, 141 def); Otis Birdsong (1979-80: 170 off, 161 def).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 31,
+   "rule": "pts_total",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "season": 1974,
+     "team": "BUF",
+     "GP": 82,
+     "PTS": 2831,
+     "PPG": 34.5,
+     "REB": 1155,
+     "AST": 179,
+     "STL": 92,
+     "BLK": 174,
+     "FGM": 1095,
+     "FGA": 2138,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 641,
+     "FTA": 796,
+     "MIN": 3539,
+     "PF": 278,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76804,
+     "name": "George Gervin",
+     "season": 1979,
+     "team": "SAN",
+     "GP": 78,
+     "PTS": 2585,
+     "PPG": 33.1,
+     "REB": 403,
+     "AST": 202,
+     "STL": 110,
+     "BLK": 79,
+     "FGM": 1024,
+     "FGA": 1940,
+     "FG3M": 32,
+     "FG3A": 102,
+     "FTM": 505,
+     "FTA": 593,
+     "MIN": 2934,
+     "PF": 208,
+     "TOV": 254
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 48,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 77498,
+     "name": "Bob McAdoo"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "text": "24 players scored 2,000 points in a season in the 1970s (48 seasons). The most extreme: Bob McAdoo, 1974-75 — 2,831 pts.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "po_most_pts",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76681,
+     "name": "Julius Erving"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76681,
+     "name": "Julius Erving",
+     "season": 1976,
+     "team": "PHL",
+     "GP": 19,
+     "PTS": 518,
+     "PPG": 27.3,
+     "REB": 122,
+     "AST": 85,
+     "STL": 41,
+     "BLK": 23,
+     "FGM": 204,
+     "FGA": 390,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 110,
+     "FTA": 134,
+     "MIN": 758,
+     "PF": 45,
+     "TOV": null
+    }
+   ],
+   "among": 1099,
+   "text": "Most points in a single postseason in the 1970s: Julius Erving, 1976-77 — 518 in 19 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "po_most_ast",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77142,
+     "name": "Magic Johnson",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 16,
+     "PTS": 293,
+     "PPG": 18.3,
+     "REB": 168,
+     "AST": 151,
+     "STL": 49,
+     "BLK": 6,
+     "FGM": 103,
+     "FGA": 199,
+     "FG3M": 2,
+     "FG3A": 8,
+     "FTM": 85,
+     "FTA": 106,
+     "MIN": 658,
+     "PF": 47,
+     "TOV": 65
+    }
+   ],
+   "among": 1099,
+   "text": "Most assists in a single postseason in the 1970s: Magic Johnson, 1979-80 — 151 in 16 games.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Assist averages crown the true point guards."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "po_most_reb",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1972
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1972,
+     "team": "LAL",
+     "GP": 17,
+     "PTS": 177,
+     "PPG": 10.4,
+     "REB": 383,
+     "AST": 60,
+     "STL": null,
+     "BLK": null,
+     "FGM": 64,
+     "FGA": 116,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 49,
+     "FTA": 98,
+     "MIN": 801,
+     "PF": 48,
+     "TOV": null
+    }
+   ],
+   "among": 1099,
+   "text": "Most rebounds in a single postseason in the 1970s: Wilt Chamberlain, 1972-73 — 383 in 17 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "worst_fg_scorer",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77532,
+     "name": "George McGinnis"
+    }
+   ],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77532,
+     "name": "George McGinnis",
+     "season": 1975,
+     "team": "PHL",
+     "GP": 77,
+     "PTS": 1769,
+     "PPG": 23,
+     "REB": 967,
+     "AST": 359,
+     "STL": 198,
+     "BLK": 41,
+     "FGM": 647,
+     "FGA": 1552,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 475,
+     "FTA": 642,
+     "MIN": 2946,
+     "PF": 334,
+     "TOV": null
+    }
+   ],
+   "among": 219,
+   "text": "Lowest field-goal percentage by a 20-point scorer in the 1970s: George McGinnis, 1975-76 — .417 while averaging 23.0.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "best_ft_volume",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78435,
+     "name": "Chet Walker"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78435,
+     "name": "Chet Walker",
+     "season": 1973,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1583,
+     "PPG": 19.3,
+     "REB": 406,
+     "AST": 200,
+     "STL": 68,
+     "BLK": 4,
+     "FGM": 572,
+     "FGA": 1178,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 439,
+     "FTA": 502,
+     "MIN": 2661,
+     "PF": 201,
+     "TOV": null
+    }
+   ],
+   "among": 113,
+   "text": "Best free-throw percentage on 500+ attempts in the 1970s: Chet Walker, 1973-74 — .875 (439-502).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "ast_low_pts",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76317,
+     "name": "Don Buse"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76317,
+     "name": "Don Buse",
+     "season": 1976,
+     "team": "IND",
+     "GP": 81,
+     "PTS": 646,
+     "PPG": 8,
+     "REB": 270,
+     "AST": 685,
+     "STL": 281,
+     "BLK": 16,
+     "FGM": 266,
+     "FGA": 639,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 114,
+     "FTA": 145,
+     "MIN": 2947,
+     "PF": 129,
+     "TOV": null
+    }
+   ],
+   "among": 940,
+   "text": "Most assists by a sub-10-point scorer in the 1970s: Don Buse, 1976-77 — 685 assists while averaging 8.0.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "most_pf",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77997,
+     "name": "Bill Robinzine"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77997,
+     "name": "Bill Robinzine",
+     "season": 1978,
+     "team": "KCK",
+     "GP": 82,
+     "PTS": 1098,
+     "PPG": 13.4,
+     "REB": 638,
+     "AST": 104,
+     "STL": 105,
+     "BLK": 15,
+     "FGM": 459,
+     "FGA": 837,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 180,
+     "FTA": 246,
+     "MIN": 2179,
+     "PF": 367,
+     "TOV": 179
+    }
+   ],
+   "among": 2490,
+   "text": "Most personal fouls in a season in the 1970s: Bill Robinzine, 1978-79 — 367.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "most_fga",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600013,
+     "name": "Rick Barry"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    }
+   ],
+   "among": 2490,
+   "text": "Most shots attempted in a season in the 1970s: Rick Barry, 1974-75 — 2,217 FGA, .464.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "most_ast",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1978,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1260,
+     "PPG": 15.4,
+     "REB": 209,
+     "AST": 1099,
+     "STL": 158,
+     "BLK": 5,
+     "FGM": 534,
+     "FGA": 1110,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 192,
+     "FTA": 266,
+     "MIN": 3064,
+     "PF": 302,
+     "TOV": 337
+    }
+   ],
+   "among": 2490,
+   "text": "Most assists in a season in the 1970s: Kevin Porter, 1978-79 — 1099 (13.4 a game).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "most_min",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76970,
+     "name": "John Havlicek"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76970,
+     "name": "John Havlicek",
+     "season": 1971,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 2252,
+     "PPG": 27.5,
+     "REB": 672,
+     "AST": 614,
+     "STL": null,
+     "BLK": null,
+     "FGM": 897,
+     "FGA": 1957,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 458,
+     "FTA": 549,
+     "MIN": 3698,
+     "PF": 183,
+     "TOV": null
+    }
+   ],
+   "among": 2490,
+   "text": "Most minutes played in a season in the 1970s: John Havlicek, 1971-72 — 3,698 (45.1 a game).",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "ppg_bench_size",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76804,
+     "name": "George Gervin"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76804,
+     "name": "George Gervin",
+     "season": 1979,
+     "team": "SAN",
+     "GP": 78,
+     "PTS": 2585,
+     "PPG": 33.1,
+     "REB": 403,
+     "AST": 202,
+     "STL": 110,
+     "BLK": 79,
+     "FGM": 1024,
+     "FGA": 1940,
+     "FG3M": 32,
+     "FG3A": 102,
+     "FTM": 505,
+     "FTA": 593,
+     "MIN": 2934,
+     "PF": 208,
+     "TOV": 254
+    }
+   ],
+   "among": 1877,
+   "text": "Most points per minute by a qualified player in the 1970s: George Gervin, 1979-80 — 33.1 ppg in 37.6 minutes.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "reb_low_pts",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77357,
+     "name": "Clyde Lee"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77357,
+     "name": "Clyde Lee",
+     "season": 1971,
+     "team": "GOS",
+     "GP": 78,
+     "PTS": 632,
+     "PPG": 8.1,
+     "REB": 1132,
+     "AST": 85,
+     "STL": null,
+     "BLK": null,
+     "FGM": 256,
+     "FGA": 544,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 120,
+     "FTA": 222,
+     "MIN": 2674,
+     "PF": 244,
+     "TOV": null
+    }
+   ],
+   "among": 940,
+   "text": "Most rebounds by a sub-10-point scorer in the 1970s: Clyde Lee, 1971-72 — 1,132 rebounds while averaging 8.1.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "top_apg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1978,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1260,
+     "PPG": 15.4,
+     "REB": 209,
+     "AST": 1099,
+     "STL": 158,
+     "BLK": 5,
+     "FGM": 534,
+     "FGA": 1110,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 192,
+     "FTA": 266,
+     "MIN": 3064,
+     "PF": 302,
+     "TOV": 337
+    }
+   ],
+   "among": 1877,
+   "text": "Highest assist average of the 1970s: Kevin Porter, 1978-79 — 13.4 a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Assist averages crown the true point guards."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "short_pts",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77459,
+     "name": "Pete Maravich"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77459,
+     "name": "Pete Maravich",
+     "season": 1978,
+     "team": "NOJ",
+     "GP": 49,
+     "PTS": 1105,
+     "PPG": 22.6,
+     "REB": 121,
+     "AST": 243,
+     "STL": 60,
+     "BLK": 18,
+     "FGM": 436,
+     "FGA": 1035,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 233,
+     "FTA": 277,
+     "MIN": 1824,
+     "PF": 104,
+     "TOV": 200
+    }
+   ],
+   "among": 385,
+   "text": "Most points by a player who appeared in fewer than 50 games in the 1970s: Pete Maravich, 1978-79 — 1,105 in 49.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "best_ft_official",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600013,
+     "name": "Rick Barry"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1978,
+     "team": "HOU",
+     "GP": 80,
+     "PTS": 1082,
+     "PPG": 13.5,
+     "REB": 277,
+     "AST": 502,
+     "STL": 95,
+     "BLK": 38,
+     "FGM": 461,
+     "FGA": 1000,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 160,
+     "FTA": 169,
+     "MIN": 2566,
+     "PF": 195,
+     "TOV": 198
+    }
+   ],
+   "among": 1071,
+   "text": "Best free-throw percentage in a season (125+ made) in the 1970s: Rick Barry, 1978-79 — .947.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "most_oreb",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 77449,
+     "name": "Moses Malone"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1978,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2031,
+     "PPG": 24.8,
+     "REB": 1444,
+     "AST": 147,
+     "STL": 79,
+     "BLK": 119,
+     "FGM": 716,
+     "FGA": 1325,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 599,
+     "FTA": 811,
+     "MIN": 3390,
+     "PF": 223,
+     "TOV": 326
+    }
+   ],
+   "among": 1842,
+   "text": "Most offensive rebounds in a season in the 1970s: Moses Malone, 1978-79 — 587.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "most_stl",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76317,
+     "name": "Don Buse"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76317,
+     "name": "Don Buse",
+     "season": 1976,
+     "team": "IND",
+     "GP": 81,
+     "PTS": 646,
+     "PPG": 8,
+     "REB": 270,
+     "AST": 685,
+     "STL": 281,
+     "BLK": 16,
+     "FGM": 266,
+     "FGA": 639,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 114,
+     "FTA": 145,
+     "MIN": 2947,
+     "PF": 129,
+     "TOV": null
+    }
+   ],
+   "among": 1842,
+   "text": "Most steals in a season in the 1970s: Don Buse, 1976-77 — 281.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "most_blk",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 78188,
+     "name": "Elmore Smith"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78188,
+     "name": "Elmore Smith",
+     "season": 1973,
+     "team": "LAL",
+     "GP": 81,
+     "PTS": 1015,
+     "PPG": 12.5,
+     "REB": 906,
+     "AST": 150,
+     "STL": 71,
+     "BLK": 393,
+     "FGM": 434,
+     "FGA": 949,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 147,
+     "FTA": 249,
+     "MIN": 2922,
+     "PF": 309,
+     "TOV": null
+    }
+   ],
+   "among": 1842,
+   "text": "Most blocked shots in a season in the 1970s: Elmore Smith, 1973-74 — 393.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "worst_ft_volume",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    }
+   ],
+   "among": 238,
+   "text": "Worst free-throw percentage on 400+ attempts in the 1970s: Wilt Chamberlain, 1971-72 — .422 (221-524).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shot volume invites the gunner debate."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "most_reb",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    }
+   ],
+   "among": 2490,
+   "text": "Most rebounds in a season in the 1970s: Wilt Chamberlain, 1971-72 — 1,572 (19.2 a game).",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "top_rpg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    }
+   ],
+   "among": 1877,
+   "text": "Highest rebounding average of the 1970s: Wilt Chamberlain, 1971-72 — 19.2 a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 53,
+   "kind": "streak",
+   "rule": "s_ft900",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600013,
+     "name": "Rick Barry"
+    }
+   ],
+   "seasons": [
+    1974,
+    1975,
+    1976,
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1975,
+     "team": "GOS",
+     "GP": 81,
+     "PTS": 1701,
+     "PPG": 21,
+     "REB": 496,
+     "AST": 496,
+     "STL": 202,
+     "BLK": 27,
+     "FGM": 707,
+     "FGA": 1624,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 287,
+     "FTA": 311,
+     "MIN": 3122,
+     "PF": 215,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1976,
+     "team": "GOS",
+     "GP": 79,
+     "PTS": 1723,
+     "PPG": 21.8,
+     "REB": 422,
+     "AST": 475,
+     "STL": 172,
+     "BLK": 58,
+     "FGM": 682,
+     "FGA": 1551,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 359,
+     "FTA": 392,
+     "MIN": 2904,
+     "PF": 194,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1977,
+     "team": "GOS",
+     "GP": 82,
+     "PTS": 1898,
+     "PPG": 23.1,
+     "REB": 449,
+     "AST": 446,
+     "STL": 158,
+     "BLK": 45,
+     "FGM": 760,
+     "FGA": 1686,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 378,
+     "FTA": 409,
+     "MIN": 3024,
+     "PF": 188,
+     "TOV": 224
+    }
+   ],
+   "text": "Rick Barry shot .900 from the line (200+ FTA) in 4 straight seasons (1974-75 to 1977-78), the longest run of the 1970s.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 54,
+   "kind": "streak",
+   "rule": "s_2spg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 600013,
+     "name": "Rick Barry"
+    }
+   ],
+   "seasons": [
+    1973,
+    1974,
+    1975,
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1973,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2009,
+     "PPG": 25.1,
+     "REB": 540,
+     "AST": 484,
+     "STL": 169,
+     "BLK": 40,
+     "FGM": 796,
+     "FGA": 1746,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 417,
+     "FTA": 464,
+     "MIN": 2918,
+     "PF": 265,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1975,
+     "team": "GOS",
+     "GP": 81,
+     "PTS": 1701,
+     "PPG": 21,
+     "REB": 496,
+     "AST": 496,
+     "STL": 202,
+     "BLK": 27,
+     "FGM": 707,
+     "FGA": 1624,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 287,
+     "FTA": 311,
+     "MIN": 3122,
+     "PF": 215,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1976,
+     "team": "GOS",
+     "GP": 79,
+     "PTS": 1723,
+     "PPG": 21.8,
+     "REB": 422,
+     "AST": 475,
+     "STL": 172,
+     "BLK": 58,
+     "FGM": 682,
+     "FGA": 1551,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 359,
+     "FTA": 392,
+     "MIN": 2904,
+     "PF": 194,
+     "TOV": null
+    }
+   ],
+   "text": "Rick Barry averaged 2+ steals in 4 straight seasons (1973-74 to 1976-77), the longest run of the 1970s.",
+   "why": "Leads with the most extreme case, which carries the post. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "po_best_fg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1976,
+     "team": "LAL",
+     "GP": 11,
+     "PTS": 381,
+     "PPG": 34.6,
+     "REB": 195,
+     "AST": 45,
+     "STL": 19,
+     "BLK": 38,
+     "FGM": 147,
+     "FGA": 242,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 87,
+     "FTA": 120,
+     "MIN": 467,
+     "PF": 42,
+     "TOV": null
+    }
+   ],
+   "among": 174,
+   "text": "Best field-goal percentage in a postseason (150+ FGA) in the 1970s: Kareem Abdul-Jabbar, 1976-77 — .607.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "top_ppg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    }
+   ],
+   "among": 1877,
+   "text": "Highest scoring average of the 1970s: Kareem Abdul-Jabbar, 1971-72 — 34.8 points a game.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 57,
+   "kind": "extreme",
+   "rule": "best_fg_volume",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    }
+   ],
+   "among": 494,
+   "text": "Best field-goal percentage on 1,000+ attempts in the 1970s: Kareem Abdul-Jabbar, 1979-80 — .604 (835-1,383).",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Field-goal accuracy at volume is efficiency fans respect."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "most_ftm",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1971,
+     "team": "CIN",
+     "GP": 76,
+     "PTS": 2145,
+     "PPG": 28.2,
+     "REB": 222,
+     "AST": 701,
+     "STL": null,
+     "BLK": null,
+     "FGM": 734,
+     "FGA": 1511,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 677,
+     "FTA": 824,
+     "MIN": 3272,
+     "PF": 198,
+     "TOV": null
+    }
+   ],
+   "among": 2490,
+   "text": "Most free throws made in a season in the 1970s: Nate Archibald, 1971-72 — 677 of 824.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 59,
+   "kind": "streak",
+   "rule": "s_2000",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1970,
+     "team": "MIL",
+     "GP": 82,
+     "PTS": 2596,
+     "PPG": 31.7,
+     "REB": 1311,
+     "AST": 272,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1063,
+     "FGA": 1843,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 470,
+     "FTA": 681,
+     "MIN": 3288,
+     "PF": 264,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1971,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2822,
+     "PPG": 34.8,
+     "REB": 1346,
+     "AST": 370,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1159,
+     "FGA": 2019,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 504,
+     "FTA": 732,
+     "MIN": 3583,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1972,
+     "team": "MIL",
+     "GP": 76,
+     "PTS": 2292,
+     "PPG": 30.2,
+     "REB": 1224,
+     "AST": 379,
+     "STL": null,
+     "BLK": null,
+     "FGM": 982,
+     "FGA": 1772,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 328,
+     "FTA": 460,
+     "MIN": 3254,
+     "PF": 208,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    }
+   ],
+   "text": "Kareem Abdul-Jabbar scored 2,000 points in 4 straight seasons (1970-71 to 1973-74), the longest run of the 1970s.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Streaks are the most shareable kind of consistency."
+  },
+  {
+   "n": 60,
+   "kind": "nearmiss",
+   "rule": "fg499",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5.5,
+   "players": [
+    {
+     "id": 77618,
+     "name": "Steve Mix"
+    },
+    {
+     "id": 76681,
+     "name": "Julius Erving"
+    },
+    {
+     "id": 76500,
+     "name": "Bob Dandridge"
+    }
+   ],
+   "seasons": [
+    1975,
+    1976,
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77618,
+     "name": "Steve Mix",
+     "season": 1975,
+     "team": "PHL",
+     "GP": 81,
+     "PTS": 1129,
+     "PPG": 13.9,
+     "REB": 662,
+     "AST": 216,
+     "STL": 158,
+     "BLK": 29,
+     "FGM": 421,
+     "FGA": 844,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 287,
+     "FTA": 351,
+     "MIN": 3039,
+     "PF": 288,
+     "TOV": null
+    },
+    {
+     "id": 76681,
+     "name": "Julius Erving",
+     "season": 1976,
+     "team": "PHL",
+     "GP": 82,
+     "PTS": 1770,
+     "PPG": 21.6,
+     "REB": 695,
+     "AST": 306,
+     "STL": 159,
+     "BLK": 113,
+     "FGM": 685,
+     "FGA": 1373,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 400,
+     "FTA": 515,
+     "MIN": 2940,
+     "PF": 251,
+     "TOV": null
+    },
+    {
+     "id": 76500,
+     "name": "Bob Dandridge",
+     "season": 1978,
+     "team": "WAS",
+     "GP": 78,
+     "PTS": 1589,
+     "PPG": 20.4,
+     "REB": 447,
+     "AST": 365,
+     "STL": 71,
+     "BLK": 57,
+     "FGM": 629,
+     "FGA": 1260,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 331,
+     "FTA": 401,
+     "MIN": 2629,
+     "PF": 259,
+     "TOV": 222
+    },
+    {
+     "id": 78025,
+     "name": "Dan Roundfield",
+     "season": 1979,
+     "team": "ATL",
+     "GP": 81,
+     "PTS": 1334,
+     "PPG": 16.5,
+     "REB": 837,
+     "AST": 184,
+     "STL": 101,
+     "BLK": 139,
+     "FGM": 502,
+     "FGA": 1007,
+     "FG3M": 0,
+     "FG3A": 4,
+     "FTM": 330,
+     "FTA": 465,
+     "MIN": 2588,
+     "PF": 317,
+     "TOV": 233
+    },
+    {
+     "id": 305,
+     "name": "Robert Parish",
+     "season": 1978,
+     "team": "GOS",
+     "GP": 76,
+     "PTS": 1304,
+     "PPG": 17.2,
+     "REB": 916,
+     "AST": 115,
+     "STL": 100,
+     "BLK": 217,
+     "FGM": 554,
+     "FGA": 1110,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 196,
+     "FTA": 281,
+     "MIN": 2411,
+     "PF": 303,
+     "TOV": 233
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1977,
+     "team": "HOU",
+     "GP": 59,
+     "PTS": 1144,
+     "PPG": 19.4,
+     "REB": 886,
+     "AST": 31,
+     "STL": 48,
+     "BLK": 76,
+     "FGM": 413,
+     "FGA": 828,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 318,
+     "FTA": 443,
+     "MIN": 2107,
+     "PF": 179,
+     "TOV": 220
+    }
+   ],
+   "text": "6 player-seasons of the 1970s ended on a .499 field-goal percentage (800+ FGA), one point short of .500 — among them Steve Mix (1975-76), Julius Erving (1976-77), Bob Dandridge (1978-79).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "t_gp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 814,
+     "seasons": 10
+    },
+    {
+     "id": 78151,
+     "name": "Paul Silas",
+     "total": 813,
+     "seasons": 10
+    },
+    {
+     "id": 77326,
+     "name": "Sam Lacey",
+     "total": 804,
+     "seasons": 10
+    },
+    {
+     "id": 77669,
+     "name": "Calvin Murphy",
+     "total": 798,
+     "seasons": 10
+    },
+    {
+     "id": 78202,
+     "name": "Bingo Smith",
+     "total": 790,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1970s: Elvin Hayes, 814.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "t_pf",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 77326,
+     "name": "Sam Lacey"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77326,
+     "name": "Sam Lacey",
+     "total": 2823,
+     "seasons": 10
+    },
+    {
+     "id": 76462,
+     "name": "Dave Cowens",
+     "total": 2783,
+     "seasons": 10
+    },
+    {
+     "id": 77669,
+     "name": "Calvin Murphy",
+     "total": 2736,
+     "seasons": 10
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 2715,
+     "seasons": 10
+    },
+    {
+     "id": 76500,
+     "name": "Bob Dandridge",
+     "total": 2582,
+     "seasons": 10
+    }
+   ],
+   "text": "Most personal fouls committed in the 1970s: Sam Lacey, 2,823.",
+   "why": "A decade-long view that settles consistency debates. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "t_stl",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 78200,
+     "name": "Randy Smith"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78200,
+     "name": "Randy Smith",
+     "total": 1143,
+     "seasons": 7
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "total": 1104,
+     "seasons": 7
+    },
+    {
+     "id": 76733,
+     "name": "Chris Ford",
+     "total": 1010,
+     "seasons": 7
+    },
+    {
+     "id": 78473,
+     "name": "Slick Watts",
+     "total": 961,
+     "seasons": 6
+    },
+    {
+     "id": 77669,
+     "name": "Calvin Murphy",
+     "total": 952,
+     "seasons": 7
+    }
+   ],
+   "text": "Most steals of the 1970s: Randy Smith, 1,143.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 64,
+   "kind": "season",
+   "rule": "c_25_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 7
+    },
+    {
+     "season": 1971,
+     "count": 10
+    },
+    {
+     "season": 1972,
+     "count": 6
+    },
+    {
+     "season": 1973,
+     "count": 7
+    },
+    {
+     "season": 1974,
+     "count": 4
+    },
+    {
+     "season": 1975,
+     "count": 3
+    },
+    {
+     "season": 1976,
+     "count": 6
+    },
+    {
+     "season": 1977,
+     "count": 7
+    },
+    {
+     "season": 1978,
+     "count": 3
+    },
+    {
+     "season": 1979,
+     "count": 5
+    }
+   ],
+   "text": "1971-72 had 10 players averaging 25 points (60% of games), the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s."
+  },
+  {
+   "n": 65,
+   "kind": "season",
+   "rule": "c_25_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 7
+    },
+    {
+     "season": 1971,
+     "count": 10
+    },
+    {
+     "season": 1972,
+     "count": 6
+    },
+    {
+     "season": 1973,
+     "count": 7
+    },
+    {
+     "season": 1974,
+     "count": 4
+    },
+    {
+     "season": 1975,
+     "count": 3
+    },
+    {
+     "season": 1976,
+     "count": 6
+    },
+    {
+     "season": 1977,
+     "count": 7
+    },
+    {
+     "season": 1978,
+     "count": 3
+    },
+    {
+     "season": 1979,
+     "count": 5
+    }
+   ],
+   "text": "1975-76 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 1970s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 66,
+   "kind": "season",
+   "rule": "c_20_10_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 7
+    },
+    {
+     "season": 1971,
+     "count": 7
+    },
+    {
+     "season": 1972,
+     "count": 7
+    },
+    {
+     "season": 1973,
+     "count": 5
+    },
+    {
+     "season": 1974,
+     "count": 6
+    },
+    {
+     "season": 1975,
+     "count": 4
+    },
+    {
+     "season": 1976,
+     "count": 7
+    },
+    {
+     "season": 1977,
+     "count": 7
+    },
+    {
+     "season": 1978,
+     "count": 7
+    },
+    {
+     "season": 1979,
+     "count": 4
+    }
+   ],
+   "text": "1970-71 had 7 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "c_20_10_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 7
+    },
+    {
+     "season": 1971,
+     "count": 7
+    },
+    {
+     "season": 1972,
+     "count": 7
+    },
+    {
+     "season": 1973,
+     "count": 5
+    },
+    {
+     "season": 1974,
+     "count": 6
+    },
+    {
+     "season": 1975,
+     "count": 4
+    },
+    {
+     "season": 1976,
+     "count": 7
+    },
+    {
+     "season": 1977,
+     "count": 7
+    },
+    {
+     "season": 1978,
+     "count": 7
+    },
+    {
+     "season": 1979,
+     "count": 4
+    }
+   ],
+   "text": "1975-76 had just 4 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1970s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "c_ft900_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 0
+    },
+    {
+     "season": 1971,
+     "count": 0
+    },
+    {
+     "season": 1972,
+     "count": 1
+    },
+    {
+     "season": 1973,
+     "count": 0
+    },
+    {
+     "season": 1974,
+     "count": 1
+    },
+    {
+     "season": 1975,
+     "count": 2
+    },
+    {
+     "season": 1976,
+     "count": 1
+    },
+    {
+     "season": 1977,
+     "count": 2
+    },
+    {
+     "season": 1978,
+     "count": 1
+    },
+    {
+     "season": 1979,
+     "count": 0
+    }
+   ],
+   "text": "1975-76 had 2 .900 free-throw shooters (200+ FTA), the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "c_ft900_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 0
+    },
+    {
+     "season": 1971,
+     "count": 0
+    },
+    {
+     "season": 1972,
+     "count": 1
+    },
+    {
+     "season": 1973,
+     "count": 0
+    },
+    {
+     "season": 1974,
+     "count": 1
+    },
+    {
+     "season": 1975,
+     "count": 2
+    },
+    {
+     "season": 1976,
+     "count": 1
+    },
+    {
+     "season": 1977,
+     "count": 2
+    },
+    {
+     "season": 1978,
+     "count": 1
+    },
+    {
+     "season": 1979,
+     "count": 0
+    }
+   ],
+   "text": "1970-71 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1970s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_10apg_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 4
+    },
+    {
+     "season": 1971,
+     "count": 3
+    },
+    {
+     "season": 1972,
+     "count": 3
+    },
+    {
+     "season": 1973,
+     "count": 1
+    },
+    {
+     "season": 1974,
+     "count": 1
+    },
+    {
+     "season": 1975,
+     "count": 1
+    },
+    {
+     "season": 1976,
+     "count": 1
+    },
+    {
+     "season": 1977,
+     "count": 2
+    },
+    {
+     "season": 1978,
+     "count": 4
+    },
+    {
+     "season": 1979,
+     "count": 2
+    }
+   ],
+   "text": "1970-71 had 4 8-assist players, the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s. Assist averages crown the true point guards."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_10apg_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 4
+    },
+    {
+     "season": 1971,
+     "count": 3
+    },
+    {
+     "season": 1972,
+     "count": 3
+    },
+    {
+     "season": 1973,
+     "count": 1
+    },
+    {
+     "season": 1974,
+     "count": 1
+    },
+    {
+     "season": 1975,
+     "count": 1
+    },
+    {
+     "season": 1976,
+     "count": 1
+    },
+    {
+     "season": 1977,
+     "count": 2
+    },
+    {
+     "season": 1978,
+     "count": 4
+    },
+    {
+     "season": 1979,
+     "count": 2
+    }
+   ],
+   "text": "1973-74 had just one 8-assist player, the fewest of any season in the 1970s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_20_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 25
+    },
+    {
+     "season": 1971,
+     "count": 22
+    },
+    {
+     "season": 1972,
+     "count": 22
+    },
+    {
+     "season": 1973,
+     "count": 21
+    },
+    {
+     "season": 1974,
+     "count": 19
+    },
+    {
+     "season": 1975,
+     "count": 16
+    },
+    {
+     "season": 1976,
+     "count": 23
+    },
+    {
+     "season": 1977,
+     "count": 22
+    },
+    {
+     "season": 1978,
+     "count": 26
+    },
+    {
+     "season": 1979,
+     "count": 23
+    }
+   ],
+   "text": "1978-79 had 26 players averaging 20 points (60% of games), the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_20_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 25
+    },
+    {
+     "season": 1971,
+     "count": 22
+    },
+    {
+     "season": 1972,
+     "count": 22
+    },
+    {
+     "season": 1973,
+     "count": 21
+    },
+    {
+     "season": 1974,
+     "count": 19
+    },
+    {
+     "season": 1975,
+     "count": 16
+    },
+    {
+     "season": 1976,
+     "count": 23
+    },
+    {
+     "season": 1977,
+     "count": 22
+    },
+    {
+     "season": 1978,
+     "count": 26
+    },
+    {
+     "season": 1979,
+     "count": 23
+    }
+   ],
+   "text": "1975-76 had just 16 players averaging 20 points (60% of games), the fewest of any season in the 1970s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_10rpg_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 19
+    },
+    {
+     "season": 1971,
+     "count": 26
+    },
+    {
+     "season": 1972,
+     "count": 24
+    },
+    {
+     "season": 1973,
+     "count": 21
+    },
+    {
+     "season": 1974,
+     "count": 16
+    },
+    {
+     "season": 1975,
+     "count": 15
+    },
+    {
+     "season": 1976,
+     "count": 16
+    },
+    {
+     "season": 1977,
+     "count": 18
+    },
+    {
+     "season": 1978,
+     "count": 14
+    },
+    {
+     "season": 1979,
+     "count": 11
+    }
+   ],
+   "text": "1971-72 had 26 players averaging 10 rebounds (60% of games), the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_10rpg_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 19
+    },
+    {
+     "season": 1971,
+     "count": 26
+    },
+    {
+     "season": 1972,
+     "count": 24
+    },
+    {
+     "season": 1973,
+     "count": 21
+    },
+    {
+     "season": 1974,
+     "count": 16
+    },
+    {
+     "season": 1975,
+     "count": 15
+    },
+    {
+     "season": 1976,
+     "count": 16
+    },
+    {
+     "season": 1977,
+     "count": 18
+    },
+    {
+     "season": 1978,
+     "count": 14
+    },
+    {
+     "season": 1979,
+     "count": 11
+    }
+   ],
+   "text": "1979-80 had just 11 players averaging 10 rebounds (60% of games), the fewest of any season in the 1970s.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_30_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1972
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 1
+    },
+    {
+     "season": 1971,
+     "count": 1
+    },
+    {
+     "season": 1972,
+     "count": 2
+    },
+    {
+     "season": 1973,
+     "count": 1
+    },
+    {
+     "season": 1974,
+     "count": 2
+    },
+    {
+     "season": 1975,
+     "count": 1
+    },
+    {
+     "season": 1976,
+     "count": 1
+    },
+    {
+     "season": 1977,
+     "count": 0
+    },
+    {
+     "season": 1978,
+     "count": 0
+    },
+    {
+     "season": 1979,
+     "count": 2
+    }
+   ],
+   "text": "1972-73 had 2 30-point scorers, the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 1
+    },
+    {
+     "season": 1971,
+     "count": 1
+    },
+    {
+     "season": 1972,
+     "count": 2
+    },
+    {
+     "season": 1973,
+     "count": 1
+    },
+    {
+     "season": 1974,
+     "count": 2
+    },
+    {
+     "season": 1975,
+     "count": 1
+    },
+    {
+     "season": 1976,
+     "count": 1
+    },
+    {
+     "season": 1977,
+     "count": 0
+    },
+    {
+     "season": 1978,
+     "count": 0
+    },
+    {
+     "season": 1979,
+     "count": 2
+    }
+   ],
+   "text": "1977-78 had no 30-point scorers at all — one of the seasons of the 1970s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "t_min",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 33381,
+     "seasons": 10
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "total": 31380,
+     "seasons": 10
+    },
+    {
+     "id": 76462,
+     "name": "Dave Cowens",
+     "total": 28551,
+     "seasons": 10
+    },
+    {
+     "id": 78510,
+     "name": "Jojo White",
+     "total": 28377,
+     "seasons": 10
+    },
+    {
+     "id": 77326,
+     "name": "Sam Lacey",
+     "total": 27743,
+     "seasons": 10
+    }
+   ],
+   "text": "Most minutes of the 1970s: Elvin Hayes, 33,381.",
+   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_2spg_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 0
+    },
+    {
+     "season": 1971,
+     "count": 0
+    },
+    {
+     "season": 1972,
+     "count": 0
+    },
+    {
+     "season": 1973,
+     "count": 10
+    },
+    {
+     "season": 1974,
+     "count": 9
+    },
+    {
+     "season": 1975,
+     "count": 6
+    },
+    {
+     "season": 1976,
+     "count": 14
+    },
+    {
+     "season": 1977,
+     "count": 11
+    },
+    {
+     "season": 1978,
+     "count": 8
+    },
+    {
+     "season": 1979,
+     "count": 11
+    }
+   ],
+   "text": "1976-77 had 14 players averaging 2 steals (60% of games), the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_2spg_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 0
+    },
+    {
+     "season": 1971,
+     "count": 0
+    },
+    {
+     "season": 1972,
+     "count": 0
+    },
+    {
+     "season": 1973,
+     "count": 10
+    },
+    {
+     "season": 1974,
+     "count": 9
+    },
+    {
+     "season": 1975,
+     "count": 6
+    },
+    {
+     "season": 1976,
+     "count": 14
+    },
+    {
+     "season": 1977,
+     "count": 11
+    },
+    {
+     "season": 1978,
+     "count": 8
+    },
+    {
+     "season": 1979,
+     "count": 11
+    }
+   ],
+   "text": "1970-71 had no players averaging 2 steals (60% of games) at all — one of the seasons of the 1970s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_2bpg_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 0
+    },
+    {
+     "season": 1971,
+     "count": 0
+    },
+    {
+     "season": 1972,
+     "count": 0
+    },
+    {
+     "season": 1973,
+     "count": 9
+    },
+    {
+     "season": 1974,
+     "count": 7
+    },
+    {
+     "season": 1975,
+     "count": 6
+    },
+    {
+     "season": 1976,
+     "count": 10
+    },
+    {
+     "season": 1977,
+     "count": 8
+    },
+    {
+     "season": 1978,
+     "count": 9
+    },
+    {
+     "season": 1979,
+     "count": 7
+    }
+   ],
+   "text": "1976-77 had 10 players averaging 2 blocks (60% of games), the most of any season in the 1970s.",
+   "why": "Rewards staying power: the most such seasons in the 1970s. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_2bpg_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 0
+    },
+    {
+     "season": 1971,
+     "count": 0
+    },
+    {
+     "season": 1972,
+     "count": 0
+    },
+    {
+     "season": 1973,
+     "count": 9
+    },
+    {
+     "season": 1974,
+     "count": 7
+    },
+    {
+     "season": 1975,
+     "count": 6
+    },
+    {
+     "season": 1976,
+     "count": 10
+    },
+    {
+     "season": 1977,
+     "count": 8
+    },
+    {
+     "season": 1978,
+     "count": 9
+    },
+    {
+     "season": 1979,
+     "count": 7
+    }
+   ],
+   "text": "1970-71 had no players averaging 2 blocks (60% of games) at all — one of the seasons of the 1970s without one.",
+   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+  },
+  {
+   "n": 83,
+   "kind": "total",
+   "rule": "t_pts",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "total": 21814,
+     "seasons": 10
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 18525,
+     "seasons": 10
+    },
+    {
+     "id": 77459,
+     "name": "Pete Maravich",
+     "total": 15948,
+     "seasons": 10
+    },
+    {
+     "id": 600005,
+     "name": "Bob Lanier",
+     "total": 15896,
+     "seasons": 10
+    },
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "total": 15627,
+     "seasons": 8
+    }
+   ],
+   "text": "Most points of the 1970s: Kareem Abdul-Jabbar, 21,814 — 3,289 ahead of Elvin Hayes.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 84,
+   "kind": "total",
+   "rule": "t_reb",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "total": 11156,
+     "seasons": 10
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 11075,
+     "seasons": 10
+    },
+    {
+     "id": 78392,
+     "name": "Wes Unseld",
+     "total": 10235,
+     "seasons": 10
+    },
+    {
+     "id": 76462,
+     "name": "Dave Cowens",
+     "total": 10170,
+     "seasons": 10
+    },
+    {
+     "id": 77326,
+     "name": "Sam Lacey",
+     "total": 8765,
+     "seasons": 10
+    }
+   ],
+   "text": "Most rebounds of the 1970s: Kareem Abdul-Jabbar, 11,156.",
+   "why": "A decade-long view that settles consistency debates. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 85,
+   "kind": "total",
+   "rule": "t_ast",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "total": 4748,
+     "seasons": 9
+    },
+    {
+     "id": 78406,
+     "name": "Norm Van Lier",
+     "total": 4717,
+     "seasons": 9
+    },
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "total": 4534,
+     "seasons": 8
+    },
+    {
+     "id": 78510,
+     "name": "Jojo White",
+     "total": 3913,
+     "seasons": 10
+    },
+    {
+     "id": 77669,
+     "name": "Calvin Murphy",
+     "total": 3859,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 1970s: Nate Archibald, 4,748.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Assist averages crown the true point guards."
+  },
+  {
+   "n": 86,
+   "kind": "total",
+   "rule": "t_ftm",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "total": 3802,
+     "seasons": 9
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "total": 3732,
+     "seasons": 10
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 3628,
+     "seasons": 10
+    },
+    {
+     "id": 77459,
+     "name": "Pete Maravich",
+     "total": 3564,
+     "seasons": 10
+    },
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "total": 3310,
+     "seasons": 8
+    }
+   ],
+   "text": "Most free throws made in the 1970s: Nate Archibald, 3,802.",
+   "why": "A decade-long view that settles consistency debates. Free-throw accuracy is the shooter's purest stat."
+  },
+  {
+   "n": 87,
+   "kind": "total",
+   "rule": "t_blk",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "total": 1875,
+     "seasons": 7
+    },
+    {
+     "id": 77149,
+     "name": "George Johnson",
+     "total": 1396,
+     "seasons": 7
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 1387,
+     "seasons": 7
+    },
+    {
+     "id": 78188,
+     "name": "Elmore Smith",
+     "total": 1183,
+     "seasons": 6
+    },
+    {
+     "id": 77326,
+     "name": "Sam Lacey",
+     "total": 977,
+     "seasons": 7
+    }
+   ],
+   "text": "Most blocked shots of the 1970s: Kareem Abdul-Jabbar, 1,875.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 88,
+   "kind": "nearmiss",
+   "rule": "rpg99",
+   "group": "P",
+   "decade": "1970s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 77487,
+     "name": "Cedric Maxwell"
+    },
+    {
+     "id": 77246,
+     "name": "Larry Kenon"
+    },
+    {
+     "id": 76985,
+     "name": "Garfield Heard"
+    }
+   ],
+   "seasons": [
+    1978,
+    1979,
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77487,
+     "name": "Cedric Maxwell",
+     "season": 1978,
+     "team": "BOS",
+     "GP": 80,
+     "PTS": 1518,
+     "PPG": 19,
+     "REB": 791,
+     "AST": 228,
+     "STL": 98,
+     "BLK": 74,
+     "FGM": 472,
+     "FGA": 808,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 574,
+     "FTA": 716,
+     "MIN": 2969,
+     "PF": 266,
+     "TOV": 273
+    },
+    {
+     "id": 77246,
+     "name": "Larry Kenon",
+     "season": 1979,
+     "team": "SAN",
+     "GP": 78,
+     "PTS": 1565,
+     "PPG": 20.1,
+     "REB": 775,
+     "AST": 231,
+     "STL": 111,
+     "BLK": 18,
+     "FGM": 647,
+     "FGA": 1333,
+     "FG3M": 1,
+     "FG3A": 9,
+     "FTM": 270,
+     "FTA": 345,
+     "MIN": 2798,
+     "PF": 192,
+     "TOV": 232
+    },
+    {
+     "id": 76985,
+     "name": "Garfield Heard",
+     "season": 1974,
+     "team": "BUF",
+     "GP": 67,
+     "PTS": 742,
+     "PPG": 11.1,
+     "REB": 666,
+     "AST": 190,
+     "STL": 106,
+     "BLK": 120,
+     "FGM": 318,
+     "FGA": 819,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 106,
+     "FTA": 188,
+     "MIN": 2148,
+     "PF": 242,
+     "TOV": null
+    }
+   ],
+   "text": "3 player-seasons of the 1970s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Cedric Maxwell (1978-79), Larry Kenon (1979-80), Garfield Heard (1974-75).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 89,
+   "rule": "reb_over_pts",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77357,
+     "name": "Clyde Lee",
+     "season": 1971,
+     "team": "GOS",
+     "GP": 78,
+     "PTS": 632,
+     "PPG": 8.1,
+     "REB": 1132,
+     "AST": 85,
+     "STL": null,
+     "BLK": null,
+     "FGM": 256,
+     "FGA": 544,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 120,
+     "FTA": 222,
+     "MIN": 2674,
+     "PF": 244,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1972,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1084,
+     "PPG": 13.2,
+     "REB": 1526,
+     "AST": 365,
+     "STL": null,
+     "BLK": null,
+     "FGM": 426,
+     "FGA": 586,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 455,
+     "MIN": 3542,
+     "PF": 191,
+     "TOV": null
+    },
+    {
+     "id": 78392,
+     "name": "Wes Unseld",
+     "season": 1974,
+     "team": "WAS",
+     "GP": 73,
+     "PTS": 672,
+     "PPG": 9.2,
+     "REB": 1077,
+     "AST": 297,
+     "STL": 115,
+     "BLK": 68,
+     "FGM": 273,
+     "FGA": 544,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 126,
+     "FTA": 184,
+     "MIN": 2904,
+     "PF": 180,
+     "TOV": null
+    },
+    {
+     "id": 77175,
+     "name": "Caldwell Jones",
+     "season": 1979,
+     "team": "PHL",
+     "GP": 80,
+     "PTS": 588,
+     "PPG": 7.3,
+     "REB": 950,
+     "AST": 164,
+     "STL": 43,
+     "BLK": 162,
+     "FGM": 232,
+     "FGA": 532,
+     "FG3M": 0,
+     "FG3A": 2,
+     "FTM": 124,
+     "FTA": 178,
+     "MIN": 2771,
+     "PF": 298,
+     "TOV": 218
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    },
+    {
+     "id": 78392,
+     "name": "Wes Unseld",
+     "season": 1977,
+     "team": "WAS",
+     "GP": 80,
+     "PTS": 607,
+     "PPG": 7.6,
+     "REB": 955,
+     "AST": 326,
+     "STL": 98,
+     "BLK": 45,
+     "FGM": 257,
+     "FGA": 491,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 93,
+     "FTA": 173,
+     "MIN": 2644,
+     "PF": 234,
+     "TOV": 173
+    }
+   ],
+   "seasonsMatched": 80,
+   "kind": "list",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 77357,
+     "name": "Clyde Lee"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "33 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1970s (80 seasons). The most extreme: Clyde Lee, 1971-72 — 1,132 reb, 632 pts.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 90,
+   "kind": "nearmiss",
+   "rule": "ppg249",
+   "group": "P",
+   "decade": "1970s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 77844,
+     "name": "Geoff Petrie"
+    }
+   ],
+   "seasons": [
+    1972
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77844,
+     "name": "Geoff Petrie",
+     "season": 1972,
+     "team": "POR",
+     "GP": 79,
+     "PTS": 1970,
+     "PPG": 24.9,
+     "REB": 273,
+     "AST": 350,
+     "STL": null,
+     "BLK": null,
+     "FGM": 836,
+     "FGA": 1801,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 298,
+     "FTA": 383,
+     "MIN": 3134,
+     "PF": 163,
+     "TOV": null
+    }
+   ],
+   "text": "Exactly one player of the 1970s finished a season with a 24.9 scoring average, a tenth short of 25: Geoff Petrie (1972-73).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 91,
+   "kind": "nearmiss",
+   "rule": "ft899",
+   "group": "P",
+   "decade": "1970s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 600013,
+     "name": "Rick Barry"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1973,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2009,
+     "PPG": 25.1,
+     "REB": 540,
+     "AST": 484,
+     "STL": 169,
+     "BLK": 40,
+     "FGM": 796,
+     "FGA": 1746,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 417,
+     "FTA": 464,
+     "MIN": 2918,
+     "PF": 265,
+     "TOV": null
+    }
+   ],
+   "text": "Exactly one player of the 1970s finished a season with an .899 free-throw percentage (300+ FTA), one point short of .900: Rick Barry (1973-74).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 92,
+   "rule": "bpg_3",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 78188,
+     "name": "Elmore Smith",
+     "season": 1973,
+     "team": "LAL",
+     "GP": 81,
+     "PTS": 1015,
+     "PPG": 12.5,
+     "REB": 906,
+     "AST": 150,
+     "STL": 71,
+     "BLK": 393,
+     "FGM": 434,
+     "FGA": 949,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 147,
+     "FTA": 249,
+     "MIN": 2922,
+     "PF": 309,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1978,
+     "team": "LAL",
+     "GP": 80,
+     "PTS": 1903,
+     "PPG": 23.8,
+     "REB": 1025,
+     "AST": 431,
+     "STL": 76,
+     "BLK": 316,
+     "FGM": 777,
+     "FGA": 1347,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 349,
+     "FTA": 474,
+     "MIN": 3157,
+     "PF": 230,
+     "TOV": 282
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1973,
+     "team": "MIL",
+     "GP": 81,
+     "PTS": 2191,
+     "PPG": 27,
+     "REB": 1178,
+     "AST": 386,
+     "STL": 112,
+     "BLK": 283,
+     "FGM": 948,
+     "FGA": 1759,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 295,
+     "FTA": 420,
+     "MIN": 3548,
+     "PF": 238,
+     "TOV": null
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1979,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2034,
+     "PPG": 24.8,
+     "REB": 886,
+     "AST": 371,
+     "STL": 81,
+     "BLK": 280,
+     "FGM": 835,
+     "FGA": 1383,
+     "FG3M": 0,
+     "FG3A": 1,
+     "FTM": 364,
+     "FTA": 476,
+     "MIN": 3143,
+     "PF": 216,
+     "TOV": 297
+    },
+    {
+     "id": 77149,
+     "name": "George Johnson",
+     "season": 1977,
+     "team": "NJN",
+     "GP": 81,
+     "PTS": 703,
+     "PPG": 8.7,
+     "REB": 779,
+     "AST": 111,
+     "STL": 78,
+     "BLK": 274,
+     "FGM": 285,
+     "FGA": 721,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 133,
+     "FTA": 185,
+     "MIN": 2411,
+     "PF": 339,
+     "TOV": 221
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.212962962962963,
+   "players": [
+    {
+     "id": 78188,
+     "name": "Elmore Smith"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "7 players averaged 3 blocks a game (60% of games) in the 1970s (15 seasons). The most extreme: Elmore Smith, 1973-74 — 4.9 bpg.",
+   "why": "Leads with the most extreme case, which carries the post. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 93,
+   "rule": "big_ast",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1978,
+     "team": "DET",
+     "GP": 82,
+     "PTS": 1260,
+     "PPG": 15.4,
+     "REB": 209,
+     "AST": 1099,
+     "STL": 158,
+     "BLK": 5,
+     "FGM": 534,
+     "FGA": 1110,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 192,
+     "FTA": 266,
+     "MIN": 3064,
+     "PF": 302,
+     "TOV": 337
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    },
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1977,
+     "team": "TOT",
+     "GP": 82,
+     "PTS": 1234,
+     "PPG": 15,
+     "REB": 214,
+     "AST": 837,
+     "STL": 123,
+     "BLK": 15,
+     "FGM": 495,
+     "FGA": 1055,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 244,
+     "FTA": 320,
+     "MIN": 2813,
+     "PF": 283,
+     "TOV": 360
+    },
+    {
+     "id": 78406,
+     "name": "Norm Van Lier",
+     "season": 1970,
+     "team": "CIN",
+     "GP": 82,
+     "PTS": 1315,
+     "PPG": 16,
+     "REB": 583,
+     "AST": 832,
+     "STL": null,
+     "BLK": null,
+     "FGM": 478,
+     "FGA": 1138,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 359,
+     "FTA": 440,
+     "MIN": 3324,
+     "PF": 343,
+     "TOV": null
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1979,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1254,
+     "PPG": 15.3,
+     "REB": 539,
+     "AST": 832,
+     "STL": 265,
+     "BLK": 35,
+     "FGM": 502,
+     "FGA": 1063,
+     "FG3M": 27,
+     "FG3A": 110,
+     "FTM": 223,
+     "FTA": 338,
+     "MIN": 3060,
+     "PF": 260,
+     "TOV": 359
+    },
+    {
+     "id": 78497,
+     "name": "Jerry West",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 77,
+     "PTS": 1985,
+     "PPG": 25.8,
+     "REB": 327,
+     "AST": 747,
+     "STL": null,
+     "BLK": null,
+     "FGM": 735,
+     "FGA": 1540,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 515,
+     "FTA": 633,
+     "MIN": 2973,
+     "PF": 209,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 22,
+   "kind": "list",
+   "score": 4.005182926829268,
+   "players": [
+    {
+     "id": 77876,
+     "name": "Kevin Porter"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "text": "13 players averaged 8+ assists (60% of games) in the 1970s (22 seasons). The most extreme: Kevin Porter, 1978-79 — 13.4 apg.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Assist averages crown the true point guards."
+  },
+  {
+   "n": 94,
+   "rule": "min_3300",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76970,
+     "name": "John Havlicek",
+     "season": 1971,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 2252,
+     "PPG": 27.5,
+     "REB": 672,
+     "AST": 614,
+     "STL": null,
+     "BLK": null,
+     "FGM": 897,
+     "FGA": 1957,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 458,
+     "FTA": 549,
+     "MIN": 3698,
+     "PF": 183,
+     "TOV": null
+    },
+    {
+     "id": 76054,
+     "name": "Nate Archibald",
+     "season": 1972,
+     "team": "KCK",
+     "GP": 80,
+     "PTS": 2719,
+     "PPG": 34,
+     "REB": 223,
+     "AST": 910,
+     "STL": null,
+     "BLK": null,
+     "FGM": 1028,
+     "FGA": 2106,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 663,
+     "FTA": 783,
+     "MIN": 3681,
+     "PF": 207,
+     "TOV": null
+    },
+    {
+     "id": 76970,
+     "name": "John Havlicek",
+     "season": 1970,
+     "team": "BOS",
+     "GP": 81,
+     "PTS": 2338,
+     "PPG": 28.9,
+     "REB": 730,
+     "AST": 607,
+     "STL": null,
+     "BLK": null,
+     "FGM": 892,
+     "FGA": 1982,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 554,
+     "FTA": 677,
+     "MIN": 3678,
+     "PF": 200,
+     "TOV": null
+    },
+    {
+     "id": 77993,
+     "name": "Truck Robinson",
+     "season": 1977,
+     "team": "NOJ",
+     "GP": 82,
+     "PTS": 1862,
+     "PPG": 22.7,
+     "REB": 1288,
+     "AST": 171,
+     "STL": 73,
+     "BLK": 79,
+     "FGM": 748,
+     "FGA": 1683,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 366,
+     "FTA": 572,
+     "MIN": 3638,
+     "PF": 265,
+     "TOV": 301
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1970,
+     "team": "SDR",
+     "GP": 82,
+     "PTS": 2350,
+     "PPG": 28.7,
+     "REB": 1362,
+     "AST": 186,
+     "STL": null,
+     "BLK": null,
+     "FGM": 948,
+     "FGA": 2215,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 454,
+     "FTA": 676,
+     "MIN": 3633,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1970,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1696,
+     "PPG": 20.7,
+     "REB": 1493,
+     "AST": 352,
+     "STL": null,
+     "BLK": null,
+     "FGM": 668,
+     "FGA": 1226,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 360,
+     "FTA": 669,
+     "MIN": 3630,
+     "PF": 174,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 35,
+   "kind": "list",
+   "score": 3.9245,
+   "players": [
+    {
+     "id": 76970,
+     "name": "John Havlicek"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "19 players log 3,300 minutes in a season in the 1970s (35 seasons). The most extreme: John Havlicek, 1971-72 — 3,698 min.",
+   "why": "Leads with the most extreme case, which carries the post. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 95,
+   "rule": "pf_300",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77997,
+     "name": "Bill Robinzine",
+     "season": 1978,
+     "team": "KCK",
+     "GP": 82,
+     "PTS": 1098,
+     "PPG": 13.4,
+     "REB": 638,
+     "AST": 104,
+     "STL": 105,
+     "BLK": 15,
+     "FGM": 459,
+     "FGA": 837,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 180,
+     "FTA": 246,
+     "MIN": 2179,
+     "PF": 367,
+     "TOV": 179
+    },
+    {
+     "id": 78133,
+     "name": "Lonnie Shelton",
+     "season": 1976,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 955,
+     "PPG": 11.6,
+     "REB": 633,
+     "AST": 149,
+     "STL": 125,
+     "BLK": 98,
+     "FGM": 398,
+     "FGA": 836,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 159,
+     "FTA": 225,
+     "MIN": 2104,
+     "PF": 363,
+     "TOV": null
+    },
+    {
+     "id": 229,
+     "name": "James Edwards",
+     "season": 1978,
+     "team": "IND",
+     "GP": 82,
+     "PTS": 1366,
+     "PPG": 16.7,
+     "REB": 693,
+     "AST": 92,
+     "STL": 60,
+     "BLK": 109,
+     "FGM": 534,
+     "FGA": 1065,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 298,
+     "FTA": 441,
+     "MIN": 2546,
+     "PF": 363,
+     "TOV": 162
+    },
+    {
+     "id": 77323,
+     "name": "Kevin Kunnert",
+     "season": 1976,
+     "team": "HOU",
+     "GP": 81,
+     "PTS": 759,
+     "PPG": 9.4,
+     "REB": 669,
+     "AST": 154,
+     "STL": 35,
+     "BLK": 105,
+     "FGM": 333,
+     "FGA": 685,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 93,
+     "FTA": 126,
+     "MIN": 2050,
+     "PF": 361,
+     "TOV": null
+    },
+    {
+     "id": 78025,
+     "name": "Dan Roundfield",
+     "season": 1978,
+     "team": "ATL",
+     "GP": 80,
+     "PTS": 1224,
+     "PPG": 15.3,
+     "REB": 865,
+     "AST": 131,
+     "STL": 87,
+     "BLK": 176,
+     "FGM": 462,
+     "FGA": 916,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 300,
+     "FTA": 420,
+     "MIN": 2539,
+     "PF": 358,
+     "TOV": 209
+    },
+    {
+     "id": 78097,
+     "name": "Charlie Scott",
+     "season": 1975,
+     "team": "BOS",
+     "GP": 82,
+     "PTS": 1443,
+     "PPG": 17.6,
+     "REB": 358,
+     "AST": 341,
+     "STL": 103,
+     "BLK": 24,
+     "FGM": 588,
+     "FGA": 1309,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 267,
+     "FTA": 335,
+     "MIN": 2913,
+     "PF": 356,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 97,
+   "kind": "list",
+   "score": 3.9175,
+   "players": [
+    {
+     "id": 77997,
+     "name": "Bill Robinzine"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "text": "61 players committed 300 personal fouls in a season in the 1970s (97 seasons). The most extreme: Bill Robinzine, 1978-79 — 367 PF.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Foul-trouble seasons are an oddity fans love to share."
+  },
+  {
+   "n": 96,
+   "rule": "tov_300",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 600014,
+     "name": "Artis Gilmore",
+     "season": 1977,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1879,
+     "PPG": 22.9,
+     "REB": 1071,
+     "AST": 263,
+     "STL": 42,
+     "BLK": 181,
+     "FGM": 704,
+     "FGA": 1260,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 471,
+     "FTA": 669,
+     "MIN": 3067,
+     "PF": 261,
+     "TOV": 366
+    },
+    {
+     "id": 77876,
+     "name": "Kevin Porter",
+     "season": 1977,
+     "team": "TOT",
+     "GP": 82,
+     "PTS": 1234,
+     "PPG": 15,
+     "REB": 214,
+     "AST": 837,
+     "STL": 123,
+     "BLK": 15,
+     "FGM": 495,
+     "FGA": 1055,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 244,
+     "FTA": 320,
+     "MIN": 2813,
+     "PF": 283,
+     "TOV": 360
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1979,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1254,
+     "PPG": 15.3,
+     "REB": 539,
+     "AST": 832,
+     "STL": 265,
+     "BLK": 35,
+     "FGM": 502,
+     "FGA": 1063,
+     "FG3M": 27,
+     "FG3A": 110,
+     "FTM": 223,
+     "FTA": 338,
+     "MIN": 3060,
+     "PF": 260,
+     "TOV": 359
+    },
+    {
+     "id": 78215,
+     "name": "Ricky Sobers",
+     "season": 1977,
+     "team": "IND",
+     "GP": 79,
+     "PTS": 1436,
+     "PPG": 18.2,
+     "REB": 327,
+     "AST": 584,
+     "STL": 170,
+     "BLK": 23,
+     "FGM": 553,
+     "FGA": 1221,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 330,
+     "FTA": 400,
+     "MIN": 3019,
+     "PF": 308,
+     "TOV": 352
+    },
+    {
+     "id": 78310,
+     "name": "Reggie Theus",
+     "season": 1979,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1660,
+     "PPG": 20.2,
+     "REB": 329,
+     "AST": 515,
+     "STL": 114,
+     "BLK": 20,
+     "FGM": 566,
+     "FGA": 1172,
+     "FG3M": 28,
+     "FG3A": 105,
+     "FTM": 500,
+     "FTA": 597,
+     "MIN": 3029,
+     "PF": 262,
+     "TOV": 348
+    },
+    {
+     "id": 77498,
+     "name": "Bob McAdoo",
+     "season": 1977,
+     "team": "NYK",
+     "GP": 79,
+     "PTS": 2097,
+     "PPG": 26.5,
+     "REB": 1010,
+     "AST": 298,
+     "STL": 105,
+     "BLK": 126,
+     "FGM": 814,
+     "FGA": 1564,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 469,
+     "FTA": 645,
+     "MIN": 3182,
+     "PF": 297,
+     "TOV": 346
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 3.915,
+   "players": [
+    {
+     "id": 600014,
+     "name": "Artis Gilmore"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "18 players committed 300 turnovers in a season in the 1970s (25 seasons). The most extreme: Artis Gilmore, 1977-78 — 366 TOV.",
+   "why": "Leads with the most extreme case, which carries the post. Turnover totals are the stat fan bases never forget."
+  },
+  {
+   "n": 97,
+   "rule": "stl_200",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76317,
+     "name": "Don Buse",
+     "season": 1976,
+     "team": "IND",
+     "GP": 81,
+     "PTS": 646,
+     "PPG": 8,
+     "REB": 270,
+     "AST": 685,
+     "STL": 281,
+     "BLK": 16,
+     "FGM": 266,
+     "FGA": 639,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 114,
+     "FTA": 145,
+     "MIN": 2947,
+     "PF": 129,
+     "TOV": null
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1979,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1254,
+     "PPG": 15.3,
+     "REB": 539,
+     "AST": 832,
+     "STL": 265,
+     "BLK": 35,
+     "FGM": 502,
+     "FGA": 1063,
+     "FG3M": 27,
+     "FG3A": 110,
+     "FTM": 223,
+     "FTA": 338,
+     "MIN": 3060,
+     "PF": 260,
+     "TOV": 359
+    },
+    {
+     "id": 78473,
+     "name": "Slick Watts",
+     "season": 1975,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 1065,
+     "PPG": 13,
+     "REB": 365,
+     "AST": 661,
+     "STL": 261,
+     "BLK": 16,
+     "FGM": 433,
+     "FGA": 1015,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 199,
+     "FTA": 344,
+     "MIN": 2776,
+     "PF": 270,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 77364,
+     "name": "Ron Lee",
+     "season": 1977,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1004,
+     "PPG": 12.2,
+     "REB": 254,
+     "AST": 305,
+     "STL": 225,
+     "BLK": 17,
+     "FGM": 417,
+     "FGA": 950,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 170,
+     "FTA": 228,
+     "MIN": 1928,
+     "PF": 257,
+     "TOV": 221
+    },
+    {
+     "id": 77205,
+     "name": "Eddie Jordan",
+     "season": 1979,
+     "team": "NJN",
+     "GP": 82,
+     "PTS": 1087,
+     "PPG": 13.3,
+     "REB": 270,
+     "AST": 557,
+     "STL": 223,
+     "BLK": 27,
+     "FGM": 437,
+     "FGA": 1017,
+     "FG3M": 12,
+     "FG3A": 48,
+     "FTM": 201,
+     "FTA": 258,
+     "MIN": 2657,
+     "PF": 238,
+     "TOV": 258
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 3.878125,
+   "players": [
+    {
+     "id": 76317,
+     "name": "Don Buse"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "13 players recorded 200 steals in a season in the 1970s (16 seasons). The most extreme: Don Buse, 1976-77 — 281 stl.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 98,
+   "rule": "guard_stocks",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76317,
+     "name": "Don Buse",
+     "season": 1976,
+     "team": "IND",
+     "GP": 81,
+     "PTS": 646,
+     "PPG": 8,
+     "REB": 270,
+     "AST": 685,
+     "STL": 281,
+     "BLK": 16,
+     "FGM": 266,
+     "FGA": 639,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 114,
+     "FTA": 145,
+     "MIN": 2947,
+     "PF": 129,
+     "TOV": null
+    },
+    {
+     "id": 77952,
+     "name": "Micheal Ray Richardson",
+     "season": 1979,
+     "team": "NYK",
+     "GP": 82,
+     "PTS": 1254,
+     "PPG": 15.3,
+     "REB": 539,
+     "AST": 832,
+     "STL": 265,
+     "BLK": 35,
+     "FGM": 502,
+     "FGA": 1063,
+     "FG3M": 27,
+     "FG3A": 110,
+     "FTM": 223,
+     "FTA": 338,
+     "MIN": 3060,
+     "PF": 260,
+     "TOV": 359
+    },
+    {
+     "id": 78473,
+     "name": "Slick Watts",
+     "season": 1975,
+     "team": "SEA",
+     "GP": 82,
+     "PTS": 1065,
+     "PPG": 13,
+     "REB": 365,
+     "AST": 661,
+     "STL": 261,
+     "BLK": 16,
+     "FGM": 433,
+     "FGA": 1015,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 199,
+     "FTA": 344,
+     "MIN": 2776,
+     "PF": 270,
+     "TOV": null
+    },
+    {
+     "id": 600013,
+     "name": "Rick Barry",
+     "season": 1974,
+     "team": "GOS",
+     "GP": 80,
+     "PTS": 2450,
+     "PPG": 30.6,
+     "REB": 456,
+     "AST": 492,
+     "STL": 228,
+     "BLK": 33,
+     "FGM": 1028,
+     "FGA": 2217,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 394,
+     "FTA": 436,
+     "MIN": 3235,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 78296,
+     "name": "Brian Taylor",
+     "season": 1976,
+     "team": "KCK",
+     "GP": 72,
+     "PTS": 1227,
+     "PPG": 17,
+     "REB": 238,
+     "AST": 320,
+     "STL": 199,
+     "BLK": 16,
+     "FGM": 501,
+     "FGA": 995,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 225,
+     "FTA": 275,
+     "MIN": 2488,
+     "PF": 206,
+     "TOV": null
+    },
+    {
+     "id": 77364,
+     "name": "Ron Lee",
+     "season": 1977,
+     "team": "PHX",
+     "GP": 82,
+     "PTS": 1004,
+     "PPG": 12.2,
+     "REB": 254,
+     "AST": 305,
+     "STL": 225,
+     "BLK": 17,
+     "FGM": 417,
+     "FGA": 950,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 170,
+     "FTA": 228,
+     "MIN": 1928,
+     "PF": 257,
+     "TOV": 221
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 3.867283950617284,
+   "players": [
+    {
+     "id": 76317,
+     "name": "Don Buse"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "12 players averaged 2.5 steals a game (60% of games) in the 1970s (13 seasons). The most extreme: Don Buse, 1976-77 — 3.5 spg.",
+   "why": "Leads with the most extreme case, which carries the post. Steals are the defensive highlight stat."
+  },
+  {
+   "n": 99,
+   "rule": "score_no_pass",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 77412,
+     "name": "Bob Love",
+     "season": 1971,
+     "team": "CHI",
+     "GP": 79,
+     "PTS": 2037,
+     "PPG": 25.8,
+     "REB": 518,
+     "AST": 125,
+     "STL": null,
+     "BLK": null,
+     "FGM": 819,
+     "FGA": 1854,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 399,
+     "FTA": 509,
+     "MIN": 3108,
+     "PF": 235,
+     "TOV": null
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1979,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2119,
+     "PPG": 25.8,
+     "REB": 1190,
+     "AST": 147,
+     "STL": 80,
+     "BLK": 107,
+     "FGM": 778,
+     "FGA": 1549,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 563,
+     "FTA": 783,
+     "MIN": 3140,
+     "PF": 210,
+     "TOV": 300
+    },
+    {
+     "id": 77615,
+     "name": "Mike Mitchell",
+     "season": 1979,
+     "team": "CLE",
+     "GP": 82,
+     "PTS": 1820,
+     "PPG": 22.2,
+     "REB": 591,
+     "AST": 93,
+     "STL": 70,
+     "BLK": 77,
+     "FGM": 775,
+     "FGA": 1482,
+     "FG3M": 0,
+     "FG3A": 6,
+     "FTM": 270,
+     "FTA": 343,
+     "MIN": 2802,
+     "PF": 259,
+     "TOV": 172
+    },
+    {
+     "id": 77412,
+     "name": "Bob Love",
+     "season": 1972,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1895,
+     "PPG": 23.1,
+     "REB": 532,
+     "AST": 119,
+     "STL": null,
+     "BLK": null,
+     "FGM": 774,
+     "FGA": 1794,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 347,
+     "FTA": 421,
+     "MIN": 3033,
+     "PF": 240,
+     "TOV": null
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1978,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2031,
+     "PPG": 24.8,
+     "REB": 1444,
+     "AST": 147,
+     "STL": 79,
+     "BLK": 119,
+     "FGM": 716,
+     "FGA": 1325,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 599,
+     "FTA": 811,
+     "MIN": 3390,
+     "PF": 223,
+     "TOV": 326
+    },
+    {
+     "id": 76598,
+     "name": "John Drew",
+     "season": 1976,
+     "team": "ATL",
+     "GP": 74,
+     "PTS": 1790,
+     "PPG": 24.2,
+     "REB": 675,
+     "AST": 133,
+     "STL": 102,
+     "BLK": 29,
+     "FGM": 689,
+     "FGA": 1416,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 412,
+     "FTA": 577,
+     "MIN": 2688,
+     "PF": 275,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 3.446835443037975,
+   "players": [
+    {
+     "id": 77412,
+     "name": "Bob Love"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "9 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 1970s (18 seasons). The most extreme: Bob Love, 1971-72 — 25.8 ppg, 1.6 apg.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+  },
+  {
+   "n": 100,
+   "rule": "volume_misses",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1970,
+     "team": "SDR",
+     "GP": 82,
+     "PTS": 2350,
+     "PPG": 28.7,
+     "REB": 1362,
+     "AST": 186,
+     "STL": null,
+     "BLK": null,
+     "FGM": 948,
+     "FGA": 2215,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 454,
+     "FTA": 676,
+     "MIN": 3633,
+     "PF": 225,
+     "TOV": null
+    },
+    {
+     "id": 77459,
+     "name": "Pete Maravich",
+     "season": 1976,
+     "team": "NOJ",
+     "GP": 73,
+     "PTS": 2273,
+     "PPG": 31.1,
+     "REB": 374,
+     "AST": 392,
+     "STL": 84,
+     "BLK": 22,
+     "FGM": 886,
+     "FGA": 2047,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 501,
+     "FTA": 600,
+     "MIN": 3041,
+     "PF": 191,
+     "TOV": null
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1971,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2063,
+     "PPG": 25.2,
+     "REB": 1197,
+     "AST": 270,
+     "STL": null,
+     "BLK": null,
+     "FGM": 832,
+     "FGA": 1918,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 399,
+     "FTA": 615,
+     "MIN": 3461,
+     "PF": 233,
+     "TOV": null
+    },
+    {
+     "id": 78520,
+     "name": "Sidney Wicks",
+     "season": 1971,
+     "team": "POR",
+     "GP": 82,
+     "PTS": 2009,
+     "PPG": 24.5,
+     "REB": 943,
+     "AST": 350,
+     "STL": null,
+     "BLK": null,
+     "FGM": 784,
+     "FGA": 1837,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 441,
+     "FTA": 621,
+     "MIN": 3245,
+     "PF": 186,
+     "TOV": null
+    },
+    {
+     "id": 77412,
+     "name": "Bob Love",
+     "season": 1973,
+     "team": "CHI",
+     "GP": 82,
+     "PTS": 1785,
+     "PPG": 21.8,
+     "REB": 492,
+     "AST": 130,
+     "STL": 84,
+     "BLK": 28,
+     "FGM": 731,
+     "FGA": 1752,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 323,
+     "FTA": 395,
+     "MIN": 3292,
+     "PF": 221,
+     "TOV": null
+    },
+    {
+     "id": 77412,
+     "name": "Bob Love",
+     "season": 1971,
+     "team": "CHI",
+     "GP": 79,
+     "PTS": 2037,
+     "PPG": 25.8,
+     "REB": 518,
+     "AST": 125,
+     "STL": null,
+     "BLK": null,
+     "FGM": 819,
+     "FGA": 1854,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 399,
+     "FTA": 509,
+     "MIN": 3108,
+     "PF": 235,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 77,
+   "kind": "list",
+   "score": 3.037522573363431,
+   "players": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "42 players shot under .450 on 1,200+ attempts in the 1970s (77 seasons). The most extreme: Elvin Hayes, 1970-71 — .428 on 2,215 FGA.",
+   "why": "Leads with the most extreme case, which carries the post. Shot volume invites the gunner debate."
+  }
+ ],
+ "counts": {
+  "playerSeasons": 2490,
+  "playoffPlayerSeasons": 1099
+ },
+ "method": [
+  "Every player's regular-season and playoff totals for every season in the decade, pulled from stats.nba.com, the league's official record. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "Qualification is 60% of the most games anyone played that season. Attempt floors are stated in the line.",
+  "Categories not yet recorded (rebounds before 1950-51, minutes before 1951-52, steals and blocks before 1973-74, turnovers before 1977-78, threes before 1979-80) are treated as missing, never as zero.",
+  "Team-mate lines are omitted: the feed credits a traded player's whole season to one club."
+ ]
+}

@@ -1,0 +1,67 @@
+# Decade leaders — every season in a decade pulled in full from the MLB Stats
+# API, leaders computed mechanically, compact summaries committed.
+#
+# Separate from statdesk.yml on purpose: it has no Stathead dependency (the
+# official record is the API itself), so it can run on a GitHub-hosted runner
+# without waiting for Nick's machine, and it must never share a concurrency
+# group with the daily job — a queued daily run blocking a decade pull, or the
+# reverse, is the exact failure the daily job's group key was changed to avoid.
+name: Stat Desk Decades
+
+on:
+  workflow_dispatch:
+    inputs:
+      decades:
+        description: "Decade start years, comma-separated (e.g. 1920,1930,1990)"
+        required: true
+        default: "1920,1930,1940,1950,1960,1970,1980,1990,2000,2010"
+      runner:
+        description: "github (API only, fast) or self-hosted"
+        type: choice
+        required: false
+        default: github
+        options: [github, self-hosted]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: statdesk-decades-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  cloud:
+    if: inputs.runner == 'github'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Pull decades and commit summaries
+        shell: bash
+        env:
+          DECADES: ${{ inputs.decades }}
+        run: node statdesk/decades.js --commit
+
+  local:
+    if: inputs.runner == 'self-hosted'
+    runs-on: self-hosted
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Pull decades and commit summaries
+        shell: cmd
+        env:
+          DECADES: ${{ inputs.decades }}
+        run: node statdesk/decades.js --commit
