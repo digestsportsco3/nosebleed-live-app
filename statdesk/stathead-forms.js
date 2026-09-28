@@ -16,12 +16,15 @@ const fs = require("fs");
 const path = require("path");
 const { StatheadBrowser } = require("./lib/stathead-browser");
 
+// Pass 3: the college finders live under basketball/cbb and football/cfb.
+// Each is read for its full stat menu (order_by lists every key with its
+// label) and sampled across eras so coverage — how far back player stats
+// actually go — is measured, not assumed.
 const FORMS = [
-  ["football", "player-season-finder"], ["football", "player-game-finder"], ["football", "team-season-finder"],
-  ["basketball", "player-season-finder"], ["basketball", "player-game-finder"], ["basketball", "team-season-finder"],
-  ["cfb", "player-season-finder"], ["cfb", "team-season-finder"], ["cfb", "team-game-finder"],
-  ["cbb", "player-season-finder"], ["cbb", "team-season-finder"], ["cbb", "team-game-finder"],
+  ["football/cfb", "player-season-finder"], ["football/cfb", "team-season-finder"],
+  ["basketball/cbb", "player-season-finder"], ["basketball/cbb", "team-season-finder"],
 ];
+const ERA_YEARS = [1900, 1930, 1950, 1965, 1980, 1995, 2010, 2024];
 
 async function main() {
   const runDate = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
@@ -56,29 +59,32 @@ async function main() {
       // baseball keys b_hr etc. match exactly this way). One small unfiltered
       // sample query per finder records them with their labels.
       if (!rec.error) {
-        const match = /team-game/.test(form) ? "team_game" : /team/.test(form) ? "team_season" : /game/.test(form) ? "player_game" : "player_season";
-        const y = sport === "basketball" || sport === "cbb" ? 2024 : 2023;
-        const sample = `${url}?request=1&match=${match}&year_min=${y}&year_max=${y}`;
-        try {
-          await sh.throttle();
-          await sh.page.goto(sample, { waitUntil: "domcontentloaded", timeout: 60000 });
-          rec.sample = await sh.page.evaluate(() => {
-            const t = document.querySelector("table#stats") || document.querySelector("table.stats_table");
-            if (!t) return { error: "no results table", title: document.title };
-            const headers = [...t.querySelectorAll("thead th[data-stat]")].map((th) => [th.getAttribute("data-stat"), (th.getAttribute("aria-label") || th.getAttribute("data-tip") || th.textContent || "").trim()]);
-            const body = document.body.innerText || ""; const m = body.match(/Showing\s+([\d,]+)\s+of\s+([\d,]+)/i);
-            return { headers, rows: t.querySelectorAll("tbody tr").length, reported: m ? m[2] : null };
-          });
-          rec.sample.url = sample;
-        } catch (e) { rec.sample = { error: e.message, url: sample }; }
+        const match = /team/.test(form) ? "team_season" : "player_season";
+        rec.eras = {};
+        for (const y of ERA_YEARS) {
+          const sample = `${url}?request=1&match=${match}&year_min=${y}&year_max=${y}`;
+          try {
+            await sh.throttle();
+            await sh.page.goto(sample, { waitUntil: "domcontentloaded", timeout: 60000 });
+            rec.eras[y] = await sh.page.evaluate(() => {
+              const t = document.querySelector("table#stats") || document.querySelector("table.stats_table");
+              if (!t) return { rows: 0, note: (document.body.innerText.match(/[^\n]{0,90}(no results|did not|0 results|coverage)[^\n]{0,90}/i) || [""])[0] };
+              const headers = [...t.querySelectorAll("thead tr:last-child th[data-stat]")].map((th) => th.getAttribute("data-stat"));
+              const rows = [...t.querySelectorAll("tbody tr")].filter((tr) => !tr.classList.contains("thead"));
+              const first = rows[0]; const cells = first ? Object.fromEntries([...first.querySelectorAll("[data-stat]")].map((c) => [c.getAttribute("data-stat"), (c.textContent || "").trim()])) : null;
+              const nm = first && first.querySelector("[data-stat='name_display'], [data-stat='school_name'], [data-stat='team_name']");
+              return { rows: rows.length, headers, first: cells, idAttr: nm ? nm.getAttribute("data-append-csv") : null, more: !!document.querySelector("a[href*='offset=']") };
+            });
+          } catch (e) { rec.eras[y] = { error: e.message }; }
+        }
       }
       out[`${sport}/${form}`] = { url, ...rec };
-      const cst = rec.fields && Object.entries(rec.fields).find(([k, v]) => /^cstat/.test(k) && v.options);
-      console.log(`${sport}/${form}: ${rec.error || `${Object.keys(rec.fields || {}).length} fields, ${cst ? cst[1].options.length : 0} stat dropdown options, ${rec.datalists ? Object.keys(rec.datalists).length : 0} datalists, ${rec.picks ? rec.picks.length : 0} picker items; sample columns: ${rec.sample && rec.sample.headers ? rec.sample.headers.length : (rec.sample && rec.sample.error) || 0}`}`);
+      const ob = rec.fields && rec.fields.order_by && rec.fields.order_by.options;
+      console.log(`${sport}/${form}: ${rec.error || `${ob ? ob.length : 0} sort keys; rows by era: ${Object.entries(rec.eras || {}).map(([y, v]) => `${y}:${v.rows ?? "err"}${v.more ? "+" : ""}`).join(" ")}`}`);
     }
   } finally { await sh.close(); }
   const dir = path.join(__dirname, "data", "stathead-forms"); fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, "forms.json"), JSON.stringify({ runDate, forms: out }, null, 1));
+  fs.writeFileSync(path.join(dir, "college.json"), JSON.stringify({ runDate, forms: out }, null, 1));
   if (!process.argv.includes("--commit")) return;
   const { spawnSync } = require("child_process");
   const repo = path.join(__dirname, "..");
@@ -86,7 +92,7 @@ async function main() {
   git("config", "user.name", "statdesk-bot"); git("config", "user.email", "noreply@anthropic.com");
   git("add", "statdesk/data/stathead-forms");
   if (git("diff", "--cached", "--quiet").code === 0) return;
-  git("commit", "-m", "Stat Desk: Stathead finder form discovery");
+  git("commit", "-m", "Stat Desk: Stathead college finder discovery (stat menus, coverage by era)");
   const branch = process.env.GITHUB_REF_NAME || "main";
   for (let i = 1; i <= 5; i += 1) {
     if (git("pull", "--rebase", "origin", branch).code === 0 && git("push", "origin", `HEAD:${branch}`).code === 0) { console.log("[forms] pushed"); return; }
