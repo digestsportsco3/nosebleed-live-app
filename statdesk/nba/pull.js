@@ -141,11 +141,48 @@ async function mj(id = 893, dir = "mj", tag = "MJ") {
   console.log(`${tag} total games: ${n}`);
 }
 
+// leagueleaders silently omits some players (Kevin Porter, traded in 1977-78,
+// is missing entirely), which can turn an "only" line false. fill() checks
+// every roster candidate absent from a season file against his official
+// career record and adds each season he actually played.
+async function fill(from, to) {
+  const roster = JSON.parse(fs.readFileSync(path.join(OUT, "players.json"), "utf8")).players.filter((p) => p.played);
+  const report = [];
+  for (let y = from; y <= to; y += 1) {
+    const s = seasonStr(y);
+    for (const type of ["rs", "po"]) {
+      const f = path.join(OUT, "seasons", `${s}-${type}.json`); if (!fs.existsSync(f)) continue;
+      const doc = JSON.parse(fs.readFileSync(f, "utf8")); const ids = new Set(doc.rows.map((r) => r.id));
+      const setName = type === "po" ? "SeasonTotalsPostSeason" : "SeasonTotalsRegularSeason";
+      const added = [];
+      for (const p of roster.filter((q) => q.from <= y && q.to >= y && !ids.has(q.id))) {
+        const c = await career(p.id);
+        const seasonRows = rows(c, setName).filter((r) => r.SEASON_ID === s);
+        if (!seasonRows.length) continue;
+        const tot = seasonRows.find((r) => r.TEAM_ABBREVIATION === "TOT") || (seasonRows.length === 1 ? seasonRows[0] : null);
+        let row;
+        if (tot) row = { ...compact(tot, "PLAYER_ID", "_", "TEAM_ABBREVIATION"), name: p.name, team: seasonRows.length > 1 ? "TOT" : tot.TEAM_ABBREVIATION };
+        else { row = compact(seasonRows[0], "PLAYER_ID", "_", "TEAM_ABBREVIATION"); row.name = p.name; row.team = "TOT";
+          for (const r of seasonRows.slice(1)) for (const k of KEEP) row[k] = row[k] == null || r[k] == null ? (row[k] ?? r[k] ?? null) : row[k] + r[k]; }
+        doc.rows.push(row); added.push(p.name);
+      }
+      if (added.length) {
+        doc.method = `${String(doc.method).replace(/ \+ career fill.*$/, "")} + career fill (${added.length} added)`; doc.filled = [...(doc.filled || []), ...added]; doc.count = doc.rows.length;
+        fs.writeFileSync(f, JSON.stringify(doc));
+      }
+      report.push(`${s} ${type}: +${added.length}${added.length ? ` (${added.slice(0, 6).join(", ")}${added.length > 6 ? ", ..." : ""})` : ""}`);
+      console.log(report[report.length - 1]);
+    }
+  }
+  write("fill-report.json", { at: new Date().toISOString(), report });
+}
+
 async function main() {
   const [cmd = "all", a, b] = process.argv.slice(2).filter((x) => !x.startsWith("--"));
   const lastSeason = new Date().getUTCMonth() >= 9 ? new Date().getUTCFullYear() : new Date().getUTCFullYear() - 1; // 2025 -> 2025-26
-  const from = (cmd === "player" ? 0 : Number(a)) || 1946; const to = (cmd === "player" ? 0 : Number(b)) || lastSeason;
+  const from = (cmd === "player" || cmd === "fill" ? 0 : Number(a)) || 1946; const to = (cmd === "player" ? 0 : Number(b)) || lastSeason;
   if (cmd === "mj" || cmd === "all") await mj();
+  if (cmd === "fill") await fill(Number(a) || 1946, Number(b) || lastSeason);
   if (cmd === "player") { if (!Number(a) || !b) throw new Error("usage: player <PERSON_ID> <slug>"); await mj(Number(a), `players/${b}`, b); }
   if (cmd === "seasons" || cmd === "all") {
     const roster = await players();

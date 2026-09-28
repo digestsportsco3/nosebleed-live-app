@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -88,3 +88,7 @@ jobs:
         shell: cmd
         env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
         run: node statdesk/sport-facts.js ${{ inputs.after }} --commit
+      - name: NBA season fill (players leagueleaders omitted)
+        if: inputs.task == 'nba-fill'
+        shell: cmd
+        run: node statdesk/nba/pull.js fill --commit
