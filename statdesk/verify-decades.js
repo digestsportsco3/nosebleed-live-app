@@ -32,7 +32,10 @@ const CATS = [
   ["batting", "HR", "HR", "b_hr"], ["batting", "RBI", "RBI", "b_rbi"], ["batting", "H", "H", "b_h"], ["batting", "SB", "SB", "b_sb"],
   ["pitching", "W", "W", "p_w"], ["pitching", "SO", "SO", "p_so"], ["pitching", "SV", "SV", "p_sv"],
 ];
-const norm = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z ]/g, "").trim();
+// The API writes "Nolan Ryan Jr."; Stathead writes "Nolan Ryan". Suffixes and
+// accents are not disagreements about who led the league.
+const norm = (s) => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase()
+  .replace(/[^a-z ]/g, "").replace(/\b(jr|sr|ii|iii|iv)\b/g, "").replace(/\s+/g, " ").trim();
 
 // Deterministic spread: season i*3 within the decade, alternating groups, so
 // the same checks re-run identically and every decade is sampled across its
