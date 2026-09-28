@@ -50,6 +50,23 @@ Rules in sport-facts.js that must not be loosened:
   mix in) starts 1947-48 for players and teams. The 2026 college football season is
   in progress and excluded.
 
+"Why post" notes (asked for 2026-09-28): every line now carries `why`.
+Hand-written per fact in `nba/mj-era-facts.js` and `nba/player-facts.js`; for
+rule-generated sets `lib/why.js` builds it from the line's kind plus its rule's
+angle (sport-facts.js writes it; `tidy-facts.js --rewhy` redoes old files).
+`tidy-facts.js` also forces one-decimal rates and adds the NFL unofficial-era
+notes (all pre-1932 figures, punting before 1939, returns before 1941).
+render-facts.js: with `why` a set takes two pages of 50; a per-page script
+steps the type down until it fits. Print with Playwright (wait for
+body[data-fit]) so the PDF reflects the fit; check pages with a scroll test.
+- `nba/mj-era-facts.js` -> mj-era-facts.json: 100 Jordan-vs-his-era lines, none
+  repeating mj-facts.json. Sent.
+- `nba/player-facts.js <slug>`: 100 facts for any pulled player plus Jordan
+  head-to-heads. Kobe needs `pull.js player 977 kobe` (task nba-extra, which
+  also runs the cross-check). NEVER run it with slug mj — it writes
+  mj-player-test.json precisely so the hand-built mj-facts.json is not lost.
+- NFL 1920s-2020s complete and sent (d48f980).
+
 Status at last update: NBA, MJ and NFL 2000s-2020s done and sent as PDFs earlier.
 Run 8 (NFL pre-2000 + CFB + CBB) dispatched 2026-09-28 05:41 UTC on commit 9763f2f.
 Still open: render/send those PDFs; Stathead cross-check samples for NBA/MJ.
