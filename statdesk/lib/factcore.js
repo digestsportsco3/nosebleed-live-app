@@ -14,7 +14,8 @@ const PAST = { hit: "hit", bat: "batted", steal: "stole", drive: "drove", collec
   save: "saved", allow: "allowed", walk: "walked", ground: "grounded", score: "scored", finish: "finished", reach: "reached",
   average: "averaged", shoot: "shot", make: "made", grab: "grabbed", block: "blocked", record: "recorded", commit: "committed",
   rush: "rushed", catch: "caught", pass: "passed", run: "ran", lead: "led", attempt: "attempted", take: "took", start: "started",
-  appear: "appeared", dish: "dished", turn: "turned", foul: "fouled", pull: "pulled" };
+  appear: "appeared", dish: "dished", turn: "turned", foul: "fouled", pull: "pulled",
+  gain: "gained", force: "forced", defend: "defended", intercept: "intercepted", carry: "carried", return: "returned", fumble: "fumbled", kick: "kicked" };
 const VERB_RE = new RegExp(`\\b(${Object.keys(PAST).join("|")})\\b(?! (?:homers|runs|hits|games|bases|walks|innings|batters|saves|doubles|triples|pitches|steals|times|by|yards|passes|points|rebounds|assists|blocks|shots|attempts|threes|free))`, "g");
 function verb(head) { return head.replace(VERB_RE, (v, _w, off, str) => (/(playoff|postseason|scoring|home|a) $/.test(str.slice(Math.max(0, off - 11), off)) ? v : PAST[v] || v)); }
 
