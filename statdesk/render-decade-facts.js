@@ -42,7 +42,8 @@ function page(d) {
     if (mine.length) {
       const ok = mine.filter((r) => /^AGREE/.test(r.verdict)).length;
       const bad = mine.filter((r) => r.verdict === "DISAGREE");
-      ccLine = ` <b>Stathead cross-check</b> (${verify.runDate}): ${ok} of ${mine.length} sampled "only/two/few" claims reproduced exactly on Stathead's Season Finder with the same filters${bad.length ? `; ${bad.length} did not — ${bad.map((b) => `#${b.n} (${b.note || "row set differs"})`).join(", ")}` : ""}.`;
+      const unv = mine.filter((r) => /^UNVERIFIABLE/.test(r.verdict));
+      ccLine = ` <b>Stathead cross-check</b> (${verify.runDate}): ${ok} of ${mine.length} sampled "only/two/few" claims reproduced on Stathead's Season Finder with the same filters${unv.length ? `; ${unv.length} (${unv.map((u) => `#${u.n}`).join(", ")}) involve a traded player's combined season, which Stathead's finder splits into stints and so cannot re-run as filtered` : ""}${bad.length ? `; ${bad.length} did not agree — ${bad.map((b) => `#${b.n}: ${b.note || "row set differs"}`).join("; ")}` : ""}.`;
     }
   }
   return `

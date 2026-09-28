@@ -55,9 +55,27 @@ async function main() {
           if (rec.capped) { verdict = "CAPPED"; note = "Stathead truncated the result set"; }
           else {
             const O = new Set(ours), Tt = new Set(theirs);
-            const missing = [...O].filter((x) => !Tt.has(x)); const extra = [...Tt].filter((x) => !O.has(x));
+            let missing = [...O].filter((x) => !Tt.has(x)); let extra = [...Tt].filter((x) => !O.has(x));
             if (!missing.length && !extra.length) verdict = "AGREE";
-            else { verdict = "DISAGREE"; note = `${missing.length ? `not on Stathead: ${missing.join(", ")}` : ""}${missing.length && extra.length ? "; " : ""}${extra.length ? `Stathead also has: ${extra.join(", ")}` : ""}`; }
+            else {
+              // "Hank Aaron|1973" and "Henry Aaron|1973", "Brian L Hunter" and
+              // "Brian Hunter": same surname, same season, same row. Match the
+              // leftovers on surname + year before calling it a disagreement.
+              const sy = (x) => { const [nm, y] = x.split("|"); return `${nm.split(" ").pop()}|${y}`; };
+              const M2 = new Set(missing.map(sy)), E2 = new Set(extra.map(sy));
+              const nameOnly = missing.every((x) => E2.has(sy(x))) && extra.every((x) => M2.has(sy(x)));
+              if (nameOnly) { verdict = "AGREE (name form differs)"; note = `${missing.join(", ")} = ${extra.join(", ")}`; }
+              else {
+                // A traded player's combined season is one row in the API and
+                // two stints on Stathead's finder, so neither half clears the
+                // filters. That is a presentation difference, not a finding,
+                // and it is reported as its own verdict rather than folded
+                // into either agree or disagree.
+                const traded = new Set(fact.evidence.filter((e) => e.team === "2+ teams").map((e) => `${norm(e.name)}|${e.season}`));
+                if (!extra.length && missing.every((x) => traded.has(x))) { verdict = "UNVERIFIABLE (traded-player season; Stathead splits stints)"; note = missing.join(", "); }
+                else { verdict = "DISAGREE"; note = `${missing.length ? `not on Stathead: ${missing.join(", ")}` : ""}${missing.length && extra.length ? "; " : ""}${extra.length ? `Stathead also has: ${extra.join(", ")}` : ""}`; }
+              }
+            }
           }
         } catch (e) { verdict = `QUERY FAILED`; note = e.message; }
         console.log(`  #${String(fact.n).padStart(3)} ${fact.kind.padEnd(4)} ${fact.rule.padEnd(20)} ours=${ours.length} stathead=${theirs ? theirs.length : "—"}  -> ${verdict}${note ? `  (${note})` : ""}`);
@@ -65,10 +83,11 @@ async function main() {
       }
     }
   } finally { await sh.close(); }
-  const report = { runDate, checks: results.length, agree: results.filter((r) => r.verdict === "AGREE").length,
-    disagree: results.filter((r) => r.verdict === "DISAGREE").length, other: results.filter((r) => !/^AGREE|^DISAGREE/.test(r.verdict)).length, results };
+  const report = { runDate, checks: results.length, agree: results.filter((r) => /^AGREE/.test(r.verdict)).length,
+    disagree: results.filter((r) => r.verdict === "DISAGREE").length, unverifiable: results.filter((r) => /^UNVERIFIABLE/.test(r.verdict)).length,
+    other: results.filter((r) => /^CAPPED|^QUERY FAILED/.test(r.verdict)).length, results };
   fs.writeFileSync(path.join(dataDir, `verify-facts-${runDate}.json`), JSON.stringify(report, null, 1));
-  console.log(`\n${report.checks} checks: ${report.agree} agree, ${report.disagree} disagree, ${report.other} could not run.`);
+  console.log(`\n${report.checks} checks: ${report.agree} agree, ${report.disagree} disagree, ${report.unverifiable} unverifiable as filtered, ${report.other} could not run.`);
   if (report.disagree || report.other) process.exitCode = 1;
 
   if (process.argv.includes("--commit")) {
