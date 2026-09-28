@@ -335,6 +335,10 @@ function ruleFacts(rows, rules, decade, t) {
   }
   return out;
 }
+// Past tense for the "N hitters ..." lines. Every verb in the head is
+// conjugated, not just the first: "draw 100 walks and strike out 180" must
+// become "drew ... and struck out".
+const PAST = { hit: "hit", bat: "batted", steal: "stole", drive: "drove", collect: "collected", post: "posted", draw: "drew", play: "played", go: "went", get: "got", strike: "struck", throw: "threw", win: "won", lose: "lost", complete: "completed", save: "saved", allow: "allowed", walk: "walked", ground: "grounded", score: "scored", finish: "finished", reach: "reached" };
 function verb(head) { return head.replace(/\b(hit|bat|steal|drive|collect|post|draw|play|go|get|strike|throw|win|lose|complete|save|allow|walk|ground|score|finish|reach)\b(?! (?:homers|runs|hits|games|bases|walks|innings|batters|saves|doubles|triples|pitches|steals|times|by))/g, (v) => PAST[v] || v); }
 function bonus(rule, r) { const m = rule.mag(r); return Number.isFinite(m) ? Math.min(3, Math.abs(m) / 40) : 0; }
 const pid = (r) => ({ id: r.id, name: r.name });
