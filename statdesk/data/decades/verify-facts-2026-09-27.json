@@ -1,0 +1,925 @@
+{
+ "runDate": "2026-09-27",
+ "checks": 50,
+ "agree": 47,
+ "disagree": 3,
+ "other": 0,
+ "results": [
+  {
+   "decade": "1920s",
+   "n": 1,
+   "kind": "only",
+   "rule": "workhorse_low_k",
+   "text": "The only pitcher of the 1920s to throw 300 innings with 70 strikeouts or fewer: Carl Mays, 1921 — 336.2 IP, 70 K.",
+   "ours": [
+    "carl mays|1921"
+   ],
+   "stathead": [
+    "carl mays|1921"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F001",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1929&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=300&cstat[1]=p_ip&ccomp[2]=lt&cval[2]=70&cstat[2]=p_so"
+  },
+  {
+   "decade": "1920s",
+   "n": 3,
+   "kind": "only",
+   "rule": "five_tool",
+   "text": "The only hitter of the 1920s to bat .300 with 30 homers, 100 RBI and 20 steals: Ken Williams, 1922 — .332, 39 HR, 155 RBI, 37 SB.",
+   "ours": [
+    "ken williams|1922"
+   ],
+   "stathead": [
+    "ken williams|1922"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F002",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1929&comp_type=reg&ccomp[1]=gt&cval[1]=0.300&cstat[1]=b_batting_avg&ccomp[2]=gt&cval[2]=30&cstat[2]=b_hr&ccomp[3]=gt&cval[3]=100&cstat[3]=b_rbi&ccomp[4]=gt&cval[4]=20&cstat[4]=b_sb"
+  },
+  {
+   "decade": "1920s",
+   "n": 8,
+   "kind": "only",
+   "rule": "sb_low_obp",
+   "text": "The only hitter of the 1920s to steal 30+ bases with an on-base under .310 (400+ PA): Cliff Heathcote, 1923 — 32 SB, .298 OBP.",
+   "ours": [
+    "cliff heathcote|1923"
+   ],
+   "stathead": [
+    "cliff heathcote|1923"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F003",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1929&comp_type=reg&ccomp[1]=gt&cval[1]=400&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=30&cstat[2]=b_sb&ccomp[3]=lt&cval[3]=0.309&cstat[3]=b_onbase_perc"
+  },
+  {
+   "decade": "1920s",
+   "n": 10,
+   "kind": "few",
+   "rule": "hits_200_bb_100",
+   "text": "Just four hitters of the 1920s got 200 hits and 100 walks: Babe Ruth (1923, 205 H, 170 BB); Babe Ruth (1921, 204 H, 145 BB); Babe Ruth (1924, 200 H, 142 BB); Lou Gehrig (1927, 218 H, 109 BB).",
+   "ours": [
+    "babe ruth|1923",
+    "babe ruth|1921",
+    "babe ruth|1924",
+    "lou gehrig|1927"
+   ],
+   "stathead": [
+    "babe ruth|1921",
+    "lou gehrig|1927",
+    "babe ruth|1924",
+    "babe ruth|1923"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F004",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1929&comp_type=reg&ccomp[1]=gt&cval[1]=200&cstat[1]=b_h&ccomp[2]=gt&cval[2]=100&cstat[2]=b_bb"
+  },
+  {
+   "decade": "1920s",
+   "n": 14,
+   "kind": "few",
+   "rule": "runs_no_rbi",
+   "text": "Just four hitters of the 1920s score 120 runs with 50 RBI or fewer: Lloyd Waner (1927, 133 R, 27 RBI); Lu Blue (1922, 131 R, 45 RBI); Johnny Mostil (1925, 135 R, 50 RBI); Johnny Mostil (1926, 120 R, 42 RBI).",
+   "ours": [
+    "lloyd waner|1927",
+    "lu blue|1922",
+    "johnny mostil|1925",
+    "johnny mostil|1926"
+   ],
+   "stathead": [
+    "lu blue|1922",
+    "johnny mostil|1926",
+    "johnny mostil|1925",
+    "lloyd waner|1927"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F005",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1920&year_max=1929&comp_type=reg&ccomp[1]=gt&cval[1]=120&cstat[1]=b_r&ccomp[2]=lt&cval[2]=50&cstat[2]=b_rbi"
+  },
+  {
+   "decade": "1930s",
+   "n": 1,
+   "kind": "only",
+   "rule": "runs_no_rbi",
+   "text": "The only hitter of the 1930s to score 120 runs with 50 RBI or fewer: Frankie Crosetti, 1937 — 127 R, 49 RBI.",
+   "ours": [
+    "frankie crosetti|1937"
+   ],
+   "stathead": [
+    "frankie crosetti|1937"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F006",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1939&comp_type=reg&ccomp[1]=gt&cval[1]=120&cstat[1]=b_r&ccomp[2]=lt&cval[2]=50&cstat[2]=b_rbi"
+  },
+  {
+   "decade": "1930s",
+   "n": 3,
+   "kind": "only",
+   "rule": "five_tool",
+   "text": "The only hitter of the 1930s to bat .300 with 30 homers, 100 RBI and 20 steals: Chuck Klein, 1932 — .348, 38 HR, 137 RBI, 20 SB.",
+   "ours": [
+    "chuck klein|1932"
+   ],
+   "stathead": [
+    "chuck klein|1932"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F007",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1939&comp_type=reg&ccomp[1]=gt&cval[1]=0.300&cstat[1]=b_batting_avg&ccomp[2]=gt&cval[2]=30&cstat[2]=b_hr&ccomp[3]=gt&cval[3]=100&cstat[3]=b_rbi&ccomp[4]=gt&cval[4]=20&cstat[4]=b_sb"
+  },
+  {
+   "decade": "1930s",
+   "n": 6,
+   "kind": "only",
+   "rule": "four_hundred",
+   "text": "The only hitter of the 1930s to bat .400 (400+ PA): Bill Terry, 1930 — .401.",
+   "ours": [
+    "bill terry|1930"
+   ],
+   "stathead": [
+    "bill terry|1930"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F008",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1939&comp_type=reg&ccomp[1]=gt&cval[1]=400&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.400&cstat[2]=b_batting_avg"
+  },
+  {
+   "decade": "1930s",
+   "n": 11,
+   "kind": "pair",
+   "rule": "no_walks_winner",
+   "text": "Only two pitchers of the 1930s won 15 games walking 30 batters or fewer: Red Lucas (1936, 15-4, 26 BB); Ray Brown (1938, 15-0, 29 BB).",
+   "ours": [
+    "red lucas|1936",
+    "ray brown|1938"
+   ],
+   "stathead": [
+    "ray brown|1938",
+    "red lucas|1936"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F009",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1939&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=15&cstat[1]=p_w&ccomp[2]=lt&cval[2]=30&cstat[2]=p_bb"
+  },
+  {
+   "decade": "1930s",
+   "n": 15,
+   "kind": "pair",
+   "rule": "slap_hitter",
+   "text": "Only two hitters of the 1930s batted .310 while slugging under .380 (500+ PA): Luke Appling (1939, .314 AVG, .368 SLG); Dick Bartell (1934, .310 AVG, .373 SLG).",
+   "ours": [
+    "luke appling|1939",
+    "dick bartell|1934"
+   ],
+   "stathead": [
+    "luke appling|1939",
+    "dick bartell|1934"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F010",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1930&year_max=1939&comp_type=reg&ccomp[1]=gt&cval[1]=500&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.310&cstat[2]=b_batting_avg&ccomp[3]=lt&cval[3]=0.379&cstat[3]=b_slugging_perc"
+  },
+  {
+   "decade": "1940s",
+   "n": 1,
+   "kind": "only",
+   "rule": "hits_200_bb_100",
+   "text": "The only hitter of the 1940s to get 200 hits and 100 walks: Stan Musial, 1949 — 207 H, 107 BB.",
+   "ours": [
+    "stan musial|1949"
+   ],
+   "stathead": [
+    "stan musial|1949"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F011",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1940&year_max=1949&comp_type=reg&ccomp[1]=gt&cval[1]=200&cstat[1]=b_h&ccomp[2]=gt&cval[2]=100&cstat[2]=b_bb"
+  },
+  {
+   "decade": "1940s",
+   "n": 5,
+   "kind": "pair",
+   "rule": "hits_few_runs",
+   "text": "Only two hitters of the 1940s collected 180 hits and score 65 runs or fewer: Luke Appling (1943, 192 H, 63 R); Luke Appling (1946, 180 H, 59 R).",
+   "ours": [
+    "luke appling|1943",
+    "luke appling|1946"
+   ],
+   "stathead": [
+    "luke appling|1943",
+    "luke appling|1946"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F012",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1940&year_max=1949&comp_type=reg&ccomp[1]=gt&cval[1]=180&cstat[1]=b_h&ccomp[2]=lt&cval[2]=65&cstat[2]=b_r"
+  },
+  {
+   "decade": "1940s",
+   "n": 8,
+   "kind": "only",
+   "rule": "era_under_3_no_wins",
+   "text": "The only pitcher of the 1940s to post an ERA under 3.00 and win 7 or fewer (162+ IP): Al Benton, 1942 — 2.90 ERA, 7-13.",
+   "ours": [
+    "al benton|1942"
+   ],
+   "stathead": [
+    "al benton|1942"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F013",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1940&year_max=1949&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=162&cstat[1]=p_ip&ccomp[2]=lt&cval[2]=2.99&cstat[2]=p_earned_run_avg&ccomp[3]=lt&cval[3]=7&cstat[3]=p_w"
+  },
+  {
+   "decade": "1940s",
+   "n": 11,
+   "kind": "only",
+   "rule": "four_hundred",
+   "text": "The only hitter of the 1940s to bat .400 (400+ PA): Ted Williams, 1941 — .406.",
+   "ours": [
+    "ted williams|1941"
+   ],
+   "stathead": [
+    "ted williams|1941"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F014",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1940&year_max=1949&comp_type=reg&ccomp[1]=gt&cval[1]=400&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.400&cstat[2]=b_batting_avg"
+  },
+  {
+   "decade": "1940s",
+   "n": 13,
+   "kind": "few",
+   "rule": "bb_and_k",
+   "text": "Just three hitters of the 1940s drew 100 walks and struck out 100 times: Eddie Joost (1947, 114 BB, 110 K); Dolph Camilli (1941, 104 BB, 115 K); Charlie Keller (1946, 113 BB, 101 K).",
+   "ours": [
+    "eddie joost|1947",
+    "dolph camilli|1941",
+    "charlie keller|1946"
+   ],
+   "stathead": [
+    "dolph camilli|1941",
+    "charlie keller|1946",
+    "eddie joost|1947"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F015",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1940&year_max=1949&comp_type=reg&ccomp[1]=gt&cval[1]=100&cstat[1]=b_bb&ccomp[2]=gt&cval[2]=100&cstat[2]=b_so"
+  },
+  {
+   "decade": "1950s",
+   "n": 1,
+   "kind": "only",
+   "rule": "hits_200_bb_100",
+   "text": "The only hitter of the 1950s to get 200 hits and 100 walks: Stan Musial, 1953 — 200 H, 105 BB.",
+   "ours": [
+    "stan musial|1953"
+   ],
+   "stathead": [
+    "stan musial|1953"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F016",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1950&year_max=1959&comp_type=reg&ccomp[1]=gt&cval[1]=200&cstat[1]=b_h&ccomp[2]=gt&cval[2]=100&cstat[2]=b_bb"
+  },
+  {
+   "decade": "1950s",
+   "n": 3,
+   "kind": "only",
+   "rule": "avg_no_walks",
+   "text": "The only hitter of the 1950s to bat .320 or better with 20 walks or fewer (500+ PA): Don Mueller, 1953 — .333, 19 BB.",
+   "ours": [
+    "don mueller|1953"
+   ],
+   "stathead": [
+    "don mueller|1953"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F017",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1950&year_max=1959&comp_type=reg&ccomp[1]=gt&cval[1]=500&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.320&cstat[2]=b_batting_avg&ccomp[3]=lt&cval[3]=20&cstat[3]=b_bb"
+  },
+  {
+   "decade": "1950s",
+   "n": 7,
+   "kind": "only",
+   "rule": "no_walks_winner",
+   "text": "The only pitcher of the 1950s to win 15 games walking 30 batters or fewer: Roy Face, 1959 — 18-1, 25 BB.",
+   "ours": [
+    "roy face|1959"
+   ],
+   "stathead": [
+    "roy face|1959"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F018",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1950&year_max=1959&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=15&cstat[1]=p_w&ccomp[2]=lt&cval[2]=30&cstat[2]=p_bb"
+  },
+  {
+   "decade": "1950s",
+   "n": 10,
+   "kind": "only",
+   "rule": "slap_hitter",
+   "text": "The only hitter of the 1950s to bat .310 while slugging under .380 (500+ PA): Richie Ashburn, 1954 — .313 AVG, .376 SLG.",
+   "ours": [
+    "richie ashburn|1954"
+   ],
+   "stathead": [
+    "richie ashburn|1954"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F019",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1950&year_max=1959&comp_type=reg&ccomp[1]=gt&cval[1]=500&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.310&cstat[2]=b_batting_avg&ccomp[3]=lt&cval[3]=0.379&cstat[3]=b_slugging_perc"
+  },
+  {
+   "decade": "1950s",
+   "n": 12,
+   "kind": "few",
+   "rule": "bb_and_k",
+   "text": "Just three hitters of the 1950s drew 100 walks and struck out 100 times: Mickey Mantle (1958, 129 BB, 120 K); Mickey Mantle (1954, 102 BB, 107 K); Larry Doby (1956, 102 BB, 105 K).",
+   "ours": [
+    "mickey mantle|1958",
+    "mickey mantle|1954",
+    "larry doby|1956"
+   ],
+   "stathead": [
+    "mickey mantle|1958",
+    "mickey mantle|1954",
+    "larry doby|1956"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F020",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1950&year_max=1959&comp_type=reg&ccomp[1]=gt&cval[1]=100&cstat[1]=b_bb&ccomp[2]=gt&cval[2]=100&cstat[2]=b_so"
+  },
+  {
+   "decade": "1960s",
+   "n": 1,
+   "kind": "only",
+   "rule": "hits_few_runs",
+   "text": "The only hitter of the 1960s to collect 180 hits and score 65 runs or fewer: Matty Alou, 1968 — 185 H, 59 R.",
+   "ours": [
+    "matty alou|1968"
+   ],
+   "stathead": [
+    "matty alou|1968"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F021",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&comp_type=reg&ccomp[1]=gt&cval[1]=180&cstat[1]=b_h&ccomp[2]=lt&cval[2]=65&cstat[2]=b_r"
+  },
+  {
+   "decade": "1960s",
+   "n": 4,
+   "kind": "only",
+   "rule": "k300_no20",
+   "text": "The only pitcher of the 1960s to strike out 300 without winning 20: Sam McDowell, 1965 — 325 K, 17-11.",
+   "ours": [
+    "sam mcdowell|1965"
+   ],
+   "stathead": [
+    "sam mcdowell|1965"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F022",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=300&cstat[1]=p_so&ccomp[2]=lt&cval[2]=19&cstat[2]=p_w"
+  },
+  {
+   "decade": "1960s",
+   "n": 9,
+   "kind": "only",
+   "rule": "rbi_low_ops",
+   "text": "The only hitter of the 1960s to drive in 100 runs with an OPS under .700: Joe Pepitone, 1964 — 100 RBI, .699 OPS.",
+   "ours": [
+    "joe pepitone|1964"
+   ],
+   "stathead": [
+    "joe pepitone|1964"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F023",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&comp_type=reg&ccomp[1]=gt&cval[1]=100&cstat[1]=b_rbi&ccomp[2]=lt&cval[2]=0.699&cstat[2]=b_onbase_plus_slugging"
+  },
+  {
+   "decade": "1960s",
+   "n": 13,
+   "kind": "only",
+   "rule": "slap_hitter",
+   "text": "The only hitter of the 1960s to bat .310 while slugging under .380 (500+ PA): Curt Flood, 1964 — .311 AVG, .378 SLG.",
+   "ours": [
+    "curt flood|1964"
+   ],
+   "stathead": [
+    "curt flood|1964"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F024",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&comp_type=reg&ccomp[1]=gt&cval[1]=500&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.310&cstat[2]=b_batting_avg&ccomp[3]=lt&cval[3]=0.379&cstat[3]=b_slugging_perc"
+  },
+  {
+   "decade": "1960s",
+   "n": 18,
+   "kind": "pair",
+   "rule": "hr_no_doubles",
+   "text": "Only two hitters of the 1960s hit 35+ homers with 15 doubles or fewer: Harmon Killebrew (1964, 49 HR, 11 2B); Jim Lemon (1960, 38 HR, 10 2B).",
+   "ours": [
+    "harmon killebrew|1964",
+    "jim lemon|1960"
+   ],
+   "stathead": [
+    "harmon killebrew|1964",
+    "jim lemon|1960"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F025",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1960&year_max=1969&comp_type=reg&ccomp[1]=gt&cval[1]=35&cstat[1]=b_hr&ccomp[2]=lt&cval[2]=15&cstat[2]=b_doubles"
+  },
+  {
+   "decade": "1970s",
+   "n": 1,
+   "kind": "only",
+   "rule": "k_no_wins",
+   "text": "The only pitcher of the 1970s to strike out 200 and win 9 games or fewer: Bob Johnson, 1970 — 206 K, 8-13.",
+   "ours": [
+    "bob johnson|1970"
+   ],
+   "stathead": [
+    "bob johnson|1970"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F026",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=200&cstat[1]=p_so&ccomp[2]=lt&cval[2]=9&cstat[2]=p_w"
+  },
+  {
+   "decade": "1970s",
+   "n": 3,
+   "kind": "only",
+   "rule": "doubles_no_hr",
+   "text": "The only hitter of the 1970s to hit 45 doubles and 5 homers or fewer: Pete Rose, 1974 — 45 2B, 3 HR.",
+   "ours": [
+    "pete rose|1974"
+   ],
+   "stathead": [
+    "pete rose|1974"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F027",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&comp_type=reg&ccomp[1]=gt&cval[1]=45&cstat[1]=b_doubles&ccomp[2]=lt&cval[2]=5&cstat[2]=b_hr"
+  },
+  {
+   "decade": "1970s",
+   "n": 5,
+   "kind": "pair",
+   "rule": "bb_and_k",
+   "text": "Only two hitters of the 1970s drew 100 walks and struck out 140 times: Mike Schmidt (1975, 101 BB, 180 K); Mike Schmidt (1976, 100 BB, 149 K).",
+   "ours": [
+    "mike schmidt|1975",
+    "mike schmidt|1976"
+   ],
+   "stathead": [
+    "mike schmidt|1975",
+    "mike schmidt|1976"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F028",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&comp_type=reg&ccomp[1]=gt&cval[1]=100&cstat[1]=b_bb&ccomp[2]=gt&cval[2]=140&cstat[2]=b_so"
+  },
+  {
+   "decade": "1970s",
+   "n": 8,
+   "kind": "few",
+   "rule": "closer_100k",
+   "text": "Just three pitchers of the 1970s saved 35 games and struck out 100: John Hiller (1973, 38 SV, 124 K in 125.1 IP); Rollie Fingers (1977, 35 SV, 113 K in 132.1 IP); Bruce Sutter (1979, 37 SV, 110 K in 101.1 IP).",
+   "ours": [
+    "john hiller|1973",
+    "rollie fingers|1977",
+    "bruce sutter|1979"
+   ],
+   "stathead": [
+    "john hiller|1973",
+    "rollie fingers|1977",
+    "bruce sutter|1979"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F029",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=35&cstat[1]=p_sv&ccomp[2]=gt&cval[2]=100&cstat[2]=p_so"
+  },
+  {
+   "decade": "1970s",
+   "n": 18,
+   "kind": "few",
+   "rule": "hr_no_doubles",
+   "text": "Just three hitters of the 1970s hit 35+ homers with 15 doubles or fewer: Frank Howard (1970, 44 HR, 15 2B); Hank Aaron (1973, 40 HR, 12 2B); Dave Kingman (1976, 37 HR, 14 2B).",
+   "ours": [
+    "frank howard|1970",
+    "hank aaron|1973",
+    "dave kingman|1976"
+   ],
+   "stathead": [
+    "frank howard|1970",
+    "henry aaron|1973",
+    "dave kingman|1976"
+   ],
+   "verdict": "DISAGREE",
+   "note": "not on Stathead: hank aaron|1973; Stathead also has: henry aaron|1973",
+   "provenance": "F030",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1970&year_max=1979&comp_type=reg&ccomp[1]=gt&cval[1]=35&cstat[1]=b_hr&ccomp[2]=lt&cval[2]=15&cstat[2]=b_doubles"
+  },
+  {
+   "decade": "1980s",
+   "n": 1,
+   "kind": "only",
+   "rule": "k_no_wins",
+   "text": "The only pitcher of the 1980s to strike out 200 and win 9 games or fewer: Nolan Ryan Jr., 1987 — 270 K, 8-16.",
+   "ours": [
+    "nolan ryan|1987"
+   ],
+   "stathead": [
+    "nolan ryan|1987"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F031",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=200&cstat[1]=p_so&ccomp[2]=lt&cval[2]=9&cstat[2]=p_w"
+  },
+  {
+   "decade": "1980s",
+   "n": 6,
+   "kind": "pair",
+   "rule": "k300_no20",
+   "text": "Only two pitchers of the 1980s struck out 300 without winning 20: Mike Scott (1986, 306 K, 18-10); Nolan Ryan Jr. (1989, 301 K, 16-10).",
+   "ours": [
+    "mike scott|1986",
+    "nolan ryan|1989"
+   ],
+   "stathead": [
+    "mike scott|1986",
+    "nolan ryan|1989"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F032",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=300&cstat[1]=p_so&ccomp[2]=lt&cval[2]=19&cstat[2]=p_w"
+  },
+  {
+   "decade": "1980s",
+   "n": 10,
+   "kind": "only",
+   "rule": "twenty_losses",
+   "text": "The only pitcher of the 1980s to lose 20 games: Brian Kingman, 1980 — 8-20.",
+   "ours": [
+    "brian kingman|1980"
+   ],
+   "stathead": [
+    "brian kingman|1980"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F033",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=20&cstat[1]=p_l"
+  },
+  {
+   "decade": "1980s",
+   "n": 14,
+   "kind": "pair",
+   "rule": "doubles_no_hr",
+   "text": "Only two hitters of the 1980s hit 45 doubles and 5 homers or fewer: Wade Boggs (1989, 51 2B, 3 HR); Wade Boggs (1988, 45 2B, 5 HR).",
+   "ours": [
+    "wade boggs|1989",
+    "wade boggs|1988"
+   ],
+   "stathead": [
+    "wade boggs|1988",
+    "wade boggs|1989"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F034",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&ccomp[1]=gt&cval[1]=45&cstat[1]=b_doubles&ccomp[2]=lt&cval[2]=5&cstat[2]=b_hr"
+  },
+  {
+   "decade": "1980s",
+   "n": 20,
+   "kind": "pair",
+   "rule": "avg_no_walks",
+   "text": "Only two hitters of the 1980s batted .320 or better with 25 walks or fewer (500+ PA): Mickey Rivers (1980, .333, 20 BB); Kirby Puckett (1988, .356, 23 BB).",
+   "ours": [
+    "mickey rivers|1980",
+    "kirby puckett|1988"
+   ],
+   "stathead": [
+    "kirby puckett|1988",
+    "mickey rivers|1980"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F035",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1980&year_max=1989&comp_type=reg&ccomp[1]=gt&cval[1]=500&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.320&cstat[2]=b_batting_avg&ccomp[3]=lt&cval[3]=25&cstat[3]=b_bb"
+  },
+  {
+   "decade": "1990s",
+   "n": 1,
+   "kind": "only",
+   "rule": "hits_few_runs",
+   "text": "The only hitter of the 1990s to collect 180 hits and score 65 runs or fewer: Garret Anderson, 1998 — 183 H, 62 R.",
+   "ours": [
+    "garret anderson|1998"
+   ],
+   "stathead": [
+    "garret anderson|1998"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F036",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&comp_type=reg&ccomp[1]=gt&cval[1]=180&cstat[1]=b_h&ccomp[2]=lt&cval[2]=65&cstat[2]=b_r"
+  },
+  {
+   "decade": "1990s",
+   "n": 6,
+   "kind": "only",
+   "rule": "twenty_five_wins",
+   "text": "The only pitcher of the 1990s to win 25 games: Bob Welch, 1990 — 27-6.",
+   "ours": [
+    "bob welch|1990"
+   ],
+   "stathead": [
+    "bob welch|1990"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F037",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=25&cstat[1]=p_w"
+  },
+  {
+   "decade": "1990s",
+   "n": 11,
+   "kind": "few",
+   "rule": "zero_hr_full",
+   "text": "Just three hitters of the 1990s played a full season without a single home run (600+ PA): Otis Nixon (1995, 0 HR in 656 PA); Luis Polonia (1992, 0 HR in 635 PA); Lance Johnson (1991, 0 HR in 624 PA).",
+   "ours": [
+    "otis nixon|1995",
+    "luis polonia|1992",
+    "lance johnson|1991"
+   ],
+   "stathead": [
+    "lance johnson|1991",
+    "otis nixon|1995",
+    "luis polonia|1992"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F038",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&comp_type=reg&ccomp[1]=gt&cval[1]=600&cstat[1]=b_pa&ccomp[2]=lt&cval[2]=0&cstat[2]=b_hr"
+  },
+  {
+   "decade": "1990s",
+   "n": 20,
+   "kind": "few",
+   "rule": "doubles_no_hr",
+   "text": "Just three hitters of the 1990s hit 45 doubles and 5 homers or fewer: Mark Grudzielanek (1997, 54 2B, 4 HR); Jody Reed (1990, 45 2B, 5 HR); Chuck Knoblauch (1994, 45 2B, 5 HR).",
+   "ours": [
+    "mark grudzielanek|1997",
+    "jody reed|1990",
+    "chuck knoblauch|1994"
+   ],
+   "stathead": [
+    "chuck knoblauch|1994",
+    "jody reed|1990",
+    "mark grudzielanek|1997"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F039",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&comp_type=reg&ccomp[1]=gt&cval[1]=45&cstat[1]=b_doubles&ccomp[2]=lt&cval[2]=5&cstat[2]=b_hr"
+  },
+  {
+   "decade": "1990s",
+   "n": 24,
+   "kind": "few",
+   "rule": "sb_low_obp",
+   "text": "Just four hitters of the 1990s stole 40+ bases with an on-base under .300 (400+ PA): Vince Coleman (1994, 50 SB, .285 OBP); Delino DeShields (1996, 48 SB, .288 OBP); Brian L. Hunter (1999, 44 SB, .280 OBP); Brian L. Hunter (1998, 42 SB, .298 OBP).",
+   "ours": [
+    "vince coleman|1994",
+    "delino deshields|1996",
+    "brian l hunter|1999",
+    "brian l hunter|1998"
+   ],
+   "stathead": [
+    "delino deshields|1996",
+    "brian hunter|1998",
+    "brian hunter|1999",
+    "vince coleman|1994"
+   ],
+   "verdict": "DISAGREE",
+   "note": "not on Stathead: brian l hunter|1999, brian l hunter|1998; Stathead also has: brian hunter|1998, brian hunter|1999",
+   "provenance": "F040",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=1990&year_max=1999&comp_type=reg&ccomp[1]=gt&cval[1]=400&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=40&cstat[2]=b_sb&ccomp[3]=lt&cval[3]=0.299&cstat[3]=b_onbase_perc"
+  },
+  {
+   "decade": "2000s",
+   "n": 1,
+   "kind": "only",
+   "rule": "k300_no20",
+   "text": "The only pitcher of the 2000s to strike out 300 without winning 20: Randy Johnson, 2000 — 347 K, 19-7.",
+   "ours": [
+    "randy johnson|2000"
+   ],
+   "stathead": [
+    "randy johnson|2000"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F041",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=300&cstat[1]=p_so&ccomp[2]=lt&cval[2]=19&cstat[2]=p_w"
+  },
+  {
+   "decade": "2000s",
+   "n": 4,
+   "kind": "pair",
+   "rule": "hits_few_runs",
+   "text": "Only two hitters of the 2000s collected 180 hits and score 65 runs or fewer: Delmon Young (2007, 186 H, 65 R); Carlos Lee (2009, 183 H, 65 R).",
+   "ours": [
+    "delmon young|2007",
+    "carlos lee|2009"
+   ],
+   "stathead": [
+    "carlos lee|2009",
+    "delmon young|2007"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F042",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&comp_type=reg&ccomp[1]=gt&cval[1]=180&cstat[1]=b_h&ccomp[2]=lt&cval[2]=65&cstat[2]=b_r"
+  },
+  {
+   "decade": "2000s",
+   "n": 7,
+   "kind": "only",
+   "rule": "obp_no_power",
+   "text": "The only hitter of the 2000s to post a .400 on-base with 5 homers or fewer (500+ PA): Luis Castillo, 2000 — .418 OBP, 2 HR.",
+   "ours": [
+    "luis castillo|2000"
+   ],
+   "stathead": [
+    "luis castillo|2000"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F043",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&comp_type=reg&ccomp[1]=gt&cval[1]=500&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.400&cstat[2]=b_onbase_perc&ccomp[3]=lt&cval[3]=5&cstat[3]=b_hr"
+  },
+  {
+   "decade": "2000s",
+   "n": 10,
+   "kind": "only",
+   "rule": "avg_no_walks",
+   "text": "The only hitter of the 2000s to bat .320 or better with 25 walks or fewer (500+ PA): Robinson Canó, 2006 — .342, 18 BB.",
+   "ours": [
+    "robinson cano|2006"
+   ],
+   "stathead": [
+    "robinson cano|2006"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F044",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&comp_type=reg&ccomp[1]=gt&cval[1]=500&cstat[1]=b_pa&ccomp[2]=gt&cval[2]=0.320&cstat[2]=b_batting_avg&ccomp[3]=lt&cval[3]=25&cstat[3]=b_bb"
+  },
+  {
+   "decade": "2000s",
+   "n": 16,
+   "kind": "few",
+   "rule": "two_thirty_hits",
+   "text": "Just four hitters of the 2000s collected 230 hits: Ichiro Suzuki (2004, 262 H); Ichiro Suzuki (2001, 242 H); Darin Erstad (2000, 240 H); Ichiro Suzuki (2007, 238 H).",
+   "ours": [
+    "ichiro suzuki|2004",
+    "ichiro suzuki|2001",
+    "darin erstad|2000",
+    "ichiro suzuki|2007"
+   ],
+   "stathead": [
+    "darin erstad|2000",
+    "ichiro suzuki|2001",
+    "ichiro suzuki|2004",
+    "ichiro suzuki|2007"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F045",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2000&year_max=2009&comp_type=reg&ccomp[1]=gt&cval[1]=230&cstat[1]=b_h"
+  },
+  {
+   "decade": "2010s",
+   "n": 1,
+   "kind": "only",
+   "rule": "zero_hr_full",
+   "text": "The only hitter of the 2010s to play a full season without a single home run (600+ PA): Elvis Andrus, 2010 — 0 HR in 674 PA.",
+   "ours": [
+    "elvis andrus|2010"
+   ],
+   "stathead": [
+    "elvis andrus|2010"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F046",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&comp_type=reg&ccomp[1]=gt&cval[1]=600&cstat[1]=b_pa&ccomp[2]=lt&cval[2]=0&cstat[2]=b_hr"
+  },
+  {
+   "decade": "2010s",
+   "n": 2,
+   "kind": "pair",
+   "rule": "bb_and_k",
+   "text": "Only two hitters of the 2010s drew 100 walks and struck out 180 times: Aaron Judge (2017, 127 BB, 208 K); Adam Dunn (2012, 105 BB, 222 K).",
+   "ours": [
+    "aaron judge|2017",
+    "adam dunn|2012"
+   ],
+   "stathead": [
+    "aaron judge|2017",
+    "adam dunn|2012"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F047",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&comp_type=reg&ccomp[1]=gt&cval[1]=100&cstat[1]=b_bb&ccomp[2]=gt&cval[2]=180&cstat[2]=b_so"
+  },
+  {
+   "decade": "2010s",
+   "n": 3,
+   "kind": "only",
+   "rule": "rbi_low_ops",
+   "text": "The only hitter of the 2010s to drive in 100 runs with an OPS under .700: Albert Pujols, 2017 — 101 RBI, .672 OPS.",
+   "ours": [
+    "albert pujols|2017"
+   ],
+   "stathead": [
+    "albert pujols|2017"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F048",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&comp_type=reg&ccomp[1]=gt&cval[1]=100&cstat[1]=b_rbi&ccomp[2]=lt&cval[2]=0.699&cstat[2]=b_onbase_plus_slugging"
+  },
+  {
+   "decade": "2010s",
+   "n": 4,
+   "kind": "only",
+   "rule": "twenty_twenty_low_avg",
+   "text": "The only hitter of the 2010s to go 20-20 while batting under .230: Keon Broxton, 2017 — 20 HR, 21 SB, .220.",
+   "ours": [
+    "keon broxton|2017"
+   ],
+   "stathead": [
+    "keon broxton|2017"
+   ],
+   "verdict": "AGREE",
+   "note": "",
+   "provenance": "F049",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-batting-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&comp_type=reg&ccomp[1]=gt&cval[1]=20&cstat[1]=b_hr&ccomp[2]=gt&cval[2]=20&cstat[2]=b_sb&ccomp[3]=lt&cval[3]=0.229&cstat[3]=b_batting_avg"
+  },
+  {
+   "decade": "2010s",
+   "n": 6,
+   "kind": "only",
+   "rule": "era_under_3_no_wins",
+   "text": "The only pitcher of the 2010s to post an ERA under 3.00 and win 7 or fewer (162+ IP): Jeff Samardzija, 2014 — 2.99 ERA, 7-13.",
+   "ours": [
+    "jeff samardzija|2014"
+   ],
+   "stathead": [],
+   "verdict": "DISAGREE",
+   "note": "not on Stathead: jeff samardzija|2014",
+   "provenance": "F050",
+   "url": "https://www.sports-reference.com/stathead/baseball/player-pitching-season-finder.cgi?request=1&match=player_season&year_min=2010&year_max=2019&comp_type=reg&qualifiers=nomin&ccomp[1]=gt&cval[1]=162&cstat[1]=p_ip&ccomp[2]=lt&cval[2]=2.99&cstat[2]=p_earned_run_avg&ccomp[3]=lt&cval[3]=7&cstat[3]=p_w"
+  }
+ ]
+}
