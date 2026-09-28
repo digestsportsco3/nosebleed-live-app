@@ -147,13 +147,30 @@ const ALIAS = { py: "yds_hi", ptd: "td_hi", int: "int_hi", ry: "ry_hi", rec: "re
   rtd: "rtd_hi", rectd: "rectd_hi", scrim: "scrim_hi", ff: "ff_hi", tot: "tot_hi", ppg: "ppg_hi", rpg: "rpg_hi", ft: "ft_hi", fgp: "fgp_hi", ftp: "ftp_hi",
   apg: "apg_hi", bpg: "bpg_hi", spg: "spg_hi", fg3: "fg3_hi", trb: "trb_hi", ast: "ast_hi", blk: "blk_hi", stl: "stl_hi", win: "wins_hi", loss: "loss_hi",
   opp: "stingy", diff: "diff_hi", worst: "diff_low", rush: "rush_hi", pass: "pass_hi" };
-function ruleKey(f) { const k = rawKey(f); return ANGLE[k] ? k : ALIAS[k] || k; }
+// Families by pattern, for rule names that carry their threshold (rec130, fg40...).
+const FAMILY = [[/_slow$/, "ry_slow"], [/^(c_|s_)?py|^yds\d|^x_py/, "yds_hi"], [/^(c_|s_)?ptd|^td\d|^x_ptd/, "td_hi"], [/^td30_int|^int_over_td/, "td_int"], [/^int\d|^x_int$/, "int_hi"],
+  [/^few_int|^x_int_rate_low/, "int_low"], [/^cmp|^x_cpct/, "cmp_hi"], [/^rate|^x_rate/, "rate_hi"], [/^ypa/, "ypa_hi"], [/^sacked|^sk\d|^x_sk$/, "sacked"],
+  [/^qb_rush\d|^x_qb_ry|^dual/, "qb_rush"], [/^qb_rushtd/, "qb_rtd"], [/^(c_|s_)?ry|^rush\d|^x_ry$/, "ry_hi"], [/^rush\d+_slow|^rtd\d+_slow/, "ry_slow"],
+  [/^rtd/, "rtd_hi"], [/^car/, "car_hi"], [/^ypc|^x_ypc/, "ypc_hi"], [/^rb_rec|^x_rb_rec/, "rb_rec"], [/^scrim|^x_scrim|^rush1000_rec1000/, "scrim_hi"],
+  [/^(c_|s_)?rec\d+_short|^rec100_short/, "rec_short"], [/^(c_|s_)?rec\d|^x_rec$|^tgt/, "rec_hi"], [/^(c_|s_)?recy|^x_recy/, "recy_hi"], [/^(c_)?rectd|^td10_fewrec/, "rectd_hi"],
+  [/^ypr/, "ypr_hi"], [/^yds1000_fewrec/, "recy_few"], [/^te|^x_te/, "te_1000"], [/^wr_rush|^x_wr_ry/, "rtd_rec"], [/^x_dint|^pd/, "dint_hi"], [/^dtd/, "int_td"],
+  [/^(c_|s_)?dsk|^sack\d|^x_dsk/, "sacks_hi"], [/^tkl|^x_tkl/, "tkl_hi"], [/^ff/, "ff_hi"], [/^fum|^x_fum/, "fumbles_hi"], [/^saf/, "safety"],
+  [/^fg_perfect/, "fg_perfect"], [/^(s_)?fg|^x_fgl/, "fgm_hi"], [/^kr|^x_kry/, "kr_avg"], [/^st_td/, "kr_td"], [/^apy/, "apy_hi"], [/^sack5_int5/, "stl_blk"]];
+function ruleKey(f) { const k = rawKey(f); if (ANGLE[k]) return k; if (ALIAS[k]) return ALIAS[k];
+  const raw = String(f.rule || ""); for (const [re, key] of FAMILY) if (re.test(raw)) return key; return k; }
 function rawKey(f) { return String(f.rule || "").replace(/^[a-z]+:/, "").replace(/:(most|school|old|young)\d*$/, "").replace(/^x_/, "").replace(/^tx_/, "").replace(/^t_/, "").replace(/^n_/, ""); }
 
+const PO = { po_dsk: "Playoff pass rush is what legacies are built on.", po_ptd: "Postseason touchdown passes are where quarterback legacies are argued.",
+  po_py: "Playoff passing volume feeds the big-game debate.", po_recy: "Playoff receiving production is highlight-reel nostalgia.", po_ry: "A playoff rushing run is the stuff of January legend." };
+const STL_BLK_FB = "Sacks and interceptions from one defender make a rare two-way unicorn.";
 function whyFor(f, i = 0) {
+  if (PO[f.rule]) return `${KIND[f.kind] ? KIND[f.kind][i % KIND[f.kind].length](f) : ""} ${PO[f.rule]}`.trim();
+  if (f.rule === "sack5_int5") return `${KIND[f.kind][i % KIND[f.kind].length](f)} ${STL_BLK_FB}`;
   const k = KIND[f.kind] || KIND.list;
   const frame = k[i % k.length](f);
   if (f.kind === "nearmiss" || f.kind === "age") return frame;
+  if (/_most$/.test(f.rule || "")) return `Rewards staying power: the most such seasons in the ${f.decade}. ${ANGLE[ruleKey(f)] || ""}`.trim();
+  if (/_least$/.test(f.rule || "")) return `A surprising gap in a great career; fans love a "wait, really?" stat.`;
   if (/:most/.test(f.rule || "")) return `A decade of consistency in one number; names the most reliable producer of the ${f.decade}.`;
   const angle = ANGLE[ruleKey(f)];
   return angle ? `${frame} ${angle}` : frame;

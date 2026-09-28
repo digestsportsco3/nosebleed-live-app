@@ -40,7 +40,7 @@ function onePage(d, facts, all, part, parts) {
   const c = d.counts || {};
   const volume = d.subject
     ? `${(c.regularSeasonGames || 0).toLocaleString()} regular-season + ${(c.playoffGames || 0).toLocaleString()} playoff games`
-    : Object.entries(c).map(([k, v]) => `${Number(v).toLocaleString()} ${k.replace(/([A-Z])/g, " $1").toLowerCase()}`).join(", ");
+    : Object.entries(c).map(([k, v]) => `${Number(v).toLocaleString()} ${k.replace(/_/g, " ").replace(/([A-Z])/g, " $1").toLowerCase()}`).join(", ");
   const short = part === 0 && all.length < 100 ? `<div class="short"><b>${all.length} lines, not 100.</b> ${esc(d.shortNote || "That is everything the record supports for these seasons: the categories that would produce more lines were not yet being kept. Nothing was padded.")}</div>` : "";
   return `
 <section class="page">
@@ -50,7 +50,7 @@ function onePage(d, facts, all, part, parts) {
   </div>
   ${short}
   <ol class="cols${facts.some((f) => f.why) ? " whys" : ""}" start="${part * 50 + 1}">${facts.map((f) => `<li class="${RED.has(f.kind) ? "red" : ""}"><span class="tag">${KIND[f.kind] || f.kind}</span>${fmt(f.text)}${f.why ? `<span class="why"><b>Why post:</b> ${esc(f.why)}</span>` : ""}</li>`).join("")}</ol>
-  <div class="foot"><b>Verified</b> — every line computed from complete official pulls; the rows behind each line are stored in <span class="mono">${esc(rel(d.file))}</span>. Full method on the last page.</div>
+  <div class="foot"><b>Verified</b> — ${d.source === "Stathead" ? "every line is a stored Stathead query result, re-checked row by row" : "every line computed from complete official pulls"}; the rows behind each line are stored in <span class="mono">${esc(rel(d.file))}</span>. Full method on the last page.</div>
 </section>`;
 }
 
@@ -66,6 +66,9 @@ const methodPage = `
   </div>
 </section>`;
 
+// Per-page auto-fit: a list that overflows its box steps its type down by
+// 0.1px until it fits, so a dense page never spills or clips.
+const FIT = `document.fonts.ready.then(function(){document.querySelectorAll("ol.cols").forEach(function(ol){var s=parseFloat(getComputedStyle(ol).fontSize),n=0;while((ol.scrollHeight>ol.clientHeight+1||ol.scrollWidth>ol.clientWidth+1)&&s>4.6&&n<60){s-=0.1;n++;ol.style.fontSize=s+"px";}});document.body.setAttribute("data-fit","1");});`;
 const fonts = fontsFile && fs.existsSync(fontsFile) ? fs.readFileSync(fontsFile, "utf8") : "";
 const css = `
   :root{ --paper:#EFECE3; --ink:#141414; --red:#C8102E; --rule:#C9C3B4; --muted:#5A564C; }
@@ -83,8 +86,8 @@ const css = `
   .short b{ color:var(--ink); }
   ol.cols{ column-count:4; column-gap:10px; column-fill:balance; flex:1 1 auto; min-height:0; margin:0; padding:0 0 0 12px; font-size:5.8pt; line-height:1.18; }
   ol.cols.whys{ column-count:3; font-size:6.2pt; line-height:1.17; }
-  .why{ display:block; font-style:italic; color:var(--muted); font-size:5.6pt; margin-top:0; }
-  .why b{ font-style:normal; font-family:Oswald,sans-serif; font-weight:600; letter-spacing:.06em; text-transform:uppercase; font-size:5.2pt; color:var(--red); }
+  .why{ display:block; font-style:italic; color:var(--muted); font-size:0.9em; margin-top:0; }
+  .why b{ font-style:normal; font-family:Oswald,sans-serif; font-weight:600; letter-spacing:.06em; text-transform:uppercase; font-size:0.93em; color:var(--red); }
   .part{ font-size:11pt; color:var(--muted); }
   li{ margin:0 0 2px; padding-right:2px; break-inside:avoid; }
   li::marker{ font-family:Oswald,sans-serif; font-weight:600; color:var(--red); font-size:6pt; }
@@ -97,5 +100,5 @@ const css = `
   .method .mtext{ font-size:9pt; line-height:1.45; columns:2; column-gap:28px; margin-top:10px; }
   .method .mtext p{ margin:0 0 8px; break-inside:avoid; }
 `;
-fs.writeFileSync(outFile, `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><title>${esc(docTitle)}</title>\n<style>${fonts}</style><style>${css}</style></head>\n<body>${docs.map(page).join("\n")}${methodPage}</body></html>`);
+fs.writeFileSync(outFile, `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><title>${esc(docTitle)}</title>\n<style>${fonts}</style><style>${css}</style></head>\n<body>${docs.map(page).join("\n")}${methodPage}<script>${FIT}</script></body></html>`);
 console.log(`Rendered ${docs.length} page(s) + method -> ${outFile}`);
