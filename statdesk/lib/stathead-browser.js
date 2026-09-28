@@ -132,14 +132,19 @@ class StatheadBrowser {
         const cells = {};
         for (const c of tr.querySelectorAll("th[data-stat],td[data-stat]")) {
           cells[c.getAttribute("data-stat")] = (c.textContent || "").trim();
+          // Stable player / team id (e.g. MariDa00): names are not unique.
+          const idv = c.getAttribute("data-append-csv"); if (idv && !cells._id) cells._id = idv;
         }
         if (Object.keys(cells).length >= 2) rows.push(cells);
       }
       const m = body.match(/Showing\s+([\d,]+)\s+of\s+([\d,]+)/i);
       const n = (x) => Number(String(x).replace(/,/g, ""));
+      // Newer finder pages show 200 rows and an offset link instead of a
+      // "Showing X of Y" line; the link's presence means there are more.
+      const nextA = document.querySelector("a[href*='offset=']");
       return { headers, rows, missing: false, isFinderPage: true,
-               reported: m ? n(m[2]) : null,
-               capped: m ? n(m[1]) < n(m[2]) : /limited to the first/i.test(body) };
+               reported: m ? n(m[2]) : null, next: nextA ? nextA.href : null,
+               capped: m ? n(m[1]) < n(m[2]) : (!!nextA || /limited to the first/i.test(body)) };
     });
     // Stathead renders no table at all when nothing matches, which is a real
     // answer, not a breakage. Only treat it as an error if the page does not
@@ -160,9 +165,21 @@ class StatheadBrowser {
     const id = `${this.idPrefix}${String(this.n).padStart(3, "0")}`;
     const rec = { id, ts: new Date().toISOString(), url, label, note, emptyResult: !!data.emptyResult,
                   headers: data.headers, rows: data.rows, rowCount: data.rows.length,
-                  reported: data.reported, capped: data.capped };
+                  reported: data.reported, capped: data.capped, next: data.next || null };
     if (this.dir) this.save(rec);
     return rec;
+  }
+
+  // Follow offset pages up to maxPages. The record says whether the set is
+  // complete; an incomplete set can never support an "only" or a count.
+  async queryAll(url, { label = "", note = "", maxPages = 3 } = {}) {
+    const first = await this.query(url, { label, note });
+    const rows = [...first.rows]; let rec = first; let pages = 1;
+    while (rec.next && pages < maxPages) {
+      rec = await this.query(rec.next, { label: `${label} (page ${pages + 1})`, note });
+      rows.push(...rec.rows); pages += 1;
+    }
+    return { ...first, rows, rowCount: rows.length, pages, complete: !rec.next, capped: !!rec.next };
   }
 
   save(rec) {
