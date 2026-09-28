@@ -542,19 +542,28 @@ function teamFacts(seasons, decade) {
 function select(cands, want) {
   const sorted = [...cands].sort((a, b) => b.score - a.score);
   const perPlayer = new Map(); const perRule = new Map(); const perKind = new Map();
-  const out = [];
-  const cap = { player: 3, rule: 3, list: 22, nearmiss: 8, total: 14, team: 4, season: 14, age: 14 };
-  for (const f of sorted) {
-    if (out.length >= want) break;
-    if ((perRule.get(f.rule) || 0) >= cap.rule) continue;
-    if (cap[f.kind] != null && (perKind.get(f.kind) || 0) >= cap[f.kind]) continue;
-    if (f.players.some((p) => (perPlayer.get(p.id) || 0) >= cap.player)) continue;
-    out.push(f);
-    perRule.set(f.rule, (perRule.get(f.rule) || 0) + 1); perKind.set(f.kind, (perKind.get(f.kind) || 0) + 1);
-    for (const p of f.players) perPlayer.set(p.id, (perPlayer.get(p.id) || 0) + 1);
-  }
-  // Order for the page: hitting and pitching interleaved by score, so the top
-  // of the page is not all one thing.
+  const out = []; const taken = new Set();
+  const pass = (cap) => {
+    for (const f of sorted) {
+      if (out.length >= want) break;
+      if (taken.has(f)) continue;
+      if ((perRule.get(f.rule) || 0) >= cap.rule) continue;
+      if (cap[f.kind] != null && (perKind.get(f.kind) || 0) >= cap[f.kind]) continue;
+      if (f.players.some((p) => (perPlayer.get(p.id) || 0) >= cap.player)) continue;
+      out.push(f); taken.add(f);
+      perRule.set(f.rule, (perRule.get(f.rule) || 0) + 1); perKind.set(f.kind, (perKind.get(f.kind) || 0) + 1);
+      for (const p of f.players) perPlayer.set(p.id, (perPlayer.get(p.id) || 0) + 1);
+    }
+  };
+  // First pass keeps the page varied: no player more than three times, no
+  // rule more than three, kinds capped. Decades whose stars satisfy many
+  // rules at once (Williams, Musial and Feller cover a lot of the 1940s)
+  // come up short under those caps, so a second pass relaxes them to fill
+  // to a hundred — every line is still a true, computed fact; the page is
+  // just a little less varied at the bottom.
+  pass({ player: 3, rule: 3, list: 22, nearmiss: 8, total: 14, team: 4, season: 14, age: 14 });
+  if (out.length < want) pass({ player: 6, rule: 5, list: 40, nearmiss: 8, total: 16, team: 4, season: 18, age: 14 });
+  if (out.length < want) pass({ player: 99, rule: 99 });
   return out.sort((a, b) => b.score - a.score).map((f, i) => ({ n: i + 1, ...f }));
 }
 
