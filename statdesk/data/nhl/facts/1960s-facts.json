@@ -1,0 +1,7054 @@
+{
+ "sport": "NHL",
+ "decade": "1960s",
+ "era": 2,
+ "seasons": [
+  "1960-61",
+  "1961-62",
+  "1962-63",
+  "1963-64",
+  "1964-65",
+  "1965-66",
+  "1966-67",
+  "1967-68",
+  "1968-69",
+  "1969-70"
+ ],
+ "candidates": 93,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450005,
+     "name": "Eddie Johnston",
+     "season": 1963,
+     "team": "BOS",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 18,
+     "L": 40,
+     "T": 12,
+     "SO": 6,
+     "GAA": 3.01456,
+     "GA": 211
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11,
+   "players": [
+    {
+     "id": 8450005,
+     "name": "Eddie Johnston"
+    }
+   ],
+   "seasons": [
+    1963
+   ],
+   "text": "The only goalie of the 1960s to lose 38 games: Eddie Johnston, 1963-64 — 18-40-12.",
+   "why": "A club of one in the 1960s; \"name another\" posts draw replies. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 2,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1968,
+     "GP": 76,
+     "W": 42,
+     "L": 18,
+     "T": 16,
+     "GF": 303,
+     "GA": 221,
+     "PCT": 0.65789
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.99671052631579,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "The only team of the 1960s to score 3.8 goals a game: Boston Bruins, 1968-69 — 3.99 per game.",
+   "why": "Nobody else in the 1960s did it, and exclusivity is what gets a post shared. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 3,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446814,
+     "name": "Norm Ferguson",
+     "season": 1968,
+     "team": "OAK",
+     "pos": "R",
+     "GP": 76,
+     "G": 34,
+     "A": 20,
+     "P": 54,
+     "PIM": 31,
+     "PM": -11,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 217,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.85,
+   "players": [
+    {
+     "id": 8446814,
+     "name": "Norm Ferguson"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "The only player of the 1960s to score 30 goals in their first NHL season: Norm Ferguson, 1968-69 — 34 goals.",
+   "why": "A club of one in the 1960s; \"name another\" posts draw replies. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 4,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1969,
+     "team": "CHI",
+     "GP": 63,
+     "A": 2,
+     "PIM": 2,
+     "W": 38,
+     "L": 17,
+     "T": 8,
+     "SO": 15,
+     "GAA": 2.17046,
+     "SVP": 0.93182,
+     "SV": 1859,
+     "GA": 136
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.375,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "The only goalie of the 1960s to record 10 shutouts: Tony Esposito, 1969-70 — 15 shutouts in 63 games.",
+   "why": "Nobody else in the 1960s did it, and exclusivity is what gets a post shared. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 5,
+   "rule": "pog_gaa",
+   "group": "PO",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1968,
+     "team": "STL",
+     "GP": 10,
+     "A": 1,
+     "PIM": 0,
+     "W": 8,
+     "L": 2,
+     "T": 0,
+     "SO": 3,
+     "GAA": 1.4259,
+     "SVP": 0.94964,
+     "SV": 264,
+     "GA": 14
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.175327863104005,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "The only goalie of the 1960s to post a goals-against average under 1.60 in one postseason (10+ games): Jacques Plante, 1968-69 — 1.43 GAA in 10 games.",
+   "why": "A club of one in the 1960s; \"name another\" posts draw replies. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 6,
+   "rule": "g_first_so",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449825,
+     "name": "Les Binkley",
+     "season": 1967,
+     "team": "PIT",
+     "GP": 54,
+     "A": 0,
+     "PIM": 0,
+     "W": 20,
+     "L": 24,
+     "T": 10,
+     "SO": 6,
+     "GAA": 2.86713,
+     "SVP": 0.90536,
+     "SV": 1435,
+     "GA": 150
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.15,
+   "players": [
+    {
+     "id": 8449825,
+     "name": "Les Binkley"
+    }
+   ],
+   "seasons": [
+    1967
+   ],
+   "text": "The only goalie of the 1960s to record 6 shutouts in their first NHL season: Les Binkley, 1967-68 — 6 shutouts.",
+   "why": "Nobody else in the 1960s did it, and exclusivity is what gets a post shared. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 7,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues",
+     "season": 1968,
+     "GP": 76,
+     "W": 37,
+     "L": 25,
+     "T": 14,
+     "GF": 204,
+     "GA": 157,
+     "PCT": 0.57894
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.121019108280255,
+   "players": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "The only team of the 1960s to allow fewer than 2.2 goals a game: St. Louis Blues, 1968-69 — 2.07 per game.",
+   "why": "A club of one in the 1960s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 8,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings",
+     "season": 1969,
+     "GP": 76,
+     "W": 14,
+     "L": 52,
+     "T": 10,
+     "GF": 168,
+     "GA": 290,
+     "PCT": 0.25
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1961,
+     "GP": 70,
+     "W": 15,
+     "L": 47,
+     "T": 8,
+     "GF": 177,
+     "GA": 306,
+     "PCT": 0.27142
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.875,
+   "players": [
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings"
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1969,
+    1961
+   ],
+   "text": "Only two teams of the 1960s finished with a points percentage under .300: Los Angeles Kings (1969-70: 14-52-10, .250); Boston Bruins (1961-62: 15-47-8, .271).",
+   "why": "A club of two is a ready-made debate. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 9,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 67,
+     "G": 21,
+     "A": 43,
+     "P": 64,
+     "PIM": 133,
+     "PM": 55,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 285,
+     "age": 20
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1960,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 68,
+     "G": 19,
+     "A": 34,
+     "P": 53,
+     "PIM": 94,
+     "PM": 27,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 205,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita"
+    }
+   ],
+   "seasons": [
+    1968,
+    1960
+   ],
+   "text": "Only two players of the 1960s recorded 52 points at age 20 or younger: Bobby Orr (1968-69: 64 points at 20); Stan Mikita (1960-61: 53 points at 20).",
+   "why": "Two names invite the \"whose season was better?\" argument. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 10,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1961,
+     "team": "MTL",
+     "GP": 70,
+     "A": 0,
+     "PIM": 14,
+     "W": 42,
+     "L": 14,
+     "T": 14,
+     "SO": 4,
+     "GAA": 2.37142,
+     "GA": 166
+    },
+    {
+     "id": 8449859,
+     "name": "Roger Crozier",
+     "season": 1964,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 10,
+     "W": 40,
+     "L": 22,
+     "T": 7,
+     "SO": 6,
+     "GAA": 2.42009,
+     "SVP": 0.91299,
+     "SV": 1763,
+     "GA": 168
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.05,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    },
+    {
+     "id": 8449859,
+     "name": "Roger Crozier"
+    }
+   ],
+   "seasons": [
+    1961,
+    1964
+   ],
+   "text": "Only two goalies of the 1960s won 40 games: Jacques Plante (1961-62: 42-14-14); Roger Crozier (1964-65: 40-22-7).",
+   "why": "A club of two is a ready-made debate. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1960s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1960,
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1960,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 67,
+     "G": 31,
+     "A": 25,
+     "P": 56,
+     "PIM": 43,
+     "PM": 5,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 309,
+     "age": 22
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1961,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 70,
+     "G": 50,
+     "A": 34,
+     "P": 84,
+     "PIM": 35,
+     "PM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 375,
+     "age": 23
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1962,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 31,
+     "A": 31,
+     "P": 62,
+     "PIM": 27,
+     "PM": 0,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 305,
+     "age": 24
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1963,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 70,
+     "G": 43,
+     "A": 44,
+     "P": 87,
+     "PIM": 48,
+     "PM": 14,
+     "PPG": 12,
+     "SHG": 4,
+     "GWG": 5,
+     "S": 408,
+     "age": 25
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 61,
+     "G": 39,
+     "A": 32,
+     "P": 71,
+     "PIM": 32,
+     "PM": 23,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 368,
+     "age": 26
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 54,
+     "A": 43,
+     "P": 97,
+     "PIM": 66,
+     "PM": 19,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 351,
+     "age": 27
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 66,
+     "G": 52,
+     "A": 28,
+     "P": 80,
+     "PIM": 52,
+     "PM": 28,
+     "PPG": 18,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 320,
+     "age": 28
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1967,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 71,
+     "G": 44,
+     "A": 31,
+     "P": 75,
+     "PIM": 39,
+     "PM": 13,
+     "PPG": 8,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 367,
+     "age": 29
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1969,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 61,
+     "G": 38,
+     "A": 29,
+     "P": 67,
+     "PIM": 8,
+     "PM": 20,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 8,
+     "S": 289,
+     "age": 31
+    }
+   ],
+   "text": "Bobby Hull scored 28+ goals in 10 straight seasons (1960-61 to 1969-70), the longest run of the 1960s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1960s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1960,
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1960,
+     "team": "DET",
+     "pos": "R",
+     "GP": 64,
+     "G": 23,
+     "A": 49,
+     "P": 72,
+     "PIM": 30,
+     "PM": -5,
+     "PPG": 6,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 357,
+     "age": 32
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1961,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 33,
+     "A": 44,
+     "P": 77,
+     "PIM": 54,
+     "PM": 12,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 7,
+     "S": 346,
+     "age": 33
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1962,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 48,
+     "P": 86,
+     "PIM": 100,
+     "PM": 23,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 351,
+     "age": 34
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1963,
+     "team": "DET",
+     "pos": "R",
+     "GP": 69,
+     "G": 26,
+     "A": 47,
+     "P": 73,
+     "PIM": 70,
+     "PM": -10,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 345,
+     "age": 35
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1964,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 29,
+     "A": 47,
+     "P": 76,
+     "PIM": 104,
+     "PM": 22,
+     "PPG": 13,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 341,
+     "age": 36
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1965,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 29,
+     "A": 46,
+     "P": 75,
+     "PIM": 83,
+     "PM": 19,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 274,
+     "age": 37
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1966,
+     "team": "DET",
+     "pos": "R",
+     "GP": 69,
+     "G": 25,
+     "A": 40,
+     "P": 65,
+     "PIM": 53,
+     "PM": -3,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 293,
+     "age": 38
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1967,
+     "team": "DET",
+     "pos": "R",
+     "GP": 74,
+     "G": 39,
+     "A": 43,
+     "P": 82,
+     "PIM": 53,
+     "PM": 12,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 301,
+     "age": 39
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1968,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 44,
+     "A": 59,
+     "P": 103,
+     "PIM": 58,
+     "PM": 45,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 284,
+     "age": 40
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1969,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 31,
+     "A": 40,
+     "P": 71,
+     "PIM": 58,
+     "PM": 23,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 5,
+     "S": 268,
+     "age": 41
+    }
+   ],
+   "text": "Gordie Howe recorded 60+ points in 10 straight seasons (1960-61 to 1969-70), the longest run of the 1960s.",
+   "why": "The longest run of the 1960s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "1960s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8446324,
+     "name": "Reg Fleming"
+    }
+   ],
+   "seasons": [
+    1963,
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "season": 1963,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 61,
+     "G": 3,
+     "A": 6,
+     "P": 9,
+     "PIM": 140,
+     "PM": 3,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 75,
+     "age": 27
+    },
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "season": 1964,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 67,
+     "G": 18,
+     "A": 23,
+     "P": 41,
+     "PIM": 140,
+     "PM": 2,
+     "PPG": 1,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 178,
+     "age": 28
+    },
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "season": 1965,
+     "team": "BOS,NYR",
+     "pos": "D",
+     "GP": 69,
+     "G": 14,
+     "A": 20,
+     "P": 34,
+     "PIM": 166,
+     "PM": -31,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 151,
+     "age": 29
+    },
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "season": 1966,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 61,
+     "G": 15,
+     "A": 16,
+     "P": 31,
+     "PIM": 146,
+     "PM": -6,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 115,
+     "age": 30
+    },
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "season": 1967,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 73,
+     "G": 17,
+     "A": 7,
+     "P": 24,
+     "PIM": 132,
+     "PM": 4,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 143,
+     "age": 31
+    },
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "season": 1968,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 72,
+     "G": 8,
+     "A": 12,
+     "P": 20,
+     "PIM": 138,
+     "PM": -14,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 117,
+     "age": 32
+    },
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "season": 1969,
+     "team": "PHI",
+     "pos": "D",
+     "GP": 65,
+     "G": 9,
+     "A": 18,
+     "P": 27,
+     "PIM": 134,
+     "PM": -4,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 129,
+     "age": 33
+    }
+   ],
+   "text": "Reg Fleming racked up 105+ penalty minutes in 7 straight seasons (1963-64 to 1969-70), the longest run of the 1960s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita"
+    }
+   ],
+   "seasons": [
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1961,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 25,
+     "A": 52,
+     "P": 77,
+     "PIM": 97,
+     "PM": 12,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 208,
+     "age": 21
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1962,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 65,
+     "G": 31,
+     "A": 45,
+     "P": 76,
+     "PIM": 69,
+     "PM": 26,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 235,
+     "age": 22
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1963,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 39,
+     "A": 50,
+     "P": 89,
+     "PIM": 146,
+     "PM": 21,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 305,
+     "age": 23
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 28,
+     "A": 59,
+     "P": 87,
+     "PIM": 154,
+     "PM": 29,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 256,
+     "age": 24
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 68,
+     "G": 30,
+     "A": 48,
+     "P": 78,
+     "PIM": 58,
+     "PM": 6,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 244,
+     "age": 25
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 35,
+     "A": 62,
+     "P": 97,
+     "PIM": 12,
+     "PM": 40,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 279,
+     "age": 26
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1967,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 72,
+     "G": 40,
+     "A": 47,
+     "P": 87,
+     "PIM": 14,
+     "PM": 0,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 8,
+     "S": 303,
+     "age": 27
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 74,
+     "G": 30,
+     "A": 67,
+     "P": 97,
+     "PIM": 52,
+     "PM": 14,
+     "PPG": 7,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 299,
+     "age": 28
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1969,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 76,
+     "G": 39,
+     "A": 47,
+     "P": 86,
+     "PIM": 50,
+     "PM": 27,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 352,
+     "age": 29
+    }
+   ],
+   "text": "Stan Mikita averaged a point a game (60% of games) in 9 straight seasons (1961-62 to 1969-70), the longest run of the 1960s.",
+   "why": "The longest run of the 1960s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 15,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1961,
+     "GP": 70,
+     "W": 15,
+     "L": 47,
+     "T": 8,
+     "GF": 177,
+     "GA": 306,
+     "PCT": 0.27142
+    },
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings",
+     "season": 1969,
+     "GP": 76,
+     "W": 14,
+     "L": 52,
+     "T": 10,
+     "GF": 168,
+     "GA": 290,
+     "PCT": 0.25
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1965,
+     "GP": 70,
+     "W": 21,
+     "L": 43,
+     "T": 6,
+     "GF": 174,
+     "GA": 275,
+     "PCT": 0.34285
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.645,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings"
+    }
+   ],
+   "seasons": [
+    1961,
+    1969,
+    1965
+   ],
+   "text": "Only two teams of the 1960s got outscored by 100: Boston Bruins (2×, best 1961-62: 177-306); Los Angeles Kings (1969-70: 168-290).",
+   "why": "Two names invite the \"whose season was better?\" argument. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 16,
+   "rule": "g_sv2000",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "season": 1962,
+     "team": "NYR",
+     "GP": 67,
+     "A": 0,
+     "PIM": 14,
+     "W": 22,
+     "L": 34,
+     "T": 10,
+     "SO": 2,
+     "GAA": 3.27223,
+     "SVP": 0.91399,
+     "SV": 2306,
+     "GA": 217
+    },
+    {
+     "id": 8451528,
+     "name": "Gary Smith",
+     "season": 1969,
+     "team": "OAK",
+     "GP": 65,
+     "A": 1,
+     "PIM": 18,
+     "W": 19,
+     "L": 34,
+     "T": 12,
+     "SO": 2,
+     "GAA": 3.11514,
+     "SVP": 0.91255,
+     "SV": 2035,
+     "GA": 195
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.5765,
+   "players": [
+    {
+     "id": 8450152,
+     "name": "Gump Worsley"
+    },
+    {
+     "id": 8451528,
+     "name": "Gary Smith"
+    }
+   ],
+   "seasons": [
+    1962,
+    1969
+   ],
+   "text": "Only two goalies of the 1960s made 2,000 saves: Gump Worsley (1962-63: 2,306 saves); Gary Smith (1969-70: 2,035 saves).",
+   "why": "A club of two is a ready-made debate. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 17,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1968,
+     "team": "STL",
+     "GP": 37,
+     "A": 0,
+     "PIM": 2,
+     "W": 18,
+     "L": 12,
+     "T": 6,
+     "SO": 5,
+     "GAA": 1.96428,
+     "SVP": 0.94032,
+     "SV": 1103,
+     "GA": 70
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "season": 1967,
+     "team": "MTL",
+     "GP": 40,
+     "A": 0,
+     "PIM": 10,
+     "W": 21,
+     "L": 7,
+     "T": 8,
+     "SO": 6,
+     "GAA": 1.98109,
+     "SVP": 0.92209,
+     "SV": 864,
+     "GA": 73
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.127273097521739,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley"
+    }
+   ],
+   "seasons": [
+    1968,
+    1967
+   ],
+   "text": "Only two goalies of the 1960s posted a goals-against average under 2.00 (40% of games): Jacques Plante (1968-69: 1.96 GAA in 37 games); Gump Worsley (1967-68: 1.98 GAA in 40 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 18,
+   "rule": "h_pts_no_ppg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449159,
+     "name": "Pat Stapleton",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 75,
+     "G": 6,
+     "A": 50,
+     "P": 56,
+     "PIM": 44,
+     "PM": 19,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 112,
+     "age": 28
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1963,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 7,
+     "A": 46,
+     "P": 53,
+     "PIM": 84,
+     "PM": 31,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 104,
+     "age": 32
+    },
+    {
+     "id": 8449244,
+     "name": "Jerry Toppazzini",
+     "season": 1960,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 67,
+     "G": 15,
+     "A": 35,
+     "P": 50,
+     "PIM": 35,
+     "PM": -5,
+     "PPG": 0,
+     "SHG": 2,
+     "GWG": 1,
+     "S": 189,
+     "age": 29
+    },
+    {
+     "id": 8449481,
+     "name": "Tommy Williams",
+     "season": 1967,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 68,
+     "G": 18,
+     "A": 32,
+     "P": 50,
+     "PIM": 12,
+     "PM": 25,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 136,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.4,
+   "players": [
+    {
+     "id": 8449159,
+     "name": "Pat Stapleton"
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote"
+    },
+    {
+     "id": 8449244,
+     "name": "Jerry Toppazzini"
+    },
+    {
+     "id": 8449481,
+     "name": "Tommy Williams"
+    }
+   ],
+   "seasons": [
+    1968,
+    1963,
+    1960,
+    1967
+   ],
+   "text": "Just four players of the 1960s recorded 48 points with no power-play goals: Pat Stapleton (1968-69: 56 pts, 0 PPG); Pierre Pilote (1963-64: 53 pts, 0 PPG); Jerry Toppazzini (1960-61: 50 pts, 0 PPG); Tommy Williams (1967-68: 50 pts, 0 PPG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 19,
+   "rule": "t_ties",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers",
+     "season": 1969,
+     "GP": 76,
+     "W": 17,
+     "L": 35,
+     "T": 24,
+     "GF": 197,
+     "GA": 225,
+     "PCT": 0.38157
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1962,
+     "GP": 70,
+     "W": 28,
+     "L": 19,
+     "T": 23,
+     "GF": 225,
+     "GA": 183,
+     "PCT": 0.56428
+    },
+    {
+     "id": "Minnesota North Stars",
+     "name": "Minnesota North Stars",
+     "season": 1969,
+     "GP": 76,
+     "W": 19,
+     "L": 35,
+     "T": 22,
+     "GF": 224,
+     "GA": 257,
+     "PCT": 0.39473
+    },
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers",
+     "season": 1968,
+     "GP": 76,
+     "W": 20,
+     "L": 35,
+     "T": 21,
+     "GF": 174,
+     "GA": 225,
+     "PCT": 0.40131
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.6,
+   "players": [
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "Minnesota North Stars",
+     "name": "Minnesota North Stars"
+    }
+   ],
+   "seasons": [
+    1969,
+    1962,
+    1969,
+    1968
+   ],
+   "text": "Just three teams of the 1960s tied 20 games: Philadelphia Flyers (2×, best 1969-70: 17-35-24); Montréal Canadiens (1962-63: 28-19-23); Minnesota North Stars (1969-70: 19-35-22).",
+   "why": "A short list fans can recite; each name brings its own fan base. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 20,
+   "rule": "g_t",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1969,
+     "team": "PHI",
+     "GP": 62,
+     "A": 3,
+     "PIM": 14,
+     "W": 13,
+     "L": 29,
+     "T": 20,
+     "SO": 3,
+     "GAA": 2.79692,
+     "SVP": 0.92079,
+     "SV": 1988,
+     "GA": 171
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1962,
+     "team": "MTL",
+     "GP": 56,
+     "A": 1,
+     "PIM": 2,
+     "W": 22,
+     "L": 14,
+     "T": 19,
+     "SO": 5,
+     "GAA": 2.49397,
+     "SVP": 0.91187,
+     "SV": 1428,
+     "GA": 138
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "season": 1960,
+     "team": "CHI",
+     "GP": 70,
+     "A": 1,
+     "PIM": 0,
+     "W": 29,
+     "L": 24,
+     "T": 17,
+     "SO": 6,
+     "GAA": 2.53218,
+     "GA": 177
+    },
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1968,
+     "team": "PHI",
+     "GP": 58,
+     "A": 0,
+     "PIM": 8,
+     "W": 17,
+     "L": 23,
+     "T": 16,
+     "SO": 1,
+     "GAA": 2.69866,
+     "SVP": 0.92483,
+     "SV": 1858,
+     "GA": 151
+    },
+    {
+     "id": 8450020,
+     "name": "Cesare Maniago",
+     "season": 1969,
+     "team": "MNS",
+     "GP": 50,
+     "A": 0,
+     "PIM": 0,
+     "W": 9,
+     "L": 24,
+     "T": 16,
+     "SO": 2,
+     "GAA": 3.38867,
+     "SVP": 0.90827,
+     "SV": 1614,
+     "GA": 163
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "season": 1962,
+     "team": "CHI",
+     "GP": 66,
+     "A": 0,
+     "PIM": 0,
+     "W": 30,
+     "L": 20,
+     "T": 15,
+     "SO": 5,
+     "GAA": 2.47195,
+     "SVP": 0.91819,
+     "SV": 1807,
+     "GA": 161
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.5,
+   "players": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent"
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall"
+    },
+    {
+     "id": 8450020,
+     "name": "Cesare Maniago"
+    }
+   ],
+   "seasons": [
+    1969,
+    1962,
+    1960,
+    1968,
+    1969,
+    1962
+   ],
+   "text": "Just four goalies of the 1960s tied 15 games: Bernie Parent (2×, best 1969-70: 20 ties); Jacques Plante (1962-63: 19 ties); Glenn Hall (2×, best 1960-61: 17 ties); Cesare Maniago (1969-70: 16 ties).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 21,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 14,
+     "G": 13,
+     "A": 14,
+     "P": 27,
+     "PIM": 16,
+     "PM": 12,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 72,
+     "age": 27
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 14,
+     "G": 11,
+     "A": 8,
+     "P": 19,
+     "PIM": 2,
+     "PM": 13,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 49,
+     "age": 34
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 14,
+     "G": 10,
+     "A": 7,
+     "P": 17,
+     "PIM": 27,
+     "PM": 4,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 58,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.325,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk"
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1969,
+    1969,
+    1964
+   ],
+   "text": "Just three players of the 1960s scored 10 goals in one postseason: Phil Esposito (1969-70: 13 goals in 14 games); Johnny Bucyk (1969-70: 11 goals in 14 games); Bobby Hull (1964-65: 10 goals in 14 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 22,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447998,
+     "name": "Eric Nesterenko",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "R",
+     "GP": 56,
+     "G": 14,
+     "A": 16,
+     "P": 30,
+     "PIM": 63,
+     "PM": 6,
+     "PPG": 2,
+     "SHG": 6,
+     "GWG": 3,
+     "S": 86,
+     "age": 31
+    },
+    {
+     "id": 8448468,
+     "name": "Dave Keon",
+     "season": 1968,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 75,
+     "G": 27,
+     "A": 34,
+     "P": 61,
+     "PIM": 12,
+     "PM": 18,
+     "PPG": 3,
+     "SHG": 6,
+     "GWG": 6,
+     "S": 281,
+     "age": 28
+    },
+    {
+     "id": 8445505,
+     "name": "Bill Collins",
+     "season": 1969,
+     "team": "MNS",
+     "pos": "R",
+     "GP": 74,
+     "G": 29,
+     "A": 9,
+     "P": 38,
+     "PIM": 48,
+     "PM": 5,
+     "PPG": 2,
+     "SHG": 6,
+     "GWG": 2,
+     "S": 186,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.15,
+   "players": [
+    {
+     "id": 8447998,
+     "name": "Eric Nesterenko"
+    },
+    {
+     "id": 8448468,
+     "name": "Dave Keon"
+    },
+    {
+     "id": 8445505,
+     "name": "Bill Collins"
+    }
+   ],
+   "seasons": [
+    1964,
+    1968,
+    1969
+   ],
+   "text": "Just three players of the 1960s scored 6 shorthanded goals: Eric Nesterenko (1964-65: 6 SHG); Dave Keon (1968-69: 6 SHG); Bill Collins (1969-70: 6 SHG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 23,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1963,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 39,
+     "A": 50,
+     "P": 89,
+     "PIM": 146,
+     "PM": 21,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 305,
+     "age": 23
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 28,
+     "A": 59,
+     "P": 87,
+     "PIM": 154,
+     "PM": 29,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 256,
+     "age": 24
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1962,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 48,
+     "P": 86,
+     "PIM": 100,
+     "PM": 23,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 351,
+     "age": 34
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "season": 1960,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 70,
+     "G": 48,
+     "A": 36,
+     "P": 84,
+     "PIM": 131,
+     "PM": 23,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 223,
+     "age": 23
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1961,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 25,
+     "A": 52,
+     "P": 77,
+     "PIM": 97,
+     "PM": 12,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 208,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "15 players recorded 48 points and 90 penalty minutes in the 1960s (24 seasons). The most extreme: Bobby Orr, 1969-70 — 120 pts, 125 PIM.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 24,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1960,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 64,
+     "G": 20,
+     "A": 50,
+     "P": 70,
+     "PIM": 12,
+     "PM": 19,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 212,
+     "age": 33
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 67,
+     "G": 21,
+     "A": 43,
+     "P": 64,
+     "PIM": 133,
+     "PM": 55,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 285,
+     "age": 20
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1962,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 66,
+     "G": 20,
+     "A": 40,
+     "P": 60,
+     "PIM": 8,
+     "PM": 19,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 195,
+     "age": 35
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 68,
+     "G": 14,
+     "A": 45,
+     "P": 59,
+     "PIM": 162,
+     "PM": 25,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 109,
+     "age": 33
+    },
+    {
+     "id": 8449159,
+     "name": "Pat Stapleton",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 75,
+     "G": 6,
+     "A": 50,
+     "P": 56,
+     "PIM": 44,
+     "PM": 19,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 112,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "7 players recorded 45 points as a defenseman in the 1960s (14 seasons). The most extreme: Bobby Orr, 1969-70 — 120 points (33G, 87A).",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    }
+   ],
+   "among": 1903,
+   "text": "Most goals in a season in the 1960s: Bobby Hull, 1968-69 — 58 in 74 games.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 74,
+     "G": 49,
+     "A": 77,
+     "P": 126,
+     "PIM": 79,
+     "PM": 55,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 351,
+     "age": 26
+    }
+   ],
+   "among": 1903,
+   "text": "Most points in a season in the 1960s: Phil Esposito, 1968-69 — 126 (49G, 77A).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449667,
+     "name": "Howie Young"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449667,
+     "name": "Howie Young",
+     "season": 1962,
+     "team": "DET",
+     "pos": "D",
+     "GP": 64,
+     "G": 4,
+     "A": 5,
+     "P": 9,
+     "PIM": 273,
+     "PM": -9,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 126,
+     "age": 25
+    }
+   ],
+   "among": 1903,
+   "text": "Most penalty minutes in a season in the 1960s: Howie Young, 1962-63 — 273.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion"
+    }
+   ],
+   "seasons": [
+    1960
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1960,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 64,
+     "G": 50,
+     "A": 45,
+     "P": 95,
+     "PIM": 27,
+     "PM": 3,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 316,
+     "age": 29
+    }
+   ],
+   "among": 1903,
+   "text": "Most game-winning goals in a season in the 1960s: Bernie Geoffrion, 1960-61 — 12.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447880,
+     "name": "Doug Mohns"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447880,
+     "name": "Doug Mohns",
+     "season": 1961,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 69,
+     "G": 16,
+     "A": 29,
+     "P": 45,
+     "PIM": 74,
+     "PM": -62,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 166,
+     "age": 28
+    }
+   ],
+   "among": 1903,
+   "text": "Worst plus-minus in a season in the 1960s: Doug Mohns, 1961-62 — -62.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich"
+    }
+   ],
+   "seasons": [
+    1960
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "season": 1960,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 70,
+     "G": 48,
+     "A": 36,
+     "P": 84,
+     "PIM": 131,
+     "PM": 23,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 223,
+     "age": 23
+    }
+   ],
+   "among": 478,
+   "text": "Best shooting percentage in a season (150+ shots) in the 1960s: Frank Mahovlich, 1960-61 — 21.5%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 74,
+     "G": 49,
+     "A": 77,
+     "P": 126,
+     "PIM": 79,
+     "PM": 55,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 351,
+     "age": 26
+    }
+   ],
+   "among": 1216,
+   "text": "Most points per game in a season (60% of games) in the 1960s: Phil Esposito, 1968-69 — 1.70.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446814,
+     "name": "Norm Ferguson"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446814,
+     "name": "Norm Ferguson",
+     "season": 1968,
+     "team": "OAK",
+     "pos": "R",
+     "GP": 76,
+     "G": 34,
+     "A": 20,
+     "P": 54,
+     "PIM": 31,
+     "PM": -11,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 217,
+     "age": 23
+    }
+   ],
+   "among": 358,
+   "text": "Most goals in a first NHL season in the 1960s: Norm Ferguson, 1968-69 — 34.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446814,
+     "name": "Norm Ferguson"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446814,
+     "name": "Norm Ferguson",
+     "season": 1968,
+     "team": "OAK",
+     "pos": "R",
+     "GP": 76,
+     "G": 34,
+     "A": 20,
+     "P": 54,
+     "PIM": 31,
+     "PM": -11,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 217,
+     "age": 23
+    }
+   ],
+   "among": 358,
+   "text": "Most points in a first NHL season in the 1960s: Norm Ferguson, 1968-69 — 54.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1969,
+     "team": "CHI",
+     "GP": 63,
+     "A": 2,
+     "PIM": 2,
+     "W": 38,
+     "L": 17,
+     "T": 8,
+     "SO": 15,
+     "GAA": 2.17046,
+     "SVP": 0.93182,
+     "SV": 1859,
+     "GA": 136
+    }
+   ],
+   "among": 212,
+   "text": "Most shutouts in a season in the 1960s: Tony Esposito, 1969-70 — 15.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "gx_saves",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450152,
+     "name": "Gump Worsley"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "season": 1962,
+     "team": "NYR",
+     "GP": 67,
+     "A": 0,
+     "PIM": 14,
+     "W": 22,
+     "L": 34,
+     "T": 10,
+     "SO": 2,
+     "GAA": 3.27223,
+     "SVP": 0.91399,
+     "SV": 2306,
+     "GA": 217
+    }
+   ],
+   "among": 168,
+   "text": "Most saves in a season in the 1960s: Gump Worsley, 1962-63 — 2,306.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450005,
+     "name": "Eddie Johnston"
+    }
+   ],
+   "seasons": [
+    1963
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450005,
+     "name": "Eddie Johnston",
+     "season": 1963,
+     "team": "BOS",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 18,
+     "L": 40,
+     "T": 12,
+     "SO": 6,
+     "GAA": 3.01456,
+     "GA": 211
+    }
+   ],
+   "among": 212,
+   "text": "Most losses by a goalie in a season in the 1960s: Eddie Johnston, 1963-64 — 40.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1961,
+     "GP": 70,
+     "W": 42,
+     "L": 14,
+     "T": 14,
+     "GF": 259,
+     "GA": 166,
+     "PCT": 0.7
+    }
+   ],
+   "among": 78,
+   "text": "Best points percentage in a season in the 1960s: Montréal Canadiens, 1961-62 — .700 (42-14-14).",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings",
+     "season": 1969,
+     "GP": 76,
+     "W": 14,
+     "L": 52,
+     "T": 10,
+     "GF": 168,
+     "GA": 290,
+     "PCT": 0.25
+    }
+   ],
+   "among": 78,
+   "text": "Worst points percentage in a season in the 1960s: Los Angeles Kings, 1969-70 — .250 (14-52-10).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues",
+     "season": 1968,
+     "GP": 76,
+     "W": 37,
+     "L": 25,
+     "T": 14,
+     "GF": 204,
+     "GA": 157,
+     "PCT": 0.57894
+    }
+   ],
+   "among": 78,
+   "text": "Fewest goals allowed per game in the 1960s: St. Louis Blues, 1968-69 — 2.07 (157 in 76).",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    }
+   ],
+   "seasons": [
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1966,
+     "GP": 70,
+     "W": 41,
+     "L": 17,
+     "T": 12,
+     "GF": 264,
+     "GA": 170,
+     "PCT": 0.67142
+    }
+   ],
+   "among": 78,
+   "text": "Best goal differential in a season in the 1960s: Chicago Blackhawks, 1966-67 — +94.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 41,
+   "kind": "nearmiss",
+   "rule": "n_g29",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447352,
+     "name": "Danny Grant"
+    },
+    {
+     "id": 8448756,
+     "name": "Jacques Lemaire"
+    },
+    {
+     "id": 8445505,
+     "name": "Bill Collins"
+    }
+   ],
+   "seasons": [
+    1969,
+    1968,
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447352,
+     "name": "Danny Grant",
+     "season": 1969,
+     "team": "MNS",
+     "pos": "L",
+     "GP": 76,
+     "G": 29,
+     "A": 28,
+     "P": 57,
+     "PIM": 23,
+     "PM": -12,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 247,
+     "age": 23
+    },
+    {
+     "id": 8448756,
+     "name": "Jacques Lemaire",
+     "season": 1968,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 75,
+     "G": 29,
+     "A": 34,
+     "P": 63,
+     "PIM": 29,
+     "PM": 29,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 330,
+     "age": 23
+    },
+    {
+     "id": 8445505,
+     "name": "Bill Collins",
+     "season": 1969,
+     "team": "MNS",
+     "pos": "R",
+     "GP": 74,
+     "G": 29,
+     "A": 9,
+     "P": 38,
+     "PIM": 48,
+     "PM": 5,
+     "PPG": 2,
+     "SHG": 6,
+     "GWG": 2,
+     "S": 186,
+     "age": 26
+    },
+    {
+     "id": 8447172,
+     "name": "Rod Gilbert",
+     "season": 1967,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 73,
+     "G": 29,
+     "A": 48,
+     "P": 77,
+     "PIM": 12,
+     "PM": 17,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 282,
+     "age": 26
+    },
+    {
+     "id": 8446623,
+     "name": "Phil Goyette",
+     "season": 1969,
+     "team": "STL",
+     "pos": "C",
+     "GP": 72,
+     "G": 29,
+     "A": 49,
+     "P": 78,
+     "PIM": 16,
+     "PM": 3,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 152,
+     "age": 36
+    },
+    {
+     "id": 8449494,
+     "name": "John McKenzie",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 72,
+     "G": 29,
+     "A": 41,
+     "P": 70,
+     "PIM": 122,
+     "PM": 20,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 196,
+     "age": 32
+    }
+   ],
+   "text": "14 player-seasons of the 1960s ended on exactly 29 goals, one short of 30 — among them Danny Grant (1969-70), Jacques Lemaire (1968-69), Bill Collins (1969-70).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 42,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin"
+    }
+   ],
+   "seasons": [
+    1966,
+    1967,
+    1968,
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "season": 1966,
+     "team": "NYR",
+     "GP": 68,
+     "A": 0,
+     "PIM": 8,
+     "W": 30,
+     "L": 27,
+     "T": 11,
+     "SO": 9,
+     "GAA": 2.61049,
+     "SVP": 0.91718,
+     "SV": 1916,
+     "GA": 173
+    },
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "season": 1967,
+     "team": "NYR",
+     "GP": 66,
+     "A": 0,
+     "PIM": 4,
+     "W": 36,
+     "L": 20,
+     "T": 10,
+     "SO": 8,
+     "GAA": 2.44109,
+     "SVP": 0.91475,
+     "SV": 1717,
+     "GA": 160
+    },
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "season": 1968,
+     "team": "NYR",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 38,
+     "L": 23,
+     "T": 7,
+     "SO": 7,
+     "GAA": 2.55528,
+     "SVP": 0.91116,
+     "SV": 1795,
+     "GA": 175
+    },
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "season": 1969,
+     "team": "NYR",
+     "GP": 70,
+     "A": 2,
+     "PIM": 2,
+     "W": 35,
+     "L": 21,
+     "T": 14,
+     "SO": 6,
+     "GAA": 2.36203,
+     "SVP": 0.91602,
+     "SV": 1778,
+     "GA": 163
+    }
+   ],
+   "text": "Eddie Giacomin won 30+ games in goal in 4 straight seasons (1966-67 to 1969-70), the longest run of the 1960s.",
+   "why": "The longest run of the 1960s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 43,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 67,
+     "G": 21,
+     "A": 43,
+     "P": 64,
+     "PIM": 133,
+     "PM": 55,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 285,
+     "age": 20
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 68,
+     "G": 14,
+     "A": 45,
+     "P": 59,
+     "PIM": 162,
+     "PM": 25,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 109,
+     "age": 33
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1963,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 7,
+     "A": 46,
+     "P": 53,
+     "PIM": 84,
+     "PM": 31,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 104,
+     "age": 32
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 6,
+     "A": 46,
+     "P": 52,
+     "PIM": 90,
+     "PM": 54,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 70,
+     "age": 35
+    },
+    {
+     "id": 8449214,
+     "name": "Jean-Guy Talbot",
+     "season": 1961,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 70,
+     "G": 5,
+     "A": 42,
+     "P": 47,
+     "PIM": 90,
+     "PM": 30,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 130,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 53,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "23 players recorded 27 points and 75 penalty minutes as a defenseman in the 1960s (53 seasons). The most extreme: Bobby Orr, 1969-70 — 120 pts, 125 PIM.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    }
+   ],
+   "among": 1903,
+   "text": "Most assists in a season in the 1960s: Bobby Orr, 1969-70 — 87.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "x_ppg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 54,
+     "A": 43,
+     "P": 97,
+     "PIM": 66,
+     "PM": 19,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 351,
+     "age": 27
+    }
+   ],
+   "among": 1903,
+   "text": "Most power-play goals in a season in the 1960s: Bobby Hull, 1965-66 — 22.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    }
+   ],
+   "among": 1903,
+   "text": "Most shots in a season in the 1960s: Bobby Hull, 1968-69 — 414.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    }
+   ],
+   "among": 633,
+   "text": "Most points by a defenseman in a season in the 1960s: Bobby Orr, 1969-70 — 120.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 54,
+     "A": 43,
+     "P": 97,
+     "PIM": 66,
+     "PM": 19,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 351,
+     "age": 27
+    }
+   ],
+   "among": 1216,
+   "text": "Most goals per game in a season (60% of games) in the 1960s: Bobby Hull, 1965-66 — 0.83.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1961,
+     "team": "MTL",
+     "GP": 70,
+     "A": 0,
+     "PIM": 14,
+     "W": 42,
+     "L": 14,
+     "T": 14,
+     "SO": 4,
+     "GAA": 2.37142,
+     "GA": 166
+    }
+   ],
+   "among": 212,
+   "text": "Most wins by a goalie in a season in the 1960s: Jacques Plante, 1961-62 — 42.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1968,
+     "team": "STL",
+     "GP": 37,
+     "A": 0,
+     "PIM": 2,
+     "W": 18,
+     "L": 12,
+     "T": 6,
+     "SO": 5,
+     "GAA": 1.96428,
+     "SVP": 0.94032,
+     "SV": 1103,
+     "GA": 70
+    }
+   ],
+   "among": 99,
+   "text": "Best goals-against average in a season (40% of games) in the 1960s: Jacques Plante, 1968-69 — 1.96.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1968,
+     "GP": 76,
+     "W": 42,
+     "L": 18,
+     "T": 16,
+     "GF": 303,
+     "GA": 221,
+     "PCT": 0.65789
+    }
+   ],
+   "among": 78,
+   "text": "Most goals per game by a team in the 1960s: Boston Bruins, 1968-69 — 3.99 (303 in 76).",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 14,
+     "G": 13,
+     "A": 14,
+     "P": 27,
+     "PIM": 16,
+     "PM": 12,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 72,
+     "age": 27
+    }
+   ],
+   "among": 970,
+   "text": "Most points in a single postseason in the 1960s: Phil Esposito, 1969-70 — 27 in 14 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 14,
+     "G": 13,
+     "A": 14,
+     "P": 27,
+     "PIM": 16,
+     "PM": 12,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 72,
+     "age": 27
+    }
+   ],
+   "among": 970,
+   "text": "Most goals in a single postseason in the 1960s: Phil Esposito, 1969-70 — 13 in 14 games.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    }
+   ],
+   "among": 633,
+   "text": "Most goals by a defenseman in a season in the 1960s: Bobby Orr, 1969-70 — 33.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "gx_sv",
+   "group": "P",
+   "decade": "1960s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1968,
+     "team": "STL",
+     "GP": 37,
+     "A": 0,
+     "PIM": 2,
+     "W": 18,
+     "L": 12,
+     "T": 6,
+     "SO": 5,
+     "GAA": 1.96428,
+     "SVP": 0.94032,
+     "SV": 1103,
+     "GA": 70
+    }
+   ],
+   "among": 78,
+   "text": "Best save percentage in a season (40% of games) in the 1960s: Jacques Plante, 1968-69 — .940.",
+   "why": "The high-water mark of the 1960s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 56,
+   "rule": "h_old_p",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1968,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 44,
+     "A": 59,
+     "P": 103,
+     "PIM": 58,
+     "PM": 45,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 284,
+     "age": 40
+    },
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "season": 1968,
+     "team": "DET",
+     "pos": "C",
+     "GP": 72,
+     "G": 25,
+     "A": 58,
+     "P": 83,
+     "PIM": 8,
+     "PM": 42,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 221,
+     "age": 37
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1967,
+     "team": "DET",
+     "pos": "R",
+     "GP": 74,
+     "G": 39,
+     "A": 43,
+     "P": 82,
+     "PIM": 53,
+     "PM": 12,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 301,
+     "age": 39
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1968,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 69,
+     "G": 33,
+     "A": 49,
+     "P": 82,
+     "PIM": 55,
+     "PM": 15,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 235,
+     "age": 37
+    },
+    {
+     "id": 8446623,
+     "name": "Phil Goyette",
+     "season": 1969,
+     "team": "STL",
+     "pos": "C",
+     "GP": 72,
+     "G": 29,
+     "A": 49,
+     "P": 78,
+     "PIM": 16,
+     "PM": 3,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 152,
+     "age": 36
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1964,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 29,
+     "A": 47,
+     "P": 76,
+     "PIM": 104,
+     "PM": 22,
+     "PPG": 13,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 341,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 5.575,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "6 players recorded 48 points at age 36 or older in the 1960s (15 seasons). The most extreme: Gordie Howe, 1968-69 — 103 points at 40.",
+   "why": "Leads with the most extreme case, which carries the post. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 57,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 74,
+     "G": 49,
+     "A": 77,
+     "P": 126,
+     "PIM": 79,
+     "PM": 55,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 351,
+     "age": 26
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 74,
+     "G": 30,
+     "A": 67,
+     "P": 97,
+     "PIM": 52,
+     "PM": 14,
+     "PPG": 7,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 299,
+     "age": 28
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 35,
+     "A": 62,
+     "P": 97,
+     "PIM": 12,
+     "PM": 40,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 279,
+     "age": 26
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 28,
+     "A": 59,
+     "P": 87,
+     "PIM": 154,
+     "PM": 29,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 256,
+     "age": 24
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1968,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 44,
+     "A": 59,
+     "P": 103,
+     "PIM": 58,
+     "PM": 45,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 284,
+     "age": 40
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 5.175,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "13 players recorded 50 assists in the 1960s (20 seasons). The most extreme: Bobby Orr, 1969-70 — 87 assists.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 58,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 74,
+     "G": 30,
+     "A": 67,
+     "P": 97,
+     "PIM": 52,
+     "PM": 14,
+     "PPG": 7,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 299,
+     "age": 28
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 28,
+     "A": 59,
+     "P": 87,
+     "PIM": 154,
+     "PM": 29,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 256,
+     "age": 24
+    },
+    {
+     "id": 8445032,
+     "name": "Andy Bathgate",
+     "season": 1963,
+     "team": "NYR,TOR",
+     "pos": "R",
+     "GP": 71,
+     "G": 19,
+     "A": 58,
+     "P": 77,
+     "PIM": 34,
+     "PM": -12,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 284,
+     "age": 31
+    },
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "season": 1968,
+     "team": "DET",
+     "pos": "C",
+     "GP": 72,
+     "G": 25,
+     "A": 58,
+     "P": 83,
+     "PIM": 8,
+     "PM": 42,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 221,
+     "age": 37
+    },
+    {
+     "id": 8445032,
+     "name": "Andy Bathgate",
+     "season": 1961,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 70,
+     "G": 28,
+     "A": 56,
+     "P": 84,
+     "PIM": 44,
+     "PM": 3,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 305,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 34,
+   "kind": "list",
+   "score": 5.175,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "22 players recorded 40 assists with twice as many assists as goals in the 1960s (34 seasons). The most extreme: Bobby Orr, 1969-70 — 87A, 33G.",
+   "why": "Leads with the most extreme case, which carries the post. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 59,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "season": 1968,
+     "team": "DET",
+     "pos": "C",
+     "GP": 72,
+     "G": 25,
+     "A": 58,
+     "P": 83,
+     "PIM": 8,
+     "PM": 42,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 221,
+     "age": 37
+    },
+    {
+     "id": 8447496,
+     "name": "Ted Hampson",
+     "season": 1968,
+     "team": "OAK",
+     "pos": "C",
+     "GP": 76,
+     "G": 26,
+     "A": 49,
+     "P": 75,
+     "PIM": 6,
+     "PM": -13,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 189,
+     "age": 32
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1967,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 72,
+     "G": 30,
+     "A": 39,
+     "P": 69,
+     "PIM": 8,
+     "PM": 18,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 175,
+     "age": 32
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1969,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 61,
+     "G": 38,
+     "A": 29,
+     "P": 67,
+     "PIM": 8,
+     "PM": 20,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 8,
+     "S": 289,
+     "age": 31
+    },
+    {
+     "id": 8446623,
+     "name": "Phil Goyette",
+     "season": 1967,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 72,
+     "G": 25,
+     "A": 40,
+     "P": 65,
+     "PIM": 10,
+     "PM": 19,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 179,
+     "age": 34
+    },
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "season": 1962,
+     "team": "DET",
+     "pos": "C",
+     "GP": 70,
+     "G": 20,
+     "A": 44,
+     "P": 64,
+     "PIM": 8,
+     "PM": 16,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 274,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 36,
+   "kind": "list",
+   "score": 5.075,
+   "players": [
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "20 players recorded 48 points with 10 or fewer penalty minutes in the 1960s (36 seasons). The most extreme: Alex Delvecchio, 1968-69 — 83 pts, 8 PIM.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 60,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 827,
+     "seasons": 10
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "total": 786,
+     "seasons": 10
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 780,
+     "seasons": 10
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "total": 675,
+     "seasons": 10
+    },
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "total": 660,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points of the 1960s: Stan Mikita, 827 (next: Bobby Hull, 786).",
+   "why": "A decade-long view that settles consistency debates. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446324,
+     "name": "Reg Fleming"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446324,
+     "name": "Reg Fleming",
+     "total": 1309,
+     "seasons": 10
+    },
+    {
+     "id": 8446812,
+     "name": "John Ferguson",
+     "total": 1054,
+     "seasons": 7
+    },
+    {
+     "id": 8445036,
+     "name": "Bob Baun",
+     "total": 963,
+     "seasons": 10
+    },
+    {
+     "id": 8447406,
+     "name": "Ted Green",
+     "total": 948,
+     "seasons": 9
+    },
+    {
+     "id": 8448974,
+     "name": "Eddie Shack",
+     "total": 900,
+     "seasons": 10
+    }
+   ],
+   "text": "Most penalty minutes of the 1960s: Reg Fleming, 1,309.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 708,
+     "seasons": 10
+    },
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "total": 707,
+     "seasons": 10
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 703,
+     "seasons": 10
+    },
+    {
+     "id": 8448056,
+     "name": "Murray Oliver",
+     "total": 701,
+     "seasons": 10
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "total": 699,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1960s: Gordie Howe, 708.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "total": 361,
+     "seasons": 9
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "total": 340,
+     "seasons": 7
+    },
+    {
+     "id": 8446917,
+     "name": "Tim Horton",
+     "total": 289,
+     "seasons": 10
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "total": 256,
+     "seasons": 4
+    },
+    {
+     "id": 8446926,
+     "name": "Harry Howell",
+     "total": 254,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points by a defenseman in the 1960s: Pierre Pilote, 361.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449988,
+     "name": "Glenn Hall"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "total": 240,
+     "seasons": 10
+    },
+    {
+     "id": 8449835,
+     "name": "Johnny Bower",
+     "total": 170,
+     "seasons": 10
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "total": 159,
+     "seasons": 10
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "total": 155,
+     "seasons": 7
+    },
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "total": 147,
+     "seasons": 5
+    }
+   ],
+   "text": "Most goalie wins of the 1960s: Glenn Hall, 240.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449988,
+     "name": "Glenn Hall"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "total": 51,
+     "seasons": 10
+    },
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "total": 30,
+     "seasons": 5
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "total": 26,
+     "seasons": 7
+    },
+    {
+     "id": 8449835,
+     "name": "Johnny Bower",
+     "total": 24,
+     "seasons": 10
+    },
+    {
+     "id": 8449995,
+     "name": "Charlie Hodge",
+     "total": 22,
+     "seasons": 8
+    }
+   ],
+   "text": "Most shutouts of the 1960s: Glenn Hall, 51.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449988,
+     "name": "Glenn Hall"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "total": 516,
+     "seasons": 10
+    },
+    {
+     "id": 8449835,
+     "name": "Johnny Bower",
+     "total": 370,
+     "seasons": 10
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "total": 366,
+     "seasons": 10
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "total": 333,
+     "seasons": 7
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "total": 329,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games in goal in the 1960s: Glenn Hall, 516.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 5
+    },
+    {
+     "season": 1961,
+     "count": 5
+    },
+    {
+     "season": 1962,
+     "count": 7
+    },
+    {
+     "season": 1963,
+     "count": 3
+    },
+    {
+     "season": 1964,
+     "count": 2
+    },
+    {
+     "season": 1965,
+     "count": 6
+    },
+    {
+     "season": 1966,
+     "count": 3
+    },
+    {
+     "season": 1967,
+     "count": 10
+    },
+    {
+     "season": 1968,
+     "count": 19
+    },
+    {
+     "season": 1969,
+     "count": 16
+    }
+   ],
+   "text": "1968-69 had 19 30-goal scorers, the most of any season in the 1960s.",
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1964
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 5
+    },
+    {
+     "season": 1961,
+     "count": 5
+    },
+    {
+     "season": 1962,
+     "count": 7
+    },
+    {
+     "season": 1963,
+     "count": 3
+    },
+    {
+     "season": 1964,
+     "count": 2
+    },
+    {
+     "season": 1965,
+     "count": 6
+    },
+    {
+     "season": 1966,
+     "count": 3
+    },
+    {
+     "season": 1967,
+     "count": 10
+    },
+    {
+     "season": 1968,
+     "count": 19
+    },
+    {
+     "season": 1969,
+     "count": 16
+    }
+   ],
+   "text": "1964-65 had just 2 30-goal scorers, the fewest of any season in the 1960s.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 10
+    },
+    {
+     "season": 1961,
+     "count": 13
+    },
+    {
+     "season": 1962,
+     "count": 14
+    },
+    {
+     "season": 1963,
+     "count": 10
+    },
+    {
+     "season": 1964,
+     "count": 7
+    },
+    {
+     "season": 1965,
+     "count": 10
+    },
+    {
+     "season": 1966,
+     "count": 9
+    },
+    {
+     "season": 1967,
+     "count": 16
+    },
+    {
+     "season": 1968,
+     "count": 28
+    },
+    {
+     "season": 1969,
+     "count": 23
+    }
+   ],
+   "text": "1968-69 had 28 60-point players, the most of any season in the 1960s.",
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1964
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 10
+    },
+    {
+     "season": 1961,
+     "count": 13
+    },
+    {
+     "season": 1962,
+     "count": 14
+    },
+    {
+     "season": 1963,
+     "count": 10
+    },
+    {
+     "season": 1964,
+     "count": 7
+    },
+    {
+     "season": 1965,
+     "count": 10
+    },
+    {
+     "season": 1966,
+     "count": 9
+    },
+    {
+     "season": 1967,
+     "count": 16
+    },
+    {
+     "season": 1968,
+     "count": 28
+    },
+    {
+     "season": 1969,
+     "count": 23
+    }
+   ],
+   "text": "1964-65 had just 7 60-point players, the fewest of any season in the 1960s.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1968
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 9
+    },
+    {
+     "season": 1961,
+     "count": 6
+    },
+    {
+     "season": 1962,
+     "count": 6
+    },
+    {
+     "season": 1963,
+     "count": 6
+    },
+    {
+     "season": 1964,
+     "count": 4
+    },
+    {
+     "season": 1965,
+     "count": 6
+    },
+    {
+     "season": 1966,
+     "count": 3
+    },
+    {
+     "season": 1967,
+     "count": 8
+    },
+    {
+     "season": 1968,
+     "count": 13
+    },
+    {
+     "season": 1969,
+     "count": 7
+    }
+   ],
+   "text": "1968-69 had 13 point-a-game players (60% of games), the most of any season in the 1960s.",
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1966
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1960,
+     "count": 9
+    },
+    {
+     "season": 1961,
+     "count": 6
+    },
+    {
+     "season": 1962,
+     "count": 6
+    },
+    {
+     "season": 1963,
+     "count": 6
+    },
+    {
+     "season": 1964,
+     "count": 4
+    },
+    {
+     "season": 1965,
+     "count": 6
+    },
+    {
+     "season": 1966,
+     "count": 3
+    },
+    {
+     "season": 1967,
+     "count": 8
+    },
+    {
+     "season": 1968,
+     "count": 13
+    },
+    {
+     "season": 1969,
+     "count": 7
+    }
+   ],
+   "text": "1966-67 had just 3 point-a-game players (60% of games), the fewest of any season in the 1960s.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 511,
+     "seasons": 10
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 463,
+     "seasons": 10
+    },
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "total": 423,
+     "seasons": 10
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 393,
+     "seasons": 10
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "total": 387,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 1960s: Stan Mikita, 511.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "tt_pm",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 202,
+     "seasons": 10
+    },
+    {
+     "id": 8445696,
+     "name": "Carl Brewer",
+     "total": 186,
+     "seasons": 6
+    },
+    {
+     "id": 8451960,
+     "name": "J.C. Tremblay",
+     "total": 174,
+     "seasons": 10
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "total": 167,
+     "seasons": 9
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 161,
+     "seasons": 7
+    }
+   ],
+   "text": "Best combined plus-minus of the 1960s: Stan Mikita, +202.",
+   "why": "A decade-long view that settles consistency debates. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 10,
+     "seasons": 10
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "total": 9,
+     "seasons": 9
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 9,
+     "seasons": 9
+    },
+    {
+     "id": 8445865,
+     "name": "Alex Delvecchio",
+     "total": 8,
+     "seasons": 8
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "total": 8,
+     "seasons": 8
+    }
+   ],
+   "text": "Most 60-point seasons in the 1960s: Gordie Howe, 10.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "total": 440,
+     "seasons": 10
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "total": 329,
+     "seasons": 10
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 317,
+     "seasons": 10
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 316,
+     "seasons": 10
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "total": 288,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goals of the 1960s: Bobby Hull, 440 (next: Frank Mahovlich, 329).",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "total": 64,
+     "seasons": 10
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "total": 59,
+     "seasons": 10
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 53,
+     "seasons": 10
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 41,
+     "seasons": 10
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "total": 40,
+     "seasons": 10
+    }
+   ],
+   "text": "Most game-winning goals of the 1960s: Bobby Hull, 64.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "tt_ppg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "total": 122,
+     "seasons": 10
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 99,
+     "seasons": 10
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 90,
+     "seasons": 10
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 86,
+     "seasons": 10
+    },
+    {
+     "id": 8446200,
+     "name": "Yvan Cournoyer",
+     "total": 72,
+     "seasons": 7
+    }
+   ],
+   "text": "Most power-play goals of the 1960s: Bobby Hull, 122.",
+   "why": "A decade-long view that settles consistency debates. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "1960s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "total": 10,
+     "seasons": 10
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "total": 7,
+     "seasons": 7
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "total": 4,
+     "seasons": 4
+    }
+   ],
+   "text": "Most 30-goal seasons in the 1960s: Bobby Hull, 10.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 80,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 74,
+     "G": 49,
+     "A": 77,
+     "P": 126,
+     "PIM": 79,
+     "PM": 55,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 351,
+     "age": 26
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1968,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 44,
+     "A": 59,
+     "P": 103,
+     "PIM": 58,
+     "PM": 45,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 284,
+     "age": 40
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 43,
+     "A": 56,
+     "P": 99,
+     "PIM": 50,
+     "PM": 26,
+     "PPG": 18,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 405,
+     "age": 27
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 54,
+     "A": 43,
+     "P": 97,
+     "PIM": 66,
+     "PM": 19,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 351,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 29,
+   "kind": "list",
+   "score": 4.575,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "14 players recorded 80 points in the 1960s (29 seasons). The most extreme: Phil Esposito, 1968-69 — 126 points (49G, 77A).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 81,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447880,
+     "name": "Doug Mohns",
+     "season": 1961,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 69,
+     "G": 16,
+     "A": 29,
+     "P": 45,
+     "PIM": 74,
+     "PM": -62,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 166,
+     "age": 28
+    },
+    {
+     "id": 8449159,
+     "name": "Pat Stapleton",
+     "season": 1961,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 69,
+     "G": 2,
+     "A": 5,
+     "P": 7,
+     "PIM": 42,
+     "PM": -58,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 98,
+     "age": 21
+    },
+    {
+     "id": 8445111,
+     "name": "Leo Boivin",
+     "season": 1961,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 65,
+     "G": 5,
+     "A": 18,
+     "P": 23,
+     "PIM": 70,
+     "PM": -46,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 123,
+     "age": 30
+    },
+    {
+     "id": 8449603,
+     "name": "Bob Woytowich",
+     "season": 1965,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 68,
+     "G": 2,
+     "A": 17,
+     "P": 19,
+     "PIM": 75,
+     "PM": -45,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 71,
+     "age": 24
+    },
+    {
+     "id": 8450196,
+     "name": "J.P. Parise",
+     "season": 1968,
+     "team": "MNS",
+     "pos": "L",
+     "GP": 76,
+     "G": 22,
+     "A": 27,
+     "P": 49,
+     "PIM": 57,
+     "PM": -45,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 196,
+     "age": 27
+    },
+    {
+     "id": 8448056,
+     "name": "Murray Oliver",
+     "season": 1961,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 70,
+     "G": 17,
+     "A": 29,
+     "P": 46,
+     "PIM": 20,
+     "PM": -44,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 201,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 40,
+   "kind": "list",
+   "score": 4.55,
+   "players": [
+    {
+     "id": 8447880,
+     "name": "Doug Mohns"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "text": "33 players finished -30 or worse in the 1960s (40 seasons). The most extreme: Doug Mohns, 1961-62 — -62.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 82,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 54,
+     "A": 43,
+     "P": 97,
+     "PIM": 66,
+     "PM": 19,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 351,
+     "age": 27
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 66,
+     "G": 52,
+     "A": 28,
+     "P": 80,
+     "PIM": 52,
+     "PM": 28,
+     "PPG": 18,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 320,
+     "age": 28
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1960,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 64,
+     "G": 50,
+     "A": 45,
+     "P": 95,
+     "PIM": 27,
+     "PM": 3,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 316,
+     "age": 29
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1961,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 70,
+     "G": 50,
+     "A": 34,
+     "P": 84,
+     "PIM": 35,
+     "PM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 375,
+     "age": 23
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 74,
+     "G": 49,
+     "A": 77,
+     "P": 126,
+     "PIM": 79,
+     "PM": 55,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 351,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 4.45,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "10 players scored 40 goals in the 1960s (17 seasons). The most extreme: Bobby Hull, 1968-69 — 58 goals in 74 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 83,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 54,
+     "A": 43,
+     "P": 97,
+     "PIM": 66,
+     "PM": 19,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 351,
+     "age": 27
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 66,
+     "G": 52,
+     "A": 28,
+     "P": 80,
+     "PIM": 52,
+     "PM": 28,
+     "PPG": 18,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 320,
+     "age": 28
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1960,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 64,
+     "G": 50,
+     "A": 45,
+     "P": 95,
+     "PIM": 27,
+     "PM": 3,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 316,
+     "age": 29
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1961,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 70,
+     "G": 50,
+     "A": 34,
+     "P": 84,
+     "PIM": 35,
+     "PM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 375,
+     "age": 23
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "season": 1968,
+     "team": "DET",
+     "pos": "L",
+     "GP": 76,
+     "G": 49,
+     "A": 29,
+     "P": 78,
+     "PIM": 38,
+     "PM": 44,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 293,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 43,
+   "kind": "list",
+   "score": 4.45,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "29 players scored 28 goals with more goals than assists in the 1960s (43 seasons). The most extreme: Bobby Hull, 1968-69 — 58G, 49A.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 84,
+   "rule": "h_pm_hi",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1961,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 54,
+     "G": 2,
+     "A": 13,
+     "P": 15,
+     "PIM": 167,
+     "PM": 55,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 63,
+     "age": 30
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 74,
+     "G": 49,
+     "A": 77,
+     "P": 126,
+     "PIM": 79,
+     "PM": 55,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 351,
+     "age": 26
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 67,
+     "G": 21,
+     "A": 43,
+     "P": 64,
+     "PIM": 133,
+     "PM": 55,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 285,
+     "age": 20
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 6,
+     "A": 46,
+     "P": 52,
+     "PIM": 90,
+     "PM": 54,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 70,
+     "age": 35
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8447892,
+     "name": "Ken Hodge",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 75,
+     "G": 45,
+     "A": 45,
+     "P": 90,
+     "PIM": 75,
+     "PM": 50,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 236,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 4.375,
+   "players": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato"
+    }
+   ],
+   "seasons": [
+    1961
+   ],
+   "text": "5 players finished +50 or better in the 1960s (6 seasons). The most extreme: Lou Fontinato, 1961-62 — +55.",
+   "why": "Leads with the most extreme case, which carries the post. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 85,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1968,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 44,
+     "A": 59,
+     "P": 103,
+     "PIM": 58,
+     "PM": 45,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 284,
+     "age": 40
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1967,
+     "team": "DET",
+     "pos": "R",
+     "GP": 74,
+     "G": 39,
+     "A": 43,
+     "P": 82,
+     "PIM": 53,
+     "PM": 12,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 301,
+     "age": 39
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1968,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 69,
+     "G": 33,
+     "A": 49,
+     "P": 82,
+     "PIM": 55,
+     "PM": 15,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 235,
+     "age": 37
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1967,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 59,
+     "G": 31,
+     "A": 37,
+     "P": 68,
+     "PIM": 28,
+     "PM": 25,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 206,
+     "age": 36
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1969,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 31,
+     "A": 40,
+     "P": 71,
+     "PIM": 58,
+     "PM": 23,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 5,
+     "S": 268,
+     "age": 41
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1964,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 29,
+     "A": 47,
+     "P": 76,
+     "PIM": 104,
+     "PM": 22,
+     "PPG": 13,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 341,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 4.1,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "8 players scored 20 goals at age 36 or older in the 1960s (16 seasons). The most extreme: Gordie Howe, 1968-69 — 44 goals at 40.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 86,
+   "rule": "h_shots",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1963,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 70,
+     "G": 43,
+     "A": 44,
+     "P": 87,
+     "PIM": 48,
+     "PM": 14,
+     "PPG": 12,
+     "SHG": 4,
+     "GWG": 5,
+     "S": 408,
+     "age": 25
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 43,
+     "A": 56,
+     "P": 99,
+     "PIM": 50,
+     "PM": 26,
+     "PPG": 18,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 405,
+     "age": 27
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1961,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 70,
+     "G": 50,
+     "A": 34,
+     "P": 84,
+     "PIM": 35,
+     "PM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 375,
+     "age": 23
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1964,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 61,
+     "G": 39,
+     "A": 32,
+     "P": 71,
+     "PIM": 32,
+     "PM": 23,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 368,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 4.035,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1968
+   ],
+   "text": "5 players fired 350 shots in the 1960s (12 seasons). The most extreme: Bobby Hull, 1968-69 — 414 shots.",
+   "why": "Leads with the most extreme case, which carries the post. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 87,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 33,
+     "A": 87,
+     "P": 120,
+     "PIM": 125,
+     "PM": 54,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 413,
+     "age": 21
+    },
+    {
+     "id": 8452140,
+     "name": "Carol Vadnais",
+     "season": 1969,
+     "team": "OAK",
+     "pos": "D",
+     "GP": 76,
+     "G": 24,
+     "A": 20,
+     "P": 44,
+     "PIM": 212,
+     "PM": -29,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 245,
+     "age": 24
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1961,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 58,
+     "G": 22,
+     "A": 27,
+     "P": 49,
+     "PIM": 6,
+     "PM": 23,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 159,
+     "age": 34
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 67,
+     "G": 21,
+     "A": 43,
+     "P": 64,
+     "PIM": 133,
+     "PM": 55,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 285,
+     "age": 20
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1960,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 64,
+     "G": 20,
+     "A": 50,
+     "P": 70,
+     "PIM": 12,
+     "PM": 19,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 212,
+     "age": 33
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1962,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 66,
+     "G": 20,
+     "A": 40,
+     "P": 60,
+     "PIM": 8,
+     "PM": 19,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 195,
+     "age": 35
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.825,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "5 players scored 15 goals as a defenseman in the 1960s (12 seasons). The most extreme: Bobby Orr, 1969-70 — 33 goals.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 88,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449667,
+     "name": "Howie Young",
+     "season": 1962,
+     "team": "DET",
+     "pos": "D",
+     "GP": 64,
+     "G": 4,
+     "A": 5,
+     "P": 9,
+     "PIM": 273,
+     "PM": -9,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 126,
+     "age": 25
+    },
+    {
+     "id": 8447164,
+     "name": "Forbes Kennedy",
+     "season": 1968,
+     "team": "PHI,TOR",
+     "pos": "C",
+     "GP": 72,
+     "G": 8,
+     "A": 10,
+     "P": 18,
+     "PIM": 219,
+     "PM": -25,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 71,
+     "age": 33
+    },
+    {
+     "id": 8449032,
+     "name": "Keith Magnuson",
+     "season": 1969,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 76,
+     "G": 0,
+     "A": 24,
+     "P": 24,
+     "PIM": 213,
+     "PM": 38,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 77,
+     "age": 22
+    },
+    {
+     "id": 8452140,
+     "name": "Carol Vadnais",
+     "season": 1969,
+     "team": "OAK",
+     "pos": "D",
+     "GP": 76,
+     "G": 24,
+     "A": 20,
+     "P": 44,
+     "PIM": 212,
+     "PM": -29,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 245,
+     "age": 24
+    },
+    {
+     "id": 8446444,
+     "name": "Jim Dorey",
+     "season": 1968,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 61,
+     "G": 8,
+     "A": 22,
+     "P": 30,
+     "PIM": 200,
+     "PM": 9,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 133,
+     "age": 21
+    },
+    {
+     "id": 8449367,
+     "name": "Bryan Watson",
+     "season": 1969,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 61,
+     "G": 1,
+     "A": 9,
+     "P": 10,
+     "PIM": 189,
+     "PM": 1,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 61,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 27,
+   "kind": "list",
+   "score": 3.6825,
+   "players": [
+    {
+     "id": 8449667,
+     "name": "Howie Young"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "text": "21 players racked up 150 penalty minutes in the 1960s (27 seasons). The most extreme: Howie Young, 1962-63 — 273 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 89,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 14,
+     "G": 13,
+     "A": 14,
+     "P": 27,
+     "PIM": 16,
+     "PM": 12,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 72,
+     "age": 27
+    },
+    {
+     "id": 8449602,
+     "name": "Stan Mikita",
+     "season": 1961,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 12,
+     "G": 6,
+     "A": 15,
+     "P": 21,
+     "PIM": 19,
+     "PM": 9,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 44,
+     "age": 21
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 14,
+     "G": 9,
+     "A": 11,
+     "P": 20,
+     "PIM": 14,
+     "PM": 24,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 78,
+     "age": 21
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1963,
+     "team": "DET",
+     "pos": "R",
+     "GP": 14,
+     "G": 9,
+     "A": 10,
+     "P": 19,
+     "PIM": 16,
+     "PM": -2,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 74,
+     "age": 35
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 14,
+     "G": 11,
+     "A": 8,
+     "P": 19,
+     "PIM": 2,
+     "PM": 13,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 49,
+     "age": 34
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 10,
+     "G": 8,
+     "A": 10,
+     "P": 18,
+     "PIM": 8,
+     "PM": 6,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 63,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 22,
+   "kind": "list",
+   "score": 3.675,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "16 players recorded 15 points in one postseason in the 1960s (22 seasons). The most extreme: Phil Esposito, 1969-70 — 27 points in 14 games.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 90,
+   "rule": "h_eff",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446784,
+     "name": "Camille Henry",
+     "season": 1962,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 60,
+     "G": 37,
+     "A": 23,
+     "P": 60,
+     "PIM": 8,
+     "PM": -9,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 139,
+     "age": 30
+    },
+    {
+     "id": 8446784,
+     "name": "Camille Henry",
+     "season": 1964,
+     "team": "NYR,CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 26,
+     "A": 18,
+     "P": 44,
+     "PIM": 20,
+     "PM": -10,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 108,
+     "age": 32
+    },
+    {
+     "id": 8449494,
+     "name": "John McKenzie",
+     "season": 1968,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 60,
+     "G": 29,
+     "A": 27,
+     "P": 56,
+     "PIM": 99,
+     "PM": 12,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 123,
+     "age": 31
+    },
+    {
+     "id": 8446784,
+     "name": "Camille Henry",
+     "season": 1960,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 53,
+     "G": 28,
+     "A": 25,
+     "P": 53,
+     "PIM": 8,
+     "PM": -10,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 120,
+     "age": 28
+    },
+    {
+     "id": 8445957,
+     "name": "Dick Duff",
+     "season": 1967,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 66,
+     "G": 25,
+     "A": 21,
+     "P": 46,
+     "PIM": 21,
+     "PM": 5,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 111,
+     "age": 31
+    },
+    {
+     "id": 8446200,
+     "name": "Yvan Cournoyer",
+     "season": 1966,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 69,
+     "G": 25,
+     "A": 15,
+     "P": 40,
+     "PIM": 4,
+     "PM": -11,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 130,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.6654676258992804,
+   "players": [
+    {
+     "id": 8446784,
+     "name": "Camille Henry"
+    }
+   ],
+   "seasons": [
+    1962
+   ],
+   "text": "6 players scored 24 goals on fewer than 150 shots in the 1960s (8 seasons). The most extreme: Camille Henry, 1962-63 — 37 goals on 139 shots.",
+   "why": "Leads with the most extreme case, which carries the post. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 91,
+   "rule": "h_ppg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1965,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 65,
+     "G": 54,
+     "A": 43,
+     "P": 97,
+     "PIM": 66,
+     "PM": 19,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 351,
+     "age": 27
+    },
+    {
+     "id": 8446200,
+     "name": "Yvan Cournoyer",
+     "season": 1966,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 69,
+     "G": 25,
+     "A": 15,
+     "P": 40,
+     "PIM": 4,
+     "PM": -11,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 130,
+     "age": 23
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1966,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 66,
+     "G": 52,
+     "A": 28,
+     "P": 80,
+     "PIM": 52,
+     "PM": 28,
+     "PPG": 18,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 320,
+     "age": 28
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 43,
+     "A": 56,
+     "P": 99,
+     "PIM": 50,
+     "PM": 26,
+     "PPG": 18,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 405,
+     "age": 27
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1960,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 64,
+     "G": 50,
+     "A": 45,
+     "P": 95,
+     "PIM": 27,
+     "PM": 3,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 316,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.55,
+   "players": [
+    {
+     "id": 8448108,
+     "name": "Bobby Hull"
+    }
+   ],
+   "seasons": [
+    1965
+   ],
+   "text": "7 players scored 15 power-play goals in the 1960s (10 seasons). The most extreme: Bobby Hull, 1965-66 — 22 PPG.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 92,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1969,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 14,
+     "G": 9,
+     "A": 11,
+     "P": 20,
+     "PIM": 14,
+     "PM": 24,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 78,
+     "age": 21
+    },
+    {
+     "id": 8446917,
+     "name": "Tim Horton",
+     "season": 1961,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 12,
+     "G": 3,
+     "A": 13,
+     "P": 16,
+     "PIM": 16,
+     "PM": -2,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 39,
+     "age": 32
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1960,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 12,
+     "G": 3,
+     "A": 12,
+     "P": 15,
+     "PIM": 8,
+     "PM": 11,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 15,
+     "age": 29
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1963,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 14,
+     "G": 4,
+     "A": 9,
+     "P": 13,
+     "PIM": 4,
+     "PM": -2,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 35,
+     "age": 36
+    },
+    {
+     "id": 8451960,
+     "name": "J.C. Tremblay",
+     "season": 1965,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 10,
+     "G": 2,
+     "A": 9,
+     "P": 11,
+     "PIM": 2,
+     "PM": 1,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 27,
+     "age": 27
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1961,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 12,
+     "G": 4,
+     "A": 6,
+     "P": 10,
+     "PIM": 0,
+     "PM": -1,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 26,
+     "age": 34
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 3.5,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1969
+   ],
+   "text": "8 players recorded 8 points as a defenseman in one postseason in the 1960s (16 seasons). The most extreme: Bobby Orr, 1969-70 — 20 points in 14 games.",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 93,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1960s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1960,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 64,
+     "G": 50,
+     "A": 45,
+     "P": 95,
+     "PIM": 27,
+     "PM": 3,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 316,
+     "age": 29
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1960,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 69,
+     "G": 32,
+     "A": 58,
+     "P": 90,
+     "PIM": 57,
+     "PM": 10,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 324,
+     "age": 29
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "season": 1968,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 74,
+     "G": 58,
+     "A": 49,
+     "P": 107,
+     "PIM": 48,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 414,
+     "age": 30
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "season": 1960,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 70,
+     "G": 48,
+     "A": 36,
+     "P": 84,
+     "PIM": 131,
+     "PM": 23,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 223,
+     "age": 23
+    },
+    {
+     "id": 8449274,
+     "name": "Norm Ullman",
+     "season": 1964,
+     "team": "DET",
+     "pos": "C",
+     "GP": 70,
+     "G": 42,
+     "A": 41,
+     "P": 83,
+     "PIM": 70,
+     "PM": 15,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 251,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 3.3,
+   "players": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion"
+    }
+   ],
+   "seasons": [
+    1960
+   ],
+   "text": "5 players scored 10 game-winning goals in the 1960s. The most extreme: Bernie Geoffrion, 1960-61 — 12 GWG.",
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Clutch goals are the stat fans quote in arguments."
+  }
+ ],
+ "counts": {
+  "skaterSeasons": 1903,
+  "goalieSeasons": 212,
+  "teamSeasons": 78
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:07.027Z"
+}

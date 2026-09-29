@@ -1,0 +1,7351 @@
+{
+ "sport": "NHL",
+ "decade": "2020s",
+ "era": 6,
+ "seasons": [
+  "2020-21",
+  "2021-22",
+  "2022-23",
+  "2023-24",
+  "2024-25",
+  "2025-26"
+ ],
+ "candidates": 102,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "t_pk",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Carolina Hurricanes",
+     "name": "Carolina Hurricanes",
+     "season": 2021,
+     "GP": 82,
+     "W": 54,
+     "L": 20,
+     "OTL": 8,
+     "GF": 277,
+     "GA": 200,
+     "PCT": 0.70731
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.2010875,
+   "players": [
+    {
+     "id": "Carolina Hurricanes",
+     "name": "Carolina Hurricanes"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "The only team of the 2020s to kill 88% of penalties: Carolina Hurricanes, 2021-22 — 88.0% PK.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 2,
+   "rule": "t_pct800",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 2022,
+     "GP": 82,
+     "W": 65,
+     "L": 12,
+     "OTL": 5,
+     "GF": 301,
+     "GA": 174,
+     "PCT": 0.82317
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.057925000000001,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "The only team of the 2020s to finish with a .800 points percentage: Boston Bruins, 2022-23 — 65-12-5, .823.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 3,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks",
+     "season": 2023,
+     "GP": 82,
+     "W": 19,
+     "L": 54,
+     "OTL": 9,
+     "GF": 180,
+     "GA": 326,
+     "PCT": 0.28658
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.78355,
+   "players": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "The only team of the 2020s to finish with a points percentage under .300: San Jose Sharks, 2023-24 — 19-54-9, .287.",
+   "why": "A club of one in the 2020s; \"name another\" posts draw replies. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 4,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "season": 2024,
+     "team": "WPG",
+     "GP": 63,
+     "A": 1,
+     "PIM": 2,
+     "W": 47,
+     "L": 12,
+     "OTL": 3,
+     "SO": 8,
+     "GAA": 2.00461,
+     "SVP": 0.92487,
+     "SV": 1539,
+     "GA": 125
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.175,
+   "players": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "The only goalie of the 2020s to win 42 games: Connor Hellebuyck, 2024-25 — 47-12-3.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 5,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8484801,
+     "name": "Macklin Celebrini",
+     "season": 2025,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 45,
+     "A": 70,
+     "P": 115,
+     "PIM": 44,
+     "PM": 8,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 287,
+     "TOI": 21.315853333333333,
+     "age": 19
+    },
+    {
+     "id": 8484144,
+     "name": "Connor Bedard",
+     "season": 2025,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 69,
+     "G": 30,
+     "A": 45,
+     "P": 75,
+     "PIM": 50,
+     "PM": -18,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 226,
+     "TOI": 20.866666666666667,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 10.875,
+   "players": [
+    {
+     "id": 8484801,
+     "name": "Macklin Celebrini"
+    },
+    {
+     "id": 8484144,
+     "name": "Connor Bedard"
+    }
+   ],
+   "seasons": [
+    2025,
+    2025
+   ],
+   "text": "Only two players of the 2020s recorded 72 points at age 20 or younger: Macklin Celebrini (2025-26: 115 points at 19); Connor Bedard (2025-26: 75 points at 20).",
+   "why": "Two names invite the \"whose season was better?\" argument. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 6,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy",
+     "season": 2020,
+     "team": "TBL",
+     "GP": 23,
+     "A": 0,
+     "PIM": 0,
+     "W": 16,
+     "L": 7,
+     "OTL": 0,
+     "SO": 5,
+     "GAA": 1.89989,
+     "SVP": 0.93705,
+     "SV": 655,
+     "GA": 44
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.125,
+   "players": [
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "text": "The only goalie of the 2020s to record 4 shutouts in one postseason: Andrei Vasilevskiy, 2020-21 — 5 shutouts in 23 games.",
+   "why": "Nobody else in the 2020s did it, and exclusivity is what gets a post shared. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 7,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 2022,
+     "GP": 82,
+     "W": 65,
+     "L": 12,
+     "OTL": 5,
+     "GF": 301,
+     "GA": 174,
+     "PCT": 0.82317
+    },
+    {
+     "id": "Colorado Avalanche",
+     "name": "Colorado Avalanche",
+     "season": 2025,
+     "GP": 82,
+     "W": 55,
+     "L": 16,
+     "OTL": 11,
+     "GF": 298,
+     "GA": 197,
+     "PCT": 0.7378
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.635,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Colorado Avalanche",
+     "name": "Colorado Avalanche"
+    }
+   ],
+   "seasons": [
+    2022,
+    2025
+   ],
+   "text": "Only two teams of the 2020s outscored opponents by 100: Boston Bruins (2022-23: 301-174); Colorado Avalanche (2025-26: 298-197).",
+   "why": "Two names invite the \"whose season was better?\" argument. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 8,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2023,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 81,
+     "G": 44,
+     "A": 100,
+     "P": 144,
+     "PIM": 22,
+     "PM": 8,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 306,
+     "TOI": 21.668723333333332,
+     "age": 30
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 76,
+     "G": 32,
+     "A": 100,
+     "P": 132,
+     "PIM": 30,
+     "PM": 35,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 263,
+     "TOI": 21.35921,
+     "age": 27
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2025,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 48,
+     "A": 90,
+     "P": 138,
+     "PIM": 44,
+     "PM": 17,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 306,
+     "TOI": 22.985365,
+     "age": 29
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 64,
+     "A": 89,
+     "P": 153,
+     "PIM": 36,
+     "PM": 22,
+     "PPG": 21,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 352,
+     "TOI": 22.38556833333333,
+     "age": 26
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2023,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 51,
+     "A": 89,
+     "P": 140,
+     "PIM": 42,
+     "PM": 35,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 405,
+     "TOI": 22.814226666666666,
+     "age": 28
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2025,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 76,
+     "G": 44,
+     "A": 86,
+     "P": 130,
+     "PIM": 50,
+     "PM": 43,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 8,
+     "S": 231,
+     "TOI": 20.335086666666665,
+     "age": 32
+    },
+    {
+     "id": 8476456,
+     "name": "Jonathan Huberdeau",
+     "season": 2021,
+     "team": "FLA",
+     "pos": "L",
+     "GP": 80,
+     "G": 30,
+     "A": 85,
+     "P": 115,
+     "PIM": 54,
+     "PM": 35,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 222,
+     "TOI": 19.42458333333333,
+     "age": 28
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2024,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 78,
+     "G": 37,
+     "A": 84,
+     "P": 121,
+     "PIM": 45,
+     "PM": 22,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 265,
+     "TOI": 21.18952833333333,
+     "age": 31
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2024,
+     "team": "COL",
+     "pos": "C",
+     "GP": 79,
+     "G": 32,
+     "A": 84,
+     "P": 116,
+     "PIM": 41,
+     "PM": 25,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 320,
+     "TOI": 22.782488333333333,
+     "age": 29
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2022,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 30,
+     "A": 83,
+     "P": 113,
+     "PIM": 36,
+     "PM": -2,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 271,
+     "TOI": 20.132316666666668,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "few",
+   "score": 8.5,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon"
+    },
+    {
+     "id": 8476456,
+     "name": "Jonathan Huberdeau"
+    }
+   ],
+   "seasons": [
+    2023,
+    2023,
+    2025,
+    2022,
+    2023,
+    2025,
+    2021,
+    2024,
+    2024,
+    2022
+   ],
+   "text": "Just four players of the 2020s recorded 80 assists: Nikita Kucherov (4×, best 2023-24: 100 assists); Connor McDavid (3×, best 2023-24: 100 assists); Nathan MacKinnon (2×, best 2023-24: 89 assists); Jonathan Huberdeau (2021-22: 85 assists).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 9,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474593,
+     "name": "Jacob Markstrom",
+     "season": 2021,
+     "team": "CGY",
+     "GP": 63,
+     "A": 3,
+     "PIM": 10,
+     "W": 37,
+     "L": 15,
+     "OTL": 9,
+     "SO": 9,
+     "GAA": 2.22412,
+     "SVP": 0.92189,
+     "SV": 1617,
+     "GA": 137
+    },
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "season": 2024,
+     "team": "WPG",
+     "GP": 63,
+     "A": 1,
+     "PIM": 2,
+     "W": 47,
+     "L": 12,
+     "OTL": 3,
+     "SO": 8,
+     "GAA": 2.00461,
+     "SVP": 0.92487,
+     "SV": 1539,
+     "GA": 125
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.225,
+   "players": [
+    {
+     "id": 8474593,
+     "name": "Jacob Markstrom"
+    },
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck"
+    }
+   ],
+   "seasons": [
+    2021,
+    2024
+   ],
+   "text": "Only two goalies of the 2020s recorded 8 shutouts: Jacob Markstrom (2021-22: 9 shutouts in 63 games); Connor Hellebuyck (2024-25: 8 shutouts in 63 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 10,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 2022,
+     "GP": 82,
+     "W": 65,
+     "L": 12,
+     "OTL": 5,
+     "GF": 301,
+     "GA": 174,
+     "PCT": 0.82317
+    },
+    {
+     "id": "Vegas Golden Knights",
+     "name": "Vegas Golden Knights",
+     "season": 2020,
+     "GP": 56,
+     "W": 40,
+     "L": 14,
+     "OTL": 2,
+     "GF": 190,
+     "GA": 122,
+     "PCT": 0.73214
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.117816091954023,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Vegas Golden Knights",
+     "name": "Vegas Golden Knights"
+    }
+   ],
+   "seasons": [
+    2022,
+    2020
+   ],
+   "text": "Only two teams of the 2020s allowed fewer than 2.2 goals a game: Boston Bruins (2022-23: 2.12 per game); Vegas Golden Knights (2020-21: 2.18 per game).",
+   "why": "A club of two is a ready-made debate. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2020,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 56,
+     "G": 31,
+     "A": 53,
+     "P": 84,
+     "PIM": 22,
+     "PM": 29,
+     "PPG": 15,
+     "SHG": 1,
+     "GWG": 8,
+     "S": 168,
+     "TOI": 22.188391666666668,
+     "age": 25
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2021,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 55,
+     "P": 110,
+     "PIM": 40,
+     "PM": 17,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 278,
+     "TOI": 22.34916666666667,
+     "age": 26
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 76,
+     "P": 128,
+     "PIM": 24,
+     "PM": 7,
+     "PPG": 32,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 247,
+     "TOI": 21.73395833333333,
+     "age": 27
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 81,
+     "G": 41,
+     "A": 65,
+     "P": 106,
+     "PIM": 76,
+     "PM": 26,
+     "PPG": 21,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 217,
+     "TOI": 20.695471666666666,
+     "age": 28
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2024,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 71,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 34,
+     "PM": 32,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 240,
+     "TOI": 21.517370000000003,
+     "age": 29
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2025,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 65,
+     "G": 35,
+     "A": 62,
+     "P": 97,
+     "PIM": 26,
+     "PM": 13,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 186,
+     "TOI": 21.575126666666666,
+     "age": 30
+    }
+   ],
+   "text": "Leon Draisaitl recorded 83+ points in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby"
+    }
+   ],
+   "seasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2020,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 55,
+     "G": 24,
+     "A": 38,
+     "P": 62,
+     "PIM": 26,
+     "PM": 8,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 159,
+     "TOI": 20.39818166666667,
+     "age": 33
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2021,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 69,
+     "G": 31,
+     "A": 53,
+     "P": 84,
+     "PIM": 32,
+     "PM": 19,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 208,
+     "TOI": 19.974395,
+     "age": 34
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2022,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 33,
+     "A": 60,
+     "P": 93,
+     "PIM": 52,
+     "PM": 8,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 255,
+     "TOI": 20.143494999999998,
+     "age": 35
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2023,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 42,
+     "A": 52,
+     "P": 94,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 278,
+     "TOI": 20.086788333333335,
+     "age": 36
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2024,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 33,
+     "A": 58,
+     "P": 91,
+     "PIM": 31,
+     "PM": -20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 227,
+     "TOI": 20.37458333333333,
+     "age": 37
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2025,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 68,
+     "G": 29,
+     "A": 45,
+     "P": 74,
+     "PIM": 44,
+     "PM": 0,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 160,
+     "TOI": 19.23088166666667,
+     "age": 38
+    }
+   ],
+   "text": "Sidney Crosby averaged a point a game (60% of games) in 6 straight seasons (2020-21 to 2025-26), the longest run of the 2020s.",
+   "why": "The longest run of the 2020s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 13,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8475167,
+     "name": "Victor Hedman",
+     "season": 2023,
+     "team": "TBL",
+     "pos": "D",
+     "GP": 78,
+     "G": 13,
+     "A": 63,
+     "P": 76,
+     "PIM": 76,
+     "PM": 18,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 168,
+     "TOI": 24.804273333333335,
+     "age": 33
+    },
+    {
+     "id": 8480839,
+     "name": "Rasmus Dahlin",
+     "season": 2025,
+     "team": "BUF",
+     "pos": "D",
+     "GP": 77,
+     "G": 19,
+     "A": 55,
+     "P": 74,
+     "PIM": 76,
+     "PM": 18,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 194,
+     "TOI": 24.185713333333336,
+     "age": 25
+    },
+    {
+     "id": 8477986,
+     "name": "Brandon Montour",
+     "season": 2022,
+     "team": "FLA",
+     "pos": "D",
+     "GP": 80,
+     "G": 16,
+     "A": 57,
+     "P": 73,
+     "PIM": 107,
+     "PM": 9,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 242,
+     "TOI": 24.126250000000002,
+     "age": 28
+    },
+    {
+     "id": 8480839,
+     "name": "Rasmus Dahlin",
+     "season": 2022,
+     "team": "BUF",
+     "pos": "D",
+     "GP": 78,
+     "G": 15,
+     "A": 58,
+     "P": 73,
+     "PIM": 92,
+     "PM": 12,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 204,
+     "TOI": 25.795725,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.9,
+   "players": [
+    {
+     "id": 8475167,
+     "name": "Victor Hedman"
+    },
+    {
+     "id": 8480839,
+     "name": "Rasmus Dahlin"
+    },
+    {
+     "id": 8477986,
+     "name": "Brandon Montour"
+    }
+   ],
+   "seasons": [
+    2023,
+    2025,
+    2022,
+    2022
+   ],
+   "text": "Just three players of the 2020s recorded 48 points and 75 penalty minutes as a defenseman: Victor Hedman (2023-24: 76 pts, 76 PIM); Rasmus Dahlin (2×, best 2025-26: 74 pts, 76 PIM); Brandon Montour (2022-23: 73 pts, 107 PIM).",
+   "why": "A short list fans can recite; each name brings its own fan base. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 14,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8484801,
+     "name": "Macklin Celebrini",
+     "season": 2025,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 45,
+     "A": 70,
+     "P": 115,
+     "PIM": 44,
+     "PM": 8,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 287,
+     "TOI": 21.315853333333333,
+     "age": 19
+    },
+    {
+     "id": 8482740,
+     "name": "Wyatt Johnston",
+     "season": 2023,
+     "team": "DAL",
+     "pos": "C",
+     "GP": 82,
+     "G": 32,
+     "A": 33,
+     "P": 65,
+     "PIM": 38,
+     "PM": 14,
+     "PPG": 3,
+     "SHG": 3,
+     "GWG": 3,
+     "S": 216,
+     "TOI": 17.002438333333334,
+     "age": 20
+    },
+    {
+     "id": 8484166,
+     "name": "Adam Fantilli",
+     "season": 2024,
+     "team": "CBJ",
+     "pos": "C",
+     "GP": 82,
+     "G": 31,
+     "A": 23,
+     "P": 54,
+     "PIM": 18,
+     "PM": 4,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 191,
+     "TOI": 17.477845,
+     "age": 20
+    },
+    {
+     "id": 8484144,
+     "name": "Connor Bedard",
+     "season": 2025,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 69,
+     "G": 30,
+     "A": 45,
+     "P": 75,
+     "PIM": 50,
+     "PM": -18,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 226,
+     "TOI": 20.866666666666667,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.125,
+   "players": [
+    {
+     "id": 8484801,
+     "name": "Macklin Celebrini"
+    },
+    {
+     "id": 8482740,
+     "name": "Wyatt Johnston"
+    },
+    {
+     "id": 8484166,
+     "name": "Adam Fantilli"
+    },
+    {
+     "id": 8484144,
+     "name": "Connor Bedard"
+    }
+   ],
+   "seasons": [
+    2025,
+    2023,
+    2024,
+    2025
+   ],
+   "text": "Just four players of the 2020s scored 30 goals at age 20 or younger: Macklin Celebrini (2025-26: 45 goals at 19); Wyatt Johnston (2023-24: 32 goals at 20); Adam Fantilli (2024-25: 31 goals at 20); Connor Bedard (2025-26: 30 goals at 20).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 15,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Florida Panthers",
+     "name": "Florida Panthers",
+     "season": 2021,
+     "GP": 82,
+     "W": 58,
+     "L": 18,
+     "OTL": 6,
+     "GF": 337,
+     "GA": 242,
+     "PCT": 0.7439
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 2022,
+     "GP": 82,
+     "W": 50,
+     "L": 23,
+     "OTL": 9,
+     "GF": 325,
+     "GA": 256,
+     "PCT": 0.66463
+    },
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 2021,
+     "GP": 82,
+     "W": 54,
+     "L": 21,
+     "OTL": 7,
+     "GF": 312,
+     "GA": 252,
+     "PCT": 0.70121
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.027439024390244,
+   "players": [
+    {
+     "id": "Florida Panthers",
+     "name": "Florida Panthers"
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers"
+    },
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    }
+   ],
+   "seasons": [
+    2021,
+    2022,
+    2021
+   ],
+   "text": "Just three teams of the 2020s scored 3.8 goals a game: Florida Panthers (2021-22: 4.11 per game); Edmonton Oilers (2022-23: 3.96 per game); Toronto Maple Leafs (2021-22: 3.80 per game).",
+   "why": "A short list fans can recite; each name brings its own fan base. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 16,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "2020s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl"
+    }
+   ],
+   "seasons": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2021,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 55,
+     "P": 110,
+     "PIM": 40,
+     "PM": 17,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 278,
+     "TOI": 22.34916666666667,
+     "age": 26
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 76,
+     "P": 128,
+     "PIM": 24,
+     "PM": 7,
+     "PPG": 32,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 247,
+     "TOI": 21.73395833333333,
+     "age": 27
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 81,
+     "G": 41,
+     "A": 65,
+     "P": 106,
+     "PIM": 76,
+     "PM": 26,
+     "PPG": 21,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 217,
+     "TOI": 20.695471666666666,
+     "age": 28
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2024,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 71,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 34,
+     "PM": 32,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 240,
+     "TOI": 21.517370000000003,
+     "age": 29
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2025,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 65,
+     "G": 35,
+     "A": 62,
+     "P": 97,
+     "PIM": 26,
+     "PM": 13,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 186,
+     "TOI": 21.575126666666666,
+     "age": 30
+    }
+   ],
+   "text": "Leon Draisaitl scored 35+ goals in 5 straight seasons (2021-22 to 2025-26), the longest run of the 2020s.",
+   "why": "The longest run of the 2020s; fans measure today's stars against it. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 17,
+   "rule": "h_ppg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 76,
+     "P": 128,
+     "PIM": 24,
+     "PM": 7,
+     "PPG": 32,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 247,
+     "TOI": 21.73395833333333,
+     "age": 27
+    },
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart",
+     "season": 2023,
+     "team": "FLA",
+     "pos": "C",
+     "GP": 82,
+     "G": 57,
+     "A": 37,
+     "P": 94,
+     "PIM": 31,
+     "PM": 29,
+     "PPG": 27,
+     "SHG": 5,
+     "GWG": 11,
+     "S": 233,
+     "TOI": 20.29979666666667,
+     "age": 28
+    },
+    {
+     "id": 8482740,
+     "name": "Wyatt Johnston",
+     "season": 2025,
+     "team": "DAL",
+     "pos": "C",
+     "GP": 82,
+     "G": 45,
+     "A": 41,
+     "P": 86,
+     "PIM": 32,
+     "PM": -5,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 206,
+     "TOI": 20.123373333333333,
+     "age": 22
+    },
+    {
+     "id": 8475184,
+     "name": "Chris Kreider",
+     "season": 2021,
+     "team": "NYR",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 25,
+     "P": 77,
+     "PIM": 24,
+     "PM": 19,
+     "PPG": 26,
+     "SHG": 3,
+     "GWG": 11,
+     "S": 258,
+     "TOI": 18.73004,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.8,
+   "players": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl"
+    },
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart"
+    },
+    {
+     "id": 8482740,
+     "name": "Wyatt Johnston"
+    },
+    {
+     "id": 8475184,
+     "name": "Chris Kreider"
+    }
+   ],
+   "seasons": [
+    2022,
+    2023,
+    2025,
+    2021
+   ],
+   "text": "Just four players of the 2020s scored 25 power-play goals: Leon Draisaitl (2022-23: 32 PPG); Sam Reinhart (2023-24: 27 PPG); Wyatt Johnston (2025-26: 27 PPG); Chris Kreider (2021-22: 26 PPG).",
+   "why": "A short list fans can recite; each name brings its own fan base. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 18,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480803,
+     "name": "Evan Bouchard",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 25,
+     "G": 6,
+     "A": 26,
+     "P": 32,
+     "PIM": 22,
+     "PM": 14,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 74,
+     "TOI": 25.017999999999997,
+     "age": 24
+    },
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "season": 2021,
+     "team": "COL",
+     "pos": "D",
+     "GP": 20,
+     "G": 8,
+     "A": 21,
+     "P": 29,
+     "PIM": 10,
+     "PM": 7,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 71,
+     "TOI": 27.07,
+     "age": 23
+    },
+    {
+     "id": 8479323,
+     "name": "Adam Fox",
+     "season": 2021,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 20,
+     "G": 5,
+     "A": 18,
+     "P": 23,
+     "PIM": 2,
+     "PM": 0,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 42,
+     "TOI": 26.640833333333333,
+     "age": 23
+    },
+    {
+     "id": 8480803,
+     "name": "Evan Bouchard",
+     "season": 2024,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 22,
+     "G": 7,
+     "A": 16,
+     "P": 23,
+     "PIM": 8,
+     "PM": 6,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 70,
+     "TOI": 26.20681666666667,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.8,
+   "players": [
+    {
+     "id": 8480803,
+     "name": "Evan Bouchard"
+    },
+    {
+     "id": 8480069,
+     "name": "Cale Makar"
+    },
+    {
+     "id": 8479323,
+     "name": "Adam Fox"
+    }
+   ],
+   "seasons": [
+    2023,
+    2021,
+    2021,
+    2024
+   ],
+   "text": "Just three players of the 2020s recorded 20 points as a defenseman in one postseason: Evan Bouchard (2×, best 2023-24: 32 points in 25 games); Cale Makar (2021-22: 29 points in 20 games); Adam Fox (2021-22: 23 points in 20 games).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 19,
+   "rule": "h_eff",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8483808,
+     "name": "Andrei Kuzmenko",
+     "season": 2022,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 81,
+     "G": 39,
+     "A": 35,
+     "P": 74,
+     "PIM": 8,
+     "PM": 9,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 143,
+     "TOI": 16.241768333333333,
+     "age": 26
+    },
+    {
+     "id": 8478401,
+     "name": "Pavel Zacha",
+     "season": 2025,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 30,
+     "A": 35,
+     "P": 65,
+     "PIM": 28,
+     "PM": 4,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 131,
+     "TOI": 16.846153333333334,
+     "age": 28
+    },
+    {
+     "id": 8481656,
+     "name": "Aliaksei Protas",
+     "season": 2024,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 76,
+     "G": 30,
+     "A": 36,
+     "P": 66,
+     "PIM": 18,
+     "PM": 40,
+     "PPG": 0,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 142,
+     "TOI": 16.456139999999998,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.681818181818182,
+   "players": [
+    {
+     "id": 8483808,
+     "name": "Andrei Kuzmenko"
+    },
+    {
+     "id": 8478401,
+     "name": "Pavel Zacha"
+    },
+    {
+     "id": 8481656,
+     "name": "Aliaksei Protas"
+    }
+   ],
+   "seasons": [
+    2022,
+    2025,
+    2024
+   ],
+   "text": "Just three players of the 2020s scored 30 goals on fewer than 150 shots: Andrei Kuzmenko (2022-23: 39 goals on 143 shots); Pavel Zacha (2025-26: 30 goals on 131 shots); Aliaksei Protas (2024-25: 30 goals on 142 shots).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 20,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477070,
+     "name": "Liam O'Brien",
+     "season": 2023,
+     "team": "ARI",
+     "pos": "C",
+     "GP": 75,
+     "G": 5,
+     "A": 9,
+     "P": 14,
+     "PIM": 153,
+     "PM": 0,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 72,
+     "TOI": 9.729333333333333,
+     "age": 29
+    },
+    {
+     "id": 8477507,
+     "name": "Nikita Zadorov",
+     "season": 2025,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 81,
+     "G": 2,
+     "A": 20,
+     "P": 22,
+     "PIM": 152,
+     "PM": 18,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 107,
+     "TOI": 20.881275000000002,
+     "age": 30
+    },
+    {
+     "id": 8474697,
+     "name": "Mark Borowiecki",
+     "season": 2021,
+     "team": "NSH",
+     "pos": "D",
+     "GP": 57,
+     "G": 0,
+     "A": 4,
+     "P": 4,
+     "PIM": 151,
+     "PM": -9,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 45,
+     "TOI": 13.109648333333332,
+     "age": 32
+    },
+    {
+     "id": 8474034,
+     "name": "Patrick Maroon",
+     "season": 2022,
+     "team": "TBL",
+     "pos": "L",
+     "GP": 80,
+     "G": 5,
+     "A": 9,
+     "P": 14,
+     "PIM": 150,
+     "PM": -5,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 62,
+     "TOI": 10.344791666666667,
+     "age": 34
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.3825,
+   "players": [
+    {
+     "id": 8477070,
+     "name": "Liam O'Brien"
+    },
+    {
+     "id": 8477507,
+     "name": "Nikita Zadorov"
+    },
+    {
+     "id": 8474697,
+     "name": "Mark Borowiecki"
+    },
+    {
+     "id": 8474034,
+     "name": "Patrick Maroon"
+    }
+   ],
+   "seasons": [
+    2023,
+    2025,
+    2021,
+    2022
+   ],
+   "text": "Just four players of the 2020s racked up 150 penalty minutes: Liam O'Brien (2023-24: 153 PIM); Nikita Zadorov (2025-26: 152 PIM); Mark Borowiecki (2021-22: 151 PIM); Patrick Maroon (2022-23: 150 PIM).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 21,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478439,
+     "name": "Travis Konecny",
+     "season": 2023,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 76,
+     "G": 33,
+     "A": 35,
+     "P": 68,
+     "PIM": 67,
+     "PM": 4,
+     "PPG": 4,
+     "SHG": 6,
+     "GWG": 5,
+     "S": 244,
+     "TOI": 19.84035,
+     "age": 26
+    },
+    {
+     "id": 8476389,
+     "name": "Vincent Trocheck",
+     "season": 2024,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 82,
+     "G": 26,
+     "A": 33,
+     "P": 59,
+     "PIM": 44,
+     "PM": 0,
+     "PPG": 5,
+     "SHG": 6,
+     "GWG": 7,
+     "S": 202,
+     "TOI": 21.098983333333333,
+     "age": 31
+    },
+    {
+     "id": 8477949,
+     "name": "Alex Tuch",
+     "season": 2024,
+     "team": "BUF",
+     "pos": "R",
+     "GP": 82,
+     "G": 36,
+     "A": 31,
+     "P": 67,
+     "PIM": 47,
+     "PM": 16,
+     "PPG": 3,
+     "SHG": 6,
+     "GWG": 4,
+     "S": 196,
+     "TOI": 19.25426666666667,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.15,
+   "players": [
+    {
+     "id": 8478439,
+     "name": "Travis Konecny"
+    },
+    {
+     "id": 8476389,
+     "name": "Vincent Trocheck"
+    },
+    {
+     "id": 8477949,
+     "name": "Alex Tuch"
+    }
+   ],
+   "seasons": [
+    2023,
+    2024,
+    2024
+   ],
+   "text": "Just three players of the 2020s scored 6 shorthanded goals: Travis Konecny (2023-24: 6 SHG); Vincent Trocheck (2024-25: 6 SHG); Alex Tuch (2024-25: 6 SHG).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 22,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2023,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 81,
+     "G": 69,
+     "A": 38,
+     "P": 107,
+     "PIM": 20,
+     "PM": 31,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 369,
+     "TOI": 20.966459999999998,
+     "age": 26
+    }
+   ],
+   "among": 5652,
+   "text": "Most goals in a season in the 2020s: Auston Matthews, 2023-24 — 69 in 81 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 23,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 64,
+     "A": 89,
+     "P": 153,
+     "PIM": 36,
+     "PM": 22,
+     "PPG": 21,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 352,
+     "TOI": 22.38556833333333,
+     "age": 26
+    }
+   ],
+   "among": 5652,
+   "text": "Most points in a season in the 2020s: Connor McDavid, 2022-23 — 153 (64G, 89A).",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8477070,
+     "name": "Liam O'Brien"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477070,
+     "name": "Liam O'Brien",
+     "season": 2023,
+     "team": "ARI",
+     "pos": "C",
+     "GP": 75,
+     "G": 5,
+     "A": 9,
+     "P": 14,
+     "PIM": 153,
+     "PM": 0,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 72,
+     "TOI": 9.729333333333333,
+     "age": 29
+    }
+   ],
+   "among": 5652,
+   "text": "Most penalty minutes in a season in the 2020s: Liam O'Brien, 2023-24 — 153.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2022,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 61,
+     "A": 52,
+     "P": 113,
+     "PIM": 38,
+     "PM": 34,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 407,
+     "TOI": 19.56443,
+     "age": 26
+    }
+   ],
+   "among": 5652,
+   "text": "Most game-winning goals in a season in the 2020s: David Pastrnak, 2022-23 — 13.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "x_pm",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476346,
+     "name": "Johnny Gaudreau"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476346,
+     "name": "Johnny Gaudreau",
+     "season": 2021,
+     "team": "CGY",
+     "pos": "L",
+     "GP": 82,
+     "G": 40,
+     "A": 75,
+     "P": 115,
+     "PIM": 26,
+     "PM": 64,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 262,
+     "TOI": 18.574796666666668,
+     "age": 28
+    }
+   ],
+   "among": 5652,
+   "text": "Best plus-minus in a season in the 2020s: Johnny Gaudreau, 2021-22 — +64.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8478444,
+     "name": "Brock Boeser"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478444,
+     "name": "Brock Boeser",
+     "season": 2025,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 75,
+     "G": 22,
+     "A": 26,
+     "P": 48,
+     "PIM": 8,
+     "PM": -48,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 166,
+     "TOI": 19.053333333333335,
+     "age": 28
+    }
+   ],
+   "among": 5652,
+   "text": "Worst plus-minus in a season in the 2020s: Brock Boeser, 2025-26 — -48.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2022,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 61,
+     "A": 52,
+     "P": 113,
+     "PIM": 38,
+     "PM": 34,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 407,
+     "TOI": 19.56443,
+     "age": 26
+    }
+   ],
+   "among": 5652,
+   "text": "Most shots in a season in the 2020s: David Pastrnak, 2022-23 — 407.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart",
+     "season": 2023,
+     "team": "FLA",
+     "pos": "C",
+     "GP": 82,
+     "G": 57,
+     "A": 37,
+     "P": 94,
+     "PIM": 31,
+     "PM": 29,
+     "PPG": 27,
+     "SHG": 5,
+     "GWG": 11,
+     "S": 233,
+     "TOI": 20.29979666666667,
+     "age": 28
+    }
+   ],
+   "among": 903,
+   "text": "Best shooting percentage in a season (150+ shots) in the 2020s: Sam Reinhart, 2023-24 — 24.5%.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "season": 2022,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 25,
+     "A": 76,
+     "P": 101,
+     "PIM": 36,
+     "PM": -26,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 209,
+     "TOI": 25.61504,
+     "age": 32
+    }
+   ],
+   "among": 1950,
+   "text": "Most points by a defenseman in a season in the 2020s: Erik Karlsson, 2022-23 — 101.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8480069,
+     "name": "Cale Makar"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "season": 2024,
+     "team": "COL",
+     "pos": "D",
+     "GP": 80,
+     "G": 30,
+     "A": 62,
+     "P": 92,
+     "PIM": 14,
+     "PM": 28,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 246,
+     "TOI": 25.71625,
+     "age": 26
+    }
+   ],
+   "among": 1950,
+   "text": "Most goals by a defenseman in a season in the 2020s: Cale Makar, 2024-25 — 30.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2020,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 56,
+     "G": 33,
+     "A": 72,
+     "P": 105,
+     "PIM": 20,
+     "PM": 21,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 200,
+     "TOI": 22.15357,
+     "age": 24
+    }
+   ],
+   "among": 3336,
+   "text": "Most points per game in a season (60% of games) in the 2020s: Connor McDavid, 2020-21 — 1.88.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2023,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 81,
+     "G": 69,
+     "A": 38,
+     "P": 107,
+     "PIM": 20,
+     "PM": 31,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 369,
+     "TOI": 20.966459999999998,
+     "age": 26
+    }
+   ],
+   "among": 3336,
+   "text": "Most goals per game in a season (60% of games) in the 2020s: Auston Matthews, 2023-24 — 0.85.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8483808,
+     "name": "Andrei Kuzmenko"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8483808,
+     "name": "Andrei Kuzmenko",
+     "season": 2022,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 81,
+     "G": 39,
+     "A": 35,
+     "P": 74,
+     "PIM": 8,
+     "PM": 9,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 143,
+     "TOI": 16.241768333333333,
+     "age": 26
+    }
+   ],
+   "among": 705,
+   "text": "Most goals in a first NHL season in the 2020s: Andrei Kuzmenko, 2022-23 — 39.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8483808,
+     "name": "Andrei Kuzmenko"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8483808,
+     "name": "Andrei Kuzmenko",
+     "season": 2022,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 81,
+     "G": 39,
+     "A": 35,
+     "P": 74,
+     "PIM": 8,
+     "PM": 9,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 143,
+     "TOI": 16.241768333333333,
+     "age": 26
+    }
+   ],
+   "among": 705,
+   "text": "Most points in a first NHL season in the 2020s: Andrei Kuzmenko, 2022-23 — 74.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "x_toi",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8480800,
+     "name": "Quinn Hughes"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480800,
+     "name": "Quinn Hughes",
+     "season": 2025,
+     "team": "VAN,MIN",
+     "pos": "D",
+     "GP": 74,
+     "G": 7,
+     "A": 69,
+     "P": 76,
+     "PIM": 32,
+     "PM": -4,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 187,
+     "TOI": 27.737611666666666,
+     "age": 26
+    }
+   ],
+   "among": 3336,
+   "text": "Most ice time per game in a season in the 2020s: Quinn Hughes, 2025-26 — 27.7 minutes.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ice-time workload shows who coaches trusted most."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "season": 2024,
+     "team": "WPG",
+     "GP": 63,
+     "A": 1,
+     "PIM": 2,
+     "W": 47,
+     "L": 12,
+     "OTL": 3,
+     "SO": 8,
+     "GAA": 2.00461,
+     "SVP": 0.92487,
+     "SV": 1539,
+     "GA": 125
+    }
+   ],
+   "among": 623,
+   "text": "Most wins by a goalie in a season in the 2020s: Connor Hellebuyck, 2024-25 — 47.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8474593,
+     "name": "Jacob Markstrom"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474593,
+     "name": "Jacob Markstrom",
+     "season": 2021,
+     "team": "CGY",
+     "GP": 63,
+     "A": 3,
+     "PIM": 10,
+     "W": 37,
+     "L": 15,
+     "OTL": 9,
+     "SO": 9,
+     "GAA": 2.22412,
+     "SVP": 0.92189,
+     "SV": 1617,
+     "GA": 137
+    }
+   ],
+   "among": 623,
+   "text": "Most shutouts in a season in the 2020s: Jacob Markstrom, 2021-22 — 9.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark",
+     "season": 2022,
+     "team": "BOS",
+     "GP": 49,
+     "A": 0,
+     "PIM": 2,
+     "W": 40,
+     "L": 6,
+     "OTL": 1,
+     "SO": 2,
+     "GAA": 1.89438,
+     "SVP": 0.93754,
+     "SV": 1366,
+     "GA": 91
+    }
+   ],
+   "among": 242,
+   "text": "Best goals-against average in a season (40% of games) in the 2020s: Linus Ullmark, 2022-23 — 1.89.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "gx_sv",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark",
+     "season": 2022,
+     "team": "BOS",
+     "GP": 49,
+     "A": 0,
+     "PIM": 2,
+     "W": 40,
+     "L": 6,
+     "OTL": 1,
+     "SO": 2,
+     "GAA": 1.89438,
+     "SVP": 0.93754,
+     "SV": 1366,
+     "GA": 91
+    }
+   ],
+   "among": 242,
+   "text": "Best save percentage in a season (40% of games) in the 2020s: Linus Ullmark, 2022-23 — .938.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "gx_gp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8477424,
+     "name": "Juuse Saros"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477424,
+     "name": "Juuse Saros",
+     "season": 2021,
+     "team": "NSH",
+     "GP": 67,
+     "A": 0,
+     "PIM": 0,
+     "W": 38,
+     "L": 25,
+     "OTL": 3,
+     "SO": 4,
+     "GAA": 2.64007,
+     "SVP": 0.91789,
+     "SV": 1934,
+     "GA": 173
+    }
+   ],
+   "among": 623,
+   "text": "Most games by a goalie in a season in the 2020s: Juuse Saros, 2021-22 — 67.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8478872,
+     "name": "Karel Vejmelka"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478872,
+     "name": "Karel Vejmelka",
+     "season": 2021,
+     "team": "ARI",
+     "GP": 52,
+     "A": 0,
+     "PIM": 0,
+     "W": 13,
+     "L": 32,
+     "OTL": 3,
+     "SO": 1,
+     "GAA": 3.67801,
+     "SVP": 0.89814,
+     "SV": 1499,
+     "GA": 170
+    }
+   ],
+   "among": 623,
+   "text": "Most losses by a goalie in a season in the 2020s: Karel Vejmelka, 2021-22 — 32.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks",
+     "season": 2023,
+     "GP": 82,
+     "W": 19,
+     "L": 54,
+     "OTL": 9,
+     "GF": 180,
+     "GA": 326,
+     "PCT": 0.28658
+    }
+   ],
+   "among": 191,
+   "text": "Worst points percentage in a season in the 2020s: San Jose Sharks, 2023-24 — .287 (19-54-9).",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Florida Panthers",
+     "name": "Florida Panthers"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Florida Panthers",
+     "name": "Florida Panthers",
+     "season": 2021,
+     "GP": 82,
+     "W": 58,
+     "L": 18,
+     "OTL": 6,
+     "GF": 337,
+     "GA": 242,
+     "PCT": 0.7439
+    }
+   ],
+   "among": 191,
+   "text": "Most goals per game by a team in the 2020s: Florida Panthers, 2021-22 — 4.11 (337 in 82).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "tx_pp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 2022,
+     "GP": 82,
+     "W": 50,
+     "L": 23,
+     "OTL": 9,
+     "GF": 325,
+     "GA": 256,
+     "PCT": 0.66463
+    }
+   ],
+   "among": 191,
+   "text": "Best power play in a season in the 2020s: Edmonton Oilers, 2022-23 — 32.4%.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "tx_pk",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Carolina Hurricanes",
+     "name": "Carolina Hurricanes"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Carolina Hurricanes",
+     "name": "Carolina Hurricanes",
+     "season": 2021,
+     "GP": 82,
+     "W": 54,
+     "L": 20,
+     "OTL": 8,
+     "GF": 277,
+     "GA": 200,
+     "PCT": 0.70731
+    }
+   ],
+   "among": 191,
+   "text": "Best penalty kill in a season in the 2020s: Carolina Hurricanes, 2021-22 — 88.0%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8475786,
+     "name": "Zach Hyman"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8475786,
+     "name": "Zach Hyman",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "L",
+     "GP": 25,
+     "G": 16,
+     "A": 6,
+     "P": 22,
+     "PIM": 12,
+     "PM": 12,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 90,
+     "TOI": 21.412,
+     "age": 31
+    }
+   ],
+   "among": 2024,
+   "text": "Most goals in a single postseason in the 2020s: Zach Hyman, 2023-24 — 16 in 25 games.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "pogx_so",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy"
+    }
+   ],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy",
+     "season": 2020,
+     "team": "TBL",
+     "GP": 23,
+     "A": 0,
+     "PIM": 0,
+     "W": 16,
+     "L": 7,
+     "OTL": 0,
+     "SO": 5,
+     "GAA": 1.89989,
+     "SVP": 0.93705,
+     "SV": 655,
+     "GA": 44
+    }
+   ],
+   "among": 161,
+   "text": "Most shutouts in a single postseason in the 2020s: Andrei Vasilevskiy, 2020-21 — 5.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 49,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk"
+    }
+   ],
+   "seasons": [
+    2021,
+    2022,
+    2023,
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "season": 2021,
+     "team": "OTT",
+     "pos": "L",
+     "GP": 79,
+     "G": 30,
+     "A": 37,
+     "P": 67,
+     "PIM": 117,
+     "PM": -7,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 288,
+     "TOI": 18.798945,
+     "age": 22
+    },
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "season": 2022,
+     "team": "OTT",
+     "pos": "L",
+     "GP": 82,
+     "G": 35,
+     "A": 48,
+     "P": 83,
+     "PIM": 126,
+     "PM": -10,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 347,
+     "TOI": 18.632113333333333,
+     "age": 23
+    },
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "season": 2023,
+     "team": "OTT",
+     "pos": "L",
+     "GP": 81,
+     "G": 37,
+     "A": 37,
+     "P": 74,
+     "PIM": 134,
+     "PM": 1,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 357,
+     "TOI": 19.14218,
+     "age": 24
+    },
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "season": 2024,
+     "team": "OTT",
+     "pos": "L",
+     "GP": 72,
+     "G": 29,
+     "A": 26,
+     "P": 55,
+     "PIM": 123,
+     "PM": 0,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 296,
+     "TOI": 18.2375,
+     "age": 25
+    }
+   ],
+   "text": "Brady Tkachuk racked up 105+ penalty minutes in 4 straight seasons (2021-22 to 2024-25), the longest run of the 2020s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 50,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8479979,
+     "name": "Jake Oettinger"
+    }
+   ],
+   "seasons": [
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479979,
+     "name": "Jake Oettinger",
+     "season": 2022,
+     "team": "DAL",
+     "GP": 62,
+     "A": 1,
+     "PIM": 2,
+     "W": 37,
+     "L": 11,
+     "OTL": 11,
+     "SO": 5,
+     "GAA": 2.37044,
+     "SVP": 0.91948,
+     "SV": 1633,
+     "GA": 144
+    },
+    {
+     "id": 8479979,
+     "name": "Jake Oettinger",
+     "season": 2023,
+     "team": "DAL",
+     "GP": 54,
+     "A": 0,
+     "PIM": 2,
+     "W": 35,
+     "L": 14,
+     "OTL": 4,
+     "SO": 3,
+     "GAA": 2.72322,
+     "SVP": 0.90514,
+     "SV": 1336,
+     "GA": 140
+    },
+    {
+     "id": 8479979,
+     "name": "Jake Oettinger",
+     "season": 2024,
+     "team": "DAL",
+     "GP": 58,
+     "A": 1,
+     "PIM": 0,
+     "W": 36,
+     "L": 18,
+     "OTL": 4,
+     "SO": 2,
+     "GAA": 2.58645,
+     "SVP": 0.90875,
+     "SV": 1464,
+     "GA": 147
+    },
+    {
+     "id": 8479979,
+     "name": "Jake Oettinger",
+     "season": 2025,
+     "team": "DAL",
+     "GP": 54,
+     "A": 1,
+     "PIM": 0,
+     "W": 35,
+     "L": 12,
+     "OTL": 6,
+     "SO": 4,
+     "GAA": 2.59221,
+     "SVP": 0.89941,
+     "SV": 1234,
+     "GA": 138
+    }
+   ],
+   "text": "Jake Oettinger won 32+ games in goal in 4 straight seasons (2022-23 to 2025-26), the longest run of the 2020s.",
+   "why": "The longest run of the 2020s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "x_ppg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 76,
+     "P": 128,
+     "PIM": 24,
+     "PM": 7,
+     "PPG": 32,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 247,
+     "TOI": 21.73395833333333,
+     "age": 27
+    }
+   ],
+   "among": 5652,
+   "text": "Most power-play goals in a season in the 2020s: Leon Draisaitl, 2022-23 — 32.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "gx_saves",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "season": 2021,
+     "team": "WPG",
+     "GP": 66,
+     "A": 2,
+     "PIM": 0,
+     "W": 29,
+     "L": 27,
+     "OTL": 10,
+     "SO": 4,
+     "GAA": 2.96656,
+     "SVP": 0.91044,
+     "SV": 1962,
+     "GA": 193
+    }
+   ],
+   "among": 623,
+   "text": "Most saves in a season in the 2020s: Connor Hellebuyck, 2021-22 — 1,962.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 2022,
+     "GP": 82,
+     "W": 65,
+     "L": 12,
+     "OTL": 5,
+     "GF": 301,
+     "GA": 174,
+     "PCT": 0.82317
+    }
+   ],
+   "among": 191,
+   "text": "Best points percentage in a season in the 2020s: Boston Bruins, 2022-23 — .823 (65-12-5).",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 2022,
+     "GP": 82,
+     "W": 65,
+     "L": 12,
+     "OTL": 5,
+     "GF": 301,
+     "GA": 174,
+     "PCT": 0.82317
+    }
+   ],
+   "among": 191,
+   "text": "Fewest goals allowed per game in the 2020s: Boston Bruins, 2022-23 — 2.12 (174 in 82).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 2022,
+     "GP": 82,
+     "W": 65,
+     "L": 12,
+     "OTL": 5,
+     "GF": 301,
+     "GA": 174,
+     "PCT": 0.82317
+    }
+   ],
+   "among": 191,
+   "text": "Best goal differential in a season in the 2020s: Boston Bruins, 2022-23 — +127.",
+   "why": "The high-water mark of the 2020s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "2020s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 25,
+     "G": 8,
+     "A": 34,
+     "P": 42,
+     "PIM": 10,
+     "PM": 12,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 75,
+     "TOI": 23.032,
+     "age": 27
+    }
+   ],
+   "among": 2024,
+   "text": "Most points in a single postseason in the 2020s: Connor McDavid, 2023-24 — 42 in 25 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 57,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479314,
+     "name": "Matthew Tkachuk",
+     "season": 2022,
+     "team": "FLA",
+     "pos": "L",
+     "GP": 79,
+     "G": 40,
+     "A": 69,
+     "P": 109,
+     "PIM": 123,
+     "PM": 29,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 322,
+     "TOI": 20.435863333333334,
+     "age": 25
+    },
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "season": 2022,
+     "team": "OTT",
+     "pos": "L",
+     "GP": 82,
+     "G": 35,
+     "A": 48,
+     "P": 83,
+     "PIM": 126,
+     "PM": -10,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 347,
+     "TOI": 18.632113333333333,
+     "age": 23
+    },
+    {
+     "id": 8473419,
+     "name": "Brad Marchand",
+     "season": 2021,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 70,
+     "G": 32,
+     "A": 48,
+     "P": 80,
+     "PIM": 97,
+     "PM": 16,
+     "PPG": 7,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 242,
+     "TOI": 19.248333333333335,
+     "age": 33
+    },
+    {
+     "id": 8478420,
+     "name": "Mikko Rantanen",
+     "season": 2025,
+     "team": "DAL",
+     "pos": "R",
+     "GP": 64,
+     "G": 22,
+     "A": 55,
+     "P": 77,
+     "PIM": 93,
+     "PM": 0,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 139,
+     "TOI": 20.17578,
+     "age": 29
+    },
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "season": 2023,
+     "team": "OTT",
+     "pos": "L",
+     "GP": 81,
+     "G": 37,
+     "A": 37,
+     "P": 74,
+     "PIM": 134,
+     "PM": 1,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 357,
+     "TOI": 19.14218,
+     "age": 24
+    },
+    {
+     "id": 8477986,
+     "name": "Brandon Montour",
+     "season": 2022,
+     "team": "FLA",
+     "pos": "D",
+     "GP": 80,
+     "G": 16,
+     "A": 57,
+     "P": 73,
+     "PIM": 107,
+     "PM": 9,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 242,
+     "TOI": 24.126250000000002,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 5.725,
+   "players": [
+    {
+     "id": 8479314,
+     "name": "Matthew Tkachuk"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "6 players recorded 66 points and 90 penalty minutes in the 2020s (8 seasons). The most extreme: Matthew Tkachuk, 2022-23 — 109 pts, 123 PIM.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 58,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "season": 2022,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 25,
+     "A": 76,
+     "P": 101,
+     "PIM": 36,
+     "PM": -26,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 209,
+     "TOI": 25.61504,
+     "age": 32
+    },
+    {
+     "id": 8474600,
+     "name": "Roman Josi",
+     "season": 2021,
+     "team": "NSH",
+     "pos": "D",
+     "GP": 80,
+     "G": 23,
+     "A": 73,
+     "P": 96,
+     "PIM": 46,
+     "PM": 13,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 281,
+     "TOI": 25.554375,
+     "age": 31
+    },
+    {
+     "id": 8480803,
+     "name": "Evan Bouchard",
+     "season": 2025,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 82,
+     "G": 21,
+     "A": 74,
+     "P": 95,
+     "PIM": 30,
+     "PM": 25,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 221,
+     "TOI": 24.677641666666666,
+     "age": 26
+    },
+    {
+     "id": 8480800,
+     "name": "Quinn Hughes",
+     "season": 2023,
+     "team": "VAN",
+     "pos": "D",
+     "GP": 82,
+     "G": 17,
+     "A": 75,
+     "P": 92,
+     "PIM": 38,
+     "PM": 38,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 199,
+     "TOI": 24.684958333333334,
+     "age": 24
+    },
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "season": 2024,
+     "team": "COL",
+     "pos": "D",
+     "GP": 80,
+     "G": 30,
+     "A": 62,
+     "P": 92,
+     "PIM": 14,
+     "PM": 28,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 246,
+     "TOI": 25.71625,
+     "age": 26
+    },
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "season": 2023,
+     "team": "COL",
+     "pos": "D",
+     "GP": 77,
+     "G": 21,
+     "A": 69,
+     "P": 90,
+     "PIM": 16,
+     "PM": 15,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 231,
+     "TOI": 24.76969666666667,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 5.525,
+   "players": [
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "7 players recorded 80 points as a defenseman in the 2020s (12 seasons). The most extreme: Erik Karlsson, 2022-23 — 101 points (25G, 76A).",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 59,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2023,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 81,
+     "G": 44,
+     "A": 100,
+     "P": 144,
+     "PIM": 22,
+     "PM": 8,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 306,
+     "TOI": 21.668723333333332,
+     "age": 30
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 76,
+     "G": 32,
+     "A": 100,
+     "P": 132,
+     "PIM": 30,
+     "PM": 35,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 263,
+     "TOI": 21.35921,
+     "age": 27
+    },
+    {
+     "id": 8476456,
+     "name": "Jonathan Huberdeau",
+     "season": 2021,
+     "team": "FLA",
+     "pos": "L",
+     "GP": 80,
+     "G": 30,
+     "A": 85,
+     "P": 115,
+     "PIM": 54,
+     "PM": 35,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 222,
+     "TOI": 19.42458333333333,
+     "age": 28
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2024,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 78,
+     "G": 37,
+     "A": 84,
+     "P": 121,
+     "PIM": 45,
+     "PM": 22,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 265,
+     "TOI": 21.18952833333333,
+     "age": 31
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2024,
+     "team": "COL",
+     "pos": "C",
+     "GP": 79,
+     "G": 32,
+     "A": 84,
+     "P": 116,
+     "PIM": 41,
+     "PM": 25,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 320,
+     "TOI": 22.782488333333333,
+     "age": 29
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2022,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 30,
+     "A": 83,
+     "P": 113,
+     "PIM": 36,
+     "PM": -2,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 271,
+     "TOI": 20.132316666666668,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 27,
+   "kind": "list",
+   "score": 5.5,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "19 players recorded 64 assists with twice as many assists as goals in the 2020s (27 seasons). The most extreme: Nikita Kucherov, 2023-24 — 100A, 44G.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 60,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8481559,
+     "name": "Jack Hughes",
+     "season": 2022,
+     "team": "NJD",
+     "pos": "C",
+     "GP": 78,
+     "G": 43,
+     "A": 56,
+     "P": 99,
+     "PIM": 6,
+     "PM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 336,
+     "TOI": 19.966025,
+     "age": 21
+    },
+    {
+     "id": 8478010,
+     "name": "Brayden Point",
+     "season": 2022,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 51,
+     "A": 44,
+     "P": 95,
+     "PIM": 7,
+     "PM": 2,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 235,
+     "TOI": 19.669715,
+     "age": 26
+    },
+    {
+     "id": 8478403,
+     "name": "Jack Eichel",
+     "season": 2024,
+     "team": "VGK",
+     "pos": "C",
+     "GP": 77,
+     "G": 28,
+     "A": 66,
+     "P": 94,
+     "PIM": 8,
+     "PM": 32,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 233,
+     "TOI": 20.533548333333332,
+     "age": 28
+    },
+    {
+     "id": 8478398,
+     "name": "Kyle Connor",
+     "season": 2021,
+     "team": "WPG",
+     "pos": "L",
+     "GP": 79,
+     "G": 47,
+     "A": 46,
+     "P": 93,
+     "PIM": 4,
+     "PM": -3,
+     "PPG": 8,
+     "SHG": 3,
+     "GWG": 9,
+     "S": 317,
+     "TOI": 21.775105,
+     "age": 25
+    },
+    {
+     "id": 8480018,
+     "name": "Nick Suzuki",
+     "season": 2024,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 82,
+     "G": 30,
+     "A": 59,
+     "P": 89,
+     "PIM": 8,
+     "PM": 19,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 172,
+     "TOI": 20.060568333333332,
+     "age": 25
+    },
+    {
+     "id": 8478010,
+     "name": "Brayden Point",
+     "season": 2024,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 77,
+     "G": 42,
+     "A": 40,
+     "P": 82,
+     "PIM": 7,
+     "PM": 17,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 189,
+     "TOI": 19.47922,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 5.475,
+   "players": [
+    {
+     "id": 8481559,
+     "name": "Jack Hughes"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "14 players recorded 66 points with 10 or fewer penalty minutes in the 2020s (18 seasons). The most extreme: Jack Hughes, 2022-23 — 99 pts, 6 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 61,
+   "rule": "h_old_p",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2023,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 42,
+     "A": 52,
+     "P": 94,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 278,
+     "TOI": 20.086788333333335,
+     "age": 36
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2024,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 33,
+     "A": 58,
+     "P": 91,
+     "PIM": 31,
+     "PM": -20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 227,
+     "TOI": 20.37458333333333,
+     "age": 37
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2021,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 77,
+     "G": 50,
+     "A": 40,
+     "P": 90,
+     "PIM": 18,
+     "PM": 8,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 334,
+     "TOI": 20.57186,
+     "age": 36
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2022,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 27,
+     "A": 56,
+     "P": 83,
+     "PIM": 82,
+     "PM": -12,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 240,
+     "TOI": 18.580486666666665,
+     "age": 36
+    },
+    {
+     "id": 8470794,
+     "name": "Joe Pavelski",
+     "season": 2021,
+     "team": "DAL",
+     "pos": "C",
+     "GP": 82,
+     "G": 27,
+     "A": 54,
+     "P": 81,
+     "PIM": 14,
+     "PM": 11,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 216,
+     "TOI": 18.473983333333333,
+     "age": 37
+    },
+    {
+     "id": 8470794,
+     "name": "Joe Pavelski",
+     "season": 2022,
+     "team": "DAL",
+     "pos": "C",
+     "GP": 82,
+     "G": 28,
+     "A": 49,
+     "P": 77,
+     "PIM": 8,
+     "PM": 42,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 184,
+     "TOI": 17.722763333333333,
+     "age": 38
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 5.35,
+   "players": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "5 players recorded 66 points at age 36 or older in the 2020s (13 seasons). The most extreme: Sidney Crosby, 2023-24 — 94 points at 36.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 62,
+   "rule": "h_pts_no_ppg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479542,
+     "name": "Brandon Hagel",
+     "season": 2024,
+     "team": "TBL",
+     "pos": "L",
+     "GP": 82,
+     "G": 35,
+     "A": 55,
+     "P": 90,
+     "PIM": 58,
+     "PM": 33,
+     "PPG": 0,
+     "SHG": 3,
+     "GWG": 4,
+     "S": 228,
+     "TOI": 20.743291666666668,
+     "age": 26
+    },
+    {
+     "id": 8479323,
+     "name": "Adam Fox",
+     "season": 2021,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 78,
+     "G": 11,
+     "A": 63,
+     "P": 74,
+     "PIM": 26,
+     "PM": 18,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 158,
+     "TOI": 23.90705,
+     "age": 23
+    },
+    {
+     "id": 8480800,
+     "name": "Quinn Hughes",
+     "season": 2021,
+     "team": "VAN",
+     "pos": "D",
+     "GP": 76,
+     "G": 8,
+     "A": 60,
+     "P": 68,
+     "PIM": 28,
+     "PM": 10,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 150,
+     "TOI": 25.251535,
+     "age": 22
+    },
+    {
+     "id": 8478483,
+     "name": "Mitch Marner",
+     "season": 2020,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 55,
+     "G": 20,
+     "A": 47,
+     "P": 67,
+     "PIM": 20,
+     "PM": 21,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 156,
+     "TOI": 22.42696833333333,
+     "age": 23
+    },
+    {
+     "id": 8481656,
+     "name": "Aliaksei Protas",
+     "season": 2024,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 76,
+     "G": 30,
+     "A": 36,
+     "P": 66,
+     "PIM": 18,
+     "PM": 40,
+     "PPG": 0,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 142,
+     "TOI": 16.456139999999998,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 5.25,
+   "players": [
+    {
+     "id": 8479542,
+     "name": "Brandon Hagel"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "5 players recorded 66 points with no power-play goals in the 2020s. The most extreme: Brandon Hagel, 2024-25 — 90 pts, 0 PPG.",
+   "why": "Leads with the most extreme case, which carries the post. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 63,
+   "rule": "g_sv",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark",
+     "season": 2022,
+     "team": "BOS",
+     "GP": 49,
+     "A": 0,
+     "PIM": 2,
+     "W": 40,
+     "L": 6,
+     "OTL": 1,
+     "SO": 2,
+     "GAA": 1.89438,
+     "SVP": 0.93754,
+     "SV": 1366,
+     "GA": 91
+    },
+    {
+     "id": 8478048,
+     "name": "Igor Shesterkin",
+     "season": 2021,
+     "team": "NYR",
+     "GP": 53,
+     "A": 1,
+     "PIM": 2,
+     "W": 36,
+     "L": 13,
+     "OTL": 4,
+     "SO": 6,
+     "GAA": 2.0713,
+     "SVP": 0.93464,
+     "SV": 1516,
+     "GA": 106
+    },
+    {
+     "id": 8477968,
+     "name": "Alex Nedeljkovic",
+     "season": 2020,
+     "team": "CAR",
+     "GP": 23,
+     "A": 1,
+     "PIM": 2,
+     "W": 15,
+     "L": 5,
+     "OTL": 3,
+     "SO": 3,
+     "GAA": 1.8965,
+     "SVP": 0.93209,
+     "SV": 604,
+     "GA": 44
+    },
+    {
+     "id": 8479406,
+     "name": "Filip Gustavsson",
+     "season": 2022,
+     "team": "MIN",
+     "GP": 39,
+     "A": 1,
+     "PIM": 0,
+     "W": 22,
+     "L": 9,
+     "OTL": 7,
+     "SO": 3,
+     "GAA": 2.10304,
+     "SVP": 0.93094,
+     "SV": 1092,
+     "GA": 81
+    },
+    {
+     "id": 8473575,
+     "name": "Semyon Varlamov",
+     "season": 2020,
+     "team": "NYI",
+     "GP": 36,
+     "A": 1,
+     "PIM": 2,
+     "W": 19,
+     "L": 11,
+     "OTL": 4,
+     "SO": 7,
+     "GAA": 2.04068,
+     "SVP": 0.92941,
+     "SV": 948,
+     "GA": 72
+    },
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury",
+     "season": 2020,
+     "team": "VGK",
+     "GP": 36,
+     "A": 1,
+     "PIM": 2,
+     "W": 26,
+     "L": 10,
+     "OTL": 0,
+     "SO": 6,
+     "GAA": 1.98453,
+     "SVP": 0.92821,
+     "SV": 918,
+     "GA": 71
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 5.188500000000002,
+   "players": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "10 goalies posted a .925 saved percentage (40% of games) in the 2020s. The most extreme: Linus Ullmark, 2022-23 — .938 in 49 games.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "total": 270,
+     "seasons": 6
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "total": 266,
+     "seasons": 6
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "total": 247,
+     "seasons": 6
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "total": 240,
+     "seasons": 6
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "total": 230,
+     "seasons": 6
+    }
+   ],
+   "text": "Most goals of the 2020s: Auston Matthews, 270 (next: Leon Draisaitl, 266).",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "total": 640,
+     "seasons": 6
+    },
+    {
+     "id": 8476880,
+     "name": "Tom Wilson",
+     "total": 622,
+     "seasons": 6
+    },
+    {
+     "id": 8477507,
+     "name": "Nikita Zadorov",
+     "total": 615,
+     "seasons": 6
+    },
+    {
+     "id": 8477070,
+     "name": "Liam O'Brien",
+     "total": 506,
+     "seasons": 6
+    },
+    {
+     "id": 8475462,
+     "name": "Radko Gudas",
+     "total": 505,
+     "seasons": 6
+    }
+   ],
+   "text": "Most penalty minutes of the 2020s: Brady Tkachuk, 640.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "tt_pm",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8478038,
+     "name": "Devon Toews"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478038,
+     "name": "Devon Toews",
+     "total": 215,
+     "seasons": 6
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "total": 190,
+     "seasons": 6
+    },
+    {
+     "id": 8478055,
+     "name": "Gustav Forsling",
+     "total": 161,
+     "seasons": 6
+    },
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "total": 156,
+     "seasons": 6
+    },
+    {
+     "id": 8475218,
+     "name": "Mattias Ekholm",
+     "total": 148,
+     "seasons": 6
+    }
+   ],
+   "text": "Best combined plus-minus of the 2020s: Devon Toews, +215.",
+   "why": "A decade-long view that settles consistency debates. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8480069,
+     "name": "Cale Makar"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "total": 457,
+     "seasons": 6
+    },
+    {
+     "id": 8480800,
+     "name": "Quinn Hughes",
+     "total": 429,
+     "seasons": 6
+    },
+    {
+     "id": 8479323,
+     "name": "Adam Fox",
+     "total": 380,
+     "seasons": 6
+    },
+    {
+     "id": 8474600,
+     "name": "Roman Josi",
+     "total": 366,
+     "seasons": 6
+    },
+    {
+     "id": 8480839,
+     "name": "Rasmus Dahlin",
+     "total": 350,
+     "seasons": 6
+    }
+   ],
+   "text": "Most points by a defenseman in the 2020s: Cale Makar, 457.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy",
+     "total": 211,
+     "seasons": 6
+    },
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "total": 197,
+     "seasons": 6
+    },
+    {
+     "id": 8479979,
+     "name": "Jake Oettinger",
+     "total": 184,
+     "seasons": 6
+    },
+    {
+     "id": 8475683,
+     "name": "Sergei Bobrovsky",
+     "total": 178,
+     "seasons": 6
+    },
+    {
+     "id": 8478048,
+     "name": "Igor Shesterkin",
+     "total": 177,
+     "seasons": 6
+    }
+   ],
+   "text": "Most goalie wins of the 2020s: Andrei Vasilevskiy, 211.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8478009,
+     "name": "Ilya Sorokin"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478009,
+     "name": "Ilya Sorokin",
+     "total": 29,
+     "seasons": 6
+    },
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "total": 25,
+     "seasons": 6
+    },
+    {
+     "id": 8478048,
+     "name": "Igor Shesterkin",
+     "total": 22,
+     "seasons": 6
+    },
+    {
+     "id": 8475311,
+     "name": "Darcy Kuemper",
+     "total": 21,
+     "seasons": 6
+    },
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy",
+     "total": 21,
+     "seasons": 6
+    }
+   ],
+   "text": "Most shutouts of the 2020s: Ilya Sorokin, 29.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 1
+    },
+    {
+     "season": 2021,
+     "count": 17
+    },
+    {
+     "season": 2022,
+     "count": 19
+    },
+    {
+     "season": 2023,
+     "count": 17
+    },
+    {
+     "season": 2024,
+     "count": 8
+    },
+    {
+     "season": 2025,
+     "count": 15
+    }
+   ],
+   "text": "2022-23 had 19 40-goal scorers, the most of any season in the 2020s.",
+   "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 1
+    },
+    {
+     "season": 2021,
+     "count": 17
+    },
+    {
+     "season": 2022,
+     "count": 19
+    },
+    {
+     "season": 2023,
+     "count": 17
+    },
+    {
+     "season": 2024,
+     "count": 8
+    },
+    {
+     "season": 2025,
+     "count": 15
+    }
+   ],
+   "text": "2020-21 had just one 40-goal scorer, the fewest of any season in the 2020s.",
+   "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 1
+    },
+    {
+     "season": 2021,
+     "count": 8
+    },
+    {
+     "season": 2022,
+     "count": 11
+    },
+    {
+     "season": 2023,
+     "count": 9
+    },
+    {
+     "season": 2024,
+     "count": 6
+    },
+    {
+     "season": 2025,
+     "count": 8
+    }
+   ],
+   "text": "2022-23 had 11 100-point players, the most of any season in the 2020s.",
+   "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 1
+    },
+    {
+     "season": 2021,
+     "count": 8
+    },
+    {
+     "season": 2022,
+     "count": 11
+    },
+    {
+     "season": 2023,
+     "count": 9
+    },
+    {
+     "season": 2024,
+     "count": 6
+    },
+    {
+     "season": 2025,
+     "count": 8
+    }
+   ],
+   "text": "2020-21 had just one 100-point player, the fewest of any season in the 2020s.",
+   "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2021
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 22
+    },
+    {
+     "season": 2021,
+     "count": 41
+    },
+    {
+     "season": 2022,
+     "count": 38
+    },
+    {
+     "season": 2023,
+     "count": 33
+    },
+    {
+     "season": 2024,
+     "count": 34
+    },
+    {
+     "season": 2025,
+     "count": 37
+    }
+   ],
+   "text": "2021-22 had 41 point-a-game players (60% of games), the most of any season in the 2020s.",
+   "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 22
+    },
+    {
+     "season": 2021,
+     "count": 41
+    },
+    {
+     "season": 2022,
+     "count": 38
+    },
+    {
+     "season": 2023,
+     "count": 33
+    },
+    {
+     "season": 2024,
+     "count": 34
+    },
+    {
+     "season": 2025,
+     "count": 37
+    }
+   ],
+   "text": "2020-21 had just 22 point-a-game players (60% of games), the fewest of any season in the 2020s.",
+   "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_dg_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2025
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 2
+    },
+    {
+     "season": 2021,
+     "count": 6
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 9
+    },
+    {
+     "season": 2024,
+     "count": 10
+    },
+    {
+     "season": 2025,
+     "count": 11
+    }
+   ],
+   "text": "2025-26 had 11 defensemen with 15+ goals, the most of any season in the 2020s.",
+   "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2020
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 2
+    },
+    {
+     "season": 2021,
+     "count": 6
+    },
+    {
+     "season": 2022,
+     "count": 9
+    },
+    {
+     "season": 2023,
+     "count": 9
+    },
+    {
+     "season": 2024,
+     "count": 10
+    },
+    {
+     "season": 2025,
+     "count": 11
+    }
+   ],
+   "text": "2020-21 had just 2 defensemen with 15+ goals, the fewest of any season in the 2020s.",
+   "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "total": 751,
+     "seasons": 6
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "total": 647,
+     "seasons": 6
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "total": 631,
+     "seasons": 6
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "total": 577,
+     "seasons": 5
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "total": 554,
+     "seasons": 6
+    }
+   ],
+   "text": "Most points of the 2020s: Connor McDavid, 751 (next: Nathan MacKinnon, 647).",
+   "why": "A decade-long view that settles consistency debates. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "total": 504,
+     "seasons": 6
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "total": 417,
+     "seasons": 6
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "total": 397,
+     "seasons": 5
+    },
+    {
+     "id": 8480800,
+     "name": "Quinn Hughes",
+     "total": 371,
+     "seasons": 6
+    },
+    {
+     "id": 8478483,
+     "name": "Mitch Marner",
+     "total": 368,
+     "seasons": 6
+    }
+   ],
+   "text": "Most assists of the 2020s: Connor McDavid, 504.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 80,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "total": 51,
+     "seasons": 6
+    },
+    {
+     "id": 8478427,
+     "name": "Sebastian Aho",
+     "total": 48,
+     "seasons": 6
+    },
+    {
+     "id": 8478398,
+     "name": "Kyle Connor",
+     "total": 45,
+     "seasons": 6
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "total": 43,
+     "seasons": 6
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "total": 43,
+     "seasons": 6
+    }
+   ],
+   "text": "Most game-winning goals of the 2020s: Leon Draisaitl, 51.",
+   "why": "A decade-long view that settles consistency debates. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 81,
+   "kind": "total",
+   "rule": "tt_ppg",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "total": 124,
+     "seasons": 6
+    },
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart",
+     "total": 93,
+     "seasons": 6
+    },
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "total": 87,
+     "seasons": 6
+    },
+    {
+     "id": 8478864,
+     "name": "Kirill Kaprizov",
+     "total": 81,
+     "seasons": 6
+    },
+    {
+     "id": 8476459,
+     "name": "Mika Zibanejad",
+     "total": 80,
+     "seasons": 6
+    }
+   ],
+   "text": "Most power-play goals of the 2020s: Leon Draisaitl, 124.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 82,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "total": 355,
+     "seasons": 6
+    },
+    {
+     "id": 8477424,
+     "name": "Juuse Saros",
+     "total": 348,
+     "seasons": 6
+    },
+    {
+     "id": 8476883,
+     "name": "Andrei Vasilevskiy",
+     "total": 338,
+     "seasons": 6
+    },
+    {
+     "id": 8478048,
+     "name": "Igor Shesterkin",
+     "total": 313,
+     "seasons": 6
+    },
+    {
+     "id": 8478009,
+     "name": "Ilya Sorokin",
+     "total": 308,
+     "seasons": 6
+    }
+   ],
+   "text": "Most games in goal in the 2020s: Connor Hellebuyck, 355.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 83,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "total": 4,
+     "seasons": 4
+    }
+   ],
+   "text": "Most 100-point seasons in the 2020s: Connor McDavid, 6.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 84,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 64,
+     "A": 89,
+     "P": 153,
+     "PIM": 36,
+     "PM": 22,
+     "PPG": 21,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 352,
+     "TOI": 22.38556833333333,
+     "age": 26
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2023,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 81,
+     "G": 44,
+     "A": 100,
+     "P": 144,
+     "PIM": 22,
+     "PM": 8,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 306,
+     "TOI": 21.668723333333332,
+     "age": 30
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2023,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 51,
+     "A": 89,
+     "P": 140,
+     "PIM": 42,
+     "PM": 35,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 405,
+     "TOI": 22.814226666666666,
+     "age": 28
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2025,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 48,
+     "A": 90,
+     "P": 138,
+     "PIM": 44,
+     "PM": 17,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 306,
+     "TOI": 22.985365,
+     "age": 29
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 76,
+     "G": 32,
+     "A": 100,
+     "P": 132,
+     "PIM": 30,
+     "PM": 35,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 263,
+     "TOI": 21.35921,
+     "age": 27
+    },
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2025,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 76,
+     "G": 44,
+     "A": 86,
+     "P": 130,
+     "PIM": 50,
+     "PM": 43,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 8,
+     "S": 231,
+     "TOI": 20.335086666666665,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 4.9125,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "9 players recorded 110 points in the 2020s (20 seasons). The most extreme: Connor McDavid, 2022-23 — 153 points (64G, 89A).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 85,
+   "kind": "nearmiss",
+   "rule": "n_p99",
+   "group": "P",
+   "decade": "2020s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 8476468,
+     "name": "J.T. Miller"
+    },
+    {
+     "id": 8478483,
+     "name": "Mitch Marner"
+    },
+    {
+     "id": 8481559,
+     "name": "Jack Hughes"
+    }
+   ],
+   "seasons": [
+    2021,
+    2022,
+    2022
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476468,
+     "name": "J.T. Miller",
+     "season": 2021,
+     "team": "VAN",
+     "pos": "C",
+     "GP": 80,
+     "G": 32,
+     "A": 67,
+     "P": 99,
+     "PIM": 47,
+     "PM": 15,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 206,
+     "TOI": 21.076874999999998,
+     "age": 28
+    },
+    {
+     "id": 8478483,
+     "name": "Mitch Marner",
+     "season": 2022,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 80,
+     "G": 30,
+     "A": 69,
+     "P": 99,
+     "PIM": 28,
+     "PM": 18,
+     "PPG": 9,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 196,
+     "TOI": 21.27625,
+     "age": 25
+    },
+    {
+     "id": 8481559,
+     "name": "Jack Hughes",
+     "season": 2022,
+     "team": "NJD",
+     "pos": "C",
+     "GP": 78,
+     "G": 43,
+     "A": 56,
+     "P": 99,
+     "PIM": 6,
+     "PM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 336,
+     "TOI": 19.966025,
+     "age": 21
+    }
+   ],
+   "text": "3 player-seasons of the 2020s ended on exactly 99 points, one short of 100 — among them J.T. Miller (2021-22), Mitch Marner (2022-23), Jack Hughes (2022-23).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 86,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2023,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 81,
+     "G": 69,
+     "A": 38,
+     "P": 107,
+     "PIM": 20,
+     "PM": 31,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 369,
+     "TOI": 20.966459999999998,
+     "age": 26
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 64,
+     "A": 89,
+     "P": 153,
+     "PIM": 36,
+     "PM": 22,
+     "PPG": 21,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 352,
+     "TOI": 22.38556833333333,
+     "age": 26
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2022,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 61,
+     "A": 52,
+     "P": 113,
+     "PIM": 38,
+     "PM": 34,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 407,
+     "TOI": 19.56443,
+     "age": 26
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2021,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 73,
+     "G": 60,
+     "A": 46,
+     "P": 106,
+     "PIM": 18,
+     "PM": 20,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 348,
+     "TOI": 20.609131666666666,
+     "age": 24
+    },
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart",
+     "season": 2023,
+     "team": "FLA",
+     "pos": "C",
+     "GP": 82,
+     "G": 57,
+     "A": 37,
+     "P": 94,
+     "PIM": 31,
+     "PM": 29,
+     "PPG": 27,
+     "SHG": 5,
+     "GWG": 11,
+     "S": 233,
+     "TOI": 20.29979666666667,
+     "age": 28
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2021,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 55,
+     "P": 110,
+     "PIM": 40,
+     "PM": 17,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 278,
+     "TOI": 22.34916666666667,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 4.725,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "12 players scored 50 goals in the 2020s (16 seasons). The most extreme: Auston Matthews, 2023-24 — 69 goals in 81 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 87,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2023,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 81,
+     "G": 69,
+     "A": 38,
+     "P": 107,
+     "PIM": 20,
+     "PM": 31,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 369,
+     "TOI": 20.966459999999998,
+     "age": 26
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2022,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 61,
+     "A": 52,
+     "P": 113,
+     "PIM": 38,
+     "PM": 34,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 407,
+     "TOI": 19.56443,
+     "age": 26
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2021,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 73,
+     "G": 60,
+     "A": 46,
+     "P": 106,
+     "PIM": 18,
+     "PM": 20,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 348,
+     "TOI": 20.609131666666666,
+     "age": 24
+    },
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart",
+     "season": 2023,
+     "team": "FLA",
+     "pos": "C",
+     "GP": 82,
+     "G": 57,
+     "A": 37,
+     "P": 94,
+     "PIM": 31,
+     "PM": 29,
+     "PPG": 27,
+     "SHG": 5,
+     "GWG": 11,
+     "S": 233,
+     "TOI": 20.29979666666667,
+     "age": 28
+    },
+    {
+     "id": 8478420,
+     "name": "Mikko Rantanen",
+     "season": 2022,
+     "team": "COL",
+     "pos": "R",
+     "GP": 82,
+     "G": 55,
+     "A": 50,
+     "P": 105,
+     "PIM": 82,
+     "PM": 15,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 306,
+     "TOI": 22.224186666666665,
+     "age": 26
+    },
+    {
+     "id": 8475786,
+     "name": "Zach Hyman",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "L",
+     "GP": 80,
+     "G": 54,
+     "A": 23,
+     "P": 77,
+     "PIM": 48,
+     "PM": 36,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 290,
+     "TOI": 19.50041666666667,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 63,
+   "kind": "list",
+   "score": 4.725,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "46 players scored 35 goals with more goals than assists in the 2020s (63 seasons). The most extreme: Auston Matthews, 2023-24 — 69G, 38A.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 88,
+   "rule": "h_usa",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2023,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 81,
+     "G": 69,
+     "A": 38,
+     "P": 107,
+     "PIM": 20,
+     "PM": 31,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 369,
+     "TOI": 20.966459999999998,
+     "age": 26
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2021,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 73,
+     "G": 60,
+     "A": 46,
+     "P": 106,
+     "PIM": 18,
+     "PM": 20,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 348,
+     "TOI": 20.609131666666666,
+     "age": 24
+    },
+    {
+     "id": 8475184,
+     "name": "Chris Kreider",
+     "season": 2021,
+     "team": "NYR",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 25,
+     "P": 77,
+     "PIM": 24,
+     "PM": 19,
+     "PPG": 26,
+     "SHG": 3,
+     "GWG": 11,
+     "S": 258,
+     "TOI": 18.73004,
+     "age": 30
+    },
+    {
+     "id": 8481540,
+     "name": "Cole Caufield",
+     "season": 2025,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 81,
+     "G": 51,
+     "A": 37,
+     "P": 88,
+     "PIM": 14,
+     "PM": 29,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 258,
+     "TOI": 18.183538333333335,
+     "age": 25
+    },
+    {
+     "id": 8478398,
+     "name": "Kyle Connor",
+     "season": 2021,
+     "team": "WPG",
+     "pos": "L",
+     "GP": 79,
+     "G": 47,
+     "A": 46,
+     "P": 93,
+     "PIM": 4,
+     "PM": -3,
+     "PPG": 8,
+     "SHG": 3,
+     "GWG": 9,
+     "S": 317,
+     "TOI": 21.775105,
+     "age": 25
+    },
+    {
+     "id": 8479420,
+     "name": "Tage Thompson",
+     "season": 2022,
+     "team": "BUF",
+     "pos": "C",
+     "GP": 78,
+     "G": 47,
+     "A": 47,
+     "P": 94,
+     "PIM": 39,
+     "PM": 4,
+     "PPG": 20,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 295,
+     "TOI": 18.59017,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 4.725,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "13 players scored 40 goals, born in the United States in the 2020s (24 seasons). The most extreme: Auston Matthews, 2023-24 — 69 goals.",
+   "why": "Leads with the most extreme case, which carries the post. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 89,
+   "rule": "h_pm_hi",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476346,
+     "name": "Johnny Gaudreau",
+     "season": 2021,
+     "team": "CGY",
+     "pos": "L",
+     "GP": 82,
+     "G": 40,
+     "A": 75,
+     "P": 115,
+     "PIM": 26,
+     "PM": 64,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 262,
+     "TOI": 18.574796666666668,
+     "age": 28
+    },
+    {
+     "id": 8477496,
+     "name": "Elias Lindholm",
+     "season": 2021,
+     "team": "CGY",
+     "pos": "C",
+     "GP": 82,
+     "G": 42,
+     "A": 40,
+     "P": 82,
+     "PIM": 22,
+     "PM": 61,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 9,
+     "S": 235,
+     "TOI": 19.94491833333333,
+     "age": 27
+    },
+    {
+     "id": 8479314,
+     "name": "Matthew Tkachuk",
+     "season": 2021,
+     "team": "CGY",
+     "pos": "L",
+     "GP": 82,
+     "G": 42,
+     "A": 62,
+     "P": 104,
+     "PIM": 68,
+     "PM": 57,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 253,
+     "TOI": 17.89939,
+     "age": 24
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2025,
+     "team": "COL",
+     "pos": "C",
+     "GP": 80,
+     "G": 53,
+     "A": 74,
+     "P": 127,
+     "PIM": 39,
+     "PM": 57,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 350,
+     "TOI": 22.261875,
+     "age": 30
+    },
+    {
+     "id": 8478055,
+     "name": "Gustav Forsling",
+     "season": 2023,
+     "team": "FLA",
+     "pos": "D",
+     "GP": 79,
+     "G": 10,
+     "A": 29,
+     "P": 39,
+     "PIM": 43,
+     "PM": 56,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 160,
+     "TOI": 22.141981666666666,
+     "age": 27
+    },
+    {
+     "id": 8478038,
+     "name": "Devon Toews",
+     "season": 2021,
+     "team": "COL",
+     "pos": "D",
+     "GP": 66,
+     "G": 13,
+     "A": 44,
+     "P": 57,
+     "PIM": 20,
+     "PM": 52,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 158,
+     "TOI": 25.369191666666666,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 4.6,
+   "players": [
+    {
+     "id": 8476346,
+     "name": "Johnny Gaudreau"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "11 players finished +45 or better in the 2020s. The most extreme: Johnny Gaudreau, 2021-22 — +64.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 90,
+   "rule": "h_euro",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2022,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 61,
+     "A": 52,
+     "P": 113,
+     "PIM": 38,
+     "PM": 34,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 407,
+     "TOI": 19.56443,
+     "age": 26
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2021,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 55,
+     "P": 110,
+     "PIM": 40,
+     "PM": 17,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 278,
+     "TOI": 22.34916666666667,
+     "age": 26
+    },
+    {
+     "id": 8478420,
+     "name": "Mikko Rantanen",
+     "season": 2022,
+     "team": "COL",
+     "pos": "R",
+     "GP": 82,
+     "G": 55,
+     "A": 50,
+     "P": 105,
+     "PIM": 82,
+     "PM": 15,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 306,
+     "TOI": 22.224186666666665,
+     "age": 26
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2022,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 76,
+     "P": 128,
+     "PIM": 24,
+     "PM": 7,
+     "PPG": 32,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 247,
+     "TOI": 21.73395833333333,
+     "age": 27
+    },
+    {
+     "id": 8477934,
+     "name": "Leon Draisaitl",
+     "season": 2024,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 71,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 34,
+     "PM": 32,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 240,
+     "TOI": 21.517370000000003,
+     "age": 29
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2021,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 77,
+     "G": 50,
+     "A": 40,
+     "P": 90,
+     "PIM": 18,
+     "PM": 8,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 334,
+     "TOI": 20.57186,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 27,
+   "kind": "list",
+   "score": 4.525,
+   "players": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "12 players scored 40 goals, born outside North America in the 2020s (27 seasons). The most extreme: David Pastrnak, 2022-23 — 61 goals (born CZE).",
+   "why": "Leads with the most extreme case, which carries the post. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 91,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2021,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 77,
+     "G": 50,
+     "A": 40,
+     "P": 90,
+     "PIM": 18,
+     "PM": 8,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 334,
+     "TOI": 20.57186,
+     "age": 36
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2024,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 65,
+     "G": 44,
+     "A": 29,
+     "P": 73,
+     "PIM": 14,
+     "PM": 15,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 237,
+     "TOI": 17.72435833333333,
+     "age": 39
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2022,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 73,
+     "G": 42,
+     "A": 33,
+     "P": 75,
+     "PIM": 48,
+     "PM": -16,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 294,
+     "TOI": 20.204108333333334,
+     "age": 37
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2023,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 42,
+     "A": 52,
+     "P": 94,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 278,
+     "TOI": 20.086788333333335,
+     "age": 36
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2024,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 33,
+     "A": 58,
+     "P": 91,
+     "PIM": 31,
+     "PM": -20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 227,
+     "TOI": 20.37458333333333,
+     "age": 37
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2025,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 32,
+     "A": 32,
+     "P": 64,
+     "PIM": 26,
+     "PM": -5,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 244,
+     "TOI": 17.448373333333333,
+     "age": 40
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2021
+   ],
+   "text": "7 players scored 25 goals at age 36 or older in the 2020s (18 seasons). The most extreme: Alex Ovechkin, 2021-22 — 50 goals at 36.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 92,
+   "kind": "nearmiss",
+   "rule": "n_g49",
+   "group": "P",
+   "decade": "2020s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 8478550,
+     "name": "Artemi Panarin"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478550,
+     "name": "Artemi Panarin",
+     "season": 2023,
+     "team": "NYR",
+     "pos": "L",
+     "GP": 82,
+     "G": 49,
+     "A": 71,
+     "P": 120,
+     "PIM": 24,
+     "PM": 18,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 303,
+     "TOI": 20.118901666666666,
+     "age": 32
+    }
+   ],
+   "text": "Exactly one player of the 2020s finished a season with exactly 49 goals, one short of 50: Artemi Panarin (2023-24).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 93,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478444,
+     "name": "Brock Boeser",
+     "season": 2025,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 75,
+     "G": 22,
+     "A": 26,
+     "P": 48,
+     "PIM": 8,
+     "PM": -48,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 166,
+     "TOI": 19.053333333333335,
+     "age": 28
+    },
+    {
+     "id": 8471735,
+     "name": "Keith Yandle",
+     "season": 2021,
+     "team": "PHI",
+     "pos": "D",
+     "GP": 77,
+     "G": 1,
+     "A": 18,
+     "P": 19,
+     "PIM": 14,
+     "PM": -47,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 105,
+     "TOI": 13.979003333333333,
+     "age": 35
+    },
+    {
+     "id": 8482667,
+     "name": "William Eklund",
+     "season": 2023,
+     "team": "SJS",
+     "pos": "L",
+     "GP": 80,
+     "G": 16,
+     "A": 29,
+     "P": 45,
+     "PIM": 30,
+     "PM": -45,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 128,
+     "TOI": 18.66208333333333,
+     "age": 21
+    },
+    {
+     "id": 8480798,
+     "name": "Philipp Kurashev",
+     "season": 2023,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 75,
+     "G": 18,
+     "A": 36,
+     "P": 54,
+     "PIM": 23,
+     "PM": -44,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 128,
+     "TOI": 19.018443333333334,
+     "age": 24
+    },
+    {
+     "id": 8480821,
+     "name": "Filip Zadina",
+     "season": 2023,
+     "team": "SJS",
+     "pos": "R",
+     "GP": 72,
+     "G": 13,
+     "A": 10,
+     "P": 23,
+     "PIM": 18,
+     "PM": -44,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 137,
+     "TOI": 13.339813333333332,
+     "age": 24
+    },
+    {
+     "id": 8484144,
+     "name": "Connor Bedard",
+     "season": 2023,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 68,
+     "G": 22,
+     "A": 39,
+     "P": 61,
+     "PIM": 28,
+     "PM": -44,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 206,
+     "TOI": 19.783333333333335,
+     "age": 18
+    }
+   ],
+   "seasonsMatched": 27,
+   "kind": "list",
+   "score": 4.2,
+   "players": [
+    {
+     "id": 8478444,
+     "name": "Brock Boeser"
+    }
+   ],
+   "seasons": [
+    2025
+   ],
+   "text": "25 players finished -35 or worse in the 2020s (27 seasons). The most extreme: Brock Boeser, 2025-26 — -48.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 94,
+   "rule": "h_shots",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2022,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 61,
+     "A": 52,
+     "P": 113,
+     "PIM": 38,
+     "PM": 34,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 407,
+     "TOI": 19.56443,
+     "age": 26
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2023,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 51,
+     "A": 89,
+     "P": 140,
+     "PIM": 42,
+     "PM": 35,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 405,
+     "TOI": 22.814226666666666,
+     "age": 28
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2023,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 47,
+     "A": 63,
+     "P": 110,
+     "PIM": 47,
+     "PM": 21,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 382,
+     "TOI": 19.929673333333334,
+     "age": 27
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2023,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 81,
+     "G": 69,
+     "A": 38,
+     "P": 107,
+     "PIM": 20,
+     "PM": 31,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 369,
+     "TOI": 20.966459999999998,
+     "age": 26
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2022,
+     "team": "COL",
+     "pos": "C",
+     "GP": 71,
+     "G": 42,
+     "A": 69,
+     "P": 111,
+     "PIM": 30,
+     "PM": 29,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 366,
+     "TOI": 22.31737,
+     "age": 27
+    },
+    {
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "season": 2023,
+     "team": "OTT",
+     "pos": "L",
+     "GP": 81,
+     "G": 37,
+     "A": 37,
+     "P": 74,
+     "PIM": 134,
+     "PM": 1,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 357,
+     "TOI": 19.14218,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.0175,
+   "players": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "5 players fired 350 shots in the 2020s (8 seasons). The most extreme: David Pastrnak, 2022-23 — 407 shots.",
+   "why": "Leads with the most extreme case, which carries the post. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 95,
+   "rule": "t_pp",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 2022,
+     "GP": 82,
+     "W": 50,
+     "L": 23,
+     "OTL": 9,
+     "GF": 325,
+     "GA": 256,
+     "PCT": 0.66463
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 2025,
+     "GP": 82,
+     "W": 41,
+     "L": 30,
+     "OTL": 11,
+     "GF": 282,
+     "GA": 265,
+     "PCT": 0.56707
+    },
+    {
+     "id": "Winnipeg Jets",
+     "name": "Winnipeg Jets",
+     "season": 2024,
+     "GP": 82,
+     "W": 56,
+     "L": 22,
+     "OTL": 4,
+     "GF": 275,
+     "GA": 190,
+     "PCT": 0.70731
+    },
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning",
+     "season": 2023,
+     "GP": 82,
+     "W": 45,
+     "L": 29,
+     "OTL": 8,
+     "GF": 288,
+     "GA": 267,
+     "PCT": 0.59756
+    },
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars",
+     "season": 2025,
+     "GP": 82,
+     "W": 50,
+     "L": 20,
+     "OTL": 12,
+     "GF": 273,
+     "GA": 222,
+     "PCT": 0.68292
+    },
+    {
+     "id": "Vegas Golden Knights",
+     "name": "Vegas Golden Knights",
+     "season": 2024,
+     "GP": 82,
+     "W": 50,
+     "L": 22,
+     "OTL": 10,
+     "GF": 274,
+     "GA": 214,
+     "PCT": 0.67073
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.80909,
+   "players": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "8 teams convert 27% of power plays in the 2020s (10 seasons). The most extreme: Edmonton Oilers, 2022-23 — 32.4% PP.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 96,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "season": 2024,
+     "team": "COL",
+     "pos": "D",
+     "GP": 80,
+     "G": 30,
+     "A": 62,
+     "P": 92,
+     "PIM": 14,
+     "PM": 28,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 246,
+     "TOI": 25.71625,
+     "age": 26
+    },
+    {
+     "id": 8480069,
+     "name": "Cale Makar",
+     "season": 2021,
+     "team": "COL",
+     "pos": "D",
+     "GP": 77,
+     "G": 28,
+     "A": 58,
+     "P": 86,
+     "PIM": 26,
+     "PM": 48,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 240,
+     "TOI": 25.667965,
+     "age": 23
+    },
+    {
+     "id": 8479345,
+     "name": "Jakob Chychrun",
+     "season": 2025,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 80,
+     "G": 26,
+     "A": 34,
+     "P": 60,
+     "PIM": 62,
+     "PM": 20,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 221,
+     "TOI": 23.340833333333332,
+     "age": 27
+    },
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "season": 2022,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 25,
+     "A": 76,
+     "P": 101,
+     "PIM": 36,
+     "PM": -26,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 209,
+     "TOI": 25.61504,
+     "age": 32
+    },
+    {
+     "id": 8474600,
+     "name": "Roman Josi",
+     "season": 2021,
+     "team": "NSH",
+     "pos": "D",
+     "GP": 80,
+     "G": 23,
+     "A": 73,
+     "P": 96,
+     "PIM": 46,
+     "PM": 13,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 281,
+     "TOI": 25.554375,
+     "age": 31
+    },
+    {
+     "id": 8474600,
+     "name": "Roman Josi",
+     "season": 2023,
+     "team": "NSH",
+     "pos": "D",
+     "GP": 82,
+     "G": 23,
+     "A": 62,
+     "P": 85,
+     "PIM": 45,
+     "PM": 12,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 268,
+     "TOI": 24.631096666666668,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 3.75,
+   "players": [
+    {
+     "id": 8480069,
+     "name": "Cale Makar"
+    }
+   ],
+   "seasons": [
+    2024
+   ],
+   "text": "12 players scored 20 goals as a defenseman in the 2020s (18 seasons). The most extreme: Cale Makar, 2024-25 — 30 goals.",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 97,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks",
+     "season": 2023,
+     "GP": 82,
+     "W": 19,
+     "L": 54,
+     "OTL": 9,
+     "GF": 180,
+     "GA": 326,
+     "PCT": 0.28658
+    },
+    {
+     "id": "Anaheim Ducks",
+     "name": "Anaheim Ducks",
+     "season": 2022,
+     "GP": 82,
+     "W": 23,
+     "L": 47,
+     "OTL": 12,
+     "GF": 206,
+     "GA": 335,
+     "PCT": 0.35365
+    },
+    {
+     "id": "Columbus Blue Jackets",
+     "name": "Columbus Blue Jackets",
+     "season": 2022,
+     "GP": 82,
+     "W": 25,
+     "L": 48,
+     "OTL": 9,
+     "GF": 213,
+     "GA": 329,
+     "PCT": 0.35975
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 2023,
+     "GP": 82,
+     "W": 23,
+     "L": 53,
+     "OTL": 6,
+     "GF": 178,
+     "GA": 289,
+     "PCT": 0.31707
+    },
+    {
+     "id": "Vancouver Canucks",
+     "name": "Vancouver Canucks",
+     "season": 2025,
+     "GP": 82,
+     "W": 25,
+     "L": 49,
+     "OTL": 8,
+     "GF": 210,
+     "GA": 314,
+     "PCT": 0.35365
+    },
+    {
+     "id": "Arizona Coyotes",
+     "name": "Arizona Coyotes",
+     "season": 2021,
+     "GP": 82,
+     "W": 25,
+     "L": 50,
+     "OTL": 7,
+     "GF": 206,
+     "GA": 309,
+     "PCT": 0.34756
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 3.73,
+   "players": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "6 teams got outscored by 100 in the 2020s (7 seasons). The most extreme: San Jose Sharks, 2023-24 — 180-326.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 98,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8475786,
+     "name": "Zach Hyman",
+     "season": 2023,
+     "team": "EDM",
+     "pos": "L",
+     "GP": 25,
+     "G": 16,
+     "A": 6,
+     "P": 22,
+     "PIM": 12,
+     "PM": 12,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 90,
+     "TOI": 21.412,
+     "age": 31
+    },
+    {
+     "id": 8477935,
+     "name": "Sam Bennett",
+     "season": 2024,
+     "team": "FLA",
+     "pos": "C",
+     "GP": 23,
+     "G": 15,
+     "A": 7,
+     "P": 22,
+     "PIM": 48,
+     "PM": 6,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 69,
+     "TOI": 17.560868333333335,
+     "age": 28
+    },
+    {
+     "id": 8478010,
+     "name": "Brayden Point",
+     "season": 2020,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 23,
+     "G": 14,
+     "A": 9,
+     "P": 23,
+     "PIM": 8,
+     "PM": 7,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 49,
+     "TOI": 18.921738333333334,
+     "age": 24
+    },
+    {
+     "id": 8479353,
+     "name": "Brett Howden",
+     "season": 2025,
+     "team": "VGK",
+     "pos": "C",
+     "GP": 22,
+     "G": 14,
+     "A": 4,
+     "P": 18,
+     "PIM": 6,
+     "PM": 11,
+     "PPG": 0,
+     "SHG": 3,
+     "GWG": 3,
+     "S": 41,
+     "TOI": 16.60606,
+     "age": 27
+    },
+    {
+     "id": 8475169,
+     "name": "Evander Kane",
+     "season": 2021,
+     "team": "EDM",
+     "pos": "L",
+     "GP": 15,
+     "G": 13,
+     "A": 4,
+     "P": 17,
+     "PIM": 37,
+     "PM": 2,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 57,
+     "TOI": 19.633333333333333,
+     "age": 30
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2021,
+     "team": "COL",
+     "pos": "C",
+     "GP": 20,
+     "G": 13,
+     "A": 11,
+     "P": 24,
+     "PIM": 8,
+     "PM": 11,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 117,
+     "TOI": 21.41,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.4,
+   "players": [
+    {
+     "id": 8475786,
+     "name": "Zach Hyman"
+    }
+   ],
+   "seasons": [
+    2023
+   ],
+   "text": "8 players scored 13 goals in one postseason in the 2020s. The most extreme: Zach Hyman, 2023-24 — 16 goals in 25 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 99,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2022,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 61,
+     "A": 52,
+     "P": 113,
+     "PIM": 38,
+     "PM": 34,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 407,
+     "TOI": 19.56443,
+     "age": 26
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2020,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 52,
+     "G": 41,
+     "A": 25,
+     "P": 66,
+     "PIM": 10,
+     "PM": 21,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 222,
+     "TOI": 21.553205,
+     "age": 23
+    },
+    {
+     "id": 8478010,
+     "name": "Brayden Point",
+     "season": 2023,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 81,
+     "G": 46,
+     "A": 44,
+     "P": 90,
+     "PIM": 14,
+     "PM": -16,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 227,
+     "TOI": 20.039093333333334,
+     "age": 27
+    },
+    {
+     "id": 8481540,
+     "name": "Cole Caufield",
+     "season": 2025,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 81,
+     "G": 51,
+     "A": 37,
+     "P": 88,
+     "PIM": 14,
+     "PM": 29,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 258,
+     "TOI": 18.183538333333335,
+     "age": 25
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2020,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 56,
+     "G": 33,
+     "A": 72,
+     "P": 105,
+     "PIM": 20,
+     "PM": 21,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 200,
+     "TOI": 22.15357,
+     "age": 24
+    },
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2021,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 81,
+     "G": 42,
+     "A": 64,
+     "P": 106,
+     "PIM": 36,
+     "PM": 24,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 241,
+     "TOI": 18.483126666666667,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 23,
+   "kind": "list",
+   "score": 3.325,
+   "players": [
+    {
+     "id": 8477956,
+     "name": "David Pastrnak"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "17 players scored 10 game-winning goals in the 2020s (23 seasons). The most extreme: David Pastrnak, 2022-23 — 13 GWG.",
+   "why": "Shows how high the bar was across the 2020s; the extreme case is the hook. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 100,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "2020s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark",
+     "season": 2022,
+     "team": "BOS",
+     "GP": 49,
+     "A": 0,
+     "PIM": 2,
+     "W": 40,
+     "L": 6,
+     "OTL": 1,
+     "SO": 2,
+     "GAA": 1.89438,
+     "SVP": 0.93754,
+     "SV": 1366,
+     "GA": 91
+    },
+    {
+     "id": 8477968,
+     "name": "Alex Nedeljkovic",
+     "season": 2020,
+     "team": "CAR",
+     "GP": 23,
+     "A": 1,
+     "PIM": 2,
+     "W": 15,
+     "L": 5,
+     "OTL": 3,
+     "SO": 3,
+     "GAA": 1.8965,
+     "SVP": 0.93209,
+     "SV": 604,
+     "GA": 44
+    },
+    {
+     "id": 8475831,
+     "name": "Philipp Grubauer",
+     "season": 2020,
+     "team": "COL",
+     "GP": 40,
+     "A": 2,
+     "PIM": 0,
+     "W": 30,
+     "L": 9,
+     "OTL": 1,
+     "SO": 7,
+     "GAA": 1.95194,
+     "SVP": 0.92245,
+     "SV": 916,
+     "GA": 77
+    },
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury",
+     "season": 2020,
+     "team": "VGK",
+     "GP": 36,
+     "A": 1,
+     "PIM": 2,
+     "W": 26,
+     "L": 10,
+     "OTL": 0,
+     "SO": 6,
+     "GAA": 1.98453,
+     "SVP": 0.92821,
+     "SV": 918,
+     "GA": 71
+    },
+    {
+     "id": 8476945,
+     "name": "Connor Hellebuyck",
+     "season": 2024,
+     "team": "WPG",
+     "GP": 63,
+     "A": 1,
+     "PIM": 2,
+     "W": 47,
+     "L": 12,
+     "OTL": 3,
+     "SO": 8,
+     "GAA": 2.00461,
+     "SVP": 0.92487,
+     "SV": 1539,
+     "GA": 125
+    },
+    {
+     "id": 8475311,
+     "name": "Darcy Kuemper",
+     "season": 2024,
+     "team": "LAK",
+     "GP": 50,
+     "A": 1,
+     "PIM": 12,
+     "W": 31,
+     "L": 11,
+     "OTL": 7,
+     "SO": 5,
+     "GAA": 2.01772,
+     "SVP": 0.92186,
+     "SV": 1168,
+     "GA": 100
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.131969298662359,
+   "players": [
+    {
+     "id": 8476999,
+     "name": "Linus Ullmark"
+    }
+   ],
+   "seasons": [
+    2022
+   ],
+   "text": "10 goalies posted a goals-against average under 2.10 (40% of games) in the 2020s. The most extreme: Linus Ullmark, 2022-23 — 1.89 GAA in 49 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goaltending numbers across eras start the best debates."
+  }
+ ],
+ "counts": {
+  "skaterSeasons": 5652,
+  "goalieSeasons": 623,
+  "teamSeasons": 191
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:08.222Z"
+}

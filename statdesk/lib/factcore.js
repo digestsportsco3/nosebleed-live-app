@@ -15,9 +15,12 @@ const PAST = { hit: "hit", bat: "batted", steal: "stole", drive: "drove", collec
   average: "averaged", shoot: "shot", make: "made", grab: "grabbed", block: "blocked", record: "recorded", commit: "committed",
   rush: "rushed", catch: "caught", pass: "passed", run: "ran", lead: "led", attempt: "attempted", take: "took", start: "started",
   appear: "appeared", dish: "dished", turn: "turned", foul: "fouled", pull: "pulled",
-  gain: "gained", force: "forced", defend: "defended", intercept: "intercepted", carry: "carried", return: "returned", fumble: "fumbled", kick: "kicked", tie: "tied", recover: "recovered", hold: "held", give: "gave", outscore: "outscored", produce: "produced", punt: "punted", allow2: "allowed" };
+  gain: "gained", force: "forced", defend: "defended", intercept: "intercepted", carry: "carried", return: "returned", fumble: "fumbled", kick: "kicked", tie: "tied", recover: "recovered", hold: "held", give: "gave", outscore: "outscored", produce: "produced", rack: "racked", fire: "fired", finish: "finished", punt: "punted", allow2: "allowed" };
 const VERB_RE = new RegExp(`\\b(${Object.keys(PAST).join("|")})\\b(?! (?:homers|runs|hits|games|bases|walks|innings|batters|saves|doubles|triples|pitches|steals|times|by|yards|passes|points|rebounds|assists|blocks|shots|attempts|threes|free))`, "g");
-function verb(head) { return head.replace(VERB_RE, (v, _w, off, str) => (/(playoff|postseason|scoring|home|a|pass) $/.test(str.slice(Math.max(0, off - 11), off)) ? v : PAST[v] || v)); }
+// A word right after a hyphen ("power-play") or inside a compound noun
+// ("goals-against average") is not the sentence's verb.
+function verb(head) { return head.replace(VERB_RE, (v, _w, off, str) => { const pre = str.slice(Math.max(0, off - 15), off);
+  return (/(playoff|postseason|scoring|home|a|pass) $/.test(pre) || /-$/.test(pre) || /-against $/.test(pre)) ? v : PAST[v] || v; }); }
 
 const yr = (r) => r.season;
 const pid = (r) => ({ id: r.id, name: r.name });

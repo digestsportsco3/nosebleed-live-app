@@ -1,0 +1,2865 @@
+{
+ "sport": "NHL",
+ "decade": "1910s",
+ "era": 1,
+ "seasons": [
+  "1917-18",
+  "1918-19",
+  "1919-20"
+ ],
+ "candidates": 57,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "D",
+     "GP": 21,
+     "G": 17,
+     "A": 10,
+     "P": 27,
+     "PIM": 28,
+     "GWG": 1,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.675,
+   "players": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "text": "The only player of the 1910s to record 25 points as a defenseman: Harry Cameron, 1917-18 — 27 points (17G, 10A).",
+   "why": "A club of one in the 1910s; \"name another\" posts draw replies. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 2,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Quebec Bulldogs",
+     "name": "Quebec Bulldogs",
+     "season": 1919,
+     "GP": 24,
+     "W": 4,
+     "L": 20,
+     "T": 0,
+     "GF": 91,
+     "GA": 177,
+     "PCT": 0.16666
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.43,
+   "players": [
+    {
+     "id": "Quebec Bulldogs",
+     "name": "Quebec Bulldogs"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "text": "The only team of the 1910s to get outscored by 50: Quebec Bulldogs, 1919-20 — 91-177.",
+   "why": "Nobody else in the 1910s did it, and exclusivity is what gets a post shared. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 3,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1919,
+     "GP": 24,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "GF": 121,
+     "GA": 64,
+     "PCT": 0.79166
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.285,
+   "players": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "text": "The only team of the 1910s to outscore opponents by 50: Ottawa Senators (1917), 1919-20 — 121-64.",
+   "why": "A club of one in the 1910s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 4,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1917,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 21,
+     "G": 36,
+     "A": 10,
+     "P": 46,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8449551,
+     "name": "Cully Wilson",
+     "season": 1919,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 23,
+     "G": 20,
+     "A": 7,
+     "P": 27,
+     "PIM": 86,
+     "GWG": 0,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.15,
+   "players": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    },
+    {
+     "id": 8449551,
+     "name": "Cully Wilson"
+    }
+   ],
+   "seasons": [
+    1917,
+    1919
+   ],
+   "text": "Only two players of the 1910s recorded 27 points and 60 penalty minutes: Cy Denneny (1917-18: 46 pts, 80 PIM); Cully Wilson (1919-20: 27 pts, 86 PIM).",
+   "why": "A club of two is a ready-made debate. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 5,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 18,
+     "G": 21,
+     "A": 6,
+     "P": 27,
+     "PIM": 30,
+     "age": 27
+    },
+    {
+     "id": 8449551,
+     "name": "Cully Wilson",
+     "season": 1919,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 23,
+     "G": 20,
+     "A": 7,
+     "P": 27,
+     "PIM": 86,
+     "GWG": 0,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.525,
+   "players": [
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn"
+    },
+    {
+     "id": 8449551,
+     "name": "Cully Wilson"
+    }
+   ],
+   "seasons": [
+    1918,
+    1919
+   ],
+   "text": "Only two players of the 1910s scored 20 goals in their first NHL season: Odie Cleghorn (1918-19: 21 goals); Cully Wilson (1919-20: 20 goals).",
+   "why": "Two names invite the \"whose season was better?\" argument. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 6,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446669,
+     "name": "Joe Hall",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 16,
+     "G": 7,
+     "A": 2,
+     "P": 9,
+     "PIM": 130,
+     "age": 36
+    },
+    {
+     "id": 8448246,
+     "name": "Ken Randall",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "R",
+     "GP": 21,
+     "G": 12,
+     "A": 2,
+     "P": 14,
+     "PIM": 116,
+     "GWG": 4,
+     "age": 30
+    },
+    {
+     "id": 8446669,
+     "name": "Joe Hall",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 21,
+     "G": 8,
+     "A": 7,
+     "P": 15,
+     "PIM": 100,
+     "GWG": 1,
+     "age": 35
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.325,
+   "players": [
+    {
+     "id": 8446669,
+     "name": "Joe Hall"
+    },
+    {
+     "id": 8448246,
+     "name": "Ken Randall"
+    }
+   ],
+   "seasons": [
+    1918,
+    1917,
+    1917
+   ],
+   "text": "Only two players of the 1910s racked up 100 penalty minutes: Joe Hall (2×, best 1918-19: 130 PIM); Ken Randall (1917-18: 116 PIM).",
+   "why": "A club of two is a ready-made debate. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 7,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 5,
+     "G": 11,
+     "A": 2,
+     "P": 13,
+     "PIM": 15,
+     "age": 30
+    },
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 5,
+     "G": 7,
+     "A": 1,
+     "P": 8,
+     "PIM": 3,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.325,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    },
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn"
+    }
+   ],
+   "seasons": [
+    1918,
+    1918
+   ],
+   "text": "Only two players of the 1910s recorded 8 points in one postseason: Newsy Lalonde (1918-19: 13 points in 5 games); Odie Cleghorn (1918-19: 8 points in 5 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 8,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montreal Wanderers",
+     "name": "Montreal Wanderers",
+     "season": 1917,
+     "GP": 6,
+     "W": 1,
+     "L": 5,
+     "T": 0,
+     "GF": 17,
+     "GA": 35,
+     "PCT": 0.16666
+    },
+    {
+     "id": "Quebec Bulldogs",
+     "name": "Quebec Bulldogs",
+     "season": 1919,
+     "GP": 24,
+     "W": 4,
+     "L": 20,
+     "T": 0,
+     "GF": 91,
+     "GA": 177,
+     "PCT": 0.16666
+    },
+    {
+     "id": "Toronto Arenas",
+     "name": "Toronto Arenas",
+     "season": 1918,
+     "GP": 18,
+     "W": 5,
+     "L": 13,
+     "T": 0,
+     "GF": 64,
+     "GA": 92,
+     "PCT": 0.27777
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 8.08335,
+   "players": [
+    {
+     "id": "Montreal Wanderers",
+     "name": "Montreal Wanderers"
+    },
+    {
+     "id": "Quebec Bulldogs",
+     "name": "Quebec Bulldogs"
+    },
+    {
+     "id": "Toronto Arenas",
+     "name": "Toronto Arenas"
+    }
+   ],
+   "seasons": [
+    1917,
+    1919,
+    1918
+   ],
+   "text": "Just three teams of the 1910s finished with a points percentage under .300: Montreal Wanderers (1917-18: 1-5, .167); Quebec Bulldogs (1919-20: 4-20, .167); Toronto Arenas (1918-19: 5-13, .278).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 9,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1919,
+     "team": "QBD",
+     "pos": "C",
+     "GP": 24,
+     "G": 39,
+     "A": 10,
+     "P": 49,
+     "PIM": 12,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1919,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 23,
+     "G": 37,
+     "A": 10,
+     "P": 47,
+     "PIM": 34,
+     "GWG": 5,
+     "age": 31
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1917,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 21,
+     "G": 36,
+     "A": 10,
+     "P": 46,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.1,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [
+    1917,
+    1919,
+    1919,
+    1917
+   ],
+   "text": "Just three players of the 1910s scored 30 goals: Joe Malone (2×, best 1917-18: 44 goals in 20 games); Newsy Lalonde (1919-20: 37 goals in 23 games); Cy Denneny (1917-18: 36 goals in 21 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 10,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1919,
+     "team": "QBD",
+     "pos": "C",
+     "GP": 24,
+     "G": 39,
+     "A": 10,
+     "P": 49,
+     "PIM": 12,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1919,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 23,
+     "G": 37,
+     "A": 10,
+     "P": 47,
+     "PIM": 34,
+     "GWG": 5,
+     "age": 31
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1917,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 21,
+     "G": 36,
+     "A": 10,
+     "P": 46,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.6125,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [
+    1919,
+    1917,
+    1919,
+    1917
+   ],
+   "text": "Just three players of the 1910s recorded 45 points: Joe Malone (2×, best 1919-20: 49 points (39G, 10A)); Newsy Lalonde (1919-20: 47 points (37G, 10A)); Cy Denneny (1917-18: 46 points (36G, 10A)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 11,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn",
+     "season": 1919,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 21,
+     "G": 16,
+     "A": 5,
+     "P": 21,
+     "PIM": 83,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "season": 1919,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 22,
+     "G": 9,
+     "A": 7,
+     "P": 16,
+     "PIM": 55,
+     "GWG": 0,
+     "age": 23
+    },
+    {
+     "id": 8446669,
+     "name": "Joe Hall",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 21,
+     "G": 8,
+     "A": 7,
+     "P": 15,
+     "PIM": 100,
+     "GWG": 1,
+     "age": 35
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.525,
+   "players": [
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn"
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher"
+    },
+    {
+     "id": 8446669,
+     "name": "Joe Hall"
+    }
+   ],
+   "seasons": [
+    1919,
+    1919,
+    1917
+   ],
+   "text": "Just three players of the 1910s recorded 15 points and 50 penalty minutes as a defenseman: Sprague Cleghorn (1919-20: 21 pts, 83 PIM); George Boucher (1919-20: 16 pts, 55 PIM); Joe Hall (1917-18: 15 pts, 100 PIM).",
+   "why": "A short list fans can recite; each name brings its own fan base. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 12,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "D",
+     "GP": 21,
+     "G": 17,
+     "A": 10,
+     "P": 27,
+     "PIM": 28,
+     "GWG": 1,
+     "age": 27
+    },
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn",
+     "season": 1919,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 21,
+     "G": 16,
+     "A": 5,
+     "P": 21,
+     "PIM": 83,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1919,
+     "team": "TSP,MTL",
+     "pos": "D",
+     "GP": 23,
+     "G": 15,
+     "A": 6,
+     "P": 21,
+     "PIM": 35,
+     "GWG": 1,
+     "age": 29
+    },
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1918,
+     "team": "TAN,SEN",
+     "pos": "D",
+     "GP": 14,
+     "G": 11,
+     "A": 5,
+     "P": 16,
+     "PIM": 35,
+     "age": 28
+    },
+    {
+     "id": 8445571,
+     "name": "Bert Corbeau",
+     "season": 1919,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 23,
+     "G": 11,
+     "A": 3,
+     "P": 14,
+     "PIM": 65,
+     "GWG": 0,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.425,
+   "players": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron"
+    },
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn"
+    },
+    {
+     "id": 8445571,
+     "name": "Bert Corbeau"
+    }
+   ],
+   "seasons": [
+    1917,
+    1919,
+    1919,
+    1918,
+    1919
+   ],
+   "text": "Just three players of the 1910s scored 10 goals as a defenseman: Harry Cameron (3×, best 1917-18: 17 goals); Sprague Cleghorn (1919-20: 16 goals); Bert Corbeau (1919-20: 11 goals).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 13,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 5,
+     "G": 11,
+     "A": 2,
+     "P": 13,
+     "PIM": 15,
+     "age": 30
+    },
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 5,
+     "G": 7,
+     "A": 1,
+     "P": 8,
+     "PIM": 3,
+     "age": 27
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 5,
+     "G": 5,
+     "A": 2,
+     "P": 7,
+     "PIM": 3,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.275,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    },
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn"
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1918,
+    1918,
+    1918
+   ],
+   "text": "Just three players of the 1910s scored 5 goals in one postseason: Newsy Lalonde (1918-19: 11 goals in 5 games); Odie Cleghorn (1918-19: 7 goals in 5 games); Joe Malone (1918-19: 5 goals in 5 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 14,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    }
+   ],
+   "among": 113,
+   "text": "Most goals in a season in the 1910s: Joe Malone, 1917-18 — 44 in 20 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 15,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor",
+     "season": 1919,
+     "team": "SEN",
+     "pos": "C",
+     "GP": 23,
+     "G": 26,
+     "A": 16,
+     "P": 42,
+     "PIM": 20,
+     "GWG": 6,
+     "age": 27
+    }
+   ],
+   "among": 113,
+   "text": "Most assists in a season in the 1910s: Frank Nighbor, 1919-20 — 16.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 16,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446669,
+     "name": "Joe Hall"
+    }
+   ],
+   "seasons": [
+    1918
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446669,
+     "name": "Joe Hall",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 16,
+     "G": 7,
+     "A": 2,
+     "P": 9,
+     "PIM": 130,
+     "age": 36
+    }
+   ],
+   "among": 113,
+   "text": "Most penalty minutes in a season in the 1910s: Joe Hall, 1918-19 — 130.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 17,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor",
+     "season": 1919,
+     "team": "SEN",
+     "pos": "C",
+     "GP": 23,
+     "G": 26,
+     "A": 16,
+     "P": 42,
+     "PIM": 20,
+     "GWG": 6,
+     "age": 27
+    }
+   ],
+   "among": 81,
+   "text": "Most game-winning goals in a season in the 1910s: Frank Nighbor, 1919-20 — 6.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 18,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "D",
+     "GP": 21,
+     "G": 17,
+     "A": 10,
+     "P": 27,
+     "PIM": 28,
+     "GWG": 1,
+     "age": 27
+    }
+   ],
+   "among": 38,
+   "text": "Most points by a defenseman in a season in the 1910s: Harry Cameron, 1917-18 — 27.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 19,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn"
+    }
+   ],
+   "seasons": [
+    1918
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 18,
+     "G": 21,
+     "A": 6,
+     "P": 27,
+     "PIM": 30,
+     "age": 27
+    }
+   ],
+   "among": 23,
+   "text": "Most goals in a first NHL season in the 1910s: Odie Cleghorn, 1918-19 — 21.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 20,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "season": 1919,
+     "team": "SEN",
+     "GP": 24,
+     "A": 0,
+     "PIM": 2,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "SO": 5,
+     "GAA": 2.66143,
+     "GA": 64
+    }
+   ],
+   "among": 19,
+   "text": "Most wins by a goalie in a season in the 1910s: Clint Benedict, 1919-20 — 19.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 21,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "season": 1919,
+     "team": "SEN",
+     "GP": 24,
+     "A": 0,
+     "PIM": 2,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "SO": 5,
+     "GAA": 2.66143,
+     "GA": 64
+    }
+   ],
+   "among": 19,
+   "text": "Most shutouts in a season in the 1910s: Clint Benedict, 1919-20 — 5.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 22,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "season": 1919,
+     "team": "SEN",
+     "GP": 24,
+     "A": 0,
+     "PIM": 2,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "SO": 5,
+     "GAA": 2.66143,
+     "GA": 64
+    }
+   ],
+   "among": 10,
+   "text": "Best goals-against average in a season (40% of games) in the 1910s: Clint Benedict, 1919-20 — 2.66.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 23,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449843,
+     "name": "Frank Brophy"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449843,
+     "name": "Frank Brophy",
+     "season": 1919,
+     "team": "QBD",
+     "GP": 21,
+     "A": 0,
+     "PIM": 0,
+     "W": 3,
+     "L": 18,
+     "T": 0,
+     "SO": 0,
+     "GAA": 7.10921,
+     "GA": 148
+    }
+   ],
+   "among": 19,
+   "text": "Most losses by a goalie in a season in the 1910s: Frank Brophy, 1919-20 — 18.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1919,
+     "GP": 24,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "GF": 121,
+     "GA": 64,
+     "PCT": 0.79166
+    }
+   ],
+   "among": 11,
+   "text": "Best points percentage in a season in the 1910s: Ottawa Senators (1917), 1919-20 — .792 (19-5).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1919,
+     "GP": 24,
+     "W": 13,
+     "L": 11,
+     "T": 0,
+     "GF": 129,
+     "GA": 113,
+     "PCT": 0.54166
+    }
+   ],
+   "among": 11,
+   "text": "Most goals per game by a team in the 1910s: Montréal Canadiens, 1919-20 — 5.38 (129 in 24).",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1919,
+     "GP": 24,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "GF": 121,
+     "GA": 64,
+     "PCT": 0.79166
+    }
+   ],
+   "among": 11,
+   "text": "Fewest goals allowed per game in the 1910s: Ottawa Senators (1917), 1919-20 — 2.67 (64 in 24).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1919,
+     "team": "QBD",
+     "pos": "C",
+     "GP": 24,
+     "G": 39,
+     "A": 10,
+     "P": 49,
+     "PIM": 12,
+     "GWG": 2,
+     "age": 29
+    }
+   ],
+   "among": 113,
+   "text": "Most points in a season in the 1910s: Joe Malone, 1919-20 — 49 (39G, 10A).",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "D",
+     "GP": 21,
+     "G": 17,
+     "A": 10,
+     "P": 27,
+     "PIM": 28,
+     "GWG": 1,
+     "age": 27
+    }
+   ],
+   "among": 38,
+   "text": "Most goals by a defenseman in a season in the 1910s: Harry Cameron, 1917-18 — 17.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    }
+   ],
+   "among": 79,
+   "text": "Most points per game in a season (60% of games) in the 1910s: Joe Malone, 1917-18 — 2.40.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1919,
+     "GP": 24,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "GF": 121,
+     "GA": 64,
+     "PCT": 0.79166
+    }
+   ],
+   "among": 11,
+   "text": "Best goal differential in a season in the 1910s: Ottawa Senators (1917), 1919-20 — +57.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    }
+   ],
+   "seasons": [
+    1918
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 5,
+     "G": 11,
+     "A": 2,
+     "P": 13,
+     "PIM": 15,
+     "age": 30
+    }
+   ],
+   "among": 35,
+   "text": "Most points in a single postseason in the 1910s: Newsy Lalonde, 1918-19 — 13 in 5 games.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    }
+   ],
+   "seasons": [
+    1918
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 5,
+     "G": 11,
+     "A": 2,
+     "P": 13,
+     "PIM": 15,
+     "age": 30
+    }
+   ],
+   "among": 35,
+   "text": "Most goals in a single postseason in the 1910s: Newsy Lalonde, 1918-19 — 11 in 5 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1910s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    }
+   ],
+   "among": 79,
+   "text": "Most goals per game in a season (60% of games) in the 1910s: Joe Malone, 1917-18 — 2.20.",
+   "why": "The high-water mark of the 1910s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 34,
+   "rule": "h_gpg",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1917,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 21,
+     "G": 36,
+     "A": 10,
+     "P": 46,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1919,
+     "team": "QBD",
+     "pos": "C",
+     "GP": 24,
+     "G": 39,
+     "A": 10,
+     "P": 49,
+     "PIM": 12,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1919,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 23,
+     "G": 37,
+     "A": 10,
+     "P": 47,
+     "PIM": 34,
+     "GWG": 5,
+     "age": 31
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "C",
+     "GP": 20,
+     "G": 29,
+     "A": 10,
+     "P": 39,
+     "PIM": 35,
+     "GWG": 4,
+     "age": 21
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 17,
+     "G": 23,
+     "A": 9,
+     "P": 32,
+     "PIM": 42,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 5.75,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "text": "8 players scored a goal a game (15+ games) in the 1910s (13 seasons). The most extreme: Joe Malone, 1917-18 — 44 goals in 20 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 35,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor",
+     "total": 33,
+     "seasons": 3
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "total": 26,
+     "seasons": 3
+    },
+    {
+     "id": 8445873,
+     "name": "Corb Denneny",
+     "total": 25,
+     "seasons": 3
+    },
+    {
+     "id": 8446581,
+     "name": "Eddie Gerard",
+     "total": 25,
+     "seasons": 3
+    },
+    {
+     "id": 8448154,
+     "name": "Didier Pitre",
+     "total": 24,
+     "seasons": 3
+    }
+   ],
+   "text": "Most assists of the 1910s: Frank Nighbor, 33.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 36,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1917,
+     "count": 5
+    },
+    {
+     "season": 1918,
+     "count": 2
+    },
+    {
+     "season": 1919,
+     "count": 9
+    }
+   ],
+   "text": "1919-20 had 9 20-goal scorers, the most of any season in the 1910s.",
+   "why": "The peak year for this across the 1910s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 37,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1918
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1917,
+     "count": 5
+    },
+    {
+     "season": 1918,
+     "count": 2
+    },
+    {
+     "season": 1919,
+     "count": 9
+    }
+   ],
+   "text": "1918-19 had just 2 20-goal scorers, the fewest of any season in the 1910s.",
+   "why": "The low point of the 1910s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 38,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1917,
+     "count": 5
+    },
+    {
+     "season": 1918,
+     "count": 1
+    },
+    {
+     "season": 1919,
+     "count": 6
+    }
+   ],
+   "text": "1919-20 had 6 30-point players, the most of any season in the 1910s.",
+   "why": "The peak year for this across the 1910s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 39,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1918
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1917,
+     "count": 5
+    },
+    {
+     "season": 1918,
+     "count": 1
+    },
+    {
+     "season": 1919,
+     "count": 6
+    }
+   ],
+   "text": "1918-19 had just one 30-point player, the fewest of any season in the 1910s.",
+   "why": "The low point of the 1910s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 40,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1917,
+     "count": 9
+    },
+    {
+     "season": 1918,
+     "count": 9
+    },
+    {
+     "season": 1919,
+     "count": 12
+    }
+   ],
+   "text": "1919-20 had 12 point-a-game players (60% of games), the most of any season in the 1910s.",
+   "why": "The peak year for this across the 1910s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 41,
+   "kind": "season",
+   "rule": "c_dg_most",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1917,
+     "count": 5
+    },
+    {
+     "season": 1918,
+     "count": 1
+    },
+    {
+     "season": 1919,
+     "count": 7
+    }
+   ],
+   "text": "1919-20 had 7 defensemen with 8+ goals, the most of any season in the 1910s.",
+   "why": "The peak year for this across the 1910s; fans can argue why that season stood out. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 42,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1918
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1917,
+     "count": 5
+    },
+    {
+     "season": 1918,
+     "count": 1
+    },
+    {
+     "season": 1919,
+     "count": 7
+    }
+   ],
+   "text": "1918-19 had just one defensemen with 8+ goal, the fewest of any season in the 1910s.",
+   "why": "The low point of the 1910s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 43,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446669,
+     "name": "Joe Hall"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446669,
+     "name": "Joe Hall",
+     "total": 230,
+     "seasons": 2
+    },
+    {
+     "id": 8448246,
+     "name": "Ken Randall",
+     "total": 207,
+     "seasons": 3
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 166,
+     "seasons": 3
+    },
+    {
+     "id": 8445571,
+     "name": "Bert Corbeau",
+     "total": 163,
+     "seasons": 3
+    },
+    {
+     "id": 8445744,
+     "name": "Billy Coutu",
+     "total": 132,
+     "seasons": 3
+    }
+   ],
+   "text": "Most penalty minutes of the 1910s: Joe Hall, 230.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 44,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 63,
+     "seasons": 3
+    },
+    {
+     "id": 8445071,
+     "name": "Louis Berlinquette",
+     "total": 62,
+     "seasons": 3
+    },
+    {
+     "id": 8445873,
+     "name": "Corb Denneny",
+     "total": 61,
+     "seasons": 3
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 61,
+     "seasons": 3
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "total": 60,
+     "seasons": 3
+    }
+   ],
+   "text": "Most games played in the 1910s: Cy Denneny, 63.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 45,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "total": 64,
+     "seasons": 3
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "total": 38,
+     "seasons": 3
+    },
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn",
+     "total": 36,
+     "seasons": 2
+    },
+    {
+     "id": 8445571,
+     "name": "Bert Corbeau",
+     "total": 34,
+     "seasons": 3
+    },
+    {
+     "id": 8447907,
+     "name": "Harry Mummery",
+     "total": 26,
+     "seasons": 3
+    }
+   ],
+   "text": "Most points by a defenseman in the 1910s: Harry Cameron, 64.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 46,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "total": 40,
+     "seasons": 3
+    },
+    {
+     "id": 8450137,
+     "name": "Georges Vezina",
+     "total": 35,
+     "seasons": 3
+    },
+    {
+     "id": 8449997,
+     "name": "Hap Holmes",
+     "total": 9,
+     "seasons": 2
+    },
+    {
+     "id": 8450014,
+     "name": "Bert Lindsay",
+     "total": 6,
+     "seasons": 2
+    },
+    {
+     "id": 8450044,
+     "name": "Ivan Mitchell",
+     "total": 6,
+     "seasons": 1
+    }
+   ],
+   "text": "Most goalie wins of the 1910s: Clint Benedict, 40.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 47,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "total": 8,
+     "seasons": 3
+    },
+    {
+     "id": 8450137,
+     "name": "Georges Vezina",
+     "total": 2,
+     "seasons": 3
+    },
+    {
+     "id": 8449841,
+     "name": "Art Brooks",
+     "total": 0,
+     "seasons": 1
+    },
+    {
+     "id": 8449990,
+     "name": "Sammy Hebert",
+     "total": 0,
+     "seasons": 1
+    },
+    {
+     "id": 8449997,
+     "name": "Hap Holmes",
+     "total": 0,
+     "seasons": 2
+    }
+   ],
+   "text": "Most shutouts of the 1910s: Clint Benedict, 8.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 48,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "total": 64,
+     "seasons": 3
+    },
+    {
+     "id": 8450137,
+     "name": "Georges Vezina",
+     "total": 63,
+     "seasons": 3
+    },
+    {
+     "id": 8449843,
+     "name": "Frank Brophy",
+     "total": 21,
+     "seasons": 1
+    },
+    {
+     "id": 8450014,
+     "name": "Bert Lindsay",
+     "total": 20,
+     "seasons": 2
+    },
+    {
+     "id": 8449997,
+     "name": "Hap Holmes",
+     "total": 18,
+     "seasons": 2
+    }
+   ],
+   "text": "Most games in goal in the 1910s: Clint Benedict, 64.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 49,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    }
+   ],
+   "seasons": [
+    1917,
+    1918,
+    1919
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 14,
+     "G": 23,
+     "A": 7,
+     "P": 30,
+     "PIM": 51,
+     "GWG": 0,
+     "age": 29
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 17,
+     "G": 23,
+     "A": 9,
+     "P": 32,
+     "PIM": 42,
+     "age": 30
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1919,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 23,
+     "G": 37,
+     "A": 10,
+     "P": 47,
+     "PIM": 34,
+     "GWG": 5,
+     "age": 31
+    }
+   ],
+   "text": "Newsy Lalonde scored 21+ goals in 3 straight seasons (1917-18 to 1919-20), the longest run of the 1910s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 50,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "total": 90,
+     "seasons": 3
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "total": 83,
+     "seasons": 3
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 70,
+     "seasons": 3
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 63,
+     "seasons": 3
+    },
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor",
+     "total": 56,
+     "seasons": 3
+    }
+   ],
+   "text": "Most goals of the 1910s: Joe Malone, 90 (next: Newsy Lalonde, 83).",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 51,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "total": 109,
+     "seasons": 3
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "total": 106,
+     "seasons": 3
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 92,
+     "seasons": 3
+    },
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor",
+     "total": 89,
+     "seasons": 3
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 84,
+     "seasons": 3
+    }
+   ],
+   "text": "Most points of the 1910s: Newsy Lalonde, 109 (next: Joe Malone, 106).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 52,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8445873,
+     "name": "Corb Denneny",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8445496,
+     "name": "Odie Cleghorn",
+     "total": 2,
+     "seasons": 2
+    }
+   ],
+   "text": "Most 20-goal seasons in the 1910s: Newsy Lalonde, 3.",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 53,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "1910s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8445873,
+     "name": "Corb Denneny",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 1,
+     "seasons": 1
+    }
+   ],
+   "text": "Most 30-point seasons in the 1910s: Newsy Lalonde, 3.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 54,
+   "rule": "h_2ppg",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1917,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 21,
+     "G": 36,
+     "A": 10,
+     "P": 46,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1919,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 23,
+     "G": 37,
+     "A": 10,
+     "P": 47,
+     "PIM": 34,
+     "GWG": 5,
+     "age": 31
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1919,
+     "team": "QBD",
+     "pos": "C",
+     "GP": 24,
+     "G": 39,
+     "A": 10,
+     "P": 49,
+     "PIM": 12,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "C",
+     "GP": 20,
+     "G": 29,
+     "A": 10,
+     "P": 39,
+     "PIM": 35,
+     "GWG": 4,
+     "age": 21
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1918,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 17,
+     "G": 23,
+     "A": 9,
+     "P": 32,
+     "PIM": 42,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 4.8,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "text": "8 players averaged 1.5 points a game (15+ games) in the 1910s (11 seasons). The most extreme: Joe Malone, 1917-18 — 48 points in 20 games (2.40).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 55,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1919,
+     "GP": 24,
+     "W": 13,
+     "L": 11,
+     "T": 0,
+     "GF": 129,
+     "GA": 113,
+     "PCT": 0.54166
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1917,
+     "GP": 22,
+     "W": 13,
+     "L": 9,
+     "T": 0,
+     "GF": 115,
+     "GA": 84,
+     "PCT": 0.5909
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1919,
+     "GP": 24,
+     "W": 19,
+     "L": 5,
+     "T": 0,
+     "GF": 121,
+     "GA": 64,
+     "PCT": 0.79166
+    },
+    {
+     "id": "Toronto St. Patricks",
+     "name": "Toronto St. Patricks",
+     "season": 1919,
+     "GP": 24,
+     "W": 12,
+     "L": 12,
+     "T": 0,
+     "GF": 119,
+     "GA": 106,
+     "PCT": 0.5
+    },
+    {
+     "id": "Toronto Arenas",
+     "name": "Toronto Arenas",
+     "season": 1917,
+     "GP": 22,
+     "W": 13,
+     "L": 9,
+     "T": 0,
+     "GF": 108,
+     "GA": 109,
+     "PCT": 0.5909
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1918,
+     "GP": 18,
+     "W": 10,
+     "L": 8,
+     "T": 0,
+     "GF": 88,
+     "GA": 78,
+     "PCT": 0.55555
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.34375,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1919
+   ],
+   "text": "5 teams scored 3.5 goals a game in the 1910s (10 seasons). The most extreme: Montréal Canadiens, 1919-20 — 5.38 per game.",
+   "why": "Shows how high the bar was across the 1910s; the extreme case is the hook. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 56,
+   "kind": "nearmiss",
+   "rule": "n_g29",
+   "group": "P",
+   "decade": "1910s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 8448013,
+     "name": "Reg Noble"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "C",
+     "GP": 20,
+     "G": 29,
+     "A": 10,
+     "P": 39,
+     "PIM": 35,
+     "GWG": 4,
+     "age": 21
+    }
+   ],
+   "text": "Exactly one player of the 1910s finished a season with exactly 29 goals, one short of 30: Reg Noble (1917-18).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 57,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1910s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1917,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 20,
+     "G": 44,
+     "A": 4,
+     "P": 48,
+     "PIM": 30,
+     "GWG": 4,
+     "age": 27
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1919,
+     "team": "QBD",
+     "pos": "C",
+     "GP": 24,
+     "G": 39,
+     "A": 10,
+     "P": 49,
+     "PIM": 12,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1919,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 23,
+     "G": 37,
+     "A": 10,
+     "P": 47,
+     "PIM": 34,
+     "GWG": 5,
+     "age": 31
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1917,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 21,
+     "G": 36,
+     "A": 10,
+     "P": 46,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "season": 1917,
+     "team": "TAN",
+     "pos": "C",
+     "GP": 20,
+     "G": 29,
+     "A": 10,
+     "P": 39,
+     "PIM": 35,
+     "GWG": 4,
+     "age": 21
+    },
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor",
+     "season": 1919,
+     "team": "SEN",
+     "pos": "C",
+     "GP": 23,
+     "G": 26,
+     "A": 16,
+     "P": 42,
+     "PIM": 20,
+     "GWG": 6,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 4.1,
+   "players": [
+    {
+     "id": 8447594,
+     "name": "Joe Malone"
+    }
+   ],
+   "seasons": [
+    1917
+   ],
+   "text": "9 players scored 21 goals with more goals than assists in the 1910s (13 seasons). The most extreme: Joe Malone, 1917-18 — 44G, 4A.",
+   "why": "Shows how high the bar was across the 1910s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  }
+ ],
+ "counts": {
+  "skaterSeasons": 113,
+  "goalieSeasons": 19,
+  "teamSeasons": 11
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:06.791Z"
+}

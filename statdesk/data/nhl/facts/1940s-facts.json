@@ -1,0 +1,4253 @@
+{
+ "sport": "NHL",
+ "decade": "1940s",
+ "era": 2,
+ "seasons": [
+  "1940-41",
+  "1941-42",
+  "1942-43",
+  "1943-44",
+  "1944-45",
+  "1945-46",
+  "1946-47",
+  "1947-48",
+  "1948-49",
+  "1949-50"
+ ],
+ "candidates": 74,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "t_pct800",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1943,
+     "GP": 50,
+     "W": 38,
+     "L": 5,
+     "T": 7,
+     "GF": 234,
+     "GA": 109,
+     "PCT": 0.83
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1944,
+     "GP": 50,
+     "W": 38,
+     "L": 8,
+     "T": 4,
+     "GF": 228,
+     "GA": 121,
+     "PCT": 0.8
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 12.075,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1943,
+    1944
+   ],
+   "text": "The only team of the 1940s to finish with a .800 points percentage was Montréal Canadiens — and it did it twice (1943-44: 38-5-7, .830; 1944-45: 38-8-4, .800).",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 2,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445105,
+     "name": "Gus Bodnar",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 50,
+     "G": 22,
+     "A": 40,
+     "P": 62,
+     "PIM": 18,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.55,
+   "players": [
+    {
+     "id": 8445105,
+     "name": "Gus Bodnar"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "text": "The only player of the 1940s to record 55 points in their first NHL season: Gus Bodnar, 1943-44 — 62 points.",
+   "why": "Nobody else in the 1940s did it, and exclusivity is what gets a post shared. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 3,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448187,
+     "name": "Babe Pratt",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 50,
+     "G": 17,
+     "A": 41,
+     "P": 58,
+     "PIM": 48,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.45,
+   "players": [
+    {
+     "id": 8448187,
+     "name": "Babe Pratt"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "text": "The only player of the 1940s to record 45 points as a defenseman: Babe Pratt, 1943-44 — 58 points (17G, 41A).",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 4,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 50,
+     "G": 50,
+     "A": 23,
+     "P": 73,
+     "PIM": 46,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 23
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1946,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 60,
+     "G": 45,
+     "A": 26,
+     "P": 71,
+     "PIM": 69,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "age": 25
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1949,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 22,
+     "P": 65,
+     "PIM": 114,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "only",
+   "score": 11.25,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1944,
+    1946,
+    1949
+   ],
+   "text": "The only player of the 1940s to score 40 goals was Maurice Richard — and he did it 3 times (1944-45: 50 goals in 50 games; 1946-47: 45 goals in 60 games; 1949-50: 43 goals in 70 games).",
+   "why": "Nobody else in the 1940s did it, and exclusivity is what gets a post shared. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 5,
+   "rule": "h_gpg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 50,
+     "G": 50,
+     "A": 23,
+     "P": 73,
+     "PIM": 46,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.25,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1944
+   ],
+   "text": "The only player of the 1940s to score a goal a game (40+ games): Maurice Richard, 1944-45 — 50 goals in 50 games.",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 6,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers",
+     "season": 1943,
+     "GP": 50,
+     "W": 6,
+     "L": 39,
+     "T": 5,
+     "GF": 162,
+     "GA": 310,
+     "PCT": 0.17
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.74,
+   "players": [
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "text": "The only team of the 1940s to get outscored by 100: New York Rangers, 1943-44 — 162-310.",
+   "why": "Nobody else in the 1940s did it, and exclusivity is what gets a post shared. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 7,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1943,
+     "GP": 50,
+     "W": 38,
+     "L": 5,
+     "T": 7,
+     "GF": 234,
+     "GA": 109,
+     "PCT": 0.83
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1944,
+     "GP": 50,
+     "W": 38,
+     "L": 8,
+     "T": 4,
+     "GF": 228,
+     "GA": 121,
+     "PCT": 0.8
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 10.625,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1943,
+    1944
+   ],
+   "text": "The only team of the 1940s to outscore opponents by 100 was Montréal Canadiens — and it did it twice (1943-44: 234-109; 1944-45: 228-121).",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 8,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 9,
+     "G": 12,
+     "A": 5,
+     "P": 17,
+     "PIM": 10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.3,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "text": "The only player of the 1940s to score 10 goals in one postseason: Maurice Richard, 1943-44 — 12 goals in 9 games.",
+   "why": "Nobody else in the 1940s did it, and exclusivity is what gets a post shared. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 9,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan",
+     "season": 1948,
+     "team": "MTL",
+     "GP": 60,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 23,
+     "T": 9,
+     "SO": 10,
+     "GAA": 2.1,
+     "GA": 126
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.25,
+   "players": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "text": "The only goalie of the 1940s to record 10 shutouts: Bill Durnan, 1948-49 — 10 shutouts in 60 games.",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 10,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1946,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 60,
+     "G": 45,
+     "A": 26,
+     "P": 71,
+     "PIM": 69,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.25,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1946
+   ],
+   "text": "The only player of the 1940s to score 10 game-winning goals: Maurice Richard, 1946-47 — 10 GWG.",
+   "why": "Nobody else in the 1940s did it, and exclusivity is what gets a post shared. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 11,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450029,
+     "name": "Frank McCool",
+     "season": 1944,
+     "team": "TOR",
+     "GP": 13,
+     "A": 0,
+     "PIM": 0,
+     "W": 8,
+     "L": 5,
+     "T": 0,
+     "SO": 4,
+     "GAA": 2.23085,
+     "GA": 30
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 8450029,
+     "name": "Frank McCool"
+    }
+   ],
+   "seasons": [
+    1944
+   ],
+   "text": "The only goalie of the 1940s to record 4 shutouts in one postseason: Frank McCool, 1944-45 — 4 shutouts in 13 games.",
+   "why": "A club of one in the 1940s; \"name another\" posts draw replies. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 12,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers",
+     "season": 1943,
+     "GP": 50,
+     "W": 6,
+     "L": 39,
+     "T": 5,
+     "GF": 162,
+     "GA": 310,
+     "PCT": 0.17
+    },
+    {
+     "id": "New York Americans",
+     "name": "New York Americans",
+     "season": 1940,
+     "GP": 48,
+     "W": 8,
+     "L": 29,
+     "T": 11,
+     "GF": 99,
+     "GA": 186,
+     "PCT": 0.28125
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 10.075,
+   "players": [
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers"
+    },
+    {
+     "id": "New York Americans",
+     "name": "New York Americans"
+    }
+   ],
+   "seasons": [
+    1943,
+    1940
+   ],
+   "text": "Only two teams of the 1940s finished with a points percentage under .300: New York Rangers (1943-44: 6-39-5, .170); New York Americans (1940-41: 8-29-11, .281).",
+   "why": "A club of two is a ready-made debate. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 13,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1949,
+     "team": "DET",
+     "pos": "L",
+     "GP": 69,
+     "G": 23,
+     "A": 55,
+     "P": 78,
+     "PIM": 141,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 24
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1949,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 22,
+     "P": 65,
+     "PIM": 114,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 28
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1948,
+     "team": "DET",
+     "pos": "L",
+     "GP": 50,
+     "G": 26,
+     "A": 28,
+     "P": 54,
+     "PIM": 97,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 23
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1947,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 53,
+     "G": 28,
+     "A": 25,
+     "P": 53,
+     "PIM": 91,
+     "PPG": 2,
+     "SHG": 2,
+     "GWG": 3,
+     "age": 26
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1947,
+     "team": "DET",
+     "pos": "L",
+     "GP": 60,
+     "G": 33,
+     "A": 19,
+     "P": 52,
+     "PIM": 95,
+     "PPG": 4,
+     "SHG": 3,
+     "GWG": 2,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 9.95,
+   "players": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay"
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1949,
+    1949,
+    1948,
+    1947,
+    1947
+   ],
+   "text": "Only two players of the 1940s recorded 48 points and 90 penalty minutes: Ted Lindsay (3×, best 1949-50: 78 pts, 141 PIM); Maurice Richard (2×, best 1949-50: 65 pts, 114 PIM).",
+   "why": "Two names invite the \"whose season was better?\" argument. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 14,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445105,
+     "name": "Gus Bodnar",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 50,
+     "G": 22,
+     "A": 40,
+     "P": 62,
+     "PIM": 18,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 20
+    },
+    {
+     "id": 8447166,
+     "name": "Ted Kennedy",
+     "season": 1944,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 49,
+     "G": 29,
+     "A": 25,
+     "P": 54,
+     "PIM": 14,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.55,
+   "players": [
+    {
+     "id": 8445105,
+     "name": "Gus Bodnar"
+    },
+    {
+     "id": 8447166,
+     "name": "Ted Kennedy"
+    }
+   ],
+   "seasons": [
+    1943,
+    1944
+   ],
+   "text": "Only two players of the 1940s recorded 52 points at age 20 or younger: Gus Bodnar (1943-44: 62 points at 20); Ted Kennedy (1944-45: 54 points at 19).",
+   "why": "A club of two is a ready-made debate. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 15,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1949,
+     "team": "DET",
+     "pos": "L",
+     "GP": 69,
+     "G": 23,
+     "A": 55,
+     "P": 78,
+     "PIM": 141,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 24
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 50,
+     "G": 26,
+     "A": 54,
+     "P": 80,
+     "PIM": 37,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.375,
+   "players": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay"
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach"
+    }
+   ],
+   "seasons": [
+    1949,
+    1944
+   ],
+   "text": "Only two players of the 1940s recorded 50 assists: Ted Lindsay (1949-50: 55 assists); Elmer Lach (1944-45: 54 assists).",
+   "why": "Two names invite the \"whose season was better?\" argument. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 16,
+   "rule": "h_pts_no_ppg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445349,
+     "name": "Joe Carveth",
+     "season": 1943,
+     "team": "DET",
+     "pos": "R",
+     "GP": 46,
+     "G": 21,
+     "A": 33,
+     "P": 54,
+     "PIM": 6,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    },
+    {
+     "id": 8449372,
+     "name": "Phil Watson",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 44,
+     "G": 17,
+     "A": 32,
+     "P": 49,
+     "PIM": 71,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.35,
+   "players": [
+    {
+     "id": 8445349,
+     "name": "Joe Carveth"
+    },
+    {
+     "id": 8449372,
+     "name": "Phil Watson"
+    }
+   ],
+   "seasons": [
+    1943,
+    1943
+   ],
+   "text": "Only two players of the 1940s recorded 48 points with no power-play goals: Joe Carveth (1943-44: 54 pts, 0 PPG); Phil Watson (1943-44: 49 pts, 0 PPG).",
+   "why": "A club of two is a ready-made debate. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 17,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445307,
+     "name": "Herb Cain",
+     "season": 1943,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 49,
+     "G": 36,
+     "A": 46,
+     "P": 82,
+     "PIM": 4,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 31
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 50,
+     "G": 26,
+     "A": 54,
+     "P": 80,
+     "PIM": 37,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.025,
+   "players": [
+    {
+     "id": 8445307,
+     "name": "Herb Cain"
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach"
+    }
+   ],
+   "seasons": [
+    1943,
+    1944
+   ],
+   "text": "Only two players of the 1940s recorded 80 points: Herb Cain (1943-44: 82 points (36G, 46A)); Elmer Lach (1944-45: 80 points (26G, 54A)).",
+   "why": "Two names invite the \"whose season was better?\" argument. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 18,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450027,
+     "name": "Ken McAuley",
+     "season": 1943,
+     "team": "NYR",
+     "GP": 50,
+     "A": 0,
+     "PIM": 0,
+     "W": 6,
+     "L": 39,
+     "T": 5,
+     "SO": 0,
+     "GAA": 6.24161,
+     "GA": 310
+    },
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "season": 1949,
+     "team": "CHI",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 22,
+     "L": 38,
+     "T": 10,
+     "SO": 5,
+     "GAA": 3.48571,
+     "GA": 244
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.975,
+   "players": [
+    {
+     "id": 8450027,
+     "name": "Ken McAuley"
+    },
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek"
+    }
+   ],
+   "seasons": [
+    1943,
+    1949
+   ],
+   "text": "Only two goalies of the 1940s lost 38 games: Ken McAuley (1943-44: 6-39-5); Frank Brimsek (1949-50: 22-38-10).",
+   "why": "A club of two is a ready-made debate. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 19,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447166,
+     "name": "Ted Kennedy",
+     "season": 1944,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 49,
+     "G": 29,
+     "A": 25,
+     "P": 54,
+     "PIM": 14,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 19
+    },
+    {
+     "id": 8447166,
+     "name": "Ted Kennedy",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 49,
+     "G": 25,
+     "A": 24,
+     "P": 49,
+     "PIM": 2,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 18
+    },
+    {
+     "id": 8449183,
+     "name": "Gaye Stewart",
+     "season": 1942,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 48,
+     "G": 24,
+     "A": 23,
+     "P": 47,
+     "PIM": 40,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.725,
+   "players": [
+    {
+     "id": 8447166,
+     "name": "Ted Kennedy"
+    },
+    {
+     "id": 8449183,
+     "name": "Gaye Stewart"
+    }
+   ],
+   "seasons": [
+    1944,
+    1943,
+    1942
+   ],
+   "text": "Only two players of the 1940s scored 24 goals at age 20 or younger: Ted Kennedy (2×, best 1944-45: 29 goals at 19); Gaye Stewart (1942-43: 24 goals at 19).",
+   "why": "Two names invite the \"whose season was better?\" argument. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 20,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449157,
+     "name": "Wally Stanowski",
+     "season": 1941,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 13,
+     "G": 2,
+     "A": 8,
+     "P": 10,
+     "PIM": 2,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 22
+    },
+    {
+     "id": 8446895,
+     "name": "Flash Hollett",
+     "season": 1942,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 9,
+     "G": 0,
+     "A": 9,
+     "P": 9,
+     "PIM": 4,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.25,
+   "players": [
+    {
+     "id": 8449157,
+     "name": "Wally Stanowski"
+    },
+    {
+     "id": 8446895,
+     "name": "Flash Hollett"
+    }
+   ],
+   "seasons": [
+    1941,
+    1942
+   ],
+   "text": "Only two players of the 1940s recorded 8 points as a defenseman in one postseason: Wally Stanowski (1941-42: 10 points in 13 games); Flash Hollett (1942-43: 9 points in 9 games).",
+   "why": "A club of two is a ready-made debate. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 21,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446135,
+     "name": "Pat Egan",
+     "season": 1943,
+     "team": "DET,BOS",
+     "pos": "D",
+     "GP": 48,
+     "G": 15,
+     "A": 28,
+     "P": 43,
+     "PIM": 95,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1949,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 10,
+     "A": 25,
+     "P": 35,
+     "PIM": 138,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 22
+    },
+    {
+     "id": 8449236,
+     "name": "Jimmy Thomson",
+     "season": 1947,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 59,
+     "G": 0,
+     "A": 29,
+     "P": 29,
+     "PIM": 82,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 20
+    },
+    {
+     "id": 8446135,
+     "name": "Pat Egan",
+     "season": 1941,
+     "team": "BRK",
+     "pos": "D",
+     "GP": 48,
+     "G": 8,
+     "A": 20,
+     "P": 28,
+     "PIM": 124,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 2,
+     "age": 23
+    },
+    {
+     "id": 8448257,
+     "name": "Ken Reardon",
+     "season": 1949,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 67,
+     "G": 1,
+     "A": 27,
+     "P": 28,
+     "PIM": 109,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 7.075,
+   "players": [
+    {
+     "id": 8446135,
+     "name": "Pat Egan"
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby"
+    },
+    {
+     "id": 8449236,
+     "name": "Jimmy Thomson"
+    },
+    {
+     "id": 8448257,
+     "name": "Ken Reardon"
+    }
+   ],
+   "seasons": [
+    1943,
+    1949,
+    1947,
+    1941,
+    1949
+   ],
+   "text": "Just four players of the 1940s recorded 27 points and 75 penalty minutes as a defenseman: Pat Egan (2×, best 1943-44: 43 pts, 95 PIM); Bill Gadsby (1949-50: 35 pts, 138 PIM); Jimmy Thomson (1947-48: 29 pts, 82 PIM); Ken Reardon (1949-50: 28 pts, 109 PIM).",
+   "why": "A short list fans can recite; each name brings its own fan base. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 22,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446895,
+     "name": "Flash Hollett",
+     "season": 1944,
+     "team": "DET",
+     "pos": "D",
+     "GP": 50,
+     "G": 20,
+     "A": 21,
+     "P": 41,
+     "PIM": 39,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 32
+    },
+    {
+     "id": 8446895,
+     "name": "Flash Hollett",
+     "season": 1941,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 48,
+     "G": 19,
+     "A": 14,
+     "P": 33,
+     "PIM": 21,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 29
+    },
+    {
+     "id": 8446895,
+     "name": "Flash Hollett",
+     "season": 1942,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 50,
+     "G": 19,
+     "A": 25,
+     "P": 44,
+     "PIM": 19,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 30
+    },
+    {
+     "id": 8448187,
+     "name": "Babe Pratt",
+     "season": 1944,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 50,
+     "G": 18,
+     "A": 23,
+     "P": 41,
+     "PIM": 39,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8448187,
+     "name": "Babe Pratt",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 50,
+     "G": 17,
+     "A": 41,
+     "P": 58,
+     "PIM": 48,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 28
+    },
+    {
+     "id": 8446135,
+     "name": "Pat Egan",
+     "season": 1943,
+     "team": "DET,BOS",
+     "pos": "D",
+     "GP": 48,
+     "G": 15,
+     "A": 28,
+     "P": 43,
+     "PIM": 95,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    },
+    {
+     "id": 8446895,
+     "name": "Flash Hollett",
+     "season": 1943,
+     "team": "BOS,DET",
+     "pos": "D",
+     "GP": 52,
+     "G": 15,
+     "A": 20,
+     "P": 35,
+     "PIM": 38,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 31
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1949,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 15,
+     "A": 25,
+     "P": 40,
+     "PIM": 9,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 6.5,
+   "players": [
+    {
+     "id": 8446895,
+     "name": "Flash Hollett"
+    },
+    {
+     "id": 8448187,
+     "name": "Babe Pratt"
+    },
+    {
+     "id": 8446135,
+     "name": "Pat Egan"
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly"
+    }
+   ],
+   "seasons": [
+    1944,
+    1941,
+    1942,
+    1944,
+    1943,
+    1943,
+    1943,
+    1949
+   ],
+   "text": "Just four players of the 1940s scored 15 goals as a defenseman: Flash Hollett (4×, best 1944-45: 20 goals); Babe Pratt (2×, best 1944-45: 18 goals); Pat Egan (1943-44: 15 goals); Red Kelly (1949-50: 15 goals).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 23,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 9,
+     "G": 7,
+     "A": 11,
+     "P": 18,
+     "PIM": 2,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 31
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 9,
+     "G": 12,
+     "A": 5,
+     "P": 17,
+     "PIM": 10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 22
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "season": 1945,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 9,
+     "G": 5,
+     "A": 12,
+     "P": 17,
+     "PIM": 4,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.45,
+   "players": [
+    {
+     "id": 8445098,
+     "name": "Toe Blake"
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach"
+    }
+   ],
+   "seasons": [
+    1943,
+    1943,
+    1945
+   ],
+   "text": "Just three players of the 1940s recorded 15 points in one postseason: Toe Blake (1943-44: 18 points in 9 games); Maurice Richard (1943-44: 17 points in 9 games); Elmer Lach (1945-46: 17 points in 9 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 24,
+   "rule": "g_t",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan",
+     "season": 1949,
+     "team": "MTL",
+     "GP": 64,
+     "A": 1,
+     "PIM": 2,
+     "W": 26,
+     "L": 21,
+     "T": 17,
+     "SO": 8,
+     "GAA": 2.20312,
+     "GA": 141
+    },
+    {
+     "id": 8449960,
+     "name": "Bert Gardiner",
+     "season": 1942,
+     "team": "CHI",
+     "GP": 50,
+     "A": 0,
+     "PIM": 0,
+     "W": 17,
+     "L": 18,
+     "T": 15,
+     "SO": 1,
+     "GAA": 3.57615,
+     "GA": 180
+    },
+    {
+     "id": 8449977,
+     "name": "Jack Gelineau",
+     "season": 1949,
+     "team": "BOS",
+     "GP": 67,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 30,
+     "T": 15,
+     "SO": 3,
+     "GAA": 3.28358,
+     "GA": 220
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.425,
+   "players": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan"
+    },
+    {
+     "id": 8449960,
+     "name": "Bert Gardiner"
+    },
+    {
+     "id": 8449977,
+     "name": "Jack Gelineau"
+    }
+   ],
+   "seasons": [
+    1949,
+    1942,
+    1949
+   ],
+   "text": "Just three goalies of the 1940s tied 15 games: Bill Durnan (1949-50: 17 ties); Bert Gardiner (1942-43: 15 ties); Jack Gelineau (1949-50: 15 ties).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 25,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1940,
+     "GP": 48,
+     "W": 28,
+     "L": 14,
+     "T": 6,
+     "GF": 145,
+     "GA": 99,
+     "PCT": 0.64583
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1948,
+     "GP": 60,
+     "W": 28,
+     "L": 23,
+     "T": 9,
+     "GF": 152,
+     "GA": 126,
+     "PCT": 0.54166
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1940,
+     "GP": 48,
+     "W": 27,
+     "L": 8,
+     "T": 13,
+     "GF": 168,
+     "GA": 102,
+     "PCT": 0.69791
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1940,
+     "GP": 48,
+     "W": 21,
+     "L": 16,
+     "T": 11,
+     "GF": 112,
+     "GA": 102,
+     "PCT": 0.55208
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1949,
+     "GP": 70,
+     "W": 29,
+     "L": 22,
+     "T": 19,
+     "GF": 172,
+     "GA": 150,
+     "PCT": 0.55
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1943,
+     "GP": 50,
+     "W": 38,
+     "L": 5,
+     "T": 7,
+     "GF": 234,
+     "GA": 109,
+     "PCT": 0.83
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.121212121212121,
+   "players": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    1940,
+    1948,
+    1940,
+    1940,
+    1949,
+    1943
+   ],
+   "text": "Just four teams of the 1940s allowed fewer than 2.2 goals a game: Toronto Maple Leafs (1940-41: 2.06 per game); Montréal Canadiens (3×, best 1948-49: 2.10 per game); Boston Bruins (1940-41: 2.13 per game); Detroit Red Wings (1940-41: 2.13 per game).",
+   "why": "A short list fans can recite; each name brings its own fan base. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445307,
+     "name": "Herb Cain"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445307,
+     "name": "Herb Cain",
+     "season": 1943,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 49,
+     "G": 36,
+     "A": 46,
+     "P": 82,
+     "PIM": 4,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 31
+    }
+   ],
+   "among": 1349,
+   "text": "Most points in a season in the 1940s: Herb Cain, 1943-44 — 82 (36G, 46A).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1949,
+     "team": "DET",
+     "pos": "L",
+     "GP": 69,
+     "G": 23,
+     "A": 55,
+     "P": 78,
+     "PIM": 141,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 24
+    }
+   ],
+   "among": 1349,
+   "text": "Most assists in a season in the 1940s: Ted Lindsay, 1949-50 — 55.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445019,
+     "name": "Bill Barilko"
+    }
+   ],
+   "seasons": [
+    1947
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445019,
+     "name": "Bill Barilko",
+     "season": 1947,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 57,
+     "G": 5,
+     "A": 9,
+     "P": 14,
+     "PIM": 147,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 20
+    }
+   ],
+   "among": 1349,
+   "text": "Most penalty minutes in a season in the 1940s: Bill Barilko, 1947-48 — 147.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448187,
+     "name": "Babe Pratt"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448187,
+     "name": "Babe Pratt",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 50,
+     "G": 17,
+     "A": 41,
+     "P": 58,
+     "PIM": 48,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 28
+    }
+   ],
+   "among": 363,
+   "text": "Most points by a defenseman in a season in the 1940s: Babe Pratt, 1943-44 — 58.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446895,
+     "name": "Flash Hollett"
+    }
+   ],
+   "seasons": [
+    1944
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446895,
+     "name": "Flash Hollett",
+     "season": 1944,
+     "team": "DET",
+     "pos": "D",
+     "GP": 50,
+     "G": 20,
+     "A": 21,
+     "P": 41,
+     "PIM": 39,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 32
+    }
+   ],
+   "among": 363,
+   "text": "Most goals by a defenseman in a season in the 1940s: Flash Hollett, 1944-45 — 20.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1943,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 36,
+     "G": 30,
+     "A": 41,
+     "P": 71,
+     "PIM": 12,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 31
+    }
+   ],
+   "among": 822,
+   "text": "Most points per game in a season (60% of games) in the 1940s: Bill Cowley, 1943-44 — 1.97.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447831,
+     "name": "Howie Meeker"
+    }
+   ],
+   "seasons": [
+    1946
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447831,
+     "name": "Howie Meeker",
+     "season": 1946,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 55,
+     "G": 27,
+     "A": 18,
+     "P": 45,
+     "PIM": 76,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 22
+    }
+   ],
+   "among": 358,
+   "text": "Most goals in a first NHL season in the 1940s: Howie Meeker, 1946-47 — 27.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445105,
+     "name": "Gus Bodnar"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445105,
+     "name": "Gus Bodnar",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 50,
+     "G": 22,
+     "A": 40,
+     "P": 62,
+     "PIM": 18,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 20
+    }
+   ],
+   "among": 358,
+   "text": "Most points in a first NHL season in the 1940s: Gus Bodnar, 1943-44 — 62.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan"
+    }
+   ],
+   "seasons": [
+    1948
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan",
+     "season": 1948,
+     "team": "MTL",
+     "GP": 60,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 23,
+     "T": 9,
+     "SO": 10,
+     "GAA": 2.1,
+     "GA": 126
+    }
+   ],
+   "among": 113,
+   "text": "Most shutouts in a season in the 1940s: Bill Durnan, 1948-49 — 10.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449837,
+     "name": "Turk Broda"
+    }
+   ],
+   "seasons": [
+    1940
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449837,
+     "name": "Turk Broda",
+     "season": 1940,
+     "team": "TOR",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 14,
+     "T": 6,
+     "SO": 5,
+     "GAA": 2,
+     "GA": 99
+    }
+   ],
+   "among": 67,
+   "text": "Best goals-against average in a season (40% of games) in the 1940s: Turk Broda, 1940-41 — 2.00.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "gx_gp",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "season": 1949,
+     "team": "CHI",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 22,
+     "L": 38,
+     "T": 10,
+     "SO": 5,
+     "GAA": 3.48571,
+     "GA": 244
+    }
+   ],
+   "among": 113,
+   "text": "Most games by a goalie in a season in the 1940s: Frank Brimsek, 1949-50 — 70.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450027,
+     "name": "Ken McAuley"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450027,
+     "name": "Ken McAuley",
+     "season": 1943,
+     "team": "NYR",
+     "GP": 50,
+     "A": 0,
+     "PIM": 0,
+     "W": 6,
+     "L": 39,
+     "T": 5,
+     "SO": 0,
+     "GAA": 6.24161,
+     "GA": 310
+    }
+   ],
+   "among": 113,
+   "text": "Most losses by a goalie in a season in the 1940s: Ken McAuley, 1943-44 — 39.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers",
+     "season": 1943,
+     "GP": 50,
+     "W": 6,
+     "L": 39,
+     "T": 5,
+     "GF": 162,
+     "GA": 310,
+     "PCT": 0.17
+    }
+   ],
+   "among": 62,
+   "text": "Worst points percentage in a season in the 1940s: New York Rangers, 1943-44 — .170 (6-39-5).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    }
+   ],
+   "seasons": [
+    1940
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1940,
+     "GP": 48,
+     "W": 28,
+     "L": 14,
+     "T": 6,
+     "GF": 145,
+     "GA": 99,
+     "PCT": 0.64583
+    }
+   ],
+   "among": 62,
+   "text": "Fewest goals allowed per game in the 1940s: Toronto Maple Leafs, 1940-41 — 2.06 (99 in 48).",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445098,
+     "name": "Toe Blake"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 9,
+     "G": 7,
+     "A": 11,
+     "P": 18,
+     "PIM": 2,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 31
+    }
+   ],
+   "among": 738,
+   "text": "Most points in a single postseason in the 1940s: Toe Blake, 1943-44 — 18 in 9 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "pogx_so",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450029,
+     "name": "Frank McCool"
+    }
+   ],
+   "seasons": [
+    1944
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450029,
+     "name": "Frank McCool",
+     "season": 1944,
+     "team": "TOR",
+     "GP": 13,
+     "A": 0,
+     "PIM": 0,
+     "W": 8,
+     "L": 5,
+     "T": 0,
+     "SO": 4,
+     "GAA": 2.23085,
+     "GA": 30
+    }
+   ],
+   "among": 46,
+   "text": "Most shutouts in a single postseason in the 1940s: Frank McCool, 1944-45 — 4.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 42,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445098,
+     "name": "Toe Blake"
+    }
+   ],
+   "seasons": [
+    1942,
+    1943,
+    1944,
+    1945
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1942,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 48,
+     "G": 23,
+     "A": 36,
+     "P": 59,
+     "PIM": 26,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 30
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 41,
+     "G": 26,
+     "A": 33,
+     "P": 59,
+     "PIM": 10,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 31
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 49,
+     "G": 29,
+     "A": 38,
+     "P": 67,
+     "PIM": 35,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 32
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1945,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 50,
+     "G": 29,
+     "A": 21,
+     "P": 50,
+     "PIM": 2,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 33
+    }
+   ],
+   "text": "Toe Blake averaged a point a game (60% of games) in 4 straight seasons (1942-43 to 1945-46), the longest run of the 1940s.",
+   "why": "The longest run of the 1940s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1943,
+     "GP": 50,
+     "W": 38,
+     "L": 5,
+     "T": 7,
+     "GF": 234,
+     "GA": 109,
+     "PCT": 0.83
+    }
+   ],
+   "among": 62,
+   "text": "Best points percentage in a season in the 1940s: Montréal Canadiens, 1943-44 — .830 (38-5-7).",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1943,
+     "GP": 50,
+     "W": 38,
+     "L": 5,
+     "T": 7,
+     "GF": 234,
+     "GA": 109,
+     "PCT": 0.83
+    }
+   ],
+   "among": 62,
+   "text": "Most goals per game by a team in the 1940s: Montréal Canadiens, 1943-44 — 4.68 (234 in 50).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1943,
+     "GP": 50,
+     "W": 38,
+     "L": 5,
+     "T": 7,
+     "GF": 234,
+     "GA": 109,
+     "PCT": 0.83
+    }
+   ],
+   "among": 62,
+   "text": "Best goal differential in a season in the 1940s: Montréal Canadiens, 1943-44 — +125.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1944
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 50,
+     "G": 50,
+     "A": 23,
+     "P": 73,
+     "PIM": 46,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 23
+    }
+   ],
+   "among": 1349,
+   "text": "Most goals in a season in the 1940s: Maurice Richard, 1944-45 — 50 in 50 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "x_ppg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1949,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 22,
+     "P": 65,
+     "PIM": 114,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 28
+    }
+   ],
+   "among": 1349,
+   "text": "Most power-play goals in a season in the 1940s: Maurice Richard, 1949-50 — 13.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1946
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1946,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 60,
+     "G": 45,
+     "A": 26,
+     "P": 71,
+     "PIM": 69,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "age": 25
+    }
+   ],
+   "among": 1349,
+   "text": "Most game-winning goals in a season in the 1940s: Maurice Richard, 1946-47 — 10.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1944
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 50,
+     "G": 50,
+     "A": 23,
+     "P": 73,
+     "PIM": 46,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 23
+    }
+   ],
+   "among": 822,
+   "text": "Most goals per game in a season (60% of games) in the 1940s: Maurice Richard, 1944-45 — 1.00.",
+   "why": "The high-water mark of the 1940s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1940s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 9,
+     "G": 12,
+     "A": 5,
+     "P": 17,
+     "PIM": 10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 22
+    }
+   ],
+   "among": 738,
+   "text": "Most goals in a single postseason in the 1940s: Maurice Richard, 1943-44 — 12 in 9 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 51,
+   "kind": "nearmiss",
+   "rule": "n_g29",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5.25,
+   "players": [
+    {
+     "id": 8448223,
+     "name": "Metro Prystai"
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley"
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake"
+    }
+   ],
+   "seasons": [
+    1949,
+    1946,
+    1945
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448223,
+     "name": "Metro Prystai",
+     "season": 1949,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 65,
+     "G": 29,
+     "A": 22,
+     "P": 51,
+     "PIM": 31,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 22
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley",
+     "season": 1946,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 60,
+     "G": 29,
+     "A": 43,
+     "P": 72,
+     "PIM": 12,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 26
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1945,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 50,
+     "G": 29,
+     "A": 21,
+     "P": 50,
+     "PIM": 2,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 33
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 49,
+     "G": 29,
+     "A": 38,
+     "P": 67,
+     "PIM": 35,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 32
+    },
+    {
+     "id": 8447166,
+     "name": "Ted Kennedy",
+     "season": 1944,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 49,
+     "G": 29,
+     "A": 25,
+     "P": 54,
+     "PIM": 14,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 19
+    }
+   ],
+   "text": "5 player-seasons of the 1940s ended on exactly 29 goals, one short of 30 — among them Metro Prystai (1949-50), Max Bentley (1946-47), Toe Blake (1945-46).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 52,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445307,
+     "name": "Herb Cain",
+     "season": 1943,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 49,
+     "G": 36,
+     "A": 46,
+     "P": 82,
+     "PIM": 4,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 31
+    },
+    {
+     "id": 8445333,
+     "name": "Lorne Carr",
+     "season": 1943,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 50,
+     "G": 36,
+     "A": 38,
+     "P": 74,
+     "PIM": 9,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 33
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1942,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 27,
+     "A": 45,
+     "P": 72,
+     "PIM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 30
+    },
+    {
+     "id": 8449068,
+     "name": "Clint Smith",
+     "season": 1943,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 50,
+     "G": 23,
+     "A": 49,
+     "P": 72,
+     "PIM": 4,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 30
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley",
+     "season": 1942,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 47,
+     "G": 26,
+     "A": 44,
+     "P": 70,
+     "PIM": 2,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 22
+    },
+    {
+     "id": 8447902,
+     "name": "Bill Mosienko",
+     "season": 1943,
+     "team": "CHI",
+     "pos": "R",
+     "GP": 50,
+     "G": 32,
+     "A": 38,
+     "P": 70,
+     "PIM": 10,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 36,
+   "kind": "list",
+   "score": 5.05,
+   "players": [
+    {
+     "id": 8445307,
+     "name": "Herb Cain"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "text": "20 players recorded 48 points with 10 or fewer penalty minutes in the 1940s (36 seasons). The most extreme: Herb Cain, 1943-44 — 82 pts, 4 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 53,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley"
+    }
+   ],
+   "seasons": [
+    1942,
+    1943,
+    1944
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1942,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 27,
+     "A": 45,
+     "P": 72,
+     "PIM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 30
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1943,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 36,
+     "G": 30,
+     "A": 41,
+     "P": 71,
+     "PIM": 12,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 31
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1944,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 49,
+     "G": 25,
+     "A": 40,
+     "P": 65,
+     "PIM": 12,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 32
+    }
+   ],
+   "text": "Bill Cowley recorded 60+ points in 3 straight seasons (1942-43 to 1944-45), the longest run of the 1940s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 54,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley"
+    }
+   ],
+   "seasons": [
+    1947,
+    1948,
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1947,
+     "team": "DET",
+     "GP": 60,
+     "A": 0,
+     "PIM": 8,
+     "W": 30,
+     "L": 18,
+     "T": 12,
+     "SO": 7,
+     "GAA": 2.45522,
+     "GA": 147
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1948,
+     "team": "DET",
+     "GP": 60,
+     "A": 0,
+     "PIM": 12,
+     "W": 34,
+     "L": 19,
+     "T": 7,
+     "SO": 6,
+     "GAA": 2.41666,
+     "GA": 145
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1949,
+     "team": "DET",
+     "GP": 63,
+     "A": 0,
+     "PIM": 10,
+     "W": 33,
+     "L": 16,
+     "T": 14,
+     "SO": 7,
+     "GAA": 2.3492,
+     "GA": 148
+    }
+   ],
+   "text": "Harry Lumley won 30+ games in goal in 3 straight seasons (1947-48 to 1949-50), the longest run of the 1940s.",
+   "why": "The longest run of the 1940s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 55,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445062,
+     "name": "Doug Bentley"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445062,
+     "name": "Doug Bentley",
+     "total": 475,
+     "seasons": 9
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "total": 447,
+     "seasons": 10
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 414,
+     "seasons": 8
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley",
+     "total": 386,
+     "seasons": 8
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "total": 386,
+     "seasons": 8
+    }
+   ],
+   "text": "Most points of the 1940s: Doug Bentley, 475 (next: Elmer Lach, 447).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 56,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447271,
+     "name": "Elmer Lach"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "total": 289,
+     "seasons": 10
+    },
+    {
+     "id": 8445062,
+     "name": "Doug Bentley",
+     "total": 281,
+     "seasons": 9
+    },
+    {
+     "id": 8448042,
+     "name": "Buddy O'Connor",
+     "total": 237,
+     "seasons": 9
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "total": 233,
+     "seasons": 7
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "total": 220,
+     "seasons": 8
+    }
+   ],
+   "text": "Most assists of the 1940s: Elmer Lach, 289.",
+   "why": "A decade-long view that settles consistency debates. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 57,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446135,
+     "name": "Pat Egan"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446135,
+     "name": "Pat Egan",
+     "total": 710,
+     "seasons": 9
+    },
+    {
+     "id": 8449184,
+     "name": "Jack Stewart",
+     "total": 646,
+     "seasons": 8
+    },
+    {
+     "id": 8445358,
+     "name": "Murph Chamberlain",
+     "total": 643,
+     "seasons": 9
+    },
+    {
+     "id": 8448257,
+     "name": "Ken Reardon",
+     "total": 604,
+     "seasons": 7
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 529,
+     "seasons": 8
+    }
+   ],
+   "text": "Most penalty minutes of the 1940s: Pat Egan, 710.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 58,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8445062,
+     "name": "Doug Bentley",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 3,
+     "seasons": 3
+    }
+   ],
+   "text": "Most 60-point seasons in the 1940s: Bill Cowley, 4.",
+   "why": "A decade-long view that settles consistency debates. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 59,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449837,
+     "name": "Turk Broda"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449837,
+     "name": "Turk Broda",
+     "total": 35,
+     "seasons": 8
+    },
+    {
+     "id": 8449910,
+     "name": "Bill Durnan",
+     "total": 34,
+     "seasons": 7
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "total": 26,
+     "seasons": 7
+    },
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "total": 24,
+     "seasons": 8
+    },
+    {
+     "id": 8450096,
+     "name": "Chuck Rayner",
+     "total": 20,
+     "seasons": 7
+    }
+   ],
+   "text": "Most shutouts of the 1940s: Turk Broda, 35.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 60,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "total": 423,
+     "seasons": 8
+    },
+    {
+     "id": 8449837,
+     "name": "Turk Broda",
+     "total": 409,
+     "seasons": 8
+    },
+    {
+     "id": 8449910,
+     "name": "Bill Durnan",
+     "total": 383,
+     "seasons": 7
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "total": 325,
+     "seasons": 7
+    },
+    {
+     "id": 8450096,
+     "name": "Chuck Rayner",
+     "total": 286,
+     "seasons": 7
+    }
+   ],
+   "text": "Most games in goal in the 1940s: Frank Brimsek, 423.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 61,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1940,
+     "count": 0
+    },
+    {
+     "season": 1941,
+     "count": 1
+    },
+    {
+     "season": 1942,
+     "count": 2
+    },
+    {
+     "season": 1943,
+     "count": 9
+    },
+    {
+     "season": 1944,
+     "count": 2
+    },
+    {
+     "season": 1945,
+     "count": 2
+    },
+    {
+     "season": 1946,
+     "count": 3
+    },
+    {
+     "season": 1947,
+     "count": 2
+    },
+    {
+     "season": 1948,
+     "count": 0
+    },
+    {
+     "season": 1949,
+     "count": 3
+    }
+   ],
+   "text": "1943-44 had 9 30-goal scorers, the most of any season in the 1940s.",
+   "why": "The peak year for this across the 1940s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 62,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1940,
+     "count": 1
+    },
+    {
+     "season": 1941,
+     "count": 0
+    },
+    {
+     "season": 1942,
+     "count": 6
+    },
+    {
+     "season": 1943,
+     "count": 11
+    },
+    {
+     "season": 1944,
+     "count": 4
+    },
+    {
+     "season": 1945,
+     "count": 1
+    },
+    {
+     "season": 1946,
+     "count": 5
+    },
+    {
+     "season": 1947,
+     "count": 2
+    },
+    {
+     "season": 1948,
+     "count": 2
+    },
+    {
+     "season": 1949,
+     "count": 4
+    }
+   ],
+   "text": "1943-44 had 11 60-point players, the most of any season in the 1940s.",
+   "why": "The peak year for this across the 1940s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 63,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1941
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1940,
+     "count": 1
+    },
+    {
+     "season": 1941,
+     "count": 0
+    },
+    {
+     "season": 1942,
+     "count": 6
+    },
+    {
+     "season": 1943,
+     "count": 11
+    },
+    {
+     "season": 1944,
+     "count": 4
+    },
+    {
+     "season": 1945,
+     "count": 1
+    },
+    {
+     "season": 1946,
+     "count": 5
+    },
+    {
+     "season": 1947,
+     "count": 2
+    },
+    {
+     "season": 1948,
+     "count": 2
+    },
+    {
+     "season": 1949,
+     "count": 4
+    }
+   ],
+   "text": "1941-42 had no 60-point players at all — the only season of the 1940s without one.",
+   "why": "The low point of the 1940s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 64,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1943
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1940,
+     "count": 3
+    },
+    {
+     "season": 1941,
+     "count": 7
+    },
+    {
+     "season": 1942,
+     "count": 15
+    },
+    {
+     "season": 1943,
+     "count": 26
+    },
+    {
+     "season": 1944,
+     "count": 13
+    },
+    {
+     "season": 1945,
+     "count": 7
+    },
+    {
+     "season": 1946,
+     "count": 6
+    },
+    {
+     "season": 1947,
+     "count": 3
+    },
+    {
+     "season": 1948,
+     "count": 3
+    },
+    {
+     "season": 1949,
+     "count": 2
+    }
+   ],
+   "text": "1943-44 had 26 point-a-game players (60% of games), the most of any season in the 1940s.",
+   "why": "The peak year for this across the 1940s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 65,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1949
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1940,
+     "count": 3
+    },
+    {
+     "season": 1941,
+     "count": 7
+    },
+    {
+     "season": 1942,
+     "count": 15
+    },
+    {
+     "season": 1943,
+     "count": 26
+    },
+    {
+     "season": 1944,
+     "count": 13
+    },
+    {
+     "season": 1945,
+     "count": 7
+    },
+    {
+     "season": 1946,
+     "count": 6
+    },
+    {
+     "season": 1947,
+     "count": 3
+    },
+    {
+     "season": 1948,
+     "count": 3
+    },
+    {
+     "season": 1949,
+     "count": 2
+    }
+   ],
+   "text": "1949-50 had just 2 point-a-game players (60% of games), the fewest of any season in the 1940s.",
+   "why": "The low point of the 1940s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448187,
+     "name": "Babe Pratt"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448187,
+     "name": "Babe Pratt",
+     "total": 219,
+     "seasons": 7
+    },
+    {
+     "id": 8446135,
+     "name": "Pat Egan",
+     "total": 208,
+     "seasons": 9
+    },
+    {
+     "id": 8446895,
+     "name": "Flash Hollett",
+     "total": 190,
+     "seasons": 6
+    },
+    {
+     "id": 8445767,
+     "name": "Jack Crawford",
+     "total": 161,
+     "seasons": 10
+    },
+    {
+     "id": 8448235,
+     "name": "Bill Quackenbush",
+     "total": 155,
+     "seasons": 8
+    }
+   ],
+   "text": "Most points by a defenseman in the 1940s: Babe Pratt, 219.",
+   "why": "A decade-long view that settles consistency debates. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449910,
+     "name": "Bill Durnan",
+     "total": 208,
+     "seasons": 7
+    },
+    {
+     "id": 8449837,
+     "name": "Turk Broda",
+     "total": 199,
+     "seasons": 8
+    },
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "total": 188,
+     "seasons": 8
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "total": 163,
+     "seasons": 7
+    },
+    {
+     "id": 8450096,
+     "name": "Chuck Rayner",
+     "total": 97,
+     "seasons": 7
+    }
+   ],
+   "text": "Most goalie wins of the 1940s: Bill Durnan, 208.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 250,
+     "seasons": 8
+    },
+    {
+     "id": 8445062,
+     "name": "Doug Bentley",
+     "total": 194,
+     "seasons": 9
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley",
+     "total": 174,
+     "seasons": 8
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "total": 166,
+     "seasons": 8
+    },
+    {
+     "id": 8447902,
+     "name": "Bill Mosienko",
+     "total": 162,
+     "seasons": 9
+    }
+   ],
+   "text": "Most goals of the 1940s: Maurice Richard, 250 (next: Doug Bentley, 194).",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 41,
+     "seasons": 8
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "total": 33,
+     "seasons": 10
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley",
+     "total": 28,
+     "seasons": 8
+    },
+    {
+     "id": 8445517,
+     "name": "Roy Conacher",
+     "total": 28,
+     "seasons": 7
+    },
+    {
+     "id": 8445349,
+     "name": "Joe Carveth",
+     "total": 25,
+     "seasons": 10
+    }
+   ],
+   "text": "Most game-winning goals of the 1940s: Maurice Richard, 41.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "tt_ppg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 50,
+     "seasons": 8
+    },
+    {
+     "id": 8445063,
+     "name": "Max Bentley",
+     "total": 40,
+     "seasons": 8
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "total": 38,
+     "seasons": 10
+    },
+    {
+     "id": 8445062,
+     "name": "Doug Bentley",
+     "total": 35,
+     "seasons": 9
+    },
+    {
+     "id": 8444857,
+     "name": "Sid Abel",
+     "total": 33,
+     "seasons": 8
+    }
+   ],
+   "text": "Most power-play goals of the 1940s: Maurice Richard, 50.",
+   "why": "A decade-long view that settles consistency debates. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "1940s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8445062,
+     "name": "Doug Bentley",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8445307,
+     "name": "Herb Cain",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8448096,
+     "name": "Lynn Patrick",
+     "total": 1,
+     "seasons": 1
+    },
+    {
+     "id": 8445059,
+     "name": "Joe Benoit",
+     "total": 1,
+     "seasons": 1
+    }
+   ],
+   "text": "Most 30-goal seasons in the 1940s: Maurice Richard, 4.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 72,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1949,
+     "team": "DET",
+     "pos": "L",
+     "GP": 69,
+     "G": 23,
+     "A": 55,
+     "P": 78,
+     "PIM": 141,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 24
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 50,
+     "G": 26,
+     "A": 54,
+     "P": 80,
+     "PIM": 37,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 27
+    },
+    {
+     "id": 8449068,
+     "name": "Clint Smith",
+     "season": 1943,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 50,
+     "G": 23,
+     "A": 49,
+     "P": 72,
+     "PIM": 4,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 30
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "season": 1943,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 48,
+     "G": 24,
+     "A": 48,
+     "P": 72,
+     "PIM": 23,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 26
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1940,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 46,
+     "G": 17,
+     "A": 47,
+     "P": 64,
+     "PIM": 16,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 28
+    },
+    {
+     "id": 8449216,
+     "name": "Billy Taylor Sr.",
+     "season": 1946,
+     "team": "DET",
+     "pos": "C",
+     "GP": 60,
+     "G": 17,
+     "A": 46,
+     "P": 63,
+     "PIM": 35,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 4.375,
+   "players": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay"
+    }
+   ],
+   "seasons": [
+    1949
+   ],
+   "text": "7 players recorded 40 assists with twice as many assists as goals in the 1940s (11 seasons). The most extreme: Ted Lindsay, 1949-50 — 55A, 23G.",
+   "why": "Leads with the most extreme case, which carries the post. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 73,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1944,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 50,
+     "G": 50,
+     "A": 23,
+     "P": 73,
+     "PIM": 46,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 23
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1946,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 60,
+     "G": 45,
+     "A": 26,
+     "P": 71,
+     "PIM": 69,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "age": 25
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1949,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 22,
+     "P": 65,
+     "PIM": 114,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 28
+    },
+    {
+     "id": 8449183,
+     "name": "Gaye Stewart",
+     "season": 1945,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 50,
+     "G": 37,
+     "A": 15,
+     "P": 52,
+     "PIM": 8,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 22
+    },
+    {
+     "id": 8445194,
+     "name": "Mud Bruneteau",
+     "season": 1943,
+     "team": "DET",
+     "pos": "R",
+     "GP": 39,
+     "G": 35,
+     "A": 18,
+     "P": 53,
+     "PIM": 4,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 29
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1949,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 35,
+     "A": 33,
+     "P": 68,
+     "PIM": 69,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1944
+   ],
+   "text": "21 players scored 28 goals with more goals than assists in the 1940s (25 seasons). The most extreme: Maurice Richard, 1944-45 — 50G, 23A.",
+   "why": "Shows how high the bar was across the 1940s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 74,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1940s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1943,
+     "GP": 50,
+     "W": 38,
+     "L": 5,
+     "T": 7,
+     "GF": 234,
+     "GA": 109,
+     "PCT": 0.83
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1944,
+     "GP": 50,
+     "W": 38,
+     "L": 8,
+     "T": 4,
+     "GF": 228,
+     "GA": 121,
+     "PCT": 0.8
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1943,
+     "GP": 50,
+     "W": 19,
+     "L": 26,
+     "T": 5,
+     "GF": 223,
+     "GA": 268,
+     "PCT": 0.43
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1944,
+     "GP": 50,
+     "W": 31,
+     "L": 14,
+     "T": 5,
+     "GF": 218,
+     "GA": 161,
+     "PCT": 0.67
+    },
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1943,
+     "GP": 50,
+     "W": 23,
+     "L": 23,
+     "T": 4,
+     "GF": 214,
+     "GA": 174,
+     "PCT": 0.5
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1943,
+     "GP": 50,
+     "W": 26,
+     "L": 18,
+     "T": 6,
+     "GF": 214,
+     "GA": 177,
+     "PCT": 0.58
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 4.17,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1943
+   ],
+   "text": "5 teams scored 3.8 goals a game in the 1940s (9 seasons). The most extreme: Montréal Canadiens, 1943-44 — 4.68 per game.",
+   "why": "Leads with the most extreme case, which carries the post. Dynasty-level team seasons are what fan bases brag about."
+  }
+ ],
+ "counts": {
+  "skaterSeasons": 1349,
+  "goalieSeasons": 113,
+  "teamSeasons": 62
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:06.922Z"
+}
