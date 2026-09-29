@@ -1709,7 +1709,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1946
+    1946,
+    1947
    ],
    "finder": null,
    "evidence": [
@@ -1730,7 +1731,7 @@
      "count": 1
     }
    ],
-   "text": "1946-47 had no players averaging 25 points (60% of games) at all — one of the seasons of the 1940s without one.",
+   "text": "1946-47 and 1947-48 had no players averaging 25 points (60% of games) at all — the only seasons of the 1940s without one.",
    "why": "The low point of the 1940s for this; a \"what happened that year?\" hook."
   },
   {

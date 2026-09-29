@@ -1,0 +1,77 @@
+Tied season-count corrections, 2026-09-29. A line that crowned one season when two or three tied now names them together ("tied for the most"); four or more tied made no line. MLB lines rewritten in place:
+
+  WAS: 1920 had just 1 25-homer hitters, the fewest of any season in the 1920s.
+  WAS: 1920 had just 9 100-RBI hitters, the fewest of any season in the 1920s.
+  WAS: 1920 had 6 30-steal players, the most of any season in the 1920s.
+  WAS: 1927 had just 2 30-steal players, the fewest of any season in the 1920s.
+  WAS: 1923 had 3 150-strikeout pitchers, the most of any season in the 1920s.
+  WAS: 1921 had no 150-strikeout pitchers at all — one of the seasons of the 1920s without one.
+  NOW: 1920 and 1921 each had just one 25-homer hitter, tied for the fewest of any season in the 1920s.
+  NOW: 1920 and 1922 each had just 9 100-RBI hitters, tied for the fewest of any season in the 1920s.
+  NOW: 1920, 1921 and 1923 each had 6 30-steal players, tied for the most of any season in the 1920s.
+  NOW: 1927 and 1928 each had just 2 30-steal players, tied for the fewest of any season in the 1920s.
+  NOW: 1921 and 1922 had no 150-strikeout pitchers at all — the only seasons of the 1920s without one.
+  WAS: 1933 had no 30-steal players at all — one of the seasons of the 1930s without one.
+  WAS: 1934 had 9 20-game winners, the most of any season in the 1930s.
+  WAS: 1938 had just 2 150-strikeout pitchers, the fewest of any season in the 1930s.
+  NOW: 1933, 1935 and 1938 had no 30-steal players at all — the only seasons of the 1930s without one.
+  NOW: 1934 and 1935 each had 9 20-game winners, tied for the most of any season in the 1930s.
+  NOW: 1938 and 1939 each had just 2 150-strikeout pitchers, tied for the fewest of any season in the 1930s.
+  WAS: 1944 had just 2 25-homer hitters, the fewest of any season in the 1940s.
+  WAS: 1940 had just 1 30-steal players, the fewest of any season in the 1940s.
+  WAS: 1940 had 3 200-hit seasons, the most of any season in the 1940s.
+  WAS: 1941 had just 1 200-hit seasons, the fewest of any season in the 1940s.
+  WAS: 1946 had 7 20-game winners, the most of any season in the 1940s.
+  WAS: 1941 had just 4 20-game winners, the fewest of any season in the 1940s.
+  WAS: 1945 had just 1 150-strikeout pitchers, the fewest of any season in the 1940s.
+  NOW: 1944 and 1945 each had just 2 25-homer hitters, tied for the fewest of any season in the 1940s.
+  NOW: 1946 and 1949 each had 7 20-game winners, tied for the most of any season in the 1940s.
+  NOW: 1941 and 1942 each had just 4 20-game winners, tied for the fewest of any season in the 1940s.
+  NOW: 1945 and 1948 each had just one 150-strikeout pitcher, tied for the fewest of any season in the 1940s.
+  WAS: 1952 had just 14 .300 hitters (500+ PA), the fewest of any season in the 1950s.
+  WAS: 1951 had 2 30-steal players, the most of any season in the 1950s.
+  WAS: 1953 had no 30-steal players at all — one of the seasons of the 1950s without one.
+  NOW: 1952 and 1957 each had just 14 .300 hitters (500+ PA), tied for the fewest of any season in the 1950s.
+  NOW: 1951 and 1958 each had 2 30-steal players, tied for the most of any season in the 1950s.
+  NOW: 1953 and 1955 had no 30-steal players at all — the only seasons of the 1950s without one.
+  WAS: 1961 had just 1 40-steal players, the fewest of any season in the 1960s.
+  NOW: 1961 and 1962 each had just one 40-steal player, tied for the fewest of any season in the 1960s.
+  WAS: 1970 had 19 30-homer hitters, the most of any season in the 1970s.
+  WAS: 1974 had just 4 30-homer hitters, the fewest of any season in the 1970s.
+  WAS: 1973 had just 16 .300 hitters (500+ PA), the fewest of any season in the 1970s.
+  WAS: 1978 had just 5 200-strikeout pitchers, the fewest of any season in the 1970s.
+  NOW: 1970 and 1977 each had 19 30-homer hitters, tied for the most of any season in the 1970s.
+  NOW: 1974 and 1976 each had just 4 30-homer hitters, tied for the fewest of any season in the 1970s.
+  NOW: 1973 and 1978 each had just 16 .300 hitters (500+ PA), tied for the fewest of any season in the 1970s.
+  NOW: 1978 and 1979 each had just 5 200-strikeout pitchers, tied for the fewest of any season in the 1970s.
+  WAS: 1981 had just 1 30-homer hitters, the fewest of any season in the 1980s.
+  NOW: 1981 had just one 30-homer hitter, the fewest of any season in the 1980s.
+  WAS: 1992 had just 10 30-homer hitters, the fewest of any season in the 1990s.
+  WAS: 1996 had 8 200-hit seasons, the most of any season in the 1990s.
+  WAS: 1990 had no 200-hit seasons at all — one of the seasons of the 1990s without one.
+  WAS: 1994 had no 20-game winners at all — one of the seasons of the 1990s without one.
+  WAS: 1994 had just 1 200-strikeout pitchers, the fewest of any season in the 1990s.
+  NOW: 1992 and 1994 each had just 10 30-homer hitters, tied for the fewest of any season in the 1990s.
+  NOW: 1996 and 1998 each had 8 200-hit seasons, tied for the most of any season in the 1990s.
+  NOW: 1990, 1994 and 1995 had no 200-hit seasons at all — the only seasons of the 1990s without one.
+  NOW: 1994 and 1995 had no 20-game winners at all — the only seasons of the 1990s without one.
+  NOW: 1994 had just one 200-strikeout pitcher, the fewest of any season in the 1990s.
+  WAS: 2001 had just 5 40-steal players, the fewest of any season in the 2000s.
+  WAS: 2004 had 8 200-hit seasons, the most of any season in the 2000s.
+  WAS: 2005 had just 3 200-hit seasons, the fewest of any season in the 2000s.
+  WAS: 2006 had no 20-game winners at all — one of the seasons of the 2000s without one.
+  WAS: 2001 had 10 200-strikeout pitchers, the most of any season in the 2000s.
+  NOW: 2001, 2002 and 2004 each had just 5 40-steal players, tied for the fewest of any season in the 2000s.
+  NOW: 2004, 2006 and 2007 each had 8 200-hit seasons, tied for the most of any season in the 2000s.
+  NOW: 2005 and 2008 each had just 3 200-hit seasons, tied for the fewest of any season in the 2000s.
+  NOW: 2006 and 2009 had no 20-game winners at all — the only seasons of the 2000s without one.
+  NOW: 2001, 2008 and 2009 each had 10 200-strikeout pitchers, tied for the most of any season in the 2000s.
+  WAS: 2010 had 8 40-steal players, the most of any season in the 2010s.
+  WAS: 2015 had just 3 40-steal players, the fewest of any season in the 2010s.
+  WAS: 2013 had no 200-hit seasons at all — one of the seasons of the 2010s without one.
+  WAS: 2013 had just 12 200-strikeout pitchers, the fewest of any season in the 2010s.
+  NOW: 2010, 2011 and 2013 each had 8 40-steal players, tied for the most of any season in the 2010s.
+  NOW: 2013 and 2018 had no 200-hit seasons at all — the only seasons of the 2010s without one.
+  NOW: 2013 and 2016 each had just 12 200-strikeout pitchers, tied for the fewest of any season in the 2010s.
+
+NBA and NFL 2000s-2020s were rebuilt with the same rule, so their tied lines were rewritten and reserve lines refilled any dropped slots.

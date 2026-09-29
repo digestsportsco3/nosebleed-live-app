@@ -13,7 +13,7 @@
   2008,
   2009
  ],
- "candidates": 113,
+ "candidates": 112,
  "facts": [
   {
    "n": 1,
@@ -1576,7 +1576,7 @@
     2000,
     2004
    ],
-   "text": "Only two players of the 2000s averaged 9 yards a pass attempted (300+ attempts): Kurt Warner (2000: 9.9 Y/A on 347 att); Peyton Manning (2004: 9.2 Y/A on 497 att).",
+   "text": "Only two players of the 2000s averaged 9 yards a pass attempt (300+ attempts): Kurt Warner (2000: 9.9 Y/A on 347 att); Peyton Manning (2004: 9.2 Y/A on 497 att).",
    "why": "A two-player club is a ready-made debate. Yards per attempt is the deep-ball efficiency number fans love."
   },
   {
@@ -4027,6 +4027,114 @@
   },
   {
    "n": 44,
+   "rule": "rtd15_slow",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson",
+     "pos": "RB",
+     "team": "LAC",
+     "season": 2004,
+     "G": 15,
+     "CMP": 1,
+     "ATT": 2,
+     "PY": 38,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 339,
+     "RY": 1335,
+     "RTD": 17,
+     "REC": 53,
+     "RECY": 441,
+     "RECTD": 1,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0019647",
+     "name": "Shaun Alexander",
+     "pos": "RB",
+     "team": "SEA",
+     "season": 2002,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 295,
+     "RY": 1175,
+     "RTD": 16,
+     "REC": 59,
+     "RECY": 460,
+     "RECTD": 2,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 1,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    },
+    {
+     "id": "00-0024260",
+     "name": "LenDale White",
+     "pos": "RB",
+     "team": "TEN",
+     "season": 2008,
+     "G": 16,
+     "CMP": 0,
+     "ATT": 0,
+     "PY": 0,
+     "PTD": 0,
+     "INT": 0,
+     "CAR": 200,
+     "RY": 773,
+     "RTD": 15,
+     "REC": 5,
+     "RECY": 16,
+     "RECTD": 0,
+     "DSK": 0,
+     "DINT": 0,
+     "TKL": 0,
+     "FGM": 0,
+     "FGA": 0,
+     "FGL": 0
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.326548672566371,
+   "players": [
+    {
+     "id": "00-0020536",
+     "name": "LaDainian Tomlinson"
+    },
+    {
+     "id": "00-0019647",
+     "name": "Shaun Alexander"
+    },
+    {
+     "id": "00-0024260",
+     "name": "LenDale White"
+    }
+   ],
+   "seasons": [
+    2004,
+    2002,
+    2008
+   ],
+   "text": "Just three players of the 2000s ran for 15 touchdowns while averaging under 4 yards a carry: LaDainian Tomlinson (2004: 17 TD, 3.94 ypc); Shaun Alexander (2002: 16 TD, 3.98 ypc); LenDale White (2008: 15 TD, 3.87 ypc).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. A thousand yards the hard way; debate bait about volume vs. efficiency."
+  },
+  {
+   "n": 45,
    "rule": "sack5_int5",
    "group": "P",
    "decade": "2000s",
@@ -4131,10 +4239,10 @@
     2007
    ],
    "text": "Just three players of the 2000s recorded 5 sacks and 5 interceptions: Rodney Harrison (2000: 6 sacks, 6 INT); Shawn Springs (2004: 6 sacks, 5 INT); Brian Urlacher (2007: 5 sacks, 5 INT).",
-   "why": "Few enough to name them all, so readers tag the ones they remember. Sacks and interceptions from one defender make a rare two-way unicorn."
+   "why": "A short list fans can recite; each name brings its own fan base. Sacks and interceptions from one defender make a rare two-way unicorn."
   },
   {
-   "n": 45,
+   "n": 46,
    "kind": "extreme",
    "rule": "x_py",
    "group": "P",
@@ -4179,10 +4287,10 @@
    ],
    "among": 1055,
    "text": "Most passing yards in a season in the 2000s: Drew Brees, 2008 — 5,069.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Passing volume invites then-vs-now arguments about how the game changed."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
-   "n": 46,
+   "n": 47,
    "kind": "extreme",
    "rule": "x_ptd",
    "group": "P",
@@ -4227,10 +4335,10 @@
    ],
    "among": 1055,
    "text": "Most touchdown passes in a season in the 2000s: Tom Brady, 2007 — 50.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 47,
+   "n": 48,
    "kind": "extreme",
    "rule": "x_int",
    "group": "P",
@@ -4275,10 +4383,10 @@
    ],
    "among": 1055,
    "text": "Most interceptions thrown in a season in the 2000s: Brett Favre, 2005 — 29.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Turnover-heavy seasons are the most shared kind of chaos stat."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Turnover-heavy seasons are the most shared kind of chaos stat."
   },
   {
-   "n": 48,
+   "n": 49,
    "kind": "extreme",
    "rule": "x_ry",
    "group": "P",
@@ -4323,10 +4431,10 @@
    ],
    "among": 3173,
    "text": "Most rushing yards in a season in the 2000s: Jamal Lewis, 2003 — 2,063.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse-back seasons are nostalgia content for a position that changed."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
-   "n": 49,
+   "n": 50,
    "kind": "extreme",
    "rule": "x_dsk",
    "group": "P",
@@ -4371,10 +4479,10 @@
    ],
    "among": 3798,
    "text": "Most sacks in a season in the 2000s: Michael Strahan, 2001 — 22.5.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Pass-rush seasons are what defensive fans quote first."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Pass-rush seasons are what defensive fans quote first."
   },
   {
-   "n": 50,
+   "n": 51,
    "kind": "extreme",
    "rule": "x_dint",
    "group": "P",
@@ -4419,10 +4527,10 @@
    ],
    "among": 2482,
    "text": "Most interceptions in a season in the 2000s: Ronde Barber, 2001 — 10.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ball-hawk seasons are the defensive-back debate starter."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Ball-hawk seasons are the defensive-back debate starter."
   },
   {
-   "n": 51,
+   "n": 52,
    "kind": "extreme",
    "rule": "x_cpct_low",
    "group": "P",
@@ -4467,10 +4575,10 @@
    ],
    "among": 161,
    "text": "Lowest completion percentage by a 3,000-yard passer in the 2000s: Eli Manning, 2005 — 52.7%.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Accuracy stats let older passers be compared with modern ones."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Accuracy stats let older passers be compared with modern ones."
   },
   {
-   "n": 52,
+   "n": 53,
    "kind": "extreme",
    "rule": "x_ypc_1000",
    "group": "P",
@@ -4515,10 +4623,10 @@
    ],
    "among": 178,
    "text": "Best yards per carry by a 1,000-yard rusher in the 2000s: Mike Vick, 2006 — 8.4 on 123 carries.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Big-play running efficiency starts debates about who was really best."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Big-play running efficiency starts debates about who was really best."
   },
   {
-   "n": 53,
+   "n": 54,
    "kind": "extreme",
    "rule": "x_sk",
    "group": "P",
@@ -4563,10 +4671,10 @@
    ],
    "among": 1055,
    "text": "Most times sacked in a season in the 2000s: David Carr, 2002 — 76.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Sacks taken shows who got hit, a sympathy and blame angle at once."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Sacks taken shows who got hit, a sympathy and blame angle at once."
   },
   {
-   "n": 54,
+   "n": 55,
    "kind": "extreme",
    "rule": "x_te_rec",
    "group": "P",
@@ -4611,10 +4719,10 @@
    ],
    "among": 1057,
    "text": "Most receiving yards by a tight end in a season in the 2000s: Tony Gonzalez, 2004 — 1,258 on 102 catches.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Tight end production stands out when the position is compared across eras."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Tight end production stands out when the position is compared across eras."
   },
   {
-   "n": 55,
+   "n": 56,
    "kind": "extreme",
    "rule": "x_fgl",
    "group": "P",
@@ -4659,10 +4767,10 @@
    ],
    "among": 387,
    "text": "Longest field goal of the 2000s: 62 yards, Matt Bryant, 2006.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Kicker content is underserved and gets outsized engagement."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Kicker content is underserved and gets outsized engagement."
   },
   {
-   "n": 56,
+   "n": 57,
    "kind": "extreme",
    "rule": "x_scrim",
    "group": "P",
@@ -4707,10 +4815,10 @@
    ],
    "among": 4965,
    "text": "Most yards from scrimmage in a season in the 2000s: Chris Johnson, 2009 — 2,509.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scrimmage yards credit the do-everything back."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Scrimmage yards credit the do-everything back."
   },
   {
-   "n": 57,
+   "n": 58,
    "kind": "extreme",
    "rule": "x_int_rate_low",
    "group": "P",
@@ -4755,10 +4863,10 @@
    ],
    "among": 196,
    "text": "Lowest interception rate in a season (400+ attempts) in the 2000s: Jason Campbell, 2008 — 6 in 506 attempts.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Ball security at volume is the quiet case for an underrated passer."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ball security at volume is the quiet case for an underrated passer."
   },
   {
-   "n": 58,
+   "n": 59,
    "kind": "extreme",
    "rule": "x_qb_ry",
    "group": "P",
@@ -4803,10 +4911,10 @@
    ],
    "among": 783,
    "text": "Most rushing yards by a quarterback in a season in the 2000s: Mike Vick, 2006 — 1,039.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dual-threat quarterbacks are an evergreen debate."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Dual-threat quarterbacks are an evergreen debate."
   },
   {
-   "n": 59,
+   "n": 60,
    "kind": "extreme",
    "rule": "x_fum",
    "group": "P",
@@ -4851,10 +4959,10 @@
    ],
    "among": 3083,
    "text": "Most fumbles in a season in the 2000s: Kerry Collins, 2001 — 23.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Ball-security failures are the stats fan bases never forget."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ball-security failures are the stats fan bases never forget."
   },
   {
-   "n": 60,
+   "n": 61,
    "kind": "extreme",
    "rule": "x_wr_ry",
    "group": "P",
@@ -4899,10 +5007,10 @@
    ],
    "among": 1903,
    "text": "Most rushing yards by a wide receiver in a season in the 2000s: Josh Cribbs, 2009 — 381.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Scoring volume plus efficiency is the complete-back case."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Scoring volume plus efficiency is the complete-back case."
   },
   {
-   "n": 61,
+   "n": 62,
    "kind": "extreme",
    "rule": "x_rb_recy",
    "group": "P",
@@ -4947,10 +5055,10 @@
    ],
    "among": 1407,
    "text": "Most receiving yards by a running back in a season in the 2000s: Charlie Garner, 2002 — 941.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Pass-catching backs were ahead of their time; fans love the forerunners."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Pass-catching backs were ahead of their time; fans love the forerunners."
   },
   {
-   "n": 62,
+   "n": 63,
    "kind": "extreme",
    "rule": "x_ptd_lowcmp",
    "group": "P",
@@ -4995,10 +5103,10 @@
    ],
    "among": 85,
    "text": "Most touchdown passes by a sub-60% passer in the 2000s: Jake Delhomme, 2004 — 29 TD at 58.2%.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Touchdown-pass seasons are the quarterback currency every fan base argues over."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
-   "n": 63,
+   "n": 64,
    "kind": "extreme",
    "rule": "x_kry",
    "group": "P",
@@ -5043,10 +5151,10 @@
    ],
    "among": 2170,
    "text": "Most kickoff return yards in a season in the 2000s: MarTay Jenkins, 2000 — 2,166.",
-   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Return average shows the players who flipped field position."
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Return average shows the players who flipped field position."
   },
   {
-   "n": 64,
+   "n": 65,
    "kind": "extreme",
    "rule": "x_tkl",
    "group": "P",
@@ -5091,10 +5199,10 @@
    ],
    "among": 13980,
    "text": "Most tackles in a season in the 2000s: Patrick Willis, 2007 — 159.",
-   "why": "The most extreme season of the decade; fans compare it with today's numbers. Tackle totals put linebackers in the spotlight."
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Tackle totals put linebackers in the spotlight."
   },
   {
-   "n": 65,
+   "n": 66,
    "kind": "nearmiss",
    "rule": "sk95",
    "group": "P",
@@ -5273,10 +5381,10 @@
     }
    ],
    "text": "20 player-seasons of the 2000s ended on 9.5 sacks, half a sack short of 10 — among them Michael Strahan (2000), Bryant Young (2000), Corey Simon (2000).",
-   "why": "So-close stats get shared: fans love a round number missed by a hair."
+   "why": "A near miss is a story; fans wonder what one more game would have done."
   },
   {
-   "n": 66,
+   "n": 67,
    "kind": "nearmiss",
    "rule": "recy999",
    "group": "P",
@@ -5405,10 +5513,10 @@
     }
    ],
    "text": "4 player-seasons of the 2000s ended on between 990 and 999 receiving yards, just shy of 1,000 — among them Deion Branch (2005), Dwayne Bowe (2007), Bill Schroeder (2000).",
-   "why": "A near miss is a story; fans wonder what one more game would have done."
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 67,
+   "n": 68,
    "kind": "total",
    "rule": "t_recy",
    "group": "P",
@@ -5455,10 +5563,10 @@
     }
    ],
    "text": "Most receiving yards of the 2000s: Torry Holt, 12,594.",
-   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Receiving yardage seasons anchor every receiver ranking."
+   "why": "A decade-long view that settles consistency debates. Receiving yardage seasons anchor every receiver ranking."
   },
   {
-   "n": 68,
+   "n": 69,
    "kind": "total",
    "rule": "t_dsk",
    "group": "P",
@@ -5505,10 +5613,10 @@
     }
    ],
    "text": "Most sacks of the 2000s: Jason Taylor, 109.",
-   "why": "A decade-long view that settles consistency debates."
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget."
   },
   {
-   "n": 69,
+   "n": 70,
    "kind": "total",
    "rule": "t_dint",
    "group": "P",
@@ -5555,10 +5663,10 @@
     }
    ],
    "text": "Most interceptions of the 2000s: Darren Sharper, 58.",
-   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Ball-hawk seasons are the defensive-back debate starter."
+   "why": "A decade-long view that settles consistency debates. Ball-hawk seasons are the defensive-back debate starter."
   },
   {
-   "n": 70,
+   "n": 71,
    "kind": "total",
    "rule": "t_fgm",
    "group": "P",
@@ -5605,10 +5713,10 @@
     }
    ],
    "text": "Most field goals of the 2000s: Matt Stover, 269.",
-   "why": "A decade-long view that settles consistency debates. Kicker content is underserved and gets outsized engagement."
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Kicker content is underserved and gets outsized engagement."
   },
   {
-   "n": 71,
+   "n": 72,
    "kind": "season",
    "rule": "c_py4000_most",
    "group": "P",
@@ -5665,63 +5773,6 @@
    "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
-   "n": 72,
-   "kind": "season",
-   "rule": "c_py4000_least",
-   "group": "P",
-   "decade": "2000s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2000
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2000,
-     "count": 2
-    },
-    {
-     "season": 2001,
-     "count": 2
-    },
-    {
-     "season": 2002,
-     "count": 4
-    },
-    {
-     "season": 2003,
-     "count": 2
-    },
-    {
-     "season": 2004,
-     "count": 5
-    },
-    {
-     "season": 2005,
-     "count": 2
-    },
-    {
-     "season": 2006,
-     "count": 5
-    },
-    {
-     "season": 2007,
-     "count": 7
-    },
-    {
-     "season": 2008,
-     "count": 6
-    },
-    {
-     "season": 2009,
-     "count": 10
-    }
-   ],
-   "text": "2000 had just 2 4,000-yard passers, the fewest of any season in the 2000s.",
-   "why": "The low point of the 2000s for this; a \"what happened that year?\" hook. Passing volume invites then-vs-now arguments about how the game changed."
-  },
-  {
    "n": 73,
    "kind": "season",
    "rule": "c_ry1000_most",
@@ -5730,7 +5781,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2000
+    2000,
+    2006
    ],
    "finder": null,
    "evidence": [
@@ -5775,7 +5827,7 @@
      "count": 15
     }
    ],
-   "text": "2000 had 23 1,000-yard rushers, the most of any season in the 2000s.",
+   "text": "2000 and 2006 each had 23 1,000-yard rushers, tied for the most of any season in the 2000s.",
    "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
@@ -5787,7 +5839,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2001
+    2001,
+    2009
    ],
    "finder": null,
    "evidence": [
@@ -5832,7 +5885,7 @@
      "count": 15
     }
    ],
-   "text": "2001 had just 15 1,000-yard rushers, the fewest of any season in the 2000s.",
+   "text": "2001 and 2009 each had just 15 1,000-yard rushers, tied for the fewest of any season in the 2000s.",
    "why": "The low point of the 2000s for this; a \"what happened that year?\" hook. Workhorse-back seasons are nostalgia content for a position that changed."
   },
   {
@@ -6072,7 +6125,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2004
+    2004,
+    2007,
+    2009
    ],
    "finder": null,
    "evidence": [
@@ -6117,7 +6172,7 @@
      "count": 4
     }
    ],
-   "text": "2004 had 4 30-touchdown passers, the most of any season in the 2000s.",
+   "text": "2004, 2007 and 2009 each had 4 30-touchdown passers, tied for the most of any season in the 2000s.",
    "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {
@@ -6186,7 +6241,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2004
+    2004,
+    2007
    ],
    "finder": null,
    "evidence": [
@@ -6231,7 +6287,7 @@
      "count": 9
     }
    ],
-   "text": "2004 had 11 10-touchdown receivers, the most of any season in the 2000s.",
+   "text": "2004 and 2007 each had 11 10-touchdown receivers, tied for the most of any season in the 2000s.",
    "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Touchdown catches are the red-zone threat stat."
   },
   {
@@ -6243,7 +6299,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2001
+    2001,
+    2002
    ],
    "finder": null,
    "evidence": [
@@ -6288,7 +6345,7 @@
      "count": 9
     }
    ],
-   "text": "2001 had just 4 10-touchdown receivers, the fewest of any season in the 2000s.",
+   "text": "2001 and 2002 each had just 4 10-touchdown receivers, tied for the fewest of any season in the 2000s.",
    "why": "The low point of the 2000s for this; a \"what happened that year?\" hook. Touchdown catches are the red-zone threat stat."
   },
   {
@@ -6300,7 +6357,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2001
+    2001,
+    2007,
+    2009
    ],
    "finder": null,
    "evidence": [
@@ -6345,7 +6404,7 @@
      "count": 6
     }
    ],
-   "text": "2001 had 6 100-catch players, the most of any season in the 2000s.",
+   "text": "2001, 2007 and 2009 each had 6 100-catch players, tied for the most of any season in the 2000s.",
    "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Catch totals put possession receivers in the spotlight."
   },
   {
@@ -6357,7 +6416,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2004
+    2004,
+    2006
    ],
    "finder": null,
    "evidence": [
@@ -6402,7 +6462,7 @@
      "count": 6
     }
    ],
-   "text": "2004 had just one 100-catch player, the fewest of any season in the 2000s.",
+   "text": "2004 and 2006 each had just one 100-catch player, tied for the fewest of any season in the 2000s.",
    "why": "The low point of the 2000s for this; a \"what happened that year?\" hook. Catch totals put possession receivers in the spotlight."
   },
   {

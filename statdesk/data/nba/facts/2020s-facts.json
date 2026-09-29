@@ -19,7 +19,7 @@
   "2024-25",
   "2025-26"
  ],
- "candidates": 115,
+ "candidates": 114,
  "facts": [
   {
    "n": 1,
@@ -5412,7 +5412,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2020
+    2020,
+    2021
    ],
    "finder": null,
    "evidence": [
@@ -5441,7 +5442,7 @@
      "count": 8
     }
    ],
-   "text": "2020-21 had 15 players averaging 10 rebounds (60% of games), the most of any season in the 2020s.",
+   "text": "2020-21 and 2021-22 each had 15 players averaging 10 rebounds (60% of games), tied for the most of any season in the 2020s.",
    "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
   },
   {
@@ -5529,43 +5530,43 @@
   {
    "n": 79,
    "kind": "season",
-   "rule": "c_30_least",
+   "rule": "c_2spg_most",
    "group": "P",
    "decade": "2020s",
    "score": 5,
    "players": [],
    "seasons": [
-    2020
+    2023
    ],
    "finder": null,
    "evidence": [
     {
      "season": 2020,
-     "count": 2
+     "count": 1
     },
     {
      "season": 2021,
-     "count": 2
+     "count": 1
     },
     {
      "season": 2022,
-     "count": 6
+     "count": 0
     },
     {
      "season": 2023,
-     "count": 3
+     "count": 2
     },
     {
      "season": 2024,
-     "count": 2
+     "count": 1
     },
     {
      "season": 2025,
-     "count": 2
+     "count": 1
     }
    ],
-   "text": "2020-21 had just 2 30-point scorers, the fewest of any season in the 2020s.",
-   "why": "The low point of the 2020s for this; a \"what happened that year?\" hook."
+   "text": "2023-24 had 2 players averaging 2 steals (60% of games), the most of any season in the 2020s.",
+   "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Steals are the defensive highlight stat."
   },
   {
    "n": 80,
@@ -5790,47 +5791,6 @@
   {
    "n": 83,
    "kind": "season",
-   "rule": "c_2spg_most",
-   "group": "P",
-   "decade": "2020s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    2023
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 2020,
-     "count": 1
-    },
-    {
-     "season": 2021,
-     "count": 1
-    },
-    {
-     "season": 2022,
-     "count": 0
-    },
-    {
-     "season": 2023,
-     "count": 2
-    },
-    {
-     "season": 2024,
-     "count": 1
-    },
-    {
-     "season": 2025,
-     "count": 1
-    }
-   ],
-   "text": "2023-24 had 2 players averaging 2 steals (60% of games), the most of any season in the 2020s.",
-   "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Steals are the defensive highlight stat."
-  },
-  {
-   "n": 84,
-   "kind": "season",
    "rule": "c_2spg_least",
    "group": "P",
    "decade": "2020s",
@@ -5870,7 +5830,7 @@
    "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Steals are the defensive highlight stat."
   },
   {
-   "n": 85,
+   "n": 84,
    "kind": "season",
    "rule": "c_2bpg_most",
    "group": "P",
@@ -5911,7 +5871,7 @@
    "why": "The peak year for this across the 2020s; fans can argue why that season stood out. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 86,
+   "n": 85,
    "kind": "season",
    "rule": "c_2bpg_least",
    "group": "P",
@@ -5950,6 +5910,47 @@
    ],
    "text": "2025-26 had just one player averaging 2 blocks (60% of games), the fewest of any season in the 2020s.",
    "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 86,
+   "kind": "season",
+   "rule": "c_150_3s_most",
+   "group": "P",
+   "decade": "2020s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2024
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2020,
+     "count": 36
+    },
+    {
+     "season": 2021,
+     "count": 57
+    },
+    {
+     "season": 2022,
+     "count": 52
+    },
+    {
+     "season": 2023,
+     "count": 55
+    },
+    {
+     "season": 2024,
+     "count": 60
+    },
+    {
+     "season": 2025,
+     "count": 49
+    }
+   ],
+   "text": "2024-25 had 60 players with 150+ threes, the most of any season in the 2020s.",
+   "why": "The peak year for this across the 2020s; fans can argue why that season stood out."
   },
   {
    "n": 87,

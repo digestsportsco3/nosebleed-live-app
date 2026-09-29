@@ -23,7 +23,7 @@
   "1958-59",
   "1959-60"
  ],
- "candidates": 79,
+ "candidates": 78,
  "facts": [
   {
    "n": 1,
@@ -3687,7 +3687,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1952
+    1952,
+    1953,
+    1954
    ],
    "finder": null,
    "evidence": [
@@ -3732,7 +3734,7 @@
      "count": 4
     }
    ],
-   "text": "1952-53 had no players averaging 25 points (60% of games) at all — one of the seasons of the 1950s without one.",
+   "text": "1952-53, 1953-54 and 1954-55 had no players averaging 25 points (60% of games) at all — the only seasons of the 1950s without one.",
    "why": "The low point of the 1950s for this; a \"what happened that year?\" hook."
   },
   {
@@ -3915,7 +3917,12 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1950
+    1950,
+    1952,
+    1953,
+    1954,
+    1955,
+    1959
    ],
    "finder": null,
    "evidence": [
@@ -3960,68 +3967,11 @@
      "count": 0
     }
    ],
-   "text": "1950-51 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1950s without one.",
+   "text": "1950-51 had no .900 free-throw shooters (200+ FTA) at all — one of 6 seasons of the 1950s without one.",
    "why": "The low point of the 1950s for this; a \"what happened that year?\" hook. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 56,
-   "kind": "season",
-   "rule": "c_10apg_most",
-   "group": "P",
-   "decade": "1950s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1951
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1950,
-     "count": 0
-    },
-    {
-     "season": 1951,
-     "count": 1
-    },
-    {
-     "season": 1952,
-     "count": 0
-    },
-    {
-     "season": 1953,
-     "count": 0
-    },
-    {
-     "season": 1954,
-     "count": 0
-    },
-    {
-     "season": 1955,
-     "count": 1
-    },
-    {
-     "season": 1956,
-     "count": 0
-    },
-    {
-     "season": 1957,
-     "count": 0
-    },
-    {
-     "season": 1958,
-     "count": 1
-    },
-    {
-     "season": 1959,
-     "count": 1
-    }
-   ],
-   "text": "1951-52 had one 8-assist player, the most of any season in the 1950s.",
-   "why": "The peak year for this across the 1950s; fans can argue why that season stood out. Assist averages crown the true point guards."
-  },
-  {
-   "n": 57,
    "kind": "season",
    "rule": "c_10apg_least",
    "group": "P",
@@ -4029,7 +3979,12 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1950
+    1950,
+    1952,
+    1953,
+    1954,
+    1956,
+    1957
    ],
    "finder": null,
    "evidence": [
@@ -4074,11 +4029,11 @@
      "count": 1
     }
    ],
-   "text": "1950-51 had no 8-assist players at all — one of the seasons of the 1950s without one.",
+   "text": "1950-51 had no 8-assist players at all — one of 6 seasons of the 1950s without one.",
    "why": "The low point of the 1950s for this; a \"what happened that year?\" hook. Assist averages crown the true point guards."
   },
   {
-   "n": 58,
+   "n": 57,
    "kind": "season",
    "rule": "c_20_most",
    "group": "P",
@@ -4135,7 +4090,7 @@
    "why": "The peak year for this across the 1950s; fans can argue why that season stood out."
   },
   {
-   "n": 59,
+   "n": 58,
    "kind": "season",
    "rule": "c_20_least",
    "group": "P",
@@ -4192,7 +4147,7 @@
    "why": "The low point of the 1950s for this; a \"what happened that year?\" hook."
   },
   {
-   "n": 60,
+   "n": 59,
    "kind": "season",
    "rule": "c_10rpg_most",
    "group": "P",
@@ -4249,7 +4204,7 @@
    "why": "The peak year for this across the 1950s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 61,
+   "n": 60,
    "kind": "season",
    "rule": "c_10rpg_least",
    "group": "P",
@@ -4257,7 +4212,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1950
+    1950,
+    1953
    ],
    "finder": null,
    "evidence": [
@@ -4302,11 +4258,11 @@
      "count": 14
     }
    ],
-   "text": "1950-51 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 1950s.",
+   "text": "1950-51 and 1953-54 each had just 7 players averaging 10 rebounds (60% of games), tied for the fewest of any season in the 1950s.",
    "why": "The low point of the 1950s for this; a \"what happened that year?\" hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 62,
+   "n": 61,
    "kind": "season",
    "rule": "c_30_most",
    "group": "P",
@@ -4363,7 +4319,7 @@
    "why": "The peak year for this across the 1950s; fans can argue why that season stood out."
   },
   {
-   "n": 63,
+   "n": 62,
    "kind": "season",
    "rule": "c_30_least",
    "group": "P",
@@ -4371,7 +4327,15 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1950
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958
    ],
    "finder": null,
    "evidence": [
@@ -4416,8 +4380,65 @@
      "count": 2
     }
    ],
-   "text": "1950-51 had no 30-point scorers at all — one of the seasons of the 1950s without one.",
+   "text": "1950-51 had no 30-point scorers at all — one of 9 seasons of the 1950s without one.",
    "why": "The low point of the 1950s for this; a \"what happened that year?\" hook."
+  },
+  {
+   "n": 63,
+   "kind": "season",
+   "rule": "c_20rpg_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 0
+    },
+    {
+     "season": 1951,
+     "count": 0
+    },
+    {
+     "season": 1952,
+     "count": 0
+    },
+    {
+     "season": 1953,
+     "count": 0
+    },
+    {
+     "season": 1954,
+     "count": 0
+    },
+    {
+     "season": 1955,
+     "count": 0
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 1
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 2
+    }
+   ],
+   "text": "1959-60 had 2 20-rebound players, the most of any season in the 1950s.",
+   "why": "The peak year for this across the 1950s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 64,
@@ -4572,70 +4593,19 @@
   {
    "n": 67,
    "kind": "season",
-   "rule": "c_20rpg_most",
-   "group": "P",
-   "decade": "1950s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1959
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1950,
-     "count": 0
-    },
-    {
-     "season": 1951,
-     "count": 0
-    },
-    {
-     "season": 1952,
-     "count": 0
-    },
-    {
-     "season": 1953,
-     "count": 0
-    },
-    {
-     "season": 1954,
-     "count": 0
-    },
-    {
-     "season": 1955,
-     "count": 0
-    },
-    {
-     "season": 1956,
-     "count": 0
-    },
-    {
-     "season": 1957,
-     "count": 1
-    },
-    {
-     "season": 1958,
-     "count": 1
-    },
-    {
-     "season": 1959,
-     "count": 2
-    }
-   ],
-   "text": "1959-60 had 2 20-rebound players, the most of any season in the 1950s.",
-   "why": "The peak year for this across the 1950s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
-  },
-  {
-   "n": 68,
-   "kind": "season",
    "rule": "c_20rpg_least",
    "group": "P",
    "decade": "1950s",
    "score": 5,
    "players": [],
    "seasons": [
-    1950
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956
    ],
    "finder": null,
    "evidence": [
@@ -4680,11 +4650,11 @@
      "count": 2
     }
    ],
-   "text": "1950-51 had no 20-rebound players at all — one of the seasons of the 1950s without one.",
+   "text": "1950-51 had no 20-rebound players at all — one of 7 seasons of the 1950s without one.",
    "why": "The low point of the 1950s for this; a \"what happened that year?\" hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 69,
+   "n": 68,
    "kind": "total",
    "rule": "t_ftm",
    "group": "P",
@@ -4731,10 +4701,10 @@
     }
    ],
    "text": "Most free throws made in the 1950s: Dolph Schayes, 5,143.",
-   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Free-throw accuracy is the shooter's purest stat."
+   "why": "A decade-long view that settles consistency debates. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 70,
+   "n": 69,
    "kind": "total",
    "rule": "t_gp",
    "group": "P",
@@ -4781,10 +4751,10 @@
     }
    ],
    "text": "Most games played in the 1950s: Dolph Schayes, 707.",
-   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 71,
+   "n": 70,
    "kind": "total",
    "rule": "t_min",
    "group": "P",
@@ -4831,10 +4801,10 @@
     }
    ],
    "text": "Most minutes of the 1950s: Bob Cousy, 23,574.",
-   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workload numbers from past eras astonish fans used to load management."
+   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 72,
+   "n": 71,
    "kind": "nearmiss",
    "rule": "rpg99",
    "group": "P",
@@ -4929,10 +4899,10 @@
     }
    ],
    "text": "3 player-seasons of the 1950s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Joe Graboski (1951-52), George Yardley (1954-55), Charlie Share (1954-55).",
-   "why": "A near miss is a story; fans wonder what one more game would have done."
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 73,
+   "n": 72,
    "rule": "reb_1000",
    "group": "P",
    "decade": "1950s",
@@ -5084,10 +5054,10 @@
     1959
    ],
    "text": "10 players grabbed 1,000 rebounds in a season in the 1950s (22 seasons). The most extreme: Wilt Chamberlain, 1959-60 — 1,941 reb.",
-   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
+   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 74,
+   "n": 73,
    "kind": "nearmiss",
    "rule": "ppg249",
    "group": "P",
@@ -5155,10 +5125,10 @@
     }
    ],
    "text": "2 player-seasons of the 1950s ended on a 24.9 scoring average, a tenth short of 25 — among them Dolph Schayes (1957-58), Elgin Baylor (1958-59).",
-   "why": "A near miss is a story; fans wonder what one more game would have done."
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 75,
+   "n": 74,
    "rule": "mpg_42",
    "group": "P",
    "decade": "1950s",
@@ -5310,10 +5280,10 @@
     1959
    ],
    "text": "7 players averaged 42+ minutes a game (60% of games) in the 1950s (9 seasons). The most extreme: Wilt Chamberlain, 1959-60 — 46.4 mpg.",
-   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Workload numbers from past eras astonish fans used to load management."
+   "why": "Leads with the most extreme case, which carries the post. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 76,
+   "n": 75,
    "rule": "reb_over_pts",
    "group": "P",
    "decade": "1950s",
@@ -5465,10 +5435,10 @@
     1958
    ],
    "text": "17 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1950s (28 seasons). The most extreme: Bill Russell, 1958-59 — 1,612 reb, 1,168 pts.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 77,
+   "n": 76,
    "rule": "pf_300",
    "group": "P",
    "decade": "1950s",
@@ -5620,10 +5590,10 @@
     1952
    ],
    "text": "12 players committed 300 personal fouls in a season in the 1950s (16 seasons). The most extreme: Don Meineke, 1952-53 — 334 PF.",
-   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Foul-trouble seasons are an oddity fans love to share."
+   "why": "Leads with the most extreme case, which carries the post. Foul-trouble seasons are an oddity fans love to share."
   },
   {
-   "n": 78,
+   "n": 77,
    "rule": "score_no_pass",
    "group": "P",
    "decade": "1950s",
@@ -5775,10 +5745,10 @@
     1957
    ],
    "text": "5 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 1950s (8 seasons). The most extreme: George Yardley, 1957-58 — 27.8 ppg, 1.3 apg.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 79,
+   "n": 78,
    "rule": "volume_misses",
    "group": "P",
    "decade": "1950s",
@@ -5930,7 +5900,7 @@
     1959
    ],
    "text": "17 players shot under .430 on 1,200+ attempts in the 1950s (43 seasons). The most extreme: Jack Twyman, 1959-60 — .422 on 2,063 FGA.",
-   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Shot volume invites the gunner debate."
+   "why": "Leads with the most extreme case, which carries the post. Shot volume invites the gunner debate."
   }
  ],
  "counts": {

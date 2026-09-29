@@ -5725,7 +5725,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1987
+    1987,
+    1988
    ],
    "finder": null,
    "evidence": [
@@ -5770,7 +5771,7 @@
      "count": 7
     }
    ],
-   "text": "1987-88 had 9 players averaging 25 points (60% of games), the most of any season in the 1980s.",
+   "text": "1987-88 and 1988-89 each had 9 players averaging 25 points (60% of games), tied for the most of any season in the 1980s.",
    "why": "The peak year for this across the 1980s; fans can argue why that season stood out."
   },
   {
@@ -5782,7 +5783,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1981
+    1981,
+    1982
    ],
    "finder": null,
    "evidence": [
@@ -5827,7 +5829,7 @@
      "count": 7
     }
    ],
-   "text": "1981-82 had just 4 players averaging 25 points (60% of games), the fewest of any season in the 1980s.",
+   "text": "1981-82 and 1982-83 each had just 4 players averaging 25 points (60% of games), tied for the fewest of any season in the 1980s.",
    "why": "The low point of the 1980s for this; a \"what happened that year?\" hook."
   },
   {
@@ -5839,7 +5841,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1987
+    1987,
+    1989
    ],
    "finder": null,
    "evidence": [
@@ -5884,7 +5887,7 @@
      "count": 5
     }
    ],
-   "text": "1987-88 had 5 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1980s.",
+   "text": "1987-88 and 1989-90 each had 5 players averaging 20 points and 10 rebounds (60% of games), tied for the most of any season in the 1980s.",
    "why": "The peak year for this across the 1980s; fans can argue why that season stood out."
   },
   {
@@ -5896,7 +5899,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1980
+    1980,
+    1981,
+    1985
    ],
    "finder": null,
    "evidence": [
@@ -5941,7 +5946,7 @@
      "count": 5
     }
    ],
-   "text": "1980-81 had just 3 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1980s.",
+   "text": "1980-81, 1981-82 and 1985-86 each had just 3 players averaging 20 points and 10 rebounds (60% of games), tied for the fewest of any season in the 1980s.",
    "why": "The low point of the 1980s for this; a \"what happened that year?\" hook."
   },
   {
@@ -6010,7 +6015,11 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1981
+    1981,
+    1982,
+    1983,
+    1984,
+    1985
    ],
    "finder": null,
    "evidence": [
@@ -6055,7 +6064,7 @@
      "count": 4
     }
    ],
-   "text": "1981-82 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1980s without one.",
+   "text": "1981-82 had no .900 free-throw shooters (200+ FTA) at all — one of 5 seasons of the 1980s without one.",
    "why": "The low point of the 1980s for this; a \"what happened that year?\" hook. Free-throw accuracy is the shooter's purest stat."
   },
   {
@@ -6067,7 +6076,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1985
+    1985,
+    1988
    ],
    "finder": null,
    "evidence": [
@@ -6112,7 +6122,7 @@
      "count": 9
     }
    ],
-   "text": "1985-86 had 10 8-assist players, the most of any season in the 1980s.",
+   "text": "1985-86 and 1988-89 each had 10 8-assist players, tied for the most of any season in the 1980s.",
    "why": "The peak year for this across the 1980s; fans can argue why that season stood out. Assist averages crown the true point guards."
   },
   {
@@ -6124,7 +6134,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1980
+    1980,
+    1981
    ],
    "finder": null,
    "evidence": [
@@ -6169,7 +6180,7 @@
      "count": 9
     }
    ],
-   "text": "1980-81 had just 3 8-assist players, the fewest of any season in the 1980s.",
+   "text": "1980-81 and 1981-82 each had just 3 8-assist players, tied for the fewest of any season in the 1980s.",
    "why": "The low point of the 1980s for this; a \"what happened that year?\" hook. Assist averages crown the true point guards."
   },
   {
@@ -6181,7 +6192,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1984
+    1984,
+    1986
    ],
    "finder": null,
    "evidence": [
@@ -6226,7 +6238,7 @@
      "count": 26
     }
    ],
-   "text": "1984-85 had 28 players averaging 20 points (60% of games), the most of any season in the 1980s.",
+   "text": "1984-85 and 1986-87 each had 28 players averaging 20 points (60% of games), tied for the most of any season in the 1980s.",
    "why": "The peak year for this across the 1980s; fans can argue why that season stood out."
   },
   {
@@ -6238,7 +6250,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1980
+    1980,
+    1981
    ],
    "finder": null,
    "evidence": [
@@ -6283,7 +6296,7 @@
      "count": 26
     }
    ],
-   "text": "1980-81 had just 19 players averaging 20 points (60% of games), the fewest of any season in the 1980s.",
+   "text": "1980-81 and 1981-82 each had just 19 players averaging 20 points (60% of games), tied for the fewest of any season in the 1980s.",
    "why": "The low point of the 1980s for this; a \"what happened that year?\" hook."
   },
   {
@@ -6295,7 +6308,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1982
+    1982,
+    1986
    ],
    "finder": null,
    "evidence": [
@@ -6340,7 +6354,7 @@
      "count": 11
     }
    ],
-   "text": "1982-83 had 13 players averaging 10 rebounds (60% of games), the most of any season in the 1980s.",
+   "text": "1982-83 and 1986-87 each had 13 players averaging 10 rebounds (60% of games), tied for the most of any season in the 1980s.",
    "why": "The peak year for this across the 1980s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
   },
   {

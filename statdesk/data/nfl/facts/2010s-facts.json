@@ -3070,7 +3070,7 @@
     2011,
     2013
    ],
-   "text": "Just three players of the 2010s averaged 9 yards a pass attempted (300+ attempts): Matt Ryan (2016: 9.3 Y/A on 534 att); Aaron Rodgers (2011: 9.3 Y/A on 501 att); Nick Foles (2013: 9.1 Y/A on 317 att).",
+   "text": "Just three players of the 2010s averaged 9 yards a pass attempt (300+ attempts): Matt Ryan (2016: 9.3 Y/A on 534 att); Aaron Rodgers (2011: 9.3 Y/A on 501 att); Nick Foles (2013: 9.1 Y/A on 317 att).",
    "why": "A short list fans can recite; each name brings its own fan base. Yards per attempt is the deep-ball efficiency number fans love."
   },
   {
@@ -7578,7 +7578,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2015
+    2015,
+    2016
    ],
    "finder": null,
    "evidence": [
@@ -7623,7 +7624,7 @@
      "count": 18
     }
    ],
-   "text": "2015 had just 16 10-sack players, the fewest of any season in the 2010s.",
+   "text": "2015 and 2016 each had just 16 10-sack players, tied for the fewest of any season in the 2010s.",
    "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Pass-rush seasons are what defensive fans quote first."
   },
   {
@@ -7806,7 +7807,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2017
+    2017,
+    2019
    ],
    "finder": null,
    "evidence": [
@@ -7851,7 +7853,7 @@
      "count": 3
     }
    ],
-   "text": "2017 had just 3 10-touchdown receivers, the fewest of any season in the 2010s.",
+   "text": "2017 and 2019 each had just 3 10-touchdown receivers, tied for the fewest of any season in the 2010s.",
    "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Touchdown catches are the red-zone threat stat."
   },
   {
@@ -7920,7 +7922,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2010
+    2010,
+    2011
    ],
    "finder": null,
    "evidence": [
@@ -7965,7 +7968,7 @@
      "count": 5
     }
    ],
-   "text": "2010 had just 2 100-catch players, the fewest of any season in the 2010s.",
+   "text": "2010 and 2011 each had just 2 100-catch players, tied for the fewest of any season in the 2010s.",
    "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Catch totals put possession receivers in the spotlight."
   },
   {

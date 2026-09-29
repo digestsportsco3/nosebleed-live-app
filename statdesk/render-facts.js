@@ -33,7 +33,8 @@ function page(d) {
   }
   return onePage(d, all, all, 0, 1);
 }
-function onePage(d, facts, all, part, parts) {
+function onePage(d0, facts, all, part, parts) {
+  const d = typeof d0.decade === "number" ? { ...d0, decade: `${d0.decade}s` } : d0;
   const kinds = {}; for (const f of all) kinds[f.kind] = (kinds[f.kind] || 0) + 1;
   const mix = Object.entries(kinds).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${v} ${KIND[k] || k}`).join(" · ");
   const title = (d.subject ? `${esc(d.subject)}: ${all.length} Things You Can Post` : `The ${esc(d.decade)}${sport ? ` ${esc(sport)}` : ""}: ${all.length} Things You Can Post`) + (parts > 1 ? ` <span class="part">(${part + 1}/${parts})</span>` : "");

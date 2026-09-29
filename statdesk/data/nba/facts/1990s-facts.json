@@ -23,7 +23,7 @@
   "1998-99",
   "1999-00"
  ],
- "candidates": 124,
+ "candidates": 123,
  "facts": [
   {
    "n": 1,
@@ -6946,7 +6946,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1995
+    1995,
+    1997
    ],
    "finder": null,
    "evidence": [
@@ -6991,7 +6992,7 @@
      "count": 2
     }
    ],
-   "text": "1995-96 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1990s without one.",
+   "text": "1995-96 and 1997-98 had no .900 free-throw shooters (200+ FTA) at all — the only seasons of the 1990s without one.",
    "why": "The low point of the 1990s for this; a \"what happened that year?\" hook. Free-throw accuracy is the shooter's purest stat."
   },
   {
@@ -7339,7 +7340,69 @@
   {
    "n": 76,
    "kind": "season",
-   "rule": "c_30_most",
+   "rule": "c_30_least",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1993,
+    1994,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 1
+    },
+    {
+     "season": 1991,
+     "count": 1
+    },
+    {
+     "season": 1992,
+     "count": 1
+    },
+    {
+     "season": 1993,
+     "count": 0
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 1
+    },
+    {
+     "season": 1996,
+     "count": 0
+    },
+    {
+     "season": 1997,
+     "count": 0
+    },
+    {
+     "season": 1998,
+     "count": 0
+    },
+    {
+     "season": 1999,
+     "count": 0
+    }
+   ],
+   "text": "1993-94 had no 30-point scorers at all — one of 6 seasons of the 1990s without one.",
+   "why": "The low point of the 1990s for this; a \"what happened that year?\" hook."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_2spg_most",
    "group": "P",
    "decade": "1990s",
    "score": 5,
@@ -7351,104 +7414,47 @@
    "evidence": [
     {
      "season": 1990,
-     "count": 1
+     "count": 14
     },
     {
      "season": 1991,
-     "count": 1
+     "count": 12
     },
     {
      "season": 1992,
-     "count": 1
+     "count": 10
     },
     {
      "season": 1993,
-     "count": 0
+     "count": 10
     },
     {
      "season": 1994,
-     "count": 0
+     "count": 6
     },
     {
      "season": 1995,
-     "count": 1
+     "count": 7
     },
     {
      "season": 1996,
-     "count": 0
+     "count": 9
     },
     {
      "season": 1997,
-     "count": 0
+     "count": 7
     },
     {
      "season": 1998,
-     "count": 0
+     "count": 12
     },
     {
      "season": 1999,
-     "count": 0
+     "count": 6
     }
    ],
-   "text": "1990-91 had one 30-point scorer, the most of any season in the 1990s.",
-   "why": "The peak year for this across the 1990s; fans can argue why that season stood out."
-  },
-  {
-   "n": 77,
-   "kind": "season",
-   "rule": "c_30_least",
-   "group": "P",
-   "decade": "1990s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1993
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1990,
-     "count": 1
-    },
-    {
-     "season": 1991,
-     "count": 1
-    },
-    {
-     "season": 1992,
-     "count": 1
-    },
-    {
-     "season": 1993,
-     "count": 0
-    },
-    {
-     "season": 1994,
-     "count": 0
-    },
-    {
-     "season": 1995,
-     "count": 1
-    },
-    {
-     "season": 1996,
-     "count": 0
-    },
-    {
-     "season": 1997,
-     "count": 0
-    },
-    {
-     "season": 1998,
-     "count": 0
-    },
-    {
-     "season": 1999,
-     "count": 0
-    }
-   ],
-   "text": "1993-94 had no 30-point scorers at all — one of the seasons of the 1990s without one.",
-   "why": "The low point of the 1990s for this; a \"what happened that year?\" hook."
+   "text": "1990-91 had 14 players averaging 2 steals (60% of games), the most of any season in the 1990s.",
+   "why": "The peak year for this across the 1990s; fans can argue why that season stood out. Steals are the defensive highlight stat."
   },
   {
    "n": 78,
@@ -7653,70 +7659,14 @@
   {
    "n": 82,
    "kind": "season",
-   "rule": "c_2spg_most",
-   "group": "P",
-   "decade": "1990s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1990
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1990,
-     "count": 14
-    },
-    {
-     "season": 1991,
-     "count": 12
-    },
-    {
-     "season": 1992,
-     "count": 10
-    },
-    {
-     "season": 1993,
-     "count": 10
-    },
-    {
-     "season": 1994,
-     "count": 6
-    },
-    {
-     "season": 1995,
-     "count": 7
-    },
-    {
-     "season": 1996,
-     "count": 9
-    },
-    {
-     "season": 1997,
-     "count": 7
-    },
-    {
-     "season": 1998,
-     "count": 12
-    },
-    {
-     "season": 1999,
-     "count": 6
-    }
-   ],
-   "text": "1990-91 had 14 players averaging 2 steals (60% of games), the most of any season in the 1990s.",
-   "why": "The peak year for this across the 1990s; fans can argue why that season stood out. Steals are the defensive highlight stat."
-  },
-  {
-   "n": 83,
-   "kind": "season",
    "rule": "c_2spg_least",
    "group": "P",
    "decade": "1990s",
    "score": 5,
    "players": [],
    "seasons": [
-    1994
+    1994,
+    1999
    ],
    "finder": null,
    "evidence": [
@@ -7761,11 +7711,11 @@
      "count": 6
     }
    ],
-   "text": "1994-95 had just 6 players averaging 2 steals (60% of games), the fewest of any season in the 1990s.",
+   "text": "1994-95 and 1999-00 each had just 6 players averaging 2 steals (60% of games), tied for the fewest of any season in the 1990s.",
    "why": "The low point of the 1990s for this; a \"what happened that year?\" hook. Steals are the defensive highlight stat."
   },
   {
-   "n": 84,
+   "n": 83,
    "kind": "season",
    "rule": "c_2bpg_most",
    "group": "P",
@@ -7773,7 +7723,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1990
+    1990,
+    1991,
+    1998
    ],
    "finder": null,
    "evidence": [
@@ -7818,11 +7770,11 @@
      "count": 9
     }
    ],
-   "text": "1990-91 had 12 players averaging 2 blocks (60% of games), the most of any season in the 1990s.",
+   "text": "1990-91, 1991-92 and 1998-99 each had 12 players averaging 2 blocks (60% of games), tied for the most of any season in the 1990s.",
    "why": "The peak year for this across the 1990s; fans can argue why that season stood out. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 85,
+   "n": 84,
    "kind": "season",
    "rule": "c_2bpg_least",
    "group": "P",
@@ -7877,6 +7829,63 @@
    ],
    "text": "1992-93 had just 7 players averaging 2 blocks (60% of games), the fewest of any season in the 1990s.",
    "why": "The low point of the 1990s for this; a \"what happened that year?\" hook. Shot-blocking seasons are rim-protector content fans love."
+  },
+  {
+   "n": 85,
+   "kind": "season",
+   "rule": "c_150_3s_most",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 2
+    },
+    {
+     "season": 1991,
+     "count": 2
+    },
+    {
+     "season": 1992,
+     "count": 3
+    },
+    {
+     "season": 1993,
+     "count": 3
+    },
+    {
+     "season": 1994,
+     "count": 15
+    },
+    {
+     "season": 1995,
+     "count": 16
+    },
+    {
+     "season": 1996,
+     "count": 20
+    },
+    {
+     "season": 1997,
+     "count": 6
+    },
+    {
+     "season": 1998,
+     "count": 0
+    },
+    {
+     "season": 1999,
+     "count": 5
+    }
+   ],
+   "text": "1996-97 had 20 players with 150+ threes, the most of any season in the 1990s.",
+   "why": "The peak year for this across the 1990s; fans can argue why that season stood out."
   },
   {
    "n": 86,

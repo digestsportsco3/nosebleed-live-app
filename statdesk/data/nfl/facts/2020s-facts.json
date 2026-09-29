@@ -6262,7 +6262,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2024
+    2024,
+    2025
    ],
    "finder": null,
    "evidence": [
@@ -6291,7 +6292,7 @@
      "count": 6
     }
    ],
-   "text": "2024 had just 6 4,000-yard passers, the fewest of any season in the 2020s.",
+   "text": "2024 and 2025 each had just 6 4,000-yard passers, tied for the fewest of any season in the 2020s.",
    "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Passing volume invites then-vs-now arguments about how the game changed."
   },
   {
@@ -6590,7 +6591,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2022
+    2022,
+    2023,
+    2025
    ],
    "finder": null,
    "evidence": [
@@ -6619,7 +6622,7 @@
      "count": 4
     }
    ],
-   "text": "2022 had just 4 30-touchdown passers, the fewest of any season in the 2020s.",
+   "text": "2022, 2023 and 2025 each had just 4 30-touchdown passers, tied for the fewest of any season in the 2020s.",
    "why": "The low point of the 2020s for this; a \"what happened that year?\" hook. Touchdown-pass seasons are the quarterback currency every fan base argues over."
   },
   {

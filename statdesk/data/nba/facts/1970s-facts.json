@@ -23,7 +23,7 @@
   "1978-79",
   "1979-80"
  ],
- "candidates": 105,
+ "candidates": 103,
  "facts": [
   {
    "n": 1,
@@ -6008,7 +6008,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1975
+    1975,
+    1978
    ],
    "finder": null,
    "evidence": [
@@ -6053,68 +6054,11 @@
      "count": 5
     }
    ],
-   "text": "1975-76 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 1970s.",
+   "text": "1975-76 and 1978-79 each had just 3 players averaging 25 points (60% of games), tied for the fewest of any season in the 1970s.",
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 66,
-   "kind": "season",
-   "rule": "c_20_10_most",
-   "group": "P",
-   "decade": "1970s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1970
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1970,
-     "count": 7
-    },
-    {
-     "season": 1971,
-     "count": 7
-    },
-    {
-     "season": 1972,
-     "count": 7
-    },
-    {
-     "season": 1973,
-     "count": 5
-    },
-    {
-     "season": 1974,
-     "count": 6
-    },
-    {
-     "season": 1975,
-     "count": 4
-    },
-    {
-     "season": 1976,
-     "count": 7
-    },
-    {
-     "season": 1977,
-     "count": 7
-    },
-    {
-     "season": 1978,
-     "count": 7
-    },
-    {
-     "season": 1979,
-     "count": 4
-    }
-   ],
-   "text": "1970-71 had 7 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1970s.",
-   "why": "The peak year for this across the 1970s; fans can argue why that season stood out."
-  },
-  {
-   "n": 67,
    "kind": "season",
    "rule": "c_20_10_least",
    "group": "P",
@@ -6122,7 +6066,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1975
+    1975,
+    1979
    ],
    "finder": null,
    "evidence": [
@@ -6167,11 +6112,11 @@
      "count": 4
     }
    ],
-   "text": "1975-76 had just 4 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1970s.",
+   "text": "1975-76 and 1979-80 each had just 4 players averaging 20 points and 10 rebounds (60% of games), tied for the fewest of any season in the 1970s.",
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook."
   },
   {
-   "n": 68,
+   "n": 67,
    "kind": "season",
    "rule": "c_ft900_most",
    "group": "P",
@@ -6179,7 +6124,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1975
+    1975,
+    1977
    ],
    "finder": null,
    "evidence": [
@@ -6224,11 +6170,11 @@
      "count": 0
     }
    ],
-   "text": "1975-76 had 2 .900 free-throw shooters (200+ FTA), the most of any season in the 1970s.",
+   "text": "1975-76 and 1977-78 each had 2 .900 free-throw shooters (200+ FTA), tied for the most of any season in the 1970s.",
    "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 69,
+   "n": 68,
    "kind": "season",
    "rule": "c_ft900_least",
    "group": "P",
@@ -6236,7 +6182,10 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1970
+    1970,
+    1971,
+    1973,
+    1979
    ],
    "finder": null,
    "evidence": [
@@ -6281,11 +6230,11 @@
      "count": 0
     }
    ],
-   "text": "1970-71 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1970s without one.",
+   "text": "1970-71 had no .900 free-throw shooters (200+ FTA) at all — one of 4 seasons of the 1970s without one.",
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 70,
+   "n": 69,
    "kind": "season",
    "rule": "c_10apg_most",
    "group": "P",
@@ -6293,7 +6242,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1970
+    1970,
+    1978
    ],
    "finder": null,
    "evidence": [
@@ -6338,68 +6288,11 @@
      "count": 2
     }
    ],
-   "text": "1970-71 had 4 8-assist players, the most of any season in the 1970s.",
+   "text": "1970-71 and 1978-79 each had 4 8-assist players, tied for the most of any season in the 1970s.",
    "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Assist averages crown the true point guards."
   },
   {
-   "n": 71,
-   "kind": "season",
-   "rule": "c_10apg_least",
-   "group": "P",
-   "decade": "1970s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1973
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1970,
-     "count": 4
-    },
-    {
-     "season": 1971,
-     "count": 3
-    },
-    {
-     "season": 1972,
-     "count": 3
-    },
-    {
-     "season": 1973,
-     "count": 1
-    },
-    {
-     "season": 1974,
-     "count": 1
-    },
-    {
-     "season": 1975,
-     "count": 1
-    },
-    {
-     "season": 1976,
-     "count": 1
-    },
-    {
-     "season": 1977,
-     "count": 2
-    },
-    {
-     "season": 1978,
-     "count": 4
-    },
-    {
-     "season": 1979,
-     "count": 2
-    }
-   ],
-   "text": "1973-74 had just one 8-assist player, the fewest of any season in the 1970s.",
-   "why": "The low point of the 1970s for this; a \"what happened that year?\" hook. Assist averages crown the true point guards."
-  },
-  {
-   "n": 72,
+   "n": 70,
    "kind": "season",
    "rule": "c_20_most",
    "group": "P",
@@ -6456,7 +6349,7 @@
    "why": "The peak year for this across the 1970s; fans can argue why that season stood out."
   },
   {
-   "n": 73,
+   "n": 71,
    "kind": "season",
    "rule": "c_20_least",
    "group": "P",
@@ -6513,7 +6406,7 @@
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook."
   },
   {
-   "n": 74,
+   "n": 72,
    "kind": "season",
    "rule": "c_10rpg_most",
    "group": "P",
@@ -6570,7 +6463,7 @@
    "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 75,
+   "n": 73,
    "kind": "season",
    "rule": "c_10rpg_least",
    "group": "P",
@@ -6627,7 +6520,7 @@
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 76,
+   "n": 74,
    "kind": "season",
    "rule": "c_30_most",
    "group": "P",
@@ -6635,7 +6528,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1972
+    1972,
+    1974,
+    1979
    ],
    "finder": null,
    "evidence": [
@@ -6680,11 +6575,11 @@
      "count": 2
     }
    ],
-   "text": "1972-73 had 2 30-point scorers, the most of any season in the 1970s.",
+   "text": "1972-73, 1974-75 and 1979-80 each had 2 30-point scorers, tied for the most of any season in the 1970s.",
    "why": "The peak year for this across the 1970s; fans can argue why that season stood out."
   },
   {
-   "n": 77,
+   "n": 75,
    "kind": "season",
    "rule": "c_30_least",
    "group": "P",
@@ -6692,7 +6587,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1977
+    1977,
+    1978
    ],
    "finder": null,
    "evidence": [
@@ -6737,61 +6633,11 @@
      "count": 2
     }
    ],
-   "text": "1977-78 had no 30-point scorers at all — one of the seasons of the 1970s without one.",
+   "text": "1977-78 and 1978-79 had no 30-point scorers at all — the only seasons of the 1970s without one.",
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook."
   },
   {
-   "n": 78,
-   "kind": "total",
-   "rule": "t_min",
-   "group": "P",
-   "decade": "1970s",
-   "score": 5,
-   "players": [
-    {
-     "id": 76979,
-     "name": "Elvin Hayes"
-    }
-   ],
-   "seasons": [],
-   "finder": null,
-   "evidence": [
-    {
-     "id": 76979,
-     "name": "Elvin Hayes",
-     "total": 33381,
-     "seasons": 10
-    },
-    {
-     "id": 76003,
-     "name": "Kareem Abdul-Jabbar",
-     "total": 31380,
-     "seasons": 10
-    },
-    {
-     "id": 76462,
-     "name": "Dave Cowens",
-     "total": 28551,
-     "seasons": 10
-    },
-    {
-     "id": 78510,
-     "name": "Jojo White",
-     "total": 28377,
-     "seasons": 10
-    },
-    {
-     "id": 77326,
-     "name": "Sam Lacey",
-     "total": 27743,
-     "seasons": 10
-    }
-   ],
-   "text": "Most minutes of the 1970s: Elvin Hayes, 33,381.",
-   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
-  },
-  {
-   "n": 79,
+   "n": 76,
    "kind": "season",
    "rule": "c_2spg_most",
    "group": "P",
@@ -6848,7 +6694,7 @@
    "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Steals are the defensive highlight stat."
   },
   {
-   "n": 80,
+   "n": 77,
    "kind": "season",
    "rule": "c_2spg_least",
    "group": "P",
@@ -6856,7 +6702,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1970
+    1970,
+    1971,
+    1972
    ],
    "finder": null,
    "evidence": [
@@ -6901,11 +6749,61 @@
      "count": 11
     }
    ],
-   "text": "1970-71 had no players averaging 2 steals (60% of games) at all — one of the seasons of the 1970s without one.",
+   "text": "1970-71, 1971-72 and 1972-73 had no players averaging 2 steals (60% of games) at all — the only seasons of the 1970s without one.",
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook. Steals are the defensive highlight stat."
   },
   {
-   "n": 81,
+   "n": 78,
+   "kind": "total",
+   "rule": "t_min",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "total": 33381,
+     "seasons": 10
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "total": 31380,
+     "seasons": 10
+    },
+    {
+     "id": 76462,
+     "name": "Dave Cowens",
+     "total": 28551,
+     "seasons": 10
+    },
+    {
+     "id": 78510,
+     "name": "Jojo White",
+     "total": 28377,
+     "seasons": 10
+    },
+    {
+     "id": 77326,
+     "name": "Sam Lacey",
+     "total": 27743,
+     "seasons": 10
+    }
+   ],
+   "text": "Most minutes of the 1970s: Elvin Hayes, 33,381.",
+   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
+  },
+  {
+   "n": 79,
    "kind": "season",
    "rule": "c_2bpg_most",
    "group": "P",
@@ -6962,7 +6860,7 @@
    "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 82,
+   "n": 80,
    "kind": "season",
    "rule": "c_2bpg_least",
    "group": "P",
@@ -6970,7 +6868,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1970
+    1970,
+    1971,
+    1972
    ],
    "finder": null,
    "evidence": [
@@ -7015,11 +6915,11 @@
      "count": 7
     }
    ],
-   "text": "1970-71 had no players averaging 2 blocks (60% of games) at all — one of the seasons of the 1970s without one.",
+   "text": "1970-71, 1971-72 and 1972-73 had no players averaging 2 blocks (60% of games) at all — the only seasons of the 1970s without one.",
    "why": "The low point of the 1970s for this; a \"what happened that year?\" hook. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 83,
+   "n": 81,
    "kind": "total",
    "rule": "t_pts",
    "group": "P",
@@ -7069,7 +6969,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 84,
+   "n": 82,
    "kind": "total",
    "rule": "t_reb",
    "group": "P",
@@ -7119,7 +7019,7 @@
    "why": "A decade-long view that settles consistency debates. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 85,
+   "n": 83,
    "kind": "total",
    "rule": "t_ast",
    "group": "P",
@@ -7169,7 +7069,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Assist averages crown the true point guards."
   },
   {
-   "n": 86,
+   "n": 84,
    "kind": "total",
    "rule": "t_ftm",
    "group": "P",
@@ -7219,7 +7119,7 @@
    "why": "A decade-long view that settles consistency debates. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 87,
+   "n": 85,
    "kind": "total",
    "rule": "t_blk",
    "group": "P",
@@ -7269,7 +7169,7 @@
    "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shot-blocking seasons are rim-protector content fans love."
   },
   {
-   "n": 88,
+   "n": 86,
    "kind": "nearmiss",
    "rule": "rpg99",
    "group": "P",
@@ -7365,6 +7265,316 @@
    ],
    "text": "3 player-seasons of the 1970s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Cedric Maxwell (1978-79), Larry Kenon (1979-80), Garfield Heard (1974-75).",
    "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 87,
+   "rule": "big_reb",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1972,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1084,
+     "PPG": 13.2,
+     "REB": 1526,
+     "AST": 365,
+     "STL": null,
+     "BLK": null,
+     "FGM": 426,
+     "FGA": 586,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 455,
+     "MIN": 3542,
+     "PF": 191,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1970,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1696,
+     "PPG": 20.7,
+     "REB": 1493,
+     "AST": 352,
+     "STL": null,
+     "BLK": null,
+     "FGM": 668,
+     "FGA": 1226,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 360,
+     "FTA": 669,
+     "MIN": 3630,
+     "PF": 174,
+     "TOV": null
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1973,
+     "team": "CAP",
+     "GP": 81,
+     "PTS": 1735,
+     "PPG": 21.4,
+     "REB": 1463,
+     "AST": 163,
+     "STL": 86,
+     "BLK": 240,
+     "FGM": 689,
+     "FGA": 1627,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 357,
+     "FTA": 495,
+     "MIN": 3602,
+     "PF": 252,
+     "TOV": null
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1978,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2031,
+     "PPG": 24.8,
+     "REB": 1444,
+     "AST": 147,
+     "STL": 79,
+     "BLK": 119,
+     "FGM": 716,
+     "FGA": 1325,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 599,
+     "FTA": 811,
+     "MIN": 3390,
+     "PF": 223,
+     "TOV": 326
+    },
+    {
+     "id": 78392,
+     "name": "Wes Unseld",
+     "season": 1971,
+     "team": "BLT",
+     "GP": 76,
+     "PTS": 989,
+     "PPG": 13,
+     "REB": 1336,
+     "AST": 278,
+     "STL": null,
+     "BLK": null,
+     "FGM": 409,
+     "FGA": 822,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 171,
+     "FTA": 272,
+     "MIN": 3171,
+     "PF": 218,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 65,
+   "kind": "list",
+   "score": 4.43780487804878,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "24 players averaged 13+ rebounds (60% of games) in the 1970s (65 seasons). The most extreme: Wilt Chamberlain, 1971-72 — 19.2 rpg.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
+  },
+  {
+   "n": 88,
+   "rule": "reb_1000",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1971,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1213,
+     "PPG": 14.8,
+     "REB": 1572,
+     "AST": 329,
+     "STL": null,
+     "BLK": null,
+     "FGM": 496,
+     "FGA": 764,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 221,
+     "FTA": 524,
+     "MIN": 3469,
+     "PF": 196,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1972,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1084,
+     "PPG": 13.2,
+     "REB": 1526,
+     "AST": 365,
+     "STL": null,
+     "BLK": null,
+     "FGM": 426,
+     "FGA": 586,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 232,
+     "FTA": 455,
+     "MIN": 3542,
+     "PF": 191,
+     "TOV": null
+    },
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain",
+     "season": 1970,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 1696,
+     "PPG": 20.7,
+     "REB": 1493,
+     "AST": 352,
+     "STL": null,
+     "BLK": null,
+     "FGM": 668,
+     "FGA": 1226,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 360,
+     "FTA": 669,
+     "MIN": 3630,
+     "PF": 174,
+     "TOV": null
+    },
+    {
+     "id": 76979,
+     "name": "Elvin Hayes",
+     "season": 1973,
+     "team": "CAP",
+     "GP": 81,
+     "PTS": 1735,
+     "PPG": 21.4,
+     "REB": 1463,
+     "AST": 163,
+     "STL": 86,
+     "BLK": 240,
+     "FGM": 689,
+     "FGA": 1627,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 357,
+     "FTA": 495,
+     "MIN": 3602,
+     "PF": 252,
+     "TOV": null
+    },
+    {
+     "id": 77449,
+     "name": "Moses Malone",
+     "season": 1978,
+     "team": "HOU",
+     "GP": 82,
+     "PTS": 2031,
+     "PPG": 24.8,
+     "REB": 1444,
+     "AST": 147,
+     "STL": 79,
+     "BLK": 119,
+     "FGM": 716,
+     "FGA": 1325,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 599,
+     "FTA": 811,
+     "MIN": 3390,
+     "PF": 223,
+     "TOV": 326
+    },
+    {
+     "id": 76003,
+     "name": "Kareem Abdul-Jabbar",
+     "season": 1975,
+     "team": "LAL",
+     "GP": 82,
+     "PTS": 2275,
+     "PPG": 27.7,
+     "REB": 1383,
+     "AST": 413,
+     "STL": 119,
+     "BLK": 338,
+     "FGM": 914,
+     "FGA": 1728,
+     "FG3M": null,
+     "FG3A": null,
+     "FTM": 447,
+     "FTA": 636,
+     "MIN": 3379,
+     "PF": 292,
+     "TOV": null
+    }
+   ],
+   "seasonsMatched": 72,
+   "kind": "list",
+   "score": 4.3100000000000005,
+   "players": [
+    {
+     "id": 76375,
+     "name": "Wilt Chamberlain"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "text": "28 players grabbed 1,000 rebounds in a season in the 1970s (72 seasons). The most extreme: Wilt Chamberlain, 1971-72 — 1,572 reb.",
+   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 89,
