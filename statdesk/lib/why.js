@@ -140,11 +140,12 @@ const dl = (f) => (typeof f.decade === "number" ? `${f.decade}s` : f.decade);
 // repeat itself.
 const KIND = {
   only: [(f) => `A club of one in the ${dl(f)}; "name another" posts draw replies.`, (f) => `Nobody else in the ${dl(f)} did it, and exclusivity is what gets a post shared.`],
-  pair: [() => `Two names invite the "whose season was better?" argument.`, () => `A two-player club is a ready-made debate.`],
+  pair: [() => `Two names invite the "whose season was better?" argument.`, () => `A club of two is a ready-made debate.`],
   few: [() => `A short list fans can recite; each name brings its own fan base.`, () => `Few enough to name them all, so readers tag the ones they remember.`],
   list: [(f) => `Shows how high the bar was across the ${dl(f)}; the extreme case is the hook.`, () => `Leads with the most extreme case, which carries the post.`],
   extreme: [(f) => `The high-water mark of the ${dl(f)}: a clean "who did it best" answer.`, () => `The most extreme season of the decade; fans compare it with today's numbers.`],
   total: [() => `Rewards sustained excellence over one big year and surfaces names fans forget.`, () => `A decade-long view that settles consistency debates.`],
+  streak: [() => `Years in a row of the same excellence: consistency in one line.`, (f) => `The longest run of the ${dl(f)}; fans measure today's stars against it.`],
   nearmiss: [() => `So-close stats get shared: fans love a round number missed by a hair.`, () => `A near miss is a story; fans wonder what one more game would have done.`],
   age: [() => `Age angles (longevity or prodigy) travel beyond one fan base.`, () => `Oldest and youngest lines give a fresh angle on a familiar stat.`],
   career: [() => `Career-long numbers frame the legacy in one line.`, () => `The long view that every "greatest ever" thread starts from.`],

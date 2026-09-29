@@ -17,7 +17,7 @@ const path = require("path");
 const core = require("../lib/factcore");
 const { annotate } = require("../lib/why");
 
-const DATA = path.join(__dirname, "..", "data", "nhl");
+const DATA = process.env.NHL_DATA || path.join(__dirname, "..", "data", "nhl");
 const OUT = path.join(DATA, "facts");
 const label = (y) => `${y}-${String((y + 1) % 100).padStart(2, "0")}`;
 const has = (v) => v !== null && v !== undefined && Number.isFinite(v);
