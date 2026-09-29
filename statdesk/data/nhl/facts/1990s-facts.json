@@ -1,0 +1,8029 @@
+{
+ "sport": "NHL",
+ "decade": "1990s",
+ "era": 4,
+ "seasons": [
+  "1990-91",
+  "1991-92",
+  "1992-93",
+  "1993-94",
+  "1994-95",
+  "1995-96",
+  "1996-97",
+  "1997-98",
+  "1998-99",
+  "1999-00"
+ ],
+ "candidates": 109,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "g_sv",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1998,
+     "team": "BUF",
+     "GP": 64,
+     "A": 0,
+     "PIM": 14,
+     "W": 30,
+     "L": 18,
+     "T": 14,
+     "SO": 9,
+     "GAA": 1.87071,
+     "SVP": 0.9366,
+     "SV": 1758,
+     "GA": 119
+    },
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1997,
+     "team": "BUF",
+     "GP": 72,
+     "A": 2,
+     "PIM": 12,
+     "W": 33,
+     "L": 23,
+     "T": 13,
+     "SO": 13,
+     "GAA": 2.09024,
+     "SVP": 0.93159,
+     "SV": 2002,
+     "GA": 147
+    },
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1994,
+     "team": "BUF",
+     "GP": 41,
+     "A": 0,
+     "PIM": 2,
+     "W": 19,
+     "L": 14,
+     "T": 7,
+     "SO": 5,
+     "GAA": 2.11053,
+     "SVP": 0.93038,
+     "SV": 1136,
+     "GA": 85
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "only",
+   "score": 12.165000000000001,
+   "players": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek"
+    }
+   ],
+   "seasons": [
+    1998,
+    1997,
+    1994
+   ],
+   "text": "The only goalie of the 1990s to post a .930 save percentage (40% of games) was Dominik Hasek — and he did it 3 times (1998-99: .937 in 64 games; 1997-98: .932 in 72 games; 1994-95: .930 in 41 games).",
+   "why": "A club of one in the 1990s; \"name another\" posts draw replies. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 2,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 84,
+     "G": 76,
+     "A": 56,
+     "P": 132,
+     "PIM": 45,
+     "PM": 8,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 387,
+     "age": 22
+    },
+    {
+     "id": 8457785,
+     "name": "Mikael Renberg",
+     "season": 1993,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 83,
+     "G": 38,
+     "A": 44,
+     "P": 82,
+     "PIM": 36,
+     "PM": 8,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 195,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne"
+    },
+    {
+     "id": 8457785,
+     "name": "Mikael Renberg"
+    }
+   ],
+   "seasons": [
+    1992,
+    1993
+   ],
+   "text": "Only two players of the 1990s recorded 80 points in their first NHL season: Teemu Selanne (1992-93: 132 points); Mikael Renberg (1993-94: 82 points).",
+   "why": "A club of two is a ready-made debate. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 3,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1995,
+     "GP": 82,
+     "W": 62,
+     "L": 13,
+     "T": 7,
+     "GF": 325,
+     "GA": 181,
+     "PCT": 0.79878
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.72,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "text": "The only team of the 1990s to outscore opponents by 100: Detroit Red Wings, 1995-96 — 325-181.",
+   "why": "A club of one in the 1990s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 4,
+   "rule": "h_otg",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451774,
+     "name": "Mats Sundin",
+     "season": 1999,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 73,
+     "G": 32,
+     "A": 41,
+     "P": 73,
+     "PIM": 46,
+     "PM": 16,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 7,
+     "S": 184,
+     "TOI": 20.177853333333335,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 8451774,
+     "name": "Mats Sundin"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "text": "The only player of the 1990s to score 4 overtime goals: Mats Sundin, 1999-00 — 4 OT goals.",
+   "why": "Nobody else in the 1990s did it, and exclusivity is what gets a post shared. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 5,
+   "rule": "h_2ppg",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 60,
+     "G": 69,
+     "A": 91,
+     "P": 160,
+     "PIM": 38,
+     "PM": 55,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 10,
+     "S": 286,
+     "age": 27
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 70,
+     "G": 69,
+     "A": 92,
+     "P": 161,
+     "PIM": 54,
+     "PM": 10,
+     "PPG": 31,
+     "SHG": 8,
+     "GWG": 8,
+     "S": 338,
+     "age": 30
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1990,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 41,
+     "A": 122,
+     "P": 163,
+     "PIM": 16,
+     "PM": 30,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 212,
+     "age": 30
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1991,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 64,
+     "G": 44,
+     "A": 87,
+     "P": 131,
+     "PIM": 94,
+     "PM": 27,
+     "PPG": 12,
+     "SHG": 4,
+     "GWG": 5,
+     "S": 249,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 10,
+   "players": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1992,
+    1995,
+    1990,
+    1991
+   ],
+   "text": "Only two players of the 1990s averaged 2 points a game (40+ games): Mario Lemieux (3×, best 1992-93: 160 points in 60 games (2.67)); Wayne Gretzky (1990-91: 163 points in 78 games (2.09)).",
+   "why": "Two names invite the \"whose season was better?\" argument. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 6,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 84,
+     "G": 76,
+     "A": 56,
+     "P": 132,
+     "PIM": 45,
+     "PM": 8,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 387,
+     "age": 22
+    },
+    {
+     "id": 8458515,
+     "name": "Eric Lindros",
+     "season": 1992,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 61,
+     "G": 41,
+     "A": 34,
+     "P": 75,
+     "PIM": 147,
+     "PM": 28,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 180,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.9,
+   "players": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne"
+    },
+    {
+     "id": 8458515,
+     "name": "Eric Lindros"
+    }
+   ],
+   "seasons": [
+    1992,
+    1992
+   ],
+   "text": "Only two players of the 1990s scored 40 goals in their first NHL season: Teemu Selanne (1992-93: 76 goals); Eric Lindros (1992-93: 41 goals).",
+   "why": "A club of two is a ready-made debate. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 7,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451369,
+     "name": "Peter Sidorkiewicz",
+     "season": 1992,
+     "team": "OTT",
+     "GP": 64,
+     "A": 0,
+     "PIM": 8,
+     "W": 8,
+     "L": 46,
+     "T": 3,
+     "SO": 0,
+     "GAA": 4.42758,
+     "SVP": 0.85607,
+     "SV": 1487,
+     "GA": 250
+    },
+    {
+     "id": 8445470,
+     "name": "Craig Billington",
+     "season": 1993,
+     "team": "OTT",
+     "GP": 63,
+     "A": 0,
+     "PIM": 8,
+     "W": 11,
+     "L": 41,
+     "T": 4,
+     "SO": 0,
+     "GAA": 4.59192,
+     "SVP": 0.85896,
+     "SV": 1547,
+     "GA": 254
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.15,
+   "players": [
+    {
+     "id": 8451369,
+     "name": "Peter Sidorkiewicz"
+    },
+    {
+     "id": 8445470,
+     "name": "Craig Billington"
+    }
+   ],
+   "seasons": [
+    1992,
+    1993
+   ],
+   "text": "Only two goalies of the 1990s lost 40 games: Peter Sidorkiewicz (1992-93: 8-46-3); Craig Billington (1993-94: 11-41-4).",
+   "why": "Two names invite the \"whose season was better?\" argument. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 8,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "1990s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull"
+    }
+   ],
+   "seasons": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1990,
+     "team": "STL",
+     "pos": "R",
+     "GP": 78,
+     "G": 86,
+     "A": 45,
+     "P": 131,
+     "PIM": 22,
+     "PM": 23,
+     "PPG": 29,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 389,
+     "age": 26
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1991,
+     "team": "STL",
+     "pos": "R",
+     "GP": 73,
+     "G": 70,
+     "A": 39,
+     "P": 109,
+     "PIM": 48,
+     "PM": -2,
+     "PPG": 20,
+     "SHG": 5,
+     "GWG": 9,
+     "S": 408,
+     "age": 27
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1992,
+     "team": "STL",
+     "pos": "R",
+     "GP": 80,
+     "G": 54,
+     "A": 47,
+     "P": 101,
+     "PIM": 41,
+     "PM": -27,
+     "PPG": 29,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 390,
+     "age": 28
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1993,
+     "team": "STL",
+     "pos": "R",
+     "GP": 81,
+     "G": 57,
+     "A": 40,
+     "P": 97,
+     "PIM": 38,
+     "PM": -3,
+     "PPG": 25,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 392,
+     "age": 29
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1994,
+     "team": "STL",
+     "pos": "R",
+     "GP": 48,
+     "G": 29,
+     "A": 21,
+     "P": 50,
+     "PIM": 10,
+     "PM": 13,
+     "PPG": 9,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 200,
+     "age": 30
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1995,
+     "team": "STL",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 40,
+     "P": 83,
+     "PIM": 30,
+     "PM": 4,
+     "PPG": 16,
+     "SHG": 5,
+     "GWG": 6,
+     "S": 327,
+     "age": 31
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1996,
+     "team": "STL",
+     "pos": "R",
+     "GP": 77,
+     "G": 42,
+     "A": 40,
+     "P": 82,
+     "PIM": 10,
+     "PM": -9,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 302,
+     "age": 32
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1997,
+     "team": "STL",
+     "pos": "R",
+     "GP": 66,
+     "G": 27,
+     "A": 45,
+     "P": 72,
+     "PIM": 26,
+     "PM": -1,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 211,
+     "TOI": 19.877271666666665,
+     "age": 33
+    }
+   ],
+   "text": "Brett Hull averaged a point a game (60% of games) in 8 straight seasons (1990-91 to 1997-98), the longest run of the 1990s.",
+   "why": "The longest run of the 1990s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 9,
+   "rule": "h_eff",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449807,
+     "name": "Petr Nedved",
+     "season": 1992,
+     "team": "VAN",
+     "pos": "C",
+     "GP": 84,
+     "G": 38,
+     "A": 33,
+     "P": 71,
+     "PIM": 96,
+     "PM": 20,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 149,
+     "age": 21
+    },
+    {
+     "id": 8445423,
+     "name": "Benoit Hogue",
+     "season": 1992,
+     "team": "NYI",
+     "pos": "L",
+     "GP": 70,
+     "G": 33,
+     "A": 42,
+     "P": 75,
+     "PIM": 108,
+     "PM": 13,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 147,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.63758389261745,
+   "players": [
+    {
+     "id": 8449807,
+     "name": "Petr Nedved"
+    },
+    {
+     "id": 8445423,
+     "name": "Benoit Hogue"
+    }
+   ],
+   "seasons": [
+    1992,
+    1992
+   ],
+   "text": "Only two players of the 1990s scored 33 goals on fewer than 150 shots: Petr Nedved (1992-93: 38 goals on 149 shots); Benoit Hogue (1992-93: 33 goals on 147 shots).",
+   "why": "Two names invite the \"whose season was better?\" argument. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 10,
+   "rule": "g_pts",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448382,
+     "name": "Curtis Joseph",
+     "season": 1991,
+     "team": "STL",
+     "GP": 60,
+     "A": 9,
+     "PIM": 12,
+     "W": 27,
+     "L": 20,
+     "T": 10,
+     "SO": 2,
+     "GAA": 3.00555,
+     "SVP": 0.91039,
+     "SV": 1778,
+     "GA": 175
+    },
+    {
+     "id": 8445275,
+     "name": "Tom Barrasso",
+     "season": 1992,
+     "team": "PIT",
+     "GP": 63,
+     "A": 8,
+     "PIM": 24,
+     "W": 43,
+     "L": 14,
+     "T": 5,
+     "SO": 4,
+     "GAA": 3.01477,
+     "SVP": 0.90132,
+     "SV": 1699,
+     "GA": 186
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.225,
+   "players": [
+    {
+     "id": 8448382,
+     "name": "Curtis Joseph"
+    },
+    {
+     "id": 8445275,
+     "name": "Tom Barrasso"
+    }
+   ],
+   "seasons": [
+    1991,
+    1992
+   ],
+   "text": "Only two goalies of the 1990s recorded 8 points as a goalie: Curtis Joseph (1991-92: 9 assists); Tom Barrasso (1992-93: 8 assists).",
+   "why": "A club of two is a ready-made debate. A goalie racking up points is a novelty post."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "1990s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8446071,
+     "name": "Shane Churla"
+    }
+   ],
+   "seasons": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446071,
+     "name": "Shane Churla",
+     "season": 1990,
+     "team": "MNS",
+     "pos": "R",
+     "GP": 40,
+     "G": 2,
+     "A": 2,
+     "P": 4,
+     "PIM": 286,
+     "PM": 1,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 32,
+     "age": 25
+    },
+    {
+     "id": 8446071,
+     "name": "Shane Churla",
+     "season": 1991,
+     "team": "MNS",
+     "pos": "R",
+     "GP": 57,
+     "G": 4,
+     "A": 1,
+     "P": 5,
+     "PIM": 278,
+     "PM": -12,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 42,
+     "age": 26
+    },
+    {
+     "id": 8446071,
+     "name": "Shane Churla",
+     "season": 1992,
+     "team": "MNS",
+     "pos": "R",
+     "GP": 73,
+     "G": 5,
+     "A": 16,
+     "P": 21,
+     "PIM": 286,
+     "PM": -8,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 61,
+     "age": 27
+    },
+    {
+     "id": 8446071,
+     "name": "Shane Churla",
+     "season": 1993,
+     "team": "DAL",
+     "pos": "R",
+     "GP": 69,
+     "G": 6,
+     "A": 7,
+     "P": 13,
+     "PIM": 333,
+     "PM": -8,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 62,
+     "age": 28
+    },
+    {
+     "id": 8446071,
+     "name": "Shane Churla",
+     "season": 1994,
+     "team": "DAL",
+     "pos": "R",
+     "GP": 27,
+     "G": 1,
+     "A": 3,
+     "P": 4,
+     "PIM": 186,
+     "PM": 0,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 22,
+     "age": 29
+    },
+    {
+     "id": 8446071,
+     "name": "Shane Churla",
+     "season": 1995,
+     "team": "DAL,LAK,NYR",
+     "pos": "R",
+     "GP": 55,
+     "G": 4,
+     "A": 6,
+     "P": 10,
+     "PIM": 231,
+     "PM": -8,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 32,
+     "age": 30
+    }
+   ],
+   "text": "Shane Churla racked up 175+ penalty minutes in 6 straight seasons (1990-91 to 1995-96), the longest run of the 1990s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 12,
+   "rule": "h_pm_hi",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8456870,
+     "name": "Vladimir Konstantinov",
+     "season": 1995,
+     "team": "DET",
+     "pos": "D",
+     "GP": 81,
+     "G": 14,
+     "A": 20,
+     "P": 34,
+     "PIM": 139,
+     "PM": 60,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 168,
+     "age": 28
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 60,
+     "G": 69,
+     "A": 91,
+     "P": 160,
+     "PIM": 38,
+     "PM": 55,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 10,
+     "S": 286,
+     "age": 27
+    },
+    {
+     "id": 8451715,
+     "name": "Scott Stevens",
+     "season": 1993,
+     "team": "NJD",
+     "pos": "D",
+     "GP": 83,
+     "G": 18,
+     "A": 60,
+     "P": 78,
+     "PIM": 112,
+     "PM": 53,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 215,
+     "age": 29
+    },
+    {
+     "id": 8459424,
+     "name": "Chris Pronger",
+     "season": 1999,
+     "team": "STL",
+     "pos": "D",
+     "GP": 79,
+     "G": 14,
+     "A": 48,
+     "P": 62,
+     "PIM": 92,
+     "PM": 52,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 192,
+     "TOI": 26.578901666666663,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.5,
+   "players": [
+    {
+     "id": 8456870,
+     "name": "Vladimir Konstantinov"
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    },
+    {
+     "id": 8451715,
+     "name": "Scott Stevens"
+    },
+    {
+     "id": 8459424,
+     "name": "Chris Pronger"
+    }
+   ],
+   "seasons": [
+    1995,
+    1992,
+    1993,
+    1999
+   ],
+   "text": "Just four players of the 1990s finished +50 or better: Vladimir Konstantinov (1995-96: +60); Mario Lemieux (1992-93: +55); Scott Stevens (1993-94: +53); Chris Pronger (1999-00: +52).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 13,
+   "rule": "h_gpg",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 60,
+     "G": 69,
+     "A": 91,
+     "P": 160,
+     "PIM": 38,
+     "PM": 55,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 10,
+     "S": 286,
+     "age": 27
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1990,
+     "team": "STL",
+     "pos": "R",
+     "GP": 78,
+     "G": 86,
+     "A": 45,
+     "P": 131,
+     "PIM": 22,
+     "PM": 23,
+     "PPG": 29,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 389,
+     "age": 26
+    },
+    {
+     "id": 8449812,
+     "name": "Cam Neely",
+     "season": 1993,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 49,
+     "G": 50,
+     "A": 24,
+     "P": 74,
+     "PIM": 54,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 185,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.4375,
+   "players": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull"
+    },
+    {
+     "id": 8449812,
+     "name": "Cam Neely"
+    }
+   ],
+   "seasons": [
+    1992,
+    1990,
+    1993
+   ],
+   "text": "Just three players of the 1990s scored a goal a game (40+ games): Mario Lemieux (1992-93: 69 goals in 60 games); Brett Hull (1990-91: 86 goals in 78 games); Cam Neely (1993-94: 50 goals in 49 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1990s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8448622,
+     "name": "John LeClair"
+    }
+   ],
+   "seasons": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448622,
+     "name": "John LeClair",
+     "season": 1995,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 82,
+     "G": 51,
+     "A": 46,
+     "P": 97,
+     "PIM": 64,
+     "PM": 21,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 270,
+     "age": 26
+    },
+    {
+     "id": 8448622,
+     "name": "John LeClair",
+     "season": 1996,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 82,
+     "G": 50,
+     "A": 47,
+     "P": 97,
+     "PIM": 58,
+     "PM": 44,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 324,
+     "age": 27
+    },
+    {
+     "id": 8448622,
+     "name": "John LeClair",
+     "season": 1997,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 82,
+     "G": 51,
+     "A": 36,
+     "P": 87,
+     "PIM": 32,
+     "PM": 30,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 303,
+     "TOI": 21.191666666666666,
+     "age": 28
+    },
+    {
+     "id": 8448622,
+     "name": "John LeClair",
+     "season": 1998,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 76,
+     "G": 43,
+     "A": 47,
+     "P": 90,
+     "PIM": 30,
+     "PM": 36,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 246,
+     "TOI": 21.052191666666666,
+     "age": 29
+    },
+    {
+     "id": 8448622,
+     "name": "John LeClair",
+     "season": 1999,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 82,
+     "G": 40,
+     "A": 37,
+     "P": 77,
+     "PIM": 36,
+     "PM": 8,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 249,
+     "TOI": 20.291666666666668,
+     "age": 30
+    }
+   ],
+   "text": "John LeClair scored 39+ goals in 5 straight seasons (1995-96 to 1999-00), the longest run of the 1990s.",
+   "why": "The longest run of the 1990s; fans measure today's stars against it. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1990s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr"
+    }
+   ],
+   "seasons": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 82,
+     "G": 62,
+     "A": 87,
+     "P": 149,
+     "PIM": 96,
+     "PM": 31,
+     "PPG": 20,
+     "SHG": 1,
+     "GWG": 12,
+     "S": 403,
+     "age": 23
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1996,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 63,
+     "G": 47,
+     "A": 48,
+     "P": 95,
+     "PIM": 40,
+     "PM": 22,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 234,
+     "age": 24
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1997,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 77,
+     "G": 35,
+     "A": 67,
+     "P": 102,
+     "PIM": 64,
+     "PM": 17,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 262,
+     "TOI": 22.710604999999997,
+     "age": 25
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1998,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 81,
+     "G": 44,
+     "A": 83,
+     "P": 127,
+     "PIM": 66,
+     "PM": 17,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 343,
+     "TOI": 24.302056666666665,
+     "age": 26
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1999,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 63,
+     "G": 42,
+     "A": 54,
+     "P": 96,
+     "PIM": 50,
+     "PM": 25,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 290,
+     "TOI": 22.715871666666665,
+     "age": 27
+    }
+   ],
+   "text": "Jaromir Jagr recorded 83+ points in 5 straight seasons (1995-96 to 1999-00), the longest run of the 1990s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 16,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "1990s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1995,
+     "team": "NJD",
+     "GP": 77,
+     "A": 1,
+     "PIM": 6,
+     "W": 34,
+     "L": 30,
+     "T": 12,
+     "SO": 6,
+     "GAA": 2.34136,
+     "SVP": 0.91146,
+     "SV": 1781,
+     "GA": 173
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1996,
+     "team": "NJD",
+     "GP": 67,
+     "A": 4,
+     "PIM": 8,
+     "W": 37,
+     "L": 14,
+     "T": 13,
+     "SO": 10,
+     "GAA": 1.87584,
+     "SVP": 0.92651,
+     "SV": 1513,
+     "GA": 120
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1997,
+     "team": "NJD",
+     "GP": 70,
+     "A": 3,
+     "PIM": 10,
+     "W": 43,
+     "L": 17,
+     "T": 8,
+     "SO": 10,
+     "GAA": 1.88935,
+     "SVP": 0.91714,
+     "SV": 1439,
+     "GA": 130
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1998,
+     "team": "NJD",
+     "GP": 70,
+     "A": 4,
+     "PIM": 4,
+     "W": 39,
+     "L": 21,
+     "T": 10,
+     "SO": 4,
+     "GAA": 2.29308,
+     "SVP": 0.90625,
+     "SV": 1566,
+     "GA": 162
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1999,
+     "team": "NJD",
+     "GP": 72,
+     "A": 4,
+     "PIM": 16,
+     "W": 43,
+     "L": 20,
+     "T": 8,
+     "SO": 6,
+     "GAA": 2.24031,
+     "SVP": 0.9104,
+     "SV": 1636,
+     "GA": 161
+    }
+   ],
+   "text": "Martin Brodeur won 32+ games in goal in 5 straight seasons (1995-96 to 1999-00), the longest run of the 1990s.",
+   "why": "The longest run of the 1990s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 17,
+   "rule": "h_volume_miss",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1995,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 82,
+     "G": 20,
+     "A": 62,
+     "P": 82,
+     "PIM": 58,
+     "PM": 31,
+     "PPG": 9,
+     "SHG": 2,
+     "GWG": 2,
+     "S": 390,
+     "age": 35
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1993,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 72,
+     "G": 20,
+     "A": 71,
+     "P": 91,
+     "PIM": 58,
+     "PM": 26,
+     "PPG": 10,
+     "SHG": 3,
+     "GWG": 1,
+     "S": 386,
+     "age": 33
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1991,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 80,
+     "G": 21,
+     "A": 60,
+     "P": 81,
+     "PIM": 56,
+     "PM": 11,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 334,
+     "age": 31
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1992,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 19,
+     "A": 63,
+     "P": 82,
+     "PIM": 40,
+     "PM": 38,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 330,
+     "age": 32
+    },
+    {
+     "id": 8445550,
+     "name": "Rob Blake",
+     "season": 1999,
+     "team": "LAK",
+     "pos": "D",
+     "GP": 77,
+     "G": 18,
+     "A": 39,
+     "P": 57,
+     "PIM": 112,
+     "PM": 10,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 327,
+     "TOI": 27.651298333333333,
+     "age": 30
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1990,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 21,
+     "A": 73,
+     "P": 94,
+     "PIM": 75,
+     "PM": 33,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 323,
+     "age": 30
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1995,
+     "team": "STL",
+     "pos": "D",
+     "GP": 82,
+     "G": 17,
+     "A": 44,
+     "P": 61,
+     "PIM": 88,
+     "PM": 5,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 317,
+     "age": 32
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1998,
+     "team": "STL",
+     "pos": "D",
+     "GP": 82,
+     "G": 20,
+     "A": 42,
+     "P": 62,
+     "PIM": 70,
+     "PM": 33,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 314,
+     "TOI": 26.037398333333332,
+     "age": 35
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1991,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 72,
+     "G": 20,
+     "A": 57,
+     "P": 77,
+     "PIM": 83,
+     "PM": 13,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 304,
+     "age": 28
+    },
+    {
+     "id": 8445550,
+     "name": "Rob Blake",
+     "season": 1993,
+     "team": "LAK",
+     "pos": "D",
+     "GP": 84,
+     "G": 20,
+     "A": 48,
+     "P": 68,
+     "PIM": 137,
+     "PM": -7,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 304,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "few",
+   "score": 6.975,
+   "players": [
+    {
+     "id": 8445621,
+     "name": "Ray Bourque"
+    },
+    {
+     "id": 8445550,
+     "name": "Rob Blake"
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis"
+    }
+   ],
+   "seasons": [
+    1995,
+    1993,
+    1991,
+    1992,
+    1999,
+    1990,
+    1995,
+    1998,
+    1991,
+    1993
+   ],
+   "text": "Just three players of the 1990s fired 300 shots and scored 22 or fewer: Ray Bourque (5×, best 1995-96: 20 goals on 390 shots); Rob Blake (2×, best 1999-00: 18 goals on 327 shots); Al MacInnis (3×, best 1995-96: 17 goals on 317 shots).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 18,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449743,
+     "name": "Joe Mullen",
+     "season": 1993,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 84,
+     "G": 38,
+     "A": 32,
+     "P": 70,
+     "PIM": 41,
+     "PM": 9,
+     "PPG": 6,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 231,
+     "age": 36
+    },
+    {
+     "id": 8449573,
+     "name": "Mark Messier",
+     "season": 1996,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 71,
+     "G": 36,
+     "A": 48,
+     "P": 84,
+     "PIM": 88,
+     "PM": 12,
+     "PPG": 7,
+     "SHG": 5,
+     "GWG": 9,
+     "S": 227,
+     "age": 36
+    },
+    {
+     "id": 8447067,
+     "name": "Mike Gartner",
+     "season": 1995,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 82,
+     "G": 35,
+     "A": 19,
+     "P": 54,
+     "PIM": 52,
+     "PM": 5,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 275,
+     "age": 36
+    },
+    {
+     "id": 8446063,
+     "name": "Dino Ciccarelli",
+     "season": 1996,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 77,
+     "G": 35,
+     "A": 25,
+     "P": 60,
+     "PIM": 116,
+     "PM": -11,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 229,
+     "age": 36
+    },
+    {
+     "id": 8447067,
+     "name": "Mike Gartner",
+     "season": 1996,
+     "team": "PHX",
+     "pos": "R",
+     "GP": 82,
+     "G": 32,
+     "A": 31,
+     "P": 63,
+     "PIM": 38,
+     "PM": -11,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 271,
+     "age": 37
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.95,
+   "players": [
+    {
+     "id": 8449743,
+     "name": "Joe Mullen"
+    },
+    {
+     "id": 8449573,
+     "name": "Mark Messier"
+    },
+    {
+     "id": 8447067,
+     "name": "Mike Gartner"
+    },
+    {
+     "id": 8446063,
+     "name": "Dino Ciccarelli"
+    }
+   ],
+   "seasons": [
+    1993,
+    1996,
+    1995,
+    1996,
+    1996
+   ],
+   "text": "Just four players of the 1990s scored 28 goals at age 36 or older: Joe Mullen (1993-94: 38 goals at 36); Mark Messier (1996-97: 36 goals at 36); Mike Gartner (2×, best 1995-96: 35 goals at 36); Dino Ciccarelli (1996-97: 35 goals at 36).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 19,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448769,
+     "name": "Brian Leetch",
+     "season": 1993,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 23,
+     "G": 11,
+     "A": 23,
+     "P": 34,
+     "PIM": 6,
+     "PM": 19,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 88,
+     "age": 25
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1990,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 19,
+     "G": 7,
+     "A": 18,
+     "P": 25,
+     "PIM": 12,
+     "PM": -4,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 84,
+     "age": 30
+    },
+    {
+     "id": 8449745,
+     "name": "Larry Murphy",
+     "season": 1990,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 23,
+     "G": 5,
+     "A": 18,
+     "P": 23,
+     "PIM": 44,
+     "PM": 17,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 66,
+     "age": 29
+    },
+    {
+     "id": 8446053,
+     "name": "Chris Chelios",
+     "season": 1991,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 18,
+     "G": 6,
+     "A": 15,
+     "P": 21,
+     "PIM": 37,
+     "PM": 19,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 54,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.85,
+   "players": [
+    {
+     "id": 8448769,
+     "name": "Brian Leetch"
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque"
+    },
+    {
+     "id": 8449745,
+     "name": "Larry Murphy"
+    },
+    {
+     "id": 8446053,
+     "name": "Chris Chelios"
+    }
+   ],
+   "seasons": [
+    1993,
+    1990,
+    1990,
+    1991
+   ],
+   "text": "Just four players of the 1990s recorded 20 points as a defenseman in one postseason: Brian Leetch (1993-94: 34 points in 23 games); Ray Bourque (1990-91: 25 points in 19 games); Larry Murphy (1990-91: 23 points in 23 games); Chris Chelios (1991-92: 21 points in 18 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 20,
+   "rule": "h_spct",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450900,
+     "name": "Gary Roberts",
+     "season": 1991,
+     "team": "CGY",
+     "pos": "L",
+     "GP": 76,
+     "G": 53,
+     "A": 37,
+     "P": 90,
+     "PIM": 207,
+     "PM": 32,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 196,
+     "age": 25
+    },
+    {
+     "id": 8449812,
+     "name": "Cam Neely",
+     "season": 1993,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 49,
+     "G": 50,
+     "A": 24,
+     "P": 74,
+     "PIM": 54,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 185,
+     "age": 28
+    },
+    {
+     "id": 8446823,
+     "name": "Ray Ferraro",
+     "season": 1991,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 80,
+     "G": 40,
+     "A": 40,
+     "P": 80,
+     "PIM": 92,
+     "PM": 25,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 154,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.676020408163265,
+   "players": [
+    {
+     "id": 8450900,
+     "name": "Gary Roberts"
+    },
+    {
+     "id": 8449812,
+     "name": "Cam Neely"
+    },
+    {
+     "id": 8446823,
+     "name": "Ray Ferraro"
+    }
+   ],
+   "seasons": [
+    1991,
+    1993,
+    1991
+   ],
+   "text": "Just three players of the 1990s shot 25% on 150+ shots: Gary Roberts (1991-92: 27.0% (53 on 196 shots)); Cam Neely (1993-94: 27.0% (50 on 185 shots)); Ray Ferraro (1991-92: 26.0% (40 on 154 shots)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 21,
+   "rule": "g_sv2000",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457714,
+     "name": "Felix Potvin",
+     "season": 1996,
+     "team": "TOR",
+     "GP": 74,
+     "A": 3,
+     "PIM": 19,
+     "W": 27,
+     "L": 36,
+     "T": 7,
+     "SO": 0,
+     "GAA": 3.1466,
+     "SVP": 0.90812,
+     "SV": 2214,
+     "GA": 224
+    },
+    {
+     "id": 8448382,
+     "name": "Curtis Joseph",
+     "season": 1993,
+     "team": "STL",
+     "GP": 71,
+     "A": 3,
+     "PIM": 4,
+     "W": 36,
+     "L": 23,
+     "T": 11,
+     "SO": 1,
+     "GAA": 3.09694,
+     "SVP": 0.91057,
+     "SV": 2169,
+     "GA": 213
+    },
+    {
+     "id": 8450651,
+     "name": "Bill Ranford",
+     "season": 1993,
+     "team": "EDM",
+     "GP": 71,
+     "A": 2,
+     "PIM": 2,
+     "W": 22,
+     "L": 34,
+     "T": 11,
+     "SO": 1,
+     "GAA": 3.47917,
+     "SVP": 0.89849,
+     "SV": 2089,
+     "GA": 236
+    },
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1996,
+     "team": "BUF",
+     "GP": 67,
+     "A": 3,
+     "PIM": 30,
+     "W": 37,
+     "L": 20,
+     "T": 10,
+     "SO": 5,
+     "GAA": 2.27397,
+     "SVP": 0.92971,
+     "SV": 2024,
+     "GA": 153
+    },
+    {
+     "id": 8448382,
+     "name": "Curtis Joseph",
+     "season": 1992,
+     "team": "STL",
+     "GP": 68,
+     "A": 2,
+     "PIM": 8,
+     "W": 29,
+     "L": 28,
+     "T": 9,
+     "SO": 1,
+     "GAA": 3.023,
+     "SVP": 0.91099,
+     "SV": 2006,
+     "GA": 196
+    },
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1997,
+     "team": "BUF",
+     "GP": 72,
+     "A": 2,
+     "PIM": 12,
+     "W": 33,
+     "L": 23,
+     "T": 13,
+     "SO": 13,
+     "GAA": 2.09024,
+     "SVP": 0.93159,
+     "SV": 2002,
+     "GA": 147
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.5535,
+   "players": [
+    {
+     "id": 8457714,
+     "name": "Felix Potvin"
+    },
+    {
+     "id": 8448382,
+     "name": "Curtis Joseph"
+    },
+    {
+     "id": 8450651,
+     "name": "Bill Ranford"
+    },
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek"
+    }
+   ],
+   "seasons": [
+    1996,
+    1993,
+    1993,
+    1996,
+    1992,
+    1997
+   ],
+   "text": "Just four goalies of the 1990s made 2,000 saves: Felix Potvin (1996-97: 2,214 saves); Curtis Joseph (2×, best 1993-94: 2,169 saves); Bill Ranford (1993-94: 2,089 saves); Dominik Hasek (2×, best 1996-97: 2,024 saves).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 22,
+   "rule": "g_t",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8456692,
+     "name": "Arturs Irbe",
+     "season": 1993,
+     "team": "SJS",
+     "GP": 74,
+     "A": 2,
+     "PIM": 16,
+     "W": 30,
+     "L": 28,
+     "T": 16,
+     "SO": 3,
+     "GAA": 2.84248,
+     "SVP": 0.89874,
+     "SV": 1855,
+     "GA": 209
+    },
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "season": 1995,
+     "team": "STL",
+     "GP": 79,
+     "A": 1,
+     "PIM": 8,
+     "W": 30,
+     "L": 28,
+     "T": 16,
+     "SO": 3,
+     "GAA": 2.87277,
+     "SVP": 0.9031,
+     "SV": 1948,
+     "GA": 209
+    },
+    {
+     "id": 8450833,
+     "name": "Mike Richter",
+     "season": 1997,
+     "team": "NYR",
+     "GP": 72,
+     "A": 1,
+     "PIM": 2,
+     "W": 21,
+     "L": 31,
+     "T": 15,
+     "SO": 0,
+     "GAA": 2.66447,
+     "SVP": 0.90254,
+     "SV": 1704,
+     "GA": 184
+    },
+    {
+     "id": 8452157,
+     "name": "John Vanbiesbrouck",
+     "season": 1998,
+     "team": "PHI",
+     "GP": 62,
+     "A": 1,
+     "PIM": 12,
+     "W": 27,
+     "L": 18,
+     "T": 15,
+     "SO": 6,
+     "GAA": 2.18214,
+     "SVP": 0.90217,
+     "SV": 1245,
+     "GA": 135
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.4,
+   "players": [
+    {
+     "id": 8456692,
+     "name": "Arturs Irbe"
+    },
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr"
+    },
+    {
+     "id": 8450833,
+     "name": "Mike Richter"
+    },
+    {
+     "id": 8452157,
+     "name": "John Vanbiesbrouck"
+    }
+   ],
+   "seasons": [
+    1993,
+    1995,
+    1997,
+    1998
+   ],
+   "text": "Just four goalies of the 1990s tied 15 games: Arturs Irbe (1993-94: 16 ties); Grant Fuhr (1995-96: 16 ties); Mike Richter (1997-98: 15 ties); John Vanbiesbrouck (1998-99: 15 ties).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 23,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1997,
+     "team": "BUF",
+     "GP": 72,
+     "A": 2,
+     "PIM": 12,
+     "W": 33,
+     "L": 23,
+     "T": 13,
+     "SO": 13,
+     "GAA": 2.09024,
+     "SVP": 0.93159,
+     "SV": 2002,
+     "GA": 147
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1996,
+     "team": "NJD",
+     "GP": 67,
+     "A": 4,
+     "PIM": 8,
+     "W": 37,
+     "L": 14,
+     "T": 13,
+     "SO": 10,
+     "GAA": 1.87584,
+     "SVP": 0.92651,
+     "SV": 1513,
+     "GA": 120
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1997,
+     "team": "NJD",
+     "GP": 70,
+     "A": 3,
+     "PIM": 10,
+     "W": 43,
+     "L": 17,
+     "T": 8,
+     "SO": 10,
+     "GAA": 1.88935,
+     "SVP": 0.91714,
+     "SV": 1439,
+     "GA": 130
+    },
+    {
+     "id": 8455994,
+     "name": "Byron Dafoe",
+     "season": 1998,
+     "team": "BOS",
+     "GP": 68,
+     "A": 2,
+     "PIM": 25,
+     "W": 32,
+     "L": 23,
+     "T": 11,
+     "SO": 10,
+     "GAA": 1.99436,
+     "SVP": 0.92611,
+     "SV": 1667,
+     "GA": 133
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.325,
+   "players": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek"
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    },
+    {
+     "id": 8455994,
+     "name": "Byron Dafoe"
+    }
+   ],
+   "seasons": [
+    1997,
+    1996,
+    1997,
+    1998
+   ],
+   "text": "Just three goalies of the 1990s recorded 10 shutouts: Dominik Hasek (1997-98: 13 shutouts in 72 games); Martin Brodeur (2×, best 1996-97: 10 shutouts in 67 games); Byron Dafoe (1998-99: 10 shutouts in 68 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 24,
+   "rule": "po_gwg",
+   "group": "PO",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 1995,
+     "team": "COL",
+     "pos": "C",
+     "GP": 22,
+     "G": 18,
+     "A": 16,
+     "P": 34,
+     "PIM": 14,
+     "PM": 10,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 98,
+     "age": 26
+    },
+    {
+     "id": 8449893,
+     "name": "Joe Nieuwendyk",
+     "season": 1998,
+     "team": "DAL",
+     "pos": "C",
+     "GP": 23,
+     "G": 11,
+     "A": 10,
+     "P": 21,
+     "PIM": 19,
+     "PM": 7,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 72,
+     "TOI": 18.443476666666665,
+     "age": 32
+    },
+    {
+     "id": 8451476,
+     "name": "Bobby Smith",
+     "season": 1990,
+     "team": "MNS",
+     "pos": "C",
+     "GP": 23,
+     "G": 8,
+     "A": 8,
+     "P": 16,
+     "PIM": 46,
+     "PM": -5,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 60,
+     "age": 32
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1991,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 15,
+     "G": 16,
+     "A": 18,
+     "P": 34,
+     "PIM": 2,
+     "PM": 6,
+     "PPG": 8,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 69,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.15,
+   "players": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic"
+    },
+    {
+     "id": 8449893,
+     "name": "Joe Nieuwendyk"
+    },
+    {
+     "id": 8451476,
+     "name": "Bobby Smith"
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    }
+   ],
+   "seasons": [
+    1995,
+    1998,
+    1990,
+    1991
+   ],
+   "text": "Just four players of the 1990s scored 5 game-winning goals in one postseason: Joe Sakic (1995-96: 6 GWG); Joe Nieuwendyk (1998-99: 6 GWG); Bobby Smith (1990-91: 5 GWG); Mario Lemieux (1991-92: 5 GWG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 25,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449474,
+     "name": "Kirk McLean",
+     "season": 1993,
+     "team": "VAN",
+     "GP": 24,
+     "A": 1,
+     "PIM": 0,
+     "W": 15,
+     "L": 9,
+     "T": 0,
+     "SO": 4,
+     "GAA": 2.29311,
+     "SVP": 0.92804,
+     "SV": 761,
+     "GA": 59
+    },
+    {
+     "id": 8450833,
+     "name": "Mike Richter",
+     "season": 1993,
+     "team": "NYR",
+     "GP": 23,
+     "A": 0,
+     "PIM": 2,
+     "W": 16,
+     "L": 7,
+     "T": 0,
+     "SO": 4,
+     "GAA": 2.07409,
+     "SVP": 0.92134,
+     "SV": 574,
+     "GA": 49
+    },
+    {
+     "id": 8448535,
+     "name": "Olie Kolzig",
+     "season": 1997,
+     "team": "WSH",
+     "GP": 21,
+     "A": 0,
+     "PIM": 4,
+     "W": 12,
+     "L": 9,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.95401,
+     "SVP": 0.94054,
+     "SV": 696,
+     "GA": 44
+    },
+    {
+     "id": 8445386,
+     "name": "Ed Belfour",
+     "season": 1999,
+     "team": "DAL",
+     "GP": 23,
+     "A": 0,
+     "PIM": 8,
+     "W": 14,
+     "L": 9,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.87118,
+     "SVP": 0.93087,
+     "SV": 606,
+     "GA": 45
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.1,
+   "players": [
+    {
+     "id": 8449474,
+     "name": "Kirk McLean"
+    },
+    {
+     "id": 8450833,
+     "name": "Mike Richter"
+    },
+    {
+     "id": 8448535,
+     "name": "Olie Kolzig"
+    },
+    {
+     "id": 8445386,
+     "name": "Ed Belfour"
+    }
+   ],
+   "seasons": [
+    1993,
+    1993,
+    1997,
+    1999
+   ],
+   "text": "Just four goalies of the 1990s recorded 4 shutouts in one postseason: Kirk McLean (1993-94: 4 shutouts in 24 games); Mike Richter (1993-94: 4 shutouts in 23 games); Olie Kolzig (1997-98: 4 shutouts in 21 games); Ed Belfour (1999-00: 4 shutouts in 23 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 26,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1990,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 41,
+     "A": 122,
+     "P": 163,
+     "PIM": 16,
+     "PM": 30,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 212,
+     "age": 30
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "season": 1992,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 84,
+     "G": 45,
+     "A": 97,
+     "P": 142,
+     "PIM": 32,
+     "PM": 15,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 254,
+     "age": 30
+    },
+    {
+     "id": 8447206,
+     "name": "Doug Gilmour",
+     "season": 1992,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 83,
+     "G": 32,
+     "A": 95,
+     "P": 127,
+     "PIM": 100,
+     "PM": 32,
+     "PPG": 15,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 211,
+     "age": 29
+    },
+    {
+     "id": 8448626,
+     "name": "Pat LaFontaine",
+     "season": 1992,
+     "team": "BUF",
+     "pos": "C",
+     "GP": 84,
+     "G": 53,
+     "A": 95,
+     "P": 148,
+     "PIM": 63,
+     "PM": 11,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 7,
+     "S": 306,
+     "age": 27
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1993,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 81,
+     "G": 38,
+     "A": 92,
+     "P": 130,
+     "PIM": 20,
+     "PM": -25,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 0,
+     "S": 233,
+     "age": 33
+    },
+    {
+     "id": 8446951,
+     "name": "Ron Francis",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 77,
+     "G": 27,
+     "A": 92,
+     "P": 119,
+     "PIM": 56,
+     "PM": 25,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 158,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "11 players recorded 80 assists in the 1990s (19 seasons). The most extreme: Wayne Gretzky, 1990-91 — 122 assists.",
+   "why": "Leads with the most extreme case, which carries the post. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 27,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1990,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 41,
+     "A": 122,
+     "P": 163,
+     "PIM": 16,
+     "PM": 30,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 212,
+     "age": 30
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "season": 1992,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 84,
+     "G": 45,
+     "A": 97,
+     "P": 142,
+     "PIM": 32,
+     "PM": 15,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 11,
+     "S": 254,
+     "age": 30
+    },
+    {
+     "id": 8447206,
+     "name": "Doug Gilmour",
+     "season": 1992,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 83,
+     "G": 32,
+     "A": 95,
+     "P": 127,
+     "PIM": 100,
+     "PM": 32,
+     "PPG": 15,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 211,
+     "age": 29
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1993,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 81,
+     "G": 38,
+     "A": 92,
+     "P": 130,
+     "PIM": 20,
+     "PM": -25,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 0,
+     "S": 233,
+     "age": 33
+    },
+    {
+     "id": 8446951,
+     "name": "Ron Francis",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 77,
+     "G": 27,
+     "A": 92,
+     "P": 119,
+     "PIM": 56,
+     "PM": 25,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 158,
+     "age": 32
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "season": 1990,
+     "team": "STL",
+     "pos": "C",
+     "GP": 61,
+     "G": 25,
+     "A": 90,
+     "P": 115,
+     "PIM": 29,
+     "PM": 15,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 139,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 46,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "20 players recorded 64 assists with twice as many assists as goals in the 1990s (46 seasons). The most extreme: Wayne Gretzky, 1990-91 — 122A, 41G.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 28,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451711,
+     "name": "Kevin Stevens",
+     "season": 1991,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 80,
+     "G": 54,
+     "A": 69,
+     "P": 123,
+     "PIM": 254,
+     "PM": 8,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 325,
+     "age": 26
+    },
+    {
+     "id": 8458515,
+     "name": "Eric Lindros",
+     "season": 1995,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 73,
+     "G": 47,
+     "A": 68,
+     "P": 115,
+     "PIM": 163,
+     "PM": 26,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 294,
+     "age": 22
+    },
+    {
+     "id": 8451711,
+     "name": "Kevin Stevens",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 72,
+     "G": 55,
+     "A": 56,
+     "P": 111,
+     "PIM": 177,
+     "PM": 17,
+     "PPG": 26,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 326,
+     "age": 27
+    },
+    {
+     "id": 8451925,
+     "name": "Rick Tocchet",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 80,
+     "G": 48,
+     "A": 61,
+     "P": 109,
+     "PIM": 252,
+     "PM": 28,
+     "PPG": 20,
+     "SHG": 4,
+     "GWG": 5,
+     "S": 240,
+     "age": 28
+    },
+    {
+     "id": 8451302,
+     "name": "Brendan Shanahan",
+     "season": 1993,
+     "team": "STL",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 50,
+     "P": 102,
+     "PIM": 211,
+     "PM": -9,
+     "PPG": 15,
+     "SHG": 7,
+     "GWG": 8,
+     "S": 397,
+     "age": 25
+    },
+    {
+     "id": 8458229,
+     "name": "Keith Tkachuk",
+     "season": 1995,
+     "team": "WIN",
+     "pos": "L",
+     "GP": 76,
+     "G": 50,
+     "A": 48,
+     "P": 98,
+     "PIM": 156,
+     "PM": 11,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 249,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 34,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451711,
+     "name": "Kevin Stevens"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "text": "19 players recorded 66 points and 150 penalty minutes in the 1990s (34 seasons). The most extreme: Kevin Stevens, 1991-92 — 123 pts, 254 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1990,
+     "team": "STL",
+     "pos": "R",
+     "GP": 78,
+     "G": 86,
+     "A": 45,
+     "P": 131,
+     "PIM": 22,
+     "PM": 23,
+     "PPG": 29,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 389,
+     "age": 26
+    }
+   ],
+   "among": 7572,
+   "text": "Most goals in a season in the 1990s: Brett Hull, 1990-91 — 86 in 78 games.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450293,
+     "name": "Mike Peluso"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450293,
+     "name": "Mike Peluso",
+     "season": 1991,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 63,
+     "G": 6,
+     "A": 3,
+     "P": 9,
+     "PIM": 408,
+     "PM": 1,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 32,
+     "age": 26
+    }
+   ],
+   "among": 7572,
+   "text": "Most penalty minutes in a season in the 1990s: Mike Peluso, 1991-92 — 408.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_ppg",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445000,
+     "name": "Dave Andreychuk"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445000,
+     "name": "Dave Andreychuk",
+     "season": 1992,
+     "team": "BUF,TOR",
+     "pos": "L",
+     "GP": 83,
+     "G": 54,
+     "A": 45,
+     "P": 99,
+     "PIM": 56,
+     "PM": 4,
+     "PPG": 32,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 310,
+     "age": 29
+    }
+   ],
+   "among": 7572,
+   "text": "Most power-play goals in a season in the 1990s: Dave Andreychuk, 1992-93 — 32.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8455738,
+     "name": "Pavel Bure"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1999,
+     "team": "FLA",
+     "pos": "R",
+     "GP": 74,
+     "G": 58,
+     "A": 36,
+     "P": 94,
+     "PIM": 16,
+     "PM": 25,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 14,
+     "S": 360,
+     "TOI": 23.55518,
+     "age": 28
+    }
+   ],
+   "among": 7572,
+   "text": "Most game-winning goals in a season in the 1990s: Pavel Bure, 1999-00 — 14.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_pm",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8456870,
+     "name": "Vladimir Konstantinov"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8456870,
+     "name": "Vladimir Konstantinov",
+     "season": 1995,
+     "team": "DET",
+     "pos": "D",
+     "GP": 81,
+     "G": 14,
+     "A": 20,
+     "P": 34,
+     "PIM": 139,
+     "PM": 60,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 168,
+     "age": 28
+    }
+   ],
+   "among": 7572,
+   "text": "Best plus-minus in a season in the 1990s: Vladimir Konstantinov, 1995-96 — +60.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446424,
+     "name": "Gord Dineen"
+    }
+   ],
+   "seasons": [
+    1993
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446424,
+     "name": "Gord Dineen",
+     "season": 1993,
+     "team": "OTT",
+     "pos": "D",
+     "GP": 77,
+     "G": 0,
+     "A": 21,
+     "P": 21,
+     "PIM": 89,
+     "PM": -52,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 62,
+     "age": 31
+    }
+   ],
+   "among": 7572,
+   "text": "Worst plus-minus in a season in the 1990s: Gord Dineen, 1993-94 — -52.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8459426,
+     "name": "Paul Kariya"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459426,
+     "name": "Paul Kariya",
+     "season": 1998,
+     "team": "ANA",
+     "pos": "L",
+     "GP": 82,
+     "G": 39,
+     "A": 62,
+     "P": 101,
+     "PIM": 40,
+     "PM": 17,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 429,
+     "TOI": 25.26138166666667,
+     "age": 24
+    }
+   ],
+   "among": 7572,
+   "text": "Most shots in a season in the 1990s: Paul Kariya, 1998-99 — 429.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450900,
+     "name": "Gary Roberts"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450900,
+     "name": "Gary Roberts",
+     "season": 1991,
+     "team": "CGY",
+     "pos": "L",
+     "GP": 76,
+     "G": 53,
+     "A": 37,
+     "P": 90,
+     "PIM": 207,
+     "PM": 32,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 196,
+     "age": 25
+    }
+   ],
+   "among": 1189,
+   "text": "Best shooting percentage in a season (150+ shots) in the 1990s: Gary Roberts, 1991-92 — 27.0%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448960,
+     "name": "Al MacInnis"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1990,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 78,
+     "G": 28,
+     "A": 75,
+     "P": 103,
+     "PIM": 90,
+     "PM": 42,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 305,
+     "age": 27
+    }
+   ],
+   "among": 2600,
+   "text": "Most points by a defenseman in a season in the 1990s: Al MacInnis, 1990-91 — 103.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447680,
+     "name": "Kevin Hatcher"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447680,
+     "name": "Kevin Hatcher",
+     "season": 1992,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 83,
+     "G": 34,
+     "A": 45,
+     "P": 79,
+     "PIM": 114,
+     "PM": -7,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 329,
+     "age": 26
+    }
+   ],
+   "among": 2600,
+   "text": "Most goals by a defenseman in a season in the 1990s: Kevin Hatcher, 1992-93 — 34.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 84,
+     "G": 76,
+     "A": 56,
+     "P": 132,
+     "PIM": 45,
+     "PM": 8,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 387,
+     "age": 22
+    }
+   ],
+   "among": 1129,
+   "text": "Most goals in a first NHL season in the 1990s: Teemu Selanne, 1992-93 — 76.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "x_toi",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445550,
+     "name": "Rob Blake"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445550,
+     "name": "Rob Blake",
+     "season": 1999,
+     "team": "LAK",
+     "pos": "D",
+     "GP": 77,
+     "G": 18,
+     "A": 39,
+     "P": 57,
+     "PIM": 112,
+     "PM": 10,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 327,
+     "TOI": 27.651298333333333,
+     "age": 30
+    }
+   ],
+   "among": 1436,
+   "text": "Most ice time per game in a season in the 1990s: Rob Blake, 1999-00 — 27.7 minutes.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ice-time workload shows who coaches trusted most."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451837,
+     "name": "Ron Tugnutt"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451837,
+     "name": "Ron Tugnutt",
+     "season": 1998,
+     "team": "OTT",
+     "GP": 43,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 10,
+     "T": 8,
+     "SO": 3,
+     "GAA": 1.79399,
+     "SVP": 0.92537,
+     "SV": 930,
+     "GA": 75
+    }
+   ],
+   "among": 313,
+   "text": "Best goals-against average in a season (40% of games) in the 1990s: Ron Tugnutt, 1998-99 — 1.79.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "gx_saves",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8457714,
+     "name": "Felix Potvin"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457714,
+     "name": "Felix Potvin",
+     "season": 1996,
+     "team": "TOR",
+     "GP": 74,
+     "A": 3,
+     "PIM": 19,
+     "W": 27,
+     "L": 36,
+     "T": 7,
+     "SO": 0,
+     "GAA": 3.1466,
+     "SVP": 0.90812,
+     "SV": 2214,
+     "GA": 224
+    }
+   ],
+   "among": 766,
+   "text": "Most saves in a season in the 1990s: Felix Potvin, 1996-97 — 2,214.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "gx_gp",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "season": 1995,
+     "team": "STL",
+     "GP": 79,
+     "A": 1,
+     "PIM": 8,
+     "W": 30,
+     "L": 28,
+     "T": 16,
+     "SO": 3,
+     "GAA": 2.87277,
+     "SVP": 0.9031,
+     "SV": 1948,
+     "GA": 209
+    }
+   ],
+   "among": 766,
+   "text": "Most games by a goalie in a season in the 1990s: Grant Fuhr, 1995-96 — 79.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451369,
+     "name": "Peter Sidorkiewicz"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451369,
+     "name": "Peter Sidorkiewicz",
+     "season": 1992,
+     "team": "OTT",
+     "GP": 64,
+     "A": 0,
+     "PIM": 8,
+     "W": 8,
+     "L": 46,
+     "T": 3,
+     "SO": 0,
+     "GAA": 4.42758,
+     "SVP": 0.85607,
+     "SV": 1487,
+     "GA": 250
+    }
+   ],
+   "among": 766,
+   "text": "Most losses by a goalie in a season in the 1990s: Peter Sidorkiewicz, 1992-93 — 46.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1995,
+     "GP": 82,
+     "W": 62,
+     "L": 13,
+     "T": 7,
+     "GF": 325,
+     "GA": 181,
+     "PCT": 0.79878
+    }
+   ],
+   "among": 252,
+   "text": "Best points percentage in a season in the 1990s: Detroit Red Wings, 1995-96 — .799 (62-13-7).",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1995,
+     "GP": 82,
+     "W": 49,
+     "L": 29,
+     "T": 4,
+     "GF": 362,
+     "GA": 284,
+     "PCT": 0.62195
+    }
+   ],
+   "among": 252,
+   "text": "Most goals per game by a team in the 1990s: Pittsburgh Penguins, 1995-96 — 4.41 (362 in 82).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues",
+     "season": 1999,
+     "GP": 82,
+     "W": 51,
+     "L": 19,
+     "T": 11,
+     "OTL": 1,
+     "GF": 248,
+     "GA": 165,
+     "PCT": 0.69512
+    }
+   ],
+   "among": 252,
+   "text": "Fewest goals allowed per game in the 1990s: St. Louis Blues, 1999-00 — 2.01 (165 in 82).",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1995,
+     "GP": 82,
+     "W": 62,
+     "L": 13,
+     "T": 7,
+     "GF": 325,
+     "GA": 181,
+     "PCT": 0.79878
+    }
+   ],
+   "among": 252,
+   "text": "Best goal differential in a season in the 1990s: Detroit Red Wings, 1995-96 — +144.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "tx_pp",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1995,
+     "GP": 82,
+     "W": 49,
+     "L": 29,
+     "T": 4,
+     "GF": 362,
+     "GA": 284,
+     "PCT": 0.62195
+    }
+   ],
+   "among": 252,
+   "text": "Best power play in a season in the 1990s: Pittsburgh Penguins, 1995-96 — 26.0%.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "tx_pk",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars",
+     "season": 1999,
+     "GP": 82,
+     "W": 43,
+     "L": 23,
+     "T": 10,
+     "OTL": 6,
+     "GF": 211,
+     "GA": 184,
+     "PCT": 0.62195
+    }
+   ],
+   "among": 252,
+   "text": "Best penalty kill in a season in the 1990s: Dallas Stars, 1999-00 — 89.3%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 1995,
+     "team": "COL",
+     "pos": "C",
+     "GP": 22,
+     "G": 18,
+     "A": 16,
+     "P": 34,
+     "PIM": 14,
+     "PM": 10,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 98,
+     "age": 26
+    }
+   ],
+   "among": 3457,
+   "text": "Most goals in a single postseason in the 1990s: Joe Sakic, 1995-96 — 18 in 22 games.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1990,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 41,
+     "A": 122,
+     "P": 163,
+     "PIM": 16,
+     "PM": 30,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 212,
+     "age": 30
+    }
+   ],
+   "among": 7572,
+   "text": "Most points in a season in the 1990s: Wayne Gretzky, 1990-91 — 163 (41G, 122A).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1990,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 41,
+     "A": 122,
+     "P": 163,
+     "PIM": 16,
+     "PM": 30,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 212,
+     "age": 30
+    }
+   ],
+   "among": 7572,
+   "text": "Most assists in a season in the 1990s: Wayne Gretzky, 1990-91 — 122.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 60,
+     "G": 69,
+     "A": 91,
+     "P": 160,
+     "PIM": 38,
+     "PM": 55,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 10,
+     "S": 286,
+     "age": 27
+    }
+   ],
+   "among": 4420,
+   "text": "Most points per game in a season (60% of games) in the 1990s: Mario Lemieux, 1992-93 — 2.67.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 60,
+     "G": 69,
+     "A": 91,
+     "P": 160,
+     "PIM": 38,
+     "PM": 55,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 10,
+     "S": 286,
+     "age": 27
+    }
+   ],
+   "among": 4420,
+   "text": "Most goals per game in a season (60% of games) in the 1990s: Mario Lemieux, 1992-93 — 1.15.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 84,
+     "G": 76,
+     "A": 56,
+     "P": 132,
+     "PIM": 45,
+     "PM": 8,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 387,
+     "age": 22
+    }
+   ],
+   "among": 1129,
+   "text": "Most points in a first NHL season in the 1990s: Teemu Selanne, 1992-93 — 132.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 57,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek"
+    }
+   ],
+   "seasons": [
+    1997
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1997,
+     "team": "BUF",
+     "GP": 72,
+     "A": 2,
+     "PIM": 12,
+     "W": 33,
+     "L": 23,
+     "T": 13,
+     "SO": 13,
+     "GAA": 2.09024,
+     "SVP": 0.93159,
+     "SV": 2002,
+     "GA": 147
+    }
+   ],
+   "among": 766,
+   "text": "Most shutouts in a season in the 1990s: Dominik Hasek, 1997-98 — 13.",
+   "why": "The high-water mark of the 1990s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "gx_sv",
+   "group": "P",
+   "decade": "1990s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "season": 1998,
+     "team": "BUF",
+     "GP": 64,
+     "A": 0,
+     "PIM": 14,
+     "W": 30,
+     "L": 18,
+     "T": 14,
+     "SO": 9,
+     "GAA": 1.87071,
+     "SVP": 0.9366,
+     "SV": 1758,
+     "GA": 119
+    }
+   ],
+   "among": 313,
+   "text": "Best save percentage in a season (40% of games) in the 1990s: Dominik Hasek, 1998-99 — .937.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 59,
+   "kind": "nearmiss",
+   "rule": "n_p99",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5.75,
+   "players": [
+    {
+     "id": 8445000,
+     "name": "Dave Andreychuk"
+    },
+    {
+     "id": 8445000,
+     "name": "Dave Andreychuk"
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates"
+    }
+   ],
+   "seasons": [
+    1992,
+    1993,
+    1991
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445000,
+     "name": "Dave Andreychuk",
+     "season": 1992,
+     "team": "BUF,TOR",
+     "pos": "L",
+     "GP": 83,
+     "G": 54,
+     "A": 45,
+     "P": 99,
+     "PIM": 56,
+     "PM": 4,
+     "PPG": 32,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 310,
+     "age": 29
+    },
+    {
+     "id": 8445000,
+     "name": "Dave Andreychuk",
+     "season": 1993,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 83,
+     "G": 53,
+     "A": 46,
+     "P": 99,
+     "PIM": 98,
+     "PM": 22,
+     "PPG": 21,
+     "SHG": 5,
+     "GWG": 8,
+     "S": 333,
+     "age": 30
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "season": 1991,
+     "team": "STL,BOS",
+     "pos": "C",
+     "GP": 80,
+     "G": 20,
+     "A": 79,
+     "P": 99,
+     "PIM": 22,
+     "PM": -9,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 191,
+     "age": 29
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1993,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 80,
+     "G": 32,
+     "A": 67,
+     "P": 99,
+     "PIM": 61,
+     "PM": 15,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 298,
+     "age": 21
+    },
+    {
+     "id": 8449807,
+     "name": "Petr Nedved",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 45,
+     "A": 54,
+     "P": 99,
+     "PIM": 68,
+     "PM": 37,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 204,
+     "age": 24
+    },
+    {
+     "id": 8449573,
+     "name": "Mark Messier",
+     "season": 1995,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 74,
+     "G": 47,
+     "A": 52,
+     "P": 99,
+     "PIM": 122,
+     "PM": 29,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 241,
+     "age": 35
+    }
+   ],
+   "text": "7 player-seasons of the 1990s ended on exactly 99 points, one short of 100 — among them Dave Andreychuk (1992-93), Dave Andreychuk (1993-94), Adam Oates (1991-92).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 60,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1990,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 78,
+     "G": 28,
+     "A": 75,
+     "P": 103,
+     "PIM": 90,
+     "PM": 42,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 305,
+     "age": 27
+    },
+    {
+     "id": 8448769,
+     "name": "Brian Leetch",
+     "season": 1991,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 80,
+     "G": 22,
+     "A": 80,
+     "P": 102,
+     "PIM": 26,
+     "PM": 25,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 245,
+     "age": 23
+    },
+    {
+     "id": 8447989,
+     "name": "Phil Housley",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "D",
+     "GP": 80,
+     "G": 18,
+     "A": 79,
+     "P": 97,
+     "PIM": 52,
+     "PM": -14,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 249,
+     "age": 28
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1990,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 21,
+     "A": 73,
+     "P": 94,
+     "PIM": 75,
+     "PM": 33,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 323,
+     "age": 30
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1990,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 76,
+     "G": 24,
+     "A": 69,
+     "P": 93,
+     "PIM": 128,
+     "PM": -18,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 240,
+     "age": 29
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1993,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 72,
+     "G": 20,
+     "A": 71,
+     "P": 91,
+     "PIM": 58,
+     "PM": 26,
+     "PPG": 10,
+     "SHG": 3,
+     "GWG": 1,
+     "S": 386,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 36,
+   "kind": "list",
+   "score": 5.575,
+   "players": [
+    {
+     "id": 8448960,
+     "name": "Al MacInnis"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "16 players recorded 70 points as a defenseman in the 1990s (36 seasons). The most extreme: Al MacInnis, 1990-91 — 103 points (28G, 75A).",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 61,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459426,
+     "name": "Paul Kariya",
+     "season": 1996,
+     "team": "ANA",
+     "pos": "L",
+     "GP": 69,
+     "G": 44,
+     "A": 55,
+     "P": 99,
+     "PIM": 6,
+     "PM": 36,
+     "PPG": 15,
+     "SHG": 3,
+     "GWG": 10,
+     "S": 340,
+     "age": 22
+    },
+    {
+     "id": 8448222,
+     "name": "Craig Janney",
+     "season": 1990,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 77,
+     "G": 26,
+     "A": 66,
+     "P": 92,
+     "PIM": 8,
+     "PM": 15,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 133,
+     "age": 23
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1996,
+     "team": "STL",
+     "pos": "R",
+     "GP": 77,
+     "G": 42,
+     "A": 40,
+     "P": 82,
+     "PIM": 10,
+     "PM": -9,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 302,
+     "age": 32
+    },
+    {
+     "id": 8459648,
+     "name": "Pavol Demitra",
+     "season": 1999,
+     "team": "STL",
+     "pos": "R",
+     "GP": 71,
+     "G": 28,
+     "A": 47,
+     "P": 75,
+     "PIM": 8,
+     "PM": 34,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 241,
+     "TOI": 19.223473333333335,
+     "age": 25
+    },
+    {
+     "id": 8446295,
+     "name": "Ulf Dahlen",
+     "season": 1992,
+     "team": "MNS",
+     "pos": "R",
+     "GP": 83,
+     "G": 35,
+     "A": 39,
+     "P": 74,
+     "PIM": 6,
+     "PM": -20,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 223,
+     "age": 26
+    },
+    {
+     "id": 8446295,
+     "name": "Ulf Dahlen",
+     "season": 1993,
+     "team": "DAL,SJS",
+     "pos": "R",
+     "GP": 78,
+     "G": 25,
+     "A": 44,
+     "P": 69,
+     "PIM": 10,
+     "PM": -1,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 190,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 5.475,
+   "players": [
+    {
+     "id": 8459426,
+     "name": "Paul Kariya"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "text": "6 players recorded 66 points with 10 or fewer penalty minutes in the 1990s (8 seasons). The most extreme: Paul Kariya, 1996-97 — 99 pts, 6 PIM.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 62,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8458515,
+     "name": "Eric Lindros",
+     "season": 1993,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 65,
+     "G": 44,
+     "A": 53,
+     "P": 97,
+     "PIM": 103,
+     "PM": 16,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 197,
+     "age": 20
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 81,
+     "G": 34,
+     "A": 60,
+     "P": 94,
+     "PIM": 61,
+     "PM": 30,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 9,
+     "S": 242,
+     "age": 20
+    },
+    {
+     "id": 8458939,
+     "name": "Alexei Yashin",
+     "season": 1993,
+     "team": "OTT",
+     "pos": "C",
+     "GP": 83,
+     "G": 30,
+     "A": 49,
+     "P": 79,
+     "PIM": 22,
+     "PM": -49,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 232,
+     "age": 20
+    },
+    {
+     "id": 8449895,
+     "name": "Owen Nolan",
+     "season": 1992,
+     "team": "QUE",
+     "pos": "R",
+     "GP": 73,
+     "G": 36,
+     "A": 41,
+     "P": 77,
+     "PIM": 185,
+     "PM": -1,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 241,
+     "age": 20
+    },
+    {
+     "id": 8451774,
+     "name": "Mats Sundin",
+     "season": 1991,
+     "team": "QUE",
+     "pos": "C",
+     "GP": 80,
+     "G": 33,
+     "A": 43,
+     "P": 76,
+     "PIM": 103,
+     "PM": -19,
+     "PPG": 8,
+     "SHG": 2,
+     "GWG": 2,
+     "S": 231,
+     "age": 20
+    },
+    {
+     "id": 8458515,
+     "name": "Eric Lindros",
+     "season": 1992,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 61,
+     "G": 41,
+     "A": 34,
+     "P": 75,
+     "PIM": 147,
+     "PM": 28,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 180,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 5.425,
+   "players": [
+    {
+     "id": 8458515,
+     "name": "Eric Lindros"
+    }
+   ],
+   "seasons": [
+    1993
+   ],
+   "text": "5 players recorded 72 points at age 20 or younger in the 1990s (7 seasons). The most extreme: Eric Lindros, 1993-94 — 97 points at 20.",
+   "why": "Leads with the most extreme case, which carries the post. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 63,
+   "rule": "h_old_p",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1996,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 82,
+     "G": 25,
+     "A": 72,
+     "P": 97,
+     "PIM": 28,
+     "PM": 12,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 286,
+     "age": 36
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1997,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 82,
+     "G": 23,
+     "A": 67,
+     "P": 90,
+     "PIM": 28,
+     "PM": -11,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 201,
+     "TOI": 21.418698333333335,
+     "age": 37
+    },
+    {
+     "id": 8449573,
+     "name": "Mark Messier",
+     "season": 1996,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 71,
+     "G": 36,
+     "A": 48,
+     "P": 84,
+     "PIM": 88,
+     "PM": 12,
+     "PPG": 7,
+     "SHG": 5,
+     "GWG": 9,
+     "S": 227,
+     "age": 36
+    },
+    {
+     "id": 8446951,
+     "name": "Ron Francis",
+     "season": 1999,
+     "team": "CAR",
+     "pos": "C",
+     "GP": 78,
+     "G": 23,
+     "A": 50,
+     "P": 73,
+     "PIM": 18,
+     "PM": 10,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 150,
+     "TOI": 21.972861666666667,
+     "age": 36
+    },
+    {
+     "id": 8447206,
+     "name": "Doug Gilmour",
+     "season": 1999,
+     "team": "CHI,BUF",
+     "pos": "C",
+     "GP": 74,
+     "G": 25,
+     "A": 48,
+     "P": 73,
+     "PIM": 63,
+     "PM": -9,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 113,
+     "TOI": 19.52905333333333,
+     "age": 36
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "season": 1999,
+     "team": "WSH",
+     "pos": "C",
+     "GP": 82,
+     "G": 15,
+     "A": 56,
+     "P": 71,
+     "PIM": 14,
+     "PM": 13,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 93,
+     "TOI": 22.337195,
+     "age": 37
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 5.425,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1996
+   ],
+   "text": "6 players recorded 66 points at age 36 or older in the 1990s (7 seasons). The most extreme: Wayne Gretzky, 1996-97 — 97 points at 36.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 64,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1990,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 76,
+     "G": 24,
+     "A": 69,
+     "P": 93,
+     "PIM": 128,
+     "PM": -18,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 240,
+     "age": 29
+    },
+    {
+     "id": 8446053,
+     "name": "Chris Chelios",
+     "season": 1992,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 84,
+     "G": 15,
+     "A": 58,
+     "P": 73,
+     "PIM": 282,
+     "PM": 14,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 290,
+     "age": 31
+    },
+    {
+     "id": 8446053,
+     "name": "Chris Chelios",
+     "season": 1995,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 81,
+     "G": 14,
+     "A": 58,
+     "P": 72,
+     "PIM": 140,
+     "PM": 25,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 219,
+     "age": 34
+    },
+    {
+     "id": 8445550,
+     "name": "Rob Blake",
+     "season": 1993,
+     "team": "LAK",
+     "pos": "D",
+     "GP": 84,
+     "G": 20,
+     "A": 48,
+     "P": 68,
+     "PIM": 137,
+     "PM": -7,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 304,
+     "age": 24
+    },
+    {
+     "id": 8448124,
+     "name": "Al Iafrate",
+     "season": 1992,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 81,
+     "G": 25,
+     "A": 41,
+     "P": 66,
+     "PIM": 169,
+     "PM": 15,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 289,
+     "age": 26
+    },
+    {
+     "id": 8446053,
+     "name": "Chris Chelios",
+     "season": 1990,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 77,
+     "G": 12,
+     "A": 52,
+     "P": 64,
+     "PIM": 192,
+     "PM": 23,
+     "PPG": 5,
+     "SHG": 2,
+     "GWG": 2,
+     "S": 187,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 23,
+   "kind": "list",
+   "score": 5.325,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "12 players recorded 42 points and 125 penalty minutes as a defenseman in the 1990s (23 seasons). The most extreme: Paul Coffey, 1990-91 — 93 pts, 128 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 65,
+   "rule": "t_pk",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars",
+     "season": 1999,
+     "GP": 82,
+     "W": 43,
+     "L": 23,
+     "T": 10,
+     "OTL": 6,
+     "GF": 211,
+     "GA": 184,
+     "PCT": 0.62195
+    },
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 1997,
+     "GP": 82,
+     "W": 40,
+     "L": 30,
+     "T": 12,
+     "GF": 219,
+     "GA": 202,
+     "PCT": 0.56097
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1998,
+     "GP": 82,
+     "W": 39,
+     "L": 30,
+     "T": 13,
+     "GF": 214,
+     "GA": 181,
+     "PCT": 0.55487
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1995,
+     "GP": 82,
+     "W": 62,
+     "L": 13,
+     "T": 7,
+     "GF": 325,
+     "GA": 181,
+     "PCT": 0.79878
+    },
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 1996,
+     "GP": 82,
+     "W": 45,
+     "L": 23,
+     "T": 14,
+     "GF": 231,
+     "GA": 182,
+     "PCT": 0.63414
+    },
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars",
+     "season": 1997,
+     "GP": 82,
+     "W": 49,
+     "L": 22,
+     "T": 11,
+     "GF": 242,
+     "GA": 167,
+     "PCT": 0.66463
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 5.2312725,
+   "players": [
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "text": "5 teams kill 88% of penalties in the 1990s (6 seasons). The most extreme: Dallas Stars, 1999-00 — 89.3% PK.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 66,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1990,
+     "team": "STL",
+     "pos": "R",
+     "GP": 78,
+     "G": 86,
+     "A": 45,
+     "P": 131,
+     "PIM": 22,
+     "PM": 23,
+     "PPG": 29,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 389,
+     "age": 26
+    },
+    {
+     "id": 8449654,
+     "name": "Alexander Mogilny",
+     "season": 1992,
+     "team": "BUF",
+     "pos": "R",
+     "GP": 77,
+     "G": 76,
+     "A": 51,
+     "P": 127,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 360,
+     "age": 23
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 84,
+     "G": 76,
+     "A": 56,
+     "P": 132,
+     "PIM": 45,
+     "PM": 8,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 387,
+     "age": 22
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1991,
+     "team": "STL",
+     "pos": "R",
+     "GP": 73,
+     "G": 70,
+     "A": 39,
+     "P": 109,
+     "PIM": 48,
+     "PM": -2,
+     "PPG": 20,
+     "SHG": 5,
+     "GWG": 9,
+     "S": 408,
+     "age": 27
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 60,
+     "G": 69,
+     "A": 91,
+     "P": 160,
+     "PIM": 38,
+     "PM": 55,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 10,
+     "S": 286,
+     "age": 27
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 70,
+     "G": 69,
+     "A": 92,
+     "P": 161,
+     "PIM": 54,
+     "PM": 10,
+     "PPG": 31,
+     "SHG": 8,
+     "GWG": 8,
+     "S": 338,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 5.15,
+   "players": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "11 players scored 55 goals in the 1990s (17 seasons). The most extreme: Brett Hull, 1990-91 — 86 goals in 78 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 67,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1990,
+     "team": "STL",
+     "pos": "R",
+     "GP": 78,
+     "G": 86,
+     "A": 45,
+     "P": 131,
+     "PIM": 22,
+     "PM": 23,
+     "PPG": 29,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 389,
+     "age": 26
+    },
+    {
+     "id": 8449654,
+     "name": "Alexander Mogilny",
+     "season": 1992,
+     "team": "BUF",
+     "pos": "R",
+     "GP": 77,
+     "G": 76,
+     "A": 51,
+     "P": 127,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 360,
+     "age": 23
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 84,
+     "G": 76,
+     "A": 56,
+     "P": 132,
+     "PIM": 45,
+     "PM": 8,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 387,
+     "age": 22
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1991,
+     "team": "STL",
+     "pos": "R",
+     "GP": 73,
+     "G": 70,
+     "A": 39,
+     "P": 109,
+     "PIM": 48,
+     "PM": -2,
+     "PPG": 20,
+     "SHG": 5,
+     "GWG": 9,
+     "S": 408,
+     "age": 27
+    },
+    {
+     "id": 8450941,
+     "name": "Luc Robitaille",
+     "season": 1992,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 84,
+     "G": 63,
+     "A": 62,
+     "P": 125,
+     "PIM": 100,
+     "PM": 18,
+     "PPG": 24,
+     "SHG": 2,
+     "GWG": 8,
+     "S": 265,
+     "age": 26
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1992,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 83,
+     "G": 60,
+     "A": 50,
+     "P": 110,
+     "PIM": 69,
+     "PM": 35,
+     "PPG": 13,
+     "SHG": 7,
+     "GWG": 9,
+     "S": 407,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 71,
+   "kind": "list",
+   "score": 5.15,
+   "players": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "37 players scored 39 goals with more goals than assists in the 1990s (71 seasons). The most extreme: Brett Hull, 1990-91 — 86G, 45A.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 68,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 1992,
+     "GP": 84,
+     "W": 10,
+     "L": 70,
+     "T": 4,
+     "GF": 202,
+     "GA": 395,
+     "PCT": 0.14285
+    },
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks",
+     "season": 1992,
+     "GP": 84,
+     "W": 11,
+     "L": 71,
+     "T": 2,
+     "GF": 218,
+     "GA": 414,
+     "PCT": 0.14285
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 1993,
+     "GP": 84,
+     "W": 14,
+     "L": 61,
+     "T": 9,
+     "GF": 201,
+     "GA": 397,
+     "PCT": 0.22023
+    },
+    {
+     "id": "Atlanta Thrashers",
+     "name": "Atlanta Thrashers",
+     "season": 1999,
+     "GP": 82,
+     "W": 14,
+     "L": 57,
+     "T": 7,
+     "OTL": 4,
+     "GF": 170,
+     "GA": 313,
+     "PCT": 0.2378
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 1994,
+     "GP": 48,
+     "W": 9,
+     "L": 34,
+     "T": 5,
+     "GF": 117,
+     "GA": 174,
+     "PCT": 0.23958
+    },
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks",
+     "season": 1991,
+     "GP": 80,
+     "W": 17,
+     "L": 58,
+     "T": 5,
+     "GF": 219,
+     "GA": 359,
+     "PCT": 0.24375
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 5.142875,
+   "players": [
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "text": "5 teams finished with a points percentage under .300 in the 1990s (11 seasons). The most extreme: Ottawa Senators, 1992-93 — 10-70-4, .143.",
+   "why": "Leads with the most extreme case, which carries the post. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "total": 958,
+     "seasons": 10
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "total": 896,
+     "seasons": 10
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "total": 896,
+     "seasons": 10
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 878,
+     "seasons": 9
+    },
+    {
+     "id": 8452578,
+     "name": "Steve Yzerman",
+     "total": 870,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points of the 1990s: Jaromir Jagr, 958 (next: Adam Oates, 896).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449951,
+     "name": "Adam Oates"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "total": 670,
+     "seasons": 10
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 661,
+     "seasons": 9
+    },
+    {
+     "id": 8446951,
+     "name": "Ron Francis",
+     "total": 585,
+     "seasons": 10
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "total": 571,
+     "seasons": 10
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "total": 555,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 1990s: Adam Oates, 670.",
+   "why": "A decade-long view that settles consistency debates. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446454,
+     "name": "Tie Domi"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446454,
+     "name": "Tie Domi",
+     "total": 2614,
+     "seasons": 10
+    },
+    {
+     "id": 8450678,
+     "name": "Rob Ray",
+     "total": 2588,
+     "seasons": 10
+    },
+    {
+     "id": 8449961,
+     "name": "Gino Odjick",
+     "total": 2391,
+     "seasons": 10
+    },
+    {
+     "id": 8445440,
+     "name": "Craig Berube",
+     "total": 2158,
+     "seasons": 10
+    },
+    {
+     "id": 8450561,
+     "name": "Bob Probert",
+     "total": 2089,
+     "seasons": 9
+    }
+   ],
+   "text": "Most penalty minutes of the 1990s: Tie Domi, 2,614.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 72,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "total": 68,
+     "seasons": 10
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "total": 66,
+     "seasons": 10
+    },
+    {
+     "id": 8451302,
+     "name": "Brendan Shanahan",
+     "total": 62,
+     "seasons": 10
+    },
+    {
+     "id": 8450978,
+     "name": "Jeremy Roenick",
+     "total": 59,
+     "seasons": 10
+    },
+    {
+     "id": 8446788,
+     "name": "Sergei Fedorov",
+     "total": 55,
+     "seasons": 10
+    }
+   ],
+   "text": "Most game-winning goals of the 1990s: Jaromir Jagr, 68.",
+   "why": "A decade-long view that settles consistency debates. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450725,
+     "name": "Mark Recchi"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450725,
+     "name": "Mark Recchi",
+     "total": 774,
+     "seasons": 10
+    },
+    {
+     "id": 8449745,
+     "name": "Larry Murphy",
+     "total": 773,
+     "seasons": 10
+    },
+    {
+     "id": 8446303,
+     "name": "Vincent Damphousse",
+     "total": 772,
+     "seasons": 10
+    },
+    {
+     "id": 8446847,
+     "name": "Theo Fleury",
+     "total": 770,
+     "seasons": 10
+    },
+    {
+     "id": 8447364,
+     "name": "Adam Graves",
+     "total": 766,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1990s: Mark Recchi, 774.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445621,
+     "name": "Ray Bourque"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "total": 680,
+     "seasons": 10
+    },
+    {
+     "id": 8448769,
+     "name": "Brian Leetch",
+     "total": 640,
+     "seasons": 10
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "total": 598,
+     "seasons": 10
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "total": 575,
+     "seasons": 10
+    },
+    {
+     "id": 8447989,
+     "name": "Phil Housley",
+     "total": 572,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points by a defenseman in the 1990s: Ray Bourque, 680.",
+   "why": "A decade-long view that settles consistency debates. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy",
+     "total": 311,
+     "seasons": 10
+    },
+    {
+     "id": 8445386,
+     "name": "Ed Belfour",
+     "total": 304,
+     "seasons": 10
+    },
+    {
+     "id": 8448382,
+     "name": "Curtis Joseph",
+     "total": 275,
+     "seasons": 10
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "total": 244,
+     "seasons": 8
+    },
+    {
+     "id": 8450833,
+     "name": "Mike Richter",
+     "total": 240,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goalie wins of the 1990s: Patrick Roy, 311.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445386,
+     "name": "Ed Belfour"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445386,
+     "name": "Ed Belfour",
+     "total": 49,
+     "seasons": 10
+    },
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "total": 45,
+     "seasons": 10
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "total": 42,
+     "seasons": 8
+    },
+    {
+     "id": 8451033,
+     "name": "Patrick Roy",
+     "total": 36,
+     "seasons": 10
+    },
+    {
+     "id": 8452157,
+     "name": "John Vanbiesbrouck",
+     "total": 31,
+     "seasons": 10
+    }
+   ],
+   "text": "Most shutouts of the 1990s: Ed Belfour, 49.",
+   "why": "A decade-long view that settles consistency debates. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy",
+     "total": 600,
+     "seasons": 10
+    },
+    {
+     "id": 8445386,
+     "name": "Ed Belfour",
+     "total": 589,
+     "seasons": 10
+    },
+    {
+     "id": 8448382,
+     "name": "Curtis Joseph",
+     "total": 572,
+     "seasons": 10
+    },
+    {
+     "id": 8450833,
+     "name": "Mike Richter",
+     "total": 530,
+     "seasons": 10
+    },
+    {
+     "id": 8452157,
+     "name": "John Vanbiesbrouck",
+     "total": 513,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games in goal in the 1990s: Patrick Roy, 600.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 20
+    },
+    {
+     "season": 1991,
+     "count": 17
+    },
+    {
+     "season": 1992,
+     "count": 25
+    },
+    {
+     "season": 1993,
+     "count": 23
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 18
+    },
+    {
+     "season": 1996,
+     "count": 12
+    },
+    {
+     "season": 1997,
+     "count": 6
+    },
+    {
+     "season": 1998,
+     "count": 9
+    },
+    {
+     "season": 1999,
+     "count": 7
+    }
+   ],
+   "text": "1992-93 had 25 40-goal scorers, the most of any season in the 1990s.",
+   "why": "The peak year for this across the 1990s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1994
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 20
+    },
+    {
+     "season": 1991,
+     "count": 17
+    },
+    {
+     "season": 1992,
+     "count": 25
+    },
+    {
+     "season": 1993,
+     "count": 23
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 18
+    },
+    {
+     "season": 1996,
+     "count": 12
+    },
+    {
+     "season": 1997,
+     "count": 6
+    },
+    {
+     "season": 1998,
+     "count": 9
+    },
+    {
+     "season": 1999,
+     "count": 7
+    }
+   ],
+   "text": "1994-95 had no 40-goal scorers at all — the only season of the 1990s without one.",
+   "why": "The low point of the 1990s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 16
+    },
+    {
+     "season": 1991,
+     "count": 17
+    },
+    {
+     "season": 1992,
+     "count": 31
+    },
+    {
+     "season": 1993,
+     "count": 21
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 22
+    },
+    {
+     "season": 1996,
+     "count": 9
+    },
+    {
+     "season": 1997,
+     "count": 4
+    },
+    {
+     "season": 1998,
+     "count": 9
+    },
+    {
+     "season": 1999,
+     "count": 3
+    }
+   ],
+   "text": "1992-93 had 31 90-point players, the most of any season in the 1990s.",
+   "why": "The peak year for this across the 1990s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1994
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 16
+    },
+    {
+     "season": 1991,
+     "count": 17
+    },
+    {
+     "season": 1992,
+     "count": 31
+    },
+    {
+     "season": 1993,
+     "count": 21
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 22
+    },
+    {
+     "season": 1996,
+     "count": 9
+    },
+    {
+     "season": 1997,
+     "count": 4
+    },
+    {
+     "season": 1998,
+     "count": 9
+    },
+    {
+     "season": 1999,
+     "count": 3
+    }
+   ],
+   "text": "1994-95 had no 90-point players at all — the only season of the 1990s without one.",
+   "why": "The low point of the 1990s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 35
+    },
+    {
+     "season": 1991,
+     "count": 38
+    },
+    {
+     "season": 1992,
+     "count": 62
+    },
+    {
+     "season": 1993,
+     "count": 38
+    },
+    {
+     "season": 1994,
+     "count": 26
+    },
+    {
+     "season": 1995,
+     "count": 42
+    },
+    {
+     "season": 1996,
+     "count": 24
+    },
+    {
+     "season": 1997,
+     "count": 15
+    },
+    {
+     "season": 1998,
+     "count": 15
+    },
+    {
+     "season": 1999,
+     "count": 21
+    }
+   ],
+   "text": "1992-93 had 62 point-a-game players (60% of games), the most of any season in the 1990s.",
+   "why": "The peak year for this across the 1990s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_dg_most",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1992
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 8
+    },
+    {
+     "season": 1991,
+     "count": 14
+    },
+    {
+     "season": 1992,
+     "count": 16
+    },
+    {
+     "season": 1993,
+     "count": 12
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 10
+    },
+    {
+     "season": 1996,
+     "count": 6
+    },
+    {
+     "season": 1997,
+     "count": 8
+    },
+    {
+     "season": 1998,
+     "count": 5
+    },
+    {
+     "season": 1999,
+     "count": 7
+    }
+   ],
+   "text": "1992-93 had 16 defensemen with 15+ goals, the most of any season in the 1990s.",
+   "why": "The peak year for this across the 1990s; fans can argue why that season stood out. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 84,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1994
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1990,
+     "count": 8
+    },
+    {
+     "season": 1991,
+     "count": 14
+    },
+    {
+     "season": 1992,
+     "count": 16
+    },
+    {
+     "season": 1993,
+     "count": 12
+    },
+    {
+     "season": 1994,
+     "count": 0
+    },
+    {
+     "season": 1995,
+     "count": 10
+    },
+    {
+     "season": 1996,
+     "count": 6
+    },
+    {
+     "season": 1997,
+     "count": 8
+    },
+    {
+     "season": 1998,
+     "count": 5
+    },
+    {
+     "season": 1999,
+     "count": 7
+    }
+   ],
+   "text": "1994-95 had no defensemen with 15+ goals at all — the only season of the 1990s without one.",
+   "why": "The low point of the 1990s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 85,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "total": 464,
+     "seasons": 10
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "total": 387,
+     "seasons": 10
+    },
+    {
+     "id": 8451302,
+     "name": "Brendan Shanahan",
+     "total": 376,
+     "seasons": 10
+    },
+    {
+     "id": 8450941,
+     "name": "Luc Robitaille",
+     "total": 357,
+     "seasons": 10
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "total": 346,
+     "seasons": 8
+    }
+   ],
+   "text": "Most goals of the 1990s: Brett Hull, 464 (next: Jaromir Jagr, 387).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 86,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "1990s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "total": 7,
+     "seasons": 7
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8450725,
+     "name": "Mark Recchi",
+     "total": 5,
+     "seasons": 5
+    }
+   ],
+   "text": "Most 90-point seasons in the 1990s: Jaromir Jagr, 7.",
+   "why": "A decade-long view that settles consistency debates. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 87,
+   "rule": "g_gp",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "season": 1995,
+     "team": "STL",
+     "GP": 79,
+     "A": 1,
+     "PIM": 8,
+     "W": 30,
+     "L": 28,
+     "T": 16,
+     "SO": 3,
+     "GAA": 2.87277,
+     "SVP": 0.9031,
+     "SV": 1948,
+     "GA": 209
+    },
+    {
+     "id": 8450651,
+     "name": "Bill Ranford",
+     "season": 1995,
+     "team": "EDM,BOS",
+     "GP": 77,
+     "A": 3,
+     "PIM": 2,
+     "W": 34,
+     "L": 30,
+     "T": 9,
+     "SO": 2,
+     "GAA": 3.2902,
+     "SVP": 0.88461,
+     "SV": 1817,
+     "GA": 237
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1995,
+     "team": "NJD",
+     "GP": 77,
+     "A": 1,
+     "PIM": 6,
+     "W": 34,
+     "L": 30,
+     "T": 12,
+     "SO": 6,
+     "GAA": 2.34136,
+     "SVP": 0.91146,
+     "SV": 1781,
+     "GA": 173
+    },
+    {
+     "id": 8456692,
+     "name": "Arturs Irbe",
+     "season": 1999,
+     "team": "CAR",
+     "GP": 75,
+     "A": 1,
+     "PIM": 14,
+     "W": 34,
+     "L": 28,
+     "T": 9,
+     "SO": 5,
+     "GAA": 2.41661,
+     "SVP": 0.90581,
+     "SV": 1683,
+     "GA": 175
+    },
+    {
+     "id": 8445386,
+     "name": "Ed Belfour",
+     "season": 1990,
+     "team": "CHI",
+     "GP": 74,
+     "A": 3,
+     "PIM": 34,
+     "W": 43,
+     "L": 19,
+     "T": 7,
+     "SO": 4,
+     "GAA": 2.47171,
+     "SVP": 0.90971,
+     "SV": 1713,
+     "GA": 170
+    },
+    {
+     "id": 8456692,
+     "name": "Arturs Irbe",
+     "season": 1993,
+     "team": "SJS",
+     "GP": 74,
+     "A": 2,
+     "PIM": 16,
+     "W": 30,
+     "L": 28,
+     "T": 16,
+     "SO": 3,
+     "GAA": 2.84248,
+     "SVP": 0.89874,
+     "SV": 1855,
+     "GA": 209
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.975,
+   "players": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "text": "12 goalies played 72 games in the 1990s (15 seasons). The most extreme: Grant Fuhr, 1995-96 — 79 GP.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 88,
+   "rule": "h_euro",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449654,
+     "name": "Alexander Mogilny",
+     "season": 1992,
+     "team": "BUF",
+     "pos": "R",
+     "GP": 77,
+     "G": 76,
+     "A": 51,
+     "P": 127,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 360,
+     "age": 23
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 1992,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 84,
+     "G": 76,
+     "A": 56,
+     "P": 132,
+     "PIM": 45,
+     "PM": 8,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 387,
+     "age": 22
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 82,
+     "G": 62,
+     "A": 87,
+     "P": 149,
+     "PIM": 96,
+     "PM": 31,
+     "PPG": 20,
+     "SHG": 1,
+     "GWG": 12,
+     "S": 403,
+     "age": 23
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1992,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 83,
+     "G": 60,
+     "A": 50,
+     "P": 110,
+     "PIM": 69,
+     "PM": 35,
+     "PPG": 13,
+     "SHG": 7,
+     "GWG": 9,
+     "S": 407,
+     "age": 21
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1993,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 76,
+     "G": 60,
+     "A": 47,
+     "P": 107,
+     "PIM": 86,
+     "PM": 1,
+     "PPG": 25,
+     "SHG": 4,
+     "GWG": 9,
+     "S": 374,
+     "age": 22
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1999,
+     "team": "FLA",
+     "pos": "R",
+     "GP": 74,
+     "G": 58,
+     "A": 36,
+     "P": 94,
+     "PIM": 16,
+     "PM": 25,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 14,
+     "S": 360,
+     "TOI": 23.55518,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 4.9,
+   "players": [
+    {
+     "id": 8449654,
+     "name": "Alexander Mogilny"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "text": "12 players scored 44 goals, born outside North America in the 1990s (24 seasons). The most extreme: Alexander Mogilny, 1992-93 — 76 goals (born RUS).",
+   "why": "Leads with the most extreme case, which carries the post. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 89,
+   "rule": "h_usa",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451711,
+     "name": "Kevin Stevens",
+     "season": 1992,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 72,
+     "G": 55,
+     "A": 56,
+     "P": 111,
+     "PIM": 177,
+     "PM": 17,
+     "PPG": 26,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 326,
+     "age": 27
+    },
+    {
+     "id": 8451711,
+     "name": "Kevin Stevens",
+     "season": 1991,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 80,
+     "G": 54,
+     "A": 69,
+     "P": 123,
+     "PIM": 254,
+     "PM": 8,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 325,
+     "age": 26
+    },
+    {
+     "id": 8450978,
+     "name": "Jeremy Roenick",
+     "season": 1991,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 80,
+     "G": 53,
+     "A": 50,
+     "P": 103,
+     "PIM": 98,
+     "PM": 23,
+     "PPG": 22,
+     "SHG": 3,
+     "GWG": 13,
+     "S": 234,
+     "age": 22
+    },
+    {
+     "id": 8448626,
+     "name": "Pat LaFontaine",
+     "season": 1992,
+     "team": "BUF",
+     "pos": "C",
+     "GP": 84,
+     "G": 53,
+     "A": 95,
+     "P": 148,
+     "PIM": 63,
+     "PM": 11,
+     "PPG": 20,
+     "SHG": 2,
+     "GWG": 7,
+     "S": 306,
+     "age": 27
+    },
+    {
+     "id": 8458229,
+     "name": "Keith Tkachuk",
+     "season": 1996,
+     "team": "PHX",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 34,
+     "P": 86,
+     "PIM": 228,
+     "PM": -1,
+     "PPG": 9,
+     "SHG": 2,
+     "GWG": 7,
+     "S": 296,
+     "age": 24
+    },
+    {
+     "id": 8448622,
+     "name": "John LeClair",
+     "season": 1995,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 82,
+     "G": 51,
+     "A": 46,
+     "P": 97,
+     "PIM": 64,
+     "PM": 21,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 270,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 4.375,
+   "players": [
+    {
+     "id": 8451711,
+     "name": "Kevin Stevens"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "text": "7 players scored 44 goals, born in the United States in the 1990s (14 seasons). The most extreme: Kevin Stevens, 1992-93 — 55 goals.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 90,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446424,
+     "name": "Gord Dineen",
+     "season": 1993,
+     "team": "OTT",
+     "pos": "D",
+     "GP": 77,
+     "G": 0,
+     "A": 21,
+     "P": 21,
+     "PIM": 89,
+     "PM": -52,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 62,
+     "age": 31
+    },
+    {
+     "id": 8452503,
+     "name": "Neil Wilkinson",
+     "season": 1992,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 59,
+     "G": 1,
+     "A": 7,
+     "P": 8,
+     "PIM": 96,
+     "PM": -50,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 51,
+     "age": 25
+    },
+    {
+     "id": 8452695,
+     "name": "Rob Zettler",
+     "season": 1992,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 80,
+     "G": 0,
+     "A": 7,
+     "P": 7,
+     "PIM": 150,
+     "PM": -50,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 60,
+     "age": 24
+    },
+    {
+     "id": 8458492,
+     "name": "Doug Zmolek",
+     "season": 1992,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 84,
+     "G": 5,
+     "A": 10,
+     "P": 15,
+     "PIM": 229,
+     "PM": -50,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 94,
+     "age": 22
+    },
+    {
+     "id": 8451059,
+     "name": "Darren Rumble",
+     "season": 1993,
+     "team": "OTT",
+     "pos": "D",
+     "GP": 70,
+     "G": 6,
+     "A": 9,
+     "P": 15,
+     "PIM": 116,
+     "PM": -50,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 95,
+     "age": 25
+    },
+    {
+     "id": 8458939,
+     "name": "Alexei Yashin",
+     "season": 1993,
+     "team": "OTT",
+     "pos": "C",
+     "GP": 83,
+     "G": 30,
+     "A": 49,
+     "P": 79,
+     "PIM": 22,
+     "PM": -49,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 232,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 33,
+   "kind": "list",
+   "score": 4.3,
+   "players": [
+    {
+     "id": 8446424,
+     "name": "Gord Dineen"
+    }
+   ],
+   "seasons": [
+    1993
+   ],
+   "text": "30 players finished -35 or worse in the 1990s (33 seasons). The most extreme: Gord Dineen, 1993-94 — -52.",
+   "why": "Leads with the most extreme case, which carries the post. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 91,
+   "kind": "nearmiss",
+   "rule": "n_g49",
+   "group": "P",
+   "decade": "1990s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 8447067,
+     "name": "Mike Gartner"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447067,
+     "name": "Mike Gartner",
+     "season": 1990,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 79,
+     "G": 49,
+     "A": 20,
+     "P": 69,
+     "PIM": 53,
+     "PM": -9,
+     "PPG": 22,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 262,
+     "age": 31
+    }
+   ],
+   "text": "Exactly one player of the 1990s finished a season with exactly 49 goals, one short of 50: Mike Gartner (1990-91).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 92,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1995,
+     "GP": 82,
+     "W": 49,
+     "L": 29,
+     "T": 4,
+     "GF": 362,
+     "GA": 284,
+     "PCT": 0.62195
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1992,
+     "GP": 84,
+     "W": 47,
+     "L": 28,
+     "T": 9,
+     "GF": 369,
+     "GA": 280,
+     "PCT": 0.61309
+    },
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1992,
+     "GP": 84,
+     "W": 56,
+     "L": 21,
+     "T": 7,
+     "GF": 367,
+     "GA": 268,
+     "PCT": 0.70833
+    },
+    {
+     "id": "Calgary Flames",
+     "name": "Calgary Flames",
+     "season": 1990,
+     "GP": 80,
+     "W": 46,
+     "L": 26,
+     "T": 8,
+     "GF": 344,
+     "GA": 263,
+     "PCT": 0.625
+    },
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1991,
+     "GP": 80,
+     "W": 39,
+     "L": 32,
+     "T": 9,
+     "GF": 343,
+     "GA": 308,
+     "PCT": 0.54375
+    },
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1990,
+     "GP": 80,
+     "W": 41,
+     "L": 33,
+     "T": 6,
+     "GF": 342,
+     "GA": 305,
+     "PCT": 0.55
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 4.103658536585366,
+   "players": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "text": "15 teams scored 3.8 goals a game in the 1990s (25 seasons). The most extreme: Pittsburgh Penguins, 1995-96 — 4.41 per game.",
+   "why": "Leads with the most extreme case, which carries the post. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 93,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8458515,
+     "name": "Eric Lindros",
+     "season": 1993,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 65,
+     "G": 44,
+     "A": 53,
+     "P": 97,
+     "PIM": 103,
+     "PM": 16,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 197,
+     "age": 20
+    },
+    {
+     "id": 8449895,
+     "name": "Owen Nolan",
+     "season": 1991,
+     "team": "QUE",
+     "pos": "R",
+     "GP": 75,
+     "G": 42,
+     "A": 31,
+     "P": 73,
+     "PIM": 183,
+     "PM": -9,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 190,
+     "age": 19
+    },
+    {
+     "id": 8458515,
+     "name": "Eric Lindros",
+     "season": 1992,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 61,
+     "G": 41,
+     "A": 34,
+     "P": 75,
+     "PIM": 147,
+     "PM": 28,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 180,
+     "age": 19
+    },
+    {
+     "id": 8460496,
+     "name": "Ryan Smyth",
+     "season": 1996,
+     "team": "EDM",
+     "pos": "L",
+     "GP": 82,
+     "G": 39,
+     "A": 22,
+     "P": 61,
+     "PIM": 76,
+     "PM": -7,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 265,
+     "age": 20
+    },
+    {
+     "id": 8449895,
+     "name": "Owen Nolan",
+     "season": 1992,
+     "team": "QUE",
+     "pos": "R",
+     "GP": 73,
+     "G": 36,
+     "A": 41,
+     "P": 77,
+     "PIM": 185,
+     "PM": -1,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 241,
+     "age": 20
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1991,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 65,
+     "G": 34,
+     "A": 26,
+     "P": 60,
+     "PIM": 30,
+     "PM": 0,
+     "PPG": 7,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 268,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.1,
+   "players": [
+    {
+     "id": 8458515,
+     "name": "Eric Lindros"
+    }
+   ],
+   "seasons": [
+    1993
+   ],
+   "text": "8 players scored 33 goals at age 20 or younger in the 1990s (10 seasons). The most extreme: Eric Lindros, 1993-94 — 44 goals at 20.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 94,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445386,
+     "name": "Ed Belfour",
+     "season": 1990,
+     "team": "CHI",
+     "GP": 74,
+     "A": 3,
+     "PIM": 34,
+     "W": 43,
+     "L": 19,
+     "T": 7,
+     "SO": 4,
+     "GAA": 2.47171,
+     "SVP": 0.90971,
+     "SV": 1713,
+     "GA": 170
+    },
+    {
+     "id": 8445275,
+     "name": "Tom Barrasso",
+     "season": 1992,
+     "team": "PIT",
+     "GP": 63,
+     "A": 8,
+     "PIM": 24,
+     "W": 43,
+     "L": 14,
+     "T": 5,
+     "SO": 4,
+     "GAA": 3.01477,
+     "SVP": 0.90132,
+     "SV": 1699,
+     "GA": 186
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1997,
+     "team": "NJD",
+     "GP": 70,
+     "A": 3,
+     "PIM": 10,
+     "W": 43,
+     "L": 17,
+     "T": 8,
+     "SO": 10,
+     "GAA": 1.88935,
+     "SVP": 0.91714,
+     "SV": 1439,
+     "GA": 130
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 1999,
+     "team": "NJD",
+     "GP": 72,
+     "A": 4,
+     "PIM": 16,
+     "W": 43,
+     "L": 20,
+     "T": 8,
+     "SO": 6,
+     "GAA": 2.24031,
+     "SVP": 0.9104,
+     "SV": 1636,
+     "GA": 161
+    },
+    {
+     "id": 8450833,
+     "name": "Mike Richter",
+     "season": 1993,
+     "team": "NYR",
+     "GP": 68,
+     "A": 0,
+     "PIM": 2,
+     "W": 42,
+     "L": 12,
+     "T": 6,
+     "SO": 5,
+     "GAA": 2.57109,
+     "SVP": 0.90955,
+     "SV": 1599,
+     "GA": 159
+    },
+    {
+     "id": 8458266,
+     "name": "Roman Turek",
+     "season": 1999,
+     "team": "STL",
+     "GP": 67,
+     "A": 1,
+     "PIM": 4,
+     "W": 42,
+     "L": 15,
+     "T": 9,
+     "SO": 7,
+     "GAA": 1.95431,
+     "SVP": 0.91224,
+     "SV": 1341,
+     "GA": 129
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 4.075,
+   "players": [
+    {
+     "id": 8445386,
+     "name": "Ed Belfour"
+    }
+   ],
+   "seasons": [
+    1990
+   ],
+   "text": "5 goalies won 42 games in the 1990s (6 seasons). The most extreme: Ed Belfour, 1990-91 — 43-19-7.",
+   "why": "Leads with the most extreme case, which carries the post. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 95,
+   "rule": "h_shots",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459426,
+     "name": "Paul Kariya",
+     "season": 1998,
+     "team": "ANA",
+     "pos": "L",
+     "GP": 82,
+     "G": 39,
+     "A": 62,
+     "P": 101,
+     "PIM": 40,
+     "PM": 17,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 429,
+     "TOI": 25.26138166666667,
+     "age": 24
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1991,
+     "team": "STL",
+     "pos": "R",
+     "GP": 73,
+     "G": 70,
+     "A": 39,
+     "P": 109,
+     "PIM": 48,
+     "PM": -2,
+     "PPG": 20,
+     "SHG": 5,
+     "GWG": 9,
+     "S": 408,
+     "age": 27
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1992,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 83,
+     "G": 60,
+     "A": 50,
+     "P": 110,
+     "PIM": 69,
+     "PM": 35,
+     "PPG": 13,
+     "SHG": 7,
+     "GWG": 9,
+     "S": 407,
+     "age": 21
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 82,
+     "G": 62,
+     "A": 87,
+     "P": 149,
+     "PIM": 96,
+     "PM": 31,
+     "PPG": 20,
+     "SHG": 1,
+     "GWG": 12,
+     "S": 403,
+     "age": 23
+    },
+    {
+     "id": 8451302,
+     "name": "Brendan Shanahan",
+     "season": 1993,
+     "team": "STL",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 50,
+     "P": 102,
+     "PIM": 211,
+     "PM": -9,
+     "PPG": 15,
+     "SHG": 7,
+     "GWG": 8,
+     "S": 397,
+     "age": 25
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1993,
+     "team": "STL",
+     "pos": "R",
+     "GP": 81,
+     "G": 57,
+     "A": 40,
+     "P": 97,
+     "PIM": 38,
+     "PM": -3,
+     "PPG": 25,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 392,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.0725,
+   "players": [
+    {
+     "id": 8459426,
+     "name": "Paul Kariya"
+    }
+   ],
+   "seasons": [
+    1998
+   ],
+   "text": "9 players fired 350 shots in the 1990s (15 seasons). The most extreme: Paul Kariya, 1998-99 — 429 shots.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 96,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450293,
+     "name": "Mike Peluso",
+     "season": 1991,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 63,
+     "G": 6,
+     "A": 3,
+     "P": 9,
+     "PIM": 408,
+     "PM": 1,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 32,
+     "age": 26
+    },
+    {
+     "id": 8449516,
+     "name": "Marty McSorley",
+     "season": 1992,
+     "team": "LAK",
+     "pos": "D",
+     "GP": 81,
+     "G": 15,
+     "A": 26,
+     "P": 41,
+     "PIM": 399,
+     "PM": 1,
+     "PPG": 3,
+     "SHG": 3,
+     "GWG": 0,
+     "S": 197,
+     "age": 29
+    },
+    {
+     "id": 8459246,
+     "name": "Donald Brashear",
+     "season": 1997,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 77,
+     "G": 9,
+     "A": 9,
+     "P": 18,
+     "PIM": 372,
+     "PM": -9,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 64,
+     "TOI": 10.599783333333333,
+     "age": 26
+    },
+    {
+     "id": 8449961,
+     "name": "Gino Odjick",
+     "season": 1996,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 70,
+     "G": 5,
+     "A": 8,
+     "P": 13,
+     "PIM": 371,
+     "PM": -5,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 85,
+     "age": 26
+    },
+    {
+     "id": 8449961,
+     "name": "Gino Odjick",
+     "season": 1992,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 75,
+     "G": 4,
+     "A": 13,
+     "P": 17,
+     "PIM": 370,
+     "PM": 3,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 79,
+     "age": 22
+    },
+    {
+     "id": 8446454,
+     "name": "Tie Domi",
+     "season": 1997,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 80,
+     "G": 4,
+     "A": 10,
+     "P": 14,
+     "PIM": 365,
+     "PM": -5,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 72,
+     "TOI": 10.483125,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 84,
+   "kind": "list",
+   "score": 4.02,
+   "players": [
+    {
+     "id": 8450293,
+     "name": "Mike Peluso"
+    }
+   ],
+   "seasons": [
+    1991
+   ],
+   "text": "48 players racked up 250 penalty minutes in the 1990s (84 seasons). The most extreme: Mike Peluso, 1991-92 — 408 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 97,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks",
+     "season": 1992,
+     "GP": 84,
+     "W": 11,
+     "L": 71,
+     "T": 2,
+     "GF": 218,
+     "GA": 414,
+     "PCT": 0.14285
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 1993,
+     "GP": 84,
+     "W": 14,
+     "L": 61,
+     "T": 9,
+     "GF": 201,
+     "GA": 397,
+     "PCT": 0.22023
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 1992,
+     "GP": 84,
+     "W": 10,
+     "L": 70,
+     "T": 4,
+     "GF": 202,
+     "GA": 395,
+     "PCT": 0.14285
+    },
+    {
+     "id": "Atlanta Thrashers",
+     "name": "Atlanta Thrashers",
+     "season": 1999,
+     "GP": 82,
+     "W": 14,
+     "L": 57,
+     "T": 7,
+     "OTL": 4,
+     "GF": 170,
+     "GA": 313,
+     "PCT": 0.2378
+    },
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks",
+     "season": 1991,
+     "GP": 80,
+     "W": 17,
+     "L": 58,
+     "T": 5,
+     "GF": 219,
+     "GA": 359,
+     "PCT": 0.24375
+    },
+    {
+     "id": "Quebec Nordiques",
+     "name": "Quebec Nordiques",
+     "season": 1990,
+     "GP": 80,
+     "W": 16,
+     "L": 50,
+     "T": 14,
+     "GF": 236,
+     "GA": 354,
+     "PCT": 0.2875
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 3.98,
+   "players": [
+    {
+     "id": "San Jose Sharks",
+     "name": "San Jose Sharks"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "text": "5 teams got outscored by 100 in the 1990s (11 seasons). The most extreme: San Jose Sharks, 1992-93 — 218-414.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 98,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447680,
+     "name": "Kevin Hatcher",
+     "season": 1992,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 83,
+     "G": 34,
+     "A": 45,
+     "P": 79,
+     "PIM": 114,
+     "PM": -7,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 329,
+     "age": 26
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1990,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 78,
+     "G": 28,
+     "A": 75,
+     "P": 103,
+     "PIM": 90,
+     "PM": 42,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 305,
+     "age": 27
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1993,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 75,
+     "G": 28,
+     "A": 54,
+     "P": 82,
+     "PIM": 95,
+     "PM": 35,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 324,
+     "age": 30
+    },
+    {
+     "id": 8458544,
+     "name": "Sandis Ozolinsh",
+     "season": 1993,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 81,
+     "G": 26,
+     "A": 38,
+     "P": 64,
+     "PIM": 24,
+     "PM": 16,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 157,
+     "age": 21
+    },
+    {
+     "id": 8445700,
+     "name": "Jeff Brown",
+     "season": 1992,
+     "team": "STL",
+     "pos": "D",
+     "GP": 71,
+     "G": 25,
+     "A": 53,
+     "P": 78,
+     "PIM": 58,
+     "PM": -6,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 220,
+     "age": 26
+    },
+    {
+     "id": 8448124,
+     "name": "Al Iafrate",
+     "season": 1992,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 81,
+     "G": 25,
+     "A": 41,
+     "P": 66,
+     "PIM": 169,
+     "PM": 15,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 289,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 36,
+   "kind": "list",
+   "score": 3.85,
+   "players": [
+    {
+     "id": 8447680,
+     "name": "Kevin Hatcher"
+    }
+   ],
+   "seasons": [
+    1992
+   ],
+   "text": "20 players scored 20 goals as a defenseman in the 1990s (36 seasons). The most extreme: Kevin Hatcher, 1992-93 — 34 goals.",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 99,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 1995,
+     "team": "COL",
+     "pos": "C",
+     "GP": 22,
+     "G": 18,
+     "A": 16,
+     "P": 34,
+     "PIM": 14,
+     "PM": 10,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 98,
+     "age": 26
+    },
+    {
+     "id": 8451711,
+     "name": "Kevin Stevens",
+     "season": 1990,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 24,
+     "G": 17,
+     "A": 16,
+     "P": 33,
+     "PIM": 53,
+     "PM": 14,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 83,
+     "age": 25
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1990,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 23,
+     "G": 16,
+     "A": 28,
+     "P": 44,
+     "PIM": 16,
+     "PM": 14,
+     "PPG": 6,
+     "SHG": 2,
+     "GWG": 0,
+     "S": 93,
+     "age": 25
+    },
+    {
+     "id": 8449812,
+     "name": "Cam Neely",
+     "season": 1990,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 19,
+     "G": 16,
+     "A": 4,
+     "P": 20,
+     "PIM": 36,
+     "PM": -3,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 72,
+     "age": 25
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1991,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 15,
+     "G": 16,
+     "A": 18,
+     "P": 34,
+     "PIM": 2,
+     "PM": 6,
+     "PPG": 8,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 69,
+     "age": 26
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1993,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 24,
+     "G": 16,
+     "A": 15,
+     "P": 31,
+     "PIM": 40,
+     "PM": 8,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 101,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.45,
+   "players": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic"
+    }
+   ],
+   "seasons": [
+    1995
+   ],
+   "text": "9 players scored 13 goals in one postseason in the 1990s (12 seasons). The most extreme: Joe Sakic, 1995-96 — 18 goals in 22 games.",
+   "why": "Shows how high the bar was across the 1990s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 100,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1990s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 1999,
+     "team": "FLA",
+     "pos": "R",
+     "GP": 74,
+     "G": 58,
+     "A": 36,
+     "P": 94,
+     "PIM": 16,
+     "PM": 25,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 14,
+     "S": 360,
+     "TOI": 23.55518,
+     "age": 28
+    },
+    {
+     "id": 8450978,
+     "name": "Jeremy Roenick",
+     "season": 1991,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 80,
+     "G": 53,
+     "A": 50,
+     "P": 103,
+     "PIM": 98,
+     "PM": 23,
+     "PPG": 22,
+     "SHG": 3,
+     "GWG": 13,
+     "S": 234,
+     "age": 22
+    },
+    {
+     "id": 8449812,
+     "name": "Cam Neely",
+     "season": 1993,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 49,
+     "G": 50,
+     "A": 24,
+     "P": 74,
+     "PIM": 54,
+     "PM": 12,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 185,
+     "age": 28
+    },
+    {
+     "id": 8445575,
+     "name": "Peter Bondra",
+     "season": 1997,
+     "team": "WSH",
+     "pos": "R",
+     "GP": 76,
+     "G": 52,
+     "A": 26,
+     "P": 78,
+     "PIM": 44,
+     "PM": 14,
+     "PPG": 11,
+     "SHG": 5,
+     "GWG": 13,
+     "S": 284,
+     "TOI": 21.591226666666667,
+     "age": 29
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 1995,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 82,
+     "G": 62,
+     "A": 87,
+     "P": 149,
+     "PIM": 96,
+     "PM": 31,
+     "PPG": 20,
+     "SHG": 1,
+     "GWG": 12,
+     "S": 403,
+     "age": 23
+    },
+    {
+     "id": 8450978,
+     "name": "Jeremy Roenick",
+     "season": 1999,
+     "team": "PHX",
+     "pos": "C",
+     "GP": 75,
+     "G": 34,
+     "A": 44,
+     "P": 78,
+     "PIM": 102,
+     "PM": 11,
+     "PPG": 6,
+     "SHG": 3,
+     "GWG": 12,
+     "S": 192,
+     "TOI": 20.669555,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 3.35,
+   "players": [
+    {
+     "id": 8455738,
+     "name": "Pavel Bure"
+    }
+   ],
+   "seasons": [
+    1999
+   ],
+   "text": "20 players scored 10 game-winning goals in the 1990s (24 seasons). The most extreme: Pavel Bure, 1999-00 — 14 GWG.",
+   "why": "Leads with the most extreme case, which carries the post. Clutch goals are the stat fans quote in arguments."
+  }
+ ],
+ "shortNote": null,
+ "counts": {
+  "skaterSeasons": 7572,
+  "goalieSeasons": 766,
+  "teamSeasons": 252
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:52.594Z"
+}

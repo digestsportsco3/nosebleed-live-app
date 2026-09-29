@@ -406,6 +406,44 @@ function cbbRules(e) {
     r("ws_hi", "produce 9 win shares", [["ws", "gte", 9]], "ws", (x) => `${x.ws} win shares`);
     r("bpm_hi", "post a box plus-minus of 15", [["games", "gte", 20], ["bpm", "gte", 15]], "bpm", (x) => `${x.bpm} BPM`, { floor: "20+ games" });
   }
+  // Third batch: class years, workload, efficiency and unicorn lines.
+  const cls = (k) => ({ params: { "class[]": k }, local: [["class", "re", `^${k}`]] });
+  const G15 = ["games", "gte", 15];
+  r("pts700", "score 700 points", [["pts", "gte", 700]], "pts", (x) => `${c(x.pts)} pts`);
+  r("ft200", "make 200 free throws", [["ft", "gte", 200]], "ft", (x) => `${x.ft}-${x.fta} FT`);
+  r("ftp90", "shoot 90% from the line on 150+ attempts", [["fta", "gte", 150], ["ft_pct", "gte", 90]], "ft_pct", (x) => `${x.ft_pct}% on ${x.fta} FTA`);
+  r("so_ppg", `average ${e <= 2 ? 25 : 22} points as a sophomore`, [G15, ["pts_per_g", "gte", e <= 2 ? 25 : 22]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { ...cls("so"), floor: "15+ games" });
+  r("sr_ppg", `average ${e <= 2 ? 28 : 24} points as a senior`, [G15, ["pts_per_g", "gte", e <= 2 ? 28 : 24]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { ...cls("sr"), floor: "15+ games" });
+  r("jr_ppg", `average ${e <= 2 ? 27 : 23} points as a junior`, [G15, ["pts_per_g", "gte", e <= 2 ? 27 : 23]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { ...cls("jr"), floor: "15+ games" });
+  if (e <= 2) {
+    r("fgp60", "shoot 60% on 300+ shots", [["fga", "gte", 300], ["fg_pct", "gte", 60]], "fg_pct", (x) => `${x.fg_pct}% on ${x.fga} FGA`);
+    r("ppg28", "average 28 points a game", [G15, ["pts_per_g", "gte", 28]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { floor: "15+ games" });
+    r("rpg18", "average 18 rebounds a game", [G15, ["trb_per_g", "gte", 18]], "trb_per_g", (x) => `${d1(x.trb_per_g)} rpg`, { floor: "15+ games" });
+    r("fga700", "attempt 700 field goals", [["fga", "gte", 700]], "fga", (x) => `${x.fg}-${x.fga} FG`);
+  }
+  if (e >= 3) {
+    r("ppg30b", "average 30 points a game", [G15, ["pts_per_g", "gte", 30]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { floor: "15+ games" });
+    r("dd20_10", "average 20 points and 10 rebounds", [G15, ["pts_per_g", "gte", 20], ["trb_per_g", "gte", 10]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg, ${d1(x.trb_per_g)} rpg`, { floor: "15+ games" });
+    r("rpg12", "average 12 rebounds a game", [G15, ["trb_per_g", "gte", 12]], "trb_per_g", (x) => `${d1(x.trb_per_g)} rpg`, { floor: "15+ games" });
+    r("apg8", "average 8 assists a game", [G15, ["ast_per_g", "gte", 8]], "ast_per_g", (x) => `${d1(x.ast_per_g)} apg`, { floor: "15+ games" });
+    r("bpg4", "average 4 blocks a game", [G15, ["blk_per_g", "gte", 4]], "blk_per_g", (x) => `${d1(x.blk_per_g)} bpg`, { floor: "15+ games" });
+    r("spg3", "average 3 steals a game", [G15, ["stl_per_g", "gte", 3]], "stl_per_g", (x) => `${d1(x.stl_per_g)} spg`, { floor: "15+ games" });
+    r("fgp65", "shoot 65% on 250+ shots", [["fga", "gte", 250], ["fg_pct", "gte", 65]], "fg_pct", (x) => `${x.fg_pct}% on ${x.fga} FGA`);
+    r("fg3p48", "shoot 48% from three on 150+ attempts", [["fg3a", "gte", 150], ["fg3_pct", "gte", 48]], "fg3_pct", (x) => `${x.fg3_pct}% on ${x.fg3a} 3PA`);
+    r("fg3_120", "make 120 threes", [["fg3", "gte", 120]], "fg3", (x) => `${x.fg3} threes`);
+    r("fta300", "attempt 300 free throws", [["fta", "gte", 300]], "fta", (x) => `${x.ft}-${x.fta} FT`);
+    r("trb350", "grab 350 rebounds", [["trb", "gte", 350]], "trb", (x) => `${x.trb} rebounds`);
+    r("stl_ast", "record 90 steals and 200 assists", [["stl", "gte", 90], ["ast", "gte", 200]], "stl", (x) => `${x.stl} stl, ${x.ast} ast`);
+    r("blk_fg3", "block 60 shots and make 40 threes", [["blk", "gte", 60], ["fg3", "gte", 40]], "blk", (x) => `${x.blk} blk, ${x.fg3} threes`);
+  }
+  if (e >= 4) {
+    r("tov150", "commit 150 turnovers", [["tov", "gte", 150]], "tov", (x) => `${x.tov} turnovers`);
+    r("drb300", "grab 300 defensive rebounds", [["drb", "gte", 300]], "drb", (x) => `${x.drb} defensive rebounds`);
+    r("mpg37", "average 37 minutes a game", [G15, ["mp_per_g", "gte", 37]], "mp_per_g", (x) => `${x.mp_per_g} mpg`, { floor: "15+ games" });
+    r("ts65", "post a 65% true shooting percentage on 400+ shots", [["fga", "gte", 400], ["ts_pct", "gte", 65]], "ts_pct", (x) => `${x.ts_pct}% TS on ${x.fga} FGA`);
+    r("per30", "post a PER of 30", [["games", "gte", 20], ["per", "gte", 30]], "per", (x) => `${x.per} PER`, { floor: "20+ games" });
+    r("ws8", "produce 8 win shares", [["ws", "gte", 8]], "ws", (x) => `${x.ws} win shares`);
+  }
   if (e <= 2) r("ppg30", "average 30 points a game", [["games", "gte", 15], ["pts_per_g", "gte", 30]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg`, { floor: "15+ games" });
   if (e <= 2) r("rpg25", "average 22 rebounds a game", [["games", "gte", 15], ["trb_per_g", "gte", 22]], "trb_per_g", (x) => `${d1(x.trb_per_g)} rpg`, { floor: "15+ games" });
   if (e <= 2) r("fta_hi", "attempt 350 free throws", [["fta", "gte", 350]], "fta", (x) => `${x.ft}-${x.fta} FT`);
@@ -466,6 +504,16 @@ function cbbTeamRules(d) {
     r("bpg_team", "average 7 blocks a game as a team", [["games", "gte", 15], ["blk_per_g", "gte", 7]], "blk_per_g", (x) => `${d1(x.blk_per_g)} bpg, ${rec(x)}`, { floor: "15+ games" });
     r("spg_team", "average 11 steals a game as a team", [["games", "gte", 15], ["stl_per_g", "gte", 11]], "stl_per_g", (x) => `${d1(x.stl_per_g)} spg, ${rec(x)}`, { floor: "15+ games" });
     r("fg3p_team", "shoot 42% from three as a team", [["games", "gte", 15], ["fg3a", "gte", 300], ["fg3_pct", "gte", 42]], "fg3_pct", (x) => `${x.fg3_pct}% 3PT, ${rec(x)}`, { floor: "15+ games, 300+ attempts" }); }
+  r("wins33", `win ${d < 1970 ? 28 : 33} games`, [["wins", "gte", d < 1970 ? 28 : 33]], "wins", (x) => rec(x));
+  r("loss25", `lose ${d < 1980 ? 20 : 25} games`, [["losses", "gte", d < 1980 ? 20 : 25]], "losses", (x) => rec(x));
+  r("ftp76", "shoot 76% from the line as a team", [["games", "gte", 15], ["ft_pct", "gte", 76]], "ft_pct", (x) => `${x.ft_pct}% FT, ${rec(x)}`, { floor: "15+ games" });
+  if (d >= 1990) { r("ppg85", "average 85 points a game as a team", [["games", "gte", 15], ["pts_per_g", "gte", 85]], "pts_per_g", (x) => `${d1(x.pts_per_g)} ppg, ${rec(x)}`, { floor: "15+ games" });
+    r("fgp50", "shoot 50% from the field as a team", [["games", "gte", 15], ["fg_pct", "gte", 50]], "fg_pct", (x) => `${x.fg_pct}%, ${rec(x)}`, { floor: "15+ games" });
+    r("rpg42", "average 42 rebounds a game as a team", [["games", "gte", 15], ["trb_per_g", "gte", 42]], "trb_per_g", (x) => `${d1(x.trb_per_g)} rpg, ${rec(x)}`, { floor: "15+ games" });
+    r("apg18", "average 18 assists a game as a team", [["games", "gte", 15], ["ast_per_g", "gte", 18]], "ast_per_g", (x) => `${d1(x.ast_per_g)} apg, ${rec(x)}`, { floor: "15+ games" });
+    r("bpg6", "average 6 blocks a game as a team", [["games", "gte", 15], ["blk_per_g", "gte", 6]], "blk_per_g", (x) => `${d1(x.blk_per_g)} bpg, ${rec(x)}`, { floor: "15+ games" });
+    r("spg10", "average 10 steals a game as a team", [["games", "gte", 15], ["stl_per_g", "gte", 10]], "stl_per_g", (x) => `${d1(x.stl_per_g)} spg, ${rec(x)}`, { floor: "15+ games" }); }
+  if (d >= 2000) r("fg3a900", "attempt 900 threes as a team", [["fg3a", "gte", 900]], "fg3a", (x) => `${x.fg3}-${x.fg3a} 3PT, ${rec(x)}`);
   if (d >= 1980) r("fg3_hi", `make ${d >= 2000 ? 400 : 330} threes as a team`, [["fg3", "gte", d >= 2000 ? 400 : 330]], "fg3", (x) => `${x.fg3} threes`);
   return R;
 }

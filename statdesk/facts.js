@@ -478,14 +478,16 @@ function seasonCountFacts(hit, pit, seasons, decade, t) {
   ];
   for (const sp of specs) {
     const counts = seasons.map((s) => ({ season: s.season, n: sp.rows.filter((r) => yr(r) === s.season && sp.f(r)).length }));
-    const most = [...counts].sort((a, b) => b.n - a.n)[0]; const least = [...counts].sort((a, b) => a.n - b.n)[0];
-    if (!most || most.n === least.n) continue;
+    if (!counts.length) continue;
+    const { countLine } = require("./lib/ties");
+    const hi = Math.max(...counts.map((c) => c.n)), lo = Math.min(...counts.map((c) => c.n));
+    if (hi === lo) continue;
     const ev = counts.map((c) => ({ season: c.season, count: c.n }));
-    out.push({ kind: "season", rule: `${sp.key}_most`, group: sp.group, decade, score: 5, players: [], seasons: [most.season], finder: null, evidence: ev,
-      text: `${most.season} had ${most.n} ${sp.what}, the most of any season in the ${decade}s.` });
-    out.push({ kind: "season", rule: `${sp.key}_least`, group: sp.group, decade, score: 5, players: [], seasons: [least.season], finder: null, evidence: ev,
-      text: least.n === 0 ? `${least.season} had no ${sp.what} at all — the only season of the ${decade}s without one.`.replace("the only season", counts.filter((c) => c.n === 0).length === 1 ? "the only season" : "one of the seasons")
-                          : `${least.season} had just ${least.n} ${sp.what}, the fewest of any season in the ${decade}s.` });
+    for (const [which, n] of [["most", hi], ["least", lo]]) {
+      const tied = counts.filter((c) => c.n === n).map((c) => c.season);
+      const text = countLine(which, tied.map(String), n, sp.what, null, `${decade}s`); // ties are named, never broken
+      if (text) out.push({ kind: "season", rule: `${sp.key}_${which}`, group: sp.group, decade, score: 5, players: [], seasons: tied, finder: null, evidence: ev, text });
+    }
   }
   return out;
 }

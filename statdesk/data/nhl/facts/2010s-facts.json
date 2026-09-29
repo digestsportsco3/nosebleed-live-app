@@ -1,0 +1,7471 @@
+{
+ "sport": "NHL",
+ "decade": "2010s",
+ "era": 5,
+ "seasons": [
+  "2010-11",
+  "2011-12",
+  "2012-13",
+  "2013-14",
+  "2014-15",
+  "2015-16",
+  "2016-17",
+  "2017-18",
+  "2018-19",
+  "2019-20"
+ ],
+ "candidates": 109,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "t_pct800",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 2012,
+     "GP": 48,
+     "W": 36,
+     "L": 7,
+     "OTL": 5,
+     "GF": 149,
+     "GA": 97,
+     "PCT": 0.80208
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.0052,
+   "players": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "text": "The only team of the 2010s to finish with a .800 points percentage: Chicago Blackhawks, 2012-13 — 36-7-5, .802.",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 2,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "season": 2015,
+     "team": "WSH",
+     "GP": 66,
+     "A": 1,
+     "PIM": 6,
+     "W": 48,
+     "L": 9,
+     "OTL": 7,
+     "SO": 3,
+     "GAA": 2.20244,
+     "SVP": 0.92175,
+     "SV": 1661,
+     "GA": 141
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.2,
+   "players": [
+    {
+     "id": 8474651,
+     "name": "Braden Holtby"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "text": "The only goalie of the 2010s to win 45 games: Braden Holtby, 2015-16 — 48-9-7.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 3,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469608,
+     "name": "Mike Smith",
+     "season": 2014,
+     "team": "ARI",
+     "GP": 62,
+     "A": 1,
+     "PIM": 10,
+     "W": 14,
+     "L": 42,
+     "OTL": 5,
+     "SO": 0,
+     "GAA": 3.15542,
+     "SVP": 0.90434,
+     "SV": 1768,
+     "GA": 187
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.05,
+   "players": [
+    {
+     "id": 8469608,
+     "name": "Mike Smith"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "text": "The only goalie of the 2010s to lose 40 games: Mike Smith, 2014-15 — 14-42.",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 4,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2016,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 82,
+     "G": 40,
+     "A": 29,
+     "P": 69,
+     "PIM": 14,
+     "PM": 2,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 279,
+     "TOI": 17.631096666666668,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "text": "The only player of the 2010s to score 40 goals in their first NHL season: Auston Matthews, 2016-17 — 40 goals.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 5,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning",
+     "season": 2018,
+     "GP": 82,
+     "W": 62,
+     "L": 16,
+     "OTL": 4,
+     "GF": 319,
+     "GA": 221,
+     "PCT": 0.78048
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.972560975609756,
+   "players": [
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "The only team of the 2010s to score 3.8 goals a game: Tampa Bay Lightning, 2018-19 — 3.89 per game.",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 6,
+   "rule": "h_ppg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2014,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 53,
+     "A": 28,
+     "P": 81,
+     "PIM": 58,
+     "PM": 10,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 395,
+     "TOI": 20.325924999999998,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.625,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "text": "The only player of the 2010s to score 25 power-play goals: Alex Ovechkin, 2014-15 — 25 PPG.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 7,
+   "rule": "pog_gaa",
+   "group": "PO",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471734,
+     "name": "Jonathan Quick",
+     "season": 2011,
+     "team": "LAK",
+     "GP": 20,
+     "A": 0,
+     "PIM": 0,
+     "W": 16,
+     "L": 4,
+     "SO": 3,
+     "GAA": 1.40526,
+     "SVP": 0.94609,
+     "SV": 509,
+     "GA": 29
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.177903021504918,
+   "players": [
+    {
+     "id": 8471734,
+     "name": "Jonathan Quick"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "The only goalie of the 2010s to post a goals-against average under 1.60 in one postseason (10+ games): Jonathan Quick, 2011-12 — 1.41 GAA in 20 games.",
+   "why": "A club of one in the 2010s; \"name another\" posts draw replies. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 8,
+   "rule": "g_first_so",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478007,
+     "name": "Elvis Merzlikins",
+     "season": 2019,
+     "team": "CBJ",
+     "GP": 33,
+     "A": 0,
+     "PIM": 0,
+     "W": 13,
+     "L": 9,
+     "OTL": 8,
+     "SO": 5,
+     "GAA": 2.34693,
+     "SVP": 0.92274,
+     "SV": 848,
+     "GA": 71
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.125,
+   "players": [
+    {
+     "id": 8478007,
+     "name": "Elvis Merzlikins"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "The only goalie of the 2010s to record 5 shutouts in their first NHL season: Elvis Merzlikins, 2019-20 — 5 shutouts.",
+   "why": "Nobody else in the 2010s did it, and exclusivity is what gets a post shared. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 9,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 2019,
+     "GP": 71,
+     "W": 17,
+     "L": 49,
+     "OTL": 5,
+     "GF": 142,
+     "GA": 265,
+     "PCT": 0.27464
+    },
+    {
+     "id": "Colorado Avalanche",
+     "name": "Colorado Avalanche",
+     "season": 2016,
+     "GP": 82,
+     "W": 22,
+     "L": 56,
+     "OTL": 4,
+     "GF": 165,
+     "GA": 276,
+     "PCT": 0.29268
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.8134,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    },
+    {
+     "id": "Colorado Avalanche",
+     "name": "Colorado Avalanche"
+    }
+   ],
+   "seasons": [
+    2019,
+    2016
+   ],
+   "text": "Only two teams of the 2010s finished with a points percentage under .300: Detroit Red Wings (2019-20: 17-49-5, .275); Colorado Avalanche (2016-17: 22-56-4, .293).",
+   "why": "Two names invite the \"whose season was better?\" argument. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 10,
+   "rule": "h_pts_no_ppg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8475793,
+     "name": "Ryan Johansen",
+     "season": 2018,
+     "team": "NSH",
+     "pos": "C",
+     "GP": 80,
+     "G": 14,
+     "A": 50,
+     "P": 64,
+     "PIM": 42,
+     "PM": 7,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 136,
+     "TOI": 19.555208333333333,
+     "age": 26
+    },
+    {
+     "id": 8470612,
+     "name": "Ryan Getzlaf",
+     "season": 2017,
+     "team": "ANA",
+     "pos": "C",
+     "GP": 56,
+     "G": 11,
+     "A": 50,
+     "P": 61,
+     "PIM": 42,
+     "PM": 20,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 117,
+     "TOI": 21.425594999999998,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.6,
+   "players": [
+    {
+     "id": 8475793,
+     "name": "Ryan Johansen"
+    },
+    {
+     "id": 8470612,
+     "name": "Ryan Getzlaf"
+    }
+   ],
+   "seasons": [
+    2018,
+    2017
+   ],
+   "text": "Only two players of the 2010s recorded 60 points with no power-play goals: Ryan Johansen (2018-19: 64 pts, 0 PPG); Ryan Getzlaf (2017-18: 61 pts, 0 PPG).",
+   "why": "A club of two is a ready-made debate. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 11,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien",
+     "season": 2015,
+     "team": "WPG",
+     "pos": "D",
+     "GP": 81,
+     "G": 19,
+     "A": 34,
+     "P": 53,
+     "PIM": 119,
+     "PM": 4,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 247,
+     "TOI": 25.203084999999998,
+     "age": 30
+    },
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien",
+     "season": 2016,
+     "team": "WPG",
+     "pos": "D",
+     "GP": 80,
+     "G": 13,
+     "A": 39,
+     "P": 52,
+     "PIM": 117,
+     "PM": 10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 241,
+     "TOI": 27.444583333333334,
+     "age": 31
+    },
+    {
+     "id": 8471724,
+     "name": "Kris Letang",
+     "season": 2010,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 82,
+     "G": 8,
+     "A": 42,
+     "P": 50,
+     "PIM": 101,
+     "PM": 15,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 236,
+     "TOI": 24.033534999999997,
+     "age": 23
+    },
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien",
+     "season": 2014,
+     "team": "WPG",
+     "pos": "D",
+     "GP": 69,
+     "G": 18,
+     "A": 27,
+     "P": 45,
+     "PIM": 124,
+     "PM": 5,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 209,
+     "TOI": 22.687921666666668,
+     "age": 29
+    },
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien",
+     "season": 2017,
+     "team": "WPG",
+     "pos": "D",
+     "GP": 69,
+     "G": 8,
+     "A": 37,
+     "P": 45,
+     "PIM": 112,
+     "PM": 15,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 193,
+     "TOI": 24.338888333333333,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 9.325,
+   "players": [
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien"
+    },
+    {
+     "id": 8471724,
+     "name": "Kris Letang"
+    }
+   ],
+   "seasons": [
+    2015,
+    2016,
+    2010,
+    2014,
+    2017
+   ],
+   "text": "Only two players of the 2010s recorded 42 points and 100 penalty minutes as a defenseman: Dustin Byfuglien (4×, best 2015-16: 53 pts, 119 PIM); Kris Letang (2010-11: 50 pts, 101 PIM).",
+   "why": "Two names invite the \"whose season was better?\" argument. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 12,
+   "rule": "h_pm_hi",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476448,
+     "name": "William Karlsson",
+     "season": 2017,
+     "team": "VGK",
+     "pos": "C",
+     "GP": 82,
+     "G": 43,
+     "A": 35,
+     "P": 78,
+     "PIM": 12,
+     "PM": 49,
+     "PPG": 8,
+     "SHG": 4,
+     "GWG": 6,
+     "S": 184,
+     "TOI": 18.71686833333333,
+     "age": 25
+    },
+    {
+     "id": 8477435,
+     "name": "Ryan Graves",
+     "season": 2019,
+     "team": "COL",
+     "pos": "D",
+     "GP": 69,
+     "G": 9,
+     "A": 17,
+     "P": 26,
+     "PIM": 45,
+     "PM": 40,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 134,
+     "TOI": 18.942753333333332,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.225,
+   "players": [
+    {
+     "id": 8476448,
+     "name": "William Karlsson"
+    },
+    {
+     "id": 8477435,
+     "name": "Ryan Graves"
+    }
+   ],
+   "seasons": [
+    2017,
+    2019
+   ],
+   "text": "Only two players of the 2010s finished +40 or better: William Karlsson (2017-18: +49); Ryan Graves (2019-20: +40).",
+   "why": "A club of two is a ready-made debate. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin"
+    }
+   ],
+   "seasons": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2011,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 75,
+     "G": 50,
+     "A": 59,
+     "P": 109,
+     "PIM": 70,
+     "PM": 18,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 339,
+     "TOI": 21.023554999999998,
+     "age": 25
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2012,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 31,
+     "G": 9,
+     "A": 24,
+     "P": 33,
+     "PIM": 36,
+     "PM": 5,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 99,
+     "TOI": 19.70268666666667,
+     "age": 26
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2013,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 60,
+     "G": 23,
+     "A": 49,
+     "P": 72,
+     "PIM": 62,
+     "PM": 10,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 191,
+     "TOI": 20.0625,
+     "age": 27
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2014,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 69,
+     "G": 28,
+     "A": 42,
+     "P": 70,
+     "PIM": 60,
+     "PM": -2,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 212,
+     "TOI": 18.974395,
+     "age": 28
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2015,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 57,
+     "G": 27,
+     "A": 31,
+     "P": 58,
+     "PIM": 65,
+     "PM": 1,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 162,
+     "TOI": 19.368713333333336,
+     "age": 29
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2016,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 62,
+     "G": 33,
+     "A": 39,
+     "P": 72,
+     "PIM": 77,
+     "PM": 18,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 191,
+     "TOI": 18.619085,
+     "age": 30
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2017,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 78,
+     "G": 42,
+     "A": 56,
+     "P": 98,
+     "PIM": 87,
+     "PM": 16,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 239,
+     "TOI": 18.989956666666668,
+     "age": 31
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2018,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 68,
+     "G": 21,
+     "A": 51,
+     "P": 72,
+     "PIM": 89,
+     "PM": -25,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 187,
+     "TOI": 18.80392,
+     "age": 32
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2019,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 55,
+     "G": 25,
+     "A": 49,
+     "P": 74,
+     "PIM": 58,
+     "PM": 7,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 171,
+     "TOI": 19.521211666666666,
+     "age": 33
+    }
+   ],
+   "text": "Evgeni Malkin averaged a point a game (60% of games) in 9 straight seasons (2011-12 to 2019-20), the longest run of the 2010s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 14,
+   "rule": "h_volume_miss",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien",
+     "season": 2010,
+     "team": "ATL",
+     "pos": "D",
+     "GP": 81,
+     "G": 20,
+     "A": 33,
+     "P": 53,
+     "PIM": 93,
+     "PM": -2,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 347,
+     "TOI": 23.304526666666668,
+     "age": 25
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2017,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 12,
+     "A": 55,
+     "P": 67,
+     "PIM": 46,
+     "PM": -16,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 332,
+     "TOI": 25.242681666666666,
+     "age": 32
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2018,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 16,
+     "A": 67,
+     "P": 83,
+     "PIM": 34,
+     "PM": 13,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 300,
+     "TOI": 25.099186666666665,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.8675,
+   "players": [
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien"
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns"
+    }
+   ],
+   "seasons": [
+    2010,
+    2017,
+    2018
+   ],
+   "text": "Only two players of the 2010s fired 300 shots and scored 20 or fewer: Dustin Byfuglien (2010-11: 20 goals on 347 shots); Brent Burns (2×, best 2017-18: 12 goals on 332 shots).",
+   "why": "A club of two is a ready-made debate. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 15,
+   "rule": "t_pp",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 2019,
+     "GP": 71,
+     "W": 37,
+     "L": 25,
+     "OTL": 9,
+     "GF": 223,
+     "GA": 215,
+     "PCT": 0.5845
+    },
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning",
+     "season": 2018,
+     "GP": 82,
+     "W": 62,
+     "L": 16,
+     "OTL": 4,
+     "GF": 319,
+     "GA": 221,
+     "PCT": 0.78048
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.7375,
+   "players": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers"
+    },
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning"
+    }
+   ],
+   "seasons": [
+    2019,
+    2018
+   ],
+   "text": "Only two teams of the 2010s convert 27% of power plays: Edmonton Oilers (2019-20: 29.5% PP); Tampa Bay Lightning (2018-19: 28.2% PP).",
+   "why": "Two names invite the \"whose season was better?\" argument. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 16,
+   "rule": "h_eff",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471698,
+     "name": "T.J. Oshie",
+     "season": 2016,
+     "team": "WSH",
+     "pos": "R",
+     "GP": 68,
+     "G": 33,
+     "A": 23,
+     "P": 56,
+     "PIM": 36,
+     "PM": 28,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 143,
+     "TOI": 17.854901666666667,
+     "age": 30
+    },
+    {
+     "id": 8474641,
+     "name": "Adam Henrique",
+     "season": 2015,
+     "team": "NJD",
+     "pos": "C",
+     "GP": 80,
+     "G": 30,
+     "A": 20,
+     "P": 50,
+     "PIM": 23,
+     "PM": 10,
+     "PPG": 7,
+     "SHG": 2,
+     "GWG": 8,
+     "S": 149,
+     "TOI": 19.826458333333335,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.576923076923077,
+   "players": [
+    {
+     "id": 8471698,
+     "name": "T.J. Oshie"
+    },
+    {
+     "id": 8474641,
+     "name": "Adam Henrique"
+    }
+   ],
+   "seasons": [
+    2016,
+    2015
+   ],
+   "text": "Only two players of the 2010s scored 30 goals on fewer than 150 shots: T.J. Oshie (2016-17: 33 goals on 143 shots); Adam Henrique (2015-16: 30 goals on 149 shots).",
+   "why": "A club of two is a ready-made debate. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 17,
+   "rule": "g_sv2000",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward",
+     "season": 2010,
+     "team": "CAR",
+     "GP": 74,
+     "A": 1,
+     "PIM": 0,
+     "W": 37,
+     "L": 26,
+     "OTL": 10,
+     "SO": 4,
+     "GAA": 2.55698,
+     "SVP": 0.92252,
+     "SV": 2191,
+     "GA": 184
+    },
+    {
+     "id": 8475883,
+     "name": "Frederik Andersen",
+     "season": 2017,
+     "team": "TOR",
+     "GP": 66,
+     "A": 1,
+     "PIM": 2,
+     "W": 38,
+     "L": 21,
+     "OTL": 5,
+     "SO": 5,
+     "GAA": 2.80826,
+     "SVP": 0.91768,
+     "SV": 2029,
+     "GA": 182
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.54775,
+   "players": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward"
+    },
+    {
+     "id": 8475883,
+     "name": "Frederik Andersen"
+    }
+   ],
+   "seasons": [
+    2010,
+    2017
+   ],
+   "text": "Only two goalies of the 2010s made 2,000 saves: Cam Ward (2010-11: 2,191 saves); Frederik Andersen (2017-18: 2,029 saves).",
+   "why": "Two names invite the \"whose season was better?\" argument. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 18,
+   "rule": "t_pk",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 2011,
+     "GP": 82,
+     "W": 48,
+     "L": 28,
+     "OTL": 6,
+     "GF": 216,
+     "GA": 205,
+     "PCT": 0.62195
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 2011,
+     "GP": 82,
+     "W": 31,
+     "L": 35,
+     "OTL": 16,
+     "GF": 207,
+     "GA": 214,
+     "PCT": 0.4756
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 2012,
+     "GP": 48,
+     "W": 25,
+     "L": 17,
+     "OTL": 6,
+     "GF": 112,
+     "GA": 100,
+     "PCT": 0.58333
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 8.2393825,
+   "players": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators"
+    }
+   ],
+   "seasons": [
+    2011,
+    2011,
+    2012
+   ],
+   "text": "Just three teams of the 2010s kill 88% of penalties: New Jersey Devils (2011-12: 89.6% PK); Montréal Canadiens (2011-12: 88.6% PK); Ottawa Senators (2012-13: 88.0% PK).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 19,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2018,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 41,
+     "A": 87,
+     "P": 128,
+     "PIM": 62,
+     "PM": 24,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 246,
+     "TOI": 19.965446666666665,
+     "age": 25
+    },
+    {
+     "id": 8467876,
+     "name": "Henrik Sedin",
+     "season": 2010,
+     "team": "VAN",
+     "pos": "C",
+     "GP": 82,
+     "G": 19,
+     "A": 75,
+     "P": 94,
+     "PIM": 40,
+     "PM": 26,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 157,
+     "TOI": 19.259551666666667,
+     "age": 30
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2018,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 78,
+     "G": 41,
+     "A": 75,
+     "P": 116,
+     "PIM": 20,
+     "PM": 3,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 9,
+     "S": 240,
+     "TOI": 22.837178333333334,
+     "age": 22
+    },
+    {
+     "id": 8471218,
+     "name": "Blake Wheeler",
+     "season": 2018,
+     "team": "WPG",
+     "pos": "R",
+     "GP": 82,
+     "G": 20,
+     "A": 71,
+     "P": 91,
+     "PIM": 60,
+     "PM": 0,
+     "PPG": 2,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 231,
+     "TOI": 20.709754999999998,
+     "age": 32
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2016,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 30,
+     "A": 70,
+     "P": 100,
+     "PIM": 26,
+     "PM": 27,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 251,
+     "TOI": 21.131503333333335,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 8.175,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    },
+    {
+     "id": 8467876,
+     "name": "Henrik Sedin"
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    },
+    {
+     "id": 8471218,
+     "name": "Blake Wheeler"
+    }
+   ],
+   "seasons": [
+    2018,
+    2010,
+    2018,
+    2018,
+    2016
+   ],
+   "text": "Just four players of the 2010s recorded 70 assists: Nikita Kucherov (2018-19: 87 assists); Henrik Sedin (2010-11: 75 assists); Connor McDavid (2×, best 2018-19: 75 assists); Blake Wheeler (2018-19: 71 assists).",
+   "why": "A short list fans can recite; each name brings its own fan base. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 20,
+   "rule": "po_gwg",
+   "group": "PO",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477404,
+     "name": "Jake Guentzel",
+     "season": 2016,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 25,
+     "G": 13,
+     "A": 8,
+     "P": 21,
+     "PIM": 10,
+     "PM": 1,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 52,
+     "TOI": 17.499333333333333,
+     "age": 22
+    },
+    {
+     "id": 8475172,
+     "name": "Nazem Kadri",
+     "season": 2019,
+     "team": "COL",
+     "pos": "C",
+     "GP": 15,
+     "G": 9,
+     "A": 9,
+     "P": 18,
+     "PIM": 10,
+     "PM": 3,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 56,
+     "TOI": 18.576666666666664,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.125,
+   "players": [
+    {
+     "id": 8477404,
+     "name": "Jake Guentzel"
+    },
+    {
+     "id": 8475172,
+     "name": "Nazem Kadri"
+    }
+   ],
+   "seasons": [
+    2016,
+    2019
+   ],
+   "text": "Only two players of the 2010s scored 5 game-winning goals in one postseason: Jake Guentzel (2016-17: 5 GWG); Nazem Kadri (2019-20: 5 GWG).",
+   "why": "A club of two is a ready-made debate. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "2010s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby"
+    }
+   ],
+   "seasons": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2013,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 36,
+     "A": 68,
+     "P": 104,
+     "PIM": 46,
+     "PM": 18,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 259,
+     "TOI": 21.972291666666667,
+     "age": 26
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2014,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 77,
+     "G": 28,
+     "A": 56,
+     "P": 84,
+     "PIM": 47,
+     "PM": 5,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 237,
+     "TOI": 19.97077833333333,
+     "age": 27
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2015,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 36,
+     "A": 49,
+     "P": 85,
+     "PIM": 42,
+     "PM": 19,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 248,
+     "TOI": 20.469375,
+     "age": 28
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2016,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 75,
+     "G": 44,
+     "A": 45,
+     "P": 89,
+     "PIM": 24,
+     "PM": 17,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 255,
+     "TOI": 19.877776666666666,
+     "age": 29
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2017,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 29,
+     "A": 60,
+     "P": 89,
+     "PIM": 46,
+     "PM": 0,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 247,
+     "TOI": 20.689226666666666,
+     "age": 30
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2018,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 79,
+     "G": 35,
+     "A": 65,
+     "P": 100,
+     "PIM": 36,
+     "PM": 18,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 220,
+     "TOI": 20.99177166666667,
+     "age": 31
+    }
+   ],
+   "text": "Sidney Crosby recorded 75+ points in 6 straight seasons (2013-14 to 2018-19), the longest run of the 2010s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 22,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8468486,
+     "name": "Scott Hartnell",
+     "season": 2011,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 82,
+     "G": 37,
+     "A": 30,
+     "P": 67,
+     "PIM": 136,
+     "PM": 19,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 232,
+     "TOI": 17.776828333333334,
+     "age": 29
+    },
+    {
+     "id": 8473473,
+     "name": "Milan Lucic",
+     "season": 2010,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 79,
+     "G": 30,
+     "A": 32,
+     "P": 62,
+     "PIM": 121,
+     "PM": 28,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 173,
+     "TOI": 16.579956666666668,
+     "age": 22
+    },
+    {
+     "id": 8473473,
+     "name": "Milan Lucic",
+     "season": 2011,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 81,
+     "G": 26,
+     "A": 35,
+     "P": 61,
+     "PIM": 135,
+     "PM": 7,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 149,
+     "TOI": 17.029011666666666,
+     "age": 23
+    },
+    {
+     "id": 8470621,
+     "name": "Corey Perry",
+     "season": 2011,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 80,
+     "G": 37,
+     "A": 23,
+     "P": 60,
+     "PIM": 127,
+     "PM": -7,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 277,
+     "TOI": 21.379375,
+     "age": 26
+    },
+    {
+     "id": 8474190,
+     "name": "Wayne Simmonds",
+     "season": 2015,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 81,
+     "G": 32,
+     "A": 28,
+     "P": 60,
+     "PIM": 147,
+     "PM": -7,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 229,
+     "TOI": 17.234154999999998,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 7.675,
+   "players": [
+    {
+     "id": 8468486,
+     "name": "Scott Hartnell"
+    },
+    {
+     "id": 8473473,
+     "name": "Milan Lucic"
+    },
+    {
+     "id": 8470621,
+     "name": "Corey Perry"
+    },
+    {
+     "id": 8474190,
+     "name": "Wayne Simmonds"
+    }
+   ],
+   "seasons": [
+    2011,
+    2010,
+    2011,
+    2011,
+    2015
+   ],
+   "text": "Just four players of the 2010s recorded 60 points and 120 penalty minutes: Scott Hartnell (2011-12: 67 pts, 136 PIM); Milan Lucic (2×, best 2010-11: 62 pts, 121 PIM); Corey Perry (2011-12: 60 pts, 127 PIM); Wayne Simmonds (2015-16: 60 pts, 147 PIM).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 23,
+   "rule": "h_shots",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2015,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 50,
+     "A": 21,
+     "P": 71,
+     "PIM": 53,
+     "PM": 21,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 398,
+     "TOI": 20.308438333333335,
+     "age": 30
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2014,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 53,
+     "A": 28,
+     "P": 81,
+     "PIM": 58,
+     "PM": 10,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 395,
+     "TOI": 20.325924999999998,
+     "age": 29
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2013,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 78,
+     "G": 51,
+     "A": 28,
+     "P": 79,
+     "PIM": 48,
+     "PM": -35,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 386,
+     "TOI": 20.545298333333335,
+     "age": 28
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2010,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 32,
+     "A": 53,
+     "P": 85,
+     "PIM": 41,
+     "PM": 24,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 367,
+     "TOI": 21.366033333333334,
+     "age": 25
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2018,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 41,
+     "A": 58,
+     "P": 99,
+     "PIM": 34,
+     "PM": 20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 365,
+     "TOI": 22.091463333333333,
+     "age": 23
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2017,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 49,
+     "A": 38,
+     "P": 87,
+     "PIM": 32,
+     "PM": 3,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 355,
+     "TOI": 20.144308333333335,
+     "age": 32
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2015,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 27,
+     "A": 48,
+     "P": 75,
+     "PIM": 53,
+     "PM": -5,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 353,
+     "TOI": 25.864023333333332,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "few",
+   "score": 6.995,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon"
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns"
+    }
+   ],
+   "seasons": [
+    2015,
+    2014,
+    2013,
+    2010,
+    2018,
+    2017,
+    2015
+   ],
+   "text": "Just three players of the 2010s fired 350 shots: Alex Ovechkin (5×, best 2015-16: 398 shots); Nathan MacKinnon (2018-19: 365 shots); Brent Burns (2015-16: 353 shots).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 24,
+   "rule": "h_toi",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470600,
+     "name": "Ryan Suter",
+     "season": 2013,
+     "team": "MIN",
+     "pos": "D",
+     "GP": 82,
+     "G": 8,
+     "A": 35,
+     "P": 43,
+     "PIM": 34,
+     "PM": 15,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 150,
+     "TOI": 29.41341333333333,
+     "age": 29
+    },
+    {
+     "id": 8470600,
+     "name": "Ryan Suter",
+     "season": 2014,
+     "team": "MIN",
+     "pos": "D",
+     "GP": 77,
+     "G": 2,
+     "A": 36,
+     "P": 38,
+     "PIM": 48,
+     "PM": 7,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 150,
+     "TOI": 29.059523333333335,
+     "age": 30
+    },
+    {
+     "id": 8474563,
+     "name": "Drew Doughty",
+     "season": 2014,
+     "team": "LAK",
+     "pos": "D",
+     "GP": 82,
+     "G": 7,
+     "A": 39,
+     "P": 46,
+     "PIM": 56,
+     "PM": 3,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 219,
+     "TOI": 28.995933333333333,
+     "age": 25
+    },
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "season": 2015,
+     "team": "OTT",
+     "pos": "D",
+     "GP": 82,
+     "G": 16,
+     "A": 66,
+     "P": 82,
+     "PIM": 50,
+     "PM": -2,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 248,
+     "TOI": 28.974593333333335,
+     "age": 25
+    },
+    {
+     "id": 8470600,
+     "name": "Ryan Suter",
+     "season": 2015,
+     "team": "MIN",
+     "pos": "D",
+     "GP": 82,
+     "G": 8,
+     "A": 43,
+     "P": 51,
+     "PIM": 30,
+     "PM": 10,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 188,
+     "TOI": 28.592885000000003,
+     "age": 31
+    },
+    {
+     "id": 8474563,
+     "name": "Drew Doughty",
+     "season": 2015,
+     "team": "LAK",
+     "pos": "D",
+     "GP": 82,
+     "G": 14,
+     "A": 37,
+     "P": 51,
+     "PIM": 52,
+     "PM": 24,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 197,
+     "TOI": 28.017885,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.7353353333333335,
+   "players": [
+    {
+     "id": 8470600,
+     "name": "Ryan Suter"
+    },
+    {
+     "id": 8474563,
+     "name": "Drew Doughty"
+    },
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson"
+    }
+   ],
+   "seasons": [
+    2013,
+    2014,
+    2014,
+    2015,
+    2015,
+    2015
+   ],
+   "text": "Just three players of the 2010s averaged 28 minutes a game: Ryan Suter (3×, best 2013-14: 29.4 min/game); Drew Doughty (2×, best 2014-15: 29.0 min/game); Erik Karlsson (2015-16: 29.0 min/game).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Ice-time workload shows who coaches trusted most."
+  },
+  {
+   "n": 25,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 2019,
+     "GP": 71,
+     "W": 17,
+     "L": 49,
+     "OTL": 5,
+     "GF": 142,
+     "GA": 265,
+     "PCT": 0.27464
+    },
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres",
+     "season": 2014,
+     "GP": 82,
+     "W": 23,
+     "L": 51,
+     "OTL": 8,
+     "GF": 153,
+     "GA": 269,
+     "PCT": 0.32926
+    },
+    {
+     "id": "Colorado Avalanche",
+     "name": "Colorado Avalanche",
+     "season": 2016,
+     "GP": 82,
+     "W": 22,
+     "L": 56,
+     "OTL": 4,
+     "GF": 165,
+     "GA": 276,
+     "PCT": 0.29268
+    },
+    {
+     "id": "Arizona Coyotes",
+     "name": "Arizona Coyotes",
+     "season": 2014,
+     "GP": 82,
+     "W": 24,
+     "L": 50,
+     "OTL": 8,
+     "GF": 165,
+     "GA": 267,
+     "PCT": 0.34146
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.615,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    },
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres"
+    },
+    {
+     "id": "Colorado Avalanche",
+     "name": "Colorado Avalanche"
+    },
+    {
+     "id": "Arizona Coyotes",
+     "name": "Arizona Coyotes"
+    }
+   ],
+   "seasons": [
+    2019,
+    2014,
+    2016,
+    2014
+   ],
+   "text": "Just four teams of the 2010s got outscored by 100: Detroit Red Wings (2019-20: 142-265); Buffalo Sabres (2014-15: 153-269); Colorado Avalanche (2016-17: 165-276); Arizona Coyotes (2014-15: 165-267).",
+   "why": "A short list fans can recite; each name brings its own fan base. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 26,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470144,
+     "name": "Frans Nielsen",
+     "season": 2010,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 71,
+     "G": 13,
+     "A": 31,
+     "P": 44,
+     "PIM": 38,
+     "PM": 13,
+     "PPG": 0,
+     "SHG": 7,
+     "GWG": 1,
+     "S": 156,
+     "TOI": 17.763379999999998,
+     "age": 26
+    },
+    {
+     "id": 8476419,
+     "name": "Jean-Gabriel Pageau",
+     "season": 2015,
+     "team": "OTT",
+     "pos": "C",
+     "GP": 82,
+     "G": 19,
+     "A": 24,
+     "P": 43,
+     "PIM": 26,
+     "PM": 17,
+     "PPG": 1,
+     "SHG": 7,
+     "GWG": 2,
+     "S": 133,
+     "TOI": 16.702234999999998,
+     "age": 23
+    },
+    {
+     "id": 8473546,
+     "name": "Michael Grabner",
+     "season": 2010,
+     "team": "NYI",
+     "pos": "L",
+     "GP": 76,
+     "G": 34,
+     "A": 18,
+     "P": 52,
+     "PIM": 10,
+     "PM": 13,
+     "PPG": 2,
+     "SHG": 6,
+     "GWG": 3,
+     "S": 228,
+     "TOI": 15.083113333333333,
+     "age": 23
+    },
+    {
+     "id": 8473546,
+     "name": "Michael Grabner",
+     "season": 2018,
+     "team": "ARI",
+     "pos": "L",
+     "GP": 41,
+     "G": 9,
+     "A": 7,
+     "P": 16,
+     "PIM": 8,
+     "PM": -2,
+     "PPG": 0,
+     "SHG": 6,
+     "GWG": 1,
+     "S": 65,
+     "TOI": 14.390649999999999,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.175,
+   "players": [
+    {
+     "id": 8470144,
+     "name": "Frans Nielsen"
+    },
+    {
+     "id": 8476419,
+     "name": "Jean-Gabriel Pageau"
+    },
+    {
+     "id": 8473546,
+     "name": "Michael Grabner"
+    }
+   ],
+   "seasons": [
+    2010,
+    2015,
+    2010,
+    2018
+   ],
+   "text": "Just three players of the 2010s scored 6 shorthanded goals: Frans Nielsen (2010-11: 7 SHG); Jean-Gabriel Pageau (2015-16: 7 SHG); Michael Grabner (2×, best 2010-11: 6 SHG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 27,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8460703,
+     "name": "Tim Thomas",
+     "season": 2010,
+     "team": "BOS",
+     "GP": 25,
+     "A": 0,
+     "PIM": 4,
+     "W": 16,
+     "L": 9,
+     "SO": 4,
+     "GAA": 1.98458,
+     "SVP": 0.93992,
+     "SV": 798,
+     "GA": 51
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "season": 2010,
+     "team": "VAN",
+     "GP": 25,
+     "A": 0,
+     "PIM": 0,
+     "W": 15,
+     "L": 10,
+     "SO": 4,
+     "GAA": 2.56452,
+     "SVP": 0.9142,
+     "SV": 650,
+     "GA": 61
+    },
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury",
+     "season": 2017,
+     "team": "VGK",
+     "GP": 20,
+     "A": 1,
+     "PIM": 4,
+     "W": 13,
+     "L": 7,
+     "SO": 4,
+     "GAA": 2.24061,
+     "SVP": 0.92667,
+     "SV": 594,
+     "GA": 47
+    },
+    {
+     "id": 8475215,
+     "name": "Robin Lehner",
+     "season": 2019,
+     "team": "VGK",
+     "GP": 16,
+     "A": 0,
+     "PIM": 0,
+     "W": 9,
+     "L": 7,
+     "OTL": 0,
+     "SO": 4,
+     "GAA": 1.98785,
+     "SVP": 0.91709,
+     "SV": 354,
+     "GA": 32
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.1,
+   "players": [
+    {
+     "id": 8460703,
+     "name": "Tim Thomas"
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo"
+    },
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury"
+    },
+    {
+     "id": 8475215,
+     "name": "Robin Lehner"
+    }
+   ],
+   "seasons": [
+    2010,
+    2010,
+    2017,
+    2019
+   ],
+   "text": "Just four goalies of the 2010s recorded 4 shutouts in one postseason: Tim Thomas (2010-11: 4 shutouts in 25 games); Roberto Luongo (2010-11: 4 shutouts in 25 games); Marc-Andre Fleury (2017-18: 4 shutouts in 20 games); Robin Lehner (2019-20: 4 shutouts in 16 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2011,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 60,
+     "A": 37,
+     "P": 97,
+     "PIM": 66,
+     "PM": 7,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "TOI": 22.020325,
+     "age": 21
+    }
+   ],
+   "among": 8857,
+   "text": "Most goals in a season in the 2010s: Steven Stamkos, 2011-12 — 60 in 82 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2018,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 41,
+     "A": 87,
+     "P": 128,
+     "PIM": 62,
+     "PM": 24,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 246,
+     "TOI": 19.965446666666665,
+     "age": 25
+    }
+   ],
+   "among": 8857,
+   "text": "Most points in a season in the 2010s: Nikita Kucherov, 2018-19 — 128 (41G, 87A).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2018,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 41,
+     "A": 87,
+     "P": 128,
+     "PIM": 62,
+     "PM": 24,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 246,
+     "TOI": 19.965446666666665,
+     "age": 25
+    }
+   ],
+   "among": 8857,
+   "text": "Most assists in a season in the 2010s: Nikita Kucherov, 2018-19 — 87.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8469820,
+     "name": "Zenon Konopka"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469820,
+     "name": "Zenon Konopka",
+     "season": 2010,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 82,
+     "G": 2,
+     "A": 7,
+     "P": 9,
+     "PIM": 307,
+     "PM": -14,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 56,
+     "TOI": 10.189836666666668,
+     "age": 30
+    }
+   ],
+   "among": 8857,
+   "text": "Most penalty minutes in a season in the 2010s: Zenon Konopka, 2010-11 — 307.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_ppg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2014,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 53,
+     "A": 28,
+     "P": 81,
+     "PIM": 58,
+     "PM": 10,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 395,
+     "TOI": 20.325924999999998,
+     "age": 29
+    }
+   ],
+   "among": 8857,
+   "text": "Most power-play goals in a season in the 2010s: Alex Ovechkin, 2014-15 — 25.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_pm",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476448,
+     "name": "William Karlsson"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476448,
+     "name": "William Karlsson",
+     "season": 2017,
+     "team": "VGK",
+     "pos": "C",
+     "GP": 82,
+     "G": 43,
+     "A": 35,
+     "P": 78,
+     "PIM": 12,
+     "PM": 49,
+     "PPG": 8,
+     "SHG": 4,
+     "GWG": 6,
+     "S": 184,
+     "TOI": 18.71686833333333,
+     "age": 25
+    }
+   ],
+   "among": 8857,
+   "text": "Best plus-minus in a season in the 2010s: William Karlsson, 2017-18 — +49.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476960,
+     "name": "Andreas Athanasiou"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476960,
+     "name": "Andreas Athanasiou",
+     "season": 2019,
+     "team": "DET,EDM",
+     "pos": "C",
+     "GP": 55,
+     "G": 11,
+     "A": 15,
+     "P": 26,
+     "PIM": 30,
+     "PM": -46,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 129,
+     "TOI": 15.844545,
+     "age": 25
+    }
+   ],
+   "among": 8857,
+   "text": "Worst plus-minus in a season in the 2010s: Andreas Athanasiou, 2019-20 — -46.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476448,
+     "name": "William Karlsson"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476448,
+     "name": "William Karlsson",
+     "season": 2017,
+     "team": "VGK",
+     "pos": "C",
+     "GP": 82,
+     "G": 43,
+     "A": 35,
+     "P": 78,
+     "PIM": 12,
+     "PM": 49,
+     "PPG": 8,
+     "SHG": 4,
+     "GWG": 6,
+     "S": 184,
+     "TOI": 18.71686833333333,
+     "age": 25
+    }
+   ],
+   "among": 1542,
+   "text": "Best shooting percentage in a season (150+ shots) in the 2010s: William Karlsson, 2017-18 — 23.4%.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2018,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 16,
+     "A": 67,
+     "P": 83,
+     "PIM": 34,
+     "PM": 13,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 300,
+     "TOI": 25.099186666666665,
+     "age": 33
+    }
+   ],
+   "among": 3036,
+   "text": "Most points by a defenseman in a season in the 2010s: Brent Burns, 2018-19 — 83.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2011,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 60,
+     "A": 37,
+     "P": 97,
+     "PIM": 66,
+     "PM": 7,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "TOI": 22.020325,
+     "age": 21
+    }
+   ],
+   "among": 5245,
+   "text": "Most goals per game in a season (60% of games) in the 2010s: Steven Stamkos, 2011-12 — 0.73.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2016,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 82,
+     "G": 40,
+     "A": 29,
+     "P": 69,
+     "PIM": 14,
+     "PM": 2,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 279,
+     "TOI": 17.631096666666668,
+     "age": 19
+    }
+   ],
+   "among": 1299,
+   "text": "Most goals in a first NHL season in the 2010s: Auston Matthews, 2016-17 — 40.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8478550,
+     "name": "Artemi Panarin"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478550,
+     "name": "Artemi Panarin",
+     "season": 2015,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 80,
+     "G": 30,
+     "A": 47,
+     "P": 77,
+     "PIM": 32,
+     "PM": 8,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 187,
+     "TOI": 18.520416666666666,
+     "age": 24
+    }
+   ],
+   "among": 1299,
+   "text": "Most points in a first NHL season in the 2010s: Artemi Panarin, 2015-16 — 77.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "x_toi",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8470600,
+     "name": "Ryan Suter"
+    }
+   ],
+   "seasons": [
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470600,
+     "name": "Ryan Suter",
+     "season": 2013,
+     "team": "MIN",
+     "pos": "D",
+     "GP": 82,
+     "G": 8,
+     "A": 35,
+     "P": 43,
+     "PIM": 34,
+     "PM": 15,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 150,
+     "TOI": 29.41341333333333,
+     "age": 29
+    }
+   ],
+   "among": 5245,
+   "text": "Most ice time per game in a season in the 2010s: Ryan Suter, 2013-14 — 29.4 minutes.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ice-time workload shows who coaches trusted most."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8474651,
+     "name": "Braden Holtby"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "season": 2015,
+     "team": "WSH",
+     "GP": 66,
+     "A": 1,
+     "PIM": 6,
+     "W": 48,
+     "L": 9,
+     "OTL": 7,
+     "SO": 3,
+     "GAA": 2.20244,
+     "SVP": 0.92175,
+     "SV": 1661,
+     "GA": 141
+    }
+   ],
+   "among": 909,
+   "text": "Most wins by a goalie in a season in the 2010s: Braden Holtby, 2015-16 — 48.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8468685,
+     "name": "Henrik Lundqvist"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8468685,
+     "name": "Henrik Lundqvist",
+     "season": 2010,
+     "team": "NYR",
+     "GP": 68,
+     "A": 4,
+     "PIM": 6,
+     "W": 36,
+     "L": 27,
+     "OTL": 5,
+     "SO": 11,
+     "GAA": 2.2762,
+     "SVP": 0.92264,
+     "SV": 1813,
+     "GA": 152
+    }
+   ],
+   "among": 909,
+   "text": "Most shutouts in a season in the 2010s: Henrik Lundqvist, 2010-11 — 11.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8470880,
+     "name": "Brian Elliott"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470880,
+     "name": "Brian Elliott",
+     "season": 2011,
+     "team": "STL",
+     "GP": 38,
+     "A": 0,
+     "PIM": 0,
+     "W": 23,
+     "L": 10,
+     "OTL": 4,
+     "SO": 9,
+     "GAA": 1.55733,
+     "SVP": 0.94032,
+     "SV": 914,
+     "GA": 58
+    }
+   ],
+   "among": 388,
+   "text": "Best goals-against average in a season (40% of games) in the 2010s: Brian Elliott, 2011-12 — 1.56.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "gx_sv",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8467950,
+     "name": "Craig Anderson"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467950,
+     "name": "Craig Anderson",
+     "season": 2012,
+     "team": "OTT",
+     "GP": 24,
+     "A": 0,
+     "PIM": 0,
+     "W": 12,
+     "L": 9,
+     "OTL": 2,
+     "SO": 3,
+     "GAA": 1.68942,
+     "SVP": 0.94091,
+     "SV": 637,
+     "GA": 40
+    }
+   ],
+   "among": 388,
+   "text": "Best save percentage in a season (40% of games) in the 2010s: Craig Anderson, 2012-13 — .941.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "gx_saves",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward",
+     "season": 2010,
+     "team": "CAR",
+     "GP": 74,
+     "A": 1,
+     "PIM": 0,
+     "W": 37,
+     "L": 26,
+     "OTL": 10,
+     "SO": 4,
+     "GAA": 2.55698,
+     "SVP": 0.92252,
+     "SV": 2191,
+     "GA": 184
+    }
+   ],
+   "among": 909,
+   "text": "Most saves in a season in the 2010s: Cam Ward, 2010-11 — 2,191.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "gx_gp",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward",
+     "season": 2010,
+     "team": "CAR",
+     "GP": 74,
+     "A": 1,
+     "PIM": 0,
+     "W": 37,
+     "L": 26,
+     "OTL": 10,
+     "SO": 4,
+     "GAA": 2.55698,
+     "SVP": 0.92252,
+     "SV": 2191,
+     "GA": 184
+    }
+   ],
+   "among": 909,
+   "text": "Most games by a goalie in a season in the 2010s: Cam Ward, 2010-11 — 74.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8469608,
+     "name": "Mike Smith"
+    }
+   ],
+   "seasons": [
+    2014
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469608,
+     "name": "Mike Smith",
+     "season": 2014,
+     "team": "ARI",
+     "GP": 62,
+     "A": 1,
+     "PIM": 10,
+     "W": 14,
+     "L": 42,
+     "OTL": 5,
+     "SO": 0,
+     "GAA": 3.15542,
+     "SVP": 0.90434,
+     "SV": 1768,
+     "GA": 187
+    }
+   ],
+   "among": 909,
+   "text": "Most losses by a goalie in a season in the 2010s: Mike Smith, 2014-15 — 42.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 2012,
+     "GP": 48,
+     "W": 36,
+     "L": 7,
+     "OTL": 5,
+     "GF": 149,
+     "GA": 97,
+     "PCT": 0.80208
+    }
+   ],
+   "among": 303,
+   "text": "Best points percentage in a season in the 2010s: Chicago Blackhawks, 2012-13 — .802 (36-7-5).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 2019,
+     "GP": 71,
+     "W": 17,
+     "L": 49,
+     "OTL": 5,
+     "GF": 142,
+     "GA": 265,
+     "PCT": 0.27464
+    }
+   ],
+   "among": 303,
+   "text": "Worst points percentage in a season in the 2010s: Detroit Red Wings, 2019-20 — .275 (17-49-5).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning",
+     "season": 2018,
+     "GP": 82,
+     "W": 62,
+     "L": 16,
+     "OTL": 4,
+     "GF": 319,
+     "GA": 221,
+     "PCT": 0.78048
+    }
+   ],
+   "among": 303,
+   "text": "Most goals per game by a team in the 2010s: Tampa Bay Lightning, 2018-19 — 3.89 (319 in 82).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues",
+     "season": 2011,
+     "GP": 82,
+     "W": 49,
+     "L": 22,
+     "OTL": 11,
+     "GF": 206,
+     "GA": 155,
+     "PCT": 0.66463
+    }
+   ],
+   "among": 303,
+   "text": "Fewest goals allowed per game in the 2010s: St. Louis Blues, 2011-12 — 1.89 (155 in 82).",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "tx_pp",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 2019,
+     "GP": 71,
+     "W": 37,
+     "L": 25,
+     "OTL": 9,
+     "GF": 223,
+     "GA": 215,
+     "PCT": 0.5845
+    }
+   ],
+   "among": 303,
+   "text": "Best power play in a season in the 2010s: Edmonton Oilers, 2019-20 — 29.5%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "tx_pk",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 2011,
+     "GP": 82,
+     "W": 48,
+     "L": 28,
+     "OTL": 6,
+     "GF": 216,
+     "GA": 205,
+     "PCT": 0.62195
+    }
+   ],
+   "among": 303,
+   "text": "Best penalty kill in a season in the 2010s: New Jersey Devils, 2011-12 — 89.6%.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 54,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8467493,
+     "name": "Chris Neil"
+    }
+   ],
+   "seasons": [
+    2010,
+    2011,
+    2012,
+    2013
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2010,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 80,
+     "G": 6,
+     "A": 10,
+     "P": 16,
+     "PIM": 210,
+     "PM": -14,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 105,
+     "TOI": 12.7625,
+     "age": 31
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2011,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 72,
+     "G": 13,
+     "A": 15,
+     "P": 28,
+     "PIM": 178,
+     "PM": -10,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 127,
+     "TOI": 12.79236,
+     "age": 32
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2012,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 48,
+     "G": 4,
+     "A": 8,
+     "P": 12,
+     "PIM": 144,
+     "PM": 0,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 87,
+     "TOI": 13.862846666666666,
+     "age": 33
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2013,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 76,
+     "G": 8,
+     "A": 6,
+     "P": 14,
+     "PIM": 211,
+     "PM": -10,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 99,
+     "TOI": 11.802850000000001,
+     "age": 34
+    }
+   ],
+   "text": "Chris Neil racked up 140+ penalty minutes in 4 straight seasons (2010-11 to 2013-14), the longest run of the 2010s.",
+   "why": "The longest run of the 2010s; fans measure today's stars against it. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 55,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8474651,
+     "name": "Braden Holtby"
+    }
+   ],
+   "seasons": [
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "season": 2014,
+     "team": "WSH",
+     "GP": 73,
+     "A": 2,
+     "PIM": 2,
+     "W": 41,
+     "L": 20,
+     "OTL": 10,
+     "SO": 9,
+     "GAA": 2.21778,
+     "SVP": 0.92318,
+     "SV": 1887,
+     "GA": 157
+    },
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "season": 2015,
+     "team": "WSH",
+     "GP": 66,
+     "A": 1,
+     "PIM": 6,
+     "W": 48,
+     "L": 9,
+     "OTL": 7,
+     "SO": 3,
+     "GAA": 2.20244,
+     "SVP": 0.92175,
+     "SV": 1661,
+     "GA": 141
+    },
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "season": 2016,
+     "team": "WSH",
+     "GP": 63,
+     "A": 0,
+     "PIM": 0,
+     "W": 42,
+     "L": 13,
+     "OTL": 6,
+     "SO": 9,
+     "GAA": 2.07055,
+     "SVP": 0.92485,
+     "SV": 1563,
+     "GA": 127
+    },
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "season": 2017,
+     "team": "WSH",
+     "GP": 54,
+     "A": 0,
+     "PIM": 2,
+     "W": 34,
+     "L": 16,
+     "OTL": 4,
+     "SO": 0,
+     "GAA": 2.99237,
+     "SVP": 0.90716,
+     "SV": 1495,
+     "GA": 153
+    }
+   ],
+   "text": "Braden Holtby won 34+ games in goal in 4 straight seasons (2014-15 to 2017-18), the longest run of the 2010s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2015,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 50,
+     "A": 21,
+     "P": 71,
+     "PIM": 53,
+     "PM": 21,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 398,
+     "TOI": 20.308438333333335,
+     "age": 30
+    }
+   ],
+   "among": 8857,
+   "text": "Most shots in a season in the 2010s: Alex Ovechkin, 2015-16 — 398.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 57,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2016,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 29,
+     "A": 47,
+     "P": 76,
+     "PIM": 40,
+     "PM": 19,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 320,
+     "TOI": 24.8626,
+     "age": 31
+    }
+   ],
+   "among": 3036,
+   "text": "Most goals by a defenseman in a season in the 2010s: Brent Burns, 2016-17 — 29.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2018,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 41,
+     "A": 87,
+     "P": 128,
+     "PIM": 62,
+     "PM": 24,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 246,
+     "TOI": 19.965446666666665,
+     "age": 25
+    }
+   ],
+   "among": 5245,
+   "text": "Most points per game in a season (60% of games) in the 2010s: Nikita Kucherov, 2018-19 — 1.56.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 59,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Tampa Bay Lightning",
+     "name": "Tampa Bay Lightning",
+     "season": 2018,
+     "GP": 82,
+     "W": 62,
+     "L": 16,
+     "OTL": 4,
+     "GF": 319,
+     "GA": 221,
+     "PCT": 0.78048
+    }
+   ],
+   "among": 303,
+   "text": "Best goal differential in a season in the 2010s: Tampa Bay Lightning, 2018-19 — +98.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 60,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2019,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 25,
+     "G": 7,
+     "A": 27,
+     "P": 34,
+     "PIM": 22,
+     "PM": 15,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 92,
+     "TOI": 21.674,
+     "age": 26
+    }
+   ],
+   "among": 3583,
+   "text": "Most points in a single postseason in the 2010s: Nikita Kucherov, 2019-20 — 34 in 25 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 61,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "2010s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2017
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2017,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 24,
+     "G": 15,
+     "A": 12,
+     "P": 27,
+     "PIM": 8,
+     "PM": 8,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 99,
+     "TOI": 20.726388333333333,
+     "age": 32
+    }
+   ],
+   "among": 3583,
+   "text": "Most goals in a single postseason in the 2010s: Alex Ovechkin, 2017-18 — 15 in 24 games.",
+   "why": "The high-water mark of the 2010s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 62,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2016,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 30,
+     "A": 70,
+     "P": 100,
+     "PIM": 26,
+     "PM": 27,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 251,
+     "TOI": 21.131503333333335,
+     "age": 20
+    },
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2010,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 45,
+     "A": 46,
+     "P": 91,
+     "PIM": 74,
+     "PM": 3,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 272,
+     "TOI": 20.194308333333332,
+     "age": 20
+    },
+    {
+     "id": 8478445,
+     "name": "Mathew Barzal",
+     "season": 2017,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 82,
+     "G": 22,
+     "A": 63,
+     "P": 85,
+     "PIM": 30,
+     "PM": 1,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 170,
+     "TOI": 17.76565,
+     "age": 20
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2016,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 75,
+     "G": 34,
+     "A": 36,
+     "P": 70,
+     "PIM": 34,
+     "PM": 11,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 262,
+     "TOI": 17.982443333333332,
+     "age": 20
+    },
+    {
+     "id": 8479339,
+     "name": "Patrik Laine",
+     "season": 2017,
+     "team": "WPG",
+     "pos": "L",
+     "GP": 82,
+     "G": 44,
+     "A": 26,
+     "P": 70,
+     "PIM": 24,
+     "PM": 8,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 241,
+     "TOI": 16.48069,
+     "age": 19
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2016,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 82,
+     "G": 40,
+     "A": 29,
+     "P": 69,
+     "PIM": 14,
+     "PM": 2,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 279,
+     "TOI": 17.631096666666668,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 5.5,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "text": "13 players recorded 65 points at age 20 or younger in the 2010s. The most extreme: Connor McDavid, 2016-17 — 100 points at 20.",
+   "why": "Leads with the most extreme case, which carries the post. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 63,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8477493,
+     "name": "Aleksander Barkov",
+     "season": 2018,
+     "team": "FLA",
+     "pos": "C",
+     "GP": 82,
+     "G": 35,
+     "A": 61,
+     "P": 96,
+     "PIM": 8,
+     "PM": -3,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 206,
+     "TOI": 22.353861666666667,
+     "age": 23
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2019,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 33,
+     "P": 80,
+     "PIM": 8,
+     "PM": 19,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 290,
+     "TOI": 20.96952333333333,
+     "age": 22
+    },
+    {
+     "id": 8474586,
+     "name": "Jordan Eberle",
+     "season": 2011,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 78,
+     "G": 34,
+     "A": 42,
+     "P": 76,
+     "PIM": 10,
+     "PM": 4,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 180,
+     "TOI": 17.597221666666666,
+     "age": 21
+    },
+    {
+     "id": 8470626,
+     "name": "Loui Eriksson",
+     "season": 2010,
+     "team": "DAL",
+     "pos": "L",
+     "GP": 79,
+     "G": 27,
+     "A": 46,
+     "P": 73,
+     "PIM": 8,
+     "PM": 10,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 179,
+     "TOI": 20.568986666666667,
+     "age": 25
+    },
+    {
+     "id": 8474149,
+     "name": "Evgenii Dadonov",
+     "season": 2018,
+     "team": "FLA",
+     "pos": "L",
+     "GP": 82,
+     "G": 28,
+     "A": 42,
+     "P": 70,
+     "PIM": 8,
+     "PM": -6,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 195,
+     "TOI": 18.371136666666665,
+     "age": 29
+    },
+    {
+     "id": 8475168,
+     "name": "Matt Duchene",
+     "season": 2018,
+     "team": "OTT,CBJ",
+     "pos": "C",
+     "GP": 73,
+     "G": 31,
+     "A": 39,
+     "P": 70,
+     "PIM": 8,
+     "PM": -3,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 172,
+     "TOI": 18.834245,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 5.4,
+   "players": [
+    {
+     "id": 8477493,
+     "name": "Aleksander Barkov"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "16 players recorded 60 points with 10 or fewer penalty minutes in the 2010s (20 seasons). The most extreme: Aleksander Barkov, 2018-19 — 96 pts, 8 PIM.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 64,
+   "rule": "g_sv",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467950,
+     "name": "Craig Anderson",
+     "season": 2012,
+     "team": "OTT",
+     "GP": 24,
+     "A": 0,
+     "PIM": 0,
+     "W": 12,
+     "L": 9,
+     "OTL": 2,
+     "SO": 3,
+     "GAA": 1.68942,
+     "SVP": 0.94091,
+     "SV": 637,
+     "GA": 40
+    },
+    {
+     "id": 8470880,
+     "name": "Brian Elliott",
+     "season": 2011,
+     "team": "STL",
+     "GP": 38,
+     "A": 0,
+     "PIM": 0,
+     "W": 23,
+     "L": 10,
+     "OTL": 4,
+     "SO": 9,
+     "GAA": 1.55733,
+     "SVP": 0.94032,
+     "SV": 914,
+     "GA": 58
+    },
+    {
+     "id": 8460703,
+     "name": "Tim Thomas",
+     "season": 2010,
+     "team": "BOS",
+     "GP": 57,
+     "A": 3,
+     "PIM": 13,
+     "W": 35,
+     "L": 11,
+     "OTL": 9,
+     "SO": 9,
+     "GAA": 1.99764,
+     "SVP": 0.93815,
+     "SV": 1699,
+     "GA": 112
+    },
+    {
+     "id": 8471239,
+     "name": "Cory Schneider",
+     "season": 2011,
+     "team": "VAN",
+     "GP": 33,
+     "A": 2,
+     "PIM": 0,
+     "W": 20,
+     "L": 8,
+     "OTL": 1,
+     "SO": 3,
+     "GAA": 1.96417,
+     "SVP": 0.9365,
+     "SV": 885,
+     "GA": 60
+    },
+    {
+     "id": 8471750,
+     "name": "Ben Bishop",
+     "season": 2018,
+     "team": "DAL",
+     "GP": 46,
+     "A": 2,
+     "PIM": 2,
+     "W": 27,
+     "L": 15,
+     "OTL": 2,
+     "SO": 7,
+     "GAA": 1.97929,
+     "SVP": 0.93424,
+     "SV": 1236,
+     "GA": 87
+    },
+    {
+     "id": 8471679,
+     "name": "Carey Price",
+     "season": 2014,
+     "team": "MTL",
+     "GP": 66,
+     "A": 1,
+     "PIM": 4,
+     "W": 44,
+     "L": 16,
+     "OTL": 6,
+     "SO": 9,
+     "GAA": 1.96149,
+     "SVP": 0.93343,
+     "SV": 1823,
+     "GA": 130
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 5.272749999999999,
+   "players": [
+    {
+     "id": 8467950,
+     "name": "Craig Anderson"
+    }
+   ],
+   "seasons": [
+    2012
+   ],
+   "text": "9 goalies posted a .930 saved percentage (40% of games) in the 2010s (10 seasons). The most extreme: Craig Anderson, 2012-13 — .941 in 24 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 65,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov",
+     "season": 2018,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 41,
+     "A": 87,
+     "P": 128,
+     "PIM": 62,
+     "PM": 24,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 246,
+     "TOI": 19.965446666666665,
+     "age": 25
+    },
+    {
+     "id": 8467876,
+     "name": "Henrik Sedin",
+     "season": 2010,
+     "team": "VAN",
+     "pos": "C",
+     "GP": 82,
+     "G": 19,
+     "A": 75,
+     "P": 94,
+     "PIM": 40,
+     "PM": 26,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 157,
+     "TOI": 19.259551666666667,
+     "age": 30
+    },
+    {
+     "id": 8471218,
+     "name": "Blake Wheeler",
+     "season": 2018,
+     "team": "WPG",
+     "pos": "R",
+     "GP": 82,
+     "G": 20,
+     "A": 71,
+     "P": 91,
+     "PIM": 60,
+     "PM": 0,
+     "PPG": 2,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 231,
+     "TOI": 20.709754999999998,
+     "age": 32
+    },
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "season": 2016,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 82,
+     "G": 30,
+     "A": 70,
+     "P": 100,
+     "PIM": 26,
+     "PM": 27,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 251,
+     "TOI": 21.131503333333335,
+     "age": 20
+    },
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis",
+     "season": 2010,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 31,
+     "A": 68,
+     "P": 99,
+     "PIM": 12,
+     "PM": 0,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 254,
+     "TOI": 20.979876666666666,
+     "age": 35
+    },
+    {
+     "id": 8471218,
+     "name": "Blake Wheeler",
+     "season": 2017,
+     "team": "WPG",
+     "pos": "R",
+     "GP": 81,
+     "G": 23,
+     "A": 68,
+     "P": 91,
+     "PIM": 52,
+     "PM": 13,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 246,
+     "TOI": 20.25658333333333,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 42,
+   "kind": "list",
+   "score": 5.175,
+   "players": [
+    {
+     "id": 8476453,
+     "name": "Nikita Kucherov"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "27 players recorded 56 assists with twice as many assists as goals in the 2010s (42 seasons). The most extreme: Nikita Kucherov, 2018-19 — 87A, 41G.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 66,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2018,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 16,
+     "A": 67,
+     "P": 83,
+     "PIM": 34,
+     "PM": 13,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 300,
+     "TOI": 25.099186666666665,
+     "age": 33
+    },
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "season": 2015,
+     "team": "OTT",
+     "pos": "D",
+     "GP": 82,
+     "G": 16,
+     "A": 66,
+     "P": 82,
+     "PIM": 50,
+     "PM": -2,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 248,
+     "TOI": 28.974593333333335,
+     "age": 25
+    },
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "season": 2011,
+     "team": "OTT",
+     "pos": "D",
+     "GP": 81,
+     "G": 19,
+     "A": 59,
+     "P": 78,
+     "PIM": 42,
+     "PM": 16,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 261,
+     "TOI": 25.316871666666668,
+     "age": 21
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2016,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 29,
+     "A": 47,
+     "P": 76,
+     "PIM": 40,
+     "PM": 19,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 320,
+     "TOI": 24.8626,
+     "age": 31
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2015,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 27,
+     "A": 48,
+     "P": 75,
+     "PIM": 53,
+     "PM": -5,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 353,
+     "TOI": 25.864023333333332,
+     "age": 30
+    },
+    {
+     "id": 8474590,
+     "name": "John Carlson",
+     "season": 2019,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 69,
+     "G": 15,
+     "A": 60,
+     "P": 75,
+     "PIM": 26,
+     "PM": 12,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 189,
+     "TOI": 24.633091666666665,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 5.075,
+   "players": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns"
+    }
+   ],
+   "seasons": [
+    2018
+   ],
+   "text": "6 players recorded 70 points as a defenseman in the 2010s (12 seasons). The most extreme: Brent Burns, 2018-19 — 83 points (16G, 67A).",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 67,
+   "rule": "h_old_p",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2015,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 19,
+     "A": 63,
+     "P": 82,
+     "PIM": 54,
+     "PM": 25,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 121,
+     "TOI": 18.36239833333333,
+     "age": 36
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 2010,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 73,
+     "G": 31,
+     "A": 49,
+     "P": 80,
+     "PIM": 49,
+     "PM": 6,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 213,
+     "TOI": 17.938811666666666,
+     "age": 40
+    },
+    {
+     "id": 8458537,
+     "name": "Ray Whitney",
+     "season": 2011,
+     "team": "PHX",
+     "pos": "L",
+     "GP": 82,
+     "G": 24,
+     "A": 53,
+     "P": 77,
+     "PIM": 28,
+     "PM": 26,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 185,
+     "TOI": 18.645933333333335,
+     "age": 39
+    },
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis",
+     "season": 2011,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 77,
+     "G": 25,
+     "A": 49,
+     "P": 74,
+     "PIM": 16,
+     "PM": -3,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 185,
+     "TOI": 22.632683333333333,
+     "age": 36
+    },
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis",
+     "season": 2013,
+     "team": "TBL,NYR",
+     "pos": "R",
+     "GP": 81,
+     "G": 30,
+     "A": 39,
+     "P": 69,
+     "PIM": 10,
+     "PM": 13,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 204,
+     "TOI": 20.940533333333335,
+     "age": 38
+    },
+    {
+     "id": 8468083,
+     "name": "Henrik Zetterberg",
+     "season": 2016,
+     "team": "DET",
+     "pos": "C",
+     "GP": 82,
+     "G": 17,
+     "A": 51,
+     "P": 68,
+     "PIM": 22,
+     "PM": 15,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 195,
+     "TOI": 19.717071666666666,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 5.05,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [
+    2015
+   ],
+   "text": "10 players recorded 60 points at age 36 or older in the 2010s (14 seasons). The most extreme: Joe Thornton, 2015-16 — 82 points at 36.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 68,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8470794,
+     "name": "Joe Pavelski"
+    }
+   ],
+   "seasons": [
+    2013,
+    2014,
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470794,
+     "name": "Joe Pavelski",
+     "season": 2013,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 41,
+     "A": 38,
+     "P": 79,
+     "PIM": 32,
+     "PM": 23,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 225,
+     "TOI": 19.850201666666667,
+     "age": 29
+    },
+    {
+     "id": 8470794,
+     "name": "Joe Pavelski",
+     "season": 2014,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 37,
+     "A": 33,
+     "P": 70,
+     "PIM": 29,
+     "PM": 12,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 261,
+     "TOI": 20.125,
+     "age": 30
+    },
+    {
+     "id": 8470794,
+     "name": "Joe Pavelski",
+     "season": 2015,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 38,
+     "A": 40,
+     "P": 78,
+     "PIM": 30,
+     "PM": 25,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 224,
+     "TOI": 19.815853333333333,
+     "age": 31
+    }
+   ],
+   "text": "Joe Pavelski scored 35+ goals in 3 straight seasons (2013-14 to 2015-16), the longest run of the 2010s.",
+   "why": "The longest run of the 2010s; fans measure today's stars against it. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8474141,
+     "name": "Patrick Kane"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474141,
+     "name": "Patrick Kane",
+     "total": 792,
+     "seasons": 10
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "total": 757,
+     "seasons": 10
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "total": 749,
+     "seasons": 10
+    },
+    {
+     "id": 8473512,
+     "name": "Claude Giroux",
+     "total": 741,
+     "seasons": 10
+    },
+    {
+     "id": 8475166,
+     "name": "John Tavares",
+     "total": 715,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points of the 2010s: Patrick Kane, 792 (next: Sidney Crosby, 757).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8473512,
+     "name": "Claude Giroux"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8473512,
+     "name": "Claude Giroux",
+     "total": 509,
+     "seasons": 10
+    },
+    {
+     "id": 8473563,
+     "name": "Nicklas Backstrom",
+     "total": 495,
+     "seasons": 10
+    },
+    {
+     "id": 8474141,
+     "name": "Patrick Kane",
+     "total": 479,
+     "seasons": 10
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "total": 478,
+     "seasons": 10
+    },
+    {
+     "id": 8470612,
+     "name": "Ryan Getzlaf",
+     "total": 459,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 2010s: Claude Giroux, 509.",
+   "why": "A decade-long view that settles consistency debates. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8471657,
+     "name": "Cody McLeod"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471657,
+     "name": "Cody McLeod",
+     "total": 1210,
+     "seasons": 9
+    },
+    {
+     "id": 8473432,
+     "name": "Derek Dorsett",
+     "total": 1059,
+     "seasons": 8
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "total": 1049,
+     "seasons": 7
+    },
+    {
+     "id": 8476880,
+     "name": "Tom Wilson",
+     "total": 1027,
+     "seasons": 7
+    },
+    {
+     "id": 8474849,
+     "name": "Antoine Roussel",
+     "total": 967,
+     "seasons": 8
+    }
+   ],
+   "text": "Most penalty minutes of the 2010s: Cody McLeod, 1,210.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 72,
+   "kind": "total",
+   "rule": "tt_pm",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8473419,
+     "name": "Brad Marchand"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8473419,
+     "name": "Brad Marchand",
+     "total": 224,
+     "seasons": 10
+    },
+    {
+     "id": 8470638,
+     "name": "Patrice Bergeron",
+     "total": 211,
+     "seasons": 10
+    },
+    {
+     "id": 8465009,
+     "name": "Zdeno Chara",
+     "total": 205,
+     "seasons": 10
+    },
+    {
+     "id": 8474151,
+     "name": "Ryan McDonagh",
+     "total": 187,
+     "seasons": 10
+    },
+    {
+     "id": 8473604,
+     "name": "Jonathan Toews",
+     "total": 148,
+     "seasons": 10
+    }
+   ],
+   "text": "Best combined plus-minus of the 2010s: Brad Marchand, +224.",
+   "why": "A decade-long view that settles consistency debates. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8471735,
+     "name": "Keith Yandle"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471735,
+     "name": "Keith Yandle",
+     "total": 775,
+     "seasons": 10
+    },
+    {
+     "id": 8473548,
+     "name": "Phil Kessel",
+     "total": 774,
+     "seasons": 10
+    },
+    {
+     "id": 8466139,
+     "name": "Patrick Marleau",
+     "total": 770,
+     "seasons": 10
+    },
+    {
+     "id": 8471218,
+     "name": "Blake Wheeler",
+     "total": 768,
+     "seasons": 10
+    },
+    {
+     "id": 8471699,
+     "name": "Andrew Cogliano",
+     "total": 766,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 2010s: Keith Yandle, 775.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "total": 577,
+     "seasons": 10
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "total": 557,
+     "seasons": 10
+    },
+    {
+     "id": 8471735,
+     "name": "Keith Yandle",
+     "total": 488,
+     "seasons": 10
+    },
+    {
+     "id": 8474590,
+     "name": "John Carlson",
+     "total": 472,
+     "seasons": 10
+    },
+    {
+     "id": 8471724,
+     "name": "Kris Letang",
+     "total": 458,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points by a defenseman in the 2010s: Erik Karlsson, 577.",
+   "why": "A decade-long view that settles consistency debates. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8478402,
+     "name": "Connor McDavid",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "total": 2,
+     "seasons": 2
+    },
+    {
+     "id": 8473512,
+     "name": "Claude Giroux",
+     "total": 2,
+     "seasons": 2
+    }
+   ],
+   "text": "Most 90-point seasons in the 2010s: Connor McDavid, 4.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury",
+     "total": 318,
+     "seasons": 10
+    },
+    {
+     "id": 8471469,
+     "name": "Pekka Rinne",
+     "total": 297,
+     "seasons": 10
+    },
+    {
+     "id": 8471679,
+     "name": "Carey Price",
+     "total": 288,
+     "seasons": 10
+    },
+    {
+     "id": 8468685,
+     "name": "Henrik Lundqvist",
+     "total": 282,
+     "seasons": 10
+    },
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "total": 282,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goalie wins of the 2010s: Marc-Andre Fleury, 318.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury",
+     "total": 45,
+     "seasons": 10
+    },
+    {
+     "id": 8471469,
+     "name": "Pekka Rinne",
+     "total": 44,
+     "seasons": 10
+    },
+    {
+     "id": 8471679,
+     "name": "Carey Price",
+     "total": 44,
+     "seasons": 10
+    },
+    {
+     "id": 8471695,
+     "name": "Tuukka Rask",
+     "total": 44,
+     "seasons": 10
+    },
+    {
+     "id": 8471734,
+     "name": "Jonathan Quick",
+     "total": 44,
+     "seasons": 10
+    }
+   ],
+   "text": "Most shutouts of the 2010s: Marc-Andre Fleury, 45.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8468685,
+     "name": "Henrik Lundqvist"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8468685,
+     "name": "Henrik Lundqvist",
+     "total": 549,
+     "seasons": 10
+    },
+    {
+     "id": 8471679,
+     "name": "Carey Price",
+     "total": 548,
+     "seasons": 10
+    },
+    {
+     "id": 8471469,
+     "name": "Pekka Rinne",
+     "total": 546,
+     "seasons": 10
+    },
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury",
+     "total": 545,
+     "seasons": 10
+    },
+    {
+     "id": 8471734,
+     "name": "Jonathan Quick",
+     "total": 525,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games in goal in the 2010s: Henrik Lundqvist, 549.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 79,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 5
+    },
+    {
+     "season": 2011,
+     "count": 4
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 3
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 4
+    },
+    {
+     "season": 2016,
+     "count": 3
+    },
+    {
+     "season": 2017,
+     "count": 8
+    },
+    {
+     "season": 2018,
+     "count": 13
+    },
+    {
+     "season": 2019,
+     "count": 5
+    }
+   ],
+   "text": "2018-19 had 13 40-goal scorers, the most of any season in the 2010s.",
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 80,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 5
+    },
+    {
+     "season": 2011,
+     "count": 4
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 3
+    },
+    {
+     "season": 2014,
+     "count": 3
+    },
+    {
+     "season": 2015,
+     "count": 4
+    },
+    {
+     "season": 2016,
+     "count": 3
+    },
+    {
+     "season": 2017,
+     "count": 8
+    },
+    {
+     "season": 2018,
+     "count": 13
+    },
+    {
+     "season": 2019,
+     "count": 5
+    }
+   ],
+   "text": "2012-13 had no 40-goal scorers at all — the only season of the 2010s without one.",
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 81,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 5
+    },
+    {
+     "season": 2011,
+     "count": 3
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 1
+    },
+    {
+     "season": 2014,
+     "count": 0
+    },
+    {
+     "season": 2015,
+     "count": 1
+    },
+    {
+     "season": 2016,
+     "count": 1
+    },
+    {
+     "season": 2017,
+     "count": 9
+    },
+    {
+     "season": 2018,
+     "count": 14
+    },
+    {
+     "season": 2019,
+     "count": 5
+    }
+   ],
+   "text": "2018-19 had 14 90-point players, the most of any season in the 2010s.",
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 82,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 13
+    },
+    {
+     "season": 2011,
+     "count": 8
+    },
+    {
+     "season": 2012,
+     "count": 20
+    },
+    {
+     "season": 2013,
+     "count": 11
+    },
+    {
+     "season": 2014,
+     "count": 8
+    },
+    {
+     "season": 2015,
+     "count": 7
+    },
+    {
+     "season": 2016,
+     "count": 8
+    },
+    {
+     "season": 2017,
+     "count": 24
+    },
+    {
+     "season": 2018,
+     "count": 31
+    },
+    {
+     "season": 2019,
+     "count": 20
+    }
+   ],
+   "text": "2018-19 had 31 point-a-game players (60% of games), the most of any season in the 2010s.",
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 83,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2015
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 13
+    },
+    {
+     "season": 2011,
+     "count": 8
+    },
+    {
+     "season": 2012,
+     "count": 20
+    },
+    {
+     "season": 2013,
+     "count": 11
+    },
+    {
+     "season": 2014,
+     "count": 8
+    },
+    {
+     "season": 2015,
+     "count": 7
+    },
+    {
+     "season": 2016,
+     "count": 8
+    },
+    {
+     "season": 2017,
+     "count": 24
+    },
+    {
+     "season": 2018,
+     "count": 31
+    },
+    {
+     "season": 2019,
+     "count": 20
+    }
+   ],
+   "text": "2015-16 had just 7 point-a-game players (60% of games), the fewest of any season in the 2010s.",
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 84,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2012
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2010,
+     "count": 5
+    },
+    {
+     "season": 2011,
+     "count": 4
+    },
+    {
+     "season": 2012,
+     "count": 0
+    },
+    {
+     "season": 2013,
+     "count": 6
+    },
+    {
+     "season": 2014,
+     "count": 10
+    },
+    {
+     "season": 2015,
+     "count": 10
+    },
+    {
+     "season": 2016,
+     "count": 6
+    },
+    {
+     "season": 2017,
+     "count": 9
+    },
+    {
+     "season": 2018,
+     "count": 7
+    },
+    {
+     "season": 2019,
+     "count": 7
+    }
+   ],
+   "text": "2012-13 had no defensemen with 15+ goals at all — the only season of the 2010s without one.",
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 85,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "2010s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "total": 437,
+     "seasons": 10
+    },
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "total": 348,
+     "seasons": 10
+    },
+    {
+     "id": 8475166,
+     "name": "John Tavares",
+     "total": 321,
+     "seasons": 10
+    },
+    {
+     "id": 8474141,
+     "name": "Patrick Kane",
+     "total": 313,
+     "seasons": 10
+    },
+    {
+     "id": 8473419,
+     "name": "Brad Marchand",
+     "total": 290,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goals of the 2010s: Alex Ovechkin, 437 (next: Steven Stamkos, 348).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 86,
+   "rule": "g_gp",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward",
+     "season": 2010,
+     "team": "CAR",
+     "GP": 74,
+     "A": 1,
+     "PIM": 0,
+     "W": 37,
+     "L": 26,
+     "OTL": 10,
+     "SO": 4,
+     "GAA": 2.55698,
+     "SVP": 0.92252,
+     "SV": 2191,
+     "GA": 184
+    },
+    {
+     "id": 8471469,
+     "name": "Pekka Rinne",
+     "season": 2011,
+     "team": "NSH",
+     "GP": 73,
+     "A": 5,
+     "PIM": 0,
+     "W": 43,
+     "L": 18,
+     "OTL": 8,
+     "SO": 5,
+     "GAA": 2.38913,
+     "SVP": 0.92289,
+     "SV": 1987,
+     "GA": 166
+    },
+    {
+     "id": 8473972,
+     "name": "Jonas Hiller",
+     "season": 2011,
+     "team": "ANA",
+     "GP": 73,
+     "A": 1,
+     "PIM": 0,
+     "W": 29,
+     "L": 30,
+     "OTL": 12,
+     "SO": 4,
+     "GAA": 2.56789,
+     "SVP": 0.90994,
+     "SV": 1839,
+     "GA": 182
+    },
+    {
+     "id": 8474651,
+     "name": "Braden Holtby",
+     "season": 2014,
+     "team": "WSH",
+     "GP": 73,
+     "A": 2,
+     "PIM": 2,
+     "W": 41,
+     "L": 20,
+     "OTL": 10,
+     "SO": 9,
+     "GAA": 2.21778,
+     "SVP": 0.92318,
+     "SV": 1887,
+     "GA": 157
+    },
+    {
+     "id": 8475660,
+     "name": "Cam Talbot",
+     "season": 2016,
+     "team": "EDM",
+     "GP": 73,
+     "A": 0,
+     "PIM": 4,
+     "W": 42,
+     "L": 22,
+     "OTL": 8,
+     "SO": 7,
+     "GAA": 2.38938,
+     "SVP": 0.91922,
+     "SV": 1946,
+     "GA": 171
+    },
+    {
+     "id": 8471679,
+     "name": "Carey Price",
+     "season": 2010,
+     "team": "MTL",
+     "GP": 72,
+     "A": 2,
+     "PIM": 13,
+     "W": 38,
+     "L": 28,
+     "OTL": 6,
+     "SO": 8,
+     "GAA": 2.35369,
+     "SVP": 0.92314,
+     "SV": 1982,
+     "GA": 165
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 4.85,
+   "players": [
+    {
+     "id": 8470320,
+     "name": "Cam Ward"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "7 goalies played 72 games in the 2010s. The most extreme: Cam Ward, 2010-11 — 74 GP.",
+   "why": "Leads with the most extreme case, which carries the post. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 87,
+   "kind": "nearmiss",
+   "rule": "n_p99",
+   "group": "P",
+   "decade": "2010s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis"
+    },
+    {
+     "id": 8476346,
+     "name": "Johnny Gaudreau"
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon"
+    }
+   ],
+   "seasons": [
+    2010,
+    2018,
+    2018
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis",
+     "season": 2010,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 31,
+     "A": 68,
+     "P": 99,
+     "PIM": 12,
+     "PM": 0,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 254,
+     "TOI": 20.979876666666666,
+     "age": 35
+    },
+    {
+     "id": 8476346,
+     "name": "Johnny Gaudreau",
+     "season": 2018,
+     "team": "CGY",
+     "pos": "L",
+     "GP": 82,
+     "G": 36,
+     "A": 63,
+     "P": 99,
+     "PIM": 24,
+     "PM": 18,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 245,
+     "TOI": 20.074186666666666,
+     "age": 25
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2018,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 41,
+     "A": 58,
+     "P": 99,
+     "PIM": 34,
+     "PM": 20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 365,
+     "TOI": 22.091463333333333,
+     "age": 23
+    }
+   ],
+   "text": "3 player-seasons of the 2010s ended on exactly 99 points, one short of 100 — among them Martin St. Louis (2010-11), Johnny Gaudreau (2018-19), Nathan MacKinnon (2018-19).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 88,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2011,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 60,
+     "A": 37,
+     "P": 97,
+     "PIM": 66,
+     "PM": 7,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "TOI": 22.020325,
+     "age": 21
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2014,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 53,
+     "A": 28,
+     "P": 81,
+     "PIM": 58,
+     "PM": 10,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 395,
+     "TOI": 20.325924999999998,
+     "age": 29
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2013,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 78,
+     "G": 51,
+     "A": 28,
+     "P": 79,
+     "PIM": 48,
+     "PM": -35,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 386,
+     "TOI": 20.545298333333335,
+     "age": 28
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2018,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 51,
+     "A": 38,
+     "P": 89,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 338,
+     "TOI": 20.921193333333335,
+     "age": 33
+    },
+    {
+     "id": 8470621,
+     "name": "Corey Perry",
+     "season": 2010,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 82,
+     "G": 50,
+     "A": 48,
+     "P": 98,
+     "PIM": 104,
+     "PM": 9,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 290,
+     "TOI": 22.31300666666667,
+     "age": 25
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2011,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 75,
+     "G": 50,
+     "A": 59,
+     "P": 109,
+     "PIM": 70,
+     "PM": 18,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 339,
+     "TOI": 21.023554999999998,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.5,
+   "players": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "5 players scored 50 goals in the 2010s (8 seasons). The most extreme: Steven Stamkos, 2011-12 — 60 goals in 82 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 89,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2011,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 60,
+     "A": 37,
+     "P": 97,
+     "PIM": 66,
+     "PM": 7,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "TOI": 22.020325,
+     "age": 21
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2014,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 53,
+     "A": 28,
+     "P": 81,
+     "PIM": 58,
+     "PM": 10,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 395,
+     "TOI": 20.325924999999998,
+     "age": 29
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2013,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 78,
+     "G": 51,
+     "A": 28,
+     "P": 79,
+     "PIM": 48,
+     "PM": -35,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 386,
+     "TOI": 20.545298333333335,
+     "age": 28
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2018,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 51,
+     "A": 38,
+     "P": 89,
+     "PIM": 40,
+     "PM": 7,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 338,
+     "TOI": 20.921193333333335,
+     "age": 33
+    },
+    {
+     "id": 8470621,
+     "name": "Corey Perry",
+     "season": 2010,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 82,
+     "G": 50,
+     "A": 48,
+     "P": 98,
+     "PIM": 104,
+     "PM": 9,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 290,
+     "TOI": 22.31300666666667,
+     "age": 25
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2015,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 50,
+     "A": 21,
+     "P": 71,
+     "PIM": 53,
+     "PM": 21,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 398,
+     "TOI": 20.308438333333335,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 57,
+   "kind": "list",
+   "score": 4.5,
+   "players": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "36 players scored 35 goals with more goals than assists in the 2010s (57 seasons). The most extreme: Steven Stamkos, 2011-12 — 60G, 37A.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 90,
+   "rule": "h_usa",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2019,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 33,
+     "P": 80,
+     "PIM": 8,
+     "PM": 19,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 290,
+     "TOI": 20.96952333333333,
+     "age": 22
+    },
+    {
+     "id": 8474141,
+     "name": "Patrick Kane",
+     "season": 2015,
+     "team": "CHI",
+     "pos": "R",
+     "GP": 82,
+     "G": 46,
+     "A": 60,
+     "P": 106,
+     "PIM": 30,
+     "PM": 17,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 287,
+     "TOI": 20.410365000000002,
+     "age": 27
+    },
+    {
+     "id": 8474141,
+     "name": "Patrick Kane",
+     "season": 2018,
+     "team": "CHI",
+     "pos": "R",
+     "GP": 81,
+     "G": 44,
+     "A": 66,
+     "P": 110,
+     "PIM": 22,
+     "PM": 2,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 341,
+     "TOI": 22.489093333333336,
+     "age": 30
+    },
+    {
+     "id": 8470616,
+     "name": "Ryan Kesler",
+     "season": 2010,
+     "team": "VAN",
+     "pos": "C",
+     "GP": 82,
+     "G": 41,
+     "A": 32,
+     "P": 73,
+     "PIM": 66,
+     "PM": 24,
+     "PPG": 15,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 260,
+     "TOI": 20.494511666666664,
+     "age": 26
+    },
+    {
+     "id": 8470794,
+     "name": "Joe Pavelski",
+     "season": 2013,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 41,
+     "A": 38,
+     "P": 79,
+     "PIM": 32,
+     "PM": 23,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 225,
+     "TOI": 19.850201666666667,
+     "age": 29
+    },
+    {
+     "id": 8474715,
+     "name": "Cam Atkinson",
+     "season": 2018,
+     "team": "CBJ",
+     "pos": "R",
+     "GP": 80,
+     "G": 41,
+     "A": 28,
+     "P": 69,
+     "PIM": 20,
+     "PM": 3,
+     "PPG": 8,
+     "SHG": 4,
+     "GWG": 8,
+     "S": 295,
+     "TOI": 19.377916666666668,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.175,
+   "players": [
+    {
+     "id": 8479318,
+     "name": "Auston Matthews"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "8 players scored 40 goals, born in the United States in the 2010s (10 seasons). The most extreme: Auston Matthews, 2019-20 — 47 goals.",
+   "why": "Leads with the most extreme case, which carries the post. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 91,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8476960,
+     "name": "Andreas Athanasiou",
+     "season": 2019,
+     "team": "DET,EDM",
+     "pos": "C",
+     "GP": 55,
+     "G": 11,
+     "A": 15,
+     "P": 26,
+     "PIM": 30,
+     "PM": -46,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 129,
+     "TOI": 15.844545,
+     "age": 25
+    },
+    {
+     "id": 8475181,
+     "name": "Nick Leddy",
+     "season": 2017,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 80,
+     "G": 10,
+     "A": 32,
+     "P": 42,
+     "PIM": 20,
+     "PM": -42,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 153,
+     "TOI": 22.421041666666667,
+     "age": 26
+    },
+    {
+     "id": 8470047,
+     "name": "Valtteri Filppula",
+     "season": 2019,
+     "team": "DET",
+     "pos": "C",
+     "GP": 70,
+     "G": 6,
+     "A": 15,
+     "P": 21,
+     "PIM": 24,
+     "PM": -42,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 63,
+     "TOI": 16.612379999999998,
+     "age": 35
+    },
+    {
+     "id": 8477499,
+     "name": "Rasmus Ristolainen",
+     "season": 2018,
+     "team": "BUF",
+     "pos": "D",
+     "GP": 78,
+     "G": 5,
+     "A": 38,
+     "P": 43,
+     "PIM": 38,
+     "PM": -41,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 182,
+     "TOI": 24.64145166666667,
+     "age": 24
+    },
+    {
+     "id": 8471303,
+     "name": "Alexander Edler",
+     "season": 2013,
+     "team": "VAN",
+     "pos": "D",
+     "GP": 63,
+     "G": 7,
+     "A": 15,
+     "P": 22,
+     "PIM": 50,
+     "PM": -39,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 178,
+     "TOI": 23.286506666666664,
+     "age": 27
+    },
+    {
+     "id": 8468505,
+     "name": "Steve Ott",
+     "season": 2013,
+     "team": "BUF,STL",
+     "pos": "C",
+     "GP": 82,
+     "G": 9,
+     "A": 14,
+     "P": 23,
+     "PIM": 92,
+     "PM": -38,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 127,
+     "TOI": 18.229673333333334,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.15,
+   "players": [
+    {
+     "id": 8476960,
+     "name": "Andreas Athanasiou"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "10 players finished -35 or worse in the 2010s. The most extreme: Andreas Athanasiou, 2019-20 — -46.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 92,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2010,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 45,
+     "A": 46,
+     "P": 91,
+     "PIM": 74,
+     "PM": 3,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 272,
+     "TOI": 20.194308333333332,
+     "age": 20
+    },
+    {
+     "id": 8479339,
+     "name": "Patrik Laine",
+     "season": 2017,
+     "team": "WPG",
+     "pos": "L",
+     "GP": 82,
+     "G": 44,
+     "A": 26,
+     "P": 70,
+     "PIM": 24,
+     "PM": 8,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 241,
+     "TOI": 16.48069,
+     "age": 19
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2016,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 82,
+     "G": 40,
+     "A": 29,
+     "P": 69,
+     "PIM": 14,
+     "PM": 2,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 279,
+     "TOI": 17.631096666666668,
+     "age": 19
+    },
+    {
+     "id": 8479339,
+     "name": "Patrik Laine",
+     "season": 2016,
+     "team": "WPG",
+     "pos": "L",
+     "GP": 73,
+     "G": 36,
+     "A": 28,
+     "P": 64,
+     "PIM": 26,
+     "PM": 7,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 204,
+     "TOI": 17.912556666666667,
+     "age": 18
+    },
+    {
+     "id": 8477956,
+     "name": "David Pastrnak",
+     "season": 2016,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 75,
+     "G": 34,
+     "A": 36,
+     "P": 70,
+     "PIM": 34,
+     "PM": 11,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 262,
+     "TOI": 17.982443333333332,
+     "age": 20
+    },
+    {
+     "id": 8479318,
+     "name": "Auston Matthews",
+     "season": 2017,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 62,
+     "G": 34,
+     "A": 29,
+     "P": 63,
+     "PIM": 12,
+     "PM": 25,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 187,
+     "TOI": 18.128225,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 4.125,
+   "players": [
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "8 players scored 30 goals at age 20 or younger in the 2010s (11 seasons). The most extreme: Steven Stamkos, 2010-11 — 45 goals at 20.",
+   "why": "Leads with the most extreme case, which carries the post. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 93,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 2010,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 73,
+     "G": 31,
+     "A": 49,
+     "P": 80,
+     "PIM": 49,
+     "PM": 6,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 213,
+     "TOI": 17.938811666666666,
+     "age": 40
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2013,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 78,
+     "G": 30,
+     "A": 31,
+     "P": 61,
+     "PIM": 47,
+     "PM": 34,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 209,
+     "TOI": 18.215811666666664,
+     "age": 36
+    },
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis",
+     "season": 2013,
+     "team": "TBL,NYR",
+     "pos": "R",
+     "GP": 81,
+     "G": 30,
+     "A": 39,
+     "P": 69,
+     "PIM": 10,
+     "PM": 13,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 204,
+     "TOI": 20.940533333333335,
+     "age": 38
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2014,
+     "team": "COL",
+     "pos": "R",
+     "GP": 82,
+     "G": 29,
+     "A": 30,
+     "P": 59,
+     "PIM": 42,
+     "PM": 0,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 189,
+     "TOI": 18.13556833333333,
+     "age": 37
+    },
+    {
+     "id": 8462038,
+     "name": "Shane Doan",
+     "season": 2015,
+     "team": "ARI",
+     "pos": "R",
+     "GP": 72,
+     "G": 28,
+     "A": 19,
+     "P": 47,
+     "PIM": 98,
+     "PM": 4,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 170,
+     "TOI": 17.595138333333335,
+     "age": 39
+    },
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "season": 2011,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 75,
+     "G": 27,
+     "A": 32,
+     "P": 59,
+     "PIM": 18,
+     "PM": 16,
+     "PPG": 7,
+     "SHG": 3,
+     "GWG": 4,
+     "S": 191,
+     "TOI": 18.944221666666667,
+     "age": 39
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 3.775,
+   "players": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "9 players scored 25 goals at age 36 or older in the 2010s (14 seasons). The most extreme: Teemu Selanne, 2010-11 — 31 goals at 40.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 94,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469820,
+     "name": "Zenon Konopka",
+     "season": 2010,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 82,
+     "G": 2,
+     "A": 7,
+     "P": 9,
+     "PIM": 307,
+     "PM": -14,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 56,
+     "TOI": 10.189836666666668,
+     "age": 30
+    },
+    {
+     "id": 8471703,
+     "name": "Steve Downie",
+     "season": 2014,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 72,
+     "G": 14,
+     "A": 14,
+     "P": 28,
+     "PIM": 238,
+     "PM": 2,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 104,
+     "TOI": 12.433795,
+     "age": 27
+    },
+    {
+     "id": 8473432,
+     "name": "Derek Dorsett",
+     "season": 2011,
+     "team": "CBJ",
+     "pos": "R",
+     "GP": 77,
+     "G": 12,
+     "A": 8,
+     "P": 20,
+     "PIM": 235,
+     "PM": -11,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 137,
+     "TOI": 14.693505,
+     "age": 25
+    },
+    {
+     "id": 8474736,
+     "name": "Zac Rinaldo",
+     "season": 2011,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 66,
+     "G": 2,
+     "A": 7,
+     "P": 9,
+     "PIM": 232,
+     "PM": -1,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 54,
+     "TOI": 7.48005,
+     "age": 21
+    },
+    {
+     "id": 8473542,
+     "name": "Tom Sestito",
+     "season": 2013,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 77,
+     "G": 5,
+     "A": 4,
+     "P": 9,
+     "PIM": 213,
+     "PM": -14,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 31,
+     "TOI": 6.457141666666667,
+     "age": 26
+    },
+    {
+     "id": 8474230,
+     "name": "Micheal Haley",
+     "season": 2017,
+     "team": "FLA",
+     "pos": "L",
+     "GP": 75,
+     "G": 3,
+     "A": 6,
+     "P": 9,
+     "PIM": 212,
+     "PM": -13,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 55,
+     "TOI": 7.790888333333333,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.7675,
+   "players": [
+    {
+     "id": 8469820,
+     "name": "Zenon Konopka"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "8 players racked up 200 penalty minutes in the 2010s (9 seasons). The most extreme: Zenon Konopka, 2010-11 — 307 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 95,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2016,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 29,
+     "A": 47,
+     "P": 76,
+     "PIM": 40,
+     "PM": 19,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 320,
+     "TOI": 24.8626,
+     "age": 31
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2015,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 82,
+     "G": 27,
+     "A": 48,
+     "P": 75,
+     "PIM": 53,
+     "PM": -5,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 353,
+     "TOI": 25.864023333333332,
+     "age": 30
+    },
+    {
+     "id": 8470642,
+     "name": "Shea Weber",
+     "season": 2013,
+     "team": "NSH",
+     "pos": "D",
+     "GP": 79,
+     "G": 23,
+     "A": 33,
+     "P": 56,
+     "PIM": 52,
+     "PM": -2,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 195,
+     "TOI": 26.903375,
+     "age": 28
+    },
+    {
+     "id": 8475171,
+     "name": "Oliver Ekman-Larsson",
+     "season": 2014,
+     "team": "ARI",
+     "pos": "D",
+     "GP": 82,
+     "G": 23,
+     "A": 20,
+     "P": 43,
+     "PIM": 40,
+     "PM": -18,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 264,
+     "TOI": 25.212803333333333,
+     "age": 23
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2013,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 69,
+     "G": 22,
+     "A": 26,
+     "P": 48,
+     "PIM": 34,
+     "PM": 26,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 245,
+     "TOI": 16.813525000000002,
+     "age": 28
+    },
+    {
+     "id": 8474578,
+     "name": "Erik Karlsson",
+     "season": 2014,
+     "team": "OTT",
+     "pos": "D",
+     "GP": 82,
+     "G": 21,
+     "A": 45,
+     "P": 66,
+     "PIM": 42,
+     "PM": 7,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 292,
+     "TOI": 27.25508,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 3.725,
+   "players": [
+    {
+     "id": 8470613,
+     "name": "Brent Burns"
+    }
+   ],
+   "seasons": [
+    2016
+   ],
+   "text": "8 players scored 20 goals as a defenseman in the 2010s (14 seasons). The most extreme: Brent Burns, 2016-17 — 29 goals.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 96,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8480036,
+     "name": "Miro Heiskanen",
+     "season": 2019,
+     "team": "DAL",
+     "pos": "D",
+     "GP": 27,
+     "G": 6,
+     "A": 20,
+     "P": 26,
+     "PIM": 2,
+     "PM": 8,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 59,
+     "TOI": 25.965431666666667,
+     "age": 20
+    },
+    {
+     "id": 8470613,
+     "name": "Brent Burns",
+     "season": 2015,
+     "team": "SJS",
+     "pos": "D",
+     "GP": 24,
+     "G": 7,
+     "A": 17,
+     "P": 24,
+     "PIM": 12,
+     "PM": 11,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 77,
+     "TOI": 25.124305,
+     "age": 30
+    },
+    {
+     "id": 8475167,
+     "name": "Victor Hedman",
+     "season": 2019,
+     "team": "TBL",
+     "pos": "D",
+     "GP": 25,
+     "G": 10,
+     "A": 12,
+     "P": 22,
+     "PIM": 24,
+     "PM": 13,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 82,
+     "TOI": 26.462666666666667,
+     "age": 29
+    },
+    {
+     "id": 8470281,
+     "name": "Duncan Keith",
+     "season": 2014,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 23,
+     "G": 3,
+     "A": 18,
+     "P": 21,
+     "PIM": 4,
+     "PM": 16,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 59,
+     "TOI": 31.113766666666667,
+     "age": 31
+    },
+    {
+     "id": 8475906,
+     "name": "John Klingberg",
+     "season": 2019,
+     "team": "DAL",
+     "pos": "D",
+     "GP": 26,
+     "G": 4,
+     "A": 17,
+     "P": 21,
+     "PIM": 14,
+     "PM": -5,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 50,
+     "TOI": 23.33846,
+     "age": 27
+    },
+    {
+     "id": 8474590,
+     "name": "John Carlson",
+     "season": 2017,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 24,
+     "G": 5,
+     "A": 15,
+     "P": 20,
+     "PIM": 8,
+     "PM": 11,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 80,
+     "TOI": 25.634721666666668,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 3.65,
+   "players": [
+    {
+     "id": 8480036,
+     "name": "Miro Heiskanen"
+    }
+   ],
+   "seasons": [
+    2019
+   ],
+   "text": "6 players recorded 20 points as a defenseman in one postseason in the 2010s. The most extreme: Miro Heiskanen, 2019-20 — 26 points in 27 games.",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 97,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8468085,
+     "name": "Radim Vrbata",
+     "season": 2011,
+     "team": "PHX",
+     "pos": "R",
+     "GP": 77,
+     "G": 35,
+     "A": 27,
+     "P": 62,
+     "PIM": 24,
+     "PM": 24,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 12,
+     "S": 232,
+     "TOI": 18.642423333333333,
+     "age": 30
+    },
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2011,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 60,
+     "A": 37,
+     "P": 97,
+     "PIM": 66,
+     "PM": 7,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "TOI": 22.020325,
+     "age": 21
+    },
+    {
+     "id": 8477492,
+     "name": "Nathan MacKinnon",
+     "season": 2017,
+     "team": "COL",
+     "pos": "C",
+     "GP": 74,
+     "G": 39,
+     "A": 58,
+     "P": 97,
+     "PIM": 55,
+     "PM": 11,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 284,
+     "TOI": 19.905179999999998,
+     "age": 22
+    },
+    {
+     "id": 8478010,
+     "name": "Brayden Point",
+     "season": 2017,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 32,
+     "A": 34,
+     "P": 66,
+     "PIM": 24,
+     "PM": 18,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 12,
+     "S": 217,
+     "TOI": 19.619715,
+     "age": 21
+    },
+    {
+     "id": 8470621,
+     "name": "Corey Perry",
+     "season": 2010,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 82,
+     "G": 50,
+     "A": 48,
+     "P": 98,
+     "PIM": 104,
+     "PM": 9,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 290,
+     "TOI": 22.31300666666667,
+     "age": 25
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2010,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 32,
+     "A": 53,
+     "P": 85,
+     "PIM": 41,
+     "PM": 24,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 367,
+     "TOI": 21.366033333333334,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 3.3,
+   "players": [
+    {
+     "id": 8468085,
+     "name": "Radim Vrbata"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "15 players scored 10 game-winning goals in the 2010s (18 seasons). The most extreme: Radim Vrbata, 2011-12 — 12 GWG.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 98,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8468685,
+     "name": "Henrik Lundqvist",
+     "season": 2010,
+     "team": "NYR",
+     "GP": 68,
+     "A": 4,
+     "PIM": 6,
+     "W": 36,
+     "L": 27,
+     "OTL": 5,
+     "SO": 11,
+     "GAA": 2.2762,
+     "SVP": 0.92264,
+     "SV": 1813,
+     "GA": 152
+    },
+    {
+     "id": 8471734,
+     "name": "Jonathan Quick",
+     "season": 2011,
+     "team": "LAK",
+     "GP": 69,
+     "A": 2,
+     "PIM": 6,
+     "W": 35,
+     "L": 21,
+     "OTL": 13,
+     "SO": 10,
+     "GAA": 1.94661,
+     "SVP": 0.9286,
+     "SV": 1730,
+     "GA": 133
+    },
+    {
+     "id": 8470594,
+     "name": "Marc-Andre Fleury",
+     "season": 2014,
+     "team": "PIT",
+     "GP": 64,
+     "A": 1,
+     "PIM": 6,
+     "W": 34,
+     "L": 20,
+     "OTL": 9,
+     "SO": 10,
+     "GAA": 2.31931,
+     "SVP": 0.92026,
+     "SV": 1685,
+     "GA": 146
+    },
+    {
+     "id": 8460703,
+     "name": "Tim Thomas",
+     "season": 2010,
+     "team": "BOS",
+     "GP": 57,
+     "A": 3,
+     "PIM": 13,
+     "W": 35,
+     "L": 11,
+     "OTL": 9,
+     "SO": 9,
+     "GAA": 1.99764,
+     "SVP": 0.93815,
+     "SV": 1699,
+     "GA": 112
+    },
+    {
+     "id": 8470880,
+     "name": "Brian Elliott",
+     "season": 2011,
+     "team": "STL",
+     "GP": 38,
+     "A": 0,
+     "PIM": 0,
+     "W": 23,
+     "L": 10,
+     "OTL": 4,
+     "SO": 9,
+     "GAA": 1.55733,
+     "SVP": 0.94032,
+     "SV": 914,
+     "GA": 58
+    },
+    {
+     "id": 8471679,
+     "name": "Carey Price",
+     "season": 2014,
+     "team": "MTL",
+     "GP": 66,
+     "A": 1,
+     "PIM": 4,
+     "W": 44,
+     "L": 16,
+     "OTL": 6,
+     "SO": 9,
+     "GAA": 1.96149,
+     "SVP": 0.93343,
+     "SV": 1823,
+     "GA": 130
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.275,
+   "players": [
+    {
+     "id": 8468685,
+     "name": "Henrik Lundqvist"
+    }
+   ],
+   "seasons": [
+    2010
+   ],
+   "text": "8 goalies recorded 9 shutouts in the 2010s (9 seasons). The most extreme: Henrik Lundqvist, 2010-11 — 11 shutouts in 68 games.",
+   "why": "Leads with the most extreme case, which carries the post. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 99,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470880,
+     "name": "Brian Elliott",
+     "season": 2011,
+     "team": "STL",
+     "GP": 38,
+     "A": 0,
+     "PIM": 0,
+     "W": 23,
+     "L": 10,
+     "OTL": 4,
+     "SO": 9,
+     "GAA": 1.55733,
+     "SVP": 0.94032,
+     "SV": 914,
+     "GA": 58
+    },
+    {
+     "id": 8467950,
+     "name": "Craig Anderson",
+     "season": 2012,
+     "team": "OTT",
+     "GP": 24,
+     "A": 0,
+     "PIM": 0,
+     "W": 12,
+     "L": 9,
+     "OTL": 2,
+     "SO": 3,
+     "GAA": 1.68942,
+     "SVP": 0.94091,
+     "SV": 637,
+     "GA": 40
+    },
+    {
+     "id": 8469548,
+     "name": "Ray Emery",
+     "season": 2012,
+     "team": "CHI",
+     "GP": 21,
+     "A": 0,
+     "PIM": 0,
+     "W": 17,
+     "L": 1,
+     "OTL": 0,
+     "SO": 3,
+     "GAA": 1.93548,
+     "SVP": 0.92173,
+     "SV": 424,
+     "GA": 36
+    },
+    {
+     "id": 8470645,
+     "name": "Corey Crawford",
+     "season": 2012,
+     "team": "CHI",
+     "GP": 30,
+     "A": 0,
+     "PIM": 4,
+     "W": 19,
+     "L": 5,
+     "OTL": 5,
+     "SO": 3,
+     "GAA": 1.94261,
+     "SVP": 0.92587,
+     "SV": 712,
+     "GA": 57
+    },
+    {
+     "id": 8471734,
+     "name": "Jonathan Quick",
+     "season": 2011,
+     "team": "LAK",
+     "GP": 69,
+     "A": 2,
+     "PIM": 6,
+     "W": 35,
+     "L": 21,
+     "OTL": 13,
+     "SO": 10,
+     "GAA": 1.94661,
+     "SVP": 0.9286,
+     "SV": 1730,
+     "GA": 133
+    },
+    {
+     "id": 8471679,
+     "name": "Carey Price",
+     "season": 2014,
+     "team": "MTL",
+     "GP": 66,
+     "A": 1,
+     "PIM": 4,
+     "W": 44,
+     "L": 16,
+     "OTL": 6,
+     "SO": 9,
+     "GAA": 1.96149,
+     "SVP": 0.93343,
+     "SV": 1823,
+     "GA": 130
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 3.160531165520474,
+   "players": [
+    {
+     "id": 8470880,
+     "name": "Brian Elliott"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "12 goalies posted a goals-against average under 2.00 (40% of games) in the 2010s (13 seasons). The most extreme: Brian Elliott, 2011-12 — 1.56 GAA in 38 games.",
+   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 100,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "2010s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues",
+     "season": 2011,
+     "GP": 82,
+     "W": 49,
+     "L": 22,
+     "OTL": 11,
+     "GF": 206,
+     "GA": 155,
+     "PCT": 0.66463
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 2012,
+     "GP": 48,
+     "W": 36,
+     "L": 7,
+     "OTL": 5,
+     "GF": 149,
+     "GA": 97,
+     "PCT": 0.80208
+    },
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings",
+     "season": 2013,
+     "GP": 82,
+     "W": 46,
+     "L": 28,
+     "OTL": 8,
+     "GF": 198,
+     "GA": 168,
+     "PCT": 0.60975
+    },
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings",
+     "season": 2011,
+     "GP": 82,
+     "W": 40,
+     "L": 27,
+     "OTL": 15,
+     "GF": 188,
+     "GA": 170,
+     "PCT": 0.57926
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 2012,
+     "GP": 48,
+     "W": 25,
+     "L": 17,
+     "OTL": 6,
+     "GF": 112,
+     "GA": 100,
+     "PCT": 0.58333
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 2013,
+     "GP": 82,
+     "W": 54,
+     "L": 19,
+     "OTL": 9,
+     "GF": 258,
+     "GA": 171,
+     "PCT": 0.71341
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.132258064516129,
+   "players": [
+    {
+     "id": "St. Louis Blues",
+     "name": "St. Louis Blues"
+    }
+   ],
+   "seasons": [
+    2011
+   ],
+   "text": "7 teams allowed fewer than 2.2 goals a game in the 2010s (8 seasons). The most extreme: St. Louis Blues, 2011-12 — 1.89 per game.",
+   "why": "Leads with the most extreme case, which carries the post. Dynasty-level team seasons are what fan bases brag about."
+  }
+ ],
+ "shortNote": null,
+ "counts": {
+  "skaterSeasons": 8857,
+  "goalieSeasons": 909,
+  "teamSeasons": 303
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:53.092Z"
+}

@@ -1,0 +1,7683 @@
+{
+ "sport": "NHL",
+ "decade": "1970s",
+ "era": 3,
+ "seasons": [
+  "1970-71",
+  "1971-72",
+  "1972-73",
+  "1973-74",
+  "1974-75",
+  "1975-76",
+  "1976-77",
+  "1977-78",
+  "1978-79",
+  "1979-80"
+ ],
+ "candidates": 101,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 74,
+     "G": 32,
+     "A": 90,
+     "P": 122,
+     "PIM": 82,
+     "PM": 84,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 384,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 12.55,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1970,
+    1973
+   ],
+   "text": "The only player of the 1970s to record 90 assists was Bobby Orr — and he did it twice (1970-71: 102 assists; 1973-74: 90 assists).",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 2,
+   "rule": "t_pct800",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1976,
+     "GP": 80,
+     "W": 60,
+     "L": 8,
+     "T": 12,
+     "GF": 387,
+     "GA": 171,
+     "PCT": 0.825
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1977,
+     "GP": 80,
+     "W": 59,
+     "L": 10,
+     "T": 11,
+     "GF": 359,
+     "GA": 183,
+     "PCT": 0.80625
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 12.0625,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1976,
+    1977
+   ],
+   "text": "The only team of the 1970s to finish with a .800 points percentage was Montréal Canadiens — and it did it twice (1976-77: 60-8-12, .825; 1977-78: 59-10-11, .806).",
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 3,
+   "rule": "h_euro",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447892,
+     "name": "Ken Hodge",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 76,
+     "G": 50,
+     "A": 55,
+     "P": 105,
+     "PIM": 43,
+     "PM": 40,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 251,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.25,
+   "players": [
+    {
+     "id": 8447892,
+     "name": "Ken Hodge"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "The only player of the 1970s to score 48 goals, born outside North America: Ken Hodge, 1973-74 — 50 goals (born GBR).",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 4,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451528,
+     "name": "Gary Smith",
+     "season": 1970,
+     "team": "CGS",
+     "GP": 71,
+     "A": 1,
+     "PIM": 6,
+     "W": 19,
+     "L": 48,
+     "T": 4,
+     "SO": 2,
+     "GAA": 3.86447,
+     "SVP": 0.88499,
+     "SV": 1970,
+     "GA": 256
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.2,
+   "players": [
+    {
+     "id": 8451528,
+     "name": "Gary Smith"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "The only goalie of the 1970s to lose 40 games: Gary Smith, 1970-71 — 19-48-4.",
+   "why": "Nobody else in the 1970s did it, and exclusivity is what gets a post shared. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 5,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1973,
+     "team": "PHI",
+     "GP": 73,
+     "A": 3,
+     "PIM": 24,
+     "W": 47,
+     "L": 13,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.8944,
+     "SVP": 0.9322,
+     "SV": 1870,
+     "GA": 136
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.175,
+   "players": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "The only goalie of the 1970s to win 45 games: Bernie Parent, 1973-74 — 47-13-12.",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 6,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1974,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 80,
+     "G": 46,
+     "A": 89,
+     "P": 135,
+     "PIM": 101,
+     "PM": 80,
+     "PPG": 16,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 384,
+     "age": 26
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 74,
+     "G": 32,
+     "A": 90,
+     "P": 122,
+     "PIM": 82,
+     "PM": 84,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 384,
+     "age": 25
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 37,
+     "A": 80,
+     "P": 117,
+     "PIM": 106,
+     "PM": 83,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 353,
+     "age": 23
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1972,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 63,
+     "G": 29,
+     "A": 72,
+     "P": 101,
+     "PIM": 99,
+     "PM": 55,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 282,
+     "age": 24
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1978,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 73,
+     "G": 31,
+     "A": 70,
+     "P": 101,
+     "PIM": 58,
+     "PM": 71,
+     "PPG": 12,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 237,
+     "age": 25
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1975,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 78,
+     "G": 31,
+     "A": 67,
+     "P": 98,
+     "PIM": 100,
+     "PM": 12,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 256,
+     "age": 22
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1977,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 80,
+     "G": 30,
+     "A": 64,
+     "P": 94,
+     "PIM": 81,
+     "PM": 57,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 287,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "pair",
+   "score": 11,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin"
+    }
+   ],
+   "seasons": [
+    1970,
+    1974,
+    1973,
+    1971,
+    1972,
+    1978,
+    1975,
+    1977
+   ],
+   "text": "Only two players of the 1970s recorded 90 points as a defenseman: Bobby Orr (5×, best 1970-71: 139 points (37G, 102A)); Denis Potvin (3×, best 1978-79: 101 points (31G, 70A)).",
+   "why": "A club of two is a ready-made debate. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 7,
+   "rule": "g_sv2000",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1976,
+     "team": "CHI",
+     "GP": 69,
+     "A": 2,
+     "PIM": 6,
+     "W": 25,
+     "L": 36,
+     "T": 8,
+     "SO": 2,
+     "GAA": 3.46145,
+     "SVP": 0.90055,
+     "SV": 2119,
+     "GA": 234
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.52975,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "The only goalie of the 1970s to make 2,000 saves: Tony Esposito, 1976-77 — 2,119 saves.",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 8,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450075,
+     "name": "Terry O'Reilly",
+     "season": 1977,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 77,
+     "G": 29,
+     "A": 61,
+     "P": 90,
+     "PIM": 211,
+     "PM": 42,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 165,
+     "age": 26
+    },
+    {
+     "id": 8451566,
+     "name": "Stan Smyl",
+     "season": 1979,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 77,
+     "G": 31,
+     "A": 47,
+     "P": 78,
+     "PIM": 204,
+     "PM": 27,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 182,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 10.25,
+   "players": [
+    {
+     "id": 8450075,
+     "name": "Terry O'Reilly"
+    },
+    {
+     "id": 8451566,
+     "name": "Stan Smyl"
+    }
+   ],
+   "seasons": [
+    1977,
+    1979
+   ],
+   "text": "Only two players of the 1970s recorded 78 points and 180 penalty minutes: Terry O'Reilly (1977-78: 90 pts, 211 PIM); Stan Smyl (1979-80: 78 pts, 204 PIM).",
+   "why": "A club of two is a ready-made debate. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 9,
+   "rule": "pog_gaa",
+   "group": "PO",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1976,
+     "team": "MTL",
+     "GP": 14,
+     "A": 0,
+     "PIM": 0,
+     "W": 12,
+     "L": 2,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.55816,
+     "SVP": 0.93209,
+     "SV": 302,
+     "GA": 22
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.160445653848129,
+   "players": [
+    {
+     "id": 8446490,
+     "name": "Ken Dryden"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "text": "The only goalie of the 1970s to post a goals-against average under 1.60 in one postseason (10+ games): Ken Dryden, 1976-77 — 1.56 GAA in 14 games.",
+   "why": "A club of one in the 1970s; \"name another\" posts draw replies. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 10,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1970,
+     "GP": 78,
+     "W": 57,
+     "L": 14,
+     "T": 7,
+     "GF": 399,
+     "GA": 207,
+     "PCT": 0.77564
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1976,
+     "GP": 80,
+     "W": 60,
+     "L": 8,
+     "T": 12,
+     "GF": 387,
+     "GA": 171,
+     "PCT": 0.825
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1974,
+     "GP": 80,
+     "W": 47,
+     "L": 14,
+     "T": 19,
+     "GF": 374,
+     "GA": 225,
+     "PCT": 0.70625
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 9.278846153846153,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1970,
+    1976,
+    1974
+   ],
+   "text": "Only two teams of the 1970s scored 4.5 goals a game: Boston Bruins (1970-71: 5.12 per game); Montréal Canadiens (2×, best 1976-77: 4.84 per game).",
+   "why": "A club of two is a ready-made debate. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 11,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1976,
+     "GP": 80,
+     "W": 60,
+     "L": 8,
+     "T": 12,
+     "GF": 387,
+     "GA": 171,
+     "PCT": 0.825
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1970,
+     "GP": 78,
+     "W": 57,
+     "L": 14,
+     "T": 7,
+     "GF": 399,
+     "GA": 207,
+     "PCT": 0.77564
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1977,
+     "GP": 80,
+     "W": 59,
+     "L": 10,
+     "T": 11,
+     "GF": 359,
+     "GA": 183,
+     "PCT": 0.80625
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1975,
+     "GP": 80,
+     "W": 58,
+     "L": 11,
+     "T": 11,
+     "GF": 337,
+     "GA": 174,
+     "PCT": 0.79375
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 9.08,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1976,
+    1970,
+    1977,
+    1975
+   ],
+   "text": "Only two teams of the 1970s outscored opponents by 150: Montréal Canadiens (3×, best 1976-77: 387-171); Boston Bruins (1970-71: 399-207).",
+   "why": "Two names invite the \"whose season was better?\" argument. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 12,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 51,
+     "A": 86,
+     "P": 137,
+     "PIM": 21,
+     "PM": 14,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 284,
+     "age": 19
+    },
+    {
+     "id": 8448707,
+     "name": "Pierre Larouche",
+     "season": 1975,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 53,
+     "A": 58,
+     "P": 111,
+     "PIM": 33,
+     "PM": 3,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 319,
+     "age": 20
+    },
+    {
+     "id": 8451965,
+     "name": "Bryan Trottier",
+     "season": 1975,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 80,
+     "G": 32,
+     "A": 63,
+     "P": 95,
+     "PIM": 21,
+     "PM": 27,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 178,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    },
+    {
+     "id": 8448707,
+     "name": "Pierre Larouche"
+    },
+    {
+     "id": 8451965,
+     "name": "Bryan Trottier"
+    }
+   ],
+   "seasons": [
+    1979,
+    1975,
+    1975
+   ],
+   "text": "Just three players of the 1970s recorded 85 points at age 20 or younger: Wayne Gretzky (1979-80: 137 points at 19); Pierre Larouche (1975-76: 111 points at 20); Bryan Trottier (1975-76: 95 points at 19).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "1970s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz"
+    }
+   ],
+   "seasons": [
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977,
+    1978
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1972,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 76,
+     "G": 9,
+     "A": 12,
+     "P": 21,
+     "PIM": 259,
+     "PM": 4,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 63,
+     "age": 23
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1973,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 73,
+     "G": 20,
+     "A": 16,
+     "P": 36,
+     "PIM": 348,
+     "PM": 25,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 95,
+     "age": 24
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1974,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 76,
+     "G": 9,
+     "A": 17,
+     "P": 26,
+     "PIM": 472,
+     "PM": 16,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 93,
+     "age": 25
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1975,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 71,
+     "G": 13,
+     "A": 19,
+     "P": 32,
+     "PIM": 307,
+     "PM": 25,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 91,
+     "age": 26
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1976,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 76,
+     "G": 10,
+     "A": 20,
+     "P": 30,
+     "PIM": 232,
+     "PM": -7,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 122,
+     "age": 27
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1977,
+     "team": "LAK,PIT",
+     "pos": "L",
+     "GP": 74,
+     "G": 11,
+     "A": 25,
+     "P": 36,
+     "PIM": 405,
+     "PM": -8,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 111,
+     "age": 28
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1978,
+     "team": "PIT,BUF",
+     "pos": "L",
+     "GP": 75,
+     "G": 6,
+     "A": 12,
+     "P": 18,
+     "PIM": 241,
+     "PM": -14,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 66,
+     "age": 29
+    }
+   ],
+   "text": "Dave Schultz racked up 210+ penalty minutes in 7 straight seasons (1972-73 to 1978-79), the longest run of the 1970s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1972,
+    1973,
+    1974,
+    1975,
+    1976,
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 66,
+     "A": 67,
+     "P": 133,
+     "PIM": 76,
+     "PM": 54,
+     "PPG": 27,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 426,
+     "age": 29
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1972,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 55,
+     "A": 75,
+     "P": 130,
+     "PIM": 87,
+     "PM": 17,
+     "PPG": 19,
+     "SHG": 5,
+     "GWG": 11,
+     "S": 411,
+     "age": 30
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 68,
+     "A": 77,
+     "P": 145,
+     "PIM": 58,
+     "PM": 51,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 9,
+     "S": 393,
+     "age": 31
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1974,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 79,
+     "G": 61,
+     "A": 66,
+     "P": 127,
+     "PIM": 62,
+     "PM": 17,
+     "PPG": 27,
+     "SHG": 4,
+     "GWG": 8,
+     "S": 346,
+     "age": 32
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1975,
+     "team": "BOS,NYR",
+     "pos": "C",
+     "GP": 74,
+     "G": 35,
+     "A": 48,
+     "P": 83,
+     "PIM": 36,
+     "PM": -39,
+     "PPG": 19,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 274,
+     "age": 33
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1976,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 80,
+     "G": 34,
+     "A": 46,
+     "P": 80,
+     "PIM": 52,
+     "PM": -27,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 344,
+     "age": 34
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1977,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 79,
+     "G": 38,
+     "A": 43,
+     "P": 81,
+     "PIM": 53,
+     "PM": -21,
+     "PPG": 21,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 261,
+     "age": 35
+    }
+   ],
+   "text": "Phil Esposito averaged a point a game (60% of games) in 8 straight seasons (1970-71 to 1977-78), the longest run of the 1970s.",
+   "why": "The longest run of the 1970s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 15,
+   "rule": "h_ppg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 66,
+     "A": 67,
+     "P": 133,
+     "PIM": 76,
+     "PM": 54,
+     "PPG": 27,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 426,
+     "age": 29
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1974,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 79,
+     "G": 61,
+     "A": 66,
+     "P": 127,
+     "PIM": 62,
+     "PM": 17,
+     "PPG": 27,
+     "SHG": 4,
+     "GWG": 8,
+     "S": 346,
+     "age": 32
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1978,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 80,
+     "G": 69,
+     "A": 57,
+     "P": 126,
+     "PIM": 25,
+     "PM": 63,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 279,
+     "age": 22
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1977,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 73,
+     "G": 53,
+     "A": 38,
+     "P": 91,
+     "PIM": 6,
+     "PM": 31,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 235,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 8.675,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy"
+    }
+   ],
+   "seasons": [
+    1971,
+    1974,
+    1978,
+    1977
+   ],
+   "text": "Only two players of the 1970s scored 25 power-play goals: Phil Esposito (2×, best 1971-72: 27 PPG); Mike Bossy (2×, best 1978-79: 27 PPG).",
+   "why": "Two names invite the \"whose season was better?\" argument. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 16,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 74,
+     "G": 32,
+     "A": 90,
+     "P": 122,
+     "PIM": 82,
+     "PM": 84,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 384,
+     "age": 25
+    },
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke",
+     "season": 1974,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 80,
+     "G": 27,
+     "A": 89,
+     "P": 116,
+     "PIM": 125,
+     "PM": 79,
+     "PPG": 10,
+     "SHG": 3,
+     "GWG": 4,
+     "S": 195,
+     "age": 25
+    },
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke",
+     "season": 1975,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 76,
+     "G": 30,
+     "A": 89,
+     "P": 119,
+     "PIM": 136,
+     "PM": 83,
+     "PPG": 10,
+     "SHG": 4,
+     "GWG": 2,
+     "S": 194,
+     "age": 26
+    },
+    {
+     "id": 8449062,
+     "name": "Peter Mahovlich",
+     "season": 1974,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 80,
+     "G": 35,
+     "A": 82,
+     "P": 117,
+     "PIM": 64,
+     "PM": 41,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 241,
+     "age": 28
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 37,
+     "A": 80,
+     "P": 117,
+     "PIM": 106,
+     "PM": 83,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 353,
+     "age": 23
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1972,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 63,
+     "G": 29,
+     "A": 72,
+     "P": 101,
+     "PIM": 99,
+     "PM": 55,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 282,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "few",
+   "score": 8.55,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    },
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke"
+    },
+    {
+     "id": 8449062,
+     "name": "Peter Mahovlich"
+    }
+   ],
+   "seasons": [
+    1970,
+    1973,
+    1974,
+    1975,
+    1974,
+    1971,
+    1972
+   ],
+   "text": "Just three players of the 1970s recorded 72 assists with twice as many assists as goals: Bobby Orr (4×, best 1970-71: 102A, 37G); Bobby Clarke (2×, best 1974-75: 89A, 27G); Peter Mahovlich (1974-75: 82A, 35G).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 17,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448729,
+     "name": "Reggie Leach",
+     "season": 1975,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 16,
+     "G": 19,
+     "A": 5,
+     "P": 24,
+     "PIM": 8,
+     "PM": 14,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 61,
+     "age": 25
+    },
+    {
+     "id": 8446200,
+     "name": "Yvan Cournoyer",
+     "season": 1972,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 17,
+     "G": 15,
+     "A": 10,
+     "P": 25,
+     "PIM": 2,
+     "PM": 6,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 49,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.475,
+   "players": [
+    {
+     "id": 8448729,
+     "name": "Reggie Leach"
+    },
+    {
+     "id": 8446200,
+     "name": "Yvan Cournoyer"
+    }
+   ],
+   "seasons": [
+    1975,
+    1972
+   ],
+   "text": "Only two players of the 1970s scored 15 goals in one postseason: Reggie Leach (1975-76: 19 goals in 16 games); Yvan Cournoyer (1972-73: 15 goals in 17 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 18,
+   "rule": "h_old_p",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle",
+     "season": 1976,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 33,
+     "A": 61,
+     "P": 94,
+     "PIM": 22,
+     "PM": 18,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 185,
+     "age": 36
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1972,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 78,
+     "G": 40,
+     "A": 53,
+     "P": 93,
+     "PIM": 12,
+     "PM": 17,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 168,
+     "age": 37
+    },
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle",
+     "season": 1977,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 80,
+     "G": 25,
+     "A": 59,
+     "P": 84,
+     "PIM": 10,
+     "PM": 48,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 156,
+     "age": 37
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 78,
+     "G": 32,
+     "A": 51,
+     "P": 83,
+     "PIM": 4,
+     "PM": 15,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 174,
+     "age": 36
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1975,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 77,
+     "G": 36,
+     "A": 47,
+     "P": 83,
+     "PIM": 20,
+     "PM": 22,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 151,
+     "age": 40
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1974,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 78,
+     "G": 29,
+     "A": 52,
+     "P": 81,
+     "PIM": 10,
+     "PM": 11,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 167,
+     "age": 39
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich",
+     "season": 1973,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 71,
+     "G": 31,
+     "A": 49,
+     "P": 80,
+     "PIM": 47,
+     "PM": 16,
+     "PPG": 8,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 221,
+     "age": 36
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1978,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 80,
+     "G": 42,
+     "A": 36,
+     "P": 78,
+     "PIM": 37,
+     "PM": -1,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 215,
+     "age": 36
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1979,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 80,
+     "G": 34,
+     "A": 44,
+     "P": 78,
+     "PIM": 73,
+     "PM": -14,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 245,
+     "age": 37
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "few",
+   "score": 8.35,
+   "players": [
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle"
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk"
+    },
+    {
+     "id": 8449044,
+     "name": "Frank Mahovlich"
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1976,
+    1972,
+    1977,
+    1971,
+    1975,
+    1974,
+    1973,
+    1978,
+    1979
+   ],
+   "text": "Just four players of the 1970s recorded 78 points at age 36 or older: Jean Ratelle (2×, best 1976-77: 94 points at 36); Johnny Bucyk (4×, best 1972-73: 93 points at 37); Frank Mahovlich (1973-74: 80 points at 36); Phil Esposito (2×, best 1978-79: 78 points at 36).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 19,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1974,
+     "team": "PHI",
+     "GP": 15,
+     "A": 0,
+     "PIM": 0,
+     "W": 10,
+     "L": 5,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.89099,
+     "SVP": 0.92388,
+     "SV": 352,
+     "GA": 29
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1976,
+     "team": "MTL",
+     "GP": 14,
+     "A": 0,
+     "PIM": 0,
+     "W": 12,
+     "L": 2,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.55816,
+     "SVP": 0.93209,
+     "SV": 302,
+     "GA": 22
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.1,
+   "players": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent"
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden"
+    }
+   ],
+   "seasons": [
+    1974,
+    1976
+   ],
+   "text": "Only two goalies of the 1970s recorded 4 shutouts in one postseason: Bernie Parent (1974-75: 4 shutouts in 15 games); Ken Dryden (1976-77: 4 shutouts in 14 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1970s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur"
+    }
+   ],
+   "seasons": [
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1974,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 53,
+     "A": 66,
+     "P": 119,
+     "PIM": 37,
+     "PM": 53,
+     "PPG": 15,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 260,
+     "age": 23
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1975,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 56,
+     "A": 69,
+     "P": 125,
+     "PIM": 36,
+     "PM": 67,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "age": 24
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 56,
+     "A": 80,
+     "P": 136,
+     "PIM": 20,
+     "PM": 89,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 290,
+     "age": 25
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1977,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 78,
+     "G": 60,
+     "A": 72,
+     "P": 132,
+     "PIM": 26,
+     "PM": 73,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 305,
+     "age": 26
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1978,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 52,
+     "A": 77,
+     "P": 129,
+     "PIM": 28,
+     "PM": 55,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 342,
+     "age": 27
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1979,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 74,
+     "G": 50,
+     "A": 75,
+     "P": 125,
+     "PIM": 12,
+     "PM": 40,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 323,
+     "age": 28
+    }
+   ],
+   "text": "Guy Lafleur scored 42+ goals in 6 straight seasons (1974-75 to 1979-80), the longest run of the 1970s.",
+   "why": "The longest run of the 1970s; fans measure today's stars against it. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 21,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1970s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur"
+    }
+   ],
+   "seasons": [
+    1974,
+    1975,
+    1976,
+    1977,
+    1978,
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1974,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 53,
+     "A": 66,
+     "P": 119,
+     "PIM": 37,
+     "PM": 53,
+     "PPG": 15,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 260,
+     "age": 23
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1975,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 56,
+     "A": 69,
+     "P": 125,
+     "PIM": 36,
+     "PM": 67,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "age": 24
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 56,
+     "A": 80,
+     "P": 136,
+     "PIM": 20,
+     "PM": 89,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 290,
+     "age": 25
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1977,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 78,
+     "G": 60,
+     "A": 72,
+     "P": 132,
+     "PIM": 26,
+     "PM": 73,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 305,
+     "age": 26
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1978,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 52,
+     "A": 77,
+     "P": 129,
+     "PIM": 28,
+     "PM": 55,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 342,
+     "age": 27
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1979,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 74,
+     "G": 50,
+     "A": 75,
+     "P": 125,
+     "PIM": 12,
+     "PM": 40,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 323,
+     "age": 28
+    }
+   ],
+   "text": "Guy Lafleur recorded 98+ points in 6 straight seasons (1974-75 to 1979-80), the longest run of the 1970s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 22,
+   "rule": "g_gp",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1973,
+     "team": "PHI",
+     "GP": 73,
+     "A": 3,
+     "PIM": 24,
+     "W": 47,
+     "L": 13,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.8944,
+     "SVP": 0.9322,
+     "SV": 1870,
+     "GA": 136
+    },
+    {
+     "id": 8451528,
+     "name": "Gary Smith",
+     "season": 1974,
+     "team": "VAN",
+     "GP": 72,
+     "A": 1,
+     "PIM": 33,
+     "W": 32,
+     "L": 24,
+     "T": 9,
+     "SO": 6,
+     "GAA": 3.0943,
+     "SVP": 0.8947,
+     "SV": 1674,
+     "GA": 197
+    },
+    {
+     "id": 8446597,
+     "name": "Don Edwards",
+     "season": 1977,
+     "team": "BUF",
+     "GP": 72,
+     "A": 3,
+     "PIM": 12,
+     "W": 38,
+     "L": 16,
+     "T": 17,
+     "SO": 5,
+     "GAA": 2.63924,
+     "SVP": 0.90609,
+     "SV": 1785,
+     "GA": 185
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.825,
+   "players": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent"
+    },
+    {
+     "id": 8451528,
+     "name": "Gary Smith"
+    },
+    {
+     "id": 8446597,
+     "name": "Don Edwards"
+    }
+   ],
+   "seasons": [
+    1973,
+    1974,
+    1977
+   ],
+   "text": "Just three goalies of the 1970s played 72 games: Bernie Parent (1973-74: 73 GP); Gary Smith (1974-75: 72 GP); Don Edwards (1977-78: 72 GP).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 23,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448708,
+     "name": "Reed Larson",
+     "season": 1978,
+     "team": "DET",
+     "pos": "D",
+     "GP": 79,
+     "G": 18,
+     "A": 49,
+     "P": 67,
+     "PIM": 169,
+     "PM": -22,
+     "PPG": 6,
+     "SHG": 2,
+     "GWG": 0,
+     "S": 271,
+     "age": 22
+    },
+    {
+     "id": 8448524,
+     "name": "Jerry Korab",
+     "season": 1974,
+     "team": "BUF",
+     "pos": "D",
+     "GP": 79,
+     "G": 12,
+     "A": 44,
+     "P": 56,
+     "PIM": 184,
+     "PM": 41,
+     "PPG": 3,
+     "SHG": 2,
+     "GWG": 1,
+     "S": 218,
+     "age": 26
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1973,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 77,
+     "G": 17,
+     "A": 37,
+     "P": 54,
+     "PIM": 175,
+     "PM": -17,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 209,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 7.675,
+   "players": [
+    {
+     "id": 8448708,
+     "name": "Reed Larson"
+    },
+    {
+     "id": 8448524,
+     "name": "Jerry Korab"
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin"
+    }
+   ],
+   "seasons": [
+    1978,
+    1974,
+    1973
+   ],
+   "text": "Just three players of the 1970s recorded 54 points and 150 penalty minutes as a defenseman: Reed Larson (1978-79: 67 pts, 169 PIM); Jerry Korab (1974-75: 56 pts, 184 PIM); Denis Potvin (1973-74: 54 pts, 175 PIM).",
+   "why": "A short list fans can recite; each name brings its own fan base. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 24,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 1974,
+     "GP": 80,
+     "W": 8,
+     "L": 67,
+     "T": 5,
+     "GF": 181,
+     "GA": 446,
+     "PCT": 0.13125
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1972,
+     "GP": 78,
+     "W": 12,
+     "L": 60,
+     "T": 6,
+     "GF": 170,
+     "GA": 347,
+     "PCT": 0.1923
+    },
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 1975,
+     "GP": 80,
+     "W": 11,
+     "L": 59,
+     "T": 10,
+     "GF": 224,
+     "GA": 394,
+     "PCT": 0.2
+    },
+    {
+     "id": "Kansas City Scouts",
+     "name": "Kansas City Scouts",
+     "season": 1975,
+     "GP": 80,
+     "W": 12,
+     "L": 56,
+     "T": 12,
+     "GF": 190,
+     "GA": 351,
+     "PCT": 0.225
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.325,
+   "players": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals"
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders"
+    },
+    {
+     "id": "Kansas City Scouts",
+     "name": "Kansas City Scouts"
+    }
+   ],
+   "seasons": [
+    1974,
+    1972,
+    1975,
+    1975
+   ],
+   "text": "Just three teams of the 1970s got outscored by 150: Washington Capitals (2×, best 1974-75: 181-446); New York Islanders (1972-73: 170-347); Kansas City Scouts (1975-76: 190-351).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 25,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1974,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 80,
+     "G": 46,
+     "A": 89,
+     "P": 135,
+     "PIM": 101,
+     "PM": 80,
+     "PPG": 16,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 384,
+     "age": 26
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 37,
+     "A": 80,
+     "P": 117,
+     "PIM": 106,
+     "PM": 83,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 353,
+     "age": 23
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 74,
+     "G": 32,
+     "A": 90,
+     "P": 122,
+     "PIM": 82,
+     "PM": 84,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 384,
+     "age": 25
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1975,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 78,
+     "G": 31,
+     "A": 67,
+     "P": 98,
+     "PIM": 100,
+     "PM": 12,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 256,
+     "age": 22
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1978,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 73,
+     "G": 31,
+     "A": 70,
+     "P": 101,
+     "PIM": 58,
+     "PM": 71,
+     "PPG": 12,
+     "SHG": 3,
+     "GWG": 2,
+     "S": 237,
+     "age": 25
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1977,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 80,
+     "G": 30,
+     "A": 64,
+     "P": 94,
+     "PIM": 81,
+     "PM": 57,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 287,
+     "age": 24
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1972,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 63,
+     "G": 29,
+     "A": 72,
+     "P": 101,
+     "PIM": 99,
+     "PM": 55,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 282,
+     "age": 24
+    },
+    {
+     "id": 8448694,
+     "name": "Guy Lapointe",
+     "season": 1974,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 80,
+     "G": 28,
+     "A": 47,
+     "P": 75,
+     "PIM": 88,
+     "PM": 46,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 220,
+     "age": 26
+    },
+    {
+     "id": 8450206,
+     "name": "Brad Park",
+     "season": 1973,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 78,
+     "G": 25,
+     "A": 57,
+     "P": 82,
+     "PIM": 148,
+     "PM": 23,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 234,
+     "age": 25
+    },
+    {
+     "id": 8448694,
+     "name": "Guy Lapointe",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 77,
+     "G": 25,
+     "A": 51,
+     "P": 76,
+     "PIM": 53,
+     "PM": 70,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 287,
+     "age": 28
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1976,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 80,
+     "G": 25,
+     "A": 55,
+     "P": 80,
+     "PIM": 103,
+     "PM": 42,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 238,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "few",
+   "score": 7.15,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin"
+    },
+    {
+     "id": 8448694,
+     "name": "Guy Lapointe"
+    },
+    {
+     "id": 8450206,
+     "name": "Brad Park"
+    }
+   ],
+   "seasons": [
+    1974,
+    1970,
+    1971,
+    1973,
+    1975,
+    1978,
+    1977,
+    1972,
+    1974,
+    1973,
+    1976,
+    1976
+   ],
+   "text": "Just four players of the 1970s scored 25 goals as a defenseman: Bobby Orr (5×, best 1974-75: 46 goals); Denis Potvin (4×, best 1975-76: 31 goals); Guy Lapointe (2×, best 1974-75: 28 goals); Brad Park (1973-74: 25 goals).",
+   "why": "A short list fans can recite; each name brings its own fan base. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 26,
+   "rule": "t_pp",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1977,
+     "GP": 80,
+     "W": 59,
+     "L": 10,
+     "T": 11,
+     "GF": 359,
+     "GA": 183,
+     "PCT": 0.80625
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1977,
+     "GP": 80,
+     "W": 48,
+     "L": 17,
+     "T": 15,
+     "GF": 334,
+     "GA": 210,
+     "PCT": 0.69375
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1978,
+     "GP": 80,
+     "W": 51,
+     "L": 15,
+     "T": 14,
+     "GF": 358,
+     "GA": 214,
+     "PCT": 0.725
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1979,
+     "GP": 80,
+     "W": 47,
+     "L": 20,
+     "T": 13,
+     "GF": 328,
+     "GA": 240,
+     "PCT": 0.66875
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1978,
+     "GP": 80,
+     "W": 52,
+     "L": 17,
+     "T": 11,
+     "GF": 337,
+     "GA": 204,
+     "PCT": 0.71875
+    },
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers",
+     "season": 1977,
+     "GP": 80,
+     "W": 30,
+     "L": 37,
+     "T": 13,
+     "GF": 279,
+     "GA": 280,
+     "PCT": 0.45625
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.7969425,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders"
+    },
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers"
+    }
+   ],
+   "seasons": [
+    1977,
+    1977,
+    1978,
+    1979,
+    1978,
+    1977
+   ],
+   "text": "Just three teams of the 1970s convert 27% of power plays: Montréal Canadiens (3×, best 1977-78: 31.9% PP); New York Islanders (2×, best 1977-78: 31.4% PP); New York Rangers (1977-78: 28.1% PP).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 27,
+   "rule": "h_volume_miss",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448694,
+     "name": "Guy Lapointe",
+     "season": 1975,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 77,
+     "G": 21,
+     "A": 47,
+     "P": 68,
+     "PIM": 78,
+     "PM": 64,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 317,
+     "age": 27
+    },
+    {
+     "id": 8451990,
+     "name": "Ian Turnbull",
+     "season": 1976,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 80,
+     "G": 22,
+     "A": 57,
+     "P": 79,
+     "PIM": 84,
+     "PM": 46,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 0,
+     "S": 315,
+     "age": 23
+    },
+    {
+     "id": 8450737,
+     "name": "Dick Redmond",
+     "season": 1974,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 80,
+     "G": 14,
+     "A": 43,
+     "P": 57,
+     "PIM": 90,
+     "PM": 5,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 310,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.7925,
+   "players": [
+    {
+     "id": 8448694,
+     "name": "Guy Lapointe"
+    },
+    {
+     "id": 8451990,
+     "name": "Ian Turnbull"
+    },
+    {
+     "id": 8450737,
+     "name": "Dick Redmond"
+    }
+   ],
+   "seasons": [
+    1975,
+    1976,
+    1974
+   ],
+   "text": "Just three players of the 1970s fired 300 shots and scored 24 or fewer: Guy Lapointe (1975-76: 21 goals on 317 shots); Ian Turnbull (1976-77: 22 goals on 315 shots); Dick Redmond (1974-75: 14 goals on 310 shots).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 28,
+   "rule": "h_spct",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer",
+     "season": 1979,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 64,
+     "G": 56,
+     "A": 45,
+     "P": 101,
+     "PIM": 65,
+     "PM": 47,
+     "PPG": 21,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 213,
+     "age": 25
+    },
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle",
+     "season": 1971,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 63,
+     "G": 46,
+     "A": 63,
+     "P": 109,
+     "PIM": 4,
+     "PM": 61,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 183,
+     "age": 31
+    },
+    {
+     "id": 8451965,
+     "name": "Bryan Trottier",
+     "season": 1978,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 76,
+     "G": 47,
+     "A": 87,
+     "P": 134,
+     "PIM": 50,
+     "PM": 76,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 187,
+     "age": 22
+    },
+    {
+     "id": 8449587,
+     "name": "Rick Middleton",
+     "season": 1978,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 71,
+     "G": 38,
+     "A": 48,
+     "P": 86,
+     "PIM": 7,
+     "PM": 32,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 152,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.657276995305164,
+   "players": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer"
+    },
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle"
+    },
+    {
+     "id": 8451965,
+     "name": "Bryan Trottier"
+    },
+    {
+     "id": 8449587,
+     "name": "Rick Middleton"
+    }
+   ],
+   "seasons": [
+    1979,
+    1971,
+    1978,
+    1978
+   ],
+   "text": "Just four players of the 1970s shot 25% on 150+ shots: Charlie Simmer (1979-80: 26.3% (56 on 213 shots)); Jean Ratelle (1971-72: 25.1% (46 on 183 shots)); Bryan Trottier (1978-79: 25.1% (47 on 187 shots)); Rick Middleton (1978-79: 25.0% (38 on 152 shots)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 29,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 66,
+     "A": 67,
+     "P": 133,
+     "PIM": 76,
+     "PM": 54,
+     "PPG": 27,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 426,
+     "age": 29
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1978,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 52,
+     "A": 77,
+     "P": 129,
+     "PIM": 28,
+     "PM": 55,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 13,
+     "S": 342,
+     "age": 27
+    },
+    {
+     "id": 8446200,
+     "name": "Yvan Cournoyer",
+     "season": 1975,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 71,
+     "G": 32,
+     "A": 36,
+     "P": 68,
+     "PIM": 20,
+     "PM": 38,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 163,
+     "age": 32
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1975,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 56,
+     "A": 69,
+     "P": 125,
+     "PIM": 36,
+     "PM": 67,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 303,
+     "age": 24
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1977,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 78,
+     "G": 60,
+     "A": 72,
+     "P": 132,
+     "PIM": 26,
+     "PM": 73,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 305,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.4,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur"
+    },
+    {
+     "id": 8446200,
+     "name": "Yvan Cournoyer"
+    }
+   ],
+   "seasons": [
+    1970,
+    1971,
+    1978,
+    1975,
+    1975,
+    1977
+   ],
+   "text": "Just three players of the 1970s scored 12 game-winning goals: Phil Esposito (2×, best 1970-71: 16 GWG); Guy Lafleur (3×, best 1978-79: 13 GWG); Yvan Cournoyer (1975-76: 12 GWG).",
+   "why": "A short list fans can recite; each name brings its own fan base. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 30,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "season": 1974,
+     "team": "DET",
+     "pos": "C",
+     "GP": 80,
+     "G": 47,
+     "A": 74,
+     "P": 121,
+     "PIM": 14,
+     "PM": -15,
+     "PPG": 15,
+     "SHG": 10,
+     "GWG": 1,
+     "S": 378,
+     "age": 23
+    },
+    {
+     "id": 8448468,
+     "name": "Dave Keon",
+     "season": 1970,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 76,
+     "G": 38,
+     "A": 38,
+     "P": 76,
+     "PIM": 4,
+     "PM": 25,
+     "PPG": 5,
+     "SHG": 8,
+     "GWG": 9,
+     "S": 277,
+     "age": 30
+    },
+    {
+     "id": 8448892,
+     "name": "Don Luce",
+     "season": 1974,
+     "team": "BUF",
+     "pos": "C",
+     "GP": 80,
+     "G": 33,
+     "A": 43,
+     "P": 76,
+     "PIM": 45,
+     "PM": 61,
+     "PPG": 1,
+     "SHG": 8,
+     "GWG": 6,
+     "S": 245,
+     "age": 26
+    },
+    {
+     "id": 8448735,
+     "name": "Chuck Lefley",
+     "season": 1975,
+     "team": "STL",
+     "pos": "R",
+     "GP": 75,
+     "G": 43,
+     "A": 42,
+     "P": 85,
+     "PIM": 41,
+     "PM": 15,
+     "PPG": 4,
+     "SHG": 8,
+     "GWG": 9,
+     "S": 207,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.25,
+   "players": [
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne"
+    },
+    {
+     "id": 8448468,
+     "name": "Dave Keon"
+    },
+    {
+     "id": 8448892,
+     "name": "Don Luce"
+    },
+    {
+     "id": 8448735,
+     "name": "Chuck Lefley"
+    }
+   ],
+   "seasons": [
+    1974,
+    1970,
+    1974,
+    1975
+   ],
+   "text": "Just four players of the 1970s scored 8 shorthanded goals: Marcel Dionne (1974-75: 10 SHG); Dave Keon (1970-71: 8 SHG); Don Luce (1974-75: 8 SHG); Chuck Lefley (1975-76: 8 SHG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 31,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 51,
+     "A": 86,
+     "P": 137,
+     "PIM": 21,
+     "PM": 14,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 284,
+     "age": 19
+    },
+    {
+     "id": 8450981,
+     "name": "Mike Rogers",
+     "season": 1979,
+     "team": "HFD",
+     "pos": "C",
+     "GP": 80,
+     "G": 44,
+     "A": 61,
+     "P": 105,
+     "PIM": 10,
+     "PM": 28,
+     "PPG": 3,
+     "SHG": 2,
+     "GWG": 0,
+     "S": 229,
+     "age": 25
+    },
+    {
+     "id": 8451965,
+     "name": "Bryan Trottier",
+     "season": 1975,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 80,
+     "G": 32,
+     "A": 63,
+     "P": 95,
+     "PIM": 21,
+     "PM": 27,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 178,
+     "age": 19
+    },
+    {
+     "id": 8448917,
+     "name": "Blair MacDonald",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 80,
+     "G": 46,
+     "A": 48,
+     "P": 94,
+     "PIM": 6,
+     "PM": 0,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 266,
+     "age": 26
+    },
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson",
+     "season": 1979,
+     "team": "AFM",
+     "pos": "C",
+     "GP": 80,
+     "G": 40,
+     "A": 53,
+     "P": 93,
+     "PIM": 10,
+     "PM": -3,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 217,
+     "age": 23
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1977,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 73,
+     "G": 53,
+     "A": 38,
+     "P": 91,
+     "PIM": 6,
+     "PM": 31,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 235,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "text": "8 players recorded 80 points in their first NHL season in the 1970s. The most extreme: Wayne Gretzky, 1979-80 — 137 points.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1974,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 76,
+     "G": 9,
+     "A": 17,
+     "P": 26,
+     "PIM": 472,
+     "PM": 16,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 93,
+     "age": 25
+    }
+   ],
+   "among": 4257,
+   "text": "Most penalty minutes in a season in the 1970s: Dave Schultz, 1974-75 — 472.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_shg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "season": 1974,
+     "team": "DET",
+     "pos": "C",
+     "GP": 80,
+     "G": 47,
+     "A": 74,
+     "P": 121,
+     "PIM": 14,
+     "PM": -15,
+     "PPG": 15,
+     "SHG": 10,
+     "GWG": 1,
+     "S": 378,
+     "age": 23
+    }
+   ],
+   "among": 4257,
+   "text": "Most shorthanded goals in a season in the 1970s: Marcel Dionne, 1974-75 — 10.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447857,
+     "name": "Bill Mikkelson"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447857,
+     "name": "Bill Mikkelson",
+     "season": 1974,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 59,
+     "G": 3,
+     "A": 7,
+     "P": 10,
+     "PIM": 52,
+     "PM": -82,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 47,
+     "age": 26
+    }
+   ],
+   "among": 4257,
+   "text": "Worst plus-minus in a season in the 1970s: Bill Mikkelson, 1974-75 — -82.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer",
+     "season": 1979,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 64,
+     "G": 56,
+     "A": 45,
+     "P": 101,
+     "PIM": 65,
+     "PM": 47,
+     "PPG": 21,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 213,
+     "age": 25
+    }
+   ],
+   "among": 1058,
+   "text": "Best shooting percentage in a season (150+ shots) in the 1970s: Charlie Simmer, 1979-80 — 26.3%.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1977,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 73,
+     "G": 53,
+     "A": 38,
+     "P": 91,
+     "PIM": 6,
+     "PM": 31,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 235,
+     "age": 21
+    }
+   ],
+   "among": 891,
+   "text": "Most goals in a first NHL season in the 1970s: Mike Bossy, 1977-78 — 53.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 51,
+     "A": 86,
+     "P": 137,
+     "PIM": 21,
+     "PM": 14,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 284,
+     "age": 19
+    }
+   ],
+   "among": 891,
+   "text": "Most points in a first NHL season in the 1970s: Wayne Gretzky, 1979-80 — 137.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1971,
+     "team": "CHI",
+     "GP": 48,
+     "A": 1,
+     "PIM": 2,
+     "W": 31,
+     "L": 10,
+     "T": 6,
+     "SO": 9,
+     "GAA": 1.77085,
+     "SVP": 0.93392,
+     "SV": 1159,
+     "GA": 82
+    }
+   ],
+   "among": 229,
+   "text": "Best goals-against average in a season (40% of games) in the 1970s: Tony Esposito, 1971-72 — 1.77.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "gx_sv",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1970,
+     "team": "TOR",
+     "GP": 40,
+     "A": 0,
+     "PIM": 2,
+     "W": 24,
+     "L": 11,
+     "T": 4,
+     "SO": 4,
+     "GAA": 1.88543,
+     "SVP": 0.94371,
+     "SV": 1224,
+     "GA": 73
+    }
+   ],
+   "among": 229,
+   "text": "Best save percentage in a season (40% of games) in the 1970s: Jacques Plante, 1970-71 — .944.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "gx_saves",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1976,
+     "team": "CHI",
+     "GP": 69,
+     "A": 2,
+     "PIM": 6,
+     "W": 25,
+     "L": 36,
+     "T": 8,
+     "SO": 2,
+     "GAA": 3.46145,
+     "SVP": 0.90055,
+     "SV": 2119,
+     "GA": 234
+    }
+   ],
+   "among": 505,
+   "text": "Most saves in a season in the 1970s: Tony Esposito, 1976-77 — 2,119.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451528,
+     "name": "Gary Smith"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451528,
+     "name": "Gary Smith",
+     "season": 1970,
+     "team": "CGS",
+     "GP": 71,
+     "A": 1,
+     "PIM": 6,
+     "W": 19,
+     "L": 48,
+     "T": 4,
+     "SO": 2,
+     "GAA": 3.86447,
+     "SVP": 0.88499,
+     "SV": 1970,
+     "GA": 256
+    }
+   ],
+   "among": 505,
+   "text": "Most losses by a goalie in a season in the 1970s: Gary Smith, 1970-71 — 48.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 1974,
+     "GP": 80,
+     "W": 8,
+     "L": 67,
+     "T": 5,
+     "GF": 181,
+     "GA": 446,
+     "PCT": 0.13125
+    }
+   ],
+   "among": 170,
+   "text": "Worst points percentage in a season in the 1970s: Washington Capitals, 1974-75 — .131 (8-67-5).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1970,
+     "GP": 78,
+     "W": 57,
+     "L": 14,
+     "T": 7,
+     "GF": 399,
+     "GA": 207,
+     "PCT": 0.77564
+    }
+   ],
+   "among": 170,
+   "text": "Most goals per game by a team in the 1970s: Boston Bruins, 1970-71 — 5.12 (399 in 78).",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "tx_pk",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres",
+     "season": 1977,
+     "GP": 80,
+     "W": 44,
+     "L": 19,
+     "T": 17,
+     "GF": 288,
+     "GA": 215,
+     "PCT": 0.65625
+    }
+   ],
+   "among": 56,
+   "text": "Best penalty kill in a season in the 1970s: Buffalo Sabres, 1977-78 — 85.8%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451965,
+     "name": "Bryan Trottier"
+    }
+   ],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451965,
+     "name": "Bryan Trottier",
+     "season": 1979,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 21,
+     "G": 12,
+     "A": 17,
+     "P": 29,
+     "PIM": 16,
+     "PM": 8,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 2,
+     "S": 53,
+     "age": 23
+    }
+   ],
+   "among": 2032,
+   "text": "Most points in a single postseason in the 1970s: Bryan Trottier, 1979-80 — 29 in 21 games.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448729,
+     "name": "Reggie Leach"
+    }
+   ],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448729,
+     "name": "Reggie Leach",
+     "season": 1975,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 16,
+     "G": 19,
+     "A": 5,
+     "P": 24,
+     "PIM": 8,
+     "PM": 14,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 61,
+     "age": 25
+    }
+   ],
+   "among": 2032,
+   "text": "Most goals in a single postseason in the 1970s: Reggie Leach, 1975-76 — 19 in 16 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 47,
+   "rule": "h_pm_hi",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    },
+    {
+     "id": 8450936,
+     "name": "Larry Robinson",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 77,
+     "G": 19,
+     "A": 66,
+     "P": 85,
+     "PIM": 45,
+     "PM": 120,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 196,
+     "age": 25
+    },
+    {
+     "id": 8449069,
+     "name": "Dallas Smith",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 73,
+     "G": 7,
+     "A": 38,
+     "P": 45,
+     "PIM": 68,
+     "PM": 98,
+     "PPG": 0,
+     "SHG": 2,
+     "GWG": 1,
+     "S": 159,
+     "age": 29
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 56,
+     "A": 80,
+     "P": 136,
+     "PIM": 20,
+     "PM": 89,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 290,
+     "age": 25
+    },
+    {
+     "id": 8451354,
+     "name": "Steve Shutt",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 80,
+     "G": 60,
+     "A": 45,
+     "P": 105,
+     "PIM": 28,
+     "PM": 89,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 293,
+     "age": 24
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 74,
+     "G": 32,
+     "A": 90,
+     "P": 122,
+     "PIM": 82,
+     "PM": 84,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 384,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 23,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "14 players finished +70 or better in the 1970s (23 seasons). The most extreme: Bobby Orr, 1970-71 — +124.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    }
+   ],
+   "among": 4257,
+   "text": "Most goals in a season in the 1970s: Phil Esposito, 1970-71 — 76 in 78 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    }
+   ],
+   "among": 4257,
+   "text": "Most points in a season in the 1970s: Phil Esposito, 1970-71 — 152 (76G, 76A).",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    }
+   ],
+   "among": 4257,
+   "text": "Most assists in a season in the 1970s: Bobby Orr, 1970-71 — 102.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1973,
+     "team": "PHI",
+     "GP": 73,
+     "A": 3,
+     "PIM": 24,
+     "W": 47,
+     "L": 13,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.8944,
+     "SVP": 0.9322,
+     "SV": 1870,
+     "GA": 136
+    }
+   ],
+   "among": 505,
+   "text": "Most wins by a goalie in a season in the 1970s: Bernie Parent, 1973-74 — 47.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "gx_gp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1973,
+     "team": "PHI",
+     "GP": 73,
+     "A": 3,
+     "PIM": 24,
+     "W": 47,
+     "L": 13,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.8944,
+     "SVP": 0.9322,
+     "SV": 1870,
+     "GA": 136
+    }
+   ],
+   "among": 505,
+   "text": "Most games by a goalie in a season in the 1970s: Bernie Parent, 1973-74 — 73.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1976,
+     "GP": 80,
+     "W": 60,
+     "L": 8,
+     "T": 12,
+     "GF": 387,
+     "GA": 171,
+     "PCT": 0.825
+    }
+   ],
+   "among": 170,
+   "text": "Best points percentage in a season in the 1970s: Montréal Canadiens, 1976-77 — .825 (60-8-12).",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1976,
+     "GP": 80,
+     "W": 60,
+     "L": 8,
+     "T": 12,
+     "GF": 387,
+     "GA": 171,
+     "PCT": 0.825
+    }
+   ],
+   "among": 170,
+   "text": "Best goal differential in a season in the 1970s: Montréal Canadiens, 1976-77 — +216.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "x_pm",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    }
+   ],
+   "among": 4257,
+   "text": "Best plus-minus in a season in the 1970s: Bobby Orr, 1970-71 — +124.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    }
+   ],
+   "among": 4257,
+   "text": "Most shots in a season in the 1970s: Phil Esposito, 1970-71 — 550.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 57,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    }
+   ],
+   "among": 1449,
+   "text": "Most points by a defenseman in a season in the 1970s: Bobby Orr, 1970-71 — 139.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 58,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1974,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 80,
+     "G": 46,
+     "A": 89,
+     "P": 135,
+     "PIM": 101,
+     "PM": 80,
+     "PPG": 16,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 384,
+     "age": 26
+    }
+   ],
+   "among": 1449,
+   "text": "Most goals by a defenseman in a season in the 1970s: Bobby Orr, 1974-75 — 46.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 59,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    }
+   ],
+   "among": 2779,
+   "text": "Most points per game in a season (60% of games) in the 1970s: Phil Esposito, 1970-71 — 1.95.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 60,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    }
+   ],
+   "among": 2779,
+   "text": "Most goals per game in a season (60% of games) in the 1970s: Phil Esposito, 1970-71 — 0.97.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 61,
+   "kind": "extreme",
+   "rule": "tx_pp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1977,
+     "GP": 80,
+     "W": 59,
+     "L": 10,
+     "T": 11,
+     "GF": 359,
+     "GA": 183,
+     "PCT": 0.80625
+    }
+   ],
+   "among": 56,
+   "text": "Best power play in a season in the 1970s: Montréal Canadiens, 1977-78 — 31.9%.",
+   "why": "The high-water mark of the 1970s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 62,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 78,
+     "G": 51,
+     "A": 65,
+     "P": 116,
+     "PIM": 8,
+     "PM": 37,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 225,
+     "age": 35
+    },
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle",
+     "season": 1971,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 63,
+     "G": 46,
+     "A": 63,
+     "P": 109,
+     "PIM": 4,
+     "PM": 61,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 183,
+     "age": 31
+    },
+    {
+     "id": 8450981,
+     "name": "Mike Rogers",
+     "season": 1979,
+     "team": "HFD",
+     "pos": "C",
+     "GP": 80,
+     "G": 44,
+     "A": 61,
+     "P": 105,
+     "PIM": 10,
+     "PM": 28,
+     "PPG": 3,
+     "SHG": 2,
+     "GWG": 0,
+     "S": 229,
+     "age": 25
+    },
+    {
+     "id": 8448917,
+     "name": "Blair MacDonald",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 80,
+     "G": 46,
+     "A": 48,
+     "P": 94,
+     "PIM": 6,
+     "PM": 0,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 266,
+     "age": 26
+    },
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson",
+     "season": 1979,
+     "team": "AFM",
+     "pos": "C",
+     "GP": 80,
+     "G": 40,
+     "A": 53,
+     "P": 93,
+     "PIM": 10,
+     "PM": -3,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 217,
+     "age": 23
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1977,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 73,
+     "G": 53,
+     "A": 38,
+     "P": 91,
+     "PIM": 6,
+     "PM": 31,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 235,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 5.9,
+   "players": [
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "13 players recorded 78 points with 10 or fewer penalty minutes in the 1970s (18 seasons). The most extreme: Johnny Bucyk, 1970-71 — 116 pts, 8 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 63,
+   "rule": "g_sv",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1970,
+     "team": "TOR",
+     "GP": 40,
+     "A": 0,
+     "PIM": 2,
+     "W": 24,
+     "L": 11,
+     "T": 4,
+     "SO": 4,
+     "GAA": 1.88543,
+     "SVP": 0.94371,
+     "SV": 1224,
+     "GA": 73
+    },
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1971,
+     "team": "CHI",
+     "GP": 48,
+     "A": 1,
+     "PIM": 2,
+     "W": 31,
+     "L": 10,
+     "T": 6,
+     "SO": 9,
+     "GAA": 1.77085,
+     "SVP": 0.93392,
+     "SV": 1159,
+     "GA": 82
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "season": 1971,
+     "team": "MNS",
+     "GP": 34,
+     "A": 1,
+     "PIM": 2,
+     "W": 16,
+     "L": 10,
+     "T": 7,
+     "SO": 2,
+     "GAA": 2.12093,
+     "SVP": 0.93346,
+     "SV": 954,
+     "GA": 68
+    },
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1973,
+     "team": "PHI",
+     "GP": 73,
+     "A": 3,
+     "PIM": 24,
+     "W": 47,
+     "L": 13,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.8944,
+     "SVP": 0.9322,
+     "SV": 1870,
+     "GA": 136
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1971,
+     "team": "MTL",
+     "GP": 64,
+     "A": 3,
+     "PIM": 4,
+     "W": 39,
+     "L": 8,
+     "T": 15,
+     "SO": 8,
+     "GAA": 2.2434,
+     "SVP": 0.93004,
+     "SV": 1888,
+     "GA": 142
+    },
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1973,
+     "team": "CHI",
+     "GP": 70,
+     "A": 1,
+     "PIM": 0,
+     "W": 34,
+     "L": 14,
+     "T": 21,
+     "SO": 10,
+     "GAA": 2.04686,
+     "SVP": 0.92867,
+     "SV": 1836,
+     "GA": 141
+    }
+   ],
+   "seasonsMatched": 43,
+   "kind": "list",
+   "score": 5.3427500000000006,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "19 goalies posted a .910 saved percentage (40% of games) in the 1970s (43 seasons). The most extreme: Jacques Plante, 1970-71 — .944 in 40 games.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 64,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 1974,
+     "GP": 80,
+     "W": 8,
+     "L": 67,
+     "T": 5,
+     "GF": 181,
+     "GA": 446,
+     "PCT": 0.13125
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1972,
+     "GP": 78,
+     "W": 12,
+     "L": 60,
+     "T": 6,
+     "GF": 170,
+     "GA": 347,
+     "PCT": 0.1923
+    },
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 1975,
+     "GP": 80,
+     "W": 11,
+     "L": 59,
+     "T": 10,
+     "GF": 224,
+     "GA": 394,
+     "PCT": 0.2
+    },
+    {
+     "id": "Kansas City Scouts",
+     "name": "Kansas City Scouts",
+     "season": 1975,
+     "GP": 80,
+     "W": 12,
+     "L": 56,
+     "T": 12,
+     "GF": 190,
+     "GA": 351,
+     "PCT": 0.225
+    },
+    {
+     "id": "California Golden Seals",
+     "name": "California Golden Seals",
+     "season": 1973,
+     "GP": 78,
+     "W": 13,
+     "L": 55,
+     "T": 10,
+     "GF": 195,
+     "GA": 342,
+     "PCT": 0.23076
+    },
+    {
+     "id": "Kansas City Scouts",
+     "name": "Kansas City Scouts",
+     "season": 1974,
+     "GP": 80,
+     "W": 15,
+     "L": 54,
+     "T": 11,
+     "GF": 184,
+     "GA": 328,
+     "PCT": 0.25625
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 5.171875,
+   "players": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "text": "7 teams finished with a points percentage under .300 in the 1970s (11 seasons). The most extreme: Washington Capitals, 1974-75 — 8-67-5, .131.",
+   "why": "Leads with the most extreme case, which carries the post. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 65,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447857,
+     "name": "Bill Mikkelson",
+     "season": 1974,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 59,
+     "G": 3,
+     "A": 7,
+     "P": 10,
+     "PIM": 52,
+     "PM": -82,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 47,
+     "age": 26
+    },
+    {
+     "id": 8447531,
+     "name": "Jack Lynch",
+     "season": 1974,
+     "team": "DET,WSH",
+     "pos": "D",
+     "GP": 70,
+     "G": 3,
+     "A": 20,
+     "P": 23,
+     "PIM": 62,
+     "PM": -69,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 78,
+     "age": 22
+    },
+    {
+     "id": 8448363,
+     "name": "Greg Joly",
+     "season": 1974,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 44,
+     "G": 1,
+     "A": 7,
+     "P": 8,
+     "PIM": 44,
+     "PM": -69,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 73,
+     "age": 20
+    },
+    {
+     "id": 8449481,
+     "name": "Tommy Williams",
+     "season": 1974,
+     "team": "WSH",
+     "pos": "R",
+     "GP": 73,
+     "G": 22,
+     "A": 36,
+     "P": 58,
+     "PIM": 12,
+     "PM": -69,
+     "PPG": 7,
+     "SHG": 2,
+     "GWG": 1,
+     "S": 135,
+     "age": 34
+    },
+    {
+     "id": 8449248,
+     "name": "Mike Marson",
+     "season": 1974,
+     "team": "WSH",
+     "pos": "R",
+     "GP": 76,
+     "G": 16,
+     "A": 12,
+     "P": 28,
+     "PIM": 59,
+     "PM": -65,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 91,
+     "age": 19
+    },
+    {
+     "id": 8447106,
+     "name": "Larry Johnston",
+     "season": 1975,
+     "team": "KCS",
+     "pos": "D",
+     "GP": 72,
+     "G": 2,
+     "A": 10,
+     "P": 12,
+     "PIM": 112,
+     "PM": -65,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 77,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 48,
+   "kind": "list",
+   "score": 5.05,
+   "players": [
+    {
+     "id": 8447857,
+     "name": "Bill Mikkelson"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "text": "44 players finished -45 or worse in the 1970s (48 seasons). The most extreme: Bill Mikkelson, 1974-75 — -82.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 66,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446490,
+     "name": "Ken Dryden"
+    }
+   ],
+   "seasons": [
+    1975,
+    1976,
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1975,
+     "team": "MTL",
+     "GP": 62,
+     "A": 2,
+     "PIM": 0,
+     "W": 42,
+     "L": 10,
+     "T": 8,
+     "SO": 8,
+     "GAA": 2.0318,
+     "SVP": 0.92666,
+     "SV": 1529,
+     "GA": 121
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1976,
+     "team": "MTL",
+     "GP": 56,
+     "A": 2,
+     "PIM": 0,
+     "W": 41,
+     "L": 6,
+     "T": 8,
+     "SO": 10,
+     "GAA": 2.1438,
+     "SVP": 0.91969,
+     "SV": 1340,
+     "GA": 117
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1977,
+     "team": "MTL",
+     "GP": 52,
+     "A": 2,
+     "PIM": 0,
+     "W": 37,
+     "L": 7,
+     "T": 7,
+     "SO": 5,
+     "GAA": 2.05308,
+     "SVP": 0.92152,
+     "SV": 1233,
+     "GA": 105
+    }
+   ],
+   "text": "Ken Dryden won 34+ games in goal in 3 straight seasons (1975-76 to 1977-78), the longest run of the 1970s.",
+   "why": "The longest run of the 1970s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke",
+     "total": 624,
+     "seasons": 10
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 578,
+     "seasons": 10
+    },
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "total": 548,
+     "seasons": 9
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 536,
+     "seasons": 9
+    },
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle",
+     "total": 535,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 1970s: Bobby Clarke, 624.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "total": 2292,
+     "seasons": 9
+    },
+    {
+     "id": 8452457,
+     "name": "Dave Williams",
+     "total": 1751,
+     "seasons": 6
+    },
+    {
+     "id": 8446530,
+     "name": "Andre Dupont",
+     "total": 1724,
+     "seasons": 10
+    },
+    {
+     "id": 8449367,
+     "name": "Bryan Watson",
+     "total": 1658,
+     "seasons": 9
+    },
+    {
+     "id": 8451075,
+     "name": "Phil Russell",
+     "total": 1431,
+     "seasons": 8
+    }
+   ],
+   "text": "Most penalty minutes of the 1970s: Dave Schultz, 2,292.",
+   "why": "A decade-long view that settles consistency debates. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8452086,
+     "name": "Garry Unger"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8452086,
+     "name": "Garry Unger",
+     "total": 792,
+     "seasons": 10
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 782,
+     "seasons": 10
+    },
+    {
+     "id": 8448882,
+     "name": "Ross Lonsberry",
+     "total": 779,
+     "seasons": 10
+    },
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke",
+     "total": 773,
+     "seasons": 10
+    },
+    {
+     "id": 8448892,
+     "name": "Don Luce",
+     "total": 772,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1970s: Garry Unger, 792.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8450736,
+     "name": "Mickey Redmond",
+     "total": 2,
+     "seasons": 2
+    }
+   ],
+   "text": "Most 50-goal seasons in the 1970s: Guy Lafleur, 6.",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 2
+    },
+    {
+     "season": 1971,
+     "count": 3
+    },
+    {
+     "season": 1972,
+     "count": 3
+    },
+    {
+     "season": 1973,
+     "count": 4
+    },
+    {
+     "season": 1974,
+     "count": 4
+    },
+    {
+     "season": 1975,
+     "count": 6
+    },
+    {
+     "season": 1976,
+     "count": 3
+    },
+    {
+     "season": 1977,
+     "count": 2
+    },
+    {
+     "season": 1978,
+     "count": 4
+    },
+    {
+     "season": 1979,
+     "count": 9
+    }
+   ],
+   "text": "1979-80 had 9 50-goal scorers, the most of any season in the 1970s.",
+   "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 4
+    },
+    {
+     "season": 1971,
+     "count": 4
+    },
+    {
+     "season": 1972,
+     "count": 4
+    },
+    {
+     "season": 1973,
+     "count": 3
+    },
+    {
+     "season": 1974,
+     "count": 7
+    },
+    {
+     "season": 1975,
+     "count": 9
+    },
+    {
+     "season": 1976,
+     "count": 3
+    },
+    {
+     "season": 1977,
+     "count": 3
+    },
+    {
+     "season": 1978,
+     "count": 7
+    },
+    {
+     "season": 1979,
+     "count": 8
+    }
+   ],
+   "text": "1975-76 had 9 100-point players, the most of any season in the 1970s.",
+   "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1979
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 15
+    },
+    {
+     "season": 1971,
+     "count": 13
+    },
+    {
+     "season": 1972,
+     "count": 26
+    },
+    {
+     "season": 1973,
+     "count": 19
+    },
+    {
+     "season": 1974,
+     "count": 25
+    },
+    {
+     "season": 1975,
+     "count": 31
+    },
+    {
+     "season": 1976,
+     "count": 20
+    },
+    {
+     "season": 1977,
+     "count": 23
+    },
+    {
+     "season": 1978,
+     "count": 24
+    },
+    {
+     "season": 1979,
+     "count": 34
+    }
+   ],
+   "text": "1979-80 had 34 point-a-game players (60% of games), the most of any season in the 1970s.",
+   "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1971
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 15
+    },
+    {
+     "season": 1971,
+     "count": 13
+    },
+    {
+     "season": 1972,
+     "count": 26
+    },
+    {
+     "season": 1973,
+     "count": 19
+    },
+    {
+     "season": 1974,
+     "count": 25
+    },
+    {
+     "season": 1975,
+     "count": 31
+    },
+    {
+     "season": 1976,
+     "count": 20
+    },
+    {
+     "season": 1977,
+     "count": 23
+    },
+    {
+     "season": 1978,
+     "count": 24
+    },
+    {
+     "season": 1979,
+     "count": 34
+    }
+   ],
+   "text": "1971-72 had just 13 point-a-game players (60% of games), the fewest of any season in the 1970s.",
+   "why": "The low point of the 1970s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_dg_most",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1977
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 1
+    },
+    {
+     "season": 1971,
+     "count": 3
+    },
+    {
+     "season": 1972,
+     "count": 2
+    },
+    {
+     "season": 1973,
+     "count": 2
+    },
+    {
+     "season": 1974,
+     "count": 5
+    },
+    {
+     "season": 1975,
+     "count": 4
+    },
+    {
+     "season": 1976,
+     "count": 5
+    },
+    {
+     "season": 1977,
+     "count": 6
+    },
+    {
+     "season": 1978,
+     "count": 4
+    },
+    {
+     "season": 1979,
+     "count": 4
+    }
+   ],
+   "text": "1977-78 had 6 defensemen with 19+ goals, the most of any season in the 1970s.",
+   "why": "The peak year for this across the 1970s; fans can argue why that season stood out. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1970
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1970,
+     "count": 1
+    },
+    {
+     "season": 1971,
+     "count": 3
+    },
+    {
+     "season": 1972,
+     "count": 2
+    },
+    {
+     "season": 1973,
+     "count": 2
+    },
+    {
+     "season": 1974,
+     "count": 5
+    },
+    {
+     "season": 1975,
+     "count": 4
+    },
+    {
+     "season": 1976,
+     "count": 5
+    },
+    {
+     "season": 1977,
+     "count": 6
+    },
+    {
+     "season": 1978,
+     "count": 4
+    },
+    {
+     "season": 1979,
+     "count": 4
+    }
+   ],
+   "text": "1970-71 had just one defensemen with 19+ goal, the fewest of any season in the 1970s.",
+   "why": "The low point of the 1970s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke",
+     "total": 3,
+     "seasons": 3
+    }
+   ],
+   "text": "Most 100-point seasons in the 1970s: Guy Lafleur, 6.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "total": 304,
+     "seasons": 10
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "total": 258,
+     "seasons": 8
+    },
+    {
+     "id": 8452122,
+     "name": "Rogie Vachon",
+     "total": 224,
+     "seasons": 10
+    },
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "total": 210,
+     "seasons": 8
+    },
+    {
+     "id": 8447170,
+     "name": "Gilles Gilbert",
+     "total": 171,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goalie wins of the 1970s: Tony Esposito, 304.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "total": 56,
+     "seasons": 10
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "total": 46,
+     "seasons": 8
+    },
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "total": 45,
+     "seasons": 8
+    },
+    {
+     "id": 8452122,
+     "name": "Rogie Vachon",
+     "total": 38,
+     "seasons": 10
+    },
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "total": 24,
+     "seasons": 8
+    }
+   ],
+   "text": "Most shutouts of the 1970s: Tony Esposito, 56.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 80,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "total": 635,
+     "seasons": 10
+    },
+    {
+     "id": 8452122,
+     "name": "Rogie Vachon",
+     "total": 546,
+     "seasons": 10
+    },
+    {
+     "id": 8449550,
+     "name": "Gilles Meloche",
+     "total": 464,
+     "seasons": 10
+    },
+    {
+     "id": 8451076,
+     "name": "Jim Rutherford",
+     "total": 418,
+     "seasons": 10
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "total": 397,
+     "seasons": 8
+    }
+   ],
+   "text": "Most games in goal in the 1970s: Tony Esposito, 635.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 81,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 509,
+     "seasons": 10
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 405,
+     "seasons": 9
+    },
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "total": 380,
+     "seasons": 9
+    },
+    {
+     "id": 8449275,
+     "name": "Rick Martin",
+     "total": 375,
+     "seasons": 9
+    },
+    {
+     "id": 8450308,
+     "name": "Gilbert Perreault",
+     "total": 340,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goals of the 1970s: Phil Esposito, 509 (next: Guy Lafleur, 405).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 82,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 1087,
+     "seasons": 10
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 941,
+     "seasons": 9
+    },
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "total": 928,
+     "seasons": 9
+    },
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke",
+     "total": 891,
+     "seasons": 10
+    },
+    {
+     "id": 8450308,
+     "name": "Gilbert Perreault",
+     "total": 869,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points of the 1970s: Phil Esposito, 1,087 (next: Guy Lafleur, 941).",
+   "why": "A decade-long view that settles consistency debates. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 83,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 83,
+     "seasons": 10
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 77,
+     "seasons": 9
+    },
+    {
+     "id": 8450308,
+     "name": "Gilbert Perreault",
+     "total": 57,
+     "seasons": 10
+    },
+    {
+     "id": 8448729,
+     "name": "Reggie Leach",
+     "total": 51,
+     "seasons": 10
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "total": 46,
+     "seasons": 8
+    }
+   ],
+   "text": "Most game-winning goals of the 1970s: Phil Esposito, 83.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 84,
+   "kind": "total",
+   "rule": "tt_ppg",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "total": 193,
+     "seasons": 10
+    },
+    {
+     "id": 8449275,
+     "name": "Rick Martin",
+     "total": 112,
+     "seasons": 9
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 107,
+     "seasons": 9
+    },
+    {
+     "id": 8451386,
+     "name": "Darryl Sittler",
+     "total": 101,
+     "seasons": 10
+    },
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "total": 101,
+     "seasons": 9
+    }
+   ],
+   "text": "Most power-play goals of the 1970s: Phil Esposito, 193.",
+   "why": "A decade-long view that settles consistency debates. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 85,
+   "kind": "total",
+   "rule": "tt_pm",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "total": 444,
+     "seasons": 8
+    },
+    {
+     "id": 8451150,
+     "name": "Serge Savard",
+     "total": 431,
+     "seasons": 10
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "total": 428,
+     "seasons": 9
+    },
+    {
+     "id": 8450936,
+     "name": "Larry Robinson",
+     "total": 423,
+     "seasons": 8
+    },
+    {
+     "id": 8446098,
+     "name": "Bobby Clarke",
+     "total": 403,
+     "seasons": 10
+    }
+   ],
+   "text": "Best combined plus-minus of the 1970s: Bobby Orr, +444.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 86,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1970s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "total": 659,
+     "seasons": 8
+    },
+    {
+     "id": 8450206,
+     "name": "Brad Park",
+     "total": 574,
+     "seasons": 10
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "total": 544,
+     "seasons": 7
+    },
+    {
+     "id": 8448694,
+     "name": "Guy Lapointe",
+     "total": 542,
+     "seasons": 10
+    },
+    {
+     "id": 8452140,
+     "name": "Carol Vadnais",
+     "total": 453,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points by a defenseman in the 1970s: Bobby Orr, 659.",
+   "why": "A decade-long view that settles consistency debates. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 87,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1978,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 80,
+     "G": 69,
+     "A": 57,
+     "P": 126,
+     "PIM": 25,
+     "PM": 63,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 279,
+     "age": 22
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 68,
+     "A": 77,
+     "P": 145,
+     "PIM": 58,
+     "PM": 51,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 9,
+     "S": 393,
+     "age": 31
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 66,
+     "A": 67,
+     "P": 133,
+     "PIM": 76,
+     "PM": 54,
+     "PPG": 27,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 426,
+     "age": 29
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1974,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 79,
+     "G": 61,
+     "A": 66,
+     "P": 127,
+     "PIM": 62,
+     "PM": 17,
+     "PPG": 27,
+     "SHG": 4,
+     "GWG": 8,
+     "S": 346,
+     "age": 32
+    },
+    {
+     "id": 8448729,
+     "name": "Reggie Leach",
+     "season": 1975,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 80,
+     "G": 61,
+     "A": 30,
+     "P": 91,
+     "PIM": 41,
+     "PM": 72,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 335,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.9,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "5 players scored 60 goals in the 1970s (8 seasons). The most extreme: Phil Esposito, 1970-71 — 76 goals in 78 games.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 88,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 68,
+     "A": 77,
+     "P": 145,
+     "PIM": 58,
+     "PM": 51,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 9,
+     "S": 393,
+     "age": 31
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    },
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "season": 1979,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 80,
+     "G": 53,
+     "A": 84,
+     "P": 137,
+     "PIM": 32,
+     "PM": 34,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 348,
+     "age": 28
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 51,
+     "A": 86,
+     "P": 137,
+     "PIM": 21,
+     "PM": 14,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 284,
+     "age": 19
+    },
+    {
+     "id": 8448624,
+     "name": "Guy Lafleur",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 80,
+     "G": 56,
+     "A": 80,
+     "P": 136,
+     "PIM": 20,
+     "PM": 89,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 290,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 4.9,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "6 players recorded 130 points in the 1970s (12 seasons). The most extreme: Phil Esposito, 1970-71 — 152 points (76G, 76A).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 89,
+   "kind": "nearmiss",
+   "rule": "n_g49",
+   "group": "P",
+   "decade": "1970s",
+   "score": 4.75,
+   "players": [
+    {
+     "id": 8449275,
+     "name": "Rick Martin"
+    },
+    {
+     "id": 8451354,
+     "name": "Steve Shutt"
+    },
+    {
+     "id": 8448982,
+     "name": "Rick MacLeish"
+    }
+   ],
+   "seasons": [
+    1975,
+    1977,
+    1976
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449275,
+     "name": "Rick Martin",
+     "season": 1975,
+     "team": "BUF",
+     "pos": "L",
+     "GP": 80,
+     "G": 49,
+     "A": 37,
+     "P": 86,
+     "PIM": 67,
+     "PM": 23,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 327,
+     "age": 24
+    },
+    {
+     "id": 8451354,
+     "name": "Steve Shutt",
+     "season": 1977,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 80,
+     "G": 49,
+     "A": 37,
+     "P": 86,
+     "PIM": 24,
+     "PM": 56,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 243,
+     "age": 25
+    },
+    {
+     "id": 8448982,
+     "name": "Rick MacLeish",
+     "season": 1976,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 79,
+     "G": 49,
+     "A": 48,
+     "P": 97,
+     "PIM": 42,
+     "PM": 46,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 8,
+     "S": 252,
+     "age": 27
+    }
+   ],
+   "text": "3 player-seasons of the 1970s ended on exactly 49 goals, one short of 50 — among them Rick Martin (1975-76), Steve Shutt (1977-78), Rick MacLeish (1976-77).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 90,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1978,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 80,
+     "G": 69,
+     "A": 57,
+     "P": 126,
+     "PIM": 25,
+     "PM": 63,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 279,
+     "age": 22
+    },
+    {
+     "id": 8448729,
+     "name": "Reggie Leach",
+     "season": 1975,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 80,
+     "G": 61,
+     "A": 30,
+     "P": 91,
+     "PIM": 41,
+     "PM": 72,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 335,
+     "age": 25
+    },
+    {
+     "id": 8451354,
+     "name": "Steve Shutt",
+     "season": 1976,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 80,
+     "G": 60,
+     "A": 45,
+     "P": 105,
+     "PIM": 28,
+     "PM": 89,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 293,
+     "age": 24
+    },
+    {
+     "id": 8447062,
+     "name": "Danny Gare",
+     "season": 1979,
+     "team": "BUF",
+     "pos": "R",
+     "GP": 76,
+     "G": 56,
+     "A": 33,
+     "P": 89,
+     "PIM": 90,
+     "PM": 48,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 270,
+     "age": 25
+    },
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer",
+     "season": 1979,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 64,
+     "G": 56,
+     "A": 45,
+     "P": 101,
+     "PIM": 65,
+     "PM": 47,
+     "PPG": 21,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 213,
+     "age": 25
+    },
+    {
+     "id": 8451770,
+     "name": "Blaine Stoughton",
+     "season": 1979,
+     "team": "HFD",
+     "pos": "L",
+     "GP": 80,
+     "G": 56,
+     "A": 44,
+     "P": 100,
+     "PIM": 16,
+     "PM": 10,
+     "PPG": 16,
+     "SHG": 2,
+     "GWG": 9,
+     "S": 234,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 37,
+   "kind": "list",
+   "score": 4.725,
+   "players": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "text": "21 players scored 42 goals with more goals than assists in the 1970s (37 seasons). The most extreme: Mike Bossy, 1978-79 — 69G, 57A.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 91,
+   "rule": "h_shots",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 76,
+     "A": 76,
+     "P": 152,
+     "PIM": 71,
+     "PM": 69,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 16,
+     "S": 550,
+     "age": 28
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 76,
+     "G": 66,
+     "A": 67,
+     "P": 133,
+     "PIM": 76,
+     "PM": 54,
+     "PPG": 27,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 426,
+     "age": 29
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1972,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 55,
+     "A": 75,
+     "P": 130,
+     "PIM": 87,
+     "PM": 17,
+     "PPG": 19,
+     "SHG": 5,
+     "GWG": 11,
+     "S": 411,
+     "age": 30
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 68,
+     "A": 77,
+     "P": 145,
+     "PIM": 58,
+     "PM": 51,
+     "PPG": 14,
+     "SHG": 4,
+     "GWG": 9,
+     "S": 393,
+     "age": 31
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1970,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 37,
+     "A": 102,
+     "P": 139,
+     "PIM": 91,
+     "PM": 124,
+     "PPG": 5,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 392,
+     "age": 22
+    },
+    {
+     "id": 8450070,
+     "name": "Bobby Orr",
+     "season": 1973,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 74,
+     "G": 32,
+     "A": 90,
+     "P": 122,
+     "PIM": 82,
+     "PM": 84,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 384,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.375,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1970
+   ],
+   "text": "7 players fired 350 shots in the 1970s (15 seasons). The most extreme: Phil Esposito, 1970-71 — 550 shots.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 92,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448707,
+     "name": "Pierre Larouche",
+     "season": 1975,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 53,
+     "A": 58,
+     "P": 111,
+     "PIM": 33,
+     "PM": 3,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 319,
+     "age": 20
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 51,
+     "A": 86,
+     "P": 137,
+     "PIM": 21,
+     "PM": 14,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 284,
+     "age": 19
+    },
+    {
+     "id": 8449275,
+     "name": "Rick Martin",
+     "season": 1971,
+     "team": "BUF",
+     "pos": "L",
+     "GP": 73,
+     "G": 44,
+     "A": 30,
+     "P": 74,
+     "PIM": 36,
+     "PM": -39,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 266,
+     "age": 20
+    },
+    {
+     "id": 8450308,
+     "name": "Gilbert Perreault",
+     "season": 1970,
+     "team": "BUF",
+     "pos": "C",
+     "GP": 78,
+     "G": 38,
+     "A": 34,
+     "P": 72,
+     "PIM": 19,
+     "PM": -38,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 210,
+     "age": 20
+    },
+    {
+     "id": 8447067,
+     "name": "Mike Gartner",
+     "season": 1979,
+     "team": "WSH",
+     "pos": "R",
+     "GP": 77,
+     "G": 36,
+     "A": 32,
+     "P": 68,
+     "PIM": 66,
+     "PM": 16,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 226,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 4.325,
+   "players": [
+    {
+     "id": 8448707,
+     "name": "Pierre Larouche"
+    }
+   ],
+   "seasons": [
+    1975
+   ],
+   "text": "5 players scored 36 goals at age 20 or younger in the 1970s. The most extreme: Pierre Larouche, 1975-76 — 53 goals at 20.",
+   "why": "Leads with the most extreme case, which carries the post. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 93,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1977,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 73,
+     "G": 53,
+     "A": 38,
+     "P": 91,
+     "PIM": 6,
+     "PM": 31,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 235,
+     "age": 21
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 51,
+     "A": 86,
+     "P": 137,
+     "PIM": 21,
+     "PM": 14,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 284,
+     "age": 19
+    },
+    {
+     "id": 8448917,
+     "name": "Blair MacDonald",
+     "season": 1979,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 80,
+     "G": 46,
+     "A": 48,
+     "P": 94,
+     "PIM": 6,
+     "PM": 0,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 266,
+     "age": 26
+    },
+    {
+     "id": 8449275,
+     "name": "Rick Martin",
+     "season": 1971,
+     "team": "BUF",
+     "pos": "L",
+     "GP": 73,
+     "G": 44,
+     "A": 30,
+     "P": 74,
+     "PIM": 36,
+     "PM": -39,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 266,
+     "age": 20
+    },
+    {
+     "id": 8450981,
+     "name": "Mike Rogers",
+     "season": 1979,
+     "team": "HFD",
+     "pos": "C",
+     "GP": 80,
+     "G": 44,
+     "A": 61,
+     "P": 105,
+     "PIM": 10,
+     "PM": 28,
+     "PPG": 3,
+     "SHG": 2,
+     "GWG": 0,
+     "S": 229,
+     "age": 25
+    },
+    {
+     "id": 8446101,
+     "name": "Real Cloutier",
+     "season": 1979,
+     "team": "QUE",
+     "pos": "R",
+     "GP": 67,
+     "G": 42,
+     "A": 47,
+     "P": 89,
+     "PIM": 12,
+     "PM": -5,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 254,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 4.325,
+   "players": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy"
+    }
+   ],
+   "seasons": [
+    1977
+   ],
+   "text": "7 players scored 40 goals in their first NHL season in the 1970s. The most extreme: Mike Bossy, 1977-78 — 53 goals.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 94,
+   "kind": "nearmiss",
+   "rule": "n_p99",
+   "group": "P",
+   "decade": "1970s",
+   "score": 4.25,
+   "players": [
+    {
+     "id": 8445022,
+     "name": "Syl Apps Jr."
+    }
+   ],
+   "seasons": [
+    1975
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445022,
+     "name": "Syl Apps Jr.",
+     "season": 1975,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 32,
+     "A": 67,
+     "P": 99,
+     "PIM": 24,
+     "PM": 17,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 210,
+     "age": 28
+    }
+   ],
+   "text": "Exactly one player of the 1970s finished a season with exactly 99 points, one short of 100: Syl Apps Jr. (1975-76).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 95,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1974,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 76,
+     "G": 9,
+     "A": 17,
+     "P": 26,
+     "PIM": 472,
+     "PM": 16,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 93,
+     "age": 25
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1977,
+     "team": "LAK,PIT",
+     "pos": "L",
+     "GP": 74,
+     "G": 11,
+     "A": 25,
+     "P": 36,
+     "PIM": 405,
+     "PM": -8,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 111,
+     "age": 28
+    },
+    {
+     "id": 8445965,
+     "name": "Steve Durbano",
+     "season": 1975,
+     "team": "PIT,KCS",
+     "pos": "D",
+     "GP": 69,
+     "G": 1,
+     "A": 19,
+     "P": 20,
+     "PIM": 370,
+     "PM": -22,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 106,
+     "age": 24
+    },
+    {
+     "id": 8452457,
+     "name": "Dave Williams",
+     "season": 1977,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 78,
+     "G": 19,
+     "A": 31,
+     "P": 50,
+     "PIM": 351,
+     "PM": 6,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 163,
+     "age": 23
+    },
+    {
+     "id": 8451245,
+     "name": "Dave Schultz",
+     "season": 1973,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 73,
+     "G": 20,
+     "A": 16,
+     "P": 36,
+     "PIM": 348,
+     "PM": 25,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 95,
+     "age": 24
+    },
+    {
+     "id": 8452457,
+     "name": "Dave Williams",
+     "season": 1976,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 77,
+     "G": 18,
+     "A": 25,
+     "P": 43,
+     "PIM": 338,
+     "PM": 10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 157,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.18,
+   "players": [
+    {
+     "id": 8451245,
+     "name": "Dave Schultz"
+    }
+   ],
+   "seasons": [
+    1974
+   ],
+   "text": "6 players racked up 300 penalty minutes in the 1970s (10 seasons). The most extreme: Dave Schultz, 1974-75 — 472 PIM.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 96,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1978,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 80,
+     "G": 42,
+     "A": 36,
+     "P": 78,
+     "PIM": 37,
+     "PM": -1,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 215,
+     "age": 36
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1972,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 78,
+     "G": 40,
+     "A": 53,
+     "P": 93,
+     "PIM": 12,
+     "PM": 17,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 168,
+     "age": 37
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1975,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 77,
+     "G": 36,
+     "A": 47,
+     "P": 83,
+     "PIM": 20,
+     "PM": 22,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 151,
+     "age": 40
+    },
+    {
+     "id": 8446722,
+     "name": "Phil Esposito",
+     "season": 1979,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 80,
+     "G": 34,
+     "A": 44,
+     "P": 78,
+     "PIM": 73,
+     "PM": -14,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 245,
+     "age": 37
+    },
+    {
+     "id": 8450646,
+     "name": "Jean Ratelle",
+     "season": 1976,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 78,
+     "G": 33,
+     "A": 61,
+     "P": 94,
+     "PIM": 22,
+     "PM": 18,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 185,
+     "age": 36
+    },
+    {
+     "id": 8445240,
+     "name": "Johnny Bucyk",
+     "season": 1971,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 78,
+     "G": 32,
+     "A": 51,
+     "P": 83,
+     "PIM": 4,
+     "PM": 15,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 174,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 4.05,
+   "players": [
+    {
+     "id": 8446722,
+     "name": "Phil Esposito"
+    }
+   ],
+   "seasons": [
+    1978
+   ],
+   "text": "5 players scored 30 goals at age 36 or older in the 1970s (9 seasons). The most extreme: Phil Esposito, 1978-79 — 42 goals at 36.",
+   "why": "Leads with the most extreme case, which carries the post. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 97,
+   "rule": "t_ties",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1973,
+     "GP": 78,
+     "W": 41,
+     "L": 14,
+     "T": 23,
+     "GF": 272,
+     "GA": 164,
+     "PCT": 0.67307
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1974,
+     "GP": 80,
+     "W": 33,
+     "L": 25,
+     "T": 22,
+     "GF": 264,
+     "GA": 221,
+     "PCT": 0.55
+    },
+    {
+     "id": "Los Angeles Kings",
+     "name": "Los Angeles Kings",
+     "season": 1974,
+     "GP": 80,
+     "W": 42,
+     "L": 17,
+     "T": 21,
+     "GF": 269,
+     "GA": 185,
+     "PCT": 0.65625
+    },
+    {
+     "id": "Colorado Rockies",
+     "name": "Colorado Rockies",
+     "season": 1977,
+     "GP": 80,
+     "W": 19,
+     "L": 40,
+     "T": 21,
+     "GF": 257,
+     "GA": 305,
+     "PCT": 0.36875
+    },
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1970,
+     "GP": 78,
+     "W": 21,
+     "L": 37,
+     "T": 20,
+     "GF": 221,
+     "GA": 240,
+     "PCT": 0.39743
+    },
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers",
+     "season": 1979,
+     "GP": 80,
+     "W": 48,
+     "L": 12,
+     "T": 20,
+     "GF": 327,
+     "GA": 254,
+     "PCT": 0.725
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 3.575,
+   "players": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "6 teams tied 20 games in the 1970s. The most extreme: Chicago Blackhawks, 1973-74 — 41-14-23.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 98,
+   "rule": "g_t",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1973,
+     "team": "CHI",
+     "GP": 70,
+     "A": 1,
+     "PIM": 0,
+     "W": 34,
+     "L": 14,
+     "T": 21,
+     "SO": 10,
+     "GAA": 2.04686,
+     "SVP": 0.92867,
+     "SV": 1836,
+     "GA": 141
+    },
+    {
+     "id": 8445609,
+     "name": "Dan Bouchard",
+     "season": 1977,
+     "team": "AFM",
+     "GP": 58,
+     "A": 3,
+     "PIM": 6,
+     "W": 25,
+     "L": 12,
+     "T": 19,
+     "SO": 2,
+     "GAA": 2.75075,
+     "SVP": 0.89308,
+     "SV": 1278,
+     "GA": 153
+    },
+    {
+     "id": 8451525,
+     "name": "Billy Smith",
+     "season": 1974,
+     "team": "NYI",
+     "GP": 58,
+     "A": 0,
+     "PIM": 21,
+     "W": 21,
+     "L": 18,
+     "T": 17,
+     "SO": 3,
+     "GAA": 2.78215,
+     "SVP": 0.9047,
+     "SV": 1481,
+     "GA": 156
+    },
+    {
+     "id": 8446597,
+     "name": "Don Edwards",
+     "season": 1977,
+     "team": "BUF",
+     "GP": 72,
+     "A": 3,
+     "PIM": 12,
+     "W": 38,
+     "L": 16,
+     "T": 17,
+     "SO": 5,
+     "GAA": 2.63924,
+     "SVP": 0.90609,
+     "SV": 1785,
+     "GA": 185
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1974,
+     "team": "MTL",
+     "GP": 56,
+     "A": 3,
+     "PIM": 2,
+     "W": 30,
+     "L": 9,
+     "T": 16,
+     "SO": 4,
+     "GAA": 2.69669,
+     "SVP": 0.90628,
+     "SV": 1441,
+     "GA": 149
+    },
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1979,
+     "team": "CHI",
+     "GP": 69,
+     "A": 1,
+     "PIM": 2,
+     "W": 31,
+     "L": 22,
+     "T": 16,
+     "SO": 6,
+     "GAA": 2.97724,
+     "SVP": 0.90279,
+     "SV": 1904,
+     "GA": 205
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.525,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "7 goalies tied 15 games in the 1970s (9 seasons). The most extreme: Tony Esposito, 1973-74 — 21 ties.",
+   "why": "Leads with the most extreme case, which carries the post. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 99,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1973,
+     "team": "PHI",
+     "GP": 73,
+     "A": 3,
+     "PIM": 24,
+     "W": 47,
+     "L": 13,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.8944,
+     "SVP": 0.9322,
+     "SV": 1870,
+     "GA": 136
+    },
+    {
+     "id": 8450178,
+     "name": "Bernie Parent",
+     "season": 1974,
+     "team": "PHI",
+     "GP": 68,
+     "A": 0,
+     "PIM": 16,
+     "W": 44,
+     "L": 14,
+     "T": 9,
+     "SO": 12,
+     "GAA": 2.03736,
+     "SVP": 0.91816,
+     "SV": 1537,
+     "GA": 137
+    },
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1973,
+     "team": "CHI",
+     "GP": 70,
+     "A": 1,
+     "PIM": 0,
+     "W": 34,
+     "L": 14,
+     "T": 21,
+     "SO": 10,
+     "GAA": 2.04686,
+     "SVP": 0.92867,
+     "SV": 1836,
+     "GA": 141
+    },
+    {
+     "id": 8446490,
+     "name": "Ken Dryden",
+     "season": 1976,
+     "team": "MTL",
+     "GP": 56,
+     "A": 2,
+     "PIM": 0,
+     "W": 41,
+     "L": 6,
+     "T": 8,
+     "SO": 10,
+     "GAA": 2.1438,
+     "SVP": 0.91969,
+     "SV": 1340,
+     "GA": 117
+    },
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1971,
+     "team": "CHI",
+     "GP": 48,
+     "A": 1,
+     "PIM": 2,
+     "W": 31,
+     "L": 10,
+     "T": 6,
+     "SO": 9,
+     "GAA": 1.77085,
+     "SVP": 0.93392,
+     "SV": 1159,
+     "GA": 82
+    },
+    {
+     "id": 8449979,
+     "name": "Eddie Giacomin",
+     "season": 1970,
+     "team": "NYR",
+     "GP": 45,
+     "A": 0,
+     "PIM": 4,
+     "W": 27,
+     "L": 10,
+     "T": 7,
+     "SO": 8,
+     "GAA": 2.16087,
+     "SVP": 0.92181,
+     "SV": 1120,
+     "GA": 95
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.3,
+   "players": [
+    {
+     "id": 8450178,
+     "name": "Bernie Parent"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "5 goalies recorded 8 shutouts in the 1970s (9 seasons). The most extreme: Bernie Parent, 1973-74 — 12 shutouts in 73 games.",
+   "why": "Shows how high the bar was across the 1970s; the extreme case is the hook. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 100,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "1970s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers",
+     "season": 1973,
+     "GP": 78,
+     "W": 50,
+     "L": 16,
+     "T": 12,
+     "GF": 273,
+     "GA": 164,
+     "PCT": 0.71794
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1973,
+     "GP": 78,
+     "W": 41,
+     "L": 14,
+     "T": 23,
+     "GF": 272,
+     "GA": 164,
+     "PCT": 0.67307
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1971,
+     "GP": 78,
+     "W": 46,
+     "L": 17,
+     "T": 15,
+     "GF": 256,
+     "GA": 166,
+     "PCT": 0.68589
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1976,
+     "GP": 80,
+     "W": 60,
+     "L": 8,
+     "T": 12,
+     "GF": 387,
+     "GA": 171,
+     "PCT": 0.825
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1975,
+     "GP": 80,
+     "W": 58,
+     "L": 11,
+     "T": 11,
+     "GF": 337,
+     "GA": 174,
+     "PCT": 0.79375
+    },
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers",
+     "season": 1974,
+     "GP": 80,
+     "W": 51,
+     "L": 18,
+     "T": 11,
+     "GF": 293,
+     "GA": 181,
+     "PCT": 0.70625
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 3.1189024390243905,
+   "players": [
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers"
+    }
+   ],
+   "seasons": [
+    1973
+   ],
+   "text": "8 teams allowed fewer than 2.6 goals a game in the 1970s (18 seasons). The most extreme: Philadelphia Flyers, 1973-74 — 2.10 per game.",
+   "why": "Leads with the most extreme case, which carries the post. Dynasty-level team seasons are what fan bases brag about."
+  }
+ ],
+ "shortNote": null,
+ "counts": {
+  "skaterSeasons": 4257,
+  "goalieSeasons": 505,
+  "teamSeasons": 170
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:52.210Z"
+}

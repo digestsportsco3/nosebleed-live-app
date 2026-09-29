@@ -270,7 +270,7 @@
     1948
    ],
    "text": "Only two players of the 1940s scored 1,500 points in a season: George Mikan (2×, best 1949-50: 1,865 pts); Joe Fulks (1948-49: 1,560 pts).",
-   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
+   "why": "A club of two is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 5,
@@ -410,7 +410,7 @@
     1948
    ],
    "text": "Only two players of the 1940s averaged 25 points a game (60% of games): George Mikan (2×, best 1948-49: 28.3 ppg); Joe Fulks (1948-49: 26.0 ppg).",
-   "why": "A two-player club is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
+   "why": "A club of two is a ready-made debate. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 7,
@@ -669,7 +669,7 @@
     1948
    ],
    "text": "Only two players of the 1940s shot under .350 on 1,200+ attempts: Joe Fulks (4×, best 1948-49: .313 on 1,689 FGA); Max Zaslofsky (1948-49: .350 on 1,216 FGA).",
-   "why": "A two-player club is a ready-made debate. Shot volume invites the gunner debate."
+   "why": "A club of two is a ready-made debate. Shot volume invites the gunner debate."
   },
   {
    "n": 9,
@@ -1698,7 +1698,7 @@
     }
    ],
    "text": "1948-49 had 2 players averaging 25 points (60% of games), the most of any season in the 1940s.",
-   "why": "Rewards staying power: the most such seasons in the 1940s."
+   "why": "The peak year for this across the 1940s; fans can argue why that season stood out."
   },
   {
    "n": 30,
@@ -1709,7 +1709,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1946
+    1946,
+    1947
    ],
    "finder": null,
    "evidence": [
@@ -1730,8 +1731,8 @@
      "count": 1
     }
    ],
-   "text": "1946-47 had no players averaging 25 points (60% of games) at all — one of the seasons of the 1940s without one.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "text": "1946-47 and 1947-48 had no players averaging 25 points (60% of games) at all — the only seasons of the 1940s without one.",
+   "why": "The low point of the 1940s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 31,
@@ -1764,7 +1765,7 @@
     }
    ],
    "text": "1948-49 had 3 players averaging 20 points (60% of games), the most of any season in the 1940s.",
-   "why": "Rewards staying power: the most such seasons in the 1940s."
+   "why": "The peak year for this across the 1940s; fans can argue why that season stood out."
   },
   {
    "n": 32,
@@ -1797,7 +1798,7 @@
     }
    ],
    "text": "1946-47 had just one player averaging 20 points (60% of games), the fewest of any season in the 1940s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 1940s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 33,

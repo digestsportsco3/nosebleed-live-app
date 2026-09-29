@@ -23,7 +23,7 @@
   "1968-69",
   "1969-70"
  ],
- "candidates": 93,
+ "candidates": 92,
  "facts": [
   {
    "n": 1,
@@ -1183,7 +1183,7 @@
     }
    ],
    "text": "Jerry West averaged 25+ points in 9 straight seasons (1961-62 to 1969-70), the longest run of the 1960s.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "The longest run of the 1960s; fans measure today's stars against it. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 13,
@@ -1411,7 +1411,7 @@
     }
    ],
    "text": "Wilt Chamberlain averaged a double-digit rebounding figure in 9 straight seasons (1960-61 to 1968-69), the longest run of the 1960s.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
+   "why": "Years in a row of the same excellence: consistency in one line. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 14,
@@ -1662,7 +1662,7 @@
     }
    ],
    "text": "Oscar Robertson averaged 8+ assists in 10 straight seasons (1960-61 to 1969-70), the longest run of the 1960s.",
-   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
+   "why": "The longest run of the 1960s; fans measure today's stars against it. Assist averages crown the true point guards."
   },
   {
    "n": 15,
@@ -1844,7 +1844,7 @@
     }
    ],
    "text": "Oscar Robertson scored 2,000 points in 7 straight seasons (1960-61 to 1966-67), the longest run of the 1960s.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Streaks are the most shareable kind of consistency."
+   "why": "Years in a row of the same excellence: consistency in one line. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 16,
@@ -2095,7 +2095,7 @@
     }
    ],
    "text": "Oscar Robertson averaged 20+ points in 10 straight seasons (1960-61 to 1969-70), the longest run of the 1960s.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "The longest run of the 1960s; fans measure today's stars against it. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 17,
@@ -2323,7 +2323,7 @@
     }
    ],
    "text": "Wilt Chamberlain shot .500 from the field (800+ FGA) in 9 straight seasons (1960-61 to 1968-69), the longest run of the 1960s.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
+   "why": "Years in a row of the same excellence: consistency in one line. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 18,
@@ -2533,7 +2533,7 @@
     1962
    ],
    "text": "Only two players of the 1960s dished out 800 assists in a season: Guy Rodgers (3×, best 1966-67: 908 ast); Oscar Robertson (5×, best 1961-62: 899 ast).",
-   "why": "A two-player club is a ready-made debate. Assist averages crown the true point guards."
+   "why": "A club of two is a ready-made debate. Assist averages crown the true point guards."
   },
   {
    "n": 19,
@@ -2815,7 +2815,7 @@
     1967
    ],
    "text": "Only two players of the 1960s averaged 20 points and 10 rebounds with under 1.5 assists (60% of games): Elvin Hayes (1968-69: 28.4/17.1/1.4); John Block (1967-68: 20.2/11.0/1.4).",
-   "why": "A two-player club is a ready-made debate. Do-everything stat lines get shared across fan bases."
+   "why": "A club of two is a ready-made debate. Do-everything stat lines get shared across fan bases."
   },
   {
    "n": 21,
@@ -6292,7 +6292,7 @@
     }
    ],
    "text": "1961-62 had 8 players averaging 25 points (60% of games), the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s."
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out."
   },
   {
    "n": 57,
@@ -6349,7 +6349,7 @@
     }
    ],
    "text": "1968-69 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 1960s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 58,
@@ -6360,7 +6360,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1960
+    1960,
+    1968
    ],
    "finder": null,
    "evidence": [
@@ -6405,8 +6406,8 @@
      "count": 7
     }
    ],
-   "text": "1960-61 had 8 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s."
+   "text": "1960-61 and 1968-69 each had 8 players averaging 20 points and 10 rebounds (60% of games), tied for the most of any season in the 1960s.",
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out."
   },
   {
    "n": 59,
@@ -6463,7 +6464,7 @@
     }
    ],
    "text": "1966-67 had just 4 players averaging 20 points and 10 rebounds (60% of games), the fewest of any season in the 1960s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 60,
@@ -6474,7 +6475,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1960
+    1960,
+    1966
    ],
    "finder": null,
    "evidence": [
@@ -6519,8 +6521,8 @@
      "count": 0
     }
    ],
-   "text": "1960-61 had one .900 free-throw shooter (200+ FTA), the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s. Free-throw accuracy is the shooter's purest stat."
+   "text": "1960-61 and 1966-67 each had one .900 free-throw shooter (200+ FTA), tied for the most of any season in the 1960s.",
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 61,
@@ -6531,7 +6533,14 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1961
+    1961,
+    1962,
+    1963,
+    1964,
+    1965,
+    1967,
+    1968,
+    1969
    ],
    "finder": null,
    "evidence": [
@@ -6576,8 +6585,8 @@
      "count": 0
     }
    ],
-   "text": "1961-62 had no .900 free-throw shooters (200+ FTA) at all — one of the seasons of the 1960s without one.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "text": "1961-62 had no .900 free-throw shooters (200+ FTA) at all — one of 8 seasons of the 1960s without one.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 62,
@@ -6588,7 +6597,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1967
+    1967,
+    1969
    ],
    "finder": null,
    "evidence": [
@@ -6633,8 +6643,8 @@
      "count": 3
     }
    ],
-   "text": "1967-68 had 3 8-assist players, the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s. Assist averages crown the true point guards."
+   "text": "1967-68 and 1969-70 each had 3 8-assist players, tied for the most of any season in the 1960s.",
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out. Assist averages crown the true point guards."
   },
   {
    "n": 63,
@@ -6645,7 +6655,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1963
+    1963,
+    1964
    ],
    "finder": null,
    "evidence": [
@@ -6690,8 +6701,8 @@
      "count": 3
     }
    ],
-   "text": "1963-64 had just one 8-assist player, the fewest of any season in the 1960s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "text": "1963-64 and 1964-65 each had just one 8-assist player, tied for the fewest of any season in the 1960s.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook. Assist averages crown the true point guards."
   },
   {
    "n": 64,
@@ -6748,7 +6759,7 @@
     }
    ],
    "text": "1969-70 had 26 players averaging 20 points (60% of games), the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s."
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out."
   },
   {
    "n": 65,
@@ -6759,7 +6770,9 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1962
+    1962,
+    1963,
+    1964
    ],
    "finder": null,
    "evidence": [
@@ -6804,8 +6817,8 @@
      "count": 26
     }
    ],
-   "text": "1962-63 had just 9 players averaging 20 points (60% of games), the fewest of any season in the 1960s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "text": "1962-63, 1963-64 and 1964-65 each had just 9 players averaging 20 points (60% of games), tied for the fewest of any season in the 1960s.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 66,
@@ -6862,7 +6875,7 @@
     }
    ],
    "text": "1967-68 had 22 players averaging 10 rebounds (60% of games), the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s. Rebounding numbers from past eras astonish modern fans."
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 67,
@@ -6873,7 +6886,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1962
+    1962,
+    1965
    ],
    "finder": null,
    "evidence": [
@@ -6918,8 +6932,8 @@
      "count": 18
     }
    ],
-   "text": "1962-63 had just 12 players averaging 10 rebounds (60% of games), the fewest of any season in the 1960s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "text": "1962-63 and 1965-66 each had just 12 players averaging 10 rebounds (60% of games), tied for the fewest of any season in the 1960s.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 68,
@@ -6976,7 +6990,7 @@
     }
    ],
    "text": "1961-62 had 6 30-point scorers, the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s."
+   "why": "The peak year for this across the 1960s; fans can argue why that season stood out."
   },
   {
    "n": 69,
@@ -6987,7 +7001,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    1967
+    1967,
+    1968
    ],
    "finder": null,
    "evidence": [
@@ -7032,68 +7047,11 @@
      "count": 1
     }
    ],
-   "text": "1967-68 had no 30-point scorers at all — one of the seasons of the 1960s without one.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "text": "1967-68 and 1968-69 had no 30-point scorers at all — the only seasons of the 1960s without one.",
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 70,
-   "kind": "season",
-   "rule": "c_20rpg_most",
-   "group": "P",
-   "decade": "1960s",
-   "score": 5,
-   "players": [],
-   "seasons": [
-    1960
-   ],
-   "finder": null,
-   "evidence": [
-    {
-     "season": 1960,
-     "count": 3
-    },
-    {
-     "season": 1961,
-     "count": 2
-    },
-    {
-     "season": 1962,
-     "count": 2
-    },
-    {
-     "season": 1963,
-     "count": 2
-    },
-    {
-     "season": 1964,
-     "count": 3
-    },
-    {
-     "season": 1965,
-     "count": 3
-    },
-    {
-     "season": 1966,
-     "count": 3
-    },
-    {
-     "season": 1967,
-     "count": 2
-    },
-    {
-     "season": 1968,
-     "count": 1
-    },
-    {
-     "season": 1969,
-     "count": 0
-    }
-   ],
-   "text": "1960-61 had 3 20-rebound players, the most of any season in the 1960s.",
-   "why": "Rewards staying power: the most such seasons in the 1960s. Rebounding numbers from past eras astonish modern fans."
-  },
-  {
-   "n": 71,
    "kind": "season",
    "rule": "c_20rpg_least",
    "group": "P",
@@ -7147,10 +7105,10 @@
     }
    ],
    "text": "1969-70 had no 20-rebound players at all — the only season of the 1960s without one.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 1960s for this; a \"what happened that year?\" hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 72,
+   "n": 71,
    "kind": "nearmiss",
    "rule": "rpg99",
    "group": "P",
@@ -7267,10 +7225,10 @@
     }
    ],
    "text": "4 player-seasons of the 1960s ended on 9.9 rebounds a game, a tenth short of a double-digit average — among them Oscar Robertson (1963-64), Rudy LaRusso (1960-61), Bailey Howell (1965-66).",
-   "why": "A near miss is a story; fans wonder what one more game would have done."
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
   },
   {
-   "n": 73,
+   "n": 72,
    "kind": "total",
    "rule": "t_pts",
    "group": "P",
@@ -7317,10 +7275,10 @@
     }
    ],
    "text": "Most points of the 1960s: Wilt Chamberlain, 24,719 — 2,710 ahead of Oscar Robertson.",
-   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Scoring averages are the most-quoted stat in the sport."
+   "why": "A decade-long view that settles consistency debates. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 74,
+   "n": 73,
    "kind": "total",
    "rule": "t_reb",
    "group": "P",
@@ -7367,10 +7325,10 @@
     }
    ],
    "text": "Most rebounds of the 1960s: Wilt Chamberlain, 17,392.",
-   "why": "A decade-long view that settles consistency debates. Rebounding numbers from past eras astonish modern fans."
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 75,
+   "n": 74,
    "kind": "total",
    "rule": "t_ast",
    "group": "P",
@@ -7417,10 +7375,10 @@
     }
    ],
    "text": "Most assists of the 1960s: Oscar Robertson, 7,731.",
-   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Assist averages crown the true point guards."
+   "why": "A decade-long view that settles consistency debates. Assist averages crown the true point guards."
   },
   {
-   "n": 76,
+   "n": 75,
    "kind": "total",
    "rule": "t_ftm",
    "group": "P",
@@ -7467,10 +7425,10 @@
     }
    ],
    "text": "Most free throws made in the 1960s: Oscar Robertson, 6,583.",
-   "why": "A decade-long view that settles consistency debates. Free-throw accuracy is the shooter's purest stat."
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 77,
+   "n": 76,
    "kind": "total",
    "rule": "t_min",
    "group": "P",
@@ -7517,10 +7475,10 @@
     }
    ],
    "text": "Most minutes of the 1960s: Wilt Chamberlain, 33,880.",
-   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workload numbers from past eras astonish fans used to load management."
+   "why": "A decade-long view that settles consistency debates. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 78,
+   "n": 77,
    "rule": "reb_over_pts",
    "group": "P",
    "decade": "1960s",
@@ -7672,10 +7630,10 @@
     1964
    ],
    "text": "25 players grabbed more rebounds than they scored points (60% of games, 500+ reb) in the 1960s (57 seasons). The most extreme: Bill Russell, 1964-65 — 1,878 reb, 1,102 pts.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 79,
+   "n": 78,
    "rule": "thirty_ten",
    "group": "P",
    "decade": "1960s",
@@ -7827,10 +7785,10 @@
     1961
    ],
    "text": "5 players averaged 30 points and 10 rebounds (60% of games) in the 1960s (13 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 50.4 ppg, 25.6 rpg.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 80,
+   "n": 79,
    "rule": "reb_1000",
    "group": "P",
    "decade": "1960s",
@@ -7982,10 +7940,10 @@
     1960
    ],
    "text": "25 players grabbed 1,000 rebounds in a season in the 1960s (74 seasons). The most extreme: Wilt Chamberlain, 1960-61 — 2,149 reb.",
-   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 81,
+   "n": 80,
    "rule": "fg_500_old",
    "group": "P",
    "decade": "1960s",
@@ -8137,10 +8095,10 @@
     1966
    ],
    "text": "18 players shot .500 on 800+ attempts in the 1960s (40 seasons). The most extreme: Wilt Chamberlain, 1966-67 — .683 on 1,150 FGA.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
+   "why": "Leads with the most extreme case, which carries the post. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
-   "n": 82,
+   "n": 81,
    "rule": "twentyfive_five_five",
    "group": "P",
    "decade": "1960s",
@@ -8292,10 +8250,10 @@
     1963
    ],
    "text": "5 players averaged 25 points, 5 rebounds and 5 assists (60% of games) in the 1960s (19 seasons). The most extreme: Wilt Chamberlain, 1963-64 — 36.9/22.3/5.0.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 83,
+   "n": 82,
    "rule": "reb_1500",
    "group": "P",
    "decade": "1960s",
@@ -8447,10 +8405,10 @@
     1960
    ],
    "text": "5 players grabbed 1,500 rebounds in a season in the 1960s (21 seasons). The most extreme: Wilt Chamberlain, 1960-61 — 2,149 reb.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Rebounding numbers from past eras astonish modern fans."
+   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
   },
   {
-   "n": 84,
+   "n": 83,
    "rule": "thirty_ppg",
    "group": "P",
    "decade": "1960s",
@@ -8602,10 +8560,10 @@
     1961
    ],
    "text": "7 players averaged 30 points a game (60% of games) in the 1960s (22 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 50.4 ppg.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 85,
+   "n": 84,
    "rule": "mpg_42",
    "group": "P",
    "decade": "1960s",
@@ -8757,10 +8715,10 @@
     1961
    ],
    "text": "14 players averaged 42+ minutes a game (60% of games) in the 1960s (45 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 48.5 mpg.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Workload numbers from past eras astonish fans used to load management."
+   "why": "Leads with the most extreme case, which carries the post. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 86,
+   "n": 85,
    "rule": "mpg_45",
    "group": "P",
    "decade": "1960s",
@@ -8912,10 +8870,10 @@
     1961
    ],
    "text": "5 players averaged 45 minutes a game (60% of games) in the 1960s (15 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 48.5 mpg.",
-   "why": "Leads with the most extreme case, which carries the post. Workload numbers from past eras astonish fans used to load management."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 87,
+   "n": 86,
    "rule": "fta_800",
    "group": "P",
    "decade": "1960s",
@@ -9067,10 +9025,10 @@
     1961
    ],
    "text": "7 players attempted 800 free throws in a season in the 1960s (23 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 1,363 FTA (.613).",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Free-throw accuracy is the shooter's purest stat."
+   "why": "Leads with the most extreme case, which carries the post. Free-throw accuracy is the shooter's purest stat."
   },
   {
-   "n": 88,
+   "n": 87,
    "rule": "po_30",
    "group": "PO",
    "decade": "1960s",
@@ -9222,10 +9180,10 @@
     1964
    ],
    "text": "7 players averaged 30 points in a single postseason (8+ playoff games) in the 1960s (15 seasons). The most extreme: Jerry West, 1964-65 — 40.6 ppg in 11 games.",
-   "why": "Leads with the most extreme case, which carries the post. An average fans can hold up against any star's."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. An average fans can hold up against any star's."
   },
   {
-   "n": 89,
+   "n": 88,
    "rule": "min_3300",
    "group": "P",
    "decade": "1960s",
@@ -9377,10 +9335,10 @@
     1961
    ],
    "text": "16 players log 3,300 minutes in a season in the 1960s (43 seasons). The most extreme: Wilt Chamberlain, 1961-62 — 3,882 min.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Workload numbers from past eras astonish fans used to load management."
+   "why": "Leads with the most extreme case, which carries the post. Workload numbers from past eras astonish fans used to load management."
   },
   {
-   "n": 90,
+   "n": 89,
    "rule": "pf_300",
    "group": "P",
    "decade": "1960s",
@@ -9532,10 +9490,10 @@
     1967
    ],
    "text": "40 players committed 300 personal fouls in a season in the 1960s (71 seasons). The most extreme: Bill Bridges, 1967-68 — 366 PF.",
-   "why": "Leads with the most extreme case, which carries the post. Foul-trouble seasons are an oddity fans love to share."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Foul-trouble seasons are an oddity fans love to share."
   },
   {
-   "n": 91,
+   "n": 90,
    "rule": "big_ast",
    "group": "P",
    "decade": "1960s",
@@ -9687,10 +9645,10 @@
     1964
    ],
    "text": "5 players averaged 8+ assists (60% of games) in the 1960s (20 seasons). The most extreme: Oscar Robertson, 1964-65 — 11.5 apg.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Assist averages crown the true point guards."
+   "why": "Leads with the most extreme case, which carries the post. Assist averages crown the true point guards."
   },
   {
-   "n": 92,
+   "n": 91,
    "rule": "score_no_pass",
    "group": "P",
    "decade": "1960s",
@@ -9842,10 +9800,10 @@
     1960
    ],
    "text": "12 players averaged 20+ points with fewer than 2 assists a game (60% of games) in the 1960s (18 seasons). The most extreme: Wilt Chamberlain, 1960-61 — 38.4 ppg, 1.9 apg.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
   },
   {
-   "n": 93,
+   "n": 92,
    "rule": "volume_misses",
    "group": "P",
    "decade": "1960s",
@@ -9997,7 +9955,7 @@
     1960
    ],
    "text": "30 players shot under .430 on 1,200+ attempts in the 1960s (51 seasons). The most extreme: Elgin Baylor, 1960-61 — .430 on 2,166 FGA.",
-   "why": "Shows how high the bar was across the 1960s; the extreme case is the hook. Shot volume invites the gunner debate."
+   "why": "Leads with the most extreme case, which carries the post. Shot volume invites the gunner debate."
   }
  ],
  "counts": {

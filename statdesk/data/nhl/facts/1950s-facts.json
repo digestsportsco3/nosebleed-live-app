@@ -1,0 +1,6441 @@
+{
+ "sport": "NHL",
+ "decade": "1950s",
+ "era": 2,
+ "seasons": [
+  "1950-51",
+  "1951-52",
+  "1952-53",
+  "1953-54",
+  "1954-55",
+  "1955-56",
+  "1956-57",
+  "1957-58",
+  "1958-59",
+  "1959-60"
+ ],
+ "candidates": 87,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1953,
+     "GP": 70,
+     "W": 12,
+     "L": 51,
+     "T": 7,
+     "GF": 133,
+     "GA": 242,
+     "PCT": 0.22142
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1950,
+     "GP": 70,
+     "W": 13,
+     "L": 47,
+     "T": 10,
+     "GF": 171,
+     "GA": 280,
+     "PCT": 0.25714
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 11.94645,
+   "players": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    }
+   ],
+   "seasons": [
+    1953,
+    1950
+   ],
+   "text": "The only team of the 1950s to finish with a points percentage under .300 was Chicago Blackhawks — and it did it twice (1953-54: 12-51-7, .221; 1950-51: 13-47-10, .257).",
+   "why": "A club of one in the 1950s; \"name another\" posts draw replies. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 2,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446749,
+     "name": "Bill Hay",
+     "season": 1959,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 18,
+     "A": 37,
+     "P": 55,
+     "PIM": 29,
+     "PM": 17,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 149,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.375,
+   "players": [
+    {
+     "id": 8446749,
+     "name": "Bill Hay"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to record 55 points in their first NHL season: Bill Hay, 1959-60 — 55 points.",
+   "why": "Nobody else in the 1950s did it, and exclusivity is what gets a post shared. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 3,
+   "rule": "h_shots",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1959,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 28,
+     "A": 45,
+     "P": 73,
+     "PIM": 46,
+     "PM": 16,
+     "PPG": 5,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 354,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.885,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to fire 350 shots: Gordie Howe, 1959-60 — 354 shots.",
+   "why": "A club of one in the 1950s; \"name another\" posts draw replies. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 4,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1959,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 65,
+     "G": 9,
+     "A": 22,
+     "P": 31,
+     "PIM": 60,
+     "PM": -31,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 111,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.775,
+   "players": [
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to finish -30 or worse: Bill Gadsby, 1959-60 — -31.",
+   "why": "Nobody else in the 1950s did it, and exclusivity is what gets a post shared. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 5,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1950,
+     "GP": 70,
+     "W": 13,
+     "L": 47,
+     "T": 10,
+     "GF": 171,
+     "GA": 280,
+     "PCT": 0.25714
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1953,
+     "GP": 70,
+     "W": 12,
+     "L": 51,
+     "T": 7,
+     "GF": 133,
+     "GA": 242,
+     "PCT": 0.22142
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "only",
+   "score": 10.545,
+   "players": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    }
+   ],
+   "seasons": [
+    1950,
+    1953
+   ],
+   "text": "The only team of the 1950s to get outscored by 100 was Chicago Blackhawks — and it did it twice (1950-51: 171-280; 1953-54: 133-242).",
+   "why": "A club of one in the 1950s; \"name another\" posts draw replies. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 6,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1958,
+     "GP": 70,
+     "W": 39,
+     "L": 18,
+     "T": 13,
+     "GF": 258,
+     "GA": 158,
+     "PCT": 0.65
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.5,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "text": "The only team of the 1950s to outscore opponents by 100: Montréal Canadiens, 1958-59 — 258-158.",
+   "why": "Nobody else in the 1950s did it, and exclusivity is what gets a post shared. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 7,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1952,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 19,
+     "A": 27,
+     "P": 46,
+     "PIM": 8,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1950,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 17,
+     "A": 37,
+     "P": 54,
+     "PIM": 24,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 23
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1951,
+     "team": "DET",
+     "pos": "D",
+     "GP": 67,
+     "G": 16,
+     "A": 31,
+     "P": 47,
+     "PIM": 16,
+     "PPG": 2,
+     "SHG": 2,
+     "GWG": 3,
+     "age": 24
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1953,
+     "team": "DET",
+     "pos": "D",
+     "GP": 62,
+     "G": 16,
+     "A": 33,
+     "P": 49,
+     "PIM": 18,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1955,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 16,
+     "A": 34,
+     "P": 50,
+     "PIM": 39,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 28
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1954,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 15,
+     "A": 30,
+     "P": 45,
+     "PIM": 28,
+     "PPG": 6,
+     "SHG": 3,
+     "GWG": 3,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "only",
+   "score": 10.475,
+   "players": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly"
+    }
+   ],
+   "seasons": [
+    1952,
+    1950,
+    1951,
+    1953,
+    1955,
+    1954
+   ],
+   "text": "The only player of the 1950s to score 15 goals as a defenseman was Red Kelly — and he did it 6 times (1952-53: 19 goals; 1950-51: 17 goals; 1951-52: 16 goals; …).",
+   "why": "A club of one in the 1950s; \"name another\" posts draw replies. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 8,
+   "rule": "h_eff",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446577,
+     "name": "Jean-Guy Gendron",
+     "season": 1959,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 67,
+     "G": 24,
+     "A": 11,
+     "P": 35,
+     "PIM": 64,
+     "PM": -3,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 142,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.422535211267606,
+   "players": [
+    {
+     "id": 8446577,
+     "name": "Jean-Guy Gendron"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "text": "The only player of the 1950s to score 24 goals on fewer than 150 shots: Jean-Guy Gendron, 1959-60 — 24 goals on 142 shots.",
+   "why": "Nobody else in the 1950s did it, and exclusivity is what gets a post shared. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 9,
+   "rule": "pog_gaa",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1953,
+     "team": "DET",
+     "GP": 12,
+     "A": 0,
+     "PIM": 2,
+     "W": 8,
+     "L": 4,
+     "T": 0,
+     "SO": 2,
+     "GAA": 1.59733,
+     "GA": 20
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.156511178028335,
+   "players": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "text": "The only goalie of the 1950s to post a goals-against average under 1.60 in one postseason (10+ games): Terry Sawchuk, 1953-54 — 1.60 GAA in 12 games.",
+   "why": "A club of one in the 1950s; \"name another\" posts draw replies. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 10,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1951,
+     "team": "DET",
+     "GP": 8,
+     "A": 0,
+     "PIM": 0,
+     "W": 8,
+     "L": 0,
+     "T": 0,
+     "SO": 4,
+     "GAA": 0.625,
+     "GA": 5
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    }
+   ],
+   "seasons": [
+    1951
+   ],
+   "text": "The only goalie of the 1950s to record 4 shutouts in one postseason: Terry Sawchuk, 1951-52 — 4 shutouts in 8 games.",
+   "why": "Nobody else in the 1950s did it, and exclusivity is what gets a post shared. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 11,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1951,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 67,
+     "G": 30,
+     "A": 24,
+     "P": 54,
+     "PIM": 66,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 7,
+     "age": 20
+    },
+    {
+     "id": 8448320,
+     "name": "Henri Richard",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 63,
+     "G": 18,
+     "A": 36,
+     "P": 54,
+     "PIM": 71,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 9.35,
+   "players": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion"
+    },
+    {
+     "id": 8448320,
+     "name": "Henri Richard"
+    }
+   ],
+   "seasons": [
+    1951,
+    1956
+   ],
+   "text": "Only two players of the 1950s recorded 52 points at age 20 or younger: Bernie Geoffrion (1951-52: 54 points at 20); Henri Richard (1956-57: 54 points at 20).",
+   "why": "Two names invite the \"whose season was better?\" argument. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 12,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1950,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 44,
+     "L": 13,
+     "T": 13,
+     "SO": 11,
+     "GAA": 1.97142,
+     "GA": 138
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1951,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 44,
+     "L": 14,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.9,
+     "GA": 133
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1955,
+     "team": "MTL",
+     "GP": 64,
+     "A": 0,
+     "PIM": 10,
+     "W": 42,
+     "L": 12,
+     "T": 10,
+     "SO": 7,
+     "GAA": 1.85937,
+     "GA": 119
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1954,
+     "team": "DET",
+     "GP": 68,
+     "A": 1,
+     "PIM": 10,
+     "W": 40,
+     "L": 17,
+     "T": 11,
+     "SO": 12,
+     "GAA": 1.96039,
+     "GA": 132
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1959,
+     "team": "MTL",
+     "GP": 69,
+     "A": 0,
+     "PIM": 2,
+     "W": 40,
+     "L": 17,
+     "T": 12,
+     "SO": 3,
+     "GAA": 2.53623,
+     "GA": 175
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 9.1,
+   "players": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1950,
+    1951,
+    1955,
+    1954,
+    1959
+   ],
+   "text": "Only two goalies of the 1950s won 40 games: Terry Sawchuk (3×, best 1950-51: 44-13-13); Jacques Plante (2×, best 1955-56: 42-12-10).",
+   "why": "A club of two is a ready-made debate. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1950s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1950,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 43,
+     "P": 86,
+     "PIM": 74,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 9,
+     "age": 22
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1951,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 47,
+     "A": 39,
+     "P": 86,
+     "PIM": 78,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 10,
+     "age": 23
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1952,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 49,
+     "A": 46,
+     "P": 95,
+     "PIM": 57,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 6,
+     "age": 24
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1953,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 33,
+     "A": 48,
+     "P": 81,
+     "PIM": 109,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 25
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1954,
+     "team": "DET",
+     "pos": "R",
+     "GP": 64,
+     "G": 29,
+     "A": 33,
+     "P": 62,
+     "PIM": 68,
+     "PPG": 7,
+     "SHG": 2,
+     "GWG": 5,
+     "age": 26
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1955,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 41,
+     "P": 79,
+     "PIM": 100,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 27
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1956,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 44,
+     "A": 45,
+     "P": 89,
+     "PIM": 74,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 28
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1957,
+     "team": "DET",
+     "pos": "R",
+     "GP": 64,
+     "G": 33,
+     "A": 44,
+     "P": 77,
+     "PIM": 38,
+     "PPG": 10,
+     "SHG": 3,
+     "GWG": 7,
+     "age": 29
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1958,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 32,
+     "A": 46,
+     "P": 78,
+     "PIM": 57,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 30
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1959,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 28,
+     "A": 45,
+     "P": 73,
+     "PIM": 46,
+     "PM": 16,
+     "PPG": 5,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 354,
+     "age": 31
+    }
+   ],
+   "text": "Gordie Howe scored 28+ goals in 10 straight seasons (1950-51 to 1959-60), the longest run of the 1950s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 14,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1950s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1950,
+    1951,
+    1952,
+    1953,
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1950,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 43,
+     "P": 86,
+     "PIM": 74,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 9,
+     "age": 22
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1951,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 47,
+     "A": 39,
+     "P": 86,
+     "PIM": 78,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 10,
+     "age": 23
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1952,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 49,
+     "A": 46,
+     "P": 95,
+     "PIM": 57,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 6,
+     "age": 24
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1953,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 33,
+     "A": 48,
+     "P": 81,
+     "PIM": 109,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 25
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1954,
+     "team": "DET",
+     "pos": "R",
+     "GP": 64,
+     "G": 29,
+     "A": 33,
+     "P": 62,
+     "PIM": 68,
+     "PPG": 7,
+     "SHG": 2,
+     "GWG": 5,
+     "age": 26
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1955,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 41,
+     "P": 79,
+     "PIM": 100,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 27
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1956,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 44,
+     "A": 45,
+     "P": 89,
+     "PIM": 74,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 28
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1957,
+     "team": "DET",
+     "pos": "R",
+     "GP": 64,
+     "G": 33,
+     "A": 44,
+     "P": 77,
+     "PIM": 38,
+     "PPG": 10,
+     "SHG": 3,
+     "GWG": 7,
+     "age": 29
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1958,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 32,
+     "A": 46,
+     "P": 78,
+     "PIM": 57,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 30
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1959,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 28,
+     "A": 45,
+     "P": 73,
+     "PIM": 46,
+     "PM": 16,
+     "PPG": 5,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 354,
+     "age": 31
+    }
+   ],
+   "text": "Gordie Howe recorded 60+ points in 10 straight seasons (1950-51 to 1959-60), the longest run of the 1950s.",
+   "why": "The longest run of the 1950s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 15,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1951,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 67,
+     "G": 30,
+     "A": 24,
+     "P": 54,
+     "PIM": 66,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 7,
+     "age": 20
+    },
+    {
+     "id": 8445957,
+     "name": "Dick Duff",
+     "season": 1956,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 70,
+     "G": 26,
+     "A": 14,
+     "P": 40,
+     "PIM": 48,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.75,
+   "players": [
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion"
+    },
+    {
+     "id": 8445957,
+     "name": "Dick Duff"
+    }
+   ],
+   "seasons": [
+    1951,
+    1956
+   ],
+   "text": "Only two players of the 1950s scored 24 goals at age 20 or younger: Bernie Geoffrion (1951-52: 30 goals at 20); Dick Duff (1956-57: 26 goals at 20).",
+   "why": "Two names invite the \"whose season was better?\" argument. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 16,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 11,
+     "G": 1,
+     "A": 11,
+     "P": 12,
+     "PIM": 22,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 34
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1957,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 10,
+     "G": 2,
+     "A": 9,
+     "P": 11,
+     "PIM": 16,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 33
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1959,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 10,
+     "G": 3,
+     "A": 8,
+     "P": 11,
+     "PIM": 2,
+     "PM": 0,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 23,
+     "age": 32
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1954,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 12,
+     "G": 0,
+     "A": 8,
+     "P": 8,
+     "PIM": 6,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "pair",
+   "score": 8.3,
+   "players": [
+    {
+     "id": 8446728,
+     "name": "Doug Harvey"
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly"
+    }
+   ],
+   "seasons": [
+    1958,
+    1957,
+    1959,
+    1954
+   ],
+   "text": "Only two players of the 1950s recorded 8 points as a defenseman in one postseason: Doug Harvey (3×, best 1958-59: 12 points in 11 games); Red Kelly (1959-60: 11 points in 10 games).",
+   "why": "A club of two is a ready-made debate. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 17,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449244,
+     "name": "Jerry Toppazzini",
+     "season": 1957,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 64,
+     "G": 25,
+     "A": 24,
+     "P": 49,
+     "PIM": 51,
+     "PPG": 5,
+     "SHG": 8,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8448227,
+     "name": "Bob Pulford",
+     "season": 1959,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 70,
+     "G": 24,
+     "A": 28,
+     "P": 52,
+     "PIM": 81,
+     "PM": 7,
+     "PPG": 1,
+     "SHG": 6,
+     "GWG": 2,
+     "S": 231,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.2,
+   "players": [
+    {
+     "id": 8449244,
+     "name": "Jerry Toppazzini"
+    },
+    {
+     "id": 8448227,
+     "name": "Bob Pulford"
+    }
+   ],
+   "seasons": [
+    1957,
+    1959
+   ],
+   "text": "Only two players of the 1950s scored 6 shorthanded goals: Jerry Toppazzini (1957-58: 8 SHG); Bob Pulford (1959-60: 6 SHG).",
+   "why": "Two names invite the \"whose season was better?\" argument. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 18,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau"
+    }
+   ],
+   "seasons": [
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1954,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 37,
+     "A": 36,
+     "P": 73,
+     "PIM": 58,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 23
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 41,
+     "P": 88,
+     "PIM": 143,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 24
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 69,
+     "G": 33,
+     "A": 51,
+     "P": 84,
+     "PIM": 105,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1957,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 55,
+     "G": 27,
+     "A": 32,
+     "P": 59,
+     "PIM": 93,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 26
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 64,
+     "G": 45,
+     "A": 46,
+     "P": 91,
+     "PIM": 69,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 27
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1959,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 60,
+     "G": 34,
+     "A": 40,
+     "P": 74,
+     "PIM": 57,
+     "PM": 20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 285,
+     "age": 28
+    }
+   ],
+   "text": "Jean Beliveau averaged a point a game (60% of games) in 6 straight seasons (1954-55 to 1959-60), the longest run of the 1950s.",
+   "why": "The longest run of the 1950s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 19,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "1950s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    }
+   ],
+   "seasons": [
+    1954,
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1954,
+     "team": "MTL",
+     "GP": 52,
+     "A": 0,
+     "PIM": 2,
+     "W": 33,
+     "L": 12,
+     "T": 7,
+     "SO": 5,
+     "GAA": 2.12406,
+     "GA": 109
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1955,
+     "team": "MTL",
+     "GP": 64,
+     "A": 0,
+     "PIM": 10,
+     "W": 42,
+     "L": 12,
+     "T": 10,
+     "SO": 7,
+     "GAA": 1.85937,
+     "GA": 119
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1956,
+     "team": "MTL",
+     "GP": 61,
+     "A": 0,
+     "PIM": 16,
+     "W": 31,
+     "L": 18,
+     "T": 12,
+     "SO": 9,
+     "GAA": 2.00109,
+     "GA": 122
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1957,
+     "team": "MTL",
+     "GP": 57,
+     "A": 0,
+     "PIM": 13,
+     "W": 34,
+     "L": 14,
+     "T": 8,
+     "SO": 9,
+     "GAA": 2.10852,
+     "GA": 119
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1958,
+     "team": "MTL",
+     "GP": 67,
+     "A": 1,
+     "PIM": 11,
+     "W": 38,
+     "L": 16,
+     "T": 13,
+     "SO": 9,
+     "GAA": 2.16,
+     "GA": 144
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1959,
+     "team": "MTL",
+     "GP": 69,
+     "A": 0,
+     "PIM": 2,
+     "W": 40,
+     "L": 17,
+     "T": 12,
+     "SO": 3,
+     "GAA": 2.53623,
+     "GA": 175
+    }
+   ],
+   "text": "Jacques Plante won 30+ games in goal in 6 straight seasons (1954-55 to 1959-60), the longest run of the 1950s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 20,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1950,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 17,
+     "A": 37,
+     "P": 54,
+     "PIM": 24,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 23
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1955,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 9,
+     "A": 42,
+     "P": 51,
+     "PIM": 84,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 28
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1958,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 5,
+     "A": 46,
+     "P": 51,
+     "PIM": 56,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 0,
+     "age": 31
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1955,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 16,
+     "A": 34,
+     "P": 50,
+     "PIM": 39,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 28
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 70,
+     "G": 6,
+     "A": 44,
+     "P": 50,
+     "PIM": 100,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 32
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1953,
+     "team": "DET",
+     "pos": "D",
+     "GP": 62,
+     "G": 16,
+     "A": 33,
+     "P": 49,
+     "PIM": 18,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1954,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 70,
+     "G": 6,
+     "A": 43,
+     "P": 49,
+     "PIM": 58,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 30
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1951,
+     "team": "DET",
+     "pos": "D",
+     "GP": 67,
+     "G": 16,
+     "A": 31,
+     "P": 47,
+     "PIM": 16,
+     "PPG": 2,
+     "SHG": 2,
+     "GWG": 3,
+     "age": 24
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1952,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 19,
+     "A": 27,
+     "P": 46,
+     "PIM": 8,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1957,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 65,
+     "G": 14,
+     "A": 32,
+     "P": 46,
+     "PIM": 48,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 30
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1954,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 15,
+     "A": 30,
+     "P": 45,
+     "PIM": 28,
+     "PPG": 6,
+     "SHG": 3,
+     "GWG": 3,
+     "age": 27
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1959,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 7,
+     "A": 38,
+     "P": 45,
+     "PIM": 100,
+     "PM": 20,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 89,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "few",
+   "score": 7.35,
+   "players": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly"
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby"
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey"
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote"
+    }
+   ],
+   "seasons": [
+    1950,
+    1955,
+    1958,
+    1955,
+    1956,
+    1953,
+    1954,
+    1951,
+    1952,
+    1957,
+    1954,
+    1959
+   ],
+   "text": "Just four players of the 1950s recorded 45 points as a defenseman: Red Kelly (6×, best 1950-51: 54 points (17G, 37A)); Bill Gadsby (3×, best 1955-56: 51 points (9G, 42A)); Doug Harvey (2×, best 1956-57: 50 points (6G, 44A)); Pierre Pilote (1959-60: 45 points (7G, 38A)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 21,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins",
+     "season": 1953,
+     "team": "CHI",
+     "GP": 66,
+     "A": 0,
+     "PIM": 20,
+     "W": 12,
+     "L": 47,
+     "T": 7,
+     "SO": 5,
+     "GAA": 3.21394,
+     "GA": 212
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1951,
+     "team": "CHI",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 17,
+     "L": 44,
+     "T": 9,
+     "SO": 2,
+     "GAA": 3.40191,
+     "GA": 237
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1950,
+     "team": "CHI",
+     "GP": 64,
+     "A": 0,
+     "PIM": 4,
+     "W": 12,
+     "L": 41,
+     "T": 10,
+     "SO": 3,
+     "GAA": 3.88395,
+     "GA": 245
+    },
+    {
+     "id": 8450108,
+     "name": "Al Rollins",
+     "season": 1956,
+     "team": "CHI",
+     "GP": 70,
+     "A": 1,
+     "PIM": 9,
+     "W": 16,
+     "L": 39,
+     "T": 15,
+     "SO": 3,
+     "GAA": 3.20152,
+     "GA": 224
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "season": 1957,
+     "team": "CHI",
+     "GP": 70,
+     "A": 0,
+     "PIM": 10,
+     "W": 24,
+     "L": 39,
+     "T": 7,
+     "SO": 7,
+     "GAA": 2.85986,
+     "GA": 200
+    },
+    {
+     "id": 8449851,
+     "name": "Ed Chadwick",
+     "season": 1957,
+     "team": "TOR",
+     "GP": 70,
+     "A": 0,
+     "PIM": 0,
+     "W": 21,
+     "L": 38,
+     "T": 11,
+     "SO": 4,
+     "GAA": 3.1881,
+     "GA": 223
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 7.175,
+   "players": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins"
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley"
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall"
+    },
+    {
+     "id": 8449851,
+     "name": "Ed Chadwick"
+    }
+   ],
+   "seasons": [
+    1953,
+    1951,
+    1950,
+    1956,
+    1957,
+    1957
+   ],
+   "text": "Just four goalies of the 1950s lost 38 games: Al Rollins (2×, best 1953-54: 12-47-7); Harry Lumley (2×, best 1951-52: 17-44-9); Glenn Hall (1957-58: 24-39-7); Ed Chadwick (1957-58: 21-38-11).",
+   "why": "A short list fans can recite; each name brings its own fan base. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 22,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "1950s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato"
+    }
+   ],
+   "seasons": [
+    1955,
+    1956,
+    1957,
+    1958,
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1955,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 3,
+     "A": 15,
+     "P": 18,
+     "PIM": 206,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 24
+    },
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1956,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 3,
+     "A": 12,
+     "P": 15,
+     "PIM": 139,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 25
+    },
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1957,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 3,
+     "A": 8,
+     "P": 11,
+     "PIM": 152,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 26
+    },
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1958,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 64,
+     "G": 7,
+     "A": 6,
+     "P": 13,
+     "PIM": 149,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 27
+    },
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1959,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 64,
+     "G": 2,
+     "A": 11,
+     "P": 13,
+     "PIM": 134,
+     "PM": 4,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 67,
+     "age": 28
+    }
+   ],
+   "text": "Lou Fontinato racked up 105+ penalty minutes in 5 straight seasons (1955-56 to 1959-60), the longest run of the 1950s.",
+   "why": "The longest run of the 1950s; fans measure today's stars against it. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 23,
+   "rule": "t_ties",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1954,
+     "GP": 70,
+     "W": 24,
+     "L": 24,
+     "T": 22,
+     "GF": 147,
+     "GA": 135,
+     "PCT": 0.5
+    },
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers",
+     "season": 1950,
+     "GP": 70,
+     "W": 20,
+     "L": 29,
+     "T": 21,
+     "GF": 169,
+     "GA": 201,
+     "PCT": 0.43571
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1954,
+     "GP": 70,
+     "W": 23,
+     "L": 26,
+     "T": 21,
+     "GF": 169,
+     "GA": 188,
+     "PCT": 0.47857
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.55,
+   "players": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    },
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers"
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1954,
+    1950,
+    1954
+   ],
+   "text": "Just three teams of the 1950s tied 20 games: Toronto Maple Leafs (1954-55: 24-24-22); New York Rangers (1950-51: 20-29-21); Boston Bruins (1954-55: 23-26-21).",
+   "why": "A short list fans can recite; each name brings its own fan base. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 24,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1955,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 3,
+     "A": 15,
+     "P": 18,
+     "PIM": 206,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 24
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1958,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 70,
+     "G": 22,
+     "A": 36,
+     "P": 58,
+     "PIM": 184,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 33
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1955,
+     "team": "DET",
+     "pos": "L",
+     "GP": 67,
+     "G": 27,
+     "A": 23,
+     "P": 50,
+     "PIM": 161,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 30
+    },
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1957,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 3,
+     "A": 8,
+     "P": 11,
+     "PIM": 152,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 26
+    },
+    {
+     "id": 8446318,
+     "name": "Fern Flaman",
+     "season": 1954,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 70,
+     "G": 4,
+     "A": 14,
+     "P": 18,
+     "PIM": 150,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 28
+    },
+    {
+     "id": 8445696,
+     "name": "Carl Brewer",
+     "season": 1959,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 67,
+     "G": 4,
+     "A": 19,
+     "P": 23,
+     "PIM": 150,
+     "PM": 11,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 99,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 6.515,
+   "players": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato"
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay"
+    },
+    {
+     "id": 8446318,
+     "name": "Fern Flaman"
+    },
+    {
+     "id": 8445696,
+     "name": "Carl Brewer"
+    }
+   ],
+   "seasons": [
+    1955,
+    1958,
+    1955,
+    1957,
+    1954,
+    1959
+   ],
+   "text": "Just four players of the 1950s racked up 150 penalty minutes: Lou Fontinato (2×, best 1955-56: 206 PIM); Ted Lindsay (2×, best 1958-59: 184 PIM); Fern Flaman (1954-55: 150 PIM); Carl Brewer (1959-60: 150 PIM).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 25,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1953,
+     "team": "TOR",
+     "GP": 69,
+     "A": 0,
+     "PIM": 6,
+     "W": 32,
+     "L": 24,
+     "T": 13,
+     "SO": 13,
+     "GAA": 1.85507,
+     "GA": 128
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1951,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 44,
+     "L": 14,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.9,
+     "GA": 133
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1953,
+     "team": "DET",
+     "GP": 67,
+     "A": 1,
+     "PIM": 31,
+     "W": 35,
+     "L": 19,
+     "T": 13,
+     "SO": 12,
+     "GAA": 1.93309,
+     "GA": 129
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1954,
+     "team": "DET",
+     "GP": 68,
+     "A": 1,
+     "PIM": 10,
+     "W": 40,
+     "L": 17,
+     "T": 11,
+     "SO": 12,
+     "GAA": 1.96039,
+     "GA": 132
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "season": 1955,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 14,
+     "W": 30,
+     "L": 24,
+     "T": 16,
+     "SO": 12,
+     "GAA": 2.101,
+     "GA": 147
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1950,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 44,
+     "L": 13,
+     "T": 13,
+     "SO": 11,
+     "GAA": 1.97142,
+     "GA": 138
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1952,
+     "team": "TOR",
+     "GP": 70,
+     "A": 0,
+     "PIM": 16,
+     "W": 27,
+     "L": 30,
+     "T": 13,
+     "SO": 10,
+     "GAA": 2.34285,
+     "GA": 164
+    },
+    {
+     "id": 8450041,
+     "name": "Gerry McNeil",
+     "season": 1952,
+     "team": "MTL",
+     "GP": 66,
+     "A": 0,
+     "PIM": 0,
+     "W": 25,
+     "L": 23,
+     "T": 18,
+     "SO": 10,
+     "GAA": 2.0909,
+     "GA": 138
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 6.325,
+   "players": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley"
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall"
+    },
+    {
+     "id": 8450041,
+     "name": "Gerry McNeil"
+    }
+   ],
+   "seasons": [
+    1953,
+    1951,
+    1953,
+    1954,
+    1955,
+    1950,
+    1952,
+    1952
+   ],
+   "text": "Just four goalies of the 1950s recorded 10 shutouts: Harry Lumley (2×, best 1953-54: 13 shutouts in 69 games); Terry Sawchuk (4×, best 1951-52: 12 shutouts in 70 games); Glenn Hall (1955-56: 12 shutouts in 70 games); Gerry McNeil (1952-53: 10 shutouts in 66 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 26,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 10,
+     "G": 12,
+     "A": 7,
+     "P": 19,
+     "PIM": 22,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 24
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 10,
+     "G": 11,
+     "A": 7,
+     "P": 18,
+     "PIM": 2,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 25
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1957,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 10,
+     "G": 11,
+     "A": 4,
+     "P": 15,
+     "PIM": 10,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 36
+    },
+    {
+     "id": 8445116,
+     "name": "Marcel Bonin",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 11,
+     "G": 10,
+     "A": 5,
+     "P": 15,
+     "PIM": 4,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.3,
+   "players": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau"
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion"
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    },
+    {
+     "id": 8445116,
+     "name": "Marcel Bonin"
+    }
+   ],
+   "seasons": [
+    1955,
+    1956,
+    1957,
+    1958
+   ],
+   "text": "Just four players of the 1950s scored 10 goals in one postseason: Jean Beliveau (1955-56: 12 goals in 10 games); Bernie Geoffrion (1956-57: 11 goals in 10 games); Maurice Richard (1957-58: 11 goals in 10 games); Marcel Bonin (1958-59: 10 goals in 11 games).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 27,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins",
+     "season": 1950,
+     "team": "TOR",
+     "GP": 40,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 6,
+     "T": 7,
+     "SO": 5,
+     "GAA": 1.77452,
+     "GA": 70
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1953,
+     "team": "TOR",
+     "GP": 69,
+     "A": 0,
+     "PIM": 6,
+     "W": 32,
+     "L": 24,
+     "T": 13,
+     "SO": 13,
+     "GAA": 1.85507,
+     "GA": 128
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "season": 1955,
+     "team": "MTL",
+     "GP": 64,
+     "A": 0,
+     "PIM": 10,
+     "W": 42,
+     "L": 12,
+     "T": 10,
+     "SO": 7,
+     "GAA": 1.85937,
+     "GA": 119
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1952,
+     "team": "DET",
+     "GP": 63,
+     "A": 0,
+     "PIM": 7,
+     "W": 32,
+     "L": 15,
+     "T": 16,
+     "SO": 9,
+     "GAA": 1.88888,
+     "GA": 119
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1951,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 44,
+     "L": 14,
+     "T": 12,
+     "SO": 12,
+     "GAA": 1.9,
+     "GA": 133
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1954,
+     "team": "TOR",
+     "GP": 69,
+     "A": 0,
+     "PIM": 9,
+     "W": 23,
+     "L": 24,
+     "T": 22,
+     "SO": 8,
+     "GAA": 1.91443,
+     "GA": 132
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1953,
+     "team": "DET",
+     "GP": 67,
+     "A": 1,
+     "PIM": 31,
+     "W": 35,
+     "L": 19,
+     "T": 13,
+     "SO": 12,
+     "GAA": 1.93309,
+     "GA": 129
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1954,
+     "team": "DET",
+     "GP": 68,
+     "A": 1,
+     "PIM": 10,
+     "W": 40,
+     "L": 17,
+     "T": 11,
+     "SO": 12,
+     "GAA": 1.96039,
+     "GA": 132
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1950,
+     "team": "DET",
+     "GP": 70,
+     "A": 0,
+     "PIM": 2,
+     "W": 44,
+     "L": 13,
+     "T": 13,
+     "SO": 11,
+     "GAA": 1.97142,
+     "GA": 138
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "few",
+   "score": 6.140883168406104,
+   "players": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins"
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley"
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante"
+    },
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    }
+   ],
+   "seasons": [
+    1950,
+    1953,
+    1955,
+    1952,
+    1951,
+    1954,
+    1953,
+    1954,
+    1950
+   ],
+   "text": "Just four goalies of the 1950s posted a goals-against average under 2.00 (40% of games): Al Rollins (1950-51: 1.77 GAA in 40 games); Harry Lumley (2×, best 1953-54: 1.86 GAA in 69 games); Jacques Plante (1955-56: 1.86 GAA in 64 games); Terry Sawchuk (5×, best 1952-53: 1.89 GAA in 63 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 28,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1953,
+     "GP": 70,
+     "W": 32,
+     "L": 24,
+     "T": 14,
+     "GF": 152,
+     "GA": 131,
+     "PCT": 0.55714
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1955,
+     "GP": 70,
+     "W": 45,
+     "L": 15,
+     "T": 10,
+     "GF": 222,
+     "GA": 131,
+     "PCT": 0.71428
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1953,
+     "GP": 70,
+     "W": 37,
+     "L": 19,
+     "T": 14,
+     "GF": 191,
+     "GA": 132,
+     "PCT": 0.62857
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1951,
+     "GP": 70,
+     "W": 44,
+     "L": 14,
+     "T": 12,
+     "GF": 215,
+     "GA": 133,
+     "PCT": 0.71428
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1952,
+     "GP": 70,
+     "W": 36,
+     "L": 16,
+     "T": 18,
+     "GF": 222,
+     "GA": 133,
+     "PCT": 0.64285
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1954,
+     "GP": 70,
+     "W": 42,
+     "L": 17,
+     "T": 11,
+     "GF": 204,
+     "GA": 134,
+     "PCT": 0.67857
+    },
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1954,
+     "GP": 70,
+     "W": 24,
+     "L": 24,
+     "T": 22,
+     "GF": 147,
+     "GA": 135,
+     "PCT": 0.5
+    },
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1950,
+     "GP": 70,
+     "W": 41,
+     "L": 16,
+     "T": 13,
+     "GF": 212,
+     "GA": 138,
+     "PCT": 0.67857
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1950,
+     "GP": 70,
+     "W": 44,
+     "L": 13,
+     "T": 13,
+     "GF": 236,
+     "GA": 139,
+     "PCT": 0.72142
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1953,
+     "GP": 70,
+     "W": 35,
+     "L": 24,
+     "T": 11,
+     "GF": 195,
+     "GA": 141,
+     "PCT": 0.57857
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1952,
+     "GP": 70,
+     "W": 28,
+     "L": 23,
+     "T": 19,
+     "GF": 155,
+     "GA": 148,
+     "PCT": 0.53571
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1955,
+     "GP": 70,
+     "W": 30,
+     "L": 24,
+     "T": 16,
+     "GF": 183,
+     "GA": 148,
+     "PCT": 0.54285
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "few",
+   "score": 6.133587786259542,
+   "players": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    1953,
+    1955,
+    1953,
+    1951,
+    1952,
+    1954,
+    1954,
+    1950,
+    1950,
+    1953,
+    1952,
+    1955
+   ],
+   "text": "Just three teams of the 1950s allowed fewer than 2.2 goals a game: Toronto Maple Leafs (3×, best 1953-54: 1.87 per game); Montréal Canadiens (3×, best 1955-56: 1.87 per game); Detroit Red Wings (6×, best 1953-54: 1.89 per game).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447886,
+     "name": "Dickie Moore"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447886,
+     "name": "Dickie Moore",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 41,
+     "A": 55,
+     "P": 96,
+     "PIM": 61,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 7,
+     "age": 28
+    }
+   ],
+   "among": 1391,
+   "text": "Most points in a season in the 1950s: Dickie Moore, 1958-59 — 96 (41G, 55A).",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 14,
+     "A": 56,
+     "P": 70,
+     "PIM": 99,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 29
+    }
+   ],
+   "among": 1391,
+   "text": "Most assists in a season in the 1950s: Bert Olmstead, 1955-56 — 56.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "season": 1955,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 3,
+     "A": 15,
+     "P": 18,
+     "PIM": 206,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 24
+    }
+   ],
+   "among": 1391,
+   "text": "Most penalty minutes in a season in the 1950s: Lou Fontinato, 1955-56 — 206.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_shg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449244,
+     "name": "Jerry Toppazzini"
+    }
+   ],
+   "seasons": [
+    1957
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449244,
+     "name": "Jerry Toppazzini",
+     "season": 1957,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 64,
+     "G": 25,
+     "A": 24,
+     "P": 49,
+     "PIM": 51,
+     "PPG": 5,
+     "SHG": 8,
+     "GWG": 2,
+     "age": 26
+    }
+   ],
+   "among": 1391,
+   "text": "Most shorthanded goals in a season in the 1950s: Jerry Toppazzini, 1957-58 — 8.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 33,
+     "P": 71,
+     "PIM": 89,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 12,
+     "age": 34
+    }
+   ],
+   "among": 1391,
+   "text": "Most game-winning goals in a season in the 1950s: Maurice Richard, 1955-56 — 12.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "x_pm",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446728,
+     "name": "Doug Harvey"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1959,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 66,
+     "G": 6,
+     "A": 21,
+     "P": 27,
+     "PIM": 45,
+     "PM": 37,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 86,
+     "age": 35
+    }
+   ],
+   "among": 138,
+   "text": "Best plus-minus in a season in the 1950s: Doug Harvey, 1959-60 — +37.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1959,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 65,
+     "G": 9,
+     "A": 22,
+     "P": 31,
+     "PIM": 60,
+     "PM": -31,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 111,
+     "age": 32
+    }
+   ],
+   "among": 138,
+   "text": "Worst plus-minus in a season in the 1950s: Bill Gadsby, 1959-60 — -31.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449176,
+     "name": "Vic Stasiuk"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449176,
+     "name": "Vic Stasiuk",
+     "season": 1959,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 69,
+     "G": 29,
+     "A": 39,
+     "P": 68,
+     "PIM": 121,
+     "PM": -4,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 162,
+     "age": 30
+    }
+   ],
+   "among": 31,
+   "text": "Best shooting percentage in a season (150+ shots) in the 1950s: Vic Stasiuk, 1959-60 — 17.9%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 64,
+     "G": 45,
+     "A": 46,
+     "P": 91,
+     "PIM": 69,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 27
+    }
+   ],
+   "among": 903,
+   "text": "Most points per game in a season (60% of games) in the 1950s: Jean Beliveau, 1958-59 — 1.42.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446840,
+     "name": "Wally Hergesheimer"
+    }
+   ],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446840,
+     "name": "Wally Hergesheimer",
+     "season": 1951,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 68,
+     "G": 26,
+     "A": 12,
+     "P": 38,
+     "PIM": 6,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 25
+    }
+   ],
+   "among": 265,
+   "text": "Most goals in a first NHL season in the 1950s: Wally Hergesheimer, 1951-52 — 26.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446749,
+     "name": "Bill Hay"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446749,
+     "name": "Bill Hay",
+     "season": 1959,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 70,
+     "G": 18,
+     "A": 37,
+     "P": 55,
+     "PIM": 29,
+     "PM": 17,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 149,
+     "age": 24
+    }
+   ],
+   "among": 265,
+   "text": "Most points in a first NHL season in the 1950s: Bill Hay, 1959-60 — 55.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1953,
+     "team": "TOR",
+     "GP": 69,
+     "A": 0,
+     "PIM": 6,
+     "W": 32,
+     "L": 24,
+     "T": 13,
+     "SO": 13,
+     "GAA": 1.85507,
+     "GA": 128
+    }
+   ],
+   "among": 126,
+   "text": "Most shutouts in a season in the 1950s: Harry Lumley, 1953-54 — 13.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins"
+    }
+   ],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins",
+     "season": 1950,
+     "team": "TOR",
+     "GP": 40,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 6,
+     "T": 7,
+     "SO": 5,
+     "GAA": 1.77452,
+     "GA": 70
+    }
+   ],
+   "among": 64,
+   "text": "Best goals-against average in a season (40% of games) in the 1950s: Al Rollins, 1950-51 — 1.77.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450108,
+     "name": "Al Rollins",
+     "season": 1953,
+     "team": "CHI",
+     "GP": 66,
+     "A": 0,
+     "PIM": 20,
+     "W": 12,
+     "L": 47,
+     "T": 7,
+     "SO": 5,
+     "GAA": 3.21394,
+     "GA": 212
+    }
+   ],
+   "among": 126,
+   "text": "Most losses by a goalie in a season in the 1950s: Al Rollins, 1953-54 — 47.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1950,
+     "GP": 70,
+     "W": 44,
+     "L": 13,
+     "T": 13,
+     "GF": 236,
+     "GA": 139,
+     "PCT": 0.72142
+    }
+   ],
+   "among": 60,
+   "text": "Best points percentage in a season in the 1950s: Detroit Red Wings, 1950-51 — .721 (44-13-13).",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1953,
+     "GP": 70,
+     "W": 12,
+     "L": 51,
+     "T": 7,
+     "GF": 133,
+     "GA": 242,
+     "PCT": 0.22142
+    }
+   ],
+   "among": 60,
+   "text": "Worst points percentage in a season in the 1950s: Chicago Blackhawks, 1953-54 — .221 (12-51-7).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1958,
+     "GP": 70,
+     "W": 39,
+     "L": 18,
+     "T": 13,
+     "GF": 258,
+     "GA": 158,
+     "PCT": 0.65
+    }
+   ],
+   "among": 60,
+   "text": "Most goals per game by a team in the 1950s: Montréal Canadiens, 1958-59 — 3.69 (258 in 70).",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1952
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1952,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 49,
+     "A": 46,
+     "P": 95,
+     "PIM": 57,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 6,
+     "age": 24
+    }
+   ],
+   "among": 1391,
+   "text": "Most goals in a season in the 1950s: Gordie Howe, 1952-53 — 49 in 70 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1959,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 28,
+     "A": 45,
+     "P": 73,
+     "PIM": 46,
+     "PM": 16,
+     "PPG": 5,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 354,
+     "age": 31
+    }
+   ],
+   "among": 138,
+   "text": "Most shots in a season in the 1950s: Gordie Howe, 1959-60 — 354.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly"
+    }
+   ],
+   "seasons": [
+    1950
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1950,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 17,
+     "A": 37,
+     "P": 54,
+     "PIM": 24,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 23
+    }
+   ],
+   "among": 419,
+   "text": "Most points by a defenseman in a season in the 1950s: Red Kelly, 1950-51 — 54.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly"
+    }
+   ],
+   "seasons": [
+    1952
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "season": 1952,
+     "team": "DET",
+     "pos": "D",
+     "GP": 70,
+     "G": 19,
+     "A": 27,
+     "P": 46,
+     "PIM": 8,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    }
+   ],
+   "among": 419,
+   "text": "Most goals by a defenseman in a season in the 1950s: Red Kelly, 1952-53 — 19.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 64,
+     "G": 45,
+     "A": 46,
+     "P": 91,
+     "PIM": 69,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 27
+    }
+   ],
+   "among": 903,
+   "text": "Most goals per game in a season (60% of games) in the 1950s: Jean Beliveau, 1958-59 — 0.70.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1958,
+     "GP": 70,
+     "W": 39,
+     "L": 18,
+     "T": 13,
+     "GF": 258,
+     "GA": 158,
+     "PCT": 0.65
+    }
+   ],
+   "among": 60,
+   "text": "Best goal differential in a season in the 1950s: Montréal Canadiens, 1958-59 — +100.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1954
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1954,
+     "team": "DET",
+     "pos": "R",
+     "GP": 11,
+     "G": 9,
+     "A": 11,
+     "P": 20,
+     "PIM": 24,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 26
+    }
+   ],
+   "among": 712,
+   "text": "Most points in a single postseason in the 1950s: Gordie Howe, 1954-55 — 20 in 11 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 10,
+     "G": 12,
+     "A": 7,
+     "P": 19,
+     "PIM": 22,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 24
+    }
+   ],
+   "among": 712,
+   "text": "Most goals in a single postseason in the 1950s: Jean Beliveau, 1955-56 — 12 in 10 games.",
+   "why": "The high-water mark of the 1950s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "pogx_so",
+   "group": "P",
+   "decade": "1950s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    }
+   ],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "season": 1951,
+     "team": "DET",
+     "GP": 8,
+     "A": 0,
+     "PIM": 0,
+     "W": 8,
+     "L": 0,
+     "T": 0,
+     "SO": 4,
+     "GAA": 0.625,
+     "GA": 5
+    }
+   ],
+   "among": 50,
+   "text": "Most shutouts in a single postseason in the 1950s: Terry Sawchuk, 1951-52 — 4.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 55,
+   "kind": "nearmiss",
+   "rule": "n_g29",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5.75,
+   "players": [
+    {
+     "id": 8447474,
+     "name": "Danny Lewicki"
+    },
+    {
+     "id": 8447886,
+     "name": "Dickie Moore"
+    },
+    {
+     "id": 8445957,
+     "name": "Dick Duff"
+    }
+   ],
+   "seasons": [
+    1954,
+    1956,
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447474,
+     "name": "Danny Lewicki",
+     "season": 1954,
+     "team": "NYR",
+     "pos": "L",
+     "GP": 70,
+     "G": 29,
+     "A": 24,
+     "P": 53,
+     "PIM": 8,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 23
+    },
+    {
+     "id": 8447886,
+     "name": "Dickie Moore",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 29,
+     "A": 29,
+     "P": 58,
+     "PIM": 56,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 10,
+     "age": 26
+    },
+    {
+     "id": 8445957,
+     "name": "Dick Duff",
+     "season": 1958,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 69,
+     "G": 29,
+     "A": 24,
+     "P": 53,
+     "PIM": 71,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 5,
+     "age": 22
+    },
+    {
+     "id": 8449176,
+     "name": "Vic Stasiuk",
+     "season": 1959,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 69,
+     "G": 29,
+     "A": 39,
+     "P": 68,
+     "PIM": 121,
+     "PM": -4,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 162,
+     "age": 30
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1954,
+     "team": "DET",
+     "pos": "R",
+     "GP": 64,
+     "G": 29,
+     "A": 33,
+     "P": 62,
+     "PIM": 68,
+     "PPG": 7,
+     "SHG": 2,
+     "GWG": 5,
+     "age": 26
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 59,
+     "G": 29,
+     "A": 33,
+     "P": 62,
+     "PIM": 66,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 24
+    }
+   ],
+   "text": "7 player-seasons of the 1950s ended on exactly 29 goals, one short of 30 — among them Danny Lewicki (1954-55), Dickie Moore (1956-57), Dick Duff (1958-59).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 56,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 41,
+     "P": 88,
+     "PIM": 143,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 24
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1956,
+     "team": "DET",
+     "pos": "L",
+     "GP": 70,
+     "G": 30,
+     "A": 55,
+     "P": 85,
+     "PIM": 103,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 31
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 69,
+     "G": 33,
+     "A": 51,
+     "P": 84,
+     "PIM": 105,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1953,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 33,
+     "A": 48,
+     "P": 81,
+     "PIM": 109,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 25
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1955,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 41,
+     "P": 79,
+     "PIM": 100,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 27
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1954,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 67,
+     "G": 38,
+     "A": 36,
+     "P": 74,
+     "PIM": 125,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 5.2,
+   "players": [
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "10 players recorded 48 points and 90 penalty minutes in the 1950s (24 seasons). The most extreme: Jean Beliveau, 1955-56 — 88 pts, 143 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 57,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 1188,
+     "seasons": 10
+    },
+    {
+     "id": 8446318,
+     "name": "Fern Flaman",
+     "total": 1019,
+     "seasons": 10
+    },
+    {
+     "id": 8447899,
+     "name": "Gus Mortson",
+     "total": 917,
+     "seasons": 9
+    },
+    {
+     "id": 8446343,
+     "name": "Lou Fontinato",
+     "total": 840,
+     "seasons": 6
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "total": 808,
+     "seasons": 10
+    }
+   ],
+   "text": "Most penalty minutes of the 1950s: Ted Lindsay, 1,188.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 58,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 4
+    },
+    {
+     "season": 1951,
+     "count": 4
+    },
+    {
+     "season": 1952,
+     "count": 3
+    },
+    {
+     "season": 1953,
+     "count": 2
+    },
+    {
+     "season": 1954,
+     "count": 4
+    },
+    {
+     "season": 1955,
+     "count": 4
+    },
+    {
+     "season": 1956,
+     "count": 6
+    },
+    {
+     "season": 1957,
+     "count": 6
+    },
+    {
+     "season": 1958,
+     "count": 7
+    },
+    {
+     "season": 1959,
+     "count": 6
+    }
+   ],
+   "text": "1958-59 had 7 30-goal scorers, the most of any season in the 1950s.",
+   "why": "The peak year for this across the 1950s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 59,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1953
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 4
+    },
+    {
+     "season": 1951,
+     "count": 4
+    },
+    {
+     "season": 1952,
+     "count": 3
+    },
+    {
+     "season": 1953,
+     "count": 2
+    },
+    {
+     "season": 1954,
+     "count": 4
+    },
+    {
+     "season": 1955,
+     "count": 4
+    },
+    {
+     "season": 1956,
+     "count": 6
+    },
+    {
+     "season": 1957,
+     "count": 6
+    },
+    {
+     "season": 1958,
+     "count": 7
+    },
+    {
+     "season": 1959,
+     "count": 6
+    }
+   ],
+   "text": "1953-54 had just 2 30-goal scorers, the fewest of any season in the 1950s.",
+   "why": "The low point of the 1950s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 60,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1958
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 6
+    },
+    {
+     "season": 1951,
+     "count": 4
+    },
+    {
+     "season": 1952,
+     "count": 3
+    },
+    {
+     "season": 1953,
+     "count": 3
+    },
+    {
+     "season": 1954,
+     "count": 6
+    },
+    {
+     "season": 1955,
+     "count": 7
+    },
+    {
+     "season": 1956,
+     "count": 7
+    },
+    {
+     "season": 1957,
+     "count": 7
+    },
+    {
+     "season": 1958,
+     "count": 12
+    },
+    {
+     "season": 1959,
+     "count": 11
+    }
+   ],
+   "text": "1958-59 had 12 60-point players, the most of any season in the 1950s.",
+   "why": "The peak year for this across the 1950s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 61,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1959
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 2
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 2
+    },
+    {
+     "season": 1953,
+     "count": 2
+    },
+    {
+     "season": 1954,
+     "count": 3
+    },
+    {
+     "season": 1955,
+     "count": 5
+    },
+    {
+     "season": 1956,
+     "count": 4
+    },
+    {
+     "season": 1957,
+     "count": 6
+    },
+    {
+     "season": 1958,
+     "count": 7
+    },
+    {
+     "season": 1959,
+     "count": 8
+    }
+   ],
+   "text": "1959-60 had 8 point-a-game players (60% of games), the most of any season in the 1950s.",
+   "why": "The peak year for this across the 1950s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 62,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1951
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 2
+    },
+    {
+     "season": 1951,
+     "count": 1
+    },
+    {
+     "season": 1952,
+     "count": 2
+    },
+    {
+     "season": 1953,
+     "count": 2
+    },
+    {
+     "season": 1954,
+     "count": 3
+    },
+    {
+     "season": 1955,
+     "count": 5
+    },
+    {
+     "season": 1956,
+     "count": 4
+    },
+    {
+     "season": 1957,
+     "count": 6
+    },
+    {
+     "season": 1958,
+     "count": 7
+    },
+    {
+     "season": 1959,
+     "count": 8
+    }
+   ],
+   "text": "1951-52 had just one point-a-game player (60% of games), the fewest of any season in the 1950s.",
+   "why": "The low point of the 1950s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 63,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1956
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1950,
+     "count": 1
+    },
+    {
+     "season": 1951,
+     "count": 2
+    },
+    {
+     "season": 1952,
+     "count": 1
+    },
+    {
+     "season": 1953,
+     "count": 2
+    },
+    {
+     "season": 1954,
+     "count": 2
+    },
+    {
+     "season": 1955,
+     "count": 1
+    },
+    {
+     "season": 1956,
+     "count": 0
+    },
+    {
+     "season": 1957,
+     "count": 2
+    },
+    {
+     "season": 1958,
+     "count": 1
+    },
+    {
+     "season": 1959,
+     "count": 1
+    }
+   ],
+   "text": "1956-57 had no defensemen with 11+ goals at all — the only season of the 1950s without one.",
+   "why": "The low point of the 1950s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "tt_pm",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446728,
+     "name": "Doug Harvey"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "total": 37,
+     "seasons": 1
+    },
+    {
+     "id": 8447322,
+     "name": "Al Langlois",
+     "total": 32,
+     "seasons": 1
+    },
+    {
+     "id": 8445116,
+     "name": "Marcel Bonin",
+     "total": 28,
+     "seasons": 1
+    },
+    {
+     "id": 8447886,
+     "name": "Dickie Moore",
+     "total": 27,
+     "seasons": 1
+    },
+    {
+     "id": 8448108,
+     "name": "Bobby Hull",
+     "total": 27,
+     "seasons": 1
+    }
+   ],
+   "text": "Best combined plus-minus of the 1950s: Doug Harvey, +37.",
+   "why": "A decade-long view that settles consistency debates. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "total": 407,
+     "seasons": 10
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "total": 360,
+     "seasons": 10
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "total": 339,
+     "seasons": 10
+    },
+    {
+     "id": 8449155,
+     "name": "Allan Stanley",
+     "total": 221,
+     "seasons": 10
+    },
+    {
+     "id": 8448214,
+     "name": "Marcel Pronovost",
+     "total": 213,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points by a defenseman in the 1950s: Red Kelly, 407.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 376,
+     "seasons": 10
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 294,
+     "seasons": 10
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "total": 254,
+     "seasons": 10
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 242,
+     "seasons": 9
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 232,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goals of the 1950s: Gordie Howe, 376 (next: Maurice Richard, 294).",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 806,
+     "seasons": 10
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 557,
+     "seasons": 10
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 552,
+     "seasons": 10
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "total": 525,
+     "seasons": 10
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 510,
+     "seasons": 9
+    }
+   ],
+   "text": "Most points of the 1950s: Gordie Howe, 806 (next: Ted Lindsay, 557).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 430,
+     "seasons": 10
+    },
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead",
+     "total": 333,
+     "seasons": 10
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 325,
+     "seasons": 10
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "total": 301,
+     "seasons": 10
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "total": 271,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 1950s: Gordie Howe, 430.",
+   "why": "A decade-long view that settles consistency debates. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 69,
+     "seasons": 10
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "total": 47,
+     "seasons": 10
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 43,
+     "seasons": 9
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 42,
+     "seasons": 10
+    },
+    {
+     "id": 8447886,
+     "name": "Dickie Moore",
+     "total": 40,
+     "seasons": 9
+    }
+   ],
+   "text": "Most game-winning goals of the 1950s: Gordie Howe, 69.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "tt_ppg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 95,
+     "seasons": 10
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 93,
+     "seasons": 10
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 80,
+     "seasons": 9
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "total": 75,
+     "seasons": 10
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 71,
+     "seasons": 10
+    }
+   ],
+   "text": "Most power-play goals of the 1950s: Gordie Howe, 95.",
+   "why": "A decade-long view that settles consistency debates. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 688,
+     "seasons": 10
+    },
+    {
+     "id": 8447101,
+     "name": "Tom Johnson",
+     "total": 682,
+     "seasons": 10
+    },
+    {
+     "id": 8447149,
+     "name": "Red Kelly",
+     "total": 675,
+     "seasons": 10
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "total": 672,
+     "seasons": 10
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 669,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1950s: Gordie Howe, 688.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 72,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 8,
+     "seasons": 8
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 3,
+     "seasons": 3
+    }
+   ],
+   "text": "Most 30-goal seasons in the 1950s: Gordie Howe, 8.",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "total": 10,
+     "seasons": 10
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8445032,
+     "name": "Andy Bathgate",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "total": 4,
+     "seasons": 4
+    }
+   ],
+   "text": "Most 60-point seasons in the 1950s: Gordie Howe, 10.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "total": 311,
+     "seasons": 10
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "total": 227,
+     "seasons": 8
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "total": 167,
+     "seasons": 9
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "total": 154,
+     "seasons": 7
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "total": 140,
+     "seasons": 7
+    }
+   ],
+   "text": "Most goalie wins of the 1950s: Terry Sawchuk, 311.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "total": 80,
+     "seasons": 10
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "total": 47,
+     "seasons": 8
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "total": 45,
+     "seasons": 9
+    },
+    {
+     "id": 8449988,
+     "name": "Glenn Hall",
+     "total": 31,
+     "seasons": 7
+    },
+    {
+     "id": 8450041,
+     "name": "Gerry McNeil",
+     "total": 27,
+     "seasons": 5
+    }
+   ],
+   "text": "Most shutouts of the 1950s: Terry Sawchuk, 80.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1950s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450111,
+     "name": "Terry Sawchuk",
+     "total": 635,
+     "seasons": 10
+    },
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "total": 478,
+     "seasons": 9
+    },
+    {
+     "id": 8450108,
+     "name": "Al Rollins",
+     "total": 428,
+     "seasons": 8
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "total": 396,
+     "seasons": 7
+    },
+    {
+     "id": 8450066,
+     "name": "Jacques Plante",
+     "total": 390,
+     "seasons": 8
+    }
+   ],
+   "text": "Most games in goal in the 1950s: Terry Sawchuk, 635.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 77,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446760,
+     "name": "Andy Hebenton",
+     "season": 1958,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 70,
+     "G": 33,
+     "A": 29,
+     "P": 62,
+     "PIM": 8,
+     "PPG": 15,
+     "SHG": 1,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8446840,
+     "name": "Wally Hergesheimer",
+     "season": 1952,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 70,
+     "G": 30,
+     "A": 29,
+     "P": 59,
+     "PIM": 10,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 26
+    },
+    {
+     "id": 8446784,
+     "name": "Camille Henry",
+     "season": 1958,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 70,
+     "G": 23,
+     "A": 35,
+     "P": 58,
+     "PIM": 2,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 26
+    },
+    {
+     "id": 8449084,
+     "name": "Sid Smith",
+     "season": 1951,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 70,
+     "G": 27,
+     "A": 30,
+     "P": 57,
+     "PIM": 6,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 6,
+     "age": 26
+    },
+    {
+     "id": 8448305,
+     "name": "Dutch Reibel",
+     "season": 1955,
+     "team": "DET",
+     "pos": "C",
+     "GP": 68,
+     "G": 17,
+     "A": 39,
+     "P": 56,
+     "PIM": 10,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 25
+    },
+    {
+     "id": 8446784,
+     "name": "Camille Henry",
+     "season": 1957,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 70,
+     "G": 32,
+     "A": 24,
+     "P": 56,
+     "PIM": 0,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 4.55,
+   "players": [
+    {
+     "id": 8446760,
+     "name": "Andy Hebenton"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "text": "8 players recorded 48 points with 10 or fewer penalty minutes in the 1950s (10 seasons). The most extreme: Andy Hebenton, 1958-59 — 62 pts, 8 PIM.",
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 78,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 14,
+     "A": 56,
+     "P": 70,
+     "PIM": 99,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 29
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1956,
+     "team": "DET",
+     "pos": "L",
+     "GP": 70,
+     "G": 30,
+     "A": 55,
+     "P": 85,
+     "PIM": 103,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 31
+    },
+    {
+     "id": 8447886,
+     "name": "Dickie Moore",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 41,
+     "A": 55,
+     "P": 96,
+     "PIM": 61,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 7,
+     "age": 28
+    },
+    {
+     "id": 8448320,
+     "name": "Henri Richard",
+     "season": 1957,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 67,
+     "G": 28,
+     "A": 52,
+     "P": 80,
+     "PIM": 58,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 21
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 69,
+     "G": 33,
+     "A": 51,
+     "P": 84,
+     "PIM": 105,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "season": 1951,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 15,
+     "A": 50,
+     "P": 65,
+     "PIM": 36,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 34
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 4.4,
+   "players": [
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "7 players recorded 50 assists in the 1950s. The most extreme: Bert Olmstead, 1955-56 — 56 assists.",
+   "why": "Leads with the most extreme case, which carries the post. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 79,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 14,
+     "A": 56,
+     "P": 70,
+     "PIM": 99,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 29
+    },
+    {
+     "id": 8447271,
+     "name": "Elmer Lach",
+     "season": 1951,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 15,
+     "A": 50,
+     "P": 65,
+     "PIM": 36,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 34
+    },
+    {
+     "id": 8447792,
+     "name": "Don McKenney",
+     "season": 1959,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 70,
+     "G": 20,
+     "A": 49,
+     "P": 69,
+     "PIM": 28,
+     "PM": -18,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 182,
+     "age": 25
+    },
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead",
+     "season": 1954,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 10,
+     "A": 48,
+     "P": 58,
+     "PIM": 103,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 28
+    },
+    {
+     "id": 8445032,
+     "name": "Andy Bathgate",
+     "season": 1955,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 70,
+     "G": 19,
+     "A": 47,
+     "P": 66,
+     "PIM": 59,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 23
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1958,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 5,
+     "A": 46,
+     "P": 51,
+     "PIM": 56,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 0,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 4.4,
+   "players": [
+    {
+     "id": 8448057,
+     "name": "Bert Olmstead"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "12 players recorded 40 assists with twice as many assists as goals in the 1950s (17 seasons). The most extreme: Bert Olmstead, 1955-56 — 56A, 14G.",
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 80,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1955,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 70,
+     "G": 9,
+     "A": 42,
+     "P": 51,
+     "PIM": 84,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 28
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 70,
+     "G": 6,
+     "A": 44,
+     "P": 50,
+     "PIM": 100,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 32
+    },
+    {
+     "id": 8448152,
+     "name": "Pierre Pilote",
+     "season": 1959,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 7,
+     "A": 38,
+     "P": 45,
+     "PIM": 100,
+     "PM": 20,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 89,
+     "age": 28
+    },
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby",
+     "season": 1953,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 70,
+     "G": 12,
+     "A": 29,
+     "P": 41,
+     "PIM": 108,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8446728,
+     "name": "Doug Harvey",
+     "season": 1957,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 68,
+     "G": 9,
+     "A": 32,
+     "P": 41,
+     "PIM": 131,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 33
+    },
+    {
+     "id": 8447101,
+     "name": "Tom Johnson",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 70,
+     "G": 10,
+     "A": 29,
+     "P": 39,
+     "PIM": 76,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 2,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 4.275,
+   "players": [
+    {
+     "id": 8446513,
+     "name": "Bill Gadsby"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "10 players recorded 27 points and 75 penalty minutes as a defenseman in the 1950s (17 seasons). The most extreme: Bill Gadsby, 1955-56 — 51 pts, 84 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 81,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1952,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 49,
+     "A": 46,
+     "P": 95,
+     "PIM": 57,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 6,
+     "age": 24
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1951,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 47,
+     "A": 39,
+     "P": 86,
+     "PIM": 78,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 10,
+     "age": 23
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 41,
+     "P": 88,
+     "PIM": 143,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 24
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 64,
+     "G": 45,
+     "A": 46,
+     "P": 91,
+     "PIM": 69,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 27
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1956,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 44,
+     "A": 45,
+     "P": 89,
+     "PIM": 74,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 28
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1950,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 43,
+     "A": 43,
+     "P": 86,
+     "PIM": 74,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 9,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 4.225,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1952
+   ],
+   "text": "5 players scored 40 goals in the 1950s (9 seasons). The most extreme: Gordie Howe, 1952-53 — 49 goals in 70 games.",
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 82,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1952,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 49,
+     "A": 46,
+     "P": 95,
+     "PIM": 57,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 6,
+     "age": 24
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1951,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 47,
+     "A": 39,
+     "P": 86,
+     "PIM": 78,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 10,
+     "age": 23
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 41,
+     "P": 88,
+     "PIM": 143,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 24
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1950,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 65,
+     "G": 42,
+     "A": 24,
+     "P": 66,
+     "PIM": 97,
+     "PPG": 9,
+     "SHG": 2,
+     "GWG": 8,
+     "age": 29
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1954,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 37,
+     "P": 75,
+     "PIM": 57,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 23
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1954,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 67,
+     "G": 38,
+     "A": 36,
+     "P": 74,
+     "PIM": 125,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 4.225,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1952
+   ],
+   "text": "15 players scored 28 goals with more goals than assists in the 1950s (25 seasons). The most extreme: Gordie Howe, 1952-53 — 49G, 46A.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 83,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447886,
+     "name": "Dickie Moore",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 41,
+     "A": 55,
+     "P": 96,
+     "PIM": 61,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 7,
+     "age": 28
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1952,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 49,
+     "A": 46,
+     "P": 95,
+     "PIM": 57,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 6,
+     "age": 24
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1958,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 64,
+     "G": 45,
+     "A": 46,
+     "P": 91,
+     "PIM": 69,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 27
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1956,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 44,
+     "A": 45,
+     "P": 89,
+     "PIM": 74,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 28
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 41,
+     "P": 88,
+     "PIM": 143,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 24
+    },
+    {
+     "id": 8445032,
+     "name": "Andy Bathgate",
+     "season": 1958,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 70,
+     "G": 40,
+     "A": 48,
+     "P": 88,
+     "PIM": 48,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.2,
+   "players": [
+    {
+     "id": 8447886,
+     "name": "Dickie Moore"
+    }
+   ],
+   "seasons": [
+    1958
+   ],
+   "text": "8 players recorded 80 points in the 1950s (15 seasons). The most extreme: Dickie Moore, 1958-59 — 96 points (41G, 55A).",
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 84,
+   "rule": "g_t",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley",
+     "season": 1954,
+     "team": "TOR",
+     "GP": 69,
+     "A": 0,
+     "PIM": 9,
+     "W": 23,
+     "L": 24,
+     "T": 22,
+     "SO": 8,
+     "GAA": 1.91443,
+     "GA": 132
+    },
+    {
+     "id": 8450096,
+     "name": "Chuck Rayner",
+     "season": 1950,
+     "team": "NYR",
+     "GP": 66,
+     "A": 0,
+     "PIM": 6,
+     "W": 19,
+     "L": 27,
+     "T": 20,
+     "SO": 2,
+     "GAA": 2.81725,
+     "GA": 185
+    },
+    {
+     "id": 8449977,
+     "name": "Jack Gelineau",
+     "season": 1950,
+     "team": "BOS",
+     "GP": 70,
+     "A": 0,
+     "PIM": 4,
+     "W": 22,
+     "L": 30,
+     "T": 18,
+     "SO": 4,
+     "GAA": 2.81476,
+     "GA": 197
+    },
+    {
+     "id": 8450041,
+     "name": "Gerry McNeil",
+     "season": 1952,
+     "team": "MTL",
+     "GP": 66,
+     "A": 0,
+     "PIM": 0,
+     "W": 25,
+     "L": 23,
+     "T": 18,
+     "SO": 10,
+     "GAA": 2.0909,
+     "GA": 138
+    },
+    {
+     "id": 8450152,
+     "name": "Gump Worsley",
+     "season": 1954,
+     "team": "NYR",
+     "GP": 65,
+     "A": 0,
+     "PIM": 4,
+     "W": 15,
+     "L": 33,
+     "T": 17,
+     "SO": 4,
+     "GAA": 3.00147,
+     "GA": 195
+    },
+    {
+     "id": 8449993,
+     "name": "Jim Henry",
+     "season": 1951,
+     "team": "BOS",
+     "GP": 70,
+     "A": 0,
+     "PIM": 0,
+     "W": 25,
+     "L": 29,
+     "T": 16,
+     "SO": 7,
+     "GAA": 2.47142,
+     "GA": 173
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 3.55,
+   "players": [
+    {
+     "id": 8450019,
+     "name": "Harry Lumley"
+    }
+   ],
+   "seasons": [
+    1954
+   ],
+   "text": "11 goalies tied 15 games in the 1950s (14 seasons). The most extreme: Harry Lumley, 1954-55 — 22 ties.",
+   "why": "Leads with the most extreme case, which carries the post. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 85,
+   "rule": "h_ppg",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446784,
+     "name": "Camille Henry",
+     "season": 1953,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 66,
+     "G": 24,
+     "A": 15,
+     "P": 39,
+     "PIM": 10,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 7,
+     "age": 21
+    },
+    {
+     "id": 8446918,
+     "name": "Bronco Horvath",
+     "season": 1959,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 68,
+     "G": 39,
+     "A": 41,
+     "P": 80,
+     "PIM": 60,
+     "PM": -12,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 238,
+     "age": 29
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 70,
+     "G": 47,
+     "A": 41,
+     "P": 88,
+     "PIM": 143,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 24
+    },
+    {
+     "id": 8446784,
+     "name": "Camille Henry",
+     "season": 1957,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 70,
+     "G": 32,
+     "A": 24,
+     "P": 56,
+     "PIM": 0,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 25
+    },
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1953,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 37,
+     "A": 30,
+     "P": 67,
+     "PIM": 112,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 32
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1953,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 33,
+     "A": 48,
+     "P": 81,
+     "PIM": 109,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 8,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.5,
+   "players": [
+    {
+     "id": 8446784,
+     "name": "Camille Henry"
+    }
+   ],
+   "seasons": [
+    1953
+   ],
+   "text": "6 players scored 15 power-play goals in the 1950s (8 seasons). The most extreme: Camille Henry, 1953-54 — 20 PPG.",
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 86,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1954,
+     "team": "DET",
+     "pos": "R",
+     "GP": 11,
+     "G": 9,
+     "A": 11,
+     "P": 20,
+     "PIM": 24,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 26
+    },
+    {
+     "id": 8447500,
+     "name": "Ted Lindsay",
+     "season": 1954,
+     "team": "DET",
+     "pos": "L",
+     "GP": 11,
+     "G": 7,
+     "A": 12,
+     "P": 19,
+     "PIM": 12,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 29
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 10,
+     "G": 12,
+     "A": 7,
+     "P": 19,
+     "PIM": 22,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 24
+    },
+    {
+     "id": 8447547,
+     "name": "Fleming MacKell",
+     "season": 1957,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 12,
+     "G": 5,
+     "A": 14,
+     "P": 19,
+     "PIM": 10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 28
+    },
+    {
+     "id": 8446579,
+     "name": "Bernie Geoffrion",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 10,
+     "G": 11,
+     "A": 7,
+     "P": 18,
+     "PIM": 2,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 25
+    },
+    {
+     "id": 8447792,
+     "name": "Don McKenney",
+     "season": 1957,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 12,
+     "G": 9,
+     "A": 8,
+     "P": 17,
+     "PIM": 2,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.5,
+   "players": [
+    {
+     "id": 8448000,
+     "name": "Gordie Howe"
+    }
+   ],
+   "seasons": [
+    1954
+   ],
+   "text": "10 players recorded 15 points in one postseason in the 1950s. The most extreme: Gordie Howe, 1954-55 — 20 points in 11 games.",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 87,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1950s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard",
+     "season": 1955,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 70,
+     "G": 38,
+     "A": 33,
+     "P": 71,
+     "PIM": 89,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 12,
+     "age": 34
+    },
+    {
+     "id": 8449052,
+     "name": "Tod Sloan",
+     "season": 1955,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 70,
+     "G": 37,
+     "A": 29,
+     "P": 66,
+     "PIM": 100,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 11,
+     "age": 28
+    },
+    {
+     "id": 8448000,
+     "name": "Gordie Howe",
+     "season": 1951,
+     "team": "DET",
+     "pos": "R",
+     "GP": 70,
+     "G": 47,
+     "A": 39,
+     "P": 86,
+     "PIM": 78,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 10,
+     "age": 23
+    },
+    {
+     "id": 8447886,
+     "name": "Dickie Moore",
+     "season": 1956,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 70,
+     "G": 29,
+     "A": 29,
+     "P": 58,
+     "PIM": 56,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 10,
+     "age": 26
+    },
+    {
+     "id": 8445408,
+     "name": "Jean Beliveau",
+     "season": 1959,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 60,
+     "G": 34,
+     "A": 40,
+     "P": 74,
+     "PIM": 57,
+     "PM": 20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 285,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 3.3,
+   "players": [
+    {
+     "id": 8448321,
+     "name": "Maurice Richard"
+    }
+   ],
+   "seasons": [
+    1955
+   ],
+   "text": "5 players scored 10 game-winning goals in the 1950s. The most extreme: Maurice Richard, 1955-56 — 12 GWG.",
+   "why": "Shows how high the bar was across the 1950s; the extreme case is the hook. Clutch goals are the stat fans quote in arguments."
+  }
+ ],
+ "shortNote": "The NHL had between four and ten teams in these years and kept fewer statistics (no shots, plus-minus or ice time), so the record supports fewer lines. Nothing was padded.",
+ "counts": {
+  "skaterSeasons": 1391,
+  "goalieSeasons": 126,
+  "teamSeasons": 60
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:52.019Z"
+}

@@ -1,0 +1,7733 @@
+{
+ "sport": "NHL",
+ "decade": "2000s",
+ "era": 5,
+ "seasons": [
+  "2000-01",
+  "2001-02",
+  "2002-03",
+  "2003-04",
+  "2005-06",
+  "2006-07",
+  "2007-08",
+  "2008-09",
+  "2009-10"
+ ],
+ "candidates": 104,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "t_pk",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres",
+     "season": 2000,
+     "GP": 82,
+     "W": 46,
+     "L": 30,
+     "T": 5,
+     "OTL": 1,
+     "GF": 218,
+     "GA": 184,
+     "PCT": 0.59756
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.2006,
+   "players": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "The only team of the 2000s to kill 88% of penalties: Buffalo Sabres, 2000-01 — 88.0% PK.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 2,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2005,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 52,
+     "PM": 2,
+     "PPG": 21,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 425,
+     "TOI": 21.62181,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.3,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "The only player of the 2000s to score 40 goals in their first NHL season: Alex Ovechkin, 2005-06 — 52 goals.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 3,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462055,
+     "name": "Marc Denis",
+     "season": 2002,
+     "team": "CBJ",
+     "GP": 77,
+     "A": 0,
+     "PIM": 6,
+     "W": 27,
+     "L": 41,
+     "T": 8,
+     "SO": 5,
+     "GAA": 3.08584,
+     "SVP": 0.90349,
+     "SV": 2172,
+     "GA": 232
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.025,
+   "players": [
+    {
+     "id": 8462055,
+     "name": "Marc Denis"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "The only goalie of the 2000s to lose 40 games: Marc Denis, 2002-03 — 27-41-8.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 4,
+   "rule": "h_volume_miss",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467844,
+     "name": "Jason Blake",
+     "season": 2007,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 82,
+     "G": 15,
+     "A": 37,
+     "P": 52,
+     "PIM": 28,
+     "PM": -4,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 332,
+     "TOI": 17.821543333333334,
+     "age": 34
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.83,
+   "players": [
+    {
+     "id": 8467844,
+     "name": "Jason Blake"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "The only player of the 2000s to fire 300 shots and score 20 or fewer: Jason Blake, 2007-08 — 15 goals on 332 shots.",
+   "why": "Nobody else in the 2000s did it, and exclusivity is what gets a post shared. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 5,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459424,
+     "name": "Chris Pronger",
+     "season": 2005,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 24,
+     "G": 5,
+     "A": 16,
+     "P": 21,
+     "PIM": 26,
+     "PM": 10,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 61,
+     "TOI": 30.95486,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.525,
+   "players": [
+    {
+     "id": 8459424,
+     "name": "Chris Pronger"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "The only player of the 2000s to record 20 points as a defenseman in one postseason: Chris Pronger, 2005-06 — 21 points in 24 games.",
+   "why": "A club of one in the 2000s; \"name another\" posts draw replies. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 6,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla"
+    }
+   ],
+   "seasons": [
+    2001,
+    2002,
+    2003,
+    2005,
+    2006,
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2001,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 82,
+     "G": 52,
+     "A": 44,
+     "P": 96,
+     "PIM": 77,
+     "PM": 27,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 311,
+     "TOI": 22.361991666666665,
+     "age": 24
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2002,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 75,
+     "G": 35,
+     "A": 32,
+     "P": 67,
+     "PIM": 49,
+     "PM": -10,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 316,
+     "TOI": 21.164888333333334,
+     "age": 25
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2003,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 81,
+     "G": 41,
+     "A": 32,
+     "P": 73,
+     "PIM": 84,
+     "PM": 21,
+     "PPG": 8,
+     "SHG": 4,
+     "GWG": 10,
+     "S": 265,
+     "TOI": 21.30102833333333,
+     "age": 26
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2005,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 82,
+     "G": 35,
+     "A": 32,
+     "P": 67,
+     "PIM": 86,
+     "PM": 5,
+     "PPG": 17,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 293,
+     "TOI": 21.692885,
+     "age": 28
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2006,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 70,
+     "G": 39,
+     "A": 55,
+     "P": 94,
+     "PIM": 40,
+     "PM": 12,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 264,
+     "TOI": 22.063808333333334,
+     "age": 29
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2007,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 82,
+     "G": 50,
+     "A": 48,
+     "P": 98,
+     "PIM": 83,
+     "PM": 27,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 338,
+     "TOI": 21.436788333333332,
+     "age": 30
+    }
+   ],
+   "text": "Jarome Iginla scored 35+ goals in 7 straight seasons (2001-02 to 2007-08), the longest run of the 2000s.",
+   "why": "The longest run of the 2000s; fans measure today's stars against it. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 7,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8467493,
+     "name": "Chris Neil"
+    }
+   ],
+   "seasons": [
+    2001,
+    2002,
+    2003,
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2001,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 72,
+     "G": 10,
+     "A": 7,
+     "P": 17,
+     "PIM": 231,
+     "PM": 5,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 56,
+     "TOI": 8.367128333333334,
+     "age": 22
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2002,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 68,
+     "G": 6,
+     "A": 4,
+     "P": 10,
+     "PIM": 147,
+     "PM": 8,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 62,
+     "TOI": 7.6625,
+     "age": 23
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2003,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 82,
+     "G": 8,
+     "A": 8,
+     "P": 16,
+     "PIM": 194,
+     "PM": 13,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 76,
+     "TOI": 8.848170000000001,
+     "age": 24
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2005,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 79,
+     "G": 16,
+     "A": 17,
+     "P": 33,
+     "PIM": 204,
+     "PM": 9,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 126,
+     "TOI": 12.303163333333334,
+     "age": 26
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2006,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 82,
+     "G": 12,
+     "A": 16,
+     "P": 28,
+     "PIM": 177,
+     "PM": 6,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 139,
+     "TOI": 13.127235,
+     "age": 27
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2007,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 68,
+     "G": 6,
+     "A": 14,
+     "P": 20,
+     "PIM": 199,
+     "PM": -3,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 78,
+     "TOI": 12.762008333333334,
+     "age": 28
+    },
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "season": 2008,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 60,
+     "G": 3,
+     "A": 7,
+     "P": 10,
+     "PIM": 146,
+     "PM": -13,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 59,
+     "TOI": 10.973333333333333,
+     "age": 29
+    }
+   ],
+   "text": "Chris Neil racked up 140+ penalty minutes in 8 straight seasons (2001-02 to 2008-09), the longest run of the 2000s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 8,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "2000s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2005,
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2000,
+     "team": "NJD",
+     "GP": 72,
+     "A": 1,
+     "PIM": 14,
+     "W": 42,
+     "L": 17,
+     "T": 11,
+     "SO": 9,
+     "GAA": 2.31816,
+     "SVP": 0.90578,
+     "SV": 1596,
+     "GA": 166
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2001,
+     "team": "NJD",
+     "GP": 73,
+     "A": 4,
+     "PIM": 8,
+     "W": 38,
+     "L": 26,
+     "T": 9,
+     "SO": 4,
+     "GAA": 2.15322,
+     "SVP": 0.90574,
+     "SV": 1499,
+     "GA": 156
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2002,
+     "team": "NJD",
+     "GP": 73,
+     "A": 0,
+     "PIM": 10,
+     "W": 41,
+     "L": 23,
+     "T": 9,
+     "SO": 9,
+     "GAA": 2.01629,
+     "SVP": 0.91383,
+     "SV": 1559,
+     "GA": 147
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2003,
+     "team": "NJD",
+     "GP": 75,
+     "A": 0,
+     "PIM": 4,
+     "W": 38,
+     "L": 26,
+     "T": 11,
+     "SO": 11,
+     "GAA": 2.02874,
+     "SVP": 0.91653,
+     "SV": 1691,
+     "GA": 154
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2005,
+     "team": "NJD",
+     "GP": 73,
+     "A": 3,
+     "PIM": 4,
+     "W": 43,
+     "L": 23,
+     "OTL": 7,
+     "SO": 5,
+     "GAA": 2.57069,
+     "SVP": 0.91116,
+     "SV": 1918,
+     "GA": 187
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2006,
+     "team": "NJD",
+     "GP": 78,
+     "A": 1,
+     "PIM": 12,
+     "W": 48,
+     "L": 23,
+     "OTL": 7,
+     "SO": 12,
+     "GAA": 2.18458,
+     "SVP": 0.92163,
+     "SV": 2011,
+     "GA": 171
+    }
+   ],
+   "text": "Martin Brodeur won 34+ games in goal in 7 straight seasons (2000-01 to 2006-07), the longest run of the 2000s.",
+   "why": "The longest run of the 2000s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 9,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 2009,
+     "GP": 82,
+     "W": 54,
+     "L": 15,
+     "OTL": 13,
+     "GF": 313,
+     "GA": 227,
+     "PCT": 0.7378
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 2005,
+     "GP": 82,
+     "W": 52,
+     "L": 21,
+     "OTL": 9,
+     "GF": 312,
+     "GA": 205,
+     "PCT": 0.68902
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.954268292682928,
+   "players": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals"
+    },
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators"
+    }
+   ],
+   "seasons": [
+    2009,
+    2005
+   ],
+   "text": "Only two teams of the 2000s scored 3.8 goals a game: Washington Capitals (2009-10: 3.82 per game); Ottawa Senators (2005-06: 3.80 per game).",
+   "why": "Two names invite the \"whose season was better?\" argument. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 10,
+   "rule": "h_toi",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "season": 2001,
+     "team": "DET",
+     "pos": "D",
+     "GP": 78,
+     "G": 9,
+     "A": 50,
+     "P": 59,
+     "PIM": 20,
+     "PM": 13,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 215,
+     "TOI": 28.390596666666667,
+     "age": 31
+    },
+    {
+     "id": 8459462,
+     "name": "Bryan McCabe",
+     "season": 2005,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 73,
+     "G": 19,
+     "A": 49,
+     "P": 68,
+     "PIM": 116,
+     "PM": -1,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 207,
+     "TOI": 28.295661666666668,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.709764916666666,
+   "players": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom"
+    },
+    {
+     "id": 8459462,
+     "name": "Bryan McCabe"
+    }
+   ],
+   "seasons": [
+    2001,
+    2005
+   ],
+   "text": "Only two players of the 2000s averaged 28 minutes a game: Nicklas Lidstrom (2001-02: 28.4 min/game); Bryan McCabe (2005-06: 28.3 min/game).",
+   "why": "A club of two is a ready-made debate. Ice-time workload shows who coaches trusted most."
+  },
+  {
+   "n": 11,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2005,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 52,
+     "PM": 2,
+     "PPG": 21,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 425,
+     "TOI": 21.62181,
+     "age": 20
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2005,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 81,
+     "G": 39,
+     "A": 63,
+     "P": 102,
+     "PIM": 110,
+     "PM": -1,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 278,
+     "TOI": 20.126748333333335,
+     "age": 18
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2006,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 78,
+     "G": 33,
+     "A": 52,
+     "P": 85,
+     "PIM": 80,
+     "PM": 2,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 242,
+     "TOI": 19.158973333333332,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 8.65,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby"
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin"
+    }
+   ],
+   "seasons": [
+    2005,
+    2005,
+    2006
+   ],
+   "text": "Just three players of the 2000s recorded 80 points in their first NHL season: Alex Ovechkin (2005-06: 106 points); Sidney Crosby (2005-06: 102 points); Evgeni Malkin (2006-07: 85 points).",
+   "why": "A short list fans can recite; each name brings its own fan base. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 12,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 2003,
+     "GP": 82,
+     "W": 23,
+     "L": 47,
+     "T": 8,
+     "OTL": 4,
+     "GF": 190,
+     "GA": 303,
+     "PCT": 0.35365
+    },
+    {
+     "id": "Atlanta Thrashers",
+     "name": "Atlanta Thrashers",
+     "season": 2001,
+     "GP": 82,
+     "W": 19,
+     "L": 47,
+     "T": 11,
+     "OTL": 5,
+     "GF": 187,
+     "GA": 288,
+     "PCT": 0.32926
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.565,
+   "players": [
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins"
+    },
+    {
+     "id": "Atlanta Thrashers",
+     "name": "Atlanta Thrashers"
+    }
+   ],
+   "seasons": [
+    2003,
+    2001
+   ],
+   "text": "Only two teams of the 2000s got outscored by 100: Pittsburgh Penguins (2003-04: 190-303); Atlanta Thrashers (2001-02: 187-288).",
+   "why": "A club of two is a ready-made debate. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 13,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 2005,
+     "GP": 82,
+     "W": 52,
+     "L": 21,
+     "OTL": 9,
+     "GF": 312,
+     "GA": 205,
+     "PCT": 0.68902
+    },
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 2000,
+     "GP": 82,
+     "W": 48,
+     "L": 19,
+     "T": 12,
+     "OTL": 3,
+     "GF": 295,
+     "GA": 195,
+     "PCT": 0.67682
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.535,
+   "players": [
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators"
+    },
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils"
+    }
+   ],
+   "seasons": [
+    2005,
+    2000
+   ],
+   "text": "Only two teams of the 2000s outscored opponents by 100: Ottawa Senators (2005-06: 312-205); New Jersey Devils (2000-01: 295-195).",
+   "why": "Two names invite the \"whose season was better?\" argument. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 14,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "season": 2005,
+     "team": "DET",
+     "pos": "D",
+     "GP": 80,
+     "G": 16,
+     "A": 64,
+     "P": 80,
+     "PIM": 50,
+     "PM": 21,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 243,
+     "TOI": 27.488958333333336,
+     "age": 35
+    },
+    {
+     "id": 8448769,
+     "name": "Brian Leetch",
+     "season": 2000,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 82,
+     "G": 21,
+     "A": 58,
+     "P": 79,
+     "PIM": 34,
+     "PM": -18,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 241,
+     "TOI": 25.445325,
+     "age": 32
+    },
+    {
+     "id": 8471242,
+     "name": "Mike Green",
+     "season": 2009,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 75,
+     "G": 19,
+     "A": 57,
+     "P": 76,
+     "PIM": 54,
+     "PM": 39,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 205,
+     "TOI": 25.482666666666667,
+     "age": 24
+    },
+    {
+     "id": 8471242,
+     "name": "Mike Green",
+     "season": 2008,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 68,
+     "G": 31,
+     "A": 42,
+     "P": 73,
+     "PIM": 68,
+     "PM": 24,
+     "PPG": 18,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 243,
+     "TOI": 25.763969999999997,
+     "age": 23
+    },
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "season": 2000,
+     "team": "DET",
+     "pos": "D",
+     "GP": 82,
+     "G": 15,
+     "A": 56,
+     "P": 71,
+     "PIM": 18,
+     "PM": 9,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 272,
+     "TOI": 27.832316666666667,
+     "age": 30
+    },
+    {
+     "id": 8458494,
+     "name": "Sergei Zubov",
+     "season": 2005,
+     "team": "DAL",
+     "pos": "D",
+     "GP": 78,
+     "G": 13,
+     "A": 58,
+     "P": 71,
+     "PIM": 46,
+     "PM": 20,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 141,
+     "TOI": 26.243375,
+     "age": 35
+    },
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "season": 2007,
+     "team": "DET",
+     "pos": "D",
+     "GP": 76,
+     "G": 10,
+     "A": 60,
+     "P": 70,
+     "PIM": 40,
+     "PM": 40,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 188,
+     "TOI": 26.272148333333334,
+     "age": 37
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "few",
+   "score": 8,
+   "players": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom"
+    },
+    {
+     "id": 8448769,
+     "name": "Brian Leetch"
+    },
+    {
+     "id": 8471242,
+     "name": "Mike Green"
+    },
+    {
+     "id": 8458494,
+     "name": "Sergei Zubov"
+    }
+   ],
+   "seasons": [
+    2005,
+    2000,
+    2009,
+    2008,
+    2000,
+    2005,
+    2007
+   ],
+   "text": "Just four players of the 2000s recorded 70 points as a defenseman: Nicklas Lidstrom (3×, best 2005-06: 80 points (16G, 64A)); Brian Leetch (2000-01: 79 points (21G, 58A)); Mike Green (2×, best 2009-10: 76 points (19G, 57A)); Sergei Zubov (2005-06: 71 points (13G, 58A)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "2000s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk"
+    }
+   ],
+   "seasons": [
+    2003,
+    2005,
+    2006,
+    2007,
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2003,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 81,
+     "G": 41,
+     "A": 46,
+     "P": 87,
+     "PIM": 63,
+     "PM": -10,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 341,
+     "TOI": 23.1,
+     "age": 20
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2005,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 78,
+     "G": 52,
+     "A": 46,
+     "P": 98,
+     "PIM": 68,
+     "PM": -6,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 323,
+     "TOI": 22.187606666666667,
+     "age": 22
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2006,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 82,
+     "G": 42,
+     "A": 34,
+     "P": 76,
+     "PIM": 66,
+     "PM": -2,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 336,
+     "TOI": 21.344918333333332,
+     "age": 23
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2007,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 79,
+     "G": 52,
+     "A": 35,
+     "P": 87,
+     "PIM": 52,
+     "PM": -12,
+     "PPG": 16,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 283,
+     "TOI": 21.50274166666667,
+     "age": 24
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2008,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 79,
+     "G": 43,
+     "A": 48,
+     "P": 91,
+     "PIM": 50,
+     "PM": -12,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 275,
+     "TOI": 21.805906666666665,
+     "age": 25
+    }
+   ],
+   "text": "Ilya Kovalchuk recorded 75+ points in 6 straight seasons (2003-04 to 2008-09), the longest run of the 2000s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 16,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2006,
+     "team": "NJD",
+     "GP": 78,
+     "A": 1,
+     "PIM": 12,
+     "W": 48,
+     "L": 23,
+     "OTL": 7,
+     "SO": 12,
+     "GAA": 2.18458,
+     "SVP": 0.92163,
+     "SV": 2011,
+     "GA": 171
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "season": 2006,
+     "team": "VAN",
+     "GP": 76,
+     "A": 2,
+     "PIM": 10,
+     "W": 47,
+     "L": 22,
+     "OTL": 6,
+     "SO": 5,
+     "GAA": 2.28494,
+     "SVP": 0.92116,
+     "SV": 1998,
+     "GA": 171
+    },
+    {
+     "id": 8460705,
+     "name": "Evgeni Nabokov",
+     "season": 2007,
+     "team": "SJS",
+     "GP": 77,
+     "A": 2,
+     "PIM": 12,
+     "W": 46,
+     "L": 21,
+     "OTL": 8,
+     "SO": 6,
+     "GAA": 2.14429,
+     "SVP": 0.90954,
+     "SV": 1639,
+     "GA": 163
+    },
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff",
+     "season": 2008,
+     "team": "CGY",
+     "GP": 76,
+     "A": 3,
+     "PIM": 2,
+     "W": 45,
+     "L": 24,
+     "OTL": 5,
+     "SO": 4,
+     "GAA": 2.83839,
+     "SVP": 0.90301,
+     "SV": 1946,
+     "GA": 209
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2009,
+     "team": "NJD",
+     "GP": 77,
+     "A": 3,
+     "PIM": 6,
+     "W": 45,
+     "L": 25,
+     "OTL": 6,
+     "SO": 9,
+     "GAA": 2.24044,
+     "SVP": 0.91616,
+     "SV": 1836,
+     "GA": 168
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 7.2,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo"
+    },
+    {
+     "id": 8460705,
+     "name": "Evgeni Nabokov"
+    },
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff"
+    }
+   ],
+   "seasons": [
+    2006,
+    2006,
+    2007,
+    2008,
+    2009
+   ],
+   "text": "Just four goalies of the 2000s won 45 games: Martin Brodeur (2×, best 2006-07: 48-23-7); Roberto Luongo (2006-07: 47-22-6); Evgeni Nabokov (2007-08: 46-21-8); Miikka Kiprusoff (2008-09: 45-24-5).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 17,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson"
+    }
+   ],
+   "seasons": [
+    2002,
+    2003,
+    2005,
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "season": 2002,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 78,
+     "G": 27,
+     "A": 51,
+     "P": 78,
+     "PIM": 42,
+     "PM": 15,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 240,
+     "TOI": 19.532691666666665,
+     "age": 30
+    },
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "season": 2003,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 77,
+     "G": 32,
+     "A": 48,
+     "P": 80,
+     "PIM": 24,
+     "PM": 12,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 230,
+     "TOI": 19.40541,
+     "age": 31
+    },
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "season": 2005,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 77,
+     "G": 43,
+     "A": 60,
+     "P": 103,
+     "PIM": 50,
+     "PM": 29,
+     "PPG": 16,
+     "SHG": 5,
+     "GWG": 8,
+     "S": 249,
+     "TOI": 21.690691666666666,
+     "age": 33
+    },
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "season": 2006,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 77,
+     "G": 29,
+     "A": 58,
+     "P": 87,
+     "PIM": 42,
+     "PM": 42,
+     "PPG": 7,
+     "SHG": 2,
+     "GWG": 7,
+     "S": 240,
+     "TOI": 21.577054999999998,
+     "age": 34
+    }
+   ],
+   "text": "Daniel Alfredsson averaged a point a game (60% of games) in 5 straight seasons (2002-03 to 2006-07), the longest run of the 2000s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 18,
+   "rule": "h_ppg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2005,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 78,
+     "G": 52,
+     "A": 46,
+     "P": 98,
+     "PIM": 68,
+     "PM": -6,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 323,
+     "TOI": 22.187606666666667,
+     "age": 22
+    },
+    {
+     "id": 8459444,
+     "name": "Todd Bertuzzi",
+     "season": 2002,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 82,
+     "G": 46,
+     "A": 51,
+     "P": 97,
+     "PIM": 144,
+     "PM": 2,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 243,
+     "TOI": 20.569105,
+     "age": 27
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 2006,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 82,
+     "G": 48,
+     "A": 46,
+     "P": 94,
+     "PIM": 82,
+     "PM": 26,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 257,
+     "TOI": 17.694511666666664,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.675,
+   "players": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk"
+    },
+    {
+     "id": 8459444,
+     "name": "Todd Bertuzzi"
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne"
+    }
+   ],
+   "seasons": [
+    2005,
+    2002,
+    2006
+   ],
+   "text": "Just three players of the 2000s scored 25 power-play goals: Ilya Kovalchuk (2005-06: 27 PPG); Todd Bertuzzi (2002-03: 25 PPG); Teemu Selanne (2006-07: 25 PPG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 19,
+   "rule": "h_eff",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8470072,
+     "name": "Petr Prucha",
+     "season": 2005,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 68,
+     "G": 30,
+     "A": 17,
+     "P": 47,
+     "PIM": 32,
+     "PM": 3,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 130,
+     "TOI": 13.691666666666666,
+     "age": 23
+    },
+    {
+     "id": 8459156,
+     "name": "Anson Carter",
+     "season": 2005,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 81,
+     "G": 33,
+     "A": 22,
+     "P": 55,
+     "PIM": 41,
+     "PM": -1,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 146,
+     "TOI": 14.559053333333333,
+     "age": 31
+    },
+    {
+     "id": 8467514,
+     "name": "Pavel Datsyuk",
+     "season": 2003,
+     "team": "DET",
+     "pos": "C",
+     "GP": 75,
+     "G": 30,
+     "A": 38,
+     "P": 68,
+     "PIM": 35,
+     "PM": -2,
+     "PPG": 8,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 136,
+     "TOI": 18.270666666666667,
+     "age": 25
+    },
+    {
+     "id": 8464975,
+     "name": "Daniel Brière",
+     "season": 2001,
+     "team": "PHX",
+     "pos": "C",
+     "GP": 78,
+     "G": 32,
+     "A": 28,
+     "P": 60,
+     "PIM": 52,
+     "PM": 6,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 149,
+     "TOI": 15.738888333333334,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.576923076923077,
+   "players": [
+    {
+     "id": 8470072,
+     "name": "Petr Prucha"
+    },
+    {
+     "id": 8459156,
+     "name": "Anson Carter"
+    },
+    {
+     "id": 8467514,
+     "name": "Pavel Datsyuk"
+    },
+    {
+     "id": 8464975,
+     "name": "Daniel Brière"
+    }
+   ],
+   "seasons": [
+    2005,
+    2005,
+    2003,
+    2001
+   ],
+   "text": "Just four players of the 2000s scored 30 goals on fewer than 150 shots: Petr Prucha (2005-06: 30 goals on 130 shots); Anson Carter (2005-06: 33 goals on 146 shots); Pavel Datsyuk (2003-04: 30 goals on 136 shots); Daniel Brière (2001-02: 32 goals on 149 shots).",
+   "why": "A short list fans can recite; each name brings its own fan base. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 20,
+   "rule": "g_first_so",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8468651,
+     "name": "Roman Cechmanek",
+     "season": 2000,
+     "team": "PHI",
+     "GP": 59,
+     "A": 1,
+     "PIM": 4,
+     "W": 35,
+     "L": 15,
+     "T": 6,
+     "SO": 10,
+     "GAA": 2.01079,
+     "SVP": 0.92144,
+     "SV": 1349,
+     "GA": 115
+    },
+    {
+     "id": 8473461,
+     "name": "Steve Mason",
+     "season": 2008,
+     "team": "CBJ",
+     "GP": 61,
+     "A": 0,
+     "PIM": 2,
+     "W": 33,
+     "L": 20,
+     "OTL": 7,
+     "SO": 10,
+     "GAA": 2.29281,
+     "SVP": 0.91556,
+     "SV": 1518,
+     "GA": 140
+    },
+    {
+     "id": 8473404,
+     "name": "Niklas Backstrom",
+     "season": 2006,
+     "team": "MIN",
+     "GP": 41,
+     "A": 1,
+     "PIM": 2,
+     "W": 23,
+     "L": 8,
+     "OTL": 6,
+     "SO": 5,
+     "GAA": 1.96719,
+     "SVP": 0.92898,
+     "SV": 955,
+     "GA": 73
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.25,
+   "players": [
+    {
+     "id": 8468651,
+     "name": "Roman Cechmanek"
+    },
+    {
+     "id": 8473461,
+     "name": "Steve Mason"
+    },
+    {
+     "id": 8473404,
+     "name": "Niklas Backstrom"
+    }
+   ],
+   "seasons": [
+    2000,
+    2008,
+    2006
+   ],
+   "text": "Just three goalies of the 2000s recorded 5 shutouts in their first NHL season: Roman Cechmanek (2000-01: 10 shutouts); Steve Mason (2008-09: 10 shutouts); Niklas Backstrom (2006-07: 5 shutouts).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 21,
+   "rule": "pog_gaa",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459579,
+     "name": "Patrick Lalime",
+     "season": 2001,
+     "team": "OTT",
+     "GP": 12,
+     "A": 0,
+     "PIM": 0,
+     "W": 7,
+     "L": 5,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.38865,
+     "SVP": 0.94578,
+     "SV": 314,
+     "GA": 18
+    },
+    {
+     "id": 8468524,
+     "name": "Ilya Bryzgalov",
+     "season": 2005,
+     "team": "ANA",
+     "GP": 11,
+     "A": 0,
+     "PIM": 2,
+     "W": 6,
+     "L": 4,
+     "SO": 3,
+     "GAA": 1.45678,
+     "SVP": 0.94385,
+     "SV": 269,
+     "GA": 16
+    },
+    {
+     "id": 8458568,
+     "name": "Chris Osgood",
+     "season": 2007,
+     "team": "DET",
+     "GP": 19,
+     "A": 0,
+     "PIM": 0,
+     "W": 14,
+     "L": 4,
+     "SO": 3,
+     "GAA": 1.55179,
+     "SVP": 0.93023,
+     "SV": 400,
+     "GA": 30
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.180030965326036,
+   "players": [
+    {
+     "id": 8459579,
+     "name": "Patrick Lalime"
+    },
+    {
+     "id": 8468524,
+     "name": "Ilya Bryzgalov"
+    },
+    {
+     "id": 8458568,
+     "name": "Chris Osgood"
+    }
+   ],
+   "seasons": [
+    2001,
+    2005,
+    2007
+   ],
+   "text": "Just three goalies of the 2000s posted a goals-against average under 1.60 in one postseason (10+ games): Patrick Lalime (2001-02: 1.39 GAA in 12 games); Ilya Bryzgalov (2005-06: 1.46 GAA in 11 games); Chris Osgood (2007-08: 1.55 GAA in 19 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 22,
+   "rule": "po_gwg",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467389,
+     "name": "Brad Richards",
+     "season": 2003,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 23,
+     "G": 12,
+     "A": 14,
+     "P": 26,
+     "PIM": 4,
+     "PM": 5,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 88,
+     "TOI": 23.471738333333334,
+     "age": 23
+    },
+    {
+     "id": 8465170,
+     "name": "Fernando Pisani",
+     "season": 2005,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 24,
+     "G": 14,
+     "A": 4,
+     "P": 18,
+     "PIM": 10,
+     "PM": 4,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 49,
+     "TOI": 17.193055,
+     "age": 29
+    },
+    {
+     "id": 8471309,
+     "name": "Johan Franzen",
+     "season": 2007,
+     "team": "DET",
+     "pos": "R",
+     "GP": 16,
+     "G": 13,
+     "A": 5,
+     "P": 18,
+     "PIM": 14,
+     "PM": 13,
+     "PPG": 6,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 70,
+     "TOI": 18.81875,
+     "age": 28
+    },
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien",
+     "season": 2009,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 22,
+     "G": 11,
+     "A": 5,
+     "P": 16,
+     "PIM": 20,
+     "PM": -4,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 45,
+     "TOI": 16.26515,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.175,
+   "players": [
+    {
+     "id": 8467389,
+     "name": "Brad Richards"
+    },
+    {
+     "id": 8465170,
+     "name": "Fernando Pisani"
+    },
+    {
+     "id": 8471309,
+     "name": "Johan Franzen"
+    },
+    {
+     "id": 8470834,
+     "name": "Dustin Byfuglien"
+    }
+   ],
+   "seasons": [
+    2003,
+    2005,
+    2007,
+    2009
+   ],
+   "text": "Just four players of the 2000s scored 5 game-winning goals in one postseason: Brad Richards (2003-04: 7 GWG); Fernando Pisani (2005-06: 5 GWG); Johan Franzen (2007-08: 5 GWG); Dustin Byfuglien (2009-10: 5 GWG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 23,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2006,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 79,
+     "G": 36,
+     "A": 84,
+     "P": 120,
+     "PIM": 60,
+     "PM": 10,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 250,
+     "TOI": 20.759071666666667,
+     "age": 19
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2005,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 52,
+     "PM": 2,
+     "PPG": 21,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 425,
+     "TOI": 21.62181,
+     "age": 20
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2005,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 81,
+     "G": 39,
+     "A": 63,
+     "P": 102,
+     "PIM": 110,
+     "PM": -1,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 278,
+     "TOI": 20.126748333333335,
+     "age": 18
+    },
+    {
+     "id": 8474564,
+     "name": "Steven Stamkos",
+     "season": 2009,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 82,
+     "G": 51,
+     "A": 44,
+     "P": 95,
+     "PIM": 38,
+     "PM": -2,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 297,
+     "TOI": 20.551625,
+     "age": 19
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2003,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 81,
+     "G": 41,
+     "A": 46,
+     "P": 87,
+     "PIM": 63,
+     "PM": -10,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 341,
+     "TOI": 23.1,
+     "age": 20
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2006,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 78,
+     "G": 33,
+     "A": 52,
+     "P": 85,
+     "PIM": 80,
+     "PM": 2,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 242,
+     "TOI": 19.158973333333332,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "11 players recorded 65 points at age 20 or younger in the 2000s (16 seasons). The most extreme: Sidney Crosby, 2006-07 — 120 points at 19.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2007,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 65,
+     "A": 47,
+     "P": 112,
+     "PIM": 40,
+     "PM": 28,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 446,
+     "TOI": 22.917681666666667,
+     "age": 22
+    }
+   ],
+   "among": 7906,
+   "text": "Most goals in a season in the 2000s: Alex Ovechkin, 2007-08 — 65 in 82 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2005,
+     "team": "BOS,SJS",
+     "pos": "C",
+     "GP": 81,
+     "G": 29,
+     "A": 96,
+     "P": 125,
+     "PIM": 61,
+     "PM": 31,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 195,
+     "TOI": 21.336625,
+     "age": 26
+    }
+   ],
+   "among": 7906,
+   "text": "Most points in a season in the 2000s: Joe Thornton, 2005-06 — 125 (29G, 96A).",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2005,
+     "team": "BOS,SJS",
+     "pos": "C",
+     "GP": 81,
+     "G": 29,
+     "A": 96,
+     "P": 125,
+     "PIM": 61,
+     "PM": 31,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 195,
+     "TOI": 21.336625,
+     "age": 26
+    }
+   ],
+   "among": 7906,
+   "text": "Most assists in a season in the 2000s: Joe Thornton, 2005-06 — 96.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8462198,
+     "name": "Peter Worrell"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462198,
+     "name": "Peter Worrell",
+     "season": 2001,
+     "team": "FLA",
+     "pos": "L",
+     "GP": 79,
+     "G": 4,
+     "A": 5,
+     "P": 9,
+     "PIM": 354,
+     "PM": -15,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 65,
+     "TOI": 8.748521666666667,
+     "age": 24
+    }
+   ],
+   "among": 7906,
+   "text": "Most penalty minutes in a season in the 2000s: Peter Worrell, 2001-02 — 354.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_ppg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2005,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 78,
+     "G": 52,
+     "A": 46,
+     "P": 98,
+     "PIM": 68,
+     "PM": -6,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 323,
+     "TOI": 22.187606666666667,
+     "age": 22
+    }
+   ],
+   "among": 7906,
+   "text": "Most power-play goals in a season in the 2000s: Ilya Kovalchuk, 2005-06 — 27.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_shg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8458525,
+     "name": "Brian Rolston"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8458525,
+     "name": "Brian Rolston",
+     "season": 2001,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 31,
+     "A": 31,
+     "P": 62,
+     "PIM": 30,
+     "PM": 11,
+     "PPG": 6,
+     "SHG": 9,
+     "GWG": 7,
+     "S": 331,
+     "TOI": 20.399186666666665,
+     "age": 28
+    }
+   ],
+   "among": 7906,
+   "text": "Most shorthanded goals in a season in the 2000s: Brian Rolston, 2001-02 — 9.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8467333,
+     "name": "Rico Fata"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467333,
+     "name": "Rico Fata",
+     "season": 2003,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 73,
+     "G": 16,
+     "A": 18,
+     "P": 34,
+     "PIM": 54,
+     "PM": -46,
+     "PPG": 6,
+     "SHG": 2,
+     "GWG": 1,
+     "S": 163,
+     "TOI": 17.968263333333333,
+     "age": 23
+    }
+   ],
+   "among": 7906,
+   "text": "Worst plus-minus in a season in the 2000s: Rico Fata, 2003-04 — -46.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8469455,
+     "name": "Jason Spezza"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469455,
+     "name": "Jason Spezza",
+     "season": 2006,
+     "team": "OTT",
+     "pos": "C",
+     "GP": 67,
+     "G": 34,
+     "A": 53,
+     "P": 87,
+     "PIM": 45,
+     "PM": 19,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 162,
+     "TOI": 19.290795,
+     "age": 23
+    }
+   ],
+   "among": 1369,
+   "text": "Best shooting percentage in a season (150+ shots) in the 2000s: Jason Spezza, 2006-07 — 21.0%.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "season": 2005,
+     "team": "DET",
+     "pos": "D",
+     "GP": 80,
+     "G": 16,
+     "A": 64,
+     "P": 80,
+     "PIM": 50,
+     "PM": 21,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 243,
+     "TOI": 27.488958333333336,
+     "age": 35
+    }
+   ],
+   "among": 2707,
+   "text": "Most points by a defenseman in a season in the 2000s: Nicklas Lidstrom, 2005-06 — 80.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471242,
+     "name": "Mike Green"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471242,
+     "name": "Mike Green",
+     "season": 2008,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 68,
+     "G": 31,
+     "A": 42,
+     "P": 73,
+     "PIM": 68,
+     "PM": 24,
+     "PPG": 18,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 243,
+     "TOI": 25.763969999999997,
+     "age": 23
+    }
+   ],
+   "among": 2707,
+   "text": "Most goals by a defenseman in a season in the 2000s: Mike Green, 2008-09 — 31.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2005,
+     "team": "BOS,SJS",
+     "pos": "C",
+     "GP": 81,
+     "G": 29,
+     "A": 96,
+     "P": 125,
+     "PIM": 61,
+     "PM": 31,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 195,
+     "TOI": 21.336625,
+     "age": 26
+    }
+   ],
+   "among": 4704,
+   "text": "Most points per game in a season (60% of games) in the 2000s: Joe Thornton, 2005-06 — 1.54.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2006,
+     "team": "NJD",
+     "GP": 78,
+     "A": 1,
+     "PIM": 12,
+     "W": 48,
+     "L": 23,
+     "OTL": 7,
+     "SO": 12,
+     "GAA": 2.18458,
+     "SVP": 0.92163,
+     "SV": 2011,
+     "GA": 171
+    }
+   ],
+   "among": 799,
+   "text": "Most wins by a goalie in a season in the 2000s: Martin Brodeur, 2006-07 — 48.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff",
+     "season": 2003,
+     "team": "CGY",
+     "GP": 38,
+     "A": 1,
+     "PIM": 15,
+     "W": 24,
+     "L": 10,
+     "T": 4,
+     "SO": 4,
+     "GAA": 1.69525,
+     "SVP": 0.93271,
+     "SV": 901,
+     "GA": 65
+    }
+   ],
+   "among": 337,
+   "text": "Best goals-against average in a season (40% of games) in the 2000s: Miikka Kiprusoff, 2003-04 — 1.70.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "gx_sv",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8460806,
+     "name": "Dwayne Roloson"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8460806,
+     "name": "Dwayne Roloson",
+     "season": 2003,
+     "team": "MIN",
+     "GP": 48,
+     "A": 1,
+     "PIM": 8,
+     "W": 19,
+     "L": 18,
+     "T": 11,
+     "SO": 5,
+     "GAA": 1.8757,
+     "SVP": 0.93272,
+     "SV": 1234,
+     "GA": 89
+    }
+   ],
+   "among": 337,
+   "text": "Best save percentage in a season (40% of games) in the 2000s: Dwayne Roloson, 2003-04 — .933.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "gx_saves",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "season": 2003,
+     "team": "FLA",
+     "GP": 72,
+     "A": 3,
+     "PIM": 2,
+     "W": 25,
+     "L": 33,
+     "T": 14,
+     "SO": 7,
+     "GAA": 2.42726,
+     "SVP": 0.9305,
+     "SV": 2303,
+     "GA": 172
+    }
+   ],
+   "among": 799,
+   "text": "Most saves in a season in the 2000s: Roberto Luongo, 2003-04 — 2,303.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8462055,
+     "name": "Marc Denis"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462055,
+     "name": "Marc Denis",
+     "season": 2002,
+     "team": "CBJ",
+     "GP": 77,
+     "A": 0,
+     "PIM": 6,
+     "W": 27,
+     "L": 41,
+     "T": 8,
+     "SO": 5,
+     "GAA": 3.08584,
+     "SVP": 0.90349,
+     "SV": 2172,
+     "GA": 232
+    }
+   ],
+   "among": 799,
+   "text": "Most losses by a goalie in a season in the 2000s: Marc Denis, 2002-03 — 41.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 2005,
+     "GP": 82,
+     "W": 58,
+     "L": 16,
+     "OTL": 8,
+     "GF": 301,
+     "GA": 206,
+     "PCT": 0.75609
+    }
+   ],
+   "among": 270,
+   "text": "Best points percentage in a season in the 2000s: Detroit Red Wings, 2005-06 — .756 (58-16-8).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 2000,
+     "GP": 82,
+     "W": 21,
+     "L": 51,
+     "T": 7,
+     "OTL": 3,
+     "GF": 185,
+     "GA": 268,
+     "PCT": 0.31707
+    }
+   ],
+   "among": 270,
+   "text": "Worst points percentage in a season in the 2000s: New York Islanders, 2000-01 — .317 (21-51-7-3).",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals"
+    }
+   ],
+   "seasons": [
+    2009
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 2009,
+     "GP": 82,
+     "W": 54,
+     "L": 15,
+     "OTL": 13,
+     "GF": 313,
+     "GA": 227,
+     "PCT": 0.7378
+    }
+   ],
+   "among": 270,
+   "text": "Most goals per game by a team in the 2000s: Washington Capitals, 2009-10 — 3.82 (313 in 82).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 2003,
+     "GP": 82,
+     "W": 43,
+     "L": 25,
+     "T": 12,
+     "OTL": 2,
+     "GF": 213,
+     "GA": 164,
+     "PCT": 0.60975
+    }
+   ],
+   "among": 270,
+   "text": "Fewest goals allowed per game in the 2000s: New Jersey Devils, 2003-04 — 2.00 (164 in 82).",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Ottawa Senators",
+     "name": "Ottawa Senators",
+     "season": 2005,
+     "GP": 82,
+     "W": 52,
+     "L": 21,
+     "OTL": 9,
+     "GF": 312,
+     "GA": 205,
+     "PCT": 0.68902
+    }
+   ],
+   "among": 270,
+   "text": "Best goal differential in a season in the 2000s: Ottawa Senators, 2005-06 — +107.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "tx_pp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 2008,
+     "GP": 82,
+     "W": 51,
+     "L": 21,
+     "OTL": 10,
+     "GF": 289,
+     "GA": 240,
+     "PCT": 0.68292
+    }
+   ],
+   "among": 270,
+   "text": "Best power play in a season in the 2000s: Detroit Red Wings, 2008-09 — 25.5%.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "tx_pk",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres",
+     "season": 2000,
+     "GP": 82,
+     "W": 46,
+     "L": 30,
+     "T": 5,
+     "OTL": 1,
+     "GF": 218,
+     "GA": 184,
+     "PCT": 0.59756
+    }
+   ],
+   "among": 270,
+   "text": "Best penalty kill in a season in the 2000s: Buffalo Sabres, 2000-01 — 88.0%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 24,
+     "G": 14,
+     "A": 22,
+     "P": 36,
+     "PIM": 51,
+     "PM": 3,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 104,
+     "TOI": 20.95625,
+     "age": 22
+    }
+   ],
+   "among": 3041,
+   "text": "Most points in a single postseason in the 2000s: Evgeni Malkin, 2008-09 — 36 in 24 games.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 48,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 24,
+     "G": 15,
+     "A": 16,
+     "P": 31,
+     "PIM": 14,
+     "PM": 9,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 79,
+     "TOI": 20.811805,
+     "age": 21
+    }
+   ],
+   "among": 3041,
+   "text": "Most goals in a single postseason in the 2000s: Sidney Crosby, 2008-09 — 15 in 24 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2008,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 56,
+     "A": 54,
+     "P": 110,
+     "PIM": 72,
+     "PM": 8,
+     "PPG": 19,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 528,
+     "TOI": 23.00464,
+     "age": 23
+    }
+   ],
+   "among": 7906,
+   "text": "Most shots in a season in the 2000s: Alex Ovechkin, 2008-09 — 528.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2007,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 65,
+     "A": 47,
+     "P": 112,
+     "PIM": 40,
+     "PM": 28,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 446,
+     "TOI": 22.917681666666667,
+     "age": 22
+    }
+   ],
+   "among": 4704,
+   "text": "Most goals per game in a season (60% of games) in the 2000s: Alex Ovechkin, 2007-08 — 0.79.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2005,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 52,
+     "PM": 2,
+     "PPG": 21,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 425,
+     "TOI": 21.62181,
+     "age": 20
+    }
+   ],
+   "among": 1232,
+   "text": "Most goals in a first NHL season in the 2000s: Alex Ovechkin, 2005-06 — 52.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "x_toi",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "season": 2001,
+     "team": "DET",
+     "pos": "D",
+     "GP": 78,
+     "G": 9,
+     "A": 50,
+     "P": 59,
+     "PIM": 20,
+     "PM": 13,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 215,
+     "TOI": 28.390596666666667,
+     "age": 31
+    }
+   ],
+   "among": 4704,
+   "text": "Most ice time per game in a season in the 2000s: Nicklas Lidstrom, 2001-02 — 28.4 minutes.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Ice-time workload shows who coaches trusted most."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2006,
+     "team": "NJD",
+     "GP": 78,
+     "A": 1,
+     "PIM": 12,
+     "W": 48,
+     "L": 23,
+     "OTL": 7,
+     "SO": 12,
+     "GAA": 2.18458,
+     "SVP": 0.92163,
+     "SV": 2011,
+     "GA": 171
+    }
+   ],
+   "among": 799,
+   "text": "Most shutouts in a season in the 2000s: Martin Brodeur, 2006-07 — 12.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "gx_gp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2006,
+     "team": "NJD",
+     "GP": 78,
+     "A": 1,
+     "PIM": 12,
+     "W": 48,
+     "L": 23,
+     "OTL": 7,
+     "SO": 12,
+     "GAA": 2.18458,
+     "SVP": 0.92163,
+     "SV": 2011,
+     "GA": 171
+    }
+   ],
+   "among": 799,
+   "text": "Most games by a goalie in a season in the 2000s: Martin Brodeur, 2006-07 — 78.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "pogx_so",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2002,
+     "team": "NJD",
+     "GP": 24,
+     "A": 1,
+     "PIM": 6,
+     "W": 16,
+     "L": 8,
+     "T": 0,
+     "SO": 7,
+     "GAA": 1.65037,
+     "SVP": 0.93408,
+     "SV": 581,
+     "GA": 41
+    }
+   ],
+   "among": 224,
+   "text": "Most shutouts in a single postseason in the 2000s: Martin Brodeur, 2002-03 — 7.",
+   "why": "The high-water mark of the 2000s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 56,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "2000s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2005,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 81,
+     "G": 52,
+     "A": 54,
+     "P": 106,
+     "PIM": 52,
+     "PM": 2,
+     "PPG": 21,
+     "SHG": 3,
+     "GWG": 5,
+     "S": 425,
+     "TOI": 21.62181,
+     "age": 20
+    }
+   ],
+   "among": 1232,
+   "text": "Most points in a first NHL season in the 2000s: Alex Ovechkin, 2005-06 — 106.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 57,
+   "rule": "h_old_p",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2006,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 36,
+     "A": 64,
+     "P": 100,
+     "PIM": 46,
+     "PM": 2,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 258,
+     "TOI": 20.1876,
+     "age": 37
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 2006,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 82,
+     "G": 48,
+     "A": 46,
+     "P": 94,
+     "PIM": 82,
+     "PM": 26,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 257,
+     "TOI": 17.694511666666664,
+     "age": 36
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 2002,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 67,
+     "G": 28,
+     "A": 63,
+     "P": 91,
+     "PIM": 43,
+     "PM": -25,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 235,
+     "TOI": 22.7,
+     "age": 37
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2005,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 32,
+     "A": 55,
+     "P": 87,
+     "PIM": 60,
+     "PM": 10,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 263,
+     "TOI": 19.915039999999998,
+     "age": 36
+    },
+    {
+     "id": 8449951,
+     "name": "Adam Oates",
+     "season": 2000,
+     "team": "WSH",
+     "pos": "C",
+     "GP": 81,
+     "G": 13,
+     "A": 69,
+     "P": 82,
+     "PIM": 28,
+     "PM": -9,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 72,
+     "TOI": 20.998353333333334,
+     "age": 38
+    },
+    {
+     "id": 8445735,
+     "name": "Rod Brind'Amour",
+     "season": 2006,
+     "team": "CAR",
+     "pos": "C",
+     "GP": 78,
+     "G": 26,
+     "A": 56,
+     "P": 82,
+     "PIM": 46,
+     "PM": 7,
+     "PPG": 9,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 181,
+     "TOI": 23.318375,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 30,
+   "kind": "list",
+   "score": 5.5,
+   "players": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "18 players recorded 60 points at age 36 or older in the 2000s (30 seasons). The most extreme: Joe Sakic, 2006-07 — 100 points at 37.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 58,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459444,
+     "name": "Todd Bertuzzi",
+     "season": 2002,
+     "team": "VAN",
+     "pos": "R",
+     "GP": 82,
+     "G": 46,
+     "A": 51,
+     "P": 97,
+     "PIM": 144,
+     "PM": 2,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 243,
+     "TOI": 20.569105,
+     "age": 27
+    },
+    {
+     "id": 8470612,
+     "name": "Ryan Getzlaf",
+     "season": 2008,
+     "team": "ANA",
+     "pos": "C",
+     "GP": 81,
+     "G": 25,
+     "A": 66,
+     "P": 91,
+     "PIM": 121,
+     "PM": 5,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 227,
+     "TOI": 20.130451666666666,
+     "age": 23
+    },
+    {
+     "id": 8456464,
+     "name": "Bill Guerin",
+     "season": 2000,
+     "team": "EDM,BOS",
+     "pos": "R",
+     "GP": 85,
+     "G": 40,
+     "A": 45,
+     "P": 85,
+     "PIM": 140,
+     "PM": 7,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 289,
+     "TOI": 21.822548333333334,
+     "age": 30
+    },
+    {
+     "id": 8458229,
+     "name": "Keith Tkachuk",
+     "season": 2000,
+     "team": "PHX,STL",
+     "pos": "L",
+     "GP": 76,
+     "G": 35,
+     "A": 44,
+     "P": 79,
+     "PIM": 122,
+     "PM": 3,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 271,
+     "TOI": 20.092761666666668,
+     "age": 28
+    },
+    {
+     "id": 8446847,
+     "name": "Theo Fleury",
+     "season": 2000,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 62,
+     "G": 30,
+     "A": 44,
+     "P": 74,
+     "PIM": 122,
+     "PM": 0,
+     "PPG": 8,
+     "SHG": 7,
+     "GWG": 3,
+     "S": 238,
+     "TOI": 21.787633333333336,
+     "age": 32
+    },
+    {
+     "id": 8458515,
+     "name": "Eric Lindros",
+     "season": 2001,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 72,
+     "G": 37,
+     "A": 36,
+     "P": 73,
+     "PIM": 138,
+     "PM": 19,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 196,
+     "TOI": 21.054628333333334,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 5.425,
+   "players": [
+    {
+     "id": 8459444,
+     "name": "Todd Bertuzzi"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "13 players recorded 60 points and 120 penalty minutes in the 2000s (16 seasons). The most extreme: Todd Bertuzzi, 2002-03 — 97 pts, 144 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 59,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2005,
+     "team": "BOS,SJS",
+     "pos": "C",
+     "GP": 81,
+     "G": 29,
+     "A": 96,
+     "P": 125,
+     "PIM": 61,
+     "PM": 31,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 195,
+     "TOI": 21.336625,
+     "age": 26
+    },
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2006,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 22,
+     "A": 92,
+     "P": 114,
+     "PIM": 44,
+     "PM": 24,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 213,
+     "TOI": 20.31239833333333,
+     "age": 27
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2006,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 79,
+     "G": 36,
+     "A": 84,
+     "P": 120,
+     "PIM": 60,
+     "PM": 10,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 250,
+     "TOI": 20.759071666666667,
+     "age": 19
+    },
+    {
+     "id": 8467876,
+     "name": "Henrik Sedin",
+     "season": 2009,
+     "team": "VAN",
+     "pos": "C",
+     "GP": 82,
+     "G": 29,
+     "A": 83,
+     "P": 112,
+     "PIM": 48,
+     "PM": 35,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 166,
+     "TOI": 19.68780333333333,
+     "age": 29
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 35,
+     "A": 78,
+     "P": 113,
+     "PIM": 80,
+     "PM": 17,
+     "PPG": 14,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 290,
+     "TOI": 22.517071666666666,
+     "age": 22
+    },
+    {
+     "id": 8458520,
+     "name": "Peter Forsberg",
+     "season": 2002,
+     "team": "COL",
+     "pos": "C",
+     "GP": 75,
+     "G": 29,
+     "A": 77,
+     "P": 106,
+     "PIM": 70,
+     "PM": 52,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 166,
+     "TOI": 19.326666666666664,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 5.4,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "7 players recorded 70 assists in the 2000s (10 seasons). The most extreme: Joe Thornton, 2005-06 — 96 assists.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 60,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2005,
+     "team": "BOS,SJS",
+     "pos": "C",
+     "GP": 81,
+     "G": 29,
+     "A": 96,
+     "P": 125,
+     "PIM": 61,
+     "PM": 31,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 195,
+     "TOI": 21.336625,
+     "age": 26
+    },
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2006,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 22,
+     "A": 92,
+     "P": 114,
+     "PIM": 44,
+     "PM": 24,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 213,
+     "TOI": 20.31239833333333,
+     "age": 27
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2006,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 79,
+     "G": 36,
+     "A": 84,
+     "P": 120,
+     "PIM": 60,
+     "PM": 10,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 250,
+     "TOI": 20.759071666666667,
+     "age": 19
+    },
+    {
+     "id": 8467876,
+     "name": "Henrik Sedin",
+     "season": 2009,
+     "team": "VAN",
+     "pos": "C",
+     "GP": 82,
+     "G": 29,
+     "A": 83,
+     "P": 112,
+     "PIM": 48,
+     "PM": 35,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 5,
+     "S": 166,
+     "TOI": 19.68780333333333,
+     "age": 29
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 82,
+     "G": 35,
+     "A": 78,
+     "P": 113,
+     "PIM": 80,
+     "PM": 17,
+     "PPG": 14,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 290,
+     "TOI": 22.517071666666666,
+     "age": 22
+    },
+    {
+     "id": 8458520,
+     "name": "Peter Forsberg",
+     "season": 2002,
+     "team": "COL",
+     "pos": "C",
+     "GP": 75,
+     "G": 29,
+     "A": 77,
+     "P": 106,
+     "PIM": 70,
+     "PM": 52,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 166,
+     "TOI": 19.326666666666664,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 61,
+   "kind": "list",
+   "score": 5.4,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "34 players recorded 56 assists with twice as many assists as goals in the 2000s (61 seasons). The most extreme: Joe Thornton, 2005-06 — 96A, 29G.",
+   "why": "Leads with the most extreme case, which carries the post. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 61,
+   "rule": "g_sv",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8460806,
+     "name": "Dwayne Roloson",
+     "season": 2003,
+     "team": "MIN",
+     "GP": 48,
+     "A": 1,
+     "PIM": 8,
+     "W": 19,
+     "L": 18,
+     "T": 11,
+     "SO": 5,
+     "GAA": 1.8757,
+     "SVP": 0.93272,
+     "SV": 1234,
+     "GA": 89
+    },
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff",
+     "season": 2003,
+     "team": "CGY",
+     "GP": 38,
+     "A": 1,
+     "PIM": 15,
+     "W": 24,
+     "L": 10,
+     "T": 4,
+     "SO": 4,
+     "GAA": 1.69525,
+     "SVP": 0.93271,
+     "SV": 901,
+     "GA": 65
+    },
+    {
+     "id": 8460703,
+     "name": "Tim Thomas",
+     "season": 2008,
+     "team": "BOS",
+     "GP": 54,
+     "A": 1,
+     "PIM": 6,
+     "W": 36,
+     "L": 11,
+     "OTL": 7,
+     "SO": 5,
+     "GAA": 2.09892,
+     "SVP": 0.9327,
+     "SV": 1580,
+     "GA": 114
+    },
+    {
+     "id": 8460612,
+     "name": "Marty Turco",
+     "season": 2002,
+     "team": "DAL",
+     "GP": 55,
+     "A": 3,
+     "PIM": 16,
+     "W": 31,
+     "L": 10,
+     "T": 10,
+     "SO": 7,
+     "GAA": 1.72362,
+     "SVP": 0.9323,
+     "SV": 1267,
+     "GA": 92
+    },
+    {
+     "id": 8471695,
+     "name": "Tuukka Rask",
+     "season": 2009,
+     "team": "BOS",
+     "GP": 45,
+     "A": 3,
+     "PIM": 2,
+     "W": 22,
+     "L": 12,
+     "OTL": 5,
+     "SO": 5,
+     "GAA": 1.96707,
+     "SVP": 0.9312,
+     "SV": 1137,
+     "GA": 84
+    },
+    {
+     "id": 8460535,
+     "name": "Jose Theodore",
+     "season": 2001,
+     "team": "MTL",
+     "GP": 67,
+     "A": 2,
+     "PIM": 2,
+     "W": 30,
+     "L": 24,
+     "T": 10,
+     "SO": 7,
+     "GAA": 2.11182,
+     "SVP": 0.93103,
+     "SV": 1836,
+     "GA": 136
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 5.0680000000000005,
+   "players": [
+    {
+     "id": 8460806,
+     "name": "Dwayne Roloson"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "7 goalies posted a .930 saved percentage (40% of games) in the 2000s. The most extreme: Dwayne Roloson, 2003-04 — .933 in 48 games.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "total": 350,
+     "seasons": 9
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "total": 338,
+     "seasons": 8
+    },
+    {
+     "id": 8466148,
+     "name": "Marian Hossa",
+     "total": 319,
+     "seasons": 9
+    },
+    {
+     "id": 8468482,
+     "name": "Dany Heatley",
+     "total": 299,
+     "seasons": 8
+    },
+    {
+     "id": 8467329,
+     "name": "Vincent Lecavalier",
+     "total": 288,
+     "seasons": 9
+    }
+   ],
+   "text": "Most goals of the 2000s: Jarome Iginla, 350 (next: Ilya Kovalchuk, 338).",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 63,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8467493,
+     "name": "Chris Neil"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467493,
+     "name": "Chris Neil",
+     "total": 1473,
+     "seasons": 8
+    },
+    {
+     "id": 8459246,
+     "name": "Donald Brashear",
+     "total": 1352,
+     "seasons": 9
+    },
+    {
+     "id": 8462535,
+     "name": "Jody Shelley",
+     "total": 1347,
+     "seasons": 9
+    },
+    {
+     "id": 8468224,
+     "name": "Sean Avery",
+     "total": 1338,
+     "seasons": 8
+    },
+    {
+     "id": 8459094,
+     "name": "Ian Laperriere",
+     "total": 1160,
+     "seasons": 9
+    }
+   ],
+   "text": "Most penalty minutes of the 2000s: Chris Neil, 1,473.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 64,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "total": 58,
+     "seasons": 9
+    },
+    {
+     "id": 8460542,
+     "name": "Patrik Elias",
+     "total": 53,
+     "seasons": 9
+    },
+    {
+     "id": 8468482,
+     "name": "Dany Heatley",
+     "total": 53,
+     "seasons": 8
+    },
+    {
+     "id": 8466148,
+     "name": "Marian Hossa",
+     "total": 52,
+     "seasons": 9
+    },
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "total": 51,
+     "seasons": 9
+    }
+   ],
+   "text": "Most game-winning goals of the 2000s: Jarome Iginla, 58.",
+   "why": "A decade-long view that settles consistency debates. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 65,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8459596,
+     "name": "Andrew Brunette"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459596,
+     "name": "Andrew Brunette",
+     "total": 730,
+     "seasons": 9
+    },
+    {
+     "id": 8467876,
+     "name": "Henrik Sedin",
+     "total": 728,
+     "seasons": 9
+    },
+    {
+     "id": 8466140,
+     "name": "Olli Jokinen",
+     "total": 725,
+     "seasons": 9
+    },
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "total": 719,
+     "seasons": 9
+    },
+    {
+     "id": 8459492,
+     "name": "Vinny Prospal",
+     "total": 717,
+     "seasons": 9
+    }
+   ],
+   "text": "Most games played in the 2000s: Andrew Brunette, 730.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 66,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2000
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 13
+    },
+    {
+     "season": 2001,
+     "count": 5
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 11
+    },
+    {
+     "season": 2006,
+     "count": 10
+    },
+    {
+     "season": 2007,
+     "count": 10
+    },
+    {
+     "season": 2008,
+     "count": 8
+    },
+    {
+     "season": 2009,
+     "count": 7
+    }
+   ],
+   "text": "2000-01 had 13 40-goal scorers, the most of any season in the 2000s.",
+   "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 67,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 13
+    },
+    {
+     "season": 2001,
+     "count": 5
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 3
+    },
+    {
+     "season": 2005,
+     "count": 11
+    },
+    {
+     "season": 2006,
+     "count": 10
+    },
+    {
+     "season": 2007,
+     "count": 10
+    },
+    {
+     "season": 2008,
+     "count": 8
+    },
+    {
+     "season": 2009,
+     "count": 7
+    }
+   ],
+   "text": "2003-04 had just 3 40-goal scorers, the fewest of any season in the 2000s.",
+   "why": "The low point of the 2000s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 68,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 8
+    },
+    {
+     "season": 2001,
+     "count": 2
+    },
+    {
+     "season": 2002,
+     "count": 8
+    },
+    {
+     "season": 2003,
+     "count": 1
+    },
+    {
+     "season": 2005,
+     "count": 14
+    },
+    {
+     "season": 2006,
+     "count": 14
+    },
+    {
+     "season": 2007,
+     "count": 8
+    },
+    {
+     "season": 2008,
+     "count": 7
+    },
+    {
+     "season": 2009,
+     "count": 7
+    }
+   ],
+   "text": "2003-04 had just one 90-point player, the fewest of any season in the 2000s.",
+   "why": "The low point of the 2000s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 69,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2005
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 28
+    },
+    {
+     "season": 2001,
+     "count": 10
+    },
+    {
+     "season": 2002,
+     "count": 17
+    },
+    {
+     "season": 2003,
+     "count": 9
+    },
+    {
+     "season": 2005,
+     "count": 34
+    },
+    {
+     "season": 2006,
+     "count": 31
+    },
+    {
+     "season": 2007,
+     "count": 23
+    },
+    {
+     "season": 2008,
+     "count": 20
+    },
+    {
+     "season": 2009,
+     "count": 21
+    }
+   ],
+   "text": "2005-06 had 34 point-a-game players (60% of games), the most of any season in the 2000s.",
+   "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 70,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2003
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 28
+    },
+    {
+     "season": 2001,
+     "count": 10
+    },
+    {
+     "season": 2002,
+     "count": 17
+    },
+    {
+     "season": 2003,
+     "count": 9
+    },
+    {
+     "season": 2005,
+     "count": 34
+    },
+    {
+     "season": 2006,
+     "count": 31
+    },
+    {
+     "season": 2007,
+     "count": 23
+    },
+    {
+     "season": 2008,
+     "count": 20
+    },
+    {
+     "season": 2009,
+     "count": 21
+    }
+   ],
+   "text": "2003-04 had just 9 point-a-game players (60% of games), the fewest of any season in the 2000s.",
+   "why": "The low point of the 2000s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 71,
+   "kind": "season",
+   "rule": "c_dg_most",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    2008
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 2000,
+     "count": 8
+    },
+    {
+     "season": 2001,
+     "count": 6
+    },
+    {
+     "season": 2002,
+     "count": 6
+    },
+    {
+     "season": 2003,
+     "count": 7
+    },
+    {
+     "season": 2005,
+     "count": 10
+    },
+    {
+     "season": 2006,
+     "count": 9
+    },
+    {
+     "season": 2007,
+     "count": 7
+    },
+    {
+     "season": 2008,
+     "count": 11
+    },
+    {
+     "season": 2009,
+     "count": 6
+    }
+   ],
+   "text": "2008-09 had 11 defensemen with 15+ goals, the most of any season in the 2000s.",
+   "why": "The peak year for this across the 2000s; fans can argue why that season stood out. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 72,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "total": 823,
+     "seasons": 9
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "total": 724,
+     "seasons": 9
+    },
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "total": 723,
+     "seasons": 9
+    },
+    {
+     "id": 8466148,
+     "name": "Marian Hossa",
+     "total": 683,
+     "seasons": 9
+    },
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis",
+     "total": 659,
+     "seasons": 9
+    }
+   ],
+   "text": "Most points of the 2000s: Joe Thornton, 823 (next: Jarome Iginla, 724).",
+   "why": "A decade-long view that settles consistency debates. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 73,
+   "kind": "total",
+   "rule": "tt_pm",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "total": 235,
+     "seasons": 9
+    },
+    {
+     "id": 8467514,
+     "name": "Pavel Datsyuk",
+     "total": 176,
+     "seasons": 8
+    },
+    {
+     "id": 8460542,
+     "name": "Patrik Elias",
+     "total": 150,
+     "seasons": 9
+    },
+    {
+     "id": 8467338,
+     "name": "Alex Tanguay",
+     "total": 149,
+     "seasons": 9
+    },
+    {
+     "id": 8467856,
+     "name": "Brian Rafalski",
+     "total": 146,
+     "seasons": 9
+    }
+   ],
+   "text": "Best combined plus-minus of the 2000s: Nicklas Lidstrom, +235.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 74,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "total": 550,
+     "seasons": 9
+    },
+    {
+     "id": 8458951,
+     "name": "Sergei Gonchar",
+     "total": 500,
+     "seasons": 9
+    },
+    {
+     "id": 8467856,
+     "name": "Brian Rafalski",
+     "total": 435,
+     "seasons": 9
+    },
+    {
+     "id": 8458517,
+     "name": "Scott Niedermayer",
+     "total": 425,
+     "seasons": 9
+    },
+    {
+     "id": 8465200,
+     "name": "Tomas Kaberle",
+     "total": 420,
+     "seasons": 9
+    }
+   ],
+   "text": "Most points by a defenseman in the 2000s: Nicklas Lidstrom, 550.",
+   "why": "A decade-long view that settles consistency debates. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 75,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8468482,
+     "name": "Dany Heatley",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8458530,
+     "name": "Markus Naslund",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "total": 3,
+     "seasons": 3
+    }
+   ],
+   "text": "Most 40-goal seasons in the 2000s: Ilya Kovalchuk, 6.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 76,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "total": 580,
+     "seasons": 9
+    },
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "total": 447,
+     "seasons": 9
+    },
+    {
+     "id": 8467389,
+     "name": "Brad Richards",
+     "total": 447,
+     "seasons": 9
+    },
+    {
+     "id": 8457063,
+     "name": "Nicklas Lidstrom",
+     "total": 434,
+     "seasons": 9
+    },
+    {
+     "id": 8467876,
+     "name": "Henrik Sedin",
+     "total": 434,
+     "seasons": 9
+    }
+   ],
+   "text": "Most assists of the 2000s: Joe Thornton, 580.",
+   "why": "A decade-long view that settles consistency debates. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 77,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "total": 3,
+     "seasons": 3
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "total": 3,
+     "seasons": 3
+    }
+   ],
+   "text": "Most 90-point seasons in the 2000s: Alex Ovechkin, 5.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 78,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "total": 358,
+     "seasons": 9
+    },
+    {
+     "id": 8460705,
+     "name": "Evgeni Nabokov",
+     "total": 291,
+     "seasons": 9
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "total": 263,
+     "seasons": 9
+    },
+    {
+     "id": 8460612,
+     "name": "Marty Turco",
+     "total": 262,
+     "seasons": 9
+    },
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff",
+     "total": 239,
+     "seasons": 9
+    }
+   ],
+   "text": "Most goalie wins of the 2000s: Martin Brodeur, 358.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "total": 68,
+     "seasons": 9
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "total": 50,
+     "seasons": 9
+    },
+    {
+     "id": 8460705,
+     "name": "Evgeni Nabokov",
+     "total": 49,
+     "seasons": 9
+    },
+    {
+     "id": 8460612,
+     "name": "Marty Turco",
+     "total": 40,
+     "seasons": 9
+    },
+    {
+     "id": 8447687,
+     "name": "Dominik Hasek",
+     "total": 36,
+     "seasons": 6
+    }
+   ],
+   "text": "Most shutouts of the 2000s: Martin Brodeur, 68.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 80,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "2000s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "total": 629,
+     "seasons": 9
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "total": 588,
+     "seasons": 9
+    },
+    {
+     "id": 8460705,
+     "name": "Evgeni Nabokov",
+     "total": 552,
+     "seasons": 9
+    },
+    {
+     "id": 8460612,
+     "name": "Marty Turco",
+     "total": 509,
+     "seasons": 9
+    },
+    {
+     "id": 8460712,
+     "name": "Tomas Vokoun",
+     "total": 504,
+     "seasons": 9
+    }
+   ],
+   "text": "Most games in goal in the 2000s: Martin Brodeur, 629.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 81,
+   "rule": "g_gp",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2006,
+     "team": "NJD",
+     "GP": 78,
+     "A": 1,
+     "PIM": 12,
+     "W": 48,
+     "L": 23,
+     "OTL": 7,
+     "SO": 12,
+     "GAA": 2.18458,
+     "SVP": 0.92163,
+     "SV": 2011,
+     "GA": 171
+    },
+    {
+     "id": 8456692,
+     "name": "Arturs Irbe",
+     "season": 2000,
+     "team": "CAR",
+     "GP": 77,
+     "A": 2,
+     "PIM": 6,
+     "W": 37,
+     "L": 29,
+     "T": 9,
+     "SO": 6,
+     "GAA": 2.45139,
+     "SVP": 0.90755,
+     "SV": 1767,
+     "GA": 180
+    },
+    {
+     "id": 8462055,
+     "name": "Marc Denis",
+     "season": 2002,
+     "team": "CBJ",
+     "GP": 77,
+     "A": 0,
+     "PIM": 6,
+     "W": 27,
+     "L": 41,
+     "T": 8,
+     "SO": 5,
+     "GAA": 3.08584,
+     "SVP": 0.90349,
+     "SV": 2172,
+     "GA": 232
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2007,
+     "team": "NJD",
+     "GP": 77,
+     "A": 4,
+     "PIM": 6,
+     "W": 44,
+     "L": 27,
+     "OTL": 6,
+     "SO": 4,
+     "GAA": 2.17473,
+     "SVP": 0.91957,
+     "SV": 1921,
+     "GA": 168
+    },
+    {
+     "id": 8460705,
+     "name": "Evgeni Nabokov",
+     "season": 2007,
+     "team": "SJS",
+     "GP": 77,
+     "A": 2,
+     "PIM": 12,
+     "W": 46,
+     "L": 21,
+     "OTL": 8,
+     "SO": 6,
+     "GAA": 2.14429,
+     "SVP": 0.90954,
+     "SV": 1639,
+     "GA": 163
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2009,
+     "team": "NJD",
+     "GP": 77,
+     "A": 3,
+     "PIM": 6,
+     "W": 45,
+     "L": 25,
+     "OTL": 6,
+     "SO": 9,
+     "GAA": 2.24044,
+     "SVP": 0.91616,
+     "SV": 1836,
+     "GA": 168
+    }
+   ],
+   "seasonsMatched": 31,
+   "kind": "list",
+   "score": 4.95,
+   "players": [
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "15 goalies played 72 games in the 2000s (31 seasons). The most extreme: Martin Brodeur, 2006-07 — 78 GP.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 82,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8459462,
+     "name": "Bryan McCabe",
+     "season": 2005,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 73,
+     "G": 19,
+     "A": 49,
+     "P": 68,
+     "PIM": 116,
+     "PM": -1,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 207,
+     "TOI": 28.295661666666668,
+     "age": 30
+    },
+    {
+     "id": 8460561,
+     "name": "Sheldon Souray",
+     "season": 2006,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 81,
+     "G": 26,
+     "A": 38,
+     "P": 64,
+     "PIM": 135,
+     "PM": -28,
+     "PPG": 19,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 224,
+     "TOI": 23.190123333333336,
+     "age": 30
+    },
+    {
+     "id": 8470602,
+     "name": "Dion Phaneuf",
+     "season": 2007,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 82,
+     "G": 17,
+     "A": 43,
+     "P": 60,
+     "PIM": 182,
+     "PM": 12,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 263,
+     "TOI": 26.20691,
+     "age": 22
+    },
+    {
+     "id": 8458951,
+     "name": "Sergei Gonchar",
+     "season": 2005,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 75,
+     "G": 12,
+     "A": 46,
+     "P": 58,
+     "PIM": 100,
+     "PM": -13,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 192,
+     "TOI": 24.668443333333336,
+     "age": 31
+    },
+    {
+     "id": 8459462,
+     "name": "Bryan McCabe",
+     "season": 2006,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 82,
+     "G": 15,
+     "A": 42,
+     "P": 57,
+     "PIM": 115,
+     "PM": 3,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 207,
+     "TOI": 26.82947,
+     "age": 31
+    },
+    {
+     "id": 8458527,
+     "name": "Philippe Boucher",
+     "season": 2006,
+     "team": "DAL",
+     "pos": "D",
+     "GP": 76,
+     "G": 19,
+     "A": 32,
+     "P": 51,
+     "PIM": 104,
+     "PM": 2,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 222,
+     "TOI": 22.899121666666666,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 4.7,
+   "players": [
+    {
+     "id": 8459462,
+     "name": "Bryan McCabe"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "10 players recorded 42 points and 100 penalty minutes as a defenseman in the 2000s (18 seasons). The most extreme: Bryan McCabe, 2005-06 — 68 pts, 116 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 83,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2007,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 65,
+     "A": 47,
+     "P": 112,
+     "PIM": 40,
+     "PM": 28,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 446,
+     "TOI": 22.917681666666667,
+     "age": 22
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 2000,
+     "team": "FLA",
+     "pos": "R",
+     "GP": 82,
+     "G": 59,
+     "A": 33,
+     "P": 92,
+     "PIM": 58,
+     "PM": -2,
+     "PPG": 19,
+     "SHG": 5,
+     "GWG": 8,
+     "S": 384,
+     "TOI": 23.241463333333336,
+     "age": 29
+    },
+    {
+     "id": 8467357,
+     "name": "Jonathan Cheechoo",
+     "season": 2005,
+     "team": "SJS",
+     "pos": "R",
+     "GP": 82,
+     "G": 56,
+     "A": 37,
+     "P": 93,
+     "PIM": 58,
+     "PM": 23,
+     "PPG": 24,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 317,
+     "TOI": 19.957316666666667,
+     "age": 25
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2008,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 56,
+     "A": 54,
+     "P": 110,
+     "PIM": 72,
+     "PM": 8,
+     "PPG": 19,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 528,
+     "TOI": 23.00464,
+     "age": 23
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2000,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 54,
+     "A": 64,
+     "P": 118,
+     "PIM": 30,
+     "PM": 45,
+     "PPG": 19,
+     "SHG": 3,
+     "GWG": 12,
+     "S": 332,
+     "TOI": 23.017885,
+     "age": 31
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 2005,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 82,
+     "G": 54,
+     "A": 69,
+     "P": 123,
+     "PIM": 72,
+     "PM": 34,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 368,
+     "TOI": 22.075,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 4.625,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "12 players scored 50 goals in the 2000s (19 seasons). The most extreme: Alex Ovechkin, 2007-08 — 65 goals in 82 games.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 84,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2007,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 65,
+     "A": 47,
+     "P": 112,
+     "PIM": 40,
+     "PM": 28,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 446,
+     "TOI": 22.917681666666667,
+     "age": 22
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 2000,
+     "team": "FLA",
+     "pos": "R",
+     "GP": 82,
+     "G": 59,
+     "A": 33,
+     "P": 92,
+     "PIM": 58,
+     "PM": -2,
+     "PPG": 19,
+     "SHG": 5,
+     "GWG": 8,
+     "S": 384,
+     "TOI": 23.241463333333336,
+     "age": 29
+    },
+    {
+     "id": 8467357,
+     "name": "Jonathan Cheechoo",
+     "season": 2005,
+     "team": "SJS",
+     "pos": "R",
+     "GP": 82,
+     "G": 56,
+     "A": 37,
+     "P": 93,
+     "PIM": 58,
+     "PM": 23,
+     "PPG": 24,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 317,
+     "TOI": 19.957316666666667,
+     "age": 25
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2008,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 56,
+     "A": 54,
+     "P": 110,
+     "PIM": 72,
+     "PM": 8,
+     "PPG": 19,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 528,
+     "TOI": 23.00464,
+     "age": 23
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2001,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 82,
+     "G": 52,
+     "A": 44,
+     "P": 96,
+     "PIM": 77,
+     "PM": 27,
+     "PPG": 16,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 311,
+     "TOI": 22.361991666666665,
+     "age": 24
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2005,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 78,
+     "G": 52,
+     "A": 46,
+     "P": 98,
+     "PIM": 68,
+     "PM": -6,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 323,
+     "TOI": 22.187606666666667,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 67,
+   "kind": "list",
+   "score": 4.625,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "44 players scored 35 goals with more goals than assists in the 2000s (67 seasons). The most extreme: Alex Ovechkin, 2007-08 — 65G, 47A.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 85,
+   "rule": "h_euro",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2007,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 65,
+     "A": 47,
+     "P": 112,
+     "PIM": 40,
+     "PM": 28,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 446,
+     "TOI": 22.917681666666667,
+     "age": 22
+    },
+    {
+     "id": 8455738,
+     "name": "Pavel Bure",
+     "season": 2000,
+     "team": "FLA",
+     "pos": "R",
+     "GP": 82,
+     "G": 59,
+     "A": 33,
+     "P": 92,
+     "PIM": 58,
+     "PM": -2,
+     "PPG": 19,
+     "SHG": 5,
+     "GWG": 8,
+     "S": 384,
+     "TOI": 23.241463333333336,
+     "age": 29
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2008,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 79,
+     "G": 56,
+     "A": 54,
+     "P": 110,
+     "PIM": 72,
+     "PM": 8,
+     "PPG": 19,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 528,
+     "TOI": 23.00464,
+     "age": 23
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 2005,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 82,
+     "G": 54,
+     "A": 69,
+     "P": 123,
+     "PIM": 72,
+     "PM": 34,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 368,
+     "TOI": 22.075,
+     "age": 33
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 2000,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 81,
+     "G": 52,
+     "A": 69,
+     "P": 121,
+     "PIM": 42,
+     "PM": 19,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 317,
+     "TOI": 23.309053333333335,
+     "age": 28
+    },
+    {
+     "id": 8469454,
+     "name": "Ilya Kovalchuk",
+     "season": 2005,
+     "team": "ATL",
+     "pos": "L",
+     "GP": 78,
+     "G": 52,
+     "A": 46,
+     "P": 98,
+     "PIM": 68,
+     "PM": -6,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 323,
+     "TOI": 22.187606666666667,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 43,
+   "kind": "list",
+   "score": 4.625,
+   "players": [
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin"
+    }
+   ],
+   "seasons": [
+    2007
+   ],
+   "text": "21 players scored 40 goals, born outside North America in the 2000s (43 seasons). The most extreme: Alex Ovechkin, 2007-08 — 65 goals (born RUS).",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 86,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2005,
+     "team": "BOS,SJS",
+     "pos": "C",
+     "GP": 81,
+     "G": 29,
+     "A": 96,
+     "P": 125,
+     "PIM": 61,
+     "PM": 31,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 195,
+     "TOI": 21.336625,
+     "age": 26
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 2005,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 82,
+     "G": 54,
+     "A": 69,
+     "P": 123,
+     "PIM": 72,
+     "PM": 34,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 9,
+     "S": 368,
+     "TOI": 22.075,
+     "age": 33
+    },
+    {
+     "id": 8448208,
+     "name": "Jaromir Jagr",
+     "season": 2000,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 81,
+     "G": 52,
+     "A": 69,
+     "P": 121,
+     "PIM": 42,
+     "PM": 19,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 317,
+     "TOI": 23.309053333333335,
+     "age": 28
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2006,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 79,
+     "G": 36,
+     "A": 84,
+     "P": 120,
+     "PIM": 60,
+     "PM": 10,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 250,
+     "TOI": 20.759071666666667,
+     "age": 19
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2000,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 54,
+     "A": 64,
+     "P": 118,
+     "PIM": 30,
+     "PM": 45,
+     "PPG": 19,
+     "SHG": 3,
+     "GWG": 12,
+     "S": 332,
+     "TOI": 23.017885,
+     "age": 31
+    },
+    {
+     "id": 8466138,
+     "name": "Joe Thornton",
+     "season": 2006,
+     "team": "SJS",
+     "pos": "C",
+     "GP": 82,
+     "G": 22,
+     "A": 92,
+     "P": 114,
+     "PIM": 44,
+     "PM": 24,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 213,
+     "TOI": 20.31239833333333,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 28,
+   "kind": "list",
+   "score": 4.5625,
+   "players": [
+    {
+     "id": 8466138,
+     "name": "Joe Thornton"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "16 players recorded 100 points in the 2000s (28 seasons). The most extreme: Joe Thornton, 2005-06 — 125 points (29G, 96A).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 87,
+   "rule": "h_pm_hi",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8458520,
+     "name": "Peter Forsberg",
+     "season": 2002,
+     "team": "COL",
+     "pos": "C",
+     "GP": 75,
+     "G": 29,
+     "A": 77,
+     "P": 106,
+     "PIM": 70,
+     "PM": 52,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 166,
+     "TOI": 19.326666666666664,
+     "age": 29
+    },
+    {
+     "id": 8460577,
+     "name": "Milan Hejduk",
+     "season": 2002,
+     "team": "COL",
+     "pos": "R",
+     "GP": 82,
+     "G": 50,
+     "A": 48,
+     "P": 98,
+     "PIM": 32,
+     "PM": 52,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 244,
+     "TOI": 19.83841333333333,
+     "age": 26
+    },
+    {
+     "id": 8471240,
+     "name": "Jeff Schultz",
+     "season": 2009,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 73,
+     "G": 3,
+     "A": 20,
+     "P": 23,
+     "PIM": 32,
+     "PM": 50,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 43,
+     "TOI": 19.865296666666666,
+     "age": 23
+    },
+    {
+     "id": 8470598,
+     "name": "Thomas Vanek",
+     "season": 2006,
+     "team": "BUF",
+     "pos": "L",
+     "GP": 82,
+     "G": 43,
+     "A": 41,
+     "P": 84,
+     "PIM": 40,
+     "PM": 47,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 237,
+     "TOI": 16.775608333333334,
+     "age": 23
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2000,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 54,
+     "A": 64,
+     "P": 118,
+     "PIM": 30,
+     "PM": 45,
+     "PPG": 19,
+     "SHG": 3,
+     "GWG": 12,
+     "S": 332,
+     "TOI": 23.017885,
+     "age": 31
+    },
+    {
+     "id": 8460542,
+     "name": "Patrik Elias",
+     "season": 2000,
+     "team": "NJD",
+     "pos": "C",
+     "GP": 82,
+     "G": 40,
+     "A": 56,
+     "P": 96,
+     "PIM": 51,
+     "PM": 45,
+     "PPG": 8,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 220,
+     "TOI": 18.725201666666667,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.3,
+   "players": [
+    {
+     "id": 8458520,
+     "name": "Peter Forsberg"
+    }
+   ],
+   "seasons": [
+    2002
+   ],
+   "text": "13 players finished +40 or better in the 2000s (15 seasons). The most extreme: Peter Forsberg, 2002-03 — +52.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 88,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne",
+     "season": 2006,
+     "team": "ANA",
+     "pos": "R",
+     "GP": 82,
+     "G": 48,
+     "A": 46,
+     "P": 94,
+     "PIM": 82,
+     "PM": 26,
+     "PPG": 25,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 257,
+     "TOI": 17.694511666666664,
+     "age": 36
+    },
+    {
+     "id": 8451302,
+     "name": "Brendan Shanahan",
+     "season": 2005,
+     "team": "DET",
+     "pos": "L",
+     "GP": 82,
+     "G": 40,
+     "A": 41,
+     "P": 81,
+     "PIM": 105,
+     "PM": 29,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 289,
+     "TOI": 16.588006666666665,
+     "age": 37
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 2000,
+     "team": "DAL",
+     "pos": "R",
+     "GP": 79,
+     "G": 39,
+     "A": 40,
+     "P": 79,
+     "PIM": 18,
+     "PM": 10,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 219,
+     "TOI": 17.88691833333333,
+     "age": 36
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 2002,
+     "team": "DET",
+     "pos": "R",
+     "GP": 82,
+     "G": 37,
+     "A": 39,
+     "P": 76,
+     "PIM": 22,
+     "PM": 11,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 262,
+     "TOI": 17.63800666666667,
+     "age": 38
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2006,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 36,
+     "A": 64,
+     "P": 100,
+     "PIM": 46,
+     "PM": 2,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 258,
+     "TOI": 20.1876,
+     "age": 37
+    },
+    {
+     "id": 8456464,
+     "name": "Bill Guerin",
+     "season": 2006,
+     "team": "STL,SJS",
+     "pos": "R",
+     "GP": 77,
+     "G": 36,
+     "A": 20,
+     "P": 56,
+     "PIM": 66,
+     "PM": 10,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 225,
+     "TOI": 16.9987,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 29,
+   "kind": "list",
+   "score": 4.2,
+   "players": [
+    {
+     "id": 8457981,
+     "name": "Teemu Selanne"
+    }
+   ],
+   "seasons": [
+    2006
+   ],
+   "text": "20 players scored 25 goals at age 36 or older in the 2000s (29 seasons). The most extreme: Teemu Selanne, 2006-07 — 48 goals at 36.",
+   "why": "Leads with the most extreme case, which carries the post. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 89,
+   "rule": "h_usa",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467407,
+     "name": "Brian Gionta",
+     "season": 2005,
+     "team": "NJD",
+     "pos": "R",
+     "GP": 82,
+     "G": 48,
+     "A": 41,
+     "P": 89,
+     "PIM": 46,
+     "PM": 18,
+     "PPG": 24,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 291,
+     "TOI": 19.820528333333336,
+     "age": 27
+    },
+    {
+     "id": 8470610,
+     "name": "Zach Parise",
+     "season": 2008,
+     "team": "NJD",
+     "pos": "L",
+     "GP": 82,
+     "G": 45,
+     "A": 49,
+     "P": 94,
+     "PIM": 24,
+     "PM": 30,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 364,
+     "TOI": 18.757316666666668,
+     "age": 24
+    },
+    {
+     "id": 8456464,
+     "name": "Bill Guerin",
+     "season": 2001,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 78,
+     "G": 41,
+     "A": 25,
+     "P": 66,
+     "PIM": 91,
+     "PM": -1,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 355,
+     "TOI": 20.743803333333336,
+     "age": 31
+    },
+    {
+     "id": 8452569,
+     "name": "Scott Young",
+     "season": 2000,
+     "team": "STL",
+     "pos": "R",
+     "GP": 81,
+     "G": 40,
+     "A": 33,
+     "P": 73,
+     "PIM": 30,
+     "PM": 15,
+     "PPG": 14,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 321,
+     "TOI": 19.293619999999997,
+     "age": 33
+    },
+    {
+     "id": 8456464,
+     "name": "Bill Guerin",
+     "season": 2000,
+     "team": "EDM,BOS",
+     "pos": "R",
+     "GP": 85,
+     "G": 40,
+     "A": 45,
+     "P": 85,
+     "PIM": 140,
+     "PM": 7,
+     "PPG": 11,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 289,
+     "TOI": 21.822548333333334,
+     "age": 30
+    },
+    {
+     "id": 8467844,
+     "name": "Jason Blake",
+     "season": 2006,
+     "team": "NYI",
+     "pos": "L",
+     "GP": 82,
+     "G": 40,
+     "A": 29,
+     "P": 69,
+     "PIM": 34,
+     "PM": 1,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 305,
+     "TOI": 18.143901666666668,
+     "age": 33
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 4.2,
+   "players": [
+    {
+     "id": 8467407,
+     "name": "Brian Gionta"
+    }
+   ],
+   "seasons": [
+    2005
+   ],
+   "text": "5 players scored 40 goals, born in the United States in the 2000s (6 seasons). The most extreme: Brian Gionta, 2005-06 — 48 goals.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 90,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8467333,
+     "name": "Rico Fata",
+     "season": 2003,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 73,
+     "G": 16,
+     "A": 18,
+     "P": 34,
+     "PIM": 54,
+     "PM": -46,
+     "PPG": 6,
+     "SHG": 2,
+     "GWG": 1,
+     "S": 163,
+     "TOI": 17.968263333333333,
+     "age": 23
+    },
+    {
+     "id": 8458526,
+     "name": "Tyler Wright",
+     "season": 2001,
+     "team": "CBJ",
+     "pos": "C",
+     "GP": 77,
+     "G": 13,
+     "A": 11,
+     "P": 24,
+     "PIM": 100,
+     "PM": -40,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 120,
+     "TOI": 17.20281333333333,
+     "age": 28
+    },
+    {
+     "id": 8460757,
+     "name": "Dick Tarnstrom",
+     "season": 2003,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 80,
+     "G": 16,
+     "A": 36,
+     "P": 52,
+     "PIM": 38,
+     "PM": -37,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 158,
+     "TOI": 24.045208333333335,
+     "age": 29
+    },
+    {
+     "id": 8468498,
+     "name": "Brooks Orpik",
+     "season": 2003,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 79,
+     "G": 1,
+     "A": 9,
+     "P": 10,
+     "PIM": 127,
+     "PM": -36,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 56,
+     "TOI": 18.423838333333332,
+     "age": 23
+    },
+    {
+     "id": 8450725,
+     "name": "Mark Recchi",
+     "season": 2005,
+     "team": "PIT,CAR",
+     "pos": "R",
+     "GP": 83,
+     "G": 28,
+     "A": 36,
+     "P": 64,
+     "PIM": 68,
+     "PM": -36,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 199,
+     "TOI": 20.403011666666664,
+     "age": 38
+    },
+    {
+     "id": 8451359,
+     "name": "Mike Sillinger",
+     "season": 2001,
+     "team": "CBJ",
+     "pos": "C",
+     "GP": 80,
+     "G": 20,
+     "A": 23,
+     "P": 43,
+     "PIM": 54,
+     "PM": -35,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 150,
+     "TOI": 20.855208333333334,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.15,
+   "players": [
+    {
+     "id": 8467333,
+     "name": "Rico Fata"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "8 players finished -35 or worse in the 2000s. The most extreme: Rico Fata, 2003-04 — -46.",
+   "why": "Leads with the most extreme case, which carries the post. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 91,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 24,
+     "G": 14,
+     "A": 22,
+     "P": 36,
+     "PIM": 51,
+     "PM": 3,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 104,
+     "TOI": 20.95625,
+     "age": 22
+    },
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 24,
+     "G": 15,
+     "A": 16,
+     "P": 31,
+     "PIM": 14,
+     "PM": 9,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 79,
+     "TOI": 20.811805,
+     "age": 21
+    },
+    {
+     "id": 8464975,
+     "name": "Daniel Brière",
+     "season": 2009,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 23,
+     "G": 12,
+     "A": 18,
+     "P": 30,
+     "PIM": 18,
+     "PM": 9,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 63,
+     "TOI": 19.61739,
+     "age": 32
+    },
+    {
+     "id": 8473604,
+     "name": "Jonathan Toews",
+     "season": 2009,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 22,
+     "G": 7,
+     "A": 22,
+     "P": 29,
+     "PIM": 4,
+     "PM": -1,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 58,
+     "TOI": 20.974241666666668,
+     "age": 21
+    },
+    {
+     "id": 8470595,
+     "name": "Eric Staal",
+     "season": 2005,
+     "team": "CAR",
+     "pos": "C",
+     "GP": 25,
+     "G": 9,
+     "A": 19,
+     "P": 28,
+     "PIM": 8,
+     "PM": 0,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 87,
+     "TOI": 19.791999999999998,
+     "age": 21
+    },
+    {
+     "id": 8474141,
+     "name": "Patrick Kane",
+     "season": 2009,
+     "team": "CHI",
+     "pos": "R",
+     "GP": 22,
+     "G": 10,
+     "A": 18,
+     "P": 28,
+     "PIM": 6,
+     "PM": -2,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 64,
+     "TOI": 18.90909,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 3.9,
+   "players": [
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "12 players recorded 25 points in one postseason in the 2000s (13 seasons). The most extreme: Evgeni Malkin, 2008-09 — 36 points in 24 games.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 92,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462198,
+     "name": "Peter Worrell",
+     "season": 2001,
+     "team": "FLA",
+     "pos": "L",
+     "GP": 79,
+     "G": 4,
+     "A": 5,
+     "P": 9,
+     "PIM": 354,
+     "PM": -15,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 65,
+     "TOI": 8.748521666666667,
+     "age": 24
+    },
+    {
+     "id": 8470666,
+     "name": "Daniel Carcillo",
+     "season": 2007,
+     "team": "PHX",
+     "pos": "L",
+     "GP": 57,
+     "G": 13,
+     "A": 11,
+     "P": 24,
+     "PIM": 324,
+     "PM": 1,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 106,
+     "TOI": 12.719881666666668,
+     "age": 23
+    },
+    {
+     "id": 8459019,
+     "name": "Matthew Barnaby",
+     "season": 2000,
+     "team": "PIT,TBL",
+     "pos": "R",
+     "GP": 76,
+     "G": 5,
+     "A": 8,
+     "P": 13,
+     "PIM": 265,
+     "PM": -10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 67,
+     "TOI": 9.625656666666666,
+     "age": 27
+    },
+    {
+     "id": 8469820,
+     "name": "Zenon Konopka",
+     "season": 2009,
+     "team": "TBL",
+     "pos": "C",
+     "GP": 74,
+     "G": 2,
+     "A": 3,
+     "P": 5,
+     "PIM": 265,
+     "PM": -11,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 41,
+     "TOI": 8.138738333333333,
+     "age": 29
+    },
+    {
+     "id": 8468224,
+     "name": "Sean Avery",
+     "season": 2003,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 76,
+     "G": 9,
+     "A": 19,
+     "P": 28,
+     "PIM": 261,
+     "PM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 125,
+     "TOI": 11.691446666666668,
+     "age": 23
+    },
+    {
+     "id": 8468224,
+     "name": "Sean Avery",
+     "season": 2005,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 75,
+     "G": 15,
+     "A": 24,
+     "P": 39,
+     "PIM": 257,
+     "PM": -5,
+     "PPG": 1,
+     "SHG": 3,
+     "GWG": 1,
+     "S": 189,
+     "TOI": 13.610221666666666,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 43,
+   "kind": "list",
+   "score": 3.885,
+   "players": [
+    {
+     "id": 8462198,
+     "name": "Peter Worrell"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "31 players racked up 200 penalty minutes in the 2000s (43 seasons). The most extreme: Peter Worrell, 2001-02 — 354 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 93,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471242,
+     "name": "Mike Green",
+     "season": 2008,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 68,
+     "G": 31,
+     "A": 42,
+     "P": 73,
+     "PIM": 68,
+     "PM": 24,
+     "PPG": 18,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 243,
+     "TOI": 25.763969999999997,
+     "age": 23
+    },
+    {
+     "id": 8458951,
+     "name": "Sergei Gonchar",
+     "season": 2001,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 76,
+     "G": 26,
+     "A": 33,
+     "P": 59,
+     "PIM": 58,
+     "PM": -1,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 216,
+     "TOI": 23.64013,
+     "age": 27
+    },
+    {
+     "id": 8460561,
+     "name": "Sheldon Souray",
+     "season": 2006,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 81,
+     "G": 26,
+     "A": 38,
+     "P": 64,
+     "PIM": 135,
+     "PM": -28,
+     "PPG": 19,
+     "SHG": 1,
+     "GWG": 6,
+     "S": 224,
+     "TOI": 23.190123333333336,
+     "age": 30
+    },
+    {
+     "id": 8460561,
+     "name": "Sheldon Souray",
+     "season": 2008,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 81,
+     "G": 23,
+     "A": 30,
+     "P": 53,
+     "PIM": 98,
+     "PM": 1,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 268,
+     "TOI": 24.845266666666664,
+     "age": 32
+    },
+    {
+     "id": 8470642,
+     "name": "Shea Weber",
+     "season": 2008,
+     "team": "NSH",
+     "pos": "D",
+     "GP": 81,
+     "G": 23,
+     "A": 30,
+     "P": 53,
+     "PIM": 80,
+     "PM": 1,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 251,
+     "TOI": 23.97037,
+     "age": 23
+    },
+    {
+     "id": 8448769,
+     "name": "Brian Leetch",
+     "season": 2000,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 82,
+     "G": 21,
+     "A": 58,
+     "P": 79,
+     "PIM": 34,
+     "PM": -18,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 241,
+     "TOI": 25.445325,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.775,
+   "players": [
+    {
+     "id": 8471242,
+     "name": "Mike Green"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "8 players scored 20 goals as a defenseman in the 2000s (9 seasons). The most extreme: Mike Green, 2008-09 — 31 goals.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 94,
+   "rule": "g_sv2000",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "season": 2003,
+     "team": "FLA",
+     "GP": 72,
+     "A": 3,
+     "PIM": 2,
+     "W": 25,
+     "L": 33,
+     "T": 14,
+     "SO": 7,
+     "GAA": 2.42726,
+     "SVP": 0.9305,
+     "SV": 2303,
+     "GA": 172
+    },
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo",
+     "season": 2005,
+     "team": "FLA",
+     "GP": 75,
+     "A": 3,
+     "PIM": 2,
+     "W": 35,
+     "L": 30,
+     "OTL": 9,
+     "SO": 4,
+     "GAA": 2.96879,
+     "SVP": 0.91438,
+     "SV": 2275,
+     "GA": 213
+    },
+    {
+     "id": 8462055,
+     "name": "Marc Denis",
+     "season": 2002,
+     "team": "CBJ",
+     "GP": 77,
+     "A": 0,
+     "PIM": 6,
+     "W": 27,
+     "L": 41,
+     "T": 8,
+     "SO": 5,
+     "GAA": 3.08584,
+     "SVP": 0.90349,
+     "SV": 2172,
+     "GA": 232
+    },
+    {
+     "id": 8467950,
+     "name": "Craig Anderson",
+     "season": 2009,
+     "team": "COL",
+     "GP": 71,
+     "A": 3,
+     "PIM": 16,
+     "W": 38,
+     "L": 25,
+     "OTL": 7,
+     "SO": 7,
+     "GAA": 2.63496,
+     "SVP": 0.9167,
+     "SV": 2047,
+     "GA": 186
+    },
+    {
+     "id": 8460712,
+     "name": "Tomas Vokoun",
+     "season": 2007,
+     "team": "FLA",
+     "GP": 69,
+     "A": 6,
+     "PIM": 4,
+     "W": 30,
+     "L": 29,
+     "OTL": 8,
+     "SO": 4,
+     "GAA": 2.67943,
+     "SVP": 0.91866,
+     "SV": 2033,
+     "GA": 180
+    },
+    {
+     "id": 8455710,
+     "name": "Martin Brodeur",
+     "season": 2006,
+     "team": "NJD",
+     "GP": 78,
+     "A": 1,
+     "PIM": 12,
+     "W": 48,
+     "L": 23,
+     "OTL": 7,
+     "SO": 12,
+     "GAA": 2.18458,
+     "SVP": 0.92163,
+     "SV": 2011,
+     "GA": 171
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 3.57575,
+   "players": [
+    {
+     "id": 8466141,
+     "name": "Roberto Luongo"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "6 goalies made 2,000 saves in the 2000s (7 seasons). The most extreme: Roberto Luongo, 2003-04 — 2,303 saves.",
+   "why": "Leads with the most extreme case, which carries the post. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 95,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 24,
+     "G": 15,
+     "A": 16,
+     "P": 31,
+     "PIM": 14,
+     "PM": 9,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 79,
+     "TOI": 20.811805,
+     "age": 21
+    },
+    {
+     "id": 8465170,
+     "name": "Fernando Pisani",
+     "season": 2005,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 24,
+     "G": 14,
+     "A": 4,
+     "P": 18,
+     "PIM": 10,
+     "PM": 4,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 49,
+     "TOI": 17.193055,
+     "age": 29
+    },
+    {
+     "id": 8460621,
+     "name": "Daniel Alfredsson",
+     "season": 2006,
+     "team": "OTT",
+     "pos": "R",
+     "GP": 20,
+     "G": 14,
+     "A": 8,
+     "P": 22,
+     "PIM": 10,
+     "PM": 4,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 66,
+     "TOI": 23.329166666666666,
+     "age": 34
+    },
+    {
+     "id": 8471215,
+     "name": "Evgeni Malkin",
+     "season": 2008,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 24,
+     "G": 14,
+     "A": 22,
+     "P": 36,
+     "PIM": 51,
+     "PM": 3,
+     "PPG": 7,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 104,
+     "TOI": 20.95625,
+     "age": 22
+    },
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2000,
+     "team": "COL",
+     "pos": "C",
+     "GP": 21,
+     "G": 13,
+     "A": 13,
+     "P": 26,
+     "PIM": 6,
+     "PM": 6,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 79,
+     "TOI": 21.546031666666668,
+     "age": 31
+    },
+    {
+     "id": 8462042,
+     "name": "Jarome Iginla",
+     "season": 2003,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 26,
+     "G": 13,
+     "A": 9,
+     "P": 22,
+     "PIM": 45,
+     "PM": 13,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 93,
+     "TOI": 23.302563333333335,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.375,
+   "players": [
+    {
+     "id": 8471675,
+     "name": "Sidney Crosby"
+    }
+   ],
+   "seasons": [
+    2008
+   ],
+   "text": "9 players scored 13 goals in one postseason in the 2000s. The most extreme: Sidney Crosby, 2008-09 — 15 goals in 24 games.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 96,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic",
+     "season": 2000,
+     "team": "COL",
+     "pos": "C",
+     "GP": 82,
+     "G": 54,
+     "A": 64,
+     "P": 118,
+     "PIM": 30,
+     "PM": 45,
+     "PPG": 19,
+     "SHG": 3,
+     "GWG": 12,
+     "S": 332,
+     "TOI": 23.017885,
+     "age": 31
+    },
+    {
+     "id": 8458530,
+     "name": "Markus Naslund",
+     "season": 2002,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 82,
+     "G": 48,
+     "A": 56,
+     "P": 104,
+     "PIM": 52,
+     "PM": 6,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 294,
+     "TOI": 19.902235,
+     "age": 29
+    },
+    {
+     "id": 8470604,
+     "name": "Jeff Carter",
+     "season": 2008,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 82,
+     "G": 46,
+     "A": 38,
+     "P": 84,
+     "PIM": 68,
+     "PM": 23,
+     "PPG": 13,
+     "SHG": 4,
+     "GWG": 12,
+     "S": 342,
+     "TOI": 20.954673333333336,
+     "age": 24
+    },
+    {
+     "id": 8446788,
+     "name": "Sergei Fedorov",
+     "season": 2002,
+     "team": "DET",
+     "pos": "C",
+     "GP": 80,
+     "G": 36,
+     "A": 47,
+     "P": 83,
+     "PIM": 52,
+     "PM": 15,
+     "PPG": 10,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 281,
+     "TOI": 20.69875,
+     "age": 33
+    },
+    {
+     "id": 8467357,
+     "name": "Jonathan Cheechoo",
+     "season": 2005,
+     "team": "SJS",
+     "pos": "R",
+     "GP": 82,
+     "G": 56,
+     "A": 37,
+     "P": 93,
+     "PIM": 58,
+     "PM": 23,
+     "PPG": 24,
+     "SHG": 2,
+     "GWG": 11,
+     "S": 317,
+     "TOI": 19.957316666666667,
+     "age": 25
+    },
+    {
+     "id": 8471214,
+     "name": "Alex Ovechkin",
+     "season": 2007,
+     "team": "WSH",
+     "pos": "L",
+     "GP": 82,
+     "G": 65,
+     "A": 47,
+     "P": 112,
+     "PIM": 40,
+     "PM": 28,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 446,
+     "TOI": 22.917681666666667,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 22,
+   "kind": "list",
+   "score": 3.3,
+   "players": [
+    {
+     "id": 8451101,
+     "name": "Joe Sakic"
+    }
+   ],
+   "seasons": [
+    2000
+   ],
+   "text": "21 players scored 10 game-winning goals in the 2000s (22 seasons). The most extreme: Joe Sakic, 2000-01 — 12 GWG.",
+   "why": "Leads with the most extreme case, which carries the post. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 97,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8458525,
+     "name": "Brian Rolston",
+     "season": 2001,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 82,
+     "G": 31,
+     "A": 31,
+     "P": 62,
+     "PIM": 30,
+     "PM": 11,
+     "PPG": 6,
+     "SHG": 9,
+     "GWG": 7,
+     "S": 331,
+     "TOI": 20.399186666666665,
+     "age": 28
+    },
+    {
+     "id": 8460719,
+     "name": "Steve Sullivan",
+     "season": 2000,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 81,
+     "G": 34,
+     "A": 41,
+     "P": 75,
+     "PIM": 54,
+     "PM": 3,
+     "PPG": 6,
+     "SHG": 8,
+     "GWG": 3,
+     "S": 204,
+     "TOI": 20.537036666666665,
+     "age": 26
+    },
+    {
+     "id": 8466378,
+     "name": "Martin St. Louis",
+     "season": 2003,
+     "team": "TBL",
+     "pos": "R",
+     "GP": 82,
+     "G": 38,
+     "A": 56,
+     "P": 94,
+     "PIM": 24,
+     "PM": 35,
+     "PPG": 8,
+     "SHG": 8,
+     "GWG": 7,
+     "S": 212,
+     "TOI": 20.58252,
+     "age": 28
+    },
+    {
+     "id": 8446847,
+     "name": "Theo Fleury",
+     "season": 2000,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 62,
+     "G": 30,
+     "A": 44,
+     "P": 74,
+     "PIM": 122,
+     "PM": 0,
+     "PPG": 8,
+     "SHG": 7,
+     "GWG": 3,
+     "S": 238,
+     "TOI": 21.787633333333336,
+     "age": 32
+    },
+    {
+     "id": 8452285,
+     "name": "Wes Walz",
+     "season": 2000,
+     "team": "MIN",
+     "pos": "C",
+     "GP": 82,
+     "G": 18,
+     "A": 12,
+     "P": 30,
+     "PIM": 37,
+     "PM": -8,
+     "PPG": 0,
+     "SHG": 7,
+     "GWG": 3,
+     "S": 152,
+     "TOI": 16.749796666666665,
+     "age": 30
+    },
+    {
+     "id": 8466148,
+     "name": "Marian Hossa",
+     "season": 2005,
+     "team": "ATL",
+     "pos": "R",
+     "GP": 80,
+     "G": 39,
+     "A": 53,
+     "P": 92,
+     "PIM": 67,
+     "PM": 17,
+     "PPG": 14,
+     "SHG": 7,
+     "GWG": 7,
+     "S": 341,
+     "TOI": 21.690416666666668,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 3.225,
+   "players": [
+    {
+     "id": 8458525,
+     "name": "Brian Rolston"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "13 players scored 6 shorthanded goals in the 2000s. The most extreme: Brian Rolston, 2001-02 — 9 SHG.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 98,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff",
+     "season": 2003,
+     "team": "CGY",
+     "GP": 38,
+     "A": 1,
+     "PIM": 15,
+     "W": 24,
+     "L": 10,
+     "T": 4,
+     "SO": 4,
+     "GAA": 1.69525,
+     "SVP": 0.93271,
+     "SV": 901,
+     "GA": 65
+    },
+    {
+     "id": 8460612,
+     "name": "Marty Turco",
+     "season": 2002,
+     "team": "DAL",
+     "GP": 55,
+     "A": 3,
+     "PIM": 16,
+     "W": 31,
+     "L": 10,
+     "T": 10,
+     "SO": 7,
+     "GAA": 1.72362,
+     "SVP": 0.9323,
+     "SV": 1267,
+     "GA": 92
+    },
+    {
+     "id": 8468651,
+     "name": "Roman Cechmanek",
+     "season": 2002,
+     "team": "PHI",
+     "GP": 58,
+     "A": 0,
+     "PIM": 8,
+     "W": 33,
+     "L": 15,
+     "T": 10,
+     "SO": 6,
+     "GAA": 1.82666,
+     "SVP": 0.92543,
+     "SV": 1266,
+     "GA": 102
+    },
+    {
+     "id": 8460806,
+     "name": "Dwayne Roloson",
+     "season": 2003,
+     "team": "MIN",
+     "GP": 48,
+     "A": 1,
+     "PIM": 8,
+     "W": 19,
+     "L": 18,
+     "T": 11,
+     "SO": 5,
+     "GAA": 1.8757,
+     "SVP": 0.93272,
+     "SV": 1234,
+     "GA": 89
+    },
+    {
+     "id": 8451033,
+     "name": "Patrick Roy",
+     "season": 2001,
+     "team": "COL",
+     "GP": 63,
+     "A": 3,
+     "PIM": 26,
+     "W": 32,
+     "L": 23,
+     "T": 8,
+     "SO": 9,
+     "GAA": 1.93985,
+     "SVP": 0.9251,
+     "SV": 1507,
+     "GA": 122
+    },
+    {
+     "id": 8471695,
+     "name": "Tuukka Rask",
+     "season": 2009,
+     "team": "BOS",
+     "GP": 45,
+     "A": 3,
+     "PIM": 2,
+     "W": 22,
+     "L": 12,
+     "OTL": 5,
+     "SO": 5,
+     "GAA": 1.96707,
+     "SVP": 0.9312,
+     "SV": 1137,
+     "GA": 84
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.147470874502286,
+   "players": [
+    {
+     "id": 8462147,
+     "name": "Miikka Kiprusoff"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "7 goalies posted a goals-against average under 2.00 (40% of games) in the 2000s (9 seasons). The most extreme: Miikka Kiprusoff, 2003-04 — 1.70 GAA in 38 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 99,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 2003,
+     "GP": 82,
+     "W": 43,
+     "L": 25,
+     "T": 12,
+     "OTL": 2,
+     "GF": 213,
+     "GA": 164,
+     "PCT": 0.60975
+    },
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 2002,
+     "GP": 82,
+     "W": 46,
+     "L": 20,
+     "T": 10,
+     "OTL": 6,
+     "GF": 216,
+     "GA": 166,
+     "PCT": 0.65853
+    },
+    {
+     "id": "Philadelphia Flyers",
+     "name": "Philadelphia Flyers",
+     "season": 2002,
+     "GP": 82,
+     "W": 45,
+     "L": 20,
+     "T": 13,
+     "OTL": 4,
+     "GF": 211,
+     "GA": 166,
+     "PCT": 0.65243
+    },
+    {
+     "id": "Colorado Avalanche",
+     "name": "Colorado Avalanche",
+     "season": 2001,
+     "GP": 82,
+     "W": 45,
+     "L": 28,
+     "T": 8,
+     "OTL": 1,
+     "GF": 212,
+     "GA": 169,
+     "PCT": 0.60365
+    },
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars",
+     "season": 2002,
+     "GP": 82,
+     "W": 46,
+     "L": 17,
+     "T": 15,
+     "OTL": 4,
+     "GF": 245,
+     "GA": 169,
+     "PCT": 0.67682
+    },
+    {
+     "id": "Dallas Stars",
+     "name": "Dallas Stars",
+     "season": 2003,
+     "GP": 82,
+     "W": 41,
+     "L": 26,
+     "T": 13,
+     "OTL": 2,
+     "GF": 194,
+     "GA": 175,
+     "PCT": 0.59146
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.125,
+   "players": [
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils"
+    }
+   ],
+   "seasons": [
+    2003
+   ],
+   "text": "7 teams allowed fewer than 2.2 goals a game in the 2000s (9 seasons). The most extreme: New Jersey Devils, 2003-04 — 2.00 per game.",
+   "why": "Shows how high the bar was across the 2000s; the extreme case is the hook. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 100,
+   "rule": "h_otg",
+   "group": "P",
+   "decade": "2000s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8458517,
+     "name": "Scott Niedermayer",
+     "season": 2001,
+     "team": "NJD",
+     "pos": "D",
+     "GP": 76,
+     "G": 11,
+     "A": 22,
+     "P": 33,
+     "PIM": 30,
+     "PM": 12,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 129,
+     "TOI": 24.281578333333336,
+     "age": 28
+    },
+    {
+     "id": 8458530,
+     "name": "Markus Naslund",
+     "season": 2003,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 78,
+     "G": 35,
+     "A": 49,
+     "P": 84,
+     "PIM": 58,
+     "PM": 24,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 296,
+     "TOI": 19.383118333333336,
+     "age": 30
+    },
+    {
+     "id": 8460542,
+     "name": "Patrik Elias",
+     "season": 2003,
+     "team": "NJD",
+     "pos": "C",
+     "GP": 82,
+     "G": 38,
+     "A": 43,
+     "P": 81,
+     "PIM": 44,
+     "PM": 26,
+     "PPG": 9,
+     "SHG": 3,
+     "GWG": 9,
+     "S": 300,
+     "TOI": 18.768494999999998,
+     "age": 27
+    },
+    {
+     "id": 8466140,
+     "name": "Olli Jokinen",
+     "season": 2005,
+     "team": "FLA",
+     "pos": "C",
+     "GP": 82,
+     "G": 38,
+     "A": 51,
+     "P": 89,
+     "PIM": 88,
+     "PM": 14,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 9,
+     "S": 351,
+     "TOI": 20.485568333333333,
+     "age": 27
+    },
+    {
+     "id": 8467875,
+     "name": "Daniel Sedin",
+     "season": 2006,
+     "team": "VAN",
+     "pos": "L",
+     "GP": 81,
+     "G": 36,
+     "A": 48,
+     "P": 84,
+     "PIM": 36,
+     "PM": 19,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 236,
+     "TOI": 18.063991666666666,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 3.1,
+   "players": [
+    {
+     "id": 8458517,
+     "name": "Scott Niedermayer"
+    }
+   ],
+   "seasons": [
+    2001
+   ],
+   "text": "5 players scored 4 overtime goals in the 2000s. The most extreme: Scott Niedermayer, 2001-02 — 4 OT goals.",
+   "why": "Leads with the most extreme case, which carries the post. Clutch goals are the stat fans quote in arguments."
+  }
+ ],
+ "shortNote": null,
+ "counts": {
+  "skaterSeasons": 7906,
+  "goalieSeasons": 799,
+  "teamSeasons": 270
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:52.813Z"
+}

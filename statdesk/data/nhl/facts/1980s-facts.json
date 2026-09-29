@@ -1,0 +1,8231 @@
+{
+ "sport": "NHL",
+ "decade": "1980s",
+ "era": 3,
+ "seasons": [
+  "1980-81",
+  "1981-82",
+  "1982-83",
+  "1983-84",
+  "1984-85",
+  "1985-86",
+  "1986-87",
+  "1987-88",
+  "1988-89",
+  "1989-90"
+ ],
+ "candidates": 100,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "g_gp",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "season": 1987,
+     "team": "EDM",
+     "GP": 75,
+     "A": 8,
+     "PIM": 16,
+     "W": 40,
+     "L": 24,
+     "T": 9,
+     "SO": 4,
+     "GAA": 3.43162,
+     "SVP": 0.88064,
+     "SV": 1815,
+     "GA": 246
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.875,
+   "players": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "text": "The only goalie of the 1980s to play 72 games: Grant Fuhr, 1987-88 — 75 GP.",
+   "why": "A club of one in the 1980s; \"name another\" posts draw replies. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 2,
+   "rule": "g_sv",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy",
+     "season": 1989,
+     "team": "MTL",
+     "GP": 54,
+     "A": 5,
+     "PIM": 0,
+     "W": 31,
+     "L": 16,
+     "T": 5,
+     "SO": 3,
+     "GAA": 2.53383,
+     "SVP": 0.91195,
+     "SV": 1388,
+     "GA": 134
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 11.548750000000002,
+   "players": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "text": "The only goalie of the 1980s to post a .910 save percentage (40% of games): Patrick Roy, 1989-90 — .912 in 54 games.",
+   "why": "Nobody else in the 1980s did it, and exclusivity is what gets a post shared. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 3,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne",
+     "season": 1987,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 67,
+     "G": 31,
+     "A": 34,
+     "P": 65,
+     "PIM": 54,
+     "PM": -14,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 184,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.775,
+   "players": [
+    {
+     "id": 8446430,
+     "name": "Marcel Dionne"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "text": "The only player of the 1980s to score 30 goals at age 36 or older: Marcel Dionne, 1987-88 — 31 goals at 36.",
+   "why": "A club of one in the 1980s; \"name another\" posts draw replies. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 4,
+   "rule": "g_t",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445694,
+     "name": "Richard Brodeur",
+     "season": 1980,
+     "team": "VAN",
+     "GP": 52,
+     "A": 0,
+     "PIM": 0,
+     "W": 17,
+     "L": 18,
+     "T": 16,
+     "SO": 0,
+     "GAA": 3.52123,
+     "SVP": 0.88408,
+     "SV": 1350,
+     "GA": 177
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.4,
+   "players": [
+    {
+     "id": 8445694,
+     "name": "Richard Brodeur"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "The only goalie of the 1980s to tie 15 games: Richard Brodeur, 1980-81 — 16 ties.",
+   "why": "Nobody else in the 1980s did it, and exclusivity is what gets a post shared. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 5,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters",
+     "season": 1982,
+     "team": "BOS",
+     "GP": 63,
+     "A": 2,
+     "PIM": 33,
+     "W": 40,
+     "L": 12,
+     "T": 9,
+     "SO": 8,
+     "GAA": 2.37249,
+     "SVP": 0.9032,
+     "SV": 1353,
+     "GA": 145
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.2,
+   "players": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "text": "The only goalie of the 1980s to record 8 shutouts: Pete Peeters, 1982-83 — 8 shutouts in 63 games.",
+   "why": "A club of one in the 1980s; \"name another\" posts draw replies. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 6,
+   "rule": "h_2ppg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 71,
+     "A": 125,
+     "P": 196,
+     "PIM": 59,
+     "PM": 61,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 348,
+     "age": 22
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1987,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 64,
+     "G": 40,
+     "A": 109,
+     "P": 149,
+     "PIM": 24,
+     "PM": 39,
+     "PPG": 9,
+     "SHG": 5,
+     "GWG": 3,
+     "S": 211,
+     "age": 27
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1986,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 62,
+     "A": 121,
+     "P": 183,
+     "PIM": 28,
+     "PM": 69,
+     "PPG": 13,
+     "SHG": 7,
+     "GWG": 4,
+     "S": 288,
+     "age": 26
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1987,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 77,
+     "G": 70,
+     "A": 98,
+     "P": 168,
+     "PIM": 92,
+     "PM": 23,
+     "PPG": 22,
+     "SHG": 10,
+     "GWG": 7,
+     "S": 382,
+     "age": 22
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1988,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 54,
+     "A": 114,
+     "P": 168,
+     "PIM": 26,
+     "PM": 15,
+     "PPG": 11,
+     "SHG": 5,
+     "GWG": 5,
+     "S": 303,
+     "age": 28
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1989,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 59,
+     "G": 45,
+     "A": 78,
+     "P": 123,
+     "PIM": 78,
+     "PM": -18,
+     "PPG": 14,
+     "SHG": 3,
+     "GWG": 4,
+     "S": 226,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1980,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 109,
+     "P": 164,
+     "PIM": 28,
+     "PM": 41,
+     "PPG": 15,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 261,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "pair",
+   "score": 10.077702702702702,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    }
+   ],
+   "seasons": [
+    1983,
+    1985,
+    1981,
+    1988,
+    1984,
+    1982,
+    1987,
+    1986,
+    1987,
+    1988,
+    1989,
+    1980
+   ],
+   "text": "Only two players of the 1980s averaged 2 points a game (40+ games): Wayne Gretzky (9×, best 1983-84: 205 points in 74 games (2.77)); Mario Lemieux (3×, best 1988-89: 199 points in 76 games (2.62)).",
+   "why": "A club of two is a ready-made debate. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 7,
+   "rule": "h_gpg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 9.469594594594595,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    }
+   ],
+   "seasons": [
+    1983,
+    1981,
+    1988
+   ],
+   "text": "Only two players of the 1980s scored a goal a game (40+ games): Wayne Gretzky (2×, best 1983-84: 87 goals in 74 games); Mario Lemieux (1988-89: 85 goals in 76 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 8,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 79,
+     "G": 48,
+     "A": 90,
+     "P": 138,
+     "PIM": 120,
+     "PM": 61,
+     "PPG": 9,
+     "SHG": 9,
+     "GWG": 2,
+     "S": 308,
+     "age": 24
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 80,
+     "G": 40,
+     "A": 86,
+     "P": 126,
+     "PIM": 104,
+     "PM": 52,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 259,
+     "age": 22
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 80,
+     "G": 37,
+     "A": 84,
+     "P": 121,
+     "PIM": 97,
+     "PM": 57,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 285,
+     "age": 23
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 75,
+     "G": 30,
+     "A": 83,
+     "P": 113,
+     "PIM": 195,
+     "PM": -10,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 342,
+     "age": 27
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1989,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 80,
+     "G": 29,
+     "A": 74,
+     "P": 103,
+     "PIM": 95,
+     "PM": -25,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 324,
+     "age": 28
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 80,
+     "G": 29,
+     "A": 67,
+     "P": 96,
+     "PIM": 87,
+     "PM": 52,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 260,
+     "age": 21
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1983,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 31,
+     "A": 65,
+     "P": 96,
+     "PIM": 57,
+     "PM": 51,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 343,
+     "age": 23
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1986,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 23,
+     "A": 72,
+     "P": 95,
+     "PIM": 36,
+     "PM": 44,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 334,
+     "age": 26
+    },
+    {
+     "id": 8451804,
+     "name": "Gary Suter",
+     "season": 1987,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 75,
+     "G": 21,
+     "A": 70,
+     "P": 91,
+     "PIM": 124,
+     "PM": 39,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 204,
+     "age": 23
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1989,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 79,
+     "G": 28,
+     "A": 62,
+     "P": 90,
+     "PIM": 82,
+     "PM": 20,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 304,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "few",
+   "score": 9,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque"
+    },
+    {
+     "id": 8451804,
+     "name": "Gary Suter"
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis"
+    }
+   ],
+   "seasons": [
+    1985,
+    1983,
+    1984,
+    1988,
+    1989,
+    1982,
+    1983,
+    1986,
+    1987,
+    1989
+   ],
+   "text": "Just four players of the 1980s recorded 90 points as a defenseman: Paul Coffey (6×, best 1985-86: 138 points (48G, 90A)); Ray Bourque (2×, best 1983-84: 96 points (31G, 65A)); Gary Suter (1987-88: 91 points (21G, 70A)); Al MacInnis (1989-90: 90 points (28G, 62A)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 9,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8447310,
+     "name": "Michel Goulet"
+    }
+   ],
+   "seasons": [
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1981,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 80,
+     "G": 42,
+     "A": 42,
+     "P": 84,
+     "PIM": 48,
+     "PM": 35,
+     "PPG": 8,
+     "SHG": 6,
+     "GWG": 3,
+     "S": 250,
+     "age": 21
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1982,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 80,
+     "G": 57,
+     "A": 48,
+     "P": 105,
+     "PIM": 51,
+     "PM": 30,
+     "PPG": 10,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 256,
+     "age": 22
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1983,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 75,
+     "G": 56,
+     "A": 66,
+     "P": 122,
+     "PIM": 76,
+     "PM": 62,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 239,
+     "age": 23
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1984,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 69,
+     "G": 55,
+     "A": 40,
+     "P": 95,
+     "PIM": 55,
+     "PM": 10,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 260,
+     "age": 24
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1985,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 75,
+     "G": 53,
+     "A": 51,
+     "P": 104,
+     "PIM": 64,
+     "PM": 7,
+     "PPG": 28,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 244,
+     "age": 25
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1986,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 75,
+     "G": 49,
+     "A": 47,
+     "P": 96,
+     "PIM": 61,
+     "PM": -10,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 276,
+     "age": 26
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1987,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 80,
+     "G": 48,
+     "A": 58,
+     "P": 106,
+     "PIM": 56,
+     "PM": -31,
+     "PPG": 29,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 284,
+     "age": 27
+    }
+   ],
+   "text": "Michel Goulet scored 42+ goals in 7 straight seasons (1981-82 to 1987-88), the longest run of the 1980s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 10,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1980,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 109,
+     "P": 164,
+     "PIM": 28,
+     "PM": 41,
+     "PPG": 15,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 261,
+     "age": 20
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 71,
+     "A": 125,
+     "P": 196,
+     "PIM": 59,
+     "PM": 61,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 348,
+     "age": 22
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1986,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 62,
+     "A": 121,
+     "P": 183,
+     "PIM": 28,
+     "PM": 69,
+     "PPG": 13,
+     "SHG": 7,
+     "GWG": 4,
+     "S": 288,
+     "age": 26
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1987,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 64,
+     "G": 40,
+     "A": 109,
+     "P": 149,
+     "PIM": 24,
+     "PM": 39,
+     "PPG": 9,
+     "SHG": 5,
+     "GWG": 3,
+     "S": 211,
+     "age": 27
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1988,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 54,
+     "A": 114,
+     "P": 168,
+     "PIM": 26,
+     "PM": 15,
+     "PPG": 11,
+     "SHG": 5,
+     "GWG": 5,
+     "S": 303,
+     "age": 28
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1989,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 73,
+     "G": 40,
+     "A": 102,
+     "P": 142,
+     "PIM": 42,
+     "PM": 8,
+     "PPG": 10,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 236,
+     "age": 29
+    }
+   ],
+   "text": "Wayne Gretzky recorded 98+ points in 10 straight seasons (1980-81 to 1989-90), the longest run of the 1980s.",
+   "why": "The longest run of the 1980s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1980,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 109,
+     "P": 164,
+     "PIM": 28,
+     "PM": 41,
+     "PPG": 15,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 261,
+     "age": 20
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 71,
+     "A": 125,
+     "P": 196,
+     "PIM": 59,
+     "PM": 61,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 348,
+     "age": 22
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1986,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 62,
+     "A": 121,
+     "P": 183,
+     "PIM": 28,
+     "PM": 69,
+     "PPG": 13,
+     "SHG": 7,
+     "GWG": 4,
+     "S": 288,
+     "age": 26
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1987,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 64,
+     "G": 40,
+     "A": 109,
+     "P": 149,
+     "PIM": 24,
+     "PM": 39,
+     "PPG": 9,
+     "SHG": 5,
+     "GWG": 3,
+     "S": 211,
+     "age": 27
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1988,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 54,
+     "A": 114,
+     "P": 168,
+     "PIM": 26,
+     "PM": 15,
+     "PPG": 11,
+     "SHG": 5,
+     "GWG": 5,
+     "S": 303,
+     "age": 28
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1989,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 73,
+     "G": 40,
+     "A": 102,
+     "P": 142,
+     "PIM": 42,
+     "PM": 8,
+     "PPG": 10,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 236,
+     "age": 29
+    }
+   ],
+   "text": "Wayne Gretzky averaged a point a game (60% of games) in 10 straight seasons (1980-81 to 1989-90), the longest run of the 1980s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 12,
+   "rule": "h_volume_miss",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1987,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 17,
+     "A": 64,
+     "P": 81,
+     "PIM": 72,
+     "PM": 34,
+     "PPG": 7,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 344,
+     "age": 27
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1986,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 23,
+     "A": 72,
+     "P": 95,
+     "PIM": 36,
+     "PM": 44,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 334,
+     "age": 26
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1984,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 73,
+     "G": 20,
+     "A": 66,
+     "P": 86,
+     "PIM": 53,
+     "PM": 30,
+     "PPG": 10,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 333,
+     "age": 24
+    },
+    {
+     "id": 8448708,
+     "name": "Reed Larson",
+     "season": 1981,
+     "team": "DET",
+     "pos": "D",
+     "GP": 80,
+     "G": 21,
+     "A": 39,
+     "P": 60,
+     "PIM": 112,
+     "PM": -17,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 2,
+     "S": 311,
+     "age": 25
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1989,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 76,
+     "G": 19,
+     "A": 65,
+     "P": 84,
+     "PIM": 50,
+     "PM": 31,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 310,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "pair",
+   "score": 8.86,
+   "players": [
+    {
+     "id": 8445621,
+     "name": "Ray Bourque"
+    },
+    {
+     "id": 8448708,
+     "name": "Reed Larson"
+    }
+   ],
+   "seasons": [
+    1987,
+    1986,
+    1984,
+    1981,
+    1989
+   ],
+   "text": "Only two players of the 1980s fired 300 shots and scored 24 or fewer: Ray Bourque (4×, best 1987-88: 17 goals on 344 shots); Reed Larson (1981-82: 21 goals on 311 shots).",
+   "why": "A club of two is a ready-made debate. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 13,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Quebec Nordiques",
+     "name": "Quebec Nordiques",
+     "season": 1989,
+     "GP": 80,
+     "W": 12,
+     "L": 61,
+     "T": 7,
+     "GF": 240,
+     "GA": 407,
+     "PCT": 0.19375
+    },
+    {
+     "id": "Winnipeg Jets (1979)",
+     "name": "Winnipeg Jets (1979)",
+     "season": 1980,
+     "GP": 80,
+     "W": 9,
+     "L": 57,
+     "T": 14,
+     "GF": 246,
+     "GA": 400,
+     "PCT": 0.2
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.835,
+   "players": [
+    {
+     "id": "Quebec Nordiques",
+     "name": "Quebec Nordiques"
+    },
+    {
+     "id": "Winnipeg Jets (1979)",
+     "name": "Winnipeg Jets (1979)"
+    }
+   ],
+   "seasons": [
+    1989,
+    1980
+   ],
+   "text": "Only two teams of the 1980s got outscored by 150: Quebec Nordiques (1989-90: 240-407); Winnipeg Jets (1979) (1980-81: 246-400).",
+   "why": "Two names invite the \"whose season was better?\" argument. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 14,
+   "rule": "po_gwg",
+   "group": "PO",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1982,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 19,
+     "G": 17,
+     "A": 9,
+     "P": 26,
+     "PIM": 10,
+     "PM": 7,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 78,
+     "age": 26
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1986,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 21,
+     "G": 15,
+     "A": 10,
+     "P": 25,
+     "PIM": 20,
+     "PM": 11,
+     "PPG": 4,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 52,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.125,
+   "players": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy"
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri"
+    }
+   ],
+   "seasons": [
+    1982,
+    1986
+   ],
+   "text": "Only two players of the 1980s scored 5 game-winning goals in one postseason: Mike Bossy (1982-83: 5 GWG); Jari Kurri (1986-87: 5 GWG).",
+   "why": "A club of two is a ready-made debate. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 15,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "1980s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8449883,
+     "name": "Chris Nilan"
+    }
+   ],
+   "seasons": [
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449883,
+     "name": "Chris Nilan",
+     "season": 1982,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 66,
+     "G": 6,
+     "A": 8,
+     "P": 14,
+     "PIM": 213,
+     "PM": -8,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 67,
+     "age": 24
+    },
+    {
+     "id": 8449883,
+     "name": "Chris Nilan",
+     "season": 1983,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 76,
+     "G": 16,
+     "A": 10,
+     "P": 26,
+     "PIM": 338,
+     "PM": -3,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 98,
+     "age": 25
+    },
+    {
+     "id": 8449883,
+     "name": "Chris Nilan",
+     "season": 1984,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 77,
+     "G": 21,
+     "A": 16,
+     "P": 37,
+     "PIM": 358,
+     "PM": 4,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 98,
+     "age": 26
+    },
+    {
+     "id": 8449883,
+     "name": "Chris Nilan",
+     "season": 1985,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 72,
+     "G": 19,
+     "A": 15,
+     "P": 34,
+     "PIM": 274,
+     "PM": 11,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 120,
+     "age": 27
+    },
+    {
+     "id": 8449883,
+     "name": "Chris Nilan",
+     "season": 1986,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 44,
+     "G": 4,
+     "A": 16,
+     "P": 20,
+     "PIM": 266,
+     "PM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 68,
+     "age": 28
+    },
+    {
+     "id": 8449883,
+     "name": "Chris Nilan",
+     "season": 1987,
+     "team": "MTL,NYR",
+     "pos": "R",
+     "GP": 72,
+     "G": 10,
+     "A": 10,
+     "P": 20,
+     "PIM": 305,
+     "PM": -2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 88,
+     "age": 29
+    }
+   ],
+   "text": "Chris Nilan racked up 210+ penalty minutes in 6 straight seasons (1982-83 to 1987-88), the longest run of the 1980s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 16,
+   "rule": "h_euro",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 73,
+     "G": 71,
+     "A": 64,
+     "P": 135,
+     "PIM": 30,
+     "PM": 78,
+     "PPG": 14,
+     "SHG": 3,
+     "GWG": 13,
+     "S": 267,
+     "age": 24
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 78,
+     "G": 68,
+     "A": 63,
+     "P": 131,
+     "PIM": 22,
+     "PM": 45,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 236,
+     "age": 25
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1986,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 79,
+     "G": 54,
+     "A": 54,
+     "P": 108,
+     "PIM": 41,
+     "PM": 35,
+     "PPG": 12,
+     "SHG": 5,
+     "GWG": 10,
+     "S": 211,
+     "age": 26
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 64,
+     "G": 52,
+     "A": 61,
+     "P": 113,
+     "PIM": 14,
+     "PM": 39,
+     "PPG": 10,
+     "SHG": 5,
+     "GWG": 4,
+     "S": 195,
+     "age": 23
+    },
+    {
+     "id": 8448848,
+     "name": "Hakan Loob",
+     "season": 1987,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 80,
+     "G": 50,
+     "A": 56,
+     "P": 106,
+     "PIM": 47,
+     "PM": 41,
+     "PPG": 9,
+     "SHG": 8,
+     "GWG": 4,
+     "S": 198,
+     "age": 27
+    },
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson",
+     "season": 1980,
+     "team": "CGY",
+     "pos": "C",
+     "GP": 80,
+     "G": 49,
+     "A": 82,
+     "P": 131,
+     "PIM": 26,
+     "PM": 14,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 217,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "few",
+   "score": 7.775,
+   "players": [
+    {
+     "id": 8448569,
+     "name": "Jari Kurri"
+    },
+    {
+     "id": 8448848,
+     "name": "Hakan Loob"
+    },
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson"
+    }
+   ],
+   "seasons": [
+    1984,
+    1985,
+    1986,
+    1983,
+    1987,
+    1980
+   ],
+   "text": "Just three players of the 1980s scored 48 goals, born outside North America: Jari Kurri (4×, best 1984-85: 71 goals (born FIN)); Hakan Loob (1987-88: 50 goals (born SWE)); Kent Nilsson (1980-81: 49 goals (born SWE)).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 17,
+   "rule": "h_usa",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson",
+     "season": 1987,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 52,
+     "P": 107,
+     "PIM": 45,
+     "PM": -19,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 264,
+     "age": 19
+    },
+    {
+     "id": 8448626,
+     "name": "Pat LaFontaine",
+     "season": 1989,
+     "team": "NYI",
+     "pos": "C",
+     "GP": 74,
+     "G": 54,
+     "A": 51,
+     "P": 105,
+     "PIM": 38,
+     "PM": -13,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 8,
+     "S": 286,
+     "age": 24
+    },
+    {
+     "id": 8445977,
+     "name": "Bobby Carpenter",
+     "season": 1984,
+     "team": "WSH",
+     "pos": "C",
+     "GP": 80,
+     "G": 53,
+     "A": 42,
+     "P": 95,
+     "PIM": 87,
+     "PM": 20,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 260,
+     "age": 21
+    },
+    {
+     "id": 8449743,
+     "name": "Joe Mullen",
+     "season": 1988,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 79,
+     "G": 51,
+     "A": 59,
+     "P": 110,
+     "PIM": 16,
+     "PM": 51,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 7,
+     "S": 270,
+     "age": 31
+    },
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson",
+     "season": 1988,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 49,
+     "A": 51,
+     "P": 100,
+     "PIM": 36,
+     "PM": 3,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 240,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 7.375,
+   "players": [
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson"
+    },
+    {
+     "id": 8448626,
+     "name": "Pat LaFontaine"
+    },
+    {
+     "id": 8445977,
+     "name": "Bobby Carpenter"
+    },
+    {
+     "id": 8449743,
+     "name": "Joe Mullen"
+    }
+   ],
+   "seasons": [
+    1987,
+    1989,
+    1984,
+    1988,
+    1988
+   ],
+   "text": "Just four players of the 1980s scored 48 goals, born in the United States: Jimmy Carson (2×, best 1987-88: 55 goals); Pat LaFontaine (1989-90: 54 goals); Bobby Carpenter (1984-85: 53 goals); Joe Mullen (1988-89: 51 goals).",
+   "why": "A short list fans can recite; each name brings its own fan base. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 18,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447685,
+     "name": "Dale Hawerchuk",
+     "season": 1981,
+     "team": "WIN",
+     "pos": "C",
+     "GP": 80,
+     "G": 45,
+     "A": 58,
+     "P": 103,
+     "PIM": 47,
+     "PM": -7,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 339,
+     "age": 18
+    },
+    {
+     "id": 8450941,
+     "name": "Luc Robitaille",
+     "season": 1986,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 79,
+     "G": 45,
+     "A": 39,
+     "P": 84,
+     "PIM": 28,
+     "PM": -19,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 199,
+     "age": 20
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1984,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 73,
+     "G": 43,
+     "A": 57,
+     "P": 100,
+     "PIM": 54,
+     "PM": -33,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 209,
+     "age": 19
+    },
+    {
+     "id": 8451988,
+     "name": "Sylvain Turgeon",
+     "season": 1983,
+     "team": "HFD",
+     "pos": "L",
+     "GP": 76,
+     "G": 40,
+     "A": 32,
+     "P": 72,
+     "PIM": 55,
+     "PM": -11,
+     "PPG": 18,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 238,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.125,
+   "players": [
+    {
+     "id": 8447685,
+     "name": "Dale Hawerchuk"
+    },
+    {
+     "id": 8450941,
+     "name": "Luc Robitaille"
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    },
+    {
+     "id": 8451988,
+     "name": "Sylvain Turgeon"
+    }
+   ],
+   "seasons": [
+    1981,
+    1986,
+    1984,
+    1983
+   ],
+   "text": "Just four players of the 1980s scored 40 goals in their first NHL season: Dale Hawerchuk (1981-82: 45 goals); Luc Robitaille (1986-87: 45 goals); Mario Lemieux (1984-85: 43 goals); Sylvain Turgeon (1983-84: 40 goals).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 19,
+   "rule": "po_dp",
+   "group": "PO",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 18,
+     "G": 12,
+     "A": 25,
+     "P": 37,
+     "PIM": 44,
+     "PM": 23,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 67,
+     "age": 23
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis",
+     "season": 1988,
+     "team": "CGY",
+     "pos": "D",
+     "GP": 22,
+     "G": 7,
+     "A": 24,
+     "P": 31,
+     "PIM": 46,
+     "PM": 6,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 69,
+     "age": 25
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin",
+     "season": 1980,
+     "team": "NYI",
+     "pos": "D",
+     "GP": 18,
+     "G": 8,
+     "A": 17,
+     "P": 25,
+     "PIM": 16,
+     "PM": 18,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 44,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.925,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    },
+    {
+     "id": 8448960,
+     "name": "Al MacInnis"
+    },
+    {
+     "id": 8450505,
+     "name": "Denis Potvin"
+    }
+   ],
+   "seasons": [
+    1984,
+    1988,
+    1980
+   ],
+   "text": "Just three players of the 1980s recorded 25 points as a defenseman in one postseason: Paul Coffey (1984-85: 37 points in 18 games); Al MacInnis (1988-89: 31 points in 22 games); Denis Potvin (1980-81: 25 points in 18 games).",
+   "why": "A short list fans can recite; each name brings its own fan base. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 20,
+   "rule": "t_ties",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres",
+     "season": 1980,
+     "GP": 80,
+     "W": 39,
+     "L": 20,
+     "T": 21,
+     "GF": 327,
+     "GA": 250,
+     "PCT": 0.61875
+    },
+    {
+     "id": "Vancouver Canucks",
+     "name": "Vancouver Canucks",
+     "season": 1980,
+     "GP": 80,
+     "W": 28,
+     "L": 32,
+     "T": 20,
+     "GF": 289,
+     "GA": 301,
+     "PCT": 0.475
+    },
+    {
+     "id": "Minnesota North Stars",
+     "name": "Minnesota North Stars",
+     "season": 1981,
+     "GP": 80,
+     "W": 37,
+     "L": 23,
+     "T": 20,
+     "GF": 346,
+     "GA": 288,
+     "PCT": 0.5875
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.525,
+   "players": [
+    {
+     "id": "Buffalo Sabres",
+     "name": "Buffalo Sabres"
+    },
+    {
+     "id": "Vancouver Canucks",
+     "name": "Vancouver Canucks"
+    },
+    {
+     "id": "Minnesota North Stars",
+     "name": "Minnesota North Stars"
+    }
+   ],
+   "seasons": [
+    1980,
+    1980,
+    1981
+   ],
+   "text": "Just three teams of the 1980s tied 20 games: Buffalo Sabres (1980-81: 39-20-21); Vancouver Canucks (1980-81: 28-32-20); Minnesota North Stars (1981-82: 37-23-20).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 21,
+   "rule": "g_pts",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "season": 1983,
+     "team": "EDM",
+     "GP": 45,
+     "A": 14,
+     "PIM": 6,
+     "W": 30,
+     "L": 10,
+     "T": 4,
+     "SO": 1,
+     "GAA": 3.9113,
+     "SVP": 0.88303,
+     "SV": 1291,
+     "GA": 171
+    },
+    {
+     "id": 8450132,
+     "name": "Mike Palmateer",
+     "season": 1980,
+     "team": "WSH",
+     "GP": 49,
+     "A": 8,
+     "PIM": 17,
+     "W": 18,
+     "L": 19,
+     "T": 9,
+     "SO": 2,
+     "GAA": 3.85892,
+     "SVP": 0.87766,
+     "SV": 1234,
+     "GA": 172
+    },
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "season": 1987,
+     "team": "EDM",
+     "GP": 75,
+     "A": 8,
+     "PIM": 16,
+     "W": 40,
+     "L": 24,
+     "T": 9,
+     "SO": 4,
+     "GAA": 3.43162,
+     "SVP": 0.88064,
+     "SV": 1815,
+     "GA": 246
+    },
+    {
+     "id": 8445275,
+     "name": "Tom Barrasso",
+     "season": 1988,
+     "team": "BUF,PIT",
+     "GP": 54,
+     "A": 8,
+     "PIM": 70,
+     "W": 20,
+     "L": 22,
+     "T": 7,
+     "SO": 0,
+     "GAA": 4.20802,
+     "SVP": 0.88,
+     "SV": 1518,
+     "GA": 207
+    },
+    {
+     "id": 8447775,
+     "name": "Ron Hextall",
+     "season": 1988,
+     "team": "PHI",
+     "GP": 64,
+     "A": 8,
+     "PIM": 113,
+     "W": 30,
+     "L": 28,
+     "T": 6,
+     "SO": 0,
+     "GAA": 3.22703,
+     "SVP": 0.8911,
+     "SV": 1653,
+     "GA": 202
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.35,
+   "players": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr"
+    },
+    {
+     "id": 8450132,
+     "name": "Mike Palmateer"
+    },
+    {
+     "id": 8445275,
+     "name": "Tom Barrasso"
+    },
+    {
+     "id": 8447775,
+     "name": "Ron Hextall"
+    }
+   ],
+   "seasons": [
+    1983,
+    1980,
+    1987,
+    1988,
+    1988
+   ],
+   "text": "Just four goalies of the 1980s recorded 8 points as a goalie: Grant Fuhr (2×, best 1983-84: 14 assists); Mike Palmateer (1980-81: 8 assists); Tom Barrasso (1988-89: 8 assists); Ron Hextall (1988-89: 8 assists).",
+   "why": "A short list fans can recite; each name brings its own fan base. A goalie racking up points is a novelty post."
+  },
+  {
+   "n": 22,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters",
+     "season": 1982,
+     "team": "BOS",
+     "GP": 63,
+     "A": 2,
+     "PIM": 33,
+     "W": 40,
+     "L": 12,
+     "T": 9,
+     "SO": 8,
+     "GAA": 2.37249,
+     "SVP": 0.9032,
+     "SV": 1353,
+     "GA": 145
+    },
+    {
+     "id": 8451308,
+     "name": "Richard Sevigny",
+     "season": 1980,
+     "team": "MTL",
+     "GP": 33,
+     "A": 0,
+     "PIM": 30,
+     "W": 20,
+     "L": 4,
+     "T": 3,
+     "SO": 2,
+     "GAA": 2.39801,
+     "SVP": 0.90755,
+     "SV": 697,
+     "GA": 71
+    },
+    {
+     "id": 8451033,
+     "name": "Patrick Roy",
+     "season": 1988,
+     "team": "MTL",
+     "GP": 48,
+     "A": 6,
+     "PIM": 2,
+     "W": 33,
+     "L": 5,
+     "T": 6,
+     "SO": 4,
+     "GAA": 2.47089,
+     "SVP": 0.90783,
+     "SV": 1113,
+     "GA": 113
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.105374522126542,
+   "players": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters"
+    },
+    {
+     "id": 8451308,
+     "name": "Richard Sevigny"
+    },
+    {
+     "id": 8451033,
+     "name": "Patrick Roy"
+    }
+   ],
+   "seasons": [
+    1982,
+    1980,
+    1988
+   ],
+   "text": "Just three goalies of the 1980s posted a goals-against average under 2.50 (40% of games): Pete Peeters (1982-83: 2.37 GAA in 63 games); Richard Sevigny (1980-81: 2.40 GAA in 33 games); Patrick Roy (1988-89: 2.47 GAA in 48 games).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 23,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445338,
+     "name": "Paul Baxter"
+    }
+   ],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445338,
+     "name": "Paul Baxter",
+     "season": 1981,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 76,
+     "G": 9,
+     "A": 34,
+     "P": 43,
+     "PIM": 409,
+     "PM": -9,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 177,
+     "age": 26
+    }
+   ],
+   "among": 6243,
+   "text": "Most penalty minutes in a season in the 1980s: Paul Baxter, 1981-82 — 409.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "x_ppg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448471,
+     "name": "Tim Kerr"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448471,
+     "name": "Tim Kerr",
+     "season": 1985,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 76,
+     "G": 58,
+     "A": 26,
+     "P": 84,
+     "PIM": 79,
+     "PM": -2,
+     "PPG": 34,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 285,
+     "age": 26
+    }
+   ],
+   "among": 6243,
+   "text": "Most power-play goals in a season in the 1980s: Tim Kerr, 1985-86 — 34.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447310,
+     "name": "Michel Goulet"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1983,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 75,
+     "G": 56,
+     "A": 66,
+     "P": 122,
+     "PIM": 76,
+     "PM": 62,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 239,
+     "age": 23
+    }
+   ],
+   "among": 6243,
+   "text": "Most game-winning goals in a season in the 1980s: Michel Goulet, 1983-84 — 16.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "x_pm_lo",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445208,
+     "name": "Dave Babych"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445208,
+     "name": "Dave Babych",
+     "season": 1980,
+     "team": "WIN",
+     "pos": "D",
+     "GP": 69,
+     "G": 6,
+     "A": 38,
+     "P": 44,
+     "PIM": 90,
+     "PM": -62,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 209,
+     "age": 19
+    }
+   ],
+   "among": 6243,
+   "text": "Worst plus-minus in a season in the 1980s: Dave Babych, 1980-81 — -62.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "x_s",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8452578,
+     "name": "Steve Yzerman"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8452578,
+     "name": "Steve Yzerman",
+     "season": 1988,
+     "team": "DET",
+     "pos": "C",
+     "GP": 80,
+     "G": 65,
+     "A": 90,
+     "P": 155,
+     "PIM": 61,
+     "PM": 17,
+     "PPG": 17,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 388,
+     "age": 23
+    }
+   ],
+   "among": 6243,
+   "text": "Most shots in a season in the 1980s: Steve Yzerman, 1988-89 — 388.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_spct",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer",
+     "season": 1980,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 65,
+     "G": 56,
+     "A": 49,
+     "P": 105,
+     "PIM": 62,
+     "PM": 32,
+     "PPG": 23,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 171,
+     "age": 26
+    }
+   ],
+   "among": 1194,
+   "text": "Best shooting percentage in a season (150+ shots) in the 1980s: Charlie Simmer, 1980-81 — 32.7%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 79,
+     "G": 48,
+     "A": 90,
+     "P": 138,
+     "PIM": 120,
+     "PM": 61,
+     "PPG": 9,
+     "SHG": 9,
+     "GWG": 2,
+     "S": 308,
+     "age": 24
+    }
+   ],
+   "among": 2148,
+   "text": "Most points by a defenseman in a season in the 1980s: Paul Coffey, 1985-86 — 138.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451689,
+     "name": "Peter Stastny"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451689,
+     "name": "Peter Stastny",
+     "season": 1980,
+     "team": "QUE",
+     "pos": "C",
+     "GP": 77,
+     "G": 39,
+     "A": 70,
+     "P": 109,
+     "PIM": 37,
+     "PM": 10,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 232,
+     "age": 24
+    }
+   ],
+   "among": 1065,
+   "text": "Most points in a first NHL season in the 1980s: Peter Stastny, 1980-81 — 109.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters",
+     "season": 1982,
+     "team": "BOS",
+     "GP": 63,
+     "A": 2,
+     "PIM": 33,
+     "W": 40,
+     "L": 12,
+     "T": 9,
+     "SO": 8,
+     "GAA": 2.37249,
+     "SVP": 0.9032,
+     "SV": 1353,
+     "GA": 145
+    }
+   ],
+   "among": 671,
+   "text": "Most shutouts in a season in the 1980s: Pete Peeters, 1982-83 — 8.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "gx_sv",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451033,
+     "name": "Patrick Roy",
+     "season": 1989,
+     "team": "MTL",
+     "GP": 54,
+     "A": 5,
+     "PIM": 0,
+     "W": 31,
+     "L": 16,
+     "T": 5,
+     "SO": 3,
+     "GAA": 2.53383,
+     "SVP": 0.91195,
+     "SV": 1388,
+     "GA": 134
+    }
+   ],
+   "among": 294,
+   "text": "Best save percentage in a season (40% of games) in the 1980s: Patrick Roy, 1989-90 — .912.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "gx_saves",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446720,
+     "name": "Tony Esposito",
+     "season": 1980,
+     "team": "CHI",
+     "GP": 66,
+     "A": 3,
+     "PIM": 0,
+     "W": 29,
+     "L": 23,
+     "T": 14,
+     "SO": 0,
+     "GAA": 3.75924,
+     "SVP": 0.89012,
+     "SV": 1993,
+     "GA": 246
+    }
+   ],
+   "among": 671,
+   "text": "Most saves in a season in the 1980s: Tony Esposito, 1980-81 — 1,993.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "gx_gp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "season": 1987,
+     "team": "EDM",
+     "GP": 75,
+     "A": 8,
+     "PIM": 16,
+     "W": 40,
+     "L": 24,
+     "T": 9,
+     "SO": 4,
+     "GAA": 3.43162,
+     "SVP": 0.88064,
+     "SV": 1815,
+     "GA": 246
+    }
+   ],
+   "among": 671,
+   "text": "Most games by a goalie in a season in the 1980s: Grant Fuhr, 1987-88 — 75.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449627,
+     "name": "Greg Millen"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449627,
+     "name": "Greg Millen",
+     "season": 1982,
+     "team": "HFD",
+     "GP": 60,
+     "A": 2,
+     "PIM": 8,
+     "W": 14,
+     "L": 38,
+     "T": 6,
+     "SO": 1,
+     "GAA": 4.81929,
+     "SVP": 0.86264,
+     "SV": 1771,
+     "GA": 282
+    }
+   ],
+   "among": 671,
+   "text": "Most losses by a goalie in a season in the 1980s: Greg Millen, 1982-83 — 38.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Quebec Nordiques",
+     "name": "Quebec Nordiques"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Quebec Nordiques",
+     "name": "Quebec Nordiques",
+     "season": 1989,
+     "GP": 80,
+     "W": 12,
+     "L": 61,
+     "T": 7,
+     "GF": 240,
+     "GA": 407,
+     "PCT": 0.19375
+    }
+   ],
+   "among": 210,
+   "text": "Worst points percentage in a season in the 1980s: Quebec Nordiques, 1989-90 — .194 (12-61-7).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 1983,
+     "GP": 80,
+     "W": 57,
+     "L": 18,
+     "T": 5,
+     "GF": 446,
+     "GA": 314,
+     "PCT": 0.74375
+    }
+   ],
+   "among": 210,
+   "text": "Most goals per game by a team in the 1980s: Edmonton Oilers, 1983-84 — 5.58 (446 in 80).",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1988,
+     "GP": 80,
+     "W": 53,
+     "L": 18,
+     "T": 9,
+     "GF": 315,
+     "GA": 218,
+     "PCT": 0.71875
+    }
+   ],
+   "among": 210,
+   "text": "Fewest goals allowed per game in the 1980s: Montréal Canadiens, 1988-89 — 2.73 (218 in 80).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1981,
+     "GP": 80,
+     "W": 46,
+     "L": 17,
+     "T": 17,
+     "GF": 360,
+     "GA": 223,
+     "PCT": 0.68125
+    }
+   ],
+   "among": 210,
+   "text": "Best goal differential in a season in the 1980s: Montréal Canadiens, 1981-82 — +137.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "tx_pp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1980,
+     "GP": 80,
+     "W": 48,
+     "L": 18,
+     "T": 14,
+     "GF": 355,
+     "GA": 260,
+     "PCT": 0.6875
+    }
+   ],
+   "among": 210,
+   "text": "Best power play in a season in the 1980s: New York Islanders, 1980-81 — 29.3%.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "tx_pk",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Washington Capitals",
+     "name": "Washington Capitals",
+     "season": 1983,
+     "GP": 80,
+     "W": 48,
+     "L": 27,
+     "T": 5,
+     "GF": 308,
+     "GA": 226,
+     "PCT": 0.63125
+    }
+   ],
+   "among": 210,
+   "text": "Best penalty kill in a season in the 1980s: Washington Capitals, 1983-84 — 86.4%.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448569,
+     "name": "Jari Kurri"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 18,
+     "G": 19,
+     "A": 12,
+     "P": 31,
+     "PIM": 6,
+     "PM": 23,
+     "PPG": 1,
+     "SHG": 2,
+     "GWG": 2,
+     "S": 91,
+     "age": 24
+    }
+   ],
+   "among": 3441,
+   "text": "Most goals in a single postseason in the 1980s: Jari Kurri, 1984-85 — 19 in 18 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 43,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 71,
+     "A": 125,
+     "P": 196,
+     "PIM": 59,
+     "PM": 61,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 348,
+     "age": 22
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1986,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 79,
+     "G": 62,
+     "A": 121,
+     "P": 183,
+     "PIM": 28,
+     "PM": 69,
+     "PPG": 13,
+     "SHG": 7,
+     "GWG": 4,
+     "S": 288,
+     "age": 26
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "5 players recorded 90 assists in the 1980s (16 seasons). The most extreme: Wayne Gretzky, 1985-86 — 163 assists.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 44,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1988,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 78,
+     "G": 54,
+     "A": 114,
+     "P": 168,
+     "PIM": 26,
+     "PM": 15,
+     "PPG": 11,
+     "SHG": 5,
+     "GWG": 5,
+     "S": 303,
+     "age": 28
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1987,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 64,
+     "G": 40,
+     "A": 109,
+     "P": 149,
+     "PIM": 24,
+     "PM": 39,
+     "PPG": 9,
+     "SHG": 5,
+     "GWG": 3,
+     "S": 211,
+     "age": 27
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1989,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 73,
+     "G": 40,
+     "A": 102,
+     "P": 142,
+     "PIM": 42,
+     "PM": 8,
+     "PPG": 10,
+     "SHG": 4,
+     "GWG": 4,
+     "S": 236,
+     "age": 29
+    },
+    {
+     "id": 8451689,
+     "name": "Peter Stastny",
+     "season": 1981,
+     "team": "QUE",
+     "pos": "C",
+     "GP": 80,
+     "G": 46,
+     "A": 93,
+     "P": 139,
+     "PIM": 91,
+     "PM": -10,
+     "PPG": 16,
+     "SHG": 3,
+     "GWG": 3,
+     "S": 227,
+     "age": 25
+    },
+    {
+     "id": 8451146,
+     "name": "Denis Savard",
+     "season": 1981,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 80,
+     "G": 32,
+     "A": 87,
+     "P": 119,
+     "PIM": 82,
+     "PM": 0,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 231,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "10 players recorded 72 assists with twice as many assists as goals in the 1980s (18 seasons). The most extreme: Wayne Gretzky, 1985-86 — 163A, 52G.",
+   "why": "Leads with the most extreme case, which carries the post. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "x_shg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    }
+   ],
+   "among": 6243,
+   "text": "Most shorthanded goals in a season in the 1980s: Mario Lemieux, 1988-89 — 13.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 79,
+     "G": 48,
+     "A": 90,
+     "P": 138,
+     "PIM": 120,
+     "PM": 61,
+     "PPG": 9,
+     "SHG": 9,
+     "GWG": 2,
+     "S": 308,
+     "age": 24
+    }
+   ],
+   "among": 2148,
+   "text": "Most goals by a defenseman in a season in the 1980s: Paul Coffey, 1985-86 — 48.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 47,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters"
+    }
+   ],
+   "seasons": [
+    1982
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450343,
+     "name": "Pete Peeters",
+     "season": 1982,
+     "team": "BOS",
+     "GP": 63,
+     "A": 2,
+     "PIM": 33,
+     "W": 40,
+     "L": 12,
+     "T": 9,
+     "SO": 8,
+     "GAA": 2.37249,
+     "SVP": 0.9032,
+     "SV": 1353,
+     "GA": 145
+    }
+   ],
+   "among": 294,
+   "text": "Best goals-against average in a season (40% of games) in the 1980s: Pete Peeters, 1982-83 — 2.37.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 48,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1980,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 109,
+     "P": 164,
+     "PIM": 28,
+     "PM": 41,
+     "PPG": 15,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 261,
+     "age": 20
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1985,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 79,
+     "G": 48,
+     "A": 93,
+     "P": 141,
+     "PIM": 43,
+     "PM": -8,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 276,
+     "age": 20
+    },
+    {
+     "id": 8451146,
+     "name": "Denis Savard",
+     "season": 1981,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 80,
+     "G": 32,
+     "A": 87,
+     "P": 119,
+     "PIM": 82,
+     "PM": 0,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 231,
+     "age": 20
+    },
+    {
+     "id": 8445689,
+     "name": "Rob Brown",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 68,
+     "G": 49,
+     "A": 66,
+     "P": 115,
+     "PIM": 118,
+     "PM": 27,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 169,
+     "age": 20
+    },
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson",
+     "season": 1987,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 52,
+     "P": 107,
+     "PIM": 45,
+     "PM": -19,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 264,
+     "age": 19
+    },
+    {
+     "id": 8451991,
+     "name": "Pierre Turgeon",
+     "season": 1989,
+     "team": "BUF",
+     "pos": "C",
+     "GP": 80,
+     "G": 40,
+     "A": 66,
+     "P": 106,
+     "PIM": 29,
+     "PM": 10,
+     "PPG": 17,
+     "SHG": 1,
+     "GWG": 10,
+     "S": 193,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 20,
+   "kind": "list",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "14 players recorded 85 points at age 20 or younger in the 1980s (20 seasons). The most extreme: Wayne Gretzky, 1980-81 — 164 points at 20.",
+   "why": "Leads with the most extreme case, which carries the post. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 49,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    }
+   ],
+   "among": 6243,
+   "text": "Most goals in a season in the 1980s: Wayne Gretzky, 1981-82 — 92 in 80 games.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 50,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    }
+   ],
+   "among": 6243,
+   "text": "Most points in a season in the 1980s: Wayne Gretzky, 1985-86 — 215 (52G, 163A).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 51,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    }
+   ],
+   "among": 6243,
+   "text": "Most assists in a season in the 1980s: Wayne Gretzky, 1985-86 — 163.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 52,
+   "kind": "extreme",
+   "rule": "x_pm",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    }
+   ],
+   "among": 6243,
+   "text": "Best plus-minus in a season in the 1980s: Wayne Gretzky, 1984-85 — +100.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 53,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    }
+   ],
+   "among": 3604,
+   "text": "Most points per game in a season (60% of games) in the 1980s: Wayne Gretzky, 1983-84 — 2.77.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 54,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    }
+   ],
+   "among": 3604,
+   "text": "Most goals per game in a season (60% of games) in the 1980s: Wayne Gretzky, 1983-84 — 1.18.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 55,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1980s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 18,
+     "G": 17,
+     "A": 30,
+     "P": 47,
+     "PIM": 4,
+     "PM": 27,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 67,
+     "age": 24
+    }
+   ],
+   "among": 3441,
+   "text": "Most points in a single postseason in the 1980s: Wayne Gretzky, 1984-85 — 47 in 18 games.",
+   "why": "The high-water mark of the 1980s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 56,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1983,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 67,
+     "G": 51,
+     "A": 67,
+     "P": 118,
+     "PIM": 8,
+     "PM": 65,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 11,
+     "S": 246,
+     "age": 27
+    },
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson",
+     "season": 1982,
+     "team": "CGY",
+     "pos": "C",
+     "GP": 80,
+     "G": 46,
+     "A": 58,
+     "P": 104,
+     "PIM": 10,
+     "PM": 3,
+     "PPG": 16,
+     "SHG": 4,
+     "GWG": 6,
+     "S": 217,
+     "age": 26
+    },
+    {
+     "id": 8449587,
+     "name": "Rick Middleton",
+     "season": 1982,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 80,
+     "G": 49,
+     "A": 47,
+     "P": 96,
+     "PIM": 8,
+     "PM": 31,
+     "PPG": 6,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 212,
+     "age": 29
+    },
+    {
+     "id": 8449743,
+     "name": "Joe Mullen",
+     "season": 1984,
+     "team": "STL",
+     "pos": "R",
+     "GP": 79,
+     "G": 40,
+     "A": 52,
+     "P": 92,
+     "PIM": 6,
+     "PM": 7,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 253,
+     "age": 27
+    },
+    {
+     "id": 8448420,
+     "name": "Rick Kehoe",
+     "season": 1980,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 80,
+     "G": 55,
+     "A": 33,
+     "P": 88,
+     "PIM": 6,
+     "PM": -8,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 299,
+     "age": 29
+    },
+    {
+     "id": 8448420,
+     "name": "Rick Kehoe",
+     "season": 1981,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 71,
+     "G": 33,
+     "A": 52,
+     "P": 85,
+     "PIM": 8,
+     "PM": -27,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 249,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 5.95,
+   "players": [
+    {
+     "id": 8445611,
+     "name": "Mike Bossy"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "text": "6 players recorded 78 points with 10 or fewer penalty minutes in the 1980s (7 seasons). The most extreme: Mike Bossy, 1983-84 — 118 pts, 8 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 57,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 75,
+     "G": 30,
+     "A": 83,
+     "P": 113,
+     "PIM": 195,
+     "PM": -10,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 342,
+     "age": 27
+    },
+    {
+     "id": 8451925,
+     "name": "Rick Tocchet",
+     "season": 1989,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 75,
+     "G": 37,
+     "A": 59,
+     "P": 96,
+     "PIM": 196,
+     "PM": 4,
+     "PPG": 15,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 269,
+     "age": 25
+    },
+    {
+     "id": 8447001,
+     "name": "Gerard Gallant",
+     "season": 1988,
+     "team": "DET",
+     "pos": "L",
+     "GP": 76,
+     "G": 39,
+     "A": 54,
+     "P": 93,
+     "PIM": 230,
+     "PM": 7,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 221,
+     "age": 25
+    },
+    {
+     "id": 8448857,
+     "name": "Ken Linseman",
+     "season": 1981,
+     "team": "PHI",
+     "pos": "C",
+     "GP": 79,
+     "G": 24,
+     "A": 68,
+     "P": 92,
+     "PIM": 275,
+     "PM": 6,
+     "PPG": 2,
+     "SHG": 3,
+     "GWG": 0,
+     "S": 212,
+     "age": 23
+    },
+    {
+     "id": 8452216,
+     "name": "Pat Verbeek",
+     "season": 1989,
+     "team": "HFD",
+     "pos": "R",
+     "GP": 80,
+     "G": 44,
+     "A": 45,
+     "P": 89,
+     "PIM": 228,
+     "PM": 1,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 219,
+     "age": 25
+    },
+    {
+     "id": 8451253,
+     "name": "Al Secord",
+     "season": 1982,
+     "team": "CHI",
+     "pos": "L",
+     "GP": 80,
+     "G": 54,
+     "A": 32,
+     "P": 86,
+     "PIM": 180,
+     "PM": 35,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 240,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 5.825,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "7 players recorded 78 points and 180 penalty minutes in the 1980s (9 seasons). The most extreme: Paul Coffey, 1988-89 — 113 pts, 195 PIM.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 58,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 75,
+     "G": 30,
+     "A": 83,
+     "P": 113,
+     "PIM": 195,
+     "PM": -10,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 342,
+     "age": 27
+    },
+    {
+     "id": 8449315,
+     "name": "Brad Maxwell",
+     "season": 1983,
+     "team": "MNS",
+     "pos": "D",
+     "GP": 78,
+     "G": 19,
+     "A": 54,
+     "P": 73,
+     "PIM": 225,
+     "PM": -7,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 228,
+     "age": 26
+    },
+    {
+     "id": 8446053,
+     "name": "Chris Chelios",
+     "season": 1988,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 80,
+     "G": 15,
+     "A": 58,
+     "P": 73,
+     "PIM": 185,
+     "PM": 35,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 206,
+     "age": 27
+    },
+    {
+     "id": 8451715,
+     "name": "Scott Stevens",
+     "season": 1987,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 80,
+     "G": 12,
+     "A": 60,
+     "P": 72,
+     "PIM": 184,
+     "PM": 14,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 2,
+     "S": 231,
+     "age": 23
+    },
+    {
+     "id": 8451715,
+     "name": "Scott Stevens",
+     "season": 1988,
+     "team": "WSH",
+     "pos": "D",
+     "GP": 80,
+     "G": 7,
+     "A": 61,
+     "P": 68,
+     "PIM": 225,
+     "PM": 1,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 195,
+     "age": 24
+    },
+    {
+     "id": 8451102,
+     "name": "Borje Salming",
+     "season": 1980,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 72,
+     "G": 5,
+     "A": 61,
+     "P": 66,
+     "PIM": 154,
+     "PM": 0,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 1,
+     "S": 210,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 5.825,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "11 players recorded 54 points and 150 penalty minutes as a defenseman in the 1980s (17 seasons). The most extreme: Paul Coffey, 1988-89 — 113 pts, 195 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 59,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451689,
+     "name": "Peter Stastny",
+     "season": 1980,
+     "team": "QUE",
+     "pos": "C",
+     "GP": 77,
+     "G": 39,
+     "A": 70,
+     "P": 109,
+     "PIM": 37,
+     "PM": 10,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 232,
+     "age": 24
+    },
+    {
+     "id": 8447685,
+     "name": "Dale Hawerchuk",
+     "season": 1981,
+     "team": "WIN",
+     "pos": "C",
+     "GP": 80,
+     "G": 45,
+     "A": 58,
+     "P": 103,
+     "PIM": 47,
+     "PM": -7,
+     "PPG": 12,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 339,
+     "age": 18
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1984,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 73,
+     "G": 43,
+     "A": 57,
+     "P": 100,
+     "PIM": 54,
+     "PM": -33,
+     "PPG": 11,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 209,
+     "age": 19
+    },
+    {
+     "id": 8451687,
+     "name": "Marian Stastny",
+     "season": 1981,
+     "team": "QUE",
+     "pos": "R",
+     "GP": 74,
+     "G": 35,
+     "A": 54,
+     "P": 89,
+     "PIM": 27,
+     "PM": -5,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 174,
+     "age": 29
+    },
+    {
+     "id": 8452578,
+     "name": "Steve Yzerman",
+     "season": 1983,
+     "team": "DET",
+     "pos": "C",
+     "GP": 80,
+     "G": 39,
+     "A": 48,
+     "P": 87,
+     "PIM": 33,
+     "PM": -19,
+     "PPG": 13,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 177,
+     "age": 18
+    },
+    {
+     "id": 8449163,
+     "name": "Sergei Makarov",
+     "season": 1989,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 80,
+     "G": 24,
+     "A": 62,
+     "P": 86,
+     "PIM": 55,
+     "PM": 33,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 118,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 5.725,
+   "players": [
+    {
+     "id": 8451689,
+     "name": "Peter Stastny"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "8 players recorded 80 points in their first NHL season in the 1980s. The most extreme: Peter Stastny, 1980-81 — 109 points.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 60,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 52,
+     "A": 163,
+     "P": 215,
+     "PIM": 46,
+     "PM": 71,
+     "PPG": 11,
+     "SHG": 3,
+     "GWG": 6,
+     "S": 350,
+     "age": 25
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 71,
+     "A": 125,
+     "P": 196,
+     "PIM": 59,
+     "PM": 61,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 348,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 25,
+   "kind": "list",
+   "score": 5.6875,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "13 players recorded 130 points in the 1980s (25 seasons). The most extreme: Wayne Gretzky, 1985-86 — 215 points (52G, 163A).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 61,
+   "rule": "h_pm_hi",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8448002,
+     "name": "Mark Howe",
+     "season": 1985,
+     "team": "PHI",
+     "pos": "D",
+     "GP": 77,
+     "G": 24,
+     "A": 58,
+     "P": 82,
+     "PIM": 36,
+     "PM": 87,
+     "PPG": 4,
+     "SHG": 7,
+     "GWG": 3,
+     "S": 193,
+     "age": 30
+    },
+    {
+     "id": 8449403,
+     "name": "Brad McCrimmon",
+     "season": 1985,
+     "team": "PHI",
+     "pos": "D",
+     "GP": 80,
+     "G": 13,
+     "A": 43,
+     "P": 56,
+     "PIM": 85,
+     "PM": 86,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 162,
+     "age": 26
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8446679,
+     "name": "Brian Engblom",
+     "season": 1981,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 76,
+     "G": 4,
+     "A": 29,
+     "P": 33,
+     "PIM": 76,
+     "PM": 78,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 109,
+     "age": 27
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 5.5,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "text": "6 players finished +70 or better in the 1980s (9 seasons). The most extreme: Wayne Gretzky, 1984-85 — +100.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 62,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1989,
+     "team": "STL",
+     "pos": "R",
+     "GP": 80,
+     "G": 72,
+     "A": 41,
+     "P": 113,
+     "PIM": 24,
+     "PM": -1,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 385,
+     "age": 25
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 71,
+     "A": 125,
+     "P": 196,
+     "PIM": 59,
+     "PM": 61,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 348,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 5.3,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1981
+   ],
+   "text": "9 players scored 60 goals in the 1980s (19 seasons). The most extreme: Wayne Gretzky, 1981-82 — 92 goals in 80 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 63,
+   "kind": "nearmiss",
+   "rule": "n_g49",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5.25,
+   "players": [
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson"
+    },
+    {
+     "id": 8449587,
+     "name": "Rick Middleton"
+    },
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson"
+    }
+   ],
+   "seasons": [
+    1980,
+    1982,
+    1988
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson",
+     "season": 1980,
+     "team": "CGY",
+     "pos": "C",
+     "GP": 80,
+     "G": 49,
+     "A": 82,
+     "P": 131,
+     "PIM": 26,
+     "PM": 14,
+     "PPG": 20,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 217,
+     "age": 24
+    },
+    {
+     "id": 8449587,
+     "name": "Rick Middleton",
+     "season": 1982,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 80,
+     "G": 49,
+     "A": 47,
+     "P": 96,
+     "PIM": 8,
+     "PM": 31,
+     "PPG": 6,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 212,
+     "age": 29
+    },
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson",
+     "season": 1988,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 49,
+     "A": 51,
+     "P": 100,
+     "PIM": 36,
+     "PM": 3,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 240,
+     "age": 20
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1986,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 75,
+     "G": 49,
+     "A": 47,
+     "P": 96,
+     "PIM": 61,
+     "PM": -10,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 276,
+     "age": 26
+    },
+    {
+     "id": 8445689,
+     "name": "Rob Brown",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 68,
+     "G": 49,
+     "A": 66,
+     "P": 115,
+     "PIM": 118,
+     "PM": 27,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 169,
+     "age": 20
+    }
+   ],
+   "text": "5 player-seasons of the 1980s ended on exactly 49 goals, one short of 50 — among them Kent Nilsson (1980-81), Rick Middleton (1982-83), Jimmy Carson (1988-89).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 64,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Quebec Nordiques",
+     "name": "Quebec Nordiques",
+     "season": 1989,
+     "GP": 80,
+     "W": 12,
+     "L": 61,
+     "T": 7,
+     "GF": 240,
+     "GA": 407,
+     "PCT": 0.19375
+    },
+    {
+     "id": "Winnipeg Jets (1979)",
+     "name": "Winnipeg Jets (1979)",
+     "season": 1980,
+     "GP": 80,
+     "W": 9,
+     "L": 57,
+     "T": 14,
+     "GF": 246,
+     "GA": 400,
+     "PCT": 0.2
+    },
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1983,
+     "GP": 80,
+     "W": 16,
+     "L": 58,
+     "T": 6,
+     "GF": 254,
+     "GA": 390,
+     "PCT": 0.2375
+    },
+    {
+     "id": "Detroit Red Wings",
+     "name": "Detroit Red Wings",
+     "season": 1985,
+     "GP": 80,
+     "W": 17,
+     "L": 57,
+     "T": 6,
+     "GF": 266,
+     "GA": 415,
+     "PCT": 0.25
+    },
+    {
+     "id": "New Jersey Devils",
+     "name": "New Jersey Devils",
+     "season": 1983,
+     "GP": 80,
+     "W": 17,
+     "L": 56,
+     "T": 7,
+     "GF": 231,
+     "GA": 350,
+     "PCT": 0.25625
+    },
+    {
+     "id": "Pittsburgh Penguins",
+     "name": "Pittsburgh Penguins",
+     "season": 1982,
+     "GP": 80,
+     "W": 18,
+     "L": 53,
+     "T": 9,
+     "GF": 257,
+     "GA": 394,
+     "PCT": 0.28125
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 5.015625,
+   "players": [
+    {
+     "id": "Quebec Nordiques",
+     "name": "Quebec Nordiques"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "text": "6 teams finished with a points percentage under .300 in the 1980s (7 seasons). The most extreme: Quebec Nordiques, 1989-90 — 12-61-7, .194.",
+   "why": "Leads with the most extreme case, which carries the post. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 65,
+   "kind": "nearmiss",
+   "rule": "n_p99",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8444945,
+     "name": "Glenn Anderson"
+    },
+    {
+     "id": 8449773,
+     "name": "Troy Murray"
+    },
+    {
+     "id": 8445417,
+     "name": "Brian Bellows"
+    }
+   ],
+   "seasons": [
+    1983,
+    1985,
+    1989
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8444945,
+     "name": "Glenn Anderson",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 80,
+     "G": 54,
+     "A": 45,
+     "P": 99,
+     "PIM": 65,
+     "PM": 41,
+     "PPG": 11,
+     "SHG": 4,
+     "GWG": 11,
+     "S": 277,
+     "age": 23
+    },
+    {
+     "id": 8449773,
+     "name": "Troy Murray",
+     "season": 1985,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 80,
+     "G": 45,
+     "A": 54,
+     "P": 99,
+     "PIM": 94,
+     "PM": 32,
+     "PPG": 9,
+     "SHG": 5,
+     "GWG": 7,
+     "S": 196,
+     "age": 23
+    },
+    {
+     "id": 8445417,
+     "name": "Brian Bellows",
+     "season": 1989,
+     "team": "MNS",
+     "pos": "L",
+     "GP": 80,
+     "G": 55,
+     "A": 44,
+     "P": 99,
+     "PIM": 72,
+     "PM": -3,
+     "PPG": 21,
+     "SHG": 1,
+     "GWG": 9,
+     "S": 300,
+     "age": 25
+    },
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson",
+     "season": 1984,
+     "team": "CGY",
+     "pos": "C",
+     "GP": 77,
+     "G": 37,
+     "A": 62,
+     "P": 99,
+     "PIM": 14,
+     "PM": -4,
+     "PPG": 9,
+     "SHG": 3,
+     "GWG": 3,
+     "S": 201,
+     "age": 28
+    }
+   ],
+   "text": "4 player-seasons of the 1980s ended on exactly 99 points, one short of 100 — among them Glenn Anderson (1983-84), Troy Murray (1985-86), Brian Bellows (1989-90).",
+   "why": "So-close stats get shared: fans love a round number missed by a hair."
+  },
+  {
+   "n": 66,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449883,
+     "name": "Chris Nilan"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449883,
+     "name": "Chris Nilan",
+     "total": 2456,
+     "seasons": 10
+    },
+    {
+     "id": 8448117,
+     "name": "Dale Hunter",
+     "total": 2237,
+     "seasons": 10
+    },
+    {
+     "id": 8452457,
+     "name": "Dave Williams",
+     "total": 2220,
+     "seasons": 8
+    },
+    {
+     "id": 8448118,
+     "name": "Tim Hunter",
+     "total": 2095,
+     "seasons": 9
+    },
+    {
+     "id": 8445603,
+     "name": "Laurie Boschman",
+     "total": 1886,
+     "seasons": 10
+    }
+   ],
+   "text": "Most penalty minutes of the 1980s: Chris Nilan, 2,456.",
+   "why": "A decade-long view that settles consistency debates. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 67,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8444945,
+     "name": "Glenn Anderson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8444945,
+     "name": "Glenn Anderson",
+     "total": 67,
+     "seasons": 10
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 64,
+     "seasons": 10
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "total": 60,
+     "seasons": 10
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "total": 59,
+     "seasons": 7
+    },
+    {
+     "id": 8447067,
+     "name": "Mike Gartner",
+     "total": 56,
+     "seasons": 10
+    }
+   ],
+   "text": "Most game-winning goals of the 1980s: Glenn Anderson, 67.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 68,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449745,
+     "name": "Larry Murphy"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449745,
+     "name": "Larry Murphy",
+     "total": 785,
+     "seasons": 10
+    },
+    {
+     "id": 8448884,
+     "name": "Kevin Lowe",
+     "total": 774,
+     "seasons": 10
+    },
+    {
+     "id": 8447067,
+     "name": "Mike Gartner",
+     "total": 773,
+     "seasons": 10
+    },
+    {
+     "id": 8449175,
+     "name": "Brad Marsh",
+     "total": 770,
+     "seasons": 10
+    },
+    {
+     "id": 8446079,
+     "name": "Dave Christian",
+     "total": 769,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1980s: Larry Murphy, 785.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 69,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448865,
+     "name": "Mike Liut"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448865,
+     "name": "Mike Liut",
+     "total": 238,
+     "seasons": 10
+    },
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "total": 220,
+     "seasons": 9
+    },
+    {
+     "id": 8450343,
+     "name": "Pete Peeters",
+     "total": 207,
+     "seasons": 10
+    },
+    {
+     "id": 8448759,
+     "name": "Rejean Lemelin",
+     "total": 201,
+     "seasons": 10
+    },
+    {
+     "id": 8449681,
+     "name": "Andy Moog",
+     "total": 189,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goalie wins of the 1980s: Mike Liut, 238.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 70,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448865,
+     "name": "Mike Liut"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448865,
+     "name": "Mike Liut",
+     "total": 22,
+     "seasons": 10
+    },
+    {
+     "id": 8450343,
+     "name": "Pete Peeters",
+     "total": 19,
+     "seasons": 10
+    },
+    {
+     "id": 8449627,
+     "name": "Greg Millen",
+     "total": 13,
+     "seasons": 10
+    },
+    {
+     "id": 8446982,
+     "name": "Bob Froese",
+     "total": 13,
+     "seasons": 8
+    },
+    {
+     "id": 8445275,
+     "name": "Tom Barrasso",
+     "total": 13,
+     "seasons": 7
+    }
+   ],
+   "text": "Most shutouts of the 1980s: Mike Liut, 22.",
+   "why": "A decade-long view that settles consistency debates. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 71,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448865,
+     "name": "Mike Liut"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448865,
+     "name": "Mike Liut",
+     "total": 543,
+     "seasons": 10
+    },
+    {
+     "id": 8449627,
+     "name": "Greg Millen",
+     "total": 519,
+     "seasons": 10
+    },
+    {
+     "id": 8448759,
+     "name": "Rejean Lemelin",
+     "total": 434,
+     "seasons": 10
+    },
+    {
+     "id": 8450343,
+     "name": "Pete Peeters",
+     "total": 418,
+     "seasons": 10
+    },
+    {
+     "id": 8446991,
+     "name": "Grant Fuhr",
+     "total": 410,
+     "seasons": 9
+    }
+   ],
+   "text": "Most games in goal in the 1980s: Mike Liut, 543.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 72,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 8
+    },
+    {
+     "season": 1981,
+     "count": 10
+    },
+    {
+     "season": 1982,
+     "count": 7
+    },
+    {
+     "season": 1983,
+     "count": 8
+    },
+    {
+     "season": 1984,
+     "count": 9
+    },
+    {
+     "season": 1985,
+     "count": 6
+    },
+    {
+     "season": 1986,
+     "count": 5
+    },
+    {
+     "season": 1987,
+     "count": 8
+    },
+    {
+     "season": 1988,
+     "count": 6
+    },
+    {
+     "season": 1989,
+     "count": 8
+    }
+   ],
+   "text": "1981-82 had 10 50-goal scorers, the most of any season in the 1980s.",
+   "why": "The peak year for this across the 1980s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 73,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 8
+    },
+    {
+     "season": 1981,
+     "count": 10
+    },
+    {
+     "season": 1982,
+     "count": 7
+    },
+    {
+     "season": 1983,
+     "count": 8
+    },
+    {
+     "season": 1984,
+     "count": 9
+    },
+    {
+     "season": 1985,
+     "count": 6
+    },
+    {
+     "season": 1986,
+     "count": 5
+    },
+    {
+     "season": 1987,
+     "count": 8
+    },
+    {
+     "season": 1988,
+     "count": 6
+    },
+    {
+     "season": 1989,
+     "count": 8
+    }
+   ],
+   "text": "1986-87 had just 5 50-goal scorers, the fewest of any season in the 1980s.",
+   "why": "The low point of the 1980s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 74,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1984
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 12
+    },
+    {
+     "season": 1981,
+     "count": 13
+    },
+    {
+     "season": 1982,
+     "count": 11
+    },
+    {
+     "season": 1983,
+     "count": 12
+    },
+    {
+     "season": 1984,
+     "count": 16
+    },
+    {
+     "season": 1985,
+     "count": 13
+    },
+    {
+     "season": 1986,
+     "count": 7
+    },
+    {
+     "season": 1987,
+     "count": 12
+    },
+    {
+     "season": 1988,
+     "count": 9
+    },
+    {
+     "season": 1989,
+     "count": 13
+    }
+   ],
+   "text": "1984-85 had 16 100-point players, the most of any season in the 1980s.",
+   "why": "The peak year for this across the 1980s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 75,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 12
+    },
+    {
+     "season": 1981,
+     "count": 13
+    },
+    {
+     "season": 1982,
+     "count": 11
+    },
+    {
+     "season": 1983,
+     "count": 12
+    },
+    {
+     "season": 1984,
+     "count": 16
+    },
+    {
+     "season": 1985,
+     "count": 13
+    },
+    {
+     "season": 1986,
+     "count": 7
+    },
+    {
+     "season": 1987,
+     "count": 12
+    },
+    {
+     "season": 1988,
+     "count": 9
+    },
+    {
+     "season": 1989,
+     "count": 13
+    }
+   ],
+   "text": "1986-87 had just 7 100-point players, the fewest of any season in the 1980s.",
+   "why": "The low point of the 1980s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 76,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1981
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 40
+    },
+    {
+     "season": 1981,
+     "count": 63
+    },
+    {
+     "season": 1982,
+     "count": 44
+    },
+    {
+     "season": 1983,
+     "count": 52
+    },
+    {
+     "season": 1984,
+     "count": 40
+    },
+    {
+     "season": 1985,
+     "count": 48
+    },
+    {
+     "season": 1986,
+     "count": 35
+    },
+    {
+     "season": 1987,
+     "count": 47
+    },
+    {
+     "season": 1988,
+     "count": 50
+    },
+    {
+     "season": 1989,
+     "count": 45
+    }
+   ],
+   "text": "1981-82 had 63 point-a-game players (60% of games), the most of any season in the 1980s.",
+   "why": "The peak year for this across the 1980s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 77,
+   "kind": "season",
+   "rule": "c_ppg1_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 40
+    },
+    {
+     "season": 1981,
+     "count": 63
+    },
+    {
+     "season": 1982,
+     "count": 44
+    },
+    {
+     "season": 1983,
+     "count": 52
+    },
+    {
+     "season": 1984,
+     "count": 40
+    },
+    {
+     "season": 1985,
+     "count": 48
+    },
+    {
+     "season": 1986,
+     "count": 35
+    },
+    {
+     "season": 1987,
+     "count": 47
+    },
+    {
+     "season": 1988,
+     "count": 50
+    },
+    {
+     "season": 1989,
+     "count": 45
+    }
+   ],
+   "text": "1986-87 had just 35 point-a-game players (60% of games), the fewest of any season in the 1980s.",
+   "why": "The low point of the 1980s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 78,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1986
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1980,
+     "count": 7
+    },
+    {
+     "season": 1981,
+     "count": 6
+    },
+    {
+     "season": 1982,
+     "count": 7
+    },
+    {
+     "season": 1983,
+     "count": 8
+    },
+    {
+     "season": 1984,
+     "count": 6
+    },
+    {
+     "season": 1985,
+     "count": 8
+    },
+    {
+     "season": 1986,
+     "count": 4
+    },
+    {
+     "season": 1987,
+     "count": 7
+    },
+    {
+     "season": 1988,
+     "count": 7
+    },
+    {
+     "season": 1989,
+     "count": 7
+    }
+   ],
+   "text": "1986-87 had just 4 defensemen with 19+ goals, the fewest of any season in the 1980s.",
+   "why": "The low point of the 1980s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 79,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 626,
+     "seasons": 10
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "total": 474,
+     "seasons": 10
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "total": 438,
+     "seasons": 10
+    },
+    {
+     "id": 8447067,
+     "name": "Mike Gartner",
+     "total": 413,
+     "seasons": 10
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "total": 400,
+     "seasons": 7
+    }
+   ],
+   "text": "Most goals of the 1980s: Wayne Gretzky, 626 (next: Jari Kurri, 474).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 80,
+   "kind": "total",
+   "rule": "tt_p",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 1842,
+     "seasons": 10
+    },
+    {
+     "id": 8451689,
+     "name": "Peter Stastny",
+     "total": 1059,
+     "seasons": 10
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "total": 1043,
+     "seasons": 10
+    },
+    {
+     "id": 8451146,
+     "name": "Denis Savard",
+     "total": 1013,
+     "seasons": 10
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "total": 952,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points of the 1980s: Wayne Gretzky, 1,842 (next: Peter Stastny, 1,059).",
+   "why": "A decade-long view that settles consistency debates. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 81,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 1216,
+     "seasons": 10
+    },
+    {
+     "id": 8451689,
+     "name": "Peter Stastny",
+     "total": 674,
+     "seasons": 10
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "total": 669,
+     "seasons": 10
+    },
+    {
+     "id": 8451146,
+     "name": "Denis Savard",
+     "total": 662,
+     "seasons": 10
+    },
+    {
+     "id": 8446803,
+     "name": "Bernie Federko",
+     "total": 608,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 1980s: Wayne Gretzky, 1,216.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 82,
+   "kind": "total",
+   "rule": "tt_pm",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 562,
+     "seasons": 10
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "total": 373,
+     "seasons": 10
+    },
+    {
+     "id": 8449403,
+     "name": "Brad McCrimmon",
+     "total": 366,
+     "seasons": 10
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "total": 326,
+     "seasons": 10
+    },
+    {
+     "id": 8448002,
+     "name": "Mark Howe",
+     "total": 324,
+     "seasons": 10
+    }
+   ],
+   "text": "Best combined plus-minus of the 1980s: Wayne Gretzky, +562.",
+   "why": "A decade-long view that settles consistency debates. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 83,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "total": 952,
+     "seasons": 10
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "total": 775,
+     "seasons": 10
+    },
+    {
+     "id": 8449745,
+     "name": "Larry Murphy",
+     "total": 630,
+     "seasons": 10
+    },
+    {
+     "id": 8452489,
+     "name": "Doug Wilson",
+     "total": 618,
+     "seasons": 10
+    },
+    {
+     "id": 8448002,
+     "name": "Mark Howe",
+     "total": 563,
+     "seasons": 10
+    }
+   ],
+   "text": "Most points by a defenseman in the 1980s: Paul Coffey, 952.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 84,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 8,
+     "seasons": 8
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8448471,
+     "name": "Tim Kerr",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "total": 4,
+     "seasons": 4
+    }
+   ],
+   "text": "Most 50-goal seasons in the 1980s: Wayne Gretzky, 8.",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 85,
+   "kind": "total",
+   "rule": "tt_bigp",
+   "group": "P",
+   "decade": "1980s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "total": 10,
+     "seasons": 10
+    },
+    {
+     "id": 8451689,
+     "name": "Peter Stastny",
+     "total": 7,
+     "seasons": 7
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8447685,
+     "name": "Dale Hawerchuk",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "total": 6,
+     "seasons": 6
+    }
+   ],
+   "text": "Most 100-point seasons in the 1980s: Wayne Gretzky, 10.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 86,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1989,
+     "team": "STL",
+     "pos": "R",
+     "GP": 80,
+     "G": 72,
+     "A": 41,
+     "P": 113,
+     "PIM": 24,
+     "PM": -1,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 385,
+     "age": 25
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 73,
+     "G": 71,
+     "A": 64,
+     "P": 135,
+     "PIM": 30,
+     "PM": 78,
+     "PPG": 14,
+     "SHG": 3,
+     "GWG": 13,
+     "S": 267,
+     "age": 24
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1980,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 79,
+     "G": 68,
+     "A": 51,
+     "P": 119,
+     "PIM": 32,
+     "PM": 38,
+     "PPG": 28,
+     "SHG": 2,
+     "GWG": 10,
+     "S": 315,
+     "age": 24
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 78,
+     "G": 68,
+     "A": 63,
+     "P": 131,
+     "PIM": 22,
+     "PM": 45,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 236,
+     "age": 25
+    },
+    {
+     "id": 8449423,
+     "name": "Lanny McDonald",
+     "season": 1982,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 80,
+     "G": 66,
+     "A": 32,
+     "P": 98,
+     "PIM": 90,
+     "PM": -1,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 275,
+     "age": 29
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1982,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 79,
+     "G": 60,
+     "A": 58,
+     "P": 118,
+     "PIM": 20,
+     "PM": 27,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 274,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 82,
+   "kind": "list",
+   "score": 4.8,
+   "players": [
+    {
+     "id": 8448091,
+     "name": "Brett Hull"
+    }
+   ],
+   "seasons": [
+    1989
+   ],
+   "text": "51 players scored 42 goals with more goals than assists in the 1980s (82 seasons). The most extreme: Brett Hull, 1989-90 — 72G, 41A.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 87,
+   "rule": "h_pm_lo",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445208,
+     "name": "Dave Babych",
+     "season": 1980,
+     "team": "WIN",
+     "pos": "D",
+     "GP": 69,
+     "G": 6,
+     "A": 38,
+     "P": 44,
+     "PIM": 90,
+     "PM": -62,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 209,
+     "age": 19
+    },
+    {
+     "id": 8451778,
+     "name": "Doug Sulliman",
+     "season": 1982,
+     "team": "HFD",
+     "pos": "L",
+     "GP": 77,
+     "G": 22,
+     "A": 19,
+     "P": 41,
+     "PIM": 14,
+     "PM": -59,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 162,
+     "age": 23
+    },
+    {
+     "id": 8446535,
+     "name": "Norm Dupont",
+     "season": 1980,
+     "team": "WIN",
+     "pos": "L",
+     "GP": 80,
+     "G": 27,
+     "A": 26,
+     "P": 53,
+     "PIM": 8,
+     "PM": -56,
+     "PPG": 8,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 215,
+     "age": 23
+    },
+    {
+     "id": 8445618,
+     "name": "Pat Boutette",
+     "season": 1983,
+     "team": "PIT",
+     "pos": "L",
+     "GP": 73,
+     "G": 14,
+     "A": 26,
+     "P": 40,
+     "PIM": 142,
+     "PM": -56,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 107,
+     "age": 31
+    },
+    {
+     "id": 8446079,
+     "name": "Dave Christian",
+     "season": 1980,
+     "team": "WIN",
+     "pos": "R",
+     "GP": 80,
+     "G": 28,
+     "A": 43,
+     "P": 71,
+     "PIM": 22,
+     "PM": -55,
+     "PPG": 9,
+     "SHG": 1,
+     "GWG": 0,
+     "S": 185,
+     "age": 21
+    },
+    {
+     "id": 8448616,
+     "name": "Randy Ladouceur",
+     "season": 1985,
+     "team": "DET",
+     "pos": "D",
+     "GP": 78,
+     "G": 5,
+     "A": 13,
+     "P": 18,
+     "PIM": 196,
+     "PM": -55,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 92,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 4.55,
+   "players": [
+    {
+     "id": 8445208,
+     "name": "Dave Babych"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "16 players finished -45 or worse in the 1980s (17 seasons). The most extreme: Dave Babych, 1980-81 — -62.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Plus-minus sparks the analytics vs. eye-test argument every time."
+  },
+  {
+   "n": 88,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451376,
+     "name": "Craig Simpson",
+     "season": 1987,
+     "team": "PIT,EDM",
+     "pos": "L",
+     "GP": 80,
+     "G": 56,
+     "A": 34,
+     "P": 90,
+     "PIM": 77,
+     "PM": 20,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 177,
+     "age": 20
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1980,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 109,
+     "P": 164,
+     "PIM": 28,
+     "PM": 41,
+     "PPG": 15,
+     "SHG": 4,
+     "GWG": 3,
+     "S": 261,
+     "age": 20
+    },
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson",
+     "season": 1987,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 80,
+     "G": 55,
+     "A": 52,
+     "P": 107,
+     "PIM": 45,
+     "PM": -19,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 264,
+     "age": 19
+    },
+    {
+     "id": 8445689,
+     "name": "Rob Brown",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 68,
+     "G": 49,
+     "A": 66,
+     "P": 115,
+     "PIM": 118,
+     "PM": 27,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 169,
+     "age": 20
+    },
+    {
+     "id": 8445979,
+     "name": "Jimmy Carson",
+     "season": 1988,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 49,
+     "A": 51,
+     "P": 100,
+     "PIM": 36,
+     "PM": 3,
+     "PPG": 19,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 240,
+     "age": 20
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1985,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 79,
+     "G": 48,
+     "A": 93,
+     "P": 141,
+     "PIM": 43,
+     "PM": -8,
+     "PPG": 17,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 276,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 22,
+   "kind": "list",
+   "score": 4.4,
+   "players": [
+    {
+     "id": 8451376,
+     "name": "Craig Simpson"
+    }
+   ],
+   "seasons": [
+    1987
+   ],
+   "text": "17 players scored 36 goals at age 20 or younger in the 1980s (22 seasons). The most extreme: Craig Simpson, 1987-88 — 56 goals at 20.",
+   "why": "Leads with the most extreme case, which carries the post. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 89,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 1983,
+     "GP": 80,
+     "W": 57,
+     "L": 18,
+     "T": 5,
+     "GF": 446,
+     "GA": 314,
+     "PCT": 0.74375
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 1985,
+     "GP": 80,
+     "W": 56,
+     "L": 17,
+     "T": 7,
+     "GF": 426,
+     "GA": 310,
+     "PCT": 0.74375
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 1982,
+     "GP": 80,
+     "W": 47,
+     "L": 21,
+     "T": 12,
+     "GF": 424,
+     "GA": 315,
+     "PCT": 0.6625
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 1981,
+     "GP": 80,
+     "W": 48,
+     "L": 17,
+     "T": 15,
+     "GF": 417,
+     "GA": 295,
+     "PCT": 0.69375
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 1984,
+     "GP": 80,
+     "W": 49,
+     "L": 20,
+     "T": 11,
+     "GF": 401,
+     "GA": 298,
+     "PCT": 0.68125
+    },
+    {
+     "id": "Calgary Flames",
+     "name": "Calgary Flames",
+     "season": 1987,
+     "GP": 80,
+     "W": 48,
+     "L": 23,
+     "T": 9,
+     "GF": 397,
+     "GA": 305,
+     "PCT": 0.65625
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 4.39375,
+   "players": [
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "text": "6 teams scored 4.5 goals a game in the 1980s (13 seasons). The most extreme: Edmonton Oilers, 1983-84 — 5.58 per game.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 90,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 79,
+     "G": 48,
+     "A": 90,
+     "P": 138,
+     "PIM": 120,
+     "PM": 61,
+     "PPG": 9,
+     "SHG": 9,
+     "GWG": 2,
+     "S": 308,
+     "age": 24
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 80,
+     "G": 40,
+     "A": 86,
+     "P": 126,
+     "PIM": 104,
+     "PM": 52,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 259,
+     "age": 22
+    },
+    {
+     "id": 8452489,
+     "name": "Doug Wilson",
+     "season": 1981,
+     "team": "CHI",
+     "pos": "D",
+     "GP": 76,
+     "G": 39,
+     "A": 46,
+     "P": 85,
+     "PIM": 54,
+     "PM": 1,
+     "PPG": 14,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 326,
+     "age": 24
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 80,
+     "G": 37,
+     "A": 84,
+     "P": 121,
+     "PIM": 97,
+     "PM": 57,
+     "PPG": 12,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 285,
+     "age": 23
+    },
+    {
+     "id": 8445621,
+     "name": "Ray Bourque",
+     "season": 1983,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 78,
+     "G": 31,
+     "A": 65,
+     "P": 96,
+     "PIM": 57,
+     "PM": 51,
+     "PPG": 12,
+     "SHG": 1,
+     "GWG": 5,
+     "S": 343,
+     "age": 23
+    },
+    {
+     "id": 8447989,
+     "name": "Phil Housley",
+     "season": 1983,
+     "team": "BUF",
+     "pos": "D",
+     "GP": 75,
+     "G": 31,
+     "A": 46,
+     "P": 77,
+     "PIM": 33,
+     "PM": 1,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 6,
+     "S": 235,
+     "age": 19
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 4.2,
+   "players": [
+    {
+     "id": 8446117,
+     "name": "Paul Coffey"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "9 players scored 25 goals as a defenseman in the 1980s (19 seasons). The most extreme: Paul Coffey, 1985-86 — 48 goals.",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 91,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 18,
+     "G": 17,
+     "A": 30,
+     "P": 47,
+     "PIM": 4,
+     "PM": 27,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 67,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1987,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 19,
+     "G": 12,
+     "A": 31,
+     "P": 43,
+     "PIM": 16,
+     "PM": 9,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 62,
+     "age": 27
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1982,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 16,
+     "G": 12,
+     "A": 26,
+     "P": 38,
+     "PIM": 4,
+     "PM": 20,
+     "PPG": 2,
+     "SHG": 3,
+     "GWG": 3,
+     "S": 76,
+     "age": 22
+    },
+    {
+     "id": 8446117,
+     "name": "Paul Coffey",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "D",
+     "GP": 18,
+     "G": 12,
+     "A": 25,
+     "P": 37,
+     "PIM": 44,
+     "PM": 23,
+     "PPG": 3,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 67,
+     "age": 23
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1980,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 18,
+     "G": 17,
+     "A": 18,
+     "P": 35,
+     "PIM": 4,
+     "PM": 14,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 69,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 19,
+     "G": 13,
+     "A": 22,
+     "P": 35,
+     "PIM": 12,
+     "PM": 18,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 3,
+     "S": 87,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.175,
+   "players": [
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "text": "9 players recorded 30 points in one postseason in the 1980s (15 seasons). The most extreme: Wayne Gretzky, 1984-85 — 47 points in 18 games.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 92,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445338,
+     "name": "Paul Baxter",
+     "season": 1981,
+     "team": "PIT",
+     "pos": "D",
+     "GP": 76,
+     "G": 9,
+     "A": 34,
+     "P": 43,
+     "PIM": 409,
+     "PM": -9,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "S": 177,
+     "age": 26
+    },
+    {
+     "id": 8450561,
+     "name": "Bob Probert",
+     "season": 1987,
+     "team": "DET",
+     "pos": "L",
+     "GP": 74,
+     "G": 29,
+     "A": 33,
+     "P": 62,
+     "PIM": 398,
+     "PM": 16,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 126,
+     "age": 22
+    },
+    {
+     "id": 8449498,
+     "name": "Basil McRae",
+     "season": 1987,
+     "team": "MNS",
+     "pos": "L",
+     "GP": 80,
+     "G": 5,
+     "A": 11,
+     "P": 16,
+     "PIM": 382,
+     "PM": -28,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 107,
+     "age": 27
+    },
+    {
+     "id": 8448519,
+     "name": "Joey Kocur",
+     "season": 1985,
+     "team": "DET",
+     "pos": "R",
+     "GP": 59,
+     "G": 9,
+     "A": 6,
+     "P": 15,
+     "PIM": 377,
+     "PM": -25,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 65,
+     "age": 21
+    },
+    {
+     "id": 8448118,
+     "name": "Tim Hunter",
+     "season": 1988,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 75,
+     "G": 3,
+     "A": 9,
+     "P": 12,
+     "PIM": 375,
+     "PM": 22,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "S": 67,
+     "age": 28
+    },
+    {
+     "id": 8449498,
+     "name": "Basil McRae",
+     "season": 1988,
+     "team": "MNS",
+     "pos": "L",
+     "GP": 78,
+     "G": 12,
+     "A": 19,
+     "P": 31,
+     "PIM": 365,
+     "PM": -8,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 0,
+     "S": 122,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 38,
+   "kind": "list",
+   "score": 4.0225,
+   "players": [
+    {
+     "id": 8445338,
+     "name": "Paul Baxter"
+    }
+   ],
+   "seasons": [
+    1981
+   ],
+   "text": "23 players racked up 300 penalty minutes in the 1980s (38 seasons). The most extreme: Paul Baxter, 1981-82 — 409 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 93,
+   "rule": "h_shots",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8452578,
+     "name": "Steve Yzerman",
+     "season": 1988,
+     "team": "DET",
+     "pos": "C",
+     "GP": 80,
+     "G": 65,
+     "A": 90,
+     "P": 155,
+     "PIM": 61,
+     "PM": 17,
+     "PPG": 17,
+     "SHG": 3,
+     "GWG": 7,
+     "S": 388,
+     "age": 23
+    },
+    {
+     "id": 8449881,
+     "name": "Bernie Nicholls",
+     "season": 1988,
+     "team": "LAK",
+     "pos": "C",
+     "GP": 79,
+     "G": 70,
+     "A": 80,
+     "P": 150,
+     "PIM": 96,
+     "PM": 30,
+     "PPG": 21,
+     "SHG": 8,
+     "GWG": 6,
+     "S": 385,
+     "age": 27
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1989,
+     "team": "STL",
+     "pos": "R",
+     "GP": 80,
+     "G": 72,
+     "A": 41,
+     "P": 113,
+     "PIM": 24,
+     "PM": -1,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 385,
+     "age": 25
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1987,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 77,
+     "G": 70,
+     "A": 98,
+     "P": 168,
+     "PIM": 92,
+     "PM": 23,
+     "PPG": 22,
+     "SHG": 10,
+     "GWG": 7,
+     "S": 382,
+     "age": 22
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.9699999999999998,
+   "players": [
+    {
+     "id": 8452578,
+     "name": "Steve Yzerman"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "6 players fired 350 shots in the 1980s (8 seasons). The most extreme: Steve Yzerman, 1988-89 — 388 shots.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 94,
+   "rule": "h_ppg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448471,
+     "name": "Tim Kerr",
+     "season": 1985,
+     "team": "PHI",
+     "pos": "R",
+     "GP": 76,
+     "G": 58,
+     "A": 26,
+     "P": 84,
+     "PIM": 79,
+     "PM": -2,
+     "PPG": 34,
+     "SHG": 0,
+     "GWG": 7,
+     "S": 285,
+     "age": 26
+    },
+    {
+     "id": 8449893,
+     "name": "Joe Nieuwendyk",
+     "season": 1987,
+     "team": "CGY",
+     "pos": "C",
+     "GP": 75,
+     "G": 51,
+     "A": 41,
+     "P": 92,
+     "PIM": 23,
+     "PM": 20,
+     "PPG": 31,
+     "SHG": 3,
+     "GWG": 8,
+     "S": 212,
+     "age": 21
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1987,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 80,
+     "G": 48,
+     "A": 58,
+     "P": 106,
+     "PIM": 56,
+     "PM": -31,
+     "PPG": 29,
+     "SHG": 1,
+     "GWG": 4,
+     "S": 284,
+     "age": 27
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1980,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 79,
+     "G": 68,
+     "A": 51,
+     "P": 119,
+     "PIM": 32,
+     "PM": 38,
+     "PPG": 28,
+     "SHG": 2,
+     "GWG": 10,
+     "S": 315,
+     "age": 24
+    },
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1985,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 75,
+     "G": 53,
+     "A": 51,
+     "P": 104,
+     "PIM": 64,
+     "PM": 7,
+     "PPG": 28,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 244,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.85,
+   "players": [
+    {
+     "id": 8448471,
+     "name": "Tim Kerr"
+    }
+   ],
+   "seasons": [
+    1985
+   ],
+   "text": "7 players scored 25 power-play goals in the 1980s (10 seasons). The most extreme: Tim Kerr, 1985-86 — 34 PPG.",
+   "why": "Leads with the most extreme case, which carries the post. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 95,
+   "rule": "h_spct",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer",
+     "season": 1980,
+     "team": "LAK",
+     "pos": "L",
+     "GP": 65,
+     "G": 56,
+     "A": 49,
+     "P": 105,
+     "PIM": 62,
+     "PM": 32,
+     "PPG": 23,
+     "SHG": 0,
+     "GWG": 10,
+     "S": 171,
+     "age": 26
+    },
+    {
+     "id": 8451376,
+     "name": "Craig Simpson",
+     "season": 1987,
+     "team": "PIT,EDM",
+     "pos": "L",
+     "GP": 80,
+     "G": 56,
+     "A": 34,
+     "P": 90,
+     "PIM": 77,
+     "PM": 20,
+     "PPG": 22,
+     "SHG": 0,
+     "GWG": 8,
+     "S": 177,
+     "age": 20
+    },
+    {
+     "id": 8445689,
+     "name": "Rob Brown",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "R",
+     "GP": 68,
+     "G": 49,
+     "A": 66,
+     "P": 115,
+     "PIM": 118,
+     "PM": 27,
+     "PPG": 24,
+     "SHG": 0,
+     "GWG": 6,
+     "S": 169,
+     "age": 20
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1985,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 78,
+     "G": 68,
+     "A": 63,
+     "P": 131,
+     "PIM": 22,
+     "PM": 45,
+     "PPG": 16,
+     "SHG": 6,
+     "GWG": 9,
+     "S": 236,
+     "age": 25
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 3.818713450292398,
+   "players": [
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "10 players shot 25% on 150+ shots in the 1980s (13 seasons). The most extreme: Charlie Simmer, 1980-81 — 32.7% (56 on 171 shots).",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 96,
+   "rule": "h_eff",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8452575,
+     "name": "Warren Young",
+     "season": 1984,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 80,
+     "G": 40,
+     "A": 32,
+     "P": 72,
+     "PIM": 174,
+     "PM": -18,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 131,
+     "age": 29
+    },
+    {
+     "id": 8451365,
+     "name": "Charlie Simmer",
+     "season": 1985,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 55,
+     "G": 36,
+     "A": 24,
+     "P": 60,
+     "PIM": 42,
+     "PM": 13,
+     "PPG": 14,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 141,
+     "age": 31
+    },
+    {
+     "id": 8449079,
+     "name": "Mikko Makela",
+     "season": 1987,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 73,
+     "G": 36,
+     "A": 40,
+     "P": 76,
+     "PIM": 22,
+     "PM": 14,
+     "PPG": 13,
+     "SHG": 2,
+     "GWG": 4,
+     "S": 142,
+     "age": 22
+    },
+    {
+     "id": 8445771,
+     "name": "Mike Bullard",
+     "season": 1981,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 75,
+     "G": 36,
+     "A": 27,
+     "P": 63,
+     "PIM": 91,
+     "PM": -2,
+     "PPG": 10,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 145,
+     "age": 20
+    },
+    {
+     "id": 8448981,
+     "name": "Paul MacLean",
+     "season": 1988,
+     "team": "DET",
+     "pos": "R",
+     "GP": 76,
+     "G": 36,
+     "A": 35,
+     "P": 71,
+     "PIM": 118,
+     "PM": 7,
+     "PPG": 16,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 148,
+     "age": 30
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "list",
+   "score": 3.763358778625954,
+   "players": [
+    {
+     "id": 8452575,
+     "name": "Warren Young"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "text": "5 players scored 36 goals on fewer than 150 shots in the 1980s. The most extreme: Warren Young, 1984-85 — 40 goals on 131 shots.",
+   "why": "Leads with the most extreme case, which carries the post. Shooting efficiency settles who was a true finisher."
+  },
+  {
+   "n": 97,
+   "rule": "t_pp",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1980,
+     "GP": 80,
+     "W": 48,
+     "L": 18,
+     "T": 14,
+     "GF": 355,
+     "GA": 260,
+     "PCT": 0.6875
+    },
+    {
+     "id": "Edmonton Oilers",
+     "name": "Edmonton Oilers",
+     "season": 1982,
+     "GP": 80,
+     "W": 47,
+     "L": 21,
+     "T": 12,
+     "GF": 424,
+     "GA": 315,
+     "PCT": 0.6625
+    },
+    {
+     "id": "Calgary Flames",
+     "name": "Calgary Flames",
+     "season": 1987,
+     "GP": 80,
+     "W": 48,
+     "L": 23,
+     "T": 9,
+     "GF": 397,
+     "GA": 305,
+     "PCT": 0.65625
+    },
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders",
+     "season": 1981,
+     "GP": 80,
+     "W": 54,
+     "L": 16,
+     "T": 10,
+     "GF": 385,
+     "GA": 250,
+     "PCT": 0.7375
+    },
+    {
+     "id": "Calgary Flames",
+     "name": "Calgary Flames",
+     "season": 1989,
+     "GP": 80,
+     "W": 42,
+     "L": 23,
+     "T": 15,
+     "GF": 348,
+     "GA": 265,
+     "PCT": 0.61875
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1982,
+     "GP": 80,
+     "W": 47,
+     "L": 23,
+     "T": 10,
+     "GF": 338,
+     "GA": 268,
+     "PCT": 0.65
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 3.7334375,
+   "players": [
+    {
+     "id": "New York Islanders",
+     "name": "New York Islanders"
+    }
+   ],
+   "seasons": [
+    1980
+   ],
+   "text": "5 teams convert 27% of power plays in the 1980s (8 seasons). The most extreme: New York Islanders, 1980-81 — 29.3% PP.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 98,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 18,
+     "G": 19,
+     "A": 12,
+     "P": 31,
+     "PIM": 6,
+     "PM": 23,
+     "PPG": 1,
+     "SHG": 2,
+     "GWG": 2,
+     "S": 91,
+     "age": 24
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1980,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 18,
+     "G": 17,
+     "A": 18,
+     "P": 35,
+     "PIM": 4,
+     "PM": 14,
+     "PPG": 9,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 69,
+     "age": 24
+    },
+    {
+     "id": 8450259,
+     "name": "Steve Payne",
+     "season": 1980,
+     "team": "MNS",
+     "pos": "L",
+     "GP": 19,
+     "G": 17,
+     "A": 12,
+     "P": 29,
+     "PIM": 6,
+     "PM": 2,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 4,
+     "S": 86,
+     "age": 22
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1981,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 19,
+     "G": 17,
+     "A": 10,
+     "P": 27,
+     "PIM": 0,
+     "PM": 7,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 3,
+     "S": 62,
+     "age": 25
+    },
+    {
+     "id": 8445611,
+     "name": "Mike Bossy",
+     "season": 1982,
+     "team": "NYI",
+     "pos": "R",
+     "GP": 19,
+     "G": 17,
+     "A": 9,
+     "P": 26,
+     "PIM": 10,
+     "PM": 7,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 5,
+     "S": 78,
+     "age": 26
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 18,
+     "G": 17,
+     "A": 30,
+     "P": 47,
+     "PIM": 4,
+     "PM": 27,
+     "PPG": 4,
+     "SHG": 2,
+     "GWG": 3,
+     "S": 67,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 10,
+   "kind": "list",
+   "score": 3.475,
+   "players": [
+    {
+     "id": 8448569,
+     "name": "Jari Kurri"
+    }
+   ],
+   "seasons": [
+    1984
+   ],
+   "text": "7 players scored 15 goals in one postseason in the 1980s (10 seasons). The most extreme: Jari Kurri, 1984-85 — 19 goals in 18 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 99,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447310,
+     "name": "Michel Goulet",
+     "season": 1983,
+     "team": "QUE",
+     "pos": "L",
+     "GP": 75,
+     "G": 56,
+     "A": 66,
+     "P": 122,
+     "PIM": 76,
+     "PM": 62,
+     "PPG": 11,
+     "SHG": 2,
+     "GWG": 16,
+     "S": 239,
+     "age": 23
+    },
+    {
+     "id": 8448569,
+     "name": "Jari Kurri",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "R",
+     "GP": 73,
+     "G": 71,
+     "A": 64,
+     "P": 135,
+     "PIM": 30,
+     "PM": 78,
+     "PPG": 14,
+     "SHG": 3,
+     "GWG": 13,
+     "S": 267,
+     "age": 24
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1981,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 92,
+     "A": 120,
+     "P": 212,
+     "PIM": 26,
+     "PM": 80,
+     "PPG": 18,
+     "SHG": 6,
+     "GWG": 12,
+     "S": 370,
+     "age": 21
+    },
+    {
+     "id": 8450595,
+     "name": "Brian Propp",
+     "season": 1982,
+     "team": "PHI",
+     "pos": "L",
+     "GP": 80,
+     "G": 40,
+     "A": 42,
+     "P": 82,
+     "PIM": 72,
+     "PM": 34,
+     "PPG": 13,
+     "SHG": 1,
+     "GWG": 12,
+     "S": 250,
+     "age": 23
+    },
+    {
+     "id": 8449743,
+     "name": "Joe Mullen",
+     "season": 1986,
+     "team": "CGY",
+     "pos": "R",
+     "GP": 79,
+     "G": 47,
+     "A": 40,
+     "P": 87,
+     "PIM": 14,
+     "PM": 19,
+     "PPG": 15,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 206,
+     "age": 29
+    },
+    {
+     "id": 8448091,
+     "name": "Brett Hull",
+     "season": 1989,
+     "team": "STL",
+     "pos": "R",
+     "GP": 80,
+     "G": 72,
+     "A": 41,
+     "P": 113,
+     "PIM": 24,
+     "PM": -1,
+     "PPG": 27,
+     "SHG": 0,
+     "GWG": 12,
+     "S": 385,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 3.4,
+   "players": [
+    {
+     "id": 8447310,
+     "name": "Michel Goulet"
+    }
+   ],
+   "seasons": [
+    1983
+   ],
+   "text": "7 players scored 12 game-winning goals in the 1980s. The most extreme: Michel Goulet, 1983-84 — 16 GWG.",
+   "why": "Shows how high the bar was across the 1980s; the extreme case is the hook. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 100,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "1980s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1988,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 76,
+     "G": 85,
+     "A": 114,
+     "P": 199,
+     "PIM": 100,
+     "PM": 41,
+     "PPG": 31,
+     "SHG": 13,
+     "GWG": 8,
+     "S": 313,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1983,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 74,
+     "G": 87,
+     "A": 118,
+     "P": 205,
+     "PIM": 39,
+     "PM": 78,
+     "PPG": 20,
+     "SHG": 12,
+     "GWG": 11,
+     "S": 326,
+     "age": 23
+    },
+    {
+     "id": 8447400,
+     "name": "Wayne Gretzky",
+     "season": 1984,
+     "team": "EDM",
+     "pos": "C",
+     "GP": 80,
+     "G": 73,
+     "A": 135,
+     "P": 208,
+     "PIM": 52,
+     "PM": 100,
+     "PPG": 8,
+     "SHG": 11,
+     "GWG": 7,
+     "S": 354,
+     "age": 24
+    },
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux",
+     "season": 1987,
+     "team": "PIT",
+     "pos": "C",
+     "GP": 77,
+     "G": 70,
+     "A": 98,
+     "P": 168,
+     "PIM": 92,
+     "PM": 23,
+     "PPG": 22,
+     "SHG": 10,
+     "GWG": 7,
+     "S": 382,
+     "age": 22
+    },
+    {
+     "id": 8447345,
+     "name": "Dirk Graham",
+     "season": 1988,
+     "team": "CHI",
+     "pos": "R",
+     "GP": 80,
+     "G": 33,
+     "A": 45,
+     "P": 78,
+     "PIM": 91,
+     "PM": 8,
+     "PPG": 5,
+     "SHG": 10,
+     "GWG": 5,
+     "S": 217,
+     "age": 29
+    },
+    {
+     "id": 8449887,
+     "name": "Kent Nilsson",
+     "season": 1983,
+     "team": "CGY",
+     "pos": "C",
+     "GP": 67,
+     "G": 31,
+     "A": 49,
+     "P": 80,
+     "PIM": 22,
+     "PM": -24,
+     "PPG": 7,
+     "SHG": 9,
+     "GWG": 5,
+     "S": 181,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 3.325,
+   "players": [
+    {
+     "id": 8448782,
+     "name": "Mario Lemieux"
+    }
+   ],
+   "seasons": [
+    1988
+   ],
+   "text": "10 players scored 8 shorthanded goals in the 1980s (12 seasons). The most extreme: Mario Lemieux, 1988-89 — 13 SHG.",
+   "why": "Leads with the most extreme case, which carries the post. Shorthanded goals and penalty killing are the sport's momentum swings."
+  }
+ ],
+ "shortNote": null,
+ "counts": {
+  "skaterSeasons": 6243,
+  "goalieSeasons": 671,
+  "teamSeasons": 210
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:52.381Z"
+}

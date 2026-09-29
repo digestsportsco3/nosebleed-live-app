@@ -897,7 +897,7 @@
     }
    ],
    "text": "LeBron James averaged 25+ points in 10 straight seasons (2010-11 to 2019-20), the longest run of the 2010s.",
-   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Scoring averages are the most-quoted stat in the sport."
+   "why": "Years in a row of the same excellence: consistency in one line. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 12,
@@ -1079,7 +1079,7 @@
     }
    ],
    "text": "DeAndre Jordan averaged a double-digit rebounding figure in 7 straight seasons (2013-14 to 2019-20), the longest run of the 2010s.",
-   "why": "Leads with the most extreme case, which carries the post. Rebounding numbers from past eras astonish modern fans."
+   "why": "The longest run of the 2010s; fans measure today's stars against it. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 13,
@@ -1261,7 +1261,7 @@
     }
    ],
    "text": "Chris Paul averaged 8+ assists in 7 straight seasons (2010-11 to 2016-17), the longest run of the 2010s.",
-   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Assist averages crown the true point guards."
+   "why": "Years in a row of the same excellence: consistency in one line. Assist averages crown the true point guards."
   },
   {
    "n": 14,
@@ -1512,7 +1512,7 @@
     }
    ],
    "text": "LeBron James averaged 20+ points in 10 straight seasons (2010-11 to 2019-20), the longest run of the 2010s.",
-   "why": "Leads with the most extreme case, which carries the post. Scoring averages are the most-quoted stat in the sport."
+   "why": "The longest run of the 2010s; fans measure today's stars against it. Scoring averages are the most-quoted stat in the sport."
   },
   {
    "n": 15,
@@ -1717,7 +1717,7 @@
     }
    ],
    "text": "James Harden made 150+ threes in 8 straight seasons (2012-13 to 2019-20), the longest run of the 2010s.",
-   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Fifty-point games are the scorer's trophy case."
+   "why": "Years in a row of the same excellence: consistency in one line. Fifty-point games are the scorer's trophy case."
   },
   {
    "n": 16,
@@ -1812,7 +1812,7 @@
     2012
    ],
    "text": "Only two players of the 2010s averaged 3 blocks a game (60% of games): Hassan Whiteside (2015-16: 3.7 bpg); Serge Ibaka (2×, best 2011-12: 3.7 bpg).",
-   "why": "A two-player club is a ready-made debate. Shot-blocking seasons are rim-protector content fans love."
+   "why": "A club of two is a ready-made debate. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 17,
@@ -1979,7 +1979,7 @@
     2011
    ],
    "text": "Only two players of the 2010s grabbed more offensive rebounds than defensive (300+ reb): Steven Adams (2×, best 2017-18: 384 off, 301 def); Nikola Pekovic (2011-12: 181 off, 165 def).",
-   "why": "A two-player club is a ready-made debate. Rebounding numbers from past eras astonish modern fans."
+   "why": "A club of two is a ready-made debate. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 19,
@@ -2233,7 +2233,7 @@
     }
    ],
    "text": "James Harden scored 2,000 points in 6 straight seasons (2014-15 to 2019-20), the longest run of the 2010s.",
-   "why": "Leads with the most extreme case, which carries the post. Streaks are the most shareable kind of consistency."
+   "why": "The longest run of the 2010s; fans measure today's stars against it. Streaks are the most shareable kind of consistency."
   },
   {
    "n": 21,
@@ -2659,7 +2659,7 @@
     }
    ],
    "text": "Blake Griffin shot .500 from the field (800+ FGA) in 5 straight seasons (2010-11 to 2014-15), the longest run of the 2010s.",
-   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Field-goal accuracy at volume is efficiency fans respect."
+   "why": "Years in a row of the same excellence: consistency in one line. Field-goal accuracy at volume is efficiency fans respect."
   },
   {
    "n": 24,
@@ -5349,7 +5349,7 @@
     }
    ],
    "text": "Chris Paul averaged 2+ steals in 4 straight seasons (2010-11 to 2013-14), the longest run of the 2010s.",
-   "why": "Shows how high the bar was across the 2010s; the extreme case is the hook. Steals are the defensive highlight stat."
+   "why": "Years in a row of the same excellence: consistency in one line. Steals are the defensive highlight stat."
   },
   {
    "n": 54,
@@ -6517,7 +6517,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2016
+    2016,
+    2018
    ],
    "finder": null,
    "evidence": [
@@ -6562,8 +6563,8 @@
      "count": 12
     }
    ],
-   "text": "2016-17 had 13 players averaging 25 points (60% of games), the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s."
+   "text": "2016-17 and 2018-19 each had 13 players averaging 25 points (60% of games), tied for the most of any season in the 2010s.",
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out."
   },
   {
    "n": 71,
@@ -6620,7 +6621,7 @@
     }
    ],
    "text": "2014-15 had just 3 players averaging 25 points (60% of games), the fewest of any season in the 2010s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 72,
@@ -6677,7 +6678,7 @@
     }
    ],
    "text": "2018-19 had 7 players averaging 20 points and 10 rebounds (60% of games), the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s."
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out."
   },
   {
    "n": 73,
@@ -6734,7 +6735,7 @@
     }
    ],
    "text": "2012-13 had no players averaging 20 points and 10 rebounds (60% of games) at all — the only season of the 2010s without one.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 74,
@@ -6791,7 +6792,7 @@
     }
    ],
    "text": "2017-18 had 5 .900 free-throw shooters (200+ FTA), the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s. Free-throw accuracy is the shooter's purest stat."
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 75,
@@ -6848,7 +6849,7 @@
     }
    ],
    "text": "2013-14 had no .900 free-throw shooters (200+ FTA) at all — the only season of the 2010s without one.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Free-throw accuracy is the shooter's purest stat."
   },
   {
    "n": 76,
@@ -6905,7 +6906,7 @@
     }
    ],
    "text": "2010-11 had 9 8-assist players, the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s. Assist averages crown the true point guards."
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Assist averages crown the true point guards."
   },
   {
    "n": 77,
@@ -6962,7 +6963,7 @@
     }
    ],
    "text": "2012-13 had just 3 8-assist players, the fewest of any season in the 2010s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Assist averages crown the true point guards."
   },
   {
    "n": 78,
@@ -6973,7 +6974,8 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2016
+    2016,
+    2018
    ],
    "finder": null,
    "evidence": [
@@ -7018,8 +7020,8 @@
      "count": 30
     }
    ],
-   "text": "2016-17 had 32 players averaging 20 points (60% of games), the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s."
+   "text": "2016-17 and 2018-19 each had 32 players averaging 20 points (60% of games), tied for the most of any season in the 2010s.",
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out."
   },
   {
    "n": 79,
@@ -7076,7 +7078,7 @@
     }
    ],
    "text": "2012-13 had just 11 players averaging 20 points (60% of games), the fewest of any season in the 2010s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 80,
@@ -7133,7 +7135,7 @@
     }
    ],
    "text": "2018-19 had 14 players averaging 10 rebounds (60% of games), the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s. Rebounding numbers from past eras astonish modern fans."
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 81,
@@ -7190,7 +7192,7 @@
     }
    ],
    "text": "2011-12 had just 7 players averaging 10 rebounds (60% of games), the fewest of any season in the 2010s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Rebounding numbers from past eras astonish modern fans."
   },
   {
    "n": 82,
@@ -7247,7 +7249,7 @@
     }
    ],
    "text": "2019-20 had 2 30-point scorers, the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s."
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out."
   },
   {
    "n": 83,
@@ -7258,7 +7260,10 @@
    "score": 5,
    "players": [],
    "seasons": [
-    2010
+    2010,
+    2011,
+    2012,
+    2014
    ],
    "finder": null,
    "evidence": [
@@ -7303,8 +7308,8 @@
      "count": 2
     }
    ],
-   "text": "2010-11 had no 30-point scorers at all — one of the seasons of the 2010s without one.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "text": "2010-11 had no 30-point scorers at all — one of 4 seasons of the 2010s without one.",
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook."
   },
   {
    "n": 84,
@@ -7461,7 +7466,7 @@
     }
    ],
    "text": "2015-16 had 5 players averaging 2 steals (60% of games), the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s. Steals are the defensive highlight stat."
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Steals are the defensive highlight stat."
   },
   {
    "n": 87,
@@ -7518,7 +7523,7 @@
     }
    ],
    "text": "2019-20 had just one player averaging 2 steals (60% of games), the fewest of any season in the 2010s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Steals are the defensive highlight stat."
   },
   {
    "n": 88,
@@ -7575,7 +7580,7 @@
     }
    ],
    "text": "2012-13 had 7 players averaging 2 blocks (60% of games), the most of any season in the 2010s.",
-   "why": "Rewards staying power: the most such seasons in the 2010s. Shot-blocking seasons are rim-protector content fans love."
+   "why": "The peak year for this across the 2010s; fans can argue why that season stood out. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 89,
@@ -7632,7 +7637,7 @@
     }
    ],
    "text": "2017-18 had just 2 players averaging 2 blocks (60% of games), the fewest of any season in the 2010s.",
-   "why": "A surprising gap in a great career; fans love a \"wait, really?\" stat."
+   "why": "The low point of the 2010s for this; a \"what happened that year?\" hook. Shot-blocking seasons are rim-protector content fans love."
   },
   {
    "n": 90,

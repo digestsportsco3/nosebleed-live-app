@@ -135,15 +135,17 @@ const ANGLE = {
   games40: "Forty games means a deep tournament run; a volume-of-winning stat.",
 };
 
+const dl = (f) => (typeof f.decade === "number" ? `${f.decade}s` : f.decade);
 // Kind framing. Two variants each, chosen by line number, so a page does not
 // repeat itself.
 const KIND = {
-  only: [(f) => `A club of one in the ${f.decade}; "name another" posts draw replies.`, (f) => `Nobody else in the ${f.decade} did it, and exclusivity is what gets a post shared.`],
-  pair: [() => `Two names invite the "whose season was better?" argument.`, () => `A two-player club is a ready-made debate.`],
+  only: [(f) => `A club of one in the ${dl(f)}; "name another" posts draw replies.`, (f) => `Nobody else in the ${dl(f)} did it, and exclusivity is what gets a post shared.`],
+  pair: [() => `Two names invite the "whose season was better?" argument.`, () => `A club of two is a ready-made debate.`],
   few: [() => `A short list fans can recite; each name brings its own fan base.`, () => `Few enough to name them all, so readers tag the ones they remember.`],
-  list: [(f) => `Shows how high the bar was across the ${f.decade}; the extreme case is the hook.`, () => `Leads with the most extreme case, which carries the post.`],
-  extreme: [(f) => `The high-water mark of the ${f.decade}: a clean "who did it best" answer.`, () => `The most extreme season of the decade; fans compare it with today's numbers.`],
+  list: [(f) => `Shows how high the bar was across the ${dl(f)}; the extreme case is the hook.`, () => `Leads with the most extreme case, which carries the post.`],
+  extreme: [(f) => `The high-water mark of the ${dl(f)}: a clean "who did it best" answer.`, () => `The most extreme season of the decade; fans compare it with today's numbers.`],
   total: [() => `Rewards sustained excellence over one big year and surfaces names fans forget.`, () => `A decade-long view that settles consistency debates.`],
+  streak: [() => `Years in a row of the same excellence: consistency in one line.`, (f) => `The longest run of the ${dl(f)}; fans measure today's stars against it.`],
   nearmiss: [() => `So-close stats get shared: fans love a round number missed by a hair.`, () => `A near miss is a story; fans wonder what one more game would have done.`],
   age: [() => `Age angles (longevity or prodigy) travel beyond one fan base.`, () => `Oldest and youngest lines give a fresh angle on a familiar stat.`],
   career: [() => `Career-long numbers frame the legacy in one line.`, () => `The long view that every "greatest ever" thread starts from.`],
@@ -155,7 +157,8 @@ const KIND = {
   opponents: [() => `Rivalry numbers pull that opponent's fan base into the replies.`, () => `Opponent-specific lines get shared by the other side too.`],
   splits: [() => `Splits answer the "big stage" question with numbers.`, () => `Context fans rarely see, good for quote-tweets.`],
   allstar: [() => `All-Star content performs every February.`, () => `Showcase-game numbers for All-Star weekend posts.`],
-  season_count: [(f) => `Compares seasons across the ${f.decade}; fans argue which year was the peak.`, () => `A season-by-season contrast that shows how the league changed.`],
+  teammates: [() => `Teammate combos pull that club's whole fan base into the replies.`, () => `Two stars on one roster is a ready-made nostalgia post.`],
+  season_count: [(f) => `Compares seasons across the ${dl(f)}; fans argue which year was the peak.`, () => `A season-by-season contrast that shows how the league changed.`],
   team: [(f) => `School-pride bait: ${(f.players && f.players[0] && f.players[0].name) || "that school"}'s fans will share it.`, () => `Program bragging rights; alumni and rivals both engage.`],
 };
 
@@ -171,7 +174,11 @@ const ALIAS = { py: "yds_hi", ptd: "td_hi", int: "int_hi", ry: "ry_hi", rec: "re
   eff_scorer: "fgp_hi", ft250: "ft_hi", pts800: "ppg_hi", trb400: "trb_hi", ts_hi: "fgp_hi", fg3a_hi: "fg3_hi", fg3_eff: "fg3p_hi", blk_pts: "blk_hi",
   ast250: "ast_hi", stl100: "stl_hi", fr_pts: "fr_ppg", fr_blk: "fr_rpg", fr_ast: "fr_ppg", orb_hi: "rpg_hi", per_hi: "adv", usg_hi: "adv", ws_hi: "adv", bpm_hi: "adv",
   ftp_team: "ftp_hi", rpg_team: "rpg_hi", apg_team: "apg_hi", bpg_team: "bpg_hi", spg_team: "spg_hi", fg3p_team: "fg3p_hi",
-  teamtot: "team_tot", pen: "pen_hi", to: "to_opp", rdef: "rush_def" };
+  teamtot: "team_tot", pen: "pen_hi", to: "to_opp", rdef: "rush_def",
+  pts700: "ppg_hi", ft200: "ft_hi", ftp90: "ftp_hi", so_ppg: "ppg_hi", sr_ppg: "ppg_hi", jr_ppg: "ppg_hi", fgp60: "fgp_hi", ppg28: "ppg30", rpg18: "rpg_hi", fga700: "fga_hi",
+  ppg30b: "ppg30", dd20_10: "dbl_big", rpg12: "rpg_hi", apg8: "apg_hi", bpg4: "bpg_hi", spg3: "spg_hi", fgp65: "fgp_hi", fg3p48: "fg3p_hi", fg3_120: "fg3_hi",
+  fta300: "fta_hi", trb350: "trb_hi", stl_ast: "stl_blk", blk_fg3: "blk_ast", tov150: "fumbles_hi", drb300: "rpg_hi", mpg37: "adv", ts65: "fgp_hi", per30: "adv", ws8: "adv",
+  wins33: "wins_hi", loss25: "loss_hi", ftp76: "ftp_hi", ppg85: "ppg_hi", fgp50: "fgp_hi", rpg42: "rpg_hi", apg18: "apg_hi", bpg6: "bpg_hi", spg10: "spg_hi", fg3a900: "fg3_team" };
 // Families by pattern, for rule names that carry their threshold (rec130, fg40...).
 const FAMILY = [[/_slow$/, "ry_slow"], [/^(c_|s_)?py|^yds\d|^x_py/, "yds_hi"], [/^(c_|s_)?ptd|^td\d|^x_ptd/, "td_hi"], [/^td30_int|^int_over_td/, "td_int"], [/^int\d|^x_int$/, "int_hi"],
   [/^few_int|^x_int_rate_low/, "int_low"], [/^cmp|^x_cpct/, "cmp_hi"], [/^rate|^x_rate/, "rate_hi"], [/^ypa/, "ypa_hi"], [/^sacked|^sk\d|^x_sk$/, "sacked"],
@@ -195,6 +202,32 @@ const TEXT_ANGLES = [[/\b(60|61|62|63|64|65|69|81)[- ]point|\b(60|61|62|63|64|65
   [/rebound/, "Rebounding is the overlooked part of a scorer's game."], [/three/, "Then-vs-now three-point contrast gets modern fans talking."], [/free throw/, "Living at the line is an underrated part of scoring."],
   [/scoring title|led the league|highest in NBA history|No\. \d/, "All-time rank is the legacy stat."], [/streak|consecutive|straight/, "Streaks are the most shareable kind of consistency."],
   [/record|went \d+-\d+|\d+-\d+ in/, "Winning context answers the \"empty stats\" critique."], [/averaged|average/, "An average fans can hold up against any star's."]];
+// Baseball angles, by line content.
+const MLB_TEXT = [[/to walk \d|walked \d|walk \d+\+ batters/, "Wildness on the mound is an oddity fans love to share."], [/RBI|drive in/, "Run production is the old-school stat fans still quote."], [/homer|home run|\bHR\b/, "Home runs are the sport's headline number; every fan base argues its slugger."], [/steal|\bSB\b/, "Speed numbers from past eras astonish modern fans."],
+  [/strikeout|\bSO\b|\bK\b/, "Strikeout numbers show how much the game has changed."], [/\bERA\b/, "Run prevention across eras starts the best pitching debates."],
+  [/RBI/, "Run production is the old-school stat fans still quote."], [/\bsave|closer/, "Closer content performs with every bullpen's fan base."], [/20-game|\bwins?\b|\bW\b/, "Wins are the traditional ace's badge."],
+  [/\.3\d\d|\.4\d\d|batting|hitters \(|\bAVG\b/, "Batting average is the stat every generation of fans knows."], [/200-hit|\bhits\b/, "Hit totals celebrate the great contact hitters."],
+  [/walk|\bBB\b/, "Plate discipline is the analytics crowd's favorite skill."], [/triple|double/, "Extra-base oddities make great trivia."]];
+// Hockey angles, by rule name.
+const NHL_ANGLE = [
+  [/^(h_pim|x_pim|tt_pim|st_pim|h_tough|h_d_pim)$/, "Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."],
+  [/^(h_g|x_g|tt_g|tt_bigg|st_g|c_g|h_gpg|x_gpg|h_sniper|n_g49|n_g29|po_g|pox_g)$/, "Goal totals are hockey's headline number; every fan base argues its sniper."],
+  [/^(h_p|x_p|tt_p|tt_bigp|st_p|c_p|h_2ppg|x_ptspg|c_ppg1|st_ppg|n_p99|po_p|pox_p)$/, "Point totals anchor every greatest-player debate."],
+  [/^(h_a|x_a|tt_a|h_setup)$/, "Playmakers get less credit than scorers; assist lines give it back."],
+  [/^(h_dg|h_dp|x_dp|x_dg|tt_dp|c_dg|po_dp)$/, "Offense from the blue line is rare and always shareable."],
+  [/^h_clean$/, "Scoring without the penalty box is a gentlemanly-player angle fans love."],
+  [/^(h_ppg|x_ppg|tt_ppg|h_pts_no_ppg|t_pp|tx_pp)$/, "Power-play production decides games; specialists get their due."],
+  [/^(h_shg|x_shg|t_pk|tx_pk)$/, "Shorthanded goals and penalty killing are the sport's momentum swings."],
+  [/^(h_gwg|x_gwg|tt_gwg|h_otg|po_gwg)$/, "Clutch goals are the stat fans quote in arguments."],
+  [/^(h_pm_hi|h_pm_lo|x_pm|x_pm_lo|tt_pm)$/, "Plus-minus sparks the analytics vs. eye-test argument every time."],
+  [/^(h_spct|x_spct|h_eff|h_volume_miss|h_shots|x_s)$/, "Shooting efficiency settles who was a true finisher."],
+  [/^(h_toi|x_toi)$/, "Ice-time workload shows who coaches trusted most."], [/^(h_first_g|h_first_p|x_first_g|x_first_p|g_first_so)$/, "First-season numbers are prodigy content that travels."],
+  [/^(h_old_g|h_old_p|g_old_w)$/, "Longevity in a punishing sport is always shared."], [/^(h_young_g|h_young_p)$/, "Teenage and 20-year-old production is prodigy content."],
+  [/^(h_euro|h_usa)$/, "Birthplace angles pull in national fan bases."], [/^(g_so|gx_so|gt_so|pog_so|pogx_so)$/, "Shutouts are the goalie's trophy case."],
+  [/^(g_gaa|gx_gaa|g_sv|gx_sv|g_sv2000|gx_saves|pog_gaa)$/, "Goaltending numbers across eras start the best debates."], [/^(g_w|gx_w|gt_w|gst_w)$/, "Wins are the first thing fans cite for a goalie."],
+  [/^(g_l|gx_l|g_t|t_ties)$/, "Workhorse and hard-luck goalie seasons get sympathy shares."], [/^(g_gp|gx_gp|gt_gp|tt_gp)$/, "Workloads from past eras astonish fans used to rotations and rest days."],
+  [/^g_pts$/, "A goalie racking up points is a novelty post."], [/^(t_pct800|tx_pct|t_gdiff|tx_gd|t_gpg|tx_gf|t_gapg|tx_ga)$/, "Dynasty-level team seasons are what fan bases brag about."],
+  [/^(t_pct300|tx_pct_lo|t_gdiff_neg)$/, "Futility stats are among the most shared in sports."]];
 function textAngle(f) { const t = String(f.text || ""); for (const [re, a] of TEXT_ANGLES) if (re.test(t)) return a; return ""; }
 function ruleKey(f, sport) { const k = rawKey(f);
   if (sport === "nba") { const raw = String(f.rule || ""); for (const [re, key] of NBA_FAMILY) if (re.test(raw)) return key; return k; }
@@ -212,9 +245,17 @@ function whyFor(f, i = 0, sport = "") {
   const k = KIND[f.kind] || KIND.list;
   const frame = k[i % k.length](f);
   if (f.kind === "nearmiss" || f.kind === "age") return frame;
-  if (/_most$/.test(f.rule || "")) return `Rewards staying power: the most such seasons in the ${f.decade}. ${ANGLE[ruleKey(f)] || ""}`.trim();
-  if (/_least$/.test(f.rule || "")) return `A surprising gap in a great career; fans love a "wait, really?" stat.`;
-  if (/:most/.test(f.rule || "")) return `A decade of consistency in one number; names the most reliable producer of the ${f.decade}.`;
+  // Season-count lines ("2009 had 10 4,000-yard passers, the most of any season"):
+  // they compare seasons, not players.
+  const sc = String(f.rule || "").match(/^(.*)_(most|least)$/);
+  if (sc) {
+    const base = { ...f, rule: sc[1] }; const angle = sport === "nhl" ? (NHL_ANGLE.find(([re]) => re.test(sc[1])) || [])[1] : ANGLE[ruleKey(base, sport)] || (sport === "nba" ? NBA_ANGLE_OVERRIDE[ruleKey(base, sport)] : "");
+    const frame2 = sc[2] === "most" ? `The peak year for this across the ${dl(f)}; fans can argue why that season stood out.` : `The low point of the ${dl(f)} for this; a "what happened that year?" hook.`;
+    return angle ? `${frame2} ${angle}` : frame2;
+  }
+  if (/:most/.test(f.rule || "")) return `A decade of consistency in one number; names the most reliable producer of the ${dl(f)}.`;
+  if (sport === "mlb") { const t = String(f.text || ""); const hit = MLB_TEXT.find(([re]) => re.test(t)); return hit ? `${frame} ${hit[1]}` : frame; }
+  if (sport === "nhl") { const raw = String(f.rule || "").replace(/_(most|least)$/, ""); const hit = NHL_ANGLE.find(([re]) => re.test(raw)); return hit ? `${frame} ${hit[1]}` : frame; }
   const rk = ruleKey(f, sport); const angle = (sport === "nba" && NBA_ANGLE_OVERRIDE[rk]) || ANGLE[rk] || textAngle(f);
   return angle ? `${frame} ${angle}` : frame;
 }

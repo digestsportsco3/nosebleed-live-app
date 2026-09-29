@@ -1,0 +1,5095 @@
+{
+ "sport": "NHL",
+ "decade": "1930s",
+ "era": 1,
+ "seasons": [
+  "1930-31",
+  "1931-32",
+  "1932-33",
+  "1933-34",
+  "1934-35",
+  "1935-36",
+  "1936-37",
+  "1937-38",
+  "1938-39",
+  "1939-40"
+ ],
+ "candidates": 77,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445517,
+     "name": "Roy Conacher",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 47,
+     "G": 26,
+     "A": 11,
+     "P": 37,
+     "PIM": 12,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.65,
+   "players": [
+    {
+     "id": 8445517,
+     "name": "Roy Conacher"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "text": "The only player of the 1930s to score 20 goals in their first NHL season: Roy Conacher, 1938-39 — 26 goals.",
+   "why": "A club of one in the 1930s; \"name another\" posts draw replies. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 2,
+   "rule": "h_usa",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "season": 1934,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 25,
+     "A": 9,
+     "P": 34,
+     "PIM": 4,
+     "PPG": 4,
+     "SHG": 6,
+     "GWG": 3,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.625,
+   "players": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "text": "The only player of the 1930s to score 24 goals, born in the United States: Cecil Dillon, 1934-35 — 25 goals.",
+   "why": "Nobody else in the 1930s did it, and exclusivity is what gets a post shared. Birthplace angles pull in national fan bases."
+  },
+  {
+   "n": 3,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447025,
+     "name": "Busher Jackson",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 43,
+     "G": 18,
+     "A": 13,
+     "P": 31,
+     "PIM": 92,
+     "GWG": 5,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.45,
+   "players": [
+    {
+     "id": 8447025,
+     "name": "Busher Jackson"
+    }
+   ],
+   "seasons": [
+    1930
+   ],
+   "text": "The only player of the 1930s to score 18 goals at age 20 or younger: Busher Jackson, 1930-31 — 18 goals at 20.",
+   "why": "A club of one in the 1930s; \"name another\" posts draw replies. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 4,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 47,
+     "G": 36,
+     "A": 21,
+     "P": 57,
+     "PIM": 24,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 13,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.325,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "text": "The only player of the 1930s to score 10 game-winning goals: Charlie Conacher, 1934-35 — 13 GWG.",
+   "why": "Nobody else in the 1930s did it, and exclusivity is what gets a post shared. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 5,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449966,
+     "name": "Charlie Gardiner",
+     "season": 1930,
+     "team": "CHI",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 24,
+     "L": 17,
+     "T": 3,
+     "SO": 12,
+     "GAA": 1.72693,
+     "GA": 78
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.3,
+   "players": [
+    {
+     "id": 8449966,
+     "name": "Charlie Gardiner"
+    }
+   ],
+   "seasons": [
+    1930
+   ],
+   "text": "The only goalie of the 1930s to record 12 shutouts: Charlie Gardiner, 1930-31 — 12 shutouts in 44 games.",
+   "why": "A club of one in the 1930s; \"name another\" posts draw replies. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 6,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449861,
+     "name": "Wilf Cude",
+     "season": 1933,
+     "team": "MTL,DET",
+     "GP": 30,
+     "A": 0,
+     "PIM": 0,
+     "W": 16,
+     "L": 6,
+     "T": 8,
+     "SO": 5,
+     "GAA": 1.46875,
+     "GA": 47
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.170212765957446,
+   "players": [
+    {
+     "id": 8449861,
+     "name": "Wilf Cude"
+    }
+   ],
+   "seasons": [
+    1933
+   ],
+   "text": "The only goalie of the 1930s to post a goals-against average under 1.50 (40% of games): Wilf Cude, 1933-34 — 1.47 GAA in 30 games.",
+   "why": "Nobody else in the 1930s did it, and exclusivity is what gets a post shared. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 7,
+   "rule": "h_shg",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "season": 1934,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 25,
+     "A": 9,
+     "P": 34,
+     "PIM": 4,
+     "PPG": 4,
+     "SHG": 6,
+     "GWG": 3,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.15,
+   "players": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "text": "The only player of the 1930s to score 6 shorthanded goals: Cecil Dillon, 1934-35 — 6 SHG.",
+   "why": "A club of one in the 1930s; \"name another\" posts draw replies. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 8,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450009,
+     "name": "Dave Kerr",
+     "season": 1936,
+     "team": "NYR",
+     "GP": 9,
+     "A": 0,
+     "PIM": 0,
+     "W": 6,
+     "L": 3,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.08482,
+     "GA": 10
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 8450009,
+     "name": "Dave Kerr"
+    }
+   ],
+   "seasons": [
+    1936
+   ],
+   "text": "The only goalie of the 1930s to record 4 shutouts in one postseason: Dave Kerr, 1936-37 — 4 shutouts in 9 games.",
+   "why": "Nobody else in the 1930s did it, and exclusivity is what gets a post shared. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 9,
+   "rule": "h_old_p",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1932,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 28,
+     "A": 22,
+     "P": 50,
+     "PIM": 51,
+     "GWG": 4,
+     "age": 36
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1934,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 21,
+     "A": 15,
+     "P": 36,
+     "PIM": 23,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 38
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1938,
+     "team": "NYA",
+     "pos": "C",
+     "GP": 46,
+     "G": 16,
+     "A": 19,
+     "P": 35,
+     "PIM": 43,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 9.25,
+   "players": [
+    {
+     "id": 8445529,
+     "name": "Bill Cook"
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    }
+   ],
+   "seasons": [
+    1932,
+    1934,
+    1938
+   ],
+   "text": "Only two players of the 1930s recorded 27 points at age 36 or older: Bill Cook (2×, best 1932-33: 50 points at 36); Nels Stewart (1938-39: 35 points at 36).",
+   "why": "Two names invite the \"whose season was better?\" argument. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 10,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "1930s",
+   "score": 9,
+   "players": [
+    {
+     "id": 8446915,
+     "name": "Red Horner"
+    }
+   ],
+   "seasons": [
+    1930,
+    1931,
+    1932,
+    1933,
+    1934,
+    1935,
+    1936,
+    1937,
+    1938,
+    1939
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 42,
+     "G": 1,
+     "A": 11,
+     "P": 12,
+     "PIM": 73,
+     "GWG": 0,
+     "age": 21
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 42,
+     "G": 7,
+     "A": 9,
+     "P": 16,
+     "PIM": 109,
+     "GWG": 2,
+     "age": 22
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1932,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 48,
+     "G": 3,
+     "A": 8,
+     "P": 11,
+     "PIM": 144,
+     "GWG": 0,
+     "age": 23
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 40,
+     "G": 11,
+     "A": 10,
+     "P": 21,
+     "PIM": 156,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 24
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 46,
+     "G": 4,
+     "A": 8,
+     "P": 12,
+     "PIM": 125,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1935,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 43,
+     "G": 2,
+     "A": 9,
+     "P": 11,
+     "PIM": 167,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1936,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 48,
+     "G": 3,
+     "A": 9,
+     "P": 12,
+     "PIM": 134,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 27
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1937,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 47,
+     "G": 4,
+     "A": 20,
+     "P": 24,
+     "PIM": 82,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 28
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1938,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 48,
+     "G": 4,
+     "A": 10,
+     "P": 14,
+     "PIM": 85,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 0,
+     "age": 29
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1939,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 31,
+     "G": 1,
+     "A": 9,
+     "P": 10,
+     "PIM": 87,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 30
+    }
+   ],
+   "text": "Red Horner racked up 70+ penalty minutes in 10 straight seasons (1930-31 to 1939-40), the longest run of the 1930s.",
+   "why": "The longest run of the 1930s; fans measure today's stars against it. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 11,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1933,
+     "GP": 48,
+     "W": 26,
+     "L": 13,
+     "T": 9,
+     "GF": 174,
+     "GA": 119,
+     "PCT": 0.63541
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1939,
+     "GP": 48,
+     "W": 31,
+     "L": 12,
+     "T": 5,
+     "GF": 170,
+     "GA": 98,
+     "PCT": 0.69791
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.90625,
+   "players": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1933,
+    1939
+   ],
+   "text": "Only two teams of the 1930s scored 3.5 goals a game: Toronto Maple Leafs (1933-34: 3.63 per game); Boston Bruins (1939-40: 3.54 per game).",
+   "why": "Two names invite the \"whose season was better?\" argument. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 12,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 47,
+     "G": 36,
+     "A": 21,
+     "P": 57,
+     "PIM": 24,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 13,
+     "age": 25
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 44,
+     "G": 34,
+     "A": 14,
+     "P": 48,
+     "PIM": 66,
+     "GWG": 5,
+     "age": 22
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1931,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 33,
+     "A": 14,
+     "P": 47,
+     "PIM": 33,
+     "GWG": 5,
+     "age": 35
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 42,
+     "G": 32,
+     "A": 20,
+     "P": 52,
+     "PIM": 38,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 24
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 38,
+     "G": 31,
+     "A": 12,
+     "P": 43,
+     "PIM": 80,
+     "GWG": 3,
+     "age": 21
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1930,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 44,
+     "G": 30,
+     "A": 12,
+     "P": 42,
+     "PIM": 39,
+     "GWG": 5,
+     "age": 34
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "pair",
+   "score": 8.9,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook"
+    }
+   ],
+   "seasons": [
+    1934,
+    1931,
+    1931,
+    1933,
+    1930,
+    1930
+   ],
+   "text": "Only two players of the 1930s scored 30 goals: Charlie Conacher (4×, best 1934-35: 36 goals in 47 games); Bill Cook (2×, best 1931-32: 33 goals in 48 games).",
+   "why": "A club of two is a ready-made debate. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 13,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448931,
+     "name": "Milt Schmidt",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 41,
+     "G": 15,
+     "A": 17,
+     "P": 32,
+     "PIM": 13,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 20
+    },
+    {
+     "id": 8447025,
+     "name": "Busher Jackson",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 43,
+     "G": 18,
+     "A": 13,
+     "P": 31,
+     "PIM": 92,
+     "GWG": 5,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.8,
+   "players": [
+    {
+     "id": 8448931,
+     "name": "Milt Schmidt"
+    },
+    {
+     "id": 8447025,
+     "name": "Busher Jackson"
+    }
+   ],
+   "seasons": [
+    1938,
+    1930
+   ],
+   "text": "Only two players of the 1930s recorded 29 points at age 20 or younger: Milt Schmidt (1938-39: 32 points at 20); Busher Jackson (1930-31: 31 points at 20).",
+   "why": "Two names invite the \"whose season was better?\" argument. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 14,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1932,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 28,
+     "A": 22,
+     "P": 50,
+     "PIM": 51,
+     "GWG": 4,
+     "age": 36
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1934,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 21,
+     "A": 15,
+     "P": 36,
+     "PIM": 23,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 38
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1938,
+     "team": "NYA",
+     "pos": "C",
+     "GP": 46,
+     "G": 16,
+     "A": 19,
+     "P": 35,
+     "PIM": 43,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 36
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "pair",
+   "score": 8.7,
+   "players": [
+    {
+     "id": 8445529,
+     "name": "Bill Cook"
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    }
+   ],
+   "seasons": [
+    1932,
+    1934,
+    1938
+   ],
+   "text": "Only two players of the 1930s scored 15 goals at age 36 or older: Bill Cook (2×, best 1932-33: 28 goals at 36); Nels Stewart (1938-39: 16 goals at 36).",
+   "why": "A club of two is a ready-made debate. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 15,
+   "rule": "g_first_so",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "season": 1938,
+     "team": "BOS",
+     "GP": 43,
+     "A": 0,
+     "PIM": 0,
+     "W": 33,
+     "L": 9,
+     "T": 1,
+     "SO": 10,
+     "GAA": 1.55725,
+     "GA": 68
+    },
+    {
+     "id": 8450007,
+     "name": "Mike Karakas",
+     "season": 1935,
+     "team": "CHI",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 21,
+     "L": 19,
+     "T": 8,
+     "SO": 9,
+     "GAA": 1.84615,
+     "GA": 92
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.25,
+   "players": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek"
+    },
+    {
+     "id": 8450007,
+     "name": "Mike Karakas"
+    }
+   ],
+   "seasons": [
+    1938,
+    1935
+   ],
+   "text": "Only two goalies of the 1930s recorded 8 shutouts in their first NHL season: Frank Brimsek (1938-39: 10 shutouts); Mike Karakas (1935-36: 9 shutouts).",
+   "why": "Two names invite the \"whose season was better?\" argument. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 16,
+   "rule": "pog_gaa",
+   "group": "PO",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "season": 1938,
+     "team": "BOS",
+     "GP": 12,
+     "A": 0,
+     "PIM": 0,
+     "W": 8,
+     "L": 4,
+     "T": 0,
+     "SO": 1,
+     "GAA": 1.25033,
+     "GA": 18
+    },
+    {
+     "id": 8450009,
+     "name": "Dave Kerr",
+     "season": 1939,
+     "team": "NYR",
+     "GP": 12,
+     "A": 0,
+     "PIM": 0,
+     "W": 8,
+     "L": 4,
+     "T": 0,
+     "SO": 3,
+     "GAA": 1.55979,
+     "GA": 20
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.199947213935522,
+   "players": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek"
+    },
+    {
+     "id": 8450009,
+     "name": "Dave Kerr"
+    }
+   ],
+   "seasons": [
+    1938,
+    1939
+   ],
+   "text": "Only two goalies of the 1930s posted a goals-against average under 1.60 in one postseason (10+ games): Frank Brimsek (1938-39: 1.25 GAA in 12 games); Dave Kerr (1939-40: 1.56 GAA in 12 games).",
+   "why": "A club of two is a ready-made debate. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 17,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Philadelphia Quakers",
+     "name": "Philadelphia Quakers",
+     "season": 1930,
+     "GP": 44,
+     "W": 4,
+     "L": 36,
+     "T": 4,
+     "GF": 76,
+     "GA": 184,
+     "PCT": 0.13636
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1939,
+     "GP": 48,
+     "W": 10,
+     "L": 33,
+     "T": 5,
+     "GF": 90,
+     "GA": 167,
+     "PCT": 0.26041
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1930,
+     "GP": 44,
+     "W": 10,
+     "L": 30,
+     "T": 4,
+     "GF": 91,
+     "GA": 142,
+     "PCT": 0.27272
+    },
+    {
+     "id": "St. Louis Eagles",
+     "name": "St. Louis Eagles",
+     "season": 1934,
+     "GP": 48,
+     "W": 11,
+     "L": 31,
+     "T": 6,
+     "GF": 86,
+     "GA": 144,
+     "PCT": 0.29166
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 8.1591,
+   "players": [
+    {
+     "id": "Philadelphia Quakers",
+     "name": "Philadelphia Quakers"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)"
+    },
+    {
+     "id": "St. Louis Eagles",
+     "name": "St. Louis Eagles"
+    }
+   ],
+   "seasons": [
+    1930,
+    1939,
+    1930,
+    1934
+   ],
+   "text": "Just four teams of the 1930s finished with a points percentage under .300: Philadelphia Quakers (1930-31: 4-36-4, .136); Montréal Canadiens (1939-40: 10-33-5, .260); Ottawa Senators (1917) (1930-31: 10-30-4, .273); St. Louis Eagles (1934-35: 11-31-6, .292).",
+   "why": "A short list fans can recite; each name brings its own fan base. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 18,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1930s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8445026,
+     "name": "Marty Barry"
+    }
+   ],
+   "seasons": [
+    1931,
+    1932,
+    1933,
+    1934,
+    1935,
+    1936
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1931,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 21,
+     "A": 17,
+     "P": 38,
+     "PIM": 22,
+     "GWG": 3,
+     "age": 26
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1932,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 47,
+     "G": 24,
+     "A": 13,
+     "P": 37,
+     "PIM": 40,
+     "GWG": 3,
+     "age": 27
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1933,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 27,
+     "A": 12,
+     "P": 39,
+     "PIM": 12,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 28
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1934,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 19,
+     "A": 21,
+     "P": 40,
+     "PIM": 33,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 29
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1935,
+     "team": "DET",
+     "pos": "C",
+     "GP": 48,
+     "G": 21,
+     "A": 19,
+     "P": 40,
+     "PIM": 16,
+     "PPG": 6,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 30
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1936,
+     "team": "DET",
+     "pos": "C",
+     "GP": 47,
+     "G": 17,
+     "A": 27,
+     "P": 44,
+     "PIM": 6,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 31
+    }
+   ],
+   "text": "Marty Barry recorded 34+ points in 6 straight seasons (1931-32 to 1936-37), the longest run of the 1930s.",
+   "why": "The longest run of the 1930s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 19,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8444954,
+     "name": "Syl Apps",
+     "season": 1936,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 48,
+     "G": 16,
+     "A": 29,
+     "P": 45,
+     "PIM": 10,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 22
+    },
+    {
+     "id": 8448946,
+     "name": "Sweeney Schriner",
+     "season": 1934,
+     "team": "NYA",
+     "pos": "L",
+     "GP": 48,
+     "G": 18,
+     "A": 22,
+     "P": 40,
+     "PIM": 6,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 23
+    },
+    {
+     "id": 8445517,
+     "name": "Roy Conacher",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 47,
+     "G": 26,
+     "A": 11,
+     "P": 37,
+     "PIM": 12,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 22
+    },
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon",
+     "season": 1936,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 41,
+     "G": 16,
+     "A": 17,
+     "P": 33,
+     "PIM": 2,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 7.125,
+   "players": [
+    {
+     "id": 8444954,
+     "name": "Syl Apps"
+    },
+    {
+     "id": 8448946,
+     "name": "Sweeney Schriner"
+    },
+    {
+     "id": 8445517,
+     "name": "Roy Conacher"
+    },
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon"
+    }
+   ],
+   "seasons": [
+    1936,
+    1934,
+    1938,
+    1936
+   ],
+   "text": "Just four players of the 1930s recorded 30 points in their first NHL season: Syl Apps (1936-37: 45 points); Sweeney Schriner (1934-35: 40 points); Roy Conacher (1938-39: 37 points); Gordie Drillon (1936-37: 33 points).",
+   "why": "A short list fans can recite; each name brings its own fan base. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 20,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "1930s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot"
+    }
+   ],
+   "seasons": [
+    1930,
+    1931,
+    1932,
+    1933,
+    1934
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "season": 1930,
+     "team": "TOR",
+     "GP": 37,
+     "A": 0,
+     "PIM": 0,
+     "W": 21,
+     "L": 8,
+     "T": 8,
+     "SO": 6,
+     "GAA": 2.08695,
+     "GA": 80
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "season": 1931,
+     "team": "TOR",
+     "GP": 44,
+     "A": 0,
+     "PIM": 2,
+     "W": 21,
+     "L": 16,
+     "T": 6,
+     "SO": 4,
+     "GAA": 2.33564,
+     "GA": 105
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "season": 1932,
+     "team": "TOR",
+     "GP": 48,
+     "A": 0,
+     "PIM": 4,
+     "W": 24,
+     "L": 18,
+     "T": 6,
+     "SO": 5,
+     "GAA": 2.26069,
+     "GA": 111
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "season": 1933,
+     "team": "MTL",
+     "GP": 47,
+     "A": 0,
+     "PIM": 2,
+     "W": 21,
+     "L": 20,
+     "T": 6,
+     "SO": 8,
+     "GAA": 2.06967,
+     "GA": 101
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "season": 1934,
+     "team": "CHI",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 17,
+     "T": 5,
+     "SO": 8,
+     "GAA": 1.79591,
+     "GA": 88
+    }
+   ],
+   "text": "Lorne Chabot won 19+ games in goal in 5 straight seasons (1930-31 to 1934-35), the longest run of the 1930s.",
+   "why": "The longest run of the 1930s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 21,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Philadelphia Quakers",
+     "name": "Philadelphia Quakers",
+     "season": 1930,
+     "GP": 44,
+     "W": 4,
+     "L": 36,
+     "T": 4,
+     "GF": 76,
+     "GA": 184,
+     "PCT": 0.13636
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1939,
+     "GP": 48,
+     "W": 10,
+     "L": 33,
+     "T": 5,
+     "GF": 90,
+     "GA": 167,
+     "PCT": 0.26041
+    },
+    {
+     "id": "St. Louis Eagles",
+     "name": "St. Louis Eagles",
+     "season": 1934,
+     "GP": 48,
+     "W": 11,
+     "L": 31,
+     "T": 6,
+     "GF": 86,
+     "GA": 144,
+     "PCT": 0.29166
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1930,
+     "GP": 44,
+     "W": 10,
+     "L": 30,
+     "T": 4,
+     "GF": 91,
+     "GA": 142,
+     "PCT": 0.27272
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.54,
+   "players": [
+    {
+     "id": "Philadelphia Quakers",
+     "name": "Philadelphia Quakers"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    },
+    {
+     "id": "St. Louis Eagles",
+     "name": "St. Louis Eagles"
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)"
+    }
+   ],
+   "seasons": [
+    1930,
+    1939,
+    1934,
+    1930
+   ],
+   "text": "Just four teams of the 1930s got outscored by 50: Philadelphia Quakers (1930-31: 76-184); Montréal Canadiens (1939-40: 90-167); St. Louis Eagles (1934-35: 86-144); Ottawa Senators (1917) (1930-31: 91-142).",
+   "why": "A short list fans can recite; each name brings its own fan base. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 22,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1938,
+     "GP": 48,
+     "W": 36,
+     "L": 10,
+     "T": 2,
+     "GF": 156,
+     "GA": 76,
+     "PCT": 0.77083
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1939,
+     "GP": 48,
+     "W": 31,
+     "L": 12,
+     "T": 5,
+     "GF": 170,
+     "GA": 98,
+     "PCT": 0.69791
+    },
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers",
+     "season": 1939,
+     "GP": 48,
+     "W": 27,
+     "L": 11,
+     "T": 10,
+     "GF": 136,
+     "GA": 77,
+     "PCT": 0.66666
+    },
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1933,
+     "GP": 48,
+     "W": 26,
+     "L": 13,
+     "T": 9,
+     "GF": 174,
+     "GA": 119,
+     "PCT": 0.63541
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1930,
+     "GP": 44,
+     "W": 28,
+     "L": 10,
+     "T": 6,
+     "GF": 143,
+     "GA": 90,
+     "PCT": 0.70454
+    },
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers",
+     "season": 1937,
+     "GP": 48,
+     "W": 27,
+     "L": 15,
+     "T": 6,
+     "GF": 149,
+     "GA": 96,
+     "PCT": 0.625
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1937,
+     "GP": 48,
+     "W": 30,
+     "L": 11,
+     "T": 7,
+     "GF": 142,
+     "GA": 89,
+     "PCT": 0.69791
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "few",
+   "score": 6.4,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "New York Rangers",
+     "name": "New York Rangers"
+    },
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    }
+   ],
+   "seasons": [
+    1938,
+    1939,
+    1939,
+    1933,
+    1930,
+    1937,
+    1937
+   ],
+   "text": "Just three teams of the 1930s outscored opponents by 50: Boston Bruins (4×, best 1938-39: 156-76); New York Rangers (2×, best 1939-40: 136-77); Toronto Maple Leafs (1933-34: 174-119).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 23,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 47,
+     "G": 36,
+     "A": 21,
+     "P": 57,
+     "PIM": 24,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 13,
+     "age": 25
+    }
+   ],
+   "among": 1525,
+   "text": "Most goals in a season in the 1930s: Charlie Conacher, 1934-35 — 36 in 47 games.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau"
+    }
+   ],
+   "seasons": [
+    1931
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 46,
+     "G": 13,
+     "A": 37,
+     "P": 50,
+     "PIM": 25,
+     "GWG": 2,
+     "age": 26
+    }
+   ],
+   "among": 1525,
+   "text": "Most assists in a season in the 1930s: Joe Primeau, 1931-32 — 37.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8446915,
+     "name": "Red Horner"
+    }
+   ],
+   "seasons": [
+    1935
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1935,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 43,
+     "G": 2,
+     "A": 9,
+     "P": 11,
+     "PIM": 167,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 26
+    }
+   ],
+   "among": 1525,
+   "text": "Most penalty minutes in a season in the 1930s: Red Horner, 1935-36 — 167.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "x_shg",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "season": 1934,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 25,
+     "A": 9,
+     "P": 34,
+     "PIM": 4,
+     "PPG": 4,
+     "SHG": 6,
+     "GWG": 3,
+     "age": 26
+    }
+   ],
+   "among": 1068,
+   "text": "Most shorthanded goals in a season in the 1930s: Cecil Dillon, 1934-35 — 6.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shorthanded goals and penalty killing are the sport's momentum swings."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott"
+    }
+   ],
+   "seasons": [
+    1932
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1932,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 48,
+     "G": 22,
+     "A": 21,
+     "P": 43,
+     "PIM": 30,
+     "GWG": 6,
+     "age": 24
+    }
+   ],
+   "among": 429,
+   "text": "Most points by a defenseman in a season in the 1930s: Baldy Northcott, 1932-33 — 43.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "x_dg",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447604,
+     "name": "Georges Mantha"
+    }
+   ],
+   "seasons": [
+    1937
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447604,
+     "name": "Georges Mantha",
+     "season": 1937,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 47,
+     "G": 23,
+     "A": 19,
+     "P": 42,
+     "PIM": 12,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 29
+    }
+   ],
+   "among": 429,
+   "text": "Most goals by a defenseman in a season in the 1930s: Georges Mantha, 1937-38 — 23.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8447888,
+     "name": "Howie Morenz"
+    }
+   ],
+   "seasons": [
+    1930
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "season": 1930,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 39,
+     "G": 28,
+     "A": 23,
+     "P": 51,
+     "PIM": 49,
+     "GWG": 5,
+     "age": 28
+    }
+   ],
+   "among": 1088,
+   "text": "Most points per game in a season (60% of games) in the 1930s: Howie Morenz, 1930-31 — 1.31.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445517,
+     "name": "Roy Conacher"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445517,
+     "name": "Roy Conacher",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 47,
+     "G": 26,
+     "A": 11,
+     "P": 37,
+     "PIM": 12,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 6,
+     "age": 22
+    }
+   ],
+   "among": 272,
+   "text": "Most goals in a first NHL season in the 1930s: Roy Conacher, 1938-39 — 26.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8444954,
+     "name": "Syl Apps"
+    }
+   ],
+   "seasons": [
+    1936
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8444954,
+     "name": "Syl Apps",
+     "season": 1936,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 48,
+     "G": 16,
+     "A": 29,
+     "P": 45,
+     "PIM": 10,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 22
+    }
+   ],
+   "among": 272,
+   "text": "Most points in a first NHL season in the 1930s: Syl Apps, 1936-37 — 45.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "season": 1938,
+     "team": "BOS",
+     "GP": 43,
+     "A": 0,
+     "PIM": 0,
+     "W": 33,
+     "L": 9,
+     "T": 1,
+     "SO": 10,
+     "GAA": 1.55725,
+     "GA": 68
+    }
+   ],
+   "among": 140,
+   "text": "Most wins by a goalie in a season in the 1930s: Frank Brimsek, 1938-39 — 33.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449966,
+     "name": "Charlie Gardiner"
+    }
+   ],
+   "seasons": [
+    1930
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449966,
+     "name": "Charlie Gardiner",
+     "season": 1930,
+     "team": "CHI",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 24,
+     "L": 17,
+     "T": 3,
+     "SO": 12,
+     "GAA": 1.72693,
+     "GA": 78
+    }
+   ],
+   "among": 140,
+   "text": "Most shutouts in a season in the 1930s: Charlie Gardiner, 1930-31 — 12.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449861,
+     "name": "Wilf Cude"
+    }
+   ],
+   "seasons": [
+    1933
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449861,
+     "name": "Wilf Cude",
+     "season": 1933,
+     "team": "MTL,DET",
+     "GP": 30,
+     "A": 0,
+     "PIM": 0,
+     "W": 16,
+     "L": 6,
+     "T": 8,
+     "SO": 5,
+     "GAA": 1.46875,
+     "GA": 47
+    }
+   ],
+   "among": 89,
+   "text": "Best goals-against average in a season (40% of games) in the 1930s: Wilf Cude, 1933-34 — 1.47.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449821,
+     "name": "Bill Beveridge"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449821,
+     "name": "Bill Beveridge",
+     "season": 1934,
+     "team": "SLE",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 11,
+     "L": 31,
+     "T": 6,
+     "SO": 3,
+     "GAA": 2.88963,
+     "GA": 144
+    }
+   ],
+   "among": 140,
+   "text": "Most losses by a goalie in a season in the 1930s: Bill Beveridge, 1934-35 — 31.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1938,
+     "GP": 48,
+     "W": 36,
+     "L": 10,
+     "T": 2,
+     "GF": 156,
+     "GA": 76,
+     "PCT": 0.77083
+    }
+   ],
+   "among": 83,
+   "text": "Best points percentage in a season in the 1930s: Boston Bruins, 1938-39 — .771 (36-10-2).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Philadelphia Quakers",
+     "name": "Philadelphia Quakers"
+    }
+   ],
+   "seasons": [
+    1930
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Philadelphia Quakers",
+     "name": "Philadelphia Quakers",
+     "season": 1930,
+     "GP": 44,
+     "W": 4,
+     "L": 36,
+     "T": 4,
+     "GF": 76,
+     "GA": 184,
+     "PCT": 0.13636
+    }
+   ],
+   "among": 83,
+   "text": "Worst points percentage in a season in the 1930s: Philadelphia Quakers, 1930-31 — .136 (4-36-4).",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs"
+    }
+   ],
+   "seasons": [
+    1933
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Toronto Maple Leafs",
+     "name": "Toronto Maple Leafs",
+     "season": 1933,
+     "GP": 48,
+     "W": 26,
+     "L": 13,
+     "T": 9,
+     "GF": 174,
+     "GA": 119,
+     "PCT": 0.63541
+    }
+   ],
+   "among": 83,
+   "text": "Most goals per game by a team in the 1930s: Toronto Maple Leafs, 1933-34 — 3.63 (174 in 48).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 12,
+     "G": 3,
+     "A": 11,
+     "P": 14,
+     "PIM": 2,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 26
+    }
+   ],
+   "among": 882,
+   "text": "Most points in a single postseason in the 1930s: Bill Cowley, 1938-39 — 14 in 12 games.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "pogx_so",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450009,
+     "name": "Dave Kerr"
+    }
+   ],
+   "seasons": [
+    1936
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450009,
+     "name": "Dave Kerr",
+     "season": 1936,
+     "team": "NYR",
+     "GP": 9,
+     "A": 0,
+     "PIM": 0,
+     "W": 6,
+     "L": 3,
+     "T": 0,
+     "SO": 4,
+     "GAA": 1.08482,
+     "GA": 10
+    }
+   ],
+   "among": 65,
+   "text": "Most shutouts in a single postseason in the 1930s: Dave Kerr, 1936-37 — 4.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 47,
+     "G": 36,
+     "A": 21,
+     "P": 57,
+     "PIM": 24,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 13,
+     "age": 25
+    }
+   ],
+   "among": 1525,
+   "text": "Most points in a season in the 1930s: Charlie Conacher, 1934-35 — 57 (36G, 21A).",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 42,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 47,
+     "G": 36,
+     "A": 21,
+     "P": 57,
+     "PIM": 24,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 13,
+     "age": 25
+    }
+   ],
+   "among": 1525,
+   "text": "Most game-winning goals in a season in the 1930s: Charlie Conacher, 1934-35 — 13.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 43,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1930
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 38,
+     "G": 31,
+     "A": 12,
+     "P": 43,
+     "PIM": 80,
+     "GWG": 3,
+     "age": 21
+    }
+   ],
+   "among": 1088,
+   "text": "Most goals per game in a season (60% of games) in the 1930s: Charlie Conacher, 1930-31 — 0.82.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 44,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1938,
+     "GP": 48,
+     "W": 36,
+     "L": 10,
+     "T": 2,
+     "GF": 156,
+     "GA": 76,
+     "PCT": 0.77083
+    }
+   ],
+   "among": 83,
+   "text": "Fewest goals allowed per game in the 1930s: Boston Bruins, 1938-39 — 1.58 (76 in 48).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 45,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1938,
+     "GP": 48,
+     "W": 36,
+     "L": 10,
+     "T": 2,
+     "GF": 156,
+     "GA": 76,
+     "PCT": 0.77083
+    }
+   ],
+   "among": 83,
+   "text": "Best goal differential in a season in the 1930s: Boston Bruins, 1938-39 — +80.",
+   "why": "The high-water mark of the 1930s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 46,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1930s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon"
+    }
+   ],
+   "seasons": [
+    1932
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "season": 1932,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 8,
+     "G": 8,
+     "A": 2,
+     "P": 10,
+     "PIM": 6,
+     "GWG": 1,
+     "age": 24
+    }
+   ],
+   "among": 882,
+   "text": "Most goals in a single postseason in the 1930s: Cecil Dillon, 1932-33 — 8 in 8 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 47,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445026,
+     "name": "Marty Barry"
+    }
+   ],
+   "seasons": [
+    1931,
+    1932,
+    1933
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1931,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 21,
+     "A": 17,
+     "P": 38,
+     "PIM": 22,
+     "GWG": 3,
+     "age": 26
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1932,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 47,
+     "G": 24,
+     "A": 13,
+     "P": 37,
+     "PIM": 40,
+     "GWG": 3,
+     "age": 27
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1933,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 27,
+     "A": 12,
+     "P": 39,
+     "PIM": 12,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 28
+    }
+   ],
+   "text": "Marty Barry scored 21+ goals in 3 straight seasons (1931-32 to 1933-34), the longest run of the 1930s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 48,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445026,
+     "name": "Marty Barry"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "total": 178,
+     "seasons": 10
+    },
+    {
+     "id": 8445362,
+     "name": "Art Chapman",
+     "total": 176,
+     "seasons": 10
+    },
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "total": 173,
+     "seasons": 8
+    },
+    {
+     "id": 8447025,
+     "name": "Busher Jackson",
+     "total": 167,
+     "seasons": 10
+    },
+    {
+     "id": 8449077,
+     "name": "Hooley Smith",
+     "total": 167,
+     "seasons": 10
+    }
+   ],
+   "text": "Most assists of the 1930s: Marty Barry, 178.",
+   "why": "A decade-long view that settles consistency debates. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 49,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8446915,
+     "name": "Red Horner"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "total": 1162,
+     "seasons": 10
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "total": 591,
+     "seasons": 10
+    },
+    {
+     "id": 8449019,
+     "name": "Al Shields",
+     "total": 567,
+     "seasons": 8
+    },
+    {
+     "id": 8448951,
+     "name": "Earl Seibert",
+     "total": 533,
+     "seasons": 9
+    },
+    {
+     "id": 8447098,
+     "name": "Ivan Johnson",
+     "total": 520,
+     "seasons": 8
+    }
+   ],
+   "text": "Most penalty minutes of the 1930s: Red Horner, 1,162.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 50,
+   "kind": "total",
+   "rule": "tt_ppg",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "total": 27,
+     "seasons": 7
+    },
+    {
+     "id": 8446617,
+     "name": "Johnny Gottselig",
+     "total": 25,
+     "seasons": 7
+    },
+    {
+     "id": 8449232,
+     "name": "Paul Thompson",
+     "total": 25,
+     "seasons": 6
+    },
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "total": 23,
+     "seasons": 7
+    },
+    {
+     "id": 8449128,
+     "name": "John Sorrell",
+     "total": 21,
+     "seasons": 7
+    }
+   ],
+   "text": "Most power-play goals of the 1930s: Nels Stewart, 27.",
+   "why": "A decade-long view that settles consistency debates. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 51,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449128,
+     "name": "John Sorrell"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449128,
+     "name": "John Sorrell",
+     "total": 460,
+     "seasons": 10
+    },
+    {
+     "id": 8445474,
+     "name": "Dit Clapper",
+     "total": 459,
+     "seasons": 10
+    },
+    {
+     "id": 8449077,
+     "name": "Hooley Smith",
+     "total": 458,
+     "seasons": 10
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "total": 456,
+     "seasons": 10
+    },
+    {
+     "id": 8447609,
+     "name": "Mush March",
+     "total": 455,
+     "seasons": 10
+    }
+   ],
+   "text": "Most games played in the 1930s: John Sorrell, 460.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 52,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "total": 234,
+     "seasons": 9
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "total": 199,
+     "seasons": 10
+    },
+    {
+     "id": 8447604,
+     "name": "Georges Mantha",
+     "total": 184,
+     "seasons": 10
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "total": 143,
+     "seasons": 10
+    },
+    {
+     "id": 8448951,
+     "name": "Earl Seibert",
+     "total": 138,
+     "seasons": 9
+    }
+   ],
+   "text": "Most points by a defenseman in the 1930s: Baldy Northcott, 234.",
+   "why": "A decade-long view that settles consistency debates. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 53,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "total": 220,
+     "seasons": 10
+    },
+    {
+     "id": 8450009,
+     "name": "Dave Kerr",
+     "total": 183,
+     "seasons": 10
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "total": 150,
+     "seasons": 7
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "total": 123,
+     "seasons": 7
+    },
+    {
+     "id": 8449861,
+     "name": "Wilf Cude",
+     "total": 96,
+     "seasons": 9
+    }
+   ],
+   "text": "Most goalie wins of the 1930s: Tiny Thompson, 220.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 54,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "total": 66,
+     "seasons": 10
+    },
+    {
+     "id": 8450009,
+     "name": "Dave Kerr",
+     "total": 49,
+     "seasons": 10
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "total": 41,
+     "seasons": 7
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "total": 34,
+     "seasons": 7
+    },
+    {
+     "id": 8449966,
+     "name": "Charlie Gardiner",
+     "total": 31,
+     "seasons": 4
+    }
+   ],
+   "text": "Most shutouts of the 1930s: Tiny Thompson, 66.",
+   "why": "A decade-long view that settles consistency debates. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 55,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "total": 465,
+     "seasons": 10
+    },
+    {
+     "id": 8450009,
+     "name": "Dave Kerr",
+     "total": 382,
+     "seasons": 10
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "total": 291,
+     "seasons": 7
+    },
+    {
+     "id": 8450153,
+     "name": "Roy Worters",
+     "total": 286,
+     "seasons": 7
+    },
+    {
+     "id": 8449861,
+     "name": "Wilf Cude",
+     "total": 278,
+     "seasons": 9
+    }
+   ],
+   "text": "Most games in goal in the 1930s: Tiny Thompson, 465.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 56,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1935
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1930,
+     "count": 10
+    },
+    {
+     "season": 1931,
+     "count": 9
+    },
+    {
+     "season": 1932,
+     "count": 8
+    },
+    {
+     "season": 1933,
+     "count": 9
+    },
+    {
+     "season": 1934,
+     "count": 10
+    },
+    {
+     "season": 1935,
+     "count": 3
+    },
+    {
+     "season": 1936,
+     "count": 7
+    },
+    {
+     "season": 1937,
+     "count": 7
+    },
+    {
+     "season": 1938,
+     "count": 5
+    },
+    {
+     "season": 1939,
+     "count": 5
+    }
+   ],
+   "text": "1935-36 had just 3 20-goal scorers, the fewest of any season in the 1930s.",
+   "why": "The low point of the 1930s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 57,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1934
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1930,
+     "count": 19
+    },
+    {
+     "season": 1931,
+     "count": 19
+    },
+    {
+     "season": 1932,
+     "count": 21
+    },
+    {
+     "season": 1933,
+     "count": 18
+    },
+    {
+     "season": 1934,
+     "count": 29
+    },
+    {
+     "season": 1935,
+     "count": 16
+    },
+    {
+     "season": 1936,
+     "count": 21
+    },
+    {
+     "season": 1937,
+     "count": 26
+    },
+    {
+     "season": 1938,
+     "count": 22
+    },
+    {
+     "season": 1939,
+     "count": 18
+    }
+   ],
+   "text": "1934-35 had 29 30-point players, the most of any season in the 1930s.",
+   "why": "The peak year for this across the 1930s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 58,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1935
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1930,
+     "count": 19
+    },
+    {
+     "season": 1931,
+     "count": 19
+    },
+    {
+     "season": 1932,
+     "count": 21
+    },
+    {
+     "season": 1933,
+     "count": 18
+    },
+    {
+     "season": 1934,
+     "count": 29
+    },
+    {
+     "season": 1935,
+     "count": 16
+    },
+    {
+     "season": 1936,
+     "count": 21
+    },
+    {
+     "season": 1937,
+     "count": 26
+    },
+    {
+     "season": 1938,
+     "count": 22
+    },
+    {
+     "season": 1939,
+     "count": 18
+    }
+   ],
+   "text": "1935-36 had just 16 30-point players, the fewest of any season in the 1930s.",
+   "why": "The low point of the 1930s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 59,
+   "kind": "season",
+   "rule": "c_dg_most",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1933
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1930,
+     "count": 4
+    },
+    {
+     "season": 1931,
+     "count": 5
+    },
+    {
+     "season": 1932,
+     "count": 4
+    },
+    {
+     "season": 1933,
+     "count": 6
+    },
+    {
+     "season": 1934,
+     "count": 3
+    },
+    {
+     "season": 1935,
+     "count": 2
+    },
+    {
+     "season": 1936,
+     "count": 5
+    },
+    {
+     "season": 1937,
+     "count": 4
+    },
+    {
+     "season": 1938,
+     "count": 1
+    },
+    {
+     "season": 1939,
+     "count": 2
+    }
+   ],
+   "text": "1933-34 had 6 defensemen with 8+ goals, the most of any season in the 1930s.",
+   "why": "The peak year for this across the 1930s; fans can argue why that season stood out. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 60,
+   "kind": "season",
+   "rule": "c_dg_least",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1938
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1930,
+     "count": 4
+    },
+    {
+     "season": 1931,
+     "count": 5
+    },
+    {
+     "season": 1932,
+     "count": 4
+    },
+    {
+     "season": 1933,
+     "count": 6
+    },
+    {
+     "season": 1934,
+     "count": 3
+    },
+    {
+     "season": 1935,
+     "count": 2
+    },
+    {
+     "season": 1936,
+     "count": 5
+    },
+    {
+     "season": 1937,
+     "count": 4
+    },
+    {
+     "season": 1938,
+     "count": 1
+    },
+    {
+     "season": 1939,
+     "count": 2
+    }
+   ],
+   "text": "1938-39 had just one defensemen with 8+ goal, the fewest of any season in the 1930s.",
+   "why": "The low point of the 1930s for this; a \"what happened that year?\" hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 61,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "total": 197,
+     "seasons": 10
+    },
+    {
+     "id": 8447025,
+     "name": "Busher Jackson",
+     "total": 186,
+     "seasons": 10
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "total": 186,
+     "seasons": 10
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "total": 175,
+     "seasons": 10
+    },
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "total": 167,
+     "seasons": 10
+    }
+   ],
+   "text": "Most goals of the 1930s: Charlie Conacher, 197 (next: Busher Jackson, 186).",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 62,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1930s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "total": 36,
+     "seasons": 10
+    },
+    {
+     "id": 8447025,
+     "name": "Busher Jackson",
+     "total": 33,
+     "seasons": 10
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "total": 33,
+     "seasons": 10
+    },
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "total": 31,
+     "seasons": 10
+    },
+    {
+     "id": 8446553,
+     "name": "Johnny Gagnon",
+     "total": 30,
+     "seasons": 10
+    }
+   ],
+   "text": "Most game-winning goals of the 1930s: Charlie Conacher, 36.",
+   "why": "A decade-long view that settles consistency debates. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 63,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447025,
+     "name": "Busher Jackson",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 48,
+     "G": 28,
+     "A": 25,
+     "P": 53,
+     "PIM": 63,
+     "GWG": 3,
+     "age": 21
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 44,
+     "G": 34,
+     "A": 14,
+     "P": 48,
+     "PIM": 66,
+     "GWG": 5,
+     "age": 22
+    },
+    {
+     "id": 8449264,
+     "name": "Dave Trottier",
+     "season": 1931,
+     "team": "MMR",
+     "pos": "L",
+     "GP": 48,
+     "G": 26,
+     "A": 18,
+     "P": 44,
+     "PIM": 94,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 38,
+     "G": 31,
+     "A": 12,
+     "P": 43,
+     "PIM": 80,
+     "GWG": 3,
+     "age": 21
+    },
+    {
+     "id": 8449077,
+     "name": "Hooley Smith",
+     "season": 1932,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 48,
+     "G": 20,
+     "A": 21,
+     "P": 41,
+     "PIM": 66,
+     "GWG": 7,
+     "age": 30
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1930,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 42,
+     "G": 25,
+     "A": 14,
+     "P": 39,
+     "PIM": 75,
+     "GWG": 6,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 4.325,
+   "players": [
+    {
+     "id": 8447025,
+     "name": "Busher Jackson"
+    }
+   ],
+   "seasons": [
+    1931
+   ],
+   "text": "14 players recorded 27 points and 60 penalty minutes in the 1930s (24 seasons). The most extreme: Busher Jackson, 1931-32 — 53 pts, 63 PIM.",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 64,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon",
+     "season": 1937,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 48,
+     "G": 26,
+     "A": 26,
+     "P": 52,
+     "PIM": 4,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 24
+    },
+    {
+     "id": 8444954,
+     "name": "Syl Apps",
+     "season": 1937,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 47,
+     "G": 21,
+     "A": 29,
+     "P": 50,
+     "PIM": 9,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 23
+    },
+    {
+     "id": 8445098,
+     "name": "Toe Blake",
+     "season": 1938,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 48,
+     "G": 24,
+     "A": 23,
+     "P": 47,
+     "PIM": 10,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 26
+    },
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 45,
+     "G": 14,
+     "A": 32,
+     "P": 46,
+     "PIM": 8,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 28
+    },
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1934,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 48,
+     "G": 13,
+     "A": 32,
+     "P": 45,
+     "PIM": 2,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 33
+    },
+    {
+     "id": 8448946,
+     "name": "Sweeney Schriner",
+     "season": 1935,
+     "team": "NYA",
+     "pos": "L",
+     "GP": 48,
+     "G": 19,
+     "A": 26,
+     "P": 45,
+     "PIM": 8,
+     "PPG": 4,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 56,
+   "kind": "list",
+   "score": 4.3,
+   "players": [
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon"
+    }
+   ],
+   "seasons": [
+    1937
+   ],
+   "text": "28 players recorded 27 points with 10 or fewer penalty minutes in the 1930s (56 seasons). The most extreme: Gordie Drillon, 1937-38 — 52 pts, 4 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 65,
+   "rule": "h_pts_no_ppg",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 45,
+     "G": 14,
+     "A": 32,
+     "P": 46,
+     "PIM": 8,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 28
+    },
+    {
+     "id": 8445034,
+     "name": "Bobby Bauer",
+     "season": 1939,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 48,
+     "G": 17,
+     "A": 26,
+     "P": 43,
+     "PIM": 4,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 24
+    },
+    {
+     "id": 8445961,
+     "name": "Woody Dumart",
+     "season": 1939,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 48,
+     "G": 22,
+     "A": 21,
+     "P": 43,
+     "PIM": 16,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 23
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 34,
+     "G": 8,
+     "A": 34,
+     "P": 42,
+     "PIM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1939,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 13,
+     "A": 27,
+     "P": 40,
+     "PIM": 24,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 27
+    },
+    {
+     "id": 8449233,
+     "name": "Bill Thoms",
+     "season": 1937,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 48,
+     "G": 14,
+     "A": 24,
+     "P": 38,
+     "PIM": 14,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 33,
+   "kind": "list",
+   "score": 4.15,
+   "players": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau"
+    }
+   ],
+   "seasons": [
+    1933
+   ],
+   "text": "25 players recorded 27 points with no power-play goals in the 1930s (33 seasons). The most extreme: Joe Primeau, 1933-34 — 46 pts, 0 PPG.",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Power-play production decides games; specialists get their due."
+  },
+  {
+   "n": 66,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1932,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 48,
+     "G": 22,
+     "A": 21,
+     "P": 43,
+     "PIM": 30,
+     "GWG": 6,
+     "age": 24
+    },
+    {
+     "id": 8447604,
+     "name": "Georges Mantha",
+     "season": 1937,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 47,
+     "G": 23,
+     "A": 19,
+     "P": 42,
+     "PIM": 12,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 29
+    },
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1935,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 48,
+     "G": 15,
+     "A": 21,
+     "P": 36,
+     "PIM": 41,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 27
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1932,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 48,
+     "G": 8,
+     "A": 27,
+     "P": 35,
+     "PIM": 112,
+     "GWG": 0,
+     "age": 30
+    },
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1933,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 47,
+     "G": 20,
+     "A": 13,
+     "P": 33,
+     "PIM": 27,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1934,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 48,
+     "G": 7,
+     "A": 26,
+     "P": 33,
+     "PIM": 32,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 32
+    }
+   ],
+   "seasonsMatched": 19,
+   "kind": "list",
+   "score": 4.075,
+   "players": [
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott"
+    }
+   ],
+   "seasons": [
+    1932
+   ],
+   "text": "8 players recorded 25 points as a defenseman in the 1930s (19 seasons). The most extreme: Baldy Northcott, 1932-33 — 43 points (22G, 21A).",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 67,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 46,
+     "G": 13,
+     "A": 37,
+     "P": 50,
+     "PIM": 25,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8445362,
+     "name": "Art Chapman",
+     "season": 1934,
+     "team": "NYA",
+     "pos": "C",
+     "GP": 47,
+     "G": 9,
+     "A": 34,
+     "P": 43,
+     "PIM": 4,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 2,
+     "age": 28
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 34,
+     "G": 8,
+     "A": 34,
+     "P": 42,
+     "PIM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8449077,
+     "name": "Hooley Smith",
+     "season": 1931,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 43,
+     "G": 11,
+     "A": 33,
+     "P": 44,
+     "PIM": 57,
+     "GWG": 1,
+     "age": 29
+    },
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 38,
+     "G": 9,
+     "A": 32,
+     "P": 41,
+     "PIM": 18,
+     "GWG": 2,
+     "age": 25
+    },
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 45,
+     "G": 14,
+     "A": 32,
+     "P": 46,
+     "PIM": 8,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 42,
+   "kind": "list",
+   "score": 3.925,
+   "players": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau"
+    }
+   ],
+   "seasons": [
+    1931
+   ],
+   "text": "25 players recorded 25 assists in the 1930s (42 seasons). The most extreme: Joe Primeau, 1931-32 — 37 assists.",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 68,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 46,
+     "G": 13,
+     "A": 37,
+     "P": 50,
+     "PIM": 25,
+     "GWG": 2,
+     "age": 26
+    },
+    {
+     "id": 8445362,
+     "name": "Art Chapman",
+     "season": 1934,
+     "team": "NYA",
+     "pos": "C",
+     "GP": 47,
+     "G": 9,
+     "A": 34,
+     "P": 43,
+     "PIM": 4,
+     "PPG": 2,
+     "SHG": 1,
+     "GWG": 2,
+     "age": 28
+    },
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 34,
+     "G": 8,
+     "A": 34,
+     "P": 42,
+     "PIM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8449077,
+     "name": "Hooley Smith",
+     "season": 1931,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 43,
+     "G": 11,
+     "A": 33,
+     "P": 44,
+     "PIM": 57,
+     "GWG": 1,
+     "age": 29
+    },
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 38,
+     "G": 9,
+     "A": 32,
+     "P": 41,
+     "PIM": 18,
+     "GWG": 2,
+     "age": 25
+    },
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 45,
+     "G": 14,
+     "A": 32,
+     "P": 46,
+     "PIM": 8,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 42,
+   "kind": "list",
+   "score": 3.925,
+   "players": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau"
+    }
+   ],
+   "seasons": [
+    1931
+   ],
+   "text": "23 players recorded 20 assists with twice as many assists as goals in the 1930s (42 seasons). The most extreme: Joe Primeau, 1931-32 — 37A, 13G.",
+   "why": "Leads with the most extreme case, which carries the post. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 69,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 47,
+     "G": 36,
+     "A": 21,
+     "P": 57,
+     "PIM": 24,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 13,
+     "age": 25
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 44,
+     "G": 34,
+     "A": 14,
+     "P": 48,
+     "PIM": 66,
+     "GWG": 5,
+     "age": 22
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1931,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 48,
+     "G": 33,
+     "A": 14,
+     "P": 47,
+     "PIM": 33,
+     "GWG": 5,
+     "age": 35
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 42,
+     "G": 32,
+     "A": 20,
+     "P": 52,
+     "PIM": 38,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 24
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1930,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 38,
+     "G": 31,
+     "A": 12,
+     "P": 43,
+     "PIM": 80,
+     "GWG": 3,
+     "age": 21
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1930,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 44,
+     "G": 30,
+     "A": 12,
+     "P": 42,
+     "PIM": 39,
+     "GWG": 5,
+     "age": 34
+    }
+   ],
+   "seasonsMatched": 50,
+   "kind": "list",
+   "score": 3.9,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "text": "30 players scored 21 goals with more goals than assists in the 1930s (50 seasons). The most extreme: Charlie Conacher, 1934-35 — 36G, 21A.",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 70,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1932,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 48,
+     "G": 8,
+     "A": 27,
+     "P": 35,
+     "PIM": 112,
+     "GWG": 0,
+     "age": 30
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1930,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 44,
+     "G": 15,
+     "A": 16,
+     "P": 31,
+     "PIM": 107,
+     "GWG": 5,
+     "age": 28
+    },
+    {
+     "id": 8445514,
+     "name": "Lionel Conacher",
+     "season": 1932,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 47,
+     "G": 7,
+     "A": 21,
+     "P": 28,
+     "PIM": 61,
+     "GWG": 1,
+     "age": 31
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 46,
+     "G": 11,
+     "A": 17,
+     "P": 28,
+     "PIM": 62,
+     "PPG": 0,
+     "SHG": 3,
+     "GWG": 2,
+     "age": 30
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1932,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 48,
+     "G": 13,
+     "A": 12,
+     "P": 25,
+     "PIM": 79,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8448951,
+     "name": "Earl Seibert",
+     "season": 1934,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 48,
+     "G": 6,
+     "A": 19,
+     "P": 25,
+     "PIM": 86,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 23
+    }
+   ],
+   "seasonsMatched": 34,
+   "kind": "list",
+   "score": 3.875,
+   "players": [
+    {
+     "id": 8449024,
+     "name": "Eddie Shore"
+    }
+   ],
+   "seasons": [
+    1932
+   ],
+   "text": "15 players recorded 15 points and 50 penalty minutes as a defenseman in the 1930s (34 seasons). The most extreme: Eddie Shore, 1932-33 — 35 pts, 112 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 71,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "season": 1938,
+     "team": "BOS",
+     "GP": 43,
+     "A": 0,
+     "PIM": 0,
+     "W": 33,
+     "L": 9,
+     "T": 1,
+     "SO": 10,
+     "GAA": 1.55725,
+     "GA": 68
+    },
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek",
+     "season": 1939,
+     "team": "BOS",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 31,
+     "L": 12,
+     "T": 5,
+     "SO": 6,
+     "GAA": 1.9731,
+     "GA": 97
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1934,
+     "team": "TOR",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 30,
+     "L": 14,
+     "T": 4,
+     "SO": 8,
+     "GAA": 2.25228,
+     "GA": 111
+    },
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "season": 1937,
+     "team": "BOS",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 30,
+     "L": 11,
+     "T": 7,
+     "SO": 7,
+     "GAA": 1.79797,
+     "GA": 89
+    },
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "season": 1930,
+     "team": "BOS",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 10,
+     "T": 6,
+     "SO": 3,
+     "GAA": 1.97802,
+     "GA": 90
+    },
+    {
+     "id": 8450009,
+     "name": "Dave Kerr",
+     "season": 1937,
+     "team": "NYR",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 27,
+     "L": 15,
+     "T": 6,
+     "SO": 8,
+     "GAA": 1.94594,
+     "GA": 96
+    }
+   ],
+   "seasonsMatched": 17,
+   "kind": "list",
+   "score": 3.825,
+   "players": [
+    {
+     "id": 8449836,
+     "name": "Frank Brimsek"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "text": "8 goalies won 25 games in the 1930s (17 seasons). The most extreme: Frank Brimsek, 1938-39 — 33-9-1.",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 72,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449821,
+     "name": "Bill Beveridge",
+     "season": 1934,
+     "team": "SLE",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 11,
+     "L": 31,
+     "T": 6,
+     "SO": 3,
+     "GAA": 2.88963,
+     "GA": 144
+    },
+    {
+     "id": 8449821,
+     "name": "Bill Beveridge",
+     "season": 1937,
+     "team": "MMR",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 12,
+     "L": 30,
+     "T": 6,
+     "SO": 2,
+     "GAA": 3,
+     "GA": 149
+    },
+    {
+     "id": 8449821,
+     "name": "Bill Beveridge",
+     "season": 1933,
+     "team": "SEN",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 13,
+     "L": 29,
+     "T": 6,
+     "SO": 3,
+     "GAA": 2.86,
+     "GA": 143
+    },
+    {
+     "id": 8450105,
+     "name": "Earl Robertson",
+     "season": 1939,
+     "team": "NYA",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 15,
+     "L": 29,
+     "T": 4,
+     "SO": 6,
+     "GAA": 2.83783,
+     "GA": 140
+    },
+    {
+     "id": 8450007,
+     "name": "Mike Karakas",
+     "season": 1938,
+     "team": "CHI",
+     "GP": 48,
+     "A": 0,
+     "PIM": 2,
+     "W": 12,
+     "L": 28,
+     "T": 8,
+     "SO": 5,
+     "GAA": 2.60869,
+     "GA": 130
+    },
+    {
+     "id": 8450153,
+     "name": "Roy Worters",
+     "season": 1934,
+     "team": "NYA",
+     "GP": 48,
+     "A": 0,
+     "PIM": 0,
+     "W": 12,
+     "L": 27,
+     "T": 9,
+     "SO": 3,
+     "GAA": 2.84,
+     "GA": 142
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 3.775,
+   "players": [
+    {
+     "id": 8449821,
+     "name": "Bill Beveridge"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "text": "9 goalies lost 25 games in the 1930s (14 seasons). The most extreme: Bill Beveridge, 1934-35 — 11-31-6.",
+   "why": "Leads with the most extreme case, which carries the post. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 73,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 47,
+     "G": 36,
+     "A": 21,
+     "P": 57,
+     "PIM": 24,
+     "PPG": 6,
+     "SHG": 1,
+     "GWG": 13,
+     "age": 25
+    },
+    {
+     "id": 8447025,
+     "name": "Busher Jackson",
+     "season": 1931,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 48,
+     "G": 28,
+     "A": 25,
+     "P": 53,
+     "PIM": 63,
+     "GWG": 3,
+     "age": 21
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 42,
+     "G": 32,
+     "A": 20,
+     "P": 52,
+     "PIM": 38,
+     "PPG": 2,
+     "SHG": 0,
+     "GWG": 5,
+     "age": 24
+    },
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon",
+     "season": 1937,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 48,
+     "G": 26,
+     "A": 26,
+     "P": 52,
+     "PIM": 4,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 24
+    },
+    {
+     "id": 8448931,
+     "name": "Milt Schmidt",
+     "season": 1939,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 48,
+     "G": 22,
+     "A": 30,
+     "P": 52,
+     "PIM": 37,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 21
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "season": 1930,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 39,
+     "G": 28,
+     "A": 23,
+     "P": 51,
+     "PIM": 49,
+     "GWG": 5,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 22,
+   "kind": "list",
+   "score": 3.7125,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1934
+   ],
+   "text": "14 players recorded 45 points in the 1930s (22 seasons). The most extreme: Charlie Conacher, 1934-35 — 57 points (36G, 21A).",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 74,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447604,
+     "name": "Georges Mantha",
+     "season": 1937,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 47,
+     "G": 23,
+     "A": 19,
+     "P": 42,
+     "PIM": 12,
+     "PPG": 5,
+     "SHG": 1,
+     "GWG": 4,
+     "age": 29
+    },
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1932,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 48,
+     "G": 22,
+     "A": 21,
+     "P": 43,
+     "PIM": 30,
+     "GWG": 6,
+     "age": 24
+    },
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1933,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 47,
+     "G": 20,
+     "A": 13,
+     "P": 33,
+     "PIM": 27,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1931,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 48,
+     "G": 19,
+     "A": 6,
+     "P": 25,
+     "PIM": 35,
+     "GWG": 4,
+     "age": 23
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1930,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 44,
+     "G": 15,
+     "A": 16,
+     "P": 31,
+     "PIM": 107,
+     "GWG": 5,
+     "age": 28
+    },
+    {
+     "id": 8448034,
+     "name": "Baldy Northcott",
+     "season": 1935,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 48,
+     "G": 15,
+     "A": 21,
+     "P": 36,
+     "PIM": 41,
+     "PPG": 1,
+     "SHG": 1,
+     "GWG": 3,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 23,
+   "kind": "list",
+   "score": 3.575,
+   "players": [
+    {
+     "id": 8447604,
+     "name": "Georges Mantha"
+    }
+   ],
+   "seasons": [
+    1937
+   ],
+   "text": "10 players scored 10 goals as a defenseman in the 1930s (23 seasons). The most extreme: Georges Mantha, 1937-38 — 23 goals.",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 75,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1935,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 43,
+     "G": 2,
+     "A": 9,
+     "P": 11,
+     "PIM": 167,
+     "PPG": 0,
+     "SHG": 1,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1933,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 40,
+     "G": 11,
+     "A": 10,
+     "P": 21,
+     "PIM": 156,
+     "PPG": 5,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 24
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1932,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 48,
+     "G": 3,
+     "A": 8,
+     "P": 11,
+     "PIM": 144,
+     "GWG": 0,
+     "age": 23
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1936,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 48,
+     "G": 3,
+     "A": 9,
+     "P": 12,
+     "PIM": 134,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 27
+    },
+    {
+     "id": 8447098,
+     "name": "Ivan Johnson",
+     "season": 1932,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 48,
+     "G": 8,
+     "A": 9,
+     "P": 17,
+     "PIM": 127,
+     "GWG": 2,
+     "age": 34
+    },
+    {
+     "id": 8446915,
+     "name": "Red Horner",
+     "season": 1934,
+     "team": "TOR",
+     "pos": "D",
+     "GP": 46,
+     "G": 4,
+     "A": 8,
+     "P": 12,
+     "PIM": 125,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 16,
+   "kind": "list",
+   "score": 3.4175,
+   "players": [
+    {
+     "id": 8446915,
+     "name": "Red Horner"
+    }
+   ],
+   "seasons": [
+    1935
+   ],
+   "text": "8 players racked up 100 penalty minutes in the 1930s (16 seasons). The most extreme: Red Horner, 1935-36 — 167 PIM.",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 76,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 12,
+     "G": 3,
+     "A": 11,
+     "P": 14,
+     "PIM": 2,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 26
+    },
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon",
+     "season": 1938,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 10,
+     "G": 7,
+     "A": 6,
+     "P": 13,
+     "PIM": 4,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 25
+    },
+    {
+     "id": 8445026,
+     "name": "Marty Barry",
+     "season": 1936,
+     "team": "DET",
+     "pos": "C",
+     "GP": 10,
+     "G": 4,
+     "A": 7,
+     "P": 11,
+     "PIM": 2,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 31
+    },
+    {
+     "id": 8445517,
+     "name": "Roy Conacher",
+     "season": 1938,
+     "team": "BOS",
+     "pos": "L",
+     "GP": 12,
+     "G": 6,
+     "A": 5,
+     "P": 11,
+     "PIM": 12,
+     "PPG": 1,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 22
+    },
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "season": 1932,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 8,
+     "G": 8,
+     "A": 2,
+     "P": 10,
+     "PIM": 6,
+     "GWG": 1,
+     "age": 24
+    },
+    {
+     "id": 8444987,
+     "name": "Larry Aurie",
+     "season": 1933,
+     "team": "DET",
+     "pos": "R",
+     "GP": 9,
+     "G": 3,
+     "A": 7,
+     "P": 10,
+     "PIM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 0,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 21,
+   "kind": "list",
+   "score": 3.35,
+   "players": [
+    {
+     "id": 8445754,
+     "name": "Bill Cowley"
+    }
+   ],
+   "seasons": [
+    1938
+   ],
+   "text": "20 players recorded 8 points in one postseason in the 1930s (21 seasons). The most extreme: Bill Cowley, 1938-39 — 14 points in 12 games.",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 77,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1930s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon",
+     "season": 1932,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 8,
+     "G": 8,
+     "A": 2,
+     "P": 10,
+     "PIM": 6,
+     "GWG": 1,
+     "age": 24
+    },
+    {
+     "id": 8445113,
+     "name": "Buzz Boll",
+     "season": 1935,
+     "team": "TOR",
+     "pos": "L",
+     "GP": 9,
+     "G": 7,
+     "A": 3,
+     "P": 10,
+     "PIM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 1,
+     "age": 24
+    },
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon",
+     "season": 1937,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 7,
+     "G": 7,
+     "A": 1,
+     "P": 8,
+     "PIM": 2,
+     "PPG": 0,
+     "SHG": 0,
+     "GWG": 2,
+     "age": 24
+    },
+    {
+     "id": 8445950,
+     "name": "Gordie Drillon",
+     "season": 1938,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 10,
+     "G": 7,
+     "A": 6,
+     "P": 13,
+     "PIM": 4,
+     "PPG": 3,
+     "SHG": 0,
+     "GWG": 3,
+     "age": 25
+    },
+    {
+     "id": 8446553,
+     "name": "Johnny Gagnon",
+     "season": 1930,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 10,
+     "G": 6,
+     "A": 2,
+     "P": 8,
+     "PIM": 10,
+     "GWG": 1,
+     "age": 25
+    },
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1930,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 5,
+     "G": 6,
+     "A": 3,
+     "P": 9,
+     "PIM": 2,
+     "GWG": 1,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 18,
+   "kind": "list",
+   "score": 3.2,
+   "players": [
+    {
+     "id": 8445908,
+     "name": "Cecil Dillon"
+    }
+   ],
+   "seasons": [
+    1932
+   ],
+   "text": "17 players scored 5 goals in one postseason in the 1930s (18 seasons). The most extreme: Cecil Dillon, 1932-33 — 8 goals in 8 games.",
+   "why": "Shows how high the bar was across the 1930s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  }
+ ],
+ "shortNote": "The NHL had between four and ten teams in these years and kept fewer statistics (no shots, plus-minus or ice time), so the record supports fewer lines. Nothing was padded.",
+ "counts": {
+  "skaterSeasons": 1525,
+  "goalieSeasons": 140,
+  "teamSeasons": 83
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:51.941Z"
+}

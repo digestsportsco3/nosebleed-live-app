@@ -1,0 +1,5055 @@
+{
+ "sport": "NHL",
+ "decade": "1920s",
+ "era": 1,
+ "seasons": [
+  "1920-21",
+  "1921-22",
+  "1922-23",
+  "1923-24",
+  "1924-25",
+  "1925-26",
+  "1926-27",
+  "1927-28",
+  "1928-29",
+  "1929-30"
+ ],
+ "candidates": 76,
+ "facts": [
+  {
+   "n": 1,
+   "rule": "t_pct800",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1929,
+     "GP": 44,
+     "W": 38,
+     "L": 5,
+     "T": 1,
+     "GF": 179,
+     "GA": 98,
+     "PCT": 0.875
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 12.1875,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "The only team of the 1920s to finish with a .800 points percentage: Boston Bruins, 1929-30 — 38-5-1, .875.",
+   "why": "A club of one in the 1920s; \"name another\" posts draw replies. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 2,
+   "rule": "h_young_p",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1929,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 39,
+     "G": 20,
+     "A": 9,
+     "P": 29,
+     "PIM": 46,
+     "GWG": 2,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.725,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "The only player of the 1920s to record 29 points at age 20 or younger: Charlie Conacher, 1929-30 — 29 points at 20.",
+   "why": "Nobody else in the 1920s did it, and exclusivity is what gets a post shared. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 3,
+   "rule": "h_setup",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau",
+     "season": 1929,
+     "team": "TOR",
+     "pos": "C",
+     "GP": 43,
+     "G": 5,
+     "A": 21,
+     "P": 26,
+     "PIM": 22,
+     "GWG": 2,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.525,
+   "players": [
+    {
+     "id": 8448197,
+     "name": "Joe Primeau"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "The only player of the 1920s to record 20 assists with twice as many assists as goals: Joe Primeau, 1929-30 — 21A, 5G.",
+   "why": "A club of one in the 1920s; \"name another\" posts draw replies. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 4,
+   "rule": "h_old_g",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448154,
+     "name": "Didier Pitre",
+     "season": 1920,
+     "team": "MTL",
+     "pos": "R",
+     "GP": 23,
+     "G": 16,
+     "A": 5,
+     "P": 21,
+     "PIM": 25,
+     "GWG": 1,
+     "age": 37
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.4,
+   "players": [
+    {
+     "id": 8448154,
+     "name": "Didier Pitre"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "The only player of the 1920s to score 15 goals at age 36 or older: Didier Pitre, 1920-21 — 16 goals at 37.",
+   "why": "Nobody else in the 1920s did it, and exclusivity is what gets a post shared. Longevity in a punishing sport is always shared."
+  },
+  {
+   "n": 5,
+   "rule": "po_p",
+   "group": "PO",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1927,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 9,
+     "G": 7,
+     "A": 3,
+     "P": 10,
+     "PIM": 2,
+     "GWG": 4,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.25,
+   "players": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "text": "The only player of the 1920s to record 8 points in one postseason: Frank Boucher, 1927-28 — 10 points in 9 games.",
+   "why": "A club of one in the 1920s; \"name another\" posts draw replies. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 6,
+   "rule": "pog_so",
+   "group": "PO",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "season": 1927,
+     "team": "MMR",
+     "GP": 9,
+     "A": 0,
+     "PIM": 0,
+     "W": 5,
+     "L": 3,
+     "T": 1,
+     "SO": 4,
+     "GAA": 0.86416,
+     "GA": 8
+    }
+   ],
+   "seasonsMatched": 1,
+   "kind": "only",
+   "score": 10.1,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "text": "The only goalie of the 1920s to record 4 shutouts in one postseason: Clint Benedict, 1927-28 — 4 shutouts in 9 games.",
+   "why": "Nobody else in the 1920s did it, and exclusivity is what gets a post shared. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 7,
+   "rule": "h_young_g",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1929,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 39,
+     "G": 20,
+     "A": 9,
+     "P": 29,
+     "PIM": 46,
+     "GWG": 2,
+     "age": 20
+    },
+    {
+     "id": 8447181,
+     "name": "Hec Kilrea",
+     "season": 1927,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 43,
+     "G": 19,
+     "A": 4,
+     "P": 23,
+     "PIM": 66,
+     "GWG": 6,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.5,
+   "players": [
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    },
+    {
+     "id": 8447181,
+     "name": "Hec Kilrea"
+    }
+   ],
+   "seasons": [
+    1929,
+    1927
+   ],
+   "text": "Only two players of the 1920s scored 18 goals at age 20 or younger: Charlie Conacher (1929-30: 20 goals at 20); Hec Kilrea (1927-28: 19 goals at 20).",
+   "why": "Two names invite the \"whose season was better?\" argument. Teenage and 20-year-old production is prodigy content."
+  },
+  {
+   "n": 8,
+   "rule": "t_gdiff",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1929,
+     "GP": 44,
+     "W": 38,
+     "L": 5,
+     "T": 1,
+     "GF": 179,
+     "GA": 98,
+     "PCT": 0.875
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1927,
+     "GP": 44,
+     "W": 26,
+     "L": 11,
+     "T": 7,
+     "GF": 116,
+     "GA": 48,
+     "PCT": 0.67045
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.405,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1929,
+    1927
+   ],
+   "text": "Only two teams of the 1920s outscored opponents by 50: Boston Bruins (1929-30: 179-98); Montréal Canadiens (1927-28: 116-48).",
+   "why": "A club of two is a ready-made debate. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 9,
+   "rule": "po_g",
+   "group": "PO",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1927,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 9,
+     "G": 7,
+     "A": 3,
+     "P": 10,
+     "PIM": 2,
+     "GWG": 4,
+     "age": 26
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1926,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 6,
+     "G": 5,
+     "A": 0,
+     "P": 5,
+     "PIM": 0,
+     "GWG": 2,
+     "age": 35
+    }
+   ],
+   "seasonsMatched": 2,
+   "kind": "pair",
+   "score": 8.175,
+   "players": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher"
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [
+    1927,
+    1926
+   ],
+   "text": "Only two players of the 1920s scored 5 goals in one postseason: Frank Boucher (1927-28: 7 goals in 9 games); Cy Denneny (1926-27: 5 goals in 6 games).",
+   "why": "Two names invite the \"whose season was better?\" argument. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 10,
+   "rule": "t_pct300",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Pittsburgh Pirates",
+     "name": "Pittsburgh Pirates",
+     "season": 1929,
+     "GP": 44,
+     "W": 5,
+     "L": 36,
+     "T": 3,
+     "GF": 102,
+     "GA": 185,
+     "PCT": 0.14772
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1927,
+     "GP": 44,
+     "W": 7,
+     "L": 34,
+     "T": 3,
+     "GF": 68,
+     "GA": 134,
+     "PCT": 0.19318
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1924,
+     "GP": 30,
+     "W": 6,
+     "L": 24,
+     "T": 0,
+     "GF": 49,
+     "GA": 119,
+     "PCT": 0.2
+    },
+    {
+     "id": "Hamilton Tigers",
+     "name": "Hamilton Tigers",
+     "season": 1920,
+     "GP": 24,
+     "W": 6,
+     "L": 18,
+     "T": 0,
+     "GF": 92,
+     "GA": 132,
+     "PCT": 0.25
+    },
+    {
+     "id": "Hamilton Tigers",
+     "name": "Hamilton Tigers",
+     "season": 1922,
+     "GP": 24,
+     "W": 6,
+     "L": 18,
+     "T": 0,
+     "GF": 81,
+     "GA": 110,
+     "PCT": 0.25
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1928,
+     "GP": 44,
+     "W": 7,
+     "L": 29,
+     "T": 8,
+     "GF": 33,
+     "GA": 85,
+     "PCT": 0.25
+    },
+    {
+     "id": "Hamilton Tigers",
+     "name": "Hamilton Tigers",
+     "season": 1921,
+     "GP": 24,
+     "W": 7,
+     "L": 17,
+     "T": 0,
+     "GF": 88,
+     "GA": 105,
+     "PCT": 0.29166
+    },
+    {
+     "id": "Pittsburgh Pirates",
+     "name": "Pittsburgh Pirates",
+     "season": 1928,
+     "GP": 44,
+     "W": 9,
+     "L": 27,
+     "T": 8,
+     "GF": 46,
+     "GA": 80,
+     "PCT": 0.29545
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "few",
+   "score": 8.130700000000001,
+   "players": [
+    {
+     "id": "Pittsburgh Pirates",
+     "name": "Pittsburgh Pirates"
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Hamilton Tigers",
+     "name": "Hamilton Tigers"
+    }
+   ],
+   "seasons": [
+    1929,
+    1927,
+    1924,
+    1920,
+    1922,
+    1928,
+    1921,
+    1928
+   ],
+   "text": "Just four teams of the 1920s finished with a points percentage under .300: Pittsburgh Pirates (2×, best 1929-30: 5-36-3, .148); Chicago Blackhawks (2×, best 1927-28: 7-34-3, .193); Boston Bruins (1924-25: 6-24, .200); Hamilton Tigers (3×, best 1920-21: 6-18, .250).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 11,
+   "kind": "streak",
+   "rule": "st_g",
+   "group": "P",
+   "decade": "1920s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923,
+    1924,
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1920,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 24,
+     "G": 34,
+     "A": 7,
+     "P": 41,
+     "PIM": 10,
+     "GWG": 4,
+     "age": 29
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1921,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 22,
+     "G": 28,
+     "A": 12,
+     "P": 40,
+     "PIM": 20,
+     "GWG": 2,
+     "age": 30
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1922,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 24,
+     "G": 21,
+     "A": 12,
+     "P": 33,
+     "PIM": 28,
+     "GWG": 4,
+     "age": 31
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1923,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 22,
+     "G": 22,
+     "A": 2,
+     "P": 24,
+     "PIM": 10,
+     "GWG": 7,
+     "age": 32
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1924,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 29,
+     "G": 27,
+     "A": 14,
+     "P": 41,
+     "PIM": 16,
+     "GWG": 5,
+     "age": 33
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1925,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 36,
+     "G": 24,
+     "A": 12,
+     "P": 36,
+     "PIM": 18,
+     "GWG": 9,
+     "age": 34
+    }
+   ],
+   "text": "Cy Denneny scored 21+ goals in 6 straight seasons (1920-21 to 1925-26), the longest run of the 1920s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 12,
+   "kind": "streak",
+   "rule": "st_ppg",
+   "group": "P",
+   "decade": "1920s",
+   "score": 8,
+   "players": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922,
+    1923,
+    1924,
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1920,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 24,
+     "G": 34,
+     "A": 7,
+     "P": 41,
+     "PIM": 10,
+     "GWG": 4,
+     "age": 29
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1921,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 22,
+     "G": 28,
+     "A": 12,
+     "P": 40,
+     "PIM": 20,
+     "GWG": 2,
+     "age": 30
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1922,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 24,
+     "G": 21,
+     "A": 12,
+     "P": 33,
+     "PIM": 28,
+     "GWG": 4,
+     "age": 31
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1923,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 22,
+     "G": 22,
+     "A": 2,
+     "P": 24,
+     "PIM": 10,
+     "GWG": 7,
+     "age": 32
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1924,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 29,
+     "G": 27,
+     "A": 14,
+     "P": 41,
+     "PIM": 16,
+     "GWG": 5,
+     "age": 33
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1925,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 36,
+     "G": 24,
+     "A": 12,
+     "P": 36,
+     "PIM": 18,
+     "GWG": 9,
+     "age": 34
+    }
+   ],
+   "text": "Cy Denneny averaged a point a game (60% of games) in 6 straight seasons (1920-21 to 1925-26), the longest run of the 1920s.",
+   "why": "The longest run of the 1920s; fans measure today's stars against it. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 13,
+   "kind": "streak",
+   "rule": "st_pim",
+   "group": "P",
+   "decade": "1920s",
+   "score": 7,
+   "players": [
+    {
+     "id": 8445471,
+     "name": "King Clancy"
+    }
+   ],
+   "seasons": [
+    1925,
+    1926,
+    1927,
+    1928,
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1925,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 35,
+     "G": 8,
+     "A": 4,
+     "P": 12,
+     "PIM": 82,
+     "GWG": 4,
+     "age": 22
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1926,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 43,
+     "G": 10,
+     "A": 10,
+     "P": 20,
+     "PIM": 78,
+     "GWG": 3,
+     "age": 23
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1927,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 39,
+     "G": 8,
+     "A": 7,
+     "P": 15,
+     "PIM": 73,
+     "GWG": 1,
+     "age": 24
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1928,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 44,
+     "G": 13,
+     "A": 2,
+     "P": 15,
+     "PIM": 95,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 44,
+     "G": 17,
+     "A": 23,
+     "P": 40,
+     "PIM": 83,
+     "GWG": 1,
+     "age": 26
+    }
+   ],
+   "text": "King Clancy racked up 70+ penalty minutes in 5 straight seasons (1925-26 to 1929-30), the longest run of the 1920s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 14,
+   "rule": "g_w",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "season": 1929,
+     "team": "BOS",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 38,
+     "L": 5,
+     "T": 1,
+     "SO": 3,
+     "GAA": 2.19402,
+     "GA": 98
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "season": 1926,
+     "team": "SEN",
+     "GP": 44,
+     "A": 0,
+     "PIM": 2,
+     "W": 30,
+     "L": 10,
+     "T": 4,
+     "SO": 13,
+     "GAA": 1.48387,
+     "GA": 69
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1926,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 14,
+     "T": 2,
+     "SO": 14,
+     "GAA": 1.46768,
+     "GA": 67
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1927,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 11,
+     "T": 7,
+     "SO": 13,
+     "GAA": 1.06072,
+     "GA": 48
+    },
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "season": 1928,
+     "team": "BOS",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 13,
+     "T": 5,
+     "SO": 12,
+     "GAA": 1.15129,
+     "GA": 52
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.95,
+   "players": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson"
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell"
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth"
+    }
+   ],
+   "seasons": [
+    1929,
+    1926,
+    1926,
+    1927,
+    1928
+   ],
+   "text": "Just three goalies of the 1920s won 25 games: Tiny Thompson (2×, best 1929-30: 38-5-1); Alec Connell (1926-27: 30-10-4); George Hainsworth (2×, best 1926-27: 28-14-2).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 15,
+   "rule": "h_a",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1929,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 42,
+     "G": 26,
+     "A": 36,
+     "P": 62,
+     "PIM": 16,
+     "GWG": 1,
+     "age": 28
+    },
+    {
+     "id": 8446557,
+     "name": "Dutch Gainor",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 42,
+     "G": 18,
+     "A": 31,
+     "P": 49,
+     "PIM": 39,
+     "GWG": 2,
+     "age": 25
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1929,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 44,
+     "G": 29,
+     "A": 30,
+     "P": 59,
+     "PIM": 56,
+     "GWG": 3,
+     "age": 33
+    },
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.9,
+   "players": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher"
+    },
+    {
+     "id": 8446557,
+     "name": "Dutch Gainor"
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook"
+    },
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    }
+   ],
+   "seasons": [
+    1929,
+    1929,
+    1929,
+    1929
+   ],
+   "text": "Just four players of the 1920s recorded 25 assists: Frank Boucher (1929-30: 36 assists); Dutch Gainor (1929-30: 31 assists); Bill Cook (1929-30: 30 assists); Cooney Weiland (1929-30: 30 assists).",
+   "why": "A short list fans can recite; each name brings its own fan base. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 16,
+   "rule": "h_first_g",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1925,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 36,
+     "G": 34,
+     "A": 8,
+     "P": 42,
+     "PIM": 121,
+     "GWG": 7,
+     "age": 23
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1926,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 44,
+     "G": 33,
+     "A": 4,
+     "P": 37,
+     "PIM": 56,
+     "GWG": 7,
+     "age": 30
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher",
+     "season": 1929,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 39,
+     "G": 20,
+     "A": 9,
+     "P": 29,
+     "PIM": 46,
+     "GWG": 2,
+     "age": 20
+    }
+   ],
+   "seasonsMatched": 3,
+   "kind": "few",
+   "score": 6.85,
+   "players": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook"
+    },
+    {
+     "id": 8445512,
+     "name": "Charlie Conacher"
+    }
+   ],
+   "seasons": [
+    1925,
+    1926,
+    1929
+   ],
+   "text": "Just three players of the 1920s scored 20 goals in their first NHL season: Nels Stewart (1925-26: 34 goals); Bill Cook (1926-27: 33 goals); Charlie Conacher (1929-30: 20 goals).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 17,
+   "rule": "t_gdiff_neg",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Pittsburgh Pirates",
+     "name": "Pittsburgh Pirates",
+     "season": 1929,
+     "GP": 44,
+     "W": 5,
+     "L": 36,
+     "T": 3,
+     "GF": 102,
+     "GA": 185,
+     "PCT": 0.14772
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1924,
+     "GP": 30,
+     "W": 6,
+     "L": 24,
+     "T": 0,
+     "GF": 49,
+     "GA": 119,
+     "PCT": 0.2
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1927,
+     "GP": 44,
+     "W": 7,
+     "L": 34,
+     "T": 3,
+     "GF": 68,
+     "GA": 134,
+     "PCT": 0.19318
+    },
+    {
+     "id": "New York Americans",
+     "name": "New York Americans",
+     "season": 1927,
+     "GP": 44,
+     "W": 11,
+     "L": 27,
+     "T": 6,
+     "GF": 63,
+     "GA": 128,
+     "PCT": 0.31818
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks",
+     "season": 1928,
+     "GP": 44,
+     "W": 7,
+     "L": 29,
+     "T": 8,
+     "GF": 33,
+     "GA": 85,
+     "PCT": 0.25
+    }
+   ],
+   "seasonsMatched": 5,
+   "kind": "few",
+   "score": 6.415,
+   "players": [
+    {
+     "id": "Pittsburgh Pirates",
+     "name": "Pittsburgh Pirates"
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    },
+    {
+     "id": "Chicago Blackhawks",
+     "name": "Chicago Blackhawks"
+    },
+    {
+     "id": "New York Americans",
+     "name": "New York Americans"
+    }
+   ],
+   "seasons": [
+    1929,
+    1924,
+    1927,
+    1927,
+    1928
+   ],
+   "text": "Just four teams of the 1920s got outscored by 50: Pittsburgh Pirates (1929-30: 102-185); Boston Bruins (1924-25: 49-119); Chicago Blackhawks (2×, best 1927-28: 68-134); New York Americans (1927-28: 63-128).",
+   "why": "A short list fans can recite; each name brings its own fan base. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 18,
+   "rule": "h_gwg",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    },
+    {
+     "id": 8447110,
+     "name": "Aurel Joliat",
+     "season": 1927,
+     "team": "MTL",
+     "pos": "L",
+     "GP": 44,
+     "G": 28,
+     "A": 11,
+     "P": 39,
+     "PIM": 103,
+     "GWG": 10,
+     "age": 26
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1927,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 41,
+     "G": 27,
+     "A": 7,
+     "P": 34,
+     "PIM": 106,
+     "GWG": 10,
+     "age": 25
+    },
+    {
+     "id": 8445541,
+     "name": "Carson Cooper",
+     "season": 1928,
+     "team": "DCG",
+     "pos": "R",
+     "GP": 44,
+     "G": 18,
+     "A": 9,
+     "P": 27,
+     "PIM": 16,
+     "GWG": 10,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.35,
+   "players": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    },
+    {
+     "id": 8447110,
+     "name": "Aurel Joliat"
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    },
+    {
+     "id": 8445541,
+     "name": "Carson Cooper"
+    }
+   ],
+   "seasons": [
+    1929,
+    1927,
+    1927,
+    1928
+   ],
+   "text": "Just four players of the 1920s scored 10 game-winning goals: Cooney Weiland (1929-30: 14 GWG); Aurel Joliat (1927-28: 10 GWG); Nels Stewart (1927-28: 10 GWG); Carson Cooper (1928-29: 10 GWG).",
+   "why": "Few enough to name them all, so readers tag the ones they remember. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 19,
+   "rule": "g_first_so",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1926,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 14,
+     "T": 2,
+     "SO": 14,
+     "GAA": 1.46768,
+     "GA": 67
+    },
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "season": 1928,
+     "team": "BOS",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 13,
+     "T": 5,
+     "SO": 12,
+     "GAA": 1.15129,
+     "GA": 52
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "season": 1926,
+     "team": "NYR",
+     "GP": 37,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 9,
+     "T": 5,
+     "SO": 10,
+     "GAA": 1.5083,
+     "GA": 59
+    },
+    {
+     "id": 8449897,
+     "name": "Dolly Dolson",
+     "season": 1928,
+     "team": "DCG",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 19,
+     "L": 16,
+     "T": 9,
+     "SO": 10,
+     "GAA": 1.37454,
+     "GA": 63
+    }
+   ],
+   "seasonsMatched": 4,
+   "kind": "few",
+   "score": 6.35,
+   "players": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth"
+    },
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson"
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot"
+    },
+    {
+     "id": 8449897,
+     "name": "Dolly Dolson"
+    }
+   ],
+   "seasons": [
+    1926,
+    1928,
+    1926,
+    1928
+   ],
+   "text": "Just four goalies of the 1920s recorded 8 shutouts in their first NHL season: George Hainsworth (1926-27: 14 shutouts); Tiny Thompson (1928-29: 12 shutouts); Lorne Chabot (1926-27: 10 shutouts); Dolly Dolson (1928-29: 10 shutouts).",
+   "why": "A short list fans can recite; each name brings its own fan base. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 20,
+   "kind": "extreme",
+   "rule": "x_g",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    }
+   ],
+   "among": 876,
+   "text": "Most goals in a season in the 1920s: Cooney Weiland, 1929-30 — 43 in 44 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 21,
+   "kind": "extreme",
+   "rule": "x_pim",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449024,
+     "name": "Eddie Shore"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1927,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 43,
+     "G": 11,
+     "A": 6,
+     "P": 17,
+     "PIM": 165,
+     "GWG": 4,
+     "age": 25
+    }
+   ],
+   "among": 876,
+   "text": "Most penalty minutes in a season in the 1920s: Eddie Shore, 1927-28 — 165.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 22,
+   "kind": "extreme",
+   "rule": "x_dp",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445471,
+     "name": "King Clancy"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 44,
+     "G": 17,
+     "A": 23,
+     "P": 40,
+     "PIM": 83,
+     "GWG": 1,
+     "age": 26
+    }
+   ],
+   "among": 279,
+   "text": "Most points by a defenseman in a season in the 1920s: King Clancy, 1929-30 — 40.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 23,
+   "kind": "extreme",
+   "rule": "x_ptspg",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445168,
+     "name": "Punch Broadbent"
+    }
+   ],
+   "seasons": [
+    1921
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445168,
+     "name": "Punch Broadbent",
+     "season": 1921,
+     "team": "SEN",
+     "pos": "R",
+     "GP": 24,
+     "G": 31,
+     "A": 14,
+     "P": 45,
+     "PIM": 28,
+     "GWG": 5,
+     "age": 29
+    }
+   ],
+   "among": 668,
+   "text": "Most points per game in a season (60% of games) in the 1920s: Punch Broadbent, 1921-22 — 1.88.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 24,
+   "kind": "extreme",
+   "rule": "x_gpg",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1920,
+     "team": "HAM,TSP",
+     "pos": "R",
+     "GP": 24,
+     "G": 35,
+     "A": 5,
+     "P": 40,
+     "PIM": 32,
+     "GWG": 6,
+     "age": 22
+    }
+   ],
+   "among": 668,
+   "text": "Most goals per game in a season (60% of games) in the 1920s: Babe Dye, 1920-21 — 1.46.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 25,
+   "kind": "extreme",
+   "rule": "x_first_g",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    }
+   ],
+   "seasons": [
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1925,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 36,
+     "G": 34,
+     "A": 8,
+     "P": 42,
+     "PIM": 121,
+     "GWG": 7,
+     "age": 23
+    }
+   ],
+   "among": 261,
+   "text": "Most goals in a first NHL season in the 1920s: Nels Stewart, 1925-26 — 34.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 26,
+   "kind": "extreme",
+   "rule": "gx_w",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "season": 1929,
+     "team": "BOS",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 38,
+     "L": 5,
+     "T": 1,
+     "SO": 3,
+     "GAA": 2.19402,
+     "GA": 98
+    }
+   ],
+   "among": 105,
+   "text": "Most wins by a goalie in a season in the 1920s: Tiny Thompson, 1929-30 — 38.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 27,
+   "kind": "extreme",
+   "rule": "gx_so",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1928,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 7,
+     "T": 15,
+     "SO": 22,
+     "GAA": 0.92142,
+     "GA": 43
+    }
+   ],
+   "among": 105,
+   "text": "Most shutouts in a season in the 1920s: George Hainsworth, 1928-29 — 22.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 28,
+   "kind": "extreme",
+   "rule": "gx_l",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8450043,
+     "name": "Joe Miller"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450043,
+     "name": "Joe Miller",
+     "season": 1929,
+     "team": "PIR",
+     "GP": 43,
+     "A": 0,
+     "PIM": 0,
+     "W": 5,
+     "L": 35,
+     "T": 3,
+     "SO": 0,
+     "GAA": 4.08365,
+     "GA": 179
+    }
+   ],
+   "among": 105,
+   "text": "Most losses by a goalie in a season in the 1920s: Joe Miller, 1929-30 — 35.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 29,
+   "kind": "extreme",
+   "rule": "tx_pct_lo",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Pittsburgh Pirates",
+     "name": "Pittsburgh Pirates"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Pittsburgh Pirates",
+     "name": "Pittsburgh Pirates",
+     "season": 1929,
+     "GP": 44,
+     "W": 5,
+     "L": 36,
+     "T": 3,
+     "GF": 102,
+     "GA": 185,
+     "PCT": 0.14772
+    }
+   ],
+   "among": 69,
+   "text": "Worst points percentage in a season in the 1920s: Pittsburgh Pirates, 1929-30 — .148 (5-36-3).",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Futility stats are among the most shared in sports."
+  },
+  {
+   "n": 30,
+   "kind": "extreme",
+   "rule": "tx_gf",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1920,
+     "GP": 24,
+     "W": 13,
+     "L": 11,
+     "T": 0,
+     "GF": 112,
+     "GA": 99,
+     "PCT": 0.54166
+    }
+   ],
+   "among": 69,
+   "text": "Most goals per game by a team in the 1920s: Montréal Canadiens, 1920-21 — 4.67 (112 in 24).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 31,
+   "kind": "extreme",
+   "rule": "tx_ga",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1928,
+     "GP": 44,
+     "W": 22,
+     "L": 7,
+     "T": 15,
+     "GF": 71,
+     "GA": 43,
+     "PCT": 0.67045
+    }
+   ],
+   "among": 69,
+   "text": "Fewest goals allowed per game in the 1920s: Montréal Canadiens, 1928-29 — 0.98 (43 in 44).",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 32,
+   "kind": "extreme",
+   "rule": "pogx_so",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "season": 1927,
+     "team": "MMR",
+     "GP": 9,
+     "A": 0,
+     "PIM": 0,
+     "W": 5,
+     "L": 3,
+     "T": 1,
+     "SO": 4,
+     "GAA": 0.86416,
+     "GA": 8
+    }
+   ],
+   "among": 39,
+   "text": "Most shutouts in a single postseason in the 1920s: Clint Benedict, 1927-28 — 4.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 33,
+   "kind": "extreme",
+   "rule": "x_p",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    }
+   ],
+   "among": 876,
+   "text": "Most points in a season in the 1920s: Cooney Weiland, 1929-30 — 73 (43G, 30A).",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 34,
+   "kind": "extreme",
+   "rule": "x_a",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1929,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 42,
+     "G": 26,
+     "A": 36,
+     "P": 62,
+     "PIM": 16,
+     "GWG": 1,
+     "age": 28
+    }
+   ],
+   "among": 876,
+   "text": "Most assists in a season in the 1920s: Frank Boucher, 1929-30 — 36.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 35,
+   "kind": "extreme",
+   "rule": "x_gwg",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    }
+   ],
+   "among": 876,
+   "text": "Most game-winning goals in a season in the 1920s: Cooney Weiland, 1929-30 — 14.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 36,
+   "kind": "extreme",
+   "rule": "x_first_p",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    }
+   ],
+   "seasons": [
+    1925
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1925,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 36,
+     "G": 34,
+     "A": 8,
+     "P": 42,
+     "PIM": 121,
+     "GWG": 7,
+     "age": 23
+    }
+   ],
+   "among": 261,
+   "text": "Most points in a first NHL season in the 1920s: Nels Stewart, 1925-26 — 42.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 37,
+   "kind": "extreme",
+   "rule": "gx_gaa",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1928,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 7,
+     "T": 15,
+     "SO": 22,
+     "GAA": 0.92142,
+     "GA": 43
+    }
+   ],
+   "among": 70,
+   "text": "Best goals-against average in a season (40% of games) in the 1920s: George Hainsworth, 1928-29 — 0.92.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 38,
+   "kind": "extreme",
+   "rule": "tx_pct",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1929,
+     "GP": 44,
+     "W": 38,
+     "L": 5,
+     "T": 1,
+     "GF": 179,
+     "GA": 98,
+     "PCT": 0.875
+    }
+   ],
+   "among": 69,
+   "text": "Best points percentage in a season in the 1920s: Boston Bruins, 1929-30 — .875 (38-5-1).",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 39,
+   "kind": "extreme",
+   "rule": "tx_gd",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1929,
+     "GP": 44,
+     "W": 38,
+     "L": 5,
+     "T": 1,
+     "GF": 179,
+     "GA": 98,
+     "PCT": 0.875
+    }
+   ],
+   "among": 69,
+   "text": "Best goal differential in a season in the 1920s: Boston Bruins, 1929-30 — +81.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 40,
+   "kind": "extreme",
+   "rule": "pox_p",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1927,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 9,
+     "G": 7,
+     "A": 3,
+     "P": 10,
+     "PIM": 2,
+     "GWG": 4,
+     "age": 26
+    }
+   ],
+   "among": 397,
+   "text": "Most points in a single postseason in the 1920s: Frank Boucher, 1927-28 — 10 in 9 games.",
+   "why": "The most extreme season of the decade; fans compare it with today's numbers. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 41,
+   "kind": "extreme",
+   "rule": "pox_g",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1927,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 9,
+     "G": 7,
+     "A": 3,
+     "P": 10,
+     "PIM": 2,
+     "GWG": 4,
+     "age": 26
+    }
+   ],
+   "among": 397,
+   "text": "Most goals in a single postseason in the 1920s: Frank Boucher, 1927-28 — 7 in 9 games.",
+   "why": "The high-water mark of the 1920s: a clean \"who did it best\" answer. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 42,
+   "kind": "streak",
+   "rule": "gst_w",
+   "group": "P",
+   "decade": "1920s",
+   "score": 6,
+   "players": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth"
+    }
+   ],
+   "seasons": [
+    1926,
+    1927,
+    1928,
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1926,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 14,
+     "T": 2,
+     "SO": 14,
+     "GAA": 1.46768,
+     "GA": 67
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1927,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 11,
+     "T": 7,
+     "SO": 13,
+     "GAA": 1.06072,
+     "GA": 48
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1928,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 7,
+     "T": 15,
+     "SO": 22,
+     "GAA": 0.92142,
+     "GA": 43
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1929,
+     "team": "MTL",
+     "GP": 42,
+     "A": 0,
+     "PIM": 0,
+     "W": 20,
+     "L": 13,
+     "T": 9,
+     "SO": 4,
+     "GAA": 2.41791,
+     "GA": 108
+    }
+   ],
+   "text": "George Hainsworth won 19+ games in goal in 4 straight seasons (1926-27 to 1929-30), the longest run of the 1920s.",
+   "why": "The longest run of the 1920s; fans measure today's stars against it. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 43,
+   "kind": "streak",
+   "rule": "st_p",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye"
+    }
+   ],
+   "seasons": [
+    1920,
+    1921,
+    1922
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1920,
+     "team": "HAM,TSP",
+     "pos": "R",
+     "GP": 24,
+     "G": 35,
+     "A": 5,
+     "P": 40,
+     "PIM": 32,
+     "GWG": 6,
+     "age": 22
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1921,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 24,
+     "G": 31,
+     "A": 7,
+     "P": 38,
+     "PIM": 39,
+     "GWG": 5,
+     "age": 23
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1922,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 22,
+     "G": 27,
+     "A": 12,
+     "P": 39,
+     "PIM": 21,
+     "GWG": 5,
+     "age": 24
+    }
+   ],
+   "text": "Babe Dye recorded 34+ points in 3 straight seasons (1920-21 to 1922-23), the longest run of the 1920s.",
+   "why": "Years in a row of the same excellence: consistency in one line. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 44,
+   "kind": "total",
+   "rule": "tt_g",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "total": 192,
+     "seasons": 9
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "total": 178,
+     "seasons": 7
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 177,
+     "seasons": 9
+    },
+    {
+     "id": 8447110,
+     "name": "Aurel Joliat",
+     "total": 148,
+     "seasons": 8
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "total": 138,
+     "seasons": 5
+    }
+   ],
+   "text": "Most goals of the 1920s: Babe Dye, 192 (next: Howie Morenz, 178).",
+   "why": "A decade-long view that settles consistency debates. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 45,
+   "kind": "total",
+   "rule": "tt_pim",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448013,
+     "name": "Reg Noble"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 656,
+     "seasons": 10
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "total": 636,
+     "seasons": 10
+    },
+    {
+     "id": 8449077,
+     "name": "Hooley Smith",
+     "total": 565,
+     "seasons": 6
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "total": 533,
+     "seasons": 9
+    },
+    {
+     "id": 8445168,
+     "name": "Punch Broadbent",
+     "total": 526,
+     "seasons": 9
+    }
+   ],
+   "text": "Most penalty minutes of the 1920s: Reg Noble, 656.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 46,
+   "kind": "total",
+   "rule": "tt_gp",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8448013,
+     "name": "Reg Noble"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 332,
+     "seasons": 10
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "total": 317,
+     "seasons": 10
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "total": 306,
+     "seasons": 9
+    },
+    {
+     "id": 8448011,
+     "name": "Frank Nighbor",
+     "total": 298,
+     "seasons": 10
+    },
+    {
+     "id": 8447110,
+     "name": "Aurel Joliat",
+     "total": 281,
+     "seasons": 8
+    }
+   ],
+   "text": "Most games played in the 1920s: Reg Noble, 332.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 47,
+   "kind": "total",
+   "rule": "tt_dp",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445135,
+     "name": "George Boucher"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "total": 161,
+     "seasons": 10
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "total": 157,
+     "seasons": 9
+    },
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn",
+     "total": 112,
+     "seasons": 8
+    },
+    {
+     "id": 8445854,
+     "name": "Hap Day",
+     "total": 109,
+     "seasons": 6
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "total": 85,
+     "seasons": 4
+    }
+   ],
+   "text": "Most points by a defenseman in the 1920s: George Boucher, 161.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 48,
+   "kind": "total",
+   "rule": "gt_w",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "total": 149,
+     "seasons": 10
+    },
+    {
+     "id": 8450103,
+     "name": "John Ross Roach",
+     "total": 136,
+     "seasons": 9
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "total": 126,
+     "seasons": 6
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "total": 96,
+     "seasons": 4
+    },
+    {
+     "id": 8449918,
+     "name": "Jake Forbes",
+     "total": 80,
+     "seasons": 9
+    }
+   ],
+   "text": "Most goalie wins of the 1920s: Clint Benedict, 149.",
+   "why": "A decade-long view that settles consistency debates. Wins are the first thing fans cite for a goalie."
+  },
+  {
+   "n": 49,
+   "kind": "total",
+   "rule": "gt_so",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8449856,
+     "name": "Alec Connell"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "total": 60,
+     "seasons": 6
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "total": 53,
+     "seasons": 4
+    },
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "total": 49,
+     "seasons": 10
+    },
+    {
+     "id": 8450153,
+     "name": "Roy Worters",
+     "total": 37,
+     "seasons": 5
+    },
+    {
+     "id": 8449850,
+     "name": "Lorne Chabot",
+     "total": 37,
+     "seasons": 4
+    }
+   ],
+   "text": "Most shutouts of the 1920s: Alec Connell, 60.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 50,
+   "kind": "total",
+   "rule": "gt_gp",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8450103,
+     "name": "John Ross Roach"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450103,
+     "name": "John Ross Roach",
+     "total": 310,
+     "seasons": 9
+    },
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "total": 298,
+     "seasons": 10
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "total": 242,
+     "seasons": 6
+    },
+    {
+     "id": 8450153,
+     "name": "Roy Worters",
+     "total": 198,
+     "seasons": 5
+    },
+    {
+     "id": 8449918,
+     "name": "Jake Forbes",
+     "total": 196,
+     "seasons": 9
+    }
+   ],
+   "text": "Most games in goal in the 1920s: John Ross Roach, 310.",
+   "why": "A decade-long view that settles consistency debates. Workloads from past eras astonish fans used to rotations and rest days."
+  },
+  {
+   "n": 51,
+   "kind": "season",
+   "rule": "c_g_most",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 4
+    },
+    {
+     "season": 1921,
+     "count": 5
+    },
+    {
+     "season": 1922,
+     "count": 3
+    },
+    {
+     "season": 1923,
+     "count": 1
+    },
+    {
+     "season": 1924,
+     "count": 6
+    },
+    {
+     "season": 1925,
+     "count": 7
+    },
+    {
+     "season": 1926,
+     "count": 3
+    },
+    {
+     "season": 1927,
+     "count": 8
+    },
+    {
+     "season": 1928,
+     "count": 2
+    },
+    {
+     "season": 1929,
+     "count": 17
+    }
+   ],
+   "text": "1929-30 had 17 20-goal scorers, the most of any season in the 1920s.",
+   "why": "The peak year for this across the 1920s; fans can argue why that season stood out. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 52,
+   "kind": "season",
+   "rule": "c_g_least",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1923
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 4
+    },
+    {
+     "season": 1921,
+     "count": 5
+    },
+    {
+     "season": 1922,
+     "count": 3
+    },
+    {
+     "season": 1923,
+     "count": 1
+    },
+    {
+     "season": 1924,
+     "count": 6
+    },
+    {
+     "season": 1925,
+     "count": 7
+    },
+    {
+     "season": 1926,
+     "count": 3
+    },
+    {
+     "season": 1927,
+     "count": 8
+    },
+    {
+     "season": 1928,
+     "count": 2
+    },
+    {
+     "season": 1929,
+     "count": 17
+    }
+   ],
+   "text": "1923-24 had just one 20-goal scorer, the fewest of any season in the 1920s.",
+   "why": "The low point of the 1920s for this; a \"what happened that year?\" hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 53,
+   "kind": "season",
+   "rule": "c_p_most",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 4
+    },
+    {
+     "season": 1921,
+     "count": 5
+    },
+    {
+     "season": 1922,
+     "count": 3
+    },
+    {
+     "season": 1923,
+     "count": 0
+    },
+    {
+     "season": 1924,
+     "count": 7
+    },
+    {
+     "season": 1925,
+     "count": 4
+    },
+    {
+     "season": 1926,
+     "count": 5
+    },
+    {
+     "season": 1927,
+     "count": 6
+    },
+    {
+     "season": 1928,
+     "count": 1
+    },
+    {
+     "season": 1929,
+     "count": 28
+    }
+   ],
+   "text": "1929-30 had 28 30-point players, the most of any season in the 1920s.",
+   "why": "The peak year for this across the 1920s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 54,
+   "kind": "season",
+   "rule": "c_p_least",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1923
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 4
+    },
+    {
+     "season": 1921,
+     "count": 5
+    },
+    {
+     "season": 1922,
+     "count": 3
+    },
+    {
+     "season": 1923,
+     "count": 0
+    },
+    {
+     "season": 1924,
+     "count": 7
+    },
+    {
+     "season": 1925,
+     "count": 4
+    },
+    {
+     "season": 1926,
+     "count": 5
+    },
+    {
+     "season": 1927,
+     "count": 6
+    },
+    {
+     "season": 1928,
+     "count": 1
+    },
+    {
+     "season": 1929,
+     "count": 28
+    }
+   ],
+   "text": "1923-24 had no 30-point players at all — the only season of the 1920s without one.",
+   "why": "The low point of the 1920s for this; a \"what happened that year?\" hook. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 55,
+   "kind": "season",
+   "rule": "c_ppg1_most",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [],
+   "seasons": [
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "season": 1920,
+     "count": 10
+    },
+    {
+     "season": 1921,
+     "count": 10
+    },
+    {
+     "season": 1922,
+     "count": 8
+    },
+    {
+     "season": 1923,
+     "count": 4
+    },
+    {
+     "season": 1924,
+     "count": 8
+    },
+    {
+     "season": 1925,
+     "count": 3
+    },
+    {
+     "season": 1926,
+     "count": 0
+    },
+    {
+     "season": 1927,
+     "count": 1
+    },
+    {
+     "season": 1928,
+     "count": 0
+    },
+    {
+     "season": 1929,
+     "count": 11
+    }
+   ],
+   "text": "1929-30 had 11 point-a-game players (60% of games), the most of any season in the 1920s.",
+   "why": "The peak year for this across the 1920s; fans can argue why that season stood out. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 56,
+   "kind": "total",
+   "rule": "tt_gwg",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 42,
+     "seasons": 9
+    },
+    {
+     "id": 8447110,
+     "name": "Aurel Joliat",
+     "total": 38,
+     "seasons": 8
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "total": 37,
+     "seasons": 5
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "total": 30,
+     "seasons": 9
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "total": 27,
+     "seasons": 7
+    }
+   ],
+   "text": "Most game-winning goals of the 1920s: Cy Denneny, 42.",
+   "why": "A decade-long view that settles consistency debates. Clutch goals are the stat fans quote in arguments."
+  },
+  {
+   "n": 57,
+   "kind": "total",
+   "rule": "tt_bigg",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 6,
+     "seasons": 6
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "total": 5,
+     "seasons": 5
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "total": 4,
+     "seasons": 4
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "total": 2,
+     "seasons": 2
+    }
+   ],
+   "text": "Most 20-goal seasons in the 1920s: Cy Denneny, 6.",
+   "why": "Rewards sustained excellence over one big year and surfaces names fans forget. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 58,
+   "kind": "total",
+   "rule": "tt_a",
+   "group": "P",
+   "decade": "1920s",
+   "score": 5,
+   "players": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher"
+    }
+   ],
+   "seasons": [],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "total": 81,
+     "seasons": 5
+    },
+    {
+     "id": 8448013,
+     "name": "Reg Noble",
+     "total": 77,
+     "seasons": 10
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "total": 72,
+     "seasons": 9
+    },
+    {
+     "id": 8447110,
+     "name": "Aurel Joliat",
+     "total": 70,
+     "seasons": 8
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "total": 67,
+     "seasons": 9
+    }
+   ],
+   "text": "Most assists of the 1920s: Frank Boucher, 81.",
+   "why": "A decade-long view that settles consistency debates. Playmakers get less credit than scorers; assist lines give it back."
+  },
+  {
+   "n": 59,
+   "rule": "h_gpg",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1920,
+     "team": "HAM,TSP",
+     "pos": "R",
+     "GP": 24,
+     "G": 35,
+     "A": 5,
+     "P": 40,
+     "PIM": 32,
+     "GWG": 6,
+     "age": 22
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1920,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 24,
+     "G": 34,
+     "A": 7,
+     "P": 41,
+     "PIM": 10,
+     "GWG": 4,
+     "age": 29
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1920,
+     "team": "HAM",
+     "pos": "C",
+     "GP": 20,
+     "G": 28,
+     "A": 9,
+     "P": 37,
+     "PIM": 6,
+     "GWG": 1,
+     "age": 30
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1920,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 24,
+     "G": 33,
+     "A": 10,
+     "P": 43,
+     "PIM": 36,
+     "GWG": 6,
+     "age": 32
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1924,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 29,
+     "G": 38,
+     "A": 8,
+     "P": 46,
+     "PIM": 38,
+     "GWG": 8,
+     "age": 26
+    },
+    {
+     "id": 8445168,
+     "name": "Punch Broadbent",
+     "season": 1921,
+     "team": "SEN",
+     "pos": "R",
+     "GP": 24,
+     "G": 31,
+     "A": 14,
+     "P": 45,
+     "PIM": 28,
+     "GWG": 5,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 12,
+   "kind": "list",
+   "score": 4.822916666666666,
+   "players": [
+    {
+     "id": 8445972,
+     "name": "Babe Dye"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "6 players scored a goal a game (15+ games) in the 1920s (12 seasons). The most extreme: Babe Dye, 1920-21 — 35 goals in 24 games.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 60,
+   "kind": "nearmiss",
+   "rule": "n_g29",
+   "group": "P",
+   "decade": "1920s",
+   "score": 4.5,
+   "players": [
+    {
+     "id": 8445529,
+     "name": "Bill Cook"
+    },
+    {
+     "id": 8447306,
+     "name": "Joe Lamb"
+    }
+   ],
+   "seasons": [
+    1929,
+    1929
+   ],
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1929,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 44,
+     "G": 29,
+     "A": 30,
+     "P": 59,
+     "PIM": 56,
+     "GWG": 3,
+     "age": 33
+    },
+    {
+     "id": 8447306,
+     "name": "Joe Lamb",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "R",
+     "GP": 44,
+     "G": 29,
+     "A": 20,
+     "P": 49,
+     "PIM": 119,
+     "GWG": 5,
+     "age": 23
+    }
+   ],
+   "text": "2 player-seasons of the 1920s ended on exactly 29 goals, one short of 30 — among them Bill Cook (1929-30), Joe Lamb (1929-30).",
+   "why": "A near miss is a story; fans wonder what one more game would have done."
+  },
+  {
+   "n": 61,
+   "rule": "h_tough",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8447181,
+     "name": "Hec Kilrea",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 44,
+     "G": 36,
+     "A": 22,
+     "P": 58,
+     "PIM": 70,
+     "GWG": 3,
+     "age": 22
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1929,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 44,
+     "G": 39,
+     "A": 16,
+     "P": 55,
+     "PIM": 85,
+     "GWG": 7,
+     "age": 27
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "season": 1929,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 44,
+     "G": 40,
+     "A": 13,
+     "P": 53,
+     "PIM": 72,
+     "GWG": 5,
+     "age": 27
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "season": 1927,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 43,
+     "G": 33,
+     "A": 18,
+     "P": 51,
+     "PIM": 66,
+     "GWG": 9,
+     "age": 25
+    },
+    {
+     "id": 8447306,
+     "name": "Joe Lamb",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "R",
+     "GP": 44,
+     "G": 29,
+     "A": 20,
+     "P": 49,
+     "PIM": 119,
+     "GWG": 5,
+     "age": 23
+    },
+    {
+     "id": 8444998,
+     "name": "Ace Bailey",
+     "season": 1929,
+     "team": "TOR",
+     "pos": "R",
+     "GP": 43,
+     "G": 22,
+     "A": 21,
+     "P": 43,
+     "PIM": 69,
+     "GWG": 4,
+     "age": 26
+    }
+   ],
+   "seasonsMatched": 24,
+   "kind": "list",
+   "score": 4.45,
+   "players": [
+    {
+     "id": 8447181,
+     "name": "Hec Kilrea"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "16 players recorded 27 points and 60 penalty minutes in the 1920s (24 seasons). The most extreme: Hec Kilrea, 1929-30 — 58 pts, 70 PIM.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 62,
+   "rule": "h_2ppg",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445168,
+     "name": "Punch Broadbent",
+     "season": 1921,
+     "team": "SEN",
+     "pos": "R",
+     "GP": 24,
+     "G": 31,
+     "A": 14,
+     "P": 45,
+     "PIM": 28,
+     "GWG": 5,
+     "age": 29
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1920,
+     "team": "HAM",
+     "pos": "C",
+     "GP": 20,
+     "G": 28,
+     "A": 9,
+     "P": 37,
+     "PIM": 6,
+     "GWG": 1,
+     "age": 30
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1921,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 22,
+     "G": 28,
+     "A": 12,
+     "P": 40,
+     "PIM": 20,
+     "GWG": 2,
+     "age": 30
+    },
+    {
+     "id": 8447289,
+     "name": "Newsy Lalonde",
+     "season": 1920,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 24,
+     "G": 33,
+     "A": 10,
+     "P": 43,
+     "PIM": 36,
+     "GWG": 6,
+     "age": 32
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1922,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 22,
+     "G": 27,
+     "A": 12,
+     "P": 39,
+     "PIM": 21,
+     "GWG": 5,
+     "age": 24
+    },
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1920,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 24,
+     "G": 34,
+     "A": 7,
+     "P": 41,
+     "PIM": 10,
+     "GWG": 4,
+     "age": 29
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 4.40625,
+   "players": [
+    {
+     "id": 8445168,
+     "name": "Punch Broadbent"
+    }
+   ],
+   "seasons": [
+    1921
+   ],
+   "text": "7 players averaged 1.5 points a game (15+ games) in the 1920s (11 seasons). The most extreme: Punch Broadbent, 1921-22 — 45 points in 24 games (1.88).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 63,
+   "rule": "t_gpg",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1920,
+     "GP": 24,
+     "W": 13,
+     "L": 11,
+     "T": 0,
+     "GF": 112,
+     "GA": 99,
+     "PCT": 0.54166
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1921,
+     "GP": 24,
+     "W": 14,
+     "L": 8,
+     "T": 2,
+     "GF": 106,
+     "GA": 84,
+     "PCT": 0.625
+    },
+    {
+     "id": "Toronto St. Patricks",
+     "name": "Toronto St. Patricks",
+     "season": 1920,
+     "GP": 24,
+     "W": 15,
+     "L": 9,
+     "T": 0,
+     "GF": 105,
+     "GA": 100,
+     "PCT": 0.625
+    },
+    {
+     "id": "Toronto St. Patricks",
+     "name": "Toronto St. Patricks",
+     "season": 1921,
+     "GP": 24,
+     "W": 13,
+     "L": 10,
+     "T": 1,
+     "GF": 98,
+     "GA": 97,
+     "PCT": 0.5625
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1929,
+     "GP": 44,
+     "W": 38,
+     "L": 5,
+     "T": 1,
+     "GF": 179,
+     "GA": 98,
+     "PCT": 0.875
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1920,
+     "GP": 24,
+     "W": 14,
+     "L": 10,
+     "T": 0,
+     "GF": 97,
+     "GA": 75,
+     "PCT": 0.58333
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 4.166666666666667,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "5 teams scored 3.5 goals a game in the 1920s (9 seasons). The most extreme: Montréal Canadiens, 1920-21 — 4.67 per game.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Dynasty-level team seasons are what fan bases brag about."
+  },
+  {
+   "n": 64,
+   "rule": "h_g",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    },
+    {
+     "id": 8445474,
+     "name": "Dit Clapper",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 44,
+     "G": 41,
+     "A": 20,
+     "P": 61,
+     "PIM": 38,
+     "GWG": 7,
+     "age": 22
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "season": 1929,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 44,
+     "G": 40,
+     "A": 13,
+     "P": 53,
+     "PIM": 72,
+     "GWG": 5,
+     "age": 27
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1929,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 44,
+     "G": 39,
+     "A": 16,
+     "P": 55,
+     "PIM": 85,
+     "GWG": 7,
+     "age": 27
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1924,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 29,
+     "G": 38,
+     "A": 8,
+     "P": 46,
+     "PIM": 38,
+     "GWG": 8,
+     "age": 26
+    },
+    {
+     "id": 8447181,
+     "name": "Hec Kilrea",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 44,
+     "G": 36,
+     "A": 22,
+     "P": 58,
+     "PIM": 70,
+     "GWG": 3,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 15,
+   "kind": "list",
+   "score": 4.075,
+   "players": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "11 players scored 30 goals in the 1920s (15 seasons). The most extreme: Cooney Weiland, 1929-30 — 43 goals in 44 games.",
+   "why": "Leads with the most extreme case, which carries the post. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 65,
+   "rule": "h_sniper",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    },
+    {
+     "id": 8445474,
+     "name": "Dit Clapper",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 44,
+     "G": 41,
+     "A": 20,
+     "P": 61,
+     "PIM": 38,
+     "GWG": 7,
+     "age": 22
+    },
+    {
+     "id": 8447888,
+     "name": "Howie Morenz",
+     "season": 1929,
+     "team": "MTL",
+     "pos": "C",
+     "GP": 44,
+     "G": 40,
+     "A": 13,
+     "P": 53,
+     "PIM": 72,
+     "GWG": 5,
+     "age": 27
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1929,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 44,
+     "G": 39,
+     "A": 16,
+     "P": 55,
+     "PIM": 85,
+     "GWG": 7,
+     "age": 27
+    },
+    {
+     "id": 8445972,
+     "name": "Babe Dye",
+     "season": 1924,
+     "team": "TSP",
+     "pos": "R",
+     "GP": 29,
+     "G": 38,
+     "A": 8,
+     "P": 46,
+     "PIM": 38,
+     "GWG": 8,
+     "age": 26
+    },
+    {
+     "id": 8447181,
+     "name": "Hec Kilrea",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 44,
+     "G": 36,
+     "A": 22,
+     "P": 58,
+     "PIM": 70,
+     "GWG": 3,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 49,
+   "kind": "list",
+   "score": 4.075,
+   "players": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "29 players scored 21 goals with more goals than assists in the 1920s (49 seasons). The most extreme: Cooney Weiland, 1929-30 — 43G, 30A.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Goal totals are hockey's headline number; every fan base argues its sniper."
+  },
+  {
+   "n": 66,
+   "rule": "h_first_p",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1925,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 36,
+     "G": 34,
+     "A": 8,
+     "P": 42,
+     "PIM": 121,
+     "GWG": 7,
+     "age": 23
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1926,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 44,
+     "G": 33,
+     "A": 4,
+     "P": 37,
+     "PIM": 56,
+     "GWG": 7,
+     "age": 30
+    },
+    {
+     "id": 8447020,
+     "name": "Dick Irvin",
+     "season": 1926,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 44,
+     "G": 18,
+     "A": 18,
+     "P": 36,
+     "PIM": 34,
+     "GWG": 2,
+     "age": 34
+    },
+    {
+     "id": 8446612,
+     "name": "Ebbie Goodfellow",
+     "season": 1929,
+     "team": "DCG",
+     "pos": "C",
+     "GP": 44,
+     "G": 17,
+     "A": 17,
+     "P": 34,
+     "PIM": 54,
+     "GWG": 2,
+     "age": 22
+    },
+    {
+     "id": 8446493,
+     "name": "Frank Fredrickson",
+     "season": 1926,
+     "team": "DCG,BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 18,
+     "A": 13,
+     "P": 31,
+     "PIM": 50,
+     "GWG": 3,
+     "age": 31
+    },
+    {
+     "id": 8445537,
+     "name": "Tom Cook",
+     "season": 1929,
+     "team": "CHI",
+     "pos": "C",
+     "GP": 41,
+     "G": 14,
+     "A": 16,
+     "P": 30,
+     "PIM": 18,
+     "GWG": 1,
+     "age": 22
+    }
+   ],
+   "seasonsMatched": 6,
+   "kind": "list",
+   "score": 4.05,
+   "players": [
+    {
+     "id": 8449189,
+     "name": "Nels Stewart"
+    }
+   ],
+   "seasons": [
+    1925
+   ],
+   "text": "6 players recorded 30 points in their first NHL season in the 1920s. The most extreme: Nels Stewart, 1925-26 — 42 points.",
+   "why": "Leads with the most extreme case, which carries the post. First-season numbers are prodigy content that travels."
+  },
+  {
+   "n": 67,
+   "rule": "h_clean",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny",
+     "season": 1920,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 24,
+     "G": 34,
+     "A": 7,
+     "P": 41,
+     "PIM": 10,
+     "GWG": 4,
+     "age": 29
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1920,
+     "team": "HAM",
+     "pos": "C",
+     "GP": 20,
+     "G": 28,
+     "A": 9,
+     "P": 37,
+     "PIM": 6,
+     "GWG": 1,
+     "age": 30
+    },
+    {
+     "id": 8445541,
+     "name": "Carson Cooper",
+     "season": 1925,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 36,
+     "G": 28,
+     "A": 8,
+     "P": 36,
+     "PIM": 10,
+     "GWG": 5,
+     "age": 26
+    },
+    {
+     "id": 8446750,
+     "name": "George Hay",
+     "season": 1929,
+     "team": "DCG",
+     "pos": "L",
+     "GP": 44,
+     "G": 18,
+     "A": 15,
+     "P": 33,
+     "PIM": 8,
+     "GWG": 2,
+     "age": 32
+    },
+    {
+     "id": 8445843,
+     "name": "Harold Darragh",
+     "season": 1929,
+     "team": "PIR",
+     "pos": "L",
+     "GP": 42,
+     "G": 15,
+     "A": 17,
+     "P": 32,
+     "PIM": 8,
+     "GWG": 0,
+     "age": 27
+    },
+    {
+     "id": 8447594,
+     "name": "Joe Malone",
+     "season": 1921,
+     "team": "HAM",
+     "pos": "C",
+     "GP": 24,
+     "G": 24,
+     "A": 7,
+     "P": 31,
+     "PIM": 4,
+     "GWG": 3,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4.025,
+   "players": [
+    {
+     "id": 8445874,
+     "name": "Cy Denneny"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "7 players recorded 27 points with 10 or fewer penalty minutes in the 1920s (8 seasons). The most extreme: Cy Denneny, 1920-21 — 41 pts, 10 PIM.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Scoring without the penalty box is a gentlemanly-player angle fans love."
+  },
+  {
+   "n": 68,
+   "rule": "h_dp",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 44,
+     "G": 17,
+     "A": 23,
+     "P": 40,
+     "PIM": 83,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1921,
+     "team": "TSP",
+     "pos": "D",
+     "GP": 24,
+     "G": 18,
+     "A": 17,
+     "P": 35,
+     "PIM": 22,
+     "GWG": 3,
+     "age": 31
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 42,
+     "G": 12,
+     "A": 19,
+     "P": 31,
+     "PIM": 109,
+     "GWG": 3,
+     "age": 27
+    },
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1920,
+     "team": "TSP",
+     "pos": "D",
+     "GP": 24,
+     "G": 18,
+     "A": 9,
+     "P": 27,
+     "PIM": 35,
+     "GWG": 5,
+     "age": 30
+    },
+    {
+     "id": 8445854,
+     "name": "Hap Day",
+     "season": 1924,
+     "team": "TSP",
+     "pos": "D",
+     "GP": 26,
+     "G": 10,
+     "A": 17,
+     "P": 27,
+     "PIM": 29,
+     "GWG": 1,
+     "age": 23
+    },
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn",
+     "season": 1921,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 24,
+     "G": 17,
+     "A": 9,
+     "P": 26,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 31
+    }
+   ],
+   "seasonsMatched": 8,
+   "kind": "list",
+   "score": 4,
+   "players": [
+    {
+     "id": 8445471,
+     "name": "King Clancy"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "6 players recorded 25 points as a defenseman in the 1920s (8 seasons). The most extreme: King Clancy, 1929-30 — 40 points (17G, 23A).",
+   "why": "Leads with the most extreme case, which carries the post. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 69,
+   "rule": "h_d_pim",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 44,
+     "G": 17,
+     "A": 23,
+     "P": 40,
+     "PIM": 83,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 42,
+     "G": 12,
+     "A": 19,
+     "P": 31,
+     "PIM": 109,
+     "GWG": 3,
+     "age": 27
+    },
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn",
+     "season": 1921,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 24,
+     "G": 17,
+     "A": 9,
+     "P": 26,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 31
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "season": 1922,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 24,
+     "G": 15,
+     "A": 10,
+     "P": 25,
+     "PIM": 60,
+     "GWG": 4,
+     "age": 26
+    },
+    {
+     "id": 8447606,
+     "name": "Sylvio Mantha",
+     "season": 1929,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 44,
+     "G": 13,
+     "A": 11,
+     "P": 24,
+     "PIM": 108,
+     "GWG": 4,
+     "age": 27
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1924,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 29,
+     "G": 14,
+     "A": 8,
+     "P": 22,
+     "PIM": 63,
+     "GWG": 2,
+     "age": 21
+    }
+   ],
+   "seasonsMatched": 29,
+   "kind": "list",
+   "score": 4,
+   "players": [
+    {
+     "id": 8445471,
+     "name": "King Clancy"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "14 players recorded 15 points and 50 penalty minutes as a defenseman in the 1920s (29 seasons). The most extreme: King Clancy, 1929-30 — 40 pts, 83 PIM.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 70,
+   "rule": "h_p",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "C",
+     "GP": 44,
+     "G": 43,
+     "A": 30,
+     "P": 73,
+     "PIM": 29,
+     "GWG": 14,
+     "age": 25
+    },
+    {
+     "id": 8445134,
+     "name": "Frank Boucher",
+     "season": 1929,
+     "team": "NYR",
+     "pos": "C",
+     "GP": 42,
+     "G": 26,
+     "A": 36,
+     "P": 62,
+     "PIM": 16,
+     "GWG": 1,
+     "age": 28
+    },
+    {
+     "id": 8445474,
+     "name": "Dit Clapper",
+     "season": 1929,
+     "team": "BOS",
+     "pos": "R",
+     "GP": 44,
+     "G": 41,
+     "A": 20,
+     "P": 61,
+     "PIM": 38,
+     "GWG": 7,
+     "age": 22
+    },
+    {
+     "id": 8445529,
+     "name": "Bill Cook",
+     "season": 1929,
+     "team": "NYR",
+     "pos": "R",
+     "GP": 44,
+     "G": 29,
+     "A": 30,
+     "P": 59,
+     "PIM": 56,
+     "GWG": 3,
+     "age": 33
+    },
+    {
+     "id": 8447181,
+     "name": "Hec Kilrea",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "L",
+     "GP": 44,
+     "G": 36,
+     "A": 22,
+     "P": 58,
+     "PIM": 70,
+     "GWG": 3,
+     "age": 22
+    },
+    {
+     "id": 8449189,
+     "name": "Nels Stewart",
+     "season": 1929,
+     "team": "MMR",
+     "pos": "C",
+     "GP": 44,
+     "G": 39,
+     "A": 16,
+     "P": 55,
+     "PIM": 85,
+     "GWG": 7,
+     "age": 27
+    }
+   ],
+   "seasonsMatched": 13,
+   "kind": "list",
+   "score": 3.9125,
+   "players": [
+    {
+     "id": 8449381,
+     "name": "Cooney Weiland"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "12 players recorded 45 points in the 1920s (13 seasons). The most extreme: Cooney Weiland, 1929-30 — 73 points (43G, 30A).",
+   "why": "Leads with the most extreme case, which carries the post. Point totals anchor every greatest-player debate."
+  },
+  {
+   "n": 71,
+   "rule": "g_l",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8450043,
+     "name": "Joe Miller",
+     "season": 1929,
+     "team": "PIR",
+     "GP": 43,
+     "A": 0,
+     "PIM": 0,
+     "W": 5,
+     "L": 35,
+     "T": 3,
+     "SO": 0,
+     "GAA": 4.08365,
+     "GA": 179
+    },
+    {
+     "id": 8449966,
+     "name": "Charlie Gardiner",
+     "season": 1927,
+     "team": "CHI",
+     "GP": 40,
+     "A": 0,
+     "PIM": 0,
+     "W": 6,
+     "L": 32,
+     "T": 2,
+     "SO": 3,
+     "GAA": 2.82644,
+     "GA": 114
+    },
+    {
+     "id": 8449966,
+     "name": "Charlie Gardiner",
+     "season": 1928,
+     "team": "CHI",
+     "GP": 44,
+     "A": 0,
+     "PIM": 2,
+     "W": 7,
+     "L": 29,
+     "T": 8,
+     "SO": 5,
+     "GAA": 1.84916,
+     "GA": 85
+    },
+    {
+     "id": 8450043,
+     "name": "Joe Miller",
+     "season": 1928,
+     "team": "PIR",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 9,
+     "L": 27,
+     "T": 8,
+     "SO": 11,
+     "GAA": 1.72661,
+     "GA": 80
+    },
+    {
+     "id": 8449997,
+     "name": "Hap Holmes",
+     "season": 1926,
+     "team": "DCG",
+     "GP": 41,
+     "A": 0,
+     "PIM": 0,
+     "W": 11,
+     "L": 26,
+     "T": 4,
+     "SO": 6,
+     "GAA": 2.32198,
+     "GA": 100
+    },
+    {
+     "id": 8450153,
+     "name": "Roy Worters",
+     "season": 1926,
+     "team": "PIR",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 15,
+     "L": 26,
+     "T": 3,
+     "SO": 4,
+     "GAA": 2.38849,
+     "GA": 108
+    }
+   ],
+   "seasonsMatched": 7,
+   "kind": "list",
+   "score": 3.875,
+   "players": [
+    {
+     "id": 8450043,
+     "name": "Joe Miller"
+    }
+   ],
+   "seasons": [
+    1929
+   ],
+   "text": "5 goalies lost 25 games in the 1920s (7 seasons). The most extreme: Joe Miller, 1929-30 — 5-35-3.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Workhorse and hard-luck goalie seasons get sympathy shares."
+  },
+  {
+   "n": 72,
+   "rule": "g_so",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1928,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 7,
+     "T": 15,
+     "SO": 22,
+     "GAA": 0.92142,
+     "GA": 43
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "season": 1925,
+     "team": "SEN",
+     "GP": 36,
+     "A": 0,
+     "PIM": 0,
+     "W": 24,
+     "L": 8,
+     "T": 4,
+     "SO": 15,
+     "GAA": 1.1195,
+     "GA": 42
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "season": 1927,
+     "team": "SEN",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 20,
+     "L": 14,
+     "T": 10,
+     "SO": 15,
+     "GAA": 1.24125,
+     "GA": 57
+    },
+    {
+     "id": 8450150,
+     "name": "Hal Winkler",
+     "season": 1927,
+     "team": "BOS",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 20,
+     "L": 13,
+     "T": 11,
+     "SO": 15,
+     "GAA": 1.52242,
+     "GA": 70
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1926,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 28,
+     "L": 14,
+     "T": 2,
+     "SO": 14,
+     "GAA": 1.46768,
+     "GA": 67
+    },
+    {
+     "id": 8449817,
+     "name": "Clint Benedict",
+     "season": 1926,
+     "team": "MMR",
+     "GP": 43,
+     "A": 0,
+     "PIM": 0,
+     "W": 20,
+     "L": 19,
+     "T": 4,
+     "SO": 13,
+     "GAA": 1.41973,
+     "GA": 65
+    }
+   ],
+   "seasonsMatched": 11,
+   "kind": "list",
+   "score": 3.55,
+   "players": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "text": "7 goalies recorded 12 shutouts in the 1920s (11 seasons). The most extreme: George Hainsworth, 1928-29 — 22 shutouts in 44 games.",
+   "why": "Leads with the most extreme case, which carries the post. Shutouts are the goalie's trophy case."
+  },
+  {
+   "n": 73,
+   "rule": "h_dg",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1920,
+     "team": "TSP",
+     "pos": "D",
+     "GP": 24,
+     "G": 18,
+     "A": 9,
+     "P": 27,
+     "PIM": 35,
+     "GWG": 5,
+     "age": 30
+    },
+    {
+     "id": 8445314,
+     "name": "Harry Cameron",
+     "season": 1921,
+     "team": "TSP",
+     "pos": "D",
+     "GP": 24,
+     "G": 18,
+     "A": 17,
+     "P": 35,
+     "PIM": 22,
+     "GWG": 3,
+     "age": 31
+    },
+    {
+     "id": 8445497,
+     "name": "Sprague Cleghorn",
+     "season": 1921,
+     "team": "MTL",
+     "pos": "D",
+     "GP": 24,
+     "G": 17,
+     "A": 9,
+     "P": 26,
+     "PIM": 80,
+     "GWG": 2,
+     "age": 31
+    },
+    {
+     "id": 8445471,
+     "name": "King Clancy",
+     "season": 1929,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 44,
+     "G": 17,
+     "A": 23,
+     "P": 40,
+     "PIM": 83,
+     "GWG": 1,
+     "age": 26
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "season": 1922,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 24,
+     "G": 15,
+     "A": 10,
+     "P": 25,
+     "PIM": 60,
+     "GWG": 4,
+     "age": 26
+    },
+    {
+     "id": 8445135,
+     "name": "George Boucher",
+     "season": 1924,
+     "team": "SEN",
+     "pos": "D",
+     "GP": 28,
+     "G": 15,
+     "A": 6,
+     "P": 21,
+     "PIM": 90,
+     "GWG": 3,
+     "age": 28
+    }
+   ],
+   "seasonsMatched": 32,
+   "kind": "list",
+   "score": 3.45,
+   "players": [
+    {
+     "id": 8445314,
+     "name": "Harry Cameron"
+    }
+   ],
+   "seasons": [
+    1920
+   ],
+   "text": "16 players scored 10 goals as a defenseman in the 1920s (32 seasons). The most extreme: Harry Cameron, 1920-21 — 18 goals.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Offense from the blue line is rare and always shareable."
+  },
+  {
+   "n": 74,
+   "rule": "h_pim",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1927,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 43,
+     "G": 11,
+     "A": 6,
+     "P": 17,
+     "PIM": 165,
+     "GWG": 4,
+     "age": 25
+    },
+    {
+     "id": 8447098,
+     "name": "Ivan Johnson",
+     "season": 1927,
+     "team": "NYR",
+     "pos": "D",
+     "GP": 42,
+     "G": 10,
+     "A": 6,
+     "P": 16,
+     "PIM": 146,
+     "GWG": 2,
+     "age": 29
+    },
+    {
+     "id": 8445969,
+     "name": "Red Dutton",
+     "season": 1928,
+     "team": "MMR",
+     "pos": "D",
+     "GP": 44,
+     "G": 1,
+     "A": 3,
+     "P": 4,
+     "PIM": 141,
+     "GWG": 0,
+     "age": 30
+    },
+    {
+     "id": 8449024,
+     "name": "Eddie Shore",
+     "season": 1926,
+     "team": "BOS",
+     "pos": "D",
+     "GP": 41,
+     "G": 12,
+     "A": 6,
+     "P": 18,
+     "PIM": 136,
+     "GWG": 1,
+     "age": 24
+    },
+    {
+     "id": 8445514,
+     "name": "Lionel Conacher",
+     "season": 1928,
+     "team": "NYA",
+     "pos": "D",
+     "GP": 44,
+     "G": 5,
+     "A": 2,
+     "P": 7,
+     "PIM": 136,
+     "GWG": 1,
+     "age": 27
+    },
+    {
+     "id": 8449077,
+     "name": "Hooley Smith",
+     "season": 1926,
+     "team": "SEN",
+     "pos": "C",
+     "GP": 43,
+     "G": 9,
+     "A": 6,
+     "P": 15,
+     "PIM": 135,
+     "GWG": 3,
+     "age": 24
+    }
+   ],
+   "seasonsMatched": 28,
+   "kind": "list",
+   "score": 3.4125,
+   "players": [
+    {
+     "id": 8449024,
+     "name": "Eddie Shore"
+    }
+   ],
+   "seasons": [
+    1927
+   ],
+   "text": "19 players racked up 100 penalty minutes in the 1920s (28 seasons). The most extreme: Eddie Shore, 1927-28 — 165 PIM.",
+   "why": "Leads with the most extreme case, which carries the post. Enforcer-era numbers astonish modern fans and start old-school vs. new-school debates."
+  },
+  {
+   "n": 75,
+   "rule": "g_gaa",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1928,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 22,
+     "L": 7,
+     "T": 15,
+     "SO": 22,
+     "GAA": 0.92142,
+     "GA": 43
+    },
+    {
+     "id": 8449987,
+     "name": "George Hainsworth",
+     "season": 1927,
+     "team": "MTL",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 11,
+     "T": 7,
+     "SO": 13,
+     "GAA": 1.06072,
+     "GA": 48
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "season": 1925,
+     "team": "SEN",
+     "GP": 36,
+     "A": 0,
+     "PIM": 0,
+     "W": 24,
+     "L": 8,
+     "T": 4,
+     "SO": 15,
+     "GAA": 1.1195,
+     "GA": 42
+    },
+    {
+     "id": 8450127,
+     "name": "Tiny Thompson",
+     "season": 1928,
+     "team": "BOS",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 26,
+     "L": 13,
+     "T": 5,
+     "SO": 12,
+     "GAA": 1.15129,
+     "GA": 52
+    },
+    {
+     "id": 8450153,
+     "name": "Roy Worters",
+     "season": 1928,
+     "team": "NYA",
+     "GP": 38,
+     "A": 0,
+     "PIM": 0,
+     "W": 16,
+     "L": 12,
+     "T": 10,
+     "SO": 13,
+     "GAA": 1.15481,
+     "GA": 46
+    },
+    {
+     "id": 8449856,
+     "name": "Alec Connell",
+     "season": 1927,
+     "team": "SEN",
+     "GP": 44,
+     "A": 0,
+     "PIM": 0,
+     "W": 20,
+     "L": 14,
+     "T": 10,
+     "SO": 15,
+     "GAA": 1.24125,
+     "GA": 57
+    }
+   ],
+   "seasonsMatched": 14,
+   "kind": "list",
+   "score": 3.2713203533676283,
+   "players": [
+    {
+     "id": 8449987,
+     "name": "George Hainsworth"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "text": "8 goalies posted a goals-against average under 1.50 (40% of games) in the 1920s (14 seasons). The most extreme: George Hainsworth, 1928-29 — 0.92 GAA in 44 games.",
+   "why": "Shows how high the bar was across the 1920s; the extreme case is the hook. Goaltending numbers across eras start the best debates."
+  },
+  {
+   "n": 76,
+   "rule": "t_gapg",
+   "group": "P",
+   "decade": "1920s",
+   "finder": null,
+   "evidence": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1928,
+     "GP": 44,
+     "W": 22,
+     "L": 7,
+     "T": 15,
+     "GF": 71,
+     "GA": 43,
+     "PCT": 0.67045
+    },
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens",
+     "season": 1927,
+     "GP": 44,
+     "W": 26,
+     "L": 11,
+     "T": 7,
+     "GF": 116,
+     "GA": 48,
+     "PCT": 0.67045
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1925,
+     "GP": 36,
+     "W": 24,
+     "L": 8,
+     "T": 4,
+     "GF": 77,
+     "GA": 42,
+     "PCT": 0.72222
+    },
+    {
+     "id": "Boston Bruins",
+     "name": "Boston Bruins",
+     "season": 1928,
+     "GP": 44,
+     "W": 26,
+     "L": 13,
+     "T": 5,
+     "GF": 89,
+     "GA": 52,
+     "PCT": 0.64772
+    },
+    {
+     "id": "New York Americans",
+     "name": "New York Americans",
+     "season": 1928,
+     "GP": 44,
+     "W": 19,
+     "L": 13,
+     "T": 12,
+     "GF": 53,
+     "GA": 53,
+     "PCT": 0.56818
+    },
+    {
+     "id": "Ottawa Senators (1917)",
+     "name": "Ottawa Senators (1917)",
+     "season": 1927,
+     "GP": 44,
+     "W": 20,
+     "L": 14,
+     "T": 10,
+     "GF": 78,
+     "GA": 57,
+     "PCT": 0.56818
+    }
+   ],
+   "seasonsMatched": 9,
+   "kind": "list",
+   "score": 3.255813953488372,
+   "players": [
+    {
+     "id": "Montréal Canadiens",
+     "name": "Montréal Canadiens"
+    }
+   ],
+   "seasons": [
+    1928
+   ],
+   "text": "7 teams allowed fewer than 1.5 goals a game in the 1920s (9 seasons). The most extreme: Montréal Canadiens, 1928-29 — 0.98 per game.",
+   "why": "Leads with the most extreme case, which carries the post. Dynasty-level team seasons are what fan bases brag about."
+  }
+ ],
+ "shortNote": "The NHL had between four and ten teams in these years and kept fewer statistics (no shots, plus-minus or ice time), so the record supports fewer lines. Nothing was padded.",
+ "counts": {
+  "skaterSeasons": 876,
+  "goalieSeasons": 105,
+  "teamSeasons": 69
+ },
+ "method": [
+  "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
+  "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
+ ],
+ "generatedAt": "2026-09-29T15:50:51.896Z"
+}
