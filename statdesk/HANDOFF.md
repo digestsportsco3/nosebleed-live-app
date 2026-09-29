@@ -67,6 +67,17 @@ body[data-fit]) so the PDF reflects the fit; check pages with a scroll test.
   mj-player-test.json precisely so the hand-built mj-facts.json is not lost.
 - NFL 1920s-2020s complete and sent (d48f980).
 
+NHL (2026-09-29): `statdesk/nhl/pull.js` (task nhl-pull, self-hosted: the cloud
+container cannot reach api.nhle.com) pulls every skater, goalie, team and bio
+season since 1917-18 into statdesk/data/nhl/seasons. `statdesk/nhl/facts.js`
+builds the decades (1910s-2020s) with why notes. A stat is used only in seasons
+where it was genuinely recorded (untracked stats arrive as zeros). Sent.
+
+TIES (fixed 2026-09-29): season-count lines named one season when several tied.
+lib/ties.js names 2-3 tied seasons together and drops 4+; factcore and the MLB
+builder use it. MLB files were rewritten in place (raw data is on Nick's
+machine); NBA and NFL were rebuilt. Corrected PDFs sent.
+
 KNOWN DATA HOLE, found 2026-09-28 by the Stathead cross-check: stats.nba.com
 leagueleaders silently omits some players (Kevin Porter, traded in 1977-78, is
 missing entirely), so NBA "only" lines and "next best" names could be wrong.
