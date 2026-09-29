@@ -171,7 +171,11 @@ const ALIAS = { py: "yds_hi", ptd: "td_hi", int: "int_hi", ry: "ry_hi", rec: "re
   eff_scorer: "fgp_hi", ft250: "ft_hi", pts800: "ppg_hi", trb400: "trb_hi", ts_hi: "fgp_hi", fg3a_hi: "fg3_hi", fg3_eff: "fg3p_hi", blk_pts: "blk_hi",
   ast250: "ast_hi", stl100: "stl_hi", fr_pts: "fr_ppg", fr_blk: "fr_rpg", fr_ast: "fr_ppg", orb_hi: "rpg_hi", per_hi: "adv", usg_hi: "adv", ws_hi: "adv", bpm_hi: "adv",
   ftp_team: "ftp_hi", rpg_team: "rpg_hi", apg_team: "apg_hi", bpg_team: "bpg_hi", spg_team: "spg_hi", fg3p_team: "fg3p_hi",
-  teamtot: "team_tot", pen: "pen_hi", to: "to_opp", rdef: "rush_def" };
+  teamtot: "team_tot", pen: "pen_hi", to: "to_opp", rdef: "rush_def",
+  pts700: "ppg_hi", ft200: "ft_hi", ftp90: "ftp_hi", so_ppg: "ppg_hi", sr_ppg: "ppg_hi", jr_ppg: "ppg_hi", fgp60: "fgp_hi", ppg28: "ppg30", rpg18: "rpg_hi", fga700: "fga_hi",
+  ppg30b: "ppg30", dd20_10: "dbl_big", rpg12: "rpg_hi", apg8: "apg_hi", bpg4: "bpg_hi", spg3: "spg_hi", fgp65: "fgp_hi", fg3p48: "fg3p_hi", fg3_120: "fg3_hi",
+  fta300: "fta_hi", trb350: "trb_hi", stl_ast: "stl_blk", blk_fg3: "blk_ast", tov150: "fumbles_hi", drb300: "rpg_hi", mpg37: "adv", ts65: "fgp_hi", per30: "adv", ws8: "adv",
+  wins33: "wins_hi", loss25: "loss_hi", ftp76: "ftp_hi", ppg85: "ppg_hi", fgp50: "fgp_hi", rpg42: "rpg_hi", apg18: "apg_hi", bpg6: "bpg_hi", spg10: "spg_hi", fg3a900: "fg3_team" };
 // Families by pattern, for rule names that carry their threshold (rec130, fg40...).
 const FAMILY = [[/_slow$/, "ry_slow"], [/^(c_|s_)?py|^yds\d|^x_py/, "yds_hi"], [/^(c_|s_)?ptd|^td\d|^x_ptd/, "td_hi"], [/^td30_int|^int_over_td/, "td_int"], [/^int\d|^x_int$/, "int_hi"],
   [/^few_int|^x_int_rate_low/, "int_low"], [/^cmp|^x_cpct/, "cmp_hi"], [/^rate|^x_rate/, "rate_hi"], [/^ypa/, "ypa_hi"], [/^sacked|^sk\d|^x_sk$/, "sacked"],

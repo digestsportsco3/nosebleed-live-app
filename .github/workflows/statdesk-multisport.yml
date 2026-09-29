@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -95,6 +95,16 @@ jobs:
         run: node statdesk/nba/pull.js fill --commit
       - name: Sport facts after the fill
         if: inputs.task == 'nba-fill' && inputs.after != ''
+        shell: cmd
+        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        run: node statdesk/sport-facts.js ${{ inputs.after }} --commit
+      - name: NHL official season pull
+        if: inputs.task == 'nhl-pull'
+        continue-on-error: true
+        shell: cmd
+        run: node statdesk/nhl/pull.js ${{ inputs.args }} --commit
+      - name: Sport facts after the NHL pull
+        if: inputs.task == 'nhl-pull' && inputs.after != ''
         shell: cmd
         env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
         run: node statdesk/sport-facts.js ${{ inputs.after }} --commit
