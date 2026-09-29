@@ -7719,6 +7719,7 @@
    "why": "Leads with the most extreme case, which carries the post. Clutch goals are the stat fans quote in arguments."
   }
  ],
+ "shortNote": null,
  "counts": {
   "skaterSeasons": 7906,
   "goalieSeasons": 799,
@@ -7728,5 +7729,5 @@
   "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
   "A stat is used only in seasons where the league genuinely recorded it (shots, plus-minus, power-play and game-winning goals, time on ice and save percentage arrive later and untracked seasons can report zeros); qualification is 60% of the season's games for skaters and 40% for goalies. Ages are as of Feb. 1 of the season. 'First NHL season' means a player's first season in the NHL's records, so a player arriving from another league counts. Ties in a 'most' or 'fewest' line are dropped, never broken."
  ],
- "generatedAt": "2026-09-29T15:50:07.772Z"
+ "generatedAt": "2026-09-29T15:50:52.813Z"
 }

@@ -327,7 +327,10 @@ function build(decade) {
   });
   const facts = core.select(clean2, 100);
   annotate({ facts, decade: decadeLabel }, "nhl");
-  return { sport: "NHL", decade: decadeLabel, era: e, seasons: seasons.map(label), candidates: clean2.length, facts,
+  const shortNote = facts.length >= 100 ? null : decade === 1910
+    ? "The NHL began in 1917-18, so this decade covers three seasons in a league of three or four teams. Nothing was padded."
+    : "The NHL had between four and ten teams in these years and kept fewer statistics (no shots, plus-minus or ice time), so the record supports fewer lines. Nothing was padded.";
+  return { sport: "NHL", decade: decadeLabel, era: e, seasons: seasons.map(label), candidates: clean2.length, facts, shortNote,
     counts: { skaterSeasons: S.length, goalieSeasons: G.length, teamSeasons: T.length },
     method: [
       "NHL: every skater, goalie and team season of the decade, regular season and playoffs, from the NHL's official stats (api.nhle.com), pulled on Nick's machine. Nothing is recalled or estimated; the rows behind each line are stored with it.",
