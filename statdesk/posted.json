@@ -1,6 +1,6 @@
 {
-  "_comment": "Players already posted. The pipeline drops these from every brief so the same name is never pitched twice. Add a name the day it goes out. Matching is on the exact fullName the MLB Stats API returns, case-insensitive, accents ignored.",
-  "_howto": "Add an entry: {\"name\": \"Player Name\", \"posted\": \"YYYY-MM-DD\", \"where\": \"X\", \"note\": \"optional\"}",
+  "_comment": "Repeat rule (Nick, 2026-09-30): a player may appear again; the SAME STAT for the same player may not appear in two lists in a row. Each entry records the player, the stat (finding ruleKey or a short stat label) and the list date. Only entries from the most recent list date block, and only for the same stat.",
+  "_howto": "Add every item the day it goes out: {\"name\": \"Player Name\", \"stat\": \"ruleKey or stat label\", \"posted\": \"YYYY-MM-DD\"}",
   "posted": [
     {
       "name": "Chris Sale",
@@ -13,7 +13,7 @@
       "where": "X"
     },
     {
-      "name": "Nasim Nu\u00f1ez",
+      "name": "Nasim Nuñez",
       "posted": "2026-09-20",
       "where": "X"
     },

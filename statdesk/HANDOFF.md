@@ -191,11 +191,21 @@ ten days. Starters need 1+, everyday players and relievers 3+.
 - Every claim computed across the COMPLETE pull (all ~747 hitters, all
   pitchers), not a sample. State the check count.
 
-### Posted and permanently excluded
+### Repeat rule (CORRECTED by Nick 2026-09-30)
 
-Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
-`statdesk/posted.json`, which the pipeline filters on automatically. Add a name
-the day it goes out.
+A player is NOT permanently excluded. The rule is: the same STAT for the same
+player cannot appear in two lists in a row. Chris Sale can come back with a new
+stat. `statdesk/posted.json` entries carry name + stat + date; run.js blocks
+only same-player-same-stat pairs from the most recent list.
+
+### NO GENERIC BOX-SCORE STATS (Nick has now said this TWICE)
+
+He sees the box score. A line like "4-for-5, 2 HR, 6 RBI" is not an idea. Every
+item needs an angle he cannot get from the box: career numbers against today's
+opponent (e.g. Schlittler's career vs the Red Sox), hitters' career lines
+against today's starter, a player's postseason career, first/only/Nth-ever
+framing from Stathead, splits and oddities. statdesk/matchups.js pulls the
+matchup and career data; Stathead supplies the history.
 
 ### DECADE FACTS (2026-09-28) — the thing Nick actually wanted
 
