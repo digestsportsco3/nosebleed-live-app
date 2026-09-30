@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-28. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-09-30 (postseason matchup brief sent; see "What went out on Sep 30, second brief"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -320,7 +320,42 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
-### What went out on Sep 30 (first postseason brief)
+### What went out on Sep 30, second brief: the matchup brief (the model for every postseason day)
+
+This replaced the generic morning brief. It was built from statdesk/matchups.js
+(`data/mlb/matchups/2026-09-30/`), `node statdesk/angles.js 2026-09-30`, and
+Stathead history (post-history.js, PH001-PH006 in `data/browser/2026-09-30/`).
+Items:
+1. Schlittler vs BOS, career: 6 GS, 38.2 IP, 2 ER, 49 K. The 2 postseason starts
+   (2025 WC G3 8 IP 0 R 12 K; 2026 G1 6.1 IP 0 R 10 K) came from Stathead PH003.
+   He is the only Yankee, and the only pitcher before age 26, with two postseason
+   10+ K / 0 ER starts.
+2. Stott / Marsh / J. Crawford a combined 0-for-27 vs Mahle.
+3. Rice 3-for-7, 2 HR vs Gray. Also noted: G1 was the 5th postseason game ever
+   with 4 H / 2 HR / 6 RBI, and the first Yankee with 2+ HR / 6+ RBI (PH001/PH002).
+4. Goldschmidt 1-for-26 vs Gray.
+5. Hays, Machado and Tatis 24-for-62, 6 HR vs Gausman.
+6. Albies 9-18 and Riley 7-15 vs Sanchez; Harris 2-15 with 10 K.
+7. Rutschman 0-for-10 vs Fried.
+8. Bregman 7-for-8 vs King before G1, then 0-for-4 with 3 K.
+9. Harper 2-for-21 with 11 K vs Sale.
+10. Acuna vs PHI career .313/.395/.542, 21 HR.
+CWS-HOU samples were too thin (the best was Doyle 0-for-8 vs Brown).
+
+Source facts learned (do not relearn them):
+- vsPlayerTotal, vsTeamTotal and vsTeam are REGULAR SEASON ONLY. Checked
+  against the game logs; Sept. 29 is not in them.
+- For a pitcher, vsTeamTotal returns batting-against stats only: no ERA and no
+  IP. Get the ERA from the gameLog rows against that opponent.
+- `careerPlayoffs` and `yearByYearPlayoffs` are BROKEN: they return the
+  regular-season career. Get postseason lines from Stathead game finders
+  (comp_type=post) or from box scores. angles.js still prints the bogus
+  "postseason career" lines; ignore them, or fix matchups.js to use a real
+  postseason split.
+- Stathead postseason tables already included Sept. 29 when read at 20:53Z on
+  Sept. 30.
+
+### What went out on Sep 30 (first postseason brief, generic, superseded)
 
 Built from statdesk/postseason.js (task mlb-postseason): the four Sept. 29 Wild
 Card Game 1 box scores plus FINAL regular-season stats. 1 Ben Rice 4-5, 2 HR, 6

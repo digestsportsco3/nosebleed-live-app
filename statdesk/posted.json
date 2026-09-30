@@ -31,6 +31,198 @@
       "name": "Munetaka Murakami",
       "posted": "2026-09-23",
       "where": "X"
+    },
+    {
+      "name": "Ben Rice",
+      "stat": "Game 1: 4-for-5, 2 HR, 6 RBI",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Cam Schlittler",
+      "stat": "Game 1: 6.1 IP, 0 R, 10 K",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Michael King",
+      "stat": "Game 1: 7 IP, 1 H, 0 R",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Chicago White Sox",
+      "stat": "Game 1 bullpen win, five pitchers",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Hagen Smith",
+      "stat": "Game 1: 3 scoreless relief IP",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Austin Riley",
+      "stat": "Game 1: 3-run HR",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Michael Harris II",
+      "stat": "Game 1: 3-for-3",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Pete Crow-Armstrong",
+      "stat": "HR title tie 45",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Kyle Schwarber",
+      "stat": "HR title tie 45",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Bryan Baker",
+      "stat": "saves title tie 41",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Cade Smith",
+      "stat": "saves title tie 41",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Sonny Gray",
+      "stat": "wins title tie 18",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Cristopher Sánchez",
+      "stat": "wins title tie 18",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Jacob Misiorowski",
+      "stat": "K title 252 + ERA 1.80",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Brice Turang",
+      "stat": "100 RBI",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "George Lombard Jr.",
+      "stat": "Game 1: 3-for-4",
+      "posted": "2026-09-30",
+      "note": "first Sep 30 brief (generic, superseded but sent)"
+    },
+    {
+      "name": "Cam Schlittler",
+      "stat": "career vs BOS: 6 GS, 38.2 IP, 2 ER, 49 K",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Bryson Stott",
+      "stat": "career vs Mahle 0-for-11",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Brandon Marsh",
+      "stat": "career vs Mahle 0-for-8",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Justin Crawford",
+      "stat": "career vs Mahle 0-for-8",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Ben Rice",
+      "stat": "career vs Sonny Gray 3-for-7, 2 HR",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Paul Goldschmidt",
+      "stat": "career vs Sonny Gray 1-for-26",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Austin Hays",
+      "stat": "career vs Gausman 7-for-14, 2 HR",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Manny Machado",
+      "stat": "career vs Gausman 9-for-25, 2 HR",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Fernando Tatis Jr.",
+      "stat": "career vs Gausman 8-for-23, 2 HR",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Ozzie Albies",
+      "stat": "career vs Sanchez 9-for-18",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Austin Riley",
+      "stat": "career vs Sanchez 7-for-15",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Michael Harris II",
+      "stat": "career vs Sanchez 2-for-15, 10 K",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Adley Rutschman",
+      "stat": "career vs Fried 0-for-10",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Alex Bregman",
+      "stat": "career vs King 7-for-8, then 0-for-4 in G1",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Bryce Harper",
+      "stat": "career vs Sale 2-for-21, 11 K",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
+    },
+    {
+      "name": "Ronald Acuña Jr.",
+      "stat": "career vs PHI .313, 21 HR",
+      "posted": "2026-09-30",
+      "note": "Sep 30 matchup brief"
     }
   ]
 }
