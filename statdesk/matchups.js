@@ -34,17 +34,22 @@ function save(name, obj) { fs.mkdirSync(OUT, { recursive: true }); fs.writeFileS
 async function stats(id, q) { const u = `${API}/people/${id}/stats?${q}`; const b = await get(u); await sleep(120); return { url: u, body: b }; }
 
 async function main() {
-  const sched = `${API}/schedule?sportId=1&date=${date}&hydrate=probablePitcher,team,seriesStatus`;
-  const s = await get(sched);
-  const games = (s && s.dates || []).flatMap((d) => d.games || []);
-  save("games.json", { url: sched, body: s });
+  // Today's games, plus yesterday's (their starters' careers vs the opponent
+  // are just as much the story the morning after).
+  const prev = new Date(`${date}T12:00:00Z`); prev.setUTCDate(prev.getUTCDate() - 1); const yday = prev.toISOString().slice(0, 10);
+  const games = [];
+  for (const [d, tag] of [[date, "today"], [yday, "yesterday"]]) {
+    const sched = `${API}/schedule?sportId=1&date=${d}&hydrate=probablePitcher,team,seriesStatus,decisions`;
+    const s = await get(sched); save(`games-${tag}.json`, { url: sched, body: s });
+    for (const g of (s && s.dates || []).flatMap((x) => x.games || [])) if (g.gameType !== "R" || tag === "today") games.push({ ...g, _when: tag });
+  }
   console.log(`${date}: ${games.length} games`);
   for (const g of games) {
     const sides = [["away", "home"], ["home", "away"]];
     for (const [me, them] of sides) {
       const P = g.teams[me].probablePitcher; const opp = g.teams[them].team;
       if (!P) { console.log(`  ${g.teams[me].team.name}: no probable pitcher listed`); continue; }
-      const rec = { pitcher: P, team: g.teams[me].team, opponent: opp, gamePk: g.gamePk, series: g.seriesDescription };
+      const rec = { pitcher: P, team: g.teams[me].team, opponent: opp, gamePk: g.gamePk, series: g.seriesDescription, when: g._when, gameDate: g.officialDate };
       rec.vsTeamTotal = await stats(P.id, `stats=vsTeamTotal&group=pitching&opposingTeamId=${opp.id}&sportId=1`);
       rec.vsTeam = await stats(P.id, `stats=vsTeam&group=pitching&opposingTeamId=${opp.id}&sportId=1`);
       rec.careerPlayoffs = await stats(P.id, `stats=careerPlayoffs&group=pitching&sportId=1`);
