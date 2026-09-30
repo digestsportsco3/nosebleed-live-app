@@ -4699,3 +4699,9 @@
 2026-09-29T16:53:32.441Z	SCBB793	stathead-browser	College Basketball 2020s t:tx_bpg	rows=200	CAPPED
 2026-09-29T16:53:36.440Z	SCBB794	stathead-browser	College Basketball 2020s t:tx_spg	rows=200	CAPPED
 2026-09-29T16:53:40.413Z	SCBB795	stathead-browser	College Basketball 2020s t:tx_fg3	rows=200	CAPPED
+2026-09-30T20:53:44.799Z	PH001	stathead-browser	post_6rbi_2hr: Postseason games with 2+ HR and 6+ RBI (all time)	rows=11
+2026-09-30T20:53:48.682Z	PH002	stathead-browser	post_4h_2hr_6rbi: Postseason games with 4+ H, 2+ HR, 6+ RBI	rows=5
+2026-09-30T20:53:52.990Z	PH003	stathead-browser	post_10k_0er: Postseason starts with 10+ K and 0 ER	rows=58
+2026-09-30T20:54:01.231Z	PH004	stathead-browser	post_7ip_1h_0er: Postseason starts of 7+ IP, 1 or fewer H, 0 ER	rows=21
+2026-09-30T20:54:43.746Z	PH005	stathead-browser	post_3h_age21: Postseason games with 3+ hits at age 21 or younger	rows=25
+2026-09-30T20:55:27.517Z	PH006	stathead-browser	post_3ip_0r_relief_age22: Postseason relief outings of 3+ IP, 0 R, age 22 or younger	rows=37
