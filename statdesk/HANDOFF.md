@@ -310,6 +310,20 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### What went out on Sep 30 (first postseason brief)
+
+Built from statdesk/postseason.js (task mlb-postseason): the four Sept. 29 Wild
+Card Game 1 box scores plus FINAL regular-season stats. 1 Ben Rice 4-5, 2 HR, 6
+RBI (NYY 9-0 BOS) 2 Cam Schlittler 6.1 IP 0 R 10 K 3 Michael King 7 IP 1 H 0 R
+8 K (SD 8-0 CHC) 4 two shutouts on day one, 17-0 combined 5 White Sox won 6-3 at
+HOU with five pitchers, none past 3 IP (Hagen Smith 3 scoreless) 6 Austin Riley
+3-run HR + Michael Harris II 3-for-3 (ATL 5-3 PHI) 7 HR, saves and wins titles
+all ended tied (45-45 PCA/Schwarber, 41-41 Baker/Smith, 18-18 Gray/Sanchez)
+8 Misiorowski won the K title on the final day (247 -> 252, Williams 248) and the
+ERA title 1.80 9 Turang 99 -> 100 RBI on the final day 10 George Lombard Jr., 21,
+3-for-4. Sale (9 K for ATL) excluded as posted. No historical claims made.
+Final races are SETTLED; do not re-serve them.
+
 ### Unresolved as of the final morning (check the results before reusing)
 
 These were live when the Sept 27 brief went out and are now settled. Anything
