@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-30 (postseason matchup brief sent; see "What went out on Sep 30, second brief"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-01 (Braves-Phillies Game 3 brief sent; see "What went out on Oct 1"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -319,6 +319,24 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 1: Braves-Phillies Game 3 (Nola vs Kerr), ten items
+
+Nick asked for ten on the one game. Data: task mlb-matchups, which now also runs
+postseason.js first, in `data/mlb/matchups/2026-10-01/`.
+1. Riley vs Nola 23-64, 7 HR. 2. Acuna vs Nola .339, 11 XBH. 3. Olson 5 HR in 40 AB
+vs Nola, but 3-for-30 in WC games. 4. Active ATL hitters vs Nola .286 / 23 HR,
+against his career opponents' .237. 5. Nola in WC games: 2 GS, 13.2 IP, 0 R.
+6. Nola's last two starts vs ATL: 13.1 IP, 3 ER. 7. Kerr vs PHI in 2026: 6.1 IP,
+0 R, 2 H. 8. Kerr has thrown no more than 35 pitches in any 2026 outing; tonight
+is his 4th career start. 9. Harris WC career 9-for-16. 10. Schwarber vs ATL .197
+with 24 HR.
+- NEW SOURCE FACT: `stats=career&gameType=F,D,L,W` returns ONLY the first type
+  (F = Wild Card round), and it is correct: it includes the current week.
+  For a full postseason career, request D, L and W separately and sum them.
+- TRAP: a hitter's vsPlayerTotal against a pitcher counts his at-bats for ANY
+  team, while the pitcher's vsTeamTotal counts only that franchise's hitters.
+  Never subtract one from the other.
 
 ### What went out on Sep 30, second brief: the matchup brief (the model for every postseason day)
 
