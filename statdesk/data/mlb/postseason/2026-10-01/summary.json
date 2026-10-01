@@ -1,0 +1,94 @@
+{
+ "date": "2026-10-01",
+ "games": 50,
+ "finals": [
+  {
+   "gamePk": 849845,
+   "date": "2026-09-29",
+   "type": "F",
+   "desc": "NL Wild Card Series",
+   "away": "Philadelphia Phillies",
+   "awayScore": 3,
+   "home": "Atlanta Braves",
+   "homeScore": 5,
+   "series": "ATL leads 1-0"
+  },
+  {
+   "gamePk": 849849,
+   "date": "2026-09-29",
+   "type": "F",
+   "desc": "AL Wild Card Series",
+   "away": "Chicago White Sox",
+   "awayScore": 6,
+   "home": "Houston Astros",
+   "homeScore": 3,
+   "series": "CWS leads 1-0"
+  },
+  {
+   "gamePk": 849851,
+   "date": "2026-09-29",
+   "type": "F",
+   "desc": "AL Wild Card Series",
+   "away": "Boston Red Sox",
+   "awayScore": 0,
+   "home": "New York Yankees",
+   "homeScore": 9,
+   "series": "NYY leads 1-0"
+  },
+  {
+   "gamePk": 849843,
+   "date": "2026-09-29",
+   "type": "F",
+   "desc": "NL Wild Card Series",
+   "away": "Chicago Cubs",
+   "awayScore": 0,
+   "home": "San Diego Padres",
+   "homeScore": 8,
+   "series": "SD leads 1-0"
+  },
+  {
+   "gamePk": 849841,
+   "date": "2026-09-30",
+   "type": "F",
+   "desc": "NL Wild Card Series",
+   "away": "Philadelphia Phillies",
+   "awayScore": 4,
+   "home": "Atlanta Braves",
+   "homeScore": 3,
+   "series": "Series tied 1-1"
+  },
+  {
+   "gamePk": 849846,
+   "date": "2026-09-30",
+   "type": "F",
+   "desc": "AL Wild Card Series",
+   "away": "Chicago White Sox",
+   "awayScore": 7,
+   "home": "Houston Astros",
+   "homeScore": 3,
+   "series": "CWS wins 2-0"
+  },
+  {
+   "gamePk": 849848,
+   "date": "2026-09-30",
+   "type": "F",
+   "desc": "AL Wild Card Series",
+   "away": "Boston Red Sox",
+   "awayScore": 2,
+   "home": "New York Yankees",
+   "homeScore": 9,
+   "series": "NYY wins 2-0"
+  },
+  {
+   "gamePk": 849842,
+   "date": "2026-09-30",
+   "type": "F",
+   "desc": "NL Wild Card Series",
+   "away": "Chicago Cubs",
+   "awayScore": 1,
+   "home": "San Diego Padres",
+   "homeScore": 4,
+   "series": "SD wins 2-0"
+  }
+ ]
+}
