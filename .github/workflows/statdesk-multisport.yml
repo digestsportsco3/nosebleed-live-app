@@ -112,6 +112,11 @@ jobs:
         if: inputs.task == 'mlb-postseason'
         shell: cmd
         run: node statdesk/postseason.js ${{ inputs.args }} --commit
+      - name: MLB postseason box scores before the matchup pull
+        if: inputs.task == 'mlb-matchups'
+        continue-on-error: true
+        shell: cmd
+        run: node statdesk/postseason.js --commit
       - name: MLB matchups and career data
         if: inputs.task == 'mlb-matchups'
         continue-on-error: true
