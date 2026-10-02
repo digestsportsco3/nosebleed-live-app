@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-01 (Braves-Phillies Game 3 brief sent; see "What went out on Oct 1"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-02 (Division Series preview sent; see "What went out on Oct 2"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -319,6 +319,21 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 2: Division Series preview (CWS-CLE, NYY-TB, ATL-LAD, SD-MIL)
+
+Data: new task `mlb-series` (statdesk/series-matchups.js, args "CWS:CLE NYY:TB ATL:LAD SD:MIL") in
+`data/mlb/series/2026-10-02/`. For each pair it saves the season series, every postseason
+meeting 1903-2025, every starter with 8+ GS vs the other lineup, and each hitter's 2026 log
+and career vs the opponent. Use it for every round from here on.
+Items: 1 ATL-LAD all-time postseason 12-12 in 24 games (5 series). 2 ATL 5-1 vs LAD in 2026,
+won the last 5, August sweep all one-run. 3 Sale Aug 27 9 IP 0 R 11 K, 1-0 over Yamamoto.
+4 NYY outscored TB 54-45, lost 6-7; 2020 ALDS TB 3-2. 5 Rice 7 HR in 13 G vs TB. 6 NYY
+current hitters .165 vs Rasmussen (Volpe 0-11). 7 CWS-CLE 7-6, 58-57, 7 one-run games,
+first postseason meeting. 8 J. Ramirez 0-for-20 vs Fedde + Burke. 9 Dustin May vs SD:
+22 IP 8 H 22 K (2 of those outings with STL). 10 Misiorowski 7 IP 0 R 10 K vs SD; MIL lost 3-1.
+- TRAP: a pitcher's gameLog filtered by opponent includes starts for a PREVIOUS team (May
+  faced SD twice for STL). Check `split.team` before writing "for Milwaukee".
 
 ### What went out on Oct 1: Braves-Phillies Game 3 (Nola vs Kerr), ten items
 
