@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-09-28. THE PIPELINE IS BUILT AND WORKING END TO END.
+Last updated: 2026-10-01 (Braves-Phillies Game 3 brief sent; see "What went out on Oct 1"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -191,11 +191,21 @@ ten days. Starters need 1+, everyday players and relievers 3+.
 - Every claim computed across the COMPLETE pull (all ~747 hitters, all
   pitchers), not a sample. State the check count.
 
-### Posted and permanently excluded
+### Repeat rule (CORRECTED by Nick 2026-09-30)
 
-Sale, Stewart, Nuñez, Detmers, Martinez, Murakami. Tracked in
-`statdesk/posted.json`, which the pipeline filters on automatically. Add a name
-the day it goes out.
+A player is NOT permanently excluded. The rule is: the same STAT for the same
+player cannot appear in two lists in a row. Chris Sale can come back with a new
+stat. `statdesk/posted.json` entries carry name + stat + date; run.js blocks
+only same-player-same-stat pairs from the most recent list.
+
+### NO GENERIC BOX-SCORE STATS (Nick has now said this TWICE)
+
+He sees the box score. A line like "4-for-5, 2 HR, 6 RBI" is not an idea. Every
+item needs an angle he cannot get from the box: career numbers against today's
+opponent (e.g. Schlittler's career vs the Red Sox), hitters' career lines
+against today's starter, a player's postseason career, first/only/Nth-ever
+framing from Stathead, splits and oddities. statdesk/matchups.js pulls the
+matchup and career data; Stathead supplies the history.
 
 ### DECADE FACTS (2026-09-28) — the thing Nick actually wanted
 
@@ -309,6 +319,73 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 1: Braves-Phillies Game 3 (Nola vs Kerr), ten items
+
+Nick asked for ten on the one game. Data: task mlb-matchups, which now also runs
+postseason.js first, in `data/mlb/matchups/2026-10-01/`.
+1. Riley vs Nola 23-64, 7 HR. 2. Acuna vs Nola .339, 11 XBH. 3. Olson 5 HR in 40 AB
+vs Nola, but 3-for-30 in WC games. 4. Active ATL hitters vs Nola .286 / 23 HR,
+against his career opponents' .237. 5. Nola in WC games: 2 GS, 13.2 IP, 0 R.
+6. Nola's last two starts vs ATL: 13.1 IP, 3 ER. 7. Kerr vs PHI in 2026: 6.1 IP,
+0 R, 2 H. 8. Kerr has thrown no more than 35 pitches in any 2026 outing; tonight
+is his 4th career start. 9. Harris WC career 9-for-16. 10. Schwarber vs ATL .197
+with 24 HR.
+- NEW SOURCE FACT: `stats=career&gameType=F,D,L,W` returns ONLY the first type
+  (F = Wild Card round), and it is correct: it includes the current week.
+  For a full postseason career, request D, L and W separately and sum them.
+- TRAP: a hitter's vsPlayerTotal against a pitcher counts his at-bats for ANY
+  team, while the pitcher's vsTeamTotal counts only that franchise's hitters.
+  Never subtract one from the other.
+
+### What went out on Sep 30, second brief: the matchup brief (the model for every postseason day)
+
+This replaced the generic morning brief. It was built from statdesk/matchups.js
+(`data/mlb/matchups/2026-09-30/`), `node statdesk/angles.js 2026-09-30`, and
+Stathead history (post-history.js, PH001-PH006 in `data/browser/2026-09-30/`).
+Items:
+1. Schlittler vs BOS, career: 6 GS, 38.2 IP, 2 ER, 49 K. The 2 postseason starts
+   (2025 WC G3 8 IP 0 R 12 K; 2026 G1 6.1 IP 0 R 10 K) came from Stathead PH003.
+   He is the only Yankee, and the only pitcher before age 26, with two postseason
+   10+ K / 0 ER starts.
+2. Stott / Marsh / J. Crawford a combined 0-for-27 vs Mahle.
+3. Rice 3-for-7, 2 HR vs Gray. Also noted: G1 was the 5th postseason game ever
+   with 4 H / 2 HR / 6 RBI, and the first Yankee with 2+ HR / 6+ RBI (PH001/PH002).
+4. Goldschmidt 1-for-26 vs Gray.
+5. Hays, Machado and Tatis 24-for-62, 6 HR vs Gausman.
+6. Albies 9-18 and Riley 7-15 vs Sanchez; Harris 2-15 with 10 K.
+7. Rutschman 0-for-10 vs Fried.
+8. Bregman 7-for-8 vs King before G1, then 0-for-4 with 3 K.
+9. Harper 2-for-21 with 11 K vs Sale.
+10. Acuna vs PHI career .313/.395/.542, 21 HR.
+CWS-HOU samples were too thin (the best was Doyle 0-for-8 vs Brown).
+
+Source facts learned (do not relearn them):
+- vsPlayerTotal, vsTeamTotal and vsTeam are REGULAR SEASON ONLY. Checked
+  against the game logs; Sept. 29 is not in them.
+- For a pitcher, vsTeamTotal returns batting-against stats only: no ERA and no
+  IP. Get the ERA from the gameLog rows against that opponent.
+- `careerPlayoffs` and `yearByYearPlayoffs` are BROKEN: they return the
+  regular-season career. Get postseason lines from Stathead game finders
+  (comp_type=post) or from box scores. angles.js still prints the bogus
+  "postseason career" lines; ignore them, or fix matchups.js to use a real
+  postseason split.
+- Stathead postseason tables already included Sept. 29 when read at 20:53Z on
+  Sept. 30.
+
+### What went out on Sep 30 (first postseason brief, generic, superseded)
+
+Built from statdesk/postseason.js (task mlb-postseason): the four Sept. 29 Wild
+Card Game 1 box scores plus FINAL regular-season stats. 1 Ben Rice 4-5, 2 HR, 6
+RBI (NYY 9-0 BOS) 2 Cam Schlittler 6.1 IP 0 R 10 K 3 Michael King 7 IP 1 H 0 R
+8 K (SD 8-0 CHC) 4 two shutouts on day one, 17-0 combined 5 White Sox won 6-3 at
+HOU with five pitchers, none past 3 IP (Hagen Smith 3 scoreless) 6 Austin Riley
+3-run HR + Michael Harris II 3-for-3 (ATL 5-3 PHI) 7 HR, saves and wins titles
+all ended tied (45-45 PCA/Schwarber, 41-41 Baker/Smith, 18-18 Gray/Sanchez)
+8 Misiorowski won the K title on the final day (247 -> 252, Williams 248) and the
+ERA title 1.80 9 Turang 99 -> 100 RBI on the final day 10 George Lombard Jr., 21,
+3-for-4. Sale (9 K for ATL) excluded as posted. No historical claims made.
+Final races are SETTLED; do not re-serve them.
 
 ### Unresolved as of the final morning (check the results before reusing)
 

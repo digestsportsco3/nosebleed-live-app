@@ -15,15 +15,19 @@ const { StatheadBrowser } = require("./lib/stathead-browser");
 const { seasonFinder, DISCOVERY } = require("./lib/finder");
 const fs = require("fs");
 
-// Players already posted. Dropped from every brief so the same name is never
-// pitched twice. Edit statdesk/posted.json, or pass --include-posted to ignore it.
-function postedNames() {
+// Repeat rule (Nick, 2026-09-30): a PLAYER may come back; the same STAT for the
+// same player may not appear in two lists in a row. posted.json entries carry
+// {name, stat, posted}; only entries from the most recent list date block, and
+// only the same stat (ruleKey). Entries without a stat never block anything.
+function postedBlocks() {
   const file = path.join(__dirname, "posted.json");
   if (!fs.existsSync(file)) return new Set();
   let raw;
   try { raw = JSON.parse(fs.readFileSync(file, "utf8")); }
-  catch (e) { throw new Error(`statdesk/posted.json is not valid JSON: ${e.message}. Fix it rather than letting a posted player through.`); }
-  return new Set((raw.posted || []).map((x) => norm(x.name)));
+  catch (e) { throw new Error(`statdesk/posted.json is not valid JSON: ${e.message}. Fix it rather than letting a repeat through.`); }
+  const list = (raw.posted || []).filter((x) => x.stat);
+  const last = list.map((x) => x.posted).sort().pop();
+  return new Set(list.filter((x) => x.posted === last).map((x) => `${norm(x.name)}|${x.stat}`));
 }
 function norm(s) {
   return String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
@@ -99,12 +103,12 @@ const briefsDir = path.join(root, "briefs");
   const { anomalies, milestones, heat } = adapter.rules;
   let findings = [...scanAnomalies(data.players, anomalies), ...scanMilestones(data.players, milestones), ...scanHeat(data.players, heat)];
   if (!("include-posted" in args)) {
-    const skip = postedNames();
+    const skip = postedBlocks();
     const before = findings.length;
-    findings = findings.filter((x) => !skip.has(norm(x.player && x.player.name)));
+    findings = findings.filter((x) => !skip.has(`${norm(x.player && x.player.name)}|${x.ruleKey}`));
     const dropped = before - findings.length;
-    if (dropped) summary.push(`Dropped ${dropped} finding(s) for ${skip.size} already-posted player(s) (statdesk/posted.json).`);
-    console.log(`[statdesk] posted-filter: ${skip.size} names on the list, ${dropped} finding(s) dropped`);
+    if (dropped) summary.push(`Dropped ${dropped} finding(s) repeating a stat from the previous list (statdesk/posted.json).`);
+    console.log(`[statdesk] repeat-filter: ${skip.size} player-stat pairs from the last list, ${dropped} finding(s) dropped`);
   }
   const { picked } = rank(findings, 10);
 

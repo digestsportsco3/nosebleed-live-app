@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -108,3 +108,26 @@ jobs:
         shell: cmd
         env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
         run: node statdesk/sport-facts.js ${{ inputs.after }} --commit
+      - name: MLB postseason and final standings
+        if: inputs.task == 'mlb-postseason'
+        shell: cmd
+        run: node statdesk/postseason.js ${{ inputs.args }} --commit
+      - name: MLB postseason box scores before the matchup pull
+        if: inputs.task == 'mlb-matchups'
+        continue-on-error: true
+        shell: cmd
+        run: node statdesk/postseason.js --commit
+      - name: MLB matchups and career data
+        if: inputs.task == 'mlb-matchups'
+        continue-on-error: true
+        shell: cmd
+        run: node statdesk/matchups.js ${{ inputs.args }} --commit
+      - name: MLB postseason history (Stathead)
+        if: inputs.task == 'mlb-matchups'
+        shell: cmd
+        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        run: node statdesk/post-history.js --commit
+      - name: MLB one player's postseason career (args "Player Name" [hitting|pitching])
+        if: inputs.task == 'mlb-player-post'
+        shell: cmd
+        run: node statdesk/player-post.js ${{ inputs.args }} --commit
