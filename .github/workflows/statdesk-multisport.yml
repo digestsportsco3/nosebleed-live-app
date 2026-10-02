@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post, mlb-series]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -131,3 +131,12 @@ jobs:
         if: inputs.task == 'mlb-player-post'
         shell: cmd
         run: node statdesk/player-post.js ${{ inputs.args }} --commit
+      - name: MLB postseason box scores before the series pull
+        if: inputs.task == 'mlb-series'
+        continue-on-error: true
+        shell: cmd
+        run: node statdesk/postseason.js --commit
+      - name: MLB series matchups (args "CWS:CLE NYY:TB ...")
+        if: inputs.task == 'mlb-series'
+        shell: cmd
+        run: node statdesk/series-matchups.js ${{ inputs.args }} --commit
