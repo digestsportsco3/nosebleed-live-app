@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-02 (Division Series preview sent; see "What went out on Oct 2"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-05 (general + NYY-TB Game 2 briefs sent; see "What went out on Oct 5"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -319,6 +319,26 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 5: general ten + Yankees-Rays Game 2 ten
+
+New one-dispatch task: `mlb-daily` (args = series pairs, e.g. "NYY:TB CWS:CLE ATL:LAD SD:MIL")
+runs postseason.js, matchups.js, series-matchups.js and post-history.js. matchups.js now
+saves `postRounds` (yearByYear for F, D, L and W separately) for every starter and hitter;
+sum them for the postseason career. series-matchups.js now saves box scores of every past
+postseason meeting (`boxes` in <pair>-postseason-history.json).
+General: Kay (CLE roster 0 HR in 58 AB), Montgomery + Teel 0-for-18 vs G. Williams, Kwan
+ALDS .444, Pham .311 in 38 postseason games, Muncy/Freeman 81 postseason games each
+(18/17 HR), Chourio 5 HR / 15 RBI in 14 games, Tatis 7 HR in 20 games, Machado 13 HR,
+Pages 8-for-77, Kike Hernandez 104 postseason games.
+NYY-TB G2 (Schlittler vs Peralta, TB up 1-0): Schlittler postseason 0.87 ERA; vs TB 2 XBH
+in 111 PA; TB hitters vs him 20-82 (Aranda 6 K in 9 PA); Peralta 7 HR in 33.1 postseason
+IP; NYY hitters 7 HR in 113 AB vs Peralta; Stanton 2020 ALDS 4 HR / 10 RBI; Stanton 18
+postseason HR vs the Rays roster's 4; Rasmussen G1 is the first 7+ IP / <=1 H / 0 ER
+postseason start ever vs NYY (Stathead PH004, 22 rows); Diaz .272 vs NYY but .180 in
+October; Rice 10 RBI in 9 postseason games.
+- angles.js still reads careerPlayoffs (now gone) and prints "no postseason innings" lines
+  for everyone. Ignore those, or switch it to postRounds.
 
 ### What went out on Oct 2: Division Series preview (CWS-CLE, NYY-TB, ATL-LAD, SD-MIL)
 
