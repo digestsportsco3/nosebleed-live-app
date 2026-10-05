@@ -52,12 +52,12 @@ async function main() {
       const rec = { pitcher: P, team: g.teams[me].team, opponent: opp, gamePk: g.gamePk, series: g.seriesDescription, when: g._when, gameDate: g.officialDate };
       rec.vsTeamTotal = await stats(P.id, `stats=vsTeamTotal&group=pitching&opposingTeamId=${opp.id}&sportId=1`);
       rec.vsTeam = await stats(P.id, `stats=vsTeam&group=pitching&opposingTeamId=${opp.id}&sportId=1`);
-      rec.careerPlayoffs = await stats(P.id, `stats=careerPlayoffs&group=pitching&sportId=1`);
-      rec.yearByYearPlayoffs = await stats(P.id, `stats=yearByYearPlayoffs&group=pitching&sportId=1`);
       rec.career = await stats(P.id, `stats=career&group=pitching&sportId=1`);
-      // careerPlayoffs returns the regular-season career (verified 2026-09-30).
-      // Probe: career filtered to postseason game types. Trust it only if it differs from rec.career.
-      rec.postCareerProbe = await stats(P.id, `stats=career&group=pitching&gameType=F,D,L,W&sportId=1`);
+      // Postseason career, one round at a time: careerPlayoffs returns the
+      // regular-season career, and gameType=F,D,L,W honours only the first type.
+      rec.postRounds = {};
+      for (const t of ["F", "D", "L", "W"]) rec.postRounds[t] = await stats(P.id, `stats=yearByYear&group=pitching&gameType=${t}&sportId=1`);
+      rec.postGameLog = await stats(P.id, `stats=gameLog&group=pitching&season=${date.slice(0, 4)}&gameType=P&sportId=1`);
       rec.gameLog = await stats(P.id, `stats=gameLog&group=pitching&season=${date.slice(0, 4)}&sportId=1`);
       save(`p-${P.id}.json`, rec);
       // Every active hitter on the other side: career vs this pitcher, postseason career, career vs this team.
@@ -68,9 +68,8 @@ async function main() {
         save(`h-${id}-vs-${P.id}.json`, { hitter: h.person, team: opp, pitcher: P, vsPlayerTotal: await stats(id, `stats=vsPlayerTotal&group=hitting&opposingPlayerId=${P.id}&sportId=1`) });
         const f = path.join(OUT, `h-${id}.json`);
         if (!fs.existsSync(f)) save(`h-${id}.json`, { hitter: h.person, team: opp, facing: g.teams[me].team,
-          careerPlayoffs: await stats(id, `stats=careerPlayoffs&group=hitting&sportId=1`),
           career: await stats(id, `stats=career&group=hitting&sportId=1`),
-          postCareerProbe: await stats(id, `stats=career&group=hitting&gameType=F,D,L,W&sportId=1`),
+          postRounds: Object.fromEntries(await Promise.all(["F", "D", "L", "W"].map(async (t) => [t, await stats(id, `stats=yearByYear&group=hitting&gameType=${t}&sportId=1`)]))),
           vsTeamTotal: await stats(id, `stats=vsTeamTotal&group=hitting&opposingTeamId=${g.teams[me].team.id}&sportId=1`) });
       }
       console.log(`  ${P.fullName} (${g.teams[me].team.name}) vs ${opp.name}: ${hitters.length} hitters`);

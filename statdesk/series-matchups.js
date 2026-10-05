@@ -59,7 +59,10 @@ async function main() {
       const b = await get(u); await sleep(60);
       for (const g of ((b && b.dates) || []).flatMap((d) => d.games || [])) if ([g.teams.away.team.id, g.teams.home.team.id].includes(B.id)) post.push(g);
     }
-    save(`${key}-postseason-history.json`, { A, B, games: post });
+    // Box scores of every past meeting, for "in the 2020 ALDS he ..." lines.
+    const boxes = {};
+    for (const g of post.filter((x) => x.status && x.status.detailedState === "Final")) boxes[g.gamePk] = await get(`${API}/game/${g.gamePk}/boxscore`);
+    save(`${key}-postseason-history.json`, { A, B, games: post, boxes });
     console.log(`  ${games.length} meetings this year, ${post.length} postseason games all time`);
     for (const [me, them] of [[A, B], [B, A]]) {
       const ros = await get(`${API}/teams/${me.id}/roster?rosterType=active&date=${date}`);
