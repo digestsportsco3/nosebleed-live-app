@@ -198,6 +198,18 @@ player cannot appear in two lists in a row. Chris Sale can come back with a new
 stat. `statdesk/posted.json` entries carry name + stat + date; run.js blocks
 only same-player-same-stat pairs from the most recent list.
 
+### GO DEEP ON EVERY PLAYER (Nick, 2026-10-06)
+
+A single "11-for-32" line is not enough. For each player item, mine EVERY layer before
+writing: postseason by round and year (postRounds), career vs the opponent (vsTeamTotal),
+vs each opposing starter (series p-files vsHitters), the 2026 game log (home/away, month,
+last 15, streaks, multi-hit games, team record via `isWin` when he homers or gets 2+ hits),
+and ranks among qualified hitters (season-hitting.json, 502+ PA), including combo filters
+(".290 / 25 HR / 10 SB: only two players"). Then lead with the most surprising layer.
+Worked example, Michael Harris II on Oct 6: Braves 21-3 when he homered; WC career 10-19
+vs NLDS 4-36; one of two .290/25/10 hitters (with Chourio); the only 25-HR qualified hitter
+with 23 or fewer walks.
+
 ### NO GENERIC BOX-SCORE STATS (Nick has now said this TWICE)
 
 He sees the box score. A line like "4-for-5, 2 HR, 6 RBI" is not an idea. Every
