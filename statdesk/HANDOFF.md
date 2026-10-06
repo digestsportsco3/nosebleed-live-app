@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-05 (general + NYY-TB Game 2 briefs sent; see "What went out on Oct 5"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-06 (ATL-LAD and SD-MIL Game 3 briefs sent; runner was offline; see "What went out on Oct 6"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -319,6 +319,23 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 6: Braves-Dodgers G3 ten + Padres-Brewers G3 ten
+
+The mlb-daily dispatch (run 37489364092, args "ATL:LAD SD:MIL") sat QUEUED: the self-hosted
+runner was offline. Both lists were built from the Oct 5 data (through the NLDS Game 2s),
+with no item assuming tonight's starters. When the runner is back, that queued run will
+pull today's probables.
+New technique: current players' lines in ALL head-to-head postseason games, built from
+`boxes` in series/<date>/ATL-LAD-postseason-history.json plus this series' box scores
+(Freeman homered for both sides; Muncy 6 HR in 13 games vs ATL; Riley 9-60 vs LAD).
+ATL-LAD: 13-13 all time; Freeman both sides; Muncy 6 HR; Kike 3 HR in 25 AB; Betts 0 HR in
+15 games; Riley 9-60 / 23 K; Albies 3 HR in 19 games; Kerr 2 starts, 6 IP, 0 R; Harris
+11-32 vs LAD in 2026; Tucker .133 in the regular season, 3-8 with a HR in the series.
+SD-MIL: 4-4 in 2026 with SD ahead 31-28 on runs; SD outhit MIL 14-12 with 0 HR to 2; Contreras
+1-18 vs SD then a G1 HR; Turang 9-56 in the postseason; Ortiz 2-34; G. Sanchez 7 of 21
+postseason hits are HR; France .311; Cronenworth .200; Bauers .308 / .577; Harrison 9 HR
+allowed in 5 games vs SD.
 
 ### What went out on Oct 5: general ten + Yankees-Rays Game 2 ten
 
