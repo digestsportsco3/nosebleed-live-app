@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-01 (Braves-Phillies Game 3 brief sent; see "What went out on Oct 1"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-06 (ATL-LAD and SD-MIL Game 3 briefs sent; runner was offline; see "What went out on Oct 6"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -198,6 +198,18 @@ player cannot appear in two lists in a row. Chris Sale can come back with a new
 stat. `statdesk/posted.json` entries carry name + stat + date; run.js blocks
 only same-player-same-stat pairs from the most recent list.
 
+### GO DEEP ON EVERY PLAYER (Nick, 2026-10-06)
+
+A single "11-for-32" line is not enough. For each player item, mine EVERY layer before
+writing: postseason by round and year (postRounds), career vs the opponent (vsTeamTotal),
+vs each opposing starter (series p-files vsHitters), the 2026 game log (home/away, month,
+last 15, streaks, multi-hit games, team record via `isWin` when he homers or gets 2+ hits),
+and ranks among qualified hitters (season-hitting.json, 502+ PA), including combo filters
+(".290 / 25 HR / 10 SB: only two players"). Then lead with the most surprising layer.
+Worked example, Michael Harris II on Oct 6: Braves 21-3 when he homered; WC career 10-19
+vs NLDS 4-36; one of two .290/25/10 hitters (with Chourio); the only 25-HR qualified hitter
+with 23 or fewer walks.
+
 ### NO GENERIC BOX-SCORE STATS (Nick has now said this TWICE)
 
 He sees the box score. A line like "4-for-5, 2 HR, 6 RBI" is not an idea. Every
@@ -319,6 +331,58 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 6: Braves-Dodgers G3 ten + Padres-Brewers G3 ten
+
+The mlb-daily dispatch (run 37489364092, args "ATL:LAD SD:MIL") sat QUEUED: the self-hosted
+runner was offline. Both lists were built from the Oct 5 data (through the NLDS Game 2s),
+with no item assuming tonight's starters. When the runner is back, that queued run will
+pull today's probables.
+New technique: current players' lines in ALL head-to-head postseason games, built from
+`boxes` in series/<date>/ATL-LAD-postseason-history.json plus this series' box scores
+(Freeman homered for both sides; Muncy 6 HR in 13 games vs ATL; Riley 9-60 vs LAD).
+ATL-LAD: 13-13 all time; Freeman both sides; Muncy 6 HR; Kike 3 HR in 25 AB; Betts 0 HR in
+15 games; Riley 9-60 / 23 K; Albies 3 HR in 19 games; Kerr 2 starts, 6 IP, 0 R; Harris
+11-32 vs LAD in 2026; Tucker .133 in the regular season, 3-8 with a HR in the series.
+SD-MIL: 4-4 in 2026 with SD ahead 31-28 on runs; SD outhit MIL 14-12 with 0 HR to 2; Contreras
+1-18 vs SD then a G1 HR; Turang 9-56 in the postseason; Ortiz 2-34; G. Sanchez 7 of 21
+postseason hits are HR; France .311; Cronenworth .200; Bauers .308 / .577; Harrison 9 HR
+allowed in 5 games vs SD.
+
+### What went out on Oct 5: general ten + Yankees-Rays Game 2 ten
+
+New one-dispatch task: `mlb-daily` (args = series pairs, e.g. "NYY:TB CWS:CLE ATL:LAD SD:MIL")
+runs postseason.js, matchups.js, series-matchups.js and post-history.js. matchups.js now
+saves `postRounds` (yearByYear for F, D, L and W separately) for every starter and hitter;
+sum them for the postseason career. series-matchups.js now saves box scores of every past
+postseason meeting (`boxes` in <pair>-postseason-history.json).
+General: Kay (CLE roster 0 HR in 58 AB), Montgomery + Teel 0-for-18 vs G. Williams, Kwan
+ALDS .444, Pham .311 in 38 postseason games, Muncy/Freeman 81 postseason games each
+(18/17 HR), Chourio 5 HR / 15 RBI in 14 games, Tatis 7 HR in 20 games, Machado 13 HR,
+Pages 8-for-77, Kike Hernandez 104 postseason games.
+NYY-TB G2 (Schlittler vs Peralta, TB up 1-0): Schlittler postseason 0.87 ERA; vs TB 2 XBH
+in 111 PA; TB hitters vs him 20-82 (Aranda 6 K in 9 PA); Peralta 7 HR in 33.1 postseason
+IP; NYY hitters 7 HR in 113 AB vs Peralta; Stanton 2020 ALDS 4 HR / 10 RBI; Stanton 18
+postseason HR vs the Rays roster's 4; Rasmussen G1 is the first 7+ IP / <=1 H / 0 ER
+postseason start ever vs NYY (Stathead PH004, 22 rows); Diaz .272 vs NYY but .180 in
+October; Rice 10 RBI in 9 postseason games.
+- angles.js still reads careerPlayoffs (now gone) and prints "no postseason innings" lines
+  for everyone. Ignore those, or switch it to postRounds.
+
+### What went out on Oct 2: Division Series preview (CWS-CLE, NYY-TB, ATL-LAD, SD-MIL)
+
+Data: new task `mlb-series` (statdesk/series-matchups.js, args "CWS:CLE NYY:TB ATL:LAD SD:MIL") in
+`data/mlb/series/2026-10-02/`. For each pair it saves the season series, every postseason
+meeting 1903-2025, every starter with 8+ GS vs the other lineup, and each hitter's 2026 log
+and career vs the opponent. Use it for every round from here on.
+Items: 1 ATL-LAD all-time postseason 12-12 in 24 games (5 series). 2 ATL 5-1 vs LAD in 2026,
+won the last 5, August sweep all one-run. 3 Sale Aug 27 9 IP 0 R 11 K, 1-0 over Yamamoto.
+4 NYY outscored TB 54-45, lost 6-7; 2020 ALDS TB 3-2. 5 Rice 7 HR in 13 G vs TB. 6 NYY
+current hitters .165 vs Rasmussen (Volpe 0-11). 7 CWS-CLE 7-6, 58-57, 7 one-run games,
+first postseason meeting. 8 J. Ramirez 0-for-20 vs Fedde + Burke. 9 Dustin May vs SD:
+22 IP 8 H 22 K (2 of those outings with STL). 10 Misiorowski 7 IP 0 R 10 K vs SD; MIL lost 3-1.
+- TRAP: a pitcher's gameLog filtered by opponent includes starts for a PREVIOUS team (May
+  faced SD twice for STL). Check `split.team` before writing "for Milwaukee".
 
 ### What went out on Oct 1: Braves-Phillies Game 3 (Nola vs Kerr), ten items
 
