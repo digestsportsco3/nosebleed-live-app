@@ -1,0 +1,155 @@
+URL: https://ecode360.com/attachment/EA0658/EA0658-255c%20Use%20Table%20-%20Commercial.pdf (via https://web.archive.org/web/20190823113746/https://www.ecode360.com/attachment/EA0658/EA0658-255c%20Use%20Table%20-%20Commercial.pdf)
+Accessed: 2026-10-07
+Note: Page footer dated 09-01-2018; amendments listed through L.L. 4-2018. Current (2026) version not verified.
+----
+                                                                                              ZONING
+                                                                                        255 Attachment 3
+                                                                                     Town of East Hampton
+                                                                                        Section 255-11-10
+                                                                               II. Use Table for Commercial Uses
+                             [Amended 10-16-1987 by L.L. No. 16-1987; 5-6-1988 by L.L. No. 2-1988; 10-21-1988 by L.L. No. 9-1988; 9-17-1993 by L.L. No. 28-1993;
+                   2-4-1994 by L.L. No. 1-1994; 12-2-1994 by L.L. No. 13-1994; 3-15-1996 by L.L. No. 2-1996; 10-18-1996 by L.L. No. 17-1996; 11-15-1996 by L.L. No. 19-1996;
+                  12-18-1997 by L.L. No. 39-1997; 12-18-1997 by L.L. No. 40-1997; 5-5-1998 by L.L. No. 19-1998; 11-2-2001 by L.L. No. 22-2001; 5-6-2005 by L.L. No. 14-2005;
+     8-16-2012 by L.L. No. 12-2012; 9-18-2014 by L.L. No. 32-2014; 5-21-2015 by L.L. No. 11-2015; 7-2-2015 by L.L. No. 23-2015; 6-15-2017 by L.L. No. 15-2017; 5-8-2018 by L.L. No. 4-2018 ]
+Use Code:
+P = Permitted use
+SP = Special permit use
+X = Prohibited use
+                                                                                                                                                                    Commercial       Special
+                                                                              Residential Districts                                Commercial Districts               Service        District
+Use                                                             A10   A5   A3     A2      A       B   MF   AHO     LBO       RS     NB   CB       WF         CI         CS             PC
+A. Business uses
+     (1) Accessory restaurant or bar to resort or transient
+                                                                X     X    X      X       X      X    X     X        X       SP      SP      SP      SP      X           X              X
+        motel
+   (1a) Agriculture                                              P     P    P      P      P      P    P     P         P      P        P       P       P       P          X              X
+   (1b) Air terminal                                            X     X    X      X      X      X     X     X        X       X       X       X       X       SP          X              X
+   (2) Animal husbandry                                         SP    SP   SP     SP     SP     SP    X     SP       SP      X       SP      SP      X       SP          X              X
+   (3) Antique shop or antique auction gallery                  X     X    X      X      X      X     X     X        SP      X        P       P      SP      X           X              X
+   (4) (Reserved)
+   (5) Artists and craftsmen workshops                          X     X    X      X       X      X    X     X        SP      X        P       P      X        P          P              X
+   (6) Auditorium or meeting hall                               X     X    X      X       X      X    X     X        X       X        P       P      SP      SP         X               X
+   (7) Bank                                                     X     X    X      X       X      X    X     X        X       X        P       P      SP      X          X               X
+   (8) Boat rentals or fishing station                          X     X    X      X       X      X    X     X        X       X       SP       P       P      X          X               X
+   (9) Boatyard                                                 X     X    X      X       X      X    X     X        X       X       X       X        P       P         SP              X
+   (9a) Bus terminal                                            X     X    X      X       X      X    X     X        X       X       SP      SP      X       SP                         X
+   (10) Camping ground                                          X     X    X      X       X      X    X     X        X       X       X       X       X       X           X              P
+   (11) Carpentry, plumbing or heating supply shop              X     X    X      X       X      X    X     X        X       X        P       P      X        P          X              X
+   (12) Car wash, major                                         X     X    X      X       X      X    X     X        X       X       SP      SP      X       SP          X              X
+   (13) Custom workshop                                         X     X    X      X       X      X    X     X        X       SP      SP      SP      SP       P          P              X
+   (14) Fast-food restaurant or drive-in                        X     X    X      X       X      X    X     X        X       X       SP      SP      X       X           X              X
+   (14a) Ferry terminal, passenger                              X     X    X      X       X      X    X     X        X       X       X       X       SP      X           X              X
+   (14b) Ferry terminal, vehicle                                X     X    X      X       X      X    X     X        X       X       X       X       X       X           X              X
+   (15) Filling station                                         X     X    X      X       X      X    X     X        X       X       SP      SP      X        P          X              X
+   (16) Fish market (may include a combination of
+                                                                X     X    X      X       X      X    X     X        X       X       SP      SP      P       SP          X              X
+       wholesale and retail sale of finfish and/or shellfish)
+   (16a) Florist or flower shop                                 X     X    X      X       X      X    X     X        SP      SP       P       P      SP      X          X               X
+   (16b) Formula store                                          X     X    X      X       X      X    X     X        X       X       SP      SP      SP      X          X               X
+   (17) Funeral home, mortuary or chapel                        X     X    X      X       X      X    X     X        X       X        P       P      X       X          X               X
+   (18) Garage, repair                                          X     X    X      X       X      X    X     X        X       X       SP      SP      X       P          SP              X
+   (18a) Garage, storage                                        X     X    X      X       X      X    X     X        X       X       X       SP      X       P          SP              X
+                                                                                       255 Attachment 3:1                                                                        09 - 01 - 2018
+                                                                             EAST HAMPTON CODE
+                                                                                                                                                    Commercial      Special
+                                                                          Residential Districts                         Commercial Districts          Service       District
+Use                                                         A10   A5   A3     A2      A       B   MF   AHO   LBO   RS    NB   CB       WF      CI       CS            PC
+A. Business uses (continued)
+   (19) Garden center                                       X     X    X      X       X      X    X    X     X     SP    P       P      SP     X        X              X
+   (20) (Reserved)
+   (21) (Reserved)
+   (22) Mariculture, research and development               SP    SP   SP     SP     SP      X    X     X    X     SP    X      X       SP     SP       X              SP
+   (23) Marina                                              X     X    X      X      X       X    X     X    X     X     X      X       P      X        X              X
+   (24) Marina, recreational                                X     X    X      X      X       X    X     X    X     SP    X      X       P      X        X              SP
+   (25) Motion-picture theater                              X     X    X      X      X       X    X     X    X     X     SP     SP      X      SP       X              X
+   (26) Motor vehicle salesroom and lot                     X     X    X      X      X       X    X     X    X     X      P     P       X       P       X              X
+   (27) Multiple-business complex                           X     X    X      X      X       X    X     X    X     X     SP     SP      SP     X        X              X
+   (28) Nightclub or similar entertainment establishment    X     X    X      X      X       X    X     X    X     SP    SP     SP      X      X        X              X
+   (29) Office; business, utility, professional or sales    X     X    X      X      X       X    X     X    SP    X      P     P       SP     X        X              X
+   (29a) Office park                                        X     X    X      X      X       X    X     X    X     X     SP     SP      X      SP                      X
+   (30) Personal service shop: barbershop, beauty
+        parlor, professional studio, travel agency or       X     X    X      X       X      X    X     X    SP    SP    P       P      X      X        X              X
+        similar shop
+   (31) Printing shop                                       X     X    X      X      X      X     X    X     X     X      P      P      X       P       X              X
+   (31a) Rail terminal                                      X     X    X      X      X      X     X    X     X     X     SP     SP      X      SP       X              X
+   (32) Recording and film production facilities            X     X    X      X      X      X     X    X     X     X      P      P      X       P       P              X
+   (33) Recreation facility, major                          X     X    X      X      X      X     X    X     X     X     X       X      X      SP       X              X
+   (34) Recreation facility, minor                          X     X    X      X      X      X     X    X     X     X      P      P      SP     X        X              X
+   (35) Repair shop for household, business or personal     X     X    X      X      X      X     X    X     X     X      P      P      X       P       P              X
+   (36) Resort                                              X     X    X      X      X      X     X    X     X     SP    X       X      X      X        X              X
+   (37) Restaurant                                          X     X    X      X      X      X     X    X     X     SP     P      P      SP     X        X              X
+   (38) Retail store (other than one listed herein)         X     X    X      X      X      X     X    X     X     SP     P      P      SP     X        X              X
+   (39) Riding academy                                      SP    SP   SP     SP     SP     SP    X    SP    SP    X      P      P      X       P       X              X
+   (40) Studio, exercise                                    X     X    X      X      X      X     X    X     X     X      P      P      X       P       X              X
+   (40a) Supermarket                                        X     X    X      X      X      X     X    X     X     X     X      SP      X      X        X              X
+   (40b) Superstore                                         X     X    X      X      X      X     X    X     X     X     X      SP      X      X        X              X
+   (40c) Take-out food store                                X     X    X      X      X      X     X    X     X     SP     P      P      SP     X        X              X
+   (41) Tavern or bar                                       X     X    X      X      X      X     X    X     X     SP     P      P      SP     X        X              X
+   (42) Taxi company                                        X     SP   SP     SP     SP     SP    X    X     SP    X      P      P      X       P       X              X
+   (43) Technical and trade school                          X     X    X      X      X      X     X    X     X     X      P      P      SP     SP       X              X
+   (44) Theater company                                     X     X    X      X      X      X     X    X     X     X     SP     SP      SP     SP       X              X
+   (45) Transient motel                                     X     X    X      X      X      X     X    X     X      P    X       X      X      X        X              X
+   (45a) Truck terminal                                     X     X    X      X      X      X     X    X     X     X     SP     SP      X      SP                      X
+   (46) Veterinarian or veterinary hospital                 X     X    X      X      X      X     X    X     X     X     X      SP2     X      SP       X              X
+   (47) Wholesale business, including lumber and
+                                                            X     X    X      X       X      X    X     X    X     X     SP     SP      SP     P        X              X
+        building products
+   (48) Wholesale/retail beverage distribution, wholesale
+                                                            X     X    X      X       X      X    X     X    X     X     SP     SP      SP     P       SP              X
+        bakery
+   (49) Winery                                              X     X    SP     SP     SP      X    X     X    X     X     SP     SP      X      SP       X              X
+B. Listed industrial uses.
+   (1) Abattoir or stockyard                                                                                 X     X     X       X      X      X        X
+                                                                                   255 Attachment 3:2                                                            09 - 01 - 2018
+                                                                                         ZONING
+                                                                                                                                                            Commercial      Special
+                                                                          Residential Districts                              Commercial Districts             Service       District
+Use                                                        A10   A5    A3     A2      A       B    MF       AHO   LBO   RS    NB   CB       WF      CI          CS            PC
+B. Listed industrial uses (continued)
+   (2) Arsenal                                                                                                    X     X     X       X      X      X           X
+   (3) Boiler works                                                                                               X     X     X       X      X      X           X
+   (4) Chemical manufacture                                                                                       X     X     X       X      X      X           X
+   (5) Compactor or shredder of automobiles, scrap metal
+                                                                                                                  X     X     X       X      X      X           X
+        or other metallic substances
+   (6) Distillery except water                                                                                    X     X     X      X       X      X           X
+   (7) Dry cleaning or laundry                                                                                    X     X     SP     SP      X      SP          X
+   (8) Explosives or fireworks manufacture or storage                                                             X     X     X      X       X      X           X
+   (9) Exterminator                                                                                               X     X     X      X       X      SP          X
+   (10) Fish processing facility                                                                                  X     X     X      X       SP     SP          X
+   (11) Forge or foundry plant except for blacksmith                                                                                                                           No
+                                                                                                                  X     X     X       X      X      X           X
+      shop                                                                                                                                                                 industrial
+   (12) Fuel storage in tanks                                                 No industrial                       X     X     X       X      SP     SP          X             uses
+                                                                             Uses permitted                                                                               permitted in
+                                                                              in residential                                                                               Parks and
+  (13) Garbage, offal or dead animal reduction,                                  districts                                                                                Conservatio
+                                                                                                                  X     X     X       X      X      X           X
+        dumping or incineration                                                                                                                                                 n
+                                                                                                                                                                            District
+   (14) Laboratory; research, processing or testing                                                               X     X     SP     SP      SP     SP          X
+   (15) Meat processing                                                                                           X     X     X      X       X      X           X
+   (16) Multiple industrial complex                                                                               X     X     X      X       X      SP          X
+   (17) Paper or pulp manufacture                                                                                 X     X     X      X       X      X           X
+   (18) Paving and construction material manufacture                                                              X     X     X      X       X      SP          X
+   (19) Petroleum refinery                                                                                        X     X     X      X       X      X           X
+   (20) Planned industrial park                                                                                   X     X     X      X       X      SP          X
+   (21) Plating works                                                                                             X     X     X      X       X      X           X
+   (22) Publishing                                                                                                X     X     X      X       X       P          X
+   (23) Recycling and scrap yard                                                                                  X     X     X      X       X      SP          X
+   (24) Recycling involving chemical, radioactive or
+                                                                                                                  X     X     X       X      X      X           X
+         other toxic waste processing
+   (25) Sand mining and excavation                                                                                X     X     X       X      X      SP          X
+   (26) Tannery, soap manufacture or fat rendering                                                                X     X     X       X      X      X           X
+   (27) Truck terminal or truck transfer station                                                                  X     X     X       X      X       P          X
+   (28) Warehouse, storage yards or building supplies
+                                                                                                                  X     X     X       X      X      P          SP
+         distribution
+                                                                                                                                                        1
+C. Service commercial.                                                                                            X     X     SP     SP      X      SP          P              X
+D. Unlisted nonnuisance industry (as defined)                                                                     X     X     X      X       X      SP          X
+NOTES:
+   Reduced minimum lot area requirements for service commercial uses in the CI Zone: Refer to § 255-5-50.
+   No outdoor kennels permitted in CB Districts.
+                                                                                 255 Attachment 3:3                                                                      09 - 01 - 2018

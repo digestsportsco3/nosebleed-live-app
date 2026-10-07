@@ -1,0 +1,15 @@
+URL: https://www.corcoran.com/listing/for-rent/249-main-street-amagansett-ny-11930/5981523/regionId/3
+Accessed: 2026-10-07 (fetched via curl; HTML converted to text; navigation boilerplate trimmed)
+Page JSON: listingStatus AVAIL..., status Active, listedDate null, price 0 (Contact for Price)
+ 249 Main Street
+ Amagansett, NY 11930 Amagansett, NY 11930
+ Contact for Price 
+ 2000 Approx. Sqft/ 0.41 acres
+ Listing Courtesy of Corcoran , Dawn Brophy , (516) 242-2611 
+ The Details
+ Transaction Type for rent 
+ Property Type Commercial 
+ Built in 1786 
+ About this home
+ POP UP retail store availability on Main Street, Amagansett starting May 1st - September 2021. Building B available. 1000 sq. ft. first floor and 1000 sq. ft basement level. Loft on the top floor. A rare opportunity to lease this unique property in the central business district of Amagansett. Expansive front lawn and access to both Main Street, Amagansett, and its municipal parking lot. 50K
+ Web ID: 863253

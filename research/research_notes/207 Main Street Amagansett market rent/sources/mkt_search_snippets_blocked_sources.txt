@@ -1,0 +1,50 @@
+Accessed: 2026-10-07
+NOTE: The pages below returned HTTP 403 / Access Denied / Cloudflare blocks to automated fetching on 2026-10-07.
+The text recorded here is the search-engine result snippet / summary only (grade D unless otherwise stated). Verify manually before relying on any figure.
+
+1) Yelp - Organic Krush Kitchen and Eatery, 207 Main St, Amagansett
+URL: https://www.yelp.com/biz/organic-krush-kitchen-and-eatery-amagansett
+Snippet title (search, 2026-10-07): "ORGANIC KRUSH KITCHEN AND EATERY - Updated September 2026 - 87 Photos & 61 Reviews - 207 Main St, Amagansett, New York - Juice Bars & Smoothies"
+Search summary: rating 3.8 (61 reviews); hours listed 8:00 am - 5:00 pm Mon, Fri, Sat, Sun; Tue-Thu closed. (A second search summary listed Mon & Fri 8-5 with Tue-Thu closed.)
+Older snapshot URL: https://www.yelp.com/biz/organic-krush-kitchen-and-eatery-amagansett?start=40
+Snippet title: "ORGANIC KRUSH KITCHEN AND EATERY - TEMP. CLOSED - Updated December 2025 - 86 Photos & 59 Reviews - 207 Main St, Amagansett"
+
+2) Toast online ordering - "Organic Krush Amagansett NEW"
+URL: https://www.toasttab.com/local/organic-krush-amagansett-new-207-main-st/r-8fada374-04a6-4642-a58e-0e44ca1daf1c
+Search summary: open Sunday, Monday, Friday, Saturday, closing 4:45 pm; closed Tuesday-Thursday.
+
+3) Yelp - Organic Krush, 1111 Marcus Ave, New Hyde Park
+URL: https://www.yelp.com/biz/organic-krush-new-hyde-park
+Snippet title: "ORGANIC KRUSH - CLOSED - Updated November 2025 - 12 Photos - 1111 Marcus Ave, New Hyde Park, New York"
+
+4) HappyCow - Organic Krush Stony Brook
+URL: https://www.happycow.net/reviews/organic-krush-stony-brook-278874
+Snippet title: "CLOSED: Organic Krush - Stony Brook New York Restaurant - HappyCow"; search summary: "reported closed July 2025".
+
+5) NY Appellate Division - Panasia Estate, Inc. v Tapas y Mas, LLC, 2024 NY Slip Op 05898
+URL: https://www.nycourts.gov/reporter/3dseries/2024/2024_05898.htm
+Search summary: court quotes The Dictionary of Real Estate Appraisal (5th ed. 2010) defining market rent as "the most probable rent that a property should bring in a competitive and open market reflecting all conditions and restrictions of the lease agreement, including permitted uses, use restrictions, expense obligations, term, concessions, renewal and purchase options, and tenant improvements"; and notes that "effective rent is a concept distinct from market rent." (Grade A document; content here is D-grade snippet - verify wording.)
+
+6) The Anchor Society (East Hampton Village) - "The Problem"
+URL: https://theanchorsociety.org/the-problem/ (404 on fetch)
+Search summary: ~50% of East Hampton Village storefronts vacant in the off-season per a July walking survey; ~65% held by national/international businesses; average shop rents on Main Street and Newtown Lane $125-$150/SF vs $20/SF nationally. Page approx. 2 years old per search metadata.
+
+7) BLS CPI August 2026 (mirrored)
+URL (mirror): https://fedprimerate.com/docs/CPI/Fed-Prime-Rate--Inflation--Consumer-Price-Index-CPI--AUGUST--2026.pdf
+Search summary: "The food away from home index rose 3.4 percent over the last year"; food away from home +0.3% in August; food index +2.7% y/y; food at home +2.2% y/y. Official: https://www.bls.gov/news.release/cpi.nr0.htm (blocked to bots).
+Also BLS TED: https://www.bls.gov/opub/ted/2026/consumer-prices-up-3-5-percent-over-the-year-ended-june-2026.htm (title: all-items CPI +3.5% year ended June 2026; food away from home +3.4% per search summary).
+
+8) CNBC / NBC News, May 30, 2025 - "Summer rentals in the Hamptons are down 30%"
+URL: https://www.cnbc.com/2025/05/30/luxury-summer-rentals-hamptons.html
+Search summary: William Raveis broker said rentals ~30% behind prior years; ultra-high-end rental brokers reported 50-75% declines; Douglas Elliman's Enzo Morabito: "People are holding on to their money." Early-season snapshot only.
+
+9) Town of East Hampton Code ch. 255 (ecode360 blocked)
+URLs: https://ecode360.com/10416041 (Art. XI Uses and Dimensions); https://ecode360.com/10414858 (Art. V Special Permit Uses)
+Search summary (not verified against code text): parking schedule sets restaurants at 1 space per 3 seats (or per 3 persons rated capacity) plus 1 per employee per shift; in CB district the Planning Board may accept a fee in lieu of parking to a municipal parking fund; outdoor dining (sec. 255-11-88) allows up to 100% of indoor seating to be transferred outdoors in CB (75% in NB), total patrons not to exceed approved indoor seating without site plan approval.
+
+10) Suffolk County sales tax H1 2025 (local outlet summarizing NYS Comptroller)
+URL: https://southshorepress.locallabs.com/stories/674183054-suffolk-county-sales-tax-collection-up-3-for-first-half-of-2025
+Search summary: Suffolk sales tax revenue up 3% ($28M) H1 2025 vs H1 2024: $933M -> $961M.
+
+11) LIRR Montauk Branch 2026 ridership (Newsday, April 7, 2026 "LIRR prepares for ridership surge on the South Fork this summer", cited in Wikipedia)
+Search summary (source attribution uncertain): branch ridership up 6.4% in 2026 YTD (1,212,229 vs 1,138,921); Hampton Bays +23%, Southampton +46%; Amagansett not mentioned. Wikipedia lists 2025 Montauk Branch annual ridership 1,966,237 citing MTA 2025 Annual Ridership Report.

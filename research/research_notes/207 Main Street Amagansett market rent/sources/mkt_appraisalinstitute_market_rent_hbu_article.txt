@@ -1,0 +1,883 @@
+URL: https://www.appraisalinstitute.org/getattachment/efe3dcf2-80e0-4565-97a0-9c643479e512/Market-Rent-and-Highest-and-Best-Use.pdf
+Accessed: 2026-10-07
+
+Peer-Reviewed Article
+
+Market Rent and
+Highest and Best Use:
+Joined at the Hip?
+by Barry A. Diskin, PhD, MAI, AI-GRS, David C. Lennhoff, MAI, SRA, AI-GRS,
+Richard L. Parli, MAI, and Stephen D. Roach, MAI, SRA, AI-GRS
+Abstract
+It is well established that market value must be premised on the property’s highest and best use. What about
+market rent? This article investigates the relationships between highest and best use and market value and market
+rent and presents evidence and the rationale for a conclusion that as with market value, market rent also must be
+based on the property’s highest and best use. As a part of the investigation, three mini case studies are presented
+to illustrate the importance of carefully labeling and developing the appropriate rent. In conjunction with this investigation, use value will be redefined and a new definition of use rent proffered as an aid in diminishing confusion
+among the different types of rent.
+
+Introduction
+One of the most important steps in an appraisal is
+the determination of the type of value to be estimated. This is one of the assignment elements to
+be determined as part of problem identification,
+which is the first step in the valuation process.1
+Furthermore, it is well established that market
+value must be estimated in terms of the property’s
+highest and best use. Although other legitimate
+value estimates can be made—for example, use
+value and investment value—for it to be market
+value it must be based on the property’s highest
+and best use. This fact is supported in appraisal
+texts and standards, including the Uniform Standards of Professional Appraisal Practice (USPAP)
+and the Uniform Appraisal Standards for Federal
+Land Acquisitions (UASFLA). This connection
+to highest and best use is critical because, as noted
+in The Appraisal Journal, “it is axiomatic that ‘you
+can’t get the value right if you get the highest and
+best use wrong.’” 2 But what about market rent?
+
+Must the rent be based on the property’s highest
+and best use for it to represent market rent? Does
+it matter? In order to answer these questions, it
+is necessary to first investigate the relationship
+that value and market value have with highest
+and best use. The following discussion includes
+a clarifying case study and proposes a new definition of use value. The discussion then turns to
+the relationship of rent and market rent to highest and best use. Two additional clarifying case
+studies are then presented. Finally, a definition is
+proffered for a new term, use rent.
+
+Value, Market Value, and
+Highest and Best Use
+It is well established that market value and highest and best use are connected—the market value
+of a property is the value of the property at its
+highest and best use. This is in spite of the fact
+that there are various definitions of market value
+
+1. Appraisal Institute, chapter 6, “Identifying the Type of Value and Its Definition,” in The Appraisal of Real Estate, 15th ed. (Chicago:
+Appraisal Institute, 2020), 47–57.
+2. David C. Lennhoff and Richard L. Parli, “Timing Is Everything: The Role of Interim Use in the Highest and Best Use Conclusion,” The
+Appraisal Journal (Summer 2020): 198.
+
+www.appraisalinstitute.org
+
+Spring 2022 • The Appraisal Journal 123
+
+Peer-Reviewed Article
+
+as well as numerous ways to express highest and
+best use. The mixing and matching of the description of the two concepts does not change the relationship. The Appraisal of Real Estate, fifteenth
+edition, expresses the relationship succinctly:
+“Market value opinions are based on the highest
+and best use of a property.” 3
+This relationship is repeated in numerous
+authoritative texts,4 as well as in USPAP 5 and
+UASFLA.6 Nonetheless, this relationship is not
+self-evident and is not explicit in any of the
+numerous definitions of market value, including
+the definition used by government agencies that
+regulate federally insured financial institutions:
+Market value is the most probable price that a property
+should bring in a competitive and open market under all
+conditions requisite to a fair sale, the buyer and seller,
+each acting prudently, knowledgeably and assuming
+the price is not affected by undue stimulus. Implicit in
+this definition is the consummation of a sale as of a
+specified date and the passing of title from seller to
+buyer under conditions whereby:
+• Buyer and seller are typically motivated;
+• Both parties are well informed or well advised, and
+acting in what they consider their own best interests;
+• A reasonable time is allowed for exposure in the
+open market;
+• Payment is made in terms of cash in U.S. dollars or in
+terms of financial arrangements comparable thereto;
+and
+• The price represents the normal consideration for the
+property sold unaffected by special or creative financing or sales concessions granted by anyone associated with the sale.7
+
+To appreciate the connection, it is necessary to
+understand the basic definitions of real estate
+value.
+
+On the one hand, value is a generic term, referring to the power of a good or service to command other goods and services in exchange.8
+Value as a generic term can be applied to anything tangible or intangible. The determination
+of the value of something is normally quite simple because the something is usually, within its
+population, both uniform and transportable, and
+operating in an active market. The simplicity
+arises from the fact that little analysis is required
+of the demand and supply for the something
+because the market is typically universal.
+When the market in question is a real estate
+market, however, value is defined as “the monetary relationship between properties and those
+who buy, sell, or use those properties.” 9 Real
+estate is distinct from other markets in that
+real estate is neither uniform nor transportable.
+Consequently, the market is unique for each
+property. Not only is the market unique for
+each property, but the valuation of each property can be uniquely tailored to match the value
+question being asked. For instance, the value of
+a property can be determined based upon a particular use (use value); based upon particular
+investment terms or motivation (investment
+value); and/or based upon a property being a
+portion of a larger enterprise (value-in-use).10
+In each case, the real estate remains the same
+but the value is different because the appraisal
+does not focus on the entire property, but on a
+particular characteristic of the property. In
+essence, the focus on each characteristic limits
+the analysis, which in turn limits the results
+by restricting the considerations. For use value,
+the analysis prevents consideration of other,
+possibly more valuable, uses. For investment
+value, the analysis prevents specific consideration of market terms (except by coincidence).
+
+3. Appraisal Institute, The Appraisal of Real Estate, 15th ed., 52.
+4. See, for example, J. D. Eaton, Real Estate Valuation in Litigation, 2nd ed. (Chicago: Appraisal Institute, 1995), 18; Appraisal Institute, Real
+Property Value in Condemnation (Chicago: Appraisal Institute, 2018), 75; James H. Boykin, Land Valuation: Adjustments Procedures and
+Assignments (Chicago: Appraisal Institute, 2000), 39.
+5. Appraisal Standards Board, Standards Rule 1-3 (a) and (b) in Uniform Standards for Professional Appraisal Practice (Washington, DC: The
+Appraisal Foundation, 2020–2021).
+6. Interagency Land Acquisition Conference, Section 4.3, “Highest and Best Use” in Uniform Appraisal Standards for Federal Land Acquisitions
+(UASFLA), 2016 ed. (Washington, DC: US Government Printing Office, 2016), http://bit.ly/UASFLA.
+7. Appraisal Institute, The Dictionary of Real Estate Appraisal, 7th ed. (Chicago: Appraisal Institute, 2022), s.v. “market value.”
+8. Arthur A. May, The Valuation of Residential Real Estate, 2nd ed. (New Jersey: Prentice-Hall, 1953), 12.
+9. Appraisal Institute, The Dictionary of Real Estate Appraisal, 7th ed., s.v. “value.”
+10. See discussion in The Appraisal of Real Estate, 15th ed., 52–54.
+
+124 The Appraisal Journal • Spring 2022
+
+www.appraisalinstitute.org
+
+Market Rent and Highest and Best Use: Joined at the Hip?
+
+For value-in-use, the analysis prevents the consideration of all but its value in contribution to a
+greater enterprise.
+Market value, on the other hand, is not a
+generic term; it refers to a value that has no artificial conditions or limits imposed.11 Because of
+this, market value is not subjective. It is the value
+that is strictly market-determined; that is, the
+value is the outcome of the competitive and open
+interactions of buyers, sellers, and users, who
+combine to create market value. These three
+component interactions are unique to market
+value. Users interact to identify the mostproductive use of the property; buyers interact
+with other market participants to identify
+demand characteristics and affordability; and
+sellers interact to identify the availability of
+similar property types. Combined, this inter­
+action indicates the most productive use of the
+property (i.e., the highest and best use) and
+the value of the property for that use.
+The market, in this sense, includes all components expected in a competitive, open market.
+Open means that all relevant market participants
+can engage equally. Competitive indicates that
+there is a critical level of supply and demand so as
+to assure that the market participants have
+choices. Out of the choices, the market participant who offers the highest price for a property
+will become the buyer. In short, market value
+implies that the owner of the property (the hypothetical seller) should be able to maximize profit
+by marketing the property to the highest bidder
+(the hypothetical buyer).
+Only a competitive and open market allows
+transactions that are not artificially limited.
+This recognition is embedded in the definition
+of market value quoted earlier. Like all market
+value definitions, there is no “use” referenced;
+it is implied that the “competitive and open
+market” will determine the use. This is the case
+no matter whether the property is land that is
+vacant or land that is improved. It is the market that determines the use (and, in turn, it is
+the use that determines value). And the marketdetermined use is the use that is valued to arrive
+at market value.
+
+The market-determined use for a particular
+property is the property’s highest and best use. The
+product of a highest and best use analysis is identification of the most probable use of the property
+that results in the highest value—in other words,
+the use that will attract the buyer willing to pay
+the highest price for the property. After all, if the
+
+If the use is the highest and best use, then
+the value will be market value; however,
+if the use is a specified use, then the value
+will be use value. There can be no mixing
+of market value and use value.
+hypothetical seller wants to maximize its return,
+that can only be accomplished by selling to the
+highest bidder. A bidder will pay the highest price
+because its use is the most productive use after
+consideration of all reasonable alternatives. Any
+limitation on use is market dictated—whether it
+be a legal, physical, or financial limitation. Whatever the limitation is, it is not an artificial limitation. This distinguishes market value from other
+values and prevents it from being a generic term
+and a subjective conclusion. Consequently, any
+reference to market value unambiguously refers to
+the value of the use that is the property’s highest
+and best use. In addition, market value unambiguously must be determined by a competitive and
+open market. These two conditions produce a
+result that is market driven and void of hypothetical conditions.
+Ignoring these two conditions can result in an
+erroneous value. This is shown in the following
+case study, which introduces the fundamental
+relationship between the type of use and the type
+of value. If the use is the highest and best use,
+then the value will be market value; however, if
+the use is a specified use, then the value will be
+use value. There can be no mixing of market
+value and use value.
+
+11. For a good discussion on the history of issues surrounding market value, see Michael V. Sanders, “Market Value: What Does It Really
+Mean?” The Appraisal Journal (Summer 2018): 206–218.
+
+www.appraisalinstitute.org
+
+Spring 2022 • The Appraisal Journal 125
+
+Peer-Reviewed Article
+Case Study 1—Market Value
+For at least a decade, an argument has continued about
+the value of nationally or regionally known drugstores.
+The crux of the dispute centers on whether assessors
+should use sale-leaseback and build-to-suit transactions
+(without adjustment) as indications of market value.
+As previously pointed out, understanding the con­
+nection between market value and highest and best use
+is critical. To illustrate, the following case study presents
+a common circumstance that accompanies the mislabeling of market value.
+In some areas, there are but two major drugstore
+retailers—for this example assume CVS and Walgreens.
+Furthermore, assume, by law, the property assessor must
+come to an estimate of the market value of the real estate
+used by a CVS store. How is that to be accomplished?
+The assessor will find, for instance, that if a CVS store
+is sold without the typical CVS lease in place, the likely
+purchaser is not Walgreens. There are two reasons for
+this. First, even a cursory observation will show that the
+two firms (for example, CVS and Walgreens) typically
+locate their stores near each other. A CVS store is often
+on an opposite corner or in the same or next block. This
+phenomenon is an example of the principles of cumulative attraction, retail agglomeration, and Hotelling’s law.12
+Second, even if the two retailers are not located near
+each other, most top-tier retailers have their own building prototype and will not want to be associated with
+the competitor’s image. Walgreens will not choose to
+be in a building once used by CVS.
+So, who is the probable purchaser in an open and
+competitive market? We know that there has to be a
+probable purchaser, because by definition market value
+presumes a transaction—the owner transfers title to a
+purchaser. Generally, the transfer of the real estate with
+a lease to CVS in place most likely would be to another
+investor interested in buying the bond-like arrangement.13 This is true even if the store is vacant since the
+real estate is of secondary importance. Determining the
+market value of the fee simple interest in such a property requires first looking to the highest and best use
+of the property, which requires a determination of the
+
+most likely purchaser assuming that the property would
+be exposed to a competitive and open market. Market
+observation reveals that most sales of property developed under build-to-suit arrangements are purchased
+for a secondary use, such as a non–brand-name retailer,
+or modified for an adaptive reuse.14
+
+The crux of the dispute centers on
+whether assessors should use sale-leaseback
+and build-to-suit transactions (without
+adjustment) as indications of market value.
+Buildings for some businesses, especially retail and
+restaurants, have design features and improvements
+that are valuable only to a single business/user, because
+they are part of the business’s branding. Examples of
+this are common and include fast-food franchises (e.g.,
+McDonald’s with their golden arches), and dine-in
+restaurants (e.g., Cracker Barrel); the building design is so
+immediately recognizable that it does not even require a
+sign.15 Although these special components contribute to
+the business, they rarely have value in the marketplace.
+Instead, these items are segments of the going concern
+of the business.16
+As noted, Walgreens and other similar retailers often
+enter into long-term leases; they choose not to tie
+up their capital in real estate. A common agreement
+between the lessor and lessee for CVS or Walgreens
+includes a sale-leaseback agreement whereby the retailer
+owns a finished store that meets their needs, sells the
+property, and then leases the store back on a net basis.
+The concern with this arrangement from a valuation
+perspective is clearly expressed in The Appraisal of Real
+Estate, fifteenth edition:
+Sale-leaseback transactions must be used with caution
+because the lease is usually negotiated as part of the
+
+12. According to Hotelling’s law, there is an “undue tendency for competitors to imitate each other in quality of goods, in location, and in other
+essential ways.” “Hotelling’s Law,” in The Palgrave Encyclopedia of Strategic Management, 2018 ed., https://bit.ly/3PLxbEF.
+13. The analogy of a national brand lease to a corporate bond is common. Discussions with brokers who specialize in the sale of these
+arrangements confirm that typical buyers view the transactions as having strong similarities to bonds. Interviews with investors/buyers
+corroborate the broker information.
+14. In fact, when CVS absorbed Eckerd’s, the majority of the closed stores quickly found lessees, including car dealerships, grocery stores, and
+other specialty retailers.
+15. Barry A. Diskin and Jack P. Friedman, “Taxation of ‘Branding‘ Leasehold Improvements,” Property Tax Alert 4, no. 1 (March 2006).
+16. See Douglas D. Lovell, “Does Your Client Really Need a Market Value Estimate?” The Real Estate Appraiser (May 1991): 11.
+
+126 The Appraisal Journal • Spring 2022
+
+www.appraisalinstitute.org
+
+Market Rent and Highest and Best Use: Joined at the Hip?
+sale rather than as an independent, market-based lease
+negotiation. Sale-leasebacks that are negotiated as
+financing vehicles may reflect motivations of the tenant
+and landlord that are not typical of the market.17
+
+Some assessors assert that drugstores with national
+recognition create their own highest and best use category. There is a viewpoint that the real estate needs for
+users like major drug retailers are profoundly different
+from other retail users. That argument holds that market
+value for CVS and Walgreens should be higher because
+these stores tend to locate at high-traffic corners at
+traffic-­controlled intersections. The evidence indicates
+otherwise, however. Other retail users also need a
+specific-­size building at high-traffic intersections. Examples include fast-food restaurants, banks, convenience
+stores with gasoline pumps, and shopping centers. Many
+businesses operate with a particular prototype building
+on a preferred site size. The concept is not unique to
+nationally known drugstores, and the relationship of
+their initial sale price to market value also is not unique.
+
+It is noteworthy that the definition of market
+value quoted earlier not only describes market
+value but also provides the rules (components)
+for determining market value. No other type of
+value is defined in this way. For instance, use
+value is described as follows:
+Use value is “the value of a property based on a specific
+use, which may or may not be the property’s highest
+and best use. If the specified use is the property’s highest and best use, use value will be equivalent to market
+value. If the specified use is not the property’s highest
+and best use, use value will be equivalent to the property’s market value based on the hypothetical condition
+that the only possible use is the specified use.18
+
+This definition is silent regarding the rules for
+applying the definition. No mention is made
+requiring a competitive and open market, no
+mention is made of conditions requisite to a fair
+sale, no mention is made of dictating actions by
+the buyer and seller. In short, the use value definition places no restrictions on the details of the
+transaction. For these reasons—and in order to
+distinguish and standardize the application of use
+value—the following definition is proposed:
+
+Use value is the most probable price that a property put
+to a specified use should bring in a competitive and
+open market under all conditions requisite to a fair sale,
+the buyer and seller, each acting prudently, knowledgeably and assuming the price is not affected by undue
+stimulus. Implicit in this definition is the consummation
+of a sale as of a specified date and the passing of title
+from seller to buyer under conditions whereby:
+• buyer and seller are typically motivated;
+• both parties are well informed or well advised, and
+each acting in what it considers its own best interest;
+• a reasonable time is allowed for exposure in the open
+market;
+• payment is made in terms of cash in U.S. dollars or in
+terms of financial arrangements comparable thereto;
+and
+• the price represents the normal consideration for the
+property sold, unaffected by special or creative
+financing or sales concessions granted by anyone
+associated with the sale.
+
+Note that the specified use is the only difference
+from market value. A competitive and open market is required, and the actions of the buyer and
+seller are defined, but the use is presumed to be
+limited to less than the property’s highest and
+best use.
+
+Rent, Market Rent, and
+Highest and Best Use
+If highest and best use determines market value,
+what determines highest and best use? In large
+part, it is market rent. It is axiomatic that a property’s highest and best use will have the highest
+rent of the alternative uses, all else being equal.
+But, market rent can be determined as an independent calculation. Is it also tied to highest and
+best use similar to market value? The discipline
+associated with the application of market value
+should be duplicated with market rent. The current definition of market rent is as follows:
+The most probable rent that a property should bring in
+a competitive and open market under all conditions requisite to a fair lease transaction, the lessee and lessor
+each acting prudently and knowledgeably, and assum-
+
+17. Appraisal Institute, The Appraisal of Real Estate, 15th ed., 438.
+18. Appraisal Institute, The Dictionary of Real Estate Appraisal, 7th ed., s.v. “use value.”
+
+www.appraisalinstitute.org
+
+Spring 2022 • The Appraisal Journal 127
+
+Peer-Reviewed Article
+ing the rent is not affected by undue stimulus. Implicit
+in this definition is the execution of a lease as of a specified date under conditions whereby
+• Lessee and lessor are typically motivated;
+• Both parties are well informed or well advised, and
+acting in what they consider their best interests;
+• Payment is made in terms of cash or in terms of
+financial arrangements comparable thereto; and
+• The rent reflects specified terms and conditions typically found in that market, such as permitted uses, use
+restrictions, expense obligations, duration, concessions, rental adjustments and revaluations, renewal
+and purchase options, frequency of payments (annual,
+monthly, etc.), and tenant improvements (TIs).19
+
+This definition is modeled like the definition of
+market value. Both assume knowledgeable participants, which is a key component of the market in
+both market value and market rent. For the same
+reasons that market value is tied to highest and
+best use, market rent is tied to highest and best
+use. In addition, market rent unambiguously
+must be determined by a com­petitive and open
+market. These two conditions produce a result
+that is market driven and void of hypothetical
+conditions imposed on the market. As with market value, ignoring these two conditions can
+result in an erroneous rental rate. This is shown
+in the following case study.
+Case Study 2—Market Rent
+This second case study looks at determination of market
+rent, with an emphasis on the build-to-suit market and
+the related rents.
+As with sale-leaseback arrangements, national
+retailers including CVS, Walgreens, and others often
+enter into build-to-suit agreements whereby a developer is retained to produce the finished store, and
+upon completion, the retailer leases the property at an
+agreed upon rate of return from the developer. Retailers enter into these agreements to avoid tying up their
+capital in real estate development when it would be
+better deployed within the business. These build-to-suit
+arrangements are rarely, if ever, exposed to the market
+and, therefore, do not meet the criteria for market rent.
+
+The rent is simply a function of cost to construct and
+may include non-realty components.
+In his Appraisal Journal article Robert W. Hartmann
+states, “Sale-leaseback and build-to-suit transactions
+are, in essence, financing vehicles and not necessarily
+market-derived transactions.” 20 The income streams
+associated with build-to-suit and sale-leaseback arrangements, by default, contain the effect of financing. The
+Appraisal of Real Estate and the Appraisal Foundation
+include language supportive of this contention.21
+For CVS and Walgreens, there is a great likelihood the
+rent figures are based on the cost of a turnkey finished
+property, include a component for financing, and are
+influenced by the intangible of a lease that is guaranteed by a nationally known retail firm. If any of these
+elements are present, the rental rate includes non-realty
+components.22 For this reason, such rents are not market
+rent and, therefore, should not be used to estimate the
+market rent of the fee simple interest. The results of
+doing so can be dramatic. Consider the following buildto-suit example.
+Suppose the valuation assignment involves real estate
+with the following characteristics:
+•	Freestanding retail pharmacy on 1.7 acres of land
+•	Parking for 78 cars
+•	Highly visible site with easy access and traffic control
+•	Single-story facility with gross building area of
+13,000 square feet
+•	Cost of construction was $2,300,000, including
+numerous business-specific custom features
+•	Site cost was $1,250,000. (The high land-to-total
+cost ratio is not unusual. Frequently freestanding
+pharmacies buy improved sites and raze the
+improvement, as business value more than covers
+the above-market cost.)
+•	All-in cost was $3,550,000
+•	Annual rent is based on 8% of all-in cost—
+$284,000 or $21.85 per square foot
+Current rental comparables in the immediate area for
+freestanding retail properties range from $15–$18.
+These are all second-generation store uses, but with
+similar freestanding retail highest and best uses.
+A few years after construction the property owner
+sold the leased fee to a group of dentists at a 6% capi-
+
+19. Appraisal Institute, The Dictionary of Real Estate Appraisal, 7th ed., s.v. “market rent.”
+20. Robert W. Hartmann, “Valuation for Loans on Restaurants,” The Appraisal Journal (October 1996): 411.
+21. Appraisal Institute, The Appraisal of Real Estate, 15th ed., 438; and Appraisal Practices Board, APB Valuation Advisory 2: Adjusting
+Comparable Sales for Seller Concessions (Washington, DC: The Appraisal Foundation, March 7, 2012), 15, https://bit.ly/3cxhtii.
+22. Moreover, accurately segregating these non-realty elements from the total lease payment is difficult because the lack of data prevents any
+systematic method to segregate the elements.
+
+128 The Appraisal Journal • Spring 2022
+
+www.appraisalinstitute.org
+
+Market Rent and Highest and Best Use: Joined at the Hip?
+talization rate, or $4,733,333. The successfully operated
+store is reassessed, in fee simple (meaning, available
+to be leased at market), for real estate tax purposes
+at $5,000,000, based mostly on capitalization of the
+build-to-suit rent. In this example, substituting build-tosuit rent for market rent results in a value obviously well
+above market value of the fee simple interest.
+
+Case Study 3—Market Rent
+The third case study involves a condemnation action in
+California that presented several interesting issues related
+to market rent. It concerns the determination of the market rent for a project that is mixed use by timing.23
+The property is a 50,000-square-foot parcel located
+along a major street in a major city. The site is improved
+with a 20,000-square-foot, forty-year-old retail building
+occupied by a discount retailer that is the original
+tenant in the building. The balance of the site is
+devoted to surface parking. The business conducted
+on the property has been highly successful and profitable; the sales per square foot are among the highest
+in the forty-store chain.
+The land use regulations permit a wide variety of
+commercial and residential uses, and the height and
+density regulations would permit a building up to about
+twenty stories. Several similar nearby properties had
+recently been redeveloped with condominium towers
+having residential units over ground-floor retail space.
+Analysis of these properties, nearby sales, and other
+market metrics led to a conclusion that the highest and
+best use would be redevelopment with a twenty-story
+mixed-use commercial/residential tower. Although the
+development would have been physically possible and
+economically feasible, the timing of development could
+not have been “now” because the site was not entitled
+for that use. An entitlement expert who had processed
+entitlements for a number of properties in the immediate area opined that it would take about six years to
+process environmental approvals and building plans, and
+to obtain actionable entitlements to build the project.
+In the condemnation action, the property was valued
+by appraisers retained by both the public agency and
+the property owner. Although there was disagreement
+over the value of the property, the appraisers reached
+very similar highest and best use conclusions, including
+conclusions regarding the height, bulk, and mixed-use
+nature of the building, and conclusions regarding the
+timing of the use. In other words, both appraisers concluded that the highest and best use of the property was
+
+redevelopment of the property in about six years when
+entitlements could be obtained and retention of the
+retail interim use until that time. Consistent with their
+conclusions regarding the timing of the highest and best
+use, both appraisers relied solely on the sales comparison approach to appraise the property. However, the
+appraisers were also requested to provide an opinion of
+the market rent for the property, which was a required
+input into business goodwill valuations that were being
+conducted by forensic accountants (loss of business
+goodwill is a compensable element of compensation
+in con­demnation cases in California).
+
+The third case study involves a
+condemnation action in California
+that presented several interesting
+issues related to market rent.
+Keeping these facts in mind, what is the market rent
+for the property on the date of appraisal for the period
+of time during which the retail use would remain pending redevelopment? The issue can be illuminated
+by examining the positions of the two parties:
+The appraiser for the public agency concluded that the
+market rent for the property was $2,400,000 per year,24
+or $120 per square foot of building area per year. The
+appraiser reached this conclusion by applying a 6% rate
+of return (extracted from the market) to the $40,000,000
+value conclusion for the property. The conclusion was
+silent regarding additional terms of the market rent.
+The appraiser for the property owner concluded that
+the market rent was $840,000 per year, or $42 per
+square foot per year. The appraiser reached this conclusion by analyzing recent leases of similar retail properties
+devoted to similar uses, including several leases to the
+same user. Additional concluded terms included a sixyear lease, rent escalation of 3% per year, tenant paying
+all utilities and minor maintenance, and no landlord
+concessions.
+To help bridge the gap between the valuation conclusions, consider the positions of the respective appraisers
+in light of the recognition that market rent must be
+based on the highest and best use of the property for
+which the market rent is being determined.
+
+23. Lennhoff and Parli, “Timing Is Everything: The Role of Interim Use in the Highest and Best Use Conclusion,” The Appraisal Journal.
+24. All rental figures used in this example are net.
+
+www.appraisalinstitute.org
+
+Spring 2022 • The Appraisal Journal 129
+
+Peer-Reviewed Article
+The agency’s appraiser’s conclusion does not reflect
+that the highest and best use of the property has two
+components—the retention of the retail use for six years,
+and then redevelopment of the property.25 This situation is
+an example of an interim use. In this case, the interim use
+is due to a delay in legal permissibility. Here, the highest
+and best use of the property as of the effective date of
+the appraisal was not solely continued retail use nor was
+it solely future mixed-use redevelopment—it was both.26
+Since the highest and best use of the property for the
+six years following the effective date of the valuation
+included retention of the improvements on the property,
+the only way to harmonize the concepts of market rent
+and highest and best use is to conclude that the market
+rent on the date of appraisal was for retail use. Applying
+a return on the value of the property, as the agency’s
+appraiser did, improperly merged the components of
+highest and best use and commingled the timing of
+the interim use and the future use.
+Market rent, like market value, is as of a specific date.
+The highest and best use determination mandated that,
+in this case, market rent was for retail use consistent
+with the existing building. The probability that use of
+the property in the future may change should not influence the conclusion of market rent in the present.
+Now suppose some of the facts of the case study
+are changed to further illustrate the linkage between
+market rent and highest and best use. Assume the
+same property and the occupant but no six-year delay
+to obtain entitlements, the property is fully entitled for
+redevelopment, and the value of the land for redevelopment far exceeds the value of the property under the
+current discount retail use. Given that the highest and
+best use timing is now under this scenario, there is no
+interim use and the market rent would be based on the
+development highest and best use.
+
+Case Study 3 demonstrates that all highest and
+best use conclusions are on a timeline that pro­
+gress through component uses. This is especially
+the case with a proposed mixed-use property
+when one of the uses is an interim use. Even with
+a “single use” project, the use is “single” only
+because of the inability to predict far enough in
+the future. In this sense, all uses are interim uses.
+
+Exhibit 1 Relationship between
+Highest and Best Use, Market
+Value, and Market Rent
+
+Highest & Best Use
+
+Market Value
+
+Market Rent
+
+This recognition mandates that the market rent
+associated with a highest and best use is the use
+that is immediately operative. In other words, a
+highest and best use has a macro level and a
+micro level. The macro level addresses the three
+highest and best conclusions (use, timing, market
+participants), while the micro level addresses the
+use that is the result of the timing dictated by the
+macro highest and best use. In this way, both
+market value and market rent are connected at
+the hip to highest and best use, with market
+value based on the macro highest and best use
+and market rent based on the micro highest and
+best use, i.e., the immediate use of the property.
+The flowchart in Exhibit 1 shows that both market value and market rent are equally dependent
+on a property’s highest and best use.
+Just as there are many types of value, e.g., use
+value, insurable value, and investment value,
+there are a number of types of rent. In fact, The
+Appraisal of Real Estate lists eight different types
+of rent:27
+•	Market rent
+•	Deficit rent
+•	Contract rent
+•	Base rent
+•	Effective rent
+•	Percentage rent
+•	Excess rent
+•	Overage rent
+The important distinction between use value and
+market value is that use value is based on a specific use, which may or may not be the property’s
+highest and best use. “If the specified use is the
+
+25. The purpose of the market rent estimate in this matter was to support a valuation of the business goodwill of the retailer. Since the retailer
+would have been displaced upon redevelopment, only the referenced six-year period is at issue.
+26. “There are not two highest and best use conclusions. An interim use is not in itself a highest and best use. Rather, an interim use is part of a
+highest and best use.” Appraisal Institute, Real Property Valuation in Condemnation (Chicago: Appraisal Institute, 2018), 83–84.
+27. Appraisal Institute, The Appraisal of Real Estate, 15th ed., 420.
+
+130 The Appraisal Journal • Spring 2022
+
+www.appraisalinstitute.org
+
+Market Rent and Highest and Best Use: Joined at the Hip?
+
+prop­erty’s highest and best use, the use value will
+be equivalent to market value.” 28 However,
+although they are equivalent, they are not synonymous. Just as a capitalization rate and a yield
+rate might be the same number (as when no
+change in income or value is projected over the
+holding period), they are also not synonymous.
+There is no formal term “use rent,” but perhaps
+there should be, as the issue of market rent is
+really a labeling issue. Absent the distinction
+between use rent and market rent, however,
+appraisers may not consider the difference
+between the two and end up estimating the use
+rent when they are supposed to be estimating the
+market rent.
+Under the paragraph heading “Market Rent
+and Highest and Best Use,” UASFLA states as
+follows:
+[I]n developing an appraisal for a leasehold, the
+appraiser must use the definition of market rental value
+[in Section 1.5.4.1]. As part of the development of an
+appraisal for a leasehold acquisition, the appraiser must
+determine the highest and best use of the property (as
+improved) that is the subject of the leasehold. This
+requirement is critical to the selection of comparable
+rents used in the valuation process.”29
+
+This indicates that the UASFLA recognizes market rent must be premised on the property’s highest and best use. And just as the market value
+depends on getting the highest and best use right,
+so does market rent. The market rent cannot be
+right if the highest and best use conclusion is
+wrong, or if the highest and best use is ignored
+and market rent is estimated based on the existing use. This relationship is further confirmed in
+The Appraisal of Real Estate, fifteenth edition,
+which states “if the current rent and terms of a
+leased parcel correspond to market rent and
+terms for comparable leased parcels with similar
+highest and best uses [emphasis added] then only a
+property rights adjustment would be necessary.” 30
+
+The connection to highest and best use is what
+distinguishes market rent from other rent types.
+Consequently, any reference to market value
+unambiguously refers to the rent of the use that is
+the property’s highest and best use. In addition,
+market rent unambiguously must be determined
+by a competitive and open market. These two
+conditions produce a rent that is market driven
+and void of hypothetical conditions imposed on
+the market.
+As noted earlier, one way to diminish confusion about what market rent means would be to
+formulate a definition of use rent to differentiate
+it from market rent. To achieve that goal, the following use rent definition is proposed:
+The most probable rent that a property limited to a specific use would bring in a competitive and open market
+under all conditions requisite to a fair lease transaction,
+the lessee and lessor each acting prudently and knowledgeably, and assuming the rent is not affected by undue
+stimulus. Implicit in this definition is the execution of a
+lease as of a specified date under conditions whereby
+• Lessee and lessor are typically motivated;
+• Both parties are well informed or well advised, and
+acting in what they consider their best interests;
+• Payment is made in terms of cash or in terms of
+financial arrangements comparable thereto; and
+• The rent reflects specified terms and conditions typically found in that market, such as permitted uses, use
+restrictions, expense obligations, duration, concessions, rental adjustments and revaluations, renewal
+and purchase options, frequency of payments (annual,
+monthly, etc.), and tenant improvements (TIs).
+
+To summarize, the key to market rent is the “market,” which implies the most probable rent the
+market would pay, which in turn implies the
+property’s highest and best use. This is because
+the market rent estimate, as with a market value
+estimate, would be the “highest value reflected
+by detailed analyses of all logical potential use
+and development alternatives.” 31
+
+28. Appraisal Institute, The Dictionary of Real Estate Appraisal, 7th ed., s.v. “use value.”
+29. Interagency Land Acquisition Conference, Uniform Appraisal Standards for Federal Land Acquisitions (UASFLA), 2016 ed. (Washington, DC:
+US Government Printing Office, 2016), 39.
+30. Appraisal Institute, The Appraisal of Real Estate, 15th ed., 345.
+31. Harold D. Albritton, Controversies in Real Property Valuation: A Commentary (Chicago: American Institute of Real Estate Appraisers of the
+National Association of Realtors, 1982), 9–10.
+
+www.appraisalinstitute.org
+
+Spring 2022 • The Appraisal Journal 131
+
+Peer-Reviewed Article
+
+Summary and Conclusions
+This article demonstrates how both market value
+and market rent are inextricably tied to the highest and best use of the asset being valued.
+Although there are other types of value and other
+types of rent, if the wrong value or the wrong
+type of rent is estimated, then the result will be
+the wrong answer to the appraisal problem. As
+the mini case studies illustrate, that answer could
+be significantly different than the correct one.
+Just as there is no concept of “market value in
+use,” there is no such thing as “market rent in
+
+use.” To clarify this point, a definition of use rent
+has been suggested in this article. Note that use
+rent might be higher or lower than market rent
+or equal to market rent—however, it is never
+synonymous with market rent, although they
+may at times be the same number. As explained,
+the type of value sought will influence the type of
+rent estimated and together they define the
+appraisal problem to be solved or the question to
+be answered. Clarifying the distinction among
+value types and rent types should reduce the likelihood of an appraisal unintentionally answering
+the wrong question related to market rent.
+
+About the Authors
+Barry A. Diskin, PhD, MAI, AI-GRS, is the principal in the firm Diskin Property Research. He is a consulting analyst
+with Cushman & Wakefield. The focus of his litigation support practice includes eminent domain, property tax, and
+contamination issues. From the fall of 1980 through the spring of 2015, Diskin was a professor in the College of
+Business at Florida State University. During his 35 years at FSU, he taught courses in real estate valuation to seniors
+at the undergraduate level as well as graduate students; he received two university-level teaching awards. Today, his
+teaching activities continue as a member of the faculty of the Appraisal Institute. Diskin received a master’s degree
+in finance and a PhD in land economics from Georgia State University. Professional designations include the MAI and
+AI-GRS. He is a member of the Real Estate Counseling Group of America, a group of practitioners and academicians.
+Diskin has published articles on various topics in such journals as Real Estate Issues, Assessment Journal, Journal of
+Property Valuation and Taxation, The Appraisal Journal, American Business Law Journal, National Tax Journal, Journal
+of Real Estate Research, Chartered Property and Casualty Underwriters Journal, Right of Way, Real Estate Appraiser
+and Analyst, Journal of Real Estate Appraisal and Economics, Assessment Digest, Real Estate Economics, and Inter­
+national Journal of Business Disciplines. He is a member of The Appraisal Journal Academic Review Panel. Diskin has
+testified in more than forty counties in Florida and in a number of other states, including Maine, Michigan, South
+Carolina, Arizona, and California. He has appeared before committees of the Florida legislature on several occasions
+and appeared as a guest expert on national television. Contact: diskin@diskinproperty.com
+David C. Lennhoff, MAI, SRA, AI-GRS, is a principal with Lennhoff Real Estate Consulting LLC, which is officed
+in Gaithersburg, Maryland. His practice centers on litigation valuation and expert testimony relating to appraisal
+methodology, USPAP, and allocating assets of a going concern. He has taught nationally and internationally for
+the Appraisal Institute. International presentations have been in Tokyo, Japan; Beijing and Shanghai, China; Berlin,
+Germany; Seoul, South Korea; and Mexico City, Mexico. He has been a development team member for numerous
+Appraisal Institute courses and seminars and was editor of its Capitalization Theory and Techniques Study Guide,
+third edition. He was the lead developer for the Appraisal Institute’s asset allocation course, Fundamentals of
+Separating Real and Personal Property from Intangible Business Assets, and edited the two accompanying business
+enterprise value anthologies. He also authored the Appraisal Institute’s Small Hotel/Motel Valuation seminar. Lennhoff
+is a principal member of the Real Estate Counseling Group of America, a national organization of analysts and
+academicians founded by the late William N. Kinnard Jr., PhD. He is a past editor-in-chief of and frequent contributor
+to The Appraisal Journal, and a past recipient of the Journal’s Armstrong/Kahn Award and a two-time winner of the
+Swango Award. Contact: david.lennhoff@gmail.com
+SEE NEXT PAGE FOR ADDITIONAL RESOURCES >
+
+132 The Appraisal Journal • Spring 2022
+
+www.appraisalinstitute.org
+
+Market Rent and Highest and Best Use: Joined at the Hip?
+Richard L. Parli, MAI, is president of Parli Appraisal Inc., a full-service appraisal firm located in Warrenton, Virginia.
+He has been involved in the development of numerous Appraisal Institute courses and seminars, is a coauthor of the
+Appraisal Institute text The Valuation of Apartment Properties, and is a professional faculty member of the Johns
+Hopkins Carey Graduate School of Business. He has an MBA in finance from the Pennsylvania State University and
+is a principal member of the Real Estate Counseling Group of America. He is a past recipient of The Appraisal Journal’s
+Swango Award and a three-time winner of the Armstrong/Kahn Award. Contact: rparli@parliappraisal.com
+Stephen D. Roach, MAI, SRA, AI-GRS, CDEI, has been an appraiser for over forty-two years. His appraisal assignments have included significant and complex assignments throughout the United States. Roach holds a bachelor
+of science degree in real estate from San Diego State University, and he has extensive deposition and trial testimony
+experience. Roach is a contributing editor to numerous Appraisal Institute books, courses, and seminars. His Appraisal
+Institute teaching experience includes basic and advanced courses on income capitalization, litigation courses, and
+over 200 additional courses and seminars. In addition to teaching courses throughout the United States, Roach has
+led appraisal courses, seminars, or lectures in Switzerland, Germany, South Korea, Japan, and China. He also has
+served as a visiting professor of appraisal theory and practice at the International Center for Land Policy Studies and
+Training in Taipei, Taiwan, since 2004. Roach is a principal member of the Real Estate Counseling Group of America.
+Contact: steve@jrcvaluation.com
+
+Additional Resources
+Suggested by the Y. T. and Louise Lee Lum Library
+
+Appraisal Institute
+• Education
+		 http://www.appraisalinstitute.org/assets/1/7/aiedcat.pdf
+• Guide Notes to the Standards of Professional Appraisal Practice
+		 https://www.appraisalinstitute.org/assets/1/7/AI_Guide_Notes.pdf
+• Lum Library, Knowledge Base [Login required]
+		 Value
+• Property Rights Symposium Discussion Paper
+		 http://bit.ly/SymposiumPaper
+
+www.appraisalinstitute.org
+
+Spring 2022 • The Appraisal Journal 133
+
+

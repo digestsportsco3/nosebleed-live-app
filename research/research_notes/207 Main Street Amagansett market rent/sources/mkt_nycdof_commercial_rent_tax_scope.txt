@@ -1,0 +1,194 @@
+URL: https://nyc.gov/site/finance/business/business-commercial-rent-tax-crt.page
+Accessed: 2026-10-07
+
+Business Commercial Rent Tax - CRT
+
+Department of Finance311Search all NYC.gov websites
+
+Menu
+
+Text-Size
+
+Search
+
+Search
+
+Search
+
+Business and Excise TaxesBusiness ResourcesBenefitsDoing Business with NYC
+
+ Share
+
+ Print 
+
+Commercial rent tax (CRT)
+
+This tax is charged to tenants who occupy or use a property for commercial activity in Manhattan, south of 96th Street. You are subject to the commercial rent tax if you rent space in this area for any trade, business, profession, or commercial activity, and:
+
+It is located in the borough of Manhattan, south of the center line of 96th Street;
+
+The annual or annualized gross rent paid is at least $250,000; and
+
+You do not meet any other exemption criteria, such as short rental periods, residential subtenants, use for theatrical productions, and not-for-profit status.
+
+Note: Tenants with annual taxable rents between $250,000 and $300,000 are eligible for a sliding-scale credit that partially offsets the tax.
+
+A "tenant" is someone who pays rent as a lessee, sub-lessee, licensee, or concessionaire. Tenant-shareholders in co-ops are included. You must also pay the commercial rent tax if you:
+
+Occupy space in buildings owned by spouses or parents;
+
+Occupy space in buildings you own jointly with another person who is not your spouse or domestic partner;
+
+Occupy space in buildings owned by corporations where you are an officer or shareholder;
+
+Are a corporation, occupying space in a building that is owned by a subsidiary corporation or by a parent corporation; or
+
+Are a corporation, occupying a space in a building owned by an officer or stockholder of the corporation.
+
+Tax rates
+
+The tax rate is 6% of the base rent. All taxpayers are granted a 35% base rent reduction, which reduces the effective tax rate to 3.9%. In addition, you are allowed a tax credit if your annualized base rent before the 35% rent reduction is between $250,000 and $300,000. Be sure to review the instructions for commercial rent tax for information about other types of deductions from base rent.
+
+Small business tax credit
+
+Beginning June 1, 2018, taxpayers may claim the small business tax credit.
+
+The credit effectively exempts tenants with "total income" of $5,000,000 or less AND "annual base rent before rent reduction" of less than $500,000 from the commercial rent tax.
+
+Taxpayers with "total income" of more than $5,000,000 but less than $10,000,000 and "annual base rent before rent reduction" of more than $500,000 but less than $550,000 receive a sliding scale credit against the tax.
+
+Taxpayers with "total income" equal to or more than $10,000,000 or "annual base rent before rent reduction" less than $250,000, or equal to or more than $550,000, are not eligible for this credit.
+
+Taxpayers with multiple premises and "total income" of less than $10,000,000 may be eligible for this credit with respect to some of their premises, while ineligible with respect to others.
+
+Small business tax credit base rent
+
+The “small business tax credit base rent” is the base rent before the 35% rent reduction (amount on page 2, line 7 of the NYC Form CR-A commercial rent tax Annual Return) allowed pursuant to Administrative Code Section 11-704(h)(2).
+
+Note: Do not use “Annualized Base Rent before rent reduction (page 2, line 12 of the NYC Form CR-A).”
+
+Total income
+
+“Total income” is defined by section 11-704.4 of the Administrative Code to mean the amount reported to the Internal Revenue Service for federal income tax purposes (i.e. Federal 1120 line 11; Federal 1120S line 6; Federal 1065 line 8) in the tax year immediately preceding the period for which the tenant is applying for this credit that is equal to the gross receipts or sales of the individual, trust, estate, partnership, association, company, or corporation minus returns and allowances, minus the cost of goods sold plus the amount of any dividends, interest, gross rents, gross royalties, capital gain net income, net gain or loss from the sale of business property, net farm profit or loss, ordinary income or loss from other partnerships, estates or trusts or other income or loss. "Total income" is the income reported on your federal tax return, regardless of how you file for New York City tax purposes
+
+Calculating base rent
+
+  Rent paid by a tenant for each location
+- Rent received or due from a subtenant
+ = Base Rent*
+
+*When the base rent is for less than one year (or for less than three months on a quarterly return), you must annualize it over the entire period of the return. The annualized base rent is used to determine the appropriate tax rate.
+
+Calculating your tax
+
+Use quarterly and annual commercial rent tax returns to calculate the exact tax that you owe: 
+
+Step 1
+
+Calculate the base rent that is subject to the tax.
+
+Subtract all permissible deductions, including those allowed under the Commercial Revitalization Program from the gross rent paid.
+
+Apply the rent reduction percentage (35%).
+
+Step 2
+
+If the property was not rented for every month of the return, annualize the amount from Step #1 over the entire period of the return. You can do this by dividing the base rent by the number of months rented, then multiplying by either 3 (quarterly return) or 12 (annual return).
+
+Step 3
+
+Determine the effective tax rate, 0% or 6%, using the amount from Step #1 (or the prorated amount for partial-period rentals from Step #2) and the chart on page 2 of the return.
+
+Step 4
+
+Calculate the tax liability by applying the tax rate from Step #3 to the base rent amount from Step #1.
+
+If you rented more than one property in the part of Manhattan that is covered by the tax, repeat these four steps for each location to determine your total tax liability.
+
+If you rent more than one location in the same property, aggregate all locations to determine the base rent.
+
+Exemptions from this tax
+
+You are not subject to the commercial rent tax if:
+
+Your annualized base rent is less than $250,000 before applying the 35% rent reduction and the NYC Commercial Revitalization Program special reduction. However, you are required to file a tax return if your annual gross rent paid is more than $200,000.
+
+You are renting premises for 14 days or less during the tax year.
+
+You are a Tenant who uses at least 75 percent of the floor space to rent to others for residential purposes. This does not include operators of hotels.
+
+You are renting property for certain theatrical productions. The exemption will be for the first 52 weeks after the production begins.
+
+You are a governmental body or a nonprofit religious, charitable, or educational organization. Other types of nonprofit organizations will be exempt as long as the property is not used for commercial purposes and they receive a written tax exemption from the Department of Finance.
+
+You are located in the "World Trade Center Area." Refer to the CR-A instructions for a detailed definition of this area's boundaries
+
+You occupy a property that is located in the Commercial Revitalization Program abatement zone and is being used for retail sales purposes.
+
+Filing information
+
+File electronically at www.nyc.gov/eservices. If you are filing on paper, download the current tax forms as well as spreadsheets for additional premises and subtenants.
+
+Commercial rent forms
+
+CR-Q Quarterly Returns
+
+CR-Q1 2026-27 Commercial Rent Tax 1st Quarter Return
+(applicable for the tax period June 1, 2026 to August 31, 2026)
+Download Instructions
+File online with e-Services
+
+Finance Supplemental Excel Spreadsheet (Quarterly Reporting)
+(to report more than 3 (three) premises or multiple subtenants) 
+Note: If reporting multiple subtenants for any one premises, attach a separate excel spreadsheet with the following information – premises number, subtenant name and EIN or SSN, and rental income amount. Aggregate the rental income and enter on the applicable row 21. Add this multiple subtenant attachment to your paper filings.
+
+Archived Commercial Rent Tax Annual Returns (by Tax Year)
+
+Filing deadlines
+
+Annual returns are due on June 20 each year. Quarterly returns are due on September 20, December 20, and March 20 each year.
+
+Every tenant must file an annual return on or before June 20 covering the prior year, from June 1 to May 31, unless both of the following are true:
+
+The annual gross rent paid for any taxable premises (before deductions and reductions) is $200,000 or less; and
+
+The rent received from any subtenant of the premises is $200,000 or less.
+
+Every tenant who is subject to tax for a period must also file a quarterly return.
+
+If a tenant ceases to do business, the tax is due immediately, and a final return for the entire year (Form CR-A) must be filed within 20 days from the date the tenant ceases to do business.
+
+Legal authority
+
+Title 11, Chapter 7, Administrative Code
+Enabling Act: Chapter 257 of the Laws of 1963
+
+Frequently asked questions
+
+What records related to commercial rent tax should a taxpayer keep?
+
+Every landlord of taxable property and every tenant of taxable property must keep the following records:
+
+Identification of each tenant or sub-tenant
+
+The rent required to be paid
+
+The rent paid and received
+
+The location of each premises
+
+The period of each occupancy
+
+All leases or agreements that fix the rents required to be paid and/or the rights of the tenants
+
+Records must be available for examination upon request by the Department of Finance. Leases and agreements stating rents required to be paid and/or the rights of a tenant should be kept for a period of three years after the expiration of the lease. Other records must also be kept for a three-year period after the annual return is filed (unless written permission is granted to destroy them before that time).
+
+What if a business ceases operations during the year?
+
+Your tax is due within 20 days after your business ceases operations. The amount of tax due is measured by your base rent, including escalations and other charges normally payable to the landlord for the part of the tax year that you were doing business. If, under your lease, you are required to continue to pay rent, or if, for any reason, you continue to pay rent for the premises after your business ceases operations, you still must file the normally required returns.
+
+Are billboards subject to the commercial rent tax?
+
+Yes, the rent paid with respect to a billboard is taxable under the commercial rent tax if the billboard is located in the borough of Manhattan, south of the center line of 96th Street; the annual or annualized gross rent paid is at least $250,000; and the tenant does not meet any other exemption criteria, such as short rental periods, residential subtenants, use for theatrical productions, and not-for-profit status. Download the update on audit issues concerning billboards.
+
+﻿﻿
