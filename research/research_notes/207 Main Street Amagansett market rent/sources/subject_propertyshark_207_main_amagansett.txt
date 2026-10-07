@@ -1,0 +1,21 @@
+URL: https://www.propertyshark.com/mason/Property/33812847/207-Main-St-Amagansett-NY-11930/
+Accessed: 2026-10-07
+Note: Direct download blocked (HTTP 403). Content below is the field extraction returned by the WebFetch tool (model-summarized from the page), not raw page text. Grade D (aggregator).
+----
+Parcel ID: 171-1-18. Property type/class: Converted Residence (483). SWIS 472489; school district 472403.
+Lot size: 0.05 acres. Lot dimensions/frontage: not shown. Building size: not shown. Stories: not shown. Year built: not shown.
+Zoning: locked. Owner: locked (source "Deed").
+Last sale: "No recently recorded sales for this property." Permits: none recently recorded.
+Tax year | Market value | Assessed value | Tax rate | Property tax
+2025-2026 | $1,226,562 | $3,925 | 830.88 | $3,261
+2024-2025 | $1,121,429 | $3,925 | 800.76 | $3,143
+2023-2024 | $1,060,811 | $3,925 | 730.54 | $2,867
+2022-2023 | $872,222 | $3,925 | 733.25 | $2,878
+2021-2022 | $676,724 | $3,925 | 700.897 | $2,751
+2020-2021 | $676,724 | $3,925 | 690.54 | $2,710
+2019-2020 | $688,596 | $3,925 | 677.95 | $2,661
+2018-2019 | $676,724 | $3,925 | 662.944 | $2,602
+2017-2018 | $688,596 | $3,925 | 649.6 | $2,550
+2016-2017 | $665,254 | $3,925 | 639.85 | $2,511
+Walk score 51; Transit score 0; Bike score 46.
+Neighbor page 177 Main St (https://www.propertyshark.com/mason/Property/33812850/177-Main-St-Amagansett-NY-11930/): parcel 171-1-14, Restaurants (421), 0.1 acres, built 1968, last sale 01/17/2023 $4,450,000, market value $2,484,375 (2025-26), tax $6,605.
