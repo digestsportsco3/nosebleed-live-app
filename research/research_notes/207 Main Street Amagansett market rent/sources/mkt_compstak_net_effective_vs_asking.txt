@@ -1,0 +1,169 @@
+URL: https://compstak.com/blog/net-effective-rent-vs-asking-rent-cre-underwriting
+Accessed: 2026-10-07
+
+Net Effective Rent vs. Asking Rent: Why the Gap Matters for CRE Underwriting - CompStak
+
+ Introducing CompStak One Connect: Access trusted CRE intelligence anywhere your team works. Learn more here.
+ Learn about CompStak One Connect
+
+ Home 
+
+ Products
+
+ CompStak Exchange
+ CompStak One
+ CompStak AI
+ API
+ Strategic Advisory
+
+ Data Standard 
+
+ Asset Types
+
+ Industrial
+ Multifamily
+ Office
+ Retail
+
+ Resources
+
+ Articles
+ Reports
+ Industry Solutions
+ Press Data Mentions
+
+ Company
+
+ Partnerships
+ CompStak News
+ About Us – Old
+ Careers
+
+ Get Started Old 
+
+ Login 
+
+Help us direct you to the right place to sign up
+
+ Tips & Tricks 
+
+Net Effective Rent vs. Asking Rent: Why the Gap Matters for CRE Underwriting
+
+ Twitter
+
+ LinkedIn
+
+ Facebook
+
+ Email
+
+August 9, 2026
+
+Net effective rent is the number that tells an underwriter what a landlord actually collects, not what the marketing flyer says. Asking rent and starting rent describe the sticker price of a lease. Net effective rent describes the economics after concessions are stripped out. In a market where free rent and tenant improvement allowances have stayed elevated, that gap can be the difference between a deal that pencils and one that doesn't.
+
+Key Takeaway: Asking rent and starting rent are contractual figures set before concessions. Net effective rent nets out free rent and work value (TI) to show real economic rent. Underwriters who model NOI off asking or starting rent risk overstating cash flow, particularly in sectors where concession ratios remain above pre-pandemic norms.
+
+What Is Net Effective Rent?
+
+Net effective rent is the average monthly rental cost a tenant pays over the full lease term, after subtracting the value of free rent and work value. It is the closest single metric to true occupancy cost, because it converts a lease's headline number and its concession package into one comparable figure.
+
+CompStak calculates this at the comp level rather than estimating it at the market level. A lease with a $50.00/SF starting rent, six months of free rent on a 120-month term, and a $75.00/SF work value allowance carries a materially lower net effective rent than the starting rent alone suggests. Two leases signed at the same starting rent can have very different economics depending on what the landlord gave up to get the deal done. That's the entire point of tracking it separately.
+
+Net Effective Rent vs. Asking Rent vs. Starting Rent
+
+Asking rent is the landlord's listed price before negotiation. Starting rent is the contractual rent locked in at lease commencement, agreed after negotiation but still gross of concessions. Net effective rent nets out free rent and work value from starting rent to show the real economic figure. Each sits at a different stage of the deal.
+
+Asking rent is a marketing input. It's useful for gauging where a landlord wants to land, but it says nothing about what actually got signed. Starting rent is a real, contractual number, pulled directly off the lease. It's a meaningful improvement over asking rent for comp purposes, but it still ignores the free rent and TI package that shaped how the tenant got there. Net effective rent closes that last gap. For underwriting, the practical hierarchy runs asking rent (least reliable for cash flow), then starting rent (contractual but gross), then net effective rent (the economic truth).
+
+The distinction matters most when a market is running high concessions. CompStak's data on Manhattan office shows a market-vs-current rent spread that varies sharply by submarket, from 13.7% at the tightest top submarket to 49.1% at Hudson Yards, with a citywide average of 19.9%, per CompStak's CompStat: rent growth, the industrial drop, and easing retail report. A spread that wide means the asking-rent-to-effective-rent conversation isn't academic. It's the difference between a Hudson Yards deal that looks like it clears underwriting on paper and one that actually does once concessions are applied.
+
+How Lease Concessions Widen the Effective Rent Gap
+
+Lease concessions are the landlord incentives that separate starting rent from net effective rent, and the two levers are free rent and work value. Free rent is measured as months at zero rent, or as a percentage of total lease term. Work value is the per-square-foot dollar amount a landlord contributes toward build-out. Both reduce the tenant's real occupancy cost without touching the contractual rent number on the lease.
+
+Concession levels move with market conditions, and they don't move uniformly across asset classes. In office, CompStak's 2025 Biannual Office Market Report — Part Four found concession ratios still elevated relative to historical norms, though they declined over the two most recent quarters for both Prime Class A and non-Prime Class A space. That's a signal landlords are regaining some pricing leverage, but the concession package remains large enough that ignoring it in underwriting would materially misstate achievable rent.
+
+Industrial tells a more granular version of the same story. Per CompStak's 2026 Biannual Industrial Market Overview — Part Three, non-bulk free rent hit a cycle high of 4.5% of term in Q1 2026, while bulk free rent edged to 4.8%, down slightly from a 4.9% peak the prior quarter. Over the same period, bulk adjusted effective rent reached $10.66/SF, up 0.9% year over year but still 7.7% below its cyclical peak, and non-bulk adjusted effective rent fell 1.7% year over year to $12.67/SF, 7.9% off its high. Starting rent alone would have missed both the softening and the shape of the recovery.
+
+Work Value (TI) and Free Rent: The Two Levers of Concessions
+
+Work value and free rent are the two components that determine how far net effective rent falls below starting rent. Work value, industry-standard "TI" or tenant improvement allowance, is a build-out contribution measured in dollars per square foot. Free rent is a term-length concession measured in months or as a percentage of the lease term. CompStak's platform records both as distinct fields on every comp, which is what allows net effective rent to be calculated rather than estimated.
+
+This distinction matters in underwriting because the two levers behave differently across deal sizes and asset classes. A large industrial tenant might negotiate modest free rent but a substantial work value allowance to fund racking and dock upgrades. A small office tenant might take the opposite mix. Blending them into a single concession ratio, free rent plus work value per square foot, is useful for comparing deals at a glance, but underwriters modeling cash flow timing need the two split out. Free rent affects the first months of a rent roll directly. Work value is typically amortized or funded upfront, which changes how it hits a sponsor's capital stack.
+
+Why the Effective Rent Gap Matters for CRE Underwriting
+
+The effective rent gap matters for underwriting because NOI models built on asking or starting rent can overstate achievable cash flow whenever concessions are running above historical norms. An underwriter comparing a subject property's rent roll to market comps needs those comps calculated on the same basis, net effective rent to net effective rent, or the comparison is distorted before the analysis even starts.
+
+The stakes are highest in recovering markets, where headline rent growth can mask a slower recovery in real economics. CompStak's 2025 Biannual Office Market Report — Part One found that office effective rents have exceeded 2019 levels for only the past five quarters, and are up just 7.8% since. A model that leaned on asking rent trends alone, without checking the effective rent series, would have called that recovery years earlier than the data actually supports.
+
+Mark-to-market spreads compound the issue. In industrial, the same Part Three report shows the spread between market rent and in-place rent narrowing to 2.5% for bulk space in Q1 2026, down from a 4.7% peak in Q3 2024, and to 1.4% for non-bulk, down from a 3.9% peak. Underwriters relying on rollover assumptions from eighteen months ago are working off a spread nearly double what the current comp set supports. That gap flows straight into exit cap rate assumptions and hold-period IRR, which is precisely the kind of variance the NCREIF property index is designed to help institutional investors benchmark against.
+
+How CompStak Calculates Net Effective Rent
+
+CompStak calculates net effective rent at the individual lease level by netting starting rent against free rent and work value over the full lease term, rather than modeling an average concession package at the market level. Every comp that feeds this calculation runs through machine learning and statistical anomaly detection, then a review by CompStak's data analysts, before it's published on CompStak Exchange.
+
+That comp-level granularity is what makes CompStak's Net Effective Rent figures usable in underwriting rather than just directional. An analyst pulling comps for a subject property can segment by tenant type, deal size, and submarket, and see the actual free rent months and work value dollars behind each figure rather than a blended market average.
+
+Underwriters who need comps that already separate starting rent, work value, free rent, and net effective rent don't have to build that model from scratch. Get started with CompStak to pull verified lease comps with the concession detail already broken out.
+
+Source: CompStak's CompStat: rent growth, the industrial drop, and easing retail, 2025 Biannual Office Market Report — Part One, 2025 Biannual Office Market Report — Part Four, and 2026 Biannual Industrial Market Overview — Part Three. Data as of Q1–Q2 2026.
+
+FAQ
+
+What is net effective rent? 
+Net effective rent is the average monthly rental cost a tenant pays over the lease term after subtracting free rent and work value (TI). It reflects what a landlord actually collects economically, distinct from the contractual rent figure on the lease.
+
+What is the difference between asking rent and effective rent? 
+Asking rent is the landlord's pre-negotiation listed price. Effective rent is the net economic figure after concessions. Asking rent tells you what a space is marketed at; effective rent tells you what it actually costs a tenant.
+
+What is starting rent? 
+Starting rent is the contractual rent per square foot at lease commencement, agreed after negotiation but before free rent or work value are netted out. It's a real, signed number, but it still overstates true occupancy cost when concessions are large.
+
+What are lease concessions? 
+Lease concessions are landlord incentives, chiefly free rent and work value, that lower a tenant's real occupancy cost without changing the contractual rent. Their combined value determines how far net effective rent falls below starting rent.
+
+What is work value or TI? 
+Work value, industry-standard "TI" or tenant improvement allowance, is the dollar-per-square-foot amount a landlord funds toward a tenant's build-out. CompStak records it as "Work Value" on every lease comp, and it's one of two inputs used to calculate net effective rent, alongside free rent.
+
+Why does the effective rent gap matter for CRE underwriting? 
+Because modeling NOI off asking or starting rent overstates cash flow whenever concessions are elevated. Lenders and investors who underwrite off net effective rent capture the real economics behind a rent roll, which changes debt sizing, valuation, and rollover assumptions.
+
+How does CompStak calculate net effective rent? 
+CompStak nets starting rent against free rent and work value at the individual lease level, then verifies each comp through machine learning checks, anomaly detection, and analyst review before publishing it on CompStak Exchange.
+
+Related Posts
+
+ Live Q&A Recap with CompStak and Trepp: Upcoming Office Loan Maturities, Large Lease Expirations, and Anemic Space Demand—the Perfect Storm?
+
+Live Q&A Recap with CompStak and Trepp: Upcoming Office Loan Maturities, Large Lease Expirations, and Anemic Space Demand—the Perfect Storm?
+
+ Bad Timing Kills 80% of Telecom Deals
+
+Bad Timing Kills 80% of Telecom Deals
+
+ The Top 10 Office Sectors in Commercial Real Estate to Watch in 2025
+
+The Top 10 Office Sectors in Commercial Real Estate to Watch in 2025
+
+ We use essential cookies to operate our website.
+
+ Accept
+
+ We use essential and analytics cookies to operate and improve our website. Advertising cookies are disabled due to your browser's privacy settings.
+
+ Accept
+
+ We use essential and analytics cookies to operate and improve this website. You can choose whether to allow advertising cookies.
+
+ Customize
+
+ Accept All
+
+Manage Cookie Preferences
+
+ Essential & Analytics — Always On
+
+ Advertising
+
+ Save Preferences

@@ -1,0 +1,170 @@
+URL: https://compstak.com/blog/retail-rent-concession-trends-compstak-lease-data
+Accessed: 2026-10-07
+
+Retail Concession Trends: What CompStak Data Shows - CompStak
+
+ Introducing CompStak One Connect: Access trusted CRE intelligence anywhere your team works. Learn more here.
+ Learn about CompStak One Connect
+
+ Home 
+
+ Products
+
+ CompStak Exchange
+ CompStak One
+ CompStak AI
+ API
+ Strategic Advisory
+
+ Data Standard 
+
+ Asset Types
+
+ Industrial
+ Multifamily
+ Office
+ Retail
+
+ Resources
+
+ Articles
+ Reports
+ Industry Solutions
+ Press Data Mentions
+
+ Company
+
+ Partnerships
+ CompStak News
+ About Us – Old
+ Careers
+
+ Get Started Old 
+
+ Login 
+
+Help us direct you to the right place to sign up
+
+ Tips & Tricks 
+
+Retail Concession Trends: What CompStak Data Shows
+
+ Twitter
+
+ LinkedIn
+
+ Facebook
+
+ Email
+
+August 7, 2026
+
+Retail rent and concessions are easing, not disappearing. CompStak lease data from the Bay Area shows free rent as a share of term has pulled back from its 2023-2025 peaks in both CBD and suburban retail corridors, even as new leases continue to price below in-place rent on a per-square-foot basis. For asset managers underwriting retail acquisitions or renewals, the gap between headline asking rent and what tenants actually pay remains the number that matters.
+
+Key Takeaway: Bay Area retail concessions peaked in 2023 (CBD) and late 2024/early 2025 (suburban) and have since compressed to 2.3% of term in both segments as of Q2 2026, per CompStak's CompStat lease-data report. New leasing in the same market is still pricing at a discount to in-place rent, a signal that landlords are trading rate for occupancy even as concession packages shrink.
+
+Is the retail concession cycle turning?
+
+Yes, in the one market where CompStak has granular retail lease data across cycle points, both CBD and suburban free rent have declined from their post-pandemic highs. Landlords haven't regained full pricing power, though. The concession mix is shifting: free rent is giving ground faster than rent itself is recovering.
+
+Retail leasing since 2019 has followed a pattern familiar from office and industrial: concessions expanded as landlords worked to fill space during a period of tenant caution, then began normalizing as demand stabilized. The Bay Area data isolates that arc with unusual clarity because CompStak has consistent lease-level coverage across both CBD and suburban retail through multiple points in the cycle.
+
+In CBD retail, free rent as a share of term moved from 2.1% in Q4 2019 to a 2023 peak of 3.4%, then eased to 2.3% by Q2 2026, per CompStak's proprietary lease data. Suburban retail followed a similar shape but with a longer runway to the peak: 1.8% in Q4 2019, rising to 3.9% in late 2024 or early 2025, before settling at 2.3% in Q2 2026.
+
+Two things stand out. First, suburban concessions peaked later and higher than CBD, suggesting suburban landlords held out longer before adding free rent, or faced softer demand later in the cycle than downtown retail did. Second, both segments landed at the identical 2.3% figure by Q2 2026. That convergence is worth watching. If it holds through the back half of 2026, it would suggest a single retail concession baseline is forming across submarket types in the Bay Area, rather than two distinct recovery tracks.
+
+Source: CompStak's CompStat: rent growth, the industrial drop, and easing retail. Data as of Q2 2026.
+
+What's happening to retail rent itself, separate from concessions?
+
+New retail leases in the Bay Area are still signing below the rent tenants are currently paying on existing leases, in both CBD and suburban product. That spread is narrower in the suburbs than downtown, and it tells a different story than the concession data alone.
+
+Concessions are only half of the pricing picture. The other half is where new deals actually land on a per-square-foot basis relative to the existing rent roll. CompStak's trailing 12-month data shows Bay Area CBD retail deals averaging $33.06/SF against $36.30/SF across in-place CBD leases, a spread of roughly negative 8.9%. Suburban retail shows a tighter gap: $28.22/SF for new deals versus $28.71/SF current, a spread of about negative 1.7%.
+
+Read against the concession trend, this matters. Free rent has compressed to the same 2.3% level in both segments, but the underlying rent tenants are agreeing to pay diverges sharply by geography. Suburban retail is re-leasing close to its existing rent base. CBD retail is not. For an asset manager modeling rollover in a downtown retail portfolio, that means the mark-to-market assumption should be negative, not flat, even though free rent grants are shrinking.
+
+This is the kind of divergence that a headline "retail rents are stabilizing" narrative misses. Concessions and starting rent don't always move in the same direction at the same pace, and lease-level data is the only way to see the two separately.
+
+Source: CompStak's CompStat: rent growth, the industrial drop, and easing retail. Data as of Q2 2026.
+
+How should asset managers use this in underwriting?
+
+Model Net Effective Rent, not asking rent, for any retail renewal or new lease assumption, and adjust the mark-to-market spread by submarket type rather than applying a single blanket assumption across a portfolio. CBD and suburban retail assets in the same metro can carry meaningfully different rollover economics even when their concession structures look similar.
+
+Three practical implications follow from the Bay Area pattern:
+
+Concession budgets should trend down, but not to zero. Free rent at 2.3% of term is well off the 2023-2025 peaks but still above the Q4 2019 baseline in both CBD (2.1%) and suburban (1.8%) retail. Underwriting a full return to pre-pandemic concession levels would overstate near-term cash flow.
+
+Rollover risk isn't uniform across a portfolio. A CBD retail asset with leases rolling in the next 12 to 24 months carries a wider negative mark-to-market spread (around 8.9%) than a comparable suburban asset (around 1.7%). Blending these into a single portfolio-level assumption understates risk in urban-core holdings and overstates it in suburban ones.
+
+Track Work Value separately from free rent. CompStak captures Work Value (its field name for tenant improvement allowance) alongside free rent, and the two don't always move together. A landlord holding free rent flat while increasing Work Value is still adding concession cost, just in a different line item. Tracking both is the only way to see the full concession package.
+
+For lenders underwriting acquisition or refinance debt on retail collateral, the same logic applies to stress testing. A model that assumes flat re-leasing spreads across a mixed CBD/suburban retail portfolio will mis-price the downtown component specifically.
+
+Where retail data gets harder to generalize
+
+Retail doesn't have the fixed market list that CompStak maintains for office and industrial coverage. Coverage varies by submarket and asset type, and the Bay Area figures above should be read as a case study in how concessions and rent behave together, not as a national retail benchmark. Asset managers working outside the Bay Area should pull market-specific lease comps rather than extrapolate these figures to other metros.
+
+That's also why lease-level detail matters more in retail than in gateway office or industrial markets with more standardized coverage. Two retail assets a mile apart can carry different concession structures depending on tenant mix and co-tenancy clauses that don't show up in asking rent alone.
+
+FAQ
+
+Are retail concessions still rising in 2026? 
+No. Bay Area retail free rent has come down from its 2023-2025 peaks. CBD free rent as a share of term fell from 3.4% (2023 peak) to 2.3% by Q2 2026, and suburban retail fell from 3.9% (late 2024/early 2025 peak) to the same 2.3% level.
+
+How does CompStak measure retail concessions? 
+CompStak tracks free rent (months at no rent) and Work Value (its term for TI allowance) at the lease level, expressed as a share of term or per square foot, separately from headline asking rent.
+
+Is retail asking rent a reliable underwriting input? 
+On its own, no. Bay Area CBD data shows new leases averaging $33.06/SF against $36.30/SF across in-place CBD leases, meaning new deals are pricing below the existing rent base.
+
+Do CBD and suburban retail concessions move together? 
+They follow a similar arc on different timing. CBD peaked in 2023 at 3.4% of term; suburban peaked later, in late 2024 or early 2025, at 3.9%. Both landed at 2.3% by Q2 2026.
+
+What is Net Effective Rent and why does it matter for retail? 
+Net Effective Rent is the average monthly rental cost after concessions. In retail, where free rent swings several points of term year to year, it's a more accurate cash flow read than asking rent.
+
+Where can I get free retail lease comps? 
+CompStak Exchange offers free, analyst-reviewed sale and lease comp data, including retail for commercial real estate brokers, appraisers, and researchers.
+
+Does CompStak cover retail rent trends outside the Bay Area? 
+Yes, CompStak tracks retail lease data across the US.
+
+What's the difference between free rent and Work Value in retail leases? 
+Free rent is months of term at no rent. Work Value is CompStak's field name for the landlord's tenant improvement contribution. Both count as concessions but move independently, so tracking them separately gives a fuller picture of total deal cost.
+
+Related Posts
+
+ How to Read a Commercial Lease Comp Like a Pro
+
+How to Read a Commercial Lease Comp Like a Pro
+
+ How to Calculate Weighted Average Lease Term (WALT)
+
+How to Calculate Weighted Average Lease Term (WALT)
+
+ Understanding Distribution in Commercial Real Estate
+
+Understanding Distribution in Commercial Real Estate
+
+ We use essential cookies to operate our website.
+
+ Accept
+
+ We use essential and analytics cookies to operate and improve our website. Advertising cookies are disabled due to your browser's privacy settings.
+
+ Accept
+
+ We use essential and analytics cookies to operate and improve this website. You can choose whether to allow advertising cookies.
+
+ Customize
+
+ Accept All
+
+Manage Cookie Preferences
+
+ Essential & Analytics — Always On
+
+ Advertising
+
+ Save Preferences
