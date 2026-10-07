@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-06 (ATL-LAD and SD-MIL Game 3 briefs sent; runner was offline; see "What went out on Oct 6"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-07 (four Game 3/4 briefs sent; runner still offline; see "What went out on Oct 7"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -331,6 +331,20 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 7: four Game 3/4 lists (TB-NYY, CLE-CWS, LAD-ATL, MIL-SD), 10 each
+
+STILL NO RUNNER: run 37489364092 sat queued from Oct 6. A fresh mlb-daily (all four pairs) was
+dispatched Oct 7 and replaces it in the pending slot. All four lists use the Oct 5 data,
+so series scores after ALDS G1 / NLDS G2 are unknown and no item states one. (SD facing
+elimination was deduced: MIL led 2-0, and a G4 exists.)
+Starters per Nick: Martinez vs Fried, Espino vs Newcomb (both bullpen-type arms, 9 GS
+combined; no vsHitters data because they had <8 GS; used season-pitching.json), Glasnow vs
+Mahle, Buehler vs TBA (Buehler's file is only in series/2026-10-02).
+New sources used: standings splitRecords (one-run, extras, home), the history boxes for
+pitchers (Buehler's 2020 NLCS G6 elimination start), and season-pitching.json for relievers.
+Pitchers' postseason careers (Fried, Glasnow, Buehler) are NOT in the data. matchups.js only
+pulls postRounds for that day's probables. The next run fixes this for today's starters.
 
 ### What went out on Oct 6: Braves-Dodgers G3 ten + Padres-Brewers G3 ten
 
