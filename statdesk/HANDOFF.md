@@ -332,14 +332,16 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
-### RUNNER OFFLINE SINCE OCT 5 (as of Oct 12)
+### RUNNER WAS OFFLINE OCT 5-12 (back online Oct 12: run 38261642876 succeeded)
 
 GitHub cancels a queued job after about 24 hours with no runner (runs 37489364092 and
 37633767495 were both cancelled), so dispatches made while Nick's machine is off do nothing.
 On Oct 12 Nick asked for Ohtani's full 2026 postseason line. Only NLDS G1-G2 were on file
 (2 G, 2-for-8, two singles, 2 K), and he was told it is incomplete. player-post.js now takes
 "both" (hitting + pitching) and saves this October's game logs by round. Dispatched
-"Shohei Ohtani both"; it runs when the machine is on. OPS+ is not in the MLB API: it needs
+"Shohei Ohtani both". It ran on Oct 12: 5 G, 3-for-16, 3 BB, 1 CI, 0 XBH, did not pitch
+(data/mlb/players/660271-post-*.json). The LAD-ATL NLDS ended 3-1 Dodgers (G3 Oct 6, G4 Oct 7);
+NLCS G1 Oct 11 at MIL went to the Brewers. OPS+ is not in the MLB API: it needs
 Stathead (Baseball Reference), and must never be estimated.
 
 ### What went out on Oct 7: four Game 3/4 lists (TB-NYY, CLE-CWS, LAD-ATL, MIL-SD), 10 each
