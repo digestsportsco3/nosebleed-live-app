@@ -332,6 +332,20 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### What went out on Oct 12: 20 players "killing it" (CLE, TB, LAD, MIL), through NLCS G1
+
+DS results: TB swept NYY 3-0; CLE beat CWS 3-2 (G5 2-0: Ramirez 2-run HR, G. Williams 12 K, CLE staff 21 K);
+LAD beat ATL 3-1; MIL beat SD 3-1. NLCS G1: MIL 2, LAD 1.
+Method: sum every player's postseason line from ALL box scores in postseason/<date>/ (scratchpad
+script; JSON in scratchpad post26.json). Resolve duplicate names by id (two Max Muncys). Box
+`info` fieldList gives HR details (inning, men on).
+Items: Ramirez 1.187 OPS; Williams 24 K / 46 BF; Muncy 3 HR of 4 hits; MIL bullpen 23.2 IP 1 ER;
+Megill 3 SV + W; Cade Smith 11 K / 23 BF; Baker 3 SV, 0 H; the co-saves leaders (41 each) meet in the
+ALCS; Yamamoto 7 IP 10 K; Contreras 1.041 OPS; Chourio an RBI in every NLDS game; Freeman HR in
+back-to-back games; Ashby 7.2 scoreless; Adell 2 triples; Bailey .333 (after .206 in the regular
+season); Yelich .471 OBP; Tucker .400 OBP; Rays allowed 5 runs in the sweep; Aranda 0 K in 13 PA;
+E. Diaz 0 R (after an 8.68 regular-season ERA).
+
 ### RUNNER WAS OFFLINE OCT 5-12 (back online Oct 12: run 38261642876 succeeded)
 
 GitHub cancels a queued job after about 24 hours with no runner (runs 37489364092 and
