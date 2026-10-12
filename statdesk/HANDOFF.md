@@ -210,6 +210,16 @@ Worked example, Michael Harris II on Oct 6: Braves 21-3 when he homered; WC care
 vs NLDS 4-36; one of two .290/25/10 hitters (with Chourio); the only 25-HR qualified hitter
 with 23 or fewer walks.
 
+### ONLY THE TEAMS NICK NAMES. NEVER ELIMINATED TEAMS (Nick, 2026-10-12, angry)
+
+When Nick names teams ("Rays Brewers Dodgers Guardians"), every post is about those teams only.
+Do NOT name eliminated opponents anywhere: post, why, also, or verified line. On Oct 12 the
+first version of the 20-player list said "swept the Yankees", "21 White Sox", "against the Braves"
+and "off the Padres"; Nick read that as the list being about the wrong teams. Frame postseason
+stats as "this postseason / this October" and point forward to the current series (ALCS CLE-TB;
+NLCS LAD-MIL, with MIL up 1-0 after G1 on Oct 11). Before sending, grep the HTML for the names of
+every eliminated team.
+
 ### NO GENERIC BOX-SCORE STATS (Nick has now said this TWICE)
 
 He sees the box score. A line like "4-for-5, 2 HR, 6 RBI" is not an idea. Every
