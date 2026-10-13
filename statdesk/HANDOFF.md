@@ -342,6 +342,12 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 13: ALCS G2 list (Messick vs Peralta). ALCS G1: CLE 7, TB 3. NLCS G2: MIL 7, LAD 4 (MIL up 2-0)
+
+20 items in statdesk posted.json (note "Oct 13 CLE-TB ALCS G2"). Data: matchups/2026-10-13 (both starters with
+postRounds + every opposing hitter), series/2026-10-12 CLE-TB, postseason/2026-10-13 boxes. Also delivered
+in chat (no file): Judge vs Ohtani career/postseason comparison from players/592450 + 660271.
+
 ### What went out on Oct 12: 20 players "killing it" (CLE, TB, LAD, MIL), through NLCS G1
 
 DS results: TB swept NYY 3-0; CLE beat CWS 3-2 (G5 2-0: Ramirez 2-run HR, G. Williams 12 K, CLE staff 21 K);
