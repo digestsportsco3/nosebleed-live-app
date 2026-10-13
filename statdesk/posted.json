@@ -601,6 +601,492 @@
       "stat": "9 HR allowed in 5 games vs SD",
       "posted": "2026-10-06",
       "note": "Oct 6 SD-MIL Game 3 brief"
+    },
+    {
+      "name": "Max Fried",
+      "stat": "TB career opp .154, 1 HR in 169 AB",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Tampa Bay Rays",
+      "stat": "active hitters .183 vs Fried",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Nick Martinez",
+      "stat": "10 HR allowed vs NYY in 13 G; HR in all 3 2026 starts",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Ben Rice",
+      "stat": "4-for-9, 3 2B vs Martinez",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Trent Grisham",
+      "stat": "4-for-6, 3 2B vs Martinez",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Austin Wells",
+      "stat": "4 hits vs TB in 2026, all HR",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Paul Goldschmidt",
+      "stat": "2-for-24, 14 K vs TB in 2026",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Cody Bellinger",
+      "stat": "79 postseason G, 95 K",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Rays vs Yankees",
+      "stat": "one-run 25-14 vs 17-22; NYY 4-11 extras",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Yandy Díaz",
+      "stat": ".362, 10 RBI vs NYY in 2026",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Jorge Mateo",
+      "stat": "4-for-5 postseason",
+      "posted": "2026-10-07",
+      "note": "Oct 7 TB-NYY G3"
+    },
+    {
+      "name": "Espino/Newcomb",
+      "stat": "9 regular-season starts combined",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Daniel Espino",
+      "stat": "14.7 K/9",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Sean Newcomb",
+      "stat": "60 G, 3.09 ERA",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "White Sox",
+      "stat": "4-2 at home vs CLE",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Grant Taylor",
+      "stat": "4-inning save G1",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Munetaka Murakami",
+      "stat": "2 of 3 hits vs CLE were HR, G1 HR",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Miguel Vargas",
+      "stat": ".304/.424 vs CLE in 2026",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Austin Hedges",
+      "stat": "postseason 3-for-31",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "José Ramírez",
+      "stat": "ALDS career 18-for-80",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Steven Kwan",
+      "stat": ".357 vs CWS in 2026",
+      "posted": "2026-10-07",
+      "note": "Oct 7 CLE-CWS G3"
+    },
+    {
+      "name": "Tyler Glasnow",
+      "stat": "46 K in 121 AB vs ATL",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Austin Riley",
+      "stat": "1-for-12, 8 K vs Glasnow",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Atlanta Braves",
+      "stat": "active hitters .182 vs Glasnow",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Tyler Glasnow",
+      "stat": "28 K in last 16.1 IP",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Tyler Mahle",
+      "stat": "7 IP 0 R vs LAD for SF in 2026",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Tyler Mahle",
+      "stat": "WC G2 7 IP 1 ER",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Tommy Edman",
+      "stat": "3-for-26 vs Mahle",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Freddie Freeman",
+      "stat": "8-for-19, 6 RBI vs Mahle",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Teoscar Hernández",
+      "stat": "11 postseason HR in 39 G",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Mike Yastrzemski",
+      "stat": "postseason 1-for-23",
+      "posted": "2026-10-07",
+      "note": "Oct 7 LAD-ATL G4"
+    },
+    {
+      "name": "Walker Buehler",
+      "stat": "MIL career opp .192",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Walker Buehler",
+      "stat": "2020 NLCS G6 elimination 6 IP 0 ER",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Milwaukee Brewers",
+      "stat": "103-59, 55-26 home",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "San Diego Padres",
+      "stat": "51-30 at home",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Xander Bogaerts",
+      "stat": "58 postseason G, 2 World Series",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Jackson Merrill",
+      "stat": "9 RBI in 14 postseason G",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Austin Hays",
+      "stat": "postseason 4-for-29, 0 RBI",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Christian Yelich",
+      "stat": "3 RBI in 29 postseason G",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Jake Bauers",
+      "stat": "only Brewer with HR off Buehler",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "Milwaukee Brewers",
+      "stat": "11-5 in extra innings",
+      "posted": "2026-10-07",
+      "note": "Oct 7 MIL-SD G4"
+    },
+    {
+      "name": "José Ramírez",
+      "stat": "postseason 1.187 OPS, 2-run HR in 2-0 G5",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Gavin Williams",
+      "stat": "24 K of 46 batters in ALDS, 12 in G5",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Max Muncy",
+      "stat": "4 postseason hits, 3 HR",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Brewers bullpen",
+      "stat": "23.2 IP 1 ER",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Trevor Megill",
+      "stat": "3 saves + W, 0 R",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Cade Smith",
+      "stat": "all 5 ALDS games, 11 K of 23",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Bryan Baker",
+      "stat": "3 saves, 0 hits",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Smith & Baker",
+      "stat": "co-saves leaders meet in ALCS",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Yoshinobu Yamamoto",
+      "stat": "NLDS G3 7 IP 10 K",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "William Contreras",
+      "stat": ".316, 2 HR, 1.041 OPS",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Jackson Chourio",
+      "stat": "RBI in every NLDS game",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Freddie Freeman",
+      "stat": "HR in back-to-back NLDS games",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Aaron Ashby",
+      "stat": "7.2 scoreless IP",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Jo Adell",
+      "stat": "2 triples, 6 RBI",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Patrick Bailey",
+      "stat": ".206 reg -> .333 post",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Christian Yelich",
+      "stat": ".471 OBP",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Kyle Tucker",
+      "stat": ".400 OBP, HR, 2 SB",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Rays pitching",
+      "stat": "5 runs in 3-game sweep",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Jonathan Aranda",
+      "stat": "0 K in 13 PA",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Edwin Díaz",
+      "stat": "8.68 reg ERA -> 0 R, 2 SV",
+      "posted": "2026-10-12",
+      "note": "Oct 12 LCS players list"
+    },
+    {
+      "name": "Rays vs Guardians",
+      "stat": "TB 5-1, 20-8 in 2026",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Guardians",
+      "stat": "shut out 3 times in 6 vs TB",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Guardians vs Rays",
+      "stat": "3 postseason games, 2022 WCS 4 runs in 24 inn",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "José Ramírez",
+      "stat": "2022 WC G1 2-run HR, 2-1",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "José Ramírez",
+      "stat": "1-for-11 vs Rasmussen",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Drew Rasmussen",
+      "stat": "CLE career opp .206/.280 SLG",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Cleveland Guardians",
+      "stat": "active hitters .156 vs Rasmussen",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Drew Rasmussen",
+      "stat": "last 2 big starts 15 IP 2 H 19 K",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Drew Rasmussen",
+      "stat": "one of 5 postseason starts 7IP/1H/0ER/10K",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Drew Rasmussen",
+      "stat": "postseason 2.13 ERA",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Drew Rasmussen",
+      "stat": "last 6 reg starts 1.43 ERA",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Foster Griffin",
+      "stat": "all 31 career starts in 2026",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Foster Griffin",
+      "stat": "7 K of 8 outs postseason",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Foster Griffin",
+      "stat": "Rays 2 career PA vs him",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Steven Kwan",
+      "stat": "4-for-11, 2 2B vs Rasmussen",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Jo Adell",
+      "stat": "7 HR in 24 G vs TB",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Chase DeLauter",
+      "stat": "on base 4 of 6 vs Rasmussen",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Yandy Díaz",
+      "stat": ".304 vs CLE, 0-for-10 2022 WCS",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Chandler Simpson",
+      "stat": ".391 vs CLE 2026",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
+    },
+    {
+      "name": "Ryan Vilade",
+      "stat": ".500 HR vs CLE 2026",
+      "posted": "2026-10-12",
+      "note": "Oct 12 CLE-TB ALCS G1"
     }
   ]
 }

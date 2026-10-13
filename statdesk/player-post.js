@@ -12,8 +12,9 @@ const path = require("path");
 const API = "https://statsapi.mlb.com/api/v1";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
-const who = args.filter((a) => !/^(hitting|pitching)$/.test(a)).join(" ");
-const group = args.find((a) => /^(hitting|pitching)$/.test(a)) || "hitting";
+const who = args.filter((a) => !/^(hitting|pitching|both)$/.test(a)).join(" ");
+const groupArg = args.find((a) => /^(hitting|pitching|both)$/.test(a)) || "hitting";
+const groups = groupArg === "both" ? ["hitting", "pitching"] : [groupArg];
 const OUT = path.join(__dirname, "data", "mlb", "players");
 
 async function get(url) {
@@ -27,7 +28,7 @@ async function get(url) {
 
 async function main() {
   if (!who) throw new Error("usage: player-post.js \"Player Name\" [hitting|pitching]");
-  const rec = { query: who, group, at: new Date().toISOString(), candidates: [], rounds: {} };
+  const rec = { query: who, at: new Date().toISOString(), candidates: [], rounds: {} };
   let id = /^\d+$/.test(who) ? Number(who) : null;
   if (!id) {
     const u = `${API}/people/search?names=${encodeURIComponent(who)}&sportIds=1`;
@@ -39,18 +40,29 @@ async function main() {
   }
   if (!id) throw new Error(`no player found for ${who}`);
   const pu = `${API}/people/${id}`; rec.person = { url: pu, body: await get(pu) };
-  for (const t of ["F", "D", "L", "W"]) {
-    const cu = `${API}/people/${id}/stats?stats=career&group=${group}&gameType=${t}&sportId=1`;
-    const yu = `${API}/people/${id}/stats?stats=yearByYear&group=${group}&gameType=${t}&sportId=1`;
-    rec.rounds[t] = { career: { url: cu, body: await get(cu) }, yearByYear: { url: yu, body: await get(yu) } };
-    await sleep(150);
+  const season = new Date().getFullYear();
+  for (const group of groups) {
+    const out = { ...rec, group, rounds: {} };
+    for (const t of ["F", "D", "L", "W"]) {
+      const cu = `${API}/people/${id}/stats?stats=career&group=${group}&gameType=${t}&sportId=1`;
+      const yu = `${API}/people/${id}/stats?stats=yearByYear&group=${group}&gameType=${t}&sportId=1`;
+      out.rounds[t] = { career: { url: cu, body: await get(cu) }, yearByYear: { url: yu, body: await get(yu) } };
+      await sleep(150);
+    }
+    // This October game by game, every postseason round.
+    const lu = `${API}/people/${id}/stats?stats=gameLog&group=${group}&season=${season}&gameType=F,D,L,W&sportId=1`;
+    out.postGameLog = { url: lu, body: await get(lu) };
+    out.postGameLogByRound = {};
+    for (const t of ["F", "D", "L", "W"]) { const u = `${API}/people/${id}/stats?stats=gameLog&group=${group}&season=${season}&gameType=${t}&sportId=1`; out.postGameLogByRound[t] = { url: u, body: await get(u) }; }
+    const ru = `${API}/people/${id}/stats?stats=career&group=${group}&gameType=R&sportId=1`;
+    out.regularCareer = { url: ru, body: await get(ru) };
+    const su = `${API}/people/${id}/stats?stats=season&group=${group}&season=${season}&gameType=R&sportId=1`;
+    out.regularSeason = { url: su, body: await get(su) };
+    fs.mkdirSync(OUT, { recursive: true });
+    const name = `${id}-post-${group}.json`;
+    fs.writeFileSync(path.join(OUT, name), JSON.stringify(out));
+    console.log(`[player-post] ${who} -> ${id}, saved ${name}`);
   }
-  const ru = `${API}/people/${id}/stats?stats=career&group=${group}&gameType=R&sportId=1`;
-  rec.regularCareer = { url: ru, body: await get(ru) };
-  fs.mkdirSync(OUT, { recursive: true });
-  const name = `${id}-post-${group}.json`;
-  fs.writeFileSync(path.join(OUT, name), JSON.stringify(rec));
-  console.log(`[player-post] ${who} -> ${id}, saved ${name}`);
   if (!process.argv.includes("--commit")) return;
   const { spawnSync } = require("child_process");
   const repo = path.join(__dirname, "..");

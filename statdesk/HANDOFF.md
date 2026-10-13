@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-06 (ATL-LAD and SD-MIL Game 3 briefs sent; runner was offline; see "What went out on Oct 6"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-07 (four Game 3/4 briefs sent; runner still offline; see "What went out on Oct 7"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -210,6 +210,16 @@ Worked example, Michael Harris II on Oct 6: Braves 21-3 when he homered; WC care
 vs NLDS 4-36; one of two .290/25/10 hitters (with Chourio); the only 25-HR qualified hitter
 with 23 or fewer walks.
 
+### ONLY THE TEAMS NICK NAMES. NEVER ELIMINATED TEAMS (Nick, 2026-10-12, angry)
+
+When Nick names teams ("Rays Brewers Dodgers Guardians"), every post is about those teams only.
+Do NOT name eliminated opponents anywhere: post, why, also, or verified line. On Oct 12 the
+first version of the 20-player list said "swept the Yankees", "21 White Sox", "against the Braves"
+and "off the Padres"; Nick read that as the list being about the wrong teams. Frame postseason
+stats as "this postseason / this October" and point forward to the current series (ALCS CLE-TB;
+NLCS LAD-MIL, with MIL up 1-0 after G1 on Oct 11). Before sending, grep the HTML for the names of
+every eliminated team.
+
 ### NO GENERIC BOX-SCORE STATS (Nick has now said this TWICE)
 
 He sees the box score. A line like "4-for-5, 2 HR, 6 RBI" is not an idea. Every
@@ -331,6 +341,46 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### What went out on Oct 12: 20 players "killing it" (CLE, TB, LAD, MIL), through NLCS G1
+
+DS results: TB swept NYY 3-0; CLE beat CWS 3-2 (G5 2-0: Ramirez 2-run HR, G. Williams 12 K, CLE staff 21 K);
+LAD beat ATL 3-1; MIL beat SD 3-1. NLCS G1: MIL 2, LAD 1.
+Method: sum every player's postseason line from ALL box scores in postseason/<date>/ (scratchpad
+script; JSON in scratchpad post26.json). Resolve duplicate names by id (two Max Muncys). Box
+`info` fieldList gives HR details (inning, men on).
+Items: Ramirez 1.187 OPS; Williams 24 K / 46 BF; Muncy 3 HR of 4 hits; MIL bullpen 23.2 IP 1 ER;
+Megill 3 SV + W; Cade Smith 11 K / 23 BF; Baker 3 SV, 0 H; the co-saves leaders (41 each) meet in the
+ALCS; Yamamoto 7 IP 10 K; Contreras 1.041 OPS; Chourio an RBI in every NLDS game; Freeman HR in
+back-to-back games; Ashby 7.2 scoreless; Adell 2 triples; Bailey .333 (after .206 in the regular
+season); Yelich .471 OBP; Tucker .400 OBP; Rays allowed 5 runs in the sweep; Aranda 0 K in 13 PA;
+E. Diaz 0 R (after an 8.68 regular-season ERA).
+
+### RUNNER WAS OFFLINE OCT 5-12 (back online Oct 12: run 38261642876 succeeded)
+
+GitHub cancels a queued job after about 24 hours with no runner (runs 37489364092 and
+37633767495 were both cancelled), so dispatches made while Nick's machine is off do nothing.
+On Oct 12 Nick asked for Ohtani's full 2026 postseason line. Only NLDS G1-G2 were on file
+(2 G, 2-for-8, two singles, 2 K), and he was told it is incomplete. player-post.js now takes
+"both" (hitting + pitching) and saves this October's game logs by round. Dispatched
+"Shohei Ohtani both". It ran on Oct 12: 5 G, 3-for-16, 3 BB, 1 CI, 0 XBH, did not pitch
+(data/mlb/players/660271-post-*.json). The LAD-ATL NLDS ended 3-1 Dodgers (G3 Oct 6, G4 Oct 7);
+NLCS G1 Oct 11 at MIL went to the Brewers. OPS+ is not in the MLB API: it needs
+Stathead (Baseball Reference), and must never be estimated.
+
+### What went out on Oct 7: four Game 3/4 lists (TB-NYY, CLE-CWS, LAD-ATL, MIL-SD), 10 each
+
+STILL NO RUNNER: run 37489364092 sat queued from Oct 6. A fresh mlb-daily (all four pairs) was
+dispatched Oct 7 and replaces it in the pending slot. All four lists use the Oct 5 data,
+so series scores after ALDS G1 / NLDS G2 are unknown and no item states one. (SD facing
+elimination was deduced: MIL led 2-0, and a G4 exists.)
+Starters per Nick: Martinez vs Fried, Espino vs Newcomb (both bullpen-type arms, 9 GS
+combined; no vsHitters data because they had <8 GS; used season-pitching.json), Glasnow vs
+Mahle, Buehler vs TBA (Buehler's file is only in series/2026-10-02).
+New sources used: standings splitRecords (one-run, extras, home), the history boxes for
+pitchers (Buehler's 2020 NLCS G6 elimination start), and season-pitching.json for relievers.
+Pitchers' postseason careers (Fried, Glasnow, Buehler) are NOT in the data. matchups.js only
+pulls postRounds for that day's probables. The next run fixes this for today's starters.
 
 ### What went out on Oct 6: Braves-Dodgers G3 ten + Padres-Brewers G3 ten
 
