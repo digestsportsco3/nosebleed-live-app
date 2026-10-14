@@ -342,6 +342,13 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 14: NLCS G3 list (Gasser vs Snell, MIL up 2-0). Runner OFFLINE again (run 38606730601 queued)
+
+Built from series/2026-10-12 LAD-MIL (Snell and Gasser vsHitters, gameLogs) plus every LAD-MIL postseason box
+(2018 NLCS, 2020 WCS, 2025 NLCS, 2026 G1-G2). Key finds: G. Sanchez 7-23 with 5 HR off Snell; Gasser 0-2,
+7 ER vs LAD; LAD had won 7 straight postseason games vs MIL; MIL bullpen 9.2 IP 2 H 0 ER in the NLCS.
+ALCS G2 (Oct 13) result NOT in data yet.
+
 ### Oct 13: ALCS G2 list (Messick vs Peralta). ALCS G1: CLE 7, TB 3. NLCS G2: MIL 7, LAD 4 (MIL up 2-0)
 
 20 items in statdesk posted.json (note "Oct 13 CLE-TB ALCS G2"). Data: matchups/2026-10-13 (both starters with
