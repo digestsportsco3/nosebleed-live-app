@@ -342,6 +342,11 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 15: ALCS G3 list (Jax vs G. Williams). ALCS tied 1-1 (G2 TB 3-1, all 3 runs unearned). NLCS G3 MIL 6-2 (MIL up 3-0)
+
+The queued Oct 14 run finished on Oct 15 (runner back). Today's matchups are in matchups/2026-10-15 (Jax, Williams,
+Glasnow, plus yesterday's Snell and Gasser).
+
 ### Oct 14: NLCS G3 list (Gasser vs Snell, MIL up 2-0). Runner OFFLINE again (run 38606730601 queued)
 
 Built from series/2026-10-12 LAD-MIL (Snell and Gasser vsHitters, gameLogs) plus every LAD-MIL postseason box
