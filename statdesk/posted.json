@@ -1207,6 +1207,366 @@
       "stat": "9-for-29 vs Messick",
       "posted": "2026-10-13",
       "note": "Oct 13 CLE-TB ALCS G2"
+    },
+    {
+      "name": "Blake Snell",
+      "stat": "2025 NLCS G1 8 IP 1 H 10 K vs MIL",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Gary Sánchez",
+      "stat": "7 H, 5 HR vs Snell",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Brewers",
+      "stat": "4-for-21 vs Snell without Sánchez",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Blake Snell",
+      "stat": "22 K in 54 AB vs MIL",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Blake Snell",
+      "stat": "2026 1.90 ERA",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Robert Gasser",
+      "stat": "0-2, 7 ER, 3 HR vs LAD",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Andy Pages",
+      "stat": "4-for-5 HR vs Gasser",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Shohei Ohtani",
+      "stat": "0-for-6 vs Gasser",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Robert Gasser",
+      "stat": "1.67 ERA last 5 starts",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Robert Gasser",
+      "stat": "road 4.36 / home 3.40",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Dodgers vs Brewers",
+      "stat": "7 straight postseason wins ended",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Dodgers vs Brewers",
+      "stat": "3-0 in series",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Brewers",
+      "stat": "4 runs in 2025 NLCS, 9 in 2 games now",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Brewers bullpen",
+      "stat": "NLCS 9.2 IP 2 H 0 ER",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Dodgers",
+      "stat": "NLCS .169, 0 HR",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Shohei Ohtani",
+      "stat": "2025 NLCS G4 3 HR + 10 K",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Max Muncy",
+      "stat": "6-for-46 vs MIL postseason",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Christian Yelich",
+      "stat": "10-for-56 vs LAD postseason",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Tommy Edman",
+      "stat": ".353 vs MIL postseason",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Brewers vs Dodgers",
+      "stat": "6-3 in 2026, 34-32",
+      "posted": "2026-10-14",
+      "note": "Oct 14 MIL-LAD NLCS G3"
+    },
+    {
+      "name": "Gavin Williams",
+      "stat": "2.84 home / 5.05 away",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Gavin Williams",
+      "stat": "Apr 29 vs TB 7.2 IP 0 ER 9 K",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Gavin Williams",
+      "stat": "36 K in 20 postseason IP",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Yandy Díaz",
+      "stat": "7-for-15 vs Williams",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Cedric Mullins",
+      "stat": "0-for-7 vs Williams",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Griffin Jax",
+      "stat": "294 relief apps, first postseason start",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Griffin Jax",
+      "stat": "postseason 5 G 1 ER",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Cleveland Guardians",
+      "stat": "0 HR vs Jax, .230",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Steven Kwan",
+      "stat": "0-for-10 vs Jax",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "José Ramírez",
+      "stat": "5-for-17 vs Jax",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Griffin Jax",
+      "stat": "77 K home / 39 away",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "ALCS",
+      "stat": "tied 1-1, 8-6",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Rays",
+      "stat": "G2 3 unearned runs",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Freddy Peralta",
+      "stat": "G2 6 scoreless, 0.84 post ERA",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Bryan Baker",
+      "stat": "4 saves, 0 hits",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Ian Seymour",
+      "stat": "9 K 0 BB",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Rays",
+      "stat": "6 runs in 4 games outside ALCS G1",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Shawn Armstrong",
+      "stat": "1 hit in 5.1 IP",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Junior Caminero",
+      "stat": "only HR off Williams",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Jonny DeLuca",
+      "stat": ".333, 2 SB",
+      "posted": "2026-10-15",
+      "note": "Oct 15 TB-CLE ALCS G3"
+    },
+    {
+      "name": "Milwaukee Brewers",
+      "stat": ".125 vs Glasnow, 31 K",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Christian Yelich",
+      "stat": "1-for-14 vs Glasnow",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "William Contreras",
+      "stat": "0-for-9 vs Glasnow",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Tyler Glasnow",
+      "stat": "MIL opp .319 SLG, 22 BB",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Tyler Glasnow",
+      "stat": "1.73 postseason ERA as a Dodger",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Tyler Glasnow",
+      "stat": "41 BB in 71.2 postseason IP",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Tyler Glasnow",
+      "stat": "4.25 home / 2.84 road",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Shane Drohan",
+      "stat": "postseason debut",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Los Angeles Dodgers",
+      "stat": ".129 vs Drohan",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Shane Drohan",
+      "stat": "3 games vs LAD, opp .167",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Andy Pages",
+      "stat": "only HR off Drohan",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Milwaukee Brewers",
+      "stat": "6-1 this postseason",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "NLCS",
+      "stat": "runs 15-7, hits 27-15",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "DL Hall",
+      "stat": "3 wins, 0 runs",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Cooper Pratt",
+      "stat": "5-for-10 NLCS",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Jackson Chourio",
+      "stat": "G3 leadoff HR, 7 RBI",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Blake Snell",
+      "stat": "G3 3 HR allowed, none by Sánchez",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Robert Gasser",
+      "stat": "G3 5 IP 0 R after 7 ER reg season",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Freddie Freeman",
+      "stat": "1-for-11 NLCS",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
+    },
+    {
+      "name": "Bauers & Mitchell",
+      "stat": "2 HR off Snell 7th inning",
+      "posted": "2026-10-15",
+      "note": "Oct 15 MIL-LAD NLCS G4"
     }
   ]
 }
