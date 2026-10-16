@@ -7,7 +7,9 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-07 (four Game 3/4 briefs sent; runner still offline; see "What went out on Oct 7"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Last updated: 2026-10-16 (ALCS G4 TB@CLE list sent, Martinez vs Armstrong; CLE leads 2-1; NLCS over, MIL swept LAD 4-0). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+
+PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -341,6 +343,16 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Oct 16: ALCS G4 list (Nick Martinez vs Shawn Armstrong, at CLE). CLE leads 2-1 (G3 CLE 3-2). NLCS: MIL swept 4-0
+
+mlb-daily run committed 79d3821 (postseason) + cbd8bcc (matchups/2026-10-16: p-607259 Martinez, p-542888 Armstrong,
+every opposing hitter). 20 items in posted.json (note "ALCS G4 TB@CLE list"), plus both full lineup tables.
+Key finds: Martinez vs CLE 2026 13 IP 0 R; Ramirez 1-11 vs Martinez; CLE active .224 / 1 HR vs Martinez;
+Armstrong career postseason 26 BF 0 R 0 BB, season-high 5 outs (opener); Mullins 5-8 HR vs Armstrong;
+CLE bullpen 39 IP 2.08; CLE 21-26 at home vs RHP starters (standings splitRecords "rightHome").
+Checks that caught errors before sending: Martinez 6+ IP starts is 18 of 31 (not 23); Halpin's one time on base
+vs TB was a HBP, not a walk. Armstrong's handedness is NOT in our data (Martinez R is, from 2026-09-22 C012).
 
 ### Oct 15: ALCS G3 list (Jax vs G. Williams). ALCS tied 1-1 (G2 TB 3-1, all 3 runs unearned). NLCS G3 MIL 6-2 (MIL up 3-0)
 

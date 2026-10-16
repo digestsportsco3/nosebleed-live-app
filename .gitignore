@@ -24,3 +24,4 @@ statdesk/data/decades/raw/
 
 # nflverse season files (public, ~26 MB, re-downloadable with nfl/fetch.sh).
 statdesk/data/nfl/nflverse/
+__pycache__/
