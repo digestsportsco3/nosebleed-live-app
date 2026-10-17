@@ -4741,3 +4741,5 @@
 2026-10-16T19:34:57.533Z	PH004	stathead-browser	post_7ip_1h_0er: Postseason starts of 7+ IP, 1 or fewer H, 0 ER	rows=22
 2026-10-16T19:35:40.652Z	PH005	stathead-browser	post_3h_age21: Postseason games with 3+ hits at age 21 or younger	rows=25
 2026-10-16T19:36:24.538Z	PH006	stathead-browser	post_3ip_0r_relief_age22: Postseason relief outings of 3+ IP, 0 R, age 22 or younger	rows=37
+2026-10-17T23:10:28.851Z	RV001	stathead-browser	CLE postseason relief appearances 2022-2026	rows=159
+2026-10-17T23:10:32.998Z	RV002	stathead-browser	CLE postseason starting appearances 2022-2026	rows=28
