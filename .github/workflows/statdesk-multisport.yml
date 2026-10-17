@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post, mlb-series, mlb-daily]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post, mlb-series, mlb-daily, mlb-relievers]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -142,6 +142,15 @@ jobs:
         run: node statdesk/series-matchups.js ${{ inputs.args }} --commit
       # Postseason day in one dispatch: box scores, today's starters vs lineups,
       # series data for the pairs in args, then Stathead history.
+      - name: Relievers - postseason box scores
+        if: inputs.task == 'mlb-relievers'
+        continue-on-error: true
+        shell: cmd
+        run: node statdesk/postseason.js --commit
+      - name: MLB relievers vs lineup (args 'CLE TB "Hunter Gaddis" "Cade Smith"')
+        if: inputs.task == 'mlb-relievers'
+        shell: cmd
+        run: node statdesk/vs-relievers.js ${{ inputs.args }} --commit
       - name: Daily - postseason box scores
         if: inputs.task == 'mlb-daily'
         continue-on-error: true
