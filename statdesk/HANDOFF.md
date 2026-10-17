@@ -344,6 +344,16 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 17: Gaddis & Smith vs the Rays lineup (from Hembo's 14-of-15 tweet). ALCS G4 was POSTPONED Oct 16, now Oct 17
+
+New task `mlb-relievers` (statdesk/vs-relievers.js + statdesk/relievers-stathead.js): args 'CLE TB "Hunter Gaddis" "Cade Smith"'.
+Data: relievers/2026-10-17 (p-683769 Gaddis, p-671922 Smith, every TB hitter vsPlayerTotal + vsPlayer, every CLE postseason
+game since 2022 with staff, every Gaddis/Smith postseason PA with pitches) and browser/2026-10-17 RV001-002 (Stathead CLE
+postseason appearances). Stathead and the API agree appearance for appearance (Gaddis 18, Smith 19). The tweet's 14-of-15 is
+verified; "only tandem ever" was NOT tested (credited to Hembo). The Oct 16 "Martinez vs Armstrong tonight" list was built for
+a game that was postponed; G4 is Oct 17, G5 Oct 18. Note: a postponed game reads abstractGameState "Final" in the schedule;
+vs-relievers.js picked it up as game 29 with an empty staff, harmless but filter on detailedState next time.
+
 ### Oct 16: ALCS G4 list (Nick Martinez vs Shawn Armstrong, at CLE). CLE leads 2-1 (G3 CLE 3-2). NLCS: MIL swept 4-0
 
 mlb-daily run committed 79d3821 (postseason) + cbd8bcc (matchups/2026-10-16: p-607259 Martinez, p-542888 Armstrong,

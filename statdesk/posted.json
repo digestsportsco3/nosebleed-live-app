@@ -1729,6 +1729,66 @@
       "stat": "ALCS .190 through G3, Aranda 0-for-10",
       "posted": "2026-10-17",
       "note": "Gaddis/Smith tandem, partial (runner offline)"
+    },
+    {
+      "name": "Smith & Gaddis",
+      "stat": "since 2024: Smith 19 of 21, Gaddis 18 of 21",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Cade Smith",
+      "stat": "vs TB 44 BF 0 BB 22 K",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Rays lineup",
+      "stat": "3-for-23 vs Smith incl ALCS",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Cade Smith",
+      "stat": "12 straight batters retired",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Yandy Díaz",
+      "stat": "2-for-4 vs Smith; G3 10-pitch K",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Rays vs Gaddis/Smith",
+      "stat": ".273 2 HR vs .135 20 K",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Richie Palacios",
+      "stat": "2-for-2 vs Gaddis, HR + 2B",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Rays lineup",
+      "stat": "5-for-16, 2 HR vs Gaddis",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Junior Caminero",
+      "stat": "3-for-7 vs Gaddis/Smith, K by both in ALCS",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "Cade Smith",
+      "stat": "12 pitches 99+, top 100.2",
+      "posted": "2026-10-17",
+      "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
     }
   ]
 }
