@@ -4743,3 +4743,8 @@
 2026-10-16T19:36:24.538Z	PH006	stathead-browser	post_3ip_0r_relief_age22: Postseason relief outings of 3+ IP, 0 R, age 22 or younger	rows=37
 2026-10-17T23:10:28.851Z	RV001	stathead-browser	CLE postseason relief appearances 2022-2026	rows=159
 2026-10-17T23:10:32.998Z	RV002	stathead-browser	CLE postseason starting appearances 2022-2026	rows=28
+2026-10-18T00:07:42.599Z	LG001	stathead-browser	NYY top batting seasons by WAR	rows=200	CAPPED
+2026-10-18T00:07:46.552Z	LG002	stathead-browser	NYY top batting seasons by WAR (page 2)	rows=200	CAPPED
+2026-10-18T00:08:50.404Z	LG003	stathead-browser	NYY top pitching seasons by WAR	rows=200	CAPPED
+2026-10-18T00:08:54.329Z	LG004	stathead-browser	NYY top pitching seasons by WAR (page 2)	rows=200	CAPPED
+2026-10-18T00:08:57.214Z	LG005	stathead-browser	NYY top pitching seasons by WAR (page 3)	rows=200	CAPPED
