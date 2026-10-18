@@ -344,6 +344,14 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 18: ALCS G5 list (Rasmussen vs Messick, at CLE). Series 2-2 (G4 Oct 17: TB 7-3, Martinez W)
+
+mlb-daily run 39150621705 committed 8db9585 (postseason) + 2954981 (matchups/2026-10-18: p-656876 Rasmussen, p-800048
+Messick, every opposing hitter). 20 items in posted.json (note "ALCS G5 TB@CLE list") + both lineup tables.
+Key finds: Jul 26 Rasmussen-Messick duel TB 1-0; Messick vs TB 2026 18.1 IP 2 ER and CLE 0-3; CLE 0-3 since 2024 in
+postseason games where neither Gaddis nor Smith pitched (both sat G4). Fixed before sending: Rasmussen's pre-2026
+postseason was 3 appearances, not 4.
+
 ### Oct 17: "Add ONE player in his prime" polls for all 30 teams (task mlb-legends)
 
 statdesk/legends.js: Stathead season finder, top 600 batting + 600 pitching seasons by WAR per franchise (team_id codes:
