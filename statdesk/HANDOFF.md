@@ -344,6 +344,15 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 17: "Add ONE player in his prime" polls for all 30 teams (task mlb-legends)
+
+statdesk/legends.js: Stathead season finder, top 600 batting + 600 pitching seasons by WAR per franchise (team_id codes:
+use OAK, ANA, FLA, TBD for the A's, Angels, Marlins, Rays; ATH/LAA/MIA/TBR return only recent or unfiltered rows), then MLB
+API year-by-year for candidates; `--names "Name:hitting,..."` pulls named players (MLB API calls Speaker "Tristram Speaker").
+Picks: 3 hitters + 1 pitcher by WAR over their five best seasons with the club, best season 1901+, nobody who played for
+the club in 2026. Lines print only numbers Stathead and the MLB API agree on (OPS dropped for rounding; RBI disagree for
+Ruth 1923, Gehrig 1927, Cobb 1917; AVG for Lajoie 1910). Final picks: data/mlb/legends/2026-10-17/polls-final.json.
+
 ### Oct 17: Gaddis & Smith vs the Rays lineup (from Hembo's 14-of-15 tweet). ALCS G4 was POSTPONED Oct 16, now Oct 17
 
 New task `mlb-relievers` (statdesk/vs-relievers.js + statdesk/relievers-stathead.js): args 'CLE TB "Hunter Gaddis" "Cade Smith"'.

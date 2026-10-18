@@ -1789,6 +1789,186 @@
       "stat": "12 pitches 99+, top 100.2",
       "posted": "2026-10-17",
       "note": "Gaddis/Smith vs Rays lineup (full, API + Stathead)"
+    },
+    {
+      "name": "ARI prime poll",
+      "stat": "Paul Goldschmidt 2015, Luis Gonzalez 2001, AJ Pollock 2015, Randy Johnson 2002",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "ATL prime poll",
+      "stat": "Henry Aaron 1961, Eddie Mathews 1959, Andruw Jones 2000, Phil Niekro 1978",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "BAL prime poll",
+      "stat": "Cal Ripken Jr. 1991, George Sisler 1920, Brooks Robinson 1968, Jim Palmer 1975",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "BOS prime poll",
+      "stat": "Ted Williams 1946, Carl Yastrzemski 1967, Tris Speaker 1912, Cy Young 1901",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "CHC prime poll",
+      "stat": "Ernie Banks 1959, Ron Santo 1967, Ryne Sandberg 1984, Mordecai Brown 1909",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "CHW prime poll",
+      "stat": "Eddie Collins 1915, Frank Thomas 1997, Luke Appling 1943, Ed Walsh 1912",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "CIN prime poll",
+      "stat": "Joe Morgan 1975, Frank Robinson 1962, Johnny Bench 1972, Noodles Hahn 1902",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "CLE prime poll",
+      "stat": "Nap Lajoie 1910, Tris Speaker 1923, Lou Boudreau 1948, Bob Feller 1946",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "COL prime poll",
+      "stat": "Todd Helton 2000, Larry Walker 1997, Nolan Arenado 2019, Ubaldo Jiménez 2010",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "DET prime poll",
+      "stat": "Ty Cobb 1917, Charlie Gehringer 1934, Al Kaline 1961, Hal Newhouser 1945",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "HOU prime poll",
+      "stat": "Jeff Bagwell 1994, Craig Biggio 1997, César Cedeño 1972, Roy Oswalt 2002",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "KCR prime poll",
+      "stat": "George Brett 1980, Willie Wilson 1980, Alex Gordon 2011, Kevin Appier 1993",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "LAD prime poll",
+      "stat": "Jackie Robinson 1951, Duke Snider 1953, Pee Wee Reese 1949, Sandy Koufax 1963",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "MIL prime poll",
+      "stat": "Robin Yount 1982, Ryan Braun 2011, Paul Molitor 1982, Teddy Higuera 1986",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "MIN prime poll",
+      "stat": "Rod Carew 1977, Joe Cronin 1930, Goose Goslin 1928, Walter Johnson 1913",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "NYM prime poll",
+      "stat": "David Wright 2007, Darryl Strawberry 1987, Carlos Beltrán 2006, Tom Seaver 1973",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "NYY prime poll",
+      "stat": "Babe Ruth 1923, Mickey Mantle 1957, Lou Gehrig 1927, Lefty Gomez 1937",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "PHI prime poll",
+      "stat": "Mike Schmidt 1974, Chase Utley 2008, Richie Ashburn 1954, Grover Alexander 1915",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "PIT prime poll",
+      "stat": "Honus Wagner 1908, Barry Bonds 1990, Arky Vaughan 1935, Babe Adams 1913",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "SDP prime poll",
+      "stat": "Tony Gwynn 1987, Dave Winfield 1979, Adrián González 2009, Jake Peavy 2007",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "SEA prime poll",
+      "stat": "Ken Griffey Jr. 1996, Alex Rodriguez 2000, Ichiro Suzuki 2004, Randy Johnson 1995",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "SFG prime poll",
+      "stat": "Barry Bonds 2001, Willie Mays 1965, Mel Ott 1938, Christy Mathewson 1908",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "STL prime poll",
+      "stat": "Rogers Hornsby 1924, Stan Musial 1948, Albert Pujols 2009, Bob Gibson 1968",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "TEX prime poll",
+      "stat": "Adrian Beltré 2012, Buddy Bell 1979, Iván Rodríguez 1997, Kenny Rogers 1995",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "TOR prime poll",
+      "stat": "José Bautista 2011, Carlos Delgado 2000, Jesse Barfield 1986, Dave Stieb 1984",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "WSN prime poll",
+      "stat": "Gary Carter 1982, Andre Dawson 1982, Tim Raines 1985, Max Scherzer 2018",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "OAK prime poll",
+      "stat": "Eddie Collins 1910, Jimmie Foxx 1932, Rickey Henderson 1990, Lefty Grove 1931",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "ANA prime poll",
+      "stat": "Jim Fregosi 1964, Tim Salmon 1995, Bobby Grich 1979, Nolan Ryan 1977",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "FLA prime poll",
+      "stat": "Giancarlo Stanton 2017, Hanley Ramírez 2009, Luis Castillo 2000, Josh Johnson 2010",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
+    },
+    {
+      "name": "TBD prime poll",
+      "stat": "Evan Longoria 2010, Ben Zobrist 2009, Carl Crawford 2010, David Price 2012",
+      "posted": "2026-10-17",
+      "note": "add-one-player-in-his-prime poll (Stathead WAR + MLB API)"
     }
   ]
 }

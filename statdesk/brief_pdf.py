@@ -48,7 +48,7 @@ h1 .r, .r{ color:var(--red); }
   color:#fff; background:var(--ink); border-radius:2px; padding:1px 4px; margin-right:4px; vertical-align:1px; }
 .row{ font-size:8.8pt; margin:2px 0; }
 .lbl{ font-family:Oswald,sans-serif; font-weight:600; font-size:7.2pt; letter-spacing:.1em; text-transform:uppercase; color:var(--red); margin-right:6px; }
-.kick{ margin-top:5px; padding:5px 8px; background:#fff; border:1px solid var(--rule); font-size:9.6pt; font-weight:600; }
+.kick{ white-space:pre-line; margin-top:5px; padding:5px 8px; background:#fff; border:1px solid var(--rule); font-size:9.6pt; font-weight:600; }
 .kick .tag{ background:var(--red); }
 .pb{ break-before:page; page-break-before:always; }
 h2{ font-family:Oswald,sans-serif; font-weight:700; text-transform:uppercase; font-size:15pt; margin:6px 0 2px; }

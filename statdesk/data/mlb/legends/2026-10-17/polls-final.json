@@ -1,0 +1,1270 @@
+{
+ "ARI": [
+  {
+   "name": "Paul Goldschmidt",
+   "g": "H",
+   "year": "2015",
+   "war": "8.3",
+   "top5": 31.4,
+   "line": ".321, 33 HR, 110 RBI",
+   "bad": [],
+   "apiId": 502671
+  },
+  {
+   "name": "Luis Gonzalez",
+   "g": "H",
+   "year": "2001",
+   "war": "7.9",
+   "top5": 25,
+   "line": ".325, 57 HR, 142 RBI",
+   "bad": [],
+   "apiId": 114935
+  },
+  {
+   "name": "AJ Pollock",
+   "g": "H",
+   "year": "2015",
+   "war": "6.8",
+   "top5": 18.4,
+   "line": ".315, 20 HR, 76 RBI, 39 SB",
+   "bad": [],
+   "apiId": 572041
+  },
+  {
+   "name": "Randy Johnson",
+   "g": "P",
+   "year": "2002",
+   "war": "10.7",
+   "top5": 46.4,
+   "line": "24-5, 2.32 ERA, 334 K",
+   "bad": [],
+   "apiId": 116615
+  }
+ ],
+ "ATL": [
+  {
+   "name": "Henry Aaron",
+   "g": "H",
+   "year": "1961",
+   "war": "9.5",
+   "top5": 44.4,
+   "line": ".327, 34 HR, 120 RBI",
+   "bad": [],
+   "apiId": 110001
+  },
+  {
+   "name": "Eddie Mathews",
+   "g": "H",
+   "year": "1959",
+   "war": "8.2",
+   "top5": 39.4,
+   "line": ".306, 46 HR, 114 RBI",
+   "bad": [],
+   "apiId": 118416
+  },
+  {
+   "name": "Andruw Jones",
+   "g": "H",
+   "year": "2000",
+   "war": "8.2",
+   "top5": 35.9,
+   "line": ".303, 36 HR, 104 RBI",
+   "bad": [],
+   "apiId": 116662
+  },
+  {
+   "name": "Phil Niekro",
+   "g": "P",
+   "year": "1978",
+   "war": "10.0",
+   "top5": 40.9,
+   "line": "19-18, 2.88 ERA, 248 K",
+   "bad": [],
+   "apiId": 119786
+  }
+ ],
+ "BAL": [
+  {
+   "name": "Cal Ripken Jr.",
+   "g": "H",
+   "year": "1991",
+   "war": "11.5",
+   "top5": 43.9,
+   "line": ".323, 34 HR, 114 RBI",
+   "bad": [],
+   "apiId": 121222
+  },
+  {
+   "name": "George Sisler",
+   "g": "H",
+   "year": "1920",
+   "war": "9.8",
+   "top5": 37.8,
+   "line": ".407, 19 HR, 122 RBI, 42 SB",
+   "bad": [],
+   "apiId": 122280
+  },
+  {
+   "name": "Brooks Robinson",
+   "g": "H",
+   "year": "1968",
+   "war": "8.4",
+   "top5": 36.3,
+   "line": ".253, 17 HR, 75 RBI",
+   "bad": [],
+   "apiId": 121301
+  },
+  {
+   "name": "Jim Palmer",
+   "g": "P",
+   "year": "1975",
+   "war": "8.4",
+   "top5": 35,
+   "line": "23-11, 2.09 ERA, 193 K",
+   "bad": [],
+   "apiId": 120196
+  }
+ ],
+ "BOS": [
+  {
+   "name": "Ted Williams",
+   "g": "H",
+   "year": "1946",
+   "war": "10.6",
+   "top5": 50.6,
+   "line": ".342, 38 HR, 123 RBI",
+   "bad": [],
+   "apiId": 124341
+  },
+  {
+   "name": "Carl Yastrzemski",
+   "g": "H",
+   "year": "1967",
+   "war": "12.5",
+   "top5": 44.6,
+   "line": ".326, 44 HR, 121 RBI",
+   "bad": [],
+   "apiId": 124650
+  },
+  {
+   "name": "Tris Speaker",
+   "g": "H",
+   "year": "1912",
+   "war": "10.1",
+   "top5": 43.6,
+   "line": ".383, 10 HR, 90 RBI, 52 SB",
+   "bad": [],
+   "apiId": 122566
+  },
+  {
+   "name": "Cy Young",
+   "g": "P",
+   "year": "1901",
+   "war": "12.4",
+   "top5": 48.8,
+   "line": "33-10, 1.62 ERA, 158 K",
+   "bad": [],
+   "apiId": 124692
+  }
+ ],
+ "CHC": [
+  {
+   "name": "Ernie Banks",
+   "g": "H",
+   "year": "1959",
+   "war": "10.2",
+   "top5": 42.2,
+   "line": ".304, 45 HR, 143 RBI",
+   "bad": [],
+   "apiId": 110533
+  },
+  {
+   "name": "Ron Santo",
+   "g": "H",
+   "year": "1967",
+   "war": "9.8",
+   "top5": 42,
+   "line": ".300, 31 HR, 98 RBI",
+   "bad": [],
+   "apiId": 121697
+  },
+  {
+   "name": "Ryne Sandberg",
+   "g": "H",
+   "year": "1984",
+   "war": "8.5",
+   "top5": 36.5,
+   "line": ".314, 19 HR, 84 RBI, 32 SB",
+   "bad": [],
+   "apiId": 121665
+  },
+  {
+   "name": "Mordecai Brown",
+   "g": "P",
+   "year": "1909",
+   "war": "9.5",
+   "top5": 36.8,
+   "line": "27-9, 1.31 ERA, 172 K",
+   "bad": [],
+   "apiId": 111577
+  }
+ ],
+ "CHW": [
+  {
+   "name": "Eddie Collins",
+   "g": "H",
+   "year": "1915",
+   "war": "9.1",
+   "top5": 35.7,
+   "line": ".332, 4 HR, 77 RBI, 46 SB",
+   "bad": [],
+   "apiId": 112506
+  },
+  {
+   "name": "Frank Thomas",
+   "g": "H",
+   "year": "1997",
+   "war": "7.3",
+   "top5": 33.9,
+   "line": ".347, 35 HR, 125 RBI",
+   "bad": [],
+   "apiId": 123245
+  },
+  {
+   "name": "Luke Appling",
+   "g": "H",
+   "year": "1943",
+   "war": "7.3",
+   "top5": 33.6,
+   "line": ".328, 3 HR, 80 RBI",
+   "bad": [],
+   "apiId": 110297
+  },
+  {
+   "name": "Ed Walsh",
+   "g": "P",
+   "year": "1912",
+   "war": "12.1",
+   "top5": 51,
+   "line": "27-17, 2.15 ERA, 254 K",
+   "bad": [],
+   "apiId": 123878
+  }
+ ],
+ "CIN": [
+  {
+   "name": "Joe Morgan",
+   "g": "H",
+   "year": "1975",
+   "war": "11.0",
+   "top5": 47.8,
+   "line": ".327, 17 HR, 94 RBI, 67 SB",
+   "bad": [],
+   "apiId": 119371
+  },
+  {
+   "name": "Frank Robinson",
+   "g": "H",
+   "year": "1962",
+   "war": "8.7",
+   "top5": 37.8,
+   "line": ".342, 39 HR, 136 RBI",
+   "bad": [],
+   "apiId": 121311
+  },
+  {
+   "name": "Johnny Bench",
+   "g": "H",
+   "year": "1972",
+   "war": "8.6",
+   "top5": 36.7,
+   "line": ".270, 40 HR, 125 RBI",
+   "bad": [],
+   "apiId": 110849
+  },
+  {
+   "name": "Noodles Hahn",
+   "g": "P",
+   "year": "1902",
+   "war": "8.4",
+   "top5": 39.1,
+   "line": "23-12, 1.77 ERA, 142 K",
+   "bad": [],
+   "apiId": 115307
+  }
+ ],
+ "CLE": [
+  {
+   "name": "Nap Lajoie",
+   "g": "H",
+   "year": "1910",
+   "war": "10.3",
+   "top5": 44.6,
+   "line": "227 H, 4 HR, 76 RBI",
+   "bad": [
+    "AVG .383/.384"
+   ],
+   "apiId": 117414
+  },
+  {
+   "name": "Tris Speaker",
+   "g": "H",
+   "year": "1923",
+   "war": "9.1",
+   "top5": 41.5,
+   "line": ".380, 17 HR, 130 RBI",
+   "bad": [],
+   "apiId": 122566
+  },
+  {
+   "name": "Lou Boudreau",
+   "g": "H",
+   "year": "1948",
+   "war": "10.4",
+   "top5": 39.6,
+   "line": ".355, 18 HR, 106 RBI",
+   "bad": [],
+   "apiId": 111272
+  },
+  {
+   "name": "Bob Feller",
+   "g": "P",
+   "year": "1946",
+   "war": "10.0",
+   "top5": 42.4,
+   "line": "26-15, 2.18 ERA, 348 K",
+   "bad": [],
+   "apiId": 114055
+  }
+ ],
+ "COL": [
+  {
+   "name": "Todd Helton",
+   "g": "H",
+   "year": "2000",
+   "war": "8.9",
+   "top5": 37.6,
+   "line": ".372, 42 HR, 147 RBI",
+   "bad": [],
+   "apiId": 115732
+  },
+  {
+   "name": "Larry Walker",
+   "g": "H",
+   "year": "1997",
+   "war": "9.8",
+   "top5": 34.5,
+   "line": ".366, 49 HR, 130 RBI, 33 SB",
+   "bad": [],
+   "apiId": 123833
+  },
+  {
+   "name": "Nolan Arenado",
+   "g": "H",
+   "year": "2019",
+   "war": "7.1",
+   "top5": 32,
+   "line": ".315, 41 HR, 118 RBI",
+   "bad": [],
+   "apiId": 571448
+  },
+  {
+   "name": "Ubaldo Jiménez",
+   "g": "P",
+   "year": "2010",
+   "war": "7.5",
+   "top5": 18.7,
+   "line": "19-8, 2.88 ERA, 214 K",
+   "bad": [],
+   "apiId": 434622
+  }
+ ],
+ "DET": [
+  {
+   "name": "Ty Cobb",
+   "g": "H",
+   "year": "1917",
+   "war": "11.0",
+   "top5": 51.2,
+   "line": ".383, 6 HR, 107 R, 55 SB",
+   "bad": [
+    "RBI 106/102"
+   ],
+   "apiId": 112431
+  },
+  {
+   "name": "Charlie Gehringer",
+   "g": "H",
+   "year": "1934",
+   "war": "8.9",
+   "top5": 40.5,
+   "line": ".356, 11 HR, 127 RBI",
+   "bad": [],
+   "apiId": 114682
+  },
+  {
+   "name": "Al Kaline",
+   "g": "H",
+   "year": "1961",
+   "war": "8.4",
+   "top5": 37.3,
+   "line": ".324, 19 HR, 82 RBI",
+   "bad": [],
+   "apiId": 116822
+  },
+  {
+   "name": "Hal Newhouser",
+   "g": "P",
+   "year": "1945",
+   "war": "11.3",
+   "top5": 41,
+   "line": "25-9, 1.81 ERA, 212 K",
+   "bad": [],
+   "apiId": 119739
+  }
+ ],
+ "HOU": [
+  {
+   "name": "Jeff Bagwell",
+   "g": "H",
+   "year": "1994",
+   "war": "8.2",
+   "top5": 37.1,
+   "line": ".368, 39 HR, 116 RBI",
+   "bad": [],
+   "apiId": 110432
+  },
+  {
+   "name": "Craig Biggio",
+   "g": "H",
+   "year": "1997",
+   "war": "9.4",
+   "top5": 32.8,
+   "line": ".309, 22 HR, 81 RBI, 47 SB",
+   "bad": [],
+   "apiId": 110987
+  },
+  {
+   "name": "César Cedeño",
+   "g": "H",
+   "year": "1972",
+   "war": "8.0",
+   "top5": 32.2,
+   "line": ".320, 22 HR, 82 RBI, 55 SB",
+   "bad": [],
+   "apiId": 112153
+  },
+  {
+   "name": "Roy Oswalt",
+   "g": "P",
+   "year": "2002",
+   "war": "7.0",
+   "top5": 30.1,
+   "line": "19-9, 3.01 ERA, 208 K",
+   "bad": [],
+   "apiId": 400061
+  }
+ ],
+ "KCR": [
+  {
+   "name": "George Brett",
+   "g": "H",
+   "year": "1980",
+   "war": "9.4",
+   "top5": 41.4,
+   "line": ".390, 24 HR, 118 RBI",
+   "bad": [],
+   "apiId": 111437
+  },
+  {
+   "name": "Willie Wilson",
+   "g": "H",
+   "year": "1980",
+   "war": "8.5",
+   "top5": 29.5,
+   "line": ".326, 3 HR, 49 RBI, 79 SB",
+   "bad": [],
+   "apiId": 124435
+  },
+  {
+   "name": "Alex Gordon",
+   "g": "H",
+   "year": "2011",
+   "war": "7.3",
+   "top5": 26.6,
+   "line": ".303, 23 HR, 87 RBI",
+   "bad": [],
+   "apiId": 460086
+  },
+  {
+   "name": "Kevin Appier",
+   "g": "P",
+   "year": "1993",
+   "war": "9.3",
+   "top5": 34.1,
+   "line": "18-8, 2.56 ERA, 186 K",
+   "bad": [],
+   "apiId": 110293
+  }
+ ],
+ "LAD": [
+  {
+   "name": "Jackie Robinson",
+   "g": "H",
+   "year": "1951",
+   "war": "9.7",
+   "top5": 41.7,
+   "line": ".338, 19 HR, 88 RBI",
+   "bad": [],
+   "apiId": 121314
+  },
+  {
+   "name": "Duke Snider",
+   "g": "H",
+   "year": "1953",
+   "war": "9.1",
+   "top5": 39.1,
+   "line": ".336, 42 HR, 126 RBI",
+   "bad": [],
+   "apiId": 122488
+  },
+  {
+   "name": "Pee Wee Reese",
+   "g": "H",
+   "year": "1949",
+   "war": "7.4",
+   "top5": 31.6,
+   "line": ".279, 16 HR, 73 RBI",
+   "bad": [],
+   "apiId": 121010
+  },
+  {
+   "name": "Sandy Koufax",
+   "g": "P",
+   "year": "1963",
+   "war": "10.7",
+   "top5": 42.1,
+   "line": "25-5, 1.88 ERA, 306 K",
+   "bad": [],
+   "apiId": 117277
+  }
+ ],
+ "MIL": [
+  {
+   "name": "Robin Yount",
+   "g": "H",
+   "year": "1982",
+   "war": "10.5",
+   "top5": 36.6,
+   "line": ".331, 29 HR, 114 RBI",
+   "bad": [],
+   "apiId": 124721
+  },
+  {
+   "name": "Ryan Braun",
+   "g": "H",
+   "year": "2011",
+   "war": "7.7",
+   "top5": 31.1,
+   "line": ".332, 33 HR, 111 RBI, 33 SB",
+   "bad": [],
+   "apiId": 460075
+  },
+  {
+   "name": "Paul Molitor",
+   "g": "H",
+   "year": "1982",
+   "war": "6.2",
+   "top5": 28.8,
+   "line": ".302, 19 HR, 71 RBI, 41 SB",
+   "bad": [],
+   "apiId": 119236
+  },
+  {
+   "name": "Teddy Higuera",
+   "g": "P",
+   "year": "1986",
+   "war": "9.4",
+   "top5": 28.9,
+   "line": "20-11, 2.79 ERA, 207 K",
+   "bad": [],
+   "apiId": 115921
+  }
+ ],
+ "MIN": [
+  {
+   "name": "Rod Carew",
+   "g": "H",
+   "year": "1977",
+   "war": "9.7",
+   "top5": 38.8,
+   "line": ".388, 14 HR, 100 RBI",
+   "bad": [],
+   "apiId": 111986
+  },
+  {
+   "name": "Joe Cronin",
+   "g": "H",
+   "year": "1930",
+   "war": "8.5",
+   "top5": 32.6,
+   "line": ".346, 13 HR, 126 RBI",
+   "bad": [],
+   "apiId": 112854
+  },
+  {
+   "name": "Goose Goslin",
+   "g": "H",
+   "year": "1928",
+   "war": "7.5",
+   "top5": 32.4,
+   "line": ".379, 17 HR, 102 RBI",
+   "bad": [],
+   "apiId": 114987
+  },
+  {
+   "name": "Walter Johnson",
+   "g": "P",
+   "year": "1913",
+   "war": "15.2",
+   "top5": 64.2,
+   "line": "36-7, 1.14 ERA, 243 K",
+   "bad": [],
+   "apiId": 116635
+  }
+ ],
+ "NYM": [
+  {
+   "name": "David Wright",
+   "g": "H",
+   "year": "2007",
+   "war": "8.3",
+   "top5": 32.3,
+   "line": ".325, 30 HR, 107 RBI, 34 SB",
+   "bad": [],
+   "apiId": 431151
+  },
+  {
+   "name": "Darryl Strawberry",
+   "g": "H",
+   "year": "1987",
+   "war": "6.4",
+   "top5": 27.7,
+   "line": ".284, 39 HR, 104 RBI, 36 SB",
+   "bad": [],
+   "apiId": 122864
+  },
+  {
+   "name": "Carlos Beltrán",
+   "g": "H",
+   "year": "2006",
+   "war": "8.2",
+   "top5": 27.6,
+   "line": ".275, 41 HR, 116 RBI",
+   "bad": [],
+   "apiId": 136860
+  },
+  {
+   "name": "Tom Seaver",
+   "g": "P",
+   "year": "1973",
+   "war": "10.6",
+   "top5": 42.6,
+   "line": "19-10, 2.08 ERA, 251 K",
+   "bad": [],
+   "apiId": 121961
+  }
+ ],
+ "NYY": [
+  {
+   "name": "Babe Ruth",
+   "g": "H",
+   "year": "1923",
+   "war": "14.1",
+   "top5": 62.9,
+   "line": ".393, 41 HR, 151 R",
+   "bad": [
+    "RBI 130/131"
+   ],
+   "apiId": 121578
+  },
+  {
+   "name": "Mickey Mantle",
+   "g": "H",
+   "year": "1957",
+   "war": "11.3",
+   "top5": 51.3,
+   "line": ".365, 34 HR, 94 RBI",
+   "bad": [],
+   "apiId": 118258
+  },
+  {
+   "name": "Lou Gehrig",
+   "g": "H",
+   "year": "1927",
+   "war": "11.9",
+   "top5": 50.7,
+   "line": ".373, 47 HR, 149 R",
+   "bad": [
+    "RBI 173/175"
+   ],
+   "apiId": 114680
+  },
+  {
+   "name": "Lefty Gomez",
+   "g": "P",
+   "year": "1937",
+   "war": "9.2",
+   "top5": 32.2,
+   "line": "21-11, 2.33 ERA, 194 K",
+   "bad": [],
+   "apiId": 114917
+  }
+ ],
+ "PHI": [
+  {
+   "name": "Mike Schmidt",
+   "g": "H",
+   "year": "1974",
+   "war": "9.7",
+   "top5": 43.4,
+   "line": ".282, 36 HR, 116 RBI",
+   "bad": [],
+   "apiId": 121836
+  },
+  {
+   "name": "Chase Utley",
+   "g": "H",
+   "year": "2008",
+   "war": "9.0",
+   "top5": 39.6,
+   "line": ".292, 33 HR, 104 RBI",
+   "bad": [],
+   "apiId": 400284
+  },
+  {
+   "name": "Richie Ashburn",
+   "g": "H",
+   "year": "1954",
+   "war": "7.1",
+   "top5": 33.6,
+   "line": ".313, 1 HR, 41 RBI",
+   "bad": [],
+   "apiId": 110349
+  },
+  {
+   "name": "Grover Alexander",
+   "g": "P",
+   "year": "1915",
+   "war": "11.0",
+   "top5": 48.5,
+   "line": "31-10, 1.22 ERA, 241 K",
+   "bad": [],
+   "apiId": 110127
+  }
+ ],
+ "PIT": [
+  {
+   "name": "Honus Wagner",
+   "g": "H",
+   "year": "1908",
+   "war": "11.5",
+   "top5": 49.2,
+   "line": ".354, 10 HR, 109 RBI, 53 SB",
+   "bad": [],
+   "apiId": 123784
+  },
+  {
+   "name": "Barry Bonds",
+   "g": "H",
+   "year": "1990",
+   "war": "9.7",
+   "top5": 41,
+   "line": ".301, 33 HR, 114 RBI, 52 SB",
+   "bad": [],
+   "apiId": 111188
+  },
+  {
+   "name": "Arky Vaughan",
+   "g": "H",
+   "year": "1935",
+   "war": "9.7",
+   "top5": 40.6,
+   "line": ".385, 19 HR, 99 RBI",
+   "bad": [],
+   "apiId": 123671
+  },
+  {
+   "name": "Babe Adams",
+   "g": "P",
+   "year": "1913",
+   "war": "8.4",
+   "top5": 32.1,
+   "line": "21-10, 2.15 ERA, 144 K",
+   "bad": [],
+   "apiId": 110044
+  }
+ ],
+ "SDP": [
+  {
+   "name": "Tony Gwynn",
+   "g": "H",
+   "year": "1987",
+   "war": "8.6",
+   "top5": 32.5,
+   "line": ".370, 7 HR, 54 RBI, 56 SB",
+   "bad": [],
+   "apiId": 115270
+  },
+  {
+   "name": "Dave Winfield",
+   "g": "H",
+   "year": "1979",
+   "war": "8.3",
+   "top5": 26.9,
+   "line": ".308, 34 HR, 118 RBI",
+   "bad": [],
+   "apiId": 124448
+  },
+  {
+   "name": "Adrián González",
+   "g": "H",
+   "year": "2009",
+   "war": "6.9",
+   "top5": 20.4,
+   "line": ".277, 40 HR, 99 RBI",
+   "bad": [],
+   "apiId": 408236
+  },
+  {
+   "name": "Jake Peavy",
+   "g": "P",
+   "year": "2007",
+   "war": "6.2",
+   "top5": 21.7,
+   "line": "19-6, 2.54 ERA, 240 K",
+   "bad": [],
+   "apiId": 408241
+  }
+ ],
+ "SEA": [
+  {
+   "name": "Ken Griffey Jr.",
+   "g": "H",
+   "year": "1996",
+   "war": "9.7",
+   "top5": 41.6,
+   "line": ".303, 49 HR, 140 RBI",
+   "bad": [],
+   "apiId": 115135
+  },
+  {
+   "name": "Alex Rodriguez",
+   "g": "H",
+   "year": "2000",
+   "war": "10.4",
+   "top5": 38.8,
+   "line": ".316, 41 HR, 132 RBI",
+   "bad": [],
+   "apiId": 121347
+  },
+  {
+   "name": "Ichiro Suzuki",
+   "g": "H",
+   "year": "2004",
+   "war": "9.2",
+   "top5": 33.7,
+   "line": ".372, 8 HR, 60 RBI, 36 SB",
+   "bad": [],
+   "apiId": 400085
+  },
+  {
+   "name": "Randy Johnson",
+   "g": "P",
+   "year": "1995",
+   "war": "8.6",
+   "top5": 31.7,
+   "line": "18-2, 2.48 ERA, 294 K",
+   "bad": [],
+   "apiId": 116615
+  }
+ ],
+ "SFG": [
+  {
+   "name": "Barry Bonds",
+   "g": "H",
+   "year": "2001",
+   "war": "11.9",
+   "top5": 53.8,
+   "line": ".328, 73 HR, 137 RBI",
+   "bad": [],
+   "apiId": 111188
+  },
+  {
+   "name": "Willie Mays",
+   "g": "H",
+   "year": "1965",
+   "war": "11.2",
+   "top5": 53.8,
+   "line": ".317, 52 HR, 112 RBI",
+   "bad": [],
+   "apiId": 118495
+  },
+  {
+   "name": "Mel Ott",
+   "g": "H",
+   "year": "1938",
+   "war": "8.8",
+   "top5": 39.3,
+   "line": ".311, 36 HR, 116 RBI",
+   "bad": [],
+   "apiId": 120117
+  },
+  {
+   "name": "Christy Mathewson",
+   "g": "P",
+   "year": "1908",
+   "war": "11.8",
+   "top5": 50.4,
+   "line": "37-11, 1.43 ERA, 259 K",
+   "bad": [],
+   "apiId": 118422
+  }
+ ],
+ "STL": [
+  {
+   "name": "Rogers Hornsby",
+   "g": "H",
+   "year": "1924",
+   "war": "12.1",
+   "top5": 53.3,
+   "line": ".424, 25 HR, 94 RBI",
+   "bad": [],
+   "apiId": 116156
+  },
+  {
+   "name": "Stan Musial",
+   "g": "H",
+   "year": "1948",
+   "war": "11.3",
+   "top5": 48.1,
+   "line": ".376, 39 HR, 131 RBI",
+   "bad": [],
+   "apiId": 119602
+  },
+  {
+   "name": "Albert Pujols",
+   "g": "H",
+   "year": "2009",
+   "war": "9.7",
+   "top5": 44.8,
+   "line": ".327, 47 HR, 135 RBI",
+   "bad": [],
+   "apiId": 405395
+  },
+  {
+   "name": "Bob Gibson",
+   "g": "P",
+   "year": "1968",
+   "war": "11.2",
+   "top5": 43.9,
+   "line": "22-9, 1.12 ERA, 268 K",
+   "bad": [],
+   "apiId": 114756
+  }
+ ],
+ "TEX": [
+  {
+   "name": "Adrian Beltré",
+   "g": "H",
+   "year": "2012",
+   "war": "7.2",
+   "top5": 31.6,
+   "line": ".321, 36 HR, 102 RBI",
+   "bad": [],
+   "apiId": 134181
+  },
+  {
+   "name": "Buddy Bell",
+   "g": "H",
+   "year": "1979",
+   "war": "6.9",
+   "top5": 31.4,
+   "line": ".299, 18 HR, 101 RBI",
+   "bad": [],
+   "apiId": 110815
+  },
+  {
+   "name": "Iván Rodríguez",
+   "g": "H",
+   "year": "1997",
+   "war": "6.5",
+   "top5": 30.4,
+   "line": ".313, 20 HR, 77 RBI",
+   "bad": [],
+   "apiId": 121358
+  },
+  {
+   "name": "Kenny Rogers",
+   "g": "P",
+   "year": "1995",
+   "war": "5.8",
+   "top5": 24.2,
+   "line": "17-7, 3.38 ERA, 140 K",
+   "bad": [],
+   "apiId": 121386
+  }
+ ],
+ "TOR": [
+  {
+   "name": "José Bautista",
+   "g": "H",
+   "year": "2011",
+   "war": "8.3",
+   "top5": 31.5,
+   "line": ".302, 43 HR, 103 RBI",
+   "bad": [],
+   "apiId": 430832
+  },
+  {
+   "name": "Carlos Delgado",
+   "g": "H",
+   "year": "2000",
+   "war": "7.3",
+   "top5": 28,
+   "line": ".344, 41 HR, 137 RBI",
+   "bad": [],
+   "apiId": 113232
+  },
+  {
+   "name": "Jesse Barfield",
+   "g": "H",
+   "year": "1986",
+   "war": "7.6",
+   "top5": 24.9,
+   "line": ".289, 40 HR, 108 RBI",
+   "bad": [],
+   "apiId": 110559
+  },
+  {
+   "name": "Dave Stieb",
+   "g": "P",
+   "year": "1984",
+   "war": "7.9",
+   "top5": 35.2,
+   "line": "16-8, 2.83 ERA, 198 K",
+   "bad": [],
+   "apiId": 122791
+  }
+ ],
+ "WSN": [
+  {
+   "name": "Gary Carter",
+   "g": "H",
+   "year": "1982",
+   "war": "8.6",
+   "top5": 35.6,
+   "line": ".293, 29 HR, 97 RBI",
+   "bad": [],
+   "apiId": 112061
+  },
+  {
+   "name": "Andre Dawson",
+   "g": "H",
+   "year": "1982",
+   "war": "7.9",
+   "top5": 34,
+   "line": ".301, 23 HR, 83 RBI, 39 SB",
+   "bad": [],
+   "apiId": 113151
+  },
+  {
+   "name": "Tim Raines",
+   "g": "H",
+   "year": "1985",
+   "war": "7.6",
+   "top5": 32.4,
+   "line": ".320, 11 HR, 41 RBI, 70 SB",
+   "bad": [],
+   "apiId": 120891
+  },
+  {
+   "name": "Max Scherzer",
+   "g": "P",
+   "year": "2018",
+   "war": "7.9",
+   "top5": 33.6,
+   "line": "18-7, 2.53 ERA, 300 K",
+   "bad": [],
+   "apiId": 453286
+  }
+ ],
+ "OAK": [
+  {
+   "name": "Eddie Collins",
+   "g": "H",
+   "year": "1910",
+   "war": "9.8",
+   "top5": 46.6,
+   "line": ".324, 3 HR, 81 RBI, 81 SB",
+   "bad": [],
+   "apiId": 112506
+  },
+  {
+   "name": "Jimmie Foxx",
+   "g": "H",
+   "year": "1932",
+   "war": "10.3",
+   "top5": 43.5,
+   "line": ".364, 58 HR, 169 RBI",
+   "bad": [],
+   "apiId": 114367
+  },
+  {
+   "name": "Rickey Henderson",
+   "g": "H",
+   "year": "1990",
+   "war": "9.9",
+   "top5": 39,
+   "line": ".325, 28 HR, 61 RBI, 65 SB",
+   "bad": [],
+   "apiId": 115749
+  },
+  {
+   "name": "Lefty Grove",
+   "g": "P",
+   "year": "1931",
+   "war": "10.4",
+   "top5": 46.2,
+   "line": "31-4, 2.06 ERA, 175 K",
+   "bad": [],
+   "apiId": 115201
+  }
+ ],
+ "ANA": [
+  {
+   "name": "Jim Fregosi",
+   "g": "H",
+   "year": "1964",
+   "war": "7.9",
+   "top5": 31.8,
+   "line": ".277, 18 HR, 72 RBI",
+   "bad": [],
+   "apiId": 114414
+  },
+  {
+   "name": "Tim Salmon",
+   "g": "H",
+   "year": "1995",
+   "war": "6.6",
+   "top5": 25.3,
+   "line": ".330, 34 HR, 105 RBI",
+   "bad": [],
+   "apiId": 121640
+  },
+  {
+   "name": "Bobby Grich",
+   "g": "H",
+   "year": "1979",
+   "war": "6.0",
+   "top5": 23.7,
+   "line": ".294, 30 HR, 101 RBI",
+   "bad": [],
+   "apiId": 115130
+  },
+  {
+   "name": "Nolan Ryan",
+   "g": "P",
+   "year": "1977",
+   "war": "7.8",
+   "top5": 31.4,
+   "line": "19-16, 2.77 ERA, 341 K",
+   "bad": [],
+   "apiId": 121597
+  }
+ ],
+ "FLA": [
+  {
+   "name": "Giancarlo Stanton",
+   "g": "H",
+   "year": "2017",
+   "war": "8.1",
+   "top5": 27.9,
+   "line": ".281, 59 HR, 132 RBI",
+   "bad": [],
+   "apiId": 519317
+  },
+  {
+   "name": "Hanley Ramírez",
+   "g": "H",
+   "year": "2009",
+   "war": "7.4",
+   "top5": 26.2,
+   "line": ".342, 24 HR, 106 RBI",
+   "bad": [],
+   "apiId": 434670
+  },
+  {
+   "name": "Luis Castillo",
+   "g": "H",
+   "year": "2000",
+   "war": "4.5",
+   "top5": 18.7,
+   "line": ".334, 2 HR, 17 RBI, 62 SB",
+   "bad": [],
+   "apiId": 112116
+  },
+  {
+   "name": "Josh Johnson",
+   "g": "P",
+   "year": "2010",
+   "war": "7.0",
+   "top5": 24.3,
+   "line": "11-6, 2.30 ERA, 186 K",
+   "bad": [],
+   "apiId": 435178
+  }
+ ],
+ "TBD": [
+  {
+   "name": "Evan Longoria",
+   "g": "H",
+   "year": "2010",
+   "war": "8.2",
+   "top5": 33,
+   "line": ".294, 22 HR, 104 RBI",
+   "bad": [],
+   "apiId": 446334
+  },
+  {
+   "name": "Ben Zobrist",
+   "g": "H",
+   "year": "2009",
+   "war": "8.6",
+   "top5": 31.8,
+   "line": ".297, 27 HR, 91 RBI",
+   "bad": [],
+   "apiId": 450314
+  },
+  {
+   "name": "Carl Crawford",
+   "g": "H",
+   "year": "2010",
+   "war": "7.0",
+   "top5": 25.8,
+   "line": ".307, 19 HR, 90 RBI, 47 SB",
+   "bad": [],
+   "apiId": 408307
+  },
+  {
+   "name": "David Price",
+   "g": "P",
+   "year": "2012",
+   "war": "6.6",
+   "top5": 19.9,
+   "line": "20-5, 2.56 ERA, 205 K",
+   "bad": [],
+   "apiId": 456034
+  }
+ ]
+}
