@@ -19,7 +19,7 @@ const FR = ["ARI", "ATL", "BAL", "BOS", "CHC", "CHW", "CIN", "CLE", "COL", "DET"
 const argv = process.argv.slice(2);
 const opt = (k, d) => { const i = argv.indexOf(k); return i >= 0 ? Number(argv[i + 1]) : d; };
 const PAGES = opt("--pages", 3), TOP = opt("--top", 12);
-const pick = argv.filter((a, i) => /^[A-Z]{3}$/.test(a) && !["--pages", "--top"].includes(argv[i - 1]));
+const pick = argv.filter((a, i) => /^[A-Z]{3}$/.test(a) && !["--pages", "--top", "--names"].includes(argv[i - 1]));
 const franchises = pick.length ? pick : FR;
 const BASE = "https://www.sports-reference.com/stathead/baseball";
 const API = "https://statsapi.mlb.com/api/v1";
@@ -72,7 +72,29 @@ async function pages(sh, url, label) {
   return { ...first, rows, rowCount: rows.length, pages: n, complete };
 }
 
+// --names "Hank Aaron:hitting,Babe Adams:pitching": MLB API year-by-year only.
+async function namesOnly(spec) {
+  const out = [];
+  for (const item of spec.split(",").map((x) => x.trim()).filter(Boolean)) {
+    const [name, grp = "hitting"] = item.split(":");
+    const s = await get(`${API}/people/search?names=${encodeURIComponent(name)}&sportIds=1`);
+    const people = ((s && s.people) || []).slice(0, 5);
+    const tried = [];
+    for (const p of people) {
+      const y = await get(`${API}/people/${p.id}/stats?stats=yearByYear&group=${grp}&gameType=R&sportId=1`);
+      tried.push({ id: p.id, fullName: p.fullName, birthDate: p.birthDate, mlbDebutDate: p.mlbDebutDate, lastPlayedDate: p.lastPlayedDate, group: grp,
+        yearByYear: ((y && y.stats) || []).flatMap((x) => x.splits || []) });
+      await sleep(120);
+    }
+    out.push({ query: name, group: grp, people: tried });
+    console.log(`${name}: ${tried.length} candidates`);
+  }
+  save(`names-${Date.now()}.json`, { spec, out });
+}
+
 async function main() {
+  const ni = argv.indexOf("--names");
+  if (ni >= 0) { await namesOnly(argv[ni + 1] || ""); return commit(); }
   const sh = new StatheadBrowser({ dataDir: path.join(__dirname, "data", "browser"), runDate, idPrefix: "LG" });
   const index = {};
   try {
@@ -139,7 +161,10 @@ async function main() {
     console.log(`${fr}: MLB API lines for ${out.filter((x) => x.matched).length}/${out.length} candidates`);
   }
   save("summary.json", { runDate, franchises, index, at: new Date().toISOString() });
+  await commit();
+}
 
+async function commit() {
   if (!argv.includes("--commit")) return;
   const { spawnSync } = require("child_process");
   const repo = path.join(__dirname, "..");
