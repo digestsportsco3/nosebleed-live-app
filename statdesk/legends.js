@@ -53,6 +53,25 @@ function bestRun(seasons, n) {
   return best;
 }
 
+// Page through a finder result with retries; a page that keeps failing ends
+// the walk but keeps the rows already read (marked incomplete).
+async function pages(sh, url, label) {
+  const rows = []; let next = url; let first = null; let n = 0; let complete = false; let lastErr = null;
+  while (next && n < PAGES) {
+    let rec = null;
+    for (let t = 1; t <= 3 && !rec; t += 1) {
+      try { rec = await sh.query(next, { label: n ? `${label} (page ${n + 1})` : label }); }
+      catch (e) { lastErr = e; if (/withheld|not authenticated/i.test(e.message)) throw e; await sleep(5000 * t); }
+    }
+    if (!rec) break;
+    if (!first) first = rec;
+    rows.push(...rec.rows); n += 1; next = rec.next;
+    if (!next) complete = true;
+  }
+  if (!first) throw lastErr || new Error("no page read");
+  return { ...first, rows, rowCount: rows.length, pages: n, complete };
+}
+
 async function main() {
   const sh = new StatheadBrowser({ dataDir: path.join(__dirname, "data", "browser"), runDate, idPrefix: "LG" });
   const index = {};
@@ -62,12 +81,12 @@ async function main() {
       for (const [grp, key] of [["batting", "b_war"], ["pitching", "p_war"]]) {
         const url = `${BASE}/player-${grp}-season-finder.cgi?request=1&match=player_season&year_min=1871&year_max=2026&comp_type=reg&team_id=${fr}&order_by=${key}&order_by_asc=0`;
         try {
-          const r = await sh.queryAll(url, { label: `${fr} top ${grp} seasons by WAR`, maxPages: PAGES });
+          const r = await pages(sh, url, `${fr} top ${grp} seasons by WAR`);
           const warCol = (r.headers.find((h) => /war/i.test(h.key)) || {}).key || key;
           const rows = r.rows.map((x) => ({ ...x, _war: num(x[warCol]) }));
           const sorted = rows.every((x, i) => i === 0 || (x._war ?? -99) <= (rows[i - 1]._war ?? 99) + 1e-9);
           rec[grp] = { url, warCol, headers: r.headers, rows, rowCount: rows.length, complete: r.complete, sortedByWar: sorted,
-            teams: [...new Set(rows.map((x) => x.team_name_abbr).filter(Boolean))] };
+            teams: [...new Set(rows.map((x) => x.teams_played_for || x.team_name_abbr).filter(Boolean))] };
           console.log(`${fr} ${grp}: ${rows.length} rows, WAR col ${warCol}, sorted ${sorted}, teams ${rec[grp].teams.join(",")}`);
         } catch (e) { rec[grp] = { url, error: e.message }; console.log(`${fr} ${grp}: FAILED ${e.message}`); }
       }
