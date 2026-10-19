@@ -4954,3 +4954,12 @@
 2026-10-18T17:41:23.684Z	PH004	stathead-browser	post_7ip_1h_0er: Postseason starts of 7+ IP, 1 or fewer H, 0 ER	rows=22
 2026-10-18T17:42:07.686Z	PH005	stathead-browser	post_3h_age21: Postseason games with 3+ hits at age 21 or younger	rows=25
 2026-10-18T17:42:54.916Z	PH006	stathead-browser	post_3ip_0r_relief_age22: Postseason relief outings of 3+ IP, 0 R, age 22 or younger	rows=37
+2026-10-19T21:25:51.554Z	NP001	stathead-browser	300+ passing-yard games 2022-2026 (reg)	rows=200	CAPPED
+2026-10-19T21:25:55.751Z	NP002	stathead-browser	300+ passing-yard games 2022-2026 (reg) page 2	rows=180	CAPPED
+2026-10-19T21:25:59.923Z	NP003	stathead-browser	300+ passing-yard games 2022-2026 (reg) page 3	rows=180	CAPPED
+2026-10-19T21:26:03.833Z	NP004	stathead-browser	300+ passing-yard games 2022-2026 (reg) page 4	rows=180	CAPPED
+2026-10-19T21:26:07.832Z	NP005	stathead-browser	300+ passing-yard games 2022-2026 (reg) page 5	rows=180	CAPPED
+2026-10-19T21:26:12.007Z	NP006	stathead-browser	300+ passing-yard games 2022-2026 (reg) page 6	rows=180	CAPPED
+2026-10-19T21:26:15.075Z	NP007	stathead-browser	300+ passing-yard games 2022-2026 (reg) page 7	rows=180	CAPPED
+2026-10-19T21:26:19.778Z	NP008	stathead-browser	300+ passing-yard games 2022-2026 (reg) page 8	rows=180	CAPPED
+2026-10-19T21:26:23.337Z	NP009	stathead-browser	300+ passing-yard games 2022-2026 (post)	rows=20
