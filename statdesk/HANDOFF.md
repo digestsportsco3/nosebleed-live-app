@@ -346,6 +346,15 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 19: NFL, Brock Purdy 320+ passing-yard boost (BetUS promo), MNF WSH at SF. Auto-handoff hooks added
+
+New task `nfl-player` (statdesk/nfl/player-pull.js): ESPN game logs/splits 2022-26, both teams' 2026 box scores,
+scoreboard; Stathead 300+ passing-yard game finder. Data: data/nfl/players/2026-10-19/brock-purdy/ (+ purdy-games.json).
+BUG to fix next time: Stathead "next page" link carries extra default filters and repeats page 2 (NP002-NP008 identical),
+so league-wide 300/320-yard counts are NOT complete; only Purdy's own list (matches ESPN) and named games were used.
+Hooks: .claude/settings.json SessionStart -> statdesk/hooks/session-context.js (injects SESSION-START.md + handoff),
+PreCompact -> statdesk/hooks/pre-compact.js (stamps handoff, commits, pushes to main). Keep SESSION-START.md current.
+
 ### Oct 18: ALCS G5 list (Rasmussen vs Messick, at CLE). Series 2-2 (G4 Oct 17: TB 7-3, Martinez W)
 
 mlb-daily run 39150621705 committed 8db9585 (postseason) + 2954981 (matchups/2026-10-18: p-656876 Rasmussen, p-800048
