@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node statdesk/hooks/session-context.js",
+            "timeout": 30,
+            "statusMessage": "Loading Stat Desk handoff"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node statdesk/hooks/pre-compact.js",
+            "timeout": 120,
+            "statusMessage": "Saving Stat Desk work before compaction"
+          }
+        ]
+      }
+    ]
+  }
+}
