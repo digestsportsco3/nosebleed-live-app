@@ -21,7 +21,7 @@ try {
   fs.writeFileSync(hp, h);
 } catch (e) { msgs.push(`could not stamp HANDOFF.md: ${e.message}`); }
 
-git("add", "-A", "statdesk", ".claude", ".github");
+git("add", "-A", "statdesk", ".claude", ".github", "CLAUDE.md");
 if (git("diff", "--cached", "--quiet").status !== 0) {
   git("commit", "-m", "Stat Desk: auto-save before context compaction");
 }
@@ -29,7 +29,7 @@ const branch = (git("branch", "--show-current").stdout || "").trim() || "main";
 const target = "main";
 let pushed = false;
 for (let i = 0; i < 3 && !pushed; i += 1) {
-  if (git("pull", "--rebase", "origin", target).status === 0 && git("push", "origin", `HEAD:${target}`).status === 0) pushed = true;
+  if (git("pull", "--rebase", "--autostash", "origin", target).status === 0 && git("push", "origin", `HEAD:${target}`).status === 0) pushed = true;
 }
 const head = (git("rev-parse", "--short", "HEAD").stdout || "").trim();
 msgs.push(pushed ? `Stat Desk auto-saved and pushed ${head} to main before compaction.` : `Stat Desk auto-save: push FAILED (commit ${head} is local). Push it first thing after compaction.`);
