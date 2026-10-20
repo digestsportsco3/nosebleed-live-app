@@ -346,6 +346,12 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 20: LeBron James career at Madison Square Garden (NBA.com game logs)
+
+Task nba-extra args "2544 lebron" -> statdesk/data/nba/players/lebron/ (info.json confirms LeBron James; 1,924 games,
+2003-04 through 2025-26, regular season + playoffs). MSG = games logged "@ NYK": 32 RS (23-9, 28.0/6.9/7.5) + 2 PO (2012).
+Two 50-pt games there (2008, 2009). Any NBA player: dispatch nba-extra with "<NBA PERSON_ID> <slug>".
+
 ### Oct 19: NFL, Brock Purdy 320+ passing-yard boost (BetUS promo), MNF WSH at SF. Auto-handoff hooks added
 
 New task `nfl-player` (statdesk/nfl/player-pull.js): ESPN game logs/splits 2022-26, both teams' 2026 box scores,
