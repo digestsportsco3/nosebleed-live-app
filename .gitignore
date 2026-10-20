@@ -34,3 +34,7 @@ statdesk/data/decades/raw/
 
 # nflverse season files (public, ~26 MB, re-downloadable with nfl/fetch.sh).
 statdesk/data/nfl/nflverse/
+
+# Visual-QA renders of generated PDFs: they picture filled contracts and proposals,
+# which carry real names. Never commit them.
+contracts/**/qa_out/
