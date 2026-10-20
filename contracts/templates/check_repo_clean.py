@@ -42,10 +42,12 @@ PII = [
     # and how the number that leaked was written. Examples below use the reserved 555-01xx
     # fictional range on purpose: a real number in this file would be the very leak it exists
     # to stop, and the checker does flag itself if you put one here.
+    # Toll-free prefixes (800/888/877/866/855/844/833) are business lines, never a person's
+    # phone; ESPN's 800 number rides along in every API response the stats pipeline saves.
     ("phone number", re.compile(
-        r"\+\s?1[-.\s]+\(?\d{3}\)?[-.\s]*\d{3}[-.\s]*\d{4}\b"   # +1 212 555 0100
-        r"|\(\d{3}\)\s*\d{3}[-.\s]?\d{4}\b"                      # (212) 555-0100
-        r"|\b\d{3}[-.]\d{3}[-.]\d{4}\b")),                       # 212-555-0100 / 212.555.0100
+        r"\+\s?1[-.\s]+\(?(?!8(?:00|88|77|66|55|44|33))\d{3}\)?[-.\s]*\d{3}[-.\s]*\d{4}\b"   # +1 212 555 0100
+        r"|\((?!8(?:00|88|77|66|55|44|33))\d{3}\)\s*\d{3}[-.\s]?\d{4}\b"                      # (212) 555-0100
+        r"|\b(?!8(?:00|88|77|66|55|44|33))\d{3}[-.]\d{3}[-.]\d{4}\b")),                       # 212-555-0100 / 212.555.0100
     ("street address", re.compile(
         r"\b\d{1,5}\s+(?:[NSEW]\.?\s+)?[A-Z0-9][A-Za-z0-9.]*\s+"
         r"(?:Street|St\.?|Road|Rd\.?|Drive|Dr\.?|Court|Ct\.?|Lane|Ln\.?|Terrace|Ave\.?|"

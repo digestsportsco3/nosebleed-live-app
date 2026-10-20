@@ -29,6 +29,15 @@ The stats pipeline lives in `statdesk/`. Its running handoff is
 3. Reports the pushed commit hash in the final reply, so the user can confirm
    it reached GitHub.
 
+## Automatic handoff (hooks in .claude/settings.json)
+
+- SessionStart (new session, resume, and right after compaction): runs
+  `node statdesk/hooks/session-context.js`, which injects `statdesk/SESSION-START.md`
+  (Nick's standing rules), the HANDOFF "Current state" block, the latest dated entries
+  and recent commits. Keep SESSION-START.md current when Nick adds a rule.
+- PreCompact: runs `node statdesk/hooks/pre-compact.js`, which stamps HANDOFF.md,
+  commits everything under statdesk/, and pushes to main.
+
 ## Contracts work — read this before any contract task
 
 JGN Media LLC contract records live in **`contracts/`**. Start with

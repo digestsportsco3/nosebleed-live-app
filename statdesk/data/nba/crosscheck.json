@@ -1,5 +1,5 @@
 {
- "runDate": "2026-09-28",
+ "runDate": "2026-10-20",
  "decades": [
   {
    "decade": 1940,
@@ -1051,22 +1051,22 @@
     {
      "rank": 3,
      "ours": {
-      "name": "Norm Van Lier",
-      "season": 1970,
-      "v": 832
+      "name": "Kevin Porter",
+      "season": 1977,
+      "v": 837
      },
      "stathead": {
       "name": "Kevin Porter",
       "season": 1977,
       "v": 837
      },
-     "agree": false
+     "agree": true
     },
     {
      "rank": 4,
      "ours": {
-      "name": "Micheal Ray Richardson",
-      "season": 1979,
+      "name": "Norm Van Lier",
+      "season": 1970,
       "v": 832
      },
      "stathead": {
@@ -1079,16 +1079,16 @@
     {
      "rank": 5,
      "ours": {
-      "name": "John Lucas",
-      "season": 1977,
-      "v": 768
+      "name": "Micheal Ray Richardson",
+      "season": 1979,
+      "v": 832
      },
      "stathead": {
       "name": "Norm Van Lier",
       "season": 1970,
       "v": 832
      },
-     "agree": false
+     "agree": true
     }
    ],
    "agree": false

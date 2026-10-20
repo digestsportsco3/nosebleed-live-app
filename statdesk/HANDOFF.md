@@ -7,7 +7,11 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Last updated: 2026-10-07 (four Game 3/4 briefs sent; runner still offline; see "What went out on Oct 7"). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: run task mlb-matchups (matchups.js + post-history.js), then angles.js, then build the brief from career and matchup angles, never box scores.
+Auto-saved before context compaction: 2026-10-19T21:26:25.309Z
+
+Last updated: 2026-10-16 (ALCS G4 TB@CLE list sent, Martinez vs Armstrong; CLE leads 2-1; NLCS over, MIL swept LAD 4-0). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+
+PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
 ### MULTI-SPORT DECADE FACTS (2026-09-28) — NBA, NFL, college, Michael Jordan
 
@@ -341,6 +345,58 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Oct 20: LeBron James career at Madison Square Garden (NBA.com game logs)
+
+Task nba-extra args "2544 lebron" -> statdesk/data/nba/players/lebron/ (info.json confirms LeBron James; 1,924 games,
+2003-04 through 2025-26, regular season + playoffs). MSG = games logged "@ NYK": 32 RS (23-9, 28.0/6.9/7.5) + 2 PO (2012).
+Two 50-pt games there (2008, 2009). Any NBA player: dispatch nba-extra with "<NBA PERSON_ID> <slug>".
+
+### Oct 19: NFL, Brock Purdy 320+ passing-yard boost (BetUS promo), MNF WSH at SF. Auto-handoff hooks added
+
+New task `nfl-player` (statdesk/nfl/player-pull.js): ESPN game logs/splits 2022-26, both teams' 2026 box scores,
+scoreboard; Stathead 300+ passing-yard game finder. Data: data/nfl/players/2026-10-19/brock-purdy/ (+ purdy-games.json).
+BUG to fix next time: Stathead "next page" link carries extra default filters and repeats page 2 (NP002-NP008 identical),
+so league-wide 300/320-yard counts are NOT complete; only Purdy's own list (matches ESPN) and named games were used.
+Hooks: .claude/settings.json SessionStart -> statdesk/hooks/session-context.js (injects SESSION-START.md + handoff),
+PreCompact -> statdesk/hooks/pre-compact.js (stamps handoff, commits, pushes to main). Keep SESSION-START.md current.
+
+### Oct 18: ALCS G5 list (Rasmussen vs Messick, at CLE). Series 2-2 (G4 Oct 17: TB 7-3, Martinez W)
+
+mlb-daily run 39150621705 committed 8db9585 (postseason) + 2954981 (matchups/2026-10-18: p-656876 Rasmussen, p-800048
+Messick, every opposing hitter). 20 items in posted.json (note "ALCS G5 TB@CLE list") + both lineup tables.
+Key finds: Jul 26 Rasmussen-Messick duel TB 1-0; Messick vs TB 2026 18.1 IP 2 ER and CLE 0-3; CLE 0-3 since 2024 in
+postseason games where neither Gaddis nor Smith pitched (both sat G4). Fixed before sending: Rasmussen's pre-2026
+postseason was 3 appearances, not 4.
+
+### Oct 17: "Add ONE player in his prime" polls for all 30 teams (task mlb-legends)
+
+statdesk/legends.js: Stathead season finder, top 600 batting + 600 pitching seasons by WAR per franchise (team_id codes:
+use OAK, ANA, FLA, TBD for the A's, Angels, Marlins, Rays; ATH/LAA/MIA/TBR return only recent or unfiltered rows), then MLB
+API year-by-year for candidates; `--names "Name:hitting,..."` pulls named players (MLB API calls Speaker "Tristram Speaker").
+Picks: 3 hitters + 1 pitcher by WAR over their five best seasons with the club, best season 1901+, nobody who played for
+the club in 2026. Lines print only numbers Stathead and the MLB API agree on (OPS dropped for rounding; RBI disagree for
+Ruth 1923, Gehrig 1927, Cobb 1917; AVG for Lajoie 1910). Final picks: data/mlb/legends/2026-10-17/polls-final.json.
+
+### Oct 17: Gaddis & Smith vs the Rays lineup (from Hembo's 14-of-15 tweet). ALCS G4 was POSTPONED Oct 16, now Oct 17
+
+New task `mlb-relievers` (statdesk/vs-relievers.js + statdesk/relievers-stathead.js): args 'CLE TB "Hunter Gaddis" "Cade Smith"'.
+Data: relievers/2026-10-17 (p-683769 Gaddis, p-671922 Smith, every TB hitter vsPlayerTotal + vsPlayer, every CLE postseason
+game since 2022 with staff, every Gaddis/Smith postseason PA with pitches) and browser/2026-10-17 RV001-002 (Stathead CLE
+postseason appearances). Stathead and the API agree appearance for appearance (Gaddis 18, Smith 19). The tweet's 14-of-15 is
+verified; "only tandem ever" was NOT tested (credited to Hembo). The Oct 16 "Martinez vs Armstrong tonight" list was built for
+a game that was postponed; G4 is Oct 17, G5 Oct 18. Note: a postponed game reads abstractGameState "Final" in the schedule;
+vs-relievers.js picked it up as game 29 with an empty staff, harmless but filter on detailedState next time.
+
+### Oct 16: ALCS G4 list (Nick Martinez vs Shawn Armstrong, at CLE). CLE leads 2-1 (G3 CLE 3-2). NLCS: MIL swept 4-0
+
+mlb-daily run committed 79d3821 (postseason) + cbd8bcc (matchups/2026-10-16: p-607259 Martinez, p-542888 Armstrong,
+every opposing hitter). 20 items in posted.json (note "ALCS G4 TB@CLE list"), plus both full lineup tables.
+Key finds: Martinez vs CLE 2026 13 IP 0 R; Ramirez 1-11 vs Martinez; CLE active .224 / 1 HR vs Martinez;
+Armstrong career postseason 26 BF 0 R 0 BB, season-high 5 outs (opener); Mullins 5-8 HR vs Armstrong;
+CLE bullpen 39 IP 2.08; CLE 21-26 at home vs RHP starters (standings splitRecords "rightHome").
+Checks that caught errors before sending: Martinez 6+ IP starts is 18 of 31 (not 23); Halpin's one time on base
+vs TB was a HBP, not a walk. Armstrong's handedness is NOT in our data (Martinez R is, from 2026-09-22 C012).
 
 ### Oct 15: ALCS G3 list (Jax vs G. Williams). ALCS tied 1-1 (G2 TB 3-1, all 3 runs unearned). NLCS G3 MIL 6-2 (MIL up 3-0)
 
