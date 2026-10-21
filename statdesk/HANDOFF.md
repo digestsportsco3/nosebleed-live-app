@@ -9,7 +9,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
-Last updated: 2026-10-16 (ALCS G4 TB@CLE list sent, Martinez vs Armstrong; CLE leads 2-1; NLCS over, MIL swept LAD 4-0). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+Last updated: 2026-10-21 (hot streaks list sent; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
 PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
@@ -345,6 +345,17 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Oct 21: 10 hottest streaks of the 2026 regular season (league-wide, player + team names)
+
+New task `mlb-streaks` (statdesk/streaks.js): every hitter 200+ PA (361) and pitcher 30+ IP (464), full game logs ->
+data/mlb/streaks/2026/{hitting,pitching}.json. Streaks rebuilt game by game; hit/on-base streaks skip 0-PA games;
+scoreless = appearances with 0 runs charged. Season leaders: on-base Kurtz 48, Harper 35, Reynolds 34; hit Gelof/Vargas 24;
+HR Caminero 6; XBH Valdez 8; RBI Harper/Valdez 8; scoreless apps Uribe/Montgomery 25; best 20-game OPS Crow-Armstrong 1.452.
+Pitching: Misiorowski 8 starts 1 ER (0.17), Sanchez 5 scoreless starts, Schlittler last 9 starts 1.17.
+Peralta since joining TB (Aug 4): 10 GS, 3.25 ERA, 5-2 - good, not top-10; told Nick. 12 items in posted.json.
+Fixed before sending: removed an unverifiable per-hit claim (Valdez) and an unconfirmed "WS starter" line (Misiorowski);
+added Uribe's tie with Montgomery.
 
 ### Oct 21: World Series preview, Rays vs Brewers (historical). ALCS: TB won 4-2 (G4-G6). WS G1 Oct 23 at MIL
 
