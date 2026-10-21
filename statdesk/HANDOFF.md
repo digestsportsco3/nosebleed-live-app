@@ -7,7 +7,7 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-Auto-saved before context compaction: 2026-10-19T21:26:25.309Z
+Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
 Last updated: 2026-10-16 (ALCS G4 TB@CLE list sent, Martinez vs Armstrong; CLE leads 2-1; NLCS over, MIL swept LAD 4-0). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
