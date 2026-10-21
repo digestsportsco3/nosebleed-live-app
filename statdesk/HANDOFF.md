@@ -346,6 +346,14 @@ What to ask Nick before the next brief:
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
 
+### Oct 21: World Series preview, Rays vs Brewers (historical). ALCS: TB won 4-2 (G4-G6). WS G1 Oct 23 at MIL
+
+series-matchups.js now has --all-time (every regular-season meeting + box scores since both franchises existed):
+task mlb-series args "TB:MIL --all-time" -> data/mlb/series/2026-10-20/TB-MIL-h2h-all.json (28 games, 2005-2026),
+postseason-history (0 meetings), starters' vsHitters, hitters' vsTeamTotal. 20 items in posted.json.
+Caution: pitcher game logs include games for other clubs before trades (Peralta Jul 20, May Mar 29) - filter by team.
+Runner hiccup Oct 20: first attempt hung in setup-node 10 min; re-run sat queued ~35 min until the runner came back.
+
 ### Oct 20: LeBron James career at Madison Square Garden (NBA.com game logs)
 
 Task nba-extra args "2544 lebron" -> statdesk/data/nba/players/lebron/ (info.json confirms LeBron James; 1,924 games,
