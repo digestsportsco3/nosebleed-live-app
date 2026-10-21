@@ -18,8 +18,11 @@ posts. These rules come from his feedback; do not make him repeat them.
 - Fact-check every claim against the data before sending; fix and say what was fixed.
 
 ## Hard rules
-- Only the teams Nick names. NEVER mention eliminated teams or other clubs anywhere
-  (post, why, also, verified). Grep the HTML for other team names before sending.
+- When Nick names teams (a matchup, a series), cover only those teams. NEVER mention eliminated
+  teams or other clubs anywhere in that list (post, why, also, verified). Grep the HTML for other
+  team names before sending.
+- League-wide lists (e.g. "10 hot streaks from this season"): include player names AND team
+  names. Nick said (Oct 21): "player names and team names, why would you exclude?"
 - The same stat for the same player cannot appear in consecutive lists
   (`statdesk/posted.json` logs every item; append each delivered item).
 - Never omit games; say clearly when data is incomplete (runner offline).

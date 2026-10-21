@@ -9,7 +9,7 @@
 //   - each active hitter: career vs the opponent and 2026 game log
 // Nick's machine only (the cloud container cannot reach statsapi.mlb.com).
 //
-//   node statdesk/series-matchups.js "White Sox:Guardians" "Yankees:Rays" ... [--date YYYY-MM-DD] [--commit]
+//   node statdesk/series-matchups.js "White Sox:Guardians" "Yankees:Rays" ... [--date YYYY-MM-DD] [--all-time] [--commit]
 "use strict";
 const fs = require("fs");
 const path = require("path");
@@ -52,6 +52,23 @@ async function main() {
     const sch = await grab(`${API}/schedule?sportId=1&season=${season}&gameType=R&teamId=${A.id}&hydrate=linescore,decisions,probablePitcher`);
     const games = ((sch.body && sch.body.dates) || []).flatMap((d) => d.games || []).filter((g) => [g.teams.away.team.id, g.teams.home.team.id].includes(B.id));
     save(`${key}-season-series.json`, { A, B, url: sch.url, games });
+    // Every regular-season meeting since both franchises existed, with box
+    // scores (interleague pairs can have only a few dozen games in total).
+    if (argv.includes("--all-time")) {
+      const first = Math.max(Number(A.firstYearOfPlay) || 1903, Number(B.firstYearOfPlay) || 1903);
+      const h2h = []; const h2hBoxes = {};
+      for (let y = first; y <= season; y += 1) {
+        const b = await get(`${API}/schedule?sportId=1&season=${y}&gameType=R&teamId=${A.id}&hydrate=linescore,decisions,probablePitcher`); await sleep(60);
+        for (const g of ((b && b.dates) || []).flatMap((d) => d.games || [])) {
+          if (![g.teams.away.team.id, g.teams.home.team.id].includes(B.id)) continue;
+          if (h2h.some((x) => x.gamePk === g.gamePk)) continue;
+          h2h.push(g);
+          if (g.status && g.status.detailedState === "Final") { h2hBoxes[g.gamePk] = await get(`${API}/game/${g.gamePk}/boxscore`); await sleep(60); }
+        }
+      }
+      save(`${key}-h2h-all.json`, { A, B, from: first, games: h2h, boxes: h2hBoxes });
+      console.log(`  all-time regular season: ${h2h.length} games since ${first}`);
+    }
     // Every postseason meeting.
     const post = [];
     for (let y = 1903; y < season; y += 1) {
