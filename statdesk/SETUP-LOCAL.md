@@ -58,6 +58,8 @@ restarting with `claude --chrome`.
 
 ## 7. Mac mini as the main machine (from 2026-10-22)
 
+Step-by-step install, Stathead sign-in and daily start: see SETUP-MAIN-DEVICE.md.
+
 The Windows desktop kept freezing and crashing, so the Mac mini is now the
 primary Claude machine. Its Desktop/Documents/Downloads were already backed up
 from the Windows box to Google Drive (nick@nosebleedsportsmedia.com) under

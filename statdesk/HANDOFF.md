@@ -16,6 +16,10 @@ does every MLB/NFL/NBA pull still lives on the WINDOWS box at
 `C:\Users\Administrator\actions-runner`. Until that runner is moved to the Mac
 or the Windows box is kept alive for it, dispatched tasks will sit "queued" and
 no data pulls will complete. Moving the runner is the open blocker for Stat Desk.
+UPDATE: a Claude session running ON the Mac does not need the runner: it can reach the MLB API/ESPN
+directly and runs the scripts itself (./statdesk/run.sh, node statdesk/<script>.js); Stathead uses the
+profile from `node statdesk/login.js` (~/.statdesk-chrome), visible with STATHEAD_HEADLESS=false.
+Steps: statdesk/SETUP-MAIN-DEVICE.md. The Actions workflow is Windows-only (shell: cmd); only cloud sessions need it.
 
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
