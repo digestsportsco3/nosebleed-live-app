@@ -10,8 +10,10 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 MACHINE MOVE IN PROGRESS (2026-10-22): the Windows desktop keeps freezing and
 crashing and is being retired as the primary machine. The Mac mini is taking
 over as the main Claude computer. See SETUP-LOCAL.md section 7 for the Mac
-setup, the external-drive check (likely NTFS and therefore read-only on macOS),
-and where files should live. NOTE: the self-hosted GitHub Actions runner that
+setup, the external-drive check and where files should live. DRIVE CHECKED
+2026-10-22: `YOTUO` is exFAT and read-write (NOT NTFS), 1 TB, 466 GiB free,
+verify OK; the used half is one 500 GB WinMagic SecureDoc encrypted container
+that must not be touched until Nick opens it. NOTE: the self-hosted GitHub Actions runner that
 does every MLB/NFL/NBA pull still lives on the WINDOWS box at
 `C:\Users\Administrator\actions-runner`. Until that runner is moved to the Mac
 or the Windows box is kept alive for it, dispatched tasks will sit "queued" and

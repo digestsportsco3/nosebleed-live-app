@@ -91,6 +91,28 @@ What to look for:
 Do not reformat or erase anything without Nick saying so explicitly in that
 session. Report what the drive is and what the options are; let him choose.
 
+### Result of the first check (2026-10-22)
+
+The drive is NOT NTFS. `diskutil` labels the partition `Windows_NTFS` (the MBR
+type code exFAT shares), but the filesystem is exFAT and macOS writes to it.
+
+- Volume `YOTUO`, `/dev/disk6s1`, USB 3.2, 1.0 TB (931 GiB).
+- exFAT, mounted read-write (`exfat, local, nodev, nosuid, noowners, noatime`).
+  It works on the Mac and on Windows as it is; no reformat is needed to write.
+- 466 GiB used, 466 GiB free.
+- `diskutil verifyVolume`: OK (fsck_exfat exit 0). SMART is not reported
+  through this USB enclosure.
+- The used half is ONE file, `_$SDCE/$$$SDC{95A5584E-...}.vdk` (500 GB, dated
+  2026-09-14), next to `RMCE_Viewer.app` and `RMCE_Viewer.exe`
+  (`com.winmagic.RMCE_Viewer` 9.1013.293). That is a WinMagic SecureDoc
+  encrypted container. It is preallocated, so its size says nothing about how
+  much is inside, and it opens only through the viewer with the SecureDoc
+  password. Do not delete, move or reformat over it until Nick has opened it
+  and said what it holds; it may be the Windows-machine copy.
+- exFAT has no file permissions (`noowners`): anything copied there loose can
+  be read by anyone who plugs the drive in. Credentials, `.env` files and the
+  OpenClaw backups go inside an encrypted disk image, never loose.
+
 ### Where things should live
 
 - The repo stays on the internal drive (`~/nosebleed-live-app`). Git operations
@@ -98,3 +120,18 @@ session. Report what the drive is and what the options are; let him choose.
 - `statdesk/data/` pulls stay in the repo and go to GitHub, as they do now.
 - The external drive is for bulk and archive: video, raw footage, old project
   folders, the Windows-machine restore copy. Not for live working files.
+- Do NOT move or regroup the project folders in `~/` (for example into
+  `~/Projects`). About 65 LaunchAgents in `~/Library/LaunchAgents` and 4
+  crontab lines (market-edge-scanner) run them by absolute `~/<project>/` path,
+  and Python virtualenvs break when their folder moves. A move means editing
+  and reloading every plist that names it.
+- Internal SSD on 2026-10-22: 251 GB, 144 GiB used, 61 GiB free. Largest
+  items: `~/Library` 14 GB (Chrome profile 7.4 GB), `~/.ollama` 13 GB
+  (llama3.1, qwen2.5-coder, nomic-embed-text), three OpenClaw backups 17 GB
+  (`~/.openclaw.BAK.20260226_141105`, `~/OpenClaw-Recovery`,
+  `~/.openclaw_backup`), `/Applications` 10 GB, `/opt/homebrew` 7.4 GB,
+  `~/.lmstudio` 5.8 GB, `~/.cache` 2.9 GB.
+- Nine project folders have no git remote and exist only on this Mac:
+  casual-big-ten, crypto-desk, fda-edge, kalshi-edge-research,
+  kalshi-sports-suite, market-research, nosebleed-backtest, nosebleed-leads,
+  prediction-markets. They need an off-machine copy.
