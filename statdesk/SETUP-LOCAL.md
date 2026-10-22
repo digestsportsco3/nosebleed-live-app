@@ -21,8 +21,11 @@ chat app already; the same extension serves Claude Code.
 ## 3. Get the pipeline onto the computer
 
 In Terminal (Mac) or PowerShell (Windows):
-    git clone -b stats-research-pipeline https://github.com/digestsportsco3/nosebleed-live-app.git
+    git clone https://github.com/digestsportsco3/nosebleed-live-app.git
     cd nosebleed-live-app
+
+That clones `main`, which is where all Stat Desk work lives. (An older version of
+this file named a `stats-research-pipeline` branch; it no longer exists.)
 
 ## 4. Start the hub session
 
@@ -52,3 +55,46 @@ Say: "hand off". The session updates `statdesk/HANDOFF.md`, runs
 If you see "HANDOFF NOT PUSHED", do not close the terminal until it is fixed.
 If the session has no browser tools, this is also the first step before
 restarting with `claude --chrome`.
+
+## 7. Mac mini as the main machine (from 2026-10-22)
+
+The Windows desktop kept freezing and crashing, so the Mac mini is now the
+primary Claude machine. Its Desktop/Documents/Downloads were already backed up
+from the Windows box to Google Drive (nick@nosebleedsportsmedia.com) under
+"My Computer"; Pictures/Videos/Music were deliberately not included.
+
+A Mac session set up here has what a cloud session does not: the real
+filesystem, the attached external drive, and Chrome with the Stathead login.
+
+### Checking the external drive, first session on the Mac
+
+Attached volumes mount under `/Volumes/`. Before trusting the drive with
+anything, the session should check and report:
+
+    ls -la /Volumes/
+    diskutil list
+    diskutil info /Volumes/<NAME>          # filesystem type and mount point
+    df -h /Volumes/<NAME>                  # capacity and free space
+    mount | grep /Volumes/<NAME>           # read-only vs read-write
+
+What to look for:
+
+- **Filesystem.** If it reads `ntfs`, macOS mounts it READ-ONLY and nothing can
+  be written to it without third-party software. This is the likely state if the
+  drive came off the Windows desktop. Options: reformat to APFS or exFAT (erases
+  the drive, so copy the contents off first), or use exFAT if the drive must
+  work on both machines. APFS is correct for a Mac-only drive.
+- **Mount flags.** `read-only` in the `mount` output confirms the above.
+- **Health.** `diskutil verifyVolume /Volumes/<NAME>`, and
+  `smartctl -a /dev/diskN` if smartmontools is installed.
+
+Do not reformat or erase anything without Nick saying so explicitly in that
+session. Report what the drive is and what the options are; let him choose.
+
+### Where things should live
+
+- The repo stays on the internal drive (`~/nosebleed-live-app`). Git operations
+  on an external drive that can be unplugged mid-write cause corruption.
+- `statdesk/data/` pulls stay in the repo and go to GitHub, as they do now.
+- The external drive is for bulk and archive: video, raw footage, old project
+  folders, the Windows-machine restore copy. Not for live working files.

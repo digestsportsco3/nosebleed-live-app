@@ -7,6 +7,16 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
+MACHINE MOVE IN PROGRESS (2026-10-22): the Windows desktop keeps freezing and
+crashing and is being retired as the primary machine. The Mac mini is taking
+over as the main Claude computer. See SETUP-LOCAL.md section 7 for the Mac
+setup, the external-drive check (likely NTFS and therefore read-only on macOS),
+and where files should live. NOTE: the self-hosted GitHub Actions runner that
+does every MLB/NFL/NBA pull still lives on the WINDOWS box at
+`C:\Users\Administrator\actions-runner`. Until that runner is moved to the Mac
+or the Windows box is kept alive for it, dispatched tasks will sit "queued" and
+no data pulls will complete. Moving the runner is the open blocker for Stat Desk.
+
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
 Last updated: 2026-10-21 (hot streaks list sent; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
