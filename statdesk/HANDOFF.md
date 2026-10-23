@@ -23,7 +23,7 @@ Steps: statdesk/SETUP-MAIN-DEVICE.md. The Actions workflow is Windows-only (shel
 
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
-Last updated: 2026-10-21 (hot streaks list sent; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+Last updated: 2026-10-23 (Misiorowski vs TB roster sent; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
 PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
@@ -359,6 +359,16 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Oct 23: Jacob Misiorowski career vs the Rays' active World Series roster
+
+New task `mlb-pvr` (statdesk/pitcher-vs-roster.js), args "<pitcherId> <TEAM> --date YYYY-MM-DD": opponent active roster,
+each hitter's vsPlayerTotal + vsPlayer, and play-by-play of EVERY game the pitcher has thrown (R + postseason), so each PA
+is tagged with the hitter's team at the time. Run 39994210967 (runner was online) -> data/mlb/pvr/2026-10-23/694819-vs-TB.json.
+Result: 14 TB position players, 10 have faced him: 27 PA, 5-24 (.208), 1 HR (Diaz, Apr 1), 6 K; as Rays 3-19 (one game,
+Apr 1 2026, MIL won 8-2, Misio 6 IP 2 R 7 K ND, left 2-2). Hicks/Mateo/Williamson saw him with other clubs (2-5).
+Never faced: DeLuca, Vilade, Walls, Mesa Jr. Play-by-play totals match vsPlayerTotal for every hitter. 7 items in posted.json.
+Fixed before sending: removed an unconfirmed "Game 1" reference.
 
 ### Oct 21: 10 hottest streaks of the 2026 regular season (league-wide, player + team names)
 
