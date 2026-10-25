@@ -23,7 +23,7 @@ Steps: statdesk/SETUP-MAIN-DEVICE.md. The Actions workflow is Windows-only (shel
 
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
-Last updated: 2026-10-23 (Misiorowski vs TB roster sent; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+Last updated: 2026-10-25 (SNF KC@SEA brief from nflverse; runner offline; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
 PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
@@ -359,6 +359,17 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Oct 25: NFL SNF Chiefs at Seahawks (BetUS KC +3, total 43) - built from nflverse because every other source was blocked
+
+Windows runner offline (nfl-matchup run 40238043927 still queued); cloud blocks ESPN, Sports Reference, Stathead and StatMuse.
+GitHub IS reachable, so nflverse was used: data/nfl/matchups/2026-10-25/KC-SEA-nflverse/games.csv (every game 1999-2026: kickoff ET,
+closing spread/total, starting QBs, coaches) + KC-SEA-players-weekly.json (stats_player_week 2012-26, KC/SEA active roster wk7).
+CAUTIONS: gametime is unreliable before 2006 (MNF logged 09:00/blank) - night records start 2006/2012. games.csv QB fields
+for SEA 2026 contradict weekly stats (Lock vs Darnold) - left out. spread_line > 0 = home favored. 11 items in posted.json.
+Key: Walker (now KC) 1,970 rush yds at Lumen as SEA; Mahomes 3+ pt dog 6-2 SU 7-0-1 ATS; SEA home night 27-9 since 2012;
+Mahomes only Seattle game 2018 SNF L 38-31; SEA defending champs (SB LX 29-13), 3-3; KC 5-0.
+The queued nfl-matchup run (PFR + ESPN) will still land when the runner comes back - use it to cross-check.
 
 ### Oct 23: Jacob Misiorowski career vs the Rays' active World Series roster
 
