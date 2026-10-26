@@ -25,3 +25,6 @@ statdesk/data/decades/raw/
 # nflverse season files (public, ~26 MB, re-downloadable with nfl/fetch.sh).
 statdesk/data/nfl/nflverse/
 __pycache__/
+
+# GitHub Actions runner installed inside the clone on the Mac mini (2026-10-26).
+actions-runner/
