@@ -52,3 +52,21 @@ claude --chrome
 
 ## 5. Retire the Windows runner (optional, once the Mac works)
 GitHub -> nosebleed-live-app -> Settings -> Actions -> Runners -> remove DESKTOP-F00L87B.
+
+## 6. Make the Mac the pull runner (so cloud chats can pull through it)
+
+Every Stat Desk workflow now runs only on a self-hosted runner labelled `macOS`.
+1. GitHub -> digestsportsco3/nosebleed-live-app -> Settings -> Actions -> Runners ->
+   **New self-hosted runner** -> macOS, ARM64. Run the Download and Configure commands it
+   shows in Terminal (accept the default name and labels; it adds `macOS` automatically).
+2. Install it as a service so it starts on its own after a restart:
+```
+cd ~/actions-runner
+./svc.sh install
+./svc.sh start
+./svc.sh status
+```
+3. Keep the Mac awake: System Settings -> Energy -> turn on "Prevent automatic sleeping when the
+   display is off" and "Start up automatically after a power failure". Stay logged in (the
+   Stathead window needs a logged-in desktop).
+4. In the same Runners page, remove the old Windows runner DESKTOP-F00L87B.

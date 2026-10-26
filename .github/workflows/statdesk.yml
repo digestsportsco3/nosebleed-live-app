@@ -63,13 +63,12 @@ jobs:
   # before any expression context exists, so it cannot be computed. Exactly one
   # of these runs, chosen by the `runner` input.
 
-  # Nick's own machine. Residential IP that Sports Reference does not block,
-  # plus a signed-in Chrome profile, so the Stathead half works unattended.
-  # cmd, not PowerShell: that machine has script execution disabled, which
-  # blocks the .ps1 the runner writes for a run: block.
+  # Nick's Mac mini (from 2026-10-26; the Windows PC was retired). Residential IP
+  # that Sports Reference does not block, plus the signed-in Chrome profile from
+  # `node statdesk/login.js` (~/.statdesk-chrome), so the Stathead half works unattended.
   local:
     if: inputs.runner != 'github'
-    runs-on: self-hosted
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
@@ -83,7 +82,7 @@ jobs:
       # playwright was installed by hand, so install it here. The downloaded
       # browser itself lives per-user and is already present.
       - name: Install dependencies
-        shell: cmd
+        shell: bash
         run: npm install --no-audit --no-fund
 
       # Multi-season "how rare is this" queries. Separate from the discovery
@@ -97,23 +96,21 @@ jobs:
       - name: Stathead history queries
         if: inputs.stathead
         continue-on-error: true
-        shell: cmd
+        shell: bash
         env:
           # RUN_DATE may be blank, meaning "today, US Eastern". history.js
           # resolves that the same way ci.js does, so both halves of a run
           # write into one dated folder. Passing it through the environment
           # rather than as an argument avoids an empty argv slot.
           RUN_DATE: ${{ inputs.date }}
-          STATHEAD_PROFILE: C:\statdesk-chrome
           STATHEAD_HEADLESS: "false"
         run: node statdesk/history.js
 
       - name: Run Stat Desk
-        shell: cmd
+        shell: bash
         env:
           RUN_DATE: ${{ inputs.date }}
           WANT_STATHEAD: ${{ inputs.stathead }}
-          STATHEAD_PROFILE: C:\statdesk-chrome
           # Visible browser. The same probe passes headed and fails headless,
           # so Sports Reference appears to withhold results from headless
           # Chrome regardless of the session.

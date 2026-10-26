@@ -7,7 +7,9 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-MACHINE MOVE IN PROGRESS (2026-10-22): the Windows desktop keeps freezing and
+RUNNER MOVED TO THE MAC (2026-10-26): all workflows now `runs-on: [self-hosted, macOS]` with `shell: bash` and the default
+Stathead profile ~/.statdesk-chrome (login.js). Windows runner retired. Setup steps: SETUP-MAIN-DEVICE.md section 6.
+History: MACHINE MOVE IN PROGRESS (2026-10-22): the Windows desktop keeps freezing and
 crashing and is being retired as the primary machine. The Mac mini is taking
 over as the main Claude computer. See SETUP-LOCAL.md section 7 for the Mac
 setup, the external-drive check (likely NTFS and therefore read-only on macOS),

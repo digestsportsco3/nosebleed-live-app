@@ -23,7 +23,7 @@ jobs:
         run: node statdesk/probe-sources.js --commit
 
   local:
-    runs-on: self-hosted
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -31,6 +31,6 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - name: Probe
-        shell: cmd
+        shell: bash
         env: { RUNNER_KIND: self-hosted }
         run: node statdesk/probe-sources.js --commit
