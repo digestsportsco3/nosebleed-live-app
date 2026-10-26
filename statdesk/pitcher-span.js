@@ -32,11 +32,14 @@ async function main() {
   const runDate = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
   const who = ((await get(`${API}/people/${PID}`)) || {}).people?.[0];
   const last = opt("--name", who ? who.lastName : "");
+  const teams = ((await get(`${API}/teams?sportId=1&season=${SEASON}`)) || {}).teams || [];
+  const team = teams.find((t) => t.abbreviation === ABBR);
+  if (!team) throw new Error(`no MLB team ${ABBR}`);
   const out = { pitcher: who && { id: who.id, name: who.fullName }, team: ABBR, statheadTeam: SHT, since: SINCE, mlb: [], stathead: {}, at: new Date().toISOString() };
   for (const gt of ["R", "F", "D", "L", "W"]) {
     const gl = await get(`${API}/people/${PID}/stats?stats=gameLog&group=pitching&season=${SEASON}&gameType=${gt}&sportId=1`);
     for (const s of splits(gl)) {
-      if (s.date < SINCE || !s.team || s.team.abbreviation !== ABBR) continue;
+      if (s.date < SINCE || !s.team || s.team.id !== team.id) continue; // game logs carry team id/name, not abbreviation
       out.mlb.push({ gameType: gt, date: s.date, pk: s.game && s.game.gamePk, opp: s.opponent && s.opponent.name, home: s.isHome, stat: s.stat });
     }
   }
