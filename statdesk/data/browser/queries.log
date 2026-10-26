@@ -5018,3 +5018,10 @@
 2026-10-20T17:42:55.962Z	XNBA053	stathead-browser	NBA 2020s ft top	rows=200	CAPPED
 2026-10-20T17:42:59.206Z	XNBA054	stathead-browser	MJ rs seasons	rows=15
 2026-10-20T17:43:03.113Z	XNBA055	stathead-browser	MJ po seasons	rows=13
+2026-10-26T21:18:56.091Z	PS001	stathead-browser	TBD 2026 reg GS pitching games	rows=162
+2026-10-26T21:19:00.215Z	PS002	stathead-browser	TBD 2026 reg RP pitching games	rows=200	CAPPED
+2026-10-26T21:19:04.206Z	PS003	stathead-browser	TBD 2026 reg RP pitching games (page 2)	rows=200	CAPPED
+2026-10-26T21:19:07.173Z	PS004	stathead-browser	TBD 2026 reg RP pitching games (page 3)	rows=200	CAPPED
+2026-10-26T21:19:11.169Z	PS005	stathead-browser	TBD 2026 reg RP pitching games (page 4)	rows=200	CAPPED
+2026-10-26T21:19:15.981Z	PS006	stathead-browser	TBD 2026 post GS pitching games	rows=11
+2026-10-26T21:19:19.984Z	PS007	stathead-browser	TBD 2026 post RP pitching games	rows=52
