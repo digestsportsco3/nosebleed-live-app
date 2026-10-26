@@ -7,9 +7,23 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
+MACHINE MOVE IN PROGRESS (2026-10-22): the Windows desktop keeps freezing and
+crashing and is being retired as the primary machine. The Mac mini is taking
+over as the main Claude computer. See SETUP-LOCAL.md section 7 for the Mac
+setup, the external-drive check (likely NTFS and therefore read-only on macOS),
+and where files should live. NOTE: the self-hosted GitHub Actions runner that
+does every MLB/NFL/NBA pull still lives on the WINDOWS box at
+`C:\Users\Administrator\actions-runner`. Until that runner is moved to the Mac
+or the Windows box is kept alive for it, dispatched tasks will sit "queued" and
+no data pulls will complete. Moving the runner is the open blocker for Stat Desk.
+UPDATE: a Claude session running ON the Mac does not need the runner: it can reach the MLB API/ESPN
+directly and runs the scripts itself (./statdesk/run.sh, node statdesk/<script>.js); Stathead uses the
+profile from `node statdesk/login.js` (~/.statdesk-chrome), visible with STATHEAD_HEADLESS=false.
+Steps: statdesk/SETUP-MAIN-DEVICE.md. The Actions workflow is Windows-only (shell: cmd); only cloud sessions need it.
+
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
-Last updated: 2026-10-21 (hot streaks list sent; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+Last updated: 2026-10-25 (SNF KC@SEA brief from nflverse; runner offline; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
 PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
@@ -345,6 +359,27 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Oct 25: NFL SNF Chiefs at Seahawks (BetUS KC +3, total 43) - built from nflverse because every other source was blocked
+
+Windows runner offline (nfl-matchup run 40238043927 still queued); cloud blocks ESPN, Sports Reference, Stathead and StatMuse.
+GitHub IS reachable, so nflverse was used: data/nfl/matchups/2026-10-25/KC-SEA-nflverse/games.csv (every game 1999-2026: kickoff ET,
+closing spread/total, starting QBs, coaches) + KC-SEA-players-weekly.json (stats_player_week 2012-26, KC/SEA active roster wk7).
+CAUTIONS: gametime is unreliable before 2006 (MNF logged 09:00/blank) - night records start 2006/2012. games.csv QB fields
+for SEA 2026 contradict weekly stats (Lock vs Darnold) - left out. spread_line > 0 = home favored. 11 items in posted.json.
+Key: Walker (now KC) 1,970 rush yds at Lumen as SEA; Mahomes 3+ pt dog 6-2 SU 7-0-1 ATS; SEA home night 27-9 since 2012;
+Mahomes only Seattle game 2018 SNF L 38-31; SEA defending champs (SB LX 29-13), 3-3; KC 5-0.
+The queued nfl-matchup run (PFR + ESPN) will still land when the runner comes back - use it to cross-check.
+
+### Oct 23: Jacob Misiorowski career vs the Rays' active World Series roster
+
+New task `mlb-pvr` (statdesk/pitcher-vs-roster.js), args "<pitcherId> <TEAM> --date YYYY-MM-DD": opponent active roster,
+each hitter's vsPlayerTotal + vsPlayer, and play-by-play of EVERY game the pitcher has thrown (R + postseason), so each PA
+is tagged with the hitter's team at the time. Run 39994210967 (runner was online) -> data/mlb/pvr/2026-10-23/694819-vs-TB.json.
+Result: 14 TB position players, 10 have faced him: 27 PA, 5-24 (.208), 1 HR (Diaz, Apr 1), 6 K; as Rays 3-19 (one game,
+Apr 1 2026, MIL won 8-2, Misio 6 IP 2 R 7 K ND, left 2-2). Hicks/Mateo/Williamson saw him with other clubs (2-5).
+Never faced: DeLuca, Vilade, Walls, Mesa Jr. Play-by-play totals match vsPlayerTotal for every hitter. 7 items in posted.json.
+Fixed before sending: removed an unconfirmed "Game 1" reference.
 
 ### Oct 21: 10 hottest streaks of the 2026 regular season (league-wide, player + team names)
 
