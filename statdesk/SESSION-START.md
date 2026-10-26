@@ -31,8 +31,8 @@ posts. These rules come from his feedback; do not make him repeat them.
 
 ## How data is pulled
 - The cloud container cannot reach statsapi.mlb.com, ESPN or Sports Reference. All pulls
-  run on Nick's self-hosted runner, now the MAC MINI (labels self-hosted, macOS; the Windows
-  PC is retired), via GitHub Actions workflow
+  run on Nick's self-hosted runner, now the MAC MINI (labels self-hosted, macOS; on 24/7, never sleeps;
+  the Windows runner was removed Oct 26), via GitHub Actions workflow
   `.github/workflows/statdesk-multisport.yml` (dispatch with the GitHub MCP tool
   `actions_run_trigger`, repo digestsportsco3/nosebleed-live-app, ref main).
 - Tasks: `mlb-daily` (postseason boxes + today's starters + hitters + Stathead history),
