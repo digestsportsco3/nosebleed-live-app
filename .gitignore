@@ -40,3 +40,6 @@ statdesk/data/nfl/nflverse/
 contracts/**/qa_out/
 
 __pycache__/
+
+# GitHub Actions runner installed inside the clone on the Mac mini (2026-10-26).
+actions-runner/

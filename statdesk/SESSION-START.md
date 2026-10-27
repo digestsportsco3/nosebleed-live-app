@@ -31,7 +31,8 @@ posts. These rules come from his feedback; do not make him repeat them.
 
 ## How data is pulled
 - The cloud container cannot reach statsapi.mlb.com, ESPN or Sports Reference. All pulls
-  run on Nick's self-hosted Windows runner via GitHub Actions workflow
+  run on Nick's self-hosted runner, now the MAC MINI (labels self-hosted, macOS; on 24/7, never sleeps;
+  the Windows runner was removed Oct 26), via GitHub Actions workflow
   `.github/workflows/statdesk-multisport.yml` (dispatch with the GitHub MCP tool
   `actions_run_trigger`, repo digestsportsco3/nosebleed-live-app, ref main).
 - Tasks: `mlb-daily` (postseason boxes + today's starters + hitters + Stathead history),
@@ -39,8 +40,9 @@ posts. These rules come from his feedback; do not make him repeat them.
   `mlb-relievers` (args 'CLE TB "Hunter Gaddis" "Cade Smith"'), `mlb-legends`
   (franchise WAR + MLB API; `--names "A:hitting,B:pitching"`), `nfl-player`
   (args '"Brock Purdy" SF WSH --from 2022 --season 2026 --yds 300').
-- If a run sits "queued", the runner is offline: Nick must log in to Windows or run
-  `.\run.cmd` in `C:\Users\Administrator\actions-runner`. Tell him; don't guess data.
+- If a run sits "queued", the Mac runner is offline: on the Mac run `cd ~/actions-runner && ./svc.sh status`
+  (start it with `./svc.sh start`). Stathead login: `node statdesk/login.js` on the Mac. Tell him; don't guess data.
+- If no runner is up, GitHub is reachable from the cloud: nflverse (NFL) data on GitHub works as a fallback.
 - Throttle Stathead to >= 4 s per query. Never commit raw Stathead/B-R HTML.
 
 ## Git

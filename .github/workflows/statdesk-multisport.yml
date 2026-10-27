@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post, mlb-series, mlb-daily, mlb-relievers, mlb-legends, nfl-player, mlb-streaks, mlb-pvr, nfl-matchup]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post, mlb-series, mlb-daily, mlb-relievers, mlb-legends, nfl-player, mlb-streaks, mlb-pvr, nfl-matchup, mlb-span]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -29,7 +29,7 @@ concurrency:
 
 jobs:
   local:
-    runs-on: self-hosted
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
@@ -37,166 +37,171 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - name: Install dependencies
-        shell: cmd
+        shell: bash
         run: npm install --no-audit --no-fund
       - name: NBA all
         if: inputs.task == 'nba-all'
-        shell: cmd
+        shell: bash
         run: node statdesk/nba/pull.js all ${{ inputs.args }} --commit
       - name: NBA MJ
         if: inputs.task == 'nba-mj'
-        shell: cmd
+        shell: bash
         run: node statdesk/nba/pull.js mj --commit
       - name: NBA seasons
         if: inputs.task == 'nba-seasons'
-        shell: cmd
+        shell: bash
         run: node statdesk/nba/pull.js seasons ${{ inputs.args }} --commit
       - name: Stathead forms
         if: inputs.task == 'stathead-forms'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/stathead-forms.js --commit
       - name: Stathead discovery 2
         if: inputs.task == 'stathead-discover2'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/stathead-discover2.js --commit
       - name: Sport facts (Stathead)
         if: inputs.task == 'sport-facts'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/sport-facts.js ${{ inputs.args }} --commit
       - name: NBA cross-check (Stathead)
         if: inputs.task == 'nba-crosscheck'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/nba/crosscheck.js --commit
       # One job for a player pull plus the cross-check: a second queued dispatch
       # would replace the first in the concurrency group's single pending slot.
       - name: NBA player pull (args "<PERSON_ID> <slug>")
         if: inputs.task == 'nba-extra'
-        shell: cmd
+        shell: bash
         run: node statdesk/nba/pull.js player ${{ inputs.args }} --commit
       - name: NBA cross-check after player pull
         if: inputs.task == 'nba-extra'
         continue-on-error: true
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/nba/crosscheck.js --commit
       - name: Sport facts after the player pull
         if: inputs.task == 'nba-extra' && inputs.after != ''
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/sport-facts.js ${{ inputs.after }} --commit
       - name: NBA season fill (players leagueleaders omitted)
         if: inputs.task == 'nba-fill'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/nba/pull.js fill --commit
       - name: Sport facts after the fill
         if: inputs.task == 'nba-fill' && inputs.after != ''
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/sport-facts.js ${{ inputs.after }} --commit
       - name: NHL official season pull
         if: inputs.task == 'nhl-pull'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/nhl/pull.js ${{ inputs.args }} --commit
       - name: Sport facts after the NHL pull
         if: inputs.task == 'nhl-pull' && inputs.after != ''
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/sport-facts.js ${{ inputs.after }} --commit
       - name: MLB postseason and final standings
         if: inputs.task == 'mlb-postseason'
-        shell: cmd
+        shell: bash
         run: node statdesk/postseason.js ${{ inputs.args }} --commit
       - name: MLB postseason box scores before the matchup pull
         if: inputs.task == 'mlb-matchups'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/postseason.js --commit
       - name: MLB matchups and career data
         if: inputs.task == 'mlb-matchups'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/matchups.js ${{ inputs.args }} --commit
       - name: MLB postseason history (Stathead)
         if: inputs.task == 'mlb-matchups'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/post-history.js --commit
       - name: MLB one player's postseason career (args "Player Name" [hitting|pitching])
         if: inputs.task == 'mlb-player-post'
-        shell: cmd
+        shell: bash
         run: node statdesk/player-post.js ${{ inputs.args }} --commit
       - name: MLB postseason box scores before the series pull
         if: inputs.task == 'mlb-series'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/postseason.js --commit
       - name: MLB series matchups (args "CWS:CLE NYY:TB ...")
         if: inputs.task == 'mlb-series'
-        shell: cmd
+        shell: bash
         run: node statdesk/series-matchups.js ${{ inputs.args }} --commit
       # Postseason day in one dispatch: box scores, today's starters vs lineups,
       # series data for the pairs in args, then Stathead history.
       - name: Relievers - postseason box scores
         if: inputs.task == 'mlb-relievers'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/postseason.js --commit
       - name: MLB relievers vs lineup (args 'CLE TB "Hunter Gaddis" "Cade Smith"')
         if: inputs.task == 'mlb-relievers'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/vs-relievers.js ${{ inputs.args }} --commit
       - name: Relievers - Stathead postseason appearances (cross-check)
         if: inputs.task == 'mlb-relievers'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/relievers-stathead.js CLE --commit
       - name: MLB franchise legends (Stathead WAR seasons + MLB API lines; args optional franchise codes)
         if: inputs.task == 'mlb-legends'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/legends.js ${{ inputs.args }} --commit
       - name: NFL player + opponent (ESPN + Stathead; args '"Brock Purdy" SF WSH')
         if: inputs.task == 'nfl-player'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/nfl/player-pull.js ${{ inputs.args }} --commit
       - name: NFL matchup (args "KC SEA [--season 2026] [--from 1976] [--lines-from 2010]")
         if: inputs.task == 'nfl-matchup'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/nfl/matchup-pull.js ${{ inputs.args }} --commit
       - name: MLB season game logs for streaks (args optional "--season 2026 --pa 200 --ip 30")
         if: inputs.task == 'mlb-streaks'
-        shell: cmd
+        shell: bash
         run: node statdesk/streaks.js ${{ inputs.args }} --commit
+      - name: MLB pitcher with one club since a date, regular season + postseason (Stathead + MLB API)
+        if: inputs.task == 'mlb-span'
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
+        run: node statdesk/pitcher-span.js ${{ inputs.args }} --commit
       - name: MLB pitcher vs active roster
         if: inputs.task == 'mlb-pvr'
-        shell: cmd
+        shell: bash
         run: node statdesk/pitcher-vs-roster.js ${{ inputs.args }} --commit
       - name: Daily - postseason box scores
         if: inputs.task == 'mlb-daily'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/postseason.js --commit
       - name: Daily - matchups
         if: inputs.task == 'mlb-daily'
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/matchups.js --commit
       - name: Daily - series (args "NYY:TB ...")
         if: inputs.task == 'mlb-daily' && inputs.args != ''
         continue-on-error: true
-        shell: cmd
+        shell: bash
         run: node statdesk/series-matchups.js ${{ inputs.args }} --commit
       - name: Daily - Stathead postseason history
         if: inputs.task == 'mlb-daily'
-        shell: cmd
-        env: { STATHEAD_PROFILE: "C:\\statdesk-chrome", STATHEAD_HEADLESS: "false" }
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/post-history.js --commit

@@ -7,7 +7,10 @@ next session. That is how the 2026-09-13/14 work got stranded (see history).
 
 ## Current state (update this block)
 
-MACHINE MOVE IN PROGRESS (2026-10-22): the Windows desktop keeps freezing and
+RUNNER MOVED TO THE MAC (2026-10-26): all workflows now `runs-on: [self-hosted, macOS]` with `shell: bash` and the default
+Stathead profile ~/.statdesk-chrome (login.js). Windows runner DESKTOP-F00L87B REMOVED from GitHub (Oct 26). Mac set to never sleep, runner is a launchd
+service. Setup steps: SETUP-MAIN-DEVICE.md section 6.
+History: MACHINE MOVE IN PROGRESS (2026-10-22): the Windows desktop keeps freezing and
 crashing and is being retired as the primary machine. The Mac mini is taking
 over as the main Claude computer. See SETUP-LOCAL.md section 7 for the Mac
 setup, the external-drive check (likely NTFS and therefore read-only on macOS),
@@ -23,7 +26,7 @@ Steps: statdesk/SETUP-MAIN-DEVICE.md. The Actions workflow is Windows-only (shel
 
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
-Last updated: 2026-10-25 (SNF KC@SEA brief from nflverse; runner offline; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+Last updated: 2026-10-26 (Mac mini runner live; Peralta-as-a-Ray brief; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
 PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
@@ -359,6 +362,17 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Oct 26: Mac mini is now the runner; Freddy Peralta as a Ray (Stathead + MLB API)
+
+Runner: Nicks-Mac-mini registered (labels self-hosted, macOS, ARM64), installed as a launchd service (svc.sh) in
+~/nosebleed-live-app/actions-runner (gitignored). Stathead profile ~/.statdesk-chrome signed in via login.js. All workflows
+run on it (commit f514654). Windows DESKTOP-F00L87B to be removed by Nick. First Mac job ran in 3 s.
+New task `mlb-span` (statdesk/pitcher-span.js) "<mlbId> <MLB_ABBR> <STATHEAD_TEAM> --since YYYY-MM-DD --name Last":
+Stathead player-pitching-game-finder (team_id, comp reg/post; role=RP returns ALL appearances, and pages can repeat rows -
+dedupe by date) + MLB API game logs matched by team ID (game logs have no abbreviation). Stathead TB code is TBD.
+Peralta (642547) data/mlb/span/2026-10-26/: 14 games match in both sources. Reg 10 GS 3.25 (Rays 8-2); post 16.2 IP 1.08,
+Rays 4-0; since Aug 26 0.89 in 10, Rays 10-0; first 4 TB starts 7.17. No WS appearance as of Oct 26 afternoon. 6 items logged.
 
 ### Oct 25: NFL SNF Chiefs at Seahawks (BetUS KC +3, total 43) - built from nflverse because every other source was blocked
 

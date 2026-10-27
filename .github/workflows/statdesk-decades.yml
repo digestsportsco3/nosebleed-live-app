@@ -50,7 +50,7 @@ jobs:
 
   local:
     if: inputs.runner == 'self-hosted'
-    runs-on: self-hosted
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
@@ -61,7 +61,7 @@ jobs:
         with:
           node-version: "22"
       - name: Pull decades and commit summaries
-        shell: cmd
+        shell: bash
         env:
           DECADES: ${{ inputs.decades }}
         run: node statdesk/decades.js --commit
