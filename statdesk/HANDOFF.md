@@ -24,7 +24,7 @@ directly and runs the scripts itself (./statdesk/run.sh, node statdesk/<script>.
 profile from `node statdesk/login.js` (~/.statdesk-chrome), visible with STATHEAD_HEADLESS=false.
 Steps: statdesk/SETUP-MAIN-DEVICE.md. The Actions workflow is Windows-only (shell: cmd); only cloud sessions need it.
 
-Auto-saved before context compaction: 2026-11-03T19:42:58.629Z
+Auto-saved before context compaction: 2026-11-05T11:44:51.969Z
 
 Last updated: 2026-10-26 (Mac mini runner live; Peralta-as-a-Ray brief; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
