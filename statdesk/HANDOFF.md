@@ -26,7 +26,7 @@ Steps: statdesk/SETUP-MAIN-DEVICE.md. The Actions workflow is Windows-only (shel
 
 Auto-saved before context compaction: 2026-10-21T14:42:37.608Z
 
-Last updated: 2026-10-26 (Mac mini runner live; Peralta-as-a-Ray brief; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
+Last updated: 2026-11-05 (2026 breakouts list from Stathead; Mac mini runner live; runner on Windows was online for it; World Series TB vs MIL, G1 Oct 23 at MIL; latest work in the dated entries below). THE PIPELINE IS BUILT AND WORKING END TO END. Postseason days: dispatch task mlb-daily (postseason.js + matchups.js + post-history.js), then build the brief from career and matchup angles, never box-score recaps.
 
 PDF TEMPLATE NOW LIVES IN THE REPO: `statdesk/brief_pdf.py` (page(), item(), table() for lineup-vs-pitcher tables) with fonts inlined from `statdesk/fonts/fonts.css`. The old scratchpad template was wiped by a container reset on Oct 16. Write a small items script that does `sys.path.insert(0, 'statdesk'); from brief_pdf import page, table, SPLIT, POST, LOG, BOX, STAND`, then print with `/opt/pw-browsers/chromium-*/chrome-linux/chrome --headless --no-sandbox --no-pdf-header-footer --print-to-pdf=...`.
 
@@ -362,6 +362,14 @@ What to ask Nick before the next brief:
 
 The pull itself still works unchanged; it is the BRIEF FORMAT that needs a
 decision. Nothing in the pipeline has to change to support any of the above.
+
+### Nov 5: 20 breakouts & bright spots of 2026 (league-wide, Stathead)
+
+New task `mlb-breakouts` (statdesk/breakouts.js): Stathead batting/pitching season finders for 2026 (150+ PA / 40+ IP) and
+2015-2025 (50+ PA / 20+ IP), explicit offset paging with de-dupe; all four sets complete (411 / 395 / 5,902 / 5,732 rows).
+Data: data/mlb/breakouts/2026-11-05/stathead-seasons-2026.json. Standings: data/mlb/postseason/2026-10-20/standings.json.
+Stathead team codes differ from MLB (TBR, SFG, KCR, SDP, WSN, CHW, ARI); multi-team rows read "MIA,TBR".
+"Since 2015" claims = within those seasons; "career/previous best" = seasons above the floors. 20 items in posted.json.
 
 ### Oct 26: Mac mini is now the runner; Freddy Peralta as a Ray (Stathead + MLB API)
 
