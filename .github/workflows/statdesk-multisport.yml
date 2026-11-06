@@ -10,7 +10,7 @@ on:
         type: choice
         required: true
         default: nba-all
-        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post, mlb-series, mlb-daily, mlb-relievers, mlb-legends, nfl-player, mlb-streaks, mlb-pvr, nfl-matchup, mlb-span]
+        options: [nba-all, nba-mj, nba-seasons, stathead-forms, stathead-discover2, sport-facts, nba-crosscheck, nba-extra, nba-fill, nhl-pull, mlb-postseason, mlb-matchups, mlb-player-post, mlb-series, mlb-daily, mlb-relievers, mlb-legends, nfl-player, mlb-streaks, mlb-pvr, nfl-matchup, mlb-span, mlb-breakouts]
       args:
         description: "Extra arguments (e.g. season range '1946 1960', or sport name for sport-facts)"
         required: false
@@ -181,6 +181,11 @@ jobs:
         shell: bash
         env: { STATHEAD_HEADLESS: "false" }
         run: node statdesk/pitcher-span.js ${{ inputs.args }} --commit
+      - name: MLB breakout seasons (Stathead season sets, current + prior seasons)
+        if: inputs.task == 'mlb-breakouts'
+        shell: bash
+        env: { STATHEAD_HEADLESS: "false" }
+        run: node statdesk/breakouts.js ${{ inputs.args }} --commit
       - name: MLB pitcher vs active roster
         if: inputs.task == 'mlb-pvr'
         shell: bash
