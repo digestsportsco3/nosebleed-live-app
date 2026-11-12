@@ -154,3 +154,11 @@ to the Field and excludes the Field from the Reserved Field); OA 11.5 adds claus
 fantasy leagues and contests; Brock may sign the Talent Amendment with the OA available on
 request, and receives a copy within 10 days after closing (OA 3.7(b), documents 07, 21,
 30, 31).
+
+Full review before signing (2026-11-12): six Sonnet reviewers (two OA line reads, record
+documents, agreements 18-35 against the base talent agreement, two full visual passes of all
+162 page images) plus a scripted grammar battery. About 60 fixes applied (apply6-9 in the
+session scratchpad); notable: 10.5 vote not needed for sale or wind-up proceeds, 1.64(iii)
+capital extinguished on fair-value purchases, 4.8 resumption and vacancy, 1.11 restructured,
+doc 31 deadline extension and forum carve-out. The 1px Chromium widening recurred from a
+6.5 sentence and was fixed by rewording; td/th break-inside: avoid and .sigpage.flow added.

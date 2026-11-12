@@ -111,3 +111,14 @@ Smaller fixes, no decision needed: a leaver's buyback price can no longer wipe o
 3. **Leaving before a sale.** A founder who dies, is disabled or resigns for good reason before any sale keeps vested units but loses the unvested ones, the same as someone who quits. You asked for full payout when a buyer fires someone; you did not ask for it here, so I did not add it. Say so if you want it.
 4. **Brock's percentages float.** His agreement measures each milestone percentage against the fully diluted units on the day it is issued. If the company ever authorizes more than 10,000,000 units, his milestone units scale up with it. His agreement also lets revenue received in the 60 days after termination count toward a milestone.
 5. **Documents a buyer will ask for that are not in the binder.** Brock's talent agreement, the Glover redemption agreement and JGN's own operating agreement. The binder refers to all three. Keep signed copies with the record book.
+6. **If you are out but not formally "unable to act".** Your consent right (Section 5.7) and your 2,000,000 votes stay with you while you are in service. If you are hospitalized or unreachable and the other founders have not yet confirmed in writing that you cannot act, nobody can give your consent and nobody can vote your units, so a sale, new units or an amendment would wait, and every 70% vote would need all four of the others. Gabe takes over day-to-day authority only once the confirmation or a disability finding is made. A signed power of attorney naming someone to act for you would close this gap.
+
+## 7. Full review before signing (2026-11-12)
+
+Six reviewers read every sentence of the 36 documents and looked at every page image. About 60 fixes were applied, none of which changes the deal. The ones worth knowing:
+
+1. **Sale and wind-up proceeds** are paid in the agreed order without a second 70% vote; before, Christian and you together could have held them up.
+2. **Fair-value buyouts** of a departing founder's vested units now also use up that founder's capital balance, so the capital is not paid twice.
+3. **Acting officers** step aside the day the officer returns by written notice, and an empty office (after a resignation or removal) uses the same stand-in order as an officer who cannot act.
+4. **Brock's amendment** extends his agreement's January 22, 2027 deadline for adopting the Operating Agreement to match the 120-day closing window, keeps his agreement's definition of "Operating Agreement", and sends disputes about the Operating Agreement to Delaware.
+5. **Tables and page breaks**: no table row, signature block or lead-in sentence is split across pages.

@@ -133,7 +133,7 @@ table.schedc td:nth-child(3), table.schedc th:nth-child(3) { width: 0.95in; } ta
 .sig { break-inside: avoid; margin: 0.08in 0 0.14in 0; }
 .sig p { margin: 0 0 0.11in 0; text-align: left; }
 .sig .who { font-weight: bold; }
-.sigpage { break-before: page; }
+.sigpage { break-before: page; } .sigpage.flow { break-before: auto; } td, th { break-inside: avoid; }
 .note { font-size: 9.5pt; }
 .sp { height: 0.12in; }
 .center { text-align: center; }
