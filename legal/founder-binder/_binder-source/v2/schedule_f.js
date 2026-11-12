@@ -13,7 +13,7 @@ module.exports = function scheduleF() {
 <h3>Part 2. Product scope</h3>
 <p class="sub"><strong>Company business and purpose</strong></p>
 <p>The Company develops, operates, markets and commercializes a sports application, a website, a community and a premium picks and analysis offering for sports fans and sports bettors in the United States and elsewhere. The Company's business supports the discovery, tracking, discussion and enjoyment of games, odds and picks, and the delivery of paid picks, analysis and community to subscribers.</p>
-<p>Its product scope includes:</p>
+<p class="keep sub">Its product scope includes:</p>
 <ul class="tight">
 <li>Live scores, schedules, game status and gamecast updates.</li>
 <li>Box scores, player statistics, line scores and recent-game history.</li>
@@ -27,7 +27,7 @@ module.exports = function scheduleF() {
 <li>Sponsorship, advertising and affiliate placements within the Platform.</li>
 <li>Data pipelines, provider integrations, caching, normalization and internal tooling for all of the above.</li>
 </ul>
-<p>The Company's product strategy comprises four connected offerings, which operate together through shared accounts, subscriptions and data:</p>
+<p class="keep sub">The Company's product strategy comprises four connected offerings, which operate together through shared accounts, subscriptions and data:</p>
 ${tbl(['Product', 'Intended users', 'Primary purpose'], [
   ['Nosebleed Sports application (Nosebleed Live)', 'Sports fans and sports bettors on mobile and web', 'Follow live games, scores, box scores and odds; track picks and results; read news; manage watchlists; access premium picks and community.'],
   ['Nosebleed Sports website', 'The same users, and visitors arriving from the media network', 'Present the Brand, the products and the picks record; convert visitors into members and subscribers; host content and account management.'],
@@ -35,7 +35,7 @@ ${tbl(['Product', 'Intended users', 'Primary purpose'], [
   ['Premium Offering', 'Paying subscribers', 'Daily picks with research write-ups, player props, live sessions during major slates, premium community access and related tools.'],
 ])}
 <p class="sub"><strong>Nosebleed Sports application</strong></p>
-<p>The application is a mobile-first web and installable application that brings live scores, gamecast updates, box scores, odds, picks tracking, news and watchlists into one place. Its functional scope includes:</p>
+<p class="keep sub">The application is a mobile-first web and installable application that brings live scores, gamecast updates, box scores, odds, picks tracking, news and watchlists into one place. Its functional scope includes:</p>
 <ul class="tight">
 <li><strong>Scoreboard and game center.</strong> Live, upcoming and recent games across supported leagues, sorted live first; game status, clock and scoring; team and player views.</li>
 <li><strong>Box scores and history.</strong> Player and team statistics for synced games, line scores, previous games and recent stat leaders.</li>

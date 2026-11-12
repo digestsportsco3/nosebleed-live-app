@@ -22,9 +22,9 @@ const VP = VOTE + '%';
 
 // Historical operating expenses, all paid by JGN, as reported by the CEO on 2026-11-12. Amounts are approximate.
 const HIST = [
-  { cat: 'AI development subscriptions', what: 'Codex and Claude subscriptions used by Nicholas Restivo, Christian Clark and Gabriel DiDario to build the Platform', math: 'Approximately $1,000 per month for seven months (May through November 2026)', amount: 7000, when: 'May through November 2026' },
-  { cat: 'Sports-data API', what: 'Ball Don\'t Lie sports-data API subscription', math: 'Approximately $300 per month for seven months (May through November 2026)', amount: 2100, when: 'May through November 2026' },
-  { cat: 'Odds-data API', what: 'Odds-data API subscription', math: 'Approximately $300 per month for four months (May through August 2026), then approximately $30 per month for three months (September through November 2026)', amount: 1290, when: 'May through November 2026' },
+  { cat: 'AI development subscriptions', what: 'Codex and Claude subscriptions for Nicholas Restivo, Christian Clark and Gabriel DiDario, used for work on the Platform', math: 'Approximately $1,000 per month for seven months (May through November 2026)', amount: 7000, when: 'May through November 2026' },
+  { cat: 'Sports-data API', what: 'Subscription to the Ball Don\'t Lie sports-data API', math: 'Approximately $300 per month for seven months (May through November 2026)', amount: 2100, when: 'May through November 2026' },
+  { cat: 'Odds-data API', what: 'Subscription for the sportsbook odds shown in the app', math: 'Approximately $300 per month for four months (May through August 2026), then approximately $30 per month for three months (September through November 2026)', amount: 1290, when: 'May through November 2026' },
   { cat: 'Hosting, storage and developer infrastructure', what: 'Hosting, storage and code-repository services for the app, including Railway and GitHub', math: 'Approximately $250 per month for seven months (May through November 2026)', amount: 1750, when: 'May through November 2026' },
   { cat: 'App-store costs', what: 'App-store developer costs for the app', math: 'One charge of approximately $250 in 2026', amount: 250, when: '2026' },
   { cat: 'Interface assets', what: 'Jerseys and helmets purchased as visual assets for the app\'s interface', math: 'One purchase of approximately $100 in November 2026', amount: 100, when: 'November 2026' },
@@ -101,7 +101,7 @@ body { margin: 0; }
 h1 { font-size: 12pt; font-weight: bold; margin: 0 0 0.08in 0; padding-bottom: 0.04in; border-bottom: 0.6pt solid #333; text-wrap: balance; break-after: avoid; }
 h2 { font-size: 11pt; font-weight: bold; margin: 0.18in 0 0.06in 0; text-wrap: balance; break-after: avoid; }
 h3 { font-size: 10.5pt; font-weight: bold; margin: 0.14in 0 0.05in 0; text-wrap: balance; break-after: avoid; }
-p { margin: 0 0 0.09in 0; text-align: justify; orphans: 2; widows: 2; }
+p { margin: 0 0 0.09in 0; text-align: justify; orphans: 2; widows: 2; text-wrap: pretty; }
 p.sub { break-after: avoid; }
 ul { margin: 0 0 0.09in 0.25in; padding: 0; }
 li { margin: 0 0 0.04in 0; text-align: justify; break-inside: avoid; }
@@ -110,15 +110,16 @@ table { border-collapse: collapse; width: 100%; margin: 0.05in 0 0.14in 0; font-
 th, td { border: 0.6pt solid #444; padding: 0.045in 0.06in; vertical-align: top; text-align: left; text-wrap: pretty; overflow-wrap: anywhere; }
 table.small { font-size: 8.5pt; }
 table.small th, table.small td { padding: 0.035in 0.04in; }
-table.scheda col.c1 { width: 1.05in; } table.scheda col.c2 { width: 1.2in; } table.scheda col.c3 { width: 0.72in; } table.scheda col.c4, table.scheda col.c5, table.scheda col.c6 { width: 0.72in; } table.scheda col.c7 { width: 0.66in; } table.scheda col.c8, table.scheda col.c9 { width: 0.66in; }
 .keepblock { break-inside: avoid; }
 th { background: #ececec; font-weight: bold; overflow-wrap: normal; }
 p.keep { break-inside: avoid; }
+p.keep.sub, p.sub { break-after: avoid; }
 thead { display: table-header-group; }
 tr { break-inside: avoid; }
 tbody tr:first-child { break-before: avoid; }
 table.kv td:first-child { width: 2.55in; font-weight: bold; background: #f3f3f3; }
 table.kv2 td:first-child { width: 2.1in; font-weight: bold; background: #f3f3f3; }
+table.kv2, table.keep { break-inside: avoid; }
 table.w td:first-child, table.w th:first-child { width: 1.2in; }
 table.w3 td:first-child, table.w3 th:first-child { width: 1.05in; } table.w3 td:last-child, table.w3 th:last-child { width: 1.25in; }
 table.cap col.c1 { width: 1.1in; } table.cap col.c2 { width: 1.35in; }

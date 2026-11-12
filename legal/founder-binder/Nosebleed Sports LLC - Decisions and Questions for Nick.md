@@ -1,90 +1,66 @@
-# Nosebleed Sports LLC founder binder: decisions made in v1 and questions for Nick
+# Nosebleed Sports LLC founder binder: v2 decisions and what is still open
 
-Written 2026-11-12. Everything below is either a fact you gave me, a default I had to pick to produce a complete draft, or a question only you can answer. Nothing in the documents is a made-up fact; where a number was unknown I built the documents so the number lives in a ledger you attach at closing, not in the text.
+Written 2026-11-12, after your answers to the 14 questions and the Glover redemption agreement. Part 1 is what I changed because you said so. Part 2 is the calls I had to make to turn your answers into documents; each one is a default you can flip. Part 3 is what the Glover agreement forces. Part 4 is the short list still open.
 
-## 1. Facts I used (from you, the IRS letter, the Delaware certificate and the Brock Smith agreement)
+## 1. What changed in v2 because of your answers
 
-| Fact | Value | Source |
-|---|---|---|
-| Entity | Nosebleed Sports LLC, Delaware LLC | Certificate of formation |
-| Formed | August 7, 2026, file number 10727267 | Certificate of formation (SR 20263996710) |
-| Registered agent | ZenBusiness Inc., 611 South DuPont Highway, Suite 102, Dover, DE 19901 | Certificate of formation |
-| EIN | 42-4477699, assigned August 17, 2026; Form 1065 due March 15, 2027 | IRS CP575B |
-| Principal office | 105 Broadway, Rockville Centre, NY 11570 | You; IRS letter |
-| Bank account | None yet | You |
-| Members | Nick 20% CEO; Christian Clark 20% CTO; Gabriel DiDario 13% CMO; Stephen Bickel 13% CIO; Michael Del Bene 13% CDO; Brock Smith 1.5% co-founder; 19.5% reserved for strategic partners | You |
-| JGN Media LLC | Owned 25% each by Nick, Gabriel, Stephen, Michael; owns the tech and the Nosebleed Sports brand; owns all social accounts; funded everything; will fund until self-sufficient; licenses the brand to NSL | You |
-| JGN entity type | New York LLC | Brock Smith agreement, page 1 |
-| Who built the platform | Nick started the app, website and Discord; Stephen refined the website; Christian was brought in to finish all three | You |
-| Brock Smith | Hired as handicapper and on-camera face; Talent, Handicapping, and Content Services Agreement effective September 24, 2026, three parties (JGN, NSL, Brock) | Agreement you attached |
+| Your answer | What the binder now does |
+|---|---|
+| Glover is out; four owners at 25% | JGN is described as four owners at 25% after the redemption effective November 11, 2026. Glover's confirmation that he has no interest in or claim to Nosebleed Sports LLC is recited in the Operating Agreement, the consent and the chain-of-title register. |
+| Nado is Christian; he never signed an IP assignment | The Founder PIIA (document 18) assigns everything each founder built before and after closing, "whether or not the Founder had signed any earlier agreement about it". Christian signs it at closing like everyone else. |
+| Target closing Friday 11/20/2026 | Documents still take their date from the day the last signature lands (the "Actual Closing Date"), so nothing has to be re-printed if it slips. The bank account is no longer a closing condition. |
+| Expense history | Itemized in Schedule C and document 14: $7,000 + $2,100 + $1,290 + $1,750 + $250 + $100 = $12,490, May through November 2026. |
+| No platform revenue; all revenue is social, to JGN | Stated in the value memo, the JGN Agreement and Schedule F. |
+| Nick main signer; Chase | Banking Resolution: you are the sole signer at Chase; every other founder gets view-only access. |
+| Christian has zero say on JGN matters; no ties to any other company | Christian no longer signs or enforces the JGN Agreement. You sign it for both sides. JGN ownership never disqualifies the four of you from voting on JGN matters. Every mention of another company is gone. |
+| Spending: Nick $5,000, everyone else $2,000 | Section 4.3 and the officer record. |
+| JGN owns the code today and transfers it at closing with a perpetual brand license | Document 19 says exactly that. |
+| JGN owns the accounts; no deals tied to the platform | Recorded in the account schedule, the asset schedule and the value memo. |
+| No attorney roadmap; summary and guide to you | Done. |
+| Nobody pays for units; the four funders' money counts as their contribution; Christian earns his 20% by finishing the build and serving as CTO | No purchase price anywhere. The $12,490 is the capital of you, Gabriel, Stephen and Michael, $3,122.50 each. Christian's units are issued for services. |
+| Brock gets 1.5% now without having to earn it, still capped at 5%; amend his agreement | New document 31, a First Amendment to his talent agreement: 150,000 Class B units, fully vested when issued; milestones restated to 2.5% / 3.75% / 5% at $60,000 / $110,000 / $175,000. He signs that one document. |
+| If a buyer fires a founder, they are paid for 100% of their equity, vested or not | Section 6.12: full vesting and full payout within 10 days if a buyer fires a founder without cause, the founder resigns for good reason, or the buyer does not keep them on. Cannot be cut back without that founder's consent. |
 
-## 2. The structure I built, and why (confirm each)
+## 2. Calls I made that you should confirm
 
-1. **Platform assigned to NSL, brand licensed, socials stay with JGN.** You said JGN "owns the tech and the branding but is licensing out the branding." A buyer of NSL has to own the app, website, Discord and code outright, or there is nothing to buy, and the Brock agreement already says NSL "owns and operates" the app, website, Discord and premium picks. So document 19 has JGN *assign* the platform tech to NSL at closing and *license* the brand (exclusive in the app/website/community/paid-picks field, perpetual, royalty-free, transferable to a buyer). The 1.7M-follower social accounts stay JGN's, with a promise to promote the platform through them (the "promotion covenant") that survives a sale for 24 months. **If you meant that JGN keeps the tech too and only licenses it, tell me; the binder changes a lot and the company is worth much less to a buyer.**
+1. **Your money comes back first.** The $12,490, and anything JGN pays later, is returned to the four of you before any other payout or sale proceeds are split; after that everything is split by units. No interest. I did this for two reasons: it matches "the four of us funded this and Christian never put up a dollar", and it is what makes Christian's and Brock's units a "profits interest", so they owe no income tax for receiving them. Without it, Christian would be taxed on the value of 20% of the company as it vests. If you would rather the money not come back first, say so and I will restructure, but Christian then needs his own tax advice before signing.
 
-2. **JGN's money is a loan with no interest, not equity and not the founders' problem.** Every dollar JGN spent is a "JGN Funding Advance": repayable by the company only after it is self-sufficient or out of sale proceeds, never by any member personally. JGN gets no units for it. TLNT's "Cost-Share" machinery (each founder owing a share of expenses) is gone; it would have made Christian owe money to a company he does not own. Alternatives: JGN forgives the money (then it is gone and a buyer sees no debt), or JGN takes units for it (then JGN becomes a member). The dollar amount is not in the documents because I do not have it; it lives in a "JGN Funding Ledger" that JGN hands over at closing. **I need the expense history (a tracker export) to fill that ledger.**
+2. **Future JGN funding is treated the same way.** Every dollar JGN puts in after closing is more capital for the four of you, returned first, never a loan. JGN can stop funding on 90 days' notice.
 
-3. **JGN's funding promise is terminable on 90 days' notice.** You said JGN agrees to fund NSL until self-sufficient. An open-ended, uncapped promise would be a liability for JGN's four owners, so the draft commits JGN to fund the approved quarterly budget until the "Self-Sufficiency Date" (three straight months of positive operating cash plus a three-month cash reserve), with a 90-day exit. Tell me if you want it stronger (a dollar cap and no exit) or weaker.
+3. **Votes at 70%, which means any four of the five founders.** You asked whether 75% made sense. It did not fit your other answers: at 75% nothing could pass without Christian, including the company's side of any change to the JGN deal. At 70% the four JGN owners can act without him. The cost is that Christian plus the three 13% holders could also act without you. If you want your own veto without giving Christian one, I add "and Nick's consent" to the big decisions (sale, new units, amendments, removing the CEO). That is the one I would ask you to think about before Friday.
 
-4. **Founders pay cash, $0.001 a unit.** Nick $2,000, Christian $2,000, Gabriel $1,300, Stephen $1,300, Michael $1,300: $7,900 total, paid into a company bank account that gets opened as closing step 1. TLNT paid by crediting expenses already paid; nobody here paid expenses personally, so cash is the clean route. Alternative: issue the units for past services (taxable to the founders, messier). The value memo supports $7,900 total equity because the company owns a launch-stage platform, no cash, no revenue in its own name, a licensed (not owned) brand, and owes JGN.
+4. **Brock's 150,000 units are vested on day one.** I read "instead of having to earn that" as no forfeiture. His current agreement makes the first units forfeitable for up to 12 months if he quits or underperforms. If you want to keep that protection on the 1.5%, tell me. Either way the company can buy his units at fair value if he quits or is terminated for cause.
 
-5. **Brock gets 150,000 Class B non-voting units, signs nothing.** His agreement already promises him 50,000 "Initial Units" (0.5%) plus milestone units up to 5%, as non-voting profits interests, and says NSL must adopt an operating agreement within 120 days of September 24, 2026 (**by January 22, 2027**) and issue the Initial Units within 30 days after that. The draft issues 150,000 as the Initial Units (more than the 50,000 owed), as profits interests with a $7,900 threshold (so they cost him nothing and are not taxable income to him), and admits him as a member without a signature, which Delaware's LLC Act allows. His milestone table then works like this: at $25,000 of qualifying revenue the target is 1.0% cumulative, which he already exceeds, so nothing is issued; at $60,000 he goes to 2.5%; $110,000 to 3.75%; $175,000 to 5%. **Two things to confirm:** (a) that 1.5% is on top of his agreement, not instead of the milestones (cutting the milestones needs Brock's signature on an amendment, because his agreement says so); (b) that you are fine with his 150,000 units being forfeitable until the earlier of the $25,000 milestone and 12 months of good standing, which is what his agreement says for Initial Units.
+5. **Brock's $800 a month and bonuses are JGN's own expense**, not added to the capital that comes back to you, unless JGN and the company write down that a payment was for the platform. You did not list them among the platform's costs, so I left them out of the $12,490.
 
-6. **19.5% reserved = 1,950,000 authorized but unissued units.** Issuing any of them to a strategic partner is a Major Decision (75% vote). Founders' preemptive rights do not apply to reserve issuances, or the reserve could never be used. Brock's milestone units also come out of the reserve.
+6. **Spending above $5,000.** You gave me two numbers. I added: $5,000 to $25,000 needs you plus two more founders; above $25,000 needs a 70% vote. Change the tiers if you want.
 
-7. **Percentages.** Your 20/20/13/13/13/1.5 are "fully diluted" percentages of 10,000,000. Until the reserve is issued, each person actually owns more of what exists: Nick 24.845% of outstanding units, each 13-holder 16.149%, Brock 1.863%. Votes are measured against Class A only: Nick 25.316%, each 13-holder 16.456%. All three sets are in Schedule A and the cap table.
+7. **Seven months of charges.** I counted May through November as seven monthly charges. If November's had not been charged by closing, the total is lower. JGN also has 60 days after closing to add anything missed (the Delaware filing and registered-agent fees are not in your list).
 
-8. **Votes: 75% of Class A, every decision, silence never counts** (TLNT rule). The math for your table (threshold 5,925,000 of 7,900,000 voting units):
-   - Nick + Christian + any two of Gabriel/Stephen/Michael: 6,600,000 = 83.5%. Passes.
-   - Nick + Christian + one 13-holder: 5,300,000 = 67.1%. Fails.
-   - Nick + all three 13-holders (Christian out): 5,900,000 = 74.7%. Fails by 25,000 units.
-   - Christian + all three 13-holders (Nick out): same, fails.
-   - So nothing passes without both you and Christian, and any two of the 13-holders together can block. If you want Nick + the three 13s to be enough, the threshold has to be 74% or lower (at 70%, 5,530,000, that combination passes and Nick + Christian + one 13 still fails; at 66⅔%, 5,266,667, Nick + Christian + one 13 also passes).
+8. **Value of the company on closing day: $12,490**, what it cost to build. With no revenue, no customers, no cash and a licensed brand, cost is the only evidence there is.
 
-9. **JGN-conflict votes.** On a vote to change JGN's deal (amend the license, repay the advances), the four JGN owners are "interested" and only Christian is not. TLNT's rule says if fewer than three members are disinterested, it falls back to the normal 75% vote, which means the JGN owners vote on their own deal. A buyer will notice. The alternative is to require Christian's written consent for any change to the JGN agreement. I left the TLNT rule in; say if you want Christian's consent instead.
+9. **You sign both sides of the JGN Agreement and the Brock amendment**, as CEO of JGN and CEO of the company, under unanimous written approvals from both sets of owners. Christian countersigns only your own unit agreement and receipt, so you are not signing a document with yourself.
 
-10. **Who signs for whom.** You sign everything for the company and sign for JGN as Authorized Representative. Christian signs the JGN Agreement for the company (so the same person is not on both sides), countersigns your purchase agreement and receipt, and confirms each founder's payment against the bank records; you confirm his. Bank signers: you and Christian. The August plan had all five as bank signers; tell me if you want that back.
+10. **Brand domains stay with JGN.** The company gets the exclusive right to run the platform on them, with admin and DNS control. I did this because of the Glover agreement (Part 3).
 
-11. **Officer lanes.** CEO (Nick), CTO (Christian), CMO (Gabriel), CIO (Stephen), CDO (Michael: you wrote "chief data engineer", I titled it Chief Data Officer with a data-engineering lane). Spending: CEO and CTO up to $25,000 each; other officers $5,000 in their lane; above $100,000 needs a vote (TLNT numbers). JGN also has to approve anything it is funding.
+11. **Michael's title** is Chief Data Officer with a data-engineering lane.
 
-12. **Vesting: 50% at closing, 50% monthly over 48 months, no cliff**; 50% of unvested units accelerate if a buyer fires you without cause within 12 months of a sale (TLNT terms, same as your August plan). Monthly: 20,833 units for the 20% holders (1,000,000 ÷ 48, rounded down; the last month trues up with 20,849), 13,541 for the 13% holders (last month 13,573).
+## 3. What the Glover agreement forces (already built in)
 
-13. **Non-compete, narrow.** A "Competing Business" is only a *paid* picks/handicapping/props product, or a sports app or community whose main money is paid picks. Expressly allowed: JGN's media business and social accounts (including free picks talk on them), selling ads and sponsorships, TLNT Connect and any software or agency business, being a creator. So it does not collide with TLNT's non-compete, which covers talent-agency and creator software. Brock is bound by his own agreement's exclusivity, not by the OA's.
+You signed this on November 11. Three of its clauses reach into this deal while the $12,600 buyout is unpaid (final date December 31, 2027):
 
-14. **Regulated activity gate.** The OA says the company cannot take bets, run a sportsbook, start sportsbook affiliate deals, or expand paid picks into a state that requires a licence or registration, without a 75% vote and a written compliance plan. That is the only place the documents touch regulation.
+1. **Selling the brand makes the whole buyout due in 30 days.** The binder licenses the brand and says in terms that nothing is sold or assigned.
+2. **JGN cannot move a social account or handle to you or a company you control, except at fair market value.** Nothing of that kind moves. Brand domains also stay put.
+3. **Glover gets 20% of JGN's receipts, including money JGN collects and passes on to a company you control.** So Nosebleed Sports LLC must collect its own subscription money in its own Chase account and its own subscription-platform account. If platform revenue ever runs through JGN, 20% of it is Glover's until he is paid off. Mixed sponsorship deals should be contracted and invoiced in two parts.
 
-15. **Removed from TLNT:** Cost-Shares and the related settlement machinery; Purchase Price Credits; the COO role; Slack as an official channel (Discord plus the text group remain); "rotate credentials" in the account schedule, replaced by "credentials and API keys are changed only as the CTO approves" because of your rule never to rotate keys.
+Also from that agreement: JGN owes a $45,000 loan to a family member of Gabriel. It is JGN's debt, not the company's, and the JGN Agreement says the company takes on none of JGN's debts. A buyer's lawyer will still ask about it because the brand sits in JGN.
 
-## 3. Risks to decide on, once (not in the documents)
+## 4. Still open
 
-- **Paid betting picks are regulated in some states** (tout and advertising rules, age limits, some states require registration or a licence for paid handicapping; sportsbook affiliate deals have their own rules). The documents gate these as Major Decisions and leave the rest to you. A one-hour conversation with a gaming lawyer before you take sportsbook money is the cheap version.
-- **The Brock agreement deadline.** The OA has to be adopted by January 22, 2027 and his units issued within 30 days after, or NSL is in breach of his agreement.
-- **83(b) elections.** Founders buy at fair value with a lower-of-cost-or-FMV repurchase on unvested units; an 83(b) election within 30 days of closing normally costs nothing and avoids tax as units vest. TLNT's CPA said no; the purchase agreements here say the founder "may" elect, nothing more. Ask the CPA.
-- **Form 1065 for 2026 is due March 15, 2027** (IRS letter). Even with almost no activity, a partnership return is due.
-- **Brock's view bonuses and monthly fee** are owed by "the Company" (JGN and NSL jointly) under his agreement. The JGN Agreement allocates them and treats what JGN pays as advances. Nothing is owed by the founders.
-
-## 4. Questions still open (answer these and I rebuild)
-
-Batch A: company and people
-1. Is JGN now owned 25% each by you, Gabriel, Stephen and Michael, with Jacob Glover out? The August notes had Glover at 20%. Document 20 is written for four owners holding 100%.
-2. Is Nado in or out of the cap table, and did he (or anyone else) build the props pipeline or other platform code without signing an IP assignment? Document 16 says no contractor assignment is on file.
-3. Target signing and closing date?
-
-Batch B: money
-4. The JGN expense history: total, categories, and dates (a tracker export). It goes in the JGN Funding Ledger.
-5. Any revenue, subscribers or sponsorship income tied to the Nosebleed platform to date, and where it was collected (Whop? Fanbasis? a JGN account?). The value memo currently says none in NSL's name.
-6. Which bank, and do you want five bank signers or two?
-
-Batch C: rules
-7. 75% votes with the math above, or a lower threshold?
-8. Christian's consent on JGN-deal changes, or the TLNT fallback?
-9. Keep the $25,000 / $5,000 / $100,000 spending thresholds?
-
-Batch D: JGN and assets
-10. Confirm: platform tech assigned to NSL, brand licensed, socials stay with JGN. Which domains does the platform run on, and who holds them today?
-11. Which accounts does JGN hold for the platform (Discord server owner, Vercel, Supabase, Whop, app-store accounts, data APIs)? Account names only, for the account schedule.
-12. Does any sponsorship or affiliate contract relate to the platform rather than the social accounts?
-
-Batch E: launch
-13. Anything in Schedule F (the business description) that is wrong or missing: app-store plans, licensed data provider, newsletter?
-14. Who gets the Founder Summary, who gets the Nick-only guide, and do you want an attorney roadmap like Dave's?
+1. Your own veto: keep "any four of five", or add Nick's consent to the big decisions? (Part 2, item 3)
+2. Brock's 1.5%: vested now, or forfeitable for the first 12 months as his current agreement has it? (item 4)
+3. Did Jacob Glover, or anyone other than the five founders and Brock, write code or make content for the app, website or Discord? If yes, the company needs a one-page IP assignment from them. In the JGN Agreement, JGN states that no former member or contractor has any right in the code, so this has to be true.
+4. Were the Delaware formation and registered-agent fees, or anything else, paid by JGN and missing from the $12,490?
+5. Which domain does the app run on?
+6. Taxes: have your CPA confirm the profits-interest treatment for Christian and Brock, and whether Christian should file a protective 83(b) election within 30 days of closing. The first partnership return (Form 1065) for 2026 is due March 15, 2027.
+7. Paid picks are regulated in some states. The Operating Agreement requires a 70% vote and a written compliance plan before the company takes sportsbook or affiliate money or sells picks where a licence is needed. Worth one conversation with a gaming lawyer before launch.

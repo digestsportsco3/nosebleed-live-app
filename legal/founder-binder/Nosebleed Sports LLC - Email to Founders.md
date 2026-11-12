@@ -1,17 +1,20 @@
-Subject: Nosebleed Sports LLC – founder closing documents
+Subject: Nosebleed Sports LLC – founder closing documents, signing Friday November 20
 
 Team,
 
-Attached is the founder closing binder for Nosebleed Sports LLC and a two-page Founder Summary that explains it in plain English. Please read the summary first, then the Operating Agreement (document 01) in full, then your own purchase agreement (documents 25–29) and the Founder PIIA (document 18).
+Attached is the founder closing binder for Nosebleed Sports LLC. Please read the Operating Agreement (document 01) in full, then your own Restricted Unit Issuance Agreement (documents 25–29) and the Founder PIIA (document 18).
 
-The short version: on closing day each of us signs the Operating Agreement, the consent, the value memo, our purchase agreement and the PIIA, and pays $0.001 a unit in cash into the new company bank account ($2,000 for Christian and me, $1,300 for Gabriel, Stephen and Michael). The company then issues our Class A units (20/20/13/13/13), issues Brock his 1.5% non-voting Class B units under his talent agreement without him having to sign, and keeps 19.5% in reserve for strategic partners. JGN signs over the app, website, Discord and code, licenses the Nosebleed Sports brand to the company permanently, and records everything it has spent as a no-interest loan that nobody owes personally.
+The short version:
 
-Half of our units vest on closing day and the rest monthly over four years. Every decision needs a 75% vote, which in practice means Christian and me plus two of the three of you.
+1. Nobody pays cash. JGN paid every bill for the app, website and Discord (about $12,490 since May). That is recorded as the capital of the four JGN owners, about $3,122.50 each, and it comes back to those four first on any payout or sale. After that everything is split by units.
+2. Units: Christian and I hold 2,000,000 each (20%); Gabriel, Stephen and Michael hold 1,300,000 each (13%); Brock gets 150,000 non-voting units (1.5%) under an amendment to his agreement; 1,950,000 (19.5%) stay in reserve for strategic partners. Christian's units are for finishing the build and serving as CTO.
+3. Half of our units vest at signing and the rest monthly over four years. If a buyer ever lets one of us go, that person's units vest in full and they are paid out.
+4. Every decision needs a 70% vote, which today means any four of the five of us.
+5. JGN signs the code over to the company, licenses the Nosebleed Sports brand to it permanently, and keeps funding it until it can fund itself. The brand and the social accounts stay with JGN.
 
-Two asks before we sign:
-1. Read every page and send me questions by [date]. Nothing changes after signing without a 75% vote.
-2. Talk to your own tax adviser about an 83(b) election; it has to be filed within 30 days of closing if you want it.
+Two asks before Friday:
 
-Target closing: [date]. Bank account opens first; I will send payment instructions once it does.
+1. Read every page and send me questions by Wednesday. Nothing changes after signing without a 70% vote.
+2. Talk to your own tax adviser, including about an 83(b) election; it has to be filed within 30 days of signing if you want one.
 
 Nick

@@ -1,4 +1,4 @@
-Nosebleed Sports LLC – Founder Closing Binder – generator source v1
+Nosebleed Sports LLC – Founder Closing Binder – generator source v2
 ===================================================================
 
 Built 2026-11-12 in a Claude Code cloud session, modeled on the TLNT Connect LLC
@@ -23,17 +23,18 @@ audit_refs.py   every "Section N.N" citation checked against the OA headings; ev
 
 Document numbering (36 documents, 00–35)
 ----------------------------------------
-00–24 fixed. With N signing Founders: RUPIAs are 25..(25+N−1), the Brock Smith
-Class B Unit Issuance Record is 25+N, receipts are (26+N)..(25+2N). N = 5 here,
-so 25–29, 30, 31–35. The numbers are computed in helpers.js (RUPIA_FIRST,
-BROCK_DOC, RECEIPT_FIRST, RECEIPT_LAST) and every cross-reference in documents
-00, 21 and 24 reads them from there.
+00–24 fixed. With N Founders (5) and C Contributing Founders (4): Restricted Unit
+Issuance Agreements are 25..(25+N−1) = 25–29; the Brock Smith Class B Unit Issuance
+Record is 25+N = 30; the First Amendment to the Talent Agreement is 26+N = 31;
+Capital Contribution receipts are (27+N)..(26+N+C) = 32–35 (the Service Founder has
+no receipt). The numbers are computed in helpers.js and every cross-reference reads
+them from there.
 
 Build
 -----
 1. node main.js                       -> html/
 2. ./build_pdf.sh                     -> pdf/   (CHROME=/path/to/chrome to override)
-3. cd pdf && zip -X "../../../Nosebleed Sports LLC - Founder Closing Documents v1.zip" *.pdf
+3. cd pdf && zip -X "../../../Nosebleed Sports LLC - Founder Closing Documents v2.zip" *.pdf
 4. unzip to a temp folder and compare md5s with pdf/ before calling it done.
 5. python3 -I audit_layout.py pdf/ ; pdftotext each PDF to txt/ ; python3 -I audit_refs.py
 
@@ -55,11 +56,39 @@ any document. No "pending attorney/CPA review" language. Credentials and API key
 never appear; the account schedule lists categories and owners only. Founders'
 personal details stay out. Each per-founder agreement gets its own signature page.
 
-v1 history
-----------
-v1 (2026-11-12): first full draft. 153 pages. Structure decisions are listed in
-"../../Nosebleed Sports LLC - Decisions and Questions for Nick.md"; nothing in the
-documents is a guessed fact, but several terms are defaults Nick has to confirm.
-Review passes run on v1: scripted layout audit (every page), banned-word and
-leftover battery, cross-reference audit (every OA citation resolves), figure audit,
-and a full visual pass of every page image at 72 dpi. The zip md5 matches the build.
+Chromium trap found in v2: a <strong> run-in heading at the start of a multi-line
+justified paragraph makes Chrome lay the whole document out one pixel too wide
+(text and table borders reach x=540.7pt instead of 540.0, and table right borders
+are clipped). Section headings are therefore plain weight, as in the TLNT binder.
+After every build, check that no line or table edge exceeds 540.3pt.
+
+History
+-------
+v1 (2026-11-12): first full draft, 153 pages. Founders bought units for cash at
+$0.001; JGN funding was a no-interest loan; 75% votes; Brock admitted without
+signing. Superseded.
+
+v2 (2026-11-12): rebuilt from Nick's answers to the 14 questions and the Glover
+redemption agreement.
+ - No cash purchase. JGN's payments (about $12,490, itemized) are the Capital
+   Contributions of the four JGN owners, about $3,122.50 each, returned first under
+   OA 10.5(a); no loan. Cost-based FMV equal to that amount.
+ - Christian Clark's Class A units and Brock Smith's Class B units are profits
+   interests issued for services ("Service Units").
+ - 70% uniform vote (any four of five founders). JGN ownership never disqualifies.
+ - Spending: CEO $5,000; officers $2,000; $5,000–$25,000 CEO plus two founders;
+   above $25,000 a vote. CEO sole bank signer; Chase; account not a closing condition.
+ - OA 6.12: 100% acceleration and full payout if a buyer ends a founder's service.
+ - Brock: 150,000 Class B units fully vested; First Amendment to his Talent Agreement
+   added as document 31 (he signs it; contains his joinder); milestones restated.
+ - Glover redemption (effective 2026-11-11) reflected: JGN is four owners at 25%;
+   the JGN Agreement licenses and never sells the brand, transfers no social account,
+   handle or brand domain, and has the company collect platform revenue directly.
+ - Nicholas Restivo signs the JGN Agreement and the Talent Amendment for both JGN
+   and the company; Christian Clark countersigns only the CEO's own unit agreement
+   and receipt. All references to other companies removed.
+ - Definitions in the OA are now numbered automatically (oa.js TERMS / R()).
+Review passes on v2: scripted layout, cross-reference and figure audits; banned-word
+battery; two full visual passes (every page image) and a full line read with
+cross-document consistency check on Sonnet reviewers; scenario tracing and hostile
+reads on a Sonnet reviewer.
