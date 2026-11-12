@@ -118,3 +118,6 @@ v2 stress-test fixes (2026-11-12, after the scenario and hostile-read report):
  - Not changed (business terms, listed for Nick in the Decisions document): no
    acceleration for a Good Leaver before a sale; Brock's percentages measured on
    fully diluted units at issuance under his base agreement; no cap on JGN funding.
+ - A focused re-check of every changed provision followed; its 15 conforming fixes
+   are applied (price stated in total, Disability after a sale, doc 17 and 4.8,
+   summaries in docs 00, 12, 14, 16, 20, Talent Amendment 5.6).
