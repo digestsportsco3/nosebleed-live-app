@@ -121,3 +121,26 @@ v2 stress-test fixes (2026-11-12, after the scenario and hostile-read report):
  - A focused re-check of every changed provision followed; its 15 conforming fixes
    are applied (price stated in total, Disability after a sale, doc 17 and 4.8,
    summaries in docs 00, 12, 14, 16, 20, Talent Amendment 5.6).
+
+v3 (2026-11-12): Nick's second round of answers. The generator folder was renamed
+from v2 to v3 (git history has v2).
+ - OA 5.7: Nicholas Restivo's written consent is also required for a sale, merger or
+   dissolution; new units, members or authorized units; any OA amendment; and any
+   change of the CEO. Personal, ends with his Continuous Service and at a sale.
+ - OA 4.8: Gabriel DiDario (CMO) acts as CEO if the CEO cannot, then Christian Clark.
+ - $500 formation and registered-agent cost added to the expense list: total $12,990,
+   $3,247.50 per Contributing Founder (helpers.js HIST).
+ - The former JGN member is no longer named anywhere and the JGN Agreement no longer
+   defines his redemption agreement; the three protections it requires remain, worded
+   generally (brand licensed not sold; no social account or handle moves; the company
+   collects Field revenue directly). The reasoning lives in the Decisions document and
+   the Nick-only guide, not in the binder.
+ - Schedule F: Nosebleed Sports Fantasy added as a planned Company product (not added
+   to OA 11.5); planned podcast noted; OA 2.5 covers paid-entry or prize fantasy
+   contests; "fantasy sports leagues and games" added to the Field in document 19.
+ - Brock Smith's Initial Units stay fully vested (Nick left the choice open).
+Traps met in v3: audit_refs.py reads txt/, which must be regenerated after every
+build (pdftotext -layout each PDF into txt/); and the 1px Chromium widening returned in
+document 03 from an ordinary sentence, fixed by rewording it. Always rerun the
+margin-extent check after any text change.
+

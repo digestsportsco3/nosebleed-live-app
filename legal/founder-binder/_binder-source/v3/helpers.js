@@ -31,9 +31,10 @@ const HIST = [
   { cat: 'Hosting, storage and developer infrastructure', what: 'Hosting, storage and code-repository services for the app, including Railway and GitHub', math: 'Approximately $250 per month for seven months (May through November 2026)', amount: 1750, when: 'May through November 2026' },
   { cat: 'App-store costs', what: 'App-store developer costs for the app', math: 'One charge of approximately $250 in 2026', amount: 250, when: '2026' },
   { cat: 'Interface assets', what: 'Jerseys and helmets purchased as visual assets for the app\'s interface', math: 'One purchase of approximately $100 in November 2026', amount: 100, when: 'November 2026' },
+  { cat: 'Company formation', what: 'Delaware formation filing and registered agent fees for the Company', math: 'Approximately $500 in total', amount: 500, when: '2026' },
 ];
-const HIST_TOTAL = HIST.reduce((s, h) => s + h.amount, 0);                // $12,490
-if (HIST_TOTAL !== 12490) throw new Error('historical expense math does not tie');
+const HIST_TOTAL = HIST.reduce((s, h) => s + h.amount, 0);                // $12,990
+if (HIST_TOTAL !== 12990) throw new Error('historical expense math does not tie');
 
 // Class A Members (the five Founders who sign). Order follows Nick's list.
 const FOUNDERS = [
@@ -52,7 +53,7 @@ const FOUNDERS = [
 const BROCK = { name: 'Brock Smith', first: 'Brock', last: 'Smith', units: 150000, id: 'NBS-CB-0001', role: 'Co-Founder; handicapper and on-camera talent under the Talent Agreement' };
 const CONTRIB = FOUNDERS.filter(f => f.jgn);                            // Contributing Founders: Nick, Gabriel, Stephen, Michael
 const SERVICE = FOUNDERS.find(f => !f.jgn);                             // Service Founder: Christian Clark
-const CONTRIB_EACH = HIST_TOTAL / CONTRIB.length;                       // $3,122.50
+const CONTRIB_EACH = HIST_TOTAL / CONTRIB.length;                       // $3,247.50
 if (CONTRIB_EACH * CONTRIB.length !== HIST_TOTAL) throw new Error('contribution split does not tie');
 
 const CLASS_A = FOUNDERS.reduce((s, f) => s + f.units, 0);           // 7,900,000

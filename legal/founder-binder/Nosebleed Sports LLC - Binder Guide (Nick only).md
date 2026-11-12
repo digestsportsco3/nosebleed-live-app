@@ -1,10 +1,10 @@
 # Nosebleed Sports LLC – Binder Guide (Nick only)
 
-v2, 2026-11-12. This is the plain-English manual for the 36-document founder closing binder. It explains every word, every number and every rule, and it shows the math. Nothing here goes to the other founders.
+v3, 2026-11-12. This is the plain-English manual for the 36-document founder closing binder. It explains every word, every number and every rule, and it shows the math. Nothing here goes to the other founders.
 
 ## Part 1. What the binder does in one paragraph
 
-On one day (the "Actual Closing Date", target November 20, 2026) the five of you sign the Operating Agreement and your unit agreements, and the company issues 7,900,000 voting Class A units to the five founders. Nobody pays cash. You, Gabriel, Stephen and Michael get your units because JGN, which the four of you own, paid every bill (about $12,490); that money is recorded as your capital, about $3,122.50 each, and it comes back to the four of you first whenever the company pays anything out or is sold. Christian gets his units for finishing the build and serving as CTO. The same day the company issues 150,000 non-voting Class B units to Brock, fully vested, under an amendment to his talent agreement that he signs, and keeps 1,950,000 units unissued for future strategic partners. JGN signs one agreement that hands the app, website, Discord and code to the company, licenses the Nosebleed Sports brand to it forever, promises to promote it through the social accounts, and keeps funding it until it can fund itself. Everything else in the binder records that this happened, so a buyer can see it in one place.
+On one day (the "Actual Closing Date", target November 20, 2026) the five of you sign the Operating Agreement and your unit agreements, and the company issues 7,900,000 voting Class A units to the five founders. Nobody pays cash. You, Gabriel, Stephen and Michael get your units because JGN, which the four of you own, paid every bill (about $12,990); that money is recorded as your capital, about $3,247.50 each, and it comes back to the four of you first whenever the company pays anything out or is sold. Christian gets his units for finishing the build and serving as CTO. The same day the company issues 150,000 non-voting Class B units to Brock, fully vested, under an amendment to his talent agreement that he signs, and keeps 1,950,000 units unissued for future strategic partners. JGN signs one agreement that hands the app, website, Discord and code to the company, licenses the Nosebleed Sports brand to it forever, promises to promote it through the social accounts, and keeps funding it until it can fund itself. Everything else in the binder records that this happened, so a buyer can see it in one place.
 
 ## Part 2. Glossary
 
@@ -37,7 +37,7 @@ On one day (the "Actual Closing Date", target November 20, 2026) the five of you
 
 **Units.** 2,000,000 + 2,000,000 + 1,300,000 + 1,300,000 + 1,300,000 = 7,900,000 Class A. Plus 150,000 Class B = 8,050,000 outstanding. Plus 1,950,000 reserved = 10,000,000 authorized.
 
-**What JGN paid (your numbers, May through November 2026, seven months).**
+**What JGN paid (your numbers, May through November 2026, seven months, plus the $500 formation cost).**
 
 | Item | Calculation | Amount |
 |---|---|---|
@@ -47,9 +47,10 @@ On one day (the "Actual Closing Date", target November 20, 2026) the five of you
 | Storage and infrastructure (Railway, GitHub and so on) | $250 × 7 | $1,750 |
 | App store costs | one charge | $250 |
 | Jerseys and helmets for the app's interface | one purchase, November | $100 |
-| **Total** | $7,000 + $2,100 + $1,290 + $1,750 + $250 + $100 | **$12,490** |
+| Delaware formation filing and registered-agent fees | one-time | $500 |
+| **Total** | $7,000 + $2,100 + $1,290 + $1,750 + $250 + $100 + $500 | **$12,990** |
 
-$12,490 ÷ 4 = $3,122.50 each for you, Gabriel, Stephen and Michael. If November's monthly charges had not posted by closing, or the true figures differ, tell me and the schedule changes; the documents also give JGN 60 days after closing to add anything that was missed (formation fees, for example).
+$12,990 ÷ 4 = $3,247.50 each for you, Gabriel, Stephen and Michael. If November's monthly charges had not posted by closing, or the true figures differ, tell me and the schedule changes; the documents also give JGN 60 days after closing to add anything that was missed.
 
 **Fully diluted (of 10,000,000).** 2,000,000 = 20%; 1,300,000 = 13%; 150,000 = 1.5%; 1,950,000 = 19.5%. 20 + 20 + 13 + 13 + 13 + 1.5 + 19.5 = 100.
 
@@ -69,7 +70,7 @@ $12,490 ÷ 4 = $3,122.50 each for you, Gabriel, Stephen and Michael. If November
 | Nick + Christian + one 13% holder | 5,300,000 | 67.1% | fails |
 | Any three people | at most 5,300,000 | at most 67.1% | fails |
 
-So the rule in practice is "any four of the five founders". Nobody has a one-person veto, any two people together can block, and the four JGN owners can act without Christian. The price of that: Christian plus the three 13% holders could also act without you. At 75% (the v1 draft) you and Christian each had a one-person veto and nothing could pass without both of you, which contradicted "Christian has zero say on JGN matters", because changing the JGN deal is also a company vote. If you want your own veto back without giving Christian one, the clean way is to keep 70% and add "and Nick's consent" to a short list of big decisions (a sale, new units, amendments, removing the CEO). Tell me and I add it.
+So the rule in practice is "any four of the five founders". On ordinary decisions nobody has a one-person veto, any two people together can block, and the four JGN owners can act without Christian. The price of that: Christian plus the three 13% holders could also act without you. At 75% (the v1 draft) you and Christian each had a one-person veto and nothing could pass without both of you, which contradicted "Christian has zero say on JGN matters", because changing the JGN deal is also a company vote. You asked for your own veto, so Section 5.7 now adds your written consent to four things: a sale, merger or dissolution; any new units, new member or bigger unit count (Brock's milestone units excepted); any amendment to the Operating Agreement; and removing or replacing you as CEO or changing the CEO's authority. Nobody else has this. It lasts while you are working for the company, it cannot be handed to anyone, and it ends at the closing of a sale. It does not stop the other founders from removing you for cause if the facts fit the definition (any three of the other four), and if that happens the veto ends with your service. Everything outside those four things is still "any four of five", so the other four can still outvote you on ordinary decisions, spending above $25,000, and the company's side of the JGN and Brock agreements.
 
 **Votes about one person.** Removing a founder for cause, a disability finding, buying back a leaver's vested units and similar votes are decided by the other four founders only. The rule is at least three of them holding 65% of their units.
 
@@ -84,9 +85,9 @@ So it is always "any three of the other four". The last build used 70% here, and
 
 **A sale, worked through.** Say the company sells for $1,000,000 the day after closing and every founder is kept or paid out in full.
 
-1. Capital comes back first: $12,490, which is $3,122.50 each to you, Gabriel, Stephen and Michael.
-2. The remaining $987,510 is split across all 8,050,000 units: $245,344.10 for each 2,000,000-unit holder, $159,473.66 for each 1,300,000-unit holder, $18,400.81 for Brock. Check: 2 × $245,344.10 + 3 × $159,473.66 + $18,400.81 = $987,509.99 (a cent of rounding).
-3. Totals: you $248,466.60; Christian $245,344.10; Gabriel, Stephen and Michael $162,596.16 each; Brock $18,400.81.
+1. Capital comes back first: $12,990, which is $3,247.50 each to you, Gabriel, Stephen and Michael.
+2. The remaining $987,010 is split across all 8,050,000 units: $245,219.88 for each 2,000,000-unit holder, $159,392.92 for each 1,300,000-unit holder, $18,391.49 for Brock. Check: 2 × $245,219.88 + 3 × $159,392.92 + $18,391.49 = $987,010.01 (a cent of rounding).
+3. Totals: you $248,467.38; Christian $245,219.88; Gabriel, Stephen and Michael $162,640.42 each; Brock $18,391.49.
 
 Every extra dollar JGN puts in after closing is added to step 1 and comes back to the four of you the same way.
 
@@ -96,9 +97,9 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 
 **Ownership and money (Article 3).** No one buys units. The four of you receive units for the capital JGN put in on your behalf; Christian receives his for services. JGN's money is capital, not a loan: the company owes nobody anything for it, no interest runs, and it is returned first on any payout (Section 10.5). If closing has not happened within 120 days of the first signature, everything resets. Money JGN pays after closing is credited equally to the four of you unless all four agree otherwise, and it only counts if it paid an approved company expense and was reported to the founders. The reserve can only be issued by a 70% vote, and founders have no preemptive rights over it; 350,000 of the reserve is set aside for Brock's milestone units (500,000 − 150,000). Any founder who ever owes the company money (a capital call they agreed to, for example) has seven days to pay after notice, with a dispute route to an accountant.
 
-**Management (Article 4).** Member-managed, no board. You run the company and are the only bank signer; Christian finishes and runs the platform; Gabriel runs marketing and the funnel from the media network; Stephen runs information systems and website operations; Michael runs data engineering and the picks and odds pipelines. Spending: you up to $5,000 on your own; every other officer up to $2,000 in their lane; an officer's spend from $2,000 to $5,000 needs your approval; $5,000 to $25,000 needs you plus two more founders; above $25,000 needs a 70% vote. All per vendor per rolling 12 months. JGN also has to say yes to anything it is funding. Weekly sync and quarterly review are mandatory; the official channels are the Discord server and the founders' text group; a founder must answer company business within two business days (24 hours if marked urgent). Three uncured failures in a year can be treated as cause. You prepare a budget each quarter and a 70% vote approves it. If you cannot act, Christian acts as CEO (including at the bank and as tax representative) until the founders vote in a successor; if Christian cannot act, you act as CTO.
+**Management (Article 4).** Member-managed, no board. You run the company and are the only bank signer; Christian finishes and runs the platform; Gabriel runs marketing and the funnel from the media network; Stephen runs information systems and website operations; Michael runs data engineering and the picks and odds pipelines. Spending: you up to $5,000 on your own; every other officer up to $2,000 in their lane; an officer's spend from $2,000 to $5,000 needs your approval; $5,000 to $25,000 needs you plus two more founders; above $25,000 needs a 70% vote. All per vendor per rolling 12 months. JGN also has to say yes to anything it is funding. Weekly sync and quarterly review are mandatory; the official channels are the Discord server and the founders' text group; a founder must answer company business within two business days (24 hours if marked urgent). Three uncured failures in a year can be treated as cause. You prepare a budget each quarter and a 70% vote approves it. If you cannot act, Gabriel acts as CEO (including at the bank and as tax representative), and Christian if Gabriel cannot, until the founders vote in a successor; if Christian cannot act, you act as CTO.
 
-**Votes (Article 5).** 70% of Class A for every company decision (any four of five); any three of the other four for a vote about one person; counted only on actual yes votes. Class B never votes. JGN ownership does not disqualify any of you from voting on JGN matters. A governance review six months after closing; an optional outside-counsel review when monthly recurring revenue hits $25,000 or the company becomes self-sufficient.
+**Votes (Article 5).** 70% of Class A for every company decision (any four of five); any three of the other four for a vote about one person; counted only on actual yes votes. A sale, new units, amendments and any change of CEO also need your consent (Section 5.7). Class B never votes. JGN ownership does not disqualify any of you from voting on JGN matters. A governance review six months after closing; an optional outside-counsel review when monthly recurring revenue hits $25,000 or the company becomes self-sufficient.
 
 **Vesting and leaving (Article 6).** 50% vested at closing, 50% monthly over 48 months. If a founder leaves, unvested units are bought back automatically at the lower of Original Cost and fair value (nothing, for Christian). If the company has no cash to pay, it pays as soon as it can and the buyback still stands. Vested units are never forfeited; the company can buy them at fair value, no discounts, only if the founder quits voluntarily, is removed for cause, commits serious misconduct, or competes. Vesting pauses while a founder is in uncured default and the schedule extends month for month. Before a sale, nobody can be pushed out without cause.
 
@@ -108,28 +109,30 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 
 **IP and accounts (Article 8).** Everything built for the platform belongs to the company. The PIIA makes each founder assign it, including work done before closing; that is how Christian's work gets assigned, since he never signed anything before. JGN, which owns the code today, assigns it to the company at closing. The brand, the socials, their handles and the brand domains stay JGN's. Company-critical accounts (repos, hosting, databases, the Discord server, whatever collects subscriptions, the data APIs, the bank) must end up in the company's name or under its control, and credentials and API keys are never written down in the binder and never changed without Christian's say-so. The one exception: if the CTO seat is empty, or the CTO is the person being suspended or investigated for cause, you plus one other founder can approve a change.
 
-**Tax (Article 10).** Partnership for tax. Capital accounts: $3,122.50 each for the four of you, zero for Christian and Brock. Losses paid for with your capital are allocated to the four of you. Distributions: capital back first, then pro rata by units, by 70% vote, after reserves. You are the Tax Representative.
+**Tax (Article 10).** Partnership for tax. Capital accounts: $3,247.50 each for the four of you, zero for Christian and Brock. Losses paid for with your capital are allocated to the four of you. Distributions: capital back first, then pro rata by units, by 70% vote, after reserves. You are the Tax Representative.
+
+**Planned products (Schedule F).** Nosebleed Sports Fantasy (hosted fantasy leagues, NFL first, then MLB and NBA; led by Christian and Michael; not started) is listed as a company product, so anything built for it belongs to the company. It is not added to the 12-month non-compete, which still covers paid picks only. Any fantasy league that charges an entry fee or pays prizes counts as a regulated activity and needs a 70% vote with a compliance plan first (Section 2.5). Brock's podcast is noted as planned with no name and no contract yet; under the documents as written, podcasts sit on JGN's side unless its contract says otherwise.
 
 **Competition (Article 11).** For 12 months after leaving, a founder cannot build or work on a paid picks product or a sports app or community whose main money is paid picks. Everything else is allowed: JGN's media business and socials (free picks talk included), selling ads and sponsorships, any software, agency or other business, being a creator. No poaching staff or talent (Brock included) and no interfering with subscribers, sponsors or data providers for 12 months. Company opportunities must be offered to the company first. No other company is named anywhere in the binder.
 
 **Death, disability, dissolution, liability (Articles 12–15).** Estates keep vested units and join as members; unvested units are bought back unless three of the other four founders vote otherwise within 90 days. Dissolution needs a 70% vote. No founder is personally liable for company debts, and nobody owes anybody for JGN's money.
 
-**Amendments (Article 16).** 70% vote plus the consent of anyone hurt differently from the others: Brock if his economics are cut, any of the four of you if your capital priority is cut, any founder if the sale-acceleration right is cut.
+**Amendments (Article 16).** 70% vote plus your consent, plus the consent of anyone hurt differently from the others: Brock if his economics are cut, any of the four of you if your capital priority is cut, any founder if the sale-acceleration right is cut.
 
 ## Part 5. The JGN Agreement (document 19), section by section
 
-1. Definitions: Brand (name, logos, domains), Social Accounts (including their handles), Platform Assets (the code and everything built for the platform), the Field (apps, sites, communities, paid picks, subscriptions), the Reserved Field (socials, free content, ads, sponsorships, merch, JGN's other media), the Redemption Agreement (Glover's buyout), Self-Sufficiency Date.
+1. Definitions: Brand (name, logos, domains), Social Accounts (including their handles), Platform Assets (the code and everything built for the platform), the Field (apps, sites, communities, paid picks, subscriptions), the Reserved Field (socials, free content, podcasts, ads, sponsorships, merch, JGN's other media), Self-Sufficiency Date. Fantasy leagues are now named in the Field, so Nosebleed Sports Fantasy sits on the company's side.
 2. JGN assigns the Platform Assets, including the code, to the company now, as part of your four capital contributions.
 3. JGN keeps the brand, the socials and handles, the brand domains, historical content, all social-account revenue and its other media business. The agreement says in terms that it licenses the brand and sells nothing.
 4. Brand License: exclusive in the Field (even against JGN), worldwide, perpetual, royalty-free, includes running the platform on the brand domains (JGN stays the owner and registrant and points the domains where the company directs), assignable to a buyer without JGN's consent. JGN must give a buyer a written confirmation within 10 business days. If JGN ever sells the brand, the company gets a 45-day first offer. JGN can end the license only if the company stops using the brand for 24 straight months or a court finds an uncured quality breach.
 5. Promotion covenant: link in bios, regular posts, stories and lives on a quarterly cadence; free; no promoting a competing paid-picks product; survives a sale for 24 months.
 6. Brock's agreement: JGN handles the brand and managed-account side, the company handles the platform and premium side. JGN pays Brock's $800 a month, bonuses and revenue shares as its own expense; they are only added to your capital if JGN and the company write down that a payment was for the platform.
-7. Funding: JGN's past payments ($12,490) and future payments are capital of the four of you, not a loan, no interest, nothing owed back; they are returned only through payouts. JGN funds the approved quarterly budget until self-sufficiency and can stop on 90 days' notice, which has to go to every founder.
+7. Funding: JGN's past payments ($12,990) and future payments are capital of the four of you, not a loan, no interest, nothing owed back; they are returned only through payouts. JGN funds the approved quarterly budget until self-sufficiency and can stop on 90 days' notice, which has to go to every founder.
 8. Revenue: platform money is the company's and must be collected in the company's own accounts, never through JGN; social-account money is JGN's; mixed deals are contracted and invoiced separately where possible. If platform money ever lands in a JGN account by mistake, JGN holds it for the company and passes it on within 10 days.
 9. Accounts: JGN holds all the platform accounts today and transfers them (not the socials, handles or brand domains); keys change only as Christian approves.
-10–13. No equity for JGN; JGN warrants it owns the code and the brand, that no former member (including Glover) or contractor has any right in them, that the deal does not breach the Glover agreement, and that JGN is not doing this to avoid any creditor and can still pay its debts afterwards; JGN's Glover buyout and other debts are JGN's alone; competition covenant; Delaware law. You sign for both sides, as CEO of each, under unanimous consents on both sides.
+10–13. No equity for JGN; JGN warrants it owns the code and the brand, that no former member or contractor has any right in them, that the deal does not breach any of JGN's agreements (including with a current or former member), and that JGN is not doing this to avoid any creditor and can still pay its debts afterwards; JGN's debts and what it owes current and former members are JGN's alone; competition covenant; Delaware law. You sign for both sides, as CEO of each, under unanimous consents on both sides.
 
-**Why the Glover agreement shaped this.** Three clauses in the redemption agreement you signed on November 11 matter here:
+**Why the Glover agreement shaped this.** His name no longer appears anywhere in the 36 documents (v3); the protections are written in general terms. They exist because of three clauses in the redemption agreement you signed on November 11:
 
 - The unpaid buyout ($12,600) becomes due within 30 days if JGN sells its rights in the Nosebleed Sports brand. So the binder licenses the brand and never sells it.
 - While the buyout is unpaid, JGN cannot transfer a social account or handle to any of you or to a company you control, except at fair market value. So no social account, handle or brand domain moves to Nosebleed Sports LLC.
@@ -142,7 +145,7 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 | 00 | Master Record Book Index | Table of contents and closing record | Nick |
 | 01 | Operating Agreement | The rulebook | All five; company by Nick |
 | 02 | Organizational Written Consent | First vote: adopts the OA, approves value, contributions, issuances, officers, banking, the JGN documents | All five |
-| 03 | FMV Memorandum | Why the company is worth what it cost ($12,490) on closing day | All five |
+| 03 | FMV Memorandum | Why the company is worth what it cost ($12,990) on closing day | All five |
 | 04 | Capital Contribution Instructions | How the four contributions are recorded; no cash | Nick |
 | 05 | Issuance Closing Statement | Reconciles units and contributions | Nick |
 | 06 | Capital Contribution Ledger | Records each contribution and the capital accounts | Nick |
@@ -153,7 +156,7 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 | 11 | Capitalization Table | Three percentage views and who contributed what | Nick |
 | 12 | Vesting Ledger | Vesting per founder with the monthly math | Nick |
 | 13 | Contribution and Separation Schedule | Per person: capital, services, IP | Nick |
-| 14 | Historical Expense and JGN Contribution Schedule | The $12,490, item by item | Nick |
+| 14 | Historical Expense and JGN Contribution Schedule | The $12,990, item by item | Nick |
 | 15 | Company Asset Schedule | What the company owns and what it licenses | Nick |
 | 16 | IP Chain of Title Register | Which document gives the company each kind of IP | Nick |
 | 17 | Company Account Schedule | Account categories and the control standard | Nick |
@@ -171,7 +174,7 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 
 ## Part 7. Closing steps (document 21 has all 25)
 
-1. You make JGN's payment records for the $12,490 available to everyone; everyone reviews documents 14 and 03.
+1. You make JGN's payment records for the $12,990 available to everyone; everyone reviews documents 14 and 03.
 2. All five sign 03, 02, 01, their RUIA and 18. The four JGN owners sign 20. You sign 19 for both sides.
 3. Brock gets a copy of the Operating Agreement; then you (for JGN and the company) and Brock sign 31. It takes effect on closing day. If closing never happens, his agreement stays as it is today.
 4. The company records the four contributions; you write the Actual Closing Date on the OA signature page and sign the company blocks; Christian countersigns your RUIA and receipt.

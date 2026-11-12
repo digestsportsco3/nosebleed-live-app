@@ -22,9 +22,9 @@ The "share of all units" column counts the 1,950,000 reserved units as if they w
 
 ## Nobody pays cash
 
-No one buys units. JGN Media LLC, owned by Nick, Gabriel, Stephen and Michael, paid every bill for the app, the website and the Discord from May through November 2026: about $12,490. That is recorded as the capital of those four, about $3,122.50 each. Christian receives his units for finishing the build and serving as CTO. Brock receives his for his work under his talent agreement.
+No one buys units. JGN Media LLC, owned by Nick, Gabriel, Stephen and Michael, paid every bill for the app, the website and the Discord from May through November 2026, plus the cost of forming the company: about $12,990. That is recorded as the capital of those four, about $3,247.50 each. Christian receives his units for finishing the build and serving as CTO. Brock receives his for his work under his talent agreement.
 
-The $12,490, and anything JGN pays later, is not a loan and nobody owes it. It simply comes back to the four who put it in before anything else is paid out. After that, every payout and any sale price is split by units.
+The $12,990, and anything JGN pays later, is not a loan and nobody owes it. It simply comes back to the four who put it in before anything else is paid out. After that, every payout and any sale price is split by units.
 
 ## Vesting
 
@@ -36,7 +36,7 @@ If a buyer fires you without cause, cuts your role or pay enough that you resign
 
 ## Votes
 
-Every decision needs yes votes from holders of 70% of the voting units. On today's numbers that means any four of the five founders. Silence never counts as a yes. Brock's units do not vote. A vote about one founder (removal for cause, for example) is decided by the other four, and takes any three of them.
+Every decision needs yes votes from holders of 70% of the voting units. On today's numbers that means any four of the five founders. Silence never counts as a yes. Brock's units do not vote. Four things also need Nick's written consent while he is working for the company: a sale or dissolution of the company, issuing new units or admitting a new member, changing the Operating Agreement, and removing or replacing the CEO. A vote about one founder (removal for cause, for example) is decided by the other four, and takes any three of them.
 
 ## Spending
 
