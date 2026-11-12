@@ -1,6 +1,6 @@
 # Nosebleed Sports LLC founder binder: v2 decisions and what is still open
 
-Written 2026-11-12, after your answers to the 14 questions and the Glover redemption agreement. Part 1 is what I changed because you said so. Part 2 is the calls I had to make to turn your answers into documents; each one is a default you can flip. Part 3 is what the Glover agreement forces. Part 4 is the short list still open.
+Written 2026-11-12, after your answers to the 14 questions and the Glover redemption agreement. Part 1 is what I changed because you said so. Part 2 is the calls I had to make to turn your answers into documents; each one is a default you can flip. Part 3 is what the Glover agreement forces. Part 4 is the short list still open. Part 5 is what the last stress test changed. Part 6 is the risk that drafting cannot remove.
 
 ## 1. What changed in v2 because of your answers
 
@@ -17,9 +17,10 @@ Written 2026-11-12, after your answers to the 14 questions and the Glover redemp
 | JGN owns the code today and transfers it at closing with a perpetual brand license | Document 19 says exactly that. |
 | JGN owns the accounts; no deals tied to the platform | Recorded in the account schedule, the asset schedule and the value memo. |
 | No attorney roadmap; summary and guide to you | Done. |
+| Schedule F | Sent to you in chat. No changes received yet; it is in the binder as sent. |
 | Nobody pays for units; the four funders' money counts as their contribution; Christian earns his 20% by finishing the build and serving as CTO | No purchase price anywhere. The $12,490 is the capital of you, Gabriel, Stephen and Michael, $3,122.50 each. Christian's units are issued for services. |
 | Brock gets 1.5% now without having to earn it, still capped at 5%; amend his agreement | New document 31, a First Amendment to his talent agreement: 150,000 Class B units, fully vested when issued; milestones restated to 2.5% / 3.75% / 5% at $60,000 / $110,000 / $175,000. He signs that one document. |
-| If a buyer fires a founder, they are paid for 100% of their equity, vested or not | Section 6.12: full vesting and full payout within 10 days if a buyer fires a founder without cause, the founder resigns for good reason, or the buyer does not keep them on. Cannot be cut back without that founder's consent. |
+| If a buyer fires a founder, they are paid for 100% of their equity, vested or not | Section 6.12: full vesting and full payout within 10 days if a buyer fires a founder without cause, the founder resigns for good reason, or the buyer does not keep them on. Also covers death or disability after the sale. Cannot be cut back without that founder's consent. |
 
 ## 2. Calls I made that you should confirm
 
@@ -41,7 +42,7 @@ Written 2026-11-12, after your answers to the 14 questions and the Glover redemp
 
 9. **You sign both sides of the JGN Agreement and the Brock amendment**, as CEO of JGN and CEO of the company, under unanimous written approvals from both sets of owners. Christian countersigns only your own unit agreement and receipt, so you are not signing a document with yourself.
 
-10. **Brand domains stay with JGN.** The company gets the exclusive right to run the platform on them, with admin and DNS control. I did this because of the Glover agreement (Part 3).
+10. **Brand domains stay with JGN.** The company gets the exclusive right to run the platform on them; JGN points them where the company directs. I did this because of the Glover agreement (Part 3).
 
 11. **Michael's title** is Chief Data Officer with a data-engineering lane.
 
@@ -64,3 +65,23 @@ Also from that agreement: JGN owes a $45,000 loan to a family member of Gabriel.
 5. Which domain does the app run on?
 6. Taxes: have your CPA confirm the profits-interest treatment for Christian and Brock, and whether Christian should file a protective 83(b) election within 30 days of closing. The first partnership return (Form 1065) for 2026 is due March 15, 2027.
 7. Paid picks are regulated in some states. The Operating Agreement requires a 70% vote and a written compliance plan before the company takes sportsbook or affiliate money or sells picks where a licence is needed. Worth one conversation with a gaming lawyer before launch.
+
+## 5. What the last stress test changed (confirm or flip)
+
+A reviewer traced 13 situations through the documents (a founder quits, is removed, dies, is disabled; a sale; a failed closing; a dispute over the $12,490; a transfer; a new partner; JGN stops funding; Brock is terminated; a Glover claim; a founder who refuses to vote) and read them as each side's lawyer would. I fixed the drafting defects. Five of the fixes are choices you should know about:
+
+1. **Votes about one person: any three of the other four.** The last build said 70% of the other founders' units. For a vote about a 13% holder that needed 4,620,000 units, and you plus two 13% holders have 4,600,000, so both you and Christian had to say yes every time. It is now 65% with at least three people, which is exactly "any three of the other four" in every case (math in the guide). It cuts both ways: Gabriel, Stephen and Michael together could find cause against you or against Christian if the facts fit the definition of cause.
+2. **The sale protection is tighter.** After a sale, a buyer can only call it "cause" after written notice and 30 days to fix it; disputed money stays in escrow; the held-back money sits with an independent escrow agent; nothing can be set off against it. I also added death or disability after a sale to the events that pay a founder out in full.
+3. **If you cannot act, Christian acts as CEO** (signing, the bank, tax representative) until the founders vote in a successor, and you act as CTO if he cannot. Without this, your death or incapacity left no one able to sign or reach the bank account. If you would rather name Gabriel, Stephen or Michael as your stand-in, say so.
+4. **Future JGN money is credited equally to the four of you unless all four agree otherwise.** Before, JGN (meaning you, signing alone) could re-split it. It also only counts as capital if it paid an approved company expense and was reported to the founders.
+5. **Brock's amendment takes effect on closing day, not when he signs.** If closing never happens, his agreement stays as it is today. He gets a copy of the Operating Agreement before he signs.
+
+Smaller fixes, no decision needed: a leaver's buyback price can no longer wipe out capital he was not paid for; unpaid buyback money is paid when the company has cash; "termination date" is defined; 350,000 reserve units are set aside for Brock's milestones; a quarterly budget approved by 70% vote; handles removed from the brand definition; JGN holds any stray platform money in trust for the company; JGN's notice to stop funding goes to every founder; a death leaves 90 days (not 30) to decide what happens to unvested units.
+
+## 6. Risk that drafting cannot remove
+
+1. **Glover and JGN's creditors.** JGN hands its code to the company and receives nothing itself (its four owners get the units). While JGN owes Glover $12,600 and the $45,000 family loan, a creditor who went unpaid could attack that transfer. The JGN Agreement has JGN state that it is not doing this to avoid any creditor and can still pay its debts. That statement has to be true when you sign. The real protection is paying Glover on schedule; the best is a short written acknowledgment from him, or paying him off before a sale.
+2. **The $12,490 valuation.** Christian's and Brock's units are tax-free on receipt only if the company is worth no more than $12,490 on closing day. The memo values it at cost and gives no separate value to the brand license, the free promotion or the Discord members. It is signed by the founders, not an appraiser. If the IRS valued the company higher, part of their units would be taxable. This is the one question to put to a CPA before signing.
+3. **Leaving before a sale.** A founder who dies, is disabled or resigns for good reason before any sale keeps vested units but loses the unvested ones, the same as someone who quits. You asked for full payout when a buyer fires someone; you did not ask for it here, so I did not add it. Say so if you want it.
+4. **Brock's percentages float.** His agreement measures each milestone percentage against the fully diluted units on the day it is issued. If the company ever authorizes more than 10,000,000 units, his milestone units scale up with it. His agreement also lets revenue received in the 60 days after termination count toward a milestone.
+5. **Documents a buyer will ask for that are not in the binder.** Brock's talent agreement, the Glover redemption agreement and JGN's own operating agreement. The binder refers to all three. Keep signed copies with the record book.

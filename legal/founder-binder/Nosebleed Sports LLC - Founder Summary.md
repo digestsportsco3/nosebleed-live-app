@@ -32,11 +32,11 @@ Half of your units are yours on closing day. The other half vest monthly over 48
 
 ## If the company is sold
 
-If a buyer fires you without cause, cuts your role or pay enough that you resign for good reason, or simply does not keep you on, all of your unvested units vest and you are paid in full within 10 days. If you stay on, your unvested portion keeps vesting on the normal schedule.
+If a buyer fires you without cause, cuts your role or pay enough that you resign for good reason, or simply does not keep you on, all of your unvested units vest and you are paid in full within 10 days. The same applies if you die or become disabled after the sale. If you stay on, your unvested portion keeps vesting on the normal schedule, and the money for it is held by an independent escrow agent until it vests.
 
 ## Votes
 
-Every decision needs yes votes from holders of 70% of the voting units. On today's numbers that means any four of the five founders. Silence never counts as a yes. Brock's units do not vote.
+Every decision needs yes votes from holders of 70% of the voting units. On today's numbers that means any four of the five founders. Silence never counts as a yes. Brock's units do not vote. A vote about one founder (removal for cause, for example) is decided by the other four, and takes any three of them.
 
 ## Spending
 
@@ -48,7 +48,7 @@ JGN owns the Nosebleed Sports brand and the social accounts and keeps all revenu
 
 ## Your duties
 
-Do your lane (Section 4.2 of the Operating Agreement), attend the weekly sync and the quarterly review, and answer company business in the Discord or the text group within two business days. Everything you build for the platform belongs to the company, including what you built before closing. Keep company information confidential, use company accounts for company work, and never change a credential or API key without Christian's approval.
+Do your lane (Section 4.2 of the Operating Agreement), attend the weekly sync and the quarterly review, and answer company business in the Discord or the text group within two business days. Everything you build for the platform belongs to the company, including what you built before closing. Keep company information confidential, use company accounts for company work, and never change a credential or API key without Christian's approval (Section 4.8 covers the case where the CTO cannot act).
 
 ## Non-compete
 

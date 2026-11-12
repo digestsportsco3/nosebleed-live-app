@@ -19,6 +19,9 @@ const AUTH_UNITS = 10000000;
 const RESERVE = 1950000;
 const VOTE = 70;                 // uniform approval threshold, percent of outstanding Class A Units
 const VP = VOTE + '%';
+const DVOTE = 65;                // threshold for matters measured by Disinterested Ownership: any three of the other four Founders
+const DVP = DVOTE + '%';
+const MILESTONE_RESERVE = 500000 - 150000; // Reserved Units set aside for Brock Smith's Milestone Units (5% cap less Initial Units)
 
 // Historical operating expenses, all paid by JGN, as reported by the CEO on 2026-11-12. Amounts are approximate.
 const HIST = [
@@ -180,5 +183,5 @@ function memberSigs(capacity) {
 }
 const CAP_COLS = '<colgroup><col class="c1"><col class="c2"></colgroup>';
 
-module.exports = { CO, CO_UP, FORMED, DEFILE, EIN, RA, ADDR, TALENT_DATE, TALENT_DEADLINE, REDEMPTION_DATE, BANK, AUTH_UNITS, RESERVE, VOTE, VP, HIST, HIST_TOTAL, CONTRIB, SERVICE, CONTRIB_EACH, APPROX_TOTAL, APPROX_EACH, consideration, FOUNDERS, BROCK, CLASS_A, CLASS_B, OUTSTANDING, FMV_TOTAL, CEO, CTO, JGN_MEMBERS, N_FOUNDERS, RUPIA_FIRST, BROCK_DOC, TALENT_AMEND_DOC, RECEIPT_FIRST, RECEIPT_LAST, N_DOCS,
+module.exports = { CO, CO_UP, FORMED, DEFILE, EIN, RA, ADDR, TALENT_DATE, TALENT_DEADLINE, REDEMPTION_DATE, BANK, AUTH_UNITS, RESERVE, VOTE, VP, DVOTE, DVP, MILESTONE_RESERVE, HIST, HIST_TOTAL, CONTRIB, SERVICE, CONTRIB_EACH, APPROX_TOTAL, APPROX_EACH, consideration, FOUNDERS, BROCK, CLASS_A, CLASS_B, OUTSTANDING, FMV_TOTAL, CEO, CTO, JGN_MEMBERS, N_FOUNDERS, RUPIA_FIRST, BROCK_DOC, TALENT_AMEND_DOC, RECEIPT_FIRST, RECEIPT_LAST, N_DOCS,
   money, num, pct, fdPct, outPct, votePct, vested, monthly, nb, nbName, heDoc, listAnd, FOUNDERS_AND, JGN_AND, CSS, doc, DEFINED, EFF, DEF_ONLY, kv, tbl, coSig, personSig, memberSigs, CAP_COLS };

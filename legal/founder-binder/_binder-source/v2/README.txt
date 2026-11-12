@@ -92,3 +92,29 @@ Review passes on v2: scripted layout, cross-reference and figure audits; banned-
 battery; two full visual passes (every page image) and a full line read with
 cross-document consistency check on Sonnet reviewers; scenario tracing and hostile
 reads on a Sonnet reviewer.
+
+v2 stress-test fixes (2026-11-12, after the scenario and hostile-read report):
+ - Votes measured by Disinterested Ownership: at least three Members holding 65%
+   (helpers.js DVOTE), which is any three of the other four founders. 70% was 20,000
+   units short for a vote about a 13% holder.
+ - Repurchase mechanics: Original Cost is measured at the repurchase; Unreturned
+   Capital falls only by the price actually paid; capital follows transferred Units;
+   repurchase price carved out of OA 3.6 and JGN Agreement 7.3; deferred payment when
+   6 Del. C. 18-607 or cash prevents it; "termination date" defined.
+ - OA 4.8 added (vacancies, acting officers, emergency credential changes).
+ - OA 6.12 / 7.5: death or Disability after a sale covered; post-sale Cause needs
+   notice and cure; independent escrow; no set-off; acquirer must be bound.
+ - OA 12.1: 90 days, decided by the disinterested founders.
+ - Threshold Amount rewritten (what counts, where diverted amounts go, order,
+   recipient's valuation right); 350,000 Reserved Units set aside for Milestone Units.
+ - Later JGN Contributions credited equally unless all four agree; must be approved
+   expenses and reported. Quarterly budget by Supermajority Approval (OA 4.3).
+ - Talent Amendment takes effect on the Issuance Date (the Actual Closing Date) and
+   lapses with a failed closing; Brock receives the OA before signing.
+ - JGN Agreement: units removed from the consideration recital; handles removed from
+   the Brand definition; DNS wording narrowed; stray Field revenue held in trust;
+   funding-stop notice to every Class A Member; creditor/solvency statement and
+   indemnity; section 6 survives.
+ - Not changed (business terms, listed for Nick in the Decisions document): no
+   acceleration for a Good Leaver before a sale; Brock's percentages measured on
+   fully diluted units at issuance under his base agreement; no cap on JGN funding.
