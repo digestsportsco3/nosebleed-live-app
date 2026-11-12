@@ -55,8 +55,8 @@ function doc00() {
     [`${RUPIA_FIRST}–${RUPIA_FIRST + N_FOUNDERS - 1}`, 'Founder Restricted Unit Issuance Agreements', 'Individual Founder issuance, vesting, tax-responsibility, securities and continuing-obligation documents.'],
     [String(BROCK_DOC), 'Brock Smith Class B Unit Issuance Record', 'Company record of the Class B issuance to Brock Smith under the Talent Agreement; signed by the Company only.'],
     [String(TALENT_AMEND_DOC), 'First Amendment to Talent, Handicapping, and Content Services Agreement', 'Sets Brock Smith\'s Initial Units at 150,000 fully vested Class B Units, restates his milestones to the same 5% cap, and contains his joinder to the Operating Agreement.'],
-    [String(H.POA_DOC), 'Nicholas Restivo Member Proxy and Limited Power of Attorney', 'Appoints Gabriel DiDario to vote Nicholas Restivo\'s Units and give his Section 5.7 consent while he is unavailable; signed before a notary and two witnesses.'],
     [`${RECEIPT_FIRST}–${RECEIPT_LAST}`, 'Founder Capital Contribution Receipts', 'Receipts completed once each Contributing Founder\'s Capital Contribution is recorded.'],
+    [String(H.POA_DOC), 'Nicholas Restivo Member Proxy and Limited Power of Attorney', 'Appoints Gabriel DiDario to vote Nicholas Restivo\'s Units and give his Section 5.7 consent while he is Unavailable, as that document defines it; signed before a notary and two witnesses and received by the Company.'],
   ]) +
   `<h2>4. CLOSING RECORD</h2>` +
   kv([
