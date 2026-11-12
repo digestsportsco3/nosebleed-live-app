@@ -55,6 +55,7 @@ function doc00() {
     [`${RUPIA_FIRST}–${RUPIA_FIRST + N_FOUNDERS - 1}`, 'Founder Restricted Unit Issuance Agreements', 'Individual Founder issuance, vesting, tax-responsibility, securities and continuing-obligation documents.'],
     [String(BROCK_DOC), 'Brock Smith Class B Unit Issuance Record', 'Company record of the Class B issuance to Brock Smith under the Talent Agreement; signed by the Company only.'],
     [String(TALENT_AMEND_DOC), 'First Amendment to Talent, Handicapping, and Content Services Agreement', 'Sets Brock Smith\'s Initial Units at 150,000 fully vested Class B Units, restates his milestones to the same 5% cap, and contains his joinder to the Operating Agreement.'],
+    [String(H.POA_DOC), 'Nicholas Restivo Member Proxy and Limited Power of Attorney', 'Appoints Gabriel DiDario to vote Nicholas Restivo\'s Units and give his Section 5.7 consent while he is unavailable; signed before a notary and two witnesses.'],
     [`${RECEIPT_FIRST}–${RECEIPT_LAST}`, 'Founder Capital Contribution Receipts', 'Receipts completed once each Contributing Founder\'s Capital Contribution is recorded.'],
   ]) +
   `<h2>4. CLOSING RECORD</h2>` +
@@ -198,7 +199,7 @@ function doc07() {
 <li>no fact arising after the Members signed the Founder Equity Fair Market Value Determination Memorandum and on or before the Actual Closing Date contradicts it;</li>
 <li>the Company's Official Unit Ledger, Capitalization Table, Founder Equity and Vesting Ledger, Founder Capital Contribution Ledger and Members' Capital Accounts have been updated;</li>
 <li>the Company delivered to Brock Smith a copy of the Operating Agreement and the Class B Unit Issuance Record, or will do so within 10 days after the Actual Closing Date;</li>
-<li>the Company retained signed copies of the Operating Agreement, the Initial Member and Organizational Written Consent, the five Restricted Unit Issuance Agreements, the Founder PIIA, the JGN Agreement, the JGN Member Consent Approving Nosebleed Agreement, the Class B Unit Issuance Record, the First Amendment to the Talent Agreement and the Founder Capital Contribution Receipts, and a copy of the Talent Agreement.</li>
+<li>the Company retained signed copies of the Operating Agreement, the Initial Member and Organizational Written Consent, the five Restricted Unit Issuance Agreements, the Founder PIIA, the JGN Agreement, the JGN Member Consent Approving Nosebleed Agreement, the Class B Unit Issuance Record, the First Amendment to the Talent Agreement, the Founder Capital Contribution Receipts and the Member Proxy and Limited Power of Attorney of Nicholas Restivo, and a copy of the Talent Agreement.</li>
 </ul>` +
   kv([['Actual Closing Date'], ['Last contribution recorded'], ['Receipt Number Range'], ['Supporting records reference'], ['Aggregate Capital Contributions', APPROX_TOTAL], ['Aggregate capital credited to Members\' Capital Accounts', APPROX_TOTAL], ['Founder Capital Contribution Ledger updated'], ['Official Unit Ledger updated'], ['Capitalization Table updated'], ['Founder Equity and Vesting Ledger updated'], ['Members\' Capital Accounts updated']], 'kv keep') +
   coSig();

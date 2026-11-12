@@ -45,6 +45,7 @@ H.FOUNDERS.forEach((f, i) => docs.push([String(H.RUPIA_FIRST + i), `${f.name} - 
 docs.push([String(H.BROCK_DOC), `${H.BROCK.name} - Class B Unit Issuance Record`, F.brockRecord]);
 docs.push([String(H.TALENT_AMEND_DOC), `${H.BROCK.name} - First Amendment to Talent Agreement`, F.talentAmendment]);
 H.CONTRIB.forEach((f, i) => docs.push([String(H.RECEIPT_FIRST + i), `${f.name} - Founder Capital Contribution Receipt`, () => F.receipt(i)]));
+docs.push([String(H.POA_DOC), `${H.CEO.name} - Member Proxy and Limited Power of Attorney`, F.memberProxy]);
 
 if (docs.length !== H.N_DOCS) throw new Error(`expected ${H.N_DOCS} documents, built ${docs.length}`);
 const manifest = [];

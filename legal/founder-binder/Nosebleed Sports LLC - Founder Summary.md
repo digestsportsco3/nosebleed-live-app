@@ -36,7 +36,7 @@ If a buyer fires you without cause, cuts your role or pay enough that you resign
 
 ## Votes
 
-Every decision needs yes votes from holders of 70% of the voting units. On today's numbers that means any four of the five founders. Silence never counts as a yes. Brock's units do not vote. Four things also need Nick's written consent while he is working for the company: a sale or dissolution of the company, issuing new units or admitting a new member, changing the Operating Agreement, and removing or replacing the CEO. A vote about one founder (removal for cause, for example) is decided by the other four, and takes any three of them.
+Every decision needs yes votes from holders of 70% of the voting units. On today's numbers that means any four of the five founders. Silence never counts as a yes. Brock's units do not vote. Four things also need Nick's written consent while he is working for the company: a sale or dissolution of the company, issuing new units or admitting a new member, changing the Operating Agreement, and removing or replacing the CEO. A vote about one founder (removal for cause, for example) is decided by the other four, and takes any three of them. If Nick is unreachable, Gabriel can vote Nick's units and give or refuse Nick's consent under a limited power of attorney (document 36); he cannot use it to cut Nick's rights, remove Nick as CEO or vote on anything about himself.
 
 ## Spending
 

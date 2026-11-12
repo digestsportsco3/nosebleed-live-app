@@ -71,7 +71,9 @@ const BROCK_DOC = RUPIA_FIRST + N_FOUNDERS;                              // doc 
 const TALENT_AMEND_DOC = BROCK_DOC + 1;                                  // doc 31: First Amendment to the Talent Agreement
 const RECEIPT_FIRST = TALENT_AMEND_DOC + 1;                              // docs 32-35: one receipt per Contributing Founder
 const RECEIPT_LAST = RECEIPT_FIRST + CONTRIB.length - 1;                 // 35
-const N_DOCS = RECEIPT_LAST + 1;                                         // 36 documents, 00-35
+const POA_DOC = RECEIPT_LAST + 1;                                        // doc 36: Nicholas Restivo Member Proxy and Limited Power of Attorney
+const N_DOCS = POA_DOC + 1;                                              // 37 documents, 00-36
+const GABE = FOUNDERS[2];                                                // the Agent under document 36
 
 function money(n) { return '$' + n.toLocaleString('en-US', Number.isInteger(n) ? {} : { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
 const APPROX_TOTAL = 'approximately ' + money(HIST_TOTAL);              // approximately $12,490
@@ -184,5 +186,5 @@ function memberSigs(capacity) {
 }
 const CAP_COLS = '<colgroup><col class="c1"><col class="c2"></colgroup>';
 
-module.exports = { CO, CO_UP, FORMED, DEFILE, EIN, RA, ADDR, TALENT_DATE, TALENT_DEADLINE, REDEMPTION_DATE, BANK, AUTH_UNITS, RESERVE, VOTE, VP, DVOTE, DVP, MILESTONE_RESERVE, HIST, HIST_TOTAL, CONTRIB, SERVICE, CONTRIB_EACH, APPROX_TOTAL, APPROX_EACH, consideration, FOUNDERS, BROCK, CLASS_A, CLASS_B, OUTSTANDING, FMV_TOTAL, CEO, CTO, JGN_MEMBERS, N_FOUNDERS, RUPIA_FIRST, BROCK_DOC, TALENT_AMEND_DOC, RECEIPT_FIRST, RECEIPT_LAST, N_DOCS,
+module.exports = { CO, CO_UP, FORMED, DEFILE, EIN, RA, ADDR, TALENT_DATE, TALENT_DEADLINE, REDEMPTION_DATE, BANK, AUTH_UNITS, RESERVE, VOTE, VP, DVOTE, DVP, MILESTONE_RESERVE, HIST, HIST_TOTAL, CONTRIB, SERVICE, CONTRIB_EACH, APPROX_TOTAL, APPROX_EACH, consideration, FOUNDERS, BROCK, CLASS_A, CLASS_B, OUTSTANDING, FMV_TOTAL, CEO, CTO, JGN_MEMBERS, N_FOUNDERS, RUPIA_FIRST, BROCK_DOC, TALENT_AMEND_DOC, RECEIPT_FIRST, RECEIPT_LAST, POA_DOC, GABE, N_DOCS,
   money, num, pct, fdPct, outPct, votePct, vested, monthly, nb, nbName, heDoc, listAnd, FOUNDERS_AND, JGN_AND, CSS, doc, DEFINED, EFF, DEF_ONLY, kv, tbl, coSig, personSig, memberSigs, CAP_COLS };

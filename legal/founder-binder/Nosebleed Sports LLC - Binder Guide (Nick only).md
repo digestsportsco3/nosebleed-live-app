@@ -1,6 +1,6 @@
 # Nosebleed Sports LLC – Binder Guide (Nick only)
 
-v3, 2026-11-12. This is the plain-English manual for the 36-document founder closing binder. It explains every word, every number and every rule, and it shows the math. Nothing here goes to the other founders.
+v3, 2026-11-12. This is the plain-English manual for the 37-document founder closing binder. It explains every word, every number and every rule, and it shows the math. Nothing here goes to the other founders.
 
 ## Part 1. What the binder does in one paragraph
 
@@ -105,7 +105,9 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 
 **If a buyer ends your service (Section 6.12).** If, at the closing of a sale or any time after it, the buyer fires a founder without cause, the founder resigns for good reason (a real cut in role, pay or location), or the buyer simply does not offer the founder a comparable role, 100% of that founder's unvested units vest and every dollar held back for them is paid within 10 days. It also covers a firing within 90 days before closing that was done for the buyer, and a founder who dies or becomes disabled after the sale. After a sale, "cause" needs written notice and 30 days to fix the problem, and if the founder disputes it the money stays in escrow until the dispute is settled. The held-back money sits with an independent escrow agent, not the buyer, and cannot be set off against other claims. The sale documents must bind the buyer to all of this and cannot water it down without that founder's consent. A founder who stays on keeps vesting normally and the buyer holds their unvested money until it vests; that is what gives the buyer comfort while guaranteeing you are paid in full if they let you go.
 
-**Transfers (Article 7).** No transfers without a vote, except to a family trust or a wholly owned company. Right of first refusal to the company then the other founders; tag-along; drag-along on an approved sale. Sale money is split the same way as any distribution: capital back first, then by units.
+**Your stand-in for votes (Section 5.3 and document 36).** If you are in hospital, or simply do not answer a written request about a specific matter within 5 business days (sent in the Discord or text group and by email, saying Gabe will act if you don't), Gabe can vote your 2,000,000 units and give or refuse your veto consent on that matter. He must act in your interest, tell you within 2 business days, and keep a record. He cannot sell your units, cut your economics, your veto or your sale payout, remove you as CEO, vote on anything about himself, or act on a cause or disability finding about you. Anything you say on a matter overrides him. You can revoke it any time in writing. It ends at your death.
+
+**Transfers (Article 7). No transfers without a vote, except to a family trust or a wholly owned company. Right of first refusal to the company then the other founders; tag-along; drag-along on an approved sale. Sale money is split the same way as any distribution: capital back first, then by units.
 
 **IP and accounts (Article 8).** Everything built for the platform belongs to the company. The PIIA makes each founder assign it, including work done before closing; that is how Christian's work gets assigned, since he never signed anything before. JGN, which owns the code today, assigns it to the company at closing. The brand, the socials, their handles and the brand domains stay JGN's. Company-critical accounts (repos, hosting, databases, the Discord server, whatever collects subscriptions, the data APIs, the bank) must end up in the company's name or under its control, and credentials and API keys are never written down in the binder and never changed without Christian's say-so. The one exception: if the CTO seat is empty, or the CTO is the person being suspended or investigated for cause, you plus one other founder can approve a change.
 
@@ -132,7 +134,7 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 9. Accounts: JGN holds all the platform accounts today and transfers them (not the socials, handles or brand domains); keys change only as Christian approves.
 10–13. No equity for JGN; JGN warrants it owns the code and the brand, that no former member or contractor has any right in them, that the deal does not breach any of JGN's agreements (including with a current or former member), and that JGN is not doing this to avoid any creditor and can still pay its debts afterwards; JGN's debts and what it owes current and former members are JGN's alone; competition covenant; Delaware law. You sign for both sides, as CEO of each, under unanimous consents on both sides.
 
-**Why the Glover agreement shaped this.** His name no longer appears anywhere in the 36 documents (v3); the protections are written in general terms. They exist because of three clauses in the redemption agreement you signed on November 11:
+**Why the Glover agreement shaped this.** His name no longer appears anywhere in the binder (v3); the protections are written in general terms. They exist because of three clauses in the redemption agreement you signed on November 11:
 
 - The unpaid buyout ($12,600) becomes due within 30 days if JGN sells its rights in the Nosebleed Sports brand. So the binder licenses the brand and never sells it.
 - While the buyout is unpaid, JGN cannot transfer a social account or handle to any of you or to a company you control, except at fair market value. So no social account, handle or brand domain moves to Nosebleed Sports LLC.
@@ -171,14 +173,15 @@ Every extra dollar JGN puts in after closing is added to step 1 and comes back t
 | 30 | Brock Smith Class B Unit Issuance Record | The company's record of Brock's grant | Nick only |
 | 31 | First Amendment to Brock's Talent Agreement | 1.5% now, vested; milestones to the same 5% cap; his joinder | Nick for JGN and the company; Brock |
 | 32–35 | Capital Contribution Receipts | One for each of the four contributing founders | Nick; Christian signs Nick's |
+| 36 | Member Proxy and Limited Power of Attorney | Lets Gabe vote your units and give your veto consent while you are unreachable | You, before a notary and two witnesses; Gabe accepts; Christian signs the company's receipt |
 
-## Part 7. Closing steps (document 21 has all 25)
+## Part 7. Closing steps (document 21 has all 26)
 
 1. You make JGN's payment records for the $12,990 available to everyone; everyone reviews documents 14 and 03.
 2. All five sign 03, 02, 01, their RUIA and 18. The four JGN owners sign 20. You sign 19 for both sides.
 3. You (for JGN and the company) and Brock sign 31. He does not need to be handed the Operating Agreement first; it is available if he asks, and he gets a copy within 10 days after closing. It takes effect on closing day. If closing never happens, his agreement stays as it is today.
 4. The company records the four contributions; you write the Actual Closing Date on the OA signature page and sign the company blocks; Christian countersigns your RUIA and receipt.
-5. You sign 30 and send it to Brock within 10 days; update the ledgers; sign 07 last.
+5. You sign 36 in front of a notary and two witnesses (not Gabe); Gabe signs his acceptance in front of a notary; Christian signs the company's receipt. Then you sign 30 and send it to Brock within 10 days; update the ledgers; sign 07 last.
 6. After closing: open the Chase account; within 60 days JGN adds any expense that was missed.
 
 Deadline from Brock's agreement: the OA must be adopted by January 22, 2027. A November 20 closing is well inside it.

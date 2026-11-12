@@ -162,3 +162,9 @@ session scratchpad); notable: 10.5 vote not needed for sale or wind-up proceeds,
 capital extinguished on fair-value purchases, 4.8 resumption and vacancy, 1.11 restructured,
 doc 31 deadline extension and forum carve-out. The 1px Chromium widening recurred from a
 6.5 sentence and was fixed by rewording; td/th break-inside: avoid and .sigpage.flow added.
+
+Document 36 added (2026-11-12): Nicholas Restivo Member Proxy and Limited Power of Attorney
+naming Gabriel DiDario (founder_docs.js memberProxy; helpers POA_DOC, GABE; N_DOCS 37). OA 5.3
+now permits proxies; OA 5.7 consent may be exercised by that attorney-in-fact. Listed in
+documents 00, 07 and 21. Signature page flows (.sigpage.flow) to avoid a near-empty page.
+
