@@ -143,4 +143,7 @@ Traps met in v3: audit_refs.py reads txt/, which must be regenerated after every
 build (pdftotext -layout each PDF into txt/); and the 1px Chromium widening returned in
 document 03 from an ordinary sentence, fixed by rewording it. Always rerun the
 margin-extent check after any text change.
-
+A focused re-check of the v3 changes followed; its eight fixes are applied (OA 4.8
+rewritten so each office has its own stand-in rule, Section 5.7 referenced in 5.2,
+11.5(c), 13.1 and the Reserved Units rows of documents 00, 10 and 22, document 03
+wording for the formation cost, Schedule F product count).

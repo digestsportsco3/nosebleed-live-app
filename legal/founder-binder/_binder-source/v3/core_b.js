@@ -244,7 +244,7 @@ function doc22() {
     ['Chief Executive Officer', CEO.name, 'Executive leadership, Company signatures, sole bank signer, spending up to $5,000 without further approval; Tax Representative.'],
     ['Other officers', FOUNDERS.slice(1).map(f => `${f.name} (${f.office})`).join(', '), 'Officer-lane authority; spending up to $2,000 in lane without further approval.'],
     ['JGN Media LLC', 'Separate New York entity owned 25% each by ' + JGN_AND, 'Owns the Nosebleed Sports brand and the Social Accounts and receives their revenue; assigns the Platform Assets to the Company; licenses the brand and promotes the Platform under the JGN Agreement; funds the Company until the Self-Sufficiency Date as capital of its four members; not a Member.'],
-    ['Reserved Units', num(RESERVE) + ' Units (' + fdPct(RESERVE) + ' fully diluted)', 'Unissued; reserved for future strategic partners and Milestone Units; issuable only as a Major Decision (strategic partners) or when earned (Milestone Units).'],
+    ['Reserved Units', num(RESERVE) + ' Units (' + fdPct(RESERVE) + ' fully diluted)', 'Unissued; reserved for future strategic partners and Milestone Units; issuable only as a Major Decision with the consent required by Operating Agreement Section 5.7 (strategic partners) or when earned (Milestone Units).'],
   ], 'w') + coSig();
   return doc(22, 'ORGANIZATION AND GOVERNANCE SUMMARY', body);
 }
