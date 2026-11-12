@@ -1,6 +1,6 @@
 # Nosebleed Sports LLC founder binder: v3 decisions and what is still open
 
-Updated 2026-11-12 for v3, after your second round of answers. Part 0 is what v3 changed. Parts 1 to 3 are the v2 record (your first answers, the calls I made, and what the Glover agreement forces). Part 4 is what is still open. Part 5 is what the stress test changed. Part 6 is the risk that drafting cannot remove.
+Updated 2026-11-12 for v3, after your second and third rounds of answers. Part 0 is what v3 changed. Parts 1 to 3 are the v2 record (your first answers, the calls I made, and what the Glover agreement forces). Part 4 is what is still open. Part 5 is what the stress test changed. Part 6 is the risk that drafting cannot remove.
 
 ## 0. What changed in v3 because of your second round of answers
 
@@ -13,7 +13,11 @@ Updated 2026-11-12 for v3, after your second round of answers. Part 0 is what v3
 | Formation and registered-agent fees: $500, paid by JGN | Added to Schedule C and document 14. Total is now $12,990; $12,990 ÷ 4 = $3,247.50 each. |
 | Leave Glover out if possible | His name and his agreement are out of all 36 documents. The protections his agreement requires are still there, worded generally. Risks are in Part 3. |
 | Schedule F is good; add the fantasy feature | Nosebleed Sports Fantasy added as a planned company product (hosted fantasy leagues, NFL first, then MLB and NBA; led by Christian and Michael; not started). Paid-entry or prize leagues need a 70% vote and a compliance plan first. |
-| Brock's podcast, no name yet, contract to follow | Noted in Schedule F as planned with no name and no contract. See Part 4, item 1. |
+| Brock's podcast, no name yet, contract to follow | Noted in Schedule F as planned with no name and no contract; ownership settled below. |
+| Backup CTO: Stephen, then Michael | Section 4.8: if Christian cannot act, Stephen acts as CTO, then Michael. For any other officer, you name a stand-in. |
+| The company owns Brock's podcast | Schedule F says so (name, recordings, feeds, listeners, revenue collected directly). In the JGN Agreement, podcasts the company produces are moved into the company's licensed field, and JGN's side expressly excludes anything in that field. The podcast contract between the company and Brock goes in the record book once signed. |
+| The non-compete covers fantasy for now | Section 11.5 adds a fourth restricted category: a product whose main purpose is hosting fantasy leagues or contests, free or paid. Playing fantasy, or running a league on someone else's platform, is not restricted. |
+| Can Brock sign without the Operating Agreement? | Yes. His amendment now says a copy was available to him on request, and he gets one within 10 days after closing. See Part 4, item 1. |
 
 ## 1. What changed in v2 because of your answers
 
@@ -81,11 +85,12 @@ Also from that agreement: JGN owes a $45,000 loan to a family member of Gabriel.
 
 ## 4. Still open
 
-1. **Who owns Brock's podcast: JGN or Nosebleed Sports LLC?** As written, podcasts are media and sit on JGN's side, like the social accounts. A buyer of Nosebleed Sports LLC would then not get the podcast. If you want the company to own it so a buyer does, tell me and I move podcasts to the company's side; its contract then goes in the record book after closing.
-2. **Fantasy and the non-compete.** Fantasy is listed as a company product, so what is built for it belongs to the company. The 12-month non-compete still covers paid picks only. Say so if a founder who leaves should also be barred from building a competing fantasy-league product.
-3. **Which domain does the app run on?** Not needed to sign; needed for the account schedule after closing.
-4. **Taxes.** Have a CPA confirm the profits-interest treatment for Christian and Brock at the $12,990 value, and whether Christian should file a protective 83(b) election within 30 days of closing. The first partnership return (Form 1065) for 2026 is due March 15, 2027.
-5. **Paid picks and paid fantasy are regulated in some states.** The Operating Agreement requires a 70% vote and a written compliance plan before the company sells picks where a licence is needed, takes sportsbook or affiliate money, or runs fantasy leagues with entry fees or prizes. Worth one conversation with a gaming lawyer before launch.
+1. **Brock and the Operating Agreement (a risk to know, not a decision).** His signature on the amendment binds him to the Operating Agreement, which sets the terms that matter most to him: his units do not vote, your $12,990 comes back before he sees anything, the company can buy his units at fair value if he quits or is terminated for cause, and he can be dragged into a sale. If he signs without seeing it and later disputes one of those terms, his best argument is "I never saw it". The amendment answers that: it lists those terms in plain words in his acknowledgments and says a copy was his for the asking. The safest practice is still to hand it to him; this way is legally workable. He gets a copy within 10 days after closing either way, because a member is entitled to the company agreement.
+2. **Which domain does the app run on?** Not needed to sign; needed for the account schedule after closing.
+3. **Taxes.** Have a CPA confirm the profits-interest treatment for Christian and Brock at the $12,990 value, and whether Christian should file a protective 83(b) election within 30 days of closing. The first partnership return (Form 1065) for 2026 is due March 15, 2027.
+4. **Paid picks and paid fantasy are regulated in some states.** The Operating Agreement requires a 70% vote and a written compliance plan before the company sells picks where a licence is needed, takes sportsbook or affiliate money, or runs fantasy leagues with entry fees or prizes. Worth one conversation with a gaming lawyer before launch.
+5. **The fantasy non-compete is weaker until fantasy exists.** Courts enforce a non-compete to protect a business the company actually has. Until Nosebleed Sports Fantasy is being built, a founder who leaves could argue the fantasy part protects nothing. The paid-picks part is unaffected. The fantasy part also binds JGN while any of the four of you is restricted, so JGN cannot launch its own fantasy product in that time.
+6. **Brock's podcast contract.** His talent agreement gives JGN the work product that relates to the brand and the social accounts. The podcast contract should say plainly that the podcast and its recordings belong to the company, so there is no overlap.
 
 ## 5. What the last stress test changed (confirm or flip)
 
@@ -93,9 +98,9 @@ A reviewer traced 13 situations through the documents (a founder quits, is remov
 
 1. **Votes about one person: any three of the other four.** The last build said 70% of the other founders' units. For a vote about a 13% holder that needed 4,620,000 units, and you plus two 13% holders have 4,600,000, so both you and Christian had to say yes every time. It is now 65% with at least three people, which is exactly "any three of the other four" in every case (math in the guide). It cuts both ways: Gabriel, Stephen and Michael together could find cause against you or against Christian if the facts fit the definition of cause.
 2. **The sale protection is tighter.** After a sale, a buyer can only call it "cause" after written notice and 30 days to fix it; disputed money stays in escrow; the held-back money sits with an independent escrow agent; nothing can be set off against it. I also added death or disability after a sale to the events that pay a founder out in full.
-3. **If you cannot act, Gabriel acts as CEO, then Christian** (signing, the bank, tax representative) until the founders vote in a successor, and you act as CTO if Christian cannot. Without this, your death or incapacity left no one able to sign or reach the bank account. (Updated in v3 to your order.)
+3. **If you cannot act, Gabriel acts as CEO, then Christian** (signing, the bank, tax representative) until the founders vote in a successor, and Stephen, then Michael, acts as CTO if Christian cannot. Without this, your death or incapacity left no one able to sign or reach the bank account. (Updated in v3 to your order.)
 4. **Future JGN money is credited equally to the four of you unless all four agree otherwise.** Before, JGN (meaning you, signing alone) could re-split it. It also only counts as capital if it paid an approved company expense and was reported to the founders.
-5. **Brock's amendment takes effect on closing day, not when he signs.** If closing never happens, his agreement stays as it is today. He gets a copy of the Operating Agreement before he signs.
+5. **Brock's amendment takes effect on closing day, not when he signs.** If closing never happens, his agreement stays as it is today. A copy of the Operating Agreement is available to him on request before he signs, and he gets one within 10 days after closing.
 
 Smaller fixes, no decision needed: a leaver's buyback price can no longer wipe out capital he was not paid for; unpaid buyback money is paid when the company has cash; "termination date" is defined; 350,000 reserve units are set aside for Brock's milestones; a quarterly budget approved by 70% vote; handles removed from the brand definition; JGN holds any stray platform money in trust for the company; JGN's notice to stop funding goes to every founder; a death leaves 90 days (not 30) to decide what happens to unvested units.
 

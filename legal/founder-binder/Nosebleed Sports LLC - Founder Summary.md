@@ -52,7 +52,7 @@ Do your lane (Section 4.2 of the Operating Agreement), attend the weekly sync an
 
 ## Non-compete
 
-For 12 months after you leave, you cannot build or work on a paid picks product, or a sports app or community that makes its money from paid picks. Everything else is open to you: media brands, social accounts, free sports content, selling ads and sponsorships, any software or agency business, being a creator.
+For 12 months after you leave, you cannot build or work on a paid picks product, a sports app or community that makes its money from paid picks, or a product whose main purpose is hosting fantasy leagues or contests. Playing fantasy, or running a league on someone else's platform, is fine. Everything else is open to you: media brands, social accounts, free sports content, selling ads and sponsorships, any software or agency business, being a creator.
 
 ## Taxes
 

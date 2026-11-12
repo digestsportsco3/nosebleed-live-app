@@ -147,3 +147,10 @@ A focused re-check of the v3 changes followed; its eight fixes are applied (OA 4
 rewritten so each office has its own stand-in rule, Section 5.7 referenced in 5.2,
 11.5(c), 13.1 and the Reserved Units rows of documents 00, 10 and 22, document 03
 wording for the formation cost, Schedule F product count).
+
+v3, third round of answers (2026-11-12): backup CTO is the CIO, then the CDO (OA 4.8);
+the company owns Brock's planned podcast (Schedule F; document 19 adds company podcasts
+to the Field and excludes the Field from the Reserved Field); OA 11.5 adds clause (d),
+fantasy leagues and contests; Brock may sign the Talent Amendment with the OA available on
+request, and receives a copy within 10 days after closing (OA 3.7(b), documents 07, 21,
+30, 31).
