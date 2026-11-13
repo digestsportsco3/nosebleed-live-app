@@ -168,3 +168,11 @@ naming Gabriel DiDario (founder_docs.js memberProxy; helpers POA_DOC, GABE; N_DO
 now permits proxies; OA 5.7 consent may be exercised by that attorney-in-fact. Listed in
 documents 00, 07 and 21. Signature page flows (.sigpage.flow) to avoid a near-empty page.
 
+No capital preference (2026-11-13, Nick: JGN is not expecting to be paid back): Unreturned
+Capital removed from the OA; 10.5 is a single pro rata tier subject to Threshold Amounts;
+Service Units are capital interests for services, valued at closing at HIST_TOTAL /
+OUTSTANDING per Unit (helpers PER_UNIT, unitValue); 3.7(c) and 10.7 rewritten; Original Cost
+fixed at issuance for Contributing Founders; Christian's unvested Units repurchased at FMV on
+any departure (OA 6.4). Brock's amendment replaces Talent Agreement 5.8 (Initial Units taxable
+at closing value; Milestone Units remain profits interests). Doc 31 signature page flows.
+

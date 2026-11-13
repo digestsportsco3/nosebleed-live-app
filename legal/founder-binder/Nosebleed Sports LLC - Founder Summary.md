@@ -24,7 +24,7 @@ The "share of all units" column counts the 1,950,000 reserved units as if they w
 
 No one buys units. JGN Media LLC, owned by Nick, Gabriel, Stephen and Michael, paid every bill for the app, the website and the Discord from May through November 2026, plus the cost of forming the company: about $12,990. That is recorded as the capital of those four, about $3,247.50 each. Christian receives his units for finishing the build and serving as CTO. Brock receives his for his work under his talent agreement.
 
-The $12,990, and anything JGN pays later, is not a loan and nobody owes it. It simply comes back to the four who put it in before anything else is paid out. After that, every payout and any sale price is split by units.
+The $12,990, and anything JGN pays later, is not a loan and nobody owes it, and it does not come back to the four who put it in first. Every payout and any sale price is split by units from day one.
 
 ## Vesting
 
@@ -56,7 +56,7 @@ For 12 months after you leave, you cannot build or work on a paid picks product,
 
 ## Taxes
 
-The company is a partnership for tax; you will get a K-1 each year. Talk to your own tax adviser before closing, including about an 83(b) election, which has to be filed within 30 days of closing if you want one. The company does not give tax or legal advice.
+The company is a partnership for tax; you will get a K-1 each year. Talk to your own tax adviser before closing, including about an 83(b) election, which has to be filed within 30 days of closing if you want one. Christian's and Brock's units are pay for services, so their value on closing day (about $0.0016 a unit) is taxable to them; Christian in particular should ask about the 83(b) election. The company does not give tax or legal advice.
 
 ## Closing day
 

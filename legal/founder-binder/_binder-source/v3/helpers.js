@@ -77,8 +77,11 @@ const GABE = FOUNDERS[2];                                                // the 
 
 function money(n) { return '$' + n.toLocaleString('en-US', Number.isInteger(n) ? {} : { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
 const APPROX_TOTAL = 'approximately ' + money(HIST_TOTAL);              // approximately $12,490
+const PER_UNIT = 'approximately $' + (HIST_TOTAL / OUTSTANDING).toFixed(4);   // value of one outstanding Unit on the Valuation Date
+function unitValue(units) { return 'approximately ' + money(Math.round(units * HIST_TOTAL / OUTSTANDING * 100) / 100); }
+function ocPerUnit(f) { return 'approximately $' + (CONTRIB_EACH / f.units).toFixed(4); }
 const APPROX_EACH = 'approximately ' + money(CONTRIB_EACH);             // approximately $3,122.50
-function consideration(f) { return f.jgn ? 'Capital Contribution through JGN, ' + APPROX_EACH : 'Services (profits interest); no Capital Contribution'; }
+function consideration(f) { return f.jgn ? 'Capital Contribution through JGN, ' + APPROX_EACH : 'Services; no Capital Contribution'; }
 function num(n) { return n.toLocaleString('en-US'); }
 function pct(n, units, d) { return (100 * n / units).toFixed(d === undefined ? 0 : d) + '%'; }
 function fdPct(units) { return pct(units, AUTH_UNITS, Number.isInteger(100 * units / AUTH_UNITS) ? 0 : 1); } // 20%, 13%, 1.5%
@@ -186,5 +189,5 @@ function memberSigs(capacity) {
 }
 const CAP_COLS = '<colgroup><col class="c1"><col class="c2"></colgroup>';
 
-module.exports = { CO, CO_UP, FORMED, DEFILE, EIN, RA, ADDR, TALENT_DATE, TALENT_DEADLINE, REDEMPTION_DATE, BANK, AUTH_UNITS, RESERVE, VOTE, VP, DVOTE, DVP, MILESTONE_RESERVE, HIST, HIST_TOTAL, CONTRIB, SERVICE, CONTRIB_EACH, APPROX_TOTAL, APPROX_EACH, consideration, FOUNDERS, BROCK, CLASS_A, CLASS_B, OUTSTANDING, FMV_TOTAL, CEO, CTO, JGN_MEMBERS, N_FOUNDERS, RUPIA_FIRST, BROCK_DOC, TALENT_AMEND_DOC, RECEIPT_FIRST, RECEIPT_LAST, POA_DOC, GABE, N_DOCS,
+module.exports = { CO, CO_UP, FORMED, DEFILE, EIN, RA, ADDR, TALENT_DATE, TALENT_DEADLINE, REDEMPTION_DATE, BANK, AUTH_UNITS, RESERVE, VOTE, VP, DVOTE, DVP, MILESTONE_RESERVE, HIST, HIST_TOTAL, CONTRIB, SERVICE, CONTRIB_EACH, APPROX_TOTAL, APPROX_EACH, PER_UNIT, unitValue, ocPerUnit, consideration, FOUNDERS, BROCK, CLASS_A, CLASS_B, OUTSTANDING, FMV_TOTAL, CEO, CTO, JGN_MEMBERS, N_FOUNDERS, RUPIA_FIRST, BROCK_DOC, TALENT_AMEND_DOC, RECEIPT_FIRST, RECEIPT_LAST, POA_DOC, GABE, N_DOCS,
   money, num, pct, fdPct, outPct, votePct, vested, monthly, nb, nbName, heDoc, listAnd, FOUNDERS_AND, JGN_AND, CSS, doc, DEFINED, EFF, DEF_ONLY, kv, tbl, coSig, personSig, memberSigs, CAP_COLS };
