@@ -30,7 +30,7 @@ function doc00() {
     ['00', 'Master Record Book Index', 'Record-book index and closing record.'],
     ['01', 'Operating Agreement', 'Primary Company governance, ownership, voting, transfer, vesting, capital-account, Service Unit, Reserved Unit, IP/account, JGN and approval-threshold instrument.'],
     ['02', 'Initial Member and Organizational Written Consent', 'Approves FMV, the Capital Contributions, the equity issuances, updated records and supporting documents.'],
-    ['03', 'Founder Equity Fair Market Value Determination Memorandum', 'Good-faith FMV support for the issuance and for the profits-interest treatment of the Service Units, including completed factual worksheet and launch-stage valuation rationale.'],
+    ['03', 'Founder Equity Fair Market Value Determination Memorandum', 'Good-faith FMV support for the issuance and for the value of the Units issued for services, including completed factual worksheet and launch-stage valuation rationale.'],
     ['04', 'Founder Capital Contribution Instructions', 'How each Contributing Founder\'s Capital Contribution is recorded; no cash, notes or deferred-payment rights.'],
     ['05', 'Aggregate Founder Issuance Closing Statement', 'Reconciles all Units, Capital Contributions and issuance conditions.'],
     ['06', 'Founder Capital Contribution Ledger', 'Records each Capital Contribution and the accounting fields.'],
@@ -171,7 +171,7 @@ function doc05() {
   `<h3>Brock Smith (Class B)</h3>` + kv([['Units', num(CLASS_B) + ' Class B Units'], ['Fully diluted ownership', fdPct(CLASS_B)], ['Consideration', 'Services under the Talent Agreement'], ['Capital Contribution Amount', 'None'], ['Vesting', 'Fully vested on issuance'], ['Issuance condition', 'Talent Amendment signed by JGN, the Company and Brock Smith; Actual Closing Date']], 'kv2') +
   `<h3>Total – all Founders (Class A)</h3>` + kv([['Units', num(CLASS_A) + ' Class A Units'], ['Fully diluted ownership', fdPct(CLASS_A)], ['Aggregate Capital Contribution', APPROX_TOTAL], ['Cash paid for Units', 'None'], ['All contributions recorded'], ['Immediately Vested', num(CLASS_A / 2)], ['Restricted Units', num(CLASS_A / 2)], ['Issuance condition', 'All Founder closings complete']], 'kv2') +
   tbl(['Reconciliation', 'Amount'], [['Aggregate JGN Contribution through the Actual Closing Date', APPROX_TOTAL], ['Aggregate Founder Capital Contributions', APPROX_TOTAL], ['Aggregate capital credited to Members\' Capital Accounts', APPROX_TOTAL], ['Outstanding Units after closing (Class A plus Class B)', num(OUTSTANDING)], ['Reserved Units (unissued)', num(RESERVE)]], 'keep') +
-  `<p>The aggregate JGN Contribution equals the aggregate Founder Capital Contributions and the aggregate capital credited to Members' Capital Accounts. The Service Units add no capital.</p>
+  `<p>The aggregate JGN Contribution equals the aggregate Founder Capital Contributions and the aggregate capital credited to Members' Capital Accounts. The Service Units add no capital; the Capital Accounts of their holders are adjusted under Operating Agreement Section 10.7.</p>
 <p>The Company shall not mark any issuance complete until the applicable Founder has executed required documents and, for a Contributing Founder, the Company has recorded the applicable Capital Contribution.</p>` + coSig();
   return doc(5, 'AGGREGATE FOUNDER ISSUANCE CLOSING STATEMENT', body);
 }
